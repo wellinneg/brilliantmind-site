@@ -30,7 +30,8 @@ if (heroConteudo && heroSecao && !semMovimento) {
   const aplicarParallax = () => {
     ticando = false;
     const altura = heroSecao.offsetHeight;
-    const progresso = Math.min(Math.max(window.scrollY / altura, 0), 1);
+    const inicio = heroSecao.offsetTop;
+    const progresso = Math.min(Math.max((window.scrollY - inicio) / altura, 0), 1);
     heroConteudo.style.transform = `translateY(${progresso * 60}px)`;
     heroConteudo.style.opacity = String(1 - progresso * 1.1);
   };
