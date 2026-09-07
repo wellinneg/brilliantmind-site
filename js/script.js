@@ -55,6 +55,32 @@ if (heroSecao && heroGlow && !semMovimento) {
   });
 }
 
+// lanterna: farol segue o cursor/dedo e revela o interruptor escondido
+const secaoLanterna = document.querySelector('.secao--lanterna');
+if (secaoLanterna) {
+  const moverFarol = (x, y) => {
+    const retangulo = secaoLanterna.getBoundingClientRect();
+    const px = ((x - retangulo.left) / retangulo.width) * 100;
+    const py = ((y - retangulo.top) / retangulo.height) * 100;
+    secaoLanterna.style.setProperty('--lx', `${px}%`);
+    secaoLanterna.style.setProperty('--ly', `${py}%`);
+  };
+  secaoLanterna.addEventListener('mousemove', (evento) => moverFarol(evento.clientX, evento.clientY));
+  secaoLanterna.addEventListener('touchmove', (evento) => {
+    const toque = evento.touches[0];
+    if (toque) moverFarol(toque.clientX, toque.clientY);
+  }, { passive: true });
+
+  const interruptor = document.getElementById('interruptor');
+  const logoToggle = document.getElementById('logo-toggle');
+  if (interruptor && logoToggle) {
+    interruptor.addEventListener('click', () => {
+      const ligado = interruptor.classList.toggle('ligado');
+      logoToggle.classList.toggle('ligado', ligado);
+    });
+  }
+}
+
 // ano no rodapé
 const anoEl = document.getElementById('ano');
 if (anoEl) anoEl.textContent = new Date().getFullYear();

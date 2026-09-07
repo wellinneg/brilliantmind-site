@@ -157,6 +157,21 @@ body {
 /* ---------- hero ---------- */
 .secao--hero { align-items: flex-start; padding-top: 6rem; padding-bottom: 2rem; }
 
+.hero__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -3;
+}
+.hero__video-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: linear-gradient(180deg, rgba(10,25,30,0.78) 0%, rgba(10,25,30,0.94) 100%);
+}
+
 .hero__conteudo {
   position: relative;
   z-index: 1;
@@ -249,6 +264,87 @@ body {
   .marquee__trilha { animation: none; }
 }
 
+/* ---------- lanterna ---------- */
+.secao--lanterna {
+  background: #000;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.lanterna__farol {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    220px circle at var(--lx, 50%) var(--ly, 50%),
+    rgba(206, 240, 16, 0.35),
+    rgba(206, 240, 16, 0.08) 40%,
+    transparent 70%
+  );
+  mix-blend-mode: screen;
+  animation: tremeluzir 5s infinite steps(30);
+}
+
+@keyframes tremeluzir {
+  0%, 100% { opacity: 0.9; }
+  8%  { opacity: 0.55; }
+  16% { opacity: 1; }
+  24% { opacity: 0.7; }
+  32% { opacity: 0.95; }
+  48% { opacity: 0.5; }
+  60% { opacity: 1; }
+  74% { opacity: 0.75; }
+  88% { opacity: 0.6; }
+}
+
+.lanterna__interruptor-wrap {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  -webkit-mask-image: radial-gradient(220px circle at var(--lx, 50%) var(--ly, 50%), black 55%, transparent 75%);
+  mask-image: radial-gradient(220px circle at var(--lx, 50%) var(--ly, 50%), black 55%, transparent 75%);
+}
+
+.lanterna__interruptor {
+  position: absolute;
+  top: 38%;
+  left: 68%;
+  pointer-events: auto;
+  background: none;
+  border: none;
+  color: var(--cinza-claro);
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.lanterna__interruptor.ligado { color: var(--lime); filter: drop-shadow(0 0 8px var(--lime)); }
+
+.lanterna__logo {
+  position: relative;
+  z-index: 2;
+  max-width: min(90vw, 640px);
+  opacity: 0;
+  transform: scale(0.97);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  pointer-events: none;
+  margin-bottom: 2.5rem;
+}
+.lanterna__logo.ligado { opacity: 1; transform: scale(1); }
+.lanterna__logo img { width: 100%; display: block; }
+
+.lanterna__dica {
+  position: relative;
+  z-index: 2;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: var(--cinza);
+}
+
+@media (max-width: 640px) {
+  .secao--lanterna { cursor: default; }
+}
+
 /* ---------- era manual ---------- */
 .secao--manual {
   background: var(--navy-2);
@@ -299,7 +395,23 @@ body {
 .secao--voo {
   align-items: center;
   text-align: center;
-  background: linear-gradient(180deg, var(--navy-2) 0%, var(--navy) 60%);
+  background: var(--navy);
+  overflow: hidden;
+}
+
+.voo__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.voo__video-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(10,25,30,0.55) 0%, rgba(10,25,30,0.85) 100%);
 }
 
 .voo__texto { position: relative; z-index: 2; }

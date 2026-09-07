@@ -30,6 +30,10 @@
 
   <!-- HERO -->
   <section class="secao secao--hero">
+    <video class="hero__video" autoplay muted loop playsinline aria-hidden="true">
+      <source src="assets/video/automacao-fiscal.mp4" type="video/mp4">
+    </video>
+    <div class="hero__video-overlay" aria-hidden="true"></div>
     <div class="hero__glow" aria-hidden="true"></div>
     <div class="hero__conteudo">
       <div class="hero__rotulo reveal">BMC AUTOMAÇÃO CONTÁBIL</div>
@@ -64,6 +68,26 @@
     </div>
   </div>
 
+  <!-- LANTERNA -->
+  <section class="secao secao--lanterna" id="lanterna">
+    <div class="lanterna__farol" aria-hidden="true"></div>
+
+    <div class="lanterna__interruptor-wrap" aria-hidden="true">
+      <button class="lanterna__interruptor" id="interruptor" type="button" aria-label="Interruptor escondido no escuro">
+        <svg viewBox="0 0 24 24" width="32" height="32">
+          <circle cx="12" cy="13" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+          <line x1="12" y1="4" x2="12" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="lanterna__logo" id="logo-toggle">
+      <img src="assets/logo-contabilidade-automacao.png" alt="Contabilidade + automação — sua rotina contábil merece trabalhar por você.">
+    </div>
+
+    <p class="lanterna__dica reveal">Tem um interruptor escondido no escuro. Ache com a lanterna.</p>
+  </section>
+
   <!-- ERA MANUAL -->
   <section class="secao secao--manual">
     <div class="manual__conteudo">
@@ -80,6 +104,10 @@
 
   <!-- VIRADA -->
   <section class="secao secao--voo" id="voo">
+    <video class="voo__video" autoplay muted loop playsinline aria-hidden="true">
+      <source src="assets/video/aguia-voo.mp4" type="video/mp4">
+    </video>
+    <div class="voo__video-overlay" aria-hidden="true"></div>
     <div class="voo__texto">
       <h2 class="voo__titulo reveal">Voe mais alto</h2>
       <p class="voo__sub reveal reveal--2">NFe, NFS-e e análise fiscal — tudo automatizado, pra você focar no que importa.</p>
