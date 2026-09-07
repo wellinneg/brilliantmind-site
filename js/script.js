@@ -94,15 +94,12 @@ if (secaoLanterna) {
 // águia: reprisa os últimos 2s do voo 3 vezes antes de congelar no logo final
 const vooVideo = document.getElementById('voo-video');
 if (vooVideo) {
-  const JANELA_FINAL = 2;
-  const REPETICOES = 3;
-  let ciclos = 0;
-  vooVideo.addEventListener('timeupdate', () => {
-    if (!vooVideo.duration || ciclos >= REPETICOES) return;
-    if (vooVideo.currentTime >= vooVideo.duration - 0.15) {
-      ciclos++;
-      vooVideo.currentTime = Math.max(0, vooVideo.duration - JANELA_FINAL);
-    }
+  const PAUSA_NO_FINAL = 10000; // ms travado no logo antes de recomeçar
+  vooVideo.addEventListener('ended', () => {
+    setTimeout(() => {
+      vooVideo.currentTime = 0;
+      vooVideo.play().catch(() => {});
+    }, PAUSA_NO_FINAL);
   });
 }
 
