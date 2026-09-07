@@ -74,12 +74,36 @@ if (secaoLanterna) {
 
   const interruptor = document.getElementById('interruptor');
   const logoToggle = document.getElementById('logo-toggle');
+  const logoVideo = document.getElementById('logo-video');
   if (interruptor && logoToggle) {
     interruptor.addEventListener('click', () => {
       const ligado = interruptor.classList.toggle('ligado');
       logoToggle.classList.toggle('ligado', ligado);
+      if (logoVideo) {
+        if (ligado) {
+          logoVideo.currentTime = 0;
+          logoVideo.play().catch(() => {});
+        } else {
+          logoVideo.pause();
+        }
+      }
     });
   }
+}
+
+// águia: reprisa os últimos 2s do voo 3 vezes antes de congelar no logo final
+const vooVideo = document.getElementById('voo-video');
+if (vooVideo) {
+  const JANELA_FINAL = 2;
+  const REPETICOES = 3;
+  let ciclos = 0;
+  vooVideo.addEventListener('timeupdate', () => {
+    if (!vooVideo.duration || ciclos >= REPETICOES) return;
+    if (vooVideo.currentTime >= vooVideo.duration - 0.15) {
+      ciclos++;
+      vooVideo.currentTime = Math.max(0, vooVideo.duration - JANELA_FINAL);
+    }
+  });
 }
 
 // ano no rodapé

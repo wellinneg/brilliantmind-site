@@ -336,7 +336,8 @@ body {
   pointer-events: none;
 }
 .lanterna__logo.ligado { opacity: 1; transform: scale(1); }
-.lanterna__logo img {
+.lanterna__logo img,
+.lanterna__logo-video {
   width: 100%;
   height: 100%;
   object-fit: contain;

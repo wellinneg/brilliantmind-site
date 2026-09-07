@@ -30,7 +30,7 @@
 
   <!-- VOO (primeira tela) -->
   <section class="secao secao--voo secao--voo-abertura" id="voo">
-    <video class="voo__video" autoplay muted loop playsinline aria-hidden="true">
+    <video class="voo__video" id="voo-video" autoplay muted playsinline aria-hidden="true">
       <source src="assets/video/aguia-voo.mp4" type="video/mp4">
     </video>
     <div class="voo__video-overlay" aria-hidden="true"></div>
@@ -94,7 +94,9 @@
     </div>
 
     <div class="lanterna__logo" id="logo-toggle">
-      <img src="assets/logo-contabilidade-automacao.png" alt="Contabilidade + automação — sua rotina contábil merece trabalhar por você.">
+      <video class="lanterna__logo-video" id="logo-video" muted playsinline aria-label="Contabilidade + automação — sua rotina contábil merece trabalhar por você.">
+        <source src="assets/video/logo-contabilidade-automacao.mp4" type="video/mp4">
+      </video>
     </div>
 
     <p class="lanterna__dica reveal">Tem um interruptor escondido no escuro. Ache com a lanterna.</p>
