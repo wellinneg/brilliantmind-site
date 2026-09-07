@@ -30,6 +30,18 @@ body {
   align-items: center;
   padding: 1.75rem clamp(1.5rem, 5vw, 4rem);
   mix-blend-mode: difference;
+  background: transparent;
+  backdrop-filter: none;
+  border-bottom: 1px solid transparent;
+  transition: background 0.35s ease, backdrop-filter 0.35s ease, border-color 0.35s ease, padding 0.35s ease;
+}
+.topo--rolado {
+  mix-blend-mode: normal;
+  background: rgba(10, 25, 30, 0.72);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(244, 247, 245, 0.08);
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
 }
 
 .topo__marca {
@@ -61,6 +73,9 @@ body {
   padding: 0 clamp(1.5rem, 6vw, 6rem);
   position: relative;
 }
+.secao--hero, .secao--contato {
+  isolation: isolate;
+}
 
 /* ---------- reveal on scroll ---------- */
 .reveal {
@@ -76,8 +91,76 @@ body {
 .reveal--5.ativo { transition-delay: 0.5s; }
 .reveal--6.ativo { transition-delay: 0.65s; }
 
+/* ---------- blobs ambiente ---------- */
+.secao--hero::before,
+.secao--hero::after,
+.secao--contato::before {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  pointer-events: none;
+  z-index: -1;
+}
+.secao--hero::before {
+  width: 38vw;
+  height: 38vw;
+  top: -10%;
+  right: -8%;
+  background: radial-gradient(circle, rgba(206,240,16,0.16), transparent 70%);
+  animation: flutuar-blob 16s ease-in-out infinite;
+}
+.secao--hero::after {
+  width: 26vw;
+  height: 26vw;
+  bottom: -12%;
+  left: -6%;
+  background: radial-gradient(circle, rgba(206,240,16,0.08), transparent 70%);
+  animation: flutuar-blob 20s ease-in-out infinite reverse;
+}
+.secao--contato::before {
+  width: 32vw;
+  height: 32vw;
+  top: 10%;
+  right: -10%;
+  background: radial-gradient(circle, rgba(206,240,16,0.10), transparent 70%);
+  animation: flutuar-blob 18s ease-in-out infinite;
+}
+
+@keyframes flutuar-blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-4%, 6%) scale(1.12); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .secao--hero::before, .secao--hero::after, .secao--contato::before {
+    animation: none;
+  }
+}
+
+/* ---------- glow que segue o cursor (hero) ---------- */
+.hero__glow {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    420px circle at var(--x, 50%) var(--y, 30%),
+    rgba(206, 240, 16, 0.10),
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.secao--hero:hover .hero__glow { opacity: 1; }
+
 /* ---------- hero ---------- */
-.secao--hero { align-items: flex-start; }
+.secao--hero { align-items: flex-start; padding-top: 6rem; padding-bottom: 2rem; }
+
+.hero__conteudo {
+  position: relative;
+  z-index: 1;
+}
 
 .hero__rotulo {
   font-size: 0.8rem;
@@ -109,6 +192,7 @@ body {
 
 .hero__scroll {
   position: absolute;
+  z-index: 1;
   bottom: 3rem;
   left: clamp(1.5rem, 6vw, 6rem);
   display: flex;
@@ -126,6 +210,43 @@ body {
 @keyframes flutuar {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(6px); }
+}
+
+/* ---------- faixa contínua (marquee) ---------- */
+.marquee {
+  overflow: hidden;
+  background: var(--navy-2);
+  border-top: 1px solid rgba(244, 247, 245, 0.08);
+  border-bottom: 1px solid rgba(244, 247, 245, 0.08);
+  padding: 1.1rem 0;
+}
+.marquee__trilha {
+  display: flex;
+  width: max-content;
+  animation: marquee 22s linear infinite;
+}
+.marquee__trilha span {
+  flex-shrink: 0;
+  padding: 0 2.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cinza-claro);
+  position: relative;
+}
+.marquee__trilha span::after {
+  content: '•';
+  position: absolute;
+  right: -0.15rem;
+  color: var(--lime);
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee__trilha { animation: none; }
 }
 
 /* ---------- era manual ---------- */
@@ -224,10 +345,18 @@ body {
 .sistema {
   display: flex;
   gap: clamp(1.5rem, 5vw, 4rem);
-  padding: 2.25rem 0;
+  padding: 2.25rem clamp(0.5rem, 2vw, 1.5rem);
+  margin: 0 clamp(-0.5rem, -2vw, -1.5rem);
   border-top: 1px solid rgba(244, 247, 245, 0.12);
+  border-radius: 12px;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 .sistema:last-of-type { border-bottom: 1px solid rgba(244, 247, 245, 0.12); }
+.sistema:hover {
+  background: rgba(206, 240, 16, 0.04);
+  transform: translateX(6px);
+}
+.sistema:hover .sistema__numero { color: var(--lime); }
 
 .sistema__numero {
   font-size: clamp(1.5rem, 3vw, 2.2rem);
@@ -235,6 +364,7 @@ body {
   color: var(--cinza);
   flex-shrink: 0;
   min-width: 3ch;
+  transition: color 0.3s ease;
 }
 .sistema__nome {
   font-size: clamp(1.15rem, 2.4vw, 1.6rem);
@@ -257,6 +387,16 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: clamp(1.5rem, 4vw, 3rem);
+}
+.diferencial {
+  padding: 1.5rem;
+  margin: -1.5rem;
+  border-radius: 12px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+.diferencial:hover {
+  background: rgba(206, 240, 16, 0.04);
+  transform: translateY(-4px);
 }
 .diferencial__titulo {
   font-size: 1.1rem;
@@ -309,10 +449,20 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
+.precos__grade--duas {
+  grid-template-columns: repeat(2, minmax(0, 320px));
+  justify-content: center;
+}
 .plano {
   border: 1px solid rgba(244, 247, 245, 0.15);
   border-radius: 16px;
   padding: 2rem 1.5rem;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.plano:hover {
+  transform: translateY(-6px);
+  border-color: var(--lime);
+  box-shadow: 0 12px 30px rgba(206, 240, 16, 0.08);
 }
 .plano--destaque {
   border-color: var(--lime);
@@ -368,11 +518,13 @@ body {
 .botao {
   display: inline-flex;
   align-items: center;
+  max-width: 100%;
   padding: 0.9rem 1.75rem;
   border-radius: 999px;
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
+  overflow-wrap: anywhere;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 .botao:hover { transform: translateY(-2px); }

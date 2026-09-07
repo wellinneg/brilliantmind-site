@@ -30,22 +30,39 @@
 
   <!-- HERO -->
   <section class="secao secao--hero">
-    <div class="hero__rotulo reveal">BMC AUTOMAÇÃO CONTÁBIL</div>
-    <h1 class="hero__titulo">
-      <span class="reveal reveal--1">DA ERA</span>
-      <span class="reveal reveal--2">MANUAL</span>
-      <span class="reveal reveal--3">PARA A ERA DA</span>
-      <span class="reveal reveal--4 destaque">AUTOMAÇÃO</span>
-    </h1>
-    <p class="hero__sub reveal reveal--5">
-      Sistemas construídos por quem vive a rotina fiscal de um escritório contábil —
-      pra tirar o trabalho manual do caminho.
-    </p>
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__conteudo">
+      <div class="hero__rotulo reveal">BMC AUTOMAÇÃO CONTÁBIL</div>
+      <h1 class="hero__titulo">
+        <span class="reveal reveal--1">DA ERA</span>
+        <span class="reveal reveal--2">MANUAL</span>
+        <span class="reveal reveal--3">PARA A ERA DA</span>
+        <span class="reveal reveal--4 destaque">AUTOMAÇÃO</span>
+      </h1>
+      <p class="hero__sub reveal reveal--5">
+        Sistemas construídos por quem vive a rotina fiscal de um escritório contábil —
+        pra tirar o trabalho manual do caminho.
+      </p>
+    </div>
     <div class="hero__scroll reveal reveal--6">
       <span>role para descobrir</span>
       <div class="hero__seta">↓</div>
     </div>
   </section>
+
+  <!-- FAIXA CONTÍNUA -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__trilha">
+      <span>AUTOMAÇÃO CONTÁBIL</span>
+      <span>NFe + CTe</span>
+      <span>FLUXO NFS-e NACIONAL</span>
+      <span>OLHO DE ÁGUIA FISCAL</span>
+      <span>AUTOMAÇÃO CONTÁBIL</span>
+      <span>NFe + CTe</span>
+      <span>FLUXO NFS-e NACIONAL</span>
+      <span>OLHO DE ÁGUIA FISCAL</span>
+    </div>
+  </div>
 
   <!-- ERA MANUAL -->
   <section class="secao secao--manual">
@@ -85,7 +102,7 @@
     <div class="sistema reveal">
       <span class="sistema__numero">02</span>
       <div class="sistema__corpo">
-        <h3 class="sistema__nome">NFS-e ADN Downloader</h3>
+        <h3 class="sistema__nome">Fluxo NFS-e Nacional</h3>
         <p class="sistema__desc">Baixa notas de serviço tomadas em lote, via API oficial do Sistema Nacional NFS-e — substitui o download manual, portal por portal, empresa por empresa.</p>
       </div>
     </div>
@@ -93,7 +110,7 @@
     <div class="sistema reveal">
       <span class="sistema__numero">03</span>
       <div class="sistema__corpo">
-        <h3 class="sistema__nome">Análise Fiscal XML</h3>
+        <h3 class="sistema__nome">Olho de Águia Fiscal</h3>
         <p class="sistema__desc">Lê tudo o que foi baixado e aponta sozinho os alertas fiscais que importam pro perfil de cada empresa — sem passar nota por nota na mão.</p>
       </div>
     </div>
@@ -127,8 +144,8 @@
 
     <div class="precos__abas reveal">
       <button class="aba ativa" data-sistema="nfe">NFe + CTe Distribuição</button>
-      <button class="aba" data-sistema="nfse">NFS-e ADN</button>
-      <button class="aba" data-sistema="fiscal">Análise Fiscal XML</button>
+      <button class="aba" data-sistema="nfse">Fluxo NFS-e Nacional</button>
+      <button class="aba" data-sistema="fiscal">Olho de Águia Fiscal</button>
     </div>
 
     <div class="precos__grade reveal">
@@ -148,7 +165,7 @@
         <p class="plano__valor">R$ 5.900<span>/ano</span></p>
       </div>
     </div>
-    <p class="precos__nota reveal">Valores fixos, sem pegadinha — o plano é definido só pelo limite de CNPJs.</p>
+    <p class="precos__nota reveal" id="precos-nota">Valores fixos, sem pegadinha — o plano é definido só pelo limite de CNPJs.</p>
   </section>
 
   <!-- CONTATO -->
