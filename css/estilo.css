@@ -526,6 +526,15 @@ body {
   font-weight: 600;
 }
 
+.precos__trial {
+  margin-top: -2rem;
+  margin-bottom: 2.5rem;
+  font-size: 0.95rem;
+  color: var(--cinza-claro);
+  font-weight: 300;
+}
+.precos__trial strong { color: var(--lime); font-weight: 600; }
+
 .precos__periodo {
   display: inline-flex;
   gap: 0.25rem;
@@ -664,6 +673,22 @@ body {
 }
 .form-solicitacao__campo select option { background: var(--navy-2); color: var(--branco); }
 .form-solicitacao__campo textarea { resize: vertical; min-height: 4.5rem; }
+.form-solicitacao__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--cinza-claro);
+  font-weight: 300;
+  cursor: pointer;
+}
+.form-solicitacao__checkbox input {
+  width: 1.15rem;
+  height: 1.15rem;
+  accent-color: var(--lime);
+  cursor: pointer;
+}
 .form-solicitacao__aviso {
   margin-top: 0.9rem;
   font-size: 0.85rem;

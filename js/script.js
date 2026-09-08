@@ -221,6 +221,7 @@ if (formSolicitacao) {
   const campoEmail = document.getElementById('campo-email');
   const campoSistema = document.getElementById('campo-sistema');
   const campoMensagem = document.getElementById('campo-mensagem');
+  const campoTesteGratis = document.getElementById('campo-teste-gratis');
   const aviso = document.getElementById('form-solicitacao-aviso');
 
   const validar = () => {
@@ -235,8 +236,11 @@ if (formSolicitacao) {
   };
 
   const montarMensagem = () => {
+    const querTeste = campoTesteGratis && campoTesteGratis.checked;
     const linhas = [
-      'Quero conhecer/contratar um sistema da BMC Automação Contábil.',
+      querTeste
+        ? 'Quero começar com o TESTE GRÁTIS DE 3 DIAS de um sistema da BMC Automação Contábil.'
+        : 'Quero conhecer/contratar um sistema da BMC Automação Contábil.',
       `Nome / Razão Social: ${campoNome.value.trim()}`,
       `CNPJ: ${campoCnpj.value.trim()}`,
       `E-mail: ${campoEmail.value.trim()}`,
@@ -261,7 +265,10 @@ if (formSolicitacao) {
   if (botaoEmail) {
     botaoEmail.addEventListener('click', () => {
       if (!validar()) return;
-      const assunto = encodeURIComponent(`Solicitação de sistema — ${campoSistema.value}`);
+      const querTeste = campoTesteGratis && campoTesteGratis.checked;
+      const assunto = encodeURIComponent(
+        (querTeste ? 'Teste grátis 3 dias — ' : 'Solicitação de sistema — ') + campoSistema.value
+      );
       const corpo = encodeURIComponent(montarMensagem());
       window.location.href = `mailto:contato@brilliantmindcontabilidade.com.br?subject=${assunto}&body=${corpo}`;
     });
