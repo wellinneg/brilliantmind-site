@@ -163,6 +163,11 @@
       <button class="aba" data-sistema="fiscal">Olho de Águia Fiscal</button>
     </div>
 
+    <div class="precos__periodo reveal" id="precos-periodo">
+      <button class="periodo ativa" data-periodo="anual">Anual</button>
+      <button class="periodo" data-periodo="mensal">Mensal</button>
+    </div>
+
     <div class="precos__grade reveal">
       <div class="plano">
         <h3 class="plano__nome">Básico</h3>
@@ -187,11 +192,45 @@
   <section class="secao secao--contato" id="contato">
     <span class="rotulo-secao reveal">[ CONTATO ]</span>
     <h2 class="titulo-secao reveal">Vamos automatizar?</h2>
-    <p class="contato__texto reveal">Fale com a gente e veja qual sistema faz sentido pro seu escritório.</p>
-    <div class="contato__botoes reveal">
-      <a class="botao botao--lime" href="https://wa.me/5511968361503?text=Quero%20conhecer%20os%20sistemas%20da%20BMC" target="_blank" rel="noopener">Falar no WhatsApp</a>
-      <a class="botao botao--contorno" href="mailto:contato@brilliantmindcontabilidade.com.br">contato@brilliantmindcontabilidade.com.br</a>
-    </div>
+    <p class="contato__texto reveal">Preencha e escolha por onde prefere falar — a gente já recebe seus dados prontos pra preparar o sistema certo.</p>
+
+    <form class="form-solicitacao reveal" id="form-solicitacao">
+      <div class="form-solicitacao__linha">
+        <label class="form-solicitacao__campo">
+          <span>Nome / Razão Social</span>
+          <input type="text" name="nome" id="campo-nome" required autocomplete="name">
+        </label>
+        <label class="form-solicitacao__campo">
+          <span>CNPJ</span>
+          <input type="text" name="cnpj" id="campo-cnpj" required inputmode="numeric" placeholder="00.000.000/0000-00" autocomplete="off">
+        </label>
+      </div>
+      <div class="form-solicitacao__linha">
+        <label class="form-solicitacao__campo">
+          <span>E-mail (pra onde enviaremos o sistema)</span>
+          <input type="email" name="email" id="campo-email" required autocomplete="email">
+        </label>
+        <label class="form-solicitacao__campo">
+          <span>Sistema de interesse</span>
+          <select name="sistema" id="campo-sistema" required>
+            <option value="" disabled selected>Selecione...</option>
+            <option>NFe + CTe Distribuição Downloader</option>
+            <option>Fluxo NFS-e Nacional</option>
+            <option>Olho de Águia Fiscal</option>
+            <option>Ainda não sei — quero indicação</option>
+          </select>
+        </label>
+      </div>
+      <label class="form-solicitacao__campo form-solicitacao__campo--full">
+        <span>Mensagem (opcional)</span>
+        <textarea name="mensagem" id="campo-mensagem" rows="3" placeholder="Quantos CNPJs, prazo, dúvidas..."></textarea>
+      </label>
+      <div class="contato__botoes">
+        <button type="button" class="botao botao--lime" id="botao-enviar-whatsapp">Enviar pelo WhatsApp</button>
+        <button type="button" class="botao botao--contorno" id="botao-enviar-email">Enviar por e-mail</button>
+      </div>
+      <p class="form-solicitacao__aviso" id="form-solicitacao-aviso" hidden>Preencha nome, CNPJ, e-mail e o sistema antes de enviar.</p>
+    </form>
   </section>
 
 </main>

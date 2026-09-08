@@ -108,24 +108,46 @@ const anoEl = document.getElementById('ano');
 if (anoEl) anoEl.textContent = new Date().getFullYear();
 
 // abas de preço por sistema — valores reais de PRECOS_LANCAMENTO_POR_PRODUTO /
-// PRECOS_NORMALIZADOS_POR_PRODUTO em comercial/nfe-distribuicao/scripts/empacotar_comercial.py
-// e da precificação registrada do Olho de Águia Fiscal (mensal/anual, sem limite de CNPJ).
+// PRECOS_NORMALIZADOS_POR_PRODUTO / PRECOS_MENSAL_LANCAMENTO_POR_PRODUTO em
+// comercial/nfe-distribuicao/scripts/empacotar_comercial.py e da precificação
+// registrada do Olho de Águia Fiscal (mensal/anual, sem limite de CNPJ — esse
+// não tem seletor de período porque já mostra os dois planos lado a lado).
 const precos = {
   nfe: {
-    tiers: [
-      { nome: 'Básico', limite: 'até 10 CNPJs', valor: 'R$ 1.200', sufixo: '/ano' },
-      { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 3.600', sufixo: '/ano' },
-      { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 5.900', sufixo: '/ano' },
-    ],
-    nota: 'Preço de lançamento até 30/11/2026 — depois passa a R$ 1.560 / R$ 4.680 / R$ 7.670 por ano.',
+    anual: {
+      tiers: [
+        { nome: 'Básico', limite: 'até 10 CNPJs', valor: 'R$ 1.200', sufixo: '/ano' },
+        { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 3.600', sufixo: '/ano' },
+        { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 5.900', sufixo: '/ano' },
+      ],
+      nota: 'Preço de lançamento até 30/11/2026 — depois passa a R$ 1.560 / R$ 4.680 / R$ 7.670 por ano.',
+    },
+    mensal: {
+      tiers: [
+        { nome: 'Básico', limite: 'até 10 CNPJs', valor: 'R$ 120', sufixo: '/mês' },
+        { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 360', sufixo: '/mês' },
+        { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 590', sufixo: '/mês' },
+      ],
+      nota: 'Preço de lançamento até 30/11/2026 — depois passa a R$ 156 / R$ 468 / R$ 767 por mês.',
+    },
   },
   nfse: {
-    tiers: [
-      { nome: 'Básico', limite: 'até 10 CNPJs', valor: 'R$ 720', sufixo: '/ano' },
-      { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 2.160', sufixo: '/ano' },
-      { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 3.540', sufixo: '/ano' },
-    ],
-    nota: 'Preço de lançamento até 30/11/2026 — depois passa a R$ 936 / R$ 2.808 / R$ 4.602 por ano.',
+    anual: {
+      tiers: [
+        { nome: 'Básico', limite: 'até 10 CNPJs', valor: 'R$ 720', sufixo: '/ano' },
+        { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 2.160', sufixo: '/ano' },
+        { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 3.540', sufixo: '/ano' },
+      ],
+      nota: 'Preço de lançamento até 30/11/2026 — depois passa a R$ 936 / R$ 2.808 / R$ 4.602 por ano.',
+    },
+    mensal: {
+      tiers: [
+        { nome: 'Básico', limite: 'até 10 CNPJs', valor: 'R$ 72', sufixo: '/mês' },
+        { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 216', sufixo: '/mês' },
+        { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 354', sufixo: '/mês' },
+      ],
+      nota: 'Preço de lançamento até 30/11/2026 — depois passa a R$ 94 / R$ 281 / R$ 460 por mês.',
+    },
   },
   fiscal: {
     tiers: [
@@ -137,12 +159,22 @@ const precos = {
 };
 
 const abas = document.querySelectorAll('.aba');
+const botoesPeriodo = document.querySelectorAll('.periodo');
+const precosPeriodo = document.getElementById('precos-periodo');
 const cartoesPlano = document.querySelectorAll('.plano');
 const gradePrecos = document.querySelector('.precos__grade');
 const notaPrecos = document.getElementById('precos-nota');
 
-function aplicarPrecos(sistema) {
-  const dados = precos[sistema];
+let sistemaAtual = 'nfe';
+let periodoAtual = 'anual';
+
+function obterDadosAtuais() {
+  const bloco = precos[sistemaAtual];
+  return bloco.tiers ? bloco : bloco[periodoAtual];
+}
+
+function aplicarPrecos() {
+  const dados = obterDadosAtuais();
   cartoesPlano.forEach((cartao, i) => {
     const tier = dados.tiers[i];
     cartao.hidden = !tier;
@@ -153,14 +185,85 @@ function aplicarPrecos(sistema) {
   });
   if (gradePrecos) gradePrecos.classList.toggle('precos__grade--duas', dados.tiers.length === 2);
   if (notaPrecos) notaPrecos.textContent = dados.nota;
+  if (precosPeriodo) precosPeriodo.hidden = Boolean(precos[sistemaAtual].tiers);
 }
 
 abas.forEach((aba) => {
   aba.addEventListener('click', () => {
     abas.forEach((a) => a.classList.remove('ativa'));
     aba.classList.add('ativa');
-    aplicarPrecos(aba.dataset.sistema);
+    sistemaAtual = aba.dataset.sistema;
+    periodoAtual = 'anual';
+    botoesPeriodo.forEach((b) => b.classList.toggle('ativa', b.dataset.periodo === 'anual'));
+    aplicarPrecos();
   });
 });
 
-aplicarPrecos('nfe');
+botoesPeriodo.forEach((botao) => {
+  botao.addEventListener('click', () => {
+    botoesPeriodo.forEach((b) => b.classList.remove('ativa'));
+    botao.classList.add('ativa');
+    periodoAtual = botao.dataset.periodo;
+    aplicarPrecos();
+  });
+});
+
+aplicarPrecos();
+
+// formulário de solicitação — sem backend no site, então o próprio clique
+// monta a mensagem e abre o WhatsApp ou o cliente de e-mail já preenchido
+// com nome/CNPJ/e-mail/sistema, pra Wellington saber pra onde mandar o
+// pacote sem precisar perguntar de novo.
+const formSolicitacao = document.getElementById('form-solicitacao');
+if (formSolicitacao) {
+  const campoNome = document.getElementById('campo-nome');
+  const campoCnpj = document.getElementById('campo-cnpj');
+  const campoEmail = document.getElementById('campo-email');
+  const campoSistema = document.getElementById('campo-sistema');
+  const campoMensagem = document.getElementById('campo-mensagem');
+  const aviso = document.getElementById('form-solicitacao-aviso');
+
+  const validar = () => {
+    const ok = formSolicitacao.checkValidity();
+    if (!ok) {
+      formSolicitacao.reportValidity();
+      if (aviso) aviso.hidden = false;
+    } else if (aviso) {
+      aviso.hidden = true;
+    }
+    return ok;
+  };
+
+  const montarMensagem = () => {
+    const linhas = [
+      'Quero conhecer/contratar um sistema da BMC Automação Contábil.',
+      `Nome / Razão Social: ${campoNome.value.trim()}`,
+      `CNPJ: ${campoCnpj.value.trim()}`,
+      `E-mail: ${campoEmail.value.trim()}`,
+      `Sistema de interesse: ${campoSistema.value}`,
+    ];
+    if (campoMensagem.value.trim()) {
+      linhas.push(`Mensagem: ${campoMensagem.value.trim()}`);
+    }
+    return linhas.join('\n');
+  };
+
+  const botaoWhatsapp = document.getElementById('botao-enviar-whatsapp');
+  if (botaoWhatsapp) {
+    botaoWhatsapp.addEventListener('click', () => {
+      if (!validar()) return;
+      const texto = encodeURIComponent(montarMensagem());
+      window.open(`https://wa.me/5511968361503?text=${texto}`, '_blank', 'noopener');
+    });
+  }
+
+  const botaoEmail = document.getElementById('botao-enviar-email');
+  if (botaoEmail) {
+    botaoEmail.addEventListener('click', () => {
+      if (!validar()) return;
+      const assunto = encodeURIComponent(`Solicitação de sistema — ${campoSistema.value}`);
+      const corpo = encodeURIComponent(montarMensagem());
+      window.location.href = `mailto:contato@brilliantmindcontabilidade.com.br?subject=${assunto}&body=${corpo}`;
+    });
+  }
+}

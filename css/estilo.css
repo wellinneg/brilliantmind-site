@@ -526,6 +526,30 @@ body {
   font-weight: 600;
 }
 
+.precos__periodo {
+  display: inline-flex;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  border-radius: 999px;
+  background: rgba(244, 247, 245, 0.06);
+  margin-bottom: 2.5rem;
+}
+.periodo {
+  font-family: var(--fonte);
+  background: transparent;
+  border: none;
+  color: var(--cinza-claro);
+  padding: 0.45rem 1.2rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.periodo:hover { color: var(--branco); }
+.periodo.ativa { background: var(--lime); color: var(--navy); }
+.precos__periodo[hidden] { display: none; }
+
 .precos__grade {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -596,6 +620,58 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+/* ---------- formulário de solicitação ---------- */
+.form-solicitacao {
+  width: 100%;
+  max-width: 640px;
+  margin-bottom: 2rem;
+}
+.form-solicitacao__linha {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.form-solicitacao__campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--cinza-claro);
+  font-weight: 300;
+}
+.form-solicitacao__campo--full { margin-bottom: 1.25rem; }
+.form-solicitacao__campo input,
+.form-solicitacao__campo select,
+.form-solicitacao__campo textarea {
+  background: rgba(244, 247, 245, 0.05);
+  border: 1px solid rgba(244, 247, 245, 0.2);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  color: var(--branco);
+  font-family: var(--fonte);
+  font-size: 0.95rem;
+  font-weight: 400;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+.form-solicitacao__campo input:focus,
+.form-solicitacao__campo select:focus,
+.form-solicitacao__campo textarea:focus {
+  border-color: var(--lime);
+}
+.form-solicitacao__campo select option { background: var(--navy-2); color: var(--branco); }
+.form-solicitacao__campo textarea { resize: vertical; min-height: 4.5rem; }
+.form-solicitacao__aviso {
+  margin-top: 0.9rem;
+  font-size: 0.85rem;
+  color: var(--lime);
+}
+
+@media (max-width: 640px) {
+  .form-solicitacao__linha { grid-template-columns: 1fr; gap: 1rem; }
 }
 .botao {
   display: inline-flex;
