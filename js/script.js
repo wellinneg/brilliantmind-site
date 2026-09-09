@@ -110,7 +110,7 @@ if (anoEl) anoEl.textContent = new Date().getFullYear();
 // abas de preço por sistema — valores reais de PRECOS_LANCAMENTO_POR_PRODUTO /
 // PRECOS_NORMALIZADOS_POR_PRODUTO / PRECOS_MENSAL_LANCAMENTO_POR_PRODUTO em
 // comercial/nfe-distribuicao/scripts/empacotar_comercial.py e da precificação
-// registrada do Olho de Águia Fiscal (mensal/anual, sem limite de CNPJ — esse
+// registrada do Inteligência Fiscal (mensal/anual, sem limite de CNPJ — esse
 // não tem seletor de período porque já mostra os dois planos lado a lado).
 const precos = {
   nfe: {
@@ -239,7 +239,7 @@ if (formSolicitacao) {
     const querTeste = campoTesteGratis && campoTesteGratis.checked;
     const linhas = [
       querTeste
-        ? 'Quero começar com o TESTE GRÁTIS DE 3 DIAS de um sistema da BMC Automação Contábil.'
+        ? 'Quero começar com o teste grátis de 3 dias de um sistema da BMC Automação Contábil.'
         : 'Quero conhecer/contratar um sistema da BMC Automação Contábil.',
       `Nome / Razão Social: ${campoNome.value.trim()}`,
       `CNPJ: ${campoCnpj.value.trim()}`,
