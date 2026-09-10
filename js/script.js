@@ -145,22 +145,11 @@ const precos = {
     nota: 'Sem limite de CNPJs — pague mensal ou feche o ano com desconto.',
   },
   bussola: {
-    anual: {
-      tiers: [
-        { nome: 'Básico', limite: 'até 5 CNPJs', valor: 'A definir', sufixo: '/ano' },
-        { nome: 'Profissional', limite: 'até 20 CNPJs', valor: 'A definir', sufixo: '/ano' },
-        { nome: 'Corporativo', limite: 'Ilimitado', valor: 'A definir', sufixo: '/ano' },
-      ],
-      nota: 'Preços em definição. Entre em contato para mais informações.',
-    },
-    mensal: {
-      tiers: [
-        { nome: 'Básico', limite: 'até 5 CNPJs', valor: 'A definir', sufixo: '/mês' },
-        { nome: 'Profissional', limite: 'até 20 CNPJs', valor: 'A definir', sufixo: '/mês' },
-        { nome: 'Corporativo', limite: 'Ilimitado', valor: 'A definir', sufixo: '/mês' },
-      ],
-      nota: 'Preços em definição. Entre em contato para mais informações.',
-    },
+    tiers: [
+      { nome: 'Mensal', limite: 'CNPJs ilimitados', valor: 'R$ 49,90', sufixo: '/mês' },
+      { nome: 'Anual', limite: 'CNPJs ilimitados', valor: 'R$ 499,00', sufixo: '/ano' },
+    ],
+    nota: 'Produto de entrada da linha — teste grátis 3 dias limitado a 200 consultas de CNPJ.',
   },
 };
 
