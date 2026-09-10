@@ -56,39 +56,27 @@ if (heroSecao && heroGlow && !semMovimento) {
   });
 }
 
-// lanterna: farol segue o cursor/dedo e revela o interruptor escondido
-const secaoLanterna = document.querySelector('.secao--lanterna');
-if (secaoLanterna) {
-  const moverFarol = (x, y) => {
-    const retangulo = secaoLanterna.getBoundingClientRect();
-    const px = ((x - retangulo.left) / retangulo.width) * 100;
-    const py = ((y - retangulo.top) / retangulo.height) * 100;
-    secaoLanterna.style.setProperty('--lx', `${px}%`);
-    secaoLanterna.style.setProperty('--ly', `${py}%`);
-  };
-  secaoLanterna.addEventListener('mousemove', (evento) => moverFarol(evento.clientX, evento.clientY));
-  secaoLanterna.addEventListener('touchmove', (evento) => {
-    const toque = evento.touches[0];
-    if (toque) moverFarol(toque.clientX, toque.clientY);
-  }, { passive: true });
+// scroll-linked video: vídeo avança/retrocede com o scroll
+const scrollVideoElement = document.getElementById('scroll-video-element');
+const secaoScrollVideo = document.querySelector('.secao--scroll-video');
+if (scrollVideoElement && secaoScrollVideo) {
+  scrollVideoElement.addEventListener('loadedmetadata', () => {
+    const atualizarVideoProgress = () => {
+      const retangulo = secaoScrollVideo.getBoundingClientRect();
+      const alturaJanela = window.innerHeight;
 
-  const interruptor = document.getElementById('interruptor');
-  const logoToggle = document.getElementById('logo-toggle');
-  const logoVideo = document.getElementById('logo-video');
-  if (interruptor && logoToggle) {
-    interruptor.addEventListener('click', () => {
-      const ligado = interruptor.classList.toggle('ligado');
-      logoToggle.classList.toggle('ligado', ligado);
-      if (logoVideo) {
-        if (ligado) {
-          logoVideo.currentTime = 0;
-          logoVideo.play().catch(() => {});
-        } else {
-          logoVideo.pause();
-        }
-      }
-    });
-  }
+      // Calcula o progresso: quando a seção entra na tela até sair
+      const inicio = alturaJanela;
+      const fim = -retangulo.height;
+      const progresso = Math.max(0, Math.min(1, (inicio - retangulo.top) / (inicio - fim)));
+
+      // Define o tempo do vídeo baseado no progresso
+      scrollVideoElement.currentTime = progresso * scrollVideoElement.duration;
+    };
+
+    atualizarVideoProgress();
+    window.addEventListener('scroll', atualizarVideoProgress, { passive: true });
+  });
 }
 
 // águia: reprisa os últimos 2s do voo 3 vezes antes de congelar no logo final
