@@ -210,7 +210,41 @@ if (formSolicitacao) {
   const campoSistema = document.getElementById('campo-sistema');
   const campoMensagem = document.getElementById('campo-mensagem');
   const campoTesteGratis = document.getElementById('campo-teste-gratis');
+  const campoIp = document.getElementById('campo-ip');
   const aviso = document.getElementById('form-solicitacao-aviso');
+  const alertaIp = document.getElementById('alerta-ip');
+
+  // capturar IP do usuário
+  fetch('https://api.ipify.org?format=json')
+    .then((res) => res.json())
+    .then((data) => {
+      const ipAtual = data.ip;
+      campoIp.value = ipAtual;
+
+      // validar se IP foi usado antes com dados diferentes
+      const registrosIp = JSON.parse(localStorage.getItem('bmc-registros-ip') || '{}');
+      if (registrosIp[ipAtual]) {
+        const registroAnterior = registrosIp[ipAtual];
+        const emailIgual = registroAnterior.email === campoEmail.value;
+        const cnpjIgual = registroAnterior.cnpj === campoCnpj.value;
+
+        campoEmail.addEventListener('change', validarIP);
+        campoCnpj.addEventListener('change', validarIP);
+
+        function validarIP() {
+          const emailAtual = campoEmail.value;
+          const cnpjAtual = campoCnpj.value;
+          const isDiferente = (emailAtual && emailAtual !== registroAnterior.email) ||
+                               (cnpjAtual && cnpjAtual !== registroAnterior.cnpj);
+          alertaIp.hidden = !isDiferente;
+        }
+        validarIP();
+      }
+    })
+    .catch(() => {
+      // se falhar a requisição do IP, usa um fallback
+      campoIp.value = 'desconhecido';
+    });
 
   const validar = () => {
     const ok = formSolicitacao.checkValidity();
@@ -244,6 +278,7 @@ if (formSolicitacao) {
   if (botaoWhatsapp) {
     botaoWhatsapp.addEventListener('click', () => {
       if (!validar()) return;
+      registrarSolicitacao();
       const texto = encodeURIComponent(montarMensagem());
       window.open(`https://wa.me/5511968361503?text=${texto}`, '_blank', 'noopener');
     });
@@ -253,6 +288,7 @@ if (formSolicitacao) {
   if (botaoEmail) {
     botaoEmail.addEventListener('click', () => {
       if (!validar()) return;
+      registrarSolicitacao();
       const querTeste = campoTesteGratis && campoTesteGratis.checked;
       const assunto = encodeURIComponent(
         (querTeste ? 'Teste grátis 3 dias — ' : 'Solicitação de sistema — ') + campoSistema.value
@@ -261,6 +297,25 @@ if (formSolicitacao) {
       window.location.href = `mailto:contato@brilliantmindcontabilidade.com.br?subject=${assunto}&body=${corpo}`;
     });
   }
+
+  const registrarSolicitacao = () => {
+    const ip = campoIp.value;
+    const email = campoEmail.value.trim();
+    const cnpj = campoCnpj.value.trim();
+    const timestamp = new Date().toISOString();
+
+    const registrosIp = JSON.parse(localStorage.getItem('bmc-registros-ip') || '{}');
+    if (!registrosIp[ip]) {
+      registrosIp[ip] = [];
+    }
+    registrosIp[ip] = {
+      email,
+      cnpj,
+      timestamp,
+      sistemas: JSON.parse(localStorage.getItem('bmc-carrinho') || '[]'),
+    };
+    localStorage.setItem('bmc-registros-ip', JSON.stringify(registrosIp));
+  };
 }
 
 // carrinho de compras
