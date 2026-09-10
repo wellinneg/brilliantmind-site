@@ -56,39 +56,27 @@ if (heroSecao && heroGlow && !semMovimento) {
   });
 }
 
-// lanterna: farol segue o cursor/dedo e revela o interruptor escondido
-const secaoLanterna = document.querySelector('.secao--lanterna');
-if (secaoLanterna) {
-  const moverFarol = (x, y) => {
-    const retangulo = secaoLanterna.getBoundingClientRect();
-    const px = ((x - retangulo.left) / retangulo.width) * 100;
-    const py = ((y - retangulo.top) / retangulo.height) * 100;
-    secaoLanterna.style.setProperty('--lx', `${px}%`);
-    secaoLanterna.style.setProperty('--ly', `${py}%`);
-  };
-  secaoLanterna.addEventListener('mousemove', (evento) => moverFarol(evento.clientX, evento.clientY));
-  secaoLanterna.addEventListener('touchmove', (evento) => {
-    const toque = evento.touches[0];
-    if (toque) moverFarol(toque.clientX, toque.clientY);
-  }, { passive: true });
+// scroll-linked video: vídeo avança/retrocede com o scroll
+const scrollVideoElement = document.getElementById('scroll-video-element');
+const secaoScrollVideo = document.querySelector('.secao--scroll-video');
+if (scrollVideoElement && secaoScrollVideo) {
+  scrollVideoElement.addEventListener('loadedmetadata', () => {
+    const atualizarVideoProgress = () => {
+      const retangulo = secaoScrollVideo.getBoundingClientRect();
+      const alturaJanela = window.innerHeight;
 
-  const interruptor = document.getElementById('interruptor');
-  const logoToggle = document.getElementById('logo-toggle');
-  const logoVideo = document.getElementById('logo-video');
-  if (interruptor && logoToggle) {
-    interruptor.addEventListener('click', () => {
-      const ligado = interruptor.classList.toggle('ligado');
-      logoToggle.classList.toggle('ligado', ligado);
-      if (logoVideo) {
-        if (ligado) {
-          logoVideo.currentTime = 0;
-          logoVideo.play().catch(() => {});
-        } else {
-          logoVideo.pause();
-        }
-      }
-    });
-  }
+      // Calcula o progresso: quando a seção entra na tela até sair
+      const inicio = alturaJanela;
+      const fim = -retangulo.height;
+      const progresso = Math.max(0, Math.min(1, (inicio - retangulo.top) / (inicio - fim)));
+
+      // Define o tempo do vídeo baseado no progresso
+      scrollVideoElement.currentTime = progresso * scrollVideoElement.duration;
+    };
+
+    atualizarVideoProgress();
+    window.addEventListener('scroll', atualizarVideoProgress, { passive: true });
+  });
 }
 
 // águia: reprisa os últimos 2s do voo 3 vezes antes de congelar no logo final
@@ -110,7 +98,7 @@ if (anoEl) anoEl.textContent = new Date().getFullYear();
 // abas de preço por sistema — valores reais de PRECOS_LANCAMENTO_POR_PRODUTO /
 // PRECOS_NORMALIZADOS_POR_PRODUTO / PRECOS_MENSAL_LANCAMENTO_POR_PRODUTO em
 // comercial/nfe-distribuicao/scripts/empacotar_comercial.py e da precificação
-// registrada do Olho de Águia Fiscal (mensal/anual, sem limite de CNPJ — esse
+// registrada do Inteligência Fiscal (mensal/anual, sem limite de CNPJ — esse
 // não tem seletor de período porque já mostra os dois planos lado a lado).
 const precos = {
   nfe: {
@@ -155,6 +143,13 @@ const precos = {
       { nome: 'Anual', limite: 'CNPJs ilimitados', valor: 'R$ 999', sufixo: '/ano' },
     ],
     nota: 'Sem limite de CNPJs — pague mensal ou feche o ano com desconto.',
+  },
+  bussola: {
+    tiers: [
+      { nome: 'Mensal', limite: 'CNPJs ilimitados', valor: 'R$ 49,90', sufixo: '/mês' },
+      { nome: 'Anual', limite: 'CNPJs ilimitados', valor: 'R$ 499,00', sufixo: '/ano' },
+    ],
+    nota: 'Produto de entrada da linha — teste grátis 3 dias limitado a 200 consultas de CNPJ.',
   },
 };
 
@@ -222,7 +217,41 @@ if (formSolicitacao) {
   const campoSistema = document.getElementById('campo-sistema');
   const campoMensagem = document.getElementById('campo-mensagem');
   const campoTesteGratis = document.getElementById('campo-teste-gratis');
+  const campoIp = document.getElementById('campo-ip');
   const aviso = document.getElementById('form-solicitacao-aviso');
+  const alertaIp = document.getElementById('alerta-ip');
+
+  // capturar IP do usuário
+  fetch('https://api.ipify.org?format=json')
+    .then((res) => res.json())
+    .then((data) => {
+      const ipAtual = data.ip;
+      campoIp.value = ipAtual;
+
+      // validar se IP foi usado antes com dados diferentes
+      const registrosIp = JSON.parse(localStorage.getItem('bmc-registros-ip') || '{}');
+      if (registrosIp[ipAtual]) {
+        const registroAnterior = registrosIp[ipAtual];
+        const emailIgual = registroAnterior.email === campoEmail.value;
+        const cnpjIgual = registroAnterior.cnpj === campoCnpj.value;
+
+        campoEmail.addEventListener('change', validarIP);
+        campoCnpj.addEventListener('change', validarIP);
+
+        function validarIP() {
+          const emailAtual = campoEmail.value;
+          const cnpjAtual = campoCnpj.value;
+          const isDiferente = (emailAtual && emailAtual !== registroAnterior.email) ||
+                               (cnpjAtual && cnpjAtual !== registroAnterior.cnpj);
+          alertaIp.hidden = !isDiferente;
+        }
+        validarIP();
+      }
+    })
+    .catch(() => {
+      // se falhar a requisição do IP, usa um fallback
+      campoIp.value = 'desconhecido';
+    });
 
   const validar = () => {
     const ok = formSolicitacao.checkValidity();
@@ -239,7 +268,7 @@ if (formSolicitacao) {
     const querTeste = campoTesteGratis && campoTesteGratis.checked;
     const linhas = [
       querTeste
-        ? 'Quero começar com o TESTE GRÁTIS DE 3 DIAS de um sistema da BMC Automação Contábil.'
+        ? 'Quero começar com o teste grátis de 3 dias de um sistema da BMC Automação Contábil.'
         : 'Quero conhecer/contratar um sistema da BMC Automação Contábil.',
       `Nome / Razão Social: ${campoNome.value.trim()}`,
       `CNPJ: ${campoCnpj.value.trim()}`,
@@ -256,6 +285,7 @@ if (formSolicitacao) {
   if (botaoWhatsapp) {
     botaoWhatsapp.addEventListener('click', () => {
       if (!validar()) return;
+      registrarSolicitacao();
       const texto = encodeURIComponent(montarMensagem());
       window.open(`https://wa.me/5511968361503?text=${texto}`, '_blank', 'noopener');
     });
@@ -265,6 +295,7 @@ if (formSolicitacao) {
   if (botaoEmail) {
     botaoEmail.addEventListener('click', () => {
       if (!validar()) return;
+      registrarSolicitacao();
       const querTeste = campoTesteGratis && campoTesteGratis.checked;
       const assunto = encodeURIComponent(
         (querTeste ? 'Teste grátis 3 dias — ' : 'Solicitação de sistema — ') + campoSistema.value
@@ -273,4 +304,76 @@ if (formSolicitacao) {
       window.location.href = `mailto:contato@brilliantmindcontabilidade.com.br?subject=${assunto}&body=${corpo}`;
     });
   }
+
+  const registrarSolicitacao = () => {
+    const ip = campoIp.value;
+    const email = campoEmail.value.trim();
+    const cnpj = campoCnpj.value.trim();
+    const timestamp = new Date().toISOString();
+
+    const registrosIp = JSON.parse(localStorage.getItem('bmc-registros-ip') || '{}');
+    if (!registrosIp[ip]) {
+      registrosIp[ip] = [];
+    }
+    registrosIp[ip] = {
+      email,
+      cnpj,
+      timestamp,
+      sistemas: JSON.parse(localStorage.getItem('bmc-carrinho') || '[]'),
+    };
+    localStorage.setItem('bmc-registros-ip', JSON.stringify(registrosIp));
+  };
 }
+
+// carrinho de compras
+const carrinhoContador = document.getElementById('carrinho-contador');
+const botaoCarrinho = document.getElementById('botao-carrinho');
+const botoesAdicionarCarrinho = document.querySelectorAll('.adicionar-carrinho');
+
+function carregarCarrinho() {
+  return JSON.parse(localStorage.getItem('bmc-carrinho') || '[]');
+}
+
+function salvarCarrinho(carrinho) {
+  localStorage.setItem('bmc-carrinho', JSON.stringify(carrinho));
+  atualizarContador();
+}
+
+function atualizarContador() {
+  const carrinho = carregarCarrinho();
+  if (carrinhoContador) {
+    carrinhoContador.textContent = carrinho.length;
+  }
+}
+
+botoesAdicionarCarrinho.forEach((botao) => {
+  botao.addEventListener('click', () => {
+    const sistema = botao.dataset.sistema;
+    const carrinho = carregarCarrinho();
+
+    if (!carrinho.includes(sistema)) {
+      carrinho.push(sistema);
+      salvarCarrinho(carrinho);
+      botao.textContent = '✓ Adicionado ao Carrinho';
+      botao.disabled = true;
+      setTimeout(() => {
+        botao.textContent = 'Adicionar ao Carrinho';
+        botao.disabled = false;
+      }, 2000);
+    }
+  });
+});
+
+if (botaoCarrinho) {
+  botaoCarrinho.addEventListener('click', () => {
+    const carrinho = carregarCarrinho();
+    if (carrinho.length === 0) {
+      alert('Seu carrinho está vazio');
+      return;
+    }
+    const lista = carrinho.join('\n- ');
+    alert(`Seu Carrinho:\n- ${lista}\n\nPróximo passo: preencher os dados e contratar!`);
+  });
+}
+
+atualizarContador();

@@ -51,7 +51,7 @@ body {
 }
 .topo__marca span { color: var(--lime); }
 
-.topo__nav { display: flex; gap: 2.5rem; }
+.topo__nav { display: flex; gap: 2.5rem; align-items: center; }
 .topo__nav a {
   color: var(--branco);
   text-decoration: none;
@@ -63,6 +63,36 @@ body {
   transition: opacity 0.25s ease;
 }
 .topo__nav a:hover { opacity: 1; }
+
+.topo__carrinho {
+  position: relative;
+  background: none;
+  border: none;
+  color: var(--branco);
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.75;
+  transition: opacity 0.25s ease;
+}
+.topo__carrinho:hover { opacity: 1; }
+.topo__carrinho-contador {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: var(--lime);
+  color: var(--navy);
+  border-radius: 50%;
+  min-width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
 
 /* ---------- seções genéricas ---------- */
 .secao {
@@ -264,97 +294,22 @@ body {
   .marquee__trilha { animation: none; }
 }
 
-/* ---------- lanterna ---------- */
-.secao--lanterna {
+/* ---------- scroll-video ---------- */
+.secao--scroll-video {
+  position: relative;
+  width: 100%;
+  height: 100vh;
   background: #000;
-  align-items: center;
-  text-align: center;
   overflow: hidden;
-  cursor: crosshair;
-}
-
-.lanterna__farol {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  pointer-events: none;
-  background: radial-gradient(
-    220px circle at var(--lx, 50%) var(--ly, 50%),
-    rgba(206, 240, 16, 0.35),
-    rgba(206, 240, 16, 0.08) 40%,
-    transparent 70%
-  );
-  mix-blend-mode: screen;
-  animation: tremeluzir 5s infinite steps(30);
-}
-
-@keyframes tremeluzir {
-  0%, 100% { opacity: 0.9; }
-  8%  { opacity: 0.55; }
-  16% { opacity: 1; }
-  24% { opacity: 0.7; }
-  32% { opacity: 0.95; }
-  48% { opacity: 0.5; }
-  60% { opacity: 1; }
-  74% { opacity: 0.75; }
-  88% { opacity: 0.6; }
-}
-
-.lanterna__interruptor-wrap {
-  position: absolute;
-  inset: 0;
-  z-index: 3;
-  pointer-events: none;
-  -webkit-mask-image: radial-gradient(220px circle at var(--lx, 50%) var(--ly, 50%), black 55%, transparent 75%);
-  mask-image: radial-gradient(220px circle at var(--lx, 50%) var(--ly, 50%), black 55%, transparent 75%);
-}
-
-.lanterna__interruptor {
-  position: absolute;
-  top: 38%;
-  left: 68%;
-  pointer-events: auto;
-  background: none;
-  border: none;
-  color: var(--cinza-claro);
-  cursor: pointer;
-  padding: 0.5rem;
-}
-.lanterna__interruptor.ligado { color: var(--lime); filter: drop-shadow(0 0 8px var(--lime)); }
-
-.lanterna__logo {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: clamp(1.5rem, 6vw, 5rem);
-  opacity: 0;
-  transform: scale(0.97);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-  pointer-events: none;
 }
-.lanterna__logo.ligado { opacity: 1; transform: scale(1); }
-.lanterna__logo img,
-.lanterna__logo-video {
+
+.scroll-video__video {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-}
-
-.lanterna__dica {
-  position: relative;
-  z-index: 4;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
-  color: var(--cinza);
-  transition: opacity 0.4s ease;
-}
-.secao--lanterna:has(.lanterna__logo.ligado) .lanterna__dica { opacity: 0; }
-
-@media (max-width: 640px) {
-  .secao--lanterna { cursor: default; }
+  object-fit: cover;
 }
 
 /* ---------- virada ---------- */
@@ -460,6 +415,16 @@ body {
   color: var(--cinza-claro);
   max-width: 62ch;
   line-height: 1.55;
+  margin-bottom: 1.5rem;
+}
+.sistema__corpo {
+  display: flex;
+  flex-direction: column;
+}
+.sistema .adicionar-carrinho {
+  align-self: flex-start;
+  font-size: 0.85rem;
+  padding: 0.65rem 1.5rem;
 }
 
 /* ---------- por que BMC ---------- */
