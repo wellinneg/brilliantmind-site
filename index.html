@@ -23,6 +23,14 @@
     <a href="#sistemas">Sistemas</a>
     <a href="#precos">Planos</a>
     <a href="#contato">Contato</a>
+    <button class="topo__carrinho" id="botao-carrinho" aria-label="Carrinho de compras">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="9" cy="21" r="1"/>
+        <circle cx="20" cy="21" r="1"/>
+        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+      </svg>
+      <span class="topo__carrinho-contador" id="carrinho-contador">0</span>
+    </button>
   </nav>
 </header>
 
@@ -94,27 +102,30 @@
     <span class="rotulo-secao reveal">[ AGORA ]</span>
     <h2 class="titulo-secao reveal">Os sistemas</h2>
 
-    <div class="sistema reveal">
+    <div class="sistema reveal" data-sistema-id="capturador-fiscal">
       <span class="sistema__numero">01</span>
       <div class="sistema__corpo">
         <h3 class="sistema__nome">Capturador Fiscal</h3>
         <p class="sistema__desc">Baixa notas fiscais eletrônicas e conhecimentos de transporte em massa, direto pelo certificado digital A1 — sem entrar CNPJ por CNPJ no portal da Receita.</p>
+        <button class="botao botao--lime adicionar-carrinho" data-sistema="Capturador Fiscal">Adicionar ao Carrinho</button>
       </div>
     </div>
 
-    <div class="sistema reveal">
+    <div class="sistema reveal" data-sistema-id="fluxo-nfse">
       <span class="sistema__numero">02</span>
       <div class="sistema__corpo">
         <h3 class="sistema__nome">Fluxo NFS-e Nacional</h3>
         <p class="sistema__desc">Baixa notas de serviço tomadas em lote, via API oficial do Sistema Nacional NFS-e — substitui o download manual, portal por portal, empresa por empresa.</p>
+        <button class="botao botao--lime adicionar-carrinho" data-sistema="Fluxo NFS-e Nacional">Adicionar ao Carrinho</button>
       </div>
     </div>
 
-    <div class="sistema reveal">
+    <div class="sistema reveal" data-sistema-id="inteligencia-fiscal">
       <span class="sistema__numero">03</span>
       <div class="sistema__corpo">
         <h3 class="sistema__nome">Inteligência Fiscal</h3>
         <p class="sistema__desc">Lê tudo o que foi baixado e aponta sozinho os alertas fiscais que importam pro perfil de cada empresa — sem passar nota por nota na mão.</p>
+        <button class="botao botao--lime adicionar-carrinho" data-sistema="Inteligência Fiscal">Adicionar ao Carrinho</button>
       </div>
     </div>
   </section>

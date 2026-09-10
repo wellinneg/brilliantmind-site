@@ -262,3 +262,56 @@ if (formSolicitacao) {
     });
   }
 }
+
+// carrinho de compras
+const carrinhoContador = document.getElementById('carrinho-contador');
+const botaoCarrinho = document.getElementById('botao-carrinho');
+const botoesAdicionarCarrinho = document.querySelectorAll('.adicionar-carrinho');
+
+function carregarCarrinho() {
+  return JSON.parse(localStorage.getItem('bmc-carrinho') || '[]');
+}
+
+function salvarCarrinho(carrinho) {
+  localStorage.setItem('bmc-carrinho', JSON.stringify(carrinho));
+  atualizarContador();
+}
+
+function atualizarContador() {
+  const carrinho = carregarCarrinho();
+  if (carrinhoContador) {
+    carrinhoContador.textContent = carrinho.length;
+  }
+}
+
+botoesAdicionarCarrinho.forEach((botao) => {
+  botao.addEventListener('click', () => {
+    const sistema = botao.dataset.sistema;
+    const carrinho = carregarCarrinho();
+
+    if (!carrinho.includes(sistema)) {
+      carrinho.push(sistema);
+      salvarCarrinho(carrinho);
+      botao.textContent = '✓ Adicionado ao Carrinho';
+      botao.disabled = true;
+      setTimeout(() => {
+        botao.textContent = 'Adicionar ao Carrinho';
+        botao.disabled = false;
+      }, 2000);
+    }
+  });
+});
+
+if (botaoCarrinho) {
+  botaoCarrinho.addEventListener('click', () => {
+    const carrinho = carregarCarrinho();
+    if (carrinho.length === 0) {
+      alert('Seu carrinho está vazio');
+      return;
+    }
+    const lista = carrinho.join('\n- ');
+    alert(`Seu Carrinho:\n- ${lista}\n\nPróximo passo: preencher os dados e contratar!`);
+  });
+}
+
+atualizarContador();

@@ -51,7 +51,7 @@ body {
 }
 .topo__marca span { color: var(--lime); }
 
-.topo__nav { display: flex; gap: 2.5rem; }
+.topo__nav { display: flex; gap: 2.5rem; align-items: center; }
 .topo__nav a {
   color: var(--branco);
   text-decoration: none;
@@ -63,6 +63,36 @@ body {
   transition: opacity 0.25s ease;
 }
 .topo__nav a:hover { opacity: 1; }
+
+.topo__carrinho {
+  position: relative;
+  background: none;
+  border: none;
+  color: var(--branco);
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.75;
+  transition: opacity 0.25s ease;
+}
+.topo__carrinho:hover { opacity: 1; }
+.topo__carrinho-contador {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: var(--lime);
+  color: var(--navy);
+  border-radius: 50%;
+  min-width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
 
 /* ---------- seções genéricas ---------- */
 .secao {
@@ -385,6 +415,16 @@ body {
   color: var(--cinza-claro);
   max-width: 62ch;
   line-height: 1.55;
+  margin-bottom: 1.5rem;
+}
+.sistema__corpo {
+  display: flex;
+  flex-direction: column;
+}
+.sistema .adicionar-carrinho {
+  align-self: flex-start;
+  font-size: 0.85rem;
+  padding: 0.65rem 1.5rem;
 }
 
 /* ---------- por que BMC ---------- */
