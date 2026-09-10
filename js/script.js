@@ -144,6 +144,24 @@ const precos = {
     ],
     nota: 'Sem limite de CNPJs — pague mensal ou feche o ano com desconto.',
   },
+  bussola: {
+    anual: {
+      tiers: [
+        { nome: 'Básico', limite: 'até 5 CNPJs', valor: 'A definir', sufixo: '/ano' },
+        { nome: 'Profissional', limite: 'até 20 CNPJs', valor: 'A definir', sufixo: '/ano' },
+        { nome: 'Corporativo', limite: 'Ilimitado', valor: 'A definir', sufixo: '/ano' },
+      ],
+      nota: 'Preços em definição. Entre em contato para mais informações.',
+    },
+    mensal: {
+      tiers: [
+        { nome: 'Básico', limite: 'até 5 CNPJs', valor: 'A definir', sufixo: '/mês' },
+        { nome: 'Profissional', limite: 'até 20 CNPJs', valor: 'A definir', sufixo: '/mês' },
+        { nome: 'Corporativo', limite: 'Ilimitado', valor: 'A definir', sufixo: '/mês' },
+      ],
+      nota: 'Preços em definição. Entre em contato para mais informações.',
+    },
+  },
 };
 
 const abas = document.querySelectorAll('.aba');
