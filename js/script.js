@@ -56,8 +56,9 @@ if (heroSecao && heroGlow && !semMovimento) {
   });
 }
 
-// lanterna: farol (glow) segue o cursor/dedo sobre o vídeo do logo
+// lanterna: farol (glow) segue o cursor + vídeo do logo avança/recua com o scroll
 const secaoLanterna = document.querySelector('.secao--lanterna');
+const lanternaVideo = document.getElementById('logo-video');
 if (secaoLanterna) {
   const moverFarol = (x, y) => {
     const retangulo = secaoLanterna.getBoundingClientRect();
@@ -71,6 +72,44 @@ if (secaoLanterna) {
     const toque = evento.touches[0];
     if (toque) moverFarol(toque.clientX, toque.clientY);
   }, { passive: true });
+
+  if (lanternaVideo) {
+    lanternaVideo.pause();
+    lanternaVideo.removeAttribute('autoplay');
+    lanternaVideo.removeAttribute('loop');
+    let duracao = 0;
+    let tick = false;
+
+    const scrub = () => {
+      tick = false;
+      if (!duracao) return;
+      const r = secaoLanterna.getBoundingClientRect();
+      const total = secaoLanterna.offsetHeight - window.innerHeight;
+      const progresso = Math.min(Math.max(-r.top / total, 0), 1);
+      const alvo = progresso * duracao;
+      if (Math.abs(alvo - lanternaVideo.currentTime) > 0.03) {
+        try { lanternaVideo.currentTime = alvo; } catch (e) {}
+      }
+    };
+
+    const aoRolar = () => {
+      if (!tick) {
+        tick = true;
+        requestAnimationFrame(scrub);
+      }
+    };
+
+    lanternaVideo.addEventListener('loadedmetadata', () => {
+      duracao = lanternaVideo.duration || 0;
+      scrub();
+    });
+    if (lanternaVideo.readyState >= 1) {
+      duracao = lanternaVideo.duration || 0;
+      scrub();
+    }
+    window.addEventListener('scroll', aoRolar, { passive: true });
+    window.addEventListener('resize', aoRolar);
+  }
 }
 
 // águia: reprisa os últimos 2s do voo 3 vezes antes de congelar no logo final
@@ -102,7 +141,7 @@ const precos = {
         { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 3.600', sufixo: '/ano' },
         { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 5.900', sufixo: '/ano' },
       ],
-      nota: 'Preço de lançamento até 30/11/2026 — depois passa a R$ 1.560 / R$ 4.680 / R$ 7.670 por ano.',
+      nota: 'Preço com descontos exclusivos de lançamento. A partir de 30/11/2026, os preços serão reajustados.',
     },
     mensal: {
       tiers: [
@@ -110,7 +149,7 @@ const precos = {
         { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 360', sufixo: '/mês' },
         { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 590', sufixo: '/mês' },
       ],
-      nota: 'Preço de lançamento até 30/11/2026 — depois passa a R$ 156 / R$ 468 / R$ 767 por mês.',
+      nota: 'Preço com descontos exclusivos de lançamento. A partir de 30/11/2026, os preços serão reajustados.',
     },
   },
   nfse: {
@@ -120,7 +159,7 @@ const precos = {
         { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 2.160', sufixo: '/ano' },
         { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 3.540', sufixo: '/ano' },
       ],
-      nota: 'Preço de lançamento até 30/11/2026 — depois passa a R$ 936 / R$ 2.808 / R$ 4.602 por ano.',
+      nota: 'Preço com descontos exclusivos de lançamento. A partir de 30/11/2026, os preços serão reajustados.',
     },
     mensal: {
       tiers: [
@@ -128,7 +167,7 @@ const precos = {
         { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 216', sufixo: '/mês' },
         { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 354', sufixo: '/mês' },
       ],
-      nota: 'Preço de lançamento até 30/11/2026 — depois passa a R$ 94 / R$ 281 / R$ 460 por mês.',
+      nota: 'Preço com descontos exclusivos de lançamento. A partir de 30/11/2026, os preços serão reajustados.',
     },
   },
   fiscal: {
@@ -137,6 +176,13 @@ const precos = {
       { nome: 'Anual', limite: 'CNPJs ilimitados', valor: 'R$ 999', sufixo: '/ano' },
     ],
     nota: 'Sem limite de CNPJs — pague mensal ou feche o ano com desconto.',
+  },
+  bussola: {
+    tiers: [
+      { nome: 'Mensal', limite: 'consultas ilimitadas', valor: 'R$ 49,90', sufixo: '/mês' },
+      { nome: 'Anual', limite: 'consultas ilimitadas', valor: 'R$ 499', sufixo: '/ano' },
+    ],
+    nota: 'CNPJ + Simples Nacional + Sintegra em lote, quantas consultas quiser.',
   },
 };
 
@@ -314,19 +360,27 @@ demoAbas.forEach((aba) => {
 
   function render() {
     contador.textContent = String(itens.length);
-    if (itens.length === 0) {
-      el.hidden = true;
-      painel.hidden = true;
-      toggle.setAttribute('aria-expanded', 'false');
-    } else {
-      el.hidden = false;
-    }
+    el.hidden = false;
+    const vazio = itens.length === 0;
+    if (btnWpp) btnWpp.disabled = vazio;
+    if (btnEmail) btnEmail.disabled = vazio;
     lista.innerHTML = '';
+    if (vazio) {
+      const li = document.createElement('li');
+      li.className = 'carrinho__vazio';
+      li.textContent = 'Seu pedido está vazio. Escolha um plano acima: "Adicionar" para contratar ou "Iniciar teste grátis" para testar 3 dias.';
+      lista.appendChild(li);
+      renderTotais();
+      return;
+    }
     itens.forEach((it, i) => {
       const li = document.createElement('li');
       li.className = 'carrinho__item';
       const info = document.createElement('div');
-      info.innerHTML = `<strong>${it.sistema}</strong><br>${it.plano}${it.limite ? ' (' + it.limite + ')' : ''} — ${it.valor}${it.periodo}`;
+      const detalhe = it.modo === 'teste'
+        ? '<em>teste grátis 3 dias</em>'
+        : `${it.valor}${it.periodo}`;
+      info.innerHTML = `<strong>${it.sistema}</strong><br>${it.plano}${it.limite ? ' (' + it.limite + ')' : ''} — ${detalhe}`;
       const rm = document.createElement('button');
       rm.className = 'carrinho__remover';
       rm.type = 'button';
@@ -350,43 +404,64 @@ demoAbas.forEach((aba) => {
     toggle.setAttribute('aria-expanded', String(!aberto));
   });
 
-  document.querySelectorAll('.plano__add').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const card = btn.closest('.plano');
-      const abaAtiva = document.querySelector('.aba.ativa');
-      const periodoAtivo = document.querySelector('.periodo.ativa');
-      const sistema = abaAtiva ? abaAtiva.textContent.trim() : 'Sistema';
-      const plano = card.querySelector('.plano__nome').textContent.trim();
-      const limite = card.querySelector('.plano__limite').textContent.trim();
-      const valorTxt = card.querySelector('.plano__valor').textContent.trim();
-      const sufixoMatch = valorTxt.match(/\/(mês|ano)/);
-      const periodo = sufixoMatch ? '/' + sufixoMatch[1] : (periodoAtivo ? '/' + periodoAtivo.dataset.periodo : '');
-      const valor = valorTxt.replace(/\/(mês|ano)/, '').trim();
+  const rotularModo = (modo) => (modo === 'teste' ? 'Iniciar teste grátis' : 'Adicionar');
 
-      const jaTem = itens.some((it) => it.sistema === sistema && it.plano === plano && it.periodo === periodo);
-      if (!jaTem) {
-        itens.push({ sistema, plano, limite, valor, periodo, valorNum: paraNumero(valor) });
-        salvar();
-        render();
-      }
-      painel.hidden = false;
-      toggle.setAttribute('aria-expanded', 'true');
-      btn.classList.add('adicionado');
-      btn.textContent = jaTem ? 'Já no pedido' : 'Adicionado ✓';
-      setTimeout(() => {
-        btn.classList.remove('adicionado');
-        btn.textContent = 'Adicionar';
-      }, 1600);
+  function ligarBotoesPlano(seletor, modo) {
+    document.querySelectorAll(seletor).forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const card = btn.closest('.plano');
+        const abaAtiva = document.querySelector('.aba.ativa');
+        const periodoAtivo = document.querySelector('.periodo.ativa');
+        const sistema = abaAtiva ? abaAtiva.textContent.trim() : 'Sistema';
+        const plano = card.querySelector('.plano__nome').textContent.trim();
+        const limite = card.querySelector('.plano__limite').textContent.trim();
+        const valorTxt = card.querySelector('.plano__valor').textContent.trim();
+        const sufixoMatch = valorTxt.match(/\/(mês|ano)/);
+        const periodo = sufixoMatch ? '/' + sufixoMatch[1] : (periodoAtivo ? '/' + periodoAtivo.dataset.periodo : '');
+        const valor = valorTxt.replace(/\/(mês|ano)/, '').trim();
+
+        const jaTem = itens.some(
+          (it) => it.sistema === sistema && it.plano === plano && it.periodo === periodo && it.modo === modo
+        );
+        if (!jaTem) {
+          itens.push({
+            sistema, plano, limite, valor, periodo, modo,
+            valorNum: modo === 'teste' ? 0 : paraNumero(valor),
+          });
+          salvar();
+          render();
+        }
+        painel.hidden = false;
+        toggle.setAttribute('aria-expanded', 'true');
+        btn.classList.add('adicionado');
+        btn.textContent = jaTem ? 'Já no pedido' : (modo === 'teste' ? 'No pedido ✓' : 'Adicionado ✓');
+        setTimeout(() => {
+          btn.classList.remove('adicionado');
+          btn.textContent = rotularModo(modo);
+        }, 1600);
+      });
     });
-  });
+  }
+  ligarBotoesPlano('.plano__add', 'compra');
+  ligarBotoesPlano('.plano__teste', 'teste');
 
   function montarPedido() {
-    const linhas = ['Quero fechar um pedido na BMC Automação Contábil:'];
-    itens.forEach((it) => {
-      linhas.push(`- ${it.sistema} — ${it.plano}${it.limite ? ' (' + it.limite + ')' : ''}: ${it.valor}${it.periodo}`);
-    });
-    if (totalEl.textContent) linhas.push(totalEl.textContent);
-    linhas.push('Quero começar com o teste grátis de 3 dias.');
+    const compras = itens.filter((it) => it.modo !== 'teste');
+    const testes = itens.filter((it) => it.modo === 'teste');
+    const linhas = ['Olá! Montei meu pedido no site da BMC Automação Contábil:'];
+    if (compras.length) {
+      linhas.push('', 'QUERO CONTRATAR:');
+      compras.forEach((it) => {
+        linhas.push(`- ${it.sistema} — ${it.plano}${it.limite ? ' (' + it.limite + ')' : ''}: ${it.valor}${it.periodo}`);
+      });
+      if (totalEl.textContent) linhas.push(totalEl.textContent);
+    }
+    if (testes.length) {
+      linhas.push('', 'QUERO FAZER O TESTE GRÁTIS DE 3 DIAS:');
+      testes.forEach((it) => {
+        linhas.push(`- ${it.sistema} — ${it.plano}${it.limite ? ' (' + it.limite + ')' : ''}`);
+      });
+    }
     return linhas.join('\n');
   }
 

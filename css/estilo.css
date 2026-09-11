@@ -264,13 +264,19 @@ body {
   .marquee__trilha { animation: none; }
 }
 
-/* ---------- lanterna ---------- */
+/* ---------- lanterna (vídeo em tela cheia, controlado pelo scroll) ---------- */
 .secao--lanterna {
+  position: relative;
+  height: 320vh;              /* trilho de rolagem: distância pra "passar" o vídeo */
   background: #000;
-  align-items: center;
-  text-align: center;
-  overflow: hidden;
   cursor: crosshair;
+}
+.lanterna__sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
 
 .lanterna__farol {
@@ -300,22 +306,13 @@ body {
   88% { opacity: 0.6; }
 }
 
-.lanterna__logo {
+.lanterna__logo-video {
   position: absolute;
   inset: 0;
   z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: clamp(1.5rem, 6vw, 5rem);
-  pointer-events: none;
-}
-.lanterna__logo--sempre { opacity: 1; }
-.lanterna__logo img,
-.lanterna__logo-video {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @media (max-width: 640px) {
@@ -626,22 +623,41 @@ body {
   font-weight: 300;
   color: var(--cinza-claro);
 }
-.plano__add {
+.plano__acoes {
   margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.plano__add,
+.plano__teste {
   width: 100%;
   font-family: var(--fonte);
-  background: transparent;
-  border: 1px solid var(--lime);
-  color: var(--lime);
   padding: 0.6rem 1rem;
   border-radius: 999px;
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, filter 0.2s ease;
 }
-.plano__add:hover { background: var(--lime); color: var(--navy); }
-.plano__add.adicionado { background: var(--lime); color: var(--navy); }
+.plano__add {
+  background: var(--lime);
+  border: 1px solid var(--lime);
+  color: var(--navy);
+}
+.plano__add:hover { filter: brightness(1.08); }
+.plano__teste {
+  background: transparent;
+  border: 1px dashed rgba(206, 240, 16, 0.5);
+  color: var(--lime);
+}
+.plano__teste:hover { border-color: var(--lime); background: rgba(206, 240, 16, 0.08); }
+.plano__add.adicionado,
+.plano__teste.adicionado {
+  background: var(--lime);
+  border-color: var(--lime);
+  color: var(--navy);
+}
 .precos__nota {
   margin-top: 1.5rem;
   font-size: 0.85rem;
@@ -663,6 +679,8 @@ body {
   align-items: flex-end;
   gap: 0.75rem;
 }
+.carrinho[hidden] { display: none; }
+.carrinho__painel[hidden] { display: none; }
 .carrinho__toggle {
   display: inline-flex;
   align-items: center;
@@ -751,10 +769,17 @@ body {
   gap: 0.6rem;
 }
 .carrinho__acoes .botao { justify-content: center; }
+.carrinho__acoes .botao:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
 .carrinho__vazio {
+  list-style: none;
   font-size: 0.85rem;
   color: var(--cinza);
   font-weight: 300;
+  line-height: 1.5;
 }
 
 /* ---------- contato ---------- */

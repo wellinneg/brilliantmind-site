@@ -73,23 +73,24 @@
       <span>NFe + CTe</span>
       <span>FLUXO NFS-e NACIONAL</span>
       <span>INTELIGÊNCIA TAX</span>
+      <span>BÚSSOLA CNPJ</span>
       <span>TESTE GRÁTIS 3 DIAS</span>
       <span>AUTOMAÇÃO CONTÁBIL</span>
       <span>NFe + CTe</span>
       <span>FLUXO NFS-e NACIONAL</span>
       <span>INTELIGÊNCIA TAX</span>
+      <span>BÚSSOLA CNPJ</span>
       <span>TESTE GRÁTIS 3 DIAS</span>
     </div>
   </div>
 
   <!-- LANTERNA -->
-  <section class="secao secao--lanterna" id="lanterna">
-    <div class="lanterna__farol" aria-hidden="true"></div>
-
-    <div class="lanterna__logo lanterna__logo--sempre" id="logo-toggle">
-      <video class="lanterna__logo-video" id="logo-video" autoplay muted loop playsinline aria-label="Contabilidade + automação — sua rotina contábil merece trabalhar por você.">
+  <section class="secao--lanterna" id="lanterna">
+    <div class="lanterna__sticky">
+      <video class="lanterna__logo-video" id="logo-video" muted playsinline preload="auto" aria-label="Contabilidade + automação — sua rotina contábil merece trabalhar por você.">
         <source src="assets/video/logo-contabilidade-automacao.mp4" type="video/mp4">
       </video>
+      <div class="lanterna__farol" aria-hidden="true"></div>
     </div>
   </section>
 
@@ -118,6 +119,14 @@
       <div class="sistema__corpo">
         <h3 class="sistema__nome">Inteligência Tax</h3>
         <p class="sistema__desc">Lê tudo o que foi baixado e aponta sozinho os alertas fiscais que importam pro perfil de cada empresa — sem passar nota por nota na mão.</p>
+      </div>
+    </div>
+
+    <div class="sistema reveal">
+      <span class="sistema__numero">04</span>
+      <div class="sistema__corpo">
+        <h3 class="sistema__nome">Bússola CNPJ</h3>
+        <p class="sistema__desc">Consulta CNPJ, Simples Nacional e Sintegra em lote — cadastro, regime e inscrição estadual de dezenas de empresas de uma vez, sem abrir site por site.</p>
       </div>
     </div>
   </section>
@@ -168,6 +177,7 @@
       <button class="aba ativa" data-sistema="nfe">NFe + CTe Distribuição</button>
       <button class="aba" data-sistema="nfse">Fluxo NFS-e Nacional</button>
       <button class="aba" data-sistema="fiscal">Inteligência Tax</button>
+      <button class="aba" data-sistema="bussola">Bússola CNPJ</button>
     </div>
 
     <div class="precos__periodo reveal" id="precos-periodo">
@@ -180,19 +190,28 @@
         <h3 class="plano__nome">Básico</h3>
         <p class="plano__limite">até 10 CNPJs</p>
         <p class="plano__valor">R$ 1.200<span>/ano</span></p>
-        <button type="button" class="plano__add">Adicionar</button>
+        <div class="plano__acoes">
+          <button type="button" class="plano__add">Adicionar</button>
+          <button type="button" class="plano__teste">Iniciar teste grátis</button>
+        </div>
       </div>
       <div class="plano plano--destaque">
         <h3 class="plano__nome">Profissional</h3>
         <p class="plano__limite">até 50 CNPJs</p>
         <p class="plano__valor">R$ 3.600<span>/ano</span></p>
-        <button type="button" class="plano__add">Adicionar</button>
+        <div class="plano__acoes">
+          <button type="button" class="plano__add">Adicionar</button>
+          <button type="button" class="plano__teste">Iniciar teste grátis</button>
+        </div>
       </div>
       <div class="plano">
         <h3 class="plano__nome">Corporativo</h3>
         <p class="plano__limite">até 100 CNPJs</p>
         <p class="plano__valor">R$ 5.900<span>/ano</span></p>
-        <button type="button" class="plano__add">Adicionar</button>
+        <div class="plano__acoes">
+          <button type="button" class="plano__add">Adicionar</button>
+          <button type="button" class="plano__teste">Iniciar teste grátis</button>
+        </div>
       </div>
     </div>
     <p class="precos__nota reveal" id="precos-nota">Valores fixos, sem pegadinha — o plano é definido só pelo limite de CNPJs.</p>
@@ -223,9 +242,10 @@
           <span>Sistema de interesse</span>
           <select name="sistema" id="campo-sistema" required>
             <option value="" disabled selected>Selecione...</option>
-            <option>NFe + CTe Distribuição Downloader</option>
+            <option>Central Fiscal NFe + CTe</option>
             <option>Fluxo NFS-e Nacional</option>
             <option>Inteligência Tax</option>
+            <option>Bússola CNPJ</option>
             <option>Ainda não sei — quero indicação</option>
           </select>
         </label>
