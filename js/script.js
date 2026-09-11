@@ -110,7 +110,7 @@ if (anoEl) anoEl.textContent = new Date().getFullYear();
 // abas de preço por sistema — valores reais de PRECOS_LANCAMENTO_POR_PRODUTO /
 // PRECOS_NORMALIZADOS_POR_PRODUTO / PRECOS_MENSAL_LANCAMENTO_POR_PRODUTO em
 // comercial/nfe-distribuicao/scripts/empacotar_comercial.py e da precificação
-// registrada do Olho de Águia Fiscal (mensal/anual, sem limite de CNPJ — esse
+// registrada do Inteligência Tax (mensal/anual, sem limite de CNPJ — esse
 // não tem seletor de período porque já mostra os dois planos lado a lado).
 const precos = {
   nfe: {

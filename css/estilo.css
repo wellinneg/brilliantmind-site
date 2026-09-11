@@ -462,6 +462,31 @@ body {
   line-height: 1.55;
 }
 
+/* ---------- veja funcionando ---------- */
+.secao--demo { background: var(--navy-2); }
+
+.demo__texto {
+  max-width: 60ch;
+  color: var(--cinza-claro);
+  font-weight: 300;
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
+  line-height: 1.55;
+  margin-bottom: 2.5rem;
+}
+.demo__player {
+  width: 100%;
+  max-width: 960px;
+  border: 1px solid rgba(206, 240, 16, 0.25);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+.demo__player video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* ---------- por que BMC ---------- */
 .secao--diferenciais { background: var(--navy-2); }
 
