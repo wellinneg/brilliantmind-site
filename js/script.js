@@ -56,7 +56,7 @@ if (heroSecao && heroGlow && !semMovimento) {
   });
 }
 
-// lanterna: farol segue o cursor/dedo e revela o interruptor escondido
+// lanterna: farol (glow) segue o cursor/dedo sobre o vídeo do logo
 const secaoLanterna = document.querySelector('.secao--lanterna');
 if (secaoLanterna) {
   const moverFarol = (x, y) => {
@@ -71,24 +71,6 @@ if (secaoLanterna) {
     const toque = evento.touches[0];
     if (toque) moverFarol(toque.clientX, toque.clientY);
   }, { passive: true });
-
-  const interruptor = document.getElementById('interruptor');
-  const logoToggle = document.getElementById('logo-toggle');
-  const logoVideo = document.getElementById('logo-video');
-  if (interruptor && logoToggle) {
-    interruptor.addEventListener('click', () => {
-      const ligado = interruptor.classList.toggle('ligado');
-      logoToggle.classList.toggle('ligado', ligado);
-      if (logoVideo) {
-        if (ligado) {
-          logoVideo.currentTime = 0;
-          logoVideo.play().catch(() => {});
-        } else {
-          logoVideo.pause();
-        }
-      }
-    });
-  }
 }
 
 // águia: reprisa os últimos 2s do voo 3 vezes antes de congelar no logo final
@@ -274,3 +256,20 @@ if (formSolicitacao) {
     });
   }
 }
+
+// abas de vídeo demo (Veja funcionando) — troca o src e o texto
+const demoAbas = document.querySelectorAll('.demo__aba');
+const demoVideo = document.getElementById('demo-video');
+const demoTexto = document.getElementById('demo-texto');
+demoAbas.forEach((aba) => {
+  aba.addEventListener('click', () => {
+    demoAbas.forEach((a) => a.classList.remove('ativa'));
+    aba.classList.add('ativa');
+    if (demoVideo) {
+      demoVideo.src = aba.dataset.video;
+      demoVideo.load();
+      demoVideo.play().catch(() => {});
+    }
+    if (demoTexto && aba.dataset.texto) demoTexto.textContent = aba.dataset.texto;
+  });
+});

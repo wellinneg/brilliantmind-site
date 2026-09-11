@@ -300,28 +300,6 @@ body {
   88% { opacity: 0.6; }
 }
 
-.lanterna__interruptor-wrap {
-  position: absolute;
-  inset: 0;
-  z-index: 3;
-  pointer-events: none;
-  -webkit-mask-image: radial-gradient(220px circle at var(--lx, 50%) var(--ly, 50%), black 55%, transparent 75%);
-  mask-image: radial-gradient(220px circle at var(--lx, 50%) var(--ly, 50%), black 55%, transparent 75%);
-}
-
-.lanterna__interruptor {
-  position: absolute;
-  top: 38%;
-  left: 68%;
-  pointer-events: auto;
-  background: none;
-  border: none;
-  color: var(--cinza-claro);
-  cursor: pointer;
-  padding: 0.5rem;
-}
-.lanterna__interruptor.ligado { color: var(--lime); filter: drop-shadow(0 0 8px var(--lime)); }
-
 .lanterna__logo {
   position: absolute;
   inset: 0;
@@ -330,28 +308,15 @@ body {
   align-items: center;
   justify-content: center;
   padding: clamp(1.5rem, 6vw, 5rem);
-  opacity: 0;
-  transform: scale(0.97);
-  transition: opacity 0.6s ease, transform 0.6s ease;
   pointer-events: none;
 }
-.lanterna__logo.ligado { opacity: 1; transform: scale(1); }
+.lanterna__logo--sempre { opacity: 1; }
 .lanterna__logo img,
 .lanterna__logo-video {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-
-.lanterna__dica {
-  position: relative;
-  z-index: 4;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
-  color: var(--cinza);
-  transition: opacity 0.4s ease;
-}
-.secao--lanterna:has(.lanterna__logo.ligado) .lanterna__dica { opacity: 0; }
 
 @media (max-width: 640px) {
   .secao--lanterna { cursor: default; }
@@ -465,13 +430,44 @@ body {
 /* ---------- veja funcionando ---------- */
 .secao--demo { background: var(--navy-2); }
 
+.demo__abas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+}
+.demo__aba {
+  font-family: var(--fonte);
+  background: transparent;
+  border: 1px solid rgba(244, 247, 245, 0.2);
+  color: var(--cinza-claro);
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.demo__aba:hover { border-color: var(--lime); color: var(--branco); }
+.demo__aba.ativa {
+  background: var(--lime);
+  border-color: var(--lime);
+  color: var(--navy);
+  font-weight: 600;
+}
+
 .demo__texto {
   max-width: 60ch;
   color: var(--cinza-claro);
   font-weight: 300;
   font-size: clamp(1rem, 1.7vw, 1.2rem);
   line-height: 1.55;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.demo__aviso {
+  max-width: 60ch;
+  color: var(--cinza);
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
 }
 .demo__player {
   width: 100%;

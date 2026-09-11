@@ -72,12 +72,12 @@
       <span>AUTOMAÇÃO CONTÁBIL</span>
       <span>NFe + CTe</span>
       <span>FLUXO NFS-e NACIONAL</span>
-      <span>OLHO DE ÁGUIA FISCAL</span>
+      <span>INTELIGÊNCIA TAX</span>
       <span>TESTE GRÁTIS 3 DIAS</span>
       <span>AUTOMAÇÃO CONTÁBIL</span>
       <span>NFe + CTe</span>
       <span>FLUXO NFS-e NACIONAL</span>
-      <span>OLHO DE ÁGUIA FISCAL</span>
+      <span>INTELIGÊNCIA TAX</span>
       <span>TESTE GRÁTIS 3 DIAS</span>
     </div>
   </div>
@@ -86,27 +86,15 @@
   <section class="secao secao--lanterna" id="lanterna">
     <div class="lanterna__farol" aria-hidden="true"></div>
 
-    <div class="lanterna__interruptor-wrap" aria-hidden="true">
-      <button class="lanterna__interruptor" id="interruptor" type="button" aria-label="Interruptor escondido no escuro">
-        <svg viewBox="0 0 24 24" width="32" height="32">
-          <circle cx="12" cy="13" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
-          <line x1="12" y1="4" x2="12" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-      </button>
-    </div>
-
-    <div class="lanterna__logo" id="logo-toggle">
-      <video class="lanterna__logo-video" id="logo-video" muted playsinline aria-label="Contabilidade + automação — sua rotina contábil merece trabalhar por você.">
+    <div class="lanterna__logo lanterna__logo--sempre" id="logo-toggle">
+      <video class="lanterna__logo-video" id="logo-video" autoplay muted loop playsinline aria-label="Contabilidade + automação — sua rotina contábil merece trabalhar por você.">
         <source src="assets/video/logo-contabilidade-automacao.mp4" type="video/mp4">
       </video>
     </div>
-
-    <p class="lanterna__dica reveal">Tem um interruptor escondido no escuro. Ache com a lanterna.</p>
   </section>
 
   <!-- OS 3 SISTEMAS -->
   <section class="secao secao--sistemas" id="sistemas">
-    <span class="rotulo-secao reveal">[ AGORA ]</span>
     <h2 class="titulo-secao reveal">Os sistemas</h2>
 
     <div class="sistema reveal">
@@ -136,17 +124,23 @@
 
   <!-- VEJA FUNCIONANDO -->
   <section class="secao secao--demo" id="demo">
-    <span class="rotulo-secao reveal">[ NA PRÁTICA ]</span>
     <h2 class="titulo-secao reveal">Veja funcionando</h2>
-    <p class="demo__texto reveal">Central Fiscal NFe + CTe rodando de verdade: todas as notas do mês já organizadas, um clique pra buscar na SEFAZ e o resto é automático. (Dados de cliente ocultados.)</p>
+
+    <div class="demo__abas reveal">
+      <button class="demo__aba ativa" data-video="assets/video/central-fiscal-demo.mp4" data-texto="Central Fiscal NFe + CTe rodando de verdade: todas as notas do mês já organizadas, um clique pra buscar na SEFAZ e o resto é automático.">Central Fiscal NFe + CTe</button>
+      <button class="demo__aba" data-video="assets/video/fluxo-nfse-demo.mp4" data-texto="Fluxo NFS-e Nacional: as notas de serviço tomadas já organizadas, e um clique pra baixar as novas direto do Sistema Nacional NFS-e.">Fluxo NFS-e Nacional</button>
+    </div>
+
+    <p class="demo__texto reveal" id="demo-texto">Central Fiscal NFe + CTe rodando de verdade: todas as notas do mês já organizadas, um clique pra buscar na SEFAZ e o resto é automático.</p>
+    <p class="demo__aviso reveal">Dados de cliente, CNPJs, números de nota e caminhos de pasta foram ocultados nos vídeos.</p>
+
     <div class="demo__player reveal">
-      <video src="assets/video/central-fiscal-demo.mp4" autoplay muted loop playsinline controls></video>
+      <video id="demo-video" src="assets/video/central-fiscal-demo.mp4" autoplay muted loop playsinline controls></video>
     </div>
   </section>
 
   <!-- POR QUE BMC -->
   <section class="secao secao--diferenciais">
-    <span class="rotulo-secao reveal">[ POR QUE BMC ]</span>
     <h2 class="titulo-secao reveal">Feito por quem vive a rotina</h2>
 
     <div class="diferenciais__grade">
@@ -203,7 +197,6 @@
 
   <!-- CONTATO -->
   <section class="secao secao--contato" id="contato">
-    <span class="rotulo-secao reveal">[ CONTATO ]</span>
     <h2 class="titulo-secao reveal">Vamos automatizar?</h2>
     <p class="contato__texto reveal">Preencha e escolha por onde prefere falar — a gente já recebe seus dados prontos pra preparar o sistema certo.</p>
 
@@ -244,7 +237,7 @@
       </label>
       <div class="contato__botoes">
         <button type="button" class="botao botao--lime" id="botao-enviar-whatsapp">Enviar pelo WhatsApp</button>
-        <button type="button" class="botao botao--contorno" id="botao-enviar-email">Enviar por e-mail</button>
+        <button type="button" class="botao botao--lime" id="botao-enviar-email">Enviar por e-mail</button>
       </div>
       <p class="form-solicitacao__aviso" id="form-solicitacao-aviso" hidden>Preencha nome, CNPJ, e-mail e o sistema antes de enviar.</p>
     </form>
