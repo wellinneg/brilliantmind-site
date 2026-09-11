@@ -180,16 +180,19 @@
         <h3 class="plano__nome">Básico</h3>
         <p class="plano__limite">até 10 CNPJs</p>
         <p class="plano__valor">R$ 1.200<span>/ano</span></p>
+        <button type="button" class="plano__add">Adicionar</button>
       </div>
       <div class="plano plano--destaque">
         <h3 class="plano__nome">Profissional</h3>
         <p class="plano__limite">até 50 CNPJs</p>
         <p class="plano__valor">R$ 3.600<span>/ano</span></p>
+        <button type="button" class="plano__add">Adicionar</button>
       </div>
       <div class="plano">
         <h3 class="plano__nome">Corporativo</h3>
         <p class="plano__limite">até 100 CNPJs</p>
         <p class="plano__valor">R$ 5.900<span>/ano</span></p>
+        <button type="button" class="plano__add">Adicionar</button>
       </div>
     </div>
     <p class="precos__nota reveal" id="precos-nota">Valores fixos, sem pegadinha — o plano é definido só pelo limite de CNPJs.</p>
@@ -248,6 +251,24 @@
 <footer class="rodape">
   <span>© <span id="ano"></span> BMC Contabilidade — Automação Contábil</span>
 </footer>
+
+<!-- CARRINHO -->
+<div class="carrinho" id="carrinho" hidden>
+  <button type="button" class="carrinho__toggle" id="carrinho-toggle" aria-expanded="false">
+    <span>Meu pedido</span>
+    <span class="carrinho__contador" id="carrinho-contador">0</span>
+  </button>
+  <div class="carrinho__painel" id="carrinho-painel" hidden>
+    <h3 class="carrinho__titulo">Meu pedido</h3>
+    <ul class="carrinho__lista" id="carrinho-lista"></ul>
+    <p class="carrinho__total" id="carrinho-total"></p>
+    <p class="carrinho__obs">Valores de referência — confirmamos tudo no atendimento. Todo sistema tem teste grátis de 3 dias.</p>
+    <div class="carrinho__acoes">
+      <button type="button" class="botao botao--lime" id="carrinho-whatsapp">Fechar pedido no WhatsApp</button>
+      <button type="button" class="botao botao--lime" id="carrinho-email">Fechar pedido por e-mail</button>
+    </div>
+  </div>
+</div>
 
 <script src="js/script.js"></script>
 </body>

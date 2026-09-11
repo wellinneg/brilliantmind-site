@@ -273,3 +273,137 @@ demoAbas.forEach((aba) => {
     if (demoTexto && aba.dataset.texto) demoTexto.textContent = aba.dataset.texto;
   });
 });
+
+// ---------- carrinho (seleção + envio por WhatsApp/e-mail, sem backend) ----------
+(function () {
+  const el = document.getElementById('carrinho');
+  const toggle = document.getElementById('carrinho-toggle');
+  const painel = document.getElementById('carrinho-painel');
+  const contador = document.getElementById('carrinho-contador');
+  const lista = document.getElementById('carrinho-lista');
+  const totalEl = document.getElementById('carrinho-total');
+  const btnWpp = document.getElementById('carrinho-whatsapp');
+  const btnEmail = document.getElementById('carrinho-email');
+  if (!el || !toggle || !painel) return;
+
+  const CHAVE = 'bmc_carrinho';
+  let itens = [];
+  try { itens = JSON.parse(localStorage.getItem(CHAVE) || '[]'); } catch (e) { itens = []; }
+
+  const salvar = () => {
+    try { localStorage.setItem(CHAVE, JSON.stringify(itens)); } catch (e) {}
+  };
+
+  const paraNumero = (valor) => {
+    const limpo = String(valor).replace(/[^0-9,.]/g, '').replace(/\./g, '').replace(',', '.');
+    const n = parseFloat(limpo);
+    return isNaN(n) ? 0 : n;
+  };
+  const formatarBRL = (n) =>
+    'R$ ' + n.toLocaleString('pt-BR', { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 });
+
+  function renderTotais() {
+    const somas = {};
+    itens.forEach((it) => {
+      if (!it.valorNum) return;
+      somas[it.periodo] = (somas[it.periodo] || 0) + it.valorNum;
+    });
+    const partes = Object.keys(somas).map((p) => `${formatarBRL(somas[p])}${p}`);
+    totalEl.textContent = partes.length ? 'Total: ' + partes.join('  +  ') : '';
+  }
+
+  function render() {
+    contador.textContent = String(itens.length);
+    if (itens.length === 0) {
+      el.hidden = true;
+      painel.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+    } else {
+      el.hidden = false;
+    }
+    lista.innerHTML = '';
+    itens.forEach((it, i) => {
+      const li = document.createElement('li');
+      li.className = 'carrinho__item';
+      const info = document.createElement('div');
+      info.innerHTML = `<strong>${it.sistema}</strong><br>${it.plano}${it.limite ? ' (' + it.limite + ')' : ''} — ${it.valor}${it.periodo}`;
+      const rm = document.createElement('button');
+      rm.className = 'carrinho__remover';
+      rm.type = 'button';
+      rm.setAttribute('aria-label', 'Remover');
+      rm.textContent = '×';
+      rm.addEventListener('click', () => {
+        itens.splice(i, 1);
+        salvar();
+        render();
+      });
+      li.appendChild(info);
+      li.appendChild(rm);
+      lista.appendChild(li);
+    });
+    renderTotais();
+  }
+
+  toggle.addEventListener('click', () => {
+    const aberto = !painel.hidden;
+    painel.hidden = aberto;
+    toggle.setAttribute('aria-expanded', String(!aberto));
+  });
+
+  document.querySelectorAll('.plano__add').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('.plano');
+      const abaAtiva = document.querySelector('.aba.ativa');
+      const periodoAtivo = document.querySelector('.periodo.ativa');
+      const sistema = abaAtiva ? abaAtiva.textContent.trim() : 'Sistema';
+      const plano = card.querySelector('.plano__nome').textContent.trim();
+      const limite = card.querySelector('.plano__limite').textContent.trim();
+      const valorTxt = card.querySelector('.plano__valor').textContent.trim();
+      const sufixoMatch = valorTxt.match(/\/(mês|ano)/);
+      const periodo = sufixoMatch ? '/' + sufixoMatch[1] : (periodoAtivo ? '/' + periodoAtivo.dataset.periodo : '');
+      const valor = valorTxt.replace(/\/(mês|ano)/, '').trim();
+
+      const jaTem = itens.some((it) => it.sistema === sistema && it.plano === plano && it.periodo === periodo);
+      if (!jaTem) {
+        itens.push({ sistema, plano, limite, valor, periodo, valorNum: paraNumero(valor) });
+        salvar();
+        render();
+      }
+      painel.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+      btn.classList.add('adicionado');
+      btn.textContent = jaTem ? 'Já no pedido' : 'Adicionado ✓';
+      setTimeout(() => {
+        btn.classList.remove('adicionado');
+        btn.textContent = 'Adicionar';
+      }, 1600);
+    });
+  });
+
+  function montarPedido() {
+    const linhas = ['Quero fechar um pedido na BMC Automação Contábil:'];
+    itens.forEach((it) => {
+      linhas.push(`- ${it.sistema} — ${it.plano}${it.limite ? ' (' + it.limite + ')' : ''}: ${it.valor}${it.periodo}`);
+    });
+    if (totalEl.textContent) linhas.push(totalEl.textContent);
+    linhas.push('Quero começar com o teste grátis de 3 dias.');
+    return linhas.join('\n');
+  }
+
+  if (btnWpp) {
+    btnWpp.addEventListener('click', () => {
+      if (!itens.length) return;
+      window.open('https://wa.me/5511968361503?text=' + encodeURIComponent(montarPedido()), '_blank', 'noopener');
+    });
+  }
+  if (btnEmail) {
+    btnEmail.addEventListener('click', () => {
+      if (!itens.length) return;
+      const assunto = encodeURIComponent('Pedido pelo site — ' + itens.map((i) => i.sistema).join(', '));
+      window.location.href =
+        'mailto:contato@brilliantmindcontabilidade.com.br?subject=' + assunto + '&body=' + encodeURIComponent(montarPedido());
+    });
+  }
+
+  render();
+})();
