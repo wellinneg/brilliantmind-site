@@ -56,7 +56,8 @@ if (heroSecao && heroGlow && !semMovimento) {
   });
 }
 
-// lanterna: farol (glow) segue o cursor + vídeo do logo avança/recua com o scroll
+// lanterna: farol (glow) segue o cursor + vídeo do logo toca ao entrar na seção
+// e reinicia do zero assim que a seção sai da tela (pra cima ou pra baixo)
 const secaoLanterna = document.querySelector('.secao--lanterna');
 const lanternaVideo = document.getElementById('logo-video');
 if (secaoLanterna) {
@@ -74,41 +75,25 @@ if (secaoLanterna) {
   }, { passive: true });
 
   if (lanternaVideo) {
+    lanternaVideo.loop = true;
     lanternaVideo.pause();
-    lanternaVideo.removeAttribute('autoplay');
-    lanternaVideo.removeAttribute('loop');
-    let duracao = 0;
-    let tick = false;
+    lanternaVideo.currentTime = 0;
 
-    const scrub = () => {
-      tick = false;
-      if (!duracao) return;
-      const r = secaoLanterna.getBoundingClientRect();
-      const total = secaoLanterna.offsetHeight - window.innerHeight;
-      const progresso = Math.min(Math.max(-r.top / total, 0), 1);
-      const alvo = progresso * duracao;
-      if (Math.abs(alvo - lanternaVideo.currentTime) > 0.03) {
-        try { lanternaVideo.currentTime = alvo; } catch (e) {}
-      }
-    };
-
-    const aoRolar = () => {
-      if (!tick) {
-        tick = true;
-        requestAnimationFrame(scrub);
-      }
-    };
-
-    lanternaVideo.addEventListener('loadedmetadata', () => {
-      duracao = lanternaVideo.duration || 0;
-      scrub();
-    });
-    if (lanternaVideo.readyState >= 1) {
-      duracao = lanternaVideo.duration || 0;
-      scrub();
-    }
-    window.addEventListener('scroll', aoRolar, { passive: true });
-    window.addEventListener('resize', aoRolar);
+    const observadorLanterna = new IntersectionObserver(
+      (entradas) => {
+        entradas.forEach((entrada) => {
+          if (entrada.isIntersecting) {
+            lanternaVideo.currentTime = 0;
+            lanternaVideo.play().catch(() => {});
+          } else {
+            lanternaVideo.pause();
+            lanternaVideo.currentTime = 0;
+          }
+        });
+      },
+      { threshold: 0 }
+    );
+    observadorLanterna.observe(secaoLanterna);
   }
 }
 
