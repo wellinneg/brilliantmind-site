@@ -56,8 +56,9 @@ if (heroSecao && heroGlow && !semMovimento) {
   });
 }
 
-// lanterna: farol (glow) segue o cursor + vídeo do logo toca ao entrar na seção
-// e reinicia do zero assim que a seção sai da tela (pra cima ou pra baixo)
+// lanterna: farol (glow) segue o cursor + vídeo do logo toca uma vez ao entrar
+// na seção, congela no último frame ao terminar e só reinicia depois de 1 min
+// parado (se o visitante ainda estiver na seção); sair da seção reseta tudo.
 const secaoLanterna = document.querySelector('.secao--lanterna');
 const lanternaVideo = document.getElementById('logo-video');
 if (secaoLanterna) {
@@ -75,13 +76,36 @@ if (secaoLanterna) {
   }, { passive: true });
 
   if (lanternaVideo) {
-    lanternaVideo.loop = true;
+    const PAUSA_LANTERNA = 60000; // 1 min parado no último frame antes de reiniciar
+    let timeoutReinicio = null;
+    let dentroDaTela = false;
+
+    const limparTimeout = () => {
+      if (timeoutReinicio) {
+        clearTimeout(timeoutReinicio);
+        timeoutReinicio = null;
+      }
+    };
+
+    lanternaVideo.loop = false;
     lanternaVideo.pause();
     lanternaVideo.currentTime = 0;
+
+    lanternaVideo.addEventListener('ended', () => {
+      limparTimeout();
+      timeoutReinicio = setTimeout(() => {
+        if (dentroDaTela) {
+          lanternaVideo.currentTime = 0;
+          lanternaVideo.play().catch(() => {});
+        }
+      }, PAUSA_LANTERNA);
+    });
 
     const observadorLanterna = new IntersectionObserver(
       (entradas) => {
         entradas.forEach((entrada) => {
+          dentroDaTela = entrada.isIntersecting;
+          limparTimeout();
           if (entrada.isIntersecting) {
             lanternaVideo.currentTime = 0;
             lanternaVideo.play().catch(() => {});
