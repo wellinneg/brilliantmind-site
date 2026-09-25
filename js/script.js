@@ -312,23 +312,6 @@ if (formSolicitacao) {
   }
 }
 
-// abas de vídeo demo (Veja funcionando) — troca o src e o texto
-const demoAbas = document.querySelectorAll('.demo__aba');
-const demoVideo = document.getElementById('demo-video');
-const demoTexto = document.getElementById('demo-texto');
-demoAbas.forEach((aba) => {
-  aba.addEventListener('click', () => {
-    demoAbas.forEach((a) => a.classList.remove('ativa'));
-    aba.classList.add('ativa');
-    if (demoVideo) {
-      demoVideo.src = aba.dataset.video;
-      demoVideo.load();
-      demoVideo.play().catch(() => {});
-    }
-    if (demoTexto && aba.dataset.texto) demoTexto.textContent = aba.dataset.texto;
-  });
-});
-
 // ---------- carrinho (seleção + envio por WhatsApp/e-mail, sem backend) ----------
 (function () {
   const el = document.getElementById('carrinho');

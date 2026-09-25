@@ -424,62 +424,6 @@ body {
   line-height: 1.55;
 }
 
-/* ---------- veja funcionando ---------- */
-.secao--demo { background: var(--navy-2); }
-
-.demo__abas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-bottom: 1.75rem;
-}
-.demo__aba {
-  font-family: var(--fonte);
-  background: transparent;
-  border: 1px solid rgba(244, 247, 245, 0.2);
-  color: var(--cinza-claro);
-  padding: 0.6rem 1.1rem;
-  border-radius: 999px;
-  font-size: 0.85rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-.demo__aba:hover { border-color: var(--lime); color: var(--branco); }
-.demo__aba.ativa {
-  background: var(--lime);
-  border-color: var(--lime);
-  color: var(--navy);
-  font-weight: 600;
-}
-
-.demo__texto {
-  max-width: 60ch;
-  color: var(--cinza-claro);
-  font-weight: 300;
-  font-size: clamp(1rem, 1.7vw, 1.2rem);
-  line-height: 1.55;
-  margin-bottom: 0.5rem;
-}
-.demo__aviso {
-  max-width: 60ch;
-  color: var(--cinza);
-  font-size: 0.85rem;
-  margin-bottom: 2rem;
-}
-.demo__player {
-  width: 100%;
-  max-width: 960px;
-  border: 1px solid rgba(206, 240, 16, 0.25);
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
-}
-.demo__player video {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 /* ---------- por que BMC ---------- */
 .secao--diferenciais { background: var(--navy-2); }
 
