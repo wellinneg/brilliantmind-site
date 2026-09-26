@@ -139,7 +139,7 @@ if (anoEl) anoEl.textContent = new Date().getFullYear();
 
 // abas de preço por sistema — valores reais de PRECOS_LANCAMENTO_POR_PRODUTO /
 // PRECOS_NORMALIZADOS_POR_PRODUTO / PRECOS_MENSAL_LANCAMENTO_POR_PRODUTO em
-// comercial/nfe-distribuicao/scripts/empacotar_comercial.py e da precificação
+// comercial/distribuicao-sistemas-bmc/scripts/empacotar_comercial.py e da precificação
 // registrada do Inteligência Tax (mensal/anual, sem limite de CNPJ — esse
 // não tem seletor de período porque já mostra os dois planos lado a lado).
 const precos = {
@@ -193,6 +193,26 @@ const precos = {
     ],
     nota: 'CNPJ + Simples Nacional + Sintegra em lote, quantas consultas quiser.',
   },
+  radar: {
+    anual: {
+      tiers: [
+        { nome: 'Essencial', limite: 'até 3 CNPJs', valor: 'R$ 690', sufixo: '/ano' },
+        { nome: 'Básico', limite: 'até 10 CNPJs', valor: 'R$ 1.990', sufixo: '/ano' },
+        { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 5.490', sufixo: '/ano' },
+        { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 8.990', sufixo: '/ano' },
+      ],
+      nota: 'Preço com descontos exclusivos de lançamento. A partir de 30/11/2026, os preços serão reajustados.',
+    },
+    mensal: {
+      tiers: [
+        { nome: 'Essencial', limite: 'até 3 CNPJs', valor: 'R$ 69', sufixo: '/mês' },
+        { nome: 'Básico', limite: 'até 10 CNPJs', valor: 'R$ 199', sufixo: '/mês' },
+        { nome: 'Profissional', limite: 'até 50 CNPJs', valor: 'R$ 549', sufixo: '/mês' },
+        { nome: 'Corporativo', limite: 'até 100 CNPJs', valor: 'R$ 899', sufixo: '/mês' },
+      ],
+      nota: 'Preço com descontos exclusivos de lançamento. A partir de 30/11/2026, os preços serão reajustados.',
+    },
+  },
 };
 
 const abas = document.querySelectorAll('.aba');
@@ -220,7 +240,10 @@ function aplicarPrecos() {
     cartao.querySelector('.plano__limite').textContent = tier.limite;
     cartao.querySelector('.plano__valor').innerHTML = `${tier.valor}<span>${tier.sufixo}</span>`;
   });
-  if (gradePrecos) gradePrecos.classList.toggle('precos__grade--duas', dados.tiers.length === 2);
+  if (gradePrecos) {
+    gradePrecos.classList.toggle('precos__grade--duas', dados.tiers.length === 2);
+    gradePrecos.classList.toggle('precos__grade--quatro', dados.tiers.length === 4);
+  }
   if (notaPrecos) notaPrecos.textContent = dados.nota;
   if (precosPeriodo) precosPeriodo.hidden = Boolean(precos[sistemaAtual].tiers);
 }
