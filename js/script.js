@@ -121,16 +121,32 @@ if (secaoLanterna) {
   }
 }
 
-// águia: reprisa os últimos 2s do voo 3 vezes antes de congelar no logo final
+// águia: reprisa o voo; o texto "Voe mais alto" só aparece no início do voo —
+// some depois de ~3s e só volta quando o vídeo reinicia do zero
 const vooVideo = document.getElementById('voo-video');
 if (vooVideo) {
   const PAUSA_NO_FINAL = 10000; // ms travado no logo antes de recomeçar
+  const TEMPO_TEXTO_VISIVEL = 2800; // ms com o texto na tela antes de sumir
+  const vooTextoEls = document.querySelectorAll('.voo__titulo, .voo__sub, .hero__scroll');
+  let vooTextoTimer = null;
+
+  const mostrarTextoVoo = () => {
+    clearTimeout(vooTextoTimer);
+    vooTextoEls.forEach((el) => el.classList.remove('voo-oculto'));
+    vooTextoTimer = setTimeout(() => {
+      vooTextoEls.forEach((el) => el.classList.add('voo-oculto'));
+    }, TEMPO_TEXTO_VISIVEL);
+  };
+
   vooVideo.addEventListener('ended', () => {
     setTimeout(() => {
       vooVideo.currentTime = 0;
       vooVideo.play().catch(() => {});
+      mostrarTextoVoo();
     }, PAUSA_NO_FINAL);
   });
+
+  if (vooTextoEls.length) mostrarTextoVoo();
 }
 
 // ano no rodapé
@@ -269,6 +285,16 @@ botoesPeriodo.forEach((botao) => {
 });
 
 aplicarPrecos();
+
+// clicar num card de sistema (seção "Os sistemas") já leva pro plano dele
+document.querySelectorAll('.sistema[data-sistema]').forEach((cartao) => {
+  cartao.addEventListener('click', () => {
+    const aba = document.querySelector(`.aba[data-sistema="${cartao.dataset.sistema}"]`);
+    if (aba) aba.click();
+    const secaoPrecos = document.getElementById('precos');
+    if (secaoPrecos) secaoPrecos.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
 
 // formulário de solicitação — sem backend no site, então o próprio clique
 // monta a mensagem e abre o WhatsApp ou o cliente de e-mail já preenchido

@@ -90,6 +90,7 @@ body {
 .reveal--4.ativo { transition-delay: 0.35s; }
 .reveal--5.ativo { transition-delay: 0.5s; }
 .reveal--6.ativo { transition-delay: 0.65s; }
+.reveal.ativo.voo-oculto { opacity: 0; transition-delay: 0s; }
 
 /* ---------- blobs ambiente ---------- */
 .secao--hero::before,
@@ -394,6 +395,7 @@ body {
   border-top: 1px solid rgba(244, 247, 245, 0.12);
   border-radius: 12px;
   transition: background 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
 }
 .sistema:last-of-type { border-bottom: 1px solid rgba(244, 247, 245, 0.12); }
 .sistema:hover {
