@@ -229,6 +229,24 @@ const precos = {
       nota: 'Preço com descontos exclusivos de lançamento. A partir de 30/11/2026, os preços serão reajustados.',
     },
   },
+  emissor: {
+    anual: {
+      tiers: [
+        { nome: 'Até 500 NFS/mês', limite: 'CNPJs ilimitados', valor: 'R$ 499', sufixo: '/ano' },
+        { nome: '501 a 2.000 NFS/mês', limite: 'CNPJs ilimitados', valor: 'R$ 649', sufixo: '/ano' },
+        { nome: 'Acima de 2.000 NFS/mês', limite: 'CNPJs ilimitados', valor: 'R$ 849', sufixo: '/ano' },
+      ],
+      nota: 'Sem limite de CNPJs — o valor é só pelo volume de NFS-e emitidas no mês.',
+    },
+    mensal: {
+      tiers: [
+        { nome: 'Até 500 NFS/mês', limite: 'CNPJs ilimitados', valor: 'R$ 49,90', sufixo: '/mês' },
+        { nome: '501 a 2.000 NFS/mês', limite: 'CNPJs ilimitados', valor: 'R$ 64,90', sufixo: '/mês' },
+        { nome: 'Acima de 2.000 NFS/mês', limite: 'CNPJs ilimitados', valor: 'R$ 84,90', sufixo: '/mês' },
+      ],
+      nota: 'Sem limite de CNPJs — o valor é só pelo volume de NFS-e emitidas no mês.',
+    },
+  },
 };
 
 const abas = document.querySelectorAll('.aba');
