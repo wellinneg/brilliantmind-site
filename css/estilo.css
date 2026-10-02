@@ -666,12 +666,33 @@ body {
   padding: 1.5rem;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
 }
+.carrinho__cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
 .carrinho__titulo {
   font-size: 1rem;
   font-weight: 800;
   text-transform: uppercase;
-  margin-bottom: 1rem;
 }
+.carrinho__fechar {
+  flex-shrink: 0;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin: -0.4rem -0.5rem -0.4rem 0;
+  border: 1px solid rgba(244, 247, 245, 0.25);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--branco);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.carrinho__fechar:hover { background: var(--lime); border-color: var(--lime); color: var(--navy); }
 .carrinho__lista {
   list-style: none;
   display: flex;

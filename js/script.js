@@ -212,7 +212,7 @@ const precos = {
       { nome: 'Mensal', limite: 'CNPJs ilimitados', valor: 'R$ 109,90', sufixo: '/mês' },
       { nome: 'Anual', limite: 'CNPJs ilimitados', valor: 'R$ 999', sufixo: '/ano' },
     ],
-    nota: 'Sem limite de CNPJs — pague mensal ou feche o ano com desconto.',
+    nota: 'Sem limite de CNPJs, pague mensal ou feche o ano com desconto.',
   },
   bussola: {
     tiers: [
@@ -248,7 +248,7 @@ const precos = {
         { nome: '501 a 2.000 NFS/mês', limite: 'CNPJs ilimitados', valor: 'R$ 649', sufixo: '/ano' },
         { nome: 'Acima de 2.000 NFS/mês', limite: 'CNPJs ilimitados', valor: 'R$ 849', sufixo: '/ano' },
       ],
-      nota: 'Sem limite de CNPJs — o valor é só pelo volume de NFS-e emitidas no mês.',
+      nota: 'Sem limite de CNPJs, o valor é só pelo volume de NFS-e emitidas no mês.',
     },
     mensal: {
       tiers: [
@@ -256,7 +256,7 @@ const precos = {
         { nome: '501 a 2.000 NFS/mês', limite: 'CNPJs ilimitados', valor: 'R$ 64,90', sufixo: '/mês' },
         { nome: 'Acima de 2.000 NFS/mês', limite: 'CNPJs ilimitados', valor: 'R$ 84,90', sufixo: '/mês' },
       ],
-      nota: 'Sem limite de CNPJs — o valor é só pelo volume de NFS-e emitidas no mês.',
+      nota: 'Sem limite de CNPJs, o valor é só pelo volume de NFS-e emitidas no mês.',
     },
   },
 };
@@ -417,7 +417,7 @@ if (formSolicitacao) {
       if (!validar()) return;
       const querTeste = campoTesteGratis && campoTesteGratis.checked;
       const assunto = encodeURIComponent(
-        (querTeste ? 'Teste grátis 3 dias — ' : 'Solicitação de sistema — ') + campoSistema.value
+        (querTeste ? 'Teste grátis 3 dias, ' : 'Solicitação de sistema, ') + campoSistema.value
       );
       const corpo = encodeURIComponent(montarMensagem());
       window.location.href = `mailto:contato@brilliantmindcontabilidade.com.br?subject=${assunto}&body=${corpo}`;
@@ -493,7 +493,7 @@ if (formSolicitacao) {
       const detalhe = it.modo === 'teste'
         ? '<em>teste grátis 3 dias</em>'
         : `${it.valor}${it.periodo}`;
-      info.innerHTML = `<strong>${it.sistema}</strong><br>${it.plano}${it.limite ? ' (' + it.limite + ')' : ''} — ${detalhe}`;
+      info.innerHTML = `<strong>${it.sistema}</strong><br>${it.plano}${it.limite ? ' (' + it.limite + ')' : ''}, ${detalhe}`;
       const rm = document.createElement('button');
       rm.className = 'carrinho__remover';
       rm.type = 'button';
@@ -515,6 +515,17 @@ if (formSolicitacao) {
     const aberto = !painel.hidden;
     painel.hidden = aberto;
     toggle.setAttribute('aria-expanded', String(!aberto));
+  });
+
+  // "X" no canto do painel e tecla Esc também fecham o pedido
+  const fecharPainel = () => {
+    painel.hidden = true;
+    toggle.setAttribute('aria-expanded', 'false');
+  };
+  const botaoFechar = document.getElementById('carrinho-fechar');
+  if (botaoFechar) botaoFechar.addEventListener('click', fecharPainel);
+  document.addEventListener('keydown', (evento) => {
+    if (evento.key === 'Escape' && !painel.hidden) fecharPainel();
   });
 
   const rotularModo = (modo) => (modo === 'teste' ? 'Iniciar teste grátis' : 'Adicionar');
@@ -565,14 +576,14 @@ if (formSolicitacao) {
     if (compras.length) {
       linhas.push('', 'QUERO CONTRATAR:');
       compras.forEach((it) => {
-        linhas.push(`- ${it.sistema} — ${it.plano}${it.limite ? ' (' + it.limite + ')' : ''}: ${it.valor}${it.periodo}`);
+        linhas.push(`- ${it.sistema}, ${it.plano}${it.limite ? ' (' + it.limite + ')' : ''}: ${it.valor}${it.periodo}`);
       });
       if (totalEl.textContent) linhas.push(totalEl.textContent);
     }
     if (testes.length) {
       linhas.push('', 'QUERO FAZER O TESTE GRÁTIS DE 3 DIAS:');
       testes.forEach((it) => {
-        linhas.push(`- ${it.sistema} — ${it.plano}${it.limite ? ' (' + it.limite + ')' : ''}`);
+        linhas.push(`- ${it.sistema}, ${it.plano}${it.limite ? ' (' + it.limite + ')' : ''}`);
       });
     }
     linhas.push('', `CPF/CNPJ do licenciado: ${campoDoc ? campoDoc.value.trim() : ''}`);
@@ -601,7 +612,7 @@ if (formSolicitacao) {
   if (btnEmail) {
     btnEmail.addEventListener('click', () => {
       if (!itens.length || !documentoOk()) return;
-      const assunto = encodeURIComponent('Pedido pelo site — ' + itens.map((i) => i.sistema).join(', '));
+      const assunto = encodeURIComponent('Pedido pelo site, ' + itens.map((i) => i.sistema).join(', '));
       window.location.href =
         'mailto:contato@brilliantmindcontabilidade.com.br?subject=' + assunto + '&body=' + encodeURIComponent(montarPedido());
     });
