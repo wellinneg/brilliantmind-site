@@ -22,6 +22,18 @@ if (topo) {
   window.addEventListener('scroll', alternarTopo, { passive: true });
 }
 
+// menu hambúrguer (só aparece no celular): abre/fecha e fecha ao escolher um item
+const botaoMenu = document.getElementById('topo-menu');
+if (topo && botaoMenu) {
+  const alternarMenu = (aberto) => {
+    topo.classList.toggle('topo--menu-aberto', aberto);
+    botaoMenu.setAttribute('aria-expanded', String(aberto));
+    botaoMenu.setAttribute('aria-label', aberto ? 'Fechar menu' : 'Abrir menu');
+  };
+  botaoMenu.addEventListener('click', () => alternarMenu(!topo.classList.contains('topo--menu-aberto')));
+  topo.querySelectorAll('.topo__nav a').forEach((link) => link.addEventListener('click', () => alternarMenu(false)));
+}
+
 // parallax leve do texto do hero ao rolar
 const heroConteudo = document.querySelector('.hero__conteudo');
 const heroSecao = document.querySelector('.secao--hero');

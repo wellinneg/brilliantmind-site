@@ -844,3 +844,94 @@ body {
 @media (max-width: 640px) {
   .topo__nav { display: none; }
 }
+
+/* ---------- ajustes para celular (não afetam o computador) ---------- */
+.topo__menu { display: none; }
+
+@media (max-width: 800px) {
+  /* nada pode alargar a página pro lado */
+  main { overflow-x: clip; }
+
+  /* abertura da águia: vídeo inteiro (16:9) no topo e o texto logo abaixo */
+  .secao--voo-abertura {
+    justify-content: flex-start;
+    min-height: auto;
+    padding-top: calc(5rem + 56.25vw + 2.5rem);
+    padding-bottom: 6.5rem;
+  }
+  .voo__video {
+    inset: auto;
+    top: 5rem;
+    left: 0;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+  }
+  .voo__video-overlay { display: none; }
+
+  /* vídeo do logo: sem trilho de rolagem e sem cortar as laterais */
+  .secao--lanterna { height: auto; }
+  .lanterna__sticky { position: relative; height: auto; }
+  .lanterna__logo-video { position: static; display: block; height: auto; object-fit: contain; }
+  .lanterna__farol { display: none; }
+
+  /* seções sem o "vazio" de 100vh */
+  .secao--sistemas,
+  .secao--diferenciais,
+  .secao--precos,
+  .secao--contato {
+    min-height: auto;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+  .titulo-secao { margin-bottom: 2rem; }
+  .precos__trial { margin-top: -1rem; }
+}
+
+@media (max-width: 640px) {
+  /* menu hambúrguer (o menu horizontal não cabe) */
+  .topo { align-items: center; }
+  .topo__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    margin-right: -10px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+  }
+  .topo__menu span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--branco);
+    transition: transform 0.25s ease, opacity 0.25s ease;
+  }
+  .topo__nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    padding: 0.5rem clamp(1.5rem, 5vw, 4rem) 1rem;
+    background: rgba(10, 25, 30, 0.97);
+    border-bottom: 1px solid rgba(244, 247, 245, 0.1);
+  }
+  .topo__nav a {
+    padding: 0.95rem 0;
+    font-size: 0.95rem;
+    opacity: 1;
+    border-bottom: 1px solid rgba(244, 247, 245, 0.06);
+  }
+  .topo--menu-aberto { mix-blend-mode: normal; background: rgba(10, 25, 30, 0.97); }
+  .topo--menu-aberto .topo__nav { display: flex; }
+  .topo--menu-aberto .topo__menu span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .topo--menu-aberto .topo__menu span:nth-child(2) { opacity: 0; }
+  .topo--menu-aberto .topo__menu span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+}
