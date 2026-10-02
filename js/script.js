@@ -261,6 +261,40 @@ const precos = {
   },
 };
 
+// manuais em PDF (pasta manuais/, gerados por comercial/distribuicao-sistemas-bmc/scripts/gerar_manuais_site.py)
+const manuais = {
+  nfe: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/central-fiscal-nfe-cte-instalacao-e-uso.pdf' }],
+  nfse: [
+    { rotulo: 'Instalação e uso', arquivo: 'manuais/fluxo-nfse-nacional-instalacao-e-uso.pdf' },
+    { rotulo: 'Como usar', arquivo: 'manuais/fluxo-nfse-nacional-como-usar.pdf' },
+  ],
+  fiscal: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/inteligencia-tax-instalacao-e-uso.pdf' }],
+  bussola: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/bussola-cnpj-instalacao-e-uso.pdf' }],
+  radar: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/radar-judicial-instalacao-e-uso.pdf' }],
+  emissor: [
+    { rotulo: 'Instalação', arquivo: 'manuais/emissor-nfse-sp-instalacao.pdf' },
+    { rotulo: 'Manual de uso', arquivo: 'manuais/emissor-nfse-sp-manual-de-uso.pdf' },
+  ],
+};
+
+// "Baixar manual: Instalação e uso (PDF) · Como usar (PDF)" para o sistema escolhido
+function preencherLinksManuais(elemento, chave, rotuloInicial) {
+  elemento.replaceChildren();
+  const lista = manuais[chave] || [];
+  if (!lista.length) return;
+  const rotulo = document.createElement('span');
+  rotulo.textContent = rotuloInicial;
+  elemento.appendChild(rotulo);
+  lista.forEach((m) => {
+    const link = document.createElement('a');
+    link.href = m.arquivo;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.textContent = `${m.rotulo} (PDF)`;
+    elemento.appendChild(link);
+  });
+}
+
 const abas = document.querySelectorAll('.aba');
 const botoesPeriodo = document.querySelectorAll('.periodo');
 const precosPeriodo = document.getElementById('precos-periodo');
@@ -292,6 +326,8 @@ function aplicarPrecos() {
   }
   if (notaPrecos) notaPrecos.textContent = dados.nota;
   if (precosPeriodo) precosPeriodo.hidden = Boolean(precos[sistemaAtual].tiers);
+  const manuaisPrecos = document.getElementById('precos-manuais');
+  if (manuaisPrecos) preencherLinksManuais(manuaisPrecos, sistemaAtual, 'Antes de testar, leia o manual:');
 }
 
 abas.forEach((aba) => {
@@ -318,7 +354,16 @@ aplicarPrecos();
 
 // clicar num card de sistema (seção "Os sistemas") já leva pro plano dele
 document.querySelectorAll('.sistema[data-sistema]').forEach((cartao) => {
-  cartao.addEventListener('click', () => {
+  // links de manual dentro do cartão
+  const corpoCartao = cartao.querySelector('.sistema__corpo');
+  if (corpoCartao) {
+    const linhaManuais = document.createElement('p');
+    linhaManuais.className = 'sistema__manuais';
+    preencherLinksManuais(linhaManuais, cartao.dataset.sistema, 'Baixar manual:');
+    corpoCartao.appendChild(linhaManuais);
+  }
+  cartao.addEventListener('click', (evento) => {
+    if (evento.target.closest('a')) return; // clicar no link do manual não leva aos planos
     const aba = document.querySelector(`.aba[data-sistema="${cartao.dataset.sistema}"]`);
     if (aba) aba.click();
     const secaoPrecos = document.getElementById('precos');

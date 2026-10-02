@@ -978,3 +978,27 @@ body {
   transition: border-color 0.2s ease;
 }
 .carrinho__doc input:focus { border-color: var(--lime); }
+
+/* ---------- links de manual (PDF) ---------- */
+.sistema__manuais,
+.precos__manuais {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 1.1rem;
+  font-size: 0.82rem;
+  color: var(--cinza-claro);
+}
+.sistema__manuais { margin-top: 1rem; }
+.precos__manuais { margin-top: 1.5rem; }
+.sistema__manuais a,
+.precos__manuais a {
+  color: var(--lime);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(206, 240, 16, 0.4);
+  padding-bottom: 1px;
+  transition: border-color 0.2s ease;
+}
+.sistema__manuais a:hover,
+.precos__manuais a:hover { border-bottom-color: var(--lime); }
