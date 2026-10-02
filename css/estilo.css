@@ -935,3 +935,25 @@ body {
   .topo--menu-aberto .topo__menu span:nth-child(2) { opacity: 0; }
   .topo--menu-aberto .topo__menu span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 }
+
+/* ---------- CPF/CNPJ no carrinho ---------- */
+.carrinho__doc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  color: var(--cinza-claro);
+}
+.carrinho__doc input {
+  background: rgba(244, 247, 245, 0.05);
+  border: 1px solid rgba(244, 247, 245, 0.2);
+  border-radius: 10px;
+  padding: 0.65rem 0.85rem;
+  color: var(--branco);
+  font-family: var(--fonte);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+.carrinho__doc input:focus { border-color: var(--lime); }

@@ -326,6 +326,39 @@ document.querySelectorAll('.sistema[data-sistema]').forEach((cartao) => {
   });
 });
 
+// CPF / CNPJ: máscara e validação compartilhadas (formulário e carrinho).
+// Aceita CPF (11 dígitos) e CNPJ (14 caracteres; desde 07/2026 o CNPJ pode ter
+// letras nas 12 primeiras posições, por isso não se restringe a números).
+const MSG_DOCUMENTO = 'Informe um CPF (11 números) ou um CNPJ (14 caracteres).';
+function limparDocumento(valor) {
+  return String(valor).toUpperCase().replace(/[^0-9A-Z]/g, '').slice(0, 14);
+}
+function formatarDocumento(valor) {
+  const d = limparDocumento(valor);
+  const ehCpf = d.length <= 11 && /^\d*$/.test(d);
+  const tamanhos = ehCpf ? [3, 3, 3, 2] : [2, 3, 3, 4, 2];
+  const separadores = ehCpf ? ['.', '.', '-'] : ['.', '.', '/', '-'];
+  let saida = '';
+  let pos = 0;
+  tamanhos.forEach((n, i) => {
+    const parte = d.slice(pos, pos + n);
+    if (!parte) return;
+    saida += (i > 0 ? separadores[i - 1] : '') + parte;
+    pos += n;
+  });
+  return saida;
+}
+function documentoValido(valor) {
+  const d = limparDocumento(valor);
+  return /^\d{11}$/.test(d) || /^[0-9A-Z]{12}\d{2}$/.test(d);
+}
+function ligarCampoDocumento(campo) {
+  campo.addEventListener('input', () => {
+    campo.value = formatarDocumento(campo.value);
+    campo.setCustomValidity(campo.value && !documentoValido(campo.value) ? MSG_DOCUMENTO : '');
+  });
+}
+
 // formulário de solicitação — sem backend no site, então o próprio clique
 // monta a mensagem e abre o WhatsApp ou o cliente de e-mail já preenchido
 // com nome/CNPJ/e-mail/sistema, pra Wellington saber pra onde mandar o
@@ -333,7 +366,8 @@ document.querySelectorAll('.sistema[data-sistema]').forEach((cartao) => {
 const formSolicitacao = document.getElementById('form-solicitacao');
 if (formSolicitacao) {
   const campoNome = document.getElementById('campo-nome');
-  const campoCnpj = document.getElementById('campo-cnpj');
+  const campoDocumento = document.getElementById('campo-documento');
+  ligarCampoDocumento(campoDocumento);
   const campoEmail = document.getElementById('campo-email');
   const campoSistema = document.getElementById('campo-sistema');
   const campoMensagem = document.getElementById('campo-mensagem');
@@ -358,7 +392,7 @@ if (formSolicitacao) {
         ? 'Quero começar com o TESTE GRÁTIS DE 3 DIAS de um sistema da BMC Automação Contábil.'
         : 'Quero conhecer/contratar um sistema da BMC Automação Contábil.',
       `Nome / Razão Social: ${campoNome.value.trim()}`,
-      `CNPJ: ${campoCnpj.value.trim()}`,
+      `CPF/CNPJ: ${campoDocumento.value.trim()}`,
       `E-mail: ${campoEmail.value.trim()}`,
       `Sistema de interesse: ${campoSistema.value}`,
     ];
@@ -401,6 +435,14 @@ if (formSolicitacao) {
   const totalEl = document.getElementById('carrinho-total');
   const btnWpp = document.getElementById('carrinho-whatsapp');
   const btnEmail = document.getElementById('carrinho-email');
+  const campoDoc = document.getElementById('carrinho-documento');
+  if (campoDoc) {
+    ligarCampoDocumento(campoDoc);
+    try { campoDoc.value = formatarDocumento(localStorage.getItem('bmc_carrinho_doc') || ''); } catch (e) {}
+    campoDoc.addEventListener('input', () => {
+      try { localStorage.setItem('bmc_carrinho_doc', campoDoc.value); } catch (e) {}
+    });
+  }
   if (!el || !toggle || !painel) return;
 
   const CHAVE = 'bmc_carrinho';
@@ -533,18 +575,32 @@ if (formSolicitacao) {
         linhas.push(`- ${it.sistema} — ${it.plano}${it.limite ? ' (' + it.limite + ')' : ''}`);
       });
     }
+    linhas.push('', `CPF/CNPJ do licenciado: ${campoDoc ? campoDoc.value.trim() : ''}`);
     return linhas.join('\n');
   }
 
+  // o sistema é licenciado pelo CPF/CNPJ: sem ele válido o pedido não sai
+  const documentoOk = () => {
+    if (!campoDoc) return true;
+    if (documentoValido(campoDoc.value)) {
+      campoDoc.setCustomValidity('');
+      return true;
+    }
+    campoDoc.setCustomValidity(MSG_DOCUMENTO);
+    campoDoc.reportValidity();
+    campoDoc.focus();
+    return false;
+  };
+
   if (btnWpp) {
     btnWpp.addEventListener('click', () => {
-      if (!itens.length) return;
+      if (!itens.length || !documentoOk()) return;
       window.open('https://wa.me/5511968361503?text=' + encodeURIComponent(montarPedido()), '_blank', 'noopener');
     });
   }
   if (btnEmail) {
     btnEmail.addEventListener('click', () => {
-      if (!itens.length) return;
+      if (!itens.length || !documentoOk()) return;
       const assunto = encodeURIComponent('Pedido pelo site — ' + itens.map((i) => i.sistema).join(', '));
       window.location.href =
         'mailto:contato@brilliantmindcontabilidade.com.br?subject=' + assunto + '&body=' + encodeURIComponent(montarPedido());

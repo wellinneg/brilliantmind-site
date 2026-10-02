@@ -247,8 +247,8 @@
           <input type="text" name="nome" id="campo-nome" required autocomplete="name">
         </label>
         <label class="form-solicitacao__campo">
-          <span>CNPJ</span>
-          <input type="text" name="cnpj" id="campo-cnpj" required inputmode="numeric" placeholder="00.000.000/0000-00" autocomplete="off">
+          <span>CPF / CNPJ (o sistema é licenciado por ele)</span>
+          <input type="text" name="documento" id="campo-documento" required maxlength="18" placeholder="CPF ou CNPJ" autocomplete="off" autocapitalize="characters">
         </label>
       </div>
       <div class="form-solicitacao__linha">
@@ -282,7 +282,7 @@
         <button type="button" class="botao botao--lime" id="botao-enviar-whatsapp">Enviar pelo WhatsApp</button>
         <button type="button" class="botao botao--lime" id="botao-enviar-email">Enviar por e-mail</button>
       </div>
-      <p class="form-solicitacao__aviso" id="form-solicitacao-aviso" hidden>Preencha nome, CNPJ, e-mail e o sistema antes de enviar.</p>
+      <p class="form-solicitacao__aviso" id="form-solicitacao-aviso" hidden>Preencha nome, CPF/CNPJ, e-mail e o sistema antes de enviar.</p>
     </form>
   </section>
 
@@ -303,6 +303,10 @@
     <ul class="carrinho__lista" id="carrinho-lista"></ul>
     <p class="carrinho__total" id="carrinho-total"></p>
     <p class="carrinho__obs">Valores de referência — confirmamos tudo no atendimento. Todo sistema tem teste grátis de 3 dias.</p>
+    <label class="carrinho__doc">
+      <span>CPF / CNPJ do licenciado</span>
+      <input type="text" id="carrinho-documento" maxlength="18" placeholder="CPF ou CNPJ" autocomplete="off" autocapitalize="characters">
+    </label>
     <div class="carrinho__acoes">
       <button type="button" class="botao botao--lime" id="carrinho-whatsapp">Fechar pedido no WhatsApp</button>
       <button type="button" class="botao botao--lime" id="carrinho-email">Fechar pedido por e-mail</button>
