@@ -261,19 +261,26 @@ const precos = {
   },
 };
 
-// manuais em PDF (pasta manuais/, gerados por comercial/distribuicao-sistemas-bmc/scripts/gerar_manuais_site.py)
+// manuais e termos de uso em PDF (pastas manuais/ e termos/, gerados por
+// comercial/distribuicao-sistemas-bmc/scripts/gerar_manuais_site.py)
 const manuais = {
-  nfe: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/central-fiscal-nfe-cte-instalacao-e-uso.pdf' }],
+  nfe: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/central-fiscal-nfe-cte-instalacao-e-uso.pdf' },
+          { rotulo: 'Termos de uso', arquivo: 'termos/central-fiscal-nfe-cte-termos-de-uso.pdf' }],
   nfse: [
     { rotulo: 'Instalação e uso', arquivo: 'manuais/fluxo-nfse-nacional-instalacao-e-uso.pdf' },
     { rotulo: 'Como usar', arquivo: 'manuais/fluxo-nfse-nacional-como-usar.pdf' },
+    { rotulo: 'Termos de uso', arquivo: 'termos/fluxo-nfse-nacional-termos-de-uso.pdf' },
   ],
-  fiscal: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/inteligencia-tax-instalacao-e-uso.pdf' }],
-  bussola: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/bussola-cnpj-instalacao-e-uso.pdf' }],
-  radar: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/radar-judicial-instalacao-e-uso.pdf' }],
+  fiscal: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/inteligencia-tax-instalacao-e-uso.pdf' },
+           { rotulo: 'Termos de uso', arquivo: 'termos/inteligencia-tax-termos-de-uso.pdf' }],
+  bussola: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/bussola-cnpj-instalacao-e-uso.pdf' },
+            { rotulo: 'Termos de uso', arquivo: 'termos/bussola-cnpj-termos-de-uso.pdf' }],
+  radar: [{ rotulo: 'Instalação e uso', arquivo: 'manuais/radar-judicial-instalacao-e-uso.pdf' },
+          { rotulo: 'Termos de uso', arquivo: 'termos/radar-judicial-termos-de-uso.pdf' }],
   emissor: [
     { rotulo: 'Instalação', arquivo: 'manuais/emissor-nfse-sp-instalacao.pdf' },
     { rotulo: 'Manual de uso', arquivo: 'manuais/emissor-nfse-sp-manual-de-uso.pdf' },
+    { rotulo: 'Termos de uso', arquivo: 'termos/emissor-nfse-sp-termos-de-uso.pdf' },
   ],
 };
 
@@ -327,7 +334,7 @@ function aplicarPrecos() {
   if (notaPrecos) notaPrecos.textContent = dados.nota;
   if (precosPeriodo) precosPeriodo.hidden = Boolean(precos[sistemaAtual].tiers);
   const manuaisPrecos = document.getElementById('precos-manuais');
-  if (manuaisPrecos) preencherLinksManuais(manuaisPrecos, sistemaAtual, 'Antes de testar, leia o manual:');
+  if (manuaisPrecos) preencherLinksManuais(manuaisPrecos, sistemaAtual, 'Antes de testar, leia o manual e os termos:');
 }
 
 abas.forEach((aba) => {
@@ -359,7 +366,7 @@ document.querySelectorAll('.sistema[data-sistema]').forEach((cartao) => {
   if (corpoCartao) {
     const linhaManuais = document.createElement('p');
     linhaManuais.className = 'sistema__manuais';
-    preencherLinksManuais(linhaManuais, cartao.dataset.sistema, 'Baixar manual:');
+    preencherLinksManuais(linhaManuais, cartao.dataset.sistema, 'Baixar:');
     corpoCartao.appendChild(linhaManuais);
   }
   cartao.addEventListener('click', (evento) => {
@@ -444,6 +451,7 @@ if (formSolicitacao) {
     if (campoMensagem.value.trim()) {
       linhas.push(`Mensagem: ${campoMensagem.value.trim()}`);
     }
+    linhas.push('Aceite da Política de Privacidade do site: sim');
     return linhas.join('\n');
   };
 
@@ -632,20 +640,32 @@ if (formSolicitacao) {
       });
     }
     linhas.push('', `CPF/CNPJ do licenciado: ${campoDoc ? campoDoc.value.trim() : ''}`);
+    linhas.push('Aceite da Política de Privacidade do site: sim');
     return linhas.join('\n');
   }
 
-  // o sistema é licenciado pelo CPF/CNPJ: sem ele válido o pedido não sai
+  // o sistema é licenciado pelo CPF/CNPJ e os dados são tratados conforme a Política
+  // de Privacidade: sem CPF/CNPJ válido e sem o aceite o pedido não sai
+  const campoAceite = document.getElementById('carrinho-aceite');
+  if (campoAceite) campoAceite.setCustomValidity('Marque o aceite da Política de Privacidade para enviar.');
+  if (campoAceite) campoAceite.addEventListener('change', () => campoAceite.setCustomValidity(campoAceite.checked ? '' : 'Marque o aceite da Política de Privacidade para enviar.'));
   const documentoOk = () => {
-    if (!campoDoc) return true;
-    if (documentoValido(campoDoc.value)) {
-      campoDoc.setCustomValidity('');
-      return true;
+    if (campoDoc) {
+      if (documentoValido(campoDoc.value)) {
+        campoDoc.setCustomValidity('');
+      } else {
+        campoDoc.setCustomValidity(MSG_DOCUMENTO);
+        campoDoc.reportValidity();
+        campoDoc.focus();
+        return false;
+      }
     }
-    campoDoc.setCustomValidity(MSG_DOCUMENTO);
-    campoDoc.reportValidity();
-    campoDoc.focus();
-    return false;
+    if (campoAceite && !campoAceite.checked) {
+      campoAceite.reportValidity();
+      campoAceite.focus();
+      return false;
+    }
+    return true;
   };
 
   if (btnWpp) {

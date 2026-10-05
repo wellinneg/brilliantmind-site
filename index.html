@@ -10,9 +10,7 @@
 <meta property="og:title" content="BMC Automação Contábil, da era manual para a era da automação">
 <meta property="og:description" content="Sistemas que automatizam a rotina fiscal de empresas de todos os portes: NFe/CTe, NFS-e e análise fiscal.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230A191E'/%3E%3Cpath d='M16 8 L6 20 L14 17 L16 24 L18 17 L26 20 Z' fill='%23CEF010'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
@@ -279,18 +277,30 @@
         <input type="checkbox" name="teste-gratis" id="campo-teste-gratis">
         <span>Quero começar com o teste grátis de 3 dias, sem compromisso</span>
       </label>
+      <label class="form-solicitacao__aceite">
+        <input type="checkbox" name="aceite-privacidade" id="campo-aceite" required>
+        <span>Li e concordo com a <a href="privacidade.html" target="_blank" rel="noopener">Política de Privacidade</a>. Usaremos seus dados só para responder, preparar o teste ou a contratação (o CPF/CNPJ vincula a licença ao sistema).</span>
+      </label>
       <div class="contato__botoes">
         <button type="button" class="botao botao--lime" id="botao-enviar-whatsapp">Enviar pelo WhatsApp</button>
         <button type="button" class="botao botao--lime" id="botao-enviar-email">Enviar por e-mail</button>
       </div>
-      <p class="form-solicitacao__aviso" id="form-solicitacao-aviso" hidden>Preencha nome, CPF/CNPJ, e-mail e o sistema antes de enviar.</p>
+      <p class="form-solicitacao__aviso" id="form-solicitacao-aviso" hidden>Preencha nome, CPF/CNPJ, e-mail, o sistema e marque o aceite da Política de Privacidade antes de enviar.</p>
     </form>
   </section>
 
 </main>
 
-<footer class="rodape">
-  <span>© <span id="ano"></span> BMC Contabilidade, Automação Contábil</span>
+<footer class="rodape rodape--completo">
+  <div class="rodape__linha">
+    <span>© <span id="ano"></span> Brilliant Mind Assessoria Contábil (BMC Contabilidade), CNPJ 45.048.674/0001-02</span>
+    <span>Rua Waldemar Ortega, 165, Jardim Comercial, São Paulo/SP, CEP 05885-370</span>
+  </div>
+  <div class="rodape__links">
+    <a href="privacidade.html">Política de Privacidade</a>
+    <a href="#sistemas">Termos de uso e manuais dos sistemas</a>
+    <a href="mailto:contato@brilliantmindcontabilidade.com.br">contato@brilliantmindcontabilidade.com.br</a>
+  </div>
 </footer>
 
 <!-- CARRINHO -->
@@ -310,6 +320,10 @@
     <label class="carrinho__doc">
       <span>CPF / CNPJ do licenciado</span>
       <input type="text" id="carrinho-documento" maxlength="18" placeholder="CPF ou CNPJ" autocomplete="off" autocapitalize="characters">
+    </label>
+    <label class="carrinho__aceite">
+      <input type="checkbox" id="carrinho-aceite">
+      <span>Li e concordo com a <a href="privacidade.html" target="_blank" rel="noopener">Política de Privacidade</a>.</span>
     </label>
     <div class="carrinho__acoes">
       <button type="button" class="botao botao--lime" id="carrinho-whatsapp">Fechar pedido no WhatsApp</button>
