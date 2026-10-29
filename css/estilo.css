@@ -283,10 +283,10 @@ body {
   .marquee__trilha { animation: none; }
 }
 
-/* ---------- lanterna (vídeo em tela cheia, controlado pelo scroll) ---------- */
+/* ---------- lanterna (vídeo em tela cheia, toca ao entrar na seção) ---------- */
 .secao--lanterna {
   position: relative;
-  height: 320vh;              /* trilho de rolagem: distância pra "passar" o vídeo */
+  height: 120vh;              /* trilho curto: antes 320vh prendia a rolagem por 2 telas */
   background: #000;
   cursor: crosshair;
 }
@@ -309,7 +309,8 @@ body {
     rgba(206, 240, 16, 0.08) 40%,
     transparent 70%
   );
-  mix-blend-mode: screen;
+  /* sem mix-blend-mode: misturar com o vídeo a cada quadro pesava a página */
+  will-change: opacity;
   animation: tremeluzir 5s infinite steps(30);
 }
 

@@ -74,12 +74,18 @@ if (heroSecao && heroGlow && !semMovimento) {
 const secaoLanterna = document.querySelector('.secao--lanterna');
 const lanternaVideo = document.getElementById('logo-video');
 if (secaoLanterna) {
+  // no máximo 1 atualização por quadro (mousemove dispara bem mais que isso)
+  let quadroFarol = null;
   const moverFarol = (x, y) => {
-    const retangulo = secaoLanterna.getBoundingClientRect();
-    const px = ((x - retangulo.left) / retangulo.width) * 100;
-    const py = ((y - retangulo.top) / retangulo.height) * 100;
-    secaoLanterna.style.setProperty('--lx', `${px}%`);
-    secaoLanterna.style.setProperty('--ly', `${py}%`);
+    if (quadroFarol) return;
+    quadroFarol = requestAnimationFrame(() => {
+      quadroFarol = null;
+      const retangulo = secaoLanterna.getBoundingClientRect();
+      const px = ((x - retangulo.left) / retangulo.width) * 100;
+      const py = ((y - retangulo.top) / retangulo.height) * 100;
+      secaoLanterna.style.setProperty('--lx', `${px}%`);
+      secaoLanterna.style.setProperty('--ly', `${py}%`);
+    });
   };
   secaoLanterna.addEventListener('mousemove', (evento) => moverFarol(evento.clientX, evento.clientY));
   secaoLanterna.addEventListener('touchmove', (evento) => {
