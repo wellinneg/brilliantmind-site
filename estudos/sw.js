@@ -1,5 +1,5 @@
 // Trocar VERSAO a cada publicação que muda JS/CSS. Conteúdo novo não precisa.
-const VERSAO = 'trilha-v8';
+const VERSAO = 'trilha-v9';
 const ARQUIVOS = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css',
   'fonts/sora-latin.woff2', 'fonts/sora-latin-ext.woff2',

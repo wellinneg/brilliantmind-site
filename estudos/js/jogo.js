@@ -3,6 +3,7 @@
 // Dono do território = quem tem mais moedas ali. Pote vazio: só lição Supremo rouba do dono.
 // Personagens, nomes e desenhos são originais da Trilha Brilliant Mind.
 import * as db from './db.js';
+import { MATERIAS } from './rodizio.js';
 
 // Grupos de matérias: o mesmo grupo ocupa a mesma posição em todas as camadas.
 export const GRUPOS = [
@@ -73,7 +74,7 @@ export const PARA_LIBERAR_POR_POTE = 0.1; // ou: sobrou 10% ou menos nos potes d
 export function novoJogo() {
   return {
     versao: 2, heroi: null, apelido: '', camada: 0, carteira: 0, itens: [], usando: {},
-    uid: null, meu: { doPote: {}, roubos: {} }, outros: {}, historico: [],
+    uid: null, meu: { doPote: {}, roubos: {} }, outros: {}, historico: [], extrato: [],
   };
 }
 
@@ -142,6 +143,7 @@ export function ganharMoedas(jogo, { materia, moedas, dificuldade, quando = new 
   if (!(moedas > 0)) return res;
   jogo.carteira += moedas;
   const t = territorioDaMateria(jogo.camada, materia);
+  lancar(jogo, { tipo: 'licao', descricao: `Lição de ${MATERIAS[materia]?.nome || materia}${t ? ` · ${t.icone} ${t.nome}` : ''}`, valor: moedas, quando });
   if (!t) return res;
   res.territorio = t;
   const antes = calcularTerritorio(jogo, t);
@@ -175,7 +177,26 @@ export function nomeDoDono(jogo, id) {
   return jogo.outros?.[id]?.apelido || 'Outro jogador';
 }
 
-export function ganharBonus(jogo, moedas) { if (moedas > 0) jogo.carteira += moedas; }
+export function ganharBonus(jogo, moedas, quando = new Date().toISOString()) {
+  if (!(moedas > 0)) return;
+  jogo.carteira += moedas;
+  lancar(jogo, { tipo: 'bonus', descricao: 'Bônus: dia de estudo completo', valor: moedas, quando });
+}
+
+// ---- extrato de moedas (como extrato de banco; fica só no celular) ----
+const LIMITE_EXTRATO = 300;
+function lancar(jogo, { tipo, descricao, valor, quando = new Date().toISOString() }) {
+  jogo.extrato ||= [];
+  jogo.extrato.unshift({ quando, tipo, descricao, valor, saldo: jogo.carteira });
+  jogo.extrato.length = Math.min(jogo.extrato.length, LIMITE_EXTRATO);
+}
+
+/** Totais do extrato: quanto ganhou, quanto gastou e o saldo. */
+export function resumoDoExtrato(jogo) {
+  const ganhou = (jogo.extrato || []).filter(l => l.valor > 0 && l.tipo !== 'abertura').reduce((s, l) => s + l.valor, 0);
+  const gastou = (jogo.extrato || []).filter(l => l.valor < 0).reduce((s, l) => s - l.valor, 0);
+  return { ganhou, gastou, saldo: jogo.carteira };
+}
 
 export function comprar(jogo, itemId) {
   const item = LOJA.find(i => i.id === itemId);
@@ -183,6 +204,7 @@ export function comprar(jogo, itemId) {
   if (jogo.itens.includes(itemId)) throw new Error('Você já tem este item.');
   if (jogo.carteira < item.preco) throw new Error(`Faltam ${item.preco - jogo.carteira} moedas.`);
   jogo.carteira -= item.preco;
+  lancar(jogo, { tipo: 'compra', descricao: `Compra na loja: ${item.icone} ${item.nome}`, valor: -item.preco });
   jogo.itens.push(itemId);
   jogo.usando[item.parte] = itemId;
   return item;
@@ -199,6 +221,9 @@ export async function lerJogo() {
   const j = await db.lerConfig('jogo');
   if (!j || j.versao !== 2) return novoJogo(); // versão 1 só existiu em teste, antes de publicar
   if (j.heroi && !HEROIS[j.heroi]) j.heroi = null; // herói que saiu do jogo: escolhe de novo (moedas ficam)
+  if (!j.extrato) { // jogo de antes do extrato: começa com o saldo que já tinha
+    j.extrato = j.carteira ? [{ quando: new Date().toISOString(), tipo: 'abertura', descricao: 'Saldo de antes do extrato', valor: j.carteira, saldo: j.carteira }] : [];
+  }
   return j;
 }
 export async function gravarJogo(jogo) { await db.gravarConfig('jogo', jogo); }

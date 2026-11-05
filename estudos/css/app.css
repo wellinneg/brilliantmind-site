@@ -157,3 +157,7 @@ details.cartao>summary{font-weight:700}
 .placar-familia .textos{flex:1;display:flex;flex-direction:column}
 .placar-familia .posicao{font-size:1.3rem;width:2ch;text-align:center}
 .codigo-familia{font-size:1.4rem;letter-spacing:2px;color:var(--lime)}
+.extrato td,.extrato th{font-size:.82rem;padding:6px 4px}
+.extrato td:nth-child(3),.extrato td:nth-child(4),.extrato th:nth-child(3),.extrato th:nth-child(4){text-align:right;white-space:nowrap}
+.entrada{color:var(--certo);font-weight:700}.saida{color:var(--errado);font-weight:700}
+.resumo-extrato{display:flex;justify-content:space-between;gap:8px;margin:10px 0;flex-wrap:wrap}

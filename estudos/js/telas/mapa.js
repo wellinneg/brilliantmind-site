@@ -4,7 +4,7 @@ import * as estado from '../estado.js';
 import { MATERIAS } from '../rodizio.js';
 import {
   CAMADAS, HEROIS, LOJA, RIVAL, EU, lerJogo, gravarJogo, donoDe, moedasNaCamada, metaDaCamada,
-  totalDaCamada, comprar, alternarItem, calcularTerritorio, nomeDoDono,
+  totalDaCamada, comprar, alternarItem, calcularTerritorio, nomeDoDono, resumoDoExtrato,
 } from '../jogo.js';
 import { lerFamilia, sincronizar, sincronizarDepois } from '../familia.js';
 
@@ -86,7 +86,7 @@ export async function render(raiz, [camadaTxt]) {
       el('li', {}, 'Com 60% das moedas da camada, libera a próxima: Bairro, Cidade, Estado, País e Mundo.'),
       el('li', {}, 'Fechar o dia dá +20 moedas para gastar na loja. Gastar na loja não tira seus territórios.'))));
 
-  raiz.append(secaoLoja(jogo, redesenhar));
+  raiz.append(secaoLoja(jogo, redesenhar), secaoExtrato(jogo));
 
   if (jogo.historico.length) {
     raiz.append(el('h2', {}, '📜 Últimas conquistas'), el('ul', { class: 'historico' }, jogo.historico.slice(0, 6).map(h => {
@@ -151,6 +151,27 @@ function mostrarDetalhe(caixa, jogo, t, camada) {
   caixa.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
+function secaoExtrato(jogo) {
+  const { ganhou, gastou, saldo } = resumoDoExtrato(jogo);
+  const linhas = jogo.extrato || [];
+  const quando = iso => new Date(iso).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+  const lista = el('table', { class: 'tabela extrato' },
+    el('tr', {}, el('th', {}, 'Quando'), el('th', {}, 'O quê'), el('th', {}, 'Moedas'), el('th', {}, 'Saldo')),
+    linhas.slice(0, 30).map(l => el('tr', {},
+      el('td', {}, quando(l.quando)),
+      el('td', {}, l.descricao),
+      el('td', { class: l.valor < 0 ? 'saida' : 'entrada' }, `${l.valor > 0 ? '+' : ''}${l.valor}`),
+      el('td', {}, l.saldo))));
+  return el('details', { class: 'cartao' },
+    el('summary', {}, `📒 Extrato de moedas · saldo 🪙 ${saldo}`),
+    el('div', { class: 'resumo-extrato' },
+      el('span', {}, 'Ganhou ', el('strong', { class: 'entrada' }, `+${ganhou}`)),
+      el('span', {}, 'Gastou ', el('strong', { class: 'saida' }, `−${gastou}`)),
+      el('span', {}, 'Saldo ', el('strong', {}, saldo))),
+    linhas.length ? lista : el('p', { class: 'dica' }, 'Ainda não tem movimento. Cada lição, bônus e compra aparece aqui.'),
+    linhas.length > 30 ? el('p', { class: 'dica' }, `Mostrando os 30 mais recentes de ${linhas.length}.`) : null);
+}
+
 function secaoLoja(jogo, redesenhar) {
   return el('section', { class: 'cartao' },
     el('h2', {}, '🛍️ Loja do herói'),
@@ -164,7 +185,7 @@ function secaoLoja(jogo, redesenhar) {
         onclick: async () => {
           try {
             if (tem) alternarItem(jogo, item.id);
-            else { comprar(jogo, item.id); sons.compra(); aviso(`Comprou: ${item.nome}!`); }
+            else { comprar(jogo, item.id); sons.compra(); aviso(`Comprou ${item.nome} por ${item.preco} 🪙. Sobraram ${jogo.carteira} 🪙.`); }
             await gravarJogo(jogo); sincronizarDepois(); redesenhar();
           } catch (e) { sons.erro(); aviso(e.message); }
         },
