@@ -161,3 +161,28 @@ details.cartao>summary{font-weight:700}
 .extrato td:nth-child(3),.extrato td:nth-child(4),.extrato th:nth-child(3),.extrato th:nth-child(4){text-align:right;white-space:nowrap}
 .entrada{color:var(--certo);font-weight:700}.saida{color:var(--errado);font-weight:700}
 .resumo-extrato{display:flex;justify-content:space-between;gap:8px;margin:10px 0;flex-wrap:wrap}
+
+/* ---- Vista panorâmica ---- */
+.panorama{position:relative;margin:0 0 14px;border-radius:var(--raio);overflow:hidden;border:3px solid #000;box-shadow:0 6px 0 #000;background:#0E2230}
+.panorama-svg{display:block;width:100%;height:auto}
+.panorama-titulo{position:absolute;top:10px;left:0;right:0;margin:0;text-align:center;font-size:1.7rem;font-weight:900;letter-spacing:.5px;
+  color:#fff;text-transform:uppercase;line-height:1;text-shadow:0 3px 0 #0A191E,0 0 18px rgba(255,140,60,.8);pointer-events:none}
+.pano-rotulo{font-size:17px;font-weight:800;font-style:italic;paint-order:stroke;stroke:#0A191E;stroke-width:4px}
+.parada.tocavel{cursor:pointer}
+.pino-atual{animation:pino-pula 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes pino-pula{50%{translate:0 -5px}}
+.caminho-futuro{animation:anda 1.2s linear infinite}
+@keyframes anda{to{stroke-dashoffset:-22}}
+.heroi-no-mapa{position:absolute;transform:translate(-50%,-100%);filter:drop-shadow(0 3px 2px rgba(0,0,0,.7));pointer-events:none}
+.heroi-no-mapa.eu{animation:pulo 1.4s ease-in-out infinite}
+.nome-no-mapa{position:absolute;transform:translate(-50%,0);font-size:.65rem;font-weight:700;color:#fff;background:#2F55B5;border-radius:6px;padding:1px 5px;pointer-events:none}
+.conquistar{margin-top:12px;padding-top:10px;border-top:1px solid var(--navy-3)}
+.conquistar h3{margin:0 0 8px}
+
+/* ---- Cena de cada lugar ---- */
+.cena{position:relative;border-radius:var(--raio);overflow:hidden;border:3px solid #000;box-shadow:0 6px 0 #000;margin-bottom:14px}
+.cena-svg{display:block;width:100%;height:auto}
+.heroi-na-cena{position:absolute;left:14%;bottom:4%;filter:drop-shadow(0 4px 2px rgba(0,0,0,.6));animation:pulo 1.4s ease-in-out infinite}
+.bandeira-cena{position:absolute;right:4%;top:16%;font-size:2rem;animation:balanca 1.6s ease-in-out infinite}
+.dono-lugar{font-size:1.1rem;font-weight:700}
+.linha-eu td{color:var(--lime);font-weight:700}

@@ -10,9 +10,10 @@ import { lerFamilia, sincronizar, sincronizarDepois } from '../familia.js';
 
 let sincronizouAgora = false; // evita sincronizar de novo ao redesenhar depois da sincronização
 import { desenharHeroi } from '../herois.js';
+import { desenharPanorama } from '../panorama.js';
 import { sons, somLigado, alternarSom } from '../sons.js';
 
-export async function render(raiz, [camadaTxt]) {
+export async function render(raiz, [camadaTxt, acao]) {
   const familia = await lerFamilia();
   if (familia?.codigo && !sincronizouAgora) {
     // Mostra o que já tem e atualiza com os irmãos em segundo plano.
@@ -37,11 +38,24 @@ export async function render(raiz, [camadaTxt]) {
       el('span', { class: 'carteira' }, `🪙 ${jogo.carteira} moedas`)),
     botaoSom));
 
+  // Vista panorâmica da jornada (toque numa camada já liberada para abrir)
+  const jogadores = [
+    { id: EU, eu: true, apelido: jogo.apelido, heroi: jogo.heroi, usando: jogo.usando, camada: jogo.camada },
+    ...Object.entries(jogo.outros || {}).map(([id, o]) => ({ id, ...o })),
+  ];
+  raiz.append(desenharPanorama(jogo, jogadores, k => navegarDeNovo(`#/mapa/${k}/ir`), k => {
+    sons.erro();
+    const anterior = CAMADAS[k - 1];
+    aviso(k === jogo.camada + 1
+      ? `🔒 ${CAMADAS[k].nome} libera com ${metaDaCamada(jogo.camada)} moedas em ${CAMADAS[jogo.camada].nome} (você tem ${moedasNaCamada(jogo, jogo.camada)}).`
+      : `🔒 ${CAMADAS[k].nome} vem depois de ${anterior.nome}. Uma camada de cada vez!`);
+  }));
+
   // Camadas
   raiz.append(el('div', { class: 'camadas' }, CAMADAS.map((c, k) => el('button', {
     class: `camada ${k === vendo ? 'ativa' : ''}`,
     disabled: k > jogo.camada,
-    onclick: () => navegar(`#/mapa/${k}`),
+    onclick: () => navegarDeNovo(`#/mapa/${k}/ir`),
   }, el('span', {}, k > jogo.camada ? '🔒' : c.icone), el('small', {}, c.tipo)))));
 
   const minhas = moedasNaCamada(jogo, vendo);
@@ -58,15 +72,14 @@ export async function render(raiz, [camadaTxt]) {
   if (familia?.codigo) raiz.append(placarDaFamilia(jogo, familia));
 
   // Tabuleiro
-  const detalhe = el('div', {});
-  raiz.append(el('div', { class: `tabuleiro tabuleiro-${camada.id}` }, camada.territorios.map(t => {
+  const tabuleiro = el('div', { class: `tabuleiro tabuleiro-${camada.id}` }, camada.territorios.map(t => {
     const est = calcularTerritorio(jogo, t);
     const dono = donoDe(est);
     const meu = est.donos[EU] || 0;
     const irmao = dono && dono !== EU && dono !== RIVAL.id ? jogo.outros[dono] : null;
     return el('button', {
       class: `territorio ${dono === EU ? 'meu' : (irmao ? 'irmao' : (dono ? 'rival' : 'livre'))}`,
-      onclick: () => mostrarDetalhe(detalhe, jogo, t, camada),
+      onclick: () => navegar(`#/lugar/${t.id}`),
     },
       el('span', { class: 'bandeira' }, dono === EU ? '🚩' : (dono === RIVAL.id ? RIVAL.icone : (irmao ? '⭐' : '🏳️'))),
       irmao ? el('small', { class: 'dono-irmao' }, `de ${irmao.apelido}`) : null,
@@ -74,7 +87,10 @@ export async function render(raiz, [camadaTxt]) {
       el('strong', {}, t.nome),
       el('small', {}, t.materias.map(m => MATERIAS[m]?.icone).join(' ')),
       el('small', {}, `🪙 ${meu} seu · pote ${est.pote}/${camada.pote}`));
-  })), detalhe);
+  }));
+  raiz.append(tabuleiro);
+  // Veio de um toque no panorama: desce até o tabuleiro (depois que a tela voltou ao topo).
+  if (acao === 'ir') setTimeout(() => tabuleiro.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
 
   raiz.append(el('details', { class: 'cartao' },
     el('summary', {}, '❓ Como funciona'),
@@ -132,23 +148,6 @@ function navegarDeNovo(rota) {
 function barra(valor, maximo) {
   const pct = Math.min(100, Math.round((valor / Math.max(1, maximo)) * 100));
   return el('div', { class: 'barra' }, el('div', { class: 'barra-cheia', style: `width:${pct}%` }), el('span', {}, `${valor}/${maximo}`));
-}
-
-function mostrarDetalhe(caixa, jogo, t, camada) {
-  const est = calcularTerritorio(jogo, t);
-  const dono = donoDe(est);
-  const nomes = new Proxy({}, { get: (_, id) => (id === EU ? `Você (${jogo.apelido || 'herói'})` : (id === RIVAL.id ? `${RIVAL.icone} ${RIVAL.nome}` : `⭐ ${nomeDoDono(jogo, id)}`)) });
-  caixa.replaceChildren(el('section', { class: 'cartao detalhe-territorio' },
-    el('h2', {}, `${t.icone} ${t.nome}`),
-    el('p', {}, `Matérias que valem aqui: ${t.materias.map(m => `${MATERIAS[m]?.icone} ${MATERIAS[m]?.nome}`).join(', ')}`),
-    el('p', {}, dono === EU ? '🚩 Este território é seu!' : (dono ? `Dono atual: ${nomes[dono]}` : 'Ninguém é dono ainda.')),
-    el('table', { class: 'tabela' },
-      el('tr', {}, el('th', {}, 'Quem'), el('th', {}, 'Moedas')),
-      Object.entries(est.donos).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1])
-        .map(([id, n]) => el('tr', {}, el('td', {}, nomes[id]), el('td', {}, n))),
-      el('tr', {}, el('td', {}, '🪙 Ainda no pote'), el('td', {}, `${est.pote} de ${camada.pote}`))),
-    est.pote === 0 && dono !== EU ? el('p', { class: 'caixa-dica' }, '👑 Pote vazio: faça uma lição Supremo dessas matérias para roubar moedas do dono!') : null));
-  caixa.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 function secaoExtrato(jogo) {

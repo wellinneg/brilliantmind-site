@@ -1,5 +1,5 @@
 // Trocar VERSAO a cada publicação que muda JS/CSS. Conteúdo novo não precisa.
-const VERSAO = 'trilha-v9';
+const VERSAO = 'trilha-v12';
 const ARQUIVOS = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css',
   'fonts/sora-latin.woff2', 'fonts/sora-latin-ext.woff2',
@@ -8,7 +8,7 @@ const ARQUIVOS = [
   'js/pin.js', 'js/db.js', 'js/estado.js', 'js/conteudo.js', 'js/fotos.js', 'js/audio.js',
   'js/backup.js', 'js/quiz-ui.js',
   'js/telas/configuracao.js', 'js/telas/hoje.js', 'js/telas/licao.js', 'js/telas/fechamento.js',
-  'js/telas/conquistas.js', 'js/telas/revisao.js', 'js/telas/retorno.js', 'js/telas/pais.js', 'js/telas/serie.js', 'js/telas/biblioteca.js', 'js/telas/mapa.js', 'js/jogo.js', 'js/herois.js', 'js/sons.js', 'js/comemorar.js', 'js/familia.js', 'js/familia-config.js', 'js/telas/familia-pais.js', 'js/sessao-pais.js',
+  'js/telas/conquistas.js', 'js/telas/revisao.js', 'js/telas/retorno.js', 'js/telas/pais.js', 'js/telas/serie.js', 'js/telas/biblioteca.js', 'js/telas/mapa.js', 'js/jogo.js', 'js/herois.js', 'js/sons.js', 'js/comemorar.js', 'js/panorama.js', 'js/cenas.js', 'js/telas/lugar.js', 'js/familia.js', 'js/familia-config.js', 'js/telas/familia-pais.js', 'js/sessao-pais.js',
 ];
 
 self.addEventListener('install', e => {

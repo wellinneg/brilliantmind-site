@@ -5,6 +5,7 @@ const ROTAS = {
   configuracao: () => import('./telas/configuracao.js'),
   hoje: () => import('./telas/hoje.js'),
   mapa: () => import('./telas/mapa.js'),
+  lugar: () => import('./telas/lugar.js'),
   licao: () => import('./telas/licao.js'),
   fechamento: () => import('./telas/fechamento.js'),
   conquistas: () => import('./telas/conquistas.js'),
