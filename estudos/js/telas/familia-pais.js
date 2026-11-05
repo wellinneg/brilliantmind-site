@@ -18,7 +18,7 @@ async function desenhar(caixa) {
   const de_novo = () => desenhar(caixa);
   if (!firebaseConfigurado()) {
     caixa.replaceChildren(el('p', { class: 'dica' },
-      'Ainda falta ligar o Firebase da família (passo a passo no FIREBASE_PASSO_A_PASSO.pdf). Até lá, cada celular joga sozinho contra o Barão Bagunça.'));
+      'Ainda falta ligar o Firebase da família (passo a passo no FIREBASE_PASSO_A_PASSO.pdf). Até lá, cada celular joga sozinho contra o Magnata, o empresário rival do jogo.'));
     return;
   }
   const familia = await lerFamilia();

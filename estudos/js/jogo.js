@@ -35,13 +35,14 @@ export const CAMADAS = [
 export const PARA_LIBERAR = 0.6;          // 60% das moedas da camada libera a próxima
 export const PARTE_DO_RIVAL = 0.25;       // o rival começa com 25% de cada pote
 export const EU = 'eu';
-export const RIVAL = { id: 'barao', nome: 'Barão Bagunça', icone: '🎩' };
+// O id 'barao' ficou do nome antigo (já gravado nos registros); na tela aparece só o nome novo.
+export const RIVAL = { id: 'barao', nome: 'Magnata', icone: '🕴️' };
 
 export const HEROIS = {
-  aurora: { nome: 'Aurora', titulo: 'Exploradora' },
-  cosmo: { nome: 'Cosmo', titulo: 'Astronauta' },
-  sombra: { nome: 'Sombra', titulo: 'Ninja' },
-  faisca: { nome: 'Faísca', titulo: 'Inventora' },
+  dino: { nome: 'Trovão', titulo: 'Dinossauro' },
+  super: { nome: 'Super Zap', titulo: 'Super-herói' },
+  carro: { nome: 'Pistão', titulo: 'Carro de corrida' },
+  alien: { nome: 'Zorp', titulo: 'Alienígena' },
 };
 
 export const LOJA = [
@@ -196,7 +197,9 @@ export function alternarItem(jogo, itemId) {
 // ---- gravação (fica na config do IndexedDB, entra na cópia de segurança) ----
 export async function lerJogo() {
   const j = await db.lerConfig('jogo');
-  return j && j.versao === 2 ? j : novoJogo(); // versão 1 só existiu em teste, antes de publicar
+  if (!j || j.versao !== 2) return novoJogo(); // versão 1 só existiu em teste, antes de publicar
+  if (j.heroi && !HEROIS[j.heroi]) j.heroi = null; // herói que saiu do jogo: escolhe de novo (moedas ficam)
+  return j;
 }
 export async function gravarJogo(jogo) { await db.gravarConfig('jogo', jogo); }
 

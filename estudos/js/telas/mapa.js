@@ -81,7 +81,7 @@ export async function render(raiz, [camadaTxt]) {
     el('ul', {},
       el('li', {}, 'Cada lição que você consegue vale moedas (🍼 5, 🙂 10, 💪 15, 👑 25, +5 se acertar tudo).'),
       el('li', {}, 'As moedas saem do pote do território da matéria, na camada em que você está.'),
-      el('li', {}, `Quem tiver mais moedas num território é o dono. O ${RIVAL.nome} ${RIVAL.icone} começa com um pouco de cada pote.`),
+      el('li', {}, `Quem tiver mais moedas num território é o dono. O ${RIVAL.nome} ${RIVAL.icone}, empresário rival que quer comprar a cidade inteira, começa com um pouco de cada pote.`),
       el('li', {}, 'Pote vazio? Só uma lição 👑 Supremo rouba moedas de quem é dono.'),
       el('li', {}, 'Com 60% das moedas da camada, libera a próxima: Bairro, Cidade, Estado, País e Mundo.'),
       el('li', {}, 'Fechar o dia dá +20 moedas para gastar na loja. Gastar na loja não tira seus territórios.'))));
