@@ -1,0 +1,902 @@
+{
+  "dia": 1,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Números inteiros na reta numérica",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Os números inteiros são os naturais (0, 1, 2, 3…) junto com os seus opostos negativos (−1, −2, −3…). Eles aparecem no dia a dia: temperatura abaixo de zero, saldo devedor no banco, andar de subsolo na garagem e altitude abaixo do nível do mar.",
+          "Na reta numérica, o zero fica no meio. Os positivos ficam à direita e os negativos à esquerda, sempre com espaços iguais entre um número e o seguinte. Regra de ouro: quanto mais à direita, maior o número. Por isso −2 é maior que −5, pois −2 está mais à direita.",
+          "Dois números que ficam à mesma distância do zero, um de cada lado, são opostos (ou simétricos): 4 e −4, 10 e −10. O oposto de zero é o próprio zero.",
+          "O módulo (ou valor absoluto) é a distância de um número até o zero, e distância nunca é negativa. Escrevemos |−7| = 7 e |7| = 7. Atenção: entre dois negativos, o maior é o que tem o MENOR módulo, ou seja, o que está mais perto do zero."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "De manhã o termômetro marcava −3 °C e à tarde marcava 5 °C. Quantos graus a temperatura subiu?",
+            "resolucao": "Conte na reta: de −3 até 0 são 3 graus; de 0 até 5 são mais 5 graus. Total: 3 + 5 = 8 graus."
+          },
+          {
+            "enunciado": "Coloque em ordem crescente: 2, −4, 0, −1.",
+            "resolucao": "Do mais à esquerda para o mais à direita: −4, −1, 0, 2. O −4 é o menor porque está mais longe do zero, do lado negativo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Distância entre dois pontos da reta: se os números têm sinais diferentes, somamos os módulos (de −6 até 3 a distância é 6 + 3 = 9). Se têm o mesmo sinal, subtraímos os módulos (de −9 até −2 a distância é 9 − 2 = 7).",
+        "O ponto do meio entre dois números é a soma deles dividida por 2. Entre −6 e 4: (−6 + 4) ÷ 2 = −2 ÷ 2 = −1. Conferindo: de −6 até −1 são 5 unidades, e de −1 até 4 também são 5.",
+        "Cuidado com a contagem: entre −3 e 4, SEM contar as pontas, existem os inteiros −2, −1, 0, 1, 2 e 3, ou seja, 6 números. Muita gente esquece o zero ou conta as pontas sem querer. Quando a pergunta diz |x| < 4, os valores são −3, −2, −1, 0, 1, 2 e 3: são 7 números."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é negativo?",
+            "alternativas": [
+              "−8",
+              "8",
+              "0",
+              "18"
+            ],
+            "correta": 0,
+            "explicacao": "O sinal de menos na frente mostra que o número é negativo. O zero não é positivo nem negativo.",
+            "dica": "Procure o número que tem o sinal de menos na frente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na reta numérica, onde ficam os números negativos?",
+            "alternativas": [
+              "À direita do zero",
+              "À esquerda do zero",
+              "Em cima do zero",
+              "Eles não aparecem na reta"
+            ],
+            "correta": 1,
+            "explicacao": "Na reta, os positivos ficam à direita do zero e os negativos ficam à esquerda.",
+            "dica": "Lembre que os positivos ficam de um lado do zero e os negativos do outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o oposto de 5?",
+            "alternativas": [
+              "5",
+              "0",
+              "−5",
+              "50"
+            ],
+            "correta": 2,
+            "explicacao": "O oposto fica à mesma distância do zero, do outro lado. O oposto de 5 é −5.",
+            "dica": "O oposto tem a mesma distância até o zero, mas fica do outro lado da reta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número é maior: −2 ou 3?",
+            "alternativas": [
+              "−2",
+              "São iguais",
+              "Não dá para saber",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Todo número positivo é maior que qualquer número negativo. O 3 está à direita do −2.",
+            "dica": "Na reta, quanto mais à direita, maior o número."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os números em ordem crescente (do menor para o maior):",
+            "itens": [
+              "−3",
+              "−1",
+              "0",
+              "2"
+            ],
+            "explicacao": "Na reta, da esquerda para a direita: −3, −1, 0 e 2. Os negativos vêm antes do zero.",
+            "dica": "Comece pelo negativo que está mais longe do zero."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa madrugada fria, a cidade A marcou −4 °C e a cidade B marcou −9 °C. Qual estava mais fria?",
+            "alternativas": [
+              "A cidade A",
+              "A cidade B",
+              "As duas estavam iguais",
+              "Nenhuma, negativo não é temperatura"
+            ],
+            "correta": 1,
+            "explicacao": "−9 está mais à esquerda na reta que −4, então −9 é menor: a cidade B estava mais fria. O erro comum é achar que 9 é maior que 4 e esquecer o sinal.",
+            "dica": "Mais fria é a temperatura menor. Qual dos dois está mais à esquerda na reta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o módulo de −12?",
+            "alternativas": [
+              "−12",
+              "0",
+              "1,2",
+              "12"
+            ],
+            "correta": 3,
+            "explicacao": "Módulo é a distância até o zero, e distância nunca é negativa: |−12| = 12.",
+            "dica": "Pense na distância do número até o zero. Distância pode ser negativa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sentença é verdadeira?",
+            "alternativas": [
+              "−7 > −3",
+              "0 < −1",
+              "−5 < −2",
+              "−1 > 1"
+            ],
+            "correta": 2,
+            "explicacao": "−5 está mais à esquerda que −2, então −5 < −2. As outras invertem a ordem da reta.",
+            "dica": "Desenhe uma reta e marque os números. O menor é sempre o da esquerda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num prédio, o térreo é o andar 0. Qual número representa o 2º subsolo?",
+            "alternativas": [
+              "0",
+              "−20",
+              "2",
+              "−2"
+            ],
+            "correta": 3,
+            "explicacao": "Os subsolos ficam abaixo do térreo, então usamos negativos: 1º subsolo é −1 e 2º subsolo é −2.",
+            "dica": "Abaixo do térreo usamos números com sinal de menos. Conte quantos andares desce."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A temperatura subiu de −3 °C para 5 °C. Quantos graus ela subiu?",
+            "alternativas": [
+              "2",
+              "8",
+              "−8",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "De −3 até 0 são 3 graus e de 0 até 5 são 5 graus: 3 + 5 = 8. Quem faz 5 − 3 = 2 esquece o sinal negativo.",
+            "dica": "Conte primeiro até o zero e depois do zero até o 5."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a distância na reta entre −6 e 3?",
+            "alternativas": [
+              "3",
+              "9",
+              "−9",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "Sinais diferentes: somamos os módulos, 6 + 3 = 9. Distância nunca é negativa, então −9 não serve.",
+            "dica": "Os números estão em lados opostos do zero: some as distâncias de cada um até o zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na cantina da escola, Paulo tem saldo de −R$ 15 e Lia tem saldo de −R$ 40. Quem está devendo mais?",
+            "alternativas": [
+              "Paulo",
+              "Lia",
+              "Os dois devem igual",
+              "Ninguém deve"
+            ],
+            "correta": 1,
+            "explicacao": "Saldo negativo é dívida. −40 está mais longe do zero que −15, então Lia deve mais (R$ 40 contra R$ 15).",
+            "dica": "Saldo negativo é dinheiro devido. Compare a distância de cada saldo até o zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números inteiros existem entre −4 e 3, sem contar o −4 e o 3?",
+            "alternativas": [
+              "7",
+              "8",
+              "6",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "São −3, −2, −1, 0, 1 e 2: 6 números. O erro comum é esquecer o zero (5) ou contar as pontas (8).",
+            "dica": "Escreva todos os inteiros entre eles, um por um, e não se esqueça do zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número fica exatamente no meio entre −8 e 2?",
+            "alternativas": [
+              "−3",
+              "−5",
+              "3",
+              "−4"
+            ],
+            "correta": 0,
+            "explicacao": "Ponto do meio = soma ÷ 2 = (−8 + 2) ÷ 2 = −6 ÷ 2 = −3. Conferindo: de −8 até −3 são 5, e de −3 até 2 também são 5.",
+            "dica": "Some os dois números e divida o resultado por 2."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem do MAIOR para o MENOR:",
+            "itens": [
+              "4",
+              "0",
+              "−2",
+              "−7",
+              "−10"
+            ],
+            "explicacao": "Do mais à direita para o mais à esquerda: 4, 0, −2, −7, −10. Entre negativos, o mais perto do zero é o maior.",
+            "dica": "Atenção: é decrescente. Comece pelo número que está mais à direita na reta."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um mergulhador está a 18 m abaixo do nível do mar (−18 m) e um pássaro voa a 25 m acima (25 m). Qual a distância entre eles?",
+            "alternativas": [
+              "7 m",
+              "43 m",
+              "−43 m",
+              "25 m"
+            ],
+            "correta": 1,
+            "explicacao": "Estão em lados opostos do zero (o nível do mar): 18 + 25 = 43 m. O 7 m sai de quem subtrai sem olhar os sinais.",
+            "dica": "O nível do mar é o zero. Cada um está de um lado: some as distâncias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois números opostos estão a 14 unidades de distância um do outro na reta. Quais são eles?",
+            "alternativas": [
+              "14 e −14",
+              "0 e 14",
+              "−7 e −14",
+              "7 e −7"
+            ],
+            "correta": 3,
+            "explicacao": "Opostos ficam à mesma distância do zero. Se juntos dão 14 de distância, cada um está a 7 do zero: 7 e −7. Já 14 e −14 estariam a 28 de distância.",
+            "dica": "Os dois ficam à mesma distância do zero; essa distância é metade do total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números inteiros x satisfazem |x| < 4?",
+            "alternativas": [
+              "4",
+              "6",
+              "7",
+              "8"
+            ],
+            "correta": 2,
+            "explicacao": "Os inteiros com distância até o zero menor que 4 são −3, −2, −1, 0, 1, 2 e 3: são 7. Quem esquece o zero conta 6.",
+            "dica": "Liste os inteiros cuja distância até o zero é menor que 4, dos dois lados. O zero entra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na reta, o ponto A vale −5. O ponto B está 3 unidades à direita de A, e o ponto C está 9 unidades à esquerda de B. Quanto vale C?",
+            "alternativas": [
+              "−11",
+              "7",
+              "−14",
+              "−1"
+            ],
+            "correta": 0,
+            "explicacao": "B = −5 + 3 = −2. C = −2 − 9 = −11. Andar para a esquerda diminui o valor.",
+            "dica": "Ache primeiro o valor de B. Depois lembre que ir para a esquerda diminui o número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O termômetro marcou: segunda −2 °C, terça 3 °C, quarta −6 °C e quinta 1 °C. Qual foi a maior variação entre dois dias seguidos?",
+            "alternativas": [
+              "Segunda para terça, 5 graus",
+              "Terça para quarta, 9 graus",
+              "Quarta para quinta, 7 graus",
+              "Segunda para quarta, 4 graus"
+            ],
+            "correta": 1,
+            "explicacao": "Segunda→terça: 2 + 3 = 5. Terça→quarta: 3 + 6 = 9. Quarta→quinta: 6 + 1 = 7. A maior é 9 graus. Segunda e quarta não são dias seguidos.",
+            "dica": "Calcule a distância na reta para cada par de dias seguidos e compare."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Orçamento pessoal: o mapa do seu dinheiro",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Orçamento é um plano que mostra quanto dinheiro entra e quanto dinheiro sai em um período, normalmente um mês. Ele funciona como um mapa: sem ele, o dinheiro some e a gente nem sabe para onde foi.",
+          "O dinheiro que entra se chama receita: mesada, presente de aniversário, dinheiro de um pequeno serviço. O dinheiro que sai se chama despesa: lanche, passagem, recarga do celular, material escolar.",
+          "A conta principal é: saldo = receitas − despesas. Saldo positivo quer dizer que sobrou dinheiro. Saldo zero quer dizer que tudo foi gasto. Saldo negativo quer dizer que faltou dinheiro, e alguém teve que emprestar.",
+          "Algumas despesas são fixas (o mesmo valor todo mês, como a recarga de R$ 20) e outras são variáveis (mudam de um mês para outro, como sorvete e lanches). O segredo é anotar tudo, inclusive os gastos pequenos, num caderno ou numa planilha."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Ana recebe R$ 80 de mesada. No mês, gastou R$ 20 de recarga, R$ 35 de lanches e R$ 10 de passagem extra. Qual foi o saldo?",
+            "resolucao": "Despesas: 20 + 35 + 10 = 65. Saldo: 80 − 65 = R$ 15 positivos. Sobrou dinheiro."
+          },
+          {
+            "enunciado": "Por que Ana deveria separar uma parte assim que recebe a mesada?",
+            "resolucao": "Porque, se ela esperar o fim do mês para ver se sobra, quase sempre não sobra nada. Guardar primeiro (\"pague-se primeiro\") transforma a poupança em uma despesa planejada."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma regra muito usada é a 50-30-20: 50% para as necessidades, 30% para os desejos e 20% para guardar. Com R$ 100, ficariam R$ 50, R$ 30 e R$ 20. Ela é só um ponto de partida: cada pessoa ajusta ao seu caso.",
+        "Gastos pequenos repetidos viram gastos grandes. R$ 4 de bala por dia de aula, em 20 dias, são R$ 80 no mês. É o famoso \"dinheiro que evaporou\".",
+        "Um bom orçamento tem duas colunas: previsto (o que eu planejei) e realizado (o que aconteceu de verdade). No fim do mês, comparar as duas mostra onde você errou a previsão e o que precisa mudar no mês seguinte. Lembre também que a receita pode mudar: se entrar menos dinheiro do que o previsto, o saldo pode ficar negativo mesmo gastando pouco."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um orçamento?",
+            "alternativas": [
+              "Um plano do dinheiro que entra e do que sai",
+              "Um tipo de cartão de crédito",
+              "Um desconto na loja",
+              "Uma conta no banco"
+            ],
+            "correta": 0,
+            "explicacao": "Orçamento é o plano que compara o que entra (receitas) com o que sai (despesas).",
+            "dica": "Pense no mapa do dinheiro que a lição explicou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A mesada que você recebe é uma:",
+            "alternativas": [
+              "despesa",
+              "receita",
+              "dívida",
+              "multa"
+            ],
+            "correta": 1,
+            "explicacao": "Receita é todo dinheiro que entra. A mesada entra no seu bolso, então é receita.",
+            "dica": "O dinheiro está entrando ou saindo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se entram R$ 50 e saem R$ 30, qual é o saldo?",
+            "alternativas": [
+              "R$ 80",
+              "R$ 30",
+              "R$ 20",
+              "R$ 50"
+            ],
+            "correta": 2,
+            "explicacao": "Saldo = receitas − despesas = 50 − 30 = R$ 20. Somar (R$ 80) é o erro comum.",
+            "dica": "Saldo é o que entra menos o que sai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é uma despesa?",
+            "alternativas": [
+              "Presente da avó",
+              "Mesada",
+              "Dinheiro de vender doce",
+              "Recarga do celular"
+            ],
+            "correta": 3,
+            "explicacao": "A recarga é dinheiro que sai. As outras opções são dinheiro que entra.",
+            "dica": "Procure a opção em que o dinheiro sai do seu bolso."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para fazer um orçamento:",
+            "itens": [
+              "Anotar quanto dinheiro vai entrar",
+              "Listar os gastos previstos",
+              "Calcular o saldo",
+              "Conferir no fim do mês o que realmente aconteceu"
+            ],
+            "explicacao": "Primeiro vemos a receita, depois os gastos, calculamos o saldo e, no fim, comparamos o plano com a realidade.",
+            "dica": "Não dá para calcular o saldo antes de saber o que entra e o que sai."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "João recebe R$ 120. Gastou R$ 45 em lanches, R$ 30 em recarga e R$ 25 no cinema. Qual o saldo?",
+            "alternativas": [
+              "R$ 20",
+              "R$ 30",
+              "R$ 100",
+              "R$ 25"
+            ],
+            "correta": 0,
+            "explicacao": "Despesas: 45 + 30 + 25 = 100. Saldo: 120 − 100 = R$ 20. O R$ 100 é o total gasto, não o saldo.",
+            "dica": "Some todas as despesas primeiro e depois tire da receita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma despesa fixa?",
+            "alternativas": [
+              "Sorvete no fim de semana",
+              "Presente de aniversário de um amigo",
+              "Recarga de R$ 20 todo mês",
+              "Ingresso de um show"
+            ],
+            "correta": 2,
+            "explicacao": "Despesa fixa tem o mesmo valor todo mês. As outras mudam ou acontecem só de vez em quando.",
+            "dica": "Procure o gasto que se repete com o mesmo valor todos os meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa terminar o mês com saldo negativo?",
+            "alternativas": [
+              "Sobrou dinheiro",
+              "Gastou mais do que recebeu",
+              "Gastou exatamente o que recebeu",
+              "Recebeu um aumento"
+            ],
+            "correta": 1,
+            "explicacao": "Negativo quer dizer que as despesas passaram das receitas: faltou dinheiro.",
+            "dica": "Pense no sinal do resultado de receitas menos despesas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruna gasta R$ 3 por dia em bala, nos 20 dias de aula do mês. Quanto isso dá no mês?",
+            "alternativas": [
+              "R$ 23",
+              "R$ 30",
+              "R$ 600",
+              "R$ 60"
+            ],
+            "correta": 3,
+            "explicacao": "3 × 20 = R$ 60. Quem soma 3 + 20 chega em R$ 23, e quem erra a vírgula chega em R$ 600.",
+            "dica": "É o mesmo valor repetido várias vezes: qual operação usar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que anotar até os gastos pequenos?",
+            "alternativas": [
+              "Porque somados eles podem pesar muito no mês",
+              "Porque é obrigatório por lei",
+              "Porque o banco pede",
+              "Porque gastos pequenos não contam"
+            ],
+            "correta": 0,
+            "explicacao": "Gastos pequenos e repetidos se somam e viram um valor grande no fim do mês.",
+            "dica": "Lembre do exemplo da bala de todo dia."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafa recebe R$ 150 e quer guardar 20% assim que recebe. Quanto ele guarda?",
+            "alternativas": [
+              "R$ 20",
+              "R$ 30",
+              "R$ 15",
+              "R$ 120"
+            ],
+            "correta": 1,
+            "explicacao": "10% de 150 é 15; 20% é o dobro: R$ 30. O R$ 120 é o que sobra para gastar.",
+            "dica": "Ache 10% primeiro (divida por 10) e depois dobre."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mila previu gastar R$ 40 em lanches, mas gastou R$ 58. O que aconteceu?",
+            "alternativas": [
+              "Gastou R$ 18 a mais",
+              "Gastou R$ 18 a menos",
+              "Gastou R$ 98 a mais",
+              "Gastou R$ 8 a mais"
+            ],
+            "correta": 0,
+            "explicacao": "Realizado − previsto = 58 − 40 = 18. Como o realizado é maior, ela gastou R$ 18 além do plano.",
+            "dica": "Compare o realizado com o previsto: qual é maior e qual é a diferença?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia recebe R$ 90 por mês e gasta R$ 35, R$ 28 e R$ 12. Se guardar o saldo todo mês, em quantos meses junta R$ 60 para um fone?",
+            "alternativas": [
+              "3 meses",
+              "4 meses",
+              "5 meses",
+              "6 meses"
+            ],
+            "correta": 1,
+            "explicacao": "Gastos: 35 + 28 + 12 = 75. Saldo: 90 − 75 = 15 por mês. 60 ÷ 15 = 4 meses.",
+            "dica": "Descubra quanto sobra por mês e veja quantas vezes cabe no preço do fone."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela regra 50-30-20, quanto de R$ 200 vai para os desejos?",
+            "alternativas": [
+              "R$ 100",
+              "R$ 40",
+              "R$ 60",
+              "R$ 30"
+            ],
+            "correta": 2,
+            "explicacao": "Desejos são 30%: 10% de 200 é 20, então 30% é 3 × 20 = R$ 60. R$ 100 seriam as necessidades e R$ 40 a poupança.",
+            "dica": "Desejos ficam com 30%. Calcule 10% e multiplique por 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Tiago termina todo mês com saldo zero e quer começar a guardar. Qual a melhor atitude?",
+            "alternativas": [
+              "Pedir dinheiro emprestado",
+              "Parar de anotar os gastos",
+              "Gastar tudo logo no começo do mês",
+              "Separar uma parte para guardar assim que receber"
+            ],
+            "correta": 3,
+            "explicacao": "Guardar primeiro transforma a poupança em compromisso. Esperar sobrar no fim raramente funciona.",
+            "dica": "Lembre da ideia de \"pagar a si mesmo primeiro\"."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio recebe R$ 100. Gasta R$ 2,50 de pão de queijo em cada um dos 22 dias de aula e R$ 25 de recarga. Se levar lanche de casa em metade dos dias, qual será o novo saldo do mês?",
+            "alternativas": [
+              "R$ 20,00",
+              "R$ 27,50",
+              "R$ 47,50",
+              "R$ 52,50"
+            ],
+            "correta": 2,
+            "explicacao": "Antes: 22 × 2,50 = 55; 55 + 25 = 80; saldo 20. Metade dos dias são 11: economia de 11 × 2,50 = 27,50. Novo saldo: 20 + 27,50 = R$ 47,50. O R$ 27,50 é só a economia.",
+            "dica": "Calcule o saldo antigo, depois quanto ele economiza em 11 dias, e junte os dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Começando do zero, Gabi recebeu R$ 80 em janeiro, R$ 80 em fevereiro e R$ 120 em março. Gastou R$ 70, R$ 95 e R$ 90. Qual o saldo acumulado no fim de março?",
+            "alternativas": [
+              "R$ 25",
+              "R$ 40",
+              "R$ 10",
+              "−R$ 5"
+            ],
+            "correta": 0,
+            "explicacao": "Janeiro: +10. Fevereiro: 80 − 95 = −15, acumulado −5. Março: 120 − 90 = +30, acumulado 25. O −R$ 5 é o acumulado de fevereiro.",
+            "dica": "Calcule o saldo de cada mês, com sinal, e vá somando na reta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Maria guarda 20% de R$ 250 por mês. Depois de 6 meses, quantos meses ainda faltam para juntar R$ 450 de uma bicicleta?",
+            "alternativas": [
+              "9 meses",
+              "3 meses",
+              "6 meses",
+              "2 meses"
+            ],
+            "correta": 1,
+            "explicacao": "20% de 250 = 50 por mês. Em 6 meses: 300. Faltam 450 − 300 = 150, e 150 ÷ 50 = 3 meses. Nove meses é o tempo total, não o que falta.",
+            "dica": "Ache quanto ela guarda por mês, quanto já juntou e quanto falta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Gastei menos do que o previsto em todos os itens, então com certeza sobrou dinheiro.\" Essa frase está:",
+            "alternativas": [
+              "Sempre certa",
+              "Certa só se o mês tiver 30 dias",
+              "Errada, porque gastar menos sempre gera dívida",
+              "Errada, pois se a receita for menor que a prevista pode faltar dinheiro"
+            ],
+            "correta": 3,
+            "explicacao": "O saldo depende das duas colunas. Se entrou menos dinheiro do que o planejado, o saldo pode ficar negativo mesmo com gastos menores.",
+            "dica": "O saldo depende só das despesas? Pense no que mais pode mudar no mês."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque do MENOR para o MAIOR gasto no mês:",
+            "itens": [
+              "R$ 40 fixos por mês",
+              "R$ 1,50 por dia, durante 30 dias",
+              "R$ 12 por semana, durante 4 semanas",
+              "R$ 5 por dia de aula, em 10 dias"
+            ],
+            "explicacao": "R$ 40; 1,50 × 30 = R$ 45; 12 × 4 = R$ 48; 5 × 10 = R$ 50.",
+            "dica": "Transforme cada opção em um total do mês antes de comparar."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Algoritmo: passos em sequência",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Algoritmo é uma sequência de passos, em ordem, para resolver um problema ou realizar uma tarefa. Uma receita de bolo é um algoritmo; o caminho de casa até a escola também é.",
+          "O computador segue as instruções exatamente na ordem em que foram escritas, sem adivinhar nada. Se um passo estiver fora de ordem ou faltando, o resultado sai errado.",
+          "Um bom algoritmo tem começo e fim, passos claros e nenhuma ambiguidade. \"Coloque um pouco de açúcar\" é ambíguo para uma máquina; \"coloque 2 colheres de açúcar\" é claro.",
+          "Em pseudocódigo (programação escrita em português), um algoritmo simples fica assim: INÍCIO → ESCREVA \"Qual é o seu nome?\" → LEIA nome → ESCREVA \"Olá, \" + nome → FIM."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Monte o algoritmo de escovar os dentes.",
+            "resolucao": "1. Pegar a escova. 2. Colocar a pasta. 3. Escovar todos os dentes. 4. Enxaguar a boca. 5. Lavar a escova. Se trocarmos o passo 2 com o 3, escovamos sem pasta."
+          },
+          {
+            "enunciado": "Teste de mesa: comece com 5, some 3, multiplique por 2 e subtraia 4. Qual o resultado?",
+            "resolucao": "5 + 3 = 8; 8 × 2 = 16; 16 − 4 = 12. Seguir passo a passo, anotando cada valor, é o que se chama teste de mesa."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Teste de mesa é executar o algoritmo \"à mão\", anotando o valor de cada variável depois de cada passo. Programadores fazem isso para achar erros antes de rodar o programa.",
+        "A ordem também vale para valores: se um algoritmo mostra o resultado antes de calcular, aparece um valor vazio ou antigo. Com a = 3 e b = 5, a sequência a = a + b, b = a − b, a = a − b deixa a = 5 e b = 3: os valores foram trocados, e só funciona nessa ordem exata.",
+        "Vários algoritmos podem resolver o mesmo problema. Quando todos funcionam, preferimos o que usa menos passos. E alguns passos podem trocar de lugar sem problema (ligar o forno e misturar a massa), enquanto outros não podem (assar e só depois colocar na forma)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um algoritmo?",
+            "alternativas": [
+              "Uma sequência de passos para resolver um problema",
+              "Um tipo de computador",
+              "Um jogo de celular",
+              "Um número muito grande"
+            ],
+            "correta": 0,
+            "explicacao": "Algoritmo é um passo a passo em ordem para realizar uma tarefa.",
+            "dica": "Pense numa receita de bolo: o que ela tem de especial?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como o computador segue as instruções de um algoritmo?",
+            "alternativas": [
+              "Na ordem que ele preferir",
+              "Só as que ele achar importantes",
+              "Exatamente na ordem em que foram escritas",
+              "Sempre de trás para frente"
+            ],
+            "correta": 2,
+            "explicacao": "O computador não adivinha nem pula passos: segue a ordem escrita.",
+            "dica": "O computador tem vontade própria ou só obedece?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um exemplo de algoritmo do dia a dia?",
+            "alternativas": [
+              "Uma foto de família",
+              "Uma receita de bolo",
+              "Uma música no rádio",
+              "Um desenho na parede"
+            ],
+            "correta": 1,
+            "explicacao": "A receita tem passos em ordem com começo e fim, igual a um algoritmo.",
+            "dica": "Procure algo que tenha passos para seguir em ordem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que pode acontecer se faltar um passo no algoritmo?",
+            "alternativas": [
+              "O computador completa sozinho",
+              "Nada muda",
+              "O computador fica mais rápido",
+              "O resultado pode sair errado"
+            ],
+            "correta": 3,
+            "explicacao": "Como o computador segue só o que está escrito, um passo faltando estraga o resultado.",
+            "dica": "O computador consegue adivinhar o que você esqueceu de escrever?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo para fazer suco em pó:",
+            "itens": [
+              "Pegar uma jarra",
+              "Colocar água na jarra",
+              "Despejar o pó",
+              "Mexer bem",
+              "Servir no copo"
+            ],
+            "explicacao": "Precisamos da jarra antes da água, do pó antes de mexer, e só servimos no final.",
+            "dica": "Pense no que precisa existir antes de cada passo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Teste de mesa: comece com 4, some 6 e multiplique por 3. Qual o resultado?",
+            "alternativas": [
+              "30",
+              "22",
+              "13",
+              "36"
+            ],
+            "correta": 0,
+            "explicacao": "4 + 6 = 10; 10 × 3 = 30. Quem multiplica antes (6 × 3 + 4) chega em 22, mas o algoritmo manda somar primeiro.",
+            "dica": "Siga exatamente a ordem dos passos, anotando o valor a cada passo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O algoritmo é: LEIA idade → ESCREVA idade + 1. Se a pessoa digitar 12, o que aparece?",
+            "alternativas": [
+              "12",
+              "13",
+              "121",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "O programa guarda 12 em idade e mostra 12 + 1 = 13.",
+            "dica": "Troque a palavra idade pelo número digitado e faça a conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual instrução é ambígua demais para um computador?",
+            "alternativas": [
+              "Ande 3 passos para frente",
+              "Vire 90 graus à direita",
+              "Coloque um pouco de açúcar",
+              "Escreva a palavra OLÁ"
+            ],
+            "correta": 2,
+            "explicacao": "\"Um pouco\" não diz a quantidade exata. As outras dizem exatamente o que fazer.",
+            "dica": "Procure a instrução que não diz uma quantidade exata."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um algoritmo diz: \"1. Calçar o sapato. 2. Calçar a meia.\" Qual é o problema?",
+            "alternativas": [
+              "Faltou um passo de começo",
+              "Não tem problema nenhum",
+              "Tem passos demais",
+              "A ordem dos passos está trocada"
+            ],
+            "correta": 3,
+            "explicacao": "A meia precisa vir antes do sapato. Os passos certos, na ordem errada, dão resultado errado.",
+            "dica": "Imagine fazer exatamente nessa ordem. Daria certo?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo para mandar uma mensagem no celular:",
+            "itens": [
+              "Desbloquear o celular",
+              "Abrir o aplicativo de mensagens",
+              "Escolher o contato",
+              "Digitar a mensagem",
+              "Tocar em enviar"
+            ],
+            "explicacao": "Sem desbloquear não abrimos o aplicativo; sem escolher o contato não sabemos para quem vai; enviar é sempre o último passo.",
+            "dica": "O último passo é o que faz a mensagem sair. Comece pelo que libera o celular."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Teste de mesa: x começa valendo 10. Depois: x = x − 4; x = x × 2; x = x + 1. Quanto vale x no fim?",
+            "alternativas": [
+              "9",
+              "13",
+              "15",
+              "12"
+            ],
+            "correta": 1,
+            "explicacao": "10 − 4 = 6; 6 × 2 = 12; 12 + 1 = 13. Quem para antes do último passo fica com 12.",
+            "dica": "Anote o novo valor de x depois de cada linha e use esse valor na linha seguinte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um robô começa no 0 da reta numérica. Ele anda 5 para a direita, 8 para a esquerda e 2 para a direita. Onde ele termina?",
+            "alternativas": [
+              "−1",
+              "1",
+              "15",
+              "−3"
+            ],
+            "correta": 0,
+            "explicacao": "0 + 5 = 5; 5 − 8 = −3; −3 + 2 = −1. Direita soma, esquerda subtrai.",
+            "dica": "Direita aumenta e esquerda diminui. Faça um passo de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Algoritmo para mostrar o maior de dois números: LEIA a → LEIA b → ??? → ESCREVA o maior. Qual passo falta?",
+            "alternativas": [
+              "Apagar a e b",
+              "Somar a e b",
+              "Comparar a com b",
+              "Ler a de novo"
+            ],
+            "correta": 2,
+            "explicacao": "Para saber qual é o maior, é preciso comparar os dois. Somar não diz qual é maior.",
+            "dica": "O que você faria na cabeça para descobrir qual número é maior?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O algoritmo A leva até a escola em 12 passos e o algoritmo B leva ao mesmo lugar em 8 passos, os dois sem erro. Qual é melhor?",
+            "alternativas": [
+              "A, porque tem mais passos",
+              "Tanto faz sempre",
+              "Nenhum, algoritmo não serve para caminhos",
+              "B, porque resolve com menos passos"
+            ],
+            "correta": 3,
+            "explicacao": "Quando dois algoritmos funcionam, o que resolve com menos passos é mais eficiente.",
+            "dica": "Os dois chegam ao mesmo lugar. O que os diferencia?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Veja: \"1. ESCREVA total. 2. total = 5 + 3.\" O que está errado?",
+            "alternativas": [
+              "Mostra o total antes de calcular o valor",
+              "A conta 5 + 3 está errada",
+              "Falta escrever o nome do aluno",
+              "Não tem nada errado"
+            ],
+            "correta": 0,
+            "explicacao": "O passo 1 tenta mostrar total antes de ele ser calculado no passo 2. A ordem certa é calcular e depois escrever.",
+            "dica": "No momento do passo 1, o computador já sabe quanto vale total?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Teste de mesa: a = 3 e b = 5. Depois: a = a + b; b = a − b; a = a − b. Quanto valem a e b no fim?",
+            "alternativas": [
+              "a = 8 e b = 3",
+              "a = 5 e b = 3",
+              "a = 3 e b = 5",
+              "a = 5 e b = 8"
+            ],
+            "correta": 1,
+            "explicacao": "a = 3 + 5 = 8; b = 8 − 5 = 3; a = 8 − 3 = 5. No fim a = 5 e b = 3: os valores foram trocados. O erro comum é usar o valor antigo de a na segunda linha.",
+            "dica": "Depois de cada linha, o valor novo substitui o antigo. Use sempre o valor mais recente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um algoritmo começa com n = 1 e faz quatro vezes seguidas o passo n = n × 2. Quanto vale n no fim?",
+            "alternativas": [
+              "8",
+              "32",
+              "16",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "1 → 2 → 4 → 8 → 16. São 4 multiplicações. Quem faz uma a mais chega em 32; uma a menos, em 8.",
+            "dica": "Escreva o valor depois de cada uma das quatro vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um robô começa olhando para o norte. Ele vira à direita, vira à direita de novo e depois vira à esquerda. Para onde ele olha?",
+            "alternativas": [
+              "Norte",
+              "Sul",
+              "Oeste",
+              "Leste"
+            ],
+            "correta": 3,
+            "explicacao": "Norte → direita → leste → direita → sul → esquerda → leste.",
+            "dica": "Desenhe uma bússola. Virar à direita é girar no sentido do relógio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Receita: A ligar o forno; B misturar a massa; C pôr na forma; D assar 40 min; E desligar o forno. Qual par de passos pode trocar de ordem sem estragar o bolo?",
+            "alternativas": [
+              "A e B",
+              "C e D",
+              "D e E",
+              "B e C"
+            ],
+            "correta": 0,
+            "explicacao": "Tanto faz ligar o forno antes ou depois de misturar a massa: os dois acontecem antes de assar. Os outros pares não podem trocar.",
+            "dica": "Procure dois passos em que um não depende do resultado do outro."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo para calcular a média de 3 notas:",
+            "itens": [
+              "Ler as três notas",
+              "Somar as três notas",
+              "Dividir a soma por 3",
+              "Mostrar o resultado"
+            ],
+            "explicacao": "Sem ler não há o que somar; sem somar não há o que dividir; e mostrar vem por último.",
+            "dica": "Cada passo usa o resultado do passo anterior."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O caderno de capa azul",
+    "texto": "Duda sempre recebia R$ 60 de mesada no dia 5 e, no dia 20, a carteira já estava vazia. Ela jurava que não comprava nada demais.\n\nUm dia, a tia dela, que trabalha num escritório de contabilidade, deu uma ideia: \"Anote tudo, até a bala.\" E entregou um caderno de capa azul.\n\nNa primeira semana, Duda achou chato. Na segunda, começou a ficar curiosa. No fim do mês, fez as contas e levou um susto: tinha gastado R$ 22 em salgadinho na saída da escola, mais de um terço da mesada, em coisas que ela nem lembrava de ter comido.\n\nNo mês seguinte, Duda fez diferente. Separou R$ 10 assim que recebeu, colocou o salgadinho de sexta-feira como um prêmio e cortou o dos outros dias. No dia 30, ainda havia R$ 14 na carteira, fora os R$ 10 guardados.\n\n\"O dinheiro não sumia\", ela contou para a tia. \"Ele ia embora aos pouquinhos, e eu não via.\""
+  },
+  "escrita": {
+    "proposta": "Faça no caderno o orçamento de um mês imaginário, em 5 a 10 linhas. Escolha um valor de mesada, liste pelo menos quatro despesas (diga quais são fixas e quais são variáveis) e calcule o saldo. Na última linha, escreva uma mudança que você faria, como a Duda, para sobrar mais dinheiro."
+  }
+}

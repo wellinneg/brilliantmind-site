@@ -1,0 +1,1192 @@
+{
+  "dia": 4,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Múltiplos e divisores",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Os múltiplos de um número são os resultados da tabuada dele. Múltiplos de 4: 0, 4, 8, 12, 16, 20… A lista de múltiplos nunca acaba.",
+          "Os divisores de um número são os números que dividem ele sem deixar resto. Os divisores de 12 são 1, 2, 3, 4, 6 e 12, porque 12 dividido por cada um deles dá conta exata. A lista de divisores sempre acaba.",
+          "As duas ideias estão ligadas: se 12 é múltiplo de 4, então 4 é divisor de 12. É como dizer que 12 cabe certinho na tabuada do 4.",
+          "Algumas regras ajudam a descobrir sem fazer a conta. Divisível por 2: o número termina em 0, 2, 4, 6 ou 8 (é par). Por 5: termina em 0 ou 5. Por 10: termina em 0. Por 3: a soma dos algarismos é múltiplo de 3. Exemplo: 132 → 1 + 3 + 2 = 6, então 132 é divisível por 3."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quais são os divisores de 18?",
+            "resolucao": "Testamos de 1 em diante: 18 ÷ 1 = 18, 18 ÷ 2 = 9, 18 ÷ 3 = 6. O 4 e o 5 deixam resto. Juntando os pares: 1, 2, 3, 6, 9 e 18."
+          },
+          {
+            "enunciado": "Um ônibus sai do terminal a cada 15 minutos, a partir das 7h. Ele sai às 8h?",
+            "resolucao": "Os horários são múltiplos de 15 minutos depois das 7h: 7h, 7h15, 7h30, 7h45, 8h. Como 60 é múltiplo de 15 (15 × 4 = 60), sim, ele sai às 8h."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um número que tem exatamente dois divisores, o 1 e ele mesmo, é chamado de número primo: 2, 3, 5, 7, 11, 13… O 2 é o único primo par. O 1 não é primo, porque tem um divisor só.",
+        "Quando duas coisas se repetem, o MMC (mínimo múltiplo comum) diz quando elas acontecem juntas de novo. Se um ônibus sai a cada 4 minutos e outro a cada 6, os múltiplos de 4 são 4, 8, 12… e os de 6 são 6, 12… O primeiro em comum é 12: os dois saem juntos a cada 12 minutos.",
+        "Já o MDC (máximo divisor comum) ajuda a repartir em grupos iguais sem sobrar. Com 12 balas e 18 pirulitos, os divisores comuns de 12 e 18 são 1, 2, 3 e 6. O maior é 6: dá para montar 6 saquinhos iguais, cada um com 2 balas e 3 pirulitos."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é múltiplo de 2?",
+            "alternativas": [
+              "7",
+              "9",
+              "8",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "8 = 2 × 4, então é múltiplo de 2. Todo número par é múltiplo de 2.",
+            "dica": "Múltiplo de 2 é número par. Qual deles dá para dividir em duas partes iguais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os múltiplos de 5 terminam em:",
+            "alternativas": [
+              "0 ou 5",
+              "1 ou 6",
+              "2 ou 7",
+              "3 ou 8"
+            ],
+            "correta": 0,
+            "explicacao": "A tabuada do 5 é 5, 10, 15, 20, 25…: sempre termina em 0 ou 5.",
+            "dica": "Pense na tabuada do 5: 5, 10, 15, 20…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O 3 é divisor de 9 porque:",
+            "alternativas": [
+              "9 é par",
+              "9 ÷ 3 dá conta exata, sem resto",
+              "3 é maior que 9",
+              "9 termina em 9"
+            ],
+            "correta": 1,
+            "explicacao": "9 ÷ 3 = 3, sem resto. Por isso 3 é divisor de 9 (e 9 é múltiplo de 3).",
+            "dica": "Divisor é o número que divide sem deixar resto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o próximo múltiplo de 4 depois do 12?",
+            "alternativas": [
+              "13",
+              "14",
+              "15",
+              "16"
+            ],
+            "correta": 3,
+            "explicacao": "Na tabuada do 4: 12 + 4 = 16.",
+            "dica": "Na tabuada do 4, é só somar mais 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é divisível por 10?",
+            "alternativas": [
+              "105",
+              "70",
+              "77",
+              "101"
+            ],
+            "correta": 1,
+            "explicacao": "Divisível por 10 é o número que termina em 0. Só o 70 termina em 0.",
+            "dica": "A lição disse que é só olhar como o número termina."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é múltiplo de 6?",
+            "alternativas": [
+              "16",
+              "32",
+              "42",
+              "26"
+            ],
+            "correta": 2,
+            "explicacao": "6 × 7 = 42, então 42 está na tabuada do 6. Os outros deixam resto quando divididos por 6.",
+            "dica": "Múltiplo de 6 é resultado da tabuada do 6. Tente dividir cada número por 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são todos os divisores de 18?",
+            "alternativas": [
+              "1, 2, 3, 6, 9 e 18",
+              "1, 2, 3, 4, 6, 9 e 18",
+              "2, 3, 6 e 9",
+              "1, 3, 6 e 18"
+            ],
+            "correta": 0,
+            "explicacao": "O 4 não divide 18 (dá 4 e sobra 2). E não podemos esquecer o 1 e o próprio 18, que sempre são divisores.",
+            "dica": "Teste de 1 até 18 e veja quais dividem sem resto. Cuidado com o 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é divisível por 3?",
+            "alternativas": [
+              "124",
+              "215",
+              "307",
+              "252"
+            ],
+            "correta": 3,
+            "explicacao": "Somando os algarismos de 252: 2 + 5 + 2 = 9, que é múltiplo de 3. Nos outros, as somas dão 7, 8 e 10, que não são múltiplos de 3.",
+            "dica": "Some os algarismos de cada número e veja se dá um múltiplo de 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ônibus sai do terminal a cada 15 minutos, a partir das 7h. Em qual horário ele NÃO sai?",
+            "alternativas": [
+              "7h30",
+              "7h45",
+              "7h50",
+              "8h15"
+            ],
+            "correta": 2,
+            "explicacao": "Os horários andam de 15 em 15: 7h, 7h15, 7h30, 7h45, 8h, 8h15. O 7h50 fica a 50 minutos das 7h, e 50 não é múltiplo de 15.",
+            "dica": "Os horários andam de 15 em 15 minutos a partir das 7h."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os divisores de 20 em ordem crescente:",
+            "itens": [
+              "1",
+              "2",
+              "4",
+              "5",
+              "10",
+              "20"
+            ],
+            "explicacao": "Os divisores de 20 vêm em pares: 1 × 20, 2 × 10 e 4 × 5. Colocando em ordem: 1, 2, 4, 5, 10 e 20.",
+            "dica": "Os divisores de 20 dividem sem resto. Comece pelo 1 e vá subindo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número é divisível por 2, por 3 e por 5 ao mesmo tempo?",
+            "alternativas": [
+              "25",
+              "20",
+              "30",
+              "45"
+            ],
+            "correta": 2,
+            "explicacao": "30 é par, termina em 0 e 3 + 0 = 3 é múltiplo de 3. O 20 falha no 3 (2 + 0 = 2) e o 45 é ímpar.",
+            "dica": "Precisa ser par, terminar em 0 ou 5 e ter a soma dos algarismos múltipla de 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos divisores tem o número 16?",
+            "alternativas": [
+              "4",
+              "5",
+              "6",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "Os divisores de 16 são 1, 2, 4, 8 e 16: são 5.",
+            "dica": "Teste de 1 até 16 e anote os que dividem sem resto, em pares."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Júlio tem 24 bombons e quer fazer saquinhos iguais, sem sobrar nenhum bombom. Qual destes tamanhos de saquinho NÃO serve?",
+            "alternativas": [
+              "3 bombons",
+              "4 bombons",
+              "6 bombons",
+              "5 bombons"
+            ],
+            "correta": 3,
+            "explicacao": "3, 4 e 6 são divisores de 24 (24 ÷ 3 = 8, 24 ÷ 4 = 6, 24 ÷ 6 = 4). 24 ÷ 5 dá 4 e sobram 4.",
+            "dica": "O tamanho do saquinho precisa ser um divisor de 24."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um remédio deve ser tomado a cada 8 horas, começando às 6h. Qual destes horários está na lista?",
+            "alternativas": [
+              "22h",
+              "12h",
+              "20h",
+              "16h"
+            ],
+            "correta": 0,
+            "explicacao": "6h + 8 = 14h; 14h + 8 = 22h. Os horários são 6h, 14h e 22h.",
+            "dica": "Some 8 horas de cada vez, a partir das 6h."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente os múltiplos de 7 entre 20 e 50:",
+            "itens": [
+              "21",
+              "28",
+              "35",
+              "42",
+              "49"
+            ],
+            "explicacao": "Na tabuada do 7: 21, 28, 35, 42 e 49. O 14 é menor que 20 e o 56 passa de 50.",
+            "dica": "Comece pelo primeiro resultado da tabuada do 7 que passa de 20."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números primos existem entre 1 e 20?",
+            "alternativas": [
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "São 2, 3, 5, 7, 11, 13, 17 e 19: oito primos. O 1 não é primo e o 9 e o 15 têm outros divisores.",
+            "dica": "Liste os que têm exatamente dois divisores. Lembre: o 1 não entra e o 2 entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ônibus sai a cada 4 minutos e outro a cada 6. Os dois saíram juntos às 7h. Quando saem juntos de novo?",
+            "alternativas": [
+              "7h10",
+              "7h24",
+              "7h12",
+              "7h06"
+            ],
+            "correta": 2,
+            "explicacao": "O MMC de 4 e 6 é 12. Então eles saem juntos de novo 12 minutos depois: 7h12. O 7h24 também é encontro, mas não é o próximo.",
+            "dica": "Procure o menor múltiplo comum de 4 e 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 12 balas e 18 pirulitos, qual é o maior número de saquinhos iguais que dá para montar, sem sobrar nada?",
+            "alternativas": [
+              "3",
+              "2",
+              "12",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "O MDC de 12 e 18 é 6: são 6 saquinhos, cada um com 2 balas e 3 pirulitos.",
+            "dica": "Procure o maior número que divide 12 e 18 ao mesmo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é verdadeira?",
+            "alternativas": [
+              "O 2 é o único número primo par",
+              "O 1 é primo",
+              "Todo número ímpar é primo",
+              "O 9 é primo"
+            ],
+            "correta": 0,
+            "explicacao": "Todo outro par é divisível por 2, então só o 2 é primo e par. O 1 tem um divisor só, e 9 = 3 × 3.",
+            "dica": "Teste cada afirmação com exemplos: o 1, o 9 e outros números ímpares."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o menor número, maior que zero, que é múltiplo de 2, de 3 e de 4 ao mesmo tempo?",
+            "alternativas": [
+              "24",
+              "6",
+              "12",
+              "8"
+            ],
+            "correta": 2,
+            "explicacao": "Múltiplos de 4: 4, 8, 12… O 12 é o primeiro que também está na tabuada do 3 (e do 2). O 6 não é múltiplo de 4.",
+            "dica": "Escreva os múltiplos de 4 e veja qual é o primeiro que também está na tabuada do 3."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Sequência de passos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um computador é como um robô muito obediente, mas sem imaginação: ele faz exatamente o que mandamos, um passo de cada vez, na ordem em que os passos foram escritos.",
+          "Por isso, os passos precisam ser claros e completos. Se você disser “faça um sanduíche”, o robô não sabe por onde começar. É preciso dizer: abra o pacote, pegue duas fatias de pão, passe a manteiga numa delas…",
+          "Pular um passo também causa problema. Se você esquecer de mandar abrir a geladeira, o robô não consegue pegar o queijo!",
+          "Quando um programa não funciona, os programadores leem os passos um por um, como se fossem o robô, para achar onde está o erro. Isso se chama depurar, e todo programador faz isso o tempo todo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O robô precisa sair do quarto. As instruções são: “Andar até a porta. Sair do quarto. Abrir a porta.” Qual é o problema?",
+            "resolucao": "A ordem está errada: o robô vai bater na porta fechada. O certo é: andar até a porta, abrir a porta, sair do quarto."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para depurar, uma técnica muito usada é o “teste de mesa”: com papel e lápis, você executa os passos um por um, anotando o que acontece em cada um. Assim descobre exatamente em qual passo o resultado saiu errado.",
+        "Os erros mais comuns numa sequência são três: passo fora de ordem, passo faltando e passo a mais (repetido sem necessidade). Ao revisar, procure cada tipo.",
+        "Programadores dividem uma tarefa grande em tarefas menores. “Arrumar a mochila” vira “ver o horário”, “separar os cadernos do dia”, “guardar o estojo” e “fechar o zíper”. Cada pedaço é mais fácil de escrever, testar e corrigir."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O computador é como um robô:",
+            "alternativas": [
+              "Obediente e sem imaginação",
+              "Que adivinha tudo",
+              "Que faz o que quer",
+              "Que pensa sozinho e nunca erra"
+            ],
+            "correta": 0,
+            "explicacao": "Ele faz exatamente o que mandamos, um passo de cada vez, sem inventar nada.",
+            "dica": "A lição disse que ele faz exatamente o que mandamos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se esquecermos um passo, o robô:",
+            "alternativas": [
+              "Faz o passo sozinho",
+              "Pode não conseguir terminar a tarefa",
+              "Fica mais rápido",
+              "Pede desculpas"
+            ],
+            "correta": 1,
+            "explicacao": "Sem o passo, a tarefa fica incompleta, como o robô que não conseguiu pegar o queijo.",
+            "dica": "Lembre do robô que não conseguiu pegar o queijo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depurar é:",
+            "alternativas": [
+              "Desligar o computador",
+              "Comprar um robô",
+              "Procurar e corrigir erros nos passos",
+              "Pintar o robô"
+            ],
+            "correta": 2,
+            "explicacao": "Depurar é ler os passos com cuidado para achar e corrigir o erro.",
+            "dica": "É o que os programadores fazem quando um programa não funciona."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o robô sair do quarto, o que precisa vir antes de sair?",
+            "alternativas": [
+              "Dormir",
+              "Comer",
+              "Ligar a TV",
+              "Abrir a porta"
+            ],
+            "correta": 3,
+            "explicacao": "Com a porta fechada, o robô bateria nela. Abrir vem antes de sair.",
+            "dica": "Com a porta fechada, o que aconteceria com o robô?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem: tomar um copo de leite.",
+            "itens": [
+              "Pegar o copo",
+              "Colocar o leite no copo",
+              "Beber o leite"
+            ],
+            "explicacao": "Primeiro o copo, depois o leite dentro dele e, por fim, beber.",
+            "dica": "Não dá para beber o que ainda não está no copo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para fazer um sanduíche de queijo:",
+            "itens": [
+              "Pegar duas fatias de pão",
+              "Passar manteiga numa das fatias",
+              "Colocar uma fatia de queijo por cima",
+              "Cobrir com a outra fatia de pão"
+            ],
+            "explicacao": "Primeiro separamos o pão, depois passamos a manteiga, colocamos o recheio e só no fim fechamos. Fechar antes de pôr o queijo deixaria o sanduíche vazio.",
+            "dica": "O queijo vai em cima do pão com manteiga, e a outra fatia fecha tudo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que precisamos dar instruções bem detalhadas para um computador?",
+            "alternativas": [
+              "Porque ele fica bravo com instruções curtas",
+              "Porque ele faz só o que mandamos e não adivinha os passos que faltam",
+              "Porque ele gosta de ler textos longos",
+              "Porque assim ele gasta menos bateria"
+            ],
+            "correta": 1,
+            "explicacao": "O computador não tem imaginação. Se um passo faltar, ele não completa sozinho como uma pessoa faria.",
+            "dica": "Lembre do robô: muito obediente, mas sem imaginação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O robô recebeu: “Sair de casa. Calçar o tênis. Amarrar o cadarço.” O que vai acontecer?",
+            "alternativas": [
+              "Tudo vai dar certo",
+              "O robô vai amarrar o cadarço duas vezes",
+              "O robô vai ficar parado",
+              "O robô vai sair de casa descalço"
+            ],
+            "correta": 3,
+            "explicacao": "Como “sair de casa” veio primeiro, o robô sai antes de calçar o tênis. A ordem certa seria: calçar o tênis, amarrar o cadarço, sair de casa.",
+            "dica": "Leia os passos na ordem, como o robô. Quando ele sai de casa, o que está nos pés?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o trabalho de procurar e corrigir erros nos passos de um programa?",
+            "alternativas": [
+              "Depurar",
+              "Desenhar",
+              "Digitar",
+              "Desligar"
+            ],
+            "correta": 0,
+            "explicacao": "Depurar é ler o programa com calma, passo a passo, para achar o erro e consertar. Em inglês, isso se chama debug.",
+            "dica": "É a palavra que a lição usou para caçar e consertar erros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No algoritmo de lavar as mãos, qual passo vem logo antes de \"Enxaguar as mãos\"?",
+            "alternativas": [
+              "Abrir a torneira",
+              "Fechar a torneira e secar as mãos",
+              "Passar sabão e esfregar bem",
+              "Molhar as mãos"
+            ],
+            "correta": 2,
+            "explicacao": "A ordem é: abrir a torneira, molhar, passar sabão e esfregar, enxaguar e, por fim, fechar e secar. O enxágue tira o sabão, então o sabão vem antes.",
+            "dica": "O enxágue serve para tirar alguma coisa das mãos. O quê?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Passos: “Pegar a escova. Escovar os dentes. Colocar a pasta. Enxaguar.” Qual é o erro?",
+            "alternativas": [
+              "Falta um passo no fim",
+              "Passo fora de ordem: a pasta vem antes de escovar",
+              "Há um passo a mais",
+              "Não há erro"
+            ],
+            "correta": 1,
+            "explicacao": "A pasta precisa ir na escova antes de escovar. É um erro de ordem.",
+            "dica": "Leia como o robô: em que momento a pasta chega na escova?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passos: “Abrir a geladeira. Pegar o suco. Pegar o suco. Fechar a geladeira.” Qual é o tipo de erro?",
+            "alternativas": [
+              "Passo faltando",
+              "Passo fora de ordem",
+              "Passo repetido, a mais",
+              "Nenhum erro"
+            ],
+            "correta": 2,
+            "explicacao": "“Pegar o suco” aparece duas vezes sem necessidade: é um passo a mais.",
+            "dica": "Compare os passos do meio, um por um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passos para mandar uma mensagem: “Abrir o app. Escrever a mensagem. Tocar em enviar.” Qual passo está faltando?",
+            "alternativas": [
+              "Desligar o celular",
+              "Apagar a mensagem",
+              "Ler um livro",
+              "Escolher para quem mandar"
+            ],
+            "correta": 3,
+            "explicacao": "Sem escolher o contato, o app não sabe para quem enviar.",
+            "dica": "Antes de escrever, o app precisa saber o destino da mensagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o teste de mesa?",
+            "alternativas": [
+              "Executar os passos no papel, um por um, anotando o que acontece",
+              "Testar se a mesa está firme",
+              "Desenhar o robô",
+              "Apagar o programa e começar de novo"
+            ],
+            "correta": 0,
+            "explicacao": "No teste de mesa você faz o papel do computador, passo a passo, para achar o erro.",
+            "dica": "É uma técnica do aprofundamento feita com papel e lápis."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Dividindo a tarefa “arrumar a mochila” em partes, coloque em ordem:",
+            "itens": [
+              "Ver o horário das aulas do dia",
+              "Separar os cadernos e livros do dia",
+              "Guardar os cadernos e o estojo na mochila",
+              "Fechar o zíper"
+            ],
+            "explicacao": "Primeiro você descobre o que vai precisar, separa, guarda e, por último, fecha.",
+            "dica": "Primeiro descubra o que vai precisar; fechar é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um robô começa no número 10 e segue: “Some 5. Multiplique por 2. Tire 4.” Qual é o resultado?",
+            "alternativas": [
+              "26",
+              "16",
+              "30",
+              "22"
+            ],
+            "correta": 0,
+            "explicacao": "Teste de mesa: 10 + 5 = 15; 15 × 2 = 30; 30 − 4 = 26.",
+            "dica": "Faça o teste de mesa: anote o número depois de cada passo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Agora a ordem é: “Multiplique por 2. Some 5. Tire 4.”, começando em 10. Qual é o resultado?",
+            "alternativas": [
+              "26",
+              "21",
+              "25",
+              "19"
+            ],
+            "correta": 1,
+            "explicacao": "10 × 2 = 20; 20 + 5 = 25; 25 − 4 = 21. Mudando a ordem, o resultado muda.",
+            "dica": "Faça de novo, passo a passo, na nova ordem. Compare com a conta anterior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passos: “Encher o balde. Ir até o carro. Molhar o carro. Passar sabão. Encher o balde. Enxaguar.” “Encher o balde” aparece duas vezes. Isso é um erro?",
+            "alternativas": [
+              "Sim, todo passo repetido é erro",
+              "Sim, porque o robô vai quebrar",
+              "Não necessariamente: pode ser preciso encher de novo para enxaguar",
+              "Não, porque o robô ignora passos repetidos"
+            ],
+            "correta": 2,
+            "explicacao": "A água acabou ao molhar o carro, então encher de novo para enxaguar faz sentido. Passo repetido só é erro quando não tem motivo.",
+            "dica": "Pense se o balde ainda tem água depois de molhar o carro e passar sabão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa deveria somar 3 + 4 e mostrar 7, mas mostra 12. Qual é o erro mais provável?",
+            "alternativas": [
+              "Ele somou certo",
+              "Ele subtraiu",
+              "Ele dividiu",
+              "Ele multiplicou em vez de somar"
+            ],
+            "correta": 3,
+            "explicacao": "3 × 4 = 12. O programa usou a operação errada no passo da conta.",
+            "dica": "Que operação com 3 e 4 dá 12?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Um robô vai fazer pipoca de micro-ondas. Ordene os passos:",
+            "itens": [
+              "Tirar o saquinho do plástico",
+              "Colocar o saquinho no micro-ondas",
+              "Fechar a porta e ligar",
+              "Esperar os estouros diminuírem",
+              "Abrir com cuidado e servir"
+            ],
+            "explicacao": "O saquinho sai do plástico e entra no micro-ondas antes de ligar; servir é o último passo.",
+            "dica": "O saquinho precisa estar fora do plástico e lá dentro antes de ligar."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Digitar e formatar no Word",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O Word é um programa para escrever textos: trabalhos da escola, cartas, convites. Ele também tem um app gratuito para celular. Para começar, toque em “Novo” e escolha “Documento em branco”.",
+          "Para mudar a aparência de um trecho, primeiro selecione o texto (no PC, arraste o mouse por cima; no celular, toque duas vezes na palavra e arraste as bolinhas). Formatar é mudar o jeito do texto sem mudar as palavras.",
+          "Os botões mais usados ficam na guia Página Inicial: N deixa em negrito (letra mais grossa), I deixa em itálico (letra inclinada) e S sublinha. Se o seu Word estiver em inglês, o negrito aparece como B. Também dá para trocar a fonte (o tipo de letra), o tamanho e a cor.",
+          "O alinhamento muda a posição do texto na linha: à esquerda, centralizado (bom para títulos), à direita ou justificado (as duas bordas retinhas). O Word salva os arquivos sozinho na nuvem quando você está conectado, mas é bom dar um nome fácil de achar para cada documento."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como deixar o título “Minhas férias” grande e no meio da folha?",
+            "resolucao": "Selecione o título, aumente o tamanho da fonte (por exemplo, para 20), toque em N para deixar em negrito e escolha o alinhamento centralizado."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Atalhos de teclado deixam tudo mais rápido no computador. No Word em português: Ctrl + N deixa em negrito, Ctrl + I em itálico e Ctrl + S sublinha. Ctrl + Z desfaz o último passo, um salva-vidas quando algo dá errado.",
+        "O pincel de formatação copia a aparência de um trecho e aplica em outro: selecione o texto já formatado, clique no pincel e depois passe por cima do texto novo. Assim você não precisa formatar tudo de novo.",
+        "Formatar demais atrapalha. Um bom documento usa no máximo duas fontes, cores com moderação e negrito só no que é importante. Se tudo estiver destacado, nada se destaca."
+      ],
+      "desafio_pratico": "No app gratuito do Word (celular ou PC), crie um documento em branco e escreva um bilhete de 3 linhas convidando a família para um piquenique no fim de semana. Formate assim: o título “Convite” centralizado, em negrito e com tamanho 20; o dia e o horário do piquenique sublinhados; e o seu nome, no final, em itálico e na cor azul. Salve o documento com o nome “Convite piquenique”.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O Word é um programa para:",
+            "alternativas": [
+              "Escrever textos",
+              "Fazer ligações",
+              "Tirar fotos",
+              "Ouvir música"
+            ],
+            "correta": 0,
+            "explicacao": "O Word serve para escrever trabalhos, cartas e convites.",
+            "dica": "Lembre: trabalhos da escola, cartas e convites."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O botão I deixa o texto:",
+            "alternativas": [
+              "Grande",
+              "Em itálico, inclinado",
+              "Vermelho",
+              "Apagado"
+            ],
+            "correta": 1,
+            "explicacao": "I é de itálico: a letra fica inclinada.",
+            "dica": "I é a primeira letra do nome desse estilo de letra deitadinha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O botão S serve para:",
+            "alternativas": [
+              "Salvar",
+              "Sair",
+              "Sublinhar",
+              "Somar"
+            ],
+            "correta": 2,
+            "explicacao": "O S coloca uma linha embaixo das palavras: sublinha.",
+            "dica": "Ele coloca uma linha embaixo das palavras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O alinhamento centralizado deixa o texto:",
+            "alternativas": [
+              "À esquerda",
+              "À direita",
+              "Apagado",
+              "No meio da linha"
+            ],
+            "correta": 3,
+            "explicacao": "Centralizado é no centro, no meio da linha. É ótimo para títulos.",
+            "dica": "Pense no centro de um campo de futebol."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fonte, no Word, é:",
+            "alternativas": [
+              "O tipo de letra",
+              "Um lugar com água",
+              "O nome do arquivo",
+              "Uma imagem"
+            ],
+            "correta": 0,
+            "explicacao": "A fonte é o tipo de letra. Dá para trocar a fonte, o tamanho e a cor.",
+            "dica": "A lição disse que dá para trocar a fonte, o tamanho e a cor das letras."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que precisamos fazer antes de deixar uma palavra em negrito?",
+            "alternativas": [
+              "Fechar o Word",
+              "Selecionar a palavra",
+              "Apagar a palavra",
+              "Imprimir o documento"
+            ],
+            "correta": 1,
+            "explicacao": "O Word precisa saber qual trecho você quer mudar. Por isso, primeiro selecionamos e depois escolhemos a formatação.",
+            "dica": "O Word precisa saber em qual trecho você quer mexer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Word em português, o botão N serve para:",
+            "alternativas": [
+              "Criar um novo documento",
+              "Numerar as páginas",
+              "Deixar o texto em negrito",
+              "Deixar o texto em itálico"
+            ],
+            "correta": 2,
+            "explicacao": "N de negrito. O itálico usa o botão I e o sublinhado usa o S. No Word em inglês, o negrito é o B (de bold).",
+            "dica": "N é a primeira letra da palavra que deixa a letra mais grossa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alinhamento é o mais indicado para o título de um trabalho?",
+            "alternativas": [
+              "Centralizado",
+              "À direita",
+              "Justificado",
+              "Sem alinhamento"
+            ],
+            "correta": 0,
+            "explicacao": "Centralizar coloca o título no meio da linha, dando destaque. O texto dos parágrafos costuma ficar à esquerda ou justificado.",
+            "dica": "Título costuma ficar no meio da folha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é formatar um texto?",
+            "alternativas": [
+              "Apagar o texto inteiro",
+              "Traduzir o texto para outra língua",
+              "Contar as palavras do texto",
+              "Mudar a aparência do texto, como fonte, tamanho e cor"
+            ],
+            "correta": 3,
+            "explicacao": "Formatar muda o jeito que o texto aparece, sem mudar o que está escrito. Negrito, cor, tamanho e alinhamento são formatações.",
+            "dica": "Formatar muda o jeito do texto, não as palavras."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para deixar uma palavra vermelha:",
+            "itens": [
+              "Abrir o documento",
+              "Selecionar a palavra",
+              "Tocar no botão de cor da fonte",
+              "Escolher a cor vermelha"
+            ],
+            "explicacao": "Com o documento aberto, selecionamos o que queremos mudar, abrimos a opção de cor e escolhemos o vermelho.",
+            "dica": "Primeiro escolha a palavra; depois procure o botão da cor."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você queria deixar só a palavra “importante” em negrito, mas a frase inteira ficou. O que provavelmente aconteceu?",
+            "alternativas": [
+              "O Word quebrou",
+              "A frase inteira estava selecionada",
+              "Faltou internet",
+              "O texto estava em itálico"
+            ],
+            "correta": 1,
+            "explicacao": "A formatação vale para tudo o que está selecionado. Era preciso selecionar só a palavra.",
+            "dica": "O negrito vale para tudo o que está marcado na hora de tocar no botão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alinhamento deixa as duas bordas do texto retinhas?",
+            "alternativas": [
+              "Centralizado",
+              "À direita",
+              "Justificado",
+              "À esquerda"
+            ],
+            "correta": 2,
+            "explicacao": "O justificado alinha as duas laterais ao mesmo tempo.",
+            "dica": "A lição citou um alinhamento em que as duas laterais ficam iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deixar um título grande, em negrito e no meio da folha?",
+            "alternativas": [
+              "Selecionar o título, aumentar a fonte, tocar em N e centralizar",
+              "Apertar Enter várias vezes",
+              "Escrever tudo em maiúsculas e salvar",
+              "Mudar a cor para azul"
+            ],
+            "correta": 0,
+            "explicacao": "São três mudanças, todas depois de selecionar: tamanho, negrito e alinhamento.",
+            "dica": "São três mudanças, e todas começam por marcar o título."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num Word em inglês, qual botão faz o negrito?",
+            "alternativas": [
+              "N",
+              "I",
+              "S",
+              "B"
+            ],
+            "correta": 3,
+            "explicacao": "Em inglês, negrito é bold, por isso o botão é B.",
+            "dica": "Em inglês, negrito se diz bold."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para fazer um título formatado:",
+            "itens": [
+              "Abrir o Word",
+              "Criar um documento em branco",
+              "Digitar o título",
+              "Selecionar o título",
+              "Formatar o título"
+            ],
+            "explicacao": "Só dá para formatar depois de escrever e selecionar o texto.",
+            "dica": "Não dá para formatar o que ainda não foi escrito e selecionado."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No Word em português, qual atalho deixa o texto em negrito?",
+            "alternativas": [
+              "Ctrl + B",
+              "Ctrl + Z",
+              "Ctrl + N",
+              "Ctrl + S"
+            ],
+            "correta": 2,
+            "explicacao": "No Word em português, Ctrl + N é negrito. Ctrl + B é o negrito do Word em inglês.",
+            "dica": "No Word em português, o atalho usa a primeira letra do nome do estilo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você apagou sem querer um parágrafo. Qual atalho desfaz?",
+            "alternativas": [
+              "Ctrl + Z",
+              "Ctrl + I",
+              "Ctrl + N",
+              "Ctrl + S"
+            ],
+            "correta": 0,
+            "explicacao": "Ctrl + Z desfaz a última ação. Ctrl + I, N e S são de formatação.",
+            "dica": "O aprofundamento chamou esse atalho de salva-vidas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para copiar a formatação de um título para outros três títulos, o mais rápido é:",
+            "alternativas": [
+              "Formatar cada um de novo",
+              "Usar o pincel de formatação",
+              "Apagar e digitar de novo",
+              "Mudar a fonte do documento inteiro"
+            ],
+            "correta": 1,
+            "explicacao": "O pincel copia a aparência de um trecho e aplica em outro, sem refazer tudo.",
+            "dica": "O aprofundamento falou de uma ferramenta que “copia a aparência”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruno fez um trabalho com 5 fontes diferentes, 6 cores e tudo em negrito. Qual é o problema?",
+            "alternativas": [
+              "Nenhum, quanto mais destaque melhor",
+              "O Word não aceita mais de 2 cores",
+              "O arquivo não salva",
+              "Com tudo destacado, nada se destaca e o texto fica difícil de ler"
+            ],
+            "correta": 3,
+            "explicacao": "Destaque demais cansa o leitor e esconde o que é importante.",
+            "dica": "Lembre da regra de usar destaque com moderação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Word em português, o que faz Ctrl + S?",
+            "alternativas": [
+              "Salva o arquivo",
+              "Sublinha o texto",
+              "Sai do programa",
+              "Seleciona tudo"
+            ],
+            "correta": 1,
+            "explicacao": "No Word em português, Ctrl + S sublinha (S de sublinhado). No Word em inglês, ele salva, por isso muita gente confunde.",
+            "dica": "No Word em português, os atalhos de estilo usam a primeira letra do nome: N, I e…"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Empreender é resolver um problema",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Empreender é criar algo que resolve um problema ou atende a uma necessidade das pessoas, e fazer isso funcionar. Quem empreende se chama empreendedor. Pode ser um negócio que vende produtos, um serviço ou até um projeto na escola.",
+          "Todo bom negócio começa com uma pergunta: “Que problema as pessoas têm e como eu posso ajudar?”. A vizinha não tem tempo de passear com o cachorro: alguém pode oferecer esse serviço. Na saída do jogo de futebol todos estão com sede: alguém pode vender água gelada.",
+          "O cliente paga porque o problema dele foi resolvido. Por isso, antes de pensar em vender, é bom ouvir as pessoas: o que incomoda, o que falta no bairro, o que dá trabalho no dia a dia.",
+          "Empreender pede coragem, organização e honestidade. Errar faz parte: muitos empreendedores tentam várias ideias até uma dar certo. O importante é aprender com o erro e tratar bem as pessoas: clientes, parceiros e quem trabalha junto."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "No prédio de Ana, muitos moradores trabalham o dia inteiro e não conseguem levar o lixo reciclável ao ponto de coleta. Que negócio pode resolver isso?",
+            "resolucao": "Um serviço de recolher os recicláveis uma vez por semana, combinado com os moradores. O problema (falta de tempo) vira uma oportunidade de serviço. Se quem fizer for menor de idade, precisa ser com a família junto e sem atrapalhar a escola."
+          },
+          {
+            "enunciado": "Caio quer vender brigadeiro na feira do bairro porque gosta de fazer. Que pergunta ele deve fazer antes de começar?",
+            "resolucao": "Quem vai comprar e por quê? Por exemplo: “As pessoas da feira querem um doce? Quanto pagariam?”. Gostar de fazer é ótimo, mas o negócio só vai para a frente se alguém quiser comprar."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma ferramenta simples para achar problemas é observar e anotar, durante uma semana, tudo o que as pessoas reclamam: “a fila é grande”, “não tem onde consertar bicicleta”, “esqueci a garrafinha”. Cada reclamação pode ser a semente de um negócio, e a que mais se repete costuma ter mais clientes.",
+        "Antes de gastar muito dinheiro, o empreendedor testa a ideia em pequeno: faz poucas unidades, oferece para algumas pessoas e vê se elas compram de verdade e voltam. Esse teste barato se chama protótipo ou piloto. Se ninguém compra, ele muda a ideia sem ter perdido muito.",
+        "Nem todo empreendimento busca lucro: há os empreendedores sociais, que resolvem problemas da comunidade, como um reforço escolar gratuito ou uma horta comunitária. E dentro de uma empresa, o funcionário que propõe uma melhoria também está empreendendo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Empreender é:",
+            "alternativas": [
+              "Criar algo que resolve um problema das pessoas",
+              "Ficar sem fazer nada",
+              "Só gastar dinheiro",
+              "Copiar a lição do colega"
+            ],
+            "correta": 0,
+            "explicacao": "Empreender é criar uma solução para um problema ou necessidade e fazer funcionar.",
+            "dica": "Pense no que a lição disse sobre problemas e necessidades."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem empreende se chama:",
+            "alternativas": [
+              "Professor",
+              "Empreendedor",
+              "Cliente",
+              "Motorista"
+            ],
+            "correta": 1,
+            "explicacao": "Quem empreende é o empreendedor.",
+            "dica": "A palavra é parecida com “empreender”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o cliente paga?",
+            "alternativas": [
+              "Porque é obrigado",
+              "Porque gosta de perder dinheiro",
+              "Porque o problema dele foi resolvido",
+              "Porque o vendedor mandou"
+            ],
+            "correta": 2,
+            "explicacao": "O cliente paga porque recebe algo que resolve um problema ou uma vontade dele.",
+            "dica": "Pense no que o cliente ganha com a compra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na saída do jogo de futebol, todos estão com sede. Que negócio resolve isso?",
+            "alternativas": [
+              "Vender guarda-chuva",
+              "Consertar bicicletas",
+              "Vender agasalho",
+              "Vender água gelada"
+            ],
+            "correta": 3,
+            "explicacao": "A água gelada resolve exatamente o problema das pessoas naquele momento.",
+            "dica": "Qual produto acaba com a sede?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Errar quando se empreende:",
+            "alternativas": [
+              "Significa desistir para sempre",
+              "Faz parte; o importante é aprender",
+              "Nunca acontece",
+              "É sinal de preguiça"
+            ],
+            "correta": 1,
+            "explicacao": "Muitos empreendedores erram várias vezes antes de acertar. O erro ensina.",
+            "dica": "A lição disse que muitos empreendedores tentam várias ideias."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a primeira pergunta de um bom negócio?",
+            "alternativas": [
+              "Como fico rico rápido?",
+              "Que problema as pessoas têm e como posso ajudar?",
+              "Qual é a cor da minha loja?",
+              "Quem é o meu concorrente mais fraco?"
+            ],
+            "correta": 1,
+            "explicacao": "Todo bom negócio nasce de um problema real das pessoas. O dinheiro vem como consequência.",
+            "dica": "Todo negócio começa olhando para as pessoas, não para o dinheiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Lúcia trabalha o dia todo e não consegue passear com o cachorro. Para um empreendedor, isso é:",
+            "alternativas": [
+              "Um problema sem solução",
+              "Algo que não interessa",
+              "Uma oportunidade de oferecer um serviço",
+              "Motivo para reclamar"
+            ],
+            "correta": 2,
+            "explicacao": "Onde há um problema, pode haver um serviço: alguém pode passear com o cachorro e cobrar por isso.",
+            "dica": "Onde há um problema, pode haver alguém disposto a pagar por uma solução."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio quer vender brigadeiro só porque gosta de fazer. O que falta ele descobrir?",
+            "alternativas": [
+              "Se alguém quer comprar e por quanto",
+              "A cor da embalagem",
+              "O nome da loja",
+              "Se o brigadeiro é redondo"
+            ],
+            "correta": 0,
+            "explicacao": "Gostar de fazer é ótimo, mas sem clientes não há negócio.",
+            "dica": "Gostar de fazer é ótimo, mas quem vai pagar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas atitudes é de um bom empreendedor?",
+            "alternativas": [
+              "Enganar o cliente para vender mais",
+              "Desistir no primeiro erro",
+              "Não ouvir ninguém",
+              "Ouvir as pessoas, organizar-se e agir com honestidade"
+            ],
+            "correta": 3,
+            "explicacao": "Coragem, organização e honestidade fazem o cliente confiar e voltar.",
+            "dica": "A lição citou coragem, organização e honestidade."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para começar um pequeno negócio:",
+            "itens": [
+              "Observar um problema das pessoas",
+              "Pensar numa solução",
+              "Perguntar se as pessoas pagariam por ela",
+              "Começar a vender"
+            ],
+            "explicacao": "Tudo começa observando o problema. Vender é o último passo, depois de saber se há interesse.",
+            "dica": "Vender é o último passo; tudo começa observando."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num bairro, muita gente reclama que não há onde consertar bicicleta. Qual é a melhor ideia de negócio?",
+            "alternativas": [
+              "Vender bicicletas importadas caras",
+              "Abrir uma oficina simples de conserto de bicicletas",
+              "Vender sorvete",
+              "Abrir uma loja de roupas"
+            ],
+            "correta": 1,
+            "explicacao": "A oficina resolve exatamente a reclamação das pessoas. As outras ideias não tratam o problema.",
+            "dica": "A ideia precisa resolver exatamente a reclamação das pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é bom ouvir os clientes antes de começar?",
+            "alternativas": [
+              "Para descobrir o que eles precisam e evitar fazer algo que ninguém quer",
+              "Para copiar a ideia deles",
+              "Para não precisar trabalhar",
+              "Porque é obrigatório por lei"
+            ],
+            "correta": 0,
+            "explicacao": "Ouvir evita gastar tempo e dinheiro num produto que não vende.",
+            "dica": "Pense no risco de gastar tempo e dinheiro num produto que ninguém compra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Clara fez pulseiras e ninguém comprou. O que um empreendedor faz?",
+            "alternativas": [
+              "Desiste de tudo",
+              "Briga com os clientes",
+              "Pergunta por que não compraram e melhora a ideia",
+              "Dá todas de graça para sempre"
+            ],
+            "correta": 2,
+            "explicacao": "Errar faz parte. Perguntar e ajustar transforma o erro em aprendizado.",
+            "dica": "A lição disse que errar faz parte, desde que se aprenda algo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual NÃO é um exemplo de empreender?",
+            "alternativas": [
+              "Montar um serviço de lavar carros",
+              "Criar um projeto de reforço escolar",
+              "Vender bolos por encomenda",
+              "Assistir à TV o dia inteiro"
+            ],
+            "correta": 3,
+            "explicacao": "Assistir à TV não resolve problema de ninguém. As outras opções criam soluções para pessoas.",
+            "dica": "Procure a opção que não resolve o problema de ninguém."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu João vende 10 picolés por dia a R$ 3 cada. Quanto ele recebe em 5 dias?",
+            "alternativas": [
+              "R$ 30",
+              "R$ 150",
+              "R$ 50",
+              "R$ 15"
+            ],
+            "correta": 1,
+            "explicacao": "Por dia: 10 × 3 = 30 reais. Em 5 dias: 30 × 5 = 150. O R$ 30 é só um dia.",
+            "dica": "Calcule quanto entra num dia e multiplique pelo número de dias."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um protótipo ou piloto, para o empreendedor?",
+            "alternativas": [
+              "Um teste pequeno e barato da ideia antes de gastar muito",
+              "O dono da empresa",
+              "Um tipo de imposto",
+              "O avião da empresa"
+            ],
+            "correta": 0,
+            "explicacao": "É testar em pequeno para ver se as pessoas compram, antes de arriscar muito dinheiro.",
+            "dica": "O aprofundamento falou em fazer poucas unidades para ver se as pessoas compram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gabi quer começar um negócio de bolos. Qual caminho tem MENOS risco?",
+            "alternativas": [
+              "Comprar um forno industrial e alugar uma loja logo de cara",
+              "Fazer 10 bolos, oferecer aos vizinhos e ver se compram e voltam",
+              "Pegar dinheiro emprestado para começar grande",
+              "Fazer 200 bolos de uma vez"
+            ],
+            "correta": 1,
+            "explicacao": "Testar com poucos bolos custa pouco e mostra se há clientes. As outras opções arriscam muito dinheiro antes de saber.",
+            "dica": "Qual opção testa a ideia gastando pouco?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma horta comunitária que não busca lucro, mas resolve a falta de alimentos frescos no bairro, é um exemplo de:",
+            "alternativas": [
+              "Escambo",
+              "Imposto",
+              "Empreendedorismo social",
+              "Inflação"
+            ],
+            "correta": 2,
+            "explicacao": "O empreendedor social resolve problemas da comunidade, mesmo sem buscar lucro.",
+            "dica": "O aprofundamento falou de empreendedores que resolvem problemas da comunidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lívia anotou as reclamações da semana: 8 sobre a fila da cantina, 2 sobre falta de cadeiras e 5 sobre esquecer a garrafinha. Qual problema parece ter mais clientes?",
+            "alternativas": [
+              "Falta de cadeiras",
+              "Esquecer a garrafinha",
+              "Todos iguais",
+              "Fila da cantina"
+            ],
+            "correta": 3,
+            "explicacao": "A fila da cantina teve mais reclamações (8). Quanto mais gente com o problema, mais possíveis clientes.",
+            "dica": "Compare quantas pessoas reclamaram de cada coisa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num teste, Rafa vendeu 12 sanduíches a R$ 5 cada e gastou R$ 36 com ingredientes. Quanto sobrou depois de pagar os ingredientes?",
+            "alternativas": [
+              "R$ 24",
+              "R$ 60",
+              "R$ 36",
+              "R$ 14"
+            ],
+            "correta": 0,
+            "explicacao": "Entrou 12 × 5 = 60 reais. Tirando o gasto: 60 − 36 = 24. O R$ 60 é o que entrou, não o que sobrou.",
+            "dica": "Calcule quanto entrou com as vendas e tire o que foi gasto."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O robô Bolota e o sanduíche",
+    "texto": "A professora Lúcia entrou na sala com um pacote de pão, um pote de manteiga e uma faca sem ponta. Depois anunciou:\n\n— Hoje eu sou o robô Bolota. Vocês vão me ensinar a fazer um sanduíche. Mas atenção: eu só faço exatamente o que vocês mandarem.\n\n— Passa manteiga no pão! — gritou o Davi.\n\nBolota pegou o pacote fechado e esfregou a manteiga por cima do plástico. A turma caiu na gargalhada.\n\n— Não! Primeiro abre o pacote! — corrigiu a Sofia.\n\nBolota rasgou o pacote, mas ficou parado, segurando a faca no ar. Ninguém tinha mandado pegar a manteiga com ela.\n\nAos poucos, a turma foi aprendendo a pensar como robô. Escreveram os passos no quadro, um embaixo do outro, bem certinhos. No final, Bolota entregou um sanduíche perfeito.\n\n— Parabéns — disse a professora, já sem voz de robô. — Vocês acabaram de programar!"
+  },
+  "escrita": {
+    "proposta": "Agora é a sua vez de programar o robô Bolota. Escolha uma tarefa simples da sua casa (arrumar a cama, preparar um copo de suco ou dar comida para o bicho de estimação) e escreva de 5 a 8 passos numerados, bem detalhados, para o robô fazer sem errar."
+  }
+}

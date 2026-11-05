@@ -1,0 +1,897 @@
+{
+  "dia": 6,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Frações: ideia e equivalência",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Uma fração mostra uma parte de um inteiro que foi dividido em partes iguais. Se uma pizza foi cortada em 8 pedaços iguais e você comeu 3, você comeu 3/8 da pizza.",
+          "O número de baixo se chama denominador: ele diz em quantas partes iguais o inteiro foi dividido. O número de cima se chama numerador: ele diz quantas dessas partes estamos pegando.",
+          "Frações equivalentes são frações diferentes que representam a mesma quantidade. Metade de uma barra de chocolate é 1/2, mas também é 2/4 ou 4/8: a quantidade de chocolate é a mesma.",
+          "Para achar uma fração equivalente, multiplique (ou divida) o numerador e o denominador pelo mesmo número. Exemplo: 1/3 vira 2/6 quando multiplicamos os dois por 2.",
+          "Quando dividimos numerador e denominador pelo mesmo número até não dar mais, dizemos que simplificamos a fração. 6/8 simplificada é 3/4."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma barra de chocolate tem 10 quadradinhos. Ana comeu 4. Que fração ela comeu? Escreva também a fração simplificada.",
+            "resolucao": "Ela comeu 4/10. Dividindo 4 e 10 por 2, temos 2/5. Então 4/10 e 2/5 são equivalentes."
+          },
+          {
+            "enunciado": "Complete: 3/4 = ?/12",
+            "resolucao": "O denominador 4 virou 12, ou seja, foi multiplicado por 3. Fazemos o mesmo com o numerador: 3 × 3 = 9. Resposta: 9/12."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para comparar frações com denominadores diferentes, transforme as duas em equivalentes com o mesmo denominador. Para comparar 2/3 e 3/4: 2/3 = 8/12 e 3/4 = 9/12. Como 9 é maior que 8, 3/4 é maior.",
+        "Quando o numerador é igual ao denominador, a fração vale um inteiro: 5/5 = 1. Quando o numerador é maior, a fração passa de um inteiro: 7/4 é um inteiro (4/4) e mais 3/4.",
+        "Para simplificar de uma vez só, divida pelo maior número que divide os dois. Em 18/24, o maior número que divide 18 e 24 é 6, então 18/24 = 3/4. Uma fração que não dá mais para simplificar se chama irredutível."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na fração 3/8, qual número é o denominador?",
+            "alternativas": [
+              "3",
+              "8",
+              "11",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "O denominador é o número de baixo: 8. Ele diz que o inteiro foi dividido em 8 partes iguais.",
+            "dica": "O denominador fica embaixo e diz em quantas partes o inteiro foi dividido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma barra foi cortada em 4 partes iguais. Você pegou 1. Que fração você pegou?",
+            "alternativas": [
+              "1/4",
+              "4/1",
+              "1/3",
+              "3/4"
+            ],
+            "correta": 0,
+            "explicacao": "Pegou 1 parte (numerador) de 4 partes iguais (denominador): 1/4.",
+            "dica": "Em cima vai quantas partes você pegou; embaixo, em quantas partes a barra foi cortada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Metade de uma pizza pode ser escrita como:",
+            "alternativas": [
+              "1/3",
+              "2/1",
+              "1/2",
+              "3/2"
+            ],
+            "correta": 2,
+            "explicacao": "Metade é dividir em 2 partes iguais e pegar 1: 1/2.",
+            "dica": "Metade é dividir em 2 partes iguais e pegar uma delas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que são frações equivalentes?",
+            "alternativas": [
+              "Frações com o mesmo numerador",
+              "Frações que representam a mesma quantidade",
+              "Frações sempre maiores que um inteiro",
+              "Frações com denominador 10"
+            ],
+            "correta": 1,
+            "explicacao": "Equivalentes são frações escritas de jeitos diferentes que valem o mesmo tanto, como 1/2 e 2/4.",
+            "dica": "Lembre do chocolate da lição: 1/2 e 2/4 dão o mesmo tanto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar uma fração equivalente, o que fazemos com o numerador e o denominador?",
+            "alternativas": [
+              "Somamos 1 aos dois",
+              "Multiplicamos só o de cima",
+              "Trocamos um pelo outro",
+              "Multiplicamos os dois pelo mesmo número"
+            ],
+            "correta": 3,
+            "explicacao": "Multiplicando (ou dividindo) os dois pelo mesmo número, a quantidade não muda: 1/3 = 2/6.",
+            "dica": "A lição mostrou 1/3 virando 2/6. O que aconteceu com o 1 e com o 3?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pizza foi dividida em 6 pedaços iguais e sobraram 5. Que fração da pizza sobrou?",
+            "alternativas": [
+              "1/6",
+              "6/5",
+              "5/6",
+              "5/1"
+            ],
+            "correta": 2,
+            "explicacao": "A pizza tem 6 partes iguais (denominador 6) e sobraram 5 delas (numerador 5). Então sobrou 5/6.",
+            "dica": "Conte em quantos pedaços a pizza foi cortada (vai embaixo) e quantos sobraram (vai em cima)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é equivalente a 1/2?",
+            "alternativas": [
+              "3/6",
+              "2/3",
+              "1/4",
+              "2/5"
+            ],
+            "correta": 0,
+            "explicacao": "Multiplicando 1 e 2 por 3, temos 3/6. As outras representam quantidades diferentes de metade.",
+            "dica": "Multiplique o 1 e o 2 pelo mesmo número e veja qual alternativa aparece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na fração 7/9, o que o número 9 indica?",
+            "alternativas": [
+              "Quantas partes pegamos",
+              "Em quantas partes iguais o inteiro foi dividido",
+              "Quantas partes sobraram",
+              "Quantos inteiros existem"
+            ],
+            "correta": 1,
+            "explicacao": "O 9 é o denominador: ele mostra em quantas partes iguais o inteiro foi dividido. O 7, numerador, mostra quantas partes pegamos.",
+            "dica": "O 9 está embaixo da fração. Lembre o nome e a função do número de baixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma simplificada de 8/12?",
+            "alternativas": [
+              "4/8",
+              "3/4",
+              "1/3",
+              "2/3"
+            ],
+            "correta": 3,
+            "explicacao": "Dividindo 8 e 12 por 4 (o maior número que divide os dois), temos 2/3.",
+            "dica": "Procure o maior número que divide 8 e 12 ao mesmo tempo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque estas frações do mesmo bolo em ordem, da MENOR para a MAIOR parte:",
+            "itens": [
+              "1/8",
+              "1/4",
+              "1/2",
+              "3/4"
+            ],
+            "explicacao": "Com o mesmo bolo, 1/8 é o menor pedaço. Depois vem 1/4 (que é 2/8), 1/2 (que é 4/8) e 3/4 (que é 6/8).",
+            "dica": "Quanto maior o denominador, menor o pedaço. Se quiser, escreva todas em oitavos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: 2/5 = ?/20",
+            "alternativas": [
+              "4",
+              "8",
+              "10",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "O 5 foi multiplicado por 4 para virar 20. Fazendo o mesmo em cima: 2 × 4 = 8. Então 2/5 = 8/20.",
+            "dica": "Descubra por quanto o 5 foi multiplicado para virar 20 e faça o mesmo em cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é MAIOR: 2/3 ou 3/5?",
+            "alternativas": [
+              "3/5",
+              "São iguais",
+              "2/3",
+              "Não dá para comparar"
+            ],
+            "correta": 2,
+            "explicacao": "Com denominador 15: 2/3 = 10/15 e 3/5 = 9/15. Como 10 é maior que 9, 2/3 é maior.",
+            "dica": "Transforme as duas em quinze avos e compare os numeradores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa turma de 24 alunos, 18 vão de ônibus. Qual é a fração simplificada (irredutível) dos que vão de ônibus?",
+            "alternativas": [
+              "18/24",
+              "6/8",
+              "2/3",
+              "3/4"
+            ],
+            "correta": 3,
+            "explicacao": "18/24 dividido por 6 em cima e embaixo dá 3/4. 6/8 é equivalente, mas ainda dá para simplificar. 2/3 é outra quantidade.",
+            "dica": "Divida 18 e 24 pelo maior número que divide os dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas frações NÃO é equivalente a 3/4?",
+            "alternativas": [
+              "6/8",
+              "8/10",
+              "9/12",
+              "12/16"
+            ],
+            "correta": 1,
+            "explicacao": "6/8, 9/12 e 12/16 simplificadas dão 3/4. Já 8/10 simplificada dá 4/5, que é outra quantidade.",
+            "dica": "Simplifique cada uma e veja qual não chega em 3/4."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem, da MENOR para a MAIOR:",
+            "itens": [
+              "1/3",
+              "1/2",
+              "2/3",
+              "5/6"
+            ],
+            "explicacao": "Em sextos: 1/3 = 2/6, 1/2 = 3/6, 2/3 = 4/6 e 5/6. Agora é só comparar os numeradores: 2, 3, 4 e 5.",
+            "dica": "Escreva todas com denominador 6 e compare os números de cima."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Léo comeu 3/8 de uma pizza e Bia comeu 1/4 da mesma pizza. Que fração da pizza SOBROU?",
+            "alternativas": [
+              "5/8",
+              "3/8",
+              "4/12",
+              "1/2"
+            ],
+            "correta": 1,
+            "explicacao": "1/4 = 2/8. Juntos comeram 3/8 + 2/8 = 5/8. A pizza inteira é 8/8, então sobrou 8/8 − 5/8 = 3/8. A pegadinha é responder 5/8, que é o que eles comeram.",
+            "dica": "Escreva 1/4 em oitavos, junte o que os dois comeram e veja quanto falta para a pizza inteira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração fica exatamente no meio entre 1/4 e 1/2?",
+            "alternativas": [
+              "1/3",
+              "2/6",
+              "3/8",
+              "3/4"
+            ],
+            "correta": 2,
+            "explicacao": "Em oitavos: 1/4 = 2/8 e 1/2 = 4/8. O que está no meio é 3/8. 1/3 fica entre os dois, mas não exatamente no meio.",
+            "dica": "Escreva as duas com denominador 8 e procure o numerador que fica entre elas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas frações equivalentes a 2/3 têm denominador menor que 20 (contando a própria 2/3)?",
+            "alternativas": [
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "2/3, 4/6, 6/9, 8/12, 10/15 e 12/18. A próxima seria 14/21, que já passa de 20. São 6.",
+            "dica": "Liste multiplicando em cima e embaixo por 1, 2, 3… e pare quando o denominador chegar a 20 ou mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tem 7/4 de barra de chocolate (barras iguais, cada uma com 4 pedaços). Quantas barras inteiras ela tem e quanto sobra?",
+            "alternativas": [
+              "1 barra inteira e sobram 3/4",
+              "7 barras inteiras",
+              "1 barra inteira e sobra 1/4",
+              "2 barras inteiras"
+            ],
+            "correta": 0,
+            "explicacao": "Uma barra inteira são 4/4. 7/4 − 4/4 = 3/4. Então é 1 barra inteira e mais 3/4 de outra.",
+            "dica": "Uma barra inteira são 4 pedaços de 4. Tire isso dos 7 pedaços e veja o que fica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma irredutível de 36/48?",
+            "alternativas": [
+              "9/12",
+              "18/24",
+              "3/4",
+              "6/8"
+            ],
+            "correta": 2,
+            "explicacao": "O maior número que divide 36 e 48 é 12: 36 ÷ 12 = 3 e 48 ÷ 12 = 4. As outras são equivalentes, mas ainda dá para simplificar.",
+            "dica": "Irredutível é quando não dá mais para dividir. Procure o maior número que divide 36 e 48."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Mesada e cofrinho",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Mesada é um valor que a família combina de dar à criança, de tempos em tempos, para ela aprender a cuidar do próprio dinheiro. Pode ser por semana ou por mês, e o valor depende do que a família consegue.",
+          "Um jeito simples de organizar a mesada é dividir em três partes: uma para gastar agora, uma para guardar e uma para ajudar alguém ou dividir com a família.",
+          "O cofrinho serve para guardar a parte que você não vai gastar hoje. Quando o dinheiro fica longe dos olhos, fica mais fácil resistir à vontade de gastar tudo de uma vez.",
+          "Anotar quanto entra e quanto sai ajuda muito. Um caderninho com a data, o valor e o motivo do gasto já mostra para onde o seu dinheiro está indo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Lia recebe R$ 20,00 de mesada por semana. Ela guarda metade no cofrinho. Quanto ela terá guardado em 4 semanas?",
+            "resolucao": "Metade de R$ 20,00 é R$ 10,00. Em 4 semanas: 4 × R$ 10,00 = R$ 40,00 no cofrinho."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma divisão muito usada é por porcentagem: por exemplo, 50% para gastar, 40% para guardar e 10% para ajudar. Com R$ 20,00, isso dá R$ 10,00, R$ 8,00 e R$ 2,00. A soma das partes sempre tem que dar o total.",
+        "O cofrinho protege da vontade de gastar, mas o dinheiro não cresce lá dentro. Quando a quantia ficar maior, um adulto pode ajudar a colocar numa conta poupança, onde o banco paga um pouco de rendimento pelo dinheiro guardado.",
+        "Gasto por impulso é comprar sem planejar, só porque deu vontade na hora. Uma regra boa é a das 24 horas: viu algo que quer muito? Espere um dia. Se ainda quiser e couber no plano, compre."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é mesada?",
+            "alternativas": [
+              "Um valor que a família combina de dar para a criança aprender a cuidar do dinheiro",
+              "Um tipo de cofrinho",
+              "Uma dívida com o banco",
+              "O preço do lanche da escola"
+            ],
+            "correta": 0,
+            "explicacao": "Mesada é um valor combinado pela família, dado de tempos em tempos, para a criança treinar como cuidar do dinheiro.",
+            "dica": "Lembre do começo da lição: quem dá, para quem e para quê."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde podemos guardar a parte da mesada que não vamos gastar hoje?",
+            "alternativas": [
+              "No bolso da calça",
+              "No cofrinho",
+              "Embaixo do tapete da escola",
+              "Na mão de um colega"
+            ],
+            "correta": 1,
+            "explicacao": "O cofrinho deixa o dinheiro longe dos olhos e ajuda a não gastar por impulso.",
+            "dica": "A lição falou de um objeto que deixa o dinheiro longe dos olhos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em quantas partes a lição sugeriu dividir a mesada?",
+            "alternativas": [
+              "Duas",
+              "Cinco",
+              "Três",
+              "Uma"
+            ],
+            "correta": 2,
+            "explicacao": "São três partes: uma para gastar agora, uma para guardar e uma para ajudar alguém.",
+            "dica": "Gastar agora, guardar e ajudar alguém: conte as partes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia guarda R$ 10,00 por semana. Quanto ela guarda em 2 semanas?",
+            "alternativas": [
+              "R$ 12,00",
+              "R$ 5,00",
+              "R$ 30,00",
+              "R$ 20,00"
+            ],
+            "correta": 3,
+            "explicacao": "Uma semana R$ 10,00 e outra semana R$ 10,00: R$ 10,00 + R$ 10,00 = R$ 20,00.",
+            "dica": "Some o valor de uma semana com o da outra semana."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é bom anotar num caderninho de gastos?",
+            "alternativas": [
+              "Só o nome da loja",
+              "A data, o valor e o motivo do gasto",
+              "A senha do celular",
+              "O nome dos colegas"
+            ],
+            "correta": 1,
+            "explicacao": "Data, valor e motivo mostram quando, quanto e por que você gastou. Assim dá para ver para onde o dinheiro vai.",
+            "dica": "São três informações: quando, quanto e por que você gastou."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve, principalmente, uma mesada?",
+            "alternativas": [
+              "Para gastar tudo no mesmo dia",
+              "Para aprender a cuidar do próprio dinheiro",
+              "Para pagar as contas da casa",
+              "Para emprestar aos colegas"
+            ],
+            "correta": 1,
+            "explicacao": "A mesada é uma forma de treinar: escolher, guardar e gastar com responsabilidade, errando com valores pequenos.",
+            "dica": "Pense no que a criança aprende quando recebe um valor pequeno para cuidar sozinha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro ganha R$ 15,00 por semana e guarda R$ 5,00. Quanto ele guarda em 6 semanas?",
+            "alternativas": [
+              "R$ 20,00",
+              "R$ 90,00",
+              "R$ 11,00",
+              "R$ 30,00"
+            ],
+            "correta": 3,
+            "explicacao": "Ele guarda R$ 5,00 por semana. 6 × R$ 5,00 = R$ 30,00.",
+            "dica": "Multiplique o que ele guarda por semana pelo número de semanas. O que ele recebe não entra na conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que guardar o dinheiro no cofrinho ajuda?",
+            "alternativas": [
+              "Porque o dinheiro fica longe dos olhos e é mais fácil não gastar",
+              "Porque o dinheiro dobra sozinho dentro dele",
+              "Porque assim ninguém precisa anotar nada",
+              "Porque o cofrinho paga juros"
+            ],
+            "correta": 0,
+            "explicacao": "O cofrinho não faz o dinheiro crescer, mas ajuda a não gastar por impulso, porque o dinheiro não fica na mão.",
+            "dica": "O cofrinho não faz mágica com o dinheiro. Pense em por que ele ajuda a não gastar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um bom hábito com a mesada?",
+            "alternativas": [
+              "Pedir adiantado toda semana",
+              "Anotar quanto entra e quanto sai",
+              "Esconder os gastos da família",
+              "Gastar antes de pensar"
+            ],
+            "correta": 1,
+            "explicacao": "Anotar mostra para onde o dinheiro vai e ajuda a fazer escolhas melhores na próxima vez.",
+            "dica": "Escolha o hábito que mostra para onde o dinheiro está indo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para juntar dinheiro para um objetivo:",
+            "itens": [
+              "Escolher o que quer comprar",
+              "Descobrir quanto custa",
+              "Separar uma parte da mesada toda semana",
+              "Contar o cofrinho e comprar quando tiver o valor"
+            ],
+            "explicacao": "Primeiro você define o objetivo e o preço; depois guarda um pouco de cada vez; só compra quando o dinheiro for suficiente.",
+            "dica": "Primeiro você sabe o que quer e quanto custa; a compra é sempre o último passo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio recebe R$ 30,00 por mês e divide em três partes iguais: gastar, guardar e ajudar. Quanto vai para cada parte?",
+            "alternativas": [
+              "R$ 15,00",
+              "R$ 10,00",
+              "R$ 3,00",
+              "R$ 33,00"
+            ],
+            "correta": 1,
+            "explicacao": "R$ 30,00 ÷ 3 = R$ 10,00 para cada parte. Conferindo: 10 + 10 + 10 = 30.",
+            "dica": "Divida o total pelo número de partes e confira somando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nina ganha R$ 25,00 por semana. Gasta R$ 12,00 e guarda o resto. Quanto ela guarda em 4 semanas?",
+            "alternativas": [
+              "R$ 48,00",
+              "R$ 100,00",
+              "R$ 52,00",
+              "R$ 13,00"
+            ],
+            "correta": 2,
+            "explicacao": "Por semana sobram R$ 25,00 − R$ 12,00 = R$ 13,00. Em 4 semanas: 4 × R$ 13,00 = R$ 52,00.",
+            "dica": "Primeiro descubra quanto sobra em uma semana; depois multiplique pelas semanas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Davi recebeu R$ 20,00 e anotou: segunda, R$ 4,00 de bala; quarta, R$ 6,00 de figurinha; sexta, R$ 5,00 de lanche. Quanto sobrou?",
+            "alternativas": [
+              "R$ 5,00",
+              "R$ 15,00",
+              "R$ 10,00",
+              "R$ 6,00"
+            ],
+            "correta": 0,
+            "explicacao": "Gastos: 4 + 6 + 5 = R$ 15,00. Sobra: R$ 20,00 − R$ 15,00 = R$ 5,00. Quem marca R$ 15,00 respondeu o total gasto, não a sobra.",
+            "dica": "Some todos os gastos e tire do que ele recebeu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude mostra controle da mesada?",
+            "alternativas": [
+              "Gastar tudo no primeiro dia e pedir mais",
+              "Tirar do cofrinho sempre que passa na padaria",
+              "Esconder os gastos para ninguém reclamar",
+              "Esperar um dia antes de comprar algo que não estava no plano"
+            ],
+            "correta": 3,
+            "explicacao": "Esperar antes de uma compra fora do plano é a regra das 24 horas: evita gastar por impulso.",
+            "dica": "Procure a atitude que evita a compra por impulso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruno quer um boné de R$ 36,00 e guarda R$ 6,00 por semana. Em quantas semanas ele consegue?",
+            "alternativas": [
+              "5 semanas",
+              "6 semanas",
+              "30 semanas",
+              "42 semanas"
+            ],
+            "correta": 1,
+            "explicacao": "R$ 36,00 ÷ R$ 6,00 = 6. Conferindo: 6 × 6 = 36.",
+            "dica": "Quantas vezes o 6 cabe dentro do 36?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Maya recebe R$ 40,00 por mês e usa a divisão 50% para gastar, 40% para guardar e 10% para ajudar. Quanto ela guarda em 3 meses?",
+            "alternativas": [
+              "R$ 48,00",
+              "R$ 60,00",
+              "R$ 16,00",
+              "R$ 120,00"
+            ],
+            "correta": 0,
+            "explicacao": "10% de R$ 40,00 é R$ 4,00, então 40% é 4 × R$ 4,00 = R$ 16,00 por mês. Em 3 meses: 3 × R$ 16,00 = R$ 48,00. R$ 60,00 seria usando os 50%, que são para gastar.",
+            "dica": "Ache 10% de R$ 40,00, use isso para achar 40% e depois multiplique pelos meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gui já tem R$ 18,00 no cofrinho e guarda R$ 7,00 por semana. Ele quer um jogo de R$ 60,00. Em quantas semanas, no mínimo, ele consegue?",
+            "alternativas": [
+              "9 semanas",
+              "8 semanas",
+              "6 semanas",
+              "7 semanas"
+            ],
+            "correta": 2,
+            "explicacao": "Faltam R$ 60,00 − R$ 18,00 = R$ 42,00. R$ 42,00 ÷ R$ 7,00 = 6 semanas. A pegadinha é esquecer o que já está no cofrinho.",
+            "dica": "Primeiro calcule quanto ainda falta, considerando o que já está no cofrinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Iara recebe R$ 20,00 por semana. Gasta R$ 8,00, dá R$ 2,00 para ajudar alguém e guarda o resto. Depois de 5 semanas, tirou R$ 15,00 do cofrinho para um presente. Quanto ficou guardado?",
+            "alternativas": [
+              "R$ 50,00",
+              "R$ 25,00",
+              "R$ 85,00",
+              "R$ 35,00"
+            ],
+            "correta": 3,
+            "explicacao": "Por semana ela guarda 20 − 8 − 2 = R$ 10,00. Em 5 semanas: R$ 50,00. Tirando o presente: R$ 50,00 − R$ 15,00 = R$ 35,00.",
+            "dica": "Ache quanto ela guarda por semana, multiplique pelas semanas e só depois desconte o presente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre guardar no cofrinho e numa conta poupança?",
+            "alternativas": [
+              "Na poupança o dinheiro dobra todo mês",
+              "Na poupança o banco paga um pouco de rendimento pelo dinheiro guardado",
+              "O cofrinho paga juros maiores que o banco",
+              "Na poupança o dinheiro some se não for usado"
+            ],
+            "correta": 1,
+            "explicacao": "No cofrinho o dinheiro fica parado. Na poupança, o banco paga um pequeno rendimento. Ninguém dobra o dinheiro todo mês: isso é promessa de golpe.",
+            "dica": "Releia o aprofundamento: o que acontece com o dinheiro dentro do cofrinho e no banco?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que fazer ao ver na loja algo que você não tinha planejado comprar:",
+            "itens": [
+              "Perceber que é uma vontade de impulso",
+              "Esperar 24 horas",
+              "Ver se ainda quer e se cabe no plano",
+              "Comprar só se couber; se não couber, transformar em meta"
+            ],
+            "explicacao": "Primeiro você reconhece a vontade, depois dá um tempo, depois pensa com calma e só então decide.",
+            "dica": "Primeiro reconhecer a vontade, depois dar tempo, depois decidir."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Condição: se… senão",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Na programação, muitas vezes o computador precisa tomar uma decisão. Para isso usamos a condição: SE algo for verdade, faça uma coisa; SENÃO, faça outra.",
+          "Você já usa condições todo dia: SE estiver chovendo, levo guarda-chuva; SENÃO, deixo em casa. A pergunta do meio (está chovendo?) só tem duas respostas: sim ou não.",
+          "Um jogo de celular usa condições o tempo todo: SE a vida do personagem chegar a zero, mostra “fim de jogo”; SENÃO, o jogo continua.",
+          "A condição precisa ser uma pergunta clara, que dê para responder com verdadeiro ou falso. “A nota é maior ou igual a 6?” é uma boa condição. “A nota é bonita?” não é."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva um algoritmo para decidir se a Bia pode sair para brincar.",
+            "resolucao": "SE a lição de casa estiver pronta, ENTÃO a Bia pode sair. SENÃO, ela termina a lição primeiro."
+          },
+          {
+            "enunciado": "Uma catraca de ônibus lê o cartão. Como ela decide?",
+            "resolucao": "SE o cartão tiver saldo, a catraca libera. SENÃO, aparece a mensagem “saldo insuficiente”."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma condição pode ter outra condição dentro dela. Exemplo: SE estiver chovendo, ENTÃO (SE tiver guarda-chuva, saio; SENÃO, espero). Isso se chama condição aninhada, e cada pergunta continua tendo só duas respostas.",
+        "Também dá para juntar duas perguntas numa só com E e OU. Com E, as duas partes precisam ser verdadeiras: SE tem saldo E a catraca está ligada, libera. Com OU, basta uma ser verdadeira: SE é sábado OU domingo, não tem aula.",
+        "Os sinais de comparação mais usados são: maior que (>), menor que (<), igual (=), maior ou igual (≥) e menor ou igual (≤). Trocar > por ≥ muda o resultado quando os dois números são iguais."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra usamos para o computador tomar uma decisão?",
+            "alternativas": [
+              "REPITA",
+              "SE",
+              "PARE",
+              "SOMA"
+            ],
+            "correta": 1,
+            "explicacao": "A condição começa com SE: SE algo for verdade, faça uma coisa; SENÃO, faça outra.",
+            "dica": "É a palavra que começa a pergunta da condição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE chover, levo guarda-chuva; SENÃO, deixo em casa. Hoje não choveu. O que faço?",
+            "alternativas": [
+              "Levo o guarda-chuva",
+              "Compro outro guarda-chuva",
+              "Deixo o guarda-chuva em casa",
+              "Fico em casa o dia todo"
+            ],
+            "correta": 2,
+            "explicacao": "Não choveu, então a condição é falsa e vale o SENÃO: deixar o guarda-chuva em casa.",
+            "dica": "Quando a condição é falsa, vale a parte do SENÃO."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas respostas tem a pergunta “está chovendo?”",
+            "alternativas": [
+              "Duas: sim ou não",
+              "Uma só",
+              "Dez",
+              "Nenhuma"
+            ],
+            "correta": 0,
+            "explicacao": "A pergunta de uma condição só pode dar sim (verdadeiro) ou não (falso).",
+            "dica": "Pense: dá para responder essa pergunta com algo diferente de sim ou não?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No jogo, SE a vida chegar a zero, aparece “fim de jogo”. A vida está em 3. O que acontece?",
+            "alternativas": [
+              "Aparece “fim de jogo”",
+              "O celular desliga",
+              "A vida vira zero",
+              "O jogo continua"
+            ],
+            "correta": 3,
+            "explicacao": "3 não é zero, então a condição é falsa e o jogo continua.",
+            "dica": "3 é igual a zero? Se não for, a condição é falsa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma boa condição para um programa?",
+            "alternativas": [
+              "A prova foi chata?",
+              "A nota é maior ou igual a 6?",
+              "A nota é bonita?",
+              "O professor é legal?"
+            ],
+            "correta": 1,
+            "explicacao": "Só a pergunta sobre a nota tem resposta clara de verdadeiro ou falso. As outras dependem da opinião.",
+            "dica": "Escolha a pergunta que qualquer pessoa responderia igual, sem depender de opinião."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "SE a temperatura for maior que 30 graus, ligue o ventilador; SENÃO, deixe desligado. Hoje fez 25 graus. O que acontece?",
+            "alternativas": [
+              "O ventilador liga",
+              "O ventilador fica desligado",
+              "O ventilador liga e desliga",
+              "Nada, o algoritmo trava"
+            ],
+            "correta": 1,
+            "explicacao": "25 não é maior que 30, então a condição é falsa e vale a parte do SENÃO: o ventilador fica desligado.",
+            "dica": "Compare 25 com 30. A condição é verdadeira ou falsa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma boa condição para um programa?",
+            "alternativas": [
+              "O dia está legal?",
+              "A música é boa?",
+              "O saldo é maior que R$ 5,00?",
+              "O lanche é gostoso?"
+            ],
+            "correta": 2,
+            "explicacao": "“O saldo é maior que R$ 5,00?” tem resposta clara: verdadeiro ou falso. As outras dependem da opinião de cada um.",
+            "dica": "Uma boa condição tem resposta que não depende da opinião de ninguém."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE a nota for maior ou igual a 6, mostre “aprovado”; SENÃO, mostre “recuperação”. A nota foi 6. O que aparece?",
+            "alternativas": [
+              "recuperação",
+              "aprovado",
+              "As duas mensagens",
+              "Nenhuma mensagem"
+            ],
+            "correta": 1,
+            "explicacao": "6 é igual a 6, e a condição diz “maior OU igual”. Então a condição é verdadeira e aparece “aprovado”.",
+            "dica": "Atenção ao “ou igual”: 6 é maior ou igual a 6?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas respostas possíveis tem a pergunta de uma condição simples?",
+            "alternativas": [
+              "Uma",
+              "Três",
+              "Quantas quiser",
+              "Duas: verdadeiro ou falso"
+            ],
+            "correta": 3,
+            "explicacao": "A condição sempre vira verdadeiro ou falso. Se for verdadeiro, faz o SE; se for falso, faz o SENÃO.",
+            "dica": "Pense no que acontece no SE e no que acontece no SENÃO."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo do semáforo para pedestres:",
+            "itens": [
+              "Olhar a cor do sinal",
+              "SE estiver verde, atravessar a rua",
+              "SENÃO, esperar na calçada",
+              "Olhar de novo o sinal"
+            ],
+            "explicacao": "Primeiro olhamos o sinal (a informação), depois vem a condição (SE verde, atravessa; SENÃO, espera) e, se esperou, olhamos de novo.",
+            "dica": "Primeiro pegamos a informação; depois decidimos; se esperou, conferimos de novo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "SE o saldo do cartão for maior ou igual a R$ 5,00, a catraca libera; SENÃO, mostra “saldo insuficiente”. Ana tem R$ 4,90, Beto tem R$ 5,00 e Caio tem R$ 12,00. Quem passa?",
+            "alternativas": [
+              "Só Caio",
+              "Beto e Caio",
+              "Os três",
+              "Só Ana"
+            ],
+            "correta": 1,
+            "explicacao": "Beto (5,00 é igual a 5,00) e Caio (12,00 é maior) passam. Ana tem 4,90, que é menor que 5,00.",
+            "dica": "Compare cada saldo com R$ 5,00 e lembre que o “igual” também vale."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE a nota for MAIOR QUE 6, aparece “aprovado”; SENÃO, aparece “recuperação”. Lucas tirou 6. O que aparece?",
+            "alternativas": [
+              "aprovado",
+              "As duas mensagens",
+              "recuperação",
+              "Nenhuma mensagem"
+            ],
+            "correta": 2,
+            "explicacao": "Aqui a condição é só “maior que”. 6 não é maior que 6, então a condição é falsa e vale o SENÃO.",
+            "dica": "Aqui não tem o “ou igual”. 6 é maior que 6?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE tem saldo E a catraca está ligada, libera. O cartão tem saldo, mas a catraca está desligada. Libera?",
+            "alternativas": [
+              "Sim, porque tem saldo",
+              "Sim, porque uma parte é verdadeira",
+              "Libera só pela metade",
+              "Não, porque com E as duas partes precisam ser verdadeiras"
+            ],
+            "correta": 3,
+            "explicacao": "Com E, basta uma parte falsa para a condição inteira ficar falsa. A catraca desligada já impede.",
+            "dica": "Com E, não basta uma parte ser verdadeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE a temperatura for MENOR QUE 15 graus, o painel mostra “leve casaco”; SENÃO, mostra “sem casaco”. Em qual destas temperaturas aparece “leve casaco”?",
+            "alternativas": [
+              "12 graus",
+              "15 graus",
+              "20 graus",
+              "18 graus"
+            ],
+            "correta": 0,
+            "explicacao": "Só 12 é menor que 15. O próprio 15 não é menor que 15, então mostraria “sem casaco”.",
+            "dica": "Só vale número abaixo de 15; cuidado, o próprio 15 não é menor que ele mesmo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo da porta automática do mercado:",
+            "itens": [
+              "O sensor procura alguém na frente da porta",
+              "SE tiver alguém, abrir a porta",
+              "SENÃO, manter a porta fechada",
+              "Voltar a procurar alguém"
+            ],
+            "explicacao": "Primeiro o sensor pega a informação, depois vem a decisão (SE abre, SENÃO fica fechada) e então ele volta a olhar.",
+            "dica": "O sensor precisa primeiro ver; depois vem a decisão com SE e SENÃO."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "SE a idade for maior ou igual a 12 E a altura for maior ou igual a 1,40 m, pode ir no brinquedo. Rui: 13 anos e 1,38 m. Lia: 12 anos e 1,40 m. Téo: 11 anos e 1,50 m. Quem pode ir?",
+            "alternativas": [
+              "Só Rui",
+              "Só Lia",
+              "Lia e Téo",
+              "Os três"
+            ],
+            "correta": 1,
+            "explicacao": "Rui falha na altura (1,38 é menor que 1,40). Téo falha na idade (11 é menor que 12). Lia passa nas duas, porque o “igual” vale.",
+            "dica": "Com E, as duas exigências valem juntas. Confira cada pessoa nas duas e cuidado com o “igual”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE chover, ENTÃO (SE tiver guarda-chuva, sai; SENÃO, espera). SENÃO, sai. Está chovendo e Ana não tem guarda-chuva. O que ela faz?",
+            "alternativas": [
+              "Espera",
+              "Sai",
+              "Sai e depois espera",
+              "Compra um guarda-chuva"
+            ],
+            "correta": 0,
+            "explicacao": "Chove: entramos na primeira parte. Lá dentro, ela não tem guarda-chuva: vale o SENÃO de dentro, que é esperar.",
+            "dica": "Resolva a primeira pergunta e, só dentro dela, a segunda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE for sábado OU feriado, a padaria abre às 8h; SENÃO, abre às 6h. Hoje é quarta-feira e é feriado. Que horas a padaria abre?",
+            "alternativas": [
+              "6h",
+              "Não abre",
+              "8h",
+              "7h"
+            ],
+            "correta": 2,
+            "explicacao": "Não é sábado, mas é feriado. Com OU, basta uma parte verdadeira para a condição ser verdadeira: abre no horário do SE.",
+            "dica": "Com OU, basta uma das partes ser verdadeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja dá desconto SE a compra passar de R$ 50,00 OU o cliente tiver cartão fidelidade. Quem NÃO ganha desconto?",
+            "alternativas": [
+              "Compra de R$ 70,00 sem cartão",
+              "Compra de R$ 30,00 com cartão",
+              "Compra de R$ 80,00 com cartão",
+              "Compra de R$ 50,00 sem cartão"
+            ],
+            "correta": 3,
+            "explicacao": "R$ 50,00 não passa de R$ 50,00 (é igual) e o cliente não tem cartão: as duas partes são falsas, então não ganha.",
+            "dica": "“Passar de” é só maior, sem o igual. Com OU, só falha quando as duas partes são falsas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nota = 7. SE nota ≥ 9, mostra “ótimo”; SENÃO, SE nota ≥ 6, mostra “bom”; SENÃO, mostra “estude mais”. O que aparece?",
+            "alternativas": [
+              "ótimo",
+              "bom",
+              "estude mais",
+              "bom e ótimo"
+            ],
+            "correta": 1,
+            "explicacao": "7 ≥ 9 é falso, então vamos ao SENÃO. Lá, 7 ≥ 6 é verdadeiro: aparece a segunda mensagem e o programa para ali.",
+            "dica": "Teste a primeira condição; só se ela for falsa você passa para a segunda."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O cofrinho de vidro da Júlia",
+    "texto": "Júlia tinha um cofrinho de vidro em cima da cômoda. Dava para ver cada moeda lá dentro, e isso era, ao mesmo tempo, bom e perigoso.\n\nBom, porque ela acompanhava o dinheiro crescer. Perigoso, porque toda vez que passava a pé pela padaria, lembrava das moedas e sentia vontade de gastar.\n\nUm dia, a avó deu uma ideia: colar no vidro uma folha com o desenho de uma bicicleta e uma régua dividida em dez partes. A cada R$ 10,00 guardados, Júlia pintava uma parte.\n\nQuando pintou a primeira parte, ficou feliz. Quando chegou à metade, quase desistiu por causa de um sorvete. Mas olhou a régua e pensou: já tenho 5/10, isso é metade do caminho.\n\nNo fim do ano, a régua estava toda pintada. A bicicleta não era nova, era usada, mas era dela. E foi comprada com paciência."
+  },
+  "escrita": {
+    "proposta": "Pense em algo que você gostaria de juntar dinheiro para comprar. Escreva de 5 a 8 linhas no caderno contando o que é, quanto custa (pode ser um valor aproximado) e como você faria uma “régua” igual à da Júlia para acompanhar o seu progresso."
+  }
+}

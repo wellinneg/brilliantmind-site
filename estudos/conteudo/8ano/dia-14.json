@@ -1,0 +1,1196 @@
+{
+  "dia": 14,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Equações do 1º grau: a balança equilibrada",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Uma equação é uma igualdade com um valor desconhecido, a incógnita, normalmente chamada de x. Resolver a equação é descobrir o número que torna a igualdade verdadeira.",
+          "Pense numa balança equilibrada: o que você fizer de um lado, precisa fazer do outro. Assim ela continua equilibrada, e a igualdade continua valendo.",
+          "O objetivo é isolar o x. Use operações inversas: o que está somando passa subtraindo, o que está multiplicando passa dividindo, e vice-versa.",
+          "No fim, sempre confira: troque o x pelo valor encontrado e veja se os dois lados dão o mesmo resultado.",
+          "Problemas viram equações. \"Pensei num número, multipliquei por 3, somei 5 e deu 26\" vira 3x + 5 = 26."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Resolva 3x + 5 = 26.",
+            "resolucao": "Tire 5 dos dois lados: 3x = 21. Divida os dois lados por 3: x = 7. Conferindo: 3·7 + 5 = 21 + 5 = 26."
+          },
+          {
+            "enunciado": "Uma corrida de aplicativo cobra R$ 4 de taxa mais R$ 2,50 por km. A corrida deu R$ 29. Quantos km foram percorridos?",
+            "resolucao": "4 + 2,5k = 29. Tirando 4: 2,5k = 25. Dividindo por 2,5: k = 10. Foram 10 km. Conferindo: 4 + 2,5·10 = 4 + 25 = 29."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Com x dos dois lados, junte os termos com x de um lado e os números do outro. 7x − 4 = 3x + 12: tirando 3x dos dois lados, 4x − 4 = 12; somando 4, 4x = 16; dividindo por 4, x = 4.",
+        "Com frações, multiplique todos os termos pelo mesmo número para sumir com os denominadores. x/3 + 2 = 6: multiplicando tudo por 3, x + 6 = 18, e x = 12.",
+        "Algumas equações não têm solução, e outras têm infinitas. Em 2x + 1 = 2x + 5, os x somem e sobra 1 = 5, que é falso: nenhum número serve. Em 3(x + 1) = 3x + 3, sobra 3 = 3, verdadeiro para qualquer número."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na equação x + 3 = 10, quanto vale x?",
+            "alternativas": [
+              "13",
+              "7",
+              "3",
+              "30"
+            ],
+            "correta": 1,
+            "explicacao": "Que número somado com 3 dá 10? É o 7. Tirando 3 dos dois lados: x = 10 − 3 = 7.",
+            "dica": "Que número somado com 3 dá 10?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolver uma equação é:",
+            "alternativas": [
+              "descobrir o valor da incógnita",
+              "desenhar uma balança",
+              "somar todos os números",
+              "escrever a resposta em inglês"
+            ],
+            "correta": 0,
+            "explicacao": "Resolver é descobrir o número (a incógnita, normalmente x) que deixa a igualdade verdadeira.",
+            "dica": "Lembre do que a lição chama de incógnita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 2x = 12, quanto vale x?",
+            "alternativas": [
+              "24",
+              "10",
+              "6",
+              "14"
+            ],
+            "correta": 2,
+            "explicacao": "O 2 está multiplicando o x; dividimos os dois lados por 2: x = 12 ÷ 2 = 6.",
+            "dica": "O 2 está multiplicando; passe dividindo para o outro lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A operação inversa da soma é:",
+            "alternativas": [
+              "a multiplicação",
+              "a divisão",
+              "a potência",
+              "a subtração"
+            ],
+            "correta": 3,
+            "explicacao": "A subtração desfaz a soma: o que está somando passa subtraindo.",
+            "dica": "O que desfaz um \"mais\"?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de achar o valor de x, devemos:",
+            "alternativas": [
+              "apagar a conta",
+              "conferir trocando o x pelo valor",
+              "mudar a equação",
+              "chutar outro número"
+            ],
+            "correta": 1,
+            "explicacao": "Conferir é trocar o x pelo valor e ver se os dois lados dão o mesmo resultado.",
+            "dica": "A lição termina com um passo para ter certeza da resposta."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a solução de x + 9 = 15?",
+            "alternativas": [
+              "24",
+              "6",
+              "9",
+              "−6"
+            ],
+            "correta": 1,
+            "explicacao": "Tire 9 dos dois lados: x = 15 − 9 = 6. Conferindo: 6 + 9 = 15.",
+            "dica": "Que operação desfaz o \"+ 9\"? Faça dos dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 4x − 7 = 13.",
+            "alternativas": [
+              "x = 5",
+              "x = 1,5",
+              "x = 20",
+              "x = 6"
+            ],
+            "correta": 0,
+            "explicacao": "Some 7 aos dois lados: 4x = 20. Divida por 4: x = 5. Conferindo: 4·5 − 7 = 20 − 7 = 13.",
+            "dica": "Primeiro desfaça o \"− 7\", depois a multiplicação por 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 2(x + 3) = 18.",
+            "alternativas": [
+              "x = 7,5",
+              "x = 12",
+              "x = 6",
+              "x = 9"
+            ],
+            "correta": 2,
+            "explicacao": "Aplicando a distributiva: 2x + 6 = 18. Tirando 6: 2x = 12. Dividindo por 2: x = 6. Outro caminho: divida tudo por 2 primeiro (x + 3 = 9) e chegue ao mesmo x = 6.",
+            "dica": "Distribua o 2 no parêntese ou divida os dois lados por 2."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para resolver 5x + 2 = 3x + 10:",
+            "itens": [
+              "Subtrair 3x dos dois lados: 2x + 2 = 10",
+              "Subtrair 2 dos dois lados: 2x = 8",
+              "Dividir os dois lados por 2: x = 4",
+              "Conferir: 5·4 + 2 = 22 e 3·4 + 10 = 22"
+            ],
+            "explicacao": "Primeiro juntamos os termos com x de um lado, depois os números do outro, então isolamos o x e, por fim, conferimos.",
+            "dica": "Junte os x de um lado e os números do outro antes de isolar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tem o dobro da idade do irmão. Somadas, as idades dão 36. Quantos anos tem o irmão?",
+            "alternativas": [
+              "18",
+              "12",
+              "24",
+              "9"
+            ],
+            "correta": 1,
+            "explicacao": "Irmão = x, Ana = 2x. Então x + 2x = 36, ou seja, 3x = 36 e x = 12. Ana tem 24. Conferindo: 12 + 24 = 36, e 24 é o dobro de 12.",
+            "dica": "Chame a idade do irmão de x; Ana tem o dobro."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 6x − 5 = 2x + 15.",
+            "alternativas": [
+              "x = 5",
+              "x = 2,5",
+              "x = 10",
+              "x = 20"
+            ],
+            "correta": 0,
+            "explicacao": "Tirando 2x: 4x − 5 = 15. Somando 5: 4x = 20. Dividindo por 4: x = 5. Conferindo: 6·5 − 5 = 25 e 2·5 + 15 = 25.",
+            "dica": "Tire 2x dos dois lados e depois some 5 aos dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um plano de celular cobra R$ 40 fixos mais R$ 0,50 por minuto extra. A conta deu R$ 58. Quantos minutos extras foram usados?",
+            "alternativas": [
+              "116",
+              "36",
+              "18",
+              "9"
+            ],
+            "correta": 1,
+            "explicacao": "40 + 0,5m = 58. Tirando 40: 0,5m = 18. Dividindo por 0,5: m = 36. Conferindo: 40 + 0,5·36 = 40 + 18 = 58. O 18 é o valor em reais, não os minutos.",
+            "dica": "Monte a equação com a parte fixa e a parte por minuto; depois isole a incógnita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A soma de três números consecutivos é 75. Qual é o MAIOR deles?",
+            "alternativas": [
+              "25",
+              "24",
+              "26",
+              "27"
+            ],
+            "correta": 2,
+            "explicacao": "x + (x + 1) + (x + 2) = 75 → 3x + 3 = 75 → 3x = 72 → x = 24. Os números são 24, 25 e 26; o maior é 26. A pegadinha é responder o menor.",
+            "dica": "Chame o menor de x; os próximos são x + 1 e x + 2. Atenção: a pergunta quer o maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O perímetro de um retângulo é 50 cm, e o comprimento tem 5 cm a mais que a largura. Qual é a largura?",
+            "alternativas": [
+              "15 cm",
+              "12,5 cm",
+              "20 cm",
+              "10 cm"
+            ],
+            "correta": 3,
+            "explicacao": "Largura l, comprimento l + 5. Perímetro: 2l + 2(l + 5) = 4l + 10 = 50 → 4l = 40 → l = 10. O comprimento é 15. Conferindo: 10 + 15 + 10 + 15 = 50.",
+            "dica": "O perímetro soma os quatro lados; escreva tudo em função da largura."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para resolver 3(x − 2) = 2x + 4:",
+            "itens": [
+              "Distribuir: 3x − 6 = 2x + 4",
+              "Subtrair 2x dos dois lados: x − 6 = 4",
+              "Somar 6 aos dois lados: x = 10",
+              "Conferir: 3·(10 − 2) = 24 e 2·10 + 4 = 24"
+            ],
+            "explicacao": "Primeiro desfazemos o parêntese, depois juntamos os x de um lado, isolamos o x e conferimos.",
+            "dica": "Comece desfazendo o parêntese; depois junte os x e, no fim, isole e confira."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva x/2 + x/3 = 10.",
+            "alternativas": [
+              "12",
+              "6",
+              "60",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "Multiplicando tudo por 6: 3x + 2x = 60 → 5x = 60 → x = 12. Conferindo: 12/2 + 12/3 = 6 + 4 = 10.",
+            "dica": "Multiplique todos os termos por um número que elimine os dois denominadores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual equação NÃO tem solução?",
+            "alternativas": [
+              "2x + 1 = x + 5",
+              "3(x + 1) = 3x + 3",
+              "2x + 1 = 2x + 5",
+              "x − 4 = 0"
+            ],
+            "correta": 2,
+            "explicacao": "Em 2x + 1 = 2x + 5, tirando 2x dos dois lados sobra 1 = 5, que é falso. A 3(x + 1) = 3x + 3 vale para qualquer número, e as outras têm uma solução (x = 4 em ambas).",
+            "dica": "Tente juntar os x: se eles sumirem e sobrar uma igualdade falsa, nenhum número serve."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pai tem 40 anos e o filho, 10. Daqui a quantos anos o pai terá o dobro da idade do filho?",
+            "alternativas": [
+              "10",
+              "20",
+              "30",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "Daqui a t anos: 40 + t = 2(10 + t) → 40 + t = 20 + 2t → t = 20. Conferindo: o pai terá 60 e o filho 30, e 60 é o dobro de 30.",
+            "dica": "Some o mesmo número de anos às duas idades e monte a igualdade do dobro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quatro amigos dividiram uma pizza igualmente. Se fossem cinco, cada um pagaria R$ 6 a menos. Qual é o preço da pizza?",
+            "alternativas": [
+              "R$ 30",
+              "R$ 24",
+              "R$ 60",
+              "R$ 120"
+            ],
+            "correta": 3,
+            "explicacao": "p/4 − p/5 = 6. Multiplicando por 20: 5p − 4p = 120 → p = 120. Conferindo: 120 ÷ 4 = 30 e 120 ÷ 5 = 24; a diferença é 6.",
+            "dica": "Escreva a parte de cada um nos dois casos e iguale a diferença a 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao resolver 5 − 2x = 11, Bia achou x = 3. Qual é a solução certa?",
+            "alternativas": [
+              "x = 3",
+              "x = −3",
+              "x = 8",
+              "x = −8"
+            ],
+            "correta": 1,
+            "explicacao": "Tirando 5: −2x = 6. Dividindo por −2: x = −3. Conferindo: 5 − 2·(−3) = 5 + 6 = 11. Bia esqueceu o sinal de menos que acompanha o 2x.",
+            "dica": "Ao dividir pelo número que acompanha o x, não esqueça o sinal de menos que vem junto dele."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Listas e repetição",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma lista é uma variável que guarda vários valores em ordem. Em Python, por exemplo: notas = [7, 8.5, 6, 9].",
+          "Cada item tem uma posição, chamada índice. Em muitas linguagens, como Python e JavaScript, a contagem começa em 0: notas[0] é 7 e notas[3] é 9.",
+          "len(notas) devolve o tamanho da lista (aqui, 4). Para acrescentar um item no fim, usa-se notas.append(10).",
+          "A repetição percorre a lista item por item: for n in notas (\"para cada n em notas\"). Você escreve o comando uma vez só, e ele funciona para uma lista de 4 ou de 4.000 itens.",
+          "Um padrão muito usado é o acumulador: cria-se total = 0 antes do laço, soma-se cada item dentro do laço e usa-se o resultado depois dele, por exemplo para calcular a média."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "total = 0\nfor n in [5, 8, 7]:\n    total = total + n\nprint(total)\nO que aparece na tela?",
+            "resolucao": "O laço passa por 5, 8 e 7. O total vai de 0 para 5, depois para 13 e depois para 20. Na tela aparece 20."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Em Python, índices negativos contam de trás para frente: notas[-1] é o último item e notas[-2], o penúltimo. Tentar acessar um índice que não existe, como notas[10] numa lista de 4 itens, dá erro (IndexError).",
+        "range gera sequências de números: for i in range(5) repete com i valendo 0, 1, 2, 3 e 4 (cinco vezes, sem incluir o 5). range(1, 4) gera 1, 2 e 3.",
+        "Dentro do laço dá para usar if: contar quantas notas são maiores ou iguais a 6, achar o maior valor guardando \"o melhor até agora\" ou montar uma lista nova só com os itens que interessam."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lista guarda:",
+            "alternativas": [
+              "um valor só",
+              "vários valores em ordem",
+              "só textos",
+              "só senhas"
+            ],
+            "correta": 1,
+            "explicacao": "Uma lista guarda vários valores, um depois do outro, como [7, 8.5, 6, 9].",
+            "dica": "Pense numa lista de compras: quantos itens cabem nela?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, a contagem dos índices de uma lista começa em:",
+            "alternativas": [
+              "0",
+              "1",
+              "10",
+              "−1"
+            ],
+            "correta": 0,
+            "explicacao": "O primeiro item tem índice 0: notas[0]. Por isso o último item de uma lista de 4 tem índice 3.",
+            "dica": "Lembre qual índice a lição usou para o primeiro item das notas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que len(lista) mostra?",
+            "alternativas": [
+              "O maior item",
+              "O último item",
+              "O tamanho da lista",
+              "A soma dos itens"
+            ],
+            "correta": 2,
+            "explicacao": "len mostra quantos itens a lista tem. Para [7, 8.5, 6, 9], len dá 4.",
+            "dica": "len vem de length, que quer dizer comprimento em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para acrescentar o valor 10 no fim da lista notas, usa-se:",
+            "alternativas": [
+              "notas.remove(10)",
+              "notas.len(10)",
+              "notas.print(10)",
+              "notas.append(10)"
+            ],
+            "correta": 3,
+            "explicacao": "append acrescenta um item no fim da lista. remove tira um item.",
+            "dica": "É a palavra em inglês para \"anexar\" ou \"acrescentar\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O laço for n in notas serve para:",
+            "alternativas": [
+              "apagar a lista",
+              "passar por cada item da lista",
+              "ordenar as notas",
+              "criar uma senha"
+            ],
+            "correta": 1,
+            "explicacao": "O for passa pelos itens um por um: na primeira volta n vale o primeiro, na segunda, o segundo, e assim por diante.",
+            "dica": "Leia em português: para cada n em notas."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em compras = [\"arroz\", \"feijão\", \"leite\"], qual é o valor de compras[1]?",
+            "alternativas": [
+              "arroz",
+              "feijão",
+              "leite",
+              "dá erro"
+            ],
+            "correta": 1,
+            "explicacao": "A contagem começa em 0: compras[0] é arroz, compras[1] é feijão e compras[2] é leite.",
+            "dica": "Conte a partir do zero: arroz é o índice 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos itens tem a lista [3, 6, 9, 12, 15]? Ou seja, quanto dá len dessa lista?",
+            "alternativas": [
+              "15",
+              "4",
+              "5",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "São 5 itens. O índice do último é 4 (porque começa em 0), mas o tamanho é 5. Não confunda posição com quantidade.",
+            "dica": "Conte os itens, não os índices."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0; para cada n em [2, 4, 6]: total = total + n; depois print(total). O que aparece?",
+            "alternativas": [
+              "6",
+              "246",
+              "0",
+              "12"
+            ],
+            "correta": 3,
+            "explicacao": "0 + 2 = 2; 2 + 4 = 6; 6 + 6 = 12. O 6 é só o último item, e 246 seria juntar como texto.",
+            "dica": "Acompanhe o total depois de cada volta do laço."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as linhas para calcular a média de uma lista de notas:",
+            "itens": [
+              "notas = [6, 8, 7]",
+              "total = 0",
+              "for n in notas: total = total + n",
+              "media = total / len(notas)",
+              "print(media)"
+            ],
+            "explicacao": "Primeiro os dados, depois o acumulador zerado, depois o laço que soma, depois a divisão pelo tamanho e, por último, mostrar. O resultado é 21 / 3 = 7.",
+            "dica": "Dados primeiro, depois o acumulador zerado, a soma no laço e só no fim a divisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a linha total = 0 fica ANTES do laço, e não dentro dele?",
+            "alternativas": [
+              "Porque, dentro, o total voltaria a zero em cada volta",
+              "Porque o computador lê de baixo para cima",
+              "Porque o zero não pode ficar dentro de laço",
+              "Tanto faz o lugar"
+            ],
+            "correta": 0,
+            "explicacao": "Tudo o que está dentro do laço se repete. Se total = 0 estivesse lá, a soma seria apagada a cada volta e sobraria só o último item.",
+            "dica": "O que acontece com tudo o que fica dentro de um laço?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "lista = [4, 9, 2, 7]. O que mostra print(lista[1] + lista[3])?",
+            "alternativas": [
+              "6",
+              "16",
+              "11",
+              "13"
+            ],
+            "correta": 1,
+            "explicacao": "lista[1] é 9 e lista[3] é 7 (contando do zero). 9 + 7 = 16. O 6 aparece quando se conta do 1 (4 + 2).",
+            "dica": "Ache os itens dos índices 1 e 3 contando a partir do zero e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [5, 7, 6, 4, 8] e c = 0. Para cada n em notas: se n >= 6, c = c + 1. Quanto vale c no final?",
+            "alternativas": [
+              "5",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "Passam no teste: 7, 6 e 8. São 3 notas. O 6 também conta, porque o sinal é maior OU igual.",
+            "dica": "Passe por cada nota e conte só as que são maiores ou iguais a 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "lista = [1, 2]. Depois: lista.append(5) e lista.append(1). Quanto dá len(lista)?",
+            "alternativas": [
+              "4",
+              "3",
+              "2",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "Cada append acrescenta um item: [1, 2, 5, 1]. São 4 itens. O 9 seria a soma dos itens, não o tamanho.",
+            "dica": "Cada append acrescenta um item no fim; conte quantos ficaram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece com for i in range(4): print(i)?",
+            "alternativas": [
+              "1 2 3 4",
+              "0 1 2 3 4",
+              "4",
+              "0 1 2 3"
+            ],
+            "correta": 3,
+            "explicacao": "range(4) gera 0, 1, 2 e 3: são quatro números, começando no zero e parando antes do 4.",
+            "dica": "range começa no zero e para antes do número dado."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as linhas para criar uma lista vazia, acrescentar arroz e depois feijão e, por fim, mostrar o tamanho (2):",
+            "itens": [
+              "itens = []",
+              "itens.append(\"arroz\")",
+              "itens.append(\"feijão\")",
+              "print(len(itens))"
+            ],
+            "explicacao": "A lista precisa existir antes de receber itens. Depois entram arroz e feijão, nessa ordem, e só então mostramos o tamanho, que é 2.",
+            "dica": "A lista precisa existir antes de receber itens; o tamanho só deve ser mostrado no fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [6, 8, 5, 9]. O que mostra print(notas[-1] - notas[-2])?",
+            "alternativas": [
+              "3",
+              "−4",
+              "4",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "notas[-1] é o último (9) e notas[-2] é o penúltimo (5). 9 − 5 = 4.",
+            "dica": "Índices negativos contam de trás para frente: −1 é o último."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "lista = [3, 8, 2, 8, 5] e maior = lista[0]. Para cada n em lista: se n > maior, então maior = n. Quantas vezes a linha maior = n é executada?",
+            "alternativas": [
+              "1",
+              "2",
+              "5",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "maior começa em 3. n = 3: 3 > 3 é falso. n = 8: verdadeiro, maior vira 8 (1ª vez). n = 2: falso. n = 8: 8 > 8 é falso. n = 5: falso. Só 1 vez. A pegadinha é contar o segundo 8.",
+            "dica": "Siga o laço item por item; lembre que um número não é maior que ele mesmo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0. Para cada i em range(1, 6): total = total + i. Quanto vale total?",
+            "alternativas": [
+              "21",
+              "15",
+              "10",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "range(1, 6) gera 1, 2, 3, 4 e 5 (para antes do 6). 1 + 2 + 3 + 4 + 5 = 15. O 21 incluiria o 6 por engano.",
+            "dica": "range(1, 6) começa em 1 e para antes do 6; some os números gerados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [7, 5, 9]. O que acontece com print(notas[3])?",
+            "alternativas": [
+              "Mostra 9",
+              "Mostra 7",
+              "Mostra 3",
+              "Dá erro, porque o índice 3 não existe"
+            ],
+            "correta": 3,
+            "explicacao": "Uma lista de 3 itens tem os índices 0, 1 e 2. O índice 3 não existe, e o Python avisa com um erro (IndexError).",
+            "dica": "Conte os índices de uma lista de 3 itens começando do zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [4, 7, 9, 5, 8]. Qual é a média só das notas maiores ou iguais a 6?",
+            "alternativas": [
+              "6,6",
+              "8",
+              "24",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "Passam no teste: 7, 9 e 8. Soma: 24. Quantidade: 3. Média: 24 ÷ 3 = 8. O 6,6 é a média de todas as notas (33 ÷ 5).",
+            "dica": "Use dois acumuladores: um para a soma e outro para a quantidade de notas que passam no teste."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Tabelas e imagens no Word",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Tabelas organizam informações em linhas e colunas dentro do texto: horário de aulas, comparação de preços, resultados de uma pesquisa.",
+          "Para criar: Inserir > Tabela e escolha quantas colunas e linhas. A primeira linha é o cabeçalho, em negrito. A tecla Tab pula para a próxima célula; Tab na última célula cria uma linha nova.",
+          "Em Design da Tabela há estilos prontos. Alinhe números à direita para facilitar a comparação e não exagere nas cores.",
+          "Para imagens: Inserir > Imagens, ajuste o tamanho pelo canto e escolha a Quebra de texto. \"Alinhado com o texto\" prende a imagem na linha, como se fosse uma letra, e é a opção que menos \"foge\" do lugar. \"Quadrado\" faz o texto contornar a figura.",
+          "Em Referências > Inserir Legenda, o Word numera sozinho \"Figura 1\", \"Tabela 1\" e assim por diante. Sempre cite a fonte das imagens que não são suas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como montar uma tabela comparando o preço do arroz em 3 mercados?",
+            "resolucao": "Inserir > Tabela com 2 colunas e 4 linhas. Linha 1: Mercado | Preço (R$). Linhas 2 a 4: um mercado e seu preço em cada. Cabeçalho em negrito, preços alinhados à direita e a legenda \"Tabela 1: preço do arroz (pacote de 5 kg)\"."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Mesclar células junta duas ou mais células em uma só, o que é útil para um título que ocupa a largura inteira da tabela. Dividir células faz o contrário. As duas opções ficam na guia Layout da tabela.",
+        "Em tabelas longas, use Layout > Repetir Linhas de Cabeçalho: se a tabela continuar em outra página, o cabeçalho aparece de novo no topo, e o leitor não se perde.",
+        "Texto alternativo: clique com o botão direito na imagem > Editar Texto Alt e descreva a figura. Leitores de tela, usados por pessoas com deficiência visual, leem essa descrição. Em Formato da Imagem > Compactar Imagens, o arquivo fica mais leve para mandar por e-mail."
+      ],
+      "desafio_pratico": "No Word (celular ou PC), crie um documento chamado \"Meu horário de estudos\". Insira uma tabela de 3 colunas e 6 linhas: na linha 1, Dia | Matéria | Tempo (min); nas linhas 2 a 6, de segunda a sexta. Deixe o cabeçalho em negrito e aplique um estilo de tabela. Depois, insira uma foto do seu espaço de estudo, ajuste pelo canto, use a quebra de texto Alinhado com o texto e adicione a legenda \"Figura 1: meu espaço de estudo\". Salve como horario-estudos.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Tabelas organizam informações em:",
+            "alternativas": [
+              "linhas e colunas",
+              "círculos",
+              "senhas",
+              "vídeos"
+            ],
+            "correta": 0,
+            "explicacao": "Uma tabela é uma grade de linhas (deitadas) e colunas (em pé), como um horário de aulas.",
+            "dica": "Pense na grade de um horário de aulas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para criar uma tabela no Word, usa-se:",
+            "alternativas": [
+              "Arquivo > Imprimir",
+              "Inserir > Tabela",
+              "Revisão > Ortografia",
+              "Exibir > Zoom"
+            ],
+            "correta": 1,
+            "explicacao": "Em Inserir > Tabela você escolhe quantas colunas e linhas quer.",
+            "dica": "Tabela é algo que você coloca dentro do documento; procure o menu de colocar coisas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A primeira linha de uma tabela costuma ser o:",
+            "alternativas": [
+              "rodapé",
+              "sumário",
+              "cabeçalho",
+              "índice"
+            ],
+            "correta": 2,
+            "explicacao": "O cabeçalho diz o que cada coluna significa e costuma ficar em negrito.",
+            "dica": "É a linha que diz o que cada coluna significa, em negrito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para mudar o tamanho de uma imagem sem deformar, arraste:",
+            "alternativas": [
+              "o meio dela",
+              "o texto ao lado",
+              "a barra de rolagem",
+              "o canto dela"
+            ],
+            "correta": 3,
+            "explicacao": "Arrastando pelo canto, a largura e a altura mudam juntas, na mesma proporção.",
+            "dica": "A lição diz para ajustar a imagem por um ponto específico."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se cria a legenda automática \"Figura 1\"?",
+            "alternativas": [
+              "Referências > Inserir Legenda",
+              "Inserir > Forma",
+              "Design > Cores",
+              "Página Inicial > Fonte"
+            ],
+            "correta": 0,
+            "explicacao": "Em Referências > Inserir Legenda, o Word numera as figuras e tabelas sozinho.",
+            "dica": "É o menu que cuida de citações, sumário e legendas."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Que tecla leva à próxima célula de uma tabela no Word?",
+            "alternativas": [
+              "Enter",
+              "Tab",
+              "Esc",
+              "Shift"
+            ],
+            "correta": 1,
+            "explicacao": "Tab avança para a próxima célula. Enter cria uma nova linha de texto dentro da mesma célula.",
+            "dica": "É a mesma tecla que pula de um campo para outro num formulário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma tabela com os 5 dias úteis da semana, mais uma linha de cabeçalho, precisa de quantas linhas?",
+            "alternativas": [
+              "6",
+              "5",
+              "7",
+              "4"
+            ],
+            "correta": 0,
+            "explicacao": "5 linhas para os dias + 1 para o cabeçalho = 6 linhas.",
+            "dica": "Conte uma linha para cada dia e não esqueça a linha do topo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual opção de quebra de texto deixa a imagem presa na linha, como se fosse uma letra?",
+            "alternativas": [
+              "Atrás do texto",
+              "Quadrado",
+              "Alinhado com o texto",
+              "Na frente do texto"
+            ],
+            "correta": 2,
+            "explicacao": "\"Alinhado com o texto\" trata a imagem como um caractere grande. Ela anda junto com o texto e não se solta sozinha pela página.",
+            "dica": "Procure a opção que trata a imagem como se fosse uma letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para numerar figuras automaticamente (Figura 1, Figura 2...), usa-se:",
+            "alternativas": [
+              "Digitar o número à mão sempre",
+              "Inserir > Forma",
+              "Página Inicial > Negrito",
+              "Referências > Inserir Legenda"
+            ],
+            "correta": 3,
+            "explicacao": "A legenda automática renumera tudo se você incluir ou apagar uma figura no meio do trabalho. À mão, é fácil errar a sequência.",
+            "dica": "Procure no menu que cuida de citações e sumário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num trabalho, você usou uma foto do site de um museu. O correto é:",
+            "alternativas": [
+              "Não dizer nada",
+              "Colocar na legenda a fonte da imagem",
+              "Dizer que a foto é sua",
+              "Recortar a marca d'água"
+            ],
+            "correta": 1,
+            "explicacao": "Citar a fonte respeita quem produziu a imagem e mostra ao professor de onde veio a informação.",
+            "dica": "Imagem feita por outra pessoa sempre precisa dizer de onde veio."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer comparar o preço de 4 produtos em 3 mercados, com uma linha de cabeçalho e uma coluna com os nomes dos produtos. Quantas linhas e colunas a tabela precisa ter?",
+            "alternativas": [
+              "4 linhas e 3 colunas",
+              "5 linhas e 4 colunas",
+              "4 linhas e 4 colunas",
+              "5 linhas e 3 colunas"
+            ],
+            "correta": 1,
+            "explicacao": "Linhas: 4 produtos + 1 cabeçalho = 5. Colunas: 1 para os nomes + 3 mercados = 4.",
+            "dica": "Some uma linha de cabeçalho aos produtos e uma coluna de nomes aos mercados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você está na última célula de uma tabela e aperta Tab. O que acontece?",
+            "alternativas": [
+              "O Word fecha",
+              "O texto é apagado",
+              "Uma nova linha é criada",
+              "A tabela vira imagem"
+            ],
+            "correta": 2,
+            "explicacao": "Tab na última célula cria uma linha nova no fim da tabela. É o jeito mais rápido de ir aumentando a tabela.",
+            "dica": "A lição fala de um comportamento especial do Tab na última célula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer que o texto contorne a foto pelos lados. Qual quebra de texto usar?",
+            "alternativas": [
+              "Alinhado com o texto",
+              "Quadrado",
+              "Atrás do texto",
+              "Na frente do texto"
+            ],
+            "correta": 1,
+            "explicacao": "Na quebra Quadrado, o texto contorna a figura. \"Alinhado com o texto\" prende a imagem na linha, como uma letra.",
+            "dica": "Procure a quebra que faz o texto \"abraçar\" a figura pelos lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num trabalho com 3 figuras numeradas por legenda automática, você apaga a Figura 2. O que acontece?",
+            "alternativas": [
+              "A Figura 3 some",
+              "Todas viram Figura 1",
+              "Nada pode ser feito",
+              "A antiga Figura 3 passa a ser a Figura 2 ao atualizar"
+            ],
+            "correta": 3,
+            "explicacao": "A legenda automática é um campo: ao atualizar (por exemplo, ao imprimir ou ao selecionar tudo e apertar F9), o Word renumera em sequência.",
+            "dica": "A vantagem da legenda automática é manter a numeração em sequência sem fazer à mão."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para montar uma tabela de preços bem-feita:",
+            "itens": [
+              "Inserir > Tabela com o número certo de linhas e colunas",
+              "Digitar o cabeçalho e os dados, usando Tab",
+              "Pôr o cabeçalho em negrito e alinhar os preços à direita",
+              "Inserir a legenda \"Tabela 1\""
+            ],
+            "explicacao": "Primeiro a estrutura, depois o conteúdo, depois a aparência e, por fim, a legenda.",
+            "dica": "Primeiro a estrutura, depois o conteúdo, depois a aparência e, por último, a identificação."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer que o título \"Horário\" ocupe a largura das 3 colunas da primeira linha. O que fazer?",
+            "alternativas": [
+              "Mesclar as células da primeira linha",
+              "Dividir as células",
+              "Apagar duas colunas",
+              "Usar a quebra de texto Quadrado"
+            ],
+            "correta": 0,
+            "explicacao": "Mesclar junta as 3 células da primeira linha em uma só, e o título fica centralizado sobre a tabela inteira. Apagar colunas estragaria o resto da tabela.",
+            "dica": "Você precisa transformar várias células em uma só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sua tabela ocupa 3 páginas. Como fazer o cabeçalho aparecer no topo de cada página?",
+            "alternativas": [
+              "Copiar e colar o cabeçalho à mão em cada página",
+              "Usar Repetir Linhas de Cabeçalho",
+              "Mesclar todas as células",
+              "Aumentar a fonte"
+            ],
+            "correta": 1,
+            "explicacao": "Repetir Linhas de Cabeçalho faz o Word mostrar a primeira linha em cada página, mesmo que a tabela mude de tamanho. Copiar à mão quebra quando a tabela muda.",
+            "dica": "Há uma opção em Layout que faz a primeira linha reaparecer sozinha em cada página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que um colega cego, que usa leitor de tela, entenda a foto do trabalho, você deve:",
+            "alternativas": [
+              "Deixar a imagem bem grande",
+              "Pôr a imagem atrás do texto",
+              "Adicionar um texto alternativo que descreva a imagem",
+              "Usar só imagens coloridas"
+            ],
+            "correta": 2,
+            "explicacao": "O leitor de tela lê palavras, não imagens. O texto alternativo descreve a figura para quem não pode vê-la.",
+            "dica": "O leitor de tela lê palavras, não imagens; onde ficam palavras ligadas à figura?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu documento cheio de fotos tem 25 MB, e o e-mail aceita no máximo 20 MB. O que fazer primeiro?",
+            "alternativas": [
+              "Apagar o texto",
+              "Mudar a fonte",
+              "Mesclar células",
+              "Compactar as imagens"
+            ],
+            "correta": 3,
+            "explicacao": "As fotos são o que mais pesa. Compactar Imagens diminui o tamanho delas sem tirar nada do conteúdo. Mexer no texto quase não muda o tamanho do arquivo.",
+            "dica": "O que mais pesa num documento cheio de fotos? Há uma opção no Formato da Imagem para isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma tabela tem 4 colunas e 7 linhas. Você mescla as 4 células da primeira linha para fazer um título. Quantas células a tabela passa a ter?",
+            "alternativas": [
+              "28",
+              "25",
+              "24",
+              "21"
+            ],
+            "correta": 1,
+            "explicacao": "Antes: 4 × 7 = 28 células. As 4 da primeira linha viram 1, ou seja, somem 3 células: 28 − 3 = 25. O 24 é a pegadinha de tirar a primeira linha inteira.",
+            "dica": "Conte as células antes; depois veja quantas células viraram uma só na primeira linha."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Escala: vender mais sem trabalhar mais",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Escalar um negócio é conseguir vender muito mais sem que o trabalho e os custos cresçam na mesma proporção. Quem faz tudo com as próprias mãos tem um limite: o dia só tem 24 horas.",
+          "Os custos são de dois tipos. Custo fixo é o que se paga mesmo sem vender nada (aluguel, internet, divulgação). Custo variável cresce a cada unidade produzida (ingredientes, embalagem). Quando a produção aumenta, o custo fixo se divide entre mais unidades, e o custo de cada uma cai.",
+          "Para crescer sem se esgotar, o empreendedor padroniza (escreve a receita e o passo a passo para qualquer pessoa repetir com a mesma qualidade), usa ferramentas que poupam tempo (cardápio digital, pedidos pelo celular, equipamento melhor) e delega, chamando outras pessoas para fazer parte do trabalho.",
+          "Delegar é multiplicar a produção com uma equipe tratada com respeito: combinado claro, pagamento justo e em dia e registro conforme a lei. Crescer com pessoas na informalidade ou mal pagas gera processo trabalhista, multa e perda dos melhores funcionários, e acaba destruindo o próprio negócio.",
+          "Atenção ao gargalo: é a etapa mais lenta, que segura todo o resto. Não adianta vender o dobro se o forno só assa 50 unidades por hora. E crescer exige dinheiro antes de o lucro chegar (mais ingredientes, mais embalagens), por isso é preciso planejar o caixa."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Bruna vende brigadeiros a R$ 2,50. Ela tem R$ 300 por mês de custo fixo (gás e divulgação) e R$ 0,80 de custo variável por unidade. Qual é o lucro vendendo 200 e vendendo 600 por mês?",
+            "resolucao": "200 unidades: receita 200 × 2,50 = R$ 500; custo 300 + 200 × 0,80 = 300 + 160 = R$ 460; lucro R$ 40. 600 unidades: receita 600 × 2,50 = R$ 1.500; custo 300 + 600 × 0,80 = 300 + 480 = R$ 780; lucro R$ 720. Vendendo 3 vezes mais, o lucro ficou 18 vezes maior, porque o custo fixo foi dividido entre mais brigadeiros."
+          },
+          {
+            "enunciado": "Quanto custa, em média, cada brigadeiro de Bruna nos dois casos?",
+            "resolucao": "200 unidades: 460 ÷ 200 = R$ 2,30 por brigadeiro. 600 unidades: 780 ÷ 600 = R$ 1,30 por brigadeiro. Essa queda do custo por unidade quando a produção aumenta se chama economia de escala."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Negócios digitais escalam com mais facilidade: um curso gravado, um aplicativo ou uma planilha modelo custam quase o mesmo para vender a 10 ou a 10.000 pessoas, porque o custo variável é quase zero. Já um corte de cabelo exige o mesmo tempo do profissional a cada cliente; para escalar, o salão precisa de mais profissionais e de processos.",
+        "Margem de contribuição é o que cada unidade deixa para pagar o custo fixo: preço menos custo variável. No brigadeiro de Bruna, 2,50 − 0,80 = R$ 1,70. Para cobrir os R$ 300 de custo fixo, ela precisa vender 300 ÷ 1,70 ≈ 176,5, ou seja, 177 brigadeiros. Daí para frente, cada venda gera R$ 1,70 de lucro.",
+        "Contratar também é escalar, mas com a conta feita: um ajudante registrado custa mais do que o salário, porque há encargos e direitos, como férias e 13º salário. A conta certa compara esse custo total com a produção a mais que ele permite. Se a margem da produção extra paga o custo e ainda sobra, a contratação faz o negócio crescer de forma legal e sustentável."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Escalar um negócio é:",
+            "alternativas": [
+              "vender muito mais sem o trabalho crescer na mesma proporção",
+              "subir uma escada",
+              "trabalhar 24 horas por dia",
+              "fechar a loja"
+            ],
+            "correta": 0,
+            "explicacao": "Escalar é crescer as vendas sem que o esforço e os custos cresçam no mesmo ritmo.",
+            "dica": "A ideia é crescer sem que o esforço cresça junto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Aluguel e internet, que se pagam mesmo sem vender nada, são custo:",
+            "alternativas": [
+              "variável",
+              "fixo",
+              "zero",
+              "extra"
+            ],
+            "correta": 1,
+            "explicacao": "Custo fixo não muda com a quantidade vendida: vendendo 10 ou 1.000, o aluguel é o mesmo.",
+            "dica": "É o custo que não muda com a quantidade vendida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ingredientes, que aumentam a cada unidade produzida, são custo:",
+            "alternativas": [
+              "fixo",
+              "de aluguel",
+              "variável",
+              "de imposto"
+            ],
+            "correta": 2,
+            "explicacao": "Custo variável cresce junto com a produção: mais brigadeiros, mais leite condensado.",
+            "dica": "Esse custo muda conforme a quantidade produzida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Delegar é:",
+            "alternativas": [
+              "fazer tudo sozinho",
+              "parar de trabalhar",
+              "mandar os clientes embora",
+              "passar parte do trabalho para outras pessoas"
+            ],
+            "correta": 3,
+            "explicacao": "Delegar é dividir tarefas com uma equipe, o que multiplica a produção.",
+            "dica": "Pense em dividir as tarefas com uma equipe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O gargalo de um negócio é:",
+            "alternativas": [
+              "a etapa mais lenta, que segura o resto",
+              "o produto mais vendido",
+              "o cliente mais antigo",
+              "a parte mais barata"
+            ],
+            "correta": 0,
+            "explicacao": "Como o gargalo de uma garrafa, é o ponto por onde a produção passa mais devagar e limita todo o resto.",
+            "dica": "Pense no pescoço de uma garrafa: por onde a água passa mais devagar?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O custo fixo de um negócio é R$ 400 por mês. Quanto desse custo cabe a cada unidade quando se vendem 100 unidades e quando se vendem 400?",
+            "alternativas": [
+              "De R$ 4,00 para R$ 1,00",
+              "De R$ 4,00 para R$ 16,00",
+              "Continua R$ 4,00",
+              "De R$ 1,00 para R$ 4,00"
+            ],
+            "correta": 0,
+            "explicacao": "400 ÷ 100 = 4,00 por unidade; 400 ÷ 400 = 1,00 por unidade. Vendendo mais, o custo fixo se espalha por mais unidades.",
+            "dica": "Divida o custo fixo pela quantidade em cada caso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude ajuda a escalar mantendo a qualidade?",
+            "alternativas": [
+              "Mudar a receita a cada dia",
+              "Escrever a receita e o passo a passo para a equipe repetir",
+              "Esconder o modo de fazer de todo mundo",
+              "Fazer tudo sozinho de madrugada"
+            ],
+            "correta": 1,
+            "explicacao": "Padronizar permite que outras pessoas façam igual, com a mesma qualidade. Fazer tudo sozinho é justamente o limite que impede a escala.",
+            "dica": "Para outras pessoas repetirem o mesmo resultado, o que elas precisam ter em mãos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pão de mel é vendido a R$ 4,00, com custo variável de R$ 1,50 por unidade e custo fixo de R$ 250 por mês. Qual é o lucro vendendo 300 unidades no mês?",
+            "alternativas": [
+              "R$ 950",
+              "R$ 750",
+              "R$ 500",
+              "R$ 1.200"
+            ],
+            "correta": 2,
+            "explicacao": "Receita: 300 × 4 = 1.200. Custo: 250 + 300 × 1,50 = 250 + 450 = 700. Lucro: 1.200 − 700 = 500. Quem esquece um dos custos chega em 950 ou 750.",
+            "dica": "Calcule a receita total, depois o custo fixo mais o custo variável total, e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O forno assa 40 bolos por hora, a equipe decora 60 por hora e chegam 60 pedidos por hora. Qual é o gargalo?",
+            "alternativas": [
+              "A decoração",
+              "Os pedidos",
+              "A embalagem",
+              "O forno"
+            ],
+            "correta": 3,
+            "explicacao": "O forno é a etapa que produz menos (40 por hora). Mesmo com 60 pedidos e decoração para 60, só saem 40 bolos por hora.",
+            "dica": "Compare a capacidade de cada etapa; qual produz menos por hora?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para dobrar a produção, Caio vai contratar um ajudante. Qual é o jeito certo?",
+            "alternativas": [
+              "Registrar, combinar as tarefas e pagar o justo em dia",
+              "Pagar só quando sobrar dinheiro",
+              "Não registrar para economizar",
+              "Prometer sociedade e não cumprir"
+            ],
+            "correta": 0,
+            "explicacao": "Trabalhar dentro da lei e pagar em dia evita processo e multa e mantém os bons funcionários. As outras opções trazem risco e prejudicam pessoas.",
+            "dica": "Pense no que evita processo, multa e perda de bons funcionários."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com os números de Bruna (preço R$ 2,50, fixo R$ 300, variável R$ 0,80), qual é o lucro vendendo 400 brigadeiros?",
+            "alternativas": [
+              "R$ 380",
+              "R$ 700",
+              "R$ 680",
+              "R$ 320"
+            ],
+            "correta": 0,
+            "explicacao": "Receita: 400 × 2,50 = 1.000. Custo: 300 + 400 × 0,80 = 300 + 320 = 620. Lucro: 1.000 − 620 = 380.",
+            "dica": "Use os mesmos números da Bruna: preço, custo fixo e custo variável por unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um negócio tem custo fixo de R$ 600, custo variável de R$ 2 por unidade e produz 300 unidades. Qual é o custo médio por unidade?",
+            "alternativas": [
+              "R$ 2,00",
+              "R$ 4,00",
+              "R$ 6,00",
+              "R$ 3,00"
+            ],
+            "correta": 1,
+            "explicacao": "Custo total: 600 + 300 × 2 = 600 + 600 = 1.200. Custo médio: 1.200 ÷ 300 = R$ 4,00. R$ 2,00 é só o variável.",
+            "dica": "Some o custo fixo com o custo variável total e divida pela quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes negócios escala com mais facilidade?",
+            "alternativas": [
+              "Aula particular presencial, um aluno por vez",
+              "Corte de cabelo",
+              "Curso gravado vendido pela internet",
+              "Conserto de bicicleta"
+            ],
+            "correta": 2,
+            "explicacao": "No curso gravado, vender para mais uma pessoa quase não exige mais trabalho, porque o custo variável é quase zero. Os outros dependem do tempo do profissional a cada cliente.",
+            "dica": "Procure o negócio em que atender mais um cliente quase não exige trabalho a mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa lanchonete, a montagem faz 30 lanches por hora, a chapa faz 20 e o caixa atende 50. Para vender mais, qual deve ser o primeiro investimento?",
+            "alternativas": [
+              "Mais um caixa",
+              "Mais propaganda",
+              "Um cardápio novo",
+              "Outra chapa ou mais uma pessoa na chapa"
+            ],
+            "correta": 3,
+            "explicacao": "A chapa (20 por hora) é o gargalo. Mais clientes ou mais caixas não adiantam se a chapa não dá conta; ampliar a chapa sobe a produção para 30 por hora, o limite da montagem.",
+            "dica": "O investimento que mais rende é o que alarga a etapa mais lenta."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para escalar uma produção com segurança:",
+            "itens": [
+              "Padronizar a receita e o passo a passo",
+              "Medir a capacidade de cada etapa e achar o gargalo",
+              "Resolver o gargalo (equipamento ou pessoa registrada)",
+              "Aumentar a divulgação para vender mais"
+            ],
+            "explicacao": "Primeiro o jeito de fazer fica claro, depois se descobre onde a produção trava e se resolve isso. Só então vale chamar mais clientes, porque agora dá para atender.",
+            "dica": "Antes de chamar mais clientes, a produção precisa dar conta; comece pelo jeito de fazer."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto é vendido a R$ 5, com custo variável de R$ 2 por unidade e custo fixo de R$ 450 por mês. Quantas unidades, no mínimo, cobrem todos os custos (ponto de equilíbrio)?",
+            "alternativas": [
+              "90",
+              "150",
+              "225",
+              "450"
+            ],
+            "correta": 1,
+            "explicacao": "Margem de contribuição: 5 − 2 = 3 por unidade. 450 ÷ 3 = 150 unidades. O 90 vem de dividir pelo preço (esquecendo o custo variável).",
+            "dica": "Calcule quanto cada unidade deixa para pagar o fixo (preço menos custo variável) e divida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruna tem custo fixo de R$ 300 e margem de R$ 1,70 por brigadeiro. Quantos brigadeiros, no mínimo, ela precisa vender para ter R$ 1.000 de lucro no mês?",
+            "alternativas": [
+              "765",
+              "588",
+              "1.000",
+              "600"
+            ],
+            "correta": 0,
+            "explicacao": "Ela precisa cobrir 300 + 1.000 = 1.300. 1.300 ÷ 1,70 ≈ 764,7; como não se vende pedaço de brigadeiro, são 765. Conferindo: 765 × 1,70 = 1.300,50. O 588 esquece o custo fixo.",
+            "dica": "Some o lucro desejado ao custo fixo, divida pela margem de cada brigadeiro e arredonde para cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ajudante registrado custa a Bruna R$ 2.400 por mês, já com encargos. Com ele, ela vende 2.000 brigadeiros a mais por mês, com margem de R$ 1,70 cada. A contratação vale a pena?",
+            "alternativas": [
+              "Não: ela perde R$ 1.000",
+              "Sim: sobram R$ 3.400",
+              "Sim: a margem extra de R$ 3.400 paga o custo e sobram R$ 1.000",
+              "Não dá para saber"
+            ],
+            "correta": 2,
+            "explicacao": "Margem extra: 2.000 × 1,70 = 3.400. Menos o custo do ajudante: 3.400 − 2.400 = 1.000 a mais por mês, com o funcionário registrado e pago corretamente.",
+            "dica": "Multiplique as unidades extras pela margem e compare com o custo total do ajudante."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para \"economizar\", Tiago deixa o ajudante sem registro e atrasa o pagamento. Qual é a consequência mais provável?",
+            "alternativas": [
+              "O negócio cresce mais rápido",
+              "Nenhuma, se ninguém souber",
+              "Pagar menos imposto para sempre",
+              "Processo trabalhista, multa e perda do funcionário"
+            ],
+            "correta": 3,
+            "explicacao": "Trabalho sem registro e salário atrasado violam a lei e geram processo, multa e a saída dos bons funcionários. A economia aparente vira prejuízo.",
+            "dica": "A lição mostra o que acontece quando se cresce tratando mal a equipe ou fora da lei."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Produtos A e B têm o mesmo custo fixo (R$ 1.000) e o mesmo preço (R$ 10). O custo variável de A é R$ 9 e o de B é R$ 2. Vendendo 500 unidades de cada, o que acontece?",
+            "alternativas": [
+              "A tem lucro de R$ 500 e B, de R$ 4.000",
+              "A tem prejuízo de R$ 500 e B, lucro de R$ 3.000",
+              "Os dois têm o mesmo lucro",
+              "A tem lucro de R$ 3.000 e B, prejuízo de R$ 500"
+            ],
+            "correta": 1,
+            "explicacao": "A: margem 10 − 9 = 1; 500 × 1 = 500; 500 − 1.000 = prejuízo de 500. B: margem 10 − 2 = 8; 500 × 8 = 4.000; 4.000 − 1.000 = lucro de 3.000. Com margem baixa, vender mais quase não ajuda.",
+            "dica": "Calcule a margem de cada unidade em A e em B, multiplique por 500 e desconte o custo fixo."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O homem que deu nome à álgebra",
+    "texto": "Por volta do ano 820, em Bagdá, no atual Iraque, existia um centro de estudos conhecido como Casa da Sabedoria. Ali, estudiosos traduziam livros de várias partes do mundo, discutiam ideias e faziam cálculos para resolver problemas bem práticos: dividir heranças, medir terrenos e acertar contas do comércio.\n\nUm desses estudiosos era Muhammad ibn Musa al-Khwarizmi. Ele escreveu um livro que ensinava a resolver problemas com um valor desconhecido usando dois movimentos. O primeiro, chamado al-jabr, era algo como \"restaurar\": passar para o outro lado um termo que está subtraindo, agora somando. O segundo era equilibrar, cancelando o que aparece igual dos dois lados. Parece familiar? É o que fazemos hoje quando tratamos uma equação como uma balança.\n\nA palavra al-jabr atravessou os séculos e deu origem à palavra álgebra. E tem mais: quando os livros de al-Khwarizmi foram traduzidos para o latim, o nome dele virou algo como Algoritmi. Daí surgiu a palavra algoritmo, que hoje usamos para qualquer sequência de passos que resolve um problema, inclusive os programas de computador.\n\nCuriosamente, al-Khwarizmi não usava letras como x nem o sinal de igual. Escrevia tudo por extenso, em palavras. Os símbolos só se popularizaram muitos séculos depois. Mesmo assim, a ideia central continua a mesma: o que se faz de um lado, faz-se do outro."
+  },
+  "escrita": {
+    "proposta": "Em 8 a 12 linhas, invente um problema do seu dia a dia que possa ser resolvido com uma equação do 1º grau (por exemplo, dividir o preço de uma pizza ou descobrir quantos km teve uma corrida). Escreva o problema por extenso, como al-Khwarizmi fazia, depois monte a equação, resolva e confira a resposta."
+  }
+}

@@ -1,0 +1,1199 @@
+{
+  "dia": 9,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Decimais e porcentagem",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Números decimais têm vírgula: a parte da esquerda são os inteiros e a da direita, as partes menores. Em 3,75 temos 3 inteiros, 7 décimos e 5 centésimos. É assim que escrevemos dinheiro: R$ 3,75.",
+          "Para somar ou subtrair decimais, coloque vírgula embaixo de vírgula. Para multiplicar, faça a conta sem vírgula e depois conte as casas decimais: 1,2 × 0,5 → 12 × 5 = 60, com duas casas: 0,60 = 0,6.",
+          "Porcentagem quer dizer 'por cem'. 25% = 25/100 = 0,25. Atalhos: 50% é a metade, 25% é a quarta parte, 10% é dividir por 10 e 1% é dividir por 100.",
+          "Desconto: calcule a porcentagem e tire do preço. Aumento: calcule e some. Tênis de R$ 180,00 com 15% de desconto: 10% = 18 e 5% = 9, então o desconto é R$ 27,00 e o preço fica R$ 153,00.",
+          "Para saber quanto um número é de outro em porcentagem, divida e multiplique por 100: 12 de 40 alunos é 12 ÷ 40 = 0,3 = 30%."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um caderno custa R$ 12,50 e uma caneta, R$ 3,75. Quanto custam juntos?",
+            "resolucao": "Vírgula embaixo de vírgula: 12,50 + 3,75 = 16,25. Total: R$ 16,25."
+          },
+          {
+            "enunciado": "A conta de luz era R$ 150,00 e aumentou 8%. Qual é o novo valor?",
+            "resolucao": "1% de 150 é 1,50; 8% é 8 × 1,50 = R$ 12,00. Novo valor: R$ 162,00. Atalho: 150 × 1,08 = 162."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Aumento e desconto de mesma porcentagem não se anulam. R$ 200,00 com aumento de 10% vira R$ 220,00; com desconto de 10% sobre 220, vira R$ 198,00. A segunda porcentagem é calculada sobre um valor diferente.",
+        "Descontos seguidos não se somam. 20% e depois 10% sobre R$ 100,00: 100 → 80 → 72. O desconto total foi de 28%, não 30%. Atalho: multiplique os fatores, 0,8 × 0,9 = 0,72.",
+        "Para achar o preço antes do desconto, divida pelo fator: pagou R$ 45,00 com 25% de desconto, então 45 é 75% do preço. Preço original = 45 ÷ 0,75 = R$ 60,00. E a variação percentual se calcula sempre sobre o valor inicial: de 40 para 50 é +25%; de 50 para 40 é −20%."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O número 0,5 é o mesmo que:",
+            "alternativas": [
+              "Metade",
+              "Um quinto",
+              "Cinco inteiros",
+              "Um décimo"
+            ],
+            "correta": 0,
+            "explicacao": "0,5 = 5/10 = 1/2, ou seja, metade.",
+            "dica": "Pense em R$ 0,50 de um real."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10% de 80?",
+            "alternativas": [
+              "10",
+              "8",
+              "80",
+              "0,8"
+            ],
+            "correta": 1,
+            "explicacao": "10% é dividir por 10: 80 ÷ 10 = 8.",
+            "dica": "Para 10%, divida por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 50% de R$ 30,00?",
+            "alternativas": [
+              "R$ 3,00",
+              "R$ 50,00",
+              "R$ 15,00",
+              "R$ 25,00"
+            ],
+            "correta": 2,
+            "explicacao": "50% é a metade: 30 ÷ 2 = 15.",
+            "dica": "50% é a metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2,5 + 1,3?",
+            "alternativas": [
+              "2,8",
+              "3,3",
+              "4,8",
+              "3,8"
+            ],
+            "correta": 3,
+            "explicacao": "Inteiros: 2 + 1 = 3. Décimos: 5 + 3 = 8. Resultado 3,8.",
+            "dica": "Some inteiros com inteiros e décimos com décimos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "25% é o mesmo que:",
+            "alternativas": [
+              "1/4",
+              "1/2",
+              "1/25",
+              "2/5"
+            ],
+            "correta": 0,
+            "explicacao": "25/100 simplificado dá 1/4: a quarta parte.",
+            "dica": "Quantas vezes 25 cabe em 100?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Caderno de R$ 12,50 e caneta de R$ 3,75. Quanto custam juntos?",
+            "alternativas": [
+              "R$ 15,25",
+              "R$ 16,25",
+              "R$ 16,15",
+              "R$ 15,75"
+            ],
+            "correta": 1,
+            "explicacao": "12,50 + 3,75 = 16,25.",
+            "dica": "Alinhe as vírgulas e lembre do 'vai um'."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um tênis de R$ 180,00 tem 15% de desconto. Quanto fica?",
+            "alternativas": [
+              "R$ 165,00",
+              "R$ 27,00",
+              "R$ 153,00",
+              "R$ 150,00"
+            ],
+            "correta": 2,
+            "explicacao": "Desconto: 10% (18) + 5% (9) = 27. 180 − 27 = 153. R$ 27,00 é só o desconto.",
+            "dica": "Divida 15% em 10% e 5%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3 × R$ 4,90?",
+            "alternativas": [
+              "R$ 12,70",
+              "R$ 14,70",
+              "R$ 14,90",
+              "R$ 13,70"
+            ],
+            "correta": 1,
+            "explicacao": "3 × 4,90 = 14,70. Atalho: 3 × 5 = 15, menos 3 × 0,10 = 0,30.",
+            "dica": "Pense em R$ 5,00 menos 10 centavos, três vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa sala de 40 alunos, 12 vão de ônibus. Que porcentagem é essa?",
+            "alternativas": [
+              "12%",
+              "28%",
+              "40%",
+              "30%"
+            ],
+            "correta": 3,
+            "explicacao": "12 ÷ 40 = 0,3 = 30%.",
+            "dica": "Divida a parte pelo total e multiplique por 100."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem, do MENOR para o MAIOR:",
+            "itens": [
+              "0,09",
+              "0,3",
+              "0,35",
+              "0,5"
+            ],
+            "explicacao": "Em centésimos: 0,09 = 9; 0,3 = 30; 0,35 = 35; 0,5 = 50.",
+            "dica": "Escreva todos com duas casas depois da vírgula."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A conta de luz era R$ 150,00 e subiu 8%. Qual é o novo valor?",
+            "alternativas": [
+              "R$ 162,00",
+              "R$ 158,00",
+              "R$ 138,00",
+              "R$ 168,00"
+            ],
+            "correta": 0,
+            "explicacao": "8% de 150 = 12. 150 + 12 = 162. R$ 158,00 seria somar 8 reais, e não 8%.",
+            "dica": "Calcule 1% de 150 e multiplique por 8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto de R$ 200,00 teve aumento de 10% e depois desconto de 10%. Quanto ficou?",
+            "alternativas": [
+              "R$ 200,00",
+              "R$ 198,00",
+              "R$ 202,00",
+              "R$ 180,00"
+            ],
+            "correta": 1,
+            "explicacao": "200 → 220 → 220 − 22 = 198. O desconto foi calculado sobre 220.",
+            "dica": "Faça uma porcentagem de cada vez, sobre o valor da hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Paguei R$ 45,00 com 25% de desconto. Qual era o preço original?",
+            "alternativas": [
+              "R$ 56,25",
+              "R$ 70,00",
+              "R$ 60,00",
+              "R$ 33,75"
+            ],
+            "correta": 2,
+            "explicacao": "45 é 75% do preço: 45 ÷ 0,75 = 60. Conferindo: 25% de 60 = 15, e 60 − 15 = 45.",
+            "dica": "Com 25% de desconto, você pagou que porcentagem do preço?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1,2 × 0,5?",
+            "alternativas": [
+              "6",
+              "0,06",
+              "1,7",
+              "0,6"
+            ],
+            "correta": 3,
+            "explicacao": "12 × 5 = 60, com duas casas decimais: 0,60 = 0,6. Também é a metade de 1,2.",
+            "dica": "Multiplicar por 0,5 é o mesmo que pegar a metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é maior: 30% de 50 ou 50% de 30?",
+            "alternativas": [
+              "30% de 50",
+              "50% de 30",
+              "São iguais",
+              "Depende do dia"
+            ],
+            "correta": 2,
+            "explicacao": "30% de 50 = 15 e 50% de 30 = 15. Sempre vale: a% de b = b% de a.",
+            "dica": "Calcule os dois antes de responder."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Descontos seguidos de 20% e de 10% sobre R$ 100,00. Qual foi o desconto total?",
+            "alternativas": [
+              "30%",
+              "28%",
+              "20%",
+              "2%"
+            ],
+            "correta": 1,
+            "explicacao": "100 → 80 → 72. Pagou 72, então o desconto foi 28%. Somar dá 30%, que é a pegadinha.",
+            "dica": "Aplique o segundo desconto sobre o preço já com o primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O preço subiu de R$ 40,00 para R$ 50,00. De quanto foi o aumento?",
+            "alternativas": [
+              "10%",
+              "20%",
+              "25%",
+              "50%"
+            ],
+            "correta": 2,
+            "explicacao": "Aumentou 10 sobre 40: 10 ÷ 40 = 0,25 = 25%.",
+            "dica": "Compare o aumento com o preço inicial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O preço caiu de R$ 50,00 para R$ 40,00. De quanto foi a queda?",
+            "alternativas": [
+              "20%",
+              "25%",
+              "10%",
+              "80%"
+            ],
+            "correta": 0,
+            "explicacao": "Caiu 10 sobre 50: 10 ÷ 50 = 0,2 = 20%. A base agora é 50.",
+            "dica": "Quem é o valor inicial desta vez?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Loja A: R$ 120,00 com 25% de desconto. Loja B: R$ 100,00 com 5% de desconto e frete de R$ 3,00. Qual é mais barata?",
+            "alternativas": [
+              "Loja B, por R$ 98,00",
+              "As duas custam igual",
+              "Loja A, por R$ 95,00",
+              "Loja A, por R$ 90,00"
+            ],
+            "correta": 3,
+            "explicacao": "A: 120 − 30 = 90. B: 100 − 5 + 3 = 98. A loja que parecia mais cara ficou mais barata.",
+            "dica": "Calcule o preço final de cada loja, com o frete."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 0,1 + 0,2 × 3?",
+            "alternativas": [
+              "0,9",
+              "0,7",
+              "0,6",
+              "0,36"
+            ],
+            "correta": 1,
+            "explicacao": "Primeiro a multiplicação: 0,2 × 3 = 0,6. Depois 0,1 + 0,6 = 0,7. Somar antes dá 0,9.",
+            "dica": "Lembre qual operação vem primeiro."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Repetição: laços for e while",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um laço (ou loop) faz o computador repetir instruções sem você precisar escrevê-las várias vezes.",
+          "O 'for' repete um número certo de vezes. Em Python, for i in range(5): print(i) mostra 0, 1, 2, 3, 4. O range começa no 0 e para antes do número final. range(1, 6) vai de 1 até 5.",
+          "O 'while' (enquanto) repete enquanto uma condição for verdadeira: while x > 0: x = x - 1. Algo dentro do laço precisa mudar a condição, senão ele nunca para.",
+          "Um laço que nunca para é chamado de laço infinito. Ele trava o programa e é um dos erros mais comuns de quem está começando."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O que mostra for i in range(1, 4): print(i * 10)?",
+            "resolucao": "i vale 1, 2 e 3. Aparecem 10, 20 e 30."
+          },
+          {
+            "enunciado": "contador = 1; while contador <= 3: print(contador); contador = contador + 1. O que aparece?",
+            "resolucao": "1, 2 e 3. Quando contador vira 4, a condição fica falsa e o laço para."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Acumulador é uma variável que vai juntando valores: soma = 0; for i in range(1, 5): soma = soma + i. No fim, soma vale 1 + 2 + 3 + 4 = 10. Contador é parecido, mas soma 1 a cada vez que algo acontece.",
+        "O range aceita um terceiro número, o passo: range(0, 10, 2) dá 0, 2, 4, 6, 8. Com passo negativo, conta para trás: range(10, 0, -1) dá 10 até 1.",
+        "Laço dentro de laço multiplica as repetições: um for de 3 com outro de 2 dentro roda 3 × 2 = 6 vezes. E o break sai do laço na hora, mesmo que ainda faltem voltas."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um laço?",
+            "alternativas": [
+              "Para repetir instruções",
+              "Para apagar o programa",
+              "Para mudar a cor da tela",
+              "Para desligar o computador"
+            ],
+            "correta": 0,
+            "explicacao": "Laço é repetição.",
+            "dica": "Loop quer dizer volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Repita 3 vezes: pule.' Quantos pulos?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "A instrução roda 3 vezes.",
+            "dica": "Conte quantas vezes o comando repete."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama um laço que nunca termina?",
+            "alternativas": [
+              "Variável",
+              "Laço infinito",
+              "Laço curto",
+              "Função"
+            ],
+            "correta": 1,
+            "explicacao": "Ele nunca encontra a condição de parar.",
+            "dica": "Algo que não tem fim é..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(3) repete quantas vezes?",
+            "alternativas": [
+              "2",
+              "4",
+              "0",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "range(3) dá 0, 1 e 2: três voltas.",
+            "dica": "Conte começando do zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Enquanto estiver com fome, coma uma fruta.' Quando você para?",
+            "alternativas": [
+              "Quando acabar a fome",
+              "Nunca",
+              "Sempre depois de 1 fruta",
+              "Antes de começar"
+            ],
+            "correta": 0,
+            "explicacao": "O while para quando a condição fica falsa.",
+            "dica": "Qual é a condição do 'enquanto'?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra for i in range(1, 6): print(i)?",
+            "alternativas": [
+              "0 1 2 3 4 5",
+              "1 2 3 4 5",
+              "1 2 3 4 5 6",
+              "0 1 2 3 4"
+            ],
+            "correta": 1,
+            "explicacao": "Começa no 1 e para antes do 6.",
+            "dica": "O último número do range não entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "soma = 0; for i in range(1, 5): soma = soma + i. Quanto vale soma no fim?",
+            "alternativas": [
+              "10",
+              "15",
+              "4",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "1 + 2 + 3 + 4 = 10. O 5 não entra.",
+            "dica": "Liste os valores de i e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 10; while x > 0: x = x - 3. Quantas voltas o laço dá?",
+            "alternativas": [
+              "3",
+              "10",
+              "4",
+              "Infinitas"
+            ],
+            "correta": 2,
+            "explicacao": "10 → 7 → 4 → 1 → −2. Quatro voltas; com −2 a condição é falsa.",
+            "dica": "Acompanhe x até ele ficar menor ou igual a zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes vira um laço infinito?",
+            "alternativas": [
+              "x = 5; while x > 0: x = x - 1",
+              "for i in range(10)",
+              "x = 0; while x < 3: x = x + 1",
+              "x = 1; while x > 0: x = x + 1"
+            ],
+            "correta": 3,
+            "explicacao": "x só cresce, então x > 0 nunca fica falso.",
+            "dica": "Em qual deles a condição nunca deixa de ser verdadeira?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as linhas para contar de 1 até 3 com while:",
+            "itens": [
+              "contador = 1",
+              "while contador <= 3:",
+              "(dentro) print(contador)",
+              "(dentro) contador = contador + 1"
+            ],
+            "explicacao": "Cria a variável, testa, mostra e aumenta. Se aumentar antes de mostrar, começa no 2.",
+            "dica": "A variável precisa existir antes do teste."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra for i in range(0, 10, 2): print(i)?",
+            "alternativas": [
+              "2 4 6 8 10",
+              "0 2 4 6 8",
+              "0 2 4 6 8 10",
+              "1 3 5 7 9"
+            ],
+            "correta": 1,
+            "explicacao": "Começa em 0, anda de 2 em 2 e para antes do 10.",
+            "dica": "O terceiro número é o tamanho do passo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes aparece 'Oi'? for i in range(3): for j in range(2): print('Oi')",
+            "alternativas": [
+              "5",
+              "3",
+              "2",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "Para cada uma das 3 voltas de fora, o de dentro roda 2 vezes: 3 × 2 = 6.",
+            "dica": "Laço dentro de laço multiplica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0; for i in range(4): total = total + 5. Quanto vale total?",
+            "alternativas": [
+              "5",
+              "9",
+              "20",
+              "25"
+            ],
+            "correta": 2,
+            "explicacao": "4 voltas somando 5: 20.",
+            "dica": "Quantas voltas e quanto soma em cada uma?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "n = 1; while n < 50: n = n * 2. Quanto vale n no fim?",
+            "alternativas": [
+              "64",
+              "32",
+              "50",
+              "128"
+            ],
+            "correta": 0,
+            "explicacao": "1, 2, 4, 8, 16, 32, 64. Com 32 ainda entra no laço e vira 64; aí 64 < 50 é falso.",
+            "dica": "O laço testa antes de dobrar. Veja o que acontece quando n é 32."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual laço mostra uma contagem regressiva de 10 até 1?",
+            "alternativas": [
+              "for i in range(1, 10)",
+              "for i in range(10, 0, -1)",
+              "for i in range(10)",
+              "for i in range(0, 10, -1)"
+            ],
+            "correta": 1,
+            "explicacao": "Começa em 10, anda −1 e para antes do 0.",
+            "dica": "Para contar para trás, o passo é negativo e o início é o maior."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "soma = 0; for i in range(2, 11, 2): soma = soma + i. Quanto vale soma?",
+            "alternativas": [
+              "25",
+              "30",
+              "55",
+              "20"
+            ],
+            "correta": 1,
+            "explicacao": "i vale 2, 4, 6, 8, 10. Soma 30. 55 seria somar de 1 a 10.",
+            "dica": "Liste os valores de i com o passo 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "c = 0; for i in range(1, 31): if i % 4 == 0: c = c + 1. Quanto vale c?",
+            "alternativas": [
+              "6",
+              "8",
+              "7",
+              "30"
+            ],
+            "correta": 2,
+            "explicacao": "Múltiplos de 4 de 1 a 30: 4, 8, 12, 16, 20, 24, 28. São 7.",
+            "dica": "Conte os múltiplos de 4 até 30."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 0; for i in range(5): x = x + i. Quanto vale x depois do laço?",
+            "alternativas": [
+              "15",
+              "5",
+              "4",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "i vale 0, 1, 2, 3, 4. Soma: 10. 15 seria incluir o 5.",
+            "dica": "O range(5) começa em zero e não inclui o 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(1, 10): if i == 4: break; print(i). O que aparece?",
+            "alternativas": [
+              "1 2 3",
+              "1 2 3 4",
+              "4",
+              "1 2 3 4 5 6 7 8 9"
+            ],
+            "correta": 0,
+            "explicacao": "Quando i é 4, o break sai antes do print. Aparecem 1, 2 e 3.",
+            "dica": "O teste vem antes do print."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "c = 3; while c > 0: print(c); c = c - 1. Depois: print('Já!'). Coloque o que aparece na ordem:",
+            "itens": [
+              "3",
+              "2",
+              "1",
+              "Já!"
+            ],
+            "explicacao": "O laço mostra 3, 2 e 1; com c = 0 ele para e o último print roda.",
+            "dica": "Acompanhe o valor de c volta por volta."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Títulos e listas no Word",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Títulos organizam o documento. No Word, use os Estilos da guia Página Inicial: Título 1 para as partes principais e Título 2 para as subpartes.",
+          "Não basta aumentar a letra e colocar negrito. Com o estilo de título, o Word entende que aquilo é um título e pode montar sumário automático e o Painel de Navegação.",
+          "Listas com marcadores (bolinhas) servem quando a ordem não importa, como uma lista de compras. Listas numeradas servem para passo a passo, quando a ordem importa.",
+          "Dentro de uma lista, a tecla Tab cria um subitem (um nível para dentro) e Shift+Tab volta um nível. Para sair da lista, aperte Enter duas vezes."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como organizar uma receita de bolo no Word?",
+            "resolucao": "Título 1: 'Bolo de cenoura'. Título 2: 'Ingredientes', com lista de marcadores. Título 2: 'Modo de fazer', com lista numerada, porque a ordem dos passos importa."
+          },
+          {
+            "enunciado": "Numa lista numerada, como fazer itens a, b dentro do item 1?",
+            "resolucao": "Depois do item 1, aperte Enter e depois Tab. O item entra um nível e vira subitem. Para voltar ao nível de cima, Shift+Tab."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Atalhos úteis no Word para computador: Ctrl+Alt+1 aplica Título 1 e Ctrl+Alt+2 aplica Título 2. Na guia Exibir, marque 'Painel de Navegação' para ver todos os títulos e pular de uma parte a outra com um clique.",
+        "Na guia Referências, 'Sumário' monta o índice com base nos títulos. Se você mudar os títulos depois, clique em 'Atualizar sumário'. Títulos feitos só com fonte grande não aparecem no sumário.",
+        "Se você modificar um estilo (botão direito em Título 1 → Modificar, e trocar a cor), todos os textos com esse estilo mudam juntos. E ao apagar um item de lista numerada, o Word renumera sozinho."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google, no celular), crie o documento 'Minha rotina de estudos'. Coloque um Título 1 com esse nome. Crie dois Título 2: 'Materiais' (lista com marcadores de 5 itens) e 'Passo a passo do estudo' (lista numerada com 4 passos e pelo menos um subitem com Tab). Abra o Painel de Navegação (guia Exibir) e clique nos títulos para pular entre as partes. Salve o arquivo.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lista usar num passo a passo?",
+            "alternativas": [
+              "Numerada",
+              "Com marcadores",
+              "Nenhuma",
+              "Tabela"
+            ],
+            "correta": 0,
+            "explicacao": "No passo a passo a ordem importa, então usamos números.",
+            "dica": "Em que tipo de lista a ordem aparece?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lista usar para a lista de compras, em que a ordem não importa?",
+            "alternativas": [
+              "Numerada",
+              "Com marcadores",
+              "Título 1",
+              "Rodapé"
+            ],
+            "correta": 1,
+            "explicacao": "Bolinhas servem quando a ordem não faz diferença.",
+            "dica": "Se a ordem não importa, os números são necessários?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que tecla cria um subitem na lista?",
+            "alternativas": [
+              "Esc",
+              "Delete",
+              "Tab",
+              "F1"
+            ],
+            "correta": 2,
+            "explicacao": "Tab empurra o item um nível para dentro.",
+            "dica": "É a mesma tecla que empurra o texto para a direita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica o estilo 'Título 1'?",
+            "alternativas": [
+              "Em Arquivo > Imprimir",
+              "Em Inserir > Imagem",
+              "Em Revisão > Ortografia",
+              "Em Estilos, na guia Página Inicial"
+            ],
+            "correta": 3,
+            "explicacao": "Os estilos ficam na guia Página Inicial.",
+            "dica": "Está na primeira guia do Word."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como sair de uma lista?",
+            "alternativas": [
+              "Fechar o Word",
+              "Apertar Enter duas vezes",
+              "Apagar tudo",
+              "Apertar Ctrl+P"
+            ],
+            "correta": 1,
+            "explicacao": "O segundo Enter numa linha vazia encerra a lista.",
+            "dica": "É uma tecla que você usa para pular linha."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que usar o estilo Título em vez de só aumentar a fonte?",
+            "alternativas": [
+              "O Word entende que é título e pode montar sumário e navegação",
+              "Fica cor-de-rosa",
+              "Ocupa menos espaço",
+              "Não há diferença"
+            ],
+            "correta": 0,
+            "explicacao": "O estilo dá ao Word a informação de que aquilo é título.",
+            "dica": "O que o Word consegue fazer sozinho com títulos de verdade?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz Shift+Tab num subitem?",
+            "alternativas": [
+              "Apaga o item",
+              "Cria uma tabela",
+              "Volta ao nível de cima",
+              "Salva o arquivo"
+            ],
+            "correta": 2,
+            "explicacao": "Tab entra um nível; Shift+Tab sai um nível.",
+            "dica": "É o contrário do Tab."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o Título 2?",
+            "alternativas": [
+              "Para o nome do arquivo",
+              "Para uma subparte dentro de uma parte de Título 1",
+              "Para o rodapé",
+              "Para a última linha"
+            ],
+            "correta": 1,
+            "explicacao": "Título 2 fica abaixo do Título 1 na organização.",
+            "dica": "O número 2 indica um nível abaixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Receita com ingredientes e modo de fazer. Qual é a melhor organização?",
+            "alternativas": [
+              "Tudo numerado",
+              "Tudo com marcadores",
+              "Tudo em um parágrafo só",
+              "Ingredientes com marcadores e modo de fazer numerado"
+            ],
+            "correta": 3,
+            "explicacao": "Nos ingredientes a ordem não importa; no modo de fazer, importa.",
+            "dica": "Pense em qual parte a ordem faz diferença."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para criar uma lista numerada:",
+            "itens": [
+              "Selecionar as linhas",
+              "Ir na guia Página Inicial",
+              "Clicar no botão Numeração",
+              "Conferir os números"
+            ],
+            "explicacao": "Seleciona, vai na guia, aplica e confere.",
+            "dica": "Primeiro diga ao Word quais linhas vão virar lista."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o Painel de Navegação mostra?",
+            "alternativas": [
+              "As imagens",
+              "Os títulos do documento, para pular até eles",
+              "O corretor",
+              "As margens"
+            ],
+            "correta": 1,
+            "explicacao": "Ele lista os títulos e deixa clicar para ir até cada parte.",
+            "dica": "Navegar é andar pelo documento usando o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa lista numerada 1, 2, 3, você apaga o item 2. O que acontece?",
+            "alternativas": [
+              "O Word renumera sozinho",
+              "Fica 1, 3",
+              "Precisa digitar tudo de novo",
+              "A lista some"
+            ],
+            "correta": 0,
+            "explicacao": "A numeração automática se ajusta.",
+            "dica": "A numeração foi digitada por você ou pelo Word?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz o atalho Ctrl+Alt+1?",
+            "alternativas": [
+              "Salva",
+              "Imprime",
+              "Aplica Título 1",
+              "Abre nova janela"
+            ],
+            "correta": 2,
+            "explicacao": "Ctrl+Alt+1 aplica Título 1; Ctrl+Alt+2, Título 2.",
+            "dica": "O número do atalho tem a ver com o nível."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluno fez os títulos só com fonte grande e negrito. O que acontece ao inserir um sumário automático?",
+            "alternativas": [
+              "Funciona igual",
+              "O Word apaga o texto",
+              "Os títulos viram imagem",
+              "O sumário não encontra esses títulos"
+            ],
+            "correta": 3,
+            "explicacao": "O sumário só reconhece os estilos de título.",
+            "dica": "Lembre o que o Word precisa para saber que algo é título."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lista: 1. Introdução / a. Objetivo / b. Público / 2. Desenvolvimento. Como os itens a e b foram criados?",
+            "alternativas": [
+              "Com Tab, que cria subnível",
+              "Com Enter duas vezes",
+              "Com Ctrl+B",
+              "Com Título 3"
+            ],
+            "correta": 0,
+            "explicacao": "Tab dentro da lista cria o subnível a, b.",
+            "dica": "Que tecla empurra o item um nível para dentro?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Trabalho com Introdução, Desenvolvimento (com Causas e Consequências) e Conclusão. Como aplicar os estilos?",
+            "alternativas": [
+              "Tudo em Título 1",
+              "Introdução, Desenvolvimento e Conclusão em Título 1; Causas e Consequências em Título 2",
+              "Tudo em Título 2",
+              "Causas e Consequências em Título 1; Desenvolvimento em Título 2"
+            ],
+            "correta": 1,
+            "explicacao": "As partes principais são Título 1 e as subpartes do Desenvolvimento são Título 2.",
+            "dica": "Quais partes estão dentro de outra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você modificou o estilo Título 1 para ficar azul. O que acontece?",
+            "alternativas": [
+              "Só o primeiro título fica azul",
+              "Nenhum muda",
+              "Todos os textos com Título 1 ficam azuis",
+              "Os títulos são apagados"
+            ],
+            "correta": 2,
+            "explicacao": "Mudar o estilo muda todos os textos que usam aquele estilo.",
+            "dica": "Estilo é uma regra que vale para quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Instruções de saída em caso de incêndio: sair da sala, descer a escada, ir ao pátio. Que lista usar?",
+            "alternativas": [
+              "Numerada, porque a ordem importa",
+              "Marcadores, porque as frases são curtas",
+              "Uma tabela",
+              "Um título"
+            ],
+            "correta": 0,
+            "explicacao": "A ordem dos passos é essencial para a segurança.",
+            "dica": "Dá para fazer esses passos em qualquer ordem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você mudou alguns títulos e o sumário ficou desatualizado. O que fazer?",
+            "alternativas": [
+              "Apagar e digitar o sumário à mão",
+              "Nada, ele não muda",
+              "Salvar em PDF",
+              "Clicar em Atualizar sumário"
+            ],
+            "correta": 3,
+            "explicacao": "O sumário automático tem um botão para se atualizar.",
+            "dica": "O próprio sumário tem uma opção para isso."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do nível mais alto para o mais baixo neste documento:",
+            "itens": [
+              "Título 1: Meu bairro",
+              "Título 2: Transporte",
+              "Lista numerada: linhas de ônibus",
+              "Subitem (Tab): horários de cada linha"
+            ],
+            "explicacao": "O assunto geral fica em cima; dentro dele, a subparte; dentro dela, a lista; e o subitem é o mais detalhado.",
+            "dica": "Vá do assunto mais geral para o mais detalhado."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Formação de preço e margem",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Custo é tudo o que você gasta para fazer ou comprar o produto: ingredientes, embalagem, gás, transporte, taxa da maquininha. Preço é quanto o cliente paga. Lucro é a diferença: lucro = preço − custo.",
+          "Margem é quanto do preço é lucro, em porcentagem: margem = lucro ÷ preço × 100. Um brigadeiro que custa R$ 0,80 e é vendido por R$ 2,00 dá lucro de R$ 1,20 e margem de 60%.",
+          "Marcação (ou markup) é quanto você acrescenta sobre o custo: R$ 1,20 sobre R$ 0,80 é 150%. Margem e marcação são coisas diferentes, e confundir as duas faz muita gente cobrar barato demais.",
+          "Muitos esquecem custos escondidos, como o gás, a energia, a embalagem e os produtos que estragam. Também vale pesquisar quanto os concorrentes cobram e o que o cliente acha justo pagar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um bolo usa R$ 18,00 de ingredientes, R$ 2,00 de gás e R$ 4,00 de embalagem. É vendido por R$ 40,00. Qual é o lucro e a margem?",
+            "resolucao": "Custo: 18 + 2 + 4 = R$ 24,00. Lucro: 40 − 24 = R$ 16,00. Margem: 16 ÷ 40 = 0,4 = 40%."
+          },
+          {
+            "enunciado": "Um produto custa R$ 6,00. Que preço dá margem de 40%?",
+            "resolucao": "Se 40% do preço é lucro, o custo é 60% do preço. Preço = 6 ÷ 0,6 = R$ 10,00. Conferindo: lucro de R$ 4,00 em R$ 10,00 = 40%."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Fórmula para achar o preço: preço = custo ÷ (1 − margem − taxas que são porcentagem do preço). Custo de R$ 12,00, maquininha de 4% e margem desejada de 36%: preço = 12 ÷ (1 − 0,04 − 0,36) = 12 ÷ 0,6 = R$ 20,00.",
+        "Promoção mexe muito no lucro. Um produto de R$ 20,00 com custo de R$ 12,00 lucra R$ 8,00. Com 20% de desconto, sai por R$ 16,00 e lucra só R$ 4,00: o lucro caiu pela metade, e você precisaria vender o dobro para ganhar o mesmo.",
+        "Chamar ajuda pode multiplicar a produção. Se uma ajudante, paga de forma justa e combinada, faz você produzir o dobro, o pagamento dela entra como custo e o lucro total ainda pode subir. Pagar 'por fora' ou abaixo do combinado dá processo, multa e faz você perder bons ajudantes."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se calcula o lucro?",
+            "alternativas": [
+              "Preço de venda − custo",
+              "Custo − preço",
+              "Preço + custo",
+              "Só o preço"
+            ],
+            "correta": 0,
+            "explicacao": "O lucro é o que sobra do preço depois de pagar o custo.",
+            "dica": "É o que sobra depois de pagar o que você gastou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que entra no custo de um brigadeiro?",
+            "alternativas": [
+              "O preço de venda",
+              "Chocolate, leite condensado e forminha",
+              "O dinheiro do cliente",
+              "O troco"
+            ],
+            "correta": 1,
+            "explicacao": "Custo é o que você gasta para fazer o produto.",
+            "dica": "O que você precisa comprar para fazer o doce?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Custa R$ 3,00 e é vendido por R$ 5,00. Qual é o lucro?",
+            "alternativas": [
+              "R$ 8,00",
+              "R$ 5,00",
+              "R$ 2,00",
+              "R$ 3,00"
+            ],
+            "correta": 2,
+            "explicacao": "5 − 3 = 2.",
+            "dica": "Tire o custo do preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece se você vender abaixo do custo?",
+            "alternativas": [
+              "Tem lucro",
+              "Fica rico",
+              "Nada muda",
+              "Tem prejuízo"
+            ],
+            "correta": 3,
+            "explicacao": "Você recebe menos do que gastou: prejuízo.",
+            "dica": "Compare o que entra com o que saiu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de definir o preço, também é bom:",
+            "alternativas": [
+              "Pesquisar quanto os concorrentes cobram",
+              "Cobrar qualquer valor",
+              "Copiar a roupa do vizinho",
+              "Não anotar nada"
+            ],
+            "correta": 0,
+            "explicacao": "Saber os preços da região ajuda a não cobrar caro nem barato demais.",
+            "dica": "O cliente sempre compara com quem?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Brigadeiro: custo R$ 0,80 e preço R$ 2,00. Qual é a margem?",
+            "alternativas": [
+              "40%",
+              "60%",
+              "150%",
+              "120%"
+            ],
+            "correta": 1,
+            "explicacao": "Lucro 1,20 ÷ preço 2,00 = 0,6 = 60%.",
+            "dica": "Margem é o lucro dividido pelo preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Brigadeiro: custo R$ 0,80 e preço R$ 2,00. Qual é a marcação sobre o custo?",
+            "alternativas": [
+              "60%",
+              "40%",
+              "250%",
+              "150%"
+            ],
+            "correta": 3,
+            "explicacao": "Lucro 1,20 ÷ custo 0,80 = 1,5 = 150%.",
+            "dica": "Marcação compara o lucro com o custo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bolo: ingredientes R$ 18,00, gás R$ 2,00, embalagem R$ 4,00. Vendido por R$ 40,00. Qual é o lucro?",
+            "alternativas": [
+              "R$ 16,00",
+              "R$ 22,00",
+              "R$ 18,00",
+              "R$ 24,00"
+            ],
+            "correta": 0,
+            "explicacao": "Custo total 24. Lucro 40 − 24 = 16. R$ 22,00 seria esquecer gás e embalagem.",
+            "dica": "Some todos os custos antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual custo muita gente esquece?",
+            "alternativas": [
+              "O preço de venda",
+              "O lucro",
+              "Gás, energia e embalagem",
+              "O nome da loja"
+            ],
+            "correta": 2,
+            "explicacao": "Esses gastos são reais e diminuem o lucro.",
+            "dica": "A lição chamou de custos escondidos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para formar o preço:",
+            "itens": [
+              "Listar todos os custos do produto",
+              "Somar o custo por unidade",
+              "Escolher a margem desejada",
+              "Comparar com os concorrentes e ajustar"
+            ],
+            "explicacao": "Sem saber o custo não dá para escolher a margem; a pesquisa ajusta no fim.",
+            "dica": "Comece pelo que você gasta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto custa R$ 6,00. Que preço dá margem de 40%?",
+            "alternativas": [
+              "R$ 8,40",
+              "R$ 10,00",
+              "R$ 6,40",
+              "R$ 9,60"
+            ],
+            "correta": 1,
+            "explicacao": "Preço = 6 ÷ 0,6 = 10. R$ 8,40 é marcação de 40%, que dá margem de só 28,6%.",
+            "dica": "Se 40% do preço é lucro, o custo é quanto por cento do preço?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A maquininha cobra 3% de uma venda de R$ 50,00. Quanto você recebe?",
+            "alternativas": [
+              "R$ 47,00",
+              "R$ 1,50",
+              "R$ 48,50",
+              "R$ 50,00"
+            ],
+            "correta": 2,
+            "explicacao": "3% de 50 = 1,50. Você recebe 50 − 1,50 = 48,50.",
+            "dica": "Calcule a taxa e tire da venda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma fornada de 30 cookies gasta R$ 45,00 de ingredientes e R$ 15,00 de embalagens. Cada cookie sai por R$ 5,00. Qual é o lucro vendendo todos?",
+            "alternativas": [
+              "R$ 150,00",
+              "R$ 60,00",
+              "R$ 105,00",
+              "R$ 90,00"
+            ],
+            "correta": 3,
+            "explicacao": "Receita: 30 × 5 = 150. Custo: 45 + 15 = 60. Lucro: 90. R$ 105,00 seria esquecer as embalagens.",
+            "dica": "Calcule quanto entra e quanto saiu na fornada inteira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia lucra R$ 1,20 por brigadeiro e faz 50 numa tarde. Com uma ajudante paga de forma justa, R$ 50,00 pela tarde, faz 100. Qual é o lucro da tarde com a ajudante?",
+            "alternativas": [
+              "R$ 60,00",
+              "R$ 70,00",
+              "R$ 120,00",
+              "R$ 50,00"
+            ],
+            "correta": 1,
+            "explicacao": "100 × 1,20 = 120, menos 50 da ajudante = 70. Sem ajuda seriam 60. Pagar o justo e produzir mais valeu a pena.",
+            "dica": "Calcule o lucro dos 100 doces e desconte o pagamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Custo de R$ 10,00. Para ter margem de 50% sobre o preço, o preço deve ser:",
+            "alternativas": [
+              "R$ 20,00",
+              "R$ 15,00",
+              "R$ 5,00",
+              "R$ 25,00"
+            ],
+            "correta": 0,
+            "explicacao": "10 ÷ 0,5 = 20: lucro 10 em 20 é 50%. R$ 15,00 é marcação de 50%, que dá margem de 33%.",
+            "dica": "Margem é sobre o preço, não sobre o custo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Custo R$ 12,00, maquininha de 4% do preço e margem desejada de 36%. Qual deve ser o preço?",
+            "alternativas": [
+              "R$ 16,80",
+              "R$ 20,00",
+              "R$ 18,00",
+              "R$ 16,32"
+            ],
+            "correta": 1,
+            "explicacao": "12 ÷ (1 − 0,04 − 0,36) = 12 ÷ 0,6 = 20. Conferindo: taxa 0,80, lucro 7,20 e custo 12 somam 20.",
+            "dica": "Use a fórmula do aprofundamento com a taxa e a margem juntas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Produto de R$ 20,00 com custo de R$ 12,00 entra em promoção de 20%. Quanto o lucro por unidade diminui?",
+            "alternativas": [
+              "20%",
+              "40%",
+              "50%",
+              "Não muda"
+            ],
+            "correta": 2,
+            "explicacao": "Novo preço 16; lucro passa de 8 para 4. Caiu 50%, mais do que o desconto.",
+            "dica": "Compare o lucro antes e depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na mesma promoção, para ganhar o mesmo lucro total de antes, é preciso vender:",
+            "alternativas": [
+              "O dobro",
+              "20% a mais",
+              "A mesma quantidade",
+              "A metade"
+            ],
+            "correta": 0,
+            "explicacao": "Cada unidade lucra metade (R$ 4,00 contra R$ 8,00), então é preciso vender o dobro.",
+            "dica": "O lucro por unidade caiu para quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio paga a ajudante 'por fora' e abaixo do combinado para baratear o produto. Qual é o risco?",
+            "alternativas": [
+              "Nenhum",
+              "Lucro garantido para sempre",
+              "Ganhar selo de qualidade",
+              "Processo, multa e perder bons ajudantes"
+            ],
+            "correta": 3,
+            "explicacao": "Tratar mal e descumprir o combinado gera problemas na Justiça e afasta quem trabalha bem.",
+            "dica": "Pense no que acontece quando a ajudante se sente enganada."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do produto com MAIOR margem para o de MENOR margem:",
+            "itens": [
+              "A: custa R$ 4,00 e vende por R$ 10,00",
+              "C: custa R$ 3,00 e vende por R$ 6,00",
+              "B: custa R$ 6,00 e vende por R$ 10,00",
+              "D: custa R$ 9,00 e vende por R$ 12,00"
+            ],
+            "explicacao": "Margens: A 60%, C 50%, B 40%, D 25%. C lucra menos em reais que B, mas tem margem maior.",
+            "dica": "Calcule lucro ÷ preço de cada um, não só o lucro em reais."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A barraca de pipoca",
+    "texto": "Na festa junina da escola, a turma do 7º B ficou com a barraca de pipoca. Ingrid fez as contas no caderno: milho, óleo, sal, saquinhos e o gás que a cantina ia cobrar. Cada saquinho custava R$ 1,20 para fazer.\n\n\"Vamos vender a R$ 1,50, que é barato e todo mundo compra\", sugeriu Wesley. Ingrid balançou a cabeça. \"Assim sobram só trinta centavos por saquinho. E se queimar uma panela inteira?\"\n\nA professora mostrou que a barraca de doces vizinha cobrava R$ 3,00 pelo pacote pequeno. A turma decidiu vender a pipoca por R$ 3,00 e fazer um combo com suco por R$ 5,00.\n\nNo fim da noite, venderam 180 saquinhos. Uma panela queimou, mas a conta aguentou. O lucro pagou a excursão para o museu e ainda sobrou dinheiro para a festa de fim de ano.\n\nWesley admitiu que estava errado: \"Preço barato demais não é bondade, é prejuízo.\" Ingrid guardou o caderno de contas para a próxima festa."
+  },
+  "escrita": {
+    "proposta": "Escolha um produto que você poderia vender na escola ou no bairro (pipoca, brigadeiro, chaveiro...). Em 5 a 10 linhas, liste os custos de uma unidade (invente valores realistas), escolha um preço, calcule o lucro e a margem e explique por que esse preço é justo para você e para o cliente. Diga também qual custo escondido você poderia esquecer."
+  }
+}

@@ -1,0 +1,895 @@
+{
+  "dia": 1,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Potências e propriedades",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Uma potência é uma multiplicação de fatores iguais. Em 2⁵, o 2 é a base (o número que se repete) e o 5 é o expoente (quantas vezes ele aparece): 2⁵ = 2 × 2 × 2 × 2 × 2 = 32.",
+          "Cuidado com a confusão mais comum: 3² não é 3 × 2. É 3 × 3 = 9. E todo número (diferente de zero) elevado a 1 é ele mesmo, e elevado a 0 vale 1: 7¹ = 7 e 7⁰ = 1.",
+          "Multiplicação de mesma base: conserva a base e soma os expoentes. 3² × 3³ = 3⁵, porque são 2 fatores 3 mais 3 fatores 3. Divisão de mesma base: conserva a base e subtrai os expoentes. 5⁶ ÷ 5² = 5⁴.",
+          "Potência de potência: multiplica os expoentes. (2³)² = 2³ × 2³ = 2⁶ = 64. Já a potência de um produto distribui o expoente: (2 × 5)³ = 2³ × 5³ = 8 × 125 = 1000.",
+          "As potências de 10 são muito úteis: 10² = 100, 10³ = 1000, 10⁶ = 1 milhão. O expoente diz quantos zeros vêm depois do 1. Com base negativa, atenção ao sinal: (−2)² = 4, mas (−2)³ = −8."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Calcule 2⁴ × 2³ usando a propriedade e confira fazendo a conta direta.",
+            "resolucao": "Pela propriedade: 2⁴ × 2³ = 2⁷ = 128. Conta direta: 16 × 8 = 128. Os dois caminhos dão o mesmo resultado."
+          },
+          {
+            "enunciado": "Uma mensagem é repassada por 1 pessoa para 3 amigos; cada um repassa para mais 3, e assim por diante. Quantas pessoas recebem na 4ª rodada?",
+            "resolucao": "Rodada 1: 3¹ = 3. Rodada 2: 3² = 9. Rodada 3: 3³ = 27. Rodada 4: 3⁴ = 81 pessoas. É por isso que boatos se espalham tão rápido."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Expoente negativo nasce da regra da divisão. 2³ ÷ 2⁵ = 2⁻², e fazendo a conta direta 8 ÷ 32 = 1/4. Então 2⁻² = 1/2² = 1/4. Expoente negativo não deixa o número negativo: ele inverte a base. Assim, 10⁻¹ = 0,1 e 10⁻³ = 0,001.",
+        "Cuidado com o sinal: −2² é diferente de (−2)². Sem parênteses, o expoente vale só para o 2: −2² = −(2 × 2) = −4. Com parênteses, vale para o −2 inteiro: (−2)² = 4. E não existe regra para soma: (2 + 3)² = 25, mas 2² + 3² = 13.",
+        "Dá para comparar potências sem calcular tudo, escrevendo na mesma base. 4⁵ = (2²)⁵ = 2¹⁰, que é maior que 2⁹. Outro truque: 2¹⁰ = 1024, quase 1000 = 10³. Para achar o último algarismo de uma potência grande, observe o ciclo: 3¹ = 3, 3² = 9, 3³ = 27, 3⁴ = 81, 3⁵ = 243… os finais 3, 9, 7, 1 se repetem de 4 em 4."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 2⁵, qual número é a base?",
+            "alternativas": [
+              "5",
+              "2",
+              "32",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "A base é o número que se repete na multiplicação: 2 × 2 × 2 × 2 × 2. O 5 é o expoente, que conta quantas vezes o 2 aparece.",
+            "dica": "A base é o número que se repete; o expoente é o número pequeno lá em cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "4² é igual a:",
+            "alternativas": [
+              "4 × 2",
+              "4 + 2",
+              "4 × 4",
+              "4 × 4 × 4"
+            ],
+            "correta": 2,
+            "explicacao": "O expoente 2 diz que o 4 aparece duas vezes como fator: 4 × 4 = 16. Fazer 4 × 2 é o erro mais comum.",
+            "dica": "O expoente diz quantas vezes o 4 aparece multiplicado por ele mesmo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 10³?",
+            "alternativas": [
+              "1000",
+              "30",
+              "100",
+              "10000"
+            ],
+            "correta": 0,
+            "explicacao": "10³ = 10 × 10 × 10 = 1000. Nas potências de 10, o expoente diz quantos zeros vêm depois do 1.",
+            "dica": "Nas potências de 10, o expoente diz quantos zeros vêm depois do 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 9¹?",
+            "alternativas": [
+              "1",
+              "0",
+              "91",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "Todo número elevado a 1 é ele mesmo, porque o fator aparece uma vez só: 9¹ = 9.",
+            "dica": "Expoente 1 quer dizer que o fator aparece uma vez só."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente:",
+            "itens": [
+              "2¹",
+              "2²",
+              "2³",
+              "2⁴"
+            ],
+            "explicacao": "2¹ = 2, 2² = 4, 2³ = 8 e 2⁴ = 16. Com a mesma base, quanto maior o expoente, maior o número.",
+            "dica": "Calcule cada uma: cada vez que o expoente sobe 1, o valor dobra."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3⁴?",
+            "alternativas": [
+              "12",
+              "64",
+              "81",
+              "27"
+            ],
+            "correta": 2,
+            "explicacao": "3⁴ = 3 × 3 × 3 × 3 = 9 × 9 = 81. O 12 aparece quando alguém faz 3 × 4, e o 27 é 3³.",
+            "dica": "Multiplique o 3 por ele mesmo quatro vezes, aos poucos: 3 × 3, depois o resultado × 3, e assim por diante."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando as propriedades, 5³ × 5⁴ é igual a:",
+            "alternativas": [
+              "5⁷",
+              "5¹²",
+              "25⁷",
+              "10⁷"
+            ],
+            "correta": 0,
+            "explicacao": "Na multiplicação de mesma base, conservamos a base e somamos os expoentes: 3 + 4 = 7. A base continua 5; ela não se multiplica nem se soma.",
+            "dica": "Mesma base na multiplicação: a base fica igual. O que acontece com os expoentes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 7⁰?",
+            "alternativas": [
+              "0",
+              "7",
+              "70",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "Todo número diferente de zero elevado a 0 vale 1. Um jeito de ver: 7³ ÷ 7³ = 1, e pela regra da divisão isso é 7³⁻³ = 7⁰.",
+            "dica": "Lembre a regra especial do expoente zero, explicada no 2º parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "(2³)² é igual a:",
+            "alternativas": [
+              "2⁵",
+              "2⁶",
+              "2⁹",
+              "4⁶"
+            ],
+            "correta": 1,
+            "explicacao": "Na potência de potência, multiplicamos os expoentes: 3 × 2 = 6. Conferindo: 2³ = 8 e 8² = 64 = 2⁶.",
+            "dica": "Potência de potência: você soma ou multiplica os expoentes?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente:",
+            "itens": [
+              "2³",
+              "3²",
+              "2⁴",
+              "5²",
+              "3³"
+            ],
+            "explicacao": "Calculando: 2³ = 8, 3² = 9, 2⁴ = 16, 5² = 25 e 3³ = 27. Repare que 2³ e 3² parecem iguais, mas valem 8 e 9.",
+            "dica": "Calcule cada potência antes de comparar. Não confunda 2³ com 3²."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Simplifique 2⁸ ÷ 2³ × 2².",
+            "alternativas": [
+              "2⁷",
+              "2³",
+              "2¹³",
+              "2⁹"
+            ],
+            "correta": 0,
+            "explicacao": "Da esquerda para a direita: 2⁸ ÷ 2³ = 2⁵ (subtrai) e 2⁵ × 2² = 2⁷ (soma). Vale 128. O 2³ aparece quando se subtrai tudo.",
+            "dica": "Faça da esquerda para a direita: na divisão subtraia os expoentes, na multiplicação some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale (−3)³ + (−3)²?",
+            "alternativas": [
+              "18",
+              "−36",
+              "−18",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "(−3)³ = −27 (expoente ímpar mantém o sinal de menos) e (−3)² = 9 (expoente par deixa positivo). −27 + 9 = −18.",
+            "dica": "Base negativa: expoente ímpar mantém o sinal de menos; expoente par deixa positivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "(2 × 5)⁴ é igual a:",
+            "alternativas": [
+              "1000",
+              "10000",
+              "2⁴ + 5⁴",
+              "40"
+            ],
+            "correta": 1,
+            "explicacao": "Potência de um produto: (2 × 5)⁴ = 10⁴ = 10000. Também dá 2⁴ × 5⁴ = 16 × 625 = 10000. Somar 2⁴ + 5⁴ dá 641, que está errado.",
+            "dica": "Faça primeiro o que está dentro dos parênteses: 2 × 5 dá um número redondo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bactéria se divide em 2 a cada hora. Começando com 1, quantas haverá depois de 6 horas?",
+            "alternativas": [
+              "12",
+              "32",
+              "128",
+              "64"
+            ],
+            "correta": 3,
+            "explicacao": "A cada hora a quantidade dobra: 2, 4, 8, 16, 32, 64. Isso é 2⁶ = 64. O 12 vem de fazer 2 × 6, e o 32 corresponde a só 5 horas.",
+            "dica": "Depois de 1 hora há 2¹ bactérias; depois de 2 horas, 2². Qual potência vale para 6 horas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas expressões vale exatamente 1?",
+            "alternativas": [
+              "1⁰ + 1⁰",
+              "0⁵",
+              "5⁰ × 5⁰",
+              "2⁰ × 2¹"
+            ],
+            "correta": 2,
+            "explicacao": "5⁰ × 5⁰ = 1 × 1 = 1. As outras: 1⁰ + 1⁰ = 2; 0⁵ = 0; 2⁰ × 2¹ = 1 × 2 = 2.",
+            "dica": "Calcule cada opção. Lembre: número diferente de zero elevado a 0 vale 1, e zero vezes zero continua zero."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o algarismo das unidades de 3²⁰?",
+            "alternativas": [
+              "3",
+              "9",
+              "7",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "Os finais de 3¹, 3², 3³, 3⁴ são 3, 9, 7, 1 e o ciclo se repete de 4 em 4. Como 20 é múltiplo de 4, 3²⁰ termina como 3⁴: em 1.",
+            "dica": "Calcule 3¹, 3², 3³, 3⁴ e 3⁵ e olhe só o último algarismo: ele se repete em ciclo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 2⁻³?",
+            "alternativas": [
+              "−8",
+              "1/8",
+              "−6",
+              "8"
+            ],
+            "correta": 1,
+            "explicacao": "Expoente negativo inverte a base: 2⁻³ = 1/2³ = 1/8. A pegadinha é achar que o resultado fica negativo (−8) ou fazer 2 × (−3) = −6.",
+            "dica": "Expoente negativo não deixa o número negativo. Releia o aprofundamento sobre a regra da divisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de −3² + (−3)²?",
+            "alternativas": [
+              "18",
+              "−18",
+              "0",
+              "9"
+            ],
+            "correta": 2,
+            "explicacao": "Sem parênteses, o expoente vale só para o 3: −3² = −9. Com parênteses, vale para o −3: (−3)² = 9. Então −9 + 9 = 0.",
+            "dica": "Atenção aos parênteses: em um termo o expoente pega o sinal de menos, no outro não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é maior: 2³⁰ ou 8⁹?",
+            "alternativas": [
+              "2³⁰, porque 8⁹ = 2²⁷",
+              "8⁹, porque 8 é maior que 2",
+              "São iguais",
+              "Não dá para comparar sem calculadora"
+            ],
+            "correta": 0,
+            "explicacao": "8 = 2³, então 8⁹ = (2³)⁹ = 2²⁷. Com a mesma base, quem tem expoente maior ganha: 2³⁰ é maior (8 vezes maior, porque 2³ = 8).",
+            "dica": "Escreva 8 como potência de 2 e use a regra da potência de potência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale (2 + 3)² − (2² + 3²)?",
+            "alternativas": [
+              "0",
+              "12",
+              "25",
+              "13"
+            ],
+            "correta": 1,
+            "explicacao": "(2 + 3)² = 5² = 25 e 2² + 3² = 4 + 9 = 13. A diferença é 25 − 13 = 12. Quem acha que dá 0 está usando uma regra que não existe: o expoente não se distribui numa soma.",
+            "dica": "Calcule cada parêntese separado. O expoente não se distribui numa soma."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "O que é dinheiro e para que serve",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Antes do dinheiro, existia o escambo: troca direta de mercadorias. O problema é a chamada dupla coincidência de desejos — quem tem peixe e quer milho precisa achar alguém que tenha milho e queira peixe, ao mesmo tempo.",
+          "O dinheiro resolve isso e tem três funções clássicas. Meio de troca: todos aceitam, então você vende algo e compra outra coisa de outra pessoa. Unidade de conta: serve de régua para comparar preços (um tênis de R$ 200 vale 10 lanches de R$ 20). Reserva de valor: dá para guardar hoje e usar depois.",
+          "A moeda do Brasil é o real, criado em 1994. Quem emite o real é o Banco Central do Brasil; a Casa da Moeda fabrica as notas e moedas físicas. Hoje a maior parte do dinheiro circula de forma digital, por Pix, cartão e transferências.",
+          "A função de reserva de valor tem um inimigo: a inflação, que é o aumento geral dos preços. Se os preços sobem, o mesmo dinheiro compra menos coisas. Por isso guardar dinheiro parado por muito tempo faz ele perder poder de compra.",
+          "Entender isso muda hábitos: comparar preços (unidade de conta), não gastar tudo de uma vez (reserva de valor) e prestar atenção em quanto as coisas estão subindo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Em um ano, o preço de um lanche passou de R$ 20 para R$ 22. Quanto ele subiu, em porcentagem?",
+            "resolucao": "O aumento foi de R$ 2. Comparando com o preço antigo: 2 ÷ 20 = 0,10 = 10%. Com R$ 20 guardados no cofrinho, você não consegue mais comprar o mesmo lanche."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para o dinheiro funcionar, ele precisa de confiança. Uma nota de R$ 100 custa poucos centavos para ser fabricada; ela vale R$ 100 porque todos aceitam e porque a lei garante o real como moeda do país. Quando as pessoas perdem a confiança numa moeda, ela enfraquece.",
+        "O Brasil viveu uma hiperinflação antes de 1994: a alta de preços chegou a passar de 80% em um único mês. As pessoas corriam ao mercado no dia do pagamento, porque no dia seguinte tudo estaria mais caro. O Plano Real, de 1994, criou a moeda atual e controlou essa alta.",
+        "Inflação se acumula sobre ela mesma. Se os preços sobem 10% num ano e 10% no outro, a alta total não é 20%, e sim 21%: um produto de R$ 100 vai a R$ 110 e depois a R$ 121, porque o segundo aumento é calculado sobre o preço já aumentado. E salário que sobe menos que a inflação compra menos."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a troca direta de mercadorias, sem dinheiro?",
+            "alternativas": [
+              "Pix",
+              "Escambo",
+              "Inflação",
+              "Salário"
+            ],
+            "correta": 1,
+            "explicacao": "Escambo é trocar uma coisa por outra diretamente, como peixe por milho. Era assim antes do dinheiro existir.",
+            "dica": "É o sistema mais antigo, de antes da moeda existir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a moeda do Brasil?",
+            "alternativas": [
+              "O dólar",
+              "O peso",
+              "O real",
+              "O euro"
+            ],
+            "correta": 2,
+            "explicacao": "A moeda brasileira é o real (R$), criado em 1994. Dólar, peso e euro são moedas de outros países.",
+            "dica": "Ela foi criada em 1994 e usa o símbolo R$."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando os preços sobem de forma geral, chamamos isso de:",
+            "alternativas": [
+              "Inflação",
+              "Desconto",
+              "Troco",
+              "Poupança"
+            ],
+            "correta": 0,
+            "explicacao": "Inflação é o aumento geral dos preços. Com ela, o mesmo dinheiro compra menos coisas.",
+            "dica": "É o inimigo da reserva de valor, segundo a lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem fabrica as notas e moedas físicas do real?",
+            "alternativas": [
+              "A prefeitura",
+              "O supermercado",
+              "Os Correios",
+              "A Casa da Moeda"
+            ],
+            "correta": 3,
+            "explicacao": "O Banco Central emite o real, e a Casa da Moeda fabrica as notas e moedas físicas a pedido dele.",
+            "dica": "O Banco Central emite, mas a fábrica tem outro nome, que já diz o que ela faz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Guardar dinheiro hoje para usar depois é a função de:",
+            "alternativas": [
+              "Meio de troca",
+              "Reserva de valor",
+              "Unidade de conta",
+              "Escambo"
+            ],
+            "correta": 1,
+            "explicacao": "Reserva de valor é guardar para o futuro, como no cofrinho. Meio de troca é usar na compra; unidade de conta é comparar preços.",
+            "dica": "Pense num cofrinho: a ideia é manter o valor para usar no futuro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as três funções clássicas do dinheiro?",
+            "alternativas": [
+              "Comprar, vender e emprestar",
+              "Meio de troca, unidade de conta e reserva de valor",
+              "Moeda, nota e cartão",
+              "Salário, imposto e troco"
+            ],
+            "correta": 1,
+            "explicacao": "Meio de troca (todos aceitam), unidade de conta (mede preços) e reserva de valor (guarda para depois). Moeda, nota e cartão são formas do dinheiro, não funções.",
+            "dica": "Pense no que o dinheiro faz: ajuda a trocar, serve de régua e pode ser guardado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando você diz “esse tênis vale 10 lanches”, está usando o dinheiro principalmente como:",
+            "alternativas": [
+              "Meio de troca",
+              "Reserva de valor",
+              "Unidade de conta",
+              "Escambo"
+            ],
+            "correta": 2,
+            "explicacao": "Comparar o valor de coisas diferentes usando o preço é usar o dinheiro como régua, ou seja, como unidade de conta.",
+            "dica": "Comparar o valor de coisas diferentes usando o preço é usar o dinheiro como régua."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é inflação?",
+            "alternativas": [
+              "Aumento geral dos preços, que faz o dinheiro comprar menos",
+              "Quando o banco devolve dinheiro ao cliente",
+              "Quando uma nota de papel rasga",
+              "Desconto para pagamento à vista"
+            ],
+            "correta": 0,
+            "explicacao": "Com inflação, os preços sobem de forma geral. O dinheiro guardado continua com o mesmo número, mas compra menos coisas: perde poder de compra.",
+            "dica": "Lembre o lanche do exemplo, que custava R$ 20 e passou para R$ 22."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um passe de ônibus custava R$ 5,00 e subiu 10%. Quanto passou a custar?",
+            "alternativas": [
+              "R$ 5,10",
+              "R$ 6,00",
+              "R$ 5,50",
+              "R$ 15,00"
+            ],
+            "correta": 2,
+            "explicacao": "10% de 5,00 é 0,50 (basta dividir por 10). Então 5,00 + 0,50 = 5,50. O R$ 5,10 é o erro de somar 10 centavos em vez de 10%.",
+            "dica": "10% é a décima parte: divida R$ 5,00 por 10 e some ao preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual instituição é responsável por emitir o real no Brasil?",
+            "alternativas": [
+              "A prefeitura de cada cidade",
+              "Cada banco comercial",
+              "Os Correios",
+              "O Banco Central do Brasil"
+            ],
+            "correta": 3,
+            "explicacao": "O Banco Central do Brasil é quem emite a moeda e cuida do sistema de pagamentos, inclusive do Pix. A Casa da Moeda só fabrica as notas e moedas a pedido dele.",
+            "dica": "É o mesmo órgão que cuida do sistema de pagamentos Pix."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quilo de feijão custava R$ 8,00 e passou a custar R$ 10,00. O aumento foi de:",
+            "alternativas": [
+              "20%",
+              "2%",
+              "25%",
+              "80%"
+            ],
+            "correta": 2,
+            "explicacao": "O aumento foi de R$ 2. Comparando com o preço antigo: 2 ÷ 8 = 0,25 = 25%. Quem divide pelo preço novo (2 ÷ 10) acha 20%, que está errado.",
+            "dica": "Divida o aumento em reais pelo preço antigo, e não pelo novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na época do escambo, Ana tem galinhas e quer sapatos. Qual é a dificuldade?",
+            "alternativas": [
+              "Galinhas não valiam nada",
+              "Precisa achar alguém que tenha sapatos e queira galinhas ao mesmo tempo",
+              "Sapatos eram proibidos",
+              "Não existiam sapateiros"
+            ],
+            "correta": 1,
+            "explicacao": "É a dupla coincidência de desejos: não basta achar quem tem sapatos; essa pessoa também precisa querer galinhas. O dinheiro resolve isso.",
+            "dica": "Releia o que a lição chama de dupla coincidência de desejos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 100 você comprava 20 pacotes de arroz a R$ 5. Se o preço sobe para R$ 6,25, quantos pacotes consegue comprar?",
+            "alternativas": [
+              "16",
+              "18",
+              "15",
+              "20"
+            ],
+            "correta": 0,
+            "explicacao": "100 ÷ 6,25 = 16 pacotes (confira: 16 × 6,25 = 100). Com o mesmo dinheiro, 4 pacotes a menos: é a inflação tirando poder de compra.",
+            "dica": "Divida o dinheiro pelo novo preço. Uma pista: 4 pacotes de R$ 6,25 custam R$ 25."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual situação usa o dinheiro como meio de troca?",
+            "alternativas": [
+              "Comparar o preço de dois celulares",
+              "Guardar R$ 50 no cofrinho",
+              "Anotar quanto custa cada lanche",
+              "Vender um bolo e usar o dinheiro para comprar um livro"
+            ],
+            "correta": 3,
+            "explicacao": "O dinheiro passou de mão em mão: entrou na venda do bolo e saiu na compra do livro. Comparar e anotar preços é unidade de conta; guardar é reserva de valor.",
+            "dica": "Meio de troca é quando o dinheiro passa de mão em mão numa compra ou venda."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem histórica as formas de pagar:",
+            "itens": [
+              "Escambo (troca direta)",
+              "Moedas de metal",
+              "Notas de papel",
+              "Pagamentos digitais, como o Pix"
+            ],
+            "explicacao": "Primeiro as pessoas trocavam mercadorias; depois vieram as moedas de metal, as notas de papel e, hoje, os pagamentos digitais.",
+            "dica": "Vá do mais antigo, sem dinheiro algum, até o que se faz pelo celular."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto de R$ 200 subiu 10% num ano e mais 10% no ano seguinte. Qual é o preço final?",
+            "alternativas": [
+              "R$ 240,00",
+              "R$ 242,00",
+              "R$ 220,00",
+              "R$ 244,00"
+            ],
+            "correta": 1,
+            "explicacao": "1º ano: 200 + 20 = 220. 2º ano: 10% de 220 é 22, então 220 + 22 = 242. A pegadinha é somar 20% de uma vez e achar R$ 240.",
+            "dica": "O segundo aumento é calculado sobre o preço já aumentado, e não sobre os R$ 200."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma nota de R$ 100 custa poucos centavos para ser fabricada. Por que ela vale R$ 100?",
+            "alternativas": [
+              "Porque é feita de um papel muito caro",
+              "Porque o banco guarda ouro do mesmo valor para cada nota",
+              "Porque todos confiam e aceitam, e a lei garante o real como moeda do país",
+              "Porque tem número de série"
+            ],
+            "correta": 2,
+            "explicacao": "O valor da moeda vem da confiança e da lei. O papel especial e o número de série servem para dificultar falsificação, mas não dão valor à nota.",
+            "dica": "Releia o aprofundamento sobre o que sustenta o valor de uma moeda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num mês de hiperinflação de 80%, um pão de R$ 1,00 no começo do mês passaria a custar no fim:",
+            "alternativas": [
+              "R$ 1,80",
+              "R$ 1,08",
+              "R$ 8,00",
+              "R$ 0,80"
+            ],
+            "correta": 0,
+            "explicacao": "80% de R$ 1,00 são R$ 0,80. Somando: 1,00 + 0,80 = R$ 1,80. Quase o dobro em um mês: por isso a hiperinflação era tão cruel.",
+            "dica": "Ache 80% de R$ 1,00 e some ao preço inicial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu salário subiu 5% e a inflação do ano foi 8%. O que aconteceu com o seu poder de compra?",
+            "alternativas": [
+              "Aumentou 13%",
+              "Aumentou 5%",
+              "Ficou igual",
+              "Diminuiu, porque os preços subiram mais que o salário"
+            ],
+            "correta": 3,
+            "explicacao": "O número do salário aumentou, mas os preços subiram mais. Com o novo salário você compra menos do que comprava antes. É a diferença entre ganho no papel e ganho real.",
+            "dica": "Compare quanto o salário subiu com quanto os preços subiram. Quem ganhou a corrida?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Laura guardou R$ 1.000 no colchão e os preços subiram 10% no ano. Em preços do ano anterior, quanto o dinheiro dela passa a comprar, aproximadamente?",
+            "alternativas": [
+              "Cerca de R$ 909,00",
+              "R$ 900,00",
+              "R$ 1.100,00",
+              "R$ 1.000,00"
+            ],
+            "correta": 0,
+            "explicacao": "O que custava R$ 1.000 agora custa R$ 1.100. Com R$ 1.000 ela compra 1.000 ÷ 1.100 ≈ 0,909 do que comprava, ou cerca de R$ 909 em preços antigos. R$ 900 é a pegadinha de só tirar 10%.",
+            "dica": "Algo que custava mil reais passou a custar R$ 1.100. Que fração disso ela consegue pagar agora?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Algoritmos no dia a dia",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Algoritmo é uma sequência finita de instruções claras, em ordem, que resolve um problema. Finita porque precisa terminar; clara porque cada passo tem que ter um só significado.",
+          "Todo algoritmo pode ser pensado em três partes. Entrada: os dados que ele recebe. Processamento: o que ele faz com os dados. Saída: o resultado que entrega. No app de mapas, a entrada é o destino, o processamento é calcular rotas e a saída é o caminho sugerido.",
+          "Pessoas entendem instruções vagas; computadores não. “Coloque um pouco de sal” funciona com gente, mas um computador precisa de “coloque 5 gramas de sal”. Essa precisão é o coração da programação.",
+          "Você convive com algoritmos o dia inteiro: o que escolhe os vídeos que aparecem para você, o que calcula a sua média no boletim, o que organiza a fila de pedidos de um app de entrega. Saber como eles pensam ajuda a usá-los com mais consciência."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva um algoritmo que decide se um aluno passou, sabendo que precisa de média 5 com duas notas.",
+            "resolucao": "Entrada: nota1 e nota2. Processamento: média = (nota1 + nota2) ÷ 2; se média ≥ 5, resultado = “aprovado”, senão resultado = “em recuperação”. Saída: mostrar o resultado. Com notas 4 e 7: média 5,5 → aprovado."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um mesmo problema pode ter vários algoritmos, e alguns são muito mais rápidos. Para achar um nome numa lista de 1.000 nomes em ordem alfabética, olhar um por um pode levar 1.000 passos. Abrir no meio, ver se o nome vem antes ou depois e descartar a metade errada leva no máximo 10 passos, porque 2¹⁰ = 1024. Isso se chama busca binária.",
+        "O resultado de um algoritmo nunca é melhor que os dados de entrada. Se um algoritmo de recomendação só recebe vídeos de um tipo, só vai sugerir aquele tipo. Programadores resumem isso numa frase: entra lixo, sai lixo.",
+        "Algoritmos também repetem passos. Em “x ← 1; repita 3 vezes: x ← x × 2”, o valor de x vai para 2, depois 4, depois 8. Repetir é o que permite a um computador fazer milhões de contas parecidas sem que alguém escreva cada uma."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Algoritmo é:",
+            "alternativas": [
+              "Um tipo de computador",
+              "Uma sequência de instruções em ordem que resolve um problema",
+              "Um jogo de celular",
+              "Um vírus"
+            ],
+            "correta": 1,
+            "explicacao": "Algoritmo é uma sequência finita de passos claros, em ordem. Uma receita de bolo é um algoritmo.",
+            "dica": "Pense numa receita de bolo: passos claros, um depois do outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As três partes de um algoritmo são:",
+            "alternativas": [
+              "Entrada, processamento e saída",
+              "Início, meio e fim do jogo",
+              "Tela, teclado e mouse",
+              "Ligar, usar e desligar"
+            ],
+            "correta": 0,
+            "explicacao": "A entrada recebe os dados, o processamento trabalha com eles e a saída entrega o resultado.",
+            "dica": "Uma parte recebe dados, outra trabalha com eles e outra entrega o resultado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um algoritmo precisa terminar. Por isso dizemos que ele é:",
+            "alternativas": [
+              "Infinito",
+              "Rápido",
+              "Finito",
+              "Secreto"
+            ],
+            "correta": 2,
+            "explicacao": "Finito quer dizer que tem fim. Um algoritmo que nunca termina não entrega resultado.",
+            "dica": "Pense: um algoritmo que nunca acaba consegue entregar o resultado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No algoritmo que calcula a média do boletim, as notas são:",
+            "alternativas": [
+              "A saída",
+              "O processamento",
+              "O resultado",
+              "A entrada"
+            ],
+            "correta": 3,
+            "explicacao": "As notas são os dados recebidos, ou seja, a entrada. A média mostrada no fim é a saída.",
+            "dica": "As notas são os dados que o algoritmo recebe para começar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo de escovar os dentes:",
+            "itens": [
+              "Pegar a escova",
+              "Colocar a pasta",
+              "Escovar os dentes",
+              "Enxaguar a boca"
+            ],
+            "explicacao": "Cada passo depende do anterior: sem escova não há onde pôr pasta, e só se enxágua depois de escovar.",
+            "dica": "Pense no que precisa estar pronto antes de cada passo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num algoritmo, o que é a entrada?",
+            "alternativas": [
+              "O resultado final",
+              "Os dados que o algoritmo recebe para trabalhar",
+              "O botão de ligar o computador",
+              "O nome do programa"
+            ],
+            "correta": 1,
+            "explicacao": "Entrada são os dados recebidos (como as notas do aluno). O resultado final é a saída. Entre as duas fica o processamento.",
+            "dica": "Pense no que o algoritmo precisa receber antes de começar a trabalhar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo que calcula a média de três notas:",
+            "itens": [
+              "Receber as três notas",
+              "Somar as três notas",
+              "Dividir a soma por 3",
+              "Mostrar a média"
+            ],
+            "explicacao": "Entrada (receber), processamento (somar e depois dividir) e saída (mostrar). Dividir antes de somar tudo daria um resultado errado.",
+            "dica": "Primeiro os dados, depois as contas, por último o resultado. Qual conta vem antes da outra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que “coloque um pouco de sal” é uma instrução ruim para um computador?",
+            "alternativas": [
+              "Porque computador não cozinha",
+              "Porque sal faz mal à saúde",
+              "Porque está escrita em português",
+              "Porque é ambígua: “um pouco” não diz a quantidade exata"
+            ],
+            "correta": 3,
+            "explicacao": "Instruções de algoritmo precisam ser precisas. “Um pouco” pode ser uma pitada ou uma colher; o computador não tem como adivinhar.",
+            "dica": "Um computador precisaria saber exatamente quantos gramas. A frase diz isso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um app de mapas sugere o caminho mais rápido até a escola. Qual é a saída desse algoritmo?",
+            "alternativas": [
+              "O endereço de destino que você digitou",
+              "O mapa da cidade inteira",
+              "A rota sugerida com o tempo estimado",
+              "O GPS do celular"
+            ],
+            "correta": 2,
+            "explicacao": "O endereço digitado é a entrada; o GPS e o mapa são recursos usados no processamento; a rota com o tempo estimado é o que o app entrega: a saída.",
+            "dica": "Saída é o que o app entrega para você no final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No algoritmo seguro de fazer um Pix, qual passo deve vir logo antes de confirmar o pagamento?",
+            "alternativas": [
+              "Conferir o nome do recebedor e o valor",
+              "Abrir o app da conta",
+              "Escolher a opção Pix",
+              "Fechar o app"
+            ],
+            "correta": 0,
+            "explicacao": "O passo de conferir vem logo antes de confirmar: depois de confirmado, o Pix cai na hora e é difícil desfazer. A ordem do algoritmo protege o seu dinheiro.",
+            "dica": "Nunca confirme antes de checar quem vai receber e quanto."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Algoritmo: média = (nota1 + nota2) ÷ 2; se média ≥ 5, “aprovado”, senão “em recuperação”. Com notas 3 e 6, qual é a saída?",
+            "alternativas": [
+              "aprovado",
+              "em recuperação",
+              "média 9",
+              "erro"
+            ],
+            "correta": 1,
+            "explicacao": "(3 + 6) ÷ 2 = 4,5. Como 4,5 é menor que 5, a saída é “em recuperação”. O 9 é só a soma, antes de dividir.",
+            "dica": "Some as notas, divida por 2 e compare o resultado com 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual instrução é precisa o bastante para um robô?",
+            "alternativas": [
+              "Ande um pouco para a frente",
+              "Espere um tempinho",
+              "Ande 3 passos para a frente e vire 90° à direita",
+              "Coloque bastante água"
+            ],
+            "correta": 2,
+            "explicacao": "Só ela tem quantidades exatas. “Um pouco”, “um tempinho” e “bastante” são vagos: o robô não sabe quanto fazer.",
+            "dica": "Procure a instrução com números exatos e nenhuma palavra vaga."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um app de entrega mostra o tempo estimado do pedido. Qual destes NÃO é entrada desse algoritmo?",
+            "alternativas": [
+              "O tempo estimado mostrado na tela",
+              "O endereço do cliente",
+              "A localização do restaurante",
+              "O trânsito no momento"
+            ],
+            "correta": 0,
+            "explicacao": "O tempo estimado é o que o app calcula e mostra: é a saída. Endereço, localização e trânsito são dados recebidos para fazer a conta.",
+            "dica": "Entrada é o que o algoritmo recebe; o que ele mostra no fim é outra parte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Algoritmo do troco: troco ← pago − preço. Lucas paga R$ 50,00 por um lanche de R$ 32,50. Qual é a saída?",
+            "alternativas": [
+              "R$ 18,50",
+              "R$ 82,50",
+              "R$ 27,50",
+              "R$ 17,50"
+            ],
+            "correta": 3,
+            "explicacao": "50,00 − 32,50 = 17,50. Confira: 32,50 + 17,50 = 50,00. O R$ 82,50 aparece quando se soma em vez de subtrair.",
+            "dica": "Faça pago menos preço, com cuidado nos centavos. Depois confira somando."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo que descobre o maior de dois números:",
+            "itens": [
+              "Receber o número A e o número B",
+              "Comparar A com B",
+              "Guardar o maior deles",
+              "Mostrar o maior"
+            ],
+            "explicacao": "Entrada (receber), processamento (comparar e guardar o maior) e saída (mostrar). Não dá para comparar antes de ter os números.",
+            "dica": "Entrada, processamento e saída: a comparação precisa dos números antes."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa lista de 1.000 nomes em ordem alfabética, usando busca binária, quantos passos no máximo são necessários para achar um nome?",
+            "alternativas": [
+              "500",
+              "100",
+              "10",
+              "1000"
+            ],
+            "correta": 2,
+            "explicacao": "Cada passo corta a lista pela metade: 1000, 500, 250, 125, 63, 32, 16, 8, 4, 2, 1. Como 2¹⁰ = 1024 é maior que 1000, bastam no máximo 10 passos.",
+            "dica": "Cada passo corta a lista pela metade. Quantas vezes dá para dividir 1.000 por 2 até sobrar 1?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pensei num número de 1 a 100 e só respondo “maior” ou “menor”. Qual é o melhor primeiro palpite?",
+            "alternativas": [
+              "50",
+              "1",
+              "100",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "Chutando 50, qualquer resposta elimina metade das possibilidades. Chutar 1 ou 100 pode eliminar só um número. É a ideia da busca binária.",
+            "dica": "Escolha o palpite que descarta o máximo de números, seja qual for a resposta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um algoritmo de vídeos recebeu só dados de alguém que assistiu a vídeos de briga. O que ele provavelmente fará?",
+            "alternativas": [
+              "Sugerir vídeos variados",
+              "Sugerir mais vídeos de briga",
+              "Parar de funcionar",
+              "Sugerir só vídeos de estudo"
+            ],
+            "correta": 1,
+            "explicacao": "O algoritmo trabalha com o que recebe. Se só entra briga, só sai briga. Por isso vale escolher bem o que assistimos e curtimos.",
+            "dica": "Lembre a frase do aprofundamento sobre o que entra e o que sai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Algoritmo: x ← 1; repita 5 vezes: x ← x × 2; mostrar x. Qual é a saída?",
+            "alternativas": [
+              "10",
+              "16",
+              "64",
+              "32"
+            ],
+            "correta": 3,
+            "explicacao": "x vai para 2, 4, 8, 16 e 32 nas cinco repetições. É 2⁵ = 32. O 16 aparece se você contar só 4 vezes, e o 10 se somar em vez de multiplicar.",
+            "dica": "Faça uma tabela: depois da 1ª vez x vale 2; continue dobrando até completar as cinco vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas instruções NÃO forma um algoritmo válido, por não ser finita?",
+            "alternativas": [
+              "Some 2 e 3 e mostre o resultado",
+              "Leia a nota e diga se passou",
+              "Comece em 1 e some 1 para sempre, mostrando cada número",
+              "Ordene 10 nomes em ordem alfabética"
+            ],
+            "correta": 2,
+            "explicacao": "“Para sempre” nunca termina, então nunca entrega um resultado final. As outras têm fim claro.",
+            "dica": "Procure a instrução que nunca chega ao fim."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Ada, a moça que conversava com máquinas",
+    "texto": "Em 1815 nasceu em Londres Augusta Ada Byron, filha do famoso poeta Lord Byron. A mãe, apaixonada por números, fez questão de que a menina estudasse matemática numa época em que isso era raro para mulheres. Ada cresceu misturando cálculos com imaginação: chamava o próprio jeito de pensar de “ciência poética”.\n\nAos 17 anos conheceu Charles Babbage, um inventor que projetava a Máquina Analítica, um enorme aparelho de engrenagens que poderia fazer contas seguindo instruções gravadas em cartões perfurados. A máquina nunca chegou a ser construída por completo, mas Ada entendeu o seu potencial melhor do que quase todo mundo.\n\nEm 1843, já como condessa de Lovelace, ela traduziu um artigo sobre a máquina e acrescentou notas próprias, mais longas que o texto original. Numa delas, descreveu passo a passo como a máquina poderia calcular uma sequência de números complicada, os chamados números de Bernoulli. Muitos historiadores consideram esse o primeiro algoritmo escrito para uma máquina, e Ada, a primeira programadora da história.\n\nO mais impressionante é que ela foi além das contas. Escreveu que máquinas assim poderiam um dia trabalhar com símbolos, letras e até compor música. Mais de cem anos depois, os computadores fizeram exatamente isso.\n\nAda morreu jovem, aos 36 anos. Em sua homenagem, uma linguagem de programação recebeu o nome de Ada, e todo mês de outubro se comemora o Dia de Ada Lovelace, que celebra mulheres na ciência e na tecnologia."
+  },
+  "escrita": {
+    "proposta": "Ada imaginou o que as máquinas fariam no futuro. Escreva de 8 a 12 linhas descrevendo uma máquina ou um aplicativo que você gostaria de inventar para ajudar a sua escola ou o seu bairro. Diga qual seria a entrada, o que ela faria (processamento) e qual seria a saída."
+  }
+}

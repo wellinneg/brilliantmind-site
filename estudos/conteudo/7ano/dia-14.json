@@ -1,0 +1,1193 @@
+{
+  "dia": 14,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Regra de três: o valor que está faltando",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "A regra de três serve para descobrir um valor desconhecido quando duas grandezas são proporcionais. Monte uma tabelinha com as duas grandezas, coloque os valores que você conhece e um x no que falta.",
+          "Grandezas diretamente proporcionais: quando uma aumenta, a outra aumenta na mesma proporção. Mais pães, mais dinheiro. Nesse caso, multiplique cruzado: se 3 kg custam R$ 12, então 5 kg custam x, e 3 · x = 5 · 12, ou seja, 3x = 60 e x = 20.",
+          "Grandezas inversamente proporcionais: quando uma aumenta, a outra diminui na mesma proporção. Mais pedreiros, menos dias de obra. Nesse caso, multiplique em linha reta (cada valor pelo seu par): 4 pedreiros fazem em 12 dias; 6 pedreiros fazem em x dias: 4 · 12 = 6 · x, então 48 = 6x e x = 8.",
+          "Antes de fazer a conta, pergunte: se eu dobrar uma grandeza, a outra dobra (direta) ou cai pela metade (inversa)?"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "3 kg de feijão custam R$ 24. Quanto custam 5 kg?",
+            "resolucao": "Direta (mais feijão, mais dinheiro). 3x = 5 · 24 = 120, então x = 40. Custam R$ 40."
+          },
+          {
+            "enunciado": "4 pedreiros constroem um muro em 12 dias. Em quantos dias 6 pedreiros constroem o mesmo muro?",
+            "resolucao": "Inversa (mais pedreiros, menos dias). 4 · 12 = 6 · x, então 48 = 6x e x = 8 dias."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Porcentagem também sai por regra de três: 15% de R$ 80 é x, sabendo que 100% são 80. Então 100x = 15 · 80 = 1 200 e x = 12.",
+        "Cuidado: nem tudo é proporcional. Idade e altura não são: uma criança de 1,40 m aos 10 anos não vai medir 2,80 m aos 20. Antes de usar a regra de três, confirme que a relação é proporcional.",
+        "Na regra de três composta, há mais de duas grandezas. Resolva uma de cada vez: se 2 máquinas fazem 100 peças em 5 horas, 4 máquinas (o dobro) em 10 horas (o dobro) fazem 100 · 2 · 2 = 400 peças. Se uma grandeza for inversa, ela divide em vez de multiplicar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "2 pães custam R$ 1,60. Quanto custam 4 pães?",
+            "alternativas": [
+              "R$ 3,20",
+              "R$ 2,40",
+              "R$ 1,60",
+              "R$ 6,40"
+            ],
+            "correta": 0,
+            "explicacao": "4 é o dobro de 2, então o preço dobra: 1,60 × 2 = 3,20.",
+            "dica": "A quantidade de pães dobrou. E o preço?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mais operários na obra, menos dias de trabalho. Essas grandezas são:",
+            "alternativas": [
+              "Diretamente proporcionais",
+              "Inversamente proporcionais",
+              "Sempre iguais",
+              "Sem relação nenhuma"
+            ],
+            "correta": 1,
+            "explicacao": "Uma aumenta e a outra diminui: inversamente proporcionais.",
+            "dica": "Quando uma sobe, a outra sobe ou desce?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "1 caderno custa R$ 8. Quanto custam 5 cadernos?",
+            "alternativas": [
+              "R$ 13",
+              "R$ 30",
+              "R$ 40",
+              "R$ 45"
+            ],
+            "correta": 2,
+            "explicacao": "5 × 8 = 40. Somar 5 + 8 = 13 é o erro comum.",
+            "dica": "Cada caderno custa o mesmo. Junte 5 deles."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro anda 60 km em 1 hora. Na mesma velocidade, quanto anda em 3 horas?",
+            "alternativas": [
+              "120 km",
+              "63 km",
+              "200 km",
+              "180 km"
+            ],
+            "correta": 3,
+            "explicacao": "Triplicou o tempo, triplica a distância: 60 × 3 = 180.",
+            "dica": "O tempo ficou três vezes maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a regra de três?",
+            "alternativas": [
+              "Para achar um valor que falta quando as grandezas são proporcionais",
+              "Para decorar a tabuada",
+              "Para medir ângulos",
+              "Para contar letras"
+            ],
+            "correta": 0,
+            "explicacao": "Ela usa três valores conhecidos para achar o quarto.",
+            "dica": "O nome já diz: três valores conhecidos e um que falta."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "3 kg de feijão custam R$ 24. Quanto custam 5 kg?",
+            "alternativas": [
+              "R$ 35",
+              "R$ 40",
+              "R$ 48",
+              "R$ 30"
+            ],
+            "correta": 1,
+            "explicacao": "3x = 5 · 24 = 120; x = 40. Ou: 1 kg custa 8, então 5 kg custam 40.",
+            "dica": "Descubra quanto custa 1 kg primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "4 pedreiros fazem um muro em 12 dias. Em quantos dias 6 pedreiros fazem o mesmo muro?",
+            "alternativas": [
+              "18",
+              "10",
+              "8",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "Inversa: 4 · 12 = 6 · x; 48 = 6x; x = 8. Fazer como direta dá 18, o erro comum.",
+            "dica": "Mais pedreiros terminam mais rápido. A resposta tem que ser menos de 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma receita usa 2 xícaras de arroz para 6 pessoas. Quantas xícaras para 9 pessoas?",
+            "alternativas": [
+              "3",
+              "4",
+              "2",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "2/6 = x/9; 6x = 18; x = 3. Uma xícara serve 3 pessoas.",
+            "dica": "Quantas pessoas uma xícara serve?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma torneira com vazão de 10 litros por minuto enche uma caixa em 6 horas. Com vazão de 15 litros por minuto, em quanto tempo enche?",
+            "alternativas": [
+              "9 h",
+              "5 h",
+              "3 h",
+              "4 h"
+            ],
+            "correta": 3,
+            "explicacao": "Inversa: 10 · 6 = 15 · x; 60 = 15x; x = 4.",
+            "dica": "Com mais água por minuto, a caixa enche mais rápido ou mais devagar?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para resolver uma regra de três.",
+            "itens": [
+              "Identificar as duas grandezas",
+              "Montar a tabela com os valores",
+              "Ver se é direta ou inversa",
+              "Multiplicar e resolver a equação"
+            ],
+            "explicacao": "Primeiro organizar, depois classificar, e só então fazer a conta.",
+            "dica": "A conta muda conforme o tipo; descubra o tipo antes de multiplicar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ônibus a 60 km/h faz uma viagem em 2 horas. A 80 km/h, quanto tempo leva?",
+            "alternativas": [
+              "2 h 40 min",
+              "1 h 20 min",
+              "1 h 30 min",
+              "2 h 30 min"
+            ],
+            "correta": 2,
+            "explicacao": "Inversa: 60 · 2 = 80 · x; 120 = 80x; x = 1,5 h, que é 1 h 30 min.",
+            "dica": "Mais rápido, menos tempo. Cuidado ao transformar a parte decimal da hora em minutos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 15% de R$ 80?",
+            "alternativas": [
+              "R$ 12",
+              "R$ 15",
+              "R$ 8",
+              "R$ 68"
+            ],
+            "correta": 0,
+            "explicacao": "100% são 80; 15% são x: 100x = 1 200; x = 12. R$ 68 seria o preço com desconto.",
+            "dica": "Monte: 100 está para 80 assim como 15 está para x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "8 operários fazem um muro em 9 dias. Quantos operários são precisos para fazer em 6 dias?",
+            "alternativas": [
+              "6",
+              "12",
+              "10",
+              "16"
+            ],
+            "correta": 1,
+            "explicacao": "Inversa: 8 · 9 = 72 = 6 · x; x = 12.",
+            "dica": "Para terminar mais rápido, precisa de mais ou de menos gente?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma impressora imprime 45 páginas em 3 minutos. Quantas imprime em 10 minutos?",
+            "alternativas": [
+              "135",
+              "145",
+              "450",
+              "150"
+            ],
+            "correta": 3,
+            "explicacao": "45 ÷ 3 = 15 por minuto; 15 · 10 = 150.",
+            "dica": "Ache quantas páginas ela faz em 1 minuto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rui tem 10 anos e mede 1,40 m. Com 20 anos, ele vai medir 2,80 m?",
+            "alternativas": [
+              "Sim, pela regra de três direta",
+              "Sim, pela regra de três inversa",
+              "Não, idade e altura não são proporcionais",
+              "Ele vai medir 0,70 m"
+            ],
+            "correta": 2,
+            "explicacao": "A gente para de crescer na adolescência. Regra de três só vale para grandezas proporcionais.",
+            "dica": "Pense em adultos que você conhece. A altura dobra quando a idade dobra?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Há ração para 12 cães durante 15 dias. Se chegarem mais 6 cães, a ração dura quantos dias?",
+            "alternativas": [
+              "22",
+              "10",
+              "7,5",
+              "12"
+            ],
+            "correta": 1,
+            "explicacao": "Agora são 18 cães. Inversa: 12 · 15 = 180 = 18 · x; x = 10. A pegadinha é usar 6 cães no lugar de 18.",
+            "dica": "Quantos cães ficam no total? Mais cães comem a ração mais rápido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num mapa, 2 cm representam 5 km. Quanto representam 13 cm?",
+            "alternativas": [
+              "26 km",
+              "65 km",
+              "32,5 km",
+              "30 km"
+            ],
+            "correta": 2,
+            "explicacao": "Direta: 2x = 13 · 5 = 65; x = 32,5 km.",
+            "dica": "Descubra quantos quilômetros vale 1 cm."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "2 máquinas fazem 100 peças em 5 horas. Quantas peças 4 máquinas fazem em 10 horas?",
+            "alternativas": [
+              "200",
+              "100",
+              "800",
+              "400"
+            ],
+            "correta": 3,
+            "explicacao": "Dobram as máquinas (×2) e dobram as horas (×2): 100 · 2 · 2 = 400.",
+            "dica": "Resolva uma grandeza de cada vez, como no aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A bateria de um celular foi de 100% para 60% em 2 horas de vídeo. No mesmo ritmo, em quanto tempo os 60% restantes acabam?",
+            "alternativas": [
+              "3 h",
+              "1 h 30 min",
+              "2 h",
+              "6 h"
+            ],
+            "correta": 0,
+            "explicacao": "Gastou 40% em 2 h, ou seja, 20% por hora. 60 ÷ 20 = 3 h.",
+            "dica": "Calcule quanto por cento a bateria perde em 1 hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "3 pintores pintam 2 salas em 4 horas. Em quantas horas 6 pintores pintam 6 salas?",
+            "alternativas": [
+              "12 h",
+              "4 h",
+              "6 h",
+              "3 h"
+            ],
+            "correta": 2,
+            "explicacao": "Salas ×3 → tempo ×3 = 12 h. Pintores ×2 → tempo ÷2 = 6 h.",
+            "dica": "Mais salas aumentam o tempo; mais pintores diminuem. Aplique um efeito de cada vez."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Funções: um bloco que você chama pelo nome",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Função é um pedaço de programa com nome, que faz uma tarefa. Depois de criada, você pode usá-la (chamar) quantas vezes quiser, só escrevendo o nome dela.",
+          "A função pode receber entradas, chamadas parâmetros, e devolver uma saída, chamada retorno. Em pseudocódigo: função dobro(n): retornar n × 2. Quando chamamos dobro(7), o n vale 7 e a função devolve 14.",
+          "Em Python, a mesma função fica assim: def dobro(n): return n * 2. O def cria a função e o return devolve o resultado.",
+          "Vantagens: você não repete o mesmo código, o programa fica organizado e, se precisar corrigir, corrige num lugar só."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "função area(base, altura): retornar base × altura. Quanto dá area(3, 5)?",
+            "resolucao": "base vale 3 e altura vale 5, na ordem em que foram passados. 3 × 5 = 15."
+          },
+          {
+            "enunciado": "função triplo(n): retornar n × 3. Quanto dá triplo(4) + 1?",
+            "resolucao": "Primeiro a função: triplo(4) = 12. Depois a soma: 12 + 1 = 13."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Mostrar e retornar são diferentes. Uma função que só mostra o resultado na tela não devolve nada para usar depois. Uma que retorna devolve o valor, e ele pode entrar em outra conta: triplo(4) + 1.",
+        "A ordem dos parâmetros importa: em função dividir(a, b): retornar a / b, a chamada dividir(2, 10) dá 0,2, e não 5. Uma função pode chamar outra, ou até ela mesma com o resultado dela: em f(f(2)), resolva primeiro a de dentro.",
+        "Funções podem tomar decisões com se/senão e podem retornar verdadeiro ou falso. O sinal % dá o resto da divisão: 7 % 2 = 1, porque 7 dividido por 2 dá 3 e sobra 1. Assim, função par(n): retornar n % 2 = 0 responde se um número é par."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma função num programa?",
+            "alternativas": [
+              "Um bloco de código com nome que faz uma tarefa",
+              "Um tipo de teclado",
+              "Um vírus",
+              "Uma foto"
+            ],
+            "correta": 0,
+            "explicacao": "Função é um pedaço de código com nome, que pode ser usado várias vezes.",
+            "dica": "A lição começa explicando isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A função dobro(n) retorna n × 2. Quanto dá dobro(5)?",
+            "alternativas": [
+              "7",
+              "10",
+              "25",
+              "52"
+            ],
+            "correta": 1,
+            "explicacao": "n vale 5; 5 × 2 = 10.",
+            "dica": "Troque o n por 5 na conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma vantagem de usar funções?",
+            "alternativas": [
+              "Deixar o computador mais pesado",
+              "Apagar arquivos",
+              "Não precisar repetir o mesmo código várias vezes",
+              "Gastar mais bateria"
+            ],
+            "correta": 2,
+            "explicacao": "Você escreve uma vez e chama quantas vezes quiser.",
+            "dica": "Pense em escrever a mesma coisa dez vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o valor que a função devolve?",
+            "alternativas": [
+              "Teclado",
+              "Monitor",
+              "Pasta",
+              "Retorno"
+            ],
+            "correta": 3,
+            "explicacao": "A saída da função é o retorno.",
+            "dica": "É a palavra que vem depois de \"retornar\" no pseudocódigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em função somar(a, b), o que são a e b?",
+            "alternativas": [
+              "Parâmetros, as entradas da função",
+              "Resultados",
+              "Erros",
+              "Nomes de arquivos"
+            ],
+            "correta": 0,
+            "explicacao": "Os parâmetros recebem os valores na hora da chamada.",
+            "dica": "São os valores que entram na função."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "função triplo(n): retornar n × 3. Quanto dá triplo(4) + 1?",
+            "alternativas": [
+              "12",
+              "13",
+              "7",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "triplo(4) = 12; 12 + 1 = 13.",
+            "dica": "Resolva a função primeiro e depois a soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "função cumprimentar(nome): retornar \"Oi, \" + nome. O que dá cumprimentar(\"Bia\")?",
+            "alternativas": [
+              "Bia, Oi",
+              "Oi, nome",
+              "Oi, Bia",
+              "nome"
+            ],
+            "correta": 2,
+            "explicacao": "nome recebe \"Bia\" e é juntado depois de \"Oi, \".",
+            "dica": "O parâmetro é trocado pelo valor passado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "função area(base, altura): retornar base × altura. Quanto dá area(3, 5)?",
+            "alternativas": [
+              "8",
+              "35",
+              "53",
+              "15"
+            ],
+            "correta": 3,
+            "explicacao": "3 × 5 = 15.",
+            "dica": "A conta é uma multiplicação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python: def metade(n): return n / 2. Quanto dá metade(9)?",
+            "alternativas": [
+              "4.5",
+              "4",
+              "18",
+              "9.2"
+            ],
+            "correta": 0,
+            "explicacao": "9 / 2 = 4.5 (em Python, o decimal usa ponto).",
+            "dica": "Divida 9 por 2 sem desprezar o resto."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para criar e usar uma função.",
+            "itens": [
+              "Escolher um nome para a função",
+              "Definir os parâmetros (as entradas)",
+              "Escrever os passos dentro dela",
+              "Chamar a função pelo nome com os valores"
+            ],
+            "explicacao": "Só dá para chamar uma função depois de criá-la por inteiro.",
+            "dica": "Chamar a função é sempre o último passo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "função f(x): retornar x × x − 1. Quanto dá f(f(2))?",
+            "alternativas": [
+              "3",
+              "8",
+              "15",
+              "9"
+            ],
+            "correta": 1,
+            "explicacao": "Primeiro f(2) = 4 − 1 = 3. Depois f(3) = 9 − 1 = 8.",
+            "dica": "Resolva a função de dentro primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "função preco_final(preco): retornar preco − preco × 0,1. Quanto dá preco_final(50)?",
+            "alternativas": [
+              "45",
+              "40",
+              "49,9",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "50 × 0,1 = 5; 50 − 5 = 45. É um desconto de 10%.",
+            "dica": "Calcule a multiplicação antes da subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A função A mostra o resultado na tela. A função B retorna o resultado. Qual delas dá para usar numa conta como B(3) + 1?",
+            "alternativas": [
+              "A que mostra",
+              "As duas, do mesmo jeito",
+              "A que retorna",
+              "Nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "Só o valor retornado pode ser usado depois. Mostrar só exibe na tela.",
+            "dica": "Qual delas devolve o valor para o programa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "função soma(a, b): retornar a + b. O que aparece em mostrar(soma(soma(1, 2), 4))?",
+            "alternativas": [
+              "3",
+              "6",
+              "12",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "soma(1, 2) = 3; soma(3, 4) = 7.",
+            "dica": "A soma de dentro vira o primeiro parâmetro da de fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "função media(a, b): retornar a + b / 2. media(4, 8) deu 8, mas deveria dar 6. Qual é a correção?",
+            "alternativas": [
+              "retornar a / 2 + b",
+              "retornar (a + b) / 2",
+              "retornar a + b",
+              "retornar a × b / 2"
+            ],
+            "correta": 1,
+            "explicacao": "Sem parênteses, a divisão acontece antes. Com (a + b) / 2: 12 / 2 = 6.",
+            "dica": "A soma precisa acontecer antes da divisão."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "função g(n): se n > 10 então retornar n − 5, senão retornar n × 2. Quanto dá g(g(g(3)))?",
+            "alternativas": [
+              "12",
+              "6",
+              "7",
+              "24"
+            ],
+            "correta": 2,
+            "explicacao": "g(3) = 6 (3 não é maior que 10); g(6) = 12; g(12) = 12 − 5 = 7.",
+            "dica": "Vá de dentro para fora e teste a condição em cada passo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "função custo_total(qtd, preco, frete): retornar qtd × preco + frete. Quanto dá custo_total(3, 12, 8)?",
+            "alternativas": [
+              "60",
+              "44",
+              "23",
+              "288"
+            ],
+            "correta": 1,
+            "explicacao": "3 × 12 = 36; 36 + 8 = 44. Fazer 12 + 8 antes de multiplicar dá 60, o erro.",
+            "dica": "Coloque cada valor no parâmetro certo, na ordem, e faça a multiplicação primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "função dividir(a, b): retornar a / b. Quanto dá dividir(2, 10)?",
+            "alternativas": [
+              "5",
+              "20",
+              "12",
+              "0,2"
+            ],
+            "correta": 3,
+            "explicacao": "a = 2 e b = 10: 2 / 10 = 0,2. Inverter a ordem e responder 5 é a pegadinha.",
+            "dica": "O primeiro valor vai para o primeiro parâmetro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma função tem um bug e é usada em 10 lugares do programa. Qual é a vantagem de ela ser uma função?",
+            "alternativas": [
+              "Corrige em um lugar só e vale para os 10",
+              "Precisa corrigir nos 10 lugares",
+              "A função apaga o bug sozinha",
+              "Nenhuma vantagem"
+            ],
+            "correta": 0,
+            "explicacao": "O código fica num lugar só; corrigiu ali, corrigiu em todas as chamadas.",
+            "dica": "Onde está escrito o código da função?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "função par(n): retornar n % 2 = 0. Lembrando que % é o resto da divisão, o que dá par(7)?",
+            "alternativas": [
+              "Verdadeiro",
+              "Falso",
+              "1",
+              "3,5"
+            ],
+            "correta": 1,
+            "explicacao": "7 % 2 = 1, que não é 0. Então a resposta é falso: 7 não é par.",
+            "dica": "Calcule o resto de 7 dividido por 2 e compare com 0."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Imagem e tabela no Word",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para colocar uma foto, clique onde ela vai ficar e vá em Inserir > Imagens > Este Dispositivo. Para mudar o tamanho sem deformar, puxe sempre por um dos cantos da imagem.",
+          "A quebra de texto decide como o texto fica em volta da imagem. Alinhado ao texto: a imagem fica como se fosse uma letra grande. Quadrado: o texto contorna a imagem. Atrás do texto: a imagem vira fundo e o texto passa por cima.",
+          "Para criar uma tabela, vá em Inserir > Tabela e escolha quantas colunas e linhas. Uma tabela de 3 colunas e 4 linhas tem 3 × 4 = 12 células. A tecla Tab passa para a próxima célula; na última célula, o Tab cria uma linha nova.",
+          "Nas guias de tabela (Design da Tabela e Layout) você escolhe estilos com cores prontas, insere linhas e colunas e mescla células, que é juntar duas ou mais células em uma."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você quer uma tabela com Nome, Idade e Cidade de 5 colegas, com uma linha de título. Que tamanho escolher?",
+            "resolucao": "3 colunas (Nome, Idade, Cidade) e 6 linhas (1 de título + 5 colegas). São 18 células."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Se você puxar a imagem pelo meio de um lado, muda só a largura ou só a altura, e a foto fica esticada. Mantendo a proporção, uma imagem de 6 cm × 4 cm que passa a ter 9 cm de largura fica com 6 cm de altura (aumentou 1,5 vez nos dois lados).",
+        "Para numerar figuras, use Referências > Inserir Legenda (\"Figura 1 – Praça do bairro\"). Use imagens suas ou de uso livre e cite a fonte: pegar foto de qualquer site sem citar desrespeita o autor.",
+        "Truques de tabela: números ficam melhor alinhados à direita; em tabelas que passam de página, use Layout > Repetir Linhas de Cabeçalho; e se você tem uma lista com dados separados por ponto e vírgula, selecione e use Inserir > Tabela > Converter Texto em Tabela."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google, no computador ou no celular), faça a ficha \"Meu bairro\": um título, um parágrafo de 3 linhas e uma foto tirada por você, com quebra de texto Quadrado e legenda \"Figura 1 – ...\". Abaixo, crie uma tabela de 3 colunas (Lugar, O que tem lá, Distância de casa) com 1 linha de cabeçalho e 4 lugares. Aplique um estilo de tabela, deixe o cabeçalho em negrito e salve com o nome meu-bairro.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como colocar uma foto no Word?",
+            "alternativas": [
+              "Inserir > Imagens",
+              "Arquivo > Sair",
+              "Revisão > Ortografia",
+              "Exibir > Zoom"
+            ],
+            "correta": 0,
+            "explicacao": "A guia Inserir tem o botão Imagens.",
+            "dica": "Você quer pôr algo novo no documento. Qual guia?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma tabela é formada por:",
+            "alternativas": [
+              "Só cores",
+              "Linhas e colunas",
+              "Só imagens",
+              "Letras soltas"
+            ],
+            "correta": 1,
+            "explicacao": "O cruzamento das linhas com as colunas forma as células.",
+            "dica": "Pense numa tabela do campeonato."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tecla passa para a próxima célula da tabela?",
+            "alternativas": [
+              "Esc",
+              "Delete",
+              "Tab",
+              "Ctrl+Z"
+            ],
+            "correta": 2,
+            "explicacao": "Tab anda de célula em célula.",
+            "dica": "É a tecla do lado esquerdo do teclado, acima do Caps Lock."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como aumentar a foto sem deformar?",
+            "alternativas": [
+              "Puxar pelo meio de um lado",
+              "Apagar e inserir de novo",
+              "Mudar a fonte",
+              "Puxar por um dos cantos"
+            ],
+            "correta": 3,
+            "explicacao": "Pelo canto, largura e altura mudam juntas.",
+            "dica": "Releia o primeiro parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama juntar duas células em uma?",
+            "alternativas": [
+              "Mesclar células",
+              "Dividir células",
+              "Apagar células",
+              "Copiar células"
+            ],
+            "correta": 0,
+            "explicacao": "Mesclar junta as células escolhidas numa só.",
+            "dica": "É uma palavra que lembra misturar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma tabela de 3 colunas e 4 linhas tem quantas células?",
+            "alternativas": [
+              "7",
+              "12",
+              "34",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "3 × 4 = 12. Somar 3 + 4 é o erro comum.",
+            "dica": "Multiplique colunas por linhas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz a quebra de texto \"Quadrado\"?",
+            "alternativas": [
+              "A imagem fica atrás do texto",
+              "A imagem some",
+              "O texto contorna a imagem",
+              "O texto vira tabela"
+            ],
+            "correta": 2,
+            "explicacao": "No Quadrado, o texto se ajeita em volta da imagem.",
+            "dica": "Pense no texto desviando da imagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece ao apertar Tab na última célula da tabela?",
+            "alternativas": [
+              "A tabela é apagada",
+              "O Word fecha",
+              "A cor muda",
+              "Uma nova linha é criada"
+            ],
+            "correta": 3,
+            "explicacao": "É um jeito rápido de aumentar a tabela.",
+            "dica": "Releia o terceiro parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como adicionar uma linha no meio da tabela?",
+            "alternativas": [
+              "Clicar com o botão direito > Inserir > Inserir Linhas Abaixo",
+              "Apagar a tabela inteira",
+              "Apertar Ctrl+P",
+              "Trocar a fonte"
+            ],
+            "correta": 0,
+            "explicacao": "O menu do botão direito ou a guia Layout inserem linhas onde você quer.",
+            "dica": "Procure a opção que tem a palavra Inserir."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para inserir uma tabela.",
+            "itens": [
+              "Clicar onde a tabela vai ficar",
+              "Ir na guia Inserir",
+              "Clicar em Tabela",
+              "Escolher o número de colunas e linhas"
+            ],
+            "explicacao": "Primeiro o lugar, depois o caminho no menu e, por fim, o tamanho.",
+            "dica": "O tamanho da tabela é a última escolha."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Cauã puxou a imagem pelo meio da lateral e ela ficou esticada. Por quê?",
+            "alternativas": [
+              "O Word pegou vírus",
+              "A imagem era fraca",
+              "Mudou só a largura e perdeu a proporção",
+              "O Word travou"
+            ],
+            "correta": 2,
+            "explicacao": "Pelo meio do lado, só uma medida muda. Pelo canto, as duas mudam juntas.",
+            "dica": "Qual medida mudou e qual ficou igual?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma tabela tem 4 colunas e 6 linhas, e a primeira linha é o cabeçalho. Quantas células de dados ela tem?",
+            "alternativas": [
+              "24",
+              "20",
+              "18",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "Sem o cabeçalho, sobram 5 linhas: 4 × 5 = 20.",
+            "dica": "Tire a linha do cabeçalho antes de multiplicar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer escrever por cima da foto, como num cartaz. Qual quebra de texto usar?",
+            "alternativas": [
+              "Quadrado",
+              "Alinhado ao texto",
+              "Superior e inferior",
+              "Atrás do texto"
+            ],
+            "correta": 3,
+            "explicacao": "Com a imagem atrás, o texto passa por cima dela.",
+            "dica": "A imagem precisa virar fundo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para usar uma foto da internet num trabalho, o certo é:",
+            "alternativas": [
+              "Usar uma imagem livre ou própria e citar a fonte",
+              "Usar qualquer imagem sem citar",
+              "Recortar a marca d'água",
+              "Dizer que a foto é sua"
+            ],
+            "correta": 0,
+            "explicacao": "Respeitar o autor é citar a fonte e preferir imagens livres.",
+            "dica": "Pense em como você se sentiria se usassem sua foto sem dizer que é sua."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se insere uma legenda como \"Figura 1 – Praça do bairro\"?",
+            "alternativas": [
+              "Inserir > Gráfico",
+              "Layout > Margens",
+              "Referências > Inserir Legenda",
+              "Exibir > Régua"
+            ],
+            "correta": 2,
+            "explicacao": "A guia Referências cuida de legendas, sumário e citações.",
+            "dica": "O aprofundamento cita a guia certa."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma tabela tem 5 colunas e 3 linhas. Você mesclou as 5 células da primeira linha numa só. Quantas células a tabela tem agora?",
+            "alternativas": [
+              "15",
+              "11",
+              "10",
+              "12"
+            ],
+            "correta": 1,
+            "explicacao": "As outras 2 linhas têm 5 × 2 = 10 células; mais a célula mesclada: 11.",
+            "dica": "As 5 células da primeira linha viraram quantas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa tabela de preços, como alinhar os números para ficarem fáceis de comparar?",
+            "alternativas": [
+              "À esquerda",
+              "Justificado",
+              "À direita",
+              "Centralizado sem critério"
+            ],
+            "correta": 2,
+            "explicacao": "À direita, unidades ficam embaixo de unidades e centavos embaixo de centavos.",
+            "dica": "Pense em como você arma uma conta de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sua tabela passou para a segunda página e o cabeçalho sumiu lá. Como repetir o cabeçalho?",
+            "alternativas": [
+              "Copiar e colar à mão",
+              "É impossível",
+              "Mudar a fonte",
+              "Layout > Repetir Linhas de Cabeçalho"
+            ],
+            "correta": 3,
+            "explicacao": "Com essa opção, o Word repete sozinho o cabeçalho em cada página.",
+            "dica": "Há uma opção pronta na guia Layout da tabela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você tem 5 linhas de texto como \"Ana; 12; Osasco\". Qual é o jeito mais rápido de virar tabela?",
+            "alternativas": [
+              "Converter Texto em Tabela, com ponto e vírgula como separador",
+              "Digitar tudo de novo numa tabela",
+              "Tirar um print",
+              "Colar como imagem"
+            ],
+            "correta": 0,
+            "explicacao": "O Word usa o separador para dividir as colunas sozinho.",
+            "dica": "Os dados já estão separados por um sinal. O Word sabe usar isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma imagem mede 6 cm de largura e 4 cm de altura. Você aumentou mantendo a proporção até 9 cm de largura. Qual é a nova altura?",
+            "alternativas": [
+              "7 cm",
+              "6 cm",
+              "4 cm",
+              "9 cm"
+            ],
+            "correta": 1,
+            "explicacao": "A largura foi multiplicada por 1,5 (9 ÷ 6); a altura também: 4 × 1,5 = 6. Somar 3 cm e responder 7 é a pegadinha.",
+            "dica": "Ache por quanto a largura foi multiplicada e use o mesmo número na altura."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Comprar no atacado e revender",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O atacado vende em grande quantidade, com preço menor por unidade. O varejo vende para o consumidor final, peça por peça. Quem revende compra no atacado e vende no varejo; a diferença é o que paga o trabalho e gera lucro.",
+          "Em São Paulo, o Brás e a região da 25 de Março são polos de atacado famosos, principalmente de roupas e acessórios. Muita gente começa um pequeno negócio comprando lá.",
+          "Faça a conta completa do custo: mercadoria + passagem ou frete + lanche + sacolas. Divida pelo número de peças para achar o custo por peça. Só então defina o preço de venda.",
+          "Compre o que você já sabe que seus clientes querem (pergunte antes!), comece pequeno, confira as peças na hora e peça nota fiscal ao fornecedor."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Bia comprou 12 camisetas por R$ 180 e gastou R$ 24 de passagem e lanche. Ela vende cada uma a R$ 30. Qual é o lucro se vender todas?",
+            "resolucao": "Custo total: 180 + 24 = R$ 204. Custo por peça: 204 ÷ 12 = R$ 17. Vendendo todas: 12 × 30 = R$ 360. Lucro: 360 − 204 = R$ 156."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Estoque parado é dinheiro parado. Se Bia vender só 8 camisetas, recebe 8 × 30 = R$ 240 e o lucro cai para 240 − 204 = R$ 36. Comprar muito só porque está barato pode encalhar. E separe o dinheiro para recomprar o próximo lote (o capital de giro) antes de gastar o lucro.",
+        "Produto falsificado ou pirata é crime: a mercadoria pode ser apreendida e o vendedor processado. A nota fiscal prova que você comprou de forma legal. Com um MEI, você compra com CNPJ e emite nota para os seus clientes.",
+        "Comprar em grupo divide o custo da viagem: três amigas que rateiam R$ 60 de passagem pagam R$ 20 cada. E se precisar de ajuda para vender, combine por escrito o valor e o horário, e pague o combinado: tratar bem quem trabalha com você mantém as boas pessoas por perto."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O atacado vende:",
+            "alternativas": [
+              "Em grande quantidade, com preço menor por unidade",
+              "Uma peça por vez, mais caro",
+              "Só pela televisão",
+              "Só para turistas"
+            ],
+            "correta": 0,
+            "explicacao": "No atacado, quem compra mais paga menos por peça.",
+            "dica": "Pense em comprar uma caixa inteira em vez de uma unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O Brás, em São Paulo, é conhecido por:",
+            "alternativas": [
+              "Praias",
+              "Atacado de roupas",
+              "Plantações de café",
+              "Fábricas de avião"
+            ],
+            "correta": 1,
+            "explicacao": "O Brás é um dos maiores polos de atacado de roupas do país.",
+            "dica": "A lição cita o Brás como um lugar de compras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Wesley comprou 10 bonés por R$ 100. Quanto custou cada um?",
+            "alternativas": [
+              "R$ 1",
+              "R$ 100",
+              "R$ 10",
+              "R$ 110"
+            ],
+            "correta": 2,
+            "explicacao": "100 ÷ 10 = 10.",
+            "dica": "Divida o total pelo número de bonés."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Além da mercadoria, o que entra no custo?",
+            "alternativas": [
+              "Nada",
+              "Só o lucro",
+              "O preço do vizinho",
+              "Passagem, frete e sacolas"
+            ],
+            "correta": 3,
+            "explicacao": "Todo gasto para trazer e vender a mercadoria faz parte do custo.",
+            "dica": "O que mais você gasta para ir comprar e entregar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Vender no varejo é vender:",
+            "alternativas": [
+              "Direto para o consumidor final",
+              "Só para fábricas",
+              "Só para lojas",
+              "Só em leilão"
+            ],
+            "correta": 0,
+            "explicacao": "Varejo é a venda para quem vai usar o produto.",
+            "dica": "É o contrário do atacado."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia comprou 12 camisetas por R$ 180 e gastou R$ 24 de passagem e lanche. Qual é o custo por peça?",
+            "alternativas": [
+              "R$ 15",
+              "R$ 17",
+              "R$ 18",
+              "R$ 20"
+            ],
+            "correta": 1,
+            "explicacao": "180 + 24 = 204; 204 ÷ 12 = 17. Esquecer a passagem dá R$ 15.",
+            "dica": "Some todos os gastos antes de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia vende cada camiseta a R$ 30. Qual é o lucro se vender as 12? (Custo total: R$ 204.)",
+            "alternativas": [
+              "R$ 180",
+              "R$ 360",
+              "R$ 156",
+              "R$ 13"
+            ],
+            "correta": 2,
+            "explicacao": "12 × 30 = 360; 360 − 204 = 156. R$ 13 é o lucro de uma peça só.",
+            "dica": "Calcule quanto entra com as vendas e tire o custo total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que comprar no atacado para revender?",
+            "alternativas": [
+              "O que estiver mais bonito para você",
+              "Tudo o que for barato",
+              "O que sobrou na loja",
+              "O que você já sabe que seus clientes querem"
+            ],
+            "correta": 3,
+            "explicacao": "Perguntar antes evita encalhe.",
+            "dica": "Lembre da aula de pesquisa com cliente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Comprar produto falsificado para revender é:",
+            "alternativas": [
+              "Crime, e a mercadoria pode ser apreendida",
+              "Permitido, se for barato",
+              "Problema só se o cliente reclamar",
+              "A melhor forma de lucrar"
+            ],
+            "correta": 0,
+            "explicacao": "Falsificação é crime e pode acabar em apreensão e processo.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos de uma revenda bem-feita.",
+            "itens": [
+              "Perguntar aos clientes o que eles querem",
+              "Fazer a conta de quanto pode gastar",
+              "Comprar no atacado e pedir nota",
+              "Revender e anotar cada venda"
+            ],
+            "explicacao": "Primeiro saber o que vende, depois planejar o dinheiro, comprar e vender.",
+            "dica": "Comprar sem saber o que vende é o erro que esta ordem evita."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia vendeu só 8 das 12 camisetas, a R$ 30 cada. O custo total foi R$ 204. Qual é o lucro até agora?",
+            "alternativas": [
+              "R$ 104",
+              "R$ 36",
+              "R$ 240",
+              "R$ 156"
+            ],
+            "correta": 1,
+            "explicacao": "8 × 30 = 240; 240 − 204 = 36. O custo é das 12 peças, mesmo que só 8 tenham sido vendidas.",
+            "dica": "O custo foi pago por todas as camisetas, vendidas ou não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O custo por peça é R$ 17 e Bia quer ganhar R$ 10 em cada uma. Qual deve ser o preço de venda?",
+            "alternativas": [
+              "R$ 25",
+              "R$ 30",
+              "R$ 27",
+              "R$ 10"
+            ],
+            "correta": 2,
+            "explicacao": "17 + 10 = 27.",
+            "dica": "Preço = custo + o que ela quer ganhar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três amigas rateiam R$ 60 de passagem até o Brás. Cada uma compra 10 peças. Quanto a passagem pesa em cada peça?",
+            "alternativas": [
+              "R$ 2",
+              "R$ 6",
+              "R$ 20",
+              "R$ 0,20"
+            ],
+            "correta": 0,
+            "explicacao": "Cada uma paga 60 ÷ 3 = 20; 20 ÷ 10 peças = 2 por peça.",
+            "dica": "Primeiro divida entre as amigas, depois pelas peças de cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia vendeu tudo e lucrou R$ 156. Quanto ela deve separar para recomprar o mesmo lote, com os mesmos gastos?",
+            "alternativas": [
+              "R$ 156",
+              "R$ 360",
+              "R$ 180",
+              "R$ 204"
+            ],
+            "correta": 3,
+            "explicacao": "O lote custou 204 (mercadoria + passagem). Esse é o capital de giro; o lucro é o que sobra.",
+            "dica": "Quanto custou o lote da primeira vez, contando tudo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No atacado, 1 peça custa R$ 25, mas a partir de 6 peças cada uma sai por R$ 18. Quanto se economiza comprando 6 de uma vez em vez de uma por uma?",
+            "alternativas": [
+              "R$ 7",
+              "R$ 42",
+              "R$ 108",
+              "R$ 150"
+            ],
+            "correta": 1,
+            "explicacao": "Uma por uma: 6 × 25 = 150. No atacado: 6 × 18 = 108. Economia: 42. R$ 7 é a economia de uma peça só.",
+            "dica": "Calcule o total nos dois jeitos e subtraia."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um lote de 20 bolsas custa R$ 400, e a viagem custa R$ 40. Quer lucro total de R$ 260 vendendo todas. Qual deve ser o preço de cada bolsa?",
+            "alternativas": [
+              "R$ 33",
+              "R$ 22",
+              "R$ 35",
+              "R$ 30"
+            ],
+            "correta": 2,
+            "explicacao": "Custo 440 + lucro 260 = 700 a receber; 700 ÷ 20 = 35.",
+            "dica": "Some o custo total com o lucro desejado e divida pelas bolsas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Opção A: 50 peças a R$ 8. Opção B: 30 peças a R$ 10. Você vende 30 peças por mês, a R$ 15. Qual dá mais lucro neste mês?",
+            "alternativas": [
+              "A, porque a peça é mais barata",
+              "B, com lucro de R$ 150 contra R$ 50 da A",
+              "As duas dão o mesmo lucro",
+              "A, com lucro de R$ 450"
+            ],
+            "correta": 1,
+            "explicacao": "Vendas: 30 × 15 = 450 nas duas. A custou 400 (lucro 50, com 20 peças paradas); B custou 300 (lucro 150).",
+            "dica": "Você só vende 30 por mês. Quanto custou cada opção?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma peça custa R$ 17 e é vendida por R$ 34. Quanto é o lucro em porcentagem do custo?",
+            "alternativas": [
+              "50%",
+              "17%",
+              "200%",
+              "100%"
+            ],
+            "correta": 3,
+            "explicacao": "Lucro de 17 sobre custo de 17: 17 ÷ 17 = 1, ou seja, 100%. O preço dobrou.",
+            "dica": "Calcule o lucro em reais e compare com o custo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que pedir nota fiscal ao comprar no atacado?",
+            "alternativas": [
+              "Porque prova a origem legal da mercadoria e protege numa fiscalização",
+              "Porque deixa a mercadoria sempre mais cara",
+              "Não serve para nada",
+              "Só para enfeitar a loja"
+            ],
+            "correta": 0,
+            "explicacao": "Com nota, você mostra que comprou de forma legal e de quem comprou.",
+            "dica": "O que acontece se um fiscal perguntar de onde veio a mercadoria?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia precisa de ajuda para vender na feira no sábado. O que é certo fazer?",
+            "alternativas": [
+              "Não pagar, porque é amiga",
+              "Pagar com peças encalhadas sem combinar",
+              "Combinar por escrito o valor e o horário e pagar o combinado",
+              "Prometer e pagar quando sobrar dinheiro"
+            ],
+            "correta": 2,
+            "explicacao": "Combinado por escrito e pagamento justo evitam brigas e mantêm a boa ajudante.",
+            "dica": "O que faz alguém querer trabalhar com você de novo?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A primeira viagem ao Brás",
+    "texto": "Em julho, Camila foi com a tia Rose ao Brás pela primeira vez. Saíram de madrugada, de trem, com uma lista na mão: durante uma semana, Camila tinha perguntado às colegas da escola e da igreja o que elas comprariam. A resposta mais comum foi tiara e presilha de cabelo.\n\nAs ruas estavam lotadas. Numa loja, a tiara custava R$ 5 a unidade, mas, levando a dúzia, saía por R$ 3 cada. Camila fez a conta no caderno: 3 dúzias davam 36 tiaras por R$ 108. Somando passagem e lanche, R$ 30, o custo total ficava em R$ 138, cerca de R$ 3,83 por tiara.\n\n— E por quanto você vai vender? — perguntou a tia.\n\n— Por R$ 8. Se vender todas, recebo R$ 288 e sobram R$ 150 de lucro.\n\nA tia sorriu e lembrou de pedir a nota. Na volta, Camila separou as tiaras em saquinhos e anotou cada venda numa planilha.\n\nEm duas semanas, vendeu 30. Guardou R$ 138 num envelope escrito \"próximo lote\" e só depois pensou no que fazer com o resto."
+  },
+  "escrita": {
+    "proposta": "Escreva de 5 a 10 linhas no caderno planejando uma revenda sua: o que você compraria no atacado, quantas peças, quanto custaria tudo (mercadoria, passagem e lanche), o custo por peça e por quanto venderia. Calcule o lucro se vender todas e o lucro se vender só metade."
+  }
+}

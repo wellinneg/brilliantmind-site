@@ -1,0 +1,906 @@
+{
+  "dia": 16,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Equação do 1º grau: a balança equilibrada",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Equação é uma igualdade que tem um valor escondido, chamado incógnita. Normalmente usamos a letra x. Em x + 5 = 12, resolver a equação é descobrir quanto vale x.",
+          "Pense numa balança de dois pratos em equilíbrio: o que você faz de um lado, precisa fazer do outro. Se tirarmos 5 dos dois lados de x + 5 = 12, sobra x = 7.",
+          "Esse é o truque da operação inversa: para desfazer uma soma, subtraímos; para desfazer uma multiplicação, dividimos. Em 3x = 18, dividimos os dois lados por 3 e achamos x = 6.",
+          "Muitas equações têm dois passos. Em 2x + 4 = 20, primeiro tiramos 4 dos dois lados (2x = 16) e depois dividimos por 2 (x = 8). Primeiro a soma ou a subtração, depois a multiplicação ou a divisão.",
+          "Sempre confira: troque o x pelo valor encontrado. 2 × 8 + 4 = 16 + 4 = 20. Deu certo, então x = 8 é a resposta."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Lucas comprou 3 cadernos iguais e pagou mais R$ 2 por uma sacola. O total foi R$ 29. Quanto custou cada caderno?",
+            "resolucao": "Equação: 3x + 2 = 29. Tirando 2 dos dois lados: 3x = 27. Dividindo por 3: x = 9. Cada caderno custou R$ 9. Conferindo: 3 × 9 + 2 = 29."
+          },
+          {
+            "enunciado": "Resolva x − 7 = 15.",
+            "resolucao": "Para desfazer a subtração, somamos 7 dos dois lados: x = 15 + 7 = 22. Conferindo: 22 − 7 = 15."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Quando o x aparece dos dois lados, juntamos os x de um lado e os números do outro. Em 5x − 3 = 2x + 9: tiramos 2x dos dois lados (3x − 3 = 9), somamos 3 (3x = 12) e dividimos por 3 (x = 4).",
+        "Com parênteses, podemos aplicar a distributiva ou dividir primeiro. Em 2(x + 3) = 14: ou fazemos 2x + 6 = 14, ou dividimos tudo por 2 e ficamos com x + 3 = 7. Nos dois caminhos, x = 4.",
+        "Traduzir o problema é metade do trabalho. \"O dobro de um número mais 5 é 31\" vira 2x + 5 = 31, então x = 13. Números consecutivos são x, x + 1, x + 2... e idades: daqui a t anos, cada pessoa terá t anos a mais."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em x + 4 = 10, quanto vale x?",
+            "alternativas": [
+              "14",
+              "6",
+              "4",
+              "40"
+            ],
+            "correta": 1,
+            "explicacao": "6 + 4 = 10. Para desfazer a soma, fazemos 10 − 4 = 6. O 14 aparece quando alguém soma em vez de subtrair.",
+            "dica": "Que número somado com 4 dá 10?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o valor escondido de uma equação, geralmente o x?",
+            "alternativas": [
+              "Incógnita",
+              "Resultado",
+              "Parcela",
+              "Fração"
+            ],
+            "correta": 0,
+            "explicacao": "Incógnita é o valor desconhecido que queremos descobrir.",
+            "dica": "A lição deu um nome especial para a letra que esconde um número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 3x = 15, quanto vale x?",
+            "alternativas": [
+              "45",
+              "12",
+              "5",
+              "18"
+            ],
+            "correta": 2,
+            "explicacao": "3 × 5 = 15. Para desfazer a multiplicação por 3, dividimos: 15 ÷ 3 = 5.",
+            "dica": "Que número multiplicado por 3 dá 15?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa balança em equilíbrio, se você tira 2 kg de um prato, o que precisa fazer no outro?",
+            "alternativas": [
+              "Somar 2 kg",
+              "Não mexer",
+              "Multiplicar por 2",
+              "Tirar 2 kg também"
+            ],
+            "correta": 3,
+            "explicacao": "Para continuar em equilíbrio, os dois lados recebem a mesma mudança. É assim que resolvemos equações.",
+            "dica": "Para a balança não pender, os dois pratos precisam receber a mesma mudança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em x − 3 = 7, quanto vale x?",
+            "alternativas": [
+              "4",
+              "10",
+              "21",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "Somamos 3 dos dois lados: x = 7 + 3 = 10. Conferindo: 10 − 3 = 7.",
+            "dica": "Que número, tirando 3, sobra 7? Use a operação inversa da subtração."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 2x + 3 = 17.",
+            "alternativas": [
+              "10",
+              "7",
+              "14",
+              "8"
+            ],
+            "correta": 1,
+            "explicacao": "Tirando 3: 2x = 14. Dividindo por 2: x = 7. Conferindo: 2 × 7 + 3 = 17. O 14 é o valor de 2x, não de x.",
+            "dica": "Primeiro tire o 3 dos dois lados, depois divida por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva x ÷ 4 = 5.",
+            "alternativas": [
+              "20",
+              "9",
+              "1",
+              "1,25"
+            ],
+            "correta": 0,
+            "explicacao": "A operação inversa da divisão é a multiplicação: x = 5 × 4 = 20. Conferindo: 20 ÷ 4 = 5.",
+            "dica": "O x foi dividido por 4. Qual operação desfaz uma divisão?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tinha x figurinhas, ganhou 12 e ficou com 30. Qual equação representa a situação?",
+            "alternativas": [
+              "x − 12 = 30",
+              "12x = 30",
+              "x + 30 = 12",
+              "x + 12 = 30"
+            ],
+            "correta": 3,
+            "explicacao": "Ela tinha x e somou 12, chegando a 30: x + 12 = 30. Resolvendo, x = 18 figurinhas.",
+            "dica": "Ela tinha um valor desconhecido e ganhou mais; o total ficou 30."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 5x − 10 = 40.",
+            "alternativas": [
+              "6",
+              "50",
+              "10",
+              "8"
+            ],
+            "correta": 2,
+            "explicacao": "Somando 10: 5x = 50. Dividindo por 5: x = 10. Conferindo: 5 × 10 − 10 = 40.",
+            "dica": "Some 10 aos dois lados antes de dividir."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para resolver 4x + 8 = 32:",
+            "itens": [
+              "Tirar 8 dos dois lados",
+              "Ficar com 4x = 24",
+              "Dividir os dois lados por 4",
+              "Encontrar x = 6",
+              "Conferir: 4 × 6 + 8 = 32"
+            ],
+            "explicacao": "Primeiro desfazemos a soma (32 − 8 = 24), depois a multiplicação (24 ÷ 4 = 6) e por fim conferimos.",
+            "dica": "Desfaça primeiro a soma, depois a multiplicação, e só no fim confira."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 3x + 5 = x + 17.",
+            "alternativas": [
+              "6",
+              "11",
+              "3",
+              "4"
+            ],
+            "correta": 0,
+            "explicacao": "Tirando x dos dois lados: 2x + 5 = 17. Tirando 5: 2x = 12. Logo x = 6. Conferindo: 23 = 23.",
+            "dica": "Passe os x para um lado só e os números para o outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 2(x − 1) = 18.",
+            "alternativas": [
+              "8",
+              "9",
+              "10",
+              "19"
+            ],
+            "correta": 2,
+            "explicacao": "Dividindo por 2: x − 1 = 9, então x = 10. Pela distributiva: 2x − 2 = 18, 2x = 20, x = 10. O 9 é o valor de x − 1.",
+            "dica": "Divida os dois lados por 2 primeiro, ou aplique a distributiva."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quatro amigos compraram, cada um, um ingresso de cinema e uma pipoca de R$ 12. Gastaram R$ 120 no total. Quanto custou cada ingresso?",
+            "alternativas": [
+              "R$ 30",
+              "R$ 18",
+              "R$ 27",
+              "R$ 22"
+            ],
+            "correta": 1,
+            "explicacao": "4(x + 12) = 120, então x + 12 = 30 e x = 18. O R$ 30 é o gasto de cada amigo, não o ingresso.",
+            "dica": "Cada amigo gastou x + 12. Primeiro descubra quanto coube a cada um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O triplo de um número menos 7 é igual a 20. Que número é esse?",
+            "alternativas": [
+              "4,3",
+              "13",
+              "27",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "3x − 7 = 20, então 3x = 27 e x = 9. Conferindo: 27 − 7 = 20.",
+            "dica": "Escreva a equação com 3x e o menos 7 antes de resolver."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual valor de x torna 7x − 4 = 5x + 6 verdadeira?",
+            "alternativas": [
+              "1",
+              "2",
+              "5",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "Tirando 5x: 2x − 4 = 6. Somando 4: 2x = 10. Logo x = 5. Conferindo: 31 = 31.",
+            "dica": "Subtraia 5x dos dois lados e depois some 4."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Três números consecutivos somam 72. Qual é o MAIOR deles?",
+            "alternativas": [
+              "23",
+              "24",
+              "25",
+              "26"
+            ],
+            "correta": 2,
+            "explicacao": "x + (x + 1) + (x + 2) = 72, então 3x + 3 = 72, 3x = 69, x = 23. Os números são 23, 24 e 25; o maior é 25. A pegadinha é responder o menor ou o do meio.",
+            "dica": "Chame o menor de x; os outros são x + 1 e x + 2. Atenção ao que a pergunta pede."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O pai tem 40 anos e o filho, 10. Daqui a quantos anos o pai terá o dobro da idade do filho?",
+            "alternativas": [
+              "20",
+              "10",
+              "30",
+              "15"
+            ],
+            "correta": 0,
+            "explicacao": "40 + t = 2(10 + t), então 40 + t = 20 + 2t e t = 20. Em 20 anos: pai com 60 e filho com 30.",
+            "dica": "Daqui a t anos os dois envelhecem t. Monte: idade do pai = 2 × idade do filho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gabi pagou R$ 100 usando 14 notas, umas de R$ 5 e outras de R$ 10. Quantas notas de R$ 10 ela usou?",
+            "alternativas": [
+              "8",
+              "6",
+              "5",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "Com x notas de R$ 10, as de R$ 5 são 14 − x: 10x + 5(14 − x) = 100, 5x + 70 = 100, x = 6. São 6 de R$ 10 (R$ 60) e 8 de R$ 5 (R$ 40).",
+            "dica": "Se x são as notas de R$ 10, as de R$ 5 são 14 − x. Some os valores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um app de corrida cobra R$ 6 fixos mais R$ 2 por km. Outro cobra R$ 2,50 por km, sem taxa fixa. Com quantos km os dois preços ficam iguais?",
+            "alternativas": [
+              "6 km",
+              "24 km",
+              "3 km",
+              "12 km"
+            ],
+            "correta": 3,
+            "explicacao": "6 + 2x = 2,5x, então 6 = 0,5x e x = 12. Conferindo: 6 + 24 = 30 e 2,5 × 12 = 30.",
+            "dica": "Iguale os dois preços e junte os termos com x de um lado só."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a resolução de 3(x + 2) = x + 14:",
+            "itens": [
+              "Aplicar a distributiva: 3x + 6 = x + 14",
+              "Tirar x dos dois lados: 2x + 6 = 14",
+              "Tirar 6 dos dois lados: 2x = 8",
+              "Dividir por 2: x = 4",
+              "Conferir: 3 × 6 = 18 e 4 + 14 = 18"
+            ],
+            "explicacao": "Abrimos os parênteses, juntamos os x, isolamos o termo com x, dividimos e conferimos.",
+            "dica": "Primeiro abra os parênteses; depois junte os x; por último isole o x e confira."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Golpes: como não cair na armadilha",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Golpe é quando alguém engana a pessoa para pegar dinheiro ou dados dela. Os golpistas não precisam invadir nada: eles conversam, inventam uma história e fazem a própria vítima mandar o Pix ou passar a senha.",
+          "Golpes comuns: o falso parente (\"troquei de número, me manda um Pix\"), o falso funcionário do banco que liga pedindo senha, o link de entrega ou promoção falsa e o site com preço bom demais para ser verdade.",
+          "Os sinais de alerta se repetem: pressa (\"urgente\", \"agora\"), segredo (\"não conta para ninguém\"), pedido de senha ou de código e oferta muito abaixo do preço normal.",
+          "Regras de ouro: banco nunca pede senha nem código por mensagem ou ligação; o código de verificação do WhatsApp não se passa para ninguém; antes de confirmar um Pix, confira o nome de quem vai receber.",
+          "Na dúvida, pare. Desligue, mostre para um adulto e procure você mesmo o canal oficial: o número atrás do cartão, o aplicativo do banco ou o telefone que a família já conhece."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O pai recebe uma ligação: \"Aqui é do banco, sua conta foi invadida. Para proteger, digite sua senha no telefone\". O que fazer?",
+            "resolucao": "Desligar na hora. Banco não pede senha. Depois, o pai mesmo liga para o número que está atrás do cartão e pergunta se há algum problema."
+          },
+          {
+            "enunciado": "Um site vende um celular de R$ 2.500 por R$ 500, só no Pix. Isso é confiável?",
+            "resolucao": "O desconto é de R$ 2.000, ou seja, 80% do preço. Preço tão baixo, pagamento só por Pix e loja desconhecida são três sinais juntos de golpe."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Engenharia social é o nome do golpe feito pela conversa: o golpista estuda a vítima, usa nomes de parentes, cria medo ou pressa e faz a própria pessoa entregar o que ele quer. Por isso, a melhor defesa é desconfiar e conferir por outro caminho.",
+        "No boleto, os três primeiros números do código de barras indicam o banco que vai receber. Se o boleto diz ser de uma escola ou loja, mas o banco e o nome do beneficiário não batem com o que ela costuma usar, desconfie. Golpistas também conseguem fazer aparecer na tela um número de telefone falso, parecido com o do banco.",
+        "Se cair num golpe: avise o banco imediatamente pelo canal oficial e peça a contestação do Pix (o Banco Central criou um mecanismo de devolução para casos de fraude), faça boletim de ocorrência, que em São Paulo pode ser feito pela internet, troque senhas e avise os contatos. Quem cobra \"taxa para recuperar o dinheiro\" está aplicando um segundo golpe."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma mensagem diz ser do banco e pede sua senha. O que é verdade?",
+            "alternativas": [
+              "É normal, pode mandar",
+              "Banco de verdade nunca pede senha por mensagem",
+              "Pode mandar se for de manhã",
+              "Mande só metade da senha"
+            ],
+            "correta": 1,
+            "explicacao": "O banco já tem seus dados e nunca pede senha por mensagem ou ligação. Quem pede é golpista.",
+            "dica": "Pense: quem precisa saber a sua senha além de você?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um sinal de golpe?",
+            "alternativas": [
+              "Mensagem com muita pressa e urgência",
+              "Recibo com o nome da loja",
+              "Preço parecido com o de outras lojas",
+              "Conversa calma com a família"
+            ],
+            "correta": 0,
+            "explicacao": "Golpista cria pressa para a pessoa agir sem pensar e sem perguntar a ninguém.",
+            "dica": "Golpista não quer que você pare para pensar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Chegou um código de 6 números do WhatsApp e alguém pede esse código. O que fazer?",
+            "alternativas": [
+              "Passar rápido",
+              "Passar só para amigos novos",
+              "Postar no status",
+              "Nunca passar o código para ninguém"
+            ],
+            "correta": 3,
+            "explicacao": "Esse código é a chave da sua conta. Quem recebe o código consegue entrar no seu WhatsApp e pedir dinheiro aos seus contatos.",
+            "dica": "Esse código funciona como a chave da sua conta. Quem tem a chave entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um celular novo de R$ 3.000 aparece por R$ 300 num site desconhecido. Isso é:",
+            "alternativas": [
+              "Uma grande sorte",
+              "Um preço bom demais para ser verdade",
+              "Uma promoção oficial",
+              "Um presente do governo"
+            ],
+            "correta": 1,
+            "explicacao": "Ninguém vende um produto por 10% do preço. Oferta absurda é isca de golpe.",
+            "dica": "Compare o preço com o que as lojas normais cobram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de confirmar um Pix, o que você deve conferir na tela?",
+            "alternativas": [
+              "A cor do aplicativo",
+              "A hora do relógio",
+              "O nome de quem vai receber",
+              "O tamanho da letra"
+            ],
+            "correta": 2,
+            "explicacao": "O aplicativo mostra o nome do recebedor antes de confirmar. Se o nome for estranho, cancele.",
+            "dica": "Antes de confirmar, o aplicativo mostra para quem o dinheiro vai."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém liga: \"Sou do banco, sua conta foi invadida, digite sua senha\". Qual é a atitude certa?",
+            "alternativas": [
+              "Digitar a senha para proteger a conta",
+              "Desligar e ligar para o número que está atrás do cartão",
+              "Passar o número do cartão",
+              "Ficar na linha e seguir as ordens"
+            ],
+            "correta": 1,
+            "explicacao": "Quem ligou pode ser golpista. Desligue e procure você mesmo o canal oficial do banco.",
+            "dica": "Desconfie de quem ligou para você. Procure você mesmo o canal oficial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o truque do golpe do falso parente?",
+            "alternativas": [
+              "Fingir ser alguém da família com número novo",
+              "Mandar um presente pelo correio",
+              "Pedir para a pessoa estudar mais",
+              "Ligar do número antigo de sempre"
+            ],
+            "correta": 0,
+            "explicacao": "A mensagem começa com \"troquei de número\" e logo pede dinheiro. Ligar para o número antigo desmascara o golpe.",
+            "dica": "A mensagem costuma começar dizendo que a pessoa trocou de celular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Chegou por e-mail um boleto da escola com o valor certo, mas o beneficiário é um nome desconhecido. O que fazer?",
+            "alternativas": [
+              "Pagar, já que o valor está certo",
+              "Pagar só a metade",
+              "Não pagar e confirmar com a escola por um telefone conhecido",
+              "Encaminhar para os amigos"
+            ],
+            "correta": 2,
+            "explicacao": "No boleto, o mais importante é saber quem recebe. Valor certo não garante nada: o golpista copia o valor.",
+            "dica": "No boleto, o mais importante é saber para quem o dinheiro vai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas situações NÃO é sinal de golpe?",
+            "alternativas": [
+              "Pedir senha ou código",
+              "Prometer prêmio se você pagar uma taxa",
+              "Pressão para agir agora",
+              "Loja conhecida, com endereço, que emite nota fiscal"
+            ],
+            "correta": 3,
+            "explicacao": "Transparência (endereço, nota, atendimento) é o contrário do golpe. As outras três são sinais clássicos.",
+            "dica": "Procure a única opção que mostra transparência, sem pressa nem pedido de dados."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que fazer se a família cair num golpe de Pix:",
+            "itens": [
+              "Avisar o banco imediatamente pelo canal oficial",
+              "Pedir a contestação do Pix por fraude",
+              "Registrar boletim de ocorrência",
+              "Avisar a família e os contatos para não caírem também"
+            ],
+            "explicacao": "Quanto mais rápido o banco souber, maior a chance de bloquear o dinheiro. Depois vêm o registro e o aviso aos outros.",
+            "dica": "Quanto mais rápido falar com o banco, maior a chance de recuperar o dinheiro."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um site vende um tênis de R$ 500 por R$ 100. Qual é o desconto em porcentagem?",
+            "alternativas": [
+              "20%",
+              "50%",
+              "80%",
+              "400%"
+            ],
+            "correta": 2,
+            "explicacao": "O desconto é de R$ 400 sobre R$ 500: 400 ÷ 500 = 0,8 = 80%. Desconto desse tamanho é sinal de site falso.",
+            "dica": "Calcule quanto o preço diminuiu e compare com o preço original."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mensagem: \"Seu pacote está retido, pague R$ 9,90 neste link\". Você não comprou nada. O mais provável é:",
+            "alternativas": [
+              "Taxa real dos Correios",
+              "Golpe com link falso para roubar dados",
+              "Erro do vendedor",
+              "Brinde da loja"
+            ],
+            "correta": 1,
+            "explicacao": "Se você não esperava entrega, a mensagem é isca. O link leva a uma página que rouba dados do cartão.",
+            "dica": "Você esperava alguma entrega? Desconfie de links que pedem pagamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na feira, o QR Code da barraca parece colado por cima de outro e, ao ler, aparece um nome diferente do feirante. O que fazer?",
+            "alternativas": [
+              "Pagar, QR Code é sempre seguro",
+              "Pagar e pedir troco",
+              "Pagar duas vezes para garantir",
+              "Cancelar e conferir com o feirante o nome certo do recebedor"
+            ],
+            "correta": 3,
+            "explicacao": "Golpistas colam QR Codes falsos. O nome que aparece na tela antes de confirmar é o que vale.",
+            "dica": "Um QR Code pode ser trocado por outra pessoa. O nome na tela conta a verdade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que os golpistas usam palavras como \"urgente\" e \"agora\"?",
+            "alternativas": [
+              "Para a vítima agir sem pensar e sem consultar ninguém",
+              "Porque o banco obriga",
+              "Porque é mais educado",
+              "Para ajudar a vítima"
+            ],
+            "correta": 0,
+            "explicacao": "Com pressa, a pessoa não para para conferir. Por isso, a regra é: quanto mais pressa a mensagem tiver, mais calma você deve ter.",
+            "dica": "Pense no que acontece quando a gente tem pressa: paramos para conferir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafa perdeu R$ 200 num golpe. Um perfil oferece recuperar o dinheiro se ele pagar uma taxa de R$ 50. Isso é:",
+            "alternativas": [
+              "Serviço oficial do banco",
+              "Um segundo golpe, que se aproveita de quem já caiu",
+              "Ajuda da polícia",
+              "Seguro do Pix"
+            ],
+            "correta": 1,
+            "explicacao": "A contestação oficial é pedida no próprio banco e não tem taxa. Quem cobra para recuperar está aplicando outro golpe.",
+            "dica": "A devolução oficial é pedida no seu banco e não custa nada."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A escola avisou que usa o banco de código 341. Chega um boleto que começa com 104 e o beneficiário é \"Pagamentos Rápidos ME\". O que concluir?",
+            "alternativas": [
+              "Pode pagar, todo boleto é igual",
+              "Sinal forte de boleto falso: banco e beneficiário não batem",
+              "O código do banco não importa",
+              "É só pagar mais rápido"
+            ],
+            "correta": 1,
+            "explicacao": "Os três primeiros números indicam o banco recebedor. Banco diferente e nome estranho mostram que o dinheiro iria para outra pessoa.",
+            "dica": "Lembre o que os três primeiros números do código revelam e compare com o nome do beneficiário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um perfil promete: \"Coloque R$ 100 e receba R$ 1.000 em uma semana\". Qual seria o ganho prometido em porcentagem?",
+            "alternativas": [
+              "10%",
+              "90%",
+              "900%",
+              "1.000%"
+            ],
+            "correta": 2,
+            "explicacao": "O ganho é o que passa do que foi colocado: 1.000 − 100 = 900, e 900 ÷ 100 = 9 = 900%. Nenhum investimento real paga isso: é golpe. A pegadinha é responder 1.000%.",
+            "dica": "Ganho é só o que passou do valor colocado. Compare esse ganho com os R$ 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é engenharia social?",
+            "alternativas": [
+              "Enganar a pessoa pela conversa para ela mesma entregar dados ou dinheiro",
+              "Um curso de engenharia",
+              "Um vírus que entra sozinho no celular",
+              "Uma rede social nova"
+            ],
+            "correta": 0,
+            "explicacao": "Na engenharia social o golpista não invade o sistema: ele convence a vítima com uma história, usando medo, pressa ou confiança.",
+            "dica": "Releia o aprofundamento: o golpista não invade o sistema, ele convence alguém."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A mãe recebe uma ligação e o número na tela parece ser do banco. Pedem que ela instale um aplicativo \"de segurança\". O mais seguro é:",
+            "alternativas": [
+              "Instalar, porque o número na tela era do banco",
+              "Instalar só se for rápido",
+              "Passar só o código que chegou por SMS",
+              "Desligar e ela mesma ligar para o número do cartão"
+            ],
+            "correta": 3,
+            "explicacao": "Golpistas conseguem falsificar o número que aparece na tela. O aplicativo pedido costuma dar controle do celular ao golpista.",
+            "dica": "O número na tela pode ser falsificado. Quem deve começar a ligação?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as etapas típicas do golpe do falso parente:",
+            "itens": [
+              "Mensagem de número desconhecido: \"troquei de número\"",
+              "Conversa para ganhar confiança",
+              "Pedido de Pix com urgência",
+              "Pressão: \"não conta para ninguém\""
+            ],
+            "explicacao": "Primeiro ele se apresenta, depois ganha confiança, então pede e, por fim, pressiona para a vítima não conferir.",
+            "dica": "Primeiro ele se apresenta, depois ganha confiança; só então pede e pressiona."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Listas: muitos valores numa variável só",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma lista guarda vários valores numa variável só, em ordem. Exemplo: notas ← [7, 8, 5, 10]. É como uma fila de caixinhas, cada uma com um valor.",
+          "Cada item tem uma posição chamada índice. Na maioria das linguagens, como Python, o índice começa em 0: notas[0] é 7, notas[1] é 8 e notas[3] é 10.",
+          "TAMANHO(notas) diz quantos itens a lista tem: 4. Como a contagem começa em 0, o último índice é sempre o tamanho menos 1.",
+          "Para colocar um item no final, usamos ADICIONE: ADICIONE 9 AO FINAL DE notas deixa a lista [7, 8, 5, 10, 9]. Para trocar um item, usamos o índice: notas[2] ← 6 troca o 5 por 6.",
+          "Para passar por todos os itens, usamos repetição: PARA CADA nota EM notas FAÇA ESCREVA nota. O computador mostra uma nota por vez, na ordem da lista."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "compras ← ['arroz', 'feijão', 'óleo']. O que é compras[1]?",
+            "resolucao": "Contando do 0: compras[0] é 'arroz' e compras[1] é 'feijão'."
+          },
+          {
+            "enunciado": "Some as notas [7, 8, 5, 10] com um algoritmo.",
+            "resolucao": "total ← 0; PARA CADA n EM notas FAÇA total ← total + n. O total passa por 7, 15, 20 e 30. A média é 30 ÷ 4 = 7,5."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O último item pode ser pego sem saber o tamanho de cabeça: lista[TAMANHO(lista) − 1]. Em Python, existe até um atalho: lista[-1]. Pedir uma posição que não existe, como notas[4] numa lista de 4 itens, causa erro de índice e o programa para.",
+        "Também dá para perguntar se um valor está na lista: 'uva' ESTÁ EM frutas responde VERDADEIRO ou FALSO. E dá para percorrer pelos índices: PARA i DE 0 ATÉ TAMANHO(lista) − 1 FAÇA ESCREVA lista[i].",
+        "Um algoritmo clássico com listas é achar o maior valor: começamos com maior ← 0 (ou com o primeiro item) e, a cada item, SE item > maior ENTÃO maior ← item. No fim, maior guarda o maior número da lista."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve uma lista em programação?",
+            "alternativas": [
+              "Guardar vários valores numa variável só",
+              "Desligar o computador",
+              "Guardar só um número",
+              "Pintar a tela"
+            ],
+            "correta": 0,
+            "explicacao": "A lista guarda vários valores em ordem, como uma lista de compras guarda vários produtos.",
+            "dica": "Pense numa lista de compras: quantas coisas cabem nela?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, a primeira posição (índice) de uma lista é:",
+            "alternativas": [
+              "1",
+              "0",
+              "2",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "A contagem dos índices começa em 0. Por isso o primeiro item é lista[0].",
+            "dica": "A lição disse que a contagem das posições é diferente da nossa contagem normal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cores ← ['azul', 'verde', 'rosa']. Quantos itens a lista tem?",
+            "alternativas": [
+              "2",
+              "4",
+              "3",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "São três cores entre os colchetes, então TAMANHO(cores) é 3.",
+            "dica": "Conte os itens entre os colchetes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz ADICIONE 5 AO FINAL DE lista?",
+            "alternativas": [
+              "Apaga a lista",
+              "Troca o primeiro item",
+              "Coloca a lista em ordem",
+              "Coloca o 5 como último item"
+            ],
+            "correta": 3,
+            "explicacao": "ADICIONE coloca o novo valor no fim da lista, que fica um item maior.",
+            "dica": "Leia o comando com calma: ele diz onde o 5 vai ficar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "animais ← ['gato', 'cão', 'pato']. Quem é animais[0]?",
+            "alternativas": [
+              "'cão'",
+              "'pato'",
+              "'gato'",
+              "Dá erro"
+            ],
+            "correta": 2,
+            "explicacao": "O índice 0 é a primeira posição, onde está 'gato'.",
+            "dica": "O índice 0 é a primeira posição da lista."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "notas ← [6, 9, 4, 8]. Quanto vale notas[2]?",
+            "alternativas": [
+              "9",
+              "4",
+              "8",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "Contando do 0: notas[0] = 6, notas[1] = 9, notas[2] = 4. Quem conta a partir do 1 erra e responde 9.",
+            "dica": "Conte as posições começando do 0: 0, 1, 2..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale TAMANHO([3, 5, 7, 9, 11])?",
+            "alternativas": [
+              "11",
+              "4",
+              "35",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "TAMANHO conta quantos itens existem: são 5. Não soma os valores (que daria 35).",
+            "dica": "TAMANHO conta os itens, não soma os valores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "lista ← ['a', 'b']; ADICIONE 'c' AO FINAL DE lista; ESCREVA lista. O que aparece?",
+            "alternativas": [
+              "['a', 'b', 'c']",
+              "['c', 'a', 'b']",
+              "['a', 'c']",
+              "['c']"
+            ],
+            "correta": 0,
+            "explicacao": "O 'c' entra no final e os outros continuam lá.",
+            "dica": "ADICIONE coloca o novo item em qual ponta? E os antigos somem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total ← 0; PARA CADA n EM [2, 4, 6] FAÇA total ← total + n. Quanto vale total no fim?",
+            "alternativas": [
+              "6",
+              "246",
+              "12",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "total vai de 0 para 2, depois 6, depois 12. O 6 é só o último item.",
+            "dica": "Faça no papel: total começa em 0 e recebe cada número, um por vez."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para criar e mostrar a lista de chamada:",
+            "itens": [
+              "Criar a lista vazia: alunos ← []",
+              "Adicionar os nomes ao final da lista",
+              "Percorrer a lista com PARA CADA",
+              "Mostrar cada nome com ESCREVA"
+            ],
+            "explicacao": "A lista precisa existir antes de receber nomes; só depois dá para percorrê-la e mostrar.",
+            "dica": "Primeiro a lista precisa existir; só depois dá para colocar nomes e mostrá-los."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lista tem 7 itens. Qual é o índice do último?",
+            "alternativas": [
+              "7",
+              "6",
+              "8",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "Os índices vão de 0 a 6. O último índice é sempre o tamanho menos 1.",
+            "dica": "Se o primeiro índice é 0, o último é a quantidade menos um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "precos ← [10, 20, 30]; precos[1] ← 25; ESCREVA precos. O que aparece?",
+            "alternativas": [
+              "[10, 25, 30]",
+              "[25, 20, 30]",
+              "[10, 20, 25]",
+              "[10, 20, 30, 25]"
+            ],
+            "correta": 0,
+            "explicacao": "precos[1] é a segunda posição (o 20), que vira 25. Trocar pelo índice não aumenta a lista.",
+            "dica": "O comando troca o item de uma posição, não adiciona nada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nomes ← ['Ana', 'Leo', 'Bia']; ESCREVA nomes[3]. O que acontece?",
+            "alternativas": [
+              "Mostra 'Bia'",
+              "Mostra 'Ana'",
+              "Dá erro de índice, porque o último índice é 2",
+              "Mostra uma lista vazia"
+            ],
+            "correta": 2,
+            "explicacao": "Com 3 itens, os índices são 0, 1 e 2. A posição 3 não existe, então dá erro.",
+            "dica": "Com 3 itens, as posições vão de 0 a quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas ← [4, 7, 9, 5, 6]; cont ← 0; PARA CADA n EM notas FAÇA SE n > 5 ENTÃO cont ← cont + 1. Quanto vale cont?",
+            "alternativas": [
+              "4",
+              "2",
+              "5",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Só 7, 9 e 6 são maiores que 5. O 5 não é maior que 5, então cont = 3.",
+            "dica": "Cuidado com o 5: ele é maior que ele mesmo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "lista ← [1, 2]; adicione 3 ao final; depois adicione 4 ao final. Quanto vale TAMANHO(lista)?",
+            "alternativas": [
+              "2",
+              "4",
+              "3",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "Começa com 2 itens e cada ADICIONE soma mais 1: 2 + 1 + 1 = 4. O 10 seria a soma dos valores.",
+            "dica": "Cada ADICIONE aumenta a lista em um item."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "notas ← [8, 5, 9, 7]. Quanto vale notas[TAMANHO(notas) − 1] + notas[0]?",
+            "alternativas": [
+              "13",
+              "17",
+              "15",
+              "16"
+            ],
+            "correta": 2,
+            "explicacao": "TAMANHO é 4, então o último índice é 3: notas[3] = 7. Somando com notas[0] = 8, dá 15.",
+            "dica": "Primeiro descubra o último índice; depois some esse item com o primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "letras ← ['a', 'b', 'c', 'd', 'e']; PARA i DE 1 ATÉ 3 FAÇA ESCREVA letras[i]. O que aparece?",
+            "alternativas": [
+              "b, c, d",
+              "a, b, c",
+              "b, c, d, e",
+              "a, b, c, d"
+            ],
+            "correta": 0,
+            "explicacao": "i vale 1, 2 e 3: letras[1] = 'b', letras[2] = 'c', letras[3] = 'd'. Quem conta do 1 acha que começa no 'a'.",
+            "dica": "Os índices começam em 0. Veja qual letra está em cada posição de 1 a 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "maior ← 0; PARA CADA n EM [3, 11, 7, 2] FAÇA SE n > maior ENTÃO maior ← n. Quanto vale maior no fim?",
+            "alternativas": [
+              "2",
+              "7",
+              "3",
+              "11"
+            ],
+            "correta": 3,
+            "explicacao": "maior passa de 0 para 3, depois 11; 7 e 2 não são maiores que 11. O 2 seria só o último item.",
+            "dica": "Acompanhe a variável maior a cada volta: ela só muda quando aparece alguém maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "compras ← ['pão', 'leite']. Qual é a resposta de 'café' ESTÁ EM compras?",
+            "alternativas": [
+              "VERDADEIRO",
+              "FALSO",
+              "Dá erro",
+              "'café'"
+            ],
+            "correta": 1,
+            "explicacao": "'café' não está na lista, então a resposta é FALSO. Perguntar não dá erro, só responde sim ou não.",
+            "dica": "A pergunta é se o item está na lista. Ele está?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "fila ← []; adicione 'Ana'; adicione 'Bruno'; fila[0] ← 'Caio'; adicione 'Duda'. Coloque em ordem como a lista fica após cada comando:",
+            "itens": [
+              "[]",
+              "['Ana']",
+              "['Ana', 'Bruno']",
+              "['Caio', 'Bruno']",
+              "['Caio', 'Bruno', 'Duda']"
+            ],
+            "explicacao": "Cada ADICIONE aumenta a lista; fila[0] ← 'Caio' só troca a primeira posição, sem mudar o tamanho.",
+            "dica": "Siga um comando por vez. Trocar a posição 0 não muda o tamanho."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A balança da Dona Lurdes",
+    "texto": "Toda sexta, a Dona Lurdes monta a banca de frutas na feira do bairro. A balança dela é antiga, de dois pratos, e os pesos de ferro ficam numa caixinha de madeira.\n\nNaquela manhã, Caio, o neto, chegou para ajudar e encontrou a avó coçando a cabeça.\n\n— Sumiu um peso, Caio. Sei que tinha 1 kg, 2 kg e um que eu não lembro.\n\nO menino pensou um pouco. Colocou um saco de laranjas de 5 kg num prato. No outro, colocou o peso misterioso e o peso de 2 kg. A balança ficou equilibrada.\n\n— Vó, se o desconhecido mais 2 dá 5, então ele vale 3 quilos. É só tirar 2 dos dois lados!\n\nDona Lurdes riu e pegou o caderninho de contas.\n\n— Na minha época isso se chamava esperteza.\n\n— Hoje a professora chama de equação, vó.\n\nO peso de 3 kg estava escondido embaixo da lona. Desde então, a avó deixa o caderninho na banca e, quando tem dúvida, chama o neto para fazer conta de balança."
+  },
+  "escrita": {
+    "proposta": "Escreva de 5 a 8 linhas explicando, com suas palavras, como o Caio descobriu o peso misterioso. Depois, invente um problema parecido com a balança da feira, escreva a equação e resolva."
+  }
+}

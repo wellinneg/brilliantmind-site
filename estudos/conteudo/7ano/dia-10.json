@@ -1,0 +1,905 @@
+{
+  "dia": 10,
+  "blocos": [
+    {
+      "materia": "portugues",
+      "titulo": "Vírgula sem medo",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "A vírgula marca uma pausa curta e organiza as ideias da frase. Usada no lugar errado, ela atrapalha e pode até mudar o sentido.",
+          "Use vírgula para separar itens de uma lista: 'Comprei arroz, feijão, ovo e farinha.' Antes do último item, normalmente vem o 'e', sem vírgula.",
+          "Use vírgula para separar o vocativo, que é o nome de quem a gente chama: 'Pedro, feche a porta.' E para separar o aposto, que explica quem é alguém: 'Dona Rita, a merendeira, fez bolo.'",
+          "Use vírgula quando uma expressão de tempo ou lugar vem no começo da frase: 'Ontem à noite, choveu muito.' Também nas datas: 'São Paulo, 10 de novembro de 2026.' E antes de 'mas': 'Queria ir, mas choveu.'",
+          "A regra de ouro: nunca separe o sujeito do verbo. 'Os alunos do 7º ano, venceram a gincana' está errado."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Pontue: 'Lucas meu primo trouxe pão leite e café.'",
+            "resolucao": "Lucas, meu primo, trouxe pão, leite e café. 'Meu primo' é aposto (fica entre vírgulas) e há uma lista (pão, leite e café)."
+          },
+          {
+            "enunciado": "Qual a diferença entre 'Maria, come.' e 'Maria come.'?",
+            "resolucao": "Na primeira, chamamos Maria e mandamos ela comer (vocativo). Na segunda, contamos o que Maria faz."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A vírgula muda o sentido. 'Não quero sair' é recusa; 'Não, quero sair' responde não a outra coisa e diz que quer sair. 'Vamos comer, crianças!' chama as crianças; sem a vírgula, as crianças viram o prato.",
+        "Com 'que', a vírgula muda quem está incluído. 'Os alunos que estudaram passaram': só os que estudaram passaram. 'Os alunos, que estudaram, passaram': todos estudaram e todos passaram. Entre vírgulas, o trecho é só uma explicação sobre todos.",
+        "Quando o 'e' liga duas orações com sujeitos diferentes, a vírgula antes dele pode ser usada: 'Comprei pão, e Ana trouxe suco.' Uma frase pode juntar vários usos: 'Mãe, depois da aula, eu, Caio e Bia vamos ao parque.'"
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde vai a vírgula em 'Comprei arroz feijão e ovo'?",
+            "alternativas": [
+              "Depois de arroz",
+              "Depois de Comprei",
+              "Em nenhum lugar",
+              "Depois de e"
+            ],
+            "correta": 0,
+            "explicacao": "Arroz, feijão e ovo é uma lista; a vírgula separa arroz de feijão.",
+            "dica": "Os itens da lista precisam ser separados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 'Pedro, feche a porta', a vírgula separa:",
+            "alternativas": [
+              "O verbo",
+              "O nome de quem a gente chama",
+              "O objeto",
+              "O fim da frase"
+            ],
+            "correta": 1,
+            "explicacao": "Pedro é o vocativo: a pessoa chamada.",
+            "dica": "Pedro está sendo chamado ou contando algo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está certa?",
+            "alternativas": [
+              "O menino, correu.",
+              "O, menino correu.",
+              "O menino correu.",
+              "O menino correu,"
+            ],
+            "correta": 2,
+            "explicacao": "Não se separa o sujeito (o menino) do verbo (correu).",
+            "dica": "Lembre a regra de ouro da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes do último item de uma lista, normalmente usamos:",
+            "alternativas": [
+              "Vírgula sempre",
+              "Ponto final",
+              "Ponto e vírgula",
+              "A palavra 'e', sem vírgula"
+            ],
+            "correta": 3,
+            "explicacao": "Arroz, feijão e ovo: o 'e' liga o último item.",
+            "dica": "Pense em como você fala uma lista em voz alta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual data está bem pontuada?",
+            "alternativas": [
+              "São Paulo, 10 de novembro de 2026.",
+              "São Paulo 10, de novembro de 2026.",
+              "São, Paulo 10 de novembro.",
+              "São Paulo 10 de novembro, de 2026."
+            ],
+            "correta": 0,
+            "explicacao": "A vírgula separa o nome da cidade da data.",
+            "dica": "A vírgula fica entre o lugar e o dia."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa certo a vírgula no aposto?",
+            "alternativas": [
+              "Dona Rita a merendeira, fez bolo.",
+              "Dona Rita, a merendeira, fez bolo.",
+              "Dona, Rita a merendeira fez bolo.",
+              "Dona Rita a, merendeira fez bolo."
+            ],
+            "correta": 1,
+            "explicacao": "O aposto 'a merendeira' fica entre duas vírgulas.",
+            "dica": "A explicação sobre a pessoa fica cercada de vírgulas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Ontem à noite, choveu muito.' Essa vírgula é:",
+            "alternativas": [
+              "Proibida",
+              "Aceita, porque a expressão de tempo veio no começo",
+              "Obrigatória sempre no final",
+              "Errada, porque separa sujeito e verbo"
+            ],
+            "correta": 1,
+            "explicacao": "Expressão de tempo no começo da frase pode ser separada por vírgula.",
+            "dica": "Onde está a expressão de tempo na frase?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem ERRO por separar sujeito e verbo?",
+            "alternativas": [
+              "Os alunos do 7º ano venceram a gincana.",
+              "Na gincana, os alunos venceram.",
+              "Os alunos do 7º ano, venceram a gincana.",
+              "Venceram a gincana os alunos."
+            ],
+            "correta": 2,
+            "explicacao": "'Os alunos do 7º ano' é o sujeito e 'venceram' é o verbo: não pode ter vírgula entre eles.",
+            "dica": "Ache o sujeito e veja se há vírgula logo depois dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre 'Maria, come.' e 'Maria come.'?",
+            "alternativas": [
+              "Não há diferença",
+              "A primeira está errada",
+              "A segunda é uma pergunta",
+              "Na primeira chamamos Maria; na segunda contamos o que ela faz"
+            ],
+            "correta": 3,
+            "explicacao": "Com vírgula, Maria é vocativo; sem vírgula, é sujeito.",
+            "dica": "Em qual das duas alguém está chamando Maria?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está bem pontuada?",
+            "alternativas": [
+              "Queria ir, mas choveu.",
+              "Queria ir mas, choveu.",
+              "Queria, ir mas choveu.",
+              "Queria ir mas choveu,"
+            ],
+            "correta": 0,
+            "explicacao": "A vírgula vem antes do 'mas'.",
+            "dica": "A vírgula fica antes ou depois da palavra que muda a ideia?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre 'Não quero sair.' e 'Não, quero sair.'?",
+            "alternativas": [
+              "Na primeira a pessoa recusa sair; na segunda ela quer sair",
+              "Significam o mesmo",
+              "As duas recusam",
+              "As duas estão erradas"
+            ],
+            "correta": 0,
+            "explicacao": "Com vírgula, o 'não' responde a outra coisa e 'quero sair' fica afirmativo.",
+            "dica": "Leia as duas em voz alta, fazendo a pausa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vírgulas faltam em 'Lucas meu primo trouxe pão leite e café'?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "Lucas, meu primo, trouxe pão, leite e café: duas no aposto e uma na lista.",
+            "dica": "Procure um aposto e uma lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Professora posso, ir ao banheiro?",
+              "Professora, posso ir ao banheiro?",
+              "Professora posso ir, ao banheiro?",
+              "Professora posso ir ao banheiro,?"
+            ],
+            "correta": 1,
+            "explicacao": "'Professora' é vocativo, separado por vírgula.",
+            "dica": "Quem está sendo chamado na frase?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Comprei pão e Ana trouxe suco.' Pode haver vírgula antes do 'e'?",
+            "alternativas": [
+              "Não, é proibido",
+              "Sim, é obrigatório em toda frase com 'e'",
+              "Só depois do 'e'",
+              "Pode, porque as duas orações têm sujeitos diferentes"
+            ],
+            "correta": 3,
+            "explicacao": "Quem comprou fui eu; quem trouxe foi Ana. Com sujeitos diferentes, a vírgula antes do 'e' é aceita.",
+            "dica": "Compare quem faz cada ação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase a vírgula separa uma expressão de lugar no começo?",
+            "alternativas": [
+              "Acontece, a feira na praça.",
+              "A feira, acontece na praça.",
+              "Na praça do bairro, acontece a feira.",
+              "A feira acontece na, praça."
+            ],
+            "correta": 2,
+            "explicacao": "'Na praça do bairro' é lugar e veio no começo.",
+            "dica": "Procure a frase que começa dizendo onde."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa 'Os alunos que estudaram passaram.'?",
+            "alternativas": [
+              "Só os que estudaram passaram",
+              "Todos os alunos estudaram e passaram",
+              "Nenhum passou",
+              "A frase não tem sentido"
+            ],
+            "correta": 0,
+            "explicacao": "Sem vírgulas, o 'que estudaram' separa um grupo dos outros.",
+            "dica": "Sem vírgulas, o trecho com 'que' escolhe uma parte do grupo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa 'Os alunos, que estudaram, passaram.'?",
+            "alternativas": [
+              "Só alguns estudaram",
+              "Todos estudaram e todos passaram",
+              "Ninguém estudou",
+              "Só alguns passaram"
+            ],
+            "correta": 1,
+            "explicacao": "Entre vírgulas, o trecho é uma explicação sobre todos os alunos.",
+            "dica": "O que o aprofundamento disse sobre o trecho entre vírgulas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está bem pontuada?",
+            "alternativas": [
+              "Mãe depois da aula, eu Caio, e Bia vamos ao parque.",
+              "Mãe, depois da aula eu, Caio, e, Bia vamos ao parque.",
+              "Mãe, depois da aula, eu, Caio e Bia vamos ao parque.",
+              "Mãe depois, da aula eu Caio e Bia, vamos ao parque."
+            ],
+            "correta": 2,
+            "explicacao": "Vocativo (Mãe,), expressão de tempo (depois da aula,) e lista (eu, Caio e Bia).",
+            "dica": "Procure três usos: chamar alguém, tempo no começo e lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que 'Vamos comer, crianças!' é diferente de 'Vamos comer crianças!'?",
+            "alternativas": [
+              "Não muda nada",
+              "A segunda é a correta",
+              "Vírgula antes de vocativo é proibida",
+              "A vírgula mostra que crianças é vocativo; sem ela, crianças vira o que será comido"
+            ],
+            "correta": 3,
+            "explicacao": "Sem a vírgula, 'crianças' passa a ser o que se come.",
+            "dica": "Na primeira, alguém está chamando quem?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os pedaços em ordem para formar a frase bem pontuada:",
+            "itens": [
+              "Em São Paulo,",
+              "Joana,",
+              "a irmã do Davi,",
+              "venceu a corrida."
+            ],
+            "explicacao": "Em São Paulo, Joana, a irmã do Davi, venceu a corrida. Lugar no começo, sujeito, aposto e predicado.",
+            "dica": "O aposto vem logo depois do nome que ele explica."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "ingles",
+      "titulo": "Can e can't",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Can mostra habilidade (saber fazer), possibilidade ou permissão. 'I can swim' é 'eu sei nadar'. 'Can I open the window?' é 'posso abrir a janela?'.",
+          "Can't (ou cannot) é a negativa: 'He can't cook' é 'ele não sabe cozinhar'. Também pode ser proibição: 'You can't park here' (é proibido estacionar aqui).",
+          "Can é igual para todas as pessoas: I can, she can, they can. Nunca 'cans'. Depois dele vem o verbo na forma normal, sem 'to' e sem -s: 'She can play', e não 'She can plays'.",
+          "Na pergunta, o can vai para o começo: 'Can you dance?' Respostas curtas: 'Yes, I can.' / 'No, I can't.'"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como dizer 'Minha irmã sabe falar inglês, mas não sabe falar espanhol'?",
+            "resolucao": "My sister can speak English, but she can't speak Spanish."
+          },
+          {
+            "enunciado": "Corrija: 'He cans to ride a bike.'",
+            "resolucao": "He can ride a bike. Can não ganha -s e não vem com 'to'."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Could é o passado de can: 'When I was five, I couldn't read' (quando eu tinha cinco anos, não sabia ler). Could também serve para pedidos educados: 'Could you help me?' é mais gentil que 'Can you help me?'.",
+        "Para o futuro, usamos 'be able to': 'I will be able to go tomorrow' (vou conseguir ir amanhã). Não existe 'will can'.",
+        "Na fala, o can da afirmativa costuma ser fraco e rápido, e o can't é mais forte, com um t no fim que às vezes quase some. Por isso, preste atenção no som da vogal: é ele que mostra se a frase é negativa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer 'I can swim'?",
+            "alternativas": [
+              "Eu sei nadar",
+              "Eu não sei nadar",
+              "Eu nadei",
+              "Eu vou nadar amanhã"
+            ],
+            "correta": 0,
+            "explicacao": "Can mostra habilidade: sei nadar.",
+            "dica": "Can é saber ou poder fazer algo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Can't é a forma curta de:",
+            "alternativas": [
+              "can it",
+              "cannot",
+              "could",
+              "can to"
+            ],
+            "correta": 1,
+            "explicacao": "Can't = cannot = não pode, não sabe.",
+            "dica": "O apóstrofo junta can com a palavra 'não' em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: 'She ___ ride a bike.' (ela sabe)",
+            "alternativas": [
+              "cans",
+              "can to",
+              "can",
+              "canning"
+            ],
+            "correta": 2,
+            "explicacao": "Can é igual para todas as pessoas e não leva 'to'.",
+            "dica": "Can nunca ganha -s."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete a pergunta: '___ you dance?'",
+            "alternativas": [
+              "Do can",
+              "Are",
+              "Cans",
+              "Can"
+            ],
+            "correta": 3,
+            "explicacao": "Na pergunta, can vai para o começo.",
+            "dica": "A pergunta começa com a própria palavra da aula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Can he cook?' Qual é a resposta curta negativa?",
+            "alternativas": [
+              "No, he doesn't can.",
+              "No, he can't.",
+              "No, he can.",
+              "No, he cans not."
+            ],
+            "correta": 1,
+            "explicacao": "Resposta curta negativa: No, he can't.",
+            "dica": "Repita a palavra da pergunta, na forma negativa."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "He can plays soccer.",
+              "He can play soccer.",
+              "He cans play soccer.",
+              "He can to play soccer."
+            ],
+            "correta": 1,
+            "explicacao": "Depois de can, verbo sem -s e sem 'to'.",
+            "dica": "Confira o verbo que vem depois de can."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Can I open the window?' é um pedido de:",
+            "alternativas": [
+              "Permissão",
+              "Habilidade no passado",
+              "Ordem",
+              "Futuro"
+            ],
+            "correta": 0,
+            "explicacao": "A pessoa pede para poder abrir a janela.",
+            "dica": "A pessoa quer saber se tem autorização."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: 'Fish ___ breathe out of water.'",
+            "alternativas": [
+              "can",
+              "cans",
+              "could",
+              "can't"
+            ],
+            "correta": 3,
+            "explicacao": "Peixes não conseguem respirar fora da água.",
+            "dica": "Pense no que acontece com o peixe fora da água."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como dizer 'Você pode me ajudar?'",
+            "alternativas": [
+              "You can help me?",
+              "Can you helps me?",
+              "Can you help me?",
+              "Do you can help me?"
+            ],
+            "correta": 2,
+            "explicacao": "Pergunta: Can + pessoa + verbo normal.",
+            "dica": "A pergunta começa com can e o verbo fica sem -s."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as palavras em ordem para formar a pergunta:",
+            "itens": [
+              "Can",
+              "your",
+              "sister",
+              "speak",
+              "English?"
+            ],
+            "explicacao": "Can + pessoa + verbo + resto: Can your sister speak English? (Sua irmã sabe falar inglês?)",
+            "dica": "Perguntas com can começam por ele."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: 'When I was five, I ___ read.' (não sabia)",
+            "alternativas": [
+              "can't",
+              "couldn't",
+              "don't",
+              "wasn't"
+            ],
+            "correta": 1,
+            "explicacao": "No passado, can vira could; negativa: couldn't.",
+            "dica": "A frase fala de quando a pessoa tinha cinco anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pedido é o mais educado?",
+            "alternativas": [
+              "Give me a pencil.",
+              "You give me pencil?",
+              "Could you lend me a pencil?",
+              "Pencil now."
+            ],
+            "correta": 2,
+            "explicacao": "Could deixa o pedido mais gentil.",
+            "dica": "O aprofundamento citou um jeito mais gentil de pedir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: 'My dad can fix bikes, but he ___ fix cars.'",
+            "alternativas": [
+              "can't",
+              "can",
+              "cans",
+              "doesn't can"
+            ],
+            "correta": 0,
+            "explicacao": "O 'but' mostra contraste: conserta bicicletas, mas não carros.",
+            "dica": "O 'but' indica uma ideia contrária."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Corrija: 'Can she to come tomorrow?'",
+            "alternativas": [
+              "Can she comes tomorrow?",
+              "Does she can come?",
+              "She can to come?",
+              "Can she come tomorrow?"
+            ],
+            "correta": 3,
+            "explicacao": "Can não leva 'to', e o verbo fica sem -s.",
+            "dica": "Tire a palavra que sobra depois de she."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na fala, como diferenciar 'I can swim' de 'I can't swim'?",
+            "alternativas": [
+              "Os dois soam exatamente igual",
+              "Can't é mais forte, com som de t no fim, e can é fraco",
+              "Can tem som de t no fim",
+              "Can't não se pronuncia"
+            ],
+            "correta": 1,
+            "explicacao": "O can afirmativo é fraco; o can't é tônico e termina com t.",
+            "dica": "Uma das formas é dita com mais força."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: 'Last year I ___ swim, but now I ___.' (não sabia / sei)",
+            "alternativas": [
+              "couldn't / can",
+              "can't / could",
+              "couldn't / can't",
+              "could / can't"
+            ],
+            "correta": 0,
+            "explicacao": "Ano passado (passado, negativo): couldn't. Agora (presente, afirmativo): can.",
+            "dica": "Uma parte é passado negativo e a outra, presente afirmativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pergunta sobre o passado está correta?",
+            "alternativas": [
+              "Can you spoke English when you were ten?",
+              "Did you could speak English?",
+              "Could you speak English when you were ten?",
+              "Could you spoke English?"
+            ],
+            "correta": 2,
+            "explicacao": "Could + pessoa + verbo normal.",
+            "dica": "Depois de could, o verbo fica na forma normal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como dizer 'Amanhã eu vou conseguir ir'?",
+            "alternativas": [
+              "I will can go tomorrow.",
+              "I will be able to go tomorrow.",
+              "I can will go tomorrow.",
+              "I will able go tomorrow."
+            ],
+            "correta": 1,
+            "explicacao": "No futuro usamos 'will be able to'. Não existe 'will can'.",
+            "dica": "O aprofundamento mostrou como falar de capacidade no futuro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos erros há em 'She cans sing and she can to dance.'?",
+            "alternativas": [
+              "0",
+              "1",
+              "3",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "'Cans' (can não ganha -s) e 'can to' (can não leva to). O certo: She can sing and she can dance.",
+            "dica": "Confira cada can e o que vem depois dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma placa diz 'You can't park here.' O que significa?",
+            "alternativas": [
+              "Você sabe estacionar aqui",
+              "É proibido estacionar aqui",
+              "Estacione aqui",
+              "Talvez dê para estacionar"
+            ],
+            "correta": 1,
+            "explicacao": "Can't aqui é falta de permissão: proibição.",
+            "dica": "Can também é permissão. E o can't?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "cidadania",
+      "titulo": "Lixo e reciclagem",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Cada brasileiro produz, em média, cerca de 1 kg de lixo por dia. Se tudo for jogado de qualquer jeito, o lixo entope bueiros, causa enchentes, atrai ratos e polui rios.",
+          "A regra dos 3 Rs tem ordem de importância: primeiro Reduzir (comprar e gastar menos), depois Reutilizar (usar de novo, como o pote de sorvete que vira pote de feijão) e por último Reciclar (transformar o material usado em produto novo).",
+          "Na coleta seletiva, cada material tem uma cor: azul para papel, vermelho para plástico, verde para vidro, amarelo para metal e marrom para lixo orgânico, como restos de comida.",
+          "Restos de comida podem virar adubo na compostagem. Pilhas, baterias, eletrônicos e óleo de cozinha não vão no lixo comum: precisam ir para pontos de coleta próprios."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como separar: casca de banana, latinha, jornal e pote de vidro?",
+            "resolucao": "Casca de banana: orgânico (marrom). Latinha: metal (amarelo). Jornal: papel (azul). Pote de vidro: vidro (verde)."
+          },
+          {
+            "enunciado": "O que fazer com o óleo de cozinha usado?",
+            "resolucao": "Esperar esfriar, guardar numa garrafa plástica fechada e levar a um ponto de coleta. Jogado na pia, ele entope canos e polui muita água."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Plástico pode levar centenas de anos para se decompor, e o vidro ainda mais. Por isso, reduzir vem antes de reciclar: o lixo que não é produzido não precisa ser tratado. O Brasil recicla quase todas as latinhas de alumínio, graças ao trabalho de catadores e cooperativas, que ganham renda separando material.",
+        "Aterro sanitário e lixão são diferentes. O aterro tem o chão protegido por mantas e trata o chorume (o líquido do lixo). O lixão a céu aberto contamina o solo, a água e atrai doenças.",
+        "Lavar rapidamente as embalagens antes da coleta seletiva evita mau cheiro e bichos e não estraga o resto do material. Eletrônicos têm metais que poluem, mas também podem ser reaproveitados quando vão para o lugar certo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é reciclar?",
+            "alternativas": [
+              "Transformar material usado em produto novo",
+              "Jogar no rio",
+              "Queimar o lixo",
+              "Guardar lixo em casa"
+            ],
+            "correta": 0,
+            "explicacao": "Reciclar é dar nova vida ao material.",
+            "dica": "O prefixo 're' indica fazer de novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A lixeira azul é para:",
+            "alternativas": [
+              "Vidro",
+              "Papel",
+              "Metal",
+              "Orgânico"
+            ],
+            "correta": 1,
+            "explicacao": "Azul é papel.",
+            "dica": "Pense na cor de um caderno escolar comum."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Restos de comida são lixo:",
+            "alternativas": [
+              "Metal",
+              "Vidro",
+              "Orgânico",
+              "Eletrônico"
+            ],
+            "correta": 2,
+            "explicacao": "Restos de comida são orgânicos e podem virar adubo.",
+            "dica": "É o lixo que vem de seres vivos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o R mais importante, que vem primeiro?",
+            "alternativas": [
+              "Reciclar",
+              "Reutilizar",
+              "Recolher",
+              "Reduzir"
+            ],
+            "correta": 3,
+            "explicacao": "Reduzir evita que o lixo seja produzido.",
+            "dica": "O melhor lixo é aquele que nem existe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lixo jogado na rua pode:",
+            "alternativas": [
+              "Entupir bueiros e causar enchentes",
+              "Melhorar a rua",
+              "Virar árvore",
+              "Limpar o rio"
+            ],
+            "correta": 0,
+            "explicacao": "Com a chuva, o lixo vai para os bueiros e entope.",
+            "dica": "Para onde a chuva leva o lixo da rua?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A lixeira verde é para:",
+            "alternativas": [
+              "Papel",
+              "Plástico",
+              "Vidro",
+              "Metal"
+            ],
+            "correta": 2,
+            "explicacao": "Verde é vidro.",
+            "dica": "Pense na cor de muitas garrafas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A lixeira amarela é para:",
+            "alternativas": [
+              "Vidro",
+              "Orgânico",
+              "Papel",
+              "Metal"
+            ],
+            "correta": 3,
+            "explicacao": "Amarelo é metal, como latinhas.",
+            "dica": "Latinhas vão nessa lixeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para onde vão as pilhas usadas?",
+            "alternativas": [
+              "Lixo comum",
+              "Ponto de coleta próprio",
+              "Vaso sanitário",
+              "Rio"
+            ],
+            "correta": 1,
+            "explicacao": "Pilhas têm metais pesados e precisam de descarte especial.",
+            "dica": "A lição citou itens que não vão no lixo comum."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Usar o pote de sorvete para guardar feijão é:",
+            "alternativas": [
+              "Reutilizar",
+              "Reciclar",
+              "Reduzir",
+              "Descartar"
+            ],
+            "correta": 0,
+            "explicacao": "O pote é usado de novo, sem ser transformado.",
+            "dica": "O pote mudou de forma ou só de uso?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os Rs em ordem de importância:",
+            "itens": [
+              "Reduzir",
+              "Reutilizar",
+              "Reciclar",
+              "Descartar corretamente o que sobrar"
+            ],
+            "explicacao": "Primeiro evitar o lixo, depois usar de novo, depois transformar e, por último, descartar direito.",
+            "dica": "Comece pelo que impede o lixo de existir."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazer com o óleo de cozinha usado?",
+            "alternativas": [
+              "Jogar na pia",
+              "Jogar no ralo do quintal",
+              "Guardar numa garrafa e levar a um ponto de coleta",
+              "Jogar na terra"
+            ],
+            "correta": 2,
+            "explicacao": "Na pia ou na terra, o óleo entope canos e polui a água.",
+            "dica": "O óleo precisa de descarte especial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A compostagem transforma:",
+            "alternativas": [
+              "Vidro em areia",
+              "Restos orgânicos em adubo",
+              "Plástico em papel",
+              "Metal em comida"
+            ],
+            "correta": 1,
+            "explicacao": "Cascas e restos de comida viram adubo para plantas.",
+            "dica": "Pense no lixo marrom."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família de 4 pessoas produz cerca de 1 kg de lixo por pessoa por dia. Quanto em 30 dias?",
+            "alternativas": [
+              "120 kg",
+              "30 kg",
+              "4 kg",
+              "1.200 kg"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 1 × 30 = 120 kg.",
+            "dica": "Multiplique pessoas, quilos e dias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que lavar rapidamente as embalagens antes da coleta seletiva?",
+            "alternativas": [
+              "Porque é lei lavar com sabão",
+              "Para ficarem mais pesadas",
+              "Não precisa fazer nada",
+              "Para não atrair bichos e não sujar o resto do material"
+            ],
+            "correta": 3,
+            "explicacao": "Resto de comida estraga o material reciclável e atrai bichos.",
+            "dica": "Pense no que a sujeira causa no caminhão de recicláveis."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o papel dos catadores e das cooperativas?",
+            "alternativas": [
+              "Só espalham lixo",
+              "Separam e vendem material reciclável, gerando renda e ajudando o ambiente",
+              "Trabalham só em escritório",
+              "Não fazem diferença"
+            ],
+            "correta": 1,
+            "explicacao": "Eles são essenciais para a reciclagem no Brasil.",
+            "dica": "Quem ajuda as latinhas a voltarem para a fábrica?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela ordem dos 3 Rs, qual atitude é a melhor?",
+            "alternativas": [
+              "Comprar garrafinha e reciclar",
+              "Comprar garrafinha e jogar no lixo comum",
+              "Levar uma garrafa reutilizável em vez de comprar garrafinha todo dia",
+              "Comprar duas garrafinhas"
+            ],
+            "correta": 2,
+            "explicacao": "Evitar a garrafinha é reduzir, que vem antes de reciclar.",
+            "dica": "Qual opção evita que o lixo seja produzido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma escola tem 600 alunos. Cada um usa 2 copos plásticos por dia, em 200 dias de aula. Quantos copos no ano?",
+            "alternativas": [
+              "1.200",
+              "240.000",
+              "120.000",
+              "24.000"
+            ],
+            "correta": 1,
+            "explicacao": "600 × 2 = 1.200 por dia; 1.200 × 200 = 240.000 copos.",
+            "dica": "Calcule os copos de um dia e depois do ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Casca de banana, latinha, jornal e pote de vidro vão, nessa ordem, nas lixeiras:",
+            "alternativas": [
+              "Marrom, amarelo, azul, verde",
+              "Verde, amarelo, azul, marrom",
+              "Marrom, vermelho, azul, verde",
+              "Azul, amarelo, marrom, verde"
+            ],
+            "correta": 0,
+            "explicacao": "Orgânico marrom, metal amarelo, papel azul e vidro verde.",
+            "dica": "Classifique cada material e depois lembre as cores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazer com um celular velho e quebrado?",
+            "alternativas": [
+              "Jogar no lixo orgânico",
+              "Enterrar no quintal",
+              "Jogar no rio",
+              "Levar a um ponto de coleta de eletrônicos"
+            ],
+            "correta": 3,
+            "explicacao": "Ele tem metais que poluem, mas podem ser reaproveitados.",
+            "dica": "Eletrônico precisa de um destino especial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre aterro sanitário e lixão?",
+            "alternativas": [
+              "São a mesma coisa",
+              "O aterro protege o solo e trata o chorume; o lixão contamina",
+              "O lixão é melhor",
+              "O aterro é onde tudo é reciclado"
+            ],
+            "correta": 1,
+            "explicacao": "O aterro tem mantas e tratamento do chorume; o lixão a céu aberto polui solo e água.",
+            "dica": "O aprofundamento explicou o que o aterro tem e o lixão não."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A feira de trocas",
+    "texto": "No primeiro sábado do mês, a praça do bairro vira feira de trocas. Quem leva um livro, um brinquedo ou uma roupa que não usa mais pode trocar por outra coisa. Ninguém paga nada.\n\nA ideia foi de Dona Cida, a costureira da rua de cima. Ela cansou de ver sacos de roupa boa no lixo. \"Isso aqui ainda tem muita vida\", dizia, levantando uma jaqueta quase nova.\n\nNa última feira, Mateus trocou três gibis por uma bola. Sua irmã, Yasmin, levou potes de vidro limpos e saiu com mudas de manjericão. Seu Jorge, o catador que passa todos os dias com a carroça, montou uma mesa explicando as cores das lixeiras.\n\nNo fim da tarde, quase nada sobrou. O que ninguém quis, Seu Jorge levou para a cooperativa: papelão, latinhas e garrafas.\n\nYasmin plantou o manjericão num pote de margarina furado embaixo. Na cozinha, a mãe riu: \"Esse pote já foi margarina, foi lixo e agora é jardim.\""
+  },
+  "escrita": {
+    "proposta": "Escreva de 5 a 10 linhas: observe o lixo da sua casa por um dia e conte o que mais aparece. Depois, escolha uma ideia para cada R (algo para reduzir, algo para reutilizar e algo para reciclar) e diga em qual cor de lixeira iriam três materiais que você viu. Use vírgulas corretamente nas listas."
+  }
+}

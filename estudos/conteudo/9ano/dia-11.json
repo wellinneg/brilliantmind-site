@@ -1,0 +1,906 @@
+{
+  "dia": 11,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Função afim: a reta que descreve o dia a dia",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Uma função afim tem a forma f(x) = ax + b. O x é a entrada (quilômetros, minutos, quantidade de produtos) e f(x) é a saída (o preço, a distância, o total). Para cada x existe um único resultado.",
+          "O número b é o valor inicial: é quanto vale f(x) quando x = 0. Numa corrida de aplicativo, é a taxa fixa que você paga só por entrar no carro. No gráfico, b é o ponto onde a reta corta o eixo y.",
+          "O número a é a taxa de variação: diz quanto f(x) muda quando x aumenta 1. Se a corrida custa R$ 2,50 por quilômetro, então a = 2,5. Se a > 0, a função é crescente; se a < 0, é decrescente; se a = 0, é constante.",
+          "O gráfico de uma função afim é sempre uma reta. Por isso, bastam dois pontos para desenhá-lo: escolha dois valores de x, calcule f(x), marque os pontos no plano cartesiano e ligue com uma régua.",
+          "O zero (ou raiz) da função é o valor de x que faz f(x) = 0. É onde a reta corta o eixo x. Para achar, resolva ax + b = 0, o que dá x = −b/a."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma corrida custa R$ 4,00 de taxa fixa mais R$ 2,50 por quilômetro. Escreva a função e calcule o preço de 10 km.",
+            "resolucao": "f(x) = 2,5x + 4. Para x = 10: 2,5 · 10 + 4 = 25 + 4 = 29. A corrida custa R$ 29,00."
+          },
+          {
+            "enunciado": "Ache o zero de f(x) = 3x − 6.",
+            "resolucao": "Faça 3x − 6 = 0. Então 3x = 6 e x = 2. A reta corta o eixo x no ponto (2, 0)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Se você conhece dois pontos da reta, (x₁, y₁) e (x₂, y₂), descobre a função. Primeiro a taxa: a = (y₂ − y₁) ÷ (x₂ − x₁). Depois troque um dos pontos em y = ax + b para achar b. Exemplo: pontos (1, 5) e (3, 11). a = (11 − 5) ÷ (3 − 1) = 6 ÷ 2 = 3. Como 5 = 3 · 1 + b, temos b = 2. Logo f(x) = 3x + 2.",
+        "Comparar planos é encontrar onde duas retas se cruzam. Plano A: 20 + 0,5x; plano B: 35 + 0,2x (x em minutos). Igualando: 20 + 0,5x = 35 + 0,2x, então 0,3x = 15 e x = 50. Até 50 minutos o plano A sai mais barato; acima disso, o B ganha, porque cresce mais devagar.",
+        "Cuidado com o sinal: em f(x) = −3x + 12, o número 12 é positivo, mas a função é decrescente, porque quem decide isso é o a (−3), e não o b."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em f(x) = 2x + 5, qual número é o valor inicial (o b)?",
+            "alternativas": [
+              "2",
+              "5",
+              "7",
+              "x"
+            ],
+            "correta": 1,
+            "explicacao": "O valor inicial é o número que fica sozinho, sem o x: o 5. O 2 é a taxa de variação.",
+            "dica": "Procure o número que não está multiplicando a letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como é o gráfico de uma função afim?",
+            "alternativas": [
+              "Uma reta",
+              "Uma curva em forma de U",
+              "Um círculo",
+              "Pontos soltos sem padrão"
+            ],
+            "correta": 0,
+            "explicacao": "Toda função afim tem gráfico em forma de reta. A curva em U aparece na função do 2º grau.",
+            "dica": "Lembre quantos pontos bastam para desenhar o gráfico com régua."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se f(x) = x + 3, quanto vale f(2)?",
+            "alternativas": [
+              "6",
+              "23",
+              "1",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "Troque x por 2: 2 + 3 = 5.",
+            "dica": "Coloque o 2 no lugar do x e faça a conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A função f(x) = −4x + 1 é:",
+            "alternativas": [
+              "Constante",
+              "Crescente",
+              "Decrescente",
+              "Não é uma função"
+            ],
+            "correta": 2,
+            "explicacao": "Como a = −4 é negativo, quando x aumenta o resultado diminui: a função é decrescente.",
+            "dica": "Olhe o sinal do número que multiplica o x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma corrida custa f(x) = 2x + 3 reais, com x em km. Quanto se paga só por entrar no carro (x = 0)?",
+            "alternativas": [
+              "R$ 2,00",
+              "R$ 5,00",
+              "R$ 3,00",
+              "R$ 0,00"
+            ],
+            "correta": 2,
+            "explicacao": "Com x = 0: 2 · 0 + 3 = 3. A taxa fixa é o valor inicial b.",
+            "dica": "Troque x por zero: o que sobra?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o zero da função f(x) = 3x − 6?",
+            "alternativas": [
+              "x = −2",
+              "x = 2",
+              "x = 6",
+              "x = 3"
+            ],
+            "correta": 1,
+            "explicacao": "3x − 6 = 0 → 3x = 6 → x = 2. Conferindo: 3 · 2 − 6 = 0.",
+            "dica": "Iguale a função a zero e isole o x."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para desenhar o gráfico de f(x) = 2x + 1.",
+            "itens": [
+              "Escolher dois valores para x",
+              "Calcular f(x) para cada valor",
+              "Marcar os dois pontos no plano",
+              "Ligar os pontos com uma reta"
+            ],
+            "explicacao": "Primeiro você escolhe as entradas, depois calcula as saídas, marca os pontos e só então traça a reta.",
+            "dica": "Não dá para marcar um ponto sem saber suas duas coordenadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se f(x) = −2x + 8, quanto vale f(3)?",
+            "alternativas": [
+              "14",
+              "−14",
+              "5",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "−2 · 3 + 8 = −6 + 8 = 2. Quem errou o sinal chegou a 14.",
+            "dica": "Multiplique primeiro, com cuidado no sinal de menos, e depois some 8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um plano de celular custa R$ 30,00 por mês mais R$ 0,50 por GB extra (x). Qual função representa o valor?",
+            "alternativas": [
+              "f(x) = 30x + 0,5",
+              "f(x) = 30,5x",
+              "f(x) = 0,5x − 30",
+              "f(x) = 0,5x + 30"
+            ],
+            "correta": 3,
+            "explicacao": "O fixo (30) é o b e o valor por GB (0,5) é o a: f(x) = 0,5x + 30.",
+            "dica": "O que é pago mesmo sem usar nada extra é o valor inicial; o que depende do x multiplica o x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que ponto a reta de f(x) = 4x + 7 corta o eixo y?",
+            "alternativas": [
+              "(0, 7)",
+              "(7, 0)",
+              "(0, 4)",
+              "(4, 7)"
+            ],
+            "correta": 0,
+            "explicacao": "No eixo y, x vale 0. f(0) = 7, então o ponto é (0, 7).",
+            "dica": "Todo ponto do eixo y tem a mesma coordenada x."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma reta passa pelos pontos (1, 5) e (3, 11). Qual é a função?",
+            "alternativas": [
+              "f(x) = 2x + 3",
+              "f(x) = 3x + 2",
+              "f(x) = 6x − 1",
+              "f(x) = 3x + 5"
+            ],
+            "correta": 1,
+            "explicacao": "a = (11 − 5) ÷ (3 − 1) = 3. Depois 5 = 3 · 1 + b, então b = 2. Confira: 3 · 3 + 2 = 11.",
+            "dica": "Calcule primeiro quanto y sobe para cada 1 de x; depois use um dos pontos para achar b."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um táxi cobra R$ 5,00 fixos mais R$ 3,00 por km. Ana pagou R$ 38,00. Quantos quilômetros ela andou?",
+            "alternativas": [
+              "13 km",
+              "12,7 km",
+              "11 km",
+              "10 km"
+            ],
+            "correta": 2,
+            "explicacao": "5 + 3x = 38 → 3x = 33 → x = 11 km. Quem dividiu 38 por 3 esqueceu de tirar a taxa fixa.",
+            "dica": "Tire primeiro a parte fixa do total e depois divida pelo preço do quilômetro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Plano A: 20 + 0,5x. Plano B: 35 + 0,2x (x em minutos). A partir de quando o plano B fica mais barato?",
+            "alternativas": [
+              "Mais de 30 minutos",
+              "Mais de 75 minutos",
+              "Nunca fica mais barato",
+              "Mais de 50 minutos"
+            ],
+            "correta": 3,
+            "explicacao": "20 + 0,5x = 35 + 0,2x → 0,3x = 15 → x = 50. Com 60 minutos: A = 50 e B = 47, B ganha.",
+            "dica": "Iguale as duas funções para achar onde as retas se cruzam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma vela de 20 cm diminui 2 cm por hora. Em quantas horas ela acaba?",
+            "alternativas": [
+              "10 horas",
+              "18 horas",
+              "22 horas",
+              "40 horas"
+            ],
+            "correta": 0,
+            "explicacao": "f(t) = 20 − 2t. Fazendo 20 − 2t = 0, t = 10 horas.",
+            "dica": "Escreva a altura como função do tempo e procure quando ela vale zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma função afim tem f(0) = −4 e f(2) = 0. Qual é o valor de a?",
+            "alternativas": [
+              "−2",
+              "4",
+              "2",
+              "−4"
+            ],
+            "correta": 2,
+            "explicacao": "f(0) = b = −4. Depois 2a − 4 = 0, então a = 2. A função é crescente: vai de −4 a 0.",
+            "dica": "O valor em x = 0 já entrega o b; use o outro ponto para o resto."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma função afim tem f(2) = 7 e f(5) = 16. Quanto vale f(10)?",
+            "alternativas": [
+              "32",
+              "35",
+              "31",
+              "30"
+            ],
+            "correta": 2,
+            "explicacao": "a = (16 − 7) ÷ (5 − 2) = 3; 7 = 3 · 2 + b, então b = 1. f(10) = 30 + 1 = 31. Quem fez regra de três (7 · 5 = 35) errou: a função não começa no zero.",
+            "dica": "Não é proporção direta: descubra a e b antes de calcular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A loja X cobra frete de R$ 8,00 + R$ 1,50 por km. A loja Y cobra R$ 2,50 por km, sem taxa fixa. Para 10 km, o que acontece?",
+            "alternativas": [
+              "A loja Y fica R$ 2,00 mais barata",
+              "As duas custam o mesmo",
+              "A loja X fica R$ 8,00 mais barata",
+              "A loja X fica R$ 2,00 mais barata"
+            ],
+            "correta": 3,
+            "explicacao": "X: 8 + 15 = 23. Y: 25. X é R$ 2,00 mais barata. As retas se cruzam em 8 km (8 + 1,5x = 2,5x); acima disso, X vence.",
+            "dica": "Calcule as duas e lembre que a taxa fixa pesa menos em distâncias longas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sobre f(x) = −3x + 12, qual afirmação é verdadeira?",
+            "alternativas": [
+              "Corta o eixo x em x = 4 e o eixo y em 12",
+              "Corta o eixo x em x = −4 e é decrescente",
+              "É crescente porque 12 é positivo",
+              "Corta o eixo y em −3"
+            ],
+            "correta": 0,
+            "explicacao": "Zero: −3x + 12 = 0 → x = 4. f(0) = 12. É decrescente porque a = −3. A pegadinha é achar que o 12 decide se cresce.",
+            "dica": "Calcule o zero com cuidado no sinal e lembre quem manda no crescimento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A bateria de um celular cai de forma constante: às 8h está em 90% e às 11h em 60%. A que horas chega a 0%?",
+            "alternativas": [
+              "15h",
+              "17h",
+              "18h",
+              "20h"
+            ],
+            "correta": 1,
+            "explicacao": "Caiu 30% em 3 horas: 10% por hora. De 90% até 0% são 9 horas depois das 8h: 17h.",
+            "dica": "Ache quanto cai por hora e conte a partir do primeiro horário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As retas g(x) = 2x + 1 e h(x) = −x + 7 se cruzam em qual ponto?",
+            "alternativas": [
+              "(5, 2)",
+              "(3, 7)",
+              "(2, 3)",
+              "(2, 5)"
+            ],
+            "correta": 3,
+            "explicacao": "2x + 1 = −x + 7 → 3x = 6 → x = 2. g(2) = 5. O ponto é (2, 5); trocar a ordem dá (5, 2), que é outro ponto.",
+            "dica": "Iguale as duas, ache x e depois calcule y em qualquer uma delas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Salário bruto e líquido: o que é descontado",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Salário bruto é o valor combinado no contrato de trabalho. Salário líquido é o que realmente cai na sua conta depois dos descontos. A conta é simples: líquido = bruto − descontos.",
+          "O principal desconto é o INSS, a contribuição para a Previdência Social. Ela garante aposentadoria e auxílios, como o pago quando a pessoa fica doente e não pode trabalhar. O INSS é progressivo: cada faixa do salário paga uma porcentagem diferente, de 7,5% até 14%.",
+          "Outro desconto possível é o Imposto de Renda retido na fonte (IR). Desde 2026, quem ganha até cerca de R$ 5 mil por mês fica isento. Também pode haver desconto de vale-transporte, de no máximo 6% do salário básico.",
+          "O FGTS não é descontado do trabalhador: o patrão deposita todo mês 8% do salário numa conta em seu nome na Caixa. Esse dinheiro pode ser sacado em casos como demissão sem justa causa.",
+          "Tudo isso aparece no holerite (contracheque). Aprenda a ler o seu e monte o orçamento sempre pelo líquido, que é o dinheiro de verdade."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Paulo tem salário bruto de R$ 3.000,00. Descontos: INSS R$ 270,00 e vale-transporte R$ 180,00. Qual é o líquido?",
+            "resolucao": "Descontos: 270 + 180 = 450. Líquido: 3.000 − 450 = R$ 2.550,00."
+          },
+          {
+            "enunciado": "Quanto o patrão deposita de FGTS para quem ganha R$ 2.500,00?",
+            "resolucao": "8% de 2.500 = 0,08 · 2.500 = R$ 200,00. Esse valor não sai do salário do trabalhador."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Desconto progressivo funciona por faixas, como degraus. Imagine uma tabela simplificada para treinar: 7,5% sobre a parte do salário até R$ 1.500 e 9% sobre a parte entre R$ 1.500 e R$ 3.000. Quem ganha R$ 2.500 paga 7,5% de 1.500 (R$ 112,50) mais 9% dos R$ 1.000 restantes (R$ 90,00): R$ 202,50 no total. As faixas reais mudam todo ano.",
+        "Por isso, ganhar um aumento nunca faz o líquido cair: só a parte nova do salário entra na faixa de cima. A base do Imposto de Renda é o bruto menos o INSS (e outras deduções). Primeiro calcula-se o INSS, depois o IR.",
+        "Trabalho com carteira assinada (CLT) traz também 13º salário, férias com um terço a mais, FGTS e hora extra paga com pelo menos 50% a mais que a hora normal. Uma proposta \"por fora\", sem registro, pode parecer maior no papel, mas tira esses direitos."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é salário bruto?",
+            "alternativas": [
+              "O valor combinado antes dos descontos",
+              "O que cai na conta",
+              "Só o FGTS",
+              "O vale-refeição"
+            ],
+            "correta": 0,
+            "explicacao": "Bruto é o valor do contrato, antes de descontar INSS, IR e outros. O que cai na conta é o líquido.",
+            "dica": "Pense no valor que aparece primeiro, antes de qualquer conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se calcula o salário líquido?",
+            "alternativas": [
+              "Bruto + descontos",
+              "Bruto − descontos",
+              "Descontos − bruto",
+              "Bruto × 2"
+            ],
+            "correta": 1,
+            "explicacao": "Líquido é o que sobra depois de tirar os descontos do bruto.",
+            "dica": "Os descontos fazem o valor aumentar ou diminuir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o INSS?",
+            "alternativas": [
+              "Pagar a escola dos filhos",
+              "Comprar o uniforme da empresa",
+              "Aposentadoria e auxílios do trabalhador",
+              "Pagar juros ao banco"
+            ],
+            "correta": 2,
+            "explicacao": "O INSS é a contribuição para a Previdência Social, que paga aposentadoria e auxílios.",
+            "dica": "Pense no que protege a pessoa quando ela não puder mais trabalhar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruto de R$ 2.000,00 e descontos de R$ 300,00. Qual é o líquido?",
+            "alternativas": [
+              "R$ 2.300,00",
+              "R$ 1.300,00",
+              "R$ 2.000,00",
+              "R$ 1.700,00"
+            ],
+            "correta": 3,
+            "explicacao": "2.000 − 300 = 1.700. Somar daria 2.300, que é o erro mais comum.",
+            "dica": "Tire o valor dos descontos do bruto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o FGTS?",
+            "alternativas": [
+              "Um desconto do salário do trabalhador",
+              "Um depósito de 8% feito pelo patrão",
+              "Um imposto da prefeitura",
+              "Uma multa por atraso"
+            ],
+            "correta": 1,
+            "explicacao": "O FGTS é depositado pelo empregador, todo mês, numa conta em nome do trabalhador. Não sai do salário.",
+            "dica": "Lembre quem paga e qual é a porcentagem citada na lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O vale-transporte pode descontar no máximo 6% do salário básico. Para um salário de R$ 2.000,00, qual é o desconto máximo?",
+            "alternativas": [
+              "R$ 200,00",
+              "R$ 120,00",
+              "R$ 60,00",
+              "R$ 12,00"
+            ],
+            "correta": 1,
+            "explicacao": "6% de 2.000 = 0,06 · 2.000 = 120. Se a passagem do mês custar menos, desconta-se só o custo real.",
+            "dica": "Ache 1% (divida por 100) e multiplique por 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto o patrão deposita de FGTS para um salário de R$ 2.500,00?",
+            "alternativas": [
+              "R$ 250,00",
+              "R$ 20,00",
+              "R$ 200,00",
+              "R$ 80,00"
+            ],
+            "correta": 2,
+            "explicacao": "8% de 2.500 = 200. R$ 250,00 seria 10%.",
+            "dica": "Calcule 8% do salário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruto de R$ 3.000,00, INSS de R$ 270,00 e vale-transporte de R$ 180,00. Qual é o líquido?",
+            "alternativas": [
+              "R$ 2.820,00",
+              "R$ 2.730,00",
+              "R$ 3.450,00",
+              "R$ 2.550,00"
+            ],
+            "correta": 3,
+            "explicacao": "Descontos: 270 + 180 = 450. Líquido: 3.000 − 450 = 2.550. Quem tirou só um dos descontos chegou a 2.730 ou 2.820.",
+            "dica": "Some todos os descontos antes de subtrair."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para conferir um holerite.",
+            "itens": [
+              "Ver o salário bruto",
+              "Somar os descontos (INSS, IR, vale-transporte)",
+              "Subtrair os descontos do bruto",
+              "Conferir se o líquido caiu na conta"
+            ],
+            "explicacao": "Primeiro o bruto, depois os descontos, a subtração e por fim a conferência no extrato.",
+            "dica": "Comece pelo valor do contrato e termine olhando o banco."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer que o INSS é progressivo?",
+            "alternativas": [
+              "Todo mundo paga o mesmo valor",
+              "Cada faixa do salário tem a sua porcentagem",
+              "Só paga quem ganha muito",
+              "O desconto diminui a cada ano"
+            ],
+            "correta": 1,
+            "explicacao": "Progressivo é por faixas: a parte menor do salário paga porcentagem menor, e a parte maior paga mais.",
+            "dica": "Lembre da ideia de degraus."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na tabela simplificada (7,5% até R$ 1.500; 9% de R$ 1.500 a R$ 3.000), quanto paga quem ganha R$ 2.500,00?",
+            "alternativas": [
+              "R$ 225,00",
+              "R$ 187,50",
+              "R$ 202,50",
+              "R$ 112,50"
+            ],
+            "correta": 2,
+            "explicacao": "7,5% de 1.500 = 112,50. 9% de 1.000 (o que passa de 1.500) = 90. Total: 202,50. Aplicar 9% no salário todo daria 225, que está errado.",
+            "dica": "Divida o salário em dois pedaços e aplique a porcentagem de cada faixa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Proposta A: CLT, bruto de R$ 2.000,00 e descontos de 10%. Proposta B: R$ 1.750,00 \"por fora\", sem registro. O que é verdade sobre A?",
+            "alternativas": [
+              "Líquido de R$ 1.800,00, sem nenhuma vantagem extra",
+              "Líquido de R$ 2.000,00, sem descontos",
+              "Líquido de R$ 1.800,00, mais FGTS, férias e 13º",
+              "Líquido igual ao da B"
+            ],
+            "correta": 2,
+            "explicacao": "10% de 2.000 = 200; líquido 1.800. Além disso, a CLT dá FGTS (R$ 160,00 por mês), férias e 13º, que a proposta B não tem.",
+            "dica": "Calcule o líquido e lembre o que a carteira assinada garante."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A hora normal de Léo vale R$ 12,00. A hora extra vale pelo menos 50% a mais. Quanto ele recebe, no mínimo, por 10 horas extras?",
+            "alternativas": [
+              "R$ 120,00",
+              "R$ 240,00",
+              "R$ 180,00",
+              "R$ 60,00"
+            ],
+            "correta": 2,
+            "explicacao": "50% de 12 = 6, então a hora extra vale 18. 10 · 18 = 180. R$ 120,00 seria pagar como hora normal.",
+            "dica": "Primeiro descubra o valor de uma hora extra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia tem bruto de R$ 2.400,00. A 1ª parcela do 13º é metade do salário, sem descontos. Quanto ela recebe nessa parcela?",
+            "alternativas": [
+              "R$ 2.400,00",
+              "R$ 600,00",
+              "R$ 1.000,00",
+              "R$ 1.200,00"
+            ],
+            "correta": 3,
+            "explicacao": "Metade de 2.400 = 1.200. Os descontos de INSS e IR ficam para a 2ª parcela.",
+            "dica": "Divida o salário bruto por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Júlia tem bruto de R$ 2.100,00 e líquido de R$ 1.800,00. Ela gasta R$ 1.900,00 por mês e vive no vermelho. Qual foi o erro?",
+            "alternativas": [
+              "Planejar pelo bruto em vez do líquido",
+              "Ter carteira assinada",
+              "Receber FGTS",
+              "Pagar INSS"
+            ],
+            "correta": 0,
+            "explicacao": "Ela gasta mais do que o líquido, que é o dinheiro que realmente chega. Orçamento se faz pelo líquido.",
+            "dica": "Compare o gasto com o valor que de fato cai na conta."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Tabela simplificada: 7,5% até R$ 1.500; 9% de R$ 1.500 a R$ 3.000; 12% de R$ 3.000 a R$ 4.500. Quanto paga quem ganha R$ 4.000,00?",
+            "alternativas": [
+              "R$ 480,00",
+              "R$ 412,50",
+              "R$ 300,00",
+              "R$ 367,50"
+            ],
+            "correta": 3,
+            "explicacao": "112,50 (7,5% de 1.500) + 135,00 (9% de 1.500) + 120,00 (12% de 1.000) = 367,50. Aplicar 12% em tudo daria 480.",
+            "dica": "São três pedaços: 1.500, mais 1.500, e o que passar de 3.000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na mesma tabela, Caio passou de R$ 2.900,00 para R$ 3.100,00. O que aconteceu com o líquido dele (considerando só esse desconto)?",
+            "alternativas": [
+              "Caiu, porque entrou na faixa de 12%",
+              "Subiu R$ 200,00",
+              "Subiu R$ 179,00",
+              "Subiu R$ 176,00"
+            ],
+            "correta": 2,
+            "explicacao": "Dos R$ 200,00 a mais, R$ 100,00 pagam 9% (9) e R$ 100,00 pagam 12% (12). Desconto extra: 21. Líquido sobe 200 − 21 = 179. Aumento nunca derruba o líquido.",
+            "dica": "Só o pedaço novo do salário paga mais, e cada pedaço fica na sua faixa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma empresa paga R$ 2.000,00 de bruto e deposita o FGTS. O funcionário tem R$ 150,00 de descontos. Qual a diferença entre o que a empresa gasta (bruto + FGTS) e o líquido do funcionário?",
+            "alternativas": [
+              "R$ 150,00",
+              "R$ 160,00",
+              "R$ 470,00",
+              "R$ 310,00"
+            ],
+            "correta": 3,
+            "explicacao": "Empresa: 2.000 + 160 (8%) = 2.160. Líquido: 2.000 − 150 = 1.850. Diferença: 2.160 − 1.850 = 310.",
+            "dica": "Calcule os dois lados separadamente antes de comparar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as etapas de cálculo do salário líquido.",
+            "itens": [
+              "Salário bruto",
+              "Desconto do INSS",
+              "Base do IR (bruto menos INSS)",
+              "Desconto do IR",
+              "Salário líquido"
+            ],
+            "explicacao": "O IR é calculado sobre o bruto já sem o INSS. Por isso o INSS vem antes, e o líquido é o último.",
+            "dica": "Um dos impostos usa o resultado do outro para ser calculado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Desde 2026, quem ganha até cerca de R$ 5 mil por mês é isento de IR na fonte. Carla tem bruto de R$ 3.500,00. O que acontece?",
+            "alternativas": [
+              "Paga 27,5% de IR sobre tudo",
+              "Não tem IR retido, mas ainda paga INSS",
+              "Não paga nada, nem INSS",
+              "Paga IR só se tiver FGTS"
+            ],
+            "correta": 1,
+            "explicacao": "Ela está abaixo do limite de isenção do IR, mas o INSS é descontado de quem tem carteira assinada em qualquer faixa.",
+            "dica": "Isenção de um imposto não apaga o outro desconto."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Funções com parâmetros: receitas que aceitam ingredientes",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma função é um bloco de código com nome, que você escreve uma vez e usa quantas vezes quiser. Em Python, ela começa com def, depois vem o nome, os parênteses e dois-pontos.",
+          "Os parâmetros são as entradas da função, escritas dentro dos parênteses. Quando você chama a função, os valores que passa se chamam argumentos. Em def dobro(n), n é o parâmetro; em dobro(7), 7 é o argumento.",
+          "O return devolve o resultado para quem chamou. Depois do return, a função termina. Sem return, a função devolve None (nada).",
+          "Uma função pode ter vários parâmetros, e a ordem importa: em def sub(a, b): return a - b, sub(10, 3) dá 7, mas sub(3, 10) dá −7.",
+          "Um parâmetro pode ter valor padrão, usado quando você não passa nada: def desconto(preco, p=10). Chamando desconto(50), p vale 10."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "def area(base, altura):\n    return base * altura\n\nprint(area(5, 3))",
+            "resolucao": "base recebe 5 e altura recebe 3. A função devolve 5 * 3 = 15, e o print mostra 15."
+          },
+          {
+            "enunciado": "def desconto(preco, p=10):\n    return preco - preco * p / 100\n\nprint(desconto(50))\nprint(desconto(50, 20))",
+            "resolucao": "Na 1ª chamada, p usa o padrão 10: 50 − 5 = 45.0. Na 2ª, p = 20: 50 − 10 = 40.0."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "print e return são diferentes. print só mostra na tela; return entrega o valor para o programa usar depois. Se uma função só tem print, guardar o resultado dela numa variável dá None.",
+        "Variáveis criadas dentro da função (incluindo os parâmetros) são locais: existem só lá dentro. Mudar um parâmetro dentro da função não muda a variável de fora que tinha o mesmo nome.",
+        "Você também pode passar argumentos pelo nome, em qualquer ordem: troco(conta=30, pago=50). E uma função pode chamar outra, ou até usar o resultado dela mesma como argumento: f(f(1)) calcula f(1) primeiro e depois aplica f de novo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um parâmetro de uma função?",
+            "alternativas": [
+              "O nome do arquivo",
+              "Uma entrada que a função recebe",
+              "Um erro do programa",
+              "A cor da tela"
+            ],
+            "correta": 1,
+            "explicacao": "Parâmetro é a entrada escrita nos parênteses, que a função usa para fazer o trabalho.",
+            "dica": "Pense no que vai dentro dos parênteses quando a função é criada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra cria uma função em Python?",
+            "alternativas": [
+              "return",
+              "print",
+              "def",
+              "if"
+            ],
+            "correta": 2,
+            "explicacao": "def cria a função. return devolve o resultado, print mostra na tela e if faz uma condição.",
+            "dica": "É a palavra que aparece no começo da linha da função, antes do nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o return?",
+            "alternativas": [
+              "Devolver o resultado para quem chamou",
+              "Apagar a função",
+              "Repetir o código",
+              "Mostrar um erro"
+            ],
+            "correta": 0,
+            "explicacao": "return entrega o resultado da função para o programa.",
+            "dica": "Pense no que a função faz quando termina o trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def dobro(n):\n    return n * 2\n\nQuanto vale dobro(7)?",
+            "alternativas": [
+              "9",
+              "72",
+              "7",
+              "14"
+            ],
+            "correta": 3,
+            "explicacao": "n recebe 7 e a função devolve 7 * 2 = 14.",
+            "dica": "Troque n por 7 na conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def soma(a, b):\n    return a + b\n\nQuanto vale soma(2, 3)?",
+            "alternativas": [
+              "5",
+              "23",
+              "6",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "a = 2, b = 3, e a função devolve 2 + 3 = 5. Juntar 2 e 3 como texto daria \"23\", mas aqui são números.",
+            "dica": "Coloque cada argumento no seu parâmetro, na ordem."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def area(b, h):\n    return b * h\n\nQuanto vale area(4, 6)?",
+            "alternativas": [
+              "10",
+              "24",
+              "46",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "b = 4 e h = 6: 4 * 6 = 24.",
+            "dica": "O asterisco é multiplicação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def saudacao(nome):\n    return \"Oi, \" + nome\n\nO que devolve saudacao(\"Lia\")?",
+            "alternativas": [
+              "\"Oi, nome\"",
+              "\"Lia\"",
+              "\"Oi, Lia\"",
+              "Dá erro"
+            ],
+            "correta": 2,
+            "explicacao": "O parâmetro nome recebe \"Lia\" e o + junta os textos. \"Oi, nome\" estaria certo só se nome estivesse entre aspas.",
+            "dica": "nome sem aspas é uma variável, não a palavra escrita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def desconto(preco, p=10):\n    return preco - preco * p / 100\n\nQuanto vale desconto(80)?",
+            "alternativas": [
+              "70.0",
+              "8.0",
+              "79.9",
+              "72.0"
+            ],
+            "correta": 3,
+            "explicacao": "p usa o padrão 10: 80 − 80 * 10 / 100 = 80 − 8 = 72.0.",
+            "dica": "Se você não passou o segundo argumento, qual valor o p usa?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que acontece quando uma função é chamada.",
+            "itens": [
+              "O programa chama a função com os argumentos",
+              "Os argumentos entram nos parâmetros",
+              "O corpo da função faz as contas",
+              "O return devolve o resultado"
+            ],
+            "explicacao": "A chamada leva os valores, eles ocupam os parâmetros, o código roda e o return entrega a resposta.",
+            "dica": "Siga o caminho do valor: de fora para dentro e de volta para fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def sub(a, b):\n    return a - b\n\nQuanto vale sub(3, 10)?",
+            "alternativas": [
+              "7",
+              "−7",
+              "13",
+              "−13"
+            ],
+            "correta": 1,
+            "explicacao": "a = 3 e b = 10: 3 − 10 = −7. A ordem dos argumentos importa.",
+            "dica": "O primeiro argumento vai para o primeiro parâmetro."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def media(a, b, c):\n    return (a + b + c) / 3\n\nQuanto vale media(6, 7, 8)?",
+            "alternativas": [
+              "21",
+              "7.0",
+              "6.0",
+              "8.5"
+            ],
+            "correta": 1,
+            "explicacao": "(6 + 7 + 8) / 3 = 21 / 3 = 7.0. Os parênteses fazem a soma antes da divisão.",
+            "dica": "Os parênteses dizem o que é feito primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def f(x):\n    return x * x + 1\n\nQuanto vale f(f(1))?",
+            "alternativas": [
+              "4",
+              "2",
+              "5",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro f(1) = 1 + 1 = 2. Depois f(2) = 4 + 1 = 5.",
+            "dica": "Resolva a chamada de dentro primeiro e use o resultado na de fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def g(x):\n    print(x * 2)\n\nr = g(3)\n\nQual valor fica guardado em r?",
+            "alternativas": [
+              "6",
+              "3",
+              "Dá erro de sintaxe",
+              "None (nada)"
+            ],
+            "correta": 3,
+            "explicacao": "A tela mostra 6, mas a função não tem return, então devolve None. É por isso que print não substitui return.",
+            "dica": "Mostrar na tela é diferente de devolver o valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def preco_final(preco, frete=15):\n    return preco + frete\n\nQuanto vale preco_final(100, 0)?",
+            "alternativas": [
+              "100",
+              "115",
+              "15",
+              "Dá erro"
+            ],
+            "correta": 0,
+            "explicacao": "Passamos frete = 0, então o padrão 15 não é usado: 100 + 0 = 100.",
+            "dica": "O valor padrão só vale quando o argumento não é passado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def troco(pago, conta):\n    return pago - conta\n\nQuanto vale troco(conta=30, pago=50)?",
+            "alternativas": [
+              "−20",
+              "80",
+              "20",
+              "Dá erro"
+            ],
+            "correta": 2,
+            "explicacao": "Com argumentos pelo nome, a ordem não importa: pago = 50 e conta = 30, troco = 20.",
+            "dica": "Repare que cada valor está acompanhado do nome do parâmetro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def maior(a, b):\n    if a > b:\n        return a\n    return b\n\nQuanto vale maior(maior(3, 9), 5)?",
+            "alternativas": [
+              "3",
+              "5",
+              "9",
+              "17"
+            ],
+            "correta": 2,
+            "explicacao": "maior(3, 9) = 9. Depois maior(9, 5) = 9.",
+            "dica": "Comece pela chamada de dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def parcela(total, n=3):\n    return total / n\n\nQuanto vale parcela(parcela(90), 2)?",
+            "alternativas": [
+              "15.0",
+              "45.0",
+              "30.0",
+              "10.0"
+            ],
+            "correta": 0,
+            "explicacao": "parcela(90) usa n = 3: 30.0. Depois parcela(30.0, 2) = 15.0.",
+            "dica": "Na chamada de dentro, só um argumento foi passado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 10\n\ndef muda(x):\n    x = x + 5\n    return x\n\nmuda(x)\nprint(x)\n\nO que aparece na tela?",
+            "alternativas": [
+              "15",
+              "10",
+              "5",
+              "Dá erro"
+            ],
+            "correta": 1,
+            "explicacao": "O x de dentro da função é local. A função devolve 15, mas ninguém guardou esse valor; o x de fora continua 10.",
+            "dica": "O resultado do return foi guardado em alguma variável?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def calc(a, b=2, c=3):\n    return a * b + c\n\nQuanto vale calc(4, c=10)?",
+            "alternativas": [
+              "22",
+              "43",
+              "15",
+              "18"
+            ],
+            "correta": 3,
+            "explicacao": "a = 4, b fica no padrão 2, c = 10: 4 * 2 + 10 = 18.",
+            "dica": "Veja qual parâmetro recebeu valor pelo nome e qual ficou no padrão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def conta(n):\n    if n == 0:\n        return 0\n    return n + conta(n - 1)\n\nQuanto vale conta(4)?",
+            "alternativas": [
+              "10",
+              "4",
+              "24",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "conta(4) = 4 + conta(3) = 4 + 3 + conta(2) = ... = 4 + 3 + 2 + 1 + 0 = 10. A função chama a si mesma até chegar em 0.",
+            "dica": "Escreva cada chamada até chegar no caso em que n vale zero."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O primeiro holerite de Rafael",
+    "texto": "Rafael completou 17 anos e conseguiu uma vaga de jovem aprendiz numa distribuidora de alimentos. No contrato estava escrito o valor do salário, e ele já tinha feito todos os planos: um tênis novo, a parcela de um celular e ainda sobraria para ajudar em casa.\n\nNo quinto dia útil do mês, o dinheiro caiu na conta. Rafael olhou o aplicativo do banco duas vezes. O valor era menor do que o combinado. Achou que era engano e foi falar com dona Sônia, do departamento pessoal.\n\nEla sorriu, pegou o holerite e explicou linha por linha. Em cima, o salário bruto, o valor do contrato. Logo abaixo, os descontos: o INSS, que conta tempo para a aposentadoria e protege o trabalhador se ele ficar doente, e o vale-transporte, que ele mesmo tinha pedido para ir de ônibus. Embaixo de tudo, o salário líquido, o que de fato tinha caído na conta.\n\n— E tem uma parte que não aparece no seu bolso agora, mas é sua — disse ela. — Todo mês a empresa deposita o FGTS numa conta no seu nome.\n\nRafael voltou para casa pensativo. Refez os planos com o valor líquido e percebeu que a parcela do celular ia apertar demais. Decidiu esperar dois meses, guardando um pouco, e comprar à vista.\n\nNaquela noite, explicou tudo para a irmã mais nova, que ouviu com atenção. No fim, ela resumiu do seu jeito: \"Então o salário de verdade é o que sobra, não o que prometem\". Rafael riu e concordou."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, imagine que você vai receber o seu primeiro salário. Explique a diferença entre salário bruto e líquido com suas palavras e conte como dividiria o valor líquido: o que é necessidade, o que é desejo e quanto guardaria. Use pelo menos um número."
+  }
+}

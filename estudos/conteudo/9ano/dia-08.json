@@ -1,0 +1,905 @@
+{
+  "dia": 8,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Genética e hereditariedade",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Hereditariedade é a passagem de características dos pais para os filhos. Essas instruções ficam nos genes, que são trechos do DNA. O DNA está organizado em cromossomos, dentro do núcleo das células.",
+          "Uma célula humana comum tem 46 cromossomos, em 23 pares. Em cada par, um cromossomo veio do pai e o outro, da mãe. Um desses pares define o sexo biológico: XX (feminino) ou XY (masculino). A mãe sempre passa um X; o espermatozoide do pai pode levar X ou Y.",
+          "Cada gene costuma ter versões diferentes, chamadas alelos. Recebemos um alelo de cada pai. O alelo dominante (letra maiúscula, A) aparece mesmo quando há só uma cópia. O recessivo (letra minúscula, a) só aparece em dupla: aa.",
+          "Genótipo é a combinação de letras (AA, Aa ou aa). Fenótipo é a característica que aparece. Nas ervilhas estudadas por Gregor Mendel, a semente amarela (A) domina a verde (a): AA e Aa são amarelas; só aa é verde.",
+          "Para prever os filhos, usamos o quadro de Punnett: cruzamos os alelos de cada pai em uma tabela. Lembre: em pessoas, muitas características (como altura e cor dos olhos) dependem de vários genes e também do ambiente."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Cruzamento Aa × Aa. Quais são os filhos possíveis?",
+            "resolucao": "Quadro de Punnett: AA, Aa, Aa, aa. São 3 de 4 com a característica dominante (75%) e 1 de 4 recessiva (25%)."
+          },
+          {
+            "enunciado": "Cruzamento AA × aa. Como serão os filhos?",
+            "resolucao": "Um pai só passa A, o outro só passa a. Todos os filhos serão Aa e mostrarão a característica dominante."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "No cruzamento Aa × aa, o quadro dá Aa, Aa, aa, aa: metade (50%) de cada. Quando dois pais com a característica dominante têm um filho recessivo (aa), concluímos que os dois carregavam o alelo a escondido, ou seja, eram Aa. Para fazer contas com uma parte dos filhos, conte só os quadradinhos do quadro que interessam.",
+        "Probabilidades de filhos diferentes são independentes: o que aconteceu com o primeiro filho não muda a chance do segundo. Para que duas coisas independentes aconteçam juntas, multiplicamos as chances: 1/2 × 1/2 = 1/4.",
+        "Os gametas (espermatozoide e óvulo) têm só 23 cromossomos, metade do normal. Assim, na fecundação, o bebê volta a ter 46. Gêmeos idênticos vêm do mesmo óvulo fecundado e têm o mesmo DNA, mas podem ficar diferentes por causa do ambiente, como alimentação e atividade física. Mudanças no DNA se chamam mutações."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam os genes?",
+            "alternativas": [
+              "Nos cromossomos, dentro do núcleo da célula",
+              "Só no sangue",
+              "Só no cabelo",
+              "Só nos ossos"
+            ],
+            "correta": 0,
+            "explicacao": "Os genes são trechos do DNA, que forma os cromossomos no núcleo das células.",
+            "dica": "Pense no “centro de comando” da célula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos cromossomos tem uma célula humana comum?",
+            "alternativas": [
+              "23",
+              "46",
+              "48",
+              "12"
+            ],
+            "correta": 1,
+            "explicacao": "São 46 cromossomos, em 23 pares.",
+            "dica": "São 23 pares. Quanto dá 23 × 2?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um alelo recessivo só aparece quando:",
+            "alternativas": [
+              "Há uma cópia",
+              "Nunca",
+              "Há duas cópias (aa)",
+              "Sempre"
+            ],
+            "correta": 2,
+            "explicacao": "O recessivo fica escondido se houver um dominante junto; só aparece em dupla.",
+            "dica": "O dominante “esconde” o recessivo. Quando não há dominante?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem estudou a hereditariedade usando ervilhas?",
+            "alternativas": [
+              "Darwin",
+              "Einstein",
+              "Newton",
+              "Mendel"
+            ],
+            "correta": 3,
+            "explicacao": "Gregor Mendel fez os experimentos com ervilhas.",
+            "dica": "O nome está no quarto parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "De onde vêm os nossos cromossomos?",
+            "alternativas": [
+              "Metade do pai e metade da mãe",
+              "Só da mãe",
+              "Só do pai",
+              "Dos avós diretamente"
+            ],
+            "correta": 0,
+            "explicacao": "Em cada par, um cromossomo vem do pai e outro da mãe.",
+            "dica": "Cada par tem um cromossomo de cada um dos pais."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Nas ervilhas, A (amarela) domina a (verde). Uma ervilha Aa tem semente de que cor?",
+            "alternativas": [
+              "Verde",
+              "Amarela",
+              "Metade amarela, metade verde",
+              "Branca"
+            ],
+            "correta": 1,
+            "explicacao": "Basta um A para a cor amarela aparecer.",
+            "dica": "Quem manda quando há um dominante e um recessivo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cruzamento Aa × Aa. Qual é a chance de um filho aa?",
+            "alternativas": [
+              "0%",
+              "50%",
+              "25%",
+              "75%"
+            ],
+            "correta": 2,
+            "explicacao": "No quadro de Punnett, só 1 dos 4 quadradinhos é aa: 25%.",
+            "dica": "Monte o quadro e conte quantos dos 4 são aa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é fenótipo?",
+            "alternativas": [
+              "O conjunto de letras do gene",
+              "Um tipo de célula",
+              "O nome do cromossomo X",
+              "A característica que aparece, como a cor da semente"
+            ],
+            "correta": 3,
+            "explicacao": "Fenótipo é o que se vê. As letras (AA, Aa, aa) são o genótipo.",
+            "dica": "Uma palavra fala das letras; a outra, do que se observa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cruzamento AA × aa. Como serão os filhos?",
+            "alternativas": [
+              "Todos Aa",
+              "Metade AA, metade aa",
+              "Todos aa",
+              "Todos AA"
+            ],
+            "correta": 0,
+            "explicacao": "Um pai só passa A, o outro só passa a: todos ficam Aa.",
+            "dica": "Cada pai só tem um tipo de alelo para passar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem define o sexo biológico do bebê?",
+            "alternativas": [
+              "O óvulo da mãe, que pode levar X ou Y",
+              "O espermatozoide do pai, que pode levar X ou Y",
+              "A alimentação na gravidez",
+              "A sorte, sem relação com cromossomos"
+            ],
+            "correta": 1,
+            "explicacao": "A mãe sempre passa X. O espermatozoide leva X (XX, menina) ou Y (XY, menino).",
+            "dica": "Qual dos pais tem o cromossomo Y para passar?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Cruzamento Aa × aa. Qual porcentagem dos filhos deve ser verde (aa)?",
+            "alternativas": [
+              "25%",
+              "75%",
+              "50%",
+              "100%"
+            ],
+            "correta": 2,
+            "explicacao": "Quadro: Aa, Aa, aa, aa. Metade é aa: 50%.",
+            "dica": "Um pai passa A ou a; o outro só passa a. Monte o quadro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma ervilha amarela foi cruzada com uma verde (aa) e nasceu um filho verde. Qual é o genótipo da amarela?",
+            "alternativas": [
+              "AA",
+              "aa",
+              "Não dá para saber nada",
+              "Aa"
+            ],
+            "correta": 3,
+            "explicacao": "O filho verde é aa: recebeu um a de cada pai. Então a amarela tinha um a escondido: é Aa.",
+            "dica": "De onde veio cada um dos dois a do filho verde?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cruzamento Aa × Aa com 400 sementes. Quantas devem ser amarelas, aproximadamente?",
+            "alternativas": [
+              "300",
+              "100",
+              "200",
+              "400"
+            ],
+            "correta": 0,
+            "explicacao": "Amarelas são 3 de 4 (75%). 75% de 400 = 300.",
+            "dica": "Ache a fração de amarelas no quadro e aplique a 400."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque do maior para o menor:",
+            "itens": [
+              "Célula",
+              "Núcleo",
+              "Cromossomo",
+              "Gene"
+            ],
+            "explicacao": "A célula tem o núcleo; no núcleo estão os cromossomos; cada cromossomo tem muitos genes.",
+            "dica": "Pense em caixas, uma dentro da outra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gêmeos idênticos têm o mesmo DNA, mas um ficou mais alto porque se alimentou e dormiu melhor. Isso mostra que:",
+            "alternativas": [
+              "Os genes mudam todo dia",
+              "O ambiente também influencia as características",
+              "Não existe hereditariedade",
+              "Um deles não é filho dos pais"
+            ],
+            "correta": 1,
+            "explicacao": "O DNA é o mesmo; a diferença veio do ambiente (comida, sono, exercício).",
+            "dica": "Se o DNA é igual, de onde veio a diferença?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Casal Aa × Aa. Qual é a chance de os dois primeiros filhos serem aa?",
+            "alternativas": [
+              "1/4",
+              "1/8",
+              "1/16",
+              "1/2"
+            ],
+            "correta": 2,
+            "explicacao": "Cada filho tem 1/4 de chance. São independentes: 1/4 × 1/4 = 1/16.",
+            "dica": "Para duas coisas independentes acontecerem juntas, combine as chances como diz o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cruzamento Aa × Aa. Entre os filhos amarelos, qual fração é Aa?",
+            "alternativas": [
+              "1/2",
+              "2/3",
+              "3/4",
+              "1/3"
+            ],
+            "correta": 1,
+            "explicacao": "Amarelos: AA, Aa, Aa (3 quadradinhos). Desses, 2 são Aa: 2/3. A pegadinha é responder 1/2 olhando o quadro todo.",
+            "dica": "Conte só os quadradinhos que são amarelos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um casal tem três filhas. Qual é a chance de o quarto filho ser menino?",
+            "alternativas": [
+              "1/2",
+              "Quase 100%",
+              "1/4",
+              "1/16"
+            ],
+            "correta": 0,
+            "explicacao": "Cada nascimento é independente. A chance continua 1/2, não importa quantas filhas vieram antes.",
+            "dica": "O que aconteceu antes muda a chance do próximo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois pais com fenótipo dominante tiveram um filho recessivo. O que se conclui?",
+            "alternativas": [
+              "Os dois são AA",
+              "Um é AA e o outro é aa",
+              "Houve um erro, isso é impossível",
+              "Os dois são Aa"
+            ],
+            "correta": 3,
+            "explicacao": "O filho aa recebeu um a de cada pai. Como os pais mostram o dominante, cada um tem A e a.",
+            "dica": "Cada pai precisou passar um alelo recessivo para o filho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que os gametas têm 23 cromossomos?",
+            "alternativas": [
+              "Porque perderam metade por doença",
+              "Para que, na fecundação, o bebê volte a ter 46",
+              "Porque só o pai passa genes",
+              "Para o bebê ter 92"
+            ],
+            "correta": 1,
+            "explicacao": "23 do pai + 23 da mãe = 46. Se cada gameta tivesse 46, o bebê teria 92.",
+            "dica": "Some os cromossomos dos dois gametas na fecundação."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Crédito, dívida e score",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Crédito é dinheiro emprestado: cartão de crédito, empréstimo, crediário da loja, cheque especial. Você usa agora e devolve depois, quase sempre com juros. Juros são o preço de usar o dinheiro de outra pessoa.",
+          "Nem toda dívida é ruim. Uma dívida pode ajudar quando aumenta sua renda, como um curso técnico ou uma ferramenta de trabalho. Ela é perigosa quando é para consumo e tem juros altos. O rotativo do cartão (pagar só parte da fatura) e o cheque especial estão entre os juros mais altos do país.",
+          "Score é uma nota de 0 a 1000 que empresas de análise de crédito dão para cada CPF. Ela mostra se a pessoa costuma pagar em dia. Score alto facilita conseguir crédito com juros menores. Atrasar contas e ter o nome negativado (“nome sujo”) derrubam o score.",
+          "Para cuidar do crédito: pague as contas em dia, não pague só o mínimo da fatura, compare o preço à vista com o parcelado e nunca empreste o seu nome para outra pessoa comprar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma TV custa R$ 900,00 à vista ou 10 × R$ 100,00. Quanto se paga a mais no parcelado?",
+            "resolucao": "10 × 100 = 1.000. A mais: 1.000 − 900 = R$ 100,00. Mesmo sem a palavra “juros”, o parcelado custa mais."
+          },
+          {
+            "enunciado": "Uma dívida de R$ 500,00 no rotativo tem juros de 12% ao mês. Quanto vira em 2 meses?",
+            "resolucao": "1º mês: 500 × 1,12 = 560. 2º mês: 560 × 1,12 = R$ 627,20. Os juros incidem sobre os juros."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O CET (Custo Efetivo Total) mostra o custo verdadeiro de um empréstimo: juros mais tarifas, seguros e outras cobranças. Um empréstimo de “2% ao mês” pode ter CET bem maior. Exemplo: emprestar R$ 1.000,00, pagar R$ 20,00 de juros e R$ 30,00 de tarifa custa R$ 50,00, ou seja, 5% no mês.",
+        "A dívida cresce como bola de neve porque os juros são compostos. Para sair dela: liste todas as dívidas com valor e juros, corte gastos, renegocie e quite primeiro a de juros mais altos. Se tiver dinheiro guardado rendendo pouco e uma dívida com juros altos, costuma valer a pena usar o guardado para quitar a dívida.",
+        "Uma regra prática é não comprometer mais de 30% da renda com parcelas. O preço “sem juros” também engana: se à vista no Pix sai mais barato, a diferença é o custo embutido do parcelado."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é crédito?",
+            "alternativas": [
+              "Dinheiro emprestado, que você devolve depois, normalmente com juros",
+              "Dinheiro que o governo dá de graça",
+              "Um tipo de imposto",
+              "O troco de uma compra"
+            ],
+            "correta": 0,
+            "explicacao": "Crédito é usar agora o dinheiro de outra pessoa e devolver depois, pagando juros.",
+            "dica": "Pense no cartão de crédito: quem paga a loja primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um score alto indica que a pessoa:",
+            "alternativas": [
+              "Paga mal",
+              "Costuma pagar em dia",
+              "Não tem CPF",
+              "Não pode comprar nada"
+            ],
+            "correta": 1,
+            "explicacao": "Score alto = bom histórico de pagamento.",
+            "dica": "O score é uma nota. Nota alta é boa ou ruim?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que ajuda a subir o score?",
+            "alternativas": [
+              "Atrasar contas",
+              "Emprestar o nome",
+              "Pagar as contas em dia",
+              "Pagar só o mínimo da fatura"
+            ],
+            "correta": 2,
+            "explicacao": "Pagar em dia mostra que você é bom pagador.",
+            "dica": "Qual atitude mostra responsabilidade com dinheiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O score vai de:",
+            "alternativas": [
+              "1 a 10",
+              "0 a 100%",
+              "A a Z",
+              "0 a 1000"
+            ],
+            "correta": 3,
+            "explicacao": "O score é uma nota de 0 a 1000.",
+            "dica": "A lição diz o valor máximo da nota."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os juros do rotativo do cartão são:",
+            "alternativas": [
+              "Dos mais altos do país",
+              "Zero",
+              "Baixíssimos",
+              "Iguais aos da poupança"
+            ],
+            "correta": 0,
+            "explicacao": "O rotativo e o cheque especial estão entre os juros mais caros.",
+            "dica": "Releia o segundo parágrafo da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma TV custa R$ 900,00 à vista ou 10 × R$ 100,00. Quanto se paga a mais no parcelado?",
+            "alternativas": [
+              "R$ 0,00",
+              "R$ 100,00",
+              "R$ 1.000,00",
+              "R$ 90,00"
+            ],
+            "correta": 1,
+            "explicacao": "10 × 100 = 1.000; 1.000 − 900 = 100.",
+            "dica": "Some as parcelas e compare com o preço à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 500,00 tem juros de 12% ao mês. Quanto ela vira em 1 mês?",
+            "alternativas": [
+              "R$ 512,00",
+              "R$ 600,00",
+              "R$ 560,00",
+              "R$ 506,00"
+            ],
+            "correta": 2,
+            "explicacao": "12% de 500 = 60. Então 500 + 60 = 560.",
+            "dica": "10% de 500 é 50. E 2%?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma dívida que pode ajudar a vida financeira?",
+            "alternativas": [
+              "Rotativo do cartão para comprar roupas",
+              "Cheque especial para uma festa",
+              "Crediário para trocar de celular todo ano",
+              "Financiar um curso técnico que aumenta a renda"
+            ],
+            "correta": 3,
+            "explicacao": "Dívida que aumenta a renda pode se pagar. As outras são consumo com juros altos.",
+            "dica": "Qual dívida ajuda a ganhar mais dinheiro no futuro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A fatura é de R$ 800,00 e você paga só o mínimo de R$ 120,00. O que acontece?",
+            "alternativas": [
+              "R$ 680,00 viram dívida com juros altos",
+              "Pagar o mínimo quita tudo",
+              "O banco perdoa o resto",
+              "Só R$ 120,00 ficam para o mês seguinte"
+            ],
+            "correta": 0,
+            "explicacao": "800 − 120 = 680 vão para o rotativo, com juros dos mais altos.",
+            "dica": "Faça a subtração e lembre o que é o rotativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um amigo pede para fazer um crediário no seu nome. Qual é o risco?",
+            "alternativas": [
+              "Nenhum, a dívida é dele",
+              "Se ele não pagar, a dívida e o nome sujo ficam com você",
+              "Seu score sobe com certeza",
+              "O crediário fica sem juros"
+            ],
+            "correta": 1,
+            "explicacao": "A dívida está no seu CPF. Se ele não pagar, quem é cobrado e negativado é você.",
+            "dica": "Em qual CPF a dívida vai ficar registrada?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 500,00 no rotativo, com juros de 12% ao mês, quanto vira em 2 meses?",
+            "alternativas": [
+              "R$ 620,00",
+              "R$ 627,20",
+              "R$ 560,00",
+              "R$ 612,00"
+            ],
+            "correta": 1,
+            "explicacao": "500 × 1,12 = 560; 560 × 1,12 = 627,20. Juros compostos, não 120 de juros.",
+            "dica": "No 2º mês, os juros são calculados sobre o novo valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sua renda é R$ 2.000,00. Pela regra dos 30%, qual é o máximo em parcelas por mês?",
+            "alternativas": [
+              "R$ 300,00",
+              "R$ 1.000,00",
+              "R$ 200,00",
+              "R$ 600,00"
+            ],
+            "correta": 3,
+            "explicacao": "30% de 2.000 = 600.",
+            "dica": "10% de 2.000 é 200. Quanto é 30%?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você tem duas dívidas: cartão a 14% ao mês e empréstimo a 2% ao mês. Só dá para quitar uma agora. Qual?",
+            "alternativas": [
+              "O empréstimo, porque é mais antigo",
+              "Tanto faz",
+              "O cartão, porque tem juros maiores",
+              "Nenhuma, é melhor esperar"
+            ],
+            "correta": 2,
+            "explicacao": "Quitar a de juros maiores para de fazer a dívida crescer mais rápido.",
+            "dica": "Qual delas cresce mais rápido a cada mês?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um celular custa R$ 1.500,00 à vista ou 12 × R$ 150,00. Quanto e que porcentagem se paga a mais?",
+            "alternativas": [
+              "R$ 300,00 (20% a mais)",
+              "R$ 150,00 (10% a mais)",
+              "R$ 300,00 (12% a mais)",
+              "R$ 1.800,00 (100% a mais)"
+            ],
+            "correta": 0,
+            "explicacao": "12 × 150 = 1.800; 1.800 − 1.500 = 300; 300 ÷ 1.500 = 20%.",
+            "dica": "Ache a diferença e divida pelo preço à vista."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para sair das dívidas:",
+            "itens": [
+              "Listar todas as dívidas com valor e juros",
+              "Cortar gastos para sobrar dinheiro",
+              "Renegociar e quitar primeiro a de juros mais altos",
+              "Manter o controle para não voltar a dever"
+            ],
+            "explicacao": "Primeiro conhecer as dívidas, depois liberar dinheiro, depois atacar a pior e, por fim, não repetir.",
+            "dica": "Comece descobrindo o tamanho do problema."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você pega R$ 1.000,00 “a 2% ao mês” e paga em 1 mês, mas há uma tarifa de R$ 30,00. Qual é o custo efetivo no mês?",
+            "alternativas": [
+              "2%",
+              "3%",
+              "5%",
+              "50%"
+            ],
+            "correta": 2,
+            "explicacao": "Juros: 20. Tarifa: 30. Total: 50 sobre 1.000 = 5%. Esse é o CET.",
+            "dica": "Some juros e tarifa e compare com o valor emprestado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 1.000,00 a 10% ao mês, sem pagamentos, quanto vira em 3 meses?",
+            "alternativas": [
+              "R$ 1.300,00",
+              "R$ 1.331,00",
+              "R$ 1.030,00",
+              "R$ 1.310,00"
+            ],
+            "correta": 1,
+            "explicacao": "1.000 → 1.100 → 1.210 → 1.331. A pegadinha é somar 100 por mês.",
+            "dica": "Multiplique por 1,10 três vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja anuncia “10 × sem juros” de R$ 1.000,00, mas no Pix à vista sai R$ 850,00. O que é verdade?",
+            "alternativas": [
+              "O parcelado é realmente sem custo",
+              "O Pix é que tem juros",
+              "Os dois preços são iguais",
+              "Há um custo de R$ 150,00 embutido no parcelado"
+            ],
+            "correta": 3,
+            "explicacao": "Quem parcela paga 1.000; quem paga à vista, 850. A diferença de 150 é o custo do parcelamento.",
+            "dica": "Compare o que sai do bolso em cada forma de pagar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruna tem R$ 2.000,00 de dívida no cartão (14% ao mês) e R$ 2.000,00 na poupança (cerca de 0,6% ao mês). O que é mais inteligente?",
+            "alternativas": [
+              "Usar a poupança para quitar o cartão",
+              "Manter os dois como estão",
+              "Pagar só o mínimo do cartão",
+              "Pegar outro empréstimo para investir"
+            ],
+            "correta": 0,
+            "explicacao": "A poupança rende cerca de R$ 12,00 por mês; o cartão cobra cerca de R$ 280,00. Quitar a dívida economiza muito mais.",
+            "dica": "Compare quanto o dinheiro guardado rende com quanto a dívida cobra por mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 200,00 cresce 15% ao mês. Em quantos meses ela passa de R$ 300,00?",
+            "alternativas": [
+              "2 meses",
+              "3 meses",
+              "4 meses",
+              "7 meses"
+            ],
+            "correta": 1,
+            "explicacao": "200 → 230 → 264,50 → 304,18. No 3º mês passa de 300.",
+            "dica": "Calcule mês a mês multiplicando por 1,15."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Senhas fortes e verificação em 2 etapas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Sua senha é a chave da sua vida digital: redes sociais, e-mail, jogos e, no futuro, banco. Senhas fracas são fáceis de adivinhar: 123456, data de nascimento, nome do animal de estimação ou do time.",
+          "Uma senha forte é longa (12 caracteres ou mais) e difícil de adivinhar. Um bom jeito é a frase-senha: várias palavras que não combinam, com um número ou símbolo, como “cavalo-azul-pula-mesa-77”.",
+          "Não repita a mesma senha em vários sites. Se um site vazar, os criminosos testam essa senha em todos os outros. Um gerenciador de senhas confiável ajuda a guardar senhas diferentes.",
+          "A verificação em 2 etapas junta algo que você sabe (a senha) com algo que você tem (um código no celular). Mesmo que alguém descubra sua senha, ainda vai faltar o código.",
+          "Regra de ouro: nunca passe para ninguém o código que chega por SMS ou aplicativo. Nenhuma empresa séria pede esse código. Quem pede é golpista, por exemplo para clonar sua conta de mensagens."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Por que “ana2010” é uma senha fraca?",
+            "resolucao": "É curta, usa um nome e um ano, que são as primeiras coisas que um golpista testa."
+          },
+          {
+            "enunciado": "Chegou uma mensagem: “Sou do suporte, me passe o código de 6 dígitos que enviamos.” O que fazer?",
+            "resolucao": "Não passar o código, bloquear o contato e avisar um adulto. O código serve para entrar na sua conta."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A força de uma senha cresce muito com o tamanho. Com só números, 4 dígitos dão 10 × 10 × 10 × 10 = 10.000 combinações; 6 dígitos dão 1.000.000 (100 vezes mais). Com 26 letras minúsculas, cada letra a mais multiplica as combinações por 26. Uma frase de 4 palavras sorteadas de uma lista de 2.000 dá 2.000⁴ = 1,6 × 10¹³ combinações.",
+        "Computadores de ataque testam bilhões de senhas por segundo, e começam pelas listas de senhas comuns e padrões previsíveis: palavra conhecida + ano + símbolo no fim, como “Brasil@2024”. Ter maiúscula, número e símbolo não adianta se o padrão é óbvio.",
+        "O código por aplicativo autenticador costuma ser mais seguro que o SMS, porque o SMS pode ser desviado por quem consegue clonar ou trocar o chip do celular. Ao ativar a verificação, guarde os códigos de recuperação em lugar seguro, para não perder a conta se trocar de celular."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a verificação em 2 etapas?",
+            "alternativas": [
+              "Pedir a senha e também um código no celular",
+              "Digitar a senha duas vezes",
+              "Ter duas contas iguais",
+              "Trocar de senha a cada 2 dias"
+            ],
+            "correta": 0,
+            "explicacao": "São duas provas diferentes: algo que você sabe e algo que você tem.",
+            "dica": "As duas etapas são de tipos diferentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a senha mais forte?",
+            "alternativas": [
+              "123456",
+              "cavalo-azul-pula-mesa-77",
+              "maria2010",
+              "senha"
+            ],
+            "correta": 1,
+            "explicacao": "É longa e junta palavras que não combinam, com número.",
+            "dica": "Procure a mais longa e mais difícil de adivinhar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém pede o código que chegou por SMS no seu celular. O que fazer?",
+            "alternativas": [
+              "Passar rápido",
+              "Passar só se for amigo",
+              "Não passar para ninguém",
+              "Postar no grupo"
+            ],
+            "correta": 2,
+            "explicacao": "O código é a segunda chave da conta. Quem pede é golpista.",
+            "dica": "Releia a regra de ouro da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Usar a mesma senha em todos os sites é:",
+            "alternativas": [
+              "Ótimo",
+              "Mais seguro",
+              "Indiferente",
+              "Perigoso: se um site vazar, todas as contas ficam expostas"
+            ],
+            "correta": 3,
+            "explicacao": "Os criminosos testam a senha vazada em outros sites.",
+            "dica": "Pense no que acontece se um desses sites vazar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma senha com a sua data de nascimento é:",
+            "alternativas": [
+              "Fraca, fácil de adivinhar",
+              "Fortíssima",
+              "Obrigatória",
+              "Proibida por lei"
+            ],
+            "correta": 0,
+            "explicacao": "Datas são fáceis de descobrir, às vezes até pelas suas redes sociais.",
+            "dica": "Quantas pessoas sabem o dia do seu aniversário?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual opção junta “algo que você sabe” com “algo que você tem”?",
+            "alternativas": [
+              "Duas senhas diferentes",
+              "Senha + código no celular",
+              "Nome + sobrenome",
+              "E-mail + apelido"
+            ],
+            "correta": 1,
+            "explicacao": "A senha é o que você sabe; o celular com o código é o que você tem.",
+            "dica": "Uma das partes precisa ser um objeto seu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma senha com só 4 dígitos (0 a 9) tem quantas combinações?",
+            "alternativas": [
+              "40",
+              "1.000",
+              "10.000",
+              "9.999"
+            ],
+            "correta": 2,
+            "explicacao": "10 × 10 × 10 × 10 = 10.000 (de 0000 a 9999).",
+            "dica": "Cada dígito tem 10 opções. Multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Chega uma mensagem “do seu banco” pedindo para clicar num link e digitar seu código. O melhor é:",
+            "alternativas": [
+              "Clicar e digitar logo",
+              "Responder com seus dados",
+              "Encaminhar para os amigos",
+              "Ignorar o link e procurar o banco pelo aplicativo oficial ou telefone do cartão"
+            ],
+            "correta": 3,
+            "explicacao": "Golpes usam links falsos. Fale com a empresa só por canais oficiais.",
+            "dica": "Nunca use o caminho que a própria mensagem oferece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um bom lugar para guardar muitas senhas diferentes?",
+            "alternativas": [
+              "Um gerenciador de senhas confiável",
+              "Um papel colado no monitor",
+              "O grupo da família",
+              "Uma nota pública na rede social"
+            ],
+            "correta": 0,
+            "explicacao": "O gerenciador guarda tudo protegido por uma senha mestra forte.",
+            "dica": "Qual opção ninguém mais consegue ver?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o tamanho da senha é tão importante?",
+            "alternativas": [
+              "Porque senha longa é mais fácil de lembrar sempre",
+              "Porque cada caractere a mais multiplica as combinações",
+              "Porque os sites exigem exatamente 20 letras",
+              "Não é importante"
+            ],
+            "correta": 1,
+            "explicacao": "Cada caractere novo multiplica as possibilidades que um ataque precisa testar.",
+            "dica": "Pense em quantas opções cada nova letra acrescenta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma senha de 6 dígitos tem quantas vezes mais combinações que uma de 4 dígitos?",
+            "alternativas": [
+              "2 vezes",
+              "100 vezes",
+              "20 vezes",
+              "1.000 vezes"
+            ],
+            "correta": 1,
+            "explicacao": "1.000.000 ÷ 10.000 = 100. Os 2 dígitos extras multiplicam por 10 × 10.",
+            "dica": "Cada dígito a mais multiplica por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma senha de 3 letras minúsculas (26 letras) tem quantas combinações?",
+            "alternativas": [
+              "78",
+              "676",
+              "17.576",
+              "2.600"
+            ],
+            "correta": 2,
+            "explicacao": "26 × 26 × 26 = 17.576. O erro comum é somar (78).",
+            "dica": "Multiplique as opções de cada posição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas usa a mesma senha no jogo e no e-mail, e o site do jogo vazou. Qual é a melhor primeira atitude?",
+            "alternativas": [
+              "Esperar para ver se algo acontece",
+              "Apagar o jogo e pronto",
+              "Trocar só a senha do jogo",
+              "Trocar a senha do e-mail e de onde ela se repete, e ativar a verificação em 2 etapas"
+            ],
+            "correta": 3,
+            "explicacao": "A senha vazada pode abrir o e-mail, que recupera todas as outras contas.",
+            "dica": "Qual conta ajuda a recuperar todas as outras?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o aplicativo autenticador costuma ser mais seguro que o SMS?",
+            "alternativas": [
+              "Porque o SMS pode ser desviado por quem clona ou troca o chip",
+              "Porque o SMS é pago",
+              "Porque o aplicativo não precisa de celular",
+              "Porque o SMS mostra a senha"
+            ],
+            "correta": 0,
+            "explicacao": "Golpistas conseguem, às vezes, transferir o número para outro chip e receber o SMS.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para ativar a verificação em 2 etapas:",
+            "itens": [
+              "Abrir as configurações de segurança da conta",
+              "Escolher ativar a verificação em 2 etapas",
+              "Cadastrar o celular ou o aplicativo autenticador",
+              "Guardar os códigos de recuperação em lugar seguro"
+            ],
+            "explicacao": "Primeiro achar a opção, depois ativar, cadastrar o segundo fator e guardar os códigos de reserva.",
+            "dica": "Comece encontrando onde fica a segurança da conta."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma frase-senha usa 4 palavras sorteadas de uma lista de 2.000. Quantas combinações existem?",
+            "alternativas": [
+              "8.000",
+              "1,6 × 10¹³",
+              "8 × 10¹²",
+              "2 × 10⁷"
+            ],
+            "correta": 1,
+            "explicacao": "2.000⁴ = 2.000 × 2.000 × 2.000 × 2.000 = 16 × 10¹² = 1,6 × 10¹³. A pegadinha é multiplicar 2.000 por 4.",
+            "dica": "São 4 posições, cada uma com 2.000 opções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um computador testa 1 bilhão (10⁹) de senhas por segundo. Quanto tempo, no máximo, ele leva para testar todas as senhas de 8 dígitos?",
+            "alternativas": [
+              "0,1 segundo",
+              "10 segundos",
+              "1 hora",
+              "100 anos"
+            ],
+            "correta": 0,
+            "explicacao": "8 dígitos = 10⁸ combinações. 10⁸ ÷ 10⁹ = 0,1 segundo.",
+            "dica": "Calcule quantas senhas de 8 dígitos existem e divida pela velocidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém diz: “Minha senha ‘Brasil@2024’ é forte porque tem maiúscula, símbolo e número.” Isso é verdade?",
+            "alternativas": [
+              "É forte, tem todos os tipos de caractere",
+              "É fraca: é palavra comum + símbolo + ano, um padrão que os ataques testam cedo",
+              "É forte se ninguém souber",
+              "É fraca só porque tem menos de 20 caracteres"
+            ],
+            "correta": 1,
+            "explicacao": "Os ataques começam por padrões previsíveis. Variedade de caracteres não salva um padrão óbvio.",
+            "dica": "Releia o que o aprofundamento diz sobre padrões previsíveis."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um golpista descobriu sua senha, mas sua conta tem verificação em 2 etapas. O que ainda falta para ele entrar?",
+            "alternativas": [
+              "Seu nome completo",
+              "Sua foto",
+              "Nada, ele já entra",
+              "O código gerado no seu celular ou aplicativo"
+            ],
+            "correta": 3,
+            "explicacao": "A segunda etapa exige algo que só você tem. Por isso os golpistas tentam convencer você a passar o código.",
+            "dica": "Qual é a segunda prova que a conta pede?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma senha de 10 letras minúsculas tem quantas vezes mais combinações que uma de 5 letras?",
+            "alternativas": [
+              "2 vezes",
+              "5 vezes",
+              "26⁵ vezes (quase 12 milhões)",
+              "26 vezes"
+            ],
+            "correta": 2,
+            "explicacao": "26¹⁰ ÷ 26⁵ = 26⁵ = 11.881.376. Dobrar o tamanho não dobra a força: multiplica por milhões.",
+            "dica": "Divida as potências de mesma base: subtraia os expoentes."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O código que a Duda não passou",
+    "texto": "Era quase meia-noite quando o celular da Duda vibrou. Uma mensagem de um número desconhecido, com a foto de perfil da prima Letícia: “Duda, mandei um código para o seu celular sem querer. Me passa ele, por favor? É urgente!”\n\nNo mesmo instante chegou um SMS com seis números. Duda já ia copiar quando lembrou de uma aula de redes sociais. A professora tinha dito uma frase que ficou na cabeça de todo mundo: “Código que chega para você é a chave da sua casa. Ninguém precisa da sua chave.”\n\nEla leu o SMS com atenção. Embaixo dos números, em letras pequenas, estava escrito: “Não compartilhe este código com ninguém. Ele serve para ativar sua conta em outro aparelho.” Se ela passasse aqueles números, outra pessoa ia entrar na conta dela e poderia pedir dinheiro aos contatos, fingindo ser a Duda.\n\nEm vez de responder, ela ligou para a prima. Letícia atendeu com sono e não fazia ideia de mensagem nenhuma. Alguém tinha copiado a foto dela para enganar a família.\n\nNa manhã seguinte, Duda e a mãe fizeram três coisas. Bloquearam e denunciaram o número falso. Ativaram a verificação em 2 etapas no aplicativo de mensagens, criando um PIN que só elas sabiam. E mandaram um aviso no grupo da família: “Se alguém pedir código ou dinheiro, liguem antes para confirmar.”\n\nDois dias depois, o tio Jorge recebeu o mesmo golpe. Lembrou do aviso, ligou para a Duda e não caiu. Ela ficou orgulhosa: um minuto de desconfiança tinha protegido a família inteira."
+  },
+  "escrita": {
+    "proposta": "Escreva de 5 a 10 linhas no caderno com um “manual de segurança digital” para a sua família, como o aviso que a Duda mandou no grupo. Inclua pelo menos três regras (sobre senhas, códigos e pedidos de dinheiro) e explique, para cada uma, por que ela protege as pessoas."
+  }
+}

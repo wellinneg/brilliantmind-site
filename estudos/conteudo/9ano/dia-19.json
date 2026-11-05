@@ -1,0 +1,1196 @@
+{
+  "dia": 19,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Média, mediana e moda",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Média aritmética: some todos os valores e divida pela quantidade. Notas 6, 7, 8 e 9: (6 + 7 + 8 + 9) ÷ 4 = 30 ÷ 4 = 7,5.",
+          "Mediana: coloque os valores em ordem e pegue o do meio. Se a quantidade for par, faça a média dos dois do meio. Em 2, 4, 6, 8, 10, a mediana é 6. Em 3, 5, 7, 11, é (5 + 7) ÷ 2 = 6.",
+          "Moda: é o valor que mais aparece. Em 37, 38, 38, 39, 38, a moda é 38. Pode haver duas modas (bimodal) ou nenhuma, quando todos aparecem o mesmo número de vezes.",
+          "Valores muito diferentes dos outros (extremos) puxam a média, mas quase não mexem na mediana. Por isso, para falar de salário típico ou preço de casa, a mediana costuma ser mais justa.",
+          "Cada medida responde a uma pergunta: a média reparte tudo igualmente, a mediana divide o grupo ao meio e a moda mostra o mais comum."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Salários de uma pequena empresa: R$ 2.000, R$ 2.000, R$ 2.500, R$ 3.000 e R$ 20.000 (o dono). Calcule média, mediana e moda.",
+            "resolucao": "Soma: 29.500. Média: 29.500 ÷ 5 = R$ 5.900. Mediana (valor do meio): R$ 2.500. Moda: R$ 2.000. A média passa uma ideia falsa: 4 das 5 pessoas ganham bem menos que R$ 5.900."
+          },
+          {
+            "enunciado": "Gols de um time em 7 jogos: 2, 0, 3, 1, 2, 4, 2. Ache as três medidas.",
+            "resolucao": "Em ordem: 0, 1, 2, 2, 2, 3, 4. Média: 14 ÷ 7 = 2. Mediana: o 4º valor, 2. Moda: 2 (aparece três vezes)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Média ponderada: cada valor tem um peso. Prova com peso 2 e nota 6, trabalho com peso 1 e nota 9: (6 × 2 + 9 × 1) ÷ (2 + 1) = 21 ÷ 3 = 7.",
+        "Truques úteis: média × quantidade = soma. Se a média de 5 números é 8, a soma é 40. Para descobrir a nota que falta, calcule a soma necessária e subtraia o que já tem. Tirar ou pôr um valor igual à média não muda a média.",
+        "Para juntar dois grupos, não faça a média das médias: some tudo. 6 alunos com média 5 (soma 30) e 4 alunos com média 8 (soma 32) dão 62 ÷ 10 = 6,2, e não 6,5."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a média de 4, 6 e 8?",
+            "alternativas": [
+              "5",
+              "6",
+              "7",
+              "18"
+            ],
+            "correta": 1,
+            "explicacao": "4 + 6 + 8 = 18; 18 ÷ 3 = 6.",
+            "dica": "Some os três números e divida por 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a moda de 3, 5, 5, 7, 9?",
+            "alternativas": [
+              "3",
+              "7",
+              "5",
+              "9"
+            ],
+            "correta": 2,
+            "explicacao": "O 5 aparece duas vezes; os outros, uma.",
+            "dica": "Procure o número que se repete."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a mediana de 1, 3, 9?",
+            "alternativas": [
+              "3",
+              "1",
+              "9",
+              "13"
+            ],
+            "correta": 0,
+            "explicacao": "Já estão em ordem; o do meio é o 3.",
+            "dica": "Olhe o número que fica no meio da fila."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar a mediana, o primeiro passo é:",
+            "alternativas": [
+              "somar tudo",
+              "dividir por 2",
+              "escolher o maior",
+              "colocar os valores em ordem"
+            ],
+            "correta": 3,
+            "explicacao": "Sem ordenar, o \"do meio\" não faz sentido.",
+            "dica": "O do meio só existe depois de organizar a fila."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a média de 10 e 20?",
+            "alternativas": [
+              "10",
+              "30",
+              "15",
+              "20"
+            ],
+            "correta": 2,
+            "explicacao": "10 + 20 = 30; 30 ÷ 2 = 15.",
+            "dica": "Some e divida por 2."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Notas 6, 7, 8 e 9. Qual a média?",
+            "alternativas": [
+              "7",
+              "7,5",
+              "8",
+              "30"
+            ],
+            "correta": 1,
+            "explicacao": "30 ÷ 4 = 7,5. O 30 é só a soma.",
+            "dica": "Depois de somar, não esqueça de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a mediana de 4, 8, 2, 10, 6?",
+            "alternativas": [
+              "6",
+              "8",
+              "10",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "Em ordem: 2, 4, 6, 8, 10. O do meio é 6.",
+            "dica": "Coloque em ordem antes de escolher."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a mediana de 3, 5, 7, 11?",
+            "alternativas": [
+              "5",
+              "7",
+              "6",
+              "6,5"
+            ],
+            "correta": 2,
+            "explicacao": "São 4 valores: os do meio são 5 e 7; (5 + 7) ÷ 2 = 6. O 6,5 é a média.",
+            "dica": "Quantidade par: use os dois do meio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja vendeu tênis dos números 37, 38, 38, 39, 38, 40, 37. Qual número ela deve comprar mais?",
+            "alternativas": [
+              "37",
+              "39",
+              "40",
+              "38"
+            ],
+            "correta": 3,
+            "explicacao": "A moda é 38, que aparece três vezes.",
+            "dica": "Qual medida mostra o mais comum?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para achar a mediana de uma quantidade par de valores:",
+            "itens": [
+              "Colocar os valores em ordem",
+              "Contar quantos valores há",
+              "Achar os dois valores do meio",
+              "Fazer a média desses dois"
+            ],
+            "explicacao": "Ordena, conta, localiza os dois centrais e tira a média deles.",
+            "dica": "A média dos dois centrais é o último passo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Salários: R$ 2.000, 2.000, 2.500, 3.000 e 20.000. Qual medida representa melhor o salário típico?",
+            "alternativas": [
+              "a média, R$ 5.900",
+              "a mediana, R$ 2.500",
+              "a soma, R$ 29.500",
+              "o maior, R$ 20.000"
+            ],
+            "correta": 1,
+            "explicacao": "O salário de R$ 20.000 puxa a média para cima; a mediana não se deixa levar pelo extremo.",
+            "dica": "Pense em qual medida não é puxada por um valor muito alto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A média de 5 números é 8. Acrescentando o número 14, qual a nova média?",
+            "alternativas": [
+              "8",
+              "11",
+              "14",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "Soma antiga: 5 × 8 = 40. Nova soma: 54. 54 ÷ 6 = 9.",
+            "dica": "Descubra a soma antiga com média × quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tirou 6, 5 e 8. Quanto ela precisa na 4ª prova para fechar com média 7?",
+            "alternativas": [
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "Precisa somar 4 × 7 = 28. Já tem 19. 28 − 19 = 9.",
+            "dica": "Calcule a soma necessária e tire o que ela já tem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a moda de 2, 3, 3, 5, 5, 8?",
+            "alternativas": [
+              "3 e 5",
+              "3",
+              "5",
+              "não tem moda"
+            ],
+            "correta": 0,
+            "explicacao": "O 3 e o 5 aparecem duas vezes cada: o conjunto é bimodal.",
+            "dica": "Conte quantas vezes cada número aparece; pode haver empate."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 1, 2, 3, 4, 100, troca-se o 100 por 5. O que acontece?",
+            "alternativas": [
+              "A média e a mediana mudam muito",
+              "A média cai de 22 para 3 e a mediana continua 3",
+              "Só a mediana muda",
+              "Nada muda"
+            ],
+            "correta": 1,
+            "explicacao": "Antes: 110 ÷ 5 = 22. Depois: 15 ÷ 5 = 3. A mediana era e continua 3.",
+            "dica": "Calcule a média nos dois casos e veja o valor do meio."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Prova com peso 2 e nota 6; trabalho com peso 1 e nota 9. Qual a média ponderada?",
+            "alternativas": [
+              "7,5",
+              "7",
+              "6",
+              "8"
+            ],
+            "correta": 1,
+            "explicacao": "(6 × 2 + 9 × 1) ÷ 3 = 21 ÷ 3 = 7. O 7,5 seria a média simples.",
+            "dica": "Multiplique cada nota pelo peso e divida pela soma dos pesos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A média de 10 alunos é 7. Um aluno que tirou 7 muda de escola. Qual a nova média dos 9?",
+            "alternativas": [
+              "6,3",
+              "7,7",
+              "6",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "Soma: 70. Sem o 7: 63. 63 ÷ 9 = 7. Tirar um valor igual à média não muda a média.",
+            "dica": "Calcule a soma, tire a nota e divida pelos que ficaram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cinco números inteiros positivos têm mediana 5, moda única 7 e média 5. Qual é o menor deles?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "Soma = 25. O do meio é 5; para 7 ser a moda, os dois maiores são 7 e 7. Os dois menores somam 25 − 5 − 14 = 6. Com 1 e 5 ou 3 e 3 haveria empate de moda; só 2 e 4 funcionam.",
+            "dica": "Comece pela soma total e pelo lugar de cada número na fila."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "6 alunos têm média 5 e outros 4 alunos têm média 8. Qual a média da turma toda?",
+            "alternativas": [
+              "6,2",
+              "6,5",
+              "6",
+              "13"
+            ],
+            "correta": 0,
+            "explicacao": "Somas: 30 + 32 = 62. 62 ÷ 10 = 6,2. Fazer (5 + 8) ÷ 2 = 6,5 ignora o tamanho dos grupos.",
+            "dica": "Não faça a média das médias; junte as somas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa empresa, só o diretor, que já ganhava mais que todos, recebe um aumento grande. O que acontece?",
+            "alternativas": [
+              "A mediana sobe muito",
+              "As duas ficam iguais",
+              "A média sobe e a mediana fica igual",
+              "A moda passa a ser o salário do diretor"
+            ],
+            "correta": 2,
+            "explicacao": "A soma cresce, então a média sobe. O valor do meio continua o mesmo, porque o diretor já estava no topo.",
+            "dica": "O diretor muda de lugar na fila ordenada?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Projeto: calculadora de mesada",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Hoje juntamos tudo num projeto: um programa que recebe a mesada, soma os gastos, mostra quanto sobrou e dá um conselho. Ele usa variáveis, input, listas, laço, função e condições.",
+          "Antes de programar, planeje: entradas (mesada e gastos), processamento (somar e subtrair) e saídas (saldo e mensagem).",
+          "O código:\ndef total_gastos(gastos):\n    soma = 0\n    for valor in gastos:\n        soma = soma + valor\n    return soma\n\nmesada = float(input(\"Mesada: \"))\ngastos = [12.5, 30, 8]\nsaldo = mesada - total_gastos(gastos)\nprint(\"Sobrou:\", saldo)\nif saldo < 0:\n    print(\"Gastou mais do que recebeu!\")\nelif saldo >= mesada * 0.2:\n    print(\"Parabéns, guardou 20% ou mais!\")\nelse:\n    print(\"Ainda dá para guardar um pouco.\")",
+          "O input devolve texto; o float() transforma em número com casas decimais. Em Python, os decimais usam ponto: 12.5, e não 12,5.",
+          "Teste com valores que você sabe calcular de cabeça: mesada 100 e gastos 12,50 + 30 + 8 = 50,50 dão saldo 49,50. Como 49,50 é mais que 20 (20% de 100), aparece a mensagem de parabéns."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Com mesada 60 e os gastos da lista [12.5, 30, 8], qual mensagem aparece?",
+            "resolucao": "Total: 50.5. Saldo: 60 − 50.5 = 9.5. Não é negativo e é menor que 60 × 0.2 = 12. Mensagem: \"Ainda dá para guardar um pouco.\""
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Melhorias: sum(gastos) faz a mesma soma que a nossa função; round(saldo, 2) arredonda para centavos; um dicionário guarda gastos por categoria: gastos = {\"lanche\": 30, \"transporte\": 45, \"lazer\": 25}, e sum(gastos.values()) soma tudo.",
+        "Validar a entrada evita bobagens: mesada = -1, depois while mesada < 0: mesada = float(input(\"Mesada: \")). O laço só para quando a pessoa digita um valor que não é negativo.",
+        "A ordem do if/elif importa: o Python para no primeiro teste verdadeiro. Uma meta de poupança também cabe num laço: com juntado = 0 e meses = 0, enquanto juntado < 300, some 40 a juntado e 1 a meses. No fim, meses vale 8."
+      ],
+      "desafio_pratico": "Digite a calculadora de mesada num site de Python on-line ou no computador. Rode com três mesadas diferentes e confira de cabeça se o saldo e a mensagem estão certos. Depois, troque a lista por um dicionário com categorias.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando lê o que a pessoa digita?",
+            "alternativas": [
+              "print()",
+              "input()",
+              "len()",
+              "for"
+            ],
+            "correta": 1,
+            "explicacao": "input() espera a pessoa digitar e devolve o texto.",
+            "dica": "Em inglês, entrada é..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando mostra algo na tela?",
+            "alternativas": [
+              "input()",
+              "def",
+              "print()",
+              "if"
+            ],
+            "correta": 2,
+            "explicacao": "print() imprime (mostra) na tela.",
+            "dica": "Em inglês, imprimir é..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que guarda vários valores de uma vez?",
+            "alternativas": [
+              "uma lista, como [10, 20]",
+              "um if",
+              "um print",
+              "um comentário"
+            ],
+            "correta": 0,
+            "explicacao": "A lista guarda vários valores entre colchetes.",
+            "dica": "Procure os colchetes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se saldo = 100 - 60, quanto vale saldo?",
+            "alternativas": [
+              "160",
+              "60",
+              "100",
+              "40"
+            ],
+            "correta": 3,
+            "explicacao": "100 − 60 = 40.",
+            "dica": "É uma subtração simples."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra cria uma função em Python?",
+            "alternativas": [
+              "for",
+              "if",
+              "def",
+              "while"
+            ],
+            "correta": 2,
+            "explicacao": "def vem de define (definir).",
+            "dica": "É a palavra de definir."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como ler a mesada já como número decimal?",
+            "alternativas": [
+              "Só input(), que já devolve número",
+              "float(input(\"Mesada: \"))",
+              "print(input())",
+              "int print(\"Mesada\")"
+            ],
+            "correta": 1,
+            "explicacao": "input devolve texto; float transforma em número com decimais.",
+            "dica": "É preciso converter o texto em número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto devolve total_gastos([10, 20, 5])?",
+            "alternativas": [
+              "35",
+              "3",
+              "25",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "O laço soma 10 + 20 + 5 = 35. O 3 é a quantidade de itens.",
+            "dica": "A função soma os valores, não conta os itens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mesada 100 e gastos de 85. Qual mensagem aparece?",
+            "alternativas": [
+              "Gastou mais do que recebeu!",
+              "Parabéns, guardou 20% ou mais!",
+              "Ainda dá para guardar um pouco.",
+              "Nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "Saldo 15: não é negativo e é menor que 20 (20% de 100).",
+            "dica": "Calcule o saldo e compare com 20% da mesada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como escrever doze e cinquenta em Python?",
+            "alternativas": [
+              "12,50",
+              "doze e cinquenta",
+              "'12,5'",
+              "12.5"
+            ],
+            "correta": 3,
+            "explicacao": "Python usa ponto como separador decimal. Entre aspas vira texto.",
+            "dica": "Python segue o padrão dos Estados Unidos para decimais."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as etapas do projeto:",
+            "itens": [
+              "Planejar entradas, contas e saídas",
+              "Escrever o código",
+              "Testar com valores de resposta conhecida",
+              "Corrigir os erros encontrados"
+            ],
+            "explicacao": "Planejar, programar, testar e corrigir.",
+            "dica": "Não dá para corrigir o que ainda não foi testado."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Mesada 50 e gastos [20, 15, 25]. Qual mensagem aparece?",
+            "alternativas": [
+              "Gastou mais do que recebeu!",
+              "Parabéns, guardou 20% ou mais!",
+              "Ainda dá para guardar um pouco.",
+              "Sobrou: 10"
+            ],
+            "correta": 0,
+            "explicacao": "Total 60; saldo 50 − 60 = −10, negativo.",
+            "dica": "Some os gastos e compare com a mesada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha arredonda o saldo 49.456 para centavos?",
+            "alternativas": [
+              "int(saldo)",
+              "saldo / 100",
+              "print(saldo, 2)",
+              "round(saldo, 2)"
+            ],
+            "correta": 3,
+            "explicacao": "round(x, 2) deixa 2 casas: 49.46. int() cortaria tudo depois do ponto.",
+            "dica": "Procure a função de arredondar com o número de casas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se total_gastos não tiver a linha return soma, o que acontece?",
+            "alternativas": [
+              "Ela devolve 0",
+              "Ela devolve None e a subtração dá erro",
+              "Ela devolve a lista",
+              "Funciona igual"
+            ],
+            "correta": 1,
+            "explicacao": "Sem return, a função devolve None, e mesada − None causa erro.",
+            "dica": "Sem return, o que a função entrega de volta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mesada 200 e sobrou exatamente 40. Qual mensagem aparece?",
+            "alternativas": [
+              "Gastou mais do que recebeu!",
+              "Ainda dá para guardar um pouco.",
+              "Parabéns, guardou 20% ou mais!",
+              "Nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "200 × 0.2 = 40, e o teste é >= (maior ou igual). 40 >= 40 é verdadeiro.",
+            "dica": "Atenção ao sinal do teste: maior ou igual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "juntado = 0 e meses = 0. Enquanto juntado < 300, soma-se 40 a juntado e 1 a meses. Quanto vale meses no fim?",
+            "alternativas": [
+              "8",
+              "7",
+              "7,5",
+              "300"
+            ],
+            "correta": 0,
+            "explicacao": "Depois de 7 meses, juntado = 280 (< 300), então roda mais uma vez: 320 e meses = 8.",
+            "dica": "Siga o laço até juntado deixar de ser menor que 300."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "gastos = {\"lanche\": 30, \"transporte\": 45, \"lazer\": 25}. Quanto dá sum(gastos.values())?",
+            "alternativas": [
+              "3",
+              "100",
+              "lanche",
+              "75"
+            ],
+            "correta": 1,
+            "explicacao": "values() pega 30, 45 e 25; a soma é 100. O 3 é a quantidade de chaves.",
+            "dica": "values() pega os números; depois é só somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com mesada = -1 e while mesada < 0: mesada = float(input()), a pessoa digita -10 e depois 50. O que acontece?",
+            "alternativas": [
+              "O programa aceita -10",
+              "O programa trava para sempre",
+              "Dá erro no -10",
+              "O laço repete após o -10 e para ao receber 50"
+            ],
+            "correta": 3,
+            "explicacao": "−10 ainda é menor que 0, então pergunta de novo; 50 faz o teste ficar falso.",
+            "dica": "Teste a condição do while depois de cada valor digitado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mesada 100 e saldo 50. O código é: if saldo < 0: print(\"A\") / elif saldo >= 0: print(\"B\") / elif saldo >= mesada * 0.2: print(\"C\"). O que aparece?",
+            "alternativas": [
+              "C",
+              "B e C",
+              "B",
+              "A"
+            ],
+            "correta": 2,
+            "explicacao": "O Python para no primeiro teste verdadeiro: saldo >= 0. O \"C\" nunca aparece, porque o teste dele vem depois.",
+            "dica": "Releia no aprofundamento por que a ordem do if/elif importa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mesada 150 e saldo 30. Quanto mostra print(saldo / mesada * 100)?",
+            "alternativas": [
+              "20.0",
+              "5.0",
+              "0.2",
+              "30.0"
+            ],
+            "correta": 0,
+            "explicacao": "30 ÷ 150 = 0.2; × 100 = 20.0 (por cento).",
+            "dica": "Divida o saldo pela mesada e multiplique por 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na função, alguém colocou soma = 0 dentro do for, antes de soma = soma + valor. Quanto dá total_gastos([10, 20, 5])?",
+            "alternativas": [
+              "35",
+              "0",
+              "5",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "A cada volta a soma é zerada, então só sobra o último valor: 0 + 5 = 5.",
+            "dica": "Simule volta por volta: o que acontece com a soma no começo de cada volta?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Trabalho escolar nas normas básicas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um trabalho escolar organizado tem: capa (escola, seu nome, título, cidade e ano), sumário, introdução, desenvolvimento, conclusão e referências.",
+          "Formatação mais pedida (normas da ABNT): papel A4, fonte Arial ou Times New Roman tamanho 12, espaçamento 1,5 entre linhas, texto justificado e margens de 3 cm em cima e à esquerda e 2 cm embaixo e à direita.",
+          "Citação curta (até 3 linhas): entre aspas, no meio do texto, com o autor, o ano e a página, por exemplo (SOUZA, 2020, p. 15). Citação longa (mais de 3 linhas): em parágrafo separado, recuo de 4 cm, fonte menor, espaçamento simples e sem aspas.",
+          "Referências: lista no final, em ordem alfabética pelo sobrenome do autor. Livro: SOBRENOME, Nome. Título. Cidade: Editora, ano. Site: acrescente \"Disponível em:\" com o link e \"Acesso em:\" com a data.",
+          "No Word: Layout > Margens > Margens Personalizadas; Página Inicial > Espaçamento entre linhas 1,5; Inserir > Número de Página; e, com os títulos no estilo Título 1, Referências > Sumário cria o sumário automático."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Monte a referência de um livro de Ana Silva chamado Água no Brasil, publicado em 2020, em São Paulo, pela Editora Rio Claro.",
+            "resolucao": "SILVA, Ana. Água no Brasil. São Paulo: Editora Rio Claro, 2020. (O título vai em negrito.)"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Contagem de páginas: a capa não é contada; a contagem começa na folha de rosto, mas o número só aparece a partir da introdução, no canto superior direito. No Word, isso se faz com quebra de seção (Layout > Quebras > Próxima página).",
+        "Detalhes que dão acabamento: recuo de 1,25 cm na primeira linha de cada parágrafo; títulos das seções principais em negrito e maiúsculas; sumário atualizado (clique nele e em Atualizar Sumário depois de mudar algum título).",
+        "Se o professor pedir regras diferentes (fonte 11, espaçamento simples, sem capa), siga o professor: as normas servem para organizar, e quem avalia define o combinado."
+      ],
+      "desafio_pratico": "No Word, abra um texto seu de pelo menos 2 páginas (pode ser uma pesquisa). Faça a capa, ajuste margens 3/2, Arial 12, espaçamento 1,5 e texto justificado. Aplique Título 1 nas seções, crie o sumário automático, insira número de página e termine com as referências de um livro e de um site.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fonte e tamanho são mais usados nas normas?",
+            "alternativas": [
+              "Comic Sans 16",
+              "Arial ou Times New Roman 12",
+              "qualquer fonte 8",
+              "Arial 20"
+            ],
+            "correta": 1,
+            "explicacao": "Arial ou Times New Roman 12 é o padrão do texto.",
+            "dica": "São fontes sérias, num tamanho médio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual o espaçamento entre linhas mais pedido?",
+            "alternativas": [
+              "1,5",
+              "3",
+              "0,5",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "1,5 deixa o texto fácil de ler e corrigir.",
+            "dica": "Nem simples nem duplo: fica no meio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual parte vem no início, com o nome da escola e o título?",
+            "alternativas": [
+              "conclusão",
+              "referências",
+              "capa",
+              "desenvolvimento"
+            ],
+            "correta": 2,
+            "explicacao": "A capa abre o trabalho e identifica autor, escola e tema.",
+            "dica": "É a primeira coisa que o professor vê."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica a lista dos livros e sites usados?",
+            "alternativas": [
+              "capa",
+              "introdução",
+              "sumário",
+              "referências"
+            ],
+            "correta": 3,
+            "explicacao": "As referências ficam no final e mostram as fontes consultadas.",
+            "dica": "É a parte que mostra de onde você tirou as informações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alinhamento o texto deve ter?",
+            "alternativas": [
+              "centralizado",
+              "à direita",
+              "justificado",
+              "qualquer um, sem regra"
+            ],
+            "correta": 2,
+            "explicacao": "Justificado alinha as duas margens, deixando o bloco reto.",
+            "dica": "O texto fica reto dos dois lados."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as margens das normas?",
+            "alternativas": [
+              "2 cm em todos os lados",
+              "3 cm em cima e à esquerda; 2 cm embaixo e à direita",
+              "5 cm em cima; 1 cm nos outros",
+              "3 cm em todos os lados"
+            ],
+            "correta": 1,
+            "explicacao": "Lados de cima e esquerdo maiores, para encadernar e grampear.",
+            "dica": "A margem maior fica no lado onde se grampeia."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as partes do trabalho em ordem:",
+            "itens": [
+              "Capa",
+              "Sumário",
+              "Introdução",
+              "Desenvolvimento",
+              "Conclusão",
+              "Referências"
+            ],
+            "explicacao": "Capa e sumário apresentam; introdução, desenvolvimento e conclusão são o texto; referências fecham.",
+            "dica": "As fontes consultadas ficam no fim; a capa, no começo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fazer uma citação curta, de duas linhas?",
+            "alternativas": [
+              "Entre aspas, no texto, com autor, ano e página",
+              "Em parágrafo separado, sem aspas",
+              "Em letra maiúscula",
+              "Sem indicar o autor"
+            ],
+            "correta": 0,
+            "explicacao": "Até 3 linhas: aspas no meio do texto e a fonte entre parênteses.",
+            "dica": "Citação curta fica dentro do próprio parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que ordem ficam as referências?",
+            "alternativas": [
+              "pela data em que você leu",
+              "pelo tamanho do livro",
+              "pela ordem em que aparecem no texto",
+              "em ordem alfabética pelo sobrenome do autor"
+            ],
+            "correta": 3,
+            "explicacao": "A lista é alfabética pelo sobrenome.",
+            "dica": "Pense em como se organiza uma lista de chamada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é preciso para o Word montar o sumário automático?",
+            "alternativas": [
+              "Digitar os números das páginas à mão",
+              "Usar fonte maior nos títulos",
+              "Aplicar os estilos Título 1 e Título 2 aos títulos",
+              "Deixar os títulos em vermelho"
+            ],
+            "correta": 2,
+            "explicacao": "O sumário lê os estilos de título para montar a lista com páginas.",
+            "dica": "O Word precisa reconhecer o que é título, e isso vem de um estilo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como colocar uma citação de 5 linhas?",
+            "alternativas": [
+              "Entre aspas, no meio do parágrafo",
+              "Em parágrafo separado, recuo de 4 cm, fonte menor, espaço simples e sem aspas",
+              "Em negrito e centralizada",
+              "Em fonte 14 com aspas"
+            ],
+            "correta": 1,
+            "explicacao": "Mais de 3 linhas é citação longa: ganha bloco próprio recuado.",
+            "dica": "Mais de 3 linhas muda o formato."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual referência de livro está no formato certo?",
+            "alternativas": [
+              "Ana Silva, Água no Brasil, 2020",
+              "Água no Brasil - Ana Silva (São Paulo)",
+              "SILVA, Ana. Água no Brasil. São Paulo: Editora Rio Claro, 2020.",
+              "SILVA. 2020. Ana. Brasil."
+            ],
+            "correta": 2,
+            "explicacao": "Sobrenome em maiúsculas, nome, título, cidade, editora e ano, nessa ordem.",
+            "dica": "Comece pelo sobrenome em letras maiúsculas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Referências de SOUZA, Pedro; ALMEIDA, Rita; e MORAES, Lia. Qual a ordem certa?",
+            "alternativas": [
+              "ALMEIDA, MORAES, SOUZA",
+              "SOUZA, MORAES, ALMEIDA",
+              "MORAES, ALMEIDA, SOUZA",
+              "Pedro, Rita, Lia"
+            ],
+            "correta": 0,
+            "explicacao": "Ordem alfabética pelo sobrenome: A, M, S.",
+            "dica": "Olhe a primeira letra de cada sobrenome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a referência de um site precisa ter a mais que a de um livro?",
+            "alternativas": [
+              "O nome da editora",
+              "O número de páginas",
+              "A cidade do autor",
+              "\"Disponível em:\" com o link e \"Acesso em:\" com a data"
+            ],
+            "correta": 3,
+            "explicacao": "Sites mudam, por isso registra-se onde e quando foi consultado.",
+            "dica": "Um site pode mudar amanhã; o que registrar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você mudou o nome de um título e o sumário continuou igual. O que fazer?",
+            "alternativas": [
+              "Apagar o sumário e digitar à mão",
+              "Clicar no sumário e em Atualizar Sumário",
+              "Salvar como PDF",
+              "Mudar a fonte"
+            ],
+            "correta": 1,
+            "explicacao": "O sumário automático só muda quando é atualizado.",
+            "dica": "O sumário precisa ser avisado da mudança."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trabalho tem capa, folha de rosto, sumário de 1 página e depois a introdução. Que número aparece na 1ª página da introdução?",
+            "alternativas": [
+              "1",
+              "3",
+              "4",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "A capa não conta. Folha de rosto = 1, sumário = 2, introdução = 3. O número só aparece a partir dela.",
+            "dica": "Releia no aprofundamento onde a contagem começa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa folha A4 (21 cm de largura), com as margens das normas, qual a largura da área de texto?",
+            "alternativas": [
+              "18 cm",
+              "15 cm",
+              "21 cm",
+              "16 cm"
+            ],
+            "correta": 3,
+            "explicacao": "21 − 3 (esquerda) − 2 (direita) = 16 cm.",
+            "dica": "Tire da largura as margens da esquerda e da direita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A professora pediu fonte 11 e espaçamento simples. O que fazer?",
+            "alternativas": [
+              "Usar as normas, pois são lei",
+              "Misturar as duas regras",
+              "Seguir o pedido da professora",
+              "Entregar sem formatação"
+            ],
+            "correta": 2,
+            "explicacao": "As normas organizam, mas o combinado de quem avalia vale para aquele trabalho.",
+            "dica": "Quem define as regras da tarefa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafael pôs uma citação de 6 linhas entre aspas, no meio do parágrafo. Como corrigir?",
+            "alternativas": [
+              "Tirar as aspas e pôr em parágrafo separado com recuo de 4 cm",
+              "Só colocar em negrito",
+              "Aumentar a fonte para 14",
+              "Apagar o autor da citação"
+            ],
+            "correta": 0,
+            "explicacao": "Mais de 3 linhas é citação longa: bloco próprio, recuo de 4 cm, fonte menor e espaço simples.",
+            "dica": "Conte as linhas e lembre a regra das citações longas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual configuração está toda de acordo com as normas básicas?",
+            "alternativas": [
+              "Arial 12, espaço duplo, centralizado",
+              "Times New Roman 12, espaço 1,5, justificado, margens 3 e 2 cm",
+              "Times New Roman 14, espaço 1,5, à esquerda, margens de 2 cm",
+              "Arial 10, espaço simples, justificado, margens 3 e 2 cm"
+            ],
+            "correta": 1,
+            "explicacao": "Fonte 12, espaço 1,5, justificado e margens 3/2. Cada uma das outras erra pelo menos um item.",
+            "dica": "Confira item por item: fonte, espaço, alinhamento e margens."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Liderar equipe: produtividade, comissão e custo do trabalho",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Liderar não é mandar gritando. O bom líder dá metas claras, divide as tarefas pelo talento de cada um, treina, acompanha e reconhece quem faz bem. Uma equipe organizada produz muito mais do que cada pessoa sozinha.",
+          "Produtividade é quanto se produz por pessoa ou por hora. Numa padaria, 2 pessoas fazendo tudo produzem 300 pães por dia (150 por pessoa). Com 3 pessoas em etapas (uma amassa, outra assa, outra embala), saem 600 pães: 200 por pessoa.",
+          "Comissão é uma parte do pagamento ligada às vendas, como 3% do que o vendedor vende. Motiva, mas, no emprego com carteira, ela faz parte do salário: entra no cálculo de férias, 13º e FGTS, e o salário mínimo precisa ser garantido mesmo num mês fraco.",
+          "Um funcionário com carteira assinada (CLT) custa mais que o salário: 13º, férias com um terço a mais, FGTS de 8% e, dependendo do regime de impostos da empresa, contribuição ao INSS. Isso precisa entrar no preço do que se vende.",
+          "Não registrar parece economia, mas é risco: o funcionário pode ir à Justiça do Trabalho e cobrar todos os direitos atrasados, com multas. Sem INSS, ele fica desprotegido num acidente. E quem trata mal perde os melhores funcionários."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quanto custa, por mês, um funcionário com salário de R$ 2.000, contando só 13º, férias com 1/3 e FGTS?",
+            "resolucao": "13º: 2.000 ÷ 12 ≈ 166,67. Férias com 1/3: 2.666,67 ÷ 12 ≈ 222,22. FGTS: 8% de 2.000 = 160. Total ≈ 2.000 + 166,67 + 222,22 + 160 = R$ 2.548,89, sem contar vale-transporte e outros encargos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Jornada normal: até 8 horas por dia e 44 por semana. A hora extra vale pelo menos 50% a mais. Quem ganha R$ 10 por hora recebe, no mínimo, R$ 15 por hora extra.",
+        "Comissão por faixa estimula bater meta: por exemplo, 2% até R$ 30.000 e 3% sobre o que passar disso. Salário fixo de R$ 1.800 mais 2% sobre R$ 40.000 em vendas dá 1.800 + 800 = R$ 2.600.",
+        "Quem sai da empresa pode entrar na Justiça do Trabalho em até 2 anos, cobrando os últimos 5 anos. Trocar funcionário também custa: o novato demora para aprender e produz menos no começo. Registrar, treinar e pagar o justo é o jeito de aproveitar bem o trabalho da equipe."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz um bom líder?",
+            "alternativas": [
+              "Grita para todos trabalharem",
+              "Divide tarefas, treina e reconhece",
+              "Faz tudo sozinho",
+              "Não conversa com a equipe"
+            ],
+            "correta": 1,
+            "explicacao": "Organizar, ensinar e valorizar faz a equipe render mais.",
+            "dica": "Pense num técnico de time que todos respeitam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é comissão?",
+            "alternativas": [
+              "Parte do pagamento ligada às vendas",
+              "Multa por erro",
+              "Um imposto",
+              "Um tipo de férias"
+            ],
+            "correta": 0,
+            "explicacao": "É uma porcentagem sobre o que o funcionário vende.",
+            "dica": "Tem a ver com quanto o vendedor vende."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Contratar sem registro em carteira:",
+            "alternativas": [
+              "é sempre economia",
+              "é o certo a fazer",
+              "pode dar processo e multa",
+              "não tem risco"
+            ],
+            "correta": 2,
+            "explicacao": "O funcionário pode cobrar os direitos atrasados na Justiça, com multas.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário com carteira assinada tem direito a:",
+            "alternativas": [
+              "só o salário",
+              "nada além do combinado de boca",
+              "só vale-lanche",
+              "13º, férias e FGTS"
+            ],
+            "correta": 3,
+            "explicacao": "Esses direitos fazem parte do contrato pela CLT.",
+            "dica": "Lembre dos direitos citados no custo do funcionário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Produtividade é:",
+            "alternativas": [
+              "quanto se produz por pessoa ou por hora",
+              "quantas horas se fica parado",
+              "o preço do produto",
+              "o número de chefes"
+            ],
+            "correta": 0,
+            "explicacao": "Mede o resultado em relação ao tempo ou às pessoas.",
+            "dica": "Pense em pães feitos por pessoa."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na padaria, 3 pessoas em etapas fazem 600 pães por dia. Quantos pães por pessoa?",
+            "alternativas": [
+              "150",
+              "200",
+              "300",
+              "600"
+            ],
+            "correta": 1,
+            "explicacao": "600 ÷ 3 = 200 pães por pessoa, contra 150 antes.",
+            "dica": "Divida o total pelo número de pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um vendedor vendeu R$ 20.000 com comissão de 3%. Quanto recebe de comissão?",
+            "alternativas": [
+              "R$ 60",
+              "R$ 6.000",
+              "R$ 600",
+              "R$ 300"
+            ],
+            "correta": 2,
+            "explicacao": "1% de 20.000 = 200; 3% = 600.",
+            "dica": "Ache 1% e multiplique por 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário sem registro saiu e entrou na Justiça. O que ele pode cobrar?",
+            "alternativas": [
+              "Direitos atrasados, como FGTS, férias e 13º",
+              "Nada, pois não tinha carteira",
+              "Só o último salário",
+              "Só um pedido de desculpas"
+            ],
+            "correta": 0,
+            "explicacao": "O vínculo de emprego pode ser reconhecido mesmo sem carteira, com todos os direitos.",
+            "dica": "A falta de registro apaga os direitos dele?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que tratar bem a equipe ajuda o negócio?",
+            "alternativas": [
+              "Porque o líder fica famoso",
+              "Porque dispensa pagar salário",
+              "Porque acaba com os impostos",
+              "Porque os bons ficam, produzem mais e não é preciso treinar novatos o tempo todo"
+            ],
+            "correta": 3,
+            "explicacao": "Equipe estável e motivada rende mais e custa menos com trocas.",
+            "dica": "Pense no custo de trocar de funcionário."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para delegar uma tarefa:",
+            "itens": [
+              "Explicar o objetivo e o resultado esperado",
+              "Mostrar como fazer e treinar",
+              "Combinar o prazo",
+              "Acompanhar e dar retorno"
+            ],
+            "explicacao": "Primeiro o porquê, depois o como, o quando e, por fim, o acompanhamento.",
+            "dica": "Antes de ensinar como, explique para quê."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Salário fixo de R$ 1.800 mais 2% sobre R$ 40.000 em vendas. Quanto o vendedor recebe?",
+            "alternativas": [
+              "R$ 1.880",
+              "R$ 2.600",
+              "R$ 2.400",
+              "R$ 9.800"
+            ],
+            "correta": 1,
+            "explicacao": "2% de 40.000 = 800. 1.800 + 800 = R$ 2.600.",
+            "dica": "Calcule a comissão e some ao fixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Salário de R$ 2.000. Contando só 13º, férias com 1/3 e FGTS, quanto o funcionário custa por mês, aproximadamente?",
+            "alternativas": [
+              "R$ 2.000",
+              "R$ 4.000",
+              "R$ 2.160",
+              "cerca de R$ 2.549"
+            ],
+            "correta": 3,
+            "explicacao": "166,67 (13º) + 222,22 (férias + 1/3) + 160 (FGTS) somados aos 2.000 dão cerca de 2.549.",
+            "dica": "Divida 13º e férias por 12 meses e some o FGTS."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rui ganha R$ 10 por hora e fez 2 horas extras. Quanto recebe, no mínimo, por elas?",
+            "alternativas": [
+              "R$ 20",
+              "R$ 30",
+              "R$ 40",
+              "R$ 15"
+            ],
+            "correta": 1,
+            "explicacao": "Hora extra vale pelo menos 50% a mais: R$ 15. Duas horas: R$ 30.",
+            "dica": "Primeiro descubra o valor de uma hora extra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num mês fraco, a comissão de uma vendedora com carteira deu menos que o salário mínimo. A empresa deve:",
+            "alternativas": [
+              "pagar só a comissão",
+              "descontar no mês seguinte",
+              "garantir pelo menos o salário mínimo",
+              "não pagar nada"
+            ],
+            "correta": 2,
+            "explicacao": "Mesmo quem ganha por comissão tem o salário mínimo garantido.",
+            "dica": "Releia o parágrafo da lição sobre comissão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que 3 pessoas organizadas em etapas produzem mais que 3 pessoas fazendo tudo sozinhas?",
+            "alternativas": [
+              "Cada uma fica boa na sua etapa e perde menos tempo trocando de tarefa",
+              "Porque trabalham mais horas",
+              "Porque ganham menos",
+              "Porque usam menos farinha"
+            ],
+            "correta": 0,
+            "explicacao": "Especialização e fluxo organizado aumentam a produção sem aumentar o cansaço.",
+            "dica": "Pense em quem treina a mesma etapa todos os dias."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono deixou de registrar um funcionário para economizar R$ 400 por mês. Depois de 3 anos, foi condenado a pagar os direitos atrasados (o que tinha deixado de pagar) mais R$ 6.000 de multas e custos. Qual foi o resultado?",
+            "alternativas": [
+              "Economizou R$ 14.400",
+              "Economizou R$ 8.400",
+              "Perdeu R$ 6.000: devolveu a economia e ainda pagou as multas",
+              "Ficou no zero a zero"
+            ],
+            "correta": 2,
+            "explicacao": "Os atrasados devolvem os R$ 14.400 (400 × 36) e as multas são prejuízo puro: −R$ 6.000.",
+            "dica": "Os atrasados cancelam a economia; o que sobra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma funcionária saiu da empresa. Pela regra trabalhista, ela pode ir à Justiça:",
+            "alternativas": [
+              "só no dia em que sai",
+              "em até 2 anos, cobrando os últimos 5 anos",
+              "em até 5 anos, cobrando só o último mês",
+              "nunca, se pediu demissão"
+            ],
+            "correta": 1,
+            "explicacao": "O prazo é de 2 anos depois de sair, podendo cobrar até 5 anos para trás.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma costureira experiente faz 200 peças por mês. Uma novata faz metade disso nos 2 primeiros meses. Quantas peças a oficina perde ao trocar a experiente pela novata?",
+            "alternativas": [
+              "200",
+              "100",
+              "400",
+              "50"
+            ],
+            "correta": 0,
+            "explicacao": "A novata faz 100 por mês: perde 100 em cada um dos 2 meses = 200 peças.",
+            "dica": "Calcule a perda de um mês e multiplique pelos meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Comissão de 2% até R$ 30.000 e 3% sobre o que passar disso. Vendas de R$ 50.000. Quanto de comissão?",
+            "alternativas": [
+              "R$ 1.000",
+              "R$ 1.500",
+              "R$ 900",
+              "R$ 1.200"
+            ],
+            "correta": 3,
+            "explicacao": "2% de 30.000 = 600. O excedente é 20.000; 3% dele = 600. Total: R$ 1.200.",
+            "dica": "Separe as vendas em duas faixas e calcule cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude é aproveitar bem o trabalho da equipe, dentro da lei?",
+            "alternativas": [
+              "Exigir 12 horas por dia sem pagar extra",
+              "Registrar, organizar etapas, dar metas claras e premiar resultados",
+              "Pagar menos que o mínimo para quem é jovem",
+              "Não dar férias para não perder produção"
+            ],
+            "correta": 1,
+            "explicacao": "Produzir mais vem de organização e motivação, não de tirar direitos.",
+            "dica": "Descarte as opções que desrespeitam direitos."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A oficina da dona Marta",
+    "texto": "Quando dona Marta abriu a oficina de costura na garagem, eram só ela e a máquina. Em pouco tempo, as encomendas de uniformes escolares passaram do que duas mãos conseguiam fazer, e ela chamou três vizinhas para ajudar.\n\nNas primeiras semanas, foi uma confusão. Cada uma cortava, costurava e passava suas próprias peças. Faltava tesoura, sobrava linha, e ninguém sabia quem tinha feito a camiseta com a manga torta. No fim do mês, as quatro tinham trabalhado muito e entregado pouco.\n\nMarta decidiu mudar. Observou cada uma por alguns dias. Lúcia cortava com precisão de régua; Joana era rápida na máquina; Cleide tinha paciência para acabamento. Marta separou as etapas, combinou metas por semana e passou a pagar um valor extra quando a meta era batida. Em dois meses, a oficina dobrou a produção, sem que ninguém trabalhasse mais horas.\n\nUm conhecido sugeriu que ela continuasse sem registrar ninguém, para economizar. Marta fez as contas com a contadora do bairro. Descobriu quanto custavam o 13º, as férias e o FGTS, colocou esses valores no preço dos uniformes e registrou as três. O preço subiu um pouco, e nenhuma escola reclamou.\n\nUm ano depois, uma confecção maior tentou contratar Lúcia, oferecendo um pouco mais. Ela recusou. Disse que ali tinha carteira assinada, era respeitada e sabia exatamente quanto ia receber.\n\nMarta costuma dizer que o segredo não foi a máquina nova nem o tecido bom. Foi entender que uma equipe bem tratada vale mais do que qualquer economia feita por fora da lei."
+  },
+  "escrita": {
+    "proposta": "Em 6 a 10 linhas, responda: quais foram as três decisões de dona Marta que mais ajudaram a oficina? Explique cada uma e diga qual delas você acha mais importante e por quê."
+  }
+}

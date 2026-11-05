@@ -1,0 +1,905 @@
+{
+  "dia": 8,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Máquinas simples",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Máquinas simples são ferramentas que ajudam a fazer um trabalho com menos força ou de um jeito mais fácil. Elas existem há milhares de anos e estão em todo lugar: na tesoura, na rampa, no abridor de garrafa.",
+          "A alavanca é uma barra que gira em torno de um ponto de apoio. A gangorra, o pé de cabra e a tesoura são alavancas. Quanto mais longe do apoio você empurra, menos força precisa fazer.",
+          "O plano inclinado é uma rampa. Subir uma caixa pela rampa exige menos força do que levantar direto, mas o caminho é mais longo. O parafuso é um plano inclinado enrolado num cilindro, e a cunha (faca, machado) são dois planos inclinados juntos que abrem os materiais.",
+          "A roldana (ou polia) é uma roda com uma corda, como a do poço. A roldana fixa muda a direção da força: você puxa para baixo e o balde sobe. A roldana móvel divide a força pela metade.",
+          "A roda com eixo, como a maçaneta e o volante, também ajuda: girar a parte grande faz força maior na parte pequena."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Por que é mais fácil abrir uma porta empurrando perto da maçaneta do que perto da dobradiça?",
+            "resolucao": "A porta é uma alavanca e a dobradiça é o ponto de apoio. Perto da maçaneta você está mais longe do apoio, então precisa de menos força."
+          },
+          {
+            "enunciado": "Uma caixa de 400 N precisa subir 1 metro. Com uma rampa de 4 metros (sem atrito), qual força é preciso fazer?",
+            "resolucao": "Força × comprimento da rampa = peso × altura. F × 4 = 400 × 1, então F = 100 N. Força 4 vezes menor, caminho 4 vezes maior."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A lei da alavanca diz: força × braço da força = peso × braço do peso (braço é a distância até o apoio). Para levantar 600 N a 1 m do apoio, empurrando a 3 m dele: F × 3 = 600 × 1, então F = 200 N. Na gangorra é igual: 30 kg a 2 m equilibram 40 kg a 1,5 m, porque 30 × 2 = 40 × 1,5.",
+        "As alavancas têm três tipos. Interfixa: o apoio fica no meio (gangorra, tesoura). Inter-resistente: o peso fica no meio (carrinho de mão, quebra-nozes). Interpotente: a força fica no meio (pinça, vara de pesca).",
+        "Máquina simples não cria energia. Ela troca força por distância: você faz menos força, mas por um caminho maior. N (newton) é a unidade de força; um objeto de 1 kg pesa cerca de 10 N."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma rampa é exemplo de qual máquina simples?",
+            "alternativas": [
+              "Alavanca",
+              "Plano inclinado",
+              "Roldana",
+              "Cunha"
+            ],
+            "correta": 1,
+            "explicacao": "Rampa é um plano inclinado: uma superfície em subida.",
+            "dica": "Inclinado quer dizer em subida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A gangorra é exemplo de:",
+            "alternativas": [
+              "Alavanca",
+              "Parafuso",
+              "Roda com eixo",
+              "Plano inclinado"
+            ],
+            "correta": 0,
+            "explicacao": "É uma barra que gira num ponto de apoio no meio: uma alavanca.",
+            "dica": "Ela é uma barra que gira num ponto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que servem as máquinas simples?",
+            "alternativas": [
+              "Para gastar energia elétrica",
+              "Para aumentar o peso",
+              "Para fazer um trabalho com menos força ou de um jeito mais fácil",
+              "Para enfeitar a casa"
+            ],
+            "correta": 2,
+            "explicacao": "Elas facilitam o trabalho, sem usar energia elétrica.",
+            "dica": "Pense no pé de cabra ou na rampa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A faca e o machado são:",
+            "alternativas": [
+              "Roldanas",
+              "Cunhas",
+              "Rodas",
+              "Parafusos"
+            ],
+            "correta": 1,
+            "explicacao": "A cunha tem ponta fina que abre os materiais.",
+            "dica": "Pense na lâmina que corta e separa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Puxar o balde do poço com uma corda que passa por uma roda é usar:",
+            "alternativas": [
+              "Plano inclinado",
+              "Cunha",
+              "Parafuso",
+              "Roldana"
+            ],
+            "correta": 3,
+            "explicacao": "Roda com corda é a roldana (polia).",
+            "dica": "É uma roda com uma corda."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica o ponto de apoio de uma gangorra?",
+            "alternativas": [
+              "No meio, onde ela gira",
+              "Na ponta",
+              "No assento",
+              "Longe dela, no chão"
+            ],
+            "correta": 0,
+            "explicacao": "A gangorra gira em torno do apoio do meio.",
+            "dica": "Onde a barra gira?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para subir à mesma altura, uma rampa mais longa exige:",
+            "alternativas": [
+              "Mais força e menos distância",
+              "Menos força e mais distância",
+              "A mesma força e a mesma distância",
+              "Nenhuma força"
+            ],
+            "correta": 1,
+            "explicacao": "A máquina troca força por distância.",
+            "dica": "Pense na troca que a máquina simples faz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O parafuso é como:",
+            "alternativas": [
+              "Uma roldana",
+              "Uma alavanca",
+              "Um plano inclinado enrolado num cilindro",
+              "Uma roda"
+            ],
+            "correta": 2,
+            "explicacao": "A rosca do parafuso é uma rampa que dá voltas.",
+            "dica": "Siga a rosca com o dedo: ela sobe dando voltas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz uma roldana fixa?",
+            "alternativas": [
+              "Divide a força pela metade",
+              "Aumenta o peso",
+              "Não serve para nada",
+              "Muda a direção da força"
+            ],
+            "correta": 3,
+            "explicacao": "Na fixa, você puxa para baixo e a carga sobe. Quem divide a força é a móvel.",
+            "dica": "A lição diferenciou a fixa e a móvel."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A maçaneta da porta é exemplo de:",
+            "alternativas": [
+              "Cunha",
+              "Roda com eixo",
+              "Plano inclinado",
+              "Roldana"
+            ],
+            "correta": 1,
+            "explicacao": "Girar a parte maior faz força maior no eixo pequeno.",
+            "dica": "Ela gira em torno de um eixo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pedra de 600 N está a 1 m do apoio. Você empurra a 3 m do apoio. Que força precisa?",
+            "alternativas": [
+              "200 N",
+              "300 N",
+              "600 N",
+              "1.800 N"
+            ],
+            "correta": 0,
+            "explicacao": "F × 3 = 600 × 1, então F = 200 N.",
+            "dica": "Use a lei da alavanca: força vezes braço dos dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O carrinho de mão é que tipo de alavanca?",
+            "alternativas": [
+              "Interfixa",
+              "Inter-resistente",
+              "Interpotente",
+              "Não é alavanca"
+            ],
+            "correta": 1,
+            "explicacao": "A roda é o apoio, as mãos fazem força na ponta e a carga fica no meio.",
+            "dica": "Veja o que fica no meio: apoio, peso ou força?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A pinça é que tipo de alavanca?",
+            "alternativas": [
+              "Interfixa",
+              "Inter-resistente",
+              "Interpotente",
+              "Cunha"
+            ],
+            "correta": 2,
+            "explicacao": "Os dedos apertam no meio; o apoio é a ponta unida e o objeto fica na outra ponta.",
+            "dica": "Onde ficam seus dedos na pinça?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para levantar uma pedra com pé de cabra fazendo menos força, você deve:",
+            "alternativas": [
+              "Segurar mais perto do apoio",
+              "Colocar o apoio longe da pedra",
+              "Usar uma barra mais curta",
+              "Segurar mais longe do apoio"
+            ],
+            "correta": 3,
+            "explicacao": "Braço da força maior quer dizer menos força.",
+            "dica": "Lembre da porta: empurrar perto da dobradiça é difícil."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na gangorra, Ana (30 kg) senta a 2 m do apoio. A que distância Beto (40 kg) deve sentar do outro lado para equilibrar?",
+            "alternativas": [
+              "1 m",
+              "1,5 m",
+              "2 m",
+              "2,5 m"
+            ],
+            "correta": 1,
+            "explicacao": "30 × 2 = 60. 40 × d = 60, então d = 1,5 m. O mais pesado senta mais perto.",
+            "dica": "Os produtos peso × distância têm de ser iguais."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com uma roldana fixa e uma roldana móvel, quanta força é preciso para levantar 800 N?",
+            "alternativas": [
+              "800 N",
+              "400 N",
+              "200 N",
+              "1.600 N"
+            ],
+            "correta": 1,
+            "explicacao": "A fixa só muda a direção; a móvel divide por 2: 800 ÷ 2 = 400 N.",
+            "dica": "Qual das duas roldanas divide a força?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa de 400 N sobe 1 m por uma rampa de 4 m, sem atrito. Que força é preciso?",
+            "alternativas": [
+              "100 N",
+              "400 N",
+              "1.600 N",
+              "50 N"
+            ],
+            "correta": 0,
+            "explicacao": "F × 4 = 400 × 1, então F = 100 N.",
+            "dica": "Força vezes comprimento da rampa é igual a peso vezes altura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase sobre máquinas simples está certa?",
+            "alternativas": [
+              "Diminuem a força e a distância ao mesmo tempo",
+              "Criam energia",
+              "Diminuem a força, mas aumentam a distância percorrida",
+              "Fazem o peso sumir"
+            ],
+            "correta": 2,
+            "explicacao": "Elas não criam energia: trocam força por distância.",
+            "dica": "Se a força diminui, o que precisa aumentar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma barra de 4 m tem o apoio a 1 m de uma pedra de 900 N. Quanta força na outra ponta?",
+            "alternativas": [
+              "225 N",
+              "300 N",
+              "900 N",
+              "3.600 N"
+            ],
+            "correta": 1,
+            "explicacao": "O braço da força é 4 − 1 = 3 m. F × 3 = 900 × 1, F = 300 N. 225 N seria usar a barra inteira como braço.",
+            "dica": "O braço da força é a distância da sua mão até o apoio, não a barra toda."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Para levantar a mesma pedra de 600 N a 1 m do apoio, ordene do braço que exige MENOS força para o que exige MAIS:",
+            "itens": [
+              "Braço da força de 4 m",
+              "Braço da força de 3 m",
+              "Braço da força de 2 m",
+              "Braço da força de 1 m"
+            ],
+            "explicacao": "As forças são 150 N, 200 N, 300 N e 600 N. Quanto maior o braço, menor a força.",
+            "dica": "Calcule F = 600 ÷ braço para cada um."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Juros simples",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Juros são o 'aluguel' do dinheiro. Quem pega dinheiro emprestado paga juros; quem empresta ou guarda no banco recebe juros.",
+          "No juro simples usamos três números: o capital (C), que é o valor inicial; a taxa (i), que é a porcentagem por período; e o tempo (t). A conta é J = C × i × t.",
+          "O montante (M) é o total no fim: M = C + J.",
+          "Taxa e tempo precisam estar na mesma unidade: taxa ao mês com tempo em meses, taxa ao ano com tempo em anos.",
+          "Exemplo: R$ 500,00 a 2% ao mês por 3 meses. J = 500 × 0,02 × 3 = R$ 30,00. M = R$ 530,00."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "R$ 800,00 a 3% ao mês por 2 meses. Quanto é o montante?",
+            "resolucao": "J = 800 × 0,03 × 2 = R$ 48,00. M = 800 + 48 = R$ 848,00."
+          },
+          {
+            "enunciado": "Uma TV custa R$ 1.200,00 à vista. A prazo, cobram 2% ao mês de juros simples por 5 meses. Quanto se paga no total?",
+            "resolucao": "J = 1.200 × 0,02 × 5 = R$ 120,00. Total: R$ 1.320,00. Comprar a prazo custou R$ 120,00 a mais."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Dá para descobrir a taxa ou o tempo virando a conta: i = J ÷ (C × t) e t = J ÷ (C × i). Se você emprestou R$ 400,00 e recebeu R$ 460,00 depois de 5 meses, os juros foram R$ 60,00 e a taxa foi 60 ÷ (400 × 5) = 0,03, ou 3% ao mês.",
+        "No juro simples, a taxa mensal vezes 12 dá a anual: 2% ao mês = 24% ao ano. E 18% ao ano = 1,5% ao mês. Misturar taxa anual com tempo em meses é o erro mais comum.",
+        "Para dobrar um valor no juro simples, os juros precisam ser iguais ao capital: i × t = 1. A 5% ao mês, isso leva 20 meses. No mundo real, bancos e lojas costumam usar juros compostos, que crescem mais rápido; eles ficam para os próximos anos."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que são juros?",
+            "alternativas": [
+              "O preço pago por usar dinheiro emprestado",
+              "Um desconto",
+              "Um imposto",
+              "Um tipo de moeda"
+            ],
+            "correta": 0,
+            "explicacao": "Juros são o 'aluguel' do dinheiro.",
+            "dica": "Pense no aluguel de uma casa, só que de dinheiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O montante é:",
+            "alternativas": [
+              "Só os juros",
+              "Capital + juros",
+              "Capital − juros",
+              "A taxa"
+            ],
+            "correta": 1,
+            "explicacao": "Montante é o total: o que tinha mais os juros.",
+            "dica": "Montante é o total no fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100,00 a 1% por 1 mês rende quanto de juros?",
+            "alternativas": [
+              "R$ 10,00",
+              "R$ 101,00",
+              "R$ 1,00",
+              "R$ 0,10"
+            ],
+            "correta": 2,
+            "explicacao": "1% de 100 é 1. R$ 101,00 é o montante.",
+            "dica": "1% é um centésimo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em J = C × i × t, o que é o t?",
+            "alternativas": [
+              "A taxa",
+              "O tempo",
+              "O capital",
+              "O total"
+            ],
+            "correta": 1,
+            "explicacao": "t é o tempo; i é a taxa e C, o capital.",
+            "dica": "Que palavra começa com t?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10% de R$ 200,00?",
+            "alternativas": [
+              "R$ 2,00",
+              "R$ 10,00",
+              "R$ 220,00",
+              "R$ 20,00"
+            ],
+            "correta": 3,
+            "explicacao": "10% é dividir por 10: 200 ÷ 10 = 20.",
+            "dica": "Para 10%, divida por 10."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 500,00 a 2% ao mês por 3 meses. Quanto de juros?",
+            "alternativas": [
+              "R$ 10,00",
+              "R$ 30,00",
+              "R$ 300,00",
+              "R$ 530,00"
+            ],
+            "correta": 1,
+            "explicacao": "J = 500 × 0,02 × 3 = 30.",
+            "dica": "2% de 500 por mês, vezes 3 meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 800,00 a 3% ao mês por 2 meses. Quanto é o montante?",
+            "alternativas": [
+              "R$ 848,00",
+              "R$ 824,00",
+              "R$ 48,00",
+              "R$ 1.280,00"
+            ],
+            "correta": 0,
+            "explicacao": "J = 48; M = 800 + 48 = 848. R$ 48,00 são só os juros.",
+            "dica": "Calcule os juros e some ao capital."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000,00 a 1,5% ao mês por 4 meses. Quanto de juros?",
+            "alternativas": [
+              "R$ 15,00",
+              "R$ 40,00",
+              "R$ 60,00",
+              "R$ 600,00"
+            ],
+            "correta": 2,
+            "explicacao": "1,5% de 1.000 = 15 por mês; 4 meses = 60.",
+            "dica": "Ache quanto rende em um mês e multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "TV de R$ 1.200,00 com juros simples de 2% ao mês por 5 meses. Quanto paga no total?",
+            "alternativas": [
+              "R$ 1.224,00",
+              "R$ 1.260,00",
+              "R$ 1.440,00",
+              "R$ 1.320,00"
+            ],
+            "correta": 3,
+            "explicacao": "J = 1.200 × 0,02 × 5 = 120. Total 1.320.",
+            "dica": "Juros de um mês vezes 5, e some ao preço."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular juros simples:",
+            "itens": [
+              "Anotar capital, taxa e tempo",
+              "Conferir se taxa e tempo estão na mesma unidade",
+              "Calcular J = C × i × t",
+              "Somar: M = C + J"
+            ],
+            "explicacao": "Primeiro os dados, depois as unidades, os juros e o montante.",
+            "dica": "Só dá para somar os juros depois de calculá-los."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em juros simples, 2% ao mês equivalem a quanto ao ano?",
+            "alternativas": [
+              "2%",
+              "12%",
+              "24%",
+              "26,8%"
+            ],
+            "correta": 2,
+            "explicacao": "2% × 12 meses = 24% ao ano.",
+            "dica": "Quantos meses tem um ano?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você emprestou R$ 400,00 e recebeu R$ 460,00 depois de 5 meses. Qual foi a taxa mensal?",
+            "alternativas": [
+              "3%",
+              "15%",
+              "6%",
+              "1,5%"
+            ],
+            "correta": 0,
+            "explicacao": "J = 60. i = 60 ÷ (400 × 5) = 0,03 = 3%. 15% seria a taxa do período todo.",
+            "dica": "Calcule os juros e divida por capital vezes tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em quanto tempo R$ 600,00 rendem R$ 90,00 a 1,5% ao mês?",
+            "alternativas": [
+              "6 meses",
+              "10 meses",
+              "9 meses",
+              "15 meses"
+            ],
+            "correta": 1,
+            "explicacao": "Por mês: 1,5% de 600 = 9. 90 ÷ 9 = 10 meses.",
+            "dica": "Descubra quanto rende em um mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 2.000,00 a 18% ao ano por 6 meses. Quanto de juros?",
+            "alternativas": [
+              "R$ 360,00",
+              "R$ 1.080,00",
+              "R$ 2.160,00",
+              "R$ 180,00"
+            ],
+            "correta": 3,
+            "explicacao": "18% ao ano = 1,5% ao mês. J = 2.000 × 0,015 × 6 = 180. Usar 18% com 6 meses dá o valor absurdo de 2.160.",
+            "dica": "A taxa é anual e o tempo está em meses. Converta antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem paga mais juros: A (R$ 300,00 a 4% ao mês por 2 meses) ou B (R$ 200,00 a 5% ao mês por 3 meses)?",
+            "alternativas": [
+              "A, com R$ 24,00 de juros",
+              "B, com R$ 30,00 de juros",
+              "Os dois pagam igual",
+              "A, com R$ 30,00 de juros"
+            ],
+            "correta": 1,
+            "explicacao": "A: 300 × 0,04 × 2 = 24. B: 200 × 0,05 × 3 = 30.",
+            "dica": "Faça as duas contas antes de escolher."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Celular: R$ 900,00 à vista ou 10 × R$ 99,00. Pensando em juros simples sobre R$ 900,00 por 10 meses, qual é a taxa mensal?",
+            "alternativas": [
+              "1%",
+              "10%",
+              "9%",
+              "0,9%"
+            ],
+            "correta": 0,
+            "explicacao": "A prazo: R$ 990,00. Juros: 90. i = 90 ÷ (900 × 10) = 0,01 = 1% ao mês.",
+            "dica": "Calcule o total a prazo e quanto foi pago a mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A 5% ao mês, em juros simples, quanto tempo leva para um valor dobrar?",
+            "alternativas": [
+              "10 meses",
+              "20 meses",
+              "5 meses",
+              "50 meses"
+            ],
+            "correta": 1,
+            "explicacao": "Dobrar é ter juros iguais ao capital: 0,05 × t = 1, t = 20 meses.",
+            "dica": "Quantos meses de 5% somam 100%?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Investiram R$ 1.500,00 e, depois de 8 meses, o montante foi R$ 1.620,00. Qual a taxa mensal?",
+            "alternativas": [
+              "8%",
+              "1,5%",
+              "1%",
+              "0,8%"
+            ],
+            "correta": 2,
+            "explicacao": "J = 120. i = 120 ÷ (1.500 × 8) = 120 ÷ 12.000 = 0,01 = 1%.",
+            "dica": "Juros dividido por capital vezes tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia pegou R$ 300,00 a 2% ao mês e Caio, R$ 200,00 a 4% ao mês, os dois por 6 meses. O que é verdade?",
+            "alternativas": [
+              "Lia paga R$ 12,00 a mais",
+              "Caio paga R$ 12,00 a mais",
+              "Pagam igual",
+              "Caio paga R$ 24,00 a mais"
+            ],
+            "correta": 1,
+            "explicacao": "Lia: 300 × 0,02 × 6 = 36. Caio: 200 × 0,04 × 6 = 48. Diferença: 12. Pegar menos dinheiro não garante pagar menos juros.",
+            "dica": "Calcule os juros de cada um e compare."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Para R$ 1.000,00 por 1 ano em juros simples, ordene do MENOR juro para o MAIOR:",
+            "itens": [
+              "0,5% ao mês",
+              "1% ao mês",
+              "15% ao ano",
+              "2% ao mês"
+            ],
+            "explicacao": "Ao ano: 0,5% ao mês = 6% (R$ 60), 1% = 12% (R$ 120), 15% ao ano (R$ 150), 2% ao mês = 24% (R$ 240).",
+            "dica": "Passe tudo para taxa ao ano antes de comparar."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Como checar uma notícia falsa",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Notícia falsa (fake news) é uma informação inventada ou distorcida que se espalha como se fosse verdade. Muitas vezes ela quer causar medo, raiva ou ganhar cliques.",
+          "Sinais de alerta: título exagerado ou em CAIXA ALTA, pedido de 'compartilhe antes que apaguem', texto sem autor, sem data e sem fonte, e muitos erros de português.",
+          "Antes de compartilhar, respire. Leia o texto inteiro, não só o título. Veja quem publicou e quando. Procure a mesma notícia em veículos sérios e em sites oficiais (prefeitura, escola, Ministério da Saúde).",
+          "Agências de checagem são sites de jornalistas que investigam boatos e dizem se são verdadeiros ou falsos. Vale procurar o assunto nelas.",
+          "Cuidado também com fotos e vídeos verdadeiros usados fora de contexto, como uma enchente de anos atrás apresentada como se fosse de hoje."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "No grupo da sala chega: 'URGENTE!!! A escola vai fechar amanhã, compartilhe!' sem autor nem link. O que fazer?",
+            "resolucao": "Não repassar. Conferir no comunicado oficial da escola ou com a secretaria. Mensagem urgente, sem fonte e pedindo compartilhamento tem três sinais de alerta."
+          },
+          {
+            "enunciado": "Um vídeo mostra um político falando algo absurdo, mas nenhum jornal fala disso. O que pensar?",
+            "resolucao": "Pode ser vídeo cortado ou manipulado por inteligência artificial. Antes de acreditar, procure a fala completa e veja se veículos sérios noticiaram."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A busca reversa de imagem (enviar a foto para um buscador) mostra onde e quando a imagem apareceu antes. É ótima para descobrir fotos antigas ou de outro lugar.",
+        "Hoje é fácil criar vídeos e áudios falsos com inteligência artificial (deepfake). Sinais: boca que não combina com a fala, voz robótica, piscadas estranhas. Prints de conversa também são fáceis de montar.",
+        "Temos o viés de confirmação: tendemos a acreditar no que já concordamos. Por isso, desconfie justamente quando a notícia parecer 'perfeita demais'. E se você compartilhou algo falso, apague e avise no mesmo lugar, mostrando a checagem."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma notícia falsa?",
+            "alternativas": [
+              "Informação inventada ou distorcida que parece verdade",
+              "Uma notícia velha qualquer",
+              "Notícia de esporte",
+              "Propaganda de loja"
+            ],
+            "correta": 0,
+            "explicacao": "Ela tenta se passar por verdade, mas é inventada ou distorcida.",
+            "dica": "Pense no significado de 'falsa'."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de compartilhar uma notícia, você deve:",
+            "alternativas": [
+              "Compartilhar rápido",
+              "Checar a fonte",
+              "Mandar para todos",
+              "Desligar o celular"
+            ],
+            "correta": 1,
+            "explicacao": "Conferir de onde veio evita espalhar boatos.",
+            "dica": "O que a lição mandou ver antes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um sinal de alerta?",
+            "alternativas": [
+              "Texto com autor e data",
+              "Notícia em vários jornais",
+              "Título em CAIXA ALTA pedindo 'compartilhe já!'",
+              "Site oficial"
+            ],
+            "correta": 2,
+            "explicacao": "Pressa e exagero são truques comuns de notícia falsa.",
+            "dica": "Desconfie de quem pede pressa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ler só o título é suficiente?",
+            "alternativas": [
+              "Sim, sempre",
+              "Só se tiver foto",
+              "Só se vier do grupo da família",
+              "Não, é preciso ler o texto todo"
+            ],
+            "correta": 3,
+            "explicacao": "Títulos podem exagerar ou enganar; o texto mostra o que realmente aconteceu.",
+            "dica": "O título conta a história inteira?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que servem as agências de checagem?",
+            "alternativas": [
+              "Para verificar se uma informação é verdadeira",
+              "Para criar notícias",
+              "Para vender celulares",
+              "Para bloquear grupos"
+            ],
+            "correta": 0,
+            "explicacao": "São jornalistas que investigam boatos.",
+            "dica": "Checar quer dizer conferir."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Chega: 'URGENTE! A escola vai fechar amanhã, compartilhe!', sem fonte. O que fazer?",
+            "alternativas": [
+              "Repassar para todos",
+              "Conferir no comunicado oficial da escola",
+              "Acreditar porque é urgente",
+              "Responder com xingamento"
+            ],
+            "correta": 1,
+            "explicacao": "A fonte oficial confirma ou desmente. Repassar espalha um possível boato.",
+            "dica": "Quem pode dizer com certeza se a escola vai fechar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma foto de enchente de 2015 circula como se fosse de hoje. Isso é:",
+            "alternativas": [
+              "Imagem fora de contexto",
+              "Notícia verdadeira",
+              "Propaganda",
+              "Checagem"
+            ],
+            "correta": 0,
+            "explicacao": "A foto é real, mas a data e o contexto foram trocados para enganar.",
+            "dica": "A foto é verdadeira, mas o que está errado nela?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fonte é mais confiável para saber da vacinação na sua cidade?",
+            "alternativas": [
+              "Áudio anônimo no grupo",
+              "Comentário em vídeo",
+              "Site oficial da prefeitura ou do Ministério da Saúde",
+              "Perfil sem nome"
+            ],
+            "correta": 2,
+            "explicacao": "Órgãos oficiais são responsáveis pela vacinação e publicam as datas.",
+            "dica": "Quem organiza a vacinação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Não li, mas já compartilhei' mostra:",
+            "alternativas": [
+              "Cuidado",
+              "Um hábito que espalha boatos",
+              "Checagem bem feita",
+              "Educação digital"
+            ],
+            "correta": 1,
+            "explicacao": "Compartilhar sem ler é o principal motor das notícias falsas.",
+            "dica": "Isso ajuda ou atrapalha a verdade?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para checar uma notícia:",
+            "itens": [
+              "Desconfiar e não compartilhar na hora",
+              "Ler o texto inteiro",
+              "Ver a fonte e a data",
+              "Procurar a notícia em outros veículos sérios"
+            ],
+            "explicacao": "Primeiro segurar a vontade de compartilhar, depois ler, ver a fonte e comparar.",
+            "dica": "O primeiro passo é não fazer nada com pressa."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma notícia de 3 anos atrás é compartilhada como nova. Qual é o problema?",
+            "alternativas": [
+              "Fato velho apresentado como novo, enganando quem lê",
+              "Nenhum, é verdade",
+              "Erro de ortografia",
+              "Falta de foto"
+            ],
+            "correta": 0,
+            "explicacao": "Mesmo sendo verdadeira na época, fora de contexto ela engana.",
+            "dica": "Olhe a data e pense no que muda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um site chamado 'jornal-oficiall' imita um jornal famoso. O que pensar?",
+            "alternativas": [
+              "É sempre confiável",
+              "É do governo",
+              "Prova que é verdade",
+              "Pode ser um site falso imitando um conhecido"
+            ],
+            "correta": 3,
+            "explicacao": "Nomes parecidos e letras repetidas são truques para enganar.",
+            "dica": "Repare na grafia do endereço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é viés de confirmação?",
+            "alternativas": [
+              "Um erro do celular",
+              "A tendência de acreditar no que já concordamos",
+              "Um tipo de vírus",
+              "O nome de uma agência"
+            ],
+            "correta": 1,
+            "explicacao": "Acreditamos mais fácil no que combina com o que já pensamos.",
+            "dica": "O aprofundamento falou de algo que acontece na nossa cabeça."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A busca reversa de imagem ajuda a:",
+            "alternativas": [
+              "Deixar a foto mais bonita",
+              "Apagar a foto",
+              "Descobrir onde e quando a foto apareceu antes",
+              "Ganhar curtidas"
+            ],
+            "correta": 2,
+            "explicacao": "Ela mostra outras publicações da mesma imagem, com datas.",
+            "dica": "Você manda a foto para o buscador. O que ele devolve?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Vídeo de um político dizendo algo absurdo, boca estranha, nenhum outro veículo falando. O mais sensato é:",
+            "alternativas": [
+              "Pensar que pode ser deepfake e procurar outras fontes",
+              "Achar que é prova definitiva",
+              "Compartilhar para avisar",
+              "Acreditar, porque vídeo nunca mente"
+            ],
+            "correta": 0,
+            "explicacao": "Boca que não combina com a fala é sinal de manipulação.",
+            "dica": "Lembre dos sinais de vídeo feito por inteligência artificial."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação de sinais é a mais forte para desconfiar?",
+            "alternativas": [
+              "Tem autor, data e link do jornal",
+              "Aparece em três jornais diferentes",
+              "Sem autor, sem data e pede compartilhamento urgente",
+              "Cita fonte oficial com link"
+            ],
+            "correta": 2,
+            "explicacao": "Três sinais de alerta juntos. As outras alternativas são sinais de confiança.",
+            "dica": "Procure a opção que junta mais sinais de alerta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A mensagem diz 'segundo pesquisa da universidade', sem nome nem link. O que fazer?",
+            "alternativas": [
+              "Acreditar porque cita universidade",
+              "Procurar a pesquisa: citar autoridade vaga é truque comum",
+              "Achar que é piada",
+              "Tratar como lei"
+            ],
+            "correta": 1,
+            "explicacao": "Fonte vaga não é fonte. Pesquisa de verdade tem nome, autor e data.",
+            "dica": "Dá para conferir uma pesquisa sem nome?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um site de humor inventa notícias de brincadeira. Qual é o risco?",
+            "alternativas": [
+              "O print circula sem o contexto e parece notícia real",
+              "Nunca causa problema",
+              "É sempre crime",
+              "É uma agência de checagem"
+            ],
+            "correta": 0,
+            "explicacao": "Fora do site, ninguém sabe que era piada.",
+            "dica": "Pense no print viajando sozinho pelos grupos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você compartilhou algo e descobriu que era falso. Qual é a melhor atitude?",
+            "alternativas": [
+              "Fingir que não viu",
+              "Compartilhar de novo",
+              "Sair do grupo sem falar nada",
+              "Apagar e avisar no mesmo grupo, mostrando a checagem"
+            ],
+            "correta": 3,
+            "explicacao": "Corrigir no mesmo lugar ajuda quem acreditou.",
+            "dica": "Quem viu o erro precisa ver a correção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Circula o print de uma conversa 'vazada' de uma pessoa famosa. O que pensar?",
+            "alternativas": [
+              "Print é prova absoluta",
+              "Se tem muitas curtidas, é verdade",
+              "Prints são fáceis de montar; confira se a pessoa ou veículos sérios confirmam",
+              "Print só existe se for verdade"
+            ],
+            "correta": 2,
+            "explicacao": "Qualquer um monta um print em minutos. Precisa de confirmação.",
+            "dica": "O aprofundamento falou sobre prints."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O áudio do grupo",
+    "texto": "O áudio chegou às nove da noite no grupo da família. Uma voz nervosa dizia que a água da cidade estava contaminada e que ninguém devia beber da torneira por uma semana. \"Repassem para todo mundo!\", terminava.\n\nA tia Neusa já tinha encaminhado para três grupos quando Larissa, de doze anos, perguntou: \"Tia, quem é essa moça do áudio?\". Ninguém sabia.\n\nLarissa fez o que tinha aprendido na escola. Procurou no site da empresa de água: nenhum aviso. Procurou nos jornais da cidade: nada. Por fim, encontrou numa agência de checagem: o mesmo áudio tinha circulado dois anos antes, em outro estado, e já era falso naquela época.\n\nEla mandou o link no grupo, com calma, sem chamar ninguém de bobo. A tia Neusa ficou sem graça, mas apagou as mensagens e avisou os outros grupos.\n\n\"Da próxima vez eu pergunto para você antes\", disse ela. Larissa riu: \"Melhor ainda, tia: pergunta para o site oficial.\""
+  },
+  "escrita": {
+    "proposta": "Escreva de 5 a 10 linhas: conte uma mensagem duvidosa que você já viu (ou invente uma parecida) e explique, passo a passo, como você checaria se é verdade. Use pelo menos três sinais de alerta e três passos da aula. No fim, diga como você avisaria alguém da família, com educação, que a notícia era falsa."
+  }
+}

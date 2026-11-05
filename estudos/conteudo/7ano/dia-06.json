@@ -1,0 +1,903 @@
+{
+  "dia": 6,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Frações: as quatro operações",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Para somar ou subtrair frações com o mesmo denominador, basta somar ou subtrair os numeradores e manter o denominador. Exemplo: 2/7 + 3/7 = 5/7.",
+          "Quando os denominadores são diferentes, primeiro deixamos os dois iguais. Usamos o mínimo múltiplo comum (mmc). Em 1/2 + 1/3, o mmc de 2 e 3 é 6: 1/2 vira 3/6 e 1/3 vira 2/6. Então 3/6 + 2/6 = 5/6.",
+          "Na multiplicação é mais fácil: multiplica numerador com numerador e denominador com denominador. 2/3 × 4/5 = 8/15. Multiplicar por uma fração é o mesmo que calcular uma parte: 3/4 de 20 é 3/4 × 20 = 15.",
+          "Para dividir, mantemos a primeira fração e multiplicamos pelo inverso da segunda (vira a segunda de cabeça para baixo). 2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12 = 5/6.",
+          "No fim, sempre confira se dá para simplificar o resultado, dividindo numerador e denominador pelo mesmo número."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Calcule 3/4 − 1/6.",
+            "resolucao": "O mmc de 4 e 6 é 12. 3/4 = 9/12 e 1/6 = 2/12. Então 9/12 − 2/12 = 7/12, que não dá para simplificar."
+          },
+          {
+            "enunciado": "Uma garrafa tem 3/4 de litro de suco. Quantos copos de 1/8 de litro dá para encher?",
+            "resolucao": "É uma divisão: 3/4 ÷ 1/8 = 3/4 × 8/1 = 24/4 = 6. Dá para encher 6 copos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Fração de fração é multiplicação. Se você gastou 1/4 da mesada e depois 1/3 do que sobrou, a segunda parte é 1/3 de 3/4, ou seja, 1/3 × 3/4 = 1/4 da mesada inteira. Cuidado: 'do que sobrou' é diferente de 'do total'.",
+        "Problemas de torneira usam frações por hora. Se uma torneira enche o tanque em 3 horas, ela enche 1/3 do tanque por hora. Outra que enche em 6 horas faz 1/6 por hora. Juntas fazem 1/3 + 1/6 = 1/2 por hora, então enchem o tanque em 2 horas.",
+        "Para comparar frações, multiplique cruzado: em 5/8 e 3/5, faça 5 × 5 = 25 e 3 × 8 = 24. Como 25 > 24, 5/8 é maior. Para achar a fração que fica bem no meio de duas, some as duas e divida por 2."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1/5 + 2/5?",
+            "alternativas": [
+              "3/10",
+              "3/5",
+              "2/5",
+              "1/5"
+            ],
+            "correta": 1,
+            "explicacao": "Os denominadores são iguais, então somamos só os numeradores: 1 + 2 = 3. Fica 3/5. O erro comum é somar também os de baixo.",
+            "dica": "Quando o número de baixo é igual, ele fica como está."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 7/8 − 3/8?",
+            "alternativas": [
+              "4/8",
+              "4/0",
+              "10/8",
+              "4/16"
+            ],
+            "correta": 0,
+            "explicacao": "7 − 3 = 4 e o denominador continua 8: 4/8, que simplificado é 1/2.",
+            "dica": "Subtraia só os numeradores e mantenha o 8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2/3 × 1/5?",
+            "alternativas": [
+              "3/8",
+              "2/15",
+              "3/15",
+              "2/8"
+            ],
+            "correta": 1,
+            "explicacao": "Multiplicamos em cima (2 × 1 = 2) e embaixo (3 × 5 = 15): 2/15.",
+            "dica": "Na multiplicação, cima vezes cima e baixo vezes baixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para somar 1/2 + 1/3, o que é preciso fazer primeiro?",
+            "alternativas": [
+              "Somar os de cima e os de baixo",
+              "Deixar os denominadores iguais",
+              "Multiplicar tudo por 2",
+              "Inverter as duas frações"
+            ],
+            "correta": 1,
+            "explicacao": "Só dá para somar partes do mesmo tamanho. Por isso deixamos os denominadores iguais (aqui, sextos).",
+            "dica": "Pense em pedaços de pizza de tamanhos diferentes: dá para somar direto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você comeu meia pizza e depois mais 1/4 da pizza. Quanto comeu ao todo?",
+            "alternativas": [
+              "2/6",
+              "1/6",
+              "2/4",
+              "3/4"
+            ],
+            "correta": 3,
+            "explicacao": "1/2 = 2/4. Então 2/4 + 1/4 = 3/4 da pizza.",
+            "dica": "Escreva a metade em quartos antes de somar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1/2 + 1/3?",
+            "alternativas": [
+              "2/5",
+              "5/6",
+              "2/6",
+              "1/6"
+            ],
+            "correta": 1,
+            "explicacao": "O mmc de 2 e 3 é 6: 3/6 + 2/6 = 5/6. Somar direto (2/5) é o erro mais comum.",
+            "dica": "Transforme as duas em sextos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3/4 − 1/6?",
+            "alternativas": [
+              "7/12",
+              "1/2",
+              "2/10",
+              "5/12"
+            ],
+            "correta": 0,
+            "explicacao": "mmc de 4 e 6 é 12: 9/12 − 2/12 = 7/12.",
+            "dica": "Procure o menor número que seja múltiplo de 4 e de 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3/4 de R$ 20,00?",
+            "alternativas": [
+              "R$ 5,00",
+              "R$ 12,00",
+              "R$ 15,00",
+              "R$ 16,00"
+            ],
+            "correta": 2,
+            "explicacao": "3/4 × 20 = 60/4 = 15. Ou: 1/4 de 20 é 5, então 3/4 é 3 × 5 = 15.",
+            "dica": "Ache primeiro quanto vale 1/4 de 20."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2/3 ÷ 4/5?",
+            "alternativas": [
+              "8/15",
+              "5/6",
+              "6/5",
+              "10/15"
+            ],
+            "correta": 1,
+            "explicacao": "Mantém a primeira e multiplica pelo inverso da segunda: 2/3 × 5/4 = 10/12 = 5/6.",
+            "dica": "Vire a segunda fração de cabeça para baixo e multiplique."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular 2/3 + 1/4:",
+            "itens": [
+              "Achar o mmc dos denominadores (12)",
+              "Transformar as frações: 8/12 e 3/12",
+              "Somar os numeradores: 11/12",
+              "Conferir se dá para simplificar"
+            ],
+            "explicacao": "Primeiro igualamos os denominadores, depois somamos e, por fim, simplificamos se der.",
+            "dica": "Não dá para somar antes de os pedaços terem o mesmo tamanho."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana leu 1/3 de um livro na segunda e 2/5 na terça. Que fração do livro ainda falta ler?",
+            "alternativas": [
+              "11/15",
+              "4/15",
+              "3/8",
+              "7/15"
+            ],
+            "correta": 1,
+            "explicacao": "1/3 + 2/5 = 5/15 + 6/15 = 11/15 já lidos. Falta 15/15 − 11/15 = 4/15. Quem para em 11/15 respondeu o que ela leu, não o que falta.",
+            "dica": "Some o que ela leu e veja quanto falta para completar o livro inteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma jarra tem 3/4 de litro de água. Quantos copos de 1/8 de litro ela enche?",
+            "alternativas": [
+              "3",
+              "4",
+              "6",
+              "8"
+            ],
+            "correta": 2,
+            "explicacao": "3/4 ÷ 1/8 = 3/4 × 8 = 6 copos.",
+            "dica": "Quantas vezes 1/8 cabe em 3/4? Isso é uma divisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1 1/2 + 2 3/4?",
+            "alternativas": [
+              "4 1/4",
+              "3 4/6",
+              "3 1/4",
+              "4 3/4"
+            ],
+            "correta": 0,
+            "explicacao": "1 1/2 = 3/2 = 6/4 e 2 3/4 = 11/4. 6/4 + 11/4 = 17/4 = 4 inteiros e 1/4.",
+            "dica": "Transforme tudo em quartos antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num terreno, 2/5 é horta. Metade da horta tem alface. Que fração do terreno tem alface?",
+            "alternativas": [
+              "3/7",
+              "1/10",
+              "2/7",
+              "1/5"
+            ],
+            "correta": 3,
+            "explicacao": "Metade de 2/5 é 1/2 × 2/5 = 2/10 = 1/5 do terreno.",
+            "dica": "'Metade de' uma fração é multiplicar por 1/2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é verdadeira?",
+            "alternativas": [
+              "3/5 é maior que 5/8",
+              "As duas frações são iguais",
+              "5/8 é maior que 3/5, por 1/40",
+              "5/8 é maior que 3/5, por 2/3"
+            ],
+            "correta": 2,
+            "explicacao": "Em quarentas: 5/8 = 25/40 e 3/5 = 24/40. A diferença é 1/40.",
+            "dica": "Use 40 como denominador comum para comparar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia gastou 1/4 da mesada no lanche e depois 1/3 do que sobrou na passagem. Que fração da mesada ainda sobrou?",
+            "alternativas": [
+              "5/12",
+              "1/2",
+              "2/3",
+              "7/12"
+            ],
+            "correta": 1,
+            "explicacao": "Depois do lanche sobram 3/4. A passagem é 1/3 de 3/4 = 1/4. Sobra 3/4 − 1/4 = 2/4 = 1/2. A pegadinha (5/12) é tirar 1/3 do total.",
+            "dica": "A passagem é uma parte do que sobrou, não da mesada inteira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos pedaços de 2/3 de metro dá para cortar de uma fita de 5 metros, e quanto sobra?",
+            "alternativas": [
+              "7 pedaços, sobra 1/3 m",
+              "7 pedaços, sobra 1/2 m",
+              "8 pedaços, sem sobra",
+              "7 pedaços, sobra 2/3 m"
+            ],
+            "correta": 0,
+            "explicacao": "5 ÷ 2/3 = 15/2 = 7,5. Cabem 7 pedaços inteiros, que usam 14/3 m. Sobra 15/3 − 14/3 = 1/3 m.",
+            "dica": "Divida, pegue só a parte inteira e calcule quanto de fita esses pedaços usam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (1/2 + 1/3) ÷ (1/2 − 1/3)?",
+            "alternativas": [
+              "5/36",
+              "1",
+              "6",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "1/2 + 1/3 = 5/6 e 1/2 − 1/3 = 1/6. 5/6 ÷ 1/6 = 5/6 × 6 = 5.",
+            "dica": "Resolva cada parêntese em sextos e depois divida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A torneira A enche um tanque em 3 horas e a torneira B, em 6 horas. Abertas juntas, em quanto tempo enchem o tanque?",
+            "alternativas": [
+              "4 h 30 min",
+              "2 h",
+              "9 h",
+              "1 h 30 min"
+            ],
+            "correta": 1,
+            "explicacao": "Por hora: A faz 1/3 e B faz 1/6. Juntas: 1/3 + 1/6 = 1/2 do tanque por hora, então levam 2 horas.",
+            "dica": "Pense em quanto do tanque cada uma enche em 1 hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração fica exatamente no meio entre 1/3 e 1/2?",
+            "alternativas": [
+              "2/5",
+              "1/4",
+              "5/12",
+              "5/6"
+            ],
+            "correta": 2,
+            "explicacao": "(1/3 + 1/2) ÷ 2 = 5/6 ÷ 2 = 5/12. 2/5 fica entre as duas, mas não no meio.",
+            "dica": "Some as duas frações e divida o resultado por 2."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Poupança e metas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Poupar é guardar uma parte do dinheiro que entra para usar depois. Quem poupa consegue comprar coisas maiores sem pedir emprestado e sem pagar juros.",
+          "Uma boa meta tem três coisas: o valor (quanto custa), o prazo (até quando) e o motivo (para quê). 'Quero dinheiro' não é meta. 'Quero juntar R$ 120,00 em 8 semanas para um fone' é.",
+          "Para saber quanto guardar, divida o valor da meta pelo prazo. R$ 120,00 em 8 semanas dá R$ 15,00 por semana.",
+          "Uma dica que funciona: 'pague-se primeiro'. Assim que o dinheiro chegar, separe a parte da meta. Se você esperar o que sobra no fim do mês, quase nunca sobra nada.",
+          "Além das metas, vale ter uma reserva para imprevistos, como um chinelo que arrebentou ou um carregador que queimou."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Bruno quer um fone de R$ 120,00 em 8 semanas. Quanto deve guardar por semana?",
+            "resolucao": "R$ 120,00 ÷ 8 = R$ 15,00 por semana."
+          },
+          {
+            "enunciado": "Carla já tem R$ 30,00 e quer chegar a R$ 150,00 guardando R$ 20,00 por semana. Em quantas semanas chega?",
+            "resolucao": "Faltam R$ 150,00 − R$ 30,00 = R$ 120,00. R$ 120,00 ÷ R$ 20,00 = 6 semanas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Se a meta não cabe no que você consegue guardar, há três saídas: aumentar o prazo, diminuir o valor (procurar algo mais barato ou usado) ou conseguir uma renda extra. O que não vale é desistir no meio sem refazer a conta.",
+        "Dinheiro parado em casa perde valor com a inflação: os preços sobem e o mesmo dinheiro compra menos. Uma conta poupança é segura e rende um pouco. Para fazer contas, imagine um rendimento de cerca de 0,5% ao mês (o valor real muda com o tempo).",
+        "Se você tirar dinheiro da meta, refaça a conta: veja quanto falta e divida pelas semanas que restam. Quando duas pessoas guardam valores diferentes, dá para descobrir quando terão o mesmo saldo comparando semana a semana."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é poupar?",
+            "alternativas": [
+              "Gastar tudo logo",
+              "Guardar parte do dinheiro para usar depois",
+              "Pedir dinheiro emprestado",
+              "Comprar sempre à vista"
+            ],
+            "correta": 1,
+            "explicacao": "Poupar é separar uma parte do que entra para usar mais tarde.",
+            "dica": "Pense no cofrinho: o que você faz com ele?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma boa meta precisa ter:",
+            "alternativas": [
+              "Valor, prazo e motivo",
+              "Só vontade",
+              "Só o nome do produto",
+              "Apenas o prazo"
+            ],
+            "correta": 0,
+            "explicacao": "Com valor, prazo e motivo dá para fazer a conta de quanto guardar e manter a vontade.",
+            "dica": "A lição falou em três coisas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para juntar R$ 40,00 em 4 semanas, quanto guardar por semana?",
+            "alternativas": [
+              "R$ 4,00",
+              "R$ 10,00",
+              "R$ 36,00",
+              "R$ 44,00"
+            ],
+            "correta": 1,
+            "explicacao": "R$ 40,00 ÷ 4 = R$ 10,00 por semana.",
+            "dica": "Divida o valor pelo número de semanas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer 'pague-se primeiro'?",
+            "alternativas": [
+              "Guardar o que sobrar no fim do mês",
+              "Comprar algo para você primeiro",
+              "Guardar a parte da meta assim que recebe",
+              "Pagar as dívidas dos amigos"
+            ],
+            "correta": 2,
+            "explicacao": "É separar o dinheiro da meta logo que ele chega, antes de gastar com outras coisas.",
+            "dica": "O 'primeiro' fala do momento em que o dinheiro chega."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve uma reserva de emergência?",
+            "alternativas": [
+              "Comprar jogos",
+              "Emprestar a qualquer um",
+              "Gastar nas férias",
+              "Pagar imprevistos, como algo que quebrou"
+            ],
+            "correta": 3,
+            "explicacao": "A reserva cobre o que não estava planejado, sem você precisar pedir emprestado.",
+            "dica": "Emergência é algo que acontece sem avisar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruno quer um fone de R$ 120,00 em 8 semanas. Quanto guardar por semana?",
+            "alternativas": [
+              "R$ 12,00",
+              "R$ 15,00",
+              "R$ 18,00",
+              "R$ 20,00"
+            ],
+            "correta": 1,
+            "explicacao": "R$ 120,00 ÷ 8 = R$ 15,00.",
+            "dica": "Divida o preço pelas semanas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Carla recebe R$ 60,00 por mês e guarda 1/4. Quanto terá em 6 meses?",
+            "alternativas": [
+              "R$ 60,00",
+              "R$ 75,00",
+              "R$ 90,00",
+              "R$ 360,00"
+            ],
+            "correta": 2,
+            "explicacao": "1/4 de R$ 60,00 = R$ 15,00 por mês. Em 6 meses: 6 × R$ 15,00 = R$ 90,00.",
+            "dica": "Primeiro descubra quanto ela guarda em um mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rita tem R$ 30,00 e a meta é R$ 150,00. Guardando R$ 20,00 por semana, quantas semanas faltam?",
+            "alternativas": [
+              "6",
+              "5",
+              "7",
+              "8"
+            ],
+            "correta": 0,
+            "explicacao": "Faltam R$ 120,00. R$ 120,00 ÷ R$ 20,00 = 6 semanas.",
+            "dica": "Desconte o que ela já tem antes de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma meta bem escrita?",
+            "alternativas": [
+              "Quero ter dinheiro",
+              "Um dia vou comprar algo",
+              "Vou guardar quando der",
+              "Quero juntar R$ 200,00 até julho para uma bicicleta usada"
+            ],
+            "correta": 3,
+            "explicacao": "Ela diz quanto, até quando e para quê. As outras não têm valor nem prazo.",
+            "dica": "Procure a frase que tem número, data e motivo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para montar uma meta:",
+            "itens": [
+              "Escolher o que quer e por quê",
+              "Pesquisar o preço",
+              "Definir o prazo",
+              "Dividir o valor pelo prazo e guardar assim que receber"
+            ],
+            "explicacao": "Primeiro o desejo, depois o preço e o prazo; só então dá para fazer a conta.",
+            "dica": "Não dá para dividir antes de saber o preço e o prazo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A meta é R$ 300,00, mas Davi só consegue guardar R$ 50,00 por mês. Quantos meses precisa?",
+            "alternativas": [
+              "5 meses",
+              "7 meses",
+              "6 meses",
+              "10 meses"
+            ],
+            "correta": 2,
+            "explicacao": "R$ 300,00 ÷ R$ 50,00 = 6 meses. Se o prazo era menor, ele precisa aumentar o prazo.",
+            "dica": "Divida a meta pelo que ele consegue guardar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Davi ganha R$ 80,00 por mês e guarda 25%. Quanto junta em 1 ano?",
+            "alternativas": [
+              "R$ 200,00",
+              "R$ 240,00",
+              "R$ 320,00",
+              "R$ 960,00"
+            ],
+            "correta": 1,
+            "explicacao": "25% de R$ 80,00 = R$ 20,00. Em 12 meses: 12 × R$ 20,00 = R$ 240,00.",
+            "dica": "25% é a quarta parte. Depois multiplique pelos meses do ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana guarda R$ 5,00 em cada dia de aula (segunda a sexta). Quanto junta em 4 semanas?",
+            "alternativas": [
+              "R$ 100,00",
+              "R$ 140,00",
+              "R$ 20,00",
+              "R$ 120,00"
+            ],
+            "correta": 0,
+            "explicacao": "Por semana: 5 dias × R$ 5,00 = R$ 25,00. Em 4 semanas: R$ 100,00. Quem conta 7 dias chega a R$ 140,00.",
+            "dica": "Quantos dias de aula há numa semana?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bicicleta custa R$ 450,00. Léo tem R$ 90,00 e quer comprar em 6 meses. Quanto guardar por mês?",
+            "alternativas": [
+              "R$ 75,00",
+              "R$ 90,00",
+              "R$ 65,00",
+              "R$ 60,00"
+            ],
+            "correta": 3,
+            "explicacao": "Faltam R$ 450,00 − R$ 90,00 = R$ 360,00. R$ 360,00 ÷ 6 = R$ 60,00. R$ 75,00 seria esquecer o que ele já tem.",
+            "dica": "Desconte o que já foi guardado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que guardar numa conta poupança e não debaixo do colchão?",
+            "alternativas": [
+              "Porque rende um pouco e é mais seguro",
+              "Porque dobra todo mês",
+              "Porque dispensa ter meta",
+              "Porque o banco paga suas contas"
+            ],
+            "correta": 0,
+            "explicacao": "Na poupança o dinheiro fica protegido e rende um pouco. No colchão pode sumir e perde valor com a inflação.",
+            "dica": "Pense em segurança e em rendimento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Meta: R$ 240,00 em 12 semanas. Mel guardou R$ 20,00 por semana nas 4 primeiras, mas tirou R$ 30,00 do cofrinho. Quanto precisa guardar por semana nas 8 restantes?",
+            "alternativas": [
+              "R$ 20,00",
+              "R$ 23,75",
+              "R$ 27,50",
+              "R$ 30,00"
+            ],
+            "correta": 1,
+            "explicacao": "Ela tem R$ 80,00 − R$ 30,00 = R$ 50,00. Faltam R$ 190,00. R$ 190,00 ÷ 8 = R$ 23,75.",
+            "dica": "Calcule o saldo depois da retirada e quanto falta, e divida pelas semanas que restam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia começa do zero e guarda R$ 15,00 por semana. Mel já tem R$ 60,00 e guarda R$ 10,00 por semana. Depois de quantas semanas terão o mesmo valor?",
+            "alternativas": [
+              "6",
+              "10",
+              "12",
+              "15"
+            ],
+            "correta": 2,
+            "explicacao": "Lia ganha R$ 5,00 de vantagem por semana. Para tirar R$ 60,00 de diferença: 60 ÷ 5 = 12 semanas (as duas com R$ 180,00).",
+            "dica": "Veja quanto a diferença entre elas diminui a cada semana."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Suponha que a poupança renda 0,5% no mês. Quanto rendem R$ 200,00 em um mês?",
+            "alternativas": [
+              "R$ 0,50",
+              "R$ 1,00",
+              "R$ 10,00",
+              "R$ 5,00"
+            ],
+            "correta": 1,
+            "explicacao": "1% de R$ 200,00 é R$ 2,00; metade disso (0,5%) é R$ 1,00.",
+            "dica": "Calcule 1% primeiro e depois pegue a metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro quer R$ 500,00. Ele guarda 20% da mesada de R$ 100,00 e mais R$ 30,00 de bicos por mês. Em quantos meses chega?",
+            "alternativas": [
+              "25",
+              "17",
+              "5",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "20% de R$ 100,00 = R$ 20,00. Com os bicos: R$ 50,00 por mês. R$ 500,00 ÷ R$ 50,00 = 10 meses.",
+            "dica": "Some as duas fontes de dinheiro guardado em um mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caderno custava R$ 20,00 e subiu 10%. Você tinha guardado R$ 20,00 no colchão. O que acontece?",
+            "alternativas": [
+              "Você compra e ainda sobra troco",
+              "Faltam R$ 2,00 para comprar o caderno",
+              "O dinheiro guardado aumentou 10%",
+              "O caderno ficou mais barato"
+            ],
+            "correta": 1,
+            "explicacao": "O caderno foi para R$ 22,00. O dinheiro parado continua R$ 20,00: faltam R$ 2,00. É a inflação comendo o poder de compra.",
+            "dica": "Calcule o novo preço e compare com o que está guardado."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Decisões com se/senão",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Programas tomam decisões. Eles testam uma condição, que só pode ser verdadeira ou falsa, e escolhem o que fazer.",
+          "A estrutura é: SE a condição for verdadeira, faça isto; SENÃO, faça aquilo. Em Python: if nota >= 6: print('Aprovado') e, na linha de baixo, else: print('Recuperação'). Repare nos dois-pontos e no recuo das linhas de dentro.",
+          "Para comparar usamos: > (maior), < (menor), >= (maior ou igual), <= (menor ou igual), == (igual) e != (diferente). Atenção: um sinal = guarda um valor; dois sinais == comparam.",
+          "Quando há mais de dois caminhos, usamos o 'senão se' (em Python, elif). O programa testa de cima para baixo e para no primeiro teste verdadeiro."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "idade = 10\nif idade >= 12: print('Inteira')\nelse: print('Meia')\nO que aparece?",
+            "resolucao": "10 >= 12 é falso, então roda o else: aparece 'Meia'."
+          },
+          {
+            "enunciado": "Frete grátis para compras de R$ 100,00 ou mais; senão, frete de R$ 15,00. Escreva a condição.",
+            "resolucao": "if compra >= 100: frete = 0, senão (else): frete = 15. Uma compra de R$ 100,00 exatos já ganha frete grátis por causa do >=."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Dá para juntar condições com 'e' (and) e 'ou' (or). Com 'e', as duas precisam ser verdadeiras. Com 'ou', basta uma. Exemplo: if idade >= 16 or autorizado: deixa entrar quem tem 16 anos ou quem tem autorização.",
+        "A ordem dos testes no 'senão se' importa. Se você testar nota >= 6 antes de nota >= 9, quem tirou 10 cai no primeiro teste e nunca recebe 'Ótimo'. Teste sempre do mais exigente para o menos exigente.",
+        "O sinal % dá o resto da divisão. n % 2 == 0 é verdadeiro quando n é par. n % 3 == 0 quando n é múltiplo de 3."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num se/senão, quando o bloco do senão é executado?",
+            "alternativas": [
+              "Sempre",
+              "Quando a condição é falsa",
+              "Quando a condição é verdadeira",
+              "Nunca"
+            ],
+            "correta": 1,
+            "explicacao": "O senão é o caminho de quando o teste dá falso.",
+            "dica": "Se o teste der verdadeiro, roda o primeiro bloco. E se não der?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de 5 > 3?",
+            "alternativas": [
+              "Verdadeiro",
+              "Falso",
+              "8",
+              "2"
+            ],
+            "correta": 0,
+            "explicacao": "5 é maior que 3, então a comparação é verdadeira. Comparações não fazem contas.",
+            "dica": "Uma comparação responde sim ou não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se chover, levo guarda-chuva; senão, levo boné. Está chovendo. O que levo?",
+            "alternativas": [
+              "Boné",
+              "Os dois",
+              "Guarda-chuva",
+              "Nada"
+            ],
+            "correta": 2,
+            "explicacao": "A condição 'chover' é verdadeira, então vale o primeiro caminho.",
+            "dica": "A condição é verdadeira ou falsa hoje?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual símbolo significa 'maior ou igual'?",
+            "alternativas": [
+              "<=",
+              ">",
+              "==",
+              ">="
+            ],
+            "correta": 3,
+            "explicacao": ">= quer dizer maior ou igual. <= é menor ou igual e == compara igualdade.",
+            "dica": "Primeiro vem o sinal de maior, depois o de igual."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que um programa de notas faz:",
+            "itens": [
+              "Pegar o valor da nota",
+              "Testar se a nota é maior ou igual a 6",
+              "Mostrar 'Aprovado' ou 'Recuperação'"
+            ],
+            "explicacao": "Primeiro o programa precisa do dado, depois testa e só então mostra o resultado.",
+            "dica": "Não dá para testar uma nota que o programa ainda não tem."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "idade = 10. if idade >= 12: 'Inteira', else: 'Meia'. O que aparece?",
+            "alternativas": [
+              "Inteira",
+              "Meia",
+              "Nada",
+              "Erro"
+            ],
+            "correta": 1,
+            "explicacao": "10 não é maior nem igual a 12, então roda o else.",
+            "dica": "Teste a condição com o número 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual condição testa se x é diferente de zero?",
+            "alternativas": [
+              "x == 0",
+              "x = 0",
+              "x > 0",
+              "x != 0"
+            ],
+            "correta": 3,
+            "explicacao": "!= significa diferente. x > 0 deixaria de fora os negativos, que também são diferentes de zero.",
+            "dica": "Lembre o símbolo que tem ponto de exclamação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "temperatura = 30. if temperatura > 30: 'Calor', else: 'Agradável'. O que aparece?",
+            "alternativas": [
+              "Agradável",
+              "Calor",
+              "Os dois",
+              "Erro"
+            ],
+            "correta": 0,
+            "explicacao": "30 > 30 é falso (30 não é maior que ele mesmo). Por isso aparece 'Agradável'.",
+            "dica": "Cuidado: maior é diferente de maior ou igual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha em Python está escrita do jeito certo?",
+            "alternativas": [
+              "if nota >= 6",
+              "if (nota >= 6) then",
+              "if nota >= 6:",
+              "se nota => 6:"
+            ],
+            "correta": 2,
+            "explicacao": "Em Python o if termina com dois-pontos e não usa 'then'.",
+            "dica": "Repare no sinal que fecha a linha do if."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "saldo = 50 e preco = 45. if saldo >= preco: 'Compra', else: 'Falta dinheiro'. O que aparece?",
+            "alternativas": [
+              "Compra",
+              "Falta dinheiro",
+              "Compra e Falta dinheiro",
+              "Nada"
+            ],
+            "correta": 0,
+            "explicacao": "50 >= 45 é verdadeiro, então aparece 'Compra'. Só um dos caminhos roda.",
+            "dica": "Compare 50 com 45."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "nota = 7. if nota >= 9: 'Ótimo'; elif nota >= 6: 'Bom'; else: 'Estude mais'. O que aparece?",
+            "alternativas": [
+              "Ótimo",
+              "Bom",
+              "Estude mais",
+              "Bom e Estude mais"
+            ],
+            "correta": 1,
+            "explicacao": "7 >= 9 é falso; 7 >= 6 é verdadeiro, então para em 'Bom'.",
+            "dica": "Teste de cima para baixo e pare no primeiro verdadeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém escreveu: if nota >= 6: 'Bom'; elif nota >= 9: 'Ótimo'. O que acontece com nota 10?",
+            "alternativas": [
+              "Mostra Ótimo",
+              "Mostra os dois",
+              "Dá erro",
+              "Mostra Bom, e o Ótimo nunca aparece"
+            ],
+            "correta": 3,
+            "explicacao": "10 >= 6 já é verdadeiro no primeiro teste, então o programa nem chega no segundo. A ordem está trocada.",
+            "dica": "O programa para no primeiro teste verdadeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual condição é verdadeira quando n é par?",
+            "alternativas": [
+              "n / 2 == 0",
+              "n % 2 == 0",
+              "n % 2 == 1",
+              "n - 2 == 0"
+            ],
+            "correta": 1,
+            "explicacao": "% dá o resto. Número par dividido por 2 tem resto zero.",
+            "dica": "Pense no resto da divisão por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 5. if x > 2 and x < 5: 'A', else: 'B'. O que aparece?",
+            "alternativas": [
+              "B",
+              "A",
+              "AB",
+              "Nada"
+            ],
+            "correta": 0,
+            "explicacao": "5 > 2 é verdadeiro, mas 5 < 5 é falso. Com 'and' as duas precisam ser verdadeiras, então vai para o else.",
+            "dica": "Teste as duas partes separadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Frete grátis a partir de R$ 100,00; senão, R$ 15,00. Lucas comprou itens de R$ 60,00 e R$ 35,00. Quanto paga ao todo?",
+            "alternativas": [
+              "R$ 95,00",
+              "R$ 100,00",
+              "R$ 110,00",
+              "R$ 115,00"
+            ],
+            "correta": 2,
+            "explicacao": "A compra deu R$ 95,00, que é menor que 100. Paga frete: R$ 95,00 + R$ 15,00 = R$ 110,00.",
+            "dica": "Some a compra, teste a condição e depois some o frete se precisar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "idade = 15 e autorizado = falso. if idade >= 16 or autorizado: 'Entra', else: 'Não entra'. O que aparece?",
+            "alternativas": [
+              "Entra",
+              "Não entra",
+              "Erro",
+              "Entra e Não entra"
+            ],
+            "correta": 1,
+            "explicacao": "15 >= 16 é falso e autorizado é falso. Com 'or', basta uma verdadeira, mas nenhuma é. Resultado: 'Não entra'.",
+            "dica": "Veja se pelo menos uma das partes é verdadeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números de 1 a 20 deixam verdadeira a condição n % 3 == 0 and n % 2 == 0?",
+            "alternativas": [
+              "3",
+              "6",
+              "9",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "Precisa ser múltiplo de 3 e de 2 ao mesmo tempo, ou seja, de 6: 6, 12 e 18. São 3.",
+            "dica": "Múltiplo de 2 e de 3 ao mesmo tempo é múltiplo de quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 4, b = 9, c = 7. if a > b: m = a; else: m = b. Depois: if c > m: m = c. Quanto vale m no fim?",
+            "alternativas": [
+              "4",
+              "7",
+              "9",
+              "20"
+            ],
+            "correta": 2,
+            "explicacao": "4 > 9 é falso, então m = 9. Depois 7 > 9 é falso, então m continua 9. O código acha o maior dos três.",
+            "dica": "Acompanhe o valor de m linha por linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que if x = 5: dá erro em Python?",
+            "alternativas": [
+              "Faltam parênteses",
+              "x não pode valer 5",
+              "Falta o else",
+              "Um sinal = só guarda valor; para comparar se usa =="
+            ],
+            "correta": 3,
+            "explicacao": "= é atribuição (guardar). Para comparar, é ==. Parênteses e else não são obrigatórios.",
+            "dica": "Quantos sinais de igual são usados para comparar?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os testes para classificar uma nota corretamente:",
+            "itens": [
+              "if nota >= 9: 'Ótimo'",
+              "elif nota >= 7: 'Bom'",
+              "elif nota >= 5: 'Regular'",
+              "else: 'Estude mais'"
+            ],
+            "explicacao": "Testamos do mais exigente para o menos exigente; o else fica sempre no fim.",
+            "dica": "Se o teste mais fácil vier primeiro, ele pega todo mundo."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O pote de vidro",
+    "texto": "Na prateleira do quarto de Davi havia um pote de vidro com uma etiqueta: \"Bicicleta usada: R$ 300,00 até dezembro\".\n\nNo começo, ele colocava o dinheiro que sobrava. Só que nunca sobrava. Um salgado na saída da escola aqui, uma recarga de celular ali, e o pote continuava quase vazio.\n\nFoi a avó quem ensinou o truque. \"Assim que o dinheiro chegar na sua mão, a parte do pote vai primeiro. O resto você gasta.\" Davi fez a conta: faltavam dez meses, então eram R$ 30,00 por mês. Cortou alguns salgados e passou a ajudar o tio a lavar o carro aos sábados.\n\nEm agosto, o tênis rasgou e ele teve que tirar dinheiro do pote. Ficou bravo, mas não desistiu. Refez a conta com os meses que faltavam e aumentou um pouco o valor guardado.\n\nEm dezembro, o pote não estava cheio, mas estava perto. Davi achou uma bicicleta por R$ 280,00, pechinchou com o vendedor e voltou para casa pedalando, com vinte reais de troco."
+  },
+  "escrita": {
+    "proposta": "Escreva no caderno, em 5 a 10 linhas, uma meta sua de verdade: o que você quer, quanto custa (pesquise o preço), até quando quer conseguir e quanto precisa guardar por semana ou por mês. Diga também o que pode atrapalhar e o que você vai fazer se tiver que tirar dinheiro da meta, como o Davi fez."
+  }
+}

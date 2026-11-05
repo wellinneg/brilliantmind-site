@@ -1,0 +1,903 @@
+{
+  "dia": 13,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Energia e sustentabilidade: de onde vem a luz da sua casa",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Energia não se cria nem se perde: ela se transforma. Numa usina hidrelétrica, a energia do movimento da água vira energia elétrica; no chuveiro, a elétrica vira térmica (calor); no celular, a química da bateria vira luz e som.",
+          "As fontes de energia podem ser renováveis, que se repõem pela natureza em pouco tempo (água dos rios, sol, vento, biomassa como bagaço de cana), ou não renováveis, que levam milhões de anos para se formar ou existem em quantidade limitada (petróleo, carvão mineral, gás natural e urânio).",
+          "O Brasil tem uma matriz elétrica com a maior parte vinda de fontes renováveis, principalmente hidrelétricas, e com crescimento rápido da energia eólica (vento) e solar. Mas nenhuma fonte é perfeita: hidrelétricas alagam grandes áreas e afetam rios e comunidades; parques eólicos mudam a paisagem; painéis solares precisam de descarte correto.",
+          "O consumo de energia elétrica é medido em quilowatt-hora (kWh): potência em quilowatts vezes as horas de uso. Um chuveiro de 5.500 W (5,5 kW) ligado 1 hora gasta 5,5 kWh.",
+          "Sustentabilidade é atender às necessidades de hoje sem tirar das próximas gerações a chance de atender às delas. Na energia, isso quer dizer usar fontes mais limpas e, principalmente, desperdiçar menos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um chuveiro de 5.500 W é usado 15 minutos por dia, durante 30 dias. Quanto ele consome?",
+            "resolucao": "15 minutos = 0,25 hora. Por dia: 5,5 kW × 0,25 h = 1,375 kWh. No mês: 1,375 × 30 = 41,25 kWh."
+          },
+          {
+            "enunciado": "Se a tarifa for R$ 0,80 por kWh, quanto custa o chuveiro do exemplo anterior no mês?",
+            "resolucao": "41,25 × 0,80 = R$ 33,00."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Eficiência é quanto da energia vira o que queremos. Uma lâmpada incandescente transforma a maior parte da energia em calor, e não em luz. Uma lâmpada LED de cerca de 9 W ilumina como uma incandescente de 60 W. Com 5 horas por dia em 30 dias: a incandescente gasta 0,06 × 150 = 9 kWh e a LED 0,009 × 150 = 1,35 kWh.",
+        "O selo Procel e a etiqueta de eficiência (com faixas de A a E, por exemplo) ajudam a escolher aparelhos que gastam menos para fazer o mesmo trabalho.",
+        "Atenção: o urânio das usinas nucleares não emite gás carbônico ao gerar eletricidade, mas é não renovável e produz lixo radioativo. Já a biomassa é renovável, mas sua queima libera gás carbônico. Classificar uma fonte exige olhar mais de um aspecto."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas fontes de energia é renovável?",
+            "alternativas": [
+              "Petróleo",
+              "Carvão mineral",
+              "Energia solar",
+              "Gás natural"
+            ],
+            "correta": 2,
+            "explicacao": "O sol se repõe todos os dias. Petróleo, carvão e gás natural levam milhões de anos para se formar.",
+            "dica": "Procure a fonte que não acaba se a usarmos hoje."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que unidade se mede o consumo de energia elétrica na conta de luz?",
+            "alternativas": [
+              "Quilowatt-hora (kWh)",
+              "Quilômetro (km)",
+              "Litro (L)",
+              "Grau Celsius (°C)"
+            ],
+            "correta": 0,
+            "explicacao": "A conta de luz mostra o consumo em kWh: potência vezes tempo de uso.",
+            "dica": "É uma unidade que junta potência e tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No chuveiro elétrico, a energia elétrica se transforma principalmente em:",
+            "alternativas": [
+              "Energia sonora",
+              "Energia química",
+              "Energia luminosa",
+              "Energia térmica (calor)"
+            ],
+            "correta": 3,
+            "explicacao": "O chuveiro esquenta a água: transforma eletricidade em calor.",
+            "dica": "Pense para que serve o chuveiro ligado no inverno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a principal fonte da energia elétrica no Brasil?",
+            "alternativas": [
+              "Carvão",
+              "Hidrelétricas",
+              "Usinas nucleares",
+              "Petróleo"
+            ],
+            "correta": 1,
+            "explicacao": "A maior parte da eletricidade brasileira vem das hidrelétricas, que usam a força da água dos rios.",
+            "dica": "O Brasil tem muitos rios grandes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é sustentabilidade?",
+            "alternativas": [
+              "Usar tudo o que der agora",
+              "Atender ao presente sem prejudicar as próximas gerações",
+              "Gastar mais energia para crescer",
+              "Usar apenas petróleo"
+            ],
+            "correta": 1,
+            "explicacao": "Sustentável é o que pode continuar ao longo do tempo sem esgotar o planeta para quem vem depois.",
+            "dica": "Pense nos seus netos também."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas fontes é NÃO renovável?",
+            "alternativas": [
+              "Eólica",
+              "Biomassa",
+              "Urânio",
+              "Solar"
+            ],
+            "correta": 2,
+            "explicacao": "O urânio existe em quantidade limitada na Terra. As outras se repõem pela natureza.",
+            "dica": "Procure a que é extraída de minas e um dia acaba."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as transformações de energia numa usina hidrelétrica até a sua casa.",
+            "itens": [
+              "A água da represa guarda energia por estar no alto",
+              "A água desce e gira a turbina",
+              "O gerador transforma o movimento em eletricidade",
+              "A eletricidade viaja pelas linhas de transmissão até as casas"
+            ],
+            "explicacao": "Energia da altura vira movimento, o movimento vira eletricidade, e ela é levada pelos fios.",
+            "dica": "Siga a água: de cima da represa até virar corrente nos fios."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma TV de 100 W fica ligada 4 horas por dia durante 30 dias. Quanto consome?",
+            "alternativas": [
+              "400 kWh",
+              "12 kWh",
+              "120 kWh",
+              "1,2 kWh"
+            ],
+            "correta": 1,
+            "explicacao": "100 W = 0,1 kW. 0,1 × 4 × 30 = 12 kWh.",
+            "dica": "Transforme watts em quilowatts dividindo por 1.000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um impacto ambiental das grandes hidrelétricas?",
+            "alternativas": [
+              "Liberam lixo radioativo",
+              "Fazem barulho de hélices",
+              "Alagam grandes áreas e afetam rios e comunidades",
+              "Gastam muito petróleo"
+            ],
+            "correta": 2,
+            "explicacao": "As represas inundam florestas e terras, mudam o curso dos rios e podem obrigar famílias a se mudar.",
+            "dica": "Pense no que acontece com a área atrás da barragem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma geladeira consome 30 kWh por mês e a tarifa é R$ 0,80 por kWh. Quanto ela custa por mês?",
+            "alternativas": [
+              "R$ 30,80",
+              "R$ 37,50",
+              "R$ 2,40",
+              "R$ 24,00"
+            ],
+            "correta": 3,
+            "explicacao": "30 × 0,80 = 24. Somar 30 + 0,80 não faz sentido: o preço é por kWh.",
+            "dica": "Multiplique o consumo pelo preço de cada kWh."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um chuveiro de 5.500 W é usado 15 minutos por dia, por 30 dias. Quanto consome?",
+            "alternativas": [
+              "165 kWh",
+              "41,25 kWh",
+              "82,5 kWh",
+              "2.475 kWh"
+            ],
+            "correta": 1,
+            "explicacao": "15 min = 0,25 h. 5,5 × 0,25 × 30 = 41,25 kWh. Quem usou 15 no lugar de 0,25 chegou a 2.475.",
+            "dica": "Converta os minutos em fração de hora antes de multiplicar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a família do exercício anterior reduzir o banho para 10 minutos, quanto economiza no mês?",
+            "alternativas": [
+              "13,75 kWh",
+              "27,5 kWh",
+              "5 kWh",
+              "41,25 kWh"
+            ],
+            "correta": 0,
+            "explicacao": "Com 10 min (1/6 de hora): 5,5 × (1/6) × 30 = 27,5 kWh. Economia: 41,25 − 27,5 = 13,75 kWh.",
+            "dica": "Calcule o novo consumo e subtraia do antigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lâmpada LED de 9 W substitui uma incandescente de 60 W. Usando 5 h por dia, 30 dias, quanto se economiza?",
+            "alternativas": [
+              "9 kWh",
+              "1,35 kWh",
+              "10,35 kWh",
+              "7,65 kWh"
+            ],
+            "correta": 3,
+            "explicacao": "Incandescente: 0,06 × 150 = 9 kWh. LED: 0,009 × 150 = 1,35 kWh. Economia: 9 − 1,35 = 7,65 kWh.",
+            "dica": "Calcule as horas do mês e o consumo de cada lâmpada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a lâmpada LED gasta menos que a incandescente para iluminar igual?",
+            "alternativas": [
+              "Porque fica ligada menos tempo",
+              "Porque transforma mais energia em luz e menos em calor",
+              "Porque usa outra tomada",
+              "Porque a luz dela é mais fraca"
+            ],
+            "correta": 1,
+            "explicacao": "A incandescente desperdiça a maior parte da energia como calor. A LED é mais eficiente.",
+            "dica": "Encoste a mão (com cuidado) perto de cada uma: qual esquenta mais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação sobre fontes de energia está correta?",
+            "alternativas": [
+              "Biomassa é renovável, mas sua queima libera gás carbônico",
+              "Toda fonte renovável não tem nenhum impacto",
+              "O urânio é renovável porque não solta fumaça",
+              "Energia eólica depende de petróleo"
+            ],
+            "correta": 0,
+            "explicacao": "Renovável não quer dizer sem impacto. A biomassa se repõe, mas queimá-la libera gás carbônico.",
+            "dica": "Desconfie das alternativas com \"toda\" e \"nenhum\"."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa casa: chuveiro de 5.000 W por 20 min/dia e 4 lâmpadas LED de 10 W por 6 h/dia, durante 30 dias. Qual é o consumo total?",
+            "alternativas": [
+              "57,2 kWh",
+              "50 kWh",
+              "7,2 kWh",
+              "107,2 kWh"
+            ],
+            "correta": 0,
+            "explicacao": "Chuveiro: 5 × (1/3) × 30 = 50 kWh. Lâmpadas: 4 × 0,01 × 6 × 30 = 7,2 kWh. Total: 57,2 kWh.",
+            "dica": "Calcule cada aparelho separado e some; cuidado com os 20 minutos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com tarifa de R$ 0,90 por kWh, quanto a troca de um chuveiro de 7.500 W por outro de 5.500 W economiza num mês, com 30 min de uso por dia?",
+            "alternativas": [
+              "R$ 54,00",
+              "R$ 27,00",
+              "R$ 30,00",
+              "R$ 15,00"
+            ],
+            "correta": 1,
+            "explicacao": "Diferença de potência: 2 kW. 2 × 0,5 h × 30 = 30 kWh. 30 × 0,90 = R$ 27,00. Quem esqueceu a tarifa parou em 30.",
+            "dica": "Trabalhe com a diferença de potência, depois as horas e, por fim, o preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pegadinha: uma pessoa diz que um painel solar \"cria energia do nada\". O que está errado?",
+            "alternativas": [
+              "Nada, ele cria energia do nada",
+              "O painel só funciona à noite",
+              "O painel transforma energia da luz do sol em eletricidade; energia não é criada",
+              "O painel transforma eletricidade em luz do sol"
+            ],
+            "correta": 2,
+            "explicacao": "Energia se transforma: o painel converte luz em eletricidade. Nenhum aparelho cria energia do nada.",
+            "dica": "Lembre a primeira frase da lição sobre energia."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as fontes da que mais emite gás carbônico na geração de eletricidade para a que menos emite (do jeito como funcionam normalmente).",
+            "itens": [
+              "Carvão mineral",
+              "Gás natural",
+              "Hidrelétrica",
+              "Eólica"
+            ],
+            "explicacao": "O carvão é o que mais emite, o gás natural emite menos que o carvão, e a hidrelétrica e a eólica emitem muito pouco ao gerar. A eólica fica por último por não queimar nada nem alagar áreas.",
+            "dica": "Os combustíveis fósseis queimam; entre eles, o mais sujo vem primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família gastava 200 kWh por mês e passou a gastar 150 kWh. Qual foi a redução em porcentagem?",
+            "alternativas": [
+              "50%",
+              "33%",
+              "20%",
+              "25%"
+            ],
+            "correta": 3,
+            "explicacao": "Reduziu 50 kWh. 50 ÷ 200 = 0,25 = 25%. Dividir por 150 daria 33%, que é o erro comum.",
+            "dica": "A porcentagem se calcula sobre o valor de antes."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Planejamento de longo prazo: o futuro começa no seu bolso",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Metas financeiras têm prazos: curto (até 1 ano, como um fone novo), médio (1 a 5 anos, como um curso ou uma moto) e longo (mais de 5 anos, como a casa própria ou a aposentadoria).",
+          "Uma boa meta é específica, tem valor e tem prazo. \"Quero guardar dinheiro\" é vago. \"Quero juntar R$ 6.000,00 em 2 anos para um curso técnico\" é uma meta: dá para calcular R$ 250,00 por mês (6.000 ÷ 24).",
+          "Antes das metas, vem a reserva de emergência: um dinheiro guardado, fácil de sacar, para imprevistos como perder o emprego ou consertar algo urgente. O recomendado é juntar de 3 a 6 meses dos seus gastos mensais.",
+          "\"Pague-se primeiro\": quando o dinheiro entrar, separe logo a parte da meta, antes de gastar. Quem espera sobrar no fim do mês quase nunca guarda.",
+          "No longo prazo, dois fatores pesam muito: os juros compostos, que fazem o dinheiro crescer mais quanto mais tempo ele fica rendendo, e a inflação, que faz o dinheiro parado perder valor."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Gabriel gasta R$ 2.000,00 por mês. Quanto deve ter na reserva de emergência para 6 meses?",
+            "resolucao": "2.000 × 6 = R$ 12.000,00. Ele pode começar pela meta de 3 meses (R$ 6.000,00)."
+          },
+          {
+            "enunciado": "R$ 1.000,00 aplicados a 10% ao ano, com juros compostos. Quanto haverá em 2 anos?",
+            "resolucao": "Ano 1: 1.000 + 100 = 1.100. Ano 2: 1.100 + 110 = 1.210. O juro do 2º ano foi maior porque incidiu sobre 1.100."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A regra dos 72 estima em quantos anos o dinheiro dobra: divida 72 pela taxa anual. A 8% ao ano, 72 ÷ 8 = 9 anos. A 6%, 12 anos. É uma aproximação, não uma conta exata.",
+        "Rendimento real é o que sobra depois de descontar a inflação. Se o dinheiro rende 10% num ano e a inflação foi 4%, o ganho real é de aproximadamente 6%. Se rende 3% e a inflação é 5%, o poder de compra diminuiu, mesmo com o saldo maior.",
+        "Começar cedo vale muito. Quem guarda R$ 200,00 por mês dos 18 aos 28 anos e depois deixa rendendo pode chegar aos 60 com valor parecido ou maior do que quem guarda R$ 200,00 por mês dos 28 aos 48, mesmo tendo depositado metade. O tempo extra de juros compostos faz a diferença."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Comprar uma casa própria é uma meta de:",
+            "alternativas": [
+              "Curto prazo",
+              "Médio prazo",
+              "Longo prazo",
+              "Nenhum prazo"
+            ],
+            "correta": 2,
+            "explicacao": "Uma casa costuma levar mais de 5 anos de planejamento: longo prazo.",
+            "dica": "Pense em quantos anos se leva para juntar esse valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a reserva de emergência?",
+            "alternativas": [
+              "Para comprar presentes",
+              "Para cobrir imprevistos, como perder o emprego",
+              "Para apostar",
+              "Para pagar a mesada"
+            ],
+            "correta": 1,
+            "explicacao": "A reserva é o colchão para o inesperado: desemprego, doença, conserto urgente.",
+            "dica": "Pense em um problema que aparece sem aviso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer \"pague-se primeiro\"?",
+            "alternativas": [
+              "Separar o dinheiro da meta assim que ele entra",
+              "Pagar as contas dos outros antes",
+              "Comprar o que quer primeiro",
+              "Não pagar as contas"
+            ],
+            "correta": 0,
+            "explicacao": "É guardar a parte do futuro antes de gastar, em vez de esperar sobrar.",
+            "dica": "Você é a primeira \"conta\" a receber."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual meta está bem escrita?",
+            "alternativas": [
+              "Quero ficar rico",
+              "Um dia vou guardar",
+              "Quero dinheiro",
+              "Juntar R$ 1.200,00 em 12 meses para um notebook"
+            ],
+            "correta": 3,
+            "explicacao": "Ela tem valor, prazo e objetivo. As outras são vagas.",
+            "dica": "Procure a meta que tem número e data."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A inflação faz com que o dinheiro parado:",
+            "alternativas": [
+              "Valha mais",
+              "Perca poder de compra",
+              "Dobre todo ano",
+              "Fique igual para sempre"
+            ],
+            "correta": 1,
+            "explicacao": "Com os preços subindo, a mesma nota compra menos coisas com o tempo.",
+            "dica": "Pense no preço do pão de alguns anos atrás."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Juliana quer juntar R$ 6.000,00 em 2 anos. Quanto precisa guardar por mês (sem contar juros)?",
+            "alternativas": [
+              "R$ 500,00",
+              "R$ 3.000,00",
+              "R$ 300,00",
+              "R$ 250,00"
+            ],
+            "correta": 3,
+            "explicacao": "2 anos = 24 meses. 6.000 ÷ 24 = 250. Dividir por 12 daria 500, como se fosse 1 ano só.",
+            "dica": "Transforme os anos em meses antes de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gabriel gasta R$ 2.000,00 por mês. Qual é a reserva de emergência de 6 meses?",
+            "alternativas": [
+              "R$ 2.006,00",
+              "R$ 12.000,00",
+              "R$ 6.000,00",
+              "R$ 1.200,00"
+            ],
+            "correta": 1,
+            "explicacao": "2.000 × 6 = 12.000.",
+            "dica": "Multiplique o gasto mensal pelo número de meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000,00 a 10% ao ano com juros compostos. Quanto haverá em 2 anos?",
+            "alternativas": [
+              "R$ 1.200,00",
+              "R$ 1.020,00",
+              "R$ 1.210,00",
+              "R$ 2.000,00"
+            ],
+            "correta": 2,
+            "explicacao": "1.000 → 1.100 → 1.210. R$ 1.200,00 seria juros simples, sem juro sobre juro.",
+            "dica": "No 2º ano, o juro é calculado sobre o valor do fim do 1º ano."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos de um bom planejamento financeiro.",
+            "itens": [
+              "Anotar quanto ganha e quanto gasta",
+              "Montar a reserva de emergência",
+              "Definir metas com valor e prazo",
+              "Guardar todo mês e acompanhar o progresso"
+            ],
+            "explicacao": "Primeiro conhecer a própria situação, depois se proteger dos imprevistos e então partir para as metas.",
+            "dica": "Não dá para planejar sem saber quanto entra e quanto sai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruno ganha R$ 1.500,00 e quer guardar 10% todo mês. Quanto guardará em 1 ano?",
+            "alternativas": [
+              "R$ 1.800,00",
+              "R$ 150,00",
+              "R$ 1.500,00",
+              "R$ 18.000,00"
+            ],
+            "correta": 0,
+            "explicacao": "10% de 1.500 = 150 por mês. 150 × 12 = 1.800.",
+            "dica": "Calcule a parte de um mês e multiplique pelos meses do ano."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela regra dos 72, em quantos anos o dinheiro dobra a 8% ao ano?",
+            "alternativas": [
+              "8 anos",
+              "9 anos",
+              "12 anos",
+              "72 anos"
+            ],
+            "correta": 1,
+            "explicacao": "72 ÷ 8 = 9 anos.",
+            "dica": "Divida o número da regra pela taxa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 2.000,00 a 10% ao ano, juros compostos, por 3 anos. Qual é o valor final?",
+            "alternativas": [
+              "R$ 2.600,00",
+              "R$ 2.620,00",
+              "R$ 2.662,00",
+              "R$ 2.700,00"
+            ],
+            "correta": 2,
+            "explicacao": "2.000 → 2.200 → 2.420 → 2.662. Juros simples dariam 2.600.",
+            "dica": "Faça ano por ano, sempre sobre o valor novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dinheiro rendeu 3% no ano e a inflação foi de 5%. O que aconteceu?",
+            "alternativas": [
+              "Ganhou 8% de poder de compra",
+              "Ganhou 3% de poder de compra",
+              "Ficou igual",
+              "Perdeu poder de compra, mesmo com saldo maior"
+            ],
+            "correta": 3,
+            "explicacao": "Os preços subiram mais do que o dinheiro rendeu. O saldo cresceu, mas compra menos.",
+            "dica": "Compare o que o dinheiro cresceu com o que os preços cresceram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana gasta R$ 1.800,00 por mês e já tem R$ 3.600,00 guardados. Quantos meses de reserva ela já tem?",
+            "alternativas": [
+              "2 meses",
+              "3 meses",
+              "6 meses",
+              "1 mês"
+            ],
+            "correta": 0,
+            "explicacao": "3.600 ÷ 1.800 = 2. Para chegar a 6 meses, faltam 4 meses de gastos (R$ 7.200,00).",
+            "dica": "Divida o que ela tem pelo gasto de um mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio recebe R$ 1.200,00, guarda o que sobra no fim do mês e nunca sobra nada. O que deve mudar?",
+            "alternativas": [
+              "Gastar mais para se motivar",
+              "Separar a parte da meta assim que receber",
+              "Esperar ganhar mais para começar",
+              "Pegar um empréstimo para investir"
+            ],
+            "correta": 1,
+            "explicacao": "Pague-se primeiro: guardar no começo, e não esperar a sobra. Empréstimo para investir costuma sair caro.",
+            "dica": "O problema está no momento em que ele tenta guardar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Duda guarda R$ 200,00 por mês dos 18 aos 28 anos. Léo guarda R$ 200,00 por mês dos 28 aos 48. Quanto cada um tirou do bolso, só em depósitos?",
+            "alternativas": [
+              "Duda R$ 2.400,00 e Léo R$ 4.800,00",
+              "Os dois R$ 24.000,00",
+              "Duda R$ 48.000,00 e Léo R$ 24.000,00",
+              "Duda R$ 24.000,00 e Léo R$ 48.000,00"
+            ],
+            "correta": 3,
+            "explicacao": "Duda: 10 anos × 12 × 200 = 24.000. Léo: 20 anos × 12 × 200 = 48.000. Mesmo depositando metade, Duda pode chegar perto de Léo aos 60, porque o dinheiro dela rendeu por mais tempo.",
+            "dica": "Conte os meses de cada um e multiplique pelo valor mensal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com rendimento de 10% e inflação de 4% no ano, qual é o ganho real aproximado?",
+            "alternativas": [
+              "14%",
+              "10%",
+              "6%",
+              "4%"
+            ],
+            "correta": 2,
+            "explicacao": "Ganho real ≈ 10% − 4% = 6% (a conta exata dá um pouco menos, cerca de 5,8%). Os 10% são só o ganho nominal.",
+            "dica": "Desconte do rendimento o quanto os preços subiram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela regra dos 72, R$ 5.000,00 a 6% ao ano chegam a cerca de quanto em 24 anos?",
+            "alternativas": [
+              "R$ 10.000,00",
+              "R$ 20.000,00",
+              "R$ 12.200,00",
+              "R$ 40.000,00"
+            ],
+            "correta": 1,
+            "explicacao": "A 6%, dobra a cada 12 anos (72 ÷ 6). Em 24 anos dobra 2 vezes: 5.000 → 10.000 → 20.000.",
+            "dica": "Descubra quantas vezes o valor dobra nesse prazo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene da prioridade mais urgente para a menos urgente, para alguém que acabou de começar a trabalhar e tem dívida no cartão.",
+            "itens": [
+              "Pagar a dívida do cartão, que tem juros altos",
+              "Montar a reserva de emergência",
+              "Guardar para a meta de médio prazo",
+              "Investir para a aposentadoria"
+            ],
+            "explicacao": "Juro de cartão cresce mais rápido do que qualquer investimento rende. Depois vem a proteção contra imprevistos, e só então as metas de prazo maior.",
+            "dica": "Comece pelo que está crescendo contra você."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um investimento rende 1% ao mês, e outro, 12% ao ano. Em 1 ano, com juros compostos, qual rende mais?",
+            "alternativas": [
+              "Os dois rendem igual, 12%",
+              "O de 12% ao ano",
+              "Não dá para saber",
+              "O de 1% ao mês, porque rende juro sobre juro todo mês"
+            ],
+            "correta": 3,
+            "explicacao": "1% ao mês composto por 12 meses dá cerca de 12,7% ao ano (1,01 elevado a 12 ≈ 1,127). A pegadinha é achar que 1% × 12 = 12%.",
+            "dica": "Lembre que o juro de cada mês também passa a render."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Engenharia social: o golpe que mexe com a cabeça",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Engenharia social é quando o golpista engana a pessoa, e não o computador. Em vez de \"invadir\" o celular, ele convence você a entregar a senha, o código ou o dinheiro por vontade própria.",
+          "Os golpistas usam emoções: urgência (\"tem que ser agora!\"), medo (\"sua conta será bloqueada\"), ganância (\"você ganhou um prêmio\") e confiança (\"sou eu, seu tio, troquei de número\").",
+          "Golpes comuns: falso parente no WhatsApp pedindo Pix, falsa central do banco ligando para \"confirmar dados\", links falsos por mensagem ou e-mail (phishing), falsas vagas de emprego que pedem taxa e pessoas que pedem o código de verificação que chegou por SMS.",
+          "Regras de ouro: nenhum banco pede senha ou código por telefone ou mensagem. Nunca passe códigos que chegam por SMS. Desconfie de pressa. Confirme por outro canal: ligue para o número antigo do parente ou para o telefone oficial do banco.",
+          "Se caiu num golpe, não sinta vergonha de contar: avise o banco na hora, registre boletim de ocorrência e avise os contatos. Quanto mais rápido, maior a chance de bloquear o dinheiro."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Chega a mensagem: \"Oi, mãe, troquei de número. Preciso pagar uma conta urgente, faz um Pix pra mim?\" O que fazer?",
+            "resolucao": "Não fazer o Pix. Ligar para o número antigo do filho ou perguntar algo que só ele saberia. A combinação de número novo, pedido de dinheiro e urgência é típica do golpe."
+          },
+          {
+            "enunciado": "Alguém liga dizendo ser do banco e pede o código que acabou de chegar por SMS \"para cancelar uma compra\". É seguro?",
+            "resolucao": "Não. Esse código serve para entrar na sua conta ou no seu WhatsApp. Desligue e ligue você mesmo para o número oficial que está no verso do cartão."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Phishing é a \"pescaria\" de dados: uma mensagem que imita uma empresa conhecida e leva a um site falso para você digitar senha ou cartão. Sinais: endereço do site com letras trocadas, erros de português, ameaças e ofertas boas demais.",
+        "Pretexto é a história inventada que o golpista monta antes de pedir algo: ele pesquisa seu nome, sua escola e seus parentes nas redes sociais para parecer confiável. Por isso, quanto menos dados pessoais públicos, mais difícil é montar o pretexto.",
+        "A verificação em duas etapas protege, mas só se o código nunca for passado adiante. O golpista não precisa quebrar a segurança se a própria vítima entregar a chave."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é engenharia social?",
+            "alternativas": [
+              "Construir pontes e prédios",
+              "Enganar a pessoa para ela entregar dados ou dinheiro",
+              "Um curso de faculdade de computação",
+              "Um aplicativo de redes sociais"
+            ],
+            "correta": 1,
+            "explicacao": "Na engenharia social, o alvo é a cabeça da pessoa: o golpista convence a vítima a entregar o que ele quer.",
+            "dica": "Pense em quem é enganado: a máquina ou a pessoa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um banco pode pedir sua senha por mensagem?",
+            "alternativas": [
+              "Sim, sempre",
+              "Só no fim de semana",
+              "Não, nunca",
+              "Só se for urgente"
+            ],
+            "correta": 2,
+            "explicacao": "Bancos não pedem senha nem código por telefone ou mensagem. Quem pede é golpista.",
+            "dica": "Lembre a primeira regra de ouro da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que você deve fazer com um código de verificação que chegou por SMS e alguém pediu?",
+            "alternativas": [
+              "Não passar para ninguém",
+              "Passar se a pessoa for educada",
+              "Postar nas redes",
+              "Mandar por e-mail"
+            ],
+            "correta": 0,
+            "explicacao": "O código é a chave da sua conta. Nunca deve ser passado adiante.",
+            "dica": "Esse código funciona como a chave de casa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual emoção os golpistas mais usam para apressar a vítima?",
+            "alternativas": [
+              "Calma",
+              "Tédio",
+              "Sono",
+              "Urgência"
+            ],
+            "correta": 3,
+            "explicacao": "Pressa impede a pessoa de pensar e conferir. Por isso o golpista sempre diz que é para agora.",
+            "dica": "Pense no \"tem que ser agora!\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se você caiu num golpe, o que deve fazer?",
+            "alternativas": [
+              "Esconder de todo mundo",
+              "Avisar o banco na hora e registrar boletim de ocorrência",
+              "Mandar mais dinheiro para recuperar",
+              "Apagar o celular"
+            ],
+            "correta": 1,
+            "explicacao": "Agir rápido aumenta a chance de bloquear o dinheiro. Vergonha só ajuda o golpista.",
+            "dica": "Quanto mais rápido, melhor; e com quem resolve o dinheiro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Oi, vó, troquei de número, preciso de um Pix urgente.\" Qual é a melhor atitude?",
+            "alternativas": [
+              "Fazer o Pix rápido",
+              "Ligar para o número antigo do neto para confirmar",
+              "Mandar a senha do banco",
+              "Responder com dados pessoais"
+            ],
+            "correta": 1,
+            "explicacao": "Confirmar por outro canal desmonta o golpe do falso parente.",
+            "dica": "Use um contato que você já tinha antes dessa mensagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um sinal de phishing?",
+            "alternativas": [
+              "Mensagem do banco com link e ameaça de bloqueio da conta",
+              "Professor avisando a data da prova na sala",
+              "Seu amigo te ligando do número de sempre",
+              "Boleto que você mesmo pediu na loja"
+            ],
+            "correta": 0,
+            "explicacao": "Link, ameaça e pressa juntos são o retrato do phishing.",
+            "dica": "Procure a mensagem que tenta te assustar para clicar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que fazer ao receber uma ligação suspeita do \"banco\".",
+            "itens": [
+              "Não informar senha nem código",
+              "Desligar a ligação",
+              "Procurar o telefone oficial no verso do cartão ou no aplicativo",
+              "Ligar você mesmo e contar o que aconteceu"
+            ],
+            "explicacao": "Primeiro não entregar nada, depois desligar e só então falar com o banco por um canal que você mesmo escolheu.",
+            "dica": "Quem deve iniciar a ligação de verdade é você."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma vaga de emprego pela internet pede R$ 80,00 de taxa para \"garantir a vaga\". O que isso indica?",
+            "alternativas": [
+              "Uma empresa séria",
+              "Um bônus de contratação",
+              "Provável golpe: empresa séria não cobra para contratar",
+              "Um imposto obrigatório"
+            ],
+            "correta": 2,
+            "explicacao": "Pedir dinheiro para dar emprego é golpe comum, principalmente com jovens procurando o primeiro trabalho.",
+            "dica": "Quem deveria pagar quem numa contratação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um perfil promete dobrar seu dinheiro em 24 horas se você mandar um Pix. Que emoção o golpista está usando?",
+            "alternativas": [
+              "Medo",
+              "Tristeza",
+              "Ganância",
+              "Vergonha"
+            ],
+            "correta": 2,
+            "explicacao": "Promessa de ganho fácil e rápido mexe com a vontade de ganhar muito. Ninguém dobra dinheiro em um dia.",
+            "dica": "Pense no que a pessoa sente quando acha que vai ganhar muito fácil."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um site pede a senha do banco e o endereço é \"bancco-seguro.com\". O que é mais provável?",
+            "alternativas": [
+              "Site oficial com novo nome",
+              "Site falso de phishing, com letras trocadas",
+              "Erro do navegador",
+              "Promoção do banco"
+            ],
+            "correta": 1,
+            "explicacao": "Endereços com letras dobradas ou trocadas imitam o original para enganar. Sempre acesse o banco pelo aplicativo oficial.",
+            "dica": "Leia o endereço letra por letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que deixar o perfil público com escola, nome dos pais e cidade facilita golpes?",
+            "alternativas": [
+              "Porque o celular fica mais lento",
+              "Porque o perfil some",
+              "Não facilita, é seguro",
+              "Porque o golpista usa esses dados para montar uma história convincente"
+            ],
+            "correta": 3,
+            "explicacao": "Com seus dados, o golpista monta o pretexto: fala como se te conhecesse e ganha a sua confiança.",
+            "dica": "Pense no que alguém precisa saber para fingir que te conhece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você tem verificação em duas etapas no WhatsApp. Alguém pede o código de 6 dígitos que chegou. Se você passar:",
+            "alternativas": [
+              "A pessoa pode registrar seu WhatsApp em outro aparelho",
+              "Nada acontece, a verificação protege sempre",
+              "Só muda a foto do perfil",
+              "Seu celular desliga"
+            ],
+            "correta": 0,
+            "explicacao": "A proteção depende do código continuar secreto. Entregando o código, você abre a porta para o golpista.",
+            "dica": "A segurança funciona se a chave estiver com quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um colega recebe: \"Sua conta será bloqueada em 1 hora! Clique aqui\". Ele não clicou e abriu o aplicativo oficial, onde não havia aviso nenhum. O que ele fez certo?",
+            "alternativas": [
+              "Ignorou a mensagem sem motivo",
+              "Esperou a conta bloquear",
+              "Conferiu por um canal oficial em vez de confiar no link",
+              "Repassou a mensagem para os amigos"
+            ],
+            "correta": 2,
+            "explicacao": "Conferir por outro canal é a principal defesa contra engenharia social.",
+            "dica": "Repare de onde ele tirou a informação verdadeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação de sinais é mais típica de golpe?",
+            "alternativas": [
+              "Mensagem de um amigo que mora perto",
+              "Número desconhecido, pedido de dinheiro e muita pressa",
+              "Aviso da escola no mural",
+              "E-mail sem link agradecendo uma compra que você fez"
+            ],
+            "correta": 1,
+            "explicacao": "Contato estranho, dinheiro e urgência juntos formam o padrão mais comum dos golpes.",
+            "dica": "Some os sinais de alerta que a lição citou."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um \"técnico da operadora\" liga, sabe seu nome completo e o nome da sua escola, e pede o código que vai chegar por SMS \"para atualizar o chip\". Qual é a melhor análise?",
+            "alternativas": [
+              "É confiável porque sabe seus dados",
+              "É golpe: os dados vêm das redes e o código serve para tomar sua conta",
+              "É seguro passar se ele falar rápido",
+              "É confiável porque é uma operadora"
+            ],
+            "correta": 1,
+            "explicacao": "Saber seus dados não prova nada: eles podem estar públicos. Pedir código é sempre sinal de golpe.",
+            "dica": "Conhecer seus dados é prova de identidade ou só preparação do golpe?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos de um golpe de engenharia social típico.",
+            "itens": [
+              "Pesquisar a vítima nas redes",
+              "Montar uma história convincente",
+              "Criar urgência ou medo",
+              "Pedir o dinheiro, a senha ou o código"
+            ],
+            "explicacao": "O golpista estuda, monta o pretexto, aperta com emoção e só então faz o pedido.",
+            "dica": "O pedido é sempre a última parte, depois de preparar o terreno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sua tia recebeu \"seu sobrinho\" de número novo pedindo Pix. Ela quer confirmar. Qual pergunta é a MAIS segura?",
+            "alternativas": [
+              "\"É você mesmo?\"",
+              "\"Qual é o seu nome?\"",
+              "\"Qual era o nome do cachorro que tínhamos no sítio?\"",
+              "\"Você está bem?\""
+            ],
+            "correta": 2,
+            "explicacao": "Uma pergunta que só a pessoa verdadeira saberia e que não está nas redes é a melhor. O golpista responde \"sim\" a qualquer pergunta genérica, e seu nome pode estar público.",
+            "dica": "Escolha algo que não aparece em perfil nenhum."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de cair num golpe de Pix, Laura avisa o banco 10 minutos depois. Por que a pressa ajuda?",
+            "alternativas": [
+              "O banco devolve sempre, a qualquer hora",
+              "A pressa não ajuda em nada",
+              "Para o golpista desistir",
+              "Quanto antes o banco é avisado, maior a chance de bloquear o dinheiro na conta do golpista"
+            ],
+            "correta": 3,
+            "explicacao": "Os bancos têm mecanismos para tentar bloquear e devolver o valor, mas funcionam melhor se o aviso for rápido. Não é garantido.",
+            "dica": "O dinheiro pode ser sacado rapidamente pelo golpista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas atitudes NÃO protege contra engenharia social?",
+            "alternativas": [
+              "Deixar a lista de amigos e a escola públicas para todos verem",
+              "Confirmar pedidos de dinheiro por ligação",
+              "Nunca passar códigos de SMS",
+              "Acessar o banco só pelo aplicativo oficial"
+            ],
+            "correta": 0,
+            "explicacao": "Expor dados facilita o pretexto do golpista. As outras atitudes são defesas.",
+            "dica": "A pergunta pede a atitude que ajuda o golpista."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O número novo do neto",
+    "texto": "Eram nove da noite quando o celular da dona Lúcia vibrou. A foto era do neto, Pedro, com o uniforme da escola. A mensagem dizia: \"Vó, troquei de número. Esse é o novo, pode salvar\".\n\nEla salvou, feliz. Minutos depois, veio outra: \"Vó, tô com um problema. Preciso pagar uma conta hoje, senão vão cortar a luz do meu amigo. Faz um Pix de oitocentos reais? Amanhã eu te devolvo\".\n\nDona Lúcia já abria o aplicativo do banco quando a neta mais velha, Camila, entrou na sala. Viu a tela e franziu a testa.\n\n— Vó, espera. Liga para o Pedro no número antigo.\n\n— Mas ele trocou...\n\n— Liga mesmo assim.\n\nO telefone tocou três vezes, e Pedro atendeu, sonolento, do mesmo número de sempre. Não tinha trocado nada. A foto tinha sido copiada do perfil dele, que estava aberto para qualquer um ver.\n\nCamila explicou para a avó como funciona o golpe: o criminoso pega uma foto pública, inventa um número novo, conta uma história triste e pede dinheiro com pressa. A pressa é a arma principal, porque quem corre não confere.\n\nNaquela mesma noite, a família criou uma regra: qualquer pedido de dinheiro por mensagem só vale depois de uma ligação de voz para o número antigo. Pedro fechou o perfil e tirou o nome da escola da descrição.\n\nDona Lúcia bloqueou o número falso e, antes de dormir, ainda mandou um áudio para o grupo das amigas da igreja contando o que tinha acontecido. Três delas responderam que já tinham recebido mensagens parecidas."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva um \"manual de segurança da família\" com pelo menos 4 regras para não cair em golpes como o que quase pegou a dona Lúcia. Para cada regra, explique em uma frase por que ela funciona."
+  }
+}

@@ -1,0 +1,1196 @@
+{
+  "dia": 19,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Ângulos e triângulos",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Ângulo é a abertura entre duas semirretas que saem do mesmo ponto, o vértice. Medimos ângulos em graus (°) com o transferidor.",
+          "Tipos de ângulo: agudo (menor que 90°), reto (exatamente 90°, como o canto de um caderno), obtuso (maior que 90° e menor que 180°) e raso (180°, uma linha reta). Uma volta completa tem 360°.",
+          "A regra de ouro do triângulo: a soma dos três ângulos internos é sempre 180°. Se dois ângulos medem 50° e 60°, o terceiro mede 180° − 110° = 70°.",
+          "Pelos lados, o triângulo pode ser equilátero (3 lados iguais), isósceles (2 lados iguais) ou escaleno (3 lados diferentes). No equilátero, os três ângulos são iguais: 180° ÷ 3 = 60°.",
+          "Pelos ângulos, ele pode ser retângulo (tem um ângulo de 90°), acutângulo (três ângulos agudos) ou obtusângulo (tem um ângulo obtuso)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um triângulo retângulo tem um ângulo de 35°. Quanto mede o terceiro?",
+            "resolucao": "Ele já tem um ângulo de 90°. 180° − 90° − 35° = 55°."
+          },
+          {
+            "enunciado": "Um triângulo tem lados de 5 cm, 5 cm e 8 cm. Como ele se classifica pelos lados?",
+            "resolucao": "Isósceles, porque tem exatamente dois lados iguais."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Ângulos complementares somam 90° (o complementar de 30° é 60°) e suplementares somam 180° (o suplementar de 30° é 150°). Quando duas retas se cruzam, os ângulos opostos pelo vértice são iguais.",
+        "No triângulo isósceles, os dois ângulos da base são iguais. O ângulo externo (formado por um lado e o prolongamento do outro) é igual à soma dos dois ângulos internos que não estão ao lado dele.",
+        "Nem todo trio de medidas forma triângulo: cada lado precisa ser menor que a soma dos outros dois. Com 3, 4 e 8 não dá, porque 3 + 4 = 7 é menor que 8. No relógio, cada hora vale 360° ÷ 12 = 30°."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto mede um ângulo reto?",
+            "alternativas": [
+              "45°",
+              "90°",
+              "180°",
+              "360°"
+            ],
+            "correta": 1,
+            "explicacao": "O ângulo reto mede 90°, como o canto de uma folha.",
+            "dica": "Pense no canto de um caderno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá a soma dos ângulos internos de qualquer triângulo?",
+            "alternativas": [
+              "90°",
+              "360°",
+              "180°",
+              "100°"
+            ],
+            "correta": 2,
+            "explicacao": "Em qualquer triângulo, os três ângulos somam 180°.",
+            "dica": "É a regra de ouro do triângulo, a mesma medida de um ângulo raso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o triângulo com os 3 lados iguais?",
+            "alternativas": [
+              "Equilátero",
+              "Escaleno",
+              "Isósceles",
+              "Retângulo"
+            ],
+            "correta": 0,
+            "explicacao": "Equi- quer dizer igual: todos os lados iguais.",
+            "dica": "O nome começa com um pedaço que quer dizer igual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ângulo de 30° é:",
+            "alternativas": [
+              "Reto",
+              "Obtuso",
+              "Raso",
+              "Agudo"
+            ],
+            "correta": 3,
+            "explicacao": "Menor que 90°, então é agudo.",
+            "dica": "Compare 30° com 90°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual instrumento mede ângulos?",
+            "alternativas": [
+              "Régua",
+              "Balança",
+              "Transferidor",
+              "Termômetro"
+            ],
+            "correta": 2,
+            "explicacao": "O transferidor tem a forma de meia-lua com os graus marcados.",
+            "dica": "É um instrumento em forma de meia-lua com graus marcados."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem ângulos de 50° e 60°. Quanto mede o terceiro?",
+            "alternativas": [
+              "70°",
+              "80°",
+              "90°",
+              "110°"
+            ],
+            "correta": 0,
+            "explicacao": "180° − 50° − 60° = 70°. O 110° é só a soma dos dois.",
+            "dica": "Some os dois ângulos e veja quanto falta para 180°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ângulo de 120° é:",
+            "alternativas": [
+              "Agudo",
+              "Obtuso",
+              "Reto",
+              "Raso"
+            ],
+            "correta": 1,
+            "explicacao": "Maior que 90° e menor que 180°: obtuso.",
+            "dica": "Compare 120° com 90° e com 180°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem lados de 5 cm, 5 cm e 8 cm. Ele é:",
+            "alternativas": [
+              "Equilátero",
+              "Escaleno",
+              "Isósceles",
+              "Retângulo"
+            ],
+            "correta": 2,
+            "explicacao": "Tem exatamente dois lados iguais: isósceles.",
+            "dica": "Conte quantos lados são iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo retângulo tem um ângulo de 35°. Quanto mede o outro ângulo agudo?",
+            "alternativas": [
+              "35°",
+              "45°",
+              "65°",
+              "55°"
+            ],
+            "correta": 3,
+            "explicacao": "180° − 90° − 35° = 55°.",
+            "dica": "Lembre que um dos ângulos já é de 90°."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os ângulos em ordem, do menor para o maior:",
+            "itens": [
+              "Agudo (40°)",
+              "Reto (90°)",
+              "Obtuso (130°)",
+              "Raso (180°)"
+            ],
+            "explicacao": "40° < 90° < 130° < 180°.",
+            "dica": "Compare os números em graus."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto mede cada ângulo de um triângulo equilátero?",
+            "alternativas": [
+              "90°",
+              "60°",
+              "45°",
+              "180°"
+            ],
+            "correta": 1,
+            "explicacao": "Os três ângulos são iguais: 180° ÷ 3 = 60°.",
+            "dica": "Os três ângulos são iguais e somam 180°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num triângulo isósceles, o ângulo do topo mede 40°. Quanto mede cada ângulo da base?",
+            "alternativas": [
+              "70°",
+              "40°",
+              "140°",
+              "50°"
+            ],
+            "correta": 0,
+            "explicacao": "Sobram 180° − 40° = 140° para os dois ângulos iguais da base: 140° ÷ 2 = 70°.",
+            "dica": "Tire o ângulo do topo de 180° e divida o resto em duas partes iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pode existir um triângulo com dois ângulos retos?",
+            "alternativas": [
+              "Sim, sempre",
+              "Só se for grande",
+              "Só se for equilátero",
+              "Não: 90° + 90° já dá 180° e não sobra nada para o terceiro"
+            ],
+            "correta": 3,
+            "explicacao": "A soma precisa ser 180°. Com dois ângulos de 90°, o terceiro teria 0°, e não existiria triângulo.",
+            "dica": "Some dois ângulos retos e veja o que sobra para o terceiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Às 3 horas, os ponteiros do relógio formam um ângulo:",
+            "alternativas": [
+              "Agudo",
+              "Raso",
+              "Reto",
+              "Obtuso"
+            ],
+            "correta": 2,
+            "explicacao": "De 12 até 3 são 3 horas: 3 × 30° = 90°.",
+            "dica": "Cada hora do relógio vale 30°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os ângulos de um triângulo medem x, 2x e 3x. Quanto mede o maior?",
+            "alternativas": [
+              "30°",
+              "60°",
+              "90°",
+              "120°"
+            ],
+            "correta": 2,
+            "explicacao": "x + 2x + 3x = 6x = 180°, então x = 30°. O maior é 3x = 90°. Quem para em x responde 30°.",
+            "dica": "Some tudo, iguale a 180° e descubra x. Depois calcule o maior."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Varetas de 3 cm, 4 cm e 8 cm formam um triângulo?",
+            "alternativas": [
+              "Sim, escaleno",
+              "Não, porque 3 + 4 é menor que 8",
+              "Sim, isósceles",
+              "Sim, retângulo"
+            ],
+            "correta": 1,
+            "explicacao": "Cada lado precisa ser menor que a soma dos outros dois. 3 + 4 = 7, menor que 8: as varetas não se fecham.",
+            "dica": "Some os dois lados menores e compare com o maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto mede o suplementar do complementar de 30°?",
+            "alternativas": [
+              "60°",
+              "150°",
+              "120°",
+              "90°"
+            ],
+            "correta": 2,
+            "explicacao": "Complementar de 30° é 60°. Suplementar de 60° é 120°. O 150° é a pegadinha: é o suplementar de 30°.",
+            "dica": "Faça em duas etapas: primeiro o complementar, depois o suplementar dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem ângulos internos de 50° e 70°. Quanto mede o ângulo externo junto ao terceiro vértice?",
+            "alternativas": [
+              "60°",
+              "110°",
+              "130°",
+              "120°"
+            ],
+            "correta": 3,
+            "explicacao": "O terceiro ângulo é 60°, e o externo completa 180°: 120°. Também é a soma 50° + 70°.",
+            "dica": "O ângulo externo é a soma dos dois internos que não ficam ao lado dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Às 4 horas, qual é o menor ângulo entre os ponteiros do relógio?",
+            "alternativas": [
+              "120°",
+              "90°",
+              "150°",
+              "100°"
+            ],
+            "correta": 0,
+            "explicacao": "De 12 até 4 são 4 horas: 4 × 30° = 120°.",
+            "dica": "Cada hora vale 360° dividido por 12."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem, do menor para o maior:",
+            "itens": [
+              "Complementar de 80°",
+              "Ângulo de um triângulo equilátero",
+              "Suplementar de 100°",
+              "Ângulo externo de um triângulo equilátero"
+            ],
+            "explicacao": "10°, 60°, 80° e 120°. O externo do equilátero é 180° − 60° = 120°.",
+            "dica": "Calcule cada um: complementar soma 90°, suplementar soma 180° e o externo completa 180° com o interno."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Projeto: jogo de adivinhação",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Hoje juntamos tudo num projeto: o computador sorteia um número de 1 a 100 e o jogador tenta adivinhar. A cada chute, o programa diz \"Mais alto!\" ou \"Mais baixo!\" até o jogador acertar.",
+          "O algoritmo usa variáveis, repetição e condição: secreto ← SORTEIE(1, 100); tentativas ← 0; chute ← 0; ENQUANTO chute ≠ secreto FAÇA: LEIA chute; tentativas ← tentativas + 1; SE chute < secreto ENTÃO ESCREVA \"Mais alto!\" SENÃO SE chute > secreto ENTÃO ESCREVA \"Mais baixo!\". No fim: ESCREVA \"Acertou em \", tentativas, \" tentativas!\".",
+          "O ENQUANTO repete enquanto o chute for diferente do número secreto. Quando o jogador acerta, a repetição para e o programa mostra a mensagem final.",
+          "A variável tentativas funciona como contador: começa em 0 e ganha 1 a cada chute. Sem a linha tentativas ← tentativas + 1, o jogo sempre diria que você acertou em 0 tentativas.",
+          "Em Python, o sorteio é random.randint(1, 100) e a leitura é int(input()). O int é necessário porque o input devolve texto, e texto não pode ser comparado como número."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O secreto é 42. O jogador chuta 50, depois 30, depois 42. O que aparece?",
+            "resolucao": "50: \"Mais baixo!\" (50 > 42). 30: \"Mais alto!\" (30 < 42). 42: sai da repetição e mostra \"Acertou em 3 tentativas!\"."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Existe uma estratégia que sempre ganha rápido: chutar no meio da faixa. De 1 a 100, chute 50. Se disser \"Mais baixo!\", a faixa vira 1 a 49 e o próximo chute é 25. Cada chute corta as opções pela metade. Com 7 chutes, você sempre acerta de 1 a 100, porque 2 × 2 × 2 × 2 × 2 × 2 × 2 = 128, que já passa de 100. De 1 a 1.000, bastam 10 chutes (2 multiplicado 10 vezes dá 1.024).",
+        "Melhorias do jogo: limitar as tentativas com ENQUANTO chute ≠ secreto E tentativas < 5; dar pontos (por exemplo, pontos ← 100 − 10 × (tentativas − 1)); e perguntar \"Jogar de novo?\" colocando o jogo inteiro dentro de outra repetição.",
+        "Cuidado com erros comuns: trocar as mensagens (chute menor tem que receber \"Mais alto!\"), esquecer de contar a tentativa e, em Python, digitar uma palavra como \"dez\" quando o programa espera número, o que faz o int dar erro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz o jogo de adivinhação?",
+            "alternativas": [
+              "O computador sorteia um número e o jogador tenta adivinhar",
+              "Calcula impostos",
+              "Desenha na tela",
+              "Toca música"
+            ],
+            "correta": 0,
+            "explicacao": "O computador esconde um número e dá pistas até o jogador acertar.",
+            "dica": "Pense no nome do jogo: adivinhar o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz SORTEIE(1, 10)?",
+            "alternativas": [
+              "Soma 1 + 10",
+              "Escolhe ao acaso um número de 1 a 10",
+              "Apaga os números",
+              "Mostra sempre o 10"
+            ],
+            "correta": 1,
+            "explicacao": "SORTEIE escolhe ao acaso um número dentro da faixa.",
+            "dica": "A palavra já diz: é como tirar um número de dentro de um saquinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O secreto é 50 e o jogador chutou 30. O que o jogo mostra?",
+            "alternativas": [
+              "Mais baixo!",
+              "Acertou!",
+              "Mais alto!",
+              "Erro"
+            ],
+            "correta": 2,
+            "explicacao": "30 é menor que 50, então o jogador precisa chutar mais alto.",
+            "dica": "O chute ficou abaixo ou acima do secreto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando repete enquanto o jogador não acerta?",
+            "alternativas": [
+              "ESCREVA",
+              "SORTEIE",
+              "LEIA",
+              "ENQUANTO"
+            ],
+            "correta": 3,
+            "explicacao": "ENQUANTO repete os passos enquanto a condição for verdadeira.",
+            "dica": "Procure o comando de repetição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a variável tentativas?",
+            "alternativas": [
+              "Contar quantos chutes foram dados",
+              "Guardar o nome do jogador",
+              "Sortear o número",
+              "Apagar o jogo"
+            ],
+            "correta": 0,
+            "explicacao": "Ela começa em 0 e ganha 1 a cada chute.",
+            "dica": "Ela começa em 0 e aumenta a cada chute."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, por que usamos int(input()) para ler o chute?",
+            "alternativas": [
+              "Para deixar a tela bonita",
+              "Porque input devolve texto, e o int transforma em número para comparar",
+              "Para sortear o número",
+              "Para apagar o chute"
+            ],
+            "correta": 1,
+            "explicacao": "Texto e número são tipos diferentes; para comparar com o secreto, o chute precisa ser número.",
+            "dica": "Pense no tipo de dado que o teclado entrega ao programa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O secreto é 42 e os chutes foram 50, 30 e 42. Quanto vale tentativas no fim?",
+            "alternativas": [
+              "2",
+              "42",
+              "3",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "Cada chute soma 1, incluindo o chute certo: 3 tentativas.",
+            "dica": "O chute que acertou também conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O secreto é 60 e o jogador chutou 75. O que aparece?",
+            "alternativas": [
+              "Mais baixo!",
+              "Mais alto!",
+              "Acertou!",
+              "Nada aparece"
+            ],
+            "correta": 0,
+            "explicacao": "75 é maior que 60, então o jogador precisa descer.",
+            "dica": "75 passou ou não chegou no 60?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém esqueceu a linha tentativas ← tentativas + 1. O que acontece?",
+            "alternativas": [
+              "O jogo não roda",
+              "Sorteia de novo a cada chute",
+              "Mostra 100 tentativas",
+              "Sempre mostra que acertou em 0 tentativas"
+            ],
+            "correta": 3,
+            "explicacao": "O contador nunca aumenta, então fica no valor inicial, 0.",
+            "dica": "Se o contador nunca muda, com que valor ele termina?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as partes do programa:",
+            "itens": [
+              "Sortear o número secreto",
+              "Zerar o contador de tentativas",
+              "Repetir enquanto o chute for diferente do secreto",
+              "Ler o chute e somar 1 tentativa",
+              "Dizer se é mais alto ou mais baixo"
+            ],
+            "explicacao": "Preparar (sortear e zerar), repetir e, dentro da repetição, ler, contar e dar a dica.",
+            "dica": "Primeiro preparar as variáveis; depois vem a repetição com o que acontece em cada chute."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor estratégia para adivinhar de 1 a 100?",
+            "alternativas": [
+              "Começar pelo 1 e ir subindo",
+              "Chutar no meio e cortar a faixa pela metade a cada dica",
+              "Chutar sempre o 100",
+              "Chutar ao acaso"
+            ],
+            "correta": 1,
+            "explicacao": "Cada chute no meio elimina metade das opções. Subir de 1 em 1 pode levar 100 chutes.",
+            "dica": "Pense em qual jeito elimina mais números a cada chute."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual condição limita o jogo a 5 tentativas?",
+            "alternativas": [
+              "ENQUANTO chute ≠ secreto E tentativas < 5",
+              "ENQUANTO chute = secreto",
+              "ENQUANTO tentativas > 5",
+              "ENQUANTO 5 = 0"
+            ],
+            "correta": 0,
+            "explicacao": "O jogo continua só se o chute estiver errado E ainda houver tentativas.",
+            "dica": "O jogo precisa continuar só se duas coisas forem verdade ao mesmo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "De 1 a 100, o jogador chutou 50 e ouviu \"Mais baixo!\"; depois chutou 25 e ouviu \"Mais alto!\". Onde está o secreto?",
+            "alternativas": [
+              "Entre 1 e 25",
+              "Entre 50 e 100",
+              "Entre 25 e 50",
+              "Entre 26 e 49"
+            ],
+            "correta": 3,
+            "explicacao": "Não pode ser 50 nem 25 (já foram testados). Fica entre 26 e 49. A pegadinha é incluir o 25 e o 50.",
+            "dica": "O 25 e o 50 já foram testados. Eles ainda podem ser o secreto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O código diz: SE chute < secreto ENTÃO ESCREVA \"Mais baixo!\". Qual é o erro?",
+            "alternativas": [
+              "Falta sortear de novo",
+              "O ENQUANTO está errado",
+              "As mensagens estão trocadas: chute menor precisa ouvir \"Mais alto!\"",
+              "Não há erro"
+            ],
+            "correta": 2,
+            "explicacao": "Se o chute é menor que o secreto, o jogador precisa subir.",
+            "dica": "Se o chute é menor, para que lado o jogador precisa ir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, o jogador digitou \"dez\" em vez de 10. O que acontece no int(input())?",
+            "alternativas": [
+              "Dá erro, porque \"dez\" não vira número",
+              "Vira 10",
+              "Vira 0",
+              "O jogador acerta"
+            ],
+            "correta": 0,
+            "explicacao": "O int só transforma textos com algarismos. Palavras dão erro.",
+            "dica": "O int sabe ler letras ou só algarismos?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando sempre a estratégia do meio, quantos chutes bastam para garantir o acerto de 1 a 100?",
+            "alternativas": [
+              "10",
+              "50",
+              "7",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "2 multiplicado 6 vezes dá 64 (pouco); 7 vezes dá 128, que passa de 100. Então 7 chutes garantem.",
+            "dica": "Dobre o 1 várias vezes até passar de 100 e conte quantas vezes dobrou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "E de 1 a 1.000, quantos chutes bastam com a estratégia do meio?",
+            "alternativas": [
+              "10",
+              "100",
+              "20",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "2 multiplicado 9 vezes dá 512 (pouco); 10 vezes dá 1.024. São 10 chutes.",
+            "dica": "Dobre o 1 até passar de 1.000 e conte as dobras."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "O secreto é 8 e os chutes foram 5, 9 e 8. Coloque em ordem as mensagens que aparecem:",
+            "itens": [
+              "Mais alto!",
+              "Mais baixo!",
+              "Acertou em 3 tentativas!"
+            ],
+            "explicacao": "5 < 8: mais alto. 9 > 8: mais baixo. 8: acertou, com 3 tentativas.",
+            "dica": "Compare cada chute com o 8, um de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pontuação: pontos ← 100 − 10 × (tentativas − 1). Quem acerta em 4 tentativas faz quantos pontos?",
+            "alternativas": [
+              "60",
+              "70",
+              "90",
+              "40"
+            ],
+            "correta": 1,
+            "explicacao": "4 − 1 = 3; 10 × 3 = 30; 100 − 30 = 70. Quem faz 10 × 4 chega em 60.",
+            "dica": "Resolva primeiro os parênteses, depois a multiplicação e por fim a subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer que o jogo recomece quando terminar. O que fazer?",
+            "alternativas": [
+              "Apagar o ENQUANTO",
+              "Trocar SORTEIE por ESCREVA",
+              "Deixar sem tentativas",
+              "Colocar o jogo inteiro dentro de outra repetição que pergunta \"Jogar de novo?\""
+            ],
+            "correta": 3,
+            "explicacao": "Uma repetição por fora repete o jogo inteiro enquanto o jogador responder sim.",
+            "dica": "Para repetir o jogo todo, ele precisa ficar dentro de alguma coisa que repete."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Revisar o texto e salvar em PDF",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Antes de entregar qualquer trabalho, revise. O Word ajuda: um sublinhado vermelho mostra uma possível palavra escrita errado; um sublinhado azul (ou duplo) mostra um possível problema de gramática.",
+          "Na guia Revisão, o botão Ortografia e Gramática (atalho F7) passa por todo o texto e sugere correções. Ali também fica Contar Palavras, útil quando o professor pede um mínimo.",
+          "Salve sempre: Ctrl + S. Dê ao arquivo um nome que diga o que ele é, como trabalho_vacinas_7A_Joana. Nada de documento1 ou final_final_2.",
+          "PDF é um formato que mantém o visual igual em qualquer aparelho: computador, celular, impressora. Para criar: Arquivo > Salvar como > em Tipo, escolha PDF. Guarde também o arquivo do Word (.docx), que é o que dá para editar depois.",
+          "No celular, sem Word, o Documentos Google também faz isso: menu de três pontinhos > Compartilhar e exportar > Salvar como > PDF."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A professora pediu o trabalho em PDF. Qual é o caminho no Word?",
+            "resolucao": "Arquivo > Salvar como > escolher a pasta > em Tipo, escolher PDF > Salvar. Depois, abra o PDF para conferir se ficou certo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O corretor não acha tudo. Se a palavra existe, mas está no lugar errado, ele não marca: \"Vou concertar a bicicleta\" (concerto é apresentação de música; o certo é consertar) ou \"mais\" no lugar de \"mas\". Por isso, leia o texto em voz alta depois de usar o corretor.",
+        "Para um colega revisar, use Revisão > Controlar Alterações: tudo o que ele mudar aparece colorido, e você aceita ou recusa cada mudança. Também dá para deixar comentários na margem sem mexer no texto.",
+        "Fluxo profissional: escrever, revisar com o corretor, ler em voz alta, pedir revisão, aceitar as mudanças, salvar o .docx e, por fim, exportar o PDF para entregar."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google pelo celular), escreva um parágrafo de 5 linhas sobre o seu bairro com 3 erros de propósito, por exemplo \"concertar\", \"mais\" no lugar de \"mas\" e \"nós vai\". Rode a verificação (F7) e anote quais erros ela pegou e quais não pegou. Corrija tudo, use Contar Palavras, salve como bairro_7ano_seunome.docx e depois em PDF. Abra o PDF para conferir se ficou igual.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O sublinhado vermelho no Word mostra:",
+            "alternativas": [
+              "Uma possível palavra escrita errado",
+              "Um título",
+              "Um negrito",
+              "Um link"
+            ],
+            "correta": 0,
+            "explicacao": "Vermelho indica possível erro de ortografia.",
+            "dica": "Pense no que o corretor quer avisar com essa cor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o atalho para salvar?",
+            "alternativas": [
+              "Ctrl + P",
+              "Ctrl + S",
+              "Ctrl + Z",
+              "Ctrl + C"
+            ],
+            "correta": 1,
+            "explicacao": "Ctrl + S salva. Ctrl + P imprime, Ctrl + Z desfaz e Ctrl + C copia.",
+            "dica": "Pense na letra inicial de save, salvar em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o PDF é bom para entregar trabalhos?",
+            "alternativas": [
+              "Muda de formato sozinho",
+              "Só abre no Word",
+              "Mantém o visual igual em qualquer aparelho",
+              "Apaga o texto"
+            ],
+            "correta": 2,
+            "explicacao": "O PDF não bagunça a formatação de um aparelho para outro.",
+            "dica": "Pense no professor abrindo o arquivo no celular dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia fica o botão Ortografia e Gramática?",
+            "alternativas": [
+              "Inserir",
+              "Layout",
+              "Exibir",
+              "Revisão"
+            ],
+            "correta": 3,
+            "explicacao": "As ferramentas de conferir o texto ficam na guia Revisão.",
+            "dica": "O nome da guia combina com o ato de conferir o texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazer antes de entregar o trabalho?",
+            "alternativas": [
+              "Ler o texto todo com atenção",
+              "Apagar o título",
+              "Trocar tudo para letra minúscula",
+              "Fechar sem salvar"
+            ],
+            "correta": 0,
+            "explicacao": "Ler com atenção pega erros que o corretor não vê.",
+            "dica": "Quem revisa encontra erros antes do professor."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a tecla F7 faz no Word?",
+            "alternativas": [
+              "Imprime",
+              "Abre a verificação de ortografia e gramática",
+              "Fecha o documento",
+              "Salva em PDF"
+            ],
+            "correta": 1,
+            "explicacao": "F7 é o atalho para revisar ortografia e gramática.",
+            "dica": "É o atalho do botão que confere o texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o caminho para salvar em PDF?",
+            "alternativas": [
+              "Inserir > Imagem",
+              "Página Inicial > Negrito",
+              "Arquivo > Salvar como > escolher PDF em Tipo",
+              "Exibir > Zoom"
+            ],
+            "correta": 2,
+            "explicacao": "O tipo do arquivo é escolhido na janela Salvar como.",
+            "dica": "Salvar em outro formato começa pela guia Arquivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor nome de arquivo?",
+            "alternativas": [
+              "documento1.pdf",
+              "trabalho final final 2.pdf",
+              "asdfg.pdf",
+              "trabalho_vacinas_7A_Joana.pdf"
+            ],
+            "correta": 3,
+            "explicacao": "Diz o assunto, a turma e o nome do aluno. O professor acha fácil.",
+            "dica": "O nome deve dizer o que é o arquivo e de quem é."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ver quantas palavras o texto tem?",
+            "alternativas": [
+              "Contar Palavras, na guia Revisão",
+              "Ctrl + B",
+              "Na régua",
+              "No zoom"
+            ],
+            "correta": 0,
+            "explicacao": "Contar Palavras mostra palavras, caracteres e parágrafos.",
+            "dica": "A ferramenta fica junto com as de conferir o texto."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o caminho até a entrega:",
+            "itens": [
+              "Escrever o texto",
+              "Rodar a verificação de ortografia",
+              "Ler em voz alta para achar o que o corretor não viu",
+              "Salvar o arquivo editável (.docx)",
+              "Salvar uma cópia em PDF para entregar"
+            ],
+            "explicacao": "Escrever, revisar com a máquina, revisar com o ouvido, salvar o original e só então gerar o PDF.",
+            "dica": "O PDF é a última coisa: ele é a versão pronta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Vou concertar a bicicleta.\" Por que o corretor não marcou erro?",
+            "alternativas": [
+              "Porque \"concerto\" existe (apresentação de música), mas aqui o certo é \"consertar\"",
+              "Porque está certo",
+              "Porque bicicleta está errado",
+              "Porque o corretor quebrou"
+            ],
+            "correta": 0,
+            "explicacao": "O corretor confere se a palavra existe, não se o sentido está certo.",
+            "dica": "A palavra existe no dicionário, mas com outro sentido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que guardar o .docx além do PDF?",
+            "alternativas": [
+              "Porque o PDF some sozinho",
+              "Para poder editar depois; o PDF é para leitura",
+              "Porque o .docx é sempre mais leve",
+              "Não precisa guardar"
+            ],
+            "correta": 1,
+            "explicacao": "Editar um PDF é difícil. O .docx é o original que você pode mudar.",
+            "dica": "Pense em qual dos dois arquivos você consegue mudar facilmente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O professor quer que o trabalho abra igual no celular dele. O que mandar?",
+            "alternativas": [
+              "Uma foto da tela do computador",
+              "Um print de cada página",
+              "O arquivo em PDF",
+              "O texto colado no chat"
+            ],
+            "correta": 2,
+            "explicacao": "O PDF mantém fonte, margens e imagens no lugar em qualquer aparelho.",
+            "dica": "Qual formato não muda o visual de um aparelho para outro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que indica o sublinhado azul ou duplo?",
+            "alternativas": [
+              "Erro de ortografia",
+              "Um link",
+              "Uma imagem",
+              "Possível problema de gramática ou concordância"
+            ],
+            "correta": 3,
+            "explicacao": "O vermelho é ortografia; o azul aponta gramática.",
+            "dica": "O vermelho é para palavras; o azul olha a frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O trabalho pede no mínimo 300 palavras e a contagem mostra 260. Quantas faltam?",
+            "alternativas": [
+              "40",
+              "60",
+              "30",
+              "560"
+            ],
+            "correta": 0,
+            "explicacao": "300 − 260 = 40 palavras.",
+            "dica": "Tire o que você já tem do mínimo pedido."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Eles foi à feira mais não compraram nada.\" Quantos erros o texto tem e quais?",
+            "alternativas": [
+              "Nenhum",
+              "Um: \"foi\" deveria ser \"foram\"",
+              "Dois: \"foi\" deveria ser \"foram\" e \"mais\" deveria ser \"mas\"",
+              "Três: inclui \"à feira\""
+            ],
+            "correta": 2,
+            "explicacao": "\"Eles foram\" (concordância) e \"mas\" (oposição). \"À feira\" está certo, com crase.",
+            "dica": "Confira a concordância do verbo com \"eles\" e veja se a frase indica quantidade ou oposição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve Controlar Alterações?",
+            "alternativas": [
+              "Para apagar tudo",
+              "Para salvar em PDF",
+              "Para mudar a cor da página",
+              "Para mostrar o que o colega mudou, e você aceitar ou recusar"
+            ],
+            "correta": 3,
+            "explicacao": "As mudanças ficam marcadas e você decide uma por uma.",
+            "dica": "Releia o aprofundamento sobre revisão feita por um colega."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um PDF de 3 páginas tem 750 palavras, com a mesma quantidade em cada página. Para chegar a 5 páginas no mesmo ritmo, quantas palavras a mais você escreve?",
+            "alternativas": [
+              "500",
+              "250",
+              "1.250",
+              "750"
+            ],
+            "correta": 0,
+            "explicacao": "750 ÷ 3 = 250 por página. Faltam 2 páginas: 2 × 250 = 500. O 1.250 é o total das 5 páginas.",
+            "dica": "Descubra quantas palavras cabem numa página e quantas páginas faltam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No celular, sem Word, como gerar PDF no Documentos Google?",
+            "alternativas": [
+              "Tirar um print da tela",
+              "Menu de três pontinhos > Compartilhar e exportar > Salvar como > PDF",
+              "Apertar o botão de volume",
+              "Mandar por áudio"
+            ],
+            "correta": 1,
+            "explicacao": "O Documentos Google exporta direto para PDF pelo menu.",
+            "dica": "Procure no menu a opção de exportar o arquivo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a revisão feita por um colega:",
+            "itens": [
+              "Ativar Controlar Alterações",
+              "O colega faz as mudanças e os comentários",
+              "Você aceita ou recusa cada mudança",
+              "Desativar o controle e salvar a versão final",
+              "Exportar em PDF"
+            ],
+            "explicacao": "Liga o controle, o colega revisa, você decide, salva a versão final e gera o PDF.",
+            "dica": "O controle precisa estar ligado antes do colega mexer; o PDF é o último passo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Chamar ajuda: freelancer, MEI e combinado por escrito",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Quando um negócio cresce, chega a hora em que você não dá conta de tudo sozinho. Chamar ajuda é o jeito de multiplicar a produção e fazer bem feito o que você não sabe fazer.",
+          "Freelancer é um profissional contratado para um trabalho específico e pago por serviço: um designer faz o logotipo, um fotógrafo faz as fotos dos produtos, alguém ajuda a embalar numa semana de muitos pedidos.",
+          "MEI (microempreendedor individual) é uma pequena empresa de uma pessoa só, com CNPJ, que pode emitir nota fiscal. Contratar um MEI para um serviço é contratar outra empresa, com nota e tudo certo.",
+          "Todo trabalho combinado deve ficar por escrito, mesmo que seja numa mensagem: o que será feito, o prazo, o preço, como e quando será pago e o que acontece se atrasar. Combinado por escrito evita briga e protege os dois lados.",
+          "Pague o justo, em dia, e trate bem quem trabalha com você. Bons profissionais voltam e indicam você para outros. E lembre: pela lei, só se pode trabalhar a partir dos 16 anos, ou a partir dos 14 como jovem aprendiz."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Duda vende bolos de pote e quer fotos bonitas para o perfil. Como fazer o combinado com um fotógrafo freelancer?",
+            "resolucao": "Por escrito: \"20 fotos dos bolos, entrega em 7 dias, R$ 200, metade no início e metade na entrega, com uma rodada de ajustes\". Assim os dois sabem exatamente o que esperar."
+          },
+          {
+            "enunciado": "Sozinho, Léo faz 100 brigadeiros por dia com lucro de R$ 1 cada. Com um ajudante pago a R$ 60 por dia, faz 220. Vale a pena?",
+            "resolucao": "Sem ajudante: R$ 100 de lucro. Com ajudante: 220 − 60 = R$ 160. Vale a pena: o lucro sobe R$ 60, e o ajudante recebe um valor justo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cuidado com o \"freelancer\" que é empregado disfarçado. Se a pessoa trabalha todo dia, tem horário fixo, recebe ordens e salário todo mês, na prática é um empregado e precisa ser registrado pela CLT. Chamar de freelancer não muda isso, e o risco é processo trabalhista, multa e ter que pagar tudo atrasado.",
+        "O MEI pode registrar até 1 empregado. Contratar outro MEI para serviços frequentes também é possível, desde que seja serviço de verdade, com nota, e não um emprego disfarçado.",
+        "Barato pode sair caro: um profissional que cobra menos, mas atrasa e precisa refazer, faz você perder vendas. Compare preço, qualidade, prazo e o que outros clientes dizem. Um bom combinado também prevê o que acontece em atraso, como um desconto por dia."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um freelancer?",
+            "alternativas": [
+              "Profissional contratado para um trabalho específico, pago por serviço",
+              "Empregado com carteira assinada",
+              "Sócio dono do negócio",
+              "Cliente da loja"
+            ],
+            "correta": 0,
+            "explicacao": "Ele faz um serviço combinado e recebe por esse serviço.",
+            "dica": "Pense em alguém chamado para fazer um trabalho só, como um logotipo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o combinado por escrito?",
+            "alternativas": [
+              "Para enfeitar",
+              "Para evitar briga: todos sabem o que foi combinado",
+              "Para gastar papel",
+              "Para não pagar"
+            ],
+            "correta": 1,
+            "explicacao": "O que está escrito não depende da memória de ninguém.",
+            "dica": "Pense em duas pessoas lembrando de jeitos diferentes do que foi falado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que não pode faltar no combinado?",
+            "alternativas": [
+              "A cor da caneta",
+              "O nome do cachorro",
+              "O serviço, o prazo e o preço",
+              "A música favorita"
+            ],
+            "correta": 2,
+            "explicacao": "Esses são os pontos que mais geram briga quando não estão claros.",
+            "dica": "O que será feito, até quando e por quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o MEI tem?",
+            "alternativas": [
+              "Só o RG",
+              "Nada",
+              "Um diploma",
+              "CNPJ e pode emitir nota fiscal"
+            ],
+            "correta": 3,
+            "explicacao": "O MEI é uma empresa de verdade, pequena, de uma pessoa só.",
+            "dica": "MEI é uma empresa. O que toda empresa tem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como pagar quem trabalhou para você?",
+            "alternativas": [
+              "Em dia e no valor combinado",
+              "Quando der vontade",
+              "Pela metade",
+              "Nunca"
+            ],
+            "correta": 0,
+            "explicacao": "Pagar certo e em dia faz os bons profissionais voltarem.",
+            "dica": "Pense em como você gostaria de receber pelo seu trabalho."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Luana vende bolos e precisa de um logotipo. Qual é a melhor saída?",
+            "alternativas": [
+              "Registrar um designer pela CLT para o ano todo",
+              "Contratar um freelancer de design para esse serviço",
+              "Copiar o logotipo de outra loja",
+              "Nunca ter logotipo"
+            ],
+            "correta": 1,
+            "explicacao": "É um trabalho pontual. Copiar o logotipo de outra loja é proibido.",
+            "dica": "O logotipo é um trabalho que se faz uma vez ou o ano todo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O combinado com o fotógrafo é R$ 200, metade antes e metade na entrega. Quanto se paga na entrega?",
+            "alternativas": [
+              "R$ 200",
+              "R$ 50",
+              "R$ 100",
+              "R$ 150"
+            ],
+            "correta": 2,
+            "explicacao": "Metade de 200 é 100: R$ 100 antes e R$ 100 na entrega.",
+            "dica": "O valor total foi dividido em duas partes iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa trabalha todo dia na sua loja, das 8h às 17h, recebe ordens e salário mensal, mas você a chama de freelancer. Na verdade, ela é:",
+            "alternativas": [
+              "Freelancer normal",
+              "Sócia",
+              "Estagiária automática",
+              "Uma empregada, que precisa de registro pela CLT"
+            ],
+            "correta": 3,
+            "explicacao": "Horário fixo, ordens e salário mensal mostram que é emprego. O nome não muda a realidade.",
+            "dica": "Repare no horário, nas ordens e no salário. Isso é serviço pontual?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela lei, qual é a idade mínima para trabalhar, fora o jovem aprendiz a partir dos 14?",
+            "alternativas": [
+              "16 anos",
+              "10 anos",
+              "12 anos",
+              "21 anos"
+            ],
+            "correta": 0,
+            "explicacao": "A Constituição proíbe trabalho antes dos 16, a não ser como aprendiz a partir dos 14.",
+            "dica": "É uma idade em que o aluno costuma estar no ensino médio."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para contratar um freelancer:",
+            "itens": [
+              "Definir o que precisa ser feito",
+              "Pedir orçamento a mais de um profissional",
+              "Escrever o combinado: serviço, prazo, preço e pagamento",
+              "Acompanhar e receber o trabalho",
+              "Pagar em dia o valor combinado"
+            ],
+            "explicacao": "Saber o que quer, comparar, combinar por escrito, acompanhar e pagar.",
+            "dica": "Antes de combinar é preciso saber o que quer; pagar vem no final."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Sozinho, você faz 100 brigadeiros por dia com lucro de R$ 1 cada. Com um ajudante a R$ 60 por dia, faz 220. Qual é o novo lucro por dia?",
+            "alternativas": [
+              "R$ 220",
+              "R$ 160",
+              "R$ 120",
+              "R$ 100"
+            ],
+            "correta": 1,
+            "explicacao": "220 × R$ 1 = 220; tirando os R$ 60 do ajudante, sobram R$ 160. Esquecer o pagamento do ajudante dá R$ 220.",
+            "dica": "Calcule o lucro dos brigadeiros e desconte o pagamento do ajudante."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o combinado escrito deve ter o prazo?",
+            "alternativas": [
+              "Para saber até quando o trabalho fica pronto e o que acontece se atrasar",
+              "Só para enfeitar",
+              "Para pagar menos sempre",
+              "Não precisa ter prazo"
+            ],
+            "correta": 0,
+            "explicacao": "Sem prazo, ninguém pode cobrar atraso e o seu negócio pode perder vendas.",
+            "dica": "Pense no que acontece com suas vendas se o trabalho demorar demais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Combinado: R$ 300, com desconto de R$ 10 por dia de atraso. O profissional atrasou 4 dias. Quanto você paga?",
+            "alternativas": [
+              "R$ 290",
+              "R$ 340",
+              "R$ 260",
+              "R$ 40"
+            ],
+            "correta": 2,
+            "explicacao": "4 × 10 = 40 de desconto. 300 − 40 = 260. Como estava escrito, ninguém briga.",
+            "dica": "Calcule o desconto total e tire do valor combinado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o risco de não registrar quem é, na prática, um empregado?",
+            "alternativas": [
+              "Nenhum",
+              "Ganhar um prêmio",
+              "Pagar menos para sempre, sem problema",
+              "Processo trabalhista, multa e ter que pagar tudo atrasado"
+            ],
+            "correta": 3,
+            "explicacao": "A Justiça olha como o trabalho funciona de verdade, não o nome dado.",
+            "dica": "Pense no que acontece quando a pessoa procura a Justiça do Trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um freelancer cobra R$ 150 e entrega em dia. Outro cobra R$ 100, mas atrasa e refaz duas vezes. Qual raciocínio está certo?",
+            "alternativas": [
+              "O mais barato é sempre melhor",
+              "Preço baixo pode sair caro: conta também qualidade, prazo e retrabalho",
+              "Nunca contratar ninguém",
+              "Contratar os dois e não pagar um"
+            ],
+            "correta": 1,
+            "explicacao": "O atraso e o retrabalho custam vendas e tempo, que valem dinheiro.",
+            "dica": "Além do preço, quanto custam o atraso e o retrabalho?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas lucra R$ 15 por camiseta e faz 20 por semana. Contrata uma costureira MEI que cobra R$ 5 por camiseta e faz mais 40 por semana. Qual é o lucro semanal total?",
+            "alternativas": [
+              "R$ 900",
+              "R$ 600",
+              "R$ 700",
+              "R$ 500"
+            ],
+            "correta": 2,
+            "explicacao": "As dele: 20 × 15 = 300. As da costureira: 40 × (15 − 5) = 400. Total: R$ 700. O R$ 900 esquece o pagamento dela.",
+            "dica": "Separe as camisetas de Lucas e as da costureira, e desconte o que ela cobra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos empregados registrados um MEI pode ter?",
+            "alternativas": [
+              "Nenhum",
+              "1",
+              "10",
+              "Quantos quiser"
+            ],
+            "correta": 1,
+            "explicacao": "O MEI pode registrar 1 empregado. Para crescer mais, a empresa muda de tipo.",
+            "dica": "Lembre o aprofundamento: é um número bem pequeno, mas não é zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinado está mais completo?",
+            "alternativas": [
+              "\"Site de 3 páginas, entrega em 15/03, R$ 600, metade na assinatura e metade na entrega, com 2 rodadas de ajustes\"",
+              "\"Faz o site aí que depois a gente vê\"",
+              "\"Site barato e rápido\"",
+              "\"Faz como quiser\""
+            ],
+            "correta": 0,
+            "explicacao": "Tem serviço, prazo, preço, forma de pagamento e ajustes. Os outros abrem espaço para briga.",
+            "dica": "Procure o que responde o quê, até quando, quanto e como paga."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é liderar bem quem te ajuda?",
+            "alternativas": [
+              "Gritar para trabalharem mais rápido",
+              "Atrasar o pagamento para ganhar juros",
+              "Mudar o combinado sem avisar",
+              "Pagar o justo e em dia, explicar bem a tarefa e tratar com respeito"
+            ],
+            "correta": 3,
+            "explicacao": "Respeito e pagamento certo mantêm os bons profissionais e evitam processo.",
+            "dica": "Pense em qual atitude faz um bom profissional querer voltar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem como um negócio costuma crescer, do mais simples ao mais fixo:",
+            "itens": [
+              "Fazer tudo sozinho",
+              "Chamar um freelancer para tarefas pontuais",
+              "Contratar um MEI para um serviço frequente, com nota fiscal",
+              "Registrar um empregado pela CLT quando o trabalho vira rotina, com horário e ordens"
+            ],
+            "explicacao": "Do sozinho ao pontual, do serviço frequente com nota ao emprego registrado.",
+            "dica": "Vá do mais simples e pontual até o vínculo mais fixo e com mais deveres."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Duda chamou reforço",
+    "texto": "Duda começou vendendo bolo de pote na porta da escola da irmã. Em três meses, as encomendas pelo celular passaram de dez para quarenta por semana, e ela não dava mais conta de cozinhar, embalar e entregar.\n\nA mãe sugeriu chamar a vizinha, dona Célia, que é MEI e faz doces há anos.\n\n— Mas como eu combino sem dar confusão? — perguntou Duda.\n\nSentaram as três na mesa da cozinha e escreveram numa folha: dona Célia prepara a massa de 30 potes por semana, entrega na quinta até as 14h, recebe R$ 4 por pote, pagamento toda sexta pelo Pix, com nota. Se atrasar, avisa com um dia de antecedência.\n\nCada uma ficou com uma foto do papel.\n\nNa primeira semana, Duda percebeu que sobrava tempo para responder clientes e criar sabores novos. Na quarta, as vendas tinham subido mais um pouco.\n\nNuma sexta, dona Célia comentou:\n\n— Gosto de trabalhar com você, menina. Paga no dia certo e explica direitinho o que quer.\n\nDuda guardou a frase como um troféu."
+  },
+  "escrita": {
+    "proposta": "Imagine que você tem um pequeno negócio e precisa de ajuda. Escreva de 5 a 10 linhas com o combinado por escrito: quem vai ajudar, o que vai fazer, o prazo, o preço, como e quando será pago e o que acontece se houver atraso."
+  }
+}

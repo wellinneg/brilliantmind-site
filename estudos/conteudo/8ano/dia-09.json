@@ -1,0 +1,1195 @@
+{
+  "dia": 9,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Porcentagem: aumento e desconto",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Porcentagem é uma fração de denominador 100. 20% = 20/100 = 0,20. Para calcular 20% de R$ 150,00, fazemos 0,20 × 150 = R$ 30,00.",
+          "Para dar um desconto, podemos calcular o desconto e subtrair, ou usar o fator: com 20% de desconto, você paga 80% do preço. Então o preço final é 0,80 × preço.",
+          "No aumento é parecido: com 15% de aumento, o novo preço é 115% do antigo. Fator: 1,15. Uma passagem de R$ 4,00 com 15% de aumento vai para 1,15 × 4 = R$ 4,60.",
+          "Para descobrir de quanto foi o aumento ou o desconto em porcentagem, divida a diferença pelo valor ANTIGO. Se algo foi de R$ 50,00 para R$ 60,00, a diferença é 10, e 10 ÷ 50 = 0,20 = 20% de aumento.",
+          "Cuidado com aumentos e descontos seguidos: eles não se cancelam. Um aumento de 10% seguido de um desconto de 10% não volta ao preço original, porque o desconto é calculado sobre um valor maior."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma mochila custava R$ 120,00, subiu 10% e depois entrou numa promoção de 10% de desconto. Qual é o preço final?",
+            "resolucao": "Aumento: 1,10 × 120 = R$ 132,00. Desconto: 0,90 × 132 = R$ 118,80. O preço final é menor que o original: 1,10 × 0,90 = 0,99, ou seja, 1% a menos."
+          },
+          {
+            "enunciado": "Um celular de R$ 900,00 está com 15% de desconto no Pix. Quanto fica?",
+            "resolucao": "Fator do desconto: 1 − 0,15 = 0,85. Preço: 0,85 × 900 = R$ 765,00."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Descontos seguidos se multiplicam, não se somam. Um desconto de 10% seguido de outro de 20% dá o fator 0,90 × 0,80 = 0,72: você paga 72% e o desconto total é de 28%, e não de 30%.",
+        "Para descobrir o preço ANTES de um desconto, divida pelo fator. Se depois de 20% de desconto algo saiu por R$ 80,00, o preço original era 80 ÷ 0,80 = R$ 100,00. Somar 20% de 80 (dando R$ 96,00) é o erro comum, porque o desconto foi calculado sobre o preço original.",
+        "Cuidado com “pontos percentuais”. Se uma taxa passou de 10% para 12%, ela subiu 2 pontos percentuais. Mas, em relação ao valor anterior, isso é um aumento de 20%, porque 2 ÷ 10 = 0,20."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "20% é o mesmo que:",
+            "alternativas": [
+              "20/100",
+              "20/10",
+              "2/100",
+              "200/100"
+            ],
+            "correta": 0,
+            "explicacao": "Porcentagem é uma fração de denominador 100: 20% = 20/100 = 0,20.",
+            "dica": "Porcentagem é uma fração com denominador 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10% de R$ 50,00?",
+            "alternativas": [
+              "R$ 10,00",
+              "R$ 5,00",
+              "R$ 0,50",
+              "R$ 40,00"
+            ],
+            "correta": 1,
+            "explicacao": "10% é a décima parte: 50 ÷ 10 = R$ 5,00.",
+            "dica": "10% é a décima parte: divida por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 30% de desconto, você paga quantos por cento do preço?",
+            "alternativas": [
+              "30%",
+              "130%",
+              "70%",
+              "3%"
+            ],
+            "correta": 2,
+            "explicacao": "100% − 30% = 70%. Você paga 70% e economiza 30%.",
+            "dica": "Tire o desconto de 100%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num aumento de 10%, o fator é:",
+            "alternativas": [
+              "0,10",
+              "0,90",
+              "10",
+              "1,10"
+            ],
+            "correta": 3,
+            "explicacao": "O preço novo é 100% + 10% = 110% do antigo, ou seja, 1,10.",
+            "dica": "O preço novo é o antigo inteiro mais o aumento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caderno de R$ 20,00 está com 50% de desconto. Quanto fica?",
+            "alternativas": [
+              "R$ 10,00",
+              "R$ 15,00",
+              "R$ 5,00",
+              "R$ 19,50"
+            ],
+            "correta": 0,
+            "explicacao": "50% é a metade: 20 ÷ 2 = R$ 10,00.",
+            "dica": "50% é a metade do preço."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um tênis de R$ 250,00 tem 20% de desconto. Qual é o preço final?",
+            "alternativas": [
+              "R$ 230,00",
+              "R$ 200,00",
+              "R$ 50,00",
+              "R$ 300,00"
+            ],
+            "correta": 1,
+            "explicacao": "Com 20% de desconto, pagamos 80%: 0,80 × 250 = R$ 200,00. O desconto em si é R$ 50,00.",
+            "dica": "Com 20% de desconto, você paga só uma parte do preço. Qual?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A passagem de ônibus custava R$ 4,40 e teve aumento de 25%. Qual é o novo preço?",
+            "alternativas": [
+              "R$ 5,50",
+              "R$ 4,65",
+              "R$ 1,10",
+              "R$ 6,60"
+            ],
+            "correta": 0,
+            "explicacao": "Fator de aumento: 1,25. Então 1,25 × 4,40 = R$ 5,50. O aumento foi de R$ 1,10.",
+            "dica": "Um aumento de 25% faz o preço virar 125% do antigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto passou de R$ 80,00 para R$ 92,00. De quanto foi o aumento?",
+            "alternativas": [
+              "12%",
+              "13%",
+              "92%",
+              "15%"
+            ],
+            "correta": 3,
+            "explicacao": "A diferença é 92 − 80 = 12. Dividimos pelo valor antigo: 12 ÷ 80 = 0,15 = 15%.",
+            "dica": "Divida a diferença pelo valor ANTIGO."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um preço de R$ 100,00 sobe 10% e depois cai 10%. Quanto fica?",
+            "alternativas": [
+              "R$ 100,00",
+              "R$ 101,00",
+              "R$ 99,00",
+              "R$ 90,00"
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro 1,10 × 100 = 110. Depois 0,90 × 110 = 99. O desconto de 10% foi calculado sobre 110, por isso não volta para 100.",
+            "dica": "O desconto é calculado sobre o preço que já foi aumentado."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular um preço com 30% de desconto usando o fator:",
+            "itens": [
+              "Escrever a porcentagem como decimal: 0,30",
+              "Calcular o fator: 1 − 0,30 = 0,70",
+              "Multiplicar o preço pelo fator",
+              "Conferir se o resultado é menor que o preço original"
+            ],
+            "explicacao": "Transformamos a porcentagem em decimal, achamos quanto vamos pagar (70%), multiplicamos e conferimos: num desconto, o resultado precisa ser menor.",
+            "dica": "Comece transformando a porcentagem em número decimal."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um fone de R$ 80,00 subiu 15%. Qual é o novo preço?",
+            "alternativas": [
+              "R$ 95,00",
+              "R$ 92,00",
+              "R$ 12,00",
+              "R$ 68,00"
+            ],
+            "correta": 1,
+            "explicacao": "1,15 × 80 = R$ 92,00. R$ 12,00 é só o aumento; R$ 68,00 seria um desconto.",
+            "dica": "Use o fator do aumento: 1 mais a porcentagem em decimal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma calça foi de R$ 120,00 para R$ 90,00. De quanto foi o desconto?",
+            "alternativas": [
+              "30%",
+              "33%",
+              "25%",
+              "75%"
+            ],
+            "correta": 2,
+            "explicacao": "Diferença: 30. Sobre o preço antigo: 30 ÷ 120 = 0,25 = 25%. Dividir por 90 daria cerca de 33%, o erro comum.",
+            "dica": "Divida a diferença pelo preço antigo, não pelo novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na loja A, a bicicleta custa R$ 500,00 com 20% de desconto. Na loja B, custa R$ 450,00 com 10% de desconto. Qual sai mais barata, e por quanto?",
+            "alternativas": [
+              "A, por R$ 5,00",
+              "B, por R$ 5,00",
+              "As duas custam igual",
+              "A, por R$ 50,00"
+            ],
+            "correta": 0,
+            "explicacao": "A: 0,80 × 500 = 400. B: 0,90 × 450 = 405. A loja A sai R$ 5,00 mais barata.",
+            "dica": "Calcule o preço final em cada loja antes de comparar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um salário de R$ 1 500,00 teve reajuste de 6%. Qual é o novo salário?",
+            "alternativas": [
+              "R$ 1 506,00",
+              "R$ 1 600,00",
+              "R$ 1 560,00",
+              "R$ 1 590,00"
+            ],
+            "correta": 3,
+            "explicacao": "6% de 1 500 = 90. Novo salário: 1 500 + 90 = R$ 1 590,00 (ou 1,06 × 1 500).",
+            "dica": "Calcule 6% de 1 500 e some ao salário, ou use o fator do aumento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Partindo de R$ 100,00, ordene do MENOR para o MAIOR preço final:",
+            "itens": [
+              "Desconto de 25%",
+              "Dois descontos seguidos de 10%",
+              "Aumento de 10% e depois desconto de 10%",
+              "Preço sem alteração"
+            ],
+            "explicacao": "25% de desconto: R$ 75,00. Dois de 10%: 0,9 × 0,9 × 100 = R$ 81,00. Aumento e desconto de 10%: R$ 99,00. Sem alteração: R$ 100,00.",
+            "dica": "Calcule cada caso com os fatores. Dois descontos de 10% não dão o mesmo que um de 20%."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois descontos seguidos, de 10% e depois de 20%, equivalem a um desconto único de:",
+            "alternativas": [
+              "30%",
+              "28%",
+              "15%",
+              "72%"
+            ],
+            "correta": 1,
+            "explicacao": "Fatores: 0,90 × 0,80 = 0,72. Você paga 72%, então o desconto total é 28%. Somar dá 30%, o erro comum; 72% é o que se paga.",
+            "dica": "Multiplique os fatores dos dois descontos e veja quanto falta para 100%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de um desconto de 20%, um tênis saiu por R$ 160,00. Qual era o preço original?",
+            "alternativas": [
+              "R$ 192,00",
+              "R$ 180,00",
+              "R$ 200,00",
+              "R$ 128,00"
+            ],
+            "correta": 2,
+            "explicacao": "R$ 160,00 é 80% do original: 160 ÷ 0,80 = R$ 200,00. Somar 20% de 160 dá R$ 192,00, que está errado.",
+            "dica": "R$ 160,00 corresponde a 80% do preço. Divida pelo fator em vez de somar 20%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto subiu 25%. Que desconto faz ele voltar exatamente ao preço original?",
+            "alternativas": [
+              "25%",
+              "30%",
+              "15%",
+              "20%"
+            ],
+            "correta": 3,
+            "explicacao": "De R$ 100,00 foi para R$ 125,00. Para voltar a 100, tira 25 de 125: 25 ÷ 125 = 0,20 = 20%.",
+            "dica": "Imagine o preço de R$ 100,00. Quanto fica após o aumento? Que fração do novo valor precisa sair?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A taxa de desemprego de uma cidade passou de 10% para 12%. Qual frase está correta?",
+            "alternativas": [
+              "Subiu 2 pontos percentuais, o que é um aumento de 20% em relação à taxa anterior",
+              "Subiu 2%, e nada mais",
+              "Subiu 12 pontos percentuais",
+              "Subiu 20 pontos percentuais"
+            ],
+            "correta": 0,
+            "explicacao": "12 − 10 = 2 pontos percentuais. Em relação ao valor anterior: 2 ÷ 10 = 20% de aumento.",
+            "dica": "Releia o aprofundamento sobre pontos percentuais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja aumenta um preço em 50% e depois anuncia “50% de desconto”. Comparado ao preço antes do aumento, o cliente paga:",
+            "alternativas": [
+              "O mesmo preço",
+              "25% a menos",
+              "50% a menos",
+              "25% a mais"
+            ],
+            "correta": 1,
+            "explicacao": "1,50 × 0,50 = 0,75. O cliente paga 75% do preço inicial, ou seja, 25% a menos, e não metade como parece.",
+            "dica": "Multiplique os dois fatores e compare o resultado com 1."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Repetição (laços)",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Laços (ou loops) fazem o programa repetir um bloco de comandos. Existem dois tipos principais: o laço com contagem (PARA) e o laço com condição (ENQUANTO).",
+          "O laço PARA é usado quando sabemos quantas vezes repetir: PARA i DE 1 ATÉ 10: mostrar i. Em Python: for i in range(1, 11): print(i). A variável i é o contador e muda a cada volta.",
+          "O laço ENQUANTO repete enquanto uma condição for verdadeira: ENQUANTO saldo > 0: gastar 5. Em Python: while saldo > 0: saldo = saldo - 5. Ele é útil quando não sabemos quantas voltas vão ser necessárias.",
+          "Um padrão muito comum é o acumulador: uma variável que começa em zero e vai somando valores a cada volta. É assim que um programa soma todos os gastos de uma lista.",
+          "Todo laço ENQUANTO precisa de algo que, em algum momento, torne a condição falsa. Se nada mudar, temos um laço infinito e o programa trava."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Qual é o valor final de soma? soma = 0; PARA i DE 1 ATÉ 4: soma = soma + i",
+            "resolucao": "Volta 1: soma = 0 + 1 = 1. Volta 2: 1 + 2 = 3. Volta 3: 3 + 3 = 6. Volta 4: 6 + 4 = 10. Resultado: 10."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um laço pode andar de 2 em 2 ou para trás. Em Python, range(0, 10, 2) gera 0, 2, 4, 6 e 8, e range(10, 0, -3) gera 10, 7, 4 e 1. O terceiro número é o passo, e o range sempre para ANTES do segundo número.",
+        "Um laço pode ficar dentro de outro (laços aninhados). Para cada volta do laço de fora, o de dentro dá todas as suas voltas. Uma tabuada de 1 a 10 com cada número de 1 a 10 executa 10 × 10 = 100 vezes.",
+        "O laço ENQUANTO testa a condição ANTES de cada volta. Se ela já começa falsa, o laço roda zero vezes. Além do acumulador (que soma), existe o contador (que soma 1 a cada vez) e a variável que guarda o maior valor visto até agora."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um laço?",
+            "alternativas": [
+              "Para repetir comandos",
+              "Para apagar o programa",
+              "Para desenhar na tela",
+              "Para desligar o computador"
+            ],
+            "correta": 0,
+            "explicacao": "Laços fazem o programa repetir um bloco de comandos.",
+            "dica": "Releia a primeira frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual laço usamos quando SABEMOS quantas vezes repetir?",
+            "alternativas": [
+              "ENQUANTO",
+              "PARA",
+              "SE",
+              "SENÃO"
+            ],
+            "correta": 1,
+            "explicacao": "O laço PARA conta as voltas. ENQUANTO é para quando não sabemos quantas serão.",
+            "dica": "Releia o 2º parágrafo: é o laço com contagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "PARA i DE 1 ATÉ 3: mostrar i. O que aparece?",
+            "alternativas": [
+              "3",
+              "1 e 3",
+              "1, 2 e 3",
+              "0, 1 e 2"
+            ],
+            "correta": 2,
+            "explicacao": "O contador vale 1, depois 2, depois 3, e cada valor é mostrado.",
+            "dica": "O contador começa no 1 e vai até o 3, de um em um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um laço que nunca termina se chama:",
+            "alternativas": [
+              "Laço curto",
+              "Laço duplo",
+              "Laço certo",
+              "Laço infinito"
+            ],
+            "correta": 3,
+            "explicacao": "Se nada torna a condição falsa, o laço é infinito e o programa trava.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com que valor começa o acumulador que vai somar uma lista?",
+            "alternativas": [
+              "0",
+              "1",
+              "10",
+              "O último valor da lista"
+            ],
+            "correta": 0,
+            "explicacao": "O acumulador começa em zero e vai somando os valores a cada volta.",
+            "dica": "Antes de somar qualquer coisa, quanto você tem?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor final de total? total = 0; PARA i DE 1 ATÉ 5: total = total + i",
+            "alternativas": [
+              "5",
+              "10",
+              "15",
+              "20"
+            ],
+            "correta": 2,
+            "explicacao": "O acumulador soma 1 + 2 + 3 + 4 + 5 = 15.",
+            "dica": "Some os números de 1 até 5, um de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes o comando dentro de for i in range(5) é executado em Python?",
+            "alternativas": [
+              "5 vezes",
+              "4 vezes",
+              "6 vezes",
+              "Infinitas vezes"
+            ],
+            "correta": 0,
+            "explicacao": "range(5) gera os números 0, 1, 2, 3 e 4: cinco valores, então são 5 voltas.",
+            "dica": "O range(5) começa no 0 e para antes do 5. Conte os valores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 1; ENQUANTO x < 20: x = x × 2. Qual é o valor final de x?",
+            "alternativas": [
+              "16",
+              "20",
+              "64",
+              "32"
+            ],
+            "correta": 3,
+            "explicacao": "x vale 1, 2, 4, 8, 16. Como 16 < 20, dobra mais uma vez e vira 32. Como 32 não é menor que 20, o laço para.",
+            "dica": "Escreva o valor de x a cada volta e pare quando a condição ficar falsa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes laços é infinito?",
+            "alternativas": [
+              "n = 10; ENQUANTO n > 0: n = n − 1",
+              "n = 5; ENQUANTO n > 0: mostrar n",
+              "PARA i DE 1 ATÉ 3: mostrar i",
+              "n = 0; ENQUANTO n < 3: n = n + 1"
+            ],
+            "correta": 1,
+            "explicacao": "Nesse laço, n nunca muda: continua 5 para sempre, então n > 0 é sempre verdadeiro. Nos outros, a variável muda até a condição ficar falsa.",
+            "dica": "Procure o laço em que a variável da condição nunca muda."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Monte, na ordem certa, o programa que soma os gastos de uma lista:",
+            "itens": [
+              "total = 0",
+              "PARA cada gasto na lista:",
+              "total = total + gasto",
+              "Depois do laço, mostrar total"
+            ],
+            "explicacao": "O acumulador começa em zero antes do laço; dentro do laço ele soma cada gasto; só depois que o laço termina mostramos o resultado.",
+            "dica": "O acumulador começa antes do laço; mostrar o resultado vem depois que o laço termina."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "soma = 0; PARA i DE 2 ATÉ 6: soma = soma + i. Qual é o valor final de soma?",
+            "alternativas": [
+              "14",
+              "20",
+              "18",
+              "21"
+            ],
+            "correta": 1,
+            "explicacao": "2 + 3 + 4 + 5 + 6 = 20.",
+            "dica": "Liste os valores que i assume e some todos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "n = 10; ENQUANTO n > 0: n = n − 3. Quantas voltas o laço dá?",
+            "alternativas": [
+              "3",
+              "5",
+              "4",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "n vale 10 → 7 → 4 → 1 → −2. Foram 4 voltas; com −2, a condição fica falsa.",
+            "dica": "Escreva o valor de n a cada volta e conte até a condição ficar falsa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes aparece “oi”? for i in range(2, 8): print(\"oi\")",
+            "alternativas": [
+              "6",
+              "8",
+              "7",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "range(2, 8) gera 2, 3, 4, 5, 6 e 7: seis valores.",
+            "dica": "O range começa no 2 e para antes do 8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cofre = 0; semanas = 0; ENQUANTO cofre < 100: cofre = cofre + 15; semanas = semanas + 1. Qual é o valor final de semanas?",
+            "alternativas": [
+              "6",
+              "100",
+              "8",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "cofre: 15, 30, 45, 60, 75, 90, 105. Com 90 ainda é menor que 100 e dá mais uma volta; com 105 para. São 7 semanas.",
+            "dica": "Some 15 de cada vez e conte as semanas até o valor deixar de ser menor que 100."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Monte o programa que conta quantas notas de uma lista são maiores ou iguais a 6:",
+            "itens": [
+              "aprovados = 0",
+              "PARA cada nota na lista:",
+              "SE nota >= 6 ENTÃO aprovados = aprovados + 1",
+              "Depois do laço, mostrar aprovados"
+            ],
+            "explicacao": "O contador começa em zero antes do laço, o teste fica dentro do laço e o resultado é mostrado no fim.",
+            "dica": "O contador começa antes; o teste fica dentro do laço; mostrar vem depois."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes o comando de dentro é executado? PARA i DE 1 ATÉ 4: PARA j DE 1 ATÉ 3: mostrar i × j",
+            "alternativas": [
+              "7",
+              "4",
+              "12",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "O laço de fora dá 4 voltas e, em cada uma, o de dentro dá 3: 4 × 3 = 12. Somar (7) é o erro comum.",
+            "dica": "Para cada volta do laço de fora, o de dentro dá todas as suas voltas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 50; ENQUANTO x < 10: x = x + 1. Quantas voltas o laço dá?",
+            "alternativas": [
+              "0",
+              "40",
+              "1",
+              "Infinitas"
+            ],
+            "correta": 0,
+            "explicacao": "A condição 50 < 10 já começa falsa, então o laço não roda nenhuma vez.",
+            "dica": "Teste a condição antes da primeira volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra for i in range(10, 0, -3): print(i)?",
+            "alternativas": [
+              "10, 7, 4, 1, −2",
+              "10, 7, 4, 1",
+              "9, 6, 3",
+              "10, 7, 4"
+            ],
+            "correta": 1,
+            "explicacao": "Começa no 10 e desce de 3 em 3: 10, 7, 4, 1. O próximo seria −2, que já passou do 0, então para.",
+            "dica": "O terceiro número é o passo. O range para antes de chegar ao segundo número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "p = 1; PARA i DE 1 ATÉ 5: p = p × 2. Qual é o valor final de p?",
+            "alternativas": [
+              "10",
+              "16",
+              "64",
+              "32"
+            ],
+            "correta": 3,
+            "explicacao": "p dobra 5 vezes: 2, 4, 8, 16, 32. Isso é 2⁵ = 32.",
+            "dica": "Comece em 1 e dobre o valor cinco vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gastos: 12, 7, 30, 5. Programa: maior = 0; PARA cada g: SE g > maior ENTÃO maior = g. No fim, maior vale:",
+            "alternativas": [
+              "30",
+              "5",
+              "12",
+              "54"
+            ],
+            "correta": 0,
+            "explicacao": "maior: 0 → 12 → 12 (7 não é maior) → 30 → 30 (5 não é maior). Resultado: 30. 54 seria a soma, não o maior.",
+            "dica": "Acompanhe o valor de maior a cada volta: ele só muda quando aparece um número maior."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Trabalho escolar com capa e títulos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um trabalho escolar bem apresentado costuma ter: capa, sumário (para trabalhos maiores), introdução, desenvolvimento, conclusão e referências (de onde você tirou as informações).",
+          "A capa traz, de cima para baixo: nome da escola, nome do aluno, turma, título do trabalho (no meio da página, em destaque) e, no rodapé, cidade e ano. Tudo centralizado.",
+          "Depois da capa, use Inserir > Quebra de Página. Assim, o resto do trabalho sempre começa na página seguinte, mesmo que você mexa no texto da capa.",
+          "Use os Estilos para os títulos das seções: “Título 1” para Introdução, Desenvolvimento e Conclusão; “Título 2” para partes dentro delas. Com os estilos, o Word consegue criar o sumário automático em Referências > Sumário.",
+          "Para finalizar, coloque número de página em Inserir > Número de Página e use uma fonte fácil de ler, como Arial ou Calibri tamanho 12, com espaçamento de 1,5 entre linhas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você fez um trabalho sobre energia elétrica com três partes. Como organizar os títulos?",
+            "resolucao": "Título 1: Introdução. Título 1: Desenvolvimento, com Título 2: “Como a energia chega em casa” e Título 2: “Como economizar”. Título 1: Conclusão. Título 1: Referências. Depois, o sumário automático lista tudo com as páginas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O sumário automático não muda sozinho a cada alteração. Depois de mexer no texto, clique no sumário e use “Atualizar Sumário” para corrigir títulos e páginas.",
+        "Para numerar as páginas sem mostrar o número na capa, abra o cabeçalho ou rodapé e marque “Primeira Página Diferente”. Assim a capa fica limpa e a contagem continua nas outras páginas.",
+        "Copiar um texto de outra pessoa sem dizer de onde veio é plágio. Se usar um trecho, coloque-o entre aspas e cite a fonte nas Referências. Na hora de entregar, salve em PDF (Arquivo > Salvar como > PDF): o visual fica igual em qualquer aparelho."
+      ],
+      "desafio_pratico": "No Word (celular ou PC), monte a estrutura de um trabalho sobre um tema que você está estudando. Página 1: capa com escola, seu nome, turma, título centralizado no meio e cidade/ano embaixo. Insira uma Quebra de Página. Na página 2, crie os títulos Introdução, Desenvolvimento (com dois subtítulos em “Título 2”), Conclusão e Referências, escrevendo pelo menos uma frase em cada parte. Se estiver no PC, insira o sumário automático (Referências > Sumário) e os números de página.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que vem na primeira página de um trabalho escolar?",
+            "alternativas": [
+              "A capa",
+              "A conclusão",
+              "As referências",
+              "O desenvolvimento"
+            ],
+            "correta": 0,
+            "explicacao": "A capa apresenta o trabalho: escola, aluno, turma, título, cidade e ano.",
+            "dica": "É a página que apresenta o trabalho, com escola e título."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na capa, o título do trabalho fica:",
+            "alternativas": [
+              "No canto da página",
+              "No meio da página, em destaque",
+              "Na última página",
+              "Escondido no rodapé"
+            ],
+            "correta": 1,
+            "explicacao": "O título fica no meio da página, em destaque e centralizado.",
+            "dica": "Releia o 2º parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fonte a lição sugere para o texto?",
+            "alternativas": [
+              "Uma fonte enfeitada",
+              "Tamanho 6",
+              "Arial ou Calibri tamanho 12",
+              "Só letras maiúsculas"
+            ],
+            "correta": 2,
+            "explicacao": "Fontes simples, em tamanho 12, são fáceis de ler.",
+            "dica": "Releia o último parágrafo: a fonte precisa ser fácil de ler."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica a opção de número de página?",
+            "alternativas": [
+              "Arquivo > Imprimir",
+              "Página Inicial > Negrito",
+              "Revisão > Ortografia",
+              "Inserir > Número de Página"
+            ],
+            "correta": 3,
+            "explicacao": "Número de página é algo que se insere no documento, pelo menu Inserir.",
+            "dica": "Você está colocando algo novo no documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual estilo usamos para os títulos principais, como Introdução?",
+            "alternativas": [
+              "Título 1",
+              "Normal",
+              "Citação",
+              "Título 5"
+            ],
+            "correta": 0,
+            "explicacao": "Os títulos principais usam Título 1; as partes dentro deles usam Título 2.",
+            "dica": "Releia o 4º parágrafo: os títulos principais usam o primeiro nível."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a Quebra de Página depois da capa?",
+            "alternativas": [
+              "Para apagar a capa",
+              "Para mudar a cor da página",
+              "Para o texto seguinte sempre começar em uma nova página",
+              "Para numerar as páginas"
+            ],
+            "correta": 2,
+            "explicacao": "A quebra de página força o conteúdo seguinte a começar na próxima página, sem depender de vários Enter.",
+            "dica": "Pense no que acontece com o resto do texto quando você mexe na capa sem usar esse recurso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o Word precisa para gerar o sumário automático?",
+            "alternativas": [
+              "Que os títulos usem os Estilos de Título",
+              "Que todo o texto esteja em negrito",
+              "Que o trabalho tenha imagens",
+              "Que as páginas sejam coloridas"
+            ],
+            "correta": 0,
+            "explicacao": "O sumário automático procura os textos marcados com “Título 1”, “Título 2” etc. Sem os estilos, ele não encontra nada.",
+            "dica": "O sumário automático procura textos marcados de um jeito especial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde, normalmente, ficam a cidade e o ano na capa?",
+            "alternativas": [
+              "No topo da página",
+              "No meio, junto ao título",
+              "Na segunda página",
+              "Na parte de baixo da capa"
+            ],
+            "correta": 3,
+            "explicacao": "Pelo padrão mais usado nas escolas, cidade e ano ficam na parte de baixo da capa, centralizados.",
+            "dica": "Na capa, o título fica no meio. O que fica embaixo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual parte do trabalho mostra de onde você tirou as informações?",
+            "alternativas": [
+              "Introdução",
+              "Referências",
+              "Capa",
+              "Conclusão"
+            ],
+            "correta": 1,
+            "explicacao": "As referências listam livros, sites e outras fontes consultadas. Isso mostra honestidade e permite que o professor confira.",
+            "dica": "É a parte que lista livros e sites consultados."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as partes de um trabalho escolar na ordem certa:",
+            "itens": [
+              "Capa",
+              "Sumário",
+              "Introdução",
+              "Desenvolvimento",
+              "Conclusão",
+              "Referências"
+            ],
+            "explicacao": "A capa apresenta, o sumário mostra o caminho, a introdução abre o assunto, o desenvolvimento explica, a conclusão fecha e as referências mostram as fontes.",
+            "dica": "Primeiro vem o que apresenta o trabalho; as fontes ficam no fim."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você deu vários Enter para jogar o texto para a página 2 e depois aumentou o título da capa. O que pode acontecer?",
+            "alternativas": [
+              "Nada, tudo fica no lugar",
+              "O texto da página 2 escorrega e a capa fica bagunçada",
+              "O Word apaga a capa",
+              "O sumário desaparece"
+            ],
+            "correta": 1,
+            "explicacao": "Os Enter só empurram o texto. Quando a capa cresce, tudo desce junto. A quebra de página evita isso.",
+            "dica": "Os Enter empurram o texto. Se algo acima cresce, o que acontece com o que vem depois?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num trabalho sobre reciclagem, “Tipos de lixo” e “Coleta seletiva” são partes do Desenvolvimento. Que estilo usam?",
+            "alternativas": [
+              "Título 1",
+              "Normal",
+              "Título 2",
+              "Título"
+            ],
+            "correta": 2,
+            "explicacao": "Partes dentro de uma seção (Desenvolvimento, que é Título 1) usam o nível de baixo: Título 2.",
+            "dica": "Partes de dentro de uma seção ficam um nível abaixo dela."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os elementos da capa, de cima para baixo:",
+            "itens": [
+              "Nome da escola",
+              "Nome do aluno e turma",
+              "Título do trabalho",
+              "Cidade e ano"
+            ],
+            "explicacao": "A escola fica no topo, depois aluno e turma, o título no meio e a cidade e o ano no rodapé.",
+            "dica": "Releia o 2º parágrafo: o título fica no meio, e a cidade, na parte de baixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O professor pediu: fonte fácil de ler, tamanho 12, espaçamento 1,5 e páginas numeradas. Qual configuração atende tudo?",
+            "alternativas": [
+              "Arial 12, espaçamento 1,5 e Inserir > Número de Página",
+              "Arial 10, espaçamento 1,0 e páginas numeradas",
+              "Fonte enfeitada 12, espaçamento 1,5 e páginas numeradas",
+              "Calibri 12, espaçamento 2,0 e sem número de página"
+            ],
+            "correta": 0,
+            "explicacao": "Só a primeira opção cumpre as quatro exigências. As outras erram o tamanho, a fonte, o espaçamento ou a numeração.",
+            "dica": "Confira cada exigência do professor em cada opção, uma de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você escreveu o trabalho inteiro e só no fim aplicou Título 1 e Título 2. O sumário automático:",
+            "alternativas": [
+              "Não funciona, porque os estilos vieram depois",
+              "Funciona: ele usa os estilos, não importa quando foram aplicados",
+              "Mostra só as imagens",
+              "Apaga os títulos"
+            ],
+            "correta": 1,
+            "explicacao": "O sumário procura os estilos no momento em que é inserido ou atualizado. Aplicar os estilos no fim funciona.",
+            "dica": "O sumário procura os estilos no momento em que é criado ou atualizado."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você mudou o texto e o sumário agora mostra páginas erradas. O que fazer?",
+            "alternativas": [
+              "Apagar e digitar o sumário à mão",
+              "Clicar no sumário e usar Atualizar Sumário",
+              "Mudar a fonte do sumário",
+              "Salvar em PDF"
+            ],
+            "correta": 1,
+            "explicacao": "O sumário automático precisa ser atualizado depois das mudanças. Digitar à mão perde a vantagem do automático.",
+            "dica": "Releia o aprofundamento: o sumário não muda sozinho a cada alteração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fazer o número de página aparecer no trabalho, mas NÃO na capa?",
+            "alternativas": [
+              "Apagar o número da capa com Delete toda vez",
+              "Colocar a capa em outro arquivo",
+              "Marcar “Primeira Página Diferente” no cabeçalho ou rodapé",
+              "Pintar o número da capa de branco"
+            ],
+            "correta": 2,
+            "explicacao": "Essa opção deixa a primeira página sem número, e as outras continuam numeradas.",
+            "dica": "Existe uma opção no cabeçalho e rodapé feita especialmente para a primeira página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você copiou um parágrafo de um site para o trabalho. O que é correto?",
+            "alternativas": [
+              "Colocar o trecho entre aspas e citar a fonte nas Referências",
+              "Trocar umas palavras e não citar",
+              "Não precisa fazer nada",
+              "Citar só se o professor perguntar"
+            ],
+            "correta": 0,
+            "explicacao": "Usar texto alheio sem dizer de onde veio é plágio, mesmo trocando palavras. Aspas e fonte resolvem.",
+            "dica": "Usar o texto de outra pessoa sem dizer de onde veio tem nome. Como evitar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que salvar em PDF antes de enviar o trabalho?",
+            "alternativas": [
+              "Porque o PDF corrige erros de português",
+              "Porque o PDF deixa o arquivo maior",
+              "Porque professores não abrem arquivos do Word",
+              "Porque o PDF mantém o visual igual em qualquer aparelho"
+            ],
+            "correta": 3,
+            "explicacao": "Em outro computador, o arquivo do Word pode trocar fontes e espaçamentos. O PDF preserva o visual.",
+            "dica": "Pense no que pode acontecer com as fontes e os espaçamentos quando o arquivo abre em outro computador."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos finais do trabalho no computador:",
+            "itens": [
+              "Aplicar Título 1 e Título 2 nos títulos",
+              "Inserir o sumário automático",
+              "Fazer a última revisão e atualizar o sumário",
+              "Salvar em PDF"
+            ],
+            "explicacao": "O sumário depende dos estilos, precisa ser atualizado depois da revisão, e o PDF é a versão final.",
+            "dica": "O sumário depende dos estilos; o PDF é sempre o último passo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Margem e ponto de equilíbrio",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para saber se um negócio dá lucro, separe os custos em dois tipos. Custo variável é o que muda com cada unidade vendida: ingredientes, embalagem. Custo fixo é o que você paga todo mês, vendendo muito ou pouco: aluguel do ponto, internet, a guia mensal do MEI.",
+          "Margem de contribuição é o que cada venda deixa depois de pagar o próprio custo variável: margem = preço − custo variável. Se um brigadeiro custa R$ 0,80 para fazer e é vendido a R$ 2,50, cada um deixa R$ 1,70 para pagar os custos fixos e formar o lucro.",
+          "Ponto de equilíbrio é a quantidade que você precisa vender para não ter lucro nem prejuízo: ponto de equilíbrio = custos fixos ÷ margem por unidade. Abaixo dele, o negócio tem prejuízo; acima, cada venda a mais vira lucro.",
+          "A margem também pode ser vista em porcentagem do preço: 1,70 ÷ 2,50 = 0,68 = 68%. Conhecer a margem ajuda a decidir o preço, a promoção e se vale a pena vender um produto.",
+          "Para melhorar o resultado dá para: aumentar o preço (se o cliente aceitar), reduzir o custo variável sem perder qualidade, cortar custos fixos ou vender mais. E não se esqueça de que o seu tempo também vale: a retirada do dono (pró-labore) entra nos custos fixos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Júlia vende brigadeiro a R$ 2,50. Cada um custa R$ 0,80 para fazer. Os custos fixos dela são R$ 51,00 por mês. Quantos brigadeiros precisa vender para empatar?",
+            "resolucao": "Margem: 2,50 − 0,80 = R$ 1,70. Ponto de equilíbrio: 51 ÷ 1,70 = 30 brigadeiros. A partir do 31º, cada um dá R$ 1,70 de lucro."
+          },
+          {
+            "enunciado": "Se Júlia vender 100 brigadeiros no mês, qual será o lucro?",
+            "resolucao": "Margem total: 100 × 1,70 = R$ 170,00. Lucro: 170 − 51 = R$ 119,00. Conferindo: (100 − 30) × 1,70 = R$ 119,00."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Quando a divisão do ponto de equilíbrio não dá exata, arredonde sempre para CIMA. Se der 41,7, são 42 unidades, porque com 41 ainda falta dinheiro para pagar os custos fixos.",
+        "Margem e markup são diferentes. Markup é quanto se acrescenta sobre o CUSTO; margem é quanto sobra do PREÇO. Produto de custo R$ 10,00 vendido a R$ 15,00: o markup é de 50% (5 ÷ 10), mas a margem é de cerca de 33% (5 ÷ 15). Confundir os dois leva a preço errado.",
+        "Promoção mexe forte no ponto de equilíbrio: tirar R$ 2,00 de um produto com margem de R$ 4,00 corta pela metade o que cada venda deixa, e o ponto de equilíbrio dobra. O pagamento justo de quem ajuda também entra na conta: salário mensal é custo fixo; pagamento por peça é custo variável. Fazer as contas antes evita prometer o que não dá para pagar, e trabalhar dentro da lei (com registro ou contrato) evita processos e multas que podem acabar com o lucro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Custo fixo é aquele que:",
+            "alternativas": [
+              "Muda a cada unidade vendida",
+              "Você paga todo mês, vendendo muito ou pouco",
+              "Só existe em empresa grande",
+              "O cliente paga"
+            ],
+            "correta": 1,
+            "explicacao": "Aluguel e internet, por exemplo, custam o mesmo vendendo 10 ou 100 unidades.",
+            "dica": "Releia o 1º parágrafo e pense no aluguel."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O ingrediente de cada bolo é um custo:",
+            "alternativas": [
+              "Fixo",
+              "Proibido",
+              "Variável",
+              "Escondido"
+            ],
+            "correta": 2,
+            "explicacao": "Quanto mais bolos, mais ingrediente: o custo varia com a quantidade.",
+            "dica": "Quanto mais bolos você faz, mais ingrediente gasta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se calcula a margem de contribuição por unidade?",
+            "alternativas": [
+              "Preço − custo variável",
+              "Preço + custo fixo",
+              "Custo fixo ÷ preço",
+              "Preço × quantidade"
+            ],
+            "correta": 0,
+            "explicacao": "Margem é o que cada venda deixa depois de pagar o custo daquela unidade.",
+            "dica": "Releia o 2º parágrafo: é o que sobra de cada venda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um suco é vendido a R$ 5,00 e custa R$ 2,00 para fazer. Qual é a margem por unidade?",
+            "alternativas": [
+              "R$ 7,00",
+              "R$ 2,00",
+              "R$ 5,00",
+              "R$ 3,00"
+            ],
+            "correta": 3,
+            "explicacao": "5 − 2 = R$ 3,00 por suco.",
+            "dica": "Tire o custo do preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No ponto de equilíbrio, o negócio tem:",
+            "alternativas": [
+              "Um lucro enorme",
+              "Prejuízo",
+              "Nem lucro nem prejuízo",
+              "Falência"
+            ],
+            "correta": 2,
+            "explicacao": "No ponto de equilíbrio, a margem das vendas paga exatamente os custos fixos.",
+            "dica": "Equilíbrio lembra uma balança parada, igual dos dois lados."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro vende pipoca a R$ 4,00. Cada saquinho custa R$ 1,50, e os custos fixos são R$ 100,00 por mês. Qual é o ponto de equilíbrio?",
+            "alternativas": [
+              "25 saquinhos",
+              "40 saquinhos",
+              "67 saquinhos",
+              "100 saquinhos"
+            ],
+            "correta": 1,
+            "explicacao": "Margem: 4,00 − 1,50 = 2,50. Ponto de equilíbrio: 100 ÷ 2,50 = 40 saquinhos.",
+            "dica": "Calcule a margem por saquinho e divida os custos fixos por ela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é custo FIXO de uma barraca de lanches?",
+            "alternativas": [
+              "Pão de cada sanduíche",
+              "Guardanapo de cada venda",
+              "Aluguel do espaço na feira",
+              "Embalagem de cada lanche"
+            ],
+            "correta": 2,
+            "explicacao": "O aluguel é o mesmo vendendo 10 ou 100 lanches. Os outros aumentam a cada venda.",
+            "dica": "Qual deles você paga igual, vendendo 10 ou 100 lanches?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pulseira é vendida a R$ 10,00 e custa R$ 4,00. Qual é a margem em porcentagem do preço?",
+            "alternativas": [
+              "60%",
+              "40%",
+              "150%",
+              "6%"
+            ],
+            "correta": 0,
+            "explicacao": "Margem: 10 − 4 = 6. Em porcentagem do preço: 6 ÷ 10 = 60%. 40% é o custo.",
+            "dica": "Calcule a margem em reais e divida pelo preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana já passou do ponto de equilíbrio no mês. O que acontece com cada venda a mais?",
+            "alternativas": [
+              "Gera prejuízo",
+              "Não muda nada",
+              "Paga o aluguel de novo",
+              "Vira lucro, no valor da margem de cada unidade"
+            ],
+            "correta": 3,
+            "explicacao": "Os custos fixos já foram cobertos. A partir daí, a margem de cada venda é lucro.",
+            "dica": "Os custos fixos já foram pagos pelas vendas anteriores."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para achar o ponto de equilíbrio:",
+            "itens": [
+              "Descobrir o custo variável de cada unidade",
+              "Calcular a margem: preço − custo variável",
+              "Dividir os custos fixos pela margem",
+              "Conferir: unidades × margem precisa pagar os custos fixos"
+            ],
+            "explicacao": "Sem o custo variável não há margem, e sem a margem não dá para dividir. A conferência fecha o processo.",
+            "dica": "A divisão precisa da margem, e a margem precisa de outro número que vem antes."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia faz bolo de pote: preço R$ 9,00, custo R$ 4,00 por pote, custos fixos de R$ 180,00. Ela vendeu 60 potes no mês. Qual foi o lucro?",
+            "alternativas": [
+              "R$ 300,00",
+              "R$ 120,00",
+              "R$ 360,00",
+              "R$ 540,00"
+            ],
+            "correta": 1,
+            "explicacao": "Margem: 5. Total: 60 × 5 = 300. Lucro: 300 − 180 = R$ 120,00. R$ 300,00 esquece os custos fixos.",
+            "dica": "Multiplique a margem pela quantidade; depois desconte os custos fixos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio vende capinhas a R$ 25,00 (custo de R$ 10,00 cada), com custos fixos de R$ 450,00. Vendeu 25 no mês. Qual foi o resultado?",
+            "alternativas": [
+              "Lucro de R$ 175,00",
+              "Lucro de R$ 75,00",
+              "Prejuízo de R$ 75,00",
+              "Empate"
+            ],
+            "correta": 2,
+            "explicacao": "Margem total: 25 × 15 = 375. Resultado: 375 − 450 = −75. O ponto de equilíbrio era 30 capinhas.",
+            "dica": "Compare o total de margem das vendas com os custos fixos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um sanduíche custa R$ 6,00 de ingredientes e é vendido a R$ 14,00. Com custos fixos de R$ 400,00, quantos precisa vender para ter R$ 400,00 de lucro?",
+            "alternativas": [
+              "100",
+              "50",
+              "57",
+              "200"
+            ],
+            "correta": 0,
+            "explicacao": "Margem: 8. É preciso cobrir fixos + lucro desejado: (400 + 400) ÷ 8 = 100 sanduíches.",
+            "dica": "Some o lucro desejado aos custos fixos e divida pela margem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem mudar o preço, o que ajuda a BAIXAR o ponto de equilíbrio?",
+            "alternativas": [
+              "Aumentar o aluguel",
+              "Comprar ingredientes mais caros",
+              "Dar mais descontos",
+              "Reduzir o custo variável ou os custos fixos"
+            ],
+            "correta": 3,
+            "explicacao": "Ponto de equilíbrio = fixos ÷ margem. Fixos menores ou margem maior (custo variável menor) deixam a conta menor.",
+            "dica": "O ponto de equilíbrio é fixos ÷ margem. O que deixa essa conta menor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Taís vende brigadeiro a R$ 3,00 (custo de R$ 1,00) com custos fixos de R$ 90,00. Ela combinou por escrito pagar a uma ajudante R$ 0,50 por brigadeiro feito. Qual é o novo ponto de equilíbrio?",
+            "alternativas": [
+              "45",
+              "60",
+              "90",
+              "180"
+            ],
+            "correta": 1,
+            "explicacao": "O pagamento por peça entra no custo variável: 1,00 + 0,50 = 1,50. Margem: 1,50. Ponto: 90 ÷ 1,50 = 60 (antes eram 45).",
+            "dica": "O pagamento por unidade entra no custo variável. Recalcule a margem."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Custos fixos de R$ 250,00, preço de R$ 8,00 e custo variável de R$ 2,00. Qual é o ponto de equilíbrio?",
+            "alternativas": [
+              "41 unidades",
+              "42 unidades",
+              "31 unidades",
+              "125 unidades"
+            ],
+            "correta": 1,
+            "explicacao": "Margem: 6. 250 ÷ 6 = 41,7. Com 41 unidades a margem é 246, ainda menor que 250. São 42 unidades.",
+            "dica": "Divida e, se não der exato, pense: com o número de baixo ainda falta dinheiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto custa R$ 10,00 e é vendido a R$ 15,00. Qual afirmação está correta?",
+            "alternativas": [
+              "Markup de 50% e margem de 50%",
+              "Markup de 33% e margem de 50%",
+              "Markup de 50% sobre o custo e margem de cerca de 33% do preço",
+              "Markup de 5% e margem de 15%"
+            ],
+            "correta": 2,
+            "explicacao": "Markup: 5 ÷ 10 = 50%. Margem: 5 ÷ 15 ≈ 33%. Os dois usam os mesmos R$ 5,00, mas dividem por bases diferentes.",
+            "dica": "O markup divide o acréscimo pelo custo; a margem divide o que sobra pelo preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um copo de açaí custa R$ 8,00, é vendido a R$ 12,00 e os custos fixos são R$ 400,00. Numa promoção, o preço cai para R$ 10,00. O que acontece com o ponto de equilíbrio?",
+            "alternativas": [
+              "Dobra: de 100 para 200 copos",
+              "Cai pela metade",
+              "Sobe só cerca de 17%",
+              "Não muda"
+            ],
+            "correta": 0,
+            "explicacao": "Antes: margem 4 → 400 ÷ 4 = 100 copos. Depois: margem 2 → 400 ÷ 2 = 200 copos. Um desconto de 17% no preço dobrou o esforço de vendas.",
+            "dica": "Calcule a margem antes e depois da promoção e refaça a divisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rita vende 200 marmitas por mês a R$ 20,00 (custo de R$ 12,00 cada), com custos fixos de R$ 1 000,00. Ela pensa em ter um ajudante todo dia, com horário fixo, sem carteira assinada, “para economizar”. Por que é um mau negócio?",
+            "alternativas": [
+              "Porque ninguém pode ter ajudante",
+              "Porque um processo trabalhista com multas pode custar bem mais que o lucro dela, que hoje é de R$ 600,00 por mês",
+              "Porque o negócio dela já dá prejuízo",
+              "Porque marmita não dá lucro"
+            ],
+            "correta": 1,
+            "explicacao": "Lucro: 200 × 8 − 1 000 = R$ 600,00. Um trabalhador com rotina fixa sem registro pode cobrar na Justiça todos os direitos atrasados, com multas. O certo é registrar (e pôr o custo na conta) ou contratar de forma legal.",
+            "dica": "Calcule o lucro atual dela e compare com o risco de ser processada e multada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Edu vende 80 camisetas por mês a R$ 40,00 (custo de R$ 25,00 cada), com custos fixos de R$ 900,00. Qual mudança dá o MAIOR lucro?",
+            "alternativas": [
+              "Vender 90 camisetas, com o resto igual",
+              "Subir o preço para R$ 42,00 e vender 75",
+              "Cortar R$ 100,00 dos custos fixos",
+              "Baixar o custo para R$ 23,00, vendendo as mesmas 80"
+            ],
+            "correta": 3,
+            "explicacao": "Hoje: 80 × 15 − 900 = 300. Vender 90: 1 350 − 900 = 450. Preço 42 com 75: 75 × 17 − 900 = 375. Fixos 800: 1 200 − 800 = 400. Custo 23: 80 × 17 − 900 = 460, o maior.",
+            "dica": "Calcule o lucro de cada opção: (preço − custo) × quantidade − custos fixos."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A liquidação que não era liquidação",
+    "texto": "Na última semana de novembro, a vitrine de uma loja de eletrônicos do centro amanheceu coberta de cartazes amarelos: “TUDO COM 50% DE DESCONTO!”. Uma fila se formou antes mesmo de as portas abrirem.\n\nLaura, estudante do 9º ano, estava entre os curiosos. Ela tinha um hábito estranho para a idade: fotografava o preço dos produtos que queria comprar. Fazia isso havia dois meses com um fone de ouvido que custava R$ 180,00.\n\nQuando viu o cartaz, procurou o fone. A etiqueta dizia: “De R$ 360,00 por R$ 180,00”. Laura abriu a galeria do celular e mostrou para a mãe a foto de setembro: R$ 180,00, o mesmo preço de sempre.\n\nO desconto de 50% existia só no papel. A loja tinha dobrado o preço “de” para que a metade parecesse uma pechincha. Na prática, o desconto real era de 0%.\n\nA mãe de Laura reclamou com o gerente, que não soube explicar. Mais tarde, elas descobriram que esse truque é proibido pelo Código de Defesa do Consumidor, porque engana o cliente com uma informação falsa sobre o preço.\n\nLaura não comprou o fone naquele dia. Comprou um mês depois, em outra loja, com 15% de desconto de verdade: pagou R$ 153,00. E ganhou uma lição que nenhum cartaz amarelo ensina: antes de comemorar a porcentagem, descubra de que número ela está sendo tirada."
+  },
+  "escrita": {
+    "proposta": "Escreva de 8 a 12 linhas no caderno respondendo: por que o hábito de Laura de fotografar os preços foi tão importante? Explique com suas palavras o truque da loja, faça a conta do desconto real que ela conseguiu na outra loja (mostrando o cálculo) e dê duas dicas para alguém da sua família não cair em falsas promoções."
+  }
+}

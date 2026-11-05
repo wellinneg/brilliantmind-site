@@ -1,0 +1,895 @@
+{
+  "dia": 5,
+  "blocos": [
+    {
+      "materia": "portugues",
+      "titulo": "Substantivo e adjetivo",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Substantivo é a palavra que dá nome às coisas: pessoas (menina, professor), lugares (escola, praia), objetos (mochila, lápis), animais (gato) e até sentimentos (alegria, saudade).",
+          "O substantivo pode ser comum, quando nomeia qualquer ser de um grupo (cidade, rio, cachorro), ou próprio, quando nomeia um ser específico e começa com letra maiúscula (São Paulo, Amazonas, Totó).",
+          "Adjetivo é a palavra que dá uma característica ao substantivo: cachorro peludo, mochila pesada, dia ensolarado, menina corajosa. Ele responde à pergunta “como é?”.",
+          "O adjetivo combina com o substantivo no gênero (masculino ou feminino) e no número (singular ou plural): o menino cansado, a menina cansada, os meninos cansados, as meninas cansadas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Na frase “A bicicleta azul da Júlia é rápida”, quais são os substantivos e os adjetivos?",
+            "resolucao": "Substantivos: bicicleta (comum) e Júlia (próprio). Adjetivos: azul e rápida, que dizem como é a bicicleta."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Alguns substantivos nomeiam um grupo inteiro: são os coletivos. Cardume é um grupo de peixes, enxame é de abelhas, alcateia é de lobos, matilha é de cães, constelação é de estrelas e biblioteca é de livros.",
+        "O adjetivo pode mostrar intensidade: “o bolo é gostoso”, “o bolo é muito gostoso” ou “o bolo é gostosíssimo”. Também serve para comparar: “Ana é mais alta que Bia”, “Bia é tão alta quanto Duda”.",
+        "A posição do adjetivo pode mudar o sentido: “um grande homem” é um homem importante, admirável; “um homem grande” é um homem alto, de tamanho grande. E a mesma palavra pode ser substantivo ou adjetivo, dependendo da frase: em “o velho sorriu”, velho é substantivo; em “o carro velho”, é adjetivo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Substantivo é a palavra que:",
+            "alternativas": [
+              "Dá nome às coisas",
+              "Indica uma ação",
+              "Liga outras palavras",
+              "Mostra uma quantidade"
+            ],
+            "correta": 0,
+            "explicacao": "Substantivo dá nome a pessoas, lugares, objetos, animais e sentimentos.",
+            "dica": "Pense em menina, escola, mochila e gato."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas palavras é um adjetivo?",
+            "alternativas": [
+              "mesa",
+              "bonita",
+              "correr",
+              "cidade"
+            ],
+            "correta": 1,
+            "explicacao": "Bonita diz como alguma coisa é. Mesa e cidade são substantivos; correr é uma ação.",
+            "dica": "O adjetivo diz como alguma coisa é."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O substantivo próprio começa com:",
+            "alternativas": [
+              "Número",
+              "Letra minúscula",
+              "Letra maiúscula",
+              "Acento"
+            ],
+            "correta": 2,
+            "explicacao": "Nomes próprios, como São Paulo e Júlia, começam com letra maiúscula.",
+            "dica": "Pense em como se escreve São Paulo ou o nome de uma pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na expressão “mochila pesada”, o adjetivo é:",
+            "alternativas": [
+              "mochila",
+              "nenhuma das duas",
+              "as duas palavras",
+              "pesada"
+            ],
+            "correta": 3,
+            "explicacao": "Pesada diz como é a mochila. Mochila é o substantivo.",
+            "dica": "Como é a mochila?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Saudade” é um substantivo que nomeia:",
+            "alternativas": [
+              "Um lugar",
+              "Um sentimento",
+              "Um animal",
+              "Um objeto"
+            ],
+            "correta": 1,
+            "explicacao": "Saudade é algo que sentimos: é um substantivo que nomeia sentimento.",
+            "dica": "Saudade é algo que a gente sente."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na frase “O cachorro peludo dormiu no sofá”, qual palavra é o adjetivo?",
+            "alternativas": [
+              "cachorro",
+              "peludo",
+              "dormiu",
+              "sofá"
+            ],
+            "correta": 1,
+            "explicacao": "Peludo diz como é o cachorro: é uma característica. Cachorro e sofá são substantivos e dormiu é um verbo (uma ação).",
+            "dica": "O adjetivo responde à pergunta “como é?”. Como é o cachorro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas palavras é um substantivo próprio?",
+            "alternativas": [
+              "cidade",
+              "menina",
+              "Brasil",
+              "rio"
+            ],
+            "correta": 2,
+            "explicacao": "Brasil é o nome de um país específico e por isso começa com letra maiúscula. Cidade, menina e rio são substantivos comuns.",
+            "dica": "Substantivo próprio nomeia um ser específico e começa com letra maiúscula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete a frase: “As meninas estão ____ depois da corrida.”",
+            "alternativas": [
+              "cansado",
+              "cansada",
+              "cansados",
+              "cansadas"
+            ],
+            "correta": 3,
+            "explicacao": "Meninas é feminino e plural, então o adjetivo também fica no feminino plural: cansadas.",
+            "dica": "O adjetivo precisa combinar com “meninas”: feminino e plural."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é um substantivo que nomeia um sentimento?",
+            "alternativas": [
+              "alegria",
+              "alegre",
+              "alegrar",
+              "alegremente"
+            ],
+            "correta": 0,
+            "explicacao": "Alegria é o nome do sentimento, por isso é substantivo. Alegre é adjetivo (como alguém está), alegrar é verbo e alegremente é advérbio.",
+            "dica": "Procure a palavra que dá nome ao sentimento, não a que diz como alguém está."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as palavras em ordem para formar a frase:",
+            "itens": [
+              "A",
+              "menina",
+              "esperta",
+              "resolveu",
+              "o",
+              "desafio"
+            ],
+            "explicacao": "A frase é “A menina esperta resolveu o desafio”. Repare que o adjetivo esperta vem logo depois do substantivo menina, como é comum em português.",
+            "dica": "Comece pelo artigo e pelo substantivo; o adjetivo vem logo depois."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na frase “Pedro comprou uma bola nova em Santos”, quais são os substantivos?",
+            "alternativas": [
+              "Pedro, bola e Santos",
+              "comprou e nova",
+              "bola e nova",
+              "Pedro e comprou"
+            ],
+            "correta": 0,
+            "explicacao": "Pedro (pessoa), bola (objeto) e Santos (lugar) são substantivos. Nova é adjetivo e comprou é verbo.",
+            "dica": "Procure as palavras que dão nome a pessoas, objetos e lugares."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Os livros ____ estão na estante.”",
+            "alternativas": [
+              "antiga",
+              "antigos",
+              "antigas",
+              "antigo"
+            ],
+            "correta": 1,
+            "explicacao": "Livros é masculino e plural, então o adjetivo fica antigos.",
+            "dica": "“Livros” é masculino e plural. O adjetivo precisa combinar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual expressão tem erro de concordância?",
+            "alternativas": [
+              "As casas amarelas",
+              "O gato preto",
+              "As meninas animado",
+              "Os dias frios"
+            ],
+            "correta": 2,
+            "explicacao": "Meninas é feminino e plural; o certo seria “as meninas animadas”.",
+            "dica": "Confira se o adjetivo combina no gênero e no número em cada expressão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é um substantivo comum?",
+            "alternativas": [
+              "Brasil",
+              "Amazonas",
+              "Júlia",
+              "rio"
+            ],
+            "correta": 3,
+            "explicacao": "Rio nomeia qualquer rio e começa com minúscula. Os outros são nomes próprios.",
+            "dica": "O comum nomeia qualquer ser de um grupo e começa com minúscula."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as palavras para formar a frase:",
+            "itens": [
+              "Os",
+              "alunos",
+              "dedicados",
+              "ganharam",
+              "medalhas"
+            ],
+            "explicacao": "Artigo, substantivo, adjetivo, verbo e complemento: “Os alunos dedicados ganharam medalhas”.",
+            "dica": "Comece pelo artigo, depois o substantivo e o adjetivo que o descreve."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama um grupo de peixes?",
+            "alternativas": [
+              "Enxame",
+              "Cardume",
+              "Matilha",
+              "Alcateia"
+            ],
+            "correta": 1,
+            "explicacao": "Cardume é o coletivo de peixes. Enxame é de abelhas, matilha de cães e alcateia de lobos.",
+            "dica": "É um coletivo do aprofundamento, usado para peixes nadando juntos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre “um grande homem” e “um homem grande”?",
+            "alternativas": [
+              "Nenhuma",
+              "O primeiro é alto; o segundo é importante",
+              "O primeiro é importante, admirável; o segundo é de tamanho grande",
+              "As duas formas estão erradas"
+            ],
+            "correta": 2,
+            "explicacao": "Antes do substantivo, “grande” quer dizer importante; depois, quer dizer de tamanho grande. A segunda alternativa inverte os sentidos.",
+            "dica": "A posição do adjetivo pode mudar o sentido. Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na frase “O velho contou uma história”, a palavra “velho” é:",
+            "alternativas": [
+              "Substantivo",
+              "Adjetivo",
+              "Verbo",
+              "Numeral"
+            ],
+            "correta": 0,
+            "explicacao": "Aqui “velho” nomeia quem contou a história, por isso é substantivo. Em “o carro velho”, seria adjetivo.",
+            "dica": "Ela está nomeando quem contou, não descrevendo outra palavra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa o adjetivo para comparar?",
+            "alternativas": [
+              "O suco está geladíssimo",
+              "O suco está gelado",
+              "Que suco gelado!",
+              "Ana é mais alta que Bia"
+            ],
+            "correta": 3,
+            "explicacao": "Comparar exige dois seres: Ana e Bia. “Geladíssimo” mostra intensidade, não comparação.",
+            "dica": "Para comparar, a frase precisa ter duas coisas ou duas pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos substantivos há na frase “A alegria das crianças encheu a escola de Campinas”?",
+            "alternativas": [
+              "3",
+              "4",
+              "5",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "Alegria (sentimento), crianças (pessoas), escola (lugar) e Campinas (lugar, próprio): 4. O erro comum é esquecer “alegria”.",
+            "dica": "Conte as palavras que dão nome a sentimentos, pessoas e lugares. Não esqueça o sentimento."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "ingles",
+      "titulo": "Colors and numbers",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Colors (“cálors”) são as cores. Algumas para começar: red (“réd”, vermelho), blue (“blú”, azul), green (“grín”, verde), yellow (“iélou”, amarelo), black (“blék”, preto), white (“uáit”, branco), pink (“pínk”, rosa), orange (“órindj”, laranja), purple (“pârpol”, roxo) e brown (“bráun”, marrom).",
+          "Em inglês, a cor vem antes da coisa: a red car (“ê réd kár”) é um carro vermelho; a blue bag é uma bolsa azul. É o contrário do português!",
+          "Numbers (“nâmbers”) de 1 a 10: one (“uân”), two (“tú”), three (“thrí”, com a língua entre os dentes), four (“fór”), five (“fáiv”), six (“síks”), seven (“séven”), eight (“êit”), nine (“náin”), ten (“tén”).",
+          "Depois vêm eleven (11) e twelve (12). Do 13 ao 19, os números terminam em -teen: thirteen (13), fourteen (14), fifteen (15)… E as dezenas terminam em -ty: twenty (20), thirty (30), forty (40), fifty (50). Cuidado para não confundir fifteen (15) com fifty (50)!"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como dizer “três lápis amarelos” em inglês?",
+            "resolucao": "Three yellow pencils (“thrí iélou pénsols”). Primeiro o número, depois a cor e por último a coisa."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para dizer a idade em inglês, usamos o verbo to be: “I'm eleven years old” (“áim iléven iêrs ôuld”, eu tenho onze anos). Ao pé da letra seria “eu sou onze anos velho”: em inglês a gente “é” a idade.",
+        "As dezenas se juntam com as unidades usando um tracinho: twenty-one (21), thirty-five (35), forty-eight (48). E 100 é one hundred (“uân rândred”).",
+        "Para perguntar a cor: “What color is it?” (“uót cálor iz it?”, de que cor é?). Para perguntar quantos: “How many?” (“ráu méni?”). Exemplo: “How many pencils?” — “Three pencils.” No plural, a maioria das palavras ganha -s: one pen, two pens."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "“Red” é qual cor?",
+            "alternativas": [
+              "Vermelho",
+              "Verde",
+              "Azul",
+              "Preto"
+            ],
+            "correta": 0,
+            "explicacao": "Red (“réd”) é vermelho.",
+            "dica": "É a cor do morango e da placa de pare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Three” é qual número?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "13"
+            ],
+            "correta": 1,
+            "explicacao": "Three (“thrí”) é 3. Thirteen é 13.",
+            "dica": "Lembre da pronúncia “thrí”, com a língua entre os dentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se diz “verde” em inglês?",
+            "alternativas": [
+              "Blue",
+              "Yellow",
+              "Green",
+              "Pink"
+            ],
+            "correta": 2,
+            "explicacao": "Green (“grín”) é verde. Blue é azul, yellow é amarelo e pink é rosa.",
+            "dica": "A pronúncia lembra “grín”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Ten” é:",
+            "alternativas": [
+              "2",
+              "12",
+              "20",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "Ten (“tén”) é 10. Twelve é 12 e twenty é 20.",
+            "dica": "É o último número da lista de 1 a 10 da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Black” significa:",
+            "alternativas": [
+              "Branco",
+              "Preto",
+              "Marrom",
+              "Roxo"
+            ],
+            "correta": 1,
+            "explicacao": "Black (“blék”) é preto. Branco é white.",
+            "dica": "Pense na cor da noite sem nenhuma luz."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se diz “azul” em inglês?",
+            "alternativas": [
+              "Red",
+              "Green",
+              "Yellow",
+              "Blue"
+            ],
+            "correta": 3,
+            "explicacao": "Blue (“blú”) é azul. Red é vermelho, green é verde e yellow é amarelo.",
+            "dica": "Pense na cor do céu num dia sem nuvens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número é “twelve”?",
+            "alternativas": [
+              "2",
+              "20",
+              "12",
+              "11"
+            ],
+            "correta": 2,
+            "explicacao": "Twelve (“tuélv”) é 12. O 2 é two, o 20 é twenty e o 11 é eleven.",
+            "dica": "Twelve vem logo depois de eleven, que é o 11."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa “a red car”?",
+            "alternativas": [
+              "Um carro vermelho",
+              "Dois carros vermelhos",
+              "Um carro rápido",
+              "Um carro azul"
+            ],
+            "correta": 0,
+            "explicacao": "Red é vermelho e car é carro. Em inglês a cor vem antes: a red car = um carro vermelho.",
+            "dica": "Em inglês a cor vem antes da coisa. Red é uma cor quente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se diz “quinze” em inglês?",
+            "alternativas": [
+              "Fifty",
+              "Fifteen",
+              "Five",
+              "Fourteen"
+            ],
+            "correta": 1,
+            "explicacao": "Os números de 13 a 19 terminam em -teen: fifteen = 15. Fifty termina em -ty e vale 50; five é 5 e fourteen é 14.",
+            "dica": "Os números de 13 a 19 terminam em -teen."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os números em ordem crescente:",
+            "itens": [
+              "two",
+              "four",
+              "six",
+              "eight",
+              "ten"
+            ],
+            "explicacao": "two = 2, four = 4, six = 6, eight = 8 e ten = 10. São os números pares de 2 a 10.",
+            "dica": "Comece pelo menor: o número que vem logo depois de one."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se diz “uma bolsa amarela”?",
+            "alternativas": [
+              "A bag yellow",
+              "A yellow bag",
+              "Yellow a bag",
+              "A bag is yellow bag"
+            ],
+            "correta": 1,
+            "explicacao": "Em inglês a cor vem antes da coisa: a yellow bag.",
+            "dica": "Lembre: em inglês, a cor vem antes da coisa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é “five + six”?",
+            "alternativas": [
+              "Ten",
+              "Twelve",
+              "Eleven",
+              "Thirteen"
+            ],
+            "correta": 2,
+            "explicacao": "5 + 6 = 11, que em inglês é eleven.",
+            "dica": "Faça a conta em português e depois procure o número em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número é “fifty”?",
+            "alternativas": [
+              "15",
+              "5",
+              "55",
+              "50"
+            ],
+            "correta": 3,
+            "explicacao": "Fifty termina em -ty, que indica dezena: 50. Fifteen (-teen) é 15.",
+            "dica": "-ty indica dezena; -teen indica os números de 13 a 19."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Two blue pens” quer dizer:",
+            "alternativas": [
+              "Duas canetas azuis",
+              "Uma caneta azul",
+              "Dez canetas verdes",
+              "Duas canetas pretas"
+            ],
+            "correta": 0,
+            "explicacao": "Two = dois, blue = azul, pens = canetas (plural com -s).",
+            "dica": "Traduza palavra por palavra: número, cor e coisa."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os números em ordem crescente:",
+            "itens": [
+              "eleven",
+              "fifteen",
+              "twenty",
+              "thirty",
+              "fifty"
+            ],
+            "explicacao": "11, 15, 20, 30 e 50. Cuidado: fifteen (15) vem bem antes de fifty (50).",
+            "dica": "Traduza cada número antes de ordenar. Cuidado com fifteen e fifty."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 35 em inglês?",
+            "alternativas": [
+              "Thirteen-five",
+              "Thirty-five",
+              "Three-five",
+              "Fifty-three"
+            ],
+            "correta": 1,
+            "explicacao": "30 é thirty e 5 é five; juntamos com tracinho: thirty-five. Thirteen é 13.",
+            "dica": "Primeiro a dezena terminada em -ty, depois um tracinho e a unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“I'm twelve years old” quer dizer:",
+            "alternativas": [
+              "Eu tenho 20 anos",
+              "Eu moro na casa 12",
+              "Eu tenho 12 anos",
+              "Eu estou no 12º ano"
+            ],
+            "correta": 2,
+            "explicacao": "Years old indica idade, e twelve é 12. Twenty seria 20.",
+            "dica": "Years old aparece quando falamos de idade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é “twenty-four − nine”?",
+            "alternativas": [
+              "Fifty",
+              "Fourteen",
+              "Sixteen",
+              "Fifteen"
+            ],
+            "correta": 3,
+            "explicacao": "24 − 9 = 15, que é fifteen. Cuidado: fifty é 50.",
+            "dica": "Faça 24 menos 9 em português; depois cuidado com a terminação do número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “How many apples?” — “Seven ____.”",
+            "alternativas": [
+              "apples",
+              "apple",
+              "an apple",
+              "the apple"
+            ],
+            "correta": 0,
+            "explicacao": "Sete é mais de um, então a palavra vai para o plural com -s: seven apples.",
+            "dica": "Com mais de um, a maioria das palavras ganha uma letra no final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pergunta serve para saber a cor de algo?",
+            "alternativas": [
+              "How many?",
+              "What color is it?",
+              "How are you?",
+              "What's your name?"
+            ],
+            "correta": 1,
+            "explicacao": "What color is it? pergunta a cor. How many? pergunta a quantidade.",
+            "dica": "Procure a palavra que significa “cor” dentro da pergunta."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "cidadania",
+      "titulo": "Direitos da criança (ECA)",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O ECA (Estatuto da Criança e do Adolescente) é uma lei brasileira de 1990 que protege crianças e adolescentes. Para o ECA, criança é quem tem até 12 anos incompletos, e adolescente é quem tem de 12 a 18 anos.",
+          "O ECA garante direitos muito importantes: vida e saúde, alimentação, educação, esporte, lazer, cultura, respeito, liberdade e conviver com a família e com a comunidade. Cuidar disso é dever da família, da sociedade e do governo.",
+          "Nenhuma criança pode sofrer violência, maus-tratos ou humilhação, nem ser obrigada a trabalhar. Lugar de criança é na escola, brincando e aprendendo.",
+          "Se uma criança tem um direito desrespeitado, quem ajuda é o Conselho Tutelar, que existe em todas as cidades. Também dá para ligar de graça para o Disque 100. Ter direitos vem junto com deveres: respeitar as pessoas, cuidar da escola e ir às aulas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma criança de 10 anos não está indo à escola porque precisa vender doces no farol. Que direitos estão sendo desrespeitados?",
+            "resolucao": "O direito à educação e a proteção contra o trabalho infantil. Um adulto pode procurar o Conselho Tutelar para que a família receba ajuda e a criança volte para a escola."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O ECA diz que cuidar das crianças e dos adolescentes é responsabilidade de todos: família, comunidade, sociedade e poder público. Isso se chama proteção integral: a criança deve ser protegida em todos os aspectos da vida.",
+        "Sobre trabalho, a Constituição proíbe o trabalho de menores de 16 anos, a não ser como jovem aprendiz, a partir dos 14 anos, sempre estudando junto. E o trabalho noturno, perigoso ou que faz mal à saúde é proibido para quem tem menos de 18 anos.",
+        "O Conselho Tutelar é formado por conselheiros escolhidos pela comunidade numa eleição. Ele recebe denúncias, orienta as famílias e encaminha a criança para ajuda. O Disque 100 funciona todos os dias, 24 horas, e a denúncia pode ser feita sem dizer o nome (anônima)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O ECA protege:",
+            "alternativas": [
+              "Crianças e adolescentes",
+              "Só os idosos",
+              "Só os animais",
+              "Só os carros"
+            ],
+            "correta": 0,
+            "explicacao": "O ECA é o Estatuto da Criança e do Adolescente.",
+            "dica": "Lembre o nome completo da lei."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lugar de criança é:",
+            "alternativas": [
+              "Trabalhando no farol",
+              "Na escola, brincando e aprendendo",
+              "Sozinha na rua",
+              "Cuidando da loja o dia todo"
+            ],
+            "correta": 1,
+            "explicacao": "Criança tem direito à educação e ao lazer e não pode ser obrigada a trabalhar.",
+            "dica": "A lição terminou um parágrafo com uma frase sobre onde a criança deve estar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem ajuda quando um direito da criança é desrespeitado?",
+            "alternativas": [
+              "O padeiro",
+              "O time de futebol",
+              "O Conselho Tutelar",
+              "A loja de brinquedos"
+            ],
+            "correta": 2,
+            "explicacao": "O Conselho Tutelar existe em todas as cidades para proteger os direitos das crianças.",
+            "dica": "Existe em todas as cidades e foi citado na lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O ECA é de que ano?",
+            "alternativas": [
+              "1500",
+              "1888",
+              "2020",
+              "1990"
+            ],
+            "correta": 3,
+            "explicacao": "O ECA é de 1990, dois anos depois da Constituição de 1988.",
+            "dica": "Foi criado dois anos depois da Constituição de 1988."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A educação é:",
+            "alternativas": [
+              "Um direito da criança",
+              "Um luxo",
+              "Um presente de Natal",
+              "Proibida para crianças"
+            ],
+            "correta": 0,
+            "explicacao": "Educação é um direito garantido pelo ECA a toda criança e adolescente.",
+            "dica": "Pense no que o ECA garante para toda criança."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o ECA?",
+            "alternativas": [
+              "Uma escola de esportes",
+              "Uma lei que protege os direitos de crianças e adolescentes",
+              "Um aplicativo de celular",
+              "Um tipo de vacina"
+            ],
+            "correta": 1,
+            "explicacao": "ECA quer dizer Estatuto da Criança e do Adolescente, uma lei de 1990 que vale em todo o Brasil.",
+            "dica": "Pense no nome completo: Estatuto da Criança e do…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o ECA, até que idade a pessoa é considerada criança?",
+            "alternativas": [
+              "Até 10 anos",
+              "Até 15 anos",
+              "Até 12 anos incompletos",
+              "Até 18 anos"
+            ],
+            "correta": 2,
+            "explicacao": "Criança vai até os 12 anos incompletos (ou seja, até 11 anos). Dos 12 aos 18, a pessoa é adolescente.",
+            "dica": "A lição deu uma idade em que a criança passa a ser adolescente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um direito garantido pelo ECA?",
+            "alternativas": [
+              "Ter um celular de última geração",
+              "Não ter nenhuma regra em casa",
+              "Ganhar mesada todo mês",
+              "Educação, saúde, lazer e convivência familiar"
+            ],
+            "correta": 3,
+            "explicacao": "O ECA protege o que é essencial para crescer bem: estudar, ter saúde, brincar e viver com a família. Celular e mesada não são direitos da lei.",
+            "dica": "O ECA fala de direitos básicos para crescer bem, não de presentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para qual serviço gratuito se pode ligar para denunciar violência contra uma criança?",
+            "alternativas": [
+              "Disque 100",
+              "O telefone de uma loja",
+              "O atendimento de um jogo online",
+              "Nenhum, é melhor ficar quieto"
+            ],
+            "correta": 0,
+            "explicacao": "O Disque 100 recebe denúncias de violação de direitos humanos, inclusive de crianças, e é gratuito. Também se pode procurar o Conselho Tutelar e, em perigo imediato, a polícia pelo 190.",
+            "dica": "É um número de telefone gratuito citado na lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ter direitos também traz deveres. Qual destes é um dever da criança?",
+            "alternativas": [
+              "Mandar nos adultos da casa",
+              "Respeitar as pessoas e frequentar a escola",
+              "Faltar às aulas quando quiser",
+              "Usar o celular a noite inteira"
+            ],
+            "correta": 1,
+            "explicacao": "Assim como queremos ser respeitados, precisamos respeitar os outros. Ir às aulas é ao mesmo tempo um direito e um compromisso.",
+            "dica": "Direitos vêm com deveres. Qual opção é uma responsabilidade sua?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o ECA, uma pessoa de 15 anos é:",
+            "alternativas": [
+              "Criança",
+              "Adolescente",
+              "Adulta",
+              "Idosa"
+            ],
+            "correta": 1,
+            "explicacao": "Adolescente é quem tem de 12 a 18 anos. Com 15, a pessoa é adolescente.",
+            "dica": "A adolescência vai dos 12 aos 18 anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um vizinho percebe que uma criança está sofrendo maus-tratos. O que ele pode fazer?",
+            "alternativas": [
+              "Nada, não é problema dele",
+              "Gravar e postar nas redes",
+              "Ligar para o Disque 100 ou procurar o Conselho Tutelar",
+              "Esperar a criança crescer"
+            ],
+            "correta": 2,
+            "explicacao": "Proteger crianças é dever de todos. Disque 100 e Conselho Tutelar são os caminhos certos; postar expõe a criança.",
+            "dica": "Proteger crianças é dever de todos, e a lição citou dois caminhos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem é responsável por garantir os direitos das crianças?",
+            "alternativas": [
+              "Só a escola",
+              "Só o governo",
+              "Só a própria criança",
+              "A família, a sociedade e o governo"
+            ],
+            "correta": 3,
+            "explicacao": "O ECA divide essa responsabilidade entre família, sociedade e governo.",
+            "dica": "A lição citou três responsáveis juntos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Maria tem 12 anos e 6 meses. Para o ECA, ela é:",
+            "alternativas": [
+              "Adolescente",
+              "Criança",
+              "Adulta",
+              "Bebê"
+            ],
+            "correta": 0,
+            "explicacao": "Criança é até 12 anos incompletos. Maria já fez 12, então é adolescente.",
+            "dica": "Criança é até 12 anos incompletos. Ela já completou 12?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um dever da criança na escola?",
+            "alternativas": [
+              "Estragar as carteiras",
+              "Cuidar do material e respeitar os colegas",
+              "Faltar sempre que quiser",
+              "Desrespeitar a professora"
+            ],
+            "correta": 1,
+            "explicacao": "Ter direitos vem junto com deveres, como respeitar as pessoas e cuidar da escola.",
+            "dica": "Direitos vêm junto com deveres de respeito e cuidado."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Segundo a Constituição, a partir de que idade um adolescente pode trabalhar como jovem aprendiz?",
+            "alternativas": [
+              "12 anos",
+              "14 anos",
+              "16 anos",
+              "18 anos"
+            ],
+            "correta": 1,
+            "explicacao": "Como aprendiz, a partir dos 14 anos. Fora da aprendizagem, só a partir dos 16.",
+            "dica": "O aprofundamento citou duas idades: uma para o aprendiz e outra para o trabalho comum."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um adolescente de 17 anos foi chamado para trabalhar à noite numa fábrica perigosa. Isso é permitido?",
+            "alternativas": [
+              "Sim, porque ele já tem mais de 16",
+              "Sim, se a família deixar",
+              "Não, trabalho noturno ou perigoso é proibido para menores de 18",
+              "Sim, se pagarem mais"
+            ],
+            "correta": 2,
+            "explicacao": "Mesmo podendo trabalhar a partir dos 16, quem tem menos de 18 não pode fazer trabalho noturno, perigoso ou que faz mal à saúde.",
+            "dica": "O aprofundamento falou de três tipos de trabalho proibidos antes dos 18 anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer “proteção integral”?",
+            "alternativas": [
+              "Proteger a criança só na escola",
+              "Proteger só a saúde",
+              "Proteger só nos fins de semana",
+              "Proteger a criança em todos os aspectos da vida, com responsabilidade de todos"
+            ],
+            "correta": 3,
+            "explicacao": "Integral quer dizer completo: a criança deve ser protegida em tudo, por família, sociedade e governo.",
+            "dica": "Integral quer dizer “inteiro”, “completo”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como são escolhidos os conselheiros tutelares?",
+            "alternativas": [
+              "Pela comunidade, numa eleição",
+              "Por sorteio na escola",
+              "Pelo dono do bairro",
+              "Pelas crianças da sala"
+            ],
+            "correta": 0,
+            "explicacao": "Os conselheiros tutelares são eleitos pela comunidade.",
+            "dica": "O aprofundamento disse que a comunidade participa da escolha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem faz uma denúncia pelo Disque 100:",
+            "alternativas": [
+              "Precisa dar o nome completo e o CPF",
+              "Pode fazer a denúncia sem se identificar",
+              "Só pode ligar em dia útil",
+              "Precisa ir pessoalmente a um escritório"
+            ],
+            "correta": 1,
+            "explicacao": "O Disque 100 funciona 24 horas, todos os dias, e aceita denúncia anônima.",
+            "dica": "O aprofundamento falou do horário e de como fica o nome de quem liga."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O reino que proibiu os adjetivos",
+    "texto": "Era uma vez um rei muito apressado que achava que as pessoas falavam demais. Um dia, ele decretou: “A partir de hoje, estão proibidos os adjetivos!”.\n\nNo começo, ninguém ligou. Mas logo a confusão começou. Na feira, o vendedor gritava “Olha a banana!”, e os fregueses não sabiam se era banana madura ou verde. Na escola, a professora pedia “Pegue o lápis”, e as crianças não sabiam qual dos vinte lápis.\n\nO pior foi no aniversário da princesa. Ela queria dizer que o bolo estava delicioso, que a festa estava linda e que estava feliz. Abriu a boca e só conseguiu falar: “Bolo. Festa. Eu”.\n\nO rei olhou para a filha triste e entendeu o erro. No dia seguinte, desfez a lei. E a primeira frase que disse foi: “Que dia bonito!”.\n\nDesde então, ninguém naquele reino deixou de enfeitar as palavras."
+  },
+  "escrita": {
+    "proposta": "Descreva, em 5 a 8 linhas, o seu lugar preferido (pode ser um cômodo da casa, a praça do bairro ou a escola). Use pelo menos 6 adjetivos diferentes e sublinhe cada um deles no caderno."
+  }
+}

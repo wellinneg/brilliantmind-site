@@ -1,0 +1,1203 @@
+{
+  "dia": 9,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Equação do 2º grau",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Uma equação do 2º grau tem a forma ax² + bx + c = 0, com a diferente de zero. Exemplos: x² − 5x + 6 = 0 (a = 1, b = −5, c = 6) e 3x² + 2x − 1 = 0 (a = 3, b = 2, c = −1). Ela pode ter até duas soluções, chamadas raízes.",
+          "Equações incompletas se resolvem sem fórmula. Se falta o b: x² − 49 = 0 → x² = 49 → x = 7 ou x = −7. Se falta o c: x² − 5x = 0 → x(x − 5) = 0 → x = 0 ou x = 5 (um produto só é zero se um dos fatores for zero).",
+          "Para a equação completa, usamos a fórmula de Bhaskara. Primeiro calculamos o discriminante: Δ = b² − 4ac. Depois: x = (−b ± √Δ) ÷ 2a.",
+          "O Δ diz quantas raízes existem: Δ > 0, duas raízes diferentes; Δ = 0, uma raiz só (as duas são iguais); Δ < 0, nenhuma raiz real, porque não existe raiz quadrada real de número negativo.",
+          "Em problemas, confira se a resposta faz sentido: um comprimento ou um tempo não pode ser negativo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Resolva x² − 5x + 6 = 0.",
+            "resolucao": "a = 1, b = −5, c = 6. Δ = 25 − 24 = 1. x = (5 ± 1) ÷ 2, então x = 3 ou x = 2. Conferindo: 9 − 15 + 6 = 0 e 4 − 10 + 6 = 0."
+          },
+          {
+            "enunciado": "Um quadrado tem área 81 m². Qual é o lado?",
+            "resolucao": "x² = 81 → x = 9 ou x = −9. Como lado não é negativo, o lado é 9 m."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Soma e produto: numa equação ax² + bx + c = 0, a soma das raízes é −b ÷ a e o produto é c ÷ a. Em x² − 7x + 12 = 0, a soma é 7 e o produto é 12: as raízes são 3 e 4. Isso também permite montar uma equação a partir das raízes: x² − (soma)x + (produto) = 0.",
+        "Cuidado ao dividir por x: em x² = 5x, dividir os dois lados por x faz perder a raiz x = 0. O certo é passar tudo para um lado e fatorar: x² − 5x = 0 → x(x − 5) = 0 → x = 0 ou x = 5.",
+        "Para que uma equação tenha uma única raiz, o Δ precisa ser zero. Equações do 2º grau também aparecem na Física: a altura de uma bola lançada para cima pode ser h = −5t² + 20t; ela volta ao chão quando h = 0."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma equação do 2º grau?",
+            "alternativas": [
+              "2x + 3 = 0",
+              "x² − 4x + 3 = 0",
+              "x³ = 8",
+              "5 = 5"
+            ],
+            "correta": 1,
+            "explicacao": "Tem x², e o maior expoente é 2.",
+            "dica": "Procure a que tem x elevado a 2 como maior expoente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na fórmula de Bhaskara, o Δ (delta) é:",
+            "alternativas": [
+              "b² − 4ac",
+              "a + b + c",
+              "2a",
+              "b − 4"
+            ],
+            "correta": 0,
+            "explicacao": "Δ = b² − 4ac é o discriminante.",
+            "dica": "Releia o terceiro parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as soluções de x² = 25?",
+            "alternativas": [
+              "Só 5",
+              "Só −5",
+              "5 e −5",
+              "25"
+            ],
+            "correta": 2,
+            "explicacao": "5 × 5 = 25 e (−5) × (−5) = 25. As duas servem.",
+            "dica": "Um número negativo ao quadrado também fica positivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o Δ é negativo, a equação tem:",
+            "alternativas": [
+              "Duas raízes",
+              "Uma raiz",
+              "Infinitas raízes",
+              "Nenhuma raiz real"
+            ],
+            "correta": 3,
+            "explicacao": "Não existe raiz quadrada real de número negativo.",
+            "dica": "Dá para calcular a raiz quadrada de um número negativo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 3x² + 2x − 1 = 0, quanto vale a?",
+            "alternativas": [
+              "3",
+              "2",
+              "−1",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "a é o número que multiplica o x².",
+            "dica": "Olhe o número na frente do x²."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de x² − 7x + 10 = 0?",
+            "alternativas": [
+              "−2 e −5",
+              "2 e 5",
+              "1 e 10",
+              "7 e 10"
+            ],
+            "correta": 1,
+            "explicacao": "Δ = 49 − 40 = 9. x = (7 ± 3) ÷ 2 → 5 ou 2.",
+            "dica": "Calcule o Δ e lembre que −b aqui é +7."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a raiz de x² − 6x + 9 = 0?",
+            "alternativas": [
+              "−3",
+              "3 e −3",
+              "3",
+              "Nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "Δ = 36 − 36 = 0, então há uma raiz só: x = 6 ÷ 2 = 3.",
+            "dica": "Quando o Δ dá zero, quantas raízes existem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as soluções de x² − 3x = 0?",
+            "alternativas": [
+              "Só 3",
+              "0 e −3",
+              "Só 0",
+              "0 e 3"
+            ],
+            "correta": 3,
+            "explicacao": "x(x − 3) = 0 → x = 0 ou x = 3.",
+            "dica": "Coloque o x em evidência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale o Δ de 2x² + 3x − 2 = 0?",
+            "alternativas": [
+              "25",
+              "−7",
+              "1",
+              "17"
+            ],
+            "correta": 0,
+            "explicacao": "Δ = 3² − 4 · 2 · (−2) = 9 + 16 = 25. O erro comum é fazer 9 − 16.",
+            "dica": "Cuidado com o sinal do c: menos com menos dá mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno quadrado tem 64 m² de área. Qual é o lado?",
+            "alternativas": [
+              "−8 m",
+              "8 m",
+              "32 m",
+              "16 m"
+            ],
+            "correta": 1,
+            "explicacao": "x² = 64 → x = 8 ou −8. Lado não pode ser negativo: 8 m.",
+            "dica": "Qual número ao quadrado dá 64? Pode ser negativo num terreno?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de 2x² − 8x + 6 = 0?",
+            "alternativas": [
+              "2 e 6",
+              "−1 e −3",
+              "1 e 3",
+              "4 e 12"
+            ],
+            "correta": 2,
+            "explicacao": "Δ = 64 − 48 = 16. x = (8 ± 4) ÷ 4 → 3 ou 1.",
+            "dica": "Não esqueça que o denominador é 2a = 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas raízes reais tem x² + 4x + 5 = 0?",
+            "alternativas": [
+              "Duas: −1 e −5",
+              "Duas: 1 e 5",
+              "Uma: −2",
+              "Nenhuma raiz real"
+            ],
+            "correta": 3,
+            "explicacao": "Δ = 16 − 20 = −4. Como é negativo, não há raiz real.",
+            "dica": "Calcule o Δ antes de qualquer coisa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um número positivo somado ao seu quadrado dá 12. Que número é esse?",
+            "alternativas": [
+              "3",
+              "4",
+              "−4",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "x² + x − 12 = 0 → Δ = 1 + 48 = 49 → x = (−1 ± 7) ÷ 2 → 3 ou −4. Positivo: 3. Conferindo: 9 + 3 = 12.",
+            "dica": "Monte a equação x² + x = 12 e passe o 12 para o outro lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo tem comprimento 3 m maior que a largura e área de 40 m². Qual é a largura?",
+            "alternativas": [
+              "8 m",
+              "5 m",
+              "10 m",
+              "4 m"
+            ],
+            "correta": 1,
+            "explicacao": "x(x + 3) = 40 → x² + 3x − 40 = 0 → Δ = 9 + 160 = 169 → x = (−3 + 13) ÷ 2 = 5. Comprimento 8, largura 5.",
+            "dica": "Chame a largura de x; o comprimento é x + 3."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos da fórmula de Bhaskara:",
+            "itens": [
+              "Identificar a, b e c",
+              "Calcular Δ = b² − 4ac",
+              "Tirar a raiz quadrada de Δ",
+              "Aplicar x = (−b ± √Δ) ÷ 2a"
+            ],
+            "explicacao": "Sem a, b e c não se calcula o Δ; sem o Δ não se tira a raiz; só então se aplica a fórmula.",
+            "dica": "Comece pelos coeficientes e termine com as duas raízes."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a soma das raízes de 2x² − 10x + 7 = 0?",
+            "alternativas": [
+              "−5",
+              "5",
+              "10",
+              "3,5"
+            ],
+            "correta": 1,
+            "explicacao": "Soma = −b ÷ a = 10 ÷ 2 = 5. O 3,5 é o produto (c ÷ a), uma pegadinha.",
+            "dica": "Use a relação de soma do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que valor de k a equação x² − 6x + k = 0 tem uma única raiz?",
+            "alternativas": [
+              "6",
+              "36",
+              "3",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "Raiz única quando Δ = 0: 36 − 4k = 0 → k = 9. Conferindo: x² − 6x + 9 = (x − 3)².",
+            "dica": "Iguale o Δ a zero e resolva para k."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual equação tem raízes 2 e −3?",
+            "alternativas": [
+              "x² + x − 6 = 0",
+              "x² − x − 6 = 0",
+              "x² + x + 6 = 0",
+              "x² − 5x + 6 = 0"
+            ],
+            "correta": 0,
+            "explicacao": "Soma = −1 e produto = −6: x² − (−1)x + (−6) = x² + x − 6. Conferindo: (x − 2)(x + 3).",
+            "dica": "Calcule soma e produto e monte x² − (soma)x + (produto) = 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Luana resolveu x² = 5x dividindo os dois lados por x e achou x = 5. O que aconteceu?",
+            "alternativas": [
+              "Não faltou nada",
+              "Faltou x = −5",
+              "Faltou a raiz x = 0, que se perdeu ao dividir por x",
+              "A única resposta é x = 0"
+            ],
+            "correta": 2,
+            "explicacao": "x² − 5x = 0 → x(x − 5) = 0 → x = 0 ou 5. Dividir por x elimina a solução zero.",
+            "dica": "Teste x = 0 na equação original."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A altura de uma bola é h = −5t² + 20t (h em metros, t em segundos). Depois de quanto tempo ela volta ao chão?",
+            "alternativas": [
+              "2 s",
+              "4 s",
+              "20 s",
+              "5 s"
+            ],
+            "correta": 1,
+            "explicacao": "h = 0 → −5t(t − 4) = 0 → t = 0 (lançamento) ou t = 4 s.",
+            "dica": "Iguale h a zero e coloque t em evidência."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Laços: repetir sem copiar e colar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um laço (ou loop) repete comandos várias vezes. Em vez de escrever print(\"Oi\") dez vezes, você escreve uma vez dentro de um laço.",
+          "O for repete um número conhecido de vezes. for i in range(5): repete 5 vezes, com i valendo 0, 1, 2, 3 e 4 (o range para ANTES do número final). range(1, 6) vai de 1 a 5. range(0, 10, 2) vai de 2 em 2: 0, 2, 4, 6, 8.",
+          "O while repete enquanto uma condição for verdadeira: while saldo < 100: saldo = saldo + 10. Se a condição nunca ficar falsa, o laço nunca termina: é o laço infinito, um erro comum.",
+          "Um uso muito importante é o acumulador: uma variável que vai somando. soma = 0; for n in range(1, 4): soma = soma + n. No fim, soma vale 1 + 2 + 3 = 6. A forma curta soma += n faz a mesma coisa."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O que imprime: for i in range(1, 4): print(i * 10)?",
+            "resolucao": "i vale 1, 2 e 3. Imprime 10, 20 e 30."
+          },
+          {
+            "enunciado": "Quanto vale x no fim? x = 1; while x < 10: x = x * 3",
+            "resolucao": "x: 1 → 3 → 9 → 27. Quando x vale 27, a condição x < 10 fica falsa e o laço para. x = 27."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O range aceita passo negativo para contar para trás: range(10, 0, -2) dá 10, 8, 6, 4, 2 (para antes do 0). O comando break sai do laço na hora, mesmo que ele ainda tivesse voltas: útil quando você já achou o que procurava.",
+        "Laço dentro de laço multiplica as repetições: um for de 3 voltas com outro for de 4 voltas dentro executa o comando interno 3 × 4 = 12 vezes. Se o laço de dentro depende do de fora (for j in range(i)), conte volta por volta.",
+        "Contador e acumulador são parecidos: o contador soma 1 a cada vez que algo acontece (cont += 1); o acumulador soma valores (total += preco). Combinando com if e o operador % (resto da divisão), dá para contar, por exemplo, quantos números de uma lista são pares."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um laço?",
+            "alternativas": [
+              "Para repetir comandos várias vezes",
+              "Para apagar o programa",
+              "Para criar uma senha",
+              "Para desligar o computador"
+            ],
+            "correta": 0,
+            "explicacao": "Laço repete comandos sem precisar copiar e colar.",
+            "dica": "Pense na palavra “loop” (volta)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais valores range(3) produz?",
+            "alternativas": [
+              "1, 2, 3",
+              "0, 1, 2",
+              "0, 1, 2, 3",
+              "Só o 3"
+            ],
+            "correta": 1,
+            "explicacao": "O range começa em 0 e para antes do 3.",
+            "dica": "O range começa no zero e para antes do número final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O while repete:",
+            "alternativas": [
+              "Uma vez só",
+              "Nunca",
+              "Enquanto a condição for verdadeira",
+              "Só no fim do programa"
+            ],
+            "correta": 2,
+            "explicacao": "While significa “enquanto”.",
+            "dica": "Traduza a palavra while."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama um laço que nunca para?",
+            "alternativas": [
+              "Laço curto",
+              "Laço duplo",
+              "Laço vazio",
+              "Laço infinito"
+            ],
+            "correta": 3,
+            "explicacao": "Se a condição nunca fica falsa, o laço é infinito.",
+            "dica": "Um laço que nunca acaba é..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes aparece “Oi”? for i in range(4): print(\"Oi\")",
+            "alternativas": [
+              "4",
+              "3",
+              "5",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "range(4) dá 0, 1, 2, 3: quatro voltas.",
+            "dica": "Conte os valores de range(4)."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais valores range(1, 6) produz?",
+            "alternativas": [
+              "0, 1, 2, 3, 4, 5",
+              "1, 2, 3, 4, 5",
+              "1, 2, 3, 4, 5, 6",
+              "2, 3, 4, 5"
+            ],
+            "correta": 1,
+            "explicacao": "Começa em 1 e para antes do 6.",
+            "dica": "O segundo número nunca entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale soma no fim? soma = 0; for n in range(1, 5): soma = soma + n",
+            "alternativas": [
+              "15",
+              "4",
+              "10",
+              "9"
+            ],
+            "correta": 2,
+            "explicacao": "n vale 1, 2, 3, 4. Soma: 1 + 2 + 3 + 4 = 10.",
+            "dica": "Liste os valores de n e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais valores range(0, 10, 3) produz?",
+            "alternativas": [
+              "0, 3, 6",
+              "3, 6, 9",
+              "0, 3, 6, 9, 12",
+              "0, 3, 6, 9"
+            ],
+            "correta": 3,
+            "explicacao": "Começa em 0, vai de 3 em 3 e para antes do 10: 0, 3, 6, 9.",
+            "dica": "O terceiro número é o passo. O 10 não entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale x no fim? x = 1; while x < 20: x = x * 2",
+            "alternativas": [
+              "32",
+              "16",
+              "20",
+              "64"
+            ],
+            "correta": 0,
+            "explicacao": "1 → 2 → 4 → 8 → 16 → 32. Com 16 a condição ainda vale, então dobra mais uma vez.",
+            "dica": "Acompanhe x volta a volta e veja quando a condição falha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números são impressos? n = 10; while n > 0: print(n); n = n - 3",
+            "alternativas": [
+              "3",
+              "4",
+              "10",
+              "Infinitos"
+            ],
+            "correta": 1,
+            "explicacao": "Imprime 10, 7, 4 e 1. Depois n vira −2 e o laço para.",
+            "dica": "Escreva os valores de n até ficar menor ou igual a zero."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale total no fim? total = 0; for semana in range(8): total = total + 15",
+            "alternativas": [
+              "105",
+              "120",
+              "135",
+              "8"
+            ],
+            "correta": 1,
+            "explicacao": "8 voltas de 15: 8 × 15 = 120.",
+            "dica": "Quantas voltas o laço dá? Some 15 em cada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos asteriscos aparecem? for i in range(3): for j in range(4): print(\"*\")",
+            "alternativas": [
+              "7",
+              "4",
+              "12",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "Para cada uma das 3 voltas de fora, há 4 de dentro: 3 × 4 = 12.",
+            "dica": "Laço dentro de laço multiplica ou soma?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que imprime for i in range(10, 0, -2): print(i)?",
+            "alternativas": [
+              "10, 8, 6, 4, 2, 0",
+              "8, 6, 4, 2",
+              "10, 9, 8, 7, 6, 5, 4, 3, 2, 1",
+              "10, 8, 6, 4, 2"
+            ],
+            "correta": 3,
+            "explicacao": "Começa em 10, desce de 2 em 2 e para antes do 0.",
+            "dica": "O número final (0) entra ou não?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual código vira um laço infinito?",
+            "alternativas": [
+              "x = 5; while x > 0: print(x)",
+              "x = 5; while x > 0: x = x - 1",
+              "for i in range(5): print(i)",
+              "x = 0; while x < 3: x = x + 1"
+            ],
+            "correta": 0,
+            "explicacao": "Na primeira opção, x nunca muda, então x > 0 é sempre verdadeiro.",
+            "dica": "Procure o laço em que a variável da condição nunca muda."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as linhas do programa que soma as notas de uma lista:",
+            "itens": [
+              "soma = 0",
+              "for nota in notas:",
+              "    soma = soma + nota",
+              "print(soma)"
+            ],
+            "explicacao": "Primeiro zera o acumulador, depois o laço soma cada nota e, no fim (fora do laço), mostra o resultado.",
+            "dica": "O acumulador começa antes do laço e o resultado aparece depois."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece? for i in range(1, 100): if i * i > 50: break — e depois print(i)",
+            "alternativas": [
+              "7",
+              "8",
+              "50",
+              "99"
+            ],
+            "correta": 1,
+            "explicacao": "7 × 7 = 49 (não passa de 50); 8 × 8 = 64 passa, e o break para o laço com i = 8.",
+            "dica": "Procure o primeiro número cujo quadrado passa de 50."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale cont no fim? cont = 0; for n in range(1, 21): if n % 3 == 0 or n % 5 == 0: cont += 1",
+            "alternativas": [
+              "9",
+              "10",
+              "11",
+              "8"
+            ],
+            "correta": 0,
+            "explicacao": "Múltiplos de 3: 6 números; de 5: 4 números; o 15 está nos dois. 6 + 4 − 1 = 9.",
+            "dica": "Conte os múltiplos de 3 e de 5, mas não conte duas vezes o que é dos dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale saldo, aproximadamente, no fim? saldo = 100; for mes in range(3): saldo = saldo * 1.1",
+            "alternativas": [
+              "130",
+              "110",
+              "133,1",
+              "300"
+            ],
+            "correta": 2,
+            "explicacao": "100 → 110 → 121 → 133,1. São juros compostos, não 10 por mês.",
+            "dica": "Multiplique por 1,1 a cada volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o último número impresso? for i in range(5): print(i)",
+            "alternativas": [
+              "5",
+              "0",
+              "6",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "range(5) vai de 0 a 4. O 5 não entra: é a pegadinha.",
+            "dica": "O range para antes do número final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos asteriscos aparecem? for i in range(4): for j in range(i): print(\"*\")",
+            "alternativas": [
+              "16",
+              "6",
+              "10",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "i = 0: 0; i = 1: 1; i = 2: 2; i = 3: 3. Total: 0 + 1 + 2 + 3 = 6.",
+            "dica": "O laço de dentro muda de tamanho a cada volta. Conte volta por volta."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Carta e e-mail formal",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Usamos texto formal para escrever à escola, a uma empresa, a um órgão público ou a alguém que não conhecemos. Ele precisa ser claro, educado e sem gírias, abreviações (vc, pq) ou emojis.",
+          "A carta formal tem cinco partes: local e data (geralmente à direita, no alto); vocativo, a saudação (“Prezada Senhora Diretora,”); corpo do texto, em que você se apresenta, explica o motivo e faz o pedido; despedida (“Atenciosamente,”); e nome com assinatura.",
+          "O e-mail formal segue a mesma ideia: assunto curto e claro (“Pedido de declaração de matrícula – Ana Souza, 9º B”), saudação, texto em parágrafos curtos, despedida e assinatura com nome completo e contato. Use um endereço de e-mail sério, como nome.sobrenome.",
+          "No Word, use fonte legível (tamanho 12), alinhe a data à direita com o botão Alinhar à Direita e revise a ortografia antes de terminar. Para anexar ou imprimir sem desconfigurar, salve em PDF (Arquivo > Salvar como > PDF)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva um bom assunto para pedir a segunda via do boletim.",
+            "resolucao": "“Pedido de segunda via do boletim – João Lima, 9º A”. Diz o que é e quem pede."
+          },
+          {
+            "enunciado": "Transforme em formal: “Oi, vc pode me mandar o doc?”",
+            "resolucao": "“Bom dia. Gostaria de solicitar o envio do documento. Desde já, agradeço a atenção.”"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Pronomes de tratamento: Vossa Senhoria (V. Sa.) para autoridades em geral e Vossa Excelência (V. Exa.) para altos cargos, como prefeito, juiz, deputado e governador. Eles pedem o verbo na 3ª pessoa: “Vossa Excelência está convidado”, e não “estais”. Para a direção da escola, “Prezado Senhor Diretor” ou “Prezada Senhora Diretora” resolve bem; ajuste ao gênero da pessoa.",
+        "No e-mail: Cc (cópia) mostra a todos quem recebeu a cópia; Cco (cópia oculta) envia sem que os outros vejam esse endereço. “Responder” vai só para quem escreveu; “Responder a todos” vai para todos da conversa. Texto em CAIXA ALTA passa a ideia de grito.",
+        "Antes de enviar, confira: o assunto está claro? o anexo foi mesmo anexado (e avisado no texto)? o nome e o contato estão na assinatura? o primeiro parágrafo diz quem você é e o motivo da mensagem? Um e-mail formal bom é curto: quem lê deve entender o pedido em poucos segundos."
+      ],
+      "desafio_pratico": "No Word (ou no editor de textos do celular), escreva uma carta formal à direção da sua escola com um pedido real, como mais livros na biblioteca ou um bebedouro novo. Coloque local e data alinhados à direita, vocativo, três parágrafos curtos (quem você é, o motivo e o pedido), despedida e seu nome. Use fonte tamanho 12 e salve em PDF. Depois escreva o mesmo pedido em forma de e-mail (assunto + corpo + assinatura), sem enviar, e mostre os dois a um adulto.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma despedida formal?",
+            "alternativas": [
+              "Atenciosamente,",
+              "Falou!",
+              "Bjs",
+              "Tchau, galera"
+            ],
+            "correta": 0,
+            "explicacao": "“Atenciosamente” é a despedida formal mais comum.",
+            "dica": "Procure a opção que você usaria com a diretora da escola."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O assunto de um e-mail formal deve ser:",
+            "alternativas": [
+              "Vazio",
+              "Curto e claro, dizendo o tema",
+              "Todo em letras maiúsculas",
+              "Uma piada"
+            ],
+            "correta": 1,
+            "explicacao": "O assunto diz, em poucas palavras, do que trata a mensagem.",
+            "dica": "Quem recebe deve entender o tema antes de abrir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa carta formal, o que deve ser evitado?",
+            "alternativas": [
+              "O vocativo",
+              "A data",
+              "Gírias e emojis",
+              "A assinatura"
+            ],
+            "correta": 2,
+            "explicacao": "Gírias e emojis não combinam com texto formal.",
+            "dica": "Três opções são partes da carta. Qual não é?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para enviar um documento do Word sem desconfigurar, salve como:",
+            "alternativas": [
+              "TXT",
+              "MP3",
+              "Imagem JPG gigante",
+              "PDF"
+            ],
+            "correta": 3,
+            "explicacao": "O PDF mantém a formatação em qualquer aparelho.",
+            "dica": "É o formato citado no fim da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Prezada Senhora Diretora,”, essa parte da carta se chama:",
+            "alternativas": [
+              "Vocativo (saudação)",
+              "Assinatura",
+              "Assunto",
+              "Anexo"
+            ],
+            "correta": 0,
+            "explicacao": "Vocativo é a parte em que chamamos a pessoa a quem escrevemos.",
+            "dica": "É a parte que cumprimenta quem vai ler."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as partes de uma carta formal:",
+            "itens": [
+              "Local e data",
+              "Vocativo",
+              "Corpo do texto",
+              "Despedida",
+              "Nome e assinatura"
+            ],
+            "explicacao": "Data no alto, depois a saudação, o texto, a despedida e, por fim, quem escreveu.",
+            "dica": "Comece pelo que fica no alto da folha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor assunto?",
+            "alternativas": [
+              "Oi",
+              "Pedido de declaração de matrícula – João Lima, 9º A",
+              "URGENTE!!!!",
+              "(sem assunto)"
+            ],
+            "correta": 1,
+            "explicacao": "Diz o tema e quem pede. Os outros não informam nada.",
+            "dica": "Qual assunto permite entender o pedido sem abrir o e-mail?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é adequada para um e-mail formal?",
+            "alternativas": [
+              "vc pode me mandar o doc?",
+              "Cadê a resposta??",
+              "Gostaria de solicitar uma declaração de matrícula.",
+              "MANDA LOGO"
+            ],
+            "correta": 2,
+            "explicacao": "Linguagem educada, sem abreviação e sem caixa alta.",
+            "dica": "Procure a frase sem abreviações nem cobrança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Escrever o e-mail todo em CAIXA ALTA passa a ideia de:",
+            "alternativas": [
+              "Educação",
+              "Alegria",
+              "Capricho",
+              "Grito"
+            ],
+            "correta": 3,
+            "explicacao": "Na internet, letras maiúsculas são lidas como gritar.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual endereço é mais adequado para enviar um currículo?",
+            "alternativas": [
+              "joao.lima@email.com",
+              "gatinho.fofo2009@email.com",
+              "xXjoaoXx@email.com",
+              "zueira.total@email.com"
+            ],
+            "correta": 0,
+            "explicacao": "Nome e sobrenome passam seriedade. Apelidos podem tirar sua chance.",
+            "dica": "Qual endereço uma empresa levaria a sério?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você vai escrever ao prefeito da cidade. Qual pronome de tratamento usar?",
+            "alternativas": [
+              "Você",
+              "Tu",
+              "Vossa Excelência",
+              "Vossa Majestade"
+            ],
+            "correta": 2,
+            "explicacao": "Prefeito é alto cargo: Vossa Excelência.",
+            "dica": "O aprofundamento lista os pronomes para altos cargos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você escreveu “segue o boletim em anexo”, mas esqueceu de anexar. Qual é o hábito certo?",
+            "alternativas": [
+              "Enviar e depois ver",
+              "Conferir o anexo antes de clicar em enviar",
+              "Nunca avisar sobre anexos",
+              "Mandar o arquivo em outro e-mail sem texto"
+            ],
+            "correta": 1,
+            "explicacao": "Revisar antes de enviar evita esse erro comum.",
+            "dica": "O que deveria ser feito antes de clicar no botão?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o campo Cco?",
+            "alternativas": [
+              "Para escrever o assunto",
+              "Para anexar arquivos",
+              "Para mostrar a todos quem recebeu",
+              "Para enviar uma cópia sem que os outros vejam esse endereço"
+            ],
+            "correta": 3,
+            "explicacao": "Cco é cópia oculta: o endereço fica escondido dos outros.",
+            "dica": "O “o” de Cco quer dizer oculta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual primeiro parágrafo é melhor num e-mail à coordenação?",
+            "alternativas": [
+              "Meu nome é Lara Dias, do 9º B, e escrevo para pedir a revisão da minha nota de Ciências.",
+              "E aí, tudo bem? Então, é o seguinte...",
+              "Vocês erraram a minha nota!!!",
+              "Nota."
+            ],
+            "correta": 0,
+            "explicacao": "Diz quem escreve, de onde e qual é o motivo, com educação.",
+            "dica": "O bom começo apresenta a pessoa e o motivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como alinhar a data à direita no Word do jeito certo?",
+            "alternativas": [
+              "Apertar a barra de espaço muitas vezes",
+              "Selecionar a linha e usar o botão Alinhar à Direita",
+              "Apertar Enter várias vezes",
+              "Trocar a fonte"
+            ],
+            "correta": 1,
+            "explicacao": "O botão de alinhamento mantém a data no lugar mesmo se o texto mudar. Espaços desalinham.",
+            "dica": "Qual opção usa uma ferramenta de formatação do Word?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o problema deste e-mail? “Prezado Sr. Carlos, venho solicitar a declaração de estágio. Atenciosamente,”",
+            "alternativas": [
+              "O vocativo está errado",
+              "Falta o assunto dentro do texto",
+              "Falta o nome de quem escreve na assinatura",
+              "A despedida é informal"
+            ],
+            "correta": 2,
+            "explicacao": "Sem nome e contato, o Sr. Carlos não sabe para quem fazer a declaração.",
+            "dica": "Leia o e-mail até o fim: quem pediu?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Vossa Excelência ___ convidado para a feira de ciências.”",
+            "alternativas": [
+              "estais",
+              "está",
+              "estás",
+              "estão"
+            ],
+            "correta": 1,
+            "explicacao": "Pronomes de tratamento pedem o verbo na 3ª pessoa do singular.",
+            "dica": "O aprofundamento diz em que pessoa fica o verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você recebeu um e-mail com 5 pessoas em cópia e quer agradecer só a quem enviou. Use:",
+            "alternativas": [
+              "Responder",
+              "Responder a todos",
+              "Encaminhar para todos",
+              "Cco para todos"
+            ],
+            "correta": 0,
+            "explicacao": "Responder vai só para o remetente; não enche a caixa dos outros.",
+            "dica": "Qual botão manda a mensagem só para uma pessoa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual vocativo é correto para escrever à professora Márcia, que é a diretora?",
+            "alternativas": [
+              "Prezado Senhor Diretor,",
+              "Querida Márcia!!",
+              "E aí, diretora",
+              "Prezada Senhora Diretora,"
+            ],
+            "correta": 3,
+            "explicacao": "É formal e combina com o gênero da pessoa.",
+            "dica": "O vocativo precisa ser formal e respeitar quem vai ler."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes e-mails tem tudo o que um e-mail formal precisa?",
+            "alternativas": [
+              "Assunto: oi / Texto: manda o doc",
+              "Assunto: Pedido de histórico escolar – Rui Alves / Texto: Prezada secretaria, solicito meu histórico. Atenciosamente, Rui Alves, (11) 90000-0000",
+              "Sem assunto / Texto: Prezada secretaria, solicito meu histórico.",
+              "Assunto: URGENTE / Texto: CADÊ MEU HISTÓRICO"
+            ],
+            "correta": 1,
+            "explicacao": "Tem assunto claro, saudação, pedido, despedida, nome e contato.",
+            "dica": "Confira cada item: assunto, saudação, pedido, despedida e assinatura."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Fluxo de caixa e capital de giro",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Fluxo de caixa é o registro de todo dinheiro que entra e sai do negócio, dia a dia ou semana a semana. A conta é simples: saldo final = saldo inicial + entradas − saídas.",
+          "Lucro e dinheiro no caixa não são a mesma coisa. Se você vende a prazo, o lucro existe, mas o dinheiro só entra depois. Enquanto isso, as contas (fornecedor, aluguel, salários) chegam na data certa.",
+          "Capital de giro é o dinheiro necessário para manter o negócio funcionando enquanto as vendas ainda não viraram dinheiro: comprar estoque, pagar contas e pagar a equipe em dia. Falta de capital de giro é um dos maiores motivos de pequenas empresas fecharem.",
+          "Boas práticas: separar o dinheiro pessoal do dinheiro do negócio; fazer a previsão do caixa das próximas semanas; negociar prazos maiores com fornecedores e menores com clientes; e guardar parte do lucro como reserva."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Bia vende brigadeiros. Na semana, começou com R$ 50,00, recebeu R$ 300,00 e gastou R$ 180,00. Qual é o saldo final?",
+            "resolucao": "50 + 300 − 180 = R$ 170,00."
+          },
+          {
+            "enunciado": "Uma loja compra R$ 2.000,00 de estoque à vista e vende tudo por R$ 3.000,00 em 3 parcelas mensais de R$ 1.000,00. Como fica o caixa no 1º mês?",
+            "resolucao": "Sai 2.000 e entra só 1.000: o caixa fica em −R$ 1.000,00. O lucro total é R$ 1.000,00, mas a loja precisa de R$ 1.000,00 de capital de giro para aguentar até receber."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O ciclo de caixa mede quantos dias o negócio precisa financiar: dias que o produto fica no estoque + dias para receber do cliente − dias que o fornecedor dá para pagar. Se o resultado é negativo (por exemplo, um mercado que recebe à vista e paga o fornecedor em 40 dias), o próprio negócio financia o giro, e sobra caixa.",
+        "Faltou dinheiro? Salários e encargos têm de ser pagos em dia: é obrigação legal, e atrasar gera multa, processo e perda de bons funcionários. As saídas são usar a reserva, negociar prazo com fornecedores ou pegar crédito, sabendo que empréstimo tem juros e que antecipar o dinheiro da maquininha tem desconto.",
+        "Vender mais a prazo pode aumentar o lucro, mas aumenta a necessidade de capital de giro até o dinheiro entrar. Uma empresa pode ter lucro no ano e mesmo assim quebrar, se faltar dinheiro para pagar as contas no dia certo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é fluxo de caixa?",
+            "alternativas": [
+              "O registro das entradas e saídas de dinheiro",
+              "O nome da loja",
+              "O estoque de mercadorias",
+              "Um tipo de imposto"
+            ],
+            "correta": 0,
+            "explicacao": "Fluxo de caixa mostra o dinheiro que entra, o que sai e o saldo.",
+            "dica": "Pense no dinheiro “fluindo” para dentro e para fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é capital de giro?",
+            "alternativas": [
+              "O dinheiro que o dono gasta nas férias",
+              "O dinheiro para manter o negócio funcionando enquanto as vendas não viram dinheiro no caixa",
+              "O preço da mercadoria",
+              "O lucro do ano passado"
+            ],
+            "correta": 1,
+            "explicacao": "É a “reserva de fôlego” para pagar contas antes de receber dos clientes.",
+            "dica": "Releia o terceiro parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Saldo inicial R$ 20,00, entradas R$ 50,00 e saídas R$ 30,00. Qual é o saldo final?",
+            "alternativas": [
+              "R$ 100,00",
+              "R$ 60,00",
+              "R$ 40,00",
+              "R$ 50,00"
+            ],
+            "correta": 2,
+            "explicacao": "20 + 50 − 30 = 40.",
+            "dica": "Some o inicial com as entradas e tire as saídas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Misturar o dinheiro pessoal com o do negócio:",
+            "alternativas": [
+              "É recomendado",
+              "É obrigatório",
+              "Não muda nada",
+              "Atrapalha saber se o negócio dá lucro"
+            ],
+            "correta": 3,
+            "explicacao": "Misturando, você não sabe quanto o negócio ganha nem quanto você gasta.",
+            "dica": "A lição diz para fazer o contrário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa venda a prazo, o dinheiro entra:",
+            "alternativas": [
+              "Depois",
+              "Antes da venda",
+              "Nunca",
+              "Sempre no mesmo segundo"
+            ],
+            "correta": 0,
+            "explicacao": "A prazo quer dizer que o cliente paga mais tarde.",
+            "dica": "O que quer dizer “a prazo”?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Saldo inicial R$ 80,00, entradas R$ 450,00, saídas R$ 390,00. Qual é o saldo final?",
+            "alternativas": [
+              "R$ 920,00",
+              "R$ 140,00",
+              "R$ 60,00",
+              "R$ 530,00"
+            ],
+            "correta": 1,
+            "explicacao": "80 + 450 − 390 = 140. O 530 esquece as saídas.",
+            "dica": "Use a fórmula: inicial + entradas − saídas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja vendeu R$ 5.000,00 a prazo no mês e gastou R$ 3.000,00 à vista. O que acontece com o caixa neste mês?",
+            "alternativas": [
+              "Fica com + R$ 2.000,00",
+              "Fica com + R$ 5.000,00",
+              "Fica com − R$ 3.000,00 até receber",
+              "Fica zerado"
+            ],
+            "correta": 2,
+            "explicacao": "O lucro é 2.000, mas o dinheiro das vendas ainda não entrou: no caixa só houve a saída de 3.000.",
+            "dica": "O que entrou de verdade no caixa neste mês?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você paga o fornecedor em 30 dias e recebe do cliente em 45 dias. Quantos dias precisa financiar?",
+            "alternativas": [
+              "75",
+              "45",
+              "30",
+              "15"
+            ],
+            "correta": 3,
+            "explicacao": "Paga no dia 30 e só recebe no dia 45: 15 dias sem o dinheiro.",
+            "dica": "Faça a diferença entre os dois prazos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que fazer a previsão do fluxo de caixa das próximas semanas?",
+            "alternativas": [
+              "Para saber antes quando vai faltar dinheiro e se preparar",
+              "Para pagar menos imposto",
+              "Para não precisar vender",
+              "Para gastar tudo o que entrou"
+            ],
+            "correta": 0,
+            "explicacao": "A previsão mostra o buraco antes de ele chegar.",
+            "dica": "Qual é a vantagem de enxergar o futuro do caixa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o jeito mais barato de ter capital de giro?",
+            "alternativas": [
+              "Cheque especial",
+              "Guardar parte do lucro como reserva",
+              "Rotativo do cartão",
+              "Atrasar o salário da equipe"
+            ],
+            "correta": 1,
+            "explicacao": "A reserva própria não tem juros. Atrasar salário é ilegal.",
+            "dica": "Qual opção não paga juros a ninguém?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A loja compra R$ 2.000,00 de estoque à vista e vende por R$ 3.000,00 em 3 × R$ 1.000,00. Quanto de capital de giro precisa ter no 1º mês?",
+            "alternativas": [
+              "R$ 3.000,00",
+              "R$ 2.000,00",
+              "R$ 1.000,00",
+              "R$ 0,00"
+            ],
+            "correta": 2,
+            "explicacao": "Mês 1: −2.000 + 1.000 = −1.000. Precisa de R$ 1.000,00 para não ficar no vermelho.",
+            "dica": "Faça o caixa do 1º mês: o que sai e o que entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O produto fica 20 dias no estoque, o cliente paga 30 dias depois e o fornecedor dá 25 dias. Qual é o ciclo de caixa?",
+            "alternativas": [
+              "75 dias",
+              "25 dias",
+              "5 dias",
+              "45 dias"
+            ],
+            "correta": 1,
+            "explicacao": "20 + 30 − 25 = 25 dias.",
+            "dica": "Use a fórmula do aprofundamento: estoque + recebimento − pagamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa semana, falta dinheiro para pagar o salário da equipe. Qual é a atitude certa?",
+            "alternativas": [
+              "Atrasar sem avisar",
+              "Pagar só quem reclamar",
+              "Pagar metade e prometer o resto",
+              "Pagar em dia usando a reserva, negociando com fornecedores ou buscando crédito, e rever o planejamento"
+            ],
+            "correta": 3,
+            "explicacao": "Salário em dia é obrigação legal. Atrasar gera multa, processo e perda de bons funcionários.",
+            "dica": "O que a lei exige sobre salário? Comece por aí."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A maquininha paga R$ 1.000,00 em 30 dias, ou hoje com desconto de 4%. Quanto você recebe hoje?",
+            "alternativas": [
+              "R$ 960,00",
+              "R$ 1.040,00",
+              "R$ 996,00",
+              "R$ 600,00"
+            ],
+            "correta": 0,
+            "explicacao": "4% de 1.000 = 40. 1.000 − 40 = 960.",
+            "dica": "Calcule 4% de R$ 1.000,00 e tire do valor."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para montar o fluxo de caixa da semana:",
+            "itens": [
+              "Anotar o saldo inicial",
+              "Registrar todas as entradas",
+              "Registrar todas as saídas",
+              "Calcular o saldo final"
+            ],
+            "explicacao": "Saldo inicial, entradas, saídas e, por fim, a conta do saldo.",
+            "dica": "Siga a ordem da fórmula do saldo final."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Saldo inicial R$ 500,00. Mês 1: entra 2.000, sai 2.800. Mês 2: entra 2.500, sai 2.000. Mês 3: entra 3.000, sai 2.200. Quando o caixa fica negativo e com quanto?",
+            "alternativas": [
+              "Mês 2, com −R$ 500,00",
+              "Mês 1, com −R$ 300,00",
+              "Nunca fica negativo",
+              "Mês 3, com R$ 1.000,00"
+            ],
+            "correta": 1,
+            "explicacao": "Mês 1: 500 + 2.000 − 2.800 = −300. Mês 2: −300 + 2.500 − 2.000 = 200. Mês 3: 200 + 3.000 − 2.200 = 1.000.",
+            "dica": "Calcule o saldo mês a mês, levando o saldo de um mês para o seguinte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma empresa teve lucro de R$ 10.000,00 no ano. Ela pode quebrar mesmo assim?",
+            "alternativas": [
+              "Sim, se faltar dinheiro para pagar as contas no dia certo",
+              "Não, quem tem lucro nunca quebra",
+              "Só se pagar imposto",
+              "Só se for MEI"
+            ],
+            "correta": 0,
+            "explicacao": "Lucro é resultado; caixa é o dinheiro disponível no dia. Sem caixa, as contas atrasam.",
+            "dica": "Releia a última frase do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um mercado recebe à vista, o produto fica 10 dias no estoque e ele paga o fornecedor em 40 dias. O que isso significa?",
+            "alternativas": [
+              "Ele precisa de muito capital de giro",
+              "Ele está quebrado",
+              "Ele não vende nada",
+              "O ciclo é −30 dias: recebe antes de pagar, e o próprio negócio financia o giro"
+            ],
+            "correta": 3,
+            "explicacao": "10 + 0 − 40 = −30. O dinheiro dos clientes entra antes de vencer a conta do fornecedor.",
+            "dica": "Calcule o ciclo de caixa e veja o sinal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um empréstimo de giro de R$ 5.000,00 a 3% ao mês (compostos) é pago após 2 meses. Quanto se paga de juros?",
+            "alternativas": [
+              "R$ 300,00",
+              "R$ 150,00",
+              "R$ 304,50",
+              "R$ 5.300,00"
+            ],
+            "correta": 2,
+            "explicacao": "5.000 × 1,03 = 5.150; × 1,03 = 5.304,50. Juros: 304,50.",
+            "dica": "Calcule mês a mês e tire o valor emprestado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Vender mais a prazo sempre melhora o caixa.” Isso é:",
+            "alternativas": [
+              "Verdade",
+              "Falso: pode aumentar o lucro, mas exige mais capital de giro até receber",
+              "Verdade, se a loja for grande",
+              "Falso, porque vender a prazo é proibido"
+            ],
+            "correta": 1,
+            "explicacao": "A venda a prazo gera lucro, mas o dinheiro demora a entrar; enquanto isso, as contas continuam.",
+            "dica": "Separe lucro de dinheiro disponível no caixa."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O caderninho da Dona Neide",
+    "texto": "Dona Neide faz os melhores salgados do bairro. Coxinha, risoles e empada saem quentinhos todo dia às quatro da tarde, e a fila na janela da casa dela já virou ponto de encontro.\n\nNo ano passado, o negócio cresceu. Uma escola e duas empresas da avenida começaram a encomendar salgados para festas e reuniões. Dona Neide ficou feliz: era muito mais venda. Só que, no fim do mês, aconteceu algo estranho. Ela tinha vendido como nunca, mas não havia dinheiro para comprar farinha e frango.\n\nFoi o neto, Caíque, que estuda no 9º ano, quem descobriu o problema. Ele pegou um caderno e fez duas colunas: entradas e saídas, dia por dia. Logo ficou claro. As empresas pagavam só trinta dias depois da entrega, mas o fornecedor de frango cobrava toda semana. O dinheiro existia, mas estava “preso” nas vendas a prazo.\n\n— Vó, a senhora tem lucro, mas falta capital de giro — explicou ele, todo importante.\n\nJuntos, eles mudaram três coisas. Primeiro, pediram às empresas metade do pagamento na hora da encomenda. Segundo, negociaram com o fornecedor para pagar a cada quinze dias. Terceiro, combinaram que, de tudo o que sobrasse, uma parte iria para uma caixinha de reserva que não seria tocada.\n\nTambém separaram o dinheiro da casa do dinheiro dos salgados. Antes, a conta de luz e a farinha saíam da mesma lata de biscoito.\n\nTrês meses depois, a caixinha já tinha o suficiente para uma semana inteira de compras. Dona Neide contratou a vizinha, com carteira assinada, para ajudar nas encomendas grandes. E o caderno do Caíque ganhou um lugar de honra: pendurado num prego, ao lado do fogão."
+  },
+  "escrita": {
+    "proposta": "Imagine um pequeno negócio que você poderia ter (venda de doces, conserto de bicicleta, aulas de reforço). Escreva de 5 a 10 linhas no caderno montando o fluxo de caixa de uma semana: saldo inicial, pelo menos três entradas e três saídas, e o saldo final. Depois explique o que você faria se um cliente grande pedisse para pagar só daqui a 30 dias."
+  }
+}

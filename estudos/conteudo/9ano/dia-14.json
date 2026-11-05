@@ -1,0 +1,1203 @@
+{
+  "dia": 14,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Teorema de Pitágoras: o segredo do triângulo retângulo",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Um triângulo retângulo tem um ângulo de 90° (o \"canto de esquadro\"). O lado oposto a esse ângulo é o maior de todos e se chama hipotenusa. Os outros dois lados, que formam o ângulo reto, são os catetos.",
+          "O Teorema de Pitágoras diz: o quadrado da hipotenusa é igual à soma dos quadrados dos catetos. Em símbolos: a² = b² + c², em que a é a hipotenusa.",
+          "Exemplo clássico: catetos 3 e 4. 3² + 4² = 9 + 16 = 25. Então a² = 25 e a = 5. Os números 3, 4 e 5 formam uma terna pitagórica, assim como 6, 8, 10 e 5, 12, 13.",
+          "Para achar um cateto, faça a subtração: b² = a² − c². Se a hipotenusa mede 13 e um cateto 5, o outro é √(169 − 25) = √144 = 12.",
+          "Pitágoras aparece no dia a dia: a altura que uma escada alcança na parede, a diagonal de uma tela, o atalho cortando um terreno na diagonal."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma escada de 5 m está apoiada numa parede, com o pé a 3 m da parede. Até que altura ela chega?",
+            "resolucao": "A escada é a hipotenusa. h² + 3² = 5² → h² = 25 − 9 = 16 → h = 4 m."
+          },
+          {
+            "enunciado": "Qual é a diagonal de um retângulo de 9 cm por 12 cm?",
+            "resolucao": "d² = 9² + 12² = 81 + 144 = 225 → d = 15 cm."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A recíproca também vale: se num triângulo o quadrado do maior lado é igual à soma dos quadrados dos outros dois, ele é retângulo. Pedreiros usam isso para conferir se um canto está no esquadro: marcam 3 m de um lado, 4 m do outro, e a diagonal tem de dar 5 m. Se o maior lado ao quadrado for menor que a soma, o triângulo é acutângulo; se for maior, é obtusângulo.",
+        "A diagonal de um quadrado de lado L é L√2 (cerca de 1,41 · L), porque d² = L² + L² = 2L². Num quadrado de lado 10, a diagonal é aproximadamente 14,1.",
+        "Pitágoras funciona em etapas no espaço. Numa caixa de 3 × 4 × 12, a diagonal da base é 5 (3, 4, 5), e a diagonal interna da caixa é √(5² + 12²) = √169 = 13."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o maior lado de um triângulo retângulo?",
+            "alternativas": [
+              "Cateto",
+              "Hipotenusa",
+              "Base",
+              "Altura"
+            ],
+            "correta": 1,
+            "explicacao": "A hipotenusa fica de frente para o ângulo de 90° e é sempre o maior lado.",
+            "dica": "É o lado que fica de frente para o canto reto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fórmula do Teorema de Pitágoras (a = hipotenusa)?",
+            "alternativas": [
+              "a = b + c",
+              "a² = b² − c²",
+              "a² = b² + c²",
+              "a = b × c"
+            ],
+            "correta": 2,
+            "explicacao": "O quadrado da hipotenusa é igual à soma dos quadrados dos catetos.",
+            "dica": "Os lados aparecem elevados ao quadrado e somados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Catetos de 3 e 4. Qual é a hipotenusa?",
+            "alternativas": [
+              "5",
+              "7",
+              "12",
+              "25"
+            ],
+            "correta": 0,
+            "explicacao": "9 + 16 = 25, e a raiz de 25 é 5. O 25 é o quadrado, não a hipotenusa.",
+            "dica": "Some os quadrados e depois tire a raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 6² + 8²?",
+            "alternativas": [
+              "28",
+              "48",
+              "14",
+              "100"
+            ],
+            "correta": 3,
+            "explicacao": "36 + 64 = 100. Então a hipotenusa desses catetos é 10.",
+            "dica": "Calcule cada quadrado antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que ângulo um triângulo retângulo tem?",
+            "alternativas": [
+              "45°",
+              "90°",
+              "180°",
+              "60°"
+            ],
+            "correta": 1,
+            "explicacao": "Retângulo é o triângulo com um ângulo reto, de 90°.",
+            "dica": "Pense no canto de uma folha de caderno."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Catetos de 5 e 12. Qual é a hipotenusa?",
+            "alternativas": [
+              "17",
+              "13",
+              "15",
+              "169"
+            ],
+            "correta": 1,
+            "explicacao": "25 + 144 = 169; √169 = 13. Somar 5 + 12 = 17 é o erro clássico.",
+            "dica": "Não some os lados diretamente: use os quadrados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Hipotenusa de 10 e um cateto de 6. Quanto mede o outro cateto?",
+            "alternativas": [
+              "4",
+              "16",
+              "8",
+              "64"
+            ],
+            "correta": 2,
+            "explicacao": "b² = 100 − 36 = 64; b = 8.",
+            "dica": "Para achar cateto, subtraia os quadrados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma escada de 5 m tem o pé a 3 m da parede. Até que altura ela alcança?",
+            "alternativas": [
+              "4 m",
+              "2 m",
+              "8 m",
+              "3 m"
+            ],
+            "correta": 0,
+            "explicacao": "25 − 9 = 16; √16 = 4 m. A escada é a hipotenusa.",
+            "dica": "Descubra qual medida é a hipotenusa nessa situação."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular a hipotenusa.",
+            "itens": [
+              "Identificar os dois catetos",
+              "Elevar cada cateto ao quadrado",
+              "Somar os quadrados",
+              "Tirar a raiz quadrada da soma"
+            ],
+            "explicacao": "Depois de achar os catetos, eleva-se ao quadrado, soma-se e tira-se a raiz.",
+            "dica": "A raiz quadrada é a última conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diagonal de um retângulo de 9 cm por 12 cm?",
+            "alternativas": [
+              "21 cm",
+              "18 cm",
+              "225 cm",
+              "15 cm"
+            ],
+            "correta": 3,
+            "explicacao": "81 + 144 = 225; √225 = 15 cm. A diagonal divide o retângulo em dois triângulos retângulos.",
+            "dica": "Os lados do retângulo funcionam como catetos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem lados 7, 24 e 25. Ele é retângulo?",
+            "alternativas": [
+              "Sim, porque 7² + 24² = 25²",
+              "Não, porque 7 + 24 é maior que 25",
+              "Não dá para saber sem medir o ângulo",
+              "Sim, porque todo triângulo é retângulo"
+            ],
+            "correta": 0,
+            "explicacao": "49 + 576 = 625 = 25². Pela recíproca de Pitágoras, é retângulo.",
+            "dica": "Teste a fórmula usando o maior lado como hipotenusa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas pessoas saem do mesmo ponto: uma anda 8 km para o norte e a outra 6 km para o leste. Qual a distância entre elas?",
+            "alternativas": [
+              "14 km",
+              "10 km",
+              "2 km",
+              "12 km"
+            ],
+            "correta": 1,
+            "explicacao": "Norte e leste formam ângulo reto. 64 + 36 = 100; √100 = 10 km.",
+            "dica": "Desenhe os dois caminhos e veja o triângulo que se forma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diagonal aproximada de um quadrado de lado 10 cm?",
+            "alternativas": [
+              "20 cm",
+              "10 cm",
+              "14,1 cm",
+              "100 cm"
+            ],
+            "correta": 2,
+            "explicacao": "d² = 100 + 100 = 200; d = √200 ≈ 14,1 cm (10√2).",
+            "dica": "Os dois catetos têm o mesmo tamanho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno retangular tem 30 m por 40 m. Quantos metros a pessoa economiza cortando pela diagonal em vez de andar pelos dois lados?",
+            "alternativas": [
+              "10 m",
+              "50 m",
+              "70 m",
+              "20 m"
+            ],
+            "correta": 3,
+            "explicacao": "Pelos lados: 30 + 40 = 70 m. Diagonal: √(900 + 1.600) = √2.500 = 50 m. Economia: 70 − 50 = 20 m.",
+            "dica": "Calcule os dois caminhos e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem lados 6, 7 e 9. Ele é retângulo?",
+            "alternativas": [
+              "Sim",
+              "Não, porque 6² + 7² = 85, diferente de 81",
+              "Sim, porque 6 + 7 é maior que 9",
+              "Não, porque nenhum lado é 5"
+            ],
+            "correta": 1,
+            "explicacao": "36 + 49 = 85, e 9² = 81. Como não são iguais, não é retângulo (é acutângulo, pois 81 < 85).",
+            "dica": "Compare a soma dos quadrados menores com o quadrado do maior."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pipa está presa por uma linha esticada de 25 m. A distância horizontal da mão do menino até o ponto embaixo da pipa é de 20 m, e a mão está a 1,5 m do chão. A que altura do chão está a pipa?",
+            "alternativas": [
+              "15 m",
+              "16,5 m",
+              "13,5 m",
+              "45 m"
+            ],
+            "correta": 1,
+            "explicacao": "√(625 − 400) = √225 = 15 m acima da mão. Somando a altura da mão: 15 + 1,5 = 16,5 m. A pegadinha é esquecer o 1,5 m.",
+            "dica": "O triângulo começa na mão, não no chão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa mede 3 cm × 4 cm × 12 cm. Qual é a maior diagonal interna (de um canto ao canto oposto)?",
+            "alternativas": [
+              "19 cm",
+              "12 cm",
+              "13 cm",
+              "15 cm"
+            ],
+            "correta": 2,
+            "explicacao": "Diagonal da base: √(9 + 16) = 5. Diagonal interna: √(25 + 144) = √169 = 13 cm.",
+            "dica": "Use Pitágoras duas vezes: primeiro na base, depois na altura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo isósceles tem lados 10, 10 e base 12. Qual é a sua área?",
+            "alternativas": [
+              "60",
+              "120",
+              "80",
+              "48"
+            ],
+            "correta": 3,
+            "explicacao": "A altura divide a base em 6 e 6: h² = 100 − 36 = 64, h = 8. Área = 12 · 8 ÷ 2 = 48.",
+            "dica": "A altura corta o triângulo em dois triângulos retângulos iguais."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Um pedreiro quer conferir se o canto de uma parede está no esquadro. Ordene os passos.",
+            "itens": [
+              "Medir 3 m numa parede a partir do canto",
+              "Medir 4 m na outra parede a partir do canto",
+              "Medir a distância entre as duas marcas",
+              "Conferir se deu 5 m"
+            ],
+            "explicacao": "Com 3 e 4 marcados, a diagonal precisa ser 5 para o ângulo ser reto (recíproca de Pitágoras).",
+            "dica": "Marque as duas medidas antes de medir entre elas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num triângulo retângulo, a hipotenusa é 2 cm maior que um cateto, e o outro cateto mede 6 cm. Qual é a hipotenusa?",
+            "alternativas": [
+              "10 cm",
+              "8 cm",
+              "12 cm",
+              "6 cm"
+            ],
+            "correta": 0,
+            "explicacao": "Seja x o cateto e x + 2 a hipotenusa: (x + 2)² = x² + 36 → x² + 4x + 4 = x² + 36 → 4x = 32 → x = 8. Hipotenusa: 10. Confere: 64 + 36 = 100.",
+            "dica": "Chame o cateto de x, escreva a fórmula e desenvolva o quadrado."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Listas e objetos: guardar muitos dados de uma vez",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma lista guarda vários valores numa só variável, entre colchetes: notas = [7, 8, 5]. Cada valor tem uma posição, o índice, que começa em 0. notas[0] é 7, notas[1] é 8 e notas[2] é 5.",
+          "Comandos úteis: len(notas) diz quantos itens a lista tem (3). notas.append(9) coloca o 9 no fim. notas[-1] pega o último item.",
+          "Para passar por todos os itens, use for: for n in notas: print(n). Assim dá para somar tudo, achar o maior ou contar quantos passam de 6.",
+          "Um objeto (em Python, um dicionário) guarda informações com nome, em pares chave: valor, entre chaves: aluno = {\"nome\": \"Ana\", \"idade\": 14}. Para ler, use a chave: aluno[\"nome\"] dá \"Ana\".",
+          "Dá para mudar e criar chaves: aluno[\"idade\"] = 15 troca o valor; aluno[\"turma\"] = \"9B\" cria uma chave nova. E uma lista pode guardar vários objetos, como uma tabela."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "notas = [7, 8, 5]\ntotal = 0\nfor n in notas:\n    total = total + n\nprint(total)",
+            "resolucao": "O for soma cada nota: 0 + 7 = 7, 7 + 8 = 15, 15 + 5 = 20. Aparece 20."
+          },
+          {
+            "enunciado": "produtos = [{\"nome\": \"lápis\", \"preco\": 2}, {\"nome\": \"caderno\", \"preco\": 15}]\nprint(produtos[1][\"preco\"])",
+            "resolucao": "produtos[1] é o segundo objeto (o caderno). A chave \"preco\" dele vale 15."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Acessar um índice que não existe dá erro (IndexError): numa lista de 3 itens, notas[3] não existe, porque os índices vão de 0 a 2. Buscar uma chave que não existe num dicionário também dá erro (KeyError).",
+        "Fatiamento pega um pedaço da lista: notas[1:3] pega do índice 1 até antes do 3, ou seja, os itens de posição 1 e 2. O último número da fatia nunca entra.",
+        "Listas de objetos permitem filtrar: percorrer os produtos e guardar numa lista nova só os que custam menos de 10. É assim que aplicativos de compras mostram \"até R$ 10\"."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o índice do primeiro item de uma lista em Python?",
+            "alternativas": [
+              "1",
+              "0",
+              "−1",
+              "A"
+            ],
+            "correta": 1,
+            "explicacao": "Em Python, a contagem dos índices começa no 0.",
+            "dica": "A contagem começa antes do que você imagina."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em notas = [7, 8, 5], quanto vale notas[0]?",
+            "alternativas": [
+              "8",
+              "5",
+              "0",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "O índice 0 é o primeiro item: 7.",
+            "dica": "Lembre em que número a contagem começa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz len(notas)?",
+            "alternativas": [
+              "Apaga a lista",
+              "Ordena a lista",
+              "Diz quantos itens a lista tem",
+              "Soma os itens"
+            ],
+            "correta": 2,
+            "explicacao": "len vem de length, comprimento: conta os itens.",
+            "dica": "A palavra vem do inglês para \"comprimento\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se coloca o número 9 no fim da lista notas?",
+            "alternativas": [
+              "notas.append(9)",
+              "notas[9]",
+              "len(9)",
+              "notas = 9"
+            ],
+            "correta": 0,
+            "explicacao": "append acrescenta um item no fim da lista. notas = 9 apagaria a lista e guardaria só o 9.",
+            "dica": "O comando vem do inglês \"acrescentar\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "aluno = {\"nome\": \"Ana\", \"idade\": 14}. Quanto vale aluno[\"idade\"]?",
+            "alternativas": [
+              "\"Ana\"",
+              "14",
+              "\"idade\"",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "A chave \"idade\" guarda o valor 14.",
+            "dica": "Procure o valor que está do lado da chave pedida."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [7, 8, 5]. O que fica na lista depois de notas.append(10)?",
+            "alternativas": [
+              "[10, 7, 8, 5]",
+              "[7, 8, 5, 10]",
+              "[7, 8, 10]",
+              "[10]"
+            ],
+            "correta": 1,
+            "explicacao": "append coloca no fim, sem apagar nada.",
+            "dica": "Em qual ponta da lista o novo item entra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cores = [\"azul\", \"verde\", \"rosa\", \"preto\"]. Quanto vale cores[-1]?",
+            "alternativas": [
+              "\"azul\"",
+              "\"rosa\"",
+              "Dá erro",
+              "\"preto\""
+            ],
+            "correta": 3,
+            "explicacao": "O índice −1 é o último item da lista.",
+            "dica": "Índice negativo conta a partir do fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [6, 9, 4]\ntotal = 0\nfor n in notas:\n    total = total + n\n\nQuanto vale total?",
+            "alternativas": [
+              "19",
+              "9",
+              "13",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "0 + 6 = 6; 6 + 9 = 15; 15 + 4 = 19.",
+            "dica": "Some uma nota por vez, guardando o resultado."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o código para criar um aluno e mostrar o nome dele.",
+            "itens": [
+              "aluno = {}",
+              "aluno[\"nome\"] = \"Caio\"",
+              "aluno[\"idade\"] = 15",
+              "print(aluno[\"nome\"])"
+            ],
+            "explicacao": "Primeiro se cria o dicionário vazio, depois se colocam as chaves e só então se lê o nome.",
+            "dica": "Não dá para guardar nem ler chaves antes de o dicionário existir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "aluno = {\"nome\": \"Ana\", \"idade\": 14}\naluno[\"idade\"] = 15\n\nQuanto vale aluno[\"idade\"] agora?",
+            "alternativas": [
+              "14",
+              "29",
+              "15",
+              "Dá erro"
+            ],
+            "correta": 2,
+            "explicacao": "Atribuir a uma chave que já existe troca o valor: agora é 15.",
+            "dica": "O sinal de igual guarda um valor novo no lugar do antigo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [7, 8, 5]. O que acontece com print(notas[3])?",
+            "alternativas": [
+              "Mostra 5",
+              "Dá erro, porque o índice 3 não existe",
+              "Mostra 7",
+              "Mostra 3"
+            ],
+            "correta": 1,
+            "explicacao": "Com 3 itens, os índices vão de 0 a 2. O 3 está fora: IndexError.",
+            "dica": "Liste os índices que existem nessa lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "produtos = [{\"nome\": \"lápis\", \"preco\": 2}, {\"nome\": \"caderno\", \"preco\": 15}]\n\nO que mostra print(produtos[0][\"nome\"])?",
+            "alternativas": [
+              "\"caderno\"",
+              "2",
+              "\"lápis\"",
+              "15"
+            ],
+            "correta": 2,
+            "explicacao": "produtos[0] é o primeiro objeto, e a chave \"nome\" dele é \"lápis\".",
+            "dica": "Primeiro escolha o objeto pelo índice, depois a chave."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "idades = [12, 15, 17, 14]\nconta = 0\nfor i in idades:\n    if i >= 15:\n        conta = conta + 1\n\nQuanto vale conta?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "Só 15 e 17 são maiores ou iguais a 15: conta = 2.",
+            "dica": "Repare no sinal de maior ou igual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "letras = [\"a\", \"b\", \"c\", \"d\", \"e\"]. Quanto vale letras[1:3]?",
+            "alternativas": [
+              "[\"b\", \"c\"]",
+              "[\"a\", \"b\", \"c\"]",
+              "[\"b\", \"c\", \"d\"]",
+              "[\"a\", \"b\"]"
+            ],
+            "correta": 0,
+            "explicacao": "A fatia vai do índice 1 até antes do 3: posições 1 e 2, que são \"b\" e \"c\".",
+            "dica": "O último número da fatia não entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "aluno = {\"nome\": \"Ana\"}\naluno[\"turma\"] = \"9B\"\n\nQuantas chaves aluno tem agora?",
+            "alternativas": [
+              "1",
+              "3",
+              "0",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "Atribuir a uma chave nova cria essa chave. Agora há \"nome\" e \"turma\".",
+            "dica": "Guardar valor numa chave que não existia faz o quê?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "produtos = [{\"nome\": \"lápis\", \"preco\": 2}, {\"nome\": \"régua\", \"preco\": 4}, {\"nome\": \"caderno\", \"preco\": 15}]\ntotal = 0\nfor p in produtos:\n    total = total + p[\"preco\"]\n\nQuanto vale total?",
+            "alternativas": [
+              "3",
+              "15",
+              "21",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "2 + 4 + 15 = 21. O for passa por cada objeto e soma o preço.",
+            "dica": "Cada volta do for pega um objeto inteiro; some só os preços."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com a mesma lista de produtos, qual código cria uma lista com os nomes dos que custam menos de 10?",
+            "alternativas": [
+              "baratos = []\nfor p in produtos:\n    if p[\"preco\"] < 10:\n        baratos.append(p[\"nome\"])",
+              "baratos = produtos[10]",
+              "baratos = len(produtos) < 10",
+              "baratos = []\nfor p in produtos:\n    baratos.append(p[\"preco\"])"
+            ],
+            "correta": 0,
+            "explicacao": "Percorre os produtos, testa o preço e guarda só o nome dos aprovados: [\"lápis\", \"régua\"]. A última opção guarda todos os preços, sem filtrar.",
+            "dica": "É preciso um for, um teste e um append."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [5, 9, 7, 3]\nmaior = notas[0]\nfor n in notas:\n    if n > maior:\n        maior = n\n\nQuanto vale maior no fim?",
+            "alternativas": [
+              "5",
+              "3",
+              "7",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "Começa em 5; 9 > 5 vira 9; 7 e 3 não passam de 9. Fica 9.",
+            "dica": "Acompanhe o valor de maior a cada volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "lista = [10, 20, 30]\nlista.append(lista[0] + lista[-1])\n\nQual é o len(lista) e o último item?",
+            "alternativas": [
+              "3 e 30",
+              "4 e 40",
+              "4 e 60",
+              "4 e 30"
+            ],
+            "correta": 1,
+            "explicacao": "lista[0] + lista[-1] = 10 + 30 = 40, que entra no fim. Agora há 4 itens e o último é 40.",
+            "dica": "Calcule o valor que vai entrar antes de colocar na lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "turma = [{\"nome\": \"Ana\", \"nota\": 8}, {\"nome\": \"Bia\", \"nota\": 5}]\nturma[1][\"nota\"] = turma[1][\"nota\"] + 2\n\nQuanto vale turma[1][\"nota\"]?",
+            "alternativas": [
+              "10",
+              "5",
+              "7",
+              "2"
+            ],
+            "correta": 2,
+            "explicacao": "turma[1] é Bia, nota 5. 5 + 2 = 7. A nota de Ana não muda.",
+            "dica": "Veja de qual aluno é o índice 1."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Estilos e sumário automático: trabalho organizado",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Estilos são formatações prontas com nome: Normal (para o texto comum), Título 1 (para os capítulos), Título 2 (para as partes dentro de um capítulo). Eles ficam na guia Página Inicial, no grupo Estilos.",
+          "Para usar, clique na linha do título e escolha o estilo. É melhor do que só aumentar a fonte e colocar negrito, porque o Word passa a entender que aquilo é um título.",
+          "Com os títulos marcados por estilos, o Word cria o sumário sozinho: posicione o cursor no início do trabalho e vá em Referências > Sumário > Sumário Automático. Ele lista os títulos com o número da página.",
+          "Se você mudar o texto ou acrescentar páginas, o sumário não se atualiza sozinho. Clique nele e use Atualizar Sumário (ou a tecla F9) e escolha atualizar o índice inteiro.",
+          "Dica extra: em Exibir > Painel de Navegação, aparece a lista dos títulos ao lado. Clicando num título, você pula direto para ele."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Seu trabalho tem os capítulos Introdução, Desenvolvimento e Conclusão. Como fazer o sumário?",
+            "resolucao": "Aplique Título 1 em cada um dos três títulos. Depois, na página do sumário, use Referências > Sumário > Sumário Automático."
+          },
+          {
+            "enunciado": "Você acrescentou um capítulo novo e o sumário não mudou. O que fazer?",
+            "resolucao": "Confira se o título novo está com o estilo Título 1. Depois clique no sumário, escolha Atualizar Sumário e marque \"Atualizar o índice inteiro\"."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Modificar um estilo muda todos os textos que o usam de uma vez. Clique com o botão direito em Título 1 na galeria de Estilos e escolha Modificar: troque a fonte, o tamanho ou a cor. Todos os títulos do trabalho mudam juntos, sem precisar formatar um por um.",
+        "Ao atualizar o sumário, o Word pergunta: \"Atualizar apenas os números de página\" (quando só as páginas mudaram) ou \"Atualizar o índice inteiro\" (quando títulos foram criados, apagados ou renomeados).",
+        "Para começar um capítulo sempre numa página nova, use a quebra de página (Ctrl + Enter) em vez de apertar Enter várias vezes. Se você mudar o texto acima, as linhas em branco empurram tudo e bagunçam o layout; a quebra de página não."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google), crie um trabalho com o tema \"Fontes de energia\" com 3 capítulos (Introdução, Fontes renováveis, Conclusão) e 2 partes dentro do segundo (Solar e Eólica). 1) Aplique Título 1 nos capítulos e Título 2 nas partes. 2) Coloque uma quebra de página (Ctrl + Enter) antes de cada capítulo. 3) Na primeira página, insira o sumário automático. 4) Modifique o estilo Título 1 para outra cor e atualize o índice inteiro. Salve como trabalho_energia.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que são estilos no Word?",
+            "alternativas": [
+              "Formatações prontas com nome",
+              "Tipos de papel",
+              "Imagens decorativas",
+              "Atalhos para fechar o Word"
+            ],
+            "correta": 0,
+            "explicacao": "Estilo é um conjunto de formatação (fonte, tamanho, cor, espaço) salvo com um nome, como Título 1.",
+            "dica": "Pense numa roupa pronta que você aplica num texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual estilo é usado para o texto comum do trabalho?",
+            "alternativas": [
+              "Título 1",
+              "Título 2",
+              "Normal",
+              "Sumário"
+            ],
+            "correta": 2,
+            "explicacao": "O texto do dia a dia usa o estilo Normal. Os títulos usam Título 1 e Título 2.",
+            "dica": "É o estilo padrão, o mais simples."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que guia fica o botão de Sumário?",
+            "alternativas": [
+              "Inserir",
+              "Referências",
+              "Layout",
+              "Exibir"
+            ],
+            "correta": 1,
+            "explicacao": "Sumário fica em Referências, junto com notas de rodapé e citações.",
+            "dica": "É a guia ligada a trabalhos escolares e citações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o Word montar o sumário sozinho, os títulos precisam:",
+            "alternativas": [
+              "Estar em vermelho",
+              "Estar sublinhados",
+              "Estar em letra maiúscula",
+              "Usar os estilos de título"
+            ],
+            "correta": 3,
+            "explicacao": "O sumário automático procura os textos marcados com Título 1, Título 2 etc.",
+            "dica": "Lembre o assunto principal desta lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra o Painel de Navegação?",
+            "alternativas": [
+              "A lista dos títulos do documento",
+              "A previsão do tempo",
+              "A lista de impressoras",
+              "As fotos do computador"
+            ],
+            "correta": 0,
+            "explicacao": "Ele mostra os títulos e permite pular direto para cada um.",
+            "dica": "Navegar é andar pelo documento; o que guia o caminho?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual estilo é mais adequado para o título de um capítulo como \"Introdução\"?",
+            "alternativas": [
+              "Normal",
+              "Título 2",
+              "Título 1",
+              "Citação"
+            ],
+            "correta": 2,
+            "explicacao": "Capítulos principais usam Título 1. Título 2 é para as partes dentro de um capítulo.",
+            "dica": "É o nível mais alto de título."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para criar um sumário automático.",
+            "itens": [
+              "Aplicar os estilos de título nos títulos",
+              "Colocar o cursor onde o sumário vai ficar",
+              "Abrir Referências > Sumário",
+              "Escolher Sumário Automático"
+            ],
+            "explicacao": "Sem os estilos, o sumário sai vazio. Depois se escolhe o lugar e se insere.",
+            "dica": "O Word só encontra os títulos que estiverem marcados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você mudou um título e o sumário continua com o nome antigo. O que fazer?",
+            "alternativas": [
+              "Apagar o documento",
+              "Atualizar o sumário",
+              "Digitar o sumário à mão",
+              "Mudar a cor da letra"
+            ],
+            "correta": 1,
+            "explicacao": "O sumário não muda sozinho: use Atualizar Sumário (ou F9).",
+            "dica": "O sumário é uma foto do momento em que foi feito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que usar o estilo Título 1 em vez de só aumentar a fonte e pôr negrito?",
+            "alternativas": [
+              "Porque o Word passa a reconhecer como título, para sumário e navegação",
+              "Porque gasta menos tinta",
+              "Porque é obrigatório por lei",
+              "Porque deixa o texto colorido"
+            ],
+            "correta": 0,
+            "explicacao": "Com estilo, o Word sabe que aquilo é um título e consegue montar o sumário e o Painel de Navegação.",
+            "dica": "Pense no que o Word consegue fazer quando sabe o que é título."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tecla atualiza o sumário selecionado?",
+            "alternativas": [
+              "F1",
+              "F5",
+              "F12",
+              "F9"
+            ],
+            "correta": 3,
+            "explicacao": "F9 atualiza campos, como o sumário. F1 é ajuda, F5 abre Localizar e Substituir/Ir para, F12 é Salvar Como.",
+            "dica": "É uma das teclas de função perto do fim da fila."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você criou um capítulo novo e mudou os números de página. Ao atualizar o sumário, qual opção escolher?",
+            "alternativas": [
+              "Atualizar apenas os números de página",
+              "Atualizar o índice inteiro",
+              "Cancelar",
+              "Excluir sumário"
+            ],
+            "correta": 1,
+            "explicacao": "Como surgiu um título novo, só os números não bastam: é preciso atualizar o índice inteiro.",
+            "dica": "Alguma coisa além das páginas mudou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer que todos os títulos de capítulo fiquem azuis. Qual é o jeito mais rápido?",
+            "alternativas": [
+              "Pintar um por um",
+              "Usar Ctrl + Z",
+              "Modificar o estilo Título 1 e escolher a cor azul",
+              "Imprimir em papel azul"
+            ],
+            "correta": 2,
+            "explicacao": "Modificar o estilo muda todos os textos que o usam de uma vez.",
+            "dica": "Mude a regra, e não cada caso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um subtítulo dentro do capítulo \"Desenvolvimento\" deve usar:",
+            "alternativas": [
+              "Título 1",
+              "Normal",
+              "Título 3 sempre",
+              "Título 2"
+            ],
+            "correta": 3,
+            "explicacao": "Partes dentro de um capítulo ficam um nível abaixo: Título 2. No sumário, aparecem recuadas sob o capítulo.",
+            "dica": "Pense em degraus: capítulo é o primeiro, a parte dele é o seguinte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como começar cada capítulo numa página nova do jeito certo?",
+            "alternativas": [
+              "Inserir uma quebra de página (Ctrl + Enter)",
+              "Apertar Enter até a página acabar",
+              "Diminuir a fonte",
+              "Criar outro arquivo"
+            ],
+            "correta": 0,
+            "explicacao": "A quebra de página mantém o capítulo no topo mesmo se o texto de cima mudar. Enters em série desalinham tudo.",
+            "dica": "Procure a opção que não depende de quantas linhas há antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um título está em negrito, tamanho 16, mas não aparece no sumário. Por quê?",
+            "alternativas": [
+              "O sumário só aceita títulos curtos",
+              "Ele não está com um estilo de título",
+              "Negrito não aparece em sumário",
+              "O computador está sem internet"
+            ],
+            "correta": 1,
+            "explicacao": "O sumário procura estilos, não aparência. Formatação manual não basta.",
+            "dica": "O Word olha a aparência ou o estilo?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene a montagem de um trabalho escolar organizado.",
+            "itens": [
+              "Digitar o texto no estilo Normal",
+              "Aplicar Título 1 nos capítulos e Título 2 nas partes",
+              "Inserir quebras de página antes de cada capítulo",
+              "Inserir o sumário automático no início",
+              "Atualizar o índice inteiro antes de entregar"
+            ],
+            "explicacao": "Texto e estilos primeiro, depois a paginação, o sumário e, no fim, a atualização para refletir tudo.",
+            "dica": "O sumário precisa ser atualizado depois que a paginação estiver pronta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas modificou o estilo Título 1 para tamanho 18. Um título que ele tinha formatado à mão com Normal + tamanho 16 vai:",
+            "alternativas": [
+              "Continuar com tamanho 16, porque não usa Título 1",
+              "Mudar para 18",
+              "Sumir do documento",
+              "Virar Título 2"
+            ],
+            "correta": 0,
+            "explicacao": "Modificar o estilo só afeta quem usa aquele estilo. Título formatado à mão fica de fora, e também não entra no sumário.",
+            "dica": "A mudança vale para quem está ligado ao estilo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No sumário, o capítulo 3 aparece na página 7, mas, depois de você acrescentar duas páginas no capítulo 1, ele foi para a página 9. O sumário ainda mostra 7. O que é verdade?",
+            "alternativas": [
+              "O Word errou e não tem conserto",
+              "O capítulo 3 voltou para a página 7",
+              "É preciso atualizar o sumário, pelo menos os números de página",
+              "Precisa apagar o capítulo 1"
+            ],
+            "correta": 2,
+            "explicacao": "O sumário guarda os números do momento em que foi feito. Atualizando, ele mostra 9.",
+            "dica": "O sumário muda sozinho quando o texto muda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o Painel de Navegação ajuda a revisar a organização do trabalho?",
+            "alternativas": [
+              "Porque corrige a ortografia",
+              "Porque troca a fonte",
+              "Porque imprime o trabalho",
+              "Porque mostra a hierarquia dos títulos e permite arrastar capítulos"
+            ],
+            "correta": 3,
+            "explicacao": "Ele mostra a estrutura (capítulos e partes) e permite reorganizar arrastando os títulos, levando o texto junto.",
+            "dica": "Pense no que se vê no painel e no que dá para fazer com o mouse ali."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trabalho tem: Introdução (Título 1), Objetivos (Título 2), Desenvolvimento (Título 1), Pesquisa (Título 2), Conclusão (Título 1). Quantas linhas recuadas o sumário terá?",
+            "alternativas": [
+              "3",
+              "2",
+              "5",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "Os itens com Título 2 (Objetivos e Pesquisa) aparecem recuados, sob seus capítulos. Os três com Título 1 ficam na margem.",
+            "dica": "Conte só os itens do nível de baixo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Marketing digital e escala: vender mais sem trabalhar dobrado",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Marketing digital é usar a internet para que as pessoas certas conheçam e comprem o seu produto. Começa pelo público-alvo: quem é o cliente, quantos anos tem, onde mora, o que precisa. Falar com todo mundo é falar com ninguém.",
+          "O que funciona para pequenos negócios: perfil comercial com fotos boas e preço claro, catálogo e link direto para o WhatsApp, conteúdo útil (como usar, bastidores, dicas) e prova social, que são as avaliações e fotos de clientes reais.",
+          "Anúncio pago (impulsionar) pode começar pequeno, com R$ 10 a R$ 20, e precisa ser medido: quantas pessoas viram (alcance), quantas clicaram (cliques) e quantas compraram (vendas). Quem não mede está jogando dinheiro fora.",
+          "Escala é conseguir vender muito mais sem que o trabalho cresça na mesma proporção. Isso vem de processos padronizados (receita igual, embalagem pronta, mensagem de pedido modelo), ferramentas (catálogo, pagamento por link) e equipe bem organizada e registrada.",
+          "Tudo dentro da lei: a propaganda não pode enganar (Código de Defesa do Consumidor), avaliação falsa é proibida e mandar mensagem para contatos comprados, sem autorização, desrespeita a LGPD."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Rosa gastou R$ 100,00 num anúncio: 2.000 pessoas viram, 80 clicaram e 8 compraram. Quanto custou cada cliente?",
+            "resolucao": "Custo por cliente (CAC) = 100 ÷ 8 = R$ 12,50. A conversão dos cliques foi de 8 ÷ 80 = 10%."
+          },
+          {
+            "enunciado": "Se cada venda de Rosa dá R$ 30,00 de lucro, o anúncio valeu a pena?",
+            "resolucao": "Lucro das vendas: 8 × 30 = 240. Menos o anúncio: 240 − 100 = R$ 140,00. Valeu, porque o cliente custou menos do que deixou de lucro."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A regra de ouro do anúncio: o custo de conseguir um cliente (CAC) precisa ser menor do que o lucro que ele deixa. Se cada cliente custa R$ 40,00 e a venda dá R$ 30,00 de lucro, você perde R$ 10,00 por venda. Mas, se esse cliente voltar e comprar mais 3 vezes, ele deixa 4 × 30 = R$ 120,00 e o anúncio passa a valer a pena. Por isso fidelizar é tão importante.",
+        "Escalar com equipe exige registrar e treinar. Uma pessoa sozinha faz 20 marmitas por dia; com um ajudante registrado, receita padronizada e divisão de tarefas, a dupla pode chegar a 60. Delegar multiplica a produção, mas o salário justo e os direitos (FGTS, férias, 13º) entram no custo e no preço.",
+        "Crescer rápido demais também é risco: se as vendas dobram e a produção não acompanha, os atrasos geram avaliações ruins, que espalham mais rápido do que as boas."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é público-alvo?",
+            "alternativas": [
+              "Todas as pessoas do mundo",
+              "O grupo de pessoas que mais precisa do seu produto",
+              "Os seus concorrentes",
+              "Os seus fornecedores"
+            ],
+            "correta": 1,
+            "explicacao": "Público-alvo é o cliente certo: quem tem a necessidade que o produto resolve.",
+            "dica": "Pense em quem você quer que veja o anúncio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é prova social?",
+            "alternativas": [
+              "Uma prova da escola",
+              "Um documento da prefeitura",
+              "Avaliações e fotos de clientes reais",
+              "O preço do produto"
+            ],
+            "correta": 2,
+            "explicacao": "Quando outros clientes aprovam, novos clientes confiam mais. Isso é prova social.",
+            "dica": "Pense no que você lê antes de comprar de alguém que não conhece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é importante medir os resultados de um anúncio?",
+            "alternativas": [
+              "Para saber se o dinheiro gasto trouxe vendas",
+              "Porque é obrigatório",
+              "Para gastar mais",
+              "Não é importante"
+            ],
+            "correta": 0,
+            "explicacao": "Sem medir alcance, cliques e vendas, não dá para saber se o anúncio funcionou.",
+            "dica": "Pense no dinheiro que saiu do caixa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa escalar um negócio?",
+            "alternativas": [
+              "Subir uma escada",
+              "Diminuir as vendas",
+              "Trabalhar o dobro de horas",
+              "Vender muito mais sem que o trabalho cresça na mesma proporção"
+            ],
+            "correta": 3,
+            "explicacao": "Escala é crescer de forma eficiente, com processos e ferramentas.",
+            "dica": "Não é só vender mais; é vender mais sem esgotar quem trabalha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Postar avaliação falsa do próprio produto é:",
+            "alternativas": [
+              "Uma boa estratégia",
+              "Proibido e engana o consumidor",
+              "Obrigatório",
+              "Normal para todos"
+            ],
+            "correta": 1,
+            "explicacao": "Avaliação falsa engana o cliente e é proibida pelo Código de Defesa do Consumidor.",
+            "dica": "Pense se o cliente está sendo enganado."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rosa gastou R$ 100,00 num anúncio e fez 8 vendas. Qual foi o custo por cliente?",
+            "alternativas": [
+              "R$ 8,00",
+              "R$ 12,50",
+              "R$ 800,00",
+              "R$ 108,00"
+            ],
+            "correta": 1,
+            "explicacao": "100 ÷ 8 = 12,50.",
+            "dica": "Divida o valor gasto pelo número de clientes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "80 pessoas clicaram no anúncio e 8 compraram. Qual foi a taxa de conversão?",
+            "alternativas": [
+              "8%",
+              "80%",
+              "1%",
+              "10%"
+            ],
+            "correta": 3,
+            "explicacao": "8 ÷ 80 = 0,1 = 10%.",
+            "dica": "Divida quem comprou por quem clicou."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para começar a vender pela internet.",
+            "itens": [
+              "Definir o público-alvo",
+              "Montar o perfil com fotos e preços claros",
+              "Publicar conteúdo e pedir avaliações",
+              "Testar um anúncio pequeno e medir os resultados"
+            ],
+            "explicacao": "Primeiro saber com quem falar, depois ter uma vitrine pronta, criar confiança e só então gastar com anúncio.",
+            "dica": "Não adianta anunciar para uma vitrine vazia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ação ajuda a escalar uma loja de doces?",
+            "alternativas": [
+              "Mudar a receita a cada pedido",
+              "Responder cada cliente de um jeito diferente",
+              "Padronizar a receita e criar uma mensagem modelo de pedido",
+              "Entregar tudo pessoalmente, um por um"
+            ],
+            "correta": 2,
+            "explicacao": "Processos padronizados permitem atender mais pessoas com o mesmo esforço e a mesma qualidade.",
+            "dica": "Procure a opção que repete o que dá certo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Comprar uma lista de números de telefone e mandar propaganda para todos é:",
+            "alternativas": [
+              "Contra a LGPD, porque usa dados pessoais sem autorização",
+              "Uma estratégia legal e barata",
+              "Obrigatório para crescer",
+              "Prova social"
+            ],
+            "correta": 0,
+            "explicacao": "Dados pessoais só podem ser usados com base legal, como o consentimento. Spam também afasta clientes.",
+            "dica": "As pessoas da lista autorizaram receber sua mensagem?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rosa: anúncio de R$ 100,00, 8 vendas, R$ 30,00 de lucro por venda. Quanto sobrou depois de pagar o anúncio?",
+            "alternativas": [
+              "R$ 240,00",
+              "R$ 140,00",
+              "R$ 70,00",
+              "R$ 340,00"
+            ],
+            "correta": 1,
+            "explicacao": "Lucro das vendas: 8 × 30 = 240. Menos o anúncio: 240 − 100 = 140.",
+            "dica": "Calcule o lucro das vendas e depois desconte o anúncio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Anúncio A: R$ 50,00 e 5 vendas. Anúncio B: R$ 90,00 e 12 vendas. Qual teve o menor custo por cliente?",
+            "alternativas": [
+              "A, com R$ 10,00",
+              "Os dois iguais",
+              "B, com R$ 7,50",
+              "A, com R$ 5,00"
+            ],
+            "correta": 2,
+            "explicacao": "A: 50 ÷ 5 = 10. B: 90 ÷ 12 = 7,50. B gastou mais no total, mas cada cliente saiu mais barato.",
+            "dica": "Compare o custo de cada cliente, não o gasto total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um anúncio teve 4.000 pessoas de alcance e 200 cliques. Qual foi a taxa de clique?",
+            "alternativas": [
+              "20%",
+              "2%",
+              "50%",
+              "5%"
+            ],
+            "correta": 3,
+            "explicacao": "200 ÷ 4.000 = 0,05 = 5%.",
+            "dica": "Divida os cliques pelo alcance."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Júlio faz 20 marmitas por dia sozinho. Com um ajudante registrado e tarefas divididas, a dupla faz 60. Quanto a produção por pessoa aumentou?",
+            "alternativas": [
+              "De 20 para 30 por pessoa",
+              "De 20 para 60 por pessoa",
+              "Ficou igual",
+              "Caiu para 10 por pessoa"
+            ],
+            "correta": 0,
+            "explicacao": "60 ÷ 2 = 30 por pessoa. Dividir tarefas aumentou a produção de cada um, não só o total.",
+            "dica": "Divida a produção total pelo número de pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As vendas de uma loja dobraram depois de um vídeo viral, mas a produção não acompanhou e os pedidos atrasaram. Qual é o maior risco?",
+            "alternativas": [
+              "Ganhar prêmios",
+              "Ter que pagar menos imposto",
+              "Avaliações ruins que espantam novos clientes",
+              "Nenhum risco"
+            ],
+            "correta": 2,
+            "explicacao": "Atraso gera reclamação pública, e avaliação ruim espalha rápido. Crescer exige preparar a produção.",
+            "dica": "Pense no que os clientes que esperaram vão escrever."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada cliente custa R$ 40,00 em anúncio e cada venda dá R$ 30,00 de lucro. Se o cliente comprar 4 vezes no total, quanto ele deixa de resultado depois de pagar o anúncio?",
+            "alternativas": [
+              "Prejuízo de R$ 10,00",
+              "R$ 120,00",
+              "R$ 30,00",
+              "R$ 80,00"
+            ],
+            "correta": 3,
+            "explicacao": "4 × 30 = 120 de lucro, menos 40 do anúncio = 80. Na primeira compra havia prejuízo de 10; a fidelização transforma o resultado.",
+            "dica": "Some o lucro de todas as compras antes de descontar o custo do anúncio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ajudante registrado custa à empresa R$ 2.500,00 por mês (salário mais encargos). Cada marmita dá R$ 5,00 de lucro. Quantas marmitas a mais por mês ele precisa ajudar a produzir só para se pagar?",
+            "alternativas": [
+              "250",
+              "500",
+              "50",
+              "2.500"
+            ],
+            "correta": 1,
+            "explicacao": "2.500 ÷ 5 = 500 marmitas por mês. Com 25 dias de trabalho, são 20 por dia, menos do que a dupla ganhou a mais no exemplo da lição.",
+            "dica": "Divida o custo mensal pelo lucro de cada unidade."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene a escala de um negócio de forma saudável.",
+            "itens": [
+              "Padronizar o produto e o atendimento",
+              "Medir quanto custa conseguir cada cliente",
+              "Contratar e treinar equipe registrada",
+              "Aumentar o anúncio aos poucos, sem perder a qualidade"
+            ],
+            "explicacao": "Primeiro o processo, depois os números; com a base pronta, a equipe; só então mais anúncio, para não vender o que não dá para entregar.",
+            "dica": "Não aumente a divulgação antes de conseguir atender mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um empreendedor quer escalar pagando ajudantes \"por fora\", sem registro, para economizar. Qual é a análise correta?",
+            "alternativas": [
+              "É a melhor forma de crescer",
+              "Não tem nenhum risco",
+              "É obrigatório para pequenos negócios",
+              "Arrisca processo trabalhista, multa e perder bons funcionários"
+            ],
+            "correta": 3,
+            "explicacao": "A economia é ilusória: sem registro, a empresa pode pagar direitos atrasados com multa, e os bons profissionais vão para quem registra.",
+            "dica": "Pense no que acontece se o ajudante procurar a Justiça."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Postagem A: 10.000 de alcance, 100 cliques e 2 vendas. Postagem B: 3.000 de alcance, 90 cliques e 9 vendas. Qual traz mais clientes por clique e por quê importa?",
+            "alternativas": [
+              "B: converte 10% dos cliques, contra 2% da A",
+              "A: tem mais alcance, então é melhor",
+              "As duas convertem igual",
+              "A: converte 20% dos cliques"
+            ],
+            "correta": 0,
+            "explicacao": "A: 2 ÷ 100 = 2%. B: 9 ÷ 90 = 10%. Alcance alto sem venda não paga as contas; o público da B é mais certeiro.",
+            "dica": "Divida as vendas pelos cliques de cada uma."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A marmita que ganhou a avenida",
+    "texto": "Aos 19 anos, Tainá vendia marmitas para os vizinhos do conjunto habitacional onde morava, em Itaquera. Cozinhava de madrugada, anotava os pedidos num caderno e entregava a pé. Nos dias bons, vendia 20 unidades. Mais do que isso, não dava.\n\nUm dia, a professora de um curso gratuito de empreendedorismo perguntou à turma: \"Quem é o seu cliente?\". Tainá respondeu que era todo mundo. A professora sorriu e disse que, assim, ela não falaria com ninguém.\n\nTainá pensou e percebeu que seus melhores clientes eram trabalhadores das obras e das lojas da avenida, que almoçavam com pressa e pouco dinheiro. Criou um perfil comercial com fotos tiradas na luz da janela, colocou o cardápio da semana com preço claro e um link direto para o WhatsApp. Pediu a cada cliente fiel uma avaliação sincera.\n\nDepois, fez o primeiro anúncio: vinte reais, só para quem estava num raio de dois quilômetros. Anotou tudo. Vieram onze pedidos novos, e quatro desses clientes voltaram na semana seguinte.\n\nO problema virou outro: não dava mais para fazer tudo sozinha. Tainá padronizou as receitas, comprou embalagens iguais e criou uma mensagem pronta para anotar os pedidos. Contratou a prima Joyce com carteira assinada e dividiu as tarefas: uma cozinhava, a outra montava e organizava as entregas.\n\nEm seis meses, as duas faziam 70 marmitas por dia. Tainá ainda cozinha, mas agora também confere os números toda sexta-feira. Ela diz que aprendeu duas coisas: anúncio sem medir é desperdício, e crescer sozinha tem limite."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, imagine um pequeno negócio que você poderia ter (doces, conserto de celular, aulas de reforço etc.). Escreva: quem é o seu público-alvo, como seria a sua primeira postagem e como você mediria se o anúncio deu certo. Termine dizendo uma coisa que você padronizaria para conseguir atender mais clientes."
+  }
+}

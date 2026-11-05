@@ -1,0 +1,1203 @@
+{
+  "dia": 4,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Notação científica",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Notação científica é um jeito curto de escrever números muito grandes ou muito pequenos: a × 10ⁿ, em que a é um número de 1 até menos de 10 (1 ≤ a < 10) e n é um número inteiro.",
+          "Para números grandes, ande com a vírgula para a esquerda até sobrar um só algarismo antes dela; o número de casas puladas é o expoente positivo. 300.000 = 3 × 10⁵ e 45.000.000 = 4,5 × 10⁷.",
+          "Para números pequenos, ande com a vírgula para a direita até o primeiro algarismo diferente de zero; o número de casas é o expoente negativo. 0,0004 = 4 × 10⁻⁴ e 0,00072 = 7,2 × 10⁻⁴.",
+          "Para multiplicar, multiplique os números da frente e some os expoentes: (2 × 10³) × (4 × 10⁵) = 8 × 10⁸. Para dividir, divida os da frente e subtraia os expoentes: (6 × 10⁸) ÷ (3 × 10²) = 2 × 10⁶.",
+          "Se o número da frente sair do intervalo de 1 a 10, ajuste: 30 × 10⁷ = 3 × 10⁸ (a vírgula andou uma casa para a esquerda, o expoente sobe 1) e 0,5 × 10⁴ = 5 × 10³ (a vírgula andou para a direita, o expoente desce 1)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O Censo 2022 contou cerca de 203 milhões de pessoas no Brasil. Escreva em notação científica.",
+            "resolucao": "203.000.000: a vírgula anda 8 casas para a esquerda até ficar 2,03. Resultado: 2,03 × 10⁸."
+          },
+          {
+            "enunciado": "A luz viaja 3 × 10⁵ km por segundo e leva cerca de 500 segundos do Sol até a Terra. Qual a distância?",
+            "resolucao": "(3 × 10⁵) × (5 × 10²) = 15 × 10⁷ = 1,5 × 10⁸ km, ou seja, cerca de 150 milhões de quilômetros."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para somar ou subtrair, os expoentes precisam ser iguais. 3 × 10⁴ + 2 × 10³ = 30 × 10³ + 2 × 10³ = 32 × 10³ = 3,2 × 10⁴. Outra saída é escrever os números por extenso: 30.000 + 2.000 = 32.000.",
+        "Para comparar dois números em notação científica, olhe primeiro o expoente: quem tem expoente maior é maior (10⁻⁵ é maior que 10⁻⁶). Só com expoentes iguais é que se compara o número da frente.",
+        "Potência de um número em notação científica: eleve as duas partes. (1,2 × 10⁵)² = 1,2² × 10¹⁰ = 1,44 × 10¹⁰. E lembre: dividir por 10⁻² é o mesmo que multiplicar por 10²."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 300.000 em notação científica?",
+            "alternativas": [
+              "3 × 10⁶",
+              "30 × 10⁴",
+              "3 × 10⁵",
+              "3 × 10⁻⁵"
+            ],
+            "correta": 2,
+            "explicacao": "A vírgula anda 5 casas para a esquerda: 3 × 10⁵. O 30 × 10⁴ vale o mesmo, mas 30 não está entre 1 e 10.",
+            "dica": "Conte quantos zeros vêm depois do 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em a × 10ⁿ, o número a precisa ser:",
+            "alternativas": [
+              "Maior ou igual a 1 e menor que 10",
+              "Sempre maior que 10",
+              "Sempre um número negativo",
+              "Sempre igual a 10"
+            ],
+            "correta": 0,
+            "explicacao": "A regra é 1 ≤ a < 10: só um algarismo antes da vírgula, diferente de zero.",
+            "dica": "Só pode sobrar um algarismo (diferente de zero) antes da vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 0,0004 em notação científica?",
+            "alternativas": [
+              "4 × 10⁴",
+              "4 × 10⁻³",
+              "0,4 × 10⁻³",
+              "4 × 10⁻⁴"
+            ],
+            "correta": 3,
+            "explicacao": "A vírgula anda 4 casas para a direita até o 4: expoente −4.",
+            "dica": "Número pequeno: expoente negativo. Conte as casas até chegar no 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10³?",
+            "alternativas": [
+              "30",
+              "1.000",
+              "100",
+              "10.000"
+            ],
+            "correta": 1,
+            "explicacao": "10³ = 10 × 10 × 10 = 1.000: o expoente diz quantos zeros.",
+            "dica": "O expoente diz quantos zeros vêm depois do 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (2 × 10³) × (4 × 10⁵)?",
+            "alternativas": [
+              "8 × 10¹⁵",
+              "6 × 10⁸",
+              "8 × 10⁸",
+              "8 × 10²"
+            ],
+            "correta": 2,
+            "explicacao": "2 × 4 = 8 e 3 + 5 = 8: 8 × 10⁸.",
+            "dica": "Multiplique os números da frente e some os expoentes."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 45.000.000 em notação científica?",
+            "alternativas": [
+              "4,5 × 10⁶",
+              "4,5 × 10⁷",
+              "45 × 10⁶",
+              "4,5 × 10⁸"
+            ],
+            "correta": 1,
+            "explicacao": "A vírgula anda 7 casas: 4,5 × 10⁷.",
+            "dica": "Coloque a vírgula depois do 4 e conte quantas casas ela andou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 0,00072 em notação científica?",
+            "alternativas": [
+              "7,2 × 10⁻⁵",
+              "72 × 10⁻⁵",
+              "7,2 × 10⁴",
+              "7,2 × 10⁻⁴"
+            ],
+            "correta": 3,
+            "explicacao": "A vírgula anda 4 casas para a direita até ficar 7,2.",
+            "dica": "Ande com a vírgula até logo depois do 7 e conte as casas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (6 × 10⁸) ÷ (3 × 10²)?",
+            "alternativas": [
+              "2 × 10⁶",
+              "2 × 10⁴",
+              "3 × 10⁶",
+              "2 × 10¹⁰"
+            ],
+            "correta": 0,
+            "explicacao": "6 ÷ 3 = 2 e 8 − 2 = 6: 2 × 10⁶.",
+            "dica": "Divida os números da frente e subtraia os expoentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (5 × 10⁴) × (6 × 10³) em notação científica?",
+            "alternativas": [
+              "30 × 10⁷",
+              "3 × 10⁷",
+              "3 × 10⁸",
+              "11 × 10⁷"
+            ],
+            "correta": 2,
+            "explicacao": "5 × 6 = 30, então 30 × 10⁷. Ajustando: 3 × 10⁸.",
+            "dica": "Faça a conta e depois ajuste o número da frente para ficar entre 1 e 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Escreva 2,03 × 10⁸ por extenso.",
+            "alternativas": [
+              "203.000.000",
+              "20.300.000",
+              "2.030.000.000",
+              "203.000"
+            ],
+            "correta": 0,
+            "explicacao": "A vírgula anda 8 casas para a direita: 203.000.000 (cerca de 203 milhões).",
+            "dica": "Ande 8 casas para a direita, completando com zeros."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma correta de 25 × 10⁵ em notação científica?",
+            "alternativas": [
+              "2,5 × 10⁴",
+              "25 × 10⁵",
+              "0,25 × 10⁷",
+              "2,5 × 10⁶"
+            ],
+            "correta": 3,
+            "explicacao": "25 = 2,5 × 10, então 25 × 10⁵ = 2,5 × 10⁶. A vírgula foi para a esquerda e o expoente subiu.",
+            "dica": "Se a vírgula vai para a esquerda, o expoente sobe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3 × 10⁴ + 2 × 10³?",
+            "alternativas": [
+              "5 × 10⁷",
+              "3,2 × 10⁴",
+              "5 × 10⁴",
+              "3,2 × 10³"
+            ],
+            "correta": 1,
+            "explicacao": "30.000 + 2.000 = 32.000 = 3,2 × 10⁴. Somar os expoentes só vale na multiplicação.",
+            "dica": "Na soma, iguale os expoentes ou escreva os números por extenso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número é maior: 3,2 × 10⁻⁵ ou 5 × 10⁻⁶?",
+            "alternativas": [
+              "5 × 10⁻⁶",
+              "São iguais",
+              "3,2 × 10⁻⁵",
+              "Não dá para comparar"
+            ],
+            "correta": 2,
+            "explicacao": "3,2 × 10⁻⁵ = 0,000032 e 5 × 10⁻⁶ = 0,000005. O expoente −5 é maior que −6.",
+            "dica": "Compare primeiro os expoentes: −5 ou −6, qual é maior?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (8 × 10⁻³) × (5 × 10⁻²)?",
+            "alternativas": [
+              "4 × 10⁻⁴",
+              "40 × 10⁻⁶",
+              "4 × 10⁻⁶",
+              "4 × 10⁻⁵"
+            ],
+            "correta": 0,
+            "explicacao": "8 × 5 = 40 e −3 + (−2) = −5: 40 × 10⁻⁵ = 4 × 10⁻⁴.",
+            "dica": "Some os expoentes negativos e depois ajuste o 40."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do MENOR para o MAIOR:",
+            "itens": [
+              "9 × 10⁻³",
+              "1,2 × 10⁻²",
+              "8 × 10²",
+              "1,1 × 10³"
+            ],
+            "explicacao": "0,009 < 0,012 < 800 < 1.100.",
+            "dica": "Compare primeiro os expoentes; com expoentes iguais, olhe o número da frente."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos segundos, aproximadamente, tem um ano de 365 dias?",
+            "alternativas": [
+              "Cerca de 3,15 × 10⁷",
+              "Cerca de 3,15 × 10⁵",
+              "Cerca de 8,76 × 10³",
+              "Cerca de 5,26 × 10⁵"
+            ],
+            "correta": 0,
+            "explicacao": "365 × 24 × 3.600 = 31.536.000 ≈ 3,15 × 10⁷. 8.760 são as horas e 525.600 são os minutos do ano.",
+            "dica": "Faça dias × horas × segundos por hora; cuidado para não parar nas horas ou nos minutos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (1,2 × 10⁵)²?",
+            "alternativas": [
+              "1,44 × 10⁷",
+              "2,4 × 10¹⁰",
+              "1,44 × 10¹⁰",
+              "1,44 × 10²⁵"
+            ],
+            "correta": 2,
+            "explicacao": "1,2² = 1,44 e (10⁵)² = 10¹⁰.",
+            "dica": "Eleve as duas partes ao quadrado; na potência de potência, multiplique os expoentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bactéria mede 2 × 10⁻⁶ m. Quantas, enfileiradas, cabem em 1 cm (10⁻² m)?",
+            "alternativas": [
+              "500",
+              "5.000",
+              "50.000",
+              "200"
+            ],
+            "correta": 1,
+            "explicacao": "10⁻² ÷ (2 × 10⁻⁶) = 0,5 × 10⁴ = 5 × 10³ = 5.000.",
+            "dica": "Divida o comprimento total pelo tamanho de uma bactéria, com cuidado nos expoentes negativos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (9 × 10⁶) ÷ (3 × 10⁻²)?",
+            "alternativas": [
+              "3 × 10⁴",
+              "3 × 10³",
+              "6 × 10⁸",
+              "3 × 10⁸"
+            ],
+            "correta": 3,
+            "explicacao": "9 ÷ 3 = 3 e 6 − (−2) = 8: 3 × 10⁸.",
+            "dica": "Subtrair um expoente negativo é o mesmo que somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um celular tem 1,28 × 10¹¹ bytes de memória e uma foto ocupa 4 × 10⁶ bytes. Quantas fotos cabem?",
+            "alternativas": [
+              "3,2 × 10⁵",
+              "5,12 × 10¹⁷",
+              "3,2 × 10¹⁷",
+              "3,2 × 10⁴"
+            ],
+            "correta": 3,
+            "explicacao": "1,28 ÷ 4 = 0,32 e 11 − 6 = 5: 0,32 × 10⁵ = 3,2 × 10⁴ = 32.000 fotos.",
+            "dica": "Divida e subtraia os expoentes; depois ajuste o número da frente."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Tipos de dados",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Todo valor num programa tem um tipo. Os quatro mais usados em Python são: int (número inteiro, como 7), float (número com casas decimais, como 2.5), str (texto, sempre entre aspas, como \"Pix\") e bool (lógico: True ou False).",
+          "Em Python, a casa decimal usa ponto, não vírgula: 2.5 e não 2,5. A função type() mostra o tipo: type(3.5) mostra float e type(\"oi\") mostra str.",
+          "O tipo muda o resultado das operações. 5 + 5 dá 10, mas \"5\" + \"5\" dá \"55\": com textos, o + cola um no outro (concatenação). E \"ab\" * 3 dá \"ababab\".",
+          "A função input() sempre devolve texto. Se você pedir a idade e quiser fazer conta, converta: idade = int(input(\"Idade: \")). Para converter de volta para texto, use str(): str(10) + \"0\" dá \"100\".",
+          "Comparações geram valores bool: 3 > 2 vale True e 3 == 4 vale False. Eles são a base dos if e dos while."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O que aparece?\nidade = input(\"Idade: \")   # a pessoa digita 15\nprint(idade + 1)",
+            "resolucao": "Dá erro: idade é o texto \"15\", e Python não soma texto com número. O certo é idade = int(input(\"Idade: \")); aí aparece 16."
+          },
+          {
+            "enunciado": "Quanto vale cada expressão: 10 / 4, 10 // 4 e 10 % 4?",
+            "resolucao": "10 / 4 = 2.5 (float, divisão normal); 10 // 4 = 2 (divisão inteira); 10 % 4 = 2 (resto da divisão)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A divisão com / sempre dá float, mesmo quando é exata: 8 / 2 dá 4.0. Já // descarta a parte decimal (divisão inteira) e % dá o resto. Esses dois são ótimos para descobrir se um número é par (n % 2 == 0).",
+        "Converter nem sempre funciona: int(\"7\") dá 7, mas int(\"sete\") dá erro, e int(\"2.5\") também dá erro (o texto tem ponto). Para esse caso use float(\"2.5\"), que dá 2.5.",
+        "Curiosidade: em contas, True vale 1 e False vale 0, então True + True dá 2. E len() conta os caracteres de um texto: len(\"Pix\") dá 3 e len(\"15\") dá 2, porque são dois caracteres, não o número quinze."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o tipo de 3.5 em Python?",
+            "alternativas": [
+              "int",
+              "str",
+              "float",
+              "bool"
+            ],
+            "correta": 2,
+            "explicacao": "Número com casa decimal é float.",
+            "dica": "O número tem casa decimal ou não?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual valor é um texto (str)?",
+            "alternativas": [
+              "\"Pix\"",
+              "42",
+              "3.14",
+              "True"
+            ],
+            "correta": 0,
+            "explicacao": "Texto fica entre aspas.",
+            "dica": "Procure o valor que está entre aspas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 5 + 5 em Python?",
+            "alternativas": [
+              "55",
+              "\"10\"",
+              "erro",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "Dois números inteiros somados: 10.",
+            "dica": "Aqui são números, não textos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são os dois valores possíveis do tipo bool?",
+            "alternativas": [
+              "Sim e Não",
+              "True e False",
+              "1 e 100",
+              "Certo e Errado"
+            ],
+            "correta": 1,
+            "explicacao": "bool só tem True (verdadeiro) e False (falso), com a primeira letra maiúscula.",
+            "dica": "Em inglês: verdadeiro e falso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, como se escreve dois e meio?",
+            "alternativas": [
+              "2,5",
+              "2;5",
+              "2.5",
+              "dois.cinco"
+            ],
+            "correta": 2,
+            "explicacao": "Python usa ponto como separador decimal.",
+            "dica": "Python segue o padrão de escrita dos números em inglês."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é \"5\" + \"5\" em Python?",
+            "alternativas": [
+              "10",
+              "\"55\"",
+              "\"10\"",
+              "erro"
+            ],
+            "correta": 1,
+            "explicacao": "Com textos, o + cola um no outro: \"55\".",
+            "dica": "Repare nas aspas: são números ou textos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é int(\"7\") + 1?",
+            "alternativas": [
+              "\"71\"",
+              "\"8\"",
+              "erro",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "int(\"7\") transforma o texto em número 7; 7 + 1 = 8.",
+            "dica": "Primeiro converta o texto e só depois faça a conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a função input() devolve?",
+            "alternativas": [
+              "Sempre um texto (str)",
+              "Sempre um número inteiro",
+              "Sempre um bool",
+              "Depende do que for digitado"
+            ],
+            "correta": 0,
+            "explicacao": "Mesmo que se digite 15, input() devolve o texto \"15\".",
+            "dica": "Lembre por que é preciso usar int() junto com input()."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10 / 4 em Python?",
+            "alternativas": [
+              "2",
+              "2,5",
+              "2.5",
+              "2.0"
+            ],
+            "correta": 2,
+            "explicacao": "A barra simples faz a divisão normal e dá float: 2.5.",
+            "dica": "A barra simples faz a divisão comum, com casas decimais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de 3 > 2?",
+            "alternativas": [
+              "True",
+              "False",
+              "3",
+              "\"3 > 2\""
+            ],
+            "correta": 0,
+            "explicacao": "A comparação é verdadeira, então vale True.",
+            "dica": "A comparação é verdadeira ou falsa?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10 // 4?",
+            "alternativas": [
+              "2.5",
+              "3",
+              "0",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "// é a divisão inteira: descarta a parte decimal de 2.5.",
+            "dica": "Duas barras: só a parte inteira da divisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 17 % 5?",
+            "alternativas": [
+              "3",
+              "2",
+              "3.4",
+              "12"
+            ],
+            "correta": 1,
+            "explicacao": "17 ÷ 5 = 3 e sobra 2. O % dá o resto.",
+            "dica": "Quantas vezes o 5 cabe em 17, e quanto sobra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é str(10) + \"0\"?",
+            "alternativas": [
+              "10",
+              "\"10\"",
+              "\"100\"",
+              "erro"
+            ],
+            "correta": 2,
+            "explicacao": "str(10) vira o texto \"10\"; colado com \"0\", fica \"100\".",
+            "dica": "Depois de str(), os dois lados são textos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é \"ab\" * 3?",
+            "alternativas": [
+              "\"ababab\"",
+              "\"ab3\"",
+              "erro",
+              "\"aaabbb\""
+            ],
+            "correta": 0,
+            "explicacao": "Texto vezes inteiro repete o texto: \"ababab\".",
+            "dica": "Multiplicar um texto por um número repete o texto inteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece?\nn = input(\"Número: \")   # digita 4\nprint(n * 2)",
+            "alternativas": [
+              "Aparece 8",
+              "Aparece 44",
+              "Dá erro",
+              "Aparece 4.0"
+            ],
+            "correta": 1,
+            "explicacao": "n é o texto \"4\"; texto vezes 2 repete: \"44\". Para dar 8, precisaria de int().",
+            "dica": "Qual é o tipo de n? E o que o * faz com esse tipo?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 8 / 2 em Python?",
+            "alternativas": [
+              "4.0",
+              "4",
+              "\"4\"",
+              "erro"
+            ],
+            "correta": 0,
+            "explicacao": "A divisão com / sempre dá float, mesmo exata: 4.0.",
+            "dica": "Releia o aprofundamento: que tipo a barra simples sempre devolve?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que int(\"2.5\") faz?",
+            "alternativas": [
+              "Dá 2",
+              "Dá 2.5",
+              "Dá erro, porque o texto tem ponto",
+              "Dá 3"
+            ],
+            "correta": 2,
+            "explicacao": "int() não converte texto com ponto. O certo seria float(\"2.5\") e, se quiser, int() depois.",
+            "dica": "int() aceita qualquer texto ou só textos que parecem inteiros?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é len(\"15\") + 15?",
+            "alternativas": [
+              "30",
+              "17",
+              "\"1515\"",
+              "erro"
+            ],
+            "correta": 1,
+            "explicacao": "len(\"15\") conta 2 caracteres. 2 + 15 = 17.",
+            "dica": "len() conta caracteres, não lê o valor do número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é True + True + False?",
+            "alternativas": [
+              "True",
+              "erro",
+              "3",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "Em contas, True vale 1 e False vale 0: 1 + 1 + 0 = 2.",
+            "dica": "Lembre quanto True e False valem numa conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual expressão dá True para qualquer número inteiro par n?",
+            "alternativas": [
+              "n / 2 == 0",
+              "n // 2 == 1",
+              "n % 2 == 1",
+              "n % 2 == 0"
+            ],
+            "correta": 3,
+            "explicacao": "Par tem resto 0 na divisão por 2. n / 2 == 0 só vale para n = 0.",
+            "dica": "Pense no resto da divisão de um número par por 2."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Currículo no Word",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O currículo é o seu cartão de visita para uma vaga de jovem aprendiz, estágio ou emprego. Deve caber em uma página e ser fácil de ler em poucos segundos.",
+          "Partes básicas: nome em destaque; contato (cidade e bairro, telefone e um e-mail sério, como nome.sobrenome@…); objetivo (a vaga que você quer); formação (escola, série, previsão de conclusão); cursos; experiências (incluindo voluntariado e projetos); habilidades e idiomas.",
+          "Não coloque CPF, RG, número de documentos nem senhas: esses dados são pedidos só depois, se você for contratado. Foto não é obrigatória.",
+          "No Word, use uma fonte simples (como Arial) de tamanho 11 ou 12, títulos de seção em negrito (botão N) e alinhamento organizado. Liste as experiências da mais recente para a mais antiga.",
+          "Antes de enviar, revise a ortografia (aba Revisão > Ortografia e Gramática) e salve em PDF (Arquivo > Salvar como > tipo PDF). O PDF mantém a formatação igual em qualquer computador ou celular."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como Rafaela, 16 anos, sem emprego anterior, pode preencher “Experiências”?",
+            "resolucao": "“Monitora voluntária da biblioteca da escola (2026): organizei empréstimos e ajudei colegas do 6º ano.” Voluntariado e projetos contam como experiência."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Use verbos de ação e resultados: em vez de “ajudei na feira”, escreva “organizei a feira de ciências com 12 colegas e recebemos 300 visitantes”. Números tornam a frase mais forte.",
+        "Adapte o objetivo para cada vaga: “Jovem aprendiz na área administrativa” é melhor que “qualquer vaga”. E nunca invente cursos ou experiências: isso é descoberto na entrevista e queima a sua imagem.",
+        "Recursos do Word que ajudam: Estilos (aba Página Inicial) deixam todos os títulos iguais com um clique; o nome do arquivo deve ser claro, como “Curriculo_Rafaela_Souza.pdf”, e não “documento1”."
+      ],
+      "desafio_pratico": "No Word (ou num editor de textos gratuito do celular), monte o seu currículo de estudante em uma página: nome em destaque, cidade e bairro, telefone fictício e um e-mail sério, objetivo (“Jovem aprendiz na área de …”), formação, pelo menos dois cursos ou projetos (pode ser a feira de ciências, um curso online gratuito ou um trabalho voluntário) e três habilidades. Títulos em negrito, fonte Arial 11 ou 12, sem CPF ou RG. Passe a revisão de ortografia e salve em PDF com o nome Curriculo_SeuNome.pdf. Mostre para um adulto da família e peça uma sugestão de melhoria.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas páginas deve ter o currículo de um estudante?",
+            "alternativas": [
+              "Cinco páginas",
+              "Pelo menos três páginas",
+              "Uma página",
+              "Quantas quiser"
+            ],
+            "correta": 2,
+            "explicacao": "Quem lê tem pouco tempo: uma página basta.",
+            "dica": "Pense em quem vai ler dezenas de currículos no mesmo dia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual e-mail é mais adequado no currículo?",
+            "alternativas": [
+              "rafaela.souza@exemplo.com",
+              "gatinha_fofa2010@exemplo.com",
+              "reidosgames@exemplo.com",
+              "naoleia@exemplo.com"
+            ],
+            "correta": 0,
+            "explicacao": "Um e-mail com nome e sobrenome passa seriedade.",
+            "dica": "Escolha o endereço que mostra quem você é de forma séria."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual dado NÃO deve aparecer no currículo?",
+            "alternativas": [
+              "O nome completo",
+              "O telefone",
+              "A escola onde estuda",
+              "O número do CPF"
+            ],
+            "correta": 3,
+            "explicacao": "CPF e documentos são pedidos só na contratação; no currículo eles ficam expostos à toa.",
+            "dica": "Pense em qual informação poderia ser usada num golpe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que formato é melhor enviar o currículo?",
+            "alternativas": [
+              "Foto do caderno",
+              "PDF",
+              "Áudio no celular",
+              "Arquivo sem nome"
+            ],
+            "correta": 1,
+            "explicacao": "O PDF mantém a formatação igual em qualquer aparelho.",
+            "dica": "Qual formato não desmancha a formatação no aparelho de quem recebe?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deixar os títulos das seções em destaque no Word?",
+            "alternativas": [
+              "Escrever tudo em letras de cores diferentes",
+              "Usar fonte de tamanho 40",
+              "Usar negrito (botão N)",
+              "Deixar sem destaque"
+            ],
+            "correta": 2,
+            "explicacao": "Negrito destaca sem exagero.",
+            "dica": "A lição citou um botão com uma letra."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafaela nunca trabalhou. O que ela pode pôr em Experiências?",
+            "alternativas": [
+              "Nada, deve apagar a seção",
+              "Voluntariado e projetos da escola",
+              "Um emprego inventado",
+              "A lista de séries que assiste"
+            ],
+            "correta": 1,
+            "explicacao": "Voluntariado e projetos mostram responsabilidade real.",
+            "dica": "Pense em atividades reais em que ela teve responsabilidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que ordem listar as experiências?",
+            "alternativas": [
+              "Da mais antiga para a mais recente",
+              "Em ordem alfabética",
+              "Em qualquer ordem",
+              "Da mais recente para a mais antiga"
+            ],
+            "correta": 3,
+            "explicacao": "Quem lê quer ver primeiro o que você fez por último.",
+            "dica": "O que interessa mais a quem contrata: o que você fez agora ou há anos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fonte e tamanho combinam com um currículo?",
+            "alternativas": [
+              "Arial, tamanho 11 ou 12",
+              "Fonte cursiva enfeitada, tamanho 8",
+              "Fonte de desenho, tamanho 20",
+              "Qualquer fonte, tamanho 6"
+            ],
+            "correta": 0,
+            "explicacao": "Fonte simples e de tamanho médio facilita a leitura.",
+            "dica": "Pense na leitura rápida e confortável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica a revisão de ortografia no Word?",
+            "alternativas": [
+              "Na aba Inserir, em Imagens",
+              "Em Arquivo, em Imprimir",
+              "Na aba Revisão, em Ortografia e Gramática",
+              "Na aba Layout, em Margens"
+            ],
+            "correta": 2,
+            "explicacao": "A aba Revisão tem a verificação de ortografia.",
+            "dica": "O nome da aba tem a ver com conferir o texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual objetivo está melhor escrito?",
+            "alternativas": [
+              "Jovem aprendiz na área administrativa",
+              "Qualquer vaga",
+              "Quero dinheiro",
+              "Não sei ainda"
+            ],
+            "correta": 0,
+            "explicacao": "Objetivo claro mostra que você sabe o que procura.",
+            "dica": "Escolha o que diz exatamente o tipo de vaga desejada."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase de experiência é mais forte?",
+            "alternativas": [
+              "Ajudei na feira",
+              "Participei de coisas da escola",
+              "Fiz várias atividades legais",
+              "Organizei a feira de ciências com 12 colegas e recebemos 300 visitantes"
+            ],
+            "correta": 3,
+            "explicacao": "Verbo de ação e números mostram o tamanho do que foi feito.",
+            "dica": "Procure a frase com verbo de ação e resultado em números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual nome de arquivo é melhor para enviar?",
+            "alternativas": [
+              "documento1.docx",
+              "Curriculo_Rafaela_Souza.pdf",
+              "final_final_agora_vai.docx",
+              "cv.txt"
+            ],
+            "correta": 1,
+            "explicacao": "Nome claro e formato PDF facilitam para o recrutador achar e abrir.",
+            "dica": "O recrutador recebe dezenas de arquivos. Qual ele acha fácil?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para deixar todos os títulos iguais com um clique, qual recurso do Word usar?",
+            "alternativas": [
+              "Zoom",
+              "Contar palavras",
+              "Estilos",
+              "Inserir gráfico"
+            ],
+            "correta": 2,
+            "explicacao": "Estilos aplicam a mesma formatação a todos os títulos.",
+            "dica": "Fica na aba Página Inicial e padroniza títulos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas colocou no currículo um curso de inglês que nunca fez. O que pode acontecer?",
+            "alternativas": [
+              "Ser descoberto na entrevista e perder a confiança da empresa",
+              "Nada, ninguém confere",
+              "Ganhar um salário maior automaticamente",
+              "A empresa paga o curso para ele"
+            ],
+            "correta": 0,
+            "explicacao": "Mentiras no currículo costumam aparecer em testes e perguntas, e queimam a imagem do candidato.",
+            "dica": "Releia o aprofundamento sobre inventar cursos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as seções de um currículo de estudante, de cima para baixo:",
+            "itens": [
+              "Nome e contato",
+              "Objetivo",
+              "Formação",
+              "Experiências e cursos",
+              "Habilidades"
+            ],
+            "explicacao": "Primeiro quem é você e o que quer; depois o que estudou, o que fez e o que sabe fazer.",
+            "dica": "Comece por quem você é e o que procura."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o currículo não deve trazer CPF e RG?",
+            "alternativas": [
+              "Porque ele passa por muitas mãos e esses dados podem ser usados em fraudes",
+              "Porque é proibido ter CPF",
+              "Porque o Word não aceita números",
+              "Porque deixa o arquivo pesado"
+            ],
+            "correta": 0,
+            "explicacao": "Currículo é enviado a várias empresas; dados de documentos só na contratação.",
+            "dica": "Pense em quantas pessoas veem um currículo e no que um golpista faria com documentos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafaela vai se candidatar a uma vaga de aprendiz em loja e outra em escritório. O que fazer com o currículo?",
+            "alternativas": [
+              "Mandar o mesmo arquivo sem mudar nada",
+              "Inventar experiências diferentes",
+              "Ajustar o objetivo e destacar o que combina com cada vaga",
+              "Mandar só para uma"
+            ],
+            "correta": 2,
+            "explicacao": "Adaptar mostra interesse real. Mudar é escolher o que destacar, nunca inventar.",
+            "dica": "Lembre do aprofundamento: o objetivo muda conforme a vaga."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha de Formação está mais completa?",
+            "alternativas": [
+              "Estudo",
+              "Ensino médio, 1º ano — E. E. Jardim das Flores — conclusão prevista em 2029",
+              "Escola perto de casa",
+              "Ensino médio"
+            ],
+            "correta": 1,
+            "explicacao": "Nível, ano, escola e previsão de conclusão dizem tudo que o recrutador precisa.",
+            "dica": "A boa linha diz nível, série, escola e quando termina."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O currículo ficou com uma página e três linhas. Qual é a melhor solução?",
+            "alternativas": [
+              "Diminuir a fonte para 6",
+              "Apagar a seção de contato",
+              "Deixar duas páginas com três linhas na segunda",
+              "Cortar repetições e ajustar margens e espaços, mantendo a fonte legível"
+            ],
+            "correta": 3,
+            "explicacao": "Enxugar texto e espaços resolve sem prejudicar a leitura nem tirar o essencial.",
+            "dica": "Sem o contato, ninguém te chama; fonte minúscula ninguém lê."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que salvar em PDF e não mandar o arquivo .docx?",
+            "alternativas": [
+              "Porque o PDF corrige a ortografia sozinho",
+              "Porque .docx é proibido",
+              "Porque o PDF deixa o texto maior",
+              "Porque o PDF mantém fonte e layout iguais em qualquer aparelho"
+            ],
+            "correta": 3,
+            "explicacao": "Um .docx pode abrir com outra fonte e desconfigurar; o PDF fica igual.",
+            "dica": "Pense no que acontece quando o computador de quem recebe não tem a mesma fonte."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Plano de negócio",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Plano de negócio é o mapa de uma empresa antes de ela começar: ajuda a descobrir se a ideia para em pé, quanto dinheiro precisa e onde estão os riscos. Pode ser simples, em poucas páginas.",
+          "Partes principais: o produto ou serviço (o que resolve); o mercado (quem é o cliente, quem são os concorrentes); a divulgação e as vendas; a operação (como produzir e entregar); as finanças; e a equipe.",
+          "Nas finanças entram: investimento inicial (o que precisa comprar para começar), custos fixos (pagos todo mês, vendendo ou não), custos variáveis (crescem a cada unidade vendida) e preço de venda.",
+          "Exemplo: Duda quer vender brigadeiros. Investimento inicial: R$ 600 (panela, formas, embalagens). Custo variável: R$ 1,20 por brigadeiro. Custo fixo: R$ 180 por mês (gás e divulgação). Preço: R$ 3,00. Cada brigadeiro deixa R$ 1,80 para pagar os custos fixos e dar lucro.",
+          "Na parte da equipe, o plano já deve prever ajudantes dentro da lei: registro, pagamento justo e combinado por escrito. Um negócio que cresce com gente bem tratada produz mais e não corre risco de processo trabalhista."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quantos brigadeiros Duda precisa vender por mês para não ter prejuízo?",
+            "resolucao": "Ponto de equilíbrio = custo fixo ÷ o que sobra por unidade = 180 ÷ 1,80 = 100 brigadeiros. Abaixo disso, prejuízo; acima, lucro."
+          },
+          {
+            "enunciado": "Se Duda vender 300 brigadeiros num mês, qual o lucro? Em quanto tempo recupera o investimento?",
+            "resolucao": "Lucro = 300 × 1,80 − 180 = 540 − 180 = R$ 360. Investimento de R$ 600 ÷ 360 ≈ 1,7: recupera em cerca de 2 meses."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A análise FOFA (ou SWOT) organiza os riscos: Forças e Fraquezas são internas (o que depende de você, como a receita da família ou a falta de tempo); Oportunidades e Ameaças são externas (a festa junina da escola, um concorrente novo, o aumento do preço do chocolate).",
+        "O plano não é uma previsão perfeita: é um teste. Monte três cenários (pessimista, provável e otimista) e veja se o negócio sobrevive ao pessimista. Se o preço do chocolate subir e o custo variável for para R$ 1,50, sobram R$ 1,50 por unidade e o ponto de equilíbrio vai para 180 ÷ 1,50 = 120 brigadeiros.",
+        "Crescer com equipe: um MEI pode ter um empregado registrado. Delegar tarefas (alguém embala enquanto você produz) multiplica a produção, mas o custo desse trabalho precisa entrar no plano. Contratar sem registro pode parecer mais barato, mas gera multa, processo e perda de bons ajudantes."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um plano de negócio?",
+            "alternativas": [
+              "Para enfeitar a parede da loja",
+              "Para pagar menos impostos",
+              "Para planejar a empresa antes de começar e enxergar os riscos",
+              "Para não precisar de clientes"
+            ],
+            "correta": 2,
+            "explicacao": "O plano é um mapa: mostra se a ideia funciona, quanto custa e onde estão os riscos.",
+            "dica": "A lição comparou o plano a um mapa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é custo fixo?",
+            "alternativas": [
+              "Um gasto pago todo mês, vendendo ou não",
+              "Um gasto que só existe quando vende",
+              "O preço de venda",
+              "O lucro do mês"
+            ],
+            "correta": 0,
+            "explicacao": "Custo fixo não depende da quantidade vendida, como aluguel ou internet.",
+            "dica": "Pense num gasto que vem mesmo num mês sem vendas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na banca de brigadeiros da Duda, quanto sobra de cada unidade vendida (preço menos custo variável)?",
+            "alternativas": [
+              "R$ 3,00",
+              "R$ 1,20",
+              "R$ 4,20",
+              "R$ 1,80"
+            ],
+            "correta": 3,
+            "explicacao": "3,00 − 1,20 = 1,80.",
+            "dica": "Tire do preço o que se gasta para fazer um brigadeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem é o “mercado” no plano de negócio?",
+            "alternativas": [
+              "Só o supermercado do bairro",
+              "Os clientes e os concorrentes",
+              "O banco",
+              "A família do dono"
+            ],
+            "correta": 1,
+            "explicacao": "Mercado é quem compra e quem disputa esse cliente com você.",
+            "dica": "Pense em quem compra e em quem vende parecido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como o plano deve prever ajudantes?",
+            "alternativas": [
+              "Sem registro, para economizar",
+              "Sem pagar nada",
+              "Dentro da lei, com registro e pagamento justo",
+              "Só com promessas"
+            ],
+            "correta": 2,
+            "explicacao": "Equipe bem tratada e registrada produz mais e evita processos.",
+            "dica": "A lição falou em fazer tudo dentro da lei."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Duda tem custo fixo de R$ 180 e sobra R$ 1,80 por brigadeiro. Qual é o ponto de equilíbrio?",
+            "alternativas": [
+              "180 brigadeiros",
+              "100 brigadeiros",
+              "50 brigadeiros",
+              "324 brigadeiros"
+            ],
+            "correta": 1,
+            "explicacao": "180 ÷ 1,80 = 100. Vendendo 100, ela paga os custos e não lucra nem perde.",
+            "dica": "Divida o custo fixo pelo que sobra de cada unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é custo variável na banca de brigadeiro?",
+            "alternativas": [
+              "A divulgação mensal",
+              "A panela comprada no início",
+              "O gás do mês",
+              "O chocolate usado em cada receita"
+            ],
+            "correta": 3,
+            "explicacao": "O chocolate aumenta conforme a quantidade produzida. A panela é investimento inicial.",
+            "dica": "Qual gasto cresce a cada brigadeiro a mais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duda vendeu 300 brigadeiros no mês. Qual foi o lucro?",
+            "alternativas": [
+              "R$ 360,00",
+              "R$ 540,00",
+              "R$ 900,00",
+              "R$ 720,00"
+            ],
+            "correta": 0,
+            "explicacao": "300 × 1,80 = 540; 540 − 180 = 360.",
+            "dica": "Calcule quanto sobrou das vendas e depois desconte o custo fixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A panela, as formas e as embalagens compradas antes de abrir o negócio são:",
+            "alternativas": [
+              "Custo variável",
+              "Lucro",
+              "Investimento inicial",
+              "Preço de venda"
+            ],
+            "correta": 2,
+            "explicacao": "É o que se gasta uma vez para começar.",
+            "dica": "É um gasto feito uma vez, antes da primeira venda."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as etapas de um plano de negócio simples:",
+            "itens": [
+              "Definir o produto e o problema que resolve",
+              "Pesquisar clientes e concorrentes",
+              "Planejar divulgação e operação",
+              "Calcular custos, preço e lucro"
+            ],
+            "explicacao": "Primeiro a ideia, depois o mercado, depois como fazer e por fim as contas.",
+            "dica": "Comece pela ideia e termine pelas contas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Duda investiu R$ 600 e lucra R$ 360 por mês. Em quanto tempo recupera o investimento?",
+            "alternativas": [
+              "Em 1 mês",
+              "Em 6 meses",
+              "Em 10 meses",
+              "Em cerca de 2 meses"
+            ],
+            "correta": 3,
+            "explicacao": "600 ÷ 360 ≈ 1,7 mês: no 2º mês o investimento está pago.",
+            "dica": "Divida o investimento pelo lucro mensal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na FOFA, “o preço do chocolate subiu” é:",
+            "alternativas": [
+              "Uma força",
+              "Uma ameaça",
+              "Uma fraqueza",
+              "Uma oportunidade"
+            ],
+            "correta": 1,
+            "explicacao": "É algo externo e ruim para o negócio: ameaça.",
+            "dica": "É algo que Duda controla ou que vem de fora? Ajuda ou atrapalha?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na FOFA, “Duda tem uma receita de família muito elogiada” é:",
+            "alternativas": [
+              "Uma ameaça",
+              "Uma oportunidade",
+              "Uma força",
+              "Uma fraqueza"
+            ],
+            "correta": 2,
+            "explicacao": "É interno (depende dela) e positivo: força.",
+            "dica": "Interno ou externo? Positivo ou negativo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O custo variável subiu para R$ 1,50 e o preço continua R$ 3,00. Qual o novo ponto de equilíbrio (custo fixo R$ 180)?",
+            "alternativas": [
+              "120 brigadeiros",
+              "100 brigadeiros",
+              "60 brigadeiros",
+              "150 brigadeiros"
+            ],
+            "correta": 0,
+            "explicacao": "Sobra 3,00 − 1,50 = 1,50 por unidade. 180 ÷ 1,50 = 120.",
+            "dica": "Recalcule quanto sobra por unidade antes de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duda quer chamar a prima para embalar. Qual atitude segue a lei e protege o negócio?",
+            "alternativas": [
+              "Pagar com brigadeiros e não combinar nada",
+              "Combinar por escrito, pagar o justo e registrar se virar um trabalho fixo",
+              "Prometer pagar só se der lucro",
+              "Não pagar porque é da família"
+            ],
+            "correta": 1,
+            "explicacao": "Mesmo entre parentes, combinado por escrito e pagamento justo evitam brigas e problemas legais.",
+            "dica": "Pense no que evita brigas e processos, mesmo dentro da família."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com custo fixo de R$ 180 e R$ 1,80 por unidade, quantos brigadeiros Duda precisa vender para lucrar R$ 450 no mês?",
+            "alternativas": [
+              "350 brigadeiros",
+              "250 brigadeiros",
+              "100 brigadeiros",
+              "450 brigadeiros"
+            ],
+            "correta": 0,
+            "explicacao": "Precisa cobrir 180 + 450 = 630. 630 ÷ 1,80 = 350.",
+            "dica": "Some o custo fixo ao lucro desejado e divida pelo que sobra por unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No cenário pessimista, Duda vende 110 brigadeiros com custo variável de R$ 1,50 (preço R$ 3,00, fixo R$ 180). Qual o resultado?",
+            "alternativas": [
+              "Lucro de R$ 18,00",
+              "Lucro de R$ 15,00",
+              "Prejuízo de R$ 15,00",
+              "Nem lucro nem prejuízo"
+            ],
+            "correta": 2,
+            "explicacao": "110 × 1,50 = 165; 165 − 180 = −15. O lucro de R$ 18 usaria a margem antiga de R$ 1,80.",
+            "dica": "Use a margem do cenário pessimista, não a original."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duda contrata um ajudante registrado e passa a produzir o dobro. O que o plano precisa incluir?",
+            "alternativas": [
+              "Nada, a produção dobrou",
+              "O custo total do ajudante (salário e encargos) nos custos fixos",
+              "Só o salário líquido do ajudante",
+              "Apenas o custo do chocolate"
+            ],
+            "correta": 1,
+            "explicacao": "O ajudante aumenta o custo fixo; o plano deve verificar se as vendas a mais cobrem isso.",
+            "dica": "Releia o aprofundamento: o custo do trabalho precisa entrar no plano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação sobre contratar sem registro é verdadeira?",
+            "alternativas": [
+              "É sempre mais barato e sem risco",
+              "É permitido para negócios pequenos",
+              "Garante que o ajudante fique para sempre",
+              "Parece mais barato, mas pode gerar multa, processo e perda de bons ajudantes"
+            ],
+            "correta": 3,
+            "explicacao": "A economia é ilusória: dívidas trabalhistas e multas podem custar muito mais.",
+            "dica": "Compare a economia de hoje com os riscos que a lição citou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na festa junina da escola, Duda pode vender muito. Na FOFA, isso é:",
+            "alternativas": [
+              "Uma força",
+              "Uma ameaça",
+              "Uma fraqueza",
+              "Uma oportunidade"
+            ],
+            "correta": 3,
+            "explicacao": "É externo (não depende dela) e positivo: oportunidade.",
+            "dica": "A festa é algo que vem de fora. Ajuda ou atrapalha?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O caderno de Thiago",
+    "texto": "Thiago sempre foi o menino que consertava as bicicletas da rua. Corrente solta, pneu furado, freio frouxo: era só chamar. Quando fez 15 anos, o tio perguntou: “Por que você não cobra por isso?”\n\nThiago achou que bastava pendurar uma placa no portão. O tio, que tinha uma pequena oficina de motos, deu outra ideia: “Antes da placa, faz um plano. Num caderno mesmo.”\n\nNa primeira página, Thiago escreveu o problema que resolvia: as bicicletarias ficavam longe e muita gente do bairro usava a bicicleta para trabalhar. Na segunda, listou os clientes: entregadores, estudantes e aposentados. Na terceira, anotou os concorrentes e descobriu que nenhum atendia à noite.\n\nDepois vieram as contas. Ferramentas e um suporte custariam R$ 450. Câmaras de ar e cabos seriam comprados conforme os pedidos. Ele pesquisou preços em três lojas e montou uma tabela: troca de câmara, regulagem de freio, revisão completa. Calculou quantos serviços precisava fazer por mês para pagar as ferramentas e ficou surpreso: eram bem mais do que imaginava.\n\nNa página da FOFA, escreveu como força a habilidade e a confiança dos vizinhos; como fraqueza, o pouco tempo por causa da escola; como oportunidade, o número crescente de entregadores; como ameaça, uma loja grande que estava abrindo na avenida.\n\nO plano mostrou que atender só às sextas e aos sábados era mais realista. No primeiro mês, Thiago fez menos serviços do que previa e se frustrou. No terceiro, já tinha clientes fixos.\n\nO caderno continua na gaveta da oficina. Toda vez que algo muda, Thiago abre e reescreve uma página. Ele aprendeu que plano bom não é o que acerta tudo, e sim o que ajuda a corrigir o caminho."
+  },
+  "escrita": {
+    "proposta": "Thiago montou o plano num caderno. Escolha um pequeno negócio que você poderia ter (consertos, aulas de reforço, doces, artesanato) e escreva de 5 a 10 linhas com: o problema que ele resolve, quem seria o cliente, um concorrente, um custo fixo, um custo variável e o preço que você cobraria. Termine com uma força e uma ameaça do seu negócio."
+  }
+}

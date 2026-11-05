@@ -1,0 +1,907 @@
+{
+  "dia": 6,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Produtos notáveis e fatoração",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Produtos notáveis são multiplicações que aparecem tanto que vale a pena decorar o resultado. O primeiro é o quadrado da soma: (a + b)² = a² + 2ab + b². Lê-se: o quadrado do primeiro, mais duas vezes o primeiro vezes o segundo, mais o quadrado do segundo.",
+          "O quadrado da diferença muda só um sinal: (a − b)² = a² − 2ab + b². E o produto da soma pela diferença é o mais curto de todos: (a + b)(a − b) = a² − b², porque os termos do meio se cancelam.",
+          "Cuidado com o erro mais comum: (a + b)² NÃO é a² + b². Teste com números: (3 + 2)² = 5² = 25, mas 3² + 2² = 9 + 4 = 13. Falta o termo do meio, 2 × 3 × 2 = 12.",
+          "Fatorar é fazer o caminho de volta: transformar uma soma em multiplicação. O jeito mais simples é colocar o fator comum em evidência: 6x + 9 = 3(2x + 3), porque o 3 divide os dois termos.",
+          "Os produtos notáveis também servem para fatorar: x² − 25 = (x + 5)(x − 5) é uma diferença de quadrados, e x² + 6x + 9 = (x + 3)² é um trinômio quadrado perfeito (o termo do meio é 2 × x × 3)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Desenvolva (x + 4)².",
+            "resolucao": "Quadrado do primeiro: x². Duas vezes o primeiro vezes o segundo: 2 × x × 4 = 8x. Quadrado do segundo: 16. Resultado: x² + 8x + 16."
+          },
+          {
+            "enunciado": "Fatore 49 − y².",
+            "resolucao": "49 = 7² e y² = y · y, então é uma diferença de quadrados: 49 − y² = (7 + y)(7 − y)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Produtos notáveis ajudam no cálculo mental. 21² = (20 + 1)² = 400 + 40 + 1 = 441. E 99 × 101 = (100 − 1)(100 + 1) = 10 000 − 1 = 9 999. Para diferenças de quadrados grandes, como 52² − 48², use (52 + 48)(52 − 48) = 100 × 4 = 400, sem calcular cada quadrado.",
+        "Às vezes conhecemos a soma e o produto de dois números e queremos a soma dos quadrados. Como (a + b)² = a² + b² + 2ab, basta isolar: a² + b² = (a + b)² − 2ab. O mesmo truque funciona com expressões como x − 1/x: (x − 1/x)² = x² − 2 + 1/x², porque x · (1/x) = 1.",
+        "Na fatoração, faça em etapas: primeiro o fator comum, depois veja se sobrou um produto notável. Exemplo: 2x² − 50 = 2(x² − 25) = 2(x + 5)(x − 5). Às vezes um pedaço da expressão é um quadrado perfeito, como x² − 6x + 9 − y² = (x − 3)² − y², e aí aparece uma diferença de quadrados: (x − 3 + y)(x − 3 − y)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de (a + b)²?",
+            "alternativas": [
+              "a² + b²",
+              "a² + 2ab + b²",
+              "2a + 2b",
+              "a² − 2ab + b²"
+            ],
+            "correta": 1,
+            "explicacao": "O quadrado da soma tem três termos: a², 2ab e b². O erro comum é esquecer o termo do meio.",
+            "dica": "Lembre a frase: quadrado do primeiro, mais duas vezes o primeiro vezes o segundo, mais o quadrado do segundo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de (a + b)(a − b)?",
+            "alternativas": [
+              "a² − b²",
+              "a² + b²",
+              "a² − 2ab + b²",
+              "2ab"
+            ],
+            "correta": 0,
+            "explicacao": "Na soma pela diferença, os termos do meio (+ab e −ab) se cancelam e sobra a² − b².",
+            "dica": "Multiplique tudo por tudo e veja quais termos se anulam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Colocando o fator comum em evidência, 5x + 10 fica:",
+            "alternativas": [
+              "5(x + 10)",
+              "x(5 + 10)",
+              "5(x + 2)",
+              "10(x + 5)"
+            ],
+            "correta": 2,
+            "explicacao": "O 5 divide os dois termos: 5x ÷ 5 = x e 10 ÷ 5 = 2. Conferindo: 5(x + 2) = 5x + 10.",
+            "dica": "Qual número divide 5x e 10 ao mesmo tempo? Divida cada termo por ele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Desenvolva (x + 1)².",
+            "alternativas": [
+              "x² + 1",
+              "x² + x + 1",
+              "x² + 2x + 2",
+              "x² + 2x + 1"
+            ],
+            "correta": 3,
+            "explicacao": "x² + 2 · x · 1 + 1² = x² + 2x + 1.",
+            "dica": "O termo do meio é duas vezes x vezes 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é fatorar uma expressão?",
+            "alternativas": [
+              "Somar todos os termos",
+              "Escrever a expressão como uma multiplicação",
+              "Elevar tudo ao quadrado",
+              "Trocar todos os sinais"
+            ],
+            "correta": 1,
+            "explicacao": "Fatorar é o caminho de volta do produto: transformar em multiplicação, como 6x + 9 = 3(2x + 3).",
+            "dica": "Pense em fatores: são as partes de uma multiplicação."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Desenvolva (x + 5)².",
+            "alternativas": [
+              "x² + 25",
+              "x² + 10x + 25",
+              "x² + 5x + 25",
+              "x² + 10x + 10"
+            ],
+            "correta": 1,
+            "explicacao": "x² + 2 · x · 5 + 5² = x² + 10x + 25. Esquecer o termo 10x é o erro mais comum.",
+            "dica": "O termo do meio é 2 vezes x vezes 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Desenvolva (y − 3)².",
+            "alternativas": [
+              "y² − 6y + 9",
+              "y² − 9",
+              "y² + 6y + 9",
+              "y² − 3y + 9"
+            ],
+            "correta": 0,
+            "explicacao": "Quadrado da diferença: y² − 2 · y · 3 + 9 = y² − 6y + 9. O último termo é positivo, pois (−3)² = 9.",
+            "dica": "Só o termo do meio fica negativo; o quadrado do segundo é sempre positivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma fatorada de x² − 36?",
+            "alternativas": [
+              "(x − 6)²",
+              "(x + 6)²",
+              "(x + 6)(x − 6)",
+              "(x − 18)(x + 2)"
+            ],
+            "correta": 2,
+            "explicacao": "x² − 36 é diferença de quadrados (36 = 6²), então vira (x + 6)(x − 6).",
+            "dica": "Os dois termos são quadrados e há um sinal de menos entre eles."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma fatorada de x² + 8x + 16?",
+            "alternativas": [
+              "(x + 8)²",
+              "(x + 4)(x − 4)",
+              "(x + 2)(x + 8)",
+              "(x + 4)²"
+            ],
+            "correta": 3,
+            "explicacao": "16 = 4² e o termo do meio é 2 · x · 4 = 8x, então é trinômio quadrado perfeito: (x + 4)².",
+            "dica": "Ache o número cujo quadrado é 16 e confira se o dobro dele vezes x dá 8x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fatore 4a + 12ab.",
+            "alternativas": [
+              "4a(1 + 3b)",
+              "4(a + 3b)",
+              "2a(2 + 3b)",
+              "4a · 3b"
+            ],
+            "correta": 0,
+            "explicacao": "O fator comum é 4a: 4a ÷ 4a = 1 e 12ab ÷ 4a = 3b. Conferindo: 4a(1 + 3b) = 4a + 12ab.",
+            "dica": "Procure o maior número e a letra que aparecem nos dois termos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando produto notável, quanto é 31²?",
+            "alternativas": [
+              "931",
+              "961",
+              "901",
+              "991"
+            ],
+            "correta": 1,
+            "explicacao": "31² = (30 + 1)² = 900 + 2 · 30 · 1 + 1 = 900 + 60 + 1 = 961.",
+            "dica": "Escreva 31 como 30 + 1 e use o quadrado da soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 102 × 98, usando produto notável?",
+            "alternativas": [
+              "10 004",
+              "9 994",
+              "10 000",
+              "9 996"
+            ],
+            "correta": 3,
+            "explicacao": "102 × 98 = (100 + 2)(100 − 2) = 100² − 2² = 10 000 − 4 = 9 996.",
+            "dica": "Os dois números estão à mesma distância de 100: um acima e outro abaixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fatoração completa de 3x² − 27?",
+            "alternativas": [
+              "3(x − 3)²",
+              "3(x + 9)(x − 9)",
+              "3(x + 3)(x − 3)",
+              "(3x − 9)(x + 9)"
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro o fator comum: 3(x² − 9). Depois a diferença de quadrados: 3(x + 3)(x − 3).",
+            "dica": "Coloque o 3 em evidência e veja o que sobrou dentro dos parênteses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a + b = 7 e ab = 10, quanto vale a² + b²?",
+            "alternativas": [
+              "29",
+              "49",
+              "39",
+              "59"
+            ],
+            "correta": 0,
+            "explicacao": "(a + b)² = a² + b² + 2ab, então 49 = a² + b² + 20 e a² + b² = 29. Conferindo com 5 e 2: 25 + 4 = 29.",
+            "dica": "Eleve a + b ao quadrado e tire o termo 2ab."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes trinômios é um quadrado perfeito?",
+            "alternativas": [
+              "x² + 10x + 20",
+              "x² + 5x + 25",
+              "x² + 10x + 25",
+              "x² + 25"
+            ],
+            "correta": 2,
+            "explicacao": "x² + 10x + 25 = (x + 5)², pois 25 = 5² e 2 · x · 5 = 10x. Nos outros, o termo do meio ou o último não combinam.",
+            "dica": "O último termo precisa ser um quadrado e o do meio, o dobro do produto das raízes."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem calcular cada quadrado, quanto é 52² − 48²?",
+            "alternativas": [
+              "16",
+              "200",
+              "400",
+              "4 000"
+            ],
+            "correta": 2,
+            "explicacao": "Diferença de quadrados: (52 + 48)(52 − 48) = 100 × 4 = 400. Conferindo: 2 704 − 2 304 = 400.",
+            "dica": "Transforme a subtração de quadrados em uma multiplicação de soma por diferença."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se x − 1/x = 3, quanto vale x² + 1/x²?",
+            "alternativas": [
+              "11",
+              "9",
+              "7",
+              "12"
+            ],
+            "correta": 0,
+            "explicacao": "(x − 1/x)² = x² − 2 + 1/x² = 9, então x² + 1/x² = 9 + 2 = 11. A pegadinha é responder 9 ou 7.",
+            "dica": "Eleve os dois lados ao quadrado; o termo do meio vale 2 · x · (1/x)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 999²?",
+            "alternativas": [
+              "999 001",
+              "998 999",
+              "1 001 001",
+              "998 001"
+            ],
+            "correta": 3,
+            "explicacao": "999² = (1 000 − 1)² = 1 000 000 − 2 000 + 1 = 998 001.",
+            "dica": "Escreva 999 como 1 000 menos alguma coisa e use o quadrado da diferença."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas escreveu (x + 3)² = x² + 9. Para qual valor de x a conta dele dá o mesmo resultado que a conta certa?",
+            "alternativas": [
+              "x = 3",
+              "x = 0",
+              "x = −3",
+              "Nenhum valor"
+            ],
+            "correta": 1,
+            "explicacao": "O certo é x² + 6x + 9. Para ser igual a x² + 9, o termo 6x precisa valer 0, ou seja, x = 0. Para qualquer outro x, Lucas erra.",
+            "dica": "Iguale a conta certa à de Lucas e veja qual termo precisa sumir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fatoração de x² − 6x + 9 − y²?",
+            "alternativas": [
+              "(x − 3)² − y",
+              "(x + 3 − y)(x + 3 + y)",
+              "(x − y − 3)²",
+              "(x − 3 + y)(x − 3 − y)"
+            ],
+            "correta": 3,
+            "explicacao": "x² − 6x + 9 = (x − 3)². Então ficamos com (x − 3)² − y², que é diferença de quadrados: (x − 3 + y)(x − 3 − y).",
+            "dica": "Agrupe os três primeiros termos: eles formam um quadrado perfeito."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Inflação: quando o dinheiro perde força",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Inflação é o aumento geral dos preços ao longo do tempo. Quando há inflação, a mesma nota de R$ 100,00 compra menos coisas do que comprava antes. Dizemos que o dinheiro perdeu poder de compra.",
+          "No Brasil, a inflação oficial é medida pelo IPCA, calculado pelo IBGE. Ele acompanha os preços de muitos produtos e serviços que as famílias compram: comida, aluguel, transporte, energia, remédios e outros.",
+          "Inflação não é o aumento de um produto só. Se o tomate sobe por causa da seca, mas o resto fica parado, isso não é a inflação inteira. A inflação é a média de muitos preços.",
+          "Para controlar a inflação, o Banco Central usa a taxa Selic, que é a taxa básica de juros do país. Quando ela sobe, empréstimos e compras a prazo ficam mais caros, as pessoas compram menos e os preços sobem mais devagar.",
+          "Dinheiro parado na gaveta perde valor com a inflação. Por isso, quem guarda dinheiro procura um investimento que renda pelo menos o mesmo que a inflação."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma cesta de compras custa R$ 200,00. Se a inflação do ano for 5%, quanto ela deve custar daqui a um ano?",
+            "resolucao": "5% de 200 = 10. Então a cesta passa a custar cerca de 200 + 10 = R$ 210,00."
+          },
+          {
+            "enunciado": "Ana guardou R$ 100,00 na gaveta e a inflação do ano foi 10%. O que aconteceu?",
+            "resolucao": "Ela continua com R$ 100,00, mas o que custava R$ 100,00 agora custa R$ 110,00. Ela compra menos do que antes."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Ganho real é quanto o dinheiro cresceu acima da inflação. Uma conta aproximada é rendimento − inflação. A conta exata divide os fatores: (1 + rendimento) ÷ (1 + inflação) − 1. Se rendeu 10% e a inflação foi 4%: aproximado 6%; exato 1,10 ÷ 1,04 − 1 ≈ 0,0577, ou seja, cerca de 5,77%.",
+        "A inflação acumula como juros compostos: dois anos de 10% não dão 20%, e sim 1,10 × 1,10 = 1,21, ou seja, 21%. Para saber quanto o dinheiro perdeu de poder de compra, divida 1 pelo fator: com inflação de 25%, 1 ÷ 1,25 = 0,8, então o dinheiro passou a comprar 80% do que comprava (perdeu 20%, e não 25%).",
+        "Quando os preços caem em média, o índice fica negativo: isso se chama deflação. Já a hiperinflação é quando os preços sobem descontroladamente. O Brasil viveu isso antes do Plano Real, de 1994, quando os preços mudavam quase todo dia nos mercados."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é inflação?",
+            "alternativas": [
+              "O aumento geral dos preços ao longo do tempo",
+              "A queda do salário mínimo",
+              "Um tipo de imposto",
+              "O desconto de uma loja"
+            ],
+            "correta": 0,
+            "explicacao": "Inflação é a subida da média dos preços, que faz o dinheiro comprar menos.",
+            "dica": "Pense no que acontece com os preços do mercado com o passar dos anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem calcula o IPCA, o índice oficial de inflação do Brasil?",
+            "alternativas": [
+              "O Banco Central",
+              "O IBGE",
+              "A Receita Federal",
+              "A prefeitura"
+            ],
+            "correta": 1,
+            "explicacao": "O IPCA é calculado pelo IBGE. O Banco Central usa esse número para decidir os juros.",
+            "dica": "É o mesmo órgão que faz o censo da população."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com inflação, R$ 50,00 guardados na gaveta compram, com o tempo:",
+            "alternativas": [
+              "Mais coisas",
+              "As mesmas coisas",
+              "Menos coisas",
+              "O dobro de coisas"
+            ],
+            "correta": 2,
+            "explicacao": "Os preços sobem e o dinheiro parado não cresce, então ele compra menos.",
+            "dica": "O dinheiro na gaveta não muda, mas os preços mudam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ferramenta o Banco Central usa para controlar a inflação?",
+            "alternativas": [
+              "Imprimir mais dinheiro",
+              "Criar o Pix",
+              "Baixar todos os impostos",
+              "Mudar a taxa Selic"
+            ],
+            "correta": 3,
+            "explicacao": "Subir a Selic encarece o crédito, as pessoas compram menos e os preços sobem mais devagar.",
+            "dica": "É uma taxa de juros básica do país."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto de R$ 10,00 tem aumento igual à inflação de 10% no ano. Quanto passa a custar?",
+            "alternativas": [
+              "R$ 11,00",
+              "R$ 10,10",
+              "R$ 20,00",
+              "R$ 9,00"
+            ],
+            "correta": 0,
+            "explicacao": "10% de 10 = 1. Então 10 + 1 = R$ 11,00.",
+            "dica": "Calcule 10% de R$ 10,00 e some ao preço."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma cesta custa R$ 300,00 e a inflação do ano foi 4%. Quanto ela deve custar agora?",
+            "alternativas": [
+              "R$ 304,00",
+              "R$ 312,00",
+              "R$ 340,00",
+              "R$ 300,40"
+            ],
+            "correta": 1,
+            "explicacao": "4% de 300 = 12. Então 300 + 12 = R$ 312,00. O erro comum é somar só R$ 4,00.",
+            "dica": "1% de 300 é 3. Quanto é 4%?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A poupança de Rafa rendeu 6% num ano em que a inflação também foi 6%. O poder de compra dele:",
+            "alternativas": [
+              "Cresceu 6%",
+              "Caiu 6%",
+              "Ficou praticamente igual",
+              "Cresceu 12%"
+            ],
+            "correta": 2,
+            "explicacao": "O dinheiro cresceu o mesmo que os preços, então ele compra praticamente a mesma coisa que antes.",
+            "dica": "Compare o quanto o dinheiro cresceu com o quanto os preços subiram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que guardar dinheiro no colchão por anos é uma má ideia?",
+            "alternativas": [
+              "Porque ele perde poder de compra com a inflação",
+              "Porque é proibido por lei",
+              "Porque o dinheiro muda de cor",
+              "Porque o banco cobra multa"
+            ],
+            "correta": 0,
+            "explicacao": "Parado, o dinheiro não rende, enquanto os preços sobem. Com os anos, ele compra cada vez menos.",
+            "dica": "O que acontece com os preços enquanto o dinheiro fica parado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O Banco Central subiu a Selic. Qual é o efeito esperado?",
+            "alternativas": [
+              "Os preços sobem mais rápido",
+              "Os salários dobram",
+              "O Pix passa a ser pago",
+              "O crédito fica mais caro e o consumo desacelera"
+            ],
+            "correta": 3,
+            "explicacao": "Juros maiores encarecem empréstimos e compras a prazo, as pessoas compram menos e a inflação perde força.",
+            "dica": "Pense no que juros altos fazem com quem quer comprar parcelado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O tomate ficou 30% mais caro por causa da seca, mas os outros preços quase não mudaram. Isso é inflação?",
+            "alternativas": [
+              "Sim, qualquer aumento é inflação",
+              "Não sozinho: inflação é a subida da média de muitos preços",
+              "Só se o tomate passar de R$ 10,00",
+              "Só se o governo anunciar"
+            ],
+            "correta": 1,
+            "explicacao": "Um item isolado mexe pouco na média. A inflação mede o conjunto de preços que as famílias pagam.",
+            "dica": "Releia o que a lição diz sobre um produto só."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A inflação foi de 10% em dois anos seguidos. Um produto que custava R$ 100,00 passa a custar:",
+            "alternativas": [
+              "R$ 120,00",
+              "R$ 121,00",
+              "R$ 110,00",
+              "R$ 122,00"
+            ],
+            "correta": 1,
+            "explicacao": "1º ano: 100 × 1,10 = 110. 2º ano: 110 × 1,10 = 121. A inflação acumula sobre o preço já aumentado.",
+            "dica": "No segundo ano, os 10% são calculados sobre o novo preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um investimento rendeu 9% num ano de inflação de 5%. Qual é o ganho real aproximado?",
+            "alternativas": [
+              "14%",
+              "9%",
+              "4%",
+              "5%"
+            ],
+            "correta": 2,
+            "explicacao": "Ganho real aproximado = rendimento − inflação = 9% − 5% = 4%.",
+            "dica": "Do que o dinheiro cresceu, tire o que os preços subiram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O salário de Marta é R$ 2.000,00 e a inflação do ano foi 5%. Para manter o poder de compra, o novo salário deveria ser:",
+            "alternativas": [
+              "R$ 2.005,00",
+              "R$ 2.050,00",
+              "R$ 2.500,00",
+              "R$ 2.100,00"
+            ],
+            "correta": 3,
+            "explicacao": "5% de 2.000 = 100. Para comprar o mesmo, o salário precisa subir junto: R$ 2.100,00.",
+            "dica": "Calcule 5% de R$ 2.000,00 e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O lanche da cantina passou de R$ 16,00 para R$ 20,00. Qual foi o aumento em porcentagem?",
+            "alternativas": [
+              "25%",
+              "20%",
+              "4%",
+              "40%"
+            ],
+            "correta": 0,
+            "explicacao": "Aumento = 4. Em relação ao preço antigo: 4 ÷ 16 = 0,25 = 25%. O erro comum é dividir por 20.",
+            "dica": "Divida o aumento pelo preço ANTIGO."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que acontece quando o Banco Central quer frear a inflação:",
+            "itens": [
+              "O Banco Central sobe a Selic",
+              "Empréstimos e crediário ficam mais caros",
+              "Pessoas e empresas compram menos a prazo",
+              "Com menos procura, os preços sobem mais devagar"
+            ],
+            "explicacao": "A Selic é a causa; o crédito caro reduz as compras; com menos procura, os preços desaceleram.",
+            "dica": "Comece pela decisão do Banco Central e termine no efeito sobre os preços."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um investimento rendeu 10% num ano de inflação de 4%. Qual é o ganho real exato?",
+            "alternativas": [
+              "6,00%",
+              "cerca de 5,77%",
+              "14,40%",
+              "4,00%"
+            ],
+            "correta": 1,
+            "explicacao": "1,10 ÷ 1,04 ≈ 1,0577, então o ganho real é cerca de 5,77%. Os 6% são só a aproximação.",
+            "dica": "Divida os fatores (1 + rendimento) e (1 + inflação) e tire 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num ano de inflação de 50%, quanto o dinheiro parado perdeu de poder de compra?",
+            "alternativas": [
+              "50%",
+              "cerca de 66,7%",
+              "cerca de 33,3%",
+              "150%"
+            ],
+            "correta": 2,
+            "explicacao": "1 ÷ 1,5 ≈ 0,667: o dinheiro passou a comprar cerca de 2/3 do que comprava, ou seja, perdeu cerca de 33,3%. A pegadinha é responder 50%.",
+            "dica": "Divida 1 pelo fator de inflação e veja quanto falta para 100%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A inflação foi de 10% em três anos seguidos. Qual foi a inflação acumulada?",
+            "alternativas": [
+              "33,1%",
+              "30%",
+              "31,3%",
+              "13,31%"
+            ],
+            "correta": 0,
+            "explicacao": "1,10 × 1,10 × 1,10 = 1,331, ou seja, 33,1% acumulados, e não 30%.",
+            "dica": "Multiplique o fator 1,10 três vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana aplicou R$ 1.000,00 a 5% no ano, e a inflação foi 8%. Qual afirmação é verdadeira?",
+            "alternativas": [
+              "Ela ficou mais rica, pois tem R$ 1.050,00",
+              "Ela não perdeu nada",
+              "Ela ganhou 13% de verdade",
+              "Ela tem mais reais, mas consegue comprar menos que antes"
+            ],
+            "correta": 3,
+            "explicacao": "O saldo subiu 5%, mas os preços subiram 8%. Ela tem mais notas e compra menos: o ganho real foi negativo.",
+            "dica": "Compare o rendimento com a inflação, não só o saldo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas notícias indica deflação?",
+            "alternativas": [
+              "O IPCA do mês foi de 0,5%",
+              "O IPCA do mês foi de −0,2%",
+              "A Selic subiu para 12%",
+              "O dólar caiu 1%"
+            ],
+            "correta": 1,
+            "explicacao": "Deflação é a queda média dos preços, o que aparece como índice de inflação negativo.",
+            "dica": "Procure o índice de preços com sinal de menos."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Condições compostas: and, or e not",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Muitas decisões dependem de mais de uma condição. Para juntar condições, usamos operadores lógicos. Em Python eles se chamam and (e), or (ou) e not (não).",
+          "Com and, o resultado só é verdadeiro (True) se as DUAS condições forem verdadeiras. Exemplo: if idade >= 16 and tem_titulo: print(\"Pode votar\").",
+          "Com or, basta UMA condição verdadeira. Exemplo: meia-entrada para quem é estudante ou tem 60 anos ou mais: if estudante or idade >= 60.",
+          "O not inverte o valor: not True é False, e not False é True. Exemplo: if not chovendo: print(\"Vamos à quadra\").",
+          "Uma tabela-verdade ajuda: A and B só dá True em 1 das 4 combinações (V e V). A or B só dá False em 1 das 4 (F e F)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "idade = 15 e nota = 8. A condição idade >= 14 and nota >= 7 é verdadeira?",
+            "resolucao": "idade >= 14 é True e nota >= 7 é True. True and True = True."
+          },
+          {
+            "enunciado": "chovendo = False. O que mostra: if not chovendo: print(\"Sair\") else: print(\"Ficar\")?",
+            "resolucao": "not False = True, então mostra Sair."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Ordem de cálculo em Python: primeiro as comparações (>, <, ==, !=), depois o not, depois o and e por último o or. Assim, a or b and c é calculado como a or (b and c). Na dúvida, use parênteses: eles deixam o código claro.",
+        "Python faz curto-circuito: em A and B, se A é False, ele nem olha B (o resultado já é False). Em A or B, se A é True, ele nem olha B. Isso evita erros, como em x != 0 and 10 / x > 2, que não divide por zero quando x vale 0.",
+        "As leis de De Morgan ajudam a negar condições: not (A and B) é o mesmo que (not A) or (not B); e not (A or B) é o mesmo que (not A) and (not B). O operador % dá o resto da divisão: n % 2 == 0 quer dizer que n é par."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com and, o resultado é verdadeiro quando:",
+            "alternativas": [
+              "As duas condições são verdadeiras",
+              "Pelo menos uma é falsa",
+              "As duas são falsas",
+              "Sempre"
+            ],
+            "correta": 0,
+            "explicacao": "and exige as duas verdadeiras ao mesmo tempo.",
+            "dica": "Pense na palavra “e”: isto E aquilo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com or, o resultado é verdadeiro quando:",
+            "alternativas": [
+              "Só quando as duas são falsas",
+              "Pelo menos uma é verdadeira",
+              "Nunca",
+              "Só quando a primeira é falsa"
+            ],
+            "correta": 1,
+            "explicacao": "or basta uma condição verdadeira.",
+            "dica": "Pense na palavra “ou”: isto OU aquilo já serve."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale not True?",
+            "alternativas": [
+              "True",
+              "Erro",
+              "False",
+              "Depende"
+            ],
+            "correta": 2,
+            "explicacao": "not inverte o valor: o contrário de verdadeiro é falso.",
+            "dica": "O not troca o valor pelo oposto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra do Python significa “e”?",
+            "alternativas": [
+              "or",
+              "not",
+              "if",
+              "and"
+            ],
+            "correta": 3,
+            "explicacao": "and é o “e” lógico. or é “ou” e not é “não”.",
+            "dica": "É uma palavra em inglês de três letras que liga duas coisas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "chove = True e frio = False. Quanto vale chove and frio?",
+            "alternativas": [
+              "False",
+              "True",
+              "Os dois",
+              "Erro"
+            ],
+            "correta": 0,
+            "explicacao": "and precisa das duas verdadeiras. Como frio é False, o resultado é False.",
+            "dica": "Uma delas é falsa. O and aceita isso?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "idade = 17. Quanto vale idade >= 16 and idade < 18?",
+            "alternativas": [
+              "False",
+              "True",
+              "Erro",
+              "17"
+            ],
+            "correta": 1,
+            "explicacao": "17 >= 16 é True e 17 < 18 é True. True and True = True.",
+            "dica": "Teste cada comparação separadamente com o número 17."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nota = 4 e faltas = 2. O que aparece? if nota >= 5 and faltas <= 10: print(\"Aprovado\") else: print(\"Recuperação\")",
+            "alternativas": [
+              "Aprovado",
+              "Nada",
+              "Recuperação",
+              "Erro"
+            ],
+            "correta": 2,
+            "explicacao": "nota >= 5 é False. Com and, uma falsa já derruba tudo, então vai para o else.",
+            "dica": "Veja primeiro se a nota passa no teste."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Meia-entrada para quem é estudante ou tem 60 anos ou mais. Quem NÃO tem direito?",
+            "alternativas": [
+              "Estudante de 15 anos",
+              "Senhora de 62 anos que não estuda",
+              "Adulto de 30 anos que não estuda",
+              "Estudante de 61 anos"
+            ],
+            "correta": 2,
+            "explicacao": "Com or, basta uma condição. O adulto de 30 anos que não estuda não cumpre nenhuma das duas.",
+            "dica": "Procure quem falha nas duas condições ao mesmo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale not (5 > 3)?",
+            "alternativas": [
+              "True",
+              "5",
+              "3",
+              "False"
+            ],
+            "correta": 3,
+            "explicacao": "5 > 3 é True, e not True é False.",
+            "dica": "Resolva primeiro o que está dentro dos parênteses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 10. Qual condição é verdadeira?",
+            "alternativas": [
+              "x > 5 and x < 8",
+              "x < 5 or x > 8",
+              "not (x == 10)",
+              "x == 5 or x == 7"
+            ],
+            "correta": 1,
+            "explicacao": "x < 5 é False, mas x > 8 é True, e com or basta uma.",
+            "dica": "Troque x por 10 em cada opção e teste."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 3 e b = 7. Quanto vale a > 5 or b > 5 and a == 3?",
+            "alternativas": [
+              "True",
+              "False",
+              "Erro",
+              "Depende da ordem de leitura"
+            ],
+            "correta": 0,
+            "explicacao": "O and vem antes do or: b > 5 and a == 3 = True and True = True. Depois: False or True = True.",
+            "dica": "Calcule primeiro a parte com and."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma senha é aceita se tem 8 caracteres ou mais E tem algum número. Qual condição faz isso?",
+            "alternativas": [
+              "len(senha) >= 8 or tem_numero",
+              "len(senha) > 8 and not tem_numero",
+              "not len(senha) >= 8",
+              "len(senha) >= 8 and tem_numero"
+            ],
+            "correta": 3,
+            "explicacao": "As duas exigências precisam valer juntas (and), e “8 ou mais” é >= 8.",
+            "dica": "As duas regras são obrigatórias ao mesmo tempo. E cuidado com > e >=."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Frete grátis para compra de R$ 100,00 ou mais OU cliente VIP, mas nunca para fora do estado. Qual condição está certa?",
+            "alternativas": [
+              "compra >= 100 or vip and not fora_estado",
+              "(compra >= 100 or vip) and not fora_estado",
+              "compra >= 100 and vip and fora_estado",
+              "not (compra >= 100 or vip)"
+            ],
+            "correta": 1,
+            "explicacao": "Os parênteses garantem que o “não é fora do estado” vale para os dois casos. Sem eles, o and pegaria só o vip.",
+            "dica": "Lembre que o and é calculado antes do or, a menos que haja parênteses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Das 4 combinações de A e B (V/V, V/F, F/V, F/F), quantas deixam A or B verdadeiro?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "Só F/F dá False. As outras 3 dão True.",
+            "dica": "Pense em qual combinação é a única que falha no or."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque na ordem em que o Python calcula as partes de uma condição:",
+            "itens": [
+              "Comparações (>, <, ==)",
+              "not",
+              "and",
+              "or"
+            ],
+            "explicacao": "Primeiro as comparações viram True ou False; depois vem o not, depois o and e por último o or.",
+            "dica": "O aprofundamento lista a ordem; o or é o mais “fraco”."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pelas leis de De Morgan, not (chove and frio) é o mesmo que:",
+            "alternativas": [
+              "not chove and not frio",
+              "not chove or not frio",
+              "chove or frio",
+              "not chove and frio"
+            ],
+            "correta": 1,
+            "explicacao": "Negar um and troca por or e nega cada parte: (not chove) or (not frio).",
+            "dica": "Ao negar, o and vira o outro operador."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 0. O que acontece com x != 0 and 10 / x > 2?",
+            "alternativas": [
+              "Dá erro de divisão por zero",
+              "False, sem erro",
+              "True",
+              "Infinito"
+            ],
+            "correta": 1,
+            "explicacao": "x != 0 é False. Pelo curto-circuito, o Python nem faz a divisão: o resultado é False.",
+            "dica": "Lembre do curto-circuito: se a primeira parte do and falha, a segunda é lida?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "idade = 15, autorizado = True, acompanhado = False. A pessoa entra se: idade >= 18 or (idade >= 14 and (autorizado or acompanhado)). Ela entra?",
+            "alternativas": [
+              "Não, porque não está acompanhada",
+              "Não, porque tem menos de 18",
+              "Dá erro",
+              "Entra"
+            ],
+            "correta": 3,
+            "explicacao": "idade >= 18 é False. Dentro: idade >= 14 é True e (True or False) é True, então True. False or True = True.",
+            "dica": "Resolva de dentro para fora dos parênteses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual expressão é SEMPRE verdadeira, seja A verdadeiro ou falso?",
+            "alternativas": [
+              "A or not A",
+              "A and not A",
+              "not A",
+              "A and A"
+            ],
+            "correta": 0,
+            "explicacao": "Ou A é True, ou not A é True; com or, uma basta. Já A and not A é sempre False.",
+            "dica": "Teste cada opção com A = True e depois com A = False."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos inteiros de 1 a 20 deixam verdadeira a condição n % 2 == 0 and not (n % 3 == 0)?",
+            "alternativas": [
+              "10",
+              "3",
+              "7",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "Pares de 1 a 20: 10 números. Tirando os que também são múltiplos de 3 (6, 12 e 18), sobram 7.",
+            "dica": "Conte os pares e depois retire os pares que são múltiplos de 3."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A tabela de preços da avó",
+    "texto": "Dona Celina mora na mesma rua há quarenta anos e gosta de contar histórias da padaria da esquina. Outro dia, enquanto esperava o pão sair do forno, ela mostrou à neta, Bianca, um pedaço de papel amarelado que guardava na carteira: uma tabela de preços antiga, escrita à mão.\n\n— Na época em que eu era moça, o dono da padaria trocava esses números quase toda semana — disse ela. — Às vezes trocava de manhã e de novo à tarde.\n\nBianca achou exagero, mas a avó explicou. Antes do Plano Real, de 1994, os preços subiam tão depressa que as pessoas corriam ao mercado no dia do pagamento. Quem esperasse uma semana comprava menos com o mesmo salário. Havia até funcionários com uma maquininha de etiquetas, remarcando os produtos nas prateleiras.\n\n— E hoje não tem mais inflação, vó?\n\n— Tem, sim, mas bem menor. Antes os preços dobravam em poucos meses. Hoje sobem alguns por cento no ano. Mesmo assim, faz diferença: o pão que eu pagava cinquenta centavos há uns anos hoje custa bem mais.\n\nNa volta para casa, Bianca fez as contas da sua mesada. Se o lanche subisse 5% no ano e a mesada continuasse igual, ela teria de cortar alguma coisa. Decidiu que, quando conversasse com os pais sobre a mesada do ano seguinte, levaria um argumento novo: a inflação.\n\nA avó riu quando soube do plano.\n\n— Está vendo? Entender de preço também é coisa de gente esperta."
+  },
+  "escrita": {
+    "proposta": "Converse com um adulto da sua casa (ou imagine a conversa) sobre um produto que ficou mais caro nos últimos anos: pão, passagem de ônibus, gás ou outro. Escreva de 5 a 10 linhas no caderno contando quanto ele custava, quanto custa hoje, qual foi o aumento aproximado em porcentagem e o que a família fez para se adaptar."
+  }
+}

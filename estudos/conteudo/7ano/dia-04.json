@@ -1,0 +1,1197 @@
+{
+  "dia": 4,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Operações com números inteiros",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Adição com sinais iguais: somamos os módulos e mantemos o sinal. (−3) + (−5) = −8, como duas dívidas que se juntam. Com sinais diferentes: subtraímos os módulos e fica o sinal do número de maior módulo. (−7) + 4 = −3, pois a dívida de 7 é maior que o ganho de 4.",
+          "Subtrair é somar o oposto. 5 − (−2) = 5 + 2 = 7 (tirar uma dívida é como ganhar). −3 − 4 = −3 + (−4) = −7.",
+          "Na multiplicação e na divisão, olhamos os sinais: sinais iguais dão resultado positivo e sinais diferentes dão resultado negativo. (−4) × (−3) = 12; (−20) ÷ 5 = −4; (−36) ÷ (−4) = 9.",
+          "Um jeito de pensar: positivo é dinheiro que entra e negativo é dinheiro que sai ou dívida. Se você tem R$ 30 e gasta R$ 45, fica com 30 − 45 = −15, ou seja, deve R$ 15."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A temperatura era −2 °C às 18h e caiu 5 graus até a meia-noite. Quanto marcou à meia-noite?",
+            "resolucao": "Cair é subtrair: −2 − 5 = −2 + (−5) = −7. Sinais iguais: soma 2 + 5 e mantém o sinal negativo. Marcou −7 °C."
+          },
+          {
+            "enunciado": "Calcule (−6) × (−2) + (−5).",
+            "resolucao": "Primeiro a multiplicação: (−6) × (−2) = 12 (sinais iguais, positivo). Depois: 12 + (−5) = 7."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A ordem das operações continua valendo: parênteses primeiro, depois multiplicação e divisão, depois adição e subtração. −2 + 3 × (−4) = −2 + (−12) = −14. Quem faz −2 + 3 primeiro chega em −4, que está errado.",
+        "Potências de negativos: (−2)² = (−2) × (−2) = 4 e (−2)³ = −8. Expoente par dá positivo e expoente ímpar dá negativo. Cuidado: −2² (sem parênteses) é −(2 × 2) = −4, porque o expoente só pega o 2.",
+        "Com vários fatores, conte os negativos: quantidade par de sinais negativos dá resultado positivo; quantidade ímpar dá negativo. (−1) × (−2) × (−3) = −6, pois são três negativos."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−3) + (−5)?",
+            "alternativas": [
+              "−8",
+              "8",
+              "2",
+              "−2"
+            ],
+            "correta": 0,
+            "explicacao": "Sinais iguais: soma 3 + 5 = 8 e mantém o sinal negativo. Duas dívidas se juntam.",
+            "dica": "Pense em duas dívidas: uma de 3 e outra de 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 5 − (−2)?",
+            "alternativas": [
+              "3",
+              "7",
+              "−7",
+              "−3"
+            ],
+            "correta": 1,
+            "explicacao": "Subtrair um negativo é somar o oposto: 5 + 2 = 7.",
+            "dica": "Tirar uma dívida é como ganhar. Troque a subtração pela soma do oposto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−4) × (−3)?",
+            "alternativas": [
+              "−12",
+              "−7",
+              "12",
+              "7"
+            ],
+            "correta": 2,
+            "explicacao": "Sinais iguais na multiplicação dão positivo: 4 × 3 = 12.",
+            "dica": "Na multiplicação, sinais iguais dão qual sinal?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−20) ÷ 5?",
+            "alternativas": [
+              "4",
+              "−15",
+              "−25",
+              "−4"
+            ],
+            "correta": 3,
+            "explicacao": "20 ÷ 5 = 4 e, com sinais diferentes, o resultado é negativo.",
+            "dica": "Faça a divisão sem os sinais e depois veja se eles são iguais ou diferentes."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as contas em ordem, do MENOR para o MAIOR resultado:",
+            "itens": [
+              "(−2) + (−3)",
+              "4 + (−6)",
+              "3 − 3",
+              "(−2) × (−2)"
+            ],
+            "explicacao": "Resultados: −5, −2, 0 e 4.",
+            "dica": "Calcule cada conta e depois coloque os resultados na reta."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−7) + 4?",
+            "alternativas": [
+              "3",
+              "−3",
+              "−11",
+              "11"
+            ],
+            "correta": 1,
+            "explicacao": "Sinais diferentes: 7 − 4 = 3, com o sinal do 7 (negativo). Uma dívida de 7 paga só em parte com 4.",
+            "dica": "Sinais diferentes: subtraia e fique com o sinal do número de maior módulo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sofia tinha R$ 30 e gastou R$ 45 no cartão da família. Como ficou o saldo dela?",
+            "alternativas": [
+              "R$ 15",
+              "−R$ 75",
+              "−R$ 15",
+              "R$ 75"
+            ],
+            "correta": 2,
+            "explicacao": "30 − 45 = −15: ela deve R$ 15.",
+            "dica": "Ela gastou mais do que tinha. O saldo fica positivo ou negativo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é −3 − 4?",
+            "alternativas": [
+              "−1",
+              "1",
+              "7",
+              "−7"
+            ],
+            "correta": 3,
+            "explicacao": "−3 − 4 = −3 + (−4) = −7. Sinais iguais: soma e mantém o negativo.",
+            "dica": "Transforme a subtração em soma do oposto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A temperatura era −2 °C e caiu 5 graus. Quanto passou a marcar?",
+            "alternativas": [
+              "−7 °C",
+              "3 °C",
+              "−3 °C",
+              "7 °C"
+            ],
+            "correta": 0,
+            "explicacao": "Cair 5 é subtrair 5: −2 − 5 = −7.",
+            "dica": "Se a temperatura cai, ela vai para a esquerda na reta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−36) ÷ (−4)?",
+            "alternativas": [
+              "−9",
+              "9",
+              "−32",
+              "40"
+            ],
+            "correta": 1,
+            "explicacao": "36 ÷ 4 = 9 e sinais iguais dão positivo: 9.",
+            "dica": "Divida sem os sinais e depois decida o sinal."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−6) × (−2) + (−5)?",
+            "alternativas": [
+              "−17",
+              "17",
+              "7",
+              "−7"
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro a multiplicação: 12. Depois 12 + (−5) = 7.",
+            "dica": "Multiplicação primeiro. Depois some o negativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é −2 + 3 × (−4)?",
+            "alternativas": [
+              "−4",
+              "14",
+              "−20",
+              "−14"
+            ],
+            "correta": 3,
+            "explicacao": "3 × (−4) = −12. Depois −2 + (−12) = −14. O −4 aparece para quem soma −2 + 3 antes.",
+            "dica": "A ordem das operações vale também com negativos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num jogo, Ana fez +8, −5, −6 e +2 pontos. Qual o total?",
+            "alternativas": [
+              "1",
+              "−1",
+              "21",
+              "−21"
+            ],
+            "correta": 1,
+            "explicacao": "Positivos: 8 + 2 = 10. Negativos: −5 − 6 = −11. Total: 10 − 11 = −1.",
+            "dica": "Junte os positivos, junte os negativos e depois compare os dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um elevador está no 3º andar (térreo = 0). Desce 5, sobe 1 e desce 2. Onde para?",
+            "alternativas": [
+              "3º subsolo",
+              "1º andar",
+              "Térreo",
+              "2º subsolo"
+            ],
+            "correta": 0,
+            "explicacao": "3 − 5 + 1 − 2 = −3, que é o 3º subsolo.",
+            "dica": "Descer é subtrair e subir é somar. Andares abaixo do térreo são negativos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual resultado é maior?",
+            "alternativas": [
+              "(−3) × 4",
+              "(−20) ÷ (−5)",
+              "São iguais",
+              "Não dá para comparar"
+            ],
+            "correta": 1,
+            "explicacao": "(−3) × 4 = −12 e (−20) ÷ (−5) = 4. Positivo é maior que negativo.",
+            "dica": "Calcule os dois e veja os sinais."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−2)³ + (−2)²?",
+            "alternativas": [
+              "4",
+              "−4",
+              "−12",
+              "12"
+            ],
+            "correta": 1,
+            "explicacao": "(−2)³ = −8 (expoente ímpar) e (−2)² = 4 (expoente par). −8 + 4 = −4.",
+            "dica": "Expoente ímpar mantém o sinal negativo; expoente par deixa positivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é −3² + (−3)²?",
+            "alternativas": [
+              "18",
+              "−18",
+              "0",
+              "9"
+            ],
+            "correta": 2,
+            "explicacao": "−3² = −9 (o expoente só pega o 3) e (−3)² = 9. −9 + 9 = 0.",
+            "dica": "Os parênteses fazem diferença. Em qual dos dois o sinal entra na potência?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−1) × (−2) × (−3) × (−4) × (−5)?",
+            "alternativas": [
+              "120",
+              "−15",
+              "15",
+              "−120"
+            ],
+            "correta": 3,
+            "explicacao": "1 × 2 × 3 × 4 × 5 = 120. São cinco negativos (ímpar), então o resultado é negativo.",
+            "dica": "Multiplique os módulos e depois conte quantos sinais negativos há."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um submarino está a −150 m. Sobe 40 m por minuto durante 3 minutos e depois desce 25 m. Onde ele fica?",
+            "alternativas": [
+              "−55 m",
+              "−5 m",
+              "−95 m",
+              "55 m"
+            ],
+            "correta": 0,
+            "explicacao": "Subida: 3 × 40 = 120. −150 + 120 = −30. Descida: −30 − 25 = −55 m.",
+            "dica": "Calcule a subida total primeiro e depois aplique a descida."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque do MENOR para o MAIOR resultado:",
+            "itens": [
+              "(−2)³",
+              "(−10) ÷ 2",
+              "−2²",
+              "(−3) × (−1)",
+              "(−2)⁴"
+            ],
+            "explicacao": "(−2)³ = −8; (−10) ÷ 2 = −5; −2² = −4; (−3) × (−1) = 3; (−2)⁴ = 16.",
+            "dica": "Cuidado com os parênteses nas potências. Calcule tudo antes de ordenar."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Variáveis: as caixinhas da memória",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Variável é uma caixinha com nome que guarda um valor na memória do computador. Em Python, escrevemos idade = 12 para guardar o número 12 na caixinha chamada idade.",
+          "Na programação, o sinal = quer dizer \"guarde\", e não \"é igual\". O valor pode mudar: depois de pontos = 10, a linha pontos = pontos + 5 pega o valor antigo (10), soma 5 e guarda 15 no lugar. O valor antigo é substituído.",
+          "Variáveis podem guardar tipos diferentes: número inteiro (12), número com vírgula (3.5; em programação usamos ponto no lugar da vírgula), texto entre aspas (\"Ana\") e verdadeiro ou falso (True, False). Atenção: \"12\" entre aspas é texto, não número.",
+          "Bons nomes não têm espaço, não começam com número e dizem o que guardam: preco_lanche, total_gasto. Exemplo: nome = input(\"Seu nome? \") guarda o que a pessoa digitar, e print(\"Olá,\", nome) mostra a saudação."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O que aparece na tela? saldo = 50 → saldo = saldo - 18 → print(saldo)",
+            "resolucao": "saldo começa com 50. Depois guarda 50 − 18 = 32. O print mostra 32."
+          },
+          {
+            "enunciado": "Como guardar o preço de um lanche e a quantidade, e calcular o total?",
+            "resolucao": "preco = 6 → qtd = 3 → total = preco * qtd → print(total). Aparece 18. Em programação, o sinal de vezes é o asterisco (*)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Texto e número se comportam diferente: \"5\" + \"3\" dá \"53\" (junta os textos), enquanto 5 + 3 dá 8. O input() sempre devolve texto; para fazer conta, é preciso converter com int(): idade = int(input(\"Idade? \")). Tentar somar um texto com um número, como \"12\" + 1, dá erro.",
+        "Para trocar os valores de duas variáveis, use uma terceira como ajudante: aux = a → a = b → b = aux. Se fizer só a = b e b = a, os dois ficam iguais, porque o valor antigo de a se perdeu.",
+        "O Python diferencia maiúsculas de minúsculas: Total e total são caixinhas diferentes. Quando b = a, b recebe uma cópia do valor; se a mudar depois, b continua com o valor antigo. E usar uma variável antes de dar um valor a ela causa erro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma variável?",
+            "alternativas": [
+              "Uma caixinha com nome que guarda um valor",
+              "Um tipo de vírus",
+              "Um botão do teclado",
+              "Um site da internet"
+            ],
+            "correta": 0,
+            "explicacao": "A variável guarda um valor na memória e tem um nome para a gente achar depois.",
+            "dica": "Lembre da imagem da caixinha usada na lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de pontos = 10, quanto vale pontos?",
+            "alternativas": [
+              "0",
+              "1",
+              "10",
+              "Vale a palavra pontos"
+            ],
+            "correta": 2,
+            "explicacao": "O sinal = guarda o 10 dentro da variável pontos.",
+            "dica": "Em programação, o sinal de igual quer dizer \"guarde\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes valores é um texto?",
+            "alternativas": [
+              "12",
+              "\"Ana\"",
+              "3.5",
+              "100"
+            ],
+            "correta": 1,
+            "explicacao": "Textos ficam entre aspas. Os outros são números.",
+            "dica": "Procure as aspas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um nome válido de variável?",
+            "alternativas": [
+              "total gasto",
+              "2nome",
+              "total_gasto",
+              "%total"
+            ],
+            "correta": 2,
+            "explicacao": "Nome de variável não tem espaço, não começa com número e não usa símbolos como %. O sublinhado é permitido.",
+            "dica": "Lembre: sem espaço, sem começar com número e sem símbolos estranhos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as linhas em ordem para o programa mostrar 30:",
+            "itens": [
+              "saldo = 20",
+              "saldo = saldo + 10",
+              "print(saldo)"
+            ],
+            "explicacao": "Primeiro criamos saldo com 20, depois somamos 10 e só então mostramos o resultado.",
+            "dica": "A variável precisa existir antes de ser usada, e o print mostra o valor do momento."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 7 → x = x + 3 → print(x). O que aparece?",
+            "alternativas": [
+              "10",
+              "7",
+              "3",
+              "73"
+            ],
+            "correta": 0,
+            "explicacao": "x começa com 7 e depois guarda 7 + 3 = 10.",
+            "dica": "O x da direita é o valor antigo. Some e guarde de novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nome = \"Bia\" → print(\"Oi,\", nome). O que aparece?",
+            "alternativas": [
+              "Oi, nome",
+              "Oi, Bia",
+              "nome",
+              "Bia, Oi"
+            ],
+            "correta": 1,
+            "explicacao": "Sem aspas, nome é a variável: o print mostra o valor guardado, Bia.",
+            "dica": "nome está com ou sem aspas no print?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 5 → a = 9 → print(a). O que aparece?",
+            "alternativas": [
+              "5",
+              "14",
+              "9",
+              "5 e 9"
+            ],
+            "correta": 2,
+            "explicacao": "O segundo comando substitui o 5 pelo 9. A caixinha guarda só um valor por vez.",
+            "dica": "Quando guardamos um valor novo, o que acontece com o antigo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que 2lanches não é um bom nome de variável?",
+            "alternativas": [
+              "É muito curto",
+              "Tem letra minúscula",
+              "Tem a letra s",
+              "Começa com número"
+            ],
+            "correta": 3,
+            "explicacao": "Nomes de variável não podem começar com número. Poderia ser lanches2 ou dois_lanches.",
+            "dica": "Olhe para o primeiro caractere do nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "De que tipo é o valor 3.5?",
+            "alternativas": [
+              "Texto",
+              "Verdadeiro ou falso",
+              "Número inteiro",
+              "Número com vírgula (decimal)"
+            ],
+            "correta": 3,
+            "explicacao": "3.5 tem parte decimal. Em programação, o ponto faz o papel da vírgula.",
+            "dica": "Esse número tem algo depois do ponto?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "preco = 4 → qtd = 3 → total = preco * qtd → total = total - 2 → print(total). O que aparece?",
+            "alternativas": [
+              "12",
+              "10",
+              "14",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "total = 4 × 3 = 12. Depois 12 − 2 = 10.",
+            "dica": "Faça o teste de mesa, linha por linha, anotando o valor de total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra print(\"5\" + \"3\")?",
+            "alternativas": [
+              "8",
+              "5 + 3",
+              "53",
+              "Dá erro"
+            ],
+            "correta": 2,
+            "explicacao": "Com aspas, são textos. Somar textos junta um no outro: \"53\".",
+            "dica": "Repare nas aspas. Elas mudam o tipo dos valores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 2 → b = a → a = 10 → print(b). O que aparece?",
+            "alternativas": [
+              "2",
+              "10",
+              "12",
+              "a"
+            ],
+            "correta": 0,
+            "explicacao": "Quando b = a, b recebeu uma cópia do 2. Mudar a depois não muda b.",
+            "dica": "b recebeu o valor de a em que momento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 4 e b = 7. Qual sequência troca os valores das duas variáveis?",
+            "alternativas": [
+              "a = b → b = a",
+              "b = a → a = b",
+              "a = a + b",
+              "aux = a → a = b → b = aux"
+            ],
+            "correta": 3,
+            "explicacao": "A variável aux guarda o valor de a antes de ele ser apagado. Sem ela, os dois ficam com o mesmo valor.",
+            "dica": "Para trocar o conteúdo de dois copos, você precisa de um terceiro copo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Total = 5 → total = 8 → print(Total). O que aparece?",
+            "alternativas": [
+              "8",
+              "5",
+              "13",
+              "Dá erro"
+            ],
+            "correta": 1,
+            "explicacao": "Total e total são variáveis diferentes, pois o Python diferencia maiúsculas. Total continua com 5.",
+            "dica": "Compare as letras dos nomes com atenção."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "idade = input(\"Idade? \") e a pessoa digita 12. Depois vem print(idade + 1). O que acontece?",
+            "alternativas": [
+              "Mostra 13",
+              "Mostra 121",
+              "Dá erro, porque o input devolve texto",
+              "Mostra 12"
+            ],
+            "correta": 2,
+            "explicacao": "O input guarda \"12\" como texto, e não dá para somar texto com número. Seria preciso usar int(input(...)).",
+            "dica": "Que tipo de valor o input devolve? Dá para somar esse tipo com o número 1?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 3 → y = x * 2 → x = y + x → y = x - y → print(x, y). O que aparece?",
+            "alternativas": [
+              "9 3",
+              "6 9",
+              "9 6",
+              "3 9"
+            ],
+            "correta": 0,
+            "explicacao": "y = 6; x = 6 + 3 = 9; y = 9 − 6 = 3. Aparece 9 3.",
+            "dica": "Anote x e y numa tabelinha e atualize a cada linha, sempre usando o valor mais novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "moedas = 10 → moedas = moedas * 2 → moedas = moedas - 5 → moedas = moedas * 2. Quanto vale moedas no fim?",
+            "alternativas": [
+              "25",
+              "15",
+              "40",
+              "30"
+            ],
+            "correta": 3,
+            "explicacao": "10 → 20 → 15 → 30.",
+            "dica": "São três mudanças seguidas. Escreva o valor depois de cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa começa com print(total) e só na linha seguinte tem total = 5. O que acontece?",
+            "alternativas": [
+              "Mostra 5",
+              "Dá erro, porque total é usado antes de receber valor",
+              "Mostra 0",
+              "Mostra a palavra total"
+            ],
+            "correta": 1,
+            "explicacao": "Na primeira linha, a caixinha total ainda não existe. O computador não olha as linhas de baixo para adivinhar.",
+            "dica": "O computador lê de cima para baixo. Na primeira linha, total já existe?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as linhas em ordem para calcular o troco de quem paga R$ 20 por 3 lanches de R$ 6:",
+            "itens": [
+              "preco = 6",
+              "total = preco * 3",
+              "troco = 20 - total",
+              "print(troco)"
+            ],
+            "explicacao": "Cada linha usa a variável criada na linha anterior: preco → total → troco. O print vem no fim e mostra 2.",
+            "dica": "Veja de qual variável cada linha precisa. Ela tem que vir antes."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Digitar e formatar no Word",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O Word é um editor de texto: serve para fazer trabalhos, cartas, cartazes e listas. Ele também existe em versão gratuita no celular e na internet.",
+          "Ao digitar, aperte Enter só para começar um novo parágrafo; o Word passa para a linha de baixo sozinho. Use um único espaço entre as palavras. Depois de vírgula e ponto vem espaço; antes deles, não.",
+          "Para formatar, primeiro selecione o texto e depois escolha o efeito. No Word em português: Ctrl+N deixa em negrito, Ctrl+I em itálico e Ctrl+S sublinhado. Também dá para mudar a fonte, o tamanho e a cor na guia Página Inicial.",
+          "Alinhamentos: à esquerda (o normal), centralizado (bom para títulos, Ctrl+E), à direita e justificado (as duas bordas do texto ficam retas). Errou? Ctrl+Z desfaz a última ação."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como deixar o título \"Minha rua\" em negrito e centralizado?",
+            "resolucao": "Selecione o título (arrastando o mouse ou com clique triplo), aperte Ctrl+N para negrito e Ctrl+E para centralizar. Se errar, Ctrl+Z."
+          },
+          {
+            "enunciado": "Corrija os espaços: \"Hoje , fui ao mercado .Comprei pão.\"",
+            "resolucao": "\"Hoje, fui ao mercado. Comprei pão.\" Tiramos o espaço antes da vírgula e antes do ponto, e colocamos espaço depois do ponto."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Menos é mais: use no máximo duas fontes, tamanho 12 para o texto e maior para o título, e cor escura sobre fundo claro. Em trabalhos escolares, é comum usar espaçamento entre linhas de 1,5 e texto justificado.",
+        "O botão Mostrar/Ocultar (¶) mostra os Enters e os espaços escondidos. Com ele você descobre Enters no meio das linhas e espaços duplos. Quem aperta Enter no fim de cada linha estraga o texto quando muda a fonte, porque as quebras ficam presas nos lugares antigos.",
+        "Atalhos de seleção: clique duplo seleciona a palavra e clique triplo seleciona o parágrafo. O Pincel de Formatação copia o formato de um trecho para outro; com clique duplo no pincel, ele fica ligado para vários trechos até você apertar Esc. Negrito, itálico e sublinhado são liga-desliga: apertar o atalho de novo tira o efeito. E cuidado: no Word em inglês, Ctrl+S salva, mas no Word em português, Ctrl+S sublinha."
+      ],
+      "desafio_pratico": "No Word (computador, celular ou Word online gratuito), digite um texto de 3 parágrafos curtos com o título \"Minha rotina\": um sobre a manhã, um sobre a tarde e um sobre a noite. Formate assim: título centralizado, em negrito e tamanho 16; texto em fonte 12 e justificado; uma palavra importante de cada parágrafo em itálico. Ligue o botão ¶ e confira se não sobraram espaços duplos ou Enters no meio das linhas. Salve com o nome \"rotina-seu-nome\".",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para deixar uma palavra em negrito, o que fazer primeiro?",
+            "alternativas": [
+              "Selecionar a palavra",
+              "Desligar o computador",
+              "Apagar o texto",
+              "Mudar de página"
+            ],
+            "correta": 0,
+            "explicacao": "O Word aplica a formatação no que está selecionado. Sem selecionar, ele não sabe onde aplicar.",
+            "dica": "O Word precisa saber em qual parte do texto aplicar o efeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Word em português, o que o atalho Ctrl+N faz?",
+            "alternativas": [
+              "Sublinha",
+              "Deixa em negrito",
+              "Deixa em itálico",
+              "Apaga o texto"
+            ],
+            "correta": 1,
+            "explicacao": "Ctrl+N = negrito (N de negrito). Ctrl+I = itálico e Ctrl+S = sublinhado.",
+            "dica": "A letra do atalho é a primeira letra do efeito em português."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Títulos costumam ser alinhados:",
+            "alternativas": [
+              "à direita",
+              "em letra minúscula",
+              "ao centro",
+              "sem texto"
+            ],
+            "correta": 2,
+            "explicacao": "Títulos ficam centralizados para se destacar no topo da página.",
+            "dica": "Pense no título de um cartaz: ele fica em qual posição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atalho desfaz a última ação?",
+            "alternativas": [
+              "Ctrl+N",
+              "Ctrl+I",
+              "Ctrl+E",
+              "Ctrl+Z"
+            ],
+            "correta": 3,
+            "explicacao": "Ctrl+Z desfaz. Os outros formatam ou alinham o texto.",
+            "dica": "É o atalho que salva quem apagou algo sem querer."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para destacar uma palavra:",
+            "itens": [
+              "Digitar o texto",
+              "Selecionar a palavra que quer destacar",
+              "Aplicar o negrito",
+              "Clicar fora para ver o resultado"
+            ],
+            "explicacao": "Só dá para selecionar o que já foi digitado, e o efeito vai na seleção.",
+            "dica": "Formatar sempre vem depois de selecionar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando apertar Enter ao digitar no Word?",
+            "alternativas": [
+              "Só para começar um novo parágrafo",
+              "No fim de cada linha",
+              "Entre cada palavra",
+              "Nunca"
+            ],
+            "correta": 0,
+            "explicacao": "O Word quebra a linha sozinho. O Enter serve para iniciar outro parágrafo.",
+            "dica": "O Word passa para a linha de baixo sozinho quando a linha enche?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está com os espaços corretos?",
+            "alternativas": [
+              "Oi , tudo bem ?",
+              "Oi,tudo bem?",
+              "Oi, tudo bem?",
+              "Oi ,tudo bem ?"
+            ],
+            "correta": 2,
+            "explicacao": "Espaço vem depois da vírgula, e nunca antes da vírgula ou do ponto de interrogação.",
+            "dica": "Antes da pontuação não há espaço; depois da vírgula, há."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alinhamento deixa as duas bordas do texto retas?",
+            "alternativas": [
+              "À esquerda",
+              "Centralizado",
+              "À direita",
+              "Justificado"
+            ],
+            "correta": 3,
+            "explicacao": "O justificado distribui os espaços para que as duas bordas fiquem alinhadas, como em livros.",
+            "dica": "É o alinhamento que costuma aparecer nos livros e jornais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Word em português, o que o atalho Ctrl+I faz?",
+            "alternativas": [
+              "Deixa em negrito",
+              "Deixa em itálico",
+              "Sublinha",
+              "Imprime"
+            ],
+            "correta": 1,
+            "explicacao": "Ctrl+I = itálico, a letra inclinada.",
+            "dica": "Mais uma vez, a letra do atalho é a inicial do efeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não usar cinco fontes diferentes num trabalho?",
+            "alternativas": [
+              "Fica confuso e difícil de ler",
+              "O Word trava",
+              "É proibido por lei",
+              "Gasta mais tinta sempre"
+            ],
+            "correta": 0,
+            "explicacao": "Muitas fontes deixam o texto bagunçado. O ideal é no máximo duas.",
+            "dica": "Pense em quem vai ler o trabalho."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual recurso mostra os Enters e os espaços escondidos?",
+            "alternativas": [
+              "Zoom",
+              "Ctrl+Z",
+              "Botão Mostrar/Ocultar (¶)",
+              "Negrito"
+            ],
+            "correta": 2,
+            "explicacao": "O botão ¶ mostra marcas que normalmente ficam invisíveis, como Enters e espaços.",
+            "dica": "É um botão com um símbolo parecido com um P ao contrário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com um clique triplo sobre o texto?",
+            "alternativas": [
+              "Seleciona uma letra",
+              "Seleciona só a palavra",
+              "Apaga o parágrafo",
+              "Seleciona o parágrafo inteiro"
+            ],
+            "correta": 3,
+            "explicacao": "Clique duplo pega a palavra; clique triplo pega o parágrafo todo.",
+            "dica": "Clique duplo pega uma palavra. Um clique a mais pega algo maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ferramenta copia o formato de um título para outro?",
+            "alternativas": [
+              "Pincel de Formatação",
+              "Borracha",
+              "Ctrl+Z",
+              "Régua"
+            ],
+            "correta": 0,
+            "explicacao": "O Pincel copia fonte, cor, tamanho e efeitos de um trecho e aplica em outro.",
+            "dica": "É a ferramenta que \"pinta\" o formato em outro trecho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual formatação combina com um trabalho escolar?",
+            "alternativas": [
+              "Fonte 8, sem espaçamento, tudo em negrito",
+              "Fonte 12, espaçamento 1,5 e texto justificado",
+              "Fonte 28 em todo o texto",
+              "Cada parágrafo numa cor clara"
+            ],
+            "correta": 1,
+            "explicacao": "Tamanho 12, espaçamento 1,5 e justificado deixam o texto legível e organizado.",
+            "dica": "Pense no que deixa a leitura confortável para o professor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia apertou Enter no fim de cada linha. Ao aumentar a fonte, o texto ficou picado. Por quê?",
+            "alternativas": [
+              "Os Enters forçam quebras nos lugares antigos",
+              "O Word estragou",
+              "A fonte é ruim",
+              "Faltou negrito"
+            ],
+            "correta": 0,
+            "explicacao": "Cada Enter é uma quebra fixa. Quando as palavras mudam de tamanho, as quebras ficam fora do lugar.",
+            "dica": "O que um Enter faz com a linha, mesmo quando o texto muda de tamanho?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos erros de espaço há em: \"Hoje , fui à feira.Comprei  maçã .\"?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "1) espaço antes da vírgula; 2) falta espaço depois de \"feira.\"; 3) espaço duplo entre \"Comprei\" e \"maçã\"; 4) espaço antes do ponto final. São 4.",
+            "dica": "Procure espaço antes de pontuação, falta de espaço depois de ponto e espaços duplos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você selecionou uma frase e apertou Ctrl+N duas vezes seguidas. Como ela fica?",
+            "alternativas": [
+              "Em negrito duplo",
+              "Em itálico",
+              "Apagada",
+              "Normal, porque o segundo Ctrl+N desliga o negrito"
+            ],
+            "correta": 3,
+            "explicacao": "Negrito é liga-desliga: o primeiro aperto liga e o segundo desliga.",
+            "dica": "Esses efeitos funcionam como um interruptor de luz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Word em português, você dá clique duplo numa palavra e aperta Ctrl+S. O que acontece?",
+            "alternativas": [
+              "O arquivo é salvo",
+              "Só aquela palavra fica sublinhada",
+              "O parágrafo inteiro fica sublinhado",
+              "A palavra é apagada"
+            ],
+            "correta": 1,
+            "explicacao": "Clique duplo seleciona a palavra, e no Word em português Ctrl+S é sublinhado. Salvar com Ctrl+S é do Word em inglês.",
+            "dica": "Lembre o que o clique duplo seleciona e qual é o atalho S no Word em português."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer aplicar o formato do primeiro título em outros cinco títulos. Qual o jeito mais rápido?",
+            "alternativas": [
+              "Formatar cada um à mão",
+              "Copiar e colar o texto do primeiro título cinco vezes",
+              "Clique duplo no Pincel e passar nos cinco títulos",
+              "Apertar Ctrl+Z cinco vezes"
+            ],
+            "correta": 2,
+            "explicacao": "Com clique duplo, o pincel fica ligado para vários trechos, até apertar Esc. Copiar o texto trocaria as palavras dos títulos.",
+            "dica": "Existe um jeito de deixar a ferramenta de copiar formato ligada por mais tempo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o jeito eficiente de fazer um trabalho no Word:",
+            "itens": [
+              "Digitar todo o texto, sem se preocupar com a aparência",
+              "Selecionar tudo e escolher fonte e tamanho do texto",
+              "Formatar o título (negrito e centralizado)",
+              "Revisar com o botão ¶ se sobraram Enters ou espaços"
+            ],
+            "explicacao": "Primeiro o conteúdo, depois a formatação geral, depois o detalhe do título e, por fim, a revisão.",
+            "dica": "A formatação geral vem antes dos detalhes; a revisão fica para o final."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Ideia de negócio e pesquisa com o cliente",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Todo negócio começa com um problema ou uma vontade de alguém. Uma boa ideia resolve algo real: \"os alunos sentem fome no intervalo e a cantina é cara\" pode virar um negócio de lanche caseiro.",
+          "Ideias aparecem quando você presta atenção: problemas do bairro, reclamações que ouve, coisas que você faz bem (desenhar, cozinhar, consertar, ensinar).",
+          "Antes de gastar dinheiro, converse com possíveis clientes (quem compraria). Pergunte se eles têm o problema, como resolvem hoje e quanto costumam pagar. Use perguntas abertas, que não empurram a resposta, e fale com pelo menos 10 pessoas.",
+          "Depois, faça um teste pequeno: produza poucas unidades e veja se vendem. Se der errado, você perde pouco e aprende muito. E sempre dentro das regras: para vender na escola, por exemplo, é preciso autorização da direção."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Nina quer vender pulseiras. Perguntou a 12 colegas, e 9 disseram que comprariam por até R$ 5. O que ela faz agora?",
+            "resolucao": "Faz um teste pequeno: produz 10 pulseiras, pede autorização na escola e vê quantas vende de verdade. 9 de 12 é um bom sinal, mas dizer que compra é diferente de comprar."
+          },
+          {
+            "enunciado": "Qual pergunta é melhor: \"Você não acha minhas pulseiras lindas?\" ou \"Que acessório você usa e quanto costuma pagar?\"",
+            "resolucao": "A segunda. A primeira empurra a pessoa a dizer sim por educação. A segunda revela o que ela faz e quanto gasta de verdade."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O que as pessoas fazem vale mais do que o que elas dizem. \"Eu compraria\" é educado e não custa nada; deixar o dinheiro de uma encomenda é um sinal muito mais forte. Por isso, a pré-venda (anotar pedidos pagos antes de produzir) é um ótimo teste.",
+        "Calcule a porcentagem: 9 de 12 é 9 ÷ 12 = 0,75 = 75%. Mas cuidado: poucas pessoas e só amigos enganam, porque eles querem agradar. Pergunte a pessoas variadas, de outras turmas e idades.",
+        "Olhe a concorrência: quem já resolve esse problema, por quanto e o que falta no produto dele. O seu diferencial pode ser preço, qualidade, sabor, atendimento ou entrega. E se ninguém vende algo no bairro, investigue o motivo: às vezes é oportunidade, às vezes é porque ninguém quer comprar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Todo negócio começa com:",
+            "alternativas": [
+              "Um problema ou vontade de alguém",
+              "Um empréstimo grande",
+              "Uma loja cara",
+              "Uma propaganda na TV"
+            ],
+            "correta": 0,
+            "explicacao": "O negócio existe para resolver o problema ou a vontade de um cliente.",
+            "dica": "Para que alguém pagaria por um produto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de gastar muito dinheiro, o que fazer?",
+            "alternativas": [
+              "Comprar todo o material",
+              "Pesquisar com possíveis clientes",
+              "Desistir",
+              "Copiar o vizinho"
+            ],
+            "correta": 1,
+            "explicacao": "Conversar com quem compraria mostra se a ideia resolve um problema de verdade.",
+            "dica": "Quem pode dizer se a ideia vale a pena?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um teste pequeno?",
+            "alternativas": [
+              "Fazer mil unidades de uma vez",
+              "Nunca vender",
+              "Fazer poucas unidades e ver se vendem",
+              "Só pensar na ideia"
+            ],
+            "correta": 2,
+            "explicacao": "Com poucas unidades, você descobre se vende sem arriscar muito dinheiro.",
+            "dica": "A ideia é arriscar pouco e aprender muito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem é o cliente?",
+            "alternativas": [
+              "Quem fabrica",
+              "Quem tem a ideia",
+              "Quem empresta o dinheiro",
+              "Quem compra o produto ou serviço"
+            ],
+            "correta": 3,
+            "explicacao": "Cliente é quem paga pelo que você oferece.",
+            "dica": "Pense em quem entrega o dinheiro na hora da venda."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o caminho de uma ideia:",
+            "itens": [
+              "Perceber um problema",
+              "Pensar numa solução",
+              "Perguntar a possíveis clientes",
+              "Fazer um teste pequeno"
+            ],
+            "explicacao": "Primeiro o problema, depois a solução, a conversa com clientes e o teste.",
+            "dica": "Tudo começa observando um problema real."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pergunta de pesquisa é melhor, porque não empurra a resposta?",
+            "alternativas": [
+              "Você não acha minha ideia ótima?",
+              "Você compraria, né?",
+              "Como você resolve isso hoje?",
+              "Minha pulseira é a mais linda, certo?"
+            ],
+            "correta": 2,
+            "explicacao": "Perguntas abertas mostram a realidade. As outras empurram a pessoa a dizer sim.",
+            "dica": "Procure a pergunta que a pessoa pode responder de qualquer jeito, sem ser levada ao sim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nina perguntou a 12 colegas e 9 disseram que comprariam. Que porcentagem é essa?",
+            "alternativas": [
+              "75%",
+              "9%",
+              "90%",
+              "25%"
+            ],
+            "correta": 0,
+            "explicacao": "9 ÷ 12 = 0,75 = 75%. O 25% é a parte que disse não.",
+            "dica": "Divida quem disse sim pelo total de pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os alunos reclamam que a cantina é cara e sentem fome no intervalo. Qual negócio resolve isso?",
+            "alternativas": [
+              "Vender bonés",
+              "Abrir uma loja de pneus",
+              "Dar aula de violão",
+              "Vender lanche caseiro barato, com autorização da escola"
+            ],
+            "correta": 3,
+            "explicacao": "O lanche barato resolve exatamente o problema citado, e a autorização deixa tudo dentro das regras.",
+            "dica": "Qual opção responde à fome e ao preço alto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma boa fonte de ideias de negócio?",
+            "alternativas": [
+              "Sorteio de palavras",
+              "Reclamações que você ouve no bairro",
+              "Só a TV",
+              "Nenhuma, ideias aparecem do nada"
+            ],
+            "correta": 1,
+            "explicacao": "Cada reclamação é um problema esperando solução.",
+            "dica": "Problemas reais são o ponto de partida. Onde você ouve problemas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que fazer um teste pequeno antes de produzir muito?",
+            "alternativas": [
+              "Para não perder muito dinheiro se não vender",
+              "Para gastar mais",
+              "Para esconder do cliente",
+              "Porque é obrigatório por lei"
+            ],
+            "correta": 0,
+            "explicacao": "Se não vender, o prejuízo é pequeno, e você aprende o que mudar.",
+            "dica": "Compare o prejuízo de errar com 10 unidades e com 500."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro perguntou só para 3 amigos e todos disseram que comprariam. Qual o problema da pesquisa?",
+            "alternativas": [
+              "Nenhum",
+              "Perguntou demais",
+              "Poucas pessoas e só amigos, que podem querer agradar",
+              "Deveria perguntar para ninguém"
+            ],
+            "correta": 2,
+            "explicacao": "Três pessoas é pouco, e amigos tendem a dizer sim para não magoar.",
+            "dica": "Pense em quantas pessoas ele ouviu e em quem elas são."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o sinal mais forte de que a ideia vai vender?",
+            "alternativas": [
+              "10 colegas dizendo \"que legal\"",
+              "5 colegas deixando o dinheiro de uma encomenda",
+              "20 curtidas numa foto",
+              "Sua mãe dizendo que é ótimo"
+            ],
+            "correta": 1,
+            "explicacao": "Pagar antes é uma ação real. Elogio e curtida não custam nada.",
+            "dica": "O que as pessoas fazem vale mais do que o que dizem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa pesquisa com 40 pessoas, 30% disseram que pagariam R$ 6 por um brownie. Quantas pessoas são?",
+            "alternativas": [
+              "30",
+              "6",
+              "10",
+              "12"
+            ],
+            "correta": 3,
+            "explicacao": "10% de 40 = 4. 30% = 3 × 4 = 12 pessoas.",
+            "dica": "Calcule 10% de 40 e multiplique por 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um vizinho já vende brigadeiro a R$ 3. O que um bom empreendedor faz?",
+            "alternativas": [
+              "Vê o que falta no produto dele e cria um diferencial",
+              "Desiste na hora",
+              "Fala mal do vizinho",
+              "Copia tudo pelo mesmo preço, sem pensar"
+            ],
+            "correta": 0,
+            "explicacao": "Concorrência mostra que existe procura. O diferencial (sabor, tamanho, entrega) é o que faz o cliente escolher você.",
+            "dica": "Concorrente não é motivo para desistir. O que pode fazer você ser escolhido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia quer vender slime na escola. Antes de levar o produto, ela deve:",
+            "alternativas": [
+              "Levar 200 unidades",
+              "Pedir autorização à direção da escola",
+              "Vender escondido",
+              "Cobrar o dobro"
+            ],
+            "correta": 1,
+            "explicacao": "Vender na escola depende das regras da escola. Empreender começa respeitando as regras.",
+            "dica": "A escola tem regras. Quem decide se pode vender lá?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio fez 20 cookies no teste, gastou R$ 30 no total e vendeu 15 por R$ 3 cada. Qual foi o lucro do teste?",
+            "alternativas": [
+              "R$ 15",
+              "R$ 30",
+              "R$ 45",
+              "R$ 60"
+            ],
+            "correta": 0,
+            "explicacao": "Receita: 15 × 3 = 45. Lucro = 45 − 30 = R$ 15. Os 5 cookies que sobraram não entram na receita, mas o custo deles já está nos R$ 30.",
+            "dica": "Calcule quanto entrou com as vendas e tire tudo o que ele gastou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pesquisa A: 10 amigos, 9 disseram sim (90%). Pesquisa B: 50 pessoas variadas, 20 disseram sim (40%). Qual é mais confiável?",
+            "alternativas": [
+              "A, porque a porcentagem é maior",
+              "As duas são iguais",
+              "B, porque ouviu mais pessoas e de grupos variados",
+              "Nenhuma serve para nada"
+            ],
+            "correta": 2,
+            "explicacao": "A porcentagem alta de A vem de poucos amigos, que querem agradar. B ouviu mais gente e gente diferente.",
+            "dica": "Porcentagem alta não basta. Pense em quantas pessoas e em quem foi ouvido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa pré-venda, 25 pessoas viram o produto e 8 deixaram o pedido pago. Qual a porcentagem de quem comprou?",
+            "alternativas": [
+              "8%",
+              "25%",
+              "33%",
+              "32%"
+            ],
+            "correta": 3,
+            "explicacao": "8 ÷ 25 = 0,32 = 32%. Dica de conta: 8 de 25 é o mesmo que 32 de 100.",
+            "dica": "Transforme a fração em algo sobre 100: multiplique em cima e embaixo pelo mesmo número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Se ninguém vende isso no meu bairro, o sucesso é garantido.\" Essa frase é:",
+            "alternativas": [
+              "Verdadeira sempre",
+              "Falsa: pode ser que ninguém venda porque ninguém quer comprar, por isso é preciso pesquisar",
+              "Verdadeira se for barato",
+              "Falsa, porque toda ideia nova dá errado"
+            ],
+            "correta": 1,
+            "explicacao": "A falta de concorrência pode ser uma oportunidade ou um aviso. Só a pesquisa com clientes diz qual dos dois.",
+            "dica": "Pense nos dois motivos possíveis para ninguém vender aquilo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o método para testar uma ideia:",
+            "itens": [
+              "Observar um problema real",
+              "Conversar com pelo menos 10 possíveis clientes",
+              "Fazer um teste pequeno ou uma pré-venda",
+              "Decidir se vale investir mais"
+            ],
+            "explicacao": "Observa, ouve, testa barato e só então decide investir.",
+            "dica": "Investir mais é a última decisão, depois de ter provas."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O bolo de pote do Theo",
+    "texto": "Theo adorava fazer bolo de pote. Os vizinhos elogiavam, a avó dizia que era o melhor da família, e ele já sonhava em comprar cinquenta potes para vender na escola.\n\nA professora de matemática, quando soube, fez uma pergunta que o deixou pensando: \"Quem, além da sua avó, já disse que compraria?\"\n\nTheo resolveu descobrir. Pediu autorização à direção para vender no intervalo de sexta-feira e conversou com quinze colegas de outras turmas. Não perguntou se o bolo era gostoso. Perguntou o que eles comiam no intervalo, quanto gastavam e do que sentiam falta. Muitos reclamaram que só havia salgado na cantina.\n\nCom essa resposta, Theo fez só doze potes. Na sexta, vendeu dez em quinze minutos. Dois colegas pediram para reservar para a semana seguinte e já deixaram o dinheiro.\n\nNaquela noite, ele anotou no caderno: \"Elogio da avó não é pesquisa. Dinheiro na mão é.\" E, em vez de cinquenta, comprou vinte potes."
+  },
+  "escrita": {
+    "proposta": "Escreva de 5 a 10 linhas sobre uma ideia de negócio que poderia resolver um problema da sua escola ou do seu bairro. Diga qual é o problema, quem seriam os clientes e qual seria o teste pequeno. No final, escreva três perguntas abertas que você faria na pesquisa, sem empurrar a resposta."
+  }
+}

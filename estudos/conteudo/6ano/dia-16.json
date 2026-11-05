@@ -1,0 +1,895 @@
+{
+  "dia": 16,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Perímetro e área: a cerca e o chão",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Perímetro é a medida do contorno de uma figura. Imagine uma formiga andando em volta de um terreno: o caminho inteiro que ela faz é o perímetro.",
+          "Para achar o perímetro, somamos todos os lados. Um retângulo de 5 metros por 3 metros tem perímetro 5 + 3 + 5 + 3 = 16 metros.",
+          "Área é o tamanho da parte de dentro da figura, a superfície. Ela diz quanto piso cabe no chão ou quanta grama cabe no campo.",
+          "No retângulo, a área é comprimento vezes largura. O mesmo retângulo de 5 m por 3 m tem área 5 × 3 = 15 metros quadrados (15 m²).",
+          "Dica para não confundir: perímetro é a cerca (contorno, em metros); área é o chão (o recheio, em metros quadrados)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A quadra da escola tem formato de retângulo com 20 m de comprimento e 10 m de largura. Qual é o perímetro e qual é a área?",
+            "resolucao": "Perímetro: 20 + 10 + 20 + 10 = 60 m. Área: 20 × 10 = 200 m²."
+          },
+          {
+            "enunciado": "Um quadrado tem lado de 6 cm. Quanto mede o perímetro e a área?",
+            "resolucao": "O quadrado tem 4 lados iguais. Perímetro: 4 × 6 = 24 cm. Área: 6 × 6 = 36 cm²."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Figuras diferentes podem ter o mesmo perímetro e áreas diferentes. Com 16 m de cerca dá para fazer um retângulo de 7 m × 1 m (área 7 m²), um de 6 m × 2 m (12 m²) ou um quadrado de 4 m × 4 m (16 m²). Com o mesmo contorno, o quadrado guarda mais espaço.",
+        "Figuras em formato de L podem ser divididas em retângulos: calcule a área de cada pedaço e some. Para o perímetro, ande pelo contorno somando cada lado, sem esquecer nenhum.",
+        "Se dobrarmos os dois lados de um retângulo, o perímetro dobra, mas a área fica 4 vezes maior: um retângulo de 3 m × 2 m (6 m²) vira um de 6 m × 4 m (24 m²)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Perímetro é a medida de quê?",
+            "alternativas": [
+              "Do contorno da figura",
+              "Da parte de dentro",
+              "Da altura",
+              "Do peso"
+            ],
+            "correta": 0,
+            "explicacao": "Perímetro é o caminho em volta da figura, como a formiga andando ao redor do terreno.",
+            "dica": "Lembre da formiga andando em volta do terreno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se calcula a área de um retângulo?",
+            "alternativas": [
+              "Somando os lados",
+              "Comprimento vezes largura",
+              "Dividindo um lado pelo outro",
+              "Subtraindo os lados"
+            ],
+            "correta": 1,
+            "explicacao": "A área do retângulo é comprimento × largura. Somar os lados dá o perímetro.",
+            "dica": "A lição disse que a área do retângulo usa uma conta de vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem lado de 3 cm. Qual é o perímetro?",
+            "alternativas": [
+              "9 cm",
+              "6 cm",
+              "12 cm",
+              "3 cm"
+            ],
+            "correta": 2,
+            "explicacao": "O quadrado tem 4 lados iguais: 3 + 3 + 3 + 3 = 12 cm. O 9 seria a área (3 × 3).",
+            "dica": "O quadrado tem 4 lados iguais. Some os quatro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual unidade usamos para medir área?",
+            "alternativas": [
+              "Metro (m)",
+              "Quilograma (kg)",
+              "Litro (L)",
+              "Metro quadrado (m²)"
+            ],
+            "correta": 3,
+            "explicacao": "Área se mede em metros quadrados (m²) ou centímetros quadrados (cm²). Metro sozinho é para comprimento.",
+            "dica": "A área é o chão: a unidade tem um pequeno 2 no alto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para saber quanto piso cobre o chão da sala, calculamos:",
+            "alternativas": [
+              "A área",
+              "O perímetro",
+              "A altura",
+              "O peso"
+            ],
+            "correta": 0,
+            "explicacao": "O piso cobre a parte de dentro da sala, que é a área.",
+            "dica": "O piso cobre a parte de dentro, o recheio da figura."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o perímetro de um retângulo de 8 m por 2 m?",
+            "alternativas": [
+              "16 m",
+              "10 m",
+              "20 m",
+              "18 m"
+            ],
+            "correta": 2,
+            "explicacao": "Somamos os quatro lados: 8 + 2 + 8 + 2 = 20 m. O 16 é a área, não o perímetro.",
+            "dica": "Some os quatro lados: dois lados de 8 e dois lados de 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um retângulo de 7 cm por 4 cm?",
+            "alternativas": [
+              "28 cm²",
+              "22 cm²",
+              "11 cm²",
+              "24 cm²"
+            ],
+            "correta": 0,
+            "explicacao": "Área do retângulo é comprimento vezes largura: 7 × 4 = 28 cm². O 22 seria o perímetro (7 + 4 + 7 + 4).",
+            "dica": "Para a área do retângulo, faça uma conta de vezes com os dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O pai quer colocar uma cerca em volta da horta. O que ele precisa calcular?",
+            "alternativas": [
+              "A área da horta",
+              "O perímetro da horta",
+              "O volume da horta",
+              "A metade da área"
+            ],
+            "correta": 1,
+            "explicacao": "A cerca fica no contorno, então ele precisa do perímetro, que é a soma dos lados.",
+            "dica": "Pense: a cerca fica no contorno ou cobre o chão inteiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem lado de 5 m. Qual é a sua área?",
+            "alternativas": [
+              "20 m²",
+              "10 m²",
+              "15 m²",
+              "25 m²"
+            ],
+            "correta": 3,
+            "explicacao": "Área do quadrado é lado vezes lado: 5 × 5 = 25 m². O 20 é o perímetro (4 × 5).",
+            "dica": "Área do quadrado é lado vezes lado. Não confunda com a soma dos lados."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os retângulos em ordem da MENOR para a MAIOR área:",
+            "itens": [
+              "2 m × 3 m",
+              "4 m × 2 m",
+              "3 m × 4 m",
+              "5 m × 5 m"
+            ],
+            "explicacao": "As áreas são 6 m², 8 m², 12 m² e 25 m². Basta multiplicar os dois lados de cada um.",
+            "dica": "Multiplique os dois lados de cada retângulo e compare os resultados."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno retangular tem 12 m por 8 m. A cerca custa R$ 10 o metro. Quanto custa cercar o terreno todo?",
+            "alternativas": [
+              "R$ 960",
+              "R$ 200",
+              "R$ 400",
+              "R$ 320"
+            ],
+            "correta": 2,
+            "explicacao": "Perímetro: 12 + 8 + 12 + 8 = 40 m. Custo: 40 × 10 = R$ 400. O R$ 960 usa a área (96 m²), que é o erro comum.",
+            "dica": "Primeiro descubra o comprimento da cerca somando os lados; depois multiplique pelo preço do metro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma sala de 5 m por 4 m vai receber piso. Cada caixa de piso cobre 2 m². Quantas caixas são necessárias?",
+            "alternativas": [
+              "10 caixas",
+              "9 caixas",
+              "20 caixas",
+              "40 caixas"
+            ],
+            "correta": 0,
+            "explicacao": "Área da sala: 5 × 4 = 20 m². Caixas: 20 ÷ 2 = 10.",
+            "dica": "Calcule a área da sala e divida pelo que cada caixa cobre."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo tem perímetro de 30 cm e um dos lados mede 10 cm. Quanto mede o outro lado?",
+            "alternativas": [
+              "20 cm",
+              "15 cm",
+              "3 cm",
+              "5 cm"
+            ],
+            "correta": 3,
+            "explicacao": "Os dois lados de 10 cm somam 20 cm. Sobram 30 − 20 = 10 cm para os outros dois lados: 10 ÷ 2 = 5 cm.",
+            "dica": "Tire do perímetro os dois lados de 10 cm e divida o que sobra pelos outros dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem perímetro de 36 m. Qual é a sua área?",
+            "alternativas": [
+              "36 m²",
+              "81 m²",
+              "144 m²",
+              "18 m²"
+            ],
+            "correta": 1,
+            "explicacao": "Lado: 36 ÷ 4 = 9 m. Área: 9 × 9 = 81 m².",
+            "dica": "Descubra o lado dividindo o perímetro por 4. Depois faça lado vezes lado."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as figuras do MENOR para o MAIOR perímetro:",
+            "itens": [
+              "Quadrado de 2 m de lado",
+              "Retângulo de 4 m × 1 m",
+              "Retângulo de 5 m × 2 m",
+              "Quadrado de 4 m de lado"
+            ],
+            "explicacao": "Perímetros: 4 × 2 = 8 m; 4 + 1 + 4 + 1 = 10 m; 5 + 2 + 5 + 2 = 14 m; 4 × 4 = 16 m.",
+            "dica": "Some os quatro lados de cada figura; no quadrado, é 4 vezes o lado."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 20 m de cerca, Lucas quer fazer um cercado retangular (lados em metros inteiros) com a MAIOR área possível. Qual é essa área?",
+            "alternativas": [
+              "24 m²",
+              "25 m²",
+              "20 m²",
+              "100 m²"
+            ],
+            "correta": 1,
+            "explicacao": "Os dois lados diferentes somam 10 m (metade de 20). Testando: 9 × 1 = 9, 8 × 2 = 16, 7 × 3 = 21, 6 × 4 = 24, 5 × 5 = 25. O quadrado dá a maior área.",
+            "dica": "Os dois lados diferentes somam metade da cerca. Teste os pares e compare as áreas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno em forma de L é um retângulo de 6 m × 4 m colado a outro de 3 m × 2 m. Qual é a área total?",
+            "alternativas": [
+              "30 m²",
+              "24 m²",
+              "36 m²",
+              "15 m²"
+            ],
+            "correta": 0,
+            "explicacao": "Dividimos o L em dois retângulos: 6 × 4 = 24 m² e 3 × 2 = 6 m². Total: 24 + 6 = 30 m².",
+            "dica": "Calcule a área de cada retângulo separado e junte os resultados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os dois lados de um retângulo de 3 m por 2 m foram dobrados. O que acontece com a área?",
+            "alternativas": [
+              "Dobra",
+              "Fica igual",
+              "Fica 4 vezes maior",
+              "Fica 8 vezes maior"
+            ],
+            "correta": 2,
+            "explicacao": "Antes: 3 × 2 = 6 m². Depois: 6 × 4 = 24 m². Como 24 ÷ 6 = 4, a área ficou 4 vezes maior. A pegadinha é achar que só dobra.",
+            "dica": "Calcule a área antes e depois, com os novos lados de 6 m e 4 m, e compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois terrenos têm o mesmo perímetro de 24 m: um mede 11 m × 1 m e o outro 6 m × 6 m. Qual afirmação é verdadeira?",
+            "alternativas": [
+              "Os dois têm a mesma área",
+              "O de 11 m × 1 m tem mais área",
+              "Não dá para saber a área",
+              "O quadrado tem 25 m² a mais de área"
+            ],
+            "correta": 3,
+            "explicacao": "Áreas: 11 × 1 = 11 m² e 6 × 6 = 36 m². Diferença: 36 − 11 = 25 m². Mesmo contorno não garante a mesma área.",
+            "dica": "Mesmo contorno não quer dizer mesmo chão. Calcule as duas áreas e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma parede de 4 m por 3 m tem uma janela de 1 m × 1 m e uma porta de 1 m × 2 m. Quantos m² de parede vão receber tinta?",
+            "alternativas": [
+              "12 m²",
+              "9 m²",
+              "15 m²",
+              "10 m²"
+            ],
+            "correta": 1,
+            "explicacao": "Parede: 4 × 3 = 12 m². Janela: 1 m². Porta: 2 m². Tinta: 12 − 1 − 2 = 9 m².",
+            "dica": "Calcule a área da parede inteira e tire os pedaços onde não vai tinta."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Golpes e o Pix da família",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O Pix é rápido: o dinheiro sai da conta em segundos. Por isso os golpistas gostam dele, porque depois de enviado é muito difícil pegar de volta.",
+          "Um golpe comum é a mensagem do falso parente: \"Oi, troquei de número, me manda um Pix urgente\". A pessoa finge ser um filho, tio ou avó.",
+          "Outro golpe é o falso prêmio: \"Você ganhou um celular, pague só a taxa\". Prêmio de verdade não pede dinheiro antes.",
+          "A regra de ouro da família: nunca faça Pix por pedido de mensagem sem antes ligar para a pessoa no número antigo ou perguntar a um adulto.",
+          "Golpista usa pressa e medo. Se a mensagem diz \"urgente\", \"agora\" ou \"não conta para ninguém\", desconfie e mostre para um adulto."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A mãe recebe no WhatsApp: \"Mãe, é o Pedro, perdi o celular, esse é meu número novo. Paga um boleto pra mim de R$ 450?\". O que fazer?",
+            "resolucao": "Não pagar. Ligar para o Pedro no número antigo ou fazer uma pergunta que só ele sabe responder. Se for golpe, bloquear e avisar a família."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Golpistas também criam sites e perfis falsos de lojas com preços baixos demais e pedem pagamento só por Pix. Antes de comprar, um adulto deve conferir se a loja é conhecida, ler avaliações e desconfiar de preço muito abaixo do normal.",
+        "Se a família cair num golpe, aja rápido: avise o banco pelo aplicativo ou telefone oficial e faça um boletim de ocorrência. O Pix tem o MED (Mecanismo Especial de Devolução), que permite ao banco tentar bloquear e devolver o dinheiro, mas funciona melhor se o aviso for logo.",
+        "Nenhum banco pede senha, código recebido por SMS ou um \"Pix de teste\". Quem pede isso, mesmo dizendo ser do banco, é golpista."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O Pix é rápido ou demorado?",
+            "alternativas": [
+              "Muito rápido, cai em segundos",
+              "Demora uma semana",
+              "Demora um mês",
+              "Só cai no ano seguinte"
+            ],
+            "correta": 0,
+            "explicacao": "O Pix cai em segundos. Por isso é útil, mas também é usado por golpistas.",
+            "dica": "Lembre o que a lição disse sobre o tempo que o dinheiro leva para sair."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O golpe do falso parente costuma começar com qual frase?",
+            "alternativas": [
+              "Bom dia, tudo bem?",
+              "Troquei de número, me manda um Pix",
+              "Feliz aniversário!",
+              "Vamos almoçar domingo?"
+            ],
+            "correta": 1,
+            "explicacao": "O golpista finge ser da família com um celular novo e logo pede dinheiro.",
+            "dica": "Esse golpista finge ter um celular novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Prêmio de verdade pede dinheiro antes?",
+            "alternativas": [
+              "Sim, sempre",
+              "Só às vezes",
+              "Não, prêmio de verdade não pede",
+              "Só se for celular"
+            ],
+            "correta": 2,
+            "explicacao": "Pedir taxa para liberar prêmio é o sinal do golpe do falso prêmio.",
+            "dica": "Pense no golpe do falso prêmio da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de fazer um Pix pedido por mensagem, você deve:",
+            "alternativas": [
+              "Mandar logo",
+              "Mandar a senha junto",
+              "Responder com um emoji",
+              "Ligar para a pessoa no número antigo ou falar com um adulto"
+            ],
+            "correta": 3,
+            "explicacao": "Confirmar por outro caminho é a regra de ouro da família.",
+            "dica": "A regra de ouro da família é confirmar antes de qualquer coisa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem usa pressa e medo para enganar as pessoas?",
+            "alternativas": [
+              "O golpista",
+              "O professor",
+              "O médico",
+              "O vizinho que cumprimenta"
+            ],
+            "correta": 0,
+            "explicacao": "O golpista cria pressa para a vítima agir sem pensar.",
+            "dica": "Pense em quem quer que você não pare para pensar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que os golpistas gostam do Pix?",
+            "alternativas": [
+              "Porque é de graça para eles",
+              "Porque o dinheiro chega na hora e é difícil desfazer",
+              "Porque o banco paga o golpista",
+              "Porque o Pix só funciona à noite"
+            ],
+            "correta": 1,
+            "explicacao": "O Pix cai em segundos. Quando a vítima percebe o golpe, o dinheiro muitas vezes já foi passado para outras contas.",
+            "dica": "Pense em quanto tempo o Pix leva para cair e se dá para desfazer depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Chega a mensagem: \"Você ganhou uma bicicleta! Pague R$ 30 de frete\". O que é mais provável?",
+            "alternativas": [
+              "É um prêmio de verdade",
+              "É um presente da escola",
+              "É um golpe do falso prêmio",
+              "É uma promoção do governo"
+            ],
+            "correta": 2,
+            "explicacao": "Prêmio verdadeiro não cobra taxa antes. Pedir dinheiro para liberar prêmio é sinal clássico de golpe.",
+            "dica": "Prêmio de verdade cobra alguma coisa antes de entregar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra numa mensagem deve acender o sinal de alerta?",
+            "alternativas": [
+              "\"Obrigado\"",
+              "\"Bom dia\"",
+              "\"Até amanhã\"",
+              "\"Urgente\""
+            ],
+            "correta": 3,
+            "explicacao": "Golpistas criam pressa para a pessoa agir sem pensar. \"Urgente\" e \"agora\" são truques comuns.",
+            "dica": "Qual palavra tenta fazer você agir com pressa, sem pensar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um \"tio\" de número desconhecido pede Pix. Qual é a atitude certa?",
+            "alternativas": [
+              "Ligar para o tio no número antigo antes de qualquer coisa",
+              "Mandar metade do valor",
+              "Mandar o valor e perguntar depois",
+              "Passar a senha do banco para ele"
+            ],
+            "correta": 0,
+            "explicacao": "Confirmar por outro caminho (ligação no número que a família já conhece) desmascara o golpe do falso parente.",
+            "dica": "Confirme por um caminho que você já conhece, e não pelo número novo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que fazer ao receber um pedido estranho de Pix:",
+            "itens": [
+              "Não enviar nada na hora",
+              "Mostrar a mensagem para um adulto",
+              "Ligar para a pessoa no número conhecido",
+              "Se for golpe, bloquear e avisar a família"
+            ],
+            "explicacao": "Primeiro parar, depois pedir ajuda, depois confirmar e, por fim, proteger os outros avisando.",
+            "dica": "Primeiro pare; depois peça ajuda; proteger os outros vem no fim."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Chega: \"Oi, é a vó. Troquei de número. Preciso de R$ 200 para o remédio, é urgente!\". Quantos sinais de golpe aparecem?",
+            "alternativas": [
+              "Nenhum",
+              "Um",
+              "Dois",
+              "Três"
+            ],
+            "correta": 3,
+            "explicacao": "São três: número novo, pedido de dinheiro e a palavra \"urgente\", que cria pressa.",
+            "dica": "Procure número novo, pedido de dinheiro e palavra de pressa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja na internet vende um celular de R$ 2.000 por R$ 300, só no Pix. O que fazer?",
+            "alternativas": [
+              "Comprar rápido antes que acabe",
+              "Desconfiar do preço baixo demais e pedir a um adulto para conferir",
+              "Pagar metade agora",
+              "Mandar o CPF para garantir"
+            ],
+            "correta": 1,
+            "explicacao": "Preço muito abaixo do normal e pagamento só por Pix são sinais de loja falsa.",
+            "dica": "Compare o preço com o normal. Ofertas impossíveis costumam ter um motivo escondido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma ligação diz ser do banco e pede o código que chegou por SMS. O que é verdade?",
+            "alternativas": [
+              "O banco sempre pede esse código",
+              "Pode passar se a pessoa for educada",
+              "É golpe: banco não pede código nem senha",
+              "Só pode passar à noite"
+            ],
+            "correta": 2,
+            "explicacao": "Nenhum banco pede senha ou código de SMS. Quem pede está tentando entrar na sua conta.",
+            "dica": "Lembre: quem é de verdade do banco não precisa de segredos seus."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A família mandou um Pix e percebeu que era golpe. Qual é a melhor primeira atitude?",
+            "alternativas": [
+              "Avisar o banco na hora pelo canal oficial",
+              "Esperar uma semana",
+              "Mandar outro Pix para testar",
+              "Xingar o golpista"
+            ],
+            "correta": 0,
+            "explicacao": "Avisando logo, o banco pode tentar bloquear e devolver o dinheiro pelo MED.",
+            "dica": "Quanto mais rápido o banco souber, maior a chance de bloquear o dinheiro."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que a família faz depois de cair num golpe do Pix:",
+            "itens": [
+              "Parar de responder o golpista",
+              "Avisar o banco pelo canal oficial",
+              "Fazer o boletim de ocorrência",
+              "Avisar os parentes para não caírem também"
+            ],
+            "explicacao": "Primeiro corta o contato, depois corre atrás do dinheiro com o banco, registra o crime e protege os outros.",
+            "dica": "Primeiro corte o contato; depois, o mais urgente é o dinheiro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O golpista pediu R$ 450 e disse: \"manda R$ 150 agora e o resto depois\". A mãe mandou os R$ 150 e percebeu o golpe. Não mandou mais nada, e o banco recuperou R$ 100 pelo MED. Quanto a família perdeu?",
+            "alternativas": [
+              "R$ 450",
+              "R$ 50",
+              "R$ 300",
+              "R$ 350"
+            ],
+            "correta": 1,
+            "explicacao": "Só saíram R$ 150, e voltaram R$ 100: 150 − 100 = R$ 50. Os R$ 450 nunca foram enviados.",
+            "dica": "Conte só o que saiu de verdade e tire o que voltou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual mensagem tem MAIS cara de golpe?",
+            "alternativas": [
+              "\"Filho, a reunião da escola é às 19h.\"",
+              "\"O ônibus atrasou, chego às 8h.\"",
+              "\"Comprei pão, quer?\"",
+              "\"Sua conta foi bloqueada! Clique no link agora e digite sua senha.\""
+            ],
+            "correta": 3,
+            "explicacao": "Ela junta pressa (\"agora\"), um link e pedido de senha: três sinais de golpe numa frase só.",
+            "dica": "Procure pressa, link e pedido de senha juntos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o golpista costuma dizer \"não conta para ninguém\"?",
+            "alternativas": [
+              "Porque um adulto perceberia o golpe",
+              "Porque quer fazer surpresa",
+              "Porque é educado",
+              "Porque o banco exige segredo"
+            ],
+            "correta": 0,
+            "explicacao": "Se a vítima mostrar a mensagem para alguém, o golpe é descoberto. O segredo protege o golpista, não você.",
+            "dica": "Pense no que aconteceria se você mostrasse a mensagem para alguém da família."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um \"tio\" de número novo pede Pix. Para conferir, qual pergunta é a MELHOR?",
+            "alternativas": [
+              "\"Qual é o seu nome?\"",
+              "\"Você está bem?\"",
+              "Uma pergunta que só o tio verdadeiro sabe, como o nome do cachorro dele de infância",
+              "\"Qual é a sua chave Pix?\""
+            ],
+            "correta": 2,
+            "explicacao": "Nome e chave Pix o golpista sabe ou inventa. Uma lembrança da família, que não está nas redes, desmascara o golpe.",
+            "dica": "O golpista pode ter visto nomes nas redes sociais. Pense numa coisa que só a família sabe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um perfil de loja tem 3 dias de criado, nenhuma avaliação, aceita só Pix e vende tênis de R$ 500 por R$ 80. Quantos sinais de alerta há?",
+            "alternativas": [
+              "Um",
+              "Dois",
+              "Três",
+              "Quatro"
+            ],
+            "correta": 3,
+            "explicacao": "São quatro: perfil novo, nenhuma avaliação, só Pix e preço baixo demais.",
+            "dica": "Leia a frase devagar e conte cada pista suspeita, uma por uma."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Como o computador entende comandos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O computador é muito rápido, mas não adivinha nada. Ele só faz exatamente o que a gente manda, na ordem em que manda.",
+          "Por dentro, o computador entende só dois sinais: ligado e desligado, que escrevemos como 1 e 0. Isso se chama código binário.",
+          "Como seria difícil escrever tudo em 0 e 1, as pessoas criaram linguagens de programação, com palavras parecidas com o inglês, como print (mostrar) e if (se).",
+          "Um programa tradutor transforma essas palavras nos 0 e 1 que a máquina entende. É como um intérprete entre duas pessoas que falam línguas diferentes.",
+          "Se o comando estiver escrito errado, o computador não entende e mostra um erro. Por isso, em programação, cada letra e cada sinal importam."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você diz a um robô: \"Pegue o copo\". Mas o copo está em cima da mesa e o robô está longe. Por que ele não consegue?",
+            "resolucao": "Faltaram passos: andar até a mesa, esticar o braço, fechar a mão no copo. O computador precisa de cada passo dito com clareza."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Com 0 e 1 dá para escrever qualquer número. Cada 0 ou 1 se chama bit. Com 2 bits existem 4 combinações (00, 01, 10, 11); com 3 bits, 8 combinações. Cada bit a mais dobra as possibilidades.",
+        "Oito bits formam um byte, que guarda, por exemplo, uma letra. Uma foto de celular tem milhões de bytes; por isso falamos em megabytes (MB) e gigabytes (GB).",
+        "Existem dois tipos de erro: o de escrita (a máquina não entende, como escrever prnit em vez de print) e o de lógica (a máquina entende, mas faz a coisa errada porque a ordem ou a ideia estava errada). O de lógica é mais difícil de achar, porque não aparece mensagem de erro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O computador adivinha o que a gente quer?",
+            "alternativas": [
+              "Sim, sempre",
+              "Não, ele faz só o que mandamos",
+              "Só de manhã",
+              "Só se estiver na tomada"
+            ],
+            "correta": 1,
+            "explicacao": "O computador é rápido, mas obedece exatamente aos comandos, na ordem em que foram dados.",
+            "dica": "Releia a primeira frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O código binário usa quais números?",
+            "alternativas": [
+              "1 e 2",
+              "5 e 10",
+              "0 e 1",
+              "Todos de 0 a 9"
+            ],
+            "correta": 2,
+            "explicacao": "Binário tem só dois sinais: 0 (desligado) e 1 (ligado).",
+            "dica": "São só dois sinais: desligado e ligado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa o comando print?",
+            "alternativas": [
+              "Mostrar",
+              "Apagar",
+              "Desligar",
+              "Pular"
+            ],
+            "correta": 0,
+            "explicacao": "Print quer dizer mostrar: ele faz aparecer algo na tela.",
+            "dica": "A lição deu a tradução ao lado da palavra print."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem transforma as palavras do programa em 0 e 1?",
+            "alternativas": [
+              "O mouse",
+              "O teclado",
+              "A tela",
+              "Um programa tradutor"
+            ],
+            "correta": 3,
+            "explicacao": "O programa tradutor funciona como um intérprete entre a pessoa e a máquina.",
+            "dica": "A lição comparou esse programa a um intérprete entre duas línguas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se uma letra do comando estiver errada, o que aparece?",
+            "alternativas": [
+              "Um prêmio",
+              "Um erro",
+              "Uma música",
+              "Nada, tudo funciona"
+            ],
+            "correta": 1,
+            "explicacao": "O computador não entende o comando escrito errado e mostra um erro.",
+            "dica": "Em programação, cada letra e cada sinal importam."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais sinais o computador entende por dentro?",
+            "alternativas": [
+              "Letras de A a Z",
+              "Só 0 e 1 (desligado e ligado)",
+              "Números de 1 a 100",
+              "Desenhos e cores"
+            ],
+            "correta": 1,
+            "explicacao": "Os circuitos do computador funcionam com dois estados, ligado e desligado, representados por 1 e 0.",
+            "dica": "Pense nos dois estados de um interruptor de luz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que servem as linguagens de programação?",
+            "alternativas": [
+              "Para deixar o computador mais bonito",
+              "Para o computador falar sozinho",
+              "Para as pessoas escreverem comandos de um jeito mais fácil",
+              "Para apagar vírus"
+            ],
+            "correta": 2,
+            "explicacao": "Elas usam palavras que as pessoas conseguem ler; depois um tradutor converte tudo para 0 e 1.",
+            "dica": "Quem escreve programas: o computador ou as pessoas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece se um comando estiver escrito errado?",
+            "alternativas": [
+              "O computador mostra um erro",
+              "O computador corrige sozinho e sempre acerta",
+              "O computador desliga para sempre",
+              "Nada, ele ignora e faz outra coisa útil"
+            ],
+            "correta": 0,
+            "explicacao": "O computador não adivinha a intenção. Um sinal ou letra errada gera um erro que precisamos corrigir.",
+            "dica": "O computador adivinha o que você quis dizer?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O robô precisa acender a luz do quarto. Qual comando deve vir PRIMEIRO?",
+            "alternativas": [
+              "Apertar o interruptor",
+              "Levantar a mão",
+              "Entrar no quarto",
+              "Andar até o interruptor"
+            ],
+            "correta": 2,
+            "explicacao": "Antes de tudo o robô precisa chegar ao quarto; só depois anda até o interruptor, levanta a mão e aperta. A ordem dos comandos muda o resultado.",
+            "dica": "Pense onde o robô está no começo: ele já está perto do interruptor?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o caminho de um comando até o computador:",
+            "itens": [
+              "A pessoa escreve o comando",
+              "O tradutor converte para 0 e 1",
+              "O computador executa",
+              "O resultado aparece na tela"
+            ],
+            "explicacao": "A pessoa escreve, o tradutor converte, a máquina executa e então vemos o resultado.",
+            "dica": "Alguém precisa escrever antes de o tradutor ter o que converter."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana escreveu prnit(\"Olá\") em vez de print(\"Olá\"). O que acontece?",
+            "alternativas": [
+              "O computador mostra um erro, porque não conhece a palavra prnit",
+              "Aparece Olá normalmente",
+              "O computador apaga o arquivo",
+              "O computador corrige e mostra Olá"
+            ],
+            "correta": 0,
+            "explicacao": "A máquina só conhece as palavras exatas da linguagem. Prnit não existe, então aparece um erro de escrita.",
+            "dica": "O computador conhece só as palavras exatas da linguagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 2 bits (cada um pode ser 0 ou 1), quantas combinações diferentes existem?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "8"
+            ],
+            "correta": 2,
+            "explicacao": "As combinações são 00, 01, 10 e 11: quatro ao todo.",
+            "dica": "Escreva todas: comece com 00 e vá trocando os sinais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Programa do robô: \"Coloque o pão na torradeira. Ligue a torradeira. Pegue o pão.\" Falta um passo importante antes de pegar o pão. Qual?",
+            "alternativas": [
+              "Desligar a luz da sala",
+              "Abrir a geladeira",
+              "Lavar o quintal",
+              "Esperar o pão ficar pronto"
+            ],
+            "correta": 3,
+            "explicacao": "Sem esperar, o robô pega o pão ainda cru. O computador não completa passos sozinho.",
+            "dica": "Pense no que acontece entre ligar a torradeira e o pão sair quentinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que existe o programa tradutor?",
+            "alternativas": [
+              "Para traduzir filmes",
+              "Porque o computador só entende 0 e 1, e as pessoas escrevem com palavras",
+              "Para deixar o computador mais lento",
+              "Para o computador aprender inglês sozinho"
+            ],
+            "correta": 1,
+            "explicacao": "As pessoas escrevem com palavras parecidas com o inglês; a máquina só entende 0 e 1. O tradutor faz a ponte.",
+            "dica": "Compare a língua que a pessoa escreve com a língua que a máquina entende."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque do MENOR para o MAIOR:",
+            "itens": [
+              "1 bit",
+              "1 byte (8 bits)",
+              "1 megabyte",
+              "1 gigabyte"
+            ],
+            "explicacao": "Um bit é um só 0 ou 1. Oito bits formam um byte. Mega é milhão de bytes, e giga é ainda maior, bilhão.",
+            "dica": "Comece pelo pedaço mais simples, um só 0 ou 1, e vá crescendo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 3 bits, quantas combinações diferentes existem?",
+            "alternativas": [
+              "6",
+              "8",
+              "9",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "Cada bit a mais dobra as possibilidades: 1 bit = 2, 2 bits = 4, 3 bits = 8 (000 até 111).",
+            "dica": "Cada bit a mais dobra as possibilidades. Comece de 1 bit: duas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos bits há em 4 bytes?",
+            "alternativas": [
+              "12",
+              "4",
+              "32",
+              "48"
+            ],
+            "correta": 2,
+            "explicacao": "Cada byte tem 8 bits: 4 × 8 = 32 bits.",
+            "dica": "Um byte tem uma quantidade fixa de bits; multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O robô devia andar até a porta e abri-la, mas o programa era: \"Abrir a porta. Andar até a porta.\" Não aparece mensagem de erro, mas a porta não abre. Que erro é esse?",
+            "alternativas": [
+              "Erro de escrita",
+              "Erro do tradutor",
+              "A porta está quebrada",
+              "Erro de lógica: a ordem dos comandos está errada"
+            ],
+            "correta": 3,
+            "explicacao": "As palavras estão certas, então não há erro de escrita. O problema é a ordem: é um erro de lógica, o tipo que não mostra aviso.",
+            "dica": "A máquina entendeu as palavras. O problema está na ideia ou na ordem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em binário, 1 vale um, 10 vale dois e 11 vale três. Quanto vale 100?",
+            "alternativas": [
+              "4",
+              "100",
+              "5",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "Depois de 11 acabam as combinações com dois dígitos, e a contagem ganha um dígito: 100 vale quatro. Ler 100 como cem é a pegadinha.",
+            "dica": "Na contagem binária, 11 é o maior número com dois dígitos. Que número vem logo depois dele?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é VERDADEIRA?",
+            "alternativas": [
+              "Erro de lógica sempre mostra mensagem na tela",
+              "Um byte tem 2 bits",
+              "Um programa pode rodar sem erro de escrita e mesmo assim fazer a coisa errada",
+              "O tradutor transforma 0 e 1 em desenhos"
+            ],
+            "correta": 2,
+            "explicacao": "É o erro de lógica: a máquina entende tudo, mas a ideia ou a ordem estava errada. Um byte tem 8 bits, e o tradutor converte palavras em 0 e 1.",
+            "dica": "Lembre os dois tipos de erro do aprofundamento e qual deles fica escondido."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O golpe que não colou",
+    "texto": "Era domingo à tarde quando o celular da vó Cida apitou. A mensagem dizia: \"Vó, sou eu, a Bia. Troquei de número. Preciso de R$ 200 para a excursão, manda um Pix agora?\".\n\nA vó já ia abrir o aplicativo do banco, mas lembrou de uma conversa da família no almoço. Chamou a neta de verdade, que estava ali do lado, vendo desenho na sala.\n\n— Bia, você trocou de número?\n\nA menina arregalou os olhos e riu. — Eu nem tenho celular, vó!\n\nAs duas mostraram a mensagem para o pai, que bloqueou o número e avisou no grupo da família. A vó ficou orgulhosa de ter desconfiado.\n\nNaquela noite, Bia escreveu num papel e colou na geladeira: \"Pedido de Pix por mensagem? Primeiro liga, depois pensa.\""
+  },
+  "escrita": {
+    "proposta": "Escreva de 5 a 8 linhas contando o que poderia ter acontecido se a vó Cida tivesse mandado o Pix sem perguntar. Depois, escreva uma regra de segurança para a sua família colar na geladeira."
+  }
+}

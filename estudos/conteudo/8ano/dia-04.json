@@ -1,0 +1,1195 @@
+{
+  "dia": 4,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Raiz quadrada e números reais",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "A raiz quadrada é a operação inversa de elevar ao quadrado. √49 = 7 porque 7² = 49. Pense num quadrado de área 49 m²: a raiz quadrada é a medida do lado, 7 m.",
+          "Números como 1, 4, 9, 16, 25, 36, 49, 64, 81 e 100 são quadrados perfeitos: têm raiz exata. Para os outros, dá para estimar: √20 fica entre 4 e 5, porque 4² = 16 e 5² = 25. Como 20 está mais perto de 16, a raiz fica mais perto de 4 (≈ 4,47).",
+          "Os números racionais são os que podem ser escritos como fração de inteiros: 3, −2, 0,5 = 1/2, 0,333… = 1/3. Na forma decimal, eles terminam ou têm uma parte que se repete (dízima periódica).",
+          "Já os irracionais têm infinitas casas decimais sem repetição e não viram fração: √2 = 1,41421356…, √3, π = 3,14159… Toda raiz quadrada de número natural que não é quadrado perfeito é irracional.",
+          "Juntando racionais e irracionais, temos o conjunto dos números reais (ℝ): todos os pontos da reta numérica. Observação: no conjunto dos reais, não existe raiz quadrada de número negativo, porque nenhum número real ao quadrado dá negativo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um terreno quadrado tem 144 m² de área. Quanto mede cada lado? E quantos metros de muro seriam necessários para cercá-lo?",
+            "resolucao": "Lado = √144 = 12 m, porque 12 × 12 = 144. O muro é o perímetro: 4 × 12 = 48 m."
+          },
+          {
+            "enunciado": "Entre quais inteiros fica √70?",
+            "resolucao": "8² = 64 e 9² = 81. Como 64 < 70 < 81, temos 8 < √70 < 9."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para estimar uma raiz com mais precisão, use tentativas. √20 está entre 4 e 5. Teste 4,5² = 20,25 (passou um pouco). Teste 4,4² = 19,36 (faltou). Então √20 fica entre 4,4 e 4,5, mais perto de 4,5, porque 20,25 está mais perto de 20: o valor real é cerca de 4,47.",
+        "Raiz de um produto: √(a × b) = √a × √b. Assim, √(4 × 9) = 2 × 3 = 6, e √50 = √(25 × 2) = 5√2 ≈ 5 × 1,41 ≈ 7,07. Mas não existe regra para soma: √(9 + 16) = √25 = 5, e não 3 + 4 = 7.",
+        "Toda dízima periódica vira fração, e por isso é racional: 0,333… = 1/3 e 0,666… = 2/3. Multiplicando 0,333… por 3, chegamos a uma curiosidade: 0,999… = 3 × 1/3 = 1. Já √2 foi provado irracional ainda na Grécia antiga: nenhuma fração ao quadrado dá exatamente 2."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "√25 é igual a:",
+            "alternativas": [
+              "5",
+              "12,5",
+              "25",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "5 × 5 = 25, então √25 = 5. O 12,5 é a metade de 25: raiz não é dividir por 2.",
+            "dica": "Que número vezes ele mesmo dá 25?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um quadrado perfeito?",
+            "alternativas": [
+              "20",
+              "36",
+              "50",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "36 = 6 × 6, então tem raiz exata. 20, 50 e 15 não são resultado de um número inteiro vezes ele mesmo.",
+            "dica": "Procure o número que é resultado de um inteiro vezes ele mesmo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "√100 é igual a:",
+            "alternativas": [
+              "50",
+              "1000",
+              "10",
+              "20"
+            ],
+            "correta": 2,
+            "explicacao": "10 × 10 = 100, então √100 = 10. O 50 é a metade de 100, um erro comum.",
+            "dica": "Que número vezes ele mesmo dá 100? Não confunda com a metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem 16 m² de área. Quanto mede o lado?",
+            "alternativas": [
+              "8 m",
+              "16 m",
+              "2 m",
+              "4 m"
+            ],
+            "correta": 3,
+            "explicacao": "O lado é a raiz da área: √16 = 4, porque 4 × 4 = 16.",
+            "dica": "O lado é a raiz quadrada da área."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O número π (3,14159…) é:",
+            "alternativas": [
+              "Racional",
+              "Irracional",
+              "Negativo",
+              "Inteiro"
+            ],
+            "correta": 1,
+            "explicacao": "π tem infinitas casas decimais sem repetição e não vira fração: é irracional.",
+            "dica": "Suas casas decimais nunca acabam e nunca se repetem."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √81?",
+            "alternativas": [
+              "8",
+              "18",
+              "9",
+              "40,5"
+            ],
+            "correta": 2,
+            "explicacao": "9 × 9 = 81. O 40,5 é a metade de 81: confundir raiz com dividir por 2 é um erro comum.",
+            "dica": "Que número multiplicado por ele mesmo dá 81? Não confunda com dividir por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é irracional?",
+            "alternativas": [
+              "√3",
+              "0,5",
+              "√16",
+              "3/4"
+            ],
+            "correta": 0,
+            "explicacao": "3 não é quadrado perfeito, então √3 = 1,7320508… tem infinitas casas sem repetição. Já √16 = 4, 0,5 = 1/2 e 3/4 são racionais.",
+            "dica": "Procure a raiz de um número que não é quadrado perfeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "√50 está entre quais números inteiros?",
+            "alternativas": [
+              "5 e 6",
+              "6 e 7",
+              "8 e 9",
+              "7 e 8"
+            ],
+            "correta": 3,
+            "explicacao": "7² = 49 e 8² = 64. Como 50 está entre 49 e 64, √50 está entre 7 e 8 (bem perto de 7, cerca de 7,07).",
+            "dica": "Ache os quadrados perfeitos logo abaixo e logo acima de 50."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um tapete quadrado tem 144 dm² de área. Quanto mede o lado?",
+            "alternativas": [
+              "36 dm",
+              "12 dm",
+              "72 dm",
+              "14 dm"
+            ],
+            "correta": 1,
+            "explicacao": "O lado é a raiz quadrada da área: √144 = 12. O 36 vem de dividir 144 por 4, o que daria o lado só se fosse o perímetro.",
+            "dica": "O lado do quadrado é a raiz da área. Que número vezes ele mesmo dá 144?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente:",
+            "itens": [
+              "√2",
+              "1,5",
+              "√4",
+              "π",
+              "√10"
+            ],
+            "explicacao": "√2 ≈ 1,41; depois 1,5; √4 = 2; π ≈ 3,14; e √10 ≈ 3,16 (porque 3,16² ≈ 9,99). Os dois últimos são bem próximos, mas √10 é um pouco maior.",
+            "dica": "Aproxime cada um em decimal. Compare com cuidado os dois que ficam pouco acima de 3."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale √64 + √36 − √9?",
+            "alternativas": [
+              "11",
+              "91",
+              "13",
+              "17"
+            ],
+            "correta": 0,
+            "explicacao": "√64 = 8, √36 = 6 e √9 = 3. Então 8 + 6 − 3 = 11. O 91 sai de fazer 64 + 36 − 9 sem tirar as raízes.",
+            "dica": "Calcule cada raiz separadamente e só depois some e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno quadrado tem 225 m². Quantos metros de cerca são necessários para contorná-lo?",
+            "alternativas": [
+              "15 m",
+              "56,25 m",
+              "60 m",
+              "225 m"
+            ],
+            "correta": 2,
+            "explicacao": "Lado: √225 = 15 m (15 × 15 = 225). Perímetro: 4 × 15 = 60 m. O 15 é só um lado; 56,25 é 225 ÷ 4.",
+            "dica": "Primeiro ache o lado pela raiz; depois some os quatro lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor aproximação de √30?",
+            "alternativas": [
+              "5,9",
+              "5,2",
+              "6,5",
+              "5,5"
+            ],
+            "correta": 3,
+            "explicacao": "5,5² = 30,25, bem perto de 30. 5,2² = 27,04 e 5,9² = 34,81 ficam longe; 6,5 já passa de 6. O valor real é cerca de 5,48.",
+            "dica": "Multiplique cada opção por ela mesma e veja qual chega mais perto de 30."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é verdadeira?",
+            "alternativas": [
+              "√2 é racional",
+              "√5 é irracional",
+              "0,333… é irracional",
+              "√49 é irracional"
+            ],
+            "correta": 1,
+            "explicacao": "5 não é quadrado perfeito, então √5 é irracional. √2 também é irracional; 0,333… = 1/3 é racional; √49 = 7 é racional.",
+            "dica": "Lembre: dízima periódica é racional, e raiz de número que não é quadrado perfeito é irracional."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Entre quais inteiros consecutivos fica √120?",
+            "alternativas": [
+              "11 e 12",
+              "9 e 10",
+              "60 e 61",
+              "10 e 11"
+            ],
+            "correta": 3,
+            "explicacao": "10² = 100 e 11² = 121. Como 100 < 120 < 121, √120 fica entre 10 e 11, bem perto de 11.",
+            "dica": "Procure os quadrados perfeitos mais próximos de 120, um abaixo e outro acima."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale √(16 + 9)?",
+            "alternativas": [
+              "7",
+              "25",
+              "5",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro a conta de dentro: 16 + 9 = 25. Depois a raiz: √25 = 5. A pegadinha é fazer √16 + √9 = 4 + 3 = 7.",
+            "dica": "Faça primeiro a conta dentro da raiz. A raiz não se distribui numa soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "√72 é igual a:",
+            "alternativas": [
+              "6√2",
+              "8√2",
+              "36√2",
+              "2√6"
+            ],
+            "correta": 0,
+            "explicacao": "72 = 36 × 2, e 36 é o maior quadrado perfeito que divide 72. Então √72 = √36 × √2 = 6√2 (cerca de 8,49).",
+            "dica": "Procure o maior quadrado perfeito que divide 72 e use a raiz de um produto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números inteiros n fazem √n ficar entre 5 e 6, sem ser igual a 5 nem a 6?",
+            "alternativas": [
+              "11",
+              "9",
+              "12",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "5² = 25 e 6² = 36. Os inteiros estritamente entre eles vão de 26 a 35: 35 − 26 + 1 = 10 números. Contar 25 ou 36 é a pegadinha.",
+            "dica": "Ache os quadrados de 5 e de 6. Conte os inteiros que ficam entre eles, sem incluí-los."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem 50 cm² de área. O lado mede aproximadamente:",
+            "alternativas": [
+              "25 cm",
+              "12,5 cm",
+              "7,07 cm",
+              "7,5 cm"
+            ],
+            "correta": 2,
+            "explicacao": "√50 = √(25 × 2) = 5√2 ≈ 5 × 1,414 ≈ 7,07 cm. Confira: 7,07² ≈ 49,98. O 7,5 é tentador, mas 7,5² = 56,25.",
+            "dica": "Use a raiz de um produto: 50 = 25 × 2, e √2 vale cerca de 1,41."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "0,999… (com o 9 se repetindo para sempre) é igual a:",
+            "alternativas": [
+              "Um pouco menos que 1",
+              "1",
+              "0,9",
+              "Um número irracional"
+            ],
+            "correta": 1,
+            "explicacao": "0,333… = 1/3. Multiplicando por 3: 0,999… = 3/3 = 1. Parece estranho, mas é exatamente 1. E, como toda dízima periódica, é racional.",
+            "dica": "Releia o aprofundamento: escreva 0,333… como fração e multiplique por 3."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Sequência e ordem dos comandos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um programa é executado de cima para baixo, um comando por vez. Essa é a estrutura sequencial, a base de qualquer programa: mesmo os mais complexos são, no fundo, sequências de passos.",
+          "Muitos comandos guardam valores em variáveis. Em pseudocódigo, escrevemos x ← 5 (lê-se “x recebe 5”). A variável guarda sempre o último valor recebido; o valor antigo é apagado.",
+          "Por isso a ordem muda tudo. Em “x ← 5; x ← x + 2; x ← x × 3”, o resultado é 21. Trocando as duas últimas linhas, “x ← 5; x ← x × 3; x ← x + 2”, o resultado é 17. Mesmos comandos, ordem diferente, resposta diferente.",
+          "Para conferir um programa sem computador, fazemos o teste de mesa: uma tabela onde anotamos o valor de cada variável depois de cada linha. É assim que programadores encontram erros de lógica."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Faça o teste de mesa: preco ← 20; qtd ← 3; total ← preco × qtd; preco ← 25; mostrar total.",
+            "resolucao": "Linha 1: preco = 20. Linha 2: qtd = 3. Linha 3: total = 60. Linha 4: preco = 25 (mas total não muda, já foi calculado). Saída: 60."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um comando como x ← x + 1 parece estranho na matemática (x não pode ser igual a x + 1), mas em programação faz todo sentido: pegue o valor atual de x, some 1 e guarde de volta em x. É assim que funcionam os contadores.",
+        "Existe um truque para trocar dois números sem variável auxiliar: a ← a + b; b ← a − b; a ← a − b. Com a = 3 e b = 7: a = 10, depois b = 10 − 7 = 3, depois a = 10 − 3 = 7. Funciona, mas é mais difícil de ler; por isso programadores costumam preferir a auxiliar.",
+        "No teste de mesa, cada linha da tabela é um comando e cada coluna é uma variável. Erros de lógica (o programa roda, mas dá a resposta errada) só aparecem assim, porque o computador não avisa: para ele, a instrução está certa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa é executado:",
+            "alternativas": [
+              "De baixo para cima",
+              "De cima para baixo, um comando por vez",
+              "Em ordem aleatória",
+              "Todos os comandos ao mesmo tempo"
+            ],
+            "correta": 1,
+            "explicacao": "Essa é a estrutura sequencial: o computador lê e executa um comando de cada vez, de cima para baixo.",
+            "dica": "A lição chamou isso de estrutura sequencial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em pseudocódigo, x ← 5 se lê:",
+            "alternativas": [
+              "x é menor que 5",
+              "x vezes 5",
+              "x recebe 5",
+              "x some 5"
+            ],
+            "correta": 2,
+            "explicacao": "A seta mostra o valor 5 entrando na variável x. Lê-se “x recebe 5”.",
+            "dica": "A seta mostra o valor entrando na variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de x ← 3 e, em seguida, x ← 8, quanto vale x?",
+            "alternativas": [
+              "8",
+              "3",
+              "11",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "A variável guarda sempre o último valor recebido. O 3 foi apagado quando x recebeu 8.",
+            "dica": "A variável guarda sempre o último valor recebido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a tabela usada para conferir um programa sem computador?",
+            "alternativas": [
+              "Boletim",
+              "Planilha de notas",
+              "Tabuada",
+              "Teste de mesa"
+            ],
+            "correta": 3,
+            "explicacao": "No teste de mesa anotamos o valor de cada variável depois de cada linha.",
+            "dica": "O nome lembra o móvel onde você apoia o caderno para anotar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os comandos na ordem certa para mostrar 3:",
+            "itens": [
+              "a ← 2",
+              "b ← a + 1",
+              "mostrar b"
+            ],
+            "explicacao": "b precisa de a para ser calculado, e só dá para mostrar b depois de calculá-lo: 2 + 1 = 3.",
+            "dica": "b depende de a, e só dá para mostrar b depois de calculá-lo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída do programa: a ← 3; b ← a × 2; a ← 10; mostrar b",
+            "alternativas": [
+              "20",
+              "6",
+              "10",
+              "13"
+            ],
+            "correta": 1,
+            "explicacao": "b foi calculado quando a valia 3, então b = 6. Mudar a depois não altera b. Quem responde 20 imagina que b se atualiza sozinho, mas isso não acontece.",
+            "dica": "b foi calculado em que momento? Mudar a depois não volta no tempo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os comandos que trocam os valores de x e y usando uma variável auxiliar:",
+            "itens": [
+              "aux ← x",
+              "x ← y",
+              "y ← aux"
+            ],
+            "explicacao": "Primeiro guardamos x em aux para não perdê-lo. Depois x recebe y. Por fim, y recebe o valor antigo de x, que estava em aux. Começar por “x ← y” apagaria o valor de x para sempre.",
+            "dica": "Antes de apagar o valor de x, ele precisa estar guardado em algum lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída do programa: x ← 5; x ← x + 2; x ← x × 3; mostrar x",
+            "alternativas": [
+              "17",
+              "15",
+              "10",
+              "21"
+            ],
+            "correta": 3,
+            "explicacao": "Teste de mesa: x = 5, depois x = 5 + 2 = 7, depois x = 7 × 3 = 21. O 17 sairia se a multiplicação viesse antes da soma.",
+            "dica": "Faça o teste de mesa linha por linha: anote x depois de cada comando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Compare os programas A: “mostrar total; total ← 10” e B: “total ← 10; mostrar total”. O que acontece?",
+            "alternativas": [
+              "Os dois mostram 10",
+              "A mostra 20 e B mostra 10",
+              "Em A, total é mostrado antes de receber valor (dá erro ou aparece vazio); B mostra 10",
+              "B dá erro e A mostra 10"
+            ],
+            "correta": 2,
+            "explicacao": "Como os comandos rodam de cima para baixo, em A o programa tenta mostrar total quando ele ainda não existe. Em B, total já recebeu 10 antes de ser mostrado.",
+            "dica": "O programa roda de cima para baixo. Em A, total já existe quando é mostrado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ordem de comandos calcula corretamente o troco de uma compra?",
+            "alternativas": [
+              "Ler o preço; ler o valor pago; troco ← pago − preço; mostrar o troco",
+              "troco ← pago − preço; ler o preço; ler o valor pago; mostrar o troco",
+              "Mostrar o troco; ler o preço; ler o valor pago; troco ← pago − preço",
+              "Ler o preço; troco ← pago − preço; ler o valor pago; mostrar o troco"
+            ],
+            "correta": 0,
+            "explicacao": "As entradas (preço e valor pago) precisam existir antes do cálculo, e o cálculo precisa vir antes de mostrar o resultado. Nas outras ordens, alguma variável é usada antes de receber valor.",
+            "dica": "As entradas vêm antes da conta, e a conta vem antes de mostrar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída? n ← 10; n ← n − 3; n ← n × 2; n ← n + 1; mostrar n",
+            "alternativas": [
+              "15",
+              "13",
+              "17",
+              "14"
+            ],
+            "correta": 0,
+            "explicacao": "Teste de mesa: n = 10, depois 7, depois 14, depois 15. Quem para no 14 esqueceu a última linha.",
+            "dica": "Faça o teste de mesa: anote o valor de n depois de cada linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída? a ← 4; b ← a + 1; a ← b × 2; b ← a − b; mostrar a e b",
+            "alternativas": [
+              "a = 4 e b = 5",
+              "a = 10 e b = 10",
+              "a = 10 e b = 5",
+              "a = 8 e b = 3"
+            ],
+            "correta": 2,
+            "explicacao": "a = 4; b = 5; a = 5 × 2 = 10; b = 10 − 5 = 5. Cada linha usa os valores mais recentes.",
+            "dica": "Atualize uma variável de cada vez, usando sempre os valores mais recentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém tentou trocar x e y assim: x ← y; y ← x. Se começar com x = 3 e y = 7, o que acontece?",
+            "alternativas": [
+              "x = 7 e y = 3",
+              "x = 3 e y = 7",
+              "x = 3 e y = 3",
+              "x = 7 e y = 7"
+            ],
+            "correta": 3,
+            "explicacao": "Depois de x ← y, x vale 7 e o 3 sumiu. Então y ← x faz y = 7. Os dois ficam 7: por isso é preciso uma variável auxiliar.",
+            "dica": "Depois do primeiro comando, o valor antigo de x ainda existe em algum lugar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída? preco ← 50; desconto ← preco × 0,1; preco ← preco − desconto; mostrar preco",
+            "alternativas": [
+              "R$ 45",
+              "R$ 5",
+              "R$ 49,90",
+              "R$ 40"
+            ],
+            "correta": 0,
+            "explicacao": "desconto = 50 × 0,1 = 5; preco = 50 − 5 = 45. O R$ 5 é o desconto, e não o preço final.",
+            "dica": "Primeiro calcule o desconto e depois tire do preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ordem calcula corretamente a média de duas notas?",
+            "alternativas": [
+              "media ← soma ÷ 2; soma ← n1 + n2",
+              "ler n1 e n2; soma ← n1 + n2; media ← soma ÷ 2",
+              "media ← n1 + n2 ÷ 2",
+              "mostrar media; ler n1 e n2"
+            ],
+            "correta": 1,
+            "explicacao": "Primeiro as entradas, depois a soma, depois a divisão. Na 1ª opção soma é usada antes de existir; na 3ª a divisão acontece antes da soma; na 4ª mostra antes de calcular.",
+            "dica": "As entradas vêm primeiro, e soma precisa existir antes de ser usada."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída? a ← 3; b ← 7; a ← a + b; b ← a − b; a ← a − b; mostrar a e b",
+            "alternativas": [
+              "a = 7 e b = 3",
+              "a = 10 e b = 3",
+              "a = 3 e b = 7",
+              "a = 7 e b = 10"
+            ],
+            "correta": 0,
+            "explicacao": "a = 3, b = 7; a = 10; b = 10 − 7 = 3; a = 10 − 3 = 7. É o truque de troca sem auxiliar do aprofundamento.",
+            "dica": "Faça o teste de mesa com cuidado: cada linha usa os valores que acabaram de mudar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída? x ← 2; x ← x × x; x ← x × x; x ← x × x; mostrar x",
+            "alternativas": [
+              "8",
+              "64",
+              "256",
+              "16"
+            ],
+            "correta": 2,
+            "explicacao": "x = 2; depois 4; depois 16; depois 256. Cada linha eleva ao quadrado o valor atual, e não o 2 original (que daria 8).",
+            "dica": "Cada linha eleva o valor atual ao quadrado. Anote o valor depois de cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída? c ← 0; c ← c + 5; c ← c + 5; c ← c × c; c ← c − 1; mostrar c",
+            "alternativas": [
+              "100",
+              "24",
+              "49",
+              "99"
+            ],
+            "correta": 3,
+            "explicacao": "c = 0, 5, 10, 100 e 99. Quem para em 100 esqueceu a última linha; 24 e 49 vêm de fazer o quadrado cedo demais.",
+            "dica": "Não pule linhas: primeiro as somas, depois o quadrado, depois a subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Começando com x ← 4, qual sequência faz o programa mostrar 20?",
+            "alternativas": [
+              "x ← x × 4; x ← x + 1",
+              "x ← x + 1; x ← x × 4",
+              "x ← x + 4; x ← x × 2",
+              "x ← x × 2; x ← x + 10"
+            ],
+            "correta": 1,
+            "explicacao": "(4 + 1) × 4 = 20. As outras: 4 × 4 + 1 = 17; (4 + 4) × 2 = 16; 4 × 2 + 10 = 18. Mesmos comandos em outra ordem mudam o resultado.",
+            "dica": "Teste cada opção partindo de x = 4. A ordem dos comandos muda o resultado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa deveria mostrar o total de 3 lanches de R$ 12, mas mostra 0. Código: total ← 0; preco ← 12; mostrar total; total ← preco × 3. Qual é o erro?",
+            "alternativas": [
+              "O preço está errado",
+              "Falta uma variável auxiliar",
+              "O comando mostrar está antes do cálculo",
+              "A multiplicação deveria ser uma soma"
+            ],
+            "correta": 2,
+            "explicacao": "Na hora do mostrar, total ainda vale 0. O cálculo (36) acontece depois. Basta trocar as duas últimas linhas de lugar.",
+            "dica": "Faça o teste de mesa: qual é o valor de total na hora em que ele é mostrado?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Formatação de texto",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Formatar bem é deixar o texto fácil de ler e com cara profissional. Existem dois níveis: a formatação de caractere (fonte, tamanho, negrito, itálico, sublinhado, cor) e a de parágrafo (alinhamento, recuo, espaçamento entre linhas).",
+          "Cada destaque tem um uso. Negrito chama atenção para palavras-chave e títulos. Itálico marca palavras estrangeiras (como software), títulos de livros e filmes e termos técnicos. Sublinhado é pouco usado hoje, porque se confunde com link. Regra de ouro: destaque demais é o mesmo que nenhum destaque.",
+          "Trabalhos escolares costumam seguir as normas da ABNT: fonte Arial ou Times New Roman tamanho 12, espaçamento 1,5 entre linhas, texto justificado e recuo de 1,25 cm na primeira linha de cada parágrafo. Essas opções ficam no grupo Parágrafo da guia Página Inicial.",
+          "Dois truques que economizam tempo: o Pincel de Formatação copia a formatação de um trecho e aplica em outro com um clique, e a opção Limpar Formatação devolve o texto ao padrão quando ele ficou bagunçado depois de copiar e colar da internet."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você colou um parágrafo de um site no seu trabalho e ele veio com outra fonte, outro tamanho e fundo cinza. Como resolver rápido?",
+            "resolucao": "Selecione o parágrafo e use Limpar Formatação. Depois, se quiser, use o Pincel de Formatação num parágrafo que já está certo e passe por cima do texto colado."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Estilos são formatações com nome, como Título 1, Título 2 e Normal. Em vez de formatar cada título à mão, aplique o estilo Título 1. Se depois quiser mudar todos os títulos, basta alterar o estilo uma vez e todos se atualizam. Os estilos também permitem gerar um sumário automático.",
+        "Espaçamento entre linhas (1,0; 1,5; 2,0) é diferente do espaçamento antes e depois do parágrafo, medido em pontos (pt). Para separar parágrafos, use o espaçamento depois do parágrafo, e não aperte Enter duas vezes: assim o texto fica regular.",
+        "Atalhos do Word em português: Ctrl + N deixa em negrito, Ctrl + I em itálico e Ctrl + S sublinha; Ctrl + Z desfaz; Ctrl + J justifica e Ctrl + E centraliza. Clicando duas vezes no Pincel de Formatação, ele fica ativo para vários trechos seguidos."
+      ],
+      "desafio_pratico": "No app gratuito do Word (celular ou PC), escreva dois parágrafos sobre o que você aprendeu hoje em ciências ou matemática. Depois formate: título centralizado, em negrito, tamanho 14; parágrafos em Arial tamanho 12, espaçamento 1,5, texto justificado e recuo de 1,25 cm na primeira linha; e pelo menos uma palavra estrangeira em itálico. Por fim, salve uma cópia em PDF (Arquivo › Exportar ou Salvar como › PDF) com o nome “Formatação ABNT - teste”.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para deixar uma palavra mais grossa, como num título, usamos:",
+            "alternativas": [
+              "Itálico",
+              "Negrito",
+              "Sublinhado",
+              "Tachado"
+            ],
+            "correta": 1,
+            "explicacao": "O negrito deixa as letras mais grossas e chama atenção para palavras-chave e títulos.",
+            "dica": "É o destaque que chama atenção para palavras-chave e títulos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma formatação de parágrafo?",
+            "alternativas": [
+              "Cor da letra",
+              "Negrito",
+              "Alinhamento",
+              "Itálico"
+            ],
+            "correta": 2,
+            "explicacao": "Alinhamento muda a posição do parágrafo na página. Cor, negrito e itálico mudam a letra: são formatação de caractere.",
+            "dica": "Formatação de parágrafo mexe na posição do texto na página, e não na letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual botão desfaz a bagunça de formatação de um texto colado da internet?",
+            "alternativas": [
+              "Limpar Formatação",
+              "Pincel de Formatação",
+              "Negrito",
+              "Salvar"
+            ],
+            "correta": 0,
+            "explicacao": "Limpar Formatação devolve o texto ao padrão do documento. O Pincel copia formatação, ele não limpa.",
+            "dica": "O nome do botão diz que ele deixa o texto sem enfeites."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fonte costuma ser pedida em trabalhos escolares?",
+            "alternativas": [
+              "Fonte de desenho animado",
+              "Fonte tamanho 28",
+              "Fonte manuscrita colorida",
+              "Arial ou Times New Roman, tamanho 12"
+            ],
+            "correta": 3,
+            "explicacao": "As normas da ABNT pedem fontes simples, como Arial ou Times New Roman, em tamanho 12.",
+            "dica": "As normas da ABNT pedem fontes simples e um tamanho de leitura confortável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o sublinhado é pouco usado hoje?",
+            "alternativas": [
+              "Porque gasta tinta",
+              "Porque se confunde com link",
+              "Porque o Word não tem",
+              "Porque é proibido"
+            ],
+            "correta": 1,
+            "explicacao": "Na internet, links aparecem sublinhados. Por isso, sublinhar texto comum pode confundir o leitor.",
+            "dica": "Pense em como aparecem os endereços clicáveis na internet."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "As normas da ABNT para trabalhos escolares geralmente pedem:",
+            "alternativas": [
+              "Fonte 20 colorida e texto centralizado",
+              "Fonte tamanho 12, espaçamento 1,5 entre linhas e texto justificado",
+              "Todo o texto em negrito",
+              "Espaçamento 3 e fonte tamanho 8"
+            ],
+            "correta": 1,
+            "explicacao": "Fonte 12, espaçamento 1,5 e texto justificado deixam a leitura confortável e o trabalho padronizado. Fontes enormes ou minúsculas atrapalham a leitura.",
+            "dica": "Pense em fonte de tamanho comum, espaço confortável entre as linhas e texto alinhado nas duas margens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que o itálico costuma ser usado?",
+            "alternativas": [
+              "Marcar palavras estrangeiras, títulos de obras e termos técnicos",
+              "Deixar o texto maior",
+              "Corrigir erros de ortografia",
+              "Numerar as páginas"
+            ],
+            "correta": 0,
+            "explicacao": "O itálico sinaliza que a palavra é especial: de outra língua (como online), título de livro ou filme ou termo técnico.",
+            "dica": "Pense em palavras de outra língua e em nomes de livros e filmes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz o Pincel de Formatação?",
+            "alternativas": [
+              "Desenha figuras no documento",
+              "Apaga o texto selecionado",
+              "Copia a formatação de um trecho e aplica em outro",
+              "Muda o idioma do corretor"
+            ],
+            "correta": 2,
+            "explicacao": "Ele copia só a aparência (fonte, tamanho, cor, alinhamento), não as palavras. É ótimo para padronizar títulos e parágrafos.",
+            "dica": "Ele copia a aparência, e não as palavras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não é bom usar muitas fontes e cores diferentes num trabalho?",
+            "alternativas": [
+              "Porque o Word trava",
+              "Porque é proibido por lei",
+              "Porque gasta mais papel na impressão",
+              "Porque deixa o texto confuso: quando tudo é destaque, nada se destaca"
+            ],
+            "correta": 3,
+            "explicacao": "O olho do leitor procura o que é diferente. Se tudo é diferente, ele não sabe o que é importante. Poucos destaques bem escolhidos funcionam melhor.",
+            "dica": "O olho do leitor procura o que é diferente. E se tudo for diferente?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem um bom fluxo de trabalho para um texto escolar:",
+            "itens": [
+              "Digitar o texto inteiro",
+              "Revisar a ortografia e o conteúdo",
+              "Aplicar a formatação dos parágrafos (fonte, espaçamento, recuo)",
+              "Formatar o título e os destaques",
+              "Salvar e exportar em PDF"
+            ],
+            "explicacao": "Escrever primeiro e formatar depois evita retrabalho. Revisar antes de formatar garante que você não perca tempo enfeitando um texto que ainda vai mudar. O PDF no final preserva a formatação em qualquer aparelho.",
+            "dica": "Escrever primeiro, enfeitar depois e gerar o arquivo final por último."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num trabalho, como escrever o título do livro Dom Casmurro?",
+            "alternativas": [
+              "DOM CASMURRO, todo sublinhado",
+              "Dom Casmurro, em itálico",
+              "Dom Casmurro, em vermelho e negrito",
+              "dom casmurro, sem destaque"
+            ],
+            "correta": 1,
+            "explicacao": "Títulos de obras vão em itálico. Sublinhado se confunde com link, e cor com negrito exagera o destaque.",
+            "dica": "Releia para que serve o itálico."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nas normas da ABNT, quanto mede o recuo da primeira linha do parágrafo?",
+            "alternativas": [
+              "1,25 cm",
+              "3 cm",
+              "0,5 cm",
+              "5 cm"
+            ],
+            "correta": 0,
+            "explicacao": "O recuo da primeira linha é de 1,25 cm, junto com fonte 12, espaçamento 1,5 e texto justificado.",
+            "dica": "É um número com vírgula, um pouco mais que 1 centímetro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você tem 10 subtítulos e quer que todos fiquem iguais ao primeiro, já formatado. O que é mais rápido?",
+            "alternativas": [
+              "Formatar um por um",
+              "Apagar tudo e redigitar",
+              "Clicar duas vezes no Pincel de Formatação e passar em todos",
+              "Usar Limpar Formatação em todos"
+            ],
+            "correta": 2,
+            "explicacao": "Com dois cliques, o Pincel fica ativo e você aplica a mesma aparência em todos. Limpar Formatação faria o contrário: tiraria a formatação.",
+            "dica": "Uma ferramenta copia a aparência; com dois cliques nela, ela continua ativa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um exemplo de formatação de caractere?",
+            "alternativas": [
+              "Espaçamento 1,5",
+              "Recuo de 1,25 cm",
+              "Texto justificado",
+              "Itálico"
+            ],
+            "correta": 3,
+            "explicacao": "Itálico muda a letra. Espaçamento, recuo e justificado mudam o parágrafo inteiro.",
+            "dica": "Formatação de caractere muda a letra, e não a posição do parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluno destacou metade do texto em negrito. Qual é o efeito?",
+            "alternativas": [
+              "O texto fica mais fácil de ler",
+              "O destaque perde a força, porque tudo parece importante",
+              "O professor dá nota maior",
+              "O arquivo fica menor"
+            ],
+            "correta": 1,
+            "explicacao": "Destaque demais é o mesmo que nenhum destaque: o leitor não sabe mais o que é importante.",
+            "dica": "Lembre a regra de ouro sobre destaque demais."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu trabalho tem 15 títulos e o professor pediu todos em Times New Roman 14. Se você tivesse usado estilos, qual seria o jeito mais eficiente?",
+            "alternativas": [
+              "Mudar o estilo Título 1 uma vez, e todos se atualizam",
+              "Reformatar os 15 à mão",
+              "Usar Limpar Formatação",
+              "Copiar tudo para outro arquivo"
+            ],
+            "correta": 0,
+            "explicacao": "Com estilos, a mudança é feita uma vez só no estilo e vale para todos os títulos que o usam.",
+            "dica": "Releia o aprofundamento sobre formatações com nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para separar parágrafos de forma regular, o recomendado é:",
+            "alternativas": [
+              "Apertar Enter duas vezes",
+              "Usar espaçamento 2,0 entre as linhas",
+              "Ajustar o espaçamento depois do parágrafo, em pontos",
+              "Inserir linhas em branco com a barra de espaço"
+            ],
+            "correta": 2,
+            "explicacao": "O espaçamento depois do parágrafo cria um espaço igual entre todos eles. Enter duplo cria linhas vazias que bagunçam o texto quando ele muda.",
+            "dica": "Existe uma configuração própria para o espaço entre um parágrafo e outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Word em português, qual atalho deixa o texto em negrito?",
+            "alternativas": [
+              "Ctrl + B",
+              "Ctrl + G",
+              "Ctrl + S",
+              "Ctrl + N"
+            ],
+            "correta": 3,
+            "explicacao": "Na versão em português é Ctrl + N, de Negrito. Ctrl + S sublinha. Ctrl + B é o atalho de negrito no Word em inglês (de bold) e, em português, salva.",
+            "dica": "Na versão em português, a letra é a inicial do nome desse destaque."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação respeita as normas e o bom uso dos destaques?",
+            "alternativas": [
+              "Texto em fonte 16, centralizado e todo em negrito",
+              "Texto em Arial 12, espaçamento 1,5, justificado, com itálico só nas palavras estrangeiras",
+              "Cada parágrafo de uma cor diferente",
+              "Texto em Times 10, espaçamento 1,0 e todo sublinhado"
+            ],
+            "correta": 1,
+            "explicacao": "Ela segue a ABNT (fonte 12, espaçamento 1,5, justificado) e usa o itálico só onde ele tem função. As outras exageram ou fogem das normas.",
+            "dica": "Lembre as normas da ABNT e a regra de ouro do destaque."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para padronizar um título com o Pincel de Formatação:",
+            "itens": [
+              "Selecionar o título que já está formatado",
+              "Clicar no Pincel de Formatação",
+              "Passar o pincel sobre o título que vai mudar",
+              "Conferir se ficou igual"
+            ],
+            "explicacao": "O pincel primeiro “pega a tinta” do modelo, depois aplica no outro trecho. Conferir no fim evita surpresas.",
+            "dica": "O pincel precisa primeiro pegar a tinta do modelo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Modelo de negócio: o canvas simples",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Modelo de negócio é a explicação de como uma empresa cria valor para alguém e ganha dinheiro com isso. Antes de gastar com produto, vale colocar a ideia no papel e conferir se as peças se encaixam.",
+          "O canvas é um quadro de uma página só, dividido em partes. Do lado do cliente: cliente (para quem é?), proposta de valor (que problema eu resolvo e por que me escolheriam?), canais (como o cliente me encontra e recebe o produto?) e relacionamento (como faço o cliente voltar?).",
+          "Do lado de dentro do negócio: atividades-chave (o que preciso fazer todo dia), recursos-chave (o que preciso ter: equipamento, dinheiro, pessoas) e parceiros (quem me ajuda, como fornecedores e entregadores). Embaixo ficam as duas linhas do dinheiro: fontes de receita (como ele entra) e estrutura de custos (como ele sai).",
+          "O canvas é uma ferramenta de teste, e não de enfeite. Se a receita não paga os custos, ou se você não sabe quem é o cliente, o quadro mostra o buraco antes de você perder dinheiro. Dá para apagar e refazer quantas vezes quiser.",
+          "Pessoas também entram no quadro. Se o negócio vai crescer com ajuda de alguém, essa pessoa é um recurso-chave, e o pagamento justo dela, combinado por escrito e dentro da lei, entra na estrutura de custos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Monte o canvas simples da marmitaria que Joana quer abrir em casa, no bairro.",
+            "resolucao": "Cliente: trabalhadores do comércio e de obras do bairro. Proposta: comida caseira e quentinha a R$ 20, entregue no horário do almoço. Canais: grupo de mensagens do bairro; entrega a pé ou de bicicleta. Relacionamento: cartão fidelidade (a 10ª marmita é grátis). Atividades: comprar, cozinhar, embalar e entregar. Recursos: cozinha, fogão, embalagens e R$ 600 para começar. Parceiros: feira e açougue do bairro. Receita: venda das marmitas. Custos: ingredientes, gás, embalagens e entrega."
+          },
+          {
+            "enunciado": "Joana vende 30 marmitas por dia a R$ 20, e cada uma custa R$ 12 entre ingredientes, gás e embalagem. Quanto sobra por dia antes dos outros custos?",
+            "resolucao": "Receita: 30 × 20 = R$ 600. Custo: 30 × 12 = R$ 360. Sobra: 600 − 360 = R$ 240 por dia. É com essa sobra que ela paga a entrega, a divulgação e o próprio trabalho."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Proposta de valor não é o produto: é o motivo para o cliente escolher você. Duas pessoas podem vender o mesmo bolo: uma aposta no preço baixo, a outra na entrega no mesmo dia e na opção sem açúcar. São propostas diferentes, para clientes diferentes.",
+        "Um mesmo negócio pode ter várias fontes de receita: venda avulsa, assinatura (a marmita da semana inteira com desconto), taxa de entrega e encomendas para festas. A receita recorrente, que se repete todo mês, deixa o negócio mais previsível.",
+        "Quando o negócio cresce, o recurso-chave muitas vezes passa a ser a equipe. Delegar (passar a entrega ou parte do preparo para outra pessoa) multiplica a produção, mas tem custo: pagar o justo, registrar conforme a lei e treinar. Quem tenta economizar tratando mal ou sem registro arrisca processo trabalhista, multa e perder os melhores funcionários, e esse risco também precisa entrar na conta."
+      ],
+      "desafio_pratico": "Desenhe no caderno um quadro com as 9 partes do canvas e preencha com um negócio que você poderia começar na escola ou no bairro (aulas de reforço, venda de doces, conserto de bicicletas…). Em receitas e custos, coloque números estimados para um mês e veja se a conta fecha.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o modelo de negócio explica?",
+            "alternativas": [
+              "Como a empresa cria valor para alguém e ganha dinheiro com isso",
+              "A cor da logomarca",
+              "O nome do dono",
+              "O horário de almoço"
+            ],
+            "correta": 0,
+            "explicacao": "O modelo de negócio mostra para quem a empresa é útil e como o dinheiro entra e sai.",
+            "dica": "Pense em duas perguntas: para quem o negócio é útil e como o dinheiro entra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O canvas é:",
+            "alternativas": [
+              "Um contrato com o banco",
+              "Um quadro de uma página, dividido em partes, que resume o negócio",
+              "Um tipo de imposto",
+              "Uma máquina de cartão"
+            ],
+            "correta": 1,
+            "explicacao": "Canvas é um quadro de uma página só. Cada parte responde a uma pergunta sobre o negócio.",
+            "dica": "Releia o 2º parágrafo: ele cabe numa folha só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No canvas, a parte “cliente” responde:",
+            "alternativas": [
+              "Quanto custa?",
+              "Onde compro o material?",
+              "Para quem é o meu produto?",
+              "Quem é o dono?"
+            ],
+            "correta": 2,
+            "explicacao": "A parte do cliente diz para quem o negócio existe: quem vai usar e pagar.",
+            "dica": "É a pessoa que vai usar e pagar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ingredientes, gás e embalagem de uma marmitaria ficam em:",
+            "alternativas": [
+              "Proposta de valor",
+              "Canais",
+              "Relacionamento",
+              "Estrutura de custos"
+            ],
+            "correta": 3,
+            "explicacao": "São gastos que fazem o dinheiro sair do negócio, por isso ficam na estrutura de custos.",
+            "dica": "São coisas que fazem o dinheiro sair do negócio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O grupo de mensagens por onde o cliente faz o pedido é um:",
+            "alternativas": [
+              "Canal",
+              "Custo fixo",
+              "Sócio",
+              "Imposto"
+            ],
+            "correta": 0,
+            "explicacao": "Canal é o caminho pelo qual o cliente encontra você, compra e recebe o produto.",
+            "dica": "É o caminho pelo qual o cliente encontra você e compra."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a proposta de valor de uma marmitaria que entrega comida caseira e quentinha no horário do almoço?",
+            "alternativas": [
+              "Ter um fogão",
+              "Comprar na feira",
+              "Resolver o almoço de quem trabalha, com comida caseira, quente e no horário",
+              "Pagar o gás"
+            ],
+            "correta": 2,
+            "explicacao": "Proposta de valor é o problema resolvido e o motivo para escolherem você. Fogão é recurso, feira é parceiro e gás é custo.",
+            "dica": "Proposta de valor é o problema que você resolve e o motivo para escolherem você."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fornecedores e entregadores que ajudam o negócio ficam em qual parte do canvas?",
+            "alternativas": [
+              "Parceiros",
+              "Clientes",
+              "Fontes de receita",
+              "Proposta de valor"
+            ],
+            "correta": 0,
+            "explicacao": "Parceiros são pessoas ou empresas de fora que ajudam o negócio a funcionar.",
+            "dica": "São pessoas ou empresas de fora que ajudam você a funcionar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana vende 25 marmitas por dia a R$ 18. Qual é a receita diária?",
+            "alternativas": [
+              "R$ 430",
+              "R$ 450",
+              "R$ 43",
+              "R$ 400"
+            ],
+            "correta": 1,
+            "explicacao": "Receita = quantidade × preço = 25 × 18 = 450. Uma forma fácil: 25 × 18 = 25 × 2 × 9 = 50 × 9 = 450.",
+            "dica": "Receita é a quantidade vendida vezes o preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o canvas antes de abrir o negócio?",
+            "alternativas": [
+              "Para enfeitar a parede",
+              "Para registrar a empresa",
+              "Para pagar menos imposto",
+              "Para achar buracos na ideia antes de perder dinheiro"
+            ],
+            "correta": 3,
+            "explicacao": "O canvas é uma ferramenta de teste: mostra se falta cliente, canal ou se a conta não fecha, antes de gastar.",
+            "dica": "A lição diz que ele é uma ferramenta de teste."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem uma forma lógica de preencher o canvas:",
+            "itens": [
+              "Definir o cliente",
+              "Definir a proposta de valor",
+              "Escolher os canais",
+              "Listar atividades e recursos",
+              "Calcular receitas e custos"
+            ],
+            "explicacao": "Sem saber o cliente, não dá para saber o que oferecer; sem proposta, não há o que levar pelos canais; depois vem o que fazer e o que ter, e por fim a conta do dinheiro.",
+            "dica": "Comece por quem compra e termine conferindo se a conta fecha."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas vende 40 brigadeiros por dia a R$ 2,50. Cada um custa R$ 1,10. Quanto sobra por dia?",
+            "alternativas": [
+              "R$ 56",
+              "R$ 100",
+              "R$ 44",
+              "R$ 60"
+            ],
+            "correta": 0,
+            "explicacao": "Receita: 40 × 2,50 = 100. Custo: 40 × 1,10 = 44. Sobra: 100 − 44 = 56. R$ 100 é só a receita e R$ 44 é só o custo.",
+            "dica": "Calcule a receita e o custo total separadamente e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana e Bia vendem bolo no mesmo bairro. Ana vende o mais barato; Bia entrega no mesmo dia e tem bolo sem açúcar. O que é diferente entre elas?",
+            "alternativas": [
+              "O produto",
+              "A proposta de valor",
+              "O bairro",
+              "Nada"
+            ],
+            "correta": 1,
+            "explicacao": "As duas vendem bolo, mas cada uma oferece um motivo diferente para ser escolhida: é a proposta de valor.",
+            "dica": "Elas vendem a mesma coisa. O que mudou foi o motivo para o cliente escolher cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lavagem de tênis cobra R$ 30 por par e oferece um plano de R$ 80 por mês com 4 lavagens. O plano é um exemplo de:",
+            "alternativas": [
+              "Custo fixo",
+              "Parceiro",
+              "Receita recorrente, que se repete todo mês",
+              "Canal"
+            ],
+            "correta": 2,
+            "explicacao": "O plano faz o dinheiro entrar todo mês, de forma previsível. Para o cliente, sai R$ 20 a lavagem, mais barato que R$ 30.",
+            "dica": "Pense em como o dinheiro entra: uma vez só ou todo mês?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No canvas de aulas particulares de matemática pela internet, qual item é um recurso-chave?",
+            "alternativas": [
+              "Os pais dos alunos",
+              "O preço da aula",
+              "O grupo de mensagens da escola",
+              "Computador com internet e o conhecimento do professor"
+            ],
+            "correta": 3,
+            "explicacao": "Recurso-chave é o que o negócio precisa ter para funcionar. Pais são clientes, preço é receita e o grupo é canal.",
+            "dica": "Recurso-chave é o que você precisa TER para o negócio funcionar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana passou de 30 para 60 marmitas por dia e contratou uma ajudante. Onde isso aparece no canvas?",
+            "alternativas": [
+              "Só em clientes",
+              "A ajudante vira recurso-chave, e o pagamento dela entra na estrutura de custos",
+              "Só em canais",
+              "Não aparece, porque é uma pessoa"
+            ],
+            "correta": 1,
+            "explicacao": "Pessoas que trabalham no negócio são recurso, e o pagamento justo delas é custo. Ignorar isso faz a conta parecer melhor do que é.",
+            "dica": "Pessoas que trabalham no negócio são recurso, e o pagamento delas sai do caixa."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana vende 30 marmitas por dia a R$ 20, com custo de R$ 12 cada, durante 22 dias no mês. Se contratar um entregador registrado que custa ao todo R$ 2.200 por mês, já com encargos, quanto sobra no mês?",
+            "alternativas": [
+              "R$ 3.080",
+              "R$ 5.280",
+              "R$ 2.840",
+              "R$ 3.280"
+            ],
+            "correta": 0,
+            "explicacao": "Sobra por dia: 30 × (20 − 12) = 240. No mês: 240 × 22 = 5.280. Tirando o entregador: 5.280 − 2.200 = 3.080. R$ 5.280 é a sobra antes de pagar o entregador.",
+            "dica": "Calcule a sobra por dia, multiplique pelos dias do mês e só então tire o custo do entregador."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com o entregador, Joana passa a vender 45 marmitas por dia (mesmo preço, mesmo custo, 22 dias). Valeu a pena contratar?",
+            "alternativas": [
+              "Não, sobra menos que antes",
+              "Sim: sobra R$ 5.720, mais que os R$ 5.280 de antes, sem entregador",
+              "Sim: sobra R$ 7.920",
+              "Tanto faz, sobra igual"
+            ],
+            "correta": 1,
+            "explicacao": "45 × 8 = 360 por dia; 360 × 22 = 7.920; menos 2.200 = 5.720. Sem entregador, com 30 marmitas, sobravam 5.280. R$ 7.920 é a pegadinha de esquecer o salário.",
+            "dica": "Calcule a nova sobra mensal já descontando o entregador e compare com a sobra de antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quiosque vende capinhas de celular a R$ 25; cada uma custa R$ 10, e o aluguel é R$ 1.500 por mês. Quantas capinhas precisa vender por mês só para pagar o aluguel?",
+            "alternativas": [
+              "60",
+              "150",
+              "100",
+              "1.500"
+            ],
+            "correta": 2,
+            "explicacao": "Cada capinha deixa 25 − 10 = 15 de sobra. 1.500 ÷ 15 = 100 capinhas. O 60 sai de dividir pelo preço (25) e o 150, de dividir pelo custo (10).",
+            "dica": "Cada capinha deixa uma sobra. Divida o aluguel por essa sobra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para economizar, um dono pensa em pagar a ajudante “por fora”, sem registro. Que risco o modelo de negócio precisa considerar?",
+            "alternativas": [
+              "Nenhum, porque fica mais barato",
+              "A ajudante vai trabalhar mais",
+              "O cliente vai pagar mais caro",
+              "Processo trabalhista, multa e perda de bons funcionários, custos que podem passar da economia"
+            ],
+            "correta": 3,
+            "explicacao": "A economia é ilusória: sem registro, o negócio pode ser condenado a pagar tudo depois, com multa, e perde quem trabalha bem. Pagar o justo e registrar protege o negócio.",
+            "dica": "Releia o aprofundamento: o barato de hoje pode virar uma conta bem maior depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes canvas tem um buraco grave?",
+            "alternativas": [
+              "Cliente: estudantes; proposta: aula barata pela internet; canal: redes sociais; receita: mensalidade",
+              "Cliente: todo mundo; proposta: vender de tudo; canal: ainda não sei; receita: vejo depois",
+              "Cliente: donos de cachorro do bairro; proposta: passeio diário; canal: grupo do condomínio; receita: pacote mensal",
+              "Cliente: festas infantis; proposta: doces decorados; canal: redes sociais e indicação; receita: encomendas"
+            ],
+            "correta": 1,
+            "explicacao": "“Todo mundo” não é cliente definido, “vender de tudo” não é proposta e faltam canal e receita. As outras opções respondem às perguntas básicas.",
+            "dica": "Procure o quadro que não responde de verdade para quem é, como chegar ao cliente e como o dinheiro entra."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O segredo de Hipaso",
+    "texto": "Há cerca de 2.500 anos, no sul da Itália, vivia uma comunidade de estudiosos liderada por Pitágoras, o mesmo do famoso teorema. Os pitagóricos tinham uma crença quase religiosa: tudo no universo poderia ser explicado por números inteiros e pelas frações entre eles. A música, os astros, as formas, tudo seria uma questão de proporção.\n\nConta a tradição que um dos discípulos, chamado Hipaso de Metaponto, resolveu investigar a diagonal de um quadrado de lado 1. Pelo próprio teorema de Pitágoras, essa diagonal mede √2. Hipaso tentou escrever esse número como uma fração e não conseguiu. Pior: percebeu que era impossível conseguir. Nenhuma fração, por mais complicada, daria exatamente √2.\n\nA descoberta abalava as bases da escola. Se uma medida tão simples não cabia nas frações, a ideia de que tudo era número inteiro desmoronava. Segundo a lenda, os pitagóricos ficaram tão furiosos que Hipaso teria sido jogado ao mar por revelar o segredo.\n\nOs historiadores não têm certeza de que essa parte da história aconteceu; ela pode ter sido exagerada ao longo dos séculos. O que é certo é que os gregos descobriram os números que hoje chamamos de irracionais, com infinitas casas decimais que nunca se repetem.\n\nA lição continua valendo: em ciência, uma descoberta que contraria o que todos acreditam não é uma ameaça. É um convite para entender o mundo melhor."
+  },
+  "escrita": {
+    "proposta": "Pense numa ideia em que você acreditava e que mudou quando aprendeu algo novo (sobre ciência, sobre uma pessoa, sobre você mesmo). Escreva de 8 a 12 linhas contando o que você pensava antes, o que fez você mudar de ideia e por que mudar de opinião diante de boas razões pode ser uma qualidade, como mostra a história de Hipaso."
+  }
+}

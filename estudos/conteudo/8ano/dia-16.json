@@ -1,0 +1,901 @@
+{
+  "dia": 16,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Sistemas de equações: duas pistas, duas respostas",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Um sistema de equações aparece quando temos duas incógnitas (por exemplo, x e y) e duas informações sobre elas. Cada informação vira uma equação, e a resposta precisa servir nas duas ao mesmo tempo.",
+          "Método da adição: quando uma incógnita aparece com sinais opostos, somamos as equações para ela sumir. Em x + y = 10 e x − y = 4, somando fica 2x = 14, então x = 7. Voltando: 7 + y = 10, logo y = 3.",
+          "Método da substituição: isolamos uma incógnita em uma equação e colocamos na outra. Se y = 2x e x + y = 12, trocamos y por 2x: x + 2x = 12, 3x = 12, x = 4 e y = 8.",
+          "Também dá para subtrair uma equação da outra quando a mesma incógnita aparece igual nas duas. O objetivo é sempre o mesmo: sobrar uma equação com uma incógnita só.",
+          "No fim, confira: coloque os valores nas duas equações originais. Se as duas derem certo, a resposta está correta."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Na cantina, 1 suco e 1 pão de queijo custam R$ 9. Dois sucos e 1 pão de queijo custam R$ 14. Quanto custa cada um?",
+            "resolucao": "s + p = 9 e 2s + p = 14. Subtraindo a primeira da segunda: s = 5. Então p = 9 − 5 = 4. Suco R$ 5 e pão de queijo R$ 4. Conferindo: 2 × 5 + 4 = 14."
+          },
+          {
+            "enunciado": "Num estacionamento há 10 veículos entre carros e motos, com 32 rodas no total. Quantos são carros?",
+            "resolucao": "c + m = 10 e 4c + 2m = 32. Da primeira, m = 10 − c. Substituindo: 4c + 20 − 2c = 32, 2c = 12, c = 6 e m = 4. Conferindo: 24 + 8 = 32 rodas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Nem todo sistema tem uma resposta só. Se as duas equações dizem coisas que brigam, como x + y = 5 e x + y = 7, não existe solução: o sistema é impossível. Se uma equação é só a outra multiplicada, como x + y = 5 e 2x + 2y = 10, há infinitas soluções: o sistema é indeterminado.",
+        "Às vezes nenhuma incógnita some de cara. Aí multiplicamos uma equação inteira por um número antes de somar ou subtrair. Em 2x + 3y = 12 e x + y = 5, multiplicamos a segunda por 2 (2x + 2y = 10) e subtraímos da primeira: y = 2, então x = 3.",
+        "Um truque de olimpíada: às vezes a pergunta pede uma combinação, como x + y, e somar as equações já entrega a resposta sem calcular cada incógnita. E o problema das galinhas e coelhos pode ser resolvido imaginando que todos são galinhas e vendo quantas patas sobram."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num sistema com duas incógnitas, x e y, quantas equações costumamos ter?",
+            "alternativas": [
+              "Uma",
+              "Duas",
+              "Três",
+              "Nenhuma"
+            ],
+            "correta": 1,
+            "explicacao": "Cada informação vira uma equação. Com duas incógnitas, precisamos de duas informações.",
+            "dica": "Conte as informações da lição: uma para cada incógnita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em x + y = 10 e x − y = 4, a lição achou x = 7. Quanto vale y?",
+            "alternativas": [
+              "3",
+              "7",
+              "10",
+              "4"
+            ],
+            "correta": 0,
+            "explicacao": "7 + y = 10, então y = 3. Conferindo: 7 − 3 = 4.",
+            "dica": "Coloque o 7 no lugar de x em x + y = 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se y = 2x e x = 4, quanto vale y?",
+            "alternativas": [
+              "6",
+              "2",
+              "4",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "2x é o dobro de x: 2 × 4 = 8.",
+            "dica": "2x quer dizer duas vezes o x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o último passo para ter certeza da resposta de um sistema?",
+            "alternativas": [
+              "Apagar as contas",
+              "Chutar outro valor",
+              "Conferir os valores nas duas equações",
+              "Somar x e y"
+            ],
+            "correta": 2,
+            "explicacao": "Se os valores servem nas duas equações originais, a resposta está certa.",
+            "dica": "A lição termina com uma verificação usando as equações originais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x + y = 6 e x − y = 2. Somando as duas equações, o que fica?",
+            "alternativas": [
+              "2x = 8",
+              "2y = 8",
+              "x = 6",
+              "2x = 4"
+            ],
+            "correta": 0,
+            "explicacao": "+y e −y se anulam: x + x = 6 + 2, ou seja, 2x = 8. Então x = 4 e y = 2.",
+            "dica": "Some lado com lado: x com x, y com −y, e 6 com 2."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva: x + y = 12 e x − y = 2.",
+            "alternativas": [
+              "x = 6 e y = 6",
+              "x = 5 e y = 7",
+              "x = 7 e y = 5",
+              "x = 8 e y = 4"
+            ],
+            "correta": 2,
+            "explicacao": "Somando as equações: 2x = 14, então x = 7. Na primeira: 7 + y = 12, y = 5. Conferindo: 7 − 5 = 2.",
+            "dica": "Some as duas equações: o y desaparece. Depois volte na primeira para achar o y."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par resolve o sistema x + y = 9 e y = 2x?",
+            "alternativas": [
+              "x = 6 e y = 3",
+              "x = 3 e y = 6",
+              "x = 4 e y = 5",
+              "x = 2 e y = 7"
+            ],
+            "correta": 1,
+            "explicacao": "Substituindo y por 2x: x + 2x = 9, 3x = 9, x = 3. Então y = 2 × 3 = 6. O par 6 e 3 soma 9, mas aí y não é o dobro de x.",
+            "dica": "Troque y por 2x na primeira equação e resolva. Confira se y é mesmo o dobro de x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um teste tem 20 questões. Cada certa vale 3 pontos e cada errada vale 0. Lucas fez 45 pontos. Quantas ele acertou?",
+            "alternativas": [
+              "12",
+              "18",
+              "10",
+              "15"
+            ],
+            "correta": 3,
+            "explicacao": "c + e = 20 e 3c = 45, então c = 15 certas e e = 5 erradas. Conferindo: 15 + 5 = 20 questões.",
+            "dica": "Erradas valem zero, então só as certas somam pontos. Divida o total pelo valor de cada certa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No sistema x + y = 11 e x − y = 5, o que acontece ao somar as duas equações?",
+            "alternativas": [
+              "O y some e fica 2x = 16",
+              "O x some e fica 2y = 6",
+              "Fica x + y = 16",
+              "As duas incógnitas somem"
+            ],
+            "correta": 0,
+            "explicacao": "+y e −y se anulam. Sobra x + x = 11 + 5, ou seja, 2x = 16 e x = 8. Depois, y = 3.",
+            "dica": "Repare nos sinais de y nas duas equações: +y e −y. O que acontece quando eles se encontram?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos do método da substituição:",
+            "itens": [
+              "Isolar uma incógnita em uma das equações",
+              "Substituir essa expressão na outra equação",
+              "Resolver a equação que ficou com uma incógnita só",
+              "Calcular a outra incógnita",
+              "Conferir os valores nas duas equações"
+            ],
+            "explicacao": "Isolar, substituir, resolver, voltar para achar a segunda e, por último, conferir nas duas equações originais.",
+            "dica": "Primeiro deixe uma letra sozinha; a conferência fica para o final."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A soma de dois números é 30 e a diferença entre eles é 8. Qual é o maior?",
+            "alternativas": [
+              "11",
+              "22",
+              "19",
+              "15"
+            ],
+            "correta": 2,
+            "explicacao": "x + y = 30 e x − y = 8. Somando: 2x = 38, x = 19. O menor é 11. Conferindo: 19 − 11 = 8.",
+            "dica": "Monte x + y e x − y, some as equações e divida por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na feira, 2 kg de banana e 1 kg de maçã custam R$ 16. Já 1 kg de banana e 1 kg de maçã custam R$ 11. Quanto custa o kg da maçã?",
+            "alternativas": [
+              "R$ 5",
+              "R$ 6",
+              "R$ 8",
+              "R$ 11"
+            ],
+            "correta": 1,
+            "explicacao": "2b + m = 16 e b + m = 11. Subtraindo: b = 5. Então m = 11 − 5 = 6. Conferindo: 10 + 6 = 16.",
+            "dica": "Subtraia a segunda equação da primeira para descobrir a banana primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cofrinho tem 18 moedas, umas de R$ 0,50 e outras de R$ 1, somando R$ 13. Quantas são de R$ 1?",
+            "alternativas": [
+              "8",
+              "10",
+              "5",
+              "13"
+            ],
+            "correta": 0,
+            "explicacao": "a + b = 18 e 0,5a + b = 13. Subtraindo: 0,5a = 5, a = 10 moedas de 50 centavos e b = 8 de R$ 1. Conferindo: 5 + 8 = 13.",
+            "dica": "Chame de a as moedas de 50 centavos e de b as de R$ 1. Subtraia as equações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva: 2x + y = 11 e x − y = 1.",
+            "alternativas": [
+              "x = 3 e y = 5",
+              "x = 5 e y = 1",
+              "x = 2 e y = 7",
+              "x = 4 e y = 3"
+            ],
+            "correta": 3,
+            "explicacao": "Somando: 3x = 12, x = 4. Então 4 − y = 1, y = 3. Os outros pares servem na primeira equação, mas não na segunda.",
+            "dica": "Somando, o y some. Depois confira o par nas duas equações, não só numa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ingressos: inteira R$ 20, meia R$ 10. Foram vendidos 50 ingressos e arrecadados R$ 700. Quantas meias foram vendidas?",
+            "alternativas": [
+              "20",
+              "30",
+              "35",
+              "25"
+            ],
+            "correta": 1,
+            "explicacao": "i + m = 50 e 20i + 10m = 700. Com i = 50 − m: 1.000 − 20m + 10m = 700, então 10m = 300 e m = 30. Conferindo: 20 × 20 + 30 × 10 = 700.",
+            "dica": "Isole i = 50 − m e substitua na equação do dinheiro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num quintal há galinhas e coelhos: 20 cabeças e 56 patas. Quantos são os coelhos?",
+            "alternativas": [
+              "12",
+              "8",
+              "14",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "Se os 20 fossem galinhas, seriam 40 patas. Sobram 16 patas, e cada coelho tem 2 a mais: 16 ÷ 2 = 8 coelhos e 12 galinhas. Conferindo: 24 + 32 = 56.",
+            "dica": "Imagine que todos fossem galinhas: quantas patas teriam? Cada coelho acrescenta 2 patas a mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Hoje a mãe tem o triplo da idade da filha. Daqui a 10 anos, a soma das idades das duas será 64. Qual é a idade da mãe hoje?",
+            "alternativas": [
+              "48",
+              "30",
+              "33",
+              "36"
+            ],
+            "correta": 2,
+            "explicacao": "Cada uma ganha 10 anos, então hoje m + f = 64 − 20 = 44. Com m = 3f: 4f = 44, f = 11 e m = 33. A pegadinha é não descontar os 20 anos e chegar a 48.",
+            "dica": "Daqui a 10 anos, as duas envelhecem. Desconte esses anos da soma antes de usar m = 3f."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas soluções tem o sistema x + y = 5 e 2x + 2y = 12?",
+            "alternativas": [
+              "Uma só",
+              "Duas",
+              "Infinitas",
+              "Nenhuma"
+            ],
+            "correta": 3,
+            "explicacao": "Multiplicando a primeira por 2: 2x + 2y = 10. Mas a segunda diz que 2x + 2y = 12. Não existe par que dê 10 e 12 ao mesmo tempo: o sistema é impossível.",
+            "dica": "Multiplique a primeira equação por 2 e compare com a segunda. A mesma conta pode dar dois resultados diferentes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma prova tem 25 questões: cada certa vale +4 e cada errada vale −1, e todas foram respondidas. Bia fez 60 pontos. Quantas ela errou?",
+            "alternativas": [
+              "8",
+              "17",
+              "10",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "c + e = 25 e 4c − e = 60. Somando: 5c = 85, c = 17 e e = 8. Conferindo: 68 − 8 = 60. Cuidado: 17 são as certas.",
+            "dica": "Monte c + e = 25 e 4c − e = 60. Somar as equações faz o e sumir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 3 lápis e 2 canetas paga-se R$ 13; com 2 lápis e 3 canetas, R$ 17. Quanto custam 1 lápis e 1 caneta juntos?",
+            "alternativas": [
+              "R$ 5",
+              "R$ 7",
+              "R$ 6",
+              "R$ 8"
+            ],
+            "correta": 2,
+            "explicacao": "Somando as equações: 5 lápis + 5 canetas = 30, então 1 lápis + 1 caneta = 6. (De fato, lápis R$ 1 e caneta R$ 5.)",
+            "dica": "Não precisa achar cada preço: some as duas equações e veja o que aparece."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Golpes: Pix falso e phishing",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Phishing (pronuncia-se \"fíxin\", de fishing, pescar) é quando o golpista \"joga a isca\": manda mensagem, e-mail ou SMS fingindo ser banco, loja ou órgão do governo para roubar senha, dados ou dinheiro.",
+          "Sinais de phishing: pressa (\"sua conta será bloqueada hoje\"), link estranho, erros de português, pedido de senha ou código recebido por SMS. Banco de verdade não pede senha por mensagem nem por ligação.",
+          "O golpe do comprovante falso acontece em vendas: o comprador manda a imagem de um \"Pix feito\", mas o dinheiro nunca caiu. Só entregue o produto depois de ver o valor dentro do aplicativo da conta.",
+          "Há também o QR Code trocado e o Pix agendado mostrado como se fosse pago. Antes de confirmar qualquer Pix, leia o nome de quem vai receber e o valor na tela de confirmação.",
+          "Se cair num golpe: avise um adulto, entre em contato com o banco pelos canais oficiais o quanto antes e registre boletim de ocorrência. Agir rápido aumenta a chance de bloquear o dinheiro."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Chega o SMS: \"Seu Pix de R$ 1.200 foi bloqueado. Regularize em: bnco-seguro-pix.com\". Quais são os sinais de golpe?",
+            "resolucao": "Pressa e medo, endereço estranho que imita um banco, e um link para \"regularizar\". O certo é não clicar e conferir direto no aplicativo oficial."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Muitos golpes não quebram nenhum sistema: eles enganam pessoas. Isso se chama engenharia social. O golpista usa medo (\"sua conta vai ser bloqueada\"), pressa, prêmio ou a voz de alguém conhecido para você agir sem pensar. Às vezes ele já sabe seu nome e parte do número do cartão, porque esses dados vazaram, e usa isso para parecer o banco.",
+        "Na falsa central, alguém liga dizendo ser do banco e pede um Pix para uma \"conta segura\". Nenhum banco pede que você transfira dinheiro para protegê-lo. No boleto adulterado, o código de barras é trocado e o dinheiro vai para outra pessoa: antes de pagar, confira o nome do beneficiário. E Pix agendado ainda não é pagamento, porque pode ser cancelado antes da data.",
+        "Se o golpe acontecer, o Pix tem o MED (Mecanismo Especial de Devolução), criado pelo Banco Central: você avisa seu banco, que pode pedir o bloqueio do valor na conta do golpista. Mas só dá para devolver o que ainda estiver lá, por isso cada minuto conta."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Banco de verdade pede sua senha por mensagem?",
+            "alternativas": [
+              "Sim, sempre",
+              "Não, nunca",
+              "Só no fim do mês",
+              "Só por SMS"
+            ],
+            "correta": 1,
+            "explicacao": "Banco não pede senha nem código por mensagem ou ligação. Quem pede é golpista.",
+            "dica": "Releia os sinais de golpe na lição: o que o banco não faz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um sinal de phishing?",
+            "alternativas": [
+              "Mensagem com pressa e link estranho",
+              "Extrato no aplicativo oficial",
+              "Ligação que você mesmo fez para o banco",
+              "Nota fiscal da loja"
+            ],
+            "correta": 0,
+            "explicacao": "Pressa e link esquisito são as marcas da isca. Os outros são canais que você controla.",
+            "dica": "O golpista quer que você aja rápido, sem pensar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você vendeu um objeto. Quando entregar?",
+            "alternativas": [
+              "Quando o comprador mandar um print",
+              "Quando ele prometer pagar",
+              "Quando ele mandar um áudio",
+              "Depois de ver o dinheiro no aplicativo da conta"
+            ],
+            "correta": 3,
+            "explicacao": "Print, promessa e áudio podem ser falsos. Só o saldo no aplicativo prova que o dinheiro caiu.",
+            "dica": "Imagem pode ser montada. Confie só no que o aplicativo do banco mostra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A palavra phishing vem de qual palavra em inglês?",
+            "alternativas": [
+              "Phone (telefone)",
+              "Finish (terminar)",
+              "Fishing (pescar)",
+              "Fashion (moda)"
+            ],
+            "correta": 2,
+            "explicacao": "Fishing é pescar. O golpista joga uma isca e espera alguém morder.",
+            "dica": "O golpista joga a isca e espera alguém morder."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caiu num golpe. Qual é a primeira atitude?",
+            "alternativas": [
+              "Ficar quieto por vergonha",
+              "Mandar mais dinheiro para resolver",
+              "Avisar um adulto e falar com o banco pelo canal oficial",
+              "Apagar o aplicativo do banco"
+            ],
+            "correta": 2,
+            "explicacao": "Vergonha atrasa a reação. Avisar logo um adulto e o banco aumenta a chance de bloquear o dinheiro.",
+            "dica": "Agir rápido aumenta a chance de bloquear o dinheiro. Quem pode ajudar?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é phishing?",
+            "alternativas": [
+              "Um tipo de investimento",
+              "Um aplicativo de pesca",
+              "Um jeito de deixar o Pix mais rápido",
+              "Uma isca digital para roubar dados ou dinheiro"
+            ],
+            "correta": 3,
+            "explicacao": "Vem de fishing, pescar: o golpista lança uma isca (mensagem falsa) esperando alguém morder e entregar dados.",
+            "dica": "Pense na palavra em inglês de onde o nome vem: pescar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você vende um fone usado e o comprador manda print de um Pix. Quando entregar o fone?",
+            "alternativas": [
+              "Na hora, o print já prova",
+              "Depois de conferir que o dinheiro entrou na conta, pelo aplicativo",
+              "Quando ele mandar um segundo print",
+              "Quando ele disser que é urgente"
+            ],
+            "correta": 1,
+            "explicacao": "Print se falsifica fácil. Só o saldo e o extrato no aplicativo confirmam que o dinheiro realmente caiu.",
+            "dica": "Imagem de tela pode ser montada. O que só o seu próprio aplicativo mostra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa liga dizendo ser do banco e pede o código que chegou por SMS. O que fazer?",
+            "alternativas": [
+              "Passar o código, já que é do banco",
+              "Passar só metade do código",
+              "Desligar e ligar para o número oficial que está no cartão ou no aplicativo",
+              "Pedir para ela ligar mais tarde"
+            ],
+            "correta": 2,
+            "explicacao": "Banco não pede código nem senha por telefone. Desligar e procurar o canal oficial é o caminho seguro.",
+            "dica": "Banco nunca pede códigos por telefone. Quem deve procurar o canal oficial é você."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na tela de confirmação do Pix, o que você deve sempre conferir?",
+            "alternativas": [
+              "O nome de quem recebe e o valor",
+              "A cor do aplicativo",
+              "A hora do celular",
+              "Se o celular está carregado"
+            ],
+            "correta": 0,
+            "explicacao": "QR Codes trocados e chaves falsas mudam o recebedor. Ler nome e valor antes de confirmar evita mandar dinheiro para o golpista.",
+            "dica": "QR Code trocado muda para quem vai o dinheiro. O que aparece na tela antes de confirmar?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Caiu num golpe de Pix. Coloque as ações em ordem de prioridade:",
+            "itens": [
+              "Avisar um adulto responsável",
+              "Falar com o banco pelo canal oficial e pedir o bloqueio",
+              "Registrar boletim de ocorrência",
+              "Trocar senhas e avisar contatos"
+            ],
+            "explicacao": "Quanto antes o banco souber, maior a chance de bloquear o valor. Depois vêm o registro oficial e a proteção das outras contas.",
+            "dica": "Quanto antes o banco souber, maior a chance de bloquear. Mas um menor de idade conta primeiro com quem?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana vende um tênis por R$ 150. O comprador manda print de um Pix de R$ 150 e diz que o motoboy já está na porta. O saldo de Joana não mudou. O que ela deve fazer?",
+            "alternativas": [
+              "Entregar, porque o motoboy está esperando",
+              "Pedir outro print",
+              "Entregar metade do pedido e esperar",
+              "Não entregar até o valor aparecer no aplicativo"
+            ],
+            "correta": 3,
+            "explicacao": "Pressa somada a print é a receita do golpe do comprovante falso. O saldo não mudou, então o dinheiro não caiu.",
+            "dica": "Pressa é ferramenta do golpista. O que mostra a verdade é o saldo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual mensagem tem MAIS cara de golpe?",
+            "alternativas": [
+              "Aviso de mensalidade visto dentro do aplicativo oficial da escola",
+              "\"Parabéns! Você ganhou R$ 5.000. Pague R$ 50 de taxa para liberar.\"",
+              "Extrato mostrando um Pix que você fez",
+              "Aviso de manutenção dentro do aplicativo do banco"
+            ],
+            "correta": 1,
+            "explicacao": "Prêmio que você não pediu e que exige pagar antes é golpe clássico. As outras chegam por canais oficiais.",
+            "dica": "Desconfie de prêmio que você não pediu e que exige dinheiro antes de receber."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um amigo escreve de um número novo: \"Troquei de celular, me empresta R$ 300 até amanhã?\". Qual é o jeito mais seguro de conferir?",
+            "alternativas": [
+              "Ligar para o número antigo do amigo ou falar com ele pessoalmente",
+              "Pedir uma foto dele",
+              "Mandar só R$ 100 para testar",
+              "Perguntar o nome da mãe dele por mensagem"
+            ],
+            "correta": 0,
+            "explicacao": "O golpista controla o número novo e pode ter fotos e dados do amigo tirados das redes. Só um canal antigo e conhecido confirma.",
+            "dica": "O golpista controla o número novo. Use um caminho que ele não controla."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na confirmação de um Pix para a cantina aparece: \"Recebedor: Marcos A. Silva — R$ 85,00\". A conta era de R$ 8,50, da Cantina Bom Lanche. O que está errado?",
+            "alternativas": [
+              "Nada, pode confirmar",
+              "Só o valor",
+              "Só o nome",
+              "O nome do recebedor e o valor"
+            ],
+            "correta": 3,
+            "explicacao": "O recebedor não é a cantina e o valor tem uma casa a mais (85 em vez de 8,50). Os dois sinais mandam cancelar.",
+            "dica": "Compare os dois dados da tela com o que você esperava pagar, um de cada vez."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Você recebe um SMS suspeito do \"banco\". Ordene a reação segura:",
+            "itens": [
+              "Não clicar no link",
+              "Fechar a mensagem",
+              "Abrir o aplicativo oficial do banco por conta própria",
+              "Conferir se existe algum aviso real",
+              "Denunciar o SMS como spam e apagar"
+            ],
+            "explicacao": "Primeiro você foge da isca, depois confere por um caminho que você escolheu e, por fim, ajuda a barrar o golpe.",
+            "dica": "Primeiro evite o perigo; depois confira pelo caminho que você mesmo escolheu."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que avisar o banco nos primeiros minutos depois de um golpe de Pix faz diferença?",
+            "alternativas": [
+              "Porque o banco devolve o dinheiro de qualquer jeito, mesmo depois de anos",
+              "Porque o Pix só funciona durante o dia",
+              "Porque o golpista passa o dinheiro adiante rápido, e o bloqueio só pega o que ainda está na conta dele",
+              "Porque o boletim de ocorrência só vale na primeira hora"
+            ],
+            "correta": 2,
+            "explicacao": "O MED pede o bloqueio do valor na conta do golpista, mas só do que ainda estiver lá. Por isso a pressa é sua aliada aqui.",
+            "dica": "Pense no que o golpista faz com o dinheiro logo que ele cai na conta dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma \"central do banco\" liga, sabe seu nome e os 4 últimos números do cartão e pede um Pix para uma \"conta segura\". O que é verdade?",
+            "alternativas": [
+              "Saber seus dados prova que é o banco",
+              "Dados vazados servem para parecer confiável; banco nenhum pede Pix para conta segura",
+              "Se a pessoa for educada, é o banco",
+              "Só é golpe se pedirem senha"
+            ],
+            "correta": 1,
+            "explicacao": "Dados pessoais vazam e são vendidos. A engenharia social usa isso para ganhar confiança, mas o pedido de transferir dinheiro entrega o golpe.",
+            "dica": "Dados pessoais vazam. Pense no que o banco nunca pede, mesmo sabendo seu nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num boleto de R$ 420 do curso de inglês, o aplicativo mostra o beneficiário \"JR Pagamentos Ltda\". O que fazer?",
+            "alternativas": [
+              "Pagar, boleto sempre é seguro",
+              "Pagar e guardar o comprovante",
+              "Pagar só a metade",
+              "Não pagar e confirmar com o curso, por um contato oficial, quem deve receber"
+            ],
+            "correta": 3,
+            "explicacao": "No boleto adulterado, o código de barras troca o recebedor. Se o nome não é o do curso, confirme antes de pagar.",
+            "dica": "No boleto adulterado, o código de barras muda o dono do dinheiro. Confira quem recebe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a MELHOR defesa contra quase todos os golpes desta aula?",
+            "alternativas": [
+              "Desconfiar da pressa e conferir por um canal que você mesmo escolheu",
+              "Ter antivírus",
+              "Nunca usar Pix",
+              "Usar só dinheiro vivo"
+            ],
+            "correta": 0,
+            "explicacao": "Phishing, falsa central, print falso e boleto adulterado dependem de você seguir o caminho do golpista. Sair desse caminho desmonta o golpe.",
+            "dica": "Phishing, falsa central e print falso têm algo em comum: o golpista guia você pelo caminho dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas vende um videogame por R$ 900. O comprador faz um Pix agendado para daqui a 30 dias e manda o comprovante do agendamento. Lucas entrega na hora. Qual foi o erro?",
+            "alternativas": [
+              "Nenhum, agendamento é pagamento",
+              "Pix agendado ainda não é dinheiro na conta e pode ser cancelado antes da data",
+              "O erro foi aceitar Pix",
+              "O erro foi o preço"
+            ],
+            "correta": 1,
+            "explicacao": "O dinheiro só sai na data marcada, e o comprador pode cancelar antes. Lucas entregou sem receber.",
+            "dica": "Um agendamento pode ser desfeito antes da data? O dinheiro já saiu da conta do comprador?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Como funciona um site (HTML)",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Quando você digita um endereço, o navegador pede a página a um computador distante chamado servidor. O servidor responde com um arquivo de texto escrito em HTML.",
+          "HTML é a linguagem que organiza o conteúdo da página usando etiquetas chamadas tags. Elas aparecem entre os sinais < e >, como <h1> para título e <p> para parágrafo.",
+          "A maioria das tags abre e fecha: <p>Olá</p>. A barra em </p> indica o fechamento. Outras tags úteis: <a href=\"...\"> cria um link e <img src=\"...\"> mostra uma imagem.",
+          "O HTML é o esqueleto. A aparência (cores, fontes, espaços) vem do CSS, e o comportamento (botões que respondem, jogos) vem do JavaScript.",
+          "Você pode ver o HTML de quase qualquer site: no navegador do computador, clique com o botão direito e escolha \"Exibir código-fonte\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva o HTML de uma página com o título \"Meu time\" e um parágrafo \"Torço desde pequeno.\".",
+            "resolucao": "<h1>Meu time</h1>\n<p>Torço desde pequeno.</p>"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma página completa tem duas partes dentro de <html>: o <head> (cabeça), com informações sobre a página que não aparecem no corpo, como o <title>, que vira o nome da aba do navegador; e o <body> (corpo), com tudo o que se vê na tela.",
+        "As tags podem ter atributos, informações extras dentro da tag de abertura: href no link, src na imagem. A imagem deve ter também alt, um texto que a descreve para quem usa leitor de tela (pessoas cegas) ou para quando a foto não carrega: <img src=\"gato.jpg\" alt=\"Gato dormindo no sofá\">.",
+        "As tags se encaixam umas dentro das outras, sem cruzar: <p><b>oi</b></p> está certo; <p><b>oi</p></b> está errado. Para listas, usa-se <ul> (lista com marcadores) e, dentro dela, um <li> para cada item."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chamam as etiquetas do HTML, como <h1> e <p>?",
+            "alternativas": [
+              "Tags",
+              "Links",
+              "Pastas",
+              "Senhas"
+            ],
+            "correta": 0,
+            "explicacao": "Tag quer dizer etiqueta em inglês. Elas aparecem entre os sinais < e >.",
+            "dica": "A lição usa uma palavra em inglês que quer dizer etiqueta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tag cria um link?",
+            "alternativas": [
+              "<p>",
+              "<h1>",
+              "<a>",
+              "<img>"
+            ],
+            "correta": 2,
+            "explicacao": "<a href=\"...\"> cria um link. <p> é parágrafo, <h1> é título e <img> é imagem.",
+            "dica": "É a tag que usa href para dizer o endereço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tag mostra uma imagem?",
+            "alternativas": [
+              "<p>",
+              "<img>",
+              "<a>",
+              "<h1>"
+            ],
+            "correta": 1,
+            "explicacao": "<img> vem de image, imagem. O endereço da foto vai no src.",
+            "dica": "O nome lembra image, imagem em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o computador distante que entrega a página do site?",
+            "alternativas": [
+              "Navegador",
+              "Teclado",
+              "Mouse",
+              "Servidor"
+            ],
+            "correta": 3,
+            "explicacao": "O servidor guarda e envia o HTML. O navegador é o programa que você usa para pedir e ver a página.",
+            "dica": "Ele fica longe e serve a página para quem pede."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha está escrita certo?",
+            "alternativas": [
+              "<p>Oi<p>",
+              "<p>Oi</p>",
+              "</p>Oi<p>",
+              "p>Oi</p"
+            ],
+            "correta": 1,
+            "explicacao": "A tag abre com <p> e fecha com </p>, com a barra. As outras esqueceram a barra, inverteram a ordem ou perderam os sinais.",
+            "dica": "A tag de fechamento tem uma barra e vem no fim."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tag cria um parágrafo em HTML?",
+            "alternativas": [
+              "<h1>",
+              "<img>",
+              "<p>",
+              "<a>"
+            ],
+            "correta": 2,
+            "explicacao": "<p> vem de paragraph (parágrafo). <h1> é título, <img> é imagem e <a> é link.",
+            "dica": "A letra da tag é a inicial de paragraph, parágrafo em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que indica a barra em </h1>?",
+            "alternativas": [
+              "Que a tag está sendo fechada",
+              "Que o texto é itálico",
+              "Que o título é menor",
+              "Que é um comentário"
+            ],
+            "correta": 0,
+            "explicacao": "A barra marca o fim da tag. Tudo entre <h1> e </h1> é o título.",
+            "dica": "Compare <h1> e </h1>: uma marca onde o título começa; a outra marca onde..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o HTML é o esqueleto do site, o que cuida das cores e fontes?",
+            "alternativas": [
+              "O servidor",
+              "O JavaScript",
+              "O Pix",
+              "O CSS"
+            ],
+            "correta": 3,
+            "explicacao": "O CSS define a aparência. O JavaScript cuida do comportamento, e o servidor só entrega os arquivos.",
+            "dica": "São três camadas: esqueleto, aparência e comportamento. Qual cuida da aparência?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você digitou o endereço de um site. O que acontece logo em seguida?",
+            "alternativas": [
+              "O navegador desenha a página sem pedir nada",
+              "O navegador pede a página ao servidor",
+              "O servidor apaga o HTML",
+              "O CSS escolhe o endereço"
+            ],
+            "correta": 1,
+            "explicacao": "Primeiro o navegador pede a página ao servidor; o servidor envia o HTML e só então o navegador lê as tags e desenha a página.",
+            "dica": "Ninguém desenha a página antes de receber o arquivo. Quem guarda esse arquivo?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as linhas na ordem certa de uma página HTML mínima:",
+            "itens": [
+              "<html>",
+              "<body>",
+              "<h1>Olá, mundo</h1>",
+              "</body>",
+              "</html>"
+            ],
+            "explicacao": "As tags se encaixam como caixas: <html> por fora, <body> dentro dela, o conteúdo no meio, e cada uma fecha na ordem inversa.",
+            "dica": "As tags são como caixas: a maior fica por fora e fecha por último."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual código cria um link com o texto \"Escola\" para o endereço https://www.exemplo.com.br?",
+            "alternativas": [
+              "<a href=\"https://www.exemplo.com.br\">Escola</a>",
+              "<a>https://www.exemplo.com.br</a>Escola",
+              "<link>Escola</link>",
+              "<img src=\"https://www.exemplo.com.br\">Escola"
+            ],
+            "correta": 0,
+            "explicacao": "O endereço vai no atributo href da tag de abertura, e o texto clicável fica entre <a> e </a>.",
+            "dica": "O endereço vai dentro da tag de abertura; o texto clicável fica entre as tags."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece na tela com <h1>Notas</h1><p>Prova de sexta</p>?",
+            "alternativas": [
+              "Só a palavra \"Notas\"",
+              "As tags com os sinais < e > visíveis",
+              "\"Prova de sexta\" grande e \"Notas\" pequeno",
+              "Um título \"Notas\" e, abaixo, o parágrafo \"Prova de sexta\""
+            ],
+            "correta": 3,
+            "explicacao": "O navegador não mostra as tags: ele as usa para desenhar o texto. <h1> vira título grande e <p>, parágrafo.",
+            "dica": "O navegador não mostra as tags: ele usa as tags para decidir como desenhar o texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana escreveu <p>Olá <p>mundo</p>. O que está faltando?",
+            "alternativas": [
+              "Uma imagem",
+              "Um <h1> no fim",
+              "Fechar o primeiro parágrafo com </p>",
+              "Nada, está certo"
+            ],
+            "correta": 2,
+            "explicacao": "Abriram dois <p> e só um fechou. O certo é <p>Olá</p><p>mundo</p>.",
+            "dica": "Conte quantas tags abriram e quantas fecharam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer mudar a cor de todos os títulos do site. O que vai alterar?",
+            "alternativas": [
+              "O HTML, trocando <h1> por <p>",
+              "O CSS",
+              "O servidor",
+              "O JavaScript, que cuida dos botões"
+            ],
+            "correta": 1,
+            "explicacao": "Cor é aparência, e aparência é trabalho do CSS. Trocar <h1> por <p> mudaria o sentido do texto, não só a cor.",
+            "dica": "Cores e fontes são aparência. Qual das três camadas cuida disso?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as linhas de uma página com um título e, abaixo dele, uma imagem:",
+            "itens": [
+              "<html>",
+              "<body>",
+              "<h1>Meu cachorro</h1>",
+              "<img src=\"cachorro.jpg\">",
+              "</body>",
+              "</html>"
+            ],
+            "explicacao": "As caixas abrem de fora para dentro (<html>, <body>), o conteúdo vem no meio e elas fecham na ordem inversa. <img> não tem fechamento.",
+            "dica": "Abre de fora para dentro e fecha de dentro para fora. A tag de imagem não tem fechamento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica a tag <title>, que dá nome à aba do navegador?",
+            "alternativas": [
+              "Dentro do <head>",
+              "Dentro do <p>",
+              "Depois do </html>",
+              "Dentro do <img>"
+            ],
+            "correta": 0,
+            "explicacao": "O <head> guarda informações sobre a página, como o título da aba. O que aparece no corpo fica no <body>.",
+            "dica": "Ela não aparece no corpo da página: fica na parte de informações sobre a página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha é a mais correta e acessível para mostrar uma foto?",
+            "alternativas": [
+              "<img src=\"praia.jpg\">",
+              "<img alt=\"praia.jpg\">",
+              "<img src=\"praia.jpg\" alt=\"Crianças jogando bola na praia\">",
+              "<img>praia.jpg</img>"
+            ],
+            "correta": 2,
+            "explicacao": "src diz onde está a foto e alt a descreve para leitores de tela. A primeira funciona, mas não é acessível; a segunda não mostra a foto.",
+            "dica": "Ela precisa de dois atributos: um diz onde está a foto e o outro a descreve em palavras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual trecho está com as tags encaixadas certo?",
+            "alternativas": [
+              "<p><b>Atenção</p></b>",
+              "<b><p>Atenção</b></p>",
+              "<p>Atenção<b></p>",
+              "<p><b>Atenção</b></p>"
+            ],
+            "correta": 3,
+            "explicacao": "A última tag que abriu (<b>) é a primeira que fecha. As outras cruzam as caixas ou deixam uma aberta.",
+            "dica": "Como caixas: a última que abriu é a primeira que fecha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos itens de lista aparecem em <ul><li>Arroz</li><li>Feijão</li></ul><p>Ovo</p>?",
+            "alternativas": [
+              "3",
+              "2",
+              "1",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "Só Arroz e Feijão estão em <li> dentro do <ul>. Ovo é um parágrafo comum, fora da lista.",
+            "dica": "Só conta como item o que está entre <li> e </li>. Ovo está em qual tag?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao abrir a página, a aba mostra \"Receitas\" e o corpo mostra o título \"Bolo de fubá\". Qual código faz isso?",
+            "alternativas": [
+              "<head><title>Bolo de fubá</title></head><body><h1>Receitas</h1></body>",
+              "<head><title>Receitas</title></head><body><h1>Bolo de fubá</h1></body>",
+              "<body><title>Receitas</title><head>Bolo de fubá</head></body>",
+              "<head><h1>Receitas</h1></head><title>Bolo de fubá</title>"
+            ],
+            "correta": 1,
+            "explicacao": "O <title>, dentro do <head>, vira o nome da aba; o <h1>, dentro do <body>, é o título visível. A primeira opção troca os dois.",
+            "dica": "O <title> mora no <head> e vira o nome da aba; o <h1> mora no <body>."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O homem que deu a web de presente",
+    "texto": "Em 1989, o cientista inglês Tim Berners-Lee trabalhava no CERN, um grande laboratório de física na Suíça. Lá, pesquisadores de vários países tinham um problema irritante: cada um guardava informações em computadores diferentes, com programas diferentes, e achar um documento era quase uma caça ao tesouro.\n\nTim teve uma ideia simples e poderosa: e se os documentos pudessem apontar uns para os outros por meio de links? Bastaria clicar numa palavra para pular para outro texto, guardado em qualquer computador do mundo. Para isso, ele criou três peças: o HTML, para escrever as páginas; o HTTP, para os computadores conversarem; e os endereços que hoje chamamos de URL.\n\nEm 1991, o primeiro site entrou no ar. Era só texto, sem fotos nem cores, e explicava o que era a própria web. Parece pouco, mas foi o começo de tudo o que você acessa hoje no celular.\n\nO detalhe mais surpreendente da história é que Tim e o CERN decidiram não cobrar pela invenção. A tecnologia ficou livre para qualquer pessoa usar. Se ela tivesse dono, talvez cada site precisasse pagar uma taxa, e a internet seria bem menor.\n\nAnos depois, Tim passou a defender que a web continue aberta e que as pessoas tenham controle sobre os próprios dados."
+  },
+  "escrita": {
+    "proposta": "Em 8 a 12 linhas, responda: Tim Berners-Lee fez bem em não cobrar pela web? Dê sua opinião, explique pelo menos dois motivos e imagine como seria a internet hoje se cada site tivesse que pagar uma taxa para existir."
+  }
+}

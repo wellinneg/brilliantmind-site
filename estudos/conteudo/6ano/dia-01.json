@@ -1,0 +1,891 @@
+{
+  "dia": 1,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Números naturais e as 4 operações",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Os números naturais são os números que usamos para contar: 0, 1, 2, 3, 4, 5… e eles nunca acabam. Sempre dá para somar mais 1 e achar um número maior.",
+          "Com eles fazemos as 4 operações. Adição (+) junta quantidades. Subtração (−) tira uma quantidade de outra ou mostra quanto falta. Multiplicação (×) é uma soma de parcelas iguais: 4 × 3 é o mesmo que 3 + 3 + 3 + 3. Divisão (÷) reparte em partes iguais.",
+          "Quando uma conta tem várias operações, existe uma ordem: primeiro fazemos as multiplicações e divisões, depois as adições e subtrações. Assim, 2 + 3 × 4 = 2 + 12 = 14, e não 20.",
+          "Uma dica de ouro: depois de fazer uma conta, confira com a operação contrária. Se 20 − 7 = 13, então 13 + 7 tem que dar 20. Se 36 ÷ 4 = 9, então 9 × 4 tem que dar 36."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Na feira, Bia comprou 3 pacotes de pão de queijo a R$ 6 cada e pagou com uma nota de R$ 20. Quanto recebeu de troco?",
+            "resolucao": "Primeiro a multiplicação: 3 × 6 = 18 reais. Depois a subtração: 20 − 18 = 2. O troco foi de R$ 2."
+          },
+          {
+            "enunciado": "A professora quer dividir 32 alunos em grupos de 4. Quantos grupos ela forma?",
+            "resolucao": "32 ÷ 4 = 8 grupos. Conferindo: 8 × 4 = 32. Certinho!"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A multiplicação pode ser “quebrada” em partes para facilitar a conta de cabeça: 7 × 12 = 7 × 10 + 7 × 2 = 70 + 14 = 84. Isso funciona porque multiplicar uma soma é o mesmo que multiplicar cada parte e depois somar. Essa regra se chama propriedade distributiva.",
+        "Os parênteses mudam a ordem: o que está dentro deles é feito primeiro. Assim, (2 + 3) × 4 = 5 × 4 = 20, mas 2 + 3 × 4 = 14. Na divisão que não é exata sobra um resto: 23 ÷ 5 dá 4 e sobra 3, porque 4 × 5 + 3 = 23. O resto é sempre menor que o divisor.",
+        "Na vida real, o resto importa: se 23 alunos vão passear em carros de 5 lugares, 4 carros não bastam. São necessários 5 carros, porque os 3 alunos que sobram também precisam ir."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 6 + 4?",
+            "alternativas": [
+              "8",
+              "10",
+              "12",
+              "64"
+            ],
+            "correta": 1,
+            "explicacao": "Juntando 6 com mais 4 dá 10. O 64 aparece quando alguém só escreve um número ao lado do outro.",
+            "dica": "Comece no 6 e conte mais 4 nos dedos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 15 − 5?",
+            "alternativas": [
+              "20",
+              "5",
+              "10",
+              "11"
+            ],
+            "correta": 2,
+            "explicacao": "Tirando 5 de 15 sobram 10. Conferindo: 10 + 5 = 15. O 20 seria a soma.",
+            "dica": "Tire 5 de 15: volte 5 casas a partir do 15."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A multiplicação 3 × 2 é o mesmo que:",
+            "alternativas": [
+              "2 + 2 + 2",
+              "3 + 2",
+              "3 − 2",
+              "2 − 3"
+            ],
+            "correta": 0,
+            "explicacao": "Multiplicar é somar parcelas iguais: 3 × 2 é o 2 somado 3 vezes, que dá 6.",
+            "dica": "Multiplicar é somar parcelas iguais. Quantas vezes o 2 precisa aparecer?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 12 ÷ 3?",
+            "alternativas": [
+              "9",
+              "36",
+              "15",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "12 ÷ 3 = 4, porque 4 × 3 = 12. O 36 é o resultado de 12 × 3, a operação contrária.",
+            "dica": "Pense na tabuada do 3: 3 vezes qual número dá 12?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual operação reparte uma quantidade em partes iguais?",
+            "alternativas": [
+              "Adição",
+              "Divisão",
+              "Subtração",
+              "Multiplicação"
+            ],
+            "correta": 1,
+            "explicacao": "A divisão reparte em partes iguais, como dividir uma pizza entre amigos.",
+            "dica": "Repartir uma pizza entre amigos, cada um com o mesmo tanto. Que conta é essa?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pacote tem 12 figurinhas. Quantas figurinhas há em 7 pacotes?",
+            "alternativas": [
+              "74",
+              "84",
+              "19",
+              "82"
+            ],
+            "correta": 1,
+            "explicacao": "Multiplicamos: 7 × 12 = 7 × 10 + 7 × 2 = 70 + 14 = 84. O 19 aparece se alguém somar 7 + 12 em vez de multiplicar.",
+            "dica": "Um pacote tem 12; sete pacotes é juntar 12 sete vezes. Que operação faz isso mais rápido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você tinha R$ 50 e gastou R$ 37 no mercado. Quanto sobrou?",
+            "alternativas": [
+              "R$ 13",
+              "R$ 23",
+              "R$ 17",
+              "R$ 87"
+            ],
+            "correta": 0,
+            "explicacao": "50 − 37 = 13. Conferindo com a operação contrária: 13 + 37 = 50. O R$ 87 seria a soma, que não faz sentido quando a gente gasta.",
+            "dica": "Gastar é tirar. Faça a subtração e confira somando o gasto ao resultado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma escola tem 45 alunos para um campeonato e cada equipe tem 5 alunos. Quantas equipes são formadas?",
+            "alternativas": [
+              "5",
+              "8",
+              "40",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "Repartir em grupos iguais é divisão: 45 ÷ 5 = 9. Conferindo: 9 × 5 = 45.",
+            "dica": "Repartir em grupos iguais pede divisão. Pense: 5 vezes quanto dá 45?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de 8 + 2 × 5?",
+            "alternativas": [
+              "50",
+              "18",
+              "15",
+              "20"
+            ],
+            "correta": 1,
+            "explicacao": "A multiplicação vem primeiro: 2 × 5 = 10. Depois a soma: 8 + 10 = 18. Quem faz 8 + 2 primeiro chega em 50, que está errado.",
+            "dica": "Lembre a ordem: a multiplicação vem antes da soma."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os números em ordem crescente (do menor para o maior):",
+            "itens": [
+              "0",
+              "9",
+              "90",
+              "109",
+              "190"
+            ],
+            "explicacao": "O zero é o menor número natural. Depois vem 9 (um algarismo), 90 (dois algarismos) e, entre 109 e 190, olhamos a dezena: 0 é menor que 9, então 109 vem antes de 190.",
+            "dica": "Compare primeiro quantos algarismos cada número tem."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafa comprou 4 cadernos de R$ 9 e 2 canetas de R$ 3. Quanto gastou ao todo?",
+            "alternativas": [
+              "R$ 42",
+              "R$ 36",
+              "R$ 45",
+              "R$ 48"
+            ],
+            "correta": 0,
+            "explicacao": "Cadernos: 4 × 9 = 36. Canetas: 2 × 3 = 6. Total: 36 + 6 = 42. O R$ 36 esquece as canetas.",
+            "dica": "Calcule o gasto com os cadernos e com as canetas separadamente e depois junte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de 20 − 12 ÷ 4?",
+            "alternativas": [
+              "2",
+              "17",
+              "8",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "A divisão vem antes: 12 ÷ 4 = 3. Depois, 20 − 3 = 17. Quem faz 20 − 12 primeiro chega em 2, que está errado.",
+            "dica": "A divisão é feita antes da subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma escola tem 3 turmas de 28 alunos e 2 turmas de 31 alunos. Quantos alunos são ao todo?",
+            "alternativas": [
+              "118",
+              "59",
+              "146",
+              "152"
+            ],
+            "correta": 2,
+            "explicacao": "3 × 28 = 84 e 2 × 31 = 62. Somando: 84 + 62 = 146.",
+            "dica": "Multiplique cada tipo de turma pelo seu número de alunos e some os dois resultados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana dividiu 56 figurinhas igualmente entre ela e 6 amigos. Quantas cada pessoa recebeu?",
+            "alternativas": [
+              "9",
+              "7",
+              "6",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "São 7 pessoas (Ana + 6 amigos). 56 ÷ 7 = 8. Conferindo: 8 × 7 = 56. O erro comum é dividir por 6 e esquecer a Ana.",
+            "dica": "Conte quantas pessoas são ao todo: a Ana também entra na divisão."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente os resultados destas contas:",
+            "itens": [
+              "5 + 2 × 4",
+              "30 − 12",
+              "40 ÷ 2",
+              "3 × 7"
+            ],
+            "explicacao": "5 + 2 × 4 = 5 + 8 = 13; 30 − 12 = 18; 40 ÷ 2 = 20; 3 × 7 = 21. Então: 13, 18, 20, 21.",
+            "dica": "Resolva cada conta primeiro (lembre a ordem das operações) e só depois compare."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de (8 + 4) × 3 − 6 ÷ 2?",
+            "alternativas": [
+              "15",
+              "33",
+              "36",
+              "30"
+            ],
+            "correta": 1,
+            "explicacao": "Parênteses: 8 + 4 = 12. Depois 12 × 3 = 36 e 6 ÷ 2 = 3. Por fim, 36 − 3 = 33.",
+            "dica": "Primeiro os parênteses, depois multiplicação e divisão, e por último a subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "23 alunos vão a um passeio em carros com 5 lugares para passageiros. Quantos carros são necessários, no mínimo?",
+            "alternativas": [
+              "4",
+              "6",
+              "5",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "23 ÷ 5 dá 4 e sobra 3. Esses 3 alunos também precisam ir, então é preciso mais um carro: 5 carros.",
+            "dica": "Divida e pense no que fazer com os alunos que sobram no resto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa divisão, o divisor é 6, o quociente é 9 e o resto é 4. Qual é o número que foi dividido?",
+            "alternativas": [
+              "54",
+              "50",
+              "19",
+              "58"
+            ],
+            "correta": 3,
+            "explicacao": "Divisor × quociente + resto: 6 × 9 + 4 = 54 + 4 = 58. Conferindo: 58 ÷ 6 dá 9 e sobra 4.",
+            "dica": "Use a conferência: divisor vezes quociente, e depois some o resto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando a propriedade distributiva, 9 × 13 é igual a:",
+            "alternativas": [
+              "9 × 10 + 9 × 3",
+              "9 × 10 + 3",
+              "9 + 10 × 3",
+              "9 × 1 + 9 × 3"
+            ],
+            "correta": 0,
+            "explicacao": "13 = 10 + 3, e cada parte é multiplicada por 9: 90 + 27 = 117. As outras opções esquecem de multiplicar uma das partes.",
+            "dica": "Multiplicar uma soma é multiplicar cada parte dela. Teste as alternativas: qual dá 117?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Leo tinha R$ 100. Comprou 3 camisetas de R$ 18 e dividiu o troco igualmente com o irmão. Com quanto Leo ficou?",
+            "alternativas": [
+              "R$ 23",
+              "R$ 46",
+              "R$ 27",
+              "R$ 32"
+            ],
+            "correta": 0,
+            "explicacao": "Gasto: 3 × 18 = 54. Troco: 100 − 54 = 46. Metade do troco: 46 ÷ 2 = 23. O R$ 46 esquece de dividir com o irmão.",
+            "dica": "Calcule o gasto, depois o troco e, por fim, reparta o troco em duas partes iguais."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "O que é dinheiro e para que serve",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Há muito tempo, não existia dinheiro. As pessoas trocavam coisas: um pescador dava peixes e recebia milho. Isso se chama escambo. O problema é que nem sempre o outro queria o que você tinha para trocar.",
+          "Para facilitar, as pessoas passaram a usar objetos que todos aceitavam, como conchas, sal e, depois, moedas de metal e notas de papel. Assim nasceu o dinheiro.",
+          "O dinheiro serve para três coisas: trocar (comprar e vender), medir quanto as coisas valem (um lanche custa R$ 10, um caderno custa R$ 15) e guardar valor para usar depois.",
+          "Hoje o dinheiro também existe de forma digital. Quando a família paga com Pix ou cartão, o dinheiro sai de uma conta e vai para outra pela internet, sem ninguém tocar em nota nenhuma. Mas é dinheiro de verdade do mesmo jeito!"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Por que é mais fácil comprar pão com dinheiro do que trocando o seu caderno pelo pão?",
+            "resolucao": "Porque o padeiro talvez não precise de caderno. Com dinheiro, ele aceita o pagamento e depois usa esse dinheiro para comprar o que ele precisa."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma nota de papel custa pouco para ser fabricada, mas vale R$ 50 ou R$ 100. Por quê? Porque todos confiam nela e a aceitam. No Brasil, quem cuida da moeda é o Banco Central, e quem imprime as notas é a Casa da Moeda. A nossa moeda se chama real desde 1994.",
+        "Os preços mudam com o tempo. Quando quase tudo fica mais caro, o mesmo dinheiro compra menos coisas: isso se chama inflação. Um pacote de biscoito que custava R$ 3 pode passar a custar R$ 4, e a nota de R$ 10 parece “encolher”.",
+        "O dinheiro digital tem uma vantagem e um cuidado: é rápido, mas um Pix enviado por engano é difícil de desfazer. Antes de confirmar, sempre confira o nome de quem vai receber e o valor."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a moeda do Brasil?",
+            "alternativas": [
+              "Dólar",
+              "Peso",
+              "Real",
+              "Euro"
+            ],
+            "correta": 2,
+            "explicacao": "A moeda do Brasil é o real, com o símbolo R$. Dólar, peso e euro são moedas de outros países.",
+            "dica": "É o nome que aparece nas notas e moedas que usamos aqui, com o símbolo R$."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Trocar peixe por milho, sem usar dinheiro, é:",
+            "alternativas": [
+              "Escambo",
+              "Pix",
+              "Cartão",
+              "Salário"
+            ],
+            "correta": 0,
+            "explicacao": "Escambo é a troca direta de uma mercadoria por outra.",
+            "dica": "É a palavra da lição para a troca direta de mercadorias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um pagamento com dinheiro digital?",
+            "alternativas": [
+              "Uma moeda de R$ 1",
+              "Uma nota de R$ 5",
+              "Um cofrinho de barro",
+              "Um pagamento por Pix"
+            ],
+            "correta": 3,
+            "explicacao": "O Pix move o dinheiro de uma conta para outra pela internet, sem nota nem moeda.",
+            "dica": "Digital é o que passa pela internet, sem ninguém tocar em nota."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes das moedas, que objetos as pessoas usaram como dinheiro?",
+            "alternativas": [
+              "Celulares",
+              "Conchas e sal",
+              "Cartões",
+              "Computadores"
+            ],
+            "correta": 1,
+            "explicacao": "Conchas e sal eram aceitos por todos. Celular, cartão e computador vieram muito depois.",
+            "dica": "A lição citou objetos da natureza que todos aceitavam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um lanche custa R$ 10. Aqui o dinheiro está servindo para:",
+            "alternativas": [
+              "Fazer escambo",
+              "Decorar a lanchonete",
+              "Medir quanto o lanche vale",
+              "Nada"
+            ],
+            "correta": 2,
+            "explicacao": "O preço mostra o valor do lanche. Essa é uma das três funções do dinheiro.",
+            "dica": "Uma das três funções do dinheiro é mostrar o valor das coisas."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes do dinheiro, as pessoas trocavam uma mercadoria por outra. Como se chama isso?",
+            "alternativas": [
+              "Pix",
+              "Salário",
+              "Troco",
+              "Escambo"
+            ],
+            "correta": 3,
+            "explicacao": "Escambo é a troca direta de mercadorias, como peixe por milho. Pix, salário e troco já usam dinheiro.",
+            "dica": "É a troca direta, sem dinheiro no meio. Lembre do pescador e do milho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o dinheiro?",
+            "alternativas": [
+              "Só para guardar no cofrinho",
+              "Para trocar por coisas, medir o valor delas e guardar para depois",
+              "Só para pagar o ônibus",
+              "Para nada, porque agora existe o Pix"
+            ],
+            "correta": 1,
+            "explicacao": "O dinheiro tem três funções: trocar, medir o valor das coisas e guardar valor. O Pix é apenas outro jeito de mover o mesmo dinheiro.",
+            "dica": "A lição falou em três funções do dinheiro. Procure a alternativa que traz as três."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dinheiro que a família manda por Pix é dinheiro de verdade?",
+            "alternativas": [
+              "Não, é só um jogo do celular",
+              "Só se a pessoa imprimir o comprovante",
+              "Sim, é dinheiro que sai de uma conta e vai para outra pela internet",
+              "Só vale nos fins de semana"
+            ],
+            "correta": 2,
+            "explicacao": "O dinheiro digital é tão real quanto a nota de papel. Por isso é preciso ter o mesmo cuidado: conferir o valor e para quem está mandando.",
+            "dica": "Pense no caminho que o dinheiro faz quando alguém paga pelo celular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caderno custa R$ 12 e uma caneta custa R$ 3. Você tem R$ 20. Quanto sobra depois de comprar os dois?",
+            "alternativas": [
+              "R$ 5",
+              "R$ 8",
+              "R$ 15",
+              "R$ 35"
+            ],
+            "correta": 0,
+            "explicacao": "Primeiro somamos o gasto: 12 + 3 = 15. Depois tiramos do que você tem: 20 − 15 = 5. Sobram R$ 5. O R$ 15 é o total gasto, não o que sobra.",
+            "dica": "Some o preço das duas coisas e tire do que você tem."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem, do mais antigo para o mais novo, as formas de pagar:",
+            "itens": [
+              "Troca de mercadorias (escambo)",
+              "Moedas de metal",
+              "Notas de papel",
+              "Cartão e Pix"
+            ],
+            "explicacao": "Primeiro vieram as trocas, depois as moedas de metal, mais tarde as notas de papel e, bem recentemente, os pagamentos digitais com cartão e Pix.",
+            "dica": "Lembre a história: primeiro as trocas, depois o metal, o papel e, por fim, o digital."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o escambo era difícil?",
+            "alternativas": [
+              "Porque as coisas eram muito baratas",
+              "Porque nem sempre o outro queria o que você tinha para trocar",
+              "Porque não existiam mercadorias",
+              "Porque era proibido"
+            ],
+            "correta": 1,
+            "explicacao": "No escambo, a troca só acontece se cada um quiser o que o outro tem, como no caso do pescador da história.",
+            "dica": "Lembre do pescador que saiu oferecendo peixe de casa em casa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Júlia guardou R$ 5 por semana durante 6 semanas para comprar um livro de R$ 28. O que acontece?",
+            "alternativas": [
+              "Não consegue, faltam R$ 2",
+              "Consegue e sobram R$ 8",
+              "Consegue e não sobra nada",
+              "Consegue e sobram R$ 2"
+            ],
+            "correta": 3,
+            "explicacao": "Ela juntou 5 × 6 = 30 reais. Como 30 − 28 = 2, ela compra o livro e sobram R$ 2.",
+            "dica": "Multiplique o que ela guarda por semana pelo número de semanas e compare com o preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando Júlia junta dinheiro para comprar depois, ela usa qual função do dinheiro?",
+            "alternativas": [
+              "Trocar",
+              "Medir valor",
+              "Guardar valor",
+              "Escambo"
+            ],
+            "correta": 2,
+            "explicacao": "Juntar para usar no futuro é guardar valor. Trocar e medir valor acontecem na hora da compra.",
+            "dica": "Ela não está comprando agora nem comparando preços: está deixando para depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Marcos vai mandar R$ 30 por Pix para a tia. O que ele deve conferir antes de confirmar?",
+            "alternativas": [
+              "A cor do aplicativo",
+              "A hora do dia",
+              "Se a tia está online",
+              "O nome de quem vai receber e o valor"
+            ],
+            "correta": 3,
+            "explicacao": "Um Pix errado é difícil de desfazer. Conferir quem recebe e quanto vai evita prejuízo.",
+            "dica": "Um Pix errado é difícil de desfazer. O que pode estar errado na tela de confirmação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na feira, seu Jorge vende 5 laranjas por R$ 4. Quanto custam 15 laranjas?",
+            "alternativas": [
+              "R$ 12",
+              "R$ 60",
+              "R$ 20",
+              "R$ 16"
+            ],
+            "correta": 0,
+            "explicacao": "Em 15 laranjas cabem 3 grupos de 5 (15 ÷ 5 = 3). Cada grupo custa R$ 4: 3 × 4 = 12.",
+            "dica": "Quantos grupos de 5 laranjas cabem em 15?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pacote de arroz custava R$ 20 e agora custa R$ 25. Com R$ 100, quantos pacotes a MENOS se compra agora?",
+            "alternativas": [
+              "1",
+              "5",
+              "4",
+              "2"
+            ],
+            "correta": 0,
+            "explicacao": "Antes: 100 ÷ 20 = 5 pacotes. Agora: 100 ÷ 25 = 4 pacotes. São 5 − 4 = 1 pacote a menos. Isso é a inflação na prática.",
+            "dica": "Calcule quantos pacotes os R$ 100 compravam antes e quantos compram agora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz uma nota de papel valer R$ 100, mesmo custando pouco para ser fabricada?",
+            "alternativas": [
+              "O papel ser muito raro",
+              "A tinta ser de ouro",
+              "A confiança de todos em aceitar essa nota",
+              "O tamanho da nota"
+            ],
+            "correta": 2,
+            "explicacao": "O valor do dinheiro vem da confiança: todos aceitam a nota porque sabem que os outros também vão aceitar.",
+            "dica": "O aprofundamento explicou que o valor não vem do material da nota."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando quase tudo fica mais caro e o mesmo dinheiro compra menos, isso se chama:",
+            "alternativas": [
+              "Escambo",
+              "Troco",
+              "Pix",
+              "Inflação"
+            ],
+            "correta": 3,
+            "explicacao": "Inflação é a alta geral dos preços. Com ela, o dinheiro perde poder de compra.",
+            "dica": "É a palavra do aprofundamento para o dinheiro que parece encolher."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Na aldeia, Tito usa conchas para conseguir milho. Coloque em ordem:",
+            "itens": [
+              "Tito pesca os peixes",
+              "Tito vende os peixes e recebe conchas",
+              "Tito guarda as conchas",
+              "Tito paga o milho com as conchas"
+            ],
+            "explicacao": "Primeiro ele precisa ter o que vender, depois recebe as conchas (o dinheiro), guarda e, mais tarde, compra o milho.",
+            "dica": "Primeiro ele precisa ter o que vender; as conchas aparecem no meio do caminho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num escambo, 1 galinha vale 3 cestos de milho, e 2 cestos de milho valem 1 peixe. Quantos peixes valem 4 galinhas?",
+            "alternativas": [
+              "8",
+              "6",
+              "12",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "4 galinhas = 4 × 3 = 12 cestos. Cada 2 cestos valem 1 peixe: 12 ÷ 2 = 6 peixes. O 12 esquece a segunda troca.",
+            "dica": "Transforme as galinhas em cestos de milho primeiro e depois os cestos em peixes."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "O que é um algoritmo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um algoritmo é uma sequência de passos, em ordem, para resolver um problema ou fazer uma tarefa. Parece palavra difícil, mas você usa algoritmos o tempo todo!",
+          "Uma receita de bolo é um algoritmo: misture os ovos, junte a farinha, leve ao forno. O caminho de casa para a escola também é: saia do portão, vire à direita, atravesse na faixa.",
+          "Nos algoritmos, a ordem importa muito. Se você colocar o tênis antes da meia, o resultado fica errado. O computador faz exatamente o que mandamos, na ordem em que mandamos.",
+          "Os programas de celular, os jogos e até o aplicativo de mapas funcionam com algoritmos. Quem escreve esses passos para o computador é o programador."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva um algoritmo para regar uma planta.",
+            "resolucao": "1. Pegar o regador. 2. Encher o regador de água. 3. Ir até a planta. 4. Molhar a terra devagar. 5. Guardar o regador."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um bom algoritmo tem três qualidades: começo e fim claros, passos sem dúvida (cada um diz exatamente o que fazer) e a ordem certa. “Coloque um pouco de sal” é vago para um computador; “coloque 1 colher de chá de sal” é preciso.",
+        "Muitos algoritmos têm decisões: “se estiver chovendo, pegue o guarda-chuva; se não, siga”. E têm repetições: “repita até o copo encher”. Com essas duas ideias, decisão e repetição, os programadores constroem desde calculadoras até jogos inteiros.",
+        "Para o mesmo problema podem existir vários algoritmos, e alguns são bem mais rápidos. Para achar uma palavra no dicionário, abrir perto da letra certa é muito melhor do que ler página por página desde o começo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma receita de bolo é um exemplo de:",
+            "alternativas": [
+              "Algoritmo",
+              "Vírus",
+              "Jogo",
+              "Desenho"
+            ],
+            "correta": 0,
+            "explicacao": "A receita tem passos em ordem para chegar a um resultado: é um algoritmo.",
+            "dica": "Ela traz passos em ordem para chegar a um resultado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num algoritmo, a ordem dos passos:",
+            "alternativas": [
+              "Não importa",
+              "Importa muito",
+              "Só importa no domingo",
+              "Só importa no celular"
+            ],
+            "correta": 1,
+            "explicacao": "Trocar a ordem pode estragar tudo, como calçar o tênis antes da meia.",
+            "dica": "Lembre do tênis e da meia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem escreve os passos que o computador segue?",
+            "alternativas": [
+              "O carteiro",
+              "O motorista",
+              "O programador",
+              "O padeiro"
+            ],
+            "correta": 2,
+            "explicacao": "O programador escreve os algoritmos que viram programas, aplicativos e jogos.",
+            "dica": "É a profissão de quem cria programas e jogos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O computador faz:",
+            "alternativas": [
+              "O que ele quiser",
+              "O contrário do que mandamos",
+              "Só o que o dono pensa",
+              "Exatamente o que mandamos, na ordem"
+            ],
+            "correta": 3,
+            "explicacao": "O computador não adivinha nem inventa: segue os passos que recebeu, na ordem.",
+            "dica": "A lição disse que ele não adivinha nada."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem: calçar o tênis para ir à escola.",
+            "itens": [
+              "Pôr a meia",
+              "Calçar o tênis",
+              "Amarrar o cadarço"
+            ],
+            "explicacao": "Primeiro a meia, depois o tênis e, por fim, o cadarço. Em outra ordem, não funciona.",
+            "dica": "O cadarço só pode ser amarrado quando o tênis já está no pé."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um algoritmo?",
+            "alternativas": [
+              "Um tipo de vírus de computador",
+              "Uma sequência de passos para resolver um problema",
+              "Um jogo de celular",
+              "Uma peça de dentro do computador"
+            ],
+            "correta": 1,
+            "explicacao": "Algoritmo é um passo a passo em ordem. Ele pode estar num papel, na sua cabeça ou dentro de um computador.",
+            "dica": "Pense na receita de bolo: o que ela é?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo de escovar os dentes:",
+            "itens": [
+              "Pegar a escova",
+              "Colocar a pasta",
+              "Escovar os dentes",
+              "Enxaguar a boca",
+              "Guardar a escova"
+            ],
+            "explicacao": "Não dá para escovar antes de colocar a pasta, nem guardar a escova antes de usar. Cada passo depende do anterior.",
+            "dica": "Não dá para escovar sem pasta, nem guardar a escova antes de usar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um bom exemplo de algoritmo do dia a dia?",
+            "alternativas": [
+              "A foto de um bolo",
+              "O cheiro do bolo",
+              "A cor do bolo",
+              "A receita do bolo"
+            ],
+            "correta": 3,
+            "explicacao": "A receita diz o que fazer, passo a passo e em ordem. Foto, cheiro e cor não dizem como fazer nada.",
+            "dica": "Procure a opção que diz o que fazer, passo a passo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a ordem dos passos é importante num algoritmo?",
+            "alternativas": [
+              "Não é importante, tanto faz",
+              "Porque o computador só gosta de números",
+              "Porque um passo fora do lugar pode dar resultado errado, como pôr a meia depois do tênis",
+              "Porque deixa o algoritmo mais bonito"
+            ],
+            "correta": 2,
+            "explicacao": "Os passos dependem uns dos outros. O computador não adivinha o que você quis dizer: ele segue a ordem que recebeu.",
+            "dica": "Lembre do exemplo da meia e do tênis."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No algoritmo de pegar o ônibus para a escola, qual passo vem logo depois de \"Dar sinal para o ônibus parar\"?",
+            "alternativas": [
+              "Ir até o ponto",
+              "Entrar e pagar a passagem",
+              "Descer no ponto da escola",
+              "Esperar o ônibus certo"
+            ],
+            "correta": 1,
+            "explicacao": "A ordem é: ir até o ponto, esperar o ônibus certo, dar sinal, entrar e pagar, e descer no ponto da escola. Depois do sinal, o ônibus para e você entra.",
+            "dica": "Pense no que acontece assim que o ônibus para na sua frente."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual passo está faltando? 1. Pegar o copo. 2. ___. 3. Beber a água.",
+            "alternativas": [
+              "Lavar o carro",
+              "Encher o copo com água",
+              "Guardar o copo",
+              "Desligar a TV"
+            ],
+            "correta": 1,
+            "explicacao": "Sem encher o copo, não há água para beber. Os outros passos não ajudam na tarefa.",
+            "dica": "O que precisa acontecer para existir água dentro do copo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual instrução é mais clara para um robô?",
+            "alternativas": [
+              "Coloque um pouco de açúcar",
+              "Coloque açúcar do jeito certo",
+              "Coloque 2 colheres de açúcar",
+              "Coloque o que achar melhor"
+            ],
+            "correta": 2,
+            "explicacao": "O robô não sabe o que é “um pouco” nem “do jeito certo”. Uma medida exata não deixa dúvida.",
+            "dica": "O robô não entende “um pouco”. Qual instrução tem uma medida exata?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Leia: “Colocar o pão na torradeira. Comer o pão. Ligar a torradeira.” O que está errado?",
+            "alternativas": [
+              "Não há nada errado",
+              "Falta comprar a torradeira",
+              "A torradeira deveria ser desligada primeiro",
+              "O pão é comido antes de ser torrado"
+            ],
+            "correta": 3,
+            "explicacao": "A torradeira só é ligada depois que o pão já foi comido. O passo “ligar” precisa vir antes de “comer”.",
+            "dica": "Leia os passos como se fosse o robô: em que momento o pão fica quente?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual instrução há uma decisão?",
+            "alternativas": [
+              "Se estiver chovendo, pegue o guarda-chuva",
+              "Abra a porta",
+              "Ande três passos",
+              "Feche a janela"
+            ],
+            "correta": 0,
+            "explicacao": "Decisão é um passo que depende de uma condição (“se…”). Os outros são ordens diretas.",
+            "dica": "Decisão aparece quando o passo depende de uma condição."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo para tomar um suco de caixinha:",
+            "itens": [
+              "Pegar a caixinha e um copo",
+              "Abrir a caixinha",
+              "Despejar o suco no copo",
+              "Fechar a caixinha e guardar na geladeira"
+            ],
+            "explicacao": "Não dá para despejar sem abrir, e guardar é o último passo para o suco não estragar.",
+            "dica": "Pense no que precisa estar aberto e no que vem por último, para o suco não estragar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um robô segue: “Repita 3 vezes: ande 2 passos e bata palma.” Quantos passos e quantas palmas ele dá?",
+            "alternativas": [
+              "2 passos e 3 palmas",
+              "6 passos e 3 palmas",
+              "3 passos e 6 palmas",
+              "6 passos e 1 palma"
+            ],
+            "correta": 1,
+            "explicacao": "Em cada volta ele anda 2 passos e bate 1 palma. Em 3 voltas: 3 × 2 = 6 passos e 3 × 1 = 3 palmas.",
+            "dica": "Tudo o que está dentro do “repita” acontece de novo a cada volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar a palavra “zebra” num dicionário, qual algoritmo é mais rápido?",
+            "alternativas": [
+              "Ler página por página desde a letra A",
+              "Abrir no meio e ir página por página para a frente",
+              "Abrir perto do fim, onde fica a letra Z",
+              "Ler as páginas em ordem aleatória"
+            ],
+            "correta": 2,
+            "explicacao": "Z é a última letra do alfabeto, então as palavras com Z ficam no fim do dicionário. Começar por lá poupa tempo.",
+            "dica": "Pense em onde a letra Z fica no alfabeto e, por isso, no dicionário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Regra: “Se o número for par, divida por 2; se for ímpar, some 1.” Começando no 7 e aplicando a regra 3 vezes, onde você chega?",
+            "alternativas": [
+              "4",
+              "8",
+              "1",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "7 é ímpar: 7 + 1 = 8. 8 é par: 8 ÷ 2 = 4. 4 é par: 4 ÷ 2 = 2. Resultado: 2.",
+            "dica": "Aplique a regra uma vez de cada vez, anotando: o número é par ou ímpar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas instruções é ambígua (pode ser entendida de mais de um jeito) para um robô?",
+            "alternativas": [
+              "Arrume a sala do jeito bonito",
+              "Ande 5 passos para a frente",
+              "Vire à direita",
+              "Pegue a caneta azul da mesa"
+            ],
+            "correta": 0,
+            "explicacao": "“Bonito” é diferente para cada pessoa, e o robô não sabe o que fazer. As outras dizem exatamente a ação.",
+            "dica": "Procure a instrução em que cada pessoa poderia fazer uma coisa diferente."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo para atravessar a rua na faixa:",
+            "itens": [
+              "Parar na calçada, perto da faixa",
+              "Olhar para os dois lados",
+              "Esperar os carros pararem",
+              "Atravessar andando pela faixa"
+            ],
+            "explicacao": "Atravessar é sempre o último passo. Antes é preciso parar, olhar e esperar com segurança.",
+            "dica": "Atravessar é sempre a última coisa; antes disso vêm olhar e esperar."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "As conchas da aldeia",
+    "texto": "Numa aldeia antiga, o pescador Tito queria trocar seus peixes por um saco de milho. Foi até a casa de dona Rosa, que plantava milho, mas ela respondeu:\n\n— Não preciso de peixe. Eu queria um par de sandálias.\n\nTito correu até o sapateiro, que também não queria peixe: ele precisava de lenha. O dia passou, o sol esquentou, os peixes começaram a cheirar mal e Tito voltou para casa sem nada.\n\nNa manhã seguinte, todos se reuniram na praça. A velha Lia teve uma ideia: “Vamos usar conchas como sinal de valor. Quem vende recebe conchas, e com elas compra o que quiser, de quem quiser”.\n\nDeu certo! Tito vendeu os peixes bem cedo, guardou as conchas no bolso e, à tarde, comprou o seu milho.\n\nMoral da história: o dinheiro nasceu para facilitar as trocas entre as pessoas."
+  },
+  "escrita": {
+    "proposta": "Imagine que você é o Tito e acabou de receber um punhado de conchas. Escreva de 5 a 8 linhas contando o que você compraria com elas, o que guardaria para depois e por quê."
+  }
+}

@@ -1,0 +1,899 @@
+{
+  "dia": 11,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Razão e proporção: comparar com divisão",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Razão é um jeito de comparar dois números usando a divisão. Se numa turma há 3 meninos para cada 5 meninas, a razão de meninos para meninas é 3 para 5, que escrevemos 3/5 ou 3 : 5.",
+          "A ordem importa: a razão de meninas para meninos seria 5/3. E, como toda fração, a razão pode ser simplificada: 10 meninos para 15 meninas é a razão 10/15, que é o mesmo que 2/3.",
+          "Proporção é a igualdade entre duas razões. Por exemplo, 1/2 = 4/8 é uma proporção, porque as duas razões valem a mesma coisa (metade).",
+          "Para conferir se duas razões formam proporção, use a propriedade fundamental: multiplique cruzado. Em a/b = c/d, o produto a × d tem que ser igual a b × c. Essa mesma regra ajuda a descobrir um número que está faltando."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "4/6 e 10/15 formam uma proporção?",
+            "resolucao": "Multiplique cruzado: 4 × 15 = 60 e 6 × 10 = 60. Os produtos são iguais, então sim, formam proporção (as duas valem 2/3)."
+          },
+          {
+            "enunciado": "Descubra x em 3/4 = x/20.",
+            "resolucao": "Multiplique cruzado: 4 × x = 3 × 20, ou seja, 4x = 60. Dividindo por 4: x = 15."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Razão também compara grandezas de tipos diferentes. Velocidade é uma razão entre distância e tempo: 180 km em 3 h dá 180 ÷ 3 = 60 km/h. Densidade demográfica é habitantes por km²: 600 000 pessoas em 300 km² dá 2 000 habitantes por km².",
+        "Escala de mapa é uma razão: 1 : 100 000 quer dizer que 1 cm no mapa vale 100 000 cm na realidade, que é 1 km. Para dividir um valor em partes proporcionais, some as partes: R$ 120 na razão 1 : 3 dá 1 + 3 = 4 partes de R$ 30, ou seja, R$ 30 e R$ 90.",
+        "Cuidado com a pegadinha da parte e do todo: se uma mistura tem açúcar e farinha na razão 1 : 4, o açúcar é 1 parte de um total de 5 partes, então é 1/5 da mistura, e não 1/4."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve a razão de 3 para 5?",
+            "alternativas": [
+              "3/5",
+              "5/3",
+              "3 + 5",
+              "8/5"
+            ],
+            "correta": 0,
+            "explicacao": "Razão de 3 para 5 é 3 dividido por 5: 3/5. O primeiro número fica em cima.",
+            "dica": "O primeiro número citado vai em cima da fração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa sala há 10 meninos e 15 meninas. Qual é a razão de meninos para meninas, simplificada?",
+            "alternativas": [
+              "3/2",
+              "2/3",
+              "10/25",
+              "5/3"
+            ],
+            "correta": 1,
+            "explicacao": "10/15 dividido por 5 em cima e embaixo dá 2/3. O erro comum é inverter e escrever 3/2.",
+            "dica": "Escreva meninos em cima, meninas embaixo e divida os dois pelo mesmo número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma proporção?",
+            "alternativas": [
+              "Uma soma de duas frações",
+              "Um número decimal",
+              "Uma igualdade entre duas razões",
+              "A diferença entre dois números"
+            ],
+            "correta": 2,
+            "explicacao": "Proporção é quando duas razões valem a mesma coisa, como 1/2 = 4/8.",
+            "dica": "Lembre do exemplo 1/2 = 4/8 da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na proporção 1/2 = 4/x, quanto vale x?",
+            "alternativas": [
+              "6",
+              "2",
+              "4",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "Se 1 virou 4 (vezes 4), o 2 também vira 2 × 4 = 8. Conferindo: 1 × 8 = 2 × 4.",
+            "dica": "O número de cima foi multiplicado por quanto? Faça o mesmo embaixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um suco leva 1 parte de concentrado para 3 de água. Com 2 partes de concentrado, quantas partes de água?",
+            "alternativas": [
+              "5",
+              "6",
+              "3",
+              "9"
+            ],
+            "correta": 1,
+            "explicacao": "Dobrou o concentrado, dobra a água: 3 × 2 = 6 partes.",
+            "dica": "Se o concentrado dobrou, o que acontece com a água?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "4/6 e 10/15 formam proporção?",
+            "alternativas": [
+              "Sim, porque 4 × 15 = 6 × 10",
+              "Não, porque 4 + 15 é diferente de 6 + 10",
+              "Sim, porque 4 + 6 = 10",
+              "Não, porque 10 é maior que 4"
+            ],
+            "correta": 0,
+            "explicacao": "Os produtos cruzados são 60 e 60, então formam proporção. Somar não serve para conferir.",
+            "dica": "Use a multiplicação cruzada, não a soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na proporção 3/4 = x/20, quanto vale x?",
+            "alternativas": [
+              "12",
+              "15",
+              "16",
+              "60"
+            ],
+            "correta": 1,
+            "explicacao": "4x = 3 × 20 = 60, então x = 60 ÷ 4 = 15.",
+            "dica": "Multiplique cruzado e depois divida pelo número que acompanha o x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num mapa com escala 1 : 100 000, uma rua mede 3 cm. Qual é o tamanho real?",
+            "alternativas": [
+              "30 km",
+              "300 m",
+              "3 km",
+              "0,3 km"
+            ],
+            "correta": 2,
+            "explicacao": "3 cm × 100 000 = 300 000 cm. Como 100 000 cm = 1 km, são 3 km.",
+            "dica": "Cada centímetro do mapa vale quantos quilômetros nessa escala?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro percorre 180 km em 3 horas. Qual é a velocidade média?",
+            "alternativas": [
+              "540 km/h",
+              "90 km/h",
+              "50 km/h",
+              "60 km/h"
+            ],
+            "correta": 3,
+            "explicacao": "Velocidade é a razão distância ÷ tempo: 180 ÷ 3 = 60 km/h. Multiplicar (540) é o erro comum.",
+            "dica": "Velocidade é distância dividida por tempo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as razões da menor para a maior.",
+            "itens": [
+              "1/4",
+              "1/2",
+              "3/4",
+              "5/4"
+            ],
+            "explicacao": "1/4 = 0,25; 1/2 = 0,5; 3/4 = 0,75; 5/4 = 1,25.",
+            "dica": "Transforme cada razão em decimal dividindo o de cima pelo de baixo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana e Bia vão dividir R$ 120 na razão 1 : 3. Quanto Bia recebe?",
+            "alternativas": [
+              "R$ 40",
+              "R$ 90",
+              "R$ 80",
+              "R$ 30"
+            ],
+            "correta": 1,
+            "explicacao": "São 1 + 3 = 4 partes; 120 ÷ 4 = 30 por parte. Bia fica com 3 partes: R$ 90.",
+            "dica": "Some as partes da razão para saber em quantos pedaços dividir o dinheiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma receita usa 3 xícaras de farinha para 2 ovos. Com 9 xícaras de farinha, quantos ovos?",
+            "alternativas": [
+              "4",
+              "8",
+              "6",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "9 é o triplo de 3, então os ovos também triplicam: 2 × 3 = 6.",
+            "dica": "Descubra quantas vezes a farinha aumentou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma turma de 35 alunos tem meninos e meninas na razão 3 : 4. Quantas são as meninas?",
+            "alternativas": [
+              "20",
+              "15",
+              "21",
+              "28"
+            ],
+            "correta": 0,
+            "explicacao": "3 + 4 = 7 partes; 35 ÷ 7 = 5 alunos por parte. Meninas: 4 × 5 = 20.",
+            "dica": "Divida o total pela soma das partes e depois multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual razão NÃO forma proporção com 2/5?",
+            "alternativas": [
+              "4/10",
+              "6/15",
+              "10/25",
+              "8/18"
+            ],
+            "correta": 3,
+            "explicacao": "2 × 18 = 36 e 5 × 8 = 40: diferentes. As outras são 2/5 multiplicada por 2, 3 e 5.",
+            "dica": "Teste a multiplicação cruzada com cada alternativa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma cidade tem 600 000 habitantes e área de 300 km². Qual é a densidade demográfica?",
+            "alternativas": [
+              "200 hab/km²",
+              "2 000 hab/km²",
+              "180 000 hab/km²",
+              "20 000 hab/km²"
+            ],
+            "correta": 1,
+            "explicacao": "Densidade = habitantes ÷ área = 600 000 ÷ 300 = 2 000.",
+            "dica": "Densidade é uma razão: pessoas divididas por área."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois números a e b estão na razão a/b = 2/3 e a + b = 45. Quanto vale b?",
+            "alternativas": [
+              "18",
+              "30",
+              "27",
+              "15"
+            ],
+            "correta": 2,
+            "explicacao": "2 + 3 = 5 partes; 45 ÷ 5 = 9. b tem 3 partes: 27 (e a = 18).",
+            "dica": "Pense em partes iguais: quantas partes há no total?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num mapa de escala 1 : 2 000 000, duas cidades estão a 4,5 cm. Qual é a distância real?",
+            "alternativas": [
+              "90 km",
+              "9 km",
+              "900 km",
+              "45 km"
+            ],
+            "correta": 0,
+            "explicacao": "4,5 × 2 000 000 = 9 000 000 cm. Dividindo por 100 000 (cm em 1 km): 90 km.",
+            "dica": "Primeiro ache em centímetros e depois converta, lembrando que 1 km tem 100 000 cm."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma mistura tem açúcar e farinha na razão 1 : 4. Que fração da mistura toda é açúcar?",
+            "alternativas": [
+              "1/4",
+              "1/5",
+              "4/5",
+              "1/3"
+            ],
+            "correta": 1,
+            "explicacao": "O total tem 1 + 4 = 5 partes; açúcar é 1 delas: 1/5. Responder 1/4 é a pegadinha.",
+            "dica": "A pergunta é sobre a mistura inteira, não só sobre a farinha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três sócios dividem um lucro de R$ 600 na razão 1 : 2 : 3. Quanto recebe quem tem a maior parte?",
+            "alternativas": [
+              "R$ 200",
+              "R$ 250",
+              "R$ 100",
+              "R$ 300"
+            ],
+            "correta": 3,
+            "explicacao": "1 + 2 + 3 = 6 partes; 600 ÷ 6 = 100. A maior parte é 3 × 100.",
+            "dica": "Some as três partes antes de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa loja, 5 cadernos custam R$ 40. Em outra, 8 cadernos custam R$ 60. Onde o caderno sai mais barato?",
+            "alternativas": [
+              "Na primeira, R$ 8,00 cada",
+              "As duas cobram igual",
+              "Na segunda, R$ 7,50 cada",
+              "Na segunda, R$ 6,00 cada"
+            ],
+            "correta": 2,
+            "explicacao": "40 ÷ 5 = 8,00 e 60 ÷ 8 = 7,50. A razão preço por unidade mostra que a segunda é mais barata.",
+            "dica": "Calcule o preço de um caderno em cada loja."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Débito, crédito e Pix com segurança",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "No cartão de débito, o dinheiro sai da sua conta na hora. Se não tem saldo, a compra não passa. Por isso o débito ajuda a gastar só o que você tem.",
+          "No cartão de crédito, você compra agora e paga depois, numa conta mensal chamada fatura. Se não pagar a fatura inteira, o que sobra vira dívida com juros muito altos.",
+          "O Pix é uma transferência instantânea que funciona 24 horas, todos os dias. Você usa uma chave da pessoa: CPF, celular, e-mail ou uma chave aleatória. Antes de confirmar, confira sempre o nome de quem vai receber e o valor, porque o Pix cai na hora.",
+          "Segurança em primeiro lugar: nunca passe sua senha nem códigos que chegam por SMS para ninguém, nem para quem diz ser do banco. Banco de verdade não pede senha por telefone ou mensagem. Use só o aplicativo oficial."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A fatura de Rita deu R$ 500 e ela pagou só R$ 100. Suponha juros de 10% ao mês. Quanto ela deve no mês seguinte, sem novas compras?",
+            "resolucao": "Sobraram 500 − 100 = R$ 400. Juros de 10% de 400 = R$ 40. Ela passa a dever 400 + 40 = R$ 440."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Os juros do rotativo (quando não se paga a fatura inteira) estão entre os mais caros do país. Parcelar \"sem juros\" não tem juros, mas compromete o dinheiro dos próximos meses: R$ 600 em 3 vezes tira R$ 200 de cada uma das três faturas seguintes.",
+        "Se você cair num golpe com Pix, avise o banco o mais rápido possível pelo canal oficial. Existe o MED (Mecanismo Especial de Devolução), criado pelo Banco Central, que permite tentar recuperar o dinheiro em casos de golpe ou fraude. Se o erro foi seu (digitou a chave errada), o MED não vale: é preciso pedir a devolução para quem recebeu.",
+        "Outros cuidados: desconfie de QR code colado por cima de outro em bancas e lojas (confira o nome que aparece), ative as notificações de cada transação no app e nunca use a mesma senha em tudo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No cartão de débito, o dinheiro sai:",
+            "alternativas": [
+              "Da sua conta, na hora",
+              "Numa fatura no mês seguinte",
+              "Do cofrinho de casa",
+              "Do bolso do vendedor"
+            ],
+            "correta": 0,
+            "explicacao": "Débito tira o dinheiro da conta no momento da compra.",
+            "dica": "Pense no que acontece com o saldo quando você paga no débito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No cartão de crédito, você paga:",
+            "alternativas": [
+              "Antes de comprar",
+              "Nunca",
+              "Depois, na fatura",
+              "Só em dinheiro vivo"
+            ],
+            "correta": 2,
+            "explicacao": "No crédito você compra agora e paga depois, na fatura mensal.",
+            "dica": "O crédito é um \"compra agora\" seguido de uma conta mensal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de confirmar um Pix, o que você deve conferir?",
+            "alternativas": [
+              "A cor do celular",
+              "O nome de quem vai receber e o valor",
+              "A hora do almoço",
+              "Quantas fotos tem no celular"
+            ],
+            "correta": 1,
+            "explicacao": "O Pix cai na hora; conferir nome e valor evita mandar dinheiro errado.",
+            "dica": "O que garante que o dinheiro vai para a pessoa certa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém liga dizendo ser do banco e pede sua senha. Você pode passar?",
+            "alternativas": [
+              "Sim, se a pessoa for educada",
+              "Sim, se ela disser seu nome",
+              "Nunca",
+              "Só no fim de semana"
+            ],
+            "correta": 2,
+            "explicacao": "Banco de verdade não pede senha por telefone. Quem pede é golpista.",
+            "dica": "Lembre do que a lição diz sobre bancos de verdade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O Pix funciona:",
+            "alternativas": [
+              "Só em dia útil",
+              "Só de manhã",
+              "Só dentro da agência",
+              "24 horas, todos os dias"
+            ],
+            "correta": 3,
+            "explicacao": "O Pix é instantâneo e funciona o tempo todo, inclusive fins de semana e feriados.",
+            "dica": "A lição diz que ele é instantâneo e não fecha."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lara tem R$ 80 na conta e quer comprar um tênis de R$ 120 no débito. O que acontece?",
+            "alternativas": [
+              "A compra não passa, faltam R$ 40",
+              "Passa e ela fica devendo R$ 40 na fatura",
+              "Passa normalmente",
+              "O banco paga a diferença de graça"
+            ],
+            "correta": 0,
+            "explicacao": "Débito usa o saldo da conta. Sem R$ 120, a compra é recusada.",
+            "dica": "Débito só funciona com o dinheiro que já está na conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas pode ser uma chave Pix?",
+            "alternativas": [
+              "A senha do banco",
+              "CPF, celular, e-mail ou chave aleatória",
+              "O número do cartão com o código de trás",
+              "A senha do celular"
+            ],
+            "correta": 1,
+            "explicacao": "As chaves Pix são CPF/CNPJ, celular, e-mail ou chave aleatória. Senha e código do cartão nunca se passam.",
+            "dica": "A chave serve para achar a conta, não para entrar nela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A fatura do cartão deu R$ 300 e Davi pagou só o mínimo. O que acontece com o resto?",
+            "alternativas": [
+              "Some",
+              "É perdoado pelo banco",
+              "Vira dívida com juros altos",
+              "Passa para o débito sem juros"
+            ],
+            "correta": 2,
+            "explicacao": "O valor não pago entra no rotativo e cresce com juros altos.",
+            "dica": "Pagar só uma parte deixa um saldo devedor. O que o banco cobra por isso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Chega a mensagem: \"Seu Pix foi bloqueado. Clique no link e digite sua senha\". O que fazer?",
+            "alternativas": [
+              "Clicar rápido para não perder o dinheiro",
+              "Responder com a senha",
+              "Encaminhar para os amigos",
+              "Ignorar o link e conferir no app oficial do banco"
+            ],
+            "correta": 3,
+            "explicacao": "É golpe clássico de link falso. A conferência se faz só pelo aplicativo oficial.",
+            "dica": "Banco de verdade pede senha por mensagem?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos de um Pix seguro.",
+            "itens": [
+              "Abrir o aplicativo oficial do banco",
+              "Digitar ou colar a chave Pix",
+              "Conferir o nome de quem recebe e o valor",
+              "Confirmar com a sua senha"
+            ],
+            "explicacao": "Primeiro o app oficial, depois a chave, a conferência e só então a senha.",
+            "dica": "A senha é sempre o último passo, depois de conferir tudo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em janeiro, Bruno comprou um celular de R$ 600 em 3 vezes sem juros no crédito. Quanto fica comprometido em cada uma das 3 faturas seguintes?",
+            "alternativas": [
+              "R$ 600",
+              "R$ 200",
+              "R$ 300",
+              "R$ 100"
+            ],
+            "correta": 1,
+            "explicacao": "600 ÷ 3 = 200. Mesmo sem juros, R$ 200 de cada mês já estão gastos.",
+            "dica": "Divida o valor pelo número de parcelas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A fatura de Júlia deu R$ 500 e ela pagou R$ 100. Com juros de 10% ao mês sobre o restante, quanto ela deve no mês seguinte, sem novas compras?",
+            "alternativas": [
+              "R$ 400",
+              "R$ 450",
+              "R$ 440",
+              "R$ 540"
+            ],
+            "correta": 2,
+            "explicacao": "Restam 400; 10% de 400 = 40; total 440. Calcular 10% sobre 500 é o erro comum.",
+            "dica": "Os juros são calculados sobre o que ficou sem pagar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para quem tem dificuldade de controlar os gastos, qual é o meio mais seguro?",
+            "alternativas": [
+              "Cartão de crédito com limite alto",
+              "Cheque especial",
+              "Débito, porque só gasta o que tem",
+              "Empréstimo rápido"
+            ],
+            "correta": 2,
+            "explicacao": "No débito não dá para gastar mais do que o saldo, então não se cria dívida.",
+            "dica": "Qual meio não deixa gastar além do que está na conta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio fez um Pix de R$ 50 digitando a chave errada e o dinheiro foi para um desconhecido. O que fazer?",
+            "alternativas": [
+              "Esperar, porque o dinheiro volta sozinho",
+              "Avisar o banco e pedir a devolução a quem recebeu",
+              "Fazer outro Pix maior para a mesma chave",
+              "Usar o MED, que vale para qualquer erro de digitação"
+            ],
+            "correta": 1,
+            "explicacao": "Erro de digitação não é golpe, então o MED não se aplica. O caminho é pedir a devolução, com ajuda do banco para o contato.",
+            "dica": "O MED foi criado para golpe e fraude. Este caso é golpe?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa banca, o QR code do Pix está colado por cima de outro. Qual é o sinal de alerta ao ler o código?",
+            "alternativas": [
+              "O nome do recebedor é diferente do nome da banca",
+              "O valor aparece em reais",
+              "O app pede a sua senha",
+              "A tela do celular fica clara"
+            ],
+            "correta": 0,
+            "explicacao": "Se o nome que aparece não é o da loja, o QR code pode ter sido trocado por um golpista.",
+            "dica": "O app sempre mostra para quem o dinheiro vai. Compare com quem você quer pagar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o MED do Pix?",
+            "alternativas": [
+              "Devolver Pix enviado com a chave digitada errada",
+              "Tentar recuperar dinheiro perdido em golpe ou fraude, avisando o banco rápido",
+              "Cancelar compras feitas no crédito",
+              "Aumentar o limite do Pix à noite"
+            ],
+            "correta": 1,
+            "explicacao": "O MED foi criado pelo Banco Central para golpes e fraudes. Erro de digitação fica de fora.",
+            "dica": "Releia o aprofundamento: em quais casos o mecanismo vale?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um celular custa R$ 1.200 em 10 vezes de R$ 120 sem juros, ou à vista no Pix com 10% de desconto. Quanto se economiza pagando à vista?",
+            "alternativas": [
+              "R$ 0",
+              "R$ 108",
+              "R$ 12",
+              "R$ 120"
+            ],
+            "correta": 3,
+            "explicacao": "À vista: 1.200 − 10% (120) = 1.080. Parcelado: 1.200. Diferença: R$ 120. \"Sem juros\" não é o mesmo que \"sem diferença\".",
+            "dica": "Calcule o preço à vista e compare com o total das parcelas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um falso funcionário do banco liga, sabe seu nome e CPF e pede o código que chegou por SMS. Por que não passar?",
+            "alternativas": [
+              "Porque o código pode dar acesso à sua conta ou ao seu WhatsApp",
+              "Porque o código expira em um minuto",
+              "Porque SMS é caro",
+              "Porque o banco cobra taxa pelo código"
+            ],
+            "correta": 0,
+            "explicacao": "O código de verificação é a chave final para invadir contas. Saber seu nome e CPF não prova nada: esses dados vazam.",
+            "dica": "Para que servem esses códigos que chegam por mensagem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A fatura de Léo deu R$ 1.000 e ele pagou R$ 600. Com juros de 12% ao mês sobre o restante, e uma nova compra de R$ 100, quanto vem a próxima fatura?",
+            "alternativas": [
+              "R$ 500",
+              "R$ 512",
+              "R$ 448",
+              "R$ 548"
+            ],
+            "correta": 3,
+            "explicacao": "Restam 400; 12% de 400 = 48; dívida 448. Somando a compra nova: 548.",
+            "dica": "São três passos: o que sobrou, os juros sobre isso e a compra nova."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual hábito mais protege o seu dinheiro?",
+            "alternativas": [
+              "Anotar a senha no verso do cartão",
+              "Usar a mesma senha em tudo",
+              "Ativar notificações de cada transação no app",
+              "Emprestar o cartão para amigos"
+            ],
+            "correta": 2,
+            "explicacao": "Com notificações, você vê na hora qualquer movimento estranho e avisa o banco rápido.",
+            "dica": "Qual opção ajuda a perceber um problema logo que ele acontece?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Achar e corrigir erros: a arte de depurar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Todo programador erra. O erro num programa se chama bug, e depurar é achar e corrigir esses erros. Errar faz parte; o importante é saber caçar o problema.",
+          "Há três tipos comuns de erro. Erro de digitação (sintaxe): o programa nem roda. Erro de lógica: o programa roda, mas o resultado sai errado. Erro de ordem: os passos estão certos, mas na sequência errada.",
+          "Uma técnica poderosa é o teste de mesa: você segue o programa no papel, linha por linha, anotando o valor de cada variável. Outra é testar com valores que você já sabe a resposta, como a média de 6 e 8, que tem que dar 7.",
+          "Quando achar o erro, corrija e teste de novo. Muitas vezes uma correção revela outro problema escondido."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O programa faz: media ← nota1 + nota2 / 2. Com notas 6 e 8, deu 10. Onde está o erro?",
+            "resolucao": "A divisão é feita antes da soma: 8 / 2 = 4 e 6 + 4 = 10. A correção é usar parênteses: media ← (nota1 + nota2) / 2, que dá 14 / 2 = 7."
+          },
+          {
+            "enunciado": "i ← 1; enquanto i < 5: mostrar i; i ← i + 1. A ideia era mostrar de 1 a 5. Por que não funcionou?",
+            "resolucao": "Quando i chega a 5, a condição i < 5 é falsa e o laço para. Só aparecem 1, 2, 3 e 4. A correção é usar i <= 5."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "No teste de mesa, faça uma tabela com uma coluna para cada variável e uma linha para cada passo. É lento, mas mostra exatamente onde o valor sai do esperado.",
+        "Teste os casos de borda: zero, números negativos, lista vazia, o primeiro e o último item. Um programa que acha o maior número começando com maior ← 0 erra quando todos os números são negativos, porque nenhum é maior que 0.",
+        "Mude uma coisa por vez e teste de novo. Se mudar várias coisas juntas, você não sabe qual delas resolveu (ou criou) o erro. E leia a mensagem de erro: ela costuma dizer a linha do problema."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um bug?",
+            "alternativas": [
+              "Um erro no programa",
+              "Um tipo de computador",
+              "Um jogo de celular",
+              "Uma senha"
+            ],
+            "correta": 0,
+            "explicacao": "Bug é o nome dado a um erro num programa.",
+            "dica": "A lição usa essa palavra logo no começo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é depurar?",
+            "alternativas": [
+              "Apagar o programa",
+              "Achar e corrigir erros",
+              "Comprar outro computador",
+              "Desligar a internet"
+            ],
+            "correta": 1,
+            "explicacao": "Depurar é caçar e consertar os bugs.",
+            "dica": "É o trabalho de quem quer o programa funcionando certo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O programa roda, mas a conta sai errada. Que tipo de erro é esse?",
+            "alternativas": [
+              "Erro de digitação que impede de rodar",
+              "Falta de energia",
+              "Erro de lógica",
+              "Defeito no teclado"
+            ],
+            "correta": 2,
+            "explicacao": "Se roda e dá resultado errado, o problema está no raciocínio: erro de lógica.",
+            "dica": "O programa rodou. Então o problema não é de digitação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um algoritmo de escovar os dentes diz: enxaguar, escovar, colocar pasta. Qual é o problema?",
+            "alternativas": [
+              "Falta a cor da escova",
+              "Não há nada errado",
+              "Falta música",
+              "Os passos estão na ordem errada"
+            ],
+            "correta": 3,
+            "explicacao": "A pasta vem antes de escovar, e enxaguar vem no fim. É erro de ordem.",
+            "dica": "Os passos existem, mas imagine fazer exatamente nessa sequência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é teste de mesa?",
+            "alternativas": [
+              "Seguir o programa no papel anotando os valores",
+              "A mesa onde fica o computador",
+              "Um jogo de tabuleiro",
+              "Consertar uma mesa quebrada"
+            ],
+            "correta": 0,
+            "explicacao": "No teste de mesa você \"roda\" o programa à mão, passo a passo.",
+            "dica": "Pense em fazer o papel do computador com lápis e papel."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O programa media ← nota1 + nota2 / 2 recebe 6 e 8. Que valor ele mostra?",
+            "alternativas": [
+              "7",
+              "10",
+              "7,5",
+              "14"
+            ],
+            "correta": 1,
+            "explicacao": "A divisão vem antes: 8 / 2 = 4; depois 6 + 4 = 10.",
+            "dica": "Lembre que dividir é feito antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a correção para calcular a média certa?",
+            "alternativas": [
+              "media ← nota1 + (nota2 / 2)",
+              "media ← nota1 × nota2 / 2",
+              "media ← (nota1 + nota2) / 2",
+              "media ← nota1 + nota2 + 2"
+            ],
+            "correta": 2,
+            "explicacao": "Os parênteses obrigam a somar primeiro e só depois dividir.",
+            "dica": "Como fazer a soma acontecer antes da divisão?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "i ← 1; enquanto i < 5: mostrar i; i ← i + 1. O que aparece?",
+            "alternativas": [
+              "De 1 a 5",
+              "De 1 a 4",
+              "De 0 a 5",
+              "Só o 5"
+            ],
+            "correta": 1,
+            "explicacao": "Quando i vira 5, a condição i < 5 é falsa e o laço para antes de mostrar o 5.",
+            "dica": "Teste: o que acontece quando i vale 5?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A regra é: aprovado com nota 6 ou mais. O programa diz: se nota > 6 então aprovado. Um aluno com 6 saiu reprovado. Como corrigir?",
+            "alternativas": [
+              "Trocar 6 por 7",
+              "Trocar > por <",
+              "Apagar o se",
+              "Trocar > por >="
+            ],
+            "correta": 3,
+            "explicacao": "\"6 ou mais\" é >= 6. Com >, a nota 6 fica de fora.",
+            "dica": "O sinal usado aceita o número 6?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as etapas de depurar.",
+            "itens": [
+              "Perceber que o resultado está errado",
+              "Repetir o erro com um teste de resposta conhecida",
+              "Achar a linha que causa o erro",
+              "Corrigir e testar de novo"
+            ],
+            "explicacao": "Primeiro se nota o problema, depois se reproduz, localiza, corrige e testa.",
+            "dica": "Só dá para corrigir depois de achar. E só dá para achar depois de perceber."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "total ← 0; para cada preço em [5, 10, 15]: total ← preço. mostrar total. O que aparece?",
+            "alternativas": [
+              "30",
+              "15",
+              "0",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "A cada volta total recebe o preço atual, sem somar. No fim, fica o último: 15.",
+            "dica": "Faça o teste de mesa: qual é o valor de total depois de cada volta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha corrige o programa anterior para somar os preços?",
+            "alternativas": [
+              "total ← preço + 1",
+              "total ← 0",
+              "total ← total + preço",
+              "total ← preço × 3"
+            ],
+            "correta": 2,
+            "explicacao": "Para acumular, o novo total é o total antigo mais o preço.",
+            "dica": "O total precisa lembrar o que já tinha antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x ← 10; x ← x − 3; x ← x × 2; mostrar x. O que aparece?",
+            "alternativas": [
+              "14",
+              "4",
+              "7",
+              "20"
+            ],
+            "correta": 0,
+            "explicacao": "10 − 3 = 7; 7 × 2 = 14.",
+            "dica": "Atualize o valor de x a cada linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "i ← 10; enquanto i > 0: mostrar i; i ← i + 1. A ideia era contar de 10 até 1. O que acontece?",
+            "alternativas": [
+              "Mostra só o 10",
+              "Mostra de 1 a 10",
+              "Dá erro de digitação",
+              "Nunca para, porque i só aumenta"
+            ],
+            "correta": 3,
+            "explicacao": "i começa em 10 e cresce: 11, 12... sempre maior que 0. É um laço infinito. O certo é i ← i − 1.",
+            "dica": "O valor de i está indo na direção de chegar a zero?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "troco ← preço − pago. Com pago = 20 e preço = 15, deu −5. Qual é o erro?",
+            "alternativas": [
+              "Faltou somar",
+              "As variáveis estão trocadas na subtração",
+              "O preço está errado na loja",
+              "O computador errou a conta"
+            ],
+            "correta": 1,
+            "explicacao": "Troco é pago − preço = 20 − 15 = 5. A ordem da subtração estava invertida.",
+            "dica": "Na vida real, o troco é o que você deu menos o quê?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "maior ← 0; para cada n na lista: se n > maior então maior ← n. Com a lista [−3, −8, −1], o resultado foi 0. Qual é a melhor correção?",
+            "alternativas": [
+              "Trocar > por <",
+              "Começar com maior ← 100",
+              "Começar com maior ← o primeiro número da lista",
+              "Ordenar a lista ao contrário"
+            ],
+            "correta": 2,
+            "explicacao": "Começando em 0, nenhum negativo é maior. Começando pelo primeiro da lista, o programa funciona para qualquer número.",
+            "dica": "Caso de borda: o valor inicial precisa ser um número que exista na lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a ← 2; b ← 3; a ← a + b; b ← a − b; a ← a − b. No fim, quanto valem a e b?",
+            "alternativas": [
+              "a = 3 e b = 2",
+              "a = 5 e b = 2",
+              "a = 2 e b = 3",
+              "a = 3 e b = 5"
+            ],
+            "correta": 0,
+            "explicacao": "a = 5; b = 5 − 3 = 2; a = 5 − 2 = 3. O programa troca os valores.",
+            "dica": "Faça o teste de mesa linha por linha, usando sempre o valor mais novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa calcula a média de uma lista dividindo a soma pela quantidade. Que entrada pode quebrar o programa?",
+            "alternativas": [
+              "Uma lista com 1 número",
+              "Uma lista com números iguais",
+              "Uma lista com 100 números",
+              "Uma lista vazia"
+            ],
+            "correta": 3,
+            "explicacao": "Com a lista vazia, a quantidade é 0, e não existe divisão por zero.",
+            "dica": "Pense nos casos de borda: qual quantidade é impossível usar numa divisão?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "soma ← 0; i ← 1; enquanto i <= 4: soma ← soma + i; i ← i + 2. Quanto vale soma no fim?",
+            "alternativas": [
+              "10",
+              "4",
+              "9",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "i = 1: soma 1; i = 3: soma 4; i = 5: para. Resultado 4. A pegadinha é pensar em 1 + 2 + 3 + 4.",
+            "dica": "Repare que i pula de 2 em 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que mudar uma coisa por vez ao depurar?",
+            "alternativas": [
+              "Para saber qual mudança resolveu ou criou o erro",
+              "Porque o computador só aceita uma mudança",
+              "Porque mudar tudo junto é proibido",
+              "Para gastar menos energia"
+            ],
+            "correta": 0,
+            "explicacao": "Com uma mudança por vez, o efeito de cada uma fica claro.",
+            "dica": "Se mudar três coisas e o erro sumir, você sabe qual foi?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Cinco segundos na feira",
+    "texto": "Domingo de manhã, Davi foi à feira com a avó comprar frutas. Na barraca do seu Antônio, a avó pegou o celular para pagar o Pix pelo QR code pendurado na lona.\n\n— Vó, espera — disse Davi. — O nome que apareceu é Marcos Silva. O senhor não se chama Antônio?\n\nO feirante arregalou os olhos e foi conferir a placa. Alguém tinha colado um adesivo novo por cima do QR code verdadeiro. Quem pagasse ali mandaria o dinheiro para um desconhecido.\n\nSeu Antônio arrancou o adesivo, agradeceu e ainda deu duas bananas de presente para o menino. Depois contou que, na semana anterior, três clientes tinham pagado sem olhar o nome. O dinheiro nunca chegou para ele.\n\nNo caminho de volta, a avó quis saber onde Davi tinha aprendido aquilo.\n\n— Na escola a gente estuda razão e proporção, e no celular eu estudo golpes — riu ele. — Antes de confirmar, sempre confiro o nome e o valor. Leva cinco segundos.\n\nA avó guardou o celular no bolso, orgulhosa. Naquele dia, cinco segundos valeram mais do que a sacola inteira de frutas."
+  },
+  "escrita": {
+    "proposta": "Escreva de 5 a 10 linhas no caderno explicando para alguém da sua família como fazer um Pix com segurança. Diga o que conferir antes de confirmar e o que nunca passar para ninguém. Se puder, conte um caso de golpe que você já ouviu falar e como ele poderia ter sido evitado."
+  }
+}

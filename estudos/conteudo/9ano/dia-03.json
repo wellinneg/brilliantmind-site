@@ -1,0 +1,899 @@
+{
+  "dia": 3,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Átomo e tabela periódica",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Tudo o que existe é feito de átomos. No centro do átomo fica o núcleo, com prótons (carga positiva) e nêutrons (sem carga). Em volta, na eletrosfera, giram os elétrons (carga negativa), organizados em camadas.",
+          "O número atômico (Z) é a quantidade de prótons e funciona como a “identidade” do elemento: todo átomo com 8 prótons é oxigênio. O número de massa (A) é a soma de prótons e nêutrons: A = Z + n.",
+          "Num átomo neutro, o número de elétrons é igual ao de prótons, e as cargas se anulam. Quase toda a massa do átomo está no núcleo, porque o elétron é muito mais leve que o próton e o nêutron.",
+          "A tabela periódica organiza os elementos em ordem crescente de número atômico: hidrogênio (Z = 1), carbono (6), oxigênio (8), sódio (11), cálcio (20), ferro (26). As linhas são os períodos (7) e as colunas são os grupos ou famílias (18).",
+          "Elementos do mesmo grupo têm propriedades químicas parecidas. A maior parte da tabela é de metais (bons condutores, brilhantes). À direita ficam os não metais e, na última coluna (grupo 18), os gases nobres, como hélio e neônio, que quase não reagem."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O sódio tem Z = 11 e A = 23. Quantos prótons, nêutrons e elétrons tem o átomo neutro?",
+            "resolucao": "Prótons = Z = 11. Nêutrons = A − Z = 23 − 11 = 12. Elétrons (neutro) = prótons = 11."
+          },
+          {
+            "enunciado": "O cloro (Z = 17) ganha 1 elétron. Como fica?",
+            "resolucao": "Fica com 17 prótons e 18 elétrons: sobra uma carga negativa. Vira o íon Cl⁻, um ânion."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Íons são átomos que ganharam ou perderam elétrons (os prótons nunca mudam numa reação química). Perdeu elétrons: fica positivo, é um cátion (Mg²⁺ perdeu 2). Ganhou elétrons: fica negativo, é um ânion (Cl⁻ ganhou 1).",
+        "Isótopos são átomos do mesmo elemento (mesmo Z) com número de nêutrons diferente. O carbono-12 tem 6 nêutrons e o carbono-14 tem 8; o carbono-14 é usado para descobrir a idade de fósseis.",
+        "O período indica o número de camadas de elétrons, e nos grupos 1 e 2 o número do grupo indica quantos elétrons há na última camada. Sódio: 3 camadas, 1 elétron na última, então está no 3º período e no grupo 1. Em 1869, Mendeleiev montou a tabela e deixou espaços vazios para elementos que ainda não tinham sido descobertos, prevendo suas propriedades."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual partícula do átomo tem carga positiva?",
+            "alternativas": [
+              "Elétron",
+              "Nêutron",
+              "Próton",
+              "Molécula"
+            ],
+            "correta": 2,
+            "explicacao": "O próton é positivo, o elétron é negativo e o nêutron não tem carga.",
+            "dica": "Lembre: positivo, negativo e sem carga. Qual fica no núcleo e é positivo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam os elétrons?",
+            "alternativas": [
+              "Na eletrosfera, em volta do núcleo",
+              "Dentro do núcleo",
+              "Só na tabela periódica",
+              "Grudados nos nêutrons"
+            ],
+            "correta": 0,
+            "explicacao": "Os elétrons ficam na eletrosfera, organizados em camadas.",
+            "dica": "O nome da região tem a ver com “elétron”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O número atômico (Z) indica:",
+            "alternativas": [
+              "O número de nêutrons",
+              "O peso do átomo em gramas",
+              "O número de camadas",
+              "O número de prótons"
+            ],
+            "correta": 3,
+            "explicacao": "Z é a quantidade de prótons, a identidade do elemento.",
+            "dica": "É a “identidade” do elemento, contada no núcleo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As colunas da tabela periódica se chamam:",
+            "alternativas": [
+              "Períodos",
+              "Grupos ou famílias",
+              "Camadas",
+              "Núcleos"
+            ],
+            "correta": 1,
+            "explicacao": "Colunas = grupos (famílias); linhas = períodos.",
+            "dica": "As linhas são os períodos. E as colunas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam os gases nobres, como hélio e neônio?",
+            "alternativas": [
+              "Na primeira coluna, o grupo 1",
+              "No meio da tabela",
+              "Na última coluna, o grupo 18",
+              "Fora da tabela periódica"
+            ],
+            "correta": 2,
+            "explicacao": "Os gases nobres ocupam o grupo 18, a última coluna à direita.",
+            "dica": "Eles ficam bem na ponta direita da tabela."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um átomo tem Z = 8 e A = 16. Quantos nêutrons ele tem?",
+            "alternativas": [
+              "16",
+              "8",
+              "24",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "n = A − Z = 16 − 8 = 8.",
+            "dica": "Massa = prótons + nêutrons. Faça a subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O cálcio tem Z = 20. Quantos elétrons tem o átomo neutro?",
+            "alternativas": [
+              "10",
+              "40",
+              "18",
+              "20"
+            ],
+            "correta": 3,
+            "explicacao": "No átomo neutro, elétrons = prótons = 20.",
+            "dica": "No átomo neutro as cargas positivas e negativas se equilibram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O sódio tem Z = 11 e A = 23. Quantos nêutrons?",
+            "alternativas": [
+              "12",
+              "11",
+              "23",
+              "34"
+            ],
+            "correta": 0,
+            "explicacao": "23 − 11 = 12 nêutrons.",
+            "dica": "Subtraia o número atômico do número de massa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As linhas da tabela periódica são os períodos. O que eles indicam?",
+            "alternativas": [
+              "O número de nêutrons",
+              "Se o elemento é sólido",
+              "O número de camadas de elétrons",
+              "A idade do elemento"
+            ],
+            "correta": 2,
+            "explicacao": "Elementos do 3º período têm 3 camadas de elétrons, por exemplo.",
+            "dica": "Pense na eletrosfera e em como os elétrons se organizam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que os elementos de um mesmo grupo têm em comum?",
+            "alternativas": [
+              "Propriedades químicas parecidas",
+              "O mesmo número de massa",
+              "O mesmo número de prótons",
+              "A mesma cor"
+            ],
+            "correta": 0,
+            "explicacao": "Por isso a tabela é tão útil: a coluna já diz muito sobre o comportamento do elemento.",
+            "dica": "A tabela coloca na mesma coluna quem se comporta de forma semelhante."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O cloro (Z = 17) ganha 1 elétron. Quantos elétrons tem o íon Cl⁻?",
+            "alternativas": [
+              "16",
+              "17",
+              "35",
+              "18"
+            ],
+            "correta": 3,
+            "explicacao": "17 + 1 = 18 elétrons. Os prótons continuam 17.",
+            "dica": "Ganhar elétron aumenta ou diminui a quantidade de elétrons?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O magnésio (Z = 12) perde 2 elétrons e vira Mg²⁺. Quantos elétrons ele tem?",
+            "alternativas": [
+              "14",
+              "10",
+              "12",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "12 − 2 = 10. A carga +2 aparece porque sobram 2 prótons sem par.",
+            "dica": "Comece pelos elétrons do átomo neutro e tire os que foram perdidos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um átomo de ferro tem A = 56 e 30 nêutrons. Qual é o número atômico?",
+            "alternativas": [
+              "86",
+              "30",
+              "26",
+              "56"
+            ],
+            "correta": 2,
+            "explicacao": "Z = A − n = 56 − 30 = 26.",
+            "dica": "A massa é prótons mais nêutrons; descubra quantos são prótons."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene pelo número atômico, do menor para o maior:",
+            "itens": [
+              "Hidrogênio (H)",
+              "Carbono (C)",
+              "Oxigênio (O)",
+              "Sódio (Na)",
+              "Ferro (Fe)"
+            ],
+            "explicacao": "H = 1, C = 6, O = 8, Na = 11, Fe = 26. É a ordem da tabela periódica.",
+            "dica": "Use os números atômicos citados na lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde está concentrada quase toda a massa do átomo?",
+            "alternativas": [
+              "Na eletrosfera, onde ficam os elétrons",
+              "No núcleo, onde ficam prótons e nêutrons",
+              "Igualmente espalhada pelo átomo",
+              "Nos elétrons da última camada"
+            ],
+            "correta": 1,
+            "explicacao": "Prótons e nêutrons são muito mais pesados que os elétrons.",
+            "dica": "Compare o peso do elétron com o do próton e do nêutron."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Carbono-12 e carbono-14 são isótopos. Em que eles diferem?",
+            "alternativas": [
+              "No número de nêutrons",
+              "No número de prótons",
+              "No número de elétrons do átomo neutro",
+              "No nome do elemento"
+            ],
+            "correta": 0,
+            "explicacao": "Os dois têm 6 prótons (são carbono). O C-12 tem 6 nêutrons e o C-14 tem 8.",
+            "dica": "Se mudassem os prótons, mudaria o elemento. O que sobra para mudar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um íon X²⁺ tem 18 elétrons e 20 nêutrons. Qual é o número de massa de X?",
+            "alternativas": [
+              "38",
+              "36",
+              "40",
+              "42"
+            ],
+            "correta": 2,
+            "explicacao": "Perdeu 2 elétrons: o neutro tinha 20 elétrons, logo Z = 20. A = 20 + 20 = 40.",
+            "dica": "Se perdeu 2 elétrons, o átomo neutro tinha 2 a mais; isso dá os prótons."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um elemento tem 3 camadas de elétrons e 1 elétron na última camada. Qual é?",
+            "alternativas": [
+              "Lítio (Li), do 2º período e grupo 1",
+              "Sódio (Na), do 3º período e grupo 1",
+              "Cloro (Cl), do 3º período e grupo 17",
+              "Magnésio (Mg), do 3º período e grupo 2"
+            ],
+            "correta": 1,
+            "explicacao": "3 camadas = 3º período; 1 elétron na última = grupo 1. É o sódio.",
+            "dica": "O número de camadas dá o período; o elétron da última camada dá o grupo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que Mendeleiev fez de mais ousado ao montar a tabela, em 1869?",
+            "alternativas": [
+              "Descobriu todos os elementos sozinho",
+              "Ordenou os elementos por cor",
+              "Inventou o elétron",
+              "Deixou espaços vazios para elementos ainda não descobertos"
+            ],
+            "correta": 3,
+            "explicacao": "Ele previu elementos que ainda não existiam na lista, e anos depois eles foram descobertos.",
+            "dica": "Releia o fim do aprofundamento: o que ele fez com as lacunas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um átomo tem 17 prótons, 18 nêutrons e 18 elétrons. O que ele é?",
+            "alternativas": [
+              "Um cátion com carga +1",
+              "Um átomo neutro",
+              "Um isótopo sem carga",
+              "Um ânion com carga −1"
+            ],
+            "correta": 3,
+            "explicacao": "Há 1 elétron a mais que prótons: carga −1, ânion. Os nêutrons não entram na conta da carga.",
+            "dica": "Para a carga, compare só prótons e elétrons; os nêutrons não contam."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Investimentos: poupança, Tesouro e CDB",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Investir é deixar o dinheiro trabalhando para você. Para escolher, olhe três coisas: segurança (o risco de perder), liquidez (a rapidez para ter o dinheiro de volta) e rentabilidade (quanto rende).",
+          "Poupança: é simples e não paga Imposto de Renda, mas costuma render menos que outras opções seguras. Ela é protegida pelo FGC (Fundo Garantidor de Créditos) até R$ 250 mil por CPF em cada banco.",
+          "Tesouro Direto: você empresta dinheiro para o governo federal e recebe juros. É considerado o investimento mais seguro do país. O Tesouro Selic acompanha a taxa básica de juros e é bom para a reserva de emergência.",
+          "CDB: você empresta dinheiro para um banco. Muitos rendem uma porcentagem do CDI, uma taxa que anda perto da Selic (por exemplo, 100% do CDI). Também tem a proteção do FGC até R$ 250 mil por CPF por banco.",
+          "Tesouro e CDB pagam Imposto de Renda sobre o lucro, e quanto mais tempo o dinheiro fica aplicado, menor a alíquota. Menores de idade podem investir com a ajuda de um responsável. E desconfie sempre de “rendimento garantido” muito alto: é sinal de golpe."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um CDB de 100% do CDI, com CDI de 10% ao ano. Você aplica R$ 2.000. Quanto rende bruto em 1 ano?",
+            "resolucao": "10% de 2.000 = R$ 200 de rendimento bruto (antes do Imposto de Renda)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A tabela do Imposto de Renda de Tesouro e CDB é regressiva: 22,5% para até 180 dias, 20% de 181 a 360 dias, 17,5% de 361 a 720 dias e 15% acima de 720 dias. O imposto incide só sobre o lucro, não sobre o valor aplicado.",
+        "Para comparar com a poupança, que não paga imposto, calcule o rendimento líquido. Um CDB que rende 8% ao ano com 20% de imposto rende, líquido, 8% × 0,8 = 6,4%.",
+        "O ganho real desconta a inflação: rendeu 10% e a inflação foi 4%, o ganho real exato é 1,10 ÷ 1,04 − 1 ≈ 5,8%. Outro detalhe: no Tesouro Prefixado e no IPCA+, quem vende antes do vencimento recebe o preço do dia, que pode ser menor que o pago. E se você tem mais de R$ 250 mil, dividir entre bancos diferentes mantém tudo coberto pelo FGC."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No Tesouro Direto, você empresta dinheiro para quem?",
+            "alternativas": [
+              "Um banco",
+              "Uma loja",
+              "O governo federal",
+              "Um amigo"
+            ],
+            "correta": 2,
+            "explicacao": "Título público = empréstimo ao governo, que devolve com juros.",
+            "dica": "O nome “Tesouro” lembra o caixa do país."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No CDB, você empresta dinheiro para quem?",
+            "alternativas": [
+              "Um banco",
+              "O governo federal",
+              "A prefeitura",
+              "Uma escola"
+            ],
+            "correta": 0,
+            "explicacao": "CDB quer dizer Certificado de Depósito Bancário: o dinheiro vai para um banco.",
+            "dica": "A letra B da sigla dá uma pista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Até quanto o FGC garante por CPF em cada banco?",
+            "alternativas": [
+              "R$ 1 mil",
+              "R$ 50 mil",
+              "R$ 10 milhões",
+              "R$ 250 mil"
+            ],
+            "correta": 3,
+            "explicacao": "O FGC cobre até R$ 250 mil por CPF por instituição.",
+            "dica": "O valor está no parágrafo da poupança; é um quarto de milhão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é liquidez?",
+            "alternativas": [
+              "O quanto o investimento rende",
+              "A rapidez para transformar o investimento em dinheiro",
+              "O risco de perder dinheiro",
+              "O nome do banco"
+            ],
+            "correta": 1,
+            "explicacao": "Liquidez é a facilidade de resgatar. Rendimento é rentabilidade.",
+            "dica": "Pense em “líquido”: algo que escorre fácil para a sua mão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A poupança paga Imposto de Renda?",
+            "alternativas": [
+              "Sim, 15% sempre",
+              "Sim, 22,5% sempre",
+              "Não, ela é isenta",
+              "Só para menores de idade"
+            ],
+            "correta": 2,
+            "explicacao": "A poupança é isenta de Imposto de Renda para pessoas físicas.",
+            "dica": "A lição disse que ela é simples e tem uma vantagem sobre o imposto."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000,00 rendendo 1% em um mês viram quanto?",
+            "alternativas": [
+              "R$ 1.100,00",
+              "R$ 1.010,00",
+              "R$ 1.001,00",
+              "R$ 1.000,10"
+            ],
+            "correta": 1,
+            "explicacao": "1% de 1.000 = 10. Total R$ 1.010.",
+            "dica": "Calcule 1% de mil e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "CDB de 100% do CDI, com CDI de 10% ao ano. R$ 2.000 rendem quanto bruto em 1 ano?",
+            "alternativas": [
+              "R$ 20,00",
+              "R$ 2.200,00",
+              "R$ 100,00",
+              "R$ 200,00"
+            ],
+            "correta": 3,
+            "explicacao": "10% de 2.000 = 200. O R$ 2.200 é o total, não o rendimento.",
+            "dica": "A pergunta é só sobre o rendimento, não sobre o total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual item NÃO faz parte do tripé para escolher um investimento?",
+            "alternativas": [
+              "A sorte",
+              "A segurança",
+              "A liquidez",
+              "A rentabilidade"
+            ],
+            "correta": 0,
+            "explicacao": "O tripé é segurança, liquidez e rentabilidade.",
+            "dica": "Lembre das três coisas que a lição mandou observar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual investimento acompanha a taxa básica de juros do país?",
+            "alternativas": [
+              "Poupança antiga de 1990",
+              "Tesouro Prefixado",
+              "Tesouro Selic",
+              "Ações de uma empresa"
+            ],
+            "correta": 2,
+            "explicacao": "O próprio nome diz: o Tesouro Selic segue a Selic.",
+            "dica": "O nome da taxa básica de juros aparece no nome do título."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde é melhor deixar a reserva de emergência?",
+            "alternativas": [
+              "Num investimento seguro e com resgate rápido",
+              "Num investimento de risco alto",
+              "Numa aplicação que só pode ser resgatada em 10 anos",
+              "Emprestado a um colega"
+            ],
+            "correta": 0,
+            "explicacao": "Emergência pede segurança e liquidez, como o Tesouro Selic ou um CDB de liquidez diária.",
+            "dica": "Na emergência você precisa do dinheiro logo e sem perdas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um CDB rendeu R$ 200 brutos e o Imposto de Renda é de 15%. Quanto sobra líquido?",
+            "alternativas": [
+              "R$ 185,00",
+              "R$ 30,00",
+              "R$ 200,00",
+              "R$ 170,00"
+            ],
+            "correta": 3,
+            "explicacao": "15% de 200 = 30. 200 − 30 = 170.",
+            "dica": "Calcule o imposto sobre o lucro e tire do rendimento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "CDB de 110% do CDI, com CDI de 10% ao ano. R$ 1.000 rendem quanto bruto em 1 ano?",
+            "alternativas": [
+              "R$ 100,00",
+              "R$ 110,00",
+              "R$ 1.100,00",
+              "R$ 210,00"
+            ],
+            "correta": 1,
+            "explicacao": "110% de 10% = 11% ao ano. 11% de 1.000 = 110.",
+            "dica": "Primeiro descubra a taxa do CDB (110% de 10%) e depois aplique em mil."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Poupança rendendo 6% ao ano (isenta) ou CDB rendendo 8% ao ano com imposto de 20%. Qual rende mais líquido?",
+            "alternativas": [
+              "A poupança, com 6%",
+              "Os dois rendem igual",
+              "O CDB, com 6,4% líquido",
+              "O CDB, com 8% líquido"
+            ],
+            "correta": 2,
+            "explicacao": "CDB líquido: 8% × 0,8 = 6,4%, que é maior que 6%.",
+            "dica": "Desconte o imposto do CDB antes de comparar com a poupança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um site promete “5% ao mês garantido, sem risco”. O que fazer?",
+            "alternativas": [
+              "Desconfiar: rendimento alto garantido é sinal de golpe",
+              "Investir tudo rápido",
+              "Pegar empréstimo para investir mais",
+              "Chamar os amigos para entrar"
+            ],
+            "correta": 0,
+            "explicacao": "Nenhum investimento seguro garante algo tão alto; promessas assim são típicas de golpes e pirâmides.",
+            "dica": "Compare com o rendimento das opções seguras da lição."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as faixas de prazo do Imposto de Renda, da MAIOR alíquota para a MENOR:",
+            "itens": [
+              "Até 180 dias",
+              "De 181 a 360 dias",
+              "De 361 a 720 dias",
+              "Acima de 720 dias"
+            ],
+            "explicacao": "22,5%, 20%, 17,5% e 15%: quanto mais tempo, menos imposto.",
+            "dica": "Quanto mais tempo o dinheiro fica aplicado, menor o imposto."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 5.000 num CDB de 100% do CDI, com CDI de 12% ao ano, por 1 ano (365 dias). Qual o rendimento líquido?",
+            "alternativas": [
+              "R$ 495,00",
+              "R$ 600,00",
+              "R$ 510,00",
+              "R$ 480,00"
+            ],
+            "correta": 0,
+            "explicacao": "Bruto: 12% de 5.000 = 600. 365 dias cai na faixa de 17,5%: imposto = 105. Líquido = 495. Os R$ 510 usariam 15%.",
+            "dica": "Um ano tem 365 dias: confira em que faixa da tabela isso cai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Carla tinha R$ 300 mil num CDB de um banco que quebrou. Quanto o FGC devolve?",
+            "alternativas": [
+              "R$ 300 mil",
+              "R$ 50 mil",
+              "R$ 250 mil",
+              "Nada"
+            ],
+            "correta": 2,
+            "explicacao": "O FGC cobre até R$ 250 mil por CPF por instituição; os R$ 50 mil restantes ficam sem garantia.",
+            "dica": "O fundo tem um limite por CPF em cada banco."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como proteger R$ 400 mil totalmente pelo FGC?",
+            "alternativas": [
+              "Deixar tudo num só banco grande",
+              "Dividir em dois bancos diferentes, R$ 200 mil em cada",
+              "Dividir em dois CDBs do mesmo banco",
+              "Colocar no nome de um amigo"
+            ],
+            "correta": 1,
+            "explicacao": "O limite é por CPF por instituição: dois bancos, dois limites.",
+            "dica": "O limite vale por CPF e por instituição, não por aplicação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um investimento rendeu 10% e a inflação foi 4%. Qual foi o ganho real?",
+            "alternativas": [
+              "14%",
+              "10%",
+              "Cerca de 6,4%",
+              "Cerca de 5,8%"
+            ],
+            "correta": 3,
+            "explicacao": "1,10 ÷ 1,04 ≈ 1,058: ganho real de cerca de 5,8%. Subtrair dá 6%, que é só uma aproximação.",
+            "dica": "Releia o aprofundamento: o ganho real divide, não subtrai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia comprou Tesouro Prefixado e precisou vender antes do vencimento. O que pode acontecer?",
+            "alternativas": [
+              "Receber sempre o valor combinado no vencimento",
+              "Ser proibida de vender",
+              "Perder tudo automaticamente",
+              "Receber o preço do dia, que pode ser menor que o valor pago"
+            ],
+            "correta": 3,
+            "explicacao": "Antes do vencimento vale o preço de mercado do dia, que pode subir ou cair.",
+            "dica": "Antes do vencimento, quem define o valor é o preço do dia."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Marca pessoal e LinkedIn",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Marca pessoal é a imagem que as pessoas formam de você pelo que você mostra, faz e posta. Na internet, ela é construída todos os dias, a cada foto, comentário e compartilhamento.",
+          "O que vai para a internet pode ficar lá para sempre: alguém pode tirar print, salvar ou repostar. Recrutadores e escolas costumam pesquisar o nome de candidatos antes de chamar para entrevista.",
+          "O LinkedIn é uma rede social profissional, para mostrar estudos, experiências e habilidades e para conhecer empresas. Pelas regras do site, a idade mínima é 16 anos.",
+          "Um bom perfil tem foto com o rosto bem visível, um título claro (por exemplo, “Estudante do 1º ano do ensino médio | Interesse em administração”), um resumo curto, cursos, trabalhos voluntários, projetos da escola e habilidades.",
+          "Cuide do jeito de se comunicar: seja educado nos comentários, não exponha colegas, não espalhe boatos e escreva com atenção ao português. Isso vale para todas as redes, não só para o LinkedIn."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Rafael, 16 anos, nunca trabalhou. O que ele pode colocar no LinkedIn?",
+            "resolucao": "Escola e ano que cursa, cursos online gratuitos, a feira de ciências que organizou, o trabalho voluntário na igreja ou na associação do bairro, e habilidades como Excel básico e atendimento."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Sua marca pessoal é a soma de todas as redes. Uma pessoa com um perfil profissional caprichado, mas com posts ofensivos em outra rede, passa uma imagem de incoerência. Revise de tempos em tempos o que está público com o seu nome.",
+        "Faça a “busca do recrutador”: pesquise o próprio nome entre aspas num buscador e veja o que aparece. Dá para deixar perfis pessoais fechados e manter aberto só o que você quer mostrar.",
+        "No mundo profissional, contatos (o famoso networking) abrem portas. Comentar com respeito um post de uma empresa, parabenizar alguém por uma conquista e agradecer uma ajuda são gestos que fazem as pessoas lembrarem de você do jeito certo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é marca pessoal?",
+            "alternativas": [
+              "O logotipo de uma empresa",
+              "A senha do seu perfil",
+              "A imagem que as pessoas formam de você",
+              "Uma marca de roupa"
+            ],
+            "correta": 2,
+            "explicacao": "Marca pessoal é a sua reputação: o que pensam de você pelo que você mostra e faz.",
+            "dica": "Não é logotipo: é sobre a sua reputação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma foto postada e apagada depois:",
+            "alternativas": [
+              "Pode ter sido salva ou printada por alguém",
+              "Some para sempre de todos os lugares",
+              "Nunca foi vista por ninguém",
+              "Volta só para quem postou"
+            ],
+            "correta": 0,
+            "explicacao": "Apagar não garante nada: alguém pode ter salvado antes.",
+            "dica": "Pense no print de tela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o LinkedIn?",
+            "alternativas": [
+              "É um jogo online",
+              "É um aplicativo de banco",
+              "É um site de receitas",
+              "É uma rede social profissional"
+            ],
+            "correta": 3,
+            "explicacao": "No LinkedIn as pessoas mostram estudos, experiências e procuram oportunidades.",
+            "dica": "Lembre do tipo de informação que aparece num perfil dessa rede."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a idade mínima para ter LinkedIn, pelas regras do site?",
+            "alternativas": [
+              "10 anos",
+              "16 anos",
+              "13 anos",
+              "21 anos"
+            ],
+            "correta": 1,
+            "explicacao": "As regras do LinkedIn pedem pelo menos 16 anos.",
+            "dica": "É a mesma idade em que o voto passa a ser possível no Brasil."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual foto combina mais com um perfil profissional?",
+            "alternativas": [
+              "Uma foto de festa com amigos",
+              "Um desenho animado",
+              "Uma foto com o rosto bem visível e fundo simples",
+              "Uma foto escura de longe"
+            ],
+            "correta": 2,
+            "explicacao": "A foto deve mostrar quem você é, de forma clara e simples.",
+            "dica": "Quem olha o perfil precisa reconhecer você."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que recrutadores pesquisam o nome dos candidatos na internet?",
+            "alternativas": [
+              "Para descobrir a senha do candidato",
+              "Para conhecer melhor o comportamento e a imagem da pessoa",
+              "Porque são obrigados por lei",
+              "Para copiar as fotos"
+            ],
+            "correta": 1,
+            "explicacao": "O que você posta ajuda (ou atrapalha) a imagem que a empresa forma de você.",
+            "dica": "Pense no que uma empresa quer saber antes de contratar alguém."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual título é melhor para o LinkedIn de uma estudante?",
+            "alternativas": [
+              "A melhor de todas",
+              "Desempregada e sem nada",
+              "Olá, sou eu",
+              "Estudante do 9º ano | Interesse em tecnologia"
+            ],
+            "correta": 3,
+            "explicacao": "Um bom título diz o que você faz agora e o que te interessa.",
+            "dica": "O título deve informar, em poucas palavras, o momento e o interesse da pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem experiência de trabalho, o que vale colocar no perfil?",
+            "alternativas": [
+              "Cursos, voluntariado e projetos da escola",
+              "Nada, deixar o perfil vazio",
+              "Inventar empregos",
+              "A lista de jogos favoritos"
+            ],
+            "correta": 0,
+            "explicacao": "Cursos, voluntariado e projetos escolares mostram habilidades reais. Inventar é mentira e pode ser descoberto.",
+            "dica": "Pense em coisas reais que mostram que você sabe fazer algo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um colega comentou uma besteira num post público e você discorda. O que preserva sua marca pessoal?",
+            "alternativas": [
+              "Xingar e expor o colega",
+              "Fazer um print e espalhar em grupos",
+              "Responder com educação e argumentos, ou simplesmente não responder",
+              "Criar um perfil falso para atacar"
+            ],
+            "correta": 2,
+            "explicacao": "Respeito na discussão mostra maturidade; ataques ficam registrados contra você.",
+            "dica": "Quem lê a conversa depois vai formar uma imagem de você. Qual?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um perfil de rede social bem revisado ajuda porque:",
+            "alternativas": [
+              "Mostra cuidado e atenção aos detalhes",
+              "Aumenta a velocidade da internet",
+              "Garante emprego imediato",
+              "Impede qualquer crítica"
+            ],
+            "correta": 0,
+            "explicacao": "Escrever com atenção passa a imagem de alguém cuidadoso, mas nada garante emprego sozinho.",
+            "dica": "Pense na impressão que um texto sem erros causa em quem lê."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Júlia tem um LinkedIn ótimo, mas posts ofensivos públicos em outra rede. Qual é o problema?",
+            "alternativas": [
+              "Nenhum, cada rede é separada",
+              "O LinkedIn apaga as outras redes",
+              "Só o LinkedIn é pesquisado",
+              "A marca pessoal é a soma de todas as redes, e os posts passam uma imagem incoerente"
+            ],
+            "correta": 3,
+            "explicacao": "Quem pesquisa o nome dela vê tudo o que está público, não só o perfil profissional.",
+            "dica": "Quem pesquisa o nome de alguém vê só uma rede ou todas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a “busca do recrutador”?",
+            "alternativas": [
+              "Procurar vagas só em jornais",
+              "Pesquisar o próprio nome num buscador para ver o que aparece",
+              "Seguir todos os recrutadores",
+              "Apagar todas as redes sociais"
+            ],
+            "correta": 1,
+            "explicacao": "É um jeito de enxergar sua imagem do lado de fora, como uma empresa enxergaria.",
+            "dica": "Faça você mesmo o que um recrutador faria antes da entrevista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude ajuda no networking?",
+            "alternativas": [
+              "Mandar a mesma mensagem pedindo emprego para mil pessoas",
+              "Comentar só para reclamar",
+              "Parabenizar alguém por uma conquista com uma mensagem respeitosa",
+              "Copiar o post de outra pessoa como se fosse seu"
+            ],
+            "correta": 2,
+            "explicacao": "Gestos sinceros e educados fazem as pessoas lembrarem de você positivamente.",
+            "dica": "Networking é construir relações, não fazer spam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Tiago, 15 anos, quer criar um LinkedIn agora. O que é correto?",
+            "alternativas": [
+              "Esperar fazer 16 anos, pois é a idade mínima do site",
+              "Mentir a idade no cadastro",
+              "Usar o perfil do irmão mais velho",
+              "Criar com o nome de um amigo"
+            ],
+            "correta": 0,
+            "explicacao": "As regras pedem 16 anos. Mentir no cadastro já começa a marca pessoal com uma mentira.",
+            "dica": "Pense nas regras do site e no que uma mentira faria com a marca pessoal."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para montar um primeiro perfil profissional:",
+            "itens": [
+              "Fazer a busca do próprio nome e revisar o que está público",
+              "Escolher uma foto com o rosto visível",
+              "Escrever um título e um resumo curto",
+              "Adicionar cursos, projetos e voluntariado"
+            ],
+            "explicacao": "Primeiro arrume o que já existe, depois monte o perfil do básico ao detalhe.",
+            "dica": "Comece revisando o que já existe e termine pelos detalhes."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana deixou o perfil pessoal fechado e o LinkedIn aberto. Ela pode postar qualquer coisa no perfil fechado sem risco?",
+            "alternativas": [
+              "Não, porque quem vê pode tirar print e espalhar",
+              "Sim, perfil fechado é 100% seguro",
+              "Sim, porque só a família vê",
+              "Não, porque perfil fechado é proibido"
+            ],
+            "correta": 0,
+            "explicacao": "Fechar o perfil reduz a exposição, mas qualquer seguidor pode copiar e espalhar.",
+            "dica": "Lembre da lição: o que vai para a internet pode ser salvo por alguém."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual resumo de perfil é mais forte para um estudante?",
+            "alternativas": [
+              "Sou muito esforçado e dedicado",
+              "Gosto de muitas coisas",
+              "Organizei a feira de ciências da escola com 12 colegas e aprendi a dividir tarefas",
+              "Procuro qualquer coisa"
+            ],
+            "correta": 2,
+            "explicacao": "Um fato concreto (o que fez, com quantas pessoas, o que aprendeu) prova a qualidade, em vez de só dizer.",
+            "dica": "Mostrar um fato convence mais do que usar adjetivos sobre si mesmo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro escreveu num post: “odeio meu professor, a escola é um lixo”. Anos depois, o que pode acontecer?",
+            "alternativas": [
+              "Nada, posts antigos sempre somem",
+              "O post pode aparecer numa pesquisa e prejudicar a imagem dele",
+              "O post vira currículo automaticamente",
+              "O professor é obrigado a apagar"
+            ],
+            "correta": 1,
+            "explicacao": "Posts antigos podem continuar públicos ou printados por anos.",
+            "dica": "Pense no que a internet guarda e em quem pode pesquisar o nome dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um desconhecido no LinkedIn pede seu CPF e endereço para “uma vaga incrível”. O que fazer?",
+            "alternativas": [
+              "Enviar logo para não perder a vaga",
+              "Mandar também a senha do e-mail",
+              "Enviar só o CPF",
+              "Desconfiar e não enviar dados pessoais por mensagem"
+            ],
+            "correta": 3,
+            "explicacao": "Empresas sérias não pedem dados sensíveis por mensagem antes de qualquer processo. Pode ser golpe.",
+            "dica": "Rede profissional também tem golpistas. Dados sensíveis devem circular por mensagem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação forma uma marca pessoal mais coerente?",
+            "alternativas": [
+              "Perfil profissional caprichado e comentários agressivos em outras redes",
+              "Nenhum perfil e muitos perfis falsos",
+              "Perfil profissional com experiências inventadas",
+              "Perfil profissional caprichado e posts respeitosos nas outras redes"
+            ],
+            "correta": 3,
+            "explicacao": "Coerência: o que você mostra numa rede combina com o que faz nas outras, sempre com verdade.",
+            "dica": "Marca pessoal é a soma de tudo o que é público e verdadeiro sobre você."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "As cartas de Mendeleiev",
+    "texto": "Em 1869, o químico russo Dmitri Mendeleiev tinha um problema. Já se conheciam cerca de 63 elementos químicos, mas eles pareciam uma bagunça: alguns eram metais brilhantes, outros eram gases, e ninguém sabia se havia alguma ordem por trás de tudo aquilo.\n\nConta-se que Mendeleiev escreveu o nome e as características de cada elemento em cartões, como um jogo de cartas, e passou horas mudando os cartões de lugar sobre a mesa. Ele percebeu que, colocando os elementos em ordem de massa, certas propriedades se repetiam de tempos em tempos, como as estações do ano. Daí vem o nome “periódica”.\n\nO mais genial veio depois. Quando a sequência não encaixava, Mendeleiev não forçava. Ele deixava um espaço vazio e dizia: aqui existe um elemento que ainda não descobrimos. E foi além: previu o peso, a densidade e o comportamento desses elementos desconhecidos.\n\nMuitos cientistas desconfiaram. Mas, em 1875, foi descoberto o gálio, e em 1886, o germânio, com propriedades muito parecidas com as que ele tinha previsto. A tabela deixou de ser uma curiosidade e virou uma das ferramentas mais importantes da ciência.\n\nHoje a tabela é organizada pelo número atômico, o número de prótons, e tem 118 elementos. Um deles, o de número 101, se chama mendelévio, em homenagem a ele.\n\nA história ensina que a ciência não é só decorar respostas. É organizar o que se sabe, encontrar padrões e ter coragem de admitir: aqui falta alguma coisa que ainda vamos descobrir."
+  },
+  "escrita": {
+    "proposta": "Mendeleiev organizou uma bagunça em cartões e descobriu um padrão. Escreva de 5 a 10 linhas sobre algo da sua vida que parecia bagunçado (material da escola, horários, gastos, o celular) e como você poderia organizar isso em grupos, como as colunas da tabela periódica. Que padrão você espera descobrir?"
+  }
+}

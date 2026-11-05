@@ -1,0 +1,897 @@
+{
+  "dia": 6,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Notação científica",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "A notação científica é um jeito curto de escrever números muito grandes ou muito pequenos. Ela tem sempre a forma a × 10ⁿ, em que a é um número maior ou igual a 1 e menor que 10, e n é um número inteiro.",
+          "Para números grandes, contamos quantas casas a vírgula “anda” para a esquerda até sobrar só um algarismo antes dela. Exemplo: 45 000 = 4,5 × 10⁴, porque a vírgula andou 4 casas.",
+          "Para números pequenos, a vírgula anda para a direita e o expoente fica negativo. Exemplo: 0,003 = 3 × 10⁻³, porque a vírgula andou 3 casas para a direita.",
+          "Os cientistas usam muito essa notação: a distância da Terra ao Sol é cerca de 1,5 × 10⁸ km, e o diâmetro de uma bactéria é algo perto de 1 × 10⁻⁶ m.",
+          "Para multiplicar números em notação científica, multiplicamos as partes da frente e somamos os expoentes: (2 × 10³) × (3 × 10⁴) = 6 × 10⁷."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva 230 000 000 em notação científica.",
+            "resolucao": "A vírgula anda 8 casas para a esquerda até ficar 2,3. Resposta: 2,3 × 10⁸."
+          },
+          {
+            "enunciado": "Calcule (4 × 10⁵) × (2,5 × 10²).",
+            "resolucao": "4 × 2,5 = 10 e 10⁵ × 10² = 10⁷. Fica 10 × 10⁷. Como 10 não pode ficar na frente, reescrevemos: 1 × 10⁸."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Na divisão, fazemos o contrário da multiplicação: dividimos as partes da frente e SUBTRAÍMOS os expoentes. (8 × 10⁶) ÷ (2 × 10²) = 4 × 10⁴. Se a parte da frente ficar menor que 1, ajustamos: 0,5 × 10³ vira 5 × 10², porque a vírgula anda uma casa para a direita e o expoente diminui 1.",
+        "Para somar ou subtrair, os expoentes precisam ser iguais. Em 3 × 10⁴ + 5 × 10³, reescrevemos 5 × 10³ como 0,5 × 10⁴. Aí somamos as frentes: 3 + 0,5 = 3,5. Resultado: 3,5 × 10⁴ (ou seja, 30 000 + 5 000 = 35 000).",
+        "Para elevar a uma potência, elevamos a frente e multiplicamos o expoente: (2 × 10³)² = 2² × 10⁶ = 4 × 10⁶. E lembre: 10⁰ = 1, então 7 × 10⁰ é apenas 7."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na notação científica, o número da frente precisa ser:",
+            "alternativas": [
+              "Maior que 100",
+              "Maior ou igual a 1 e menor que 10",
+              "Sempre zero",
+              "Sempre negativo"
+            ],
+            "correta": 1,
+            "explicacao": "A forma é a × 10ⁿ, com a entre 1 (incluído) e 10 (sem incluir o 10).",
+            "dica": "Releia o primeiro parágrafo da lição: ele diz o tamanho que o número a pode ter."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10³?",
+            "alternativas": [
+              "30",
+              "100",
+              "1 000",
+              "10 000"
+            ],
+            "correta": 2,
+            "explicacao": "10³ = 10 × 10 × 10 = 1 000. O erro comum é fazer 10 × 3 = 30.",
+            "dica": "O expoente diz quantas vezes o 10 é multiplicado por ele mesmo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que em 0,003 = 3 × 10⁻³ o expoente é negativo?",
+            "alternativas": [
+              "Porque o número é pequeno, menor que 1",
+              "Porque o número é muito grande",
+              "Porque o 3 está no fim",
+              "Porque é um número abaixo de zero"
+            ],
+            "correta": 0,
+            "explicacao": "Expoente negativo indica número pequeno, entre 0 e 1. O número 0,003 é positivo, só é pequeno.",
+            "dica": "A vírgula andou para a direita. Isso acontece com números grandes ou com números pequenos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 5 000 em notação científica?",
+            "alternativas": [
+              "5 × 10²",
+              "50 × 10²",
+              "5 × 10⁴",
+              "5 × 10³"
+            ],
+            "correta": 3,
+            "explicacao": "A vírgula anda 3 casas para a esquerda até ficar 5: 5 × 10³.",
+            "dica": "Conte quantos zeros aparecem depois do 5."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque do menor para o maior:",
+            "itens": [
+              "10¹",
+              "10²",
+              "10³",
+              "10⁴"
+            ],
+            "explicacao": "10¹ = 10, 10² = 100, 10³ = 1 000 e 10⁴ = 10 000.",
+            "dica": "Quanto maior o expoente do 10, maior o número."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 7 200 em notação científica?",
+            "alternativas": [
+              "72 × 10²",
+              "7,2 × 10³",
+              "0,72 × 10⁴",
+              "7,2 × 10²"
+            ],
+            "correta": 1,
+            "explicacao": "A parte da frente precisa estar entre 1 e 10: 7,2. A vírgula andou 3 casas, então o expoente é 3: 7,2 × 10³.",
+            "dica": "A parte da frente precisa ficar entre 1 e 10. Conte quantas casas a vírgula anda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de 5 × 10⁻²?",
+            "alternativas": [
+              "500",
+              "0,5",
+              "0,05",
+              "0,005"
+            ],
+            "correta": 2,
+            "explicacao": "Expoente −2 significa andar a vírgula 2 casas para a esquerda a partir de 5: 0,05.",
+            "dica": "Expoente negativo: a vírgula anda para a esquerda e o número fica menor que 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas está escrita corretamente em notação científica?",
+            "alternativas": [
+              "12 × 10⁵",
+              "0,9 × 10³",
+              "10 × 10²",
+              "3,6 × 10⁻⁴"
+            ],
+            "correta": 3,
+            "explicacao": "Só 3,6 × 10⁻⁴ tem a parte da frente maior ou igual a 1 e menor que 10. As outras têm 12, 0,9 ou 10 na frente.",
+            "dica": "Olhe só o número da frente de cada opção: ele precisa ser pelo menos 1 e menor que 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (3 × 10⁴) × (2 × 10⁵)?",
+            "alternativas": [
+              "6 × 10⁹",
+              "5 × 10⁹",
+              "6 × 10²⁰",
+              "6 × 10¹"
+            ],
+            "correta": 0,
+            "explicacao": "Multiplicamos 3 × 2 = 6 e somamos os expoentes: 4 + 5 = 9. Resultado: 6 × 10⁹.",
+            "dica": "Multiplique as partes da frente e some os expoentes."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente (do menor para o maior):",
+            "itens": [
+              "2 × 10⁻³",
+              "9 × 10⁻¹",
+              "1,5 × 10²",
+              "3 × 10⁴"
+            ],
+            "explicacao": "Primeiro compare os expoentes: −3 < −1 < 2 < 4. Em decimal: 0,002 < 0,9 < 150 < 30 000.",
+            "dica": "Compare primeiro os expoentes: quanto maior o expoente, maior o número."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (6 × 10⁸) ÷ (3 × 10²)?",
+            "alternativas": [
+              "2 × 10⁶",
+              "2 × 10⁴",
+              "3 × 10⁶",
+              "2 × 10¹⁰"
+            ],
+            "correta": 0,
+            "explicacao": "6 ÷ 3 = 2 e, na divisão, os expoentes se subtraem: 8 − 2 = 6. Resultado: 2 × 10⁶.",
+            "dica": "Na divisão, divida as partes da frente e faça a conta oposta com os expoentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é (5 × 10³) × (4 × 10²) em notação científica correta?",
+            "alternativas": [
+              "20 × 10⁵",
+              "2 × 10⁶",
+              "2 × 10⁵",
+              "9 × 10⁵"
+            ],
+            "correta": 1,
+            "explicacao": "5 × 4 = 20 e 3 + 2 = 5, o que dá 20 × 10⁵. Como 20 não fica entre 1 e 10, reescrevemos: 2 × 10⁶.",
+            "dica": "Depois de multiplicar, veja se a parte da frente ficou entre 1 e 10. Se não ficou, ajuste o expoente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bactéria mede 0,000002 m. Como fica em notação científica?",
+            "alternativas": [
+              "2 × 10⁶ m",
+              "2 × 10⁻⁵ m",
+              "2 × 10⁻⁶ m",
+              "0,2 × 10⁻⁵ m"
+            ],
+            "correta": 2,
+            "explicacao": "A vírgula anda 6 casas para a direita até ficar depois do 2. Número pequeno, expoente negativo: 2 × 10⁻⁶ m.",
+            "dica": "Conte as casas que a vírgula anda para a direita até ficar logo depois do 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é o MAIOR?",
+            "alternativas": [
+              "9 × 10³",
+              "1,2 × 10⁴",
+              "8,5 × 10³",
+              "9,9 × 10²"
+            ],
+            "correta": 1,
+            "explicacao": "1,2 × 10⁴ = 12 000, maior que 9 000, 8 500 e 990. O expoente pesa mais que a parte da frente.",
+            "dica": "Compare primeiro os expoentes; só olhe a parte da frente se os expoentes forem iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A luz percorre cerca de 3 × 10⁵ km por segundo. Quantos km ela percorre em 100 segundos?",
+            "alternativas": [
+              "3 × 10⁷ km",
+              "3 × 10⁶ km",
+              "3 × 10¹⁰ km",
+              "3 × 10⁸ km"
+            ],
+            "correta": 0,
+            "explicacao": "100 = 10². Então (3 × 10⁵) × 10² = 3 × 10⁷ km.",
+            "dica": "Escreva 100 como potência de 10 e some os expoentes."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3 × 10⁴ + 5 × 10³, em notação científica?",
+            "alternativas": [
+              "8 × 10⁷",
+              "8 × 10⁴",
+              "3,5 × 10⁴",
+              "3,5 × 10³"
+            ],
+            "correta": 2,
+            "explicacao": "Igualamos os expoentes: 5 × 10³ = 0,5 × 10⁴. Somando: 3 + 0,5 = 3,5 → 3,5 × 10⁴ (35 000). Somar 3 + 5 direto é o erro comum.",
+            "dica": "Só dá para somar as frentes com expoentes iguais. Reescreva o segundo número com expoente 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "(2 × 10³)² é igual a:",
+            "alternativas": [
+              "4 × 10⁶",
+              "4 × 10⁹",
+              "2 × 10⁶",
+              "4 × 10⁵"
+            ],
+            "correta": 0,
+            "explicacao": "(2 × 10³) × (2 × 10³) = 4 × 10⁶. A frente vai ao quadrado e o expoente dobra.",
+            "dica": "Elevar ao quadrado é multiplicar o número por ele mesmo: as frentes e as potências de 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (2 × 10⁻³) ÷ (4 × 10²), escrito em notação científica?",
+            "alternativas": [
+              "0,5 × 10⁻⁵",
+              "5 × 10⁻⁴",
+              "2 × 10⁻⁵",
+              "5 × 10⁻⁶"
+            ],
+            "correta": 3,
+            "explicacao": "2 ÷ 4 = 0,5 e −3 − 2 = −5, o que dá 0,5 × 10⁻⁵. Como 0,5 é menor que 1, ajustamos: 5 × 10⁻⁶. A primeira opção tem o valor certo, mas não está em notação científica.",
+            "dica": "Divida as frentes e subtraia os expoentes com cuidado no sinal. Depois confira se a frente está entre 1 e 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A Terra fica a cerca de 1,5 × 10⁸ km do Sol, e a luz anda cerca de 3 × 10⁵ km por segundo. Quanto tempo a luz do Sol leva para chegar até nós?",
+            "alternativas": [
+              "50 segundos",
+              "500 segundos (pouco mais de 8 minutos)",
+              "5 000 segundos",
+              "5 segundos"
+            ],
+            "correta": 1,
+            "explicacao": "Tempo = distância ÷ velocidade: 1,5 ÷ 3 = 0,5 e 8 − 5 = 3. Fica 0,5 × 10³ = 500 segundos, cerca de 8 minutos e 20 segundos.",
+            "dica": "Tempo é distância dividida pela velocidade. Divida as frentes e subtraia os expoentes."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente (do menor para o maior):",
+            "itens": [
+              "4 × 10⁻²",
+              "3,9 × 10⁻¹",
+              "2 × 10⁰",
+              "1,1 × 10¹",
+              "9 × 10¹"
+            ],
+            "explicacao": "Em número comum: 0,04 < 0,39 < 2 < 11 < 90. Lembre que 10⁰ = 1.",
+            "dica": "Quanto vale 10⁰? Transforme cada número em decimal comum antes de comparar."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Orçamento pessoal e mesada",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Orçamento é um plano do seu dinheiro: quanto vai entrar, quanto vai sair e quanto vai sobrar em um período. Ele é feito antes de gastar, não depois.",
+          "As entradas são o que você recebe: mesada, um bico, um presente em dinheiro. As saídas podem ser fixas (que se repetem, como o lanche da escola ou o crédito do celular) ou variáveis (que mudam, como um passeio).",
+          "Uma regra simples é: entradas − saídas = saldo. Se o saldo ficar negativo, você planejou gastar mais do que tem, e alguma coisa precisa ser cortada ou adiada.",
+          "Um orçamento bom já reserva uma parte para guardar logo que o dinheiro entra, e não só o que “sobrar” no fim. Quem espera sobrar quase nunca guarda.",
+          "No fim do mês, compare o planejado com o que aconteceu de verdade. Essa comparação mostra onde você exagerou e ajuda a planejar melhor o próximo mês."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Caio recebe R$ 120,00 de mesada por mês. Ele gasta R$ 15,00 de crédito de celular, R$ 50,00 em lanches e quer guardar 20% logo no início. Quanto sobra para gastos variáveis?",
+            "resolucao": "20% de R$ 120,00 = R$ 24,00 (guardado). Saídas fixas: R$ 15,00 + R$ 50,00 = R$ 65,00. Sobra: 120 − 24 − 65 = R$ 31,00 para gastos variáveis."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Muitos adultos usam a regra 50-30-20: 50% da renda para necessidades (contas, comida, transporte), 30% para desejos (lazer, roupas, passeios) e 20% para guardar. Para um estudante, as porcentagens podem mudar, mas a ideia é a mesma: dividir o dinheiro em partes ANTES de gastar.",
+        "Os gastos pequenos e repetidos são os mais perigosos, porque quase não aparecem. R$ 3,00 por dia parece pouco, mas em 30 dias vira R$ 90,00, e em um ano passa de R$ 1 000,00. Por isso vale multiplicar o gasto diário pelos dias do mês antes de decidir.",
+        "Quando a renda muda, o orçamento em porcentagem se ajusta sozinho: quem guarda 20% de R$ 100,00 guarda R$ 20,00; se a mesada sobe para R$ 150,00, os mesmos 20% viram R$ 30,00. Também é bom ter uma pequena reserva para imprevistos dentro do orçamento."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No orçamento, “entradas” são:",
+            "alternativas": [
+              "O dinheiro que você recebe",
+              "O dinheiro que você gasta",
+              "Só o dinheiro guardado no banco",
+              "As dívidas"
+            ],
+            "correta": 0,
+            "explicacao": "Entradas são o que chega até você: mesada, um bico, um presente em dinheiro.",
+            "dica": "Pense na palavra: entrada é o que vem para você ou o que vai embora?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a regra para achar o saldo?",
+            "alternativas": [
+              "Entradas + saídas",
+              "Saídas − entradas",
+              "Entradas − saídas",
+              "Entradas × saídas"
+            ],
+            "correta": 2,
+            "explicacao": "Saldo é o que sobra: do que entrou, tiramos o que saiu.",
+            "dica": "O saldo é o que sobra depois de tirar os gastos do dinheiro que você recebeu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia recebeu R$ 50,00 e gastou R$ 30,00. Qual é o saldo?",
+            "alternativas": [
+              "R$ 80,00",
+              "R$ 20,00",
+              "R$ 30,00",
+              "R$ 50,00"
+            ],
+            "correta": 1,
+            "explicacao": "50 − 30 = 20. Somar (R$ 80,00) é o erro comum.",
+            "dica": "Tire o que ela gastou do que ela recebeu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um passeio no fim de semana é um gasto:",
+            "alternativas": [
+              "Fixo",
+              "Proibido",
+              "Obrigatório",
+              "Variável"
+            ],
+            "correta": 3,
+            "explicacao": "Passeio não acontece todo mês do mesmo jeito; ele muda. Por isso é variável.",
+            "dica": "Ele se repete sempre igual ou muda de um mês para o outro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando é melhor fazer o orçamento?",
+            "alternativas": [
+              "Depois de gastar tudo",
+              "Antes de gastar",
+              "Só no fim do ano",
+              "Só quando faltar dinheiro"
+            ],
+            "correta": 1,
+            "explicacao": "Orçamento é um plano, e plano se faz antes de agir.",
+            "dica": "Releia o 1º parágrafo: ele diz o momento certo de fazer o plano."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor definição de orçamento?",
+            "alternativas": [
+              "Lista do que já foi gasto",
+              "Plano de quanto entra, quanto sai e quanto sobra",
+              "Dinheiro guardado no banco",
+              "Pedido de aumento de mesada"
+            ],
+            "correta": 1,
+            "explicacao": "Orçamento é um plano feito ANTES de gastar, comparando entradas e saídas para prever o saldo.",
+            "dica": "Orçamento é feito antes ou depois de gastar? Procure a opção que fala em plano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um gasto FIXO para um estudante?",
+            "alternativas": [
+              "Ingresso de um show",
+              "Presente de aniversário de um amigo",
+              "Lanche da escola todos os dias",
+              "Uma camiseta em promoção"
+            ],
+            "correta": 2,
+            "explicacao": "Gasto fixo é o que se repete todo período com valor parecido, como o lanche diário. Os outros acontecem de vez em quando.",
+            "dica": "Fixo é o gasto que se repete todo período, com valor parecido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Marina tem entradas de R$ 80,00 e planejou saídas de R$ 95,00. O que isso significa?",
+            "alternativas": [
+              "Saldo de R$ 15,00 positivo",
+              "O orçamento está equilibrado",
+              "Saldo de R$ 175,00",
+              "Saldo negativo de R$ 15,00: precisa cortar ou adiar gastos"
+            ],
+            "correta": 3,
+            "explicacao": "80 − 95 = −15. Saldo negativo quer dizer que ela planejou gastar mais do que tem.",
+            "dica": "Faça entradas menos saídas e veja se o resultado fica positivo ou negativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é melhor guardar uma parte logo que a mesada entra?",
+            "alternativas": [
+              "Porque quem espera sobrar no fim do mês quase nunca guarda",
+              "Porque o dinheiro guardado no início rende o dobro",
+              "Porque é proibido guardar no fim do mês",
+              "Porque assim não precisa fazer orçamento"
+            ],
+            "correta": 0,
+            "explicacao": "Os gastos tendem a ocupar todo o dinheiro disponível. Separar primeiro garante que a parte guardada exista.",
+            "dica": "Pense no que costuma acontecer com o dinheiro que fica livre até o fim do mês."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as etapas de um orçamento mensal:",
+            "itens": [
+              "Somar todas as entradas do mês",
+              "Separar a parte que vai ser guardada",
+              "Listar as saídas fixas e variáveis",
+              "Calcular o saldo",
+              "No fim do mês, comparar o planejado com o real"
+            ],
+            "explicacao": "Primeiro você sabe quanto tem, já reserva a poupança, planeja as saídas, confere o saldo e, no fim, compara para aprender.",
+            "dica": "Primeiro você precisa saber quanto tem. A comparação só faz sentido depois que o mês passou."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Júlia recebe R$ 150,00. Guarda 10% logo no início, gasta R$ 60,00 em lanches e R$ 20,00 de celular. Quanto sobra para gastos variáveis?",
+            "alternativas": [
+              "R$ 70,00",
+              "R$ 65,00",
+              "R$ 55,00",
+              "R$ 40,00"
+            ],
+            "correta": 2,
+            "explicacao": "10% de 150 = 15. Saídas fixas: 60 + 20 = 80. Sobra: 150 − 15 − 80 = R$ 55,00.",
+            "dica": "Calcule primeiro 10% de 150 e depois tire também as saídas fixas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro gasta R$ 4,00 em salgadinho em cada dia de aula. Com 20 dias de aula no mês, quanto vai embora?",
+            "alternativas": [
+              "R$ 24,00",
+              "R$ 80,00",
+              "R$ 40,00",
+              "R$ 120,00"
+            ],
+            "correta": 1,
+            "explicacao": "4 × 20 = R$ 80,00 por mês. Um gasto pequeno vira um valor grande.",
+            "dica": "Multiplique o gasto de um dia pelo número de dias de aula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tem mesada de R$ 100,00 e planejou R$ 90,00 de saídas, sendo R$ 40,00 de lanches. Ela gastou R$ 55,00 em lanches e o resto saiu como planejado. Qual foi o saldo real?",
+            "alternativas": [
+              "R$ 10,00",
+              "R$ 5,00",
+              "R$ 0,00",
+              "−R$ 5,00 (faltou dinheiro)"
+            ],
+            "correta": 3,
+            "explicacao": "Ela gastou 15 a mais nos lanches: saídas reais = 90 + 15 = 105. Saldo: 100 − 105 = −5.",
+            "dica": "Descubra quanto ela gastou a mais nos lanches e some isso às saídas planejadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude corrige um orçamento com saldo negativo?",
+            "alternativas": [
+              "Cortar ou adiar um gasto variável",
+              "Pegar dinheiro emprestado todo mês",
+              "Ignorar e ver no que dá",
+              "Parar de anotar os gastos"
+            ],
+            "correta": 0,
+            "explicacao": "Cortar ou adiar diminui as saídas sem criar dívida. Pegar emprestado todo mês só empurra o problema.",
+            "dica": "A solução precisa diminuir as saídas sem criar uma dívida."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Léo gasta por mês: lanche de R$ 3,00 em 20 dias de aula; ônibus de R$ 4,40 em 10 dias; celular de R$ 20,00; figurinhas de R$ 2,00 por semana (4 semanas). Ordene do MAIOR para o MENOR gasto mensal:",
+            "itens": [
+              "Lanche",
+              "Ônibus",
+              "Celular",
+              "Figurinhas"
+            ],
+            "explicacao": "Lanche: 3 × 20 = 60. Ônibus: 4,40 × 10 = 44. Celular: 20. Figurinhas: 2 × 4 = 8.",
+            "dica": "Transforme cada gasto em valor do mês antes de comparar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafa recebe R$ 200,00 e usa a regra 50-30-20 (necessidades, desejos, guardar). Ele quer um jogo de tabuleiro de R$ 90,00 pago só com a parte dos desejos. Em quantos meses junta o valor?",
+            "alternativas": [
+              "1 mês",
+              "2 meses",
+              "3 meses",
+              "5 meses"
+            ],
+            "correta": 1,
+            "explicacao": "30% de 200 = R$ 60,00 por mês. Em 1 mês tem 60 (falta); em 2 meses tem 120, que passa de 90. São 2 meses: 1,5 mês não existe na prática.",
+            "dica": "Calcule a parte dos desejos por mês e veja quantos meses inteiros são precisos para chegar a R$ 90,00."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um gasto de R$ 2,50 por dia, todos os dias do ano (365 dias), soma quanto?",
+            "alternativas": [
+              "R$ 912,50",
+              "R$ 750,00",
+              "R$ 91,25",
+              "R$ 875,00"
+            ],
+            "correta": 0,
+            "explicacao": "365 × 2 = 730 e 365 × 0,50 = 182,50. Total: 730 + 182,50 = R$ 912,50.",
+            "dica": "Faça 365 × 2 e depois some a metade de 365."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A mesada de Bia subiu de R$ 100,00 para R$ 125,00. Ela guardava 20% e quer manter a mesma porcentagem. Quanto passa a guardar, e quanto a mais que antes?",
+            "alternativas": [
+              "R$ 20,00; nada a mais",
+              "R$ 45,00; R$ 25,00 a mais",
+              "R$ 25,00; R$ 5,00 a mais",
+              "R$ 30,00; R$ 10,00 a mais"
+            ],
+            "correta": 2,
+            "explicacao": "20% de 125 = 25. Antes eram 20% de 100 = 20. Diferença: R$ 5,00 a mais por mês.",
+            "dica": "Calcule 20% do valor novo e compare com 20% do valor antigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio tem R$ 120,00. Guarda 20%, separa R$ 10,00 para imprevistos e tem R$ 65,00 de gastos fixos. Ele quer um passeio de R$ 30,00. O que acontece?",
+            "alternativas": [
+              "Sobra R$ 1,00",
+              "Dá certo e ainda sobra R$ 21,00",
+              "Faltam R$ 19,00",
+              "Faltam R$ 9,00: precisa adiar ou baratear o passeio"
+            ],
+            "correta": 3,
+            "explicacao": "Guardado: 24. Livre: 120 − 24 − 10 − 65 = 21. Como 21 < 30, faltam R$ 9,00.",
+            "dica": "Desconte o guardado, a reserva e os fixos. Depois compare o que sobra com o preço do passeio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana comparou o planejado e o real. Lanches: planejou 40, gastou 52. Celular: planejou 20, gastou 20. Passeio: planejou 30, gastou 18. O que dá para concluir?",
+            "alternativas": [
+              "Gastou R$ 12,00 a mais no total",
+              "Gastou exatamente o total planejado, mas exagerou nos lanches",
+              "Gastou R$ 12,00 a menos no total",
+              "Gastou R$ 24,00 a mais no total"
+            ],
+            "correta": 1,
+            "explicacao": "Planejado: 40 + 20 + 30 = 90. Real: 52 + 20 + 18 = 90. O total bateu, mas só porque o passeio saiu mais barato: os lanches passaram R$ 12,00 do plano.",
+            "dica": "Some o planejado, some o real e depois olhe item por item."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Condição: se… senão",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma estrutura condicional faz o programa escolher um caminho. Em pseudocódigo: SE condição ENTÃO faça A SENÃO faça B. Em linguagens como Python, isso fica if … else.",
+          "A condição é uma expressão lógica, que vale verdadeiro ou falso. Ela usa comparações como > (maior), < (menor), >= (maior ou igual), == (igual) e != (diferente).",
+          "Podemos encadear várias decisões com SENÃO SE (elif, em Python). O programa testa de cima para baixo e executa só o primeiro caminho cuja condição for verdadeira.",
+          "Também dá para juntar condições: E (as duas precisam ser verdadeiras) e OU (basta uma ser verdadeira). Exemplo: SE idade >= 16 E tem_título ENTÃO pode votar.",
+          "Um erro comum é deixar as condições na ordem errada. Se você testa “nota >= 5” antes de “nota >= 9”, um 10 cai no primeiro caso e nunca chega no segundo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva um algoritmo que classifica a nota: 9 ou mais = “ótimo”; de 6 a 8,9 = “aprovado”; abaixo de 6 = “recuperação”.",
+            "resolucao": "SE nota >= 9 ENTÃO “ótimo”\nSENÃO SE nota >= 6 ENTÃO “aprovado”\nSENÃO “recuperação”.\nA ordem importa: o teste mais exigente vem primeiro."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Além de E e OU, existe o NÃO (not, em Python), que inverte o valor: NÃO verdadeiro = falso. O contrário de “x > 5” é “x <= 5”, e não “x < 5”, porque o 5 também precisa entrar.",
+        "Quando E e OU aparecem juntos, use parênteses para deixar a ordem clara: (a E b) OU c é diferente de a E (b OU c). Resolva sempre o que está dentro dos parênteses primeiro.",
+        "Dois SE separados são diferentes de SE… SENÃO SE. Com dois SE separados, o programa testa os dois e pode executar os dois. Com SENÃO SE, ele para no primeiro verdadeiro. Bons programadores testam os valores de fronteira, como exatamente 6 ou exatamente 9, que é onde os erros costumam aparecer."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma condição pode valer:",
+            "alternativas": [
+              "Só números",
+              "Verdadeiro ou falso",
+              "Só letras",
+              "Qualquer cor"
+            ],
+            "correta": 1,
+            "explicacao": "A condição é uma expressão lógica: ou é verdadeira, ou é falsa.",
+            "dica": "Releia o 2º parágrafo: a condição é uma expressão lógica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa o símbolo == ?",
+            "alternativas": [
+              "Diferente",
+              "Maior",
+              "Igual",
+              "Menor ou igual"
+            ],
+            "correta": 2,
+            "explicacao": "== compara se os dois lados são iguais. O sinal = sozinho, em Python, serve para guardar um valor.",
+            "dica": "Ele compara se os dois lados são a mesma coisa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE chover ENTÃO levar guarda-chuva SENÃO levar boné. Não choveu. O que levar?",
+            "alternativas": [
+              "Guarda-chuva",
+              "Os dois",
+              "Nada",
+              "Boné"
+            ],
+            "correta": 3,
+            "explicacao": "Como a condição “chover” é falsa, o programa vai para o SENÃO.",
+            "dica": "Quando a condição é falsa, o programa vai para o caminho do SENÃO."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, como se escreve o SENÃO?",
+            "alternativas": [
+              "else",
+              "if",
+              "while",
+              "print"
+            ],
+            "correta": 0,
+            "explicacao": "if é o SE, else é o SENÃO e elif é o SENÃO SE.",
+            "dica": "Releia o 1º parágrafo da lição: ele mostra as duas palavras do Python para SE e SENÃO."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual símbolo significa “diferente”?",
+            "alternativas": [
+              "==",
+              "!=",
+              ">=",
+              "<"
+            ],
+            "correta": 1,
+            "explicacao": "!= quer dizer diferente. == é igual, >= é maior ou igual e < é menor.",
+            "dica": "Releia a lista de comparações do 2º parágrafo da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "SE saldo >= preco ENTÃO “compra aprovada” SENÃO “saldo insuficiente”. Com saldo = 18 e preco = 20, o que aparece?",
+            "alternativas": [
+              "compra aprovada",
+              "As duas mensagens",
+              "saldo insuficiente",
+              "Nenhuma mensagem"
+            ],
+            "correta": 2,
+            "explicacao": "18 >= 20 é falso, então o programa vai para o SENÃO e mostra “saldo insuficiente”.",
+            "dica": "Compare: 18 é maior ou igual a 20? Se não for, o programa segue outro caminho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A condição (idade >= 16 E idade < 18) é verdadeira para qual idade?",
+            "alternativas": [
+              "15",
+              "17",
+              "18",
+              "20"
+            ],
+            "correta": 1,
+            "explicacao": "Com E, as duas partes precisam ser verdadeiras. Só 17 é maior ou igual a 16 e, ao mesmo tempo, menor que 18.",
+            "dica": "Com E, as duas partes precisam ser verdadeiras ao mesmo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A condição (dia == \"sábado\" OU dia == \"domingo\") é verdadeira quando:",
+            "alternativas": [
+              "Só no sábado",
+              "Só no domingo",
+              "Em qualquer dia da semana",
+              "No sábado ou no domingo"
+            ],
+            "correta": 3,
+            "explicacao": "Com OU, basta uma das partes ser verdadeira. Então vale para sábado e para domingo.",
+            "dica": "Com OU, basta uma das partes ser verdadeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa testa primeiro SE nota >= 5 → “passou” e depois SENÃO SE nota >= 9 → “ótimo”. Qual é o problema?",
+            "alternativas": [
+              "Uma nota 10 nunca chega a ser “ótimo”",
+              "Nenhum, está certo",
+              "Notas abaixo de 5 travam o programa",
+              "O SENÃO SE nunca pode existir"
+            ],
+            "correta": 0,
+            "explicacao": "Qualquer nota 9 ou 10 também é >= 5, então cai no primeiro caso e o programa para ali. O teste mais exigente deve vir antes.",
+            "dica": "Imagine uma nota 10: em qual teste ela entra primeiro?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Monte, na ordem certa, o algoritmo do desconto de uma loja (compras de R$ 100,00 ou mais ganham 10%):",
+            "itens": [
+              "Ler o valor da compra",
+              "SE valor >= 100 ENTÃO",
+              "valor_final = valor × 0,9",
+              "SENÃO valor_final = valor",
+              "Mostrar valor_final"
+            ],
+            "explicacao": "Primeiro lemos o dado, depois testamos a condição, definimos o resultado em cada caminho e só no fim mostramos o valor.",
+            "dica": "Primeiro o programa precisa ter o dado. Mostrar o resultado é sempre o último passo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 7. SE x > 10 ENTÃO “A” SENÃO SE x > 5 ENTÃO “B” SENÃO “C”. O que aparece?",
+            "alternativas": [
+              "A",
+              "B",
+              "C",
+              "B e C"
+            ],
+            "correta": 1,
+            "explicacao": "7 > 10 é falso; 7 > 5 é verdadeiro, então aparece “B” e o programa para ali.",
+            "dica": "Teste de cima para baixo e pare no primeiro teste verdadeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No cinema, quem tem menos de 12 anos OU mais de 60 paga meia. Quem paga meia?",
+            "alternativas": [
+              "Uma pessoa de 12 anos",
+              "Uma pessoa de 35 anos",
+              "Uma pessoa de 60 anos",
+              "Uma pessoa de 65 anos"
+            ],
+            "correta": 3,
+            "explicacao": "12 não é menor que 12 e 60 não é maior que 60. Só 65 cumpre uma das partes.",
+            "dica": "Cuidado com as fronteiras: “menos de 12” não inclui o 12, e “mais de 60” não inclui o 60."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE (nota >= 6 E faltas <= 10) ENTÃO “aprovado”. Ana tem nota 8 e 12 faltas. O que acontece?",
+            "alternativas": [
+              "Não é aprovada: uma das partes do E é falsa",
+              "É aprovada, porque a nota é alta",
+              "É aprovada, porque basta uma condição",
+              "O programa dá erro"
+            ],
+            "correta": 0,
+            "explicacao": "Nota 8 >= 6 é verdadeiro, mas 12 <= 10 é falso. Com E, uma parte falsa deixa tudo falso.",
+            "dica": "Verifique cada parte separadamente. Com E, quantas partes precisam ser verdadeiras?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja dá frete grátis para compras de R$ 150,00 ou mais OU para clientes do bairro. João mora longe e comprou R$ 149,90. Ele ganha frete grátis?",
+            "alternativas": [
+              "Sim, porque está quase em 150",
+              "Sim, porque basta uma condição",
+              "Não, porque nenhuma das duas partes é verdadeira",
+              "Não, porque o OU exige as duas"
+            ],
+            "correta": 2,
+            "explicacao": "149,90 >= 150 é falso e ele não é do bairro. Com OU, bastaria uma, mas aqui as duas são falsas.",
+            "dica": "Teste cada lado do OU: o valor chega a 150? Ele mora no bairro?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os testes na ordem certa para classificar a temperatura (40 ou mais: muito quente; 30 ou mais: quente; 15 ou mais: agradável; abaixo disso: frio):",
+            "itens": [
+              "SE temp >= 40 ENTÃO “muito quente”",
+              "SENÃO SE temp >= 30 ENTÃO “quente”",
+              "SENÃO SE temp >= 15 ENTÃO “agradável”",
+              "SENÃO “frio”"
+            ],
+            "explicacao": "O teste mais exigente vem primeiro. Se o 15 viesse antes, 35 graus seria chamado de “agradável”.",
+            "dica": "O teste mais exigente vem primeiro; o caso que sobra fica por último."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando a condição NÃO (x > 5) é verdadeira?",
+            "alternativas": [
+              "Quando x > 5",
+              "Quando x < 5",
+              "Quando x <= 5",
+              "Quando x >= 5"
+            ],
+            "correta": 2,
+            "explicacao": "O contrário de “maior que 5” é “menor ou igual a 5”. Com x = 5, x > 5 é falso, então NÃO (x > 5) é verdadeiro. “x < 5” esquece o próprio 5.",
+            "dica": "Pense no que acontece exatamente com x = 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = verdadeiro, b = falso, c = verdadeiro. Qual é o valor de (a E b) OU c?",
+            "alternativas": [
+              "Verdadeiro",
+              "Falso",
+              "Depende da ordem",
+              "Dá erro"
+            ],
+            "correta": 0,
+            "explicacao": "(a E b) = falso, porque b é falso. Depois, falso OU verdadeiro = verdadeiro.",
+            "dica": "Resolva primeiro o parêntese e só depois o OU."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa tem dois SE separados, sem SENÃO: SE idade >= 16 ENTÃO “pode votar”. SE idade >= 18 ENTÃO “voto obrigatório”. Com idade 20, o que aparece?",
+            "alternativas": [
+              "Só “pode votar”",
+              "Só “voto obrigatório”",
+              "As duas mensagens",
+              "Nenhuma mensagem"
+            ],
+            "correta": 2,
+            "explicacao": "Sem SENÃO, cada SE é testado sozinho. 20 >= 16 e 20 >= 18 são verdadeiros, então aparecem as duas.",
+            "dica": "Sem SENÃO, cada SE é testado por conta própria, um depois do outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE valor > 100 ENTÃO desconto de 10% SENÃO SE valor > 200 ENTÃO desconto de 20%. Uma compra de R$ 250,00 recebe:",
+            "alternativas": [
+              "20% de desconto",
+              "10% de desconto",
+              "30% de desconto",
+              "Nenhum desconto"
+            ],
+            "correta": 1,
+            "explicacao": "250 > 100 já é verdadeiro no primeiro teste, então o programa dá 10% e nunca chega ao teste de 200. É o erro de ordem da lição.",
+            "dica": "Siga a ordem exata dos testes: em qual deles 250 entra primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Regra do ano bissexto: divisível por 4 E (NÃO divisível por 100 OU divisível por 400). Qual destes anos é bissexto?",
+            "alternativas": [
+              "1900",
+              "2100",
+              "2023",
+              "2024"
+            ],
+            "correta": 3,
+            "explicacao": "2024 é divisível por 4 e não por 100: bissexto. 2023 não é divisível por 4. 1900 e 2100 são divisíveis por 100 mas não por 400.",
+            "dica": "Teste cada ano nas duas partes. Os anos terminados em 00 só passam se forem divisíveis por 400."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O planilheiro da rua de baixo",
+    "texto": "Todo mundo na rua conhecia o Renan como “o planilheiro”. O apelido surgiu no começo do ano, quando ele decidiu entender por que a mesada de R$ 100,00 sumia sempre antes do dia 15.\n\nEle não tinha computador, então usou o verso de um caderno velho. Fez duas colunas: “entrou” e “saiu”. Durante um mês, anotou tudo, até o chiclete de R$ 1,50. No fim, somou e levou um susto: R$ 38,00 tinham ido em lanchinhos da cantina que ele nem lembrava de ter comprado.\n\nNo mês seguinte, ele fez diferente. Antes de gastar qualquer centavo, escreveu o plano: R$ 20,00 guardados logo no primeiro dia, R$ 15,00 para o crédito do celular, R$ 40,00 para lanches e o resto para o imprevisto. Criou até uma regra para si mesmo, que chamou de “regra do se”: se a vontade de comprar algo durar mais de dois dias, eu compro; senão, era só impulso.\n\nA regra funcionou melhor do que ele esperava. A maior parte das vontades desaparecia antes do segundo dia. No fim do semestre, Renan tinha R$ 160,00 guardados e um caderno cheio de números.\n\nO mais curioso foi o que aconteceu depois: o irmão mais novo pediu para aprender a fazer o caderno também. E a mãe, meio sem graça, perguntou se ele ajudava a montar o da casa."
+  },
+  "escrita": {
+    "proposta": "Renan criou a “regra do se” para controlar compras por impulso. Escreva de 8 a 12 linhas no caderno inventando a SUA regra com “se… senão” para uma situação do seu dia a dia (dinheiro, celular, estudos ou tempo livre). Explique como a regra funciona, por que ela faz sentido e dê um exemplo de quando você a usaria."
+  }
+}

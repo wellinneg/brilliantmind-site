@@ -1,0 +1,895 @@
+{
+  "dia": 8,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Energia elétrica e consumo em casa",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Todo aparelho elétrico tem uma potência, medida em watts (W). A potência indica quanta energia o aparelho usa a cada instante. Um chuveiro elétrico pode ter 5 500 W; uma lâmpada de LED, cerca de 10 W.",
+          "O consumo de energia depende da potência E do tempo de uso. A conta de luz mede o consumo em quilowatt-hora (kWh). A fórmula é: consumo (kWh) = potência (W) × horas de uso ÷ 1 000.",
+          "Depois de calcular os kWh, é só multiplicar pela tarifa, que é o preço de cada kWh cobrado pela distribuidora de energia. A tarifa muda de cidade para cidade e ainda pode ganhar acréscimo pela bandeira tarifária (verde, amarela ou vermelha).",
+          "Os aparelhos que esquentam (chuveiro, ferro de passar, forno elétrico) costumam ter as maiores potências. Por isso, alguns minutos a menos no banho fazem diferença no fim do mês.",
+          "No Brasil, a maior parte da energia elétrica vem de usinas hidrelétricas, que usam a força da água dos rios. Economizar energia ajuda o bolso da família e também o meio ambiente."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um chuveiro de 5 500 W fica ligado 15 minutos por dia, durante 30 dias. Com tarifa de R$ 0,80 por kWh, quanto custa?",
+            "resolucao": "15 minutos = 0,25 h. Consumo: 5 500 × 0,25 × 30 ÷ 1 000 = 41,25 kWh. Custo: 41,25 × R$ 0,80 = R$ 33,00 no mês."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Aparelhos em espera (stand-by), com a luzinha acesa, consomem pouco, mas o dia inteiro. Um aparelho de 2 W ligado 24 horas por 30 dias gasta 2 × 24 × 30 ÷ 1 000 = 1,44 kWh. Na hora de comprar, a etiqueta de eficiência (classe A é a mais econômica) ajuda a escolher.",
+        "Trocar lâmpadas antigas por LED dá muita economia: uma lâmpada incandescente de 60 W ilumina mais ou menos como uma de LED de 9 ou 10 W. Como o consumo é potência × tempo, cortar a potência ou o tempo pela metade corta o consumo pela metade.",
+        "Quando chove pouco, os rios e as represas ficam baixos, e o país precisa ligar usinas termelétricas, que queimam combustível e são mais caras. Por isso a bandeira tarifária fica amarela ou vermelha e cada kWh fica mais caro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que unidade se mede a potência de um aparelho?",
+            "alternativas": [
+              "Metro",
+              "Watt (W)",
+              "Quilo",
+              "Litro"
+            ],
+            "correta": 1,
+            "explicacao": "A potência é medida em watts (W). Um chuveiro tem milhares de watts; uma lâmpada de LED, cerca de 10.",
+            "dica": "Releia a primeira frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes aparelhos costuma ter a MAIOR potência?",
+            "alternativas": [
+              "Lâmpada de LED",
+              "Carregador de celular",
+              "Chuveiro elétrico",
+              "Rádio pequeno"
+            ],
+            "correta": 2,
+            "explicacao": "O chuveiro esquenta a água e pode passar de 5 000 W.",
+            "dica": "Os aparelhos que esquentam gastam mais energia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O consumo de energia depende de:",
+            "alternativas": [
+              "Potência e tempo de uso",
+              "Só da cor do aparelho",
+              "Só do tamanho da casa",
+              "Do dia da semana"
+            ],
+            "correta": 0,
+            "explicacao": "Consumo = potência × tempo. Quanto mais forte e mais tempo ligado, maior o consumo.",
+            "dica": "Releia o 2º parágrafo: são duas coisas multiplicadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "De onde vem a maior parte da energia elétrica do Brasil?",
+            "alternativas": [
+              "Do carvão",
+              "Do vento",
+              "Do petróleo",
+              "Das usinas hidrelétricas, com a água dos rios"
+            ],
+            "correta": 3,
+            "explicacao": "No Brasil, a maior parte da eletricidade vem das hidrelétricas.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Tomar banhos mais curtos no chuveiro elétrico:",
+            "alternativas": [
+              "Aumenta a conta de luz",
+              "Diminui a conta de luz",
+              "Não muda nada",
+              "Desliga a geladeira"
+            ],
+            "correta": 1,
+            "explicacao": "Com a mesma potência e menos tempo, o consumo cai, e a conta também.",
+            "dica": "Menos tempo de uso, com a mesma potência, dá mais ou menos consumo?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que unidade a conta de luz mede o consumo de energia?",
+            "alternativas": [
+              "Watt (W)",
+              "Volt (V)",
+              "Quilowatt-hora (kWh)",
+              "Ampère (A)"
+            ],
+            "correta": 2,
+            "explicacao": "O watt mede a potência (a cada instante). O consumo junta potência e tempo, e por isso é medido em kWh.",
+            "dica": "O watt mede a potência a cada instante. A conta precisa de algo que junte potência e tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma TV de 100 W fica ligada 4 horas por dia durante 30 dias. Quanto ela consome?",
+            "alternativas": [
+              "12 kWh",
+              "120 kWh",
+              "1,2 kWh",
+              "400 kWh"
+            ],
+            "correta": 0,
+            "explicacao": "100 × 4 × 30 ÷ 1 000 = 12 kWh no mês.",
+            "dica": "Use a fórmula da lição: potência × horas × dias ÷ 1 000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com tarifa de R$ 0,80 por kWh, quanto custam os 12 kWh da TV da questão anterior?",
+            "alternativas": [
+              "R$ 12,80",
+              "R$ 15,00",
+              "R$ 96,00",
+              "R$ 9,60"
+            ],
+            "correta": 3,
+            "explicacao": "Multiplicamos o consumo pela tarifa: 12 × R$ 0,80 = R$ 9,60.",
+            "dica": "Multiplique o consumo em kWh pelo preço de cada kWh."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude economiza MAIS energia numa casa comum?",
+            "alternativas": [
+              "Tirar o carregador da tomada",
+              "Diminuir o tempo do banho no chuveiro elétrico",
+              "Apagar uma lâmpada de LED por 1 minuto",
+              "Deixar o celular no modo escuro"
+            ],
+            "correta": 1,
+            "explicacao": "O chuveiro elétrico tem potência muito alta (milhares de watts). Cortar alguns minutos de banho economiza bem mais que as outras opções.",
+            "dica": "Procure, entre as opções, o aparelho de maior potência."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os aparelhos em ordem da MENOR para a MAIOR potência (valores típicos):",
+            "itens": [
+              "Lâmpada de LED (10 W)",
+              "Televisão (100 W)",
+              "Geladeira (250 W)",
+              "Ferro de passar (1 000 W)",
+              "Chuveiro elétrico (5 500 W)"
+            ],
+            "explicacao": "Os aparelhos que produzem calor, como ferro e chuveiro, estão no topo. Lâmpadas de LED gastam muito pouco.",
+            "dica": "Os aparelhos que produzem calor costumam ter as maiores potências."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ferro de passar de 1 000 W é usado 2 horas por semana, durante 4 semanas. Quanto ele consome no mês?",
+            "alternativas": [
+              "8 kWh",
+              "80 kWh",
+              "2 kWh",
+              "800 kWh"
+            ],
+            "correta": 0,
+            "explicacao": "Horas no mês: 2 × 4 = 8. Consumo: 1 000 × 8 ÷ 1 000 = 8 kWh.",
+            "dica": "Calcule primeiro o total de horas no mês e depois aplique a fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um chuveiro de 5 000 W é usado 20 minutos por dia, durante 30 dias. Com tarifa de R$ 0,90 por kWh, quanto custa?",
+            "alternativas": [
+              "R$ 90,00",
+              "R$ 30,00",
+              "R$ 45,00",
+              "R$ 450,00"
+            ],
+            "correta": 2,
+            "explicacao": "20 minutos = 1/3 de hora. Por dia: 5 000 × 1/3 ÷ 1 000 = 5/3 kWh. No mês: 5/3 × 30 = 50 kWh. Custo: 50 × 0,90 = R$ 45,00.",
+            "dica": "Transforme 20 minutos em fração de hora antes de usar a fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Trocar uma lâmpada de 60 W por uma de LED de 10 W, usada 5 horas por dia durante 30 dias, economiza quantos kWh?",
+            "alternativas": [
+              "9 kWh",
+              "1,5 kWh",
+              "75 kWh",
+              "7,5 kWh"
+            ],
+            "correta": 3,
+            "explicacao": "Diferença de potência: 60 − 10 = 50 W. Economia: 50 × 5 × 30 ÷ 1 000 = 7,5 kWh.",
+            "dica": "Calcule a diferença de potência entre as lâmpadas e use essa diferença na fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família reduziu o banho de 15 para 10 minutos, com o mesmo chuveiro. Quanto do consumo do chuveiro ela economiza?",
+            "alternativas": [
+              "Cerca de um terço",
+              "Metade",
+              "10%",
+              "Nada"
+            ],
+            "correta": 0,
+            "explicacao": "Cortou 5 de 15 minutos, ou seja, 1/3 do tempo. Com a mesma potência, economiza 1/3 do consumo.",
+            "dica": "O consumo é proporcional ao tempo. Que fração dos 15 minutos foi cortada?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene pelo consumo mensal (do menor para o maior): lâmpada de LED de 10 W por 6 h/dia; TV de 100 W por 4 h/dia; geladeira de 250 W com o motor funcionando 8 h/dia; chuveiro de 5 500 W por 30 min/dia.",
+            "itens": [
+              "Lâmpada de LED",
+              "Televisão",
+              "Geladeira",
+              "Chuveiro"
+            ],
+            "explicacao": "Em 30 dias: LED 1,8 kWh; TV 12 kWh; geladeira 60 kWh; chuveiro 82,5 kWh.",
+            "dica": "Calcule potência × horas por dia de cada um; os 30 dias são iguais para todos."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aparelho em stand-by consome 2 W o dia todo. Em 30 dias, com tarifa de R$ 0,80 por kWh, quanto ele custa (aproximadamente)?",
+            "alternativas": [
+              "R$ 11,52",
+              "R$ 1,15",
+              "R$ 0,05",
+              "R$ 115,20"
+            ],
+            "correta": 1,
+            "explicacao": "2 × 24 × 30 ÷ 1 000 = 1,44 kWh. Custo: 1,44 × 0,80 = R$ 1,152, cerca de R$ 1,15. Pouco por aparelho, mas a casa tem vários.",
+            "dica": "O dia todo são 24 horas. Calcule os kWh e depois multiplique pela tarifa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com a bandeira vermelha, a tarifa subiu de R$ 0,80 para R$ 0,88 por kWh. Uma casa consome 200 kWh no mês. Quanto a conta aumenta?",
+            "alternativas": [
+              "R$ 1,60",
+              "R$ 8,00",
+              "R$ 16,00",
+              "R$ 176,00"
+            ],
+            "correta": 2,
+            "explicacao": "Diferença: 0,88 − 0,80 = 0,08 por kWh. Aumento: 0,08 × 200 = R$ 16,00. R$ 176,00 é a conta nova inteira, não o aumento.",
+            "dica": "Calcule a diferença de preço por kWh e multiplique pelo consumo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a bandeira tarifária costuma ficar vermelha em época de pouca chuva?",
+            "alternativas": [
+              "Porque os rios ficam baixos e é preciso ligar usinas termelétricas, que são mais caras",
+              "Porque as pessoas usam menos energia",
+              "Porque o sol esquenta os fios",
+              "Porque as hidrelétricas produzem mais"
+            ],
+            "correta": 0,
+            "explicacao": "Com pouca água, as hidrelétricas produzem menos e entram as termelétricas, de custo maior. Esse custo vai para a conta.",
+            "dica": "Releia o aprofundamento: quais usinas entram em ação quando falta água?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Chuveiro A: 7 500 W usado 8 minutos. Chuveiro B: 4 500 W usado 12 minutos. Qual gasta mais energia por banho?",
+            "alternativas": [
+              "O B, porque fica mais tempo ligado",
+              "Os dois gastam igual",
+              "Depende da tarifa",
+              "O A, porque potência × tempo dá mais"
+            ],
+            "correta": 3,
+            "explicacao": "A: 7 500 × 8 = 60 000. B: 4 500 × 12 = 54 000 (nas mesmas unidades). O A gasta mais, mesmo ficando menos tempo ligado.",
+            "dica": "Compare potência × minutos dos dois. Como os dois tempos estão em minutos, não precisa converter."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma conta de luz veio com 150 kWh e R$ 135,00, sem outras cobranças. Qual era a tarifa por kWh?",
+            "alternativas": [
+              "R$ 0,90",
+              "R$ 1,11",
+              "R$ 0,80",
+              "R$ 9,00"
+            ],
+            "correta": 0,
+            "explicacao": "Tarifa = valor ÷ consumo = 135 ÷ 150 = R$ 0,90. R$ 1,11 é a conta invertida (150 ÷ 135).",
+            "dica": "Tarifa é o preço de cada kWh: divida o valor da conta pelo consumo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Metas e poupança",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Poupar sem objetivo é difícil; poupar com uma meta é bem mais fácil. Uma meta boa é específica (o quê), mensurável (quanto), possível (cabe no seu orçamento) e tem prazo (até quando).",
+          "Para transformar a meta em plano, divida o valor pelo prazo: R$ 240,00 em 6 meses = R$ 40,00 por mês. Depois compare com a sua renda: se a mesada é R$ 150,00, guardar R$ 40,00 é cerca de 27% dela.",
+          "Existem metas de curto prazo (semanas ou poucos meses, como um fone), de médio prazo (um ano, como uma bicicleta) e de longo prazo (anos, como um curso ou a faculdade).",
+          "Além das metas, os adultos costumam ter uma reserva de emergência: um dinheiro guardado só para imprevistos, como um celular que quebra ou um conserto em casa. Ela evita pegar dinheiro emprestado na hora do aperto.",
+          "Se o plano atrasar, não desista: recalcule. Ou aumenta o prazo, ou aumenta o valor guardado, ou ajusta a meta."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Bruna quer juntar R$ 360,00 para um curso de desenho que começa daqui a 8 meses. Ela já tem R$ 80,00. Quanto precisa guardar por mês?",
+            "resolucao": "Falta R$ 360,00 − R$ 80,00 = R$ 280,00. Dividindo por 8 meses: R$ 280,00 ÷ 8 = R$ 35,00 por mês."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para adultos, uma reserva de emergência costuma ter de 3 a 6 meses de gastos da casa. Ela fica num lugar fácil de sacar e não é usada para desejos, só para imprevistos.",
+        "Dinheiro parado no cofrinho perde valor com a inflação: com o tempo, a mesma nota compra menos coisas. Guardar numa conta que rende (como a poupança ou uma conta remunerada) ajuda a compensar essa perda e pode até fazer a meta chegar um pouco antes.",
+        "Metas grandes ficam mais fáceis quando divididas em etapas: em vez de pensar em R$ 600,00, pense em R$ 50,00 por mês e comemore cada etapa. Quando há várias metas, escolha uma prioridade, para o dinheiro não se espalhar e nenhuma chegar ao fim."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para poupar com mais facilidade, é bom ter:",
+            "alternativas": [
+              "Uma meta",
+              "Um cartão de crédito",
+              "Uma dívida",
+              "Muitas compras"
+            ],
+            "correta": 0,
+            "explicacao": "Poupar com um objetivo claro é bem mais fácil do que poupar sem saber para quê.",
+            "dica": "Releia a primeira frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 120,00 em 4 meses dá quanto por mês?",
+            "alternativas": [
+              "R$ 40,00",
+              "R$ 30,00",
+              "R$ 24,00",
+              "R$ 480,00"
+            ],
+            "correta": 1,
+            "explicacao": "120 ÷ 4 = R$ 30,00 por mês.",
+            "dica": "Divida o valor pelo número de meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Juntar dinheiro para um fone em 2 meses é uma meta de:",
+            "alternativas": [
+              "Longo prazo",
+              "Médio prazo",
+              "Curto prazo",
+              "Prazo nenhum"
+            ],
+            "correta": 2,
+            "explicacao": "Semanas ou poucos meses: curto prazo.",
+            "dica": "Poucos meses: é o tipo de meta mais rápido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A reserva de emergência serve para:",
+            "alternativas": [
+              "Comprar doces",
+              "Viajar todo mês",
+              "Emprestar aos amigos",
+              "Imprevistos, como um conserto"
+            ],
+            "correta": 3,
+            "explicacao": "Ela existe para o que não dá para prever, e assim evita dívidas.",
+            "dica": "Emergência é algo que acontece sem aviso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o plano de poupança atrasar, o melhor é:",
+            "alternativas": [
+              "Desistir",
+              "Recalcular o plano",
+              "Pegar um empréstimo",
+              "Gastar tudo"
+            ],
+            "correta": 1,
+            "explicacao": "Dá para aumentar o prazo, aumentar o valor guardado ou ajustar a meta.",
+            "dica": "Releia o último parágrafo da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Guardando R$ 25,00 por mês, em quantos meses você junta R$ 300,00?",
+            "alternativas": [
+              "10 meses",
+              "15 meses",
+              "12 meses",
+              "25 meses"
+            ],
+            "correta": 2,
+            "explicacao": "R$ 300,00 ÷ R$ 25,00 = 12 meses. Confira: 12 × 25 = 300.",
+            "dica": "Divida o valor total pelo valor guardado a cada mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma meta de LONGO prazo para um estudante?",
+            "alternativas": [
+              "Juntar dinheiro para a faculdade",
+              "Comprar um lanche no sábado",
+              "Pagar o ônibus de amanhã",
+              "Comprar figurinhas nesta semana"
+            ],
+            "correta": 0,
+            "explicacao": "Metas de longo prazo levam anos. A faculdade é um objetivo distante; as outras são de curtíssimo prazo.",
+            "dica": "Meta de longo prazo leva anos para ser alcançada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a reserva de emergência?",
+            "alternativas": [
+              "Para comprar coisas em promoção",
+              "Para cobrir imprevistos sem precisar pegar empréstimo",
+              "Para gastar nas férias",
+              "Para emprestar aos amigos"
+            ],
+            "correta": 1,
+            "explicacao": "A reserva existe para o que não dá para prever. Com ela, um imprevisto não vira dívida.",
+            "dica": "Pense em um celular que quebra de repente: de onde viria o dinheiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Davi recebe R$ 200,00 por mês e quer guardar R$ 50,00. Que porcentagem da renda ele vai poupar?",
+            "alternativas": [
+              "50%",
+              "4%",
+              "20%",
+              "25%"
+            ],
+            "correta": 3,
+            "explicacao": "50 ÷ 200 = 0,25, ou seja, 25% da renda.",
+            "dica": "Divida o valor guardado pela renda e transforme o resultado em porcentagem."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para montar um plano de poupança:",
+            "itens": [
+              "Definir a meta e o valor total",
+              "Descontar o que já tem guardado",
+              "Dividir o que falta pelo número de meses",
+              "Conferir se o valor cabe no orçamento",
+              "Acompanhar e recalcular se precisar"
+            ],
+            "explicacao": "Primeiro o objetivo; depois quanto realmente falta; a divisão mostra o valor mensal; conferimos se é possível e, ao longo do caminho, ajustamos.",
+            "dica": "O plano começa pelo objetivo; acompanhar vem depois que você já está guardando."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Gabi quer um tênis de R$ 270,00 em 6 meses e já tem R$ 60,00. Quanto precisa guardar por mês?",
+            "alternativas": [
+              "R$ 45,00",
+              "R$ 35,00",
+              "R$ 55,00",
+              "R$ 30,00"
+            ],
+            "correta": 1,
+            "explicacao": "Falta 270 − 60 = 210. Por mês: 210 ÷ 6 = R$ 35,00. R$ 45,00 seria esquecer o que ela já tem.",
+            "dica": "Primeiro descubra quanto falta; depois divida pelos meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Theo guarda R$ 30,00 por mês e quer juntar R$ 400,00. Quantos meses precisa?",
+            "alternativas": [
+              "13 meses",
+              "12 meses",
+              "14 meses",
+              "15 meses"
+            ],
+            "correta": 2,
+            "explicacao": "400 ÷ 30 = 13,3. Em 13 meses ele tem 390 (ainda falta); no 14º mês chega a 420.",
+            "dica": "Divida e, se não der exato, pense: o mês incompleto também precisa acontecer?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas recebe R$ 180,00 por mês e quer guardar R$ 45,00. Qual porcentagem da renda?",
+            "alternativas": [
+              "25%",
+              "45%",
+              "18%",
+              "40%"
+            ],
+            "correta": 0,
+            "explicacao": "45 ÷ 180 = 0,25 = 25%.",
+            "dica": "Divida o valor guardado pela renda e multiplique por 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia planejou guardar R$ 40,00 por mês durante 8 meses para juntar R$ 320,00. Depois de 3 meses, tinha só R$ 90,00. Quanto precisa guardar por mês nos 5 meses que faltam?",
+            "alternativas": [
+              "R$ 40,00",
+              "R$ 50,00",
+              "R$ 44,00",
+              "R$ 46,00"
+            ],
+            "correta": 3,
+            "explicacao": "Falta 320 − 90 = 230. Por mês: 230 ÷ 5 = R$ 46,00.",
+            "dica": "Descubra quanto ainda falta e divida pelos meses restantes."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as metas do prazo mais CURTO para o mais LONGO:",
+            "itens": [
+              "Comprar um caderno na semana que vem",
+              "Juntar para um fone em 3 meses",
+              "Comprar uma bicicleta em 1 ano",
+              "Pagar um curso técnico daqui a 4 anos"
+            ],
+            "explicacao": "Semana, meses, um ano e vários anos: do curto para o longo prazo.",
+            "dica": "Pense em quanto tempo cada meta leva: semanas, meses ou anos."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Carla quer R$ 600,00 em 10 meses e já tem R$ 120,00. A mesada dela é R$ 200,00. Que porcentagem da mesada ela precisa guardar por mês?",
+            "alternativas": [
+              "30%",
+              "24%",
+              "48%",
+              "60%"
+            ],
+            "correta": 1,
+            "explicacao": "Falta 600 − 120 = 480. Por mês: 480 ÷ 10 = 48. Porcentagem: 48 ÷ 200 = 0,24 = 24%.",
+            "dica": "Ache quanto falta e o valor por mês; só então compare com a mesada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para juntar R$ 360,00, Davi pode guardar R$ 30,00 por mês ou R$ 10,00 por semana (considere 4 semanas por mês). Qual opção chega antes?",
+            "alternativas": [
+              "R$ 30,00 por mês",
+              "As duas chegam juntas",
+              "Depende do mês do ano",
+              "R$ 10,00 por semana, em 9 meses"
+            ],
+            "correta": 3,
+            "explicacao": "R$ 10,00 por semana = R$ 40,00 por mês: 360 ÷ 40 = 9 meses. A outra leva 360 ÷ 30 = 12 meses.",
+            "dica": "Transforme a opção semanal em valor por mês e compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família gasta R$ 2 500,00 por mês e quer uma reserva de 6 meses de gastos. Guardando R$ 500,00 por mês, quanto tempo leva?",
+            "alternativas": [
+              "30 meses (2 anos e meio)",
+              "5 meses",
+              "6 meses",
+              "12 meses"
+            ],
+            "correta": 0,
+            "explicacao": "Reserva: 2 500 × 6 = 15 000. Tempo: 15 000 ÷ 500 = 30 meses.",
+            "dica": "Primeiro calcule o tamanho da reserva; depois divida pelo valor guardado por mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que guardar o dinheiro da meta numa conta que rende é melhor do que no cofrinho?",
+            "alternativas": [
+              "Porque o banco dobra o dinheiro em um mês",
+              "Porque o rendimento ajuda a compensar a inflação e pode adiantar a meta",
+              "Porque no cofrinho o dinheiro desaparece",
+              "Porque é proibido ter cofrinho"
+            ],
+            "correta": 1,
+            "explicacao": "Parado, o dinheiro perde poder de compra com a inflação. O rendimento compensa parte disso. Nenhuma conta segura dobra o dinheiro em um mês.",
+            "dica": "Releia o aprofundamento: o que a inflação faz com o dinheiro parado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rui tem R$ 50,00 e guarda R$ 25,00 por mês. A irmã dele começa do zero e guarda R$ 35,00 por mês. Ao fim de qual mês ela passa a ter MAIS que ele?",
+            "alternativas": [
+              "No 5º mês",
+              "No 10º mês",
+              "No 6º mês",
+              "Nunca"
+            ],
+            "correta": 2,
+            "explicacao": "Fim do 5º mês: Rui 50 + 125 = 175 e a irmã 175 (empate). Fim do 6º mês: Rui 200 e a irmã 210. Ela passa no 6º.",
+            "dica": "Monte uma tabelinha mês a mês. Cuidado: ficar igual ainda não é ter mais."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Fake news: como checar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Fake news são notícias falsas feitas para parecer verdadeiras. Algumas querem enganar para ganhar dinheiro com cliques; outras querem prejudicar alguém ou espalhar medo.",
+          "Elas costumam ter sinais de alerta: título exagerado ou em letras maiúsculas, pedido de “compartilhe antes que apaguem”, falta de data, de autor ou de fonte, erros de português e promessas boas demais.",
+          "Antes de compartilhar, faça a checagem: (1) leia a notícia inteira, não só o título; (2) veja quem publicou e se é um veículo conhecido; (3) confira a data; (4) procure o mesmo assunto em outros sites de notícia confiáveis; (5) consulte agências de checagem de fatos.",
+          "Fotos e vídeos também enganam. Uma imagem antiga pode ser usada como se fosse de hoje, e programas de inteligência artificial já criam imagens e vozes falsas muito realistas.",
+          "Na dúvida, não compartilhe. Espalhar uma notícia falsa, mesmo sem querer, pode prejudicar pessoas reais."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Chega no grupo da família: “URGENTE!!! Escolas vão fechar a semana inteira por causa de um vírus novo. Compartilhe!” Sem link, sem data. O que fazer?",
+            "resolucao": "Há vários sinais de alerta: letras maiúsculas, “urgente”, pedido para compartilhar, nada de fonte ou data. O certo é procurar no site oficial da Secretaria de Educação e em jornais conhecidos antes de acreditar ou repassar."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Temos a tendência de acreditar mais rápido no que confirma o que já pensamos. Isso se chama viés de confirmação. Por isso, a notícia que você MAIS gostou de ler merece a mesma checagem que as outras.",
+        "Vídeos e áudios falsos feitos com inteligência artificial (deepfakes) têm alguns sinais: boca fora de sincronia com a voz, piscadas estranhas, mãos e dedos deformados, voz robótica. O jeito mais seguro é procurar a fala nos canais oficiais da pessoa e em veículos confiáveis. Também existem sites de humor (sátira), que publicam piadas com cara de notícia, e sites que imitam o endereço de jornais conhecidos trocando uma letra.",
+        "Espalhar mentira sobre alguém tem consequências. Quem cria e também quem repassa uma acusação falsa pode ser processado e ter de pagar indenização à pessoa prejudicada, além de poder responder por crime contra a honra (calúnia ou difamação)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Fake news são:",
+            "alternativas": [
+              "Notícias falsas feitas para parecer verdadeiras",
+              "Notícias antigas e verdadeiras",
+              "Propagandas de lojas",
+              "Previsões do tempo"
+            ],
+            "correta": 0,
+            "explicacao": "Fake news são notícias falsas disfarçadas de verdadeiras.",
+            "dica": "Fake quer dizer falso em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de compartilhar uma notícia, você deve:",
+            "alternativas": [
+              "Compartilhar rápido",
+              "Checar se ela é verdadeira",
+              "Mudar o título",
+              "Desligar o celular"
+            ],
+            "correta": 1,
+            "explicacao": "Checar primeiro evita espalhar mentira, mesmo sem querer.",
+            "dica": "Releia o 3º parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Título todo em LETRAS MAIÚSCULAS e cheio de “URGENTE” é:",
+            "alternativas": [
+              "Sinal de notícia confiável",
+              "Obrigatório nos jornais",
+              "Um sinal de alerta",
+              "Sinal de que é oficial"
+            ],
+            "correta": 2,
+            "explicacao": "Exagero e pressa são truques para você repassar sem pensar.",
+            "dica": "Notícias sérias precisam gritar para chamar a atenção?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na dúvida se uma notícia é verdadeira, o melhor é:",
+            "alternativas": [
+              "Compartilhar com todos",
+              "Mandar só para a família",
+              "Inventar uma explicação",
+              "Não compartilhar"
+            ],
+            "correta": 3,
+            "explicacao": "Na dúvida, não compartilhe. Uma notícia falsa pode prejudicar pessoas reais.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fotos e vídeos podem enganar?",
+            "alternativas": [
+              "Sim: podem ser antigos ou criados por inteligência artificial",
+              "Não, foto nunca mente",
+              "Só fotos em preto e branco",
+              "Só vídeos curtos"
+            ],
+            "correta": 0,
+            "explicacao": "Imagens antigas são reaproveitadas, e a inteligência artificial já cria imagens e vozes falsas.",
+            "dica": "Releia o 4º parágrafo da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um sinal de alerta de fake news?",
+            "alternativas": [
+              "A notícia tem data e autor",
+              "O texto pede “compartilhe antes que apaguem”",
+              "O assunto aparece em vários jornais conhecidos",
+              "O site é de um veículo conhecido"
+            ],
+            "correta": 1,
+            "explicacao": "Pressa e pedido de compartilhamento são táticas para você repassar sem pensar. As outras opções são sinais de notícia confiável.",
+            "dica": "Notícia séria não tem pressa nem pede para você repassar sem pensar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você viu uma foto chocante dizendo que é de “hoje”. Qual é a melhor forma de checar?",
+            "alternativas": [
+              "Ver se muita gente curtiu",
+              "Acreditar, porque foto não mente",
+              "Procurar a origem da imagem e ver se ela já apareceu antes",
+              "Compartilhar e perguntar se é verdade"
+            ],
+            "correta": 2,
+            "explicacao": "Imagens antigas são reaproveitadas com frequência. Uma busca reversa de imagem mostra onde e quando a foto apareceu pela primeira vez.",
+            "dica": "Imagens antigas são muito reaproveitadas. Como descobrir onde a foto apareceu primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que ler só o título de uma notícia é arriscado?",
+            "alternativas": [
+              "Porque o título pode ser exagerado e o texto dizer outra coisa",
+              "Porque títulos sempre são mentira",
+              "Porque títulos são escritos em inglês",
+              "Porque não existe risco nenhum"
+            ],
+            "correta": 0,
+            "explicacao": "Muitos títulos são feitos para chamar clique. O texto completo pode trazer detalhes que mudam o sentido.",
+            "dica": "Títulos são feitos para chamar clique. O que pode estar no resto do texto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma notícia aparece só em um site desconhecido e em nenhum outro lugar. O que isso indica?",
+            "alternativas": [
+              "Que é um furo exclusivo e certamente verdadeiro",
+              "Que os outros jornais estão escondendo",
+              "Que é obrigatório compartilhar",
+              "Que é preciso desconfiar e investigar mais"
+            ],
+            "correta": 3,
+            "explicacao": "Fatos importantes costumam ser noticiados por vários veículos. Se só um site desconhecido fala, é motivo para desconfiar.",
+            "dica": "Fatos importantes costumam aparecer em vários veículos ao mesmo tempo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para checar uma notícia:",
+            "itens": [
+              "Ler a notícia inteira",
+              "Ver quem publicou",
+              "Conferir a data",
+              "Procurar o assunto em outros veículos confiáveis",
+              "Decidir se compartilha ou não"
+            ],
+            "explicacao": "Primeiro entendemos o conteúdo, depois checamos fonte e data, comparamos com outros veículos e só então decidimos.",
+            "dica": "Primeiro entenda o conteúdo; a decisão de compartilhar vem por último."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um áudio no grupo diz ser de “um médico famoso”, mas não diz o nome dele nem onde trabalha. Qual é o principal problema?",
+            "alternativas": [
+              "O áudio é longo demais",
+              "Não dá para conferir a fonte: falta um autor identificável",
+              "Áudio nunca pode ser notícia",
+              "Médicos não gravam áudios"
+            ],
+            "correta": 1,
+            "explicacao": "Sem nome e sem lugar, ninguém consegue confirmar quem falou. Uma informação vale pela fonte.",
+            "dica": "Uma informação vale pela fonte. Dá para saber quem falou e conferir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma notícia verdadeira de 2019 é repassada hoje como se fosse nova. Isso é:",
+            "alternativas": [
+              "Notícia confiável, porque é verdadeira",
+              "Um furo de reportagem",
+              "Desinformação: um fato velho fora de contexto engana",
+              "Uma propaganda"
+            ],
+            "correta": 2,
+            "explicacao": "Mesmo verdadeiro, um fato antigo apresentado como atual engana quem lê. Por isso a data importa.",
+            "dica": "Lembre o passo de conferir a data. Um fato verdadeiro pode enganar se estiver fora do tempo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um site com endereço quase igual ao de um jornal famoso, mas com uma letra trocada, publicou algo chocante. Do que desconfiar?",
+            "alternativas": [
+              "De que é um site falso imitando um veículo conhecido",
+              "De que é o site oficial do jornal",
+              "De que o assunto é antigo",
+              "De nada: endereço não importa"
+            ],
+            "correta": 0,
+            "explicacao": "Sites falsos copiam nomes e visuais de jornais conhecidos trocando uma letra para enganar.",
+            "dica": "Olhe letra por letra o endereço do site."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você recebeu uma notícia que confirma tudo o que você já pensava sobre um assunto. Qual é o cuidado certo?",
+            "alternativas": [
+              "Compartilhar logo, porque você concorda",
+              "Desconfiar menos, porque combina com você",
+              "Ignorar todas as notícias",
+              "Checar com o mesmo cuidado, porque tendemos a acreditar no que já concordamos"
+            ],
+            "correta": 3,
+            "explicacao": "O viés de confirmação faz a gente baixar a guarda. Gostar da notícia não prova que ela é verdadeira.",
+            "dica": "Gostar de uma notícia não é prova de que ela é verdadeira."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene a checagem de uma foto suspeita:",
+            "itens": [
+              "Segurar o impulso de repassar",
+              "Fazer uma busca reversa da imagem",
+              "Ver onde e quando ela apareceu pela primeira vez",
+              "Ver se agências de checagem já falaram dela",
+              "Decidir se compartilha ou não"
+            ],
+            "explicacao": "Primeiro freamos o impulso, depois investigamos a origem, conferimos com checadores e só então decidimos.",
+            "dica": "Comece segurando o impulso; a decisão é sempre o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um vídeo mostra um político dizendo algo absurdo. A boca parece fora de sincronia com a voz e ele quase não pisca. O melhor passo é:",
+            "alternativas": [
+              "Compartilhar avisando que pode ser falso",
+              "Acreditar, porque é vídeo",
+              "Suspeitar de deepfake e procurar a fala nos canais oficiais e em veículos confiáveis",
+              "Comentar xingando o político"
+            ],
+            "correta": 2,
+            "explicacao": "Esses são sinais típicos de vídeo feito por inteligência artificial. A confirmação vem da fonte oficial e de veículos confiáveis.",
+            "dica": "Releia o aprofundamento sobre vídeos criados por inteligência artificial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma “notícia” tem data e autor, mas foi publicada por um site conhecido por fazer humor. Ela é:",
+            "alternativas": [
+              "Verdadeira, porque tem autor e data",
+              "Uma piada (sátira): não é notícia, mesmo com cara de notícia",
+              "Sempre uma fake news perigosa",
+              "Uma notícia oficial"
+            ],
+            "correta": 1,
+            "explicacao": "Sites de sátira escrevem piadas no formato de notícia. Data e autor não bastam: é preciso ver o objetivo do site.",
+            "dica": "Pense no tipo de site: o objetivo dele é informar ou fazer rir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Compartilhar uma mensagem duvidosa “só para perguntar se é verdade” ajuda?",
+            "alternativas": [
+              "Sim, é a melhor forma de checar",
+              "Sim, se for no grupo da família",
+              "Não muda nada",
+              "Não: a mensagem se espalha do mesmo jeito, e muita gente lê só ela, não a sua pergunta"
+            ],
+            "correta": 3,
+            "explicacao": "Ao repassar, você ajuda a mensagem a viajar. Muitos leem só o conteúdo e repassam adiante. O certo é checar antes.",
+            "dica": "Pense em quem recebe sua mensagem, não lê a sua pergunta e repassa para outros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafael repassou uma mensagem falsa acusando um vizinho de roubo. O que pode acontecer?",
+            "alternativas": [
+              "Nada, porque ele só repassou",
+              "O vizinho pode processá-lo e pedir indenização, mesmo ele não tendo criado a mensagem",
+              "Só quem criou a mensagem responde",
+              "Rafael ganha uma recompensa"
+            ],
+            "correta": 1,
+            "explicacao": "Quem repassa uma acusação falsa também ajuda a destruir a reputação de alguém e pode responder na Justiça.",
+            "dica": "Releia o aprofundamento: espalhar mentira sobre alguém tem consequência só para quem inventou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação de sinais deixa uma mensagem MAIS suspeita?",
+            "alternativas": [
+              "Pedido urgente para repassar, nenhuma fonte e promessa boa demais",
+              "Data, autor e link para um jornal conhecido",
+              "Fonte oficial e data recente",
+              "Assunto publicado por vários jornais"
+            ],
+            "correta": 0,
+            "explicacao": "Pressa, falta de fonte e promessa exagerada são três sinais de alerta juntos. As outras opções são sinais de confiança.",
+            "dica": "Procure a opção que junta vários sinais de alerta da lição ao mesmo tempo."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O banho de sete minutos",
+    "texto": "Quando a conta de luz chegou com R$ 214,00, dona Célia colocou o papel na porta da geladeira, preso com um ímã de abacaxi, e anunciou: “Vamos descobrir quem é o vilão desta casa.”\n\nO filho mais velho, Mateus, aceitou o desafio. Pegou a lista de aparelhos, procurou a potência de cada um na etiqueta e foi anotando no caderno. A geladeira, ligada o dia todo, consumia bastante, mas era necessária. A TV e o videogame juntos davam uma parte razoável. Então ele chegou ao chuveiro: 5 500 watts.\n\nFez as contas. A família tinha quatro pessoas, e cada uma tomava, em média, um banho de 15 minutos por dia. Isso dava uma hora inteira de chuveiro ligado todos os dias, cerca de 165 kWh por mês. Com a tarifa da cidade, mais de R$ 130,00 só em banho.\n\nNa reunião de família, Mateus mostrou o caderno. A irmã duvidou, o pai pediu para refazer a conta na calculadora, e a conta bateu. Ficou combinado: banho de no máximo sete minutos, com um despertador do celular como juiz.\n\nNa primeira semana houve reclamação. Na segunda, virou brincadeira: quem saía antes do alarme ganhava o direito de escolher o filme de sábado.\n\nO mês seguinte terminou com uma conta de R$ 152,00. Dona Célia trocou o ímã de abacaxi por um de estrela e escreveu na conta, com caneta vermelha: “Vilão vencido.”"
+  },
+  "escrita": {
+    "proposta": "Investigue os aparelhos da sua casa (com a ajuda de um adulto, olhando a etiqueta ou o manual). Escreva de 8 a 12 linhas no caderno contando qual parece ser o “vilão” da conta de luz na sua casa, mostrando pelo menos uma conta de consumo (potência × horas × dias ÷ 1 000) e propondo uma combinação para a família economizar, como a do banho de sete minutos."
+  }
+}

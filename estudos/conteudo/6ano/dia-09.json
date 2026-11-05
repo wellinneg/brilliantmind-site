@@ -1,0 +1,1199 @@
+{
+  "dia": 9,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Operações com frações",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Somar frações com o mesmo denominador é fácil: soma os numeradores e mantém o denominador. Se você comeu 2/8 de uma pizza e seu irmão comeu 3/8, juntos vocês comeram 5/8.",
+          "A subtração funciona do mesmo jeito: 7/10 − 3/10 = 4/10. O denominador não muda, porque o tamanho dos pedaços continua o mesmo.",
+          "Quando os denominadores são diferentes, primeiro transformamos as frações em equivalentes com o mesmo denominador. Exemplo: 1/2 + 1/4. Como 1/2 = 2/4, a conta vira 2/4 + 1/4 = 3/4.",
+          "Para achar a fração de uma quantidade, dividimos pelo denominador e multiplicamos pelo numerador. Quanto é 3/4 de 20 balas? 20 ÷ 4 = 5, e 5 × 3 = 15 balas.",
+          "Depois de fazer a conta, veja se dá para simplificar o resultado. 4/10, por exemplo, pode virar 2/5."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Numa receita de bolo, Rita colocou 1/3 de xícara de leite e depois mais 1/6. Quanto de leite ela usou?",
+            "resolucao": "1/3 é igual a 2/6. Então 2/6 + 1/6 = 3/6, que simplificado é 1/2. Ela usou meia xícara."
+          },
+          {
+            "enunciado": "A turma tem 30 alunos e 2/5 vão de ônibus para a escola. Quantos alunos vão de ônibus?",
+            "resolucao": "30 ÷ 5 = 6. Depois 6 × 2 = 12 alunos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para somar frações com denominadores que não são múltiplos um do outro, procure um número que os dois dividem. Em 1/2 + 1/3, o 6 serve para os dois: 1/2 = 3/6 e 1/3 = 2/6. Então 1/2 + 1/3 = 5/6.",
+        "Quando o resultado passa de um inteiro, dá para escrever como número misto. 3/4 + 3/4 = 6/4, que é 1 inteiro (4/4) e mais 2/4, ou seja, 1 inteiro e 1/2.",
+        "Para saber quanto SOBRA depois de usar uma fração, tire do inteiro. Se a turma gastou 2/5 do dinheiro da festa, sobraram 5/5 − 2/5 = 3/5. Com R$ 100,00, sobraram 3/5 de 100: 100 ÷ 5 = 20 e 20 × 3 = R$ 60,00."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1/5 + 2/5?",
+            "alternativas": [
+              "3/10",
+              "3/5",
+              "2/5",
+              "1/5"
+            ],
+            "correta": 1,
+            "explicacao": "Mesmo denominador: soma os de cima (1 + 2 = 3) e mantém o 5. Resultado: 3/5.",
+            "dica": "Mesmo denominador: some só os números de cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 5/8 − 2/8?",
+            "alternativas": [
+              "3/8",
+              "7/8",
+              "3/0",
+              "3/16"
+            ],
+            "correta": 0,
+            "explicacao": "Os pedaços são do mesmo tamanho (oitavos). 5 − 2 = 3, e o denominador continua 8.",
+            "dica": "O tamanho do pedaço não muda; tire só os de cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao somar 2/9 + 4/9, o que acontece com o denominador?",
+            "alternativas": [
+              "Vira 18",
+              "Vira 2",
+              "Continua 9",
+              "Vira 0"
+            ],
+            "correta": 2,
+            "explicacao": "O denominador mostra o tamanho do pedaço, que não muda. 2/9 + 4/9 = 6/9.",
+            "dica": "Os pedaços continuam do mesmo tamanho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1/2 de 10 balas?",
+            "alternativas": [
+              "2 balas",
+              "10 balas",
+              "20 balas",
+              "5 balas"
+            ],
+            "correta": 3,
+            "explicacao": "Metade de 10: 10 ÷ 2 = 5 balas.",
+            "dica": "Metade: divida 10 por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma simplificada de 4/10?",
+            "alternativas": [
+              "2/5",
+              "4/5",
+              "1/10",
+              "8/20"
+            ],
+            "correta": 0,
+            "explicacao": "Dividindo 4 e 10 por 2, temos 2/5. 8/20 é equivalente, mas ficou maior, não simplificada.",
+            "dica": "Divida o 4 e o 10 pelo mesmo número."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3/7 + 2/7?",
+            "alternativas": [
+              "5/14",
+              "5/7",
+              "6/7",
+              "1/7"
+            ],
+            "correta": 1,
+            "explicacao": "Os denominadores são iguais, então somamos só os numeradores: 3 + 2 = 5. Resultado: 5/7.",
+            "dica": "Mesmo denominador: some só os de cima e mantenha o de baixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 9/10 − 4/10?",
+            "alternativas": [
+              "1/2",
+              "5/20",
+              "13/10",
+              "4/9"
+            ],
+            "correta": 0,
+            "explicacao": "9 − 4 = 5, então temos 5/10. Simplificando (dividindo por 5), fica 1/2.",
+            "dica": "Subtraia os de cima e depois veja se dá para simplificar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1/2 + 1/4?",
+            "alternativas": [
+              "2/6",
+              "2/4",
+              "1/8",
+              "3/4"
+            ],
+            "correta": 3,
+            "explicacao": "Transformamos 1/2 em 2/4. Então 2/4 + 1/4 = 3/4. Somar os denominadores (2/6) é um erro comum.",
+            "dica": "Escreva 1/2 em quartos antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1/3 de R$ 24,00?",
+            "alternativas": [
+              "R$ 3,00",
+              "R$ 12,00",
+              "R$ 8,00",
+              "R$ 6,00"
+            ],
+            "correta": 2,
+            "explicacao": "Dividimos 24 pelo denominador 3: 24 ÷ 3 = 8. Como o numerador é 1, fica R$ 8,00.",
+            "dica": "Divida R$ 24,00 em 3 partes iguais e pegue uma."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular 3/5 de 40:",
+            "itens": [
+              "Dividir 40 pelo denominador 5",
+              "Encontrar 8",
+              "Multiplicar 8 pelo numerador 3",
+              "Chegar ao resultado 24"
+            ],
+            "explicacao": "40 ÷ 5 = 8 (o tamanho de cada parte). Como queremos 3 partes, 8 × 3 = 24.",
+            "dica": "Primeiro divide pelo número de baixo, depois multiplica pelo de cima."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1/2 + 1/3?",
+            "alternativas": [
+              "2/5",
+              "5/6",
+              "2/6",
+              "1/6"
+            ],
+            "correta": 1,
+            "explicacao": "Em sextos: 1/2 = 3/6 e 1/3 = 2/6. 3/6 + 2/6 = 5/6. O erro comum é somar em cima e embaixo e achar 2/5.",
+            "dica": "Escreva as duas frações com denominador 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3/4 − 1/2?",
+            "alternativas": [
+              "2/2",
+              "2/4",
+              "1/4",
+              "1/2"
+            ],
+            "correta": 2,
+            "explicacao": "1/2 = 2/4. Então 3/4 − 2/4 = 1/4.",
+            "dica": "Escreva 1/2 em quartos e depois subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma turma tem 28 alunos e 3/4 foram ao passeio. Quantos foram?",
+            "alternativas": [
+              "7",
+              "24",
+              "12",
+              "21"
+            ],
+            "correta": 3,
+            "explicacao": "28 ÷ 4 = 7 e 7 × 3 = 21 alunos. Quem marcou 7 calculou só 1/4.",
+            "dica": "Divida 28 pelo denominador e multiplique pelo numerador."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rui leu 1/4 de um livro na segunda e 2/4 na terça. Que fração do livro FALTA ler?",
+            "alternativas": [
+              "1/4",
+              "3/4",
+              "3/8",
+              "2/4"
+            ],
+            "correta": 0,
+            "explicacao": "Ele leu 1/4 + 2/4 = 3/4. O livro inteiro é 4/4, então falta 4/4 − 3/4 = 1/4.",
+            "dica": "Some o que ele leu e veja quanto falta para o livro inteiro (4/4)."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular 1/3 + 1/6:",
+            "itens": [
+              "Ver que os denominadores são diferentes",
+              "Transformar 1/3 em 2/6",
+              "Somar 2/6 + 1/6 = 3/6",
+              "Simplificar 3/6 para 1/2"
+            ],
+            "explicacao": "Primeiro percebemos que os pedaços têm tamanhos diferentes, igualamos os denominadores, somamos e simplificamos.",
+            "dica": "Primeiro iguale os denominadores, depois some e por fim simplifique."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "3/4 + 3/4 dá:",
+            "alternativas": [
+              "6/8",
+              "1 inteiro e 1/2",
+              "3/4",
+              "1 inteiro e 3/4"
+            ],
+            "correta": 1,
+            "explicacao": "3/4 + 3/4 = 6/4. 4/4 é um inteiro e sobram 2/4 = 1/2. Resultado: 1 inteiro e 1/2. 6/8 é o erro de somar os denominadores.",
+            "dica": "Some os de cima mantendo o 4. Depois veja quantos inteiros (4/4) cabem no resultado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A turma juntou R$ 100,00 para a festa e gastou 2/5 em salgados. Quanto SOBROU?",
+            "alternativas": [
+              "R$ 40,00",
+              "R$ 20,00",
+              "R$ 60,00",
+              "R$ 80,00"
+            ],
+            "correta": 2,
+            "explicacao": "Sobrou 5/5 − 2/5 = 3/5. 3/5 de 100: 100 ÷ 5 = 20 e 20 × 3 = R$ 60,00. R$ 40,00 é o que foi gasto.",
+            "dica": "Descubra a fração que sobrou (o inteiro menos o que gastou) e calcule essa fração de 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pizza foi dividida: Ana comeu 1/3 e Beto comeu 1/4. Que fração sobrou?",
+            "alternativas": [
+              "2/7",
+              "7/12",
+              "1/2",
+              "5/12"
+            ],
+            "correta": 3,
+            "explicacao": "Em doze avos: 1/3 = 4/12 e 1/4 = 3/12. Comeram 7/12. Sobrou 12/12 − 7/12 = 5/12.",
+            "dica": "Use o 12 como denominador comum, some o que comeram e tire de 12/12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia tem R$ 60,00. Gastou 1/2 num tênis e depois 1/3 do que SOBROU num boné. Quanto ela ainda tem?",
+            "alternativas": [
+              "R$ 20,00",
+              "R$ 10,00",
+              "R$ 30,00",
+              "R$ 40,00"
+            ],
+            "correta": 0,
+            "explicacao": "Tênis: metade de 60 = R$ 30,00; sobram R$ 30,00. Boné: 1/3 de 30 = R$ 10,00. Fica com 30 − 10 = R$ 20,00. Quem calcula 1/3 de 60 chega em R$ 10,00, errado.",
+            "dica": "Cuidado: o 1/3 é do que sobrou depois do tênis, não dos R$ 60,00."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conta dá resultado MAIOR que 1 inteiro?",
+            "alternativas": [
+              "1/2 + 1/4",
+              "2/3 + 1/6",
+              "3/5 + 2/5",
+              "3/4 + 1/2"
+            ],
+            "correta": 3,
+            "explicacao": "1/2 + 1/4 = 3/4; 2/3 + 1/6 = 5/6; 3/5 + 2/5 = 5/5 = 1 (igual, não maior); 3/4 + 1/2 = 5/4, que passa de 1.",
+            "dica": "Faça cada soma com o mesmo denominador e compare com o inteiro. Igual a 1 não é maior."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Repetição",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Imagine escrever um algoritmo para pular corda 50 vezes: “pular, pular, pular…” cinquenta vezes. Cansativo, não é? Na programação, usamos a repetição para não escrever a mesma coisa várias vezes.",
+          "Com a repetição, escrevemos assim: REPITA 50 VEZES: pular. O computador entende e faz a ação quantas vezes for pedido.",
+          "Também existe a repetição com condição: REPITA ATÉ a garrafa encher: colocar água. Aqui não sabemos quantas vezes vai ser; o computador repete até a condição ficar verdadeira.",
+          "Repetições aparecem em todo lugar: o relógio que soma 1 segundo sem parar, a música que toca em looping, o jogo que repete a fase até você passar.",
+          "Cuidado: se a condição nunca acontecer, a repetição não termina. Isso se chama laço infinito e faz o programa travar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva um algoritmo para escovar os dentes de cima usando repetição.",
+            "resolucao": "Colocar pasta na escova. REPITA 10 VEZES: escovar para frente e para trás. Enxaguar a boca."
+          },
+          {
+            "enunciado": "Um robô precisa andar até a parede. Como escrever isso?",
+            "resolucao": "REPITA ATÉ encostar na parede: dar um passo para frente. Assim funciona com qualquer distância."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Dá para colocar uma repetição dentro de outra. REPITA 3 VEZES: (REPITA 4 VEZES: bater palma). A de dentro roda 4 vezes a cada volta da de fora, então são 3 × 4 = 12 palmas.",
+        "Muitas repetições usam um contador: uma variável que começa num número e muda a cada volta. Exemplo: contador = 1; REPITA ATÉ o contador ser maior que 5: mostrar o contador e somar 1 nele. Aparecem 1, 2, 3, 4 e 5.",
+        "Para não criar laço infinito, confira duas coisas: alguma coisa precisa mudar a cada volta, e essa mudança precisa levar a condição a ficar verdadeira. Se o contador começa em 1 e você tira 1 a cada volta esperando chegar a 10, ele nunca chega."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a repetição faz?",
+            "alternativas": [
+              "Repete uma ação várias vezes",
+              "Apaga o programa",
+              "Desliga o computador",
+              "Faz uma ação uma vez só"
+            ],
+            "correta": 0,
+            "explicacao": "A repetição faz o computador realizar a mesma ação várias vezes, sem escrever tudo de novo.",
+            "dica": "O nome já conta: o que o computador faz com a ação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "REPITA 3 VEZES: bater palma. Quantas palmas?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "A ação foi pedida 3 vezes, então são 3 palmas.",
+            "dica": "Conte quantas vezes a ação foi pedida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um exemplo de repetição no dia a dia?",
+            "alternativas": [
+              "Abrir a porta uma vez",
+              "Uma música tocando em looping",
+              "Comer uma maçã",
+              "Ligar a luz"
+            ],
+            "correta": 1,
+            "explicacao": "A música em looping toca de novo e de novo: é uma repetição.",
+            "dica": "Procure algo que acontece de novo e de novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a repetição que nunca termina?",
+            "alternativas": [
+              "Repetição curta",
+              "Condição",
+              "Algoritmo",
+              "Laço infinito"
+            ],
+            "correta": 3,
+            "explicacao": "Quando a condição de parar nunca acontece, a repetição não termina: é um laço infinito, que trava o programa.",
+            "dica": "Lembre do último parágrafo da lição: ela trava o programa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "REPITA ATÉ o copo encher: colocar suco. Quando a repetição para?",
+            "alternativas": [
+              "Quando o copo encher",
+              "Depois de 2 vezes",
+              "Nunca",
+              "Antes de começar"
+            ],
+            "correta": 0,
+            "explicacao": "A repetição com condição para quando a condição fica verdadeira: o copo cheio.",
+            "dica": "Olhe o que vem depois da palavra ATÉ."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a repetição na programação?",
+            "alternativas": [
+              "Para o computador ficar mais bonito",
+              "Para fazer a mesma ação várias vezes sem escrever tudo de novo",
+              "Para apagar o programa",
+              "Para o programa nunca terminar"
+            ],
+            "correta": 1,
+            "explicacao": "A repetição economiza trabalho: escrevemos a ação uma vez e dizemos quantas vezes ou até quando repetir.",
+            "dica": "Pense no exemplo de pular corda 50 vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um robô segue: REPITA 4 VEZES: dar 2 passos. Quantos passos ele dá ao todo?",
+            "alternativas": [
+              "6",
+              "4",
+              "2",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "Ele repete 4 vezes a ação de dar 2 passos: 4 × 2 = 8 passos.",
+            "dica": "Multiplique o número de voltas pelos passos de cada volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma repetição com condição?",
+            "alternativas": [
+              "REPITA ATÉ o copo encher: colocar suco",
+              "REPITA 3 VEZES: bater palmas",
+              "Bater palmas uma vez",
+              "Pular duas vezes"
+            ],
+            "correta": 0,
+            "explicacao": "“Até o copo encher” é uma condição. Não sabemos quantas vezes vai ser: depende de quando o copo encher.",
+            "dica": "Procure a que repete até alguma coisa acontecer, sem número fixo de vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um laço infinito?",
+            "alternativas": [
+              "Uma repetição muito curta",
+              "Um desenho de laço de fita",
+              "Uma repetição que nunca termina, porque a condição nunca acontece",
+              "Uma repetição que roda só uma vez"
+            ],
+            "correta": 2,
+            "explicacao": "Se a condição de parada nunca fica verdadeira, o computador repete para sempre e o programa trava.",
+            "dica": "Pense no que acontece quando a condição de parar nunca fica verdadeira."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo para encher um balde com uma caneca:",
+            "itens": [
+              "Pegar a caneca",
+              "REPITA ATÉ o balde encher:",
+              "Encher a caneca na torneira",
+              "Despejar a água no balde",
+              "Fechar a torneira"
+            ],
+            "explicacao": "Pegamos a caneca, começamos a repetição, e dentro dela enchemos e despejamos. Quando o balde enche, a repetição para e fechamos a torneira.",
+            "dica": "A torneira só fecha depois que o balde enche, e a caneca enche antes de despejar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "REPITA 5 VEZES: dar 3 passos e pular 1 vez. Quantos passos e quantos pulos ao todo?",
+            "alternativas": [
+              "15 passos e 5 pulos",
+              "8 passos e 1 pulo",
+              "15 passos e 1 pulo",
+              "3 passos e 5 pulos"
+            ],
+            "correta": 0,
+            "explicacao": "Cada volta tem 3 passos e 1 pulo. Em 5 voltas: 5 × 3 = 15 passos e 5 × 1 = 5 pulos.",
+            "dica": "Cada volta tem 3 passos e 1 pulo. Multiplique cada um pelo número de voltas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um robô está a 6 passos da parede. Ele segue: REPITA ATÉ encostar na parede: dar 2 passos. Quantas voltas a repetição faz?",
+            "alternativas": [
+              "6",
+              "2",
+              "12",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "A cada volta ele anda 2 passos. Para andar 6: 6 ÷ 2 = 3 voltas.",
+            "dica": "A cada volta ele anda 2 passos. Quantas voltas para andar 6?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes algoritmos tem laço infinito?",
+            "alternativas": [
+              "REPITA 10 VEZES: pular",
+              "REPITA ATÉ o balde encher: colocar água",
+              "REPITA ATÉ o balde encher: olhar para o balde",
+              "REPITA 2 VEZES: bater palma"
+            ],
+            "correta": 2,
+            "explicacao": "Só olhar não coloca água: o balde nunca enche e a repetição nunca para.",
+            "dica": "Procure a repetição em que nada muda a cada volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um relógio soma 1 segundo a cada volta da repetição. Quantas voltas para passar 2 minutos?",
+            "alternativas": [
+              "60",
+              "120",
+              "2",
+              "200"
+            ],
+            "correta": 1,
+            "explicacao": "1 minuto tem 60 segundos. 2 minutos = 2 × 60 = 120 segundos, então 120 voltas.",
+            "dica": "Um minuto tem 60 segundos. Quantos segundos há em 2 minutos?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo para lavar 5 pratos:",
+            "itens": [
+              "Abrir a torneira",
+              "REPITA 5 VEZES:",
+              "Ensaboar e enxaguar um prato",
+              "Fechar a torneira"
+            ],
+            "explicacao": "A torneira abre uma vez antes, a repetição lava os 5 pratos e a torneira fecha no final.",
+            "dica": "A torneira abre antes da repetição e fecha depois dela."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "REPITA 3 VEZES: (REPITA 4 VEZES: bater palma). Quantas palmas no total?",
+            "alternativas": [
+              "7",
+              "12",
+              "4",
+              "34"
+            ],
+            "correta": 1,
+            "explicacao": "A repetição de dentro faz 4 palmas e roda inteira em cada uma das 3 voltas de fora: 3 × 4 = 12. Somar (3 + 4 = 7) é o erro comum.",
+            "dica": "A repetição de dentro roda inteira a cada volta da de fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "contador = 1. REPITA ATÉ o contador ser maior que 5: mostrar o contador; somar 1 no contador. Quais números aparecem?",
+            "alternativas": [
+              "1, 2, 3, 4, 5",
+              "1, 2, 3, 4, 5, 6",
+              "2, 3, 4, 5, 6",
+              "1, 2, 3, 4"
+            ],
+            "correta": 0,
+            "explicacao": "Mostra 1 e vira 2; mostra 2 e vira 3; … mostra 5 e vira 6. Com 6, a condição fica verdadeira e para antes de mostrar o 6.",
+            "dica": "Siga volta a volta: mostre, some 1 e teste se já passou de 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "contador = 1. REPITA ATÉ o contador ser igual a 10: tirar 1 do contador. O que acontece?",
+            "alternativas": [
+              "Para depois de 9 voltas",
+              "Para depois de 10 voltas",
+              "Para na primeira volta",
+              "Nunca para, é um laço infinito"
+            ],
+            "correta": 3,
+            "explicacao": "O contador vai 0, −1, −2… e só desce. Ele nunca chega a 10, então a repetição nunca termina.",
+            "dica": "O contador está indo para cima ou para baixo? Ele chega em 10 algum dia?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um jogo dá 5 moedas por fase. O jogador começa com 0 e segue: REPITA ATÉ ter 40 moedas ou mais: jogar uma fase. Quantas fases ele joga?",
+            "alternativas": [
+              "5",
+              "8",
+              "40",
+              "9"
+            ],
+            "correta": 1,
+            "explicacao": "Cada fase soma 5: depois de 8 fases ele tem 8 × 5 = 40 moedas e a repetição para.",
+            "dica": "Cada fase soma 5. Quantas fases até chegar a 40?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "REPITA 2 VEZES: (andar 1 passo; REPITA 3 VEZES: girar). Quantas ações (passos + giros) acontecem ao todo?",
+            "alternativas": [
+              "6",
+              "5",
+              "8",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "Em cada volta de fora: 1 passo + 3 giros = 4 ações. Em 2 voltas: 2 × 4 = 8 ações (2 passos e 6 giros).",
+            "dica": "Conte as ações de uma volta da repetição de fora e multiplique pelas voltas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Títulos e listas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um texto organizado é mais fácil de ler. No Word, duas ferramentas ajudam muito nisso: os títulos e as listas.",
+          "O título fica no começo e diz do que o texto trata. Em vez de só aumentar a letra, use os Estilos: selecione a frase e escolha “Título 1”. Para partes menores dentro do texto, use “Título 2”.",
+          "As listas servem para mostrar itens. A lista com marcadores (bolinhas) é para itens sem ordem, como os materiais de uma receita. A lista numerada (1, 2, 3) é para passos que têm ordem, como o modo de preparo.",
+          "Para criar uma lista, toque no botão de marcadores ou de numeração e escreva o primeiro item. Ao apertar Enter, o Word cria o próximo item sozinho. Aperte Enter duas vezes para sair da lista.",
+          "No celular, esses botões ficam no menu da página inicial (o ícone com a letra A e o lápis abre as opções de formatação)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você vai escrever a receita de um sanduíche. Como organizar?",
+            "resolucao": "Título 1: “Sanduíche de queijo”. Título 2: “Ingredientes”, com lista de marcadores (pão, queijo, tomate). Título 2: “Modo de preparo”, com lista numerada (1. Abrir o pão; 2. Colocar o queijo; 3. Colocar o tomate; 4. Fechar o pão)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Usar os Estilos em vez de só aumentar a letra traz uma vantagem: o Word passa a saber quais frases são títulos. Assim, ele consegue montar um sumário automático e mostrar o painel de navegação, onde você clica num título e vai direto para aquela parte.",
+        "Dá para criar listas dentro de listas, chamadas de subníveis. Dentro de um item, aperte a tecla Tab para descer um nível (o item vai mais para dentro) e Shift + Tab para voltar. Exemplo: “Frutas” e, dentro dela, “banana” e “maçã”.",
+        "Se você apagar um item do meio de uma lista numerada, o Word renumera os outros sozinho. Por isso não se digita a numeração na mão: na hora de mudar a ordem, a numeração automática se ajusta e a digitada fica errada."
+      ],
+      "desafio_pratico": "Abra o Word no celular ou no PC e crie um documento novo chamado “Minha receita”. Escreva o nome de uma comida que você gosta e aplique o estilo “Título 1”. Embaixo, escreva “Ingredientes” com estilo “Título 2” e faça uma lista com marcadores de pelo menos 3 ingredientes. Depois, escreva “Modo de preparo” com “Título 2” e faça uma lista numerada com pelo menos 3 passos. Salve e mostre para alguém da família.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ferramenta para colocar o título principal no Word?",
+            "alternativas": [
+              "Estilo “Título 1”",
+              "Tecla de espaço",
+              "Borracha",
+              "Calculadora"
+            ],
+            "correta": 0,
+            "explicacao": "O título principal recebe o estilo “Título 1”.",
+            "dica": "A lição falou para usar os Estilos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A lista com bolinhas se chama:",
+            "alternativas": [
+              "lista numerada",
+              "tabela",
+              "lista com marcadores",
+              "título"
+            ],
+            "correta": 2,
+            "explicacao": "A lista com bolinhas é a lista com marcadores, usada para itens sem ordem.",
+            "dica": "As bolinhas marcam cada item, sem ordem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para os passos de uma receita, que têm ordem, usamos:",
+            "alternativas": [
+              "lista com marcadores",
+              "lista numerada",
+              "texto em negrito",
+              "uma imagem"
+            ],
+            "correta": 1,
+            "explicacao": "Quando a ordem importa, a lista numerada (1, 2, 3) mostra a sequência.",
+            "dica": "Se tem ordem, precisa de 1, 2, 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para partes menores dentro do texto, a lição indicou o estilo:",
+            "alternativas": [
+              "Título 3",
+              "Normal",
+              "Título 1",
+              "Título 2"
+            ],
+            "correta": 3,
+            "explicacao": "O título principal é o Título 1 e as partes dentro dele usam o Título 2.",
+            "dica": "O principal é o número 1. A parte logo abaixo dele leva o número seguinte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para sair de uma lista e voltar ao texto normal, aperte Enter:",
+            "alternativas": [
+              "duas vezes",
+              "nenhuma vez",
+              "dez vezes",
+              "uma vez e apague tudo"
+            ],
+            "correta": 0,
+            "explicacao": "O primeiro Enter cria um item novo; o segundo Enter, num item vazio, sai da lista.",
+            "dica": "Uma vez cria outro item; a lição disse para apertar mais vezes."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tipo de lista é melhor para os passos de uma receita?",
+            "alternativas": [
+              "Lista numerada",
+              "Lista com marcadores",
+              "Nenhuma lista",
+              "Texto todo em negrito"
+            ],
+            "correta": 0,
+            "explicacao": "Os passos de uma receita têm ordem, e a lista numerada mostra essa ordem: 1, 2, 3.",
+            "dica": "Os passos de uma receita têm ordem: primeiro, segundo, terceiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para a lista de materiais escolares (lápis, borracha, régua), qual lista usar?",
+            "alternativas": [
+              "Lista numerada",
+              "Apenas um título",
+              "Lista com marcadores",
+              "Uma tabela de 10 colunas"
+            ],
+            "correta": 2,
+            "explicacao": "Os materiais não têm uma ordem certa, então a lista com marcadores (bolinhas) é a mais indicada.",
+            "dica": "Lápis, borracha e régua não têm uma ordem certa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor jeito de criar o título principal no Word?",
+            "alternativas": [
+              "Apertar a barra de espaço várias vezes",
+              "Escrever tudo em letras maiúsculas",
+              "Copiar um título da internet",
+              "Usar o estilo “Título 1”"
+            ],
+            "correta": 3,
+            "explicacao": "O estilo “Título 1” deixa o título com destaque e ajuda o Word a organizar o documento.",
+            "dica": "Pense na ferramenta do Word que diz que uma frase é um título."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você está numa lista e quer voltar a escrever texto normal. O que fazer?",
+            "alternativas": [
+              "Fechar o Word",
+              "Apertar Enter duas vezes",
+              "Apagar a lista inteira",
+              "Mudar a cor da letra"
+            ],
+            "correta": 1,
+            "explicacao": "Ao apertar Enter numa linha vazia da lista, o Word entende que a lista acabou e volta ao texto normal.",
+            "dica": "Uma vez cria um item novo. E se apertar de novo, logo em seguida?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para criar uma lista numerada no Word:",
+            "itens": [
+              "Colocar o cursor onde a lista vai começar",
+              "Tocar no botão de numeração",
+              "Escrever o primeiro item",
+              "Apertar Enter e escrever o próximo item"
+            ],
+            "explicacao": "Primeiro escolhemos o lugar, ativamos a numeração, escrevemos e o Enter cria o item seguinte automaticamente.",
+            "dica": "Primeiro diga ao Word onde escrever, depois ligue a numeração e então escreva."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você vai fazer um trabalho de Ciências com o nome do trabalho e as partes “Introdução” e “Conclusão”. Quais estilos usar?",
+            "alternativas": [
+              "Título 1 para o nome do trabalho e Título 2 para as partes",
+              "Título 2 para tudo",
+              "Título 1 para as partes e Título 2 para o nome",
+              "Só negrito em tudo"
+            ],
+            "correta": 0,
+            "explicacao": "O nome do trabalho é o título principal (Título 1); as partes ficam um nível abaixo (Título 2).",
+            "dica": "O nome do trabalho é o título principal; as partes ficam um nível abaixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na lista “Frutas”, você quer que “banana” e “maçã” fiquem mais para dentro, como subitens. O que fazer?",
+            "alternativas": [
+              "Apertar Enter duas vezes",
+              "Apertar a tecla Tab no item",
+              "Apertar Shift + Tab",
+              "Apagar a lista e digitar espaços"
+            ],
+            "correta": 1,
+            "explicacao": "Tab desce um nível e transforma o item em subitem. Shift + Tab faz o contrário.",
+            "dica": "Releia o aprofundamento: qual tecla desce um nível?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas listas deveria ser NUMERADA?",
+            "alternativas": [
+              "Convidados da festa",
+              "Cores favoritas",
+              "Passos para trocar o pneu da bicicleta",
+              "Frutas da feira"
+            ],
+            "correta": 2,
+            "explicacao": "Trocar o pneu tem uma ordem certa de passos. As outras listas não têm ordem.",
+            "dica": "Procure aquela em que a ordem dos itens faz diferença."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia digitou “1.”, “2.” e “3.” na mão, como texto. Depois apagou o item 2. O que acontece?",
+            "alternativas": [
+              "O Word renumera sozinho para 1 e 2",
+              "A lista vira marcadores",
+              "O documento fecha",
+              "Fica “1.” e “3.”, e ela precisa corrigir à mão"
+            ],
+            "correta": 3,
+            "explicacao": "Numeração digitada é só texto: o Word não sabe que é uma lista e não renumera.",
+            "dica": "A numeração digitada na mão é só texto. O Word não sabe que é uma lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que usar o estilo de título em vez de só aumentar a letra?",
+            "alternativas": [
+              "Porque a letra fica colorida",
+              "Porque o Word reconhece o título e pode montar sumário e navegação",
+              "Porque gasta menos bateria",
+              "Porque só assim dá para imprimir"
+            ],
+            "correta": 1,
+            "explicacao": "Com o estilo, o Word sabe que aquilo é título e pode criar sumário automático e o painel de navegação.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um documento tem “Minha festa” (Título 1) e “Comidas” e “Brincadeiras” (Título 2). O que aparece no painel de navegação?",
+            "alternativas": [
+              "Só “Minha festa”",
+              "Nada, o painel não mostra títulos",
+              "“Minha festa” e, abaixo dela, “Comidas” e “Brincadeiras”",
+              "Todo o texto do documento"
+            ],
+            "correta": 2,
+            "explicacao": "O painel mostra os títulos com seus níveis: o Título 1 em cima e os Título 2 logo abaixo dele.",
+            "dica": "O painel mostra os títulos, cada um no seu nível."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa lista numerada automática com 5 passos, você apaga o passo 3. Como fica a numeração?",
+            "alternativas": [
+              "1, 2, 4, 5",
+              "1, 2, 3, 4",
+              "1, 2, 3, 4, 5",
+              "A numeração some"
+            ],
+            "correta": 1,
+            "explicacao": "A numeração automática se ajusta: sobram 4 itens, numerados de 1 a 4.",
+            "dica": "A numeração automática se ajusta sozinha quando um item sai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a MELHOR organização para uma lista de materiais separada por matéria (Matemática: régua, compasso; Português: dicionário)?",
+            "alternativas": [
+              "Lista numerada com tudo misturado",
+              "Um parágrafo corrido",
+              "Uma tabela de uma célula só",
+              "Lista com marcadores, com as matérias no primeiro nível e os materiais como subitens"
+            ],
+            "correta": 3,
+            "explicacao": "Os materiais pertencem a cada matéria e não têm ordem: marcadores com subníveis (Tab) mostram isso claramente.",
+            "dica": "Os materiais pertencem a cada matéria e não têm ordem. Use os níveis do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você está num subitem e quer voltar para o nível de cima. Qual atalho usar?",
+            "alternativas": [
+              "Shift + Tab",
+              "Tab",
+              "Enter",
+              "Ctrl + Z"
+            ],
+            "correta": 0,
+            "explicacao": "Tab desce um nível; Shift + Tab sobe um nível. Ctrl + Z desfaz a última ação, que é outra coisa.",
+            "dica": "Uma tecla desce um nível; a mesma tecla junto com outra volta."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para montar o guia “Como cuidar de uma planta”:",
+            "itens": [
+              "Escrever o nome do guia e aplicar Título 1",
+              "Escrever “Materiais” com Título 2 e fazer a lista com marcadores",
+              "Escrever “Passo a passo” com Título 2",
+              "Fazer a lista numerada com os cuidados"
+            ],
+            "explicacao": "Primeiro o título principal; depois cada parte com seu Título 2 e a lista certa (marcadores para materiais, numerada para passos).",
+            "dica": "Do maior para o menor: título principal, depois cada parte com a sua lista."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Custo, preço e lucro: a banca de limonada",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Imagine que você vai montar uma banca de limonada na frente de casa num sábado de calor. Antes de vender, precisa comprar limão, açúcar, copos e gelo. Tudo o que você gasta para produzir e vender se chama custo.",
+          "Preço é quanto o cliente paga por um copo. Lucro é o que sobra depois de pagar os custos: lucro = dinheiro das vendas − custos.",
+          "Para saber se vale a pena, calcule o custo de cada copo. Se você gastou R$ 20,00 e fez 40 copos, cada copo custou R$ 20,00 ÷ 40 = R$ 0,50. Vendendo a R$ 2,00, cada copo deixa R$ 1,50 de lucro.",
+          "Se o preço for menor que o custo, você tem prejuízo: trabalhou e ainda perdeu dinheiro. Se o preço for alto demais, ninguém compra. O preço bom cobre os custos, deixa lucro e cabe no bolso do cliente.",
+          "Quem empreende anota tudo: quanto gastou, quanto vendeu e quanto sobrou. Sem anotar, a gente acha que lucrou quando, na verdade, só recuperou o que gastou."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Caio gastou R$ 15,00 em limão, açúcar e gelo e R$ 5,00 em copos. Vendeu 25 copos a R$ 2,00. Teve lucro?",
+            "resolucao": "Custos: R$ 15,00 + R$ 5,00 = R$ 20,00. Vendas: 25 × R$ 2,00 = R$ 50,00. Lucro: R$ 50,00 − R$ 20,00 = R$ 30,00. Sim, teve lucro."
+          },
+          {
+            "enunciado": "Bia vendeu brigadeiros a R$ 0,50, mas cada um custou R$ 0,80 para fazer. O que está errado?",
+            "resolucao": "O preço é menor que o custo: a cada brigadeiro vendido, ela perde R$ 0,30. Quanto mais vende, maior o prejuízo. Ela precisa subir o preço ou baixar o custo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Há custos que mudam conforme a quantidade, como limão e copos: quanto mais copos, mais gasto. São os custos variáveis. E há custos que não mudam, como uma jarra ou uma placa compradas uma vez só: são os custos fixos. Para ter lucro, os dois precisam ser pagos.",
+        "Quem trabalha na banca também merece ganhar. Se um amigo ajudou a espremer os limões, combine antes quanto ele vai receber e coloque esse valor nos custos. Lucro de verdade é o que sobra depois de pagar todo mundo de forma justa. Quem não paga o combinado perde a confiança e não tem mais ajuda.",
+        "Ponto de equilíbrio é quantos copos você precisa vender para o dinheiro das vendas empatar com os custos. Se você gastou R$ 30,00 antes de abrir a banca e vende cada copo a R$ 2,00, precisa vender 15 copos só para empatar (30 ÷ 2 = 15). Do 16º copo em diante, começa o lucro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Tudo o que você gasta para fazer e vender a limonada se chama:",
+            "alternativas": [
+              "lucro",
+              "custo",
+              "troco",
+              "preço"
+            ],
+            "correta": 1,
+            "explicacao": "Limão, açúcar, copos e gelo são custos: o que se gasta para produzir e vender.",
+            "dica": "Limão, açúcar, copos e gelo: o que eles são para quem vende?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto o cliente paga por um copo se chama:",
+            "alternativas": [
+              "preço",
+              "custo",
+              "lucro",
+              "gasto"
+            ],
+            "correta": 0,
+            "explicacao": "Preço é o valor que o cliente paga. Custo é o que você gastou para fazer.",
+            "dica": "É o valor que aparece na plaquinha da banca."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucro é:",
+            "alternativas": [
+              "o que você gastou",
+              "o preço de um copo",
+              "o que sobra das vendas depois de pagar os custos",
+              "o dinheiro do cofrinho"
+            ],
+            "correta": 2,
+            "explicacao": "Lucro = vendas − custos. É o que sobra depois de pagar tudo.",
+            "dica": "Pense na conta: vendas menos custos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o preço for menor que o custo, você tem:",
+            "alternativas": [
+              "lucro",
+              "troco",
+              "desconto",
+              "prejuízo"
+            ],
+            "correta": 3,
+            "explicacao": "Vendendo por menos do que custou, você perde dinheiro em cada venda: é prejuízo.",
+            "dica": "Você trabalhou e ainda perdeu dinheiro. Como se chama isso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que quem empreende anota tudo?",
+            "alternativas": [
+              "Para saber quanto gastou, vendeu e sobrou",
+              "Para gastar mais",
+              "Para esconder dos clientes",
+              "Porque precisa escrever bonito"
+            ],
+            "correta": 0,
+            "explicacao": "Anotando gastos e vendas, dá para saber se houve lucro de verdade.",
+            "dica": "Sem anotar, dá para confundir lucro com só recuperar o que gastou."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana gastou R$ 10,00 e vendeu R$ 25,00 de limonada. Qual foi o lucro?",
+            "alternativas": [
+              "R$ 35,00",
+              "R$ 15,00",
+              "R$ 25,00",
+              "R$ 10,00"
+            ],
+            "correta": 1,
+            "explicacao": "Lucro = R$ 25,00 − R$ 10,00 = R$ 15,00. R$ 25,00 é o que ela vendeu, não o que sobrou.",
+            "dica": "Lucro é vendas menos custos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Léo gastou R$ 12,00 e fez 24 copos. Quanto custou cada copo?",
+            "alternativas": [
+              "R$ 2,00",
+              "R$ 0,24",
+              "R$ 0,50",
+              "R$ 12,00"
+            ],
+            "correta": 2,
+            "explicacao": "R$ 12,00 ÷ 24 = R$ 0,50. Conferindo: 24 × R$ 0,50 = R$ 12,00.",
+            "dica": "Divida o gasto total pelo número de copos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada copo custa R$ 0,60 para fazer e é vendido a R$ 2,00. Quanto de lucro dá cada copo?",
+            "alternativas": [
+              "R$ 1,40",
+              "R$ 2,60",
+              "R$ 0,60",
+              "R$ 1,60"
+            ],
+            "correta": 0,
+            "explicacao": "R$ 2,00 − R$ 0,60 = R$ 1,40 por copo.",
+            "dica": "Tire o custo do copo do preço do copo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um copo custa R$ 0,50 para fazer, e as bancas da rua cobram cerca de R$ 2,00. Qual é o preço mais sensato?",
+            "alternativas": [
+              "R$ 0,30",
+              "R$ 10,00",
+              "R$ 0,50",
+              "R$ 2,00"
+            ],
+            "correta": 3,
+            "explicacao": "R$ 2,00 cobre o custo, deixa lucro e está no preço que os clientes estão acostumados. R$ 0,30 dá prejuízo, R$ 0,50 só empata e R$ 10,00 espanta o cliente.",
+            "dica": "Tem que cobrir o custo, deixar lucro e caber no bolso do cliente."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o caminho da banca de limonada:",
+            "itens": [
+              "Comprar limão, açúcar, copos e gelo",
+              "Fazer a limonada",
+              "Vender os copos",
+              "Somar as vendas e tirar os custos para achar o lucro"
+            ],
+            "explicacao": "Primeiro vem o custo (comprar), depois a produção, a venda e, no fim, a conta do lucro.",
+            "dica": "Primeiro gasta, depois produz, depois vende e só no fim faz as contas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Mia gastou R$ 18,00 em ingredientes e R$ 6,00 em copos. Vendeu 30 copos a R$ 1,50. Qual foi o lucro?",
+            "alternativas": [
+              "R$ 27,00",
+              "R$ 45,00",
+              "R$ 21,00",
+              "R$ 39,00"
+            ],
+            "correta": 2,
+            "explicacao": "Custos: 18 + 6 = R$ 24,00. Vendas: 30 × R$ 1,50 = R$ 45,00. Lucro: 45 − 24 = R$ 21,00. Quem esquece os copos chega em R$ 27,00.",
+            "dica": "Junte todos os custos, calcule as vendas e faça vendas menos custos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gui vende pulseiras a R$ 3,00, mas cada uma custa R$ 3,50 para fazer. Ele vendeu 10. O que aconteceu?",
+            "alternativas": [
+              "Lucro de R$ 30,00",
+              "Prejuízo de R$ 5,00",
+              "Lucro de R$ 5,00",
+              "Prejuízo de R$ 35,00"
+            ],
+            "correta": 1,
+            "explicacao": "Em cada pulseira ele perde R$ 0,50. Em 10: 10 × R$ 0,50 = R$ 5,00 de prejuízo. Vendas R$ 30,00, custos R$ 35,00.",
+            "dica": "Compare preço e custo de uma pulseira e multiplique a diferença por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você gastou R$ 30,00 antes de abrir a banca. Cada copo é vendido a R$ 2,00. Quantos copos precisa vender só para empatar?",
+            "alternativas": [
+              "30",
+              "10",
+              "60",
+              "15"
+            ],
+            "correta": 3,
+            "explicacao": "R$ 30,00 ÷ R$ 2,00 = 15 copos. Esse é o ponto de equilíbrio; do 16º copo em diante começa o lucro.",
+            "dica": "Quantos copos de R$ 2,00 são necessários para juntar R$ 30,00?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um custo FIXO da banca?",
+            "alternativas": [
+              "A jarra comprada uma vez",
+              "Os limões de cada jarra",
+              "Os copos descartáveis",
+              "O gelo de cada copo"
+            ],
+            "correta": 0,
+            "explicacao": "A jarra é comprada uma vez e não aumenta quando você vende mais. Limão, copo e gelo crescem com a quantidade: são variáveis.",
+            "dica": "Custo fixo não muda quando você vende mais copos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um amigo ajudou na banca e foi combinado pagar R$ 10,00 a ele. Vendas: R$ 50,00. Ingredientes e copos: R$ 20,00. Qual é o lucro de verdade?",
+            "alternativas": [
+              "R$ 30,00",
+              "R$ 40,00",
+              "R$ 20,00",
+              "R$ 10,00"
+            ],
+            "correta": 2,
+            "explicacao": "Pagar o ajudante também é custo: 20 + 10 = R$ 30,00. Lucro: 50 − 30 = R$ 20,00.",
+            "dica": "Pagar quem ajudou também é custo. Tire tudo das vendas."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rita gastou R$ 24,00 e fez 48 copos. Vendeu 40 copos a R$ 2,00, e os 8 que sobraram estragaram. Qual foi o lucro?",
+            "alternativas": [
+              "R$ 56,00",
+              "R$ 72,00",
+              "R$ 60,00",
+              "R$ 80,00"
+            ],
+            "correta": 0,
+            "explicacao": "Só entra dinheiro dos copos vendidos: 40 × R$ 2,00 = R$ 80,00. O custo foi de todos os copos: R$ 24,00. Lucro: 80 − 24 = R$ 56,00. R$ 72,00 seria contando os copos estragados como vendidos.",
+            "dica": "Só entra dinheiro dos copos vendidos, mas o custo foi de todos os copos feitos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma banca tem uma jarra de R$ 15,00 (custo fixo) e R$ 0,50 de custo por copo. O copo é vendido a R$ 2,00. Foram vendidos 20 copos. Qual foi o lucro?",
+            "alternativas": [
+              "R$ 30,00",
+              "R$ 25,00",
+              "R$ 40,00",
+              "R$ 15,00"
+            ],
+            "correta": 3,
+            "explicacao": "Custo total: 15 + 20 × 0,50 = 15 + 10 = R$ 25,00. Vendas: 20 × 2 = R$ 40,00. Lucro: 40 − 25 = R$ 15,00.",
+            "dica": "Custo total = fixo + (custo por copo × copos). Depois faça vendas menos custo total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na mesma banca (jarra de R$ 15,00, custo de R$ 0,50 por copo, preço de R$ 2,00), quantos copos, no mínimo, é preciso vender para não ter prejuízo?",
+            "alternativas": [
+              "8",
+              "10",
+              "15",
+              "30"
+            ],
+            "correta": 1,
+            "explicacao": "Cada copo deixa R$ 2,00 − R$ 0,50 = R$ 1,50 para pagar a jarra. R$ 15,00 ÷ R$ 1,50 = 10 copos. Conferindo: vendas R$ 20,00 e custos 15 + 5 = R$ 20,00. Empate.",
+            "dica": "Cada copo deixa o preço menos o custo do copo. Quantos desses pagam a jarra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas opções, com custo de R$ 0,50 por copo: A) cobrar R$ 5,00 e vender 6 copos; B) cobrar R$ 2,00 e vender 30 copos. Qual dá mais lucro?",
+            "alternativas": [
+              "A, porque o preço é maior",
+              "As duas dão o mesmo lucro",
+              "B, com R$ 45,00 contra R$ 27,00",
+              "A, com R$ 30,00 contra R$ 27,00"
+            ],
+            "correta": 2,
+            "explicacao": "A: 6 × (5,00 − 0,50) = 6 × 4,50 = R$ 27,00. B: 30 × (2,00 − 0,50) = 30 × 1,50 = R$ 45,00. Preço alto demais espanta clientes.",
+            "dica": "Calcule o lucro por copo em cada opção e multiplique pela quantidade vendida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas montou uma banca com 2 amigos ajudando. Qual atitude é a mais correta e inteligente?",
+            "alternativas": [
+              "Não pagar nada, porque são amigos",
+              "Combinar antes quanto cada um recebe, pagar o combinado e só depois contar o lucro",
+              "Pagar só se sobrar muito",
+              "Dividir no fim, sem ter combinado, do jeito que ele achar melhor"
+            ],
+            "correta": 1,
+            "explicacao": "Combinar antes e pagar o justo é o certo e mantém a equipe: quem não paga o combinado perde a confiança e fica sem ajuda. O pagamento entra nos custos.",
+            "dica": "Releia o aprofundamento: quem trabalha também merece ganhar, e o combinado vem antes."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A fábula da formiga que repetia",
+    "texto": "Numa manhã de outono, a Formiga Tina encontrou um saco de açúcar rasgado perto da cozinha da escola. Era açúcar suficiente para o formigueiro passar o inverno inteiro.\n\nO Grilo, que estava por ali, riu: “Você vai levar grão por grão? Vai demorar a vida toda!”\n\nTina não respondeu. Pegou um grão e levou. Voltou, pegou outro e levou. E repetiu. E repetiu. Ela não pensava no saco inteiro, só no próximo grão.\n\nNo fim da tarde, outras formigas viram o caminho e entraram na fila. Cada uma repetia a mesma tarefa simples: pegar, carregar, voltar.\n\nQuando o inverno chegou, o formigueiro estava cheio. O Grilo, com frio, bateu à porta. Tina abriu e disse: “Entra. Não fiz nada difícil, só fiz a mesma coisa pequena muitas vezes.”\n\nMoral: grandes resultados nascem de pequenos passos repetidos."
+  },
+  "escrita": {
+    "proposta": "Pense numa tarefa grande que você precisa fazer (arrumar o quarto, estudar para uma prova, aprender uma música). Escreva de 5 a 8 linhas no caderno explicando como você poderia dividi-la em um pequeno passo que se repete, como fez a Formiga Tina."
+  }
+}

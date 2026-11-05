@@ -1,0 +1,1197 @@
+{
+  "dia": 19,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Juros simples x juros compostos",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Juro é o \"aluguel\" do dinheiro. Quem empresta recebe juros; quem pega emprestado ou atrasa uma conta paga juros. Os termos são: capital (C, o valor inicial), taxa (i, em porcentagem por período), tempo (t) e montante (M, o total no fim).",
+          "Nos juros simples, a taxa é sempre calculada sobre o capital inicial. A fórmula é J = C × i × t, e o montante é M = C + J. Os juros crescem sempre o mesmo valor por mês.",
+          "Nos juros compostos, a taxa é calculada sobre o valor acumulado: é o \"juro sobre juro\". A fórmula é M = C × (1 + i)ᵗ. A cada período, a base fica maior.",
+          "No começo a diferença é pequena, mas com o tempo os compostos disparam. Isso é ótimo quando o dinheiro está guardado rendendo e péssimo quando é uma dívida atrasada.",
+          "Por isso, o hábito mais importante é evitar dívidas com juros altos e, se tiver uma, pagá-la o quanto antes."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "R$ 1.000 a 10% ao mês por 3 meses. Compare juros simples e compostos.",
+            "resolucao": "Simples: J = 1.000 × 0,10 × 3 = 300, M = R$ 1.300. Compostos: mês 1: 1.100; mês 2: 1.210; mês 3: 1.331. M = R$ 1.331. Diferença de R$ 31 em só 3 meses."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um atalho de olimpíada é a regra do 72: divida 72 pela taxa e você terá, aproximadamente, quantos períodos o dinheiro leva para dobrar nos juros compostos. A 6% ao ano, dobra em cerca de 72 ÷ 6 = 12 anos. A 12% ao mês, como em dívidas caras, dobra em cerca de 6 meses.",
+        "Cuidado com taxas mensais e anuais. Nos compostos, 1% ao mês não é 12% ao ano: (1,01)¹² ≈ 1,127, ou seja, cerca de 12,7% ao ano. Quanto maior a taxa, maior essa diferença.",
+        "Nos juros simples, o montante cresce em linha reta (sempre o mesmo tanto por mês); nos compostos, cresce como uma curva cada vez mais inclinada. Por isso, uma dívida no rotativo do cartão, com juros altíssimos, pode dobrar em poucos meses."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o valor inicial numa conta de juros?",
+            "alternativas": [
+              "Montante",
+              "Capital",
+              "Taxa",
+              "Prazo"
+            ],
+            "correta": 1,
+            "explicacao": "O capital (C) é o valor do começo. O montante é o total do fim.",
+            "dica": "É a letra C da fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Juro sobre juro acontece nos juros:",
+            "alternativas": [
+              "Compostos",
+              "Simples",
+              "Zerados",
+              "Fixos"
+            ],
+            "correta": 0,
+            "explicacao": "Nos compostos, o juro de cada período entra na base do período seguinte.",
+            "dica": "A lição explica que, em um dos tipos, a base fica maior a cada período."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100 a juros simples de 10% ao mês. Quanto de juro rende em 1 mês?",
+            "alternativas": [
+              "R$ 1",
+              "R$ 100",
+              "R$ 110",
+              "R$ 10"
+            ],
+            "correta": 3,
+            "explicacao": "10% de 100 = 10. R$ 110 é o montante (capital + juro).",
+            "dica": "10% de 100 é a décima parte de 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O montante é:",
+            "alternativas": [
+              "Só os juros",
+              "A taxa",
+              "O capital mais os juros",
+              "O tempo"
+            ],
+            "correta": 2,
+            "explicacao": "M = C + J: o que você tinha mais o que rendeu.",
+            "dica": "Montante é o total no fim: o que você tinha mais o que ganhou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os juros compostos são bons para você quando:",
+            "alternativas": [
+              "O dinheiro está guardado rendendo",
+              "Você tem uma dívida atrasada",
+              "Você paga no cartão sem pensar",
+              "Você esquece uma conta"
+            ],
+            "correta": 0,
+            "explicacao": "Juro sobre juro faz o dinheiro guardado crescer mais rápido. Numa dívida, ele joga contra você.",
+            "dica": "A lição diz que eles são ótimos numa situação e péssimos em outra."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 500 aplicados a juros simples de 2% ao mês por 6 meses. Qual é o montante?",
+            "alternativas": [
+              "R$ 510",
+              "R$ 600",
+              "R$ 506",
+              "R$ 560"
+            ],
+            "correta": 3,
+            "explicacao": "J = 500 × 0,02 × 6 = R$ 60. Montante: 500 + 60 = R$ 560.",
+            "dica": "Calcule o juro de um mês e multiplique pelos 6 meses. Depois some ao capital."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 200 a juros compostos de 10% ao mês. Quanto vira depois de 2 meses?",
+            "alternativas": [
+              "R$ 240",
+              "R$ 242",
+              "R$ 220",
+              "R$ 221"
+            ],
+            "correta": 1,
+            "explicacao": "Mês 1: 200 × 1,1 = 220. Mês 2: 220 × 1,1 = 242. O 240 seria o resultado com juros simples.",
+            "dica": "Nos compostos, o segundo mês calcula 10% sobre o valor do fim do primeiro mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a principal diferença entre juros simples e compostos?",
+            "alternativas": [
+              "Nos compostos, o juro de cada mês entra na base do mês seguinte",
+              "Os simples sempre rendem mais",
+              "Os compostos só existem em poupança",
+              "Não há diferença no longo prazo"
+            ],
+            "correta": 0,
+            "explicacao": "Nos compostos há juro sobre juro, então a base cresce a cada mês. Nos simples, a base é sempre o capital inicial.",
+            "dica": "Pense no juro sobre juro: o juro de um mês entra ou não na conta do mês seguinte?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 100 cresce a 10% ao mês em juros compostos e fica 3 meses sem ser paga. Quanto passa a ser?",
+            "alternativas": [
+              "R$ 130",
+              "R$ 110",
+              "R$ 133,10",
+              "R$ 300"
+            ],
+            "correta": 2,
+            "explicacao": "100 × 1,1 = 110; 110 × 1,1 = 121; 121 × 1,1 = 133,10. O juro sobre juro faz a dívida crescer mais rápido que nos simples (R$ 130).",
+            "dica": "Multiplique por 1,1 três vezes, um mês de cada vez."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Capital de R$ 1.000 a 10% ao mês. Ordene os montantes do MENOR para o MAIOR:",
+            "itens": [
+              "Simples, 2 meses: R$ 1.200",
+              "Compostos, 2 meses: R$ 1.210",
+              "Simples, 3 meses: R$ 1.300",
+              "Compostos, 3 meses: R$ 1.331"
+            ],
+            "explicacao": "Com o mesmo prazo, os compostos sempre ficam acima dos simples a partir do segundo período, e a distância aumenta com o tempo.",
+            "dica": "Com o mesmo tempo, quem rende mais: o simples ou o composto?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 800 a juros simples de 3% ao mês. Em quanto tempo os juros chegam a R$ 120?",
+            "alternativas": [
+              "4 meses",
+              "5 meses",
+              "6 meses",
+              "3 meses"
+            ],
+            "correta": 1,
+            "explicacao": "3% de 800 = 24 por mês. 120 ÷ 24 = 5 meses.",
+            "dica": "Calcule o juro de um mês e veja quantos meses cabem em R$ 120."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 a juros compostos de 5% ao mês por 2 meses. Qual é o montante?",
+            "alternativas": [
+              "R$ 1.100,00",
+              "R$ 1.050,00",
+              "R$ 1.105,00",
+              "R$ 1.102,50"
+            ],
+            "correta": 3,
+            "explicacao": "Mês 1: 1.000 × 1,05 = 1.050. Mês 2: 1.050 × 1,05 = 1.102,50. R$ 1.100 seria o resultado nos juros simples.",
+            "dica": "Mês 1: 5% de 1.000. Mês 2: 5% do novo valor, que já é maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 2.000 a 10% ao mês fica 2 meses sem ser paga. Quanto os juros compostos cobram a mais do que os simples?",
+            "alternativas": [
+              "R$ 20",
+              "R$ 420",
+              "R$ 400",
+              "R$ 0"
+            ],
+            "correta": 0,
+            "explicacao": "Compostos: 2.200 e depois 2.420. Simples: 2.000 + 2 × 200 = 2.400. Diferença: R$ 20.",
+            "dica": "Calcule os dois montantes separadamente e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual montante dá M = 500 × (1,02)²?",
+            "alternativas": [
+              "R$ 520,00",
+              "R$ 504,00",
+              "R$ 520,20",
+              "R$ 540,20"
+            ],
+            "correta": 2,
+            "explicacao": "1,02 × 1,02 = 1,0404. 500 × 1,0404 = 520,20. R$ 520,00 seria juros simples.",
+            "dica": "1,02 ao quadrado é 1,02 × 1,02. Faça essa conta antes de multiplicar por 500."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Paulo aplicou R$ 300 a juros simples e recebeu R$ 345 depois de 5 meses. Qual foi a taxa mensal?",
+            "alternativas": [
+              "5%",
+              "3%",
+              "15%",
+              "4,5%"
+            ],
+            "correta": 1,
+            "explicacao": "Juro total: 345 − 300 = 45. Por mês: 45 ÷ 5 = 9. 9 ÷ 300 = 0,03 = 3%. 15% é a taxa dos 5 meses juntos.",
+            "dica": "Descubra o juro total, depois divida por 300 e pelos 5 meses."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela regra do 72, a 8% ao ano em juros compostos, em quanto tempo o dinheiro dobra, aproximadamente?",
+            "alternativas": [
+              "8 anos",
+              "9 anos",
+              "12 anos",
+              "72 anos"
+            ],
+            "correta": 1,
+            "explicacao": "72 ÷ 8 = 9 anos. Conferindo: 1,08 elevado a 9 dá cerca de 2.",
+            "dica": "Divida 72 pela taxa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida cresce a 12% ao mês em juros compostos. Em quanto tempo, aproximadamente, ela dobra?",
+            "alternativas": [
+              "12 meses",
+              "2 meses",
+              "6 meses",
+              "24 meses"
+            ],
+            "correta": 2,
+            "explicacao": "72 ÷ 12 = 6 meses. Dívida cara dobra muito rápido.",
+            "dica": "Use a regra do aprofundamento com a taxa mensal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual taxa anual equivale, nos juros compostos, a 1% ao mês?",
+            "alternativas": [
+              "Exatamente 12%",
+              "Cerca de 11%",
+              "Exatamente 1%",
+              "Cerca de 12,7%"
+            ],
+            "correta": 3,
+            "explicacao": "(1,01)¹² ≈ 1,127: cerca de 12,7% ao ano. O juro sobre juro dos 12 meses deixa a taxa acima de 12%.",
+            "dica": "Nos compostos há juro sobre juro em cada um dos 12 meses. O resultado fica acima ou abaixo de 12%?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tem R$ 1.000 aplicados a 1% ao mês e uma dívida de R$ 1.000 a 10% ao mês, ambos em juros compostos. Em 2 meses, quanto a dívida cresceu a mais do que a aplicação rendeu?",
+            "alternativas": [
+              "R$ 189,90",
+              "R$ 190,00",
+              "R$ 210,00",
+              "R$ 180,00"
+            ],
+            "correta": 0,
+            "explicacao": "Aplicação: 1.000 → 1.010 → 1.020,10 (rendeu 20,10). Dívida: 1.000 → 1.100 → 1.210 (cresceu 210). Diferença: 210 − 20,10 = 189,90. Por isso é melhor quitar a dívida antes de investir.",
+            "dica": "Calcule quanto cada valor mudou em 2 meses e subtraia. Use duas casas decimais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 a juros compostos de 10% ao mês. Depois de quantos meses o montante passa de R$ 1.400 pela primeira vez?",
+            "alternativas": [
+              "3 meses",
+              "4 meses",
+              "5 meses",
+              "7 meses"
+            ],
+            "correta": 1,
+            "explicacao": "1.100, 1.210, 1.331 e, no 4º mês, 1.464,10. Com 3 meses ainda está em 1.331.",
+            "dica": "Multiplique por 1,1 mês a mês e pare quando passar de 1.400."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Depurar: encontrar e corrigir erros",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Erro em programa se chama bug (inseto, em inglês), e corrigir é depurar (debug). Todo programador erra; o que diferencia um bom programador é saber caçar o erro com método.",
+          "Erro de sintaxe é quando o código está escrito de um jeito que a linguagem não aceita: aspas sem fechar, parêntese faltando. O programa nem roda e mostra uma mensagem apontando a linha.",
+          "Erro de lógica é mais traiçoeiro: o programa roda, mas dá o resultado errado. Exemplo: calcular a média com a + b / 2, que divide só o b. O certo é (a + b) / 2.",
+          "Método para depurar: reproduzir o erro, ler a mensagem com calma, achar a linha, criar uma hipótese (\"acho que é o parêntese\"), mudar uma coisa só e testar de novo.",
+          "Uma técnica simples é colocar print() no meio do código para ver o valor das variáveis em cada passo. Assim você descobre onde o valor começou a ficar errado."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O código deveria somar os preços e mostrar 10:\ntotal = 0\nfor preco in [5, 3, 2]:\n    total = preco\nprint(total)\nEle mostra 2. Qual é o erro?",
+            "resolucao": "A linha total = preco substitui o total a cada volta, em vez de somar. O certo é total = total + preco. Aí o resultado é 0 + 5 + 3 + 2 = 10."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Além dos erros de sintaxe e de lógica, existe o erro de execução: o código está bem escrito, começa a rodar e quebra no meio, como ao dividir por zero ou pedir o item 10 de uma lista que só tem 3. A mensagem de erro (em Python, chamada traceback) mostra na última linha o tipo do erro e, acima, a linha onde ele aconteceu.",
+        "Teste de mesa é executar o programa no papel: faça uma tabela com uma coluna para cada variável e anote o valor depois de cada linha. É assim que se pega erro de lógica sem computador. Lembre que, em Python, as posições de uma lista começam em 0.",
+        "Bons programadores testam os casos de borda: o menor valor, o maior, o zero, a lista vazia e o valor exatamente no limite (como nota 7 quando a regra é \"7 ou mais\"). Outra técnica famosa é a do patinho de borracha: explicar o código, linha por linha, em voz alta para alguém ou até para um objeto. Ao explicar, você mesmo enxerga o erro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama um erro em programa?",
+            "alternativas": [
+              "Bug",
+              "Tag",
+              "Link",
+              "Feed"
+            ],
+            "correta": 0,
+            "explicacao": "Bug quer dizer inseto em inglês. Corrigir é depurar, ou debug.",
+            "dica": "A palavra quer dizer inseto, em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Erro de sintaxe é quando:",
+            "alternativas": [
+              "O programa roda e dá resultado errado",
+              "O código está escrito de um jeito que a linguagem não aceita",
+              "O computador está desligado",
+              "A internet caiu"
+            ],
+            "correta": 1,
+            "explicacao": "Aspas sem fechar e parêntese faltando são erros de sintaxe: o programa nem roda.",
+            "dica": "Lembre o exemplo das aspas sem fechar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O programa roda, mas dá o resultado errado. Que erro é?",
+            "alternativas": [
+              "De sintaxe",
+              "De teclado",
+              "De internet",
+              "De lógica"
+            ],
+            "correta": 3,
+            "explicacao": "O código está bem escrito, mas a ideia por trás dele falhou: é erro de lógica.",
+            "dica": "O código está bem escrito, mas a ideia por trás dele falhou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando ajuda a ver o valor de uma variável no meio do código?",
+            "alternativas": [
+              "input()",
+              "range()",
+              "print()",
+              "for"
+            ],
+            "correta": 2,
+            "explicacao": "print() mostra valores na tela, e assim você vê onde o resultado começou a sair errado.",
+            "dica": "É o comando que mostra coisas na tela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas coisas você deve mudar por vez ao depurar?",
+            "alternativas": [
+              "Uma só",
+              "Todas de uma vez",
+              "Nenhuma",
+              "Dez"
+            ],
+            "correta": 0,
+            "explicacao": "Mudando uma coisa por vez, você sabe exatamente o que resolveu o problema.",
+            "dica": "Se mudar muita coisa junto, não dá para saber o que resolveu."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A linha print(\"Olá) dá erro. Que tipo de erro é e por quê?",
+            "alternativas": [
+              "De lógica, porque a palavra está errada",
+              "De sintaxe, porque faltou fechar as aspas",
+              "De lógica, porque falta um número",
+              "Não há erro"
+            ],
+            "correta": 1,
+            "explicacao": "O texto abriu aspas e não fechou. A linguagem não consegue entender a linha, então é erro de sintaxe. O certo é print(\"Olá\").",
+            "dica": "Se a linguagem nem consegue ler a linha, que tipo de erro é? Olhe as aspas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "media = a + b / 2 com a = 8 e b = 6 dá 11. Qual é a correção?",
+            "alternativas": [
+              "media = a + b * 2",
+              "media = a / 2 + b",
+              "media = (a + b) / 2",
+              "media = a + (b / 2)"
+            ],
+            "correta": 2,
+            "explicacao": "A divisão é feita antes da soma, então o código calculou 8 + 3 = 11. Com parênteses, (8 + 6) / 2 = 7, que é a média certa.",
+            "dica": "A divisão acontece antes da soma. Como obrigar a soma a vir primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(1, 10): print(i) deveria mostrar de 1 a 10, mas para no 9. Como corrigir?",
+            "alternativas": [
+              "Trocar para range(1, 11)",
+              "Trocar para range(0, 10)",
+              "Trocar para range(2, 10)",
+              "Trocar print por input"
+            ],
+            "correta": 0,
+            "explicacao": "No range, o último número não entra. Para incluir o 10, o limite precisa ser 11. Esse tipo de engano de \"um a mais ou a menos\" é um bug muito comum.",
+            "dica": "No range, o número final não entra na contagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve colocar print() no meio do código durante a depuração?",
+            "alternativas": [
+              "Para deixar o programa mais rápido",
+              "Para apagar as variáveis",
+              "Para corrigir o erro automaticamente",
+              "Para ver o valor das variáveis em cada passo"
+            ],
+            "correta": 3,
+            "explicacao": "Mostrar os valores intermediários revela em que ponto o resultado começou a sair diferente do esperado.",
+            "dica": "Pense em mostrar o que está guardado nas variáveis no meio do caminho."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o método de depuração:",
+            "itens": [
+              "Reproduzir o erro",
+              "Ler a mensagem de erro",
+              "Localizar a linha do problema",
+              "Criar uma hipótese da causa",
+              "Mudar uma coisa só",
+              "Testar de novo"
+            ],
+            "explicacao": "Mudar várias coisas ao mesmo tempo esconde qual delas resolveu. Uma mudança por vez, seguida de teste, é o caminho seguro.",
+            "dica": "Antes de mexer no código, você precisa ver o erro acontecer."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O código deveria mostrar \"Aprovado\" para nota 7 ou mais:\nnota = 7\nif nota > 7:\n    print(\"Aprovado\")\nNada aparece. Qual é a correção?",
+            "alternativas": [
+              "Trocar > por >=",
+              "Trocar 7 por 70",
+              "Trocar print por input",
+              "Tirar o if"
+            ],
+            "correta": 0,
+            "explicacao": "7 > 7 é falso. Com >= (maior ou igual), a nota 7 também passa. É um erro de lógica no limite.",
+            "dica": "Com nota exatamente 7, a condição atual é verdadeira ou falsa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "media = (a + b) / 3 deveria dar a média de 2 notas. Com a = 6 e b = 9, deu 5. Qual é o erro?",
+            "alternativas": [
+              "De sintaxe: faltam aspas",
+              "Nenhum",
+              "De lógica: deveria dividir por 2, pois são 2 notas",
+              "De lógica: deveria multiplicar por 2"
+            ],
+            "correta": 2,
+            "explicacao": "(6 + 9) / 3 = 5, mas a média de 2 notas é (6 + 9) / 2 = 7,5.",
+            "dica": "Média é a soma dividida por quantos valores existem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual valor aparece?\ncontador = 0\nfor i in range(5):\n    contador = contador + 1\nprint(contador)",
+            "alternativas": [
+              "4",
+              "6",
+              "0",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "range(5) dá 0, 1, 2, 3 e 4: são 5 voltas, e cada uma soma 1.",
+            "dica": "range(5) dá os números 0, 1, 2, 3 e 4. Conte quantas voltas são."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao rodar print(\"Total: \" + 10), aparece um erro dizendo que não dá para juntar texto com número. Qual correção funciona?",
+            "alternativas": [
+              "print(\"Total: \" - 10)",
+              "print(\"Total: \" + str(10))",
+              "print(Total: + 10)",
+              "print(\"Total: \" + \"10\" + 10)"
+            ],
+            "correta": 1,
+            "explicacao": "str(10) transforma o número em texto, e aí dá para juntar. As outras continuam misturando texto com número ou quebram a sintaxe.",
+            "dica": "Transforme o número em texto antes de juntar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você pôs print(total) dentro do laço que soma [5, 3, 2] e viu: 5, 3, 2. Esperava 5, 8, 10. O que isso revela?",
+            "alternativas": [
+              "Que o range está errado",
+              "Que faltam aspas",
+              "Que o print está quebrado",
+              "Que o total está sendo substituído em vez de acumulado"
+            ],
+            "correta": 3,
+            "explicacao": "Cada valor mostrado é só o preço da vez, então a linha está fazendo total = preco, e não total = total + preco.",
+            "dica": "Compare: cada número mostrado é o preço da vez ou a soma até ali?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "media = soma / quantidade quebra quando a lista de notas está vazia. Por quê?",
+            "alternativas": [
+              "Erro de sintaxe por falta de aspas",
+              "Erro de execução: divisão por zero, porque quantidade vale 0",
+              "Erro de lógica: média é multiplicação",
+              "Não quebra nunca"
+            ],
+            "correta": 1,
+            "explicacao": "Lista vazia tem 0 itens, e dividir por zero quebra o programa no meio. É um caso de borda clássico.",
+            "dica": "Lista vazia tem quantos itens? Pense no que acontece ao dividir por isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Faça o teste de mesa. Qual valor aparece?\nx = 2\nfor i in range(3):\n    x = x * 2 + i\nprint(x)",
+            "alternativas": [
+              "16",
+              "18",
+              "20",
+              "22"
+            ],
+            "correta": 2,
+            "explicacao": "i = 0: x = 2 × 2 + 0 = 4. i = 1: x = 4 × 2 + 1 = 9. i = 2: x = 9 × 2 + 2 = 20.",
+            "dica": "Faça uma tabela com i e x e atualize x a cada volta: dobre e some o i da vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A regra é: desconto para quem tem 60 anos ou mais. O código usa if idade > 60. Qual teste revela o bug?",
+            "alternativas": [
+              "Idade 30",
+              "Idade 90",
+              "Idade 0",
+              "Idade 60"
+            ],
+            "correta": 3,
+            "explicacao": "Com 60, a pessoa deveria ter desconto, mas 60 > 60 é falso. Só o valor no limite mostra o erro.",
+            "dica": "Teste o valor exatamente no limite da regra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece?\nnotas = [7, 8, 9]\nprint(notas[3])",
+            "alternativas": [
+              "Erro de execução: a posição 3 não existe, pois as posições vão de 0 a 2",
+              "Aparece 9",
+              "Aparece 3",
+              "Erro de sintaxe por falta de aspas"
+            ],
+            "correta": 0,
+            "explicacao": "As posições começam em 0: notas[0] = 7, notas[1] = 8 e notas[2] = 9. Pedir a posição 3 quebra o programa durante a execução.",
+            "dica": "Em Python, a primeira posição da lista é 0. Conte até a última."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O programa deveria dar a média de 3 números:\ntotal = 0\nfor n in [4, 6, 10]:\n    total = total + n\nmedia = total / 2\nO que ele mostra e qual é o certo?",
+            "alternativas": [
+              "Mostra 20; o certo é 10",
+              "Mostra 10; o certo é cerca de 6,67",
+              "Mostra 6,67; o certo é 10",
+              "Mostra 10; o certo é 20"
+            ],
+            "correta": 1,
+            "explicacao": "total = 20 e o programa divide por 2: mostra 10. A média de 3 números é 20 ÷ 3 ≈ 6,67. O certo seria dividir por 3 ou por len(lista).",
+            "dica": "Faça a conta do programa como está escrito; depois, a conta da média de verdade."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Currículo e carta simples",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O currículo apresenta você para uma vaga, um curso ou um programa de jovem aprendiz (possível a partir dos 14 anos). Ele deve caber em uma página e ser fácil de ler.",
+          "Partes do currículo: nome e contato (cidade, telefone e e-mail; sem número de documentos), objetivo, formação (escola e série), cursos, atividades e experiências (voluntariado, monitoria, projetos) e habilidades (Excel, inglês básico, trabalho em equipe).",
+          "No Word, use o estilo Título 1 para as seções, marcadores para as listas e uma fonte simples, como Calibri ou Arial, tamanho 11 ou 12. Nada de cores fortes ou desenhos.",
+          "A carta de apresentação acompanha o currículo. Tem saudação (\"Prezados,\"), um parágrafo dizendo qual vaga você quer, outro mostrando por que combina com ela e uma despedida educada (\"Atenciosamente,\").",
+          "No fim, salve em PDF (Arquivo > Salvar como > PDF ou Exportar). O PDF mantém a formatação igual em qualquer celular ou computador."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um estudante escreveu no objetivo: \"Quero trabalhar em qualquer coisa.\" Como melhorar?",
+            "resolucao": "Ser específico: \"Vaga de jovem aprendiz na área administrativa, para aplicar meus conhecimentos de Excel e organização.\""
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um currículo forte muda um pouco para cada vaga: para uma vaga de loja, destaque atendimento; para escritório, destaque Excel e organização. Descreva as atividades com verbos de ação e resultado: em vez de \"ajudei na feira de ciências\", escreva \"organizei a inscrição de 40 grupos na feira de ciências\".",
+        "Nunca invente cursos ou experiências: a mentira aparece na entrevista ou no primeiro dia e queima sua chance. E não coloque o que não é preciso, como religião, documentos ou foto (a não ser que a vaga peça): menos dados pessoais, menos risco.",
+        "Antes de enviar, use a revisão de ortografia (no Word, Revisão > Ortografia e Gramática, ou a tecla F7), dê ao arquivo um nome profissional, como \"Curriculo_Joao_Silva.pdf\", e, se for por e-mail, escreva um assunto claro (\"Candidatura: jovem aprendiz administrativo\") e um texto curto no corpo da mensagem."
+      ],
+      "desafio_pratico": "No Word do celular ou do PC, crie um currículo de uma página com as seções Objetivo, Formação, Atividades e Habilidades, usando o estilo Título 1 nos títulos e marcadores nas listas. Use dados reais da escola, mas, no lugar de telefone e e-mail, escreva \"(contato)\". Por fim, salve uma cópia em PDF com o nome \"Curriculo_Teste\".",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um currículo?",
+            "alternativas": [
+              "Para apresentar você a uma vaga ou curso",
+              "Para pedir comida",
+              "Para fazer lição de matemática",
+              "Para jogar online"
+            ],
+            "correta": 0,
+            "explicacao": "O currículo resume quem você é, o que estudou e o que sabe fazer.",
+            "dica": "É o documento que você entrega quando quer uma oportunidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A partir de que idade é possível ser jovem aprendiz?",
+            "alternativas": [
+              "10 anos",
+              "14 anos",
+              "18 anos",
+              "21 anos"
+            ],
+            "correta": 1,
+            "explicacao": "A lei permite o contrato de aprendiz a partir dos 14 anos.",
+            "dica": "A lição falou: é antes dos 15 anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fonte combina com um currículo?",
+            "alternativas": [
+              "Uma fonte de desenho animado",
+              "Letras coloridas piscando",
+              "Tudo em letras maiúsculas",
+              "Calibri ou Arial, tamanho 11 ou 12"
+            ],
+            "correta": 3,
+            "explicacao": "Fonte simples e de tamanho normal facilita a leitura.",
+            "dica": "Fonte simples e fácil de ler."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como terminar uma carta de apresentação?",
+            "alternativas": [
+              "\"Tchau, falou!\"",
+              "\"Responde logo!\"",
+              "\"Atenciosamente,\" e a assinatura",
+              "Sem despedida"
+            ],
+            "correta": 2,
+            "explicacao": "Uma despedida formal mostra educação e cuidado.",
+            "dica": "Uma despedida educada e formal, como a lição citou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que formato salvar o currículo para enviar?",
+            "alternativas": [
+              "Foto da tela",
+              "PDF",
+              "Áudio",
+              "Figurinha"
+            ],
+            "correta": 1,
+            "explicacao": "O PDF mantém a formatação igual em qualquer celular ou computador.",
+            "dica": "É o formato que mantém a formatação igual em qualquer aparelho."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual informação NÃO deve ir no currículo?",
+            "alternativas": [
+              "Cidade onde mora",
+              "E-mail de contato",
+              "Número do CPF",
+              "Escola e série"
+            ],
+            "correta": 2,
+            "explicacao": "Números de documentos expõem você a golpes e não são necessários na triagem. Eles só são pedidos depois, na contratação.",
+            "dica": "Pense no que um golpista poderia usar se o currículo caísse em mãos erradas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o tamanho ideal de um currículo para quem está começando?",
+            "alternativas": [
+              "Uma página",
+              "Cinco páginas",
+              "Meia linha",
+              "Quantas páginas couberem"
+            ],
+            "correta": 0,
+            "explicacao": "Quem seleciona lê muitos currículos rapidamente. Uma página bem organizada mostra o essencial.",
+            "dica": "Quem seleciona lê muitos currículos rapidamente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que recurso do Word deixa os títulos das seções padronizados?",
+            "alternativas": [
+              "Inserir > Forma",
+              "Revisão > Comentário",
+              "Layout > Margens",
+              "Os estilos, como Título 1"
+            ],
+            "correta": 3,
+            "explicacao": "Com o estilo Título 1, todos os títulos ficam iguais e, se você mudar o estilo, todos mudam juntos.",
+            "dica": "Existe um recurso que deixa todos os títulos iguais de uma vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que enviar o currículo em PDF?",
+            "alternativas": [
+              "Porque o PDF corrige erros de português",
+              "Porque a formatação fica igual em qualquer aparelho",
+              "Porque o PDF é mais colorido",
+              "Porque assim ninguém consegue ler"
+            ],
+            "correta": 1,
+            "explicacao": "Um arquivo do Word pode mudar de fonte ou de margem em outro computador. O PDF congela a aparência.",
+            "dica": "Arquivos do Word podem mudar de aparência em outro aparelho. Qual formato congela a aparência?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as partes da carta de apresentação na ordem:",
+            "itens": [
+              "Local e data",
+              "Saudação",
+              "Vaga desejada",
+              "Por que você combina com a vaga",
+              "Despedida e assinatura"
+            ],
+            "explicacao": "A carta segue a ordem de uma conversa educada: cumprimenta, diz o que quer, justifica e se despede.",
+            "dica": "A carta segue a ordem de uma conversa educada: cumprimentar, pedir, justificar e se despedir."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual objetivo está mais bem escrito?",
+            "alternativas": [
+              "\"Quero qualquer coisa.\"",
+              "\"Preciso de dinheiro.\"",
+              "\"Vaga de jovem aprendiz em atendimento ao cliente, para aplicar minha comunicação e organização.\"",
+              "\"Trabalhar.\""
+            ],
+            "correta": 2,
+            "explicacao": "Ele diz qual vaga quer e o que a pessoa oferece. Os outros são vagos.",
+            "dica": "Bom objetivo diz qual vaga e o que você oferece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Júlia, 15 anos, nunca trabalhou. O que ela pode colocar em Atividades e experiências?",
+            "alternativas": [
+              "Monitoria na escola, voluntariado na feira de ciências e um projeto de horta",
+              "Nada, deixar em branco",
+              "Inventar um emprego para parecer experiente",
+              "As notas de todas as provas"
+            ],
+            "correta": 0,
+            "explicacao": "Monitoria, voluntariado e projetos mostram responsabilidade. Inventar é mentira e se descobre fácil.",
+            "dica": "Experiência não é só emprego. A lição citou outras atividades que contam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer que todos os títulos do currículo fiquem azuis e em negrito. Qual é o jeito mais rápido no Word?",
+            "alternativas": [
+              "Mudar um por um",
+              "Modificar o estilo Título 1 uma vez",
+              "Colar imagens no lugar dos títulos",
+              "Pintar o documento inteiro de azul"
+            ],
+            "correta": 1,
+            "explicacao": "Se os títulos usam o estilo Título 1, mudar o estilo muda todos juntos.",
+            "dica": "Quando os títulos usam o mesmo estilo, mudar o estilo muda todos juntos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual e-mail é mais adequado para o currículo?",
+            "alternativas": [
+              "gatinha_fofa2010@...",
+              "reidograu@...",
+              "xxzeramelxx@...",
+              "joao.silva.contato@..."
+            ],
+            "correta": 3,
+            "explicacao": "Nome e sobrenome passam seriedade. Apelidos podem tirar pontos logo de cara.",
+            "dica": "Quem lê o currículo vai formar uma impressão de você também pelo endereço de e-mail."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as seções de um currículo de estudante:",
+            "itens": [
+              "Nome e contato",
+              "Objetivo",
+              "Formação",
+              "Atividades e experiências",
+              "Habilidades"
+            ],
+            "explicacao": "Primeiro quem é você e o que quer; depois o que estudou e fez; por fim, o que sabe fazer.",
+            "dica": "Primeiro quem é você e o que quer; depois o que estudou e fez; por fim, o que sabe."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase descreve melhor uma atividade no currículo?",
+            "alternativas": [
+              "\"Ajudei em umas coisas na escola.\"",
+              "\"Fui na feira.\"",
+              "\"Organizei o horário de 12 monitores e atendi 50 alunos por semana na monitoria de matemática.\"",
+              "\"Sou muito legal.\""
+            ],
+            "correta": 2,
+            "explicacao": "Verbo de ação (organizei, atendi) e números mostram o resultado de verdade.",
+            "dica": "Prefira verbo de ação e um número que mostre o resultado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Carlos manda o mesmo currículo, com o objetivo \"vaga em loja de roupas\", para uma vaga de auxiliar de escritório. O que melhorar?",
+            "alternativas": [
+              "Nada, o currículo é igual para todas as vagas",
+              "Adaptar o objetivo e destacar Excel e organização para a vaga de escritório",
+              "Colocar uma foto maior",
+              "Acrescentar mais páginas"
+            ],
+            "correta": 1,
+            "explicacao": "Objetivo de outra vaga mostra descuido. Adaptar o currículo mostra interesse real.",
+            "dica": "O aprofundamento diz que o currículo muda um pouco para cada vaga."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual nome de arquivo e assunto de e-mail são os mais profissionais?",
+            "alternativas": [
+              "\"cv final final 2.docx\" e \"oi\"",
+              "\"curriculo.jpg\" e \"vaga\"",
+              "\"Documento1.docx\" e sem assunto",
+              "\"Curriculo_Ana_Souza.pdf\" e \"Candidatura: jovem aprendiz administrativo\""
+            ],
+            "correta": 3,
+            "explicacao": "O nome diz de quem é, o formato é PDF e o assunto diz qual vaga. Quem recebe acha tudo rápido.",
+            "dica": "Nome que diz de quem é, em PDF, e assunto que diz qual vaga."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro nunca estudou inglês além da escola, mas pensa em escrever \"inglês avançado\" para impressionar. O que é certo?",
+            "alternativas": [
+              "Escrever o nível real, como \"inglês básico, estudando por conta própria\"",
+              "Escrever avançado, ninguém confere",
+              "Escrever fluente para garantir",
+              "Apagar todas as habilidades"
+            ],
+            "correta": 0,
+            "explicacao": "Basta uma pergunta em inglês na entrevista para a mentira aparecer. A verdade, com vontade de aprender, conta pontos.",
+            "dica": "Pense no que acontece se o entrevistador puxar uma conversa em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tecla, no Word, abre a revisão de ortografia e gramática?",
+            "alternativas": [
+              "F1",
+              "F5",
+              "F7",
+              "F12"
+            ],
+            "correta": 2,
+            "explicacao": "F7 abre a revisão. F1 é a ajuda e F12 abre o Salvar como.",
+            "dica": "O aprofundamento citou a tecla junto com o menu Revisão."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Montar equipe: delegar, contratar e o custo de um funcionário",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Quando o negócio cresce, o dono não dá conta sozinho. Montar uma equipe é multiplicar a produção: se Rita faz 30 marmitas por dia, com duas pessoas bem treinadas a cozinha pode chegar a 90. Para isso, ela precisa delegar, ou seja, passar tarefas com clareza: o que fazer, como deve ficar o resultado e até quando.",
+          "Delegar não é largar. O dono explica, treina, acompanha e elogia ou corrige. E fica com o que só ele pode fazer: decidir o cardápio, negociar com fornecedores, cuidar do dinheiro.",
+          "Há três formas comuns de ter ajuda. CLT: o funcionário tem carteira assinada, horário, chefe e direitos (salário de pelo menos um mínimo, 13º, férias com um terço a mais, FGTS). PJ: um prestador com CNPJ, muitas vezes MEI, que vende um serviço, emite nota e trabalha com autonomia. Freelancer: alguém chamado para uma tarefa pontual, como fotografar o cardápio.",
+          "A escolha precisa seguir a realidade, e não o que parece mais barato no papel. Se a pessoa trabalha todo dia, com horário, recebendo ordens e salário fixo, ela é empregada, mesmo que tenha CNPJ. Disfarçar empregado de PJ (a \"pejotização\") pode virar processo trabalhista, e a empresa paga todos os direitos atrasados com correção.",
+          "Funcionário custa mais que o salário. Somando 13º, férias com um terço e FGTS de 8%, um salário de R$ 2.000 custa cerca de R$ 2.400 por mês na maioria das empresas do Simples Nacional. Fora do Simples, entra também a contribuição da empresa ao INSS, e o custo passa de uma vez e meia o salário."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Rita paga R$ 1.500 de salário a uma ajudante com carteira assinada. Quanto isso custa por ano, com 13º, um terço de férias e FGTS?",
+            "resolucao": "Salários: 12 × 1.500 = R$ 18.000. 13º: R$ 1.500. Um terço de férias: 1.500 ÷ 3 = R$ 500. Subtotal: R$ 20.000. FGTS: 8% de 20.000 = R$ 1.600. Total: R$ 21.600 por ano, ou R$ 1.800 por mês, 20% acima do salário (sem contar vale-transporte e outros benefícios)."
+          },
+          {
+            "enunciado": "Rita precisa de fotos para o cardápio, de alguém para as entregas todos os dias das 11h às 14h, e de um contador. Que tipo de contratação combina com cada um?",
+            "resolucao": "Fotos: freelancer, porque é uma tarefa pontual. Entregas diárias com horário fixo e ordens dela: empregado CLT, mesmo em meio período. Contador: PJ, um escritório que atende várias empresas com autonomia e emite nota."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A Justiça do Trabalho olha os fatos, não o nome do contrato. Há vínculo de emprego quando o trabalho é feito pela própria pessoa, de forma frequente, com pagamento e recebendo ordens (subordinação). Se tudo isso existe, vale a CLT, não importa se o papel diz \"PJ\" ou \"freelancer\".",
+        "Trabalhar sem registro deixa o funcionário sem FGTS, sem tempo contando para a aposentadoria e sem seguro-desemprego. Para a empresa, o risco é processo trabalhista, multa da fiscalização e perder bons funcionários para quem paga certo. Quem trata bem e paga justo segura talentos e gasta menos treinando gente nova.",
+        "Algumas regras importantes: menor de 16 anos não pode trabalhar, exceto como aprendiz a partir dos 14, com contrato e sem largar a escola; o MEI pode registrar um funcionário. Para liderar bem, metas claras, treinamento e reconhecimento rendem mais que bronca. Delegar bem é o que permite ao dono crescer sem trabalhar até a exaustão."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é delegar?",
+            "alternativas": [
+              "Fazer tudo sozinho",
+              "Passar uma tarefa a alguém com clareza e acompanhar",
+              "Demitir todo mundo",
+              "Não fazer nada"
+            ],
+            "correta": 1,
+            "explicacao": "Delegar é confiar uma tarefa a alguém, explicando bem e acompanhando o resultado.",
+            "dica": "A lição diz que delegar não é largar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Funcionário com carteira assinada é contratado pela:",
+            "alternativas": [
+              "CLT",
+              "Nota fiscal de produto",
+              "Feira",
+              "Conta poupança"
+            ],
+            "correta": 0,
+            "explicacao": "CLT é a Consolidação das Leis do Trabalho, que garante os direitos de quem tem carteira assinada.",
+            "dica": "É uma sigla de três letras ligada às leis do trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Freelancer é chamado para:",
+            "alternativas": [
+              "Trabalhar todo dia com horário fixo",
+              "Ser sócio",
+              "Ser chefe da empresa",
+              "Uma tarefa pontual, como fazer as fotos do cardápio"
+            ],
+            "correta": 3,
+            "explicacao": "Freelancer faz um trabalho com começo e fim. Trabalho diário com horário é emprego.",
+            "dica": "Pense num trabalho que tem começo, meio e fim e não se repete todo dia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um direito de quem tem carteira assinada?",
+            "alternativas": [
+              "Não ter horário",
+              "Ganhar menos que o mínimo",
+              "13º salário",
+              "Não ter férias"
+            ],
+            "correta": 2,
+            "explicacao": "O 13º é um salário a mais por ano. Também há férias com um terço e FGTS.",
+            "dica": "É um salário a mais no fim do ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário custa para a empresa:",
+            "alternativas": [
+              "Mais que o salário",
+              "Menos que o salário",
+              "Exatamente o salário",
+              "Nada"
+            ],
+            "correta": 0,
+            "explicacao": "13º, férias com um terço e FGTS entram na conta, além do salário.",
+            "dica": "Lembre o 13º, as férias e o FGTS que entram na conta."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Salário de R$ 1.200. Quanto é o FGTS de 8% sobre esse salário no mês?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 96",
+              "R$ 80",
+              "R$ 108"
+            ],
+            "correta": 1,
+            "explicacao": "1% de 1.200 = 12; 8% = 8 × 12 = R$ 96. Esse dinheiro é depositado numa conta do trabalhador.",
+            "dica": "Calcule 1% de 1.200 e multiplique por 8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa trabalha todo dia na lanchonete, das 8h às 16h, recebe ordens do dono e salário fixo, mas foi contratada como PJ. O que é isso?",
+            "alternativas": [
+              "Uma contratação correta",
+              "Trabalho de freelancer",
+              "Um vínculo de emprego disfarçado, que pode virar processo",
+              "Uma sociedade"
+            ],
+            "correta": 2,
+            "explicacao": "Horário, ordens e salário fixo são marcas de emprego. Chamar de PJ não muda a realidade.",
+            "dica": "A Justiça olha como o trabalho acontece na prática, não o nome do contrato."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a vantagem de delegar bem?",
+            "alternativas": [
+              "O dono cuida do que só ele faz e a produção se multiplica",
+              "O dono não precisa mais acompanhar nada",
+              "Ninguém precisa ser treinado",
+              "A empresa deixa de pagar salário"
+            ],
+            "correta": 0,
+            "explicacao": "Com tarefas bem passadas, a equipe produz mais e o dono foca nas decisões importantes.",
+            "dica": "Pense no exemplo das marmitas: o que acontece com a produção e com o tempo do dono?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Salário de R$ 1.500: qual é o valor do terço de férias?",
+            "alternativas": [
+              "R$ 150",
+              "R$ 300",
+              "R$ 750",
+              "R$ 500"
+            ],
+            "correta": 3,
+            "explicacao": "1.500 ÷ 3 = R$ 500, pagos junto com as férias.",
+            "dica": "Um terço é dividir por 3."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para delegar uma tarefa:",
+            "itens": [
+              "Escolher a pessoa certa para a tarefa",
+              "Explicar o que fazer e como deve ficar o resultado",
+              "Combinar o prazo",
+              "Acompanhar e tirar dúvidas",
+              "Dar retorno: elogiar ou corrigir"
+            ],
+            "explicacao": "Primeiro quem vai fazer, depois o quê e até quando; durante, acompanhar; no fim, dar retorno.",
+            "dica": "Primeiro quem, depois o quê e quando; o retorno vem no fim."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Salário de R$ 3.000 numa empresa do Simples. Com 13º, um terço de férias e FGTS, qual é o custo médio por mês?",
+            "alternativas": [
+              "R$ 3.240",
+              "R$ 3.600",
+              "R$ 4.500",
+              "R$ 3.000"
+            ],
+            "correta": 1,
+            "explicacao": "Ano: 36.000 + 3.000 + 1.000 = 40.000. FGTS: 3.200. Total: 43.200 ÷ 12 = R$ 3.600, ou seja, 20% acima do salário.",
+            "dica": "Some 12 salários, o 13º e o terço de férias; acrescente 8% de FGTS e divida por 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia faz sozinha 40 bolos por dia. Uma ajudante treinada faz 30 por dia. Com duas ajudantes, e Bia continuando a fazer os dela, quantos bolos saem por dia?",
+            "alternativas": [
+              "70",
+              "80",
+              "100",
+              "120"
+            ],
+            "correta": 2,
+            "explicacao": "40 + 30 + 30 = 100 bolos. A equipe multiplica a produção.",
+            "dica": "Some a produção de Bia com a de cada ajudante."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual situação combina com contratar um PJ?",
+            "alternativas": [
+              "Um caixa que cumpre horário todo dia na loja",
+              "Uma ajudante que recebe ordens o dia todo",
+              "Um adolescente de 13 anos",
+              "Uma empresa de manutenção que conserta máquinas de vários clientes, com autonomia, e emite nota"
+            ],
+            "correta": 3,
+            "explicacao": "PJ presta serviço com autonomia, sem chefe e geralmente para vários clientes. As duas primeiras são emprego.",
+            "dica": "PJ presta serviço com autonomia e normalmente atende vários clientes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono contrata sem registro para \"economizar\". Depois de 2 anos, o funcionário entra na Justiça. O que é mais provável?",
+            "alternativas": [
+              "O dono paga os direitos atrasados (FGTS, 13º, férias) com correção e pode levar multa",
+              "Nada, porque não havia contrato",
+              "O funcionário paga uma multa ao dono",
+              "O dono ganha porque pagava em dinheiro vivo"
+            ],
+            "correta": 0,
+            "explicacao": "A falta de papel não apaga os direitos. A \"economia\" vira uma conta grande de uma vez só.",
+            "dica": "A falta de papel apaga os direitos? Lembre o que a lição diz sobre os fatos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que empresas que pagam certo e tratam bem costumam gastar menos com equipe a longo prazo?",
+            "alternativas": [
+              "Porque pagam menos impostos",
+              "Porque mantêm bons funcionários e gastam menos treinando gente nova e com processos",
+              "Porque não precisam de treinamento",
+              "Porque contratam só freelancers"
+            ],
+            "correta": 1,
+            "explicacao": "Perder alguém experiente custa caro: recrutar, treinar e esperar a pessoa nova pegar o ritmo.",
+            "dica": "Pense no custo de perder alguém experiente e começar tudo de novo com outra pessoa."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Carla vai contratar um confeiteiro CLT por R$ 2.400 numa empresa do Simples. Cada bolo dá R$ 12 de lucro antes do custo dele. Quantos bolos por mês ele precisa gerar só para pagar o próprio custo?",
+            "alternativas": [
+              "200",
+              "240",
+              "288",
+              "180"
+            ],
+            "correta": 1,
+            "explicacao": "Custo real: 2.400 × 1,2 = R$ 2.880 por mês. 2.880 ÷ 12 = 240 bolos. Quem usa só o salário chega a 200 e se engana.",
+            "dica": "Primeiro ache o custo mensal real do confeiteiro, que é mais que o salário. Depois divida pelo lucro de cada bolo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um adolescente de 15 anos quer trabalhar na loja do tio, todo dia à tarde, sem registro. O que a lei permite?",
+            "alternativas": [
+              "Pode, porque é da família",
+              "Pode, se o pagamento for em dinheiro vivo",
+              "Só pode ser contratado a partir dos 21 anos",
+              "Só pode trabalhar como aprendiz, com contrato e sem largar a escola"
+            ],
+            "correta": 3,
+            "explicacao": "Antes dos 16, só como aprendiz (a partir dos 14). Ser da família não libera o trabalho irregular.",
+            "dica": "Releia a regra do aprofundamento para menores de 16 anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O MEI de Jorge vende lanches e cresceu. Quantos funcionários ele pode registrar continuando MEI?",
+            "alternativas": [
+              "Nenhum",
+              "Um",
+              "Cinco",
+              "Quantos quiser"
+            ],
+            "correta": 1,
+            "explicacao": "O MEI pode ter um empregado registrado. Para crescer além disso, precisa mudar de tipo de empresa.",
+            "dica": "O aprofundamento citou esse limite do MEI."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas opções para as entregas diárias: (A) motoboy CLT, custo de R$ 2.000 por mês com todos os encargos; (B) \"PJ\" a R$ 1.700, mas com horário fixo e ordens do dono. Por que B pode sair mais caro?",
+            "alternativas": [
+              "Porque, na prática, B é vínculo de emprego: num processo, o dono paga todos os direitos atrasados com correção, além de multas",
+              "Porque o PJ cobra imposto do dono",
+              "Porque contratar PJ é proibido no Brasil",
+              "Porque o PJ não pode emitir nota"
+            ],
+            "correta": 0,
+            "explicacao": "A economia de R$ 300 por mês some diante de anos de direitos pagos de uma vez. Contratar PJ é legal quando há autonomia de verdade.",
+            "dica": "Compare a economia de R$ 300 por mês com o risco de pagar anos de direitos de uma vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma empresa fora do Simples paga salário de R$ 2.000. Com 13º, férias e FGTS, o custo iria a R$ 2.400, mas a contribuição da empresa ao INSS e outras eleva o total para cerca de R$ 3.000. Quantas vezes o salário é esse custo?",
+            "alternativas": [
+              "1,2 vez",
+              "2 vezes",
+              "1,5 vez",
+              "3 vezes"
+            ],
+            "correta": 2,
+            "explicacao": "3.000 ÷ 2.000 = 1,5. No Simples seria 1,2 vez (2.400 ÷ 2.000).",
+            "dica": "Divida o custo total pelo salário."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O bolo que não cresceu",
+    "texto": "No aniversário da mãe, Rafael decidiu fazer um bolo de cenoura sozinho. Seguiu a receita do caderno da avó, bateu tudo no liquidificador, levou ao forno e esperou. Quarenta minutos depois, abriu a porta e encontrou um disco duro, baixo e amarelado. O bolo não tinha crescido.\n\nA primeira vontade foi jogar tudo fora e desistir. Mas Rafael lembrou de uma frase que o professor de informática sempre repetia: quando um programa dá errado, não adianta brigar com o computador; é preciso procurar o erro, um passo de cada vez.\n\nEle pegou o caderno e conferiu a receita linha por linha. Três ovos: certo. Uma xícara de óleo: certo. Duas xícaras de açúcar: certo. Cenouras: certo. Farinha: certo. Fermento: nada. Na pressa, tinha pulado a última linha, escrita bem no pé da página.\n\nAntes de gastar todos os ingredientes de novo, Rafael fez um teste pequeno: meia receita, desta vez com fermento. O bolo saiu alto e fofinho. Só então ele preparou a receita inteira.\n\nNa festa, a mãe riu da história do primeiro bolo. Rafael explicou, todo orgulhoso, que tinha feito uma depuração: encontrar o erro, corrigir e testar de novo. Programadores fazem isso todos os dias. Cozinheiros também. E qualquer pessoa pode usar o mesmo método para resolver os problemas da vida."
+  },
+  "escrita": {
+    "proposta": "Em 8 a 12 linhas, conte uma vez em que você errou em alguma coisa (num jogo, numa receita, numa conta, num trabalho) e precisou descobrir onde estava o erro. Explique os passos que seguiu para encontrar o problema e o que aprendeu, como se fosse uma \"depuração\" da vida real."
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "dia": 20,
+  "blocos": [
+    {
+      "materia": "portugues",
+      "titulo": "Notícia e reportagem",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "A notícia conta um fato real e recente, de interesse do público, de forma objetiva: em terceira pessoa e sem a opinião de quem escreve.",
+          "Ela tem partes: a manchete (o título, curto e chamativo), a linha fina (um subtítulo que completa a manchete), o lide (o primeiro parágrafo) e o corpo (os detalhes).",
+          "O lide responde às perguntas principais: o quê, quem, quando, onde, como e por quê. Quem lê só o lide já fica sabendo o essencial.",
+          "A reportagem é mais longa e aprofunda o assunto. Ela traz entrevistas com várias pessoas, dados, fotos e explica causas e consequências. Pode levar dias ou semanas para ser feita.",
+          "Toda informação precisa de fonte: quem disse ou de onde veio o dado. Expressões como \"segundo a prefeitura\" ou \"de acordo com a Defesa Civil\" mostram a fonte."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Lide: \"Nesta segunda-feira, moradores do Jardim Esperança, em Osasco, fizeram um mutirão para limpar a praça do bairro, porque o lixo acumulado atraía ratos.\" Ache as respostas.",
+            "resolucao": "O quê: mutirão de limpeza. Quem: moradores. Quando: nesta segunda-feira. Onde: Jardim Esperança, em Osasco. Por quê: o lixo atraía ratos."
+          },
+          {
+            "enunciado": "Transforme em frase de notícia: \"Que festa incrível a escola fez!\"",
+            "resolucao": "\"A Escola Estadual Monte Azul realizou no sábado uma festa junina com 500 visitantes.\" Sai a opinião (incrível), entram os fatos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A notícia segue a pirâmide invertida: o mais importante vem primeiro e os detalhes vêm depois. Assim, mesmo quem para de ler no meio já sabe o principal.",
+        "Falas entre aspas, com verbos como \"afirmou\", \"disse\" e \"declarou\", mostram exatamente o que a fonte falou. A opinião do jornal aparece em outro gênero, o editorial, e a de um autor convidado aparece no artigo de opinião.",
+        "Leitor esperto desconfia de manchete sensacionalista (\"CHOCANTE! Você não vai acreditar...\"), confere a data (notícia velha compartilhada como nova engana) e lê mais de uma fonte, porque cada jornal pode destacar um lado diferente do mesmo fato."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a manchete?",
+            "alternativas": [
+              "O título da notícia",
+              "O último parágrafo",
+              "A foto",
+              "O nome do jornal"
+            ],
+            "correta": 0,
+            "explicacao": "A manchete é o título, a primeira coisa que o leitor vê.",
+            "dica": "É a primeira coisa que chama a atenção do leitor, em letras grandes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que uma notícia conta?",
+            "alternativas": [
+              "Uma história inventada",
+              "Um fato real e recente",
+              "Uma receita",
+              "Um poema"
+            ],
+            "correta": 1,
+            "explicacao": "Notícia informa algo que aconteceu de verdade, há pouco tempo.",
+            "dica": "Notícia informa o que aconteceu de verdade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o lide?",
+            "alternativas": [
+              "A propaganda",
+              "A assinatura do jornalista",
+              "O primeiro parágrafo, com as informações principais",
+              "A legenda da foto"
+            ],
+            "correta": 2,
+            "explicacao": "O lide resume o essencial logo no começo.",
+            "dica": "Ele aparece logo no começo do texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma reportagem?",
+            "alternativas": [
+              "Um texto mais curto que a notícia",
+              "Uma história sempre inventada",
+              "Só uma foto",
+              "Um texto mais longo e aprofundado, com entrevistas e dados"
+            ],
+            "correta": 3,
+            "explicacao": "A reportagem vai além do fato: explica, ouve pessoas e traz números.",
+            "dica": "Pense no texto que investiga o assunto com mais calma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como a notícia é escrita?",
+            "alternativas": [
+              "Em terceira pessoa, de forma objetiva",
+              "Em rimas",
+              "Em primeira pessoa, com opinião",
+              "Sempre em inglês"
+            ],
+            "correta": 0,
+            "explicacao": "A notícia informa sem dar a opinião de quem escreve.",
+            "dica": "A notícia não mostra o que o jornalista acha."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No lide do mutirão em Osasco, qual parte responde \"onde\"?",
+            "alternativas": [
+              "Nesta segunda-feira",
+              "No Jardim Esperança, em Osasco",
+              "Moradores",
+              "Porque o lixo atraía ratos"
+            ],
+            "correta": 1,
+            "explicacao": "Onde é o lugar: o bairro e a cidade.",
+            "dica": "Onde pede um lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo lide, qual parte responde \"por quê\"?",
+            "alternativas": [
+              "O mutirão",
+              "Nesta segunda-feira",
+              "Moradores do bairro",
+              "Porque o lixo acumulado atraía ratos"
+            ],
+            "correta": 3,
+            "explicacao": "A causa do mutirão foi o lixo que atraía ratos.",
+            "dica": "Procure a parte que explica a causa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase poderia estar numa notícia?",
+            "alternativas": [
+              "Que creche linda, adorei!",
+              "Acho que a prefeitura devia fazer mais",
+              "A prefeitura inaugurou ontem uma creche com 120 vagas",
+              "Creche é tudo de bom"
+            ],
+            "correta": 2,
+            "explicacao": "Traz fatos (quem, quando, quantas vagas) e nenhuma opinião.",
+            "dica": "Procure a frase que tem fatos e nenhuma opinião."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre notícia e reportagem?",
+            "alternativas": [
+              "A reportagem aprofunda com entrevistas e dados; a notícia informa o fato de forma rápida",
+              "São iguais",
+              "A notícia é mais longa",
+              "A reportagem é sempre falsa"
+            ],
+            "correta": 0,
+            "explicacao": "As duas são verdadeiras, mas a reportagem investiga mais.",
+            "dica": "Pense em qual texto leva mais tempo para ser feito."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as partes da notícia, de cima para baixo:",
+            "itens": [
+              "Manchete",
+              "Linha fina",
+              "Lide",
+              "Corpo da notícia"
+            ],
+            "explicacao": "Título, subtítulo, primeiro parágrafo com o essencial e, por fim, os detalhes.",
+            "dica": "O título vem primeiro; os detalhes, por último."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a pirâmide invertida da notícia?",
+            "alternativas": [
+              "O final é a parte mais importante",
+              "As informações mais importantes vêm primeiro",
+              "Tudo na ordem em que aconteceu",
+              "Só fotos, sem texto"
+            ],
+            "correta": 1,
+            "explicacao": "O principal fica no topo; os detalhes vão descendo.",
+            "dica": "Imagine uma pirâmide de cabeça para baixo: a parte larga fica em cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual manchete é sensacionalista?",
+            "alternativas": [
+              "Prefeitura amplia horário de três postos de saúde",
+              "Chuva deixa 200 casas sem luz em Guarulhos",
+              "CHOCANTE! Você não vai acreditar no que aconteceu no posto!",
+              "Escola estadual abre 40 vagas de reforço"
+            ],
+            "correta": 2,
+            "explicacao": "Ela não informa nada; só tenta provocar curiosidade e clique.",
+            "dica": "Procure a manchete que não diz o que aconteceu, só provoca curiosidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que servem as falas entre aspas com \"afirmou\" ou \"disse\"?",
+            "alternativas": [
+              "Para mostrar exatamente o que a fonte falou",
+              "Para dar a opinião do jornalista",
+              "Para enfeitar o texto",
+              "Para esconder quem falou"
+            ],
+            "correta": 0,
+            "explicacao": "As aspas marcam as palavras da própria fonte.",
+            "dica": "As aspas marcam palavras de quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma notícia de 2019 está sendo compartilhada hoje como se fosse nova. Qual é o problema?",
+            "alternativas": [
+              "Nenhum",
+              "A letra",
+              "O tamanho do texto",
+              "Informação velha pode enganar; é preciso conferir a data"
+            ],
+            "correta": 3,
+            "explicacao": "O fato pode já ter mudado. Conferir a data faz parte de ler bem.",
+            "dica": "O que pode ter mudado desde aquele ano?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma reportagem sobre ônibus lotados fica mais completa ouvindo:",
+            "alternativas": [
+              "Só a opinião do repórter",
+              "Passageiros, a empresa de ônibus, a prefeitura e dados de lotação",
+              "Um meme",
+              "Só um passageiro irritado"
+            ],
+            "correta": 1,
+            "explicacao": "Reportagem boa ouve vários lados e traz números.",
+            "dica": "Reportagem boa ouve vários lados e traz números."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lide está completo?",
+            "alternativas": [
+              "Ontem houve uma festa.",
+              "A festa foi legal.",
+              "Na sexta-feira, a Escola Estadual Monte Azul, em Itaquera, realizou uma feira de ciências com 40 projetos para mostrar os trabalhos dos alunos à comunidade.",
+              "Alunos fizeram coisas."
+            ],
+            "correta": 2,
+            "explicacao": "Ele responde quando, quem, onde, o quê, como e por quê. Os outros são vagos ou trazem opinião (legal).",
+            "dica": "Confira qual deles responde quando, quem, onde, o quê e por quê."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Segundo a Defesa Civil, a chuva chegou a 80 mm em 2 horas.\" O trecho \"Segundo a Defesa Civil\" mostra:",
+            "alternativas": [
+              "A fonte da informação",
+              "Uma opinião",
+              "Uma propaganda",
+              "Um erro"
+            ],
+            "correta": 0,
+            "explicacao": "Indica de onde veio o dado, o que dá credibilidade à notícia.",
+            "dica": "Quem deu essa informação ao jornal?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre editorial e notícia?",
+            "alternativas": [
+              "São iguais",
+              "O editorial é só uma foto",
+              "A notícia traz a opinião do dono do jornal",
+              "O editorial traz a opinião do jornal; a notícia relata o fato"
+            ],
+            "correta": 3,
+            "explicacao": "Notícia informa; editorial opina em nome do jornal.",
+            "dica": "Um dos dois gêneros é de opinião."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Jornal A: \"Prefeitura gasta R$ 2 milhões em praça\". Jornal B: \"Praça nova atende 30 mil moradores\". É o mesmo fato. O que concluir?",
+            "alternativas": [
+              "Um dos dois está mentindo",
+              "Manchetes podem destacar lados diferentes do mesmo fato; vale ler mais de uma fonte",
+              "A praça não existe",
+              "Só vale o primeiro jornal"
+            ],
+            "correta": 1,
+            "explicacao": "As duas informações podem ser verdadeiras. Cada jornal escolheu o que destacar.",
+            "dica": "As duas informações podem ser verdadeiras ao mesmo tempo?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os trechos de uma notícia em pirâmide invertida:",
+            "itens": [
+              "Manchete: Biblioteca do bairro reabre após reforma",
+              "Lide: a biblioteca do Jardim Ângela reabriu no sábado com 5 mil livros e computadores",
+              "Detalhe: a reforma durou seis meses, segundo a prefeitura",
+              "Fala de moradora: \"Agora minha filha tem onde estudar\", disse Rita Souza",
+              "Informação extra: a biblioteca abre das 9h às 18h"
+            ],
+            "explicacao": "Manchete, lide com o essencial, detalhes com fonte, fala de uma pessoa e informações complementares no fim.",
+            "dica": "Do mais importante para o menos importante."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "ingles",
+      "titulo": "Instructions: dando instruções em inglês",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para dar instruções ou ordens em inglês, usamos o imperativo: o verbo na forma básica, sem sujeito. Open your book. (Abra seu livro.) Sit down. (Sente-se.)",
+          "Para dizer o que NÃO fazer, colocamos don't antes do verbo: Don't run! (Não corra!) Don't talk. (Não converse.)",
+          "Para ser educado, acrescente please: Close the door, please. (Feche a porta, por favor.)",
+          "Em receitas e passo a passo, as palavras de sequência ajudam: first (primeiro), then (depois), next (em seguida) e finally (por fim).",
+          "Para dar direções na rua: go straight (siga em frente), turn left (vire à esquerda), turn right (vire à direita), stop (pare) e cross the street (atravesse a rua)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Traduza a instrução da prova: \"Read the text and answer the questions.\"",
+            "resolucao": "Leia o texto e responda às perguntas. Read = leia; answer = responda."
+          },
+          {
+            "enunciado": "Diga em inglês: \"Não use o celular na aula.\"",
+            "resolucao": "Don't use your phone in class. O don't vem antes do verbo use."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Let's serve para sugerir algo ao grupo, incluindo você: Let's go! (Vamos!) Let's study together. (Vamos estudar juntos.) No negativo: Let's not forget! (Não vamos esquecer!)",
+        "Placas usam muito o imperativo: Push (empurre), Pull (puxe), Keep off the grass (não pise na grama), Do not enter (não entre). Em manuais: press (aperte), hold (segure), release (solte). Em receitas: mix (misture), add (acrescente), double (dobre a quantidade).",
+        "Em direções, turn right faz você girar um quarto de volta no sentido dos ponteiros do relógio, e turn left, no sentido contrário. Se você está virado para o norte e vira à direita, passa a olhar para o leste."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Open your book\" quer dizer:",
+            "alternativas": [
+              "Abra seu livro",
+              "Feche seu livro",
+              "Leia seu caderno",
+              "Compre um livro"
+            ],
+            "correta": 0,
+            "explicacao": "Open = abra; book = livro.",
+            "dica": "Book é livro. Open é o contrário de fechar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Sit down, please\" quer dizer:",
+            "alternativas": [
+              "Levante-se",
+              "Sente-se, por favor",
+              "Corra",
+              "Fale alto"
+            ],
+            "correta": 1,
+            "explicacao": "Sit down = sente-se; please = por favor.",
+            "dica": "Down quer dizer para baixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Don't run!\" quer dizer:",
+            "alternativas": [
+              "Corra!",
+              "Pule!",
+              "Não corra!",
+              "Ande rápido!"
+            ],
+            "correta": 2,
+            "explicacao": "Don't deixa a ordem negativa: não faça.",
+            "dica": "Don't antes do verbo transforma a ordem em proibição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Close the door\" quer dizer:",
+            "alternativas": [
+              "Abra a janela",
+              "Pinte a porta",
+              "Bata na porta",
+              "Feche a porta"
+            ],
+            "correta": 3,
+            "explicacao": "Close = feche; door = porta.",
+            "dica": "Door é porta. Close é o contrário de open."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra deixa a instrução mais educada?",
+            "alternativas": [
+              "please",
+              "stop",
+              "now",
+              "don't"
+            ],
+            "correta": 0,
+            "explicacao": "Please = por favor.",
+            "dica": "É a palavra mágica, a mesma que usamos para pedir com educação."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Turn left\" quer dizer:",
+            "alternativas": [
+              "Vire à direita",
+              "Vire à esquerda",
+              "Siga em frente",
+              "Pare"
+            ],
+            "correta": 1,
+            "explicacao": "Left = esquerda; right = direita.",
+            "dica": "Right é direita. E o outro lado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa porta está escrito \"Pull\". O que fazer?",
+            "alternativas": [
+              "Empurrar",
+              "Abrir com chave",
+              "Puxar",
+              "Fechar"
+            ],
+            "correta": 2,
+            "explicacao": "Pull = puxe; push = empurre.",
+            "dica": "É o contrário de push."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ordem negativa está certa?",
+            "alternativas": [
+              "No talk!",
+              "Not talk!",
+              "Don't talks!",
+              "Don't talk!"
+            ],
+            "correta": 3,
+            "explicacao": "Don't + verbo na forma básica, sem -s.",
+            "dica": "Don't + verbo na forma básica, sem -s."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"First, wash your hands. Then, cut the bread.\" O que quer dizer \"then\"?",
+            "alternativas": [
+              "Depois",
+              "Antes",
+              "Nunca",
+              "Ontem"
+            ],
+            "correta": 0,
+            "explicacao": "Then marca o passo seguinte: depois.",
+            "dica": "First é o primeiro passo. Then mostra o passo que vem em seguida."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a receita de macarrão:",
+            "itens": [
+              "First, put water in the pot.",
+              "Then, wait for the water to boil.",
+              "Next, put the pasta in.",
+              "Finally, wait ten minutes and turn off the stove."
+            ],
+            "explicacao": "Primeiro a água na panela, depois esperar ferver, em seguida o macarrão e, por fim, esperar dez minutos e desligar.",
+            "dica": "Siga as palavras de sequência: first, then, next, finally."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Instrução da prova: \"Read the text and answer the questions.\"",
+            "alternativas": [
+              "Escreva um texto novo",
+              "Leia o texto e responda às perguntas",
+              "Responda sem ler",
+              "Copie as perguntas"
+            ],
+            "correta": 1,
+            "explicacao": "Read = leia; answer = responda; questions = perguntas.",
+            "dica": "Read e answer são os dois verbos da frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você está na praça. Instruções: \"Go straight. Turn left. Stop at the school.\" Qual é o 2º movimento?",
+            "alternativas": [
+              "Virar à direita",
+              "Seguir em frente",
+              "Virar à esquerda",
+              "Parar na escola"
+            ],
+            "correta": 2,
+            "explicacao": "1º go straight (em frente), 2º turn left (esquerda), 3º stop (pare).",
+            "dica": "Conte as instruções na ordem e traduza a segunda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Corrija: \"You don't to run in the hall.\"",
+            "alternativas": [
+              "Don't run in the hall.",
+              "Not run in the hall.",
+              "No running you the hall.",
+              "Don't to run in the hall."
+            ],
+            "correta": 0,
+            "explicacao": "No imperativo não há sujeito nem to: Don't + verbo.",
+            "dica": "No imperativo não aparece o sujeito nem o to."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Let's study together!\" quer dizer:",
+            "alternativas": [
+              "Pare de estudar!",
+              "Estude sozinho!",
+              "Ele estuda junto.",
+              "Vamos estudar juntos!"
+            ],
+            "correta": 3,
+            "explicacao": "Let's faz uma sugestão ao grupo, incluindo quem fala: vamos.",
+            "dica": "Let's inclui quem está falando na sugestão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma placa diz \"Keep off the grass\". O que significa?",
+            "alternativas": [
+              "Corte a grama",
+              "Não pise na grama",
+              "Plante grama",
+              "Sente na grama"
+            ],
+            "correta": 1,
+            "explicacao": "Keep off = fique fora. Ou seja, não pise.",
+            "dica": "Keep off quer dizer ficar longe."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No manual do celular: \"Press and hold the button for five seconds.\"",
+            "alternativas": [
+              "Aperte rápido duas vezes",
+              "Aperte e segure o botão por cinco segundos",
+              "Solte o botão",
+              "Segure por cinquenta segundos"
+            ],
+            "correta": 1,
+            "explicacao": "Press = aperte; hold = segure; five = cinco (cinquenta seria fifty).",
+            "dica": "Hold quer dizer segurar. Cuidado com o número: five ou fifty?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como dizer ao grupo \"Não vamos esquecer!\"?",
+            "alternativas": [
+              "Let's not forget!",
+              "Let's don't forgets!",
+              "Not let's forget!",
+              "Don't we forget!"
+            ],
+            "correta": 0,
+            "explicacao": "O negativo de let's é let's not + verbo.",
+            "dica": "Releia no aprofundamento como fica o let's no negativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Receita: \"Mix 2 cups of flour and 1 cup of milk. Then double the recipe.\" Quantas xícaras de farinha no total?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "Double = dobre. 2 xícaras de farinha dobradas = 4. O 6 dobra farinha e leite juntos.",
+            "dica": "Double quer dizer dobrar. Dobre só a farinha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você está virado para o norte. \"Turn right. Then turn right again.\" Para onde fica virado?",
+            "alternativas": [
+              "Norte",
+              "Leste",
+              "Oeste",
+              "Sul"
+            ],
+            "correta": 3,
+            "explicacao": "Norte → direita → leste → direita → sul. Dois quartos de volta = meia-volta.",
+            "dica": "Cada right gira um quarto de volta no sentido do relógio."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as instruções para lavar as mãos:",
+            "itens": [
+              "Wet your hands.",
+              "Put soap on your hands.",
+              "Rub your hands for twenty seconds.",
+              "Rinse your hands with water.",
+              "Dry your hands with a towel."
+            ],
+            "explicacao": "Molhar, passar sabão, esfregar por vinte segundos, enxaguar e secar com a toalha.",
+            "dica": "Wet = molhar, rub = esfregar, rinse = enxaguar, dry = secar."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "cidadania",
+      "titulo": "Trânsito e mobilidade: todo mundo faz parte",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Trânsito não é só carro: é todo mundo que circula na rua. Pedestre, ciclista, motorista, motociclista e passageiro têm direitos e deveres para que todos cheguem bem.",
+          "Pedestre: atravesse na faixa e no sinal verde para pedestre, olhe para os dois lados antes e não use o celular durante a travessia. Quando o bonequinho vermelho pisca, não comece a atravessar; quem já está na faixa termina.",
+          "Passageiro: use o cinto sempre, em todos os bancos, inclusive atrás. Pelas regras de trânsito, criança de até 10 anos viaja no banco de trás, com cadeirinha ou assento adequado ao tamanho dela.",
+          "Ciclista: use capacete, ande no mesmo sentido dos carros ou na ciclovia, sinalize com o braço antes de virar e use luz à noite.",
+          "Mobilidade é o jeito como as pessoas se deslocam na cidade. Ônibus, metrô e trem levam muita gente com poucos veículos e diminuem trânsito e poluição. No transporte público, ceda o assento preferencial a idosos, gestantes, pessoas com deficiência e com criança de colo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Por que não atravessar atrás de um ônibus parado?",
+            "resolucao": "Porque o ônibus esconde o pedestre, e os carros que vêm na outra faixa não conseguem vê-lo a tempo. O certo é ir até a faixa."
+          },
+          {
+            "enunciado": "Um ônibus com 70 passageiros substitui quantos carros, se cada carro leva em média 1,4 pessoa?",
+            "resolucao": "70 ÷ 1,4 = 50 carros a menos na rua, com muito menos trânsito e poluição."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Velocidade em metros por segundo: divida os km/h por 3,6. A 36 km/h, um carro anda 10 metros a cada segundo; a 72 km/h, anda 20 metros. Um motorista que olha o celular por 2 segundos a 72 km/h percorre 40 metros sem ver a rua.",
+        "Quando a velocidade dobra, a energia da batida fica 4 vezes maior, porque ela cresce com a velocidade multiplicada por ela mesma. Por isso, perto de escolas, o limite é baixo.",
+        "Ônibus e caminhões têm pontos cegos, lugares em volta do veículo que o motorista não vê pelos espelhos. Se você não vê os olhos do motorista no espelho, ele também não vê você. E dirigir depois de beber é proibido e muito perigoso."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde é o lugar certo para atravessar a rua?",
+            "alternativas": [
+              "Na faixa de pedestres",
+              "No meio da avenida",
+              "Correndo entre os carros",
+              "Atrás do ônibus"
+            ],
+            "correta": 0,
+            "explicacao": "A faixa é o lugar onde os motoristas esperam encontrar pedestres.",
+            "dica": "Procure o lugar pintado no chão para os pedestres."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cinto de segurança no banco de trás:",
+            "alternativas": [
+              "Não precisa",
+              "Precisa sempre, em todos os bancos",
+              "Só na estrada",
+              "Só para o motorista"
+            ],
+            "correta": 1,
+            "explicacao": "Numa batida, quem está atrás sem cinto é jogado para a frente e pode ferir a si e aos outros.",
+            "dica": "A lição falou em todos os bancos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazer antes de atravessar?",
+            "alternativas": [
+              "Mexer no celular",
+              "Fechar os olhos",
+              "Olhar para os dois lados",
+              "Correr"
+            ],
+            "correta": 2,
+            "explicacao": "Olhar para os dois lados mostra se vem algum veículo.",
+            "dica": "Veículos podem vir de qualquer lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o ciclista deve usar?",
+            "alternativas": [
+              "Chinelo",
+              "Fone com som alto",
+              "Guarda-chuva",
+              "Capacete"
+            ],
+            "correta": 3,
+            "explicacao": "O capacete protege a cabeça em caso de queda.",
+            "dica": "É o equipamento que protege a cabeça."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para quem é o assento preferencial?",
+            "alternativas": [
+              "Idosos, gestantes, pessoas com deficiência e com criança de colo",
+              "Quem chegou primeiro, sempre",
+              "Só o motorista",
+              "Ninguém"
+            ],
+            "correta": 0,
+            "explicacao": "Essas pessoas têm mais dificuldade de ficar em pé no ônibus em movimento.",
+            "dica": "Pense em quem tem mais dificuldade de ficar em pé no ônibus."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma criança de 8 anos vai de carro. Onde ela deve ir?",
+            "alternativas": [
+              "No colo da mãe, na frente",
+              "No banco de trás, com cinto e cadeirinha ou assento adequado",
+              "No porta-malas",
+              "Em pé, segurando no banco"
+            ],
+            "correta": 1,
+            "explicacao": "Até 10 anos, banco de trás com o equipamento certo para o tamanho dela.",
+            "dica": "A lição falou de uma idade até a qual a criança viaja atrás."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O bonequinho vermelho do semáforo de pedestre está piscando. O que fazer?",
+            "alternativas": [
+              "Começar a atravessar correndo",
+              "Atravessar devagar",
+              "Não começar a atravessar; quem já está na faixa termina a travessia",
+              "Nada, o sinal está quebrado"
+            ],
+            "correta": 2,
+            "explicacao": "O pisca-pisca avisa que o tempo do pedestre está acabando.",
+            "dica": "O pisca-pisca avisa que o tempo do pedestre está acabando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não andar de bicicleta na contramão?",
+            "alternativas": [
+              "Porque é feio",
+              "Porque cansa mais",
+              "Não tem problema nenhum",
+              "Porque os motoristas não esperam alguém vindo de frente naquela faixa, e o risco de batida aumenta"
+            ],
+            "correta": 3,
+            "explicacao": "Na contramão, o encontro com o carro acontece de frente, com menos tempo para reagir.",
+            "dica": "Pense no motorista: ele espera alguém vindo de frente na faixa dele?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o transporte público ajuda a cidade?",
+            "alternativas": [
+              "Leva muita gente com menos veículos, diminuindo trânsito e poluição",
+              "Faz mais barulho",
+              "Está sempre vazio",
+              "Não ajuda"
+            ],
+            "correta": 0,
+            "explicacao": "Um ônibus cheio tira dezenas de carros da rua.",
+            "dica": "Compare um ônibus cheio com a mesma quantidade de pessoas em carros."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a travessia segura:",
+            "itens": [
+              "Ir até a faixa de pedestres",
+              "Esperar o sinal verde para pedestre",
+              "Olhar para os dois lados",
+              "Atravessar em linha reta, sem correr e sem celular"
+            ],
+            "explicacao": "Lugar certo, hora certa, conferir e atravessar com atenção.",
+            "dica": "Primeiro o lugar certo, depois a hora certa, por fim a atenção ao atravessar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro a 60 km/h anda cerca de quantos metros por segundo?",
+            "alternativas": [
+              "6 m",
+              "17 m",
+              "60 m",
+              "36 m"
+            ],
+            "correta": 1,
+            "explicacao": "60 ÷ 3,6 ≈ 16,7, cerca de 17 metros a cada segundo.",
+            "dica": "60 km são 60.000 metros, e 1 hora tem 3.600 segundos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o ponto cego de um ônibus ou caminhão?",
+            "alternativas": [
+              "Um farol quebrado",
+              "Uma placa de trânsito",
+              "Um lugar em volta do veículo que o motorista não vê pelos espelhos",
+              "Um tipo de pneu"
+            ],
+            "correta": 2,
+            "explicacao": "Quem está no ponto cego fica invisível para o motorista.",
+            "dica": "Se você não vê os olhos do motorista no espelho, ele vê você?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um motorista a 36 km/h (10 metros por segundo) olha o celular por 3 segundos. Quantos metros anda sem olhar a rua?",
+            "alternativas": [
+              "3 m",
+              "13 m",
+              "36 m",
+              "30 m"
+            ],
+            "correta": 3,
+            "explicacao": "10 metros por segundo × 3 segundos = 30 metros, quase o comprimento de uma quadra de futsal.",
+            "dica": "Multiplique a distância de cada segundo pelo número de segundos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos carros, com 1,4 pessoa em média, um ônibus com 70 passageiros substitui?",
+            "alternativas": [
+              "50 carros",
+              "70 carros",
+              "98 carros",
+              "14 carros"
+            ],
+            "correta": 0,
+            "explicacao": "70 ÷ 1,4 = 50. O 98 vem de multiplicar em vez de dividir.",
+            "dica": "Divida as pessoas do ônibus pela média de pessoas por carro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Marina quer atravessar fora da faixa, que está a 30 metros, \"para ganhar tempo\". Qual raciocínio está certo?",
+            "alternativas": [
+              "Ganha muito tempo, vale o risco",
+              "Andar 30 metros até a faixa leva menos de meio minuto e é muito mais seguro",
+              "A faixa é só enfeite",
+              "O motorista sempre para"
+            ],
+            "correta": 1,
+            "explicacao": "Andando a cerca de 1,4 metro por segundo, 30 metros levam uns 20 segundos.",
+            "dica": "Calcule quanto tempo leva para andar 30 metros a pé."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro a 72 km/h e o motorista olha o celular por 2 segundos. Quantos metros ele anda sem ver a rua?",
+            "alternativas": [
+              "20 m",
+              "72 m",
+              "40 m",
+              "144 m"
+            ],
+            "correta": 2,
+            "explicacao": "72 ÷ 3,6 = 20 metros por segundo. 20 × 2 = 40 metros. O 144 multiplica os km/h direto.",
+            "dica": "Transforme km/h em metros por segundo dividindo por 3,6 e multiplique pelos segundos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a velocidade de um carro dobra, a energia de uma batida fica:",
+            "alternativas": [
+              "4 vezes maior",
+              "Igual",
+              "2 vezes maior",
+              "Pela metade"
+            ],
+            "correta": 0,
+            "explicacao": "A energia cresce com a velocidade multiplicada por ela mesma: 2 × 2 = 4.",
+            "dica": "Releia o aprofundamento: a energia cresce com a velocidade multiplicada por ela mesma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a atitude de cidadão no ônibus?",
+            "alternativas": [
+              "Ouvir música alta sem fone",
+              "Colocar a mochila no banco ao lado com gente em pé",
+              "Ficar parado na porta",
+              "Ceder o assento preferencial e deixar quem vai descer sair antes de entrar"
+            ],
+            "correta": 3,
+            "explicacao": "Respeitar a prioridade e a vez de cada um torna a viagem melhor para todos.",
+            "dica": "Pense na atitude que respeita os outros passageiros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o jeito mais seguro de ir de bicicleta para a escola?",
+            "alternativas": [
+              "Na contramão, pela calçada cheia",
+              "Pela ciclovia ou no mesmo sentido dos carros, com capacete e sinalizando com o braço",
+              "Com fone de ouvido alto",
+              "À noite, sem luz"
+            ],
+            "correta": 1,
+            "explicacao": "Junta as três regras: sentido certo, proteção e sinalização.",
+            "dica": "Procure a opção que junta sentido certo, proteção e sinalização."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem, do mais lento para o mais rápido:",
+            "itens": [
+              "Pessoa andando (cerca de 1,4 metro por segundo)",
+              "Bicicleta a 18 km/h",
+              "Ônibus a 36 km/h",
+              "Carro a 72 km/h"
+            ],
+            "explicacao": "Dividindo por 3,6: bicicleta 5 m/s, ônibus 10 m/s e carro 20 m/s. A pessoa anda 1,4 m/s.",
+            "dica": "Divida cada km/h por 3,6 para comparar tudo em metros por segundo."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Alunos pedem faixa de pedestres em frente à escola",
+    "texto": "Alunos pedem faixa de pedestres em frente à escola\n\nAbaixo-assinado com 600 nomes foi entregue à subprefeitura\n\nAlunos da Escola Estadual Vila Nova, em Guaianases, na zona leste de São Paulo, entregaram na terça-feira um abaixo-assinado com 600 assinaturas pedindo uma faixa de pedestres e um semáforo na rua em frente ao portão. Segundo os estudantes, os carros passam em alta velocidade no horário de entrada e saída.\n\nA ideia surgiu numa aula sobre cidadania. A turma do 7º ano contou os veículos que passavam pela rua durante 15 minutos, às 7h, e chegou a 180, o que dá 12 por minuto.\n\n\"A gente atravessa correndo, no meio dos carros. Um dia alguém vai se machucar\", afirmou Pedro Lima, de 12 anos, um dos organizadores.\n\nA diretora da escola, Márcia Alves, apoiou a iniciativa e acompanhou a entrega do documento.\n\nDe acordo com a subprefeitura, o pedido será analisado por técnicos de trânsito em até 30 dias. Os alunos prometem acompanhar a resposta."
+  },
+  "escrita": {
+    "proposta": "Escreva uma notícia de 6 a 10 linhas sobre algo que aconteceu na sua escola, rua ou bairro (pode ser inventado, mas com cara de real). Comece com uma manchete e faça um lide que responda o quê, quem, quando, onde e por quê. Inclua uma fala entre aspas e a fonte da informação."
+  }
+}

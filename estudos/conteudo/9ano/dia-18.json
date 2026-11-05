@@ -1,0 +1,904 @@
+{
+  "dia": 18,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "O universo: galáxias, estrelas e distâncias gigantes",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "O universo é tudo o que existe: galáxias, estrelas, planetas, gás, poeira e o espaço entre eles. Pela teoria do Big Bang, ele começou a se expandir há cerca de 13,8 bilhões de anos e continua se expandindo.",
+          "Vivemos na Via Láctea, uma galáxia em espiral com centenas de bilhões de estrelas. Uma delas é o Sol, uma estrela de tamanho médio. A luz dele leva cerca de 8 minutos para chegar à Terra.",
+          "O Sistema Solar tem o Sol e 8 planetas: Mercúrio, Vênus, Terra e Marte (rochosos), Júpiter e Saturno (gigantes gasosos), Urano e Netuno (gigantes de gelo). Plutão foi reclassificado como planeta-anão em 2006.",
+          "As distâncias são tão grandes que usamos o ano-luz: a distância que a luz percorre em um ano, cerca de 9,5 trilhões de km. A luz anda a uns 300 mil km por segundo. A estrela mais próxima depois do Sol, Proxima Centauri, fica a cerca de 4,2 anos-luz.",
+          "Estrelas nascem em nuvens de gás (nebulosas) e brilham porque fundem hidrogênio em hélio no seu centro. O fim depende da massa: estrelas médias, como o Sol, viram anãs brancas; as muito grandes explodem em supernova e podem virar estrela de nêutrons ou buraco negro."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A Lua está a cerca de 384 mil km. Quanto tempo a luz dela leva para chegar até nós?",
+            "resolucao": "Tempo = distância ÷ velocidade = 384.000 ÷ 300.000 ≈ 1,3 segundo."
+          },
+          {
+            "enunciado": "O Sol está a cerca de 150 milhões de km. Confirme os 8 minutos.",
+            "resolucao": "150.000.000 ÷ 300.000 = 500 segundos. 500 ÷ 60 ≈ 8 minutos e 20 segundos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Olhar para o céu é olhar para o passado. Se uma estrela está a 100 anos-luz, a luz que vemos hoje saiu de lá há 100 anos. Ela pode até já ter mudado ou deixado de existir.",
+        "Em notação científica, 1 ano-luz ≈ 9,5 × 10¹² km (300.000 km/s vezes os cerca de 31,5 milhões de segundos de um ano). A Proxima Centauri, a 4,2 anos-luz, fica a uns 4 × 10¹³ km.",
+        "A prova da expansão do universo: as galáxias distantes estão se afastando de nós, e quanto mais longe estão, mais rápido se afastam. A luz delas chega \"esticada\", puxada para o vermelho."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a galáxia onde vivemos?",
+            "alternativas": [
+              "Andrômeda",
+              "Via Láctea",
+              "Sistema Solar",
+              "Nebulosa"
+            ],
+            "correta": 1,
+            "explicacao": "Moramos na Via Láctea, uma galáxia em espiral.",
+            "dica": "O nome lembra um caminho de leite no céu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O Sol é:",
+            "alternativas": [
+              "um planeta",
+              "uma galáxia",
+              "uma estrela",
+              "um satélite"
+            ],
+            "correta": 2,
+            "explicacao": "O Sol produz a própria luz: é uma estrela de tamanho médio.",
+            "dica": "Ele tem luz própria, diferente dos planetas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos planetas tem o Sistema Solar?",
+            "alternativas": [
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "São 8: Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno.",
+            "dica": "Plutão não conta mais como planeta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O ano-luz mede:",
+            "alternativas": [
+              "distância",
+              "tempo",
+              "velocidade",
+              "peso"
+            ],
+            "correta": 0,
+            "explicacao": "Apesar do nome, é a distância que a luz percorre em um ano.",
+            "dica": "O nome engana: pense no que a luz percorre."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual planeta fica mais perto do Sol?",
+            "alternativas": [
+              "Vênus",
+              "Terra",
+              "Marte",
+              "Mercúrio"
+            ],
+            "correta": 3,
+            "explicacao": "Mercúrio é o primeiro planeta a partir do Sol.",
+            "dica": "Lembre a lista dos planetas começando pelo Sol."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que diz a teoria do Big Bang?",
+            "alternativas": [
+              "O universo começou a se expandir há cerca de 13,8 bilhões de anos",
+              "A Terra é o centro do universo",
+              "O universo sempre foi do mesmo tamanho",
+              "O Sol explodiu e formou os planetas"
+            ],
+            "correta": 0,
+            "explicacao": "O universo surgiu muito quente e denso e segue se expandindo.",
+            "dica": "Pense em algo que começou pequeno e não parou de crescer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são planetas gigantes gasosos?",
+            "alternativas": [
+              "Mercúrio e Vênus",
+              "Terra e Marte",
+              "Júpiter e Saturno",
+              "Plutão e a Lua"
+            ],
+            "correta": 2,
+            "explicacao": "Júpiter e Saturno são enormes e feitos principalmente de gás.",
+            "dica": "Os gasosos ficam depois de Marte e são os maiores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Hoje, Plutão é classificado como:",
+            "alternativas": [
+              "o nono planeta",
+              "um planeta-anão",
+              "uma estrela",
+              "um cometa"
+            ],
+            "correta": 1,
+            "explicacao": "Desde 2006, Plutão é planeta-anão.",
+            "dica": "Ele perdeu o posto de planeta, mas ganhou uma categoria nova."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto tempo a luz do Sol leva para chegar à Terra?",
+            "alternativas": [
+              "1 segundo",
+              "1 dia",
+              "1 ano",
+              "cerca de 8 minutos"
+            ],
+            "correta": 3,
+            "explicacao": "150 milhões de km ÷ 300 mil km/s = 500 s, uns 8 minutos.",
+            "dica": "Divida 150 milhões de km pela velocidade da luz."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os planetas em ordem, do mais perto para o mais longe do Sol:",
+            "itens": [
+              "Mercúrio",
+              "Vênus",
+              "Terra",
+              "Marte",
+              "Júpiter",
+              "Saturno"
+            ],
+            "explicacao": "Primeiro os 4 rochosos, depois os gigantes gasosos.",
+            "dica": "A Terra é o terceiro; os gigantes vêm depois de Marte."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A Lua está a cerca de 384 mil km. Quanto tempo a luz dela leva até a Terra?",
+            "alternativas": [
+              "cerca de 8 minutos",
+              "cerca de 13 segundos",
+              "cerca de 1 hora",
+              "cerca de 1,3 segundo"
+            ],
+            "correta": 3,
+            "explicacao": "384.000 ÷ 300.000 = 1,28 segundo.",
+            "dica": "Divida a distância pela velocidade da luz em km por segundo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A Proxima Centauri está a 4,2 anos-luz. A luz que vemos dela hoje:",
+            "alternativas": [
+              "saiu de lá agora",
+              "saiu de lá há cerca de 4,2 anos",
+              "levou 4,2 dias",
+              "nunca chega aqui"
+            ],
+            "correta": 1,
+            "explicacao": "Um ano-luz é o quanto a luz anda em um ano; 4,2 anos-luz levam 4,2 anos.",
+            "dica": "Use a definição de ano-luz ao contrário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como o Sol deve terminar, daqui a bilhões de anos?",
+            "alternativas": [
+              "buraco negro",
+              "supernova",
+              "anã branca",
+              "estrela de nêutrons"
+            ],
+            "correta": 2,
+            "explicacao": "Estrelas médias, como o Sol, terminam como anãs brancas.",
+            "dica": "O destino depende da massa, e o Sol é uma estrela média."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sequência vai do menor para o maior?",
+            "alternativas": [
+              "Terra, Sol, Via Láctea, universo",
+              "Sol, Terra, universo, Via Láctea",
+              "Via Láctea, Sol, Terra, universo",
+              "Terra, Via Láctea, Sol, universo"
+            ],
+            "correta": 0,
+            "explicacao": "Planeta < estrela < galáxia < universo.",
+            "dica": "O planeta gira em volta da estrela, e a estrela está dentro da galáxia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "De onde vem a energia que faz as estrelas brilharem?",
+            "alternativas": [
+              "da queima de carvão",
+              "da fusão de hidrogênio em hélio",
+              "do reflexo da luz do Sol",
+              "de eletricidade"
+            ],
+            "correta": 1,
+            "explicacao": "No centro da estrela, núcleos de hidrogênio se fundem e formam hélio, liberando energia.",
+            "dica": "É uma reação nuclear no centro da estrela."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando 1 ano-luz ≈ 9,5 × 10¹² km, a Proxima Centauri (4,2 anos-luz) fica a aproximadamente:",
+            "alternativas": [
+              "4 × 10¹² km",
+              "4 × 10¹³ km",
+              "4 × 10¹⁶ km",
+              "4,2 × 10⁶ km"
+            ],
+            "correta": 1,
+            "explicacao": "4,2 × 9,5 ≈ 40 → 40 × 10¹² = 4 × 10¹³ km.",
+            "dica": "Multiplique 4,2 por 9,5 e ajuste a potência de 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Hoje, astrônomos viram explodir uma estrela que está a 500 anos-luz. Quando a explosão aconteceu?",
+            "alternativas": [
+              "hoje mesmo",
+              "daqui a 500 anos",
+              "há cerca de 500 anos",
+              "há 5 anos"
+            ],
+            "correta": 2,
+            "explicacao": "A luz levou 500 anos para chegar; vemos o passado.",
+            "dica": "Pense em quanto tempo a luz da explosão viajou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que indica que o universo está em expansão?",
+            "alternativas": [
+              "O Sol está ficando maior",
+              "A Lua está mais perto",
+              "As estrelas mudam de cor à noite",
+              "As galáxias distantes se afastam de nós, e as mais longe se afastam mais rápido"
+            ],
+            "correta": 3,
+            "explicacao": "A luz das galáxias distantes chega puxada para o vermelho, sinal de afastamento.",
+            "dica": "Releia no aprofundamento o que acontece com as galáxias distantes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Marte fica, em média, a 228 milhões de km do Sol. Quanto tempo a luz do Sol leva até lá?",
+            "alternativas": [
+              "cerca de 8 minutos",
+              "cerca de 13 minutos",
+              "cerca de 1 hora",
+              "cerca de 76 segundos"
+            ],
+            "correta": 1,
+            "explicacao": "228.000.000 ÷ 300.000 = 760 s. 760 ÷ 60 ≈ 12,7 minutos.",
+            "dica": "Calcule em segundos e depois transforme em minutos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O Sol vai virar buraco negro?",
+            "alternativas": [
+              "Não; ele não tem massa suficiente e deve terminar como anã branca",
+              "Sim, todo astro vira buraco negro",
+              "Sim, daqui a 10 anos",
+              "Não, ele vai virar um planeta"
+            ],
+            "correta": 0,
+            "explicacao": "Buracos negros surgem de estrelas muito maiores que o Sol, depois de uma supernova.",
+            "dica": "O destino de uma estrela depende de quanta massa ela tem."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Golpes e pirâmides financeiras",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Pirâmide financeira promete lucro alto e rápido, mas não tem negócio de verdade por trás. O \"lucro\" dos primeiros vem do dinheiro de quem entra depois. Quando param de entrar pessoas novas, tudo desaba e a maioria perde. No Brasil, é crime.",
+          "Sinais de alerta: rendimento garantido muito alto (\"2% ao dia\", \"dobra em um mês\"), ganho por indicar amigos, pressa para entrar, nenhum produto real e empresa sem autorização do Banco Central ou da CVM.",
+          "Golpes comuns: falso investimento em criptomoeda, \"ganhe dinheiro curtindo vídeos\" (pagam pouco no começo e depois pedem depósito), WhatsApp clonado pedindo Pix, falso funcionário do banco e boleto falso.",
+          "Defesa: desconfie do que é bom demais; nunca passe código de verificação; confirme por outro canal (ligue para a pessoa no número que você já conhece); pesquise o nome da empresa com a palavra \"golpe\".",
+          "Caiu? Avise o banco na hora e peça a devolução do Pix, registre boletim de ocorrência, troque as senhas e avise seus contatos. Vergonha não ajuda: quanto antes, maior a chance de recuperar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Numa pirâmide, cada pessoa precisa trazer 5 novas. Quantas pessoas novas o sistema precisa no 10º nível?",
+            "resolucao": "Nível 1: 1; nível 2: 5; nível 3: 25... nível n: 5 elevado a (n − 1). No 10º: 5⁹ = 1.953.125 pessoas. No 13º seriam 5¹² = 244.140.625, mais que toda a população do Brasil."
+          },
+          {
+            "enunciado": "Uma oferta paga \"só 1% ao dia\". Quanto isso dá em 30 dias, com juros compostos?",
+            "resolucao": "1,01³⁰ ≈ 1,348, ou seja, cerca de 35% ao mês. Aplicações seguras pagam algo perto de 1% ao mês. A diferença absurda é o sinal de golpe."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "No mercado real, risco e retorno andam juntos: quem promete muito retorno precisa assumir muito risco. Por isso, \"retorno alto e garantido, sem risco\" é uma contradição e sinal de fraude.",
+        "Esse esquema também é chamado de Ponzi, por causa de Charles Ponzi, que o aplicou nos Estados Unidos por volta de 1920. Na venda direta legítima, o ganho vem de vender produtos a consumidores reais; na pirâmide, vem de recrutar gente.",
+        "O Pix tem o MED (Mecanismo Especial de Devolução): em caso de golpe, a vítima pode contestar pelo banco em até 80 dias. Pagar os primeiros participantes em dia é a isca da pirâmide, não prova de que ela é segura."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa pirâmide, o dinheiro pago aos primeiros vem de:",
+            "alternativas": [
+              "um negócio que vende muito",
+              "quem entra depois",
+              "o governo",
+              "juros do banco"
+            ],
+            "correta": 1,
+            "explicacao": "Não há negócio real; o dinheiro dos novos paga os antigos.",
+            "dica": "Pense em de onde sai o dinheiro quando não existe produto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um sinal de golpe?",
+            "alternativas": [
+              "banco pedindo para ir à agência",
+              "nota fiscal da compra",
+              "lucro garantido de 50% em uma semana",
+              "preço igual ao de outras lojas"
+            ],
+            "correta": 2,
+            "explicacao": "Promessa de lucro alto e garantido é o principal sinal de golpe.",
+            "dica": "Desconfie do que é bom demais para ser verdade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém pede o código de 6 dígitos que chegou por SMS. Você:",
+            "alternativas": [
+              "passa o código",
+              "manda print do SMS",
+              "passa só metade",
+              "não passa para ninguém"
+            ],
+            "correta": 3,
+            "explicacao": "O código serve para entrar na sua conta; quem pede quer roubá-la.",
+            "dica": "Esse código abre sua conta. Quem deveria tê-lo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Brasil, pirâmide financeira é:",
+            "alternativas": [
+              "crime",
+              "investimento seguro",
+              "obrigatória",
+              "um tipo de poupança"
+            ],
+            "correta": 0,
+            "explicacao": "É crime contra a economia popular.",
+            "dica": "A lição diz o que ela é perante a lei."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caiu num golpe de Pix. O primeiro passo é:",
+            "alternativas": [
+              "esperar uma semana",
+              "avisar o banco na hora",
+              "apagar o aplicativo",
+              "fazer outro Pix"
+            ],
+            "correta": 1,
+            "explicacao": "Quanto antes o banco souber, maior a chance de bloquear e devolver o dinheiro.",
+            "dica": "Tempo é tudo para recuperar o dinheiro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ganhe R$ 300 por dia curtindo vídeos. Para liberar seus ganhos, deposite R$ 200.\" Isso é:",
+            "alternativas": [
+              "uma vaga de emprego séria",
+              "golpe: pagam pouco no começo e depois pedem depósito",
+              "um investimento do Tesouro",
+              "um sorteio legal"
+            ],
+            "correta": 1,
+            "explicacao": "Trabalho sério não cobra para você receber. É o golpe da tarefa.",
+            "dica": "Um emprego de verdade pede dinheiro para pagar você?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Chega mensagem do \"seu filho\", com número novo, pedindo Pix urgente. O certo é:",
+            "alternativas": [
+              "mandar o Pix rápido",
+              "mandar só metade",
+              "ligar para o número antigo e conhecido para confirmar",
+              "pedir o CPF da pessoa"
+            ],
+            "correta": 2,
+            "explicacao": "Confirmar por outro canal desmonta o golpe do WhatsApp clonado.",
+            "dica": "Use um canal que você já sabe que é verdadeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como saber se uma empresa pode oferecer investimentos?",
+            "alternativas": [
+              "Consultando se é autorizada pelo Banco Central ou pela CVM",
+              "Contando os seguidores dela",
+              "Vendo se o site é bonito",
+              "Perguntando para quem já entrou"
+            ],
+            "correta": 0,
+            "explicacao": "Seguidores e site bonito se compram; autorização oficial, não.",
+            "dica": "Procure um órgão oficial que fiscaliza o mercado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual a diferença entre venda direta legal e pirâmide?",
+            "alternativas": [
+              "Não há diferença",
+              "A pirâmide vende mais produtos",
+              "Na legal, só ganha quem recruta",
+              "Na legal, o ganho vem de vender produtos a consumidores reais"
+            ],
+            "correta": 3,
+            "explicacao": "Na pirâmide, o ganho vem de recrutar; na venda legítima, da venda de produtos.",
+            "dica": "Pergunte: de onde vem o dinheiro de quem participa?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para checar uma oferta de investimento:",
+            "itens": [
+              "Desconfiar se a promessa é boa demais",
+              "Pesquisar o nome da empresa com a palavra golpe",
+              "Consultar se ela é autorizada pelo Banco Central ou pela CVM",
+              "Só então decidir, sem pressa"
+            ],
+            "explicacao": "Primeiro o alerta, depois a pesquisa, a consulta oficial e, por fim, a decisão sem pressão.",
+            "dica": "A decisão vem por último; a desconfiança vem primeiro."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa pirâmide em que cada pessoa traz 5 novas, quantas pessoas novas são necessárias no 4º nível?",
+            "alternativas": [
+              "20",
+              "625",
+              "25",
+              "125"
+            ],
+            "correta": 3,
+            "explicacao": "1, 5, 25, 125: cada nível multiplica por 5.",
+            "dica": "Multiplique por 5 a cada nível, começando de 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma oferta paga 1% ao dia, com juros compostos. Em 30 dias, isso equivale a:",
+            "alternativas": [
+              "30% ao mês",
+              "cerca de 35% ao mês",
+              "1% ao mês",
+              "3% ao mês"
+            ],
+            "correta": 1,
+            "explicacao": "1,01³⁰ ≈ 1,348, cerca de 35%. Somar 30 vezes 1% esquece os juros sobre juros.",
+            "dica": "Lembre que juros compostos rendem um pouco mais que a soma simples."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Carla entrou numa oferta com R$ 1.000 e recebeu R$ 100 de \"lucro\" no 1º mês. Isso prova que é seguro?",
+            "alternativas": [
+              "Sim, ela recebeu",
+              "Sim, se o valor vier por Pix",
+              "Não; pagar os primeiros é justamente a isca da pirâmide",
+              "Não, porque R$ 100 é pouco"
+            ],
+            "correta": 2,
+            "explicacao": "O dinheiro de quem entra depois paga os primeiros para atrair mais gente.",
+            "dica": "Releia no aprofundamento qual é a isca da pirâmide."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um \"funcionário do banco\" liga dizendo que houve compra suspeita e pede que você transfira o saldo para uma \"conta segura\". O certo é:",
+            "alternativas": [
+              "Desligar e ligar para o número oficial que está no cartão",
+              "Transferir rápido para proteger o dinheiro",
+              "Passar a senha para ele cancelar a compra",
+              "Transferir só metade"
+            ],
+            "correta": 0,
+            "explicacao": "Banco nunca pede transferência para conta segura. Ligar para o número oficial confirma a verdade.",
+            "dica": "Use um canal que você mesmo procurou, não o que ligou para você."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pelo MED do Pix, em até quanto tempo a vítima de golpe pode contestar?",
+            "alternativas": [
+              "24 horas",
+              "7 dias",
+              "80 dias",
+              "1 ano"
+            ],
+            "correta": 2,
+            "explicacao": "O prazo é de até 80 dias, mas quanto antes, melhor.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa pirâmide em que cada pessoa traz 5 novas, em qual nível o número de pessoas novas passa a população do Brasil (cerca de 213 milhões)?",
+            "alternativas": [
+              "no 8º nível",
+              "no 13º nível",
+              "no 50º nível",
+              "nunca passa"
+            ],
+            "correta": 1,
+            "explicacao": "Nível n precisa de 5 elevado a (n − 1). 12º: 5¹¹ ≈ 48,8 milhões. 13º: 5¹² ≈ 244 milhões, mais que o Brasil inteiro.",
+            "dica": "Calcule as potências de 5 até passar de 213 milhões."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz uma pirâmide desabar?",
+            "alternativas": [
+              "O governo pagar os participantes",
+              "Os produtos acabarem no estoque",
+              "O lucro ficar alto demais",
+              "A entrada de pessoas novas diminuir"
+            ],
+            "correta": 3,
+            "explicacao": "Sem gente nova, não há dinheiro para pagar os antigos.",
+            "dica": "De onde vem o dinheiro que paga os participantes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem costuma perder mais numa pirâmide?",
+            "alternativas": [
+              "Os que entram por último",
+              "Os criadores",
+              "Os primeiros a entrar",
+              "Ninguém perde"
+            ],
+            "correta": 0,
+            "explicacao": "Quem entra no fim paga, mas não sobra ninguém depois para trazer dinheiro.",
+            "dica": "Pense em quem não terá ninguém abaixo dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma oferta promete 5% ao mês garantidos. Em 12 meses, com juros compostos, isso daria cerca de:",
+            "alternativas": [
+              "60%",
+              "5%",
+              "80%",
+              "50%"
+            ],
+            "correta": 2,
+            "explicacao": "1,05¹² ≈ 1,796, cerca de 80% ao ano. Nenhum investimento sério garante isso sem risco.",
+            "dica": "Multiplique o fator 1,05 doze vezes e não apenas some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"retorno alto e garantido, sem risco\" é sinal de golpe?",
+            "alternativas": [
+              "Porque o governo proíbe o lucro",
+              "Porque no mercado real retorno maior vem com risco maior",
+              "Porque todo investimento perde dinheiro",
+              "Porque bancos não pagam juros"
+            ],
+            "correta": 1,
+            "explicacao": "Risco e retorno andam juntos; prometer os dois lados ao mesmo tempo é contradição.",
+            "dica": "Releia a relação entre risco e retorno no aprofundamento."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Direitos autorais e conteúdo responsável",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Quem cria uma obra (texto, música, foto, desenho, vídeo) é o autor e tem direitos autorais sobre ela desde o momento em que cria, sem precisar registrar.",
+          "Achar algo na internet não quer dizer que é livre. Usar foto, música ou vídeo de outra pessoa sem autorização pode fazer seu conteúdo ser removido, sua conta ser bloqueada e até gerar processo.",
+          "Jeitos certos de usar: pedir autorização; usar bancos de imagens e músicas livres; usar obras com licença Creative Commons, respeitando as condições; ou obras em domínio público (no Brasil, 70 anos após a morte do autor).",
+          "Dar crédito é educado, mas não substitui a autorização quando ela é necessária. Citar um trecho curto, com a fonte, para estudar, comentar ou criticar, é permitido. Copiar e dizer que é seu é plágio, inclusive no trabalho da escola.",
+          "Conteúdo responsável vai além da lei: não poste foto de outras pessoas sem permissão (direito de imagem) e, antes de publicar, pergunte: é verdade? É meu ou tenho permissão? Pode machucar alguém?"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Gabi quer usar uma foto que achou num buscador de imagens no cartaz da feira de ciências. O que fazer?",
+            "resolucao": "Descobrir o autor e a licença. Se for Creative Commons, seguir as condições e dar crédito; se não houver licença, pedir autorização ou trocar por uma imagem de banco livre."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Licenças Creative Commons mais comuns: CC BY (pode usar dando crédito), BY-NC (só uso não comercial), BY-ND (sem alterar a obra) e BY-SA (se alterar, compartilhar com a mesma licença). As condições se somam: BY-NC-ND exige crédito, proíbe uso comercial e proíbe alterar.",
+        "O domínio público começa em 1º de janeiro do ano seguinte aos 70 anos da morte. Autor que morreu em 1950: obra livre a partir de 1º/1/2021. A lei protege a forma de expressar, não a ideia: você pode escrever uma história sobre escola de magia, mas não copiar personagens e trechos de outra.",
+        "Paródia é permitida quando cria algo novo e não desmoraliza a obra original. Não existe regra de \"até 10 segundos de música está liberado\": isso é mito. Texto feito por inteligência artificial e entregue como seu, quando a escola pede autoria própria, também é desonestidade."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem tem os direitos autorais de uma foto?",
+            "alternativas": [
+              "quem curtiu a foto",
+              "quem tirou a foto",
+              "o aplicativo",
+              "qualquer pessoa"
+            ],
+            "correta": 1,
+            "explicacao": "O autor é quem criou a obra, ou seja, quem fotografou.",
+            "dica": "Pense em quem criou a imagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "É preciso registrar uma obra para ter direito autoral?",
+            "alternativas": [
+              "Não, o direito nasce com a criação",
+              "Sim, sempre em cartório",
+              "Só se for música",
+              "Só se o autor for famoso"
+            ],
+            "correta": 0,
+            "explicacao": "O direito existe desde que a obra é criada.",
+            "dica": "A lição diz quando o direito começa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é plágio?",
+            "alternativas": [
+              "citar a fonte de um texto",
+              "pedir autorização ao autor",
+              "copiar o trabalho de outro e dizer que é seu",
+              "usar uma imagem de domínio público"
+            ],
+            "correta": 2,
+            "explicacao": "Plágio é apresentar como seu o que outra pessoa criou.",
+            "dica": "Envolve copiar e mentir sobre quem fez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Postar a foto de um colega sem a permissão dele pode:",
+            "alternativas": [
+              "deixar o colega famoso, então tudo bem",
+              "melhorar a amizade",
+              "não ter problema nenhum",
+              "ferir o direito de imagem dele"
+            ],
+            "correta": 3,
+            "explicacao": "Cada pessoa decide sobre a própria imagem.",
+            "dica": "De quem é o rosto que aparece na foto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pergunta fazer antes de postar?",
+            "alternativas": [
+              "É verdade, é meu e não machuca ninguém?",
+              "Vai dar muitas curtidas?",
+              "Tem um filtro bonito?",
+              "Está na moda?"
+            ],
+            "correta": 0,
+            "explicacao": "Verdade, autoria e respeito vêm antes de curtidas.",
+            "dica": "Pense em verdade, permissão e respeito."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Thiago pôs uma música famosa, sem autorização, no vídeo dele. O que pode acontecer?",
+            "alternativas": [
+              "Nada, a música é famosa",
+              "O vídeo pode ser removido ou silenciado e a conta advertida",
+              "Ele ganha os direitos da música",
+              "O cantor paga Thiago"
+            ],
+            "correta": 1,
+            "explicacao": "As plataformas detectam músicas protegidas e removem ou silenciam o vídeo.",
+            "dica": "A música tem dono, mesmo sendo famosa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dar crédito ao autor resolve sempre?",
+            "alternativas": [
+              "Sim, crédito libera qualquer uso",
+              "Sim, se for para a escola",
+              "Não; o crédito não substitui a autorização quando ela é necessária",
+              "Não, nunca se deve dar crédito"
+            ],
+            "correta": 2,
+            "explicacao": "Crédito é obrigatório em muitas licenças, mas sozinho não dá permissão.",
+            "dica": "Uma coisa é reconhecer o autor; outra é ter a permissão dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Brasil, quando uma obra entra em domínio público?",
+            "alternativas": [
+              "10 anos depois de publicada",
+              "quando vai para a internet",
+              "nunca",
+              "70 anos após a morte do autor"
+            ],
+            "correta": 3,
+            "explicacao": "Passado esse prazo, todos podem usar a obra livremente.",
+            "dica": "O prazo conta a partir da morte do autor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num trabalho escolar, copiar duas linhas de um livro, entre aspas e com a fonte, é:",
+            "alternativas": [
+              "citação permitida",
+              "plágio",
+              "crime",
+              "proibido sempre"
+            ],
+            "correta": 0,
+            "explicacao": "Trecho curto, com fonte, para estudar ou comentar, é citação.",
+            "dica": "Aspas e fonte mostram que o texto é de outra pessoa."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para usar a imagem de outra pessoa num cartaz:",
+            "itens": [
+              "Descobrir quem é o autor",
+              "Ver a licença ou pedir autorização",
+              "Usar respeitando as condições",
+              "Colocar o crédito no cartaz"
+            ],
+            "explicacao": "Primeiro saber de quem é, depois ter a permissão, usar certo e dar crédito.",
+            "dica": "Não dá para pedir permissão sem saber quem é o dono."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um autor morreu em 1950. A obra dele entrou em domínio público em:",
+            "alternativas": [
+              "1950",
+              "1º de janeiro de 2021",
+              "2020",
+              "2050"
+            ],
+            "correta": 1,
+            "explicacao": "Conta-se a partir de 1º de janeiro de 1951: 1951 + 70 = 2021.",
+            "dica": "O prazo começa no ano seguinte à morte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma foto tem licença CC BY-NC. Lívia quer usá-la na propaganda da loja dela. Ela:",
+            "alternativas": [
+              "pode, sem condições",
+              "pode, desde que dê crédito",
+              "não pode, pois NC proíbe uso comercial",
+              "pode, se mudar as cores"
+            ],
+            "correta": 2,
+            "explicacao": "NC significa não comercial; propaganda de loja é uso comercial.",
+            "dica": "Descubra o que significa a sigla NC."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio quer escrever uma história sobre uma escola de magia. Ele pode?",
+            "alternativas": [
+              "Sim, a ideia não é protegida, desde que não copie personagens e trechos",
+              "Não, essa ideia já tem dono",
+              "Só se pagar a todos os autores do tema",
+              "Só se usar os mesmos nomes"
+            ],
+            "correta": 0,
+            "explicacao": "A lei protege a forma de expressão, não a ideia.",
+            "dica": "Releia o que a lei protege: a ideia ou a forma?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma paródia de música é permitida quando:",
+            "alternativas": [
+              "copia a letra inteira igualzinha",
+              "é usada para humilhar o autor",
+              "é vendida como se fosse a original",
+              "cria algo novo e não desmoraliza a obra original"
+            ],
+            "correta": 3,
+            "explicacao": "Paródia legítima transforma a obra, não a reproduz nem a desmoraliza.",
+            "dica": "Pense em transformação, não em cópia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluno filmou um colega caindo no pátio e quer postar \"só de zoeira\". O certo é:",
+            "alternativas": [
+              "postar, se ficar engraçado",
+              "não postar: fere o direito de imagem e pode ser cyberbullying",
+              "postar sem o rosto e com música famosa",
+              "postar e apagar depois de um dia"
+            ],
+            "correta": 1,
+            "explicacao": "Expor alguém sem permissão, num momento constrangedor, machuca e pode ter consequências.",
+            "dica": "Como você se sentiria no lugar do colega?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma ilustração tem licença CC BY-ND. Qual uso está certo?",
+            "alternativas": [
+              "Recortar e mudar as cores para meu logotipo",
+              "Usar sem crédito",
+              "Vender como se fosse minha",
+              "Usar inteira, sem alterar, com crédito ao autor"
+            ],
+            "correta": 3,
+            "explicacao": "BY exige crédito e ND proíbe alterar a obra.",
+            "dica": "Descubra o que pedem as letras BY e ND."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um autor morreu em 10 de dezembro de 1955. Quando a obra dele fica livre?",
+            "alternativas": [
+              "10/12/2025",
+              "1º/1/2026",
+              "1º/1/2025",
+              "10/12/2026"
+            ],
+            "correta": 1,
+            "explicacao": "Começa a contar em 1º/1/1956: mais 70 anos dá 1º/1/2026.",
+            "dica": "O prazo não conta do dia da morte, mas do começo do ano seguinte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A professora pediu uma redação de autoria própria. Bruno entregou um texto gerado por IA como se fosse dele. Isso é:",
+            "alternativas": [
+              "desonestidade, pois ele apresentou como seu algo que não escreveu",
+              "permitido, pois a IA não tem direitos",
+              "correto, se o texto tiver acentos certos",
+              "plágio só se a IA reclamar"
+            ],
+            "correta": 0,
+            "explicacao": "O problema é mentir sobre a autoria quando a tarefa pede texto próprio.",
+            "dica": "Pense no que a tarefa pediu e no que ele declarou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Achei no buscador de imagens, então é livre.\" Por que isso está errado?",
+            "alternativas": [
+              "Porque buscador cobra pelas imagens",
+              "Porque a imagem fica com o buscador",
+              "Porque o buscador só mostra a imagem; os direitos continuam com o autor",
+              "Porque só celular pode usar"
+            ],
+            "correta": 2,
+            "explicacao": "Ser fácil de achar não muda quem é o dono da obra.",
+            "dica": "O buscador criou a imagem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rita usou 10 segundos de uma música protegida e escreveu \"créditos ao autor\". O vídeo ainda pode ser removido?",
+            "alternativas": [
+              "Sim; não existe regra de segundos liberados e crédito não é autorização",
+              "Não, até 10 segundos é livre",
+              "Não, porque ela deu crédito",
+              "Só se tiver mais de 1.000 visualizações"
+            ],
+            "correta": 0,
+            "explicacao": "A ideia de \"segundos liberados\" é mito, e o crédito não dá permissão.",
+            "dica": "Releia o mito citado no aprofundamento."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Uma fotografia antiga do céu",
+    "texto": "Numa noite sem nuvens, longe das luzes da cidade, Davi deitou na laje da casa da avó, no interior, e viu um céu que nunca tinha visto. Eram tantas estrelas que pareciam poeira espalhada sobre um pano escuro. Uma faixa clara e embaçada atravessava tudo de um lado a outro.\n\n— É a Via Láctea — disse a avó. — A nossa galáxia vista por dentro.\n\nDavi ficou quieto. Na escola, tinha aprendido que a luz viaja a uns 300 mil quilômetros por segundo, rápida o bastante para dar sete voltas na Terra num piscar de olhos. Mesmo assim, as estrelas estão tão longe que essa luz leva anos, séculos, às vezes milhares de anos para chegar até aqui.\n\nEle fez a conta em voz alta. Se uma estrela está a 300 anos-luz, a luz que entrava no seu olho naquela noite tinha saído de lá quando o Brasil ainda era colônia de Portugal. Ele estava vendo uma fotografia antiga do céu, e não o céu de agora. Algumas daquelas estrelas talvez nem existissem mais.\n\n— Então eu estou olhando para o passado? — perguntou.\n\n— Está — respondeu a avó, que nunca tinha estudado astronomia, mas gostava de ouvir o neto. — E alguém lá longe, se olhar para cá, vai ver a Terra de muito tempo atrás.\n\nDavi pensou que o universo era grande demais para caber na cabeça. Mas também pensou que era incrível que uma pessoa, deitada numa laje, com uma conta simples, conseguisse entender um pedaço dele."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique com suas palavras por que olhar para as estrelas é olhar para o passado. Use pelo menos um número da lição (velocidade da luz, ano-luz ou os 8 minutos do Sol)."
+  }
+}

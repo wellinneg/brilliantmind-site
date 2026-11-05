@@ -1,0 +1,900 @@
+{
+  "dia": 16,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Porcentagem composta e juros compostos",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Quando um preço sofre dois aumentos seguidos, as porcentagens não se somam. O segundo aumento é calculado sobre o preço que já subiu. Por isso, 10% mais 10% não dá 20%.",
+          "O jeito mais rápido é usar o fator: aumento de p% é multiplicar por (1 + p/100); desconto de p% é multiplicar por (1 − p/100). Aumento de 10% → × 1,10. Desconto de 15% → × 0,85.",
+          "Exemplo: R$ 100 com aumento de 10% vira R$ 110. Outro aumento de 10% vira 110 × 1,10 = R$ 121. O aumento total foi de 21%, não 20%.",
+          "Juros compostos funcionam igual: os juros de cada mês entram no saldo e passam a render juros também (juros sobre juros). A fórmula é M = C × (1 + i)ⁿ, em que C é o capital, i a taxa e n o número de períodos.",
+          "Cuidado com a ilusão: subir 20% e depois cair 20% não volta ao preço inicial. 1,20 × 0,80 = 0,96, ou seja, fica 4% mais barato que no começo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Rafaela deixou R$ 2.000 rendendo 2% ao mês, em juros compostos, por 3 meses. Quanto ela terá?",
+            "resolucao": "Fator mensal 1,02. 1,02³ = 1,02 × 1,02 × 1,02 = 1,061208. M = 2.000 × 1,061208 = 2.122,416 ≈ R$ 2.122,42. Em juros simples seriam só R$ 2.120."
+          },
+          {
+            "enunciado": "Um fone de R$ 80 subiu 25% e depois entrou numa promoção de 20%. Qual o preço final?",
+            "resolucao": "80 × 1,25 = 100. Depois 100 × 0,80 = 80. Voltou a R$ 80, porque 1,25 × 0,80 = 1. Coincidência das taxas, não regra!"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Regra do 72: para estimar em quantos períodos um valor dobra em juros compostos, divida 72 pela taxa. A 6% ao ano, dobra em cerca de 72 ÷ 6 = 12 anos (1,06¹² ≈ 2,01). A 8% ao ano, em cerca de 9 anos.",
+        "Taxas não se convertem multiplicando. 1% ao mês não é 12% ao ano: 1,01¹² ≈ 1,1268, ou seja, 12,68% ao ano. Para juntar vários aumentos, multiplique os fatores e subtraia 1: aumentos de 10% e 20% dão 1,10 × 1,20 = 1,32, isto é, 32%.",
+        "Para desfazer um aumento, o desconto precisa ser menor que o aumento. De R$ 40 para R$ 50 subiu 25% (10 sobre 40), mas para voltar de 50 para 40 basta um desconto de 20% (10 sobre 50)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto de R$ 50 teve aumento de 10%. Qual o novo preço?",
+            "alternativas": [
+              "R$ 60",
+              "R$ 55",
+              "R$ 51",
+              "R$ 50,10"
+            ],
+            "correta": 1,
+            "explicacao": "10% de 50 é 5. Então 50 + 5 = R$ 55.",
+            "dica": "Calcule 10% de 50 dividindo por 10 e some ao preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fator representa um aumento de 30%?",
+            "alternativas": [
+              "0,3",
+              "1,03",
+              "1,3",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "Aumento de 30% é 1 + 0,30 = 1,30. O 1,03 seria aumento de só 3%.",
+            "dica": "Some 1 inteiro com a porcentagem escrita em decimal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fator representa um desconto de 15%?",
+            "alternativas": [
+              "0,85",
+              "1,15",
+              "0,15",
+              "0,985"
+            ],
+            "correta": 0,
+            "explicacao": "Desconto de 15% deixa 85% do preço: 1 − 0,15 = 0,85.",
+            "dica": "Se tira 15 de cada 100, quanto sobra de cada 100?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nos juros compostos, os juros de cada mês são calculados sobre:",
+            "alternativas": [
+              "só o valor inicial, sempre",
+              "o valor inicial mais os juros já ganhos",
+              "a metade do valor",
+              "nada, pois não há juros"
+            ],
+            "correta": 1,
+            "explicacao": "É o famoso juros sobre juros: o que rendeu entra no saldo e também rende.",
+            "dica": "Lembre do nome popular: juros sobre..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100 rendendo 10% ao mês em juros compostos. Quanto haverá depois de 2 meses?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 110",
+              "R$ 121",
+              "R$ 200"
+            ],
+            "correta": 2,
+            "explicacao": "1º mês: 100 × 1,10 = 110. 2º mês: 110 × 1,10 = 121.",
+            "dica": "Calcule mês a mês: o segundo mês rende sobre o valor do fim do primeiro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um preço de R$ 200 subiu 10% e, no mês seguinte, mais 10%. Qual o novo preço?",
+            "alternativas": [
+              "R$ 240",
+              "R$ 242",
+              "R$ 220",
+              "R$ 244"
+            ],
+            "correta": 1,
+            "explicacao": "200 × 1,10 = 220; 220 × 1,10 = 242. O erro comum é somar 20% e achar R$ 240.",
+            "dica": "O segundo aumento é calculado sobre o preço já aumentado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 aplicados a 5% ao mês, juros compostos, por 2 meses, viram:",
+            "alternativas": [
+              "R$ 1.100,00",
+              "R$ 1.105,00",
+              "R$ 1.102,50",
+              "R$ 1.050,00"
+            ],
+            "correta": 2,
+            "explicacao": "1,05² = 1,1025. 1.000 × 1,1025 = R$ 1.102,50.",
+            "dica": "Multiplique 1.000 por 1,05 duas vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um tênis de R$ 150 teve desconto de 20% e depois mais 10% sobre o novo preço. Quanto ficou?",
+            "alternativas": [
+              "R$ 108",
+              "R$ 105",
+              "R$ 120",
+              "R$ 112,50"
+            ],
+            "correta": 0,
+            "explicacao": "150 × 0,80 = 120; 120 × 0,90 = 108. Não é desconto de 30% (que daria R$ 105).",
+            "dica": "Aplique um fator de desconto de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um preço sobe 20% e depois cai 20%. Comparado ao preço inicial, ele:",
+            "alternativas": [
+              "volta ao preço inicial",
+              "fica 4% mais barato",
+              "fica 4% mais caro",
+              "fica 40% mais barato"
+            ],
+            "correta": 1,
+            "explicacao": "1,20 × 0,80 = 0,96: sobra 96% do preço, ou seja, 4% mais barato.",
+            "dica": "Multiplique os dois fatores e compare o resultado com 1."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular um montante em juros compostos:",
+            "itens": [
+              "Escrever a taxa como fator (1 + i)",
+              "Elevar o fator ao número de períodos",
+              "Multiplicar o resultado pelo capital",
+              "Arredondar para centavos"
+            ],
+            "explicacao": "Primeiro o fator, depois a potência, depois multiplica pelo capital e só no fim arredonda.",
+            "dica": "Pense na fórmula M = C × (1 + i)ⁿ, começando pelo que está dentro do parêntese."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um salário de R$ 2.000 teve aumento de 5% num ano e de 8% no ano seguinte. Qual o valor final?",
+            "alternativas": [
+              "R$ 2.260",
+              "R$ 2.268",
+              "R$ 2.280",
+              "R$ 2.216"
+            ],
+            "correta": 1,
+            "explicacao": "2.000 × 1,05 = 2.100; 2.100 × 1,08 = 2.268. Somar 13% daria R$ 2.260, que está errado.",
+            "dica": "Use os dois fatores, um depois do outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois aumentos seguidos de 10% e de 20% equivalem a um único aumento de:",
+            "alternativas": [
+              "30%",
+              "31%",
+              "22%",
+              "32%"
+            ],
+            "correta": 3,
+            "explicacao": "1,10 × 1,20 = 1,32. Tirando o 1, sobra 0,32 = 32%.",
+            "dica": "Multiplique os fatores e depois subtraia 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 500 cresce 10% ao mês em juros compostos. Quanto ela vale depois de 3 meses?",
+            "alternativas": [
+              "R$ 665,50",
+              "R$ 650,00",
+              "R$ 655,00",
+              "R$ 660,50"
+            ],
+            "correta": 0,
+            "explicacao": "500 → 550 → 605 → 665,50. Em juros simples seria R$ 650.",
+            "dica": "Faça 3 multiplicações por 1,10, sempre sobre o último valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma ação caiu 50% e depois subiu 50%. Em relação ao início, ela está:",
+            "alternativas": [
+              "igual ao início",
+              "25% mais barata",
+              "50% mais barata",
+              "25% mais cara"
+            ],
+            "correta": 1,
+            "explicacao": "0,50 × 1,50 = 0,75. Sobra 75% do valor: 25% abaixo do início.",
+            "dica": "Parta de R$ 100 e faça as duas contas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto foi de R$ 40 para R$ 50. Que desconto o faria voltar a R$ 40?",
+            "alternativas": [
+              "25%",
+              "10%",
+              "20%",
+              "15%"
+            ],
+            "correta": 2,
+            "explicacao": "A diferença é R$ 10. Sobre R$ 50, 10 é 20%. O aumento foi de 25% porque foi calculado sobre 40.",
+            "dica": "O desconto é calculado sobre o preço novo, não sobre o antigo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela regra do 72, um dinheiro aplicado a 8% ao ano dobra em aproximadamente:",
+            "alternativas": [
+              "8 anos",
+              "9 anos",
+              "12 anos",
+              "72 anos"
+            ],
+            "correta": 1,
+            "explicacao": "72 ÷ 8 = 9 anos. Conferindo: 1,08⁹ ≈ 1,999.",
+            "dica": "Divida 72 pela taxa anual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma taxa de 2% ao mês, em juros compostos, equivale em 2 meses a:",
+            "alternativas": [
+              "4%",
+              "2,04%",
+              "4,4%",
+              "4,04%"
+            ],
+            "correta": 3,
+            "explicacao": "1,02² = 1,0404, ou seja, 4,04%. Os 0,04% extras são os juros sobre juros.",
+            "dica": "Eleve o fator ao quadrado e tire o 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Loja A dá 30% de desconto. Loja B dá 20% e depois mais 10% sobre o novo preço. Qual é melhor para o cliente?",
+            "alternativas": [
+              "As duas dão o mesmo desconto",
+              "A loja B, porque são dois descontos",
+              "A loja A, porque o cliente paga 70% contra 72% na B",
+              "A loja B, porque o cliente paga 68%"
+            ],
+            "correta": 2,
+            "explicacao": "A: fator 0,70. B: 0,80 × 0,90 = 0,72. Na A paga menos. Dois descontos seguidos valem menos que a soma deles.",
+            "dica": "Compare os fatores finais de cada loja; quanto menor, menos o cliente paga."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 a 10% ao ano por 3 anos. Quanto os juros compostos rendem a mais que os juros simples?",
+            "alternativas": [
+              "R$ 31",
+              "R$ 21",
+              "R$ 0",
+              "R$ 33,10"
+            ],
+            "correta": 0,
+            "explicacao": "Compostos: 1.000 × 1,331 = 1.331 (juros de R$ 331). Simples: 3 × 100 = R$ 300. Diferença: R$ 31.",
+            "dica": "Calcule os juros nos dois jeitos e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um preço sobe 10% três meses seguidos. O aumento total foi de:",
+            "alternativas": [
+              "30%",
+              "33,1%",
+              "31,3%",
+              "33%"
+            ],
+            "correta": 1,
+            "explicacao": "1,10³ = 1,331, isto é, 33,1% de aumento.",
+            "dica": "Eleve 1,10 ao cubo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Impostos no dia a dia: o que vem escondido no preço",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Quase tudo que você compra tem imposto embutido no preço. Você não vê na etiqueta, mas paga no caixa. Esses são os impostos indiretos: a loja recebe de você e repassa ao governo.",
+          "Os principais hoje: ICMS (estadual, sobre mercadorias como arroz, roupa e celular), ISS (municipal, sobre serviços como cabeleireiro e oficina), IPI (federal, sobre produtos industrializados) e PIS/Cofins (federais, sobre o faturamento das empresas).",
+          "Há também os impostos diretos, cobrados de quem tem renda ou bens, em guia ou boleto próprio: Imposto de Renda (federal), IPVA (estadual, sobre veículos) e IPTU (municipal, sobre imóveis).",
+          "A nota fiscal ou o cupom precisa mostrar o valor aproximado dos tributos da compra. Pedir a nota garante seus direitos de troca e ajuda a conferir se o imposto pago chega aos cofres públicos.",
+          "A Reforma Tributária está mudando isso: aos poucos, de 2026 a 2033, ICMS, ISS, PIS e Cofins serão trocados pelo IBS (de estados e municípios) e pela CBS (federal), com regras mais simples."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um cupom de mercado de R$ 100 mostra: \"Tributos aproximados: R$ 32\". Quanto do preço é imposto?",
+            "resolucao": "32 ÷ 100 = 0,32 = 32%. De cada R$ 100, cerca de R$ 32 vão para o governo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Imposto sobre consumo é regressivo: pesa mais para quem ganha menos. Quem ganha R$ 2.000 e gasta tudo em compras com 30% de imposto paga R$ 600, ou 30% da renda. Quem ganha R$ 20.000 e consome R$ 8.000 paga R$ 2.400, que são só 12% da renda.",
+        "Atenção à conta do imposto \"por dentro\": se o imposto é 30% do preço final e o produto sem imposto custaria R$ 70, o preço final é R$ 100 (pois 70 é 70% de 100), e não 70 × 1,30 = R$ 91.",
+        "Na Reforma Tributária, a ideia é o imposto não virar \"bola de neve\": cada empresa da cadeia desconta o que já foi pago antes, e o cupom passa a mostrar de forma mais clara quanto foi de IBS e de CBS."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual imposto estadual é cobrado sobre mercadorias como arroz e roupa?",
+            "alternativas": [
+              "ISS",
+              "ICMS",
+              "IPTU",
+              "IPVA"
+            ],
+            "correta": 1,
+            "explicacao": "ICMS é o imposto estadual sobre circulação de mercadorias.",
+            "dica": "O nome dele tem \"circulação de mercadorias\" escondido na sigla."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O IPVA é cobrado sobre:",
+            "alternativas": [
+              "o salário",
+              "a casa",
+              "o veículo",
+              "o corte de cabelo"
+            ],
+            "correta": 2,
+            "explicacao": "IPVA = Imposto sobre a Propriedade de Veículos Automotores.",
+            "dica": "O \"V\" da sigla dá a pista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual imposto municipal é cobrado sobre serviços, como cabeleireiro e oficina?",
+            "alternativas": [
+              "ISS",
+              "ICMS",
+              "IPVA",
+              "IPI"
+            ],
+            "correta": 0,
+            "explicacao": "ISS = Imposto Sobre Serviços, cobrado pela prefeitura.",
+            "dica": "Procure a sigla que tem o \"S\" de serviço duas vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde você vê o valor aproximado dos impostos de uma compra?",
+            "alternativas": [
+              "na vitrine da loja",
+              "no extrato do Pix",
+              "no rótulo da embalagem",
+              "na nota fiscal ou no cupom"
+            ],
+            "correta": 3,
+            "explicacao": "A nota ou o cupom traz a linha com os tributos aproximados.",
+            "dica": "É o papel que você recebe no caixa depois de pagar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem paga o imposto embutido no preço do arroz?",
+            "alternativas": [
+              "só o dono do mercado",
+              "o consumidor que compra",
+              "ninguém",
+              "só quem tem carro"
+            ],
+            "correta": 1,
+            "explicacao": "O imposto está dentro do preço; quem compra paga e a loja repassa ao governo.",
+            "dica": "Pense em quem entrega o dinheiro no caixa."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um imposto direto, pago por quem tem o bem?",
+            "alternativas": [
+              "ICMS do arroz",
+              "ISS do corte de cabelo",
+              "IPTU da casa",
+              "IPI da geladeira"
+            ],
+            "correta": 2,
+            "explicacao": "IPTU é cobrado do dono do imóvel, em carnê próprio. Os outros vêm embutidos no preço.",
+            "dica": "O direto chega em boleto próprio para quem tem renda ou bem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A nota de uma compra de R$ 80 mostra tributos aproximados de R$ 20. Qual a porcentagem?",
+            "alternativas": [
+              "20%",
+              "25%",
+              "40%",
+              "80%"
+            ],
+            "correta": 1,
+            "explicacao": "20 ÷ 80 = 0,25 = 25%.",
+            "dica": "Divida o imposto pelo valor total da compra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela Reforma Tributária, IBS e CBS vão substituir:",
+            "alternativas": [
+              "IPTU e IPVA",
+              "Imposto de Renda",
+              "ICMS, ISS, PIS e Cofins",
+              "só o IPVA"
+            ],
+            "correta": 2,
+            "explicacao": "IBS fica no lugar de ICMS e ISS; CBS no lugar de PIS e Cofins.",
+            "dica": "A reforma mexe nos impostos sobre consumo, não nos de renda ou de bens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que vale a pena pedir nota fiscal?",
+            "alternativas": [
+              "Garante seus direitos de troca e ajuda a fiscalizar se o imposto chega ao governo",
+              "Deixa o produto mais barato na hora",
+              "É obrigação só de empresas",
+              "Serve para não pagar ICMS"
+            ],
+            "correta": 0,
+            "explicacao": "A nota é a prova da compra (troca, garantia) e registra o imposto que você pagou.",
+            "dica": "Pense em garantia, troca e em quem confere o dinheiro público."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o caminho do imposto embutido:",
+            "itens": [
+              "Você paga o preço com imposto embutido",
+              "A loja recolhe o imposto ao governo",
+              "O governo recebe a arrecadação",
+              "O dinheiro vira escola, hospital e transporte"
+            ],
+            "explicacao": "O imposto sai do seu bolso, passa pela loja, chega ao governo e deve voltar em serviços públicos.",
+            "dica": "Comece pelo caixa da loja e termine no serviço público."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma camiseta de R$ 50 tem 35% do preço em tributos. Quanto é imposto?",
+            "alternativas": [
+              "R$ 17,50",
+              "R$ 15,00",
+              "R$ 35,00",
+              "R$ 18,50"
+            ],
+            "correta": 0,
+            "explicacao": "50 × 0,35 = 17,50.",
+            "dica": "Calcule 10% (R$ 5), multiplique por 3 e some 5%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família gasta R$ 1.200 por mês em compras, com 30% de tributos embutidos em média. Quanto paga de imposto por ano?",
+            "alternativas": [
+              "R$ 360",
+              "R$ 3.600",
+              "R$ 4.320",
+              "R$ 4.032"
+            ],
+            "correta": 2,
+            "explicacao": "1.200 × 0,30 = 360 por mês; 360 × 12 = R$ 4.320 por ano.",
+            "dica": "Ache o valor de um mês e multiplique pelos meses do ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais destes impostos são municipais?",
+            "alternativas": [
+              "ICMS e IPVA",
+              "ISS e IPTU",
+              "IPI e Imposto de Renda",
+              "PIS e Cofins"
+            ],
+            "correta": 1,
+            "explicacao": "A prefeitura cobra ISS (serviços) e IPTU (imóveis).",
+            "dica": "Pense no que é da cidade: os serviços prestados nela e os imóveis dela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que imposto sobre consumo pesa mais para quem ganha menos?",
+            "alternativas": [
+              "Porque o caixa cobra mais de quem é pobre",
+              "Porque rico não paga ICMS",
+              "Porque o imposto só existe em bairros pobres",
+              "Porque quem ganha pouco gasta quase toda a renda em consumo"
+            ],
+            "correta": 3,
+            "explicacao": "A alíquota é a mesma para todos, mas, como quem ganha pouco consome quase tudo, o imposto toma uma parte maior da renda.",
+            "dica": "Compare o imposto com a renda inteira de cada pessoa, não com o preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na Reforma Tributária, o IBS pertence a quem?",
+            "alternativas": [
+              "só à União",
+              "aos estados e municípios",
+              "só aos municípios",
+              "às empresas"
+            ],
+            "correta": 1,
+            "explicacao": "O IBS é compartilhado por estados e municípios; a CBS é federal.",
+            "dica": "Ele substitui um imposto estadual e um municipal."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem imposto, um produto custaria R$ 70. O imposto é 30% do preço final. Qual é o preço final?",
+            "alternativas": [
+              "R$ 91",
+              "R$ 100",
+              "R$ 97",
+              "R$ 21"
+            ],
+            "correta": 1,
+            "explicacao": "Se o imposto é 30% do preço final, os R$ 70 são os outros 70%. 70 ÷ 0,70 = 100. A pegadinha é fazer 70 × 1,30 = 91.",
+            "dica": "Releia o aprofundamento sobre o imposto calculado por dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana ganha R$ 2.000 e gasta tudo em compras com 25% de imposto embutido. Beto ganha R$ 10.000 e gasta R$ 4.000 nas mesmas condições. Quanto da renda cada um paga em imposto de consumo?",
+            "alternativas": [
+              "Ana 25% e Beto 10%",
+              "Ana 25% e Beto 25%",
+              "Ana 10% e Beto 25%",
+              "Ana 20% e Beto 10%"
+            ],
+            "correta": 0,
+            "explicacao": "Ana: R$ 500 de R$ 2.000 = 25%. Beto: R$ 1.000 de R$ 10.000 = 10%. É a regressividade.",
+            "dica": "Calcule o imposto em reais e divida pela renda de cada um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma nota de R$ 250 mostra R$ 85 de tributos aproximados. Qual a porcentagem?",
+            "alternativas": [
+              "30%",
+              "35%",
+              "85%",
+              "34%"
+            ],
+            "correta": 3,
+            "explicacao": "85 ÷ 250 = 0,34 = 34%.",
+            "dica": "Divida 85 por 250; se ajudar, multiplique os dois por 4 para ficar sobre 1.000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação sobre a Reforma Tributária está correta?",
+            "alternativas": [
+              "O IBS é federal e substitui o Imposto de Renda",
+              "A reforma acaba com todos os impostos",
+              "A CBS é federal e substitui PIS e Cofins; o IBS substitui ICMS e ISS",
+              "A CBS substitui o IPTU"
+            ],
+            "correta": 2,
+            "explicacao": "CBS (federal) no lugar de PIS e Cofins; IBS (estados e municípios) no lugar de ICMS e ISS. Os impostos não acabam.",
+            "dica": "Lembre qual é federal e qual é de estados e municípios."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Juliana comprou uma geladeira hoje. Quais tributos podem estar embutidos no preço?",
+            "alternativas": [
+              "IPTU e IPVA",
+              "ICMS, IPI, PIS e Cofins",
+              "só ISS",
+              "Imposto de Renda e IPVA"
+            ],
+            "correta": 1,
+            "explicacao": "Geladeira é mercadoria (ICMS), industrializada (IPI), e a empresa paga PIS e Cofins sobre o faturamento.",
+            "dica": "É mercadoria industrializada vendida por uma empresa; nada de bem imóvel ou veículo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "HTML de uma página completa",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma página HTML completa tem um esqueleto fixo: começa com <!DOCTYPE html>, depois vem <html>, que guarda duas partes: <head> (informações sobre a página) e <body> (o que aparece na tela).",
+          "No <head> ficam o <title>, que é o nome mostrado na aba do navegador, e <meta charset=\"UTF-8\">, que faz os acentos aparecerem certinho.",
+          "No <body> você usa <h1> a <h6> para títulos, <p> para parágrafos, <ul> para lista com marcadores, <ol> para lista numerada e <li> para cada item. <a href=\"...\"> cria link e <img src=\"...\" alt=\"...\"> mostra imagem.",
+          "As tags se encaixam como caixas: a que abriu por último fecha primeiro. <p><b>Oi</b></p> está certo; <p><b>Oi</p></b> está errado.",
+          "Salve o arquivo como index.html e abra com dois cliques: o navegador mostra a sua página. Não precisa de internet para testar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Monte uma página com título na aba \"Lucas\", um título \"Sobre mim\" e uma lista de dois hobbies.",
+            "resolucao": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Lucas</title>\n</head>\n<body>\n  <h1>Sobre mim</h1>\n  <ul>\n    <li>Futebol</li>\n    <li>Desenhar</li>\n  </ul>\n</body>\n</html>"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Tags semânticas dizem o papel de cada parte: <header> (cabeçalho), <main> (conteúdo principal) e <footer> (rodapé). Elas ajudam leitores de tela e buscadores a entender a página.",
+        "O CSS cuida da aparência e pode ficar num <style> dentro do <head>: h1 { color: green; } deixa todos os <h1> verdes. Mudando ali, muda a página inteira sem mexer no conteúdo.",
+        "Links podem pular para uma parte da mesma página: dê um id a um elemento (<h2 id=\"contato\">) e aponte com <a href=\"#contato\">. O alt da imagem descreve a foto para quem não enxerga ou quando ela não carrega."
+      ],
+      "desafio_pratico": "No bloco de notas do computador, monte uma página \"Sobre mim\" com título, um parágrafo, uma lista de 3 coisas de que você gosta e um rodapé. Salve como index.html e abra no navegador.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tag faz o título principal que aparece na página?",
+            "alternativas": [
+              "<p>",
+              "<h1>",
+              "<li>",
+              "<a>"
+            ],
+            "correta": 1,
+            "explicacao": "<h1> é o título de maior destaque.",
+            "dica": "É a tag com \"h\" de heading (título) e o menor número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual parte fica o conteúdo que aparece na tela?",
+            "alternativas": [
+              "<head>",
+              "<title>",
+              "<body>",
+              "<meta>"
+            ],
+            "correta": 2,
+            "explicacao": "Tudo que aparece na tela fica dentro do <body> (corpo).",
+            "dica": "Pense em cabeça e corpo: qual mostra o conteúdo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tag cria um link?",
+            "alternativas": [
+              "<a>",
+              "<img>",
+              "<ul>",
+              "<h2>"
+            ],
+            "correta": 0,
+            "explicacao": "<a href=\"endereço\"> cria o link (âncora).",
+            "dica": "É a tag de uma letra só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tag marca cada item de uma lista?",
+            "alternativas": [
+              "<ul>",
+              "<ol>",
+              "<p>",
+              "<li>"
+            ],
+            "correta": 3,
+            "explicacao": "<li> vem de list item. <ul> e <ol> são a lista inteira.",
+            "dica": "Procure a sigla de list item."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com que extensão o arquivo da página deve ser salvo?",
+            "alternativas": [
+              ".txt",
+              ".html",
+              ".exe",
+              ".py"
+            ],
+            "correta": 1,
+            "explicacao": "O navegador reconhece arquivos .html como páginas.",
+            "dica": "A extensão tem o nome da própria linguagem."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O texto dentro de <title> aparece onde?",
+            "alternativas": [
+              "no meio da página em letra grande",
+              "na aba do navegador",
+              "no rodapé",
+              "em lugar nenhum"
+            ],
+            "correta": 1,
+            "explicacao": "O <title> fica no <head> e dá nome à aba.",
+            "dica": "Ele está no <head>, que não aparece no corpo da página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tag cria uma lista numerada?",
+            "alternativas": [
+              "<ul>",
+              "<li>",
+              "<ol>",
+              "<nl>"
+            ],
+            "correta": 2,
+            "explicacao": "<ol> = ordered list (lista ordenada, com números). <ul> usa bolinhas.",
+            "dica": "Ordered quer dizer ordenada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o atributo alt de uma imagem?",
+            "alternativas": [
+              "Descrever a imagem para quem não enxerga ou quando ela não carrega",
+              "Mudar o tamanho da imagem",
+              "Deixar a imagem colorida",
+              "Transformar a imagem em link"
+            ],
+            "correta": 0,
+            "explicacao": "O alt é o texto alternativo, lido por leitores de tela.",
+            "dica": "Alt vem de alternativo: o que entra no lugar da imagem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual código está aninhado corretamente?",
+            "alternativas": [
+              "<p><b>Oi</p></b>",
+              "<b><p>Oi</b></p>",
+              "<p>Oi<b></p>",
+              "<p><b>Oi</b></p>"
+            ],
+            "correta": 3,
+            "explicacao": "A última tag aberta (<b>) fecha primeiro, depois o <p>.",
+            "dica": "Feche as caixas de dentro para fora."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem, de cima para baixo, as partes de uma página HTML:",
+            "itens": [
+              "<!DOCTYPE html>",
+              "<html>",
+              "<head>",
+              "<body>",
+              "</html>"
+            ],
+            "explicacao": "DOCTYPE avisa o tipo; <html> abre; <head> vem antes do <body>; </html> fecha tudo.",
+            "dica": "A cabeça vem antes do corpo, e quem abre tudo fecha por último."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece na tela com <a href=\"https://exemplo.com.br\">Clique</a>?",
+            "alternativas": [
+              "O endereço https://exemplo.com.br",
+              "A palavra Clique, como link",
+              "As letras a href",
+              "Nada aparece"
+            ],
+            "correta": 1,
+            "explicacao": "O href é o destino, escondido; aparece só o texto entre as tags, clicável.",
+            "dica": "O que fica entre a abertura e o fechamento é o que a pessoa vê."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha mostra uma imagem com descrição?",
+            "alternativas": [
+              "<img alt=\"gato.jpg\">",
+              "<image src=\"gato.jpg\">Gato</image>",
+              "<a src=\"gato.jpg\">",
+              "<img src=\"gato.jpg\" alt=\"Gato dormindo\">"
+            ],
+            "correta": 3,
+            "explicacao": "A tag é <img>, o arquivo vai em src e a descrição em alt.",
+            "dica": "Precisa da tag certa e dos dois atributos: um para o arquivo, outro para a descrição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os acentos da sua página aparecem como símbolos estranhos. O que provavelmente falta no <head>?",
+            "alternativas": [
+              "<meta charset=\"UTF-8\">",
+              "<title>",
+              "<body>",
+              "<br>"
+            ],
+            "correta": 0,
+            "explicacao": "O charset UTF-8 diz ao navegador como ler letras acentuadas.",
+            "dica": "É a linha que define a codificação dos caracteres."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dentro de <style>, qual regra deixa todos os títulos <h1> verdes?",
+            "alternativas": [
+              "h1 = green",
+              "<h1 color>",
+              "h1 { color: green; }",
+              "color.h1(green)"
+            ],
+            "correta": 2,
+            "explicacao": "CSS usa seletor, chaves, propriedade, dois-pontos, valor e ponto e vírgula.",
+            "dica": "Lembre do formato do CSS: seletor e chaves com propriedade e valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos itens aparecem em <ul><li>Arroz</li><li>Feijão</li><li>Ovo</li></ul>?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "Cada <li> é um item: Arroz, Feijão e Ovo.",
+            "dica": "Conte quantas vezes aparece a tag de item."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como aparece <ol><li>Acordar</li><li>Estudar</li></ol><ul><li>Pão</li></ul>?",
+            "alternativas": [
+              "Tudo com bolinhas",
+              "Acordar e Estudar com 1 e 2; Pão com bolinha",
+              "Tudo numerado de 1 a 3",
+              "Pão com número 1; os outros com bolinhas"
+            ],
+            "correta": 1,
+            "explicacao": "<ol> numera seus itens; <ul> usa marcadores. São duas listas separadas.",
+            "dica": "Veja qual lista é ordenada e qual não é."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tag semântica marca o rodapé da página?",
+            "alternativas": [
+              "<bottom>",
+              "<end>",
+              "<foot>",
+              "<footer>"
+            ],
+            "correta": 3,
+            "explicacao": "<footer> é o rodapé; <header>, o cabeçalho; <main>, o principal.",
+            "dica": "Em inglês, rodapé é a parte que fica no pé da página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual link pula para o título <h2 id=\"contato\"> na mesma página?",
+            "alternativas": [
+              "<a href=\"#contato\">",
+              "<a href=\"contato.com\">",
+              "<a id=\"#contato\">",
+              "<a name=\"contato.html\">"
+            ],
+            "correta": 0,
+            "explicacao": "O # indica um id dentro da própria página.",
+            "dica": "Releia o aprofundamento: que símbolo aponta para um id?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o erro em <h1>Minha página<h1>?",
+            "alternativas": [
+              "Falta o <p>",
+              "O <h1> não aceita acento",
+              "A segunda tag deveria ser de fechamento, com barra",
+              "Deveria ser <h7>"
+            ],
+            "correta": 2,
+            "explicacao": "Sem a barra, abre-se um segundo título em vez de fechar o primeiro.",
+            "dica": "Compare com a forma de fechar um parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que separar o conteúdo (HTML) da aparência (CSS)?",
+            "alternativas": [
+              "Porque o HTML não aceita cores de jeito nenhum",
+              "Para mudar o visual do site inteiro num lugar só, sem mexer no conteúdo",
+              "Porque o CSS deixa a página mais lenta",
+              "Para esconder o conteúdo"
+            ],
+            "correta": 1,
+            "explicacao": "Com o CSS no <style>, uma regra muda todos os elementos de uma vez.",
+            "dica": "Pense em trocar a cor de 50 títulos: melhor mudar 50 vezes ou uma?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O arroz do tabuleiro",
+    "texto": "Conta uma lenda antiga que um rei ficou tão encantado com o jogo de xadrez que chamou o inventor e ofereceu qualquer recompensa. O sábio pediu algo que parecia modesto: um grão de arroz na primeira casa do tabuleiro, dois na segunda, quatro na terceira, e assim por diante, sempre dobrando, até a casa número 64.\n\nO rei riu. Achou o pedido tão pequeno que quase se sentiu ofendido. Mandou os servos buscarem um saco de arroz e começarem a contar.\n\nNas primeiras casas, tudo ia bem. Na décima, já eram 512 grãos, um punhado. Na vigésima, passavam de meio milhão, vários sacos. Na trigésima, mais de quinhentos milhões de grãos, uma montanha que não cabia no palácio. Os contadores pararam, pálidos. Para completar as 64 casas, seria preciso mais arroz do que o mundo inteiro produziria em séculos.\n\nA lenda não tem data nem endereço certo, mas a matemática dela é verdadeira. Quando algo cresce multiplicando, e não somando, o começo engana: parece lento, quase parado. Depois, cada passo é maior que todos os anteriores juntos.\n\nÉ assim que funcionam os juros compostos. Uma dívida no cartão de crédito parece pequena no primeiro mês, mas os juros entram no saldo e passam a cobrar juros também. Com o tempo, ela vira a montanha do rei. A boa notícia é que o mesmo efeito vale para quem guarda: um dinheiro investido cedo, mesmo pouco, ganha tempo para dobrar várias vezes.\n\nO tabuleiro ensina que, nos juros, o tempo é o ingrediente mais poderoso. A pergunta é de que lado dele você quer estar."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique para um colega por que o rei errou ao achar o pedido pequeno. Depois, dê um exemplo da vida real em que o crescimento \"multiplicando\" pode ajudar ou atrapalhar uma pessoa (dívida, poupança, seguidores, boatos)."
+  }
+}

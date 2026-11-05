@@ -1,0 +1,895 @@
+{
+  "dia": 11,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Números decimais: os números com vírgula",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Números decimais são os números com vírgula. Eles estão em todo lugar: no preço do pão (R$ 3,50), na sua altura (1,45 m) e no termômetro (36,5 °C).",
+          "O que fica antes da vírgula é a parte inteira. Depois da vírgula vêm os pedacinhos: a primeira casa são os décimos (um inteiro dividido em 10 partes) e a segunda são os centésimos (dividido em 100 partes). Em R$ 3,50, são 3 reais e 50 centavos.",
+          "Para comparar dois decimais, olhe primeiro a parte inteira. Se ela for igual, compare os décimos e depois os centésimos. Uma dica esperta: iguale o número de casas colocando zeros no fim. 0,5 é o mesmo que 0,50.",
+          "Para somar ou subtrair, arme a conta com vírgula embaixo de vírgula. Assim, décimo fica embaixo de décimo e centésimo embaixo de centésimo, e a conta não erra."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quanto é 2,75 + 1,5?",
+            "resolucao": "Iguale as casas: 1,5 vira 1,50. Vírgula embaixo de vírgula: 2,75 + 1,50 = 4,25."
+          },
+          {
+            "enunciado": "Qual é maior: 0,8 ou 0,75?",
+            "resolucao": "Iguale as casas: 0,80 e 0,75. Como 80 centésimos é mais que 75 centésimos, 0,8 é o maior."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Multiplicar por 10 anda com a vírgula uma casa para a direita; por 100, duas casas. 2,35 × 10 = 23,5 e 2,35 × 100 = 235. Dividir por 10 anda com a vírgula uma casa para a esquerda: 4,5 ÷ 10 = 0,45.",
+        "Decimais e frações são o mesmo número com roupas diferentes: 0,5 = 5/10, que é a metade; 0,25 = 25/100, que é um quarto; 0,1 = 1/10, um décimo.",
+        "Entre dois decimais sempre cabe outro. Entre 0,3 e 0,4 estão 0,31, 0,32, 0,35 e muitos mais: basta acrescentar uma casa depois da vírgula."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em R$ 3,50, quantos reais inteiros existem?",
+            "alternativas": [
+              "3",
+              "50",
+              "35",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "A parte inteira fica antes da vírgula: 3 reais. O 50 depois da vírgula são os centavos.",
+            "dica": "A parte inteira é o que fica antes da vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um número decimal?",
+            "alternativas": [
+              "12",
+              "2,5",
+              "100",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "Número decimal é o número com vírgula. Só o 2,5 tem vírgula.",
+            "dica": "Procure o número que tem vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "0,5 é o mesmo que:",
+            "alternativas": [
+              "0,05",
+              "5,0",
+              "0,50",
+              "50"
+            ],
+            "correta": 2,
+            "explicacao": "Colocar zero no fim, depois da vírgula, não muda o valor: 0,5 = 0,50. Já 0,05 é bem menor.",
+            "dica": "Acrescentar zero no fim da parte depois da vírgula não muda o número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1,5 + 1,5?",
+            "alternativas": [
+              "2,10",
+              "2,5",
+              "1,10",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "1 + 1 = 2 e 0,5 + 0,5 = 1. Juntando: 2 + 1 = 3. Meio mais meio dá um inteiro.",
+            "dica": "Some as partes inteiras e depois as metades."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem do menor para o maior:",
+            "itens": [
+              "0,1",
+              "0,4",
+              "0,7",
+              "1,0"
+            ],
+            "explicacao": "Todos têm uma casa decimal. 0,1 < 0,4 < 0,7, e 1,0 é um inteiro, o maior de todos.",
+            "dica": "Compare os décimos; o número com parte inteira 1 é o maior."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é o maior?",
+            "alternativas": [
+              "0,75",
+              "0,8",
+              "0,09",
+              "0,71"
+            ],
+            "correta": 1,
+            "explicacao": "Igualando as casas: 0,75 = 0,75; 0,8 = 0,80; 0,09 = 0,09; 0,71 = 0,71. O maior é 0,80, ou seja, 0,8. Não é o número com mais algarismos que ganha!",
+            "dica": "Iguale o número de casas com zeros no fim e compare os centésimos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3,4 + 1,25?",
+            "alternativas": [
+              "4,29",
+              "5,65",
+              "4,65",
+              "4,59"
+            ],
+            "correta": 2,
+            "explicacao": "3,4 vira 3,40. Vírgula embaixo de vírgula: 3,40 + 1,25 = 4,65.",
+            "dica": "Transforme 3,4 em 3,40 e some com vírgula embaixo de vírgula."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem do menor para o maior:",
+            "itens": [
+              "0,3",
+              "0,35",
+              "1,2",
+              "1,25"
+            ],
+            "explicacao": "Primeiro a parte inteira: 0 vem antes de 1. Depois iguale as casas: 0,30 < 0,35 e 1,20 < 1,25.",
+            "dica": "Compare primeiro a parte inteira; depois iguale as casas com zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No número 5,27, o algarismo 2 representa:",
+            "alternativas": [
+              "2 unidades",
+              "2 dezenas",
+              "2 centésimos",
+              "2 décimos"
+            ],
+            "correta": 3,
+            "explicacao": "A primeira casa depois da vírgula é a dos décimos. Em 5,27, o 2 vale 2 décimos e o 7 vale 7 centésimos.",
+            "dica": "A primeira casa depois da vírgula tem um nome; a segunda, outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tinha R$ 10,00 e gastou R$ 6,75. Quanto sobrou?",
+            "alternativas": [
+              "R$ 3,25",
+              "R$ 4,25",
+              "R$ 3,35",
+              "R$ 4,75"
+            ],
+            "correta": 0,
+            "explicacao": "10,00 − 6,75 = 3,25. Confira somando: 6,75 + 3,25 = 10,00.",
+            "dica": "Faça 10,00 − 6,75 ou complete de 6,75 até 10,00."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro mede 1,48 m e Caio mede 1,5 m. Quem é mais alto e por quanto?",
+            "alternativas": [
+              "Pedro, por 0,02 m",
+              "Caio, por 0,02 m",
+              "Caio, por 0,43 m",
+              "Pedro, por 0,43 m"
+            ],
+            "correta": 1,
+            "explicacao": "1,5 = 1,50, que é maior que 1,48. A diferença é 1,50 − 1,48 = 0,02 m. Quem acha que 1,48 é maior caiu na pegadinha dos algarismos.",
+            "dica": "Escreva 1,5 com duas casas antes de comparar e de subtrair."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia comprou um caderno de R$ 8,90 e uma caneta de R$ 2,35. Pagou com R$ 20,00. Qual foi o troco?",
+            "alternativas": [
+              "R$ 8,75",
+              "R$ 9,75",
+              "R$ 11,25",
+              "R$ 8,25"
+            ],
+            "correta": 0,
+            "explicacao": "Total: 8,90 + 2,35 = 11,25. Troco: 20,00 − 11,25 = 8,75. R$ 11,25 é o total, não o troco.",
+            "dica": "Primeiro some os dois preços; depois tire o total de 20,00."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número fica entre 2,4 e 2,5?",
+            "alternativas": [
+              "2,55",
+              "2,39",
+              "2,45",
+              "2,05"
+            ],
+            "correta": 2,
+            "explicacao": "Com duas casas: 2,40 e 2,50. O 2,45 está no meio. 2,55 passa de 2,50, e 2,39 e 2,05 são menores que 2,40.",
+            "dica": "Use duas casas: 2,40 e 2,50. Qual centésimo está entre eles?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem do menor para o maior:",
+            "itens": [
+              "0,09",
+              "0,1",
+              "0,25",
+              "0,3"
+            ],
+            "explicacao": "Igualando: 0,09; 0,10; 0,25; 0,30. O 0,09 tem mais algarismos, mas é o menor.",
+            "dica": "Iguale tudo com duas casas antes de comparar. Mais algarismos não quer dizer maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma garrafa tem 1,5 litro de suco. Ana bebeu 0,75 litro. Quanto sobrou?",
+            "alternativas": [
+              "0,85 litro",
+              "1,25 litro",
+              "0,25 litro",
+              "0,75 litro"
+            ],
+            "correta": 3,
+            "explicacao": "1,50 − 0,75 = 0,75. Sobrou exatamente metade da garrafa.",
+            "dica": "Escreva 1,5 como 1,50 e subtraia com vírgula embaixo de vírgula."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 0,35 × 100?",
+            "alternativas": [
+              "3,5",
+              "35",
+              "350",
+              "0,035"
+            ],
+            "correta": 1,
+            "explicacao": "Multiplicar por 100 anda com a vírgula duas casas para a direita: 0,35 vira 35. 3,5 seria × 10.",
+            "dica": "Multiplicar por 100 anda com a vírgula duas casas para a direita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual decimal é igual a três quartos (3/4)?",
+            "alternativas": [
+              "0,34",
+              "0,43",
+              "0,3",
+              "0,75"
+            ],
+            "correta": 3,
+            "explicacao": "Um quarto é 0,25. Três quartos: 0,25 + 0,25 + 0,25 = 0,75. A pegadinha é achar que 3/4 vira 0,34.",
+            "dica": "Um quarto é 0,25. Três quartos é três vezes isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafa juntou 4 moedas de R$ 0,25, 3 moedas de R$ 0,10 e 2 moedas de R$ 0,05. Quanto ele tem?",
+            "alternativas": [
+              "R$ 1,40",
+              "R$ 1,35",
+              "R$ 0,40",
+              "R$ 1,45"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 0,25 = 1,00; 3 × 0,10 = 0,30; 2 × 0,05 = 0,10. Total: 1,00 + 0,30 + 0,10 = 1,40.",
+            "dica": "Calcule cada tipo de moeda separado e depois some os três valores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pacote com 10 balas custa R$ 4,50. Quanto custa cada bala?",
+            "alternativas": [
+              "R$ 0,045",
+              "R$ 4,05",
+              "R$ 0,45",
+              "R$ 0,54"
+            ],
+            "correta": 2,
+            "explicacao": "Dividir por 10 anda com a vírgula uma casa para a esquerda: 4,50 ÷ 10 = 0,45. Confira: 10 × 0,45 = 4,50.",
+            "dica": "Dividir por 10 anda com a vírgula uma casa para a esquerda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números com duas casas decimais existem ENTRE 0,3 e 0,4, sem contar os dois?",
+            "alternativas": [
+              "10",
+              "9",
+              "1",
+              "Nenhum"
+            ],
+            "correta": 1,
+            "explicacao": "Entre 0,30 e 0,40 estão 0,31, 0,32, 0,33, 0,34, 0,35, 0,36, 0,37, 0,38 e 0,39: são 9. Quem responde 10 contou uma das pontas.",
+            "dica": "Escreva 0,30 e 0,40 e conte os centésimos que ficam no meio, sem as pontas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Comparar preços antes de comprar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O mesmo produto pode ter preços diferentes em lugares diferentes. Comparar antes de comprar é um jeito simples de fazer o dinheiro render mais.",
+          "Quando os pacotes têm tamanhos diferentes, compare o preço por unidade: divida o preço pela quantidade. Assim você descobre quanto custa cada item, ou cada quilo.",
+          "Pacote maior nem sempre é mais barato. E promoção como \"leve 3, pague 2\" só vale a pena se você realmente for usar tudo antes de estragar.",
+          "Comparar também é perguntar: eu preciso mesmo disso? Às vezes, a melhor economia é não comprar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Pacote com 4 iogurtes por R$ 6,00 ou pacote com 6 iogurtes por R$ 8,40. Qual sai mais barato por iogurte?",
+            "resolucao": "4 por R$ 6,00: cada um sai 6,00 ÷ 4 = R$ 1,50. 6 por R$ 8,40: cada um sai 8,40 ÷ 6 = R$ 1,40. O pacote de 6 é mais barato por unidade, se a família for comer todos antes de vencer."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Muitos mercados já mostram na etiqueta, em letra pequena, o preço por quilo ou por litro. É a mesma conta da lição, feita para você: compare esse número entre as marcas.",
+        "Comparar inclui os custos escondidos. Se a loja mais barata fica longe e você paga ônibus de ida e volta, a economia pode sumir. Some tudo antes de decidir.",
+        "Nem sempre o menor preço é a melhor compra: um tênis que dura o dobro do tempo, custando um pouco mais, pode sair mais barato por mês de uso."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Comparar preços serve para:",
+            "alternativas": [
+              "gastar mais",
+              "fazer o dinheiro render mais",
+              "comprar sempre o maior pacote",
+              "não ir à feira"
+            ],
+            "correta": 1,
+            "explicacao": "Achando o lugar mais barato, sobra mais dinheiro para outras coisas: o dinheiro rende mais.",
+            "dica": "Pense no que acontece com seu dinheiro quando você acha o lugar mais barato."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um picolé custa R$ 4,00 na banca A e R$ 3,00 na banca B. Onde é mais barato?",
+            "alternativas": [
+              "Na banca A",
+              "Nas duas é igual",
+              "Na banca B",
+              "Em nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "R$ 3,00 é menos que R$ 4,00. Na banca B você economiza R$ 1,00.",
+            "dica": "Veja qual dos dois preços é menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para saber o preço de cada item de um pacote, você:",
+            "alternativas": [
+              "divide o preço pela quantidade",
+              "soma o preço com a quantidade",
+              "multiplica tudo por 10",
+              "chuta um valor"
+            ],
+            "correta": 0,
+            "explicacao": "Preço por unidade = preço ÷ quantidade. 3 lápis por R$ 6,00 dá R$ 2,00 cada.",
+            "dica": "É a conta de repartir o preço entre os itens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pacote maior é sempre mais barato?",
+            "alternativas": [
+              "Sim, sempre",
+              "Sim, se a embalagem for bonita",
+              "Nunca",
+              "Nem sempre; é preciso fazer a conta"
+            ],
+            "correta": 3,
+            "explicacao": "Às vezes o pacote maior sai mais caro por unidade. Só a conta do preço por unidade mostra.",
+            "dica": "A lição avisou sobre isso. Lembre do preço por unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Às vezes a melhor economia é:",
+            "alternativas": [
+              "comprar dois de cada",
+              "não comprar o que não precisa",
+              "comprar o mais caro",
+              "comprar tudo de uma vez"
+            ],
+            "correta": 1,
+            "explicacao": "Antes de comparar preços, pergunte se você precisa mesmo daquilo. Não comprar economiza 100%.",
+            "dica": "Pergunte a si mesmo: eu preciso mesmo disso?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caderno custa R$ 12,00 na papelaria A e R$ 9,50 na papelaria B. Quanto você economiza comprando na B?",
+            "alternativas": [
+              "R$ 3,50",
+              "R$ 2,50",
+              "R$ 2,00",
+              "R$ 1,50"
+            ],
+            "correta": 1,
+            "explicacao": "Economia é a diferença: 12,00 − 9,50 = 2,50. Você guarda R$ 2,50 no bolso.",
+            "dica": "Economia é a diferença entre os dois preços: subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pacote com 3 lápis custa R$ 6,00. Quanto custa cada lápis?",
+            "alternativas": [
+              "R$ 3,00",
+              "R$ 1,50",
+              "R$ 2,00",
+              "R$ 18,00"
+            ],
+            "correta": 2,
+            "explicacao": "Preço por unidade = preço ÷ quantidade: 6,00 ÷ 3 = 2,00. Cada lápis sai R$ 2,00.",
+            "dica": "Divida o preço do pacote pelo número de lápis."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na feira: 1 kg de banana por R$ 5,00 ou 2 kg por R$ 9,00. A família precisa de 2 kg. O que é melhor?",
+            "alternativas": [
+              "Comprar 1 kg duas vezes, por R$ 10,00",
+              "Tanto faz, o preço é igual",
+              "Comprar o pacote de 2 kg, por R$ 9,00",
+              "Comprar 3 kg para garantir"
+            ],
+            "correta": 2,
+            "explicacao": "Duas vezes 1 kg custa R$ 10,00; o pacote de 2 kg custa R$ 9,00. Economia de R$ 1,00. Comprar 3 kg seria gastar com algo que a família não precisa.",
+            "dica": "Compare quanto custam os mesmos 2 kg de cada jeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o \"preço por unidade\"?",
+            "alternativas": [
+              "O preço da embalagem maior",
+              "Quanto custa cada item ou cada quilo",
+              "O preço com desconto",
+              "O preço do produto mais caro"
+            ],
+            "correta": 1,
+            "explicacao": "Preço por unidade é o preço dividido pela quantidade. Ele permite comparar pacotes de tamanhos diferentes de forma justa.",
+            "dica": "Lembre a conta que a lição ensinou: preço dividido pela quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Promoção: leve 3 chocolates e pague 2. Quando ela vale a pena?",
+            "alternativas": [
+              "Quando você realmente ia usar os 3",
+              "Sempre, porque é promoção",
+              "Nunca, promoção é sempre enganação",
+              "Só se o chocolate for importado"
+            ],
+            "correta": 0,
+            "explicacao": "A promoção só é vantagem se você ia mesmo comprar e usar os 3. Se não, você gastou mais do que pretendia, só porque a placa dizia \"promoção\".",
+            "dica": "Promoção só ajuda se o produto não ficar sobrando nem estragar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Arroz: 1 kg por R$ 6,00 ou pacote de 5 kg por R$ 27,50. Quanto custa o quilo no pacote de 5 kg?",
+            "alternativas": [
+              "R$ 5,50",
+              "R$ 6,00",
+              "R$ 5,25",
+              "R$ 22,50"
+            ],
+            "correta": 0,
+            "explicacao": "27,50 ÷ 5 = 5,50. Confira: 5 × 5,50 = 27,50. O pacote grande sai R$ 0,50 mais barato por quilo.",
+            "dica": "Divida o preço do pacote grande pelos 5 quilos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Suco: 1 garrafa por R$ 7,00 ou 2 garrafas iguais por R$ 13,00. Quanto você economiza levando a dupla em vez de duas avulsas?",
+            "alternativas": [
+              "R$ 6,00",
+              "R$ 7,00",
+              "R$ 1,00",
+              "R$ 0,50"
+            ],
+            "correta": 2,
+            "explicacao": "Duas avulsas: 2 × 7,00 = 14,00. A dupla custa 13,00. Economia: 14,00 − 13,00 = 1,00.",
+            "dica": "Calcule quanto custariam duas garrafas avulsas e compare com o preço da dupla."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caneta custa R$ 3,00 perto de casa e R$ 2,50 numa loja aonde você só chega de ônibus (R$ 5,00 a ida e R$ 5,00 a volta). Você vai comprar 1 caneta. O que é melhor?",
+            "alternativas": [
+              "Ir à loja longe, porque economiza R$ 0,50",
+              "Comprar perto, porque na outra gastaria R$ 12,50 no total",
+              "Tanto faz",
+              "Ir à loja longe e comprar duas"
+            ],
+            "correta": 1,
+            "explicacao": "Na loja longe: 2,50 + 5,00 + 5,00 = 12,50. Perto de casa: 3,00. A passagem engoliu a economia.",
+            "dica": "Some o preço da caneta com tudo o que gastaria para chegar lá e voltar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Promoção \"leve 3, pague 2\" num iogurte de R$ 2,40. Quanto sai cada iogurte na promoção?",
+            "alternativas": [
+              "R$ 2,40",
+              "R$ 0,80",
+              "R$ 4,80",
+              "R$ 1,60"
+            ],
+            "correta": 3,
+            "explicacao": "Você paga 2 × 2,40 = 4,80 e leva 3. Cada um sai 4,80 ÷ 3 = 1,60. R$ 4,80 é o total, não o preço de cada.",
+            "dica": "Calcule quanto paga por 2 e divida esse valor pelos 3 que leva."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque do mais barato para o mais caro POR OVO:",
+            "itens": [
+              "12 ovos por R$ 8,40",
+              "6 ovos por R$ 4,80",
+              "10 ovos por R$ 9,00"
+            ],
+            "explicacao": "8,40 ÷ 12 = 0,70; 4,80 ÷ 6 = 0,80; 9,00 ÷ 10 = 0,90. O preço da etiqueta sozinho engana.",
+            "dica": "Divida cada preço pelo número de ovos e compare os resultados."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Sabão em pó: 1 kg por R$ 12,00; 2 kg por R$ 22,00; 4 kg por R$ 46,00. Qual tem o menor preço por quilo?",
+            "alternativas": [
+              "O de 1 kg",
+              "O de 4 kg",
+              "O de 2 kg",
+              "Os três empatam"
+            ],
+            "correta": 2,
+            "explicacao": "1 kg: R$ 12,00. 2 kg: 22,00 ÷ 2 = R$ 11,00. 4 kg: 46,00 ÷ 4 = R$ 11,50. O maior pacote não é o mais barato.",
+            "dica": "Calcule o preço de um quilo em cada pacote. O maior pode surpreender."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A família usa 2 pacotes de pão de forma por semana. Promoção: leve 6, pague 4 (R$ 9,00 cada). O pão vence em 7 dias. Vale a pena?",
+            "alternativas": [
+              "Sim, paga 4 e leva 6",
+              "Não: gasta R$ 36,00 e 4 pacotes estragariam; sem promoção, gastaria R$ 18,00",
+              "Sim, economiza R$ 18,00",
+              "Tanto faz"
+            ],
+            "correta": 1,
+            "explicacao": "Promoção: 4 × 9,00 = 36,00. Normal: 2 × 9,00 = 18,00. Como só 2 pacotes seriam comidos antes de vencer, a promoção faz gastar o dobro.",
+            "dica": "Compare quanto a família gastaria com o que realmente usa antes da validade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Tênis A custa R$ 120 e dura 6 meses. Tênis B custa R$ 180 e dura 12 meses. Qual sai mais barato por mês?",
+            "alternativas": [
+              "A, porque custa menos na loja",
+              "Empatam",
+              "B: R$ 15 por mês contra R$ 20 do A",
+              "A: R$ 15 por mês contra R$ 20 do B"
+            ],
+            "correta": 2,
+            "explicacao": "A: 120 ÷ 6 = 20 por mês. B: 180 ÷ 12 = 15 por mês. O mais caro na loja sai mais barato no uso.",
+            "dica": "Divida o preço de cada tênis pelos meses que ele dura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O tomate custa R$ 7,00 o quilo numa barraca e R$ 5,50 o quilo no fim da rua (dá para ir a pé). Quanto se economiza comprando 3 kg no fim da rua?",
+            "alternativas": [
+              "R$ 4,50",
+              "R$ 1,50",
+              "R$ 16,50",
+              "R$ 3,00"
+            ],
+            "correta": 0,
+            "explicacao": "Diferença por quilo: 7,00 − 5,50 = 1,50. Em 3 kg: 3 × 1,50 = 4,50. R$ 16,50 é o valor da compra no fim da rua.",
+            "dica": "Ache a diferença por quilo e multiplique pelos quilos comprados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Achocolatado: lata de 400 g por R$ 8,00 ou pacote de 1 kg (1.000 g) por R$ 18,00. Quanto custam 200 g em cada um?",
+            "alternativas": [
+              "Lata R$ 4,00 e pacote R$ 4,00: empate",
+              "Lata R$ 3,60 e pacote R$ 4,00: a lata vale mais",
+              "Lata R$ 2,00 e pacote R$ 3,60",
+              "Lata R$ 4,00 e pacote R$ 3,60: o pacote vale mais"
+            ],
+            "correta": 3,
+            "explicacao": "200 g é metade da lata: 8,00 ÷ 2 = 4,00. 200 g é a quinta parte de 1.000 g: 18,00 ÷ 5 = 3,60. O pacote sai mais barato, se a família usar tudo.",
+            "dica": "200 g é metade da lata e a quinta parte do pacote de 1 kg."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Variáveis: caixinhas de guardar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma variável é como uma caixinha com uma etiqueta. A etiqueta é o nome, e dentro da caixinha fica um valor. Por exemplo: pontos = 0 cria uma caixinha chamada pontos com o número 0 dentro.",
+          "O valor pode mudar durante o programa. Por isso o nome é variável! Quando você ganha 10 pontos no jogo, o programa faz pontos = pontos + 10: pega o que tinha, soma 10 e guarda de novo.",
+          "A caixinha guarda um valor de cada vez. Se você colocar um valor novo, o antigo sai. Se cor = \"azul\" e depois cor = \"verde\", agora só tem verde lá dentro.",
+          "Dê nomes que expliquem o que a caixinha guarda: idade, pontos, nome. Nomes como x ou coisa deixam o programa confuso."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "pontos = 0, depois pontos = pontos + 5, depois pontos = pontos + 3. Quanto vale pontos no final?",
+            "resolucao": "Começa em 0. Somando 5, fica 5. Somando 3, fica 8. No final, pontos vale 8."
+          },
+          {
+            "enunciado": "nome = \"Lia\" e depois nome = \"Bia\". O que tem na caixinha nome?",
+            "resolucao": "Tem \"Bia\". O valor novo substitui o antigo: a caixinha guarda um valor de cada vez."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Variáveis guardam tipos diferentes: números (pontos = 10), textos entre aspas (nome = \"Lia\") e verdadeiro ou falso (venceu = verdadeiro). Cuidado: \"5\" entre aspas é texto, não número, e \"5\" + \"5\" cola um no outro e vira \"55\".",
+        "Uma variável pode receber o valor de outra: a = 3 e depois b = a. Agora b vale 3. Se depois a mudar para 10, b continua 3, porque copiou o valor naquele momento.",
+        "Para trocar o valor de duas caixinhas é preciso uma terceira, auxiliar: aux = a; a = b; b = aux. Sem a auxiliar, um dos valores se perde."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em pontos = 0, qual é o nome da variável?",
+            "alternativas": [
+              "0",
+              "pontos",
+              "=",
+              "Não tem nome"
+            ],
+            "correta": 1,
+            "explicacao": "O nome (a etiqueta) vem antes do sinal de igual. O 0 é o valor guardado.",
+            "dica": "O nome é a etiqueta da caixinha, escrita antes do sinal de igual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em idade = 11, que valor está guardado?",
+            "alternativas": [
+              "idade",
+              "=",
+              "11",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "O valor fica depois do sinal de igual: 11. \"idade\" é o nome da caixinha.",
+            "dica": "O valor fica depois do sinal de igual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma variável guarda quantos valores de cada vez?",
+            "alternativas": [
+              "Um",
+              "Dois",
+              "Dez",
+              "Infinitos"
+            ],
+            "correta": 0,
+            "explicacao": "Um de cada vez. Quando entra um valor novo, o antigo sai.",
+            "dica": "Lembre o que acontece quando entra um valor novo na caixinha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "vidas = 3 e depois vidas = 2. Quanto vale vidas agora?",
+            "alternativas": [
+              "3",
+              "5",
+              "32",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "O último valor guardado é o que fica: 2. O 3 saiu quando o 2 entrou.",
+            "dica": "O último valor guardado é o que fica na caixinha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que esse nome, variável?",
+            "alternativas": [
+              "Porque o valor pode mudar",
+              "Porque o nome muda sozinho",
+              "Porque tem várias cores",
+              "Porque some do programa"
+            ],
+            "correta": 0,
+            "explicacao": "O valor guardado pode variar enquanto o programa roda, como os pontos de um jogo.",
+            "dica": "Pense no que acontece com os pontos durante um jogo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma variável?",
+            "alternativas": [
+              "Um tipo de computador",
+              "Um erro no programa",
+              "Um botão do teclado",
+              "Uma caixinha com nome que guarda um valor"
+            ],
+            "correta": 3,
+            "explicacao": "Variável é um espaço com nome que guarda um valor, e esse valor pode mudar enquanto o programa roda.",
+            "dica": "Pense na comparação com caixinha e etiqueta da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "moedas = 4 e depois moedas = moedas + 2. Quanto vale moedas?",
+            "alternativas": [
+              "4",
+              "2",
+              "6",
+              "42"
+            ],
+            "correta": 2,
+            "explicacao": "O programa pega o valor antigo (4), soma 2 e guarda de novo: 4 + 2 = 6. Não junta os números como \"42\".",
+            "dica": "Pegue o valor antigo e faça a soma; não grude os números."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para contar os gols de um jogo:",
+            "itens": [
+              "Criar a variável gols valendo 0",
+              "Esperar o jogo começar",
+              "Quando sair um gol, fazer gols = gols + 1",
+              "No fim do jogo, mostrar o valor de gols"
+            ],
+            "explicacao": "Primeiro a caixinha precisa existir e começar em 0. Durante o jogo, ela aumenta a cada gol. Só no fim mostramos o resultado.",
+            "dica": "A caixinha precisa existir antes de ser usada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor nome para uma variável que guarda a idade de uma pessoa?",
+            "alternativas": [
+              "x",
+              "idade",
+              "coisa",
+              "abc123"
+            ],
+            "correta": 1,
+            "explicacao": "\"idade\" diz exatamente o que está guardado. Quem ler o programa depois entende na hora.",
+            "dica": "Escolha o nome que conta, sozinho, o que está guardado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cor = \"azul\" e depois cor = \"verde\". O que fica guardado em cor?",
+            "alternativas": [
+              "verde",
+              "azul",
+              "azul e verde",
+              "nada"
+            ],
+            "correta": 0,
+            "explicacao": "A caixinha guarda um valor de cada vez. Quando entrou \"verde\", o \"azul\" saiu.",
+            "dica": "A caixinha guarda um valor de cada vez; o novo substitui o antigo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 10; depois x = x − 3; depois x = x + 5. Quanto vale x no final?",
+            "alternativas": [
+              "12",
+              "8",
+              "18",
+              "2"
+            ],
+            "correta": 0,
+            "explicacao": "10 − 3 = 7; 7 + 5 = 12. Cada linha usa o valor deixado pela linha anterior.",
+            "dica": "Faça uma linha de cada vez, guardando o resultado antes da próxima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "pontos = 0. O jogador ganha 10 pontos três vezes (pontos = pontos + 10) e depois perde 5 (pontos = pontos − 5). Quanto ficou?",
+            "alternativas": [
+              "30",
+              "35",
+              "25",
+              "20"
+            ],
+            "correta": 2,
+            "explicacao": "0 + 10 + 10 + 10 = 30; 30 − 5 = 25.",
+            "dica": "Some os três ganhos e depois tire a perda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 4; b = a + 2; depois a = 1. Quanto vale b?",
+            "alternativas": [
+              "3",
+              "1",
+              "4",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "Quando b foi calculado, a valia 4: b = 4 + 2 = 6. Mudar a depois não refaz a conta de b.",
+            "dica": "b foi calculado quando a ainda valia 4. Mudar a depois não refaz a conta."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as linhas para calcular o total de uma compra de pão e leite:",
+            "itens": [
+              "total = 0",
+              "total = total + preço do pão",
+              "total = total + preço do leite",
+              "Mostrar total"
+            ],
+            "explicacao": "A caixinha nasce valendo 0, recebe cada preço e só no fim é mostrada. Mostrar antes daria um total errado.",
+            "dica": "A caixinha começa vazia, vai somando cada preço e só no fim é mostrada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor nome para a variável que guarda quantas moedas o jogador tem?",
+            "alternativas": [
+              "m",
+              "moedas_do_jogador",
+              "coisa2",
+              "x1"
+            ],
+            "correta": 1,
+            "explicacao": "O nome explica sozinho o que está guardado. m, coisa2 e x1 obrigam a adivinhar.",
+            "dica": "Prefira o nome que outra pessoa entenderia sem perguntar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a = \"5\" e b = \"5\" (os dois entre aspas, como texto), quanto dá a + b?",
+            "alternativas": [
+              "10",
+              "55",
+              "5",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "Entre aspas é texto. Somar textos é colar um no outro: \"5\" + \"5\" = \"55\". Só daria 10 se fossem números.",
+            "dica": "Entre aspas é texto. Juntar textos é colar um no outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 3 e b = 7. Você quer trocar os valores (a com 7 e b com 3). Qual sequência funciona?",
+            "alternativas": [
+              "a = b; b = a",
+              "b = a; a = b",
+              "aux = a; a = b; b = aux",
+              "a = 7; b = 7"
+            ],
+            "correta": 2,
+            "explicacao": "Com a auxiliar: aux = 3; a = 7; b = 3. Em \"a = b; b = a\", a vira 7 e depois b recebe 7 também: o 3 se perdeu.",
+            "dica": "Sem uma caixinha extra, um dos valores se perde logo na primeira linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "n = 2; depois n = n × n; depois n = n × n de novo. Quanto vale n?",
+            "alternativas": [
+              "8",
+              "4",
+              "6",
+              "16"
+            ],
+            "correta": 3,
+            "explicacao": "Primeiro: 2 × 2 = 4. Depois: 4 × 4 = 16. A segunda conta usa o valor novo, não o 2.",
+            "dica": "Faça passo a passo: n vezes n, e depois de novo com o resultado novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 5; b = a; depois a = a + 10. Quanto valem a e b?",
+            "alternativas": [
+              "a = 15 e b = 5",
+              "a = 15 e b = 15",
+              "a = 5 e b = 15",
+              "a = 10 e b = 5"
+            ],
+            "correta": 0,
+            "explicacao": "b copiou o 5 quando a valia 5. Depois só a mudou: 5 + 10 = 15. b continua 5.",
+            "dica": "b copiou o valor de a naquele momento; depois, só a mudou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "venceu = verdadeiro. Que tipo de valor está guardado?",
+            "alternativas": [
+              "número",
+              "texto",
+              "verdadeiro ou falso (sim ou não)",
+              "lista"
+            ],
+            "correta": 2,
+            "explicacao": "Esse tipo só tem duas respostas possíveis: verdadeiro ou falso. Programas usam muito para saber se algo aconteceu.",
+            "dica": "É o tipo de valor que só tem duas respostas possíveis."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A feira da vó Cida",
+    "texto": "Todo sábado, Júlia acompanha a avó Cida na feira do bairro. A avó leva uma lista escrita no verso de um envelope e uma calculadora velha, com os números meio apagados.\n\n— Primeiro a gente passeia, depois a gente compra — ela sempre diz.\n\nJúlia achava aquilo uma perda de tempo. Até o dia em que a avó mostrou duas barracas de tomate. Na primeira, o quilo custava R$ 7,00. Na outra, lá no fim da rua, custava R$ 5,50. Como elas precisavam de 2 quilos, economizaram R$ 3,00.\n\nNa volta, com as sacolas pesando, Júlia fez as contas de cabeça e sorriu. Tinham sobrado moedas do dinheiro separado para a feira. A avó guardou tudo num pote de vidro em cima da geladeira.\n\n— Esse pote é o prêmio da nossa paciência — explicou, piscando para a neta."
+  },
+  "escrita": {
+    "proposta": "Escreva de 5 a 8 linhas contando uma compra em que você ou alguém da sua família comparou preços antes de comprar. O que foi comprado? Quanto foi economizado? Se você não lembrar de nenhuma, invente uma ida à feira com a vó Cida."
+  }
+}

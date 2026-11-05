@@ -1,0 +1,896 @@
+{
+  "dia": 3,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Sistema nervoso",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "O sistema nervoso é a central de comando do corpo: recebe informações dos sentidos, decide o que fazer e manda ordens para músculos e órgãos. Ele trabalha sem parar, até enquanto você dorme.",
+          "Ele se divide em duas partes. O Sistema Nervoso Central (SNC) é formado pelo encéfalo, protegido pelo crânio, e pela medula espinal, protegida pela coluna. O Sistema Nervoso Periférico (SNP) é formado pelos nervos, que ligam o SNC ao corpo inteiro como fios elétricos.",
+          "O encéfalo tem partes com funções diferentes. O cérebro cuida do pensamento, da memória, da linguagem e dos movimentos voluntários. O cerebelo coordena os movimentos e o equilíbrio. O tronco encefálico controla funções automáticas, como respiração e batimentos do coração.",
+          "A célula do sistema nervoso é o neurônio. Ele recebe sinais pelos dendritos, processa no corpo celular e envia o impulso pelo axônio. A passagem do sinal de um neurônio para outro acontece na sinapse, com ajuda de substâncias chamadas neurotransmissores.",
+          "Nem tudo passa pelo cérebro primeiro. No ato reflexo, como tirar a mão de uma panela quente, a medula espinal responde sozinha e mais rápido; o cérebro só percebe a dor um instante depois."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Ao andar de bicicleta você pedala, mantém o equilíbrio e continua respirando sem pensar. Que partes do encéfalo estão agindo?",
+            "resolucao": "O cérebro comanda a decisão de pedalar (movimento voluntário), o cerebelo mantém o equilíbrio e coordena os movimentos, e o tronco encefálico controla a respiração automaticamente."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O sistema nervoso periférico tem uma parte que você comanda, a somática (mexer o braço, falar), e uma parte automática, a autônoma (batimento do coração, suor, digestão). A autônoma se divide em simpática, que prepara o corpo para lutar ou fugir (acelera o coração, dilata a pupila, aumenta a respiração), e parassimpática, que acalma e leva o corpo de volta ao repouso.",
+        "O impulso nervoso é elétrico dentro do neurônio e químico na sinapse, onde atuam os neurotransmissores. O álcool e outras drogas agem justamente aí, por isso atrapalham reflexos, memória e decisões. Dirigir depois de beber é perigoso porque o tempo de reação aumenta.",
+        "O arco reflexo tem um caminho certo: o receptor da pele sente o estímulo; o neurônio sensitivo leva o sinal até a medula; um neurônio de associação, na medula, faz a ligação; o neurônio motor leva a ordem; e o músculo se contrai. Só depois a informação da dor chega ao cérebro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a célula do sistema nervoso?",
+            "alternativas": [
+              "Hemácia",
+              "Neurônio",
+              "Osso",
+              "Músculo"
+            ],
+            "correta": 1,
+            "explicacao": "O neurônio é a célula que recebe, processa e envia os impulsos nervosos. Hemácia é célula do sangue.",
+            "dica": "É a célula que recebe e envia impulsos, citada no 4º parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O encéfalo fica protegido pelo:",
+            "alternativas": [
+              "Crânio",
+              "Estômago",
+              "Joelho",
+              "Pulmão"
+            ],
+            "correta": 0,
+            "explicacao": "O crânio é a caixa de ossos da cabeça que protege o encéfalo.",
+            "dica": "É a caixa de ossos da cabeça."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A medula espinal fica protegida pela:",
+            "alternativas": [
+              "Mão",
+              "Pele do rosto",
+              "Coluna vertebral",
+              "Costela"
+            ],
+            "correta": 2,
+            "explicacao": "A medula espinal passa por dentro da coluna vertebral, que funciona como um tubo de ossos.",
+            "dica": "É o eixo de ossos que vai do pescoço até o quadril."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os nervos fazem parte do:",
+            "alternativas": [
+              "Sistema digestório",
+              "Sistema Nervoso Central",
+              "Sistema respiratório",
+              "Sistema Nervoso Periférico"
+            ],
+            "correta": 3,
+            "explicacao": "Os nervos ligam o Sistema Nervoso Central ao resto do corpo e formam o Sistema Nervoso Periférico.",
+            "dica": "Eles ficam fora do crânio e da coluna, ligando tudo como fios."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual parte do encéfalo cuida do pensamento e da memória?",
+            "alternativas": [
+              "Cerebelo",
+              "Cérebro",
+              "Tronco encefálico",
+              "Medula espinal"
+            ],
+            "correta": 1,
+            "explicacao": "O cérebro cuida do pensamento, da memória, da linguagem e dos movimentos voluntários.",
+            "dica": "É a maior parte do encéfalo e cuida também da linguagem."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O Sistema Nervoso Central é formado por:",
+            "alternativas": [
+              "Nervos e músculos",
+              "Encéfalo e medula espinal",
+              "Coração e pulmões",
+              "Olhos e ouvidos"
+            ],
+            "correta": 1,
+            "explicacao": "O SNC reúne o encéfalo (dentro do crânio) e a medula espinal (dentro da coluna). Os nervos fazem parte do sistema periférico.",
+            "dica": "Um fica dentro do crânio e o outro dentro da coluna."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual parte do encéfalo está mais ligada ao equilíbrio e à coordenação dos movimentos?",
+            "alternativas": [
+              "Cérebro",
+              "Tronco encefálico",
+              "Cerebelo",
+              "Medula espinal"
+            ],
+            "correta": 2,
+            "explicacao": "O cerebelo ajusta os movimentos e o equilíbrio. Por isso andar de bicicleta ou se equilibrar num pé só depende muito dele.",
+            "dica": "Andar de bicicleta e ficar num pé só dependem muito dessa parte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao encostar a mão numa panela quente, você a puxa antes mesmo de pensar. Isso é:",
+            "alternativas": [
+              "Um ato voluntário comandado pelo cérebro",
+              "Uma resposta do estômago",
+              "Pura coincidência",
+              "Um ato reflexo comandado pela medula espinal"
+            ],
+            "correta": 3,
+            "explicacao": "No reflexo, o sinal vai até a medula espinal, que manda a ordem direto para o músculo. O caminho é mais curto, por isso a reação é mais rápida e protege o corpo.",
+            "dica": "No reflexo, o sinal faz um caminho curto, sem passar primeiro pelo cérebro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a região de comunicação entre dois neurônios?",
+            "alternativas": [
+              "Sinapse",
+              "Axônio",
+              "Dendrito",
+              "Córtex"
+            ],
+            "correta": 0,
+            "explicacao": "Na sinapse, o neurônio libera neurotransmissores que passam o sinal para o próximo. Axônio e dendrito são partes do próprio neurônio.",
+            "dica": "É o ponto de encontro entre dois neurônios, onde atuam os neurotransmissores."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o caminho do impulso nervoso dentro de um neurônio até o próximo:",
+            "itens": [
+              "Dendritos",
+              "Corpo celular",
+              "Axônio",
+              "Sinapse com o próximo neurônio"
+            ],
+            "explicacao": "Os dendritos recebem o sinal, o corpo celular processa, o axônio conduz o impulso e, na ponta, a sinapse transmite para o neurônio seguinte.",
+            "dica": "Receber, processar, conduzir e transmitir: pense nas partes do neurônio nessa ordem."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de bater a cabeça, uma pessoa passou a ter dificuldade de equilíbrio e de andar em linha reta. Qual parte pode ter sido afetada?",
+            "alternativas": [
+              "Cérebro",
+              "Tronco encefálico",
+              "Cerebelo",
+              "Medula espinal"
+            ],
+            "correta": 2,
+            "explicacao": "Equilíbrio e coordenação dos movimentos são funções do cerebelo.",
+            "dica": "Qual parte do encéfalo coordena os movimentos e o equilíbrio?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o ato reflexo é mais rápido do que um movimento pensado?",
+            "alternativas": [
+              "Porque o sinal vai só até a medula espinal e volta, num caminho mais curto",
+              "Porque usa o cérebro com mais força",
+              "Porque não usa neurônios",
+              "Porque só acontece de dia"
+            ],
+            "correta": 0,
+            "explicacao": "No reflexo, a medula responde sozinha, sem esperar o cérebro. O caminho é mais curto e a reação, mais rápida.",
+            "dica": "Compare o caminho: até a medula ou até o cérebro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você está dormindo e continua respirando. Quem controla isso?",
+            "alternativas": [
+              "O cérebro, porque você decide respirar",
+              "O cerebelo",
+              "Os músculos, sozinhos",
+              "O tronco encefálico"
+            ],
+            "correta": 3,
+            "explicacao": "O tronco encefálico controla funções automáticas, como respiração e batimentos do coração, mesmo durante o sono.",
+            "dica": "É a parte que cuida das funções automáticas, como a respiração e o coração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao ler esta pergunta, qual é o caminho da informação?",
+            "alternativas": [
+              "Olhos → nervos → cérebro",
+              "Cérebro → olhos → nervos",
+              "Medula → olhos → cérebro",
+              "Nervos → coração → cérebro"
+            ],
+            "correta": 0,
+            "explicacao": "Os olhos captam a luz, os nervos levam o sinal e o cérebro interpreta as letras e as palavras.",
+            "dica": "A informação começa no órgão do sentido que capta a luz e termina onde se pensa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um neurônio recebe o sinal por qual parte?",
+            "alternativas": [
+              "Axônio",
+              "Dendritos",
+              "Sinapse",
+              "Crânio"
+            ],
+            "correta": 1,
+            "explicacao": "Os dendritos recebem os sinais. O axônio conduz o impulso para a frente, e a sinapse é a ligação com o próximo neurônio.",
+            "dica": "São ramificações curtas, como galhos, na entrada do neurônio."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o caminho do arco reflexo ao encostar numa panela quente:",
+            "itens": [
+              "Receptor da pele sente o calor",
+              "Neurônio sensitivo leva o sinal até a medula",
+              "Neurônio de associação, na medula, faz a ligação",
+              "Neurônio motor leva a ordem",
+              "Músculo se contrai e a mão se afasta"
+            ],
+            "explicacao": "O sinal entra pela pele, vai pelo neurônio sensitivo até a medula, é ligado ao neurônio motor e chega ao músculo. O cérebro só percebe a dor depois.",
+            "dica": "O sinal entra pela pele, passa pela medula e sai até o músculo, sem esperar o cérebro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você leva um susto: o coração dispara e a pupila dilata. Qual parte do sistema nervoso agiu?",
+            "alternativas": [
+              "Parassimpática",
+              "Somática",
+              "Simpática",
+              "Cerebelo"
+            ],
+            "correta": 2,
+            "explicacao": "A parte simpática do sistema autônomo prepara o corpo para lutar ou fugir: acelera o coração e dilata a pupila. A somática é a que você controla por vontade.",
+            "dica": "É a parte do sistema autônomo que prepara o corpo para lutar ou fugir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o álcool aumenta o risco de acidentes de trânsito?",
+            "alternativas": [
+              "Porque deixa a visão colorida",
+              "Porque age nos neurotransmissores e deixa os reflexos mais lentos",
+              "Porque aumenta a força muscular",
+              "Porque acelera o pensamento"
+            ],
+            "correta": 1,
+            "explicacao": "O álcool interfere nas sinapses e deixa o tempo de reação maior. Na direção, um segundo a mais para frear pode causar uma tragédia.",
+            "dica": "Pense no que acontece na sinapse quando uma substância interfere nela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois do susto, a respiração volta ao normal e a digestão recomeça. Isso é obra da parte:",
+            "alternativas": [
+              "Simpática",
+              "Somática",
+              "Cerebelo",
+              "Parassimpática"
+            ],
+            "correta": 3,
+            "explicacao": "A parassimpática acalma o corpo e o leva ao repouso. Ela trabalha em equilíbrio com a simpática.",
+            "dica": "É a parte do sistema autônomo que acalma o corpo e o leva ao repouso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lesão na medula espinal, no meio das costas, pode fazer a pessoa perder movimentos das pernas, mas não dos braços. Por quê?",
+            "alternativas": [
+              "Porque os sinais entre o cérebro e as pernas passam pela medula abaixo da altura dos braços, e a lesão corta esse caminho",
+              "Porque as pernas não têm neurônios",
+              "Porque os braços são comandados só pelo cerebelo",
+              "Porque o coração para de bater"
+            ],
+            "correta": 0,
+            "explicacao": "A medula é como um cabo que desce pela coluna. Os nervos dos braços saem acima da lesão e continuam ligados; os das pernas saem abaixo e perdem a ligação com o cérebro.",
+            "dica": "Imagine a medula como um cabo que desce: o que fica acima da lesão continua ligado?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Necessidade x desejo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Necessidade é o que garante uma vida digna: alimentação, moradia, saúde, transporte, educação. Desejo é o que melhora a vida ou dá prazer, mas pode esperar ou ser trocado: o celular de último modelo, a skin do jogo, o tênis da marca famosa.",
+          "Existe uma zona cinzenta. Ter um tênis é necessidade; ter aquele tênis específico de R$ 800 é desejo. Ter um celular para estudar e se comunicar pode ser necessidade; trocar um celular que funciona bem só porque saiu outro é desejo.",
+          "Toda escolha tem um custo de oportunidade: aquilo de que você abre mão quando escolhe outra coisa. Gastar R$ 100 numa skin significa não ter esses R$ 100 para o curso, o passeio ou a reserva para uma emergência.",
+          "O comércio conhece nosso cérebro e usa gatilhos: “só hoje”, “últimas unidades”, contagem regressiva, influenciador mostrando o produto. Eles criam urgência para você comprar por impulso. Uma defesa simples é a regra das 48 horas: anote o desejo e espere dois dias antes de decidir.",
+          "Pequenos gastos repetidos parecem inofensivos, mas somam. Um lanche extra de R$ 12 três vezes por semana dá R$ 36 por semana e cerca de R$ 1.872 em um ano."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Pedro ganha R$ 150 por mês. Ele precisa reservar R$ 60 para a passagem extra do curso e quer um fone de R$ 120. Em quantos meses consegue comprar o fone guardando o que sobra?",
+            "resolucao": "Sobra por mês: 150 − 60 = 90. Em 1 mês ele tem 90 (não dá). Em 2 meses, 180 (dá e sobram 60). Ele precisa de 2 meses, e nesse tempo pode até pesquisar um preço melhor."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma ferramenta útil é calcular o preço em horas de trabalho. Se alguém ganha R$ 10 por hora, um tênis de R$ 300 custa 30 horas de trabalho. A pergunta muda de “quanto custa?” para “isso vale 30 horas da minha vida?”.",
+        "Gastos pequenos e repetidos parecem bobos, mas para achar o total do ano basta multiplicar: valor de cada vez × vezes por semana × 52 semanas. O contrário também vale: guardar R$ 50 todo mês forma R$ 600 em um ano, sem contar rendimento.",
+        "Assinaturas mensais (vídeos, música, jogos, apps) são desejos disfarçados, porque o valor é pequeno e cobrado sozinho todo mês. Três assinaturas de R$ 25 somam R$ 75 por mês, ou R$ 900 por ano. Revisar o que você realmente usa é parte de cuidar do dinheiro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é uma necessidade?",
+            "alternativas": [
+              "Comida",
+              "Skin de jogo",
+              "Tênis de marca famosa",
+              "Celular de último modelo"
+            ],
+            "correta": 0,
+            "explicacao": "Comida garante a vida. Os outros itens podem ser bons, mas são desejos: dá para esperar ou trocar.",
+            "dica": "Necessidade é o que garante uma vida digna."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um desejo?",
+            "alternativas": [
+              "Remédio receitado",
+              "Conta de luz",
+              "Fone novo quando o antigo funciona",
+              "Passagem de ônibus para a escola"
+            ],
+            "correta": 2,
+            "explicacao": "Se o fone antigo funciona, trocar é vontade, e não necessidade. Remédio, luz e passagem são necessidades.",
+            "dica": "Desejo melhora a vida ou dá prazer, mas pode esperar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A regra das 48 horas manda:",
+            "alternativas": [
+              "Comprar na hora",
+              "Esperar dois dias antes de decidir a compra",
+              "Gastar tudo em 48 horas",
+              "Pedir dinheiro emprestado"
+            ],
+            "correta": 1,
+            "explicacao": "48 horas são dois dias. Esperar deixa a vontade esfriar e ajuda a decidir com calma.",
+            "dica": "48 horas são quantos dias? A ideia é deixar a vontade esfriar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um lanche de R$ 10, comprado 2 vezes por semana, custa quanto por semana?",
+            "alternativas": [
+              "R$ 12",
+              "R$ 10",
+              "R$ 5",
+              "R$ 20"
+            ],
+            "correta": 3,
+            "explicacao": "10 + 10 = R$ 20 por semana. O R$ 12 sai de somar 10 + 2, misturando preço com quantidade.",
+            "dica": "Some o preço do lanche duas vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Últimas unidades!” é um exemplo de:",
+            "alternativas": [
+              "Gatilho para comprar por impulso",
+              "Imposto",
+              "Troco",
+              "Necessidade"
+            ],
+            "correta": 0,
+            "explicacao": "A frase cria a sensação de que vai acabar, para você decidir rápido, sem pensar.",
+            "dica": "É uma frase que o comércio usa para criar pressa."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é custo de oportunidade?",
+            "alternativas": [
+              "O preço com desconto de um produto",
+              "Aquilo de que você abre mão ao escolher uma opção",
+              "A taxa cobrada no cartão",
+              "O valor do frete de uma compra"
+            ],
+            "correta": 1,
+            "explicacao": "Todo dinheiro (e todo tempo) só pode ser usado uma vez. Ao escolher uma coisa, você deixa de ter a outra: esse é o custo de oportunidade.",
+            "dica": "Toda escolha tem um “preço escondido”: aquilo que você deixa de fazer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você gasta R$ 25 por semana em itens de jogo. Quanto isso dá em um ano (52 semanas)?",
+            "alternativas": [
+              "R$ 1.300",
+              "R$ 1.040",
+              "R$ 300",
+              "R$ 2.500"
+            ],
+            "correta": 0,
+            "explicacao": "25 × 52 = 25 × 50 + 25 × 2 = 1.250 + 50 = 1.300. O R$ 300 aparece quando se calcula 25 × 12, como se fossem meses, e não semanas.",
+            "dica": "Multiplique por 52, que é o número de semanas do ano, e não por 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual situação mostra um desejo disfarçado de necessidade?",
+            "alternativas": [
+              "Comprar o remédio receitado pelo médico",
+              "Comprar caderno para o ano letivo",
+              "Trocar o celular que funciona bem só porque saiu um modelo novo",
+              "Pagar a conta de luz"
+            ],
+            "correta": 2,
+            "explicacao": "O celular antigo ainda cumpre a função; a troca é vontade, não necessidade. Remédio, material escolar e luz são necessidades reais.",
+            "dica": "Procure a compra em que o item antigo ainda funciona bem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um anúncio diz: “Só hoje! Últimas unidades!”. Esse é um gatilho de:",
+            "alternativas": [
+              "Necessidade real do comprador",
+              "Desconto sempre garantido",
+              "Qualidade comprovada do produto",
+              "Escassez e urgência, que empurra a compra por impulso"
+            ],
+            "correta": 3,
+            "explicacao": "Criar a sensação de que vai acabar faz o cérebro decidir rápido, sem pensar. Isso não prova que o preço é bom nem que você precisa do produto.",
+            "dica": "Pense no que a frase “só hoje” faz com a pressa de quem lê."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos da regra das 48 horas:",
+            "itens": [
+              "Perceber a vontade de comprar",
+              "Anotar o item e o preço",
+              "Esperar 48 horas",
+              "Comparar preços, se ainda quiser",
+              "Decidir se compra agora, junta dinheiro ou desiste"
+            ],
+            "explicacao": "Anotar tira a decisão do calor do momento; esperar deixa a vontade esfriar; comparar evita pagar caro; só então vem a decisão consciente.",
+            "dica": "Primeiro perceber, depois registrar, depois esperar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Gabi tem R$ 200. Precisa de R$ 80 para o material escolar e quer um tênis de R$ 150. O que é mais sensato?",
+            "alternativas": [
+              "Comprar o tênis e ficar sem material",
+              "Comprar o material e guardar R$ 120 para o tênis, completando depois",
+              "Pedir emprestado e comprar tudo hoje",
+              "Não comprar nada"
+            ],
+            "correta": 1,
+            "explicacao": "Necessidade primeiro: 200 − 80 = 120. Faltam só R$ 30 para o tênis, que ela pode juntar. Pedir emprestado traz dívida para algo que pode esperar.",
+            "dica": "Necessidade primeiro. Quanto sobra depois do material?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um refrigerante de R$ 6 por dia, de segunda a sexta, durante 4 semanas, custa:",
+            "alternativas": [
+              "R$ 24",
+              "R$ 168",
+              "R$ 120",
+              "R$ 30"
+            ],
+            "correta": 2,
+            "explicacao": "Por semana: 6 × 5 = 30. Em 4 semanas: 30 × 4 = 120. O R$ 168 sai de contar 28 dias (6 × 28), incluindo os fins de semana.",
+            "dica": "Calcule o gasto de uma semana (5 dias) e multiplique pelo número de semanas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruno pode gastar R$ 100 num show ou num curso de violão. Escolheu o show. Qual é o custo de oportunidade?",
+            "alternativas": [
+              "Os R$ 100 do ingresso",
+              "O transporte até o show",
+              "Nada, porque ele gostou",
+              "O curso de violão de que ele abriu mão"
+            ],
+            "correta": 3,
+            "explicacao": "Custo de oportunidade é a alternativa que ficou para trás: o curso. Os R$ 100 são o preço, e não o custo de oportunidade.",
+            "dica": "Custo de oportunidade não é o preço: é a alternativa que ficou para trás."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual caso está na “zona cinzenta” entre necessidade e desejo?",
+            "alternativas": [
+              "Um tênis: ter um é necessidade, mas o modelo de R$ 800 é desejo",
+              "Arroz e feijão",
+              "Conta de água",
+              "Uma skin de jogo"
+            ],
+            "correta": 0,
+            "explicacao": "Ter tênis é necessário; escolher o modelo caro é desejo. Arroz, feijão e água são necessidades claras; a skin é desejo claro.",
+            "dica": "Procure algo em que o item é preciso, mas a versão escolhida é luxo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um app mostra “oferta acaba em 10 minutos!” num fone de R$ 150 que você não planejava comprar. O que fazer?",
+            "alternativas": [
+              "Comprar logo",
+              "Comprar dois",
+              "Pegar dinheiro emprestado",
+              "Anotar, esperar e pesquisar o preço em outras lojas antes de decidir"
+            ],
+            "correta": 3,
+            "explicacao": "A contagem regressiva é um gatilho de urgência. Se você não planejava, a regra das 48 horas protege seu dinheiro; muitas “ofertas” voltam depois.",
+            "dica": "A contagem regressiva quer que você decida sem pensar. Qual regra da lição ajuda?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Marina ganha R$ 12 por hora. Um celular custa R$ 1.800. Quantas horas de trabalho ele custa?",
+            "alternativas": [
+              "150 horas",
+              "180 horas",
+              "120 horas",
+              "1.500 horas"
+            ],
+            "correta": 0,
+            "explicacao": "1.800 ÷ 12 = 150 horas. Confira: 150 × 12 = 1.800. São quase quatro semanas de 40 horas.",
+            "dica": "Divida o preço pelo que ela ganha em uma hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três assinaturas custam R$ 20, R$ 25 e R$ 35 por mês. Quanto elas custam em um ano?",
+            "alternativas": [
+              "R$ 80",
+              "R$ 4.160",
+              "R$ 960",
+              "R$ 860"
+            ],
+            "correta": 2,
+            "explicacao": "Por mês: 20 + 25 + 35 = 80. No ano: 80 × 12 = 960. O R$ 4.160 é a pegadinha de multiplicar por 52, como se fossem semanas.",
+            "dica": "Some as três para achar o mês e multiplique pelos meses do ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Teo toma um açaí de R$ 15 duas vezes por semana. Se passar a tomar só um por semana e guardar a diferença, quanto junta em um ano?",
+            "alternativas": [
+              "R$ 1.560",
+              "R$ 780",
+              "R$ 360",
+              "R$ 180"
+            ],
+            "correta": 1,
+            "explicacao": "Ele economiza um açaí por semana: R$ 15 × 52 = R$ 780. O R$ 1.560 seria se cortasse os dois; R$ 360 e R$ 180 confundem semanas com meses.",
+            "dica": "Ele continua tomando um. Quanto economiza por semana? Multiplique pelo número de semanas do ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafa quer um videogame de R$ 2.400. Guarda R$ 150 por mês e gasta R$ 50 por mês em lanches extras. Se cortar os lanches e guardar esse valor também, quantos meses a menos ele vai levar?",
+            "alternativas": [
+              "12 meses",
+              "16 meses",
+              "8 meses",
+              "4 meses"
+            ],
+            "correta": 3,
+            "explicacao": "Antes: 2.400 ÷ 150 = 16 meses. Depois: 2.400 ÷ 200 = 12 meses. A diferença é 16 − 12 = 4 meses. As opções 12 e 16 são os tempos, e não a diferença.",
+            "dica": "Calcule o tempo guardando R$ 150 e depois guardando R$ 200. Compare os dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude mostra melhor o custo de oportunidade bem pensado?",
+            "alternativas": [
+              "Comprar tudo o que está em promoção",
+              "Comparar o que cada opção faz você perder e escolher a que vale mais para seus objetivos",
+              "Escolher sempre o mais barato, sem pensar",
+              "Comprar o que os amigos compram"
+            ],
+            "correta": 1,
+            "explicacao": "Pensar no custo de oportunidade é comparar alternativas, e não só preços. O mais barato pode não ser o que vale mais para você.",
+            "dica": "Custo de oportunidade é comparar alternativas, e não só preços."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Privacidade e dados pessoais",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Dado pessoal é qualquer informação que identifica você ou ajuda a identificar: nome, CPF, endereço, telefone, foto do rosto, voz, localização, escola. A Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018) define regras para empresas e órgãos usarem esses dados.",
+          "Alguns dados são chamados sensíveis, porque podem gerar discriminação: saúde, religião, opinião política, origem racial ou étnica, vida sexual e biometria (digital, rosto). Eles exigem cuidado ainda maior. Para dados de crianças, a LGPD exige o consentimento de um dos pais ou do responsável.",
+          "Muitos apps gratuitos ganham dinheiro com seus dados, usando-os para mostrar anúncios direcionados. Por isso vale desconfiar de permissões exageradas: um app de lanterna não precisa ver seus contatos nem sua localização.",
+          "Uma foto pode revelar mais do que parece: a fachada de casa, o nome da rua, o uniforme, o ponto de ônibus e até a localização gravada no arquivo. O que vai para a internet pode ser copiado e ficar lá para sempre, mesmo que você apague depois.",
+          "Hábitos que protegem: perfil privado, revisar quem vê suas postagens, desligar a localização da câmera, não aceitar desconhecidos e pensar antes de postar: “eu mostraria isso para um estranho na rua?”."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você quer postar uma foto em frente de casa, de uniforme, com a legenda “saindo para a escola!”. Que dados pessoais essa foto expõe?",
+            "resolucao": "A aparência da sua casa (e talvez o número), a escola em que você estuda, o horário em que sai de casa e o seu rosto. Juntando tudo, um estranho saberia onde e quando te encontrar."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A LGPD dá direitos ao dono dos dados, chamado titular: saber quais dados uma empresa tem sobre você, pedir correção, pedir que sejam apagados quando não houver motivo legal para guardá-los e retirar o consentimento. Quem fiscaliza é a ANPD (Autoridade Nacional de Proteção de Dados), que pode aplicar multas às empresas.",
+        "Metadados são dados sobre o dado. Numa foto, eles guardam a data, a hora, o modelo do celular e, às vezes, as coordenadas de GPS. Algumas redes apagam isso ao publicar, mas arquivos enviados por mensagem ou e-mail podem levar tudo junto.",
+        "Um perigo é o cruzamento de dados: informações que sozinhas parecem bobas (o nome do pet, a escola, o bairro, o aniversário), juntas, permitem adivinhar senhas, responder perguntas de segurança ou aplicar golpes. Quanto menos peças do quebra-cabeça você espalha, mais seguro fica."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um dado pessoal?",
+            "alternativas": [
+              "A cor do céu",
+              "O seu CPF",
+              "O nome de um rio",
+              "A capital do Brasil"
+            ],
+            "correta": 1,
+            "explicacao": "O CPF identifica você. Os outros são informações gerais, que não dizem quem você é.",
+            "dica": "Dado pessoal é o que identifica você."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lei brasileira protege os dados pessoais?",
+            "alternativas": [
+              "LGPD",
+              "ECA",
+              "CLT",
+              "CDC"
+            ],
+            "correta": 0,
+            "explicacao": "A Lei Geral de Proteção de Dados (LGPD) define como empresas e órgãos podem usar seus dados.",
+            "dica": "É a Lei Geral de Proteção de Dados. Junte as iniciais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Deixar o perfil privado serve para:",
+            "alternativas": [
+              "Ganhar mais seguidores",
+              "Deixar o celular mais rápido",
+              "Escolher quem vê suas postagens",
+              "Mudar a cor do app"
+            ],
+            "correta": 2,
+            "explicacao": "Com o perfil privado, só quem você aprova vê o que você posta.",
+            "dica": "Privado quer dizer que não fica aberto para qualquer um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que vai para a internet:",
+            "alternativas": [
+              "Some sozinho em um dia",
+              "Só seus pais veem",
+              "Fica sempre em segredo",
+              "Pode ser copiado e ficar lá para sempre"
+            ],
+            "correta": 3,
+            "explicacao": "Mesmo que você apague, alguém pode ter copiado ou feito captura de tela. Por isso vale pensar antes de postar.",
+            "dica": "Releia o 4º parágrafo: mesmo apagando, alguém pode ter guardado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de postar, uma boa pergunta é:",
+            "alternativas": [
+              "Eu mostraria isso para um estranho na rua?",
+              "Quantas curtidas vou ganhar?",
+              "Qual filtro é mais bonito?",
+              "Que horas são?"
+            ],
+            "correta": 0,
+            "explicacao": "Essa pergunta ajuda a lembrar que a postagem pode ser vista por desconhecidos.",
+            "dica": "A pergunta da lição pensa em segurança, e não em curtidas."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é considerado dado pessoal sensível pela LGPD?",
+            "alternativas": [
+              "A sua cor favorita",
+              "O nome do seu cachorro",
+              "Informações sobre saúde, religião ou biometria",
+              "O seu filme preferido"
+            ],
+            "correta": 2,
+            "explicacao": "Dados sensíveis são os que podem levar a discriminação, como saúde, religião e biometria. Eles têm proteção reforçada na lei.",
+            "dica": "Procure a opção ligada a algo que pode gerar discriminação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Segundo a LGPD, para usar dados de uma criança, a empresa precisa de:",
+            "alternativas": [
+              "Nada, basta a criança clicar em “aceitar”",
+              "Consentimento de pelo menos um dos pais ou do responsável",
+              "Autorização da escola",
+              "Pagar uma taxa ao governo"
+            ],
+            "correta": 1,
+            "explicacao": "A LGPD exige consentimento específico de um dos pais ou do responsável legal para dados de crianças. O clique da própria criança não basta.",
+            "dica": "Para dados de crianças, a lei pede a concordância de um adulto responsável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma foto tirada com a localização da câmera ligada pode revelar:",
+            "alternativas": [
+              "O lugar exato onde ela foi tirada",
+              "Somente as cores da imagem",
+              "O seu tipo sanguíneo",
+              "A senha do Wi-Fi"
+            ],
+            "correta": 0,
+            "explicacao": "Muitos celulares gravam a posição de GPS junto com a foto. Se o arquivo for compartilhado, essa informação pode ir junto.",
+            "dica": "Muitos celulares gravam o GPS junto com a imagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um app de lanterna pede acesso aos seus contatos e à sua localização. O que fazer?",
+            "alternativas": [
+              "Aceitar tudo para o app funcionar",
+              "Dar acesso só aos contatos",
+              "Mandar a senha da sua conta",
+              "Negar, porque uma lanterna não precisa desses dados, e procurar outro app"
+            ],
+            "correta": 3,
+            "explicacao": "Permissão deve fazer sentido para a função do app. Lanterna só precisa acender a luz; pedir contatos e localização indica coleta de dados.",
+            "dica": "Pergunte: uma lanterna precisa disso para acender a luz?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem uma revisão de privacidade da sua conta:",
+            "itens": [
+              "Abrir as configurações da conta",
+              "Deixar o perfil privado",
+              "Revisar quem pode ver e comentar as postagens",
+              "Desligar a localização nas fotos",
+              "Conferir quais apps têm acesso à conta"
+            ],
+            "explicacao": "Tudo começa nas configurações. Fechar o perfil é a proteção mais ampla; depois ajustamos os detalhes (quem vê, localização) e, por fim, cortamos apps que não usamos mais.",
+            "dica": "Comece entrando no lugar certo do app; depois vá do mais amplo ao detalhe."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual postagem expõe MAIS a sua segurança?",
+            "alternativas": [
+              "Foto de um pôr do sol",
+              "Desenho que você fez",
+              "Vídeo ao vivo mostrando a rua de casa e dizendo “sozinho em casa até as 18h”",
+              "Foto do seu lanche"
+            ],
+            "correta": 2,
+            "explicacao": "Ela revela onde você mora, que está sem adulto e até que horas. Juntos, esses dados tornam você um alvo fácil.",
+            "dica": "Procure a postagem que diz onde você está e quando está sem adulto por perto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um jogo grátis pede acesso à câmera, ao microfone e aos contatos. Por que isso é um alerta?",
+            "alternativas": [
+              "Porque jogos não podem ter som",
+              "Porque permissões além da função podem servir para coletar dados e vender anúncios",
+              "Porque o jogo vai ficar pago",
+              "Porque o celular vai desligar"
+            ],
+            "correta": 1,
+            "explicacao": "Muitos apps gratuitos ganham dinheiro com seus dados. Se a permissão não faz sentido para a função, desconfie.",
+            "dica": "Pense em como muitos apps gratuitos ganham dinheiro, segundo a lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é dado sensível, segundo a LGPD?",
+            "alternativas": [
+              "Seu apelido",
+              "Seu time de futebol",
+              "Sua série na escola",
+              "Sua biometria (impressão digital)"
+            ],
+            "correta": 3,
+            "explicacao": "Biometria é dado sensível, como saúde e religião. Por isso exige proteção reforçada.",
+            "dica": "Dado sensível pode levar a discriminação ou é uma característica do seu corpo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma colega postou uma foto sua sem pedir, e você não gostou. Qual é a atitude mais adequada?",
+            "alternativas": [
+              "Pedir com educação que ela apague e, se não resolver, denunciar na plataforma ou contar a um adulto",
+              "Postar uma foto feia dela",
+              "Ignorar para sempre",
+              "Apagar a sua conta"
+            ],
+            "correta": 0,
+            "explicacao": "Começar pelo diálogo resolve muitos casos. Se não funcionar, as ferramentas de denúncia e a ajuda de um adulto são o caminho. Vingança só piora.",
+            "dica": "Comece pelo diálogo e, se não funcionar, use as ferramentas de denúncia e peça ajuda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação de dados permite a um estranho te encontrar?",
+            "alternativas": [
+              "Cor favorita e signo",
+              "Nome da escola, horário de saída e foto do uniforme",
+              "Nome do seu pet e comida favorita",
+              "Música preferida e série favorita"
+            ],
+            "correta": 1,
+            "explicacao": "Escola, horário e uniforme dizem onde e quando você estará. As outras combinações não indicam lugar nem hora.",
+            "dica": "Pense em dados que dizem onde e quando você estará."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela LGPD, o que você pode pedir a uma empresa que guarda seus dados?",
+            "alternativas": [
+              "Que ela pague você pelos dados todo mês",
+              "Saber quais dados ela tem, corrigi-los e pedir que apague quando não houver motivo legal para guardar",
+              "Que ela apague os dados de outras pessoas",
+              "Nada, porque os dados passam a ser dela"
+            ],
+            "correta": 1,
+            "explicacao": "O titular tem direito de acesso, correção e eliminação, entre outros. Os dados continuam sendo seus, e não da empresa.",
+            "dica": "Releia o aprofundamento: o titular tem direitos de acesso, correção e eliminação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você manda por e-mail uma foto tirada no quintal de casa, com a localização ligada. Qual risco existe a mais?",
+            "alternativas": [
+              "O arquivo pode levar os metadados com as coordenadas de GPS da sua casa",
+              "A foto fica em preto e branco",
+              "O e-mail para de funcionar",
+              "Nenhum, porque o e-mail apaga tudo"
+            ],
+            "correta": 0,
+            "explicacao": "Os metadados viajam dentro do arquivo. Quem receber pode descobrir o ponto exato onde a foto foi tirada.",
+            "dica": "Pense no que está escondido dentro do arquivo, além da imagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sua senha é “Thor2012”. Você posta: “Feliz aniversário, Thor! Meu cachorro desde 2012.” Qual é o problema?",
+            "alternativas": [
+              "Nenhum, cachorro não é dado pessoal",
+              "A postagem fica feia",
+              "Cruzando a postagem com o seu perfil, alguém pode descobrir sua senha",
+              "O cachorro pode ficar famoso"
+            ],
+            "correta": 2,
+            "explicacao": "A senha é o nome do cachorro mais o ano, e a postagem entrega os dois. É o cruzamento de dados do aprofundamento.",
+            "dica": "Junte as informações da postagem e compare com a senha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem fiscaliza o cumprimento da LGPD e pode multar empresas?",
+            "alternativas": [
+              "O Conselho Tutelar",
+              "A escola",
+              "A Polícia Militar",
+              "A ANPD"
+            ],
+            "correta": 3,
+            "explicacao": "A ANPD (Autoridade Nacional de Proteção de Dados) é o órgão criado para fiscalizar a LGPD e aplicar sanções.",
+            "dica": "É uma autoridade nacional criada só para cuidar da proteção de dados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pergunta de segurança do banco é “nome da sua primeira escola”. Por que postar foto antiga do uniforme com o nome da escola é arriscado?",
+            "alternativas": [
+              "Porque uniforme é proibido nas redes",
+              "Porque o banco cobra multa",
+              "Porque a foto pode ficar borrada",
+              "Porque um golpista pode usar essa informação para responder à pergunta e invadir a conta"
+            ],
+            "correta": 3,
+            "explicacao": "Perguntas de segurança usam dados pessoais “bobos”. Se eles estão públicos, viram uma chave para golpistas.",
+            "dica": "Pense em quem mais poderia responder àquela pergunta de segurança olhando suas fotos."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A corrida mais rápida acontece dentro de você",
+    "texto": "Pense na última vez em que você pisou numa peça de brinquedo no escuro. Antes de conseguir dizer “ai!”, o seu pé já tinha saído do chão. Essa reação relâmpago é obra do sistema nervoso, uma rede tão rápida que parece mágica.\n\nO encéfalo humano tem cerca de 86 bilhões de neurônios, mais de dez vezes o número de pessoas que vivem hoje na Terra. Cada um deles pode se ligar a milhares de outros, formando trilhões de conexões. É por esses caminhos que viajam os impulsos nervosos.\n\nE eles viajam depressa. Nos neurônios mais rápidos, revestidos por uma camada de gordura chamada bainha de mielina, o impulso pode passar de 100 metros por segundo, mais de 400 quilômetros por hora. É mais veloz do que um carro de Fórmula 1 na reta.\n\nNo caso do pé machucado, o sinal nem espera o cérebro: vai até a medula espinal, que manda os músculos da perna se contraírem na hora. Só depois a mensagem chega ao cérebro, e aí sim você sente a dor e entende o que aconteceu.\n\nO sistema nervoso também muda com o uso. Cada vez que você treina uma habilidade, como tocar violão ou resolver equações, as conexões envolvidas ficam mais fortes. Os cientistas chamam isso de plasticidade. Em outras palavras: estudar literalmente reforma o seu cérebro."
+  },
+  "escrita": {
+    "proposta": "Escolha uma habilidade que você gostaria de aprender ou melhorar (um instrumento, um esporte, uma matéria da escola). Escreva de 8 a 12 linhas explicando, com o que você leu sobre plasticidade, por que treinar um pouco todo dia funciona melhor do que treinar muito de uma vez só. Termine com um plano de treino de uma semana."
+  }
+}

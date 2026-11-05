@@ -1,0 +1,899 @@
+{
+  "dia": 11,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Expressões algébricas: letras que valem números",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Uma expressão algébrica mistura números, letras e operações, como 2x + 3. As letras (variáveis) representam números que ainda não conhecemos ou que podem mudar.",
+          "Para achar o valor numérico, troque a letra pelo número e faça as contas, respeitando a ordem das operações. Se x = 4, então 2x + 3 = 2·4 + 3 = 8 + 3 = 11.",
+          "Termos semelhantes têm a mesma parte literal (mesmas letras com os mesmos expoentes), como 3x e 5x, ou 2a² e a². Só eles podem ser juntados: 3x + 5x = 8x. Já 3x + 5y fica como está, e 4m e 4m² também não se juntam.",
+          "Expressões descrevem situações reais. \"O dobro de um número mais 7\" vira 2n + 7. Uma corrida de aplicativo com taxa fixa de R$ 5 e R$ 2 por quilômetro custa 5 + 2k reais, em que k é a distância em km."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Simplifique 4a + 3b − a + 2b.",
+            "resolucao": "Junte os semelhantes: (4a − a) + (3b + 2b) = 3a + 5b."
+          },
+          {
+            "enunciado": "Uma corrida custa 5 + 2k reais. Quanto custa uma corrida de 8 km?",
+            "resolucao": "Troque k por 8: 5 + 2·8 = 5 + 16 = 21. A corrida custa R$ 21,00."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Propriedade distributiva: o número de fora multiplica cada termo de dentro do parêntese. 3(x + 4) = 3x + 12. Quando há um sinal de menos antes do parêntese, todos os sinais de dentro trocam: −(2a − 5) = −2a + 5. Esquecer essa troca é o erro mais comum.",
+        "Na multiplicação de termos, multiplique os coeficientes e some os expoentes das letras iguais: 2x · 3x = 6x² e a · a² = a³. Na soma, os expoentes nunca mudam: x² + x² = 2x², e não x⁴.",
+        "Expressões servem para descrever padrões. Em quadrados de palitos colocados lado a lado, 1 quadrado usa 4 palitos, 2 usam 7 e 3 usam 10: cada quadrado novo acrescenta 3. Com n quadrados, são 3n + 1 palitos."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na expressão 2x + 3, qual é a variável (a letra)?",
+            "alternativas": [
+              "2",
+              "x",
+              "3",
+              "+"
+            ],
+            "correta": 1,
+            "explicacao": "A variável é a letra x: ela representa um número que ainda não conhecemos. O 2 e o 3 são números, e o + é uma operação.",
+            "dica": "Procure o símbolo que não é número nem sinal de operação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se x = 2, quanto vale x + 5?",
+            "alternativas": [
+              "7",
+              "25",
+              "10",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "Troque x por 2: 2 + 5 = 7. O 25 aparece quando se escreve o 2 do lado do 5, em vez de somar.",
+            "dica": "Troque a letra pelo número e faça a soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá 3x + 5x?",
+            "alternativas": [
+              "15x",
+              "8x²",
+              "8x",
+              "35x"
+            ],
+            "correta": 2,
+            "explicacao": "3x e 5x são semelhantes (mesma letra), então somamos só os números da frente: 3 + 5 = 8. Fica 8x, e o expoente não muda.",
+            "dica": "São termos semelhantes: some só os números da frente e mantenha a letra como está."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve \"o dobro de um número\" usando a letra n?",
+            "alternativas": [
+              "n + 2",
+              "n²",
+              "n − 2",
+              "2n"
+            ],
+            "correta": 3,
+            "explicacao": "Dobro é duas vezes o número: 2 · n, que escrevemos 2n. Já n² é n vezes n, que é outra coisa.",
+            "dica": "Dobro quer dizer duas vezes o número; pense em multiplicação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma corrida custa 5 + 2k reais, em que k é a distância em km. Quanto custa uma corrida de 3 km?",
+            "alternativas": [
+              "R$ 10,00",
+              "R$ 11,00",
+              "R$ 21,00",
+              "R$ 7,00"
+            ],
+            "correta": 1,
+            "explicacao": "Troque k por 3: 5 + 2 · 3 = 5 + 6 = 11. A corrida custa R$ 11,00.",
+            "dica": "Primeiro faça 2 vezes 3, depois some a taxa fixa."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de 3x − 4 quando x = 5?",
+            "alternativas": [
+              "19",
+              "11",
+              "1",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "Troque x por 5: 3·5 − 4 = 15 − 4 = 11. Primeiro a multiplicação, depois a subtração.",
+            "dica": "Substitua x por 5 e faça primeiro a multiplicação, depois a subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Simplificando 7y + 2 − 3y + 5, obtemos:",
+            "alternativas": [
+              "10y + 7",
+              "4y + 3",
+              "4y + 7",
+              "11y"
+            ],
+            "correta": 2,
+            "explicacao": "Termos com y: 7y − 3y = 4y. Números: 2 + 5 = 7. Resultado: 4y + 7. Não dá para juntar 4y com 7, porque não são semelhantes.",
+            "dica": "Junte os termos com y entre si e os números entre si; letra e número sozinho não se juntam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual expressão representa \"o triplo de um número menos 8\"?",
+            "alternativas": [
+              "3n − 8",
+              "3 − 8n",
+              "n³ − 8",
+              "3(n − 8)"
+            ],
+            "correta": 0,
+            "explicacao": "Triplo de n é 3n; depois tiramos 8: 3n − 8. n³ seria o cubo, e 3(n − 8) seria o triplo de \"n menos 8\".",
+            "dica": "Triplo é multiplicar por 3; o \"menos 8\" vem depois, fora de parêntese."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais termos são semelhantes?",
+            "alternativas": [
+              "2x e 2y",
+              "5a² e −3a²",
+              "4m e 4m²",
+              "7 e 7b"
+            ],
+            "correta": 1,
+            "explicacao": "5a² e −3a² têm a mesma parte literal (a²). O coeficiente pode ser diferente; o que precisa ser igual são as letras e os expoentes.",
+            "dica": "Semelhantes têm as mesmas letras com os mesmos expoentes; o número da frente pode mudar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um plano de celular cobra 30 + 0,5m reais, em que m é o número de mensagens extras. Quanto paga quem mandou 40 mensagens extras?",
+            "alternativas": [
+              "R$ 70,00",
+              "R$ 30,50",
+              "R$ 20,00",
+              "R$ 50,00"
+            ],
+            "correta": 3,
+            "explicacao": "Troque m por 40: 30 + 0,5·40 = 30 + 20 = 50. Os R$ 20,00 são só a parte das mensagens; falta somar a parte fixa.",
+            "dica": "Calcule a parte das mensagens e não esqueça de somar a parte fixa do plano."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Simplifique 3(x + 4) − 2x.",
+            "alternativas": [
+              "x + 12",
+              "5x + 4",
+              "x + 4",
+              "5x + 12"
+            ],
+            "correta": 0,
+            "explicacao": "Distributiva: 3(x + 4) = 3x + 12. Depois: 3x + 12 − 2x = x + 12. Quem esquece de multiplicar o 4 pelo 3 chega em x + 4.",
+            "dica": "Use a distributiva no parêntese primeiro e depois junte os termos com x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de 2a² − 3a quando a = 3?",
+            "alternativas": [
+              "27",
+              "9",
+              "3",
+              "18"
+            ],
+            "correta": 1,
+            "explicacao": "Primeiro a potência: a² = 9. Depois: 2 · 9 − 3 · 3 = 18 − 9 = 9. Quem faz (2 · 3)² primeiro chega em 36 − 9 = 27, que está errado.",
+            "dica": "Calcule a potência antes: a² vem antes de multiplicar por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Simplifique 5m − (2m − 6).",
+            "alternativas": [
+              "3m − 6",
+              "7m − 6",
+              "3m + 6",
+              "3m"
+            ],
+            "correta": 2,
+            "explicacao": "O menos antes do parêntese troca os sinais: 5m − 2m + 6 = 3m + 6. O erro comum é trocar só o primeiro sinal e chegar em 3m − 6.",
+            "dica": "O sinal de menos antes do parêntese troca o sinal de cada termo de dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo tem lados x e x + 3. Qual expressão dá o perímetro?",
+            "alternativas": [
+              "2x + 3",
+              "4x + 6",
+              "x² + 3x",
+              "4x + 3"
+            ],
+            "correta": 1,
+            "explicacao": "Perímetro é a soma dos 4 lados: x + x + (x + 3) + (x + 3) = 4x + 6. A expressão x² + 3x seria a área, não o perímetro.",
+            "dica": "Perímetro é a soma dos quatro lados: dois de cada medida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O ingresso do cinema custa R$ 18 e a pipoca R$ 12. Vão n amigos, cada um com ingresso e pipoca, e o grupo paga um estacionamento único de R$ 10. Qual expressão dá o total?",
+            "alternativas": [
+              "18n + 12 + 10",
+              "40n",
+              "30 + 10n",
+              "30n + 10"
+            ],
+            "correta": 3,
+            "explicacao": "Cada amigo gasta 18 + 12 = 30, então n amigos gastam 30n. O estacionamento é um só: + 10. Total: 30n + 10.",
+            "dica": "Cada amigo gasta ingresso mais pipoca; o estacionamento é pago uma vez só."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quadrados de palitos lado a lado: 1 quadrado usa 4 palitos, 2 usam 7 e 3 usam 10. Quantos palitos são necessários para 20 quadrados?",
+            "alternativas": [
+              "80",
+              "61",
+              "60",
+              "63"
+            ],
+            "correta": 1,
+            "explicacao": "Cada quadrado novo acrescenta 3 palitos, porque divide um lado com o anterior. A regra é 3n + 1: 3 · 20 + 1 = 61. O 80 é a pegadinha de contar 4 palitos para cada quadrado.",
+            "dica": "Descubra quantos palitos cada quadrado novo acrescenta e escreva uma expressão com n."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Simplifique 2x · 3x + x² − 4x².",
+            "alternativas": [
+              "3x⁴",
+              "11x²",
+              "3x²",
+              "5x²"
+            ],
+            "correta": 2,
+            "explicacao": "Na multiplicação, 2x · 3x = 6x². Depois, 6x² + x² − 4x² = (6 + 1 − 4)x² = 3x². O 11x² vem de esquecer o sinal de menos do 4x².",
+            "dica": "Na multiplicação os expoentes se somam; depois junte os termos semelhantes com cuidado nos sinais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana simplificou x² + x² como x⁴. Testando com x = 3, qual é o valor certo da expressão e qual seria o valor de Ana?",
+            "alternativas": [
+              "12 e 81",
+              "9 e 81",
+              "18 e 18",
+              "18 e 81"
+            ],
+            "correta": 3,
+            "explicacao": "Certo: 3² + 3² = 9 + 9 = 18. O de Ana: 3⁴ = 81. Como os valores são diferentes, a simplificação dela está errada. O certo é x² + x² = 2x², que dá 2 · 9 = 18.",
+            "dica": "Calcule a expressão original trocando x por 3 e compare com 3 elevado à quarta."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Com x = −2, ordene as expressões da de menor valor para a de maior valor:",
+            "itens": [
+              "2x",
+              "x − 1",
+              "x²",
+              "3 − x"
+            ],
+            "explicacao": "2x = −4; x − 1 = −3; x² = (−2)² = 4; 3 − x = 3 + 2 = 5. Repare que o negativo ao quadrado fica positivo e que tirar um negativo é somar.",
+            "dica": "Troque x por −2 em cada uma; lembre que número negativo ao quadrado fica positivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um app de entregas cobra R$ 6 de taxa e R$ 1,50 por km. Outro cobra R$ 3 de taxa e R$ 2 por km. Em qual distância os dois custam o mesmo?",
+            "alternativas": [
+              "6 km",
+              "4 km",
+              "3 km",
+              "9 km"
+            ],
+            "correta": 0,
+            "explicacao": "Expressões: 6 + 1,5k e 3 + 2k. Testando k = 6: 6 + 9 = 15 e 3 + 12 = 15. Os dois custam R$ 15. Com menos de 6 km, o segundo é mais barato; com mais, o primeiro.",
+            "dica": "Monte a expressão de cada app e teste distâncias até os dois preços ficarem iguais."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Juros compostos a seu favor",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Juro é uma espécie de \"aluguel\" do dinheiro. Quem deixa o dinheiro guardado rendendo recebe juros; quem pega dinheiro emprestado paga juros.",
+          "Nos juros compostos, o juro de cada período é calculado sobre o valor já acumulado, e não só sobre o valor inicial. É o famoso \"juro sobre juro\".",
+          "Exemplo: R$ 1.000 a 1% ao mês. Mês 1: 1.000 + 10 = 1.010,00. Mês 2: 1.010 + 10,10 = 1.020,10. Mês 3: 1.020,10 + 10,20 = 1.030,30. Cada mês o juro fica um pouco maior, e com o tempo o crescimento acelera.",
+          "O ingrediente principal é o tempo. Começar cedo, mesmo com pouco, e ser constante costuma valer mais do que começar tarde com muito. A regra dos 72 dá uma estimativa: divida 72 pela taxa anual para saber em quantos anos o dinheiro dobra. A 6% ao ano, 72 ÷ 6 = 12 anos.",
+          "Atenção: o mesmo mecanismo trabalha contra quem deve. Dívidas com juros altos crescem como bola de neve — assunto do dia 13."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "R$ 200 guardados rendendo 10% ao ano, com juros compostos. Quanto vira em 2 anos?",
+            "resolucao": "Ano 1: 200 + 20 = 220. Ano 2: 220 + 22 = 242. Com juros simples (sempre 10% de 200), daria 240. A diferença de R$ 2 é o juro que o próprio juro rendeu."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Existe uma fórmula para não precisar fazer mês a mês: montante = capital × (1 + taxa)^tempo. R$ 1.000 a 10% ao ano por 3 anos: 1.000 × 1,1³ = 1.000 × 1,331 = R$ 1.331. A taxa e o tempo precisam estar na mesma unidade (mês com mês, ano com ano).",
+        "Taxas mensais não se somam simplesmente. 1% ao mês durante 12 meses dá cerca de 12,7% ao ano, e não 12%, porque o juro de cada mês também rende.",
+        "Inflação é a subida geral dos preços. Se o dinheiro rende 6% ao ano e os preços sobem 4%, o ganho real fica perto de 2%. Dinheiro parado em casa não rende nada e perde poder de compra."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem deixa o dinheiro guardado rendendo:",
+            "alternativas": [
+              "paga juros",
+              "recebe juros",
+              "perde tudo",
+              "paga multa"
+            ],
+            "correta": 1,
+            "explicacao": "Juro é o \"aluguel\" do dinheiro. Quem deixa o dinheiro rendendo recebe esse aluguel; quem pega emprestado paga.",
+            "dica": "Pense no juro como um aluguel do dinheiro: quem empresta ganha o aluguel."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nos juros compostos, o juro de cada mês é calculado sobre:",
+            "alternativas": [
+              "só o valor inicial",
+              "nada",
+              "o valor já acumulado",
+              "metade do valor inicial"
+            ],
+            "correta": 2,
+            "explicacao": "Nos juros compostos, o juro do mês anterior entra na base. Por isso se diz \"juro sobre juro\".",
+            "dica": "Lembre do \"juro sobre juro\": o juro do mês anterior entra na conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o ingrediente principal dos juros compostos?",
+            "alternativas": [
+              "O tempo",
+              "A sorte",
+              "A cor da nota",
+              "O nome do banco"
+            ],
+            "correta": 0,
+            "explicacao": "Quanto mais tempo o dinheiro fica rendendo, mais o juro sobre juro acelera. Por isso começar cedo faz tanta diferença.",
+            "dica": "A lição diz que começar cedo vale muito; o que fica maior quando começamos cedo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100 rendendo 10% em um mês viram:",
+            "alternativas": [
+              "R$ 101,00",
+              "R$ 200,00",
+              "R$ 90,00",
+              "R$ 110,00"
+            ],
+            "correta": 3,
+            "explicacao": "10% de 100 é 10. Somando: 100 + 10 = 110.",
+            "dica": "Calcule 10% de 100 e some ao valor inicial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela regra dos 72, a 6% ao ano o dinheiro dobra em cerca de:",
+            "alternativas": [
+              "6 anos",
+              "12 anos",
+              "72 anos",
+              "78 anos"
+            ],
+            "correta": 1,
+            "explicacao": "72 ÷ 6 = 12. Então, a 6% ao ano, o dinheiro dobra em cerca de 12 anos.",
+            "dica": "Divida 72 pela taxa anual."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa \"juro sobre juro\"?",
+            "alternativas": [
+              "O juro de cada período é calculado sobre o valor já acumulado",
+              "O juro é sempre o mesmo valor todo mês",
+              "O banco cobra a mesma taxa duas vezes",
+              "Só quem deve dinheiro recebe juros"
+            ],
+            "correta": 0,
+            "explicacao": "Nos juros compostos, o juro do mês anterior passa a fazer parte da base. Por isso, o juro de cada período vai crescendo.",
+            "dica": "Pense no que acontece com o juro do mês anterior: ele fica parado ou passa a render também?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100 rendendo 10% ao mês, com juros compostos. Quanto haverá depois de 2 meses?",
+            "alternativas": [
+              "R$ 120,00",
+              "R$ 121,00",
+              "R$ 110,00",
+              "R$ 200,00"
+            ],
+            "correta": 1,
+            "explicacao": "Mês 1: 100 + 10 = 110. Mês 2: 110 + 11 = 121. R$ 120,00 seria juros simples, que não rendem sobre o juro do mês anterior.",
+            "dica": "Calcule mês a mês: 10% do saldo no 1º mês e depois 10% do novo saldo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela regra dos 72, com uma taxa de 8% ao ano, em quanto tempo o dinheiro dobra, aproximadamente?",
+            "alternativas": [
+              "8 anos",
+              "72 anos",
+              "6 anos",
+              "9 anos"
+            ],
+            "correta": 3,
+            "explicacao": "72 ÷ 8 = 9. Então, a 8% ao ano, o dinheiro dobra em cerca de 9 anos. É uma estimativa, não uma conta exata.",
+            "dica": "Use a regra dos 72: divida 72 pela taxa anual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lara e Bia guardam R$ 50 por mês, com a mesma taxa. Lara começa aos 15 anos; Bia, aos 25. Aos 40, quem tende a ter mais?",
+            "alternativas": [
+              "Bia, porque é mais velha",
+              "As duas terão o mesmo valor",
+              "Lara, porque o dinheiro dela rendeu por mais tempo",
+              "Depende só da sorte"
+            ],
+            "correta": 2,
+            "explicacao": "Lara depositou por mais anos e, principalmente, seus primeiros depósitos tiveram 25 anos para render juro sobre juro. Tempo é o motor dos juros compostos.",
+            "dica": "Compare por quantos anos o dinheiro de cada uma ficou rendendo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene, do menor para o maior, o saldo de R$ 1.000 rendendo 1% ao mês (juros compostos):",
+            "itens": [
+              "R$ 1.000,00 (início)",
+              "R$ 1.010,00 (mês 1)",
+              "R$ 1.020,10 (mês 2)",
+              "R$ 1.030,30 (mês 3)"
+            ],
+            "explicacao": "Cada mês soma 1% do saldo atual: +10,00, depois +10,10, depois +10,20. O acréscimo cresce porque a base cresce.",
+            "dica": "Cada mês acrescenta 1% do saldo atual, então o saldo só aumenta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 2.000 rendendo 5% ao mês, com juros compostos. Quanto haverá depois de 2 meses?",
+            "alternativas": [
+              "R$ 2.200,00",
+              "R$ 2.205,00",
+              "R$ 2.100,00",
+              "R$ 2.010,00"
+            ],
+            "correta": 1,
+            "explicacao": "Mês 1: 2.000 + 100 = 2.100. Mês 2: 2.100 + 105 = 2.205. R$ 2.200 seria juros simples, sempre 5% de 2.000.",
+            "dica": "Mês 1: some 5% de 2.000. Mês 2: calcule 5% sobre o novo saldo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 500 a 10% ao ano por 3 anos. Quanto os juros compostos rendem a MAIS que os juros simples?",
+            "alternativas": [
+              "R$ 15,50",
+              "R$ 15,00",
+              "R$ 165,50",
+              "R$ 0,00"
+            ],
+            "correta": 0,
+            "explicacao": "Simples: 3 × 50 = 150, total R$ 650. Compostos: 550, depois 605, depois 665,50. Diferença: 665,50 − 650 = R$ 15,50.",
+            "dica": "Calcule os dois: no simples, o juro é sempre 10% de 500; no composto, faça ano a ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruno quer que seu dinheiro dobre em 8 anos. Pela regra dos 72, de qual taxa anual ele precisa, aproximadamente?",
+            "alternativas": [
+              "8% ao ano",
+              "72% ao ano",
+              "9% ao ano",
+              "64% ao ano"
+            ],
+            "correta": 2,
+            "explicacao": "A regra funciona ao contrário: 72 ÷ 8 = 9. Ele precisa de cerca de 9% ao ano.",
+            "dica": "A regra também funciona ao contrário: divida 72 pelo número de anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A 6% ao ano o dinheiro dobra a cada 12 anos. Se alguém guarda R$ 1.000 aos 12 anos de idade e não mexe mais, quanto terá, aproximadamente, aos 48?",
+            "alternativas": [
+              "R$ 4.000",
+              "R$ 3.000",
+              "R$ 6.000",
+              "R$ 8.000"
+            ],
+            "correta": 3,
+            "explicacao": "De 12 a 48 anos são 36 anos, ou seja, 3 períodos de 12. O dinheiro dobra 3 vezes: 1.000 → 2.000 → 4.000 → 8.000.",
+            "dica": "Conte quantos períodos de 12 anos cabem entre 12 e 48 anos e dobre o valor esse número de vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 rendendo 0,5% ao mês, com juros compostos. Quanto haverá depois de 2 meses?",
+            "alternativas": [
+              "R$ 1.010,00",
+              "R$ 1.010,03",
+              "R$ 1.100,00",
+              "R$ 1.005,00"
+            ],
+            "correta": 1,
+            "explicacao": "Mês 1: 1.000 + 5 = 1.005. Mês 2: 0,5% de 1.005 é 5,025; 1.005 + 5,025 = 1.010,025, que arredonda para R$ 1.010,03. Os 3 centavos a mais são o juro do juro.",
+            "dica": "Calcule 0,5% de 1.000 no primeiro mês e repita sobre o novo saldo; arredonde os centavos no fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Use a fórmula do montante: R$ 800 a 10% ao ano por 3 anos, com juros compostos, viram:",
+            "alternativas": [
+              "R$ 1.040,00",
+              "R$ 1.064,80",
+              "R$ 1.064,00",
+              "R$ 1.331,00"
+            ],
+            "correta": 1,
+            "explicacao": "1,1³ = 1,1 × 1,1 × 1,1 = 1,331. Montante: 800 × 1,331 = 1.064,80. R$ 1.040 seria juros simples (800 + 3 × 80).",
+            "dica": "Use montante = capital × (1 + taxa) elevado ao tempo; calcule 1,1 ao cubo com calma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma aplicação rende 1% ao mês, com juros compostos. Em 12 meses, quanto ela rende no total?",
+            "alternativas": [
+              "12% ao ano",
+              "Cerca de 11% ao ano",
+              "Cerca de 12,7% ao ano",
+              "Cerca de 24% ao ano"
+            ],
+            "correta": 2,
+            "explicacao": "1,01 elevado a 12 dá aproximadamente 1,1268, ou seja, cerca de 12,7%. É um pouco mais que 12% porque o juro de cada mês também rende nos meses seguintes.",
+            "dica": "O juro de cada mês entra na base do mês seguinte; o total do ano não é uma soma simples."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dinheiro rendeu 6% no ano e, no mesmo ano, os preços subiram 6%. O que aconteceu com o poder de compra?",
+            "alternativas": [
+              "Aumentou 6%",
+              "Ficou praticamente igual",
+              "Aumentou 12%",
+              "Caiu 6%"
+            ],
+            "correta": 1,
+            "explicacao": "O dinheiro cresceu na mesma medida que os preços. Ele compra praticamente as mesmas coisas que antes: o ganho real ficou perto de zero.",
+            "dica": "Compare quanto o dinheiro cresceu com quanto os preços cresceram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Opção A: R$ 1.000 a 2% ao mês com juros simples, por 3 meses. Opção B: a mesma taxa com juros compostos. Quanto B rende a mais que A?",
+            "alternativas": [
+              "R$ 0,00",
+              "R$ 61,21",
+              "R$ 6,00",
+              "R$ 1,21"
+            ],
+            "correta": 3,
+            "explicacao": "A: 3 × 20 = 60, total 1.060. B: 1.020; 1.020 + 20,40 = 1.040,40; 1.040,40 + 20,81 = 1.061,21. Diferença: R$ 1,21. Em pouco tempo a diferença é pequena; ela cresce com os anos.",
+            "dica": "Calcule cada opção separadamente; no composto, faça mês a mês com 2% sobre o saldo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Use a regra dos 72 e ordene da aplicação que dobra o dinheiro MAIS RÁPIDO para a mais lenta:",
+            "itens": [
+              "Aplicação a 12% ao ano",
+              "Aplicação a 8% ao ano",
+              "Aplicação a 6% ao ano",
+              "Aplicação a 4% ao ano"
+            ],
+            "explicacao": "72 ÷ 12 = 6 anos; 72 ÷ 8 = 9 anos; 72 ÷ 6 = 12 anos; 72 ÷ 4 = 18 anos. Quanto maior a taxa, menos tempo para dobrar.",
+            "dica": "Divida 72 por cada taxa; quanto menor o resultado, mais rápido o dinheiro dobra."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Variáveis: nomes, tipos e atribuição",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma variável é um espaço na memória do computador, com um nome, que guarda um valor que pode mudar enquanto o programa roda.",
+          "Os valores têm tipos. Número inteiro: idade = 13. Número decimal: preco = 4.5 (em programação, o separador decimal é o ponto). Texto, ou string, sempre entre aspas: nome = \"Caio\". Lógico, ou booleano: aprovado = True (verdadeiro) ou False (falso).",
+          "O sinal = em programação significa \"guarde\", e não \"é igual\". Lê-se da direita para a esquerda: x = x + 1 calcula x + 1 e guarda o resultado em x. Na matemática isso seria absurdo; no programa, é um comando normal.",
+          "Boas práticas de nome: descritivo, sem espaços, sem acentos e sem começar com número. Exemplos: total_compra, notaFinal, qtd_alunos.",
+          "Para trocar os valores de duas variáveis, é preciso uma terceira, auxiliar. Se você fizer a = b direto, perde o valor antigo de a."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "a = 3\nb = 5\na = a + b\nb = a - b\nQuanto valem a e b no final?",
+            "resolucao": "a = a + b guarda 3 + 5 = 8 em a. Depois, b = a - b calcula 8 - 5 = 3. No final, a = 8 e b = 3."
+          },
+          {
+            "enunciado": "Como trocar os valores de a = 1 e b = 2?",
+            "resolucao": "aux = a (aux guarda 1); a = b (a vira 2); b = aux (b vira 1). Sem o aux, o 1 se perderia."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Os tipos mudam o resultado das operações: 3 + 4 dá 7, mas \"3\" + \"4\" dá \"34\", porque textos são colados. Para transformar texto em número, usa-se int(\"3\") ou float(\"4.5\"); para transformar número em texto, str(7).",
+        "Atalhos muito usados: x += 1 é o mesmo que x = x + 1, e x *= 2 é o mesmo que x = x * 2. Em Python também dá para trocar dois valores numa linha só: a, b = b, a.",
+        "Em Python, maiúsculas e minúsculas contam: Nota e nota são duas variáveis diferentes. E existem duas divisões: 7 / 2 dá 3.5, e 7 // 2 dá só a parte inteira, 3."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma variável é:",
+            "alternativas": [
+              "um espaço com nome que guarda um valor",
+              "um tipo de vírus",
+              "uma tecla do teclado",
+              "um site da internet"
+            ],
+            "correta": 0,
+            "explicacao": "A variável é como uma caixinha com etiqueta na memória do computador. A etiqueta é o nome; o que está dentro é o valor.",
+            "dica": "Pense numa caixinha com etiqueta dentro da memória do computador."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em nome = \"Caio\", o valor guardado é do tipo:",
+            "alternativas": [
+              "número inteiro",
+              "booleano",
+              "texto (string)",
+              "número decimal"
+            ],
+            "correta": 2,
+            "explicacao": "As aspas indicam texto. Tudo o que está entre aspas é string, mesmo que sejam números.",
+            "dica": "Repare nas aspas em volta do valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em programação, o sinal = significa:",
+            "alternativas": [
+              "é igual",
+              "guarde",
+              "some",
+              "apague"
+            ],
+            "correta": 1,
+            "explicacao": "No programa, x = 5 é uma ordem: guarde 5 em x. Não é uma comparação como na matemática.",
+            "dica": "Na programação ele dá uma ordem ao computador, não faz uma comparação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de x = 5 e, em seguida, x = x + 1, quanto vale x?",
+            "alternativas": [
+              "5",
+              "1",
+              "51",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "O computador calcula o lado direito primeiro: 5 + 1 = 6. Depois guarda o 6 em x.",
+            "dica": "Calcule o lado direito usando o valor atual de x e guarde o resultado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um valor booleano em Python?",
+            "alternativas": [
+              "True",
+              "\"verdade\"",
+              "13",
+              "4.5"
+            ],
+            "correta": 0,
+            "explicacao": "Booleano só tem dois valores: True (verdadeiro) e False (falso), sem aspas. \"verdade\" entre aspas é um texto comum.",
+            "dica": "Booleano só tem dois valores possíveis, verdadeiro ou falso, escritos em inglês e sem aspas."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de x = 10, depois x = x * 2 e depois x = x - 5, quanto vale x?",
+            "alternativas": [
+              "15",
+              "10",
+              "20",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "x começa em 10; x * 2 guarda 20; x - 5 guarda 15. Cada linha usa o valor deixado pela linha anterior.",
+            "dica": "Siga linha por linha, sempre usando o valor que a linha anterior deixou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um nome de variável válido na maioria das linguagens?",
+            "alternativas": [
+              "2nota",
+              "nota final",
+              "nota_final",
+              "nota-final"
+            ],
+            "correta": 2,
+            "explicacao": "nota_final usa sublinhado no lugar do espaço. \"2nota\" começa com número, \"nota final\" tem espaço e \"nota-final\" seria lido como nota menos final.",
+            "dica": "Nomes não podem ter espaço, nem começar com número, nem usar o sinal de menos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em idade = \"13\", que tipo de valor está guardado?",
+            "alternativas": [
+              "Número inteiro",
+              "Texto (string)",
+              "Booleano",
+              "Número decimal"
+            ],
+            "correta": 1,
+            "explicacao": "As aspas transformam o valor em texto. \"13\" + \"1\" daria \"131\", e não 14. Para fazer contas, guarde sem aspas: idade = 13.",
+            "dica": "Olhe se o valor está entre aspas."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os comandos para trocar os valores de a e b usando uma variável auxiliar:",
+            "itens": [
+              "aux = a",
+              "a = b",
+              "b = aux",
+              "print(a, b)"
+            ],
+            "explicacao": "Primeiro salvamos a no aux; aí podemos sobrescrever a com b; por fim, b recebe o valor antigo de a, que estava no aux. Só então mostramos o resultado.",
+            "dica": "Antes de sobrescrever a, é preciso guardar o valor dele em algum lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um jogo começa com vidas = 3. O jogador perde uma vida e depois ganha duas. Qual sequência de comandos está certa?",
+            "alternativas": [
+              "vidas = 1, depois vidas = 2",
+              "vidas - 1 = vidas",
+              "vidas = vidas + 1",
+              "vidas = vidas - 1, depois vidas = vidas + 2"
+            ],
+            "correta": 3,
+            "explicacao": "Cada evento vira um comando que usa o valor atual: 3 - 1 = 2 e 2 + 2 = 4. \"vidas - 1 = vidas\" está invertido: o nome da variável que recebe o valor fica à esquerda do =.",
+            "dica": "Cada acontecimento vira um comando que usa o valor atual; quem recebe o valor fica à esquerda do =."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "a = \"5\", b = \"3\" e c = a + b. Quanto vale c?",
+            "alternativas": [
+              "8",
+              "\"53\"",
+              "\"8\"",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "Os dois valores estão entre aspas, então são textos. O + cola os textos: \"5\" + \"3\" = \"53\". Para dar 8, seria preciso guardar sem aspas.",
+            "dica": "Os dois valores estão entre aspas; o que o + faz com textos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "pontos = 10, depois pontos = pontos * 3, depois pontos = pontos - 4, depois pontos = pontos * 2. Quanto vale pontos no final?",
+            "alternativas": [
+              "24",
+              "56",
+              "52",
+              "26"
+            ],
+            "correta": 2,
+            "explicacao": "10 * 3 = 30; 30 - 4 = 26; 26 * 2 = 52. O 56 aparece quando se faz as multiplicações antes da subtração, fora da ordem das linhas.",
+            "dica": "Atualize o valor de pontos a cada linha, na ordem em que elas aparecem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 4 e b = 9. Alguém tenta trocar os valores fazendo a = b e depois b = a. Como ficam?",
+            "alternativas": [
+              "a = 9 e b = 4",
+              "a = 4 e b = 9",
+              "a = 9 e b = 9",
+              "a = 4 e b = 4"
+            ],
+            "correta": 2,
+            "explicacao": "a = b faz a virar 9, e o 4 se perde. Depois, b = a guarda 9 em b. Os dois ficam com 9. Por isso a troca precisa da variável auxiliar.",
+            "dica": "Depois da primeira linha, o valor antigo de a ainda existe em algum lugar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "preco = 4.5, qtd = 3 e total = preco * qtd. Quanto vale total?",
+            "alternativas": [
+              "12",
+              "\"4.53\"",
+              "7.5",
+              "13.5"
+            ],
+            "correta": 3,
+            "explicacao": "Os dois são números (sem aspas): 4,5 × 3 = 13,5. Em programação, escreve-se 13.5, com ponto.",
+            "dica": "Os dois são números sem aspas; multiplique lembrando que o ponto faz o papel da vírgula."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as linhas para o programa funcionar e mostrar 12 na tela:",
+            "itens": [
+              "x = 2",
+              "y = x * 5",
+              "z = y + x",
+              "print(z)"
+            ],
+            "explicacao": "x precisa existir antes de ser usado. y = 2 * 5 = 10; z = 10 + 2 = 12; por fim, print mostra 12.",
+            "dica": "Uma variável só pode ser usada depois de receber um valor; comece pela que não depende de ninguém."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, x = 7 e y = 2. O que mostra print(x // y, x / y)?",
+            "alternativas": [
+              "3 e 3.5",
+              "3.5 e 3",
+              "3 e 3",
+              "3.5 e 3.5"
+            ],
+            "correta": 0,
+            "explicacao": "// dá só a parte inteira da divisão (3), e / dá o resultado com decimais (3.5). Por isso aparece 3 e depois 3.5.",
+            "dica": "Uma das barras dá só a parte inteira; a outra dá o resultado com decimais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "n = 5, depois n += 3, depois n *= 2, depois n -= 6. Quanto vale n?",
+            "alternativas": [
+              "16",
+              "4",
+              "10",
+              "22"
+            ],
+            "correta": 2,
+            "explicacao": "n += 3 → 8; n *= 2 → 16; n -= 6 → 10. O 16 é a pegadinha de parar uma linha antes.",
+            "dica": "Traduza cada atalho para a forma longa, como n = n + 3, e siga linha a linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "idade = \"13\" e depois prox = int(idade) + 1. Quanto vale prox?",
+            "alternativas": [
+              "\"131\"",
+              "14",
+              "Dá erro",
+              "\"14\""
+            ],
+            "correta": 1,
+            "explicacao": "int(idade) transforma o texto \"13\" no número 13; somando 1, dá 14 (número). Sem o int, \"13\" + 1 daria erro em Python.",
+            "dica": "A função int transforma o texto em número antes da soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a, b, c = 1, 2, 3. Depois: a = b; b = c; c = a. Como ficam as três variáveis?",
+            "alternativas": [
+              "a=2, b=3, c=1",
+              "a=3, b=1, c=2",
+              "a=1, b=2, c=3",
+              "a=2, b=3, c=2"
+            ],
+            "correta": 3,
+            "explicacao": "a = b → a vale 2. b = c → b vale 3. c = a → c recebe o valor ATUAL de a, que já é 2. O 1 original se perdeu. A pegadinha é achar que c ganha o 1.",
+            "dica": "Quando chega a vez de c, o valor de a já foi trocado; acompanhe as três variáveis numa tabelinha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nota = 5, depois Nota = 8, depois nota = nota + 1, depois print(nota). O que aparece?",
+            "alternativas": [
+              "9",
+              "6",
+              "14",
+              "Dá erro"
+            ],
+            "correta": 1,
+            "explicacao": "Em Python, Nota (com N maiúsculo) é outra variável. nota continua 5 e vira 6. O valor 8 ficou guardado em Nota e não entrou na conta.",
+            "dica": "Em Python, letra maiúscula e letra minúscula fazem diferença nos nomes."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A bola de neve do dinheiro",
+    "texto": "Imagine duas irmãs, Renata e Paula. Aos 16 anos, Renata decide guardar R$ 100 por mês e mantém o hábito durante 10 anos. Depois, para de depositar, mas deixa todo o dinheiro rendendo. Paula só começa aos 26 anos, também com R$ 100 por mês, e continua depositando até os 60.\n\nPaula tirou do próprio bolso muito mais dinheiro: foram 34 anos de depósitos, contra apenas 10 de Renata. Mesmo assim, dependendo da taxa de juros, Renata pode chegar aos 60 com um valor parecido ou até maior que o da irmã. Como isso é possível?\n\nA resposta está nos juros compostos. Cada real que Renata guardou cedo teve mais anos para render juros, e esses juros também passaram a render. É como uma bola de neve descendo uma montanha: no começo, ela é pequena e anda devagar; depois de muito tempo rolando, cresce cada vez mais rápido.\n\nNinguém precisa ser gênio da matemática para aproveitar essa ideia. Começar cedo, mesmo com pouco, costuma valer mais do que começar tarde com muito. O tempo trabalha de graça para quem tem paciência.\n\nMas a lição também vale ao contrário. Uma dívida esquecida cresce pelo mesmo mecanismo, só que contra você. Por isso, costuma-se dizer que os juros compostos são um ótimo empregado e um péssimo patrão."
+  },
+  "escrita": {
+    "proposta": "Em 8 a 12 linhas, explique para alguém da sua família, com suas palavras, por que Renata pode ter mais dinheiro que Paula aos 60 anos. Use a comparação da bola de neve ou crie outra comparação sua. No fim, diga que hábito você poderia começar agora, mesmo com pouco dinheiro."
+  }
+}

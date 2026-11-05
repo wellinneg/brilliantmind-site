@@ -1,0 +1,900 @@
+{
+  "dia": 1,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Potências e raízes",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Potência é uma multiplicação de fatores iguais: em 3⁴, a base 3 aparece 4 vezes, então 3⁴ = 3 × 3 × 3 × 3 = 81. Lembre as propriedades: na multiplicação de mesma base somamos os expoentes (2³ × 2² = 2⁵) e na divisão subtraímos (5⁶ ÷ 5⁴ = 5²).",
+          "Expoente negativo vira fração: a⁻ⁿ = 1/aⁿ. Assim, 2⁻³ = 1/2³ = 1/8 e 10⁻² = 1/100 = 0,01. O sinal de menos no expoente não deixa o número negativo; ele manda “virar” a potência para o denominador.",
+          "A raiz desfaz a potência. A raiz quadrada de 49 é 7, porque 7² = 49 (escrevemos √49 = 7). A raiz cúbica de 27 é 3, porque 3³ = 27 (escrevemos ∛27 = 3). Números como 1, 4, 9, 16, 25, 36, 49, 64, 81 e 100 são quadrados perfeitos: têm raiz quadrada exata.",
+          "Para simplificar uma raiz, procure um quadrado perfeito escondido dentro dela: √50 = √(25 × 2) = √25 × √2 = 5√2. Isso funciona porque √a × √b = √(a × b).",
+          "Cuidado com os sinais: a raiz quadrada de um número negativo não existe nos números reais, pois nenhum número ao quadrado dá negativo. Já a raiz cúbica de negativo existe: ∛(−8) = −2, porque (−2) × (−2) × (−2) = −8."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Calcule 3⁻² e escreva o resultado como fração.",
+            "resolucao": "3⁻² = 1/3² = 1/9. O expoente negativo mandou a potência para baixo da fração."
+          },
+          {
+            "enunciado": "Simplifique √72.",
+            "resolucao": "O maior quadrado perfeito que divide 72 é 36. Então √72 = √(36 × 2) = 6√2. Conferindo: 6√2 ≈ 6 × 1,41 ≈ 8,5, e 8,5² ≈ 72."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Expoente fracionário é outra forma de escrever raiz: a^(1/2) = √a e a^(1/3) = ∛a. Quando o numerador não é 1, o denominador é o índice da raiz e o numerador é a potência: 8^(2/3) = (∛8)² = 2² = 4.",
+        "Para estimar uma raiz que não é exata, use os quadrados perfeitos vizinhos: √50 fica entre √49 = 7 e √64 = 8, bem perto de 7 (cerca de 7,07). Para comparar raízes com números inteiros, eleve tudo ao quadrado (ou ao cubo) e compare.",
+        "Uma pegadinha clássica: a raiz de uma soma não é a soma das raízes. √(9 + 16) = √25 = 5, mas √9 + √16 = 3 + 4 = 7. Na multiplicação a regra vale (√4 × √9 = √36 = 6); na soma, não."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √36?",
+            "alternativas": [
+              "18",
+              "12",
+              "6",
+              "72"
+            ],
+            "correta": 2,
+            "explicacao": "√36 = 6 porque 6 × 6 = 36. O 18 aparece quando alguém divide 36 por 2, e raiz não é metade.",
+            "dica": "Que número multiplicado por ele mesmo dá 36?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é ∛8 (raiz cúbica de 8)?",
+            "alternativas": [
+              "2",
+              "4",
+              "3",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "∛8 = 2 porque 2 × 2 × 2 = 8. O 4 seria a resposta de quem pensou em 8 ÷ 2.",
+            "dica": "Procure um número que, usado 3 vezes numa multiplicação, dê 8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 2⁻¹?",
+            "alternativas": [
+              "−2",
+              "2",
+              "0",
+              "1/2"
+            ],
+            "correta": 3,
+            "explicacao": "Expoente negativo vira fração: 2⁻¹ = 1/2¹ = 1/2. O resultado não é negativo.",
+            "dica": "O expoente negativo manda a potência para o denominador de uma fração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 5²?",
+            "alternativas": [
+              "10",
+              "25",
+              "7",
+              "52"
+            ],
+            "correta": 1,
+            "explicacao": "5² = 5 × 5 = 25. O 10 vem do erro de fazer 5 × 2.",
+            "dica": "O expoente diz quantas vezes o 5 aparece na multiplicação."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente (do menor para o maior valor):",
+            "itens": [
+              "√1",
+              "∛27",
+              "√16",
+              "√49"
+            ],
+            "explicacao": "√1 = 1, ∛27 = 3, √16 = 4 e √49 = 7.",
+            "dica": "Calcule cada raiz antes de comparar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 10⁻³?",
+            "alternativas": [
+              "−1000",
+              "0,001",
+              "0,0001",
+              "−30"
+            ],
+            "correta": 1,
+            "explicacao": "10⁻³ = 1/10³ = 1/1000 = 0,001. O expoente negativo não deixa o número negativo.",
+            "dica": "Escreva como 1 dividido por 10³ e conte as casas depois da vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma simplificada de √72?",
+            "alternativas": [
+              "8√2",
+              "36√2",
+              "2√6",
+              "6√2"
+            ],
+            "correta": 3,
+            "explicacao": "72 = 36 × 2, e √36 = 6. Logo √72 = 6√2.",
+            "dica": "Procure o maior quadrado perfeito que divide 72."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é ∛(−27)?",
+            "alternativas": [
+              "−3",
+              "3",
+              "não existe nos reais",
+              "−9"
+            ],
+            "correta": 0,
+            "explicacao": "(−3) × (−3) × (−3) = −27. Raiz de índice ímpar aceita número negativo; só a de índice par não aceita.",
+            "dica": "Raiz cúbica aceita negativo. Qual número, multiplicado por si três vezes, dá −27?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √9 + √16?",
+            "alternativas": [
+              "5",
+              "25",
+              "7",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "√9 = 3 e √16 = 4, então a soma é 7. O 5 seria √(9 + 16), que é outra conta.",
+            "dica": "Calcule cada raiz separadamente e só depois some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2³ × 2⁻⁵?",
+            "alternativas": [
+              "1/4",
+              "4",
+              "−4",
+              "1/16"
+            ],
+            "correta": 0,
+            "explicacao": "Somando os expoentes: 3 + (−5) = −2. Então 2⁻² = 1/2² = 1/4.",
+            "dica": "Some os expoentes com cuidado no sinal e depois transforme o expoente negativo em fração."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem área de 50 cm². Quanto mede o lado?",
+            "alternativas": [
+              "25 cm",
+              "10√5 cm",
+              "7√2 cm",
+              "5√2 cm"
+            ],
+            "correta": 3,
+            "explicacao": "O lado é √50 = √(25 × 2) = 5√2 cm, cerca de 7,07 cm. O 25 vem de dividir a área por 2.",
+            "dica": "O lado do quadrado é a raiz da área; fatore 50 com um quadrado perfeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "√90 está entre quais números inteiros consecutivos?",
+            "alternativas": [
+              "8 e 9",
+              "9 e 10",
+              "10 e 11",
+              "45 e 46"
+            ],
+            "correta": 1,
+            "explicacao": "9² = 81 e 10² = 100. Como 90 fica entre 81 e 100, √90 fica entre 9 e 10.",
+            "dica": "Liste os quadrados perfeitos perto de 90."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3⁻¹ + 3⁻²?",
+            "alternativas": [
+              "2/9",
+              "1/27",
+              "4/9",
+              "1/12"
+            ],
+            "correta": 2,
+            "explicacao": "3⁻¹ = 1/3 = 3/9 e 3⁻² = 1/9. Somando: 3/9 + 1/9 = 4/9.",
+            "dica": "Transforme cada potência em fração e use o denominador comum 9."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √2 × √18?",
+            "alternativas": [
+              "6",
+              "√20",
+              "9",
+              "36"
+            ],
+            "correta": 0,
+            "explicacao": "√2 × √18 = √36 = 6. O √20 vem do erro de somar 2 + 18 em vez de multiplicar.",
+            "dica": "Raízes quadradas multiplicadas podem virar uma única raiz do produto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−2)⁴ − 2⁴?",
+            "alternativas": [
+              "32",
+              "0",
+              "−32",
+              "16"
+            ],
+            "correta": 1,
+            "explicacao": "(−2)⁴ = 16, porque expoente par deixa o resultado positivo. 2⁴ também é 16. Então 16 − 16 = 0.",
+            "dica": "Com expoente par, o que acontece com o sinal de −2? Calcule as duas potências antes de subtrair."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 8^(2/3)?",
+            "alternativas": [
+              "4",
+              "2",
+              "16",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "O denominador 3 é o índice da raiz e o numerador 2 é a potência: (∛8)² = 2² = 4. Quem responde 2 fez só a raiz e esqueceu o quadrado.",
+            "dica": "Expoente fracionário: o denominador indica a raiz e o numerador indica a potência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é o maior?",
+            "alternativas": [
+              "8",
+              "∛500",
+              "√65",
+              "√63"
+            ],
+            "correta": 2,
+            "explicacao": "Compare com 8: √65 > √64 = 8; ∛500 < ∛512 = 8; √63 < √64 = 8. Só √65 passa de 8.",
+            "dica": "Use 8 como régua: 8² = 64 e 8³ = 512. Quem passa de 8?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mariana escreveu: √(16 + 9) = √16 + √9. O que é verdade?",
+            "alternativas": [
+              "Está certo: os dois lados dão 7",
+              "Está errado: o lado esquerdo dá 5 e o direito dá 7",
+              "Está certo: os dois lados dão 5",
+              "Está errado: o lado esquerdo dá 25 e o direito dá 7"
+            ],
+            "correta": 1,
+            "explicacao": "√(16 + 9) = √25 = 5, enquanto √16 + √9 = 4 + 3 = 7. Raiz de soma não é soma de raízes.",
+            "dica": "Resolva primeiro o que está dentro da raiz; depois compare com a soma das raízes separadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2⁻¹⁰ × 4⁵?",
+            "alternativas": [
+              "1/1024",
+              "1024",
+              "4",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "4 = 2², então 4⁵ = 2¹⁰. Assim, 2⁻¹⁰ × 2¹⁰ = 2⁰ = 1.",
+            "dica": "Escreva 4 como potência de 2 antes de juntar os expoentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se x² = 49 e x é negativo, quanto é ∛(x − 1)?",
+            "alternativas": [
+              "2",
+              "não existe nos reais",
+              "−4",
+              "−2"
+            ],
+            "correta": 3,
+            "explicacao": "x² = 49 tem x = 7 ou x = −7; como x é negativo, x = −7. Então x − 1 = −8 e ∛(−8) = −2.",
+            "dica": "Ache x primeiro (há duas possibilidades, use a negativa) e depois calcule a raiz cúbica."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Juros compostos e o tempo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Nos juros simples, a taxa é calculada sempre sobre o valor inicial. Nos juros compostos, ela é calculada sobre o valor que já cresceu: são “juros sobre juros”. É assim que funcionam a maioria dos investimentos e também as dívidas.",
+          "Veja R$ 1.000,00 a 10% ao ano. Nos juros simples: R$ 1.100, R$ 1.200, R$ 1.300 (sempre +R$ 100). Nos compostos: R$ 1.100, depois 10% de 1.100 = R$ 110, total R$ 1.210, depois 10% de 1.210 = R$ 121, total R$ 1.331.",
+          "A fórmula é M = C × (1 + i)ⁿ: M é o montante final, C é o capital inicial, i é a taxa (10% = 0,10) e n é o número de períodos. Para 10% em 3 anos: 1.000 × 1,1³ = 1.000 × 1,331 = R$ 1.331.",
+          "O ingrediente mais poderoso é o tempo. No começo a diferença parece pequena, mas cada ano os juros ficam maiores, como uma bola de neve. Por isso começar cedo, mesmo com pouco, faz muita diferença.",
+          "O mesmo vale contra você: uma dívida de cartão de crédito no rotativo cresce juros sobre juros todo mês. Uma dívida pequena esquecida pode virar uma bola de neve difícil de pagar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você aplica R$ 500,00 a 2% ao mês, juros compostos. Quanto terá depois de 2 meses?",
+            "resolucao": "1º mês: 500 × 1,02 = 510. 2º mês: 510 × 1,02 = 520,20. Total: R$ 520,20 (nos juros simples seriam R$ 520,00)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A regra do 72 dá uma boa estimativa de quanto tempo o dinheiro leva para dobrar: divida 72 pela taxa. A 6% ao ano, dobra em cerca de 72 ÷ 6 = 12 anos. A 8% ao ano, em cerca de 9 anos. Funciona para dívidas também: a 12% ao mês, uma dívida dobra em cerca de 6 meses.",
+        "Taxas compostas não se somam simplesmente. Duas vezes 1% ao mês dá 1,01 × 1,01 = 1,0201, ou seja, 2,01% em dois meses, um pouco mais que 2%. Em prazos longos, essa “sobrinha” vira muito dinheiro.",
+        "Um truque para comparar: quem aplica R$ 1.100 por 2 anos a 10% chega ao mesmo valor de quem aplicou R$ 1.000 por 3 anos, porque R$ 1.100 é justamente o que os R$ 1.000 viram depois do 1º ano."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que são juros compostos?",
+            "alternativas": [
+              "Juros calculados sempre só sobre o valor inicial",
+              "Um desconto dado pela loja",
+              "Juros calculados sobre o valor que já inclui os juros anteriores",
+              "Uma taxa cobrada uma única vez"
+            ],
+            "correta": 2,
+            "explicacao": "Nos compostos, os juros de cada período entram na conta do próximo: juros sobre juros.",
+            "dica": "Pense na expressão “juros sobre juros” da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100,00 a 10% em 1 mês vira quanto?",
+            "alternativas": [
+              "R$ 110,00",
+              "R$ 100,10",
+              "R$ 1.000,00",
+              "R$ 90,00"
+            ],
+            "correta": 0,
+            "explicacao": "10% de 100 é 10. Somando: R$ 110,00.",
+            "dica": "Calcule 10% de 100 e some ao valor inicial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ingrediente mais faz o dinheiro crescer nos juros compostos?",
+            "alternativas": [
+              "Sacar um pouco todo mês",
+              "Guardar o dinheiro em casa",
+              "Trocar de banco toda semana",
+              "O tempo que o dinheiro fica aplicado"
+            ],
+            "correta": 3,
+            "explicacao": "Quanto mais tempo, mais períodos de juros sobre juros. Sacar ou guardar em casa interrompe a bola de neve.",
+            "dica": "A lição comparou os juros compostos a uma bola de neve. O que faz ela crescer?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os juros compostos também funcionam nas dívidas?",
+            "alternativas": [
+              "Não, só nos investimentos",
+              "Sim, a dívida cresce juros sobre juros",
+              "Só em dívidas de mais de 10 anos",
+              "Não, dívidas não têm juros"
+            ],
+            "correta": 1,
+            "explicacao": "Cartão de crédito e cheque especial usam juros compostos, por isso a dívida cresce tão rápido.",
+            "dica": "Lembre do exemplo do cartão de crédito no fim da lição."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular 2 meses de juros compostos:",
+            "itens": [
+              "Calcular os juros do 1º mês sobre o valor inicial",
+              "Somar esses juros ao valor",
+              "Calcular os juros do 2º mês sobre o novo valor",
+              "Somar e obter o montante final"
+            ],
+            "explicacao": "Os juros do 2º mês são calculados sobre o valor que já cresceu no 1º mês.",
+            "dica": "Os juros do 2º mês usam o valor que já cresceu."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000,00 a 10% ao ano, juros compostos, por 2 anos. Qual o montante?",
+            "alternativas": [
+              "R$ 1.200,00",
+              "R$ 1.210,00",
+              "R$ 1.100,00",
+              "R$ 1.221,00"
+            ],
+            "correta": 1,
+            "explicacao": "1.000 × 1,1 = 1.100 e 1.100 × 1,1 = 1.210. R$ 1.200 seria o resultado com juros simples.",
+            "dica": "Aplique 10% duas vezes; a segunda vez é sobre o valor do fim do 1º ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 500,00 a 2% ao mês, juros compostos, por 2 meses. Qual o montante?",
+            "alternativas": [
+              "R$ 520,00",
+              "R$ 510,00",
+              "R$ 502,00",
+              "R$ 520,20"
+            ],
+            "correta": 3,
+            "explicacao": "500 × 1,02 = 510 e 510 × 1,02 = 520,20.",
+            "dica": "Multiplique por 1,02 e depois multiplique o resultado de novo por 1,02."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na fórmula M = C × (1 + i)ⁿ, o que é o n?",
+            "alternativas": [
+              "O número de períodos (meses ou anos)",
+              "A taxa de juros",
+              "O capital inicial",
+              "O montante final"
+            ],
+            "correta": 0,
+            "explicacao": "O n é o expoente: conta quantas vezes a taxa é aplicada.",
+            "dica": "Repare onde o n está escrito na fórmula e o que ele conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 2.000,00 a 5% ao ano por 2 anos. Quanto os juros compostos rendem a mais que os simples?",
+            "alternativas": [
+              "R$ 0,00",
+              "R$ 10,00",
+              "R$ 5,00",
+              "R$ 205,00"
+            ],
+            "correta": 2,
+            "explicacao": "Simples: 2.000 + 100 + 100 = 2.200. Compostos: 2.000 × 1,05 = 2.100; 2.100 × 1,05 = 2.205. Diferença: R$ 5,00.",
+            "dica": "Calcule os dois montantes; nos compostos, o 2º ano rende sobre R$ 2.100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 1.000,00 a 10% ao mês fica 3 meses sem pagamento. Quanto vira?",
+            "alternativas": [
+              "R$ 1.331,00",
+              "R$ 1.300,00",
+              "R$ 1.030,00",
+              "R$ 1.210,00"
+            ],
+            "correta": 0,
+            "explicacao": "1.000 × 1,1 × 1,1 × 1,1 = 1.331. R$ 1.300 seria juros simples; R$ 1.210 é só 2 meses.",
+            "dica": "Multiplique por 1,1 três vezes seguidas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 800,00 a 5% ao mês, juros compostos, por 3 meses. Qual o montante?",
+            "alternativas": [
+              "R$ 920,00",
+              "R$ 882,00",
+              "R$ 926,00",
+              "R$ 926,10"
+            ],
+            "correta": 3,
+            "explicacao": "800 × 1,05 = 840; 840 × 1,05 = 882; 882 × 1,05 = 926,10.",
+            "dica": "Faça mês a mês: cada mês, 5% sobre o valor do mês anterior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de 2 anos, qual opção dá mais? A: R$ 1.000 a 10% ao ano, compostos. B: R$ 1.050 a 5% ao ano, simples.",
+            "alternativas": [
+              "B, com R$ 1.155,00",
+              "A, com R$ 1.210,00",
+              "As duas dão o mesmo valor",
+              "B, com R$ 1.157,63"
+            ],
+            "correta": 1,
+            "explicacao": "A: 1.000 × 1,21 = 1.210. B: 1.050 + 52,50 + 52,50 = 1.155. A opção A ganha.",
+            "dica": "Calcule cada opção separadamente; uma é simples e a outra é composta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 2.000,00 a 3% ao mês, compostos, por 2 meses. Quanto foi só de juros?",
+            "alternativas": [
+              "R$ 120,00",
+              "R$ 2.121,80",
+              "R$ 121,80",
+              "R$ 60,00"
+            ],
+            "correta": 2,
+            "explicacao": "2.000 × 1,03 = 2.060; 2.060 × 1,03 = 2.121,80. Juros = 2.121,80 − 2.000 = 121,80.",
+            "dica": "Ache o montante e depois tire o valor inicial: a pergunta é só sobre os juros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro deixou R$ 300,00 no rotativo do cartão a 15% ao mês. Sem pagar, quanto deve após 2 meses?",
+            "alternativas": [
+              "R$ 396,75",
+              "R$ 390,00",
+              "R$ 345,00",
+              "R$ 690,00"
+            ],
+            "correta": 0,
+            "explicacao": "300 × 1,15 = 345; 345 × 1,15 = 396,75. Em só 2 meses a dívida cresceu quase R$ 100.",
+            "dica": "Aplique 15% duas vezes, a segunda sobre o valor já aumentado."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "R$ 1.000,00 aplicados por 2 anos. Ordene do MENOR para o MAIOR montante:",
+            "itens": [
+              "Juros simples de 5% ao ano",
+              "Juros compostos de 5% ao ano",
+              "Juros simples de 6% ao ano",
+              "Juros compostos de 6% ao ano"
+            ],
+            "explicacao": "Montantes: 1.100,00; 1.102,50; 1.120,00; 1.123,60.",
+            "dica": "Calcule os quatro montantes; com a mesma taxa, o composto ganha um pouquinho do simples."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela regra do 72, a 8% ao ano, em quanto tempo o dinheiro dobra?",
+            "alternativas": [
+              "Cerca de 9 anos",
+              "Cerca de 8 anos",
+              "Cerca de 12 anos",
+              "Cerca de 72 anos"
+            ],
+            "correta": 0,
+            "explicacao": "72 ÷ 8 = 9. É uma estimativa: a conta exata dá pouco mais de 9 anos.",
+            "dica": "Divida 72 pela taxa anual (sem o símbolo de porcentagem)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida cresce 12% ao mês. Em quanto tempo, aproximadamente, ela dobra?",
+            "alternativas": [
+              "Cerca de 12 meses",
+              "Cerca de 8 meses",
+              "Cerca de 6 meses",
+              "Cerca de 2 meses"
+            ],
+            "correta": 2,
+            "explicacao": "72 ÷ 12 = 6. Como a taxa é mensal, a resposta sai em meses.",
+            "dica": "A regra do 72 vale para dívidas; taxa por mês dá a resposta em meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana aplica R$ 1.000 a 10% ao ano por 3 anos. Bia aplica R$ 1.100 a 10% ao ano por 2 anos. Quem termina com mais?",
+            "alternativas": [
+              "Ana, com R$ 1.331,00 contra R$ 1.210,00 de Bia",
+              "As duas terminam com R$ 1.331,00",
+              "Bia, com R$ 1.452,00",
+              "Ana, com R$ 1.300,00"
+            ],
+            "correta": 1,
+            "explicacao": "Ana: 1.000 × 1,331 = 1.331. Bia: 1.100 × 1,21 = 1.331. R$ 1.100 é exatamente o que Ana tem depois do 1º ano.",
+            "dica": "R$ 1.100 é quanto Ana terá depois de 1 ano. Pense nisso antes de fazer as contas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma taxa de 1% ao mês, composta, equivale a quanto em 2 meses?",
+            "alternativas": [
+              "2%",
+              "1,01%",
+              "2,1%",
+              "2,01%"
+            ],
+            "correta": 3,
+            "explicacao": "1,01 × 1,01 = 1,0201, ou seja, 2,01%. Taxas compostas não se somam simplesmente.",
+            "dica": "Calcule 1,01 × 1,01 e veja quanto o resultado passou de 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 10.000 a 6% ao ano, compostos. Pela regra do 72, quanto haverá depois de 24 anos?",
+            "alternativas": [
+              "Cerca de R$ 20.000",
+              "Cerca de R$ 24.400",
+              "Cerca de R$ 30.000",
+              "Cerca de R$ 40.000"
+            ],
+            "correta": 3,
+            "explicacao": "A 6%, dobra a cada 12 anos: em 24 anos dobra 2 vezes, 10.000 → 20.000 → 40.000. R$ 24.400 seria o resultado com juros simples.",
+            "dica": "Se dobra a cada 12 anos, quantas vezes dobra em 24? Não confunda com juros simples."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Revisão de lógica",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um algoritmo é uma sequência finita de passos claros para resolver um problema. O computador segue as instruções ao pé da letra: se a ordem estiver errada, o resultado sai errado.",
+          "Uma variável é como uma caixa com nome que guarda um valor. Em Python, pontos = 10 guarda 10. Depois, pontos = pontos + 5 pega o valor antigo, soma 5 e guarda 15 na mesma caixa.",
+          "Condição é o momento em que o programa decide: if idade >= 16: print(\"pode votar\") else: print(\"ainda não\"). O if (se) testa; se for verdade, faz o primeiro caminho; senão (else), faz o outro.",
+          "Repetição evita escrever a mesma coisa várias vezes. for i in range(3) repete 3 vezes, com i valendo 0, 1 e 2. while repete enquanto uma condição for verdadeira.",
+          "Para descobrir o que um programa faz, use o teste de mesa: anote no papel o valor de cada variável, linha por linha, como se você fosse o computador."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O que aparece na tela?\nx = 4\ny = x * 2\nx = y + 1\nprint(x)",
+            "resolucao": "Teste de mesa: x = 4; y = 8; x = 8 + 1 = 9. Aparece 9."
+          },
+          {
+            "enunciado": "Quanto vale soma no final?\nsoma = 0\nfor i in range(1, 5):\n    soma = soma + i",
+            "resolucao": "range(1, 5) gera 1, 2, 3 e 4 (para antes do 5). soma = 1 + 2 + 3 + 4 = 10."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "range(a, b) começa em a e para em b − 1. Muita gente erra achando que o b entra. range(1, 5) tem 4 números; range(5) tem 5 números, de 0 a 4.",
+        "Com if/elif, o Python testa de cima para baixo e executa só o primeiro caminho verdadeiro. Por isso a ordem importa: se você testar nota >= 5 antes de nota >= 9, uma nota 10 cai em “aprovado” e nunca chega em “excelente”.",
+        "Um laço while que nunca fica falso roda para sempre (laço infinito). Exemplo: n = 5 e while n != 0: n = n − 2. Os valores serão 5, 3, 1, −1, −3… e nunca 0."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um algoritmo?",
+            "alternativas": [
+              "Um tipo de computador",
+              "Um erro no programa",
+              "Uma sequência de passos para resolver um problema",
+              "Um aplicativo de jogos"
+            ],
+            "correta": 2,
+            "explicacao": "Algoritmo é a lista de passos, como uma receita. Pode estar no papel ou no computador.",
+            "dica": "Lembre de uma receita de bolo: passos em ordem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 3 e depois a = a + 2. Quanto vale a no final?",
+            "alternativas": [
+              "5",
+              "3",
+              "2",
+              "32"
+            ],
+            "correta": 0,
+            "explicacao": "A linha a = a + 2 pega o valor antigo (3), soma 2 e guarda 5.",
+            "dica": "Pegue o valor antigo de a e faça a conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando faz o programa escolher entre dois caminhos?",
+            "alternativas": [
+              "print",
+              "for",
+              "range",
+              "if/else (se/senão)"
+            ],
+            "correta": 3,
+            "explicacao": "if testa uma condição e else indica o caminho quando ela é falsa.",
+            "dica": "Procure o comando ligado à palavra “se” em português."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes aparece “oi”?\nfor i in range(3):\n    print(\"oi\")",
+            "alternativas": [
+              "1",
+              "3",
+              "2",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "range(3) gera 0, 1 e 2: são 3 voltas.",
+            "dica": "Conte quantos números o range(3) gera, começando do 0."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem um programa que calcula a média de duas notas:",
+            "itens": [
+              "Ler a nota 1",
+              "Ler a nota 2",
+              "Somar as notas e dividir por 2",
+              "Mostrar a média"
+            ],
+            "explicacao": "Primeiro entram os dados, depois vem a conta e por último a saída.",
+            "dica": "Primeiro entram os dados, depois a conta, por último a saída."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece na tela?\nx = 4\ny = x * 2\nx = y + 1\nprint(x)",
+            "alternativas": [
+              "8",
+              "9",
+              "5",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "x = 4, y = 8, x = 9. A última linha mostra o valor mais recente de x.",
+            "dica": "Faça teste de mesa: anote x e y a cada linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale soma?\nsoma = 0\nfor i in range(1, 5):\n    soma = soma + i",
+            "alternativas": [
+              "15",
+              "4",
+              "5",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "Os valores são 1, 2, 3 e 4. Somando: 10. Quem dá 15 incluiu o 5.",
+            "dica": "range(1, 5) para antes do 5. Some só os números gerados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece?\nidade = 15\nif idade >= 16:\n    print(\"vota\")\nelse:\n    print(\"ainda não\")",
+            "alternativas": [
+              "ainda não",
+              "vota",
+              "vota e ainda não",
+              "nada"
+            ],
+            "correta": 0,
+            "explicacao": "15 não é maior nem igual a 16, então o teste é falso e o programa vai para o else.",
+            "dica": "15 é maior ou igual a 16? A resposta decide o caminho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o comando while faz?",
+            "alternativas": [
+              "Repete exatamente 10 vezes",
+              "Mostra um texto na tela",
+              "Repete enquanto a condição for verdadeira",
+              "Apaga uma variável"
+            ],
+            "correta": 2,
+            "explicacao": "while significa “enquanto”: o bloco roda de novo até a condição ficar falsa.",
+            "dica": "Traduza while para o português."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o teste de mesa?",
+            "alternativas": [
+              "Acompanhar o valor das variáveis linha por linha",
+              "Deixar o computador mais rápido",
+              "Instalar programas",
+              "Desenhar a tela do aplicativo"
+            ],
+            "correta": 0,
+            "explicacao": "No teste de mesa você faz o papel do computador, anotando cada mudança.",
+            "dica": "É um jeito de “ser o computador” com lápis e papel."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes o laço roda?\nn = 10\nwhile n > 1:\n    n = n - 3",
+            "alternativas": [
+              "4",
+              "10",
+              "2",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "n vai 10 → 7 → 4 → 1. Com n = 1, a condição n > 1 é falsa: foram 3 voltas.",
+            "dica": "Anote n a cada volta e pare quando a condição ficar falsa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece?\nnota = 9\nif nota >= 5:\n    print(\"aprovado\")\nelif nota >= 9:\n    print(\"excelente\")",
+            "alternativas": [
+              "excelente",
+              "aprovado",
+              "aprovado e excelente",
+              "nada"
+            ],
+            "correta": 1,
+            "explicacao": "O primeiro teste (9 >= 5) já é verdadeiro, então o Python executa esse caminho e pula o resto.",
+            "dica": "O Python testa de cima para baixo e para na primeira condição verdadeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 2 e b = 7. Depois: a = b e então b = a. Como ficam?",
+            "alternativas": [
+              "a = 7 e b = 2",
+              "a = 2 e b = 7",
+              "a = 7 e b = 7",
+              "a = 2 e b = 2"
+            ],
+            "correta": 2,
+            "explicacao": "Depois de a = b, a vale 7 e o 2 se perdeu. Então b = a guarda 7 de novo. Para trocar, precisaria de uma variável auxiliar.",
+            "dica": "Depois da linha a = b, o valor antigo de a ainda existe em algum lugar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale total?\ntotal = 1\nfor i in range(4):\n    total = total * 2",
+            "alternativas": [
+              "16",
+              "8",
+              "4",
+              "32"
+            ],
+            "correta": 0,
+            "explicacao": "4 voltas dobrando: 1 → 2 → 4 → 8 → 16.",
+            "dica": "O laço roda 4 vezes e cada volta dobra o total."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o algoritmo que diz se um número é par:",
+            "itens": [
+              "Ler o número",
+              "Calcular o resto da divisão por 2",
+              "Se o resto for 0, mostrar “par”",
+              "Senão, mostrar “ímpar”"
+            ],
+            "explicacao": "Entrada, cálculo, decisão e o caminho alternativo.",
+            "dica": "Primeiro a entrada, depois a conta, depois a decisão."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale x?\nx = 0\nfor i in range(1, 6):\n    if i % 2 == 0:\n        x = x + i",
+            "alternativas": [
+              "6",
+              "9",
+              "15",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "i vai de 1 a 5. Só 2 e 4 têm resto 0 na divisão por 2. x = 2 + 4 = 6.",
+            "dica": "i % 2 == 0 identifica números pares. Quais números de 1 a 5 passam no teste?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece?\nn = 5\nwhile n != 0:\n    n = n - 2",
+            "alternativas": [
+              "Roda 2 vezes e para",
+              "Roda 3 vezes e para",
+              "O laço nunca termina, porque n pula o zero",
+              "Dá erro na primeira linha"
+            ],
+            "correta": 2,
+            "explicacao": "n vale 5, 3, 1, −1, −3… e nunca é exatamente 0. É um laço infinito.",
+            "dica": "Escreva os valores de n: 5, 3, … Algum deles é exatamente 0?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como ficam a e b?\na = 3\nb = a * a\na = b - a\nb = a + b",
+            "alternativas": [
+              "a = 6 e b = 9",
+              "a = 6 e b = 15",
+              "a = 3 e b = 15",
+              "a = 9 e b = 15"
+            ],
+            "correta": 1,
+            "explicacao": "b = 9; a = 9 − 3 = 6; b = 6 + 9 = 15.",
+            "dica": "Teste de mesa: cada linha usa os valores mais recentes das variáveis."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes aparece “oi”?\nfor i in range(3):\n    for j in range(2):\n        print(\"oi\")",
+            "alternativas": [
+              "5",
+              "3",
+              "2",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "Para cada uma das 3 voltas de fora, o laço de dentro roda 2 vezes: 3 × 2 = 6.",
+            "dica": "Para cada volta do laço de fora, o de dentro roda por completo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa deve mostrar “excelente” para nota 9 ou mais e “aprovado” de 5 até menos de 9. Qual ordem de testes funciona?",
+            "alternativas": [
+              "Testar nota >= 5 primeiro e depois nota >= 9",
+              "Tanto faz a ordem dos testes",
+              "Testar nota <= 9 primeiro e depois nota >= 5",
+              "Testar nota >= 9 primeiro e depois nota >= 5"
+            ],
+            "correta": 3,
+            "explicacao": "Se nota >= 5 vier primeiro, uma nota 10 já entra ali e nunca chega ao “excelente”.",
+            "dica": "Lembre do aprofundamento: a primeira condição verdadeira ganha."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O sábio e o tabuleiro de arroz",
+    "texto": "Conta uma lenda antiga que, na Índia, um sábio inventou o jogo de xadrez para alegrar um rei triste. O rei gostou tanto do jogo que ofereceu ao sábio qualquer recompensa: ouro, terras, um palácio.\n\nO sábio pediu algo que parecia modesto. “Quero apenas grãos de arroz. Um grão na primeira casa do tabuleiro, dois na segunda, quatro na terceira, e assim por diante, sempre dobrando, até a última das 64 casas.” Os conselheiros riram. Que pedido bobo! O rei mandou buscar um saco de arroz.\n\nOs contadores do palácio começaram a calcular e logo pararam de rir. Na décima casa já eram 512 grãos. Na vigésima, mais de meio milhão. Na casa 64, o número seria 2 elevado a 63, algo perto de 9 seguido de 18 algarismos. Somando todas as casas, o total passava de 18 quintilhões de grãos, mais arroz do que o mundo inteiro produziria em centenas de anos.\n\nEm algumas versões da história, o rei descobre que foi enganado e fica furioso. Em outras, o sábio explica que só queria ensinar uma lição: coisas que dobram parecem pequenas no começo e enormes no fim.\n\nEssa lição vale muito para a vida real. É assim que funcionam as potências, os juros compostos e até uma dívida de cartão que ninguém paga. Também é assim que crescem os bons hábitos: meia hora de estudo por dia parece pouco, mas, somada e acumulada durante anos, faz uma diferença gigantesca. O segredo do sábio não era o arroz. Era entender o poder do tempo."
+  },
+  "escrita": {
+    "proposta": "O sábio mostrou que coisas que dobram começam pequenas e ficam enormes. Escreva de 5 a 10 linhas sobre um hábito seu (bom ou ruim) que, repetido todos os dias durante anos, pode crescer como os grãos do tabuleiro. Explique como ele começa pequeno e o que ele pode virar daqui a 5 anos."
+  }
+}
