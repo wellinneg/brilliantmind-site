@@ -6,3 +6,5 @@ export function deISO(s) { const [a, m, d] = s.split('-').map(Number); return ne
 export function diaAnterior(s) { const d = deISO(s); d.setDate(d.getDate() - 1); return hojeISO(d); }
 export function ehFimDeSemana(s) { const w = deISO(s).getDay(); return w === 0 || w === 6; }
 export function exibir(s) { const [a, m, d] = s.split('-'); return `${d}/${m}/${a}`; }
+export function somarDias(s, n) { const d = deISO(s); d.setDate(d.getDate() + n); return hojeISO(d); }
+export function diasEntre(a, b) { return Math.round((deISO(b) - deISO(a)) / 86400000); }

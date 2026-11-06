@@ -138,12 +138,12 @@ const somar = (obj, chave, n) => { obj[chave] = (obj[chave] || 0) + n; };
  * Lição concluída: as moedas entram na carteira (para a loja) e disputam o território da matéria.
  * Devolve o que aconteceu, para a tela comemorar.
  */
-export function ganharMoedas(jogo, { materia, moedas, dificuldade, quando = new Date().toISOString() }) {
+export function ganharMoedas(jogo, { materia, moedas, dificuldade, quando = new Date().toISOString(), descricao = null }) {
   const res = { moedas, territorio: null, doPote: 0, roubou: 0, de: null, conquistou: false, liberou: null };
   if (!(moedas > 0)) return res;
   jogo.carteira += moedas;
   const t = territorioDaMateria(jogo.camada, materia);
-  lancar(jogo, { tipo: 'licao', descricao: `Lição de ${MATERIAS[materia]?.nome || materia}${t ? ` · ${t.icone} ${t.nome}` : ''}`, valor: moedas, quando });
+  lancar(jogo, { tipo: descricao ? 'minijogo' : 'licao', descricao: `${descricao || `Lição de ${MATERIAS[materia]?.nome || materia}`}${t ? ` · ${t.icone} ${t.nome}` : ''}`, valor: moedas, quando });
   if (!t) return res;
   res.territorio = t;
   const antes = calcularTerritorio(jogo, t);
@@ -185,7 +185,7 @@ export function ganharBonus(jogo, moedas, quando = new Date().toISOString()) {
 
 // ---- extrato de moedas (como extrato de banco; fica só no celular) ----
 const LIMITE_EXTRATO = 300;
-function lancar(jogo, { tipo, descricao, valor, quando = new Date().toISOString() }) {
+export function lancar(jogo, { tipo, descricao, valor, quando = new Date().toISOString() }) {
   jogo.extrato ||= [];
   jogo.extrato.unshift({ quando, tipo, descricao, valor, saldo: jogo.carteira });
   jogo.extrato.length = Math.min(jogo.extrato.length, LIMITE_EXTRATO);
@@ -193,9 +193,12 @@ function lancar(jogo, { tipo, descricao, valor, quando = new Date().toISOString(
 
 /** Totais do extrato: quanto ganhou, quanto gastou e o saldo. */
 export function resumoDoExtrato(jogo) {
-  const ganhou = (jogo.extrato || []).filter(l => l.valor > 0 && l.tipo !== 'abertura').reduce((s, l) => s + l.valor, 0);
-  const gastou = (jogo.extrato || []).filter(l => l.valor < 0).reduce((s, l) => s - l.valor, 0);
-  return { ganhou, gastou, saldo: jogo.carteira };
+  // aplicar e resgatar o valor aplicado só mudam o dinheiro de lugar: não é ganho nem gasto
+  const movimento = ['abertura', 'aplicacao', 'resgate'];
+  const ganhou = (jogo.extrato || []).filter(l => l.valor > 0 && !movimento.includes(l.tipo)).reduce((s, l) => s + l.valor, 0);
+  const gastou = (jogo.extrato || []).filter(l => l.valor < 0 && !movimento.includes(l.tipo)).reduce((s, l) => s - l.valor, 0);
+  const aplicado = (jogo.aplicacoes || []).filter(a => !a.resgatada).reduce((s, a) => s + a.valor, 0);
+  return { ganhou, gastou, saldo: jogo.carteira, aplicado };
 }
 
 export function comprar(jogo, itemId) {

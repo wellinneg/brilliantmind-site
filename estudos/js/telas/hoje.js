@@ -4,6 +4,7 @@ import { MATERIAS, DIFICULDADES, ANOS, statusDoDia } from '../rodizio.js';
 import { carregarIndice, carregarDia } from '../conteudo.js';
 import { alternarSeletorDeSerie } from './serie.js';
 import { lerJogo, CAMADAS, moedasNaCamada, metaDaCamada } from '../jogo.js';
+import { aplicacoesAtivas } from '../banco.js';
 
 export async function carregarContexto() {
   const perfil = await estado.perfil();
@@ -40,6 +41,13 @@ export async function render(raiz) {
       el('small', {}, jogo.heroi ? `Conquista · ${cam.tipo}` : 'Jogo de conquista'),
       el('strong', {}, jogo.heroi ? `${cam.nome}: ${moedasNaCamada(jogo, jogo.camada)}/${metaDaCamada(jogo.camada)} 🪙` : 'Escolha seu herói e conquiste a cidade!')),
     el('span', {}, `🪙 ${jogo.carteira}`)));
+  const prontas = aplicacoesAtivas(jogo).filter(a => a.vencida);
+  if (prontas.length) {
+    raiz.append(el('button', { class: 'cartao bloco aplicacao-pronta', onclick: () => navegar('#/banco') },
+      el('span', { class: 'icone' }, '💰'),
+      el('span', { class: 'textos' }, el('small', {}, 'Banco Brilliant'), el('strong', {}, `${prontas.length === 1 ? 'Uma aplicação venceu' : `${prontas.length} aplicações venceram`}: resgate com rendimento!`)),
+      el('span', {}, '▶')));
+  }
   const caixaSerie = el('div', {});
   const linhaSerie = texto => [el('div', { class: 'linha-serie' },
     el('p', { class: 'subtitulo' }, texto),
@@ -88,6 +96,12 @@ export async function render(raiz) {
       el('strong', {}, st.blocosOk ? dia.leitura.titulo : `Libera depois dos ${dia.blocos.length} blocos`)),
     el('span', {}, st.fechamentoOk ? '✅' : (st.blocosOk ? '▶' : '🔒'))));
 
+  if (st.blocosOk && jogo.heroi) {
+    raiz.append(el('button', { class: 'cartao bloco minijogos-liberados', onclick: () => navegar('#/mapa') },
+      el('span', { class: 'icone' }, '🎮'),
+      el('span', { class: 'textos' }, el('small', {}, 'Lições do dia feitas!'), el('strong', {}, 'Minijogos liberados: escolha um lugar no mapa')),
+      el('span', {}, '▶')));
+  }
   raiz.append(secaoLicaoDeCasa(reg));
   if (!reg.fechado && st.blocosOk && st.fechamentoOk && st.casaOk && !st.revisoesOk) {
     raiz.append(el('p', { class: 'dica' }, 'Falta só a revisão 🔁 para fechar o dia.'));

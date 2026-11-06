@@ -36,6 +36,7 @@ export async function render(raiz, [camadaTxt, acao]) {
       el('strong', {}, jogo.apelido || perfil.nome),
       el('small', {}, `${HEROIS[jogo.heroi].nome}, ${HEROIS[jogo.heroi].titulo}`),
       el('span', { class: 'carteira' }, `🪙 ${jogo.carteira} moedas`)),
+    el('button', { class: 'botao secundario pequeno botao-banco', onclick: () => navegar('#/banco') }, '🏦 Banco'),
     botaoSom));
 
   // Vista panorâmica da jornada (toque numa camada já liberada para abrir)
@@ -79,7 +80,7 @@ export async function render(raiz, [camadaTxt, acao]) {
     const irmao = dono && dono !== EU && dono !== RIVAL.id ? jogo.outros[dono] : null;
     return el('button', {
       class: `territorio ${dono === EU ? 'meu' : (irmao ? 'irmao' : (dono ? 'rival' : 'livre'))}`,
-      onclick: () => navegar(`#/lugar/${t.id}`),
+      onclick: e => { e.currentTarget.style.viewTransitionName = 'lugar-ativo'; navegar(`#/lugar/${t.id}`); }, // o quadrado "cresce" e vira a cena
     },
       el('span', { class: 'bandeira' }, dono === EU ? '🚩' : (dono === RIVAL.id ? RIVAL.icone : (irmao ? '⭐' : '🏳️'))),
       irmao ? el('small', { class: 'dono-irmao' }, `de ${irmao.apelido}`) : null,
@@ -90,7 +91,7 @@ export async function render(raiz, [camadaTxt, acao]) {
   }));
   raiz.append(tabuleiro);
   // Veio de um toque no panorama: desce até o tabuleiro (depois que a tela voltou ao topo).
-  if (acao === 'ir') setTimeout(() => tabuleiro.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+  if (acao === 'ir') addEventListener('tela-pronta', () => tabuleiro.scrollIntoView({ behavior: 'smooth', block: 'start' }), { once: true });
 
   raiz.append(el('details', { class: 'cartao' },
     el('summary', {}, '❓ Como funciona'),
@@ -151,7 +152,7 @@ function barra(valor, maximo) {
 }
 
 function secaoExtrato(jogo) {
-  const { ganhou, gastou, saldo } = resumoDoExtrato(jogo);
+  const { ganhou, gastou, saldo, aplicado } = resumoDoExtrato(jogo);
   const linhas = jogo.extrato || [];
   const quando = iso => new Date(iso).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
   const lista = el('table', { class: 'tabela extrato' },
@@ -166,7 +167,8 @@ function secaoExtrato(jogo) {
     el('div', { class: 'resumo-extrato' },
       el('span', {}, 'Ganhou ', el('strong', { class: 'entrada' }, `+${ganhou}`)),
       el('span', {}, 'Gastou ', el('strong', { class: 'saida' }, `−${gastou}`)),
-      el('span', {}, 'Saldo ', el('strong', {}, saldo))),
+      el('span', {}, 'Saldo ', el('strong', {}, saldo)),
+      aplicado ? el('span', {}, 'Aplicado ', el('strong', {}, `🏦 ${aplicado}`)) : null),
     linhas.length ? lista : el('p', { class: 'dica' }, 'Ainda não tem movimento. Cada lição, bônus e compra aparece aqui.'),
     linhas.length > 30 ? el('p', { class: 'dica' }, `Mostrando os 30 mais recentes de ${linhas.length}.`) : null);
 }

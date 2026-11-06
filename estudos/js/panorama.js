@@ -76,6 +76,12 @@ function paisagem() {
   g.append(predios);
   // brilho do horizonte
   g.append(s('rect', { x: 0, y: HORIZONTE - 4, width: L, height: 18, fill: 'url(#pano-brilho)' }));
+  // nuvens que passam devagar
+  for (const [y, rx, dur, atraso, op] of [[52, 46, 38, 0, 0.55], [92, 34, 52, -20, 0.4], [118, 58, 64, -40, 0.3]]) {
+    g.append(s('g', { class: 'nuvem', style: `--dur:${dur}s;--atraso:${atraso}s;opacity:${op}` },
+      s('ellipse', { cx: 0, cy: y, rx, ry: rx * 0.28, fill: '#FFFFFF' }),
+      s('ellipse', { cx: rx * 0.35, cy: y - rx * 0.16, rx: rx * 0.5, ry: rx * 0.26, fill: '#FFFFFF' })));
+  }
   return g;
 }
 
@@ -136,8 +142,9 @@ export function desenharPanorama(jogo, jogadores, aoEscolher, aoBloqueado) {
     svg.append(s('path', { d: falta, fill: 'none', stroke: '#8EA8FF', 'stroke-width': 3.5, 'stroke-dasharray': '2 9', 'stroke-linecap': 'round', class: 'caminho-futuro' }));
   }
   if (feito) {
-    svg.append(s('path', { d: feito, fill: 'none', stroke: '#43D17A', 'stroke-width': 12, 'stroke-opacity': 0.3, 'stroke-linecap': 'round', filter: 'url(#pano-luz)' }));
-    svg.append(s('path', { d: feito, fill: 'none', stroke: '#B8FF8A', 'stroke-width': 4, 'stroke-linecap': 'round' }));
+    // pathLength=1: o caminho "se desenha" ao abrir o mapa (animação no CSS)
+    svg.append(s('path', { d: feito, fill: 'none', stroke: '#43D17A', 'stroke-width': 12, 'stroke-opacity': 0.3, 'stroke-linecap': 'round', filter: 'url(#pano-luz)', pathLength: 1, class: 'caminho-feito' }));
+    svg.append(s('path', { d: feito, fill: 'none', stroke: '#B8FF8A', 'stroke-width': 4, 'stroke-linecap': 'round', pathLength: 1, class: 'caminho-feito' }));
   }
 
   // títulos das duas partes da jornada
@@ -151,7 +158,7 @@ export function desenharPanorama(jogo, jogadores, aoEscolher, aoBloqueado) {
     const cor = estado === 'feito' ? COR.feito : (estado === 'atual' ? COR.atual : COR.futuro[k - atual - 1] || '#B05BFF');
     const sub = estado === 'feito' ? '✓ conquistado'
       : (estado === 'atual' ? (k === CAMADAS.length - 1 ? `${moedasNaCamada(jogo, k)} moedas` : `${moedasNaCamada(jogo, k)}/${metaDaCamada(k)} moedas`) : 'a conquistar');
-    const grupo = s('g', { class: 'parada tocavel' });
+    const grupo = s('g', { class: 'parada tocavel', style: `--atraso:${0.25 + k * 0.18}s` }); // pinos caem um por um
     grupo.append(etiqueta(p, k % 2 === 0 ? 'dir' : 'esq', cor, `${c.icone} ${c.nome}`, sub), pino(p, cor, c.icone, estado));
     grupo.addEventListener('click', () => (estado === 'futuro' ? aoBloqueado?.(k) : aoEscolher?.(k)));
     svg.append(grupo);

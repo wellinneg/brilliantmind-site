@@ -1,11 +1,14 @@
 import { lerConfig } from './db.js';
 import { el } from './ui.js';
+import { trocarComTransicao } from './efeitos.js';
 
 const ROTAS = {
   configuracao: () => import('./telas/configuracao.js'),
   hoje: () => import('./telas/hoje.js'),
   mapa: () => import('./telas/mapa.js'),
   lugar: () => import('./telas/lugar.js'),
+  jogo: () => import('./telas/jogo.js'),
+  banco: () => import('./telas/banco.js'),
   licao: () => import('./telas/licao.js'),
   fechamento: () => import('./telas/fechamento.js'),
   conquistas: () => import('./telas/conquistas.js'),
@@ -24,19 +27,26 @@ async function rotear() {
   else if (!ROTAS[nome] || nome === 'configuracao') nome = 'hoje';
   nav.hidden = nome === 'configuracao';
   nav.querySelectorAll('a').forEach(a => a.classList.toggle('ativo', a.dataset.rota === nome));
-  raiz.replaceChildren(el('p', { class: 'subtitulo' }, 'Carregando…'));
+  // Só mostra "Carregando…" se demorar; a troca de tela é animada (transição de jogo).
+  const aviso = setTimeout(() => raiz.replaceChildren(el('p', { class: 'subtitulo' }, 'Carregando…')), 300);
   try {
     const tela = await ROTAS[nome]();
     const conteudo = document.createDocumentFragment();
     await tela.render(conteudo, args);
-    raiz.replaceChildren(conteudo);
+    clearTimeout(aviso);
+    trocarComTransicao(() => {
+      raiz.replaceChildren(conteudo);
+      window.scrollTo(0, 0);
+      dispatchEvent(new Event('tela-pronta')); // a tela já está no lugar (ex.: o mapa desce até o tabuleiro)
+    });
   } catch (e) {
+    clearTimeout(aviso);
     raiz.replaceChildren(
       el('h1', {}, 'Ops, algo deu errado'),
       el('p', { class: 'erro' }, e.message),
       el('button', { class: 'botao', onclick: () => rotear() }, 'Tentar de novo'));
+    window.scrollTo(0, 0);
   }
-  window.scrollTo(0, 0);
 }
 
 addEventListener('hashchange', rotear);

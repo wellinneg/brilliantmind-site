@@ -8,6 +8,7 @@ import {
 import { desenharHeroi } from '../herois.js';
 import { desenharCena } from '../cenas.js';
 import { carregarContexto } from './hoje.js';
+import { MINIJOGOS, situacao, recordeDe, formatarTempo, PREMIOS_POR_DIA } from '../minijogos/motor.js';
 
 export async function render(raiz, [id]) {
   const jogo = await lerJogo();
@@ -40,6 +41,25 @@ export async function render(raiz, [id]) {
     est.pote === 0 && dono !== EU ? el('p', { class: 'caixa-dica' }, '👑 Pote vazio: só uma lição Supremo dessas matérias rouba moedas de quem manda aqui!') : null));
 
   raiz.append(await caminhoParaConquistar(jogo, t, k));
+  raiz.append(await secaoMinijogos(jogo, t));
+}
+
+const mostrarRecorde = (tipo, v) => (v == null ? 'sem recorde' : (tipo === 'memoria' ? `${v} jogadas` : (tipo === 'caixa' ? `${v} contas` : formatarTempo(v))));
+
+async function secaoMinijogos(jogo, t) {
+  let reg = null;
+  try { ({ reg } = await carregarContexto()); } catch { /* sem conteúdo */ }
+  const sit = await situacao(reg);
+  return el('section', { class: 'cartao minijogos' },
+    el('h2', {}, '🎮 Minijogos deste lugar'),
+    el('p', { class: 'dica' }, !sit.liberado
+      ? '🔒 Liberam depois que você termina os blocos de lição de hoje.'
+      : (sit.premiosRestantes ? `Hoje ainda ${sit.premiosRestantes === 1 ? 'vale 1 partida' : `valem ${sit.premiosRestantes} partidas`} com moedas (de ${PREMIOS_POR_DIA}). Depois, é por diversão e recorde.` : 'As partidas com moedas de hoje acabaram. Jogue para bater o seu recorde!')),
+    el('div', { class: 'grade-minijogos' }, Object.entries(MINIJOGOS).map(([tipo, m]) => el('button', {
+      class: `minijogo ${sit.liberado ? '' : 'trancado'}`, type: 'button',
+      onclick: () => navegar(`#/jogo/${tipo}/${t.id}`),
+    }, el('span', { class: 'icone-minijogo' }, sit.liberado ? m.icone : '🔒'), el('strong', {}, m.nome), el('small', {}, m.desc),
+      el('small', { class: 'recorde' }, `🏅 ${mostrarRecorde(tipo, recordeDe(jogo, tipo, t.id))}`)))));
 }
 
 /** Botões que levam direto à lição (ou revisão) de hoje que vale moedas para este lugar. */
