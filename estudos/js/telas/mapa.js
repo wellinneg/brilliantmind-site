@@ -35,7 +35,7 @@ export async function render(raiz, [camadaTxt, acao]) {
     el('div', { class: 'textos' },
       el('strong', {}, jogo.apelido || perfil.nome),
       el('small', {}, `${HEROIS[jogo.heroi].nome}, ${HEROIS[jogo.heroi].titulo}`),
-      el('span', { class: 'carteira' }, `🪙 ${jogo.carteira} moedas`)),
+      el('span', { class: 'carteira' }, `💵 ${jogo.carteira} notas`)),
     el('button', { class: 'botao secundario pequeno botao-banco', onclick: () => navegar('#/banco') }, '🏦 Banco'),
     botaoSom));
 
@@ -48,7 +48,7 @@ export async function render(raiz, [camadaTxt, acao]) {
     sons.erro();
     const anterior = CAMADAS[k - 1];
     aviso(k === jogo.camada + 1
-      ? `🔒 ${CAMADAS[k].nome} libera com ${metaDaCamada(jogo.camada)} moedas em ${CAMADAS[jogo.camada].nome} (você tem ${moedasNaCamada(jogo, jogo.camada)}).`
+      ? `🔒 ${CAMADAS[k].nome} libera com ${metaDaCamada(jogo.camada)} notas em ${CAMADAS[jogo.camada].nome} (você tem ${moedasNaCamada(jogo, jogo.camada)}).`
       : `🔒 ${CAMADAS[k].nome} vem depois de ${anterior.nome}. Uma camada de cada vez!`);
   }));
 
@@ -66,9 +66,9 @@ export async function render(raiz, [camadaTxt, acao]) {
     el('h1', {}, `${camada.icone} ${camada.nome}`),
     el('p', { class: 'dica' }, vendo < jogo.camada
       ? 'Camada já vencida. Suas lições agora disputam a próxima camada, mas aqui seus territórios continuam seus.'
-      : (ultima ? 'A camada final! Domine o mundo inteiro.' : `Junte ${meta} moedas aqui (60%) para liberar ${CAMADAS[vendo + 1].tipo}.`)),
+      : (ultima ? 'A camada final! Domine o mundo inteiro.' : `Junte ${meta} notas aqui (60%) para liberar ${CAMADAS[vendo + 1].tipo}.`)),
     barra(minhas, ultima || vendo < jogo.camada ? totalDaCamada(vendo) : meta),
-    el('p', { class: 'subtitulo' }, `Você tem ${minhas} de ${totalDaCamada(vendo)} moedas desta camada`)));
+    el('p', { class: 'subtitulo' }, `Você tem ${minhas} de ${totalDaCamada(vendo)} notas desta camada`)));
 
   if (familia?.codigo) raiz.append(placarDaFamilia(jogo, familia));
 
@@ -87,7 +87,7 @@ export async function render(raiz, [camadaTxt, acao]) {
       el('span', { class: 'icone-territorio' }, t.icone),
       el('strong', {}, t.nome),
       el('small', {}, t.materias.map(m => MATERIAS[m]?.icone).join(' ')),
-      el('small', {}, `🪙 ${meu} seu · pote ${est.pote}/${camada.pote}`));
+      el('small', {}, `💵 ${meu} seu · pote ${est.pote}/${camada.pote}`));
   }));
   raiz.append(tabuleiro);
   // Veio de um toque no panorama: desce até o tabuleiro (depois que a tela voltou ao topo).
@@ -96,23 +96,23 @@ export async function render(raiz, [camadaTxt, acao]) {
   raiz.append(el('details', { class: 'cartao' },
     el('summary', {}, '❓ Como funciona'),
     el('ul', {},
-      el('li', {}, 'Cada lição que você consegue vale moedas (🍼 5, 🙂 10, 💪 15, 👑 25, +5 se acertar tudo).'),
-      el('li', {}, 'As moedas saem do pote do território da matéria, na camada em que você está.'),
-      el('li', {}, `Quem tiver mais moedas num território é o dono. O ${RIVAL.nome} ${RIVAL.icone}, empresário rival que quer comprar a cidade inteira, começa com um pouco de cada pote.`),
-      el('li', {}, 'Pote vazio? Só uma lição 👑 Supremo rouba moedas de quem é dono.'),
-      el('li', {}, 'Com 60% das moedas da camada, libera a próxima: Bairro, Cidade, Estado, País e Mundo.'),
-      el('li', {}, 'Fechar o dia dá +20 moedas para gastar na loja. Gastar na loja não tira seus territórios.'))));
+      el('li', {}, 'Cada lição que você consegue vale notas (🍼 5, 🙂 10, 💪 15, 👑 25, +5 se acertar tudo).'),
+      el('li', {}, 'As notas saem do pote do território da matéria, na camada em que você está.'),
+      el('li', {}, `Quem tiver mais notas num território é o dono. O ${RIVAL.nome} ${RIVAL.icone}, empresário rival que quer comprar a cidade inteira, começa com um pouco de cada pote.`),
+      el('li', {}, 'Pote vazio? Só uma lição 👑 Supremo rouba notas de quem é dono.'),
+      el('li', {}, 'Com 60% das notas da camada, libera a próxima: Bairro, Cidade, Estado, País e Mundo.'),
+      el('li', {}, 'Fechar o dia dá +20 notas para gastar na loja. Gastar na loja não tira seus territórios.'))));
 
   raiz.append(secaoLoja(jogo, redesenhar), secaoExtrato(jogo));
 
   if (jogo.historico.length) {
     raiz.append(el('h2', {}, '📜 Últimas conquistas'), el('ul', { class: 'historico' }, jogo.historico.slice(0, 6).map(h => {
       const t = CAMADAS.flatMap(c => c.territorios).find(x => x.id === h.territorio);
-      return el('li', {}, `${t?.icone || ''} ${t?.nome || ''}: +${h.doPote + h.roubou} 🪙${h.roubou ? ` (roubou ${h.roubou} de ${nomeDoDono(jogo, h.de)})` : ''}${h.conquistou ? ' · 🚩 conquistou!' : ''}`);
+      return el('li', {}, `${t?.icone || ''} ${t?.nome || ''}: +${h.doPote + h.roubou} 💵${h.roubou ? ` (roubou ${h.roubou} de ${nomeDoDono(jogo, h.de)})` : ''}${h.conquistou ? ' · 🚩 conquistou!' : ''}`);
     })));
   }
   raiz.append(el('button', { class: 'link', onclick: async () => {
-    if (!confirm('Trocar de herói? Moedas, territórios e itens continuam.')) return;
+    if (!confirm('Trocar de herói? Notas, territórios e itens continuam.')) return;
     jogo.heroi = null; await gravarJogo(jogo); redesenhar();
   } }, 'Trocar de herói ou apelido'));
 }
@@ -136,7 +136,7 @@ function placarDaFamilia(jogo, familia) {
       desenharHeroi(j.heroi, j.usando, 'pequeno'),
       el('span', { class: 'textos' }, el('strong', {}, j.id === EU ? `${j.apelido} (você)` : j.apelido),
         el('small', {}, `${CAMADAS[j.camada || 0].icone} ${CAMADAS[j.camada || 0].tipo} · 🚩 ${j.territorios} territórios`)),
-      el('span', { class: 'carteira' }, `🪙 ${j.moedas}`)))),
+      el('span', { class: 'carteira' }, `💵 ${j.moedas}`)))),
     jogadores.length === 1 ? el('p', { class: 'dica' }, 'Ainda não chegou nenhum irmão. No outro celular, entre com o mesmo código da família (Pais → Disputa da família).') : null,
     el('p', { class: 'dica' }, `Atualizado: ${quando}`));
 }
@@ -156,14 +156,14 @@ function secaoExtrato(jogo) {
   const linhas = jogo.extrato || [];
   const quando = iso => new Date(iso).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
   const lista = el('table', { class: 'tabela extrato' },
-    el('tr', {}, el('th', {}, 'Quando'), el('th', {}, 'O quê'), el('th', {}, 'Moedas'), el('th', {}, 'Saldo')),
+    el('tr', {}, el('th', {}, 'Quando'), el('th', {}, 'O quê'), el('th', {}, 'Notas'), el('th', {}, 'Saldo')),
     linhas.slice(0, 30).map(l => el('tr', {},
       el('td', {}, quando(l.quando)),
       el('td', {}, l.descricao),
       el('td', { class: l.valor < 0 ? 'saida' : 'entrada' }, `${l.valor > 0 ? '+' : ''}${l.valor}`),
       el('td', {}, l.saldo))));
   return el('details', { class: 'cartao' },
-    el('summary', {}, `📒 Extrato de moedas · saldo 🪙 ${saldo}`),
+    el('summary', {}, `📒 Extrato de notas · saldo 💵 ${saldo}`),
     el('div', { class: 'resumo-extrato' },
       el('span', {}, 'Ganhou ', el('strong', { class: 'entrada' }, `+${ganhou}`)),
       el('span', {}, 'Gastou ', el('strong', { class: 'saida' }, `−${gastou}`)),
@@ -176,7 +176,7 @@ function secaoExtrato(jogo) {
 function secaoLoja(jogo, redesenhar) {
   return el('section', { class: 'cartao' },
     el('h2', {}, '🛍️ Loja do herói'),
-    el('p', { class: 'dica' }, `Você tem 🪙 ${jogo.carteira}. Toque num item comprado para usar ou tirar.`),
+    el('p', { class: 'dica' }, `Você tem 💵 ${jogo.carteira}. Toque num item comprado para usar ou tirar.`),
     el('div', { class: 'loja' }, LOJA.map(item => {
       const tem = jogo.itens.includes(item.id);
       const usando = jogo.usando[item.parte] === item.id;
@@ -186,12 +186,12 @@ function secaoLoja(jogo, redesenhar) {
         onclick: async () => {
           try {
             if (tem) alternarItem(jogo, item.id);
-            else { comprar(jogo, item.id); sons.compra(); aviso(`Comprou ${item.nome} por ${item.preco} 🪙. Sobraram ${jogo.carteira} 🪙.`); }
+            else { comprar(jogo, item.id); sons.compra(); aviso(`Comprou ${item.nome} por ${item.preco} 💵. Sobraram ${jogo.carteira} 💵.`); }
             await gravarJogo(jogo); sincronizarDepois(); redesenhar();
           } catch (e) { sons.erro(); aviso(e.message); }
         },
       }, el('span', { class: 'icone-item' }, item.icone), el('small', {}, item.nome),
-        el('small', {}, tem ? (usando ? '✅ usando' : 'guardado') : `🪙 ${item.preco}`));
+        el('small', {}, tem ? (usando ? '✅ usando' : 'guardado') : `💵 ${item.preco}`));
     })));
 }
 
@@ -209,7 +209,7 @@ function escolherHeroi(raiz, jogo, perfil) {
   }, desenharHeroi(id, {}, 'grande'), el('strong', {}, h.nome), el('small', {}, h.titulo)));
   raiz.append(
     el('h1', {}, '🗺️ Escolha seu herói'),
-    el('p', { class: 'dica' }, 'Seu herói vai conquistar a Vila Brilliant, a cidade, o estado, o país e o mundo com as moedas das lições.'),
+    el('p', { class: 'dica' }, 'Seu herói vai conquistar a Vila Brilliant, a cidade, o estado, o país e o mundo com as notas das lições.'),
     el('div', { class: 'herois' }, cartoes),
     el('div', { class: 'campo' }, el('label', { for: 'apelido' }, 'Apelido no jogo'), apelido),
     el('button', { class: 'botao grande', onclick: async () => {

@@ -33,7 +33,7 @@ export const CAMADAS = [
     ['seda', '🐫', 'Rota do Comércio'], ['onu', '🌐', 'Sede das Nações'], ['silicio', '💻', 'Vale do Silício']] },
 ].map(c => ({ ...c, territorios: c.territorios.map(([id, icone, nome], g) => ({ id: `${c.id}:${id}`, icone, nome, grupo: g, materias: GRUPOS[g] })) }));
 
-export const PARA_LIBERAR = 0.6;          // 60% das moedas da camada libera a próxima
+export const PARA_LIBERAR = 0.6;          // 60% das notas da camada libera a próxima
 export const PARTE_DO_RIVAL = 0.25;       // o rival começa com 25% de cada pote
 export const EU = 'eu';
 // O id 'barao' ficou do nome antigo (já gravado nos registros); na tela aparece só o nome novo.
@@ -205,7 +205,7 @@ export function comprar(jogo, itemId) {
   const item = LOJA.find(i => i.id === itemId);
   if (!item) throw new Error('Item não existe.');
   if (jogo.itens.includes(itemId)) throw new Error('Você já tem este item.');
-  if (jogo.carteira < item.preco) throw new Error(`Faltam ${item.preco - jogo.carteira} moedas.`);
+  if (jogo.carteira < item.preco) throw new Error(`Faltam ${item.preco - jogo.carteira} notas.`);
   jogo.carteira -= item.preco;
   lancar(jogo, { tipo: 'compra', descricao: `Compra na loja: ${item.icone} ${item.nome}`, valor: -item.preco });
   jogo.itens.push(itemId);
@@ -223,7 +223,7 @@ export function alternarItem(jogo, itemId) {
 export async function lerJogo() {
   const j = await db.lerConfig('jogo');
   if (!j || j.versao !== 2) return novoJogo(); // versão 1 só existiu em teste, antes de publicar
-  if (j.heroi && !HEROIS[j.heroi]) j.heroi = null; // herói que saiu do jogo: escolhe de novo (moedas ficam)
+  if (j.heroi && !HEROIS[j.heroi]) j.heroi = null; // herói que saiu do jogo: escolhe de novo (notas ficam)
   if (!j.extrato) { // jogo de antes do extrato: começa com o saldo que já tinha
     j.extrato = j.carteira ? [{ quando: new Date().toISOString(), tipo: 'abertura', descricao: 'Saldo de antes do extrato', valor: j.carteira, saldo: j.carteira }] : [];
   }
@@ -238,8 +238,8 @@ export async function registrarMoedas(dados) {
   await gravarJogo(jogo);
   return res;
 }
-export async function registrarBonus(moedas) {
+export async function registrarBonus(notas) {
   const jogo = await lerJogo();
-  ganharBonus(jogo, moedas);
+  ganharBonus(jogo, notas);
   await gravarJogo(jogo);
 }

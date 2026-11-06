@@ -33,12 +33,12 @@ export async function render(raiz, [id]) {
   raiz.append(el('section', { class: 'cartao' },
     el('p', { class: 'dono-lugar' }, dono === EU ? '🚩 Este lugar é seu!' : (dono ? `Quem manda aqui: ${nome(dono)}` : 'Ninguém manda aqui ainda.')),
     el('p', {}, `Matérias que valem aqui: ${t.materias.map(m => `${MATERIAS[m]?.icone} ${MATERIAS[m]?.nome}`).join(', ')}`),
-    el('div', { class: 'barra' }, el('div', { class: 'barra-cheia', style: `width:${Math.round((usado / camada.pote) * 100)}%` }), el('span', {}, `pote: restam ${est.pote} de ${camada.pote} 🪙`)),
+    el('div', { class: 'barra' }, el('div', { class: 'barra-cheia', style: `width:${Math.round((usado / camada.pote) * 100)}%` }), el('span', {}, `pote: restam ${est.pote} de ${camada.pote} 💵`)),
     el('table', { class: 'tabela' },
-      el('tr', {}, el('th', {}, 'Quem'), el('th', {}, 'Moedas')),
+      el('tr', {}, el('th', {}, 'Quem'), el('th', {}, 'Notas')),
       Object.entries(est.donos).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1])
         .map(([qual, n]) => el('tr', { class: qual === EU ? 'linha-eu' : '' }, el('td', {}, nome(qual)), el('td', {}, n)))),
-    est.pote === 0 && dono !== EU ? el('p', { class: 'caixa-dica' }, '👑 Pote vazio: só uma lição Supremo dessas matérias rouba moedas de quem manda aqui!') : null));
+    est.pote === 0 && dono !== EU ? el('p', { class: 'caixa-dica' }, '👑 Pote vazio: só uma lição Supremo dessas matérias rouba notas de quem manda aqui!') : null));
 
   raiz.append(await caminhoParaConquistar(jogo, t, k));
   raiz.append(await secaoMinijogos(jogo, t));
@@ -54,7 +54,7 @@ async function secaoMinijogos(jogo, t) {
     el('h2', {}, '🎮 Minijogos deste lugar'),
     el('p', { class: 'dica' }, !sit.liberado
       ? '🔒 Liberam depois que você termina os blocos de lição de hoje.'
-      : (sit.premiosRestantes ? `Hoje ainda ${sit.premiosRestantes === 1 ? 'vale 1 partida' : `valem ${sit.premiosRestantes} partidas`} com moedas (de ${PREMIOS_POR_DIA}). Depois, é por diversão e recorde.` : 'As partidas com moedas de hoje acabaram. Jogue para bater o seu recorde!')),
+      : (sit.premiosRestantes ? `Hoje ainda ${sit.premiosRestantes === 1 ? 'vale 1 partida' : `valem ${sit.premiosRestantes} partidas`} com notas (de ${PREMIOS_POR_DIA}). Depois, é por diversão e recorde.` : 'As partidas com notas de hoje acabaram. Jogue para bater o seu recorde!')),
     el('div', { class: 'grade-minijogos' }, Object.entries(MINIJOGOS).map(([tipo, m]) => el('button', {
       class: `minijogo ${sit.liberado ? '' : 'trancado'}`, type: 'button',
       onclick: () => navegar(`#/jogo/${tipo}/${t.id}`),
@@ -67,7 +67,7 @@ async function caminhoParaConquistar(jogo, t, k) {
   const area = el('section', { class: 'cartao conquistar' }, el('h2', {}, '⚔️ Conquistar'));
   if (k !== jogo.camada) {
     const destino = territorioDaMateria(jogo.camada, t.materias[0]);
-    area.append(el('p', { class: 'dica' }, `Você já está em ${CAMADAS[jogo.camada].nome}: agora as lições dessas matérias valem moedas em ${destino.icone} ${destino.nome}.`));
+    area.append(el('p', { class: 'dica' }, `Você já está em ${CAMADAS[jogo.camada].nome}: agora as lições dessas matérias valem notas em ${destino.icone} ${destino.nome}.`));
   }
   let ctx;
   try { ctx = await carregarContexto(); } catch { ctx = null; }
@@ -88,7 +88,7 @@ async function caminhoParaConquistar(jogo, t, k) {
   (reg.revisoes || []).forEach((rv, n) => {
     if (!t.materias.includes(rv.materia) || rv.feito) return;
     algum = true;
-    area.append(el('button', { class: 'botao secundario grande', onclick: () => navegar(`#/retorno/${n}`) }, `🔁 Revisão de ${MATERIAS[rv.materia]?.nome} (vale moedas aqui)`));
+    area.append(el('button', { class: 'botao secundario grande', onclick: () => navegar(`#/retorno/${n}`) }, `🔁 Revisão de ${MATERIAS[rv.materia]?.nome} (vale notas aqui)`));
   });
   if (!algum) {
     const nomes = t.materias.map(m => MATERIAS[m]?.nome).join(' ou ');

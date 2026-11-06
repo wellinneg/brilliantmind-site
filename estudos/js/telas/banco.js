@@ -20,7 +20,7 @@ export async function render(raiz) {
       el('h1', {}, '🏦 Banco Brilliant'),
       el('p', { class: 'selic-taxa' }, 'Selic do jogo: ', el('strong', {}, '1% por semana'))),
     el('div', { class: 'banco-saldos' },
-      el('div', {}, el('small', {}, 'Carteira'), el('strong', {}, `🪙 ${jogo.carteira}`)),
+      el('div', {}, el('small', {}, 'Carteira'), el('strong', {}, `💵 ${jogo.carteira}`)),
       el('div', {}, el('small', {}, 'Aplicado'), el('strong', {}, `🏦 ${totalAplicado}`)),
       el('div', {}, el('small', {}, 'Vale hoje'), el('strong', { class: 'entrada' }, `📈 ${valeHoje}`))));
 
@@ -32,7 +32,7 @@ export async function render(raiz) {
       const noVencimento = simular(a.valor, a.prazo);
       raiz.append(el('section', { class: `cartao aplicacao ${a.vencida ? 'vencida' : ''}` },
         el('div', { class: 'linha-aplicacao' },
-          el('strong', {}, `${a.prazo} dias · aplicou 🪙 ${a.valor}`),
+          el('strong', {}, `${a.prazo} dias · aplicou 💵 ${a.valor}`),
           el('span', { class: a.rendimento ? 'entrada' : '' }, `hoje vale ${a.valorHoje}`)),
         el('small', {}, `De ${exibir(a.inicio)} até ${exibir(a.vencimento)} · ${a.semanas} semana(s) rendendo`),
         el('div', { class: 'barra' }, el('div', { class: 'barra-cheia', style: `width:${pct}%` }),
@@ -40,11 +40,11 @@ export async function render(raiz) {
         a.vencida
           ? el('button', { class: 'botao grande', onclick: async () => {
             const r = resgatar(jogo, a.id, hoje); await gravarJogo(jogo);
-            sons.conquista(); confete(); aviso(`Resgatou ${r.recebe} 🪙 (rendimento +${r.rendimento})!`); redesenhar();
-          } }, `💰 Resgatar ${a.valorHoje} 🪙`)
+            sons.conquista(); confete(); aviso(`Resgatou ${r.recebe} 💵 (rendimento +${r.rendimento})!`); redesenhar();
+          } }, `💰 Resgatar ${a.valorHoje} 💵`)
           : el('button', { class: 'link', onclick: async () => {
             if (!confirm(`Resgatar antes do vencimento devolve só os ${a.valor} aplicados, SEM rendimento. Se esperar até ${exibir(a.vencimento)}, recebe ${noVencimento.valor}. Resgatar mesmo assim?`)) return;
-            resgatar(jogo, a.id, hoje); await gravarJogo(jogo); sons.erro(); aviso(`Resgatou ${a.valor} 🪙, sem rendimento.`); redesenhar();
+            resgatar(jogo, a.id, hoje); await gravarJogo(jogo); sons.erro(); aviso(`Resgatou ${a.valor} 💵, sem rendimento.`); redesenhar();
           } }, 'Resgatar antes (perde o rendimento)')));
     }
   }
@@ -71,7 +71,7 @@ export async function render(raiz) {
   raiz.append(el('section', { class: 'cartao' },
     el('h2', {}, '➕ Nova aplicação'),
     jogo.carteira < SELIC.minimo
-      ? el('p', { class: 'dica' }, `Você precisa de pelo menos ${SELIC.minimo} 🪙 na carteira para aplicar. Faça as lições e os minijogos!`)
+      ? el('p', { class: 'dica' }, `Você precisa de pelo menos ${SELIC.minimo} 💵 na carteira para aplicar. Faça as lições e os minijogos!`)
       : el('div', {},
         el('div', { class: 'campo' }, el('label', { for: 'valor-aplicar' }, `Quanto aplicar (mínimo ${SELIC.minimo}, você tem ${jogo.carteira})`), campo),
         el('div', { class: 'linha atalhos' }, atalho(0.25), atalho(0.5), atalho(1)),
@@ -79,7 +79,7 @@ export async function render(raiz) {
         el('button', { class: 'botao grande', onclick: async () => {
           try {
             const ap = aplicar(jogo, campo.value, prazo, hoje); await gravarJogo(jogo);
-            sons.compra(); aviso(`Aplicou ${ap.valor} 🪙 por ${prazo} dias. Resgate em ${exibir(ap.vencimento)}!`); redesenhar();
+            sons.compra(); aviso(`Aplicou ${ap.valor} 💵 por ${prazo} dias. Resgate em ${exibir(ap.vencimento)}!`); redesenhar();
           } catch (e) { sons.erro(); aviso(e.message); }
         } }, '🏦 Aplicar')),
     el('details', { class: 'explica-selic' },

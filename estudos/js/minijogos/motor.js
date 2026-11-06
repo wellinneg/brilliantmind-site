@@ -90,7 +90,7 @@ export function mostrarResultado(area, { titulo, linhas, fim, t, tipo, jogarDeNo
       ...linhas.map(l => el('p', {}, l)),
       fim.novoRecorde ? el('p', { class: 'conquista-nova' }, fim.anterior == null ? '🏅 Primeiro recorde marcado!' : '🏅 Novo recorde!') : null,
       fim.valendo ? null : el('p', { class: 'dica' }, `Hoje já valeram ${PREMIOS_POR_DIA} partidas. Esta foi por diversão (o recorde vale!).`),
-      fim.valendo && fim.restantes >= 0 ? el('p', { class: 'dica' }, `Partidas valendo moedas hoje: faltam ${fim.restantes}.`) : null),
+      fim.valendo && fim.restantes >= 0 ? el('p', { class: 'dica' }, `Partidas valendo notas hoje: faltam ${fim.restantes}.`) : null),
     comemorarJogo(fim.res),
     el('div', { class: 'linha' },
       el('button', { class: 'botao', onclick: jogarDeNovo }, '🔁 Jogar de novo'),

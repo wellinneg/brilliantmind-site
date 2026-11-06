@@ -39,8 +39,8 @@ export async function render(raiz) {
     el('span', { class: 'icone' }, cam.icone),
     el('span', { class: 'textos' },
       el('small', {}, jogo.heroi ? `Conquista · ${cam.tipo}` : 'Jogo de conquista'),
-      el('strong', {}, jogo.heroi ? `${cam.nome}: ${moedasNaCamada(jogo, jogo.camada)}/${metaDaCamada(jogo.camada)} 🪙` : 'Escolha seu herói e conquiste a cidade!')),
-    el('span', {}, `🪙 ${jogo.carteira}`)));
+      el('strong', {}, jogo.heroi ? `${cam.nome}: ${moedasNaCamada(jogo, jogo.camada)}/${metaDaCamada(jogo.camada)} 💵` : 'Escolha seu herói e conquiste a cidade!')),
+    el('span', {}, `💵 ${jogo.carteira}`)));
   const prontas = aplicacoesAtivas(jogo).filter(a => a.vencida);
   if (prontas.length) {
     raiz.append(el('button', { class: 'cartao bloco aplicacao-pronta', onclick: () => navegar('#/banco') },

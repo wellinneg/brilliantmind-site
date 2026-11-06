@@ -157,7 +157,7 @@ export function desenharPanorama(jogo, jogadores, aoEscolher, aoBloqueado) {
     const estado = k < atual ? 'feito' : (k === atual ? 'atual' : 'futuro');
     const cor = estado === 'feito' ? COR.feito : (estado === 'atual' ? COR.atual : COR.futuro[k - atual - 1] || '#B05BFF');
     const sub = estado === 'feito' ? '✓ conquistado'
-      : (estado === 'atual' ? (k === CAMADAS.length - 1 ? `${moedasNaCamada(jogo, k)} moedas` : `${moedasNaCamada(jogo, k)}/${metaDaCamada(k)} moedas`) : 'a conquistar');
+      : (estado === 'atual' ? (k === CAMADAS.length - 1 ? `${moedasNaCamada(jogo, k)} notas` : `${moedasNaCamada(jogo, k)}/${metaDaCamada(k)} notas`) : 'a conquistar');
     const grupo = s('g', { class: 'parada tocavel', style: `--atraso:${0.25 + k * 0.18}s` }); // pinos caem um por um
     grupo.append(etiqueta(p, k % 2 === 0 ? 'dir' : 'esq', cor, `${c.icone} ${c.nome}`, sub), pino(p, cor, c.icone, estado));
     grupo.addEventListener('click', () => (estado === 'futuro' ? aoBloqueado?.(k) : aoEscolher?.(k)));

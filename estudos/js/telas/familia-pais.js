@@ -33,14 +33,14 @@ async function desenhar(caixa) {
       el('p', {}, 'Código da família: ', el('strong', { class: 'codigo-familia' }, familia.codigo)),
       el('p', { class: 'dica' }, 'No celular do irmão: Pais → Disputa da família → Entrar com código. Não divulgue o código fora de casa.'),
       el('p', {}, nomes.length ? `Disputando com: ${nomes.join(', ')}` : 'Nenhum irmão entrou ainda.'),
-      el('p', { class: 'dica' }, 'Vai para a internet só: apelido, herói, itens, camada e moedas do jogo. Notas, respostas, fotos e áudios ficam só neste celular.'),
+      el('p', { class: 'dica' }, 'Vai para a internet só: apelido, herói, itens, camada e o dinheiro do jogo. Notas das lições, respostas, fotos e áudios ficam só neste celular.'),
       el('div', { class: 'linha' },
         el('button', { class: 'botao', onclick: async e => {
           e.currentTarget.disabled = true;
           aviso(resultado(await sincronizar())); de_novo();
         } }, '🔄 Sincronizar agora'),
         el('button', { class: 'botao secundario', onclick: async () => {
-          if (!confirm('Sair da disputa da família? As moedas deste celular continuam; o placar dos irmãos some daqui.')) return;
+          if (!confirm('Sair da disputa da família? As notas deste celular continuam; o placar dos irmãos some daqui.')) return;
           await sairDaFamilia(); de_novo();
         } }, 'Sair da família')));
     return;
