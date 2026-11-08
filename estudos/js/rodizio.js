@@ -37,12 +37,26 @@ export function materiasDoDia(diaConteudo) { return SEMANA[(diaConteudo - 1) % 5
 
 export const idRegistro = (ano, data) => `${ano}|${data}`;
 
+// 🎧 Ouvir: história/tema narrado nos dias 1, 3 e 5 de cada semana da trilha (episódios em sequência).
+export const EPISODIOS_OUVIR = 12;
+export const temOuvir = dia => [0, 2, 4].includes((dia - 1) % 5);
+export function episodioDoDia(dia) {
+  const idx = [0, 2, 4].indexOf((dia - 1) % 5);
+  if (idx < 0) return null;
+  return ((Math.floor((dia - 1) / 5) * 3 + idx) % EPISODIOS_OUVIR) + 1;
+}
+// ⚡ Prova surpresa a cada 3 dias da trilha, com perguntas dos últimos dias; vale 50% a mais.
+export const temProva = dia => dia >= 3 && dia % 3 === 0;
+export const BONUS_PROVA = 1.5;
+
 export function novoRegistro(ano, data, diaConteudo, nBlocos = materiasDoDia(diaConteudo).length) {
   return {
     id: idRegistro(ano, data), ano, data, diaConteudo,
     blocos: Array.from({ length: nBlocos }, () => ({})), revisoes: [], temLicao: null,
     fotos: { inicio: null, fim: null }, audioLeitura: null, duracaoLeitura: null,
     fotoEscrita: null, fotoDesafio: {}, fechado: false, fechadoEm: null, pontos: 0,
+    ouvir: temOuvir(diaConteudo) ? { ep: episodioDoDia(diaConteudo), feito: false } : null,
+    prova: temProva(diaConteudo) ? { feito: false } : null,
   };
 }
 
@@ -51,7 +65,9 @@ export function statusDoDia(reg) {
   const revisoesOk = (reg.revisoes || []).every(r => r.feito === true);
   const fechamentoOk = !!reg.audioLeitura && !!reg.fotoEscrita;
   const casaOk = reg.temLicao === false || (reg.temLicao === true && !!reg.fotos.inicio && !!reg.fotos.fim);
-  return { blocosOk, revisoesOk, fechamentoOk, casaOk, podeFechar: blocosOk && revisoesOk && fechamentoOk && casaOk };
+  const ouvirOk = !reg.ouvir || reg.ouvir.feito === true;   // dias sem Ouvir/Prova (ou registros antigos): ok
+  const provaOk = !reg.prova || reg.prova.feito === true;
+  return { blocosOk, revisoesOk, fechamentoOk, casaOk, ouvirOk, provaOk, podeFechar: blocosOk && revisoesOk && fechamentoOk && casaOk && ouvirOk && provaOk };
 }
 
 export function calcularSequencia(fechados, hoje) {

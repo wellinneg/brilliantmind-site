@@ -281,3 +281,87 @@ details.cartao>summary{font-weight:700}
 .atalhos{margin-bottom:10px}
 .explica-selic p{color:var(--suave)}
 .aplicacao-pronta{border-left:6px solid var(--lime);animation:brilho 2s ease-in-out infinite}
+.herois .escolha-heroi:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 5px)}
+
+/* ---- Mapa mais calmo: sem animação que fica repetindo (pedido do Wellington, 08/11) ---- */
+.bandeira,.bandeira-cena,.territorio.meu .icone-territorio,.nuvem,.pino-atual,.caminho-futuro,
+.heroi-no-mapa.eu,.heroi-na-cena{animation:none}
+.grade-minijogos.grande .minijogo{padding:18px 12px}
+.grade-minijogos.grande .icone-minijogo{font-size:2.6rem}
+#lugar-jogo{width:100%;padding:10px;border-radius:10px;background:var(--navy-2);color:var(--texto);border:2px solid var(--navy-3);font-size:1rem}
+.navegacao a{font-size:.72rem}
+
+/* ---- Mapa de territórios ---- */
+.mapa-territorios h2{margin-top:0}
+.placar-territorios{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:8px;font-size:.85rem;font-weight:700}
+.placar-territorios i{display:inline-block;width:12px;height:12px;border-radius:3px;background:var(--cor-dono);margin-right:5px;vertical-align:-1px}
+.barra-dominio{display:flex;height:12px;border-radius:6px;overflow:hidden;margin-bottom:12px;border:2px solid #000}
+.linha-territorios{display:grid;grid-template-columns:28px repeat(6,1fr);gap:4px;margin-bottom:4px;align-items:stretch}
+.rotulo-camada{display:flex;align-items:center;justify-content:center;font-size:1.1rem}
+.celula-territorio{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:5px 2px;border-radius:8px;cursor:pointer;font-family:inherit;
+  background:color-mix(in srgb,var(--cor-dono) 30%,var(--navy-2));border:2px solid var(--cor-dono);color:var(--texto);min-width:0}
+.celula-territorio span{font-size:1.15rem;line-height:1}
+.celula-territorio small{font-size:.55rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.celula-territorio.minha{box-shadow:0 0 0 2px var(--lime) inset}
+.celula-territorio:disabled{opacity:.55;cursor:not-allowed}
+
+/* ---- Apresentação do personagem (3 s) ---- */
+.apresentacao{position:fixed;inset:0;z-index:1000;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;
+  background:radial-gradient(circle at 50% 40%,#1E3A5F 0%,#0A191E 70%);perspective:900px;animation:apr-entra .3s ease-out}
+.apresentacao.saindo{animation:apr-sai .35s ease-in forwards}
+@keyframes apr-entra{from{opacity:0}}
+@keyframes apr-sai{to{opacity:0;transform:scale(1.08)}}
+.apresentacao-raios{position:absolute;inset:-50%;background:repeating-conic-gradient(from 0deg,rgba(206,240,16,.10) 0 10deg,transparent 10deg 20deg);animation:apr-raios 6s linear infinite}
+@keyframes apr-raios{to{transform:rotate(360deg)}}
+.apresentacao-holofote{position:absolute;top:0;left:50%;width:260px;height:70%;transform:translateX(-50%);
+  background:linear-gradient(to bottom,rgba(255,255,220,.35),rgba(255,255,220,0));clip-path:polygon(40% 0,60% 0,100% 100%,0 100%)}
+.apresentacao-giro{position:relative;transform-style:preserve-3d;animation:apr-gira 2.4s cubic-bezier(.2,.8,.2,1) both}
+.apresentacao-giro .heroi{width:170px;height:272px;filter:drop-shadow(0 18px 14px rgba(0,0,0,.6))}
+@keyframes apr-gira{0%{transform:translateY(-60px) rotateY(-540deg) scale(.3);opacity:0}60%{opacity:1}
+  85%{transform:translateY(0) rotateY(12deg) scale(1.08)}100%{transform:translateY(0) rotateY(0) scale(1)}}
+.apresentacao-chao{width:200px;height:26px;margin-top:-18px;border-radius:50%;background:radial-gradient(rgba(206,240,16,.55),transparent 70%)}
+.apresentacao-nome{position:relative;text-align:center;margin-top:18px;display:flex;flex-direction:column;gap:2px;animation:apr-nome .6s 1.6s both}
+.apresentacao-nome small{color:var(--suave);text-transform:uppercase;letter-spacing:3px;font-weight:700}
+.apresentacao-nome strong{font-size:2.6rem;font-weight:900;color:#fff;text-shadow:0 4px 0 #000,0 0 22px rgba(206,240,16,.6)}
+.apresentacao-nome span{color:var(--lime);font-weight:800;font-size:1.1rem}
+@keyframes apr-nome{from{opacity:0;transform:translateY(20px) scale(.8)}}
+
+/* ---- Personagens do Wellington (imagens) ---- */
+.heroi img{width:100%;height:100%;object-fit:contain;object-position:50% 100%;display:block;pointer-events:none;filter:drop-shadow(0 4px 4px rgba(0,0,0,.55))}
+.heroi-pequeno{width:46px;height:46px}.heroi-medio{width:76px;height:76px}.heroi-grande{width:130px;height:130px}
+.escolha-heroi{background-size:cover;background-position:center;position:relative;overflow:hidden;min-height:190px;justify-content:flex-end}
+.escolha-heroi::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(10,25,30,.92) 18%,rgba(10,25,30,.1) 70%)}
+.escolha-heroi>*{position:relative}
+.escolha-heroi .heroi-grande{width:140px;height:140px}
+/* apresentação com o vídeo */
+.apresentacao{background-size:cover;background-position:center}
+.apresentacao::before{content:'';position:absolute;inset:0;background:rgba(5,12,16,.72);backdrop-filter:blur(6px)}
+.apresentacao-video{position:relative;width:100%;max-height:70vh;object-fit:contain;box-shadow:0 0 40px rgba(0,0,0,.7)}
+.apresentacao-apelido{position:relative;margin-top:18px;color:var(--lime);font-weight:900;font-size:1.6rem;text-shadow:0 3px 0 #000;animation:apr-nome .6s 1.2s both}
+.apresentacao.sem-video .apresentacao-apelido{margin-top:6px}
+.apresentacao-giro .heroi{width:220px;height:220px}
+
+/* ---- 🎧 Ouvir ---- */
+.bloco-ouvir{border-left-color:#4DD0E1}
+.ouvir-topo{display:flex;gap:12px;align-items:center;margin:8px 0 12px}
+.ouvir-topo h1{margin:2px 0 0}
+.ouvir-topo small{color:var(--suave)}
+.ouvir-icone{font-size:2.6rem;background:color-mix(in srgb,var(--cor) 25%,var(--navy-2));border-radius:16px;padding:8px 12px}
+.controles-ouvir{display:flex;gap:10px;align-items:center}
+.controles-ouvir .botao-ouvir{flex:1}
+.controles-ouvir select{padding:12px;border-radius:12px;background:var(--navy-2);color:var(--texto);border:2px solid var(--navy-3);font-size:1rem}
+.mostrar-texto{display:block;margin:10px 0;color:var(--suave)}
+.ouvir-texto.escondido{display:none}
+.ouvir-paragrafo{padding:8px 10px;border-radius:10px;border-left:4px solid transparent;cursor:pointer;transition:background .2s}
+.ouvir-paragrafo.lendo{background:color-mix(in srgb,#4DD0E1 18%,transparent);border-left-color:#4DD0E1}
+/* ---- ⚡ Prova surpresa ---- */
+.bloco-prova{border-left-color:#FFD54F;background:linear-gradient(100deg,color-mix(in srgb,#FFD54F 14%,var(--navy-2)),var(--navy-2))}
+.prova-topo{text-align:center;padding:16px;border-radius:var(--raio);margin-bottom:14px;border:2px solid #FFD54F;
+  background:radial-gradient(circle at 50% 0,color-mix(in srgb,#FFD54F 30%,transparent),transparent 70%)}
+.prova-topo h1{margin:4px 0}
+.prova-raio{font-size:2.8rem}
+.prova-bonus{color:#FFD54F;font-weight:800}
+.prova-topo{background-size:cover;background-position:center;position:relative;overflow:hidden}
+.prova-topo::before{content:'';position:absolute;inset:0;background:rgba(5,12,16,.55)}
+.prova-topo>*{position:relative}
+.intro-prova .apresentacao-nome strong{font-size:2.2rem}

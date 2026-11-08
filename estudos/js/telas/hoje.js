@@ -89,6 +89,18 @@ export async function render(raiz) {
       el('span', {}, rv.feito ? (rv.aprovado ? '✅' : '🔁') : '▶')));
   }
 
+  if (reg.ouvir) {
+    raiz.append(el('button', { class: `cartao bloco bloco-ouvir ${reg.ouvir.feito ? 'feito' : ''}`, onclick: () => navegar('#/ouvir') },
+      el('span', { class: 'icone' }, '🎧'),
+      el('span', { class: 'textos' }, el('small', {}, `Ouvir · episódio ${reg.ouvir.ep} · ~3 min`), el('strong', {}, 'História do dia: ouça e responda 3 perguntas')),
+      el('span', {}, reg.ouvir.feito ? (reg.ouvir.aprovado ? '✅' : '☑️') : '▶')));
+  }
+  if (reg.prova?.revelada || reg.prova?.feito) { // sem aviso: só aparece depois que a surpresa entrou
+    raiz.append(el('button', { class: `cartao bloco bloco-prova ${reg.prova.feito ? 'feito' : ''}`, onclick: () => navegar('#/prova') },
+      el('span', { class: 'icone' }, '⚡'),
+      el('span', { class: 'textos' }, el('small', {}, 'Surpresa! Vale 50% a mais'), el('strong', {}, reg.prova.feito ? `Prova surpresa: ${reg.prova.nota}/${reg.prova.total} · +${reg.prova.pontos} 💵` : 'Prova surpresa dos últimos dias')),
+      el('span', {}, reg.prova.feito ? '✅' : '▶')));
+  }
   raiz.append(el('button', { class: `cartao bloco ${st.fechamentoOk ? 'feito' : ''}`, disabled: !st.blocosOk, onclick: () => navegar('#/fechamento') },
     el('span', { class: 'icone' }, '📖'),
     el('span', { class: 'textos' },
@@ -97,14 +109,15 @@ export async function render(raiz) {
     el('span', {}, st.fechamentoOk ? '✅' : (st.blocosOk ? '▶' : '🔒'))));
 
   if (st.blocosOk && jogo.heroi) {
-    raiz.append(el('button', { class: 'cartao bloco minijogos-liberados', onclick: () => navegar('#/mapa') },
+    raiz.append(el('button', { class: 'cartao bloco minijogos-liberados', onclick: () => navegar('#/jogos') },
       el('span', { class: 'icone' }, '🎮'),
-      el('span', { class: 'textos' }, el('small', {}, 'Lições do dia feitas!'), el('strong', {}, 'Minijogos liberados: escolha um lugar no mapa')),
+      el('span', { class: 'textos' }, el('small', {}, 'Lições do dia feitas!'), el('strong', {}, 'Minijogos liberados: toque para jogar')),
       el('span', {}, '▶')));
   }
   raiz.append(secaoLicaoDeCasa(reg));
-  if (!reg.fechado && st.blocosOk && st.fechamentoOk && st.casaOk && !st.revisoesOk) {
-    raiz.append(el('p', { class: 'dica' }, 'Falta só a revisão 🔁 para fechar o dia.'));
+  const faltam = [!st.revisoesOk && 'a revisão 🔁', !st.ouvirOk && 'o Ouvir 🎧', !st.provaOk && reg.prova?.revelada && 'a prova surpresa ⚡'].filter(Boolean);
+  if (!reg.fechado && st.blocosOk && st.fechamentoOk && st.casaOk && faltam.length) {
+    raiz.append(el('p', { class: 'dica' }, `Para fechar o dia, falta: ${faltam.join(', ')}.`));
   }
 }
 

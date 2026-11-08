@@ -5,6 +5,7 @@ import { prepararQuiz } from '../quiz.js';
 import { rodarQuiz } from '../quiz-ui.js';
 import { carregarContexto } from './hoje.js';
 import { comemorarJogo } from '../comemorar.js';
+import { tocarIntroducaoProva } from '../intro-prova.js';
 
 // Partes da lição usadas também na revisão (retorno.js).
 export function corpoDaLicao(b, comAprofundamento) {
@@ -86,6 +87,11 @@ export async function render(raiz, [indice]) {
           el('strong', {}, `Você acertou ${acertos} de ${total}.`),
           el('p', {}, 'Tudo bem! Esta lição volta daqui a 2 dias de trilha, com dicas para ajudar. Hoje você pode seguir para o próximo bloco.')),
           el('button', { class: 'botao grande', onclick: () => navegar('#/hoje') }, 'Seguir em frente'));
+      }
+      // ⚡ Dia de prova: sem aviso nenhum antes, ela entra logo depois da 1ª lição terminada.
+      if (!r.treino && reg.prova && !reg.prova.revelada) {
+        await estado.revelarProva(reg);
+        setTimeout(async () => { await tocarIntroducaoProva(); navegar('#/prova'); }, 1800);
       }
     });
   }

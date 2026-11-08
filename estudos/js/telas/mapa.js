@@ -9,8 +9,9 @@ import {
 import { lerFamilia, sincronizar, sincronizarDepois } from '../familia.js';
 
 let sincronizouAgora = false; // evita sincronizar de novo ao redesenhar depois da sincronização
-import { desenharHeroi } from '../herois.js';
+import { desenharHeroi, cenarioDoHeroi } from '../herois.js';
 import { desenharPanorama } from '../panorama.js';
+import { apresentarPersonagem } from '../apresentacao.js';
 import { sons, somLigado, alternarSom } from '../sons.js';
 
 export async function render(raiz, [camadaTxt, acao]) {
@@ -51,6 +52,7 @@ export async function render(raiz, [camadaTxt, acao]) {
       ? `🔒 ${CAMADAS[k].nome} libera com ${metaDaCamada(jogo.camada)} notas em ${CAMADAS[jogo.camada].nome} (você tem ${moedasNaCamada(jogo, jogo.camada)}).`
       : `🔒 ${CAMADAS[k].nome} vem depois de ${anterior.nome}. Uma camada de cada vez!`);
   }));
+  raiz.append(mapaDeTerritorios(jogo));
 
   // Camadas
   raiz.append(el('div', { class: 'camadas' }, CAMADAS.map((c, k) => el('button', {
@@ -115,6 +117,35 @@ export async function render(raiz, [camadaTxt, acao]) {
     if (!confirm('Trocar de herói? Notas, territórios e itens continuam.')) return;
     jogo.heroi = null; await gravarJogo(jogo); redesenhar();
   } }, 'Trocar de herói ou apelido'));
+}
+
+/** Quadro de todos os 30 territórios, pintados pela cor do dono, com o placar de quem domina. */
+function mapaDeTerritorios(jogo) {
+  const CORES_IRMAOS = ['#4F8BFF', '#26C6DA', '#AB47BC', '#FF7043'];
+  const irmaos = Object.keys(jogo.outros || {});
+  const corDe = dono => (dono === EU ? 'var(--lime)' : dono === RIVAL.id ? '#E53935' : dono ? CORES_IRMAOS[irmaos.indexOf(dono) % CORES_IRMAOS.length] : '#607D8B');
+  const nomeCurto = dono => (dono === EU ? 'Você' : dono === RIVAL.id ? RIVAL.nome : dono ? (jogo.outros[dono]?.apelido || 'Irmão') : 'Livre');
+  const contagem = {};
+  const linhas = CAMADAS.map((c, k) => el('div', { class: 'linha-territorios' },
+    el('span', { class: 'rotulo-camada', title: c.nome }, k > jogo.camada ? '🔒' : c.icone),
+    ...c.territorios.map(t => {
+      const dono = donoDe(calcularTerritorio(jogo, t));
+      contagem[dono ?? 'livre'] = (contagem[dono ?? 'livre'] || 0) + 1;
+      return el('button', {
+        class: `celula-territorio ${dono === EU ? 'minha' : ''}`, type: 'button',
+        style: `--cor-dono:${corDe(dono)}`, title: `${t.nome}: ${nomeCurto(dono)}`,
+        disabled: k > jogo.camada,
+        onclick: () => navegar(`#/lugar/${t.id}`),
+      }, el('span', {}, t.icone), el('small', {}, dono === RIVAL.id ? RIVAL.icone : nomeCurto(dono)));
+    })));
+  const ordem = [EU, ...irmaos, RIVAL.id, 'livre'].filter(d => contagem[d]);
+  return el('section', { class: 'cartao mapa-territorios' },
+    el('h2', {}, '🏴 Mapa de territórios'),
+    el('div', { class: 'placar-territorios' }, ordem.map(d => el('span', { style: `--cor-dono:${corDe(d === 'livre' ? null : d)}` },
+      el('i', {}), `${nomeCurto(d === 'livre' ? null : d)}: ${contagem[d]}`))),
+    el('div', { class: 'barra-dominio' }, ordem.map(d => el('div', { style: `flex:${contagem[d]};background:${corDe(d === 'livre' ? null : d)}`, title: `${nomeCurto(d === 'livre' ? null : d)}: ${contagem[d]}` }))),
+    ...linhas,
+    el('p', { class: 'dica' }, `Você domina ${contagem[EU] || 0} de 30 territórios. Toque num lugar para ver quem manda e conquistar.`));
 }
 
 function placarDaFamilia(jogo, familia) {
@@ -200,6 +231,7 @@ function escolherHeroi(raiz, jogo, perfil) {
   const apelido = el('input', { id: 'apelido', maxlength: 16, value: jogo.apelido || perfil.nome, autocomplete: 'off' });
   const cartoes = Object.entries(HEROIS).map(([id, h]) => el('button', {
     class: `escolha-heroi ${id === escolhido ? 'ativa' : ''}`,
+    style: `background-image:url(${cenarioDoHeroi(id)})`,
     onclick: e => {
       escolhido = id;
       cartoes.forEach(c => c.classList.remove('ativa'));
@@ -208,8 +240,8 @@ function escolherHeroi(raiz, jogo, perfil) {
     },
   }, desenharHeroi(id, {}, 'grande'), el('strong', {}, h.nome), el('small', {}, h.titulo)));
   raiz.append(
-    el('h1', {}, '🗺️ Escolha seu herói'),
-    el('p', { class: 'dica' }, 'Seu herói vai conquistar a Vila Brilliant, a cidade, o estado, o país e o mundo com as notas das lições.'),
+    el('h1', {}, '🗺️ Escolha seu animal'),
+    el('p', { class: 'dica' }, 'Seu animal vai conquistar a Vila Brilliant, a cidade, o estado, o país e o mundo com as notas das lições.'),
     el('div', { class: 'herois' }, cartoes),
     el('div', { class: 'campo' }, el('label', { for: 'apelido' }, 'Apelido no jogo'), apelido),
     el('button', { class: 'botao grande', onclick: async () => {
@@ -217,7 +249,7 @@ function escolherHeroi(raiz, jogo, perfil) {
       if (!nome) return aviso('Escolha um apelido.');
       jogo.heroi = escolhido; jogo.apelido = nome;
       await gravarJogo(jogo);
-      sons.conquista();
+      await apresentarPersonagem(escolhido, nome); // ~3 s girando em 3D (toque pula)
       navegarDeNovo('#/mapa');
     } }, 'Começar a aventura'));
 }

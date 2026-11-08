@@ -37,6 +37,8 @@ export async function registroDeHoje(ano, totalDias, hoje = hojeISO()) {
   if (anterior) {
     reg.blocos = anterior.blocos.map(b => ({ ...b }));
     reg.revisoes = (anterior.revisoes || []).map(r => ({ ...r }));
+    if (anterior.ouvir) reg.ouvir = { ...anterior.ouvir };
+    if (anterior.prova) reg.prova = { ...anterior.prova };
     reg.pontos = anterior.pontos;
     anterior.pontos = 0; // os pontos passam para o registro novo, para não contar duas vezes
     reg.audioLeitura = anterior.audioLeitura;
@@ -104,6 +106,58 @@ export async function registrarRevisao(reg, k, acertos, total, errosIdx, respost
   }
   await gravarEFechar(reg);
   return r;
+}
+
+/** ⚡ A prova surpresa aparece (no Hoje) só depois que entra pela 1ª vez. */
+export async function revelarProva(reg) {
+  if (!reg.prova || reg.prova.revelada) return;
+  reg.prova.revelada = true;
+  await db.gravarDia(reg);
+}
+
+/** 🎧 Ouvir: 3 perguntas; com 2 ou mais certas ganha 10 (+5 se acertar as 3). */
+export async function registrarOuvir(reg, materia, acertos, total, respostas = []) {
+  const r = resultadoQuiz(acertos, total, 2);
+  if (!reg.ouvir || reg.ouvir.feito) return { ...r, treino: true };
+  Object.assign(reg.ouvir, { feito: true, aprovado: r.aprovado, nota: acertos, total, respostas });
+  if (r.aprovado) {
+    reg.ouvir.pontos = 10 + (acertos === total ? PONTOS.perfeito : 0);
+    reg.pontos += reg.ouvir.pontos;
+    r.jogo = await registrarMoedas({ materia, moedas: reg.ouvir.pontos, dificuldade: 'moderado' });
+    sincronizarDepois();
+  }
+  await gravarEFechar(reg);
+  return r;
+}
+
+/**
+ * ⚡ Prova surpresa: cada acerto vale os pontos da pergunta (nível × 1,5); acertar tudo dá +10.
+ * `perguntas` = [{ materia, valor }] na ordem do quiz; `respostas` vêm do quiz (q = índice).
+ */
+export async function registrarProva(reg, perguntas, respostas) {
+  if (!reg.prova || reg.prova.feito) return { treino: true };
+  const acertos = respostas.filter(x => x.certo).length;
+  const porMateria = {};
+  for (const x of respostas) if (x.certo) {
+    const p = perguntas[x.q];
+    porMateria[p.materia] = (porMateria[p.materia] || 0) + p.valor;
+  }
+  let pontos = Math.round(Object.values(porMateria).reduce((a, b) => a + b, 0));
+  const perfeita = acertos === perguntas.length;
+  if (perfeita) pontos += 10;
+  Object.assign(reg.prova, { feito: true, nota: acertos, total: perguntas.length, pontos, respostas });
+  reg.pontos += pontos;
+  let jogo = null;
+  // as notas conquistam os lugares das matérias que caíram na prova (o bônus vai para a maior)
+  const ordem = Object.entries(porMateria).sort((a, b) => b[1] - a[1]);
+  for (const [k, [materia, v]] of ordem.entries()) {
+    const notas = Math.round(v) + (k === 0 && perfeita ? 10 : 0);
+    const res = await registrarMoedas({ materia, moedas: notas, dificuldade: 'moderado', descricao: '⚡ Prova surpresa' });
+    if (!jogo || res.conquistou) jogo = res;
+  }
+  if (ordem.length) sincronizarDepois();
+  await gravarEFechar(reg);
+  return { acertos, total: perguntas.length, pontos, perfeita, jogo };
 }
 
 async function salvarMidia(reg, tipo, blob) {

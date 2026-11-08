@@ -40,10 +40,11 @@ export const EU = 'eu';
 export const RIVAL = { id: 'barao', nome: 'Magnata', icone: '🕴️' };
 
 export const HEROIS = {
-  dino: { nome: 'Trovão', titulo: 'Dinossauro' },
-  super: { nome: 'Super Zap', titulo: 'Super-herói' },
-  carro: { nome: 'Pistão', titulo: 'Carro de corrida' },
-  alien: { nome: 'Zorp', titulo: 'Alienígena' },
+  rino: { nome: 'Rocha', titulo: 'Rinoceronte' },
+  leao: { nome: 'Juba', titulo: 'Leão' },
+  aguia: { nome: 'Ventania', titulo: 'Águia' },
+  furao: { nome: 'Faísca', titulo: 'Furão' },
+  gato: { nome: 'Bigode', titulo: 'Gato' },
 };
 
 export const LOJA = [

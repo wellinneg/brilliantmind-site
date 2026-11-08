@@ -40,8 +40,8 @@ export function aplicarAjuda(questoes, nivel, aleatorio = Math.random) {
   });
 }
 
-export function resultadoQuiz(acertos, total) {
-  return { acertos, total, aprovado: acertos >= 3, perfeito: acertos === total };
+export function resultadoQuiz(acertos, total, minimo = 3) {
+  return { acertos, total, aprovado: acertos >= minimo, perfeito: acertos === total };
 }
 
 export function pontosDoBloco(r, dificuldade, { bonusPerfeito = true } = {}) {

@@ -7,10 +7,15 @@ import { pop } from '../efeitos.js';
 
 const DIR_FACEIS = [[0, 1], [1, 0], [1, 1]];                          // →, ↓, ↘
 const DIR_TODAS = [...DIR_FACEIS, [0, -1], [-1, 0], [-1, -1], [-1, 1], [1, -1]];
+// sorteio com peso: diagonal e de trás para frente saem 3× mais que → e ↓
+const DIR_DIFICEIS = [[0, 1], [1, 0], ...[[1, 1], [0, -1], [-1, 0], [-1, -1], [-1, 1], [1, -1]].flatMap(d => [d, d, d])];
 const LETRAS = 'ABCDEFGHIJLMNOPQRSTUVXZ';
 
 export function configDoAno(ano) {
-  return ['8ano', '9ano'].includes(ano) ? { tamanho: 11, direcoes: DIR_TODAS, quantas: 7, bonusAte: 180 } : { tamanho: 9, direcoes: DIR_FACEIS, quantas: 6, bonusAte: 150 };
+  // Difícil de propósito: diagonais e palavras de trás para frente em todos os anos.
+  return ['8ano', '9ano'].includes(ano)
+    ? { tamanho: 14, direcoes: DIR_DIFICEIS, quantas: 15, bonusAte: 480 }
+    : { tamanho: 12, direcoes: DIR_DIFICEIS, quantas: 10, bonusAte: 360 };
 }
 
 /** Monta a grade com as palavras (sem acento) escondidas. Devolve null se não couber. */
@@ -68,7 +73,7 @@ export function iniciar(area, { t, ano, grupo }) {
   const tabuleiro = el('div', { class: 'grade-palavras', style: `grid-template-columns:repeat(${cfg.tamanho},1fr)` }, botoes.flat());
   area.replaceChildren(
     el('div', { class: 'barra-jogo' }, el('strong', {}, `🔤 ${posicoes.length} palavras`), visor),
-    el('p', { class: 'dica' }, cfg.direcoes.length > 3 ? 'Toque na primeira e na última letra. Tem palavra de trás para frente e na diagonal!' : 'Toque na primeira e na última letra da palavra (→, ↓ ou na diagonal).'),
+    el('p', { class: 'dica' }, 'Toque na primeira e na última letra. Tem palavra na diagonal e de trás para frente!'),
     tabuleiro, lista,
     el('button', { class: 'link', onclick: () => terminar(true) }, 'Desistir'));
   const relogio = cronometro(visor);
