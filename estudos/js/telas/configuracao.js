@@ -30,7 +30,7 @@ export async function render(raiz) {
     el('button', { class: 'botao grande', type: 'submit' }, 'Começar a trilha'));
   raiz.append(
     el('h1', {}, 'Bem-vindo à Trilha Brilliant Mind! 🚀'),
-    el('p', {}, 'Cerca de 40 minutos por dia para aprender o que a escola não ensina.'),
+    el('p', {}, 'Cerca de 50 minutos por dia para aprender o que a escola não ensina.'),
     form,
     el('p', { class: 'dica' }, 'Trocou de celular? Depois de configurar, restaure a cópia de segurança no painel dos pais.'),
     el('p', { class: 'credito' }, 'Sistema desenvolvido pela BMC Contabilidade'));

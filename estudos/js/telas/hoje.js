@@ -14,6 +14,7 @@ export async function carregarContexto() {
   const total = indice.anos[perfil.ano]?.dias || 0;
   const reg = await estado.registroDeHoje(perfil.ano, total);
   const dia = reg ? await carregarDia(perfil.ano, reg.diaConteudo) : null;
+  if (reg && dia) await estado.ajustarBlocos(reg, dia.blocos.length);   // o registro acompanha o conteúdo de verdade
   if (reg) for (let d = reg.diaConteudo + 1; d <= Math.min(reg.diaConteudo + 2, total); d++) carregarDia(perfil.ano, d).catch(() => {});
   return { perfil, reg, dia };
 }

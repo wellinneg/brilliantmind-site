@@ -885,6 +885,304 @@
           }
         ]
       }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Acentuação: as regras básicas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Proparoxítonas: todas levam acento, sem exceção. Exemplos: cômoda, lâmpada, árvore, sábado.",
+          "Oxítonas: levam acento quando terminam em a, e, o (com ou sem s) e em, ens. Exemplos: sofá, café, avô, também, parabéns. Terminadas em outras letras ficam sem acento: amor, papel, caju, funil.",
+          "Paroxítonas: é o contrário! A maioria termina em a, e, o, em, ens e fica SEM acento: mesa, bolo, jovem, nuvens. Levam acento as terminadas em outras letras, como l, r, x, i, us, ão e ditongo: fácil, açúcar, tórax, lápis, vírus, órgão, régua, história.",
+          "Para usar as regras, siga três passos: 1) ache a sílaba tônica; 2) classifique a palavra; 3) olhe como ela termina."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Na leitura de hoje aparecem cômoda, avó e régua. Por que as três têm acento?",
+            "resolucao": "CÔ-mo-da é proparoxítona (todas levam acento). a-VÓ é oxítona terminada em o. RÉ-gua é paroxítona terminada em ditongo (ua). Cada uma tem um motivo diferente."
+          },
+          {
+            "enunciado": "Café e caju são oxítonas. Por que só café tem acento?",
+            "resolucao": "Por causa da terminação: oxítona terminada em e leva acento (café); terminada em u, não (caju)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Os monossílabos tônicos seguem a mesma ideia das oxítonas: levam acento os terminados em a, e, o (com ou sem s): pá, pé, nós, três, pó. Mas mar, sol e cruz ficam sem acento.",
+        "Os ditongos abertos éi, éu e ói levam acento nas oxítonas e nos monossílabos: papéis, chapéu, herói, céu, dói. Nas paroxítonas, desde a reforma ortográfica, eles perderam o acento: ideia, assembleia, heroico, jiboia.",
+        "O acento pode mudar o sentido: sabia (verbo), sábia (que sabe muito) e sabiá (pássaro); e (liga palavras) e é (verbo ser); publico (eu publico) e público (as pessoas que assistem)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Toda proparoxítona tem acento?",
+            "alternativas": [
+              "Sim, todas",
+              "Nenhuma tem",
+              "Só algumas",
+              "Só as do plural"
+            ],
+            "correta": 0,
+            "explicacao": "Toda proparoxítona leva acento: lâmpada, sábado, cômoda.",
+            "dica": "A lição disse que essa regra não tem exceção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que “sofá” tem acento?",
+            "alternativas": [
+              "É proparoxítona",
+              "É paroxítona terminada em l",
+              "É oxítona terminada em a",
+              "Porque é um móvel"
+            ],
+            "correta": 2,
+            "explicacao": "so-FÁ: tônica na última e termina em a, um dos finais que pedem acento nas oxítonas.",
+            "dica": "Ache a sílaba forte e veja a última letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra está escrita corretamente?",
+            "alternativas": [
+              "mêsa",
+              "mesa",
+              "mésa",
+              "mesá"
+            ],
+            "correta": 1,
+            "explicacao": "ME-sa é paroxítona terminada em a: fica sem acento.",
+            "dica": "Paroxítonas terminadas em a, e, o normalmente ficam sem acento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A palavra “fácil” leva acento porque é paroxítona terminada em:",
+            "alternativas": [
+              "a",
+              "o",
+              "l",
+              "em"
+            ],
+            "correta": 2,
+            "explicacao": "Paroxítona terminada em l leva acento: fácil, útil, possível.",
+            "dica": "Olhe a última letra da palavra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo para saber se uma palavra tem acento?",
+            "alternativas": [
+              "Ver se ela é bonita",
+              "Contar as letras",
+              "Ver se está no plural",
+              "Achar a sílaba tônica"
+            ],
+            "correta": 3,
+            "explicacao": "Sem saber onde está a força, não dá para classificar nem aplicar a regra.",
+            "dica": "Antes de classificar, é preciso saber onde está a força."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Estas oxítonas estão escritas sem acento. Qual delas DEVERIA ter acento?",
+            "alternativas": [
+              "amor",
+              "caju",
+              "papel",
+              "cafe"
+            ],
+            "correta": 3,
+            "explicacao": "Oxítona terminada em e leva acento: café. Amor (r), caju (u) e papel (l) ficam sem.",
+            "dica": "Veja a última letra de cada uma e lembre os finais que pedem acento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que “jovem” NÃO tem acento?",
+            "alternativas": [
+              "É oxítona terminada em em",
+              "É paroxítona terminada em em",
+              "É proparoxítona",
+              "É monossílaba"
+            ],
+            "correta": 1,
+            "explicacao": "JO-vem é paroxítona; paroxítonas terminadas em em ficam sem acento.",
+            "dica": "Separe as sílabas e veja onde está a força."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual paroxítona está acentuada corretamente?",
+            "alternativas": [
+              "lápis",
+              "bôlo",
+              "mésa",
+              "cáderno"
+            ],
+            "correta": 0,
+            "explicacao": "LÁ-pis: paroxítona terminada em is, leva acento. Bolo, mesa e caderno não têm acento.",
+            "dica": "Paroxítona terminada em a, e, o fica sem acento; procure outro final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra da leitura leva acento por ser paroxítona terminada em ditongo?",
+            "alternativas": [
+              "avó",
+              "cômoda",
+              "régua",
+              "já"
+            ],
+            "correta": 2,
+            "explicacao": "RÉ-gua termina no ditongo ua. Avó é oxítona, cômoda é proparoxítona e já é monossílabo.",
+            "dica": "Procure a que tem duas vogais juntas no fim, numa só sílaba."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual grupo está todo escrito certo?",
+            "alternativas": [
+              "cafe, açúcar, árvore",
+              "café, açúcar, árvore",
+              "café, açucar, árvore",
+              "café, açúcar, arvore"
+            ],
+            "correta": 1,
+            "explicacao": "Café (oxítona em e), açúcar (paroxítona em r) e árvore (proparoxítona): as três levam acento.",
+            "dica": "Confira as três palavras de cada grupo, uma por uma."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que “café” tem acento e “caju” não, se as duas são oxítonas?",
+            "alternativas": [
+              "Porque café é palavra mais antiga",
+              "Por causa da terminação: oxítona em e leva acento; em u, não",
+              "Porque caju é paroxítona",
+              "Porque café tem mais letras"
+            ],
+            "correta": 1,
+            "explicacao": "A regra das oxítonas olha a terminação: a, e, o, em, ens levam acento.",
+            "dica": "As duas têm a força no mesmo lugar; o que muda é o final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que “jovem” não tem acento e “também” tem?",
+            "alternativas": [
+              "Jovem é paroxítona terminada em em (sem acento); também é oxítona terminada em em (com acento)",
+              "As duas deveriam ter acento",
+              "Jovem é oxítona e também é paroxítona",
+              "Também é proparoxítona"
+            ],
+            "correta": 0,
+            "explicacao": "Mesmo final, tipos diferentes: a regra das oxítonas é o contrário da regra das paroxítonas.",
+            "dica": "Ache a sílaba forte de cada uma antes de olhar o final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra está acentuada ERRADO?",
+            "alternativas": [
+              "açúcar",
+              "tórax",
+              "bambú",
+              "vírus"
+            ],
+            "correta": 2,
+            "explicacao": "Bambu é oxítona terminada em u: não leva acento. As outras são paroxítonas em r, x e us, que levam.",
+            "dica": "Classifique cada uma; uma delas é oxítona com final que não pede acento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas palavras precisam de acento em: “O menino comprou um lapis e uma regua no sabado.”?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "Três: lápis (paroxítona em is), régua (paroxítona em ditongo) e sábado (proparoxítona).",
+            "dica": "Procure as palavras com força fora do lugar comum e aplique as regras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a explicação certa para o acento de “história”?",
+            "alternativas": [
+              "Oxítona terminada em a",
+              "Leva acento porque é longa",
+              "Monossílaba tônica",
+              "Paroxítona terminada em ditongo"
+            ],
+            "correta": 3,
+            "explicacao": "his-TÓ-ria: tônica na penúltima e final em ditongo (ia).",
+            "dica": "Separe as sílabas e repare nas duas vogais do fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Desde a reforma ortográfica, qual grupo está escrito corretamente?",
+            "alternativas": [
+              "idéia, herói, papéis",
+              "ideia, herói, papéis",
+              "ideia, heroi, papeis",
+              "idéia, heroi, papéis"
+            ],
+            "correta": 1,
+            "explicacao": "Ideia é paroxítona: o ditongo aberto perdeu o acento. Herói e papéis são oxítonas e mantêm o acento.",
+            "dica": "O acento do ditongo aberto caiu só num tipo de palavra. Qual?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que “pé” tem acento e “mar” não?",
+            "alternativas": [
+              "Monossílabos tônicos em e levam acento; em r, não",
+              "Pé é oxítona e mar é paroxítona",
+              "Mar é átono",
+              "Pé é palavra mais curta"
+            ],
+            "correta": 0,
+            "explicacao": "Monossílabos tônicos seguem a regra das oxítonas: terminados em a, e, o levam acento.",
+            "dica": "Os monossílabos seguem a mesma ideia de um dos três tipos da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está toda correta?",
+            "alternativas": [
+              "O herói perdeu o chapeu no céu.",
+              "O heroi perdeu o chapéu no céu.",
+              "O herói perdeu o chapéu no ceu.",
+              "O herói perdeu o chapéu no céu."
+            ],
+            "correta": 3,
+            "explicacao": "Herói, chapéu e céu têm ditongo aberto em oxítona ou monossílabo: todos levam acento.",
+            "dica": "Confira as três palavras com ditongo aberto em cada frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Ontem eu não ____ a resposta, mas a professora, muito ____, explicou.”",
+            "alternativas": [
+              "sábia / sabia",
+              "sabiá / sábia",
+              "sabia / sábia",
+              "sabia / sabiá"
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro o verbo saber (sabia); depois a qualidade de quem sabe muito (sábia).",
+            "dica": "Primeiro vem um verbo; depois, uma qualidade da professora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual regra explica ao mesmo tempo o acento de “três” e de “você”?",
+            "alternativas": [
+              "As duas terminam em e (com ou sem s), final que leva acento em oxítonas e monossílabos tônicos",
+              "As duas são proparoxítonas",
+              "As duas são paroxítonas terminadas em s",
+              "Todo e fechado leva circunflexo"
+            ],
+            "correta": 0,
+            "explicacao": "Três é monossílabo tônico e você é oxítona; os dois tipos levam acento quando terminam em e(s).",
+            "dica": "Classifique cada palavra e compare como as duas terminam."
+          }
+        ]
+      }
     }
   ],
   "leitura": {

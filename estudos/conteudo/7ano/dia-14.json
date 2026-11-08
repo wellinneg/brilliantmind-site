@@ -1181,6 +1181,304 @@
           }
         ]
       }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Concordância nominal: as palavras combinando",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Concordância nominal é a combinação entre o substantivo e as palavras que o acompanham (artigo, adjetivo, numeral, pronome) em gênero (masculino ou feminino) e número (singular ou plural).",
+          "Exemplo: \"as blusas novas\": artigo, substantivo e adjetivo no feminino plural. Errado seria \"as blusa nova\" ou \"os blusas novos\".",
+          "Quando o adjetivo vem depois de dois substantivos de gêneros diferentes, a forma mais segura é o masculino plural: \"camisa e short brancos\". A norma-padrão também aceita concordar só com o mais próximo: \"camisa e short branco\".",
+          "Quando o adjetivo vem antes de dois substantivos, concorda com o mais próximo: \"ótima camisa e short\", \"ótimos tênis e meias\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Corrija: \"Comprei duas calça jeans azul no Brás.\"",
+            "resolucao": "\"Comprei duas calças jeans azuis no Brás.\" O numeral \"duas\" pede plural: calças e azuis. (\"Jeans\" não muda.)"
+          },
+          {
+            "enunciado": "Complete: \"Achei bolsa e cinto ___ (barato).\"",
+            "resolucao": "\"Achei bolsa e cinto baratos.\" O masculino plural combina com os dois substantivos juntos. \"Barato\", concordando só com \"cinto\", também é aceito; \"barata\" não é."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "\"Meio\" com sentido de metade concorda: \"meia hora\", \"meio-dia e meia\" (meia hora depois do meio-dia). \"Bastante\" acompanhando substantivo também: \"bastantes roupas\".",
+        "\"Anexo\", \"obrigado\", \"mesmo\", \"próprio\" e \"quite\" concordam com a pessoa ou coisa a que se referem: \"Seguem anexas as fotos\", \"Ela disse: obrigada\", \"Elas mesmas fizeram\", \"Estamos quites\". Já \"menos\" nunca muda: \"menos pessoas\" (\"menas\" não existe na norma-padrão).",
+        "Em \"é proibido\", \"é bom\", \"é necessário\", o adjetivo fica no masculino singular quando o substantivo vem sem artigo: \"É proibido entrada\". Com artigo, concorda: \"É proibida a entrada\"."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está correta?",
+            "alternativas": [
+              "as blusa nova",
+              "as blusas novas",
+              "os blusas novas",
+              "as blusas novo"
+            ],
+            "correta": 1,
+            "explicacao": "Artigo, substantivo e adjetivo no feminino plural: as blusas novas.",
+            "dica": "Todas as palavras precisam estar no mesmo gênero e no mesmo número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Comprei dois ___ ___.\" (boné / bonito)",
+            "alternativas": [
+              "boné bonito",
+              "bonés bonito",
+              "bonés bonitos",
+              "boné bonitos"
+            ],
+            "correta": 2,
+            "explicacao": "\"Dois\" pede plural no substantivo e no adjetivo: bonés bonitos.",
+            "dica": "O numeral pede plural. Todas as palavras devem obedecer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na concordância, gênero quer dizer:",
+            "alternativas": [
+              "masculino ou feminino",
+              "singular ou plural",
+              "antes ou depois",
+              "grande ou pequeno"
+            ],
+            "correta": 0,
+            "explicacao": "Gênero é masculino ou feminino. Singular ou plural é o número.",
+            "dica": "Pense nas palavras o menino e a menina: o que muda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"As meninas estão ___.\"",
+            "alternativas": [
+              "cansado",
+              "cansada",
+              "cansados",
+              "cansadas"
+            ],
+            "correta": 3,
+            "explicacao": "\"Meninas\" é feminino plural; o adjetivo acompanha: cansadas.",
+            "dica": "Meninas é feminino e está no plural."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está correta?",
+            "alternativas": [
+              "menas pessoas",
+              "menos pessoas",
+              "menos pessoa",
+              "menas pessoa"
+            ],
+            "correta": 1,
+            "explicacao": "\"Menos\" nunca muda. \"Menas\" não existe na norma-padrão.",
+            "dica": "Lembre: essa palavra nunca muda, nem quando vem antes de palavra feminina."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Corrija: \"Os tênis novo estavam em promoção.\"",
+            "alternativas": [
+              "Os tênis novos estavam em promoção.",
+              "Os tênis nova estavam em promoção.",
+              "O tênis novos estavam em promoção.",
+              "Os tênis novo estava em promoção."
+            ],
+            "correta": 0,
+            "explicacao": "\"Os tênis\" está no plural (o artigo mostra), então o adjetivo também: novos.",
+            "dica": "Tênis é igual no singular e no plural. O artigo mostra qual é o caso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Camisa e short brancos\": por que o adjetivo foi para o masculino plural?",
+            "alternativas": [
+              "Porque short é mais importante que camisa",
+              "Porque o adjetivo sempre fica no masculino",
+              "Porque se refere aos dois, e o masculino plural representa o grupo misto",
+              "Porque está errado"
+            ],
+            "correta": 2,
+            "explicacao": "O adjetivo se refere aos dois substantivos (plural) e, com gêneros diferentes, vai para o masculino.",
+            "dica": "A palavra branco está falando de uma peça de roupa ou das duas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Já é meio-dia e meio.",
+              "Já é meio-dia e meia.",
+              "Já é meia-dia e meia.",
+              "Já é meia-dia e meio."
+            ],
+            "correta": 1,
+            "explicacao": "\"Meio-dia\" (dia é masculino) e \"meia\" (meia hora, hora é feminino).",
+            "dica": "Dia é masculino. E o que fica subentendido depois do segundo meio?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro de concordância nominal?",
+            "alternativas": [
+              "As calças estavam baratas.",
+              "Comprei três bolsas pretas.",
+              "Vi lindas camisetas.",
+              "Os preços estavam alto."
+            ],
+            "correta": 3,
+            "explicacao": "\"Os preços\" está no plural: o certo é \"altos\".",
+            "dica": "Confira se cada adjetivo está no mesmo número do substantivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"A lojista agradeceu: — Muito ___!\"",
+            "alternativas": [
+              "obrigado",
+              "obrigada",
+              "obrigados",
+              "obrigadas"
+            ],
+            "correta": 1,
+            "explicacao": "\"Obrigado\" concorda com quem fala. Lojista mulher diz \"obrigada\".",
+            "dica": "Quem está agradecendo é homem ou mulher?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual placa está correta?",
+            "alternativas": [
+              "É proibido a entrada.",
+              "É proibida entrada de animais.",
+              "É proibida a entrada.",
+              "É proibidas a entrada."
+            ],
+            "correta": 2,
+            "explicacao": "Com artigo (\"a entrada\"), o adjetivo concorda: \"proibida\". Sem artigo, ficaria \"é proibido entrada\".",
+            "dica": "Veja se há artigo antes de entrada e lembre da regra do é proibido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Seguem ___ as notas fiscais.\"",
+            "alternativas": [
+              "anexo",
+              "anexa",
+              "anexos",
+              "anexas"
+            ],
+            "correta": 3,
+            "explicacao": "\"Anexo\" concorda com o substantivo: notas (feminino plural) → anexas.",
+            "dica": "Notas fiscais é feminino e plural."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Elas ___ montaram a barraca.\"",
+            "alternativas": [
+              "mesmo",
+              "mesma",
+              "mesmas",
+              "mesmos"
+            ],
+            "correta": 2,
+            "explicacao": "\"Mesmo\" concorda com a pessoa: elas → mesmas.",
+            "dica": "A palavra concorda com elas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Faltam meio hora para a loja abrir.",
+              "Falta meia hora para a loja abrir.",
+              "Falta meio hora para a loja abrir.",
+              "Faltam meias hora para a loja abrir."
+            ],
+            "correta": 1,
+            "explicacao": "\"Meia hora\" (metade de uma hora, feminino). E o verbo fica no singular, combinando com \"meia hora\".",
+            "dica": "Aqui a palavra quer dizer metade e acompanha hora, que é feminino."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Comprei ótimos tênis e meias.\" O adjetivo \"ótimos\" vem antes e concorda com:",
+            "alternativas": [
+              "tênis, o substantivo mais próximo",
+              "meias",
+              "os dois, no feminino",
+              "nenhum dos dois"
+            ],
+            "correta": 0,
+            "explicacao": "Adjetivo antes de dois substantivos concorda com o mais próximo: ótimos tênis.",
+            "dica": "Lembre da regra do adjetivo que vem antes dos substantivos."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos erros há em: \"Vi duas calça azuis e três blusa listradas, e paguei menas do que esperava.\"",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "O certo é \"calças\", \"blusas\" e \"menos\". \"Azuis\" e \"listradas\" estão certos.",
+            "dica": "Confira cada substantivo depois dos numerais e a palavra que nunca muda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está toda correta?",
+            "alternativas": [
+              "Elas mesmo disseram: obrigado.",
+              "Elas mesmas disseram: obrigadas.",
+              "Elas mesmas disseram: obrigado.",
+              "Elas mesmo disseram: obrigadas."
+            ],
+            "correta": 1,
+            "explicacao": "\"Mesmo\" e \"obrigado\" concordam com quem fala: elas → mesmas, obrigadas.",
+            "dica": "As duas palavras concordam com a mesma coisa. Com quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na placa \"Entrada proibida\", o adjetivo está no feminino, mas em \"É proibido entrada\" fica no masculino. Por quê?",
+            "alternativas": [
+              "Porque as duas estão erradas",
+              "Porque placa sempre usa feminino",
+              "Porque depende da região",
+              "Ligado diretamente ao substantivo, o adjetivo concorda; em \"é proibido\" com substantivo sem artigo, fica invariável"
+            ],
+            "correta": 3,
+            "explicacao": "Em \"entrada proibida\", o adjetivo acompanha o substantivo e concorda. Em \"é proibido entrada\", sem artigo, a expressão fica no masculino singular.",
+            "dica": "Compare: em qual delas o adjetivo está grudado no substantivo? E em qual falta o artigo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Depois de pagar as dívidas, Rita e Leo ficaram ___ com a loja.\"",
+            "alternativas": [
+              "quite",
+              "quites",
+              "quita",
+              "quitos"
+            ],
+            "correta": 1,
+            "explicacao": "\"Quite\" concorda com as pessoas: Rita e Leo (plural) → quites.",
+            "dica": "São duas pessoas. Essa palavra muda conforme o número?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Comprei saia e casaco ___ (novo).\" Qual opção NÃO segue a norma-padrão?",
+            "alternativas": [
+              "novos",
+              "novo",
+              "nova",
+              "nenhuma: todas estão certas"
+            ],
+            "correta": 2,
+            "explicacao": "\"Novos\" concorda com os dois; \"novo\" concorda com o mais próximo (casaco). \"Nova\" não concorda nem com os dois nem com o mais próximo.",
+            "dica": "Lembre das duas formas aceitas: com os dois juntos ou com o mais próximo."
+          }
+        ]
+      }
     }
   ],
   "leitura": {

@@ -25,11 +25,12 @@ export const DIFICULDADES = {
 };
 export const COM_APROFUNDAMENTO = new Set(['dificil', 'supremo']);
 
+// Português todo dia: nos dias sem Português ele entra como último bloco (desde 09/11/2026).
 export const SEMANA = [
-  ['matematica', 'financas', 'programacao'],
+  ['matematica', 'financas', 'programacao', 'portugues'],
   ['portugues', 'ingles', 'excel', 'leis'],
-  ['ciencias', 'financas', 'redes'],
-  ['matematica', 'programacao', 'word', 'empreendedorismo'],
+  ['ciencias', 'financas', 'redes', 'portugues'],
+  ['matematica', 'programacao', 'word', 'empreendedorismo', 'portugues'],
   ['portugues', 'ingles', 'cidadania'],
 ];
 

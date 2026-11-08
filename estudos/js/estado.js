@@ -25,6 +25,14 @@ export async function trocarAno(ano) {
   await db.gravarConfig('perfil', { ...p, ano });
 }
 
+/** Se o conteúdo do dia tem outro número de blocos (ex.: entrou Português), o registro se ajusta sem perder o que foi feito. */
+export async function ajustarBlocos(reg, n) {
+  if (!n || reg.blocos.length === n) return reg;
+  reg.blocos = Array.from({ length: n }, (_, i) => reg.blocos[i] || {});
+  await db.gravarDia(reg);
+  return reg;
+}
+
 export async function registroDeHoje(ano, totalDias, hoje = hojeISO()) {
   const existente = await db.lerDia(idRegistro(ano, hoje));
   if (existente) return existente;
