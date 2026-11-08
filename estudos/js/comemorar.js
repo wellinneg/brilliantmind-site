@@ -12,8 +12,10 @@ export function comemorarJogo(res) {
   if (!res.doPote && !res.roubou) linhas.push(el('p', {}, `O pote de ${t.icone} ${t.nome} está vazio. As notas foram para a sua carteira; só lição 👑 Supremo rouba território.`));
   if (res.conquistou) linhas.push(el('p', { class: 'conquista-nova' }, `🚩 ${t.nome} agora é território seu!`));
   if (res.liberou) linhas.push(el('p', { class: 'conquista-nova' }, `${res.liberou.icone} Nova camada liberada: ${res.liberou.nome}!`));
+  if (res.chefao) linhas.push(el('p', { class: 'conquista-nova' }, `⚔️ Você chegou a 60% de ${res.chefao.nome}! O ${RIVAL.nome} ${RIVAL.icone} desafiou você para uma batalha.`),
+    el('button', { class: 'botao grande', onclick: () => navegar('#/chefao') }, '⚔️ Enfrentar o Magnata'));
 
-  if (res.liberou) sons.camada();
+  if (res.liberou || res.chefao) sons.camada();
   else if (res.conquistou) sons.conquista();
   else if (res.roubou) sons.roubo();
   else sons.moeda();

@@ -8,6 +8,7 @@ import {
 import { desenharHeroi } from '../herois.js';
 import { desenharCena } from '../cenas.js';
 import { carregarContexto } from './hoje.js';
+import { entrarComLuz } from '../efeitos.js';
 import { MINIJOGOS, situacao, recordeDe, formatarTempo, PREMIOS_POR_DIA } from '../minijogos/motor.js';
 
 export async function render(raiz, [id]) {
@@ -44,7 +45,13 @@ export async function render(raiz, [id]) {
   raiz.append(await secaoMinijogos(jogo, t));
 }
 
-const mostrarRecorde = (tipo, v) => (v == null ? 'sem recorde' : (tipo === 'memoria' ? `${v} jogadas` : (tipo === 'caixa' ? `${v} contas` : formatarTempo(v))));
+const mostrarRecorde = (tipo, v) => {
+  if (v == null) return 'sem recorde';
+  if (tipo === 'memoria') return `${v} jogadas`;
+  if (tipo === 'cofre') return `${v} tentativas`;
+  if (['caixa', 'tabuada', 'vf', 'desejo'].includes(tipo)) return `${v} certas`;
+  return formatarTempo(v);
+};
 
 async function secaoMinijogos(jogo, t) {
   let reg = null;
@@ -83,7 +90,7 @@ async function caminhoParaConquistar(jogo, t, k) {
     const m = MATERIAS[b.materia];
     area.append(reg.blocos[i]?.feito
       ? el('p', {}, `✅ Hoje você já fez ${m.icone} ${b.titulo}.`)
-      : el('button', { class: 'botao grande', onclick: () => navegar(`#/licao/${i}`) }, `⚔️ Conquistar agora: ${m.icone} ${b.titulo}`));
+      : el('button', { class: 'botao grande', onclick: e => entrarComLuz(e.currentTarget, () => navegar(`#/licao/${i}`)) }, `⚔️ Conquistar agora: ${m.icone} ${b.titulo}`));
   });
   (reg.revisoes || []).forEach((rv, n) => {
     if (!t.materias.includes(rv.materia) || rv.feito) return;

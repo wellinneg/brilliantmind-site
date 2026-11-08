@@ -163,9 +163,10 @@ export function ganharMoedas(jogo, { materia, moedas, dificuldade, quando = new 
     }
   }
   res.conquistou = donoAntes !== EU && donoDe(calcularTerritorio(jogo, t), donoAntes) === EU;
-  if (podeSubir(jogo)) {
-    jogo.camada += 1;
-    res.liberou = CAMADAS[jogo.camada];
+  // Chegou aos 60%: a próxima camada não libera sozinha; o Magnata desafia para uma batalha.
+  if (podeSubir(jogo) && jogo.chefao?.camada !== jogo.camada) {
+    jogo.chefao = { camada: jogo.camada, desde: quando, tentativas: 0, ultimaTentativa: null };
+    res.chefao = CAMADAS[jogo.camada];
   }
   jogo.historico = [{ quando, materia, moedas, territorio: t.id, doPote, roubou: res.roubou, de: res.de, conquistou: res.conquistou }, ...jogo.historico].slice(0, 50);
   return res;
@@ -176,6 +177,17 @@ export function nomeDoDono(jogo, id) {
   if (id === EU) return jogo.apelido || 'Você';
   if (id === RIVAL.id) return RIVAL.nome;
   return jogo.outros?.[id]?.apelido || 'Outro jogador';
+}
+
+/** ⚔️ Venceu o Magnata: libera a próxima camada e ganha o prêmio. */
+export function vencerChefao(jogo, premio = 50) {
+  if (!jogo.chefao || jogo.chefao.camada !== jogo.camada) throw new Error('Não há batalha pendente.');
+  jogo.chefoesVencidos = { ...(jogo.chefoesVencidos || {}), [jogo.camada]: new Date().toISOString() };
+  jogo.chefao = null;
+  jogo.camada += 1;
+  jogo.carteira += premio;
+  lancar(jogo, { tipo: 'chefao', descricao: `⚔️ Venceu o ${RIVAL.nome} e liberou ${CAMADAS[jogo.camada].nome}`, valor: premio });
+  return CAMADAS[jogo.camada];
 }
 
 export function ganharBonus(jogo, moedas, quando = new Date().toISOString()) {

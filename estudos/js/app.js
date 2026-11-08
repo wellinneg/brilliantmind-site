@@ -9,8 +9,10 @@ const ROTAS = {
   lugar: () => import('./telas/lugar.js'),
   jogo: () => import('./telas/jogo.js'),
   jogos: () => import('./telas/jogos.js'),
+  heroi: () => import('./telas/heroi.js'),
   ouvir: () => import('./telas/ouvir.js'),
   empresa: () => import('./telas/empresa.js'),
+  chefao: () => import('./telas/chefao.js'),
   prova: () => import('./telas/prova.js'),
   banco: () => import('./telas/banco.js'),
   licao: () => import('./telas/licao.js'),
@@ -22,6 +24,18 @@ const ROTAS = {
   biblioteca: () => import('./telas/biblioteca.js'),
 };
 
+// botão do rodapé com a foto do animal atual (toque para trocar)
+async function atualizarBotaoHeroi() {
+  const jogo = await lerConfig('jogo');
+  const icone = document.getElementById('nav-heroi');
+  if (!icone) return;
+  const { imagemDoHeroi } = await import('./herois.js');
+  const { HEROIS } = await import('./jogo.js');
+  icone.replaceChildren();
+  if (jogo?.heroi && HEROIS[jogo.heroi]) icone.append(el('img', { src: imagemDoHeroi(jogo.heroi), alt: '' }));
+  else icone.textContent = '🦁';
+}
+
 async function rotear() {
   const raiz = document.getElementById('app');
   const nav = document.getElementById('navegacao');
@@ -31,6 +45,7 @@ async function rotear() {
   else if (!ROTAS[nome] || nome === 'configuracao') nome = 'hoje';
   nav.hidden = nome === 'configuracao';
   nav.querySelectorAll('a').forEach(a => a.classList.toggle('ativo', a.dataset.rota === nome));
+  atualizarBotaoHeroi();
   // Só mostra "Carregando…" se demorar; a troca de tela é animada (transição de jogo).
   const aviso = setTimeout(() => raiz.replaceChildren(el('p', { class: 'subtitulo' }, 'Carregando…')), 300);
   try {

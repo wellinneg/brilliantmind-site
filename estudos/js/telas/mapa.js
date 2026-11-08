@@ -10,8 +10,9 @@ import { lerFamilia, sincronizar, sincronizarDepois } from '../familia.js';
 
 let sincronizouAgora = false; // evita sincronizar de novo ao redesenhar depois da sincronização
 import { desenharHeroi, cenarioDoHeroi } from '../herois.js';
-import { desenharPanorama } from '../panorama.js';
+import { desenharTabuleiro, corDoDono } from '../tabuleiro.js';
 import { apresentarPersonagem } from '../apresentacao.js';
+import { PODERES } from '../batalha.js';
 import { sons, somLigado, alternarSom } from '../sons.js';
 
 export async function render(raiz, [camadaTxt, acao]) {
@@ -37,24 +38,14 @@ export async function render(raiz, [camadaTxt, acao]) {
       el('strong', {}, jogo.apelido || perfil.nome),
       el('small', {}, `${HEROIS[jogo.heroi].nome}, ${HEROIS[jogo.heroi].titulo}`),
       el('span', { class: 'carteira' }, `💵 ${jogo.carteira} notas`)),
-    el('div', { class: 'botoes-topo' },
-      el('button', { class: 'botao secundario pequeno botao-banco', onclick: () => navegar('#/empresa') }, '🏪 Empresa'),
-      el('button', { class: 'botao secundario pequeno botao-banco', onclick: () => navegar('#/banco') }, '🏦 Banco')),
     botaoSom));
 
-  // Vista panorâmica da jornada (toque numa camada já liberada para abrir)
-  const jogadores = [
-    { id: EU, eu: true, apelido: jogo.apelido, heroi: jogo.heroi, usando: jogo.usando, camada: jogo.camada },
-    ...Object.entries(jogo.outros || {}).map(([id, o]) => ({ id, ...o })),
-  ];
-  raiz.append(desenharPanorama(jogo, jogadores, k => navegarDeNovo(`#/mapa/${k}/ir`), k => {
-    sons.erro();
-    const anterior = CAMADAS[k - 1];
-    aviso(k === jogo.camada + 1
-      ? `🔒 ${CAMADAS[k].nome} libera com ${metaDaCamada(jogo.camada)} notas em ${CAMADAS[jogo.camada].nome} (você tem ${moedasNaCamada(jogo, jogo.camada)}).`
-      : `🔒 ${CAMADAS[k].nome} vem depois de ${anterior.nome}. Uma camada de cada vez!`);
-  }));
-  raiz.append(mapaDeTerritorios(jogo));
+  if (jogo.chefao?.camada === jogo.camada) {
+    raiz.append(el('button', { class: 'cartao bloco desafio-chefao', onclick: () => navegar('#/chefao') },
+      el('span', { class: 'icone' }, RIVAL.icone),
+      el('span', { class: 'textos' }, el('small', {}, 'Desafio!'), el('strong', {}, `O ${RIVAL.nome} quer ${CAMADAS[jogo.camada].nome}. Vença a batalha para liberar a próxima camada`)),
+      el('span', {}, '⚔️')));
+  }
 
   // Camadas
   raiz.append(el('div', { class: 'camadas' }, CAMADAS.map((c, k) => el('button', {
@@ -62,6 +53,15 @@ export async function render(raiz, [camadaTxt, acao]) {
     disabled: k > jogo.camada,
     onclick: () => navegarDeNovo(`#/mapa/${k}/ir`),
   }, el('span', {}, k > jogo.camada ? '🔒' : c.icone), el('small', {}, c.tipo)))));
+
+  // Tabuleiro de conquista: a camada como um continente, cada região com o dono em cima
+  raiz.append(el('div', { class: 'tabuleiro-conquista' },
+    el('h2', { class: 'titulo-tabuleiro' }, `Mapa de Conquistas · ${camada.icone} ${camada.nome}`),
+    desenharTabuleiro(jogo, vendo, t => {
+      const r = document.querySelector(`[data-territorio="${t.id}"]`); if (r) r.style.viewTransitionName = 'lugar-ativo';
+      navegar(`#/lugar/${t.id}`);
+    }),
+    legendaTabuleiro(jogo)));
 
   const minhas = moedasNaCamada(jogo, vendo);
   const meta = metaDaCamada(vendo);
@@ -93,7 +93,7 @@ export async function render(raiz, [camadaTxt, acao]) {
       el('small', {}, t.materias.map(m => MATERIAS[m]?.icone).join(' ')),
       el('small', {}, `💵 ${meu} seu · pote ${est.pote}/${camada.pote}`));
   }));
-  raiz.append(tabuleiro);
+  raiz.append(tabuleiro, mapaDeTerritorios(jogo));
   // Veio de um toque no panorama: desce até o tabuleiro (depois que a tela voltou ao topo).
   if (acao === 'ir') addEventListener('tela-pronta', () => tabuleiro.scrollIntoView({ behavior: 'smooth', block: 'start' }), { once: true });
 
@@ -119,6 +119,13 @@ export async function render(raiz, [camadaTxt, acao]) {
     if (!confirm('Trocar de herói? Notas, territórios e itens continuam.')) return;
     jogo.heroi = null; await gravarJogo(jogo); redesenhar();
   } }, 'Trocar de herói ou apelido'));
+}
+
+function legendaTabuleiro(jogo) {
+  const donos = [[EU, jogo.apelido || 'Você', jogo.heroi], ...Object.entries(jogo.outros || {}).map(([id, o]) => [id, o.apelido, o.heroi]), [RIVAL.id, RIVAL.nome, null]];
+  return el('div', { class: 'legenda-tabuleiro' }, donos.map(([id, nome, heroi]) => el('span', {},
+    el('i', { style: `background:${corDoDono(jogo, id)}` }),
+    heroi ? desenharHeroi(heroi, {}, 'pequeno') : el('b', {}, RIVAL.icone), nome)));
 }
 
 /** Quadro de todos os 30 territórios, pintados pela cor do dono, com o placar de quem domina. */
@@ -228,8 +235,8 @@ function secaoLoja(jogo, redesenhar) {
     })));
 }
 
-function escolherHeroi(raiz, jogo, perfil) {
-  let escolhido = Object.keys(HEROIS)[0];
+export function escolherHeroi(raiz, jogo, perfil) {
+  let escolhido = HEROIS[jogo.heroi] ? jogo.heroi : Object.keys(HEROIS)[0];
   const apelido = el('input', { id: 'apelido', maxlength: 16, value: jogo.apelido || perfil.nome, autocomplete: 'off' });
   const cartoes = Object.entries(HEROIS).map(([id, h]) => el('button', {
     class: `escolha-heroi ${id === escolhido ? 'ativa' : ''}`,
@@ -240,7 +247,8 @@ function escolherHeroi(raiz, jogo, perfil) {
       e.currentTarget.classList.add('ativa');
       sons.moeda();
     },
-  }, desenharHeroi(id, {}, 'grande'), el('strong', {}, h.nome), el('small', {}, h.titulo)));
+  }, desenharHeroi(id, {}, 'grande'), el('strong', {}, h.nome), el('small', {}, h.titulo),
+    el('small', { class: 'poder-card' }, `${PODERES[id].icone} ${PODERES[id].nome}: ${PODERES[id].desc}`)));
   raiz.append(
     el('h1', {}, '🗺️ Escolha seu animal'),
     el('p', { class: 'dica' }, 'Seu animal vai conquistar a Vila Brilliant, a cidade, o estado, o país e o mundo com as notas das lições.'),

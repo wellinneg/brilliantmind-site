@@ -2,9 +2,11 @@
 import { el, aviso, navegar } from '../ui.js';
 import { lerJogo, gravarJogo } from '../jogo.js';
 import {
-  RAMOS, REGRAS, abrirEmpresa, simularDia, demandaEsperada, salarioComEncargos, retirarLucro, aportar,
-  abrirUnidade, trocarRegime, faturamentoRecente,
+  RAMOS, REGRAS, abrirEmpresa, simularDia, demandaEsperada, retirarLucro, aportar, abrirUnidade, trocarRegime,
+  faturamentoRecente, normalizarEmpresa, candidatosDoDia, contratar, demitir, clientesDoFuncionario, custoDoFuncionario,
+  custoDaEquipe, comEncargos,
 } from '../empresa.js';
+import { hojeISO } from '../datas.js';
 import { sons } from '../sons.js';
 import { confete } from '../efeitos.js';
 
@@ -15,7 +17,7 @@ export async function render(raiz) {
   const jogo = await lerJogo();
   raiz.append(el('button', { class: 'voltar', onclick: () => navegar('#/mapa') }, '← 🗺️ Mapa'));
   if (!jogo.empresa) return telaAbrir(raiz, jogo);
-  const emp = jogo.empresa;
+  const emp = normalizarEmpresa(jogo.empresa);
   const r = RAMOS[emp.ramo];
 
   raiz.append(
@@ -27,12 +29,13 @@ export async function render(raiz) {
       el('div', {}, el('small', {}, 'Estoque'), el('strong', {}, `📦 ${emp.estoque}`)),
       el('div', {}, el('small', {}, 'Dias de negócio'), el('strong', {}, `📅 ${emp.turnos}`))));
 
+  raiz.append(secaoEquipe(jogo, emp, r));
   if (emp.turnos > 0) raiz.append(painelDia(jogo, emp, r));
   else raiz.append(el('section', { class: 'cartao' }, el('p', {}, '📚 Feche mais um dia de estudo para ganhar um novo dia de negócio.'),
     el('p', { class: 'dica' }, `Cada dia de estudo fechado vale um dia de negócio (acumula até ${REGRAS.maxTurnos}).`)));
 
   if (emp.historico.length) raiz.append(planilha(emp));
-  raiz.append(painelDinheiro(jogo, emp));
+  raiz.append(quadroRegimes(emp, jogo), painelDinheiro(jogo, emp));
   raiz.append(explicacoes());
 }
 
@@ -57,7 +60,7 @@ function telaAbrir(raiz, jogo) {
     el('h2', {}, '1. Qual negócio?'), ramos,
     el('h2', {}, '2. Nome da empresa'), el('div', { class: 'campo' }, nome),
     el('h2', {}, '3. Tipo de empresa'), regimes,
-    el('p', { class: 'dica' }, `MEI: paga um valor fixo pequeno (DAS), pode ter só 1 funcionário e tem limite de faturamento. Simples Nacional: paga uma porcentagem do que vende (no jogo, ${REGRAS.simplesAliquota * 100}%) e pode crescer mais.`),
+    quadroRegimes(null),
     el('h2', {}, '4. Dinheiro inicial no caixa'), el('div', { class: 'campo' }, aporte),
     el('button', { class: 'botao grande', onclick: async () => {
       try {
@@ -71,50 +74,86 @@ function painelDia(jogo, emp, r) {
   const sugestao = Math.max(0, Math.ceil(demandaEsperada(emp)) - (r.perecivel ? 0 : emp.estoque));
   const comprar = el('input', { type: 'number', inputmode: 'numeric', min: 0, value: sugestao, id: 'comprar' });
   const preco = el('input', { type: 'number', inputmode: 'decimal', min: 0.5, step: 0.5, value: emp.preco, id: 'preco' });
-  let funcionarios = emp.funcionarios, propaganda = emp.propaganda;
+  let propaganda = emp.propaganda, bonus = emp.bonus || 0;
   const resumo = el('div', { class: 'previsao' });
-  const contFunc = el('strong', {}, String(funcionarios));
   const botoesProp = el('div', { class: 'opcoes grade tres' });
+  const botoesBonus = el('div', { class: 'opcoes grade quatro' });
   const atualizar = () => {
-    const demanda = demandaEsperada(emp, { preco: Number(preco.value) || emp.preco, funcionarios, propaganda });
+    const demanda = demandaEsperada(emp, { preco: Number(preco.value) || emp.preco, propaganda, bonus });
     const custoCompra = (Number(comprar.value) || 0) * r.custo;
-    const fixos = funcionarios * salarioComEncargos() + REGRAS.propaganda[propaganda];
+    const equipe = custoDaEquipe(emp, bonus);
     resumo.replaceChildren(
       el('p', {}, `👥 Clientes esperados: ~${n2(demanda)} (o dia pode variar e ter surpresas)`),
-      el('p', {}, `🛒 Compra de estoque: ${n2(custoCompra)} · 💼 Custos fixos do dia: ${n2(fixos)}`),
+      el('p', {}, `🛒 Compra de estoque: ${n2(custoCompra)} · 👷 Equipe: ${n2(equipe)} · 📣 Propaganda: ${REGRAS.propaganda[propaganda]}`),
       el('p', { class: 'dica' }, `Margem por ${r.produto}: ${n2((Number(preco.value) || 0) - r.custo)} (preço − custo).`));
-    contFunc.textContent = String(funcionarios);
     botoesProp.replaceChildren(...['Nenhuma', 'Redes', 'Panfleto + redes'].map((t, k) => el('button', {
       class: `botao ${k === propaganda ? '' : 'secundario'} pequeno`, type: 'button', onclick: () => { propaganda = k; atualizar(); },
     }, `${t}${REGRAS.propaganda[k] ? ` (${REGRAS.propaganda[k]})` : ''}`)));
+    botoesBonus.replaceChildren(...REGRAS.bonus.map((v, k) => el('button', {
+      class: `botao ${k === bonus ? '' : 'secundario'} pequeno`, type: 'button', disabled: !emp.equipe.length, onclick: () => { bonus = k; atualizar(); },
+    }, v ? `${v} (+${Math.round(REGRAS.efeitoBonus[k] * 100)}%)` : 'Sem')));
   };
   comprar.addEventListener('input', atualizar); preco.addEventListener('input', atualizar);
   atualizar();
   const area = el('div', {});
-  const sec = el('section', { class: 'cartao dia-negocio' },
+  return el('section', { class: 'cartao dia-negocio' },
     el('h2', {}, `📅 Dia de negócio nº ${emp.dias + 1}`),
     el('div', { class: 'campo' }, el('label', { for: 'comprar' }, `Comprar estoque (${r.produto}s a ${n2(r.custo)} cada; tem ${emp.estoque} guardado)`), comprar),
     el('div', { class: 'campo' }, el('label', { for: 'preco' }, `Preço de venda (o normal é ~${n2(r.precoRef)})`), preco),
-    el('div', { class: 'linha-func' },
-      el('span', {}, `👷 Funcionários registrados (custam ${n2(salarioComEncargos())}/dia cada, com encargos): `),
-      el('button', { class: 'botao secundario pequeno', type: 'button', onclick: () => { funcionarios = Math.max(0, funcionarios - 1); atualizar(); } }, '−'),
-      contFunc,
-      el('button', { class: 'botao secundario pequeno', type: 'button', onclick: () => {
-        if (emp.regime === 'mei' && funcionarios >= REGRAS.meiMaxFuncionarios) { aviso('No MEI só pode ter 1 funcionário.'); return; }
-        funcionarios += 1; atualizar();
-      } }, '+')),
     el('p', { class: 'dica' }, 'Propaganda do dia:'), botoesProp,
+    el('p', { class: 'dica' }, emp.equipe.length ? '🎁 Bonificação por funcionário hoje (faz render mais):' : '🎁 Bonificação: contrate alguém para poder dar bônus.'), botoesBonus,
     resumo,
     el('button', { class: 'botao grande', onclick: async e => {
       try {
-        const res = simularDia(emp, { comprar: comprar.value, preco: preco.value, funcionarios, propaganda });
+        const res = simularDia(emp, { comprar: comprar.value, preco: preco.value, propaganda, bonus });
         await gravarJogo(jogo);
         e.target.remove();
         mostrarResultado(area, res, r);
       } catch (err) { sons.erro(); aviso(err.message); }
     } }, '🚪 Abrir as portas'),
     area);
-  return sec;
+}
+
+/** 👷 Equipe: quem trabalha, quanto custa, quanto produz; candidatos do dia para contratar. */
+function secaoEquipe(jogo, emp, r) {
+  const margem = Math.max(0, emp.preco - r.custo);
+  const ficha = (f, acoes) => {
+    const n = REGRAS.niveis[f.nivel];
+    const clientes = clientesDoFuncionario(emp, f, emp.bonus || 0);
+    const custo = custoDoFuncionario(f, emp.bonus || 0);
+    const gera = clientes * margem;
+    const exp = Math.min(REGRAS.experienciaMax, (f.dias || 0) * REGRAS.experienciaPorDia);
+    return el('div', { class: 'ficha-funcionario' },
+      el('div', { class: 'ficha-topo' }, el('strong', {}, `👤 ${f.nome}`), el('span', { class: `nivel-func ${f.nivel}` }, n.nome)),
+      el('p', {}, `📈 Atende +${n2(clientes)} clientes por dia${exp ? ` (experiência +${Math.round(exp * 100)}%)` : ''}`),
+      el('p', {}, `💸 Custa ${n2(custo)} por dia: salário ${n2(n.salario)} + encargos ${n2(comEncargos(n.salario) - n.salario)}${emp.bonus ? ` + bônus ${REGRAS.bonus[emp.bonus]}` : ''}`),
+      el('p', { class: gera >= custo ? 'entrada' : 'saida' }, `⚖️ Gera ~${n2(gera)} de margem por dia → ${gera >= custo ? 'se paga ✅' : 'ainda não se paga ⚠️'}`),
+      acoes);
+  };
+  const equipe = emp.equipe.map(f => ficha(f, el('button', { class: 'link', onclick: async () => {
+    const custo = n2(comEncargos(REGRAS.niveis[f.nivel].salario) * REGRAS.rescisaoDias);
+    if (!confirm(`Demitir ${f.nome}? A rescisão custa ${custo} notas do caixa (direitos do trabalhador).`)) return;
+    demitir(emp, f.id); await gravarJogo(jogo); sons.erro(); redesenhar();
+  } }, 'Demitir')));
+  const lotado = emp.regime === 'mei' && emp.equipe.length >= REGRAS.meiMaxFuncionarios;
+  const candidatos = candidatosDoDia(emp, hojeISO()).map(c => ficha(c, el('button', {
+    class: 'botao pequeno', disabled: lotado, onclick: async () => {
+      try { contratar(emp, c); await gravarJogo(jogo); sons.compra(); aviso(`${c.nome} foi contratado(a) com carteira assinada!`); redesenhar(); }
+      catch (e) { sons.erro(); aviso(e.message); }
+    },
+  }, '✍️ Contratar com carteira assinada')));
+  return el('section', { class: 'cartao equipe' },
+    el('h2', {}, `👷 Equipe (${emp.equipe.length})`),
+    emp.equipe.length ? el('div', {}, equipe) : el('p', { class: 'dica' }, 'Ninguém contratado ainda. Sozinho dá para começar; com equipe, atende mais clientes.'),
+    emp.equipe.length ? el('p', { class: 'dica' }, `Custo total da equipe por dia: ${n2(custoDaEquipe(emp))}`) : null,
+    el('details', { class: 'candidatos' },
+      el('summary', {}, `🧑‍💼 Candidatos de hoje (3)${lotado ? ' · MEI só pode ter 1 funcionário' : ''}`),
+      el('div', {}, candidatos)),
+    el('details', {},
+      el('summary', {}, '❓ Por que o funcionário custa mais que o salário?'),
+      el('p', {}, 'Além do salário, a empresa paga direitos do trabalhador registrado (carteira assinada). Aproximadamente:'),
+      el('ul', {}, REGRAS.encargosDetalhe.map(([nome, pct]) => el('li', {}, `${nome}: ${String(Math.round(pct * 1000) / 10).replace('.', ',')}% do salário`))),
+      el('p', { class: 'dica' }, 'Total ≈ 30% a mais. Bonificação é um prêmio extra que motiva a render mais, mas o ganho diminui: bônus demais não compensa. Demitir custa a rescisão.')));
 }
 
 function mostrarResultado(area, res, r) {
@@ -127,7 +166,7 @@ function mostrarResultado(area, res, r) {
       linha('Receita (vendas)', res.receita, 'entrada'),
       linha('− Custo do que foi vendido', -res.cmv),
       res.estragou ? linha(`− Estragou (${res.estragou})`, -res.estragou * r.custo) : null,
-      res.salarios ? linha('− Salários + encargos', -res.salarios) : null,
+      res.salarios ? linha(`− Equipe (salários + encargos${res.bonus ? ' + bônus' : ''})`, -res.salarios) : null,
       res.propaganda ? linha('− Propaganda', -res.propaganda) : null,
       linha('− Imposto', -res.imposto),
       linha('= Lucro do dia', res.lucro, res.lucro >= 0 ? 'lucro' : 'prejuizo')),
@@ -167,8 +206,37 @@ function painelDinheiro(jogo, emp) {
       el('button', { class: 'botao secundario', onclick: agir(() => aportar(jogo, valor.value)) }, 'Colocar no caixa ➡')),
     el('p', { class: 'dica' }, 'Retirar lucro leva o dinheiro para a sua carteira (loja, banco, territórios). Colocar no caixa é um aporte do dono.'),
     el('button', { class: 'botao secundario grande', onclick: agir(() => abrirUnidade(emp)) }, `🏬 Abrir mais uma unidade (${REGRAS.custoUnidade} do caixa)`),
-    el('button', { class: 'link', onclick: agir(() => trocarRegime(emp, emp.regime === 'mei' ? 'simples' : 'mei')) },
-      emp.regime === 'mei' ? 'Mudar para o Simples Nacional' : 'Voltar para MEI'));
+  );
+}
+
+/** Quadro MEI × Simples Nacional (com o tipo atual destacado e a conta de quanto pagaria no outro). */
+function quadroRegimes(emp, jogo) {
+  const atual = emp?.regime;
+  const linha = (rot, mei, simples) => el('tr', {}, el('th', {}, rot), el('td', { class: atual === 'mei' ? 'atual' : '' }, mei), el('td', { class: atual === 'simples' ? 'atual' : '' }, simples));
+  const sec = el('section', { class: 'cartao regimes' },
+    el('h2', {}, '🧾 MEI ou Simples Nacional?'),
+    el('div', { class: 'planilha-rolagem' }, el('table', { class: 'tabela tabela-regimes' },
+      el('tr', {}, el('th', {}, ''), el('th', { class: atual === 'mei' ? 'atual' : '' }, `MEI${atual === 'mei' ? ' ✅' : ''}`), el('th', { class: atual === 'simples' ? 'atual' : '' }, `Simples Nacional${atual === 'simples' ? ' ✅' : ''}`)),
+      linha('O que é', 'Microempreendedor Individual: o jeito mais simples de ter CNPJ.', 'Regime de impostos para micro e pequenas empresas.'),
+      linha('Imposto no jogo', `Valor fixo: ${REGRAS.meiDAS} nota por dia de negócio, venda muito ou pouco.`, `${REGRAS.simplesAliquota * 100}% de tudo o que vender.`),
+      linha('Na vida real', 'Paga o DAS, um valor fixo por mês (perto de R$ 80 a R$ 90).', 'Paga uma porcentagem do faturamento: começa em 4% no comércio e 6% em serviços, e sobe se faturar mais.'),
+      linha('Funcionários', `No máximo ${REGRAS.meiMaxFuncionarios}.`, 'Quantos a empresa precisar.'),
+      linha('Limite de faturamento', `No jogo: ${REGRAS.meiLimite} notas em 20 dias. Na vida real: R$ 81 mil por ano (a lei pode mudar).`, 'Na vida real: até R$ 4,8 milhões por ano.'),
+      linha('Quando vale a pena', 'No começo, negócio pequeno, trabalhando quase sozinho.', 'Quando a empresa cresce, fatura mais ou precisa de equipe.'))));
+  if (emp && jogo) {
+    const dias = emp.historico.slice(0, 20);
+    const receita = dias.reduce((s, d) => s + d.receita, 0);
+    const noMei = dias.length * REGRAS.meiDAS, noSimples = receita * REGRAS.simplesAliquota;
+    if (dias.length) sec.append(el('p', { class: 'caixa-dica' }, `📊 Nos últimos ${dias.length} dias você faturou ${n2(receita)}. No MEI pagaria ${n2(noMei)} de imposto; no Simples Nacional, ${n2(noSimples)}. `,
+      noMei <= noSimples ? 'Por imposto, o MEI está saindo mais barato.' : 'Por imposto, o Simples está saindo mais barato.',
+      emp.regime === 'mei' && faturamentoRecente(emp) > REGRAS.meiLimite ? ' Mas você passou do limite do MEI: precisa ir para o Simples.' : ''));
+    const outro = emp.regime === 'mei' ? 'simples' : 'mei';
+    sec.append(el('button', { class: 'botao secundario grande', onclick: async () => {
+      try { trocarRegime(emp, outro); await gravarJogo(jogo); sons.compra(); aviso(`Agora a empresa é ${outro === 'mei' ? 'MEI' : 'do Simples Nacional'}.`); redesenhar(); }
+      catch (e) { sons.erro(); aviso(e.message); }
+    } }, outro === 'simples' ? '➡ Mudar para o Simples Nacional' : '⬅ Voltar para MEI'));
+  }
+  return sec;
 }
 
 function explicacoes() {

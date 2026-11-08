@@ -48,6 +48,32 @@ export function trocarComTransicao(trocar) {
   umaVez();
 }
 
+/**
+ * Luz de entrada: uma luz nasce no ponto tocado, cresce até cobrir a tela, a tela troca por baixo
+ * (`ir`) e a luz se apaga revelando a lição.
+ */
+export function entrarComLuz(origem, ir) {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches || document.hidden) { ir(); return; }
+  const r = origem?.getBoundingClientRect?.() || { left: innerWidth / 2, top: innerHeight / 2, width: 0, height: 0 };
+  const x = r.left + r.width / 2, y = r.top + r.height / 2;
+  const raios = document.createElement('div');
+  raios.className = 'raios-luz';
+  raios.style.setProperty('--x', `${x}px`); raios.style.setProperty('--y', `${y}px`);
+  const luz = document.createElement('div');
+  luz.className = 'luz-entrada';
+  luz.style.left = `${x}px`; luz.style.top = `${y}px`;
+  document.body.append(raios, luz);
+  let trocou = false;
+  const trocar = () => {
+    if (trocou) return; trocou = true;
+    addEventListener('tela-pronta', () => { luz.classList.add('sumindo'); setTimeout(() => { luz.remove(); raios.remove(); }, 500); }, { once: true });
+    setTimeout(() => { luz.remove(); raios.remove(); }, 3000); // garantia
+    ir();
+  };
+  luz.addEventListener('animationend', trocar, { once: true });
+  setTimeout(trocar, 700);
+}
+
 /** Dá um "pulinho" num elemento (acerto, item comprado…). */
 export function pop(elemento, classe = 'pop') {
   if (!elemento) return;

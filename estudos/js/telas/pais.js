@@ -8,6 +8,7 @@ import { MATERIAS, DIFICULDADES, ANOS, statusDoDia } from '../rodizio.js';
 import { exibir, hojeISO } from '../datas.js';
 import { carregarDia } from '../conteudo.js';
 import { alternarSeletorDeSerie } from './serie.js';
+import { calendarioInterativo } from '../calendario.js';
 import { secaoFamilia } from './familia-pais.js';
 import { gerarCopia, restaurarCopia, baixarArquivo } from '../backup.js';
 
@@ -45,6 +46,7 @@ async function painel(area) {
   const pend = await estado.pendentes(perfil.ano);
 
   area.append(
+    calendarioInterativo(dias),
     el('button', { class: 'botao grande', onclick: () => navegar(`#/biblioteca/${perfil.ano}`) }, '📚 Todas as lições (acesso livre)'),
     el('p', {}, `${perfil.nome} · ${ANOS[perfil.ano]} · está no dia ${await estado.proximoDia(perfil.ano)} da trilha`),
     el('table', { class: 'tabela' },

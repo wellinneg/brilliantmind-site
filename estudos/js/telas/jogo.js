@@ -10,6 +10,12 @@ const MODULOS = {
   objetos: () => import('../minijogos/objetos.js'),
   memoria: () => import('../minijogos/memoria.js'),
   caixa: () => import('../minijogos/caixa.js'),
+  tabuada: () => import('../minijogos/rapidos.js').then(m => ({ iniciar: m.tabuada })),
+  vf: () => import('../minijogos/rapidos.js').then(m => ({ iniciar: m.verdadeiroFalso })),
+  desejo: () => import('../minijogos/rapidos.js').then(m => ({ iniciar: m.necessidadeDesejo })),
+  embaralhada: () => import('../minijogos/logica.js').then(m => ({ iniciar: m.palavraEmbaralhada })),
+  pares: () => import('../minijogos/logica.js').then(m => ({ iniciar: m.ligarPares })),
+  cofre: () => import('../minijogos/logica.js').then(m => ({ iniciar: m.cofre })),
 };
 
 export async function render(raiz, [tipo, id]) {

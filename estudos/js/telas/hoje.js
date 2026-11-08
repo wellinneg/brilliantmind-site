@@ -1,4 +1,5 @@
 import { el, navegar, campoFoto } from '../ui.js';
+import { entrarComLuz } from '../efeitos.js';
 import * as estado from '../estado.js';
 import { MATERIAS, DIFICULDADES, ANOS, statusDoDia } from '../rodizio.js';
 import { carregarIndice, carregarDia } from '../conteudo.js';
@@ -41,6 +42,12 @@ export async function render(raiz) {
       el('small', {}, jogo.heroi ? `Conquista · ${cam.tipo}` : 'Jogo de conquista'),
       el('strong', {}, jogo.heroi ? `${cam.nome}: ${moedasNaCamada(jogo, jogo.camada)}/${metaDaCamada(jogo.camada)} 💵` : 'Escolha seu herói e conquiste a cidade!')),
     el('span', {}, `💵 ${jogo.carteira}`)));
+  if (jogo.chefao?.camada === jogo.camada) {
+    raiz.append(el('button', { class: 'cartao bloco desafio-chefao', onclick: () => navegar('#/chefao') },
+      el('span', { class: 'icone' }, '🕴️'),
+      el('span', { class: 'textos' }, el('small', {}, 'Desafio do Magnata'), el('strong', {}, 'Batalha pendente: vença para liberar a próxima camada')),
+      el('span', {}, '⚔️')));
+  }
   if (jogo.empresa?.turnos > 0) {
     raiz.append(el('button', { class: 'cartao bloco empresa-pronta', onclick: () => navegar('#/empresa') },
       el('span', { class: 'icone' }, '🏪'),
@@ -77,7 +84,7 @@ export async function render(raiz) {
     const m = MATERIAS[b.materia];
     const rb = reg.blocos[i];
     const legenda = rb?.feito && !rb.aprovado ? ' · volta com dicas' : '';
-    raiz.append(el('button', { class: `cartao bloco ${rb?.feito ? 'feito' : ''}`, style: `--cor:${m.cor}`, onclick: () => navegar(`#/licao/${i}`) },
+    raiz.append(el('button', { class: `cartao bloco ${rb?.feito ? 'feito' : ''}`, style: `--cor:${m.cor}`, onclick: e => entrarComLuz(e.currentTarget, () => navegar(`#/licao/${i}`)) },
       el('span', { class: 'icone' }, m.icone),
       el('span', { class: 'textos' }, el('small', {}, `Bloco ${i + 1} · ${m.nome} · ~${b.minutos} min${legenda}`), el('strong', {}, b.titulo)),
       el('span', {}, estadoDoBloco(rb))));
@@ -87,7 +94,7 @@ export async function render(raiz) {
     const m = MATERIAS[rv.materia] || { icone: '🔁', nome: '', cor: '#CEF010' };
     const original = await carregarDia(perfil.ano, rv.dia).catch(() => null);
     const titulo = original?.blocos[rv.bloco]?.titulo || `Lição do dia ${rv.dia}`;
-    raiz.append(el('button', { class: `cartao bloco revisao ${rv.feito ? 'feito' : ''}`, style: `--cor:${m.cor}`, onclick: () => navegar(`#/retorno/${k}`) },
+    raiz.append(el('button', { class: `cartao bloco revisao ${rv.feito ? 'feito' : ''}`, style: `--cor:${m.cor}`, onclick: e => entrarComLuz(e.currentTarget, () => navegar(`#/retorno/${k}`)) },
       el('span', { class: 'icone' }, '🔁'),
       el('span', { class: 'textos' },
         el('small', {}, `Revisão · ${m.icone} ${m.nome} · ${DIFICULDADES[rv.dificuldade]?.icone || ''} · ${'💡'.repeat(rv.ajuda || 1)}`),
@@ -96,18 +103,18 @@ export async function render(raiz) {
   }
 
   if (reg.ouvir) {
-    raiz.append(el('button', { class: `cartao bloco bloco-ouvir ${reg.ouvir.feito ? 'feito' : ''}`, onclick: () => navegar('#/ouvir') },
+    raiz.append(el('button', { class: `cartao bloco bloco-ouvir ${reg.ouvir.feito ? 'feito' : ''}`, onclick: e => entrarComLuz(e.currentTarget, () => navegar('#/ouvir')) },
       el('span', { class: 'icone' }, '🎧'),
       el('span', { class: 'textos' }, el('small', {}, `Ouvir · episódio ${reg.ouvir.ep} · ~3 min`), el('strong', {}, 'História do dia: ouça e responda 3 perguntas')),
       el('span', {}, reg.ouvir.feito ? (reg.ouvir.aprovado ? '✅' : '☑️') : '▶')));
   }
   if (reg.prova?.revelada || reg.prova?.feito) { // sem aviso: só aparece depois que a surpresa entrou
-    raiz.append(el('button', { class: `cartao bloco bloco-prova ${reg.prova.feito ? 'feito' : ''}`, onclick: () => navegar('#/prova') },
+    raiz.append(el('button', { class: `cartao bloco bloco-prova ${reg.prova.feito ? 'feito' : ''}`, onclick: e => entrarComLuz(e.currentTarget, () => navegar('#/prova')) },
       el('span', { class: 'icone' }, '⚡'),
       el('span', { class: 'textos' }, el('small', {}, 'Surpresa! Vale 50% a mais'), el('strong', {}, reg.prova.feito ? `Prova surpresa: ${reg.prova.nota}/${reg.prova.total} · +${reg.prova.pontos} 💵` : 'Prova surpresa dos últimos dias')),
       el('span', {}, reg.prova.feito ? '✅' : '▶')));
   }
-  raiz.append(el('button', { class: `cartao bloco ${st.fechamentoOk ? 'feito' : ''}`, disabled: !st.blocosOk, onclick: () => navegar('#/fechamento') },
+  raiz.append(el('button', { class: `cartao bloco ${st.fechamentoOk ? 'feito' : ''}`, disabled: !st.blocosOk, onclick: e => entrarComLuz(e.currentTarget, () => navegar('#/fechamento')) },
     el('span', { class: 'icone' }, '📖'),
     el('span', { class: 'textos' },
       el('small', {}, 'Fechamento · leitura e escrita · ~10 min'),

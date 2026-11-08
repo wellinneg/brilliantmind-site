@@ -395,3 +395,137 @@ details.cartao>summary{font-weight:700}
 .empresa-pronta{border-left:6px solid #BA68C8}
 .planilha td,.planilha th{font-size:.7rem;padding:5px 2px}
 .grafico-lucro .barra-lucro{max-width:34px}
+
+/* ---- ⚔️ Batalha contra o Magnata ---- */
+.desafio-chefao{border-left:6px solid #E53935;background:linear-gradient(100deg,color-mix(in srgb,#E53935 18%,var(--navy-2)),var(--navy-2))}
+.poder-card{color:#FFD54F!important;font-size:.68rem!important;text-align:center}
+.titulo-batalha{text-align:center;margin-bottom:6px}
+.arena{position:relative;display:flex;align-items:flex-end;justify-content:space-between;padding:14px 10px 10px;border-radius:var(--raio);border:3px solid #000;min-height:190px;
+  background:url(../midia/prova/tempestade.webp) center/cover;overflow:hidden}
+.arena::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(5,12,16,.85),rgba(5,12,16,.25))}
+.lutador{position:relative;display:flex;flex-direction:column;align-items:center;gap:4px;color:#fff;text-shadow:0 2px 0 #000}
+.lutador .heroi-grande{width:130px;height:130px}
+.magnata{font-size:5.5rem;line-height:1;filter:drop-shadow(0 0 18px rgba(229,57,53,.9)) drop-shadow(0 6px 6px #000)}
+.versus{position:relative;font-size:1.8rem;font-weight:900;color:#FFD54F;text-shadow:0 3px 0 #000;align-self:center}
+.lutador.golpe{animation:golpe .45s}
+@keyframes golpe{20%{transform:translateX(-8px) rotate(-4deg)}40%{transform:translateX(8px) rotate(4deg)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
+.lutador-chefao.derrotado{animation:derrotado 1.2s forwards}
+@keyframes derrotado{to{transform:translateY(40px) rotate(25deg);opacity:.15}}
+.dano{position:absolute;top:10%;left:50%;transform:translateX(-50%);font-size:1.8rem;font-weight:900;animation:dano 1s forwards;pointer-events:none}
+.dano.no-chefao{color:#FFD54F}.dano.em-mim{color:#FF5252}
+@keyframes dano{to{transform:translate(-50%,-50px);opacity:0}}
+.placar-batalha{margin:10px 0}
+.vida-chefao{position:relative;height:22px;border-radius:8px;background:#3a0d0d;border:2px solid #000;overflow:hidden}
+.vida-chefao .vida-cheia{height:100%;background:linear-gradient(90deg,#E53935,#FF7043);transition:width .5s}
+.vida-chefao span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.85rem;color:#fff;text-shadow:1px 1px 0 #000}
+.coracoes{margin-top:6px;font-size:1.3rem}
+.rugido{font-size:.85rem;color:#FFD54F;font-weight:800}
+.tempo-batalha{height:8px;border-radius:4px;background:var(--navy-3);overflow:hidden;margin:6px 0}
+.tempo-cheio{height:100%;width:100%;background:var(--lime);transition:width .1s linear}
+.tempo-cheio.acabando{background:#FF5252}
+.acerto-batalha{color:var(--certo);font-weight:800}.erro-batalha{color:var(--errado);font-weight:800}
+.poder{background:color-mix(in srgb,#FFD54F 14%,var(--navy-2));border-radius:10px;padding:8px 10px}
+
+/* ---- Rodapé com o animal ---- */
+#nav-heroi{display:flex;justify-content:center;height:1.4rem}
+#nav-heroi img{height:1.6rem;width:1.6rem;object-fit:contain;filter:drop-shadow(0 1px 1px #000)}
+.navegacao a{padding:6px 2px}
+/* ---- Tabuleiro de conquista ---- */
+.tabuleiro-conquista{position:relative;margin:0 0 14px;border-radius:var(--raio);overflow:hidden;border:3px solid #000;box-shadow:0 6px 0 #000;background:#0B2E4A}
+.titulo-tabuleiro{position:absolute;top:8px;left:0;right:0;margin:0;text-align:center;font-size:1rem;font-weight:900;color:#fff;text-shadow:0 2px 0 #000;pointer-events:none;z-index:1}
+.tabuleiro-svg{display:block;width:100%;height:auto}
+.regiao.tocavel{cursor:pointer}
+.regiao.tocavel:active path:first-child{filter:brightness(1.25)}
+.nome-regiao{font-size:9.5px;font-weight:800;fill:#fff;paint-order:stroke;stroke:#0A191E;stroke-width:3px}
+.pote-regiao{font-size:8px;font-weight:700;fill:#FFE082;paint-order:stroke;stroke:#0A191E;stroke-width:2.5px}
+.legenda-tabuleiro{display:flex;flex-wrap:wrap;gap:10px;padding:8px 10px;background:#0A191E;font-size:.78rem;font-weight:700;align-items:center}
+.legenda-tabuleiro span{display:flex;align-items:center;gap:4px}
+.legenda-tabuleiro i{width:12px;height:12px;border-radius:3px;border:1px solid #000}
+.legenda-tabuleiro .heroi-pequeno{width:26px;height:26px}
+
+/* ---- 🎁 Sala das surpresas ---- */
+.sala-surpresas{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0}
+.sala-surpresas.trancada{opacity:.4;pointer-events:none}
+.esconderijo{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;aspect-ratio:1;border-radius:16px;cursor:pointer;font-family:inherit;
+  background:radial-gradient(circle at 50% 35%,var(--navy-3),var(--navy-2));border:2px solid var(--navy-3);color:var(--texto);font-size:2.6rem;box-shadow:0 4px 0 #000}
+.esconderijo small{font-size:.7rem;color:var(--suave)}
+.esconderijo:active{transform:translateY(3px);box-shadow:0 1px 0 #000}
+.esconderijo.abrindo{animation:abrir .9s ease-out forwards;border-color:var(--lime)}
+@keyframes abrir{0%{transform:scale(1)}20%{transform:scale(1.15) rotate(-6deg)}40%{transform:scale(1.15) rotate(6deg)}100%{transform:scale(1.05)}}
+.revelado{animation:pop .5s}
+/* ---- minijogos novos ---- */
+.palco-rapido{min-height:220px}
+.enunciado-rapido{font-size:1.25rem;font-weight:800;text-align:center;margin:22px 0}
+.opcoes-rapido{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opcoes-rapido .botao{font-size:1.15rem;padding:16px 8px}
+.resposta-letras,.entrada-cofre{display:flex;justify-content:center;gap:6px;margin:14px 0}
+.casa-letra{width:34px;height:42px;border-bottom:3px solid var(--lime);display:flex;align-items:center;justify-content:center;font-size:1.4rem;font-weight:900}
+.pecas-letras{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-bottom:12px}
+.pecas-letras .letra{width:42px;height:42px;aspect-ratio:auto;font-size:1.2rem}
+.colunas-pares{display:grid;grid-template-columns:1fr 1.4fr;gap:10px}
+.colunas-pares>div{display:flex;flex-direction:column;gap:8px}
+.item-par{padding:10px 6px;border-radius:10px;border:2px solid var(--navy-3);background:var(--navy-2);color:var(--texto);font-family:inherit;cursor:pointer;font-size:.8rem;min-height:54px}
+.item-par.palavra{font-weight:900;font-size:.85rem}
+.item-par.escolhida{border-color:var(--lime);box-shadow:0 0 0 3px color-mix(in srgb,var(--lime) 30%,transparent)}
+.item-par:disabled{color:#fff;border-color:transparent}
+.tentativas-cofre{display:flex;flex-direction:column;gap:6px;margin:10px 0}
+.linha-cofre{display:flex;align-items:center;gap:6px;justify-content:center}
+.pista{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:900;color:#fff}
+.pista.certo{background:#43A047}.pista.existe{background:#F9A825}.pista.nao{background:#455A64}
+.teclado-cofre{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px}
+.teclado-cofre .botao{font-size:1.3rem}
+.tabuleiro-conquista{padding-top:30px}
+.titulo-tabuleiro{top:7px}
+
+/* ---- Rodapé com todas as opções (8) ---- */
+.navegacao a{flex:1 1 0;min-width:0;font-size:.6rem;padding:4px 1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.navegacao a span{font-size:1.25rem;line-height:1.5rem;height:1.5rem}
+#nav-heroi img{height:1.5rem;width:1.5rem}
+
+/* ---- MEI x Simples ---- */
+.tabela-regimes th,.tabela-regimes td{font-size:.74rem;padding:6px 4px;vertical-align:top;text-align:left}
+.tabela-regimes tr:first-child th{font-size:.82rem}
+.tabela-regimes th:first-child{color:var(--suave);width:24%}
+.tabela-regimes .atual{background:color-mix(in srgb,var(--lime) 12%,transparent)}
+.tabela-regimes tr:first-child .atual{color:var(--lime)}
+
+.navegacao a{font-size:.56rem;text-overflow:clip;letter-spacing:-.2px}
+.tabela-regimes{table-layout:fixed;width:100%}
+.tabela-regimes th,.tabela-regimes td{overflow-wrap:anywhere;hyphens:auto}
+.tabela-regimes th:first-child{width:23%}
+/* ---- Luz de entrada da lição ---- */
+.luz-entrada{position:fixed;z-index:2000;pointer-events:none;border-radius:50%;width:40px;height:40px;transform:translate(-50%,-50%) scale(0);
+  background:radial-gradient(circle,#ffffff 0%,#F4FFB0 22%,var(--lime) 45%,rgba(206,240,16,.35) 65%,rgba(206,240,16,0) 72%);
+  animation:luz-cresce .55s cubic-bezier(.4,0,.2,1) forwards;box-shadow:0 0 60px 20px rgba(206,240,16,.6)}
+@keyframes luz-cresce{to{transform:translate(-50%,-50%) scale(60)}}
+.luz-entrada.sumindo{animation:luz-some .45s ease-out forwards}
+@keyframes luz-some{from{transform:translate(-50%,-50%) scale(60);opacity:1}to{transform:translate(-50%,-50%) scale(60);opacity:0}}
+.raios-luz{position:fixed;z-index:1999;inset:0;pointer-events:none;background:repeating-conic-gradient(from 0deg at var(--x) var(--y),rgba(255,255,220,.35) 0 6deg,transparent 6deg 18deg);
+  animation:raios-luz .55s ease-out forwards}
+@keyframes raios-luz{from{opacity:0}50%{opacity:1}to{opacity:0}}
+.luz-entrada{box-shadow:none;background:radial-gradient(circle closest-side,#ffffff 0%,#F4FFB0 30%,rgba(206,240,16,.95) 55%,rgba(206,240,16,.45) 80%,rgba(206,240,16,0) 100%)}
+
+/* ---- 📅 Calendário ---- */
+.cal-topo{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.cal-topo h2{margin:0;font-size:1.05rem}
+.grade-cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin:10px 0}
+.cab-cal{text-align:center;font-size:.72rem;color:var(--suave);font-weight:700}
+.dia-cal{aspect-ratio:1;border-radius:9px;border:1px solid var(--navy-3);background:var(--navy-2);color:var(--texto);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:inherit;padding:0;cursor:pointer}
+.dia-cal b{font-size:.8rem}.dia-cal small{font-size:.65rem;line-height:1}
+.dia-cal.vazio{background:none;border:none;cursor:default}
+.dia-cal.completo{background:color-mix(in srgb,var(--certo) 35%,var(--navy-2));border-color:var(--certo)}
+.dia-cal.incompleto{background:color-mix(in srgb,#FFD54F 25%,var(--navy-2));border-color:#FFD54F}
+.dia-cal.falta{background:color-mix(in srgb,var(--errado) 22%,var(--navy-2));border-color:var(--errado)}
+.dia-cal.fds{opacity:.45}
+.dia-cal.hoje{outline:2px solid var(--lime);outline-offset:1px}
+.legenda-cal{font-size:.75rem;color:var(--suave);margin:4px 0}
+.detalhe-dia p{margin:4px 0}
+
+/* ---- 👷 Equipe ---- */
+.opcoes.grade.quatro{grid-template-columns:repeat(4,1fr)}
+.ficha-funcionario{background:var(--navy-2);border:1px solid var(--navy-3);border-radius:12px;padding:8px 10px;margin:8px 0}
+.ficha-funcionario p{margin:3px 0;font-size:.82rem}
+.ficha-topo{display:flex;justify-content:space-between;align-items:center}
+.nivel-func{font-size:.7rem;font-weight:800;padding:2px 8px;border-radius:999px;background:var(--navy-3)}
+.nivel-func.iniciante{color:#81D4FA}.nivel-func.experiente{color:#CEF010}.nivel-func.especialista{color:#FFD54F}
+.candidatos summary{font-weight:700}

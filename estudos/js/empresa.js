@@ -18,9 +18,19 @@ export const RAMOS = {
 export const REGRAS = {
   custoAbertura: 20,           // registro da empresa (CNPJ, alvará)
   aporteMinimo: 30,            // dinheiro inicial que o dono coloca no caixa
-  salario: 8,                  // por dia de negócio
   encargos: 0.3,               // FGTS, INSS, férias e 13º (≈30% sobre o salário)
-  efeitoFuncionario: 0.5,      // cada funcionário atende +50% de clientes
+  // como os ≈30% se dividem (aproximado, para explicar):
+  encargosDetalhe: [['FGTS', 0.08], ['13º salário', 0.0833], ['Férias + 1/3', 0.1111], ['INSS e outros', 0.0256]],
+  niveis: {
+    iniciante: { nome: 'Iniciante', salario: 6, produtividade: 0.35 },
+    experiente: { nome: 'Experiente', salario: 8, produtividade: 0.5 },
+    especialista: { nome: 'Especialista', salario: 11, produtividade: 0.7 },
+  },
+  bonus: [0, 1, 2, 3],         // bonificação por funcionário por dia
+  efeitoBonus: [0, 0.15, 0.25, 0.3], // quanto o bônus aumenta a produção (o ganho vai diminuindo)
+  experienciaPorDia: 0.01,     // cada dia trabalhado rende +1% (até +20%)
+  experienciaMax: 0.2,
+  rescisaoDias: 3,             // demitir custa 3 dias de salário (rescisão simplificada)
   propaganda: [0, 3, 7],       // custo por dia: nenhuma, redes sociais, panfleto + redes
   efeitoPropaganda: [0, 0.25, 0.5],
   meiDAS: 1,                   // MEI paga um valor fixo (DAS)
@@ -33,7 +43,71 @@ export const REGRAS = {
 };
 
 const arred = v => Math.round(v * 100) / 100;
-export const salarioComEncargos = () => arred(REGRAS.salario * (1 + REGRAS.encargos));
+export const comEncargos = salario => arred(salario * (1 + REGRAS.encargos));
+export const salarioComEncargos = () => comEncargos(REGRAS.niveis.experiente.salario);
+
+const NOMES = ['Ana', 'Bruno', 'Carla', 'Diego', 'Elisa', 'Fábio', 'Gabi', 'Hugo', 'Íris', 'João', 'Kátia', 'Lucas', 'Marina', 'Nilo',
+  'Olívia', 'Paulo', 'Rafa', 'Sofia', 'Tiago', 'Vera', 'Wesley', 'Yara', 'Davi', 'Lívia', 'Caio', 'Bia', 'Enzo', 'Lara'];
+
+/** Empresas abertas antes da equipe detalhada: transforma o número de funcionários em pessoas. */
+export function normalizarEmpresa(emp) {
+  if (!emp) return emp;
+  if (!Array.isArray(emp.equipe)) {
+    emp.equipe = Array.from({ length: emp.funcionarios || 0 }, (_, k) => ({ id: `f${k}`, nome: NOMES[k], nivel: 'experiente', dias: 0 }));
+  }
+  emp.bonus ??= 0;
+  emp.funcionarios = emp.equipe.length;
+  return emp;
+}
+
+/** Produção de um funcionário (fração da demanda base que ele atende a mais), com bônus e experiência. */
+export function produtividadeDe(f, bonus = 0) {
+  const n = REGRAS.niveis[f.nivel] || REGRAS.niveis.experiente;
+  return n.produtividade * (1 + REGRAS.efeitoBonus[bonus]) * (1 + Math.min(REGRAS.experienciaMax, (f.dias || 0) * REGRAS.experienciaPorDia));
+}
+/** Quantos clientes a mais por dia esse funcionário atende. */
+export function clientesDoFuncionario(emp, f, bonus = emp.bonus || 0) {
+  const r = RAMOS[emp.ramo];
+  return r.demanda * emp.unidades * produtividadeDe(f, bonus);
+}
+export function custoDoFuncionario(f, bonus = 0) {
+  const n = REGRAS.niveis[f.nivel] || REGRAS.niveis.experiente;
+  return arred(comEncargos(n.salario) + REGRAS.bonus[bonus]);
+}
+export const custoDaEquipe = (emp, bonus = emp.bonus || 0) => arred((emp.equipe || []).reduce((s, f) => s + custoDoFuncionario(f, bonus), 0));
+
+/** 3 candidatos do dia (os mesmos o dia inteiro). */
+export function candidatosDoDia(emp, data) {
+  let sem = [...`${emp.nome}|${data}|${emp.dias}`].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7) || 1;
+  const aleatorio = () => { sem = (sem * 16807) % 2147483647; return (sem - 1) / 2147483646; };
+  const usados = new Set((emp.equipe || []).map(f => f.nome));
+  const livres = NOMES.filter(nm => !usados.has(nm));
+  const niveis = ['iniciante', 'experiente', 'especialista'];
+  return niveis.map((nivel, k) => {
+    const nome = livres.splice(Math.floor(aleatorio() * livres.length), 1)[0] || `Candidato ${k + 1}`;
+    return { id: `c-${data}-${k}`, nome, nivel };
+  });
+}
+
+export function contratar(emp, candidato) {
+  normalizarEmpresa(emp);
+  if (emp.regime === 'mei' && emp.equipe.length >= REGRAS.meiMaxFuncionarios) throw new Error('No MEI só pode ter 1 funcionário. Para ter mais, mude para o Simples Nacional.');
+  if (emp.equipe.some(f => f.nome === candidato.nome)) throw new Error(`${candidato.nome} já trabalha na empresa.`);
+  emp.equipe.push({ id: `f-${Date.now()}-${emp.equipe.length}`, nome: candidato.nome, nivel: candidato.nivel, dias: 0 });
+  emp.funcionarios = emp.equipe.length;
+}
+
+/** Demitir custa a rescisão (dias de salário com encargos), paga pelo caixa. */
+export function demitir(emp, id) {
+  normalizarEmpresa(emp);
+  const f = emp.equipe.find(x => x.id === id);
+  if (!f) throw new Error('Funcionário não encontrado.');
+  const custo = arred(comEncargos(REGRAS.niveis[f.nivel].salario) * REGRAS.rescisaoDias);
+  emp.caixa = arred(emp.caixa - custo);
+  emp.equipe = emp.equipe.filter(x => x.id !== id);
+  emp.funcionarios = emp.equipe.length;
+  return custo;
+}
 
 export function abrirEmpresa(jogo, { ramo, nome, regime = 'mei', aporte }) {
   const r = RAMOS[ramo];
@@ -48,7 +122,7 @@ export function abrirEmpresa(jogo, { ramo, nome, regime = 'mei', aporte }) {
   jogo.carteira -= total;
   lancar(jogo, { tipo: 'empresa', descricao: `🏪 Abriu a empresa ${nome} (registro ${REGRAS.custoAbertura} + caixa ${aporte})`, valor: -total });
   jogo.empresa = {
-    ramo, nome, regime, caixa: aporte, estoque: 0, funcionarios: 0, propaganda: 0, unidades: 1,
+    ramo, nome, regime, caixa: aporte, estoque: 0, funcionarios: 0, equipe: [], bonus: 0, propaganda: 0, unidades: 1,
     preco: r.precoRef, turnos: 1, dias: 0, historico: [], aberturaEm: new Date().toISOString(),
   };
   return jogo.empresa;
@@ -62,10 +136,11 @@ export function fatorPreco(preco, ref) {
 }
 
 /** Clientes esperados num dia (sem sorte e sem evento). */
-export function demandaEsperada(emp, { preco = emp.preco, funcionarios = emp.funcionarios, propaganda = emp.propaganda } = {}) {
+export function demandaEsperada(emp, { preco = emp.preco, propaganda = emp.propaganda, bonus = emp.bonus || 0 } = {}) {
   const r = RAMOS[emp.ramo];
+  const equipe = (emp.equipe || []).reduce((s, f) => s + produtividadeDe(f, bonus), 0);
   return r.demanda * emp.unidades * fatorPreco(preco, r.precoRef)
-    * (1 + REGRAS.efeitoFuncionario * funcionarios) * (1 + REGRAS.efeitoPropaganda[propaganda]);
+    * (1 + equipe) * (1 + REGRAS.efeitoPropaganda[propaganda]);
 }
 
 export function faturamentoRecente(emp, dias = 20) {
@@ -96,8 +171,9 @@ function sortearEvento(aleatorio) {
 export function simularDia(emp, d, aleatorio = Math.random) {
   const r = RAMOS[emp.ramo];
   if (!(emp.turnos > 0)) throw new Error('Feche um dia de estudo para ganhar mais um dia de negócio.');
-  const funcionarios = Math.max(0, Math.floor(d.funcionarios ?? emp.funcionarios));
-  if (emp.regime === 'mei' && funcionarios > REGRAS.meiMaxFuncionarios) throw new Error('No MEI só pode ter 1 funcionário. Para ter mais, mude para o Simples Nacional.');
+  normalizarEmpresa(emp);
+  if (emp.regime === 'mei' && emp.equipe.length > REGRAS.meiMaxFuncionarios) throw new Error('No MEI só pode ter 1 funcionário. Para ter mais, mude para o Simples Nacional.');
+  const bonus = REGRAS.bonus.includes(d.bonus) ? d.bonus : emp.bonus;
   const propaganda = [0, 1, 2].includes(d.propaganda) ? d.propaganda : emp.propaganda;
   const preco = arred(Math.max(0.5, Number(d.preco) || emp.preco));
   const comprar = Math.max(0, Math.floor(Number(d.comprar) || 0));
@@ -109,7 +185,7 @@ export function simularDia(emp, d, aleatorio = Math.random) {
   emp.caixa = arred(emp.caixa - compra);
   emp.estoque += comprar;
   const sorte = 0.85 + aleatorio() * 0.3;                    // movimento do dia varia ±15%
-  const clientes = Math.round(demandaEsperada(emp, { preco, funcionarios, propaganda }) * sorte * (evento?.demanda || 1));
+  const clientes = Math.round(demandaEsperada(emp, { preco, propaganda, bonus }) * sorte * (evento?.demanda || 1));
   const vendidas = Math.min(emp.estoque, clientes);
   const perdidos = clientes - vendidas;                      // faltou estoque
   emp.estoque -= vendidas;
@@ -118,14 +194,15 @@ export function simularDia(emp, d, aleatorio = Math.random) {
 
   const receita = arred(vendidas * preco);
   const cmv = arred(vendidas * custoUnit);                   // custo do que foi vendido
-  const salarios = arred(funcionarios * salarioComEncargos());
+  const salarios = custoDaEquipe(emp, bonus);           // salários + encargos + bônus
   const custoPropaganda = REGRAS.propaganda[propaganda];
   const imposto = arred(emp.regime === 'mei' ? REGRAS.meiDAS : receita * REGRAS.simplesAliquota);
   const lucro = arred(receita - cmv - salarios - custoPropaganda - imposto - estragou * custoUnit);
   emp.caixa = arred(emp.caixa + receita - salarios - custoPropaganda - imposto);
-  Object.assign(emp, { preco, funcionarios, propaganda });
+  Object.assign(emp, { preco, propaganda, bonus });
+  emp.equipe.forEach(f => { f.dias = (f.dias || 0) + 1; }); // experiência
   emp.turnos -= 1; emp.dias += 1;
-  const dia = { dia: emp.dias, comprar, compra, clientes, vendidas, perdidos, estragou, preco, receita, cmv, salarios, propaganda: custoPropaganda, imposto, lucro, evento: evento?.id || null, caixa: emp.caixa };
+  const dia = { dia: emp.dias, comprar, compra, clientes, vendidas, perdidos, estragou, preco, receita, cmv, salarios, bonus, equipe: emp.equipe.length, propaganda: custoPropaganda, imposto, lucro, evento: evento?.id || null, caixa: emp.caixa };
   emp.historico = [dia, ...emp.historico].slice(0, 60);
   const avisos = [];
   if (perdidos > 0) avisos.push(`Faltou estoque: ${perdidos} cliente(s) foram embora sem comprar.`);
@@ -138,7 +215,7 @@ export function simularDia(emp, d, aleatorio = Math.random) {
 
 export function trocarRegime(emp, regime) {
   if (!['mei', 'simples'].includes(regime)) throw new Error('Regime inválido.');
-  if (regime === 'mei' && emp.funcionarios > REGRAS.meiMaxFuncionarios) throw new Error('Com mais de 1 funcionário não dá para ser MEI.');
+  if (regime === 'mei' && (emp.equipe?.length ?? emp.funcionarios) > REGRAS.meiMaxFuncionarios) throw new Error('Com mais de 1 funcionário não dá para ser MEI.');
   if (regime === 'mei' && faturamentoRecente(emp) > REGRAS.meiLimite) throw new Error('O faturamento está acima do limite do MEI.');
   emp.regime = regime;
 }
