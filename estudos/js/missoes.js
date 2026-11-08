@@ -5,7 +5,7 @@ import { lerJogo, gravarJogo, lancar } from './jogo.js';
 import { hojeISO, diasEntre } from './datas.js';
 
 const CHAVE = 'missoes';
-const INICIO = '2026-11-02';                // segunda-feira em que começou a Temporada 1 (base das semanas)
+const INICIO = '2026-11-09';                // segunda-feira em que começa a Temporada 1 (dia oficial da Trilha)
 export const SEMANAS_POR_TEMPORADA = 4;
 export const NIVEIS_TEMPORADA = 10;
 export const XP_POR_NIVEL = 100;
@@ -35,7 +35,7 @@ export const SEMANAIS = [
 ];
 
 export const semanaDe = data => Math.floor(diasEntre(INICIO, data) / 7);
-export const temporadaDe = data => Math.floor(semanaDe(data) / SEMANAS_POR_TEMPORADA) + 1;
+export const temporadaDe = data => Math.max(1, Math.floor(semanaDe(data) / SEMANAS_POR_TEMPORADA) + 1);   // antes do início (demonstração) já é a 1
 export function diasParaAcabarTemporada(data) {
   const t = temporadaDe(data);
   return t * SEMANAS_POR_TEMPORADA * 7 - diasEntre(INICIO, data);

@@ -28,7 +28,7 @@ export function patrimonioDe(jogo, data = hojeISO()) {
 }
 
 // O Magnata também entra no ranking: começa com 500 e ganha 25 notas por dia desde o início do jogo.
-export const MAGNATA_PATRIMONIO = { inicio: '2026-11-02', base: 500, porDia: 25 };
+export const MAGNATA_PATRIMONIO = { inicio: '2026-11-09', base: 500, porDia: 25 };
 export function patrimonioDoMagnata(data = hojeISO()) {
   const dias = Math.max(0, diasEntre(MAGNATA_PATRIMONIO.inicio, data));
   return MAGNATA_PATRIMONIO.base + dias * MAGNATA_PATRIMONIO.porDia;

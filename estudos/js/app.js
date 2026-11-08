@@ -1,6 +1,7 @@
 import { lerConfig } from './db.js';
 import { el } from './ui.js';
 import { trocarComTransicao } from './efeitos.js';
+import { zerarDemonstracaoSePreciso } from './inicio-oficial.js';
 
 const ROTAS = {
   configuracao: () => import('./telas/configuracao.js'),
@@ -42,6 +43,8 @@ async function rotear() {
   const raiz = document.getElementById('app');
   const nav = document.getElementById('navegacao');
   let [nome, ...args] = location.hash.replace(/^#\/?/, '').split('/');
+  // 🚀 1º dia oficial: zera o progresso da demonstração (uma vez só) e começa do zero na tela Hoje
+  if (await zerarDemonstracaoSePreciso().catch(() => false)) { nome = 'hoje'; history.replaceState(null, '', '#/hoje'); }
   const perfil = await lerConfig('perfil');
   if (!perfil) nome = 'configuracao';
   else if (!ROTAS[nome] || nome === 'configuracao') nome = 'hoje';
