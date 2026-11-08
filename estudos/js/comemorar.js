@@ -4,7 +4,7 @@ import { RIVAL } from './jogo.js';
 import { sons } from './sons.js';
 
 export function comemorarJogo(res) {
-  if (!res || !res.territorio) return null;
+  if (!res || !res.territorio) return document.createDocumentFragment();   // nada a comemorar (sem "null" na tela)
   const t = res.territorio;
   const linhas = [el('strong', { class: 'moedas-pulando' }, `+${res.moedas} 💵`)];
   if (res.doPote) linhas.push(el('p', {}, `${res.doPote} notas do pote de ${t.icone} ${t.nome}.`));

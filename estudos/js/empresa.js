@@ -3,6 +3,7 @@
 // (salário + encargos), imposto (MEI ou Simples Nacional, simplificados) e lucro.
 // O caixa da empresa é separado da carteira do jogador (como na vida real: empresa ≠ dono).
 import { lancar, lerJogo, gravarJogo } from './jogo.js';
+import { hojeISO } from './datas.js';
 
 export const RAMOS = {
   lanchonete: { nome: 'Lanchonete', icone: '🍔', produto: 'lanche', custo: 1, precoRef: 2.5, demanda: 12, perecivel: true,
@@ -38,6 +39,7 @@ export const REGRAS = {
   meiLimite: 600,              // limite de faturamento do MEI nos últimos 20 dias de negócio (escala do jogo)
   simplesAliquota: 0.06,       // Simples Nacional: % sobre o faturamento (simplificado)
   custoUnidade: 300,           // abrir mais uma unidade
+  mesesParaTrocar: 3,          // depois de abrir, só pode fechar e trocar de empresa depois de 3 meses
   maxTurnos: 3,                // dias de negócio acumulados no máximo
   sobraPerecivel: 0.7,         // comida: 30% do que sobra estraga
 };
@@ -126,6 +128,31 @@ export function abrirEmpresa(jogo, { ramo, nome, regime = 'mei', aporte }) {
     preco: r.precoRef, turnos: 1, dias: 0, historico: [], aberturaEm: new Date().toISOString(),
   };
   return jogo.empresa;
+}
+
+/** Data (AAAA-MM-DD) a partir da qual pode fechar e trocar de empresa: 3 meses depois da abertura. */
+export function trocaLiberadaEm(emp) {
+  const ab = emp.aberturaEm ? new Date(emp.aberturaEm) : new Date();
+  const d = new Date(ab.getFullYear(), ab.getMonth() + REGRAS.mesesParaTrocar, ab.getDate());
+  if (d.getDate() !== ab.getDate()) d.setDate(0);                   // 30/11 + 3 meses → 28/02 (último dia)
+  return hojeISO(d);
+}
+export const podeTrocar = (emp, hoje = hojeISO()) => hoje >= trocaLiberadaEm(emp);
+
+/** Fecha a empresa (o caixa volta para a carteira) para poder abrir outra. Só depois de 3 meses. */
+export function fecharEmpresa(jogo, hoje = hojeISO()) {
+  const emp = jogo.empresa;
+  if (!emp) throw new Error('Você não tem empresa.');
+  if (!podeTrocar(emp, hoje)) {
+    const [a, m, d] = trocaLiberadaEm(emp).split('-');
+    throw new Error(`Só dá para trocar de empresa a partir de ${d}/${m}/${a} (${REGRAS.mesesParaTrocar} meses depois de abrir).`);
+  }
+  const caixa = Math.max(0, Math.floor(emp.caixa));
+  jogo.carteira += caixa;
+  lancar(jogo, { tipo: 'empresa', descricao: `🏪 Fechou a empresa ${emp.nome} (caixa devolvido)`, valor: caixa });
+  jogo.empresasAnteriores = [...(jogo.empresasAnteriores || []), { nome: emp.nome, ramo: emp.ramo, aberturaEm: emp.aberturaEm, fechadaEm: hoje, dias: emp.dias }];
+  jogo.empresa = null;
+  return caixa;
 }
 
 /** Quanto o preço afasta ou atrai clientes (preço de referência = 1). */

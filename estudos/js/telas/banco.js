@@ -6,6 +6,9 @@ import { exibir, hojeISO, somarDias } from '../datas.js';
 import { sons } from '../sons.js';
 import { confete } from '../efeitos.js';
 import { registrarEvento } from '../missoes.js';
+import { rankingDePatrimonio } from '../patrimonio.js';
+import { desenharHeroi } from '../herois.js';
+import { RIVAL } from '../jogo.js';
 
 export async function render(raiz) {
   const jogo = await lerJogo();
@@ -24,6 +27,7 @@ export async function render(raiz) {
       el('div', {}, el('small', {}, 'Carteira'), el('strong', {}, `💵 ${jogo.carteira}`)),
       el('div', {}, el('small', {}, 'Aplicado'), el('strong', {}, `🏦 ${totalAplicado}`)),
       el('div', {}, el('small', {}, 'Vale hoje'), el('strong', { class: 'entrada' }, `📈 ${valeHoje}`))));
+  raiz.append(quadroRanking(jogo, hoje));
 
   // aplicações em andamento
   if (ativas.length) {
@@ -89,4 +93,20 @@ export async function render(raiz) {
       el('p', {}, 'A Selic de verdade é a taxa básica de juros do Brasil, definida pelo Banco Central a cada 45 dias. Ela influencia quanto rendem os investimentos e quanto custam os empréstimos.'),
       el('p', {}, 'No jogo, para ficar rápido, o dinheiro aplicado rende 1% por semana, com juros sobre juros: cada semana rende 1% sobre o valor que já cresceu.'),
       el('p', {}, 'Quem espera o prazo ganha o rendimento; quem tira antes recebe só o que colocou. Na vida real também é assim em muitos investimentos!'))));
+}
+
+/** 🏆 Ranking de patrimônio: dinheiro + empresa + banco, contra os irmãos e o Magnata. */
+function quadroRanking(jogo, hoje) {
+  const lista = rankingDePatrimonio(jogo, hoje);
+  const n = v => Math.floor(v);
+  return el('section', { class: 'cartao placar-familia ranking-patrimonio' },
+    el('h2', {}, '🏆 Ranking de patrimônio'),
+    el('ol', {}, lista.map((j, k) => el('li', { class: j.eu ? 'eu' : '' },
+      el('span', { class: 'posicao' }, ['🥇', '🥈', '🥉'][k] || `${k + 1}º`),
+      j.magnata ? el('span', { class: 'magnata-pequeno' }, RIVAL.icone) : desenharHeroi(j.heroi, j.usando, 'pequeno'),
+      el('span', { class: 'textos' }, el('strong', {}, j.eu ? `${j.apelido} (você)` : j.apelido),
+        el('small', {}, j.magnata ? 'Ganha 25 notas por dia. Dá para passar ele?' : `💵 ${n(j.dinheiro)} · 🏪 ${n(j.empresa)} · 🏦 ${n(j.banco)}`)),
+      el('span', { class: 'carteira' }, `💰 ${j.total}`)))),
+    el('p', { class: 'dica' }, 'Patrimônio = dinheiro na carteira 💵 + o valuation da empresa 🏪 (5× o lucro dos últimos 20 dias + caixa + estoque) + o que está aplicado no banco 🏦. Gastar à toa diminui; investir bem aumenta.'),
+    Object.keys(jogo.outros || {}).length ? null : el('p', { class: 'dica' }, 'Com a família ligada (Pais → Disputa da família), os irmãos aparecem aqui.'));
 }

@@ -1,5 +1,5 @@
 // Trocar VERSAO a cada publicação que muda JS/CSS. Conteúdo novo não precisa.
-const VERSAO = 'trilha-v33';
+const VERSAO = 'trilha-v34';
 const ARQUIVOS = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css',
   'fonts/sora-latin.woff2', 'fonts/sora-latin-ext.woff2',
@@ -8,7 +8,7 @@ const ARQUIVOS = [
   'js/pin.js', 'js/db.js', 'js/estado.js', 'js/conteudo.js', 'js/fotos.js', 'js/audio.js',
   'js/backup.js', 'js/quiz-ui.js',
   'js/telas/configuracao.js', 'js/telas/hoje.js', 'js/telas/licao.js', 'js/telas/fechamento.js',
-  'js/telas/conquistas.js', 'js/telas/revisao.js', 'js/telas/retorno.js', 'js/telas/pais.js', 'js/telas/serie.js', 'js/telas/biblioteca.js', 'js/telas/mapa.js', 'js/jogo.js', 'js/herois.js', 'js/sons.js', 'js/comemorar.js', 'js/panorama.js', 'js/tabuleiro.js', 'js/calendario.js', 'js/missoes.js', 'js/duelo.js', 'js/telas/duelo.js', 'js/telas/missoes.js', 'js/telas/heroi.js', 'js/cenas.js', 'js/telas/lugar.js', 'js/telas/jogo.js', 'js/telas/jogos.js', 'js/telas/ouvir.js', 'js/telas/prova.js', 'js/narrador.js', 'js/intro-prova.js', 'js/efeitos.js', 'js/apresentacao.js', 'js/banco.js', 'js/empresa.js', 'js/batalha.js', 'js/telas/chefao.js', 'js/telas/empresa.js', 'js/telas/banco.js', 'js/minijogos/motor.js', 'js/minijogos/vocabulario.js', 'js/minijogos/palavras.js', 'js/minijogos/objetos.js', 'js/minijogos/memoria.js', 'js/minijogos/caixa.js', 'js/minijogos/rapidos.js', 'js/minijogos/logica.js', 'js/familia.js', 'js/familia-config.js', 'js/telas/familia-pais.js', 'js/sessao-pais.js',
+  'js/telas/conquistas.js', 'js/telas/revisao.js', 'js/telas/retorno.js', 'js/telas/pais.js', 'js/telas/serie.js', 'js/telas/biblioteca.js', 'js/telas/mapa.js', 'js/jogo.js', 'js/herois.js', 'js/sons.js', 'js/comemorar.js', 'js/panorama.js', 'js/tabuleiro.js', 'js/calendario.js', 'js/missoes.js', 'js/duelo.js', 'js/telas/duelo.js', 'js/telas/missoes.js', 'js/telas/heroi.js', 'js/cenas.js', 'js/telas/lugar.js', 'js/telas/jogo.js', 'js/telas/jogos.js', 'js/telas/ouvir.js', 'js/telas/prova.js', 'js/narrador.js', 'js/intro-prova.js', 'js/efeitos.js', 'js/apresentacao.js', 'js/banco.js', 'js/empresa.js', 'js/patrimonio.js', 'js/batalha.js', 'js/telas/chefao.js', 'js/telas/empresa.js', 'js/telas/banco.js', 'js/minijogos/motor.js', 'js/minijogos/vocabulario.js', 'js/minijogos/palavras.js', 'js/minijogos/objetos.js', 'js/minijogos/memoria.js', 'js/minijogos/caixa.js', 'js/minijogos/rapidos.js', 'js/minijogos/logica.js', 'js/familia.js', 'js/familia-config.js', 'js/telas/familia-pais.js', 'js/sessao-pais.js',
 ];
 
 self.addEventListener('install', e => {

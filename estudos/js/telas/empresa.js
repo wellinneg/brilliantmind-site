@@ -1,8 +1,9 @@
 // 🏪 Tela da Empresa virtual (#/empresa).
 import { el, aviso, navegar } from '../ui.js';
+import { valuationDaEmpresa, VALUATION } from '../patrimonio.js';
 import { lerJogo, gravarJogo } from '../jogo.js';
 import {
-  RAMOS, REGRAS, abrirEmpresa, simularDia, demandaEsperada, retirarLucro, aportar, abrirUnidade, trocarRegime,
+  RAMOS, REGRAS, abrirEmpresa, simularDia, demandaEsperada, retirarLucro, aportar, abrirUnidade, trocarRegime, trocaLiberadaEm, podeTrocar, fecharEmpresa,
   faturamentoRecente, normalizarEmpresa, candidatosDoDia, contratar, demitir, clientesDoFuncionario, custoDoFuncionario,
   custoDaEquipe, comEncargos,
 } from '../empresa.js';
@@ -36,7 +37,7 @@ export async function render(raiz) {
     el('p', { class: 'dica' }, `Cada dia de estudo fechado vale um dia de negócio (acumula até ${REGRAS.maxTurnos}).`)));
 
   if (emp.historico.length) raiz.append(planilha(emp));
-  raiz.append(quadroRegimes(emp, jogo), painelDinheiro(jogo, emp));
+  raiz.append(quadroValuation(emp), quadroRegimes(emp, jogo), painelDinheiro(jogo, emp));
   raiz.append(explicacoes());
 }
 
@@ -63,6 +64,7 @@ function telaAbrir(raiz, jogo) {
     el('h2', {}, '3. Tipo de empresa'), regimes,
     quadroRegimes(null),
     el('h2', {}, '4. Dinheiro inicial no caixa'), el('div', { class: 'campo' }, aporte),
+    el('p', { class: 'dica' }, `⚠️ Pense bem no negócio: depois de abrir, só dá para trocar de empresa ${REGRAS.mesesParaTrocar} meses depois.`),
     el('button', { class: 'botao grande', onclick: async () => {
       try {
         abrirEmpresa(jogo, { ramo, nome: nome.value, regime, aporte: aporte.value });
@@ -208,7 +210,20 @@ function painelDinheiro(jogo, emp) {
       el('button', { class: 'botao secundario', onclick: agir(() => aportar(jogo, valor.value)) }, 'Colocar no caixa ➡')),
     el('p', { class: 'dica' }, 'Retirar lucro leva o dinheiro para a sua carteira (loja, banco, territórios). Colocar no caixa é um aporte do dono.'),
     el('button', { class: 'botao secundario grande', onclick: agir(() => abrirUnidade(emp)) }, `🏬 Abrir mais uma unidade (${REGRAS.custoUnidade} do caixa)`),
+    quadroTroca(jogo, emp, agir),
   );
+}
+
+/** Trocar de empresa: só 3 meses depois de abrir (escolha pensada, não troca por impulso). */
+function quadroTroca(jogo, emp, agir) {
+  const [a, m, d] = trocaLiberadaEm(emp).split('-');
+  if (!podeTrocar(emp)) {
+    return el('p', { class: 'dica' }, `🔒 Trocar de empresa só a partir de ${d}/${m}/${a}: quem abre um negócio precisa de pelo menos ${REGRAS.mesesParaTrocar} meses para ver se ele dá certo.`);
+  }
+  return el('button', { class: 'link', onclick: () => {
+    if (!confirm(`Fechar a ${emp.nome}? O caixa (💵 ${Math.floor(emp.caixa)}) volta para a sua carteira e você pode abrir outra empresa. A nova também fica ${REGRAS.mesesParaTrocar} meses sem poder trocar.`)) return;
+    agir(() => fecharEmpresa(jogo))();
+  } }, '🔄 Fechar e trocar de empresa');
 }
 
 /** Quadro MEI × Simples Nacional (com o tipo atual destacado e a conta de quanto pagaria no outro). */
@@ -251,4 +266,20 @@ function explicacoes() {
       el('li', {}, 'MEI é para negócios pequenos: imposto fixo e baixo, até 1 funcionário e limite de faturamento.'),
       el('li', {}, 'No Simples Nacional, o imposto é uma porcentagem do que a empresa vende.'),
       el('li', {}, 'O dinheiro da empresa é da empresa. O dono retira o lucro, não o caixa inteiro.')));
+}
+
+/** 💎 Valuation: quanto alguém pagaria pela empresa hoje (5× o lucro recente + caixa + estoque). */
+function quadroValuation(emp) {
+  const v = valuationDaEmpresa(emp);
+  const n2 = x => x.toLocaleString('pt-BR', { maximumFractionDigits: 2 });
+  return el('section', { class: 'cartao valuation' },
+    el('h2', {}, `💎 Valuation da ${emp.nome}: 💵 ${n2(v.total)}`),
+    el('table', { class: 'tabela' },
+      el('tr', {}, el('td', {}, `Lucro dos últimos ${Math.min(VALUATION.dias, emp.historico.length)} dias × ${VALUATION.multiplo}`), el('td', {}, `${n2(Math.max(0, v.lucro))} × ${VALUATION.multiplo} = ${n2(v.peloLucro)}`)),
+      el('tr', {}, el('td', {}, 'Dinheiro no caixa'), el('td', {}, n2(v.caixa))),
+      el('tr', {}, el('td', {}, 'Estoque (pelo custo)'), el('td', {}, n2(v.estoque))),
+      el('tr', {}, el('th', {}, 'Quanto a empresa vale'), el('th', {}, n2(v.total)))),
+    el('p', { class: 'dica' }, v.lucro < 0
+      ? 'A empresa está no prejuízo, então ninguém paga nada pelo lucro dela: vale só o que tem no caixa e no estoque.'
+      : `Na vida real, quem compra uma empresa paga um múltiplo do lucro. Aqui usamos ${VALUATION.multiplo}×: cada nota a mais de lucro faz a empresa valer ${VALUATION.multiplo} notas a mais. O valuation entra no seu patrimônio (ranking no 🏦 Banco).`));
 }

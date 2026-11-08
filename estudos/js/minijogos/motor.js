@@ -94,7 +94,7 @@ export const formatarTempo = s => `${Math.floor(s / 60)}min ${String(s % 60).pad
 export function mostrarResultado(area, { titulo, linhas, fim, t, tipo, jogarDeNovo }) {
   if (fim.valendo || fim.novoRecorde) confete();
   else sons.moeda();
-  area.replaceChildren(
+  area.replaceChildren(...[
     el('div', { class: 'resultado-jogo' },
       el('h2', {}, titulo),
       ...linhas.map(l => el('p', {}, l)),
@@ -104,5 +104,5 @@ export function mostrarResultado(area, { titulo, linhas, fim, t, tipo, jogarDeNo
     comemorarJogo(fim.res),
     el('div', { class: 'linha' },
       el('button', { class: 'botao', onclick: jogarDeNovo }, '🔁 Jogar de novo'),
-      el('button', { class: 'botao secundario', onclick: () => navegar(`#/lugar/${t.id}`) }, `← ${t.icone} ${t.nome}`)));
+      el('button', { class: 'botao secundario', onclick: () => navegar(`#/lugar/${t.id}`) }, `← ${t.icone} ${t.nome}`))].filter(Boolean));
 }

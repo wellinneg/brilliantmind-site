@@ -5,6 +5,7 @@
 import * as db from './db.js';
 import { FIREBASE } from './familia-config.js';
 import { lerJogo, gravarJogo } from './jogo.js';
+import { patrimonioDe } from './patrimonio.js';
 
 const CHAVE = 'familia';
 const ALFABETO = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // sem 0/O e 1/I, para não confundir
@@ -30,6 +31,7 @@ export function registroPublico(jogo) {
   return {
     apelido: String(jogo.apelido || '').slice(0, 16), heroi: jogo.heroi, usando: jogo.usando || {},
     camada: jogo.camada, doPote: jogo.meu.doPote, roubos: jogo.meu.roubos, temporada: jogo.temporadaXP || null,
+    patrimonio: patrimonioDe(jogo),       // 🏆 ranking de patrimônio (dinheiro + empresa + banco)
     // ⚔️ duelo em andamento (só entre irmãos; o treino contra o Magnata fica no celular)
     duelo: jogo.duelo && !jogo.duelo.contra
       ? { id: jogo.duelo.id, semente: jogo.duelo.semente, de: jogo.duelo.de, para: jogo.duelo.para, estado: jogo.duelo.estado, respostas: jogo.duelo.respostas, criado: jogo.duelo.criado }
