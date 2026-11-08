@@ -10,6 +10,7 @@ const ROTAS = {
   jogo: () => import('./telas/jogo.js'),
   jogos: () => import('./telas/jogos.js'),
   ouvir: () => import('./telas/ouvir.js'),
+  empresa: () => import('./telas/empresa.js'),
   prova: () => import('./telas/prova.js'),
   banco: () => import('./telas/banco.js'),
   licao: () => import('./telas/licao.js'),

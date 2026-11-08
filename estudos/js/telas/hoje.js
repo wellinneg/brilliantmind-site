@@ -41,6 +41,12 @@ export async function render(raiz) {
       el('small', {}, jogo.heroi ? `Conquista · ${cam.tipo}` : 'Jogo de conquista'),
       el('strong', {}, jogo.heroi ? `${cam.nome}: ${moedasNaCamada(jogo, jogo.camada)}/${metaDaCamada(jogo.camada)} 💵` : 'Escolha seu herói e conquiste a cidade!')),
     el('span', {}, `💵 ${jogo.carteira}`)));
+  if (jogo.empresa?.turnos > 0) {
+    raiz.append(el('button', { class: 'cartao bloco empresa-pronta', onclick: () => navegar('#/empresa') },
+      el('span', { class: 'icone' }, '🏪'),
+      el('span', { class: 'textos' }, el('small', {}, jogo.empresa.nome), el('strong', {}, `${jogo.empresa.turnos === 1 ? 'Um dia de negócio espera' : `${jogo.empresa.turnos} dias de negócio esperam`} por você`)),
+      el('span', {}, '▶')));
+  }
   const prontas = aplicacoesAtivas(jogo).filter(a => a.vencida);
   if (prontas.length) {
     raiz.append(el('button', { class: 'cartao bloco aplicacao-pronta', onclick: () => navegar('#/banco') },

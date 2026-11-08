@@ -5,6 +5,7 @@ import { estatisticas } from './conquistas.js';
 import { hojeISO } from './datas.js';
 import { registrarMoedas, registrarBonus } from './jogo.js';
 import { sincronizarDepois } from './familia.js';
+import { ganharTurnoEmpresa } from './empresa.js';
 
 export const perfil = () => db.lerConfig('perfil');
 
@@ -181,6 +182,7 @@ export async function fecharDiaSePossivel(reg) {
   reg.pontos += PONTOS.dia;
   await db.gravarDia(reg);
   await registrarBonus(PONTOS.dia);
+  await ganharTurnoEmpresa(); // cada dia de estudo fechado vale um dia de negócio
   await db.gravarConfig(chaveProximo(reg.ano), reg.diaConteudo + 1);
   return true;
 }

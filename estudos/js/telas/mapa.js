@@ -37,7 +37,9 @@ export async function render(raiz, [camadaTxt, acao]) {
       el('strong', {}, jogo.apelido || perfil.nome),
       el('small', {}, `${HEROIS[jogo.heroi].nome}, ${HEROIS[jogo.heroi].titulo}`),
       el('span', { class: 'carteira' }, `💵 ${jogo.carteira} notas`)),
-    el('button', { class: 'botao secundario pequeno botao-banco', onclick: () => navegar('#/banco') }, '🏦 Banco'),
+    el('div', { class: 'botoes-topo' },
+      el('button', { class: 'botao secundario pequeno botao-banco', onclick: () => navegar('#/empresa') }, '🏪 Empresa'),
+      el('button', { class: 'botao secundario pequeno botao-banco', onclick: () => navegar('#/banco') }, '🏦 Banco')),
     botaoSom));
 
   // Vista panorâmica da jornada (toque numa camada já liberada para abrir)

@@ -365,3 +365,33 @@ details.cartao>summary{font-weight:700}
 .prova-topo::before{content:'';position:absolute;inset:0;background:rgba(5,12,16,.55)}
 .prova-topo>*{position:relative}
 .intro-prova .apresentacao-nome strong{font-size:2.2rem}
+
+/* ---- 🏪 Empresa virtual ---- */
+.botoes-topo{display:flex;flex-direction:column;gap:6px}
+.empresa-topo{display:flex;gap:12px;align-items:center;margin:6px 0}
+.empresa-topo h1{margin:0}.empresa-topo small{color:var(--suave)}
+.empresa-icone{font-size:2.6rem;background:var(--navy-2);border-radius:16px;padding:6px 12px}
+.ramos{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ramo{display:flex;flex-direction:column;gap:3px;align-items:flex-start;text-align:left;padding:10px;border-radius:14px;background:var(--navy-2);border:2px solid var(--navy-3);color:var(--texto);font-family:inherit;cursor:pointer}
+.ramo.ativo{border-color:var(--lime);box-shadow:0 0 0 3px color-mix(in srgb,var(--lime) 25%,transparent)}
+.ramo small{color:var(--suave);font-size:.72rem}.ramo .ramo-numeros{color:#FFD54F}
+.ramo-icone{font-size:1.8rem}
+.opcoes.grade.tres{grid-template-columns:repeat(3,1fr)}
+.linha-func{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0}
+.linha-func strong{min-width:2ch;text-align:center;font-size:1.2rem}
+.previsao{background:var(--navy-2);border-radius:12px;padding:8px 12px;margin:10px 0}
+.previsao p{margin:4px 0}
+.dre td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.dre tr.lucro td{color:var(--certo);font-weight:800;border-top:2px solid var(--certo)}
+.dre tr.prejuizo td{color:var(--errado);font-weight:800;border-top:2px solid var(--errado)}
+.grafico-lucro{display:flex;align-items:flex-end;gap:4px;height:90px;margin:6px 0 10px;padding:4px;background:var(--navy-2);border-radius:10px}
+.coluna-lucro{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.barra-lucro{width:70%;background:var(--certo);border-radius:4px 4px 0 0;min-height:2px}
+.barra-lucro.neg{background:var(--errado)}
+.coluna-lucro small{font-size:.6rem;color:var(--suave)}
+.planilha-rolagem{overflow-x:auto}
+.planilha td,.planilha th{font-size:.78rem;padding:5px 4px;text-align:right}
+.planilha td:first-child,.planilha th:first-child{text-align:left}
+.empresa-pronta{border-left:6px solid #BA68C8}
+.planilha td,.planilha th{font-size:.7rem;padding:5px 2px}
+.grafico-lucro .barra-lucro{max-width:34px}
