@@ -9,6 +9,8 @@ const ROTAS = {
   lugar: () => import('./telas/lugar.js'),
   jogo: () => import('./telas/jogo.js'),
   jogos: () => import('./telas/jogos.js'),
+  missoes: () => import('./telas/missoes.js'),
+  duelo: () => import('./telas/duelo.js'),
   heroi: () => import('./telas/heroi.js'),
   ouvir: () => import('./telas/ouvir.js'),
   empresa: () => import('./telas/empresa.js'),
@@ -44,7 +46,8 @@ async function rotear() {
   if (!perfil) nome = 'configuracao';
   else if (!ROTAS[nome] || nome === 'configuracao') nome = 'hoje';
   nav.hidden = nome === 'configuracao';
-  nav.querySelectorAll('a').forEach(a => a.classList.toggle('ativo', a.dataset.rota === nome));
+  const rotaDoRodape = nome === 'conquistas' ? 'missoes' : nome; // Medalhas fica dentro de Missões
+  nav.querySelectorAll('a').forEach(a => a.classList.toggle('ativo', a.dataset.rota === rotaDoRodape));
   atualizarBotaoHeroi();
   // Só mostra "Carregando…" se demorar; a troca de tela é animada (transição de jogo).
   const aviso = setTimeout(() => raiz.replaceChildren(el('p', { class: 'subtitulo' }, 'Carregando…')), 300);

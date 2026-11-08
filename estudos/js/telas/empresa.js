@@ -9,6 +9,7 @@ import {
 import { hojeISO } from '../datas.js';
 import { sons } from '../sons.js';
 import { confete } from '../efeitos.js';
+import { registrarEvento } from '../missoes.js';
 
 const n2 = v => (Math.round(v * 100) / 100).toLocaleString('pt-BR', { maximumFractionDigits: 2 });
 const redesenhar = () => dispatchEvent(new HashChangeEvent('hashchange'));
@@ -107,6 +108,7 @@ function painelDia(jogo, emp, r) {
       try {
         const res = simularDia(emp, { comprar: comprar.value, preco: preco.value, propaganda, bonus });
         await gravarJogo(jogo);
+        await registrarEvento('negocio', { lucro: res.lucro });
         e.target.remove();
         mostrarResultado(area, res, r);
       } catch (err) { sons.erro(); aviso(err.message); }

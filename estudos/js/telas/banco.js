@@ -5,6 +5,7 @@ import { SELIC, simular, aplicar, resgatar, aplicacoesAtivas } from '../banco.js
 import { exibir, hojeISO, somarDias } from '../datas.js';
 import { sons } from '../sons.js';
 import { confete } from '../efeitos.js';
+import { registrarEvento } from '../missoes.js';
 
 export async function render(raiz) {
   const jogo = await lerJogo();
@@ -79,6 +80,7 @@ export async function render(raiz) {
         el('button', { class: 'botao grande', onclick: async () => {
           try {
             const ap = aplicar(jogo, campo.value, prazo, hoje); await gravarJogo(jogo);
+            await registrarEvento('aplicacao');
             sons.compra(); aviso(`Aplicou ${ap.valor} 💵 por ${prazo} dias. Resgate em ${exibir(ap.vencimento)}!`); redesenhar();
           } catch (e) { sons.erro(); aviso(e.message); }
         } }, '🏦 Aplicar')),

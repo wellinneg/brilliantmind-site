@@ -6,6 +6,7 @@ import { carregarIndice, carregarDia } from '../conteudo.js';
 import { alternarSeletorDeSerie } from './serie.js';
 import { lerJogo, CAMADAS, moedasNaCamada, metaDaCamada } from '../jogo.js';
 import { aplicacoesAtivas } from '../banco.js';
+import { conviteParaMim } from '../duelo.js';
 
 export async function carregarContexto() {
   const perfil = await estado.perfil();
@@ -42,6 +43,13 @@ export async function render(raiz) {
       el('small', {}, jogo.heroi ? `Conquista · ${cam.tipo}` : 'Jogo de conquista'),
       el('strong', {}, jogo.heroi ? `${cam.nome}: ${moedasNaCamada(jogo, jogo.camada)}/${metaDaCamada(jogo.camada)} 💵` : 'Escolha seu herói e conquiste a cidade!')),
     el('span', {}, `💵 ${jogo.carteira}`)));
+  const convite = conviteParaMim(jogo);
+  if (convite) {
+    raiz.append(el('button', { class: 'cartao bloco cartao-duelo', onclick: () => navegar('#/duelo') },
+      el('span', { class: 'icone' }, '⚔️'),
+      el('span', { class: 'textos' }, el('small', {}, 'Desafio!'), el('strong', {}, `${convite.apelido} desafiou você para um duelo`)),
+      el('span', {}, '▶')));
+  }
   if (jogo.chefao?.camada === jogo.camada) {
     raiz.append(el('button', { class: 'cartao bloco desafio-chefao', onclick: () => navegar('#/chefao') },
       el('span', { class: 'icone' }, '🕴️'),

@@ -37,6 +37,7 @@ export async function render(raiz, [camadaTxt, acao]) {
     el('div', { class: 'textos' },
       el('strong', {}, jogo.apelido || perfil.nome),
       el('small', {}, `${HEROIS[jogo.heroi].nome}, ${HEROIS[jogo.heroi].titulo}`),
+      (jogo.titulos || []).length ? el('small', { class: 'titulo-lenda' }, `👑 ${jogo.titulos[jogo.titulos.length - 1]}`) : null,
       el('span', { class: 'carteira' }, `💵 ${jogo.carteira} notas`)),
     botaoSom));
 

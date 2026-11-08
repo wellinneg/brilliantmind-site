@@ -529,3 +529,30 @@ details.cartao>summary{font-weight:700}
 .nivel-func{font-size:.7rem;font-weight:800;padding:2px 8px;border-radius:999px;background:var(--navy-3)}
 .nivel-func.iniciante{color:#81D4FA}.nivel-func.experiente{color:#CEF010}.nivel-func.especialista{color:#FFD54F}
 .candidatos summary{font-weight:700}
+
+/* ---- 🎯 Missões e temporada ---- */
+.abas-missoes{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:8px}
+.abas-missoes .aba{padding:10px;border-radius:12px;border:2px solid var(--navy-3);background:var(--navy-2);color:var(--suave);font-weight:800;font-family:inherit;cursor:pointer}
+.abas-missoes .aba.ativa{border-color:var(--lime);color:var(--lime)}
+.missao{background:var(--navy-2);border:1px solid var(--navy-3);border-radius:12px;padding:10px;margin:8px 0}
+.missao.pronta{border-color:var(--lime);box-shadow:0 0 0 2px color-mix(in srgb,var(--lime) 25%,transparent)}
+.missao.coletada{opacity:.55}
+.missao-topo{display:flex;justify-content:space-between;gap:8px;align-items:baseline;margin-bottom:6px}
+.missao-topo small{color:#FFD54F;font-weight:700;white-space:nowrap}
+.trilha-temporada{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin:12px 0}
+.degrau{display:flex;flex-direction:column;align-items:center;padding:6px 2px;border-radius:10px;border:2px solid var(--navy-3);background:var(--navy-2)}
+.degrau b{font-size:1rem}.degrau small{font-size:.65rem;color:var(--suave)}
+.degrau.alcancado{border-color:#FFD54F;background:color-mix(in srgb,#FFD54F 18%,var(--navy-2))}
+.degrau.coletado{border-color:var(--certo);background:color-mix(in srgb,var(--certo) 25%,var(--navy-2))}
+.titulo-lenda{color:#FFD54F;font-weight:800}
+
+/* ---- ⚔️ Duelo ---- */
+.cartao-duelo{border-left:6px solid #FF7043;background:linear-gradient(100deg,color-mix(in srgb,#FF7043 16%,var(--navy-2)),var(--navy-2))}
+.linha-duelo{display:flex;align-items:center;gap:10px;justify-content:center}
+.placar-duelo{display:flex;align-items:center;justify-content:space-between;padding:10px;border-radius:var(--raio);border:3px solid #000;margin-bottom:12px;
+  background:url(../midia/prova/tempestade.webp) center/cover;position:relative}
+.placar-duelo::before{content:'';position:absolute;inset:0;background:rgba(5,12,16,.6);border-radius:inherit}
+.lado-duelo{position:relative;display:flex;flex-direction:column;align-items:center;gap:2px;color:#fff;text-shadow:0 2px 0 #000;min-width:110px}
+.lado-duelo strong{font-size:1.8rem;color:#FFD54F}
+.magnata-pequeno{font-size:3.4rem;line-height:76px;filter:drop-shadow(0 0 10px rgba(229,57,53,.9))}
+.convite-duelo{border:2px solid #FF7043}

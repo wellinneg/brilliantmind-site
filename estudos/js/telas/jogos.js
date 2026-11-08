@@ -33,6 +33,10 @@ export function lugarSugerido(jogo) {
 
 export async function render(raiz) {
   const jogo = await lerJogo();
+  raiz.append(el('button', { class: 'cartao bloco cartao-duelo', onclick: () => navegar('#/duelo') },
+    el('span', { class: 'icone' }, '⚔️'),
+    el('span', { class: 'textos' }, el('small', {}, 'Ao vivo entre irmãos ou treino contra o Magnata'), el('strong', {}, 'Duelo: 10 perguntas, quem for melhor e mais rápido vence')),
+    el('span', {}, '▶')));
   raiz.append(el('h1', {}, '🎁 Sala das surpresas'));
   if (!jogo.heroi) {
     raiz.append(el('p', {}, 'Primeiro escolha o seu animal no Mapa.'), el('button', { class: 'botao grande', onclick: () => navegar('#/mapa') }, '🗺️ Ir para o Mapa'));

@@ -9,6 +9,7 @@ import { desenharHeroi } from '../herois.js';
 import { PODERES, BATALHA, perguntasNecessarias, criarBatalha, antesDaPergunta, responder } from '../batalha.js';
 import { sons } from '../sons.js';
 import { confete, pop } from '../efeitos.js';
+import { registrarEvento } from '../missoes.js';
 
 /** Perguntas das lições já estudadas no ano, no nível da camada (só múltipla escolha). */
 async function juntarPerguntas(ano, ateDia, nivel, quantas) {
@@ -115,6 +116,7 @@ export async function render(raiz) {
     if (b.fim === 'vitoria') {
       const liberou = vencerChefao(jogo, BATALHA.premio);
       await gravarJogo(jogo);
+      await registrarEvento('chefao');
       sons.camada(); confete();
       arena.querySelector('.lutador-chefao').classList.add('derrotado');
       area.append(el('div', { class: 'celebracao' }, `🏆 Você venceu o ${RIVAL.nome}!`),

@@ -29,7 +29,11 @@ export function normalizarCodigo(texto) {
 export function registroPublico(jogo) {
   return {
     apelido: String(jogo.apelido || '').slice(0, 16), heroi: jogo.heroi, usando: jogo.usando || {},
-    camada: jogo.camada, doPote: jogo.meu.doPote, roubos: jogo.meu.roubos,
+    camada: jogo.camada, doPote: jogo.meu.doPote, roubos: jogo.meu.roubos, temporada: jogo.temporadaXP || null,
+    // ⚔️ duelo em andamento (só entre irmãos; o treino contra o Magnata fica no celular)
+    duelo: jogo.duelo && !jogo.duelo.contra
+      ? { id: jogo.duelo.id, semente: jogo.duelo.semente, de: jogo.duelo.de, para: jogo.duelo.para, estado: jogo.duelo.estado, respostas: jogo.duelo.respostas, criado: jogo.duelo.criado }
+      : null,
   };
 }
 

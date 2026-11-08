@@ -9,6 +9,7 @@ import { sincronizarDepois } from '../familia.js';
 import { comemorarJogo } from '../comemorar.js';
 import { confete } from '../efeitos.js';
 import { sons } from '../sons.js';
+import { registrarEvento } from '../missoes.js';
 
 export const PREMIOS_POR_DIA = 3;
 const chavePremios = data => `minijogos:premios:${data}`;
@@ -55,6 +56,9 @@ export async function encerrarPartida({ tipo, t, moedas, recorde, data = hojeISO
   }
   await gravarJogo(jogo);
   if (valendo) sincronizarDepois();
+  await registrarEvento('minijogo', { novoRecorde: !!novoRecorde });
+  if (valendo) await registrarEvento('notas', { valor: moedas });
+  if (res?.conquistou) await registrarEvento('conquista');
   return { valendo, res, novoRecorde, anterior, restantes: Math.max(0, PREMIOS_POR_DIA - usados - (valendo ? 1 : 0)) };
 }
 

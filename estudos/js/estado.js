@@ -6,6 +6,7 @@ import { hojeISO } from './datas.js';
 import { registrarMoedas, registrarBonus } from './jogo.js';
 import { sincronizarDepois } from './familia.js';
 import { ganharTurnoEmpresa } from './empresa.js';
+import { registrarEvento } from './missoes.js';
 
 export const perfil = () => db.lerConfig('perfil');
 
@@ -76,11 +77,14 @@ export async function registrarQuiz(reg, i, materia, dificuldade, acertos, total
     reg.pontos += b.pontos;
     r.jogo = await registrarMoedas({ materia, moedas: b.pontos, dificuldade });
     sincronizarDepois();
+    await registrarEvento('notas', { valor: b.pontos });
+    if (r.jogo?.conquistou) await registrarEvento('conquista');
   } else {
     const lista = (await pendentes(reg.ano)).filter(p => p.id !== `${reg.diaConteudo}-${i}`);
     lista.push({ id: `${reg.diaConteudo}-${i}`, dia: reg.diaConteudo, bloco: i, materia, dificuldade, voltas: 0, voltaNoDia: reg.diaConteudo + DIAS_PARA_VOLTAR });
     await gravarPendentes(reg.ano, lista);
   }
+  await registrarEvento('licao', { dificuldade, aprovado: r.aprovado, nota: acertos });
   await gravarEFechar(reg);
   return r;
 }
@@ -98,6 +102,8 @@ export async function registrarRevisao(reg, k, acertos, total, errosIdx, respost
       reg.pontos += rv.pontos;
       r.jogo = await registrarMoedas({ materia: p.materia, moedas: rv.pontos, dificuldade: p.dificuldade });
       sincronizarDepois();
+      await registrarEvento('notas', { valor: rv.pontos });
+      if (r.jogo?.conquistou) await registrarEvento('conquista');
       lista.splice(lista.indexOf(p), 1);
     } else {
       p.voltas += 1;
@@ -126,7 +132,9 @@ export async function registrarOuvir(reg, materia, acertos, total, respostas = [
     reg.pontos += reg.ouvir.pontos;
     r.jogo = await registrarMoedas({ materia, moedas: reg.ouvir.pontos, dificuldade: 'moderado' });
     sincronizarDepois();
+    await registrarEvento('notas', { valor: reg.ouvir.pontos });
   }
+  await registrarEvento('ouvir');
   await gravarEFechar(reg);
   return r;
 }
@@ -157,6 +165,8 @@ export async function registrarProva(reg, perguntas, respostas) {
     if (!jogo || res.conquistou) jogo = res;
   }
   if (ordem.length) sincronizarDepois();
+  await registrarEvento('prova');
+  if (pontos) await registrarEvento('notas', { valor: pontos });
   await gravarEFechar(reg);
   return { acertos, total: perguntas.length, pontos, perfeita, jogo };
 }
@@ -183,6 +193,8 @@ export async function fecharDiaSePossivel(reg) {
   await db.gravarDia(reg);
   await registrarBonus(PONTOS.dia);
   await ganharTurnoEmpresa(); // cada dia de estudo fechado vale um dia de negócio
+  await registrarEvento('dia');
+  await registrarEvento('notas', { valor: PONTOS.dia });
   await db.gravarConfig(chaveProximo(reg.ano), reg.diaConteudo + 1);
   return true;
 }
