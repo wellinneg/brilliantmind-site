@@ -1,0 +1,1492 @@
+{
+  "dia": 39,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Grandezas diretamente e inversamente proporcionais",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Duas grandezas são diretamente proporcionais quando, se uma dobra, a outra também dobra; se uma cai pela metade, a outra também cai. A divisão entre elas é sempre a mesma. Exemplo: quantidade de arroz e preço: 2 kg custam R$ 12; 4 kg, R$ 24.",
+          "Duas grandezas são inversamente proporcionais quando, se uma dobra, a outra cai pela metade. O produto entre elas é sempre o mesmo. Exemplo: número de pedreiros e dias de obra: 4 pedreiros levam 12 dias; 8 pedreiros, 6 dias.",
+          "Na regra de três direta, montamos a proporção e multiplicamos cruzado. Se 2 kg custam R$ 12, quanto custam 5 kg? 2/12 = 5/x, então 2x = 60 e x = 30.",
+          "Na inversa, use o produto constante: se 4 pedreiros levam 12 dias, o trabalho total é 4 × 12 = 48 \"pedreiro-dias\". Com 6 pedreiros: 48 ÷ 6 = 8 dias.",
+          "Nem tudo é proporcional. Idade e altura não são. Uma corrida de táxi com taxa fixa também não: se a bandeirada é R$ 5 e cada km custa R$ 3, 10 km não custam o dobro de 5 km."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma receita para 4 pessoas usa 300 g de farinha. Quanto usar para 10 pessoas?",
+            "resolucao": "Diretamente proporcional: 300 ÷ 4 = 75 g por pessoa; 75 × 10 = 750 g."
+          },
+          {
+            "enunciado": "Um carro a 60 km/h faz uma viagem em 3 horas. A 90 km/h, quanto tempo leva?",
+            "resolucao": "Inversamente proporcional: a distância é 60 × 3 = 180 km. A 90 km/h: 180 ÷ 90 = 2 horas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "No gráfico, grandezas diretamente proporcionais formam uma reta que passa pela origem (0, 0). As inversamente proporcionais formam uma curva que se aproxima dos eixos sem tocá-los.",
+        "Divisão proporcional: para repartir R$ 900 em partes proporcionais a 2 e 3, some as partes (2 + 3 = 5), divida (900 ÷ 5 = 180) e multiplique: 2 × 180 = 360 e 3 × 180 = 540.",
+        "Problemas com mudança no meio do caminho: calcule o trabalho que falta. Se 6 operários fariam um muro em 10 dias e 2 saem depois de 4 dias, faltam 6 × 6 = 36 operário-dias; com 4 operários, 36 ÷ 4 = 9 dias."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caderno custa R$ 8. Quanto custam 3 cadernos?",
+            "alternativas": [
+              "R$ 11",
+              "R$ 32",
+              "R$ 16",
+              "R$ 24"
+            ],
+            "correta": 3,
+            "explicacao": "8 × 3 = 24. Mais cadernos, mais dinheiro, na mesma proporção.",
+            "dica": "Multiplique o preço pela quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mais pessoas pintando um muro, menos tempo para terminar. Essas grandezas são:",
+            "alternativas": [
+              "diretamente proporcionais",
+              "sem relação",
+              "inversamente proporcionais",
+              "iguais"
+            ],
+            "correta": 2,
+            "explicacao": "Uma aumenta e a outra diminui: inversamente.",
+            "dica": "Uma sobe e a outra desce."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "2 kg de arroz custam R$ 12. Quanto custa 1 kg?",
+            "alternativas": [
+              "R$ 6",
+              "R$ 24",
+              "R$ 10",
+              "R$ 14"
+            ],
+            "correta": 0,
+            "explicacao": "Metade do peso, metade do preço: R$ 6.",
+            "dica": "Divida os dois por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se uma grandeza dobra e a outra também dobra, elas são:",
+            "alternativas": [
+              "diretamente proporcionais",
+              "sem relação",
+              "inversamente proporcionais",
+              "aleatórias"
+            ],
+            "correta": 0,
+            "explicacao": "Dobrar junto é a marca da proporção direta.",
+            "dica": "As duas andam no mesmo sentido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa mesma viagem, com velocidade maior, o tempo:",
+            "alternativas": [
+              "diminui",
+              "fica igual",
+              "dobra sempre",
+              "aumenta"
+            ],
+            "correta": 0,
+            "explicacao": "Mais rápido, menos tempo: inversamente proporcionais.",
+            "dica": "Correndo mais, você chega antes ou depois?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "2 kg de arroz custam R$ 12. Quanto custam 5 kg?",
+            "alternativas": [
+              "R$ 17",
+              "R$ 24",
+              "R$ 60",
+              "R$ 30"
+            ],
+            "correta": 3,
+            "explicacao": "R$ 6 por kg; 5 × 6 = 30.",
+            "dica": "Ache o preço de 1 kg primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "4 pedreiros fazem uma obra em 12 dias. Em quantos dias 6 pedreiros fazem a mesma obra?",
+            "alternativas": [
+              "18",
+              "8",
+              "10",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "4 × 12 = 48; 48 ÷ 6 = 8 dias.",
+            "dica": "Mais pedreiros, menos dias: use o produto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A 60 km/h, uma viagem leva 3 horas. A 90 km/h, leva:",
+            "alternativas": [
+              "4,5 h",
+              "2 h",
+              "1 h",
+              "3 h"
+            ],
+            "correta": 1,
+            "explicacao": "Distância 180 km; 180 ÷ 90 = 2 h.",
+            "dica": "Calcule a distância antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma receita para 4 pessoas usa 300 g de farinha. Para 10 pessoas:",
+            "alternativas": [
+              "600 g",
+              "1.200 g",
+              "750 g",
+              "700 g"
+            ],
+            "correta": 2,
+            "explicacao": "75 g por pessoa × 10 = 750 g.",
+            "dica": "Quanto vai por pessoa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par é diretamente proporcional?",
+            "alternativas": [
+              "Idade e altura",
+              "Quantidade de pães e preço total, sem taxa",
+              "Número de torneiras e tempo para encher a caixa",
+              "Velocidade e tempo de viagem"
+            ],
+            "correta": 1,
+            "explicacao": "Dobrar os pães dobra o preço. Torneiras e velocidade são inversas; idade e altura não são proporcionais.",
+            "dica": "Procure o par que dobra junto."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "3 torneiras iguais enchem uma caixa em 8 horas. Quanto tempo levam 4 torneiras?",
+            "alternativas": [
+              "4 h",
+              "10 h e 40 min",
+              "6 h",
+              "5 h"
+            ],
+            "correta": 2,
+            "explicacao": "3 × 8 = 24; 24 ÷ 4 = 6 h.",
+            "dica": "Mais torneiras, menos tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um táxi cobra R$ 5 de bandeirada mais R$ 3 por km. Preço e distância são diretamente proporcionais?",
+            "alternativas": [
+              "Sim, diretamente",
+              "Sim, porque tem km",
+              "Sim, inversamente",
+              "Não: por causa da taxa fixa, 10 km (R$ 35) não custam o dobro de 5 km (R$ 20)"
+            ],
+            "correta": 3,
+            "explicacao": "5 km custam 20; 10 km custam 35, e não 40.",
+            "dica": "Calcule 5 km e 10 km e compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 900 divididos em partes proporcionais a 2 e 3. Qual é a parte maior?",
+            "alternativas": [
+              "R$ 450",
+              "R$ 600",
+              "R$ 360",
+              "R$ 540"
+            ],
+            "correta": 3,
+            "explicacao": "900 ÷ 5 = 180; 3 × 180 = 540.",
+            "dica": "Some as partes e divida o total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "5 máquinas produzem 200 peças por hora. Quantas peças 8 máquinas iguais produzem por hora?",
+            "alternativas": [
+              "300",
+              "320",
+              "400",
+              "125"
+            ],
+            "correta": 1,
+            "explicacao": "40 peças por máquina; 8 × 40 = 320.",
+            "dica": "Quanto faz uma máquina?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos de uma regra de três:",
+            "itens": [
+              "Identificar as duas grandezas",
+              "Verificar se é direta ou inversa",
+              "Montar a proporção",
+              "Resolver e conferir se o resultado faz sentido"
+            ],
+            "explicacao": "Sem saber se é direta ou inversa, a montagem pode sair errada.",
+            "dica": "A conferência vem no fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "6 operários fariam um muro em 10 dias. Depois de 4 dias, 2 saem. Quantos dias mais os outros levam para terminar?",
+            "alternativas": [
+              "6",
+              "8",
+              "12",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "Faltam 6 × 6 = 36 operário-dias; com 4 operários, 36 ÷ 4 = 9 dias.",
+            "dica": "Calcule quanto trabalho falta, em operário-dias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O gráfico de duas grandezas diretamente proporcionais é:",
+            "alternativas": [
+              "uma reta horizontal",
+              "uma curva que não toca os eixos",
+              "uma reta que passa pela origem",
+              "um círculo"
+            ],
+            "correta": 2,
+            "explicacao": "Se x = 0, y = 0, e o crescimento é constante.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma viagem de 240 km leva 3 horas a 80 km/h. Para fazer em 2 h 30 min, qual deve ser a velocidade média?",
+            "alternativas": [
+              "120 km/h",
+              "100 km/h",
+              "90 km/h",
+              "96 km/h"
+            ],
+            "correta": 3,
+            "explicacao": "240 ÷ 2,5 = 96 km/h. Cuidado: 2 h 30 min = 2,5 h, e não 2,3 h.",
+            "dica": "Transforme o tempo em horas decimais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x e y são inversamente proporcionais. Quando x = 4, y = 15. Quanto vale y quando x = 10?",
+            "alternativas": [
+              "6",
+              "37,5",
+              "24",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 15 = 60; 60 ÷ 10 = 6.",
+            "dica": "O produto x · y não muda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três colegas ganharam R$ 1.200 num concurso de ciências e dividiram de forma proporcional às horas dedicadas: 12, 14 e 14 horas. Quanto recebeu quem dedicou 12 horas?",
+            "alternativas": [
+              "R$ 400",
+              "R$ 300",
+              "R$ 360",
+              "R$ 420"
+            ],
+            "correta": 2,
+            "explicacao": "Total 40 horas; 1.200 ÷ 40 = 30 por hora; 12 × 30 = 360.",
+            "dica": "Quanto vale cada hora?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Fluxograma: desenhar antes de programar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Fluxograma é um desenho que mostra os passos de um algoritmo com formas e setas. Ele ajuda a pensar na lógica antes de escrever qualquer linha de código.",
+          "Cada forma tem um significado: oval para início e fim; retângulo para uma ação (calcular, somar, guardar); losango para uma decisão (uma pergunta de sim ou não); paralelogramo para entrada ou saída de dados (ler a nota, mostrar o resultado). As setas mostram o caminho.",
+          "O losango tem duas saídas, Sim e Não. Ele equivale ao if e else do Python.",
+          "Quando uma seta volta para uma decisão anterior, o fluxograma forma um laço, que equivale ao while: o caminho se repete até a resposta mudar.",
+          "Desenhar antes evita erros de lógica e facilita explicar a ideia para outras pessoas. Depois, é só traduzir cada forma para o código."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Fluxograma da nota: Início → Ler nota → nota >= 6? → Sim: Mostrar \"Aprovado\" / Não: Mostrar \"Recuperação\" → Fim. Traduza para Python.",
+            "resolucao": "nota = float(input('Nota: '))\nif nota >= 6:\n    print('Aprovado')\nelse:\n    print('Recuperação')\nO paralelogramo virou input; o losango virou if/else; os dois paralelogramos de saída viraram print."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Teste de mesa: siga o fluxograma com valores de exemplo, anotando o valor de cada variável a cada passo. É o jeito de descobrir erros sem computador.",
+        "Todo caminho precisa chegar ao fim. Um losango com só uma saída desenhada, ou um laço em que nada muda a resposta da decisão, são erros comuns.",
+        "Outra forma de planejar é o pseudocódigo: escrever os passos em português estruturado (\"SE nota >= 6 ENTÃO mostre Aprovado SENÃO mostre Recuperação\"). Fluxograma e pseudocódigo descrevem a mesma lógica."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No fluxograma, a forma de uma decisão é o:",
+            "alternativas": [
+              "retângulo",
+              "círculo pequeno",
+              "oval",
+              "losango"
+            ],
+            "correta": 3,
+            "explicacao": "O losango faz uma pergunta de sim ou não.",
+            "dica": "É a forma com quatro pontas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Início e fim são desenhados com:",
+            "alternativas": [
+              "losango",
+              "oval",
+              "retângulo",
+              "seta"
+            ],
+            "correta": 1,
+            "explicacao": "A forma oval marca onde começa e onde termina.",
+            "dica": "É a forma arredondada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma ação, como \"somar 1\", vai num:",
+            "alternativas": [
+              "oval",
+              "losango",
+              "nuvem",
+              "retângulo"
+            ],
+            "correta": 3,
+            "explicacao": "O retângulo representa um processo, uma ação.",
+            "dica": "É a forma mais simples, com quatro lados retos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As setas do fluxograma mostram:",
+            "alternativas": [
+              "o caminho e a ordem dos passos",
+              "o tamanho da letra",
+              "a fonte",
+              "a cor do desenho"
+            ],
+            "correta": 0,
+            "explicacao": "Elas ligam uma etapa à próxima.",
+            "dica": "Para onde ir depois?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas saídas tem um losango de decisão?",
+            "alternativas": [
+              "1",
+              "Nenhuma",
+              "3",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "Duas: Sim e Não.",
+            "dica": "Uma pergunta de sim ou não tem quantas respostas?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O losango corresponde, no Python, a:",
+            "alternativas": [
+              "print",
+              "import",
+              "input",
+              "if"
+            ],
+            "correta": 3,
+            "explicacao": "Decisão = if (e else).",
+            "dica": "Qual comando faz uma pergunta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma seta que volta para uma decisão anterior representa:",
+            "alternativas": [
+              "o fim",
+              "um erro",
+              "um laço, uma repetição",
+              "uma variável"
+            ],
+            "correta": 2,
+            "explicacao": "O caminho se repete, como no while.",
+            "dica": "Voltar para trás é repetir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ler a nota\" é entrada de dados. Que forma usar?",
+            "alternativas": [
+              "Losango",
+              "Paralelogramo",
+              "Oval",
+              "Círculo"
+            ],
+            "correta": 1,
+            "explicacao": "O paralelogramo representa entrada ou saída de dados.",
+            "dica": "É um retângulo inclinado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No fluxograma da nota, com nota 5, qual é o caminho?",
+            "alternativas": [
+              "Sim → Aprovado",
+              "Sim → Recuperação",
+              "Não → Aprovado",
+              "Não → Recuperação"
+            ],
+            "correta": 3,
+            "explicacao": "5 >= 6 é falso: sai pelo Não.",
+            "dica": "5 é maior ou igual a 6?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a principal vantagem de desenhar o fluxograma antes?",
+            "alternativas": [
+              "Substituir o computador",
+              "Deixar o programa mais rápido",
+              "Achar erros de lógica antes de programar",
+              "Não precisar testar"
+            ],
+            "correta": 2,
+            "explicacao": "Erro achado no papel custa menos que erro no código.",
+            "dica": "Por que pensar antes de fazer?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Início → n = 1 → n <= 3? Sim: Mostrar n → n = n + 1 → volta para a pergunta; Não: Fim. O que aparece?",
+            "alternativas": [
+              "1 2",
+              "1 2 3",
+              "1 2 3 4",
+              "0 1 2 3"
+            ],
+            "correta": 1,
+            "explicacao": "Mostra 1, 2 e 3; com n = 4, a pergunta dá Não.",
+            "dica": "Faça o teste de mesa com n."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um losango tem só a saída Sim desenhada. Qual é o problema?",
+            "alternativas": [
+              "Nenhum",
+              "O caminho do Não fica sem destino; todo caminho precisa chegar ao fim",
+              "Vira um oval",
+              "Fica mais rápido"
+            ],
+            "correta": 1,
+            "explicacao": "A resposta Não precisa ter para onde ir.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Teste de mesa é:",
+            "alternativas": [
+              "seguir o fluxograma com valores de exemplo, anotando as variáveis",
+              "desenhar uma mesa",
+              "apagar o fluxograma",
+              "testar a mesa do computador"
+            ],
+            "correta": 0,
+            "explicacao": "É simular o algoritmo à mão.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as formas do fluxograma da nota:",
+            "itens": [
+              "Início",
+              "Ler a nota",
+              "Perguntar: nota >= 6?",
+              "Mostrar Aprovado ou Recuperação",
+              "Fim"
+            ],
+            "explicacao": "Início, entrada, decisão, saída e fim.",
+            "dica": "A decisão precisa da nota já lida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma seta volta para a pergunta \"senha correta?\" enquanto a resposta é Não. No Python, isso vira:",
+            "alternativas": [
+              "if senha == correta:",
+              "print(senha)",
+              "while senha != correta:",
+              "for i in range(3):"
+            ],
+            "correta": 2,
+            "explicacao": "Repetir enquanto estiver errada é um while.",
+            "dica": "Seta que volta = laço."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Início → s = 0, n = 1 → n <= 4? Sim: s = s + n → n = n + 2 → volta; Não: Mostrar s → Fim. O que aparece?",
+            "alternativas": [
+              "6",
+              "10",
+              "9",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "n = 1: s = 1; n = 3: s = 4; n = 5: para. Mostra 4.",
+            "dica": "O n pula de 2 em 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fluxograma: \"Tem saldo no cartão?\" Não → \"Recarregar\" → volta para a pergunta. Se a recarga sempre falha, o que acontece?",
+            "alternativas": [
+              "Termina na hora",
+              "Laço infinito: a pergunta se repete sem fim",
+              "Erro de digitação",
+              "Pula para o fim"
+            ],
+            "correta": 1,
+            "explicacao": "Nada muda a resposta da decisão, então o caminho nunca sai do laço.",
+            "dica": "A resposta da pergunta muda em algum momento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"nota >= 6?\" Não → \"nota >= 4?\" Sim: Recuperação; Não: Reprovado. Com nota 3,9:",
+            "alternativas": [
+              "Aprovado",
+              "Recuperação",
+              "Reprovado",
+              "Erro"
+            ],
+            "correta": 2,
+            "explicacao": "3,9 não passa no primeiro nem no segundo teste.",
+            "dica": "Faça um teste de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos losangos, no mínimo, são necessários para classificar uma nota em Aprovado, Recuperação ou Reprovado?",
+            "alternativas": [
+              "1",
+              "3",
+              "2",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "Cada losango divide em dois; com dois, chega-se a três saídas.",
+            "dica": "Um losango só dá duas saídas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Início → x = 10 → x > 0? Sim: x = x − 3 → volta; Não: Mostrar x → Fim. O que aparece?",
+            "alternativas": [
+              "0",
+              "−2",
+              "1",
+              "−3"
+            ],
+            "correta": 1,
+            "explicacao": "10, 7, 4, 1, −2. Com −2, a pergunta dá Não.",
+            "dica": "Com x = 1, a pergunta ainda dá Sim."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Revisão: corretor ortográfico e controle de alterações",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O corretor do Word sublinha em vermelho as palavras com possível erro de ortografia e em azul (ou com linha dupla) os possíveis problemas de gramática. Clique com o botão direito na palavra para ver sugestões.",
+          "Em Revisão > Ortografia e Gramática (ou a tecla F7), o Word revisa o documento inteiro. Confira se o idioma está como Português (Brasil).",
+          "O corretor não pega tudo: palavras que existem, mas estão erradas no contexto, passam sem aviso, como mau no lugar de mal, sessão no lugar de seção ou comprimento no lugar de cumprimento. Ler o texto com atenção continua sendo obrigatório.",
+          "Em Revisão > Controlar Alterações, o Word passa a registrar cada mudança: o que foi inserido aparece sublinhado e colorido, e o que foi apagado aparece riscado, com o nome de quem mudou.",
+          "Depois, o autor usa Aceitar ou Rejeitar em cada alteração. Para sugerir sem mexer no texto, use Novo Comentário."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você e uma colega fazem um trabalho em dupla. Como ela pode sugerir mudanças sem apagar o seu texto?",
+            "resolucao": "Ligue Controlar Alterações antes de mandar o arquivo. Ela escreve e apaga normalmente, mas tudo fica marcado. Quando o arquivo volta, você aceita o que concorda e rejeita o resto. Para dúvidas, ela deixa comentários."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Nomes próprios e palavras técnicas costumam ser marcados como erro. Use Adicionar ao Dicionário para o Word aprender a palavra, ou Ignorar Tudo para aquele documento.",
+        "Em Revisão, Contar Palavras mostra o número de palavras, caracteres e páginas: útil quando o professor pede um tamanho mínimo.",
+        "O modo de exibição pode ser Marcação Simples, Toda a Marcação ou Sem Marcação. Atenção: Sem Marcação só esconde as alterações; elas continuam no arquivo até serem aceitas ou rejeitadas."
+      ],
+      "desafio_pratico": "No Word do PC ou do celular, escreva um parágrafo de 6 a 8 linhas sobre a sua escola com três erros de ortografia de propósito e dois erros de sentido (como mau/mal ou sessão/seção). Rode a revisão (F7) e anote quais erros o Word achou e quais passaram. Depois, ligue Controlar Alterações, peça para alguém da família ou um colega corrigir o texto e deixar um comentário, e termine aceitando ou rejeitando cada alteração.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O sublinhado vermelho indica:",
+            "alternativas": [
+              "texto importante",
+              "possível erro de ortografia",
+              "link",
+              "título"
+            ],
+            "correta": 1,
+            "explicacao": "Vermelho é o alerta de ortografia.",
+            "dica": "É o aviso mais comum do corretor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A tecla que revisa o documento inteiro é:",
+            "alternativas": [
+              "F1",
+              "F7",
+              "F12",
+              "Esc"
+            ],
+            "correta": 1,
+            "explicacao": "F7 abre a revisão de ortografia e gramática.",
+            "dica": "Está no segundo parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para ver sugestões de correção de uma palavra sublinhada:",
+            "alternativas": [
+              "apagar o documento",
+              "mudar a fonte",
+              "fechar o Word",
+              "clicar com o botão direito nela"
+            ],
+            "correta": 3,
+            "explicacao": "O botão direito mostra as opções.",
+            "dica": "Use o botão do mouse que abre menus."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Controlar Alterações serve para:",
+            "alternativas": [
+              "registrar as mudanças feitas no texto",
+              "deixar o texto em negrito",
+              "inserir imagens",
+              "mudar a cor da página"
+            ],
+            "correta": 0,
+            "explicacao": "Cada inserção ou exclusão fica marcada.",
+            "dica": "Controlar o que foi mudado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para sugerir algo sem mudar o texto, use:",
+            "alternativas": [
+              "Novo Comentário",
+              "Excluir",
+              "Recortar",
+              "Imprimir"
+            ],
+            "correta": 0,
+            "explicacao": "O comentário fica na margem, sem alterar o texto.",
+            "dica": "É como um bilhete na margem."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com Controlar Alterações ligado, o texto apagado aparece:",
+            "alternativas": [
+              "riscado",
+              "sumido para sempre",
+              "em negrito",
+              "em itálico"
+            ],
+            "correta": 0,
+            "explicacao": "A exclusão fica riscada até ser aceita ou rejeitada.",
+            "dica": "Você ainda consegue ver o que foi apagado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O corretor deixa passar \"Ele foi mau na prova\". Por quê?",
+            "alternativas": [
+              "Porque o Word está quebrado",
+              "Porque mau existe; o erro é de sentido, e o corretor não percebe",
+              "Porque mau é inglês",
+              "Porque a frase está certa"
+            ],
+            "correta": 1,
+            "explicacao": "O certo seria mal (oposto de bem); a palavra mau existe, então não é marcada.",
+            "dica": "A palavra existe no dicionário?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois que a colega revisou, como você aceita uma mudança?",
+            "alternativas": [
+              "Apagando tudo",
+              "Desligando o computador",
+              "Clicando em Aceitar na guia Revisão",
+              "Imprimindo"
+            ],
+            "correta": 2,
+            "explicacao": "Aceitar incorpora a mudança ao texto.",
+            "dica": "Procure na guia Revisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu sobrenome aparece sublinhado em vermelho. O que fazer?",
+            "alternativas": [
+              "Adicionar ao Dicionário",
+              "Trocar de sobrenome",
+              "Apagar a palavra",
+              "Mudar o idioma para inglês"
+            ],
+            "correta": 0,
+            "explicacao": "O Word passa a reconhecer a palavra.",
+            "dica": "Ensine a palavra ao Word."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O professor pediu no mínimo 300 palavras. Onde conferir?",
+            "alternativas": [
+              "Inserir > Tabela",
+              "Arquivo > Imprimir",
+              "Layout > Margens",
+              "Revisão > Contar Palavras"
+            ],
+            "correta": 3,
+            "explicacao": "Contar Palavras mostra o total.",
+            "dica": "Releia o aprofundamento."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O modo Sem Marcação está ativo e o texto parece limpo. As alterações:",
+            "alternativas": [
+              "foram aceitas",
+              "foram apagadas",
+              "viraram comentários",
+              "continuam no arquivo, só escondidas"
+            ],
+            "correta": 3,
+            "explicacao": "Sem Marcação só esconde; é preciso aceitar ou rejeitar.",
+            "dica": "Releia o fim do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual erro o corretor provavelmente NÃO marca?",
+            "alternativas": [
+              "\"Ezercício\"",
+              "\"A sessão de brinquedos fica no fundo da loja.\"",
+              "\"Matemátca\"",
+              "\"Escola\" escrito \"Ezcola\""
+            ],
+            "correta": 1,
+            "explicacao": "Sessão existe, mas o certo aqui é seção. Erros de sentido passam.",
+            "dica": "Procure a palavra que existe, mas está no lugar errado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o colega revisar o trabalho com tudo registrado, você deve:",
+            "alternativas": [
+              "mandar em PDF",
+              "ligar Controlar Alterações antes de mandar o arquivo",
+              "apagar os erros antes",
+              "imprimir"
+            ],
+            "correta": 1,
+            "explicacao": "Ligado antes, o Word registra cada mudança.",
+            "dica": "O registro só funciona se estiver ligado."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a revisão de um trabalho em dupla:",
+            "itens": [
+              "Ligar Controlar Alterações",
+              "Enviar o arquivo para a colega revisar",
+              "Receber o arquivo com as marcações",
+              "Aceitar ou rejeitar cada alteração"
+            ],
+            "explicacao": "Ligar, enviar, receber e decidir.",
+            "dica": "O registro precisa estar ligado antes da revisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas palavras o corretor pode marcar sem ser erro?",
+            "alternativas": [
+              "Um nome próprio, como Jaqueline",
+              "\"cachorro\"",
+              "\"escola\"",
+              "\"livro\""
+            ],
+            "correta": 0,
+            "explicacao": "Nomes próprios nem sempre estão no dicionário do Word.",
+            "dica": "O dicionário conhece todos os nomes?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos erros o corretor provavelmente NÃO vai marcar em \"Meu tio é eminente: vai viajar daqui a pouco. Ele comprou um conserto de piano.\"?",
+            "alternativas": [
+              "2",
+              "1",
+              "0",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "Eminente (o certo é iminente) e conserto (o certo é concerto) existem; o corretor não marca.",
+            "dica": "Procure palavras que existem, mas estão no lugar errado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma colega apagou um parágrafo inteiro com Controlar Alterações ligado, e você não concorda. O que fazer?",
+            "alternativas": [
+              "Reescrever tudo de memória",
+              "Apagar o arquivo",
+              "Aceitar e chorar",
+              "Rejeitar a alteração: o parágrafo volta"
+            ],
+            "correta": 3,
+            "explicacao": "Rejeitar desfaz a mudança registrada.",
+            "dica": "O que o botão Rejeitar faz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é importante aceitar ou rejeitar tudo antes de entregar o trabalho?",
+            "alternativas": [
+              "Porque as marcações continuam no arquivo e podem aparecer para o professor",
+              "Porque deixa o arquivo mais leve",
+              "Porque é proibido comentar",
+              "Porque o Word cobra"
+            ],
+            "correta": 0,
+            "explicacao": "Mesmo escondidas, as alterações ainda estão lá.",
+            "dica": "Pense no modo Sem Marcação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre comentário e alteração controlada?",
+            "alternativas": [
+              "Não há diferença",
+              "O comentário sugere sem mudar o texto; a alteração muda o texto e fica marcada",
+              "O comentário apaga o texto",
+              "A alteração não fica registrada"
+            ],
+            "correta": 1,
+            "explicacao": "Comentário é bilhete na margem; alteração mexe no texto.",
+            "dica": "Qual dos dois mexe no texto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com Controlar Alterações ligado, a revisora trocou \"Fazem dois anos que moro aqui\" por \"Faz dois anos que moro aqui\". O que você deve fazer?",
+            "alternativas": [
+              "Rejeitar, porque o plural está certo",
+              "Desligar o controle e ignorar",
+              "Apagar a frase",
+              "Aceitar, porque fazer indicando tempo decorrido fica no singular"
+            ],
+            "correta": 3,
+            "explicacao": "Fazer indicando tempo é impessoal (oração sem sujeito) e fica no singular: a mudança corrige um erro.",
+            "dica": "Lembre da oração sem sujeito com o verbo fazer."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Pagar justo: salário, comissão e bônus por meta",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Pagar justo é uma das melhores ferramentas de um líder. O salário fixo é o valor mensal garantido, registrado em carteira, e ninguém com carteira pode receber menos que o salário mínimo (ou o piso da categoria): é o que diz a Constituição.",
+          "Comissão é uma porcentagem sobre as vendas: quanto mais a pessoa vende, mais ganha. É comum combinar fixo mais comissão. A Constituição garante que quem recebe remuneração variável nunca ganhe menos que o salário mínimo.",
+          "Bônus por meta é um prêmio pago quando a pessoa ou a equipe bate um objetivo claro, combinado antes e por escrito. A meta precisa ser possível, medida com números e ter prazo.",
+          "Além do salário, quem trabalha com carteira tem direitos como 13º salário, férias com um terço a mais, FGTS e hora extra paga com pelo menos 50% a mais. \"Pagar por fora\", sem registro, é ilegal e tira esses direitos.",
+          "Justo também é transparente e igual: a Constituição proíbe pagar salários diferentes pelo mesmo trabalho por motivo de sexo, idade, cor ou estado civil. Regras claras evitam desconfiança, processos e a saída de bons funcionários."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma vendedora ganha fixo de R$ 1.800 mais 3% de comissão sobre as vendas. Num mês, vendeu R$ 20.000. Quanto recebe?",
+            "resolucao": "Comissão: 3% de 20.000 = 0,03 × 20.000 = R$ 600. Total: 1.800 + 600 = R$ 2.400."
+          },
+          {
+            "enunciado": "Uma loja combina: se a equipe vender R$ 30.000 ou mais no mês, há um bônus de R$ 600, dividido conforme as vendas de cada um. Ana vendeu R$ 15.000, Beto R$ 10.000 e Caio R$ 5.000. Quanto cada um ganha de bônus?",
+            "resolucao": "Total: R$ 30.000, então a meta foi batida. Ana vendeu 15 de 30 mil: metade de 600 = R$ 300. Beto: 10/30 de 600 = R$ 200. Caio: 5/30 de 600 = R$ 100. Conferência: 300 + 200 + 100 = 600."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Meta coletiva estimula a cooperação: um ajuda o outro a vender. Meta só individual pode gerar disputa ruim, como colegas \"roubando\" clientes. E escreva a meta com cuidado: \"mais de R$ 30.000\" exige passar de 30.000; \"R$ 30.000 ou mais\" já vale com 30.000 exatos.",
+        "Férias: o trabalhador recebe o salário do mês mais um terço. Com salário de R$ 1.800, as férias pagam 1.800 + 600 = R$ 2.400. Hora extra: se a hora normal vale R$ 10, a extra vale pelo menos R$ 15.",
+        "Meta impossível ou cobrada com humilhação não motiva: adoece a equipe e pode virar processo por assédio moral. O bom líder acompanha, ajuda quem está abaixo da meta e comemora junto quando ela é batida."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Salário fixo é:",
+            "alternativas": [
+              "um prêmio de fim de ano",
+              "uma porcentagem das vendas",
+              "o valor mensal garantido",
+              "uma gorjeta"
+            ],
+            "correta": 2,
+            "explicacao": "O fixo não depende das vendas.",
+            "dica": "Fixo quer dizer que não muda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Comissão é:",
+            "alternativas": [
+              "um valor sempre igual",
+              "uma porcentagem sobre as vendas",
+              "um imposto",
+              "um desconto"
+            ],
+            "correta": 1,
+            "explicacao": "Quanto mais vende, mais ganha.",
+            "dica": "Depende do quanto a pessoa vende."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bônus por meta é pago quando:",
+            "alternativas": [
+              "a meta combinada é batida",
+              "o chefe quer",
+              "chove",
+              "alguém falta"
+            ],
+            "correta": 0,
+            "explicacao": "O prêmio depende de um objetivo claro.",
+            "dica": "O nome já diz: por meta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Pagar por fora\", sem registro em carteira, é:",
+            "alternativas": [
+              "uma vantagem para todos",
+              "obrigatório",
+              "o normal",
+              "ilegal e tira direitos do trabalhador"
+            ],
+            "correta": 3,
+            "explicacao": "Sem registro, não há FGTS, INSS, férias registradas e 13º garantidos.",
+            "dica": "Releia o quarto parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem trabalha com carteira tem direito a:",
+            "alternativas": [
+              "trabalhar sem descanso",
+              "nenhum direito",
+              "só ao salário",
+              "13º salário e férias"
+            ],
+            "correta": 3,
+            "explicacao": "São alguns dos direitos garantidos.",
+            "dica": "Lembre os direitos da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Fixo de R$ 1.800 mais 3% sobre R$ 20.000 em vendas dão:",
+            "alternativas": [
+              "R$ 2.400",
+              "R$ 1.860",
+              "R$ 2.000",
+              "R$ 7.800"
+            ],
+            "correta": 0,
+            "explicacao": "3% de 20.000 = 600; 1.800 + 600 = 2.400.",
+            "dica": "Calcule a comissão e some ao fixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem ganha só comissão e vendeu pouco no mês pode receber menos que o salário mínimo?",
+            "alternativas": [
+              "Sim, sempre",
+              "Sim, se o chefe quiser",
+              "Não: a Constituição garante o mínimo para quem tem remuneração variável",
+              "Só em dezembro"
+            ],
+            "correta": 2,
+            "explicacao": "A remuneração variável não pode ficar abaixo do mínimo.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com salário de R$ 1.800, quanto a pessoa recebe nas férias?",
+            "alternativas": [
+              "R$ 1.800",
+              "R$ 600",
+              "R$ 3.600",
+              "R$ 2.400"
+            ],
+            "correta": 3,
+            "explicacao": "Salário mais um terço: 1.800 + 600 = 2.400.",
+            "dica": "Some um terço do salário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a hora normal vale R$ 10, a hora extra vale, no mínimo:",
+            "alternativas": [
+              "R$ 20",
+              "R$ 10",
+              "R$ 12",
+              "R$ 15"
+            ],
+            "correta": 3,
+            "explicacao": "Pelo menos 50% a mais: 10 + 5 = 15.",
+            "dica": "Calcule metade de 10 e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma boa meta é:",
+            "alternativas": [
+              "impossível, para todos se esforçarem",
+              "possível, medida com números e com prazo",
+              "secreta",
+              "mudada todo dia"
+            ],
+            "correta": 1,
+            "explicacao": "Meta clara e possível motiva.",
+            "dica": "Como saber se a meta foi batida?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Bônus de R$ 600 dividido conforme as vendas: Ana R$ 15.000, Beto R$ 10.000, Caio R$ 5.000. Quanto recebe Beto?",
+            "alternativas": [
+              "R$ 200",
+              "R$ 100",
+              "R$ 300",
+              "R$ 600"
+            ],
+            "correta": 0,
+            "explicacao": "Beto vendeu 10 de 30 mil: 1/3 de 600 = 200.",
+            "dica": "Ache a fração das vendas dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Vendedor A: fixo R$ 1.500 + 5% de comissão. Vendedor B: fixo R$ 1.500 + 2%. Os dois venderam R$ 30.000. Quanto A ganhou a mais?",
+            "alternativas": [
+              "R$ 600",
+              "R$ 1.500",
+              "R$ 300",
+              "R$ 900"
+            ],
+            "correta": 3,
+            "explicacao": "A: 1.500 + 1.500 = 3.000. B: 1.500 + 600 = 2.100. Diferença: 900.",
+            "dica": "Calcule o total de cada um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que meta só individual pode atrapalhar?",
+            "alternativas": [
+              "Porque é proibida",
+              "Porque pode gerar disputa ruim entre colegas",
+              "Porque ninguém ganha nada",
+              "Porque o fixo some"
+            ],
+            "correta": 1,
+            "explicacao": "Meta coletiva estimula a cooperação.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a criação de um bônus por meta:",
+            "itens": [
+              "Definir a meta com números e prazo",
+              "Escrever a regra e explicar à equipe",
+              "Acompanhar os resultados durante o mês",
+              "Pagar o bônus e comemorar se a meta for batida"
+            ],
+            "explicacao": "Definir, combinar por escrito, acompanhar e pagar.",
+            "dica": "A regra vem antes do mês começar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja paga R$ 2.000 a um vendedor e R$ 1.600 a uma vendedora que faz o mesmo trabalho, \"porque ela é mulher\". Isso é:",
+            "alternativas": [
+              "proibido pela Constituição",
+              "normal",
+              "permitido se ela aceitar",
+              "um bônus"
+            ],
+            "correta": 0,
+            "explicacao": "É proibido pagar diferente pelo mesmo trabalho por motivo de sexo.",
+            "dica": "Releia o último parágrafo da lição."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A regra dizia \"bônus se vender MAIS DE R$ 30.000\". A equipe vendeu exatamente R$ 30.000. Pelo que está escrito, ganha o bônus?",
+            "alternativas": [
+              "Sim, bateu a meta",
+              "Não: \"mais de 30.000\" exige passar de 30.000",
+              "Sim, metade",
+              "Depende do humor do chefe"
+            ],
+            "correta": 1,
+            "explicacao": "Exatamente 30.000 não é mais de 30.000. Por isso a regra precisa ser escrita com cuidado.",
+            "dica": "Mais de 30 inclui o próprio 30?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fixo de R$ 1.200 mais 4% de comissão. Para ganhar R$ 2.200 no mês, quanto precisa vender?",
+            "alternativas": [
+              "R$ 55.000",
+              "R$ 2.500",
+              "R$ 25.000",
+              "R$ 30.000"
+            ],
+            "correta": 2,
+            "explicacao": "A comissão precisa ser 1.000; 1.000 ÷ 0,04 = 25.000.",
+            "dica": "Quanto falta além do fixo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Hora normal de R$ 12. Quanto valem 10 horas extras, no mínimo?",
+            "alternativas": [
+              "R$ 60",
+              "R$ 120",
+              "R$ 180",
+              "R$ 240"
+            ],
+            "correta": 2,
+            "explicacao": "Hora extra: 12 × 1,5 = 18; 10 × 18 = 180.",
+            "dica": "Calcule primeiro o valor de uma hora extra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um gerente cobra a meta xingando a equipe na frente dos clientes. Isso:",
+            "alternativas": [
+              "motiva a equipe",
+              "aumenta as vendas para sempre",
+              "é obrigação do gerente",
+              "pode configurar assédio moral, adoece a equipe e gera processo"
+            ],
+            "correta": 3,
+            "explicacao": "Humilhar não é liderar.",
+            "dica": "Releia o fim do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que pagar justo ajuda o próprio negócio?",
+            "alternativas": [
+              "Porque diminui os impostos",
+              "Porque bons funcionários ficam, trabalham motivados e a empresa evita processos",
+              "Porque dispensa registrar a equipe",
+              "Não ajuda em nada"
+            ],
+            "correta": 1,
+            "explicacao": "Regra clara e pagamento correto retêm talentos.",
+            "dica": "Pense em quem fica e em quem vai embora."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Coordenação e subordinação: primeira noção",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O período composto pode ser formado por coordenação, por subordinação ou pelos dois juntos.",
+          "Na coordenação, as orações são independentes: cada uma tem sentido completo e não funciona como parte da outra. Elas se ligam por conjunções como e, mas, ou, porém, portanto, ou só por vírgula: \"Estudei, fiz a prova e passei\".",
+          "Na subordinação, uma oração depende da outra: ela funciona como um termo da oração principal (sujeito, objeto, adjunto). \"Espero que você venha\": \"que você venha\" é o que eu espero, o objeto do verbo esperar.",
+          "Conectivos comuns da subordinação: que, quando, se, embora, para que, assim que. Exemplo: \"Quando o sinal tocou, os alunos saíram\": a oração com quando indica o tempo da oração principal.",
+          "Teste rápido: separe as orações. Se cada uma faz sentido sozinha, é coordenação. Se uma fica incompleta (\"Espero.\"… o quê?), há subordinação."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: \"Choveu muito, mas o jogo continuou\" e \"Sei que o jogo continuou\".",
+            "resolucao": "A primeira é coordenação: \"Choveu muito\" e \"o jogo continuou\" fazem sentido sozinhas, ligadas por mas. A segunda é subordinação: \"Sei\" fica incompleto; \"que o jogo continuou\" é o objeto de saber."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "As coordenadas se classificam pelo sentido da conjunção: aditivas (e, nem), adversativas (mas, porém, contudo), alternativas (ou… ou), conclusivas (portanto, logo) e explicativas (pois).",
+        "As subordinadas podem ser substantivas (fazem papel de substantivo: \"É importante que você estude\"), adjetivas (fazem papel de adjetivo: \"O livro que comprei é ótimo\") ou adverbiais (indicam circunstância: tempo, causa, condição, finalidade: \"Se chover, fico em casa\").",
+        "Um período pode ser misto: \"Saí cedo e cheguei antes que a loja abrisse\" tem coordenação (saí / cheguei) e subordinação (antes que a loja abrisse). Mais simples: \"Liguei e disse que viria\"."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na coordenação, as orações são:",
+            "alternativas": [
+              "sempre dependentes",
+              "independentes",
+              "sem verbo",
+              "sempre iguais"
+            ],
+            "correta": 1,
+            "explicacao": "Cada uma tem sentido completo.",
+            "dica": "Coordenar é colocar lado a lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na subordinação, uma oração:",
+            "alternativas": [
+              "não tem verbo",
+              "fica no fim do texto",
+              "é sempre uma pergunta",
+              "depende da outra"
+            ],
+            "correta": 3,
+            "explicacao": "A subordinada funciona como parte da principal.",
+            "dica": "Subordinado é quem depende de alguém."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conjunção é comum na coordenação?",
+            "alternativas": [
+              "embora",
+              "quando",
+              "mas",
+              "para que"
+            ],
+            "correta": 2,
+            "explicacao": "Mas liga orações coordenadas adversativas.",
+            "dica": "Pense em Choveu, mas o jogo continuou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estudei e passei\" é um período:",
+            "alternativas": [
+              "simples",
+              "sem verbo",
+              "composto por coordenação",
+              "subordinado"
+            ],
+            "correta": 2,
+            "explicacao": "Duas orações independentes ligadas por e.",
+            "dica": "Cada parte faz sentido sozinha?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Espero que você venha\", a oração \"que você venha\" é:",
+            "alternativas": [
+              "coordenada",
+              "subordinada",
+              "absoluta",
+              "sem verbo"
+            ],
+            "correta": 1,
+            "explicacao": "Ela completa o sentido de espero.",
+            "dica": "Espero… o quê?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Choveu muito, mas o jogo continuou\" tem:",
+            "alternativas": [
+              "subordinação",
+              "coordenação",
+              "uma só oração",
+              "nenhuma conjunção"
+            ],
+            "correta": 1,
+            "explicacao": "As duas orações fazem sentido sozinhas, ligadas por mas.",
+            "dica": "Separe e veja se cada uma se sustenta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Sei que o jogo continuou\" tem:",
+            "alternativas": [
+              "coordenação",
+              "uma só oração",
+              "subordinação",
+              "duas orações absolutas"
+            ],
+            "correta": 2,
+            "explicacao": "Sei fica incompleto; a oração com que é o objeto.",
+            "dica": "Sei… o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual período tem subordinação?",
+            "alternativas": [
+              "Quando o sinal tocou, todos saíram.",
+              "Ou estuda, ou trabalha.",
+              "Choveu, portanto fiquei em casa.",
+              "Corri e cheguei."
+            ],
+            "correta": 0,
+            "explicacao": "A oração com quando indica o tempo da principal.",
+            "dica": "Procure o conectivo de tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estudei, fiz a prova, passei.\" As orações estão ligadas por:",
+            "alternativas": [
+              "embora",
+              "que",
+              "quando",
+              "vírgulas, sem conjunção"
+            ],
+            "correta": 3,
+            "explicacao": "Coordenadas podem vir só com vírgula.",
+            "dica": "Olhe o que separa as orações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual teste ajuda a reconhecer a coordenação?",
+            "alternativas": [
+              "Separar as orações e ver se cada uma faz sentido sozinha",
+              "Contar as letras",
+              "Procurar adjetivos",
+              "Ver se há ponto de exclamação"
+            ],
+            "correta": 0,
+            "explicacao": "Independentes se sustentam sozinhas.",
+            "dica": "Releia o último parágrafo da lição."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Se chover, fico em casa\", a oração \"Se chover\" indica:",
+            "alternativas": [
+              "tempo",
+              "condição",
+              "finalidade",
+              "adição"
+            ],
+            "correta": 1,
+            "explicacao": "Se introduz uma condição.",
+            "dica": "Fico em casa em qual caso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"O livro que comprei é ótimo.\" A oração \"que comprei\" funciona como:",
+            "alternativas": [
+              "adjetivo, caracterizando o livro",
+              "verbo",
+              "sujeito da frase toda",
+              "conjunção"
+            ],
+            "correta": 0,
+            "explicacao": "Ela diz qual livro: papel de adjetivo (subordinada adjetiva).",
+            "dica": "Ela caracteriza qual palavra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conjunção indica conclusão?",
+            "alternativas": [
+              "mas",
+              "ou",
+              "e",
+              "portanto"
+            ],
+            "correta": 3,
+            "explicacao": "Portanto conclui: estudei, portanto passei.",
+            "dica": "Qual palavra introduz uma consequência lógica?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para classificar um período composto:",
+            "itens": [
+              "Contar os verbos para achar as orações",
+              "Separar as orações",
+              "Ver se cada uma faz sentido sozinha",
+              "Classificar em coordenação ou subordinação"
+            ],
+            "explicacao": "Sem achar as orações, não dá para testar a independência.",
+            "dica": "A classificação é a conclusão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Liguei e disse que viria.\" Esse período tem:",
+            "alternativas": [
+              "só coordenação",
+              "uma oração",
+              "só subordinação",
+              "coordenação e subordinação"
+            ],
+            "correta": 3,
+            "explicacao": "Liguei / disse: coordenação; que viria: subordinada de disse.",
+            "dica": "Analise cada ligação separadamente."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"É importante que você estude.\" A oração \"que você estude\" funciona como:",
+            "alternativas": [
+              "adjunto adverbial",
+              "adjetivo",
+              "conjunção",
+              "sujeito de é importante"
+            ],
+            "correta": 3,
+            "explicacao": "O que é importante? Que você estude: é o sujeito (subordinada substantiva).",
+            "dica": "Pergunte ao verbo: o que é importante?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual período é composto só por coordenação?",
+            "alternativas": [
+              "Embora estivesse cansada, terminou o trabalho.",
+              "Ela riu, mas ele não achou graça.",
+              "O menino que caiu está bem.",
+              "Quero que você venha."
+            ],
+            "correta": 1,
+            "explicacao": "Duas orações independentes ligadas por mas.",
+            "dica": "Procure a frase sem que, embora ou outro conectivo de dependência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Embora estivesse cansada, terminou o trabalho\", a oração com embora indica:",
+            "alternativas": [
+              "uma ideia contrária que não impede a principal",
+              "tempo",
+              "finalidade",
+              "adição"
+            ],
+            "correta": 0,
+            "explicacao": "Embora traz uma oposição: mesmo cansada, terminou.",
+            "dica": "O cansaço impediu o trabalho?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações e que tipo de ligação há em \"Cheguei, vi a bagunça e comecei a arrumar\"?",
+            "alternativas": [
+              "2, subordinação",
+              "3, subordinação",
+              "3, coordenação",
+              "4, coordenação"
+            ],
+            "correta": 2,
+            "explicacao": "Cheguei, vi e comecei a arrumar (locução): três orações independentes.",
+            "dica": "Comecei a arrumar conta como uma locução."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase NÃO tem oração subordinada?",
+            "alternativas": [
+              "A menina que ganhou o prêmio é minha prima.",
+              "Saí quando a chuva passou.",
+              "Disse que viria.",
+              "Ou você estuda, ou vai mal na prova."
+            ],
+            "correta": 3,
+            "explicacao": "Ou… ou liga orações coordenadas alternativas.",
+            "dica": "Procure o par de conectivos que aparece duas vezes."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Meta batida, equipe feliz",
+    "texto": "A Papelaria Bom Traço fica numa esquina movimentada do bairro e tem três vendedores: a Débora, o Rogério e a Suelen, todos registrados. Até o ano passado, o dono, seu Arnaldo, pagava o mesmo salário fixo a todos, e as vendas andavam paradas.\n\nNum começo de ano, ele sentou com a equipe e propôs uma regra nova. Além do fixo, cada um ganharia 2% de comissão sobre o que vendesse. E, se a loja vendesse R$ 40.000 ou mais no mês, haveria um bônus de R$ 900 para dividir entre os três, na proporção das vendas de cada um.\n\n— E por que não um bônus só para quem vender mais? — perguntou o Rogério.\n\n— Porque eu quero que vocês se ajudem, não que briguem por cliente — respondeu seu Arnaldo.\n\nA regra foi escrita numa folha, assinada por todos e colada no estoque. Seu Arnaldo também passou a mostrar, toda semana, quanto faltava para a meta.\n\nEm fevereiro, com a volta às aulas, a loja vendeu R$ 45.000. A Débora tinha vendido R$ 20.000, o Rogério R$ 15.000 e a Suelen R$ 10.000. O bônus foi dividido: R$ 400, R$ 300 e R$ 200.\n\nMas o que mais mudou não foi o dinheiro. A Suelen, que era nova, começou a aprender com a Débora a montar listas de material para as mães. O Rogério organizou o estoque para ninguém perder venda por não achar o produto.\n\nNo fim do ano, a loja tinha vendido 30% a mais. Seu Arnaldo contratou mais uma vendedora. Na festa de Natal, alguém brindou: à regra colada no estoque."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, invente uma regra de bônus para uma equipe de três vendedores de uma loja do seu bairro. Diga qual é a meta, quanto é o bônus e como ele será dividido. Depois, invente as vendas de cada vendedor num mês e calcule quanto cada um ganharia. Termine explicando por que a sua regra é justa."
+  }
+}

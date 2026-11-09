@@ -1,0 +1,1201 @@
+{
+  "dia": 36,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Sequências: regra recursiva e termo geral",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Sequência é uma lista de números em uma ordem definida. Cada número é um termo: a₁ é o primeiro, a₂ o segundo, e aₙ o termo da posição n.",
+          "Na regra recursiva, cada termo é calculado a partir do anterior. Exemplo: a₁ = 3 e cada termo é o anterior mais 4. A sequência fica 3, 7, 11, 15, 19…",
+          "No termo geral, há uma fórmula que dá qualquer termo direto pela posição, sem calcular todos os anteriores. Para 3, 7, 11, 15…, o termo geral é aₙ = 4n − 1. O 10º termo é 4 · 10 − 1 = 39.",
+          "Quando se soma sempre o mesmo número, ele se chama razão, e a sequência é uma progressão aritmética (PA). O termo geral da PA é aₙ = a₁ + (n − 1) · r. Há também sequências em que se multiplica sempre pelo mesmo número: 2, 6, 18, 54 (vezes 3).",
+          "Para descobrir a regra, compare termos vizinhos: a diferença é constante? Então some. A divisão é constante? Então multiplique."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Com palitos de fósforo, a figura 1 é um quadrado (4 palitos), a figura 2 são dois quadrados lado a lado (7 palitos), a figura 3, três quadrados (10 palitos). Quantos palitos tem a figura 20?",
+            "resolucao": "A sequência 4, 7, 10 soma 3 a cada figura. Termo geral: aₙ = 4 + (n − 1) · 3 = 3n + 1. Figura 20: 3 · 20 + 1 = 61 palitos."
+          },
+          {
+            "enunciado": "A sequência é a₁ = 2 e cada termo é o anterior vezes 3. Qual é o 4º termo?",
+            "resolucao": "2, 6, 18, 54. O 4º termo é 54."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A sequência de Fibonacci é recursiva de um jeito especial: cada termo é a soma dos dois anteriores. 1, 1, 2, 3, 5, 8, 13, 21, 34, 55… Ela aparece em pinhas, girassóis e conchas.",
+        "Para saber em que posição está um número, use o termo geral ao contrário: em aₙ = 4n − 1, qual posição tem o 99? 4n − 1 = 99, então 4n = 100 e n = 25.",
+        "Truque de Gauss para somar uma PA: some o primeiro com o último, multiplique pela quantidade de termos e divida por 2. De 1 a 100: (1 + 100) · 100 ÷ 2 = 5.050. Nem toda sequência é PA: 1, 4, 9, 16… tem termo geral aₙ = n²."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o próximo termo de 2, 5, 8, 11…?",
+            "alternativas": [
+              "13",
+              "16",
+              "15",
+              "14"
+            ],
+            "correta": 3,
+            "explicacao": "A sequência soma 3: 11 + 3 = 14.",
+            "dica": "Veja quanto aumenta de um termo para o outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a regra de 5, 10, 15, 20…?",
+            "alternativas": [
+              "Multiplicar por 2",
+              "Somar 5",
+              "Somar 10",
+              "Subtrair 5"
+            ],
+            "correta": 1,
+            "explicacao": "Cada termo é o anterior mais 5.",
+            "dica": "Faça 10 − 5, 15 − 10…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a₁ = 3 e cada termo é o anterior mais 4, quanto vale a₂?",
+            "alternativas": [
+              "7",
+              "12",
+              "4",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "a₂ = 3 + 4 = 7.",
+            "dica": "Pegue o primeiro e aplique a regra uma vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se aₙ = 2n, quanto vale a₅?",
+            "alternativas": [
+              "7",
+              "25",
+              "10",
+              "2"
+            ],
+            "correta": 2,
+            "explicacao": "a₅ = 2 · 5 = 10.",
+            "dica": "Troque o n por 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o próximo termo de 1, 2, 4, 8…?",
+            "alternativas": [
+              "10",
+              "12",
+              "9",
+              "16"
+            ],
+            "correta": 3,
+            "explicacao": "Cada termo é o dobro do anterior: 8 · 2 = 16.",
+            "dica": "A diferença não é constante; tente multiplicar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Se aₙ = 4n − 1, quanto vale a₁₀?",
+            "alternativas": [
+              "40",
+              "36",
+              "41",
+              "39"
+            ],
+            "correta": 3,
+            "explicacao": "4 · 10 − 1 = 39.",
+            "dica": "Multiplique primeiro, depois subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o termo geral de 3, 7, 11, 15…?",
+            "alternativas": [
+              "aₙ = 4n − 1",
+              "aₙ = n + 4",
+              "aₙ = 4n + 3",
+              "aₙ = 3n + 4"
+            ],
+            "correta": 0,
+            "explicacao": "Teste: n = 1 dá 3; n = 2 dá 7. Os outros falham no primeiro termo.",
+            "dica": "Teste n = 1 e n = 2 em cada fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na sequência de palitos 4, 7, 10…, quantos palitos tem a figura 20?",
+            "alternativas": [
+              "60",
+              "61",
+              "63",
+              "80"
+            ],
+            "correta": 1,
+            "explicacao": "aₙ = 3n + 1: 3 · 20 + 1 = 61.",
+            "dica": "Ache o termo geral antes de calcular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a₁ = 2 e cada termo é o anterior vezes 3. Quanto vale a₄?",
+            "alternativas": [
+              "54",
+              "24",
+              "162",
+              "18"
+            ],
+            "correta": 0,
+            "explicacao": "2, 6, 18, 54.",
+            "dica": "Escreva os termos um por um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a regra de 50, 45, 40, 35…?",
+            "alternativas": [
+              "Somar 5",
+              "Dividir por 5",
+              "Subtrair 5",
+              "Subtrair 10"
+            ],
+            "correta": 2,
+            "explicacao": "Cada termo é 5 a menos que o anterior.",
+            "dica": "A sequência está crescendo ou diminuindo?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em aₙ = 4n − 1, em que posição está o número 99?",
+            "alternativas": [
+              "24",
+              "100",
+              "26",
+              "25"
+            ],
+            "correta": 3,
+            "explicacao": "4n − 1 = 99, 4n = 100, n = 25.",
+            "dica": "Use o termo geral ao contrário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o próximo termo de Fibonacci: 1, 1, 2, 3, 5, 8…?",
+            "alternativas": [
+              "11",
+              "13",
+              "14",
+              "16"
+            ],
+            "correta": 1,
+            "explicacao": "Cada termo é a soma dos dois anteriores: 5 + 8 = 13.",
+            "dica": "Some os dois últimos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o termo geral de 1, 4, 9, 16…?",
+            "alternativas": [
+              "aₙ = n²",
+              "aₙ = 3n − 2",
+              "aₙ = n + 3",
+              "aₙ = 2n"
+            ],
+            "correta": 0,
+            "explicacao": "1², 2², 3², 4². As outras falham no terceiro termo.",
+            "dica": "Olhe para os quadrados perfeitos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma PA tem a₁ = 10 e razão −3. Quanto vale a₈?",
+            "alternativas": [
+              "−14",
+              "11",
+              "−11",
+              "−8"
+            ],
+            "correta": 2,
+            "explicacao": "a₈ = 10 + 7 · (−3) = 10 − 21 = −11.",
+            "dica": "Do 1º ao 8º termo são 7 passos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "a₁ = 1 e cada termo é o dobro do anterior mais 1. Coloque os quatro primeiros termos em ordem:",
+            "itens": [
+              "1",
+              "3",
+              "7",
+              "15"
+            ],
+            "explicacao": "1; 2 · 1 + 1 = 3; 2 · 3 + 1 = 7; 2 · 7 + 1 = 15.",
+            "dica": "Aplique a regra a partir do 1."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a soma dos 10 primeiros números pares (2, 4, 6, …)?",
+            "alternativas": [
+              "100",
+              "120",
+              "110",
+              "220"
+            ],
+            "correta": 2,
+            "explicacao": "O 10º par é 20. (2 + 20) · 10 ÷ 2 = 110.",
+            "dica": "Use o truque de Gauss do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma mesada começa em R$ 10 e aumenta R$ 2 por mês. Quanto ela vale no 12º mês?",
+            "alternativas": [
+              "R$ 32",
+              "R$ 24",
+              "R$ 34",
+              "R$ 22"
+            ],
+            "correta": 0,
+            "explicacao": "a₁₂ = 10 + 11 · 2 = 32. Do 1º ao 12º mês são 11 aumentos.",
+            "dica": "Cuidado: quantos aumentos há até o 12º mês?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto essa mesada soma nos 12 meses?",
+            "alternativas": [
+              "R$ 264",
+              "R$ 384",
+              "R$ 240",
+              "R$ 252"
+            ],
+            "correta": 3,
+            "explicacao": "(10 + 32) · 12 ÷ 2 = 252.",
+            "dica": "Primeiro mais último, vezes a quantidade, dividido por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos termos de aₙ = 4n − 1 são menores que 100?",
+            "alternativas": [
+              "24",
+              "26",
+              "100",
+              "25"
+            ],
+            "correta": 3,
+            "explicacao": "4n − 1 < 100 dá n < 25,25. Valem n = 1 até 25: 25 termos (o 25º é 99).",
+            "dica": "Descubra a última posição que ainda fica abaixo de 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o 10º termo da sequência de Fibonacci 1, 1, 2, 3, 5…?",
+            "alternativas": [
+              "34",
+              "50",
+              "89",
+              "55"
+            ],
+            "correta": 3,
+            "explicacao": "1, 1, 2, 3, 5, 8, 13, 21, 34, 55.",
+            "dica": "Continue somando os dois últimos até a 10ª posição."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Consumo consciente e compra por impulso",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Compra por impulso é comprar sem planejar, levado pela emoção do momento. Quase todo mundo já fez, e o arrependimento costuma chegar junto com a fatura ou com a mesada vazia.",
+          "As lojas usam gatilhos para apressar a decisão: \"só hoje\", relógio em contagem regressiva, \"últimas unidades\", frete grátis acima de um valor, parcelas pequenas que escondem o total. Cansaço, tédio e tristeza também empurram para a compra.",
+          "Técnicas que funcionam: fazer lista antes de sair; esperar 24 horas antes de comprar o que não estava nos planos; e perguntar: eu preciso disso? Tenho algo parecido? Cabe no meu orçamento? Vou usar muitas vezes?",
+          "Consumo consciente é pensar no bolso e no planeta: escolher o que dura mais, consertar antes de trocar, reaproveitar e considerar produtos usados em bom estado.",
+          "Se a compra foi pela internet ou por telefone, o Código de Defesa do Consumidor dá 7 dias para desistir (direito de arrependimento), com devolução do valor pago. Na loja física, a troca por gosto (cor, tamanho) não é obrigação da lei: depende da política da loja."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um tênis \"de R$ 450 por R$ 300\". Qual é o desconto? Quem compra sem precisar economizou R$ 150?",
+            "resolucao": "Desconto: 150 ÷ 450 ≈ 33,3%. Mas quem não precisava do tênis não economizou nada: gastou R$ 300 que não planejava gastar."
+          },
+          {
+            "enunciado": "Um lanche de R$ 6 por dia, 5 dias por semana, durante 4 semanas: quanto custa no mês?",
+            "resolucao": "6 × 5 × 4 = R$ 120. Gastos pequenos e repetidos viram valores grandes."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Custo por uso: divida o preço pelo número de vezes que você vai usar. Um tênis de R$ 300 usado 150 vezes custa R$ 2 por uso; um de R$ 120 usado 10 vezes custa R$ 12 por uso. O barato pode sair caro.",
+        "Preço em horas de trabalho: quem ganha R$ 1.800 por 220 horas no mês recebe cerca de R$ 8,18 por hora. Um celular de R$ 1.500 custa cerca de 183 horas de trabalho. Pensar assim ajuda a decidir.",
+        "Efeito âncora: o preço riscado alto (\"de R$ 200\") faz o preço novo parecer barato, mesmo que outra loja venda mais barato sem \"promoção\". Compare o preço final, não o desconto."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Compra por impulso é:",
+            "alternativas": [
+              "pesquisar preço",
+              "comprar com lista",
+              "comprar sem planejar, pela emoção do momento",
+              "guardar dinheiro"
+            ],
+            "correta": 2,
+            "explicacao": "É a compra decidida na hora, sem pensar.",
+            "dica": "Impulso é algo que empurra de repente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Só hoje! Faltam 10 minutos!\" é:",
+            "alternativas": [
+              "uma informação neutra",
+              "um direito do consumidor",
+              "um gatilho para apressar a compra",
+              "um imposto"
+            ],
+            "correta": 2,
+            "explicacao": "A pressa atrapalha a decisão pensada.",
+            "dica": "Para que serve a contagem regressiva?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A regra das 24 horas é:",
+            "alternativas": [
+              "comprar tudo em 24 horas",
+              "trabalhar 24 horas",
+              "esperar um dia antes de comprar o que não estava nos planos",
+              "pagar em 24 vezes"
+            ],
+            "correta": 2,
+            "explicacao": "Em um dia, a emoção baixa e dá para pensar.",
+            "dica": "É um tempo de espera."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de comprar, qual pergunta ajuda mais?",
+            "alternativas": [
+              "Eu preciso disso e cabe no meu orçamento?",
+              "O vendedor é simpático?",
+              "Todo mundo tem?",
+              "Qual é a cor da sacola?"
+            ],
+            "correta": 0,
+            "explicacao": "Necessidade e orçamento decidem uma boa compra.",
+            "dica": "Pense no seu bolso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A lista de compras ajuda a:",
+            "alternativas": [
+              "pagar juros",
+              "gastar mais",
+              "esquecer coisas",
+              "evitar compras por impulso"
+            ],
+            "correta": 3,
+            "explicacao": "Com lista, você compra o que planejou.",
+            "dica": "O que está fora da lista fica de fora."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 6 por dia, 5 dias por semana, durante 4 semanas, somam:",
+            "alternativas": [
+              "R$ 24",
+              "R$ 60",
+              "R$ 30",
+              "R$ 120"
+            ],
+            "correta": 3,
+            "explicacao": "6 × 5 × 4 = 120.",
+            "dica": "Calcule a semana e depois o mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um tênis \"de R$ 450 por R$ 300\" tem que desconto?",
+            "alternativas": [
+              "50%",
+              "15%",
+              "30%",
+              "33,3%"
+            ],
+            "correta": 3,
+            "explicacao": "150 ÷ 450 ≈ 0,333 = 33,3%.",
+            "dica": "Divida o desconto pelo preço original."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos dias o CDC dá para desistir de uma compra feita pela internet?",
+            "alternativas": [
+              "30 dias",
+              "7 dias",
+              "Não existe esse direito",
+              "1 dia"
+            ],
+            "correta": 1,
+            "explicacao": "É o direito de arrependimento: 7 dias.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A loja física é obrigada a trocar um produto sem defeito porque você não gostou da cor?",
+            "alternativas": [
+              "Não: troca por gosto depende da política da loja",
+              "Sim, sempre",
+              "Sim, em 7 dias",
+              "Só no Natal"
+            ],
+            "correta": 0,
+            "explicacao": "A lei protege contra defeito; troca por gosto é cortesia, e, se a loja prometer, tem de cumprir.",
+            "dica": "O produto tem algum problema?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude é de consumo consciente?",
+            "alternativas": [
+              "Comprar tudo o que está em promoção",
+              "Trocar de celular todo mês",
+              "Escolher o que dura mais, consertar e reaproveitar",
+              "Jogar fora o que quebrou"
+            ],
+            "correta": 2,
+            "explicacao": "Pensa no bolso e no planeta.",
+            "dica": "O que faz as coisas durarem mais?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Tênis A: R$ 300, usado 150 vezes. Tênis B: R$ 120, usado 10 vezes. Qual tem menor custo por uso?",
+            "alternativas": [
+              "B, R$ 12 por uso",
+              "A, R$ 20 por uso",
+              "A, R$ 2 por uso",
+              "São iguais"
+            ],
+            "correta": 2,
+            "explicacao": "A: 300 ÷ 150 = 2. B: 120 ÷ 10 = 12.",
+            "dica": "Divida o preço pelas vezes de uso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem ganha cerca de R$ 8,18 por hora precisa trabalhar quantas horas para pagar um celular de R$ 1.500?",
+            "alternativas": [
+              "183",
+              "220",
+              "150",
+              "100"
+            ],
+            "correta": 0,
+            "explicacao": "1.500 ÷ 8,18 ≈ 183 horas.",
+            "dica": "Divida o preço pelo valor da hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Frete grátis acima de R$ 100. Seu carrinho tem R$ 85 e o frete custa R$ 12. Qual opção gasta menos?",
+            "alternativas": [
+              "As duas dão R$ 100",
+              "Adicionar um item de R$ 15 que você não precisa: R$ 100",
+              "Pagar o frete: R$ 97",
+              "Adicionar o item sai R$ 85"
+            ],
+            "correta": 2,
+            "explicacao": "85 + 12 = 97, menos que 85 + 15 = 100.",
+            "dica": "Some as duas opções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "À vista R$ 349 ou \"10 × R$ 39,90 sem juros\". Quanto a mais custa o parcelado?",
+            "alternativas": [
+              "R$ 39,90",
+              "R$ 50",
+              "R$ 10",
+              "R$ 0"
+            ],
+            "correta": 1,
+            "explicacao": "10 × 39,90 = 399; 399 − 349 = 50. O \"sem juros\" escondia um preço maior.",
+            "dica": "Calcule o total das parcelas."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que fazer diante de uma compra não planejada:",
+            "itens": [
+              "Perceber a vontade de comprar",
+              "Esperar 24 horas",
+              "Perguntar se precisa e se cabe no orçamento",
+              "Decidir com calma: comprar ou não"
+            ],
+            "explicacao": "Perceber, esperar, pensar e só então decidir.",
+            "dica": "Decidir é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Loja A: \"de R$ 200 por R$ 140\". Loja B vende o mesmo produto sempre por R$ 130. Onde é melhor comprar?",
+            "alternativas": [
+              "Na A, porque tem 30% de desconto",
+              "Tanto faz",
+              "Na B, porque R$ 130 é menos que R$ 140, mesmo sem promoção",
+              "Em nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "O preço riscado é uma âncora; o que importa é o preço final.",
+            "dica": "Compare o que sai do seu bolso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um gasto de R$ 7 em 22 dias úteis por mês, durante 12 meses, soma:",
+            "alternativas": [
+              "R$ 924",
+              "R$ 154",
+              "R$ 2.520",
+              "R$ 1.848"
+            ],
+            "correta": 3,
+            "explicacao": "7 × 22 = 154 por mês; 154 × 12 = 1.848 no ano.",
+            "dica": "Primeiro o mês, depois o ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "À vista R$ 600 ou 12 × R$ 60. Quanto, em porcentagem, o parcelado custa a mais?",
+            "alternativas": [
+              "20%",
+              "12%",
+              "10%",
+              "60%"
+            ],
+            "correta": 0,
+            "explicacao": "12 × 60 = 720; 720 − 600 = 120; 120 ÷ 600 = 20%.",
+            "dica": "Calcule a diferença e divida pelo preço à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem ganha R$ 12 por hora precisa de quantas horas de trabalho para pagar uma jaqueta de R$ 180?",
+            "alternativas": [
+              "12",
+              "18",
+              "180",
+              "15"
+            ],
+            "correta": 3,
+            "explicacao": "180 ÷ 12 = 15 horas.",
+            "dica": "Divida o preço pelo valor da hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você comprou uma caixa de som pela internet, ela chegou há 5 dias e você se arrependeu. O que diz o CDC?",
+            "alternativas": [
+              "Pode desistir pelo direito de arrependimento e receber de volta o valor pago",
+              "Não pode devolver",
+              "Só pode trocar por outro produto da loja",
+              "Só pode devolver se tiver defeito"
+            ],
+            "correta": 0,
+            "explicacao": "Compras fora da loja física têm 7 dias de arrependimento, sem precisar de defeito.",
+            "dica": "Quantos dias o CDC dá para compras pela internet?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Textos no código: juntar, cortar e contar letras",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Em Python, texto se chama string e fica entre aspas: 'Mariana' ou \"Mariana\".",
+          "Juntar (concatenar) é com +: 'Bom' + ' ' + 'dia' dá 'Bom dia'. Para juntar texto com número, transforme o número em texto com str(): 'Idade: ' + str(13). Outra forma é a f-string: f'Olá, {nome}!'.",
+          "Contar: len('banana') dá 6 (o tamanho do texto). 'banana'.count('a') dá 3 (quantas vezes a letra aparece).",
+          "Cortar (fatiar): cada letra tem uma posição, começando em 0. Em nome = 'Brasil', nome[0] é 'B', nome[0:3] é 'Bra' (da posição 0 até antes da 3) e nome[-1] é 'l', a última letra.",
+          "Transformar: .upper() deixa em maiúsculas, .lower() em minúsculas, .replace('g', 'p') troca letras e .strip() tira os espaços das pontas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Com nome = 'Mariana', mostre a inicial com ponto e o tamanho do nome.",
+            "resolucao": "print(nome[0] + '.') mostra M. e print(len(nome)) mostra 7."
+          },
+          {
+            "enunciado": "O que mostra print('gato'.replace('g', 'p').upper())?",
+            "resolucao": "Primeiro troca o g por p: 'pato'. Depois deixa em maiúsculas: PATO."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A fatia [início:fim] nunca inclui o fim. Sem o início, começa do 0 ([:3]); sem o fim, vai até o final ([3:]). E [::-1] inverte o texto: 'roma'[::-1] dá 'amor'. Uma palavra é palíndromo quando é igual ao contrário: 'arara' == 'arara'[::-1] dá True.",
+        "Somar texto com número dá erro: 'Idade: ' + 13 gera TypeError. Multiplicar texto por número repete: 'ABC' * 3 dá 'ABCABCABC'.",
+        ".split() quebra o texto em uma lista: 'Ana Bia Caio'.split() dá ['Ana', 'Bia', 'Caio']. Com um separador: 'ana@escola.br'.split('@') dá ['ana', 'escola.br']. Lembre que maiúscula e minúscula são diferentes para o Python: 'O' não é igual a 'o'."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, um texto fica entre:",
+            "alternativas": [
+              "colchetes",
+              "parênteses",
+              "aspas",
+              "chaves"
+            ],
+            "correta": 2,
+            "explicacao": "Strings ficam entre aspas simples ou duplas.",
+            "dica": "Lembre de 'Mariana'."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá len('casa')?",
+            "alternativas": [
+              "3",
+              "5",
+              "4",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "c-a-s-a: quatro letras.",
+            "dica": "len conta os caracteres."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que dá 'Bom' + 'dia'?",
+            "alternativas": [
+              "'Bom dia'",
+              "'BomDia'",
+              "Erro",
+              "'Bomdia'"
+            ],
+            "correta": 3,
+            "explicacao": "O + junta exatamente o que existe, sem colocar espaço.",
+            "dica": "O Python não coloca espaço sozinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz .upper()?",
+            "alternativas": [
+              "Deixa em minúsculas",
+              "Deixa em maiúsculas",
+              "Tira os espaços",
+              "Inverte o texto"
+            ],
+            "correta": 1,
+            "explicacao": "Upper quer dizer de cima, letras maiúsculas.",
+            "dica": "Upper é o oposto de lower."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a posição da primeira letra de um texto?",
+            "alternativas": [
+              "0",
+              "1",
+              "−1",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "No Python, as posições começam em 0.",
+            "dica": "A contagem não começa em 1."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com nome = 'Brasil', o que dá nome[0:3]?",
+            "alternativas": [
+              "'Bras'",
+              "'Bra'",
+              "'ras'",
+              "'Br'"
+            ],
+            "correta": 1,
+            "explicacao": "Posições 0, 1 e 2: B, r, a. A posição 3 fica de fora.",
+            "dica": "O fim da fatia não entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá 'banana'.count('a')?",
+            "alternativas": [
+              "2",
+              "6",
+              "3",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "b-a-n-a-n-a: três letras a.",
+            "dica": "Conte só a letra a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com nome = 'Brasil', o que dá nome[-1]?",
+            "alternativas": [
+              "'B'",
+              "'l'",
+              "'i'",
+              "'s'"
+            ],
+            "correta": 1,
+            "explicacao": "−1 é a última posição.",
+            "dica": "O negativo conta de trás para a frente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que dá 'Idade: ' + str(13)?",
+            "alternativas": [
+              "'13'",
+              "Erro",
+              "'Idade: str(13)'",
+              "'Idade: 13'"
+            ],
+            "correta": 3,
+            "explicacao": "str(13) vira o texto '13', que pode ser juntado.",
+            "dica": "str transforma número em texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que dá 'gato'.replace('g', 'p')?",
+            "alternativas": [
+              "'pato'",
+              "'gpato'",
+              "'gato'",
+              "'pgato'"
+            ],
+            "correta": 0,
+            "explicacao": "Troca o g por p: pato.",
+            "dica": "Troque a letra e leia."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que dá 'arara'[::-1]?",
+            "alternativas": [
+              "'arara'",
+              "'arar'",
+              "'ara'",
+              "Erro"
+            ],
+            "correta": 0,
+            "explicacao": "Invertida, arara continua arara: é um palíndromo.",
+            "dica": "Leia a palavra de trás para a frente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com 'Idade: ' + 13?",
+            "alternativas": [
+              "Erro, porque não dá para somar texto com número",
+              "'Idade:13'",
+              "'Idade: 13'",
+              "13"
+            ],
+            "correta": 0,
+            "explicacao": "Dá TypeError. É preciso usar str(13).",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá len('  oi  '.strip())?",
+            "alternativas": [
+              "6",
+              "4",
+              "2",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "strip tira os espaços das pontas; sobra 'oi'.",
+            "dica": "Primeiro o strip, depois o len."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá len('Ana Bia Caio'.split())?",
+            "alternativas": [
+              "3",
+              "12",
+              "10",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "split cria a lista ['Ana', 'Bia', 'Caio']: 3 itens.",
+            "dica": "len de uma lista conta os itens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com nome = 'Maria' e sobrenome = 'Souza', o que mostra print(f'{nome[0]}.{sobrenome[0]}.')?",
+            "alternativas": [
+              "Maria.Souza.",
+              "M.S.",
+              "MS",
+              "M. S."
+            ],
+            "correta": 1,
+            "explicacao": "Pega a primeira letra de cada um e põe ponto depois.",
+            "dica": "nome[0] é só a inicial."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com p = 'programa', o que dá p[3:6]?",
+            "alternativas": [
+              "'gram'",
+              "'gra'",
+              "'ogr'",
+              "'ram'"
+            ],
+            "correta": 1,
+            "explicacao": "p0 r1 o2 g3 r4 a5: posições 3, 4 e 5 dão 'gra'.",
+            "dica": "Numere as letras a partir do 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que dá 'Ovo' == 'Ovo'[::-1]?",
+            "alternativas": [
+              "False",
+              "Erro",
+              "'Ovo'",
+              "True"
+            ],
+            "correta": 0,
+            "explicacao": "'Ovo' invertido é 'ovO'. Maiúscula e minúscula são diferentes.",
+            "dica": "Inverta com cuidado as maiúsculas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "c = 0 e for x in 'abacaxi': if x in 'aeiou': c += 1. Quanto vale c?",
+            "alternativas": [
+              "7",
+              "3",
+              "5",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "Vogais: a, a, a, i. Quatro.",
+            "dica": "Conte só as vogais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra print('ABC' * 3)?",
+            "alternativas": [
+              "ABC3",
+              "AAABBBCCC",
+              "Erro",
+              "ABCABCABC"
+            ],
+            "correta": 3,
+            "explicacao": "Texto vezes número repete o texto.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com email = 'ana@escola.br', o que dá email.split('@')[1]?",
+            "alternativas": [
+              "'ana'",
+              "'@'",
+              "'ana@escola.br'",
+              "'escola.br'"
+            ],
+            "correta": 3,
+            "explicacao": "split('@') dá ['ana', 'escola.br']; a posição 1 é a segunda.",
+            "dica": "A lista também começa na posição 0."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Senão ou se não? A fim ou afim? Demais ou de mais?",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Senão (junto) significa caso contrário, a não ser, ou é um substantivo que quer dizer defeito: \"Estude, senão vai mal na prova\"; \"Não fazia nada senão reclamar\"; \"O projeto tinha um senão\".",
+          "Se não (separado) é a palavra se (condição) seguida de não: \"Se não chover, iremos ao parque\". Teste: troque por caso não. Se a frase continuar fazendo sentido, escreva separado.",
+          "A fim de (separado) indica finalidade, com o sentido de para: \"Estudou a fim de passar\". Afim (junto) é adjetivo e quer dizer semelhante, que tem afinidade: \"assuntos afins\".",
+          "Demais (junto) quer dizer muito, excessivamente, ou os outros: \"Comeu demais\"; \"Ela é legal demais\"; \"Os demais alunos saíram\". De mais (separado) é o contrário de de menos: \"Não vejo nada de mais nisso\".",
+          "Resumo dos testes: se não = caso não; a fim de = para; de mais = o oposto de de menos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Complete: \"___ sair agora, vou perder o ônibus\" e \"Saia agora, ___ vai perder o ônibus\".",
+            "resolucao": "\"Se não sair agora…\" (caso não saia). \"Saia agora, senão vai perder o ônibus\" (caso contrário)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Depois de negação, senão costuma significar a não ser: \"Ninguém senão ela sabia a senha\" (ninguém, a não ser ela).",
+        "A expressão é sempre a fim de, separada. Escrever \"afim de\" é erro. Na fala informal, \"estar a fim de\" quer dizer querer: \"Estou a fim de ir ao cinema\".",
+        "\"Nada de mais\" significa nada de anormal: \"Ele só pediu ajuda, não fez nada de mais\". Teste com nada de menos: se a troca faz sentido como oposto, é separado."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estude, ___ vai mal na prova.\"",
+            "alternativas": [
+              "senão",
+              "se não",
+              "sinão",
+              "se nam"
+            ],
+            "correta": 0,
+            "explicacao": "Aqui significa caso contrário: senão, junto.",
+            "dica": "Troque por caso contrário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"___ chover, iremos ao parque.\"",
+            "alternativas": [
+              "Se não",
+              "Senão",
+              "Sinão",
+              "Ce não"
+            ],
+            "correta": 0,
+            "explicacao": "Caso não chova: se não, separado.",
+            "dica": "Troque por caso não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estudou ___ passar.\" (para)",
+            "alternativas": [
+              "afim de",
+              "a fim do",
+              "a fim de",
+              "afins de"
+            ],
+            "correta": 2,
+            "explicacao": "Finalidade = a fim de, separado.",
+            "dica": "Indica para quê."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Comeu ___ e passou mal.\" (muito)",
+            "alternativas": [
+              "de mais",
+              "dimais",
+              "demais",
+              "demas"
+            ],
+            "correta": 2,
+            "explicacao": "Muito, excessivamente: demais, junto.",
+            "dica": "Quer dizer muito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Os ___ alunos saíram mais cedo.\" (os outros)",
+            "alternativas": [
+              "dimais",
+              "de mais",
+              "de mas",
+              "demais"
+            ],
+            "correta": 3,
+            "explicacao": "Os outros = os demais, junto.",
+            "dica": "Quer dizer os outros."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ninguém ___ ela sabia a senha.\"",
+            "alternativas": [
+              "se não",
+              "sinão",
+              "sem não",
+              "senão"
+            ],
+            "correta": 3,
+            "explicacao": "Depois de negação, senão = a não ser.",
+            "dica": "Troque por a não ser."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Matemática e física são matérias ___.\"",
+            "alternativas": [
+              "a fim",
+              "a fins",
+              "afins",
+              "à fim"
+            ],
+            "correta": 2,
+            "explicacao": "Afins = semelhantes, com afinidade.",
+            "dica": "Aqui o sentido é parecidas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Não vejo nada ___ em pedir ajuda.\"",
+            "alternativas": [
+              "demais",
+              "dimais",
+              "de menos",
+              "de mais"
+            ],
+            "correta": 3,
+            "explicacao": "Nada de anormal; o oposto seria nada de menos.",
+            "dica": "Faça o teste com de menos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"___ estudar, não vai passar.\"",
+            "alternativas": [
+              "Senão",
+              "Se não",
+              "Sem não",
+              "Ce não"
+            ],
+            "correta": 1,
+            "explicacao": "Caso não estude: separado.",
+            "dica": "Troque por caso não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Fui à feira afim de comprar frutas.",
+              "Fui à feira a fim comprar frutas.",
+              "Fui à feira a fim de comprar frutas.",
+              "Fui à feira à fim de comprar frutas."
+            ],
+            "correta": 2,
+            "explicacao": "A fim de, separado e sem crase.",
+            "dica": "A expressão de finalidade tem três palavras."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Corra, ___ o portão fecha\" e \"___ correr, o portão fecha\".",
+            "alternativas": [
+              "se não / Senão",
+              "senão / Se não",
+              "senão / Senão",
+              "se não / Se não"
+            ],
+            "correta": 1,
+            "explicacao": "Caso contrário = senão; caso não = se não.",
+            "dica": "Faça o teste em cada frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase senão é um substantivo?",
+            "alternativas": [
+              "Coma, senão esfria.",
+              "Ninguém senão ele veio.",
+              "Senão chover, vou.",
+              "O plano era ótimo, mas tinha um senão."
+            ],
+            "correta": 3,
+            "explicacao": "Um senão = um defeito, um problema.",
+            "dica": "Procure senão acompanhado de um artigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está ERRADA?",
+            "alternativas": [
+              "Senão chover, o jogo continua.",
+              "Os demais ficaram.",
+              "Ele riu demais.",
+              "Ela é educada demais."
+            ],
+            "correta": 0,
+            "explicacao": "Caso não chova: o certo é se não, separado.",
+            "dica": "Teste cada senão com caso não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estou ___ ir ao cinema\" (informal, querer):",
+            "alternativas": [
+              "a fim de",
+              "afim de",
+              "afins de",
+              "à fim de"
+            ],
+            "correta": 0,
+            "explicacao": "A expressão é sempre a fim de, mesmo no sentido de querer.",
+            "dica": "A forma junta não existe nessa expressão."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para decidir entre se não e senão:",
+            "itens": [
+              "Ler a frase inteira",
+              "Trocar a palavra por caso não",
+              "Ver se a frase continua com sentido",
+              "Se tiver sentido, escrever separado; se não, junto"
+            ],
+            "explicacao": "O teste do caso não resolve a maioria das dúvidas.",
+            "dica": "A decisão vem depois do teste."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas formas estão erradas? \"Se não fosse a chuva, eu iria, mas comi de mais e estou afim de dormir.\"",
+            "alternativas": [
+              "0",
+              "1",
+              "2",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "Se não está certo; o certo seria comi demais (muito) e a fim de dormir.",
+            "dica": "Teste cada expressão com caso não, muito e para."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ele não fez nada ___; só pediu licença.\"",
+            "alternativas": [
+              "demais",
+              "dimais",
+              "de menos",
+              "de mais"
+            ],
+            "correta": 3,
+            "explicacao": "Nada de mais = nada de anormal; o oposto seria nada de menos.",
+            "dica": "Aplique o teste do oposto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Não tinha outra saída ___ pedir desculpas.\"",
+            "alternativas": [
+              "sem não",
+              "se não",
+              "senão",
+              "a fim"
+            ],
+            "correta": 2,
+            "explicacao": "Senão = a não ser, depois de negação.",
+            "dica": "Troque por a não ser."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa afim corretamente?",
+            "alternativas": [
+              "Fiz isso afim de ajudar.",
+              "Estou afim de sair.",
+              "Eles têm gostos afins.",
+              "Afim de ganhar, treinou."
+            ],
+            "correta": 2,
+            "explicacao": "Afins = semelhantes. Nas outras, o certo é a fim de.",
+            "dica": "Afim é adjetivo, não indica finalidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Se não\" e \"senão\" em \"Se não estudar, faça ao menos os exercícios, senão a nota cai\":",
+            "alternativas": [
+              "estão as duas certas",
+              "estão as duas erradas",
+              "só a primeira está certa",
+              "só a segunda está certa"
+            ],
+            "correta": 0,
+            "explicacao": "Caso não estude = se não; caso contrário = senão.",
+            "dica": "Teste cada uma separadamente."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A loja que vendia vontade",
+    "texto": "Eram nove e quarenta da noite quando o celular do Henrique vibrou. \"PROMOÇÃO RELÂMPAGO! Fone sem fio de R$ 280 por R$ 149. Só até as dez!\"\n\nHenrique tinha R$ 160 da mesada guardados numa conta digital. Juntava havia três meses para a excursão da escola. Mas o fone era bonito, preto fosco, igual ao do primo.\n\nO relógio na tela descia: dezenove minutos, dezoito, dezessete. Embaixo, uma faixa vermelha avisava: \"Restam apenas 4 unidades\". E ainda: \"237 pessoas estão vendo este produto agora\".\n\nEle colocou o fone no carrinho. O coração acelerou como se fosse uma corrida. Faltava só apertar o botão.\n\nFoi aí que a irmã mais velha, a Camila, passou pela sala e viu a cara dele.\n\n— Que pressa é essa?\n\nEle mostrou. Ela riu, sem deboche.\n\n— Faz uma coisa. Abre de novo amanhã cedo. Se ainda quiser, você compra.\n\n— Mas acaba às dez!\n\n— Então pergunta: você precisava de um fone ontem?\n\nHenrique pensou no fone com fio que funcionava perfeitamente na gaveta. Pensou na excursão. Fechou o aplicativo, meio contrariado.\n\nNa manhã seguinte, abriu a loja. O mesmo fone estava lá, pelo mesmo preço. O relógio tinha voltado para vinte minutos. As \"últimas 4 unidades\" continuavam sendo quatro.\n\nHenrique ficou um tempo olhando aquilo. Depois, abriu a conta digital e viu os R$ 160 intactos. Pela primeira vez, percebeu que aquela loja não vendia fones. Vendia pressa. E ele quase tinha comprado."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, relate uma compra por impulso, sua ou de alguém que você conhece (sem dizer o nome, se preferir). Conte o que levou à compra (pressa, promoção, vontade de ter o que os outros têm…), como a pessoa se sentiu depois e o que dá para fazer diferente da próxima vez."
+  }
+}

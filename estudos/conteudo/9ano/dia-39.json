@@ -1,0 +1,1505 @@
+{
+  "dia": 39,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Máximo e mínimo: o lucro que cabe na parábola",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Na função f(x) = ax² + bx + c, o vértice é o ponto de máximo (se a < 0) ou de mínimo (se a > 0). O xᵥ = −b/(2a) diz ONDE isso acontece; o yᵥ = f(xᵥ) diz QUAL é o valor máximo ou mínimo.",
+          "Lucro: uma doceria descobriu que, cobrando x reais por unidade, o lucro diário é L(x) = −10x² + 120x − 200. Como a < 0, há um máximo: xᵥ = −120/(−20) = 6. L(6) = −360 + 720 − 200 = 160. O melhor preço é R$ 6, com lucro de R$ 160 por dia.",
+          "Área máxima: com 40 m de tela para cercar um terreno retangular, os lados somam 20 m. Se um lado é x, o outro é 20 − x, e a área é A = x(20 − x) = −x² + 20x. xᵥ = 10: o melhor é um quadrado de 10 m por 10 m, com área de 100 m².",
+          "Mínimo: o custo de produção de uma fábrica é C(x) = x² − 8x + 30, com x em centenas de peças. Como a > 0, há mínimo: xᵥ = 4 (400 peças) e C(4) = 16 − 32 + 30 = 14.",
+          "Roteiro: monte a função, confira o sinal de a, calcule xᵥ e yᵥ e responda com palavras, nas unidades do problema."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Com 40 m de tela, qual cercado retangular tem a maior área?",
+            "resolucao": "A = x(20 − x). xᵥ = 10 e A(10) = 100. É o quadrado de 10 m de lado, com 100 m²."
+          },
+          {
+            "enunciado": "Dois números somam 30. Qual é o maior produto possível?",
+            "resolucao": "P = x(30 − x) = −x² + 30x. xᵥ = 15, então os números são 15 e 15, com produto 225."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cerca encostada num muro: com 40 m de tela para três lados (o muro faz o quarto), 2x + y = 40 e A = x(40 − 2x) = −2x² + 40x. xᵥ = 10 e y = 20: área de 200 m², o dobro do cercado sem muro.",
+        "Receita com desconto: se, cobrando p reais, uma loja vende 100 − 5p unidades, a receita é R(p) = p(100 − 5p) = −5p² + 100p. O preço que dá a maior receita é pᵥ = 10, com R = 500. Baixar demais ou subir demais o preço diminui a receita.",
+        "Forma canônica ajuda: L(p) = −(p − 8)² + 36 tem máximo 36 quando p = 8. O lucro é zero quando (p − 8)² = 36, ou seja, p = 2 ou p = 14. Entre esses preços há lucro; fora deles, prejuízo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a < 0, o vértice da parábola é um ponto de:",
+            "alternativas": [
+              "mínimo",
+              "máximo",
+              "corte no eixo y",
+              "raiz"
+            ],
+            "correta": 1,
+            "explicacao": "Parábola de boca para baixo tem um topo: máximo.",
+            "dica": "Pense na boca da parábola."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em L(x) = −x² + 20x, qual é o xᵥ?",
+            "alternativas": [
+              "10",
+              "20",
+              "−10",
+              "100"
+            ],
+            "correta": 0,
+            "explicacao": "xᵥ = −20/(−2) = 10.",
+            "dica": "Use −b/(2a)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar o VALOR máximo ou mínimo, calcula-se:",
+            "alternativas": [
+              "só o xᵥ",
+              "o delta",
+              "o yᵥ",
+              "o c"
+            ],
+            "correta": 2,
+            "explicacao": "O yᵥ é o valor; o xᵥ é onde ele acontece.",
+            "dica": "Valor máximo é uma altura no gráfico."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 40 m de tela, qual cercado retangular tem maior área?",
+            "alternativas": [
+              "5 m por 15 m",
+              "2 m por 18 m",
+              "8 m por 12 m",
+              "10 m por 10 m"
+            ],
+            "correta": 3,
+            "explicacao": "O quadrado de 10 m tem 100 m², a maior área.",
+            "dica": "Calcule a área de cada um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A função C(x) = x² − 8x + 30 tem ponto de:",
+            "alternativas": [
+              "máximo",
+              "mínimo",
+              "nenhum",
+              "dois máximos"
+            ],
+            "correta": 1,
+            "explicacao": "a = 1 > 0: abre para cima, tem mínimo.",
+            "dica": "Olhe o sinal de a."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em L(x) = −10x² + 120x − 200, qual preço dá o maior lucro?",
+            "alternativas": [
+              "R$ 12",
+              "R$ 10",
+              "R$ 6",
+              "R$ 20"
+            ],
+            "correta": 2,
+            "explicacao": "xᵥ = −120/(−20) = 6.",
+            "dica": "Calcule −b/(2a) com a = −10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "E qual é esse lucro máximo?",
+            "alternativas": [
+              "R$ 160",
+              "R$ 200",
+              "R$ 360",
+              "R$ 120"
+            ],
+            "correta": 0,
+            "explicacao": "L(6) = −360 + 720 − 200 = 160.",
+            "dica": "Substitua x por 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a maior área de um cercado retangular feito com 40 m de tela?",
+            "alternativas": [
+              "40 m²",
+              "400 m²",
+              "80 m²",
+              "100 m²"
+            ],
+            "correta": 3,
+            "explicacao": "Quadrado de 10 m: 100 m².",
+            "dica": "A = x(20 − x)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o custo mínimo em C(x) = x² − 8x + 30?",
+            "alternativas": [
+              "30",
+              "14",
+              "4",
+              "8"
+            ],
+            "correta": 1,
+            "explicacao": "xᵥ = 4 e C(4) = 14.",
+            "dica": "Calcule xᵥ e depois C(xᵥ)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois números somam 30. Qual é o maior produto possível?",
+            "alternativas": [
+              "200",
+              "216",
+              "225",
+              "900"
+            ],
+            "correta": 2,
+            "explicacao": "15 × 15 = 225.",
+            "dica": "Os números devem ser iguais."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 40 m de tela para três lados de um cercado encostado num muro, qual é a maior área?",
+            "alternativas": [
+              "100 m²",
+              "200 m²",
+              "400 m²",
+              "160 m²"
+            ],
+            "correta": 1,
+            "explicacao": "A = x(40 − 2x); xᵥ = 10, y = 20, área 200 m².",
+            "dica": "O muro faz um dos lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se uma loja vende 100 − 5p unidades cobrando p reais, que preço dá a maior receita?",
+            "alternativas": [
+              "R$ 10",
+              "R$ 20",
+              "R$ 5",
+              "R$ 50"
+            ],
+            "correta": 0,
+            "explicacao": "R(p) = −5p² + 100p; pᵥ = 10.",
+            "dica": "Monte receita = preço × quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bola tem altura h(t) = −5t² + 30t. Qual é a altura máxima?",
+            "alternativas": [
+              "30 m",
+              "3 m",
+              "90 m",
+              "45 m"
+            ],
+            "correta": 3,
+            "explicacao": "tᵥ = 3 s e h(3) = −45 + 90 = 45 m.",
+            "dica": "Ache o t do vértice e calcule h."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O lucro de uma fábrica é L(x) = −x² + 14x − 24, com x em dezenas de unidades. Quantas unidades dão o lucro máximo?",
+            "alternativas": [
+              "7",
+              "14",
+              "70",
+              "25"
+            ],
+            "correta": 2,
+            "explicacao": "xᵥ = 7 dezenas = 70 unidades. (O lucro máximo é L(7) = 25.)",
+            "dica": "Atenção à unidade de x."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para resolver um problema de máximo ou mínimo.",
+            "itens": [
+              "Montar a função",
+              "Conferir o sinal de a",
+              "Calcular o xᵥ",
+              "Calcular o yᵥ",
+              "Responder com palavras e unidades"
+            ],
+            "explicacao": "Função, tipo de vértice, onde acontece, qual é o valor e interpretação.",
+            "dica": "A interpretação vem por último."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cinema vende 200 ingressos a R$ 20. A cada R$ 1 de desconto, vende 20 ingressos a mais. Qual preço dá a maior receita e qual é ela?",
+            "alternativas": [
+              "R$ 20 e R$ 4.000",
+              "R$ 15 e R$ 4.500",
+              "R$ 10 e R$ 4.000",
+              "R$ 12 e R$ 4.320"
+            ],
+            "correta": 1,
+            "explicacao": "R(d) = (20 − d)(200 + 20d) = −20d² + 200d + 4.000. dᵥ = 5: preço R$ 15, 300 ingressos, receita R$ 4.500.",
+            "dica": "Chame o desconto de d e monte preço × quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a maior área de um retângulo com perímetro de 36 m?",
+            "alternativas": [
+              "81 m²",
+              "72 m²",
+              "36 m²",
+              "324 m²"
+            ],
+            "correta": 0,
+            "explicacao": "Lados somam 18: quadrado de 9 m, área 81 m².",
+            "dica": "Metade do perímetro é a soma dos lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor mínimo de f(x) = 2x² − 12x + 23?",
+            "alternativas": [
+              "3",
+              "23",
+              "−5",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "xᵥ = 12/4 = 3; f(3) = 18 − 36 + 23 = 5.",
+            "dica": "Calcule xᵥ com a = 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 60 m de tela para três lados de um cercado encostado num muro, qual é a maior área?",
+            "alternativas": [
+              "225 m²",
+              "900 m²",
+              "450 m²",
+              "300 m²"
+            ],
+            "correta": 2,
+            "explicacao": "A = x(60 − 2x); xᵥ = 15, y = 30: 450 m².",
+            "dica": "Faça como no aprofundamento, trocando 40 por 60."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O lucro é L(p) = −(p − 8)² + 36. Para quais preços há lucro (L > 0)?",
+            "alternativas": [
+              "Só em p = 8",
+              "Entre R$ 2 e R$ 14",
+              "Acima de R$ 14",
+              "Abaixo de R$ 2"
+            ],
+            "correta": 1,
+            "explicacao": "L = 0 quando (p − 8)² = 36: p = 2 ou p = 14. Entre eles, L > 0.",
+            "dica": "Ache onde o lucro é zero."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "CSS: layout com flexbox e página que funciona no celular",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Com display: flex no elemento pai, os filhos viram itens flexíveis e ficam lado a lado. Exemplo: .menu { display: flex; } deixa os links do menu em linha.",
+          "flex-direction escolhe a direção: row (linha, o padrão) ou column (coluna).",
+          "justify-content alinha os itens no eixo principal: flex-start (início), center (centro), flex-end (fim), space-between (espaço entre eles) e space-around (espaço em volta de cada um).",
+          "align-items alinha no outro eixo (na vertical, quando a direção é linha): center, flex-start, flex-end ou stretch (esticar). gap cria espaço entre os itens, e flex-wrap: wrap deixa os itens descerem para a linha de baixo quando não cabem.",
+          "Para funcionar no celular, coloque no head <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> e use media queries: @media (max-width: 600px) { .menu { flex-direction: column; } } empilha o menu em telas pequenas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Centralize um botão no meio de uma caixa, na horizontal e na vertical.",
+            "resolucao": ".caixa {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 200px;\n}"
+          },
+          {
+            "enunciado": "Três cartões ficam lado a lado no computador e devem empilhar no celular. Como fazer?",
+            "resolucao": ".cartoes { display: flex; gap: 16px; }\n@media (max-width: 600px) {\n  .cartoes { flex-direction: column; }\n}"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "flex: 1 faz os itens dividirem o espaço livre em partes iguais. Com flex: 1, flex: 2 e flex: 1 num espaço de 800 px (sem gap), as larguras ficam 200, 400 e 200 px.",
+        "O gap também ocupa espaço: num contêiner de 900 px com três itens flex: 1 e gap: 30px, sobram 900 − 60 = 840 px, e cada item fica com 280 px.",
+        "Mobile first: comece o CSS pensando no celular e use @media (min-width: 768px) para telas maiores. Use medidas relativas (%, rem, vw) e img { max-width: 100%; } para as imagens nunca estourarem a tela."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual propriedade transforma os filhos em itens flexíveis?",
+            "alternativas": [
+              "display: block",
+              "display: flex",
+              "flex-color",
+              "text-align"
+            ],
+            "correta": 1,
+            "explicacao": "display: flex no pai.",
+            "dica": "Flexbox começa com display."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a direção padrão do flexbox?",
+            "alternativas": [
+              "row (linha)",
+              "column (coluna)",
+              "diagonal",
+              "nenhuma"
+            ],
+            "correta": 0,
+            "explicacao": "Por padrão, os itens ficam lado a lado.",
+            "dica": "Os itens ficam lado a lado ou empilhados?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual propriedade cria espaço entre os itens?",
+            "alternativas": [
+              "padding-flex",
+              "margin-auto",
+              "gap",
+              "space"
+            ],
+            "correta": 2,
+            "explicacao": "gap: 16px separa os itens.",
+            "dica": "Gap significa vão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual valor de justify-content centraliza os itens?",
+            "alternativas": [
+              "flex-start",
+              "space-between",
+              "flex-end",
+              "center"
+            ],
+            "correta": 3,
+            "explicacao": "center coloca os itens no meio.",
+            "dica": "Centro, em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para empilhar os itens, usamos:",
+            "alternativas": [
+              "flex-direction: row",
+              "flex-direction: column",
+              "align-items: center",
+              "gap: 0"
+            ],
+            "correta": 1,
+            "explicacao": "column = coluna, um embaixo do outro.",
+            "dica": "Coluna é vertical."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz justify-content: space-between?",
+            "alternativas": [
+              "Coloca espaço entre os itens, encostando o primeiro e o último nas bordas",
+              "Junta todos no centro",
+              "Empilha os itens",
+              "Apaga os itens"
+            ],
+            "correta": 0,
+            "explicacao": "O espaço livre vai entre os itens.",
+            "dica": "Between = entre."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para centralizar na vertical numa linha flex, usamos:",
+            "alternativas": [
+              "justify-content: center",
+              "text-align: center",
+              "align-items: center",
+              "flex-wrap: wrap"
+            ],
+            "correta": 2,
+            "explicacao": "align-items cuida do outro eixo.",
+            "dica": "O eixo principal é horizontal; o outro é…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz flex-wrap: wrap?",
+            "alternativas": [
+              "Esconde os itens",
+              "Gira os itens",
+              "Pinta os itens",
+              "Deixa os itens descerem para outra linha quando não cabem"
+            ],
+            "correta": 3,
+            "explicacao": "Wrap = quebrar a linha.",
+            "dica": "Pense em texto que quebra a linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual meta tag ajuda a página a se ajustar ao celular?",
+            "alternativas": [
+              "<meta charset>",
+              "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+              "<meta name=\"author\">",
+              "<link rel=\"icon\">"
+            ],
+            "correta": 1,
+            "explicacao": "A viewport diz ao celular para usar a largura real da tela.",
+            "dica": "Viewport é a área visível."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz @media (max-width: 600px) { ... }?",
+            "alternativas": [
+              "Aplica as regras só em telas de até 600 px",
+              "Aplica só em telas acima de 600 px",
+              "Muda a cor da página",
+              "Apaga a página no celular"
+            ],
+            "correta": 0,
+            "explicacao": "max-width: até essa largura.",
+            "dica": "Max = máximo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Itens com flex: 1, flex: 2 e flex: 1 num espaço de 800 px, sem gap. Qual é a largura do item do meio?",
+            "alternativas": [
+              "200 px",
+              "266 px",
+              "400 px",
+              "800 px"
+            ],
+            "correta": 2,
+            "explicacao": "Total de partes: 4. Cada parte: 200 px. O do meio tem 2 partes: 400 px.",
+            "dica": "Some as partes e divida o espaço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Contêiner de 900 px, três itens flex: 1 e gap: 30px. Qual é a largura de cada item?",
+            "alternativas": [
+              "300 px",
+              "270 px",
+              "290 px",
+              "280 px"
+            ],
+            "correta": 3,
+            "explicacao": "Dois gaps: 60 px. Sobram 840; 840 ÷ 3 = 280.",
+            "dica": "Quantos espaços há entre três itens?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num menu flex com direção column, qual propriedade alinha os itens na horizontal?",
+            "alternativas": [
+              "align-items",
+              "justify-content",
+              "flex-wrap",
+              "gap"
+            ],
+            "correta": 0,
+            "explicacao": "Em coluna, o eixo principal é vertical; o outro (horizontal) é do align-items.",
+            "dica": "Os eixos trocam quando a direção é coluna."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual regra evita que as imagens estourem a largura da tela do celular?",
+            "alternativas": [
+              "img { width: 2000px; }",
+              "img { max-width: 100%; }",
+              "img { display: flex; }",
+              "img { gap: 100%; }"
+            ],
+            "correta": 1,
+            "explicacao": "max-width: 100% limita a imagem ao tamanho do pai.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para deixar uma página com três cartões funcionando no celular.",
+            "itens": [
+              "Colocar a meta viewport no head",
+              "Criar o contêiner com display: flex",
+              "Ajustar gap e justify-content",
+              "Criar a media query para empilhar no celular"
+            ],
+            "explicacao": "Base, layout, ajustes e, por fim, a adaptação para telas pequenas.",
+            "dica": "A media query é o último ajuste."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No estilo mobile first, qual media query aplica regras só em telas de 768 px ou mais?",
+            "alternativas": [
+              "@media (max-width: 768px)",
+              "@media (width: 768px)",
+              "@media (min-width: 768px)",
+              "@media (mobile: 768px)"
+            ],
+            "correta": 2,
+            "explicacao": "min-width: a partir dessa largura.",
+            "dica": "Min = mínimo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Contêiner de 1.000 px, gap: 20px e itens com flex: 1, flex: 1 e flex: 2. Qual é a largura do maior item?",
+            "alternativas": [
+              "500 px",
+              "480 px",
+              "250 px",
+              "490 px"
+            ],
+            "correta": 1,
+            "explicacao": "Dois gaps: 40 px. Sobram 960; 4 partes de 240; o maior tem 2 partes: 480 px.",
+            "dica": "Desconte os gaps antes de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um menu com justify-content: space-between em telas grandes fica estranho no celular. Qual é a melhor solução?",
+            "alternativas": [
+              "Uma media query que muda flex-direction para column em telas pequenas",
+              "Apagar o menu",
+              "Aumentar a fonte para 50 px",
+              "Tirar a meta viewport"
+            ],
+            "correta": 0,
+            "explicacao": "A media query adapta o layout à tela pequena.",
+            "dica": "Mude o layout só no celular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que usar medidas relativas como % e rem em vez de só px?",
+            "alternativas": [
+              "Porque px é proibido",
+              "Porque rem deixa tudo colorido",
+              "Porque % só funciona em imagens",
+              "Porque elas se adaptam a telas e configurações diferentes"
+            ],
+            "correta": 3,
+            "explicacao": "Medidas relativas acompanham a tela e o tamanho de fonte escolhido pelo usuário.",
+            "dica": "Pense em telas de tamanhos diferentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um contêiner flex tem 5 itens de 250 px, gap: 10px, flex-wrap: wrap e largura de 800 px. Quantos itens cabem na primeira linha?",
+            "alternativas": [
+              "5",
+              "4",
+              "3",
+              "2"
+            ],
+            "correta": 2,
+            "explicacao": "3 itens: 750 + 20 = 770 px (cabe). 4 itens: 1.000 + 30 = 1.030 px (não cabe).",
+            "dica": "Some as larguras e os gaps até passar de 800."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Revisão com controle de alterações e comentários",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Controlar Alterações (guia Revisão, atalho Ctrl + Shift + E) faz o Word marcar tudo o que muda no texto: o que foi apagado aparece riscado e o que foi incluído aparece sublinhado, cada revisor com uma cor.",
+          "Comentários (Revisão > Novo Comentário) são observações na margem que não mudam o texto. Dá para responder a um comentário e marcá-lo como resolvido.",
+          "Cada alteração pode ser aceita ou rejeitada (Revisão > Aceitar ou Rejeitar), uma por uma ou todas de uma vez.",
+          "Modos de exibição: Marcação Simples (mostra só uma linha na margem), Todas as Marcações, Sem Marcações (mostra como ficaria) e Original.",
+          "É o jeito profissional de revisar textos em grupo: cada um sugere, todos veem quem mudou o quê, e o responsável decide. O nome que aparece nas marcas vem de Arquivo > Opções > Geral > Nome de usuário."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Seu grupo escreveu um trabalho e você quer sugerir mudanças sem apagar o que os colegas fizeram.",
+            "resolucao": "Ative Revisão > Controlar Alterações e edite. Suas mudanças ficam marcadas, e o grupo pode aceitar ou rejeitar cada uma."
+          },
+          {
+            "enunciado": "A professora quer explicar por que um parágrafo está confuso sem reescrevê-lo.",
+            "resolucao": "Ela seleciona o parágrafo e usa Revisão > Novo Comentário. O texto fica igual, e a explicação aparece na margem."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Comparar (Revisão > Comparar) junta duas versões de um documento e mostra as diferenças como se fossem alterações controladas. É útil quando alguém editou sem ativar o controle.",
+        "Cuidado: o modo Sem Marcações só esconde as alterações. Elas continuam no arquivo e aparecem para quem abrir. Antes de enviar a versão final, aceite ou rejeite todas as alterações e exclua os comentários.",
+        "Em Controlar Alterações > Bloquear Controle, dá para pôr uma senha para que ninguém desligue o controle sem permissão, o que é útil em trabalhos de equipe."
+      ],
+      "desafio_pratico": "No Word, escreva um parágrafo de 8 linhas sobre o seu bairro. Ligue Controlar Alterações, faça 5 mudanças (incluir, apagar e trocar palavras) e escreva 2 comentários. Depois, aceite 3 alterações, rejeite 2, responda e resolva os comentários e confira em Todas as Marcações se não sobrou nenhuma marca antes de salvar a versão final.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia fica o Controlar Alterações?",
+            "alternativas": [
+              "Inserir",
+              "Revisão",
+              "Layout",
+              "Exibir"
+            ],
+            "correta": 1,
+            "explicacao": "Revisão reúne controle de alterações e comentários.",
+            "dica": "Revisar é…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com o controle ativado, como aparece um texto apagado?",
+            "alternativas": [
+              "Riscado",
+              "Em negrito",
+              "Sumido sem marca",
+              "Em maiúsculas"
+            ],
+            "correta": 0,
+            "explicacao": "O apagado aparece riscado.",
+            "dica": "Ele não some de verdade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um comentário:",
+            "alternativas": [
+              "apaga o parágrafo",
+              "muda a fonte",
+              "fica na margem sem mudar o texto",
+              "corrige a ortografia"
+            ],
+            "correta": 2,
+            "explicacao": "Comentários são observações na margem.",
+            "dica": "O texto continua igual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazer com cada alteração sugerida?",
+            "alternativas": [
+              "Imprimir",
+              "Copiar",
+              "Ignorar sempre",
+              "Aceitar ou rejeitar"
+            ],
+            "correta": 3,
+            "explicacao": "O responsável aceita ou rejeita.",
+            "dica": "São duas opções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o atalho para ligar o Controlar Alterações?",
+            "alternativas": [
+              "Ctrl + P",
+              "Ctrl + Shift + E",
+              "Ctrl + Z",
+              "Alt + F4"
+            ],
+            "correta": 1,
+            "explicacao": "Ctrl + Shift + E liga e desliga o controle.",
+            "dica": "Usa Ctrl, Shift e uma letra."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual modo mostra o texto como ficaria se todas as alterações fossem aceitas, sem mostrar as marcas?",
+            "alternativas": [
+              "Sem Marcações",
+              "Original",
+              "Todas as Marcações",
+              "Marcação Simples"
+            ],
+            "correta": 0,
+            "explicacao": "Sem Marcações mostra o resultado, mas as marcas continuam no arquivo.",
+            "dica": "O nome diz que as marcas não aparecem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como saber QUEM fez cada alteração?",
+            "alternativas": [
+              "Não dá para saber",
+              "Pela cor da página",
+              "Pela cor e pelo nome do revisor nas marcas",
+              "Pelo tamanho da fonte"
+            ],
+            "correta": 2,
+            "explicacao": "Cada revisor tem uma cor e o nome aparece na marca.",
+            "dica": "Cada revisor aparece de um jeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se muda o nome que aparece nas alterações?",
+            "alternativas": [
+              "Inserir > Cabeçalho",
+              "Revisão > Ortografia",
+              "Página Inicial > Fonte",
+              "Arquivo > Opções > Geral > Nome de usuário"
+            ],
+            "correta": 3,
+            "explicacao": "O nome de usuário fica nas opções gerais.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dá para responder a um comentário?",
+            "alternativas": [
+              "Não",
+              "Sim, e depois marcar como resolvido",
+              "Só imprimindo",
+              "Só no celular"
+            ],
+            "correta": 1,
+            "explicacao": "Comentários permitem conversa e resolução.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para aceitar de uma vez todas as alterações, usa-se:",
+            "alternativas": [
+              "Aceitar > Aceitar Todas as Alterações",
+              "Ctrl + A",
+              "Salvar como PDF",
+              "Excluir comentário"
+            ],
+            "correta": 0,
+            "explicacao": "Há a opção de aceitar todas de uma vez.",
+            "dica": "Está no botão Aceitar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um colega editou o trabalho sem ligar o controle. Como descobrir o que ele mudou?",
+            "alternativas": [
+              "Não há como",
+              "Ler tudo de novo",
+              "Revisão > Comparar, com a versão antiga e a nova",
+              "Imprimir as duas"
+            ],
+            "correta": 2,
+            "explicacao": "Comparar mostra as diferenças como alterações controladas.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você escolheu Sem Marcações e enviou o arquivo à professora. O que ela verá ao abrir?",
+            "alternativas": [
+              "Nada, as alterações foram apagadas",
+              "Só a capa",
+              "O arquivo em branco",
+              "As alterações e os comentários continuam no arquivo e podem aparecer"
+            ],
+            "correta": 3,
+            "explicacao": "Sem Marcações só esconde; não remove.",
+            "dica": "Esconder é o mesmo que apagar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como impedir que alguém do grupo desligue o controle de alterações?",
+            "alternativas": [
+              "Bloquear Controle, com senha",
+              "Salvar em outra pasta",
+              "Mudar a fonte",
+              "Apagar os comentários"
+            ],
+            "correta": 0,
+            "explicacao": "Bloquear Controle exige senha para desligar.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é melhor para apontar um problema sem mudar o texto?",
+            "alternativas": [
+              "Apagar o trecho",
+              "Um comentário",
+              "Mudar a cor da letra",
+              "Uma nota de rodapé"
+            ],
+            "correta": 1,
+            "explicacao": "O comentário avisa sem alterar.",
+            "dica": "Qual recurso não muda o texto?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para fechar a versão final de um texto revisado.",
+            "itens": [
+              "Ler todas as alterações e comentários",
+              "Aceitar ou rejeitar cada alteração",
+              "Excluir os comentários resolvidos",
+              "Conferir em Todas as Marcações se não sobrou nada",
+              "Salvar e enviar"
+            ],
+            "explicacao": "Revisar, decidir, limpar, conferir e só então enviar.",
+            "dica": "Enviar é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Três alterações estão marcadas: incluir \"muito\", apagar \"bem\" e trocar \"fez\" por \"realizou\". Você aceita a primeira e rejeita as outras duas. Como fica o texto?",
+            "alternativas": [
+              "Sem \"muito\", sem \"bem\" e com \"realizou\"",
+              "Com \"muito\", sem \"bem\" e com \"realizou\"",
+              "Com \"muito\", com \"bem\" e com \"fez\"",
+              "Sem \"muito\", com \"bem\" e com \"fez\""
+            ],
+            "correta": 2,
+            "explicacao": "Aceitar a inclusão mantém \"muito\"; rejeitar a exclusão mantém \"bem\"; rejeitar a troca mantém \"fez\".",
+            "dica": "Rejeitar é desfazer a sugestão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rejeitar a EXCLUSÃO de uma palavra faz o quê?",
+            "alternativas": [
+              "Apaga a palavra de vez",
+              "Cria um comentário",
+              "Muda a cor",
+              "Mantém a palavra no texto"
+            ],
+            "correta": 3,
+            "explicacao": "Rejeitar desfaz a sugestão; a exclusão não acontece.",
+            "dica": "Rejeitar desfaz a mudança sugerida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o controle de alterações é útil num trabalho de grupo?",
+            "alternativas": [
+              "Mostra quem mudou o quê e deixa o responsável decidir",
+              "Impede qualquer mudança",
+              "Corrige tudo sozinho",
+              "Deixa o arquivo menor"
+            ],
+            "correta": 0,
+            "explicacao": "Transparência e decisão final organizada.",
+            "dica": "Pense em trabalho em equipe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O arquivo tem 12 alterações. Você aceitou 5 e rejeitou 4. Quantas ainda faltam decidir?",
+            "alternativas": [
+              "9",
+              "3",
+              "12",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "12 − 5 − 4 = 3.",
+            "dica": "Tire as já decididas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de enviar um currículo revisado por um amigo com controle de alterações, o que é essencial?",
+            "alternativas": [
+              "Deixar em Sem Marcações",
+              "Mudar a cor do texto",
+              "Aceitar ou rejeitar tudo e excluir os comentários",
+              "Desligar o computador"
+            ],
+            "correta": 2,
+            "explicacao": "Senão a empresa pode ver as marcas e os comentários.",
+            "dica": "Esconder não é remover."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Contratar o primeiro funcionário com registro: passo a passo e custo real",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Contratar com carteira assinada é obrigação legal e protege os dois lados: o trabalhador tem seus direitos e o negócio evita processos e multas. Contratar sem registro é ilegal.",
+          "Passo a passo: definir a função, o salário (pelo menos o salário mínimo ou o piso da categoria) e a jornada; fazer o exame médico admissional; registrar na carteira de trabalho digital e informar o governo pelo eSocial; assinar o contrato, que pode ter período de experiência de até 90 dias.",
+          "O MEI pode ter um empregado, que deve receber o salário mínimo ou o piso da categoria. Empresas maiores podem ter quantos funcionários precisarem.",
+          "O custo real é maior que o salário: FGTS de 8%, 13º salário, férias com um terço, contribuição ao INSS (no MEI, 3% sobre o salário; no Simples Nacional, em muitas atividades, a parte da empresa já vem na guia do Simples) e vale-transporte, em que a empresa paga o que passar de 6% do salário.",
+          "Exemplo, salário de R$ 2.000 numa empresa do Simples com INSS já na guia: FGTS R$ 160 + 13º (1/12) R$ 166,67 + férias com um terço (1/12) R$ 222,22 + FGTS sobre 13º e férias R$ 31,11 = R$ 2.580 por mês, sem contar o vale-transporte."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O funcionário gasta R$ 220 de condução por mês e ganha R$ 2.000. Quanto a empresa paga de vale-transporte?",
+            "resolucao": "O trabalhador paga até 6% do salário: 0,06 × 2.000 = R$ 120. A empresa paga o resto: 220 − 120 = R$ 100."
+          },
+          {
+            "enunciado": "Num MEI, quanto é a contribuição ao INSS sobre um salário de R$ 1.600?",
+            "resolucao": "3% de 1.600 = R$ 48, além do FGTS de 8% (R$ 128)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Contratar para multiplicar a produção: se o funcionário permite atender 30 carros a mais por mês, com lucro de R$ 120 em cada um, entram R$ 3.600 a mais, valor maior que um custo de cerca de R$ 2.700. O dono ganha tempo para vender, planejar e cuidar da qualidade.",
+        "Riscos da informalidade: o trabalhador sem registro pode ir à Justiça do Trabalho e cobrar todos os direitos atrasados (FGTS, férias, 13º), com correção e multas. Além disso, fica sem proteção do INSS em caso de acidente.",
+        "A Constituição proíbe o trabalho de menores de 16 anos, salvo como aprendiz a partir dos 14. Liderar bem é treinar, explicar as tarefas, pagar em dia e tratar com respeito: um bom funcionário que fica economiza o custo de contratar e treinar outro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Contratar um funcionário sem registro é:",
+            "alternativas": [
+              "permitido se for parente",
+              "ilegal",
+              "obrigatório no MEI",
+              "normal no primeiro ano"
+            ],
+            "correta": 1,
+            "explicacao": "Todo empregado deve ter carteira assinada.",
+            "dica": "Releia a primeira frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o salário mínimo que se pode pagar a um funcionário registrado?",
+            "alternativas": [
+              "O salário mínimo ou o piso da categoria",
+              "Metade do salário mínimo",
+              "O que o dono quiser",
+              "Só comissão"
+            ],
+            "correta": 0,
+            "explicacao": "Não se pode pagar abaixo do mínimo ou do piso.",
+            "dica": "Existe um valor mínimo garantido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos empregados um MEI pode ter?",
+            "alternativas": [
+              "nenhum",
+              "três",
+              "um",
+              "dez"
+            ],
+            "correta": 2,
+            "explicacao": "O MEI pode ter um empregado.",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é o FGTS que a empresa deposita?",
+            "alternativas": [
+              "20% do salário",
+              "3% do salário",
+              "1/3 do salário",
+              "8% do salário"
+            ],
+            "correta": 3,
+            "explicacao": "8% do salário, todo mês.",
+            "dica": "É o mesmo percentual que vimos na CLT."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O período de experiência pode ter até:",
+            "alternativas": [
+              "1 ano",
+              "90 dias",
+              "7 dias",
+              "2 anos"
+            ],
+            "correta": 1,
+            "explicacao": "Até 90 dias.",
+            "dica": "São três meses."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Salário de R$ 2.000. Quanto é o FGTS mensal?",
+            "alternativas": [
+              "R$ 160",
+              "R$ 200",
+              "R$ 80",
+              "R$ 600"
+            ],
+            "correta": 0,
+            "explicacao": "8% de 2.000 = 160.",
+            "dica": "Calcule 8%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto a empresa deve reservar por mês para o 13º de um salário de R$ 2.400?",
+            "alternativas": [
+              "R$ 2.400",
+              "R$ 240",
+              "R$ 200",
+              "R$ 120"
+            ],
+            "correta": 2,
+            "explicacao": "1/12 de 2.400 = 200.",
+            "dica": "O 13º é dividido em 12 partes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Funcionário com salário de R$ 1.500 gasta R$ 200 de condução. Quanto a empresa paga de vale-transporte?",
+            "alternativas": [
+              "R$ 200",
+              "R$ 90",
+              "R$ 150",
+              "R$ 110"
+            ],
+            "correta": 3,
+            "explicacao": "6% de 1.500 = 90 (parte do trabalhador). Empresa: 200 − 90 = 110.",
+            "dica": "O trabalhador paga até 6% do salário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem certa para contratar?",
+            "alternativas": [
+              "Começar a trabalhar e registrar depois de um ano",
+              "Definir função e salário, fazer exame admissional e registrar",
+              "Registrar só se o funcionário pedir",
+              "Pagar sem recibo"
+            ],
+            "correta": 1,
+            "explicacao": "Função, salário, exame e registro antes de começar.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No exemplo da lição, qual é o custo mensal de um salário de R$ 2.000 sem o vale-transporte?",
+            "alternativas": [
+              "R$ 2.580",
+              "R$ 2.000",
+              "R$ 2.160",
+              "R$ 3.000"
+            ],
+            "correta": 0,
+            "explicacao": "2.000 + 160 + 166,67 + 222,22 + 31,11 = 2.580.",
+            "dica": "Some todos os itens do exemplo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um MEI paga salário de R$ 1.600. Quanto ele recolhe de INSS e de FGTS juntos?",
+            "alternativas": [
+              "R$ 128",
+              "R$ 48",
+              "R$ 176",
+              "R$ 320"
+            ],
+            "correta": 2,
+            "explicacao": "INSS 3% = 48; FGTS 8% = 128; total 176.",
+            "dica": "Some 3% e 8% de 1.600."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto a empresa deve reservar por mês para as férias com um terço de um salário de R$ 3.000?",
+            "alternativas": [
+              "R$ 250",
+              "R$ 1.000",
+              "R$ 4.000",
+              "R$ 333,33"
+            ],
+            "correta": 3,
+            "explicacao": "Férias com 1/3: 4.000 por ano; ÷ 12 = 333,33.",
+            "dica": "Calcule as férias com o terço e divida por 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário custa R$ 2.700 por mês e permite atender 30 clientes a mais, com lucro de R$ 120 cada. Vale a pena?",
+            "alternativas": [
+              "Sim: entram R$ 3.600 e o custo é R$ 2.700, sobram R$ 900",
+              "Não: o custo é maior",
+              "Empata",
+              "Só se o funcionário trabalhar sem registro"
+            ],
+            "correta": 0,
+            "explicacao": "30 × 120 = 3.600 > 2.700.",
+            "dica": "Compare o lucro extra com o custo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono de lanchonete deixou um ajudante 2 anos sem registro. O que pode acontecer?",
+            "alternativas": [
+              "Nada, se pagou em dinheiro",
+              "O ajudante pode cobrar na Justiça FGTS, férias e 13º atrasados, com correção e multas",
+              "O ajudante perde os direitos por ter aceitado",
+              "Só é problema para empresas grandes"
+            ],
+            "correta": 1,
+            "explicacao": "Os direitos continuam valendo mesmo sem registro.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o passo a passo para contratar o primeiro funcionário.",
+            "itens": [
+              "Definir função, salário e jornada",
+              "Fazer o exame admissional",
+              "Registrar na carteira digital e no eSocial",
+              "Treinar e acompanhar no período de experiência"
+            ],
+            "explicacao": "Planejar, exame, registro e acompanhamento.",
+            "dica": "O treinamento vem depois do registro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Salário de R$ 2.500 numa empresa do Simples com INSS na guia. Qual é o custo mensal aproximado, com FGTS, 13º, férias com um terço e FGTS sobre eles?",
+            "alternativas": [
+              "R$ 2.700",
+              "R$ 3.225",
+              "R$ 3.000",
+              "R$ 2.900"
+            ],
+            "correta": 1,
+            "explicacao": "FGTS 200 + 13º 208,33 + férias 277,78 + FGTS sobre eles 38,89 = 725. Total: 3.225.",
+            "dica": "Faça como no exemplo da lição, com 2.500."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O custo total de um funcionário é 29% maior que o salário. Para um salário de R$ 1.800, o custo fica perto de:",
+            "alternativas": [
+              "R$ 1.829",
+              "R$ 2.700",
+              "R$ 2.088",
+              "R$ 2.322"
+            ],
+            "correta": 3,
+            "explicacao": "1.800 × 1,29 = 2.322.",
+            "dica": "Multiplique por 1,29."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um jovem de 15 anos quer trabalhar na oficina. Como pode ser contratado?",
+            "alternativas": [
+              "Como aprendiz, com contrato e registro, sem prejudicar a escola",
+              "Como empregado comum, em tempo integral",
+              "Sem registro, pagando por dia",
+              "Não pode trabalhar de nenhuma forma, nem como aprendiz"
+            ],
+            "correta": 0,
+            "explicacao": "Antes dos 16, só como aprendiz, a partir dos 14.",
+            "dica": "Lembre a regra da Constituição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que tratar bem e pagar em dia também é uma boa decisão financeira?",
+            "alternativas": [
+              "Porque dispensa o registro",
+              "Porque permite pagar menos que o mínimo",
+              "Porque reduz a rotatividade e evita o custo de contratar e treinar outro",
+              "Porque elimina os impostos"
+            ],
+            "correta": 2,
+            "explicacao": "Perder bons funcionários custa caro.",
+            "dica": "Quanto custa recomeçar com alguém novo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação sobre o vale-transporte está correta?",
+            "alternativas": [
+              "A empresa paga sempre 100%",
+              "O trabalhador paga até 6% do salário e a empresa paga o restante",
+              "É opcional para a empresa mesmo se o funcionário pedir",
+              "O trabalhador paga tudo"
+            ],
+            "correta": 1,
+            "explicacao": "Desconto máximo de 6% do salário do trabalhador.",
+            "dica": "Releia o quarto parágrafo da lição."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Uso do hífen sem medo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Prefixo terminado em vogal + palavra começada pela MESMA vogal: use hífen (micro-ondas, anti-inflamatório, contra-ataque). Vogais DIFERENTES: junte (autoescola, infraestrutura, extraescolar).",
+          "Prefixo + palavra começada por h: use hífen (anti-higiênico, super-homem, pré-história).",
+          "Prefixo terminado em vogal + palavra começada por r ou s: junte e dobre a consoante (antirracismo, minissaia, ultrassom, contrarregra).",
+          "Prefixo terminado em consoante + palavra começada pela MESMA consoante: hífen (inter-regional, super-resistente, sub-base). Consoantes diferentes: junte (hiperativo, intermunicipal, superinteressante).",
+          "Prefixos que sempre pedem hífen: ex- (ex-aluno), vice- (vice-diretor), pré-, pós- e pró- acentuados (pré-escola, pós-graduação, pró-reitor), recém- (recém-nascido), sem- (sem-terra) e além- (além-mar)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva corretamente: anti + inflamatório, auto + escola, mini + saia.",
+            "resolucao": "anti-inflamatório (vogais iguais: hífen), autoescola (vogais diferentes: junta) e minissaia (s depois de vogal: junta e dobra)."
+          },
+          {
+            "enunciado": "Escreva corretamente: super + homem, inter + nacional, ex + presidente.",
+            "resolucao": "super-homem (h: hífen), internacional (consoantes diferentes: junta) e ex-presidente (ex- sempre com hífen)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Compostos com palavra de ligação perderam o hífen: dia a dia, fim de semana, pé de moleque. Exceções que ficaram: cor-de-rosa, água-de-colônia, mais-que-perfeito, pé-de-meia, à queima-roupa.",
+        "Nomes de plantas e animais mantêm o hífen: bem-te-vi, couve-flor, erva-doce, joão-de-barro. Algumas palavras se juntaram de vez: paraquedas, mandachuva.",
+        "O prefixo co- junta sempre, até com o mesmo o ou com h: coautor, cooperar, coerdeiro. O sub- leva hífen antes de r e de b: sub-região, sub-base. E bem- costuma ter hífen (bem-vindo, bem-estar), mas há formas juntas, como benfeito."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "microondas",
+              "micro-ondas",
+              "micro ondas",
+              "micrôondas"
+            ],
+            "correta": 1,
+            "explicacao": "Prefixo terminado em o + palavra começada por o: hífen.",
+            "dica": "As vogais que se encontram são iguais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "autoescola",
+              "auto-escola",
+              "auto escola",
+              "autto-escola"
+            ],
+            "correta": 0,
+            "explicacao": "Vogais diferentes (o + e): junta.",
+            "dica": "Vogais diferentes se juntam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "anti-racismo",
+              "anti racismo",
+              "antirracismo",
+              "antiracismo"
+            ],
+            "correta": 2,
+            "explicacao": "Vogal + r: junta e dobra o r.",
+            "dica": "O r fica entre vogais e precisa dobrar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual prefixo SEMPRE pede hífen?",
+            "alternativas": [
+              "auto",
+              "anti",
+              "micro",
+              "ex"
+            ],
+            "correta": 3,
+            "explicacao": "ex- (anterior) sempre leva hífen: ex-aluno.",
+            "dica": "Pense em ex-aluno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "super homem",
+              "super-homem",
+              "superomem",
+              "superhomem"
+            ],
+            "correta": 1,
+            "explicacao": "Palavra começada por h: hífen.",
+            "dica": "Começa com h."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "infraestrutura",
+              "infra-estrutura",
+              "infra estrutura",
+              "infraestructura"
+            ],
+            "correta": 0,
+            "explicacao": "a + e: vogais diferentes, junta.",
+            "dica": "As vogais são iguais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "mini-saia",
+              "mini saia",
+              "minissaia",
+              "minisaia"
+            ],
+            "correta": 2,
+            "explicacao": "Vogal + s: junta e dobra.",
+            "dica": "O s precisa dobrar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "interregional",
+              "inter regional",
+              "interrregional",
+              "inter-regional"
+            ],
+            "correta": 3,
+            "explicacao": "Prefixo terminado em r + palavra com r: hífen.",
+            "dica": "Consoantes iguais se encontram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "vice diretor",
+              "vice-diretor",
+              "vicediretor",
+              "vice-director"
+            ],
+            "correta": 1,
+            "explicacao": "vice- sempre com hífen.",
+            "dica": "Vice é da lista dos que sempre têm hífen."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "hiperativo",
+              "hiper-ativo",
+              "hiper ativo",
+              "hiperrativo"
+            ],
+            "correta": 0,
+            "explicacao": "r + a: consoante e vogal, junta.",
+            "dica": "Consoante seguida de vogal se junta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual grupo está TODO correto?",
+            "alternativas": [
+              "anti-inflamatório, auto-escola, ultra-som",
+              "antiinflamatório, autoescola, ultrassom",
+              "anti-inflamatório, autoescola, ultrassom",
+              "anti inflamatório, auto escola, ultra som"
+            ],
+            "correta": 2,
+            "explicacao": "Vogais iguais: hífen; diferentes: junta; vogal + s: dobra.",
+            "dica": "Aplique uma regra para cada palavra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual grupo está TODO correto, segundo o acordo?",
+            "alternativas": [
+              "dia-a-dia, fim-de-semana, cor-de-rosa",
+              "dia a dia, fim de semana, cor de rosa",
+              "dia-a-dia, fim de semana, cor de rosa",
+              "dia a dia, fim de semana, cor-de-rosa"
+            ],
+            "correta": 3,
+            "explicacao": "Compostos com ligação perderam o hífen, mas cor-de-rosa é exceção.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "recém-nascido",
+              "recemnascido",
+              "recém nascido",
+              "recem-nascido"
+            ],
+            "correta": 0,
+            "explicacao": "recém- sempre com hífen (e com acento).",
+            "dica": "Recém é da lista dos que sempre pedem hífen."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta?",
+            "alternativas": [
+              "co-autor",
+              "coautor",
+              "co autor",
+              "coo-autor"
+            ],
+            "correta": 1,
+            "explicacao": "O prefixo co- junta sempre.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as perguntas para decidir o hífen depois de um prefixo.",
+            "itens": [
+              "O prefixo é dos que sempre pedem hífen (ex-, vice-, pré-…)?",
+              "A palavra começa com h?",
+              "As letras que se encontram são iguais?",
+              "Se for vogal + r ou s, junte e dobre a consoante"
+            ],
+            "explicacao": "Primeiro os casos especiais, depois h, depois letras iguais e, por fim, o r e o s.",
+            "dica": "Os casos que sempre têm hífen vêm primeiro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está TODA correta?",
+            "alternativas": [
+              "O ex-aluno fez pós-graduação e trabalha com infraestrutura e ultrassom.",
+              "O ex aluno fez pós graduação e trabalha com infra-estrutura e ultra-som.",
+              "O exaluno fez pósgraduação e trabalha com infraestrutura e ultrasom.",
+              "O ex-aluno fez pós graduação e trabalha com infra-estrutura e ultrassom."
+            ],
+            "correta": 0,
+            "explicacao": "ex- e pós- com hífen; infraestrutura junta; ultrassom dobra o s.",
+            "dica": "Confira cada palavra com uma regra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra está ERRADA?",
+            "alternativas": [
+              "sub-região",
+              "contrarregra",
+              "anti-higiênico",
+              "autoretrato"
+            ],
+            "correta": 3,
+            "explicacao": "Vogal + r: junta e dobra. O certo é autorretrato.",
+            "dica": "Procure um r que deveria dobrar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par mantém o hífen por ser nome de planta ou animal?",
+            "alternativas": [
+              "fim de semana e pé de moleque",
+              "bem-te-vi e couve-flor",
+              "dia a dia e mão de obra",
+              "paraquedas e mandachuva"
+            ],
+            "correta": 1,
+            "explicacao": "Espécies de plantas e animais mantêm o hífen.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a escrita correta de super + resistente e de super + interessante?",
+            "alternativas": [
+              "superresistente e super-interessante",
+              "super resistente e super interessante",
+              "super-resistente e superinteressante",
+              "super-resistente e super-interessante"
+            ],
+            "correta": 2,
+            "explicacao": "r + r: hífen; r + i: junta.",
+            "dica": "Consoantes iguais pedem hífen; consoante e vogal se juntam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase segue o acordo ortográfico?",
+            "alternativas": [
+              "Use o micro-ondas e tome o anti-inflamatório no fim de semana.",
+              "Use o microondas e tome o antiinflamatório no fim-de-semana.",
+              "Use o micro ondas e tome o anti inflamatório no fim de semana.",
+              "Use o micro-ondas e tome o antiinflamatório no fim-de-semana."
+            ],
+            "correta": 0,
+            "explicacao": "Vogais iguais pedem hífen; fim de semana perdeu o hífen.",
+            "dica": "Confira três palavras."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O primeiro registro da oficina",
+    "texto": "Seu Valdir tinha uma oficina mecânica pequena no Jardim Ângela. Durante doze anos, trabalhou sozinho: abria o portão às sete, fechava às sete, almoçava em pé e recusava serviço quase toda semana. Até que a filha, Patrícia, sentou com ele numa noite e abriu uma planilha.\n\n— Pai, o senhor recusou trinta carros no mês passado. Se cada um deixasse cento e vinte reais de lucro, seriam três mil e seiscentos reais.\n\n— E quem ia consertar esses carros?\n\n— Um ajudante. Com carteira assinada.\n\nSeu Valdir torceu o nariz. Conhecia muita gente que \"pegava um menino\" e pagava por dia, sem registro. Patrícia tinha feito as contas também disso.\n\n— Se ele se machucar, o senhor responde. Se ele sair e entrar na Justiça, o senhor paga tudo atrasado, com multa. Não compensa.\n\nEntão fizeram do jeito certo. Igor, de vinte anos, tinha terminado o curso técnico de mecânica. Fez o exame admissional, foi registrado na carteira digital, e a contadora mandou as informações para o eSocial. O salário era de dois mil reais.\n\nNa planilha, Patrícia mostrou o custo real: oito por cento de FGTS, a parte do décimo terceiro e das férias guardada todo mês, o vale-transporte acima dos seis por cento que o Igor pagava. Dava perto de dois mil e setecentos reais.\n\n— É mais do que eu pensava — disse o pai.\n\n— E menos do que os três mil e seiscentos que o senhor deixava passar.\n\nTrês meses depois, a oficina atendia mais carros, seu Valdir almoçava sentado e Igor já trocava embreagem sozinho. No fim do período de experiência, o mecânico chamou o rapaz no escritório e entregou um papel: a confirmação do contrato.\n\n— Agora é para valer."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, liste os custos de contratar um funcionário com registro (FGTS, 13º, férias, vale-transporte, INSS) e explique por que, mesmo custando mais, é melhor do que contratar sem registro."
+  }
+}

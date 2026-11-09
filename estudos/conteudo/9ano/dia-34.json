@@ -1,0 +1,1503 @@
+{
+  "dia": 34,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Sistemas de equações: métodos da substituição e da adição",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Um sistema de equações reúne duas equações com duas incógnitas, como x + y = 10 e x − y = 4. A solução é o par (x, y) que deixa as duas equações verdadeiras ao mesmo tempo.",
+          "Método da substituição: isole uma incógnita numa equação e substitua na outra. De x + y = 10, temos x = 10 − y. Na outra: (10 − y) − y = 4 → 10 − 2y = 4 → y = 3. Então x = 10 − 3 = 7.",
+          "Método da adição: some as equações para uma incógnita sumir. (x + y) + (x − y) = 10 + 4 → 2x = 14 → x = 7. Volte numa equação: 7 + y = 10 → y = 3.",
+          "Quando nada some direto, multiplique uma equação antes. Em 2x + 3y = 12 e x + y = 5, multiplique a segunda por −2: −2x − 2y = −10. Somando: y = 2. Então x = 5 − 2 = 3.",
+          "Problemas: na cantina, 2 salgados e 1 suco custam R$ 13, e 1 salgado e 1 suco custam R$ 8. Com s e j: 2s + j = 13 e s + j = 8. Subtraindo, s = 5; então j = 3. Sempre confira na situação original."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Num quintal há galinhas e coelhos: 20 cabeças e 56 pés. Quantos são de cada?",
+            "resolucao": "g + c = 20 e 2g + 4c = 56. Multiplicando a primeira por 2: 2g + 2c = 40. Subtraindo: 2c = 16 → c = 8 e g = 12. Confira: 24 + 32 = 56 pés."
+          },
+          {
+            "enunciado": "Resolva 3x + 2y = 16 e x − y = 2 por substituição.",
+            "resolucao": "x = y + 2. Então 3(y + 2) + 2y = 16 → 5y + 6 = 16 → y = 2 e x = 4. Confira: 12 + 4 = 16 e 4 − 2 = 2."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Nem todo sistema tem uma única solução. Possível e determinado: uma solução. Impossível: nenhuma, como x + y = 3 e x + y = 5 (a mesma soma não pode dar dois valores). Indeterminado: infinitas, como x + y = 3 e 2x + 2y = 6 (a segunda é a primeira dobrada).",
+        "No gráfico, cada equação é uma reta. A solução é o ponto onde elas se cruzam. Retas paralelas nunca se cruzam (sistema impossível); retas coincidentes têm todos os pontos em comum (indeterminado).",
+        "Escolha do método: substituição quando uma incógnita tem coeficiente 1 ou já está isolada; adição quando os coeficientes são opostos ou fáceis de igualar. Com 3x + 2y = 18 e 5x − 3y = 11, multiplique a primeira por 3 e a segunda por 2: 9x + 6y = 54 e 10x − 6y = 22, e somando, 19x = 76, x = 4 e y = 3."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a solução de um sistema de duas equações?",
+            "alternativas": [
+              "Qualquer número que sirva numa delas",
+              "O par (x, y) que satisfaz as duas equações",
+              "A soma das equações",
+              "O valor de x apenas"
+            ],
+            "correta": 1,
+            "explicacao": "A solução precisa funcionar nas duas ao mesmo tempo.",
+            "dica": "Precisa valer para as duas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Somando x + y = 10 e x − y = 4, o que se obtém?",
+            "alternativas": [
+              "2x = 14",
+              "2y = 14",
+              "x = 6",
+              "2x = 6"
+            ],
+            "correta": 0,
+            "explicacao": "y e −y se cancelam: 2x = 14.",
+            "dica": "Some os lados esquerdos e os direitos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se x = 7 e x + y = 10, quanto vale y?",
+            "alternativas": [
+              "7",
+              "17",
+              "3",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "7 + y = 10 → y = 3.",
+            "dica": "Quanto falta para 10?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par é solução de x + y = 5 e x − y = 1?",
+            "alternativas": [
+              "(4, 1)",
+              "(2, 3)",
+              "(5, 0)",
+              "(3, 2)"
+            ],
+            "correta": 3,
+            "explicacao": "3 + 2 = 5 e 3 − 2 = 1.",
+            "dica": "Teste cada par nas duas equações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No método da substituição, qual é o primeiro passo?",
+            "alternativas": [
+              "Somar as equações",
+              "Isolar uma incógnita numa das equações",
+              "Multiplicar tudo por zero",
+              "Desenhar um gráfico"
+            ],
+            "correta": 1,
+            "explicacao": "Isolamos uma incógnita para colocá-la na outra equação.",
+            "dica": "Substituir exige ter algo isolado."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva x + y = 12 e x − y = 2.",
+            "alternativas": [
+              "x = 6 e y = 6",
+              "x = 5 e y = 7",
+              "x = 7 e y = 5",
+              "x = 8 e y = 4"
+            ],
+            "correta": 2,
+            "explicacao": "Somando: 2x = 14, x = 7; y = 5.",
+            "dica": "Use o método da adição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "2 salgados e 1 suco custam R$ 13; 1 salgado e 1 suco custam R$ 8. Quanto custa o salgado?",
+            "alternativas": [
+              "R$ 5",
+              "R$ 3",
+              "R$ 4",
+              "R$ 6,50"
+            ],
+            "correta": 0,
+            "explicacao": "Subtraindo as equações: s = 13 − 8 = 5.",
+            "dica": "A diferença entre os pedidos é um salgado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva y = 2x e x + y = 15.",
+            "alternativas": [
+              "x = 10 e y = 5",
+              "x = 7 e y = 8",
+              "x = 3 e y = 12",
+              "x = 5 e y = 10"
+            ],
+            "correta": 3,
+            "explicacao": "x + 2x = 15 → x = 5 e y = 10.",
+            "dica": "Substitua y por 2x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num quintal há 20 cabeças e 56 pés de galinhas e coelhos. Quantos coelhos?",
+            "alternativas": [
+              "12",
+              "8",
+              "10",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "2c = 56 − 40 = 16 → c = 8.",
+            "dica": "Se todos fossem galinhas, haveria 40 pés."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A soma de dois números é 30 e a diferença é 6. Quais são?",
+            "alternativas": [
+              "15 e 15",
+              "20 e 10",
+              "18 e 12",
+              "24 e 6"
+            ],
+            "correta": 2,
+            "explicacao": "2x = 36 → x = 18 e y = 12.",
+            "dica": "Monte x + y = 30 e x − y = 6."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 2x + 3y = 12 e x + y = 5.",
+            "alternativas": [
+              "x = 2 e y = 3",
+              "x = 3 e y = 2",
+              "x = 0 e y = 4",
+              "x = 6 e y = 0"
+            ],
+            "correta": 1,
+            "explicacao": "Multiplicando a segunda por −2 e somando: y = 2; x = 3. Confira: 6 + 6 = 12.",
+            "dica": "Multiplique a segunda equação para eliminar x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 3x + 2y = 16 e x − y = 2.",
+            "alternativas": [
+              "x = 4 e y = 2",
+              "x = 2 e y = 4",
+              "x = 5 e y = 3",
+              "x = 6 e y = −1"
+            ],
+            "correta": 0,
+            "explicacao": "x = y + 2 → 5y + 6 = 16 → y = 2 e x = 4.",
+            "dica": "Isole x na segunda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cinema vendeu 40 ingressos, inteira a R$ 20 e meia a R$ 10, e arrecadou R$ 620. Quantas meias foram vendidas?",
+            "alternativas": [
+              "22",
+              "20",
+              "12",
+              "18"
+            ],
+            "correta": 3,
+            "explicacao": "i + m = 40 e 20i + 10m = 620 → 2i + m = 62 → i = 22 e m = 18. Confira: 440 + 180 = 620.",
+            "dica": "Divida a segunda equação por 10 para simplificar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se classifica o sistema x + y = 3 e x + y = 5?",
+            "alternativas": [
+              "Possível e determinado",
+              "Indeterminado",
+              "Impossível",
+              "Tem solução (1, 2)"
+            ],
+            "correta": 2,
+            "explicacao": "A mesma soma não pode valer 3 e 5: nenhuma solução.",
+            "dica": "x + y pode ter dois valores ao mesmo tempo?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos do método da adição.",
+            "itens": [
+              "Alinhar x com x e y com y nas duas equações",
+              "Multiplicar uma equação para criar coeficientes opostos",
+              "Somar as equações para eliminar uma incógnita",
+              "Resolver e achar a primeira incógnita",
+              "Substituir para achar a outra"
+            ],
+            "explicacao": "Arrumar, preparar, somar, resolver e voltar para achar a outra.",
+            "dica": "Somar só funciona depois de preparar os coeficientes."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 3x + 2y = 18 e 5x − 3y = 11.",
+            "alternativas": [
+              "x = 2 e y = 6",
+              "x = 3 e y = 4,5",
+              "x = 4 e y = 3",
+              "x = 5 e y = 1,5"
+            ],
+            "correta": 2,
+            "explicacao": "×3 e ×2: 9x + 6y = 54 e 10x − 6y = 22. Somando: 19x = 76, x = 4, y = 3. Confira: 20 − 9 = 11.",
+            "dica": "Iguale os coeficientes de y com sinais opostos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se classifica o sistema x + y = 3 e 2x + 2y = 6?",
+            "alternativas": [
+              "Indeterminado, com infinitas soluções",
+              "Impossível",
+              "Determinado, com solução (1, 2)",
+              "Determinado, com solução (3, 0)"
+            ],
+            "correta": 0,
+            "explicacao": "A segunda é a primeira multiplicada por 2: as retas coincidem.",
+            "dica": "Compare a segunda equação com o dobro da primeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Hoje o pai tem o triplo da idade do filho. Daqui a 10 anos, terá o dobro. Quais são as idades hoje?",
+            "alternativas": [
+              "pai 24, filho 8",
+              "pai 36, filho 12",
+              "pai 45, filho 15",
+              "pai 30, filho 10"
+            ],
+            "correta": 3,
+            "explicacao": "p = 3f e p + 10 = 2(f + 10) → 3f + 10 = 2f + 20 → f = 10 e p = 30. Daqui a 10 anos: 40 e 20.",
+            "dica": "Os dois envelhecem 10 anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tem 25 moedas de 25 centavos e de 50 centavos, somando R$ 9,50. Quantas são de 50 centavos?",
+            "alternativas": [
+              "12",
+              "13",
+              "15",
+              "19"
+            ],
+            "correta": 1,
+            "explicacao": "x + y = 25 e 0,25x + 0,50y = 9,50 → x + 2y = 38 → y = 13 e x = 12. Confira: 3,00 + 6,50 = 9,50.",
+            "dica": "Multiplique a equação do dinheiro por 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para qual valor de k o sistema x + 2y = 4 e 2x + ky = 7 é impossível?",
+            "alternativas": [
+              "2",
+              "7",
+              "8",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "Com k = 4, temos 2x + 4y = 7, mas o dobro da primeira dá 2x + 4y = 8: retas paralelas.",
+            "dica": "Retas paralelas têm os mesmos coeficientes de x e y, mas resultados diferentes."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Busca e ordenação: como o computador põe tudo em ordem",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Busca linear (ou sequencial): olhar item por item até achar o que se procura. Numa lista de 1.000 itens, no pior caso, são 1.000 comparações.",
+          "Busca binária: só funciona em lista ordenada. Olha o item do meio e descarta a metade onde o valor não pode estar, repetindo até achar. Em 1.000 itens, bastam cerca de 10 comparações, porque 2¹⁰ = 1.024.",
+          "Para ordenar em Python: sorted(lista) devolve uma lista nova e ordenada; lista.sort() ordena a própria lista. Use reverse=True para a ordem decrescente: sorted([4, 10, 7], reverse=True) dá [10, 7, 4].",
+          "Por dentro, um jeito simples de ordenar é o bubble sort (método da bolha): comparar vizinhos e trocar quando estão fora de ordem, repetindo as passadas até não haver trocas. A cada passada, o maior vai para o fim.",
+          "Textos são ordenados pela tabela de caracteres, em que as maiúsculas vêm antes das minúsculas: sorted([\"banana\", \"Abacate\", \"caju\"]) dá ['Abacate', 'banana', 'caju'], mas sorted([\"abacate\", \"Zebra\"]) dá ['Zebra', 'abacate']."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O que devolve buscar([7, 3, 9], 9)?\ndef buscar(lista, alvo):\n    for i in range(len(lista)):\n        if lista[i] == alvo:\n            return i\n    return -1",
+            "resolucao": "Devolve 2, a posição do 9. Se o alvo não estiver na lista, a função devolve -1."
+          },
+          {
+            "enunciado": "Faça a busca binária do 23 em [2, 5, 8, 12, 16, 23, 38].",
+            "resolucao": "O meio é 12 (posição 3). Como 23 é maior, ficamos com [16, 23, 38]. O meio agora é 23: achou em 2 comparações."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Bubble sort em [5, 1, 4, 2], 1ª passada: 5 e 1 trocam → [1, 5, 4, 2]; 5 e 4 trocam → [1, 4, 5, 2]; 5 e 2 trocam → [1, 4, 2, 5]. Na 2ª passada, 4 e 2 trocam → [1, 2, 4, 5]. Uma última passada sem trocas confirma a ordem.",
+        "O bubble sort faz cerca de n²/2 comparações: com 1.000 itens, quase 500 mil. O sorted do Python usa um método muito mais esperto (Timsort), por isso é melhor usar o sorted no dia a dia e estudar a bolha para entender a ideia.",
+        "O parâmetro key muda o critério: sorted(nomes, key=str.lower) ignora maiúsculas; sorted(palavras, key=len) ordena pelo tamanho. Quando há empate no critério, o sorted mantém a ordem original entre os empatados."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a busca que olha item por item?",
+            "alternativas": [
+              "busca linear",
+              "busca binária",
+              "ordenação",
+              "bolha"
+            ],
+            "correta": 0,
+            "explicacao": "A busca linear (sequencial) percorre a lista do começo ao fim.",
+            "dica": "É a busca que segue em linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o método de ordenar que compara vizinhos e troca?",
+            "alternativas": [
+              "busca binária",
+              "bubble sort (bolha)",
+              "sorted reverso",
+              "busca linear"
+            ],
+            "correta": 1,
+            "explicacao": "O bubble sort compara vizinhos e troca quando estão fora de ordem.",
+            "dica": "O nome lembra bolhas subindo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A busca binária exige que a lista esteja:",
+            "alternativas": [
+              "vazia",
+              "com números negativos",
+              "ordenada",
+              "com 1.000 itens"
+            ],
+            "correta": 2,
+            "explicacao": "Sem ordem, descartar metade não faz sentido.",
+            "dica": "Ela descarta metades. Quando isso funciona?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para ordenar do maior para o menor, usamos:",
+            "alternativas": [
+              "key=len",
+              "sort=False",
+              "lista[0]",
+              "reverse=True"
+            ],
+            "correta": 3,
+            "explicacao": "reverse=True inverte a ordem.",
+            "dica": "Reverso, em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de sorted([3, 1, 2])?",
+            "alternativas": [
+              "[3, 2, 1]",
+              "[1, 2, 3]",
+              "[3, 1, 2]",
+              "[2, 1, 3]"
+            ],
+            "correta": 1,
+            "explicacao": "sorted ordena do menor para o maior.",
+            "dica": "Ordem crescente."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com a função buscar da lição, quanto vale buscar([7, 3, 9], 9)?",
+            "alternativas": [
+              "9",
+              "3",
+              "2",
+              "-1"
+            ],
+            "correta": 2,
+            "explicacao": "O 9 está na posição 2 (as posições começam em 0).",
+            "dica": "As posições começam em zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "E buscar([7, 3, 9], 5)?",
+            "alternativas": [
+              "-1",
+              "0",
+              "5",
+              "erro"
+            ],
+            "correta": 0,
+            "explicacao": "O 5 não está na lista, então a função devolve -1.",
+            "dica": "O que a função devolve quando não acha?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre sorted(lista) e lista.sort()?",
+            "alternativas": [
+              "Nenhuma",
+              "sort devolve uma lista nova",
+              "sorted só funciona com textos",
+              "sorted devolve uma lista nova; sort ordena a própria lista"
+            ],
+            "correta": 3,
+            "explicacao": "sorted cria outra lista; sort altera a original.",
+            "dica": "Uma delas muda a lista original."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na busca binária do 23 em [2, 5, 8, 12, 16, 23, 38], qual é o primeiro item olhado?",
+            "alternativas": [
+              "2",
+              "12",
+              "23",
+              "38"
+            ],
+            "correta": 1,
+            "explicacao": "O meio da lista de 7 itens é a posição 3: o 12.",
+            "dica": "Comece pelo meio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de sorted([\"banana\", \"Abacate\", \"caju\"])?",
+            "alternativas": [
+              "['banana', 'caju', 'Abacate']",
+              "['caju', 'banana', 'Abacate']",
+              "['Abacate', 'banana', 'caju']",
+              "['Abacate', 'caju', 'banana']"
+            ],
+            "correta": 2,
+            "explicacao": "Aqui a ordem coincide com a alfabética: A, b, c.",
+            "dica": "Maiúsculas vêm antes das minúsculas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa lista ordenada de 1.000 itens, a busca binária precisa de, no máximo, cerca de:",
+            "alternativas": [
+              "500 comparações",
+              "10 comparações",
+              "100 comparações",
+              "1.000 comparações"
+            ],
+            "correta": 1,
+            "explicacao": "Cada passo corta pela metade: 2¹⁰ = 1.024, então uns 10 passos.",
+            "dica": "Quantas vezes dá para dividir 1.000 por 2?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois da 1ª passada do bubble sort em [5, 1, 4, 2], como fica a lista?",
+            "alternativas": [
+              "[1, 2, 4, 5]",
+              "[1, 5, 4, 2]",
+              "[5, 4, 2, 1]",
+              "[1, 4, 2, 5]"
+            ],
+            "correta": 3,
+            "explicacao": "O 5 vai sendo trocado até o fim: [1, 4, 2, 5].",
+            "dica": "Na 1ª passada, o maior vai para o fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de sorted([\"pera\", \"Uva\", \"abacaxi\"])?",
+            "alternativas": [
+              "['Uva', 'abacaxi', 'pera']",
+              "['abacaxi', 'pera', 'Uva']",
+              "['abacaxi', 'Uva', 'pera']",
+              "['pera', 'Uva', 'abacaxi']"
+            ],
+            "correta": 0,
+            "explicacao": "Maiúsculas vêm antes de todas as minúsculas: U antes de a.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de sorted([4, 10, 7], reverse=True)?",
+            "alternativas": [
+              "[4, 7, 10]",
+              "[7, 10, 4]",
+              "[10, 7, 4]",
+              "[10, 4, 7]"
+            ],
+            "correta": 2,
+            "explicacao": "Decrescente: 10, 7, 4.",
+            "dica": "reverse=True deixa do maior para o menor."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos da busca binária.",
+            "itens": [
+              "Olhar o item do meio",
+              "Comparar com o valor procurado",
+              "Descartar a metade onde ele não pode estar",
+              "Repetir na metade que sobrou"
+            ],
+            "explicacao": "Meio, comparar, descartar e repetir até achar ou acabar a lista.",
+            "dica": "O descarte vem depois da comparação."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de sorted([\"Carla\", \"bruno\", \"Ana\"], key=str.lower)?",
+            "alternativas": [
+              "['Ana', 'Carla', 'bruno']",
+              "['Ana', 'bruno', 'Carla']",
+              "['bruno', 'Ana', 'Carla']",
+              "['Carla', 'bruno', 'Ana']"
+            ],
+            "correta": 1,
+            "explicacao": "Com key=str.lower, a comparação ignora maiúsculas: ana, bruno, carla.",
+            "dica": "key=str.lower compara tudo em minúsculas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de sorted([\"sol\", \"abacaxi\", \"uva\"], key=len)?",
+            "alternativas": [
+              "['abacaxi', 'sol', 'uva']",
+              "['uva', 'sol', 'abacaxi']",
+              "['sol', 'abacaxi', 'uva']",
+              "['sol', 'uva', 'abacaxi']"
+            ],
+            "correta": 3,
+            "explicacao": "Tamanhos 3, 7 e 3. Sol e uva empatam e mantêm a ordem original: sol antes de uva.",
+            "dica": "Em caso de empate, a ordem original é mantida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa lista ordenada com 1.000.000 de itens, a busca binária precisa de, no máximo, cerca de:",
+            "alternativas": [
+              "20 comparações",
+              "1.000 comparações",
+              "500.000 comparações",
+              "100 comparações"
+            ],
+            "correta": 0,
+            "explicacao": "2²⁰ = 1.048.576, então cerca de 20 passos.",
+            "dica": "Dobre 1.024 algumas vezes até passar de um milhão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas trocas o bubble sort faz para ordenar [3, 2, 1]?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "1ª passada: 3↔2 → [2, 3, 1]; 3↔1 → [2, 1, 3]. 2ª passada: 2↔1 → [1, 2, 3]. Total: 3 trocas.",
+            "dica": "Faça passada por passada no papel."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém aplicou a busca binária em [9, 2, 7, 4, 5] procurando o 2. O que pode acontecer?",
+            "alternativas": [
+              "Acha sempre na 1ª comparação",
+              "Pode dizer que o 2 não está lá, porque a lista não está ordenada",
+              "Ordena a lista sozinha",
+              "Dá erro de sintaxe"
+            ],
+            "correta": 1,
+            "explicacao": "O meio é 7; como 2 < 7, ela vai para a esquerda e pode descartar o 2 por engano. Sem ordem, o método não é confiável.",
+            "dica": "Qual é a condição para a busca binária funcionar?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Notas de rodapé, citações e referências automáticas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Nota de rodapé é um comentário ou indicação de fonte que aparece no pé da página, ligado a um número no texto. No Word: guia Referências > Inserir Nota de Rodapé (atalho Ctrl + Alt + F). A nota de fim fica no final do documento.",
+          "O Word numera as notas sozinho. Se você apagar ou mover uma nota, todas as outras são renumeradas automaticamente.",
+          "Citações: em Referências > Inserir Citação > Adicionar Nova Fonte, você cadastra autor, título, ano e editora ou site. O Word coloca a citação no texto no estilo escolhido na lista (APA, por exemplo). A escola pode pedir as regras da ABNT, que às vezes exigem um ajuste manual.",
+          "Bibliografia: em Referências > Bibliografia, o Word monta a lista de todas as fontes citadas, em ordem alfabética. Se você citar uma fonte nova, clique em Atualizar Citações e Bibliografia.",
+          "Citar a fonte é honestidade: copiar ideias ou frases sem dizer de onde vieram é plágio. Citação direta (palavras exatas do autor) vem entre aspas e com a fonte indicada."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você escreveu que a Semana de Arte Moderna foi em 1922 e quer indicar o livro de onde tirou a informação no pé da página.",
+            "resolucao": "Clique logo depois da frase, vá em Referências > Inserir Nota de Rodapé e escreva a fonte. O número aparece no texto e a nota, no pé da página."
+          },
+          {
+            "enunciado": "O trabalho tem 5 fontes cadastradas e você precisa da lista no final.",
+            "resolucao": "Vá até a última página, clique em Referências > Bibliografia e escolha um modelo. Se cadastrar outra fonte depois, use Atualizar Citações e Bibliografia."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Legendas e referências cruzadas: clique numa imagem e use Referências > Inserir Legenda (\"Figura 1\"). Depois, em Referência Cruzada, escreva \"como mostra a Figura 1\" com um campo que se atualiza se a figura mudar de número.",
+        "Campos do Word (sumário, legendas, referências cruzadas) se atualizam selecionando o texto e apertando F9. O sumário automático depende dos estilos de Título 1, Título 2 e assim por diante.",
+        "Em Gerenciar Fontes, as fontes ficam guardadas numa lista mestra e podem ser reaproveitadas em outros trabalhos, sem digitar tudo de novo."
+      ],
+      "desafio_pratico": "No Word, escreva um texto de duas páginas sobre um tema de ciências (por exemplo, o pH). Coloque 3 notas de rodapé, cadastre 3 fontes com Inserir Citação e crie a bibliografia automática no final. Insira uma figura com legenda e escreva uma referência cruzada para ela. Depois, apague uma nota e veja a renumeração.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia ficam as notas de rodapé?",
+            "alternativas": [
+              "Página Inicial",
+              "Referências",
+              "Inserir",
+              "Exibir"
+            ],
+            "correta": 1,
+            "explicacao": "Notas, citações e bibliografia ficam na guia Referências.",
+            "dica": "É a guia das fontes e das notas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde aparece a nota de rodapé?",
+            "alternativas": [
+              "No pé da página",
+              "No título",
+              "Na capa",
+              "Numa janela separada"
+            ],
+            "correta": 0,
+            "explicacao": "Rodapé é a parte de baixo da página.",
+            "dica": "O nome já diz: rodapé."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se você apagar a nota 2 de um total de 5, o que acontece com as outras?",
+            "alternativas": [
+              "Ficam com os números antigos",
+              "Somem todas",
+              "São renumeradas sozinhas",
+              "Viram notas de fim"
+            ],
+            "correta": 2,
+            "explicacao": "O Word renumera tudo automaticamente.",
+            "dica": "A numeração é automática."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Copiar frases de um autor sem dizer de onde vieram é:",
+            "alternativas": [
+              "citação direta",
+              "bibliografia",
+              "nota de fim",
+              "plágio"
+            ],
+            "correta": 3,
+            "explicacao": "Usar o trabalho de outra pessoa sem dar o crédito é plágio.",
+            "dica": "É uma falta de honestidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a bibliografia automática faz?",
+            "alternativas": [
+              "Corrige a ortografia",
+              "Lista as fontes citadas em ordem alfabética",
+              "Numera as páginas",
+              "Cria a capa"
+            ],
+            "correta": 1,
+            "explicacao": "Ela reúne as fontes cadastradas e citadas.",
+            "dica": "Pense na lista do final do trabalho."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o atalho para inserir uma nota de rodapé?",
+            "alternativas": [
+              "Ctrl + Alt + F",
+              "Ctrl + B",
+              "Ctrl + P",
+              "Alt + F4"
+            ],
+            "correta": 0,
+            "explicacao": "Ctrl + Alt + F insere a nota de rodapé.",
+            "dica": "O F lembra footnote, rodapé em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre nota de rodapé e nota de fim?",
+            "alternativas": [
+              "Nenhuma",
+              "A de fim é maior",
+              "A de rodapé fica no pé da página; a de fim, no final do documento",
+              "A de rodapé não tem número"
+            ],
+            "correta": 2,
+            "explicacao": "A posição é a diferença.",
+            "dica": "Pense em onde cada uma aparece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como cadastrar um livro para citá-lo?",
+            "alternativas": [
+              "Digitando o nome no rodapé",
+              "Inserir > Imagem",
+              "Revisão > Ortografia",
+              "Referências > Inserir Citação > Adicionar Nova Fonte"
+            ],
+            "correta": 3,
+            "explicacao": "Nesse caminho você informa autor, título, ano e editora.",
+            "dica": "É na guia Referências."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você citou uma fonte nova depois de criar a bibliografia. O que fazer?",
+            "alternativas": [
+              "Apagar e digitar tudo de novo",
+              "Clicar em Atualizar Citações e Bibliografia",
+              "Salvar como PDF",
+              "Nada, ela não muda"
+            ],
+            "correta": 1,
+            "explicacao": "A bibliografia é um campo que precisa ser atualizado.",
+            "dica": "Existe um botão para isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deve aparecer uma citação direta, com as palavras exatas do autor?",
+            "alternativas": [
+              "Entre aspas e com a fonte",
+              "Sem aspas e sem fonte",
+              "Só em negrito",
+              "Em letras maiúsculas"
+            ],
+            "correta": 0,
+            "explicacao": "Aspas mostram que as palavras não são suas.",
+            "dica": "O que mostra que a frase é de outra pessoa?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para escrever \"como mostra a Figura 3\" e o número se atualizar sozinho, use:",
+            "alternativas": [
+              "Nota de fim",
+              "Bibliografia",
+              "Referência cruzada",
+              "Quebra de página"
+            ],
+            "correta": 2,
+            "explicacao": "A referência cruzada liga o texto à legenda.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tecla atualiza os campos selecionados, como o sumário e as legendas?",
+            "alternativas": [
+              "F1",
+              "F5",
+              "F12",
+              "F9"
+            ],
+            "correta": 3,
+            "explicacao": "Selecione e aperte F9.",
+            "dica": "É uma tecla de função perto do fim da fileira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O sumário automático depende de quê?",
+            "alternativas": [
+              "Dos estilos de Título aplicados aos títulos",
+              "Das notas de rodapé",
+              "Das citações",
+              "Do tamanho da fonte"
+            ],
+            "correta": 0,
+            "explicacao": "O Word monta o sumário a partir dos estilos Título 1, Título 2…",
+            "dica": "Como o Word sabe o que é título?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam guardadas as fontes para reaproveitar em outros trabalhos?",
+            "alternativas": [
+              "Na lixeira",
+              "Em Gerenciar Fontes, na lista mestra",
+              "No cabeçalho",
+              "Em Arquivo > Imprimir"
+            ],
+            "correta": 1,
+            "explicacao": "A lista mestra guarda as fontes já cadastradas.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para montar as referências de um trabalho.",
+            "itens": [
+              "Cadastrar as fontes ao escrever",
+              "Inserir as citações no texto",
+              "Criar a bibliografia na última página",
+              "Atualizar a bibliografia se surgir fonte nova"
+            ],
+            "explicacao": "Fontes primeiro, citações no texto, lista no fim e atualização quando necessário.",
+            "dica": "A atualização é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu trabalho tem as figuras 1, 2 e 3. Você insere uma nova figura antes da Figura 1, com legenda. O que acontece com as referências cruzadas depois de atualizar (F9)?",
+            "alternativas": [
+              "Ficam erradas para sempre",
+              "Todas viram Figura 1",
+              "Passam a citar 2, 3 e 4 corretamente",
+              "Somem do texto"
+            ],
+            "correta": 2,
+            "explicacao": "Legendas e referências cruzadas são campos: atualizando, os números acompanham.",
+            "dica": "Campos acompanham as mudanças quando atualizados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma colega digitou \"Figura 1\" à mão em vez de usar Inserir Legenda. Qual é o problema?",
+            "alternativas": [
+              "Nenhum",
+              "O Word não deixa digitar",
+              "A figura some",
+              "O número não se atualiza se a ordem das figuras mudar"
+            ],
+            "correta": 3,
+            "explicacao": "Texto digitado à mão não é campo e não se atualiza.",
+            "dica": "Digitado à mão é campo ou texto comum?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto tem 3 notas de rodapé. Você recorta o parágrafo da nota 3 e cola antes da nota 1. Como ficam os números?",
+            "alternativas": [
+              "O parágrafo colado passa a ter a nota 1 e as outras viram 2 e 3",
+              "Ficam 3, 1 e 2",
+              "Ficam todas com o número 3",
+              "A nota recortada some"
+            ],
+            "correta": 0,
+            "explicacao": "A numeração segue a ordem em que as notas aparecem no texto.",
+            "dica": "A numeração segue a posição no texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre citar e fazer plágio?",
+            "alternativas": [
+              "Citar é copiar sem aspas",
+              "Citar é dar o crédito ao autor; plágio é usar sem dar crédito",
+              "Plágio só existe em livros",
+              "Não há diferença se o texto for curto"
+            ],
+            "correta": 1,
+            "explicacao": "O crédito é o que separa os dois.",
+            "dica": "Tem a ver com dar crédito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O professor pediu as regras da ABNT, mas o Word não mostra esse estilo na lista. O que fazer?",
+            "alternativas": [
+              "Desistir das citações",
+              "Trocar de editor de texto obrigatoriamente",
+              "Apagar a bibliografia",
+              "Usar o estilo mais próximo e ajustar manualmente o que a ABNT pede"
+            ],
+            "correta": 3,
+            "explicacao": "A lição avisa que a ABNT às vezes precisa de ajuste manual.",
+            "dica": "Releia o terceiro parágrafo da lição."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "DRE simples: receita, custo, despesa e lucro do mês",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A DRE (Demonstração do Resultado do Exercício) é o \"boletim\" do negócio: mostra, num período, se a empresa teve lucro ou prejuízo.",
+          "Começa pela receita bruta (tudo o que foi vendido). Tirando os impostos sobre as vendas e as devoluções, chega-se à receita líquida.",
+          "Custos são os gastos ligados diretamente ao que foi vendido: ingredientes, mercadorias, embalagens. Receita líquida − custos = lucro bruto.",
+          "Despesas são os gastos para manter o negócio funcionando: aluguel, luz, internet, salários e encargos, propaganda e a retirada do dono (pró-labore). Lucro bruto − despesas = lucro líquido.",
+          "Lanchonete da Dona Célia no mês: receita bruta R$ 20.000; impostos R$ 1.200 → receita líquida R$ 18.800; custo dos lanches R$ 8.000 → lucro bruto R$ 10.800; despesas R$ 7.400 → lucro líquido R$ 3.400."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Detalhe as despesas de R$ 7.400 da lanchonete.",
+            "resolucao": "Aluguel R$ 2.500 + luz e gás R$ 900 + salário e encargos de um funcionário registrado R$ 3.400 + internet e maquininha R$ 600 = R$ 7.400."
+          },
+          {
+            "enunciado": "Qual é a margem líquida da lanchonete?",
+            "resolucao": "Margem líquida = lucro líquido ÷ receita bruta = 3.400 ÷ 20.000 = 0,17 = 17%. De cada R$ 100 vendidos, sobram R$ 17."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Lucro não é o mesmo que dinheiro no caixa. A DRE registra a venda no mês em que aconteceu, mesmo que o cartão só pague depois. O fluxo de caixa é que mostra quando o dinheiro entra e sai. Uma empresa pode ter lucro e ficar sem dinheiro para pagar as contas.",
+        "Se o dono não coloca a própria retirada como despesa, o lucro parece maior do que é. E cortar direitos do funcionário para \"melhorar a DRE\" é ilegal e caro: gera processos, multas e perda de bons trabalhadores.",
+        "Margem bruta = lucro bruto ÷ receita bruta. Na lanchonete, 10.800 ÷ 20.000 = 54%. Para não ter prejuízo, o lucro bruto precisa cobrir as despesas: com margem de 54% e despesas de R$ 7.400, a receita mínima fica perto de R$ 13.700 (7.400 ÷ 0,54)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a DRE?",
+            "alternativas": [
+              "Para registrar funcionários",
+              "Para mostrar se o negócio teve lucro ou prejuízo",
+              "Para emitir nota fiscal",
+              "Para pagar o aluguel"
+            ],
+            "correta": 1,
+            "explicacao": "A DRE mostra o resultado do período.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Receita bruta é:",
+            "alternativas": [
+              "tudo o que foi vendido",
+              "o lucro",
+              "só o dinheiro em espécie",
+              "o valor do aluguel"
+            ],
+            "correta": 0,
+            "explicacao": "É o total das vendas, antes de qualquer desconto.",
+            "dica": "É o começo da DRE."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O aluguel da loja é:",
+            "alternativas": [
+              "um custo do produto",
+              "uma receita",
+              "uma despesa",
+              "um imposto sobre a venda"
+            ],
+            "correta": 2,
+            "explicacao": "O aluguel mantém o negócio funcionando, não entra no produto.",
+            "dica": "O aluguel muda conforme quantos lanches você vende?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucro bruto − despesas =",
+            "alternativas": [
+              "receita bruta",
+              "custo",
+              "imposto",
+              "lucro líquido"
+            ],
+            "correta": 3,
+            "explicacao": "É a última linha da DRE simples.",
+            "dica": "É o que sobra no fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os ingredientes de um lanche são:",
+            "alternativas": [
+              "despesa fixa",
+              "custo",
+              "receita",
+              "lucro"
+            ],
+            "correta": 1,
+            "explicacao": "Estão ligados diretamente ao que foi vendido.",
+            "dica": "Eles entram no produto."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Receita bruta de R$ 20.000 e impostos sobre vendas de R$ 1.200. Qual é a receita líquida?",
+            "alternativas": [
+              "R$ 18.800",
+              "R$ 21.200",
+              "R$ 19.800",
+              "R$ 8.800"
+            ],
+            "correta": 0,
+            "explicacao": "20.000 − 1.200 = 18.800.",
+            "dica": "Tire os impostos da receita bruta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Receita líquida de R$ 18.800 e custos de R$ 8.000. Qual é o lucro bruto?",
+            "alternativas": [
+              "R$ 26.800",
+              "R$ 8.000",
+              "R$ 10.800",
+              "R$ 12.000"
+            ],
+            "correta": 2,
+            "explicacao": "18.800 − 8.000 = 10.800.",
+            "dica": "Receita líquida menos custos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucro bruto de R$ 10.800 e despesas de R$ 7.400. Qual é o lucro líquido?",
+            "alternativas": [
+              "R$ 18.200",
+              "R$ 7.400",
+              "R$ 4.400",
+              "R$ 3.400"
+            ],
+            "correta": 3,
+            "explicacao": "10.800 − 7.400 = 3.400.",
+            "dica": "Faça a última subtração da DRE."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a margem líquida de quem lucrou R$ 3.400 vendendo R$ 20.000?",
+            "alternativas": [
+              "34%",
+              "17%",
+              "3,4%",
+              "20%"
+            ],
+            "correta": 1,
+            "explicacao": "3.400 ÷ 20.000 = 0,17 = 17%.",
+            "dica": "Divida o lucro pela receita bruta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A retirada mensal do dono (pró-labore) deve entrar na DRE como:",
+            "alternativas": [
+              "despesa",
+              "receita",
+              "lucro",
+              "não entra"
+            ],
+            "correta": 0,
+            "explicacao": "Se não entrar, o lucro parece maior do que é.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma doceria vendeu R$ 12.000, pagou R$ 600 de impostos sobre vendas, gastou R$ 4.400 em ingredientes e R$ 5.000 em despesas. Qual foi o lucro líquido?",
+            "alternativas": [
+              "R$ 2.600",
+              "R$ 7.000",
+              "R$ 2.000",
+              "R$ 3.000"
+            ],
+            "correta": 2,
+            "explicacao": "12.000 − 600 = 11.400; − 4.400 = 7.000; − 5.000 = 2.000.",
+            "dica": "Siga a ordem da DRE linha por linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a margem bruta da lanchonete (lucro bruto R$ 10.800, receita bruta R$ 20.000)?",
+            "alternativas": [
+              "17%",
+              "46%",
+              "40%",
+              "54%"
+            ],
+            "correta": 3,
+            "explicacao": "10.800 ÷ 20.000 = 0,54 = 54%.",
+            "dica": "Use o lucro bruto, não o líquido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma empresa teve lucro de R$ 5.000 no mês, mas não tem dinheiro para pagar o fornecedor. Como isso é possível?",
+            "alternativas": [
+              "As vendas foram no cartão e o dinheiro ainda não entrou",
+              "A DRE está sempre errada",
+              "Lucro e caixa são a mesma coisa",
+              "O fornecedor cobrou a mais"
+            ],
+            "correta": 0,
+            "explicacao": "A DRE registra a venda; o caixa só recebe depois.",
+            "dica": "Lucro não é o mesmo que dinheiro no caixa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para \"melhorar a DRE\", um dono pensa em parar de registrar o funcionário. O que é correto dizer?",
+            "alternativas": [
+              "É uma boa forma de economizar",
+              "É ilegal e arriscado: gera processo, multa e perda de bons funcionários",
+              "Não muda nada na lei",
+              "Só é proibido para empresas grandes"
+            ],
+            "correta": 1,
+            "explicacao": "Trabalhar sem registro tira direitos e expõe o negócio a ações e multas.",
+            "dica": "Pense nos riscos legais."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as linhas de uma DRE simples.",
+            "itens": [
+              "Receita bruta",
+              "Receita líquida",
+              "Lucro bruto",
+              "Lucro líquido"
+            ],
+            "explicacao": "Da venda total até o que sobra depois de impostos, custos e despesas.",
+            "dica": "O lucro líquido é a última linha."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com margem bruta de 54% e despesas de R$ 7.400, qual é a receita bruta mínima, aproximada, para não ter prejuízo?",
+            "alternativas": [
+              "R$ 7.400",
+              "R$ 13.700",
+              "R$ 11.400",
+              "R$ 16.000"
+            ],
+            "correta": 1,
+            "explicacao": "A receita precisa gerar lucro bruto de 7.400: 7.400 ÷ 0,54 ≈ 13.700.",
+            "dica": "Qual receita, vezes 54%, dá as despesas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a lanchonete vender 10% a mais (R$ 22.000), com impostos e custos subindo na mesma proporção e despesas iguais, qual será o lucro líquido?",
+            "alternativas": [
+              "R$ 3.740",
+              "R$ 3.400",
+              "R$ 5.000",
+              "R$ 4.480"
+            ],
+            "correta": 3,
+            "explicacao": "Lucro bruto: 54% de 22.000 = 11.880; menos 7.400 = 4.480. As despesas não cresceram.",
+            "dica": "Calcule o novo lucro bruto e subtraia as mesmas despesas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja vendeu R$ 30.000 e teve lucro líquido de R$ 1.500. Outra vendeu R$ 15.000 e lucrou R$ 1.500. Qual tem a melhor margem líquida?",
+            "alternativas": [
+              "A segunda, com 10% contra 5%",
+              "A primeira, porque vendeu mais",
+              "As duas têm a mesma margem",
+              "Impossível calcular"
+            ],
+            "correta": 0,
+            "explicacao": "1.500 ÷ 30.000 = 5%; 1.500 ÷ 15.000 = 10%.",
+            "dica": "Margem compara lucro com receita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na DRE de março, deve entrar uma venda feita em março no cartão, que só será paga em abril?",
+            "alternativas": [
+              "Não, só em abril",
+              "Só se for à vista",
+              "Sim, a DRE registra a venda no mês em que aconteceu",
+              "Nunca entra"
+            ],
+            "correta": 2,
+            "explicacao": "A DRE segue o mês da venda; o caixa segue o mês do recebimento.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Célia mostra à equipe a meta de vendas e combina um bônus se o lucro crescer. Isso é:",
+            "alternativas": [
+              "proibido pela CLT",
+              "um jeito de liderar com transparência, sem cortar direitos",
+              "obrigação de toda empresa",
+              "o mesmo que reduzir salários"
+            ],
+            "correta": 1,
+            "explicacao": "Compartilhar metas e recompensar resultados motiva, desde que os direitos sejam respeitados.",
+            "dica": "Pense em liderança dentro da lei."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Modos verbais: indicativo, subjuntivo e imperativo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O modo verbal mostra a atitude de quem fala diante do que diz: certeza, dúvida ou desejo, ou ordem.",
+          "Indicativo: expressa certeza, um fato real. \"Eu estudo todo dia\", \"Ela chegou cedo\", \"Amanhã choverá\".",
+          "Subjuntivo: expressa dúvida, hipótese ou desejo. Tem três tempos: presente (\"Talvez eu estude\", \"Espero que você venha\"), pretérito imperfeito (\"Se eu estudasse mais…\") e futuro (\"Quando eu estudar…\", \"Se você vier…\").",
+          "Imperativo: expressa ordem, pedido ou conselho. Afirmativo: \"Estude!\", \"Venha cá\". Negativo: \"Não desista\", \"Não corra\".",
+          "Erros comuns no futuro do subjuntivo: \"se eu ver\" (o certo é \"se eu vir\"), \"quando eu fazer\" (o certo é \"quando eu fizer\"), \"se ele trazer\" (o certo é \"se ele trouxer\")."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Identifique o modo: \"Se você vier amanhã, a gente estuda junto\".",
+            "resolucao": "\"Vier\" está no subjuntivo (futuro): é uma hipótese. \"Estuda\" está no indicativo: é o que vai acontecer se a condição se cumprir."
+          },
+          {
+            "enunciado": "Corrija: \"Quando eu ver o resultado, te aviso\".",
+            "resolucao": "\"Quando eu vir o resultado, te aviso.\" O futuro do subjuntivo de ver é vir."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Truque do futuro do subjuntivo: pegue a 3ª pessoa do plural do pretérito perfeito e tire o \"-am\". Fizeram → fizer; viram → vir; trouxeram → trouxer; puseram → puser; souberam → souber; quiseram → quiser.",
+        "O imperativo com você usa as formas da 3ª pessoa: \"Você, venha cá\" (e não \"vem cá\", que combina com tu). O imperativo negativo vem do presente do subjuntivo: \"Não fale\", \"Não faça\".",
+        "Correlação de tempos: \"Se eu tivesse tempo, faria o curso\" (pretérito imperfeito do subjuntivo + futuro do pretérito). \"Se eu tiver tempo, farei o curso\" (futuro do subjuntivo + futuro do presente)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual modo expressa certeza?",
+            "alternativas": [
+              "subjuntivo",
+              "indicativo",
+              "imperativo",
+              "infinitivo"
+            ],
+            "correta": 1,
+            "explicacao": "O indicativo apresenta fatos reais.",
+            "dica": "Indica um fato."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual modo expressa ordem ou pedido?",
+            "alternativas": [
+              "imperativo",
+              "indicativo",
+              "subjuntivo",
+              "particípio"
+            ],
+            "correta": 0,
+            "explicacao": "\"Estude!\", \"Venha cá\".",
+            "dica": "Pense em imperador dando ordens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Talvez eu viaje\", o verbo está no:",
+            "alternativas": [
+              "indicativo",
+              "imperativo",
+              "subjuntivo",
+              "infinitivo"
+            ],
+            "correta": 2,
+            "explicacao": "Talvez indica dúvida: subjuntivo.",
+            "dica": "A frase tem certeza ou dúvida?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma correta?",
+            "alternativas": [
+              "Se eu ver",
+              "Se eu vesse",
+              "Se eu verei",
+              "Se eu vir"
+            ],
+            "correta": 3,
+            "explicacao": "O futuro do subjuntivo de ver é vir.",
+            "dica": "Lembre os erros comuns da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Não corra no corredor.\" O verbo está no:",
+            "alternativas": [
+              "indicativo",
+              "imperativo negativo",
+              "subjuntivo pretérito",
+              "futuro do presente"
+            ],
+            "correta": 1,
+            "explicacao": "É uma ordem com não.",
+            "dica": "É uma ordem ou um fato?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Espero que você passe na prova\", passe está no:",
+            "alternativas": [
+              "presente do subjuntivo",
+              "presente do indicativo",
+              "imperativo afirmativo",
+              "futuro do indicativo"
+            ],
+            "correta": 0,
+            "explicacao": "Depois de \"espero que\" vem desejo: subjuntivo.",
+            "dica": "Espero indica desejo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma correta?",
+            "alternativas": [
+              "Quando eu fazer a prova",
+              "Quando eu fazerei a prova",
+              "Quando eu fizer a prova",
+              "Quando eu fazendo a prova"
+            ],
+            "correta": 2,
+            "explicacao": "Futuro do subjuntivo de fazer: fizer.",
+            "dica": "Lembre: fizeram → ?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Se eu estudasse mais, passaria\", estudasse está no:",
+            "alternativas": [
+              "presente do subjuntivo",
+              "imperativo",
+              "futuro do subjuntivo",
+              "pretérito imperfeito do subjuntivo"
+            ],
+            "correta": 3,
+            "explicacao": "É uma hipótese com \"se\" no passado: pretérito imperfeito do subjuntivo.",
+            "dica": "Termina em -sse."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está no indicativo?",
+            "alternativas": [
+              "Talvez ela venha.",
+              "Ela veio ontem.",
+              "Venha logo!",
+              "Se ela viesse…"
+            ],
+            "correta": 1,
+            "explicacao": "\"Veio\" apresenta um fato.",
+            "dica": "Procure a certeza."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Corrija: \"Se ele trazer o livro, a gente lê junto\".",
+            "alternativas": [
+              "Se ele trouxer o livro",
+              "Se ele trazesse o livro",
+              "Se ele trazerá o livro",
+              "Se ele traga o livro"
+            ],
+            "correta": 0,
+            "explicacao": "Trouxeram → trouxer.",
+            "dica": "Use o truque do pretérito perfeito."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o futuro do subjuntivo de pôr, na frase \"Quando ele ___ a mesa, avise\"?",
+            "alternativas": [
+              "pôr",
+              "pôs",
+              "puser",
+              "ponha"
+            ],
+            "correta": 2,
+            "explicacao": "Puseram → puser.",
+            "dica": "Use o truque: 3ª pessoa do plural do pretérito perfeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa o imperativo com você de forma correta?",
+            "alternativas": [
+              "Você, vem cá.",
+              "Você, faz isso.",
+              "Você, diz a verdade.",
+              "Você, venha cá."
+            ],
+            "correta": 3,
+            "explicacao": "Com você, usa-se a forma da 3ª pessoa: venha.",
+            "dica": "Você combina com a 3ª pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Se eu ___ a resposta, eu te contaria.\"",
+            "alternativas": [
+              "soubesse",
+              "souber",
+              "sei",
+              "saberia"
+            ],
+            "correta": 0,
+            "explicacao": "Hipótese no passado + futuro do pretérito (contaria): pretérito imperfeito do subjuntivo.",
+            "dica": "Contaria pede qual forma no \"se\"?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o imperativo negativo de fazer, com você?",
+            "alternativas": [
+              "Não faz",
+              "Não faça",
+              "Não fazes",
+              "Não fazer"
+            ],
+            "correta": 1,
+            "explicacao": "O negativo vem do presente do subjuntivo: que você faça → não faça.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos do truque para achar o futuro do subjuntivo de um verbo.",
+            "itens": [
+              "Conjugar a 3ª pessoa do plural do pretérito perfeito (eles fizeram)",
+              "Tirar o -am do final",
+              "Usar a forma que sobrou com \"quando\" ou \"se\" (quando eu fizer)"
+            ],
+            "explicacao": "Fizeram → fizer → quando eu fizer.",
+            "dica": "Comece pelo pretérito perfeito."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem a correlação de tempos correta?",
+            "alternativas": [
+              "Se eu tiver tempo, faria o curso.",
+              "Se eu tivesse tempo, farei o curso.",
+              "Se eu tivesse tempo, faria o curso.",
+              "Se eu ter tempo, farei o curso."
+            ],
+            "correta": 2,
+            "explicacao": "Tivesse combina com faria; tiver combina com farei.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está TODA correta?",
+            "alternativas": [
+              "Se você vir o Caio e ele quiser, traga-o.",
+              "Se você ver o Caio e ele querer, traga-o.",
+              "Se você vir o Caio e ele querer, traz ele.",
+              "Se você ver o Caio e ele quiser, traz ele."
+            ],
+            "correta": 0,
+            "explicacao": "Vir (ver), quiser (querer) e traga (imperativo com você).",
+            "dica": "Confira os três verbos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o futuro do subjuntivo de manter, em \"Se vocês ___ o ritmo, vão passar\"?",
+            "alternativas": [
+              "manterem",
+              "manteram",
+              "mantém",
+              "mantiverem"
+            ],
+            "correta": 3,
+            "explicacao": "Mantiveram → mantiver → se vocês mantiverem.",
+            "dica": "Manter segue o verbo ter: tiveram → tiverem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Quem dera eu pudesse voltar no tempo!\", o modo e a ideia são:",
+            "alternativas": [
+              "indicativo, certeza",
+              "subjuntivo, desejo",
+              "imperativo, ordem",
+              "indicativo, dúvida"
+            ],
+            "correta": 1,
+            "explicacao": "Pudesse expressa um desejo irreal: subjuntivo.",
+            "dica": "A pessoa afirma um fato ou deseja algo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma placa diz: \"Não pise na grama e respeite as plantas\". Os verbos estão no:",
+            "alternativas": [
+              "indicativo",
+              "subjuntivo, por expressar dúvida",
+              "imperativo negativo e afirmativo",
+              "infinitivo"
+            ],
+            "correta": 2,
+            "explicacao": "Não pise (negativo) e respeite (afirmativo): ordens e pedidos.",
+            "dica": "Uma placa dá ordens ou conta fatos?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A ordem das fichas",
+    "texto": "Dona Íris era bibliotecária da escola havia vinte anos. Numa terça-feira chuvosa, chamou três alunos do 9º ano para uma missão: colocar em ordem alfabética as quatrocentas fichas de empréstimo que tinham caído de uma gaveta.\n\nMatheus começou do jeito mais óbvio. Pegava uma ficha, procurava o lugar certo no monte e enfiava ali no meio. Depois de quinze minutos, tinha arrumado só trinta.\n\n— Está fazendo como um computador muito lento — brincou Dona Íris. — Vamos pensar como um computador esperto.\n\nEla pegou cartolinas e escreveu letras grandes: de A até E, de F até J, e assim por diante. Primeiro, os alunos separaram as fichas nesses montes, sem se preocupar com a ordem dentro de cada um. Depois, cada um ordenou alguns montes pequenos, o que era muito mais rápido. No fim, bastou juntar os montes na sequência certa.\n\n— Dividir um problema grande em problemas pequenos é um truque que os programadores usam o tempo todo — explicou ela.\n\nQuando terminaram, Sabrina quis testar outra ideia. Pediu para alguém dizer um nome qualquer, e Kauã falou: \"Rodrigues, Pedro\". Em vez de procurar ficha por ficha, ela abriu o monte bem no meio. Caiu na letra L. Rodrigues vinha depois, então ela descartou a primeira metade. Abriu de novo no meio do que sobrou e foi chegando perto. Em poucas tentativas, achou a ficha.\n\n— Isso tem nome — disse Dona Íris, sorrindo. — Busca binária. Só funciona porque vocês colocaram tudo em ordem antes.\n\nMatheus olhou para as fichas arrumadas e entendeu: a ordem não era só capricho. Era o que deixava tudo rápido depois."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, descreva em passos numerados, como um algoritmo, como você colocaria 30 fichas de alunos em ordem alfabética. Depois, explique por que sua ideia é mais rápida do que procurar o lugar de cada ficha uma por uma."
+  }
+}

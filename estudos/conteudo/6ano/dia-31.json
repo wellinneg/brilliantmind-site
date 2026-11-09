@@ -1,0 +1,1201 @@
+{
+  "dia": 31,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Fração de uma quantidade: quanto é 2/3 de 60",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Muitas vezes precisamos saber quanto é uma parte de alguma coisa: metade da turma, um terço do dinheiro, três quartos das balas. Isso é calcular a fração de uma quantidade.",
+          "A regra tem dois passos. 1º: divida a quantidade pelo denominador (o número de baixo), para saber quanto vale cada parte. 2º: multiplique pelo numerador (o número de cima), para pegar as partes pedidas.",
+          "Para achar 2/3 de 60: 60 ÷ 3 = 20 (cada terço vale 20). Depois, 20 × 2 = 40. Então 2/3 de 60 = 40.",
+          "Quando o numerador é 1, basta dividir: 1/4 de 20 é 20 ÷ 4 = 5."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quanto é 3/4 de 20 balas?",
+            "resolucao": "20 ÷ 4 = 5 (cada quarto tem 5 balas). 5 × 3 = 15 balas."
+          },
+          {
+            "enunciado": "Uma turma tem 30 alunos e 2/5 vão de ônibus. Quantos vão de ônibus?",
+            "resolucao": "30 ÷ 5 = 6. 6 × 2 = 12 alunos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Também dá para fazer o caminho de volta. Se 1/5 de um valor é R$ 8, o valor inteiro tem 5 partes de R$ 8: 5 × 8 = R$ 40. Se 3/4 de um número é 36, cada quarto vale 36 ÷ 3 = 12, e o número inteiro é 4 × 12 = 48.",
+        "Cuidado com a fração do que sobrou. Se Bia tem R$ 60, gasta 1/2 e depois 1/3 do que sobrou, o segundo gasto é 1/3 de 30 (e não de 60): 30 ÷ 3 = 10. Ela fica com 30 − 10 = R$ 20.",
+        "Para saber quanto sobra, calcule a parte e tire do total, ou pense na fração que falta: se vendeu 5/6, sobrou 1/6."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1/2 de 10?",
+            "alternativas": [
+              "5",
+              "2",
+              "20",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "1/2 é a metade: 10 ÷ 2 = 5.",
+            "dica": "Metade de uma quantidade: divida por dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar 1/3 de 12, dividimos 12 por quanto?",
+            "alternativas": [
+              "1",
+              "12",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "O denominador 3 diz em quantas partes dividir: 12 ÷ 3 = 4.",
+            "dica": "Olhe o número de baixo da fração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1/4 de 20?",
+            "alternativas": [
+              "4",
+              "80",
+              "16",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "20 ÷ 4 = 5.",
+            "dica": "Divida 20 em quatro partes iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2/3 de 60?",
+            "alternativas": [
+              "20",
+              "40",
+              "30",
+              "120"
+            ],
+            "correta": 1,
+            "explicacao": "60 ÷ 3 = 20; 20 × 2 = 40.",
+            "dica": "Primeiro divida por 3, depois multiplique por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na fração 3/4, qual número diz quantas partes nós pegamos?",
+            "alternativas": [
+              "3",
+              "4",
+              "7",
+              "12"
+            ],
+            "correta": 0,
+            "explicacao": "O numerador (em cima) diz quantas partes pegamos; o denominador (embaixo), em quantas partes dividimos.",
+            "dica": "É o número de cima."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3/4 de 20 balas?",
+            "alternativas": [
+              "5",
+              "15",
+              "12",
+              "16"
+            ],
+            "correta": 1,
+            "explicacao": "20 ÷ 4 = 5; 5 × 3 = 15.",
+            "dica": "Quanto vale cada quarto? Depois pegue três deles."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma turma tem 30 alunos e 2/5 são meninos. Quantos meninos?",
+            "alternativas": [
+              "6",
+              "15",
+              "12",
+              "20"
+            ],
+            "correta": 2,
+            "explicacao": "30 ÷ 5 = 6; 6 × 2 = 12.",
+            "dica": "Divida 30 por 5 e multiplique por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lara tem R$ 50 e gastou 3/10 no lanche. Quanto gastou?",
+            "alternativas": [
+              "R$ 30",
+              "R$ 5",
+              "R$ 3",
+              "R$ 15"
+            ],
+            "correta": 3,
+            "explicacao": "50 ÷ 10 = 5; 5 × 3 = 15.",
+            "dica": "Primeiro descubra quanto vale 1/10 de 50."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ônibus tem 40 lugares e 5/8 estão ocupados. Quantos lugares estão ocupados?",
+            "alternativas": [
+              "25",
+              "5",
+              "15",
+              "32"
+            ],
+            "correta": 0,
+            "explicacao": "40 ÷ 8 = 5; 5 × 5 = 25.",
+            "dica": "Cada oitavo do ônibus tem quantos lugares?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular 2/3 de 90:",
+            "itens": [
+              "Olhar o denominador: 3",
+              "Dividir 90 por 3 e achar 30",
+              "Multiplicar 30 por 2 e achar 60",
+              "Responder que 2/3 de 90 é 60"
+            ],
+            "explicacao": "Primeiro dividimos pelo denominador, depois multiplicamos pelo numerador.",
+            "dica": "Comece pelo número de baixo da fração."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 60 minutos de aula, 2/3 foram de exercícios. Quantos minutos sobraram para outras atividades?",
+            "alternativas": [
+              "40",
+              "20",
+              "30",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "2/3 de 60 = 40 minutos de exercícios; 60 − 40 = 20 minutos.",
+            "dica": "Calcule a parte dos exercícios e tire do total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pizza tem 12 fatias. Caio comeu 1/4 e Júlia comeu 1/3. Quantas fatias os dois comeram juntos?",
+            "alternativas": [
+              "5",
+              "6",
+              "7",
+              "8"
+            ],
+            "correta": 2,
+            "explicacao": "1/4 de 12 = 3; 1/3 de 12 = 4; 3 + 4 = 7.",
+            "dica": "Calcule a parte de cada um separadamente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "1/5 de um valor é R$ 8. Qual é o valor inteiro?",
+            "alternativas": [
+              "R$ 13",
+              "R$ 1,60",
+              "R$ 16",
+              "R$ 40"
+            ],
+            "correta": 3,
+            "explicacao": "O inteiro tem 5 quintos: 5 × 8 = R$ 40.",
+            "dica": "Quantos quintos formam o inteiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é maior: 3/4 de 40 ou 2/3 de 45?",
+            "alternativas": [
+              "Os dois são iguais",
+              "3/4 de 40",
+              "2/3 de 45",
+              "Não dá para saber"
+            ],
+            "correta": 0,
+            "explicacao": "3/4 de 40 = 30 e 2/3 de 45 = 30. São iguais.",
+            "dica": "Calcule as duas frações e compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu Jorge colheu 72 laranjas e vendeu 5/6 delas. Quantas laranjas ficaram?",
+            "alternativas": [
+              "60",
+              "12",
+              "66",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "Vendeu 5/6, sobrou 1/6: 72 ÷ 6 = 12. (Vendeu 60.)",
+            "dica": "Se vendeu 5 de 6 partes, quantas partes sobraram?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia tinha R$ 60. Gastou 1/2 no mercado e depois 1/3 do que sobrou na farmácia. Com quanto ela ficou?",
+            "alternativas": [
+              "R$ 10",
+              "R$ 30",
+              "R$ 20",
+              "R$ 40"
+            ],
+            "correta": 2,
+            "explicacao": "Sobrou 30 depois do mercado; 1/3 de 30 = 10; 30 − 10 = 20.",
+            "dica": "O segundo gasto é fração do que sobrou, não dos 60."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "3/4 de um número é 36. Quanto é 1/2 desse número?",
+            "alternativas": [
+              "18",
+              "27",
+              "48",
+              "24"
+            ],
+            "correta": 3,
+            "explicacao": "Cada quarto vale 36 ÷ 3 = 12; o número é 48; metade de 48 = 24.",
+            "dica": "Ache primeiro quanto vale 1/4 e depois o inteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma escola tem 240 alunos: 3/8 vão de ônibus, 1/4 vão a pé e o resto vai de carona. Quantos vão de carona?",
+            "alternativas": [
+              "90",
+              "60",
+              "150",
+              "100"
+            ],
+            "correta": 0,
+            "explicacao": "3/8 de 240 = 90; 1/4 de 240 = 60; 240 − 90 − 60 = 90.",
+            "dica": "Calcule ônibus e a pé, some e tire do total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma fita tem 200 cm. Cortei 2/5 dela. Do resto, usei a metade. Quantos centímetros sobraram?",
+            "alternativas": [
+              "80",
+              "60",
+              "40",
+              "120"
+            ],
+            "correta": 1,
+            "explicacao": "2/5 de 200 = 80; resto 120; metade de 120 = 60 usados; sobram 60.",
+            "dica": "Faça em etapas: primeiro o corte, depois a metade do resto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num pacote com 36 figurinhas, 1/3 são repetidas. Das repetidas, 1/4 são brilhantes. Quantas figurinhas repetidas são brilhantes?",
+            "alternativas": [
+              "9",
+              "4",
+              "3",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "1/3 de 36 = 12 repetidas; 1/4 de 12 = 3 brilhantes.",
+            "dica": "É uma fração de uma fração: calcule uma de cada vez."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Compra à vista e compra parcelada",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Comprar à vista é pagar tudo de uma vez. Muitas lojas dão desconto para quem paga à vista, porque recebem o dinheiro na hora.",
+          "Comprar parcelado é dividir o pagamento em parcelas, uma por mês. Se a loja diz \"sem juros\", o total das parcelas é igual ao preço à vista. Se tem juros, o total fica maior.",
+          "Para comparar, sempre faça a conta: total parcelado = valor da parcela × número de parcelas. A diferença entre o total parcelado e o preço à vista é o que você paga a mais.",
+          "Parcelar compromete o dinheiro dos próximos meses. Antes de dividir, veja se a parcela cabe no orçamento junto com as outras contas da casa."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um celular custa R$ 1.200 à vista ou 12 parcelas de R$ 120. Qual sai mais caro?",
+            "resolucao": "Total parcelado: 12 × 120 = R$ 1.440. Diferença: 1.440 − 1.200 = R$ 240 a mais no parcelado."
+          },
+          {
+            "enunciado": "Um fogão custa R$ 800 em 4 vezes sem juros ou à vista com 10% de desconto. Quanto custa à vista?",
+            "resolucao": "10% de 800 = 80. À vista: 800 − 80 = R$ 720."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Repare na pegadinha do \"sem juros\": se o preço à vista tem desconto, quem parcela está, na prática, pagando mais. Num item de R$ 1.000 em 4 × R$ 250 \"sem juros\", com 20% de desconto à vista (R$ 800), parcelar custa R$ 200 a mais.",
+        "Uma alternativa é juntar dinheiro antes e pagar à vista. Quem guarda o valor da parcela por alguns meses compra sem juros e ainda pode pedir desconto.",
+        "Uma boa regra de família é limitar a soma de todas as parcelas a uma parte do salário, por exemplo 1/6. Muitas parcelas pequenas juntas viram uma conta grande todo mês."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pagar tudo de uma vez é pagar:",
+            "alternativas": [
+              "parcelado",
+              "à vista",
+              "fiado",
+              "com atraso"
+            ],
+            "correta": 1,
+            "explicacao": "À vista é pagar o valor inteiro na hora da compra.",
+            "dica": "Pense na expressão que lembra \"de uma vez só\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bicicleta custa 4 parcelas de R$ 100. Qual é o total?",
+            "alternativas": [
+              "R$ 104",
+              "R$ 100",
+              "R$ 400",
+              "R$ 25"
+            ],
+            "correta": 2,
+            "explicacao": "4 × 100 = R$ 400.",
+            "dica": "Multiplique a parcela pelo número de parcelas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Parcelado com juros quer dizer que o total fica:",
+            "alternativas": [
+              "menor que o preço à vista",
+              "igual ao preço à vista",
+              "de graça",
+              "maior que o preço à vista"
+            ],
+            "correta": 3,
+            "explicacao": "Os juros são o preço de pagar aos poucos: o total cresce.",
+            "dica": "Juros somam ou tiram dinheiro do total?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para saber o total de uma compra parcelada, fazemos:",
+            "alternativas": [
+              "parcela × número de parcelas",
+              "parcela + número de parcelas",
+              "parcela ÷ número de parcelas",
+              "parcela − número de parcelas"
+            ],
+            "correta": 0,
+            "explicacao": "Cada parcela se repete várias vezes: multiplicamos.",
+            "dica": "A mesma parcela se repete todo mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Parcelar uma compra ocupa o dinheiro de quando?",
+            "alternativas": [
+              "Só de hoje",
+              "Dos próximos meses",
+              "Do ano passado",
+              "De ninguém"
+            ],
+            "correta": 1,
+            "explicacao": "Cada parcela será paga num mês futuro.",
+            "dica": "Quando chegam os boletos das parcelas?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um celular custa R$ 1.200 à vista ou 12 × R$ 120. Qual é o total parcelado?",
+            "alternativas": [
+              "R$ 1.200",
+              "R$ 1.320",
+              "R$ 1.440",
+              "R$ 1.212"
+            ],
+            "correta": 2,
+            "explicacao": "12 × 120 = 1.440.",
+            "dica": "Faça 12 vezes 120."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo celular (R$ 1.200 à vista ou 12 × R$ 120), quanto se paga a mais parcelando?",
+            "alternativas": [
+              "R$ 240",
+              "R$ 120",
+              "R$ 1.440",
+              "R$ 200"
+            ],
+            "correta": 0,
+            "explicacao": "1.440 − 1.200 = 240.",
+            "dica": "Ache o total parcelado e tire o preço à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um tênis custa R$ 300 à vista ou 3 × R$ 100 sem juros. O que é verdade?",
+            "alternativas": [
+              "Parcelado sai mais caro",
+              "O total é igual nos dois casos",
+              "À vista sai mais caro",
+              "Parcelado sai R$ 3 mais caro"
+            ],
+            "correta": 1,
+            "explicacao": "3 × 100 = 300, igual ao preço à vista.",
+            "dica": "Multiplique e compare com o preço à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja dá 10% de desconto à vista num fogão de R$ 800. Quanto fica à vista?",
+            "alternativas": [
+              "R$ 790",
+              "R$ 80",
+              "R$ 880",
+              "R$ 720"
+            ],
+            "correta": 3,
+            "explicacao": "10% de 800 = 80; 800 − 80 = 720.",
+            "dica": "Calcule 10% (divida por 10) e tire do preço."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem uma boa decisão de compra:",
+            "itens": [
+              "Anotar o preço à vista",
+              "Multiplicar a parcela pelo número de parcelas",
+              "Subtrair para achar quanto se paga a mais",
+              "Decidir entre juntar dinheiro ou parcelar"
+            ],
+            "explicacao": "Primeiro os dados, depois as contas, por último a decisão.",
+            "dica": "A decisão vem só depois das contas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma geladeira custa R$ 2.000 à vista ou 10 × R$ 230. Quanto se paga de juros?",
+            "alternativas": [
+              "R$ 230",
+              "R$ 300",
+              "R$ 2.300",
+              "R$ 30"
+            ],
+            "correta": 1,
+            "explicacao": "10 × 230 = 2.300; 2.300 − 2.000 = 300.",
+            "dica": "Total parcelado menos preço à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A mãe de Davi já paga parcelas de R$ 300 e R$ 250. Se fizer mais uma de R$ 200, quanto vai pagar de parcelas por mês?",
+            "alternativas": [
+              "R$ 550",
+              "R$ 700",
+              "R$ 750",
+              "R$ 1.250"
+            ],
+            "correta": 2,
+            "explicacao": "300 + 250 + 200 = 750.",
+            "dica": "Some todas as parcelas que vão vencer no mesmo mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto custa R$ 600 à vista. Opção B: 6 × R$ 110. Opção C: 4 × R$ 160. Qual opção sai mais cara?",
+            "alternativas": [
+              "A opção à vista",
+              "A opção C",
+              "B e C custam igual",
+              "A opção B"
+            ],
+            "correta": 3,
+            "explicacao": "B: 6 × 110 = 660. C: 4 × 160 = 640. A mais cara é a B.",
+            "dica": "Calcule o total de cada parcelamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas quer um fone de R$ 150 e guarda R$ 30 por mês. Em quantos meses compra à vista?",
+            "alternativas": [
+              "5",
+              "4",
+              "6",
+              "30"
+            ],
+            "correta": 0,
+            "explicacao": "150 ÷ 30 = 5 meses.",
+            "dica": "Quantas vezes 30 cabe em 150?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma TV custa R$ 1.500 à vista ou 10 × R$ 165. A família guarda R$ 165 por mês durante 10 meses e compra à vista. Quanto sobra?",
+            "alternativas": [
+              "R$ 165",
+              "R$ 150",
+              "R$ 0",
+              "R$ 1.650"
+            ],
+            "correta": 1,
+            "explicacao": "10 × 165 = 1.650 guardados; 1.650 − 1.500 = 150 de sobra.",
+            "dica": "Quanto juntaram em 10 meses? Depois tire o preço à vista."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num item de R$ 400, a loja oferece 5% de desconto à vista ou 5 vezes sem juros. Quanto se economiza pagando à vista?",
+            "alternativas": [
+              "R$ 5",
+              "R$ 80",
+              "R$ 20",
+              "R$ 380"
+            ],
+            "correta": 2,
+            "explicacao": "5% de 400 = 400 ÷ 100 × 5 = 20.",
+            "dica": "Ache 1% de 400 e multiplique por 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruno parcelou uma compra de R$ 900 em 6 × R$ 175. Quanto pagou de juros no total e, em média, por mês?",
+            "alternativas": [
+              "R$ 175 no total, R$ 29 por mês",
+              "R$ 125 no total, R$ 25 por mês",
+              "R$ 150 no total, R$ 30 por mês",
+              "R$ 150 no total, R$ 25 por mês"
+            ],
+            "correta": 3,
+            "explicacao": "6 × 175 = 1.050; 1.050 − 900 = 150; 150 ÷ 6 = 25 por mês.",
+            "dica": "Ache o total parcelado, tire o preço e divida pelos meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Patrícia ganha R$ 1.800 e combinou não passar de 1/6 do salário em parcelas. Ela já paga uma de R$ 180. Qual a maior parcela nova que ainda cabe?",
+            "alternativas": [
+              "R$ 300",
+              "R$ 120",
+              "R$ 180",
+              "R$ 150"
+            ],
+            "correta": 1,
+            "explicacao": "1/6 de 1.800 = 300; 300 − 180 = 120.",
+            "dica": "Calcule o limite e tire o que já está comprometido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Loja 1: bicicleta a R$ 720 à vista ou 8 × R$ 99. Loja 2: R$ 750 à vista ou 10 × R$ 80. Qual é a escolha mais barata?",
+            "alternativas": [
+              "À vista na Loja 1",
+              "Parcelado na Loja 1",
+              "À vista na Loja 2",
+              "Parcelado na Loja 2"
+            ],
+            "correta": 0,
+            "explicacao": "Loja 1 parcelado: 792. Loja 2 parcelado: 800. À vista: 720 e 750. A menor é 720.",
+            "dica": "Calcule os quatro totais e escolha o menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um item é vendido em 4 × R$ 250 \"sem juros\" ou à vista com 20% de desconto. Na prática, quanto se paga a mais parcelando?",
+            "alternativas": [
+              "Nada, é sem juros",
+              "R$ 250",
+              "R$ 200",
+              "R$ 100"
+            ],
+            "correta": 2,
+            "explicacao": "Total: 1.000. À vista: 1.000 − 20% (200) = 800. Parcelando paga 200 a mais.",
+            "dica": "Compare o total parcelado com o preço à vista já com desconto."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Funções: dar nome a um bloco de passos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma função é um bloco de passos que ganha um nome. Você escreve os passos uma vez e depois só chama a função pelo nome sempre que precisar.",
+          "Exemplo em pseudocódigo: definir dobrar(n): devolver n × 2. Quando chamamos dobrar(5), o programa troca n por 5 e devolve 10.",
+          "O valor que entra na função se chama parâmetro (no exemplo, n). O valor que sai se chama retorno. Uma função pode ter mais de um parâmetro, como area(l, c).",
+          "Funções evitam repetir código. Se o mesmo cálculo aparece em 10 lugares, você escreve uma função e a chama 10 vezes. E, se precisar corrigir, corrige num lugar só."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "definir saudar(nome): mostrar \"Olá, \" + nome. O que aparece com saudar(\"Ana\")?",
+            "resolucao": "O parâmetro nome vale \"Ana\". Aparece: Olá, Ana."
+          },
+          {
+            "enunciado": "definir area(l, c): devolver l × c. Quanto dá area(3, 4)?",
+            "resolucao": "l = 3 e c = 4. Retorno: 3 × 4 = 12."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma função pode usar o resultado de outra. Com somar(a, b) = a + b e dobrar(n) = n × 2, a chamada dobrar(somar(2, 3)) resolve primeiro a de dentro: somar(2, 3) = 5; depois dobrar(5) = 10.",
+        "Funções podem ter condições dentro: definir g(x): se x > 10, devolver x − 10; senão, devolver x + 10. Então g(4) = 14 e g(15) = 5.",
+        "Bons nomes ajudam: calcular_troco é melhor que f. E uma função com a mesma entrada deve dar sempre a mesma saída, o que facilita testar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma função na programação?",
+            "alternativas": [
+              "Um bloco de passos com nome",
+              "Um tipo de computador",
+              "Um erro do programa",
+              "Uma tela colorida"
+            ],
+            "correta": 0,
+            "explicacao": "Função é um conjunto de passos guardado com um nome para usar várias vezes.",
+            "dica": "Lembre o título da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O valor que entra na função se chama:",
+            "alternativas": [
+              "retorno",
+              "parâmetro",
+              "laço",
+              "tela"
+            ],
+            "correta": 1,
+            "explicacao": "Parâmetro é o valor de entrada, como o n em dobrar(n).",
+            "dica": "Não é o valor que sai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "definir dobrar(n): devolver n × 2. Quanto dá dobrar(4)?",
+            "alternativas": [
+              "6",
+              "16",
+              "8",
+              "2"
+            ],
+            "correta": 2,
+            "explicacao": "4 × 2 = 8.",
+            "dica": "Troque n por 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma vantagem de usar funções?",
+            "alternativas": [
+              "Deixar o programa mais lento",
+              "Esconder os erros",
+              "Gastar mais bateria",
+              "Não repetir os mesmos passos"
+            ],
+            "correta": 3,
+            "explicacao": "Escreve-se uma vez e usa-se muitas vezes.",
+            "dica": "Pense em escrever menos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O valor que a função devolve se chama:",
+            "alternativas": [
+              "retorno",
+              "parâmetro",
+              "comentário",
+              "nome"
+            ],
+            "correta": 0,
+            "explicacao": "Retorno é o resultado que sai da função.",
+            "dica": "É o que volta da função."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "definir saudar(nome): mostrar \"Olá, \" + nome. O que aparece com saudar(\"Rita\")?",
+            "alternativas": [
+              "Olá, nome",
+              "Olá, Rita",
+              "Rita",
+              "Olá"
+            ],
+            "correta": 1,
+            "explicacao": "O parâmetro nome vale \"Rita\".",
+            "dica": "Troque o parâmetro pelo valor dado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "definir area(l, c): devolver l × c. Quanto dá area(3, 5)?",
+            "alternativas": [
+              "8",
+              "35",
+              "15",
+              "53"
+            ],
+            "correta": 2,
+            "explicacao": "3 × 5 = 15.",
+            "dica": "l vale 3 e c vale 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "definir triplo(n): devolver n × 3. Quanto dá triplo(7) + 1?",
+            "alternativas": [
+              "21",
+              "24",
+              "10",
+              "22"
+            ],
+            "correta": 3,
+            "explicacao": "triplo(7) = 21; 21 + 1 = 22.",
+            "dica": "Resolva a função e depois some 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você escreve uma função e a usa 10 vezes. Quantas vezes precisa escrever os passos dela?",
+            "alternativas": [
+              "1",
+              "10",
+              "11",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "Os passos ficam escritos uma vez só; depois é só chamar.",
+            "dica": "Para que servem as funções mesmo?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o uso de uma função:",
+            "itens": [
+              "Dar um nome à função",
+              "Escrever os passos dentro dela",
+              "Chamar a função pelo nome",
+              "Receber o resultado"
+            ],
+            "explicacao": "Primeiro se define (nome e passos), depois se chama e recebe o retorno.",
+            "dica": "Antes de chamar, a função precisa existir."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "definir somar(a, b): devolver a + b. definir dobrar(n): devolver n × 2. Quanto dá dobrar(somar(2, 3))?",
+            "alternativas": [
+              "7",
+              "10",
+              "12",
+              "8"
+            ],
+            "correta": 1,
+            "explicacao": "somar(2, 3) = 5; dobrar(5) = 10.",
+            "dica": "Resolva primeiro a função de dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "definir preco_final(p): devolver p − 5. Quanto dá preco_final(20) + preco_final(10)?",
+            "alternativas": [
+              "25",
+              "30",
+              "20",
+              "15"
+            ],
+            "correta": 2,
+            "explicacao": "15 + 5 = 20.",
+            "dica": "Calcule cada chamada separadamente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A função troco(pago, preco) devolve pago − preco. Quanto dá troco(50, 32)?",
+            "alternativas": [
+              "82",
+              "32",
+              "50",
+              "18"
+            ],
+            "correta": 3,
+            "explicacao": "50 − 32 = 18.",
+            "dica": "pago vale 50 e preco vale 32."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você corrige um erro dentro de uma função que é chamada em 10 lugares. O que acontece?",
+            "alternativas": [
+              "Os 10 lugares ficam corrigidos",
+              "Só o primeiro fica certo",
+              "Nenhum lugar muda",
+              "O programa apaga a função"
+            ],
+            "correta": 0,
+            "explicacao": "Todos usam o mesmo bloco de passos, então todos recebem a correção.",
+            "dica": "Onde os passos estão escritos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "definir media(a, b): devolver (a + b) ÷ 2. Quanto dá media(6, 10)?",
+            "alternativas": [
+              "16",
+              "8",
+              "11",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "(6 + 10) ÷ 2 = 16 ÷ 2 = 8.",
+            "dica": "Some e depois divida por 2."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "definir f(n): devolver n × n − 1. Quanto dá f(f(2))?",
+            "alternativas": [
+              "3",
+              "9",
+              "8",
+              "15"
+            ],
+            "correta": 2,
+            "explicacao": "f(2) = 4 − 1 = 3; f(3) = 9 − 1 = 8.",
+            "dica": "Resolva f(2) e use o resultado na outra chamada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "definir g(x): se x > 10, devolver x − 10; senão, devolver x + 10. Quanto dá g(4) + g(15)?",
+            "alternativas": [
+              "29",
+              "9",
+              "1",
+              "19"
+            ],
+            "correta": 3,
+            "explicacao": "g(4) = 14; g(15) = 5; 14 + 5 = 19.",
+            "dica": "Para cada chamada, veja se o número passa de 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "definir conta(a, b): devolver a × 2 + b. Qual chamada devolve 20?",
+            "alternativas": [
+              "conta(8, 4)",
+              "conta(5, 5)",
+              "conta(4, 8)",
+              "conta(10, 2)"
+            ],
+            "correta": 0,
+            "explicacao": "8 × 2 + 4 = 20. As outras dão 15, 16 e 22.",
+            "dica": "Teste cada alternativa, multiplicando antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total começa em 1. Repita 3 vezes: total = dobrar(total). Quanto vale total no fim?",
+            "alternativas": [
+              "6",
+              "8",
+              "3",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "1 → 2 → 4 → 8.",
+            "dica": "Escreva o valor depois de cada repetição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "definir passagem(viagens): devolver viagens × 5. Ana chama passagem(2) uma vez por dia, de segunda a sexta. Quanto gasta na semana?",
+            "alternativas": [
+              "R$ 10",
+              "R$ 25",
+              "R$ 50",
+              "R$ 70"
+            ],
+            "correta": 2,
+            "explicacao": "passagem(2) = 10 por dia; 5 dias × 10 = 50.",
+            "dica": "Quantos dias vão de segunda a sexta?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Advérbio: como, onde e quando",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Advérbio é a palavra que mostra uma circunstância: como, onde, quando, quanto. Ele se liga ao verbo, a um adjetivo ou a outro advérbio.",
+          "Os tipos mais comuns são: modo (bem, mal, devagar, rapidamente), lugar (aqui, ali, lá, longe, perto), tempo (hoje, ontem, amanhã, cedo, tarde, sempre) e intensidade (muito, pouco, bastante, tão).",
+          "Há também advérbios de afirmação (sim, certamente), de negação (não, nunca, jamais) e de dúvida (talvez, provavelmente).",
+          "O advérbio não muda para feminino nem para plural. Muitos advérbios de modo terminam em -mente e vêm de um adjetivo: rápida + mente = rapidamente."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Ache os advérbios: \"Ontem a Júlia correu rapidamente.\"",
+            "resolucao": "Ontem = tempo (quando correu). Rapidamente = modo (como correu)."
+          },
+          {
+            "enunciado": "Ache o advérbio: \"Eu moro perto da escola.\"",
+            "resolucao": "Perto = lugar (onde mora)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Às vezes um grupo de palavras faz o papel de advérbio: é a locução adverbial. Exemplos: à noite, de manhã (tempo); em casa (lugar); com cuidado, às pressas (modo); sem dúvida (afirmação).",
+        "Como o advérbio não varia, escreve-se \"Elas estão meio cansadas\" (meio = um pouco) e \"Elas falaram baixo\". Já em \"comeu meia pizza\", meia é numeral (metade de uma pizza) e concorda com pizza.",
+        "A mesma palavra pode ter papéis diferentes: em \"muitos livros\", muitos acompanha um substantivo e varia; em \"estudou muito\", muito é advérbio de intensidade e não varia. Em \"correu muito depressa\", o advérbio muito modifica outro advérbio, depressa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na frase \"Ontem choveu\", a palavra \"ontem\" indica:",
+            "alternativas": [
+              "tempo",
+              "lugar",
+              "modo",
+              "dúvida"
+            ],
+            "correta": 0,
+            "explicacao": "Ontem responde à pergunta \"quando?\".",
+            "dica": "Pergunte: quando choveu?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra indica lugar?",
+            "alternativas": [
+              "devagar",
+              "aqui",
+              "talvez",
+              "nunca"
+            ],
+            "correta": 1,
+            "explicacao": "Aqui responde \"onde?\".",
+            "dica": "Qual delas responde à pergunta \"onde?\"?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ela canta bem\", a palavra \"bem\" indica:",
+            "alternativas": [
+              "tempo",
+              "lugar",
+              "modo",
+              "negação"
+            ],
+            "correta": 2,
+            "explicacao": "Bem responde \"como ela canta?\".",
+            "dica": "Pergunte: como ela canta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual advérbio indica dúvida?",
+            "alternativas": [
+              "sempre",
+              "muito",
+              "longe",
+              "talvez"
+            ],
+            "correta": 3,
+            "explicacao": "Talvez mostra que não temos certeza.",
+            "dica": "Qual palavra usamos quando não temos certeza?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é advérbio de negação?",
+            "alternativas": [
+              "nunca",
+              "sim",
+              "cedo",
+              "perto"
+            ],
+            "correta": 0,
+            "explicacao": "Nunca nega que algo aconteça.",
+            "dica": "Procure a palavra que diz \"não, em tempo nenhum\"."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Transforme o adjetivo \"calmo\" em advérbio com -mente:",
+            "alternativas": [
+              "calmeza",
+              "calmamente",
+              "calmando",
+              "acalmar"
+            ],
+            "correta": 1,
+            "explicacao": "calma + mente = calmamente.",
+            "dica": "Use o adjetivo no feminino e junte o final -mente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Chegamos tarde à festa\", a palavra \"tarde\" indica:",
+            "alternativas": [
+              "lugar",
+              "modo",
+              "tempo",
+              "intensidade"
+            ],
+            "correta": 2,
+            "explicacao": "Tarde responde \"quando chegamos?\".",
+            "dica": "Pergunte: quando chegamos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"O filme foi muito bom\", a palavra \"muito\" modifica:",
+            "alternativas": [
+              "um verbo",
+              "um substantivo",
+              "outro advérbio",
+              "um adjetivo"
+            ],
+            "correta": 3,
+            "explicacao": "Muito intensifica bom, que é adjetivo.",
+            "dica": "Que palavra vem logo depois de \"muito\"?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem advérbio de intensidade?",
+            "alternativas": [
+              "Estou bastante feliz.",
+              "Moro aqui.",
+              "Saí cedo.",
+              "Talvez eu vá."
+            ],
+            "correta": 0,
+            "explicacao": "Bastante mostra o quanto estou feliz.",
+            "dica": "Procure a palavra que mede \"quanto\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos advérbios há em \"Amanhã eu vou lá, certamente\"?",
+            "alternativas": [
+              "2",
+              "3",
+              "1",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "Amanhã (tempo), lá (lugar) e certamente (afirmação).",
+            "dica": "Procure palavras de tempo, de lugar e de certeza."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual expressão é uma locução adverbial de tempo?",
+            "alternativas": [
+              "com cuidado",
+              "em casa",
+              "à noite",
+              "sem dúvida"
+            ],
+            "correta": 2,
+            "explicacao": "À noite diz quando. Com cuidado é modo, em casa é lugar, sem dúvida é afirmação.",
+            "dica": "Qual delas responde \"quando?\"?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Elas estão meias cansadas.",
+              "Elas estão meio cansadas.",
+              "Elas estão meia cansadas.",
+              "Elas estão meios cansadas."
+            ],
+            "correta": 1,
+            "explicacao": "Aqui meio é advérbio (um pouco) e não varia.",
+            "dica": "Advérbio muda para feminino ou plural?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase \"muito\" é advérbio?",
+            "alternativas": [
+              "Comprei muitos lápis.",
+              "Muitas pessoas vieram.",
+              "Há muitas cadeiras.",
+              "Eles estudaram muito."
+            ],
+            "correta": 3,
+            "explicacao": "Em \"estudaram muito\", muito modifica o verbo e não varia.",
+            "dica": "Procure o \"muito\" que acompanha um verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na frase \"A menina cuidadosa andou cuidadosamente\", qual palavra é advérbio?",
+            "alternativas": [
+              "cuidadosamente",
+              "cuidadosa",
+              "menina",
+              "andou"
+            ],
+            "correta": 0,
+            "explicacao": "Cuidadosamente diz como ela andou. Cuidadosa é adjetivo de menina.",
+            "dica": "Qual palavra diz como ela andou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ele fala alto\", a palavra \"alto\" é:",
+            "alternativas": [
+              "adjetivo, porque varia",
+              "advérbio de modo, porque diz como ele fala",
+              "substantivo",
+              "advérbio de lugar"
+            ],
+            "correta": 1,
+            "explicacao": "Alto aqui modifica o verbo falar: diz como ele fala.",
+            "dica": "Ela se liga a uma pessoa ou ao verbo?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Elas falaram baixo\", por que não se escreve \"baixas\"?",
+            "alternativas": [
+              "Porque baixo é substantivo",
+              "Porque o verbo está no passado",
+              "Porque baixo modifica o verbo, e advérbio não varia",
+              "Porque baixas é palavra estrangeira"
+            ],
+            "correta": 2,
+            "explicacao": "Baixo diz como elas falaram; é advérbio, e advérbio é invariável.",
+            "dica": "A palavra se liga a elas ou ao verbo falaram?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos tipos diferentes de circunstância há em \"Hoje, aqui, ela leu bastante e bem\"?",
+            "alternativas": [
+              "2",
+              "3",
+              "5",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "Hoje (tempo), aqui (lugar), bastante (intensidade), bem (modo): 4 tipos.",
+            "dica": "Classifique cada advérbio e conte os tipos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase um advérbio modifica OUTRO advérbio?",
+            "alternativas": [
+              "Ele correu muito depressa.",
+              "Ele é muito alto.",
+              "Ele correu depressa.",
+              "Ele chegou ontem."
+            ],
+            "correta": 0,
+            "explicacao": "Muito intensifica depressa, que também é advérbio.",
+            "dica": "Procure dois advérbios lado a lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual troca mantém o sentido de \"Ela respondeu com calma\"?",
+            "alternativas": [
+              "Ela respondeu rapidamente.",
+              "Ela respondeu calmamente.",
+              "Ela respondeu raramente.",
+              "Ela respondeu longe."
+            ],
+            "correta": 1,
+            "explicacao": "A locução com calma equivale ao advérbio de modo terminado em -mente.",
+            "dica": "Transforme a locução em uma palavra só com o mesmo sentido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ana está meio triste e comeu meia pizza\", qual é o papel de cada palavra?",
+            "alternativas": [
+              "meio = advérbio; meia = numeral (metade)",
+              "as duas são advérbios",
+              "as duas são adjetivos",
+              "meio = numeral; meia = advérbio"
+            ],
+            "correta": 0,
+            "explicacao": "Meio triste = um pouco triste (advérbio). Meia pizza = metade da pizza (numeral, concorda com pizza).",
+            "dica": "Uma quer dizer \"um pouco\"; a outra, \"metade\"."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "As doze parcelas do celular",
+    "texto": "O celular do seu Antônio quebrou numa segunda-feira. À noite, a família sentou em volta da mesa com o folheto da loja.\n\n— Olha aqui: doze parcelas de R$ 125. Cabe no bolso! — disse ele, animado.\n\nMarina, a filha do 6º ano, pegou lápis e papel.\n\n— Pai, doze vezes cento e vinte e cinco dá mil e quinhentos reais. E o preço à vista é mil e duzentos.\n\n— Trezentos reais a mais? — espantou-se dona Cleide.\n\n— É o preço de pagar devagar. São os juros — explicou Marina.\n\nO pai olhou o aparelho velho. A tela estava trincada, mas ele ainda ligava e recebia mensagens.\n\nEntão combinaram um plano: guardar R$ 150 por mês numa lata no armário. Em oito meses, teriam o valor inteiro.\n\nQuando a lata ficou cheia, seu Antônio voltou à loja com as notas contadas. Pagou à vista e ainda pediu um desconto. Ganhou uma capinha de presente.\n\n— Paciência também é dinheiro — disse ele, sorrindo para Marina."
+  },
+  "escrita": {
+    "proposta": "Explique em 5 a 8 linhas quando vale a pena comprar parcelado e quando é melhor juntar dinheiro e pagar à vista. Use o exemplo da família de Marina ou um exemplo seu, com as contas."
+  }
+}

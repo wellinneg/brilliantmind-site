@@ -1,0 +1,1204 @@
+{
+  "dia": 38,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Movimento: velocidade média e aceleração",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Um corpo está em movimento quando a sua posição muda em relação a um referencial. O passageiro sentado no ônibus está parado em relação ao ônibus, mas em movimento em relação à calçada.",
+          "Velocidade média é a distância percorrida dividida pelo tempo gasto: vₘ = Δs/Δt. Um ônibus que percorre 12 km em 30 minutos (0,5 h) tem velocidade média de 12 ÷ 0,5 = 24 km/h.",
+          "As unidades mais usadas são km/h e m/s. Para passar de m/s para km/h, multiplique por 3,6; de km/h para m/s, divida por 3,6. Assim, 72 km/h = 20 m/s e 10 m/s = 36 km/h.",
+          "Aceleração média mostra quanto a velocidade muda a cada segundo: a = Δv/Δt. Um carro que vai de 0 a 20 m/s em 5 s tem aceleração de 20 ÷ 5 = 4 m/s² (ganha 4 m/s a cada segundo).",
+          "Frear também é acelerar, só que com sinal negativo. Um carro que passa de 20 m/s para 0 em 4 s tem aceleração de (0 − 20) ÷ 4 = −5 m/s²."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um ciclista percorre 400 m em 80 s. Qual é a velocidade média em m/s e em km/h?",
+            "resolucao": "vₘ = 400 ÷ 80 = 5 m/s. Em km/h: 5 × 3,6 = 18 km/h."
+          },
+          {
+            "enunciado": "Uma moto parte do repouso e chega a 15 m/s em 3 s. Qual é a aceleração média?",
+            "resolucao": "a = (15 − 0) ÷ 3 = 5 m/s²."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Velocidade média não é a média das velocidades. Ida de 60 km a 60 km/h (1 h) e volta de 60 km a 30 km/h (2 h): vₘ = 120 km ÷ 3 h = 40 km/h, e não 45 km/h. O trecho lento dura mais tempo e pesa mais.",
+        "Fórmulas úteis: no movimento com velocidade constante, s = s₀ + v·t. Com aceleração constante, v = v₀ + a·t. Uma moto a 4 m/s com aceleração de 2 m/s² chega a 4 + 2 · 5 = 14 m/s depois de 5 s.",
+        "A distância que um carro precisa para frear cresce com o quadrado da velocidade: se a velocidade dobra, a distância de frenagem fica cerca de 4 vezes maior. É por isso que os limites de velocidade perto de escolas salvam vidas."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se calcula a velocidade média?",
+            "alternativas": [
+              "tempo ÷ distância",
+              "distância ÷ tempo",
+              "distância × tempo",
+              "distância + tempo"
+            ],
+            "correta": 1,
+            "explicacao": "vₘ = Δs/Δt.",
+            "dica": "Quilômetros por hora: o que fica embaixo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro percorre 100 km em 2 h. Qual é a velocidade média?",
+            "alternativas": [
+              "50 km/h",
+              "200 km/h",
+              "102 km/h",
+              "98 km/h"
+            ],
+            "correta": 0,
+            "explicacao": "100 ÷ 2 = 50 km/h.",
+            "dica": "Divida a distância pelo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a unidade de aceleração no Sistema Internacional?",
+            "alternativas": [
+              "km/h",
+              "m/s",
+              "m/s²",
+              "metro"
+            ],
+            "correta": 2,
+            "explicacao": "Aceleração é a variação da velocidade por segundo: m/s².",
+            "dica": "Tem um quadradinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um passageiro sentado no ônibus em movimento está, em relação ao ônibus:",
+            "alternativas": [
+              "correndo",
+              "acelerando",
+              "em movimento",
+              "parado"
+            ],
+            "correta": 3,
+            "explicacao": "A posição dele não muda em relação ao ônibus.",
+            "dica": "Depende do referencial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 36 km/h em m/s?",
+            "alternativas": [
+              "36",
+              "10",
+              "100",
+              "3,6"
+            ],
+            "correta": 1,
+            "explicacao": "36 ÷ 3,6 = 10 m/s.",
+            "dica": "De km/h para m/s, divida por 3,6."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ônibus percorre 12 km em 30 minutos. Qual é a velocidade média?",
+            "alternativas": [
+              "12 km/h",
+              "6 km/h",
+              "24 km/h",
+              "30 km/h"
+            ],
+            "correta": 2,
+            "explicacao": "30 min = 0,5 h; 12 ÷ 0,5 = 24 km/h.",
+            "dica": "Passe os minutos para horas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 20 m/s em km/h?",
+            "alternativas": [
+              "72 km/h",
+              "5,6 km/h",
+              "20 km/h",
+              "200 km/h"
+            ],
+            "correta": 0,
+            "explicacao": "20 × 3,6 = 72 km/h.",
+            "dica": "De m/s para km/h, multiplique por 3,6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro vai de 0 a 20 m/s em 5 s. Qual é a aceleração média?",
+            "alternativas": [
+              "100 m/s²",
+              "25 m/s²",
+              "15 m/s²",
+              "4 m/s²"
+            ],
+            "correta": 3,
+            "explicacao": "20 ÷ 5 = 4 m/s².",
+            "dica": "Variação de velocidade dividida pelo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro passa de 20 m/s para 0 em 4 s. Qual é a aceleração?",
+            "alternativas": [
+              "5 m/s²",
+              "−5 m/s²",
+              "−80 m/s²",
+              "16 m/s²"
+            ],
+            "correta": 1,
+            "explicacao": "(0 − 20) ÷ 4 = −5 m/s². Negativa porque está freando.",
+            "dica": "Frear dá aceleração com sinal…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um corredor faz 400 m em 80 s. Qual é a velocidade média?",
+            "alternativas": [
+              "320 m/s",
+              "4 m/s",
+              "5 m/s",
+              "480 m/s"
+            ],
+            "correta": 2,
+            "explicacao": "400 ÷ 80 = 5 m/s.",
+            "dica": "Divida os metros pelos segundos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ida de 60 km a 60 km/h e volta de 60 km a 30 km/h. Qual é a velocidade média da viagem toda?",
+            "alternativas": [
+              "45 km/h",
+              "40 km/h",
+              "90 km/h",
+              "50 km/h"
+            ],
+            "correta": 1,
+            "explicacao": "Tempo: 1 h + 2 h = 3 h. Distância: 120 km. vₘ = 40 km/h.",
+            "dica": "Calcule o tempo de cada trecho antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ônibus faz 18 km em 45 minutos. Qual é a velocidade média?",
+            "alternativas": [
+              "18 km/h",
+              "40 km/h",
+              "12 km/h",
+              "24 km/h"
+            ],
+            "correta": 3,
+            "explicacao": "45 min = 0,75 h; 18 ÷ 0,75 = 24 km/h.",
+            "dica": "45 minutos são três quartos de hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma moto a 4 m/s acelera 2 m/s² durante 5 s. Qual é a velocidade final?",
+            "alternativas": [
+              "14 m/s",
+              "10 m/s",
+              "6 m/s",
+              "40 m/s"
+            ],
+            "correta": 0,
+            "explicacao": "v = 4 + 2 · 5 = 14 m/s.",
+            "dica": "Use v = v₀ + a·t."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto tempo se leva para percorrer 150 km a 60 km/h?",
+            "alternativas": [
+              "2 h",
+              "3 h",
+              "2 h 30 min",
+              "90 min"
+            ],
+            "correta": 2,
+            "explicacao": "150 ÷ 60 = 2,5 h = 2 h 30 min.",
+            "dica": "Tempo = distância ÷ velocidade."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do mais lento para o mais rápido.",
+            "itens": [
+              "Pessoa andando a 1,5 m/s",
+              "Ciclista a 18 km/h",
+              "Ônibus a 10 m/s",
+              "Carro a 80 km/h"
+            ],
+            "explicacao": "Em km/h: 5,4; 18; 36; 80.",
+            "dica": "Passe tudo para a mesma unidade."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia foi à escola de bicicleta: 6 km a 12 km/h e mais 6 km empurrando a bicicleta numa subida a 6 km/h. Qual foi a velocidade média?",
+            "alternativas": [
+              "9 km/h",
+              "18 km/h",
+              "8 km/h",
+              "6 km/h"
+            ],
+            "correta": 2,
+            "explicacao": "Tempos: 0,5 h + 1 h = 1,5 h. vₘ = 12 ÷ 1,5 = 8 km/h, não 9.",
+            "dica": "Não faça a média das velocidades."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro a 108 km/h freia e para em 6 s. Qual é a aceleração média?",
+            "alternativas": [
+              "−5 m/s²",
+              "−18 m/s²",
+              "−30 m/s²",
+              "−3,6 m/s²"
+            ],
+            "correta": 0,
+            "explicacao": "108 km/h = 30 m/s. a = (0 − 30) ÷ 6 = −5 m/s².",
+            "dica": "Passe para m/s antes de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se um carro dobra a velocidade, a distância de frenagem fica cerca de:",
+            "alternativas": [
+              "igual",
+              "2 vezes maior",
+              "metade",
+              "4 vezes maior"
+            ],
+            "correta": 3,
+            "explicacao": "Ela cresce com o quadrado da velocidade: 2² = 4.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ônibus levou 1 h 20 min para fazer 16 km. Qual foi a velocidade média?",
+            "alternativas": [
+              "20 km/h",
+              "12 km/h",
+              "16 km/h",
+              "13,3 km/h"
+            ],
+            "correta": 1,
+            "explicacao": "1 h 20 min = 4/3 h. 16 ÷ 4/3 = 16 × 3/4 = 12 km/h.",
+            "dica": "20 minutos são um terço de hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trem a 72 km/h, constante, anda quantos metros em 30 s?",
+            "alternativas": [
+              "2.160 m",
+              "72 m",
+              "600 m",
+              "240 m"
+            ],
+            "correta": 2,
+            "explicacao": "72 km/h = 20 m/s; 20 × 30 = 600 m.",
+            "dica": "Passe para m/s e multiplique pelo tempo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Diversificação: não colocar todos os ovos na mesma cesta",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Diversificar é dividir o dinheiro entre investimentos diferentes para diminuir o risco. Se uma cesta cai, nem todos os ovos quebram.",
+          "Quem coloca tudo numa só ação e vê essa ação cair 50% perde metade do dinheiro. Se o dinheiro estivesse dividido entre cinco investimentos, a queda de um deles pesaria bem menos no total.",
+          "Dá para diversificar entre tipos (renda fixa e renda variável), entre empresas e setores (energia, bancos, alimentos, varejo) e entre prazos (dinheiro para daqui a 6 meses e para daqui a 10 anos).",
+          "Exemplo: R$ 10.000, com 70% na renda fixa (R$ 7.000) e 30% em ações (R$ 3.000). Num ano, a renda fixa rende 10% (vira R$ 7.700) e as ações caem 20% (viram R$ 2.400). Total: R$ 10.100. Mesmo com a queda, o conjunto não perdeu.",
+          "Diversificar não é comprar muitas coisas parecidas: cinco empresas do mesmo setor costumam cair juntas. A ideia vale também para a vida: ter mais de uma habilidade e mais de uma fonte de renda protege nas crises."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Compare: R$ 10.000 numa só ação que caiu 40% e R$ 10.000 divididos igualmente entre 5 ações, em que só uma caiu 40% e as outras ficaram iguais.",
+            "resolucao": "Uma só: perde R$ 4.000. Dividido: cada ação tem R$ 2.000; a que caiu perde R$ 800. Prejuízo total de R$ 800."
+          },
+          {
+            "enunciado": "Por que ter só ações de bancos não é diversificar de verdade?",
+            "resolucao": "Porque uma notícia ruim para o setor bancário derruba todas ao mesmo tempo. Diversificar é misturar coisas que não se movem juntas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Investimentos que sobem e descem juntos não protegem um ao outro. A proteção vem de misturar coisas que reagem diferente: renda fixa, ações de setores variados, imóveis e investimentos ligados ao dólar.",
+        "Rebalancear é voltar à divisão planejada de tempos em tempos. Com o plano 70/30: se a renda fixa foi a R$ 7.700 e as ações subiram 30% (R$ 3.900), o total é R$ 11.600, e 30% dele é R$ 3.480. Então se transferem R$ 420 das ações para a renda fixa.",
+        "Diversificar diminui o risco de uma empresa ou de um setor, mas não elimina o risco de uma crise que atinge o mercado todo. Por isso a reserva de emergência fica sempre fora da renda variável."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é diversificar?",
+            "alternativas": [
+              "Colocar tudo no investimento que mais rendeu",
+              "Dividir o dinheiro entre investimentos diferentes",
+              "Gastar em várias lojas",
+              "Guardar dinheiro no colchão"
+            ],
+            "correta": 1,
+            "explicacao": "Dividir diminui o risco.",
+            "dica": "Pense nos ovos e nas cestas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o objetivo de diversificar?",
+            "alternativas": [
+              "Diminuir o risco",
+              "Garantir lucro sempre",
+              "Pagar menos imposto",
+              "Ficar rico em um mês"
+            ],
+            "correta": 0,
+            "explicacao": "Diversificação reduz o impacto de uma queda.",
+            "dica": "Releia a primeira frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se tudo está numa só ação e ela cai 50%, quanto do dinheiro se perde?",
+            "alternativas": [
+              "nada",
+              "10%",
+              "metade",
+              "tudo"
+            ],
+            "correta": 2,
+            "explicacao": "Uma queda de 50% leva metade.",
+            "dica": "50% é quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual carteira é mais diversificada?",
+            "alternativas": [
+              "Só ações de um banco",
+              "Só ações de três bancos",
+              "Só um CDB",
+              "Renda fixa, ações de setores diferentes e um fundo imobiliário"
+            ],
+            "correta": 3,
+            "explicacao": "Mistura tipos e setores.",
+            "dica": "Procure a mistura mais variada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ter mais de uma habilidade profissional é uma forma de:",
+            "alternativas": [
+              "desperdiçar tempo",
+              "diversificar a vida e se proteger nas crises",
+              "investir na bolsa",
+              "gastar mais"
+            ],
+            "correta": 1,
+            "explicacao": "A ideia de diversificar também vale para a renda.",
+            "dica": "Releia o último parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 10.000: 70% em renda fixa que rendeu 10% e 30% em ações que caíram 20%. Qual é o total?",
+            "alternativas": [
+              "R$ 10.100",
+              "R$ 9.000",
+              "R$ 11.000",
+              "R$ 10.000"
+            ],
+            "correta": 0,
+            "explicacao": "7.700 + 2.400 = 10.100.",
+            "dica": "Calcule cada parte separada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 10.000 numa só ação que caiu 40%. Quanto sobra?",
+            "alternativas": [
+              "R$ 4.000",
+              "R$ 9.600",
+              "R$ 6.000",
+              "R$ 7.000"
+            ],
+            "correta": 2,
+            "explicacao": "Perde 4.000; sobram 6.000.",
+            "dica": "40% de 10.000 é quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 10.000 divididos igualmente em 5 ações; só uma caiu 40%. Qual é o prejuízo?",
+            "alternativas": [
+              "R$ 4.000",
+              "R$ 2.000",
+              "R$ 400",
+              "R$ 800"
+            ],
+            "correta": 3,
+            "explicacao": "Cada uma tem 2.000; 40% de 2.000 = 800.",
+            "dica": "Primeiro descubra quanto há em cada ação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que ter ações de cinco bancos não é bem diversificado?",
+            "alternativas": [
+              "Porque bancos não têm ações",
+              "Porque o mesmo setor costuma cair junto",
+              "Porque são poucas ações",
+              "Porque bancos sempre sobem"
+            ],
+            "correta": 1,
+            "explicacao": "Um problema no setor atinge todas.",
+            "dica": "O que essas empresas têm em comum?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para dinheiro que você vai usar daqui a 6 meses, o mais adequado é:",
+            "alternativas": [
+              "Renda fixa segura",
+              "Ações de uma empresa nova",
+              "Tudo em ações",
+              "Emprestar sem contrato"
+            ],
+            "correta": 0,
+            "explicacao": "Prazo curto pede segurança e liquidez.",
+            "dica": "Dá tempo de esperar uma queda passar?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Plano 70/30. Depois de um ano, renda fixa com R$ 7.700 e ações com R$ 3.900. Quanto transferir das ações para a renda fixa para voltar ao plano?",
+            "alternativas": [
+              "R$ 900",
+              "R$ 3.480",
+              "R$ 420",
+              "R$ 200"
+            ],
+            "correta": 2,
+            "explicacao": "Total 11.600; 30% = 3.480; 3.900 − 3.480 = 420.",
+            "dica": "Calcule 30% do novo total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é rebalancear uma carteira?",
+            "alternativas": [
+              "Vender tudo",
+              "Trocar de banco",
+              "Comprar só o que subiu",
+              "Voltar à divisão planejada entre os investimentos"
+            ],
+            "correta": 3,
+            "explicacao": "Rebalancear é ajustar as proporções de volta ao plano.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A diversificação protege contra uma crise que derruba o mercado inteiro?",
+            "alternativas": [
+              "Só em parte: diminui o risco de uma empresa ou setor, mas não o do mercado todo",
+              "Totalmente",
+              "Não protege de nada",
+              "Só protege quem tem ações"
+            ],
+            "correta": 0,
+            "explicacao": "Uma crise geral atinge quase todos os investimentos de risco.",
+            "dica": "Pense numa crise que atinge todos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par protege mais um ao outro?",
+            "alternativas": [
+              "Ações de dois bancos",
+              "Renda fixa e ações",
+              "Duas ações de mineradoras",
+              "Dois fundos de ações iguais"
+            ],
+            "correta": 1,
+            "explicacao": "Renda fixa e ações reagem de formas diferentes.",
+            "dica": "Procure investimentos que se movem diferente."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do MENOS para o MAIS diversificado.",
+            "itens": [
+              "Uma ação só",
+              "Três ações do mesmo setor",
+              "Cinco ações de setores diferentes",
+              "Renda fixa, ações de vários setores e fundo imobiliário"
+            ],
+            "explicacao": "Mais tipos e mais setores diferentes aumentam a diversificação.",
+            "dica": "Conte tipos e setores."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Carteira: R$ 4.000 em renda fixa (+10%), R$ 3.000 na ação A (−30%) e R$ 3.000 na ação B (+20%). Qual é o resultado total?",
+            "alternativas": [
+              "Ganho de R$ 100",
+              "Perda de R$ 300",
+              "Ganho de R$ 1.000",
+              "Ganho de R$ 400"
+            ],
+            "correta": 0,
+            "explicacao": "+400 − 900 + 600 = +100. Total: R$ 10.100.",
+            "dica": "Calcule o ganho ou a perda de cada parte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com o plano 50/50 e R$ 8.000, a renda fixa foi a R$ 4.400 e as ações caíram para R$ 3.200. O que o rebalanceamento manda fazer?",
+            "alternativas": [
+              "Vender ações",
+              "Passar R$ 600 da renda fixa para ações",
+              "Não fazer nada",
+              "Passar R$ 1.200 das ações para a renda fixa"
+            ],
+            "correta": 1,
+            "explicacao": "Total 7.600; metade é 3.800. Renda fixa tem 600 a mais; ações, 600 a menos.",
+            "dica": "Calcule metade do novo total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o rebalanceamento ajuda a \"comprar barato e vender caro\"?",
+            "alternativas": [
+              "Porque compra sempre o que subiu",
+              "Porque elimina o risco",
+              "Porque tira dinheiro do que subiu e coloca no que caiu",
+              "Porque paga juros fixos"
+            ],
+            "correta": 2,
+            "explicacao": "Ao voltar à proporção, vende-se o que valorizou e compra-se o que caiu.",
+            "dica": "O que se vende e o que se compra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa tem R$ 50 mil, todos em ações de uma só empresa onde também trabalha. Qual é o maior risco?",
+            "alternativas": [
+              "Nenhum, pois ela conhece a empresa",
+              "Pagar imposto",
+              "Ganhar demais",
+              "Se a empresa for mal, ela pode perder o emprego e o dinheiro ao mesmo tempo"
+            ],
+            "correta": 3,
+            "explicacao": "Emprego e investimento dependem da mesma empresa: tudo na mesma cesta.",
+            "dica": "Pense em emprego e investimento na mesma cesta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação está correta?",
+            "alternativas": [
+              "Diversificar garante que nunca haverá perda",
+              "A reserva de emergência deve ficar fora da renda variável",
+              "Quanto mais ações do mesmo setor, mais diversificado",
+              "Diversificar é só para ricos"
+            ],
+            "correta": 1,
+            "explicacao": "Diversificar reduz, mas não elimina o risco; e a reserva fica sempre segura.",
+            "dica": "Elimine as afirmações exageradas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Discurso de ódio e liberdade de expressão: onde fica o limite",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A Constituição de 1988 garante a livre manifestação do pensamento, mas proíbe o anonimato. Você pode dar a sua opinião, discordar e criticar.",
+          "Essa liberdade não é absoluta. Ela não autoriza ofender a honra das pessoas, ameaçar, incitar violência ou discriminar. A mesma Constituição protege a honra e a imagem e diz que a prática do racismo é crime inafiançável e imprescritível.",
+          "Discurso de ódio é o ataque a pessoas ou grupos por causa do que elas são: raça, cor, religião, origem, gênero, orientação sexual ou deficiência. Ele desumaniza (\"essa gente é uma praga\") e pode estimular violência.",
+          "A diferença: criticar ideias e atitudes é permitido (\"Discordo da proposta do vereador porque…\"); atacar pessoas pelo que elas são não é (\"Gente daquele lugar não presta\").",
+          "Diante do ódio: não compartilhe, não responda no mesmo tom, denuncie na plataforma, guarde prints com data e endereço da página e, se for crime, registre um boletim de ocorrência. E apoie quem foi atacado."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "\"Esse técnico escalou mal o time.\" É discurso de ódio?",
+            "resolucao": "Não. É uma crítica a uma decisão profissional, protegida pela liberdade de expressão (desde que sem ofensas pessoais)."
+          },
+          {
+            "enunciado": "Num grupo, alguém escreve que pessoas de uma religião \"deviam sumir da cidade\". O que fazer?",
+            "resolucao": "É discurso de ódio. Não repasse, guarde o print, denuncie na plataforma, avise um adulto e, se for o caso, registre ocorrência."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "\"Era só uma piada\" não apaga o dano. Humor que humilha um grupo pelo que ele é reforça preconceitos e pode configurar discriminação.",
+        "Os algoritmos tendem a espalhar o que provoca reação forte, e a raiva gera muitos cliques. Por isso o ódio se espalha rápido. Quem pausa antes de compartilhar quebra essa corrente.",
+        "Perfil falso não garante impunidade: a Justiça pode mandar as plataformas informarem quem está por trás de uma conta. E, em 2019, o Supremo Tribunal Federal decidiu que a homofobia e a transfobia podem ser punidas como o crime de racismo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A Constituição garante a livre manifestação do pensamento, mas proíbe:",
+            "alternativas": [
+              "a opinião",
+              "o anonimato",
+              "a crítica",
+              "o voto"
+            ],
+            "correta": 1,
+            "explicacao": "Pode-se opinar, mas sem se esconder no anonimato.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A liberdade de expressão permite:",
+            "alternativas": [
+              "criticar ideias e atitudes",
+              "ameaçar pessoas",
+              "incitar violência",
+              "ofender pela cor da pele"
+            ],
+            "correta": 0,
+            "explicacao": "Criticar é permitido; atacar e ameaçar, não.",
+            "dica": "Qual opção não ataca ninguém?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Segundo a Constituição, o racismo é crime:",
+            "alternativas": [
+              "leve e com multa pequena",
+              "permitido na internet",
+              "inafiançável e imprescritível",
+              "só se for por escrito"
+            ],
+            "correta": 2,
+            "explicacao": "Não admite fiança e não prescreve.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um exemplo de discurso de ódio?",
+            "alternativas": [
+              "\"Não gostei do filme.\"",
+              "\"Discordo da proposta.\"",
+              "\"O ônibus atrasou.\"",
+              "\"Gente daquele lugar não presta.\""
+            ],
+            "correta": 3,
+            "explicacao": "Ataca pessoas pela origem.",
+            "dica": "Qual frase ataca um grupo inteiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao ver discurso de ódio, o que NÃO fazer?",
+            "alternativas": [
+              "Denunciar na plataforma",
+              "Compartilhar para mostrar aos amigos",
+              "Guardar o print",
+              "Apoiar quem foi atacado"
+            ],
+            "correta": 1,
+            "explicacao": "Compartilhar espalha ainda mais o ódio.",
+            "dica": "O que ajuda o ódio a se espalhar?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Esse técnico escalou mal o time.\" A frase é:",
+            "alternativas": [
+              "uma crítica permitida",
+              "discurso de ódio",
+              "crime de racismo",
+              "ameaça"
+            ],
+            "correta": 0,
+            "explicacao": "Critica uma decisão, sem atacar o que a pessoa é.",
+            "dica": "A crítica é sobre o que ele fez ou sobre o que ele é?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é discurso de ódio?",
+            "alternativas": [
+              "Qualquer opinião diferente da minha",
+              "Uma reclamação de serviço",
+              "Ataque a pessoas ou grupos pelo que elas são",
+              "Uma notícia ruim"
+            ],
+            "correta": 2,
+            "explicacao": "Atinge raça, religião, origem, gênero, deficiência…",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que guardar como prova de um ataque on-line?",
+            "alternativas": [
+              "Só a lembrança",
+              "Nada, apaga sozinho",
+              "O número de curtidas",
+              "Prints com data e endereço da página"
+            ],
+            "correta": 3,
+            "explicacao": "Prints com data e link ajudam na denúncia.",
+            "dica": "O que serve de prova?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"essa gente é uma praga\" é tão grave?",
+            "alternativas": [
+              "Porque é uma frase longa",
+              "Porque desumaniza um grupo e pode estimular violência",
+              "Porque tem palavra difícil",
+              "Porque não tem pontuação"
+            ],
+            "correta": 1,
+            "explicacao": "Tratar pessoas como pragas abre caminho para agressões.",
+            "dica": "O que a frase faz com as pessoas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude ajuda a vítima de um ataque on-line?",
+            "alternativas": [
+              "Mandar uma mensagem de apoio e ajudar a denunciar",
+              "Rir junto para não ficar de fora",
+              "Ignorar sempre",
+              "Contar para todo mundo para aumentar a confusão"
+            ],
+            "correta": 0,
+            "explicacao": "Apoio e denúncia diminuem o dano.",
+            "dica": "O que você gostaria que fizessem por você?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém diz: \"Era só uma piada\" depois de humilhar um colega pela religião. O que é correto dizer?",
+            "alternativas": [
+              "Piada nunca tem problema",
+              "Liberdade de expressão permite tudo",
+              "Humor que humilha pelo que a pessoa é reforça preconceito e pode ser discriminação",
+              "Só é problema se tiver mais de 100 curtidas"
+            ],
+            "correta": 2,
+            "explicacao": "Releia o primeiro parágrafo do aprofundamento.",
+            "dica": "A intenção de fazer graça apaga o dano?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o discurso de ódio se espalha tão rápido nas redes?",
+            "alternativas": [
+              "Porque é sempre verdade",
+              "Porque as plataformas são obrigadas a mostrar",
+              "Porque ninguém lê",
+              "Porque a raiva gera muitas reações e o algoritmo distribui o que engaja"
+            ],
+            "correta": 3,
+            "explicacao": "Conteúdo que provoca reação forte é mais distribuído.",
+            "dica": "O que o algoritmo valoriza?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um perfil falso ataca uma colega. É possível descobrir quem é?",
+            "alternativas": [
+              "Sim, a Justiça pode mandar a plataforma informar quem está por trás",
+              "Nunca",
+              "Só se a pessoa confessar",
+              "Só se o perfil tiver foto"
+            ],
+            "correta": 0,
+            "explicacao": "Anonimato é vedado e há meios legais de identificação.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é crítica a uma ideia, e não ataque a pessoas?",
+            "alternativas": [
+              "Pessoas daquele bairro são todas iguais.",
+              "A proposta de fechar a biblioteca prejudica os alunos.",
+              "Gente com deficiência atrapalha.",
+              "Quem segue aquela religião é burro."
+            ],
+            "correta": 1,
+            "explicacao": "Critica uma proposta, com argumento.",
+            "dica": "Procure a frase que fala de uma decisão."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene a resposta adequada a um discurso de ódio que apareceu no grupo da turma.",
+            "itens": [
+              "Não compartilhar nem responder no mesmo tom",
+              "Guardar prints com data e link",
+              "Denunciar na plataforma e avisar um adulto",
+              "Apoiar quem foi atacado"
+            ],
+            "explicacao": "Primeiro não alimentar; depois guardar provas, denunciar e acolher a vítima.",
+            "dica": "Comece por não espalhar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual decisão o STF tomou em 2019 sobre homofobia e transfobia?",
+            "alternativas": [
+              "Que são opiniões protegidas",
+              "Que só valem para adultos",
+              "Que podem ser punidas como o crime de racismo",
+              "Que não podem ser denunciadas"
+            ],
+            "correta": 2,
+            "explicacao": "O STF decidiu que podem ser punidas como racismo.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Liberdade de expressão e proteção da honra estão na mesma Constituição. Como elas convivem?",
+            "alternativas": [
+              "Uma anula a outra",
+              "A honra só vale para autoridades",
+              "A liberdade vale só para jornalistas",
+              "Pode-se opinar livremente, mas quem abusa e ofende responde pelo dano"
+            ],
+            "correta": 3,
+            "explicacao": "Há liberdade, com responsabilidade pelos abusos.",
+            "dica": "Liberdade com responsabilidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um comentário diz: \"Não concordo com a regra nova do uniforme, porque encarece para as famílias\". O que se pode afirmar?",
+            "alternativas": [
+              "É uma crítica com argumento, protegida pela liberdade de expressão",
+              "É discurso de ódio",
+              "É crime de racismo",
+              "Deve ser apagado pela escola"
+            ],
+            "correta": 0,
+            "explicacao": "Critica uma regra com argumento, sem atacar pessoas.",
+            "dica": "Ataca alguém pelo que é?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que proibir o anonimato combina com a liberdade de expressão?",
+            "alternativas": [
+              "Para impedir as pessoas de falar",
+              "Para que quem abusa possa ser responsabilizado",
+              "Para obrigar todos a usar foto",
+              "Porque perfis anônimos são sempre falsos"
+            ],
+            "correta": 1,
+            "explicacao": "Quem fala responde pelo que diz.",
+            "dica": "Pense em responsabilidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual situação o adequado é registrar boletim de ocorrência, além de denunciar na plataforma?",
+            "alternativas": [
+              "Alguém discordou da sua opinião sobre futebol",
+              "Alguém não curtiu sua foto",
+              "Alguém ameaçou agredir um colega por causa da cor da pele dele",
+              "Alguém deixou de seguir você"
+            ],
+            "correta": 2,
+            "explicacao": "Ameaça e racismo são crimes.",
+            "dica": "Qual situação envolve crime?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Acentuação gráfica e o acordo ortográfico",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Toda palavra tem uma sílaba tônica (a mais forte). Oxítona: a última (ca-fé). Paroxítona: a penúltima (lá-pis). Proparoxítona: a antepenúltima (lâm-pa-da).",
+          "Todas as proparoxítonas são acentuadas: matemática, pássaro, ônibus, árvore.",
+          "Oxítonas são acentuadas quando terminam em a(s), e(s), o(s) ou em/ens: sofá, você, avô, também, parabéns. Os monossílabos tônicos terminados em a, e, o também: pá, pé, nó.",
+          "Paroxítonas são acentuadas quando terminam em l, n, r, x, ps, i(s), us, um/uns, ã(s), ão(s) ou ditongo: fácil, hífen, açúcar, tórax, bíceps, táxi, vírus, álbum, órfã, órgão, história. As terminadas em a, e, o e em não levam acento: casa, jovem, item.",
+          "O acordo ortográfico, obrigatório no Brasil desde 2016, tirou o trema (linguiça, frequente), o acento dos ditongos abertos ei e oi nas paroxítonas (ideia, heroico, assembleia), o acento de êe e ôo (leem, veem, voo, enjoo) e acentos diferenciais como em para, pelo e pera."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Por que \"café\" tem acento e \"casa\" não?",
+            "resolucao": "Café é oxítona terminada em e: leva acento. Casa é paroxítona terminada em a: não leva."
+          },
+          {
+            "enunciado": "Escreva conforme o acordo: idéia, vôo, freqüente.",
+            "resolucao": "ideia (ditongo aberto ei em paroxítona), voo (sem acento no ôo) e frequente (sem trema)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Hiatos: o i e o u tônicos que formam sílaba sozinhos (ou com s) são acentuados: sa-í-da, sa-ú-de, ba-ú, pa-ís. Não levam acento antes de nh (ra-i-nha) e, nas paroxítonas, depois de ditongo (fei-u-ra).",
+        "Os ditongos abertos continuam acentuados nas oxítonas e nos monossílabos: herói, papéis, chapéu, céu, dói. Só perderam o acento nas paroxítonas: ideia, plateia, joia, jiboia.",
+        "Acentos diferenciais que ficaram: pôr (verbo) e por (preposição), pôde (passado) e pode (presente), e o plural de ter e vir: ele tem, eles têm; ele vem, eles vêm."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a sílaba tônica de \"lâmpada\"?",
+            "alternativas": [
+              "a última",
+              "a antepenúltima",
+              "a penúltima",
+              "nenhuma"
+            ],
+            "correta": 1,
+            "explicacao": "LÂM-pa-da: antepenúltima, proparoxítona.",
+            "dica": "Fale a palavra em voz alta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Todas as proparoxítonas são:",
+            "alternativas": [
+              "acentuadas",
+              "sem acento",
+              "com trema",
+              "com hífen"
+            ],
+            "correta": 0,
+            "explicacao": "A regra é simples: todas levam acento.",
+            "dica": "É a regra mais fácil."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra está escrita conforme o acordo ortográfico?",
+            "alternativas": [
+              "idéia",
+              "vôo",
+              "ideia",
+              "freqüente"
+            ],
+            "correta": 2,
+            "explicacao": "Ideia perdeu o acento (ditongo aberto em paroxítona).",
+            "dica": "O acordo tirou acentos de ditongos abertos nas paroxítonas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"sofá\" tem acento?",
+            "alternativas": [
+              "É proparoxítona",
+              "É paroxítona terminada em a",
+              "Tem trema",
+              "É oxítona terminada em a"
+            ],
+            "correta": 3,
+            "explicacao": "Oxítonas terminadas em a levam acento.",
+            "dica": "Onde está a sílaba forte?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra perdeu o trema com o acordo?",
+            "alternativas": [
+              "linguiça",
+              "saúde",
+              "país",
+              "ônibus"
+            ],
+            "correta": 0,
+            "explicacao": "Antes: lingüiça; agora: linguiça.",
+            "dica": "Qual delas tinha dois pontinhos no u?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é paroxítona terminada em r e, por isso, acentuada?",
+            "alternativas": [
+              "amor",
+              "açúcar",
+              "comer",
+              "mulher"
+            ],
+            "correta": 1,
+            "explicacao": "a-ÇÚ-car: paroxítona terminada em r.",
+            "dica": "As outras são oxítonas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma correta, conforme o acordo?",
+            "alternativas": [
+              "Eles vêem o jogo.",
+              "Eles vêm o jogo.",
+              "Eles veem o jogo.",
+              "Eles vem o jogo."
+            ],
+            "correta": 2,
+            "explicacao": "Ver no plural: veem, sem acento.",
+            "dica": "O acordo tirou o acento do êe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra deve ter acento?",
+            "alternativas": [
+              "casa",
+              "jovem",
+              "item",
+              "taxi"
+            ],
+            "correta": 3,
+            "explicacao": "Táxi: paroxítona terminada em i.",
+            "dica": "Paroxítona terminada em i leva acento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"herói\" continua com acento depois do acordo?",
+            "alternativas": [
+              "Porque é proparoxítona",
+              "Porque é oxítona com ditongo aberto oi",
+              "Porque tem hiato",
+              "Porque o acordo não vale para ela por exceção"
+            ],
+            "correta": 1,
+            "explicacao": "O ditongo aberto só perdeu o acento nas paroxítonas.",
+            "dica": "Onde está a sílaba forte de herói?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra tem hiato acentuado?",
+            "alternativas": [
+              "saúde",
+              "rainha",
+              "casa",
+              "papel"
+            ],
+            "correta": 0,
+            "explicacao": "sa-Ú-de: u tônico sozinho na sílaba.",
+            "dica": "Procure um i ou u forte sozinho."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual grupo está TODO correto?",
+            "alternativas": [
+              "idéia, herói, vôo",
+              "ideia, heroi, voo",
+              "ideia, herói, voo",
+              "idéia, heroi, vôo"
+            ],
+            "correta": 2,
+            "explicacao": "Ideia (paroxítona), herói (oxítona) e voo (sem acento no ôo).",
+            "dica": "Lembre onde o ditongo aberto manteve o acento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"rainha\" não tem acento no i?",
+            "alternativas": [
+              "Porque é oxítona",
+              "Porque tem trema",
+              "Porque é proparoxítona",
+              "Porque o i vem antes de nh"
+            ],
+            "correta": 3,
+            "explicacao": "Hiato com i antes de nh não se acentua.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ontem ele não ___ vir, mas hoje ele ___\".",
+            "alternativas": [
+              "pôde / pode",
+              "pode / pôde",
+              "pôde / pôde",
+              "pode / pode"
+            ],
+            "correta": 0,
+            "explicacao": "Pôde (passado) e pode (presente).",
+            "dica": "Ontem pede o passado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é paroxítona terminada em ditongo e leva acento?",
+            "alternativas": [
+              "papel",
+              "história",
+              "jovem",
+              "caju"
+            ],
+            "correta": 1,
+            "explicacao": "his-TÓ-ria: paroxítona terminada em ditongo.",
+            "dica": "Separe as sílabas de cada uma."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para decidir se uma palavra leva acento.",
+            "itens": [
+              "Separar as sílabas",
+              "Achar a sílaba tônica",
+              "Classificar em oxítona, paroxítona ou proparoxítona",
+              "Olhar a terminação e aplicar a regra"
+            ],
+            "explicacao": "Sem saber a tônica, não dá para escolher a regra.",
+            "dica": "A terminação vem no fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está TODA correta?",
+            "alternativas": [
+              "Eles têm ideias e veem soluções.",
+              "Eles tem idéias e vêem soluções.",
+              "Eles têm idéias e veem soluções.",
+              "Eles tem ideias e vêm soluções."
+            ],
+            "correta": 0,
+            "explicacao": "Têm (plural de ter), ideias (sem acento) e veem (ver, sem acento).",
+            "dica": "Confira os três verbos e a palavra ideia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra deve continuar com acento depois do acordo?",
+            "alternativas": [
+              "assembléia",
+              "jibóia",
+              "heróico",
+              "chapéu"
+            ],
+            "correta": 3,
+            "explicacao": "Chapéu é oxítona com ditongo aberto: mantém o acento.",
+            "dica": "Ditongo aberto em oxítona continua acentuado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"feiura\" não tem acento no u?",
+            "alternativas": [
+              "Porque é oxítona",
+              "Porque o u vem depois de ditongo numa paroxítona",
+              "Porque tem nh",
+              "Porque é monossílabo"
+            ],
+            "correta": 1,
+            "explicacao": "Na paroxítona, i e u tônicos depois de ditongo não são acentuados.",
+            "dica": "Separe: fei-u-ra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alternativa tem uma proparoxítona, uma paroxítona acentuada e uma oxítona acentuada, nessa ordem?",
+            "alternativas": [
+              "café, lápis, árvore",
+              "lápis, árvore, café",
+              "árvore, lápis, café",
+              "café, árvore, lápis"
+            ],
+            "correta": 2,
+            "explicacao": "ÁR-vo-re (proparoxítona), LÁ-pis (paroxítona) e ca-FÉ (oxítona).",
+            "dica": "Ache a sílaba tônica de cada palavra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Vou ___ o livro na mesa ___ causa da chuva\".",
+            "alternativas": [
+              "pôr / por",
+              "por / pôr",
+              "pôr / pôr",
+              "por / por"
+            ],
+            "correta": 0,
+            "explicacao": "Pôr (verbo, colocar) e por (preposição).",
+            "dica": "Qual delas é verbo?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O ônibus das 6h40",
+    "texto": "Todo dia, Rafael pega o ônibus das 6h40 no ponto da avenida. A aula começa às 7h30, e ele chega quase sempre às 7h25, correndo pelo portão. Um dia, cansado da correria, resolveu investigar.\n\nAbriu o mapa no celular e descobriu: de casa até a escola são 9 quilômetros. Numa segunda-feira, marcou o horário certinho. O ônibus saiu às 6h42 e chegou às 7h27. Quarenta e cinco minutos para nove quilômetros.\n\nNa aula de ciências, fez a conta. Velocidade média é distância dividida pelo tempo. Quarenta e cinco minutos são três quartos de hora. Nove dividido por três quartos dava 12 quilômetros por hora.\n\n— Doze? — espantou-se o colega Wesley. — Minha tia vai de bicicleta e chega quase igual.\n\nRafael ficou intrigado. O ônibus chegava a andar a 50 km/h em alguns trechos. Então começou a anotar onde ele parava: dezesseis pontos, três semáforos longos e um trecho de dois quilômetros na avenida principal, sem faixa exclusiva, em que o ônibus se arrastava no meio dos carros.\n\n— É isso — explicou a professora Cristina. — A velocidade média não é a velocidade que aparece no painel. Ela conta todo o tempo parado. Um trecho lento pesa muito, porque dura muito.\n\nRafael fez mais uma conta. Se aquele trecho de dois quilômetros tivesse corredor de ônibus, talvez ele ganhasse uns dez minutos. Escreveu um texto para o grêmio da escola sobre isso, com números e tudo.\n\nEnquanto o corredor não vinha, ele mudou de estratégia: passou a pegar o ônibus das 6h25. Agora chega às 7h10, com tempo para tomar café com calma. A física não resolveu o trânsito, mas resolveu o atraso."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, calcule e explique a velocidade média de um trajeto que você faz, como casa–escola, mostrando a distância e o tempo usados e o que mais atrasa esse trajeto."
+  }
+}

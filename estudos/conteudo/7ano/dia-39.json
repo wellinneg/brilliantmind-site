@@ -1,0 +1,1003 @@
+{
+  "dia": 39,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Problemas que viram equação",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Muitos problemas do dia a dia podem ser resolvidos com uma equação. O segredo é traduzir o texto para a linguagem da matemática, em quatro passos.",
+          "1º passo: escolha uma letra para o que você não sabe e escreva o que ela representa. Exemplo: “x = preço de um caderno”.",
+          "2º passo: escreva as outras quantidades usando essa letra. Se a caneta custa R$ 3 a menos que o caderno, ela custa x − 3. Se o irmão tem o dobro da idade, tem 2x.",
+          "3º passo: monte a equação com a informação que fecha o problema (o total, a soma, o perímetro) e resolva.",
+          "4º passo: responda com a unidade (reais, anos, metros) e confira no texto original se faz sentido. Idade negativa ou metade de uma pessoa é sinal de erro."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um caderno e uma caneta custam juntos R$ 23. O caderno custa R$ 7 a mais que a caneta. Quanto custa cada um?",
+            "resolucao": "x = preço da caneta; caderno = x + 7. Equação: x + (x + 7) = 23, então 2x + 7 = 23, 2x = 16, x = 8. Caneta: R$ 8; caderno: R$ 15. Confere: 8 + 15 = 23."
+          },
+          {
+            "enunciado": "Joana tem o triplo da idade do irmão. Juntos, têm 24 anos. Quantos anos tem cada um?",
+            "resolucao": "x = idade do irmão; Joana = 3x. x + 3x = 24, 4x = 24, x = 6. Irmão: 6 anos; Joana: 18 anos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Problemas de idade no futuro ou no passado: some ou subtraia os anos de TODOS. Se hoje o pai tem 3x e o filho x, daqui a 5 anos terão 3x + 5 e x + 5. Esquecer de somar os anos a uma das pessoas é o erro mais comum.",
+        "Problemas com porcentagem também viram equação: “Depois de um desconto de 20%, paguei R$ 48” vira 0,8x = 48, e x = 60. O preço original era R$ 60.",
+        "Quando o problema traz duas condições, use uma para escrever tudo com uma letra só e a outra para montar a equação. Em “Numa fazenda há galinhas e vacas: 20 cabeças e 56 patas”, faça x = galinhas, 20 − x = vacas e 2x + 4(20 − x) = 56. Resolvendo: x = 12 galinhas e 8 vacas."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um número mais 8 dá 20. Qual equação representa isso?",
+            "alternativas": ["x − 8 = 20", "x + 8 = 20", "8x = 20", "x + 20 = 8"],
+            "correta": 1,
+            "explicacao": "“Um número” é x; “mais 8” é + 8; “dá 20” é = 20.",
+            "dica": "Traduza palavra por palavra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dobro de um número é 18. Que número é esse?",
+            "alternativas": ["9", "36", "16", "20"],
+            "correta": 0,
+            "explicacao": "2x = 18, então x = 9.",
+            "dica": "Que número, multiplicado por 2, dá 18?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se x é a idade de Lia e o irmão tem 3 anos a mais, como se escreve a idade do irmão?",
+            "alternativas": ["3x", "x − 3", "x + 3", "x/3"],
+            "correta": 2,
+            "explicacao": "Três anos a mais: x + 3.",
+            "dica": "“A mais” indica qual operação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo para transformar um problema em equação?",
+            "alternativas": ["Responder logo", "Somar todos os números do texto", "Desenhar a resposta", "Escolher uma letra para o valor desconhecido"],
+            "correta": 3,
+            "explicacao": "Primeiro decidimos o que a letra representa.",
+            "dica": "Lembre o 1º passo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três canetas iguais custam R$ 12. Quanto custa cada uma?",
+            "alternativas": ["R$ 4", "R$ 3", "R$ 9", "R$ 36"],
+            "correta": 0,
+            "explicacao": "3x = 12, x = 4.",
+            "dica": "Divida o total pela quantidade."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Caderno e caneta custam juntos R$ 23, e o caderno custa R$ 7 a mais que a caneta. Quanto custa a caneta?",
+            "alternativas": ["R$ 16", "R$ 8", "R$ 15", "R$ 7"],
+            "correta": 1,
+            "explicacao": "x + x + 7 = 23, 2x = 16, x = 8.",
+            "dica": "Chame a caneta de x e escreva o caderno com x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana tem o triplo da idade do irmão, e juntos têm 24 anos. Quantos anos tem Joana?",
+            "alternativas": ["6", "8", "18", "21"],
+            "correta": 2,
+            "explicacao": "x + 3x = 24, x = 6. Joana: 3 × 6 = 18.",
+            "dica": "Calcule a idade do irmão primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A soma de dois números consecutivos é 41. Quais são eles?",
+            "alternativas": ["19 e 22", "21 e 22", "18 e 23", "20 e 21"],
+            "correta": 3,
+            "explicacao": "x + (x + 1) = 41, 2x = 40, x = 20. Os números são 20 e 21.",
+            "dica": "Consecutivos são x e x + 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo tem comprimento 4 cm maior que a largura e perímetro de 32 cm. Qual é a largura?",
+            "alternativas": ["6 cm", "8 cm", "10 cm", "14 cm"],
+            "correta": 0,
+            "explicacao": "Largura x, comprimento x + 4. 2x + 2(x + 4) = 32, 4x + 8 = 32, x = 6.",
+            "dica": "O perímetro soma os quatro lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ivan tinha um valor guardado, gastou R$ 35 e ficou com R$ 58. Quanto tinha?",
+            "alternativas": ["R$ 23", "R$ 93", "R$ 83", "R$ 103"],
+            "correta": 1,
+            "explicacao": "x − 35 = 58, x = 93.",
+            "dica": "Gastou significa que o valor diminuiu."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de um desconto de 20%, Bruna pagou R$ 48 numa blusa. Qual era o preço original?",
+            "alternativas": ["R$ 57,60", "R$ 38,40", "R$ 60", "R$ 68"],
+            "correta": 2,
+            "explicacao": "Pagou 80% do preço: 0,8x = 48, x = 60. Somar 20% de 48 (dá 57,60) é a pegadinha.",
+            "dica": "R$ 48 é qual porcentagem do preço original?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Hoje o pai tem o triplo da idade do filho. Daqui a 10 anos, a soma das idades será 64. Quantos anos o filho tem hoje?",
+            "alternativas": ["16", "10", "14", "11"],
+            "correta": 3,
+            "explicacao": "Daqui a 10 anos: (x + 10) + (3x + 10) = 64, 4x + 20 = 64, 4x = 44, x = 11.",
+            "dica": "Some os 10 anos aos dois, não só a um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ônibus saiu do terminal com alguns passageiros. Na 1ª parada desceram 8 e subiram 5; na 2ª, desceu a metade dos que estavam. Ficaram 13. Quantos saíram do terminal?",
+            "alternativas": ["29", "26", "21", "34"],
+            "correta": 0,
+            "explicacao": "Depois da 1ª parada: x − 3. Na 2ª, ficou a metade: (x − 3)/2 = 13, x − 3 = 26, x = 29.",
+            "dica": "Faça as paradas em ordem, escrevendo tudo com x."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a resolução de: “Três números consecutivos somam 60.”",
+            "itens": ["Chame o menor de x.", "Escreva os outros: x + 1 e x + 2.", "Monte: x + (x + 1) + (x + 2) = 60.", "Resolva: 3x + 3 = 60, x = 19.", "Responda: 19, 20 e 21."],
+            "explicacao": "Letra, outras quantidades, equação, resolução e resposta.",
+            "dica": "A resposta com os três números vem por último."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa fazenda há galinhas e vacas: 20 cabeças e 56 patas. Quantas vacas?",
+            "alternativas": ["12", "8", "10", "14"],
+            "correta": 1,
+            "explicacao": "x galinhas e 20 − x vacas: 2x + 4(20 − x) = 56, 80 − 2x = 56, x = 12 galinhas. Vacas: 8.",
+            "dica": "Galinha tem 2 patas e vaca tem 4."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Mariana gastou 1/3 da mesada no lanche e 1/4 em passagens. Sobraram R$ 25. Qual é a mesada?",
+            "alternativas": ["R$ 50", "R$ 75", "R$ 60", "R$ 100"],
+            "correta": 2,
+            "explicacao": "x − x/3 − x/4 = 25. MMC 12: 12x − 4x − 3x = 300, 5x = 300, x = 60. Confere: 60 − 20 − 15 = 25.",
+            "dica": "Escreva o que sobrou como mesada menos as duas frações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num estacionamento há carros e motos: 30 veículos e 100 rodas. Quantas motos?",
+            "alternativas": ["20", "25", "15", "10"],
+            "correta": 3,
+            "explicacao": "x carros, 30 − x motos: 4x + 2(30 − x) = 100, 2x + 60 = 100, x = 20 carros. Motos: 10.",
+            "dica": "Use o mesmo método das galinhas e vacas do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Hoje a mãe tem 36 anos e a filha 12. Daqui a quantos anos a mãe terá o dobro da idade da filha?",
+            "alternativas": ["12", "6", "24", "18"],
+            "correta": 0,
+            "explicacao": "36 + x = 2(12 + x), 36 + x = 24 + 2x, x = 12. Daqui a 12 anos: 48 e 24.",
+            "dica": "Some x anos às duas idades e monte “mãe = 2 × filha”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja deu 25% de desconto e, sobre o novo preço, mais 10%. O cliente pagou R$ 54. Qual era o preço original?",
+            "alternativas": ["R$ 72", "R$ 80", "R$ 75", "R$ 87,75"],
+            "correta": 1,
+            "explicacao": "x × 0,75 × 0,9 = 54, 0,675x = 54, x = 80. Confere: 80 → 60 → 54.",
+            "dica": "Cada desconto é uma multiplicação; monte a equação com as duas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três amigos dividem R$ 140 assim: Ana recebe o dobro de Bia, e Caio recebe R$ 20 a mais que Bia. Quanto recebe Ana?",
+            "alternativas": ["R$ 30", "R$ 50", "R$ 60", "R$ 80"],
+            "correta": 2,
+            "explicacao": "Bia x, Ana 2x, Caio x + 20: 4x + 20 = 140, x = 30. Ana: R$ 60. Confere: 60 + 30 + 50 = 140.",
+            "dica": "Escreva as três partes em função da parte de Bia."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Laço while: condição de parada e laço infinito",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O laço ENQUANTO (em inglês, while) repete um bloco de comandos enquanto uma condição for verdadeira. ENQUANTO saldo < meta FAÇA ... repete até o saldo alcançar a meta.",
+          "A condição é testada antes de cada volta. Se ela já começar falsa, o bloco não é executado nenhuma vez.",
+          "Ele é ideal quando não sabemos quantas repetições serão necessárias: pedir a senha até acertar, guardar dinheiro até juntar o valor, ler números até a pessoa digitar 0.",
+          "Dentro do laço, alguma coisa precisa mudar e, em algum momento, deixar a condição falsa. Essa é a condição de parada.",
+          "Se nada muda, a condição continua verdadeira para sempre: é o laço infinito. O programa trava, repetindo sem fim."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Tiago tem R$ 0 e guarda R$ 15 por semana. Quantas semanas leva para juntar pelo menos R$ 100?",
+            "resolucao": "saldo ← 0; semanas ← 0; ENQUANTO saldo < 100 FAÇA saldo ← saldo + 15; semanas ← semanas + 1. O saldo passa por 15, 30, 45, 60, 75, 90, 105. Para em 7 semanas, com R$ 105."
+          },
+          {
+            "enunciado": "x ← 1; ENQUANTO x > 0 FAÇA ESCREVA x. Qual é o problema?",
+            "resolucao": "x nunca muda, então x > 0 é sempre verdade: laço infinito. Faltou algo como x ← x − 1 dentro do laço."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Laço com sentinela: um valor especial que avisa a hora de parar. LEIA n; ENQUANTO n ≠ 0 FAÇA total ← total + n; LEIA n. O 0 é a sentinela: não entra na soma e encerra a leitura.",
+        "Dá para juntar duas condições: ENQUANTO senha errada E tentativas < 3. O laço para quando qualquer uma delas ficar falsa: acertou a senha ou acabaram as tentativas.",
+        "Todo PARA pode ser escrito como ENQUANTO: PARA i DE 1 ATÉ 5 equivale a i ← 1; ENQUANTO i <= 5 FAÇA ...; i ← i + 1. A diferença é que, no ENQUANTO, você mesmo precisa lembrar de atualizar o i."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o laço ENQUANTO faz?",
+            "alternativas": ["Repete enquanto uma condição for verdadeira", "Executa uma vez só", "Apaga o programa", "Mostra uma imagem"],
+            "correta": 0,
+            "explicacao": "ENQUANTO repete o bloco enquanto a condição for verdadeira.",
+            "dica": "O nome do laço já explica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama um laço que nunca termina?",
+            "alternativas": ["Laço curto", "Laço infinito", "Laço feliz", "Laço de fita"],
+            "correta": 1,
+            "explicacao": "Se a condição nunca fica falsa, o laço é infinito.",
+            "dica": "Um laço sem fim é chamado de quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando a condição do ENQUANTO é testada?",
+            "alternativas": ["Só no fim do programa", "Nunca", "Antes de cada volta", "Depois de 10 voltas"],
+            "correta": 2,
+            "explicacao": "Antes de cada repetição, o programa confere a condição.",
+            "dica": "Lembre o segundo parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a palavra em inglês para o laço ENQUANTO?",
+            "alternativas": ["if", "for", "print", "while"],
+            "correta": 3,
+            "explicacao": "While quer dizer enquanto.",
+            "dica": "Está no título da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para evitar laço infinito, dentro do laço é preciso:",
+            "alternativas": ["Mudar algo que, em algum momento, deixe a condição falsa", "Não fazer nada", "Escrever a condição duas vezes", "Desligar o computador"],
+            "correta": 0,
+            "explicacao": "Alguma variável precisa mudar até a condição de parada acontecer.",
+            "dica": "Pense na condição de parada."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Tiago começa com R$ 0 e guarda R$ 15 por semana, enquanto saldo < 100. Em quantas semanas o laço para?",
+            "alternativas": ["6", "7", "8", "100"],
+            "correta": 1,
+            "explicacao": "15, 30, 45, 60, 75, 90, 105. Na 7ª semana, o saldo passa de 100.",
+            "dica": "Some 15 até passar de 100, contando as voltas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x ← 10; ENQUANTO x < 5 FAÇA ESCREVA x. Quantas vezes o ESCREVA é executado?",
+            "alternativas": ["5", "10", "Nenhuma", "Infinitas"],
+            "correta": 2,
+            "explicacao": "10 < 5 é falso logo no começo, então o bloco não é executado nenhuma vez.",
+            "dica": "Teste a condição antes da primeira volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x ← 1; ENQUANTO x <= 3 FAÇA ESCREVA x; x ← x + 1. O que aparece?",
+            "alternativas": ["1 2 3 4", "1", "Nada", "1 2 3"],
+            "correta": 3,
+            "explicacao": "x vale 1, 2 e 3 dentro do laço. Quando vira 4, a condição fica falsa.",
+            "dica": "Acompanhe x a cada volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x ← 1; ENQUANTO x > 0 FAÇA ESCREVA x. Qual é o problema?",
+            "alternativas": ["Laço infinito, porque x nunca muda", "Não mostra nada", "Mostra só o 1 e para", "Dá erro de digitação"],
+            "correta": 0,
+            "explicacao": "x continua 1 para sempre, e 1 > 0 é sempre verdade.",
+            "dica": "Alguma coisa muda o x dentro do laço?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual situação o ENQUANTO é mais indicado que o PARA?",
+            "alternativas": ["Mostrar os números de 1 a 10", "Pedir a senha até a pessoa acertar", "Repetir exatamente 5 vezes", "Percorrer uma lista de 3 nomes"],
+            "correta": 1,
+            "explicacao": "Não sabemos quantas tentativas a pessoa vai precisar: ENQUANTO é o ideal.",
+            "dica": "Em qual delas não dá para saber quantas repetições haverá?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "n ← 1; ENQUANTO n < 50 FAÇA n ← n × 2. Qual é o valor final de n?",
+            "alternativas": ["50", "32", "64", "128"],
+            "correta": 2,
+            "explicacao": "1, 2, 4, 8, 16, 32, 64. Quando n vira 64, a condição 64 < 50 é falsa.",
+            "dica": "Dobre até a condição ficar falsa e veja onde parou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sentinela: total ← 0; LEIA n; ENQUANTO n ≠ 0 FAÇA total ← total + n; LEIA n. A pessoa digita 5, 8, 2 e 0. Qual é o total?",
+            "alternativas": ["0", "13", "16", "15"],
+            "correta": 3,
+            "explicacao": "5 + 8 + 2 = 15. O 0 é a sentinela: encerra e não entra na soma.",
+            "dica": "O 0 entra na soma ou só avisa para parar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "i ← 10; ENQUANTO i > 0 FAÇA i ← i − 3. Quantas vezes o laço roda?",
+            "alternativas": ["4", "3", "10", "Infinitas"],
+            "correta": 0,
+            "explicacao": "10 → 7 → 4 → 1 → −2. São 4 voltas; com −2, a condição fica falsa.",
+            "dica": "Faça o teste de mesa subtraindo 3 até não ser mais positivo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem um programa que pede a senha até acertar:",
+            "itens": ["LEIA senha", "ENQUANTO senha ≠ 'gato7' FAÇA", "ESCREVA 'Senha errada, tente de novo'", "LEIA senha (nova tentativa)", "ESCREVA 'Bem-vindo!'"],
+            "explicacao": "Lê, testa, avisa o erro e lê de novo dentro do laço; quando acerta, sai e dá boas-vindas.",
+            "dica": "A segunda leitura fica dentro do laço, senão ele não termina."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ENQUANTO equivale a PARA i DE 1 ATÉ 5?",
+            "alternativas": ["i ← 1; ENQUANTO i <= 5 FAÇA ...", "i ← 1; ENQUANTO i <= 5 FAÇA ...; i ← i + 1", "i ← 5; ENQUANTO i > 1 FAÇA ...", "ENQUANTO i = 5 FAÇA ..."],
+            "correta": 1,
+            "explicacao": "É preciso começar em 1, testar i <= 5 e lembrar de somar 1 a cada volta. Sem a atualização, vira laço infinito.",
+            "dica": "Procure a versão que atualiza o i."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "tentativas ← 0; acertou ← falso; ENQUANTO NÃO acertou E tentativas < 3 FAÇA LEIA s; tentativas ← tentativas + 1; SE s = 'sol' ENTÃO acertou ← verdadeiro. A pessoa digita 'lua', 'mar' e 'sol'. Quantas leituras e o que vale acertou?",
+            "alternativas": ["2 leituras; falso", "3 leituras; falso", "3 leituras; verdadeiro", "4 leituras; verdadeiro"],
+            "correta": 2,
+            "explicacao": "Leituras 1 e 2 erram. Na 3ª, acerta: acertou fica verdadeiro e tentativas = 3. As duas condições param o laço.",
+            "dica": "Acompanhe as duas variáveis a cada volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "saldo ← 100; ENQUANTO saldo > 0 FAÇA saldo ← saldo − 30; ESCREVA saldo. Qual é o último valor mostrado?",
+            "alternativas": ["10", "0", "−30", "−20"],
+            "correta": 3,
+            "explicacao": "100 → 70 → 40 → 10 → −20. Com 10 ainda > 0, roda mais uma vez e mostra −20; depois para.",
+            "dica": "O teste acontece antes de cada volta, não depois da subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 100 cresce 10% ao mês. Com ENQUANTO divida < 200 FAÇA divida ← divida × 1.1; meses ← meses + 1, em quantos meses a dívida chega a pelo menos R$ 200?",
+            "alternativas": ["8", "10", "7", "20"],
+            "correta": 0,
+            "explicacao": "100 → 110 → 121 → 133,10 → 146,41 → 161,05 → 177,16 → 194,87 → 214,36. São 8 meses.",
+            "dica": "Multiplique por 1,1 mês a mês até passar de 200."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x ← 0; ENQUANTO x ≠ 10 FAÇA x ← x + 3. O que acontece?",
+            "alternativas": ["Para quando x = 10", "Laço infinito, porque x pula de 9 para 12 e nunca é igual a 10", "Não roda nenhuma vez", "Para em x = 9"],
+            "correta": 1,
+            "explicacao": "x passa por 0, 3, 6, 9, 12, 15... e nunca vale exatamente 10. Usar x < 10 evitaria o problema.",
+            "dica": "Liste os valores de x e veja se algum é exatamente 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual condição de parada é mais segura para somar notas lidas até a pessoa digitar −1?",
+            "alternativas": ["ENQUANTO n > 100", "ENQUANTO n = −1", "ENQUANTO n ≠ −1", "ENQUANTO n = n"],
+            "correta": 2,
+            "explicacao": "O −1 é a sentinela: o laço continua enquanto n for diferente de −1. “n = n” seria sempre verdade, um laço infinito.",
+            "dica": "O laço deve continuar enquanto não chegar o valor de parada."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Colunas e quebra de página: montar um jornalzinho",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Jornais e revistas dividem o texto em colunas, porque linhas curtas são mais fáceis de ler. No Word, dá para fazer isso em poucos cliques.",
+          "Para criar colunas: selecione o texto, vá em Layout > Colunas e escolha Duas ou Três. Em Mais Colunas, dá para ajustar a largura e colocar uma linha entre elas.",
+          "A quebra de coluna (Layout > Quebras > Coluna) força o texto a continuar na coluna seguinte, mesmo que a primeira não esteja cheia. É útil para começar uma notícia nova no alto.",
+          "A quebra de página (Ctrl + Enter, ou Inserir > Quebra de Página) manda o texto para uma página nova. Nunca use vários Enter para empurrar o texto: qualquer mudança desarruma tudo.",
+          "No Documentos Google: Formatar > Colunas, e Inserir > Quebra > Quebra de página ou Quebra de coluna."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como deixar o título do jornalzinho ocupando a largura toda, e só as notícias em duas colunas?",
+            "resolucao": "Selecione apenas o texto das notícias (sem o título) e aplique Layout > Colunas > Duas. O Word cria sozinho uma quebra de seção contínua: o título fica numa coluna só e as notícias, em duas."
+          },
+          {
+            "enunciado": "A notícia sobre a quadra começou no fim da coluna 1, com só duas linhas. Como levá-la para o alto da coluna 2?",
+            "resolucao": "Clique antes do título dessa notícia e use Layout > Quebras > Coluna. Ela pula inteira para o começo da coluna seguinte."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Quebra de seção é o que permite ter partes do documento com formatação diferente: uma parte com uma coluna, outra com três; uma página em pé e outra deitada. Em Layout > Quebras, a opção Contínua muda a formatação sem pular de página.",
+        "Para ver onde estão as quebras, ligue o botão Mostrar Tudo (¶) na guia Página Inicial. Aparecem marcas como “Quebra de Página” e “Quebra de Coluna”, que podem ser apagadas como um caractere qualquer.",
+        "Um jornalzinho bonito tem: nome do jornal grande no alto, data e número da edição, títulos das notícias em negrito, texto justificado nas colunas, uma ou duas imagens com legenda e espaço em branco para respirar."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google, no computador ou no celular), monte o jornalzinho da sua turma em 2 páginas. Página 1: escreva o nome do jornal em letras grandes e centralizado, com a data embaixo. Depois, escreva três notícias curtas da escola ou do bairro (4 a 6 linhas cada, com título em negrito). Selecione só as notícias e coloque em duas colunas com linha entre elas. Use uma quebra de coluna para que a terceira notícia comece no alto da coluna 2. Use Ctrl + Enter para criar a página 2 e escreva nela uma seção de recados ou uma entrevista curta. Ligue o botão ¶ para ver as quebras e salve como jornalzinho_seunome.docx.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam as opções de colunas no Word?",
+            "alternativas": ["Layout > Colunas", "Arquivo > Salvar", "Inserir > Imagem", "Revisão > Ortografia"],
+            "correta": 0,
+            "explicacao": "As colunas ficam na guia Layout.",
+            "dica": "É a guia que mexe na organização da página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atalho cria uma quebra de página?",
+            "alternativas": ["Ctrl + B", "Ctrl + Enter", "Ctrl + C", "Ctrl + Z"],
+            "correta": 1,
+            "explicacao": "Ctrl + Enter manda o texto para uma página nova.",
+            "dica": "Envolve a tecla que você usa para pular linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que jornais usam colunas?",
+            "alternativas": ["Para gastar mais papel", "Porque é obrigatório", "Porque linhas curtas são mais fáceis de ler", "Para esconder o texto"],
+            "correta": 2,
+            "explicacao": "Linhas curtas cansam menos os olhos e facilitam a leitura.",
+            "dica": "Pense no tamanho das linhas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o jeito errado de empurrar texto para a próxima página?",
+            "alternativas": ["Ctrl + Enter", "Inserir > Quebra de Página", "Layout > Quebras > Página", "Apertar Enter várias vezes"],
+            "correta": 3,
+            "explicacao": "Vários Enter desarrumam tudo quando o texto muda. A quebra de página é o certo.",
+            "dica": "Qual deles quebra se você mudar o texto de cima?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Documentos Google, onde ficam as colunas?",
+            "alternativas": ["Formatar > Colunas", "Arquivo > Imprimir", "Editar > Copiar", "Ferramentas > Ortografia"],
+            "correta": 0,
+            "explicacao": "No Documentos Google, as colunas ficam no menu Formatar.",
+            "dica": "Colunas mudam o formato do texto."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a quebra de coluna?",
+            "alternativas": ["Apagar a coluna", "Fazer o texto continuar no alto da coluna seguinte", "Criar uma tabela", "Mudar a cor do texto"],
+            "correta": 1,
+            "explicacao": "A quebra de coluna força o texto a pular para a próxima coluna.",
+            "dica": "É parecida com a quebra de página, mas dentro das colunas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deixar o título com a largura toda e só as notícias em duas colunas?",
+            "alternativas": ["Colocar o título em duas colunas também", "Apertar Enter várias vezes", "Selecionar só as notícias antes de aplicar as colunas", "Escrever o título no rodapé"],
+            "correta": 2,
+            "explicacao": "Aplicando as colunas só ao texto selecionado, o Word cria uma quebra de seção e o título fica livre.",
+            "dica": "O que você seleciona antes de aplicar faz diferença."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se coloca uma linha entre as colunas?",
+            "alternativas": ["Inserir > Forma", "Página Inicial > Sublinhado", "Arquivo > Opções", "Layout > Colunas > Mais Colunas"],
+            "correta": 3,
+            "explicacao": "Em Mais Colunas há a opção Linha entre colunas.",
+            "dica": "Fica nas opções avançadas de colunas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual botão mostra as marcas de quebra no documento?",
+            "alternativas": ["Mostrar Tudo (¶)", "Negrito (N)", "Salvar", "Imprimir"],
+            "correta": 0,
+            "explicacao": "O ¶ mostra marcas escondidas, como quebras e parágrafos.",
+            "dica": "É o símbolo de parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma notícia começa no fim da coluna 1, com só duas linhas. O que fazer?",
+            "alternativas": ["Apagar a notícia", "Inserir uma quebra de coluna antes do título dela", "Diminuir a fonte do jornal todo", "Colocar três colunas"],
+            "correta": 1,
+            "explicacao": "A quebra de coluna leva a notícia inteira para o alto da coluna seguinte.",
+            "dica": "Lembre o segundo exemplo da lição."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma quebra de seção contínua?",
+            "alternativas": ["Uma quebra que apaga o texto", "Uma página em branco", "Uma divisão que permite mudar a formatação sem pular de página", "Um tipo de fonte"],
+            "correta": 2,
+            "explicacao": "Com ela, a mesma página pode ter uma parte em uma coluna e outra em duas.",
+            "dica": "O nome “contínua” diz que não muda de página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer uma página em pé e a seguinte deitada (paisagem). O que precisa?",
+            "alternativas": ["Uma quebra de coluna", "Vários Enter", "Um cabeçalho", "Uma quebra de seção (Próxima Página) e mudar a orientação só na nova seção"],
+            "correta": 3,
+            "explicacao": "Formatações diferentes exigem seções diferentes. A quebra de seção Próxima Página faz isso.",
+            "dica": "O aprofundamento diz o que permite partes com formatação diferente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma quebra de página foi colocada no lugar errado. Como tirar?",
+            "alternativas": ["Ligar o ¶, clicar na marca “Quebra de Página” e apagar", "Fechar o Word sem salvar sempre", "Mudar a cor da página", "Não tem como tirar"],
+            "correta": 0,
+            "explicacao": "Com o ¶ ligado, a quebra aparece como uma marca que pode ser apagada.",
+            "dica": "Primeiro é preciso enxergar a quebra."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para montar a primeira página do jornalzinho:",
+            "itens": ["Escreva o nome do jornal e a data.", "Escreva as notícias com títulos em negrito.", "Selecione só as notícias.", "Aplique Layout > Colunas > Duas.", "Ajuste com quebras de coluna onde precisar."],
+            "explicacao": "Conteúdo primeiro, depois a formatação em colunas e os ajustes finais.",
+            "dica": "Escreva antes de formatar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes elementos o aprofundamento recomenda num jornalzinho?",
+            "alternativas": ["Texto todo em letras maiúsculas", "Imagens com legenda e espaço em branco", "Fonte diferente em cada palavra", "Nenhum título"],
+            "correta": 1,
+            "explicacao": "Imagens com legenda e espaço em branco deixam o jornal agradável de ler.",
+            "dica": "Releia a lista do último parágrafo do aprofundamento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluno aplicou duas colunas ao documento inteiro, e o nome do jornal ficou espremido na coluna 1. Qual é a correção mais rápida?",
+            "alternativas": ["Apagar tudo e recomeçar", "Usar três colunas", "Selecionar só o nome do jornal e aplicar Colunas > Uma", "Diminuir o nome para fonte 6"],
+            "correta": 2,
+            "explicacao": "Aplicando uma coluna só ao título, o Word cria a quebra de seção e devolve a largura toda a ele.",
+            "dica": "As colunas valem para o que está selecionado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A página tem 2 colunas de 8 cm e um espaço de 1 cm entre elas. Qual é a largura total ocupada pelo texto?",
+            "alternativas": ["16 cm", "18 cm", "8 cm", "17 cm"],
+            "correta": 3,
+            "explicacao": "8 + 1 + 8 = 17 cm. O espaço entre as colunas também conta.",
+            "dica": "Não esqueça o espaço entre as colunas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que usar Enter várias vezes para pular de página é um problema num jornalzinho com colunas?",
+            "alternativas": ["Qualquer mudança no texto acima desloca tudo e a página nova começa no lugar errado", "Porque o Enter apaga as colunas", "Porque gasta tinta", "Porque o Word proíbe"],
+            "correta": 0,
+            "explicacao": "Os Enter são linhas vazias: se o texto acima cresce ou diminui, tudo se desloca.",
+            "dica": "Pense no que acontece ao acrescentar uma linha numa notícia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer: página 1 com o nome do jornal em largura total e notícias em 2 colunas; página 2 toda em 3 colunas. Quantas seções, no mínimo, o documento precisa?",
+            "alternativas": ["1", "3", "2", "5"],
+            "correta": 1,
+            "explicacao": "Seção 1: título (1 coluna). Seção 2: notícias (2 colunas). Seção 3: página 2 (3 colunas). São 3 formatos diferentes.",
+            "dica": "Conte quantos arranjos de colunas diferentes aparecem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação deixa o texto das colunas com aparência mais organizada de jornal?",
+            "alternativas": ["Alinhado à direita e com fonte enorme", "Centralizado e sem títulos", "Justificado, com títulos em negrito e linha entre colunas", "Sem parágrafos e todo em itálico"],
+            "correta": 2,
+            "explicacao": "Texto justificado alinha as duas bordas, os títulos guiam o leitor e a linha separa as colunas.",
+            "dica": "Lembre o tipo de alinhamento citado no aprofundamento."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Liderar uma equipe pequena: cada um no seu talento e todos pagos de forma justa",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Sozinho, você faz pouco. Com uma equipe bem organizada, o negócio produz muito mais. Liderar é distribuir as tarefas, combinar as regras e garantir que todos trabalhem bem e sejam tratados com justiça.",
+          "Cada pessoa tem um talento: quem é bom de conta cuida do caixa, quem conversa bem atende, quem é caprichoso prepara os produtos. Colocar cada um onde rende mais é aproveitar bem o trabalho da equipe, sem sobrecarregar ninguém.",
+          "O pagamento justo é combinado antes de começar, por escrito ou na frente de todos: quanto cada um recebe e por quê. Pode ser por hora trabalhada, por tarefa ou uma divisão do lucro. Combinado não sai caro.",
+          "Bom líder dá o exemplo, ouve a equipe, reconhece o esforço e resolve conflitos sem humilhar ninguém. Chefe que grita e paga mal perde as melhores pessoas.",
+          "Num negócio de verdade, contratar exige seguir a lei: carteira assinada pela CLT, pelo menos o salário mínimo, jornada e descanso respeitados. E a Constituição proíbe o trabalho de menores de 16 anos, salvo como aprendiz a partir dos 14."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quatro amigos fazem uma barraca de pipoca numa festa da escola. Lucro: R$ 240. Trabalharam 5, 4, 3 e 3 horas. Como dividir pelas horas?",
+            "resolucao": "Total de horas: 5 + 4 + 3 + 3 = 15. Valor da hora: 240 ÷ 15 = R$ 16. Recebem: 5 × 16 = R$ 80; 4 × 16 = R$ 64; 3 × 16 = R$ 48; 3 × 16 = R$ 48. Confere: 80 + 64 + 48 + 48 = 240."
+          },
+          {
+            "enunciado": "Na barraca, Gustavo é ótimo em contas e tímido; Paula adora conversar. Como distribuir?",
+            "resolucao": "Gustavo no caixa e no controle do dinheiro; Paula no atendimento e na divulgação. Cada um rende mais no que faz bem, e a barraca atende mais gente."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Delegar é confiar uma tarefa a alguém e dar o que ele precisa para fazer: explicação clara, material e autonomia. O líder acompanha, mas não faz tudo sozinho nem fica controlando cada movimento.",
+        "A informalidade traz riscos para o dono e para o trabalhador: sem carteira assinada, o trabalhador fica sem direitos como FGTS, férias e INSS, e o dono pode ser processado na Justiça do Trabalho e ter que pagar tudo de uma vez, com multa. Pagar certo é mais barato que pagar depois.",
+        "Pagar justo também é bom negócio: funcionário bem tratado fica, aprende cada vez mais e atende melhor. Trocar de pessoa toda hora custa caro, porque cada novato precisa ser treinado de novo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que um bom líder faz?",
+            "alternativas": ["Distribui tarefas, combina regras e trata todos com justiça", "Grita com a equipe", "Faz todos trabalharem sem pagar", "Não fala com ninguém"],
+            "correta": 0,
+            "explicacao": "Liderar é organizar o trabalho e cuidar das pessoas com justiça.",
+            "dica": "Procure a atitude que organiza e respeita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando o pagamento deve ser combinado?",
+            "alternativas": ["Depois de tudo acabar", "Antes de começar o trabalho", "Nunca", "Só se alguém reclamar"],
+            "correta": 1,
+            "explicacao": "Combinar antes evita brigas e mostra respeito.",
+            "dica": "Lembre o ditado: combinado não sai caro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem é bom em contas pode cuidar de qual função na barraca?",
+            "alternativas": ["Pintar o cartaz", "Cantar", "Caixa e controle do dinheiro", "Varrer só"],
+            "correta": 2,
+            "explicacao": "Colocar cada um no seu talento: quem é bom de conta cuida do caixa.",
+            "dica": "Qual função usa mais matemática?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lei cuida da carteira de trabalho e dos direitos do empregado?",
+            "alternativas": ["CDC", "LGPD", "Código de Trânsito", "CLT"],
+            "correta": 3,
+            "explicacao": "A CLT (Consolidação das Leis do Trabalho) trata dos direitos de quem trabalha com carteira.",
+            "dica": "A sigla tem T, de trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com o chefe que grita e paga mal?",
+            "alternativas": ["Perde as melhores pessoas da equipe", "Ganha mais clientes", "Fica mais querido", "Nada acontece"],
+            "correta": 0,
+            "explicacao": "Quem é bom no que faz procura outro lugar onde seja respeitado.",
+            "dica": "Para onde vão os bons funcionários quando são maltratados?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucro de R$ 240 dividido por horas: os amigos trabalharam 5, 4, 3 e 3 horas. Quanto vale cada hora?",
+            "alternativas": ["R$ 60", "R$ 16", "R$ 48", "R$ 20"],
+            "correta": 1,
+            "explicacao": "Total: 15 horas. 240 ÷ 15 = R$ 16 por hora.",
+            "dica": "Some as horas e divida o lucro pelo total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nessa divisão (R$ 16 por hora), quanto recebe quem trabalhou 5 horas?",
+            "alternativas": ["R$ 60", "R$ 48", "R$ 80", "R$ 64"],
+            "correta": 2,
+            "explicacao": "5 × 16 = R$ 80.",
+            "dica": "Multiplique as horas pelo valor da hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela Constituição, a partir de que idade alguém pode trabalhar como aprendiz?",
+            "alternativas": ["10 anos", "12 anos", "18 anos", "14 anos"],
+            "correta": 3,
+            "explicacao": "O trabalho é proibido para menores de 16 anos, salvo como aprendiz a partir dos 14.",
+            "dica": "Releia a última frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é delegar?",
+            "alternativas": ["Confiar uma tarefa a alguém, dando explicação, material e autonomia", "Fazer tudo sozinho", "Mandar sem explicar", "Demitir alguém"],
+            "correta": 0,
+            "explicacao": "Delegar é confiar e dar condições; o líder acompanha sem sufocar.",
+            "dica": "O aprofundamento explica o que o líder precisa dar a quem recebe a tarefa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude mostra boa liderança num conflito entre dois colegas da barraca?",
+            "alternativas": ["Humilhar os dois na frente dos clientes", "Ouvir os dois em particular e buscar uma solução justa", "Ignorar até piorar", "Mandar um deles embora sem ouvir"],
+            "correta": 1,
+            "explicacao": "Ouvir os lados e resolver com respeito mantém a equipe unida.",
+            "dica": "Procure a atitude que ouve e respeita."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Três amigos dividem um lucro de R$ 360 pelas horas: 6, 5 e 7 horas. Quanto recebe quem trabalhou 7 horas?",
+            "alternativas": ["R$ 120", "R$ 126", "R$ 140", "R$ 100"],
+            "correta": 2,
+            "explicacao": "Total: 18 horas. 360 ÷ 18 = R$ 20 por hora. 7 × 20 = R$ 140.",
+            "dica": "Ache o valor da hora antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono de lanchonete não assina a carteira do funcionário para “economizar”. Qual é o risco, segundo o aprofundamento?",
+            "alternativas": ["Nenhum", "Ganhar um prêmio", "O funcionário trabalhar mais", "Ser processado na Justiça do Trabalho e pagar tudo de uma vez, com multa"],
+            "correta": 3,
+            "explicacao": "Além de tirar direitos do trabalhador, a informalidade pode virar uma conta muito maior depois.",
+            "dica": "Pagar certo é mais barato que pagar depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que trocar de funcionário toda hora sai caro?",
+            "alternativas": ["Porque cada novato precisa ser treinado de novo", "Porque o salário dobra", "Porque é proibido contratar", "Porque o cliente paga menos"],
+            "correta": 0,
+            "explicacao": "Treinar gasta tempo e dinheiro, e o novato demora para render como o antigo.",
+            "dica": "O que todo funcionário novo precisa receber?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para organizar uma equipe de barraca na festa da escola:",
+            "itens": ["Conheça o talento de cada pessoa.", "Distribua as funções de acordo com os talentos.", "Combine na frente de todos como o ganho será dividido.", "Trabalhe junto, dando o exemplo.", "No fim, confira as contas e pague o combinado."],
+            "explicacao": "Conhecer, distribuir, combinar, trabalhar e pagar como combinado.",
+            "dica": "O pagamento é combinado antes e feito no fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Laís ficou no caixa 4 horas e Rui carregou caixas 4 horas. Combinaram pagar por hora. Quanto cada um recebe, se o valor da hora é R$ 15?",
+            "alternativas": ["Laís R$ 60 e Rui R$ 30", "Os dois R$ 60", "Laís R$ 30 e Rui R$ 60", "Os dois R$ 15"],
+            "correta": 1,
+            "explicacao": "Pelo combinado, o que vale são as horas: 4 × 15 = R$ 60 para cada um.",
+            "dica": "O combinado foi por hora, não por tipo de tarefa."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma barraca teve receita de R$ 500 e custos de R$ 140. Três amigos dividem o lucro pelas horas: 4, 6 e 8 horas. Quanto recebe quem trabalhou 6 horas?",
+            "alternativas": ["R$ 166,67", "R$ 160", "R$ 120", "R$ 180"],
+            "correta": 2,
+            "explicacao": "Lucro: 500 − 140 = 360. Total de horas: 18. Hora: R$ 20. 6 × 20 = R$ 120. Dividir a receita, e não o lucro, é a pegadinha.",
+            "dica": "Primeiro desconte os custos; depois divida pelas horas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dona de confeitaria quer produzir o dobro de bolos. Qual plano usa bem a mão de obra, dentro da lei?",
+            "alternativas": ["Fazer a única funcionária trabalhar 16 horas por dia", "Chamar o sobrinho de 12 anos para trabalhar todo dia", "Contratar sem registro para pagar menos", "Contratar mais uma pessoa com carteira assinada e dividir as etapas por talento"],
+            "correta": 3,
+            "explicacao": "Multiplicar a produção com mais gente registrada e bem organizada é o caminho legal e sustentável.",
+            "dica": "Procure o plano que aumenta a produção sem desrespeitar ninguém."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quatro amigos combinaram dividir o lucro igualmente, mas um deles faltou metade do dia sem avisar. No fim, o grupo quer mudar a regra. Qual é a atitude mais justa?",
+            "alternativas": ["Cumprir o combinado desta vez e, para a próxima, combinar antes uma regra que leve em conta as horas", "Não pagar nada ao que faltou, sem conversar", "Dividir tudo só entre os três, escondido", "Brigar até alguém desistir"],
+            "correta": 0,
+            "explicacao": "Mudar a regra depois quebra a confiança. O certo é cumprir o combinado e melhorar a regra para as próximas vezes.",
+            "dica": "Pense no valor do que foi combinado antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma equipe de 3 pessoas faz 30 salgados por hora cada uma, trabalhando 4 horas. Se cada salgado dá R$ 1,50 de lucro, qual é o lucro total e quanto cabe a cada um, dividindo igual?",
+            "alternativas": ["R$ 180 no total; R$ 60 cada", "R$ 540 no total; R$ 180 cada", "R$ 360 no total; R$ 120 cada", "R$ 135 no total; R$ 45 cada"],
+            "correta": 1,
+            "explicacao": "Salgados: 3 × 30 × 4 = 360. Lucro: 360 × 1,50 = R$ 540. Cada um: 540 ÷ 3 = R$ 180.",
+            "dica": "Calcule quantos salgados a equipe fez ao todo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que colocar cada pessoa no seu talento aumenta a produção da equipe?",
+            "alternativas": ["Porque assim todos trabalham de graça", "Porque ninguém precisa mais de líder", "Porque cada um faz melhor e mais rápido o que domina, e o grupo rende mais", "Porque diminui o número de tarefas"],
+            "correta": 2,
+            "explicacao": "Quem faz o que domina erra menos e trabalha mais rápido, e o resultado do grupo cresce.",
+            "dica": "Pense em velocidade e qualidade de quem faz o que sabe."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Adjunto adnominal e adjunto adverbial",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Adjuntos são termos que acrescentam informações. Eles não são obrigatórios para a frase ter sentido, mas deixam a mensagem mais precisa.",
+          "Adjunto adnominal acompanha um substantivo e o caracteriza ou determina. Podem ser artigos (o, uma), adjetivos (esperto), numerais (dois), pronomes (meu, aquela) e locuções adjetivas (de chocolate). Em “Meus dois primos espertos chegaram”, meus, dois e espertos são adjuntos adnominais de “primos”.",
+          "Adjunto adverbial acompanha principalmente o verbo e indica uma circunstância: tempo (ontem, à noite), lugar (na escola), modo (devagar, com cuidado), intensidade (muito), negação (não), causa, entre outras.",
+          "Em “A turma estudou muito ontem na biblioteca”, muito (intensidade), ontem (tempo) e na biblioteca (lugar) são adjuntos adverbiais de “estudou”.",
+          "Truque: para achar o adjunto adnominal, pergunte ao substantivo “qual? quantos? de quem? como é?”. Para o adverbial, pergunte ao verbo “quando? onde? como? quanto?”."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Ache os adjuntos de “O vendedor simpático atendeu rapidamente os clientes.”",
+            "resolucao": "Adnominais: o e simpático (de vendedor); os (de clientes). Adverbial: rapidamente (modo, de atendeu)."
+          },
+          {
+            "enunciado": "Classifique o adjunto adverbial em “Choveu muito em São Paulo à tarde.”",
+            "resolucao": "Muito: intensidade. Em São Paulo: lugar. À tarde: tempo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A mesma expressão com preposição pode ter papéis diferentes. Em “bolo de chocolate”, “de chocolate” caracteriza o substantivo bolo: adjunto adnominal. Em “Ele saiu de casa cedo”, “de casa” indica lugar de onde saiu: adjunto adverbial.",
+        "Mudar a posição do adjunto adverbial muitas vezes não muda o sentido: “Ontem, a turma estudou” e “A turma estudou ontem”. Quando ele vem no começo e é longo, costuma ser separado por vírgula: “Na semana passada, a turma visitou o museu.”",
+        "Cuidado com o adjetivo: ele pode ser adjunto adnominal (“o aluno cansado saiu”) ou predicativo (“o aluno está cansado”). Se estiver ligado ao substantivo diretamente, é adjunto; se vier depois de verbo de ligação, é predicativo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O adjunto adnominal acompanha:",
+            "alternativas": ["Um substantivo", "Só verbos", "Só sinais de pontuação", "Nada"],
+            "correta": 0,
+            "explicacao": "Adnominal vem de “nome”: acompanha o substantivo.",
+            "dica": "Adnominal lembra nome, ou seja, substantivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “A turma estudou ontem”, a palavra “ontem” indica:",
+            "alternativas": ["Lugar", "Tempo", "Modo", "Intensidade"],
+            "correta": 1,
+            "explicacao": "Ontem responde “quando?”: é adjunto adverbial de tempo.",
+            "dica": "Pergunte ao verbo: estudou quando?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “O menino esperto venceu”, qual é o adjunto adnominal que caracteriza o menino?",
+            "alternativas": ["venceu", "menino", "esperto", "O menino venceu"],
+            "correta": 2,
+            "explicacao": "“Esperto” caracteriza o substantivo menino.",
+            "dica": "Como é o menino?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Estudamos na biblioteca”, “na biblioteca” indica:",
+            "alternativas": ["Tempo", "Intensidade", "Negação", "Lugar"],
+            "correta": 3,
+            "explicacao": "Responde “onde?”: adjunto adverbial de lugar.",
+            "dica": "Pergunte ao verbo: estudamos onde?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Ela fala muito”, “muito” indica:",
+            "alternativas": ["Intensidade", "Lugar", "Tempo", "Negação"],
+            "correta": 0,
+            "explicacao": "Muito responde “quanto?”: adjunto adverbial de intensidade.",
+            "dica": "Pergunte: fala quanto?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Meus dois primos chegaram”, quais são os adjuntos adnominais?",
+            "alternativas": ["chegaram", "Meus e dois", "primos", "Meus, primos e chegaram"],
+            "correta": 1,
+            "explicacao": "Meus (pronome) e dois (numeral) acompanham o substantivo primos.",
+            "dica": "Procure as palavras que acompanham “primos”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “O vendedor atendeu rapidamente”, “rapidamente” é adjunto adverbial de:",
+            "alternativas": ["Tempo", "Lugar", "Modo", "Causa"],
+            "correta": 2,
+            "explicacao": "Responde “como?”: atendeu de que modo? Rapidamente.",
+            "dica": "Pergunte: atendeu como?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “bolo de chocolate”, “de chocolate” é:",
+            "alternativas": ["Adjunto adverbial de lugar", "Objeto indireto", "Sujeito", "Adjunto adnominal"],
+            "correta": 3,
+            "explicacao": "Caracteriza o substantivo bolo: é uma locução adjetiva, adjunto adnominal.",
+            "dica": "Ele diz como é o bolo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Não saí de casa”, a palavra “não” é adjunto adverbial de:",
+            "alternativas": ["Negação", "Tempo", "Modo", "Intensidade"],
+            "correta": 0,
+            "explicacao": "“Não” nega a ação: adjunto adverbial de negação.",
+            "dica": "O que essa palavra faz com a ação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem a vírgula usada corretamente com adjunto adverbial no começo?",
+            "alternativas": ["Na semana passada a, turma visitou o museu.", "Na semana passada, a turma visitou o museu.", "Na semana, passada a turma visitou o museu.", "Na, semana passada a turma visitou o museu."],
+            "correta": 1,
+            "explicacao": "O adjunto adverbial longo no começo fica separado por vírgula do resto da frase.",
+            "dica": "A vírgula separa a expressão de tempo inteira do resto."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Ele saiu de casa cedo”, “de casa” é:",
+            "alternativas": ["Adjunto adnominal", "Objeto direto", "Adjunto adverbial de lugar", "Predicativo"],
+            "correta": 2,
+            "explicacao": "Indica de onde ele saiu: lugar. Não caracteriza nenhum substantivo.",
+            "dica": "Pergunte ao verbo: saiu de onde?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase “cansado” é adjunto adnominal?",
+            "alternativas": ["O aluno está cansado.", "O aluno parece cansado.", "O aluno ficou cansado.", "O aluno cansado dormiu na viagem."],
+            "correta": 3,
+            "explicacao": "Ligado diretamente ao substantivo, sem verbo de ligação: adjunto adnominal. Nas outras, é predicativo.",
+            "dica": "Veja se há verbo de ligação entre o substantivo e o adjetivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Choveu muito em São Paulo à tarde”, quantos adjuntos adverbiais há?",
+            "alternativas": ["3", "1", "2", "4"],
+            "correta": 0,
+            "explicacao": "Muito (intensidade), em São Paulo (lugar) e à tarde (tempo).",
+            "dica": "Pergunte ao verbo: quanto, onde e quando?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para analisar “Aquela vizinha gentil ajudou muito ontem”:",
+            "itens": ["Ache o verbo: ajudou.", "Ache o sujeito: aquela vizinha gentil.", "No sujeito, ache os adjuntos adnominais: aquela e gentil.", "Pergunte ao verbo quanto e quando: muito e ontem.", "Classifique: muito (intensidade) e ontem (tempo)."],
+            "explicacao": "Verbo, sujeito, adnominais do substantivo e adverbiais do verbo.",
+            "dica": "Comece sempre pelo verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “A professora de Ciências chegou com pressa”, como se classificam “de Ciências” e “com pressa”?",
+            "alternativas": ["Os dois são adjuntos adnominais", "Adjunto adnominal e adjunto adverbial de modo", "Os dois são adjuntos adverbiais", "Objeto indireto e adjunto adnominal"],
+            "correta": 1,
+            "explicacao": "“De Ciências” caracteriza a professora (adnominal); “com pressa” diz como chegou (adverbial de modo).",
+            "dica": "Um acompanha o substantivo; o outro, o verbo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “O filho da vizinha estuda à noite na escola do bairro”, quantos adjuntos adnominais e quantos adverbiais há (sem contar artigos)?",
+            "alternativas": ["1 adnominal e 1 adverbial", "3 adnominais e nenhum adverbial", "2 adnominais e 2 adverbiais", "Nenhum adnominal e 3 adverbiais"],
+            "correta": 2,
+            "explicacao": "Adnominais: da vizinha (de filho) e do bairro (de escola). Adverbiais: à noite (tempo) e na escola do bairro (lugar).",
+            "dica": "Separe o que caracteriza substantivos do que responde quando e onde."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual mudança troca um adjunto adnominal por um predicativo?",
+            "alternativas": ["“O portão velho rangeu.” → “O portão velho rangeu de novo.”", "“A rua escura assusta.” → “A rua escura assusta muito.”", "“O cão bravo latiu.” → “O cão bravo latiu ontem.”", "“O bolo quente cheira bem.” → “O bolo está quente.”"],
+            "correta": 3,
+            "explicacao": "Em “O bolo está quente”, o adjetivo vem depois de verbo de ligação: vira predicativo.",
+            "dica": "Procure onde aparece um verbo de ligação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Por causa da chuva, o jogo foi adiado”, “por causa da chuva” é adjunto adverbial de:",
+            "alternativas": ["Causa", "Tempo", "Lugar", "Modo"],
+            "correta": 0,
+            "explicacao": "Indica o motivo do adiamento: adjunto adverbial de causa.",
+            "dica": "Pergunte: por que o jogo foi adiado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase NÃO tem nenhum adjunto adverbial?",
+            "alternativas": ["Eles chegaram cedo.", "Meu irmão caçula comprou uma bicicleta azul.", "Ela não veio.", "Corremos bastante no parque."],
+            "correta": 1,
+            "explicacao": "Só há adjuntos adnominais (meu, caçula, uma, azul) e objeto direto. As outras têm cedo, não, bastante e no parque.",
+            "dica": "Procure a frase sem quando, onde, como, quanto ou negação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “A casa de pedra fica de frente para o mar”, como se classificam “de pedra” e “de frente para o mar”?",
+            "alternativas": ["Ambos adjuntos adverbiais", "Adjunto adverbial e adjunto adnominal", "Adjunto adnominal e adjunto adverbial de lugar", "Ambos adjuntos adnominais"],
+            "correta": 2,
+            "explicacao": "“De pedra” caracteriza a casa (adnominal). “De frente para o mar” indica onde ela fica (adverbial de lugar).",
+            "dica": "Um diz como é a casa; o outro, onde ela fica."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A barraca da quermesse",
+    "texto": "A professora avisou: cada turma do 7º ano ia cuidar de uma barraca na festa junina da escola, e o lucro seria dos alunos que trabalhassem. Heloísa levantou a mão antes de todo mundo.\n\nNo intervalo, juntou Kaique, Vitória e Bernardo debaixo da árvore do pátio.\n\n— A gente vai vender cachorro-quente e quentão sem álcool. Mas antes, vamos ver quem faz o quê.\n\nKaique fazia contas de cabeça mais rápido que a calculadora: ficou com o caixa. Vitória desenhava bem e conversava com qualquer pessoa: cartaz e atendimento. Bernardo tinha paciência na cozinha da avó: montaria os lanches. Heloísa ficou com as compras e com ajudar onde a fila apertasse.\n\n— E o dinheiro? — perguntou Bernardo.\n\n— Pelas horas que cada um ficar na barraca. Vamos anotar tudo num papel, na frente de todo mundo.\n\nNa noite da festa, a fila dobrou a quadra. No fim, Kaique fez as contas: receita de 420 reais, custos de 120, lucro de 300. Somaram as horas: 20 no total. Quinze reais por hora.\n\nHeloísa, que tinha ficado 6 horas, recebeu 90. Os outros, conforme o papel. Ninguém reclamou, porque estava tudo combinado desde o começo.\n\nNa segunda-feira, outra turma veio perguntar como eles tinham se organizado."
+  },
+  "escrita": {
+    "proposta": "Imagine que você vai liderar três amigos num pequeno negócio (uma barraca de festa, venda de doces, lavagem de bicicletas ou outro). Em 5 a 10 linhas, escreva quem faz o quê e por quê, pensando no talento de cada um, e explique como o pagamento será dividido, de forma justa e combinada antes de começar. Se quiser, invente um lucro e mostre a conta da divisão."
+  }
+}

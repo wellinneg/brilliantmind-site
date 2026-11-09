@@ -1,0 +1,1491 @@
+{
+  "dia": 34,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Equações do tipo ax² = b",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Uma equação do tipo ax² = b tem a incógnita elevada ao quadrado. Para resolver, isolamos o x² e depois tiramos a raiz quadrada.",
+          "Exemplo: x² = 25. Que número ao quadrado dá 25? O 5, porque 5 · 5 = 25. Mas também o −5, porque (−5) · (−5) = 25. Por isso a equação tem duas soluções: x = 5 ou x = −5, que podemos escrever x = ±5.",
+          "Quando há um número multiplicando o x², divida primeiro: 3x² = 48 vira x² = 16, então x = ±4. Quando há um número somando ou subtraindo, passe-o para o outro lado: x² − 36 = 0 vira x² = 36, então x = ±6.",
+          "Casos especiais: x² = 0 tem uma só solução, x = 0. E x² = −9 não tem solução entre os números reais, porque nenhum número real ao quadrado dá negativo.",
+          "Em problemas de medida, só a solução positiva faz sentido: se um quadrado tem área de 49 m², o lado mede 7 m, nunca −7 m."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Resolva 2x² − 50 = 0.",
+            "resolucao": "Some 50: 2x² = 50. Divida por 2: x² = 25. Raiz: x = 5 ou x = −5. Confira: 2 · 25 − 50 = 0."
+          },
+          {
+            "enunciado": "Um terreno quadrado tem 144 m². Quanto mede o lado?",
+            "resolucao": "x² = 144, então x = 12 ou x = −12. Como é medida, o lado é 12 m."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Quando o número não é um quadrado perfeito, a resposta fica com raiz: x² = 7 dá x = ±√7 (cerca de ±2,65). Não é erro: é a resposta exata.",
+        "A mesma ideia vale para (x − 3)² = 16: o que está dentro do parêntese vale 4 ou −4. Então x − 3 = 4, que dá x = 7, ou x − 3 = −4, que dá x = −1. Duas soluções.",
+        "A área do círculo é π · r². Se a área é 50,24 cm² e π = 3,14, então r² = 50,24 ÷ 3,14 = 16 e r = 4 cm (a medida negativa é descartada)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as soluções de x² = 25?",
+            "alternativas": [
+              "Só 5",
+              "25",
+              "5 e −5",
+              "12,5"
+            ],
+            "correta": 2,
+            "explicacao": "5 · 5 = 25 e (−5) · (−5) = 25: duas soluções.",
+            "dica": "O negativo vezes negativo dá positivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−4)²?",
+            "alternativas": [
+              "−16",
+              "−8",
+              "8",
+              "16"
+            ],
+            "correta": 3,
+            "explicacao": "(−4) · (−4) = 16: menos com menos dá mais.",
+            "dica": "Multiplique −4 por ele mesmo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem área de 49 m². Quanto mede o lado?",
+            "alternativas": [
+              "7 m",
+              "49 m",
+              "24,5 m",
+              "14 m"
+            ],
+            "correta": 0,
+            "explicacao": "Lado · lado = 49, e 7 · 7 = 49.",
+            "dica": "Que número vezes ele mesmo dá 49?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a solução de x² = 0?",
+            "alternativas": [
+              "x = 1",
+              "x = 0",
+              "Não tem solução",
+              "x = −1"
+            ],
+            "correta": 1,
+            "explicacao": "Só o zero ao quadrado dá zero.",
+            "dica": "Que número multiplicado por ele mesmo dá nada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 2x² = 18, quanto vale x²?",
+            "alternativas": [
+              "9",
+              "36",
+              "16",
+              "20"
+            ],
+            "correta": 0,
+            "explicacao": "Divida os dois lados por 2: x² = 9.",
+            "dica": "Desfaça a multiplicação por 2."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 3x² = 48.",
+            "alternativas": [
+              "x = 16",
+              "x = 4 ou x = −4",
+              "x = 12",
+              "x = 8 ou x = −8"
+            ],
+            "correta": 1,
+            "explicacao": "x² = 48 ÷ 3 = 16, então x = ±4.",
+            "dica": "Primeiro divida por 3; depois tire a raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas soluções reais tem x² = −9?",
+            "alternativas": [
+              "Duas: 3 e −3",
+              "Nenhuma",
+              "Uma: 9",
+              "Uma: −3"
+            ],
+            "correta": 1,
+            "explicacao": "Nenhum número real ao quadrado dá negativo.",
+            "dica": "O quadrado de um número real pode ser negativo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva x² − 36 = 0.",
+            "alternativas": [
+              "Só 6",
+              "36 e −36",
+              "6 e −6",
+              "18 e −18"
+            ],
+            "correta": 2,
+            "explicacao": "x² = 36, então x = ±6.",
+            "dica": "Passe o 36 para o outro lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 5x² = 125.",
+            "alternativas": [
+              "±√5",
+              "±25",
+              "±10",
+              "±5"
+            ],
+            "correta": 3,
+            "explicacao": "x² = 125 ÷ 5 = 25, então x = ±5.",
+            "dica": "Divida por 5 antes da raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno quadrado tem 144 m². Quanto mede o lado?",
+            "alternativas": [
+              "12 m",
+              "11 m",
+              "14 m",
+              "72 m"
+            ],
+            "correta": 0,
+            "explicacao": "12 · 12 = 144. A medida negativa não serve.",
+            "dica": "Procure o número que, ao quadrado, dá 144."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 2x² − 50 = 0.",
+            "alternativas": [
+              "±25",
+              "±5",
+              "±10",
+              "±√50"
+            ],
+            "correta": 1,
+            "explicacao": "2x² = 50, x² = 25, x = ±5.",
+            "dica": "Some 50 e depois divida por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva x² + 7 = 56.",
+            "alternativas": [
+              "±8",
+              "±49",
+              "±7",
+              "±√63"
+            ],
+            "correta": 2,
+            "explicacao": "x² = 56 − 7 = 49, então x = ±7.",
+            "dica": "Tire o 7 dos dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dobro do quadrado de um número é 72. Que número pode ser?",
+            "alternativas": [
+              "±6",
+              "±18",
+              "±36",
+              "±12"
+            ],
+            "correta": 0,
+            "explicacao": "2x² = 72, x² = 36, x = ±6.",
+            "dica": "Monte a equação: dobro de x² igual a 72."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva x² = 5.",
+            "alternativas": [
+              "±2,5",
+              "±√5",
+              "Não tem solução",
+              "±25"
+            ],
+            "correta": 1,
+            "explicacao": "5 não é quadrado perfeito; a resposta exata é ±√5 (cerca de ±2,24).",
+            "dica": "Dividir por 2 não é tirar a raiz."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a resolução de 4x² − 100 = 0:",
+            "itens": [
+              "Somar 100 nos dois lados: 4x² = 100",
+              "Dividir por 4: x² = 25",
+              "Tirar a raiz quadrada",
+              "Escrever as duas soluções: 5 e −5"
+            ],
+            "explicacao": "Isole o x² (primeiro a soma, depois a divisão) e só então tire a raiz.",
+            "dica": "A raiz é o último passo antes da resposta."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva (x − 3)² = 16.",
+            "alternativas": [
+              "4 e −4",
+              "7 e 1",
+              "7 e −1",
+              "19 e −13"
+            ],
+            "correta": 2,
+            "explicacao": "x − 3 = 4 dá x = 7; x − 3 = −4 dá x = −1.",
+            "dica": "O que está dentro do parêntese pode valer 4 ou −4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um círculo tem área de 50,24 cm². Usando π = 3,14, quanto mede o raio?",
+            "alternativas": [
+              "4 cm",
+              "8 cm",
+              "16 cm",
+              "2 cm"
+            ],
+            "correta": 0,
+            "explicacao": "r² = 50,24 ÷ 3,14 = 16, então r = 4 cm.",
+            "dica": "Divida por π e depois tire a raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem o triplo da área de um quadrado de lado 4. O lado dele mede cerca de:",
+            "alternativas": [
+              "12",
+              "6,93",
+              "8",
+              "48"
+            ],
+            "correta": 1,
+            "explicacao": "Área: 3 · 16 = 48. Lado: √48 ≈ 6,93. Triplicar a área não triplica o lado.",
+            "dica": "Calcule a área nova antes de pensar no lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para qual valor de k a equação x² = k − 4 NÃO tem solução real?",
+            "alternativas": [
+              "k = 3",
+              "k = 8",
+              "k = 5",
+              "k = 4"
+            ],
+            "correta": 0,
+            "explicacao": "Com k = 3, x² = −1: impossível nos reais. Com k = 4, x² = 0 tem uma solução.",
+            "dica": "Quando o lado direito fica negativo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas soluções reais tem 3x² + 12 = 0?",
+            "alternativas": [
+              "2",
+              "1",
+              "0",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "3x² = −12, x² = −4: nenhum número real ao quadrado dá negativo.",
+            "dica": "Isole o x² e olhe o sinal."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Contadores e acumuladores",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Contador é uma variável que aumenta de 1 em 1 para contar quantas vezes algo acontece. Começa em 0 e, dentro do laço, faz contador = contador + 1 (ou contador += 1).",
+          "Acumulador é uma variável que vai somando valores: total = total + valor. Uma soma começa em 0.",
+          "A regra de ouro: crie o contador ou o acumulador ANTES do laço e atualize DENTRO dele. Se a linha que zera ficar dentro do laço, ele volta a zero a cada volta.",
+          "Exemplo: notas = [7, 5, 9, 4, 8]. Com aprovados = 0 e soma = 0, o laço for n in notas: faz soma += n e, se n >= 6, aprovados += 1. No fim, soma = 33 e aprovados = 3.",
+          "Com os dois juntos dá para calcular a média: soma / quantidade. Nas notas acima, 33 / 5 = 6.6."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A cantina vendeu [12.5, 8, 15, 4.5] reais em quatro pedidos. Some com um acumulador.",
+            "resolucao": "total = 0\nfor v in [12.5, 8, 15, 4.5]:\n    total += v\nprint(total)\nResultado: 40.0."
+          },
+          {
+            "enunciado": "Conte quantas letras a há em 'banana'.",
+            "resolucao": "c = 0\nfor letra in 'banana':\n    if letra == 'a':\n        c += 1\nprint(c)\nResultado: 3."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um acumulador de multiplicação começa em 1, não em 0 (senão tudo vira zero). Para calcular 5! (fatorial de 5): p = 1; for i in range(1, 6): p = p * i. O resultado é 120.",
+        "Também dá para acumular texto: frase = '' e, no laço, frase += palavra + ' '. O texto vai crescendo a cada volta.",
+        "Cuidado com a média de uma lista vazia: soma / len(notas) com len(notas) = 0 dá erro de divisão por zero (ZeroDivisionError). Teste antes: if len(notas) > 0."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um contador serve para:",
+            "alternativas": [
+              "somar textos",
+              "apagar variáveis",
+              "desenhar na tela",
+              "contar quantas vezes algo acontece"
+            ],
+            "correta": 3,
+            "explicacao": "Ele aumenta de 1 em 1 a cada ocorrência.",
+            "dica": "O nome já diz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um contador normalmente começa em:",
+            "alternativas": [
+              "10",
+              "0",
+              "100",
+              "−1"
+            ],
+            "correta": 1,
+            "explicacao": "Antes de contar, ainda não há nada: começa em 0.",
+            "dica": "Quantas vezes algo aconteceu antes de começar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha aumenta o contador c em 1?",
+            "alternativas": [
+              "c = 1",
+              "c = c + 1",
+              "c = c − 1",
+              "c + 1 = c"
+            ],
+            "correta": 1,
+            "explicacao": "c = c + 1 pega o valor atual e soma 1.",
+            "dica": "O novo valor é o antigo mais um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um acumulador serve para:",
+            "alternativas": [
+              "contar letras",
+              "apagar a lista",
+              "somar valores ao longo do laço",
+              "repetir para sempre"
+            ],
+            "correta": 2,
+            "explicacao": "Ele vai juntando os valores a cada volta.",
+            "dica": "Acumular é juntar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0 e for v in [2, 3, 5]: total += v. Quanto vale total?",
+            "alternativas": [
+              "3",
+              "5",
+              "10",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "2 + 3 + 5 = 10.",
+            "dica": "Some todos os valores da lista."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em notas = [7, 5, 9, 4, 8], quantas são 6 ou mais?",
+            "alternativas": [
+              "2",
+              "5",
+              "4",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "7, 9 e 8: três notas.",
+            "dica": "Confira uma por uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a soma das notas [7, 5, 9, 4, 8]?",
+            "alternativas": [
+              "30",
+              "35",
+              "28",
+              "33"
+            ],
+            "correta": 3,
+            "explicacao": "7 + 5 + 9 + 4 + 8 = 33.",
+            "dica": "Some com calma, duas de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a média dessas notas?",
+            "alternativas": [
+              "6",
+              "6,6",
+              "7",
+              "6,5"
+            ],
+            "correta": 1,
+            "explicacao": "33 ÷ 5 = 6,6.",
+            "dica": "Soma dividida pela quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for n in notas: soma = 0 e soma += n (as duas dentro do laço). Com notas = [7, 5, 9, 4, 8], a soma final é:",
+            "alternativas": [
+              "33",
+              "8",
+              "0",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "A soma é zerada a cada volta; sobra só a última nota, 8.",
+            "dica": "O que acontece com a soma no começo de cada volta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "c = 0 e for letra in 'banana': if letra == 'a': c += 1. Quanto vale c?",
+            "alternativas": [
+              "2",
+              "6",
+              "3",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "b-a-n-a-n-a tem três letras a.",
+            "dica": "Soletre a palavra."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá o total de [12.5, 8, 15, 4.5]?",
+            "alternativas": [
+              "40.0",
+              "39.5",
+              "35.0",
+              "45.0"
+            ],
+            "correta": 0,
+            "explicacao": "12,5 + 8 = 20,5; + 15 = 35,5; + 4,5 = 40.",
+            "dica": "Some os decimais com cuidado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "p = 1 e for i in range(1, 6): p = p * i. Quanto vale p?",
+            "alternativas": [
+              "15",
+              "24",
+              "120",
+              "720"
+            ],
+            "correta": 2,
+            "explicacao": "1 · 2 · 3 · 4 · 5 = 120.",
+            "dica": "range(1, 6) vai de 1 a 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "E se o mesmo código começasse com p = 0?",
+            "alternativas": [
+              "120",
+              "1",
+              "0",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "Zero vezes qualquer número dá zero.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "c = 0 e for n in range(1, 11): if n % 2 == 0: c += 1. Quanto vale c?",
+            "alternativas": [
+              "10",
+              "4",
+              "6",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "Pares de 1 a 10: 2, 4, 6, 8, 10. Cinco.",
+            "dica": "n % 2 == 0 testa se é par."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem um programa que soma valores:",
+            "itens": [
+              "Criar soma = 0 antes do laço",
+              "Começar o laço pelos valores",
+              "Dentro do laço, fazer soma = soma + valor",
+              "Depois do laço, mostrar a soma"
+            ],
+            "explicacao": "O acumulador nasce fora, cresce dentro e aparece no fim.",
+            "dica": "Onde o acumulador deve ser criado?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Temperaturas [30, 28, 35, 33, 29]. Quantos dias passaram de 30 graus (> 30) e qual é a soma desses dias?",
+            "alternativas": [
+              "3 dias, soma 98",
+              "2 dias, soma 68",
+              "2 dias, soma 155",
+              "3 dias, soma 68"
+            ],
+            "correta": 1,
+            "explicacao": "Só 35 e 33 são maiores que 30. O 30 não entra, porque o sinal é >.",
+            "dica": "30 é maior que 30?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "s = 0 e for i in range(1, 101): s += i. Quanto vale s?",
+            "alternativas": [
+              "100",
+              "10100",
+              "5050",
+              "5000"
+            ],
+            "correta": 2,
+            "explicacao": "1 + 2 + … + 100 = 5050. Truque: 50 pares que somam 101.",
+            "dica": "Junte o 1 com o 100, o 2 com o 99…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com media = soma / len(notas) se notas = []?",
+            "alternativas": [
+              "Dá 1",
+              "Dá 0",
+              "Dá erro de divisão por zero",
+              "Dá a média da turma anterior"
+            ],
+            "correta": 2,
+            "explicacao": "len([]) é 0, e dividir por zero dá erro.",
+            "dica": "Quanto vale len de uma lista vazia?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "frase = '' e for p in ['Bom', 'dia']: frase += p + ' '. Quanto vale len(frase)?",
+            "alternativas": [
+              "8",
+              "7",
+              "6",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "frase vira 'Bom dia ' (com espaço no fim): 4 + 4 = 8 caracteres.",
+            "dica": "Conte também os espaços."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "c = 0, t = 0 e for x in [4, 7, 10, 3]: if x > 5: c += 1 e t += x (as duas dentro do if). Quanto valem c e t?",
+            "alternativas": [
+              "c = 3 e t = 17",
+              "c = 2 e t = 24",
+              "c = 4 e t = 24",
+              "c = 2 e t = 17"
+            ],
+            "correta": 3,
+            "explicacao": "Só 7 e 10 passam no teste: c = 2 e t = 17.",
+            "dica": "Só conte e some quem passa no if."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Cabeçalho, rodapé e número de página",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O cabeçalho é a área no alto de todas as páginas; o rodapé, a área no pé. O que você escreve neles aparece automaticamente em todas as páginas do documento.",
+          "Para usar: vá em Inserir > Cabeçalho (ou Rodapé), ou clique duas vezes na margem de cima ou de baixo da página. Para voltar ao texto, clique em Fechar Cabeçalho e Rodapé ou dê dois cliques no corpo do texto.",
+          "Número de página: Inserir > Número de Página e escolha a posição (Início da Página ou Fim da Página). O Word conta sozinho e atualiza quando você acrescenta ou apaga páginas.",
+          "Capa sem número: nas opções do cabeçalho, marque Primeira Página Diferente. A capa fica limpa, e as outras páginas continuam numeradas.",
+          "Num trabalho escolar, é comum colocar nome, turma e título no cabeçalho e o número da página no rodapé."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um trabalho tem capa e mais 7 páginas. Como numerar sem que a capa mostre número?",
+            "resolucao": "Insira o número no rodapé e marque Primeira Página Diferente. A capa fica sem número, e as páginas seguintes mostram 2, 3, … até 8, porque a capa continua contando como página 1."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O formato Página X de Y mostra a página atual e o total (Página 3 de 8). Ele está entre os modelos de Número de Página e se atualiza sozinho.",
+        "Para ter cabeçalhos diferentes em partes do documento, insira uma quebra de seção (Layout > Quebras > Próxima Página) e, no cabeçalho da nova seção, desmarque Vincular ao Anterior. Sem isso, mudar um muda todos.",
+        "Em Formatar Números de Página dá para escolher Iniciar em: por exemplo, começar a contar em 1 depois da capa e do sumário, numa seção nova."
+      ],
+      "desafio_pratico": "No Word do PC ou do celular, crie um trabalho com capa e mais três páginas de texto (use Ctrl+Enter para quebrar a página). No cabeçalho, coloque seu nome, a turma e o título. No rodapé, insira o número no formato Página X de Y. Marque Primeira Página Diferente para a capa ficar limpa. Depois, insira uma página nova no meio e confira se a numeração e o total se atualizaram sozinhos.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O cabeçalho fica:",
+            "alternativas": [
+              "no alto de todas as páginas",
+              "só na última página",
+              "no meio do texto",
+              "fora do documento"
+            ],
+            "correta": 0,
+            "explicacao": "É a área de cima, repetida em todas as páginas.",
+            "dica": "Cabeçalho lembra cabeça."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O rodapé fica:",
+            "alternativas": [
+              "no alto da página",
+              "na parte de baixo da página",
+              "na lateral",
+              "só na capa"
+            ],
+            "correta": 1,
+            "explicacao": "Rodapé é o pé da página.",
+            "dica": "Rodapé lembra pé."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O número de página é inserido pelo menu:",
+            "alternativas": [
+              "Inserir",
+              "Exibir",
+              "Revisão",
+              "Correspondências"
+            ],
+            "correta": 0,
+            "explicacao": "Inserir > Número de Página.",
+            "dica": "Você vai colocar algo novo no documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um jeito rápido de entrar no cabeçalho é:",
+            "alternativas": [
+              "clicar duas vezes na margem de cima",
+              "fechar o Word",
+              "digitar na primeira linha",
+              "apertar Delete"
+            ],
+            "correta": 0,
+            "explicacao": "Dois cliques na margem de cima abrem o cabeçalho.",
+            "dica": "Use o mouse na parte de cima da folha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que você escreve no cabeçalho aparece:",
+            "alternativas": [
+              "nunca",
+              "só na página onde escreveu",
+              "só ao imprimir",
+              "em todas as páginas"
+            ],
+            "correta": 3,
+            "explicacao": "O cabeçalho se repete em todas as páginas.",
+            "dica": "É para isso que ele existe."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deixar a capa sem número?",
+            "alternativas": [
+              "Apagar o número da capa à mão",
+              "Digitar a capa no rodapé",
+              "Marcar Primeira Página Diferente",
+              "Não tem jeito"
+            ],
+            "correta": 2,
+            "explicacao": "Essa opção limpa só a primeira página.",
+            "dica": "Procure a opção que trata a primeira página de outro jeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Trabalho com capa e mais 7 páginas, capa sem número (Primeira Página Diferente). Que número aparece na última página?",
+            "alternativas": [
+              "8",
+              "9",
+              "7",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "A capa continua contando como página 1; a última é a 8.",
+            "dica": "A capa some da vista, mas não da contagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor lugar para o nome e a turma num trabalho?",
+            "alternativas": [
+              "No meio de cada parágrafo",
+              "No cabeçalho",
+              "Dentro de uma imagem",
+              "Em letra branca"
+            ],
+            "correta": 1,
+            "explicacao": "No cabeçalho, aparecem em todas as páginas sem atrapalhar o texto.",
+            "dica": "Onde algo se repete sozinho?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não digitar os números de página à mão?",
+            "alternativas": [
+              "Porque o Word proíbe",
+              "Porque gasta tinta",
+              "Porque fica colorido",
+              "Porque, se o texto mudar, eles ficam errados; o automático se atualiza"
+            ],
+            "correta": 3,
+            "explicacao": "O número automático acompanha qualquer mudança no texto.",
+            "dica": "O que acontece se você inserir uma página no meio?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como sair do cabeçalho e voltar ao texto?",
+            "alternativas": [
+              "Clicar duas vezes no corpo do texto ou em Fechar Cabeçalho e Rodapé",
+              "Fechar o arquivo",
+              "Ctrl+Z",
+              "Apertar F1"
+            ],
+            "correta": 0,
+            "explicacao": "Dois cliques no texto ou o botão de fechar resolvem.",
+            "dica": "Faça o caminho de volta com o mouse."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num rodapé Página X de Y, um documento de 12 páginas mostra na 5ª página:",
+            "alternativas": [
+              "Página 12 de 5",
+              "Página 5",
+              "Página 5 de 12",
+              "Página 7 de 12"
+            ],
+            "correta": 2,
+            "explicacao": "X é a página atual; Y é o total.",
+            "dica": "Qual número muda e qual fica fixo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para ter cabeçalhos diferentes em partes do documento, é preciso:",
+            "alternativas": [
+              "quebra de linha",
+              "quebra de seção e desmarcar Vincular ao Anterior",
+              "apertar Enter várias vezes",
+              "mudar a fonte"
+            ],
+            "correta": 1,
+            "explicacao": "Cada seção pode ter o próprio cabeçalho, desde que não esteja vinculada.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para a numeração começar em 3:",
+            "alternativas": [
+              "Inserir 2 páginas em branco",
+              "Digitar 3 no cabeçalho",
+              "Não é possível",
+              "Formatar Números de Página e escolher Iniciar em 3"
+            ],
+            "correta": 3,
+            "explicacao": "A opção Iniciar em define o primeiro número.",
+            "dica": "Existe uma janela para formatar os números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Trabalho com capa, sumário e texto que deve começar na página 1. O que fazer?",
+            "alternativas": [
+              "Só marcar Primeira Página Diferente",
+              "Apagar o sumário",
+              "Inserir o número só na última página",
+              "Quebra de seção depois do sumário e, na nova seção, iniciar a numeração em 1"
+            ],
+            "correta": 3,
+            "explicacao": "A seção nova permite recomeçar a contagem.",
+            "dica": "São duas páginas antes do texto, não uma."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para numerar as páginas:",
+            "itens": [
+              "Ir em Inserir",
+              "Clicar em Número de Página",
+              "Escolher a posição, como Fim da Página",
+              "Conferir o número em outra página"
+            ],
+            "explicacao": "Menu, comando, posição e conferência.",
+            "dica": "Conferir é sempre o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Documento de 20 páginas, capa com Primeira Página Diferente e numeração normal. Quantas páginas mostram número?",
+            "alternativas": [
+              "20",
+              "18",
+              "19",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "Só a capa fica sem número: 20 − 1 = 19.",
+            "dica": "Quantas páginas ficam limpas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma seção nova começa na página 3 do arquivo, com numeração iniciando em 1. Que número aparece na 10ª página do arquivo?",
+            "alternativas": [
+              "8",
+              "7",
+              "10",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "Página 3 mostra 1; então a página 10 mostra 10 − 2 = 8.",
+            "dica": "Monte a correspondência: arquivo 3 = número 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você mudou o cabeçalho da seção 2 e o da seção 1 mudou junto. Por quê?",
+            "alternativas": [
+              "O Word travou",
+              "Vincular ao Anterior estava marcado",
+              "A fonte é diferente",
+              "Falta número de página"
+            ],
+            "correta": 1,
+            "explicacao": "Vinculada, a seção 2 copia a anterior.",
+            "dica": "Releia o aprofundamento sobre seções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um documento de 9 páginas com Página X de Y ganhou mais 3 páginas no fim. O que a página 4 mostra agora?",
+            "alternativas": [
+              "Página 4 de 9",
+              "Página 4 de 12",
+              "Página 4 de 3",
+              "Página 7 de 12"
+            ],
+            "correta": 1,
+            "explicacao": "A página atual não muda; o total passa a 12.",
+            "dica": "Qual dos dois números depende do total?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que NÃO deve ir no cabeçalho de um trabalho?",
+            "alternativas": [
+              "Nome do aluno",
+              "Turma",
+              "O texto inteiro do primeiro capítulo",
+              "Título do trabalho"
+            ],
+            "correta": 2,
+            "explicacao": "O cabeçalho é para informações curtas que se repetem.",
+            "dica": "O que você não quer repetido em todas as páginas?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Processos e divisão do trabalho na equipe",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Processo é a sequência de etapas para entregar um produto ou serviço. Numa lanchonete: receber o pedido, montar o lanche, passar na chapa, embalar e entregar.",
+          "Dividir o trabalho é colocar cada pessoa responsável por uma etapa. Quem repete a mesma tarefa fica mais rápido e erra menos. Em 1776, o escocês Adam Smith mostrou, no livro A Riqueza das Nações, como uma fábrica de alfinetes multiplicava a produção dividindo o trabalho em etapas.",
+          "Para organizar um processo: liste as etapas, meça o tempo de cada uma e descubra o gargalo, a etapa mais lenta, que define o ritmo de tudo. Não adianta acelerar as outras se o gargalo continua igual.",
+          "Divisão do trabalho tem riscos: tarefa repetitiva cansa e pode machucar, e a falta de uma pessoa trava a linha. Por isso bons líderes fazem rodízio de funções, garantem pausas e treinam a equipe em mais de uma etapa.",
+          "Tudo dentro da lei: jornada normal de até 8 horas por dia e 44 por semana (Constituição, artigo 7º), pausas, segurança e salário justo. Liderar é explicar o porquê de cada etapa e ouvir quem faz o trabalho, porque é quem mais enxerga onde melhorar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Numa lanchonete, montar leva 2 minutos, a chapa 4 minutos e embalar 1 minuto por lanche, com uma pessoa em cada etapa. Quantos lanches saem por hora?",
+            "resolucao": "O gargalo é a chapa: 60 ÷ 4 = 15 lanches por hora. A montagem daria 30 e a embalagem 60, mas tudo espera a chapa. Com uma segunda chapa, ela passa a dar 30 por hora, e a produção sobe para 30."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Os números de Adam Smith: um trabalhador sozinho e sem treino mal faria 20 alfinetes por dia. Numa oficina com 10 pessoas dividindo cerca de 18 operações, saíam uns 48 mil por dia, ou 4.800 por pessoa: 240 vezes mais.",
+        "Melhorar o gargalo muda o gargalo de lugar. Depois de resolver uma etapa, meça de novo: a próxima etapa mais lenta passa a mandar no ritmo.",
+        "Querer produzir mais pedindo horas extras sem pagar é ilegal e arriscado: a lei limita as horas extras e a Constituição manda pagá-las com pelo menos 50% a mais. O caminho certo é melhorar o processo, treinar ou contratar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Processo é:",
+            "alternativas": [
+              "uma máquina",
+              "uma briga entre sócios",
+              "um imposto",
+              "uma sequência de etapas para entregar algo"
+            ],
+            "correta": 3,
+            "explicacao": "É o caminho do pedido até a entrega.",
+            "dica": "Pense nas etapas de um lanche."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dividir o trabalho em etapas costuma:",
+            "alternativas": [
+              "diminuir a produção",
+              "proibir o trabalho",
+              "aumentar a produção e diminuir erros",
+              "acabar com a empresa"
+            ],
+            "correta": 2,
+            "explicacao": "Cada um fica bom na sua etapa.",
+            "dica": "Quem repete uma tarefa fica mais rápido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gargalo é:",
+            "alternativas": [
+              "a etapa mais rápida",
+              "a etapa mais lenta, que define o ritmo",
+              "o chefe",
+              "o lucro"
+            ],
+            "correta": 1,
+            "explicacao": "Como o gargalo de uma garrafa, ele limita a saída.",
+            "dica": "Pense no pescoço estreito da garrafa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem descreveu a fábrica de alfinetes?",
+            "alternativas": [
+              "Adam Smith",
+              "Machado de Assis",
+              "Carolina Maria de Jesus",
+              "René Descartes"
+            ],
+            "correta": 0,
+            "explicacao": "Adam Smith, no livro A Riqueza das Nações, de 1776.",
+            "dica": "Foi um pensador escocês da economia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O rodízio de funções ajuda a:",
+            "alternativas": [
+              "trabalhar sem pausa",
+              "demitir pessoas",
+              "pagar menos",
+              "diminuir o cansaço e fazer todos aprenderem mais de uma etapa"
+            ],
+            "correta": 3,
+            "explicacao": "Trocar de tarefa reduz a repetição e espalha o conhecimento.",
+            "dica": "Rodízio é revezar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A chapa leva 4 minutos por lanche. Quantos lanches ela faz por hora, no máximo?",
+            "alternativas": [
+              "4",
+              "60",
+              "20",
+              "15"
+            ],
+            "correta": 3,
+            "explicacao": "60 ÷ 4 = 15.",
+            "dica": "Uma hora tem 60 minutos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Montar 2 min, chapa 4 min, embalar 1 min. Qual é o gargalo?",
+            "alternativas": [
+              "Montar",
+              "Embalar",
+              "A chapa",
+              "Nenhuma etapa"
+            ],
+            "correta": 2,
+            "explicacao": "A chapa é a etapa mais lenta.",
+            "dica": "Procure o maior tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a jornada normal de trabalho pela Constituição?",
+            "alternativas": [
+              "12 h por dia",
+              "Até 8 h por dia e 44 h por semana",
+              "4 h por semana",
+              "Sem limite"
+            ],
+            "correta": 1,
+            "explicacao": "O artigo 7º fixa a jornada normal em até 8 horas diárias e 44 semanais.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na oficina de Adam Smith, 10 pessoas faziam 48 mil alfinetes por dia. Quanto dá por pessoa?",
+            "alternativas": [
+              "480",
+              "20",
+              "48.000",
+              "4.800"
+            ],
+            "correta": 3,
+            "explicacao": "48.000 ÷ 10 = 4.800.",
+            "dica": "Divida o total pelo número de pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Treinar a equipe em mais de uma etapa serve para:",
+            "alternativas": [
+              "demitir quem falta",
+              "cobrir faltas e não travar a produção",
+              "fazer hora extra sem pagar",
+              "trocar de empresa"
+            ],
+            "correta": 1,
+            "explicacao": "Se alguém falta, outra pessoa assume a etapa.",
+            "dica": "O que acontece se só uma pessoa sabe fazer uma etapa?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com uma segunda chapa (cada uma de 4 min), montar 2 min e embalar 1 min, quantos lanches saem por hora?",
+            "alternativas": [
+              "15",
+              "45",
+              "30",
+              "60"
+            ],
+            "correta": 2,
+            "explicacao": "Duas chapas fazem 30 por hora; a montagem faz 30; a embalagem, 60. O ritmo fica em 30.",
+            "dica": "Calcule a capacidade de cada etapa e pegue a menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pastelaria: abrir a massa 3 min, rechear 2 min, fritar 5 min, uma pessoa por etapa. Quantos pastéis por hora?",
+            "alternativas": [
+              "12",
+              "20",
+              "30",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "O gargalo é a fritura: 60 ÷ 5 = 12.",
+            "dica": "Qual etapa é a mais lenta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nessa pastelaria, onde investir primeiro para produzir mais?",
+            "alternativas": [
+              "Na fritura, que é o gargalo",
+              "Em propaganda",
+              "Na etapa de rechear",
+              "Em embalagem bonita"
+            ],
+            "correta": 0,
+            "explicacao": "Melhorar outra etapa não muda nada enquanto a fritura limita.",
+            "dica": "O gargalo manda no ritmo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para melhorar um processo:",
+            "itens": [
+              "Listar as etapas do começo ao fim",
+              "Medir o tempo de cada etapa",
+              "Encontrar o gargalo",
+              "Melhorar o gargalo e medir de novo"
+            ],
+            "explicacao": "Sem listar e medir, não dá para achar o gargalo.",
+            "dica": "Medir vem antes de melhorar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A equipe reclama de dor por fazer a mesma tarefa o dia todo. O que um bom líder faz?",
+            "alternativas": [
+              "Ignora a reclamação",
+              "Demite quem reclamou",
+              "Aumenta o ritmo",
+              "Faz rodízio, garante pausas e ajusta o posto de trabalho"
+            ],
+            "correta": 3,
+            "explicacao": "Cuidar da saúde da equipe é dever e evita afastamentos e processos.",
+            "dica": "O que reduz a repetição?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A pastelaria compra uma segunda fritadeira (cada uma de 5 min). Abrir a massa 3 min e rechear 2 min. Quantos pastéis por hora agora?",
+            "alternativas": [
+              "20",
+              "12",
+              "24",
+              "30"
+            ],
+            "correta": 0,
+            "explicacao": "Fritura: 24 por hora. Massa: 20. Recheio: 30. O novo gargalo é a massa: 20.",
+            "dica": "O gargalo mudou de lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sozinho, um trabalhador faria uns 20 alfinetes por dia; na oficina dividida, 4.800 por pessoa. Quantas vezes mais?",
+            "alternativas": [
+              "24",
+              "2.400",
+              "240",
+              "48"
+            ],
+            "correta": 2,
+            "explicacao": "4.800 ÷ 20 = 240.",
+            "dica": "Divida a produção dividida pela produção sozinha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O único funcionário que sabe usar a chapa faltou. O que acontece com a produção?",
+            "alternativas": [
+              "Aumenta 10%",
+              "Dobra",
+              "Fica igual",
+              "Para, porque a etapa da chapa não tem quem faça"
+            ],
+            "correta": 3,
+            "explicacao": "Sem treinamento cruzado, uma falta trava tudo.",
+            "dica": "Todas as etapas dependem da chapa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dono quer dobrar a produção exigindo 12 horas por dia sem pagar extra. Isso é:",
+            "alternativas": [
+              "ilegal e arriscado; o certo é melhorar o processo, treinar ou contratar",
+              "obrigatório",
+              "sem risco",
+              "boa liderança"
+            ],
+            "correta": 0,
+            "explicacao": "Passa da jornada legal e deixa de pagar a hora extra, que vale pelo menos 50% a mais. Gera processo e perde bons funcionários.",
+            "dica": "Lembre a jornada e a hora extra do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com uma chapa, a lanchonete faz 15 lanches por hora; com duas, 30. O lucro é R$ 6 por lanche, e a segunda chapa custa R$ 60 por dia. Nas 4 horas de pico, quanto ela aumenta o lucro do dia?",
+            "alternativas": [
+              "R$ 360",
+              "R$ 300",
+              "R$ 60",
+              "R$ 720"
+            ],
+            "correta": 1,
+            "explicacao": "15 lanches a mais por hora × 4 h = 60 lanches; 60 × 6 = 360; 360 − 60 = 300.",
+            "dica": "Calcule o ganho extra e desconte o custo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Período simples e período composto",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Oração é o enunciado organizado em torno de um verbo ou de uma locução verbal. Período é a frase formada por uma ou mais orações, terminada por ponto final, de exclamação ou de interrogação.",
+          "Período simples tem uma oração só, chamada oração absoluta: \"A chuva começou\". Há um verbo: começou.",
+          "Período composto tem duas ou mais orações: \"A chuva começou e o jogo parou\". Há dois verbos: começou e parou.",
+          "Para descobrir, conte os verbos: o número de orações é igual ao número de verbos ou locuções verbais. Locução verbal (verbo auxiliar + verbo principal) conta como um só: \"Ela vai estudar\" tem uma oração.",
+          "Frase sem verbo, como \"Que calor!\" ou \"Silêncio!\", é uma frase nominal: não tem oração, então não forma período."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quantas orações há em \"Quando o sinal tocou, os alunos saíram e foram para o pátio\"?",
+            "resolucao": "Verbos: tocou, saíram e foram. São três orações: período composto."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Locuções verbais aparecem com auxiliares como ter, haver, ser, estar e ir: \"tinha saído\", \"está estudando\", \"vai viajar\". Cada locução forma uma oração só.",
+        "Verbos no infinitivo, gerúndio ou particípio também podem formar oração sozinhos: em \"Ao chegar em casa, Lúcia tomou banho\", há duas orações (chegar e tomou).",
+        "Transformar períodos simples em compostos deixa o texto mais fluido: \"O time treinou. O time venceu.\" vira \"O time treinou e venceu.\""
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Período simples tem:",
+            "alternativas": [
+              "nenhum verbo",
+              "duas orações",
+              "uma oração",
+              "três parágrafos"
+            ],
+            "correta": 2,
+            "explicacao": "Simples = uma oração só.",
+            "dica": "Simples é o contrário de composto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos verbos há em \"Rita correu e pulou\"?",
+            "alternativas": [
+              "1",
+              "3",
+              "2",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "Correu e pulou: dois verbos.",
+            "dica": "Procure as ações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um período simples?",
+            "alternativas": [
+              "Cheguei e dormi.",
+              "O ônibus atrasou.",
+              "Saí quando choveu.",
+              "Li, ri e chorei."
+            ],
+            "correta": 1,
+            "explicacao": "Só tem um verbo: atrasou.",
+            "dica": "Procure a frase com uma ação só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para saber quantas orações há num período, conte:",
+            "alternativas": [
+              "as vírgulas",
+              "os verbos",
+              "os substantivos",
+              "as palavras"
+            ],
+            "correta": 1,
+            "explicacao": "Cada verbo ou locução verbal forma uma oração.",
+            "dica": "A oração gira em torno de quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Que calor!\" é:",
+            "alternativas": [
+              "oração com três verbos",
+              "período composto",
+              "período simples com dois verbos",
+              "frase sem verbo, que não forma oração"
+            ],
+            "correta": 3,
+            "explicacao": "Sem verbo, não há oração.",
+            "dica": "Tem algum verbo nessa frase?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações há em \"Quando o sinal tocou, os alunos saíram e foram para o pátio\"?",
+            "alternativas": [
+              "1",
+              "3",
+              "2",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "Tocou, saíram e foram: três.",
+            "dica": "Conte os verbos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ela está estudando para a prova\" é:",
+            "alternativas": [
+              "simples: está estudando é uma locução verbal",
+              "composto, com dois verbos",
+              "frase sem verbo",
+              "composto, com três orações"
+            ],
+            "correta": 0,
+            "explicacao": "Auxiliar + principal formam uma locução: uma oração.",
+            "dica": "Está estudando conta como um ou dois?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um período composto?",
+            "alternativas": [
+              "Meu irmão vai viajar amanhã.",
+              "Choveu, mas o jogo continuou.",
+              "Que dia lindo!",
+              "A professora chegou cedo."
+            ],
+            "correta": 1,
+            "explicacao": "Choveu e continuou: duas orações.",
+            "dica": "Procure dois verbos que não formam locução."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações há em \"Os vizinhos tinham saído antes da festa\"?",
+            "alternativas": [
+              "3",
+              "2",
+              "1",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "Tinham saído é uma locução verbal: uma oração.",
+            "dica": "Auxiliar e principal juntos contam como um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações há em \"Abri a janela, olhei a rua e fechei a cortina\"?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "Abri, olhei e fechei: três.",
+            "dica": "Conte as ações."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações há em \"Espero que você venha à festa\"?",
+            "alternativas": [
+              "0",
+              "1",
+              "3",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "Espero e venha: duas orações.",
+            "dica": "Venha também é verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual período tem exatamente duas orações?",
+            "alternativas": [
+              "Saí cedo.",
+              "Saí cedo porque tinha prova.",
+              "Saí cedo, peguei o ônibus e cheguei antes.",
+              "Que pressa!"
+            ],
+            "correta": 1,
+            "explicacao": "Saí e tinha: duas.",
+            "dica": "Conte os verbos de cada opção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Junte em um período composto: \"O time treinou muito. O time venceu.\"",
+            "alternativas": [
+              "O time treinou muito e venceu.",
+              "Treinou time o muito.",
+              "O time, treinou, muito venceu.",
+              "O time venceu muito treino."
+            ],
+            "correta": 0,
+            "explicacao": "Duas orações ligadas por e, sem repetir o sujeito.",
+            "dica": "Procure a frase correta com os dois verbos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para classificar um período:",
+            "itens": [
+              "Ler o período inteiro",
+              "Encontrar os verbos e as locuções verbais",
+              "Contar quantas orações existem",
+              "Classificar em simples ou composto"
+            ],
+            "explicacao": "Sem achar os verbos, não dá para contar as orações.",
+            "dica": "A classificação é a conclusão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações há em \"Os alunos que estudaram passaram\"?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "Estudaram e passaram: duas.",
+            "dica": "Repare no verbo que aparece logo depois do que."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações há em \"Ao chegar em casa, Lúcia percebeu que tinha esquecido a chave\"?",
+            "alternativas": [
+              "1",
+              "2",
+              "4",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Chegar, percebeu e tinha esquecido (locução): três.",
+            "dica": "O infinitivo também pode formar oração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ela tem estudado muito\" tem quantas orações?",
+            "alternativas": [
+              "1, porque tem estudado é uma locução verbal",
+              "2, porque há dois verbos",
+              "0",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "Ter + particípio forma uma locução: uma oração.",
+            "dica": "Pense nos verbos auxiliares do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas NÃO é um período?",
+            "alternativas": [
+              "Socorro!",
+              "Corri.",
+              "Corri e caí.",
+              "Eu sei que você sabe."
+            ],
+            "correta": 0,
+            "explicacao": "Sem verbo, não há oração; sem oração, não há período.",
+            "dica": "Procure a frase sem verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações há em \"Disse que viria, mas não veio\"?",
+            "alternativas": [
+              "3",
+              "4",
+              "1",
+              "2"
+            ],
+            "correta": 0,
+            "explicacao": "Disse, viria e veio: três.",
+            "dica": "Viria e veio são verbos diferentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual junta \"Choveu. A rua alagou. Os carros pararam.\" num período composto de três orações?",
+            "alternativas": [
+              "Choveu na rua alagada dos carros parados.",
+              "Choveu, a rua alagou e os carros pararam.",
+              "A chuva da rua alagada.",
+              "Chuva, rua e carros parados."
+            ],
+            "correta": 1,
+            "explicacao": "Mantém os três verbos: choveu, alagou e pararam.",
+            "dica": "Quantos verbos cada opção tem?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A fábrica de alfinetes",
+    "texto": "Em 1776, o escocês Adam Smith publicou um livro sobre a riqueza das nações. Para explicar por que alguns lugares produziam tanto, ele contou uma cena simples: uma pequena oficina de alfinetes.\n\nSe um trabalhador sem treino tentasse fazer alfinetes sozinho, do começo ao fim, mal conseguiria fazer vinte por dia. Mas, na oficina, o trabalho era dividido. Um puxava o arame, outro o endireitava, um terceiro cortava, outro afiava a ponta, outro preparava a cabeça. Eram cerca de dezoito etapas. Com dez pessoas, saíam uns quarenta e oito mil alfinetes por dia.\n\nPor que funcionava? Quem repete uma tarefa fica mais rápido, não perde tempo trocando de ferramenta e logo descobre jeitos de fazer melhor.\n\nA mesma ideia está hoje na lanchonete da esquina. Numa sexta à noite, a Luíza anota os pedidos, o Matheus monta os lanches, a Joyce cuida da chapa e o Anderson embala e entrega. Cada um sabe o seu papel, e a fila anda.\n\nMas a dona da lanchonete aprendeu que dividir não basta. Quando a Joyce ficou doente, ninguém sabia usar a chapa e a noite virou confusão. Depois disso, todos aprenderam mais de uma função e passaram a revezar a cada semana, o que também diminuiu o cansaço.\n\nEla também descobriu que a chapa era o ponto lento: de nada adiantava montar mais rápido se tudo esperava por ela. Comprou uma segunda chapa, e a produção dobrou sem ninguém trabalhar mais horas.\n\nDividir o trabalho multiplica a produção. Cuidar de quem faz o trabalho faz essa multiplicação durar."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, divida em etapas o preparo de uma festa da turma (convites, comida, enfeites, música, limpeza…). Diga quem faria cada parte e por quê, qual etapa você acha que seria o gargalo e como faria para que, se alguém faltar no dia, a festa não pare."
+  }
+}

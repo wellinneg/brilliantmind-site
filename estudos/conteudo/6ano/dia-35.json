@@ -1,0 +1,903 @@
+{
+  "dia": 35,
+  "blocos": [
+    {
+      "materia": "portugues",
+      "titulo": "Poema: verso, estrofe e rima",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "O poema é um texto escrito em versos. Cada linha do poema é um verso. Ele não precisa ocupar a linha inteira, como acontece num texto comum.",
+          "Um grupo de versos forma uma estrofe. Entre uma estrofe e outra, deixamos uma linha em branco. Um poema com 3 estrofes de 4 versos tem 12 versos ao todo.",
+          "Rima é a repetição de sons parecidos no fim dos versos: \"esquina\" rima com \"buzina\"; \"caminho\" rima com \"cantinho\".",
+          "Os poemas brincam com o som e o ritmo das palavras. Por isso, ler em voz alta ajuda a perceber a música do poema."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Observe: \"Quando o vermelho acende no alto da esquina, / o carro freia, a moto para, ninguém buzina.\" Quantos versos há e qual é a rima?",
+            "resolucao": "São 2 versos (a barra mostra a troca de linha). A rima é esquina/buzina."
+          },
+          {
+            "enunciado": "Um poema tem 4 estrofes com 3 versos cada. Quantos versos ele tem?",
+            "resolucao": "4 × 3 = 12 versos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para mostrar como as rimas se combinam, usamos letras: versos que rimam entre si recebem a mesma letra. Se o 1º rima com o 2º e o 3º com o 4º, o esquema é AABB (rimas emparelhadas). Se o 1º rima com o 3º e o 2º com o 4º, é ABAB (rimas alternadas).",
+        "As estrofes têm nomes conforme o número de versos: dístico (2), terceto (3), quarteto (4). O soneto é um poema de 14 versos: dois quartetos e dois tercetos.",
+        "Nem todo poema tem rima. Muitos poetas escrevem em verso livre, sem rima e sem medida fixa. O que continua sendo poema é a organização em versos e o trabalho com o som e as imagens."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada linha de um poema se chama:",
+            "alternativas": [
+              "verso",
+              "estrofe",
+              "rima",
+              "parágrafo"
+            ],
+            "correta": 0,
+            "explicacao": "Cada linha do poema é um verso.",
+            "dica": "Não é o grupo de linhas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um grupo de versos se chama:",
+            "alternativas": [
+              "rima",
+              "estrofe",
+              "título",
+              "frase"
+            ],
+            "correta": 1,
+            "explicacao": "Estrofe é um conjunto de versos.",
+            "dica": "É separada das outras por uma linha em branco."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra rima com \"esquina\"?",
+            "alternativas": [
+              "rua",
+              "carro",
+              "buzina",
+              "farol"
+            ],
+            "correta": 2,
+            "explicacao": "Esquina e buzina terminam com o mesmo som: -ina.",
+            "dica": "Procure o mesmo som no final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rima é:",
+            "alternativas": [
+              "o título do poema",
+              "o nome do autor",
+              "uma linha em branco",
+              "a repetição de sons no fim dos versos"
+            ],
+            "correta": 3,
+            "explicacao": "Rima é o som parecido no fim dos versos.",
+            "dica": "Pense em \"caminho\" e \"cantinho\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um poema com 3 estrofes de 4 versos tem quantos versos?",
+            "alternativas": [
+              "12",
+              "7",
+              "3",
+              "4"
+            ],
+            "correta": 0,
+            "explicacao": "3 × 4 = 12.",
+            "dica": "Multiplique as estrofes pelos versos."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um poema tem 4 estrofes de 3 versos. Quantos versos ao todo?",
+            "alternativas": [
+              "7",
+              "12",
+              "4",
+              "34"
+            ],
+            "correta": 1,
+            "explicacao": "4 × 3 = 12.",
+            "dica": "Multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par de palavras rima?",
+            "alternativas": [
+              "sol e lua",
+              "rua e casa",
+              "caminho e cantinho",
+              "farol e vento"
+            ],
+            "correta": 2,
+            "explicacao": "Caminho e cantinho terminam com -inho.",
+            "dica": "Leia em voz alta e escute o final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que separa uma estrofe da outra?",
+            "alternativas": [
+              "Uma vírgula",
+              "Um ponto de exclamação",
+              "Um título novo",
+              "Uma linha em branco"
+            ],
+            "correta": 3,
+            "explicacao": "Entre as estrofes fica uma linha em branco.",
+            "dica": "Olhe o espaço entre os grupos de versos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é bom ler poema em voz alta?",
+            "alternativas": [
+              "Para perceber o som e o ritmo",
+              "Para terminar mais rápido",
+              "Porque é obrigatório",
+              "Para não entender"
+            ],
+            "correta": 0,
+            "explicacao": "O poema trabalha com a música das palavras.",
+            "dica": "O poema brinca com o quê?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque do menor para o maior:",
+            "itens": [
+              "verso",
+              "estrofe",
+              "poema",
+              "livro de poemas"
+            ],
+            "explicacao": "Versos formam estrofes, estrofes formam o poema, e vários poemas formam um livro.",
+            "dica": "Comece pela linha."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num quarteto, o 1º verso rima com o 2º e o 3º rima com o 4º. Qual é o esquema?",
+            "alternativas": [
+              "ABAB",
+              "AABB",
+              "ABBA",
+              "AAAA"
+            ],
+            "correta": 1,
+            "explicacao": "Versos que rimam recebem a mesma letra: AA e BB.",
+            "dica": "Dê a mesma letra a quem rima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma estrofe de 3 versos se chama:",
+            "alternativas": [
+              "dístico",
+              "quarteto",
+              "terceto",
+              "soneto"
+            ],
+            "correta": 2,
+            "explicacao": "Terceto tem 3 versos.",
+            "dica": "O nome lembra o número três."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos versos tem um soneto?",
+            "alternativas": [
+              "12",
+              "10",
+              "16",
+              "14"
+            ],
+            "correta": 3,
+            "explicacao": "Dois quartetos (8) e dois tercetos (6) = 14.",
+            "dica": "Some 4 + 4 + 3 + 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um poema sem rima e sem medida fixa é chamado de:",
+            "alternativas": [
+              "verso livre",
+              "prosa",
+              "soneto",
+              "quarteto"
+            ],
+            "correta": 0,
+            "explicacao": "Verso livre não segue rima nem medida.",
+            "dica": "Ele é livre das regras de rima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"A chuva cai devagar / no telhado da escola / e eu fico a escutar / o barulho da sacola.\" Qual é o esquema?",
+            "alternativas": [
+              "AABB",
+              "ABAB",
+              "ABBA",
+              "AAAA"
+            ],
+            "correta": 1,
+            "explicacao": "devagar/escutar (A) e escola/sacola (B), alternados.",
+            "dica": "Marque com A o 1º verso e procure quem rima com ele."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um poema tem 2 quartetos, 1 terceto e 1 dístico. Quantos versos tem?",
+            "alternativas": [
+              "10",
+              "11",
+              "13",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "4 + 4 + 3 + 2 = 13.",
+            "dica": "Lembre quantos versos tem cada tipo de estrofe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num quarteto, o 1º verso rima com o 4º e o 2º com o 3º. Qual é o esquema?",
+            "alternativas": [
+              "AABB",
+              "ABAB",
+              "AAAA",
+              "ABBA"
+            ],
+            "correta": 3,
+            "explicacao": "1º e 4º = A; 2º e 3º = B: ABBA.",
+            "dica": "Escreva as letras na ordem dos versos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um poema em verso livre continua sendo poema?",
+            "alternativas": [
+              "Porque continua organizado em versos e trabalha som e imagens",
+              "Porque tem 14 versos",
+              "Porque tem rima escondida",
+              "Porque é curto"
+            ],
+            "correta": 0,
+            "explicacao": "O verso e o trabalho com a linguagem fazem o poema, mesmo sem rima.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um soneto tem quantas estrofes e quantos versos?",
+            "alternativas": [
+              "3 estrofes e 12 versos",
+              "4 estrofes e 14 versos",
+              "2 estrofes e 14 versos",
+              "4 estrofes e 16 versos"
+            ],
+            "correta": 1,
+            "explicacao": "Dois quartetos e dois tercetos: 4 estrofes, 14 versos.",
+            "dica": "Conte os quartetos e os tercetos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas palavras NÃO rima com \"coração\"?",
+            "alternativas": [
+              "canção",
+              "mão",
+              "corrida",
+              "chão"
+            ],
+            "correta": 2,
+            "explicacao": "Corrida termina em -ida; as outras em -ão.",
+            "dica": "Escute o som final de cada uma."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "ingles",
+      "titulo": "Telling time: as horas em inglês",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para perguntar as horas, dizemos: What time is it? (Que horas são?). A resposta começa com It's...",
+          "Hora cheia usa o'clock: It's three o'clock (São três horas). It's seven o'clock (São sete horas).",
+          "Meia hora é half past: It's half past two (São duas e meia, 2h30). Quinze minutos é quarter: quarter past seven = 7h15; quarter to five = 4h45 (quinze para as cinco).",
+          "Past quer dizer \"depois de\" (passou da hora) e to quer dizer \"para\" (falta para a próxima hora): ten past nine = 9h10; ten to six = 5h50."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como dizer 8h30 em inglês?",
+            "resolucao": "It's half past eight."
+          },
+          {
+            "enunciado": "O que quer dizer \"It's quarter to ten\"?",
+            "resolucao": "Faltam quinze minutos para as dez: 9h45."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para manhã e tarde, o inglês usa a.m. (da meia-noite ao meio-dia) e p.m. (do meio-dia à meia-noite). 3 p.m. = 15h; 9 p.m. = 21h; 7 a.m. = 7h da manhã.",
+        "Também dá para falar os números direto: It's seven fifteen (7h15), It's four forty-five (4h45). É mais simples e muito usado.",
+        "Para contar o tempo entre dois horários, passe tudo para horas e minutos. De ten to eight (7h50) a half past nine (9h30) são 1 hora e 40 minutos."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se pergunta \"Que horas são?\" em inglês?",
+            "alternativas": [
+              "What time is it?",
+              "How are you?",
+              "What is your name?",
+              "Where is it?"
+            ],
+            "correta": 0,
+            "explicacao": "What time is it? = Que horas são?",
+            "dica": "Time quer dizer tempo ou hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"It's three o'clock\" quer dizer:",
+            "alternativas": [
+              "2h30",
+              "3h em ponto",
+              "3h15",
+              "13h"
+            ],
+            "correta": 1,
+            "explicacao": "O'clock é usado na hora cheia.",
+            "dica": "O'clock aparece só quando os minutos são zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Half past\" quer dizer:",
+            "alternativas": [
+              "e quinze",
+              "em ponto",
+              "e meia",
+              "quinze para"
+            ],
+            "correta": 2,
+            "explicacao": "Half = metade: meia hora depois.",
+            "dica": "Half quer dizer metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Quarter\" nas horas quer dizer:",
+            "alternativas": [
+              "meia hora",
+              "uma hora",
+              "cinco minutos",
+              "quinze minutos"
+            ],
+            "correta": 3,
+            "explicacao": "Quarter = um quarto de hora = 15 minutos.",
+            "dica": "Um quarto de 60 minutos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Seven o'clock\" é:",
+            "alternativas": [
+              "7h00",
+              "7h30",
+              "6h45",
+              "7h15"
+            ],
+            "correta": 0,
+            "explicacao": "Seven = sete; o'clock = em ponto.",
+            "dica": "Sem minutos."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como dizer 2h30?",
+            "alternativas": [
+              "It's two o'clock.",
+              "It's half past two.",
+              "It's quarter to two.",
+              "It's half past three."
+            ],
+            "correta": 1,
+            "explicacao": "2h30 = duas e meia = half past two.",
+            "dica": "Meia hora depois das duas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como dizer 7h15?",
+            "alternativas": [
+              "It's quarter to seven.",
+              "It's half past seven.",
+              "It's quarter past seven.",
+              "It's seven o'clock."
+            ],
+            "correta": 2,
+            "explicacao": "15 minutos depois das 7: quarter past seven.",
+            "dica": "Passou quinze minutos das sete."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"It's quarter to five\" é:",
+            "alternativas": [
+              "5h15",
+              "5h45",
+              "4h15",
+              "4h45"
+            ],
+            "correta": 3,
+            "explicacao": "Faltam 15 minutos para as 5: 4h45.",
+            "dica": "To quer dizer \"para\": quanto falta para as cinco?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"It's ten past nine\" é:",
+            "alternativas": [
+              "9h10",
+              "8h50",
+              "10h09",
+              "9h50"
+            ],
+            "correta": 0,
+            "explicacao": "Past = depois: dez minutos depois das nove.",
+            "dica": "Past quer dizer que a hora já passou."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque do mais cedo para o mais tarde:",
+            "itens": [
+              "quarter past six",
+              "half past six",
+              "quarter to seven",
+              "seven o'clock"
+            ],
+            "explicacao": "6h15, 6h30, 6h45 e 7h00.",
+            "dica": "Passe cada uma para números."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como dizer 5h50?",
+            "alternativas": [
+              "It's ten past five.",
+              "It's ten to six.",
+              "It's fifty to six.",
+              "It's ten to five."
+            ],
+            "correta": 1,
+            "explicacao": "Faltam 10 minutos para as 6: ten to six.",
+            "dica": "Quanto falta para a próxima hora?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"It's twenty to nine\" é:",
+            "alternativas": [
+              "9h20",
+              "8h20",
+              "8h40",
+              "9h40"
+            ],
+            "correta": 2,
+            "explicacao": "Faltam 20 minutos para as 9: 8h40.",
+            "dica": "To: quanto falta para as nove."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"3 p.m.\" é:",
+            "alternativas": [
+              "3h da manhã",
+              "13h",
+              "3h da madrugada",
+              "15h"
+            ],
+            "correta": 3,
+            "explicacao": "p.m. é depois do meio-dia: 12 + 3 = 15h.",
+            "dica": "p.m. vale para a tarde e a noite."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"It's twenty-five past eleven\" é:",
+            "alternativas": [
+              "11h25",
+              "10h35",
+              "11h35",
+              "12h25"
+            ],
+            "correta": 0,
+            "explicacao": "25 minutos depois das 11.",
+            "dica": "Past: a hora já passou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A aula começa at half past seven e dura 50 minutos. A que horas termina?",
+            "alternativas": [
+              "Ten past eight",
+              "Twenty past eight",
+              "Half past eight",
+              "Eight o'clock"
+            ],
+            "correta": 1,
+            "explicacao": "7h30 + 50 min = 8h20 = twenty past eight.",
+            "dica": "Some os minutos e passe para a próxima hora."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "It's quarter to twelve. A reunião é daqui a 30 minutos. A que horas ela começa?",
+            "alternativas": [
+              "Quarter to one",
+              "Half past twelve",
+              "Quarter past twelve",
+              "Twelve o'clock"
+            ],
+            "correta": 2,
+            "explicacao": "11h45 + 30 min = 12h15 = quarter past twelve.",
+            "dica": "Passe para números antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O ônibus passa a cada 20 minutos, começando at quarter past six. Quando passa o 3º ônibus?",
+            "alternativas": [
+              "Twenty to seven",
+              "Quarter to seven",
+              "Seven o'clock",
+              "Five to seven"
+            ],
+            "correta": 3,
+            "explicacao": "6h15, 6h35, 6h55: cinco para as sete.",
+            "dica": "Escreva os horários um por um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto tempo vai de ten to eight até half past nine?",
+            "alternativas": [
+              "1 hora e 40 minutos",
+              "1 hora e 20 minutos",
+              "2 horas",
+              "1 hora e 30 minutos"
+            ],
+            "correta": 0,
+            "explicacao": "7h50 até 9h30 = 1 hora e 40 minutos.",
+            "dica": "Converta os dois horários para números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"9 p.m.\" no relógio de 24 horas é:",
+            "alternativas": [
+              "9h",
+              "21h",
+              "19h",
+              "12h"
+            ],
+            "correta": 1,
+            "explicacao": "p.m.: 12 + 9 = 21h.",
+            "dica": "Some 12 às horas da tarde e da noite."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase diz o mesmo horário que \"It's four forty-five\"?",
+            "alternativas": [
+              "It's quarter past four.",
+              "It's quarter to four.",
+              "It's quarter to five.",
+              "It's half past four."
+            ],
+            "correta": 2,
+            "explicacao": "4h45 = quinze para as cinco = quarter to five.",
+            "dica": "Quanto falta de 4h45 para as cinco?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "cidadania",
+      "titulo": "Trânsito seguro para pedestre e ciclista",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A rua é de todos: pedestres, ciclistas, motoristas e motociclistas. Cada um precisa fazer a sua parte para ninguém se machucar.",
+          "Pedestre: atravesse na faixa e, se houver, no semáforo de pedestres, com o boneco verde. Olhe para os dois lados antes de atravessar, mesmo com o sinal aberto. Onde houver passarela, use a passarela.",
+          "Evite atravessar entre carros parados ou estacionados: o motorista não vê você, e você não vê quem vem. Não atravesse olhando o celular nem com fone alto.",
+          "Ciclista: use capacete, ande no mesmo sentido dos carros, na ciclovia ou ciclofaixa quando existir, sinalize com o braço antes de virar e use luz e refletor à noite."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A Maitê vai atravessar e o semáforo de pedestres está verde. O que ainda precisa fazer?",
+            "resolucao": "Olhar para os dois lados antes de atravessar. Um motorista distraído pode avançar o sinal."
+          },
+          {
+            "enunciado": "Bruno anda de bicicleta na contramão para chegar mais rápido. Qual é o risco?",
+            "resolucao": "Os motoristas não esperam alguém vindo de frente naquela faixa. O ciclista deve andar no mesmo sentido dos carros."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um carro não para na hora. Mesmo freando, ele anda alguns metros antes de parar, e quanto maior a velocidade, mais longe ele vai. Por isso não se deve atravessar correndo na frente de um carro que \"parece longe\".",
+        "Ser visto é proteção: roupa clara ou refletiva à noite, luz na bicicleta e contato visual com o motorista antes de atravessar.",
+        "Faça a conta do tempo: se o boneco verde fica aceso por 20 segundos e a rua tem 12 metros, andando 1 metro por segundo você leva 12 segundos, e sobram 8. Se o boneco começar a piscar, não comece a travessia: termine apenas se já estiver no meio."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde o pedestre deve atravessar a rua?",
+            "alternativas": [
+              "Na faixa de pedestres",
+              "Entre os carros parados",
+              "Correndo em qualquer lugar",
+              "Na curva"
+            ],
+            "correta": 0,
+            "explicacao": "A faixa é o lugar feito para atravessar.",
+            "dica": "Pense nas listras brancas no chão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o ciclista deve usar na cabeça?",
+            "alternativas": [
+              "Boné",
+              "Capacete",
+              "Fone de ouvido",
+              "Nada"
+            ],
+            "correta": 1,
+            "explicacao": "O capacete protege a cabeça numa queda.",
+            "dica": "Qual deles protege de verdade numa queda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de atravessar, o pedestre deve:",
+            "alternativas": [
+              "fechar os olhos",
+              "correr sem olhar",
+              "olhar para os dois lados",
+              "olhar o celular"
+            ],
+            "correta": 2,
+            "explicacao": "Olhar os dois lados ajuda a ver quem vem.",
+            "dica": "Quem pode vir de cada lado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que sentido o ciclista deve andar?",
+            "alternativas": [
+              "Na contramão",
+              "No meio da calçada sempre",
+              "Em zigue-zague",
+              "No mesmo sentido dos carros"
+            ],
+            "correta": 3,
+            "explicacao": "Assim os motoristas conseguem prever o caminho dele.",
+            "dica": "Ele segue o fluxo ou vai contra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se houver uma passarela perto, o pedestre deve:",
+            "alternativas": [
+              "usar a passarela",
+              "atravessar por baixo correndo",
+              "pular a grade",
+              "esperar alguém carregar"
+            ],
+            "correta": 0,
+            "explicacao": "A passarela tira o pedestre do caminho dos carros.",
+            "dica": "Qual opção é a mais segura?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O semáforo de pedestres está verde. O que a Maitê ainda deve fazer?",
+            "alternativas": [
+              "Atravessar correndo sem olhar",
+              "Olhar para os dois lados antes de atravessar",
+              "Esperar ficar vermelho",
+              "Atravessar olhando o celular"
+            ],
+            "correta": 1,
+            "explicacao": "Um motorista distraído pode avançar o sinal.",
+            "dica": "Sinal verde garante que todos vão parar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é perigoso atravessar entre carros estacionados?",
+            "alternativas": [
+              "Porque suja a roupa",
+              "Porque é longe",
+              "Porque o motorista não vê você e você não vê quem vem",
+              "Porque os carros são bonitos"
+            ],
+            "correta": 2,
+            "explicacao": "Os carros parados escondem o pedestre.",
+            "dica": "Quem consegue ver quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de virar, o ciclista deve:",
+            "alternativas": [
+              "fechar os olhos",
+              "buzinar sem parar",
+              "pedalar mais rápido",
+              "sinalizar com o braço"
+            ],
+            "correta": 3,
+            "explicacao": "O braço avisa aos outros para onde ele vai.",
+            "dica": "Como os outros sabem que ele vai virar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que ajuda a ser visto à noite?",
+            "alternativas": [
+              "Roupa clara ou refletiva e luz na bicicleta",
+              "Roupa preta",
+              "Andar sem luz",
+              "Ficar parado no meio da rua"
+            ],
+            "correta": 0,
+            "explicacao": "Cores claras, refletores e luzes chamam atenção dos motoristas.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem uma travessia segura no semáforo:",
+            "itens": [
+              "Parar na calçada, antes da faixa",
+              "Esperar o boneco verde",
+              "Olhar para os dois lados",
+              "Atravessar pela faixa, sem correr"
+            ],
+            "explicacao": "Parar, esperar o verde, olhar e só então atravessar.",
+            "dica": "Atravessar é o último passo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O boneco verde fica aceso 20 segundos. A rua tem 12 metros e Ana anda 1 metro por segundo. Quantos segundos sobram?",
+            "alternativas": [
+              "12",
+              "8",
+              "20",
+              "32"
+            ],
+            "correta": 1,
+            "explicacao": "Ela leva 12 segundos; 20 − 12 = 8.",
+            "dica": "Calcule o tempo da travessia e tire dos 20."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não se deve atravessar na frente de um carro que \"parece longe\"?",
+            "alternativas": [
+              "Porque o carro pode estar parado",
+              "Porque a faixa pode estar suja",
+              "Porque o carro não para na hora, e mais rápido vai mais longe",
+              "Porque é proibido olhar"
+            ],
+            "correta": 2,
+            "explicacao": "O carro precisa de alguns metros para parar.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O boneco começa a piscar quando Lucas ainda está na calçada. O que ele faz?",
+            "alternativas": [
+              "Atravessa correndo",
+              "Atravessa devagar",
+              "Volta para casa",
+              "Espera o próximo verde"
+            ],
+            "correta": 3,
+            "explicacao": "Boneco piscando: não se começa a travessia.",
+            "dica": "Piscando quer dizer que está acabando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação é mais segura para pedalar à noite?",
+            "alternativas": [
+              "Capacete, luz, refletor e mesmo sentido dos carros",
+              "Fone alto e roupa escura",
+              "Contramão com lanterna",
+              "Sem luz, mas rápido"
+            ],
+            "correta": 0,
+            "explicacao": "Proteção e visibilidade, seguindo o fluxo.",
+            "dica": "Procure a opção com proteção e visibilidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que atravessar olhando o celular é perigoso?",
+            "alternativas": [
+              "Porque gasta bateria",
+              "Porque a atenção sai da rua e você não percebe os carros",
+              "Porque é falta de educação",
+              "Porque o celular pode molhar"
+            ],
+            "correta": 1,
+            "explicacao": "Distraído, o pedestre não vê nem ouve o perigo.",
+            "dica": "Para onde vai a sua atenção?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma rua tem 15 metros. Seu Arlindo anda 0,5 metro por segundo. O verde dura 25 segundos. O que acontece?",
+            "alternativas": [
+              "Sobra tempo",
+              "Ele termina exatamente no fim",
+              "Faltam 5 segundos para ele terminar",
+              "Ele termina em 15 segundos"
+            ],
+            "correta": 2,
+            "explicacao": "15 ÷ 0,5 = 30 segundos; 30 − 25 = faltam 5 segundos.",
+            "dica": "Quantos segundos ele leva para andar 15 metros?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro a 60 km/h anda 1 quilômetro por minuto. Quantos metros ele anda em 1 segundo, mais ou menos?",
+            "alternativas": [
+              "1 metro",
+              "6 metros",
+              "60 metros",
+              "Cerca de 17 metros"
+            ],
+            "correta": 3,
+            "explicacao": "1.000 m ÷ 60 s ≈ 16,7 m por segundo.",
+            "dica": "Um minuto tem 60 segundos e um quilômetro tem 1.000 metros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o motivo principal de o ciclista andar no mesmo sentido dos carros?",
+            "alternativas": [
+              "Os motoristas conseguem prever onde ele vai estar",
+              "Fica mais bonito",
+              "A bicicleta gasta menos",
+              "Para ir mais rápido sempre"
+            ],
+            "correta": 0,
+            "explicacao": "Seguir o fluxo deixa os movimentos previsíveis.",
+            "dica": "O que o motorista espera ver na faixa dele?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o \"contato visual\" antes de atravessar?",
+            "alternativas": [
+              "Olhar para o céu",
+              "Olhar o motorista nos olhos e ter certeza de que ele viu você",
+              "Olhar a vitrine",
+              "Olhar o semáforo de carro"
+            ],
+            "correta": 1,
+            "explicacao": "Garante que o motorista sabe que você vai atravessar.",
+            "dica": "Quem precisa ver quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sequência de ideias está CORRETA?",
+            "alternativas": [
+              "Sinal verde garante segurança total",
+              "Capacete só serve para corrida",
+              "Mesmo com sinal verde, olhar para os lados evita acidentes com motoristas distraídos",
+              "Faixa de pedestres serve só de enfeite"
+            ],
+            "correta": 2,
+            "explicacao": "As regras ajudam, mas a atenção de cada um completa a segurança.",
+            "dica": "Procure a única opção sem exagero."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Semáforo",
+    "texto": "Quando o vermelho acende no alto da esquina,\no carro freia, a moto para, ninguém buzina.\nÉ a vez do boneco verde brilhar para mim:\nolho para os dois lados e atravesso, enfim.\n\nO amarelo é um aviso que não pede pressa:\nquem dirige vai parando, que a regra é essa.\nE eu, se ainda estou na calçada, espero com calma,\nporque correr na rua é coisa que machuca a alma.\n\nO verde volta aos carros, e a rua segue o seu caminho,\npassa o caminhão, o táxi, a bicicleta no cantinho.\nNa faixa, no capacete, no tempo de cada cor,\no trânsito é uma dança que pede atenção e amor."
+  },
+  "escrita": {
+    "proposta": "Escreva um poema de duas estrofes, com rimas, sobre o caminho da sua casa até a escola. Cada estrofe deve ter pelo menos 4 versos. Depois, marque com letras (A, B) o esquema de rimas da primeira estrofe."
+  }
+}

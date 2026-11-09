@@ -1,0 +1,1206 @@
+{
+  "dia": 31,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Problemas que viram equação do 2º grau",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Muitos problemas do dia a dia escondem uma equação do 2º grau. O roteiro é sempre o mesmo: ler com calma, chamar o valor desconhecido de x, montar a equação, resolver e conferir se a resposta faz sentido.",
+          "Área de retângulo: um terreno tem comprimento 5 m maior que a largura e área de 84 m². Se a largura é x, o comprimento é x + 5. Então x(x + 5) = 84 → x² + 5x − 84 = 0. Δ = 25 + 336 = 361, √Δ = 19, x = (−5 + 19)/2 = 7 ou x = (−5 − 19)/2 = −12.",
+          "Uma medida não pode ser negativa, então descartamos −12. A largura é 7 m e o comprimento é 12 m. Conferindo: 7 · 12 = 84. Certo!",
+          "Números consecutivos: se o primeiro é x, o seguinte é x + 1. Produto 156: x(x + 1) = 156 → x² + x − 156 = 0. Δ = 1 + 624 = 625, √Δ = 25, x = 12 ou x = −13. Os positivos são 12 e 13.",
+          "Idade, quantidade de pessoas, comprimento e tempo não aceitam valores negativos. Sempre volte ao enunciado e pergunte: essa raiz serve para a situação?"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Aumentando 3 m em cada lado de um terreno quadrado, a área passa a ser 100 m². Qual era o lado?",
+            "resolucao": "(x + 3)² = 100 → x + 3 = 10 (a medida é positiva) → x = 7 m. Conferindo: 10 · 10 = 100."
+          },
+          {
+            "enunciado": "A soma de um número positivo com o seu quadrado é 30. Que número é esse?",
+            "resolucao": "x² + x = 30 → x² + x − 30 = 0 → (x + 6)(x − 5) = 0. As raízes são −6 e 5; o positivo é 5. Conferindo: 25 + 5 = 30."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Divisão de contas: um grupo divide R$ 240 igualmente. Se fossem 2 pessoas a menos, cada uma pagaria R$ 20 a mais. Com x pessoas: 240/(x − 2) = 240/x + 20. Multiplicando tudo por x(x − 2): 240x = 240(x − 2) + 20x(x − 2) → 20x² − 40x − 480 = 0 → x² − 2x − 24 = 0 → x = 6 ou x = −4. São 6 pessoas: 240/6 = 40 e 240/4 = 60, diferença de 20.",
+        "Moldura ou calçada: um jardim de 10 m por 6 m ganha uma calçada de largura x em volta, e a área total fica 96 m². Então (10 + 2x)(6 + 2x) = 96 → 4x² + 32x − 36 = 0 → x² + 8x − 9 = 0 → x = 1 ou x = −9. A calçada tem 1 m. Atenção: a calçada aumenta 2x em cada dimensão, porque fica dos dois lados.",
+        "Altura de um objeto lançado: se h = 20t − 5t², a altura de 15 m acontece quando 5t² − 20t + 15 = 0, ou seja, t² − 4t + 3 = 0: t = 1 s (subindo) e t = 3 s (descendo). Aqui as duas raízes servem."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo depois de ler o problema?",
+            "alternativas": [
+              "Chamar o valor desconhecido de x",
+              "Chutar um número",
+              "Somar todos os números do texto",
+              "Escrever a resposta final"
+            ],
+            "correta": 0,
+            "explicacao": "Dar nome ao que não sabemos é o que permite montar a equação.",
+            "dica": "Pense em como você vai representar o que não conhece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno tem largura x e comprimento x + 5. Qual expressão dá a área?",
+            "alternativas": [
+              "2x + 5",
+              "x(x + 5)",
+              "x + 5",
+              "x² + 5"
+            ],
+            "correta": 1,
+            "explicacao": "Área do retângulo = largura × comprimento = x(x + 5).",
+            "dica": "Área do retângulo é uma multiplicação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o primeiro de dois números consecutivos é x, o segundo é:",
+            "alternativas": [
+              "2x",
+              "x − 1",
+              "x + 1",
+              "x²"
+            ],
+            "correta": 2,
+            "explicacao": "Consecutivo é o número logo depois: x + 1.",
+            "dica": "Depois do 12 vem o 13."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As raízes da equação de um terreno deram 7 e −12. Qual é a largura?",
+            "alternativas": [
+              "−12 m",
+              "19 m",
+              "5 m",
+              "7 m"
+            ],
+            "correta": 3,
+            "explicacao": "Medida não pode ser negativa, então só 7 serve.",
+            "dica": "Existe largura negativa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve \"o quadrado de um número\"?",
+            "alternativas": [
+              "2x",
+              "x²",
+              "x + 2",
+              "x/2"
+            ],
+            "correta": 1,
+            "explicacao": "Quadrado é o número multiplicado por ele mesmo: x · x = x².",
+            "dica": "Quadrado não é o dobro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O produto de dois números consecutivos positivos é 156. Quais são eles?",
+            "alternativas": [
+              "11 e 12",
+              "12 e 13",
+              "13 e 14",
+              "6 e 26"
+            ],
+            "correta": 1,
+            "explicacao": "x(x + 1) = 156 → x² + x − 156 = 0 → x = 12. Confira: 12 · 13 = 156.",
+            "dica": "Monte x(x + 1) = 156 e use Bhaskara."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo tem comprimento 5 m maior que a largura e área de 84 m². Quais são as medidas?",
+            "alternativas": [
+              "6 m e 14 m",
+              "4 m e 21 m",
+              "7 m e 12 m",
+              "8 m e 13 m"
+            ],
+            "correta": 2,
+            "explicacao": "x(x + 5) = 84 → x = 7. As medidas são 7 m e 12 m.",
+            "dica": "A diferença entre as medidas precisa ser 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A soma de um número positivo com o seu quadrado é 30. Qual é o número?",
+            "alternativas": [
+              "5",
+              "6",
+              "10",
+              "15"
+            ],
+            "correta": 0,
+            "explicacao": "x² + x − 30 = 0 → x = 5 ou x = −6. O positivo é 5.",
+            "dica": "Teste: o número ao quadrado mais ele mesmo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O quadrado da idade de Rita menos o triplo da idade dá 40. Quantos anos ela tem?",
+            "alternativas": [
+              "5",
+              "10",
+              "4",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "x² − 3x − 40 = 0 → (x − 8)(x + 5) = 0 → x = 8.",
+            "dica": "Monte x² − 3x = 40 e descarte a raiz negativa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Aumentando 3 m em cada lado de um terreno quadrado, a área fica 100 m². Qual era o lado?",
+            "alternativas": [
+              "10 m",
+              "7 m",
+              "13 m",
+              "97 m"
+            ],
+            "correta": 1,
+            "explicacao": "(x + 3)² = 100 → x + 3 = 10 → x = 7.",
+            "dica": "O novo lado ao quadrado dá 100."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um grupo divide R$ 240. Se fossem 2 pessoas a menos, cada uma pagaria R$ 20 a mais. Quantas pessoas há?",
+            "alternativas": [
+              "4",
+              "8",
+              "6",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "x² − 2x − 24 = 0 → x = 6. Confira: 240/6 = 40 e 240/4 = 60.",
+            "dica": "Teste cada alternativa: divida 240 com e sem as 2 pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um jardim de 10 m por 6 m ganha uma calçada de mesma largura em volta e a área total fica 96 m². Qual é a largura da calçada?",
+            "alternativas": [
+              "2 m",
+              "1 m",
+              "3 m",
+              "0,5 m"
+            ],
+            "correta": 1,
+            "explicacao": "(10 + 2x)(6 + 2x) = 96 → x² + 8x − 9 = 0 → x = 1. Confira: 12 · 8 = 96.",
+            "dica": "A calçada aparece dos dois lados de cada medida."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para resolver um problema com equação do 2º grau.",
+            "itens": [
+              "Ler e entender o que se pede",
+              "Chamar o desconhecido de x",
+              "Montar a equação",
+              "Resolver a equação",
+              "Conferir se a resposta faz sentido"
+            ],
+            "explicacao": "Primeiro entender, depois representar, resolver e, por fim, conferir no enunciado.",
+            "dica": "Conferir sempre fica por último."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um número positivo multiplicado por ele mesmo menos 4 dá 21, ou seja, x(x − 4) = 21. Qual é o número?",
+            "alternativas": [
+              "7",
+              "3",
+              "21",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "x² − 4x − 21 = 0 → (x − 7)(x + 3) = 0 → x = 7. Confira: 7 · 3 = 21.",
+            "dica": "Procure raízes com produto −21 e soma 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo tem perímetro de 26 m e área de 40 m². Quais são os lados?",
+            "alternativas": [
+              "4 m e 10 m",
+              "6 m e 7 m",
+              "2 m e 20 m",
+              "5 m e 8 m"
+            ],
+            "correta": 3,
+            "explicacao": "x + y = 13 e xy = 40 → x² − 13x + 40 = 0 → 5 e 8. O par 4 e 10 tem área 40, mas perímetro 28.",
+            "dica": "Confira as duas condições: área e perímetro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma turma ia dividir R$ 360 de um presente. Três alunos desistiram e cada um dos outros pagou R$ 6 a mais. Quantos alunos havia no início?",
+            "alternativas": [
+              "12",
+              "15",
+              "18",
+              "20"
+            ],
+            "correta": 1,
+            "explicacao": "360/(x − 3) = 360/x + 6 → x² − 3x − 180 = 0 → Δ = 729 → x = 15. Confira: 360/15 = 24 e 360/12 = 30.",
+            "dica": "Monte como no exemplo dos R$ 240 do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma foto de 20 cm por 30 cm ganha uma moldura de largura constante e a área total fica 936 cm². Qual é a largura da moldura?",
+            "alternativas": [
+              "2 cm",
+              "6 cm",
+              "3 cm",
+              "4 cm"
+            ],
+            "correta": 2,
+            "explicacao": "(20 + 2x)(30 + 2x) = 936 → x² + 25x − 84 = 0 → x = 3. Confira: 26 · 36 = 936.",
+            "dica": "Cada medida cresce o dobro da largura da moldura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A soma dos quadrados de dois números consecutivos positivos é 85. Quais são?",
+            "alternativas": [
+              "6 e 7",
+              "5 e 6",
+              "7 e 8",
+              "4 e 5"
+            ],
+            "correta": 0,
+            "explicacao": "x² + (x + 1)² = 85 → x² + x − 42 = 0 → x = 6. Confira: 36 + 49 = 85.",
+            "dica": "Desenvolva (x + 1)² antes de juntar os termos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A altura de uma bola é h = 20t − 5t² (h em metros, t em segundos). Em que instantes ela está a 15 m?",
+            "alternativas": [
+              "só em 1 s",
+              "em 2 s",
+              "em 3 s e em 5 s",
+              "em 1 s e em 3 s"
+            ],
+            "correta": 3,
+            "explicacao": "5t² − 20t + 15 = 0 → t² − 4t + 3 = 0 → t = 1 ou t = 3: uma vez subindo e outra descendo.",
+            "dica": "Aqui as duas raízes podem servir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um número inteiro somado ao seu inverso dá 10/3. Que número é esse?",
+            "alternativas": [
+              "3",
+              "1/3",
+              "10",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "x + 1/x = 10/3 → 3x² − 10x + 3 = 0 → x = 3 ou x = 1/3. O inteiro é 3.",
+            "dica": "Multiplique tudo por 3x para tirar as frações."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Consórcio, financiamento ou juntar antes: qual caminho escolher",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para comprar algo caro, como uma moto, um carro ou uma casa, existem três caminhos principais: juntar o dinheiro antes, fazer um financiamento ou entrar num consórcio.",
+          "Financiamento: o banco empresta o dinheiro e você leva o bem na hora, mas paga juros. Uma moto de R$ 15.000 em 48 parcelas de R$ 450 custa R$ 21.600 no total: R$ 6.600 só de juros.",
+          "Consórcio: um grupo de pessoas paga parcelas todo mês e, a cada mês, algumas recebem uma carta de crédito por sorteio ou por lance. Não tem juros, mas tem taxa de administração. Com taxa de 15%, a moto sai por R$ 17.250, em 50 parcelas de R$ 345. O problema: você não sabe quando vai ser contemplado.",
+          "Juntar antes: você guarda e investe todo mês e compra à vista. É o caminho mais barato, porque não paga juros nem taxa e ainda pode pedir desconto. O custo é esperar e ter disciplina.",
+          "A pergunta-chave: eu preciso disso agora? Se a moto é ferramenta de trabalho e a renda que ela gera paga a parcela com folga, financiar pode fazer sentido. Se é só um desejo, juntar antes quase sempre é a melhor escolha."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Compare os três caminhos para uma moto de R$ 15.000.",
+            "resolucao": "Financiamento: 48 × R$ 450 = R$ 21.600. Consórcio com 15% de taxa: R$ 17.250. Juntar antes: R$ 15.000, ou menos com desconto à vista."
+          },
+          {
+            "enunciado": "Bianca faz entregas com moto alugada por R$ 800 por mês. A parcela do financiamento seria R$ 450. Vale pensar em financiar?",
+            "resolucao": "Sim, pode valer: ela troca um gasto de R$ 800 por uma parcela de R$ 450 e, no fim, fica com a moto. Ainda assim, precisa comparar o custo total e ter folga no orçamento."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "CET (Custo Efetivo Total) é o número que junta juros, tarifas e seguros de um financiamento. Dois bancos podem ter a mesma taxa de juros e CETs diferentes. Compare sempre o CET, não só a taxa anunciada.",
+        "No consórcio, o lance é oferecer adiantar parcelas para ser contemplado antes. A carta de crédito e as parcelas costumam ser reajustadas com o tempo, e quem desiste no meio normalmente só recebe de volta o que pagou mais tarde, com descontos previstos no contrato.",
+        "Os juros compostos trabalham a favor de quem guarda e contra quem deve: R$ 1.000 rendendo 1% ao mês viram R$ 1.010 em 1 mês e R$ 1.020,10 em 2 meses, porque o rendimento também rende."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No consórcio, como se decide quem recebe a carta de crédito no mês?",
+            "alternativas": [
+              "Quem pagou primeiro",
+              "Por sorteio ou por lance",
+              "Pela idade",
+              "Pelo banco, sem regra"
+            ],
+            "correta": 1,
+            "explicacao": "A cada mês há sorteio e também a chance de dar um lance.",
+            "dica": "Releia o terceiro parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No financiamento, além do valor do bem, você paga:",
+            "alternativas": [
+              "juros",
+              "nada a mais",
+              "só a entrada",
+              "taxa de administração de grupo"
+            ],
+            "correta": 0,
+            "explicacao": "O banco cobra juros por emprestar o dinheiro.",
+            "dica": "É o preço de usar o dinheiro do banco."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a vantagem de juntar antes e comprar à vista?",
+            "alternativas": [
+              "Levar o bem na hora",
+              "Ganhar sorteios",
+              "Não pagar juros e poder pedir desconto",
+              "Não precisar de disciplina"
+            ],
+            "correta": 2,
+            "explicacao": "À vista não há juros nem taxa, e o vendedor pode dar desconto.",
+            "dica": "Pense no que você deixa de pagar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma desvantagem do consórcio?",
+            "alternativas": [
+              "Ter juros altíssimos",
+              "Exigir pagamento à vista",
+              "Não ter parcelas",
+              "Não saber quando será contemplado"
+            ],
+            "correta": 3,
+            "explicacao": "A carta pode sair no primeiro mês ou só no último.",
+            "dica": "Pense no sorteio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto somam 48 parcelas de R$ 450?",
+            "alternativas": [
+              "R$ 18.000",
+              "R$ 21.600",
+              "R$ 4.500",
+              "R$ 20.600"
+            ],
+            "correta": 1,
+            "explicacao": "48 × 450 = 21.600.",
+            "dica": "Faça 48 × 400 e some 48 × 50."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma moto de R$ 15.000 financiada em 48 × R$ 450. Quanto se paga de juros?",
+            "alternativas": [
+              "R$ 6.600",
+              "R$ 21.600",
+              "R$ 4.500",
+              "R$ 7.200"
+            ],
+            "correta": 0,
+            "explicacao": "21.600 − 15.000 = 6.600.",
+            "dica": "Total pago menos o preço da moto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num consórcio de R$ 15.000 com 15% de taxa de administração, quanto se paga no total?",
+            "alternativas": [
+              "R$ 15.150",
+              "R$ 16.500",
+              "R$ 17.250",
+              "R$ 22.500"
+            ],
+            "correta": 2,
+            "explicacao": "15% de 15.000 = 2.250; 15.000 + 2.250 = 17.250.",
+            "dica": "Calcule 15% de 15.000 e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Esse total de R$ 17.250 em 50 parcelas iguais dá quanto por mês?",
+            "alternativas": [
+              "R$ 300",
+              "R$ 450",
+              "R$ 375",
+              "R$ 345"
+            ],
+            "correta": 3,
+            "explicacao": "17.250 ÷ 50 = 345.",
+            "dica": "Divida por 100 e multiplique por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nos exemplos da moto, qual caminho custa menos no total?",
+            "alternativas": [
+              "Financiamento",
+              "Juntar antes e pagar à vista",
+              "Consórcio",
+              "Todos custam igual"
+            ],
+            "correta": 1,
+            "explicacao": "À vista: R$ 15.000 ou menos; consórcio R$ 17.250; financiamento R$ 21.600.",
+            "dica": "Compare os três totais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual situação o financiamento pode fazer sentido?",
+            "alternativas": [
+              "Para trocar de celular todo ano",
+              "Para comprar algo só porque está na moda",
+              "Para uma moto de trabalho que gera renda maior que a parcela",
+              "Quando o orçamento já está no limite"
+            ],
+            "correta": 2,
+            "explicacao": "Se o bem gera renda que paga a parcela com folga, o juro pode valer a pena.",
+            "dica": "Pense em bem que se paga sozinho."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Guardando R$ 500 por mês, sem rendimento, em quantos meses se juntam R$ 15.000?",
+            "alternativas": [
+              "25",
+              "30",
+              "35",
+              "50"
+            ],
+            "correta": 1,
+            "explicacao": "15.000 ÷ 500 = 30 meses. Com rendimento, seria um pouco menos.",
+            "dica": "Divida o preço pela quantia mensal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o CET?",
+            "alternativas": [
+              "Calcular o sorteio do consórcio",
+              "Mostrar só a taxa de juros",
+              "Definir o valor da entrada",
+              "Comparar o custo total, com juros, tarifas e seguros"
+            ],
+            "correta": 3,
+            "explicacao": "O CET junta tudo o que você paga no financiamento.",
+            "dica": "Custo Efetivo Total: o que é \"total\"?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Carro de R$ 40.000: financiamento de 60 × R$ 1.100 ou consórcio com 18% de taxa. Quanto o financiamento custa a mais no total?",
+            "alternativas": [
+              "R$ 18.800",
+              "R$ 26.000",
+              "R$ 7.200",
+              "R$ 19.800"
+            ],
+            "correta": 0,
+            "explicacao": "Financiamento: 66.000. Consórcio: 40.000 × 1,18 = 47.200. Diferença: 18.800.",
+            "dica": "Calcule os dois totais antes de subtrair."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas paga R$ 800 de aluguel de moto. A parcela de um financiamento seria R$ 450. Comparando só esses valores, quanto ele economiza por mês?",
+            "alternativas": [
+              "R$ 450",
+              "R$ 800",
+              "R$ 350",
+              "R$ 1.250"
+            ],
+            "correta": 2,
+            "explicacao": "800 − 450 = 350 por mês, e ainda fica com a moto no fim.",
+            "dica": "É uma subtração."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do menor para o maior custo total para ter a moto de R$ 15.000 (exemplos da lição).",
+            "itens": [
+              "Juntar e pagar à vista com 5% de desconto (R$ 14.250)",
+              "Consórcio com 15% de taxa (R$ 17.250)",
+              "Financiamento em 48 × R$ 450 (R$ 21.600)",
+              "Alugar por 48 meses a R$ 800 (R$ 38.400, sem ficar com a moto)"
+            ],
+            "explicacao": "14.250 < 17.250 < 21.600 < 38.400.",
+            "dica": "Calcule o total de cada um."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "À vista, a moto de R$ 15.000 tem 5% de desconto. Quanto se economiza em relação ao financiamento de 48 × R$ 450?",
+            "alternativas": [
+              "R$ 6.600",
+              "R$ 7.350",
+              "R$ 750",
+              "R$ 6.850"
+            ],
+            "correta": 1,
+            "explicacao": "À vista: 15.000 − 750 = 14.250. Financiado: 21.600. Diferença: 7.350.",
+            "dica": "Some os juros com o desconto que se perde."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rita foi contemplada no consórcio no 10º mês de 50, com parcelas de R$ 345. Quanto ela ainda paga depois de receber a carta?",
+            "alternativas": [
+              "R$ 3.450",
+              "R$ 17.250",
+              "R$ 15.000",
+              "R$ 13.800"
+            ],
+            "correta": 3,
+            "explicacao": "Ela pagou 10 parcelas e faltam 40: 40 × 345 = 13.800.",
+            "dica": "Ser contemplada não acaba com as parcelas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Banco A: juros de 2% ao mês e CET de 2,1% ao mês. Banco B: juros de 1,5% ao mês e CET de 2,4% ao mês. Qual é mais barato?",
+            "alternativas": [
+              "Banco A",
+              "Banco B",
+              "São iguais",
+              "Não dá para saber"
+            ],
+            "correta": 0,
+            "explicacao": "O CET mostra o custo de verdade: 2,1% é menor que 2,4%.",
+            "dica": "Qual número junta tudo o que você paga?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Davi deixou R$ 1.000 rendendo 1% ao mês, sem novos depósitos. Quanto terá depois de 2 meses?",
+            "alternativas": [
+              "R$ 1.020,00",
+              "R$ 1.010,00",
+              "R$ 1.020,10",
+              "R$ 1.200,00"
+            ],
+            "correta": 2,
+            "explicacao": "1.000 × 1,01 = 1.010; 1.010 × 1,01 = 1.020,10. O rendimento também rende.",
+            "dica": "No segundo mês, o 1% é sobre um valor maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém diz: \"Consórcio não tem juros, então é sempre a opção mais barata\". Isso está:",
+            "alternativas": [
+              "certo, pois juro é o único custo",
+              "errado: há taxa de administração e reajustes, e juntar antes pode sair mais barato",
+              "certo, se o grupo for grande",
+              "errado, porque consórcio tem juros maiores que o banco"
+            ],
+            "correta": 1,
+            "explicacao": "Consórcio não tem juros, mas tem taxa; e quem junta antes não paga nem taxa e ainda pode ter desconto.",
+            "dica": "Lembre o total de cada caminho no exemplo da moto."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Tratamento de erros: quando o usuário digita o que não devia",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Se o programa pede a idade com int(input()) e o usuário digita \"dez\", o Python para e mostra um ValueError: ele não sabe transformar \"dez\" em número. Um bom programa não quebra; ele avisa e pede de novo.",
+          "Para isso usamos try e except. O código arriscado fica no try; se der erro, o Python pula para o except:\ntry:\n    idade = int(input(\"Idade: \"))\nexcept ValueError:\n    print(\"Digite só números.\")",
+          "Para insistir até o usuário acertar, coloque tudo num laço:\nwhile True:\n    try:\n        idade = int(input(\"Idade: \"))\n        break\n    except ValueError:\n        print(\"Tente de novo.\")\nO break só é alcançado se a conversão der certo.",
+          "Outros erros comuns: ZeroDivisionError (dividir por zero) e IndexError (pedir uma posição que não existe na lista, como lista[3] numa lista de 3 itens).",
+          "Nem todo valor errado gera erro no Python: int(\"-4\") funciona, mas idade negativa não faz sentido. Para isso, use if e recuse o valor."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O que acontece se o usuário digitar abc no programa com while True da lição?",
+            "resolucao": "int(\"abc\") gera ValueError, o Python pula o break, vai para o except, mostra \"Tente de novo.\" e o laço pede a idade outra vez."
+          },
+          {
+            "enunciado": "Escreva uma divisão que não quebre quando n vale zero.",
+            "resolucao": "try:\n    print(10 / n)\nexcept ZeroDivisionError:\n    print(\"Não dá para dividir por zero.\")"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O try pode ter else e finally. O else roda só se não houve erro; o finally roda sempre, com ou sem erro, e serve para tarefas de encerramento, como fechar um arquivo.",
+        "Evite o except vazio (except: sem nome de erro). Ele esconde qualquer problema, até erros de digitação no seu próprio código, e você nunca descobre o que estava errado. Capture o erro específico.",
+        "Você também pode criar o seu erro com raise: if idade < 0: raise ValueError(\"negativa\"). Quem chamar pode capturar com except ValueError as e: print(e), e a mensagem impressa será negativa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Que erro acontece em int(\"dez\")?",
+            "alternativas": [
+              "ValueError",
+              "ZeroDivisionError",
+              "IndexError",
+              "Nenhum"
+            ],
+            "correta": 0,
+            "explicacao": "\"dez\" é texto que não vira número, então dá ValueError.",
+            "dica": "É um erro de valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra começa o bloco que \"tenta\" executar um código arriscado?",
+            "alternativas": [
+              "except",
+              "if",
+              "try",
+              "break"
+            ],
+            "correta": 2,
+            "explicacao": "try significa tentar em inglês.",
+            "dica": "Em inglês, tentar é…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando o bloco except é executado?",
+            "alternativas": [
+              "Sempre",
+              "Quando dá erro dentro do try",
+              "Nunca",
+              "Só no fim do programa"
+            ],
+            "correta": 1,
+            "explicacao": "O except é o plano B: só roda se o try falhar.",
+            "dica": "Pense em plano B."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que erro aparece ao dividir um número por zero?",
+            "alternativas": [
+              "ValueError",
+              "IndexError",
+              "NameError",
+              "ZeroDivisionError"
+            ],
+            "correta": 3,
+            "explicacao": "Divisão por zero gera ZeroDivisionError.",
+            "dica": "O nome do erro fala de zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para pedir de novo até o usuário digitar certo, usamos:",
+            "alternativas": [
+              "só um print",
+              "um laço while",
+              "uma lista vazia",
+              "um comentário"
+            ],
+            "correta": 1,
+            "explicacao": "O laço repete o pedido até o break.",
+            "dica": "Precisamos repetir."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída?\ntry:\n    n = int(\"7\")\n    print(n * 2)\nexcept ValueError:\n    print(\"erro\")",
+            "alternativas": [
+              "7",
+              "erro",
+              "14",
+              "72"
+            ],
+            "correta": 2,
+            "explicacao": "\"7\" vira 7, sem erro; 7 · 2 = 14.",
+            "dica": "A conversão funciona?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída?\ntry:\n    n = int(\"7,5\")\n    print(n)\nexcept ValueError:\n    print(\"erro\")",
+            "alternativas": [
+              "erro",
+              "7",
+              "7,5",
+              "8"
+            ],
+            "correta": 0,
+            "explicacao": "\"7,5\" não é um inteiro válido, então vai para o except.",
+            "dica": "int aceita vírgula?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "lista = [3, 5, 8]. O que acontece em print(lista[3])?",
+            "alternativas": [
+              "Mostra 8",
+              "Mostra 3",
+              "ZeroDivisionError",
+              "IndexError"
+            ],
+            "correta": 3,
+            "explicacao": "As posições vão de 0 a 2; a posição 3 não existe.",
+            "dica": "A contagem de posições começa em zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No laço while True com try, onde fica o break?",
+            "alternativas": [
+              "Dentro do except",
+              "Dentro do try, depois da conversão que deu certo",
+              "Antes do while",
+              "Não precisa de break"
+            ],
+            "correta": 1,
+            "explicacao": "Só saímos do laço quando a conversão funciona.",
+            "dica": "Quando queremos parar de pedir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O usuário digitou -4 como idade. Como tratar isso?",
+            "alternativas": [
+              "Usar if para recusar valores negativos",
+              "Esperar um ValueError",
+              "Usar ZeroDivisionError",
+              "Não precisa tratar"
+            ],
+            "correta": 0,
+            "explicacao": "int(\"-4\") funciona, então só um if pega esse valor sem sentido.",
+            "dica": "Isso gera erro no Python?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída?\ntry:\n    x = int(\"12\")\n    y = 12 / (x - 12)\nexcept ValueError:\n    print(\"A\")\nexcept ZeroDivisionError:\n    print(\"B\")",
+            "alternativas": [
+              "A",
+              "B",
+              "A e B",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "\"12\" converte; depois x − 12 = 0 e a divisão por zero leva ao segundo except.",
+            "dica": "Veja qual linha falha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída?\ntry:\n    print(int(\"5\") + 1)\nexcept ValueError:\n    print(\"X\")\nelse:\n    print(\"Y\")",
+            "alternativas": [
+              "só 6",
+              "X",
+              "6 e X",
+              "6 e Y"
+            ],
+            "correta": 3,
+            "explicacao": "Sem erro: imprime 6 e depois o else imprime Y.",
+            "dica": "O else roda quando não há erro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída?\ntry:\n    int(\"a\")\nexcept ValueError:\n    print(\"erro\")\nfinally:\n    print(\"fim\")",
+            "alternativas": [
+              "erro e depois fim",
+              "só erro",
+              "só fim",
+              "fim e depois erro"
+            ],
+            "correta": 0,
+            "explicacao": "O except imprime erro e o finally sempre roda no final.",
+            "dica": "O finally roda com ou sem erro."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que acontece quando o usuário digita abc no programa com laço da lição.",
+            "itens": [
+              "O input recebe o texto",
+              "O int tenta converter",
+              "Dá ValueError e o Python vai para o except",
+              "Aparece o aviso",
+              "O laço volta e pede de novo"
+            ],
+            "explicacao": "O erro desvia para o except, e o while recomeça.",
+            "dica": "O aviso vem depois do erro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o except vazio (sem nome de erro) é uma má ideia?",
+            "alternativas": [
+              "Porque deixa o programa mais rápido",
+              "Porque não funciona no Python",
+              "Porque esconde qualquer erro, até falhas do seu próprio código",
+              "Porque só pega ValueError"
+            ],
+            "correta": 2,
+            "explicacao": "Ele engole tudo, e você não descobre o que está errado.",
+            "dica": "Releia o aprofundamento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída?\ntotal = 0\nfor t in [\"4\", \"x\", \"6\", \"\"]:\n    try:\n        total += int(t)\n    except ValueError:\n        total += 1\nprint(total)",
+            "alternativas": [
+              "10",
+              "11",
+              "12",
+              "erro"
+            ],
+            "correta": 2,
+            "explicacao": "4 + 1 (\"x\") + 6 + 1 (texto vazio também dá ValueError) = 12.",
+            "dica": "O texto vazio vira número?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída?\ndef dividir(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return None\nprint(dividir(9, 3), dividir(1, 0))",
+            "alternativas": [
+              "3.0 None",
+              "3 0",
+              "erro",
+              "3.0 0"
+            ],
+            "correta": 0,
+            "explicacao": "9 / 3 dá 3.0 (divisão com / dá decimal) e a segunda chamada devolve None.",
+            "dica": "A barra / sempre dá número decimal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída?\ndef conferir(idade):\n    if idade < 0:\n        raise ValueError(\"negativa\")\ntry:\n    conferir(-2)\nexcept ValueError as e:\n    print(e)",
+            "alternativas": [
+              "-2",
+              "ValueError",
+              "nada",
+              "negativa"
+            ],
+            "correta": 3,
+            "explicacao": "O raise cria o erro com a mensagem, e print(e) mostra só a mensagem.",
+            "dica": "O que vai entre parênteses no raise?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No laço da lição, o usuário digita \"a\", depois \"2.5\" e depois \"8\". Quantas vezes aparece \"Tente de novo.\"?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "\"a\" e \"2.5\" não viram inteiro (int não aceita ponto decimal); \"8\" funciona e sai do laço.",
+            "dica": "int converte texto com ponto decimal?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a saída?\ntry:\n    n = int(\"0\")\n    r = 10 / n\nexcept ZeroDivisionError:\n    r = -1\nelse:\n    r = r + 1\nfinally:\n    r = r * 2\nprint(r)",
+            "alternativas": [
+              "-2",
+              "22",
+              "-1",
+              "erro"
+            ],
+            "correta": 0,
+            "explicacao": "Divisão por zero: r = −1; o else não roda; o finally dobra: −2.",
+            "dica": "Siga o caminho: erro, depois o que sempre roda."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Regência verbal: assistir, visar, preferir, implicar e obedecer",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Regência verbal é a relação entre o verbo e o seu complemento: alguns verbos ligam-se direto ao complemento, outros pedem uma preposição (a, de, em, com…). Alguns mudam de regência quando mudam de sentido.",
+          "Assistir no sentido de ver ou presenciar pede a: \"Assisti ao jogo\", \"Assistimos à aula\". No sentido de ajudar, dar assistência, não pede preposição: \"O enfermeiro assiste o paciente\".",
+          "Visar no sentido de mirar ou dar visto não pede preposição: \"O arqueiro visou o alvo\", \"O gerente visou o documento\". No sentido de ter como objetivo, a norma tradicional pede a: \"Ela visa a uma vaga na ETEC\".",
+          "Preferir é preferir uma coisa a outra, sem \"mais\" e sem \"do que\": \"Prefiro suco a refrigerante\". Implicar no sentido de acarretar não pede preposição: \"A mudança implica custos\" (e não \"implica em\").",
+          "Obedecer e desobedecer pedem a: \"Obedeça às regras\", \"Ele desobedeceu ao sinal\". Na fala do dia a dia muita gente foge dessas regras, mas em provas, redações e textos formais vale a norma padrão."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Corrija: \"Assisti o filme ontem\".",
+            "resolucao": "\"Assisti ao filme ontem.\" No sentido de ver, assistir pede a preposição a."
+          },
+          {
+            "enunciado": "Corrija: \"Prefiro mais estudar à noite do que de manhã\".",
+            "resolucao": "\"Prefiro estudar à noite a estudar de manhã.\" Preferir não usa \"mais\" nem \"do que\"."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Quando a preposição a encontra o artigo a, surge a crase: \"assisti à palestra\", \"obedeça às placas\", \"prefiro a praia à montanha\". Antes de palavra masculina não há crase: \"assisti ao show\".",
+        "Na troca por pronome: obedecer aceita lhe para pessoas (\"Os filhos obedecem aos pais\" → \"Os filhos obedecem-lhes\"). Já assistir, no sentido de ver, não aceita lhe: dizemos \"Assisti a ele\".",
+        "Outros sentidos: implicar com alguém é antipatizar, implicar com algo é provocar (\"Ele implica com o irmão\"); assistir pode significar caber, pertencer (\"Esse direito assiste ao consumidor\")."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está de acordo com a norma padrão?",
+            "alternativas": [
+              "Assisti o jogo.",
+              "Assisti ao jogo.",
+              "Assisti no jogo.",
+              "Assisti do jogo."
+            ],
+            "correta": 1,
+            "explicacao": "Assistir no sentido de ver pede a: assisti ao jogo.",
+            "dica": "No sentido de ver, assistir pede uma preposição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa preferir corretamente?",
+            "alternativas": [
+              "Prefiro arroz a macarrão.",
+              "Prefiro mais arroz do que macarrão.",
+              "Prefiro arroz do que macarrão.",
+              "Prefiro mais arroz que macarrão."
+            ],
+            "correta": 0,
+            "explicacao": "Prefere-se uma coisa a outra, sem \"mais\" e sem \"do que\".",
+            "dica": "Preferir não aceita \"mais\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa obedecer corretamente?",
+            "alternativas": [
+              "Obedeça as regras da escola.",
+              "Obedeça das regras da escola.",
+              "Obedeça às regras da escola.",
+              "Obedeça nas regras da escola."
+            ],
+            "correta": 2,
+            "explicacao": "Obedecer pede a; com o artigo as, vira às.",
+            "dica": "Obedecer pede a preposição a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa implicar (acarretar) corretamente?",
+            "alternativas": [
+              "Faltar implica em perda de nota.",
+              "Faltar implica de perda de nota.",
+              "Faltar implica com perda de nota.",
+              "Faltar implica perda de nota."
+            ],
+            "correta": 3,
+            "explicacao": "No sentido de acarretar, implicar não pede preposição.",
+            "dica": "Acarretar pede preposição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete com o sentido de ajudar: \"O médico ___ paciente\".",
+            "alternativas": [
+              "assiste ao",
+              "assiste o",
+              "assiste do",
+              "assiste no"
+            ],
+            "correta": 1,
+            "explicacao": "No sentido de ajudar, assistir não pede preposição.",
+            "dica": "O sentido aqui é dar assistência."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela norma tradicional, complete: \"Ela visa ___ uma vaga na ETEC\" (objetivo).",
+            "alternativas": [
+              "a",
+              "em",
+              "de",
+              "com"
+            ],
+            "correta": 0,
+            "explicacao": "Visar no sentido de ter como objetivo pede a.",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a correção de \"Prefiro mais futebol do que vôlei\"?",
+            "alternativas": [
+              "Prefiro futebol do que vôlei.",
+              "Prefiro mais futebol a vôlei.",
+              "Prefiro futebol a vôlei.",
+              "Prefiro futebol que vôlei."
+            ],
+            "correta": 2,
+            "explicacao": "Tira-se \"mais\" e troca-se \"do que\" por a.",
+            "dica": "Duas coisas precisam sair da frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está ERRADA pela norma padrão?",
+            "alternativas": [
+              "Assistimos ao espetáculo.",
+              "Obedeci ao sinal.",
+              "O gerente visou o documento.",
+              "A reforma implica em gastos."
+            ],
+            "correta": 3,
+            "explicacao": "Implicar (acarretar) é sem preposição: a reforma implica gastos.",
+            "dica": "Procure uma preposição sobrando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"O gerente visou o cheque.\" Aqui visar significa:",
+            "alternativas": [
+              "mirar",
+              "dar o visto",
+              "desejar",
+              "assistir"
+            ],
+            "correta": 1,
+            "explicacao": "Gerente dá visto em documentos e cheques; nesse sentido, sem preposição.",
+            "dica": "O que um gerente faz num cheque?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Assistimos ___ apresentação de dança\".",
+            "alternativas": [
+              "a",
+              "na",
+              "à",
+              "da"
+            ],
+            "correta": 2,
+            "explicacao": "Assistir (ver) pede a + artigo a = à.",
+            "dica": "Preposição mais artigo feminino."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase segue a norma padrão do começo ao fim?",
+            "alternativas": [
+              "Os alunos obedeceram ao horário e assistiram à palestra.",
+              "Os alunos obedeceram o horário e assistiram a palestra.",
+              "Os alunos obedeceram ao horário e assistiram a palestra.",
+              "Os alunos obedeceram o horário e assistiram à palestra."
+            ],
+            "correta": 0,
+            "explicacao": "Obedecer a + o = ao; assistir a + a = à.",
+            "dica": "Os dois verbos pedem a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Troque \"ao filme\" por pronome em \"Assisti ao filme\".",
+            "alternativas": [
+              "Assisti-lhe.",
+              "Assisti-o.",
+              "Lhe assisti.",
+              "Assisti a ele."
+            ],
+            "correta": 3,
+            "explicacao": "Assistir (ver) não aceita lhe nem o: usa-se a ele.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Prefiro a praia ___ montanha\".",
+            "alternativas": [
+              "do que a",
+              "à",
+              "que a",
+              "mais que a"
+            ],
+            "correta": 1,
+            "explicacao": "Preferir uma coisa a outra: a + a = à.",
+            "dica": "Preferir pede a preposição a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par (verbo: regência) está correto?",
+            "alternativas": [
+              "obedecer: sem preposição; implicar (acarretar): com em",
+              "assistir (ajudar): com a; visar (mirar): com a",
+              "obedecer: com a; implicar (acarretar): sem preposição",
+              "preferir: com do que; assistir (ver): sem preposição"
+            ],
+            "correta": 2,
+            "explicacao": "Obedecer pede a; implicar, no sentido de acarretar, é direto.",
+            "dica": "Revise cada verbo da lição."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para conferir a regência de uma frase.",
+            "itens": [
+              "Encontre o verbo",
+              "Descubra o sentido dele na frase",
+              "Veja se esse sentido pede preposição",
+              "Confira se há crase (a + a)"
+            ],
+            "explicacao": "Sem o sentido não dá para saber a regência; a crase vem depois de saber que há a preposição a.",
+            "dica": "A crase é o último detalhe."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem DOIS desvios da norma padrão?",
+            "alternativas": [
+              "Assisti ao jogo e obedeci ao juiz.",
+              "Prefiro mais ler do que assistir filmes.",
+              "O enfermeiro assistiu o doente.",
+              "A decisão implica riscos."
+            ],
+            "correta": 1,
+            "explicacao": "\"Prefiro mais… do que\" e \"assistir filmes\" sem a: o certo é \"Prefiro ler a assistir a filmes\".",
+            "dica": "Procure problemas em dois verbos da mesma frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"O direito de arrependimento assiste ao consumidor.\" Aqui assistir significa:",
+            "alternativas": [
+              "ver",
+              "ajudar",
+              "mirar",
+              "caber, pertencer"
+            ],
+            "correta": 3,
+            "explicacao": "Nesse uso, o direito cabe ao consumidor.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ele implica com o irmão.\" Qual é o sentido e a regência?",
+            "alternativas": [
+              "Antipatizar, com a preposição com",
+              "Acarretar, sem preposição",
+              "Acarretar, com a preposição em",
+              "Obedecer, com a preposição a"
+            ],
+            "correta": 0,
+            "explicacao": "Implicar com alguém é antipatizar e pede com.",
+            "dica": "Aqui não é acarretar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Troque o complemento por pronome: \"Os filhos obedecem aos pais\".",
+            "alternativas": [
+              "Os filhos obedecem-nos.",
+              "Os filhos obedecem-los.",
+              "Os filhos obedecem-lhes.",
+              "Os filhos os obedecem."
+            ],
+            "correta": 2,
+            "explicacao": "Obedecer pede a; para pessoas, o pronome é lhe/lhes.",
+            "dica": "Complemento com preposição a, para pessoas, vira…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase a crase está certa?",
+            "alternativas": [
+              "Assistimos à vários jogos.",
+              "Visamos à melhoria do bairro e assistimos às reuniões.",
+              "Prefiro arroz à feijão.",
+              "Obedeça à seus pais."
+            ],
+            "correta": 1,
+            "explicacao": "Visar (objetivo) a + a melhoria = à; assistir a + as reuniões = às. Não há crase antes de masculino, de plural sem artigo ou de seus.",
+            "dica": "Crase só antes de palavra feminina com artigo."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O terreno do seu Joaquim",
+    "texto": "Seu Joaquim tinha setenta e dois anos e um papel amarelado guardado numa lata de biscoito. Era a escritura do terreno que ele comprou quando chegou da Bahia, num bairro da zona leste que ainda tinha mais mato do que casa. Agora a família queria cercar o terreno e plantar uma horta, mas ninguém sabia as medidas.\n\n— Aqui só diz que a área é de trezentos metros quadrados — falou Rosângela, a filha, apertando os olhos para a letra antiga. — E que o comprimento tem cinco metros a mais que a largura.\n\nLívia, a neta do 9º ano, puxou o caderno da mochila.\n\n— Isso é uma equação do segundo grau, mãe. A gente viu na escola.\n\nEla escreveu devagar: se a largura é x, o comprimento é x + 5. A área é largura vezes comprimento, então x vezes x + 5 é igual a 300. Arrumou tudo de um lado: x² + 5x − 300 = 0. Calculou o delta: 25 mais 1200, que dava 1225. A raiz de 1225 era 35.\n\n— Então x é igual a menos cinco mais trinta e cinco, dividido por dois. Dá quinze. A outra raiz dá menos vinte, mas terreno com medida negativa não existe.\n\nSeu Joaquim riu, desconfiado. Pegou a trena enferrujada e foi para o fundo do quintal com o neto mais novo. Mediram a frente: quinze metros. Mediram a lateral: vinte.\n\n— Quinze vezes vinte, trezentos — conferiu Lívia, já fazendo outra conta. — Para cercar tudo, são setenta metros de tela.\n\nO avô guardou a escritura de volta na lata e olhou para a neta como quem olha para uma ferramenta nova.\n\n— No meu tempo, a gente media no passo. Errava um pouco para cá, um pouco para lá.\n\n— A matemática erra menos, vô. Mas a trena confirma."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, invente um problema do dia a dia que vire uma equação do 2º grau (terreno, idade, divisão de contas) e escreva a solução passo a passo, conferindo no final se a resposta faz sentido."
+  }
+}

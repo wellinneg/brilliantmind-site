@@ -1,0 +1,1003 @@
+{
+  "dia": 34,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Expressões algébricas: letras que representam números",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Na álgebra, usamos letras para representar números que ainda não conhecemos ou que podem mudar. Se uma coxinha custa R$ 6, o preço de x coxinhas é 6x (6 vezes x). Entre um número e uma letra, o sinal de vezes fica escondido.",
+          "Uma expressão algébrica mistura números, letras e operações: 2n + 5, 3a − b, x². Cada parte separada por + ou − é um termo. Em 7y, o 7 é o coeficiente e o y é a parte literal.",
+          "Valor numérico é o resultado quando trocamos a letra por um número. Em 3x − 2, para x = 4: 3 × 4 − 2 = 12 − 2 = 10. Use parênteses ao trocar por negativos: para x = −4, 3 × (−4) − 2 = −14.",
+          "Frases viram expressões: “o dobro de um número” é 2n; “um número mais 5” é n + 5; “o triplo de um número menos 7” é 3n − 7; “a metade de um número” é n/2.",
+          "Termos semelhantes têm a mesma parte literal e podem ser juntados: 3a + 2a = 5a; 4x − x = 3x. Mas 2a + 3b não junta: a e b são números diferentes."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um táxi cobra R$ 5 de bandeirada e R$ 3 por quilômetro. Escreva a expressão do preço e calcule para 12 km.",
+            "resolucao": "Preço = 5 + 3k, em que k é o número de quilômetros. Para k = 12: 5 + 3 × 12 = 5 + 36 = R$ 41."
+          },
+          {
+            "enunciado": "Simplifique 4a + 2b − a + 3b.",
+            "resolucao": "Junte os termos com a: 4a − a = 3a. Junte os termos com b: 2b + 3b = 5b. Resultado: 3a + 5b."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A propriedade distributiva abre parênteses: 2(x + 3) = 2x + 6. Com sinal negativo na frente, todo mundo de dentro troca de sinal: −3(x − 2) = −3x + 6. Esquecer de trocar o segundo sinal é o erro mais comum.",
+        "Expressão não é equação. 2x + 6 é uma expressão: tem um valor diferente para cada x. 2x + 6 = 10 é uma equação: tem um sinal de igual e pede o x que torna a frase verdadeira (x = 2).",
+        "Sequências também viram expressões. Em 3, 7, 11, 15, ..., cada número é 4 a mais que o anterior. A posição n tem o valor 4n − 1: para n = 1, 4 − 1 = 3; para n = 4, 16 − 1 = 15. Com a expressão, dá para achar o 100º termo sem escrever todos: 4 × 100 − 1 = 399."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de 2x quando x = 4?",
+            "alternativas": ["6", "8", "24", "42"],
+            "correta": 1,
+            "explicacao": "2x quer dizer 2 vezes x. 2 × 4 = 8. O 24 e o 42 vêm de colar os números.",
+            "dica": "Entre o número e a letra existe um sinal de vezes escondido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3a + 2a?",
+            "alternativas": ["5a", "6a", "5", "32a"],
+            "correta": 0,
+            "explicacao": "São termos semelhantes (mesma letra): 3 + 2 = 5, fica 5a.",
+            "dica": "Três maçãs mais duas maçãs dão quantas maçãs?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve “o dobro de um número n”?",
+            "alternativas": ["n + 2", "n²", "2n", "n/2"],
+            "correta": 2,
+            "explicacao": "Dobro é duas vezes: 2n. O n² é n vezes n, que é outra coisa.",
+            "dica": "Dobro é multiplicar por quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de x + 5 quando x = 3?",
+            "alternativas": ["35", "15", "2", "8"],
+            "correta": 3,
+            "explicacao": "Troque x por 3: 3 + 5 = 8.",
+            "dica": "Troque a letra pelo número e faça a soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 7y, qual é o coeficiente?",
+            "alternativas": ["7", "y", "7y", "1"],
+            "correta": 0,
+            "explicacao": "O coeficiente é o número que multiplica a letra: 7.",
+            "dica": "O coeficiente é a parte numérica."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de 3x − 2 quando x = −4?",
+            "alternativas": ["10", "−10", "−14", "14"],
+            "correta": 2,
+            "explicacao": "3 × (−4) − 2 = −12 − 2 = −14.",
+            "dica": "Coloque o −4 entre parênteses antes de multiplicar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve “o triplo de um número menos 7”?",
+            "alternativas": ["3(n − 7)", "3n − 7", "n − 21", "7 − 3n"],
+            "correta": 1,
+            "explicacao": "Primeiro o triplo (3n), depois menos 7: 3n − 7.",
+            "dica": "Primeiro faça o triplo; depois tire o 7."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Simplifique 5x + 2y − 3x + y.",
+            "alternativas": ["2x + 3y", "8x + 3y", "5xy", "2x + 2y"],
+            "correta": 0,
+            "explicacao": "5x − 3x = 2x e 2y + y = 3y. Resultado: 2x + 3y.",
+            "dica": "Junte só os termos com a mesma letra; y sozinho vale 1y."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo tem lados x e 5. Qual expressão dá o perímetro?",
+            "alternativas": ["5x", "x + 5", "x + 10", "2x + 10"],
+            "correta": 3,
+            "explicacao": "Perímetro é a soma dos quatro lados: x + x + 5 + 5 = 2x + 10.",
+            "dica": "O retângulo tem dois lados de cada medida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de x² + 1 quando x = −3?",
+            "alternativas": ["−8", "10", "7", "−5"],
+            "correta": 1,
+            "explicacao": "(−3)² = 9. 9 + 1 = 10.",
+            "dica": "Um negativo ao quadrado fica com qual sinal?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Simplifique 2(x + 3) − x.",
+            "alternativas": ["x + 3", "3x + 6", "x + 6", "2x + 5"],
+            "correta": 2,
+            "explicacao": "2(x + 3) = 2x + 6. Depois 2x + 6 − x = x + 6.",
+            "dica": "Abra os parênteses com a distributiva antes de juntar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de a² − 2ab para a = 3 e b = −1?",
+            "alternativas": ["3", "−15", "15", "9"],
+            "correta": 2,
+            "explicacao": "a² = 9. 2ab = 2 × 3 × (−1) = −6. 9 − (−6) = 15.",
+            "dica": "Cuidado: menos com menos na hora de subtrair o −6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma camiseta custa c reais e um boné custa b reais. Gael comprou 3 camisetas e 2 bonés, com c = 25 e b = 15. Quanto pagou?",
+            "alternativas": ["R$ 105", "R$ 200", "R$ 40", "R$ 95"],
+            "correta": 0,
+            "explicacao": "3c + 2b = 3 × 25 + 2 × 15 = 75 + 30 = R$ 105.",
+            "dica": "Monte a expressão e só depois troque as letras."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Para x = 2, coloque os valores do menor para o maior:",
+            "itens": ["x − 5", "x² − 6", "2x", "3x − 1", "x³"],
+            "explicacao": "x − 5 = −3; x² − 6 = −2; 2x = 4; 3x − 1 = 5; x³ = 8.",
+            "dica": "Calcule cada uma com x = 2 antes de ordenar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se 2n é um número par, qual expressão representa o próximo número par?",
+            "alternativas": ["2n + 1", "3n", "n + 2", "2n + 2"],
+            "correta": 3,
+            "explicacao": "Os pares vão de 2 em 2: depois de 2n vem 2n + 2. O 2n + 1 é ímpar.",
+            "dica": "De um par para o próximo par, quanto se soma?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Simplifique 5(2x − 1) − 3(x − 2).",
+            "alternativas": ["7x − 11", "7x + 1", "7x − 1", "13x + 1"],
+            "correta": 1,
+            "explicacao": "5(2x − 1) = 10x − 5. −3(x − 2) = −3x + 6. Somando: 7x + 1. O 7x − 11 vem de não trocar o sinal do −2.",
+            "dica": "O −3 multiplica os dois termos do segundo parêntese, incluindo o −2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na sequência 3, 7, 11, 15, ..., qual é o 50º termo?",
+            "alternativas": ["199", "200", "203", "197"],
+            "correta": 0,
+            "explicacao": "A expressão da posição n é 4n − 1. Para n = 50: 200 − 1 = 199.",
+            "dica": "Use a expressão da sequência do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de 4x² − 2x para x = 1/2?",
+            "alternativas": ["1", "2", "−1", "0"],
+            "correta": 3,
+            "explicacao": "x² = 1/4, então 4 × 1/4 = 1. 2 × 1/2 = 1. 1 − 1 = 0.",
+            "dica": "Calcule primeiro x² e depois multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três números inteiros consecutivos começam em n. A soma deles é 48. Qual é o menor?",
+            "alternativas": ["16", "14", "15", "17"],
+            "correta": 2,
+            "explicacao": "n + (n + 1) + (n + 2) = 3n + 3 = 48. 3n = 45, n = 15. Confira: 15 + 16 + 17 = 48.",
+            "dica": "Escreva os três números em função de n e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo tem largura L e comprimento igual ao dobro da largura. Qual expressão dá o perímetro?",
+            "alternativas": ["3L", "6L", "4L", "2L²"],
+            "correta": 1,
+            "explicacao": "Comprimento = 2L. Perímetro = 2L + 2L + L + L = 6L. O 2L² seria a área.",
+            "dica": "Escreva os quatro lados e some; não confunda com área."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Fluxograma: desenhar o algoritmo antes de programar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Fluxograma é um desenho que mostra os passos de um algoritmo, ligados por setas. Ele ajuda a pensar na lógica antes de escrever o código, como uma planta antes de construir a casa.",
+          "Cada forma tem um significado: oval para Início e Fim; paralelogramo para entrada e saída (LEIA e ESCREVA); retângulo para processos e contas (total ← total + 1); losango para decisões, com perguntas de sim ou não.",
+          "Do losango saem duas setas, uma para Sim e outra para Não. É assim que o fluxograma mostra um SE ... ENTÃO ... SENÃO.",
+          "Quando uma seta volta para um passo anterior, temos uma repetição, um laço. Ela precisa de uma decisão que, em algum momento, deixe o fluxo sair, senão o programa nunca termina.",
+          "Todo fluxograma começa num Início, termina num Fim e pode ser seguido com o dedo, sem pular etapas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Descreva o fluxograma de um programa que lê uma nota e diz se o aluno passou (nota maior ou igual a 6).",
+            "resolucao": "Oval Início → paralelogramo LEIA nota → losango nota >= 6? → Sim: paralelogramo ESCREVA 'Aprovado'; Não: paralelogramo ESCREVA 'Recuperação' → as duas setas chegam ao oval Fim."
+          },
+          {
+            "enunciado": "Como desenhar “repita até a senha estar certa”?",
+            "resolucao": "LEIA senha → losango senha correta? → Não: seta volta para LEIA senha; Sim: segue para ESCREVA 'Bem-vindo' → Fim."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Teste de mesa: escolha valores de entrada e siga o fluxograma com o dedo, anotando o valor de cada variável a cada passo. Assim você descobre erros antes de programar, como um laço que nunca para.",
+        "Um bom fluxograma tem um só Início, setas que não se cruzam sem necessidade e decisões com perguntas bem claras (nota >= 6?, e não “nota boa?”). Quando ele fica grande demais, divida em partes menores.",
+        "Decisões encadeadas viram losangos em sequência: o Não do primeiro losango leva ao segundo. Por exemplo, para classificar uma temperatura: “t > 30?” Sim: Quente. Não: “t > 18?” Sim: Agradável. Não: Frio."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um fluxograma?",
+            "alternativas": ["Um desenho dos passos de um algoritmo, ligados por setas", "Um tipo de computador", "Uma senha", "Um jogo de tabuleiro"],
+            "correta": 0,
+            "explicacao": "Fluxograma mostra o caminho do algoritmo com formas e setas.",
+            "dica": "Pense em formas ligadas por setas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual forma representa uma decisão (pergunta de sim ou não)?",
+            "alternativas": ["Oval", "Losango", "Retângulo", "Círculo pequeno"],
+            "correta": 1,
+            "explicacao": "O losango é a forma da decisão; dele saem as setas Sim e Não.",
+            "dica": "É a forma parecida com um diamante."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual forma marca o Início e o Fim?",
+            "alternativas": ["Losango", "Retângulo", "Oval", "Paralelogramo"],
+            "correta": 2,
+            "explicacao": "Início e Fim ficam em ovais, nas pontas do fluxograma.",
+            "dica": "É uma forma arredondada, sem cantos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma conta como total ← total + 1 fica em qual forma?",
+            "alternativas": ["Oval", "Losango", "Paralelogramo", "Retângulo"],
+            "correta": 3,
+            "explicacao": "Processos e contas ficam em retângulos.",
+            "dica": "Contas e processos usam a forma mais simples, de quatro cantos retos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas setas saem de um losango de decisão?",
+            "alternativas": ["Duas", "Uma", "Nenhuma", "Cinco"],
+            "correta": 0,
+            "explicacao": "Uma seta para Sim e outra para Não.",
+            "dica": "A pergunta tem quantas respostas possíveis?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "LEIA e ESCREVA ficam em qual forma?",
+            "alternativas": ["Losango", "Paralelogramo", "Oval", "Retângulo"],
+            "correta": 1,
+            "explicacao": "Entrada e saída de dados usam o paralelogramo, um retângulo inclinado.",
+            "dica": "É parecida com um retângulo, mas inclinada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que indica uma seta que volta para um passo anterior?",
+            "alternativas": ["Um erro de desenho", "O fim do programa", "Uma repetição (laço)", "Uma conta"],
+            "correta": 2,
+            "explicacao": "Voltar a um passo anterior faz o algoritmo repetir: é um laço.",
+            "dica": "Se o caminho volta, o que acontece com os passos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve desenhar o fluxograma antes de programar?",
+            "alternativas": ["Para gastar papel", "Porque o computador só lê desenhos", "Para o código ficar maior", "Para pensar na lógica e achar erros antes de escrever o código"],
+            "correta": 3,
+            "explicacao": "O desenho ajuda a organizar o raciocínio, como uma planta antes da obra.",
+            "dica": "Lembre a comparação com a planta de uma casa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num fluxograma de nota, o losango pergunta “nota >= 6?”. A nota é 5,5. Para onde vai a seta?",
+            "alternativas": ["Para o Não", "Para o Sim", "Para as duas", "Para nenhuma"],
+            "correta": 0,
+            "explicacao": "5,5 não é maior nem igual a 6, então segue pelo Não.",
+            "dica": "5,5 é maior ou igual a 6?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pergunta é melhor para um losango?",
+            "alternativas": ["A idade é boa?", "idade >= 16?", "Quem é você?", "Qual é a sua cor favorita?"],
+            "correta": 1,
+            "explicacao": "A pergunta do losango precisa ter resposta clara de sim ou não. “idade >= 16?” tem.",
+            "dica": "A pergunta precisa ter só sim ou não como resposta, sem dúvida."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Fluxograma: Início → x ← 1 → losango x <= 3? → Sim: ESCREVA x; x ← x + 1; volta ao losango. Não: Fim. O que aparece?",
+            "alternativas": ["1 2 3 4", "1 2", "1 2 3", "Nada"],
+            "correta": 2,
+            "explicacao": "x = 1, 2 e 3 passam pelo Sim. Quando x vira 4, a pergunta dá Não e o fluxo termina.",
+            "dica": "Faça o teste de mesa anotando x a cada volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fluxograma: x ← 10 → losango x > 0? → Sim: ESCREVA x; volta ao losango. Não: Fim. Qual é o problema?",
+            "alternativas": ["Mostra 10 só uma vez", "Termina logo", "Dá erro no início", "x nunca muda, então o laço nunca para"],
+            "correta": 3,
+            "explicacao": "Falta um passo que mude x (como x ← x − 1). Sem ele, x > 0 é sempre verdade: laço infinito.",
+            "dica": "Veja se alguma coisa dentro do laço muda o valor de x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para classificar t: losango “t > 30?” Sim: Quente; Não: losango “t > 18?” Sim: Agradável; Não: Frio. Para t = 18, o que aparece?",
+            "alternativas": ["Frio", "Agradável", "Quente", "Nada"],
+            "correta": 0,
+            "explicacao": "18 > 30? Não. 18 > 18? Não (18 é igual, não maior). Então: Frio.",
+            "dica": "Atenção: maior não é o mesmo que maior ou igual."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as formas de um fluxograma que lê dois números e mostra a soma:",
+            "itens": ["Oval: Início", "Paralelogramo: LEIA a, b", "Retângulo: s ← a + b", "Paralelogramo: ESCREVA s", "Oval: Fim"],
+            "explicacao": "Início, entrada, processo, saída, Fim.",
+            "dica": "Não dá para somar antes de ler, nem mostrar antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No teste de mesa, o que você anota?",
+            "alternativas": ["A cor de cada forma", "O valor de cada variável a cada passo", "Só o resultado final", "O nome do programador"],
+            "correta": 1,
+            "explicacao": "Anotar as variáveis passo a passo mostra exatamente o que o algoritmo faz.",
+            "dica": "O aprofundamento explica o que se acompanha com o dedo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Fluxograma: s ← 0; i ← 1 → losango i <= 4? → Sim: s ← s + i; i ← i + 2; volta. Não: ESCREVA s; Fim. O que aparece?",
+            "alternativas": ["10", "6", "4", "9"],
+            "correta": 2,
+            "explicacao": "i = 1: s = 1, i = 3. i = 3: s = 4, i = 5. 5 <= 4? Não. Mostra 4.",
+            "dica": "O i pula de 2 em 2. Faça o teste de mesa com cuidado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um fluxograma de senha deixa só 3 tentativas. Qual pergunta do losango faz isso corretamente, sabendo que t conta as tentativas já feitas?",
+            "alternativas": ["senha errada?", "t = 3?", "senha certa OU t < 3?", "senha errada E t < 3?"],
+            "correta": 3,
+            "explicacao": "Continua pedindo enquanto a senha está errada E ainda há tentativas. Se uma das duas falhar, sai do laço.",
+            "dica": "O laço deve continuar só se as duas condições forem verdadeiras ao mesmo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com a classificação de temperatura (t > 30? Quente; senão t > 18? Agradável; senão Frio), qual temperatura dá Agradável?",
+            "alternativas": ["30", "18", "31", "10"],
+            "correta": 0,
+            "explicacao": "30 > 30? Não. 30 > 18? Sim: Agradável. O 31 dá Quente, e 18 e 10 dão Frio.",
+            "dica": "Teste cada valor nos dois losangos, em ordem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fluxograma: n ← 20 → losango n > 1? → Sim: n ← n ÷ 2; volta. Não: Fim. Quantas vezes o retângulo n ← n ÷ 2 é executado?",
+            "alternativas": ["4", "5", "10", "20"],
+            "correta": 1,
+            "explicacao": "20 → 10 → 5 → 2,5 → 1,25 → 0,625. São 5 divisões até n deixar de ser maior que 1.",
+            "dica": "Divida por 2 seguidamente e pare quando a pergunta der Não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes defeitos deixa um fluxograma impossível de terminar?",
+            "alternativas": ["Um retângulo grande", "Duas setas saindo do losango", "Um laço cuja condição de saída nunca fica verdadeira", "Um paralelogramo de ESCREVA"],
+            "correta": 2,
+            "explicacao": "Se a decisão nunca libera a saída, o laço roda para sempre.",
+            "dica": "Pense na seta que volta e no que permite escapar dela."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Localizar e substituir: corrigir o texto inteiro de uma vez",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Imagine que você escreveu um trabalho de 5 páginas e o nome da personagem era Kauane, mas a professora pediu para trocar por Kauany. Trocar uma por uma é demorado e sempre escapa alguma. Para isso existe o Localizar e Substituir.",
+          "Localizar (no Word em português, Ctrl + L) abre a caixa de busca: você digita uma palavra e o Word destaca onde ela aparece. É ótimo para achar um trecho num texto grande.",
+          "Substituir (Ctrl + U no Word em português, ou Página Inicial > Substituir) tem dois campos: Localizar e Substituir por. Você pode trocar uma ocorrência de cada vez (botão Substituir) ou todas de uma vez (Substituir Tudo).",
+          "No Documentos Google, o caminho é Editar > Localizar e substituir (no computador, Ctrl + H).",
+          "Antes de clicar em Substituir Tudo, pense se a palavra não aparece dentro de outras. Se der errado, Ctrl + Z desfaz."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "No trabalho, a palavra “excessão” (errada) aparece 12 vezes. Como corrigir tudo para “exceção”?",
+            "resolucao": "Ctrl + U → em Localizar, digite excessão; em Substituir por, digite exceção → Substituir Tudo. O Word avisa quantas substituições fez: 12."
+          },
+          {
+            "enunciado": "Você quer só saber quantas vezes escreveu “muito” no texto. O que fazer?",
+            "resolucao": "Use Localizar (Ctrl + L) e digite muito. O painel mostra o número de resultados, e você pode trocar alguns por sinônimos para o texto não ficar repetitivo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Clicando em Mais, aparecem opções úteis. “Somente palavras inteiras” evita trocar pedaços: sem ela, substituir “mar” por “oceano” transformaria “marcar” em “oceanocar”. “Diferenciar maiúsculas e minúsculas” separa “Rosa” (nome) de “rosa” (flor ou cor).",
+        "Dá para usar o Substituir para arrumar formatação: trocar dois espaços seguidos por um espaço só, repetindo até o Word dizer que fez 0 substituições.",
+        "Também é possível substituir por um texto com formatação diferente, como trocar a palavra “IMPORTANTE” por ela mesma em negrito, usando o botão Formatar dentro da caixa Substituir."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google, no computador ou no celular), escreva um parágrafo de 5 a 8 linhas contando um passeio, citando o nome de um amigo pelo menos 4 vezes (por exemplo, Henrique) e usando a palavra “legal” pelo menos 3 vezes. Depois: 1) use Localizar e anote quantas vezes “legal” aparece; 2) use Substituir para trocar cada “legal”, uma de cada vez, por palavras diferentes (divertido, incrível, animado); 3) use Substituir Tudo para trocar o nome do amigo por outro nome; 4) escreva a palavra “marcar” no texto e teste substituir “mar” por “oceano” com e sem a opção Somente palavras inteiras, anotando o que muda. Desfaça o erro com Ctrl + Z e salve como substituir_seunome.docx.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o Localizar?",
+            "alternativas": ["Para achar uma palavra no texto", "Para imprimir", "Para mudar a cor da página", "Para fechar o Word"],
+            "correta": 0,
+            "explicacao": "O Localizar procura e destaca onde a palavra aparece.",
+            "dica": "O nome já diz: serve para encontrar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual botão troca todas as ocorrências de uma vez?",
+            "alternativas": ["Localizar Próxima", "Substituir Tudo", "Cancelar", "Salvar"],
+            "correta": 1,
+            "explicacao": "Substituir Tudo troca todas de uma vez; Substituir troca só uma.",
+            "dica": "Procure o botão que fala em todas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Word em português, qual atalho abre o Substituir?",
+            "alternativas": ["Ctrl + P", "Ctrl + S", "Ctrl + U", "Ctrl + N"],
+            "correta": 2,
+            "explicacao": "No Word em português, Ctrl + U abre a caixa Substituir.",
+            "dica": "Volte ao terceiro parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Errou ao substituir. Qual atalho desfaz?",
+            "alternativas": ["Ctrl + L", "Ctrl + U", "Ctrl + B", "Ctrl + Z"],
+            "correta": 3,
+            "explicacao": "Ctrl + Z desfaz a última ação, inclusive um Substituir Tudo.",
+            "dica": "É o atalho de desfazer, que serve em quase todo programa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na caixa Substituir, em qual campo vai a palavra nova?",
+            "alternativas": ["Substituir por", "Localizar", "Título", "Rodapé"],
+            "correta": 0,
+            "explicacao": "Em Localizar vai a palavra antiga; em Substituir por, a nova.",
+            "dica": "Um campo recebe a palavra antiga; o outro, a que vai entrar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No Documentos Google, onde fica o Localizar e substituir?",
+            "alternativas": ["Arquivo > Imprimir", "Editar > Localizar e substituir", "Inserir > Imagem", "Formatar > Colunas"],
+            "correta": 1,
+            "explicacao": "No Documentos Google, fica no menu Editar (no computador, também com Ctrl + H).",
+            "dica": "É um menu ligado a mexer no texto já escrito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você escreveu “concerteza” 8 vezes e quer corrigir para “com certeza”. Qual é o jeito mais rápido?",
+            "alternativas": ["Apagar o texto todo", "Corrigir uma por uma rolando o texto", "Substituir Tudo, de concerteza para com certeza", "Mudar a fonte"],
+            "correta": 2,
+            "explicacao": "O Substituir Tudo corrige as 8 de uma vez, sem deixar nenhuma escapar.",
+            "dica": "Qual recurso troca todas de uma vez?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre os botões Substituir e Substituir Tudo?",
+            "alternativas": ["Não há diferença", "Substituir apaga o texto", "Substituir Tudo só funciona com números", "Substituir troca uma ocorrência por vez; Substituir Tudo troca todas"],
+            "correta": 3,
+            "explicacao": "Um por vez dá controle; tudo de uma vez dá rapidez.",
+            "dica": "Um vai de um em um; o outro faz de uma vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer trocar só algumas vezes a palavra “muito”, não todas. Qual botão usar?",
+            "alternativas": ["Substituir, uma de cada vez, pulando as que quer manter", "Substituir Tudo", "Fechar", "Imprimir"],
+            "correta": 0,
+            "explicacao": "Com Localizar Próxima e Substituir, você decide caso a caso.",
+            "dica": "Você quer decidir em cada ocorrência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de um Substituir Tudo, o Word mostra “Foram feitas 0 substituições”. O que isso indica?",
+            "alternativas": ["Que tudo foi trocado", "Que a palavra procurada não foi encontrada no texto", "Que o arquivo foi apagado", "Que o computador travou"],
+            "correta": 1,
+            "explicacao": "Zero substituições significa que não havia nenhuma ocorrência, talvez por erro de digitação na busca.",
+            "dica": "Se nada foi trocado, o que o Word não achou?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem marcar “Somente palavras inteiras”, você substitui “mar” por “oceano”. O que acontece com “marcar”?",
+            "alternativas": ["Fica igual", "Vira “oceano”", "Vira “oceanocar”", "Some do texto"],
+            "correta": 2,
+            "explicacao": "O Word troca o pedaço “mar” dentro de “marcar”, formando “oceanocar”.",
+            "dica": "Sem essa opção, o Word troca pedaços dentro de outras palavras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No texto há “Rosa” (nome de uma menina) e “rosa” (a flor). Você quer trocar só o nome. Qual opção ajuda?",
+            "alternativas": ["Somente palavras inteiras", "Localizar Próxima", "Imprimir", "Diferenciar maiúsculas e minúsculas"],
+            "correta": 3,
+            "explicacao": "Com essa opção, “Rosa” com R maiúsculo é tratada diferente de “rosa”.",
+            "dica": "A diferença entre as duas palavras está na primeira letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como usar o Substituir para tirar espaços duplos de um texto?",
+            "alternativas": ["Localizar dois espaços e substituir por um, repetindo até dar 0 substituições", "Apagar todas as palavras", "Mudar o tamanho da fonte", "Usar Ctrl + Z"],
+            "correta": 0,
+            "explicacao": "Repetir garante que até três ou quatro espaços seguidos virem um só.",
+            "dica": "O aprofundamento fala em repetir até o Word não achar mais nada."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para trocar um nome no texto inteiro:",
+            "itens": ["Abra a caixa Substituir (Ctrl + U).", "Digite o nome antigo em Localizar.", "Digite o nome novo em Substituir por.", "Clique em Substituir Tudo.", "Confira o aviso com o número de substituições."],
+            "explicacao": "Abrir, preencher os dois campos, substituir e conferir o resultado.",
+            "dica": "Primeiro abra a caixa, por último confira o aviso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluno trocou “é” por “está” com Substituir Tudo, sem pensar. Qual é o risco?",
+            "alternativas": ["Nenhum, sempre dá certo", "Frases como “Ela é alta” virarem “Ela está alta”, mudando o sentido", "O Word fechar", "As imagens sumirem"],
+            "correta": 1,
+            "explicacao": "Nem toda ocorrência deve ser trocada. Às vezes é melhor substituir uma de cada vez.",
+            "dica": "Pense se toda frase com essa palavra aceita a troca."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O texto tem: “O cão correu. Os cães latiram. O Cãozinho dormiu.” Você substitui “cão” por “gato”, com Somente palavras inteiras e Diferenciar maiúsculas e minúsculas ligadas. Quantas trocas o Word faz?",
+            "alternativas": ["3", "2", "1", "0"],
+            "correta": 2,
+            "explicacao": "Só “cão” sozinho, minúsculo, é trocado. “cães” é outra palavra, e “Cãozinho” não é palavra inteira igual. Total: 1.",
+            "dica": "Confira cada ocorrência contra as duas opções ligadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto tem 3 espaços seguidos em vários lugares. Você troca dois espaços por um, uma vez, com Substituir Tudo. O que sobra nesses lugares?",
+            "alternativas": ["Nenhum espaço", "Três espaços", "Um espaço", "Dois espaços"],
+            "correta": 3,
+            "explicacao": "Dos três espaços, dois viram um, e sobra o terceiro: ficam dois. Repetindo, chega a um só.",
+            "dica": "Imagine os três espaços e troque só um par deles."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem nenhuma opção marcada, você troca “sol” por “lua” no texto “O sol bateu no solo e no girassol.” Como fica?",
+            "alternativas": ["O lua bateu no solo e no girassol.", "O lua bateu no luao e no girassol.", "O lua bateu no luao e no giralua.", "O sol bateu no solo e no girassol."],
+            "correta": 2,
+            "explicacao": "Sem a opção Somente palavras inteiras, o Word troca o pedaço “sol” onde ele estiver: em sol, em solo (luao) e em girassol (giralua).",
+            "dica": "Sem opções, o Word troca o pedaço procurado mesmo dentro de outras palavras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você precisa colocar em negrito todas as vezes que aparece “ATENÇÃO” num manual de 20 páginas. Qual é o jeito mais eficiente?",
+            "alternativas": ["Substituir ATENÇÃO por ATENÇÃO, usando Formatar > Fonte > Negrito no campo Substituir por", "Procurar e clicar uma por uma no N", "Deixar em maiúsculas e pronto", "Copiar o manual de novo"],
+            "correta": 0,
+            "explicacao": "O Substituir também troca formatação: a palavra fica igual, mas em negrito, em todas as páginas.",
+            "dica": "O aprofundamento mostra que o Substituir pode mexer na formatação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é bom contar as ocorrências com Localizar antes de usar Substituir Tudo?",
+            "alternativas": ["Porque o Word exige", "Para comparar com o aviso de substituições e perceber se trocou coisa demais", "Para o texto ficar mais curto", "Porque o Substituir não funciona sem isso"],
+            "correta": 1,
+            "explicacao": "Se o Localizar achou 5 e o Substituir trocou 9, alguma troca pegou pedaço de outra palavra.",
+            "dica": "Compare dois números: o que você esperava e o que o Word fez."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Atendimento ao cliente e pós-venda",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Bom atendimento começa no cumprimento: olhar para o cliente, sorrir, chamar pelo nome quando souber. Depois, ouvir o que ele precisa antes de oferecer qualquer coisa.",
+          "Quando o cliente reclama, ele está dando uma chance de você melhorar. O caminho é: ouvir sem interromper, pedir desculpas pelo transtorno, resolver (trocar, consertar ou devolver o dinheiro) e agradecer o aviso.",
+          "Pós-venda é o cuidado depois que o cliente pagou: perguntar se gostou, avisar sobre uma promoção, cumprir a garantia. É o que transforma quem comprou uma vez em cliente fiel.",
+          "O Código de Defesa do Consumidor (CDC) garante prazos para reclamar de defeito: 30 dias para produtos não duráveis, como comida, e 90 dias para duráveis, como um celular. Atender bem é cumprir a lei com boa vontade.",
+          "Um cliente satisfeito volta e indica; um insatisfeito, hoje em dia, pode contar para muita gente nas redes. Cuidar de quem já comprou custa menos do que conquistar um cliente novo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um cliente da lanchonete de Sueli diz que o lanche veio frio. Como ela deve agir?",
+            "resolucao": "Ouvir, pedir desculpas (“Desculpe, isso não devia acontecer”), oferecer um lanche novo quentinho na hora e agradecer o aviso. Depois, conferir por que o lanche esfriou para não repetir."
+          },
+          {
+            "enunciado": "Thalles vende fones de ouvido. Uma semana depois da venda, ele manda mensagem: “Oi, Carla! O fone está funcionando bem?” Por que isso é bom?",
+            "resolucao": "É pós-venda: mostra cuidado, descobre problemas cedo e deixa a cliente lembrando dele na próxima compra ou indicação."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Pelo CDC, quando o produto tem defeito, o fornecedor tem até 30 dias para consertar. Se não resolver nesse prazo, o consumidor pode escolher entre a troca por outro produto, o dinheiro de volta ou um desconto proporcional.",
+        "Contas simples mostram o valor da fidelidade. Se um cliente gasta R$ 20 por semana na sua barraca, em um ano (52 semanas) ele deixa R$ 1.040. Perder esse cliente por causa de um lanche de R$ 20 mal resolvido é um péssimo negócio.",
+        "Quem atende também precisa ser bem tratado. Num negócio com funcionários, treinar a equipe, dar autonomia para resolver problemas simples e respeitar os direitos trabalhistas faz o atendimento melhorar, porque funcionário respeitado trata melhor o cliente."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo quando um cliente reclama?",
+            "alternativas": ["Ouvir sem interromper", "Discutir com ele", "Ignorar", "Mandar ele embora"],
+            "correta": 0,
+            "explicacao": "Ouvir com atenção mostra respeito e ajuda a entender o problema.",
+            "dica": "Antes de resolver, você precisa entender."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é pós-venda?",
+            "alternativas": ["Vender mais caro", "O cuidado com o cliente depois que ele comprou", "Fechar a loja", "Uma promoção de Natal"],
+            "correta": 1,
+            "explicacao": "Pós quer dizer depois: é o cuidado depois da venda.",
+            "dica": "Pós quer dizer “depois”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lei garante prazos para reclamar de defeito em produtos?",
+            "alternativas": ["CLT", "LGPD", "Código de Defesa do Consumidor (CDC)", "Código de Trânsito"],
+            "correta": 2,
+            "explicacao": "O CDC protege quem compra, com prazos para reclamar de defeitos.",
+            "dica": "É a lei que defende o consumidor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que um cliente satisfeito costuma fazer?",
+            "alternativas": ["Nunca mais volta", "Reclama nas redes", "Pede o dinheiro de volta", "Volta e indica para outras pessoas"],
+            "correta": 3,
+            "explicacao": "Cliente bem atendido volta e faz propaganda de graça.",
+            "dica": "Pense no que você faz quando gosta muito de um lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é um bom começo de atendimento?",
+            "alternativas": ["Bom dia! Como posso ajudar?", "Fala logo o que quer.", "Hoje não tem nada.", "Estou ocupado."],
+            "correta": 0,
+            "explicacao": "Cumprimentar e se colocar à disposição é o começo de um bom atendimento.",
+            "dica": "Procure a frase gentil e disposta a ajudar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pelo CDC, qual é o prazo para reclamar de defeito num produto durável, como um celular?",
+            "alternativas": ["7 dias", "90 dias", "30 dias", "1 ano"],
+            "correta": 1,
+            "explicacao": "Duráveis: 90 dias. Não duráveis, como comida: 30 dias.",
+            "dica": "Duráveis têm o prazo maior da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem certa para lidar com uma reclamação?",
+            "alternativas": ["Resolver, discutir, ouvir", "Agradecer, sumir, resolver", "Ouvir, pedir desculpas, resolver e agradecer", "Pedir desculpas e não fazer nada"],
+            "correta": 2,
+            "explicacao": "Primeiro entender, depois reconhecer, resolver de fato e agradecer o aviso.",
+            "dica": "Entender vem antes de resolver."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a reclamação pode ser boa para o negócio?",
+            "alternativas": ["Porque dá mais trabalho", "Porque o cliente paga mais", "Porque é obrigatório", "Porque mostra o que precisa melhorar e dá chance de recuperar o cliente"],
+            "correta": 3,
+            "explicacao": "Quem reclama está avisando o problema. Resolvido bem, o cliente pode ficar ainda mais fiel.",
+            "dica": "Pense na reclamação como um aviso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas atitudes é de pós-venda?",
+            "alternativas": ["Mandar mensagem perguntando se o cliente gostou do produto", "Cobrar uma taxa extra", "Esconder o defeito", "Trocar o preço na hora de pagar"],
+            "correta": 0,
+            "explicacao": "Perguntar se gostou mostra cuidado depois da venda.",
+            "dica": "Procure algo feito depois da compra, para cuidar do cliente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um bolo comprado hoje estava estragado. Pelo CDC, até quantos dias o cliente pode reclamar?",
+            "alternativas": ["90 dias", "30 dias", "1 dia", "Não pode reclamar"],
+            "correta": 1,
+            "explicacao": "Comida é produto não durável: o prazo é de 30 dias.",
+            "dica": "Bolo é durável ou não durável?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cliente gasta R$ 15 por semana na barraca de pastel. Quanto ele deixa em um ano (52 semanas)?",
+            "alternativas": ["R$ 180", "R$ 520", "R$ 780", "R$ 1.040"],
+            "correta": 2,
+            "explicacao": "15 × 52 = 780. Perder esse cliente custa muito mais que um pastel.",
+            "dica": "Multiplique o gasto semanal pelas semanas do ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um liquidificador com defeito foi para o conserto e, depois de 30 dias, não ficou pronto. Pelo CDC, o que o cliente pode escolher?",
+            "alternativas": ["Só esperar mais", "Nada, perdeu o direito", "Pagar o conserto", "Troca por outro, dinheiro de volta ou desconto proporcional"],
+            "correta": 3,
+            "explicacao": "Passados 30 dias sem solução, o consumidor escolhe entre troca, devolução do dinheiro ou abatimento.",
+            "dica": "O aprofundamento lista três opções depois do prazo de conserto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual resposta a uma avaliação negativa nas redes é a melhor?",
+            "alternativas": ["“Sentimos muito pela experiência. Pode nos chamar no privado para resolvermos?”", "“Você está mentindo.”", "Apagar o comentário e bloquear", "“Se não gostou, não volte.”"],
+            "correta": 0,
+            "explicacao": "Responder com educação e oferecer solução mostra a todos que o negócio cuida dos clientes.",
+            "dica": "Outras pessoas também vão ler a sua resposta."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem um bom atendimento de reclamação:",
+            "itens": ["Cumprimente o cliente.", "Ouça a reclamação sem interromper.", "Peça desculpas pelo transtorno.", "Resolva: troque, conserte ou devolva o dinheiro.", "Agradeça o aviso e acompanhe depois."],
+            "explicacao": "Cumprimentar, ouvir, reconhecer, resolver e fazer o pós-venda.",
+            "dica": "O acompanhamento depois é a última etapa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que treinar e respeitar os funcionários melhora o atendimento?",
+            "alternativas": ["Porque eles passam a trabalhar de graça", "Porque funcionário bem tratado e preparado atende melhor e resolve problemas simples sozinho", "Porque a lei obriga a sorrir", "Não melhora em nada"],
+            "correta": 1,
+            "explicacao": "Equipe preparada, com autonomia e direitos respeitados, trata o cliente com mais cuidado.",
+            "dica": "Pense em como você trabalha quando é respeitado."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Thalles perdeu uma cliente que gastava R$ 25 por semana por causa de um fone de R$ 40 que ele se recusou a trocar. Considerando um ano (52 semanas), quanto ele deixou de receber a mais do que economizou?",
+            "alternativas": ["R$ 1.300", "R$ 40", "R$ 1.340", "R$ 1.260"],
+            "correta": 3,
+            "explicacao": "Em um ano, ela gastaria 25 × 52 = R$ 1.300. Ele “economizou” R$ 40. Perdeu 1.300 − 40 = R$ 1.260 a mais do que economizou.",
+            "dica": "Calcule o gasto anual da cliente e desconte o que ele deixou de gastar na troca."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma cliente comprou um celular há 60 dias e ele parou de carregar por defeito. O vendedor diz: “Passou de 30 dias, não tenho nada com isso.” Ele está certo?",
+            "alternativas": ["Sim, o prazo é de 30 dias para tudo", "Sim, porque ela já usou o celular", "Não, celular é durável e o prazo para reclamar é de 90 dias", "Não, o prazo é de 10 anos"],
+            "correta": 2,
+            "explicacao": "Celular é durável: são 90 dias para reclamar de defeito aparente. Ela ainda está dentro do prazo.",
+            "dica": "O celular é durável ou não durável? Qual prazo vale?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma sorveteria tem nota 3 de 5 nas avaliações e muitas queixas de demora. Qual plano ataca a causa do problema?",
+            "alternativas": ["Organizar a equipe, treinar o atendimento e acompanhar o tempo de espera", "Pagar pessoas para escreverem avaliações falsas", "Responder com grosseria", "Tirar a sorveteria das redes"],
+            "correta": 0,
+            "explicacao": "A causa é a demora: organizar e treinar resolve. Avaliação falsa engana o consumidor e pode trazer problemas legais.",
+            "dica": "Procure o plano que resolve a demora, e não o que esconde a reclamação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dono de um carrinho de açaí, Ícaro quer dar autonomia à funcionária para resolver reclamações pequenas. Qual regra é justa e prática?",
+            "alternativas": ["Ela paga do próprio salário qualquer troca", "Ela pode trocar na hora um copo com problema até certo valor, sem pedir autorização", "Ela nunca pode trocar nada", "Ela deve discutir com o cliente até ele desistir"],
+            "correta": 1,
+            "explicacao": "Autonomia com limite claro agiliza a solução. Descontar do salário seria injusto e, em regra, a empresa é quem arca com o risco do negócio.",
+            "dica": "Autonomia com limite claro, sem jogar o custo no funcionário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Custa R$ 50 em divulgação para conquistar um cliente novo e R$ 10 em pós-venda para manter um antigo. Com R$ 200, quantos clientes antigos se mantêm a mais do que clientes novos se conquistam?",
+            "alternativas": ["4", "10", "16", "20"],
+            "correta": 2,
+            "explicacao": "Com R$ 200: 200 ÷ 10 = 20 antigos mantidos, ou 200 ÷ 50 = 4 novos. Diferença: 20 − 4 = 16.",
+            "dica": "Divida os R$ 200 pelos dois custos e compare."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Vozes do verbo: ativa e passiva",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Voz do verbo mostra a relação entre o sujeito e a ação. Na voz ativa, o sujeito pratica a ação: “O menino quebrou o vidro.” Quem quebrou? O menino.",
+          "Na voz passiva, o sujeito sofre a ação: “O vidro foi quebrado pelo menino.” O vidro não fez nada; ele recebeu a ação. Quem praticou aparece depois de “por” (pelo, pela) e se chama agente da passiva.",
+          "Para passar da ativa para a passiva: o objeto vira sujeito, o verbo vira “ser + particípio” e o antigo sujeito vira agente da passiva. “A turma pintou o muro” → “O muro foi pintado pela turma.”",
+          "O tempo do verbo continua o mesmo: “pinta” → “é pintado”; “pintou” → “foi pintado”; “pintará” → “será pintado”. E o particípio concorda com o novo sujeito: “As paredes foram pintadas.”",
+          "A passiva é útil quando o mais importante é o que aconteceu, e não quem fez: “A ponte foi inaugurada ontem.” Às vezes o agente nem aparece."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Passe para a voz passiva: “A professora corrigiu as provas.”",
+            "resolucao": "As provas foram corrigidas pela professora. O objeto (as provas) virou sujeito, “corrigiu” virou “foram corrigidas” (concordando com “as provas”) e a professora virou agente."
+          },
+          {
+            "enunciado": "Passe para a voz ativa: “O açaí será entregue pelo motoboy.”",
+            "resolucao": "O motoboy entregará o açaí. O agente virou sujeito e “será entregue” (futuro) virou “entregará” (futuro)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Existe também a passiva sintética, feita com o pronome “se”: “Vendem-se casas” significa “Casas são vendidas”. Como “casas” é o sujeito, o verbo vai para o plural: o certo é “Vendem-se casas”, e não “Vende-se casas”, na norma-padrão.",
+        "Na voz reflexiva, o sujeito pratica e recebe a ação ao mesmo tempo: “Ela se penteou” (ela penteou a si mesma). Não confunda com a passiva sintética: em “Penteou-se o cachorro”, o cachorro não penteou a si mesmo.",
+        "Só verbos que têm objeto direto vão para a voz passiva. “O aluno chegou cedo” não tem passiva, porque “chegar” não tem objeto direto."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na voz ativa, o sujeito:",
+            "alternativas": ["Pratica a ação", "Sofre a ação", "Não existe", "É sempre um objeto"],
+            "correta": 0,
+            "explicacao": "Na ativa, quem faz a ação é o sujeito: “O menino quebrou o vidro”.",
+            "dica": "Ativa lembra quem está agindo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está na voz passiva?",
+            "alternativas": ["O cachorro mordeu o osso.", "O osso foi mordido pelo cachorro.", "O cachorro latiu.", "O cachorro dorme."],
+            "correta": 1,
+            "explicacao": "O osso recebeu a ação, e há “foi mordido” (ser + particípio).",
+            "dica": "Procure o verbo ser junto com um particípio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “O bolo foi feito pela vó”, quem praticou a ação?",
+            "alternativas": ["O bolo", "Ninguém", "A vó", "O forno"],
+            "correta": 2,
+            "explicacao": "A vó é o agente da passiva: aparece depois de “pela”.",
+            "dica": "Veja quem aparece depois de “pela”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama quem pratica a ação na voz passiva?",
+            "alternativas": ["Sujeito", "Objeto direto", "Adjetivo", "Agente da passiva"],
+            "correta": 3,
+            "explicacao": "Na passiva, quem faz a ação é o agente da passiva, introduzido por “por”, “pelo”, “pela”.",
+            "dica": "O nome tem a ver com quem age."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “A janela foi aberta”, a janela:",
+            "alternativas": ["Sofreu a ação", "Praticou a ação", "Falou", "Correu"],
+            "correta": 0,
+            "explicacao": "A janela não abriu nada; ela recebeu a ação de ser aberta.",
+            "dica": "A janela fez alguma coisa ou alguém fez algo com ela?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a passiva: “A turma pintou o muro.”",
+            "alternativas": ["O muro pintou a turma.", "O muro foi pintado pela turma.", "A turma foi pintada pelo muro.", "O muro é pintado pela turma."],
+            "correta": 1,
+            "explicacao": "“Pintou” está no passado, então vira “foi pintado”. “É pintado” mudaria o tempo.",
+            "dica": "Mantenha o tempo do verbo: pintou é passado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a passiva: “A professora corrigiu as provas.”",
+            "alternativas": ["As provas foi corrigida pela professora.", "As provas corrigiram a professora.", "As provas foram corrigidas pela professora.", "A professora foi corrigida pelas provas."],
+            "correta": 2,
+            "explicacao": "O novo sujeito é “as provas” (plural, feminino): foram corrigidas.",
+            "dica": "O particípio concorda com o novo sujeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a ativa: “O jogo será transmitido pela rádio.”",
+            "alternativas": ["A rádio transmitiu o jogo.", "A rádio transmite o jogo.", "O jogo transmitirá a rádio.", "A rádio transmitirá o jogo."],
+            "correta": 3,
+            "explicacao": "“Será transmitido” é futuro, então a ativa fica “transmitirá”.",
+            "dica": "Será indica futuro; mantenha o tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “O muro foi pichado durante a noite”, por que o agente não aparece?",
+            "alternativas": ["Porque não se sabe ou não importa quem fez", "Porque a frase está errada", "Porque é voz ativa", "Porque muro é sujeito agente"],
+            "correta": 0,
+            "explicacao": "A passiva permite destacar o fato e omitir quem fez, quando não se sabe ou não interessa.",
+            "dica": "A lição fala que às vezes o agente nem aparece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está na voz ativa?",
+            "alternativas": ["A carta foi escrita por Ana.", "Ana escreveu a carta.", "A carta será lida.", "As cartas foram enviadas."],
+            "correta": 1,
+            "explicacao": "Ana pratica a ação de escrever: voz ativa.",
+            "dica": "Procure a frase em que o sujeito faz a ação."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a passiva: “Os alunos plantarão as mudas.”",
+            "alternativas": ["As mudas foram plantadas pelos alunos.", "As mudas são plantadas pelos alunos.", "As mudas serão plantadas pelos alunos.", "As mudas plantarão os alunos."],
+            "correta": 2,
+            "explicacao": "“Plantarão” é futuro: “serão plantadas”, concordando com “as mudas”.",
+            "dica": "Veja o tempo de plantarão e a concordância com mudas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase NÃO pode ir para a voz passiva?",
+            "alternativas": ["O pedreiro construiu a casa.", "A menina comprou o pão.", "O vento derrubou a árvore.", "O aluno chegou cedo."],
+            "correta": 3,
+            "explicacao": "“Chegar” não tem objeto direto, então não há o que virar sujeito na passiva.",
+            "dica": "Procure o verbo que não tem objeto direto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na norma-padrão, qual frase está correta?",
+            "alternativas": ["Vendem-se bicicletas usadas.", "Vende-se bicicletas usadas.", "Bicicletas usadas vende-se.", "Vende-se as bicicletas usadas."],
+            "correta": 0,
+            "explicacao": "Na passiva sintética, “bicicletas” é o sujeito; o verbo concorda no plural: vendem-se.",
+            "dica": "Quem é o sujeito? É singular ou plural?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as etapas para passar “O vizinho consertou a bicicleta” para a passiva:",
+            "itens": ["Ache o objeto direto: a bicicleta.", "Transforme o objeto em sujeito: A bicicleta...", "Use ser + particípio no mesmo tempo: foi consertada.", "Coloque o antigo sujeito como agente: pelo vizinho."],
+            "explicacao": "Resultado: A bicicleta foi consertada pelo vizinho.",
+            "dica": "Comece achando quem recebe a ação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Ela se penteou antes da festa”, qual é a voz verbal?",
+            "alternativas": ["Ativa", "Reflexiva", "Passiva analítica", "Passiva sintética"],
+            "correta": 1,
+            "explicacao": "Ela penteou a si mesma: pratica e recebe a ação. É voz reflexiva.",
+            "dica": "Quem penteou e quem foi penteado?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a passiva analítica: “Alugam-se quartos.”",
+            "alternativas": ["Quarto é alugado.", "Alguém alugou quartos.", "Quartos são alugados.", "Quartos alugaram-se."],
+            "correta": 2,
+            "explicacao": "A passiva sintética “Alugam-se quartos” equivale a “Quartos são alugados”.",
+            "dica": "Transforme o “se” em ser + particípio, mantendo o plural."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a ativa: “As ruas eram limpas pelos garis toda manhã.”",
+            "alternativas": ["Os garis limparam as ruas toda manhã.", "Os garis limpam as ruas toda manhã.", "Os garis limparão as ruas toda manhã.", "Os garis limpavam as ruas toda manhã."],
+            "correta": 3,
+            "explicacao": "“Eram limpas” está no pretérito imperfeito; na ativa, “limpavam”.",
+            "dica": "“Eram” indica um passado que se repetia; mantenha esse tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase o “se” forma voz passiva, e não reflexiva?",
+            "alternativas": ["Consertam-se celulares.", "Ele se machucou no jogo.", "A menina se olhou no espelho.", "Eles se cumprimentaram."],
+            "correta": 0,
+            "explicacao": "Celulares não consertam a si mesmos: “Celulares são consertados”. Nas outras, o sujeito age sobre si.",
+            "dica": "Pergunte: o sujeito faz a ação nele mesmo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual transformação para a passiva está ERRADA?",
+            "alternativas": ["O juiz anulou o gol. → O gol foi anulado pelo juiz.", "A chuva molhou as roupas. → As roupas foi molhada pela chuva.", "Rita lerá os livros. → Os livros serão lidos por Rita.", "Os pais buscam as crianças. → As crianças são buscadas pelos pais."],
+            "correta": 1,
+            "explicacao": "“As roupas” é plural: o certo é “As roupas foram molhadas pela chuva”.",
+            "dica": "Confira a concordância do verbo e do particípio com o novo sujeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma manchete diz: “Escola é reformada por moradores do bairro.” Por que o jornal escolheu a voz passiva?",
+            "alternativas": ["Porque a ativa é proibida em jornais", "Porque não se sabe quem reformou", "Para colocar em destaque o que foi reformado, a escola", "Porque a frase não tem verbo"],
+            "correta": 2,
+            "explicacao": "A passiva coloca a escola no começo, em destaque. O agente (moradores) até aparece, então não é por desconhecimento.",
+            "dica": "Repare qual palavra ficou no começo da manchete."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O cliente que voltou",
+    "texto": "Renan tinha um carrinho de açaí na porta da escola estadual do bairro. Numa sexta-feira, um homem de uniforme de obra voltou com o copo pela metade.\n\n— Moço, pedi com banana e veio com morango. E eu tenho alergia.\n\nRenan sentiu o rosto esquentar. A fila estava grande, e a vontade era dizer que o homem tinha pedido errado. Mas lembrou do que a tia, dona da barraca antes dele, sempre repetia: quem reclama está dando uma segunda chance.\n\n— O senhor tem razão, a falha foi minha. Desculpe. Vou fazer outro agora, do jeito certo, e esse é por minha conta.\n\nO homem, que se chamava Valdir, ficou surpreso. Esperou, recebeu o açaí com banana e ainda ganhou uma colherada extra de granola.\n\nNaquela noite, Renan mudou uma coisa simples: passou a escrever o pedido num papelzinho preso ao copo e a ler em voz alta antes de servir.\n\nNa semana seguinte, Valdir apareceu de novo. E trouxe três colegas da obra.\n\n— Foi aqui que me atenderam direito — disse ele, apontando para o carrinho.\n\nRenan fez as contas mais tarde: um copo de graça tinha virado quatro clientes. Nenhuma propaganda tinha saído tão barata."
+  },
+  "escrita": {
+    "proposta": "Imagine que você trabalha numa loja e um cliente chega reclamando de um produto com defeito (um fone que não funciona, um tênis que descolou ou outro que você escolher). Em 5 a 10 linhas, escreva como seria o atendimento, do cumprimento até a solução: o que você diria para ouvir, como pediria desculpas, que solução ofereceria e como faria o pós-venda alguns dias depois."
+  }
+}

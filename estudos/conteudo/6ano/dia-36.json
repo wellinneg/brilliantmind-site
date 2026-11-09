@@ -1,0 +1,1201 @@
+{
+  "dia": 36,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Somar e subtrair números decimais",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Números decimais são os que têm vírgula, como os preços: R$ 4,50 ou R$ 12,99. A parte antes da vírgula são os inteiros; depois dela vêm os décimos, os centésimos e assim por diante.",
+          "Para somar ou subtrair decimais, a regra de ouro é: vírgula embaixo de vírgula. Assim, inteiros ficam embaixo de inteiros, décimos embaixo de décimos e centésimos embaixo de centésimos.",
+          "Se um número tiver menos casas depois da vírgula, complete com zeros: 3,5 é o mesmo que 3,50. Isso não muda o valor e ajuda a não errar.",
+          "Depois, faça a conta como se não houvesse vírgula, da direita para a esquerda, e coloque a vírgula do resultado na mesma coluna."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Some 12,75 + 3,5.",
+            "resolucao": "Complete: 3,5 = 3,50. Vírgula embaixo de vírgula: 12,75 + 3,50 = 16,25."
+          },
+          {
+            "enunciado": "Calcule 10 − 3,45.",
+            "resolucao": "Escreva 10 como 10,00. Depois: 10,00 − 3,45 = 6,55."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Em contas de dinheiro, sempre trabalhe com duas casas depois da vírgula, que são os centavos. R$ 5 vira R$ 5,00, e R$ 2,5 vira R$ 2,50.",
+        "Para conferir o troco, faça a conta de volta: se a compra deu R$ 37,85 e você pagou com R$ 50,00, o troco é 50,00 − 37,85 = R$ 12,15. Conferindo: 37,85 + 12,15 = 50,00.",
+        "Cuidado com o valor de cada casa: 0,1 é um décimo, 0,01 é um centésimo e 0,001 é um milésimo. Somando os três: 0,100 + 0,010 + 0,001 = 0,111. Na altura, 1,48 m e 1,5 m (= 1,50 m) diferem em 0,02 m, ou seja, 2 centímetros."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2,5 + 1,5?",
+            "alternativas": [
+              "4",
+              "3,10",
+              "3",
+              "4,10"
+            ],
+            "correta": 0,
+            "explicacao": "2,5 + 1,5 = 4,0 = 4.",
+            "dica": "Meio mais meio forma um inteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3,8 − 1,2?",
+            "alternativas": [
+              "2,4",
+              "2,6",
+              "4,10",
+              "2,8"
+            ],
+            "correta": 1,
+            "explicacao": "3,8 − 1,2 = 2,6.",
+            "dica": "Subtraia inteiros e décimos separadamente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para somar decimais, colocamos:",
+            "alternativas": [
+              "os números da esquerda juntos",
+              "o maior embaixo",
+              "vírgula embaixo de vírgula",
+              "os números de qualquer jeito"
+            ],
+            "correta": 2,
+            "explicacao": "Vírgula embaixo de vírgula alinha as casas certas.",
+            "dica": "Lembre a regra de ouro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 0,5 + 0,25?",
+            "alternativas": [
+              "0,30",
+              "0,525",
+              "0,7",
+              "0,75"
+            ],
+            "correta": 3,
+            "explicacao": "0,50 + 0,25 = 0,75.",
+            "dica": "Complete o 0,5 com um zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é R$ 4,50 + R$ 2,00?",
+            "alternativas": [
+              "R$ 6,50",
+              "R$ 4,52",
+              "R$ 2,50",
+              "R$ 6,05"
+            ],
+            "correta": 0,
+            "explicacao": "4,50 + 2,00 = 6,50.",
+            "dica": "Some os reais e depois os centavos."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 12,75 + 3,5?",
+            "alternativas": [
+              "12,110",
+              "16,25",
+              "15,80",
+              "16,80"
+            ],
+            "correta": 1,
+            "explicacao": "12,75 + 3,50 = 16,25.",
+            "dica": "Escreva 3,5 com duas casas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10 − 3,45?",
+            "alternativas": [
+              "7,45",
+              "7,55",
+              "6,55",
+              "6,45"
+            ],
+            "correta": 2,
+            "explicacao": "10,00 − 3,45 = 6,55.",
+            "dica": "Escreva 10 como 10,00."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gabi tinha R$ 50,00 e comprou um livro de R$ 12,90 e um lanche de R$ 8,40. Quanto sobrou?",
+            "alternativas": [
+              "R$ 21,30",
+              "R$ 29,70",
+              "R$ 28,30",
+              "R$ 28,70"
+            ],
+            "correta": 3,
+            "explicacao": "12,90 + 8,40 = 21,30; 50,00 − 21,30 = 28,70.",
+            "dica": "Some os gastos e depois tire dos 50."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 7,3 − 2,85?",
+            "alternativas": [
+              "4,45",
+              "5,55",
+              "4,55",
+              "5,45"
+            ],
+            "correta": 0,
+            "explicacao": "7,30 − 2,85 = 4,45.",
+            "dica": "Complete 7,3 com um zero antes de subtrair."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular 8,4 + 2,75:",
+            "itens": [
+              "Escrever 8,4 como 8,40",
+              "Colocar vírgula embaixo de vírgula",
+              "Somar da direita para a esquerda",
+              "Colocar a vírgula no resultado: 11,15"
+            ],
+            "explicacao": "Completar, alinhar, somar e pôr a vírgula.",
+            "dica": "A vírgula do resultado é o último passo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na feira, Duda comprou R$ 4,99 de tomate, R$ 7,50 de batata e R$ 2,35 de cheiro-verde. Qual foi o total?",
+            "alternativas": [
+              "R$ 13,84",
+              "R$ 14,84",
+              "R$ 14,74",
+              "R$ 15,84"
+            ],
+            "correta": 1,
+            "explicacao": "4,99 + 7,50 = 12,49; 12,49 + 2,35 = 14,84.",
+            "dica": "Some dois de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 20,00, quanto Duda recebe de troco numa compra de R$ 14,84?",
+            "alternativas": [
+              "R$ 6,16",
+              "R$ 5,26",
+              "R$ 5,16",
+              "R$ 6,84"
+            ],
+            "correta": 2,
+            "explicacao": "20,00 − 14,84 = 5,16.",
+            "dica": "Escreva 20 com duas casas e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1,2 + 0,08?",
+            "alternativas": [
+              "1,10",
+              "2,0",
+              "0,128",
+              "1,28"
+            ],
+            "correta": 3,
+            "explicacao": "1,20 + 0,08 = 1,28.",
+            "dica": "Alinhe as vírgulas: 0,08 tem oito centésimos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tem 1,48 m e Bia tem 1,5 m. Qual é a diferença de altura?",
+            "alternativas": [
+              "2 cm",
+              "3 cm",
+              "47 cm",
+              "20 cm"
+            ],
+            "correta": 0,
+            "explicacao": "1,50 − 1,48 = 0,02 m = 2 cm.",
+            "dica": "Escreva 1,5 com duas casas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 5 − 0,75?",
+            "alternativas": [
+              "5,75",
+              "4,25",
+              "4,75",
+              "0,25"
+            ],
+            "correta": 1,
+            "explicacao": "5,00 − 0,75 = 4,25.",
+            "dica": "Escreva 5 como 5,00."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número completa: 3,75 + ? = 10?",
+            "alternativas": [
+              "7,25",
+              "6,35",
+              "6,25",
+              "13,75"
+            ],
+            "correta": 2,
+            "explicacao": "10,00 − 3,75 = 6,25.",
+            "dica": "Use a operação inversa da soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A compra deu R$ 37,85. Lia pagou com R$ 50,00 e recebeu R$ 12,05 de troco. O que aconteceu?",
+            "alternativas": [
+              "O troco está certo",
+              "Ela recebeu R$ 0,10 a mais",
+              "Ela recebeu R$ 1,00 a menos",
+              "Ela recebeu R$ 0,10 a menos"
+            ],
+            "correta": 3,
+            "explicacao": "O troco certo é 12,15; ela recebeu 12,05: faltaram 0,10.",
+            "dica": "Calcule o troco certo e compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2,4 + 3,65 + 0,9 − 1,95?",
+            "alternativas": [
+              "5",
+              "4,9",
+              "5,1",
+              "6,95"
+            ],
+            "correta": 0,
+            "explicacao": "2,40 + 3,65 = 6,05; + 0,90 = 6,95; − 1,95 = 5,00.",
+            "dica": "Faça na ordem, da esquerda para a direita, completando com zeros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 0,1 + 0,01 + 0,001?",
+            "alternativas": [
+              "0,3",
+              "0,111",
+              "0,012",
+              "1,11"
+            ],
+            "correta": 1,
+            "explicacao": "0,100 + 0,010 + 0,001 = 0,111.",
+            "dica": "Cada número está numa casa diferente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa corrida de 100 m, Téo fez 14,3 s e Caíque fez 13,85 s. Quem venceu e por quanto?",
+            "alternativas": [
+              "Téo, por 0,45 s",
+              "Caíque, por 0,55 s",
+              "Caíque, por 0,45 s",
+              "Téo, por 0,55 s"
+            ],
+            "correta": 2,
+            "explicacao": "Menor tempo vence: 14,30 − 13,85 = 0,45 s. Venceu Caíque.",
+            "dica": "Na corrida, quem vence tem o maior ou o menor tempo?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Poupança e rendimento",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Quando você guarda dinheiro numa poupança ou outra aplicação do banco, ele não fica parado: ganha um pouquinho a mais todo mês. Esse ganho se chama rendimento.",
+          "O rendimento é como os juros, só que a favor de você: em vez de pagar juros, você recebe. O banco paga porque usa esse dinheiro para emprestar a outras pessoas.",
+          "Para facilitar as contas, vamos usar 0,5% ao mês, que fica perto do que a poupança costuma render. 0,5% de R$ 1.000 é R$ 5 no mês. Parece pouco, mas o mais importante é o hábito de guardar.",
+          "Quem guarda R$ 50 por mês junta R$ 600 em um ano, fora o rendimento. O dinheiro guardado vira reserva para emergências ou para comprar algo à vista."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quanto rendem R$ 2.000 em um mês, a 0,5% ao mês?",
+            "resolucao": "1% de 2.000 é 20; 0,5% é metade: R$ 10."
+          },
+          {
+            "enunciado": "Helena guarda R$ 30 por mês durante 10 meses. Quanto ela juntou, sem contar o rendimento?",
+            "resolucao": "10 × 30 = R$ 300."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O rendimento também rende: no mês seguinte, os juros são calculados sobre o valor que já cresceu. Isso se chama juros compostos. Com R$ 100 a 1% ao mês: 1º mês, R$ 101,00; 2º mês, 101 + 1,01 = R$ 102,01.",
+        "Na poupança, o rendimento cai no \"aniversário\" da conta: no mesmo dia do mês em que o dinheiro foi depositado. Tirar o dinheiro um dia antes faz perder o rendimento daquele mês.",
+        "Com o tempo, o hábito pesa mais que a taxa: quem guarda todo mês, mesmo pouco, junta muito mais do que quem espera sobrar uma quantia grande para começar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O dinheiro a mais que você ganha guardando dinheiro no banco se chama:",
+            "alternativas": [
+              "rendimento",
+              "multa",
+              "tarifa",
+              "parcela"
+            ],
+            "correta": 0,
+            "explicacao": "Rendimento é o ganho do dinheiro guardado.",
+            "dica": "É o contrário de pagar juros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na poupança, os juros são:",
+            "alternativas": [
+              "contra você",
+              "a favor de você",
+              "uma multa",
+              "proibidos"
+            ],
+            "correta": 1,
+            "explicacao": "Na poupança, você recebe juros.",
+            "dica": "Quem recebe o dinheiro a mais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem guarda R$ 50 por mês, em 12 meses junta quanto (sem rendimento)?",
+            "alternativas": [
+              "R$ 50",
+              "R$ 500",
+              "R$ 600",
+              "R$ 62"
+            ],
+            "correta": 2,
+            "explicacao": "12 × 50 = 600.",
+            "dica": "Multiplique por 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o banco paga rendimento?",
+            "alternativas": [
+              "Por pena",
+              "Porque erra a conta",
+              "Porque é sorteio",
+              "Porque usa o dinheiro para emprestar"
+            ],
+            "correta": 3,
+            "explicacao": "O banco empresta o dinheiro guardado e cobra juros de quem pega.",
+            "dica": "O que o banco faz com o dinheiro guardado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O mais importante para juntar dinheiro é:",
+            "alternativas": [
+              "o hábito de guardar todo mês",
+              "ganhar na loteria",
+              "esperar sobrar muito",
+              "não ter conta"
+            ],
+            "correta": 0,
+            "explicacao": "Guardar sempre, mesmo pouco, faz a diferença.",
+            "dica": "Releia o fim da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto rendem R$ 2.000 em um mês, a 0,5% ao mês?",
+            "alternativas": [
+              "R$ 100",
+              "R$ 10",
+              "R$ 20",
+              "R$ 1"
+            ],
+            "correta": 1,
+            "explicacao": "1% de 2.000 = 20; 0,5% = 10.",
+            "dica": "Ache 1% e pegue a metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Helena guarda R$ 30 por mês durante 10 meses. Quanto juntou, sem rendimento?",
+            "alternativas": [
+              "R$ 40",
+              "R$ 130",
+              "R$ 300",
+              "R$ 3.000"
+            ],
+            "correta": 2,
+            "explicacao": "10 × 30 = 300.",
+            "dica": "Multiplique o valor pelo número de meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 0,5% de R$ 400?",
+            "alternativas": [
+              "R$ 20",
+              "R$ 4",
+              "R$ 0,50",
+              "R$ 2"
+            ],
+            "correta": 3,
+            "explicacao": "1% de 400 = 4; 0,5% = 2.",
+            "dica": "Ache 1% (divida por 100) e pegue a metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa poupança com R$ 1.000, o rendimento de um mês a 0,5% deixa o saldo em:",
+            "alternativas": [
+              "R$ 1.005",
+              "R$ 1.050",
+              "R$ 1.500",
+              "R$ 1.000,50"
+            ],
+            "correta": 0,
+            "explicacao": "0,5% de 1.000 = 5; saldo 1.005.",
+            "dica": "Calcule o rendimento e some ao saldo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o caminho para juntar dinheiro:",
+            "itens": [
+              "Definir um objetivo",
+              "Decidir quanto guardar por mês",
+              "Depositar todo mês na poupança",
+              "Acompanhar o saldo crescer"
+            ],
+            "explicacao": "Objetivo, valor, depósito e acompanhamento.",
+            "dica": "Tudo começa com um objetivo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100 rendem 1% ao mês, com juros compostos. Quanto haverá depois de 2 meses?",
+            "alternativas": [
+              "R$ 102,00",
+              "R$ 102,01",
+              "R$ 101,01",
+              "R$ 120,00"
+            ],
+            "correta": 1,
+            "explicacao": "1º mês: 101,00. 2º mês: 101 + 1,01 = 102,01.",
+            "dica": "No 2º mês, o 1% é calculado sobre 101."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na poupança, quando o rendimento é creditado?",
+            "alternativas": [
+              "Todo dia",
+              "Só no fim do ano",
+              "No aniversário mensal do depósito",
+              "Quando o cliente pede"
+            ],
+            "correta": 2,
+            "explicacao": "O rendimento cai no mesmo dia do mês em que o dinheiro foi depositado.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rui guarda R$ 25 por semana. Quanto junta em 8 semanas?",
+            "alternativas": [
+              "R$ 33",
+              "R$ 100",
+              "R$ 250",
+              "R$ 200"
+            ],
+            "correta": 3,
+            "explicacao": "8 × 25 = 200.",
+            "dica": "Multiplique pelo número de semanas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Marta tem R$ 3.000 a 0,5% ao mês. Quanto rende em um mês?",
+            "alternativas": [
+              "R$ 15",
+              "R$ 150",
+              "R$ 1,50",
+              "R$ 30"
+            ],
+            "correta": 0,
+            "explicacao": "1% de 3.000 = 30; 0,5% = 15.",
+            "dica": "Ache 1% e divida por dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depositou dia 10 e tirou o dinheiro dia 9 do mês seguinte. O que aconteceu com o rendimento daquele mês?",
+            "alternativas": [
+              "Ganhou em dobro",
+              "Perdeu o rendimento do mês",
+              "Ganhou metade",
+              "Nada muda"
+            ],
+            "correta": 1,
+            "explicacao": "Saiu um dia antes do aniversário: perdeu o rendimento.",
+            "dica": "O rendimento cai em que dia?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 rendem 10% ao mês (um valor inventado, só para treinar), com juros compostos. Quanto haverá depois de 2 meses?",
+            "alternativas": [
+              "R$ 1.200",
+              "R$ 1.100",
+              "R$ 1.210",
+              "R$ 1.020"
+            ],
+            "correta": 2,
+            "explicacao": "1º mês: 1.100. 2º mês: 1.100 + 110 = 1.210.",
+            "dica": "No 2º mês, os 10% são sobre 1.100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Paula guarda R$ 40 por mês; Igor espera juntar R$ 200 de uma vez, o que só acontece depois de 1 ano, e então guarda R$ 200. Depois de 12 meses, quem guardou mais?",
+            "alternativas": [
+              "Igor, com R$ 480",
+              "Os dois igual",
+              "Igor, com R$ 200",
+              "Paula, com R$ 480"
+            ],
+            "correta": 3,
+            "explicacao": "Paula: 12 × 40 = 480. Igor: 200. O hábito venceu.",
+            "dica": "Calcule o total de cada um em 12 meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre os juros de um empréstimo e o rendimento da poupança?",
+            "alternativas": [
+              "No empréstimo você paga juros; na poupança você recebe",
+              "Os dois você paga",
+              "Os dois você recebe",
+              "Não existe diferença"
+            ],
+            "correta": 0,
+            "explicacao": "Juros contra você no empréstimo, a favor na poupança.",
+            "dica": "Quem recebe o dinheiro a mais em cada caso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 2.000 a 0,5% ao mês, quantos meses de rendimento seriam necessários para juntar R$ 50 de rendimento, sem contar juros sobre juros?",
+            "alternativas": [
+              "10",
+              "5",
+              "50",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "0,5% de 2.000 = 10 por mês; 50 ÷ 10 = 5 meses.",
+            "dica": "Calcule o rendimento de um mês primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Leo quer comprar uma bicicleta de R$ 540 à vista e guarda R$ 45 por mês. Em quantos meses junta o valor, sem contar o rendimento?",
+            "alternativas": [
+              "10",
+              "11",
+              "12",
+              "15"
+            ],
+            "correta": 2,
+            "explicacao": "540 ÷ 45 = 12.",
+            "dica": "Quantas vezes 45 cabe em 540?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Listas: guardar vários valores juntos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma variável guarda um valor só. Quando precisamos guardar vários valores juntos, como as notas do bimestre ou os itens da compra, usamos uma lista.",
+          "Em pseudocódigo: frutas = [\"banana\", \"maçã\", \"uva\"]. A lista fica entre colchetes e os itens são separados por vírgula.",
+          "Cada item tem uma posição, chamada índice. Na maioria das linguagens de programação, a contagem começa do zero: frutas[0] é \"banana\", frutas[1] é \"maçã\" e frutas[2] é \"uva\".",
+          "Algumas operações: tamanho(frutas) dá 3 (quantos itens há); adicionar(frutas, \"pera\") coloca \"pera\" no fim; frutas[1] = \"laranja\" troca o item da posição 1."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "notas = [7, 8, 5]. Quanto vale notas[0] + notas[2]?",
+            "resolucao": "notas[0] = 7 e notas[2] = 5. 7 + 5 = 12."
+          },
+          {
+            "enunciado": "compras = [\"arroz\", \"feijão\"]. Depois: adicionar(compras, \"leite\"). Qual é a lista e o tamanho?",
+            "resolucao": "[\"arroz\", \"feijão\", \"leite\"], com tamanho 3."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Como o índice começa em 0, o último item de uma lista de tamanho n fica na posição n − 1. Numa lista de 5 itens, o último é o índice 4. Pedir o índice 5 dá erro: essa posição não existe.",
+        "Listas e laços combinam: dá para passar por todos os itens somando ou contando. Mas, mesmo sem laço, dá para fazer contas com itens: notas[0] + notas[1] + notas[2].",
+        "Uma lista pode guardar números, textos e até outras listas. E ela pode crescer: começar vazia, lista = [ ], e ir recebendo itens com adicionar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve uma lista?",
+            "alternativas": [
+              "Guardar vários valores juntos",
+              "Desligar o computador",
+              "Mudar a cor da tela",
+              "Apagar variáveis"
+            ],
+            "correta": 0,
+            "explicacao": "A lista guarda vários valores numa só variável.",
+            "dica": "Pense numa lista de compras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual sinal os itens de uma lista ficam?",
+            "alternativas": [
+              "( )",
+              "[ ]",
+              "{ }",
+              "< >"
+            ],
+            "correta": 1,
+            "explicacao": "No pseudocódigo da lição, a lista fica entre colchetes.",
+            "dica": "Olhe o exemplo das frutas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "frutas = [\"banana\", \"maçã\", \"uva\"]. Quanto dá tamanho(frutas)?",
+            "alternativas": [
+              "2",
+              "4",
+              "3",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "São três itens.",
+            "dica": "Conte os itens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na maioria das linguagens, o índice do primeiro item é:",
+            "alternativas": [
+              "1",
+              "2",
+              "10",
+              "0"
+            ],
+            "correta": 3,
+            "explicacao": "A contagem começa do zero.",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "frutas = [\"banana\", \"maçã\", \"uva\"]. Quem é frutas[0]?",
+            "alternativas": [
+              "banana",
+              "maçã",
+              "uva",
+              "nenhuma"
+            ],
+            "correta": 0,
+            "explicacao": "O índice 0 é o primeiro item.",
+            "dica": "O primeiro item tem índice zero."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "frutas = [\"banana\", \"maçã\", \"uva\"]. Quem é frutas[2]?",
+            "alternativas": [
+              "maçã",
+              "uva",
+              "banana",
+              "erro"
+            ],
+            "correta": 1,
+            "explicacao": "Índices: 0 banana, 1 maçã, 2 uva.",
+            "dica": "Conte a partir do zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [7, 8, 5]. Quanto vale notas[0] + notas[2]?",
+            "alternativas": [
+              "15",
+              "13",
+              "12",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "7 + 5 = 12.",
+            "dica": "Ache o item 0 e o item 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "compras = [\"arroz\", \"feijão\"]. adicionar(compras, \"leite\"). Qual o tamanho agora?",
+            "alternativas": [
+              "1",
+              "2",
+              "4",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Eram 2 itens; com leite, 3.",
+            "dica": "Adicionar coloca mais um item."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cores = [\"azul\", \"verde\"]. cores[1] = \"rosa\". Como fica a lista?",
+            "alternativas": [
+              "[\"azul\", \"rosa\"]",
+              "[\"rosa\", \"verde\"]",
+              "[\"azul\", \"verde\", \"rosa\"]",
+              "[\"rosa\"]"
+            ],
+            "correta": 0,
+            "explicacao": "O índice 1 era verde e foi trocado por rosa.",
+            "dica": "Qual posição foi trocada?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem para montar a lista de chamada da turma:",
+            "itens": [
+              "Criar a lista vazia: chamada = [ ]",
+              "Adicionar o primeiro nome",
+              "Adicionar os outros nomes",
+              "Mostrar o tamanho da lista"
+            ],
+            "explicacao": "Primeiro a lista vazia, depois os itens, por fim o tamanho.",
+            "dica": "A lista precisa existir antes de receber nomes."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lista tem 5 itens. Qual é o índice do último?",
+            "alternativas": [
+              "5",
+              "4",
+              "6",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "Índices de 0 a 4.",
+            "dica": "Comece a contar do zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "n = [10, 20, 30, 40]. Quanto vale n[1] + n[3]?",
+            "alternativas": [
+              "50",
+              "40",
+              "60",
+              "70"
+            ],
+            "correta": 2,
+            "explicacao": "n[1] = 20 e n[3] = 40; 20 + 40 = 60.",
+            "dica": "Escreva os índices embaixo de cada número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "idades = [11, 12]. Qual é o resultado de idades[2]?",
+            "alternativas": [
+              "11",
+              "12",
+              "0",
+              "Erro: a posição 2 não existe"
+            ],
+            "correta": 3,
+            "explicacao": "Só existem as posições 0 e 1.",
+            "dica": "Quais posições existem numa lista de 2 itens?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "lista = [ ]. adicionar(lista, 4); adicionar(lista, 9); adicionar(lista, 1). Quanto vale lista[1]?",
+            "alternativas": [
+              "9",
+              "4",
+              "1",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "A lista fica [4, 9, 1]; o índice 1 é 9.",
+            "dica": "Os itens entram no fim, na ordem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "precos = [2.5, 4, 3.5] (na programação, o decimal usa ponto no lugar da vírgula). Quanto dá precos[0] + precos[1] + precos[2]?",
+            "alternativas": [
+              "R$ 9,50",
+              "R$ 10,00",
+              "R$ 10,50",
+              "R$ 9,00"
+            ],
+            "correta": 1,
+            "explicacao": "2,50 + 4,00 + 3,50 = 10,00.",
+            "dica": "Some os três preços."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x = [3, 6, 9]. x[0] = x[1] + x[2]. Como fica a lista?",
+            "alternativas": [
+              "[3, 6, 9]",
+              "[18, 6, 9]",
+              "[15, 6, 9]",
+              "[3, 15, 9]"
+            ],
+            "correta": 2,
+            "explicacao": "x[1] + x[2] = 6 + 9 = 15, que vai para a posição 0.",
+            "dica": "Calcule a soma e coloque no índice 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = [5, 8, 2, 7]. Quanto vale a[tamanho(a) − 1]?",
+            "alternativas": [
+              "2",
+              "5",
+              "8",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "tamanho(a) = 4; 4 − 1 = 3; a[3] = 7, o último item.",
+            "dica": "Calcule o índice antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "lista = [1]. Repita 3 vezes: adicionar(lista, tamanho(lista)). Como fica a lista?",
+            "alternativas": [
+              "[1, 1, 2, 3]",
+              "[1, 2, 3, 4]",
+              "[1, 1, 1, 1]",
+              "[1, 3, 3, 3]"
+            ],
+            "correta": 0,
+            "explicacao": "Tamanho 1 → adiciona 1; tamanho 2 → adiciona 2; tamanho 3 → adiciona 3.",
+            "dica": "O tamanho muda a cada repetição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nomes = [\"Ana\", \"Beto\", \"Caio\"]. Troque Ana e Caio de lugar. Qual comando final está certo?",
+            "alternativas": [
+              "nomes[1] = \"Caio\"",
+              "nomes = [\"Caio\", \"Beto\", \"Ana\"]",
+              "nomes[3] = \"Ana\"",
+              "tamanho(nomes) = 2"
+            ],
+            "correta": 1,
+            "explicacao": "Ana sai do índice 0 para o 2 e Caio do 2 para o 0.",
+            "dica": "Ana está no índice 0 e Caio no 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [6, 9, 7, 8]. Qual é a média das notas dos índices 1 e 3?",
+            "alternativas": [
+              "7,5",
+              "7",
+              "8,5",
+              "8"
+            ],
+            "correta": 2,
+            "explicacao": "notas[1] = 9 e notas[3] = 8; (9 + 8) ÷ 2 = 8,5.",
+            "dica": "Ache os dois itens e calcule a média."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Interjeição e onomatopeia",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Interjeição é a palavra que expressa emoção ou sensação de repente. Geralmente vem com ponto de exclamação: Ufa! Oba! Ai! Psiu!",
+          "Cada interjeição mostra um sentimento: Ufa! (alívio), Oba! (alegria), Ai! (dor), Psiu! (pedido de silêncio), Credo! (espanto ou medo), Socorro! (pedido de ajuda), Tomara! (desejo).",
+          "Onomatopeia é a palavra que imita um som: tique-taque (relógio), au-au (cachorro), miau (gato), toc-toc (batida na porta), atchim (espirro), vrum (motor), trim (telefone).",
+          "As duas aparecem muito em histórias em quadrinhos, poemas e conversas. Elas deixam o texto mais vivo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: \"Ufa! Acabou a prova.\"",
+            "resolucao": "Ufa é interjeição de alívio."
+          },
+          {
+            "enunciado": "Qual onomatopeia combina com alguém batendo à porta?",
+            "resolucao": "Toc-toc, que imita o som da batida."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A mesma interjeição pode ter sentidos diferentes, conforme a situação: \"Ah!\" pode ser surpresa (Ah! Você veio!), decepção (Ah... choveu) ou entendimento (Ah, agora entendi!).",
+        "Às vezes, um grupo de palavras faz o papel de interjeição: é a locução interjetiva. Exemplos: Puxa vida! Ai de mim! Que pena! Nossa Senhora!",
+        "Diferença principal: a interjeição expressa o que a pessoa sente; a onomatopeia imita um barulho. \"Ai!\" é dor (interjeição); \"cabrum!\" é o som do trovão (onomatopeia)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é uma interjeição de alívio?",
+            "alternativas": [
+              "Ufa!",
+              "Miau",
+              "Mesa",
+              "Correr"
+            ],
+            "correta": 0,
+            "explicacao": "Ufa! mostra alívio.",
+            "dica": "O que você diz quando um problema acaba?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é onomatopeia?",
+            "alternativas": [
+              "Palavra que dá nome a um lugar",
+              "Palavra que imita um som",
+              "Um tipo de verbo",
+              "Um sinal de pontuação"
+            ],
+            "correta": 1,
+            "explicacao": "Onomatopeia imita sons: au-au, tique-taque.",
+            "dica": "Pense no barulho do relógio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual onomatopeia imita o cachorro?",
+            "alternativas": [
+              "miau",
+              "piu-piu",
+              "au-au",
+              "muuu"
+            ],
+            "correta": 2,
+            "explicacao": "Au-au é o latido.",
+            "dica": "Qual é o latido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ai!\" geralmente expressa:",
+            "alternativas": [
+              "alegria",
+              "silêncio",
+              "desejo",
+              "dor"
+            ],
+            "correta": 3,
+            "explicacao": "Ai! é interjeição de dor.",
+            "dica": "O que você diz quando bate o dedo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sinal costuma acompanhar a interjeição?",
+            "alternativas": [
+              "Ponto de exclamação",
+              "Vírgula só",
+              "Dois-pontos",
+              "Parênteses"
+            ],
+            "correta": 0,
+            "explicacao": "A interjeição vem com exclamação: Oba!",
+            "dica": "É o sinal da emoção."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Psiu! O bebê está dormindo\", Psiu! pede:",
+            "alternativas": [
+              "ajuda",
+              "silêncio",
+              "comida",
+              "pressa"
+            ],
+            "correta": 1,
+            "explicacao": "Psiu! é pedido de silêncio.",
+            "dica": "O bebê está dormindo..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra imita o som de um espirro?",
+            "alternativas": [
+              "ufa",
+              "oba",
+              "atchim",
+              "tomara"
+            ],
+            "correta": 2,
+            "explicacao": "Atchim imita o espirro.",
+            "dica": "Qual delas é um som?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Tomara que faça sol amanhã!\", a interjeição mostra:",
+            "alternativas": [
+              "dor",
+              "medo",
+              "silêncio",
+              "desejo"
+            ],
+            "correta": 3,
+            "explicacao": "Tomara expressa desejo.",
+            "dica": "A pessoa quer que algo aconteça."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem uma onomatopeia?",
+            "alternativas": [
+              "O relógio fazia tique-taque.",
+              "Oba! Vamos viajar!",
+              "Credo, que susto!",
+              "Socorro!"
+            ],
+            "correta": 0,
+            "explicacao": "Tique-taque imita o som do relógio.",
+            "dica": "Procure a palavra que imita um barulho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem interjeição de alegria?",
+            "alternativas": [
+              "Ai! Machuquei.",
+              "Oba! Ganhei o jogo!",
+              "Psiu, silêncio.",
+              "Socorro!"
+            ],
+            "correta": 1,
+            "explicacao": "Oba! mostra alegria.",
+            "dica": "Quem ganhou está feliz."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ah, agora entendi!\", a interjeição Ah expressa:",
+            "alternativas": [
+              "dor",
+              "medo",
+              "entendimento",
+              "silêncio"
+            ],
+            "correta": 2,
+            "explicacao": "Aqui, Ah mostra que a pessoa entendeu algo.",
+            "dica": "O sentido depende do resto da frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma locução interjetiva?",
+            "alternativas": [
+              "Miau",
+              "Toc-toc",
+              "Ufa",
+              "Puxa vida!"
+            ],
+            "correta": 3,
+            "explicacao": "Puxa vida! é um grupo de palavras com valor de interjeição.",
+            "dica": "Procure a que tem mais de uma palavra e expressa emoção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par está certo?",
+            "alternativas": [
+              "Ai! = interjeição; cabrum = onomatopeia",
+              "Ai! = onomatopeia; cabrum = interjeição",
+              "Os dois são onomatopeias",
+              "Os dois são interjeições"
+            ],
+            "correta": 0,
+            "explicacao": "Ai! expressa dor; cabrum imita o trovão.",
+            "dica": "Uma expressa sentimento; a outra imita um som."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Credo! Que barulho foi esse?\", Credo! expressa:",
+            "alternativas": [
+              "alegria",
+              "espanto ou medo",
+              "desejo",
+              "alívio"
+            ],
+            "correta": 1,
+            "explicacao": "Credo! mostra espanto ou medo.",
+            "dica": "A pessoa ouviu um barulho estranho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual onomatopeia combina com o telefone fixo tocando?",
+            "alternativas": [
+              "vrum",
+              "plof",
+              "trim",
+              "zzz"
+            ],
+            "correta": 2,
+            "explicacao": "Trim imita a campainha do telefone.",
+            "dica": "Qual delas lembra uma campainha?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase Ah expressa DECEPÇÃO?",
+            "alternativas": [
+              "Ah! Você veio! Que surpresa!",
+              "Ah, agora entendi a conta!",
+              "Ah! Que presente lindo!",
+              "Ah... choveu e o passeio foi cancelado."
+            ],
+            "correta": 3,
+            "explicacao": "Choveu e o passeio foi cancelado: decepção.",
+            "dica": "Em qual situação a pessoa ficou triste?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas interjeições e quantas onomatopeias há em \"Oba! Toc-toc na porta. Ufa, é a pizza! O cachorro faz au-au.\"?",
+            "alternativas": [
+              "2 interjeições e 2 onomatopeias",
+              "3 interjeições e 1 onomatopeia",
+              "1 interjeição e 3 onomatopeias",
+              "4 interjeições"
+            ],
+            "correta": 0,
+            "explicacao": "Interjeições: Oba, Ufa. Onomatopeias: toc-toc, au-au.",
+            "dica": "Separe o que é emoção do que é som."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa uma interjeição para pedir ajuda?",
+            "alternativas": [
+              "Oba, chegou!",
+              "Socorro, o gato subiu no telhado!",
+              "Ufa, terminei!",
+              "Psiu, fala baixo!"
+            ],
+            "correta": 1,
+            "explicacao": "Socorro! é pedido de ajuda.",
+            "dica": "Qual palavra se grita quando se precisa de ajuda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre \"Ai!\" e \"Ai de mim!\"?",
+            "alternativas": [
+              "Nenhuma das duas é interjeição",
+              "As duas são onomatopeias",
+              "Ai! é interjeição; Ai de mim! é locução interjetiva",
+              "Ai de mim! é verbo"
+            ],
+            "correta": 2,
+            "explicacao": "Ai de mim! é um grupo de palavras com valor de interjeição.",
+            "dica": "Conte quantas palavras formam cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num quadrinho, um carro passa fazendo vrum e o menino grita \"Eita!\". Classifique as duas palavras.",
+            "alternativas": [
+              "Vrum = interjeição; Eita = onomatopeia",
+              "As duas são onomatopeias",
+              "As duas são interjeições",
+              "Vrum = onomatopeia; Eita = interjeição"
+            ],
+            "correta": 3,
+            "explicacao": "Vrum imita o motor; Eita expressa susto ou surpresa.",
+            "dica": "Qual imita um barulho e qual mostra emoção?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Ufa! O troco certo",
+    "texto": "Sábado de manhã, Duda acompanhou a mãe ao mercado com a lista na mão: arroz, R$ 22,90; feijão, R$ 8,49; leite, R$ 4,75; pão, R$ 6,30; banana, R$ 5,56.\n\nNo caminho entre as prateleiras, Duda ia somando no caderninho, vírgula embaixo de vírgula. Deu R$ 48,00 certinho.\n\nNo caixa, bip, bip, bip, a moça passou tudo e disse:\n\n— Cinquenta e dois e setenta e cinco.\n\n— Ué! — Duda franziu a testa. — Mãe, minha conta deu quarenta e oito.\n\nA mãe conferiu o cupom com ela. Lá estava: leite, duas vezes.\n\n— Opa, desculpe! — disse a moça do caixa, corrigindo na hora.\n\nA mãe pagou com uma nota de cinquenta e recebeu dois reais de troco.\n\n— Ufa! — suspirou ela. — Quatro e setenta e cinco a mais toda semana fariam falta.\n\nNa saída, Duda ganhou um beijo e a promessa de escolher a fruta da próxima compra."
+  },
+  "escrita": {
+    "proposta": "Monte uma lista de compras com 5 itens e preços com centavos (por exemplo, R$ 3,49). Depois, explique em 5 a 8 linhas como você somou o total, passo a passo, e quanto receberia de troco pagando com uma nota de R$ 50,00."
+  }
+}

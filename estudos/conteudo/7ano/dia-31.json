@@ -1,0 +1,805 @@
+{
+  "dia": 31,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Operações com números racionais positivos e negativos",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Números racionais são os que podem ser escritos como fração: 3/4, −1/2, 2,75, −0,5. Eles também podem ser negativos, como a temperatura de um congelador (−18,5 °C) ou um saldo no vermelho (−R$ 12,50).",
+          "Para somar e subtrair, vale a mesma regra dos inteiros: sinais iguais, soma e mantém o sinal; sinais diferentes, subtrai e fica o sinal de quem tem o maior valor sem sinal. Exemplo: −2,5 + 1,2 = −1,3, porque 2,5 − 1,2 = 1,3 e o 2,5 (negativo) é maior.",
+          "Com frações de denominadores diferentes, primeiro deixe todas com o mesmo denominador (use o MMC): −1/2 + 1/3 = −3/6 + 2/6 = −1/6.",
+          "Para multiplicar e dividir, use a regra de sinais: sinais iguais dão positivo; sinais diferentes dão negativo. (−0,5) × 4 = −2 e (−0,5) × (−4) = 2.",
+          "Dividir por uma fração é multiplicar pelo inverso dela: (−3/4) ÷ (−1/2) = (−3/4) × (−2/1) = 6/4 = 3/2."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "De madrugada, um termômetro marcava −2,5 °C. Até o meio-dia, a temperatura subiu 4,3 °C. Quanto marcava ao meio-dia?",
+            "resolucao": "−2,5 + 4,3. Sinais diferentes: 4,3 − 2,5 = 1,8, e fica o sinal do 4,3 (positivo). Ao meio-dia: 1,8 °C."
+          },
+          {
+            "enunciado": "Calcule (−2/3) × (9/4).",
+            "resolucao": "Sinais diferentes: resultado negativo. Numeradores: 2 × 9 = 18. Denominadores: 3 × 4 = 12. Fica −18/12, que simplificado por 6 dá −3/2 (ou −1,5)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O inverso de um número é aquele que, multiplicado por ele, dá 1. O inverso de −2/5 é −5/2, porque (−2/5) × (−5/2) = 10/10 = 1. Repare que o inverso mantém o sinal: só troca o numerador com o denominador.",
+        "A ordem das operações continua valendo: primeiro parênteses, depois potências, depois multiplicação e divisão, e por último soma e subtração. Em −1,2 + 0,5 × (−4), faça primeiro 0,5 × (−4) = −2 e só depois −1,2 + (−2) = −3,2.",
+        "Decimais aparecem muito em medidas de tempo. Cuidado: 0,5 hora é meia hora (30 minutos), mas 0,4 hora não é 40 minutos. Como 1 hora tem 60 minutos, 0,4 × 60 = 24 minutos. Então 7,4 horas são 7 horas e 24 minutos."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é −1,5 + 3?",
+            "alternativas": ["1,5", "−4,5", "4,5", "−1,5"],
+            "correta": 0,
+            "explicacao": "Sinais diferentes: 3 − 1,5 = 1,5, e fica o sinal do 3, que é positivo.",
+            "dica": "Sinais diferentes: subtraia e use o sinal do número maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−0,5) × 2?",
+            "alternativas": ["1", "−1", "−2,5", "2,5"],
+            "correta": 1,
+            "explicacao": "0,5 × 2 = 1. Sinais diferentes dão negativo: −1.",
+            "dica": "Metade de 2 é quanto? Depois pense no sinal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o sinal do resultado de (−3/4) ÷ (−1/2)?",
+            "alternativas": ["Negativo", "Zero", "Positivo", "Depende do tamanho dos números"],
+            "correta": 2,
+            "explicacao": "Na divisão, sinais iguais dão resultado positivo. Menos dividido por menos dá mais.",
+            "dica": "Os dois números têm o mesmo sinal. O que diz a regra de sinais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é −2,3 − 1?",
+            "alternativas": ["−1,3", "1,3", "3,3", "−3,3"],
+            "correta": 3,
+            "explicacao": "Os dois são negativos (−2,3 e −1): soma 2,3 + 1 = 3,3 e mantém o sinal de menos.",
+            "dica": "Quem está devendo 2,3 e passa a dever mais 1 fica devendo quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é negativo?",
+            "alternativas": ["−0,7", "0,7", "3/4", "1,2"],
+            "correta": 0,
+            "explicacao": "Negativo é o que tem o sinal de menos na frente: −0,7 é menor que zero.",
+            "dica": "Procure o número com o sinal de menos."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é −1/2 + 1/3?",
+            "alternativas": ["−1/6", "1/6", "−2/5", "−5/6"],
+            "correta": 0,
+            "explicacao": "Com denominador 6: −3/6 + 2/6 = −1/6. O −2/5 vem do erro de somar numerador com numerador e denominador com denominador.",
+            "dica": "Deixe as duas frações com denominador 6 antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−0,4) × (−2,5)?",
+            "alternativas": ["−1", "1", "10", "−10"],
+            "correta": 1,
+            "explicacao": "0,4 × 2,5 = 1. Sinais iguais dão positivo: 1.",
+            "dica": "Calcule 4 × 25 e acerte as vírgulas. Depois veja os sinais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "De manhã fazia −3,5 °C e à tarde 6,2 °C. Quanto a temperatura subiu?",
+            "alternativas": ["2,7 °C", "−9,7 °C", "9,7 °C", "3,5 °C"],
+            "correta": 2,
+            "explicacao": "Subida = final − inicial = 6,2 − (−3,5) = 6,2 + 3,5 = 9,7 °C. O 2,7 vem de esquecer que de −3,5 até 0 já são 3,5 graus.",
+            "dica": "Conte quanto sobe de −3,5 até 0 e depois de 0 até 6,2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−3/5) ÷ 3?",
+            "alternativas": ["−9/5", "1/5", "−1/15", "−1/5"],
+            "correta": 3,
+            "explicacao": "Dividir por 3 é multiplicar por 1/3: (−3/5) × (1/3) = −3/15 = −1/5.",
+            "dica": "Dividir por 3 é o mesmo que multiplicar pelo inverso de 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O saldo de Juliana estava em −R$ 12,50. Ela recebeu um Pix de R$ 20,00. Qual é o novo saldo?",
+            "alternativas": ["R$ 7,50", "−R$ 32,50", "R$ 32,50", "−R$ 7,50"],
+            "correta": 0,
+            "explicacao": "−12,50 + 20,00 = 7,50. Primeiro o Pix cobre a dívida e sobram R$ 7,50 positivos.",
+            "dica": "Use 12,50 do Pix para zerar a dívida. Quanto sobra dos 20?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−4/5) × (15/8)?",
+            "alternativas": ["3/2", "−3/2", "−11/13", "−19/40"],
+            "correta": 1,
+            "explicacao": "Sinais diferentes: negativo. 4 × 15 = 60 e 5 × 8 = 40. −60/40 simplificado por 20 dá −3/2.",
+            "dica": "Multiplique numerador com numerador e denominador com denominador, depois simplifique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é −1,2 + 0,5 × (−4)?",
+            "alternativas": ["2,8", "−2,8", "−3,2", "−0,8"],
+            "correta": 2,
+            "explicacao": "Primeiro a multiplicação: 0,5 × (−4) = −2. Depois −1,2 + (−2) = −3,2. O 2,8 aparece quando se faz a soma antes.",
+            "dica": "Multiplicação vem antes da soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em quatro dias, as temperaturas mínimas numa cidade da serra foram −2,5 °C, 1,5 °C, −3,5 °C e 0,5 °C. Qual foi a média?",
+            "alternativas": ["−1 °C", "1 °C", "−4 °C", "−2 °C"],
+            "correta": 0,
+            "explicacao": "Soma: −2,5 + 1,5 − 3,5 + 0,5 = −4. Média: −4 ÷ 4 = −1 °C.",
+            "dica": "Some as quatro, cuidando dos sinais, e divida pela quantidade de dias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−3/4) ÷ (−3/8)?",
+            "alternativas": ["−2", "9/32", "1/2", "2"],
+            "correta": 3,
+            "explicacao": "(−3/4) × (−8/3) = 24/12 = 2. Sinais iguais dão positivo. O 9/32 vem de multiplicar em vez de dividir.",
+            "dica": "Troque a divisão pela multiplicação pelo inverso da segunda fração."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os resultados do menor para o maior:",
+            "itens": ["(−0,5) × 6", "−1/2 − 1", "−0,2 + 0,1", "(−1/2) × (−1/2)", "3 ÷ 2"],
+            "explicacao": "(−0,5) × 6 = −3; −1/2 − 1 = −1,5; −0,2 + 0,1 = −0,1; (−1/2) × (−1/2) = 0,25; 3 ÷ 2 = 1,5.",
+            "dica": "Calcule cada um e escreva como decimal antes de comparar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Multiplique o inverso de −2/5 por 0,4. Qual é o resultado?",
+            "alternativas": ["−1", "1", "−0,16", "−2,5"],
+            "correta": 0,
+            "explicacao": "O inverso de −2/5 é −5/2. Como 0,4 = 2/5, temos (−5/2) × (2/5) = −10/10 = −1. O inverso mantém o sinal.",
+            "dica": "Escreva 0,4 como fração e lembre que o inverso não troca o sinal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um congelador desligado estava a −18,5 °C, e a temperatura sobe 2,5 °C por hora. Em quanto tempo ele chega a 0 °C?",
+            "alternativas": ["7 horas e 4 minutos", "7 horas e 40 minutos", "7 horas e 24 minutos", "8 horas e 30 minutos"],
+            "correta": 2,
+            "explicacao": "18,5 ÷ 2,5 = 7,4 horas. A parte 0,4 hora vale 0,4 × 60 = 24 minutos. Pegadinha: 0,4 hora não é 40 minutos.",
+            "dica": "Divida a distância até o zero pela subida por hora e transforme a parte decimal em minutos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−1/2)³ + (−1/2)²?",
+            "alternativas": ["−1/8", "1/8", "−3/8", "3/8"],
+            "correta": 1,
+            "explicacao": "(−1/2)³ = −1/8 (expoente ímpar) e (−1/2)² = 1/4 = 2/8. Então −1/8 + 2/8 = 1/8.",
+            "dica": "Expoente ímpar mantém o sinal negativo; expoente par deixa positivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é [−0,6 + (−0,4)] ÷ (−1/4)?",
+            "alternativas": ["−4", "1/4", "−1/4", "4"],
+            "correta": 3,
+            "explicacao": "Colchetes: −0,6 − 0,4 = −1. Depois (−1) ÷ (−1/4) = (−1) × (−4) = 4.",
+            "dica": "Resolva o colchete primeiro; dividir por um quarto é multiplicar pelo inverso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um número multiplicado por −3/4 dá 1,5. Que número é esse?",
+            "alternativas": ["2", "−1,125", "−2", "−0,5"],
+            "correta": 2,
+            "explicacao": "x = 1,5 ÷ (−3/4) = 1,5 × (−4/3) = −6/3 = −2. Confira: (−2) × (−3/4) = 6/4 = 1,5.",
+            "dica": "Faça a operação inversa e confira o sinal no final."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Inflação: por que o dinheiro compra menos com o tempo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Inflação é o aumento geral dos preços ao longo do tempo. Não é um produto que ficou caro: é o arroz, a passagem, a luz e o pão subindo juntos, aos poucos.",
+          "Quando os preços sobem, a mesma nota de R$ 50 compra menos coisas. Isso se chama perda do poder de compra: o dinheiro continua com o mesmo número, mas vale menos no mercado.",
+          "No Brasil, o índice oficial de inflação é o IPCA, calculado pelo IBGE. Ele acompanha os preços do que as famílias costumam comprar, como alimentos, transporte, aluguel e energia.",
+          "O Banco Central usa a taxa básica de juros, a Selic, para tentar segurar a inflação. Juros mais altos deixam o crédito mais caro, as pessoas compram menos a prazo e os preços tendem a subir mais devagar.",
+          "Por isso, dinheiro parado no colchão perde valor. Quem guarda dinheiro precisa de uma aplicação que renda, pelo menos, o mesmo que a inflação."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma cesta de compras custava R$ 200. Num ano com inflação de 5% nesses produtos, quanto ela passa a custar?",
+            "resolucao": "5% de 200 = 0,05 × 200 = R$ 10. Novo preço: 200 + 10 = R$ 210."
+          },
+          {
+            "enunciado": "Com R$ 100, Tainá comprava 50 pães de R$ 2,00. O pão foi para R$ 2,50. Quantos pães ela compra agora?",
+            "resolucao": "100 ÷ 2,50 = 40 pães. Com o mesmo dinheiro, ela leva 10 pães a menos: é o poder de compra caindo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A inflação de vários anos se acumula como juros sobre juros. Se os preços sobem 10% num ano e mais 10% no outro, a alta total não é 20%: um produto de R$ 100 vai para R$ 110 e depois para R$ 121. A alta acumulada foi de 21%.",
+        "Ganho real é o que sobra depois de descontar a inflação. Se uma aplicação rende 6% no ano e a inflação foi de 4%, o ganho real é de cerca de 2%. Se rende 3% com inflação de 5%, a pessoa perdeu cerca de 2% de poder de compra, mesmo vendo o saldo crescer.",
+        "Quando o índice dá negativo, chama-se deflação: em média, os preços caíram. Antes do Plano Real, de 1994, o Brasil viveu anos de inflação altíssima, em que os preços mudavam quase todo dia no supermercado."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é inflação?",
+            "alternativas": ["Um imposto sobre o pão", "Aumento geral dos preços ao longo do tempo", "Uma promoção do mercado", "Dinheiro guardado no banco"],
+            "correta": 1,
+            "explicacao": "Inflação é quando muitos preços sobem juntos, aos poucos, com o passar do tempo.",
+            "dica": "Pense no que acontece com os preços de muitas coisas com o passar dos anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com inflação, a mesma quantia de dinheiro compra:",
+            "alternativas": ["Menos coisas", "Mais coisas", "Exatamente as mesmas coisas", "Só produtos importados"],
+            "correta": 0,
+            "explicacao": "Se os preços sobem e o dinheiro não aumenta, dá para comprar menos. É a perda do poder de compra.",
+            "dica": "Se tudo ficou mais caro e você tem o mesmo dinheiro..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pão custava R$ 1,00 e subiu 10%. Qual é o novo preço?",
+            "alternativas": ["R$ 1,01", "R$ 2,00", "R$ 1,10", "R$ 0,90"],
+            "correta": 2,
+            "explicacao": "10% de R$ 1,00 são 10 centavos. 1,00 + 0,10 = R$ 1,10.",
+            "dica": "Quanto é a décima parte de um real?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual órgão calcula o IPCA, o índice oficial de inflação do Brasil?",
+            "alternativas": ["Procon", "Receita Federal", "Prefeitura", "IBGE"],
+            "correta": 3,
+            "explicacao": "O IPCA é calculado pelo IBGE, o instituto que também faz o Censo.",
+            "dica": "É o mesmo instituto que faz o Censo da população."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dinheiro guardado no colchão por anos, com inflação:",
+            "alternativas": ["Perde poder de compra", "Rende juros", "Dobra sozinho", "Fica protegido da inflação"],
+            "correta": 0,
+            "explicacao": "Parado, ele não cresce, mas os preços sobem. No fim, compra menos do que comprava.",
+            "dica": "O dinheiro parado cresce? E os preços, ficam parados?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma cesta custava R$ 200 e teve inflação de 5%. Quanto custa agora?",
+            "alternativas": ["R$ 205", "R$ 210", "R$ 250", "R$ 190"],
+            "correta": 1,
+            "explicacao": "5% de 200 = 10. 200 + 10 = R$ 210. O R$ 205 vem de somar 5 reais, e não 5%.",
+            "dica": "Calcule 5% de 200 antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 100, Caio comprava 50 pães de R$ 2,00. O pão foi para R$ 2,50. Quantos pães ele compra agora?",
+            "alternativas": ["45", "50", "40", "25"],
+            "correta": 2,
+            "explicacao": "100 ÷ 2,50 = 40 pães, 10 a menos do que antes.",
+            "dica": "Divida o dinheiro pelo novo preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O salário de Rosana é R$ 2.000 e não teve reajuste. Os preços subiram 6% no ano. O que aconteceu?",
+            "alternativas": ["Ela ficou 6% mais rica", "Nada mudou", "O salário dela aumentou sozinho", "Ela compra menos que antes, mesmo recebendo o mesmo valor"],
+            "correta": 3,
+            "explicacao": "O valor do salário é o mesmo, mas tudo custa mais. O poder de compra caiu.",
+            "dica": "O número no holerite é o mesmo; o que mudou foi o preço das coisas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O litro de leite passou de R$ 4,00 para R$ 5,00. Qual foi o aumento em porcentagem?",
+            "alternativas": ["25%", "20%", "1%", "50%"],
+            "correta": 0,
+            "explicacao": "Aumento de R$ 1,00 sobre R$ 4,00: 1 ÷ 4 = 0,25 = 25%. O 20% vem de dividir pelo preço novo.",
+            "dica": "Divida o aumento pelo preço antigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual instituição usa a taxa Selic para tentar controlar a inflação?",
+            "alternativas": ["IBGE", "Banco Central", "Procon", "Câmara dos Vereadores"],
+            "correta": 1,
+            "explicacao": "O Banco Central define a Selic, a taxa básica de juros do país. O IBGE só mede a inflação.",
+            "dica": "Um mede a inflação; outro mexe nos juros para segurá-la. Qual mexe nos juros?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma poupança rendeu 6% no ano e a inflação foi de 4%. O ganho real foi de, aproximadamente:",
+            "alternativas": ["10%", "6%", "2%", "−2%"],
+            "correta": 2,
+            "explicacao": "Ganho real é o que sobra depois da inflação: cerca de 6% − 4% = 2%.",
+            "dica": "Desconte a inflação do rendimento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma aplicação rendeu 3% no ano e a inflação foi de 5%. O que aconteceu com o poder de compra?",
+            "alternativas": ["Ganhou cerca de 8%", "Perdeu cerca de 2%", "Ganhou 3%", "Ficou igual"],
+            "correta": 1,
+            "explicacao": "O saldo cresceu 3%, mas os preços subiram 5%. Comprando menos, perdeu cerca de 2% de poder de compra.",
+            "dica": "Compare: o que cresceu mais, o saldo ou os preços?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto de R$ 50 teve inflação de 10% num ano e mais 10% no ano seguinte. Quanto custa no fim?",
+            "alternativas": ["R$ 60,00", "R$ 55,00", "R$ 70,00", "R$ 60,50"],
+            "correta": 3,
+            "explicacao": "Ano 1: 50 + 5 = 55. Ano 2: 10% de 55 = 5,50, então 55 + 5,50 = 60,50. A segunda alta é sobre o preço já aumentado.",
+            "dica": "O segundo aumento é calculado sobre o preço do fim do primeiro ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 30, Wesley comprava 6 kg de arroz. O preço do quilo subiu 20%. Quantos quilos ele compra agora com os mesmos R$ 30?",
+            "alternativas": ["5 kg", "4,8 kg", "6 kg", "7,2 kg"],
+            "correta": 0,
+            "explicacao": "O quilo era 30 ÷ 6 = R$ 5. Com 20% a mais: R$ 6. Agora: 30 ÷ 6 = 5 kg.",
+            "dica": "Descubra o preço antigo do quilo, aumente 20% e divida o dinheiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A mesada de Lívia era R$ 50 e foi reajustada em 4%. A inflação do ano também foi de 4%. O que aconteceu?",
+            "alternativas": ["Ela ficou 4% mais rica", "Ela perdeu 8%", "O poder de compra ficou praticamente igual", "Ela ganhou 8%"],
+            "correta": 2,
+            "explicacao": "A mesada subiu na mesma medida que os preços. Ela compra praticamente o mesmo que antes.",
+            "dica": "Compare o reajuste com a alta dos preços."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A inflação foi de 10% num ano e de 10% no seguinte. Qual foi a inflação acumulada nos dois anos?",
+            "alternativas": ["20%", "21%", "10%", "100%"],
+            "correta": 1,
+            "explicacao": "R$ 100 viram R$ 110 e depois R$ 121. A alta acumulada é de 21%, porque a segunda inflação incide sobre preços já aumentados.",
+            "dica": "Teste com um produto de R$ 100 e aplique as duas altas, uma depois da outra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto de R$ 80 subiu 25% e, meses depois, caiu 20%. Quanto custa agora?",
+            "alternativas": ["R$ 84", "R$ 76", "R$ 85", "R$ 80"],
+            "correta": 3,
+            "explicacao": "25% de 80 = 20, foi para R$ 100. Depois 20% de 100 = 20, voltou para R$ 80. As porcentagens são sobre bases diferentes.",
+            "dica": "A queda é calculada sobre o preço já aumentado, não sobre o original."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em alguns anos, os preços dobraram. Hoje, R$ 100 compram o que antes se comprava com:",
+            "alternativas": ["R$ 50", "R$ 200", "R$ 100", "R$ 25"],
+            "correta": 0,
+            "explicacao": "Se tudo custa o dobro, R$ 100 compram só a metade do que compravam: o que antes custava R$ 50.",
+            "dica": "Se tudo custa o dobro, o dinheiro rende quanto do que rendia?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um salário de R$ 1.500 teve reajuste de 5%, mas a inflação foi de 8%. Quanto faltou, por mês, para manter o mesmo poder de compra?",
+            "alternativas": ["R$ 120", "R$ 75", "R$ 45", "R$ 0"],
+            "correta": 2,
+            "explicacao": "Com 5%: 1.500 + 75 = R$ 1.575. Para acompanhar 8%: 1.500 + 120 = R$ 1.620. Faltaram 1.620 − 1.575 = R$ 45.",
+            "dica": "Calcule o salário com o reajuste e o salário que acompanharia a inflação. Compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num mês, o IPCA deu −0,2%. O que isso significa?",
+            "alternativas": ["Os preços subiram muito", "Em média, os preços caíram um pouco", "O governo cobrou um imposto novo", "O salário mínimo diminuiu"],
+            "correta": 1,
+            "explicacao": "Índice negativo é deflação: na média, os preços caíram. Não quer dizer que tudo ficou mais barato, só a média.",
+            "dica": "Lembre o nome que o aprofundamento dá quando o índice fica negativo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Entrada do usuário e conversão de tipos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O comando LEIA para o programa e espera a pessoa digitar algo. O que ela digita é guardado numa variável: LEIA nome guarda o nome digitado.",
+          "Atenção: tudo o que se digita chega como texto. Se a pessoa digita 5, o programa recebe '5', um texto com um caractere, e não o número 5.",
+          "Com textos, o sinal + junta em vez de somar: '5' + '3' dá '53'. Para fazer conta, converta antes: inteiro('5') vale o número 5, e real('2.5') vale o número 2.5. Na maioria das linguagens, o número com casas decimais é escrito com ponto, e não com vírgula.",
+          "O caminho contrário também existe: texto(12) transforma o número 12 no texto '12'. Isso serve para montar frases: 'Você tem ' + texto(12) + ' anos'.",
+          "Se o texto não for um número, a conversão dá erro: inteiro('doze') não funciona. Por isso, bons programas conferem o que a pessoa digitou."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "LEIA a; LEIA b; ESCREVA a + b. A pessoa digita 4 e depois 6. O que aparece? Como corrigir?",
+            "resolucao": "Aparece 46, porque a e b são textos e o + juntou '4' com '6'. Correção: ESCREVA inteiro(a) + inteiro(b), que mostra 10."
+          },
+          {
+            "enunciado": "Faça um programa que leia a idade e mostre a idade do ano que vem.",
+            "resolucao": "LEIA idade; idade ← inteiro(idade); ESCREVA 'Ano que vem: ' + texto(idade + 1). Se a pessoa digitar 13, aparece Ano que vem: 14."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Os tipos mais comuns são: inteiro (números sem vírgula, como 7), real (números com casas decimais, como 7.5), texto (como 'Ana') e lógico (verdadeiro ou falso). Cada tipo aceita operações diferentes.",
+        "Converter um real em inteiro, em muitas linguagens, corta a parte decimal sem arredondar: inteiro(9.8) dá 9, e não 10. Para arredondar, existe outra função.",
+        "Para não deixar o programa quebrar, dá para repetir a pergunta até vir um número: LEIA x; ENQUANTO x não for número FAÇA ESCREVA 'Digite só números'; LEIA x. Assim, cada resposta errada gera uma nova leitura."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o comando LEIA faz?",
+            "alternativas": ["Guarda numa variável o que a pessoa digita", "Mostra uma mensagem na tela", "Apaga a variável", "Desliga o computador"],
+            "correta": 0,
+            "explicacao": "LEIA espera a pessoa digitar e guarda o valor numa variável. Quem mostra mensagem é o ESCREVA.",
+            "dica": "Um comando recebe informação; o outro mostra. Qual recebe?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando a pessoa digita algo, o valor chega ao programa como:",
+            "alternativas": ["Número inteiro", "Texto", "Lógico", "Número real"],
+            "correta": 1,
+            "explicacao": "Tudo o que se digita chega como texto. Para fazer conta, é preciso converter.",
+            "dica": "Mesmo quem digita 5 manda caracteres do teclado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá '5' + '3', com os dois entre aspas?",
+            "alternativas": ["8", "15", "'53'", "'8'"],
+            "correta": 2,
+            "explicacao": "Entre aspas são textos, e o + junta textos: '5' + '3' = '53'.",
+            "dica": "Com textos, o sinal de mais junta, não soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual função transforma o texto '12' no número 12?",
+            "alternativas": ["texto('12')", "LEIA('12')", "ESCREVA('12')", "inteiro('12')"],
+            "correta": 3,
+            "explicacao": "inteiro() converte um texto em número inteiro. texto() faz o caminho contrário.",
+            "dica": "O nome da função é o tipo que você quer obter."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para juntar 'Idade: ' com o número 13 numa frase, você usa:",
+            "alternativas": ["'Idade: ' + texto(13)", "'Idade: ' + inteiro(13)", "'Idade: ' − 13", "'Idade: ' × 13"],
+            "correta": 0,
+            "explicacao": "Para juntar, os dois lados precisam ser textos. texto(13) transforma o número em '13'.",
+            "dica": "Para juntar, os dois lados precisam ser do mesmo tipo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "LEIA a; LEIA b; ESCREVA a + b. A pessoa digita 4 e depois 6. O que aparece?",
+            "alternativas": ["10", "46", "64", "24"],
+            "correta": 1,
+            "explicacao": "a e b chegaram como textos, então o + juntou '4' com '6', formando 46.",
+            "dica": "Lembre como os valores digitados chegam ao programa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com a = '4' e b = '6', o que mostra ESCREVA inteiro(a) + inteiro(b)?",
+            "alternativas": ["46", "24", "10", "64"],
+            "correta": 2,
+            "explicacao": "Convertidos, viram os números 4 e 6, e o + soma: 10.",
+            "dica": "Depois de converter, o sinal de mais faz conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale real('2.5') + 1?",
+            "alternativas": ["3.5", "'2.51'", "2.51", "Dá erro"],
+            "correta": 0,
+            "explicacao": "real('2.5') vira o número 2.5, e 2.5 + 1 = 3.5.",
+            "dica": "Primeiro converta, depois faça a conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com inteiro('sete')?",
+            "alternativas": ["Vira 7", "Vira 'sete'", "Vira 0", "Dá erro, pois o texto não é um número"],
+            "correta": 3,
+            "explicacao": "A conversão só funciona com algarismos. Palavras não viram número.",
+            "dica": "O computador sabe ler algarismos, mas e palavras?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "idade ← inteiro('13'); ESCREVA 'Ano que vem: ' + texto(idade + 1). O que aparece?",
+            "alternativas": ["Ano que vem: 131", "Ano que vem: 14", "Ano que vem: 13 + 1", "Dá erro"],
+            "correta": 1,
+            "explicacao": "idade é o número 13. idade + 1 = 14, convertido em '14' e juntado à frase.",
+            "dica": "Dentro dos parênteses, idade já é número."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "preco ← real('3.50'); qtd ← inteiro('4'); ESCREVA preco × qtd. O que aparece?",
+            "alternativas": ["14", "3.504", "12", "7.5"],
+            "correta": 0,
+            "explicacao": "3.50 × 4 = 14. Os dois foram convertidos em número antes da conta.",
+            "dica": "Os dois já são números. Faça a multiplicação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x ← '2'; y ← x + x; z ← inteiro(y) + 1. Quanto vale z?",
+            "alternativas": ["5", "23", "221", "4"],
+            "correta": 1,
+            "explicacao": "x é texto, então y = '22'. inteiro('22') = 22, e 22 + 1 = 23.",
+            "dica": "Veja o tipo de x na hora de calcular y."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em muitas linguagens, quanto vale inteiro(9.8)?",
+            "alternativas": ["10", "9.8", "9", "Dá erro"],
+            "correta": 2,
+            "explicacao": "A conversão para inteiro corta a parte decimal, sem arredondar. Sobra o 9.",
+            "dica": "O aprofundamento diz se essa conversão arredonda ou corta."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem um programa que mostra a média de duas notas:",
+            "itens": ["LEIA n1", "LEIA n2", "media ← (real(n1) + real(n2)) ÷ 2", "ESCREVA 'Média: ' + texto(media)"],
+            "explicacao": "Primeiro lê as duas notas, depois converte e calcula, e só no fim mostra a frase.",
+            "dica": "Não dá para calcular nem mostrar o que ainda não foi lido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nas regras que estamos usando (como em Python), qual linha dá erro?",
+            "alternativas": ["texto(15) + ' reais'", "inteiro('30') + 5", "real('1.5') × 2", "'Total: ' + 10"],
+            "correta": 3,
+            "explicacao": "Não se junta texto com número sem converter. O certo seria 'Total: ' + texto(10).",
+            "dica": "Procure a linha que mistura tipos diferentes sem conversão."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "a ← '3'; b ← '4'; ESCREVA inteiro(a + b) + inteiro(a) + inteiro(b). O que aparece?",
+            "alternativas": ["14", "41", "347", "10"],
+            "correta": 1,
+            "explicacao": "a + b junta textos: '34'. inteiro('34') = 34. Depois 34 + 3 + 4 = 41.",
+            "dica": "Resolva primeiro o que está dentro de cada parêntese, olhando o tipo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "LEIA x; ENQUANTO x não for número FAÇA LEIA x. A pessoa digita 'dez', depois '10a' e depois '10'. Quantas vezes LEIA é executado no total?",
+            "alternativas": ["1", "2", "3", "4"],
+            "correta": 2,
+            "explicacao": "1ª leitura: 'dez' (não é número). 2ª: '10a' (não é). 3ª: '10' (é número, o laço para). Total: 3.",
+            "dica": "Conte a leitura antes do laço e cada leitura dentro dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total ← 0; PARA CADA t EM ['2', '5', '8'] FAÇA total ← total + inteiro(t). Quanto vale total?",
+            "alternativas": ["'258'", "258", "Dá erro", "15"],
+            "correta": 3,
+            "explicacao": "Cada texto é convertido antes de somar: 0 + 2 + 5 + 8 = 15.",
+            "dica": "O acumulador começa em 0 e cada item vira número antes de entrar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale inteiro(texto(7) + texto(3)) ÷ 10?",
+            "alternativas": ["7.3", "1", "10", "73"],
+            "correta": 0,
+            "explicacao": "texto(7) + texto(3) = '73'. inteiro('73') = 73. 73 ÷ 10 = 7.3.",
+            "dica": "Os textos se juntam antes de virar número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em muitas linguagens, quanto vale inteiro(real('4.9') + real('0.2'))?",
+            "alternativas": ["4", "6", "5", "5.1"],
+            "correta": 2,
+            "explicacao": "4.9 + 0.2 = 5.1. Convertido para inteiro, a parte decimal é cortada: 5.",
+            "dica": "Some primeiro e só depois corte a parte decimal."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Modo imperativo: ordens, pedidos e conselhos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O modo imperativo é usado para dar ordens, fazer pedidos, dar conselhos e passar instruções: “Feche a porta”, “Por favor, me ajude”, “Beba água”, “Aperte o botão verde”.",
+          "Ele tem duas formas: afirmativo (“Corra!”) e negativo (“Não corra!”). Placas e avisos usam muito o imperativo: “Não pise na grama”, “Aperte o cinto”.",
+          "No dia a dia de São Paulo, usamos quase sempre “você” e “vocês”. Para essas pessoas, o imperativo é igual ao presente do subjuntivo: que você estude → Estude!; que vocês estudem → Estudem!",
+          "Alguns verbos importantes: fazer → faça; ir → vá; ser → seja; ter → tenha; pôr → ponha; vir → venha.",
+          "O imperativo pode soar mandão. Para pedir com educação, acrescente “por favor” ou troque por uma pergunta: “Você pode fechar a porta?”."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Passe “sair” para o imperativo afirmativo e negativo com “você”.",
+            "resolucao": "Afirmativo: Saia da sala. Negativo: Não saia da sala. As duas formas vêm de “que você saia”."
+          },
+          {
+            "enunciado": "Reescreva a instrução “Ligar o fogo e mexer sem parar” no imperativo com “você”.",
+            "resolucao": "Ligue o fogo e mexa sem parar. Os verbos saíram do infinitivo (ligar, mexer) e foram para o imperativo (ligue, mexa)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Com “tu”, o imperativo afirmativo vem do presente do indicativo sem o s: tu falas → fala; tu comes → come; tu vens → vem. Já o negativo com “tu” vem do subjuntivo: não fales, não comas, não venhas.",
+        "Por isso, “Vem cá” é imperativo para tu, e “Venha cá” é para você. Na fala, misturar é comum (“Faz isso pra você”), mas num texto escrito com cuidado escolha uma pessoa e mantenha até o fim: “Faça a tarefa e entregue amanhã”.",
+        "Receitas e manuais também aparecem no infinitivo (“Bater os ovos”, “Misturar bem”). As duas formas são aceitas em instruções, mas não misture as duas no mesmo texto."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está no imperativo?",
+            "alternativas": ["Feche a janela, por favor.", "Ela fechou a janela.", "Nós fechamos a janela.", "A janela estava fechada."],
+            "correta": 0,
+            "explicacao": "“Feche” é um pedido feito a alguém. As outras frases contam ou descrevem algo.",
+            "dica": "Procure a frase que pede alguma coisa a alguém."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O modo imperativo serve para:",
+            "alternativas": ["Contar o que aconteceu ontem", "Dar ordens, pedidos e conselhos", "Descrever o passado", "Fazer perguntas sobre o futuro"],
+            "correta": 1,
+            "explicacao": "O imperativo é o modo de mandar, pedir, aconselhar e instruir.",
+            "dica": "Pense nas placas de aviso: o que elas fazem com quem lê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A placa “Não pise na grama” está no imperativo:",
+            "alternativas": ["afirmativo", "interrogativo", "negativo", "do passado"],
+            "correta": 2,
+            "explicacao": "Tem a palavra “não” proibindo uma ação: é imperativo negativo.",
+            "dica": "Repare na palavra que vem antes do verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete com o verbo apertar, falando com “você”: “____ o cinto de segurança.”",
+            "alternativas": ["Apertou", "Apertava", "Apertará", "Aperte"],
+            "correta": 3,
+            "explicacao": "Para dar uma instrução a “você”, usamos “Aperte”. As outras formas falam do passado ou do futuro.",
+            "dica": "É uma instrução para agora, não algo que já aconteceu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é um conselho?",
+            "alternativas": ["Beba água durante o dia.", "Ele bebeu água.", "A água acabou.", "Quem bebeu a água?"],
+            "correta": 0,
+            "explicacao": "“Beba” aconselha uma atitude. As outras informam ou perguntam.",
+            "dica": "Qual frase sugere uma atitude a quem lê?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o imperativo afirmativo de “estudar” para “vocês”?",
+            "alternativas": ["Estudam", "Estudem", "Estudaram", "Estudariam"],
+            "correta": 1,
+            "explicacao": "Vem de “que vocês estudem”. “Estudam” é o presente do indicativo, que só informa.",
+            "dica": "Pense em “que vocês...” e complete com o verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete com o verbo correr, falando com “você”: “Não ____ na sala.”",
+            "alternativas": ["corre", "corres", "corra", "correu"],
+            "correta": 2,
+            "explicacao": "O negativo vem do subjuntivo: que você corra → Não corra.",
+            "dica": "Use a forma de “que você...”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o imperativo de “fazer” para “você”?",
+            "alternativas": ["Faz", "Fazia", "Fará", "Faça"],
+            "correta": 3,
+            "explicacao": "Que você faça → Faça. “Faz” é a forma de tu.",
+            "dica": "Complete: “que você...” com o verbo fazer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é um pedido educado?",
+            "alternativas": ["Por favor, me empreste o lápis.", "Empresta logo!", "Ele emprestou o lápis.", "O lápis é emprestado."],
+            "correta": 0,
+            "explicacao": "Tem o imperativo “empreste” suavizado pelo “por favor”. “Empresta logo!” é uma ordem brusca.",
+            "dica": "Procure o pedido que tem uma expressão de gentileza."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o imperativo de “ir” para “você”?",
+            "alternativas": ["Ia", "Vá", "Foi", "Iria"],
+            "correta": 1,
+            "explicacao": "Que você vá → Vá. É um verbo irregular, sem o i do infinitivo.",
+            "dica": "É um verbo irregular; complete “que você...”."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase mistura “tu” e “você” no imperativo?",
+            "alternativas": ["Faça a tarefa e entregue amanhã.", "Faz a tarefa e entregue amanhã.", "Façam a tarefa e entreguem amanhã.", "Não faça a tarefa com pressa."],
+            "correta": 1,
+            "explicacao": "“Faz” é imperativo de tu e “entregue” é de você. Num texto cuidado, use uma pessoa só.",
+            "dica": "Veja se os dois verbos da frase falam com a mesma pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Transforme “Saia agora.” (com você) em imperativo negativo:",
+            "alternativas": ["Não sai agora.", "Não saiu agora.", "Não saia agora.", "Saia não agora."],
+            "correta": 2,
+            "explicacao": "Com você, o negativo mantém a forma do subjuntivo: Não saia.",
+            "dica": "Com você, o verbo continua igual; só ganha o “não” na frente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete com o verbo ser, falando com “você”: “____ gentil com os colegas.”",
+            "alternativas": ["Seja", "Foi", "Seria", "Será"],
+            "correta": 0,
+            "explicacao": "Que você seja → Seja. É um conselho, por isso imperativo.",
+            "dica": "Complete “que você...” com o verbo ser."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase o verbo NÃO está no imperativo?",
+            "alternativas": ["Desligue a luz ao sair.", "Não deixe a torneira aberta.", "Guarde os brinquedos.", "Ela desliga a luz ao sair."],
+            "correta": 3,
+            "explicacao": "“Ela desliga” só informa o que ela costuma fazer: é presente do indicativo.",
+            "dica": "Procure a frase que conta um hábito de alguém, sem mandar nada."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as instruções para fazer um suco:",
+            "itens": ["Lave as mãos e as frutas.", "Corte as frutas em pedaços.", "Bata tudo no liquidificador com água.", "Sirva o suco no copo."],
+            "explicacao": "Primeiro a higiene, depois o preparo, depois bater e por fim servir. Todos os verbos estão no imperativo com você.",
+            "dica": "Pense na ordem em que você faria isso na cozinha."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o imperativo afirmativo de “falar” para “tu”?",
+            "alternativas": ["Fale", "Fala", "Falas", "Falai"],
+            "correta": 1,
+            "explicacao": "Com tu, o afirmativo vem do presente sem o s: tu falas → fala. “Fale” é para você.",
+            "dica": "Parta do presente do indicativo com tu e siga a regra do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o imperativo negativo de “falar” para “tu”?",
+            "alternativas": ["Não fala", "Não falas", "Não fales", "Não falar"],
+            "correta": 2,
+            "explicacao": "O negativo com tu vem do subjuntivo: que tu fales → Não fales. A pegadinha é achar que basta pôr “não” antes de “fala”.",
+            "dica": "O negativo, para todas as pessoas, vem do subjuntivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete com fechar e fazer: “Vocês ____ a porta e não ____ barulho.”",
+            "alternativas": ["fechem / façam", "fecham / fazem", "fechem / fazem", "fechar / fazer"],
+            "correta": 0,
+            "explicacao": "Que vocês fechem → fechem; que vocês façam → não façam. Os dois no imperativo.",
+            "dica": "Os dois verbos precisam estar na forma de “que vocês...”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Vem cá” e “Venha cá” são, nessa ordem, imperativo de vir para:",
+            "alternativas": ["você e tu", "nós e vocês", "eles e nós", "tu e você"],
+            "correta": 3,
+            "explicacao": "Tu vens → vem (tu). Que você venha → venha (você).",
+            "dica": "Lembre o exemplo de “Vem cá” no aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A receita diz “Bater os ovos e acrescentar o açúcar”. Qual reescrita usa o imperativo com “você”, sem misturar pessoas?",
+            "alternativas": ["Bate os ovos e acrescenta o açúcar.", "Bata os ovos e acrescente o açúcar.", "Batia os ovos e acrescentava o açúcar.", "Batam os ovos e acrescente o açúcar."],
+            "correta": 1,
+            "explicacao": "“Bata” e “acrescente” são as duas formas de você. “Bate/acrescenta” é tu, e “Batam/acrescente” mistura vocês com você.",
+            "dica": "Os dois verbos precisam ser de “que você...”."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O preço do pão da vó",
+    "texto": "Domingo de manhã, Davi foi com a avó Lurdes à padaria da esquina. Ela pediu dez pães, e a moça do caixa disse:\n\n— Dá oito reais, dona Lurdes.\n\nNo caminho de volta, a avó balançava a cabeça.\n\n— Quando eu tinha a sua idade, com uma moeda eu trazia pão para a casa inteira.\n\n— O pão ficou mais gostoso, vó?\n\nEla riu. Explicou que o pão era o mesmo: farinha, água, sal e fermento. O que mudou foi o resto. A farinha subiu, a conta de luz do forno subiu, o salário do padeiro também precisou subir. Tudo subindo junto, um pouquinho por ano, até virar muito.\n\n— Isso tem nome — disse Davi, lembrando da aula. — Inflação.\n\nEm casa, ele fez as contas num papel. Se o pão custava 60 centavos alguns anos antes e agora custava 80, tinha subido um terço. A mesada dele, de vinte reais, não tinha mudado nada.\n\n— Então, vó, a minha mesada está encolhendo e ninguém me avisou.\n\nA avó deu uma gargalhada e cortou um pão ainda quente para ele.\n\n— Por isso eu digo: dinheiro parado não cresce. Quem entende de preço gasta melhor."
+  },
+  "escrita": {
+    "proposta": "Pergunte a um adulto de casa quanto custava um produto (pão, passagem de ônibus, arroz ou outro) há uns 10 anos e quanto custa hoje. Em 5 a 10 linhas no caderno, escreva os dois preços, calcule quanto subiu em reais e explique, com suas palavras, por que isso acontece. Use pelo menos uma vez as expressões “inflação” e “poder de compra”."
+  }
+}

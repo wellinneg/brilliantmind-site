@@ -1,0 +1,903 @@
+{
+  "dia": 40,
+  "blocos": [
+    {
+      "materia": "portugues",
+      "titulo": "Texto instrutivo: receita e manual",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "O texto instrutivo serve para ensinar alguém a fazer alguma coisa. Receitas, manuais de aparelhos, regras de jogo e bulas de remédio são exemplos.",
+          "A receita tem partes fixas: título (o nome do prato), ingredientes (o que vai ser usado, com as quantidades) e modo de fazer (os passos, em ordem).",
+          "Os verbos costumam aparecer no imperativo (misture, bata, coloque) ou no infinitivo (misturar, bater, colocar). Cada passo diz uma ação clara.",
+          "A linguagem é simples e direta, sem enfeites. A ordem importa: se trocar os passos, o resultado pode dar errado."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quais são as partes de uma receita de suco de laranja?",
+            "resolucao": "Título: Suco de laranja. Ingredientes: 4 laranjas, 1 copo de água, açúcar a gosto. Modo de fazer: 1. Corte as laranjas. 2. Esprema. 3. Misture com a água. 4. Adoce e sirva."
+          },
+          {
+            "enunciado": "Em \"Bata os ovos e acrescente o leite\", em que modo estão os verbos?",
+            "resolucao": "No imperativo: bata e acrescente dão ordens ou instruções."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O manual de um aparelho também tem partes: para que ele serve, como montar, como usar, como limpar e os avisos de segurança (por exemplo: \"Não mergulhe na água\"). Esses avisos protegem quem usa.",
+        "Números, marcadores e quantidades exatas deixam a instrução mais clara: \"2 xícaras de farinha\" é melhor que \"um tanto de farinha\". Palavras de ordem, como primeiro, depois e por fim, ajudam quando os passos não são numerados.",
+        "Um bom teste para um texto instrutivo é pedir a alguém que siga os passos sem fazer perguntas. Se a pessoa travar, falta informação."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um texto instrutivo?",
+            "alternativas": [
+              "Para ensinar a fazer alguma coisa",
+              "Para contar uma piada",
+              "Para vender um carro",
+              "Para narrar um sonho"
+            ],
+            "correta": 0,
+            "explicacao": "Ele ensina a fazer algo, passo a passo.",
+            "dica": "Pense numa receita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um texto instrutivo?",
+            "alternativas": [
+              "Um poema de amor",
+              "Uma receita de bolo",
+              "Uma notícia de jornal",
+              "Uma fábula"
+            ],
+            "correta": 1,
+            "explicacao": "A receita ensina a fazer o bolo.",
+            "dica": "Qual deles ensina a fazer algo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual parte da receita aparecem as quantidades?",
+            "alternativas": [
+              "No título",
+              "No modo de fazer só",
+              "Nos ingredientes",
+              "Em nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "Os ingredientes vêm com as quantidades.",
+            "dica": "Onde está a lista do que vai ser usado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Misture bem\", o verbo está no:",
+            "alternativas": [
+              "passado",
+              "futuro",
+              "plural",
+              "imperativo"
+            ],
+            "correta": 3,
+            "explicacao": "Misture dá uma instrução: é imperativo.",
+            "dica": "Ele dá uma ordem ou instrução."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A ordem dos passos numa receita:",
+            "alternativas": [
+              "importa muito",
+              "não importa",
+              "é sempre ao contrário",
+              "é sorteada"
+            ],
+            "correta": 0,
+            "explicacao": "Trocar a ordem pode estragar o resultado.",
+            "dica": "Dá para assar antes de misturar?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as três partes de uma receita?",
+            "alternativas": [
+              "Começo, meio e fim",
+              "Título, ingredientes e modo de fazer",
+              "Personagem, tempo e espaço",
+              "Verso, estrofe e rima"
+            ],
+            "correta": 1,
+            "explicacao": "Essas são as partes fixas da receita.",
+            "dica": "Releia o segundo parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual passo está escrito no infinitivo?",
+            "alternativas": [
+              "Bata os ovos.",
+              "Coloque no forno.",
+              "Misturar a farinha.",
+              "Sirva gelado."
+            ],
+            "correta": 2,
+            "explicacao": "Misturar termina em -r: é o infinitivo.",
+            "dica": "Procure o verbo terminado em r."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual instrução é mais clara?",
+            "alternativas": [
+              "Coloque um tanto de farinha.",
+              "Coloque farinha até achar bom.",
+              "Coloque bastante farinha.",
+              "Coloque 2 xícaras de farinha."
+            ],
+            "correta": 3,
+            "explicacao": "Quantidade exata evita erro.",
+            "dica": "Qual delas diz exatamente quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual aviso de segurança combina com o manual de uma chaleira elétrica?",
+            "alternativas": [
+              "Não mergulhe a base na água.",
+              "Cante enquanto usa.",
+              "Use só aos domingos.",
+              "Pinte de azul."
+            ],
+            "correta": 0,
+            "explicacao": "Avisos de segurança protegem quem usa.",
+            "dica": "O que pode ser perigoso num aparelho elétrico?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o modo de fazer de um suco de laranja:",
+            "itens": [
+              "Corte as laranjas ao meio",
+              "Esprema as laranjas",
+              "Misture o suco com a água",
+              "Adoce e sirva"
+            ],
+            "explicacao": "Cortar, espremer, misturar e servir.",
+            "dica": "Não dá para espremer antes de cortar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra ajuda a mostrar a ordem quando os passos não são numerados?",
+            "alternativas": [
+              "Bonito",
+              "Depois",
+              "Talvez",
+              "Feliz"
+            ],
+            "correta": 1,
+            "explicacao": "Depois indica a sequência dos passos.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um manual tem: \"1. Ligue o aparelho na tomada. 2. Encha de água. 3. Aperte o botão.\" O que está errado?",
+            "alternativas": [
+              "Nada",
+              "O número 3",
+              "A ordem: o certo é encher antes de ligar",
+              "A palavra botão"
+            ],
+            "correta": 2,
+            "explicacao": "Ligar vazio pode estragar a chaleira; encher vem antes.",
+            "dica": "Pense na segurança e na lógica dos passos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas NÃO é uma característica do texto instrutivo?",
+            "alternativas": [
+              "Verbos no imperativo ou no infinitivo",
+              "Passos em ordem",
+              "Linguagem clara",
+              "Muitos enfeites e rimas"
+            ],
+            "correta": 3,
+            "explicacao": "O instrutivo é direto e sem enfeites.",
+            "dica": "Procure a característica de poema."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor teste para saber se uma receita está clara?",
+            "alternativas": [
+              "Pedir a alguém que siga os passos sem fazer perguntas",
+              "Ler bem rápido",
+              "Contar as palavras",
+              "Trocar o título"
+            ],
+            "correta": 0,
+            "explicacao": "Se a pessoa travar, falta informação.",
+            "dica": "Releia o fim do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para o imperativo: \"Lavar as mãos antes de cozinhar.\"",
+            "alternativas": [
+              "Lavou as mãos antes de cozinhar.",
+              "Lave as mãos antes de cozinhar.",
+              "Lavando as mãos antes de cozinhar.",
+              "Lavará as mãos antes de cozinhar."
+            ],
+            "correta": 1,
+            "explicacao": "Lave é o imperativo de lavar.",
+            "dica": "É a forma usada para dar uma instrução."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma receita diz: \"Asse por 40 minutos. Misture os ingredientes. Unte a forma.\" Qual é a ordem certa?",
+            "alternativas": [
+              "Asse, misture e unte",
+              "Misture, asse e unte",
+              "Unte a forma, misture e asse",
+              "Unte, asse e misture"
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro prepara a forma e a massa; assar é o último passo.",
+            "dica": "O que precisa estar pronto antes de ir ao forno?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma receita para 4 pessoas usa 2 xícaras de arroz. Quantas xícaras para 10 pessoas?",
+            "alternativas": [
+              "4",
+              "8",
+              "6",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "Meia xícara por pessoa: 10 × 0,5 = 5.",
+            "dica": "Descubra quanto vai para uma pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual instrução de um jogo de tabuleiro está mais completa?",
+            "alternativas": [
+              "Na sua vez, jogue o dado e ande o número de casas que sair.",
+              "Jogue.",
+              "Ande um pouco.",
+              "Faça o que achar melhor."
+            ],
+            "correta": 0,
+            "explicacao": "Diz quando, o que fazer e quanto andar.",
+            "dica": "Qual delas não deixa dúvidas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o manual traz avisos como \"Mantenha fora do alcance de crianças\"?",
+            "alternativas": [
+              "Para enfeitar",
+              "Para proteger quem usa e quem está por perto",
+              "Porque é bonito",
+              "Para encher a página"
+            ],
+            "correta": 1,
+            "explicacao": "Avisos de segurança evitam acidentes.",
+            "dica": "Quem o aviso está protegendo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos verbos no imperativo há em \"Separe os ovos, bata as claras e junte o açúcar. Depois, levar ao forno.\"?",
+            "alternativas": [
+              "4",
+              "2",
+              "3",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "Separe, bata e junte estão no imperativo; levar está no infinitivo.",
+            "dica": "Separe os verbos que terminam em r."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "ingles",
+      "titulo": "Feelings: os sentimentos em inglês",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para perguntar como alguém se sente, dizemos: How do you feel? ou How are you feeling? (Como você está se sentindo?).",
+          "Alguns sentimentos: happy (feliz), sad (triste), angry (com raiva), scared (com medo), tired (cansado), bored (entediado), excited (animado) e nervous (nervoso).",
+          "Para responder: I feel happy (Eu me sinto feliz) ou I am sad (Eu estou triste). Para falar de outra pessoa: She is tired (Ela está cansada). He is angry (Ele está com raiva).",
+          "Saber nomear o que sentimos ajuda a conversar e a pedir ajuda quando precisamos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Traduza: \"I am tired.\"",
+            "resolucao": "Eu estou cansado (ou cansada)."
+          },
+          {
+            "enunciado": "Como dizer \"Ela está animada\"?",
+            "resolucao": "She is excited."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Outros sentimentos úteis: worried (preocupado), surprised (surpreso), proud (orgulhoso) e calm (calmo).",
+        "Para explicar o motivo, usamos because (porque): I am happy because it's my birthday (Estou feliz porque é meu aniversário). I am scared because of the storm (Estou com medo por causa da tempestade).",
+        "Pegadinha: excited quer dizer animado, empolgado. Não é \"excitado\" no sentido do português. E bored (entediado) é diferente de boring (chato, que causa tédio): The class is boring, so I am bored."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer \"happy\"?",
+            "alternativas": [
+              "feliz",
+              "triste",
+              "cansado",
+              "com medo"
+            ],
+            "correta": 0,
+            "explicacao": "Happy = feliz.",
+            "dica": "Pense no aniversário: Happy birthday!"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer \"sad\"?",
+            "alternativas": [
+              "com raiva",
+              "triste",
+              "animado",
+              "calmo"
+            ],
+            "correta": 1,
+            "explicacao": "Sad = triste.",
+            "dica": "É o contrário de happy."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se diz \"cansado\" em inglês?",
+            "alternativas": [
+              "bored",
+              "angry",
+              "tired",
+              "happy"
+            ],
+            "correta": 2,
+            "explicacao": "Tired = cansado.",
+            "dica": "Como você fica depois de correr muito?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Angry\" quer dizer:",
+            "alternativas": [
+              "feliz",
+              "entediado",
+              "com sono",
+              "com raiva"
+            ],
+            "correta": 3,
+            "explicacao": "Angry = com raiva.",
+            "dica": "É um sentimento forte e ruim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se pergunta \"Como você está se sentindo?\"",
+            "alternativas": [
+              "How are you feeling?",
+              "What time is it?",
+              "Where do you live?",
+              "How old are you?"
+            ],
+            "correta": 0,
+            "explicacao": "Feel e feeling falam de sentimentos.",
+            "dica": "Procure a palavra feel."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Traduza: \"I am tired.\"",
+            "alternativas": [
+              "Eu estou feliz.",
+              "Eu estou cansado.",
+              "Eu estou triste.",
+              "Eu estou com medo."
+            ],
+            "correta": 1,
+            "explicacao": "Tired = cansado.",
+            "dica": "Tired é como você fica depois de um dia longo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como dizer \"Ela está animada\"?",
+            "alternativas": [
+              "She is sad.",
+              "He is excited.",
+              "She is excited.",
+              "She is bored."
+            ],
+            "correta": 2,
+            "explicacao": "She = ela; excited = animada.",
+            "dica": "Ela é she e animada é excited."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Scared\" quer dizer:",
+            "alternativas": [
+              "entediado",
+              "orgulhoso",
+              "calmo",
+              "com medo"
+            ],
+            "correta": 3,
+            "explicacao": "Scared = com medo.",
+            "dica": "Como você fica num filme de terror?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"He has a test today. He is ___.\"",
+            "alternativas": [
+              "nervous",
+              "bored",
+              "happy",
+              "tired"
+            ],
+            "correta": 0,
+            "explicacao": "Antes de uma prova, é comum ficar nervoso.",
+            "dica": "Como muita gente fica antes de uma prova?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Monte a frase \"Eu me sinto feliz\" em inglês:",
+            "itens": [
+              "I",
+              "feel",
+              "happy",
+              "today"
+            ],
+            "explicacao": "I feel happy today: eu, sinto, feliz, hoje.",
+            "dica": "Comece por quem sente."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra quer dizer \"preocupado\"?",
+            "alternativas": [
+              "proud",
+              "worried",
+              "surprised",
+              "calm"
+            ],
+            "correta": 1,
+            "explicacao": "Worried = preocupado.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Traduza: \"I am happy because it's my birthday.\"",
+            "alternativas": [
+              "Estou triste porque é meu aniversário.",
+              "Estou cansado no meu aniversário.",
+              "Estou feliz porque é meu aniversário.",
+              "Meu aniversário é feliz porque estou aqui."
+            ],
+            "correta": 2,
+            "explicacao": "Because = porque.",
+            "dica": "Because explica o motivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra completa: \"I finished the race first. I am very ___.\"",
+            "alternativas": [
+              "sad",
+              "bored",
+              "scared",
+              "proud"
+            ],
+            "correta": 3,
+            "explicacao": "Quem vence uma corrida fica orgulhoso: proud.",
+            "dica": "Como você se sente quando consegue algo difícil?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer \"excited\"?",
+            "alternativas": [
+              "animado, empolgado",
+              "cansado",
+              "com raiva",
+              "entediado"
+            ],
+            "correta": 0,
+            "explicacao": "Excited = animado, empolgado.",
+            "dica": "Releia a pegadinha do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como dizer \"Eles estão calmos\"?",
+            "alternativas": [
+              "He is calm.",
+              "They are calm.",
+              "They is calm.",
+              "We are angry."
+            ],
+            "correta": 1,
+            "explicacao": "They = eles; com they, usamos are.",
+            "dica": "Com they, o verbo to be é are."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"The movie is ___, so I am ___.\"",
+            "alternativas": [
+              "bored / boring",
+              "boring / boring",
+              "boring / bored",
+              "bored / bored"
+            ],
+            "correta": 2,
+            "explicacao": "O filme é chato (boring) e eu fico entediado (bored).",
+            "dica": "Uma palavra descreve o filme; a outra, a pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "She are sad because she lost her cat.",
+              "She is sad because he lost her cat.",
+              "She sad because she lost her cat.",
+              "She is sad because she lost her cat."
+            ],
+            "correta": 3,
+            "explicacao": "She is + sentimento, e because explica o motivo.",
+            "dica": "Confira o verbo to be e os pronomes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Maria disse: \"I am scared because of the storm.\" O que ela sente e por quê?",
+            "alternativas": [
+              "Medo, por causa da tempestade",
+              "Alegria, por causa da festa",
+              "Raiva, por causa do irmão",
+              "Cansaço, por causa da escola"
+            ],
+            "correta": 0,
+            "explicacao": "Scared = com medo; storm = tempestade.",
+            "dica": "Scared é um sentimento ligado a perigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual resposta combina com \"How are you feeling?\"",
+            "alternativas": [
+              "I am eleven.",
+              "I feel tired, I slept badly.",
+              "It's ten o'clock.",
+              "It's sunny."
+            ],
+            "correta": 1,
+            "explicacao": "A pergunta é sobre sentimento; tired responde isso.",
+            "dica": "A resposta precisa falar do que a pessoa sente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um colega diz: \"I am worried and sad.\" O que é mais gentil responder?",
+            "alternativas": [
+              "You are boring.",
+              "I am happy, bye!",
+              "What happened? Can I help you?",
+              "It's sunny today."
+            ],
+            "correta": 2,
+            "explicacao": "Perguntar o que aconteceu e oferecer ajuda é acolher o colega.",
+            "dica": "Ele está preocupado e triste. O que um amigo faria?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "cidadania",
+      "titulo": "Respeito às diferenças e combate ao preconceito",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "As pessoas são diferentes na cor da pele, no jeito de falar, no corpo, na religião, na origem, nas condições de saúde e em muito mais. Essa diversidade faz parte do Brasil.",
+          "Preconceito é julgar alguém antes de conhecer, só por uma característica. Quando o preconceito vira ação, como excluir, xingar ou tratar pior, é discriminação.",
+          "A Constituição de 1988 diz que todos são iguais perante a lei, sem distinção de qualquer natureza, e que um dos objetivos do país é promover o bem de todos, sem preconceito de origem, raça, sexo, cor ou idade. Ela também diz que o racismo é crime.",
+          "Na escola, respeitar é incluir quem chega, não fazer piada com a aparência ou o sotaque de ninguém e defender o colega que está sendo humilhado, chamando um adulto quando preciso."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A turma ri do sotaque nordestino de um colega novo. Isso é preconceito?",
+            "resolucao": "Sim. Ninguém deve ser ridicularizado pelo jeito de falar. O certo é acolher o colega e conhecer as palavras da terra dele."
+          },
+          {
+            "enunciado": "Um time não deixa uma menina jogar \"porque futebol é coisa de menino\". O que é isso?",
+            "resolucao": "Discriminação por sexo: ela foi excluída só por ser menina, e não pela habilidade."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Preconceito se aprende, e por isso também se desaprende. Conviver, ouvir histórias diferentes e perceber que cada pessoa é única ajudam a acabar com ideias prontas.",
+        "Piadas repetidas, apelidos que humilham e exclusão de propósito, quando acontecem sempre com a mesma pessoa, formam o bullying, que machuca de verdade. Quem assiste e ri também participa. Quem defende ou chama um adulto ajuda a interromper.",
+        "O ECA garante às crianças e aos adolescentes o direito ao respeito e à dignidade. Isso vale na escola, em casa, na rua e na internet."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Julgar alguém antes de conhecer, só por uma característica, é:",
+            "alternativas": [
+              "preconceito",
+              "respeito",
+              "amizade",
+              "cidadania"
+            ],
+            "correta": 0,
+            "explicacao": "Preconceito é o julgamento antecipado, sem conhecer.",
+            "dica": "A palavra lembra pré-conceito: antes de conhecer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando o preconceito vira ação, como excluir ou xingar, chama-se:",
+            "alternativas": [
+              "elogio",
+              "discriminação",
+              "diversidade",
+              "inclusão"
+            ],
+            "correta": 1,
+            "explicacao": "Discriminação é tratar alguém pior por uma característica.",
+            "dica": "É o preconceito colocado em prática."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Segundo a Constituição de 1988, todos são:",
+            "alternativas": [
+              "diferentes perante a lei",
+              "iguais só no Natal",
+              "iguais perante a lei",
+              "obrigados a ser iguais"
+            ],
+            "correta": 2,
+            "explicacao": "Todos são iguais perante a lei, sem distinção.",
+            "dica": "Releia o terceiro parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um colega novo chega à turma. O que é respeitar?",
+            "alternativas": [
+              "Ignorar",
+              "Rir do jeito dele",
+              "Esconder a mochila dele",
+              "Incluir e conversar com ele"
+            ],
+            "correta": 3,
+            "explicacao": "Incluir quem chega é respeito.",
+            "dica": "Como você gostaria de ser recebido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para a Constituição, o racismo é:",
+            "alternativas": [
+              "crime",
+              "brincadeira",
+              "permitido",
+              "opinião"
+            ],
+            "correta": 0,
+            "explicacao": "A Constituição diz que o racismo é crime.",
+            "dica": "É algo sério e punido."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A turma ri do sotaque de um colega nordestino. Isso é:",
+            "alternativas": [
+              "uma brincadeira sem problema",
+              "preconceito",
+              "um elogio",
+              "uma regra da escola"
+            ],
+            "correta": 1,
+            "explicacao": "Ridicularizar o jeito de falar é preconceito.",
+            "dica": "Alguém está sendo julgado pelo jeito de falar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um time não deixa uma menina jogar \"porque é coisa de menino\". Isso é:",
+            "alternativas": [
+              "justo",
+              "uma regra do esporte",
+              "discriminação por sexo",
+              "falta de bola"
+            ],
+            "correta": 2,
+            "explicacao": "Ela foi excluída só por ser menina.",
+            "dica": "Por que ela foi excluída?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se você vê um colega sendo humilhado, o que fazer?",
+            "alternativas": [
+              "Rir junto",
+              "Filmar e postar",
+              "Fingir que não viu",
+              "Defender, se for seguro, e chamar um adulto"
+            ],
+            "correta": 3,
+            "explicacao": "Defender e chamar um adulto ajuda a parar a humilhação.",
+            "dica": "Quem pode ajudar a interromper?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas atitudes combate o preconceito?",
+            "alternativas": [
+              "Ouvir e conhecer histórias de pessoas diferentes",
+              "Inventar apelidos",
+              "Excluir quem é diferente",
+              "Repetir piadas sobre a cor de alguém"
+            ],
+            "correta": 0,
+            "explicacao": "Conhecer o outro desfaz ideias prontas.",
+            "dica": "Qual delas aproxima as pessoas?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que fazer ao ver um colega sendo humilhado na escola:",
+            "itens": [
+              "Não rir nem participar",
+              "Ficar ao lado do colega",
+              "Chamar um professor ou adulto",
+              "Depois, conversar com o colega e oferecer amizade"
+            ],
+            "explicacao": "Não participar, apoiar, chamar ajuda e acolher depois.",
+            "dica": "O primeiro passo é não fazer parte da humilhação."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre preconceito e discriminação?",
+            "alternativas": [
+              "São a mesma coisa",
+              "Preconceito é a ideia; discriminação é a ação",
+              "Discriminação é a ideia; preconceito é a ação",
+              "Nenhum dos dois existe"
+            ],
+            "correta": 1,
+            "explicacao": "O preconceito está na cabeça; a discriminação é o ato.",
+            "dica": "Um é pensar, o outro é fazer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Piadas e apelidos humilhantes repetidos sempre contra a mesma pessoa formam o:",
+            "alternativas": [
+              "elogio",
+              "grêmio",
+              "bullying",
+              "trabalho em grupo"
+            ],
+            "correta": 2,
+            "explicacao": "Agressões repetidas contra a mesma pessoa são bullying.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem assiste a uma humilhação e ri:",
+            "alternativas": [
+              "não tem nada a ver",
+              "está ajudando a vítima",
+              "está sendo neutro",
+              "também participa"
+            ],
+            "correta": 3,
+            "explicacao": "Rir dá força a quem humilha.",
+            "dica": "O riso ajuda quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lei garante às crianças o direito ao respeito e à dignidade?",
+            "alternativas": [
+              "O ECA",
+              "A CLT",
+              "O CDC",
+              "A LGPD"
+            ],
+            "correta": 0,
+            "explicacao": "O ECA é o Estatuto da Criança e do Adolescente.",
+            "dica": "É o estatuto de quem tem menos de 18 anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Preconceito se aprende, e também se desaprende.\" O que isso quer dizer?",
+            "alternativas": [
+              "Que ninguém muda",
+              "Que convivência e conhecimento podem mudar ideias prontas",
+              "Que preconceito é de nascença",
+              "Que só adultos têm preconceito"
+            ],
+            "correta": 1,
+            "explicacao": "Ninguém nasce com preconceito: dá para mudar.",
+            "dica": "Se foi aprendido, pode ser...?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluno com deficiência não consegue chegar à sala porque só há escada. Qual ideia da lição isso fere?",
+            "alternativas": [
+              "Nenhuma",
+              "O direito de rir",
+              "A igualdade: ele não tem as mesmas condições de estudar",
+              "A regra do uniforme"
+            ],
+            "correta": 2,
+            "explicacao": "Igualdade inclui condições para todos participarem.",
+            "dica": "Ele tem as mesmas chances que os outros?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase da Constituição de 1988 está CORRETA?",
+            "alternativas": [
+              "Só alguns são iguais perante a lei",
+              "O racismo é permitido em casa",
+              "A lei vale de um jeito para cada cor",
+              "Todos são iguais perante a lei, sem distinção de qualquer natureza"
+            ],
+            "correta": 3,
+            "explicacao": "É o princípio da igualdade da Constituição.",
+            "dica": "Procure a frase que não faz distinção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num grupo de mensagens, alguém posta uma \"piada\" sobre a cor de um colega. Qual é a melhor atitude?",
+            "alternativas": [
+              "Não rir, dizer que não é engraçado e avisar um adulto",
+              "Mandar figurinha rindo",
+              "Encaminhar para outros grupos",
+              "Sair do grupo e não falar nada a ninguém"
+            ],
+            "correta": 0,
+            "explicacao": "Não apoiar, se posicionar e buscar um adulto ajuda a parar.",
+            "dica": "Qual opção interrompe a humilhação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lúcia diz: \"Não tenho preconceito, mas não quero aquele menino no meu grupo porque ele mora na favela.\" O que acontece aí?",
+            "alternativas": [
+              "Nada, é só uma escolha",
+              "Há preconceito e discriminação pela origem dele",
+              "Há só respeito",
+              "É um elogio ao menino"
+            ],
+            "correta": 1,
+            "explicacao": "Ela exclui o colega pelo lugar onde mora: preconceito virando ação.",
+            "dica": "Por que o menino foi excluído?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual turma está combatendo o preconceito de verdade?",
+            "alternativas": [
+              "A que só fala de respeito no Dia da Consciência Negra",
+              "A que deixa os novos sentarem sozinhos",
+              "A que inclui todos nos grupos, aprende sobre culturas diferentes e defende quem é atacado",
+              "A que finge que as diferenças não existem"
+            ],
+            "correta": 2,
+            "explicacao": "Respeito é prática do dia a dia: incluir, aprender e defender.",
+            "dica": "Respeito é uma vez por ano ou todo dia?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A receita da amizade da 6ª C",
+    "texto": "Receita da amizade da 6ª C\n\nRende: uma turma inteira.\nTempo de preparo: o ano todo.\n\nIngredientes:\n1 colega novo, chegando de outra cidade;\n30 alunos com vontade de ouvir;\n2 xícaras de paciência;\n1 colher de sopa de curiosidade;\nRespeito a gosto (quanto mais, melhor).\n\nModo de fazer:\n1. Receba o colega novo na porta da sala com um bom-dia.\n2. Pergunte o nome dele e de onde ele veio.\n3. Ouça com atenção o sotaque diferente, sem dar risada.\n4. Misture-o a um grupo de trabalho e ao time do recreio.\n5. Junte a curiosidade: aprenda uma palavra da terra dele e ensine uma da sua.\n6. Se alguém tentar colocar pitadas de deboche, retire-as na hora e chame um professor.\n7. Deixe descansar alguns dias.\n\nDica da cozinheira: esta receita nunca dá errado quando todo mundo coloca a mão na massa."
+  },
+  "escrita": {
+    "proposta": "Escreva uma receita de 6 a 10 linhas para uma escola sem preconceito. Coloque título, ingredientes (com quantidades) e modo de fazer com passos numerados, usando verbos no imperativo, como \"inclua\", \"ouça\" e \"respeite\"."
+  }
+}

@@ -1,0 +1,1204 @@
+{
+  "dia": 36,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Função quadrática: a parábola e o seu vértice",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Função quadrática é toda função do tipo f(x) = ax² + bx + c, com a ≠ 0. O gráfico dela é uma curva chamada parábola.",
+          "O sinal de a decide a abertura: se a > 0, a parábola abre para cima (como um sorriso) e tem um ponto mínimo; se a < 0, abre para baixo e tem um ponto máximo.",
+          "As raízes (zeros) são os pontos onde a parábola corta o eixo x: resolva ax² + bx + c = 0. Se Δ > 0, corta em dois pontos; se Δ = 0, só encosta em um; se Δ < 0, não corta. E a parábola sempre corta o eixo y no ponto (0, c).",
+          "O vértice é o ponto mais baixo ou mais alto: xᵥ = −b/(2a) e yᵥ = f(xᵥ). Em f(x) = x² − 6x + 5: xᵥ = 6/2 = 3 e yᵥ = 9 − 18 + 5 = −4. Vértice (3, −4). As raízes são 1 e 5.",
+          "A parábola é simétrica em relação à reta vertical que passa pelo vértice (o eixo de simetria). Em x² − 6x + 5: f(2) = f(4) = −3 e f(0) = f(6) = 5. O xᵥ também é a média das raízes: (1 + 5)/2 = 3."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Analise f(x) = −x² + 4x.",
+            "resolucao": "a = −1 < 0: abre para baixo e tem máximo. Raízes: x(−x + 4) = 0 → 0 e 4. xᵥ = −4/(−2) = 2; yᵥ = −4 + 8 = 4. Vértice (2, 4), o ponto mais alto."
+          },
+          {
+            "enunciado": "Quantas vezes f(x) = x² − 4x + 4 toca o eixo x?",
+            "resolucao": "Δ = 16 − 16 = 0: toca em um único ponto, x = 2. O vértice é (2, 0)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Também dá para achar o yᵥ por −Δ/(4a). Em x² − 6x + 5: Δ = 36 − 20 = 16, então yᵥ = −16/4 = −4, igual ao que achamos substituindo.",
+        "Forma canônica: f(x) = a(x − xᵥ)² + yᵥ. Por exemplo, x² − 6x + 5 = (x − 3)² − 4. Essa forma mostra o vértice na hora. A imagem de uma parábola com a > 0 são todos os y maiores ou iguais a yᵥ: aqui, y ≥ −4.",
+        "Trajetórias: uma bola lançada para cima com altura h(t) = −5t² + 20t (h em metros, t em segundos) atinge o máximo no vértice: t = −20/(−10) = 2 s e h = −20 + 40 = 20 m. Se f(1) = f(7), o vértice está no meio: xᵥ = 4."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o nome do gráfico de uma função quadrática?",
+            "alternativas": [
+              "reta",
+              "parábola",
+              "círculo",
+              "triângulo"
+            ],
+            "correta": 1,
+            "explicacao": "O gráfico de f(x) = ax² + bx + c é uma parábola.",
+            "dica": "É uma curva em forma de U."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em f(x) = 2x² + 3x − 1, a parábola abre para:",
+            "alternativas": [
+              "cima",
+              "baixo",
+              "a direita",
+              "a esquerda"
+            ],
+            "correta": 0,
+            "explicacao": "a = 2 > 0: abre para cima.",
+            "dica": "Olhe o sinal de a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em f(x) = x² − 6x + 5, onde a parábola corta o eixo y?",
+            "alternativas": [
+              "em y = −6",
+              "em y = 1",
+              "em y = 5",
+              "em y = −4"
+            ],
+            "correta": 2,
+            "explicacao": "O corte no eixo y é sempre (0, c).",
+            "dica": "Calcule f(0)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o xᵥ de f(x) = x² − 6x + 5?",
+            "alternativas": [
+              "−3",
+              "6",
+              "5",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "xᵥ = −b/(2a) = 6/2 = 3.",
+            "dica": "Use −b dividido por 2a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A função f(x) = −x² + 4x tem ponto:",
+            "alternativas": [
+              "mínimo",
+              "máximo",
+              "nenhum",
+              "dois máximos"
+            ],
+            "correta": 1,
+            "explicacao": "a < 0: abre para baixo, então tem máximo.",
+            "dica": "Parábola de boca para baixo tem um topo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o vértice de f(x) = x² − 6x + 5?",
+            "alternativas": [
+              "(3, 4)",
+              "(−3, −4)",
+              "(3, −4)",
+              "(6, 5)"
+            ],
+            "correta": 2,
+            "explicacao": "xᵥ = 3 e f(3) = 9 − 18 + 5 = −4.",
+            "dica": "Calcule xᵥ e depois f(xᵥ)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de f(x) = x² − 6x + 5?",
+            "alternativas": [
+              "1 e 5",
+              "−1 e −5",
+              "2 e 3",
+              "0 e 6"
+            ],
+            "correta": 0,
+            "explicacao": "Soma 6 e produto 5: 1 e 5.",
+            "dica": "Dois números com soma 6 e produto 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o vértice de f(x) = −x² + 4x?",
+            "alternativas": [
+              "(4, 0)",
+              "(−2, 4)",
+              "(2, −4)",
+              "(2, 4)"
+            ],
+            "correta": 3,
+            "explicacao": "xᵥ = 2 e f(2) = −4 + 8 = 4.",
+            "dica": "Cuidado com o sinal de −x²."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em quantos pontos f(x) = x² − 4x + 4 toca o eixo x?",
+            "alternativas": [
+              "nenhum",
+              "um",
+              "dois",
+              "três"
+            ],
+            "correta": 1,
+            "explicacao": "Δ = 0: um único ponto, x = 2.",
+            "dica": "Calcule o delta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale f(2) em f(x) = x² − 6x + 5?",
+            "alternativas": [
+              "3",
+              "−4",
+              "−3",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "4 − 12 + 5 = −3.",
+            "dica": "Troque x por 2."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A parábola de f(x) = x² + 2x + 5 corta o eixo x?",
+            "alternativas": [
+              "Não, porque Δ < 0",
+              "Sim, em dois pontos",
+              "Sim, em um ponto",
+              "Sim, em x = 5"
+            ],
+            "correta": 0,
+            "explicacao": "Δ = 4 − 20 = −16 < 0: não há raízes reais.",
+            "dica": "Calcule o delta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o vértice de f(x) = 2x² − 8x + 3?",
+            "alternativas": [
+              "(4, 3)",
+              "(−2, 27)",
+              "(2, 3)",
+              "(2, −5)"
+            ],
+            "correta": 3,
+            "explicacao": "xᵥ = 8/4 = 2; f(2) = 8 − 16 + 3 = −5.",
+            "dica": "Aqui a = 2: divida por 2a = 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma parábola tem raízes 2 e 8. Qual é o eixo de simetria?",
+            "alternativas": [
+              "x = 10",
+              "x = 5",
+              "x = 6",
+              "x = 16"
+            ],
+            "correta": 1,
+            "explicacao": "O eixo passa pela média das raízes: (2 + 8)/2 = 5.",
+            "dica": "O vértice fica no meio das raízes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bola tem altura h(t) = −5t² + 20t. Qual é a altura máxima?",
+            "alternativas": [
+              "10 m",
+              "40 m",
+              "20 m",
+              "5 m"
+            ],
+            "correta": 2,
+            "explicacao": "tᵥ = 2 s e h(2) = −20 + 40 = 20 m.",
+            "dica": "Ache o t do vértice e calcule h."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para esboçar uma parábola.",
+            "itens": [
+              "Olhar o sinal de a para saber a abertura",
+              "Calcular as raízes",
+              "Calcular o vértice",
+              "Marcar o ponto (0, c)",
+              "Ligar os pontos com uma curva simétrica"
+            ],
+            "explicacao": "Abertura, pontos importantes e, por fim, o desenho.",
+            "dica": "Desenhar a curva é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o vértice de f(x) = −2x² + 8x − 6?",
+            "alternativas": [
+              "(2, −2)",
+              "(2, 2)",
+              "(−2, 2)",
+              "(4, −6)"
+            ],
+            "correta": 1,
+            "explicacao": "xᵥ = −8/(−4) = 2. Δ = 64 − 48 = 16 e yᵥ = −16/(−8) = 2.",
+            "dica": "Use −Δ/(4a) e confira com f(xᵥ)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A forma canônica f(x) = (x − 3)² − 4 é igual a qual função?",
+            "alternativas": [
+              "x² − 6x + 5",
+              "x² + 6x + 5",
+              "x² − 6x − 4",
+              "x² − 3x − 4"
+            ],
+            "correta": 0,
+            "explicacao": "(x − 3)² = x² − 6x + 9; menos 4 dá x² − 6x + 5.",
+            "dica": "Desenvolva o quadrado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a imagem de f(x) = x² − 6x + 5?",
+            "alternativas": [
+              "todos os números reais",
+              "y ≤ −4",
+              "y ≥ 5",
+              "y ≥ −4"
+            ],
+            "correta": 3,
+            "explicacao": "a > 0 e yᵥ = −4: a função assume valores de −4 para cima.",
+            "dica": "O vértice é o ponto mais baixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma parábola tem a = 1 e vértice (1, −9). Quais são as raízes?",
+            "alternativas": [
+              "1 e −9",
+              "9 e −9",
+              "−2 e 4",
+              "3 e −3"
+            ],
+            "correta": 2,
+            "explicacao": "f(x) = (x − 1)² − 9 = 0 → x − 1 = ±3 → x = 4 ou x = −2.",
+            "dica": "Use a forma canônica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa função quadrática, f(1) = f(7). Qual é o xᵥ?",
+            "alternativas": [
+              "3",
+              "4",
+              "6",
+              "8"
+            ],
+            "correta": 1,
+            "explicacao": "Pontos com a mesma altura são simétricos: o vértice fica no meio, (1 + 7)/2 = 4.",
+            "dica": "Use a simetria."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Bolsa de valores: o que é ser sócio de uma empresa com ações",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma ação é um pedacinho de uma empresa. Quem compra ações vira sócio (acionista): passa a ter uma pequena parte do negócio, dos lucros e dos riscos.",
+          "A bolsa de valores é o ambiente onde as ações são compradas e vendidas. A bolsa brasileira fica em São Paulo. Para negociar, a pessoa abre conta numa corretora autorizada, com CPF, e pode começar com pouco, comprando até uma ação só.",
+          "Há duas formas de ganhar: a valorização (vender mais caro do que comprou) e os dividendos (parte do lucro que a empresa distribui aos sócios). E há como perder: o preço pode cair, e a empresa pode ir mal.",
+          "O preço sobe e desce todos os dias por causa da oferta e da procura. Se muita gente quer comprar, o preço sobe; se muita gente quer vender, cai. Notícias, expectativa de lucro, juros e a economia do país mudam essa vontade.",
+          "Ações combinam com objetivos de longo prazo e com dinheiro que pode ficar anos aplicado. Nunca coloque a reserva de emergência em ações e desconfie de \"dicas quentes\" que prometem lucro rápido."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Caio comprou 10 ações a R$ 30, recebeu R$ 1,50 de dividendo por ação e vendeu a R$ 36. Quanto ganhou?",
+            "resolucao": "Pagou 10 × 30 = R$ 300. Dividendos: 10 × 1,50 = R$ 15. Venda: 10 × 36 = R$ 360, ganho de R$ 60. Total: 60 + 15 = R$ 75, ou 25% sobre R$ 300."
+          },
+          {
+            "enunciado": "Uma empresa tem 1 milhão de ações e cada uma vale R$ 20. Quanto ela vale na bolsa?",
+            "resolucao": "Valor de mercado = preço × quantidade de ações = 20 × 1.000.000 = R$ 20 milhões."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Valor de mercado é o preço da ação vezes o número de ações. Se a ação cai de R$ 20 para R$ 15, uma empresa com 1 milhão de ações passa a valer R$ 15 milhões na bolsa, mesmo sem ter fechado nenhuma loja.",
+        "Comprar ações de uma única empresa concentra o risco. Fundos de ações e fundos que acompanham um índice da bolsa juntam dezenas de empresas, o que diminui o impacto se uma delas for mal.",
+        "Preço da ação e qualidade da empresa não são a mesma coisa no curto prazo: o preço pode cair por medo ou boato. No longo prazo, empresas que crescem e lucram tendem a se valorizar, mas não há garantia."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma ação?",
+            "alternativas": [
+              "Um empréstimo ao governo",
+              "Um pedacinho de uma empresa",
+              "Um tipo de poupança",
+              "Uma conta corrente"
+            ],
+            "correta": 1,
+            "explicacao": "Quem compra ação vira sócio de uma empresa.",
+            "dica": "Pense em ser sócio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem compra ações se torna:",
+            "alternativas": [
+              "acionista (sócio)",
+              "funcionário",
+              "cliente obrigatório",
+              "dono de tudo"
+            ],
+            "correta": 0,
+            "explicacao": "Acionista é o sócio que tem ações.",
+            "dica": "O nome vem de ação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a parte do lucro que a empresa paga aos sócios?",
+            "alternativas": [
+              "juros",
+              "salário",
+              "dividendos",
+              "multa"
+            ],
+            "correta": 2,
+            "explicacao": "Dividendos são a divisão do lucro.",
+            "dica": "Lembra a palavra dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se muita gente quer comprar uma ação, o preço tende a:",
+            "alternativas": [
+              "cair",
+              "ficar sempre igual",
+              "zerar",
+              "subir"
+            ],
+            "correta": 3,
+            "explicacao": "Mais procura, preço maior.",
+            "dica": "Oferta e procura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde NÃO se deve colocar a reserva de emergência?",
+            "alternativas": [
+              "Na renda fixa com liquidez diária",
+              "Em ações",
+              "No Tesouro Selic",
+              "Num CDB de liquidez diária"
+            ],
+            "correta": 1,
+            "explicacao": "Ações oscilam e podem estar em queda justo quando você precisar.",
+            "dica": "A reserva precisa estar sempre disponível e segura."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio comprou 10 ações a R$ 30 e vendeu a R$ 36. Qual foi o ganho com a venda?",
+            "alternativas": [
+              "R$ 60",
+              "R$ 36",
+              "R$ 6",
+              "R$ 360"
+            ],
+            "correta": 0,
+            "explicacao": "10 × (36 − 30) = 60.",
+            "dica": "Ganho por ação vezes a quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ele também recebeu R$ 1,50 por ação de dividendos (10 ações). Quanto recebeu?",
+            "alternativas": [
+              "R$ 1,50",
+              "R$ 150",
+              "R$ 15",
+              "R$ 10"
+            ],
+            "correta": 2,
+            "explicacao": "10 × 1,50 = 15.",
+            "dica": "Multiplique pela quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma empresa tem 2 milhões de ações a R$ 10. Qual é o valor de mercado?",
+            "alternativas": [
+              "R$ 2 milhões",
+              "R$ 10 milhões",
+              "R$ 200 mil",
+              "R$ 20 milhões"
+            ],
+            "correta": 3,
+            "explicacao": "10 × 2.000.000 = 20.000.000.",
+            "dica": "Preço vezes número de ações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é preciso para comprar ações?",
+            "alternativas": [
+              "Ser dono de empresa",
+              "Ter conta numa corretora autorizada e CPF",
+              "Ter R$ 1 milhão",
+              "Trabalhar na bolsa"
+            ],
+            "correta": 1,
+            "explicacao": "Qualquer pessoa com CPF pode abrir conta numa corretora.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma notícia ruim sobre a empresa faz muita gente querer vender. O preço tende a:",
+            "alternativas": [
+              "cair",
+              "subir",
+              "dobrar",
+              "ficar igual por lei"
+            ],
+            "correta": 0,
+            "explicacao": "Muita oferta e pouca procura derrubam o preço.",
+            "dica": "Quando todos querem vender…"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio investiu R$ 300, ganhou R$ 60 na venda e R$ 15 de dividendos. Qual foi o retorno percentual?",
+            "alternativas": [
+              "20%",
+              "15%",
+              "25%",
+              "75%"
+            ],
+            "correta": 2,
+            "explicacao": "75 ÷ 300 = 0,25 = 25%.",
+            "dica": "Some os ganhos e divida pelo investido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A ação caiu de R$ 20 para R$ 15. Numa empresa com 1 milhão de ações, quanto o valor de mercado caiu?",
+            "alternativas": [
+              "R$ 15 milhões",
+              "R$ 1 milhão",
+              "R$ 20 milhões",
+              "R$ 5 milhões"
+            ],
+            "correta": 3,
+            "explicacao": "Caiu R$ 5 por ação × 1.000.000 = R$ 5 milhões.",
+            "dica": "Queda por ação vezes o número de ações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um fundo que acompanha um índice da bolsa costuma ter menos risco que uma ação só?",
+            "alternativas": [
+              "Porque reúne dezenas de empresas",
+              "Porque tem garantia do governo",
+              "Porque nunca cai",
+              "Porque paga juros fixos"
+            ],
+            "correta": 0,
+            "explicacao": "Se uma empresa vai mal, as outras amortecem.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém num grupo promete: \"Compre hoje essa ação que vai dobrar em uma semana\". O que fazer?",
+            "alternativas": [
+              "Comprar com todo o salário",
+              "Desconfiar: ninguém garante o preço de uma ação",
+              "Pedir dinheiro emprestado",
+              "Vender a casa"
+            ],
+            "correta": 1,
+            "explicacao": "Promessa de lucro rápido e garantido é sinal de golpe ou de especulação perigosa.",
+            "dica": "Lembre o último parágrafo da lição."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o caminho de quem vai investir em ações pela primeira vez.",
+            "itens": [
+              "Montar a reserva de emergência",
+              "Estudar como funcionam as ações e os riscos",
+              "Abrir conta numa corretora autorizada",
+              "Investir aos poucos, pensando no longo prazo"
+            ],
+            "explicacao": "Primeiro a segurança; depois estudo, conta e investimento gradual.",
+            "dica": "A reserva vem antes de tudo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia comprou 20 ações a R$ 25. Recebeu R$ 2 de dividendo por ação, e a ação caiu para R$ 22. Se vender agora, qual é o resultado total?",
+            "alternativas": [
+              "Perda de R$ 60",
+              "Ganho de R$ 40",
+              "Perda de R$ 100",
+              "Perda de R$ 20"
+            ],
+            "correta": 3,
+            "explicacao": "Queda: 20 × 3 = R$ 60 de perda. Dividendos: 20 × 2 = R$ 40. Resultado: −60 + 40 = −R$ 20.",
+            "dica": "Junte a perda no preço com o que recebeu de dividendos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma ação subiu 20% num mês e caiu 20% no mês seguinte. Em relação ao início, ela está:",
+            "alternativas": [
+              "igual",
+              "4% abaixo",
+              "4% acima",
+              "20% abaixo"
+            ],
+            "correta": 1,
+            "explicacao": "100 → 120 → 96: 4% abaixo.",
+            "dica": "Os 20% de queda são sobre um valor maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma empresa vale R$ 50 milhões na bolsa e tem 2 milhões de ações. Qual é o preço de cada ação?",
+            "alternativas": [
+              "R$ 25",
+              "R$ 2,50",
+              "R$ 100",
+              "R$ 250"
+            ],
+            "correta": 0,
+            "explicacao": "50.000.000 ÷ 2.000.000 = 25.",
+            "dica": "Valor de mercado dividido pelo número de ações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A empresa A teve lucro recorde, mas a ação caiu no dia porque todos esperavam um lucro ainda maior. Isso mostra que:",
+            "alternativas": [
+              "a bolsa ignora o lucro",
+              "a empresa faliu",
+              "o preço reage às expectativas, não só aos resultados",
+              "o lucro era mentira"
+            ],
+            "correta": 2,
+            "explicacao": "O preço já embute o que se espera; se o resultado decepciona, pode cair.",
+            "dica": "Pense em expectativa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação está correta?",
+            "alternativas": [
+              "Ação é renda fixa",
+              "Ações têm garantia do FGC",
+              "Quem tem ação é dono de toda a empresa",
+              "O acionista participa dos lucros e também dos riscos da empresa"
+            ],
+            "correta": 3,
+            "explicacao": "Sócio participa do que der certo e do que der errado.",
+            "dica": "Elimine as afirmações falsas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "CSS: cores, fontes e caixas na página",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O HTML monta a estrutura da página; o CSS (folha de estilos) cuida da aparência: cores, fontes, tamanhos e espaços. Uma regra tem seletor, propriedade e valor: h1 { color: navy; }",
+          "Seletores básicos: de tag (p atinge todos os parágrafos), de classe (.destaque atinge quem tem class=\"destaque\") e de id (#topo atinge o elemento com id=\"topo\").",
+          "Cores podem ser escritas por nome (red), em hexadecimal (#FF0000) ou em rgb(255, 0, 0). color muda a cor do texto e background-color, a cor do fundo. #FFFFFF é branco e #000000 é preto.",
+          "Fontes: font-family: Arial, sans-serif; escolhe a fonte (com uma reserva), font-size: 18px; muda o tamanho, font-weight: bold; deixa em negrito e text-align: center; centraliza.",
+          "Modelo de caixa: todo elemento é uma caixa com conteúdo, padding (espaço interno), border (borda) e margin (espaço externo). Exemplo: .card { padding: 10px; border: 2px solid black; margin: 20px; }"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva o CSS para um aviso com fundo amarelo, texto preto em negrito e borda vermelha de 3 pixels.",
+            "resolucao": ".aviso {\n  background-color: yellow;\n  color: black;\n  font-weight: bold;\n  border: 3px solid red;\n}"
+          },
+          {
+            "enunciado": "Um .card tem width: 200px, padding: 10px e border: 2px. Qual é a largura visível da caixa?",
+            "resolucao": "Por padrão, width é só o conteúdo: 200 + 10 + 10 (padding dos dois lados) + 2 + 2 (borda dos dois lados) = 224 pixels. A margem fica fora da caixa."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Com box-sizing: border-box, a largura passa a incluir padding e borda: um elemento com width: 200px fica com 200 pixels visíveis, e o conteúdo encolhe para caber.",
+        "Cascata e especificidade: quando duas regras disputam o mesmo elemento, id vence classe e classe vence tag. Se a força for igual, vale a regra que aparece por último no arquivo.",
+        "Onde colocar o CSS: o ideal é um arquivo separado, ligado no head com <link rel=\"stylesheet\" href=\"estilo.css\">. Assim, uma única mudança vale para todas as páginas do site."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o CSS?",
+            "alternativas": [
+              "Criar o banco de dados",
+              "Cuidar da aparência da página",
+              "Escrever a estrutura dos títulos",
+              "Conectar à internet"
+            ],
+            "correta": 1,
+            "explicacao": "CSS cuida de cores, fontes e espaços.",
+            "dica": "HTML é a estrutura; CSS é…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual propriedade muda a cor do texto?",
+            "alternativas": [
+              "color",
+              "background-color",
+              "font-size",
+              "border"
+            ],
+            "correta": 0,
+            "explicacao": "color muda a cor das letras.",
+            "dica": "É a mais curta das quatro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual seletor atinge os elementos com class=\"destaque\"?",
+            "alternativas": [
+              "#destaque",
+              "destaque",
+              ".destaque",
+              "*destaque"
+            ],
+            "correta": 2,
+            "explicacao": "Classe usa ponto; id usa cerquilha.",
+            "dica": "Classe começa com ponto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o espaço INTERNO entre o conteúdo e a borda?",
+            "alternativas": [
+              "margin",
+              "border",
+              "font",
+              "padding"
+            ],
+            "correta": 3,
+            "explicacao": "Padding é o espaço de dentro.",
+            "dica": "Pense em \"enchimento\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual cor é #FFFFFF?",
+            "alternativas": [
+              "preto",
+              "branco",
+              "vermelho",
+              "azul"
+            ],
+            "correta": 1,
+            "explicacao": "#FFFFFF é o máximo de vermelho, verde e azul: branco.",
+            "dica": "Todas as cores no máximo dão…"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual regra deixa todos os parágrafos com 18 pixels?",
+            "alternativas": [
+              "p { font-size: 18px; }",
+              ".p { size: 18; }",
+              "#p { font: 18; }",
+              "p = 18px"
+            ],
+            "correta": 0,
+            "explicacao": "Seletor de tag p, propriedade font-size, valor 18px.",
+            "dica": "Seletor, propriedade e valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz text-align: center?",
+            "alternativas": [
+              "Muda a cor",
+              "Deixa em negrito",
+              "Centraliza o texto",
+              "Aumenta a borda"
+            ],
+            "correta": 2,
+            "explicacao": "Alinha o texto no centro.",
+            "dica": "Align = alinhar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual seletor atinge o elemento com id=\"topo\"?",
+            "alternativas": [
+              ".topo",
+              "topo",
+              "*topo",
+              "#topo"
+            ],
+            "correta": 3,
+            "explicacao": "Id usa # (cerquilha).",
+            "dica": "Id começa com cerquilha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o espaço EXTERNO, que afasta a caixa das outras?",
+            "alternativas": [
+              "padding",
+              "margin",
+              "border",
+              "content"
+            ],
+            "correta": 1,
+            "explicacao": "Margin é o espaço de fora.",
+            "dica": "Margem fica do lado de fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual valor representa o vermelho puro em rgb?",
+            "alternativas": [
+              "rgb(255, 0, 0)",
+              "rgb(0, 255, 0)",
+              "rgb(0, 0, 255)",
+              "rgb(0, 0, 0)"
+            ],
+            "correta": 0,
+            "explicacao": "O primeiro número é o vermelho.",
+            "dica": "rgb: red, green, blue."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um elemento tem width: 300px, padding: 20px e border: 5px. Qual é a largura visível (padrão)?",
+            "alternativas": [
+              "300 px",
+              "325 px",
+              "350 px",
+              "340 px"
+            ],
+            "correta": 2,
+            "explicacao": "300 + 20 + 20 + 5 + 5 = 350.",
+            "dica": "Some padding e borda dos dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O mesmo elemento com box-sizing: border-box fica com qual largura visível?",
+            "alternativas": [
+              "350 px",
+              "250 px",
+              "340 px",
+              "300 px"
+            ],
+            "correta": 3,
+            "explicacao": "Com border-box, a largura já inclui padding e borda.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "p { color: blue; } e .aviso { color: red; }. De que cor fica <p class=\"aviso\">?",
+            "alternativas": [
+              "vermelho",
+              "azul",
+              "preto",
+              "roxo"
+            ],
+            "correta": 0,
+            "explicacao": "Classe vence tag.",
+            "dica": "Quem é mais específico?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas regras iguais: .nota { color: green; } e, mais abaixo, .nota { color: orange; }. Qual cor vale?",
+            "alternativas": [
+              "verde",
+              "laranja",
+              "as duas misturadas",
+              "nenhuma"
+            ],
+            "correta": 1,
+            "explicacao": "Com a mesma força, vale a última.",
+            "dica": "Empate: quem aparece por último?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as camadas do modelo de caixa, de dentro para fora.",
+            "itens": [
+              "Conteúdo",
+              "Padding",
+              "Border",
+              "Margin"
+            ],
+            "explicacao": "O conteúdo fica no centro, cercado pelo padding, pela borda e pela margem.",
+            "dica": "A margem é a camada mais externa."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois cards lado a lado, cada um com width: 150px, padding: 10px, border: 1px e margin: 5px. Qual é o espaço horizontal total ocupado pelos dois?",
+            "alternativas": [
+              "300 px",
+              "344 px",
+              "364 px",
+              "324 px"
+            ],
+            "correta": 2,
+            "explicacao": "Cada card: 150 + 20 (padding) + 2 (borda) + 10 (margem) = 182. Os dois: 2 × 182 = 364.",
+            "dica": "Some conteúdo, padding, borda e margem dos dois lados de cada card."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "#titulo { color: green; }, .grande { color: blue; } e h1 { color: red; }. De que cor fica <h1 id=\"titulo\" class=\"grande\">?",
+            "alternativas": [
+              "vermelho",
+              "azul",
+              "preto",
+              "verde"
+            ],
+            "correta": 3,
+            "explicacao": "O id é o mais específico de todos.",
+            "dica": "Id vence classe, que vence tag."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é melhor usar um arquivo estilo.css separado?",
+            "alternativas": [
+              "Porque o navegador exige",
+              "Porque uma mudança vale para todas as páginas do site",
+              "Porque deixa a página sem cores",
+              "Porque o HTML não aceita style"
+            ],
+            "correta": 1,
+            "explicacao": "Um só arquivo controla o visual de todo o site.",
+            "dica": "Pense num site com 50 páginas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual cor tem mais azul do que vermelho?",
+            "alternativas": [
+              "rgb(40, 60, 200)",
+              "rgb(200, 60, 40)",
+              "rgb(255, 255, 0)",
+              "rgb(150, 0, 100)"
+            ],
+            "correta": 0,
+            "explicacao": "O terceiro número (azul) é 200 e o primeiro (vermelho) é 40.",
+            "dica": "Compare o primeiro e o terceiro número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com box-sizing: border-box, width: 200px, padding: 20px e border: 5px, qual é a largura do conteúdo?",
+            "alternativas": [
+              "200 px",
+              "150 px",
+              "175 px",
+              "250 px"
+            ],
+            "correta": 1,
+            "explicacao": "200 − 40 (padding) − 10 (borda) = 150.",
+            "dica": "Com border-box, o conteúdo é que encolhe."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Tempos compostos e locuções verbais",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Locução verbal é a união de um verbo auxiliar com um verbo principal no infinitivo, no gerúndio ou no particípio: \"vou estudar\", \"estou estudando\", \"tenho estudado\". Só o auxiliar é conjugado; o principal leva o sentido.",
+          "Tempos compostos usam ter ou haver + particípio. \"Tenho estudado\" (pretérito perfeito composto) indica algo que vem acontecendo até agora. \"Tinha estudado\" (pretérito mais-que-perfeito composto) indica algo anterior a outro fato passado. \"Terei estudado\" (futuro composto) indica algo concluído antes de um momento futuro.",
+          "Compare: \"Estudei para a prova\" (uma ação concluída) e \"Tenho estudado para a prova\" (uma ação que se repete até hoje). E: \"Quando cheguei, o ônibus já tinha saído\" (a saída veio antes da chegada).",
+          "Outras locuções comuns: ir + infinitivo (futuro próximo: \"vou viajar\"), estar + gerúndio (ação em andamento: \"estou lendo\"), acabar de + infinitivo (\"acabei de chegar\"), voltar a, deixar de, começar a, poder e dever + infinitivo.",
+          "Cuidado com o gerundismo: \"vou estar enviando o boleto\" no lugar de \"vou enviar\" ou \"enviarei\". Em textos formais, prefira a forma direta."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Explique a diferença: \"Li o livro\" e \"Tenho lido o livro\".",
+            "resolucao": "\"Li\" indica ação concluída. \"Tenho lido\" indica uma ação que vem se repetindo até agora, ainda não terminada."
+          },
+          {
+            "enunciado": "Identifique a locução e o verbo principal: \"Os alunos devem entregar o trabalho amanhã\".",
+            "resolucao": "A locução é \"devem entregar\": deve (auxiliar, indica obrigação) + entregar (principal, no infinitivo)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Particípios duplos: com ter e haver, usa-se em geral o particípio regular (\"tinha aceitado\", \"tinha imprimido\", \"tinha elegido\"); com ser e estar, o irregular (\"foi aceito\", \"foi impresso\", \"foi eleito\", \"está aceso\").",
+        "O mais-que-perfeito também tem forma simples, mais usada na literatura: \"estudara\" = \"tinha estudado\"; \"partira\" = \"tinha partido\". E haver no lugar de ter dá um tom mais formal: \"havia saído\" = \"tinha saído\".",
+        "Na voz passiva, a locução é ser + particípio, e o particípio concorda com o sujeito: \"As provas foram corrigidas\". Nos tempos compostos com ter, o particípio não varia: \"Ela tinha corrigido as provas\"."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a locução verbal na frase \"Vou estudar hoje\"?",
+            "alternativas": [
+              "hoje estudar",
+              "vou estudar",
+              "vou hoje",
+              "estudar hoje"
+            ],
+            "correta": 1,
+            "explicacao": "Ir (vou) + infinitivo (estudar).",
+            "dica": "Procure dois verbos juntos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na locução \"estou lendo\", qual verbo é o principal?",
+            "alternativas": [
+              "lendo",
+              "estou",
+              "os dois",
+              "nenhum"
+            ],
+            "correta": 0,
+            "explicacao": "O principal leva o sentido: ler.",
+            "dica": "Qual verbo diz a ação de verdade?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os tempos compostos são formados por ter ou haver mais:",
+            "alternativas": [
+              "gerúndio",
+              "infinitivo",
+              "particípio",
+              "imperativo"
+            ],
+            "correta": 2,
+            "explicacao": "Tenho estudado, tinha saído: particípio.",
+            "dica": "Estudado, saído, feito…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Acabei de chegar\" indica:",
+            "alternativas": [
+              "algo que vai acontecer",
+              "algo que nunca aconteceu",
+              "algo que se repete sempre",
+              "algo que aconteceu agora há pouco"
+            ],
+            "correta": 3,
+            "explicacao": "Acabar de + infinitivo = ação recém-terminada.",
+            "dica": "Aconteceu há muito ou há pouco?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem gerundismo?",
+            "alternativas": [
+              "Estou lendo um livro.",
+              "Vou estar enviando o boleto.",
+              "Ele está dormindo.",
+              "Fiquei esperando você."
+            ],
+            "correta": 1,
+            "explicacao": "\"Vou estar enviando\" deveria ser \"vou enviar\".",
+            "dica": "Procure três verbos para dizer uma ação simples."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Tenho estudado muito\" indica:",
+            "alternativas": [
+              "uma ação que vem se repetindo até agora",
+              "uma ação de um dia só",
+              "uma ação no futuro",
+              "uma ordem"
+            ],
+            "correta": 0,
+            "explicacao": "O pretérito perfeito composto mostra repetição até o presente.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Quando cheguei, o ônibus já tinha saído.\" O que aconteceu primeiro?",
+            "alternativas": [
+              "A chegada",
+              "As duas ao mesmo tempo",
+              "O ônibus saiu",
+              "Nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "O mais-que-perfeito (tinha saído) indica o fato anterior.",
+            "dica": "Tinha saído vem antes de quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor troca para \"vou estar ligando amanhã\"?",
+            "alternativas": [
+              "vou estar ligado",
+              "estarei ligando",
+              "estou ligando",
+              "vou ligar amanhã"
+            ],
+            "correta": 3,
+            "explicacao": "Forma direta: vou ligar (ou ligarei).",
+            "dica": "Tire o \"estar\" sobrando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Os alunos devem entregar o trabalho\", o auxiliar indica:",
+            "alternativas": [
+              "possibilidade",
+              "obrigação",
+              "passado",
+              "dúvida"
+            ],
+            "correta": 1,
+            "explicacao": "Dever + infinitivo indica obrigação.",
+            "dica": "O que significa dever?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está no futuro composto?",
+            "alternativas": [
+              "Às 18h, terei terminado a lição.",
+              "Às 18h, terminei a lição.",
+              "Às 18h, termino a lição.",
+              "Às 18h, terminava a lição."
+            ],
+            "correta": 0,
+            "explicacao": "Terei + particípio: concluído antes de um momento futuro.",
+            "dica": "Procure ter no futuro + particípio."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete com a forma adequada: \"O diretor tinha ___ o convite\" (aceitar).",
+            "alternativas": [
+              "aceito",
+              "aceite",
+              "aceitado",
+              "aceitando"
+            ],
+            "correta": 2,
+            "explicacao": "Com ter, usa-se o particípio regular: tinha aceitado.",
+            "dica": "Com ter, prefira o particípio regular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O convite foi ___ pelo diretor\" (aceitar).",
+            "alternativas": [
+              "aceitado",
+              "aceitando",
+              "aceitar",
+              "aceito"
+            ],
+            "correta": 3,
+            "explicacao": "Com ser, usa-se o particípio irregular: foi aceito.",
+            "dica": "Com ser, prefira o irregular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estudara\" equivale a:",
+            "alternativas": [
+              "tinha estudado",
+              "estudará",
+              "estudaria",
+              "estudando"
+            ],
+            "correta": 0,
+            "explicacao": "É o mais-que-perfeito simples.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase indica ação em andamento?",
+            "alternativas": [
+              "Ele vai sair.",
+              "Ela está escrevendo uma carta.",
+              "Eu tinha saído.",
+              "Nós saímos."
+            ],
+            "correta": 1,
+            "explicacao": "Estar + gerúndio indica ação acontecendo.",
+            "dica": "Procure o gerúndio."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os fatos da frase \"Quando o professor chegou, os alunos já tinham começado a prova, que terão terminado até as 10h\".",
+            "itens": [
+              "Os alunos começaram a prova",
+              "O professor chegou",
+              "Os alunos terminam a prova até as 10h"
+            ],
+            "explicacao": "O mais-que-perfeito vem antes do pretérito; o futuro composto fica depois.",
+            "dica": "Tinham começado é o fato mais antigo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem os particípios bem usados?",
+            "alternativas": [
+              "A lâmpada tinha aceso e foi acendida.",
+              "A lâmpada foi acendida e estava aceso.",
+              "Ele tinha acendido a lâmpada, que estava acesa.",
+              "Ele tinha aceso a lâmpada, que estava acendida."
+            ],
+            "correta": 2,
+            "explicacao": "Com ter: acendido; com estar: acesa (irregular, concordando com lâmpada).",
+            "dica": "Com ter, regular; com ser e estar, irregular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"As notas tinham sido divulgadas\", qual é a estrutura?",
+            "alternativas": [
+              "Um único verbo simples",
+              "Gerundismo",
+              "Imperativo",
+              "Tempo composto (tinham sido) na voz passiva com particípio divulgadas"
+            ],
+            "correta": 3,
+            "explicacao": "Ter + sido forma o tempo composto de ser; divulgadas é o particípio da passiva.",
+            "dica": "Há três verbos: analise cada um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"divulgadas\" concorda com \"notas\" e \"divulgado\" não concorda em \"Ela tinha divulgado as notas\"?",
+            "alternativas": [
+              "Na passiva, o particípio concorda com o sujeito; com ter, não varia",
+              "Por acaso",
+              "Porque notas é masculino",
+              "Porque o verbo ter manda concordar"
+            ],
+            "correta": 0,
+            "explicacao": "Releia o último parágrafo do aprofundamento.",
+            "dica": "Compare a voz passiva com o tempo composto ativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem sentido de AÇÃO REPETIDA até agora?",
+            "alternativas": [
+              "Choveu muito ontem.",
+              "Tem chovido muito ultimamente.",
+              "Vai chover amanhã.",
+              "Tinha chovido antes da festa."
+            ],
+            "correta": 1,
+            "explicacao": "Tem chovido: pretérito perfeito composto, repetição até o presente.",
+            "dica": "Procure ter no presente + particípio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Quando a mãe chegou, Lucas havia lavado a louça.\" Qual troca mantém o sentido?",
+            "alternativas": [
+              "Lucas lavaria a louça.",
+              "Lucas lavará a louça.",
+              "Lucas lavara a louça.",
+              "Lucas lava a louça."
+            ],
+            "correta": 2,
+            "explicacao": "Havia lavado = tinha lavado = lavara (mais-que-perfeito).",
+            "dica": "Haver no lugar de ter; procure a forma simples equivalente."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O chute que desenhava uma curva",
+    "texto": "Quando um jogador cobra uma falta e a bola sobe por cima da barreira e desce perto do gol, ela desenha no ar uma curva que os matemáticos conhecem bem: a parábola.\n\nIsso acontece porque duas coisas atuam na bola ao mesmo tempo. O chute dá a ela uma velocidade para a frente e para cima. Enquanto isso, a gravidade puxa a bola para baixo o tempo todo. A velocidade para cima vai diminuindo, até zerar no ponto mais alto. Depois, a bola começa a cair, cada vez mais rápido.\n\nSe ignorarmos o ar, a altura da bola pode ser descrita por uma função quadrática. Um exemplo é h(t) = −5t² + 15t, com a altura em metros e o tempo em segundos. Como o número que acompanha t² é negativo, a parábola abre para baixo e tem um ponto máximo: o vértice.\n\nO vértice acontece em t = 1,5 segundo, e a altura máxima é de 11,25 metros. Outra curiosidade é a simetria: a bola leva o mesmo tempo para subir até o topo e para descer de volta ao chão. Ela sai do chão em t = 0 e volta em t = 3 segundos, que são as raízes da função.\n\nNa vida real, o ar muda um pouco essa história. A resistência do ar freia a bola, e o giro dela pode fazer a trajetória entortar para os lados, como naquelas cobranças que parecem fugir do goleiro. Mesmo assim, a parábola é o ponto de partida para entender o movimento.\n\nDa próxima vez que vir uma bola no ar, repare: ali está uma função quadrática acontecendo diante dos seus olhos."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique, como se fosse para um colega do 6º ano, o que significa comprar uma ação e por que o preço dela sobe e desce."
+  }
+}

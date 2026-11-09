@@ -1,0 +1,804 @@
+{
+  "dia": 36,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Equações do 1º grau com parênteses e frações",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Uma equação é uma igualdade com um valor desconhecido, como 2x + 3 = 11. Resolver é achar o número que deixa os dois lados iguais. Aqui, x = 4, porque 2 × 4 + 3 = 11.",
+          "A regra de ouro: o que você faz de um lado, faz do outro. Somar, subtrair, multiplicar ou dividir os dois lados pelo mesmo número (diferente de zero) mantém a igualdade.",
+          "Com parênteses, primeiro aplique a distributiva: 2(x + 3) = 14 vira 2x + 6 = 14. Depois, tire 6 dos dois lados: 2x = 8. Divida por 2: x = 4.",
+          "Com frações, multiplique a equação toda pelo MMC dos denominadores para sumir com eles. Em x/3 + 2 = 5, multiplique tudo por 3: x + 6 = 15, então x = 9.",
+          "No fim, confira trocando x pelo valor encontrado na equação original. Se os dois lados derem o mesmo número, a resposta está certa."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Resolva 3(x − 2) = x + 8.",
+            "resolucao": "Distributiva: 3x − 6 = x + 8. Tire x dos dois lados: 2x − 6 = 8. Some 6: 2x = 14. Divida por 2: x = 7. Conferindo: 3(7 − 2) = 15 e 7 + 8 = 15."
+          },
+          {
+            "enunciado": "Resolva x/2 + x/3 = 10.",
+            "resolucao": "MMC de 2 e 3 é 6. Multiplique tudo por 6: 3x + 2x = 60. Então 5x = 60 e x = 12. Conferindo: 12/2 + 12/3 = 6 + 4 = 10."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cuidado com o sinal de menos antes dos parênteses: −(x − 4) = −x + 4. Em 10 − (x − 4) = 9, fica 10 − x + 4 = 9, então 14 − x = 9 e x = 5. Esquecer de trocar o sinal do 4 é o erro mais comum.",
+        "Quando a fração tem soma no numerador, use parênteses ao multiplicar pelo MMC. Em (x + 1)/2 = (x − 1)/3, multiplique por 6: 3(x + 1) = 2(x − 1), então 3x + 3 = 2x − 2, e x = −5. A resposta pode ser negativa.",
+        "Nem toda equação tem uma solução só. 2(x + 1) = 2x + 2 é verdadeira para qualquer x (os dois lados são iguais). Já 2x + 1 = 2x + 5 não tem solução, porque chegaria em 1 = 5."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a solução de x + 5 = 12?",
+            "alternativas": ["17", "7", "5", "12"],
+            "correta": 1,
+            "explicacao": "Tire 5 dos dois lados: x = 12 − 5 = 7. Conferindo: 7 + 5 = 12.",
+            "dica": "Que número somado a 5 dá 12?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a solução de 2x = 10?",
+            "alternativas": ["5", "8", "12", "20"],
+            "correta": 0,
+            "explicacao": "Divida os dois lados por 2: x = 5.",
+            "dica": "Duas vezes que número dá 10?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Abrindo os parênteses, 2(x + 3) fica:",
+            "alternativas": ["2x + 3", "x + 6", "2x + 6", "2x + 5"],
+            "correta": 2,
+            "explicacao": "O 2 multiplica os dois termos: 2 × x + 2 × 3 = 2x + 6.",
+            "dica": "O número de fora multiplica tudo o que está dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a regra de ouro das equações?",
+            "alternativas": ["Mexer só do lado esquerdo", "Trocar todos os sinais", "Apagar o x", "O que se faz de um lado, faz-se do outro"],
+            "correta": 3,
+            "explicacao": "Fazer a mesma operação nos dois lados mantém a igualdade, como numa balança equilibrada.",
+            "dica": "Pense numa balança que precisa ficar equilibrada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a solução de x/3 = 4?",
+            "alternativas": ["12", "7", "1", "4/3"],
+            "correta": 0,
+            "explicacao": "Multiplique os dois lados por 3: x = 12. Conferindo: 12 ÷ 3 = 4.",
+            "dica": "Que número dividido por 3 dá 4?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 2(x + 3) = 14.",
+            "alternativas": ["x = 5,5", "x = 4", "x = 8", "x = 7"],
+            "correta": 1,
+            "explicacao": "2x + 6 = 14, 2x = 8, x = 4. O 5,5 vem de esquecer de multiplicar o 3 por 2.",
+            "dica": "Faça a distributiva antes de qualquer outra coisa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva x/3 + 2 = 5.",
+            "alternativas": ["x = 1", "x = 21", "x = 9", "x = 3"],
+            "correta": 2,
+            "explicacao": "Multiplique tudo por 3: x + 6 = 15, então x = 9. Conferindo: 9/3 + 2 = 5.",
+            "dica": "Multiplique todos os termos por 3, inclusive o 2 e o 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 3(x − 2) = x + 8.",
+            "alternativas": ["x = 3", "x = 5", "x = 10", "x = 7"],
+            "correta": 3,
+            "explicacao": "3x − 6 = x + 8, 2x = 14, x = 7.",
+            "dica": "Depois da distributiva, junte os x de um lado e os números do outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 5x − 4 = 2x + 11.",
+            "alternativas": ["x = 5", "x = 7", "x = 3", "x = 15"],
+            "correta": 0,
+            "explicacao": "Tire 2x: 3x − 4 = 11. Some 4: 3x = 15. Divida: x = 5.",
+            "dica": "Leve os termos com x para um lado só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva x/2 + x/3 = 10.",
+            "alternativas": ["x = 2", "x = 12", "x = 60", "x = 6"],
+            "correta": 1,
+            "explicacao": "Multiplique por 6: 3x + 2x = 60, 5x = 60, x = 12.",
+            "dica": "Use o MMC de 2 e 3 para sumir com os denominadores."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 10 − (x − 4) = 9.",
+            "alternativas": ["x = 3", "x = −5", "x = 5", "x = −3"],
+            "correta": 2,
+            "explicacao": "10 − x + 4 = 9, 14 − x = 9, x = 5. Quem esquece de trocar o sinal do 4 chega em x = −3.",
+            "dica": "O menos antes dos parênteses troca o sinal de tudo que está dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva (x + 1)/2 = (x − 1)/3.",
+            "alternativas": ["x = 5", "x = 1", "x = −1", "x = −5"],
+            "correta": 3,
+            "explicacao": "Multiplique por 6: 3(x + 1) = 2(x − 1), 3x + 3 = 2x − 2, x = −5.",
+            "dica": "Multiplique pelo MMC e coloque parênteses nos numeradores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 4(2x − 1) − 3(x + 2) = 5.",
+            "alternativas": ["x = 3", "x = 1", "x = 2", "x = 15"],
+            "correta": 0,
+            "explicacao": "8x − 4 − 3x − 6 = 5, 5x − 10 = 5, 5x = 15, x = 3.",
+            "dica": "O −3 multiplica o x e o 2, os dois com sinal trocado."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para resolver 2(x + 5) = 3x − 4:",
+            "itens": ["Distributiva: 2x + 10 = 3x − 4", "Tire 2x dos dois lados: 10 = x − 4", "Some 4 dos dois lados: 14 = x", "Confira: 2(19) = 38 e 3 × 14 − 4 = 38"],
+            "explicacao": "Abrir parênteses, juntar os x, isolar e conferir: x = 14.",
+            "dica": "A conferência é sempre o último passo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva (2x − 3)/5 = 3.",
+            "alternativas": ["x = 3", "x = 9", "x = 6", "x = 7,5"],
+            "correta": 1,
+            "explicacao": "Multiplique por 5: 2x − 3 = 15, 2x = 18, x = 9.",
+            "dica": "Multiplique os dois lados por 5 antes de isolar o x."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva x/4 − (x − 2)/6 = 1.",
+            "alternativas": ["x = 16", "x = 4", "x = 8", "x = −8"],
+            "correta": 2,
+            "explicacao": "MMC = 12: 3x − 2(x − 2) = 12, 3x − 2x + 4 = 12, x = 8. Conferindo: 8/4 − 6/6 = 2 − 1 = 1.",
+            "dica": "Ao multiplicar por 12, a segunda fração vira −2 vezes o parêntese inteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas soluções tem a equação 2(x + 1) = 2x + 2?",
+            "alternativas": ["Nenhuma", "Uma, x = 1", "Uma, x = 0", "Infinitas: qualquer número serve"],
+            "correta": 3,
+            "explicacao": "Abrindo: 2x + 2 = 2x + 2. Os lados são sempre iguais, então qualquer x é solução.",
+            "dica": "Abra os parênteses e compare os dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas soluções tem 3(x − 1) = 3x + 4?",
+            "alternativas": ["Nenhuma", "Uma, x = 7", "Uma, x = −7", "Infinitas"],
+            "correta": 0,
+            "explicacao": "3x − 3 = 3x + 4. Tirando 3x: −3 = 4, que é falso. Não há solução.",
+            "dica": "Depois de tirar 3x dos dois lados, o que sobra é verdade ou mentira?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resolva 2 − 3(1 − x) = 5 − (x + 2).",
+            "alternativas": ["x = 2", "x = 1", "x = −1", "x = 4/3"],
+            "correta": 1,
+            "explicacao": "Esquerda: 2 − 3 + 3x = 3x − 1. Direita: 5 − x − 2 = 3 − x. 3x − 1 = 3 − x, 4x = 4, x = 1.",
+            "dica": "Abra os dois parênteses com cuidado nos sinais e só depois junte os x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A metade de um número mais a terça parte dele dá 25. Que número é esse?",
+            "alternativas": ["50", "75", "30", "15"],
+            "correta": 2,
+            "explicacao": "x/2 + x/3 = 25. Multiplicando por 6: 3x + 2x = 150, 5x = 150, x = 30. Conferindo: 15 + 10 = 25.",
+            "dica": "Monte a equação com as duas frações e use o MMC."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Conta de luz e de água: entender e economizar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A energia elétrica é medida em quilowatt-hora (kWh). O relógio de luz marca um número que só aumenta. O consumo do mês é a leitura atual menos a leitura anterior, e o valor é o consumo multiplicado pela tarifa, mais impostos e taxas.",
+          "Na conta também aparece a bandeira tarifária: verde, amarela ou vermelha. Quando chove pouco e as usinas mais caras precisam funcionar, a bandeira muda de cor e cada kWh fica mais caro.",
+          "Para saber quanto um aparelho gasta: potência em quilowatts × horas de uso. Um chuveiro de 5.500 W (5,5 kW) ligado 1 hora gasta 5,5 kWh. Por isso o chuveiro elétrico costuma ser o vilão da conta.",
+          "A água é medida em metros cúbicos (m³). Um metro cúbico tem 1.000 litros. Vazamentos, como uma descarga que fica escorrendo, desperdiçam muita água sem ninguém perceber.",
+          "Famílias de baixa renda inscritas no Cadastro Único podem ter direito à Tarifa Social de Energia Elétrica, com desconto na conta. Vale perguntar no CRAS ou na distribuidora."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A leitura do mês passado era 4.250 kWh e a deste mês é 4.430 kWh. Imagine uma tarifa de R$ 0,80 por kWh. Quanto foi o consumo e quanto custa, sem impostos?",
+            "resolucao": "Consumo: 4.430 − 4.250 = 180 kWh. Valor: 180 × 0,80 = R$ 144,00."
+          },
+          {
+            "enunciado": "Na casa da Ester, 4 pessoas tomam banho de 15 minutos num chuveiro de 5.500 W. Quanto isso gasta por dia? E se cada banho cair para 10 minutos?",
+            "resolucao": "15 min = 0,25 h. Por banho: 5,5 × 0,25 = 1,375 kWh. Quatro banhos: 5,5 kWh por dia. Com 10 minutos (1/6 de hora): 5,5 × 4/6 ≈ 3,67 kWh por dia, economia de cerca de 1,83 kWh por dia, ou uns 55 kWh por mês."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um aparelho pode gastar pouco por hora e muito no mês por ficar ligado o tempo todo. Uma geladeira tem motor que liga e desliga sozinho; geladeira velha, com a borracha da porta gasta, gasta bem mais. Aparelhos em modo de espera (com luzinha acesa) também consomem um pouco, o dia inteiro.",
+        "Lâmpadas de LED gastam bem menos que as antigas incandescentes para iluminar o mesmo tanto. Uma lâmpada de LED de 9 W ligada 5 horas por dia, durante 30 dias, gasta 9 × 5 × 30 = 1.350 Wh, ou seja, 1,35 kWh.",
+        "Para descobrir vazamento de água: feche todas as torneiras, não use nada e anote o número do hidrômetro. Uma hora depois, se o número mudou, tem água escapando em algum lugar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que unidade a energia elétrica é medida na conta de luz?",
+            "alternativas": ["Litros", "kWh (quilowatt-hora)", "Metros", "Quilos"],
+            "correta": 1,
+            "explicacao": "A conta de luz mede a energia em kWh.",
+            "dica": "A sigla tem um W, de watt."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que unidade a água é medida na conta?",
+            "alternativas": ["Metros cúbicos (m³)", "kWh", "Gramas", "Horas"],
+            "correta": 0,
+            "explicacao": "A água é medida em m³; cada m³ tem 1.000 litros.",
+            "dica": "É uma medida de volume, com um numerozinho 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual aparelho costuma ser o vilão da conta de luz?",
+            "alternativas": ["Carregador de celular", "Lâmpada de LED", "Chuveiro elétrico", "Relógio de parede"],
+            "correta": 2,
+            "explicacao": "O chuveiro tem potência muito alta, por isso gasta muito em pouco tempo.",
+            "dica": "Pense no aparelho que esquenta muita água muito rápido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos litros tem 1 metro cúbico?",
+            "alternativas": ["10", "100", "10.000", "1.000"],
+            "correta": 3,
+            "explicacao": "1 m³ = 1.000 litros.",
+            "dica": "Volte ao quarto parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude economiza luz?",
+            "alternativas": ["Tomar banhos mais curtos", "Deixar a TV ligada sem ninguém", "Abrir a geladeira toda hora", "Deixar luzes acesas de dia"],
+            "correta": 0,
+            "explicacao": "Banho curto diminui o tempo do chuveiro ligado, o maior gasto da casa.",
+            "dica": "Pense no vilão da conta."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A leitura anterior era 4.250 kWh e a atual é 4.430 kWh. Qual foi o consumo?",
+            "alternativas": ["8.680 kWh", "180 kWh", "4.430 kWh", "200 kWh"],
+            "correta": 1,
+            "explicacao": "Consumo = atual − anterior = 4.430 − 4.250 = 180 kWh.",
+            "dica": "Subtraia a leitura antiga da nova."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com consumo de 180 kWh e uma tarifa imaginária de R$ 0,80 por kWh, quanto custa a energia, sem impostos?",
+            "alternativas": ["R$ 180,00", "R$ 225,00", "R$ 144,00", "R$ 14,40"],
+            "correta": 2,
+            "explicacao": "180 × 0,80 = R$ 144,00.",
+            "dica": "Multiplique o consumo pela tarifa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um chuveiro de 5.500 W fica ligado 2 horas. Quanto ele gasta?",
+            "alternativas": ["5.500 kWh", "2,75 kWh", "7,5 kWh", "11 kWh"],
+            "correta": 3,
+            "explicacao": "5.500 W = 5,5 kW. 5,5 × 2 = 11 kWh.",
+            "dica": "Transforme watts em quilowatts e multiplique pelas horas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa a bandeira vermelha na conta de luz?",
+            "alternativas": ["Que o kWh está mais caro naquele período", "Que a conta está paga", "Que a luz vai ser cortada amanhã", "Que a energia está de graça"],
+            "correta": 0,
+            "explicacao": "Bandeira vermelha indica custo maior de produção de energia, e o kWh fica mais caro.",
+            "dica": "Pense nas cores do semáforo: vermelho é sinal de quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma conta de água marcou 12 m³ no mês. Quantos litros a casa usou?",
+            "alternativas": ["120 litros", "12.000 litros", "1.200 litros", "12 litros"],
+            "correta": 1,
+            "explicacao": "12 × 1.000 = 12.000 litros.",
+            "dica": "Cada metro cúbico vale mil litros."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um chuveiro de 5.500 W é usado 40 minutos por dia, todos os dias, durante 30 dias. Quanto gasta no mês?",
+            "alternativas": ["165 kWh", "220 kWh", "110 kWh", "6.600 kWh"],
+            "correta": 2,
+            "explicacao": "40 min = 2/3 h. Por dia: 5,5 × 2/3 ≈ 3,67 kWh. No mês: 5,5 × 20 h = 110 kWh (porque 40 min × 30 = 1.200 min = 20 h).",
+            "dica": "Some o tempo do mês inteiro em horas antes de multiplicar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lâmpada de LED de 9 W fica acesa 5 horas por dia, por 30 dias. Quanto ela gasta?",
+            "alternativas": ["45 kWh", "13,5 kWh", "135 kWh", "1,35 kWh"],
+            "correta": 3,
+            "explicacao": "9 × 5 × 30 = 1.350 Wh = 1,35 kWh.",
+            "dica": "Calcule em Wh e divida por 1.000 para virar kWh."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A família reduziu o consumo de 200 kWh para 160 kWh. Com uma tarifa imaginária de R$ 0,90 por kWh, quanto economizou no mês, sem impostos?",
+            "alternativas": ["R$ 36,00", "R$ 40,00", "R$ 144,00", "R$ 180,00"],
+            "correta": 0,
+            "explicacao": "Economia de 40 kWh. 40 × 0,90 = R$ 36,00.",
+            "dica": "Ache quantos kWh deixaram de ser gastos e multiplique pela tarifa."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o teste para descobrir vazamento de água:",
+            "itens": ["Feche todas as torneiras e não use água.", "Anote o número do hidrômetro.", "Espere uma hora sem usar nada.", "Confira se o número mudou."],
+            "explicacao": "Fechar, anotar, esperar e comparar. Se mudou, há vazamento.",
+            "dica": "Anote o número antes de esperar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma descarga com defeito vaza 10 litros por hora, o dia todo. Quantos m³ ela desperdiça em 30 dias?",
+            "alternativas": ["0,3 m³", "7,2 m³", "72 m³", "300 m³"],
+            "correta": 1,
+            "explicacao": "10 × 24 = 240 litros por dia. 240 × 30 = 7.200 litros = 7,2 m³.",
+            "dica": "Calcule os litros do dia, depois do mês, e converta para m³."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na casa da Ester, 4 pessoas tomam banho de 15 minutos num chuveiro de 5,5 kW. Se cada banho cair para 10 minutos, quanto a família economiza em 30 dias?",
+            "alternativas": ["27,5 kWh", "110 kWh", "55 kWh", "165 kWh"],
+            "correta": 2,
+            "explicacao": "Cada pessoa economiza 5 minutos por dia: 4 × 5 = 20 min por dia; em 30 dias, 600 min = 10 h. 10 × 5,5 = 55 kWh.",
+            "dica": "Some todos os minutos economizados no mês e transforme em horas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Trocar 5 lâmpadas antigas de 60 W por LED de 9 W, cada uma acesa 4 horas por dia, economiza quanto em 30 dias?",
+            "alternativas": ["6,12 kWh", "36 kWh", "1,02 kWh", "30,6 kWh"],
+            "correta": 3,
+            "explicacao": "Cada lâmpada economiza 51 W. 5 × 51 = 255 W. 255 × 4 × 30 = 30.600 Wh = 30,6 kWh.",
+            "dica": "Ache a diferença de potência de cada lâmpada e multiplique por tudo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma conta teve 150 kWh. Com tarifa de R$ 0,80 por kWh em bandeira verde e um acréscimo imaginário de R$ 0,05 por kWh na bandeira vermelha, quanto a mais a família pagaria com a vermelha?",
+            "alternativas": ["R$ 7,50", "R$ 120,00", "R$ 127,50", "R$ 0,05"],
+            "correta": 0,
+            "explicacao": "O acréscimo é só sobre cada kWh: 150 × 0,05 = R$ 7,50 a mais.",
+            "dica": "Calcule só o que muda: o acréscimo por kWh."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aparelho em modo de espera consome 5 W o tempo todo. Quanto ele gasta em 30 dias?",
+            "alternativas": ["0,15 kWh", "3,6 kWh", "150 kWh", "36 kWh"],
+            "correta": 1,
+            "explicacao": "5 W × 24 h × 30 dias = 3.600 Wh = 3,6 kWh. Pouco por hora, mas soma no mês.",
+            "dica": "Ligado o tempo todo: quantas horas há em 30 dias?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas mudanças, numa casa típica com chuveiro elétrico, tende a economizar MAIS energia?",
+            "alternativas": ["Tirar o carregador da tomada", "Desligar o relógio digital do micro-ondas", "Reduzir o tempo de banho de toda a família", "Trocar a capa do celular"],
+            "correta": 2,
+            "explicacao": "O chuveiro tem a maior potência da casa; cortar minutos de banho gera a maior economia.",
+            "dica": "Ataque primeiro o aparelho de maior potência."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Funções com parâmetros e retorno",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma função é um pedaço de código com nome, que faz uma tarefa e pode ser usado muitas vezes. Em vez de repetir a mesma conta em vários lugares, você escreve uma função e a chama pelo nome.",
+          "Parâmetros são as informações que a função recebe para trabalhar. Em FUNÇÃO dobro(n), o n é o parâmetro. Na hora de usar, você passa um valor: dobro(7). Esse valor se chama argumento.",
+          "O retorno é a resposta que a função devolve, com o comando RETORNE. FUNÇÃO dobro(n): RETORNE n × 2. Então dobro(7) vale 14 e pode ser usado numa conta: dobro(7) + 1 = 15.",
+          "RETORNE é diferente de ESCREVA. ESCREVA só mostra na tela; RETORNE devolve o valor para quem chamou, que pode guardar numa variável, somar, comparar.",
+          "Uma função pode ter vários parâmetros, separados por vírgula: FUNÇÃO area(base, altura): RETORNE base × altura. area(5, 3) vale 15."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Crie uma função que calcula o preço com desconto e use para um produto de R$ 50 com 10% de desconto.",
+            "resolucao": "FUNÇÃO comDesconto(preco, taxa): RETORNE preco × (1 − taxa). comDesconto(50, 0.1) = 50 × 0.9 = 45."
+          },
+          {
+            "enunciado": "FUNÇÃO dobro(n): RETORNE n × 2. Quanto vale dobro(3) + dobro(4)?",
+            "resolucao": "dobro(3) = 6 e dobro(4) = 8. Somando: 6 + 8 = 14."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Quando a função encontra RETORNE, ela termina na hora, mesmo que haja mais linhas depois. FUNÇÃO maior(a, b): SE a > b ENTÃO RETORNE a; RETORNE b. Se a for maior, a segunda linha nem é executada.",
+        "Funções podem chamar outras funções: FUNÇÃO quadruplo(n): RETORNE dobro(dobro(n)). quadruplo(5) = dobro(10) = 20. Assim, problemas grandes viram pedaços pequenos.",
+        "A ordem dos argumentos importa. Em FUNÇÃO divide(a, b): RETORNE a ÷ b, divide(10, 2) = 5, mas divide(2, 10) = 0.2. O primeiro argumento vai para o primeiro parâmetro, e assim por diante."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma função na programação?",
+            "alternativas": ["Um trecho de código com nome que faz uma tarefa e pode ser reutilizado", "Um tipo de tela", "Uma senha", "Um erro do computador"],
+            "correta": 0,
+            "explicacao": "Função é um pedaço de código com nome que você chama quando precisar.",
+            "dica": "Pense em algo que você escreve uma vez e usa várias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em FUNÇÃO dobro(n), o que é o n?",
+            "alternativas": ["O retorno", "O parâmetro", "O nome da função", "Um erro"],
+            "correta": 1,
+            "explicacao": "O n é o parâmetro: a informação que a função recebe.",
+            "dica": "É o que fica entre os parênteses na criação da função."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando devolve a resposta da função para quem chamou?",
+            "alternativas": ["LEIA", "ESCREVA", "RETORNE", "PARA"],
+            "correta": 2,
+            "explicacao": "RETORNE devolve o valor. ESCREVA só mostra na tela.",
+            "dica": "O nome do comando lembra voltar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO dobro(n): RETORNE n × 2. Quanto vale dobro(7)?",
+            "alternativas": ["9", "72", "7", "14"],
+            "correta": 3,
+            "explicacao": "n recebe 7, e a função devolve 7 × 2 = 14.",
+            "dica": "Troque n por 7 dentro da função."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na chamada dobro(7), como se chama o 7?",
+            "alternativas": ["Argumento", "Parâmetro", "Função", "Laço"],
+            "correta": 0,
+            "explicacao": "O valor passado na chamada é o argumento; ele vai para o parâmetro n.",
+            "dica": "Parâmetro é na criação; o valor usado na chamada tem outro nome."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO area(base, altura): RETORNE base × altura. Quanto vale area(5, 3)?",
+            "alternativas": ["8", "15", "53", "2"],
+            "correta": 1,
+            "explicacao": "base = 5 e altura = 3. 5 × 3 = 15.",
+            "dica": "O primeiro valor vai para base, o segundo para altura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO dobro(n): RETORNE n × 2. Quanto vale dobro(3) + dobro(4)?",
+            "alternativas": ["7", "24", "14", "12"],
+            "correta": 2,
+            "explicacao": "6 + 8 = 14.",
+            "dica": "Calcule cada chamada separadamente e depois some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre RETORNE e ESCREVA?",
+            "alternativas": ["Nenhuma", "ESCREVA devolve e RETORNE mostra", "RETORNE apaga a variável", "RETORNE devolve o valor para o programa; ESCREVA só mostra na tela"],
+            "correta": 3,
+            "explicacao": "Com RETORNE, o valor pode ser guardado e usado em contas. ESCREVA só exibe.",
+            "dica": "Qual dos dois permite usar o resultado numa conta depois?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO comDesconto(preco, taxa): RETORNE preco × (1 − taxa). Quanto vale comDesconto(80, 0.25)?",
+            "alternativas": ["60", "20", "79.75", "100"],
+            "correta": 0,
+            "explicacao": "1 − 0.25 = 0.75. 80 × 0.75 = 60.",
+            "dica": "Calcule primeiro 1 menos a taxa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO soma3(a, b, c): RETORNE a + b + c. Quanto vale soma3(2, 5, 10)?",
+            "alternativas": ["7", "17", "15", "100"],
+            "correta": 1,
+            "explicacao": "2 + 5 + 10 = 17.",
+            "dica": "Some os três argumentos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO maior(a, b): SE a > b ENTÃO RETORNE a; RETORNE b. Quanto vale maior(4, 9) + maior(7, 2)?",
+            "alternativas": ["11", "13", "16", "22"],
+            "correta": 2,
+            "explicacao": "maior(4, 9) = 9 e maior(7, 2) = 7. 9 + 7 = 16.",
+            "dica": "Descubra o maior de cada par e depois some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO divide(a, b): RETORNE a ÷ b. Quanto vale divide(2, 10)?",
+            "alternativas": ["5", "20", "8", "0.2"],
+            "correta": 3,
+            "explicacao": "a = 2 e b = 10. 2 ÷ 10 = 0.2. A ordem dos argumentos importa.",
+            "dica": "O primeiro argumento vai para a; o segundo, para b."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO dobro(n): RETORNE n × 2. FUNÇÃO quadruplo(n): RETORNE dobro(dobro(n)). Quanto vale quadruplo(5)?",
+            "alternativas": ["20", "10", "25", "40"],
+            "correta": 0,
+            "explicacao": "dobro(5) = 10; dobro(10) = 20.",
+            "dica": "Resolva o dobro de dentro primeiro."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que acontece em x ← area(4, 6):",
+            "itens": ["O programa chama area com os argumentos 4 e 6.", "base recebe 4 e altura recebe 6.", "A função calcula 4 × 6 = 24.", "RETORNE devolve 24.", "x passa a valer 24."],
+            "explicacao": "Chamada, parâmetros recebem os valores, cálculo, retorno e atribuição.",
+            "dica": "A variável x só recebe o valor depois que a função devolve."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO teste(n): ESCREVA n × 2. O que acontece em x ← teste(5) + 1?",
+            "alternativas": ["x vale 11", "Dá problema: a função só mostra 10 na tela e não devolve valor para somar", "x vale 6", "x vale 10"],
+            "correta": 1,
+            "explicacao": "Sem RETORNE, a função não devolve nada para a conta. Ela só mostra o 10.",
+            "dica": "Essa função mostra ou devolve o resultado?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO f(x): RETORNE 3 × x − 1. Quanto vale f(f(2))?",
+            "alternativas": ["5", "15", "14", "18"],
+            "correta": 2,
+            "explicacao": "f(2) = 3 × 2 − 1 = 5. f(5) = 3 × 5 − 1 = 14.",
+            "dica": "Calcule a função de dentro e use o resultado na de fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO classifica(n): SE n >= 6 ENTÃO RETORNE 'Aprovado'; ESCREVA 'Atenção'; RETORNE 'Recuperação'. O que aparece na tela e o que é devolvido em classifica(8)?",
+            "alternativas": ["Mostra Atenção e devolve Aprovado", "Mostra Atenção e devolve Recuperação", "Não mostra nada e devolve Recuperação", "Não mostra nada e devolve Aprovado"],
+            "correta": 3,
+            "explicacao": "8 >= 6, então RETORNE 'Aprovado' termina a função na hora. O ESCREVA nem é executado.",
+            "dica": "Lembre o que acontece com as linhas depois de um RETORNE executado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO comDesconto(preco, taxa): RETORNE preco × (1 − taxa). Quanto vale comDesconto(comDesconto(100, 0.1), 0.1)?",
+            "alternativas": ["81", "80", "90", "99"],
+            "correta": 0,
+            "explicacao": "comDesconto(100, 0.1) = 90. comDesconto(90, 0.1) = 81. Dois descontos de 10% não dão 20%.",
+            "dica": "O segundo desconto é sobre o resultado do primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO media(a, b): RETORNE (a + b) ÷ 2. Alguém escreveu RETORNE a + b ÷ 2. Quanto essa versão errada devolve para media(6, 10)?",
+            "alternativas": ["8", "11", "16", "3"],
+            "correta": 1,
+            "explicacao": "Sem parênteses, a divisão vem antes: 6 + 10 ÷ 2 = 6 + 5 = 11. A média certa seria 8.",
+            "dica": "Sem parênteses, qual operação é feita primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO total(qtd, preco): RETORNE qtd × preco. Qual chamada calcula 3 pastéis de R$ 7,50 mais 2 caldos de R$ 6,00?",
+            "alternativas": ["total(3, 2) + total(7.5, 6)", "total(3 + 2, 7.5 + 6)", "total(3, 7.5) + total(2, 6)", "total(7.5, 3, 6, 2)"],
+            "correta": 2,
+            "explicacao": "Cada item é uma chamada: total(3, 7.5) = 22.5 e total(2, 6) = 12. Soma: 34.5.",
+            "dica": "Cada produto precisa da sua própria quantidade e do seu próprio preço."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Predicado verbal e predicado nominal",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Predicado é tudo o que se diz sobre o sujeito. Em “A conta de luz subiu muito”, o sujeito é “A conta de luz” e o predicado é “subiu muito”.",
+          "No predicado verbal, a parte mais importante (o núcleo) é um verbo que indica ação ou acontecimento: correr, comprar, chover, subir. “O menino correu até o ponto.”",
+          "No predicado nominal, o verbo só liga o sujeito a uma característica ou estado. É o verbo de ligação: ser, estar, parecer, permanecer, ficar, continuar, andar (no sentido de estar). “A rua está alagada.”",
+          "A característica ligada ao sujeito se chama predicativo do sujeito. Em “A rua está alagada”, “alagada” é o predicativo, e é ele o núcleo do predicado nominal.",
+          "Teste rápido: troque o verbo por “é” ou “está”. Se a frase continuar com sentido parecido, falando de um estado do sujeito, é verbo de ligação."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique o predicado: “Minha avó parece cansada.”",
+            "resolucao": "Predicado nominal. “Parece” é verbo de ligação e “cansada” é o predicativo do sujeito, que diz o estado da avó."
+          },
+          {
+            "enunciado": "Classifique o predicado: “Minha avó comprou pão.”",
+            "resolucao": "Predicado verbal. “Comprou” indica uma ação, e é o núcleo do predicado."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O mesmo verbo pode mudar de papel. “Ele anda pela praça” (andar = caminhar, ação: predicado verbal). “Ele anda preocupado” (andar = estar: predicado nominal). “Ela ficou em casa” (verbal, indica permanência num lugar) e “Ela ficou feliz” (nominal, indica estado).",
+        "Existe ainda o predicado verbo-nominal, com dois núcleos: um verbo de ação e um predicativo. “Os alunos saíram felizes da prova.” Eles saíram (ação) e estavam felizes (estado).",
+        "O predicativo concorda com o sujeito: “O menino está cansado”, “As meninas estão cansadas”. Um erro comum é deixar o predicativo no singular quando o sujeito está no plural."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “A conta de luz subiu”, qual é o predicado?",
+            "alternativas": ["A conta", "subiu", "de luz", "A conta de luz"],
+            "correta": 1,
+            "explicacao": "Predicado é o que se diz do sujeito: “subiu”.",
+            "dica": "O que se diz sobre a conta de luz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um verbo de ligação?",
+            "alternativas": ["estar", "correr", "comprar", "chover"],
+            "correta": 0,
+            "explicacao": "“Estar” liga o sujeito a um estado: “Ele está feliz”.",
+            "dica": "Procure o verbo que não indica ação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“A rua está alagada.” O predicado é:",
+            "alternativas": ["verbal", "inexistente", "nominal", "sem verbo"],
+            "correta": 2,
+            "explicacao": "“Está” é verbo de ligação e “alagada” é o estado da rua: predicado nominal.",
+            "dica": "O verbo indica ação ou só liga a rua a um estado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“O menino correu até o ponto.” O predicado é:",
+            "alternativas": ["nominal", "sem verbo", "de ligação", "verbal"],
+            "correta": 3,
+            "explicacao": "“Correu” é ação: predicado verbal.",
+            "dica": "Correr é ação ou estado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “A rua está alagada”, qual palavra é o predicativo do sujeito?",
+            "alternativas": ["alagada", "rua", "está", "A"],
+            "correta": 0,
+            "explicacao": "O predicativo é a característica ligada ao sujeito: alagada.",
+            "dica": "É a palavra que diz como a rua está."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "“Minha avó parece cansada.” Qual é o tipo de predicado?",
+            "alternativas": ["Verbal", "Nominal", "Verbo-nominal", "Não tem predicado"],
+            "correta": 1,
+            "explicacao": "“Parece” é verbo de ligação e “cansada” é o predicativo.",
+            "dica": "Parecer indica ação ou liga a avó a um estado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase o predicado é verbal?",
+            "alternativas": ["O céu está nublado.", "O bolo ficou gostoso.", "Os vizinhos pintaram o portão.", "A professora é paciente."],
+            "correta": 2,
+            "explicacao": "“Pintaram” é ação. Nas outras, os verbos são de ligação.",
+            "dica": "Procure a frase com uma ação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o núcleo do predicado em “O time continua invicto”?",
+            "alternativas": ["O time", "continua", "time", "invicto"],
+            "correta": 3,
+            "explicacao": "“Continua” é verbo de ligação; o núcleo do predicado nominal é o predicativo “invicto”.",
+            "dica": "No predicado nominal, o núcleo não é o verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete com a concordância certa: “As meninas estão ____.”",
+            "alternativas": ["animadas", "animado", "animada", "animados"],
+            "correta": 0,
+            "explicacao": "O predicativo concorda com o sujeito “as meninas”: feminino e plural.",
+            "dica": "O predicativo concorda com o sujeito em gênero e número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pelo teste da lição, em qual frase o verbo é de ligação?",
+            "alternativas": ["Ela permaneceu calada.", "Ela comeu calada a sopa.", "Ela escreveu a carta.", "Ela correu na praça."],
+            "correta": 0,
+            "explicacao": "Trocando por “está”: “Ela está calada”. Faz sentido e fala de um estado.",
+            "dica": "Troque o verbo por “está” e veja se a frase continua com sentido."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase “andar” é verbo de ligação?",
+            "alternativas": ["Ele anda pela praça todo dia.", "Ele anda preocupado com as provas.", "Ele anda de ônibus.", "Ele anda rápido."],
+            "correta": 1,
+            "explicacao": "“Anda preocupado” = “está preocupado”: verbo de ligação.",
+            "dica": "Troque “anda” por “está” em cada frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Ela ficou em casa” e “Ela ficou feliz” têm, respectivamente, predicado:",
+            "alternativas": ["nominal e verbal", "verbal e verbal", "verbal e nominal", "nominal e nominal"],
+            "correta": 2,
+            "explicacao": "Ficar em casa indica permanência num lugar (verbal); ficar feliz indica estado (nominal).",
+            "dica": "Um indica lugar; o outro, estado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Os alunos saíram felizes da prova.” Que tipo de predicado é esse?",
+            "alternativas": ["Verbal", "Nominal", "Sem predicado", "Verbo-nominal"],
+            "correta": 3,
+            "explicacao": "Há uma ação (saíram) e um estado do sujeito (felizes): predicado verbo-nominal.",
+            "dica": "A frase tem ação e estado ao mesmo tempo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para classificar o predicado de “O lanche ficou frio”:",
+            "itens": ["Ache o sujeito: O lanche.", "Separe o predicado: ficou frio.", "Veja se o verbo indica ação ou estado: ficou indica estado.", "Conclua: predicado nominal, com predicativo frio."],
+            "explicacao": "Sujeito, predicado, análise do verbo e conclusão.",
+            "dica": "Comece achando de quem se fala."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro de concordância no predicativo?",
+            "alternativas": ["Os portões estão abertos.", "A janela ficou quebrada.", "As contas continuam altas.", "Os meninos parecem cansado."],
+            "correta": 3,
+            "explicacao": "O sujeito “os meninos” está no plural: o certo é “parecem cansados”.",
+            "dica": "Compare o número do sujeito com o do predicativo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “A família ficou assustada com o valor da conta”, qual é o predicativo do sujeito?",
+            "alternativas": ["com o valor", "assustada", "ficou", "da conta"],
+            "correta": 1,
+            "explicacao": "“Ficou” liga o sujeito ao estado “assustada”, que é o predicativo.",
+            "dica": "Procure a palavra que diz o estado da família."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par mostra o mesmo verbo em predicado verbal e depois nominal?",
+            "alternativas": ["Ela está feliz / Ela está cansada", "Ele correu / Ele saiu", "Ele continua o trabalho / Ele continua doente", "Ela comprou pão / Ela comprou leite"],
+            "correta": 2,
+            "explicacao": "“Continua o trabalho” é ação (verbal); “continua doente” é estado (nominal).",
+            "dica": "Procure o par em que o verbo é o mesmo, mas o papel muda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “O professor entrou na sala sorridente”, que tipo de predicado há?",
+            "alternativas": ["Verbo-nominal", "Nominal", "Verbal", "Sem predicado"],
+            "correta": 0,
+            "explicacao": "“Entrou” é ação, e “sorridente” é estado do professor: dois núcleos, predicado verbo-nominal.",
+            "dica": "A frase tem uma ação e também um estado do sujeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem predicado nominal?",
+            "alternativas": ["O vento derrubou a placa.", "Choveu forte ontem.", "As crianças brincaram no quintal.", "O bairro permanece sem água desde cedo."],
+            "correta": 3,
+            "explicacao": "“Permanece” é verbo de ligação, e “sem água” diz o estado do bairro: predicado nominal.",
+            "dica": "Procure o verbo da lista de verbos de ligação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Reescreva com predicado nominal a ideia de “A notícia assustou os moradores”, mantendo o sentido:",
+            "alternativas": ["Os moradores assustaram a notícia.", "Os moradores ficaram assustados com a notícia.", "A notícia correu pelos moradores.", "Os moradores leram a notícia."],
+            "correta": 1,
+            "explicacao": "“Ficaram” (ligação) + “assustados” (predicativo) mantém o sentido em forma de estado.",
+            "dica": "Use um verbo de ligação e diga o estado dos moradores."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A conta que subiu",
+    "texto": "Quando a conta de luz chegou, dona Jussara sentou na beira do sofá e ficou um tempo calada.\n\n— Duzentos e oitenta reais? No mês passado foi cento e noventa!\n\nO filho mais velho, Wagner, pegou o papel e procurou o número do consumo. Estava lá: 310 kWh. No mês anterior tinham sido 210.\n\n— Mãe, gastamos cem quilowatts-hora a mais. Alguma coisa mudou.\n\nNaquela noite, a família fez uma investigação. Wagner pesquisou a potência de cada aparelho, escrita numa etiqueta atrás deles. A irmã, Bia, anotou quanto tempo cada um ficava ligado.\n\nO resultado deixou todo mundo surpreso. A geladeira antiga, com a borracha da porta rasgada, trabalhava sem parar. E o chuveiro, desde que o tempo esfriou, ficava na posição inverno e ligado por muito mais tempo: banhos de vinte, vinte e cinco minutos.\n\n— O vilão é o chuveiro — concluiu Wagner, mostrando a conta no caderno.\n\nA família combinou banhos de dez minutos, com um cronômetro no celular. A borracha da geladeira foi trocada por um técnico do bairro, num serviço barato. E Bia virou fiscal das luzes acesas sem ninguém no cômodo.\n\nNo mês seguinte, a conta veio menor. Dona Jussara pregou o papel na geladeira, como um troféu."
+  },
+  "escrita": {
+    "proposta": "Liste cinco atitudes para economizar luz ou água na sua casa (por exemplo, banhos mais curtos, fechar a torneira ao escovar os dentes, apagar luzes). Para cada uma, escreva uma ou duas linhas explicando por que ela faz diferença na conta. Se puder, use um número para mostrar a economia, como os litros ou os minutos poupados."
+  }
+}

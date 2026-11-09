@@ -1,0 +1,1200 @@
+{
+  "dia": 31,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Equação com duas incógnitas e a reta no plano cartesiano",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Uma equação com duas incógnitas tem duas letras desconhecidas, como x + y = 10. Ela não tem uma resposta só: cada solução é um par de números que deixa a igualdade verdadeira, como x = 3 e y = 7, ou x = 4 e y = 6.",
+          "Escrevemos cada solução como um par ordenado (x, y). Em (3, 7), o primeiro número é sempre o x e o segundo é sempre o y. Trocar a ordem muda o ponto: (7, 3) é outro par.",
+          "O plano cartesiano tem dois eixos perpendiculares: o eixo x (horizontal) e o eixo y (vertical). Eles se cruzam na origem, o ponto (0, 0). Para marcar (3, 7), ande 3 para a direita e 7 para cima.",
+          "Quando marcamos várias soluções de x + y = 10 no plano, os pontos ficam alinhados: o gráfico é uma reta. Toda equação do tipo ax + by = c, com a ou b diferente de zero, forma uma reta.",
+          "Como dois pontos bastam para traçar uma reta, é só escolher dois valores para x, calcular o y de cada um e ligar os pontos com a régua. Isolar o y ajuda: x + y = 10 vira y = 10 − x."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Encontre três soluções de 2x + y = 8 e diga onde a reta corta os eixos.",
+            "resolucao": "Isole o y: y = 8 − 2x. Para x = 0, y = 8; para x = 1, y = 6; para x = 4, y = 0. Pares: (0, 8), (1, 6) e (4, 0). A reta corta o eixo y em (0, 8) e o eixo x em (4, 0)."
+          },
+          {
+            "enunciado": "Na cantina, o pastel custa R$ 5 e o suco R$ 4. Um grupo gastou R$ 28. Quais combinações são possíveis?",
+            "resolucao": "Com x pastéis e y sucos: 5x + 4y = 28. Testando números naturais: x = 0 dá y = 7; x = 4 dá y = 2 (20 + 8 = 28). Não há outras: 0 pastéis e 7 sucos, ou 4 pastéis e 2 sucos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Na forma y = ax + b, o número a é a inclinação: cada vez que x aumenta 1, o y muda a unidades. Em y = 3x + 1, o y sobe de 3 em 3. O número b mostra onde a reta corta o eixo y: o ponto (0, b).",
+        "Duas retas com o mesmo número a e valores de b diferentes são paralelas: nunca se cruzam. Exemplo: y = 2x + 1 e y = 2x − 3.",
+        "Se duas equações precisam ser verdadeiras ao mesmo tempo (um sistema), a solução é o ponto onde as duas retas se cruzam. Para achar, iguale os y: em y = x + 1 e y = −x + 5, faça x + 1 = −x + 5, então 2x = 4, x = 2 e y = 3."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas incógnitas tem a equação 2x + y = 7?",
+            "alternativas": [
+              "1",
+              "3",
+              "2",
+              "7"
+            ],
+            "correta": 2,
+            "explicacao": "São duas letras desconhecidas: x e y.",
+            "dica": "Conte as letras diferentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O par (3, 4) é solução de x + y = 7?",
+            "alternativas": [
+              "Sim, porque 3 · 4 = 7",
+              "Não, porque 3 + 4 = 12",
+              "Não, só (7, 0) é solução",
+              "Sim, porque 3 + 4 = 7"
+            ],
+            "correta": 3,
+            "explicacao": "Trocando x por 3 e y por 4: 3 + 4 = 7. A igualdade é verdadeira.",
+            "dica": "Troque as letras pelos números e faça a conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No par ordenado (5, 2), qual número é o x?",
+            "alternativas": [
+              "2",
+              "5",
+              "7",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "No par ordenado, o primeiro número é o x e o segundo é o y.",
+            "dica": "A ordem importa: quem vem primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se x + y = 10 e x = 6, quanto vale y?",
+            "alternativas": [
+              "16",
+              "6",
+              "4",
+              "60"
+            ],
+            "correta": 2,
+            "explicacao": "6 + y = 10, então y = 10 − 6 = 4.",
+            "dica": "Que número somado com 6 dá 10?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao marcar no plano várias soluções de x + y = 10, os pontos formam:",
+            "alternativas": [
+              "uma reta",
+              "um círculo",
+              "um único ponto",
+              "um quadrado"
+            ],
+            "correta": 0,
+            "explicacao": "As soluções ficam alinhadas e formam uma reta.",
+            "dica": "Pense numa régua passando por todos eles."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par é solução de 2x + y = 11?",
+            "alternativas": [
+              "(1, 8)",
+              "(4, 2)",
+              "(5, 2)",
+              "(3, 5)"
+            ],
+            "correta": 3,
+            "explicacao": "2 · 3 + 5 = 11. Os outros dão 10, 12 e 10.",
+            "dica": "Teste cada par: o dobro do x mais o y."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na reta y = 2x + 1, qual é o y quando x = 3?",
+            "alternativas": [
+              "5",
+              "7",
+              "6",
+              "9"
+            ],
+            "correta": 1,
+            "explicacao": "y = 2 · 3 + 1 = 6 + 1 = 7.",
+            "dica": "Primeiro a multiplicação, depois some 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O ponto (0, 4) fica:",
+            "alternativas": [
+              "no eixo x",
+              "no meio do 1º quadrante, fora dos eixos",
+              "no eixo y",
+              "na origem"
+            ],
+            "correta": 2,
+            "explicacao": "Com x = 0, o ponto não anda para os lados: fica em cima do eixo vertical, o eixo y.",
+            "dica": "Se o x é zero, você anda para a direita?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O lápis custa R$ 2 e a borracha R$ 3. Gastei R$ 12 com x lápis e y borrachas. Qual equação representa isso?",
+            "alternativas": [
+              "x + y = 12",
+              "2x + 3y = 12",
+              "3x + 2y = 12",
+              "5xy = 12"
+            ],
+            "correta": 1,
+            "explicacao": "Cada lápis custa 2 (2x) e cada borracha 3 (3y). Somando: 2x + 3y = 12.",
+            "dica": "Multiplique o preço de cada item pela quantidade dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde a reta y = x − 4 corta o eixo x?",
+            "alternativas": [
+              "(0, −4)",
+              "(−4, 0)",
+              "(0, 4)",
+              "(4, 0)"
+            ],
+            "correta": 3,
+            "explicacao": "No eixo x, y = 0: 0 = x − 4, então x = 4. Ponto (4, 0).",
+            "dica": "No eixo horizontal, quanto vale o y?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ainda com lápis a R$ 2 e borracha a R$ 3 (2x + 3y = 12), quantas soluções existem com números naturais, contando o zero?",
+            "alternativas": [
+              "2",
+              "6",
+              "4",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "(0, 4), (3, 2) e (6, 0). Com y ímpar, 12 − 3y fica ímpar e não dá para dividir por 2.",
+            "dica": "Teste y = 0, 1, 2, 3 e 4 e veja quando o x dá inteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ponto NÃO está na reta y = 3x − 2?",
+            "alternativas": [
+              "(3, 6)",
+              "(2, 4)",
+              "(1, 1)",
+              "(0, −2)"
+            ],
+            "correta": 0,
+            "explicacao": "Para x = 3: y = 9 − 2 = 7, não 6. Os outros pontos conferem.",
+            "dica": "Calcule o y de cada x e compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual reta passa pelos pontos (2, −1) e (0, 3)?",
+            "alternativas": [
+              "y = x − 3",
+              "y = 2x − 5",
+              "y = −2x + 3",
+              "y = 3x + 3"
+            ],
+            "correta": 2,
+            "explicacao": "x = 0 dá 3 e x = 2 dá −4 + 3 = −1. As outras falham em um dos pontos.",
+            "dica": "Teste os dois pontos em cada reta, não só um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A reta 2x + y = 8 corta o eixo y em qual ponto?",
+            "alternativas": [
+              "(4, 0)",
+              "(0, 4)",
+              "(8, 0)",
+              "(0, 8)"
+            ],
+            "correta": 3,
+            "explicacao": "No eixo y, x = 0: 0 + y = 8, então y = 8. Ponto (0, 8).",
+            "dica": "No eixo vertical, quanto vale o x?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para desenhar a reta y = x + 2:",
+            "itens": [
+              "Escolher dois valores para x",
+              "Calcular o y de cada um",
+              "Marcar os dois pares no plano",
+              "Ligar os pontos com a régua"
+            ],
+            "explicacao": "Primeiro os valores de x, depois os y, os pontos e, por fim, a reta.",
+            "dica": "Você só consegue marcar um ponto quando já tem o x e o y."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma peça da escola vendeu 14 ingressos: inteira a R$ 20 e meia a R$ 10, arrecadando R$ 200. Quantas inteiras foram vendidas?",
+            "alternativas": [
+              "4",
+              "10",
+              "8",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "x + y = 14 e 20x + 10y = 200. Trocando y por 14 − x: 20x + 140 − 10x = 200, 10x = 60, x = 6. Confere: 120 + 80 = 200.",
+            "dica": "Monte duas equações: uma para a quantidade e outra para o dinheiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com as retas y = 2x + 1 e y = 2x − 3?",
+            "alternativas": [
+              "Se cruzam em (1, 3)",
+              "São a mesma reta",
+              "Se cruzam na origem",
+              "São paralelas e nunca se cruzam"
+            ],
+            "correta": 3,
+            "explicacao": "Têm a mesma inclinação (2) e cortam o eixo y em pontos diferentes: são paralelas.",
+            "dica": "Compare o número que multiplica o x nas duas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que ponto as retas y = x + 1 e y = −x + 5 se cruzam?",
+            "alternativas": [
+              "(1, 2)",
+              "(3, 2)",
+              "(2, 3)",
+              "(4, 1)"
+            ],
+            "correta": 2,
+            "explicacao": "x + 1 = −x + 5 dá 2x = 4, x = 2, y = 3. Confere nas duas: 2 + 1 = 3 e −2 + 5 = 3.",
+            "dica": "No cruzamento, os dois y são iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos pares de números naturais maiores que zero satisfazem x + y = 6?",
+            "alternativas": [
+              "5",
+              "6",
+              "7",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "(1, 5), (2, 4), (3, 3), (4, 2) e (5, 1). Lembre que (1, 5) e (5, 1) são pares diferentes. O zero ficou de fora.",
+            "dica": "Liste começando com x = 1 e pare antes de o y virar zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na reta y = 4x − 7, quanto o y muda quando o x aumenta 1?",
+            "alternativas": [
+              "Diminui 7",
+              "Aumenta 3",
+              "Aumenta 4",
+              "Aumenta 11"
+            ],
+            "correta": 2,
+            "explicacao": "O número que multiplica o x é a inclinação: cada +1 no x soma 4 no y. O −7 só diz onde a reta corta o eixo y.",
+            "dica": "Releia no aprofundamento o papel do número a."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Investir para começar: poupança, Tesouro Direto e CDB",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Investir é colocar o dinheiro para render juros ao longo do tempo, em vez de deixá-lo parado. Na prática, você empresta o dinheiro para alguém (um banco ou o governo) e recebe de volta com acréscimo. Dá para começar com pouco, e quem começa cedo ganha tempo a seu favor.",
+          "A poupança é a mais conhecida: simples, isenta de imposto de renda para pessoa física e com dinheiro disponível a qualquer hora. Mas rende pouco. Quando a taxa Selic está acima de 8,5% ao ano, ela paga 0,5% ao mês mais a TR. O rendimento cai no dia do aniversário: quem tira antes perde o rendimento daquele mês.",
+          "No Tesouro Direto, você empresta dinheiro para o governo federal comprando um título público pela internet, com pouco dinheiro. O Tesouro Selic acompanha a taxa Selic e é considerado um dos investimentos mais seguros do país. Menores de idade investem com a ajuda de um responsável.",
+          "No CDB (Certificado de Depósito Bancário), você empresta para um banco. Muitos rendem mais que a poupança e têm a garantia do FGC até R$ 250 mil por CPF em cada instituição. Há imposto de renda sobre o rendimento, menor quanto mais tempo o dinheiro fica: 22,5% até 180 dias, 20% de 181 a 360, 17,5% de 361 a 720 e 15% acima de 720 dias.",
+          "Antes de investir, olhe três coisas: segurança (risco de perder), liquidez (rapidez para resgatar) e rentabilidade (quanto rende). Promessa de ganho alto, rápido e garantido é sinal de golpe."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Clara colocou R$ 1.000 na poupança, rendendo 0,5% ao mês (TR zero). Quanto terá depois de 2 meses?",
+            "resolucao": "1º mês: 1.000 × 1,005 = 1.005. 2º mês: 1.005 × 1,005 = 1.010,025, cerca de R$ 1.010,03. No segundo mês ela ganhou juros também sobre os R$ 5 do primeiro."
+          },
+          {
+            "enunciado": "Um CDB rendeu R$ 100 em 8 meses. Quanto sobra depois do imposto?",
+            "resolucao": "8 meses ficam entre 181 e 360 dias: alíquota de 20%. Imposto: 20% de 100 = R$ 20. Rendimento limpo: R$ 80."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Juros compostos são juros sobre juros. R$ 1.000 a 1% ao mês viram 1.000 × 1,01¹² ≈ R$ 1.126,83 em 12 meses. Nos juros simples, seriam R$ 1.120. A diferença parece pequena no começo, mas cresce muito com os anos.",
+        "Nenhum investimento tem segurança, liquidez e rentabilidade máximas ao mesmo tempo. Em geral, quem rende mais tem mais risco ou demora mais para devolver o dinheiro.",
+        "Compare sempre o rendimento limpo, depois do imposto. Um CDB que rende mais que a poupança no papel pode empatar ou perder depois do desconto do imposto de renda."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é investir?",
+            "alternativas": [
+              "Colocar o dinheiro para render juros com o tempo",
+              "Gastar tudo no mesmo dia",
+              "Pedir dinheiro emprestado",
+              "Comprar bilhete de loteria"
+            ],
+            "correta": 0,
+            "explicacao": "Investir é fazer o dinheiro trabalhar e crescer com juros.",
+            "dica": "Pense em dinheiro que cresce, não que some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Tesouro Direto, você empresta dinheiro para:",
+            "alternativas": [
+              "um banco",
+              "um amigo",
+              "a escola",
+              "o governo federal"
+            ],
+            "correta": 3,
+            "explicacao": "O Tesouro Direto vende títulos públicos do governo federal.",
+            "dica": "Tesouro lembra o dinheiro de quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No CDB, você empresta dinheiro para:",
+            "alternativas": [
+              "o governo federal",
+              "um banco",
+              "a prefeitura",
+              "uma loja"
+            ],
+            "correta": 1,
+            "explicacao": "CDB é Certificado de Depósito Bancário: o dinheiro vai para um banco.",
+            "dica": "Olhe a última palavra do nome por extenso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A poupança paga imposto de renda para pessoa física?",
+            "alternativas": [
+              "Sim, 22,5%",
+              "Sim, 15%",
+              "Não, é isenta",
+              "Só em dezembro"
+            ],
+            "correta": 2,
+            "explicacao": "A poupança é isenta de imposto de renda para pessoa física.",
+            "dica": "É uma das vantagens dela, apesar de render pouco."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Promessa de ganho alto, rápido e garantido é sinal de:",
+            "alternativas": [
+              "provável golpe",
+              "investimento seguro",
+              "conta digital",
+              "poupança"
+            ],
+            "correta": 0,
+            "explicacao": "Investimentos sérios não garantem ganhos altos e rápidos.",
+            "dica": "Se parece bom demais para ser verdade…"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto rendem R$ 2.000 na poupança a 0,5% em um mês?",
+            "alternativas": [
+              "R$ 1",
+              "R$ 100",
+              "R$ 10",
+              "R$ 20"
+            ],
+            "correta": 2,
+            "explicacao": "0,5% de 2.000 = 0,005 × 2.000 = R$ 10.",
+            "dica": "1% de 2.000 é 20. E metade disso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O FGC garante CDB até quanto por CPF em cada instituição?",
+            "alternativas": [
+              "Sem limite",
+              "R$ 25 mil",
+              "R$ 1 mil",
+              "R$ 250 mil"
+            ],
+            "correta": 3,
+            "explicacao": "O Fundo Garantidor de Créditos cobre até R$ 250 mil por CPF por instituição.",
+            "dica": "Releia o parágrafo do CDB."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Liquidez significa:",
+            "alternativas": [
+              "o lucro do banco",
+              "a rapidez para resgatar o dinheiro",
+              "o valor mínimo para investir",
+              "o imposto pago"
+            ],
+            "correta": 1,
+            "explicacao": "Liquidez é a facilidade de transformar o investimento em dinheiro disponível.",
+            "dica": "Líquido escorre fácil…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se você tirar o dinheiro da poupança um dia antes do aniversário:",
+            "alternativas": [
+              "perde o rendimento daquele mês",
+              "ganha o dobro",
+              "paga multa de 50%",
+              "fica proibido de sacar"
+            ],
+            "correta": 0,
+            "explicacao": "O rendimento só cai no dia do aniversário; antes disso, o mês não conta.",
+            "dica": "Quando o rendimento é creditado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um título público?",
+            "alternativas": [
+              "CDB",
+              "Tesouro Selic",
+              "Poupança",
+              "Conta corrente"
+            ],
+            "correta": 1,
+            "explicacao": "O Tesouro Selic é um título do governo federal.",
+            "dica": "Qual deles tem Tesouro no nome?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 a 0,5% ao mês, juros compostos, por 2 meses, viram cerca de:",
+            "alternativas": [
+              "R$ 1.010,00",
+              "R$ 1.010,03",
+              "R$ 1.005,00",
+              "R$ 1.100,00"
+            ],
+            "correta": 1,
+            "explicacao": "1.000 × 1,005 × 1,005 = 1.010,025. Os 3 centavos a mais vêm dos juros sobre os juros.",
+            "dica": "No 2º mês, os juros incidem sobre 1.005, não sobre 1.000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um CDB rendeu R$ 200 em um ano e meio. Quanto sobra depois do imposto?",
+            "alternativas": [
+              "R$ 200",
+              "R$ 170",
+              "R$ 155",
+              "R$ 165"
+            ],
+            "correta": 3,
+            "explicacao": "Um ano e meio fica entre 361 e 720 dias: 17,5%. 17,5% de 200 = 35. Sobra 200 − 35 = 165.",
+            "dica": "Primeiro descubra a faixa de dias; depois calcule o imposto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Marina quer guardar dinheiro para uma emergência que pode acontecer a qualquer hora. Qual opção combina mais?",
+            "alternativas": [
+              "Um investimento que só libera o dinheiro em 5 anos",
+              "Apostas online",
+              "Emprestar a um colega",
+              "Tesouro Selic ou CDB com resgate diário"
+            ],
+            "correta": 3,
+            "explicacao": "Emergência pede segurança e liquidez: resgate rápido sem perder valor. Aposta é risco de perder dinheiro, não investimento.",
+            "dica": "Que característica a emergência exige?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro investiu R$ 500 e, depois de um ano, tinha R$ 550. Qual foi o rendimento?",
+            "alternativas": [
+              "5%",
+              "50%",
+              "10%",
+              "55%"
+            ],
+            "correta": 2,
+            "explicacao": "Ganho de 50 sobre 500: 50 ÷ 500 = 0,1 = 10%.",
+            "dica": "Divida o ganho pelo valor inicial."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para começar a investir:",
+            "itens": [
+              "Gastar menos do que ganha",
+              "Separar o valor que sobrou",
+              "Escolher um investimento seguro",
+              "Acompanhar o rendimento"
+            ],
+            "explicacao": "Sem sobrar dinheiro não há o que investir; depois vem a escolha e o acompanhamento.",
+            "dica": "O que precisa existir antes de escolher onde investir?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 a 1% ao mês, juros compostos, por 12 meses, viram cerca de:",
+            "alternativas": [
+              "R$ 1.120,00",
+              "R$ 1.012,00",
+              "R$ 1.126,83",
+              "R$ 1.200,00"
+            ],
+            "correta": 2,
+            "explicacao": "1.000 × 1,01¹² ≈ 1.126,83. R$ 1.120 seria com juros simples.",
+            "dica": "Juros compostos rendem um pouco mais que os simples."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No caso anterior, quanto os juros compostos renderam a mais que os juros simples?",
+            "alternativas": [
+              "R$ 0",
+              "R$ 6,83",
+              "R$ 26,83",
+              "R$ 12,00"
+            ],
+            "correta": 1,
+            "explicacao": "Simples: 1.000 + 12 × 10 = 1.120. Compostos: 1.126,83. Diferença: R$ 6,83.",
+            "dica": "Calcule os dois e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por 1 ano (365 dias), um CDB rende R$ 120 brutos e a poupança, R$ 100. Qual deixa mais dinheiro no bolso?",
+            "alternativas": [
+              "O CDB, com R$ 120 limpos",
+              "Empate exato",
+              "O CDB, com R$ 102 limpos",
+              "A poupança, porque o CDB fica com R$ 99 depois do imposto"
+            ],
+            "correta": 3,
+            "explicacao": "365 dias: 17,5%. Imposto do CDB: 17,5% de 120 = 21. Limpo: 99. A poupança é isenta: 100.",
+            "dica": "Desconte o imposto do CDB antes de comparar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"10% ao mês garantido\" deve acender o alerta?",
+            "alternativas": [
+              "Porque 10% é muito pouco",
+              "Porque o FGC garante qualquer promessa",
+              "Porque é igual à poupança",
+              "Porque, compostos por um ano, R$ 1.000 virariam mais de R$ 3.000, muito acima de qualquer investimento seguro"
+            ],
+            "correta": 3,
+            "explicacao": "1,1¹² ≈ 3,14: o dinheiro triplicaria em um ano. Nenhum investimento seguro faz isso; é típico de pirâmide.",
+            "dica": "Faça a conta de 12 meses seguidos de 10%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é verdadeira?",
+            "alternativas": [
+              "Todo investimento tem segurança, liquidez e rentabilidade máximas",
+              "A poupança é sempre a que mais rende",
+              "Em geral, mais rentabilidade vem com mais risco ou menos liquidez",
+              "O CDB não tem garantia nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "Não existe investimento perfeito nos três pontos; e o CDB tem a garantia do FGC.",
+            "dica": "Releia o aprofundamento sobre os três pontos."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Laço enquanto: repetir até acontecer",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O laço while (\"enquanto\", em inglês) repete um bloco de comandos enquanto uma condição for verdadeira. É útil quando não sabemos de antemão quantas vezes será preciso repetir.",
+          "A estrutura é: while condição: e, nas linhas de baixo, o bloco recuado (com espaços). A cada volta, o Python testa a condição de novo. Quando ela fica falsa, o programa segue para a primeira linha depois do laço.",
+          "Exemplo do cofrinho: saldo = 0 e, depois, while saldo < 100: saldo = saldo + 15. O laço soma 15 até o saldo passar de 99: termina com 105, depois de 7 voltas.",
+          "Cuidado com o laço infinito: algo dentro do laço precisa mudar a condição. Se a variável nunca muda, o programa repete para sempre (no terminal, Ctrl+C interrompe).",
+          "Use for quando você sabe quantas vezes vai repetir (por exemplo, 10 vezes). Use while quando a repetição depende de algo acontecer (a senha certa, o saldo chegar a um valor)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O que este programa mostra?\nn = 5\nwhile n > 0:\n    print(n)\n    n = n - 1\nprint('Já!')",
+            "resolucao": "Mostra 5, 4, 3, 2, 1 e depois Já!. Quando n vira 0, a condição n > 0 fica falsa e o laço termina."
+          },
+          {
+            "enunciado": "Peça a senha até a pessoa acertar 'sol'.",
+            "resolucao": "senha = input('Senha: ')\nwhile senha != 'sol':\n    senha = input('Errou. Tente de novo: ')\nprint('Entrou!')\nO laço continua enquanto a senha for diferente (!=) de 'sol'."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O comando break sai do laço na hora. É comum usar while True: (repetir sempre) com um if que dá break quando algo acontece, como o usuário digitar 0.",
+        "O recuo define o que está dentro do laço. Se a linha que muda a variável ficar sem recuo, ela fica fora do laço, e o laço pode virar infinito.",
+        "Laços simulam situações reais. Para saber em quantos meses R$ 1.000 a 1% ao mês passam de R$ 1.100: saldo = 1000, meses = 0; while saldo < 1100: saldo = saldo * 1.01 e meses = meses + 1. O resultado é 10 meses."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O while repete o bloco enquanto:",
+            "alternativas": [
+              "a condição for falsa",
+              "a condição for verdadeira",
+              "o computador estiver ligado",
+              "o usuário quiser"
+            ],
+            "correta": 1,
+            "explicacao": "Enquanto a condição der True, o bloco roda de novo.",
+            "dica": "Traduza while para o português."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes 'Oi' aparece?\nn = 3\nwhile n > 0:\n    print('Oi')\n    n = n - 1",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "n vale 3, 2 e 1: três voltas. Com n = 0, o laço para.",
+            "dica": "Siga os valores de n até a condição ficar falsa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um laço que nunca para se chama:",
+            "alternativas": [
+              "função",
+              "comentário",
+              "variável",
+              "laço infinito"
+            ],
+            "correta": 3,
+            "explicacao": "Sem nada que mude a condição, o laço repete para sempre.",
+            "dica": "Algo que não tem fim é…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois da palavra while vem:",
+            "alternativas": [
+              "a condição, dois-pontos e o bloco recuado",
+              "um ponto final",
+              "aspas",
+              "um ponto e vírgula"
+            ],
+            "correta": 0,
+            "explicacao": "A forma é while condição: com o bloco recuado embaixo.",
+            "dica": "Lembre do formato do if."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando não sabemos quantas repetições serão necessárias, usamos:",
+            "alternativas": [
+              "while",
+              "print",
+              "input",
+              "int"
+            ],
+            "correta": 0,
+            "explicacao": "O while repete até a condição mudar, sem número fixo de voltas.",
+            "dica": "Qual comando é um laço?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor final de x?\nx = 1\nwhile x < 20:\n    x = x * 2",
+            "alternativas": [
+              "16",
+              "20",
+              "32",
+              "64"
+            ],
+            "correta": 2,
+            "explicacao": "x passa por 1, 2, 4, 8, 16 e 32. Com 32, x < 20 é falso.",
+            "dica": "O laço só para quando x deixa de ser menor que 20."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com n = 5 e while n > 0: print(n), sem nenhuma linha que mude n?",
+            "alternativas": [
+              "Mostra 5 para sempre: laço infinito",
+              "Mostra 5 uma vez",
+              "Mostra 5, 4, 3, 2, 1",
+              "Dá erro de digitação"
+            ],
+            "correta": 0,
+            "explicacao": "n nunca muda, então n > 0 é sempre verdadeiro.",
+            "dica": "Alguma coisa muda a condição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o saldo final?\nsaldo = 0\nwhile saldo < 100:\n    saldo = saldo + 30",
+            "alternativas": [
+              "100",
+              "90",
+              "120",
+              "150"
+            ],
+            "correta": 2,
+            "explicacao": "30, 60, 90 e 120. Com 90 ainda entra (90 < 100) e vai a 120.",
+            "dica": "Com 90, a condição ainda é verdadeira?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas voltas este laço dá?\ni = 0\nwhile i < 10:\n    i = i + 2",
+            "alternativas": [
+              "4",
+              "10",
+              "6",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "i vai de 0 para 2, 4, 6, 8 e 10: cinco voltas.",
+            "dica": "Conte quantas vezes o i aumenta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual condição repete até a pessoa digitar a senha 'abc'?",
+            "alternativas": [
+              "while senha == 'abc':",
+              "while senha = 'abc':",
+              "while 'abc':",
+              "while senha != 'abc':"
+            ],
+            "correta": 3,
+            "explicacao": "Repete enquanto a senha for diferente (!=) de 'abc'. Um sinal de = sozinho é atribuição e dá erro.",
+            "dica": "O laço deve continuar enquanto a senha estiver errada."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas voltas dá o cofrinho?\nsaldo = 0\nvoltas = 0\nwhile saldo < 100:\n    saldo = saldo + 15\n    voltas = voltas + 1",
+            "alternativas": [
+              "6",
+              "8",
+              "7",
+              "100"
+            ],
+            "correta": 2,
+            "explicacao": "15, 30, 45, 60, 75, 90 e 105: sete voltas. Com 90 ainda entra.",
+            "dica": "Pare quando o saldo deixar de ser menor que 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes o bloco roda?\nn = 10\nwhile n > 1:\n    n = n // 2",
+            "alternativas": [
+              "5",
+              "3",
+              "4",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "// é divisão inteira: 10 → 5 → 2 → 1. Três voltas.",
+            "dica": "Faça as divisões inteiras uma a uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece na tela?\nn = 3\nwhile n > 0:\n    n = n - 1\n    print(n)",
+            "alternativas": [
+              "2 1 0",
+              "3 2 1",
+              "3 2 1 0",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "O n diminui antes do print: aparecem 2, 1 e 0.",
+            "dica": "Repare na ordem das duas linhas dentro do laço."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que o Python faz num while:",
+            "itens": [
+              "Testa a condição",
+              "Se for verdadeira, executa o bloco",
+              "Volta e testa a condição de novo",
+              "Quando ficar falsa, segue para a linha depois do laço"
+            ],
+            "explicacao": "O teste vem sempre antes de cada volta.",
+            "dica": "O while testa antes de entrar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em while True: n = int(input()) e if n == 0: break, o laço para quando:",
+            "alternativas": [
+              "o usuário digita qualquer número",
+              "nunca para",
+              "completa 10 voltas",
+              "o usuário digita 0"
+            ],
+            "correta": 3,
+            "explicacao": "while True repete sempre; o break interrompe quando n == 0.",
+            "dica": "Procure a condição que leva ao break."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em quantos meses R$ 1.000 a 1% ao mês passam de R$ 1.100?\nsaldo = 1000\nmeses = 0\nwhile saldo < 1100:\n    saldo = saldo * 1.01\n    meses = meses + 1",
+            "alternativas": [
+              "9",
+              "100",
+              "11",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "Com 9 meses, cerca de 1.093,69; com 10, cerca de 1.104,62. O laço para em 10.",
+            "dica": "Calcule o saldo depois de 9 e de 10 meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor final de s?\nx = 0\ns = 0\nwhile x < 5:\n    x = x + 1\n    s = s + x",
+            "alternativas": [
+              "10",
+              "15",
+              "20",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "s soma 1 + 2 + 3 + 4 + 5 = 15.",
+            "dica": "Anote x e s a cada volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Regra: se n é par, divida por 2; se é ímpar, faça 3n + 1. Começando em 6, quantas voltas até n chegar a 1?",
+            "alternativas": [
+              "8",
+              "7",
+              "6",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1: oito passos.",
+            "dica": "Escreva a sequência inteira e conte as setas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "i = 0, depois while i < 5: com print(i) recuado e i = i + 1 SEM recuo. O que acontece?",
+            "alternativas": [
+              "Mostra 0 1 2 3 4",
+              "Mostra 5",
+              "Não mostra nada",
+              "Mostra 0 para sempre, porque o i = i + 1 ficou fora do laço"
+            ],
+            "correta": 3,
+            "explicacao": "Só o print está dentro do laço. O i nunca muda e o laço vira infinito.",
+            "dica": "O recuo decide o que fica dentro do laço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor final de a?\na = 1\nwhile a < 100:\n    a = a * 3",
+            "alternativas": [
+              "729",
+              "81",
+              "100",
+              "243"
+            ],
+            "correta": 3,
+            "explicacao": "1, 3, 9, 27, 81, 243. Com 81 ainda entra (81 < 100) e vira 243.",
+            "dica": "Com 81, a condição ainda é verdadeira?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Agente da passiva",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Na voz ativa, o sujeito pratica a ação: \"A professora corrigiu as provas\". Quem corrigiu? A professora, que é o sujeito.",
+          "Na voz passiva analítica, o sujeito sofre a ação: \"As provas foram corrigidas pela professora\". Ela se forma com o verbo ser mais o particípio (foram corrigidas).",
+          "Agente da passiva é o termo que diz quem praticou a ação numa frase na voz passiva. Ele vem quase sempre depois da preposição por (pelo, pela, pelos, pelas) e, às vezes, de: \"pela professora\".",
+          "Para passar da ativa para a passiva: o objeto direto da ativa vira sujeito da passiva; o sujeito da ativa vira agente da passiva; e o verbo ser fica no mesmo tempo do verbo original.",
+          "O agente pode ser omitido quando não importa ou não se sabe quem fez: \"As provas foram corrigidas\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Passe para a voz passiva: \"O vento derrubou a árvore\".",
+            "resolucao": "\"A árvore foi derrubada pelo vento.\" A árvore (objeto direto) virou sujeito; o vento virou agente da passiva (pelo vento); derrubou (passado) virou foi derrubada."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O agente com a preposição de aparece mais em linguagem formal ou literária, com verbos de sentimento: \"A diretora é estimada de todos\" (= por todos).",
+        "Também existe a voz passiva sintética, com o pronome se: \"Vendem-se casas\" equivale a \"Casas são vendidas\". O verbo concorda com o sujeito (casas), por isso fica no plural. Nessa forma, o agente quase nunca aparece.",
+        "Nem todo \"pelo\" é agente: em \"Passamos pelo parque\", é um lugar (adjunto adverbial). O teste é tentar passar a frase para a voz ativa: se \"pelo parque\" não vira sujeito, não é agente."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"As provas foram corrigidas pela professora\", quem corrigiu?",
+            "alternativas": [
+              "As provas",
+              "A professora",
+              "O diretor",
+              "Ninguém"
+            ],
+            "correta": 1,
+            "explicacao": "Quem praticou a ação aparece depois de pela: a professora.",
+            "dica": "Procure quem vem depois do pela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na voz passiva, o sujeito:",
+            "alternativas": [
+              "pratica a ação",
+              "sofre a ação",
+              "não existe",
+              "é sempre um verbo"
+            ],
+            "correta": 1,
+            "explicacao": "Na passiva, o sujeito recebe a ação: as provas foram corrigidas.",
+            "dica": "Passivo é quem recebe, não quem faz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual preposição costuma introduzir o agente da passiva?",
+            "alternativas": [
+              "por (pelo, pela)",
+              "em",
+              "com",
+              "sem"
+            ],
+            "correta": 0,
+            "explicacao": "O agente vem quase sempre com por e suas formas pelo, pela.",
+            "dica": "Lembre do exemplo da professora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está na voz passiva?",
+            "alternativas": [
+              "O cachorro mordeu o carteiro.",
+              "O carteiro foi mordido pelo cachorro.",
+              "O carteiro correu.",
+              "O cachorro latiu."
+            ],
+            "correta": 1,
+            "explicacao": "Tem o verbo ser mais particípio (foi mordido) e o agente (pelo cachorro).",
+            "dica": "Procure ser + particípio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"O bolo foi feito pela avó\", qual é o agente da passiva?",
+            "alternativas": [
+              "o bolo",
+              "foi feito",
+              "pela avó",
+              "feito"
+            ],
+            "correta": 2,
+            "explicacao": "Quem fez o bolo? A avó: pela avó é o agente.",
+            "dica": "Quem praticou a ação?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a passiva: \"Os alunos plantaram as mudas\".",
+            "alternativas": [
+              "As mudas foram plantadas pelos alunos.",
+              "Os alunos foram plantados pelas mudas.",
+              "As mudas plantaram os alunos.",
+              "As mudas são plantadas os alunos."
+            ],
+            "correta": 0,
+            "explicacao": "O objeto (as mudas) vira sujeito, os alunos viram agente, e plantaram vira foram plantadas.",
+            "dica": "O que foi plantado vira o sujeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"A ponte foi construída pelos operários\", qual é o sujeito?",
+            "alternativas": [
+              "a ponte",
+              "pelos operários",
+              "foi construída",
+              "construída"
+            ],
+            "correta": 0,
+            "explicacao": "A ponte sofre a ação: é o sujeito paciente. Pelos operários é o agente.",
+            "dica": "Sobre quem a frase fala?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a ativa: \"O gol foi marcado por Larissa\".",
+            "alternativas": [
+              "O gol marcou Larissa.",
+              "Larissa foi marcada pelo gol.",
+              "O gol foi marcado.",
+              "Larissa marcou o gol."
+            ],
+            "correta": 3,
+            "explicacao": "O agente (Larissa) vira sujeito, o sujeito (o gol) vira objeto.",
+            "dica": "Quem fez a ação vai para o começo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase \"pelo\" NÃO é agente da passiva?",
+            "alternativas": [
+              "O muro foi pintado pelo vizinho.",
+              "O prêmio foi entregue pelo prefeito.",
+              "A carta foi escrita pelo avô.",
+              "Passamos pelo parque."
+            ],
+            "correta": 3,
+            "explicacao": "Passamos é voz ativa e pelo parque indica lugar.",
+            "dica": "Procure a frase sem ser + particípio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está na voz passiva sem agente?",
+            "alternativas": [
+              "O menino quebrou o vidro.",
+              "O vidro foi quebrado.",
+              "O vidro foi quebrado pelo menino.",
+              "Quebrei o vidro."
+            ],
+            "correta": 1,
+            "explicacao": "Tem ser + particípio, mas não diz quem quebrou.",
+            "dica": "Procure a passiva que não conta quem fez."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a passiva: \"A prefeitura reformará a quadra\".",
+            "alternativas": [
+              "A quadra foi reformada pela prefeitura.",
+              "A quadra seria reformada pela prefeitura.",
+              "A quadra é reformada pela prefeitura.",
+              "A quadra será reformada pela prefeitura."
+            ],
+            "correta": 3,
+            "explicacao": "Reformará está no futuro, então o verbo ser também vai para o futuro: será reformada.",
+            "dica": "O verbo ser fica no mesmo tempo do verbo original."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a passiva: \"O técnico tinha escolhido os jogadores\".",
+            "alternativas": [
+              "Os jogadores tinham sido escolhidos pelo técnico.",
+              "Os jogadores foram escolhidos pelo técnico.",
+              "Os jogadores tinham escolhido o técnico.",
+              "O técnico tinha sido escolhido pelos jogadores."
+            ],
+            "correta": 0,
+            "explicacao": "Tinha escolhido vira tinham sido escolhidos (no plural, concordando com os jogadores).",
+            "dica": "Mantenha o tempo composto e faça a concordância com o novo sujeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"O professor é admirado de todos\", qual é o agente da passiva?",
+            "alternativas": [
+              "O professor",
+              "de todos",
+              "é admirado",
+              "admirado"
+            ],
+            "correta": 1,
+            "explicacao": "Aqui o agente vem com de, como em linguagem formal: = por todos.",
+            "dica": "O agente nem sempre vem com por."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as etapas para passar uma frase da ativa para a passiva:",
+            "itens": [
+              "Achar o objeto direto da frase ativa",
+              "Colocá-lo como sujeito da passiva",
+              "Usar o verbo ser no mesmo tempo, com o particípio",
+              "Colocar o antigo sujeito como agente, com por ou pelo"
+            ],
+            "explicacao": "Primeiro identifique o objeto, que vira sujeito; depois ajuste o verbo e, por fim, o agente.",
+            "dica": "Comece pelo termo que vai para o começo da frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase NÃO pode ir para a voz passiva analítica?",
+            "alternativas": [
+              "O bebê dormiu cedo.",
+              "Rita leu o livro.",
+              "O gato derrubou o vaso.",
+              "A chuva molhou a roupa."
+            ],
+            "correta": 0,
+            "explicacao": "Dormir não tem objeto direto, então não há o que virar sujeito da passiva.",
+            "dica": "Para virar passiva, é preciso um objeto direto."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Alugam-se bicicletas\" equivale a:",
+            "alternativas": [
+              "Alguém é alugado.",
+              "Bicicletas alugam alguém.",
+              "Bicicletas são alugadas.",
+              "Bicicletas foram alugadas por elas."
+            ],
+            "correta": 2,
+            "explicacao": "É voz passiva sintética: o se indica que as bicicletas sofrem a ação.",
+            "dica": "Transforme a passiva sintética em analítica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase segue a norma-padrão?",
+            "alternativas": [
+              "Vende-se casas.",
+              "Vendem-se casa.",
+              "Vendem-se casas.",
+              "Vende-se as casas."
+            ],
+            "correta": 2,
+            "explicacao": "Na passiva sintética, casas é o sujeito; o verbo concorda no plural.",
+            "dica": "Quem é vendido? É singular ou plural?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Fomos surpreendidos pela chuva\", quem praticou a ação?",
+            "alternativas": [
+              "Nós",
+              "A chuva",
+              "Ninguém",
+              "Um vizinho"
+            ],
+            "correta": 1,
+            "explicacao": "Nós (sujeito oculto) sofremos a ação; a chuva, o agente, foi quem surpreendeu.",
+            "dica": "Na passiva, quem faz a ação não é o sujeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passe para a ativa: \"O livro foi lido por mim\".",
+            "alternativas": [
+              "O livro me leu.",
+              "Eu fui lido.",
+              "Li-me o livro.",
+              "Eu li o livro."
+            ],
+            "correta": 3,
+            "explicacao": "O agente por mim vira o sujeito eu; o livro vira objeto direto.",
+            "dica": "O agente vira sujeito; mim, como sujeito, vira…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"A notícia foi espalhada pelos moradores do bairro\", o que são \"pelos moradores do bairro\" e \"do bairro\"?",
+            "alternativas": [
+              "Objeto direto; \"do bairro\" é sujeito",
+              "Agente da passiva; dentro dele, \"do bairro\" é adjunto adnominal",
+              "Sujeito; \"do bairro\" é agente",
+              "Adjunto adverbial de lugar; \"do bairro\" é objeto"
+            ],
+            "correta": 1,
+            "explicacao": "\"Pelos moradores do bairro\" diz quem espalhou; \"do bairro\" caracteriza os moradores, como um adjetivo.",
+            "dica": "Pergunte: quem espalhou? E quais moradores?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A mosca no teto de Descartes",
+    "texto": "Dizem que o francês René Descartes, quando menino, tinha a saúde fraca e podia ficar mais tempo na cama de manhã. Ele aproveitava para pensar. Conta a lenda que, numa dessas manhãs, ele observava uma mosca andando pelo teto do quarto.\n\nA mosca ia e voltava, parava, mudava de rumo. Descartes se perguntou: como explicar a alguém exatamente onde ela estava, sem apontar com o dedo?\n\nEntão percebeu que bastavam dois números. O primeiro diria a distância da mosca até uma parede; o segundo, a distância até a outra parede, aquela que fazia canto com a primeira. Com esses dois números, qualquer pessoa encontraria a mosca no teto.\n\nFoi assim, segundo a história, que nasceu a ideia das coordenadas. Ninguém sabe se a mosca existiu de verdade. O que se sabe é que Descartes publicou, em 1637, um trabalho que unia a geometria, o estudo das formas, com a álgebra, o estudo das contas com letras. Por isso o plano com dois eixos leva o nome de plano cartesiano.\n\nHoje, a ideia daquela manhã está no mapa do celular que mostra onde o ônibus está, no jogo de batalha naval e na planilha, em que cada célula tem uma coluna e uma linha.\n\nDa próxima vez que uma mosca pousar no teto, olhe para ela com respeito. Talvez ela esteja dando uma aula de matemática."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique o plano cartesiano usando como exemplo o mapa das ruas do seu bairro. Escolha um ponto de partida (a sua casa ou a escola) como origem, diga o que seriam os eixos x e y e dê as \"coordenadas\" de dois lugares, como a padaria e o ponto de ônibus."
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "dia": 32,
+  "blocos": [
+    {
+      "materia": "portugues",
+      "titulo": "Texto instrucional: receitas e manuais",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Texto instrucional é o que ensina alguém a fazer alguma coisa: receita de bolo, manual de celular, regra de jogo, bula de remédio, passo a passo para montar uma estante.",
+          "Ele costuma ter um título que diz o objetivo, uma lista de materiais ou ingredientes e o modo de fazer, com passos em ordem. Muitas vezes os passos vêm numerados.",
+          "Os verbos aparecem no imperativo (“Misture”, “Ligue”, “Aperte”) ou no infinitivo (“Misturar”, “Ligar”). O importante é escolher uma forma e manter até o fim.",
+          "A linguagem é direta e precisa: frases curtas, quantidades exatas (“2 xícaras”, “180 °C”, “10 minutos”) e nada de enrolação. Quem lê precisa conseguir fazer sem perguntar nada.",
+          "A ordem dos passos importa muito. Uma receita que manda “desenforme” antes de “leve ao forno” não funciona, por mais bonita que esteja escrita."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Organize como texto instrucional: “Põe o pão, passa manteiga, liga a sanduicheira e espera uns minutos.”",
+            "resolucao": "Pão na chapa. Materiais: 1 pão francês, manteiga, sanduicheira. Modo de fazer: 1. Ligue a sanduicheira e espere esquentar. 2. Corte o pão ao meio e passe manteiga. 3. Coloque o pão na sanduicheira. 4. Feche e espere 3 minutos."
+          },
+          {
+            "enunciado": "O que falta na instrução “Coloque um pouco de sal e deixe no fogo por um tempo”?",
+            "resolucao": "Falta precisão: quanto sal (uma pitada? uma colher de chá?) e quanto tempo (5 minutos? 20?). Instrução boa usa quantidades e tempos exatos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Bons manuais avisam os perigos antes do passo perigoso, e não depois: “Cuidado: a panela estará quente” vem antes de “Retire a panela do fogo”. Também usam palavras de alerta destacadas, como Atenção ou Cuidado.",
+        "Instruções podem ter imagens, setas e desenhos numerados que acompanham o texto. Em manuais de montagem, às vezes o desenho fala mais que a frase, mas os números precisam bater com os passos.",
+        "Para testar se sua instrução está boa, entregue o texto a outra pessoa e observe, sem ajudar. Onde ela travar ou fizer diferente do que você queria, é ali que o texto precisa melhorar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um texto instrucional?",
+            "alternativas": ["Uma receita de bolo", "Uma poesia de amor", "Uma notícia de jornal", "Uma piada"],
+            "correta": 0,
+            "explicacao": "A receita ensina a fazer algo passo a passo. É o exemplo mais conhecido de texto instrucional.",
+            "dica": "Qual deles ensina alguém a fazer alguma coisa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa receita, a parte que diz o que você vai precisar se chama:",
+            "alternativas": ["Modo de fazer", "Ingredientes", "Título", "Conclusão"],
+            "correta": 1,
+            "explicacao": "A lista de ingredientes (ou materiais) mostra tudo o que é preciso antes de começar.",
+            "dica": "É a lista que você confere antes de começar a cozinhar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que modo costumam estar os verbos de um texto instrucional?",
+            "alternativas": ["No passado", "No futuro", "No imperativo ou no infinitivo", "Sempre no plural"],
+            "correta": 2,
+            "explicacao": "“Misture” (imperativo) ou “Misturar” (infinitivo) são as formas usadas em instruções.",
+            "dica": "Lembre como se dá uma ordem ou instrução: “Misture...”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que os passos de uma instrução costumam ser numerados?",
+            "alternativas": ["Para o texto ficar maior", "Para enfeitar a página", "Porque é obrigatório por lei", "Para mostrar a ordem em que devem ser feitos"],
+            "correta": 3,
+            "explicacao": "A numeração deixa claro o que vem primeiro e o que vem depois.",
+            "dica": "Pense no que acontece se você fizer os passos fora de ordem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual instrução é mais precisa?",
+            "alternativas": ["Asse por 40 minutos a 180 °C.", "Asse por um tempinho.", "Asse até achar que está bom.", "Asse bastante."],
+            "correta": 0,
+            "explicacao": "Ela diz o tempo e a temperatura exatos. As outras deixam quem lê sem saber o que fazer.",
+            "dica": "Procure a que tem números exatos."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o principal objetivo de um texto instrucional?",
+            "alternativas": ["Emocionar o leitor", "Orientar o leitor a realizar uma tarefa", "Contar uma história", "Dar uma opinião"],
+            "correta": 1,
+            "explicacao": "Ele existe para que alguém consiga fazer algo seguindo o texto.",
+            "dica": "Pense no que o leitor de uma receita quer conseguir no final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual trecho mistura imperativo e infinitivo, o que deve ser evitado?",
+            "alternativas": ["Lave o arroz e escorra bem.", "Lavar o arroz e escorrer bem.", "Lave o arroz e escorrer bem.", "Lave o arroz, escorra e reserve."],
+            "correta": 2,
+            "explicacao": "“Lave” é imperativo e “escorrer” é infinitivo. O ideal é manter uma forma só.",
+            "dica": "Veja se os dois verbos estão na mesma forma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma instrução diz: “Desenforme o bolo. Leve ao forno. Unte a forma.” Qual é o problema?",
+            "alternativas": ["Os verbos estão errados", "Faltam vírgulas", "As frases são curtas demais", "Os passos estão fora de ordem"],
+            "correta": 3,
+            "explicacao": "A ordem certa é untar, levar ao forno e só depois desenformar.",
+            "dica": "Tente seguir os passos na ordem em que aparecem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes NÃO costuma fazer parte de um texto instrucional?",
+            "alternativas": ["A opinião do autor sobre política", "A lista de materiais", "Os passos numerados", "O título com o objetivo"],
+            "correta": 0,
+            "explicacao": "Instrução é objetiva: diz o que fazer. Opinião sobre outros assuntos atrapalha.",
+            "dica": "Procure o que não ajuda ninguém a realizar a tarefa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual reescrita deixa “Coloque um pouco de água” mais precisa?",
+            "alternativas": ["Coloque água à vontade.", "Coloque 2 copos de água.", "Coloque água, mas não muita.", "Coloque a água que tiver."],
+            "correta": 1,
+            "explicacao": "“2 copos” é uma quantidade que qualquer pessoa consegue repetir igual.",
+            "dica": "Instrução boa usa medida que qualquer um consegue repetir."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num manual de liquidificador, onde deve ficar o aviso “Nunca coloque a mão no copo com o aparelho ligado”?",
+            "alternativas": ["No final do manual", "Antes dos passos de uso", "Só na caixa do produto", "Depois do passo de lavar"],
+            "correta": 1,
+            "explicacao": "O aviso de perigo precisa ser lido antes de a pessoa correr o risco.",
+            "dica": "O aviso precisa chegar antes de quem lê correr o risco."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para carregar o celular com segurança:",
+            "itens": ["Confira se o carregador e o cabo não estão danificados.", "Ligue o carregador na tomada.", "Encaixe o cabo no celular.", "Deixe o celular carregando longe da cama e do travesseiro."],
+            "explicacao": "Primeiro a verificação de segurança, depois a tomada, depois o celular e por fim onde deixá-lo.",
+            "dica": "A conferência de segurança vem antes de qualquer coisa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma receita diz: “Junte a farinha aos poucos.” O que essa instrução pede?",
+            "alternativas": ["Colocar toda a farinha de uma vez", "Não usar farinha", "Colocar a farinha em partes, misturando entre uma e outra", "Usar pouca farinha"],
+            "correta": 2,
+            "explicacao": "“Aos poucos” fala do modo de colocar, e não da quantidade total. A pegadinha é confundir com “pouca farinha”.",
+            "dica": "A expressão fala do jeito de colocar, e não de quanto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual título combina melhor com um texto instrucional?",
+            "alternativas": ["Uma tarde na casa da vó", "O que eu penso sobre bolos", "A história do chocolate", "Como fazer brigadeiro de panela"],
+            "correta": 3,
+            "explicacao": "“Como fazer...” anuncia o objetivo da instrução. Os outros combinam com relato, opinião ou texto informativo.",
+            "dica": "O título de uma instrução costuma anunciar a tarefa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas instruções está escrita de forma mais clara para quem nunca fez a tarefa?",
+            "alternativas": ["Aperte o botão de ligar, do lado direito, por 3 segundos.", "Faz aquilo do botão.", "Ligue o aparelho do jeito de sempre.", "Aperte o botão e pronto, é fácil."],
+            "correta": 0,
+            "explicacao": "Diz qual botão, onde ele fica e por quanto tempo apertar.",
+            "dica": "Qual delas funcionaria para quem nunca viu o aparelho?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você entregou sua instrução a um colega, e ele parou no passo 3 sem saber continuar. Segundo o aprofundamento, o que isso indica?",
+            "alternativas": ["Que o colega não sabe ler", "Que o passo 3 precisa ser reescrito com mais clareza", "Que a instrução está perfeita", "Que é melhor tirar todos os números"],
+            "correta": 1,
+            "explicacao": "O teste com outra pessoa mostra onde o texto falha. Onde ela trava, a instrução precisa melhorar.",
+            "dica": "O teste serve para achar o defeito do texto, não do leitor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sequência está correta e com aviso no lugar certo?",
+            "alternativas": ["1. Retire a panela do fogo. 2. Cuidado: a alça estará quente.", "1. Cuidado: a alça estará quente. 2. Use um pano para retirar a panela do fogo.", "1. Retire a panela. 2. Desligue o fogo. 3. Cuidado.", "1. Use um pano. 2. Retire a panela. 3. Cuidado: a alça esquentou."],
+            "correta": 1,
+            "explicacao": "O aviso vem antes do passo perigoso e o passo seguinte já orienta como evitar o risco.",
+            "dica": "Onde o aviso protege de verdade quem está lendo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bula de remédio diz: “Tomar 1 comprimido a cada 8 horas.” Se a primeira dose foi às 7h, em quais horários são as próximas duas doses?",
+            "alternativas": ["15h e 23h", "14h e 21h", "8h e 16h", "13h e 19h"],
+            "correta": 0,
+            "explicacao": "7h + 8h = 15h; 15h + 8h = 23h. Ler a instrução com atenção evita erros perigosos.",
+            "dica": "Some 8 horas à primeira dose e depois some de novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma receita rende 10 porções e pede 3 ovos e 2 xícaras de farinha. Para 25 porções, mantendo a proporção, quanto de cada?",
+            "alternativas": ["6 ovos e 4 xícaras", "8 ovos e 5 xícaras", "7,5 ovos e 5 xícaras", "9 ovos e 6 xícaras"],
+            "correta": 2,
+            "explicacao": "25 é 2,5 vezes 10. Então 3 × 2,5 = 7,5 ovos e 2 × 2,5 = 5 xícaras. Na prática, a pessoa arredonda os ovos, mas a conta exata é essa.",
+            "dica": "Descubra quantas vezes 25 cabe em relação a 10 e multiplique tudo por isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas mudanças MAIS melhora um manual de montagem de estante?",
+            "alternativas": ["Trocar os números dos passos por letras bonitas", "Escrever os passos em um parágrafo só, sem quebra", "Colocar desenhos numerados que batem com os passos do texto", "Tirar a lista de peças para o texto ficar curto"],
+            "correta": 2,
+            "explicacao": "Desenhos com números que combinam com o texto ajudam muito. As outras opções deixam o manual mais confuso.",
+            "dica": "Pense no que ajuda quem está com as peças na mão."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "ingles",
+      "titulo": "Prepositions of place: in, on, under, next to",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Preposições de lugar dizem onde uma coisa está. Em inglês, quatro das mais usadas são in, on, under e next to.",
+          "In quer dizer “dentro de”: The pen is in the bag (A caneta está dentro da mochila). On quer dizer “em cima de, sobre”, encostado na superfície: The book is on the table (O livro está sobre a mesa).",
+          "Under quer dizer “embaixo de”: The cat is under the bed (O gato está embaixo da cama). Next to quer dizer “ao lado de”: The school is next to the bakery (A escola fica ao lado da padaria).",
+          "Para perguntar onde algo está, use Where: Where is my phone? (Onde está meu celular?) It's on the sofa (Está no sofá). Para plural: Where are my keys? They are in the drawer (Estão na gaveta).",
+          "Atenção: em português usamos “no” e “na” para tudo, mas o inglês separa. “O celular está na mesa” é on the table; “O celular está na gaveta” é in the drawer."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Traduza: As meias estão embaixo da cama.",
+            "resolucao": "The socks are under the bed. Socks é plural, então usamos are, e “embaixo de” é under."
+          },
+          {
+            "enunciado": "Complete: The milk is ___ the fridge.",
+            "resolucao": "The milk is in the fridge (O leite está dentro da geladeira). A geladeira é um lugar fechado, por isso in."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Outras preposições úteis: between (entre duas coisas): The bank is between the pharmacy and the market. Behind (atrás de): The ball is behind the door. In front of (na frente de): The bus stop is in front of the school.",
+        "Para meios de transporte, o inglês diferencia: in the car (no carro, onde a gente entra sentado) e on the bus, on the train (no ônibus, no trem, onde dá para andar lá dentro).",
+        "At aparece para pontos ou lugares de atividade: at school (na escola), at home (em casa), at the bus stop (no ponto de ônibus). Já para cidades e países, usa-se in: in São Paulo, in Brazil."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer “under”?",
+            "alternativas": ["Embaixo de", "Em cima de", "Dentro de", "Ao lado de"],
+            "correta": 0,
+            "explicacao": "Under = embaixo de. The cat is under the bed: o gato está embaixo da cama.",
+            "dica": "Lembre o exemplo do gato e da cama."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: The pen is ___ the bag. (A caneta está dentro da mochila.)",
+            "alternativas": ["on", "in", "under", "next to"],
+            "correta": 1,
+            "explicacao": "Dentro de = in. A mochila é um lugar fechado.",
+            "dica": "Qual preposição significa “dentro de”?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer “next to”?",
+            "alternativas": ["Dentro de", "Embaixo de", "Ao lado de", "Em cima de"],
+            "correta": 2,
+            "explicacao": "Next to = ao lado de. The school is next to the bakery.",
+            "dica": "Next lembra “próximo”, “vizinho”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: The book is ___ the table. (O livro está sobre a mesa.)",
+            "alternativas": ["in", "under", "next to", "on"],
+            "correta": 3,
+            "explicacao": "Sobre, encostado na superfície = on.",
+            "dica": "O livro está encostado na superfície da mesa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra usamos para perguntar onde algo está?",
+            "alternativas": ["Where", "What", "Who", "When"],
+            "correta": 0,
+            "explicacao": "Where = onde. Where is my phone? (Onde está meu celular?)",
+            "dica": "A pergunta é sobre lugar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Traduza: “O leite está na geladeira.”",
+            "alternativas": ["The milk is on the fridge.", "The milk is in the fridge.", "The milk is under the fridge.", "The milk are in the fridge."],
+            "correta": 1,
+            "explicacao": "O leite está dentro da geladeira: in. “On the fridge” seria em cima dela.",
+            "dica": "O leite fica dentro ou em cima da geladeira?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: My keys ___ in the drawer.",
+            "alternativas": ["is", "am", "are", "be"],
+            "correta": 2,
+            "explicacao": "Keys (chaves) é plural, então usamos are.",
+            "dica": "Keys é singular ou plural?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“The dog is under the table.” Onde está o cachorro?",
+            "alternativas": ["Em cima da mesa", "Ao lado da mesa", "Dentro da mesa", "Embaixo da mesa"],
+            "correta": 3,
+            "explicacao": "Under = embaixo de.",
+            "dica": "Lembre o que under significa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase diz que a farmácia fica ao lado do mercado?",
+            "alternativas": ["The pharmacy is next to the market.", "The pharmacy is in the market.", "The pharmacy is under the market.", "The pharmacy is on the market."],
+            "correta": 0,
+            "explicacao": "Ao lado de = next to.",
+            "dica": "Procure a preposição de duas palavras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Where is the remote control? — It's ___ the sofa. (Está no sofá, em cima do assento.)",
+            "alternativas": ["in", "on", "next", "at"],
+            "correta": 1,
+            "explicacao": "Em cima do assento, encostado na superfície: on the sofa.",
+            "dica": "O controle está apoiado sobre a superfície do sofá."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Traduza: “As crianças estão no ônibus.”",
+            "alternativas": ["The children are in the bus.", "The children is on the bus.", "The children are on the bus.", "The children are under the bus."],
+            "correta": 2,
+            "explicacao": "Children é plural (are) e, para ônibus, o inglês usa on the bus.",
+            "dica": "Veja o plural e lembre a regra dos transportes no aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“The bank is between the pharmacy and the market.” Onde está o banco?",
+            "alternativas": ["Atrás da farmácia", "Na frente do mercado", "Dentro do mercado", "Entre a farmácia e o mercado"],
+            "correta": 3,
+            "explicacao": "Between = entre duas coisas.",
+            "dica": "Between aparece com duas coisas ligadas por and."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": ["I am at school now.", "I am on school now.", "I am under school now.", "I am next school now."],
+            "correta": 0,
+            "explicacao": "Para a escola como lugar de atividade, o inglês usa at school.",
+            "dica": "O aprofundamento traz a expressão usada para estar na escola."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as palavras na ordem certa para formar: “O gato está embaixo da cadeira.”",
+            "itens": ["The", "cat", "is", "under", "the chair"],
+            "explicacao": "The cat is under the chair: sujeito, verbo to be, preposição e lugar.",
+            "dica": "Em inglês: quem, o verbo is, a preposição e o lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: The bus stop is ___ the school. (O ponto de ônibus fica na frente da escola.)",
+            "alternativas": ["behind", "in front of", "under", "between"],
+            "correta": 1,
+            "explicacao": "Na frente de = in front of. Behind é o contrário: atrás de.",
+            "dica": "É o contrário de behind."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem um erro de preposição?",
+            "alternativas": ["She lives in São Paulo.", "We are in the car.", "He is at home.", "They are in the bus."],
+            "correta": 3,
+            "explicacao": "Para ônibus, o certo é on the bus. Car usa in; cidades usam in; casa usa at home.",
+            "dica": "Revise a regra dos transportes no aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Leia: “The bakery is next to the bank. The bank is between the bakery and the school.” O que está ao lado da escola?",
+            "alternativas": ["A padaria", "O banco", "Nada", "O ponto de ônibus"],
+            "correta": 1,
+            "explicacao": "A ordem na rua é padaria, banco, escola. Então quem está ao lado da escola é o banco.",
+            "dica": "Desenhe a rua com os três lugares na ordem que o texto diz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Traduza: “Meu celular está atrás da televisão, e minhas chaves estão na mesa.”",
+            "alternativas": ["My phone is behind the TV, and my keys are on the table.", "My phone is in front of the TV, and my keys are in the table.", "My phone are behind the TV, and my keys is on the table.", "My phone is under the TV, and my keys are next the table."],
+            "correta": 0,
+            "explicacao": "Atrás de = behind; chaves (plural) = are; sobre a mesa = on the table.",
+            "dica": "Confira três coisas: a preposição “atrás”, o plural de keys e a mesa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma estante tem três prateleiras. O livro azul está on the top shelf, e o vermelho está under the blue book, na prateleira logo abaixo. Em que prateleira está o vermelho?",
+            "alternativas": ["Na de cima", "Na de baixo", "Na do meio", "Ao lado do azul"],
+            "correta": 2,
+            "explicacao": "Top shelf é a prateleira de cima. Logo abaixo dela fica a do meio.",
+            "dica": "Top quer dizer topo. O que fica logo abaixo do topo, numa estante de três?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase descreve corretamente: “Moro em São Paulo, no Brasil, e agora estou no ponto de ônibus.”?",
+            "alternativas": ["I live at São Paulo, at Brazil, and now I am in the bus stop.", "I live on São Paulo, in Brazil, and now I am on the bus stop.", "I live in São Paulo, in Brazil, and now I am at the bus stop.", "I live in São Paulo, on Brazil, and now I am under the bus stop."],
+            "correta": 2,
+            "explicacao": "Cidades e países usam in; ponto de ônibus, como ponto de encontro, usa at.",
+            "dica": "Cidades e países usam a mesma preposição; ponto de ônibus usa outra."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "excel",
+      "titulo": "Referência absoluta com $: um valor fixo para várias linhas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Quando você arrasta uma fórmula para baixo, o Excel ajusta as referências sozinho: =A2*2 vira =A3*2, depois =A4*2. Isso se chama referência relativa e quase sempre ajuda.",
+          "Às vezes, porém, um valor precisa ficar fixo, como a taxa de desconto que está numa célula só. Se a fórmula =B2*E1 for arrastada, ela vira =B3*E2, e E2 está vazia: o resultado dá zero.",
+          "Para travar a célula, use o cifrão: $E$1. O $ antes do E trava a coluna, e o $ antes do 1 trava a linha. Arrastando =B2*$E$1, você obtém =B3*$E$1, =B4*$E$1 e assim por diante.",
+          "Atalho: clique na referência dentro da fórmula e aperte F4. O Excel coloca os cifrões para você. No Planilhas Google, o F4 também funciona no computador.",
+          "A grande vantagem: se a taxa mudar, você troca só a célula E1 e todas as linhas se recalculam na hora."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Em B2:B5 estão preços e em E1 está o desconto de 10% (0,1). Qual fórmula, escrita em C2 e arrastada até C5, calcula o valor do desconto de cada produto?",
+            "resolucao": "=B2*$E$1. Em C5 ela fica =B5*$E$1. Se o preço em B5 for R$ 30,00, o desconto é 30 × 0,1 = R$ 3,00."
+          },
+          {
+            "enunciado": "E se você quiser o preço já com desconto?",
+            "resolucao": "Use =B2*(1-$E$1). Com desconto de 10%, sobra 90% do preço: R$ 30,00 × 0,9 = R$ 27,00."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Existe também a referência mista, que trava só uma parte: $A2 trava a coluna A, mas deixa a linha mudar; A$1 trava a linha 1, mas deixa a coluna mudar. Apertando F4 várias vezes, o Excel passa por A1 → $A$1 → A$1 → $A1 → A1.",
+        "A referência mista é perfeita para tabuadas e tabelas de preços em duas direções. Com números de 1 a 10 em A2:A11 e em B1:K1, a fórmula =$A2*B$1, escrita em B2 e arrastada para a direita e para baixo, monta a tabuada inteira.",
+        "Dica de organização: coloque valores fixos (taxas, cotações, preço do quilo) numa área separada, com um título ao lado, como “Desconto:” em D1 e o valor em E1. Assim qualquer pessoa entende de onde vem o número."
+      ],
+      "desafio_pratico": "No Excel (ou no Planilhas Google, no computador ou no celular), monte a “Tabela de descontos da feira”. Em D1 escreva Desconto: e em E1 digite 10%. Em A1, B1 e C1 escreva Produto, Preço e Preço com desconto. De A2 a A6, liste cinco produtos da feira e, em B2 a B6, os preços (por exemplo, R$ 8,00, R$ 12,50, R$ 5,00, R$ 20,00 e R$ 3,50). Em C2, escreva =B2*(1-$E$1) e arraste até C6. Confira se o produto de R$ 20,00 ficou com R$ 18,00. Depois troque E1 para 25% e veja todos os preços mudarem sozinhos. Para terminar, apague os cifrões de C2, arraste de novo e anote no caderno o que deu errado e por quê.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o cifrão ($) numa referência como $E$1?",
+            "alternativas": ["Para travar a célula quando a fórmula é arrastada", "Para mostrar o valor em reais", "Para apagar a célula", "Para somar a coluna"],
+            "correta": 0,
+            "explicacao": "O $ trava a referência. Ele não tem nada a ver com dinheiro, apesar do símbolo.",
+            "dica": "Pense no que acontece com a referência quando você arrasta a fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tecla coloca os cifrões numa referência enquanto você edita a fórmula?",
+            "alternativas": ["F1", "F4", "Enter", "Esc"],
+            "correta": 1,
+            "explicacao": "Com o cursor na referência, F4 coloca os cifrões.",
+            "dica": "A lição fala de uma das teclas de função, no alto do teclado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em $E$1, o que fica travado?",
+            "alternativas": ["Só a coluna", "Só a linha", "A coluna e a linha", "Nada"],
+            "correta": 2,
+            "explicacao": "Há um $ antes do E (coluna) e outro antes do 1 (linha): as duas ficam travadas.",
+            "dica": "Conte quantos cifrões há e onde eles estão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A fórmula =A2*$D$1 foi arrastada uma linha para baixo. Como ela fica?",
+            "alternativas": ["=A2*$D$2", "=A3*$D$2", "=A2*$D$1", "=A3*$D$1"],
+            "correta": 3,
+            "explicacao": "A2 não tem $, então muda para A3. $D$1 está travada e continua igual.",
+            "dica": "Só muda a parte que não tem cifrão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A taxa de desconto está em E1 e é usada em 20 linhas com $E$1. Para mudar o desconto de todas, você:",
+            "alternativas": ["Troca só o valor de E1", "Reescreve as 20 fórmulas", "Apaga a planilha", "Muda a cor das células"],
+            "correta": 0,
+            "explicacao": "Como todas apontam para E1, basta mudar E1 e tudo se recalcula.",
+            "dica": "Todas as fórmulas olham para a mesma célula."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A fórmula =B2*E1 (sem cifrão) foi arrastada para a linha 3. Como ela fica?",
+            "alternativas": ["=B3*E1", "=B3*E2", "=B2*E2", "=B2*E1"],
+            "correta": 1,
+            "explicacao": "Sem cifrão, as duas referências descem uma linha: =B3*E2. Se E2 estiver vazia, o resultado dá zero.",
+            "dica": "Sem cifrão, todas as referências andam junto com a fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "E1 tem 10% e B5 tem R$ 30,00. Quanto mostra =B5*$E$1?",
+            "alternativas": ["R$ 33,00", "R$ 27,00", "R$ 3,00", "R$ 300,00"],
+            "correta": 2,
+            "explicacao": "10% de 30 = 30 × 0,1 = R$ 3,00. Essa fórmula calcula só o valor do desconto.",
+            "dica": "A fórmula multiplica o preço pela taxa. Quanto é 10% de 30?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "E1 tem 10% e B2 tem R$ 50,00. Quanto mostra =B2*(1-$E$1)?",
+            "alternativas": ["R$ 5,00", "R$ 55,00", "R$ 49,90", "R$ 45,00"],
+            "correta": 3,
+            "explicacao": "1 − 0,1 = 0,9. 50 × 0,9 = R$ 45,00, o preço já com desconto.",
+            "dica": "Primeiro calcule 1 menos a taxa; depois multiplique pelo preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que =B2*E1, arrastada para baixo, dá zero nas outras linhas?",
+            "alternativas": ["Porque E1 vira E2, E3..., que estão vazias", "Porque o Excel não multiplica", "Porque B2 está travada", "Porque faltou apertar Enter"],
+            "correta": 0,
+            "explicacao": "Sem trava, a referência da taxa desce junto e passa a apontar para células vazias.",
+            "dica": "Veja para onde a referência da taxa vai quando a fórmula desce."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O preço do quilo do tomate está em F1. Em A2:A10 estão os quilos comprados por cliente. Qual fórmula em B2 pode ser arrastada até B10?",
+            "alternativas": ["=A2*F1", "=A2*$F$1", "=$A$2*F1", "=$A$2*$F$1"],
+            "correta": 1,
+            "explicacao": "A2 precisa mudar a cada linha (sem $), e F1 precisa ficar fixa ($F$1).",
+            "dica": "O que muda a cada cliente e o que é igual para todos?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A fórmula =$A2*B$1 está em B2. Ela é copiada para C3. Como fica?",
+            "alternativas": ["=$A3*B$1", "=$A2*C$1", "=$A3*C$1", "=$B3*C$2"],
+            "correta": 2,
+            "explicacao": "$A2: a coluna A fica, a linha vai de 2 para 3. B$1: a linha 1 fica, a coluna vai de B para C.",
+            "dica": "Mova a fórmula uma coluna para a direita e uma linha para baixo; só muda o que não tem $."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você escreveu A1 numa fórmula e apertou F4 duas vezes. Como ficou?",
+            "alternativas": ["$A$1", "$A1", "A1", "A$1"],
+            "correta": 3,
+            "explicacao": "A sequência é A1 → $A$1 → A$1 → $A1 → A1. Duas vezes chega em A$1.",
+            "dica": "Siga a sequência do aprofundamento, contando os toques."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa planilha, E1 tem a cotação: 1 dólar = R$ 5,00. Em B2 está o preço de um fone em dólares: 12. Qual fórmula dá o preço em reais e o resultado?",
+            "alternativas": ["=B2*$E$1, que dá R$ 60,00", "=B2/$E$1, que dá R$ 2,40", "=B2+$E$1, que dá R$ 17,00", "=B2*E2, que dá R$ 60,00"],
+            "correta": 0,
+            "explicacao": "Cada dólar vale R$ 5,00: 12 × 5 = R$ 60,00, com a cotação travada para as outras linhas.",
+            "dica": "Cada dólar vale 5 reais. Multiplica ou divide?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para aplicar o mesmo desconto a uma lista de preços:",
+            "itens": ["Digite o desconto numa célula separada, como E1.", "Escreva em C2 a fórmula =B2*(1-$E$1).", "Arraste a alça de C2 até a última linha.", "Confira um resultado fazendo a conta de cabeça."],
+            "explicacao": "Primeiro o valor fixo, depois a fórmula com trava, depois arrastar e, por fim, conferir.",
+            "dica": "A fórmula precisa da célula do desconto já preenchida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "E1 tem 20%. Em B2:B4 estão R$ 10,00, R$ 25,00 e R$ 40,00. Em C2:C4 está =B2*(1-$E$1) arrastada. Qual é a soma de C2:C4?",
+            "alternativas": ["R$ 75,00", "R$ 60,00", "R$ 15,00", "R$ 90,00"],
+            "correta": 1,
+            "explicacao": "Total sem desconto: 75. Com 20% a menos, sobra 80%: 75 × 0,8 = R$ 60,00 (8 + 20 + 32).",
+            "dica": "Some os preços e tire 20% do total, ou calcule linha a linha."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na tabuada, =$A2*B$1 está em B2 e foi arrastada até K11. Que fórmula aparece em D5?",
+            "alternativas": ["=$A5*B$1", "=$D5*D$1", "=$A2*D$1", "=$A5*D$1"],
+            "correta": 3,
+            "explicacao": "A coluna A fica travada e a linha vira 5; a linha 1 fica travada e a coluna vira D.",
+            "dica": "Cada parte da referência só muda onde não há $."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nessa tabuada, A5 tem o número 4 e D1 tem o número 3. Quanto mostra D5?",
+            "alternativas": ["7", "12", "43", "1"],
+            "correta": 1,
+            "explicacao": "D5 tem =$A5*D$1 = 4 × 3 = 12.",
+            "dica": "Descubra a fórmula de D5 primeiro e depois troque pelos números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém escreveu =$B2*E1 em C2 e arrastou até C6. O que acontece?",
+            "alternativas": ["Funciona, porque B está travada", "Dá erro de digitação", "Só C2 fica certa; nas outras, E1 vira E2, E3... e o resultado dá errado", "Todas mostram o mesmo número"],
+            "correta": 2,
+            "explicacao": "O $ foi para o lugar errado: travou o preço (que deveria mudar) e deixou a taxa solta (que deveria ficar fixa).",
+            "dica": "Veja qual referência precisava ficar fixa e qual recebeu o cifrão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "E1 tem 10%. Um produto de R$ 80,00 recebe =B2*(1-$E$1) e, numa segunda coluna, o resultado recebe de novo =C2*(1-$E$1). Qual é o preço final?",
+            "alternativas": ["R$ 64,80", "R$ 64,00", "R$ 72,00", "R$ 60,00"],
+            "correta": 0,
+            "explicacao": "80 × 0,9 = 72; 72 × 0,9 = 64,80. Dois descontos de 10% seguidos não somam 20%.",
+            "dica": "O segundo desconto é calculado sobre o preço que já tinha desconto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa tabela de preços de pão (linhas: quantidade de 1 a 5 em A2:A6; colunas: preço por unidade em B1:D1), qual fórmula em B2 pode ser arrastada para toda a tabela?",
+            "alternativas": ["=A2*B1", "=$A$2*$B$1", "=A$2*$B1", "=$A2*B$1"],
+            "correta": 3,
+            "explicacao": "A quantidade está sempre na coluna A (trava a coluna) e o preço sempre na linha 1 (trava a linha).",
+            "dica": "Pergunte: a quantidade fica sempre em qual coluna? O preço fica sempre em qual linha?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "leis",
+      "titulo": "Contrato social: a certidão de nascimento da empresa",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Quando duas ou mais pessoas resolvem abrir uma empresa juntas, elas viram sócias e precisam escrever um documento chamado contrato social. Ele é como a certidão de nascimento da empresa.",
+          "No contrato social ficam as regras básicas: o nome da empresa, o endereço da sede, o que ela vai fazer (o objeto social), o capital social e quanto cada sócio colocou, quem vai administrar e como os lucros e as perdas serão divididos.",
+          "O capital social é o dinheiro (ou os bens) que os sócios colocam para a empresa começar. Ele é dividido em partes chamadas quotas. Quem coloca mais dinheiro costuma ter mais quotas.",
+          "O contrato é registrado na Junta Comercial do estado. Em São Paulo, é a Jucesp. Depois do registro, a empresa recebe o CNPJ e passa a existir oficialmente.",
+          "Se algo mudar, como a entrada de um novo sócio, a troca de endereço ou de atividade, é preciso fazer uma alteração contratual e registrá-la de novo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Bruna e Otávio vão abrir uma loja de bolos. Bruna entra com R$ 6.000 e Otávio com R$ 4.000. Qual é o capital social e qual a parte de cada um?",
+            "resolucao": "Capital social: 6.000 + 4.000 = R$ 10.000. Bruna tem 6.000 ÷ 10.000 = 60% das quotas e Otávio tem 40%."
+          },
+          {
+            "enunciado": "Se, no contrato, os lucros forem divididos conforme as quotas, e a loja tiver lucro de R$ 2.000 no mês, quanto vai para cada um?",
+            "resolucao": "Bruna: 60% de 2.000 = R$ 1.200. Otávio: 40% de 2.000 = R$ 800. Confere: 1.200 + 800 = 2.000."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O tipo mais comum de empresa com sócios no Brasil é a sociedade limitada, que leva “Ltda.” no nome. Em regra, a responsabilidade de cada sócio fica limitada ao valor das suas quotas: as dívidas da empresa não atingem a casa do sócio, a não ser em casos como fraude ou capital não pago.",
+        "O MEI não tem contrato social, porque não tem sócios: ele recebe um certificado de registro chamado CCMEI. O contrato social é coisa de quem empreende junto com outras pessoas.",
+        "Um bom contrato também combina o que acontece em situações difíceis: se um sócio quiser sair, se falecer ou se os dois brigarem. Muita sociedade de amigos acaba mal por não ter combinado isso no começo. Por isso, é comum contratar um contador ou advogado para escrever o contrato."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O contrato social é comparado a qual documento de uma pessoa?",
+            "alternativas": ["Boletim escolar", "Certidão de nascimento", "Carteira de vacinação", "Conta de luz"],
+            "correta": 1,
+            "explicacao": "Ele marca o nascimento oficial da empresa, como a certidão marca o de uma pessoa.",
+            "dica": "Qual documento mostra que alguém nasceu?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem precisa fazer um contrato social?",
+            "alternativas": ["Pessoas que abrem uma empresa como sócias", "Quem compra no mercado", "Quem tira a carteira de identidade", "Alunos que entram na escola"],
+            "correta": 0,
+            "explicacao": "O contrato social é feito pelos sócios que abrem uma empresa juntos.",
+            "dica": "Pense em duas pessoas que vão empreender juntas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o dinheiro que os sócios colocam para a empresa começar?",
+            "alternativas": ["Lucro", "Salário", "Capital social", "Troco"],
+            "correta": 2,
+            "explicacao": "Capital social é o investimento inicial dos sócios, dividido em quotas.",
+            "dica": "É o dinheiro do começo, não o que a empresa ganha depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em São Paulo, onde o contrato social é registrado?",
+            "alternativas": ["No cartório eleitoral", "No Procon", "Na escola", "Na Junta Comercial (Jucesp)"],
+            "correta": 3,
+            "explicacao": "Empresas como a sociedade limitada são registradas na Junta Comercial do estado.",
+            "dica": "O nome tem a palavra Junta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No contrato social, a parte que diz o que a empresa vai fazer se chama:",
+            "alternativas": ["Objeto social", "Capital social", "Sede", "Quota"],
+            "correta": 0,
+            "explicacao": "O objeto social descreve as atividades da empresa, como vender bolos ou consertar celulares.",
+            "dica": "É o “objetivo”, a atividade da empresa."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois sócios colocaram R$ 3.000 e R$ 7.000. Qual é o capital social?",
+            "alternativas": ["R$ 4.000", "R$ 10.000", "R$ 7.000", "R$ 21.000"],
+            "correta": 1,
+            "explicacao": "Capital social é a soma do que os sócios colocaram: 3.000 + 7.000 = R$ 10.000.",
+            "dica": "Junte o que os dois colocaram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nessa sociedade (R$ 3.000 e R$ 7.000), qual porcentagem das quotas é do sócio que colocou R$ 3.000?",
+            "alternativas": ["3%", "70%", "30%", "43%"],
+            "correta": 2,
+            "explicacao": "3.000 ÷ 10.000 = 0,3 = 30%.",
+            "dica": "Divida a parte dele pelo capital total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois do registro do contrato social, a empresa recebe qual número?",
+            "alternativas": ["CPF", "RG", "Título de eleitor", "CNPJ"],
+            "correta": 3,
+            "explicacao": "O CNPJ é o “CPF da empresa”: o número com que ela emite notas e paga impostos.",
+            "dica": "É o número de cadastro das empresas, parecido com o CPF das pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terceiro amigo vai entrar como sócio na empresa. O que precisa ser feito?",
+            "alternativas": ["Uma alteração contratual registrada na Junta Comercial", "Nada, basta ele começar a trabalhar", "Um novo CPF para ele", "Fechar a empresa"],
+            "correta": 0,
+            "explicacao": "Mudanças nas regras da empresa, como a entrada de sócio, exigem alteração contratual registrada.",
+            "dica": "Toda mudança importante no contrato precisa ser oficializada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer “Ltda.” no nome de uma empresa?",
+            "alternativas": ["Loja de Tecidos e Artigos", "Sociedade limitada", "Lucro total da atividade", "Licença temporária"],
+            "correta": 1,
+            "explicacao": "Ltda. indica uma sociedade limitada, o tipo de empresa com sócios mais comum no Brasil.",
+            "dica": "É a abreviação de uma palavra ligada a limite."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma sociedade tem capital de R$ 20.000: Ana com R$ 12.000 e Rui com R$ 8.000. O lucro do mês, dividido pelas quotas, foi de R$ 5.000. Quanto recebe Rui?",
+            "alternativas": ["R$ 2.500", "R$ 3.000", "R$ 2.000", "R$ 8.000"],
+            "correta": 2,
+            "explicacao": "Rui tem 8.000 ÷ 20.000 = 40%. 40% de 5.000 = R$ 2.000.",
+            "dica": "Descubra a porcentagem de Rui no capital e aplique sobre o lucro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o MEI não tem contrato social?",
+            "alternativas": ["Porque não paga imposto", "Porque é proibido por lei", "Porque não pode ter CNPJ", "Porque não tem sócios"],
+            "correta": 3,
+            "explicacao": "Contrato social organiza a relação entre sócios. O MEI é uma pessoa só e recebe o CCMEI.",
+            "dica": "Contrato social organiza a relação entre quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa sociedade limitada, a empresa ficou com uma dívida. Em regra, até onde vai a responsabilidade do sócio que pagou todas as suas quotas?",
+            "alternativas": ["Até o valor das suas quotas", "Ele perde sempre a casa e o carro", "Ele paga a dívida inteira sozinho", "Ele não tem nenhuma responsabilidade nunca"],
+            "correta": 0,
+            "explicacao": "Em regra, a responsabilidade fica limitada às quotas. Há exceções, como fraude, mas não é o caso normal.",
+            "dica": "O próprio nome do tipo de sociedade dá a pista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes itens NÃO costuma estar no contrato social?",
+            "alternativas": ["O endereço da sede", "As notas escolares dos sócios", "Quem administra a empresa", "Como os lucros serão divididos"],
+            "correta": 1,
+            "explicacao": "O contrato traz regras da empresa. Notas escolares não têm nada a ver.",
+            "dica": "Procure o que não é regra da empresa."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para abrir uma sociedade:",
+            "itens": ["Os sócios combinam a atividade e quanto cada um vai colocar.", "O contrato social é escrito com essas regras.", "O contrato é registrado na Junta Comercial.", "A empresa recebe o CNPJ e começa a funcionar."],
+            "explicacao": "Primeiro combinar, depois escrever, registrar e só então ter o CNPJ.",
+            "dica": "O CNPJ só sai depois do registro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Três sócios montam capital de R$ 30.000: Lia com R$ 15.000, Jonas com R$ 9.000 e Mel com R$ 6.000. O lucro de R$ 4.000 é dividido pelas quotas. Quanto recebe Jonas?",
+            "alternativas": ["R$ 1.333,33", "R$ 1.800", "R$ 900", "R$ 1.200"],
+            "correta": 3,
+            "explicacao": "Jonas tem 9.000 ÷ 30.000 = 30%. 30% de 4.000 = R$ 1.200. O R$ 1.333,33 seria dividir igual entre os três.",
+            "dica": "Não divida igualmente: calcule a parte de Jonas no capital."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois amigos abriram uma empresa sem combinar o que aconteceria se um quisesse sair. Um ano depois, um deles quer sair. Segundo o aprofundamento, o que teria evitado a confusão?",
+            "alternativas": ["Ter regras de saída de sócio escritas no contrato social", "Ter um CNPJ maior", "Não pagar impostos", "Trocar o nome da empresa"],
+            "correta": 0,
+            "explicacao": "Um bom contrato prevê saída, falecimento e brigas entre sócios.",
+            "dica": "O aprofundamento fala de situações difíceis combinadas no começo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia (50%), Jonas (30%) e Mel (20%) vendem a parte de Mel para Lia. Como ficam as quotas depois da alteração contratual?",
+            "alternativas": ["Lia 50%, Jonas 50%", "Lia 60%, Jonas 40%", "Lia 70%, Jonas 30%", "Lia 50%, Jonas 30%, Mel 20%"],
+            "correta": 2,
+            "explicacao": "Lia soma os 20% de Mel aos seus 50%: 70%. Jonas continua com 30%.",
+            "dica": "Só a parte de Mel muda de dono."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma empresa mudou de endereço, mas não fez alteração contratual. Qual é o problema?",
+            "alternativas": ["Nenhum, endereço não importa", "Os dados oficiais ficam errados e a empresa pode ter problemas com cadastros, notas e fiscalização", "A empresa ganha desconto no aluguel", "O CNPJ muda sozinho"],
+            "correta": 1,
+            "explicacao": "O endereço da sede está no contrato e nos cadastros oficiais. Mudou, precisa registrar a alteração.",
+            "dica": "O endereço da sede faz parte das regras registradas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas sócias combinaram no contrato que o lucro será dividido meio a meio, mesmo uma tendo 70% do capital, porque a outra trabalha mais horas. Isso pode?",
+            "alternativas": ["Não, o lucro sempre segue as quotas", "Não, só o governo decide", "Só se as duas forem MEI", "Sim, o contrato pode combinar outra regra de divisão"],
+            "correta": 3,
+            "explicacao": "Em geral, o lucro segue as quotas, mas os sócios podem combinar outra divisão no contrato, desde que fique escrito.",
+            "dica": "A lição fala que o contrato diz como os lucros serão divididos."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A receita que ninguém entendia",
+    "texto": "O caderno de receitas do vô Anselmo tinha manchas de óleo, folhas soltas e uma letra que parecia formiga correndo. O bolo de fubá dele era famoso na rua inteira, mas ninguém mais conseguia fazer.\n\nIsadora, a neta, tentou numa tarde de sábado. Leu a primeira linha: “Leve ao forno até dourar”. Na terceira, descobriu que antes precisava bater os ovos. Na última, o avô tinha escrito: “Ah, e unte a forma antes de tudo”.\n\n— Vô, assim não dá! A receita está de trás para a frente.\n\nEle riu, meio sem graça.\n\n— Eu faço de cabeça, minha filha. Escrevi do jeito que fui lembrando.\n\nIsadora pegou uma folha nova. No alto, escreveu o título: Bolo de fubá do vô Anselmo. Depois separou os ingredientes, com as quantidades certas, que foi perguntando um por um: “uma xícara de quê, vô? Cheia ou rasa?”.\n\nPor fim, numerou o modo de fazer, cada passo começando com um verbo: unte, bata, misture, despeje, asse. No passo do forno, colocou um aviso: “Cuidado ao abrir, o vapor queima”.\n\nNo domingo, a mãe dela seguiu a folha nova sem fazer nenhuma pergunta. O bolo saiu igualzinho ao do avô, que provou, fechou os olhos e disse:\n\n— Agora a receita é sua também."
+  },
+  "escrita": {
+    "proposta": "Escreva as instruções de algo que você sabe fazer bem (um lanche, um penteado, uma dobradura, um truque no celular ou uma brincadeira). Use um título que diga o objetivo, uma lista de materiais e de 4 a 6 passos numerados, todos começando com um verbo no imperativo. Se algum passo tiver perigo, coloque um aviso antes dele. No total, use de 5 a 10 linhas."
+  }
+}

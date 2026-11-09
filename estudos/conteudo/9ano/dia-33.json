@@ -1,0 +1,1204 @@
+{
+  "dia": 33,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Ácidos, bases e a escala de pH",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Ácidos são substâncias que, na água, liberam íons H⁺. Costumam ter sabor azedo (mas nunca prove nada no laboratório!). Exemplos: o limão (ácido cítrico), o vinagre (ácido acético), o suco do estômago (ácido clorídrico) e o refrigerante.",
+          "Bases são substâncias que, na água, liberam íons OH⁻. Costumam ser escorregadias e ter sabor que \"amarra\" a boca. Exemplos: sabão, soda cáustica (hidróxido de sódio) e leite de magnésia (hidróxido de magnésio).",
+          "A escala de pH vai de 0 a 14 e mede se uma solução é ácida ou básica. Abaixo de 7 é ácida; 7 é neutra; acima de 7 é básica. Valores aproximados: suco de limão 2, vinagre 3, água pura 7, sangue 7,4, sabão 10, soda cáustica 14.",
+          "Ácido e base reagem entre si na neutralização, formando sal e água: HCl + NaOH → NaCl + H₂O. É por isso que um antiácido (uma base fraca) alivia a azia causada pelo excesso de ácido no estômago.",
+          "Indicadores são substâncias que mudam de cor conforme o pH. A fenolftaleína fica incolor no ácido e rosa na base; o papel de tornassol azul fica vermelho no ácido; e o suco de repolho roxo muda de cor em toda a escala."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: suco de limão (pH 2), água pura (pH 7) e sabão (pH 10).",
+            "resolucao": "Limão: ácido (menor que 7). Água pura: neutra (igual a 7). Sabão: básico (maior que 7)."
+          },
+          {
+            "enunciado": "Por que tomar leite de magnésia alivia a azia?",
+            "resolucao": "A azia vem do excesso de ácido no estômago. O leite de magnésia é uma base: ele neutraliza parte do ácido, formando sal e água."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A escala de pH é logarítmica: cada ponto a menos significa 10 vezes mais ácido. Uma solução de pH 3 é 10 vezes mais ácida que uma de pH 4 e 100 vezes mais ácida que uma de pH 5.",
+        "Chuva ácida: gases de enxofre e de nitrogênio, liberados por fábricas e veículos, reagem com a água da atmosfera e deixam a chuva mais ácida. Ela corrói monumentos e prejudica rios e plantações. Na agricultura, o solo ácido é corrigido com calcário, uma técnica chamada calagem.",
+        "Segurança em casa: nunca misture água sanitária com produtos ácidos ou com amoníaco. A mistura libera gases tóxicos que podem causar intoxicação grave. Produtos de limpeza devem ser usados sozinhos e em lugar ventilado."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o pH de uma solução neutra?",
+            "alternativas": [
+              "0",
+              "7",
+              "10",
+              "14"
+            ],
+            "correta": 1,
+            "explicacao": "Neutro é exatamente 7, como a água pura.",
+            "dica": "Fica no meio da escala de 0 a 14."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma solução com pH 3 é:",
+            "alternativas": [
+              "ácida",
+              "básica",
+              "neutra",
+              "salgada"
+            ],
+            "correta": 0,
+            "explicacao": "Abaixo de 7 é ácido.",
+            "dica": "Compare com 7."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um exemplo de base?",
+            "alternativas": [
+              "vinagre",
+              "suco de limão",
+              "sabão",
+              "refrigerante"
+            ],
+            "correta": 2,
+            "explicacao": "O sabão tem pH acima de 7.",
+            "dica": "Ácidos costumam ser azedos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ácido + base forma:",
+            "alternativas": [
+              "só gás",
+              "só ácido mais forte",
+              "óleo",
+              "sal e água"
+            ],
+            "correta": 3,
+            "explicacao": "Na neutralização, forma-se sal e água.",
+            "dica": "É a reação de neutralização."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um indicador como a fenolftaleína?",
+            "alternativas": [
+              "Aquecer a solução",
+              "Mostrar, pela cor, se a solução é ácida ou básica",
+              "Deixar a água potável",
+              "Medir a temperatura"
+            ],
+            "correta": 1,
+            "explicacao": "Indicadores mudam de cor com o pH.",
+            "dica": "Pense em sinal de cor."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem do mais ácido para o mais básico?",
+            "alternativas": [
+              "limão, vinagre, água pura, sabão",
+              "sabão, água pura, vinagre, limão",
+              "água pura, limão, sabão, vinagre",
+              "vinagre, limão, sabão, água pura"
+            ],
+            "correta": 0,
+            "explicacao": "pH 2, 3, 7 e 10: do menor para o maior.",
+            "dica": "Menor pH, mais ácido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A fenolftaleína ficou rosa numa solução. Ela é:",
+            "alternativas": [
+              "ácida",
+              "neutra",
+              "básica",
+              "impossível saber"
+            ],
+            "correta": 2,
+            "explicacao": "Fenolftaleína fica rosa em meio básico.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o antiácido alivia a azia?",
+            "alternativas": [
+              "Porque esfria o estômago",
+              "Porque é um ácido mais forte",
+              "Porque tira a água do estômago",
+              "Porque é uma base que neutraliza parte do ácido"
+            ],
+            "correta": 3,
+            "explicacao": "Base + ácido → sal + água, e a acidez diminui.",
+            "dica": "Qual reação acontece?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O papel de tornassol azul ficou vermelho. A solução é:",
+            "alternativas": [
+              "ácida",
+              "básica",
+              "neutra",
+              "gasosa"
+            ],
+            "correta": 0,
+            "explicacao": "Tornassol azul fica vermelho no ácido.",
+            "dica": "Pense no vinagre."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O sangue tem pH de cerca de 7,4. Ele é:",
+            "alternativas": [
+              "fortemente ácido",
+              "levemente básico",
+              "fortemente básico",
+              "levemente ácido"
+            ],
+            "correta": 1,
+            "explicacao": "7,4 está pouco acima de 7: levemente básico.",
+            "dica": "Compare com 7 e veja a distância."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes uma solução de pH 3 é mais ácida que uma de pH 5?",
+            "alternativas": [
+              "2 vezes",
+              "20 vezes",
+              "100 vezes",
+              "1.000 vezes"
+            ],
+            "correta": 2,
+            "explicacao": "Cada ponto vale 10 vezes: 10 × 10 = 100.",
+            "dica": "A escala é logarítmica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na reação HCl + NaOH → NaCl + H₂O, qual substância é o sal formado?",
+            "alternativas": [
+              "HCl",
+              "NaOH",
+              "H₂O",
+              "NaCl"
+            ],
+            "correta": 3,
+            "explicacao": "NaCl é o cloreto de sódio, o sal de cozinha.",
+            "dica": "O sal é o que não é ácido, base nem água."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um agricultor mediu pH 4,5 no solo. O que ele deve fazer?",
+            "alternativas": [
+              "Colocar calcário (calagem)",
+              "Colocar vinagre",
+              "Não fazer nada, pois está neutro",
+              "Jogar água sanitária"
+            ],
+            "correta": 0,
+            "explicacao": "Solo ácido é corrigido com calcário, que reduz a acidez.",
+            "dica": "O solo está ácido ou básico?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual mistura NUNCA deve ser feita em casa?",
+            "alternativas": [
+              "Sabão com água",
+              "Água sanitária com produto ácido",
+              "Vinagre com água",
+              "Bicarbonato com água"
+            ],
+            "correta": 1,
+            "explicacao": "A mistura libera gases tóxicos.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do menor para o maior pH.",
+            "itens": [
+              "Suco de limão",
+              "Vinagre",
+              "Água pura",
+              "Sangue",
+              "Sabão"
+            ],
+            "explicacao": "2, 3, 7, 7,4 e 10.",
+            "dica": "Comece pelo mais ácido."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma solução tem pH 2 e outra pH 6. Quantas vezes a primeira é mais ácida?",
+            "alternativas": [
+              "4 vezes",
+              "40 vezes",
+              "1.000 vezes",
+              "10.000 vezes"
+            ],
+            "correta": 3,
+            "explicacao": "São 4 pontos: 10 × 10 × 10 × 10 = 10.000.",
+            "dica": "Multiplique por 10 a cada ponto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma solução de pH 4 foi diluída e passou a pH 5. O que aconteceu com a acidez?",
+            "alternativas": [
+              "Ficou 10 vezes menor",
+              "Ficou 10 vezes maior",
+              "Diminuiu um pouco, só 1%",
+              "Não mudou"
+            ],
+            "correta": 0,
+            "explicacao": "Um ponto a mais no pH = 10 vezes menos ácido.",
+            "dica": "Um ponto equivale a quantas vezes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a chuva ácida se forma?",
+            "alternativas": [
+              "Porque a água do mar evapora com sal",
+              "Porque gases de enxofre e nitrogênio reagem com a água da atmosfera",
+              "Porque a chuva passa pelas nuvens frias",
+              "Porque o calcário sobe com o vento"
+            ],
+            "correta": 1,
+            "explicacao": "Esses gases, de fábricas e veículos, formam ácidos na água da chuva.",
+            "dica": "Pense na poluição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Misturando volumes iguais de um ácido e de uma base que se neutralizam por completo, o pH final tende a:",
+            "alternativas": [
+              "0",
+              "14",
+              "7",
+              "2"
+            ],
+            "correta": 2,
+            "explicacao": "Na neutralização completa, forma-se sal e água, perto do neutro.",
+            "dica": "Ácido e base se cancelam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um líquido deixou o tornassol azul sem mudar de cor e a fenolftaleína incolor. O que se pode concluir?",
+            "alternativas": [
+              "É fortemente básico",
+              "É fortemente ácido",
+              "É ácido, com certeza",
+              "É neutro ou quase neutro"
+            ],
+            "correta": 3,
+            "explicacao": "Não é ácido (tornassol azul não ficou vermelho) nem básico (fenolftaleína não ficou rosa).",
+            "dica": "Junte as duas pistas: o que cada uma descartou?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Risco e retorno: renda fixa e renda variável",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Em investimentos, risco e retorno andam juntos: quanto maior a chance de ganhar muito, maior a chance de o valor oscilar ou até cair. Não existe investimento com retorno alto, garantido e sem risco.",
+          "Renda fixa: a regra de remuneração é conhecida desde o início. Exemplos: poupança, Tesouro Direto (como o Tesouro Selic) e CDB. Um CDB que paga 12% ao ano transforma R$ 1.000 em R$ 1.120 em um ano, antes do imposto.",
+          "Renda variável: o retorno não é conhecido nem garantido. Exemplos: ações e fundos imobiliários. Uma ação comprada a R$ 20 pode valer R$ 26 (alta de 30%) ou R$ 14 (queda de 30%) depois de um tempo.",
+          "Proteções: o Tesouro Direto é garantido pelo governo federal; CDB e poupança têm o FGC (Fundo Garantidor de Créditos), que cobre até R$ 250 mil por CPF em cada instituição se o banco quebrar. Ações não têm essa garantia.",
+          "Liquidez é a rapidez para transformar o investimento em dinheiro. Para a reserva de emergência, o ideal é renda fixa segura e com liquidez diária. Para objetivos de muitos anos, dá para ter uma parte em renda variável."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Larissa tem R$ 1.000 num CDB de 12% ao ano. Quanto terá em um ano, antes do imposto?",
+            "resolucao": "12% de 1.000 = 120. Total: R$ 1.120."
+          },
+          {
+            "enunciado": "Rafael comprou 10 ações a R$ 20 e o preço caiu para R$ 15. Quanto ele perdeu, se vender agora?",
+            "resolucao": "Pagou 10 × 20 = R$ 200. Vale 10 × 15 = R$ 150. Perda de R$ 50 (25%). Se não vender, a perda ainda não se realizou, mas o risco continua."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Rentabilidade real é o ganho descontada a inflação. Se um investimento rende 10% num ano e a inflação foi 4%, o poder de compra cresceu cerca de 6% (a conta exata é 1,10 ÷ 1,04 − 1 ≈ 5,8%).",
+        "CDB e Tesouro Direto pagam imposto de renda sobre o ganho, com alíquota menor quanto mais tempo o dinheiro fica aplicado. A poupança é isenta de imposto para pessoas físicas, mas costuma render menos.",
+        "Sinal de golpe: promessa de lucro alto, rápido e garantido, com pressão para entrar logo e trazer amigos. Isso costuma ser pirâmide financeira, que quebra e deixa a maioria no prejuízo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um investimento de renda fixa?",
+            "alternativas": [
+              "ação",
+              "CDB",
+              "fundo imobiliário",
+              "criptomoeda"
+            ],
+            "correta": 1,
+            "explicacao": "No CDB, a regra de remuneração é conhecida desde o início.",
+            "dica": "Renda fixa tem regra combinada antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na renda variável, o retorno é:",
+            "alternativas": [
+              "incerto, pode subir ou cair",
+              "sempre garantido",
+              "sempre zero",
+              "definido pelo governo"
+            ],
+            "correta": 0,
+            "explicacao": "Ações e fundos imobiliários oscilam.",
+            "dica": "O nome já diz: varia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Risco e retorno costumam:",
+            "alternativas": [
+              "não ter relação",
+              "andar em sentidos opostos sempre",
+              "andar juntos",
+              "ser iguais a zero"
+            ],
+            "correta": 2,
+            "explicacao": "Maior chance de ganho vem com maior chance de oscilação.",
+            "dica": "Releia a primeira frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 12% de R$ 1.000?",
+            "alternativas": [
+              "R$ 12",
+              "R$ 1.012",
+              "R$ 112",
+              "R$ 120"
+            ],
+            "correta": 3,
+            "explicacao": "0,12 × 1.000 = 120.",
+            "dica": "10% de 1.000 é 100; falta 2%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Liquidez é:",
+            "alternativas": [
+              "o lucro do ano",
+              "a rapidez para virar dinheiro",
+              "o imposto pago",
+              "o risco de perder"
+            ],
+            "correta": 1,
+            "explicacao": "Liquidez diária: dá para sacar em um dia.",
+            "dica": "Pense em \"líquido\", que escorre rápido."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor lugar para a reserva de emergência?",
+            "alternativas": [
+              "Renda fixa segura com liquidez diária",
+              "Ações de uma só empresa",
+              "Dinheiro emprestado a um amigo",
+              "Um investimento com promessa de 10% ao mês"
+            ],
+            "correta": 0,
+            "explicacao": "A reserva precisa estar segura e disponível a qualquer hora.",
+            "dica": "Emergência exige rapidez e segurança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Até quanto o FGC garante por CPF em cada instituição?",
+            "alternativas": [
+              "R$ 25 mil",
+              "R$ 1 milhão",
+              "R$ 250 mil",
+              "Não garante nada"
+            ],
+            "correta": 2,
+            "explicacao": "O FGC cobre até R$ 250 mil por CPF por instituição.",
+            "dica": "Releia o quarto parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma ação comprada a R$ 20 passou a valer R$ 26. Qual foi a alta?",
+            "alternativas": [
+              "6%",
+              "26%",
+              "20%",
+              "30%"
+            ],
+            "correta": 3,
+            "explicacao": "Subiu R$ 6 sobre R$ 20: 6 ÷ 20 = 0,30 = 30%.",
+            "dica": "Divida a alta pelo preço de compra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual investimento é garantido pelo governo federal?",
+            "alternativas": [
+              "Ações",
+              "Tesouro Direto",
+              "Fundos imobiliários",
+              "Pirâmide financeira"
+            ],
+            "correta": 1,
+            "explicacao": "Os títulos do Tesouro Direto são do governo federal.",
+            "dica": "Está no nome: Tesouro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafael comprou 10 ações a R$ 20 e elas caíram para R$ 15. Qual é a perda se ele vender?",
+            "alternativas": [
+              "R$ 50",
+              "R$ 5",
+              "R$ 150",
+              "R$ 200"
+            ],
+            "correta": 0,
+            "explicacao": "200 − 150 = 50.",
+            "dica": "Calcule quanto pagou e quanto vale agora."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um investimento rendeu 10% e a inflação foi 4%. O ganho real foi de cerca de:",
+            "alternativas": [
+              "14%",
+              "10%",
+              "6%",
+              "4%"
+            ],
+            "correta": 2,
+            "explicacao": "Aproximadamente 10 − 4 = 6% (o exato é cerca de 5,8%).",
+            "dica": "Desconte a inflação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém oferece \"5% ao mês garantidos, sem risco, mas você precisa entrar hoje e chamar amigos\". O que é mais provável?",
+            "alternativas": [
+              "Um CDB comum",
+              "Um título do Tesouro",
+              "Uma poupança especial",
+              "Um golpe de pirâmide financeira"
+            ],
+            "correta": 3,
+            "explicacao": "Retorno alto, garantido, com pressa e recrutamento é sinal clássico de pirâmide.",
+            "dica": "Lembre a relação entre risco e retorno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a poupança pode render menos que um CDB mesmo sendo isenta de imposto?",
+            "alternativas": [
+              "Porque a poupança tem risco de bolsa",
+              "Porque o rendimento da poupança costuma ser menor que o do CDB, mesmo depois do imposto do CDB",
+              "Porque o CDB não tem imposto",
+              "Porque a poupança não tem liquidez"
+            ],
+            "correta": 1,
+            "explicacao": "A isenção ajuda, mas nem sempre compensa a taxa menor.",
+            "dica": "Compare o rendimento depois do imposto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para comprar um notebook daqui a 6 meses, qual escolha combina melhor?",
+            "alternativas": [
+              "Renda fixa com liquidez e baixo risco",
+              "Ações de uma empresa pequena",
+              "Deixar no cofrinho sem render",
+              "Investir tudo num fundo de ações"
+            ],
+            "correta": 0,
+            "explicacao": "Prazo curto pede segurança: não dá tempo de esperar uma queda passar.",
+            "dica": "O prazo é curto ou longo?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do menor para o maior risco, em geral.",
+            "itens": [
+              "Tesouro Selic",
+              "CDB de banco grande, dentro do limite do FGC",
+              "Fundo imobiliário",
+              "Ações de uma única empresa pequena"
+            ],
+            "explicacao": "Garantia do governo, depois FGC, depois renda variável diversificada em imóveis, e por fim uma ação só.",
+            "dica": "Garantias reduzem o risco."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia investiu R$ 2.000: metade num CDB de 12% ao ano e metade em ações que caíram 20%. Depois de um ano, antes do imposto, quanto ela tem?",
+            "alternativas": [
+              "R$ 2.120",
+              "R$ 1.920",
+              "R$ 2.000",
+              "R$ 1.800"
+            ],
+            "correta": 1,
+            "explicacao": "CDB: 1.000 → 1.120. Ações: 1.000 → 800. Total: 1.920.",
+            "dica": "Calcule cada metade separada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma ação caiu 50% e depois subiu 50%. Em relação ao preço inicial, ela está:",
+            "alternativas": [
+              "igual",
+              "25% acima",
+              "50% abaixo",
+              "25% abaixo"
+            ],
+            "correta": 3,
+            "explicacao": "100 → 50 → 75: ainda está 25% abaixo.",
+            "dica": "Os 50% de alta são sobre um valor menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Investimento de R$ 1.000 rendeu 8% num ano com inflação de 8%. O que aconteceu com o poder de compra?",
+            "alternativas": [
+              "Ficou praticamente igual",
+              "Cresceu 8%",
+              "Cresceu 16%",
+              "Caiu 8%"
+            ],
+            "correta": 0,
+            "explicacao": "Tem R$ 1.080, mas as coisas também ficaram 8% mais caras.",
+            "dica": "Ganho real = ganho menos inflação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Marta tem R$ 400 mil num só banco, em CDB. Se o banco quebrar, quanto o FGC garante?",
+            "alternativas": [
+              "R$ 400 mil",
+              "Nada",
+              "R$ 250 mil",
+              "R$ 150 mil"
+            ],
+            "correta": 2,
+            "explicacao": "O limite é R$ 250 mil por CPF por instituição; o restante fica sem garantia.",
+            "dica": "Existe um teto por CPF em cada instituição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação está correta?",
+            "alternativas": [
+              "Ação é renda fixa se a empresa for grande",
+              "Renda fixa nunca tem nenhum risco, nem de inflação",
+              "Quanto mais tempo no CDB, maior a alíquota de imposto",
+              "Diversificar entre renda fixa e variável ajuda a equilibrar risco e retorno"
+            ],
+            "correta": 3,
+            "explicacao": "A alíquota cai com o tempo; renda fixa pode perder para a inflação; ação é sempre renda variável.",
+            "dica": "Elimine as falsas uma a uma."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Pegada digital: o que você posta pode ficar para sempre",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Pegada digital é o rastro de tudo o que você faz na internet: posts, comentários, curtidas, fotos, buscas, vídeos e até os lugares por onde o celular passou.",
+          "Existe a pegada ativa (o que você publica de propósito) e a passiva (o que é coletado sem você perceber, como localização, histórico de navegação e o tempo que passa em cada vídeo).",
+          "Apagou, sumiu? Não. Alguém pode ter feito print, baixado o vídeo ou compartilhado em outro grupo. Um comentário agressivo de anos atrás pode reaparecer na hora errada.",
+          "Escolas, empresas e programas de bolsa costumam pesquisar o nome dos candidatos. Um perfil com conteúdo respeitoso, projetos e aprendizados ajuda; um perfil com ofensas ou exposição atrapalha.",
+          "Cuidados: pense antes de postar (você mostraria isso num cartaz na frente da escola?), deixe o perfil privado, não poste documentos nem a sua rotina com localização e revise as permissões dos aplicativos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Caio postou uma foto com o uniforme da escola, mostrando a rua de casa, às 7h, todos os dias. Qual é o risco?",
+            "resolucao": "Ele revela a escola, o bairro e o horário em que passa por ali. Qualquer pessoa pode descobrir sua rotina. Melhor postar depois e sem localização."
+          },
+          {
+            "enunciado": "Júlia apagou um comentário ofensivo depois de 10 minutos. Está resolvido?",
+            "resolucao": "Não necessariamente: alguém pode ter tirado print. O melhor é pedir desculpas de verdade e, principalmente, pensar antes da próxima vez."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A Constituição de 1988 protege a intimidade, a vida privada, a honra e a imagem das pessoas. Postar a foto ou o vídeo de alguém para humilhar pode gerar indenização. O ECA também protege a imagem de crianças e adolescentes.",
+        "A LGPD dá ao cidadão o direito de saber quais dados uma empresa guarda sobre ele, de pedir correção e, em vários casos, de pedir a eliminação dos dados que foram coletados com o seu consentimento.",
+        "Faça o teste: pesquise o seu nome entre aspas num buscador. O que aparece é parte da sua reputação. Dá para construir uma pegada positiva: participar de projetos, publicar trabalhos da escola e ajudar outras pessoas."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é pegada digital?",
+            "alternativas": [
+              "Um tipo de vírus",
+              "O rastro de tudo o que fazemos na internet",
+              "Uma senha forte",
+              "Um aplicativo de corrida"
+            ],
+            "correta": 1,
+            "explicacao": "Posts, curtidas, buscas e localização formam o rastro.",
+            "dica": "Pense em pegada na areia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Postar uma foto de propósito faz parte da pegada:",
+            "alternativas": [
+              "ativa",
+              "passiva",
+              "apagada",
+              "invisível"
+            ],
+            "correta": 0,
+            "explicacao": "O que você publica de propósito é a pegada ativa.",
+            "dica": "Você agiu, então é…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se você apagar um post, ele some para sempre?",
+            "alternativas": [
+              "Sim, sempre",
+              "Só se for vídeo",
+              "Não necessariamente: pode haver prints e cópias",
+              "Sim, depois de 24 horas"
+            ],
+            "correta": 2,
+            "explicacao": "Outras pessoas podem ter salvado ou compartilhado.",
+            "dica": "Lembre o que é um print."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem pode pesquisar o seu nome no futuro?",
+            "alternativas": [
+              "Ninguém",
+              "Só a sua família",
+              "Só a polícia",
+              "Escolas, empresas e programas de bolsa"
+            ],
+            "correta": 3,
+            "explicacao": "É comum pesquisar candidatos na internet.",
+            "dica": "Pense em quem escolhe candidatos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma boa atitude?",
+            "alternativas": [
+              "Postar documentos para provar a idade",
+              "Deixar o perfil privado e pensar antes de postar",
+              "Marcar a localização de casa em tudo",
+              "Aceitar todos os pedidos de amizade"
+            ],
+            "correta": 1,
+            "explicacao": "Privacidade e reflexão diminuem riscos.",
+            "dica": "Qual opção protege você?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A localização que o celular registra sem você postar nada faz parte da pegada:",
+            "alternativas": [
+              "passiva",
+              "ativa",
+              "escolar",
+              "falsa"
+            ],
+            "correta": 0,
+            "explicacao": "Dados coletados sem ação direta são a pegada passiva.",
+            "dica": "Você não publicou nada de propósito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual post revela demais a rotina de alguém?",
+            "alternativas": [
+              "Foto de um livro que leu",
+              "Desenho feito na aula de arte",
+              "Foto com uniforme, na porta de casa, todo dia no mesmo horário",
+              "Vídeo de uma receita"
+            ],
+            "correta": 2,
+            "explicacao": "Mostra escola, endereço e horário.",
+            "dica": "Qual post diz onde e quando você está?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o \"teste do cartaz\" antes de postar?",
+            "alternativas": [
+              "Ver se a foto tem boa luz",
+              "Contar quantas curtidas vai ter",
+              "Postar só de noite",
+              "Perguntar se você mostraria aquilo num cartaz na frente da escola"
+            ],
+            "correta": 3,
+            "explicacao": "Se não mostraria em público, não poste.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Júlia apagou um comentário ofensivo. O que é mais responsável?",
+            "alternativas": [
+              "Fingir que não aconteceu",
+              "Pedir desculpas de verdade e mudar a atitude",
+              "Culpar quem tirou print",
+              "Criar outro perfil"
+            ],
+            "correta": 1,
+            "explicacao": "Apagar não desfaz o dano; assumir o erro ajuda a reparar.",
+            "dica": "O que repara o dano?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um perfil com projetos e trabalhos ajuda num processo seletivo?",
+            "alternativas": [
+              "Mostra interesse e responsabilidade",
+              "Garante a vaga",
+              "Esconde as notas",
+              "Substitui a entrevista"
+            ],
+            "correta": 0,
+            "explicacao": "Quem pesquisa vê uma pegada positiva.",
+            "dica": "O que o recrutador gostaria de ver?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lei dá ao cidadão o direito de pedir acesso e correção dos seus dados guardados por empresas?",
+            "alternativas": [
+              "CLT",
+              "CDC",
+              "LGPD",
+              "ECA"
+            ],
+            "correta": 2,
+            "explicacao": "A LGPD trata da proteção de dados pessoais.",
+            "dica": "É a lei de proteção de dados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um colega posta o vídeo de outro tropeçando, para todos rirem. O que diz a Constituição?",
+            "alternativas": [
+              "Nada, a internet é terra sem lei",
+              "Só é proibido se o vídeo for longo",
+              "É permitido se tiver legenda",
+              "A imagem e a honra são protegidas, e pode haver indenização"
+            ],
+            "correta": 3,
+            "explicacao": "A Constituição protege a imagem e a honra das pessoas.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude constrói uma pegada digital positiva?",
+            "alternativas": [
+              "Comentar provocações em perfis famosos",
+              "Publicar trabalhos da escola e participar de projetos",
+              "Postar tudo o que sente na hora",
+              "Compartilhar boatos para ganhar seguidores"
+            ],
+            "correta": 1,
+            "explicacao": "Conteúdo útil e respeitoso vira boa reputação.",
+            "dica": "Pense no que você gostaria que achassem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao pesquisar o próprio nome entre aspas num buscador, você está:",
+            "alternativas": [
+              "Conferindo parte da sua reputação on-line",
+              "Apagando a sua pegada",
+              "Criando uma conta",
+              "Invadindo a privacidade de alguém"
+            ],
+            "correta": 0,
+            "explicacao": "As aspas buscam o nome exato, e o resultado mostra o que outros veem.",
+            "dica": "O que as pessoas veem quando procuram você?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem um bom hábito antes de postar.",
+            "itens": [
+              "Pensar se mostraria aquilo em público",
+              "Conferir se aparece localização, documento ou outra pessoa",
+              "Pedir autorização a quem aparece",
+              "Só então publicar"
+            ],
+            "explicacao": "Refletir, conferir os detalhes, respeitar os outros e, por último, postar.",
+            "dica": "Publicar é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lívia quer que uma loja apague os dados que ela forneceu num cadastro com o seu consentimento. O que ela pode fazer?",
+            "alternativas": [
+              "Nada: dados entregues são da loja para sempre",
+              "Só um advogado pode pedir",
+              "Pedir a eliminação com base na LGPD",
+              "Ligar para a polícia"
+            ],
+            "correta": 2,
+            "explicacao": "A LGPD prevê, em vários casos, a eliminação de dados tratados com consentimento.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual situação mistura pegada ativa e passiva?",
+            "alternativas": [
+              "Ler um livro em papel",
+              "Ouvir rádio no ônibus",
+              "Conversar no recreio",
+              "Postar um vídeo com a localização ligada automaticamente"
+            ],
+            "correta": 3,
+            "explicacao": "O vídeo é ativo; a localização registrada automaticamente é passiva.",
+            "dica": "Procure algo que você fez e algo que foi coletado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um adolescente teve uma foto constrangedora espalhada por colegas. Além da Constituição, qual lei protege especialmente a sua imagem?",
+            "alternativas": [
+              "ECA",
+              "CLT",
+              "CDC",
+              "Nenhuma"
+            ],
+            "correta": 0,
+            "explicacao": "O ECA protege a imagem e a dignidade de crianças e adolescentes.",
+            "dica": "Qual lei é especial para menores de 18?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o perfil privado não resolve tudo?",
+            "alternativas": [
+              "Porque perfil privado é proibido",
+              "Porque seguidores ainda podem fazer print e repassar",
+              "Porque privado apaga as fotos",
+              "Porque recrutadores não usam internet"
+            ],
+            "correta": 1,
+            "explicacao": "O conteúdo continua sendo visto por quem você aceitou, e pode vazar.",
+            "dica": "Quem vê o perfil privado pode copiar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor estratégia para a pegada digital de quem vai buscar estágio em 3 anos?",
+            "alternativas": [
+              "Apagar a conta só na véspera",
+              "Postar menos, mas tudo agressivo",
+              "Comprar seguidores",
+              "Começar agora a postar com respeito e mostrar projetos e aprendizados"
+            ],
+            "correta": 3,
+            "explicacao": "A reputação se constrói com o tempo; prints antigos não somem na véspera.",
+            "dica": "Reputação se constrói rápido ou devagar?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Pontuação além da vírgula: ponto e vírgula, dois-pontos, travessão e parênteses",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Ponto e vírgula (;) marca uma pausa maior que a vírgula e menor que o ponto. Separa partes de uma enumeração longa ou orações que já têm vírgulas: \"Na feira, comprei frutas; no mercado, arroz e feijão\".",
+          "Dois-pontos (:) anunciam algo: uma enumeração (\"Levei tudo: caderno, lápis e borracha\"), uma explicação (\"Só faltou uma coisa: coragem\") ou a fala de alguém (\"Ele disse: — Vou chegar tarde\").",
+          "Travessão (—) marca a fala dos personagens no diálogo e também destaca um trecho no meio da frase, com mais força que a vírgula: \"Minha avó — que tem 80 anos — aprendeu a usar o celular\".",
+          "Parênteses ( ) guardam informações extras, que podem ser tiradas sem estragar a frase: explicações, siglas, datas. \"O ECA (Estatuto da Criança e do Adolescente) é de 1990.\"",
+          "Vírgula, travessão e parênteses podem isolar um mesmo trecho, mas com intensidades diferentes: a vírgula integra, o travessão destaca e os parênteses afastam, como um comentário cochichado."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Pontue: \"Comprei três coisas pão leite e café\".",
+            "resolucao": "\"Comprei três coisas: pão, leite e café.\" Os dois-pontos anunciam a enumeração; as vírgulas separam os itens."
+          },
+          {
+            "enunciado": "Pontue: \"Em São Paulo choveu muito no Rio fez sol\".",
+            "resolucao": "\"Em São Paulo, choveu muito; no Rio, fez sol.\" As orações já têm vírgula, então o ponto e vírgula separa uma da outra."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Os dois-pontos também introduzem uma consequência ou conclusão: \"Choveu a semana toda: o jogo foi adiado\". Depois deles, usa-se letra minúscula, a não ser que venha fala, citação ou nome próprio.",
+        "O ponto e vírgula costuma aparecer antes de conectivos como porém, contudo e portanto quando eles estão deslocados: \"Ela estudou muito; não conseguiu a vaga, porém\". Também separa itens de listas em leis e regulamentos.",
+        "No diálogo, o travessão pode aparecer duas vezes: abrindo a fala e separando a fala da voz do narrador. \"— Vou sair — disse Ana — mas volto cedo.\""
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sinal costuma anunciar uma enumeração?",
+            "alternativas": [
+              "parênteses",
+              "dois-pontos",
+              "travessão",
+              "reticências"
+            ],
+            "correta": 1,
+            "explicacao": "\"Levei tudo: caderno, lápis e borracha.\"",
+            "dica": "É o sinal que \"abre a porta\" para a lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sinal marca a fala dos personagens no diálogo?",
+            "alternativas": [
+              "travessão",
+              "ponto e vírgula",
+              "parênteses",
+              "aspas simples"
+            ],
+            "correta": 0,
+            "explicacao": "No diálogo, o travessão abre a fala.",
+            "dica": "É um traço comprido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na frase \"O ECA (Estatuto da Criança e do Adolescente) é de 1990\", os parênteses trazem:",
+            "alternativas": [
+              "uma fala",
+              "uma ordem",
+              "uma explicação da sigla",
+              "uma pergunta"
+            ],
+            "correta": 2,
+            "explicacao": "Os parênteses guardam informação extra.",
+            "dica": "O que significa ECA?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O ponto e vírgula marca uma pausa:",
+            "alternativas": [
+              "maior que o ponto",
+              "igual ao ponto de exclamação",
+              "sem nenhuma pausa",
+              "maior que a vírgula e menor que o ponto"
+            ],
+            "correta": 3,
+            "explicacao": "Fica entre a vírgula e o ponto.",
+            "dica": "O nome dele junta dois sinais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa os dois-pontos corretamente?",
+            "alternativas": [
+              "Comprei: pão.",
+              "Comprei três coisas: pão, leite e café.",
+              "Comprei três: coisas pão leite café.",
+              "Comprei pão leite: e café."
+            ],
+            "correta": 1,
+            "explicacao": "Os dois-pontos vêm antes da enumeração.",
+            "dica": "Os dois-pontos vêm logo antes da lista."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a pontuação correta?",
+            "alternativas": [
+              "Em São Paulo, choveu muito; no Rio, fez sol.",
+              "Em São Paulo; choveu muito, no Rio; fez sol.",
+              "Em São Paulo: choveu muito, no Rio: fez sol.",
+              "Em São Paulo (choveu muito) no Rio (fez sol)."
+            ],
+            "correta": 0,
+            "explicacao": "As orações já têm vírgula; o ponto e vírgula separa uma da outra.",
+            "dica": "Onde a pausa é maior?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Só faltou uma coisa: coragem.\" Os dois-pontos introduzem:",
+            "alternativas": [
+              "uma fala",
+              "uma pergunta",
+              "uma explicação",
+              "um diálogo"
+            ],
+            "correta": 2,
+            "explicacao": "Coragem explica o que faltou.",
+            "dica": "O que vem depois esclarece o antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Meu tio — que mora no Recife — chega amanhã\", o travessão:",
+            "alternativas": [
+              "abre uma fala",
+              "indica pergunta",
+              "encerra a frase",
+              "destaca uma informação no meio da frase"
+            ],
+            "correta": 3,
+            "explicacao": "Os travessões isolam o trecho com destaque.",
+            "dica": "Aqui não há diálogo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa parênteses de forma adequada?",
+            "alternativas": [
+              "Ela (disse) que vem.",
+              "O Sesc (Serviço Social do Comércio) abriu inscrições.",
+              "(Ela) chegou cedo (hoje).",
+              "Eu (fui) à feira."
+            ],
+            "correta": 1,
+            "explicacao": "Parênteses guardam informação extra que pode ser retirada.",
+            "dica": "Tire o trecho dos parênteses: a frase continua inteira?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sinal \"afasta\" mais o trecho, como um comentário cochichado?",
+            "alternativas": [
+              "parênteses",
+              "vírgula",
+              "ponto final",
+              "dois-pontos"
+            ],
+            "correta": 0,
+            "explicacao": "Os parênteses afastam; o travessão destaca; a vírgula integra.",
+            "dica": "Releia o último parágrafo da lição."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está corretamente pontuada?",
+            "alternativas": [
+              "— Vou sair, disse Ana — mas volto cedo.",
+              "Vou sair — disse Ana: mas volto cedo.",
+              "— Vou sair — disse Ana — mas volto cedo.",
+              "— Vou sair disse Ana; mas volto cedo."
+            ],
+            "correta": 2,
+            "explicacao": "O travessão abre a fala e separa a voz do narrador.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Choveu a semana toda: o jogo foi adiado.\" Os dois-pontos indicam:",
+            "alternativas": [
+              "uma fala",
+              "uma enumeração",
+              "uma pergunta",
+              "uma consequência"
+            ],
+            "correta": 3,
+            "explicacao": "O jogo foi adiado por causa da chuva.",
+            "dica": "Qual é a relação entre as duas partes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Escolha a melhor pontuação: \"Ela estudou muito___ não conseguiu a vaga, porém.\"",
+            "alternativas": [
+              "ponto e vírgula",
+              "dois-pontos",
+              "parênteses",
+              "travessão"
+            ],
+            "correta": 0,
+            "explicacao": "Com o conectivo deslocado para o fim, o ponto e vírgula separa as orações.",
+            "dica": "O porém está deslocado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase a letra maiúscula depois dos dois-pontos está correta?",
+            "alternativas": [
+              "Levei tudo: Caderno e lápis.",
+              "Ele gritou: — Fogo!",
+              "O motivo era simples: Cansaço.",
+              "Choveu: O jogo parou."
+            ],
+            "correta": 1,
+            "explicacao": "Depois dos dois-pontos, maiúscula só em fala, citação ou nome próprio.",
+            "dica": "Quando vem fala, muda a regra."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do sinal que mais integra o trecho ao que mais o afasta da frase.",
+            "itens": [
+              "Vírgula",
+              "Travessão",
+              "Parênteses"
+            ],
+            "explicacao": "A vírgula integra, o travessão destaca e os parênteses afastam.",
+            "dica": "Releia o último parágrafo da lição."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa lista de tarefas com itens que já têm vírgula, qual sinal separa os itens?",
+            "alternativas": [
+              "vírgula",
+              "ponto e vírgula",
+              "dois-pontos",
+              "parênteses"
+            ],
+            "correta": 1,
+            "explicacao": "\"Levar arroz, feijão e óleo; pagar a luz, a água e o gás; buscar o irmão.\" Itens com vírgula pedem ponto e vírgula entre eles.",
+            "dica": "Se os itens já têm vírgula, é preciso uma pausa maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alternativa tem TODOS os sinais bem usados?",
+            "alternativas": [
+              "Comprei: (pão) e leite; fui embora.",
+              "Minha irmã; que é médica: trabalha à noite.",
+              "— Chego às 8h, disse ele — (talvez).",
+              "Precisava de três coisas: tempo, dinheiro e paciência; tinha só a última."
+            ],
+            "correta": 3,
+            "explicacao": "Dois-pontos antes da enumeração e ponto e vírgula separando a conclusão.",
+            "dica": "Confira cada sinal de cada alternativa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Troque as vírgulas por um sinal que DESTAQUE mais o trecho: \"O professor, emocionado, agradeceu.\"",
+            "alternativas": [
+              "O professor — emocionado — agradeceu.",
+              "O professor: emocionado: agradeceu.",
+              "O professor; emocionado; agradeceu.",
+              "O professor emocionado agradeceu."
+            ],
+            "correta": 0,
+            "explicacao": "O travessão destaca mais que a vírgula.",
+            "dica": "Qual sinal destaca?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ele tinha um sonho: ser técnico em enfermagem\", o que aconteceria trocando os dois-pontos por ponto e vírgula?",
+            "alternativas": [
+              "Nada mudaria",
+              "A frase ficaria mais clara",
+              "A relação de explicação se perderia",
+              "Viraria um diálogo"
+            ],
+            "correta": 2,
+            "explicacao": "Os dois-pontos anunciam qual era o sonho; o ponto e vírgula só separaria as partes.",
+            "dica": "O que os dois-pontos anunciam aqui?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa parênteses e travessão cada um na sua função?",
+            "alternativas": [
+              "— Volto já (disse ela) — e saiu.",
+              "(Volto já) — disse ela.",
+              "— Volto já — disse ela (era meio-dia) — e saiu.",
+              "— Volto já — disse ela, (saiu)."
+            ],
+            "correta": 2,
+            "explicacao": "O travessão marca fala e narrador; os parênteses trazem um comentário extra.",
+            "dica": "Separe o que é fala, o que é narrador e o que é comentário."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O repolho roxo que mudava de cor",
+    "texto": "Você sabia que um repolho roxo pode funcionar como um pequeno laboratório de química? O segredo está nas antocianinas, substâncias que dão a cor arroxeada à folha. Elas mudam de cor conforme o líquido em que estão é ácido, neutro ou básico. Em outras palavras, o repolho roxo é um indicador de pH natural.\n\nPara fazer o teste em casa, com um adulto por perto, pique algumas folhas de repolho roxo, coloque numa vasilha e cubra com água quente. Espere uns vinte minutos e coe. O líquido roxo que sobra é o seu indicador.\n\nAgora separe alguns copos transparentes e coloque um pouco de líquido diferente em cada um: suco de limão, vinagre, água da torneira, água com bicarbonato de sódio e água com sabão. Pingue um pouco do indicador em cada copo e observe.\n\nNo limão e no vinagre, que são ácidos, a cor fica vermelha ou rosada. Na água, que é quase neutra, o roxo continua roxo. No bicarbonato, que é levemente básico, a cor puxa para o azul ou o verde-azulado. Na água com sabão, mais básica, aparece um verde mais forte. Em soluções muito básicas, a cor pode chegar ao amarelo.\n\nO experimento mostra, de um jeito simples, a escala de pH que os químicos usam: de 0 a 14, com o 7 no meio. Quanto mais longe do 7, mais forte é o ácido ou a base.\n\nUm cuidado importante: nunca use produtos de limpeza fortes, como água sanitária ou desentupidor, nesse teste. Eles podem causar queimaduras e liberar gases perigosos. A ciência de cozinha é ótima, mas a segurança vem primeiro."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, imagine que daqui a três anos você vai disputar uma vaga de estágio e escreva que tipo de conteúdo gostaria que o recrutador encontrasse sobre você na internet e o que pode começar a fazer hoje para isso."
+  }
+}

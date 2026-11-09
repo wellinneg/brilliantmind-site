@@ -1,0 +1,1494 @@
+{
+  "dia": 34,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Comparar e ordenar frações",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Comparar frações é descobrir qual representa a parte maior. Há três situações.",
+          "1ª: denominadores iguais. A maior é a que tem o maior numerador, porque as partes têm o mesmo tamanho e pegamos mais delas: 5/8 é maior que 3/8.",
+          "2ª: numeradores iguais. A maior é a que tem o MENOR denominador, porque o inteiro foi dividido em menos partes e cada pedaço é maior: 1/3 é maior que 1/5 (um terço de pizza é maior que um quinto).",
+          "3ª: tudo diferente. Transformamos as frações em equivalentes com o mesmo denominador e comparamos os numeradores. Para 2/3 e 3/4, usamos 12: 2/3 = 8/12 e 3/4 = 9/12. Então 3/4 é maior.",
+          "Ordem crescente vai da menor para a maior; ordem decrescente, da maior para a menor."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quem comeu mais pizza: Tiago, que comeu 3/8, ou Nina, que comeu 1/4?",
+            "resolucao": "1/4 = 2/8. Como 3/8 é maior que 2/8, Tiago comeu mais."
+          },
+          {
+            "enunciado": "Coloque em ordem crescente: 1/2, 1/8, 1/4.",
+            "resolucao": "Numeradores iguais: menor denominador, maior fração. Ordem crescente: 1/8, 1/4, 1/2."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um atalho é comparar com a metade (1/2). 4/9 é menor que a metade (metade de 9 é 4,5) e 5/8 é maior que a metade (metade de 8 é 4). Logo, 5/8 é maior que 4/9.",
+        "Outro atalho é a multiplicação cruzada: para comparar 5/7 e 7/10, faça 5 × 10 = 50 e 7 × 7 = 49. Como 50 é maior, 5/7 é a maior fração. (É o mesmo que usar o denominador 70: 50/70 e 49/70.)",
+        "Entre duas frações sempre cabem outras. Entre 2/5 e 1/2, usando denominador 20, temos 8/20 e 10/20; no meio está 9/20."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é maior: 3/8 ou 5/8?",
+            "alternativas": [
+              "3/8",
+              "5/8",
+              "São iguais",
+              "Não dá para saber"
+            ],
+            "correta": 1,
+            "explicacao": "Mesmo denominador: 5 partes é mais que 3 partes.",
+            "dica": "As partes têm o mesmo tamanho. Quem pegou mais partes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é maior: 1/2 ou 1/4 de uma pizza?",
+            "alternativas": [
+              "1/2",
+              "1/4",
+              "São iguais",
+              "Depende do sabor"
+            ],
+            "correta": 0,
+            "explicacao": "Dividir em 2 dá pedaços maiores que dividir em 4.",
+            "dica": "Em quantos pedaços a pizza foi cortada em cada caso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com denominadores iguais, a fração maior é a que tem:",
+            "alternativas": [
+              "o menor numerador",
+              "o denominador maior",
+              "o maior numerador",
+              "o número mais bonito"
+            ],
+            "correta": 2,
+            "explicacao": "Partes do mesmo tamanho: ganha quem tem mais partes.",
+            "dica": "Releia a 1ª situação da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é maior: 1/3 ou 1/5?",
+            "alternativas": [
+              "1/5",
+              "São iguais",
+              "Nenhuma",
+              "1/3"
+            ],
+            "correta": 3,
+            "explicacao": "Dividir em 3 dá pedaços maiores que dividir em 5.",
+            "dica": "Numeradores iguais: olhe em quantas partes o inteiro foi dividido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é maior: 7/10 ou 3/10?",
+            "alternativas": [
+              "7/10",
+              "3/10",
+              "São iguais",
+              "Não dá para saber"
+            ],
+            "correta": 0,
+            "explicacao": "Mesmo denominador: 7 partes é mais que 3.",
+            "dica": "Compare só os números de cima."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é maior: 2/3 ou 3/4?",
+            "alternativas": [
+              "2/3",
+              "São iguais",
+              "3/4",
+              "Não dá para comparar"
+            ],
+            "correta": 2,
+            "explicacao": "2/3 = 8/12 e 3/4 = 9/12.",
+            "dica": "Transforme as duas em doze avos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é maior: 3/5 ou 7/10?",
+            "alternativas": [
+              "3/5",
+              "7/10",
+              "São iguais",
+              "Nenhuma"
+            ],
+            "correta": 1,
+            "explicacao": "3/5 = 6/10, que é menor que 7/10.",
+            "dica": "Transforme 3/5 em décimos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Tiago comeu 3/8 de uma pizza e Nina comeu 1/4. Quem comeu mais?",
+            "alternativas": [
+              "Nina",
+              "Os dois igual",
+              "Ninguém",
+              "Tiago"
+            ],
+            "correta": 3,
+            "explicacao": "1/4 = 2/8; 3/8 é maior.",
+            "dica": "Escreva 1/4 em oitavos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é maior: 5/6 ou 7/12?",
+            "alternativas": [
+              "5/6",
+              "7/12",
+              "São iguais",
+              "Não dá para saber"
+            ],
+            "correta": 0,
+            "explicacao": "5/6 = 10/12, que é maior que 7/12.",
+            "dica": "Passe 5/6 para doze avos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente (da menor para a maior):",
+            "itens": [
+              "1/8",
+              "1/4",
+              "1/2",
+              "1"
+            ],
+            "explicacao": "Numeradores iguais: quanto menor o denominador, maior a fração; e 1 é o inteiro.",
+            "dica": "Quanto mais partes, menor cada pedaço."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração está entre 1/2 e 1?",
+            "alternativas": [
+              "1/3",
+              "2/5",
+              "1/4",
+              "3/4"
+            ],
+            "correta": 3,
+            "explicacao": "3/4 é maior que a metade e menor que o inteiro. As outras são menores que 1/2.",
+            "dica": "Procure a única fração maior que a metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana leu 2/5 de um livro e Beto leu 3/8 do mesmo livro. Quem leu mais?",
+            "alternativas": [
+              "Beto",
+              "Ana",
+              "Leram igual",
+              "Não dá para saber"
+            ],
+            "correta": 1,
+            "explicacao": "2/5 = 16/40 e 3/8 = 15/40. Ana leu mais.",
+            "dica": "Use 40 como denominador comum."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem decrescente de 2/3, 1/2 e 5/6?",
+            "alternativas": [
+              "1/2, 2/3, 5/6",
+              "2/3, 5/6, 1/2",
+              "5/6, 2/3, 1/2",
+              "5/6, 1/2, 2/3"
+            ],
+            "correta": 2,
+            "explicacao": "Em sextos: 4/6, 3/6 e 5/6. Do maior para o menor: 5/6, 2/3, 1/2.",
+            "dica": "Passe todas para sextos; decrescente começa pela maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é menor: 4/9 ou 1/2?",
+            "alternativas": [
+              "4/9",
+              "1/2",
+              "São iguais",
+              "Não dá para saber"
+            ],
+            "correta": 0,
+            "explicacao": "Metade de 9 é 4,5; 4 é menos que 4,5. Logo 4/9 é menor que 1/2.",
+            "dica": "Compare 4/9 com a metade de 9."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que se pode dizer de 3/4 e 6/8?",
+            "alternativas": [
+              "3/4 é maior",
+              "6/8 é maior",
+              "São iguais",
+              "6/8 é a metade de 3/4"
+            ],
+            "correta": 2,
+            "explicacao": "3/4 = 6/8 (multiplicando em cima e embaixo por 2). São equivalentes.",
+            "dica": "Multiplique em cima e embaixo de 3/4 pelo mesmo número."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente: 3/4, 2/3, 5/8, 7/12.",
+            "itens": [
+              "7/12",
+              "5/8",
+              "2/3",
+              "3/4"
+            ],
+            "explicacao": "Em vinte e quatro avos: 7/12 = 14/24; 5/8 = 15/24; 2/3 = 16/24; 3/4 = 18/24.",
+            "dica": "Use 24 como denominador comum."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas frações com denominador 12 ficam ENTRE 1/3 e 3/4, sem contar as pontas?",
+            "alternativas": [
+              "5",
+              "3",
+              "6",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "1/3 = 4/12 e 3/4 = 9/12. Entre elas: 5/12, 6/12, 7/12 e 8/12.",
+            "dica": "Escreva as duas pontas em doze avos e conte o que fica no meio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela multiplicação cruzada, qual é maior: 5/7 ou 7/10?",
+            "alternativas": [
+              "7/10",
+              "5/7",
+              "São iguais",
+              "Não dá para saber"
+            ],
+            "correta": 1,
+            "explicacao": "5 × 10 = 50 e 7 × 7 = 49. Como 50 > 49, 5/7 é maior.",
+            "dica": "Multiplique o numerador de uma pelo denominador da outra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração está entre 2/5 e 1/2?",
+            "alternativas": [
+              "9/20",
+              "3/10",
+              "11/20",
+              "1/4"
+            ],
+            "correta": 0,
+            "explicacao": "2/5 = 8/20 e 1/2 = 10/20; 9/20 fica no meio.",
+            "dica": "Passe as duas para vinte avos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa turma há 20 meninos e 24 meninas. 3/5 dos meninos e 5/8 das meninas gostam de vôlei. Qual afirmação está certa?",
+            "alternativas": [
+              "A fração dos meninos é maior e são 15 meninos",
+              "As frações são iguais",
+              "A fração das meninas é maior: 15 meninas contra 12 meninos",
+              "A fração dos meninos é maior: 12 meninos contra 15 meninas"
+            ],
+            "correta": 2,
+            "explicacao": "3/5 = 24/40 e 5/8 = 25/40: a das meninas é maior. 3/5 de 20 = 12; 5/8 de 24 = 15.",
+            "dica": "Compare as frações e depois calcule cada quantidade."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Entrada e saída: perguntar e responder",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Todo programa conversa com o usuário. A entrada é o que o programa recebe: o que a pessoa digita, toca, fala ou o que um sensor mede. A saída é o que o programa devolve: texto na tela, som, vibração, impressão.",
+          "Entre a entrada e a saída fica o processamento: as contas e decisões que o programa faz com os dados.",
+          "Em pseudocódigo: nome = perguntar(\"Qual é o seu nome?\") guarda a resposta na variável nome. Depois, mostrar(\"Olá, \" + nome) é a saída.",
+          "Exemplos de dispositivos: de entrada, teclado, mouse, microfone, câmera e tela de toque; de saída, monitor, alto-falante e impressora. A tela de toque é as duas coisas ao mesmo tempo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "nome = perguntar(\"Qual é o seu nome?\"). O usuário digita Bruna. Depois: mostrar(\"Oi, \" + nome + \"!\"). O que aparece?",
+            "resolucao": "Oi, Bruna!"
+          },
+          {
+            "enunciado": "idade = número(perguntar(\"Quantos anos você tem?\")). O usuário digita 11. Depois: mostrar(idade + 1). O que aparece?",
+            "resolucao": "12. A função número transforma o texto 11 em número, e 11 + 1 = 12."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Tudo o que o usuário digita chega como texto. Se o programa somar sem converter, pode juntar em vez de somar: \"4\" + \"6\" vira \"46\". Por isso usamos número( ) antes de fazer contas.",
+        "Um bom programa explica o que quer na pergunta (\"Digite sua idade em anos\") e confere a entrada: se a pessoa digitar letras onde deveria haver número, ele avisa e pergunta de novo.",
+        "Entrada, processamento e saída aparecem em tudo: no caixa do mercado (leitor de código, soma, cupom impresso) e no app de mapas (destino digitado, cálculo do caminho, voz dizendo onde virar)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o programa RECEBE do usuário se chama:",
+            "alternativas": [
+              "saída",
+              "entrada",
+              "impressora",
+              "tela"
+            ],
+            "correta": 1,
+            "explicacao": "Entrada é o que chega ao programa.",
+            "dica": "Pense em algo que entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um dispositivo de SAÍDA?",
+            "alternativas": [
+              "Alto-falante",
+              "Teclado",
+              "Microfone",
+              "Mouse"
+            ],
+            "correta": 0,
+            "explicacao": "O alto-falante devolve som para a pessoa.",
+            "dica": "Qual deles devolve algo para você?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um dispositivo de ENTRADA?",
+            "alternativas": [
+              "Monitor",
+              "Impressora",
+              "Teclado",
+              "Alto-falante"
+            ],
+            "correta": 2,
+            "explicacao": "Pelo teclado a pessoa manda dados para o computador.",
+            "dica": "Por qual deles você digita?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nome = perguntar(\"Seu nome?\"). O usuário digita Leo. mostrar(\"Olá, \" + nome). O que aparece?",
+            "alternativas": [
+              "Olá, nome",
+              "Leo, olá",
+              "Olá",
+              "Olá, Leo"
+            ],
+            "correta": 3,
+            "explicacao": "A variável nome guardou Leo.",
+            "dica": "Troque a variável pelo que foi digitado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fica entre a entrada e a saída?",
+            "alternativas": [
+              "O processamento",
+              "A tomada",
+              "O cabo",
+              "A bateria"
+            ],
+            "correta": 0,
+            "explicacao": "Processamento são as contas e decisões feitas com os dados.",
+            "dica": "É a parte que pensa e calcula."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "idade = número(perguntar(\"Idade?\")). O usuário digita 11. mostrar(idade + 1). O que aparece?",
+            "alternativas": [
+              "111",
+              "12",
+              "11",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "11 + 1 = 12.",
+            "dica": "A idade já foi transformada em número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A tela de toque do celular é dispositivo de:",
+            "alternativas": [
+              "só entrada",
+              "só saída",
+              "entrada e saída",
+              "nenhum dos dois"
+            ],
+            "correta": 2,
+            "explicacao": "Ela recebe toques e mostra imagens.",
+            "dica": "Ela recebe o seu dedo e também mostra coisas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = número(perguntar(\"Número?\")). O usuário digita 7. mostrar(a × 3). O que aparece?",
+            "alternativas": [
+              "73",
+              "10",
+              "7",
+              "21"
+            ],
+            "correta": 3,
+            "explicacao": "7 × 3 = 21.",
+            "dica": "Faça a conta com o número digitado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No caixa do mercado, o leitor que lê o código de barras é:",
+            "alternativas": [
+              "entrada",
+              "saída",
+              "processamento",
+              "impressora"
+            ],
+            "correta": 0,
+            "explicacao": "Ele manda o código do produto para o sistema.",
+            "dica": "Ele recebe ou devolve informação?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que acontece num programa de boas-vindas:",
+            "itens": [
+              "Mostrar a pergunta \"Qual é o seu nome?\"",
+              "O usuário digita o nome",
+              "O programa guarda o nome na variável",
+              "Mostrar \"Olá\" com o nome"
+            ],
+            "explicacao": "Pergunta, entrada, guardar (processar) e saída.",
+            "dica": "A saída final usa o que foi digitado."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x = perguntar(\"Número?\") (sem converter). O usuário digita 4. Depois: mostrar(x + \"6\"). O que aparece?",
+            "alternativas": [
+              "10",
+              "46",
+              "4",
+              "Erro sempre"
+            ],
+            "correta": 1,
+            "explicacao": "Sem converter, é texto: \"4\" + \"6\" junta e vira \"46\".",
+            "dica": "O que acontece quando juntamos dois textos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No app de mapas, qual parte é a SAÍDA?",
+            "alternativas": [
+              "O destino digitado",
+              "O GPS medindo onde você está",
+              "A voz dizendo onde virar",
+              "O cálculo do caminho"
+            ],
+            "correta": 2,
+            "explicacao": "A voz devolve a informação para a pessoa.",
+            "dica": "Qual parte chega até os seus ouvidos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "preco = número(perguntar(\"Preço?\")). qtd = número(perguntar(\"Quantidade?\")). O usuário digita 5 e 4. mostrar(preco × qtd). O que aparece?",
+            "alternativas": [
+              "9",
+              "54",
+              "45",
+              "20"
+            ],
+            "correta": 3,
+            "explicacao": "5 × 4 = 20.",
+            "dica": "Multiplique os dois números digitados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa pede a idade e a pessoa digita \"doze\". O que um bom programa deve fazer?",
+            "alternativas": [
+              "Avisar que precisa de número e perguntar de novo",
+              "Travar",
+              "Inventar uma idade",
+              "Desligar o computador"
+            ],
+            "correta": 0,
+            "explicacao": "Conferir a entrada evita erros nas contas.",
+            "dica": "Ele deve tratar o erro com educação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No caixa do mercado, o que é processamento?",
+            "alternativas": [
+              "O cupom impresso",
+              "Somar os preços dos produtos",
+              "O leitor de código",
+              "A sacola"
+            ],
+            "correta": 1,
+            "explicacao": "Somar é a conta feita com os dados de entrada.",
+            "dica": "Qual parte faz a conta?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "a = número(perguntar(\"A?\")); b = número(perguntar(\"B?\")). O usuário digita 4 e 6. mostrar(a × b − a). O que aparece?",
+            "alternativas": [
+              "24",
+              "46",
+              "20",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "4 × 6 = 24; 24 − 4 = 20.",
+            "dica": "Multiplicação antes da subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O programa faz mostrar(perguntar(\"A?\") + perguntar(\"B?\")) sem converter. O usuário digita 12 e 3. O que aparece?",
+            "alternativas": [
+              "15",
+              "36",
+              "9",
+              "123"
+            ],
+            "correta": 3,
+            "explicacao": "Sem número( ), os textos se juntam: \"12\" + \"3\" = \"123\".",
+            "dica": "Os valores foram convertidos em número?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "n = número(perguntar(\"Nota?\")). se n >= 6, mostrar(\"Passou\"), senão mostrar(\"Recuperação\"). Quais entradas mostram \"Passou\"?",
+            "alternativas": [
+              "6, 7,5 e 10",
+              "5, 6 e 7",
+              "Só 10",
+              "0, 3 e 5"
+            ],
+            "correta": 0,
+            "explicacao": "Maior ou igual a 6 passa: 6, 7,5 e 10.",
+            "dica": "O 6 entra ou não?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num jogo, o jogador aperta um botão e o celular vibra. O que é entrada e o que é saída?",
+            "alternativas": [
+              "Vibrar é entrada; botão é saída",
+              "Botão é entrada; vibração é saída",
+              "Os dois são entrada",
+              "Os dois são saída"
+            ],
+            "correta": 1,
+            "explicacao": "O toque entra; a vibração volta para o jogador.",
+            "dica": "O que vai do jogador para o celular?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0. Repita 3 vezes: v = número(perguntar(\"Valor?\")); total = total + v. O usuário digita 5, 8 e 2. Depois mostrar(total). O que aparece?",
+            "alternativas": [
+              "582",
+              "2",
+              "15",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "0 + 5 + 8 + 2 = 15.",
+            "dica": "A cada repetição, o valor digitado é somado ao total."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Estilos de título no Word",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Estilo é um conjunto de formatação pronta: fonte, tamanho, cor e espaçamento. No Word, os estilos ficam na guia Página Inicial, no grupo Estilos.",
+          "Os mais usados são: Normal (para o texto comum), Título 1 (para os títulos principais, como capítulos) e Título 2 (para as partes dentro de cada capítulo).",
+          "Para usar, clique na linha do título e escolha o estilo. Em vez de mudar fonte, tamanho e cor um por um, tudo é aplicado com um clique só.",
+          "A grande vantagem: se você mudar o estilo, todos os títulos com aquele estilo mudam juntos. O trabalho fica padronizado e bonito."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Num trabalho sobre animais, quais estilos usar em \"Mamíferos\", \"Cachorro\" e no texto sobre o cachorro?",
+            "resolucao": "\"Mamíferos\" é o assunto principal: Título 1. \"Cachorro\" é uma parte dele: Título 2. O texto explicativo: Normal."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Usando estilos de título, o Word entende a estrutura do documento. Na guia Exibir, ao marcar Painel de Navegação, aparece uma lista com todos os títulos; clicando num deles, você vai direto para aquela parte.",
+        "Os estilos também permitem criar um sumário automático (guia Referências), que lista os títulos com o número da página. Sem estilos, o Word não sabe o que é título.",
+        "Para mudar um estilo de uma vez, clique com o botão direito no estilo e escolha Modificar. Trocar a cor do Título 1 para azul muda todos os títulos 1 do documento."
+      ],
+      "desafio_pratico": "Abra o Word no celular ou no PC e crie um trabalho chamado \"Meu bairro\". Escreva três títulos principais: \"Lugares\", \"Pessoas\" e \"Problemas e ideias\". Dentro de \"Lugares\", escreva dois subtítulos (por exemplo, \"A praça\" e \"A escola\") e, embaixo de cada subtítulo, duas linhas de texto. Aplique Título 1 nos títulos principais, Título 2 nos subtítulos e Normal no texto. Depois ligue o Painel de Navegação (guia Exibir) e clique nos títulos para pular entre as partes. Por fim, clique com o botão direito em Título 1, escolha Modificar e troque a cor: veja todos os títulos mudarem juntos.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia ficam os estilos no Word?",
+            "alternativas": [
+              "Inserir",
+              "Página Inicial",
+              "Revisão",
+              "Exibir"
+            ],
+            "correta": 1,
+            "explicacao": "Os estilos ficam na guia Página Inicial.",
+            "dica": "É a primeira guia, a que abre quando você inicia o Word."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual estilo é usado no texto comum?",
+            "alternativas": [
+              "Normal",
+              "Título 1",
+              "Título 2",
+              "Sumário"
+            ],
+            "correta": 0,
+            "explicacao": "O texto corrido usa o estilo Normal.",
+            "dica": "É o estilo padrão de quem não é título."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual estilo é usado nos títulos principais?",
+            "alternativas": [
+              "Normal",
+              "Título 2",
+              "Título 1",
+              "Citação"
+            ],
+            "correta": 2,
+            "explicacao": "Título 1 é para os títulos principais.",
+            "dica": "O mais importante leva o número 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um estilo?",
+            "alternativas": [
+              "Uma imagem",
+              "Um tipo de tabela",
+              "Um erro de digitação",
+              "Formatação pronta aplicada com um clique"
+            ],
+            "correta": 3,
+            "explicacao": "Estilo junta fonte, tamanho, cor e espaçamento.",
+            "dica": "Releia a primeira frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se você mudar o estilo Título 1, o que acontece?",
+            "alternativas": [
+              "Todos os títulos 1 mudam juntos",
+              "Só o primeiro muda",
+              "Nada muda",
+              "O texto é apagado"
+            ],
+            "correta": 0,
+            "explicacao": "Essa é a grande vantagem dos estilos.",
+            "dica": "Releia a última frase da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num trabalho, \"Mamíferos\" é o assunto principal e \"Cachorro\" é uma parte dele. Qual estilo usar em \"Cachorro\"?",
+            "alternativas": [
+              "Título 1",
+              "Título 2",
+              "Normal",
+              "Nenhum"
+            ],
+            "correta": 1,
+            "explicacao": "Uma parte dentro do assunto principal usa Título 2.",
+            "dica": "É um subtítulo dentro do capítulo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se liga o Painel de Navegação?",
+            "alternativas": [
+              "Página Inicial",
+              "Inserir",
+              "Exibir",
+              "Desenhar"
+            ],
+            "correta": 2,
+            "explicacao": "Na guia Exibir, marque Painel de Navegação.",
+            "dica": "É a guia que muda o modo de ver o documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o Painel de Navegação?",
+            "alternativas": [
+              "Para imprimir",
+              "Para mudar a cor da página",
+              "Para corrigir a ortografia",
+              "Para pular direto para um título"
+            ],
+            "correta": 3,
+            "explicacao": "Ele lista os títulos; clicando, você vai até aquela parte.",
+            "dica": "Pense num mapa do documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é melhor usar estilos do que formatar cada título na mão?",
+            "alternativas": [
+              "Porque padroniza e muda tudo de uma vez",
+              "Porque deixa o arquivo sem texto",
+              "Porque o Word fica mais lento",
+              "Porque esconde os títulos"
+            ],
+            "correta": 0,
+            "explicacao": "Um clique aplica tudo, e mudanças valem para todos.",
+            "dica": "Pense em um trabalho com 20 títulos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para aplicar o Título 1:",
+            "itens": [
+              "Escrever o título",
+              "Clicar na linha do título",
+              "Ir à guia Página Inicial",
+              "Clicar em Título 1 no grupo Estilos"
+            ],
+            "explicacao": "Primeiro o texto e o clique na linha; depois a guia e o estilo.",
+            "dica": "O estilo é o último clique."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como mudar a cor de TODOS os títulos 1 de uma vez?",
+            "alternativas": [
+              "Pintar um por um",
+              "Botão direito no estilo Título 1 e escolher Modificar",
+              "Apagar e escrever de novo",
+              "Mudar a cor da página"
+            ],
+            "correta": 1,
+            "explicacao": "Modificar o estilo muda todos os títulos que o usam.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o Word fazer um sumário automático, os títulos precisam:",
+            "alternativas": [
+              "estar em negrito",
+              "ser bem grandes",
+              "estar com estilos de título",
+              "estar sublinhados"
+            ],
+            "correta": 2,
+            "explicacao": "Sem estilos, o Word não sabe o que é título.",
+            "dica": "O Word reconhece títulos pela formatação manual ou pelo estilo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana deixou seus títulos grandes e em negrito, mas eles não aparecem no Painel de Navegação. Por quê?",
+            "alternativas": [
+              "O Word estragou",
+              "Ela precisa imprimir antes",
+              "Faltou salvar em PDF",
+              "Ela não usou estilos de título"
+            ],
+            "correta": 3,
+            "explicacao": "Só os títulos com estilo aparecem no painel.",
+            "dica": "Aparência não é o mesmo que estilo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num trabalho sobre o Brasil, como organizar \"Região Sudeste\", \"São Paulo\" e o texto sobre São Paulo?",
+            "alternativas": [
+              "Título 1, Título 2 e Normal",
+              "Título 2, Título 1 e Normal",
+              "Normal, Título 1 e Título 2",
+              "Tudo em Título 1"
+            ],
+            "correta": 0,
+            "explicacao": "Região é o assunto principal; o estado é parte dela; o texto é Normal.",
+            "dica": "Do maior para o menor assunto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia fica o sumário automático?",
+            "alternativas": [
+              "Página Inicial",
+              "Referências",
+              "Desenhar",
+              "Exibir"
+            ],
+            "correta": 1,
+            "explicacao": "O sumário fica na guia Referências.",
+            "dica": "É a guia usada para trabalhos com fontes e notas."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trabalho tem 3 capítulos, e cada capítulo tem 2 partes. Quantos Título 1 e quantos Título 2 ele tem?",
+            "alternativas": [
+              "2 e 3",
+              "3 e 3",
+              "3 e 6",
+              "6 e 3"
+            ],
+            "correta": 2,
+            "explicacao": "3 capítulos (Título 1); 3 × 2 = 6 partes (Título 2).",
+            "dica": "Cada capítulo tem duas partes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro mudou a fonte do Título 2 pelo Modificar. O que acontece com o texto Normal?",
+            "alternativas": [
+              "Muda junto",
+              "Vira Título 2",
+              "Some",
+              "Nada, só os títulos 2 mudam"
+            ],
+            "correta": 3,
+            "explicacao": "Cada estilo é independente: só o que usa Título 2 muda.",
+            "dica": "O texto Normal usa o estilo Título 2?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem certa para montar um trabalho com sumário?",
+            "alternativas": [
+              "Escrever, aplicar os estilos de título e inserir o sumário",
+              "Inserir o sumário e depois apagar os títulos",
+              "Imprimir e depois aplicar os estilos",
+              "Aplicar Normal em tudo e inserir o sumário"
+            ],
+            "correta": 0,
+            "explicacao": "O sumário depende dos estilos de título aplicados.",
+            "dica": "Sem estilos, o sumário encontra títulos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia colocou o título de um capítulo como Título 2 e uma parte dele como Título 1. O que acontece no Painel de Navegação?",
+            "alternativas": [
+              "Nada muda",
+              "A organização fica invertida: a parte aparece acima do capítulo",
+              "O texto some",
+              "O Word corrige sozinho"
+            ],
+            "correta": 1,
+            "explicacao": "O painel segue a hierarquia dos estilos: Título 1 fica acima do Título 2.",
+            "dica": "O painel obedece aos números dos estilos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual vantagem dos estilos ajuda MAIS num trabalho de 30 páginas?",
+            "alternativas": [
+              "Deixar o texto colorido",
+              "Gastar menos tinta",
+              "Navegar pelos títulos e gerar sumário",
+              "Mudar o tamanho da página"
+            ],
+            "correta": 2,
+            "explicacao": "Em textos longos, achar as partes e ter sumário economiza muito tempo.",
+            "dica": "Pense em achar uma parte no meio de 30 páginas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Atendimento ao cliente e como lidar com reclamação",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O cliente é quem mantém o negócio vivo. Um bom atendimento faz a pessoa voltar e ainda indicar para os amigos. Um atendimento ruim faz ela sumir e falar mal.",
+          "Quando chega uma reclamação, siga quatro passos: 1º ouvir sem interromper; 2º pedir desculpas pelo problema; 3º resolver (trocar, consertar ou devolver o dinheiro); 4º agradecer o aviso.",
+          "A reclamação é um presente: mostra o que precisa melhorar. Muitos clientes insatisfeitos não reclamam, só vão embora. Quem reclama está dando uma chance.",
+          "Quem tem equipe precisa ensinar todos a atender bem e dar a eles autonomia para resolver problemas simples. E a equipe também merece respeito: quem é bem tratado trata bem o cliente."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma cliente reclama que o pastel veio sem recheio. O que o pasteleiro deve fazer?",
+            "resolucao": "Ouvir, pedir desculpas, fazer outro pastel na hora, sem cobrar, e agradecer o aviso. Depois, conferir por que isso aconteceu."
+          },
+          {
+            "enunciado": "Dona Rose compra R$ 20 por semana na barraca. Quanto ela gasta em um ano? E se for embora por causa de um mau atendimento?",
+            "resolucao": "Um ano tem 52 semanas: 52 × 20 = R$ 1.040. Se ela for embora, o negócio perde esse valor por ano, e talvez outros clientes que ela levaria."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O Código de Defesa do Consumidor (CDC) protege quem compra. Produto com defeito precisa ser resolvido pelo fornecedor, e o cliente tem prazo para reclamar: 30 dias para produtos que acabam logo (como comida) e 90 dias para produtos duráveis (como uma panela ou um celular). Atender bem é também cumprir a lei.",
+        "Discutir com o cliente, mesmo que ele esteja errado, quase sempre custa caro. Mantenha a calma, explique com educação e procure uma solução que seja justa para os dois lados.",
+        "Anote as reclamações. Se cinco pessoas reclamam do mesmo problema, não é azar: é algo para mudar no processo. Corrigir a causa vale mais do que corrigir cada caso."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o 1º passo quando um cliente reclama?",
+            "alternativas": [
+              "Ouvir sem interromper",
+              "Discutir",
+              "Ir embora",
+              "Rir"
+            ],
+            "correta": 0,
+            "explicacao": "Ouvir com atenção é o começo de tudo.",
+            "dica": "Antes de resolver, é preciso entender."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um bom atendimento faz o cliente:",
+            "alternativas": [
+              "sumir",
+              "voltar e indicar para os amigos",
+              "reclamar mais",
+              "pagar mais caro"
+            ],
+            "correta": 1,
+            "explicacao": "Cliente bem atendido volta e indica.",
+            "dica": "O que você faz quando é bem atendido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de resolver o problema, o que fazer?",
+            "alternativas": [
+              "Cobrar uma multa",
+              "Fingir que nada aconteceu",
+              "Agradecer o aviso",
+              "Brigar"
+            ],
+            "correta": 2,
+            "explicacao": "O 4º passo é agradecer: a reclamação ajudou a melhorar.",
+            "dica": "Lembre os quatro passos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a reclamação é um presente?",
+            "alternativas": [
+              "Porque vem embrulhada",
+              "Porque o cliente paga mais",
+              "Porque obriga a fechar",
+              "Porque mostra o que precisa melhorar"
+            ],
+            "correta": 3,
+            "explicacao": "Ela aponta o que corrigir.",
+            "dica": "O que o negócio aprende com ela?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para a equipe atender bem, o dono deve:",
+            "alternativas": [
+              "ensinar e tratar a equipe com respeito",
+              "gritar com todos",
+              "não explicar nada",
+              "proibir sorrisos"
+            ],
+            "correta": 0,
+            "explicacao": "Equipe treinada e respeitada atende melhor.",
+            "dica": "Quem é bem tratado costuma tratar bem os outros?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual passo vem logo depois de ouvir o cliente?",
+            "alternativas": [
+              "Agradecer",
+              "Pedir desculpas pelo problema",
+              "Cobrar",
+              "Discutir"
+            ],
+            "correta": 1,
+            "explicacao": "Ouvir, pedir desculpas, resolver e agradecer.",
+            "dica": "Releia os quatro passos da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Rose compra R$ 20 por semana. Quanto ela gasta em um ano (52 semanas)?",
+            "alternativas": [
+              "R$ 520",
+              "R$ 240",
+              "R$ 1.040",
+              "R$ 2.000"
+            ],
+            "correta": 2,
+            "explicacao": "52 × 20 = 1.040.",
+            "dica": "Multiplique o gasto da semana por 52."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual resposta é melhor para \"Meu suco veio quente\"?",
+            "alternativas": [
+              "Todo mundo toma assim.",
+              "Problema seu.",
+              "Não foi culpa minha.",
+              "Desculpe! Vou trocar agora por um gelado."
+            ],
+            "correta": 3,
+            "explicacao": "Pede desculpas e resolve na hora.",
+            "dica": "Procure a resposta com desculpas e solução."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que muitos clientes insatisfeitos são perigosos para o negócio?",
+            "alternativas": [
+              "Porque vão embora sem avisar e falam mal",
+              "Porque compram demais",
+              "Porque pagam adiantado",
+              "Porque elogiam"
+            ],
+            "correta": 0,
+            "explicacao": "Eles somem em silêncio, e o dono nem fica sabendo o motivo.",
+            "dica": "O que acontece com quem não reclama, mas não gostou?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para lidar com uma reclamação:",
+            "itens": [
+              "Ouvir sem interromper",
+              "Pedir desculpas pelo problema",
+              "Resolver: trocar, consertar ou devolver",
+              "Agradecer o aviso"
+            ],
+            "explicacao": "São os quatro passos da lição.",
+            "dica": "Agradecer é o último."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma panela comprada há 40 dias apresentou defeito. Pelo CDC, o cliente ainda pode reclamar?",
+            "alternativas": [
+              "Não, passou de 30 dias",
+              "Sim, porque produto durável tem 90 dias",
+              "Só se tiver sido presente",
+              "Só com advogado"
+            ],
+            "correta": 1,
+            "explicacao": "Panela é durável: o prazo de reclamação é de 90 dias.",
+            "dica": "Panela acaba logo ou dura muito?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cinco clientes reclamaram que o pastel chega frio. O que é mais inteligente?",
+            "alternativas": [
+              "Trocar só o pastel de quem reclamar",
+              "Ignorar, foi azar",
+              "Descobrir a causa e mudar o jeito de servir",
+              "Proibir reclamações"
+            ],
+            "correta": 2,
+            "explicacao": "Reclamação repetida mostra um problema no processo.",
+            "dica": "É azar ou é algo que se repete?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Trocar um pastel custa R$ 8 ao dono. A cliente fiel compra R$ 16 por semana. Quanto ela gasta em 10 semanas?",
+            "alternativas": [
+              "R$ 80",
+              "R$ 8",
+              "R$ 26",
+              "R$ 160"
+            ],
+            "correta": 3,
+            "explicacao": "10 × 16 = 160. Os R$ 8 da troca valem muito a pena.",
+            "dica": "Multiplique o gasto da semana por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário da barraca pode trocar um pastel com defeito sem chamar o dono. Isso é:",
+            "alternativas": [
+              "autonomia para resolver problemas simples",
+              "falta de controle",
+              "proibido por lei",
+              "um erro de gestão"
+            ],
+            "correta": 0,
+            "explicacao": "Dar autonomia agiliza o atendimento e mostra confiança na equipe.",
+            "dica": "Releia a parte sobre equipe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O cliente está errado e grita. Qual atitude é a melhor?",
+            "alternativas": [
+              "Gritar mais alto",
+              "Manter a calma, explicar com educação e buscar solução justa",
+              "Expulsar sem conversa",
+              "Postar o vídeo dele na internet"
+            ],
+            "correta": 1,
+            "explicacao": "Calma e educação resolvem; brigar custa caro.",
+            "dica": "Releia o aprofundamento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um iogurte comprado há 20 dias estava estragado ao abrir. E um celular comprado há 60 dias parou de funcionar. Pelos prazos do CDC, o que vale?",
+            "alternativas": [
+              "Só o iogurte pode ser reclamado",
+              "Nenhum pode",
+              "Os dois podem: 30 dias para o iogurte e 90 para o celular",
+              "Só o celular pode"
+            ],
+            "correta": 2,
+            "explicacao": "Não durável: 30 dias (20 está dentro). Durável: 90 dias (60 está dentro).",
+            "dica": "Classifique cada produto e compare com o prazo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma barraca tem 50 clientes fiéis que gastam R$ 15 por semana. Por mau atendimento, perde 4 deles. Quanto deixa de vender em 52 semanas?",
+            "alternativas": [
+              "R$ 60",
+              "R$ 780",
+              "R$ 1.560",
+              "R$ 3.120"
+            ],
+            "correta": 3,
+            "explicacao": "4 × 15 = 60 por semana; 60 × 52 = 3.120.",
+            "dica": "Ache a perda por semana e multiplique por 52."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual dono está aproveitando melhor a sua equipe, dentro da lei?",
+            "alternativas": [
+              "O que treina os funcionários, paga certo e deixa que resolvam problemas simples",
+              "O que faz todos trabalharem sem folga",
+              "O que não registra ninguém para gastar menos",
+              "O que grita para a equipe correr mais"
+            ],
+            "correta": 0,
+            "explicacao": "Liderar é ensinar, pagar o justo e confiar; explorar dá processo e perde bons funcionários.",
+            "dica": "Procure a opção que respeita as pessoas e as regras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que corrigir a CAUSA de uma reclamação vale mais do que só corrigir cada caso?",
+            "alternativas": [
+              "Porque fica mais caro",
+              "Porque evita que o problema aconteça de novo com outros clientes",
+              "Porque o cliente gosta de esperar",
+              "Porque a lei proíbe trocas"
+            ],
+            "correta": 1,
+            "explicacao": "Resolver a causa evita novas reclamações.",
+            "dica": "O que acontece amanhã se a causa continuar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja responde a reclamação em 1 dia e troca o produto. Outra demora 15 dias e discute. Qual efeito é mais provável?",
+            "alternativas": [
+              "As duas perdem igual",
+              "A segunda ganha mais clientes",
+              "A primeira ganha um cliente fiel; a segunda perde o cliente e a fama",
+              "Nenhuma diferença"
+            ],
+            "correta": 2,
+            "explicacao": "Rapidez e solução transformam reclamação em fidelidade.",
+            "dica": "Como você se sentiria em cada loja?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Conjunção: e, mas, porque, então",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Conjunção é a palavra que liga duas ideias ou duas orações. Ela mostra qual é a relação entre elas.",
+          "As mais comuns: e (soma ideias), mas (mostra oposição), porque (explica a causa), então (mostra a conclusão), ou (dá alternativa).",
+          "Exemplos: \"Estudei e passei\" (soma). \"Estudei, mas não passei\" (oposição). \"Passei porque estudei\" (causa). \"Estudei, então passei\" (conclusão).",
+          "Trocar a conjunção muda o sentido da frase. Por isso é importante escolher a certa."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Qual conjunção completa: \"Choveu muito, ___ o jogo foi adiado\"?",
+            "resolucao": "Então (ou por isso): a chuva levou à conclusão de adiar o jogo."
+          },
+          {
+            "enunciado": "Qual relação a conjunção mostra em \"Queria ir à festa, mas estava doente\"?",
+            "resolucao": "Oposição: o desejo de ir contra o fato de estar doente."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cada relação tem outras conjunções com o mesmo sentido: oposição (mas, porém, contudo, entretanto); causa (porque, pois, já que); conclusão (então, portanto, por isso, logo); alternativa (ou, ora... ora).",
+        "Também existem conjunções de tempo (quando: \"Saí quando parou de chover\") e de condição (se: \"Se chover, levo guarda-chuva\").",
+        "Antes de mas, porém e portanto costuma vir vírgula: \"Corri, mas perdi o ônibus\"."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conjunção soma ideias?",
+            "alternativas": [
+              "e",
+              "mas",
+              "porque",
+              "então"
+            ],
+            "correta": 0,
+            "explicacao": "E junta duas ideias: estudei e passei.",
+            "dica": "É a palavra mais curta da lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conjunção mostra oposição?",
+            "alternativas": [
+              "e",
+              "mas",
+              "ou",
+              "porque"
+            ],
+            "correta": 1,
+            "explicacao": "Mas mostra ideias contrárias.",
+            "dica": "Qual delas você usa para dizer \"porém\"?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Passei porque estudei\", porque mostra:",
+            "alternativas": [
+              "oposição",
+              "alternativa",
+              "causa",
+              "tempo"
+            ],
+            "correta": 2,
+            "explicacao": "Porque explica o motivo de ter passado.",
+            "dica": "Responde à pergunta \"por quê?\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conjunção dá uma alternativa?",
+            "alternativas": [
+              "mas",
+              "porque",
+              "então",
+              "ou"
+            ],
+            "correta": 3,
+            "explicacao": "Ou dá escolha entre duas coisas: suco ou água?",
+            "dica": "Qual delas oferece duas escolhas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a conjunção?",
+            "alternativas": [
+              "Ligar ideias ou orações",
+              "Dar nome às coisas",
+              "Indicar ação",
+              "Substituir o nome"
+            ],
+            "correta": 0,
+            "explicacao": "Conjunção liga ideias e mostra a relação entre elas.",
+            "dica": "Releia a primeira frase da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Choveu muito, ___ o jogo foi adiado.\"",
+            "alternativas": [
+              "mas",
+              "então",
+              "ou",
+              "porque"
+            ],
+            "correta": 1,
+            "explicacao": "A chuva levou à conclusão: o jogo foi adiado.",
+            "dica": "A segunda parte é uma consequência da primeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Queria ir à festa, ___ estava doente.\"",
+            "alternativas": [
+              "e",
+              "então",
+              "mas",
+              "ou"
+            ],
+            "correta": 2,
+            "explicacao": "Há uma oposição entre querer ir e estar doente.",
+            "dica": "As ideias combinam ou se opõem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Levei o casaco ___ estava frio.\"",
+            "alternativas": [
+              "mas",
+              "ou",
+              "então",
+              "porque"
+            ],
+            "correta": 3,
+            "explicacao": "Estar frio é a causa de levar o casaco.",
+            "dica": "A segunda parte explica o motivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Estudei, então passei\", então indica:",
+            "alternativas": [
+              "conclusão",
+              "oposição",
+              "alternativa",
+              "dúvida"
+            ],
+            "correta": 0,
+            "explicacao": "Passar é a conclusão de ter estudado.",
+            "dica": "O que vem depois é resultado do que vem antes?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Monte a frase \"Corri, mas perdi o ônibus\" em ordem:",
+            "itens": [
+              "Corri,",
+              "mas",
+              "perdi",
+              "o ônibus"
+            ],
+            "explicacao": "A conjunção mas liga as duas ideias opostas.",
+            "dica": "A conjunção fica entre as duas ideias."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conjunção tem o mesmo sentido de mas?",
+            "alternativas": [
+              "portanto",
+              "porém",
+              "pois",
+              "ou"
+            ],
+            "correta": 1,
+            "explicacao": "Porém também mostra oposição.",
+            "dica": "Procure a que mostra oposição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conjunção tem o mesmo sentido de então?",
+            "alternativas": [
+              "porém",
+              "porque",
+              "portanto",
+              "ou"
+            ],
+            "correta": 2,
+            "explicacao": "Portanto indica conclusão, como então.",
+            "dica": "Procure a que mostra conclusão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Se chover, levo guarda-chuva\", a conjunção se indica:",
+            "alternativas": [
+              "causa",
+              "oposição",
+              "tempo",
+              "condição"
+            ],
+            "correta": 3,
+            "explicacao": "Se mostra uma condição: só levo se chover.",
+            "dica": "Ela apresenta algo que pode ou não acontecer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está com a conjunção ERRADA para o sentido?",
+            "alternativas": [
+              "Estava com fome, mas comi.",
+              "Estava com fome, então comi.",
+              "Comi porque estava com fome.",
+              "Estava com fome e comi."
+            ],
+            "correta": 0,
+            "explicacao": "Mas indica oposição, e comer quando se tem fome não é oposição.",
+            "dica": "Em qual delas as ideias não combinam com a conjunção?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual vírgula está no lugar certo?",
+            "alternativas": [
+              "Corri mas, perdi o ônibus.",
+              "Corri, mas perdi o ônibus.",
+              "Corri mas perdi, o ônibus.",
+              "Corri, mas, perdi o ônibus."
+            ],
+            "correta": 1,
+            "explicacao": "A vírgula vem antes de mas.",
+            "dica": "Releia o aprofundamento sobre a vírgula."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual troca muda o sentido de \"Ele treinou, mas perdeu\"?",
+            "alternativas": [
+              "Ele treinou, porém perdeu.",
+              "Ele treinou, contudo perdeu.",
+              "Ele treinou, portanto perdeu.",
+              "Ele treinou, entretanto perdeu."
+            ],
+            "correta": 2,
+            "explicacao": "Portanto é conclusão; as outras mantêm a oposição e o sentido.",
+            "dica": "Três têm o mesmo sentido de mas; uma não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Saí quando parou de chover\", quando indica:",
+            "alternativas": [
+              "condição",
+              "causa",
+              "oposição",
+              "tempo"
+            ],
+            "correta": 3,
+            "explicacao": "Quando marca o momento em que saí.",
+            "dica": "Responde à pergunta \"em que momento?\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa conjunção de causa diferente de porque, com o mesmo sentido?",
+            "alternativas": [
+              "Fiquei em casa, pois estava chovendo.",
+              "Fiquei em casa, mas estava chovendo.",
+              "Fiquei em casa ou estava chovendo.",
+              "Fiquei em casa quando estava chovendo."
+            ],
+            "correta": 0,
+            "explicacao": "Pois também indica causa, como porque.",
+            "dica": "Procure a que explica o motivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas conjunções há em \"Comprei pão e leite, mas esqueci o café porque estava com pressa\"?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "e (soma), mas (oposição), porque (causa).",
+            "dica": "Procure as palavras que ligam ideias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase junta oposição E conclusão?",
+            "alternativas": [
+              "Estudei e passei.",
+              "Passei porque estudei.",
+              "Choveu, mas o jogo continuou; portanto, ficamos molhados.",
+              "Ou estudo, ou jogo."
+            ],
+            "correta": 2,
+            "explicacao": "Mas mostra oposição; portanto mostra conclusão.",
+            "dica": "Procure as duas relações na mesma frase."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A cliente brava da barraca de pastel",
+    "texto": "Era domingo e a feira estava cheia quando dona Sônia voltou à barraca do Washington com o pastel na mão.\n\n— Paguei por um pastel de carne e veio quase vazio!\n\nO ajudante, Kauã, já ia responder alto, mas Washington segurou o braço dele com calma.\n\n— A senhora tem razão. Peço desculpas. Vou fazer outro agora, caprichado, sem cobrar.\n\nDona Sônia cruzou os braços, desconfiada, porém esperou. O pastel novo saiu dourado e cheio de recheio.\n\n— Obrigado por avisar — disse Washington. — Assim a gente melhora.\n\nDepois que ela foi embora, ele explicou ao Kauã:\n\n— Se a gente briga, ela não volta e ainda conta para as vizinhas. Então é melhor ouvir.\n\nOs dois descobriram que a colher de recheio era pequena demais e trocaram por uma maior.\n\nNo domingo seguinte, dona Sônia voltou. E trouxe três amigas."
+  },
+  "escrita": {
+    "proposta": "Escreva em 6 a 8 linhas como você responderia a um cliente que reclamou de um produto. Use pelo menos três conjunções diferentes (por exemplo: mas, porque, então, e) e sublinhe cada uma delas."
+  }
+}

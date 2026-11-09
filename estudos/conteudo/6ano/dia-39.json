@@ -1,0 +1,1494 @@
+{
+  "dia": 39,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Multiplicar e dividir números decimais",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Para multiplicar decimais, faça a conta como se não houvesse vírgula. Depois, conte quantas casas depois da vírgula os dois números têm juntos: o resultado terá esse mesmo número de casas.",
+          "Exemplo: 1,2 × 0,3. Sem vírgula: 12 × 3 = 36. O 1,2 tem 1 casa e o 0,3 tem 1 casa: 2 casas no total. Resultado: 0,36.",
+          "Multiplicar por 10, 100 ou 1.000 é só andar com a vírgula para a direita (1, 2 ou 3 casas): 3,45 × 10 = 34,5. Dividir por 10, 100 ou 1.000 é andar para a esquerda: 56,7 ÷ 10 = 5,67.",
+          "Para dividir por um número decimal, multiplique os dois números por 10 (ou 100) até o divisor ficar inteiro. 4,5 ÷ 0,5 vira 45 ÷ 5 = 9."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quanto custam 3 cadernos de R$ 12,90?",
+            "resolucao": "12,90 × 3 = 38,70. São R$ 38,70."
+          },
+          {
+            "enunciado": "Uma conta de R$ 25,50 será dividida por 3 amigos. Quanto paga cada um?",
+            "resolucao": "25,50 ÷ 3 = 8,50. Cada um paga R$ 8,50."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Multiplicar por um número menor que 1 diminui o valor: 46 × 0,5 = 23 (é o mesmo que tirar a metade). Dividir por um número menor que 1 aumenta: 3 ÷ 0,5 = 6 (quantas metades cabem em 3).",
+        "Para dividir 7,2 por 0,08, multiplique os dois por 100: 720 ÷ 8 = 90. O resultado não muda, porque os dois números foram multiplicados pelo mesmo valor.",
+        "Cuidado com os zeros: 0,25 × 0,4 dá 25 × 4 = 100, com 3 casas: 0,100 = 0,1. E 0,6 × 0,6 = 0,36, menor que 0,6."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2,5 × 3?",
+            "alternativas": [
+              "7,5",
+              "6,5",
+              "75",
+              "5,5"
+            ],
+            "correta": 0,
+            "explicacao": "25 × 3 = 75; uma casa decimal: 7,5.",
+            "dica": "Faça 25 × 3 e coloque uma casa depois da vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3,4 × 10?",
+            "alternativas": [
+              "0,34",
+              "34",
+              "340",
+              "3,40"
+            ],
+            "correta": 1,
+            "explicacao": "Vezes 10: a vírgula anda uma casa para a direita.",
+            "dica": "Para que lado a vírgula anda na multiplicação por 10?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 4,8 ÷ 2?",
+            "alternativas": [
+              "9,6",
+              "2,8",
+              "2,4",
+              "24"
+            ],
+            "correta": 2,
+            "explicacao": "4,8 ÷ 2 = 2,4.",
+            "dica": "Metade de 4,8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 56,7 ÷ 10?",
+            "alternativas": [
+              "567",
+              "56,07",
+              "0,567",
+              "5,67"
+            ],
+            "correta": 3,
+            "explicacao": "Dividir por 10: a vírgula anda uma casa para a esquerda.",
+            "dica": "A vírgula anda para a esquerda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma passagem custa R$ 1,50. Quanto custam 4?",
+            "alternativas": [
+              "R$ 6,00",
+              "R$ 4,50",
+              "R$ 5,50",
+              "R$ 60,00"
+            ],
+            "correta": 0,
+            "explicacao": "1,50 × 4 = 6,00.",
+            "dica": "Multiplique o preço por 4."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1,2 × 0,3?",
+            "alternativas": [
+              "3,6",
+              "0,36",
+              "0,036",
+              "36"
+            ],
+            "correta": 1,
+            "explicacao": "12 × 3 = 36; 2 casas: 0,36.",
+            "dica": "Conte as casas decimais dos dois números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 4,5 ÷ 0,5?",
+            "alternativas": [
+              "0,9",
+              "90",
+              "9",
+              "2,25"
+            ],
+            "correta": 2,
+            "explicacao": "Multiplique os dois por 10: 45 ÷ 5 = 9.",
+            "dica": "Transforme o divisor em número inteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto custam 3 cadernos de R$ 12,90?",
+            "alternativas": [
+              "R$ 36,90",
+              "R$ 37,70",
+              "R$ 38,90",
+              "R$ 38,70"
+            ],
+            "correta": 3,
+            "explicacao": "12,90 × 3 = 38,70.",
+            "dica": "Faça 1290 × 3 e coloque duas casas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma conta de R$ 25,50 foi dividida por 3. Quanto paga cada um?",
+            "alternativas": [
+              "R$ 8,50",
+              "R$ 8,05",
+              "R$ 7,50",
+              "R$ 85,00"
+            ],
+            "correta": 0,
+            "explicacao": "25,50 ÷ 3 = 8,50.",
+            "dica": "Divida 25 por 3 e continue com os centavos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular 2,4 × 1,5:",
+            "itens": [
+              "Tirar as vírgulas: 24 × 15",
+              "Multiplicar: 360",
+              "Contar as casas decimais: 1 + 1 = 2",
+              "Colocar a vírgula: 3,60"
+            ],
+            "explicacao": "Multiplica sem vírgula, conta as casas e coloca a vírgula.",
+            "dica": "A vírgula é o último passo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 0,25 × 0,4?",
+            "alternativas": [
+              "1",
+              "0,1",
+              "0,01",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "25 × 4 = 100; 3 casas: 0,100 = 0,1.",
+            "dica": "Conte as casas: 2 + 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 7,2 ÷ 0,08?",
+            "alternativas": [
+              "9",
+              "0,9",
+              "90",
+              "900"
+            ],
+            "correta": 2,
+            "explicacao": "Multiplique os dois por 100: 720 ÷ 8 = 90.",
+            "dica": "Quantas vezes multiplicar para o divisor ficar inteiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A gasolina custa R$ 5,80 o litro. Quanto custam 12,5 litros?",
+            "alternativas": [
+              "R$ 70,50",
+              "R$ 72,00",
+              "R$ 7,25",
+              "R$ 72,50"
+            ],
+            "correta": 3,
+            "explicacao": "5,8 × 12,5 = 72,5.",
+            "dica": "Multiplique 58 × 125 e conte as casas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Seis amigos dividem uma conta de R$ 18,60. Quanto paga cada um?",
+            "alternativas": [
+              "R$ 3,10",
+              "R$ 3,01",
+              "R$ 3,60",
+              "R$ 31,00"
+            ],
+            "correta": 0,
+            "explicacao": "18,60 ÷ 6 = 3,10.",
+            "dica": "Divida 18 por 6 e depois os centavos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 0,6 × 0,6?",
+            "alternativas": [
+              "3,6",
+              "0,36",
+              "1,2",
+              "0,036"
+            ],
+            "correta": 1,
+            "explicacao": "6 × 6 = 36; 2 casas: 0,36.",
+            "dica": "Duas casas no total."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quatro pizzas de R$ 42,90 foram divididas igualmente entre 6 amigos. Quanto pagou cada um?",
+            "alternativas": [
+              "R$ 27,60",
+              "R$ 29,60",
+              "R$ 28,60",
+              "R$ 7,15"
+            ],
+            "correta": 2,
+            "explicacao": "42,90 × 4 = 171,60; 171,60 ÷ 6 = 28,60.",
+            "dica": "Ache o total e depois divida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual resultado é maior: 0,3 × 0,3 ou 0,3 ÷ 0,3?",
+            "alternativas": [
+              "Os dois são iguais",
+              "0,3 × 0,3",
+              "Não dá para comparar",
+              "0,3 ÷ 0,3"
+            ],
+            "correta": 3,
+            "explicacao": "0,3 × 0,3 = 0,09; 0,3 ÷ 0,3 = 1.",
+            "dica": "Calcule os dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma fita de 3,6 m será cortada em pedaços de 0,45 m. Quantos pedaços?",
+            "alternativas": [
+              "8",
+              "80",
+              "9",
+              "7"
+            ],
+            "correta": 0,
+            "explicacao": "Multiplique por 100: 360 ÷ 45 = 8.",
+            "dica": "Transforme os dois em números sem vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto custa 1,5 kg de queijo a R$ 48,40 o quilo?",
+            "alternativas": [
+              "R$ 70,60",
+              "R$ 72,60",
+              "R$ 49,90",
+              "R$ 74,60"
+            ],
+            "correta": 1,
+            "explicacao": "48,40 × 1,5 = 48,40 + 24,20 = 72,60.",
+            "dica": "1,5 kg é um quilo e meio: some o preço com a metade dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Multiplicar um número por 0,5 é o mesmo que:",
+            "alternativas": [
+              "multiplicar por 5",
+              "dividir por 5",
+              "dividir por 2",
+              "somar 0,5"
+            ],
+            "correta": 2,
+            "explicacao": "0,5 é a metade: 46 × 0,5 = 23 = 46 ÷ 2.",
+            "dica": "Releia o aprofundamento."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Percorrer uma lista item por item",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Percorrer uma lista é passar por todos os itens, um de cada vez, fazendo alguma coisa com cada um. Em pseudocódigo: para cada item em lista: (passos).",
+          "Exemplo: para cada nome em [\"Ana\", \"Leo\", \"Bia\"]: mostrar(\"Oi, \" + nome). O programa mostra \"Oi, Ana\", depois \"Oi, Leo\" e por fim \"Oi, Bia\".",
+          "Para somar todos os itens, usamos uma variável que começa em zero: soma = 0; para cada n em notas: soma = soma + n.",
+          "Para contar quantos itens obedecem a uma condição, usamos um contador: conta = 0; para cada n em notas: se n >= 6, conta = conta + 1."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "notas = [7, 5, 9]. soma = 0. para cada n em notas: soma = soma + n. Quanto vale soma no fim?",
+            "resolucao": "0 + 7 = 7; 7 + 5 = 12; 12 + 9 = 21. soma = 21."
+          },
+          {
+            "enunciado": "idades = [10, 14, 8, 16]. conta = 0. para cada i em idades: se i > 12, conta = conta + 1. Quanto vale conta?",
+            "resolucao": "14 e 16 passam de 12: conta = 2."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para achar o maior item, guarde o primeiro como \"maior até agora\" e compare com cada um: maior = lista[0]; para cada n em lista: se n > maior, maior = n.",
+        "Cuidado: começar com maior = 0 dá errado numa lista só com números negativos, como [−3, −7, −1]: o resultado seria 0, que nem está na lista. Por isso começamos pelo primeiro item.",
+        "Com soma e tamanho, dá para calcular a média: media = soma ÷ tamanho(lista). E dá para fazer várias coisas na mesma volta: somar, contar e achar o maior ao mesmo tempo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é percorrer uma lista?",
+            "alternativas": [
+              "Passar por todos os itens, um de cada vez",
+              "Apagar a lista",
+              "Mudar a cor da lista",
+              "Trocar o nome da lista"
+            ],
+            "correta": 0,
+            "explicacao": "Percorrer é visitar cada item.",
+            "dica": "Pense em chamar cada nome da lista de chamada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "para cada n em [2, 4, 6]: mostrar(n). O que aparece primeiro?",
+            "alternativas": [
+              "6",
+              "2",
+              "4",
+              "12"
+            ],
+            "correta": 1,
+            "explicacao": "O laço começa pelo primeiro item: 2.",
+            "dica": "A lista é percorrida na ordem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para somar todos os itens, a variável soma começa em:",
+            "alternativas": [
+              "10",
+              "1",
+              "0",
+              "100"
+            ],
+            "correta": 2,
+            "explicacao": "A soma começa em zero e vai crescendo.",
+            "dica": "Antes de somar, quanto já temos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "soma = 0. para cada n em [3, 5, 2]: soma = soma + n. Quanto vale soma?",
+            "alternativas": [
+              "5",
+              "3",
+              "8",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "3 + 5 + 2 = 10.",
+            "dica": "Some os itens um por um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes o laço roda numa lista de 4 itens?",
+            "alternativas": [
+              "4",
+              "1",
+              "3",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "Uma vez para cada item.",
+            "dica": "Cada item é visitado uma vez."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "para cada n em [2, 4, 6]: mostrar(n × 10). O que aparece?",
+            "alternativas": [
+              "2, 4, 6",
+              "20, 40, 60",
+              "120",
+              "10, 20, 30"
+            ],
+            "correta": 1,
+            "explicacao": "Cada item é multiplicado por 10.",
+            "dica": "Faça a conta para cada item."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "soma = 0. para cada n em [3, 5, 2, 10]: soma = soma + n. Quanto vale soma?",
+            "alternativas": [
+              "10",
+              "15",
+              "20",
+              "30"
+            ],
+            "correta": 2,
+            "explicacao": "3 + 5 + 2 + 10 = 20.",
+            "dica": "Some todos os itens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "conta = 0. para cada n em [8, 3, 6, 5, 9]: se n > 5, conta = conta + 1. Quanto vale conta?",
+            "alternativas": [
+              "5",
+              "2",
+              "4",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "8, 6 e 9 são maiores que 5. O 5 não é maior que 5.",
+            "dica": "O 5 é maior que 5?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "para cada nome em [\"Ana\", \"Leo\"]: mostrar(\"Oi, \" + nome). Quantas mensagens aparecem?",
+            "alternativas": [
+              "2",
+              "1",
+              "3",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "Uma para cada nome.",
+            "dica": "Quantos nomes há?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para somar as notas da lista:",
+            "itens": [
+              "Criar soma = 0",
+              "Começar o laço: para cada nota na lista",
+              "Dentro do laço: soma = soma + nota",
+              "Depois do laço: mostrar(soma)"
+            ],
+            "explicacao": "Começa em zero, percorre somando e mostra no fim.",
+            "dica": "Mostrar a soma vem depois do laço."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "maior = lista[0]. para cada n em [5, 12, 3, 9]: se n > maior, maior = n. Quanto vale maior?",
+            "alternativas": [
+              "9",
+              "12",
+              "5",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "5 → 12 (maior); 3 e 9 não passam de 12.",
+            "dica": "Acompanhe o valor de maior a cada item."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [6, 8, 7]. Calcule soma com um laço e depois media = soma ÷ tamanho(notas). Quanto vale media?",
+            "alternativas": [
+              "21",
+              "8",
+              "7",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "Soma 21; tamanho 3; 21 ÷ 3 = 7.",
+            "dica": "Ache a soma e divida pelo número de itens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "conta = 0. para cada p em [\"uva\", \"maçã\", \"uva\", \"pera\"]: se p == \"uva\", conta = conta + 1. Quanto vale conta?",
+            "alternativas": [
+              "1",
+              "4",
+              "3",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "\"uva\" aparece 2 vezes.",
+            "dica": "Conte só as uvas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0. para cada preco em [2, 3, 5]: total = total + preco × 2. Quanto vale total?",
+            "alternativas": [
+              "20",
+              "10",
+              "12",
+              "30"
+            ],
+            "correta": 0,
+            "explicacao": "2×2 + 3×2 + 5×2 = 4 + 6 + 10 = 20.",
+            "dica": "Multiplique cada preço por 2 antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é melhor começar com maior = lista[0] do que com maior = 0?",
+            "alternativas": [
+              "Porque fica mais bonito",
+              "Porque com só números negativos o 0 daria resposta errada",
+              "Porque o 0 não existe",
+              "Porque a lista fica menor"
+            ],
+            "correta": 1,
+            "explicacao": "Em [−3, −7, −1], começar com 0 daria 0, que nem está na lista.",
+            "dica": "Releia o aprofundamento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0. para cada p em [2, 3, 4]: total = total + p × p. Quanto vale total?",
+            "alternativas": [
+              "9",
+              "24",
+              "29",
+              "81"
+            ],
+            "correta": 2,
+            "explicacao": "4 + 9 + 16 = 29.",
+            "dica": "Faça o quadrado de cada número e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "maior = 0. para cada n em [−3, −7, −1]: se n > maior, maior = n. Qual o resultado e o que deveria ser?",
+            "alternativas": [
+              "−1, e está certo",
+              "−7, e deveria ser −1",
+              "−3, e deveria ser 0",
+              "0, e deveria ser −1"
+            ],
+            "correta": 3,
+            "explicacao": "Nenhum negativo passa de 0, então maior fica 0. O maior da lista é −1.",
+            "dica": "Algum número negativo é maior que 0?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "soma = 0. para cada n em [4, 7, 10, 13]: se n for par, soma = soma + n. Quanto vale soma?",
+            "alternativas": [
+              "14",
+              "34",
+              "11",
+              "17"
+            ],
+            "correta": 0,
+            "explicacao": "Pares: 4 e 10. 4 + 10 = 14.",
+            "dica": "Some só os números pares."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa volta só, um programa soma e conta as notas acima de 6 em [5, 8, 7, 4]. Quais são a soma e a conta no fim?",
+            "alternativas": [
+              "24 e 3",
+              "24 e 2",
+              "15 e 2",
+              "20 e 2"
+            ],
+            "correta": 1,
+            "explicacao": "Soma: 5 + 8 + 7 + 4 = 24. Acima de 6: 8 e 7, conta = 2.",
+            "dica": "Faça as duas coisas para cada item."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "palavra = \"\". para cada letra em [\"s\", \"o\", \"l\"]: palavra = letra + palavra. Qual é a palavra no fim?",
+            "alternativas": [
+              "sol",
+              "slo",
+              "los",
+              "ols"
+            ],
+            "correta": 2,
+            "explicacao": "s → os → los: cada letra entra na frente.",
+            "dica": "A letra nova entra antes ou depois?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Cabeçalho, rodapé e número de página",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O cabeçalho é a área no alto de todas as páginas; o rodapé é a área embaixo. O que você escreve neles se repete sozinho em todas as páginas.",
+          "No cabeçalho costumamos pôr o nome da escola ou o título do trabalho. No rodapé, o nome do aluno e o número da página.",
+          "Para inserir, vá à guia Inserir e clique em Cabeçalho, Rodapé ou Número de Página. Para editar depois, dê um clique duplo na área do cabeçalho ou do rodapé. Para voltar ao texto, clique em Fechar Cabeçalho e Rodapé.",
+          "O número de página é automático: se você acrescentar ou apagar páginas, a numeração se ajusta sozinha."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um trabalho tem 8 páginas. Você escreve \"E.E. Monteiro Lobato\" no cabeçalho uma vez. Em quantas páginas o nome aparece?",
+            "resolucao": "Nas 8 páginas, porque o cabeçalho se repete em todas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A opção Primeira Página Diferente (aparece quando você está editando o cabeçalho) deixa a capa sem cabeçalho e sem número. Cuidado: a página seguinte continua contando a capa e mostra o número 2.",
+        "Se quiser que a página depois da capa mostre 1, use Formatar Números de Página e mude Iniciar em para 0. Assim, a capa vale 0 (escondido) e a página seguinte vale 1.",
+        "Também dá para mostrar \"Página 3 de 10\": o Word tem modelos de número de página que contam o total de páginas automaticamente."
+      ],
+      "desafio_pratico": "Abra o Word no celular ou no PC e faça um trabalho de 3 páginas sobre o seu esporte ou brincadeira favorita (pode ser pouco texto em cada página; use Ctrl + Enter para pular de página). A 1ª página é a capa, com o título e o seu nome. Vá à guia Inserir, coloque no cabeçalho o nome da sua escola e, no rodapé, o seu nome. Depois insira o Número de Página no rodapé. Ative Primeira Página Diferente para a capa ficar limpa e observe que a página seguinte mostra o número 2. Por fim, em Formatar Números de Página, mude Iniciar em para 0 e veja a página depois da capa virar 1.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O cabeçalho fica:",
+            "alternativas": [
+              "no alto de todas as páginas",
+              "só na última página",
+              "no meio do texto",
+              "fora do documento"
+            ],
+            "correta": 0,
+            "explicacao": "O cabeçalho é a área de cima, repetida em todas as páginas.",
+            "dica": "Cabeça fica em cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O rodapé fica:",
+            "alternativas": [
+              "no alto da página",
+              "embaixo de todas as páginas",
+              "só na capa",
+              "na barra de tarefas"
+            ],
+            "correta": 1,
+            "explicacao": "O rodapé é a área de baixo.",
+            "dica": "Pense no pé da página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia ficam Cabeçalho, Rodapé e Número de Página?",
+            "alternativas": [
+              "Página Inicial",
+              "Exibir",
+              "Inserir",
+              "Revisão"
+            ],
+            "correta": 2,
+            "explicacao": "Ficam na guia Inserir.",
+            "dica": "Você vai colocar algo novo no documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para editar um cabeçalho que já existe, você:",
+            "alternativas": [
+              "apaga o documento",
+              "aperta Enter",
+              "imprime",
+              "dá um clique duplo nele"
+            ],
+            "correta": 3,
+            "explicacao": "Clique duplo na área abre a edição.",
+            "dica": "Dois cliques seguidos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O número de página no Word é:",
+            "alternativas": [
+              "automático",
+              "escrito à mão em cada página",
+              "proibido",
+              "sempre igual a 1"
+            ],
+            "correta": 0,
+            "explicacao": "Ele se ajusta sozinho.",
+            "dica": "Releia a última frase da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trabalho tem 8 páginas e o nome da escola está no cabeçalho. Em quantas páginas ele aparece?",
+            "alternativas": [
+              "1",
+              "8",
+              "2",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "O cabeçalho se repete em todas as páginas.",
+            "dica": "O cabeçalho aparece em quantas páginas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é mais comum colocar no rodapé?",
+            "alternativas": [
+              "Uma tabela grande",
+              "O texto inteiro",
+              "O nome do aluno e o número da página",
+              "Uma foto da capa"
+            ],
+            "correta": 2,
+            "explicacao": "O rodapé costuma ter informações curtas e repetidas.",
+            "dica": "Releia a lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você apagou 2 páginas do meio de um trabalho de 10. O que acontece com a numeração?",
+            "alternativas": [
+              "Fica com buracos",
+              "Some",
+              "Volta a 1 em todas",
+              "Ajusta sozinha, de 1 a 8"
+            ],
+            "correta": 3,
+            "explicacao": "O número de página é automático.",
+            "dica": "A numeração é escrita à mão ou automática?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como voltar ao texto depois de editar o rodapé?",
+            "alternativas": [
+              "Clicar em Fechar Cabeçalho e Rodapé",
+              "Desligar o computador",
+              "Apagar o rodapé",
+              "Clicar em Imprimir"
+            ],
+            "correta": 0,
+            "explicacao": "Esse botão fecha a edição.",
+            "dica": "Procure o botão de fechar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para numerar as páginas:",
+            "itens": [
+              "Abrir o documento",
+              "Ir à guia Inserir",
+              "Clicar em Número de Página",
+              "Escolher onde o número vai ficar"
+            ],
+            "explicacao": "Documento, guia Inserir, Número de Página e posição.",
+            "dica": "A posição é a última escolha."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para a capa ficar sem cabeçalho e sem número, qual opção usar?",
+            "alternativas": [
+              "Mesclar Células",
+              "Primeira Página Diferente",
+              "Quebra de Coluna",
+              "Marca d'Água"
+            ],
+            "correta": 1,
+            "explicacao": "Primeira Página Diferente esconde cabeçalho e rodapé na 1ª página.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com Primeira Página Diferente ligada, que número aparece na página logo depois da capa?",
+            "alternativas": [
+              "1",
+              "0",
+              "2",
+              "Nenhum"
+            ],
+            "correta": 2,
+            "explicacao": "A capa continua sendo contada, então a seguinte é a 2.",
+            "dica": "A capa conta ou não conta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para a página depois da capa mostrar o número 1, o que fazer em Formatar Números de Página?",
+            "alternativas": [
+              "Iniciar em 2",
+              "Iniciar em 10",
+              "Apagar a capa",
+              "Iniciar em 0"
+            ],
+            "correta": 3,
+            "explicacao": "Com início em 0, a capa vale 0 e a seguinte vale 1.",
+            "dica": "A capa precisa valer qual número?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia escreveu o número da página à mão em cada página. Qual é o problema?",
+            "alternativas": [
+              "Ao mudar o texto, os números ficam errados",
+              "Nenhum",
+              "O Word apaga os números",
+              "A letra fica feia"
+            ],
+            "correta": 0,
+            "explicacao": "Número digitado não se ajusta sozinho.",
+            "dica": "O que acontece se ela acrescentar uma página no meio?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual formato mostra quantas páginas o trabalho tem no total?",
+            "alternativas": [
+              "Página 3",
+              "Página 3 de 10",
+              "3",
+              "Folha"
+            ],
+            "correta": 1,
+            "explicacao": "\"Página X de Y\" mostra a página e o total.",
+            "dica": "Procure a opção com dois números."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trabalho tem capa + 9 páginas de texto. Com Primeira Página Diferente e numeração comum, qual é o número da última página?",
+            "alternativas": [
+              "9",
+              "11",
+              "10",
+              "8"
+            ],
+            "correta": 2,
+            "explicacao": "A capa conta como 1; as 9 páginas vão de 2 a 10.",
+            "dica": "A capa é contada mesmo sem mostrar o número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo trabalho (capa + 9 páginas), com Iniciar em 0, qual é o número da última página?",
+            "alternativas": [
+              "10",
+              "8",
+              "11",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "A capa vale 0; as 9 páginas vão de 1 a 9.",
+            "dica": "Comece a contar a capa do zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro quer o título no cabeçalho de todas as páginas, menos na capa, e \"Página X de Y\" no rodapé. O que ele usa?",
+            "alternativas": [
+              "Cabeçalho com o título, Primeira Página Diferente e um modelo \"Página X de Y\" no rodapé",
+              "Só a guia Exibir",
+              "Escrever o título no topo de cada página",
+              "Uma tabela em cada página"
+            ],
+            "correta": 0,
+            "explicacao": "As três ferramentas juntas resolvem tudo automaticamente.",
+            "dica": "Junte as ferramentas da lição e do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é melhor pôr o nome da escola no cabeçalho do que digitar no topo de cada página?",
+            "alternativas": [
+              "Porque o cabeçalho é colorido",
+              "Porque escreve uma vez e se repete sozinho, sem bagunçar o texto",
+              "Porque o texto some",
+              "Porque o Word exige"
+            ],
+            "correta": 1,
+            "explicacao": "O cabeçalho repete o conteúdo e não se mexe quando o texto muda.",
+            "dica": "Pense em acrescentar um parágrafo no meio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trabalho de 12 páginas usa \"Página X de Y\". O que aparece na 5ª página?",
+            "alternativas": [
+              "Página 12 de 5",
+              "Página 5",
+              "Página 5 de 12",
+              "Página 1 de 12"
+            ],
+            "correta": 2,
+            "explicacao": "X é a página atual e Y é o total.",
+            "dica": "Qual número é a página atual?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Delegar: o líder que ensina a tarefa e confia na equipe",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Delegar é passar uma tarefa para outra pessoa da equipe fazer, depois de ensinar como. O dono que quer fazer tudo sozinho fica cansado, atende pouca gente e o negócio não cresce.",
+          "Um bom jeito de delegar tem cinco passos: 1º explicar o porquê da tarefa; 2º mostrar fazendo; 3º deixar a pessoa fazer enquanto você acompanha; 4º dar retorno, elogiando o que ficou bom e corrigindo com calma; 5º confiar e cobrar o resultado.",
+          "Delegar multiplica a produção: enquanto a equipe cuida das tarefas que já sabe, o líder pensa em melhorar o negócio, atender clientes e planejar.",
+          "Delegar não é largar nem explorar. A equipe precisa de treino, horário justo, salário combinado e registro em carteira, como manda a CLT. Quem é bem tratado aprende mais e fica no negócio."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Dona Ivone faz sozinha 20 pizzas por noite. Ela treina dois ajudantes e cada um passa a fazer também 20. Quantas pizzas saem agora?",
+            "resolucao": "20 + 20 + 20 = 60 pizzas por noite, o triplo."
+          },
+          {
+            "enunciado": "Seu Geraldo gasta 3 horas por dia lavando o chão da loja, tarefa que um funcionário treinado faria. Em 26 dias de trabalho, quantas horas ele ganharia para outras tarefas?",
+            "resolucao": "3 × 26 = 78 horas por mês para atender, comprar melhor e planejar."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Escolha bem o que delegar: comece por tarefas que se repetem e que dá para ensinar com um passo a passo (abrir a massa, organizar o estoque, embalar). Decisões grandes, como preços e contratações, continuam com o dono no começo.",
+        "Escrever o passo a passo da tarefa ajuda muito: quem chega novo aprende mais rápido, e todo mundo faz do mesmo jeito.",
+        "Os riscos de não cuidar da equipe são reais: funcionário sem registro pode entrar na Justiça do Trabalho, o negócio pode levar multa e os bons profissionais vão embora para quem trata melhor."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é delegar?",
+            "alternativas": [
+              "Passar uma tarefa para outra pessoa depois de ensinar",
+              "Fazer tudo sozinho",
+              "Mandar sem explicar",
+              "Fechar o negócio"
+            ],
+            "correta": 0,
+            "explicacao": "Delegar é ensinar e passar a tarefa.",
+            "dica": "Releia a primeira frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com o dono que faz tudo sozinho?",
+            "alternativas": [
+              "O negócio cresce rápido",
+              "Fica cansado e o negócio não cresce",
+              "Ganha férias",
+              "Atende mais gente"
+            ],
+            "correta": 1,
+            "explicacao": "Uma pessoa só tem limite de tempo e energia.",
+            "dica": "Quantas mãos ele tem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o 1º passo para delegar bem?",
+            "alternativas": [
+              "Cobrar o resultado",
+              "Corrigir",
+              "Explicar o porquê da tarefa",
+              "Ir embora"
+            ],
+            "correta": 2,
+            "explicacao": "Quem entende o motivo faz melhor.",
+            "dica": "Antes de mostrar, explique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Delegar quer dizer explorar a equipe?",
+            "alternativas": [
+              "Sim",
+              "Só nos fins de semana",
+              "Depende do humor",
+              "Não; a equipe precisa de treino, horário e salário justos"
+            ],
+            "correta": 3,
+            "explicacao": "Delegar é liderar dentro da lei, sem exploração.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lei trata do registro em carteira dos funcionários?",
+            "alternativas": [
+              "CLT",
+              "CDC",
+              "LGPD",
+              "ECA"
+            ],
+            "correta": 0,
+            "explicacao": "A CLT trata das relações de trabalho.",
+            "dica": "É a Consolidação das Leis do Trabalho."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Ivone faz 20 pizzas por noite. Treina 2 ajudantes que fazem 20 cada. Quantas pizzas saem por noite?",
+            "alternativas": [
+              "40",
+              "60",
+              "22",
+              "80"
+            ],
+            "correta": 1,
+            "explicacao": "20 + 20 + 20 = 60.",
+            "dica": "Conte a dona e os dois ajudantes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu Geraldo deixa de gastar 3 horas por dia numa tarefa. Em 26 dias, quantas horas ganha?",
+            "alternativas": [
+              "29",
+              "52",
+              "78",
+              "39"
+            ],
+            "correta": 2,
+            "explicacao": "3 × 26 = 78.",
+            "dica": "Multiplique as horas pelos dias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de mostrar a tarefa fazendo, qual é o próximo passo?",
+            "alternativas": [
+              "Ir embora e não voltar",
+              "Demitir",
+              "Cobrar no mesmo minuto",
+              "Deixar a pessoa fazer enquanto você acompanha"
+            ],
+            "correta": 3,
+            "explicacao": "O 3º passo é acompanhar a pessoa fazendo.",
+            "dica": "Releia os cinco passos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como dar retorno a quem está aprendendo?",
+            "alternativas": [
+              "Elogiar o que ficou bom e corrigir com calma",
+              "Gritar na frente dos clientes",
+              "Não falar nada",
+              "Fazer de novo sem explicar"
+            ],
+            "correta": 0,
+            "explicacao": "Retorno com respeito ajuda a pessoa a melhorar.",
+            "dica": "Como você gostaria de ser corrigido?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para delegar uma tarefa:",
+            "itens": [
+              "Explicar o porquê",
+              "Mostrar fazendo",
+              "Deixar fazer e acompanhar",
+              "Dar retorno e confiar"
+            ],
+            "explicacao": "São os passos da lição, do porquê até a confiança.",
+            "dica": "Mostrar vem antes de deixar fazer."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tarefa é melhor para começar a delegar numa pizzaria?",
+            "alternativas": [
+              "Decidir o preço das pizzas",
+              "Abrir a massa, com um passo a passo",
+              "Escolher quem contratar",
+              "Mudar o nome da pizzaria"
+            ],
+            "correta": 1,
+            "explicacao": "Tarefas que se repetem e têm passo a passo são as primeiras a delegar.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que escrever o passo a passo da tarefa ajuda?",
+            "alternativas": [
+              "Porque gasta papel",
+              "Porque substitui o treino",
+              "Porque o novo aprende mais rápido e todos fazem igual",
+              "Porque ninguém precisa mais do dono"
+            ],
+            "correta": 2,
+            "explicacao": "O passo a passo padroniza e acelera o aprendizado.",
+            "dica": "Pense em quem acabou de chegar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono deixa os ajudantes sem registro para gastar menos. Qual é o risco?",
+            "alternativas": [
+              "Nenhum",
+              "Ganhar um prêmio",
+              "Pagar menos impostos para sempre",
+              "Processo na Justiça do Trabalho, multa e perda de bons funcionários"
+            ],
+            "correta": 3,
+            "explicacao": "A informalidade traz riscos sérios ao negócio.",
+            "dica": "Releia os riscos no aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pizzaria vende 60 pizzas por noite a R$ 40 cada, com 3 pessoas treinadas. Sozinha, a dona vendia 20. Quanto a mais entra por noite com a equipe?",
+            "alternativas": [
+              "R$ 1.600",
+              "R$ 800",
+              "R$ 2.400",
+              "R$ 40"
+            ],
+            "correta": 0,
+            "explicacao": "60 − 20 = 40 pizzas a mais; 40 × 40 = R$ 1.600.",
+            "dica": "Calcule as pizzas a mais e multiplique pelo preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Delegar e depois nunca mais acompanhar o resultado é:",
+            "alternativas": [
+              "o certo",
+              "largar a tarefa, e não delegar",
+              "proibido por lei",
+              "a única forma de confiar"
+            ],
+            "correta": 1,
+            "explicacao": "Delegar inclui confiar e também cobrar o resultado.",
+            "dica": "Lembre o 5º passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Ivone paga R$ 100 por noite a cada um dos 2 ajudantes registrados. Com eles, vende 40 pizzas a mais, a R$ 40, e cada pizza tem R$ 15 de custo de ingredientes. Quanto sobra a mais por noite, depois de pagar os ajudantes?",
+            "alternativas": [
+              "R$ 1.600",
+              "R$ 1.000",
+              "R$ 800",
+              "R$ 1.400"
+            ],
+            "correta": 2,
+            "explicacao": "Ganho por pizza: 40 − 15 = 25; 40 × 25 = 1.000; 1.000 − 200 = R$ 800.",
+            "dica": "Calcule o ganho por pizza, multiplique e desconte os salários."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual líder aproveita melhor a equipe dentro da lei?",
+            "alternativas": [
+              "O que faz a equipe trabalhar 14 horas sem pausa",
+              "O que paga menos que o combinado",
+              "O que não ensina nada e só cobra",
+              "O que treina, delega com passo a passo, paga o combinado e registra"
+            ],
+            "correta": 3,
+            "explicacao": "Liderar é ensinar, organizar e pagar o justo.",
+            "dica": "Procure a opção que respeita as pessoas e a lei."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ajudante errou a massa três vezes. Qual atitude segue os passos de delegar?",
+            "alternativas": [
+              "Mostrar de novo, acompanhar e corrigir com calma",
+              "Gritar e tirar a tarefa dele para sempre",
+              "Fingir que não viu",
+              "Descontar do salário sem conversar"
+            ],
+            "correta": 0,
+            "explicacao": "Erro é parte do aprendizado: mostrar, acompanhar e dar retorno.",
+            "dica": "Volte aos passos 2, 3 e 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu Geraldo ganhou 78 horas por mês ao delegar a limpeza. Qual uso dessas horas faz o negócio crescer MAIS?",
+            "alternativas": [
+              "Dormir no balcão",
+              "Atender clientes, negociar com fornecedores e planejar",
+              "Refazer a limpeza que o funcionário fez",
+              "Ficar no celular"
+            ],
+            "correta": 1,
+            "explicacao": "O tempo livre do líder deve ir para o que só ele pode fazer.",
+            "dica": "O que só o dono pode fazer?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que tratar bem a equipe também é bom para o negócio?",
+            "alternativas": [
+              "Porque a lei proíbe lucro",
+              "Porque assim ninguém trabalha",
+              "Porque quem é bem tratado aprende mais, atende melhor e fica no negócio",
+              "Porque o cliente não percebe"
+            ],
+            "correta": 2,
+            "explicacao": "Equipe respeitada é mais estável e produtiva.",
+            "dica": "Pense em quem fica e quem vai embora."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Verbos: primeira, segunda e terceira conjugação",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Os verbos no infinitivo (a forma do dicionário) terminam em -ar, -er ou -ir. Essa terminação mostra a conjugação do verbo.",
+          "1ª conjugação: verbos terminados em -ar, como cantar, falar, andar. 2ª conjugação: terminados em -er, como vender, correr, comer. 3ª conjugação: terminados em -ir, como partir, abrir, dividir.",
+          "Os verbos de uma mesma conjugação costumam mudar do mesmo jeito. No presente, com nós: cantamos, vendemos, partimos.",
+          "Para descobrir a conjugação de um verbo que aparece mudado na frase, volte ao infinitivo: \"ele comeu\" vem de comer, que é da 2ª conjugação."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: estudar, beber, sorrir.",
+            "resolucao": "Estudar: 1ª (-ar). Beber: 2ª (-er). Sorrir: 3ª (-ir)."
+          },
+          {
+            "enunciado": "Em \"Nós abrimos a janela\", qual é o infinitivo e a conjugação?",
+            "resolucao": "Abrir, da 3ª conjugação."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A letra antes do -r se chama vogal temática: a (1ª), e (2ª) e i (3ª). Ela aparece em muitas formas: cantamos, vendemos, partimos.",
+        "Pegadinha famosa: o verbo pôr e os derivados dele (repor, compor, dispor) pertencem à 2ª conjugação, porque vêm de uma forma antiga, \"poer\".",
+        "A 1ª conjugação é a maior e a que mais recebe verbos novos: quando surge uma palavra, ela costuma virar verbo em -ar, como printar, postar e deletar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Verbos terminados em -ar são da:",
+            "alternativas": [
+              "1ª conjugação",
+              "2ª conjugação",
+              "3ª conjugação",
+              "4ª conjugação"
+            ],
+            "correta": 0,
+            "explicacao": "-ar é a 1ª conjugação.",
+            "dica": "Cantar, falar, andar..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual verbo é da 2ª conjugação?",
+            "alternativas": [
+              "cantar",
+              "vender",
+              "partir",
+              "andar"
+            ],
+            "correta": 1,
+            "explicacao": "Vender termina em -er.",
+            "dica": "Procure o final -er."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual verbo é da 3ª conjugação?",
+            "alternativas": [
+              "falar",
+              "comer",
+              "abrir",
+              "correr"
+            ],
+            "correta": 2,
+            "explicacao": "Abrir termina em -ir.",
+            "dica": "Procure o final -ir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A forma do verbo que aparece no dicionário se chama:",
+            "alternativas": [
+              "plural",
+              "pretérito",
+              "futuro",
+              "infinitivo"
+            ],
+            "correta": 3,
+            "explicacao": "O infinitivo termina em -ar, -er ou -ir.",
+            "dica": "É a forma que termina em r."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Correr é da:",
+            "alternativas": [
+              "2ª conjugação",
+              "1ª conjugação",
+              "3ª conjugação",
+              "nenhuma"
+            ],
+            "correta": 0,
+            "explicacao": "Correr termina em -er.",
+            "dica": "Olhe o final do verbo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Classifique estudar, beber e sorrir:",
+            "alternativas": [
+              "2ª, 1ª e 3ª",
+              "1ª, 2ª e 3ª",
+              "1ª, 3ª e 2ª",
+              "3ª, 2ª e 1ª"
+            ],
+            "correta": 1,
+            "explicacao": "Estudar (-ar), beber (-er), sorrir (-ir).",
+            "dica": "Veja a terminação de cada um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Nós abrimos a janela\", o infinitivo é:",
+            "alternativas": [
+              "abrimos",
+              "abrem",
+              "abrir",
+              "aberto"
+            ],
+            "correta": 2,
+            "explicacao": "Abrimos vem de abrir.",
+            "dica": "Volte à forma do dicionário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ele comeu o bolo\", o verbo é de qual conjugação?",
+            "alternativas": [
+              "1ª",
+              "3ª",
+              "nenhuma",
+              "2ª"
+            ],
+            "correta": 3,
+            "explicacao": "Comeu vem de comer: 2ª conjugação.",
+            "dica": "Qual é o infinitivo de comeu?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete com o presente: \"Nós ___ (vender) bolos na feira.\"",
+            "alternativas": [
+              "vendemos",
+              "vendimos",
+              "vendamos",
+              "venderam"
+            ],
+            "correta": 0,
+            "explicacao": "Vender com nós: vendemos.",
+            "dica": "Na 2ª conjugação, nós termina em -emos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as conjugações na ordem e com um exemplo de cada:",
+            "itens": [
+              "1ª: cantar",
+              "2ª: vender",
+              "3ª: partir",
+              "Verbo novo da internet: postar (1ª)"
+            ],
+            "explicacao": "-ar, -er, -ir; e os verbos novos costumam entrar na 1ª.",
+            "dica": "Comece pelo final -ar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A vogal temática de partir é:",
+            "alternativas": [
+              "a",
+              "i",
+              "e",
+              "r"
+            ],
+            "correta": 1,
+            "explicacao": "Partir: a letra antes do -r é i.",
+            "dica": "Olhe a letra antes do r final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Eles dividiram a pizza\", o infinitivo e a conjugação são:",
+            "alternativas": [
+              "dividar, 1ª",
+              "divider, 2ª",
+              "dividir, 3ª",
+              "dividiram, 3ª"
+            ],
+            "correta": 2,
+            "explicacao": "Dividiram vem de dividir: 3ª conjugação.",
+            "dica": "Volte ao infinitivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos verbos da 1ª conjugação há em \"Ana chegou, comeu, lavou a louça e saiu\"?",
+            "alternativas": [
+              "1",
+              "3",
+              "4",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "Chegou (chegar) e lavou (lavar). Comeu é da 2ª e saiu, da 3ª.",
+            "dica": "Volte cada verbo ao infinitivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete com o presente: \"Nós ___ (partir) amanhã.\"",
+            "alternativas": [
+              "partimos",
+              "partemos",
+              "partamos",
+              "partiram"
+            ],
+            "correta": 0,
+            "explicacao": "Partir com nós: partimos.",
+            "dica": "Na 3ª conjugação, nós termina em -imos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O verbo \"printar\" é de qual conjugação?",
+            "alternativas": [
+              "1ª",
+              "2ª",
+              "3ª",
+              "Não é verbo"
+            ],
+            "correta": 0,
+            "explicacao": "Termina em -ar: 1ª conjugação.",
+            "dica": "Olhe a terminação."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O verbo pôr é de qual conjugação?",
+            "alternativas": [
+              "1ª",
+              "3ª",
+              "2ª",
+              "Não tem conjugação"
+            ],
+            "correta": 2,
+            "explicacao": "Pôr e seus derivados são da 2ª, porque vêm da forma antiga \"poer\".",
+            "dica": "Releia a pegadinha do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual grupo tem SÓ verbos da 2ª conjugação?",
+            "alternativas": [
+              "vender, partir, comer",
+              "falar, beber, sorrir",
+              "correr, abrir, compor",
+              "beber, repor, escrever"
+            ],
+            "correta": 3,
+            "explicacao": "Beber, repor (de pôr) e escrever são todos da 2ª.",
+            "dica": "Lembre que repor vem de pôr."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Nós vendemos e partimos\", quais vogais temáticas aparecem?",
+            "alternativas": [
+              "e em vendemos e i em partimos",
+              "a em vendemos e i em partimos",
+              "i em vendemos e e em partimos",
+              "e nos dois verbos"
+            ],
+            "correta": 0,
+            "explicacao": "Vender tem vogal temática e (vend-e-mos); partir tem i (part-i-mos).",
+            "dica": "Olhe a vogal que vem logo antes de -mos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que verbos novos, como postar e deletar, entram na 1ª conjugação?",
+            "alternativas": [
+              "Porque são da 3ª",
+              "Porque a 1ª é a mais comum e a que mais recebe verbos novos",
+              "Porque a lei manda",
+              "Porque terminam em -ir"
+            ],
+            "correta": 1,
+            "explicacao": "A 1ª conjugação é a mais produtiva da língua.",
+            "dica": "Releia o fim do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Eu compus uma música e você repôs as cadeiras\", os verbos pertencem a qual conjugação?",
+            "alternativas": [
+              "1ª e 3ª",
+              "2ª e 3ª",
+              "Os dois à 2ª",
+              "Os dois à 1ª"
+            ],
+            "correta": 2,
+            "explicacao": "Compor e repor são derivados de pôr: 2ª conjugação.",
+            "dica": "Qual verbo está escondido em compor e repor?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A pizzaria que não cabia num só par de mãos",
+    "texto": "Dona Ivone abriu a pizzaria no fundo de casa. Ela abria a massa, montava as pizzas, cuidava do forno, atendia o telefone e ainda fazia as contas. Saíam umas vinte pizzas por noite, e ela terminava exausta.\n\nNuma sexta-feira de chuva, os pedidos não paravam. Várias pizzas queimaram e dois clientes desistiram.\n\nNo dia seguinte, ela contratou com carteira assinada a Jéssica e o Tiago. Mas, em vez de só mandar, resolveu ensinar. Explicou por que a massa precisa descansar, abriu uma na frente deles e depois ficou olhando a Jéssica tentar. A primeira saiu torta. A segunda, quase boa. A quinta, perfeita.\n\n— Ficou ótima! Agora é com você — disse Ivone.\n\nCom o Tiago, fez o mesmo no forno.\n\nUm mês depois, a pizzaria fazia sessenta pizzas por noite. E dona Ivone, finalmente, tinha tempo para pensar num cardápio novo."
+  },
+  "escrita": {
+    "proposta": "Escolha uma tarefa da sua casa (por exemplo, arrumar a cama ou lavar a louça) e escreva em 6 a 10 linhas como você a ensinaria, passo a passo, para outra pessoa fazer. Use verbos das três conjugações e sublinhe um de cada."
+  }
+}
