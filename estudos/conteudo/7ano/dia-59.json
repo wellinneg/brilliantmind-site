@@ -1,0 +1,1505 @@
+{
+  "dia": 59,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Probabilidade: calcular as chances de um evento",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Probabilidade mede a chance de um evento acontecer. Quando todos os resultados têm a mesma chance, P = casos favoráveis ÷ casos possíveis.",
+          "Num dado comum, a chance de sair 4 é 1/6 (um caso favorável em seis possíveis). A chance de sair um número par (2, 4 ou 6) é 3/6 = 1/2.",
+          "A probabilidade pode ser escrita como fração, decimal ou porcentagem: 1/2 = 0,5 = 50%.",
+          "Ela vai de 0 a 1. Evento impossível tem probabilidade 0 (sair 7 num dado comum); evento certo tem probabilidade 1 (sair um número de 1 a 6).",
+          "Evento contrário: P(não acontecer) = 1 − P(acontecer). A chance de não sair 6 num dado é 1 − 1/6 = 5/6."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um saco tem 3 bolas vermelhas, 5 azuis e 2 verdes. Qual é a chance de tirar uma azul sem olhar?",
+            "resolucao": "Casos possíveis: 3 + 5 + 2 = 10. Favoráveis: 5. P = 5/10 = 1/2 = 50%."
+          },
+          {
+            "enunciado": "Num dado, qual é a chance de sair um número maior que 4?",
+            "resolucao": "Favoráveis: 5 e 6 (2 casos). P = 2/6 = 1/3."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para dois eventos independentes acontecerem juntos, multiplicam-se as probabilidades: duas moedas, chance de duas caras = 1/2 × 1/2 = 1/4. Também dá para listar todos os resultados: com duas moedas são 4 (cara-cara, cara-coroa, coroa-cara, coroa-coroa).",
+        "Com dois dados, há 6 × 6 = 36 resultados possíveis. A soma 7 aparece em 6 deles (1+6, 2+5, 3+4, 4+3, 5+2, 6+1), então P(soma 7) = 6/36 = 1/6.",
+        "Probabilidade indica o que se espera em muitas repetições: em 600 lançamentos de um dado, espera-se cerca de 100 vezes o 6. E, quando se tira uma bola e não se devolve (sem reposição), o total de bolas muda para a próxima retirada."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair cara numa moeda?",
+            "alternativas": [
+              "1/2",
+              "2",
+              "1/6",
+              "1/3"
+            ],
+            "correta": 0,
+            "explicacao": "Um caso favorável em dois possíveis.",
+            "dica": "Quantos lados tem a moeda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair 3 num dado comum?",
+            "alternativas": [
+              "1/2",
+              "1/6",
+              "3/6",
+              "1/3"
+            ],
+            "correta": 1,
+            "explicacao": "Um caso favorável (o 3) em seis possíveis.",
+            "dica": "Quantas faces tem o dado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a probabilidade de um evento impossível?",
+            "alternativas": [
+              "100",
+              "1",
+              "1/2",
+              "0"
+            ],
+            "correta": 3,
+            "explicacao": "Impossível: nenhum caso favorável.",
+            "dica": "Nenhum caso favorável dividido por qualquer número dá..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1/2 em porcentagem?",
+            "alternativas": [
+              "50%",
+              "2%",
+              "20%",
+              "12%"
+            ],
+            "correta": 0,
+            "explicacao": "1/2 = 0,5 = 50%.",
+            "dica": "É metade de 100%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fórmula da probabilidade (com resultados igualmente prováveis)?",
+            "alternativas": [
+              "Casos favoráveis × 100",
+              "Casos possíveis − 1",
+              "Casos favoráveis ÷ casos possíveis",
+              "Casos possíveis ÷ casos favoráveis"
+            ],
+            "correta": 2,
+            "explicacao": "Os favoráveis vão em cima; os possíveis, embaixo.",
+            "dica": "O que você quer fica em cima da fração."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um saco tem 3 bolas vermelhas, 5 azuis e 2 verdes. Qual é a chance de tirar uma azul?",
+            "alternativas": [
+              "30%",
+              "20%",
+              "50%",
+              "5%"
+            ],
+            "correta": 2,
+            "explicacao": "5 azuis em 10 bolas: 5/10 = 50%.",
+            "dica": "Some todas as bolas primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair um número par num dado?",
+            "alternativas": [
+              "2/3",
+              "1/3",
+              "1/2",
+              "1/6"
+            ],
+            "correta": 2,
+            "explicacao": "Pares: 2, 4 e 6. 3/6 = 1/2.",
+            "dica": "Conte os números pares de 1 a 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de NÃO sair 6 num dado?",
+            "alternativas": [
+              "5/6",
+              "6/5",
+              "1/5",
+              "1/6"
+            ],
+            "correta": 0,
+            "explicacao": "1 − 1/6 = 5/6.",
+            "dica": "Use o evento contrário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair um número maior que 4 num dado?",
+            "alternativas": [
+              "1/6",
+              "1/3",
+              "1/2",
+              "4/6"
+            ],
+            "correta": 1,
+            "explicacao": "Só 5 e 6: 2/6 = 1/3.",
+            "dica": "Quais números são maiores que 4?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma turma tem 30 alunos, sendo 12 meninas. Sorteando um aluno, qual é a chance de ser menina?",
+            "alternativas": [
+              "30%",
+              "60%",
+              "12%",
+              "40%"
+            ],
+            "correta": 3,
+            "explicacao": "12/30 = 2/5 = 0,4 = 40%.",
+            "dica": "Favoráveis sobre o total, depois porcentagem."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando duas moedas, qual é a chance de saírem duas caras?",
+            "alternativas": [
+              "1/2",
+              "2/4",
+              "1/4",
+              "1/3"
+            ],
+            "correta": 2,
+            "explicacao": "1/2 × 1/2 = 1/4. Dos 4 resultados, só um é cara-cara.",
+            "dica": "Liste os resultados possíveis com duas moedas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma roleta tem 8 partes iguais, 3 delas amarelas. Qual é a chance de NÃO cair no amarelo?",
+            "alternativas": [
+              "50%",
+              "80%",
+              "37,5%",
+              "62,5%"
+            ],
+            "correta": 3,
+            "explicacao": "5/8 = 0,625 = 62,5%.",
+            "dica": "Conte as partes que não são amarelas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sorteando um número de 1 a 20, qual é a chance de sair um múltiplo de 3?",
+            "alternativas": [
+              "30%",
+              "20%",
+              "33%",
+              "15%"
+            ],
+            "correta": 0,
+            "explicacao": "Múltiplos de 3: 3, 6, 9, 12, 15 e 18 (6 números). 6/20 = 30%.",
+            "dica": "Liste os múltiplos de 3 até 20."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 600 lançamentos de um dado, quantas vezes se espera que saia o 6?",
+            "alternativas": [
+              "Cerca de 300",
+              "Cerca de 100",
+              "Cerca de 60",
+              "Exatamente 6"
+            ],
+            "correta": 1,
+            "explicacao": "1/6 de 600 = 100.",
+            "dica": "Calcule um sexto de 600."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do menos provável para o mais provável, num dado comum.",
+            "itens": [
+              "Sair 7",
+              "Sair 6",
+              "Sair um número par",
+              "Sair um número de 1 a 6"
+            ],
+            "explicacao": "Probabilidades: 0, 1/6, 1/2 e 1.",
+            "dica": "Comece pelo impossível."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando dois dados, qual é a chance de a soma dar 7?",
+            "alternativas": [
+              "7/36",
+              "1/12",
+              "1/6",
+              "1/36"
+            ],
+            "correta": 2,
+            "explicacao": "6 resultados favoráveis em 36: 6/36 = 1/6.",
+            "dica": "Liste as somas 7: 1+6, 2+5..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um saco tem 3 bolas vermelhas e 2 azuis. Tirou-se uma vermelha, que não foi devolvida. Qual é a chance de a próxima ser vermelha?",
+            "alternativas": [
+              "2/5",
+              "1/2",
+              "3/5",
+              "3/4"
+            ],
+            "correta": 1,
+            "explicacao": "Sobraram 2 vermelhas em 4 bolas: 2/4 = 1/2.",
+            "dica": "Sem reposição, o saco mudou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando duas moedas, qual é a chance de sair pelo menos uma cara?",
+            "alternativas": [
+              "1/4",
+              "3/4",
+              "1",
+              "1/2"
+            ],
+            "correta": 1,
+            "explicacao": "Só coroa-coroa não serve: 1 − 1/4 = 3/4.",
+            "dica": "Use o contrário: qual resultado não tem cara?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando dois dados, qual é a chance de a soma dar 12?",
+            "alternativas": [
+              "1/12",
+              "2/36",
+              "1/6",
+              "1/36"
+            ],
+            "correta": 3,
+            "explicacao": "Só 6 + 6 dá 12: 1 caso em 36.",
+            "dica": "Quantas combinações dão 12?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lança-se um dado e uma moeda. Qual é a chance de sair número par e cara?",
+            "alternativas": [
+              "1/4",
+              "1",
+              "1/8",
+              "1/2"
+            ],
+            "correta": 0,
+            "explicacao": "P(par) = 1/2 e P(cara) = 1/2. Juntos: 1/2 × 1/2 = 1/4.",
+            "dica": "Eventos independentes: multiplique."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Projeto final: quiz de perguntas com pontuação",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O projeto final é um quiz: o programa faz perguntas, confere as respostas e soma pontos. Ele junta lista, laço, condição, acumulador e função.",
+          "Os dados ficam numa lista de listas, cada item com pergunta e resposta: perguntas ← [['Capital do Brasil?', 'brasília'], ['Quanto é 7 × 8?', '56'], ['Quantos lados tem o triângulo?', '3']].",
+          "O laço: pontos ← 0; PARA CADA item EM perguntas FAÇA ESCREVA item[0]; LEIA resp; SE minúsculas(resp) = item[1] ENTÃO pontos ← pontos + 1; ESCREVA 'Acertou!' SENÃO ESCREVA 'Errou! A resposta era ', item[1].",
+          "No fim: ESCREVA 'Você fez ', pontos, ' de ', tamanho(perguntas). A porcentagem é pontos ÷ tamanho(perguntas) × 100.",
+          "Mensagem por faixa: SE porcentagem ≥ 80 ENTÃO 'Excelente!' SENÃO SE porcentagem ≥ 50 ENTÃO 'Bom!' SENÃO 'Vamos revisar!'. Teste com todas certas, todas erradas e algumas certas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O quiz tem 5 perguntas e o jogador acertou 4. Qual é a porcentagem e a mensagem?",
+            "resolucao": "4 ÷ 5 × 100 = 80%. Como 80 ≥ 80, a mensagem é 'Excelente!'."
+          },
+          {
+            "enunciado": "Por que o programa usa minúsculas(resp)?",
+            "resolucao": "Para que 'Brasília', 'BRASÍLIA' e 'brasília' contem como a mesma resposta."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Perguntas difíceis podem valer mais: guarde o peso como terceiro item (['Quanto é 12 × 12?', '144', 2]) e some item[2] em vez de 1. O total possível passa a ser a soma dos pesos.",
+        "Uma função deixa o código mais limpo: FUNÇÃO corrigir(resp, certa): RETORNE minúsculas(resp) = certa. Antes de comparar, vale tirar os espaços do começo e do fim da resposta. Para aceitar formas diferentes, como com e sem acento, a resposta certa pode ser uma lista de opções.",
+        "A ordem dos SE importa: teste primeiro a faixa mais alta. E embaralhar as perguntas com números aleatórios evita que o jogador decore a ordem."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No quiz, qual variável soma os acertos?",
+            "alternativas": [
+              "perguntas",
+              "pontos",
+              "item",
+              "resp"
+            ],
+            "correta": 1,
+            "explicacao": "pontos é o acumulador de acertos.",
+            "dica": "É o acumulador do programa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com que valor pontos começa?",
+            "alternativas": [
+              "10",
+              "−1",
+              "0",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "Antes da primeira pergunta, ninguém acertou nada.",
+            "dica": "Quantos acertos há antes de começar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que estrutura repete o processo para cada pergunta?",
+            "alternativas": [
+              "Um laço",
+              "Um comentário",
+              "Um gráfico",
+              "Uma senha"
+            ],
+            "correta": 0,
+            "explicacao": "PARA CADA item EM perguntas repete para cada item.",
+            "dica": "Algo que se repete várias vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que estrutura decide se a resposta está certa?",
+            "alternativas": [
+              "O laço PARA",
+              "A variável pontos",
+              "O ESCREVA",
+              "A condição SE"
+            ],
+            "correta": 3,
+            "explicacao": "SE compara a resposta com a certa.",
+            "dica": "É a estrutura que escolhe entre dois caminhos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o funcionamento do quiz.",
+            "itens": [
+              "Começar pontos em 0",
+              "Mostrar a pergunta",
+              "Ler a resposta",
+              "Conferir e somar o ponto",
+              "Mostrar o total no fim"
+            ],
+            "explicacao": "Prepara, pergunta, lê, confere e mostra o resultado.",
+            "dica": "O que precisa existir antes da primeira pergunta?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "item ← ['Quanto é 7 × 8?', '56']. Quanto vale item[1]?",
+            "alternativas": [
+              "Dá erro",
+              "'Quanto é 7 × 8?'",
+              "'56'",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "item[0] é a pergunta; item[1] é a resposta.",
+            "dica": "A contagem começa em 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O quiz tem 5 perguntas e o jogador acertou 4. Qual é a porcentagem?",
+            "alternativas": [
+              "4",
+              "45",
+              "125",
+              "80"
+            ],
+            "correta": 3,
+            "explicacao": "4 ÷ 5 × 100 = 80.",
+            "dica": "Divida os acertos pelo total e multiplique por 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que comparar minúsculas(resp) com a resposta certa?",
+            "alternativas": [
+              "Para que 'Brasília' e 'brasília' contem igual",
+              "Para mostrar letras maiores",
+              "Para deixar o programa mais lento",
+              "Para apagar a resposta"
+            ],
+            "correta": 0,
+            "explicacao": "Maiúsculas e minúsculas não devem mudar o resultado.",
+            "dica": "O jogador pode digitar com letra maiúscula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com a regra da lição, que mensagem aparece para 60%?",
+            "alternativas": [
+              "Excelente!",
+              "Bom!",
+              "60",
+              "Vamos revisar!"
+            ],
+            "correta": 1,
+            "explicacao": "60 não chega a 80, mas é maior ou igual a 50.",
+            "dica": "Compare 60 com as faixas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o conjunto de testes mais completo?",
+            "alternativas": [
+              "Só todas certas",
+              "Todas certas, todas erradas e algumas certas",
+              "Nenhum teste",
+              "Só uma pergunta"
+            ],
+            "correta": 1,
+            "explicacao": "Testar casos diferentes mostra se o programa funciona em todos.",
+            "dica": "Teste o melhor, o pior e o meio."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O quiz tem 8 perguntas e o jogador acertou 6. Que mensagem aparece?",
+            "alternativas": [
+              "Bom!",
+              "75",
+              "Vamos revisar!",
+              "Excelente!"
+            ],
+            "correta": 0,
+            "explicacao": "6 ÷ 8 × 100 = 75%. Fica entre 50 e 80: 'Bom!'.",
+            "dica": "Calcule a porcentagem e veja a faixa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O programador colocou pontos ← 0 dentro do laço. O que acontece?",
+            "alternativas": [
+              "O programa soma em dobro",
+              "Nada muda",
+              "O laço para de funcionar",
+              "Os pontos zeram a cada pergunta, e o total final fica errado"
+            ],
+            "correta": 3,
+            "explicacao": "A cada volta, o acumulador volta a zero: no fim, mostra no máximo 1.",
+            "dica": "O que acontece com os pontos a cada volta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Há 3 perguntas fáceis (1 ponto) e 2 difíceis (2 pontos). O jogador acertou 2 fáceis e 2 difíceis. Qual é o resultado?",
+            "alternativas": [
+              "6 de 5",
+              "6 de 7",
+              "4 de 5",
+              "5 de 7"
+            ],
+            "correta": 1,
+            "explicacao": "Pontos: 2 × 1 + 2 × 2 = 6. Total: 3 × 1 + 2 × 2 = 7.",
+            "dica": "Use os pesos nos acertos e também no total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O jogador digitou ' 56 ' (com espaços) e o programa disse que errou. Como corrigir?",
+            "alternativas": [
+              "Apagar a pergunta",
+              "Somar 1 ponto sempre",
+              "Tirar os espaços do começo e do fim antes de comparar",
+              "Aumentar a fonte"
+            ],
+            "correta": 2,
+            "explicacao": "Espaços extras fazem o texto ficar diferente de '56'.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 10 perguntas e pontos = 7, o que mostra ESCREVA 'Você fez ', pontos, ' de ', tamanho(perguntas)?",
+            "alternativas": [
+              "Você fez 70",
+              "Você fez pontos de perguntas",
+              "Você fez 7 de 10",
+              "Você fez 10 de 7"
+            ],
+            "correta": 2,
+            "explicacao": "O programa troca as variáveis pelos valores.",
+            "dica": "Substitua cada variável pelo valor."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No quiz com pesos, o jogador fez 6 de 7 pontos. Que mensagem aparece?",
+            "alternativas": [
+              "Bom!",
+              "Excelente!",
+              "6",
+              "Vamos revisar!"
+            ],
+            "correta": 1,
+            "explicacao": "6 ÷ 7 × 100 ≈ 85,7%, que é maior ou igual a 80.",
+            "dica": "Calcule a porcentagem com os pontos do peso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO corrigir(resp, certa): RETORNE minúsculas(resp) = certa. O que corrigir('SIM', 'sim') devolve?",
+            "alternativas": [
+              "'SIM'",
+              "Falso",
+              "Verdadeiro",
+              "Dá erro"
+            ],
+            "correta": 2,
+            "explicacao": "minúsculas('SIM') = 'sim', igual à certa.",
+            "dica": "Transforme a resposta antes de comparar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE p ≥ 50 ENTÃO 'Bom!' SENÃO SE p ≥ 80 ENTÃO 'Excelente!' SENÃO 'Vamos revisar!'. O que aparece para p = 90?",
+            "alternativas": [
+              "Excelente!",
+              "Nada",
+              "Bom!",
+              "Vamos revisar!"
+            ],
+            "correta": 2,
+            "explicacao": "90 ≥ 50 já é verdadeiro, então o programa nem chega ao teste de 80. Por isso a faixa mais alta deve vir primeiro.",
+            "dica": "O programa para no primeiro SE verdadeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que embaralhar as perguntas a cada partida?",
+            "alternativas": [
+              "Para o jogador não decorar a ordem",
+              "Para deixar as respostas erradas",
+              "Para o programa ficar mais lento",
+              "Para apagar perguntas"
+            ],
+            "correta": 0,
+            "explicacao": "Mudando a ordem, o quiz testa o conhecimento, não a memória da sequência.",
+            "dica": "O que acontece se a ordem for sempre a mesma?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A resposta certa guardada é 'brasília' e o jogador digita 'brasilia', sem acento. O que acontece e como resolver?",
+            "alternativas": [
+              "Conta como erro e não há solução",
+              "Conta como acerto sempre",
+              "O programa trava",
+              "Conta como erro, a menos que a resposta certa seja uma lista que aceite as duas formas"
+            ],
+            "correta": 3,
+            "explicacao": "Para o computador, 'brasilia' e 'brasília' são textos diferentes.",
+            "dica": "Releia o fim do segundo parágrafo do aprofundamento."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Projeto: folheto de divulgação de um pequeno negócio",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Neste projeto, você cria no Word um folheto para divulgar um pequeno negócio: pode ser a barraca de um projeto da escola ou um negócio do bairro que você conhece.",
+          "Partes do folheto: nome e imagem (ou logotipo); uma frase de impacto (slogan); o que é vendido e os preços; o diferencial; e o contato, com telefone, endereço e horário.",
+          "Layout: em Layout > Orientação, escolha Paisagem e, em Layout > Colunas, escolha Três, para um folheto dobrado em três. Para imagens, use Inserir > Imagens; para destaques, Inserir > Formas ou Caixa de Texto.",
+          "Design: use no máximo duas fontes, cores que combinem e bom contraste (letra escura em fundo claro, ou o contrário). Texto curto, alinhado e com espaço em branco.",
+          "Revise ortografia, preços e telefone. Depois, salve em PDF (Arquivo > Salvar como > PDF) e, se puder, imprima um teste."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva um slogan para uma barraca de brigadeiros da feira de projetos.",
+            "resolucao": "\"Um docinho que abraça.\" Curto, fácil de lembrar e ligado ao produto."
+          },
+          {
+            "enunciado": "Como montar o texto de preços de forma clara?",
+            "resolucao": "Uma linha por produto, com o preço alinhado: \"Brigadeiro tradicional ... R$ 2,50\" e \"Promoção: 5 por R$ 10,00\"."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Hierarquia visual: o mais importante aparece maior e primeiro (nome e oferta); detalhes, como o horário, ficam menores. Para controlar onde cada coluna começa, use Layout > Quebras > Coluna.",
+        "No folheto de três dobras, a página de fora tem, da esquerda para a direita: a aba que fica por dentro, o verso e a capa. Ou seja, a capa é a coluna da direita da primeira página.",
+        "Só use imagens próprias ou livres de direitos autorais. E pense no público: para pessoas idosas, letras maiores e contraste forte facilitam a leitura."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google), crie o folheto de um pequeno negócio: pode ser uma barraca da feira de projetos da escola ou um negócio do bairro que você conhece. 1) Em Layout, escolha a orientação Paisagem e três colunas. 2) Na coluna da direita, faça a capa: nome do negócio em letras grandes, uma imagem própria ou livre de direitos e um slogan. 3) Nas outras colunas, coloque o que é vendido com preços alinhados, o diferencial (por que comprar ali) e o contato (telefone, endereço e horário). 4) Use no máximo duas fontes e duas ou três cores com bom contraste. 5) Use Layout > Quebras > Coluna para organizar o texto. 6) Revise a ortografia, confira preços e telefone e salve em PDF.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um folheto de divulgação?",
+            "alternativas": [
+              "Para guardar senhas",
+              "Para escrever um diário",
+              "Para fazer contas",
+              "Para apresentar o negócio e atrair clientes"
+            ],
+            "correta": 3,
+            "explicacao": "O folheto divulga o negócio.",
+            "dica": "Divulgar é tornar conhecido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual informação não pode faltar no folheto?",
+            "alternativas": [
+              "A data de nascimento do dono",
+              "O contato do negócio",
+              "A nota da prova",
+              "A senha do Wi-Fi"
+            ],
+            "correta": 1,
+            "explicacao": "Sem contato, o cliente não consegue comprar.",
+            "dica": "Como o cliente vai encontrar você?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como inserir uma imagem no Word?",
+            "alternativas": [
+              "Inserir > Imagens",
+              "Exibir > Zoom",
+              "Arquivo > Fechar",
+              "Revisão > Ortografia"
+            ],
+            "correta": 0,
+            "explicacao": "Imagens ficam na guia Inserir.",
+            "dica": "Você vai colocar algo novo no documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas fontes, no máximo, é bom usar num folheto?",
+            "alternativas": [
+              "Seis",
+              "Duas",
+              "Uma para cada palavra",
+              "Dez"
+            ],
+            "correta": 1,
+            "explicacao": "Poucas fontes deixam o folheto organizado.",
+            "dica": "Menos é mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazer antes de imprimir?",
+            "alternativas": [
+              "Nada",
+              "Trocar todas as fontes",
+              "Revisar ortografia, preços e telefone",
+              "Apagar o contato"
+            ],
+            "correta": 2,
+            "explicacao": "Um erro no preço ou no telefone atrapalha a venda.",
+            "dica": "Confira as informações mais importantes."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como dividir a página em três colunas?",
+            "alternativas": [
+              "Inserir > Tabela > Três",
+              "Layout > Colunas > Três",
+              "Revisão > Três",
+              "Arquivo > Imprimir > Três"
+            ],
+            "correta": 1,
+            "explicacao": "O comando de colunas fica em Layout.",
+            "dica": "É o mesmo lugar da orientação da página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deixar a página deitada?",
+            "alternativas": [
+              "Página Inicial > Deitar",
+              "Exibir > Girar",
+              "Inserir > Paisagem",
+              "Layout > Orientação > Paisagem"
+            ],
+            "correta": 3,
+            "explicacao": "Paisagem é a página deitada.",
+            "dica": "Orientação fica em Layout."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação tem bom contraste?",
+            "alternativas": [
+              "Letra amarela em fundo branco",
+              "Letra azul-escura em fundo branco",
+              "Letra cinza-clara em fundo branco",
+              "Letra preta em fundo azul-marinho"
+            ],
+            "correta": 1,
+            "explicacao": "Escuro sobre claro facilita a leitura.",
+            "dica": "As cores precisam ser bem diferentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor slogan para uma barraca de brigadeiros?",
+            "alternativas": [
+              "Brigadeiro.",
+              "Nossa barraca vende brigadeiros feitos com chocolate e leite condensado todos os dias.",
+              "Um docinho que abraça.",
+              "Compre."
+            ],
+            "correta": 2,
+            "explicacao": "Slogan é curto, criativo e fácil de lembrar.",
+            "dica": "Procure a frase curta que fica na memória."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como salvar o folheto em PDF?",
+            "alternativas": [
+              "Arquivo > Salvar como > PDF",
+              "Inserir > PDF",
+              "Layout > PDF",
+              "Revisão > PDF"
+            ],
+            "correta": 0,
+            "explicacao": "O PDF é um formato escolhido ao salvar.",
+            "dica": "Salvar fica no menu Arquivo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fazer o texto começar na coluna seguinte, sem encher a atual?",
+            "alternativas": [
+              "Apagar o texto",
+              "Layout > Quebras > Coluna",
+              "Diminuir a fonte para 2",
+              "Apertar Enter várias vezes até mudar"
+            ],
+            "correta": 1,
+            "explicacao": "A quebra de coluna leva o texto para a próxima coluna.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela hierarquia visual, o que deve aparecer maior no folheto?",
+            "alternativas": [
+              "O horário de funcionamento",
+              "Os detalhes do ingrediente",
+              "O endereço completo",
+              "O nome do negócio e a oferta principal"
+            ],
+            "correta": 3,
+            "explicacao": "O mais importante aparece maior e primeiro.",
+            "dica": "O que o cliente precisa ver primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você achou na internet uma foto bonita, com direitos autorais. O que fazer?",
+            "alternativas": [
+              "Usar só imagens próprias ou livres de direitos",
+              "Usar sem pedir, ninguém vai ver",
+              "Copiar e dizer que é sua",
+              "Recortar a marca d'água"
+            ],
+            "correta": 0,
+            "explicacao": "Usar imagem protegida sem permissão é desrespeitar os direitos do autor.",
+            "dica": "De quem é a foto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um folheto usa 6 fontes e 8 cores diferentes. Qual é o problema?",
+            "alternativas": [
+              "Fica mais profissional",
+              "Fica mais barato de imprimir",
+              "Fica poluído e difícil de ler",
+              "Nenhum problema"
+            ],
+            "correta": 2,
+            "explicacao": "Excesso de fontes e cores confunde o leitor.",
+            "dica": "Lembre a regra das fontes."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as etapas do projeto do folheto.",
+            "itens": [
+              "Definir as informações do folheto",
+              "Configurar a orientação e as colunas",
+              "Inserir textos e imagens",
+              "Revisar e salvar em PDF"
+            ],
+            "explicacao": "Planeja, configura, preenche e revisa.",
+            "dica": "Antes de abrir o Word, saiba o que vai escrever."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num folheto de três dobras, onde fica a capa?",
+            "alternativas": [
+              "Na coluna da esquerda da primeira página",
+              "No meio da segunda página",
+              "Na coluna da direita da primeira página",
+              "Na coluna da esquerda da segunda página"
+            ],
+            "correta": 2,
+            "explicacao": "Na página de fora: aba interna, verso e capa, da esquerda para a direita.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual erro é o mais grave num folheto?",
+            "alternativas": [
+              "Uma vírgula a mais",
+              "O telefone errado",
+              "Uma cor um pouco diferente",
+              "Um espaço duplo"
+            ],
+            "correta": 1,
+            "explicacao": "Com o contato errado, o cliente não consegue comprar.",
+            "dica": "Qual erro impede a venda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O folheto diz \"R$ 2,50 cada ou 5 por R$ 10,00\". Quanto economiza quem compra 5?",
+            "alternativas": [
+              "R$ 5,00",
+              "R$ 2,50",
+              "R$ 0,50",
+              "R$ 12,50"
+            ],
+            "correta": 1,
+            "explicacao": "5 × 2,50 = 12,50. 12,50 − 10,00 = 2,50.",
+            "dica": "Calcule quanto custariam 5 avulsos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o espaço em branco no folheto?",
+            "alternativas": [
+              "Para facilitar a leitura e destacar o importante",
+              "Para esconder informações",
+              "Para gastar papel",
+              "Não serve para nada"
+            ],
+            "correta": 0,
+            "explicacao": "O espaço em branco organiza e dá respiro ao texto.",
+            "dica": "Um folheto cheio de texto convida a ler?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O folheto é para os clientes de um centro de convivência de idosos. O que ajustar?",
+            "alternativas": [
+              "Usar letras bem pequenas",
+              "Tirar o contato",
+              "Usar só cores claras",
+              "Usar letras maiores e contraste forte"
+            ],
+            "correta": 3,
+            "explicacao": "Pensar no público melhora a comunicação.",
+            "dica": "Pense em quem vai ler."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Apresentar o negócio em um minuto (pitch)",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Pitch é uma apresentação curta, de cerca de um minuto, para convencer alguém a comprar, apoiar ou investir no seu negócio.",
+          "Estrutura: o problema (qual necessidade o cliente tem); a solução (o seu produto); o cliente (para quem é); o preço e como o negócio ganha dinheiro; o diferencial (por que comprar de você); e um convite final, a chamada para ação.",
+          "Use números simples e concretos: \"custa R$ 2,50 e fica pronto em 10 minutos\".",
+          "Fale com clareza, olhe para as pessoas e ensaie com cronômetro. Em um minuto, fala-se cerca de 130 palavras.",
+          "Seja honesto: não prometa o que não pode cumprir. A confiança é o maior patrimônio de um negócio."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva um pitch curto para uma barraca de brigadeiros da feira de projetos.",
+            "resolucao": "\"No intervalo, muita gente fica com vontade de um doce e não acha nada perto. Nossa barraca vende brigadeiros feitos no dia, a R$ 2,50, ou 5 por R$ 10,00. O diferencial: três sabores e embalagem que não derrete. Passe na barraca 12 e prove!\""
+          },
+          {
+            "enunciado": "Cada brigadeiro custa R$ 0,90 para fazer e é vendido a R$ 2,50. Qual é o lucro por unidade? E em 50 unidades?",
+            "resolucao": "2,50 − 0,90 = R$ 1,60 por unidade. 50 × 1,60 = R$ 80,00."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Comece com um gancho: uma pergunta ou um dado que prenda a atenção (\"Quem aqui já ficou com fome no intervalo?\"). Se o negócio tem equipe, mostre quem faz o quê: cada um no seu talento, com a divisão justa do resultado.",
+        "Prepare-se para as perguntas: quanto custa produzir, quem são os concorrentes, quanto pretende vender. Responder com números e com sinceridade passa confiança.",
+        "Ponto de equilíbrio: quantas unidades vender para pagar os custos fixos. Conta: custos fixos ÷ lucro por unidade. Com R$ 40,00 de custos fixos (cartaz e embalagens) e lucro de R$ 1,60 por brigadeiro, são 40 ÷ 1,60 = 25 brigadeiros. Exageros como \"o melhor do mundo\" ou promessas impossíveis afastam clientes e podem virar propaganda enganosa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um pitch?",
+            "alternativas": [
+              "Um tipo de imposto",
+              "Um contrato de aluguel",
+              "Uma receita de bolo",
+              "Uma apresentação curta para convencer"
+            ],
+            "correta": 3,
+            "explicacao": "Pitch é a apresentação rápida do negócio.",
+            "dica": "É uma fala curta e convincente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto tempo dura, em geral, um pitch?",
+            "alternativas": [
+              "Uma hora",
+              "Um dia inteiro",
+              "Cerca de 1 minuto",
+              "Dez segundos sem falar"
+            ],
+            "correta": 2,
+            "explicacao": "É curto: cerca de um minuto.",
+            "dica": "O título da aula dá a pista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por qual parte o pitch costuma começar?",
+            "alternativas": [
+              "Pelo nome dos avós",
+              "Pelo problema do cliente",
+              "Pela despedida",
+              "Pelo preço da embalagem"
+            ],
+            "correta": 1,
+            "explicacao": "Primeiro se mostra a necessidade, depois a solução.",
+            "dica": "Que necessidade o produto resolve?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude ajuda na apresentação?",
+            "alternativas": [
+              "Olhar só para o chão",
+              "Falar muito baixo",
+              "Ler de costas para o público",
+              "Falar com clareza e olhar para as pessoas"
+            ],
+            "correta": 3,
+            "explicacao": "Clareza e contato visual passam confiança.",
+            "dica": "Como você convence alguém conversando?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que nunca fazer num pitch?",
+            "alternativas": [
+              "Prometer o que não pode cumprir",
+              "Agradecer",
+              "Mostrar o produto",
+              "Dizer o preço"
+            ],
+            "correta": 0,
+            "explicacao": "Promessa falsa destrói a confiança.",
+            "dica": "O que acaba com a confiança do cliente?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O brigadeiro custa R$ 0,90 e é vendido a R$ 2,50. Qual é o lucro por unidade?",
+            "alternativas": [
+              "R$ 1,60",
+              "R$ 2,50",
+              "R$ 3,40",
+              "R$ 0,90"
+            ],
+            "correta": 0,
+            "explicacao": "2,50 − 0,90 = 1,60.",
+            "dica": "Preço menos custo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com lucro de R$ 1,60 por unidade, quanto se ganha vendendo 50?",
+            "alternativas": [
+              "R$ 16,00",
+              "R$ 80,00",
+              "R$ 50,00",
+              "R$ 125,00"
+            ],
+            "correta": 1,
+            "explicacao": "50 × 1,60 = 80.",
+            "dica": "Multiplique o lucro de uma unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o diferencial?",
+            "alternativas": [
+              "O que torna o seu produto especial em relação aos outros",
+              "O troco do cliente",
+              "O dia da semana",
+              "O nome do concorrente"
+            ],
+            "correta": 0,
+            "explicacao": "O diferencial responde: por que comprar de você?",
+            "dica": "Por que o cliente escolheria você?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é uma chamada para ação?",
+            "alternativas": [
+              "Começamos a planejar em março.",
+              "Brigadeiro é feito de chocolate.",
+              "Passe na barraca 12 e prove!",
+              "O chocolate vem do cacau."
+            ],
+            "correta": 2,
+            "explicacao": "A chamada para ação convida o cliente a agir.",
+            "dica": "Qual delas convida a fazer algo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor forma de ensaiar o pitch?",
+            "alternativas": [
+              "Não ensaiar",
+              "Só pensar, sem falar",
+              "Ensaiar só no dia, na frente do público",
+              "Com cronômetro, em voz alta"
+            ],
+            "correta": 3,
+            "explicacao": "O cronômetro mostra se cabe em um minuto.",
+            "dica": "Como saber se cabe no tempo?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Os custos fixos são R$ 40,00 e o lucro é R$ 1,60 por brigadeiro. Quantos brigadeiros vender para pagar os custos fixos?",
+            "alternativas": [
+              "40",
+              "64",
+              "16",
+              "25"
+            ],
+            "correta": 3,
+            "explicacao": "40 ÷ 1,60 = 25.",
+            "dica": "Divida os custos fixos pelo lucro de cada unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O seu pitch tem 300 palavras e precisa caber em um minuto. O que fazer?",
+            "alternativas": [
+              "Ler tudo mesmo passando do tempo",
+              "Falar o dobro da velocidade",
+              "Cortar para cerca de 130 palavras, deixando só o essencial",
+              "Tirar o problema e a solução"
+            ],
+            "correta": 2,
+            "explicacao": "Em um minuto, fala-se cerca de 130 palavras.",
+            "dica": "Quantas palavras cabem em um minuto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor gancho de abertura?",
+            "alternativas": [
+              "Não sei bem o que dizer.",
+              "Quem aqui já ficou com fome no intervalo sem ter o que comer?",
+              "Bom dia, meu nome é Talita.",
+              "Vou falar de brigadeiro."
+            ],
+            "correta": 1,
+            "explicacao": "Uma pergunta que toca o problema prende a atenção.",
+            "dica": "Qual delas faz o público pensar no problema?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A banca pergunta: \"Quanto custa produzir?\". Qual é a melhor resposta?",
+            "alternativas": [
+              "Cada brigadeiro custa R$ 0,90, contando ingredientes e embalagem.",
+              "É segredo, não posso contar nada.",
+              "Não sei, isso não importa.",
+              "É baratinho."
+            ],
+            "correta": 0,
+            "explicacao": "Responder com número e sinceridade passa confiança.",
+            "dica": "Qual delas tem um número concreto?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as partes de um pitch.",
+            "itens": [
+              "O problema do cliente",
+              "A solução: o produto",
+              "O cliente e o preço",
+              "O diferencial e a chamada para ação"
+            ],
+            "explicacao": "Problema, solução, cliente e preço, diferencial e convite.",
+            "dica": "Comece pela necessidade."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A barraca vendeu 80 brigadeiros com lucro de R$ 1,60 cada e teve R$ 40,00 de custos fixos. Qual foi o lucro final?",
+            "alternativas": [
+              "R$ 200,00",
+              "R$ 88,00",
+              "R$ 160,00",
+              "R$ 128,00"
+            ],
+            "correta": 1,
+            "explicacao": "80 × 1,60 = 128. 128 − 40 = 88.",
+            "dica": "Não esqueça de tirar os custos fixos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Talita apresenta o negócio com mais três colegas. O que é bom mostrar no pitch sobre a equipe?",
+            "alternativas": [
+              "Que só ela trabalha",
+              "Quem faz o quê, cada um no seu talento, e que o resultado é dividido de forma justa",
+              "Nada, equipe não importa",
+              "Que os colegas não ganham nada"
+            ],
+            "correta": 1,
+            "explicacao": "Equipe organizada e tratada com justiça passa confiança.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O cartaz diz: \"O melhor brigadeiro do mundo, que cura qualquer tristeza!\". Qual é o problema?",
+            "alternativas": [
+              "É exagero que não se pode comprovar e pode virar propaganda enganosa",
+              "O cartaz é pequeno demais",
+              "Nenhum, é só criatividade",
+              "Falta dizer o preço em dólar"
+            ],
+            "correta": 0,
+            "explicacao": "Promessas impossíveis enganam o cliente e quebram a confiança.",
+            "dica": "Dá para provar essa promessa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A R$ 2,50, a barraca vende 60 brigadeiros; a R$ 3,00, vende 40. O custo é R$ 0,90. Qual preço dá mais lucro?",
+            "alternativas": [
+              "Os dois dão o mesmo lucro",
+              "R$ 3,00, porque o preço é maior",
+              "R$ 2,50, com R$ 12,00 a mais",
+              "R$ 3,00, com R$ 12,00 a mais"
+            ],
+            "correta": 2,
+            "explicacao": "A 2,50: 60 × 1,60 = 96. A 3,00: 40 × 2,10 = 84. Diferença: 12.",
+            "dica": "Calcule o lucro total de cada opção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Falando cerca de 130 palavras por minuto, quantas palavras cabem num pitch de 1 minuto e 30 segundos?",
+            "alternativas": [
+              "Cerca de 165",
+              "Cerca de 260",
+              "Cerca de 130",
+              "Cerca de 195"
+            ],
+            "correta": 3,
+            "explicacao": "1,5 × 130 = 195.",
+            "dica": "Um minuto e meio é 1,5 minuto."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Linguagem verbal e não verbal",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Linguagem verbal é a que usa palavras, faladas ou escritas: uma conversa, um bilhete, uma notícia.",
+          "Linguagem não verbal comunica sem palavras: imagens, cores, gestos, sons e símbolos. O semáforo, o apito do juiz e o polegar para cima são exemplos.",
+          "Linguagem mista junta as duas: tirinhas, cartazes, anúncios e placas com desenho e texto.",
+          "A não verbal é rápida e pode ser entendida por pessoas que falam línguas diferentes (como as placas de banheiro), mas às vezes tem mais de um sentido. A verbal costuma ser mais precisa.",
+          "Ao ler um cartaz ou anúncio, observe as duas linguagens: a imagem pode reforçar o texto ou até contradizê-lo, criando humor ou crítica."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: a placa de PARE (vermelha, com a palavra escrita) e o apito do juiz.",
+            "resolucao": "A placa de PARE é linguagem mista (cor, forma e palavra). O apito é linguagem não verbal sonora."
+          },
+          {
+            "enunciado": "Um cartaz mostra uma praia cheia de lixo com a palavra \"Paraíso\". Que efeito isso cria?",
+            "resolucao": "A imagem contradiz o texto e cria ironia: o cartaz critica a sujeira deixada na praia."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Os gestos mudam de sentido conforme a cultura: o círculo feito com o polegar e o indicador significa \"tudo bem\" em alguns países e é ofensivo em outros, inclusive para muita gente no Brasil.",
+        "As cores também carregam sentidos combinados: em placas de trânsito, o vermelho indica proibição ou perigo, e o verde indica permissão. Símbolos como o das setas da reciclagem só funcionam porque as pessoas aprenderam o seu significado.",
+        "Quando a imagem e o texto trabalham juntos, o leitor precisa relacionar os dois para entender a mensagem completa. Informações exatas, como datas, horários e endereços, pedem linguagem verbal."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A linguagem verbal usa:",
+            "alternativas": [
+              "só cores",
+              "só sons de buzina",
+              "palavras",
+              "só gestos"
+            ],
+            "correta": 2,
+            "explicacao": "Verbal vem de verbo, palavra.",
+            "dica": "Verbal tem a ver com palavra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um exemplo de linguagem não verbal?",
+            "alternativas": [
+              "O semáforo",
+              "Uma notícia escrita",
+              "Uma carta",
+              "Um bilhete"
+            ],
+            "correta": 0,
+            "explicacao": "O semáforo comunica pelas cores, sem palavras.",
+            "dica": "Procure o que comunica sem palavras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A tirinha, com desenhos e balões de fala, é linguagem:",
+            "alternativas": [
+              "só verbal",
+              "nenhuma",
+              "mista",
+              "só não verbal"
+            ],
+            "correta": 2,
+            "explicacao": "Junta imagem e palavra.",
+            "dica": "Ela tem desenho e texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A placa de banheiro com o desenho de uma pessoa é linguagem:",
+            "alternativas": [
+              "mista com texto longo",
+              "não verbal",
+              "verbal",
+              "oral"
+            ],
+            "correta": 1,
+            "explicacao": "Só o desenho comunica.",
+            "dica": "Há palavras na placa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma carta escrita só com palavras é linguagem:",
+            "alternativas": [
+              "não verbal",
+              "mista",
+              "sonora",
+              "verbal"
+            ],
+            "correta": 3,
+            "explicacao": "Só palavras: verbal.",
+            "dica": "Ela usa só palavras."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O apito do juiz é linguagem:",
+            "alternativas": [
+              "mista",
+              "verbal escrita",
+              "não verbal sonora",
+              "verbal oral"
+            ],
+            "correta": 2,
+            "explicacao": "É um som, sem palavras.",
+            "dica": "O apito fala palavras?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cartaz com foto e uma frase é linguagem:",
+            "alternativas": [
+              "mista",
+              "só não verbal",
+              "oral",
+              "só verbal"
+            ],
+            "correta": 0,
+            "explicacao": "Imagem + palavra = mista.",
+            "dica": "Ele junta duas formas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma vantagem da linguagem não verbal?",
+            "alternativas": [
+              "Nunca tem mais de um sentido",
+              "Serve para escrever datas exatas",
+              "É sempre mais precisa que as palavras",
+              "É rápida e pode ser entendida por quem fala outras línguas"
+            ],
+            "correta": 3,
+            "explicacao": "Placas com desenhos funcionam para pessoas de vários países.",
+            "dica": "Pense num turista que não fala português."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O polegar para cima costuma significar:",
+            "alternativas": [
+              "proibido",
+              "perigo",
+              "aprovação, tudo certo",
+              "silêncio"
+            ],
+            "correta": 2,
+            "explicacao": "É um gesto comum de aprovação.",
+            "dica": "Pense quando alguém faz esse gesto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma desvantagem da linguagem não verbal?",
+            "alternativas": [
+              "Não existe na vida real",
+              "Às vezes tem mais de um sentido",
+              "Ninguém entende imagens",
+              "É lenta demais"
+            ],
+            "correta": 1,
+            "explicacao": "Uma imagem pode ser interpretada de jeitos diferentes.",
+            "dica": "Uma imagem sempre quer dizer uma coisa só?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um anúncio mostra uma praia cheia de lixo com a palavra \"Paraíso\". Qual é o efeito?",
+            "alternativas": [
+              "É uma propaganda de produto de limpeza sem crítica",
+              "A imagem confirma que a praia é limpa",
+              "Não há relação entre imagem e texto",
+              "A imagem contradiz o texto e cria uma crítica irônica"
+            ],
+            "correta": 3,
+            "explicacao": "O contraste entre imagem e palavra gera ironia.",
+            "dica": "A imagem combina com a palavra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O símbolo das setas da reciclagem funciona porque:",
+            "alternativas": [
+              "é sempre vermelho",
+              "tem palavras escritas",
+              "as pessoas aprenderam o significado combinado dele",
+              "faz barulho"
+            ],
+            "correta": 2,
+            "explicacao": "Símbolos têm sentidos combinados socialmente.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um turista que não fala português entende a placa de proibido fumar (cigarro cortado). Por quê?",
+            "alternativas": [
+              "Porque a linguagem não verbal pode ser entendida em várias línguas",
+              "Porque a placa tem um texto longo em inglês",
+              "Porque a placa toca uma música",
+              "Porque todo turista fala português"
+            ],
+            "correta": 0,
+            "explicacao": "O desenho comunica sem depender da língua.",
+            "dica": "Ele precisou ler alguma palavra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual mensagem precisa de linguagem verbal para ser precisa?",
+            "alternativas": [
+              "O polegar para cima",
+              "Um aceno de tchau",
+              "Um sorriso",
+              "A reunião é na terça, às 19h, na sala 4."
+            ],
+            "correta": 3,
+            "explicacao": "Datas, horários e lugares exatos pedem palavras.",
+            "dica": "Qual delas tem informações exatas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa placa de trânsito, o vermelho costuma indicar:",
+            "alternativas": [
+              "festa",
+              "proibição ou perigo",
+              "permissão",
+              "descanso"
+            ],
+            "correta": 1,
+            "explicacao": "Vermelho: pare, proibido, perigo.",
+            "dica": "Pense no semáforo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O gesto do círculo com o polegar e o indicador significa a mesma coisa em todo lugar?",
+            "alternativas": [
+              "Não: em alguns países é \"tudo bem\", em outros é ofensivo",
+              "Não existe esse gesto",
+              "Sim, é universal",
+              "Sim, sempre quer dizer \"dinheiro\""
+            ],
+            "correta": 0,
+            "explicacao": "Gestos mudam de sentido conforme a cultura.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num cartaz contra a dengue, há um mosquito gigante e o texto \"10 minutos por semana salvam vidas\". Qual é a função da imagem?",
+            "alternativas": [
+              "Enfeitar sem relação com o tema",
+              "Contradizer o texto",
+              "Chamar a atenção e reforçar o texto",
+              "Substituir todas as informações"
+            ],
+            "correta": 2,
+            "explicacao": "A imagem atrai o olhar e reforça a mensagem do texto.",
+            "dica": "A imagem combina ou briga com o texto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é linguagem verbal oral?",
+            "alternativas": [
+              "A sirene da ambulância",
+              "Um aceno de mão",
+              "Uma placa com uma seta",
+              "O locutor da rádio informando o trânsito"
+            ],
+            "correta": 3,
+            "explicacao": "Palavras faladas: verbal oral.",
+            "dica": "Procure palavras ditas em voz alta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual situação a linguagem não verbal funciona melhor que a verbal?",
+            "alternativas": [
+              "Uma receita com medidas exatas",
+              "Um contrato de aluguel",
+              "A placa luminosa de saída de emergência, vista por pessoas de várias línguas",
+              "Uma notícia sobre a eleição"
+            ],
+            "correta": 2,
+            "explicacao": "Em emergência, um símbolo claro é entendido na hora, por qualquer pessoa.",
+            "dica": "Pense em pressa e em pessoas de vários países."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cartaz mostra um prato cheio de comida sendo jogado no lixo, com o texto \"Desperdício zero\". Para entender a crítica, o leitor precisa:",
+            "alternativas": [
+              "olhar só a imagem",
+              "relacionar a imagem com o texto",
+              "ignorar os dois",
+              "ler só o texto"
+            ],
+            "correta": 1,
+            "explicacao": "A mensagem completa nasce da relação entre imagem e palavra.",
+            "dica": "A crítica está numa das partes ou na combinação?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Um minuto para convencer",
+    "texto": "Na feira de projetos da escola, cada grupo teria só um minuto para apresentar a sua ideia de negócio para a banca de professores. Talita, Diego, Bruna e Heitor tinham escolhido brigadeiros.\n\nDurante a semana, ensaiaram com o cronômetro do celular. Na primeira tentativa, Talita falou por quase três minutos. Foi cortando, cortando, até sobrar só o essencial.\n\nNo dia da feira, ela respirou fundo e começou com uma pergunta:\n\n— Quem aqui já ficou com vontade de um doce no intervalo e não achou nada perto?\n\nMetade da banca levantou a mão. Talita sorriu e seguiu: o grupo vendia brigadeiros feitos no dia, em três sabores, a R$ 2,50, ou cinco por R$ 10,00. Cada um custava R$ 0,90 para fazer. Diego cuidava das contas, Bruna do cartaz, Heitor da embalagem que não derretia, e o resultado seria dividido em partes iguais.\n\n— Passem na barraca 12 e provem! — terminou, quando o cronômetro marcava 58 segundos.\n\nA professora Elaine perguntou quantos precisariam vender para pagar o cartaz e as embalagens. Diego respondeu na hora: vinte e cinco.\n\nNo fim da tarde, a barraca tinha vendido tudo, e o grupo ganhou o prêmio de melhor apresentação."
+  },
+  "escrita": {
+    "proposta": "Escreva o seu pitch de um minuto para um negócio (real ou imaginado), com cerca de 130 palavras. Inclua: o problema do cliente, a solução, quem é o cliente, o preço, por que comprar de você (o diferencial) e uma chamada para ação no final. Comece com uma pergunta ou um dado que chame a atenção e, depois, leia em voz alta com um cronômetro para ver se cabe em um minuto."
+  }
+}

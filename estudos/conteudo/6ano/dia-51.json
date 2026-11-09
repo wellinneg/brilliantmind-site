@@ -1,0 +1,1201 @@
+{
+  "dia": 51,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Área do retângulo e do triângulo",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Área é o tamanho da superfície de uma figura: quanto de chão, de parede ou de papel ela ocupa. Medimos a área em metros quadrados (m²) ou centímetros quadrados (cm²).",
+          "Um metro quadrado é o espaço de um quadrado com 1 metro de cada lado. Para saber a área de um retângulo, multiplicamos a base pela altura: A = base × altura.",
+          "O quadrado é um retângulo com os quatro lados iguais, então a área dele é lado × lado.",
+          "Se cortarmos um retângulo pela diagonal, ficam dois triângulos iguais. Por isso, a área do triângulo é a metade: A = base × altura ÷ 2. A altura é a distância reta da base até a ponta de cima."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A sala de leitura mede 5 m por 4 m. Qual é a área do chão?",
+            "resolucao": "A = 5 × 4 = 20 m². Cabem 20 quadrados de 1 m de lado."
+          },
+          {
+            "enunciado": "Um triângulo tem base de 6 cm e altura de 4 cm. Qual é a área?",
+            "resolucao": "A = 6 × 4 ÷ 2 = 24 ÷ 2 = 12 cm²."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Figuras em forma de L se resolvem dividindo em retângulos. Um terreno de 6 m × 4 m colado em outro de 8 m × 2 m tem 24 + 16 = 40 m². Outra saída: calcular o retângulo inteiro e tirar o pedaço que falta.",
+        "Área serve para fazer orçamento: piso, tinta e grama são vendidos por metro quadrado. Uma parede de 5 m por 3 m tem 15 m²; se a pintura custa R$ 45 por m², o serviço custa 15 × 45 = R$ 675.",
+        "Cuidado com as unidades: 1 m² tem 100 cm × 100 cm = 10.000 cm². E quando dobramos o lado de um quadrado, a área não dobra, ela fica 4 vezes maior: 3 × 3 = 9, mas 6 × 6 = 36."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um retângulo de 3 m por 2 m?",
+            "alternativas": [
+              "5 m²",
+              "6 m²",
+              "10 m²",
+              "32 m²"
+            ],
+            "correta": 1,
+            "explicacao": "Base × altura: 3 × 2 = 6 m².",
+            "dica": "Multiplique a base pela altura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fórmula da área do triângulo?",
+            "alternativas": [
+              "base + altura",
+              "base × altura × 2",
+              "base × altura ÷ 2",
+              "lado + lado + lado"
+            ],
+            "correta": 2,
+            "explicacao": "O triângulo é metade do retângulo, por isso divide por 2.",
+            "dica": "Lembre do retângulo cortado pela diagonal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que unidade medimos a área de um chão?",
+            "alternativas": [
+              "metro (m)",
+              "litro (L)",
+              "metro quadrado (m²)",
+              "quilograma (kg)"
+            ],
+            "correta": 2,
+            "explicacao": "Área usa unidades ao quadrado, como m².",
+            "dica": "Tem um 2 pequenininho no alto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um quadrado de lado 5 cm?",
+            "alternativas": [
+              "20 cm²",
+              "10 cm²",
+              "55 cm²",
+              "25 cm²"
+            ],
+            "correta": 3,
+            "explicacao": "Lado × lado: 5 × 5 = 25 cm².",
+            "dica": "No quadrado, os lados são iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem base 4 m e altura 2 m. Qual é a área?",
+            "alternativas": [
+              "4 m²",
+              "8 m²",
+              "6 m²",
+              "2 m²"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 2 = 8; 8 ÷ 2 = 4 m².",
+            "dica": "Multiplique e depois divida por 2."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quarto mede 6 m por 4 m. Qual é a área do chão?",
+            "alternativas": [
+              "20 m²",
+              "10 m²",
+              "24 m²",
+              "12 m²"
+            ],
+            "correta": 2,
+            "explicacao": "6 × 4 = 24 m². Quem somou (10) não calculou a área.",
+            "dica": "Área é multiplicação, não soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bandeirinha triangular tem base de 10 cm e altura de 6 cm. Qual é a área?",
+            "alternativas": [
+              "60 cm²",
+              "16 cm²",
+              "36 cm²",
+              "30 cm²"
+            ],
+            "correta": 3,
+            "explicacao": "10 × 6 = 60; 60 ÷ 2 = 30 cm².",
+            "dica": "Não esqueça a divisão por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O piso de 24 m² custa R$ 30 por m². Quanto custa o piso todo?",
+            "alternativas": [
+              "R$ 720",
+              "R$ 540",
+              "R$ 54",
+              "R$ 750"
+            ],
+            "correta": 0,
+            "explicacao": "24 × 30 = 720.",
+            "dica": "Multiplique a área pelo preço de cada m²."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem área de 49 m². Quanto mede o lado?",
+            "alternativas": [
+              "49 m",
+              "7 m",
+              "12 m",
+              "24,5 m"
+            ],
+            "correta": 1,
+            "explicacao": "7 × 7 = 49.",
+            "dica": "Qual número vezes ele mesmo dá 49?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as figuras da menor para a maior área:",
+            "itens": [
+              "triângulo de base 4 m e altura 3 m",
+              "quadrado de lado 3 m",
+              "retângulo de 5 m por 2 m",
+              "retângulo de 6 m por 3 m"
+            ],
+            "explicacao": "Áreas: 6, 9, 10 e 18 m².",
+            "dica": "Calcule a área de cada uma antes de ordenar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pátio em L é um retângulo de 8 m × 5 m sem um canto de 3 m × 2 m. Qual é a área?",
+            "alternativas": [
+              "34 m²",
+              "40 m²",
+              "46 m²",
+              "28 m²"
+            ],
+            "correta": 0,
+            "explicacao": "8 × 5 = 40; 3 × 2 = 6; 40 − 6 = 34 m².",
+            "dica": "Calcule o retângulo inteiro e tire o pedaço que falta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo tem área de 36 m² e largura de 4 m. Qual é o comprimento?",
+            "alternativas": [
+              "32 m",
+              "9 m",
+              "8 m",
+              "144 m"
+            ],
+            "correta": 1,
+            "explicacao": "36 ÷ 4 = 9, porque 4 × 9 = 36.",
+            "dica": "Faça a conta ao contrário da multiplicação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma folha de 8 cm × 6 cm é cortada na diagonal. Qual é a área de cada triângulo?",
+            "alternativas": [
+              "48 cm²",
+              "14 cm²",
+              "24 cm²",
+              "12 cm²"
+            ],
+            "correta": 2,
+            "explicacao": "8 × 6 = 48; 48 ÷ 2 = 24 cm².",
+            "dica": "A diagonal divide a folha em duas partes iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um muro de 10 m por 2 m vai ser pintado. Cada lata pinta 8 m². Quantas latas comprar?",
+            "alternativas": [
+              "2 latas",
+              "2,5 latas",
+              "20 latas",
+              "3 latas"
+            ],
+            "correta": 3,
+            "explicacao": "Área: 20 m². 20 ÷ 8 = 2,5; como não se compra meia lata, são 3.",
+            "dica": "Ninguém vende meia lata."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O lado de um quadrado passou de 3 m para 6 m. O que aconteceu com a área?",
+            "alternativas": [
+              "Dobrou",
+              "Ficou 3 vezes maior",
+              "Não mudou",
+              "Ficou 4 vezes maior"
+            ],
+            "correta": 3,
+            "explicacao": "9 m² viraram 36 m²: 36 ÷ 9 = 4.",
+            "dica": "Calcule as duas áreas e compare."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos cm² cabem em 1 m²?",
+            "alternativas": [
+              "100 cm²",
+              "1.000 cm²",
+              "200 cm²",
+              "10.000 cm²"
+            ],
+            "correta": 3,
+            "explicacao": "1 m² = 100 cm × 100 cm = 10.000 cm². A pegadinha é pensar só em 100.",
+            "dica": "1 m tem 100 cm, e a área usa dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma sala de 5 m × 4 m vai receber lajotas de 50 cm × 50 cm. Quantas lajotas são necessárias?",
+            "alternativas": [
+              "20 lajotas",
+              "40 lajotas",
+              "100 lajotas",
+              "80 lajotas"
+            ],
+            "correta": 3,
+            "explicacao": "Sala: 20 m². Lajota: 0,5 × 0,5 = 0,25 m². 20 ÷ 0,25 = 80.",
+            "dica": "Transforme 50 cm em metros antes de calcular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem área de 30 m² e base de 12 m. Qual é a altura?",
+            "alternativas": [
+              "2,5 m",
+              "5 m",
+              "18 m",
+              "10 m"
+            ],
+            "correta": 1,
+            "explicacao": "12 × altura ÷ 2 = 30, então 12 × altura = 60 e altura = 5.",
+            "dica": "Desfaça a divisão por 2 primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Terreno de 20 m × 15 m tem uma casa de 10 m × 8 m e um canteiro triangular de base 6 m e altura 4 m. Quanto sobra de área livre?",
+            "alternativas": [
+              "220 m²",
+              "196 m²",
+              "208 m²",
+              "300 m²"
+            ],
+            "correta": 2,
+            "explicacao": "300 − 80 − 12 = 208 m².",
+            "dica": "Calcule as três áreas e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois cercados têm o mesmo perímetro de 20 m: um de 9 m × 1 m e outro de 5 m × 5 m. Qual tem mais área e quanto a mais?",
+            "alternativas": [
+              "O de 5 m × 5 m, com 16 m² a mais",
+              "Os dois têm a mesma área",
+              "O de 9 m × 1 m, com 16 m² a mais",
+              "O de 5 m × 5 m, com 4 m² a mais"
+            ],
+            "correta": 0,
+            "explicacao": "9 × 1 = 9 e 5 × 5 = 25; 25 − 9 = 16. Mesmo perímetro não quer dizer mesma área.",
+            "dica": "Perímetro igual não garante área igual."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Doar e ajudar: dinheiro que faz o bem",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Doar é dar algo seu para ajudar quem precisa, sem esperar nada em troca. Dá para doar dinheiro, comida, roupas, livros, brinquedos e também tempo.",
+          "Quem quer doar dinheiro pode colocar a doação no orçamento, como faz com o lanche ou a poupança. Assim a ajuda vira hábito e não faz faltar nada do essencial.",
+          "Antes de doar, confira para quem vai o dinheiro. Instituições sérias têm nome, endereço, CNPJ e mostram em que gastaram as doações.",
+          "Cuidado com golpes: mensagens pedindo Pix urgente para uma pessoa desconhecida, com fotos emocionantes, podem ser falsas. Na dúvida, doe direto para uma instituição conhecida ou ajude alguém perto de você."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Lia recebe R$ 50 de mesada e decidiu separar 10% para doar. Quanto ela doa por mês?",
+            "resolucao": "10% de 50 = 50 ÷ 10 = R$ 5. Em 6 meses, ela junta 6 × 5 = R$ 30 para doar."
+          },
+          {
+            "enunciado": "A turma de 25 alunos fez uma vaquinha de R$ 2 por aluno para comprar livros para a creche. Quanto juntou?",
+            "resolucao": "25 × 2 = R$ 50."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um jeito de organizar a mesada são três potes: gastar, guardar e doar. Com R$ 40 por mês divididos em 70%, 20% e 10%, ficam R$ 28 para gastar, R$ 8 para guardar e R$ 4 para doar.",
+        "Doar tempo também vale muito: ler para um idoso, ajudar a organizar a arrecadação de alimentos da escola ou ensinar um colega. Isso não custa dinheiro e ajuda de verdade.",
+        "Para conferir uma campanha, veja se o Pix vai para o CNPJ da instituição, e não para uma pessoa desconhecida. Desconfie de pressa, de prêmios em troca da doação e de pedidos de senha ou código."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é doar?",
+            "alternativas": [
+              "Dar algo para ajudar, sem esperar nada em troca",
+              "Emprestar e cobrar juros",
+              "Vender mais barato",
+              "Trocar por outro objeto"
+            ],
+            "correta": 0,
+            "explicacao": "Doação é ajuda sem troca.",
+            "dica": "Pense em ajudar sem querer nada de volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Além de dinheiro, o que podemos doar?",
+            "alternativas": [
+              "Só dinheiro",
+              "Só brinquedos novos",
+              "Nada além de dinheiro",
+              "Roupas, comida e tempo"
+            ],
+            "correta": 3,
+            "explicacao": "Dá para doar objetos, comida e o próprio tempo.",
+            "dica": "Releia o primeiro parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "10% de R$ 50 é quanto?",
+            "alternativas": [
+              "R$ 10",
+              "R$ 5",
+              "R$ 0,50",
+              "R$ 15"
+            ],
+            "correta": 1,
+            "explicacao": "50 ÷ 10 = 5.",
+            "dica": "Para achar 10%, divida por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de doar dinheiro, o que é importante fazer?",
+            "alternativas": [
+              "Doar para qualquer pedido",
+              "Mandar a senha do banco",
+              "Conferir para quem vai o dinheiro",
+              "Doar sem pensar"
+            ],
+            "correta": 2,
+            "explicacao": "Conferir evita cair em golpe.",
+            "dica": "Quem recebe é de confiança?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma mensagem pede Pix urgente para um desconhecido, com fotos emocionantes. Pode ser:",
+            "alternativas": [
+              "Sempre verdade",
+              "Um golpe",
+              "Um prêmio",
+              "Uma conta de luz"
+            ],
+            "correta": 1,
+            "explicacao": "Pressa e desconhecido são sinais de golpe.",
+            "dica": "Lembre do aviso do último parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que colocar a doação no orçamento?",
+            "alternativas": [
+              "Para gastar mais com lanche",
+              "Para ajudar sempre sem faltar o essencial",
+              "Para não pagar as contas",
+              "Para ganhar juros"
+            ],
+            "correta": 1,
+            "explicacao": "Planejada, a doação vira hábito e não atrapalha.",
+            "dica": "Orçamento organiza tudo o que sai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Separando R$ 5 por mês, quanto Lia junta para doar em 6 meses?",
+            "alternativas": [
+              "R$ 11",
+              "R$ 35",
+              "R$ 25",
+              "R$ 30"
+            ],
+            "correta": 3,
+            "explicacao": "6 × 5 = 30.",
+            "dica": "Multiplique pelo número de meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "25 alunos dão R$ 2 cada numa vaquinha. Quanto juntam?",
+            "alternativas": [
+              "R$ 27",
+              "R$ 50",
+              "R$ 52",
+              "R$ 45"
+            ],
+            "correta": 1,
+            "explicacao": "25 × 2 = 50.",
+            "dica": "Cada aluno dá o mesmo valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que uma instituição séria costuma mostrar?",
+            "alternativas": [
+              "Só uma foto triste",
+              "Um número de celular pessoal",
+              "CNPJ e em que gastou as doações",
+              "Nada, é segredo"
+            ],
+            "correta": 2,
+            "explicacao": "Transparência é sinal de seriedade.",
+            "dica": "Pense em documentos e prestação de contas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma doação de tempo?",
+            "alternativas": [
+              "Ler histórias para idosos",
+              "Comprar um tênis",
+              "Guardar R$ 10",
+              "Pagar a conta de água"
+            ],
+            "correta": 0,
+            "explicacao": "Doar tempo é ajudar com a presença.",
+            "dica": "Não envolve dinheiro."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 40 divididos em 70% para gastar, 20% para guardar e 10% para doar, quanto vai para doar?",
+            "alternativas": [
+              "R$ 8",
+              "R$ 10",
+              "R$ 4",
+              "R$ 28"
+            ],
+            "correta": 2,
+            "explicacao": "10% de 40 = 4.",
+            "dica": "Ache a parte do pote menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo caso, quanto vai para gastar?",
+            "alternativas": [
+              "R$ 30",
+              "R$ 32",
+              "R$ 24",
+              "R$ 28"
+            ],
+            "correta": 3,
+            "explicacao": "10% de 40 = 4; 70% = 7 × 4 = 28.",
+            "dica": "70% são sete vezes os 10%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um Pix de doação vai para o CPF de uma pessoa que você não conhece, e não para o CNPJ da instituição. O que fazer?",
+            "alternativas": [
+              "Desconfiar e confirmar com a instituição",
+              "Pagar rápido",
+              "Mandar o dobro",
+              "Mandar sua senha"
+            ],
+            "correta": 0,
+            "explicacao": "O certo é o Pix ir para a instituição.",
+            "dica": "Para onde deveria ir o dinheiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafa ganha R$ 60 por mês e doa 5%. Quanto doa em um ano?",
+            "alternativas": [
+              "R$ 3",
+              "R$ 36",
+              "R$ 30",
+              "R$ 60"
+            ],
+            "correta": 1,
+            "explicacao": "5% de 60 = 3; 3 × 12 = 36.",
+            "dica": "Ache os 5% do mês e depois multiplique pelos meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A escola quer juntar R$ 300 com 30 alunos. Quanto cada um precisa dar, se todos derem igual?",
+            "alternativas": [
+              "R$ 10",
+              "R$ 30",
+              "R$ 9",
+              "R$ 270"
+            ],
+            "correta": 0,
+            "explicacao": "300 ÷ 30 = 10.",
+            "dica": "Divida a meta pelo número de alunos."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma campanha diz: \"Doe R$ 20 agora e ganhe um celular! Mande também o código que chegou por SMS\". O que está errado?",
+            "alternativas": [
+              "Prêmio em troca e pedido de código são sinais de golpe",
+              "Nada, é uma promoção normal",
+              "Só o valor está alto",
+              "Só falta mandar a senha"
+            ],
+            "correta": 0,
+            "explicacao": "Doação não dá prêmio, e código de SMS nunca se passa a ninguém.",
+            "dica": "Releia o fim do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia guarda 20% e doa 10% da mesada de R$ 80. Quanto sobra para gastar?",
+            "alternativas": [
+              "R$ 24",
+              "R$ 64",
+              "R$ 72",
+              "R$ 56"
+            ],
+            "correta": 3,
+            "explicacao": "20% = 16; 10% = 8; 80 − 16 − 8 = 56.",
+            "dica": "Calcule as duas partes e tire do total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família ganha R$ 2.000 e doa 1% por mês. Quanto doa em 6 meses?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 20",
+              "R$ 200",
+              "R$ 1.200"
+            ],
+            "correta": 0,
+            "explicacao": "1% de 2.000 = 20; 20 × 6 = 120.",
+            "dica": "1% é dividir por 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na vaquinha da creche, 18 alunos deram R$ 3 e 7 alunos deram R$ 5. Quanto juntaram?",
+            "alternativas": [
+              "R$ 75",
+              "R$ 89",
+              "R$ 200",
+              "R$ 80"
+            ],
+            "correta": 1,
+            "explicacao": "18 × 3 = 54; 7 × 5 = 35; 54 + 35 = 89.",
+            "dica": "Faça duas multiplicações e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Doar todo o dinheiro da conta de luz para ajudar alguém é uma boa ideia?",
+            "alternativas": [
+              "Sim, quanto mais, melhor",
+              "Sim, a luz pode esperar",
+              "Não, a doação não pode tirar o essencial da casa",
+              "Só se for no Pix"
+            ],
+            "correta": 2,
+            "explicacao": "Doar faz bem, mas planejado e sem deixar faltar o básico.",
+            "dica": "Lembre do segundo parágrafo da lição."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Teste de mesa: seguir o código passo a passo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Teste de mesa é executar o programa no papel, linha por linha, como se você fosse o computador. Serve para descobrir o que o código faz e achar erros.",
+          "Monte uma tabela: uma coluna para cada variável e uma linha para cada passo. A cada linha do código, anote o novo valor da variável que mudou.",
+          "Leia o sinal = como \"recebe\": x = x + 3 quer dizer \"x recebe o valor antigo de x mais 3\". O valor antigo some e fica só o novo.",
+          "Em um laço, faça uma linha da tabela para cada volta. Assim você vê quantas vezes ele repete e o valor final de cada variável."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "x = 2; x = x + 3; x = x × 2. Quanto vale x no final?",
+            "resolucao": "Passo 1: x = 2. Passo 2: x = 2 + 3 = 5. Passo 3: x = 5 × 2 = 10. Resposta: 10."
+          },
+          {
+            "enunciado": "soma = 0; para i de 1 a 4: soma = soma + i. Quanto vale soma?",
+            "resolucao": "Volta 1: soma = 1. Volta 2: 1 + 2 = 3. Volta 3: 3 + 3 = 6. Volta 4: 6 + 4 = 10. Resposta: 10."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O teste de mesa acha bugs. Se o programa deveria mostrar de 1 a 5, mas começa com c = 1 e o laço é enquanto c < 5, a tabela mostra que ele para no 4. O certo seria c <= 5.",
+        "Para trocar os valores de duas variáveis, precisa de uma auxiliar: aux = a; a = b; b = aux. Sem a auxiliar (a = b; b = a), as duas ficam com o mesmo valor, e a tabela deixa isso claro.",
+        "Com laços enquanto, conte as voltas com cuidado: n = 20; enquanto n > 0: n = n − 6. Os valores ficam 14, 8, 2 e −4. São 4 voltas, e n termina em −4."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é teste de mesa?",
+            "alternativas": [
+              "Testar a mesa do computador",
+              "Executar o código no papel, passo a passo",
+              "Apagar o programa",
+              "Comprar um computador novo"
+            ],
+            "correta": 1,
+            "explicacao": "Você faz o papel do computador.",
+            "dica": "Pense em papel, lápis e tabela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 5; a = a + 1. Quanto vale a?",
+            "alternativas": [
+              "5",
+              "6",
+              "1",
+              "51"
+            ],
+            "correta": 1,
+            "explicacao": "5 + 1 = 6.",
+            "dica": "Some 1 ao valor antigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na tabela do teste de mesa, cada coluna é:",
+            "alternativas": [
+              "um computador",
+              "uma tecla",
+              "uma variável",
+              "uma cor"
+            ],
+            "correta": 2,
+            "explicacao": "Cada variável ganha uma coluna.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "b = 3; b = b × 2. Quanto vale b?",
+            "alternativas": [
+              "5",
+              "9",
+              "32",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "3 × 2 = 6.",
+            "dica": "Multiplique o valor antigo por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se lê x = x + 3?",
+            "alternativas": [
+              "x recebe x mais 3",
+              "x é igual a 3",
+              "x é maior que 3",
+              "apague o x"
+            ],
+            "correta": 0,
+            "explicacao": "O sinal = quer dizer recebe.",
+            "dica": "O valor antigo vira um valor novo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 4; x = x + 2; x = x × 3. Quanto vale x?",
+            "alternativas": [
+              "14",
+              "18",
+              "10",
+              "24"
+            ],
+            "correta": 1,
+            "explicacao": "4 + 2 = 6; 6 × 3 = 18.",
+            "dica": "Faça na ordem das linhas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "soma = 0; para i de 1 a 3: soma = soma + i. Quanto vale soma?",
+            "alternativas": [
+              "3",
+              "5",
+              "6",
+              "9"
+            ],
+            "correta": 2,
+            "explicacao": "1 + 2 + 3 = 6.",
+            "dica": "Faça uma linha da tabela por volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "n = 10; n = n − 4; n = n − 4. Quanto vale n?",
+            "alternativas": [
+              "2",
+              "6",
+              "0",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "10 − 4 = 6; 6 − 4 = 2.",
+            "dica": "Tire 4 duas vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "pontos = 0; repita 5 vezes: pontos = pontos + 2. Quanto vale pontos?",
+            "alternativas": [
+              "7",
+              "2",
+              "5",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "5 voltas de 2 pontos = 10.",
+            "dica": "Quantas vezes soma 2?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os passos do teste de mesa em ordem:",
+            "itens": [
+              "Montar a tabela com uma coluna por variável",
+              "Ler a primeira linha do código",
+              "Anotar o novo valor da variável",
+              "Repetir até a última linha"
+            ],
+            "explicacao": "Primeiro a tabela, depois linha por linha.",
+            "dica": "Antes de anotar, é preciso ter onde anotar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 3; b = a + 2; a = b × 2. Quanto valem a e b?",
+            "alternativas": [
+              "a = 3 e b = 5",
+              "a = 10 e b = 5",
+              "a = 10 e b = 10",
+              "a = 6 e b = 5"
+            ],
+            "correta": 1,
+            "explicacao": "b = 3 + 2 = 5; a = 5 × 2 = 10.",
+            "dica": "Atualize uma variável de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 7; b = 2; a = b; b = a. Quanto valem a e b?",
+            "alternativas": [
+              "a = 2 e b = 7",
+              "a = 7 e b = 7",
+              "a = 7 e b = 2",
+              "a = 2 e b = 2"
+            ],
+            "correta": 3,
+            "explicacao": "a recebe 2; depois b recebe o novo a, que é 2. O 7 se perdeu.",
+            "dica": "Quando b = a roda, quanto vale a?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "n = 20; enquanto n > 0: n = n − 6. Quantas voltas o laço dá?",
+            "alternativas": [
+              "3",
+              "6",
+              "4",
+              "20"
+            ],
+            "correta": 2,
+            "explicacao": "20 → 14 → 8 → 2 → −4: quatro voltas.",
+            "dica": "Anote n a cada volta até ele não ser maior que 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "c = 1; enquanto c < 5: mostrar(c); c = c + 1. Qual é o último número mostrado?",
+            "alternativas": [
+              "4",
+              "5",
+              "1",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "Mostra 1, 2, 3 e 4; quando c vira 5, o laço para.",
+            "dica": "5 é menor que 5?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "t = 1; para i de 1 a 4: t = t × 2. Quanto vale t?",
+            "alternativas": [
+              "8",
+              "6",
+              "16",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "1 → 2 → 4 → 8 → 16.",
+            "dica": "Dobre o valor quatro vezes."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 1; para i de 1 a 3: x = x + i × 2. Quanto vale x?",
+            "alternativas": [
+              "13",
+              "7",
+              "12",
+              "19"
+            ],
+            "correta": 0,
+            "explicacao": "x = 1 + 2 = 3; 3 + 4 = 7; 7 + 6 = 13.",
+            "dica": "Em cada volta, some o dobro do i."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O programa deve mostrar de 1 a 5: c = 1; enquanto c < 5: mostrar(c); c = c + 1. Qual é a correção?",
+            "alternativas": [
+              "Começar com c = 0",
+              "Trocar c + 1 por c + 2",
+              "Trocar c < 5 por c <= 5",
+              "Apagar o mostrar"
+            ],
+            "correta": 2,
+            "explicacao": "Com c <= 5, o 5 também é mostrado.",
+            "dica": "Qual número está faltando na saída?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para trocar os valores de a e b, qual sequência funciona?",
+            "alternativas": [
+              "a = b; b = a",
+              "aux = a; a = b; b = aux",
+              "b = a; a = b",
+              "aux = b; b = a; a = b"
+            ],
+            "correta": 1,
+            "explicacao": "A auxiliar guarda o valor de a antes de ele ser apagado.",
+            "dica": "Algum valor precisa ser guardado antes de sumir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "s = 0; para i de 1 a 5: se i for par: s = s + i. Quanto vale s?",
+            "alternativas": [
+              "15",
+              "9",
+              "4",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "Pares: 2 e 4; 2 + 4 = 6.",
+            "dica": "Some só quando i for par."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "v = 50; enquanto v >= 10: v = v ÷ 2. Quanto vale v no final?",
+            "alternativas": [
+              "6,25",
+              "12,5",
+              "10",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "50 → 25 → 12,5 → 6,25. Como 6,25 não é >= 10, para.",
+            "dica": "Divida por 2 até ficar menor que 10."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Onde ou aonde?",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Onde indica o lugar em que algo está ou acontece, sem movimento. Usamos com verbos como estar, ficar, morar e encontrar: \"Onde você mora?\"",
+          "Aonde é a junção de a + onde e indica movimento, ideia de ir para algum lugar. Usamos com verbos que pedem a preposição a, como ir e chegar: \"Aonde você vai?\"",
+          "Um truque: troque por \"para onde\". Se a frase continuar fazendo sentido, use aonde. \"Para onde você vai?\" funciona, então é aonde. \"Para onde você mora?\" não funciona, então é onde.",
+          "Também existe de onde, para a origem: \"De onde você é?\""
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Complete: ___ fica a biblioteca?",
+            "resolucao": "Onde, porque a biblioteca fica parada num lugar. Não há movimento."
+          },
+          {
+            "enunciado": "Complete: ___ vocês vão depois da aula?",
+            "resolucao": "Aonde, porque quem vai, vai a algum lugar. Dá para trocar por \"para onde\"."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O verbo chegar também pede a preposição a (chegar a algum lugar). Por isso, na norma padrão, o certo é \"Aonde você quer chegar?\".",
+        "Onde e aonde só devem ser usados para lugar. Em textos formais, evite \"a reunião onde decidimos\"; prefira \"a reunião em que decidimos\", porque reunião não é lugar.",
+        "Verbos de permanência, como estar, ficar, morar e nascer, pedem onde. Verbos de movimento, como ir, chegar, levar e voltar, pedem aonde."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra indica lugar parado, sem movimento?",
+            "alternativas": [
+              "aonde",
+              "quando",
+              "como",
+              "onde"
+            ],
+            "correta": 3,
+            "explicacao": "Onde é para lugar fixo.",
+            "dica": "Lembre do verbo morar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra indica movimento para um lugar?",
+            "alternativas": [
+              "onde",
+              "aonde",
+              "porque",
+              "quem"
+            ],
+            "correta": 1,
+            "explicacao": "Aonde = a + onde, ideia de ir.",
+            "dica": "Pense no verbo ir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: ___ você mora?",
+            "alternativas": [
+              "Aonde",
+              "Quando",
+              "Onde",
+              "Quanto"
+            ],
+            "correta": 2,
+            "explicacao": "Morar é ficar num lugar.",
+            "dica": "Morar tem movimento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: ___ você vai?",
+            "alternativas": [
+              "Aonde",
+              "Onde",
+              "Quem",
+              "Qual"
+            ],
+            "correta": 0,
+            "explicacao": "Ir pede aonde.",
+            "dica": "Quem vai, vai a algum lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Aonde é a junção de:",
+            "alternativas": [
+              "a + onde",
+              "de + onde",
+              "em + onde",
+              "o + onde"
+            ],
+            "correta": 0,
+            "explicacao": "a + onde = aonde.",
+            "dica": "Olhe a primeira letra."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Aonde está o meu caderno?",
+              "Aonde fica a escola?",
+              "Onde você vai amanhã?",
+              "Onde está o meu caderno?"
+            ],
+            "correta": 3,
+            "explicacao": "Estar é verbo de lugar fixo.",
+            "dica": "Teste trocar por \"para onde\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Onde vocês foram no sábado?",
+              "Aonde você nasceu?",
+              "Aonde vocês foram no sábado?",
+              "Aonde fica o banheiro?"
+            ],
+            "correta": 2,
+            "explicacao": "Ir pede aonde.",
+            "dica": "Qual frase tem movimento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: Não sei ___ deixei a chave.",
+            "alternativas": [
+              "onde",
+              "aonde",
+              "de onde",
+              "para onde"
+            ],
+            "correta": 0,
+            "explicacao": "A chave ficou num lugar: lugar fixo.",
+            "dica": "A chave está indo para algum lugar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: ___ você é? Sou de Recife.",
+            "alternativas": [
+              "Aonde",
+              "De onde",
+              "Onde",
+              "Para que"
+            ],
+            "correta": 1,
+            "explicacao": "Origem pede de onde.",
+            "dica": "A resposta fala de origem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o truque para descobrir se é aonde?",
+            "alternativas": [
+              "Trocar por \"quando\"",
+              "Contar as letras",
+              "Trocar por \"para onde\"",
+              "Ver se a frase é longa"
+            ],
+            "correta": 2,
+            "explicacao": "Se \"para onde\" couber, é aonde.",
+            "dica": "Releia o terceiro parágrafo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: ___ levaram as cadeiras da festa?",
+            "alternativas": [
+              "Onde",
+              "Aonde",
+              "De onde",
+              "Em que"
+            ],
+            "correta": 1,
+            "explicacao": "Levar algo a um lugar é movimento.",
+            "dica": "Teste com \"para onde\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro?",
+            "alternativas": [
+              "Aonde vamos agora?",
+              "Onde fica a padaria?",
+              "Aonde você estuda?",
+              "Onde ela trabalha?"
+            ],
+            "correta": 2,
+            "explicacao": "Estudar num lugar não tem movimento: o certo é onde.",
+            "dica": "Procure o verbo sem movimento com aonde."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na norma padrão, qual frase está certa?",
+            "alternativas": [
+              "Onde você quer chegar?",
+              "Aonde você quer ficar?",
+              "Onde você quer ir?",
+              "Aonde você quer chegar?"
+            ],
+            "correta": 3,
+            "explicacao": "Chegar e ir pedem a preposição a.",
+            "dica": "Chegar a algum lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: A cidade ___ nasci é pequena.",
+            "alternativas": [
+              "onde",
+              "aonde",
+              "de onde",
+              "para onde"
+            ],
+            "correta": 0,
+            "explicacao": "Nascer num lugar: lugar fixo.",
+            "dica": "Nascer é verbo de movimento?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as palavras para formar uma pergunta correta:",
+            "itens": [
+              "Aonde",
+              "você",
+              "vai",
+              "amanhã?"
+            ],
+            "explicacao": "Aonde vai na frente do verbo ir.",
+            "dica": "A pergunta começa pela palavra de lugar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num texto formal, qual é a melhor forma?",
+            "alternativas": [
+              "A reunião onde decidimos o passeio foi boa.",
+              "A reunião aonde decidimos o passeio foi boa.",
+              "A reunião de onde decidimos o passeio foi boa.",
+              "A reunião em que decidimos o passeio foi boa."
+            ],
+            "correta": 3,
+            "explicacao": "Reunião não é lugar; use em que.",
+            "dica": "Onde e aonde são só para lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas frases estão certas? I) Aonde fica o ponto? II) Onde você vai? III) Aonde vamos? IV) Onde fica o ponto?",
+            "alternativas": [
+              "Uma: só a III",
+              "Duas: III e IV",
+              "Três: I, III e IV",
+              "Todas"
+            ],
+            "correta": 1,
+            "explicacao": "Ficar pede onde (IV certa, I errada); ir pede aonde (III certa, II errada).",
+            "dica": "Separe os verbos de movimento dos de lugar fixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: — ___ você voltou tão cedo? — Da escola.",
+            "alternativas": [
+              "De onde",
+              "Aonde",
+              "Onde",
+              "Para onde"
+            ],
+            "correta": 0,
+            "explicacao": "A resposta indica origem: da escola.",
+            "dica": "Olhe a resposta, não só o verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par de verbos pede aonde?",
+            "alternativas": [
+              "morar e ficar",
+              "estar e nascer",
+              "chegar e levar",
+              "ficar e estar"
+            ],
+            "correta": 2,
+            "explicacao": "Os dois indicam movimento.",
+            "dica": "Procure o par com ideia de ir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Leia: \"O bairro aonde moro tem praça\". Qual é a correção?",
+            "alternativas": [
+              "Trocar moro por vou",
+              "Trocar aonde por onde",
+              "Tirar a palavra praça",
+              "Está certa"
+            ],
+            "correta": 1,
+            "explicacao": "Morar é permanência: o bairro onde moro.",
+            "dica": "Morar tem movimento?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O piso novo da sala de leitura",
+    "texto": "A sala de leitura da escola estava com o piso todo quebrado. A professora Rosa avisou a turma do 6º B: a prefeitura mandaria a mão de obra, mas o piso precisava ser comprado pela comunidade.\n\n— Quanto piso a gente compra? — perguntou Joaquim.\n\n— Primeiro, descubram a área — respondeu a professora.\n\nA turma pegou a trena. A sala tinha 6 metros de comprimento e 5 de largura. Helena fez a conta no quadro: 6 vezes 5, trinta metros quadrados.\n\nNa loja do bairro, o piso custava 25 reais o metro quadrado. Trinta vezes 25 dava 750 reais. O vendedor lembrou que sempre quebra alguma peça, e a turma decidiu comprar dois metros a mais: 800 reais no total.\n\nFizeram uma feira de livros usados e uma rifa de bolo. Em um mês, chegaram aos 800 reais certinhos.\n\nNo dia da inauguração, Joaquim pisou no chão novo e riu:\n\n— Esse chão é feito de multiplicação!"
+  },
+  "escrita": {
+    "proposta": "Meça (ou estime) um cômodo da sua casa, como o quarto ou a cozinha. Em 5 a 8 linhas, explique como calculou a área dele: quais foram as medidas, qual conta fez e qual foi o resultado em metros quadrados. Se o cômodo não for retangular, conte como dividiu em partes."
+  }
+}

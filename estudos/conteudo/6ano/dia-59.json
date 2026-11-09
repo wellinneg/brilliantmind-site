@@ -1,0 +1,1500 @@
+{
+  "dia": 59,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Probabilidade: as chances no dado e na moeda",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Probabilidade é a chance de algo acontecer. Para calcular quando todos os resultados têm a mesma chance, divida os casos favoráveis (os que queremos) pelos casos possíveis (todos os que podem acontecer).",
+          "Na moeda há 2 resultados possíveis: cara ou coroa. A chance de dar cara é 1 em 2, ou seja, 1/2, que é o mesmo que 50%.",
+          "No dado há 6 resultados: 1, 2, 3, 4, 5 e 6. A chance de sair o 3 é 1/6. A chance de sair um número par (2, 4 ou 6) é 3/6, que simplificando dá 1/2.",
+          "Um evento impossível tem probabilidade 0 (sair 7 num dado comum). Um evento certo tem probabilidade 1, ou 100% (sair um número menor que 7)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Qual é a chance de sair um número maior que 4 no dado?",
+            "resolucao": "Favoráveis: 5 e 6 (2 casos). Possíveis: 6. Probabilidade: 2/6 = 1/3."
+          },
+          {
+            "enunciado": "Numa urna há 3 bolas vermelhas, 5 azuis e 2 verdes. Qual é a chance de tirar uma azul sem olhar?",
+            "resolucao": "Total: 3 + 5 + 2 = 10. Azuis: 5. Probabilidade: 5/10 = 1/2 = 50%."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Com duas moedas, há 4 resultados: cara-cara, cara-coroa, coroa-cara e coroa-coroa. A chance de duas caras é 1/4. A chance de uma cara e uma coroa (em qualquer ordem) é 2/4 = 1/2.",
+        "Com dois dados, há 6 × 6 = 36 resultados. A soma 7 aparece de 6 jeitos (1+6, 2+5, 3+4, 4+3, 5+2, 6+1), então a chance é 6/36 = 1/6. A soma 12 só aparece com 6+6: 1/36.",
+        "A moeda não tem memória: depois de cinco caras seguidas, a chance de cara na próxima jogada continua sendo 1/2. Achar que \"agora tem que dar coroa\" é um erro comum."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de dar cara numa moeda?",
+            "alternativas": [
+              "1/2",
+              "1/6",
+              "1/3",
+              "2/2"
+            ],
+            "correta": 0,
+            "explicacao": "2 resultados, 1 favorável.",
+            "dica": "Quantos lados tem a moeda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos resultados possíveis tem um dado comum?",
+            "alternativas": [
+              "2",
+              "12",
+              "10",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "1, 2, 3, 4, 5 e 6.",
+            "dica": "Conte as faces do dado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair o número 3 no dado?",
+            "alternativas": [
+              "1/3",
+              "3/6",
+              "1/6",
+              "1/2"
+            ],
+            "correta": 2,
+            "explicacao": "1 caso favorável em 6.",
+            "dica": "Quantas faces têm o número 3?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sair o número 7 num dado comum é:",
+            "alternativas": [
+              "certo",
+              "impossível",
+              "muito provável",
+              "50%"
+            ],
+            "correta": 1,
+            "explicacao": "Não existe face 7.",
+            "dica": "O dado vai até qual número?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "1/2 é o mesmo que:",
+            "alternativas": [
+              "12%",
+              "50%",
+              "20%",
+              "100%"
+            ],
+            "correta": 1,
+            "explicacao": "Metade = 50%.",
+            "dica": "Metade de 100."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair número par no dado?",
+            "alternativas": [
+              "1/6",
+              "2/6",
+              "1/2",
+              "1/3"
+            ],
+            "correta": 2,
+            "explicacao": "2, 4 e 6: 3/6 = 1/2.",
+            "dica": "Liste os pares de 1 a 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair um número maior que 4?",
+            "alternativas": [
+              "1/3",
+              "1/2",
+              "4/6",
+              "1/6"
+            ],
+            "correta": 0,
+            "explicacao": "5 e 6: 2/6 = 1/3.",
+            "dica": "Quais números são maiores que 4?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Urna com 3 vermelhas, 5 azuis e 2 verdes. Chance de azul?",
+            "alternativas": [
+              "5%",
+              "50%",
+              "30%",
+              "20%"
+            ],
+            "correta": 1,
+            "explicacao": "5/10 = 50%.",
+            "dica": "Some todas as bolas primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sair um número menor que 7 no dado é:",
+            "alternativas": [
+              "impossível",
+              "1/6",
+              "1/2",
+              "certo, probabilidade 1"
+            ],
+            "correta": 3,
+            "explicacao": "Todas as faces são menores que 7.",
+            "dica": "Algum número do dado é 7 ou mais?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do menos provável para o mais provável, num dado:",
+            "itens": [
+              "sair 7",
+              "sair 6",
+              "sair número par",
+              "sair número menor que 7"
+            ],
+            "explicacao": "0, 1/6, 1/2 e 1.",
+            "dica": "Calcule a chance de cada um."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na mesma urna (3 vermelhas, 5 azuis, 2 verdes), qual é a chance de verde?",
+            "alternativas": [
+              "2%",
+              "25%",
+              "50%",
+              "20%"
+            ],
+            "correta": 3,
+            "explicacao": "2/10 = 20%.",
+            "dica": "Divida as verdes pelo total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando duas moedas, qual é a chance de duas caras?",
+            "alternativas": [
+              "1/2",
+              "1/3",
+              "1/4",
+              "2/4"
+            ],
+            "correta": 2,
+            "explicacao": "4 resultados, 1 com duas caras.",
+            "dica": "Liste os 4 resultados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair um número primo no dado?",
+            "alternativas": [
+              "1/3",
+              "1/2",
+              "1/6",
+              "2/3"
+            ],
+            "correta": 1,
+            "explicacao": "2, 3 e 5: 3/6 = 1/2.",
+            "dica": "O 1 não é primo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Saíram 5 caras seguidas. Qual é a chance de cara na próxima jogada?",
+            "alternativas": [
+              "1/2",
+              "Quase zero",
+              "1/6",
+              "Certeza"
+            ],
+            "correta": 0,
+            "explicacao": "A moeda não tem memória.",
+            "dica": "A moeda lembra das jogadas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sacola com 4 brigadeiros e 6 beijinhos. Pegando um sem olhar, qual é a chance de brigadeiro?",
+            "alternativas": [
+              "4%",
+              "40%",
+              "60%",
+              "25%"
+            ],
+            "correta": 1,
+            "explicacao": "4/10 = 40%.",
+            "dica": "Divida pelo total de docinhos."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando dois dados, qual é a chance de a soma ser 7?",
+            "alternativas": [
+              "1/6",
+              "1/12",
+              "7/36",
+              "1/36"
+            ],
+            "correta": 0,
+            "explicacao": "6 jeitos em 36: 6/36 = 1/6.",
+            "dica": "Liste os pares que somam 7."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando dois dados, qual é a chance de sair a soma 12?",
+            "alternativas": [
+              "1/12",
+              "1/6",
+              "1/36",
+              "2/36"
+            ],
+            "correta": 2,
+            "explicacao": "Só 6 + 6.",
+            "dica": "Quantos jeitos dão 12?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas moedas: qual é a chance de sair uma cara e uma coroa, em qualquer ordem?",
+            "alternativas": [
+              "1/2",
+              "1/4",
+              "1/3",
+              "3/4"
+            ],
+            "correta": 0,
+            "explicacao": "Cara-coroa e coroa-cara: 2/4 = 1/2.",
+            "dica": "A ordem conta duas vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando dois dados, qual é a chance de os dois números serem iguais?",
+            "alternativas": [
+              "1/36",
+              "1/6",
+              "1/12",
+              "1/2"
+            ],
+            "correta": 1,
+            "explicacao": "6 pares iguais em 36: 6/36 = 1/6.",
+            "dica": "Conte 1-1, 2-2 e assim por diante."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dado é jogado 60 vezes. Quantas vezes, mais ou menos, espera-se que saia o 4?",
+            "alternativas": [
+              "4",
+              "6",
+              "15",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "1/6 de 60 = 10. Na prática pode variar um pouco.",
+            "dica": "Multiplique as jogadas pela chance."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Projeto quiz (parte 2): montar, testar e corrigir",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Na parte 1, planejamos o Quiz da Turma: 5 perguntas, 10 pontos por acerto e uma mensagem final. Agora vamos montar o programa usando listas e um laço.",
+          "As perguntas ficam numa lista e as respostas certas em outra, na mesma ordem: perguntas = [\"Qual é a capital do Brasil?\", \"Quanto é 7 × 8?\", ...] e respostas = [\"brasília\", \"56\", \"terra\", \"3\", \"verde\"]. Como o índice começa em 0, perguntas[0] combina com respostas[0].",
+          "O laço faz o trabalho das 5 perguntas sem repetir código: pontos = 0; para i de 0 a 4: resposta = perguntar(perguntas[i]); se minúsculas(resposta) == respostas[i]: pontos = pontos + 10; senão: mostrar(\"A certa é \" + respostas[i]).",
+          "Depois do laço vem a mensagem: se pontos == 50: \"Gabaritou!\"; senão se pontos >= 30: \"Mandou bem!\"; senão: \"Bora treinar!\". Por fim, testamos o programa com várias respostas diferentes para achar os bugs."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Por que usar minúsculas(resposta)?",
+            "resolucao": "Para o programa aceitar \"Brasília\", \"BRASÍLIA\" e \"brasília\". Ele transforma o que o jogador digitou em letras minúsculas antes de comparar com a lista, que já está toda em minúsculas."
+          },
+          {
+            "enunciado": "Quais testes fazer?",
+            "resolucao": "Acertar tudo (deve dar 50 e \"Gabaritou!\"), errar tudo (0 e \"Bora treinar!\"), acertar 3 (30 e \"Mandou bem!\") e digitar com letra maiúscula para ver se ainda conta."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Bug comum 1: escrever para i de 1 a 5. O laço pula a pergunta da posição 0 e, no fim, tenta ler perguntas[5], que não existe, e o programa dá erro.",
+        "Bug comum 2: colocar pontos = 0 dentro do laço. A cada pergunta os pontos zeram, e no fim o jogador tem no máximo 10. O teste de mesa mostra isso logo.",
+        "Bug comum 3: trocar a ordem das listas. Se respostas tiver \"56\" na posição 0, a resposta da capital nunca vai bater. As duas listas precisam andar juntas, posição por posição."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam guardadas as perguntas do quiz?",
+            "alternativas": [
+              "Numa calculadora",
+              "No mouse",
+              "Em lugar nenhum",
+              "Numa lista"
+            ],
+            "correta": 3,
+            "explicacao": "A lista guarda vários valores.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que número começa o índice das listas?",
+            "alternativas": [
+              "0",
+              "1",
+              "5",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "O primeiro item fica na posição 0.",
+            "dica": "Lembre da aula de listas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o laço no quiz?",
+            "alternativas": [
+              "Apagar as perguntas",
+              "Desligar o computador",
+              "Fazer as 5 perguntas sem repetir código",
+              "Mudar a cor da tela"
+            ],
+            "correta": 2,
+            "explicacao": "O laço repete o mesmo bloco.",
+            "dica": "Repetir sem escrever de novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem acerta tudo deve ver:",
+            "alternativas": [
+              "Gabaritou!",
+              "Bora treinar!",
+              "Mandou bem!",
+              "Erro!"
+            ],
+            "correta": 0,
+            "explicacao": "50 pontos = Gabaritou!",
+            "dica": "Releia o quarto parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que testar o programa?",
+            "alternativas": [
+              "Para deixar o programa mais lento",
+              "Para achar e corrigir bugs",
+              "Porque é proibido não testar",
+              "Para apagar as listas"
+            ],
+            "correta": 1,
+            "explicacao": "Testar mostra os erros.",
+            "dica": "Bug é erro no programa."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "perguntas[0] combina com:",
+            "alternativas": [
+              "respostas[0]",
+              "respostas[1]",
+              "respostas[5]",
+              "pontos"
+            ],
+            "correta": 0,
+            "explicacao": "As listas andam na mesma ordem.",
+            "dica": "Mesma posição nas duas listas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 5 perguntas, o laço deve ir:",
+            "alternativas": [
+              "de 1 a 5",
+              "de 0 a 5",
+              "de 5 a 10",
+              "de 0 a 4"
+            ],
+            "correta": 3,
+            "explicacao": "Posições 0, 1, 2, 3 e 4.",
+            "dica": "Comece no primeiro índice."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que minúsculas(resposta) faz?",
+            "alternativas": [
+              "Apaga a resposta",
+              "Transforma o que foi digitado em letras minúsculas",
+              "Deixa tudo maiúsculo",
+              "Soma 10 pontos"
+            ],
+            "correta": 1,
+            "explicacao": "Assim Brasília e brasília ficam iguais.",
+            "dica": "Releia o primeiro exemplo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Errando tudo, quantos pontos e qual mensagem?",
+            "alternativas": [
+              "50 pontos e Gabaritou!",
+              "10 pontos e Mandou bem!",
+              "0 pontos e Bora treinar!",
+              "0 pontos e Gabaritou!"
+            ],
+            "correta": 2,
+            "explicacao": "Nenhum acerto, nenhum ponto.",
+            "dica": "0 é menos de 30."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as partes do programa:",
+            "itens": [
+              "pontos = 0",
+              "laço com as 5 perguntas",
+              "conferir e somar pontos dentro do laço",
+              "mostrar a mensagem final"
+            ],
+            "explicacao": "Começa zerando, pergunta, soma e termina com a mensagem.",
+            "dica": "O que precisa existir antes do laço?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O laço foi escrito para i de 1 a 5. O que acontece?",
+            "alternativas": [
+              "Funciona perfeitamente",
+              "Faz 10 perguntas",
+              "Dá 100 pontos",
+              "Pula a primeira pergunta e dá erro ao buscar a posição 5"
+            ],
+            "correta": 3,
+            "explicacao": "As posições vão de 0 a 4.",
+            "dica": "Releia o bug comum 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "pontos = 0 ficou dentro do laço. Quem acerta tudo termina com quantos pontos?",
+            "alternativas": [
+              "50",
+              "0",
+              "10",
+              "40"
+            ],
+            "correta": 2,
+            "explicacao": "Zera a cada pergunta e soma 10 só na última.",
+            "dica": "Faça o teste de mesa da última volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O jogador digita \"BRASÍLIA\". Sem minúsculas(), comparando com \"brasília\":",
+            "alternativas": [
+              "conta como errado",
+              "conta como certo",
+              "o programa soma 20",
+              "o laço para"
+            ],
+            "correta": 0,
+            "explicacao": "Para o computador, letras maiúsculas e minúsculas são diferentes.",
+            "dica": "B e b são iguais para o computador?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o jogador acertar as perguntas 0, 2 e 4, quantos pontos faz?",
+            "alternativas": [
+              "20",
+              "30",
+              "50",
+              "24"
+            ],
+            "correta": 1,
+            "explicacao": "3 acertos × 10 = 30.",
+            "dica": "Conte os acertos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual teste confere a mensagem \"Mandou bem!\"?",
+            "alternativas": [
+              "Acertar 3 ou 4 perguntas",
+              "Acertar 0",
+              "Acertar 5",
+              "Não abrir o programa"
+            ],
+            "correta": 0,
+            "explicacao": "30 ou 40 pontos dão Mandou bem!",
+            "dica": "Quantos pontos dão 30 ou mais, sem chegar a 50?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A lista respostas está [\"56\", \"brasília\", \"terra\", \"3\", \"verde\"], com as duas primeiras trocadas. Quem responde certo tudo faz quantos pontos?",
+            "alternativas": [
+              "30",
+              "50",
+              "40",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "As posições 0 e 1 não batem; só 2, 3 e 4 contam.",
+            "dica": "Compare posição por posição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o quiz ter 7 perguntas, o que precisa mudar?",
+            "alternativas": [
+              "Só o laço de 0 a 6",
+              "Pôr 7 itens nas duas listas, o laço de 0 a 6 e o Gabaritou para 70",
+              "Só a mensagem final",
+              "Nada"
+            ],
+            "correta": 1,
+            "explicacao": "Listas, laço e pontuação máxima andam juntos.",
+            "dica": "Pense em tudo que depende do número de perguntas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um jeito de o laço servir para qualquer quantidade de perguntas é:",
+            "alternativas": [
+              "para i de 1 a 100",
+              "para i de 0 a 4 sempre",
+              "para i de 0 a tamanho(perguntas) − 1",
+              "para i de 5 a 0"
+            ],
+            "correta": 2,
+            "explicacao": "O último índice é o tamanho menos 1.",
+            "dica": "Lembre do aprofundamento da aula de listas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O jogador digita \" verde\" com um espaço antes. O que pode acontecer?",
+            "alternativas": [
+              "Sempre conta certo",
+              "Ganha pontos dobrados",
+              "O laço repete a pergunta",
+              "O programa pode considerar errado, porque o espaço também é um caractere"
+            ],
+            "correta": 3,
+            "explicacao": "Para o computador, \" verde\" é diferente de \"verde\". Programas reais também apagam os espaços antes de comparar.",
+            "dica": "O espaço conta como letra para o computador?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Teste: o jogador acertou 4 perguntas, mas viu \"Bora treinar!\". Qual é o bug mais provável?",
+            "alternativas": [
+              "A condição está errada, como pontos > 40 no lugar de pontos >= 30",
+              "O laço está certo e a mensagem também",
+              "As listas estão vazias",
+              "O jogador não acertou nada"
+            ],
+            "correta": 0,
+            "explicacao": "40 pontos deveriam dar Mandou bem!.",
+            "dica": "Com 40 pontos, qual condição deveria ser verdadeira?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Trabalho escolar completo: capa e salvar em PDF",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A capa é a primeira página do trabalho. Nela vão: nome da escola, nome do aluno, turma, título do trabalho (no meio, em destaque), nome do professor, cidade e ano.",
+          "Para fazer a capa, centralize o texto (Página Inicial > Centralizar ou Ctrl + E) e deixe o título maior e em negrito. Depois da capa, insira uma quebra de página (Ctrl + Enter) para o trabalho começar na página seguinte.",
+          "O Word também tem capas prontas em Inserir > Folha de Rosto, que você pode preencher e mudar as cores.",
+          "No fim, salve em PDF: Arquivo > Salvar como e escolha o tipo PDF (ou Arquivo > Exportar > Criar PDF). No celular, use Compartilhar ou Salvar como PDF."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O que deve ficar no centro da capa, em destaque?",
+            "resolucao": "O título do trabalho, com letra maior e em negrito. Os outros dados ficam em cima (escola e aluno) e embaixo (cidade e ano)."
+          },
+          {
+            "enunciado": "Por que entregar em PDF e não no arquivo do Word?",
+            "resolucao": "Porque o PDF abre igual em qualquer computador ou celular, não desconfigura e é mais difícil de alguém alterar sem querer."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um trabalho completo costuma ter: capa, sumário, introdução, desenvolvimento, conclusão e referências (as fontes consultadas). O sumário automático da aula do dia 54 entra logo depois da capa.",
+        "A numeração de páginas fica em Inserir > Número de Página. Para não aparecer número na capa, marque Primeira Página Diferente nas opções de cabeçalho e rodapé.",
+        "Antes de gerar o PDF, revise: nomes escritos certos, título igual na capa e no texto, fontes citadas. Dê ao arquivo um nome claro, como \"Trabalho_Ciencias_Ana_6B.pdf\"."
+      ],
+      "desafio_pratico": "Abra o Word no celular ou no PC e crie a capa de um trabalho de Ciências. Escreva, centralizado, o nome da escola e seu nome com a turma. Pule algumas linhas e escreva o título \"Ossos e músculos\" com letra grande e em negrito. No pé da página, escreva o nome do professor, a cidade e o ano. Insira uma quebra de página (Ctrl + Enter) e escreva um parágrafo curto de introdução. Coloque número de página com Primeira Página Diferente marcado. Por fim, salve como PDF com o nome Trabalho_Ciencias_SeuNome.pdf e abra o PDF para conferir.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a primeira página do trabalho?",
+            "alternativas": [
+              "A capa",
+              "A conclusão",
+              "As referências",
+              "O sumário"
+            ],
+            "correta": 0,
+            "explicacao": "A capa vem primeiro.",
+            "dica": "É o rosto do trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que vai em destaque no meio da capa?",
+            "alternativas": [
+              "O número da página",
+              "A data de nascimento",
+              "Uma receita",
+              "O título do trabalho"
+            ],
+            "correta": 3,
+            "explicacao": "O título fica centralizado e grande.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atalho centraliza o texto?",
+            "alternativas": [
+              "Ctrl + P",
+              "Ctrl + Z",
+              "Ctrl + E",
+              "Ctrl + C"
+            ],
+            "correta": 2,
+            "explicacao": "Ctrl + E centraliza.",
+            "dica": "Releia o segundo parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual formato é bom para entregar o trabalho?",
+            "alternativas": [
+              "MP3",
+              "PDF",
+              "JPG de baixa qualidade",
+              "Nenhum"
+            ],
+            "correta": 1,
+            "explicacao": "PDF não desconfigura.",
+            "dica": "Releia o quarto parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam as capas prontas do Word?",
+            "alternativas": [
+              "Exibir > Zoom",
+              "Revisão > Ortografia",
+              "Arquivo > Fechar",
+              "Inserir > Folha de Rosto"
+            ],
+            "correta": 3,
+            "explicacao": "Folha de Rosto traz modelos.",
+            "dica": "Fica na guia Inserir."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que entregar em PDF?",
+            "alternativas": [
+              "Porque fica colorido",
+              "Porque apaga os erros",
+              "Abre igual em qualquer aparelho e não desconfigura",
+              "Porque aumenta a nota"
+            ],
+            "correta": 2,
+            "explicacao": "O PDF mantém o visual.",
+            "dica": "Releia o segundo exemplo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fazer o trabalho começar na página seguinte à capa?",
+            "alternativas": [
+              "Apertar Enter 30 vezes",
+              "Mudar a fonte",
+              "Fechar o arquivo",
+              "Inserir uma quebra de página (Ctrl + Enter)"
+            ],
+            "correta": 3,
+            "explicacao": "A quebra de página é o jeito certo.",
+            "dica": "Lembre do atalho da aula do sumário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como salvar em PDF no computador?",
+            "alternativas": [
+              "Arquivo > Salvar como e escolher PDF",
+              "Página Inicial > Negrito",
+              "Inserir > Tabela",
+              "Exibir > Régua"
+            ],
+            "correta": 0,
+            "explicacao": "Escolha o tipo PDF ao salvar.",
+            "dica": "Começa no menu Arquivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes NÃO costuma ir na capa?",
+            "alternativas": [
+              "Nome da escola",
+              "A conclusão do trabalho",
+              "Nome do aluno",
+              "Cidade e ano"
+            ],
+            "correta": 1,
+            "explicacao": "Conclusão vai no fim do trabalho.",
+            "dica": "Capa tem dados de identificação."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as partes de um trabalho completo:",
+            "itens": [
+              "Capa",
+              "Sumário",
+              "Introdução",
+              "Desenvolvimento",
+              "Conclusão",
+              "Referências"
+            ],
+            "explicacao": "Capa, sumário, introdução, desenvolvimento, conclusão e referências.",
+            "dica": "Começa pela capa e termina nas fontes."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como tirar o número de página da capa?",
+            "alternativas": [
+              "Apagar a capa",
+              "Pintar o número de branco",
+              "Marcar Primeira Página Diferente",
+              "Colocar a capa no fim"
+            ],
+            "correta": 2,
+            "explicacao": "Essa opção tira o número só da primeira página.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde inserir a numeração de páginas?",
+            "alternativas": [
+              "Revisão > Contar Palavras",
+              "Inserir > Número de Página",
+              "Exibir > Zoom",
+              "Layout > Margens"
+            ],
+            "correta": 1,
+            "explicacao": "Número de Página fica em Inserir.",
+            "dica": "É algo que se coloca no documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um bom nome para o arquivo do trabalho?",
+            "alternativas": [
+              "Trabalho_Ciencias_Ana_6B.pdf",
+              "documento1.pdf",
+              "aaaaa.pdf",
+              "final_final_agora_vai.pdf"
+            ],
+            "correta": 0,
+            "explicacao": "Nome claro identifica matéria, aluno e turma.",
+            "dica": "O professor recebe muitos arquivos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que revisar antes de gerar o PDF?",
+            "alternativas": [
+              "Nomes, título igual na capa e no texto e fontes citadas",
+              "Só a cor da capa",
+              "Nada, o PDF corrige",
+              "Só o tamanho do arquivo"
+            ],
+            "correta": 0,
+            "explicacao": "Depois do PDF, mudar é mais trabalhoso.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que são as referências do trabalho?",
+            "alternativas": [
+              "Os desenhos da capa",
+              "O nome dos colegas",
+              "As perguntas da prova",
+              "A lista das fontes consultadas"
+            ],
+            "correta": 3,
+            "explicacao": "Referências mostram de onde veio a informação.",
+            "dica": "Lembre da aula de pesquisa."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana fez a capa e o sumário automático, mas o número 1 aparece na capa e o sumário diz que a Introdução está na página 3. O que fazer?",
+            "alternativas": [
+              "Apagar a capa",
+              "Digitar os números à mão",
+              "Salvar em PDF sem mexer",
+              "Marcar Primeira Página Diferente e depois atualizar o sumário"
+            ],
+            "correta": 3,
+            "explicacao": "Tire o número da capa e atualize o sumário para conferir as páginas.",
+            "dica": "Combine a dica do rodapé com a da aula do sumário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o PDF é mais difícil de alterar sem querer?",
+            "alternativas": [
+              "Porque é protegido por senha sempre",
+              "Porque é feito para leitura e mantém o visual fixo",
+              "Porque apaga o texto",
+              "Porque só abre no Word"
+            ],
+            "correta": 1,
+            "explicacao": "O PDF fixa a aparência do documento.",
+            "dica": "Pense em por que ele não desconfigura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual capa está mais completa?",
+            "alternativas": [
+              "Só o título",
+              "Título e um desenho grande",
+              "Escola, aluno, turma, título no centro, professor, cidade e ano",
+              "Nome do aluno e a nota que quer tirar"
+            ],
+            "correta": 2,
+            "explicacao": "Todos os dados de identificação.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No celular, como gerar o PDF do trabalho?",
+            "alternativas": [
+              "Tirando foto da tela de cada página",
+              "Imprimindo e escaneando",
+              "Não é possível",
+              "Pelas opções de Compartilhar ou Salvar como PDF"
+            ],
+            "correta": 3,
+            "explicacao": "O app gera o PDF direto.",
+            "dica": "Releia o fim do quarto parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de gerar o PDF, você achou um erro na capa. O que fazer?",
+            "alternativas": [
+              "Corrigir no arquivo do Word e gerar um PDF novo",
+              "Escrever por cima do PDF com caneta",
+              "Entregar assim mesmo",
+              "Apagar o PDF e não entregar"
+            ],
+            "correta": 0,
+            "explicacao": "O Word é o arquivo editável; o PDF é a cópia final.",
+            "dica": "Qual dos dois arquivos é fácil de editar?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Apresentar o negócio: o pitch de um minuto",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Pitch é uma apresentação curta do seu negócio, de mais ou menos um minuto, para convencer alguém: um cliente, um investidor ou os visitantes de uma feira.",
+          "Um bom pitch responde a quatro perguntas: Qual é o problema? Qual é a sua solução? Quem é o cliente? Por que o seu negócio é bom ou diferente?",
+          "Comece chamando a atenção, com uma pergunta ou um dado curioso, e termine com um convite claro: \"Experimente!\", \"Faça seu pedido!\".",
+          "Treine em voz alta e cronometre. Fale olhando para as pessoas, com calma e sem ler. Em um minuto cabe mais ou menos de 120 a 150 palavras faladas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Monte um pitch curto para uma horta de temperos em garrafa PET.",
+            "resolucao": "\"Você já comprou cheiro-verde e ele murchou em dois dias? Nós plantamos temperos em garrafas PET recicladas: você colhe fresco, direto na janela. Para quem mora em apartamento e gosta de cozinhar. Custa R$ 12 e ainda reaproveita plástico. Leve o seu hoje!\""
+          },
+          {
+            "enunciado": "Qual parte está faltando? \"Fazemos marcadores de página com tecido reaproveitado. Custam R$ 3. Compre já!\"",
+            "resolucao": "Falta o problema e quem é o cliente. Por exemplo: \"Vive perdendo a página do livro? Para quem adora ler...\""
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um pitch honesto não promete o que não pode cumprir. Dizer que o produto \"cura doenças\" ou \"é o melhor do mundo\" sem provas é propaganda enganosa e afasta clientes.",
+        "Números simples convencem: \"Vendemos 40 unidades na primeira semana\", \"Custa a metade do preço da loja\". Mas eles precisam ser verdadeiros.",
+        "Em grupo, cada um pode apresentar uma parte: um fala do problema, outro da solução, outro do preço. Ensaiar junto evita que um interrompa o outro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um pitch?",
+            "alternativas": [
+              "Um tipo de bolo",
+              "Uma multa",
+              "Um contrato longo",
+              "Uma apresentação curta do negócio"
+            ],
+            "correta": 3,
+            "explicacao": "Pitch é apresentação rápida.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto tempo dura, mais ou menos, o pitch da lição?",
+            "alternativas": [
+              "Uma hora",
+              "Um dia",
+              "Um minuto",
+              "Dez segundos sem falar"
+            ],
+            "correta": 2,
+            "explicacao": "Pitch de um minuto.",
+            "dica": "Está no título."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pergunta o pitch deve responder?",
+            "alternativas": [
+              "Qual é o problema?",
+              "Qual é a cor do seu tênis?",
+              "Quem ganhou o jogo?",
+              "Que horas são?"
+            ],
+            "correta": 0,
+            "explicacao": "Problema, solução, cliente e diferencial.",
+            "dica": "O negócio resolve o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como treinar o pitch?",
+            "alternativas": [
+              "Em voz alta e cronometrando",
+              "Só lendo baixinho uma vez",
+              "Não precisa treinar",
+              "Escrevendo no muro"
+            ],
+            "correta": 0,
+            "explicacao": "Treinar em voz alta dá segurança.",
+            "dica": "Releia o quarto parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como terminar o pitch?",
+            "alternativas": [
+              "Indo embora sem falar nada",
+              "Com um convite claro, como \"Experimente!\"",
+              "Com um palavrão",
+              "Pedindo desculpas por existir"
+            ],
+            "correta": 1,
+            "explicacao": "O convite chama para a ação.",
+            "dica": "O que você quer que o visitante faça?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as quatro partes de um bom pitch?",
+            "alternativas": [
+              "Nome, idade, altura e peso",
+              "Começo, fim, capa e sumário",
+              "Preço, preço, preço e preço",
+              "Problema, solução, cliente e diferencial"
+            ],
+            "correta": 3,
+            "explicacao": "Essas quatro respostas convencem.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como começar o pitch chamando a atenção?",
+            "alternativas": [
+              "Lendo o contrato",
+              "Com uma pergunta ou um dado curioso",
+              "Ficando de costas",
+              "Falando o preço de tudo"
+            ],
+            "correta": 1,
+            "explicacao": "Pergunta ou curiosidade prende o público.",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Fazemos marcadores de página com tecido reaproveitado. Custam R$ 3. Compre já!\", o que falta?",
+            "alternativas": [
+              "O problema e o cliente",
+              "O preço",
+              "O convite",
+              "O produto"
+            ],
+            "correta": 0,
+            "explicacao": "Tem produto, preço e convite.",
+            "dica": "O pitch fala para quem e resolve o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas palavras cabem, mais ou menos, em um minuto falado?",
+            "alternativas": [
+              "De 5 a 10",
+              "Mais de 1.000",
+              "De 120 a 150",
+              "Exatamente 60"
+            ],
+            "correta": 2,
+            "explicacao": "É a média de fala tranquila.",
+            "dica": "Releia o fim da lição."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene um pitch:",
+            "itens": [
+              "Pergunta que chama a atenção",
+              "Apresentar a solução",
+              "Dizer quem é o cliente e o diferencial",
+              "Convite final"
+            ],
+            "explicacao": "Atenção, solução, cliente e diferencial, convite.",
+            "dica": "Comece prendendo a atenção."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Nosso suco cura gripe em um dia!\", sem prova nenhuma, é:",
+            "alternativas": [
+              "um bom diferencial",
+              "propaganda enganosa",
+              "obrigatório",
+              "um número simples"
+            ],
+            "correta": 1,
+            "explicacao": "Prometer sem prova engana.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa um número simples e honesto?",
+            "alternativas": [
+              "Vendemos 40 potes na primeira semana.",
+              "Somos o melhor do universo.",
+              "Todo mundo ama nosso produto.",
+              "Nunca ninguém reclamou de nada no mundo."
+            ],
+            "correta": 0,
+            "explicacao": "Número verdadeiro e fácil de entender.",
+            "dica": "Procure um dado concreto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O grupo tem 3 pessoas. Como dividir o pitch?",
+            "alternativas": [
+              "Todos falam ao mesmo tempo",
+              "Ninguém fala",
+              "Só o mais tímido fala, sem ensaio",
+              "Um fala do problema, outro da solução e outro do preço"
+            ],
+            "correta": 3,
+            "explicacao": "Dividir e ensaiar junto.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o diferencial no pitch da horta em garrafa PET?",
+            "alternativas": [
+              "Ser caro",
+              "Tempero fresco na janela e plástico reaproveitado",
+              "Murchar em dois dias",
+              "Não ter cliente"
+            ],
+            "correta": 1,
+            "explicacao": "É o que torna o produto especial.",
+            "dica": "O que a horta tem que o tempero comprado não tem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pitch com 400 palavras cabe em um minuto?",
+            "alternativas": [
+              "Sim, fácil",
+              "Sim, se falar sem respirar",
+              "Não, ficaria longo e corrido demais",
+              "Só se for em inglês"
+            ],
+            "correta": 2,
+            "explicacao": "Em um minuto cabem cerca de 120 a 150 palavras.",
+            "dica": "Compare com o que cabe em um minuto."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pitch está mais completo?",
+            "alternativas": [
+              "\"Chaveiro. R$ 10.\"",
+              "\"Somos os melhores do mundo, comprem!\"",
+              "\"Fizemos um chaveiro porque sim.\"",
+              "\"Cansado de perder chaves? Nosso chaveiro apita quando você bate palma. Ideal para quem vive com pressa. Custa R$ 10. Teste aqui!\""
+            ],
+            "correta": 3,
+            "explicacao": "Tem problema, solução, cliente, preço e convite.",
+            "dica": "Confira as quatro perguntas e o convite."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você falou por 1 minuto e 40 segundos no ensaio. O que fazer?",
+            "alternativas": [
+              "Falar mais rápido sem respirar",
+              "Cortar o que não é essencial e ensaiar de novo",
+              "Ignorar o tempo",
+              "Acrescentar mais detalhes"
+            ],
+            "correta": 1,
+            "explicacao": "Pitch bom é curto e claro.",
+            "dica": "O que pode sair sem fazer falta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O grupo vendeu 40 sacolinhas na primeira semana e 60 na segunda. No pitch, qual frase é honesta?",
+            "alternativas": [
+              "Já vendemos 100 sacolinhas em duas semanas.",
+              "Já vendemos 1.000 sacolinhas.",
+              "Vendemos 60 por dia.",
+              "Todo o bairro comprou."
+            ],
+            "correta": 0,
+            "explicacao": "40 + 60 = 100.",
+            "dica": "Some as duas semanas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um investidor pergunta: \"Quem é o seu cliente?\". Qual é a melhor resposta?",
+            "alternativas": [
+              "Mães e pais da escola que querem lanche saudável para os filhos",
+              "Todo mundo do planeta",
+              "Ninguém em especial",
+              "Não sei"
+            ],
+            "correta": 0,
+            "explicacao": "Cliente bem definido mostra que você conhece o negócio.",
+            "dica": "Responda com um grupo de pessoas específico."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude atrapalha o pitch?",
+            "alternativas": [
+              "Olhar para as pessoas",
+              "Falar com calma",
+              "Ler o papel o tempo todo, sem olhar para o público",
+              "Terminar com um convite"
+            ],
+            "correta": 2,
+            "explicacao": "Ler sem olhar afasta o público.",
+            "dica": "Releia o quarto parágrafo da lição."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Resumo: dizer só o essencial",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Resumo é um texto curto que apresenta as ideias principais de outro texto, com as suas palavras. Ele deve ser bem menor que o original.",
+          "Para resumir: leia o texto inteiro; leia de novo sublinhando as ideias principais de cada parágrafo; depois escreva juntando essas ideias, na mesma ordem do original.",
+          "No resumo ficam de fora os exemplos, os detalhes, as repetições e as falas inteiras dos personagens. Fica só o que é necessário para entender o texto.",
+          "O resumo não tem opinião: não se escreve \"eu achei lindo\". Ele conta o que o autor disse, sem acrescentar nada."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Resuma: \"Na feira da escola, cada grupo tinha um minuto para apresentar sua ideia. O grupo da Lara mostrou uma horta em garrafas PET. Eles treinaram muito e venderam todas as mudas.\"",
+            "resolucao": "Na feira da escola, o grupo da Lara apresentou em um minuto uma horta em garrafas PET e, depois de muito treino, vendeu todas as mudas."
+          },
+          {
+            "enunciado": "O que NÃO entra no resumo: \"A professora disse: — Vocês foram ótimos, parabéns, parabéns mesmo!\"?",
+            "resolucao": "A fala inteira com a repetição. No resumo basta: \"A professora elogiou o grupo.\""
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma técnica é escrever uma frase-chave para cada parágrafo e depois juntar as frases com palavras de ligação, como depois, por isso, mas e então.",
+        "Um resumo costuma ter menos de um terço do tamanho do texto original. Se ficou quase do mesmo tamanho, ainda tem detalhe sobrando.",
+        "Resumo é diferente de cópia: juntar frases copiadas do texto não é resumir. É preciso entender e reescrever."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um resumo?",
+            "alternativas": [
+              "Uma cópia do texto inteiro",
+              "Um texto curto com as ideias principais de outro",
+              "Uma opinião sobre o texto",
+              "Uma lista de palavras difíceis"
+            ],
+            "correta": 1,
+            "explicacao": "Resumo é o essencial.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O resumo deve ser:",
+            "alternativas": [
+              "maior que o original",
+              "do mesmo tamanho",
+              "bem menor que o original",
+              "sem nenhuma ideia"
+            ],
+            "correta": 2,
+            "explicacao": "Resumir é encurtar.",
+            "dica": "Pense na palavra resumir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fica de fora do resumo?",
+            "alternativas": [
+              "Os detalhes e os exemplos",
+              "As ideias principais",
+              "O assunto do texto",
+              "A ordem dos fatos"
+            ],
+            "correta": 0,
+            "explicacao": "Detalhe não é essencial.",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O resumo pode ter a sua opinião?",
+            "alternativas": [
+              "Sim, sempre",
+              "Só no começo",
+              "Só se for elogio",
+              "Não"
+            ],
+            "correta": 3,
+            "explicacao": "Resumo conta o que o autor disse.",
+            "dica": "Releia o quarto parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo para resumir?",
+            "alternativas": [
+              "Escrever logo",
+              "Ler o texto inteiro",
+              "Copiar o título",
+              "Apagar o texto"
+            ],
+            "correta": 1,
+            "explicacao": "Primeiro entender o todo.",
+            "dica": "Antes de escrever, é preciso conhecer o texto."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que sublinhar as ideias principais?",
+            "alternativas": [
+              "Para enfeitar o livro",
+              "Para copiar tudo depois",
+              "Para separar o essencial dos detalhes",
+              "Para contar as letras"
+            ],
+            "correta": 2,
+            "explicacao": "Sublinhar ajuda a escolher.",
+            "dica": "O que entra no resumo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é um bom resumo de \"O grupo treinou muito, apresentou o pitch e vendeu todas as mudas da horta.\"?",
+            "alternativas": [
+              "O grupo treinou, apresentou e vendeu todas as mudas.",
+              "Eu achei o grupo muito legal.",
+              "O grupo, que treinou muito, muito, muito, apresentou o pitch e, nossa, vendeu tudo.",
+              "Era uma vez uma horta."
+            ],
+            "correta": 0,
+            "explicacao": "Curto, sem opinião e sem repetição.",
+            "dica": "Procure o mais curto que mantém a ideia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O resumo deve seguir:",
+            "alternativas": [
+              "a ordem alfabética",
+              "a ordem inversa",
+              "qualquer ordem",
+              "a mesma ordem do texto original"
+            ],
+            "correta": 3,
+            "explicacao": "Mantém a sequência das ideias.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como resumir uma fala longa de personagem?",
+            "alternativas": [
+              "Copiar a fala inteira",
+              "Contar em poucas palavras o que ele disse",
+              "Inventar outra fala",
+              "Deixar só os pontos de exclamação"
+            ],
+            "correta": 1,
+            "explicacao": "\"A professora elogiou o grupo.\"",
+            "dica": "Lembre do segundo exemplo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para fazer um resumo:",
+            "itens": [
+              "Ler o texto inteiro",
+              "Reler sublinhando as ideias principais",
+              "Escrever juntando as ideias com suas palavras",
+              "Conferir se ficou curto e sem opinião"
+            ],
+            "explicacao": "Ler, sublinhar, escrever e conferir.",
+            "dica": "Escrever vem depois de entender."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto tem 300 palavras. Qual tamanho de resumo é mais adequado?",
+            "alternativas": [
+              "Umas 290 palavras",
+              "Umas 500 palavras",
+              "Até umas 100 palavras",
+              "Uma palavra só"
+            ],
+            "correta": 2,
+            "explicacao": "Menos de um terço do original.",
+            "dica": "Calcule um terço de 300."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Juntar frases copiadas do texto é resumir?",
+            "alternativas": [
+              "Sim, é o melhor jeito",
+              "Sim, se forem muitas frases",
+              "Só se mudar a cor da letra",
+              "Não, é preciso entender e reescrever com suas palavras"
+            ],
+            "correta": 3,
+            "explicacao": "Resumo não é cópia.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra de ligação ajuda a juntar ideias no resumo?",
+            "alternativas": [
+              "ontem à tarde pelas três",
+              "depois",
+              "socorro",
+              "amarelo"
+            ],
+            "correta": 1,
+            "explicacao": "Palavras como depois, por isso e mas ligam as ideias.",
+            "dica": "Procure a que liga uma ideia à outra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem opinião e NÃO deveria estar no resumo?",
+            "alternativas": [
+              "A feira foi a coisa mais incrível que já vi.",
+              "A feira teve dez grupos.",
+              "Cada grupo apresentou por um minuto.",
+              "O grupo da Lara vendeu tudo."
+            ],
+            "correta": 0,
+            "explicacao": "Incrível é opinião de quem escreve.",
+            "dica": "Procure a frase com sentimento de quem escreve."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma frase-chave?",
+            "alternativas": [
+              "Uma frase que resume a ideia de um parágrafo",
+              "A primeira palavra do texto",
+              "Uma senha",
+              "O título do livro"
+            ],
+            "correta": 0,
+            "explicacao": "Uma frase por parágrafo ajuda a montar o resumo.",
+            "dica": "Releia o aprofundamento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Texto: \"Lia queria um celular. Juntou a mesada por um ano, pesquisou preços em três lojas e comprou à vista, com desconto.\" Qual é o melhor resumo?",
+            "alternativas": [
+              "Lia economizou, pesquisou e comprou o celular à vista com desconto.",
+              "Lia queria muito, muito um celular bonito.",
+              "Lia é uma menina muito esperta e eu gostei dela.",
+              "Lia juntou a mesada por um ano, pesquisou preços em três lojas e comprou à vista, com desconto."
+            ],
+            "correta": 0,
+            "explicacao": "Curto, sem opinião e com as ideias principais.",
+            "dica": "Um deles é só cópia; outro é opinião."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um resumo ficou com 280 palavras de um texto de 300. O que fazer?",
+            "alternativas": [
+              "Entregar assim",
+              "Acrescentar opinião",
+              "Cortar mais detalhes e exemplos",
+              "Copiar o texto inteiro"
+            ],
+            "correta": 2,
+            "explicacao": "Quase do mesmo tamanho ainda tem detalhe sobrando.",
+            "dica": "Lembre do um terço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual elemento de uma história quase sempre entra no resumo?",
+            "alternativas": [
+              "A cor da roupa de cada personagem",
+              "O que aconteceu de principal e como terminou",
+              "Todas as falas",
+              "Os exemplos repetidos"
+            ],
+            "correta": 1,
+            "explicacao": "Fato principal e desfecho são essenciais.",
+            "dica": "Sem isso, dá para entender a história?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num resumo, \"Ele disse: — Eu vou, eu vou, eu vou sim!\" vira melhor:",
+            "alternativas": [
+              "Ele confirmou que ia.",
+              "Ele disse: eu vou, eu vou, eu vou sim.",
+              "Ele gritou muito alto e eu achei engraçado.",
+              "Ninguém disse nada."
+            ],
+            "correta": 0,
+            "explicacao": "Discurso indireto e sem repetição.",
+            "dica": "Conte em poucas palavras, sem copiar a fala."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre resumo e resenha?",
+            "alternativas": [
+              "Não há diferença",
+              "O resumo sempre tem opinião",
+              "A resenha é sempre menor que uma frase",
+              "O resumo só apresenta as ideias; a resenha também traz a opinião de quem escreve"
+            ],
+            "correta": 3,
+            "explicacao": "Resumo não opina.",
+            "dica": "Releia o quarto parágrafo da lição."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A feira de negócios da escola",
+    "texto": "No sábado, o pátio da escola virou uma feira de negócios. Cada grupo tinha uma mesa, um cartaz e um minuto para convencer os visitantes.\n\nA professora Neide segurava o cronômetro. Quando o tempo acabava, ela tocava um sininho.\n\nO grupo do Otávio começou falando do avô, da tia, da história da receita... e o sininho tocou antes de dizerem o que vendiam.\n\nDepois veio a Lara, com uma garrafa PET cheia de cebolinha.\n\n— Seu cheiro-verde murcha na geladeira? — perguntou ao público. — Nossa horta fica na janela, e você colhe fresco. É para quem gosta de cozinhar e tem pouco espaço. Custa doze reais e reaproveita plástico. Leve a sua!\n\nCinquenta segundos. As mudas acabaram antes do almoço.\n\nNo fim da tarde, Otávio procurou a Lara.\n\n— Me ensina a caber em um minuto?\n\n— Fácil — riu ela. — Diz o problema, a solução e o convite. O resto, a gente conta depois da venda."
+  },
+  "escrita": {
+    "proposta": "Escreva o seu pitch de 6 a 8 linhas para um negócio honesto que você gostaria de ter: comece com uma pergunta que chame a atenção, diga o problema, a solução, quem é o cliente e por que seu negócio é bom, e termine com um convite. Depois, leia em voz alta cronometrando e veja se cabe em um minuto."
+  }
+}

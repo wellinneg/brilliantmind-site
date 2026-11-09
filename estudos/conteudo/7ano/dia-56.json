@@ -1,0 +1,1205 @@
+{
+  "dia": 56,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Volume do bloco retangular e capacidade em litros",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Volume é o espaço que um objeto ocupa. No bloco retangular (como uma caixa de sapato), volume = comprimento × largura × altura. A unidade fica ao cubo: cm³, m³.",
+          "O cubo é um bloco com as três medidas iguais: volume = aresta × aresta × aresta.",
+          "Capacidade é quanto cabe dentro de um recipiente, medida em litros. Um cubo de 10 cm de lado (1 dm³) tem capacidade de 1 litro. Assim, 1 dm³ = 1 L, 1 L = 1000 mL e 1 cm³ = 1 mL.",
+          "Um cubo de 1 m de lado (1 m³) tem capacidade de 1000 litros.",
+          "Passo a passo: meça as três dimensões na mesma unidade, multiplique e depois converta para litros."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma caixa de sapato mede 30 cm por 20 cm por 10 cm. Qual é o volume? Quantos litros caberiam nela?",
+            "resolucao": "30 × 20 × 10 = 6000 cm³. Como 1000 cm³ = 1 L, cabem 6 litros."
+          },
+          {
+            "enunciado": "Uma caixa-d'água retangular mede 1,2 m por 1 m por 0,8 m. Quantos litros ela guarda?",
+            "resolucao": "1,2 × 1 × 0,8 = 0,96 m³. Como 1 m³ = 1000 L, ela guarda 960 litros."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Se você dobra as três medidas de uma caixa, o volume fica 2 × 2 × 2 = 8 vezes maior.",
+        "Para medir o volume de um objeto irregular, como uma pedra, mergulhe-o num recipiente com água: o volume da água que sobe é igual ao volume do objeto. Num aquário, a água ocupa só até a altura em que está, não até a borda.",
+        "Para saber quantos cubinhos cabem numa caixa, divida cada medida da caixa pela aresta do cubinho e multiplique os resultados. E atenção: a conta de água vem em metros cúbicos; 1 m³ consumido são 1000 litros."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o volume de uma caixa de 4 cm por 3 cm por 2 cm?",
+            "alternativas": [
+              "24 cm³",
+              "48 cm³",
+              "9 cm³",
+              "12 cm³"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 3 × 2 = 24 cm³.",
+            "dica": "Multiplique as três medidas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o volume de um cubo de 3 cm de aresta?",
+            "alternativas": [
+              "12 cm³",
+              "6 cm³",
+              "9 cm³",
+              "27 cm³"
+            ],
+            "correta": 3,
+            "explicacao": "3 × 3 × 3 = 27 cm³.",
+            "dica": "Multiplique a aresta três vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos mililitros há em 1 litro?",
+            "alternativas": [
+              "100 mL",
+              "10 mL",
+              "1000 mL",
+              "10 000 mL"
+            ],
+            "correta": 2,
+            "explicacao": "1 L = 1000 mL.",
+            "dica": "Mili quer dizer milésimo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "1 dm³ corresponde a:",
+            "alternativas": [
+              "10 litros",
+              "1 litro",
+              "1 mililitro",
+              "1000 litros"
+            ],
+            "correta": 1,
+            "explicacao": "Um cubo de 10 cm de lado guarda 1 litro.",
+            "dica": "Pense num cubo de 10 cm de lado."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para achar quantos litros cabem numa caixa.",
+            "itens": [
+              "Medir comprimento, largura e altura na mesma unidade",
+              "Multiplicar as três medidas",
+              "Escrever o volume em unidade cúbica",
+              "Converter o volume para litros"
+            ],
+            "explicacao": "Medir, multiplicar, escrever o volume e converter.",
+            "dica": "Antes de qualquer conta, é preciso medir."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa de sapato mede 30 cm por 20 cm por 10 cm. Quantos litros cabem nela?",
+            "alternativas": [
+              "6 L",
+              "600 L",
+              "0,6 L",
+              "60 L"
+            ],
+            "correta": 0,
+            "explicacao": "30 × 20 × 10 = 6000 cm³ = 6 L.",
+            "dica": "Cada 1000 cm³ é 1 litro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos litros cabem em 1 m³?",
+            "alternativas": [
+              "100 L",
+              "10 L",
+              "1000 L",
+              "1 000 000 L"
+            ],
+            "correta": 2,
+            "explicacao": "1 m³ = 1000 L.",
+            "dica": "Um cubo de 1 m de lado é bem grande."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aquário mede 50 cm por 30 cm por 40 cm. Quantos litros cabem nele?",
+            "alternativas": [
+              "120 L",
+              "60 L",
+              "6 L",
+              "600 L"
+            ],
+            "correta": 1,
+            "explicacao": "50 × 30 × 40 = 60 000 cm³ = 60 L.",
+            "dica": "Calcule em cm³ e divida por 1000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa-d'água mede 1,2 m por 1 m por 0,8 m. Quantos litros ela guarda?",
+            "alternativas": [
+              "9600 L",
+              "96 L",
+              "3000 L",
+              "960 L"
+            ],
+            "correta": 3,
+            "explicacao": "1,2 × 1 × 0,8 = 0,96 m³ = 960 L.",
+            "dica": "Calcule em m³ e multiplique por 1000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma garrafa de 2 L enche quantos copos de 250 mL?",
+            "alternativas": [
+              "4",
+              "8",
+              "6",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "2 L = 2000 mL. 2000 ÷ 250 = 8 copos.",
+            "dica": "Passe os litros para mililitros."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma piscina mede 5 m por 3 m e tem 1,2 m de profundidade. Quantos litros cabem nela?",
+            "alternativas": [
+              "9,2 L",
+              "180 000 L",
+              "18 000 L",
+              "1800 L"
+            ],
+            "correta": 2,
+            "explicacao": "5 × 3 × 1,2 = 18 m³ = 18 000 L.",
+            "dica": "Volume em m³, depois vezes 1000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A caixa-d'água tem 960 L e a família gasta 320 L por dia. Quantos dias a água dura?",
+            "alternativas": [
+              "30",
+              "4",
+              "2",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "960 ÷ 320 = 3 dias.",
+            "dica": "Divida o total pelo gasto diário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aquário de 60 cm por 30 cm por 40 cm de altura está com água até 30 cm. Quantos litros de água há?",
+            "alternativas": [
+              "54 L",
+              "540 L",
+              "72 L",
+              "5,4 L"
+            ],
+            "correta": 0,
+            "explicacao": "60 × 30 × 30 = 54 000 cm³ = 54 L. A altura que vale é a da água.",
+            "dica": "Use a altura da água, não a do aquário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa de 1 L tem base de 5 cm por 10 cm. Qual é a altura dela?",
+            "alternativas": [
+              "10 cm",
+              "20 cm",
+              "15 cm",
+              "25 cm"
+            ],
+            "correta": 1,
+            "explicacao": "1 L = 1000 cm³. 1000 ÷ (5 × 10) = 20 cm.",
+            "dica": "Divida o volume pela área da base."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A conta de água mostra consumo de 15 m³ no mês. Quantos litros são?",
+            "alternativas": [
+              "1500 L",
+              "15 000 L",
+              "150 L",
+              "150 000 L"
+            ],
+            "correta": 1,
+            "explicacao": "15 × 1000 = 15 000 L.",
+            "dica": "Cada m³ tem 1000 litros."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Se as três medidas de uma caixa dobrarem, o volume fica quantas vezes maior?",
+            "alternativas": [
+              "4",
+              "2",
+              "6",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "2 × 2 × 2 = 8.",
+            "dica": "Cada medida dobrada multiplica o volume por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aquário tem base de 40 cm por 25 cm. Ao mergulhar uma pedra, a água sobe 2 cm. Qual é o volume da pedra?",
+            "alternativas": [
+              "1000 cm³",
+              "200 cm³",
+              "20 L",
+              "2 L (2000 cm³)"
+            ],
+            "correta": 3,
+            "explicacao": "O volume que subiu é 40 × 25 × 2 = 2000 cm³ = 2 L, igual ao da pedra.",
+            "dica": "A pedra ocupa o lugar da água que subiu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa-d'água de 1,5 m por 1 m por 1 m está vazia, e a torneira enche 25 L por minuto. Quanto tempo leva para encher?",
+            "alternativas": [
+              "1 hora",
+              "6 minutos",
+              "10 horas",
+              "37,5 minutos"
+            ],
+            "correta": 0,
+            "explicacao": "1,5 m³ = 1500 L. 1500 ÷ 25 = 60 minutos.",
+            "dica": "Ache a capacidade em litros e divida pela vazão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos cubos de 2 cm de aresta cabem numa caixa de 10 cm por 6 cm por 4 cm?",
+            "alternativas": [
+              "240",
+              "60",
+              "30",
+              "120"
+            ],
+            "correta": 2,
+            "explicacao": "Cabem 5 × 3 × 2 = 30 cubos (ou 240 ÷ 8 = 30).",
+            "dica": "Divida cada medida da caixa por 2 e multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A caixa de 960 L está cheia. Na casa moram 5 pessoas, e cada uma gasta 110 L por dia. Quantos dias completos a água dura?",
+            "alternativas": [
+              "5",
+              "1",
+              "8",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "Gasto diário: 550 L. 960 ÷ 550 ≈ 1,7: só 1 dia completo.",
+            "dica": "O segundo dia fica pela metade?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Dividir a conta e emprestar dinheiro entre amigos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Dividir igualmente é o jeito mais simples: total ÷ número de pessoas. Três pizzas de R$ 45,00 para 5 amigos: 135 ÷ 5 = R$ 27,00 para cada um.",
+          "Dividir pelo consumo é mais justo quando os pedidos são muito diferentes: cada um paga o que pediu. A taxa de serviço de 10% costuma vir na conta; ela é opcional, mas é um jeito de valorizar quem atendeu.",
+          "Combine antes de pedir: como vai dividir, quem paga e para quem os outros mandam o Pix. Confira a conta antes de pagar.",
+          "Emprestar dinheiro a um amigo pede cuidado: só empreste o que você pode ficar sem; combine o valor, a data e a forma de devolver; deixe tudo por escrito, nem que seja numa mensagem.",
+          "Quem pede emprestado deve devolver na data. Se não der, avise antes e combine um novo prazo. Dívida mal resolvida estraga amizades."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quatro amigos gastaram R$ 86,00 num lanche e decidiram pagar os 10% de serviço. Quanto cada um paga?",
+            "resolucao": "10% de 86 = 8,60. Total: 94,60. 94,60 ÷ 4 = R$ 23,65 para cada um."
+          },
+          {
+            "enunciado": "Ana pediu R$ 18,00, Bia R$ 25,00 e Caio R$ 12,00. Com 10% de serviço, quanto cada um paga pelo consumo?",
+            "resolucao": "Ana: 18 × 1,1 = 19,80. Bia: 25 × 1,1 = 27,50. Caio: 12 × 1,1 = 13,20. Total: 60,50."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Quando um amigo paga tudo no cartão, os outros mandam Pix para ele. Se cada um pagou um valor diferente, compare o que cada um pagou com o que deveria pagar: quem pagou a menos manda a diferença para quem pagou a mais.",
+        "Arredondar facilita: se cada um deve R$ 23,65, todos podem dar R$ 24,00, e a sobra vai para a gorjeta ou volta para alguém. Combine antes.",
+        "Uma boa regra: empreste como se fosse doar. Se o dinheiro não voltar, você aguenta sem prejudicar suas contas? E cuidado ao ser fiador: é prometer pagar a dívida de outra pessoa se ela não pagar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A conta deu R$ 60,00 para 3 amigos, divididos igualmente. Quanto cada um paga?",
+            "alternativas": [
+              "R$ 30,00",
+              "R$ 15,00",
+              "R$ 20,00",
+              "R$ 180,00"
+            ],
+            "correta": 2,
+            "explicacao": "60 ÷ 3 = 20.",
+            "dica": "Divida o total pelas pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é bom combinar antes de pedir?",
+            "alternativas": [
+              "O nome do garçom",
+              "Como a conta será dividida",
+              "Nada",
+              "A cor da toalha"
+            ],
+            "correta": 1,
+            "explicacao": "Combinar antes evita briga depois.",
+            "dica": "Pense no que costuma dar confusão no fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto emprestar a um amigo?",
+            "alternativas": [
+              "O dinheiro da conta de luz",
+              "O dinheiro emprestado de outra pessoa",
+              "Todo o dinheiro que tiver",
+              "Só o que você pode ficar sem"
+            ],
+            "correta": 3,
+            "explicacao": "Nunca empreste o que vai fazer falta.",
+            "dica": "E se o dinheiro demorar a voltar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que combinar ao emprestar dinheiro?",
+            "alternativas": [
+              "Nada, amigo não precisa",
+              "Valor, data e forma de devolução",
+              "Apenas a cor da nota",
+              "Só o valor, de cabeça"
+            ],
+            "correta": 1,
+            "explicacao": "Combinado por escrito evita mal-entendido.",
+            "dica": "Pense em quanto, quando e como."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você não vai conseguir devolver na data combinada. O que fazer?",
+            "alternativas": [
+              "Avisar antes e combinar um novo prazo",
+              "Fingir que esqueceu",
+              "Bloquear o amigo",
+              "Sumir e não responder"
+            ],
+            "correta": 0,
+            "explicacao": "Avisar antes mostra respeito e mantém a confiança.",
+            "dica": "O que mantém a confiança?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Três pizzas de R$ 45,00 divididas por 5 amigos. Quanto cada um paga?",
+            "alternativas": [
+              "R$ 30,00",
+              "R$ 45,00",
+              "R$ 9,00",
+              "R$ 27,00"
+            ],
+            "correta": 3,
+            "explicacao": "3 × 45 = 135. 135 ÷ 5 = 27.",
+            "dica": "Calcule o total primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quatro amigos gastaram R$ 86,00 e vão pagar os 10% de serviço. Quanto cada um paga?",
+            "alternativas": [
+              "R$ 23,65",
+              "R$ 94,60",
+              "R$ 21,50",
+              "R$ 23,00"
+            ],
+            "correta": 0,
+            "explicacao": "86 + 8,60 = 94,60. 94,60 ÷ 4 = 23,65.",
+            "dica": "Some os 10% antes de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana pediu R$ 18,00, Bia R$ 25,00 e Caio R$ 12,00. Se dividirem igualmente, quem sai mais prejudicado?",
+            "alternativas": [
+              "Bia",
+              "Caio",
+              "Ninguém",
+              "Ana"
+            ],
+            "correta": 1,
+            "explicacao": "Cada um pagaria cerca de 18,33. Caio consumiu 12 e pagaria mais de 6 reais a mais.",
+            "dica": "Quem consumiu bem menos que a média?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A taxa de serviço de 10% na conta do restaurante é:",
+            "alternativas": [
+              "uma multa",
+              "obrigatória por lei",
+              "opcional",
+              "um imposto do governo"
+            ],
+            "correta": 2,
+            "explicacao": "O cliente pode escolher pagar ou não, mas é uma forma de valorizar o atendimento.",
+            "dica": "Você pode recusar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você emprestou R$ 30,00 a um amigo. Como registrar?",
+            "alternativas": [
+              "Não precisa registrar nada",
+              "Numa mensagem com o valor e a data de devolução",
+              "Postando nas redes",
+              "Contando para a turma toda"
+            ],
+            "correta": 1,
+            "explicacao": "Uma mensagem simples guarda o combinado sem expor ninguém.",
+            "dica": "Algo simples, por escrito e só entre vocês."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pelo consumo, com 10% de serviço, quanto paga quem pediu R$ 25,00?",
+            "alternativas": [
+              "R$ 2,50",
+              "R$ 25,10",
+              "R$ 27,50",
+              "R$ 35,00"
+            ],
+            "correta": 2,
+            "explicacao": "25 × 1,1 = 27,50.",
+            "dica": "Some 10% ao valor do pedido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas pagou no cartão a conta de R$ 120,00 de 4 amigos, dividida igualmente. Quanto ele recebe de Pix dos outros, ao todo?",
+            "alternativas": [
+              "R$ 90,00",
+              "R$ 120,00",
+              "R$ 40,00",
+              "R$ 30,00"
+            ],
+            "correta": 0,
+            "explicacao": "Cada um deve 30. Os outros 3 mandam 30 cada: 90. A parte de Lucas é dele mesmo.",
+            "dica": "Lucas também tem a parte dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você emprestou R$ 120,00 para receber em 4 parcelas semanais iguais e já recebeu 2. Quanto falta?",
+            "alternativas": [
+              "R$ 90,00",
+              "R$ 30,00",
+              "R$ 40,00",
+              "R$ 60,00"
+            ],
+            "correta": 3,
+            "explicacao": "Cada parcela: 30. Faltam 2 parcelas: 60.",
+            "dica": "Ache o valor de uma parcela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um amigo pede R$ 200,00, e você tem R$ 150,00 guardados para o material escolar. Qual é a melhor atitude?",
+            "alternativas": [
+              "Prometer e não cumprir",
+              "Não emprestar o dinheiro do material e explicar com sinceridade",
+              "Pegar emprestado com outro para emprestar a ele",
+              "Emprestar tudo e ficar sem material"
+            ],
+            "correta": 1,
+            "explicacao": "Não se empresta o que faz falta. Sinceridade preserva a amizade.",
+            "dica": "Esse dinheiro já tem destino?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para dividir a conta sem confusão.",
+            "itens": [
+              "Combinar a forma de divisão",
+              "Conferir os itens da conta",
+              "Calcular a parte de cada um",
+              "Pagar e conferir os Pix recebidos"
+            ],
+            "explicacao": "Combina, confere, calcula e paga.",
+            "dica": "O que precisa ser decidido antes de pedir?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Cinco amigos gastaram R$ 150,00 e vão pagar os 10% de serviço. Rui só tomou um suco de R$ 10,00 e paga o dele com os 10%. Os outros 4 dividem o resto igualmente. Quanto paga cada um dos 4?",
+            "alternativas": [
+              "R$ 37,50",
+              "R$ 33,00",
+              "R$ 41,25",
+              "R$ 38,50"
+            ],
+            "correta": 3,
+            "explicacao": "Total: 165. Rui: 11. Resto: 154. 154 ÷ 4 = 38,50.",
+            "dica": "Calcule o total com 10% e tire a parte do Rui."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é ser fiador?",
+            "alternativas": [
+              "Prometer pagar a dívida de outra pessoa se ela não pagar",
+              "Ser dono de um banco",
+              "Emprestar uma faca",
+              "Receber juros de um amigo"
+            ],
+            "correta": 0,
+            "explicacao": "O fiador responde pela dívida do outro.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada um dos 4 amigos deve R$ 23,65, mas todos dão R$ 24,00. Quanto sobra?",
+            "alternativas": [
+              "R$ 1,60",
+              "R$ 2,40",
+              "R$ 1,40",
+              "R$ 0,35"
+            ],
+            "correta": 2,
+            "explicacao": "4 × 24 = 96. 96 − 94,60 = 1,40.",
+            "dica": "Calcule o que foi dado e tire o total da conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa a regra \"empreste como se fosse doar\"?",
+            "alternativas": [
+              "Cobrar juros altos",
+              "Emprestar tudo para todos",
+              "Só emprestar um valor que você aguentaria perder sem prejudicar suas contas",
+              "Nunca cobrar de volta"
+            ],
+            "correta": 2,
+            "explicacao": "Assim, mesmo se não voltar, você não fica em apuros.",
+            "dica": "Pense no pior caso: o dinheiro não volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num lanche de R$ 90,00 para 3 amigos, Ana pagou R$ 60,00, Bia R$ 30,00 e Caio nada. Dividindo igualmente, como acertar?",
+            "alternativas": [
+              "Caio manda R$ 15,00 para cada uma",
+              "Caio manda R$ 30,00 para Ana",
+              "Bia manda R$ 30,00 para Ana",
+              "Caio manda R$ 30,00 para Bia"
+            ],
+            "correta": 1,
+            "explicacao": "Cada um deve 30. Ana pagou 30 a mais, Bia pagou o certo, Caio pagou 30 a menos.",
+            "dica": "Compare o que cada um pagou com o que deveria pagar."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Matriz: lista de listas (o tabuleiro do jogo da velha)",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma matriz é uma lista de listas: uma tabela com linhas e colunas. O tabuleiro do jogo da velha pode ser: tab ← [['X', 'O', 'X'], [' ', 'X', 'O'], ['O', ' ', 'X']].",
+          "Para acessar uma casa, use tab[linha][coluna], e a contagem começa em 0. tab[0][0] é o canto de cima à esquerda; tab[1][2] é a linha do meio, última coluna.",
+          "Para fazer uma jogada, atribua um valor: tab[2][1] ← 'X'.",
+          "Para percorrer a matriz inteira, usa-se um laço dentro de outro: PARA l DE 0 ATÉ 2 FAÇA PARA c DE 0 ATÉ 2 FAÇA ESCREVA tab[l][c].",
+          "Matrizes servem para tabuleiros, mapas de assentos e tabelas de notas (cada linha é um aluno; cada coluna, uma prova)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "No tabuleiro da lição, quanto vale tab[1][2]?",
+            "resolucao": "Linha 1 é [' ', 'X', 'O']. Coluna 2 dessa linha: 'O'."
+          },
+          {
+            "enunciado": "notas ← [[7, 8], [5, 9], [10, 6]]. Qual é a soma das notas do aluno da linha 1?",
+            "resolucao": "A linha 1 é [5, 9]. 5 + 9 = 14."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Diagonal principal: tab[0][0], tab[1][1] e tab[2][2] (linha igual à coluna). Diagonal secundária: tab[0][2], tab[1][1] e tab[2][0] (linha + coluna = 2; num tabuleiro n × n, linha + coluna = n − 1).",
+        "Para saber se alguém venceu na linha l: tab[l][0] = tab[l][1] E tab[l][1] = tab[l][2] E tab[l][0] ≠ ' '. A última parte impede que três casas vazias contem como vitória. Para uma coluna c, compare tab[0][c], tab[1][c] e tab[2][c].",
+        "Uma matriz com L linhas e C colunas tem L × C casas, e o laço dentro de laço passa por todas elas. O último índice é [L − 1][C − 1]."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma matriz?",
+            "alternativas": [
+              "Um tipo de vírus",
+              "Uma lista de listas, como uma tabela de linhas e colunas",
+              "Um único número",
+              "Uma senha"
+            ],
+            "correta": 1,
+            "explicacao": "A matriz organiza dados em linhas e colunas.",
+            "dica": "Pense numa tabela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que número começa a contagem das posições?",
+            "alternativas": [
+              "1",
+              "2",
+              "10",
+              "0"
+            ],
+            "correta": 3,
+            "explicacao": "Em programação, a primeira posição é a 0.",
+            "dica": "É o mesmo das listas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica tab[0][0] no tabuleiro?",
+            "alternativas": [
+              "No canto de cima, à esquerda",
+              "No centro",
+              "Fora do tabuleiro",
+              "No canto de baixo, à direita"
+            ],
+            "correta": 0,
+            "explicacao": "Linha 0 é a de cima; coluna 0 é a da esquerda.",
+            "dica": "Linha 0 e coluna 0 são as primeiras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas casas tem o tabuleiro do jogo da velha?",
+            "alternativas": [
+              "8",
+              "6",
+              "9",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "3 linhas × 3 colunas = 9 casas.",
+            "dica": "Multiplique linhas por colunas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em tab[linha][coluna], qual índice vem primeiro?",
+            "alternativas": [
+              "Tanto faz",
+              "A linha",
+              "O valor",
+              "A coluna"
+            ],
+            "correta": 1,
+            "explicacao": "Primeiro a linha, depois a coluna.",
+            "dica": "Olhe a ordem escrita na lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "tab ← [['X', 'O', 'X'], [' ', 'X', 'O'], ['O', ' ', 'X']]. Quanto vale tab[1][2]?",
+            "alternativas": [
+              "Dá erro",
+              "'X'",
+              "'O'",
+              "' '"
+            ],
+            "correta": 2,
+            "explicacao": "Linha 1: [' ', 'X', 'O']; coluna 2: 'O'.",
+            "dica": "Ache a linha primeiro, depois a coluna."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo tabuleiro, o que há em tab[1][0]?",
+            "alternativas": [
+              "'X'",
+              "'O'",
+              "Dá erro",
+              "Uma casa vazia (' ')"
+            ],
+            "correta": 3,
+            "explicacao": "Linha 1: [' ', 'X', 'O']; coluna 0: vazia.",
+            "dica": "É o primeiro item da linha do meio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando coloca um X no centro do tabuleiro?",
+            "alternativas": [
+              "tab[1][1] ← 'X'",
+              "tab[2][2] ← 'X'",
+              "tab[0][0] ← 'X'",
+              "tab[1][2] ← 'X'"
+            ],
+            "correta": 0,
+            "explicacao": "O centro é a linha 1, coluna 1.",
+            "dica": "O centro é o meio nos dois sentidos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas ← [[7, 8], [5, 9], [10, 6]]. Quanto vale notas[2][0]?",
+            "alternativas": [
+              "9",
+              "10",
+              "5",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "Linha 2: [10, 6]; coluna 0: 10.",
+            "dica": "A linha 2 é a terceira lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa matriz 3 × 3, quantas vezes o laço dentro de laço executa o ESCREVA?",
+            "alternativas": [
+              "6",
+              "9",
+              "27",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "3 voltas do laço de fora × 3 do laço de dentro = 9.",
+            "dica": "Para cada linha, ele passa por todas as colunas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "notas ← [[7, 8], [5, 9], [10, 6]]. Qual é a soma das notas da linha 1?",
+            "alternativas": [
+              "14",
+              "16",
+              "13",
+              "15"
+            ],
+            "correta": 0,
+            "explicacao": "Linha 1: [5, 9]. 5 + 9 = 14.",
+            "dica": "A linha 1 é a segunda lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na mesma matriz, qual é a soma das notas da 2ª prova (coluna 1)?",
+            "alternativas": [
+              "22",
+              "14",
+              "16",
+              "23"
+            ],
+            "correta": 3,
+            "explicacao": "Coluna 1: 8, 9 e 6. Soma: 23.",
+            "dica": "Pegue o segundo número de cada linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas casas vazias há em tab ← [['X', 'O', 'X'], [' ', 'X', 'O'], ['O', ' ', 'X']]?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "tab[1][0] e tab[2][1] estão vazias.",
+            "dica": "Procure as aspas com espaço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um teatro tem 5 filas com 8 cadeiras: sala[fila][cadeira]. Qual é o índice da última cadeira da última fila?",
+            "alternativas": [
+              "sala[5][8]",
+              "sala[8][5]",
+              "sala[4][7]",
+              "sala[7][4]"
+            ],
+            "correta": 2,
+            "explicacao": "A contagem começa em 0: fila 4 e cadeira 7.",
+            "dica": "Se começa no 0, onde termina?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a verificação de vitória na linha 0.",
+            "itens": [
+              "Pegar o valor de tab[0][0]",
+              "Conferir que ele não é uma casa vazia",
+              "Comparar com tab[0][1]",
+              "Comparar com tab[0][2]"
+            ],
+            "explicacao": "Primeiro o valor, depois se não é vazio, depois as comparações.",
+            "dica": "Comece pela primeira casa da linha."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No tabuleiro tab ← [['X', 'O', 'X'], [' ', 'X', 'O'], ['O', ' ', 'X']], alguém venceu?",
+            "alternativas": [
+              "Ninguém venceu",
+              "Sim, o O, na coluna 0",
+              "Sim, o X, na linha 0",
+              "Sim, o X, na diagonal principal"
+            ],
+            "correta": 3,
+            "explicacao": "tab[0][0], tab[1][1] e tab[2][2] são todos 'X'.",
+            "dica": "Confira as casas em que a linha é igual à coluna."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais índices formam a diagonal secundária de um tabuleiro 3 × 3?",
+            "alternativas": [
+              "tab[0][0], tab[1][1] e tab[2][2]",
+              "tab[0][0], tab[0][1] e tab[0][2]",
+              "tab[0][2], tab[1][1] e tab[2][0]",
+              "tab[2][2], tab[1][2] e tab[0][2]"
+            ],
+            "correta": 2,
+            "explicacao": "Na diagonal secundária, linha + coluna = 2.",
+            "dica": "Some linha e coluna de cada casa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a condição de vitória inclui tab[l][0] ≠ ' '?",
+            "alternativas": [
+              "Porque ' ' é proibido",
+              "Para que três casas vazias não contem como vitória",
+              "Não faz diferença nenhuma",
+              "Para deixar o programa mais lento"
+            ],
+            "correta": 1,
+            "explicacao": "Três espaços também são iguais entre si.",
+            "dica": "O que acontece numa linha toda vazia?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa matriz de 4 linhas e 6 colunas, quantas vezes o laço dentro de laço executa e qual é o último índice?",
+            "alternativas": [
+              "24 vezes; m[3][5]",
+              "10 vezes; m[3][5]",
+              "20 vezes; m[4][5]",
+              "24 vezes; m[4][6]"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 6 = 24 casas. Último índice: [4 − 1][6 − 1] = [3][5].",
+            "dica": "Multiplique para o total e tire 1 de cada medida para o índice."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num tabuleiro 5 × 5, quanto vale linha + coluna em todas as casas da diagonal secundária?",
+            "alternativas": [
+              "2",
+              "5",
+              "4",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "Num tabuleiro n × n, linha + coluna = n − 1 = 4. Exemplo: [0][4], [4][0].",
+            "dica": "Use a regra geral do aprofundamento."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Pontuação: ponto, dois-pontos e ponto e vírgula",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O ponto final (.) encerra uma frase declarativa. Ele também aparece em abreviaturas: Sr., Dra., pág.",
+          "Os dois-pontos (:) anunciam algo: uma enumeração (Comprei três frutas: maçã, banana e uva), uma explicação ou conclusão (Só faltava uma coisa: coragem) ou a fala de alguém (A professora disse: — Silêncio, por favor!).",
+          "O ponto e vírgula (;) marca uma pausa maior que a vírgula e menor que o ponto. Separa partes de uma frase que se comparam ou se opõem (Uns estudavam; outros conversavam) e itens de uma lista que já têm vírgulas.",
+          "Depois dos dois-pontos, em geral se usa letra minúscula, a não ser que comece uma fala, uma citação ou um nome próprio.",
+          "Não se usam dois-pontos entre o verbo e o seu complemento: \"Ele gosta de futebol e vôlei\", e não \"Ele gosta de: futebol e vôlei\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Pontue: \"Para a viagem leve três coisas documento água e casaco\"",
+            "resolucao": "\"Para a viagem, leve três coisas: documento, água e casaco.\""
+          },
+          {
+            "enunciado": "Use o ponto e vírgula: \"Na feira comprei tomate e cebola na padaria pão e leite\"",
+            "resolucao": "\"Na feira, comprei tomate e cebola; na padaria, pão e leite.\""
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O ponto e vírgula também separa orações quando a conjunção aparece no meio ou depois dela: \"Choveu muito; por isso, o jogo foi adiado.\" Em muitos casos, ele pode ser trocado por um ponto, com letra maiúscula em seguida.",
+        "Se a frase termina com abreviatura, usa-se um ponto só: \"Comprei pão, leite, ovos etc.\"",
+        "A pontuação muda o sentido: em \"A professora, disse a aluna, é inteligente\", quem fala é a aluna, e a inteligente é a professora. Em \"Pedro, o diretor, chegou\", Pedro é o diretor; em \"Pedro, o diretor chegou\", alguém avisa Pedro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sinal encerra uma frase declarativa?",
+            "alternativas": [
+              "O ponto e vírgula",
+              "Os dois-pontos",
+              "O ponto final",
+              "A vírgula"
+            ],
+            "correta": 2,
+            "explicacao": "O ponto final marca o fim da frase.",
+            "dica": "É o sinal mais simples de fim de frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Comprei três frutas__ maçã, banana e uva.\"",
+            "alternativas": [
+              "nenhum sinal",
+              "ponto final (.)",
+              "ponto e vírgula (;)",
+              "dois-pontos (:)"
+            ],
+            "correta": 3,
+            "explicacao": "Os dois-pontos anunciam a enumeração.",
+            "dica": "Vem uma lista em seguida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O ponto e vírgula marca uma pausa:",
+            "alternativas": [
+              "maior que a vírgula e menor que o ponto",
+              "maior que o ponto",
+              "menor que a vírgula",
+              "igual ao ponto de interrogação"
+            ],
+            "correta": 0,
+            "explicacao": "Ele fica no meio do caminho entre a vírgula e o ponto.",
+            "dica": "O próprio nome junta dois sinais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a abreviatura de senhor?",
+            "alternativas": [
+              "Sn.",
+              "Sr:",
+              "Sr;",
+              "Sr."
+            ],
+            "correta": 3,
+            "explicacao": "Abreviaturas usam ponto.",
+            "dica": "Abreviatura termina com ponto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa dois-pontos para anunciar uma fala?",
+            "alternativas": [
+              "A professora: disse silêncio.",
+              "A professora disse: — Silêncio, por favor!",
+              "A professora disse silêncio: por favor.",
+              "A: professora disse silêncio."
+            ],
+            "correta": 1,
+            "explicacao": "Os dois-pontos vêm antes da fala.",
+            "dica": "Os dois-pontos vêm logo depois do verbo dizer."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a pontuação correta?",
+            "alternativas": [
+              "Para a viagem leve. Três coisas documento água e casaco.",
+              "Para a viagem: leve três coisas; documento, água, e casaco.",
+              "Para a viagem; leve três coisas, documento: água e casaco.",
+              "Para a viagem, leve três coisas: documento, água e casaco."
+            ],
+            "correta": 3,
+            "explicacao": "Os dois-pontos anunciam a lista, e as vírgulas separam os itens.",
+            "dica": "Onde começa a lista?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Só faltava uma coisa: coragem\", os dois-pontos introduzem:",
+            "alternativas": [
+              "uma fala",
+              "uma explicação",
+              "uma pergunta",
+              "um grito"
+            ],
+            "correta": 1,
+            "explicacao": "\"Coragem\" explica qual era a coisa que faltava.",
+            "dica": "O que vem depois explica o que veio antes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Uns estudavam; outros conversavam\", o ponto e vírgula:",
+            "alternativas": [
+              "marca uma pergunta",
+              "encerra o texto",
+              "separa duas partes que se comparam",
+              "anuncia uma lista"
+            ],
+            "correta": 2,
+            "explicacao": "As duas partes mostram atitudes diferentes.",
+            "dica": "Compare as duas partes da frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que há ponto e vírgula em \"Visitamos Recife, em Pernambuco; Salvador, na Bahia; e Natal, no Rio Grande do Norte\"?",
+            "alternativas": [
+              "Para separar itens que já têm vírgulas",
+              "Por engano",
+              "Porque é uma pergunta",
+              "Porque há uma fala"
+            ],
+            "correta": 0,
+            "explicacao": "Com vírgulas dentro dos itens, o ponto e vírgula organiza a lista.",
+            "dica": "Repare nas vírgulas dentro de cada item."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Só faltava uma coisa: coragem\", por que coragem começa com letra minúscula?",
+            "alternativas": [
+              "Porque sempre se usa maiúscula",
+              "Porque não é fala, citação nem nome próprio",
+              "Porque é uma pergunta",
+              "Porque é um erro"
+            ],
+            "correta": 1,
+            "explicacao": "Depois dos dois-pontos, a regra geral é a minúscula.",
+            "dica": "Lembre a regra da letra depois dos dois-pontos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está corretamente pontuada?",
+            "alternativas": [
+              "Na feira, comprei tomate e cebola; na padaria, pão e leite.",
+              "Na feira; comprei tomate e cebola, na padaria: pão e leite.",
+              "Na feira comprei, tomate e cebola na padaria; pão, e leite.",
+              "Na feira: comprei tomate; e cebola na padaria, pão e leite."
+            ],
+            "correta": 0,
+            "explicacao": "O ponto e vírgula separa as duas partes, e as vírgulas marcam os lugares.",
+            "dica": "São duas partes: feira e padaria."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Choveu muito; por isso, o jogo foi adiado\", qual sinal pode substituir o ponto e vírgula sem erro?",
+            "alternativas": [
+              "O ponto de interrogação",
+              "Nenhum sinal",
+              "O ponto, com maiúscula depois",
+              "Os dois-pontos com minúscula, obrigatoriamente"
+            ],
+            "correta": 2,
+            "explicacao": "\"Choveu muito. Por isso, o jogo foi adiado.\" também está certo.",
+            "dica": "Qual sinal também separa duas partes completas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Comprei pão, leite, ovos etc. .",
+              "Comprei pão, leite, ovos etc,",
+              "Comprei pão, leite, ovos etc.",
+              "Comprei pão, leite, ovos etc.."
+            ],
+            "correta": 2,
+            "explicacao": "Abreviatura no fim da frase leva um ponto só.",
+            "dica": "Quantos pontos no fim?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Só uma pessoa sabia a resposta: Joana\", por que Joana tem maiúscula?",
+            "alternativas": [
+              "Porque é uma fala",
+              "Porque é nome próprio",
+              "Porque sempre há maiúscula depois de dois-pontos",
+              "Porque é uma pergunta"
+            ],
+            "correta": 1,
+            "explicacao": "Nome próprio tem maiúscula em qualquer lugar.",
+            "dica": "Que tipo de palavra é Joana?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro de pontuação?",
+            "alternativas": [
+              "Ele gosta de três esportes: futebol, vôlei e natação.",
+              "Ele gosta de futebol, vôlei e natação.",
+              "Ele tem três paixões: futebol, vôlei e natação.",
+              "Ele gosta de: futebol, vôlei e natação."
+            ],
+            "correta": 3,
+            "explicacao": "Os dois-pontos não podem separar \"gosta de\" do seu complemento.",
+            "dica": "Lembre o último parágrafo da lição."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Estudou muito; não conseguiu, porém, terminar a prova\", por que há ponto e vírgula?",
+            "alternativas": [
+              "Para anunciar uma lista",
+              "Para separar as orações quando a conjunção aparece no meio da segunda",
+              "Para encerrar o texto",
+              "Porque há uma fala"
+            ],
+            "correta": 1,
+            "explicacao": "Com o porém deslocado, o ponto e vírgula marca a separação.",
+            "dica": "Onde está a conjunção porém?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"A professora, disse a aluna, é inteligente\", quem é chamada de inteligente?",
+            "alternativas": [
+              "As duas",
+              "Ninguém",
+              "A professora",
+              "A aluna"
+            ],
+            "correta": 2,
+            "explicacao": "\"disse a aluna\" está entre vírgulas: é a aluna falando sobre a professora.",
+            "dica": "Quem está falando e de quem ela fala?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a pontuação correta?",
+            "alternativas": [
+              "Ingredientes; 2 ovos: 1 xícara de leite, 3 colheres de açúcar.",
+              "Ingredientes: 2 ovos. 1 xícara de leite: 3 colheres de açúcar.",
+              "Ingredientes, 2 ovos: 1 xícara de leite; e 3 colheres de açúcar.",
+              "Ingredientes: 2 ovos, 1 xícara de leite e 3 colheres de açúcar."
+            ],
+            "correta": 3,
+            "explicacao": "Os dois-pontos anunciam a lista; as vírgulas e o e separam os itens.",
+            "dica": "Onde a lista começa e como os itens se separam?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos sinais de pontuação há em \"Atenção: amanhã não haverá aula; a escola estará fechada para reforma.\"?",
+            "alternativas": [
+              "3",
+              "1",
+              "2",
+              "4"
+            ],
+            "correta": 0,
+            "explicacao": "Dois-pontos, ponto e vírgula e ponto final.",
+            "dica": "Conte cada sinal, inclusive o do fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase Pedro é o diretor?",
+            "alternativas": [
+              "Pedro, o diretor chegou.",
+              "Pedro; o diretor chegou.",
+              "Pedro, o diretor, chegou.",
+              "Pedro: o diretor chegou."
+            ],
+            "correta": 2,
+            "explicacao": "Entre vírgulas, \"o diretor\" explica quem é Pedro.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Quantos litros cabem na caixa-d'água?",
+    "texto": "Na terça-feira, o aviso da companhia de água chegou pelo celular: na quinta, o bairro ficaria o dia inteiro sem abastecimento. A mãe de Juliana suspirou: \"Será que a caixa-d'água aguenta?\"\n\nJuliana pegou a trena e subiu com o pai até a laje. A caixa era antiga, de concreto e retangular. Mediram por dentro: 1,2 metro de comprimento, 1 metro de largura e 80 centímetros de altura.\n\nNo caderno, ela fez a conta: 1,2 × 1 × 0,8 = 0,96 metro cúbico. Lembrou da aula: cada metro cúbico tem 1000 litros. Então a caixa guardava 960 litros.\n\nDepois veio a segunda pergunta: quanto a família gasta? O pai mostrou a conta de água: 14 metros cúbicos no mês, isto é, 14 mil litros em 30 dias. Dava quase 470 litros por dia.\n\n— Cheia, a caixa dura uns dois dias — concluiu Juliana.\n\nMesmo assim, a família combinou economizar na quinta: banhos de cinco minutos, louça lavada com a torneira fechada e a água da máquina reaproveitada para lavar o quintal.\n\nA água voltou na sexta de manhã. Na caixa, ainda havia mais da metade."
+  },
+  "escrita": {
+    "proposta": "Calcule o volume de uma caixa da sua casa, como a de sapato ou a de leite. Meça o comprimento, a largura e a altura em centímetros, multiplique as três medidas e transforme o resultado em litros (lembre que 1000 cm³ = 1 litro). Escreva o passo a passo da conta, usando ponto final, dois-pontos e ponto e vírgula pelo menos uma vez cada, e diga se o resultado parece razoável para o tamanho da caixa."
+  }
+}

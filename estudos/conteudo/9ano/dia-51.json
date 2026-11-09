@@ -1,0 +1,1198 @@
+{
+  "dia": 51,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Circunferência e círculo: comprimento, arco e área",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "A circunferência é a linha redonda, formada pelos pontos que estão à mesma distância do centro. O círculo é a região inteira: a linha mais tudo o que fica dentro dela. A distância do centro até a linha é o raio (r); o diâmetro (d) atravessa o círculo passando pelo centro e vale dois raios: d = 2r.",
+          "Em qualquer circunferência, o comprimento dividido pelo diâmetro dá sempre o mesmo número, chamado pi (π), que vale cerca de 3,14. Por isso o comprimento é C = 2 · π · r (ou C = π · d).",
+          "A área do círculo é A = π · r². Cuidado: o raio é que vai ao quadrado, não o π. Com r = 5 cm, A = 3,14 · 25 = 78,5 cm².",
+          "Um arco é um pedaço da circunferência. Como a volta inteira tem 360°, um arco de 90° é 90/360 = 1/4 da volta. O comprimento do arco é (ângulo/360) · 2 · π · r. Do mesmo jeito, o setor circular (a fatia de pizza) tem área (ângulo/360) · π · r².",
+          "Nesta lição, use π = 3,14. Lembre a unidade: comprimento em cm ou m; área em cm² ou m²."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A roda de uma bicicleta tem raio de 30 cm. Quanto ela anda em uma volta completa?",
+            "resolucao": "C = 2 · 3,14 · 30 = 188,4 cm. Em uma volta, a bicicleta anda cerca de 1,88 m."
+          },
+          {
+            "enunciado": "Uma pizza tem 40 cm de diâmetro e foi cortada em 8 fatias iguais. Qual é a área de cada fatia?",
+            "resolucao": "r = 20 cm. Área total = 3,14 · 400 = 1.256 cm². Cada fatia: 1.256 ÷ 8 = 157 cm² (cada uma é um setor de 45°)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Quando o raio dobra, o comprimento dobra, mas a área fica 4 vezes maior, porque o raio entra ao quadrado. Se o raio triplica, o comprimento triplica e a área fica 9 vezes maior. É por isso que uma pizza grande costuma render bem mais do que parece.",
+        "Coroa circular é a região entre dois círculos com o mesmo centro, como uma arruela ou a borda de uma pizza. A área é π · (R² − r²), em que R é o raio de fora e r o de dentro.",
+        "Para comparar preços de pizzas, divida o preço pela área: o resultado é o preço de cada cm². Quem paga menos por cm² leva mais pizza pelo dinheiro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma circunferência tem raio de 5 cm. Quanto mede o diâmetro?",
+            "alternativas": [
+              "10 cm",
+              "25 cm",
+              "5 cm",
+              "2,5 cm"
+            ],
+            "correta": 0,
+            "explicacao": "O diâmetro vale dois raios: 2 · 5 = 10 cm.",
+            "dica": "O diâmetro atravessa o círculo inteiro, passando pelo centro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o comprimento de uma circunferência de raio 10 cm? (π = 3,14)",
+            "alternativas": [
+              "314 cm",
+              "20 cm",
+              "62,8 cm",
+              "31,4 cm"
+            ],
+            "correta": 2,
+            "explicacao": "C = 2 · 3,14 · 10 = 62,8 cm. O erro comum é esquecer o 2.",
+            "dica": "Use C = 2 · π · r."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um círculo de raio 3 cm? (π = 3,14)",
+            "alternativas": [
+              "18,84 cm²",
+              "9,42 cm²",
+              "88,74 cm²",
+              "28,26 cm²"
+            ],
+            "correta": 3,
+            "explicacao": "A = 3,14 · 3² = 3,14 · 9 = 28,26 cm².",
+            "dica": "Primeiro eleve o raio ao quadrado, depois multiplique por π."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um círculo tem diâmetro de 8 m. Quanto mede o raio?",
+            "alternativas": [
+              "2 m",
+              "16 m",
+              "8 m",
+              "4 m"
+            ],
+            "correta": 3,
+            "explicacao": "O raio é a metade do diâmetro: 8 ÷ 2 = 4 m.",
+            "dica": "O raio vai do centro até a borda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fórmula dá a área do círculo?",
+            "alternativas": [
+              "A = r · r",
+              "A = π · r²",
+              "A = π · d",
+              "A = 2 · π · r"
+            ],
+            "correta": 1,
+            "explicacao": "2 · π · r e π · d dão o comprimento; a área é π · r².",
+            "dica": "Na área, a medida vai ao quadrado."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A roda de uma bicicleta tem raio de 30 cm. Quanto ela anda numa volta? (π = 3,14)",
+            "alternativas": [
+              "2.826 cm",
+              "188,4 cm",
+              "282,6 cm",
+              "94,2 cm"
+            ],
+            "correta": 1,
+            "explicacao": "C = 2 · 3,14 · 30 = 188,4 cm.",
+            "dica": "Uma volta da roda é o comprimento da circunferência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pizza tem 40 cm de diâmetro. Qual é a área dela? (π = 3,14)",
+            "alternativas": [
+              "125,6 cm²",
+              "5.024 cm²",
+              "1.256 cm²",
+              "628 cm²"
+            ],
+            "correta": 2,
+            "explicacao": "r = 20; A = 3,14 · 400 = 1.256 cm². Usar o diâmetro no lugar do raio dá 5.024, o erro comum.",
+            "dica": "Transforme o diâmetro em raio antes de usar a fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o comprimento de um arco de 90° numa circunferência de raio 20 cm? (π = 3,14)",
+            "alternativas": [
+              "31,4 cm",
+              "62,8 cm",
+              "15,7 cm",
+              "125,6 cm"
+            ],
+            "correta": 0,
+            "explicacao": "Volta inteira: 2 · 3,14 · 20 = 125,6 cm. 90° é 1/4: 125,6 ÷ 4 = 31,4 cm.",
+            "dica": "90° é que fração de 360°?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um setor de 60° num círculo de raio 6 cm? (π = 3,14)",
+            "alternativas": [
+              "6,28 cm²",
+              "37,68 cm²",
+              "113,04 cm²",
+              "18,84 cm²"
+            ],
+            "correta": 3,
+            "explicacao": "Área total: 3,14 · 36 = 113,04. 60° é 1/6: 113,04 ÷ 6 = 18,84 cm².",
+            "dica": "Calcule a área inteira e pegue a fração 60/360."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma circunferência mede 31,4 m de comprimento. Qual é o raio? (π = 3,14)",
+            "alternativas": [
+              "3,14 m",
+              "5 m",
+              "10 m",
+              "15,7 m"
+            ],
+            "correta": 1,
+            "explicacao": "31,4 = 2 · 3,14 · r = 6,28 · r, então r = 5 m.",
+            "dica": "Divida o comprimento por 2 · π."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma roda de raio 0,5 m dá 500 voltas. Quantos metros ela percorre? (π = 3,14)",
+            "alternativas": [
+              "785 m",
+              "3.140 m",
+              "1.000 m",
+              "1.570 m"
+            ],
+            "correta": 3,
+            "explicacao": "Uma volta: 2 · 3,14 · 0,5 = 3,14 m. 500 voltas: 3,14 · 500 = 1.570 m.",
+            "dica": "Calcule o comprimento de uma volta e multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um círculo tem área de 78,5 cm². Qual é o comprimento da circunferência dele? (π = 3,14)",
+            "alternativas": [
+              "62,8 cm",
+              "15,7 cm",
+              "31,4 cm",
+              "25 cm"
+            ],
+            "correta": 2,
+            "explicacao": "78,5 = 3,14 · r², r² = 25, r = 5. C = 2 · 3,14 · 5 = 31,4 cm.",
+            "dica": "Descubra o raio pela área primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma arruela tem raio externo de 10 mm e furo de raio 6 mm. Qual é a área da parte de metal? (π = 3,14)",
+            "alternativas": [
+              "200,96 mm²",
+              "50,24 mm²",
+              "12,56 mm²",
+              "314 mm²"
+            ],
+            "correta": 0,
+            "explicacao": "Coroa: 3,14 · (100 − 36) = 3,14 · 64 = 200,96 mm². Subtrair os raios antes (10 − 6 = 4) dá 50,24, que está errado.",
+            "dica": "Área do círculo grande menos a área do furo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que tem mais pizza: duas pizzas de 30 cm de diâmetro ou uma de 40 cm? (π = 3,14)",
+            "alternativas": [
+              "As duas de 30 cm: 1.413 cm² contra 1.256 cm²",
+              "A de 40 cm, porque 40 é maior que 30",
+              "É igual: as duas opções dão 1.256 cm²",
+              "A de 40 cm: 1.256 cm² contra 1.130 cm²"
+            ],
+            "correta": 0,
+            "explicacao": "Cada pizza de 30 cm: 3,14 · 225 = 706,5; duas = 1.413 cm². A de 40 cm: 3,14 · 400 = 1.256 cm².",
+            "dica": "Compare as áreas, não os diâmetros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o raio de um círculo dobra, a área fica:",
+            "alternativas": [
+              "8 vezes maior",
+              "4 vezes maior",
+              "2 vezes maior",
+              "igual"
+            ],
+            "correta": 1,
+            "explicacao": "A área depende de r²: (2r)² = 4r². O comprimento é que dobra.",
+            "dica": "Pense no que acontece com r² quando r vira 2r."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pizza grande (40 cm de diâmetro) custa R$ 62,80; média (30 cm) custa R$ 42,39. Qual sai mais barata por cm²? (π = 3,14)",
+            "alternativas": [
+              "A média: R$ 0,05 por cm²",
+              "As duas custam igual por cm²",
+              "A grande: R$ 0,05 por cm²",
+              "A grande: R$ 0,06 por cm²"
+            ],
+            "correta": 2,
+            "explicacao": "Grande: 62,80 ÷ 1.256 = 0,05. Média: 42,39 ÷ 706,5 = 0,06. A grande dá mais pizza por real.",
+            "dica": "Divida o preço pela área de cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o raio de um círculo triplica, o comprimento e a área ficam multiplicados, respectivamente, por:",
+            "alternativas": [
+              "3 e 27",
+              "3 e 9",
+              "3 e 6",
+              "9 e 3"
+            ],
+            "correta": 1,
+            "explicacao": "O comprimento é proporcional a r (×3); a área a r² (×9).",
+            "dica": "Uma medida é linear; a outra tem o raio ao quadrado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pista circular tem raio de 50 m. Quantos metros corre quem dá 2 voltas e meia? (π = 3,14)",
+            "alternativas": [
+              "392,5 m",
+              "314 m",
+              "1.570 m",
+              "785 m"
+            ],
+            "correta": 3,
+            "explicacao": "Uma volta: 2 · 3,14 · 50 = 314 m. 2,5 voltas: 314 · 2,5 = 785 m.",
+            "dica": "Meia volta também conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O ponteiro dos minutos de um relógio mede 12 cm. Quanto a ponta dele percorre em 15 minutos? (π = 3,14)",
+            "alternativas": [
+              "37,68 cm",
+              "18,84 cm",
+              "9,42 cm",
+              "75,36 cm"
+            ],
+            "correta": 1,
+            "explicacao": "15 minutos = 1/4 de hora = 90°. Arco: 2 · 3,14 · 12 ÷ 4 = 18,84 cm.",
+            "dica": "Em 60 minutos o ponteiro dá uma volta inteira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um círculo está desenhado dentro de um quadrado de lado 10 cm, tocando os quatro lados. Qual é a área do quadrado que fica fora do círculo? (π = 3,14)",
+            "alternativas": [
+              "21,5 cm²",
+              "31,4 cm²",
+              "68,6 cm²",
+              "78,5 cm²"
+            ],
+            "correta": 0,
+            "explicacao": "O diâmetro é 10, então r = 5. Círculo: 78,5 cm². Quadrado: 100 cm². Sobra: 100 − 78,5 = 21,5 cm².",
+            "dica": "O lado do quadrado é igual ao diâmetro do círculo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Custo de oportunidade: o preço do que você deixou de escolher",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Toda escolha tem um preço escondido. Como dinheiro e tempo são limitados, quando você escolhe uma coisa, abre mão de outra. O valor da melhor alternativa que ficou de fora se chama custo de oportunidade.",
+          "Exemplo: Marina tem R$ 200 e está em dúvida entre um tênis e um curso de fotografia. Se compra o tênis, o custo de oportunidade é o curso que ela deixou de fazer, e o contrário também vale.",
+          "O tempo também conta. Quem passa três horas rolando vídeos no celular deixa de estudar, dormir, treinar ou conversar com a família. Essas horas não voltam.",
+          "Dinheiro parado também tem custo. R$ 1.000 guardados na gaveta não rendem nada; se estivessem numa aplicação que rende 0,5% ao mês, renderiam R$ 5 por mês. Esse rendimento perdido é o custo de oportunidade de deixar o dinheiro parado.",
+          "Atenção: o custo de oportunidade é só a melhor alternativa abandonada, não a soma de todas as opções que você não escolheu."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Seu Jorge, pedreiro, ganha R$ 250 por dia de trabalho. Ele tira um dia de folga para ir à praia e gasta R$ 100. Quanto custou o passeio de verdade?",
+            "resolucao": "Gasto com dinheiro (custo explícito): R$ 100. Ganho que deixou de ter (custo de oportunidade): R$ 250. Custo total: R$ 350. Ainda pode valer a pena, mas agora ele sabe o preço real."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Custo afundado (ou custo perdido) é o dinheiro ou tempo que já foi gasto e não volta mais, aconteça o que acontecer. Ele não deve pesar na decisão: o que importa é comparar o que cada caminho traz daqui para a frente. Insistir num projeto ruim só porque \"já gastei muito\" é uma armadilha comum.",
+        "Na hora de decidir, faça três perguntas: quais são as alternativas de verdade? O que cada uma me traz (dinheiro, tempo, saúde, prazer)? Qual é a melhor que vai ficar de fora? Se a escolhida vale mais que essa, a decisão é boa.",
+        "Governos e empresas também enfrentam custo de oportunidade: o dinheiro usado numa obra é o dinheiro que deixou de ir para outra. Por isso, discutir prioridades no orçamento público é discutir custos de oportunidade."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é custo de oportunidade?",
+            "alternativas": [
+              "A soma de tudo o que você comprou no mês",
+              "O imposto cobrado numa compra",
+              "O preço da etiqueta de um produto",
+              "O valor da melhor alternativa que você deixou de lado"
+            ],
+            "correta": 3,
+            "explicacao": "É o que você perde por não escolher a segunda melhor opção.",
+            "dica": "Pense no que fica para trás quando você escolhe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "João tinha duas opções e foi ao cinema em vez de ir ao jogo com os amigos. Qual é o custo de oportunidade?",
+            "alternativas": [
+              "O jogo com os amigos",
+              "A pipoca",
+              "O ingresso do cinema",
+              "Nenhum, porque ele se divertiu"
+            ],
+            "correta": 0,
+            "explicacao": "A alternativa abandonada foi o jogo.",
+            "dica": "O que ele deixou de fazer?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O tempo tem custo de oportunidade?",
+            "alternativas": [
+              "Sim, cada hora usada numa coisa deixa de ser usada em outra",
+              "Só para adultos",
+              "Não, tempo é de graça",
+              "Só o tempo de trabalho"
+            ],
+            "correta": 0,
+            "explicacao": "Tempo é limitado, então toda escolha de tempo também tem preço.",
+            "dica": "Seu dia tem quantas horas? Elas acabam?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tem R$ 150 e compra um fone. Do que ela abriu mão?",
+            "alternativas": [
+              "Do dinheiro dos pais",
+              "De nada",
+              "De ter os R$ 150 guardados ou usá-los em outra coisa",
+              "Só do fone"
+            ],
+            "correta": 2,
+            "explicacao": "Ao gastar, ela perde a chance de usar o dinheiro de outro jeito.",
+            "dica": "Se não comprasse, o que poderia fazer com o dinheiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que toda escolha tem custo de oportunidade?",
+            "alternativas": [
+              "Porque a lei manda",
+              "Porque tempo e dinheiro são limitados",
+              "Porque os bancos cobram juros",
+              "Porque tudo é caro"
+            ],
+            "correta": 1,
+            "explicacao": "Se os recursos fossem infinitos, não seria preciso escolher.",
+            "dica": "Lembre o motivo de precisarmos escolher."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu Jorge ganha R$ 250 por dia. Tira um dia para ir à praia e gasta R$ 100. Qual é o custo total do passeio?",
+            "alternativas": [
+              "R$ 250",
+              "R$ 350",
+              "R$ 150",
+              "R$ 100"
+            ],
+            "correta": 1,
+            "explicacao": "R$ 100 gastos + R$ 250 que deixou de ganhar = R$ 350.",
+            "dica": "Some o que gastou e o que deixou de ganhar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia prefere, nesta ordem: curso de inglês, academia, cinema. Ela escolhe o curso. Qual é o custo de oportunidade?",
+            "alternativas": [
+              "O cinema",
+              "A academia",
+              "O curso",
+              "A academia e o cinema somados"
+            ],
+            "correta": 1,
+            "explicacao": "Só a melhor alternativa abandonada conta: a academia.",
+            "dica": "Qual era a segunda da lista?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 2.000 ficaram parados em casa por 6 meses, quando poderiam render 0,5% ao mês (juros simples). Quanto se perdeu?",
+            "alternativas": [
+              "R$ 100",
+              "R$ 10",
+              "R$ 600",
+              "R$ 60"
+            ],
+            "correta": 3,
+            "explicacao": "2.000 · 0,005 = R$ 10 por mês; 6 meses = R$ 60.",
+            "dica": "Calcule o rendimento de um mês e multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Leo pagou R$ 40 num ingresso que não pode ser devolvido, mas acordou doente. Como decidir se vai?",
+            "alternativas": [
+              "Pensar só no que vem pela frente, porque os R$ 40 não voltam em nenhum caso",
+              "Comprar outro ingresso",
+              "Pedir os R$ 40 para os pais",
+              "Ir de qualquer jeito para não perder os R$ 40"
+            ],
+            "correta": 0,
+            "explicacao": "O ingresso é custo afundado: vá ou não, o dinheiro já foi.",
+            "dica": "Indo ou não, o dinheiro volta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma prefeitura usou a verba para construir uma praça em vez de uma creche. Qual é o custo de oportunidade?",
+            "alternativas": [
+              "Os impostos",
+              "O salário do prefeito",
+              "A creche que não foi construída",
+              "A praça"
+            ],
+            "correta": 2,
+            "explicacao": "A alternativa abandonada foi a creche.",
+            "dica": "O que a cidade deixou de ganhar?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Carla, 19 anos, faz um curso técnico gratuito de manhã em vez de aceitar um emprego que pagaria R$ 1.500 por mês. Qual é o custo de oportunidade mensal?",
+            "alternativas": [
+              "R$ 1.500",
+              "R$ 0, porque o curso é grátis",
+              "R$ 750",
+              "R$ 3.000"
+            ],
+            "correta": 0,
+            "explicacao": "Mesmo grátis, o curso custa o salário que ela deixa de receber.",
+            "dica": "Grátis não quer dizer sem custo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fábio tirou R$ 1.200 de uma aplicação que rende 1% ao mês (juros simples) para comprar um celular à vista. Quanto ele deixa de ganhar em 12 meses?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 1.344",
+              "R$ 144",
+              "R$ 12"
+            ],
+            "correta": 2,
+            "explicacao": "1.200 · 0,01 = R$ 12 por mês; 12 meses = R$ 144.",
+            "dica": "Rendimento de um mês vezes o número de meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma faculdade custa R$ 800 por mês, e o aluno deixa de ganhar R$ 1.200 para estudar. Qual é o custo real por mês?",
+            "alternativas": [
+              "R$ 1.200",
+              "R$ 800",
+              "R$ 400",
+              "R$ 2.000"
+            ],
+            "correta": 3,
+            "explicacao": "Custo explícito (800) + custo de oportunidade (1.200) = R$ 2.000.",
+            "dica": "Junte o que paga e o que deixa de ganhar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As opções rendem: A, R$ 300; B, R$ 500; C, R$ 450. Escolhendo B, qual é o custo de oportunidade?",
+            "alternativas": [
+              "R$ 300",
+              "R$ 450",
+              "R$ 750",
+              "R$ 500"
+            ],
+            "correta": 1,
+            "explicacao": "É a melhor opção que sobrou: C, com R$ 450. Não se somam as duas.",
+            "dica": "Entre as que sobraram, qual vale mais?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para tomar uma decisão pensando no custo de oportunidade.",
+            "itens": [
+              "Listar as alternativas de verdade",
+              "Estimar o que cada uma traz (dinheiro, tempo, prazer)",
+              "Identificar a melhor alternativa que vai ficar de fora",
+              "Comparar com a escolhida e decidir"
+            ],
+            "explicacao": "Primeiro se conhecem as opções, depois se mede, depois se compara.",
+            "dica": "Não dá para comparar antes de saber quais são as opções."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafael tem R$ 3.000. A: aplicar por 12 meses a 0,8% ao mês (juros simples). B: comprar um carrinho de pipoca que dá lucro de R$ 40 por mês e vale R$ 2.700 no fim do ano. Qual deixa mais dinheiro no fim e por quanto?",
+            "alternativas": [
+              "A, com R$ 288 a mais",
+              "B, com R$ 108 a mais",
+              "A, com R$ 108 a mais",
+              "B, com R$ 192 a mais"
+            ],
+            "correta": 2,
+            "explicacao": "A: 3.000 + 3.000 · 0,008 · 12 = 3.288. B: 12 · 40 + 2.700 = 3.180. Diferença: R$ 108 a favor de A.",
+            "dica": "Em B, lembre que o carrinho perdeu valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma empresa gastou R$ 50 mil num projeto. Terminar custa mais R$ 30 mil e vai render R$ 20 mil. Parar agora rende zero. O que é mais racional?",
+            "alternativas": [
+              "Terminar, porque R$ 20 mil é melhor que zero",
+              "Terminar, para não perder os R$ 50 mil",
+              "Gastar mais R$ 50 mil",
+              "Parar, porque gastar R$ 30 mil para ganhar R$ 20 mil dá prejuízo de R$ 10 mil"
+            ],
+            "correta": 3,
+            "explicacao": "Os R$ 50 mil são custo afundado. Daqui para a frente: −30 + 20 = −10. Parar dá 0.",
+            "dica": "Ignore o que já foi gasto e compare só o futuro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Lúcia ganha R$ 30 por hora fazendo bolos. Um mercado mais longe economiza R$ 25 na compra, mas leva 1 hora a mais e R$ 9 de ônibus. Vale a pena?",
+            "alternativas": [
+              "Não: o ganho líquido de R$ 16 é menor que os R$ 30 da hora",
+              "Sim: economiza R$ 16",
+              "Não: perde R$ 9",
+              "Sim: economiza R$ 25"
+            ],
+            "correta": 0,
+            "explicacao": "25 − 9 = R$ 16 de economia, mas a hora dela vale R$ 30. Ela sai perdendo R$ 14.",
+            "dica": "Desconte o ônibus e compare com o valor da hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas situações NÃO é um custo de oportunidade?",
+            "alternativas": [
+              "As horas de sono perdidas por ficar no celular",
+              "O dinheiro de um ingresso já pago que não pode ser devolvido",
+              "O salário que um estudante deixa de ganhar",
+              "O rendimento perdido de dinheiro parado"
+            ],
+            "correta": 1,
+            "explicacao": "Dinheiro que já foi e não volta é custo afundado, não custo de oportunidade.",
+            "dica": "Lembre a diferença explicada no aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Thiago deixou R$ 5.000 na conta corrente, sem render, por 2 anos. Uma aplicação pagaria 0,5% ao mês (juros simples). Qual foi o custo de oportunidade?",
+            "alternativas": [
+              "R$ 50",
+              "R$ 25",
+              "R$ 600",
+              "R$ 300"
+            ],
+            "correta": 2,
+            "explicacao": "5.000 · 0,005 = R$ 25 por mês; 24 meses = R$ 600.",
+            "dica": "Quantos meses há em 2 anos?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Recursão: a função que chama a si mesma",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma função recursiva é uma função que chama a si mesma para resolver um pedaço menor do mesmo problema. É como bonecas que se encaixam umas dentro das outras: para chegar à menor, você abre a grande, depois a média, e assim por diante, até a última.",
+          "Toda recursão precisa de duas partes: o caso base, que é a situação simples em que a função responde direto e para de se chamar, e o passo recursivo, em que ela se chama com um problema menor.",
+          "Exemplo clássico: fatorial. 4! = 4 · 3 · 2 · 1 = 24. Repare que 4! = 4 · 3!. Em Python:\ndef fatorial(n):\n    if n <= 1:\n        return 1\n    return n * fatorial(n - 1)",
+          "O computador guarda cada chamada numa pilha. fatorial(3) espera fatorial(2), que espera fatorial(1). Quando fatorial(1) devolve 1, as respostas voltam: 2 · 1 = 2 e depois 3 · 2 = 6.",
+          "Sem caso base, ou se o caso base nunca é alcançado, a função se chama sem parar, e o Python interrompe com RecursionError."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Faça uma contagem regressiva recursiva.",
+            "resolucao": "def contagem(n):\n    if n == 0:\n        print(\"Fim!\")\n    else:\n        print(n)\n        contagem(n - 1)\n\ncontagem(3)  # mostra 3, 2, 1, Fim!"
+          },
+          {
+            "enunciado": "Some de 1 até n com recursão.",
+            "resolucao": "def soma(n):\n    if n == 0:\n        return 0\n    return n + soma(n - 1)\n\nprint(soma(4))  # 4 + 3 + 2 + 1 + 0 = 10"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A sequência de Fibonacci (0, 1, 1, 2, 3, 5, 8, 13...) tem cada número igual à soma dos dois anteriores. A versão recursiva é curta: def fib(n): if n < 2: return n; return fib(n - 1) + fib(n - 2). Mas ela recalcula os mesmos valores muitas vezes: fib(4) faz 9 chamadas no total, e fib(30) faz mais de um milhão.",
+        "Tudo o que se faz com recursão também se faz com laço (for ou while). A recursão brilha em problemas que se dividem em partes parecidas, como pastas dentro de pastas ou o algoritmo de Euclides para o MDC: mdc(a, b) = mdc(b, a % b), parando quando b vale 0.",
+        "O Python limita a pilha a cerca de 1.000 chamadas para se proteger. Recursões muito profundas devem ser trocadas por laços."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma função recursiva?",
+            "alternativas": [
+              "Uma função que chama a si mesma",
+              "Uma função que só imprime",
+              "Uma função que nunca termina",
+              "Uma função sem parâmetros"
+            ],
+            "correta": 0,
+            "explicacao": "Recursiva = que se chama de novo, com um problema menor.",
+            "dica": "Ela aparece dentro do próprio corpo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o caso base?",
+            "alternativas": [
+              "Para repetir para sempre",
+              "Para começar o programa",
+              "Para parar a recursão",
+              "Para criar variáveis"
+            ],
+            "correta": 2,
+            "explicacao": "É a situação simples em que a função responde sem se chamar de novo.",
+            "dica": "Sem ele, a função não sabe quando acabar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece se a recursão não tiver caso base?",
+            "alternativas": [
+              "Nada, funciona normal",
+              "A função se chama sem parar e dá erro",
+              "Ela roda uma vez só",
+              "Ela devolve zero"
+            ],
+            "correta": 1,
+            "explicacao": "O Python interrompe com RecursionError.",
+            "dica": "Pense numa escada sem último degrau."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale fatorial(3)?",
+            "alternativas": [
+              "9",
+              "1",
+              "3",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "3 · 2 · 1 = 6.",
+            "dica": "Multiplique 3 pelos números menores, descendo até 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em return n * fatorial(n - 1), qual é a chamada recursiva?",
+            "alternativas": [
+              "n *",
+              "fatorial(n - 1)",
+              "n - 1 sozinho",
+              "return"
+            ],
+            "correta": 1,
+            "explicacao": "É onde a função chama a si mesma com um número menor.",
+            "dica": "Procure o nome da função dentro dela."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def soma(n):\n    if n == 0:\n        return 0\n    return n + soma(n - 1)\nQuanto vale soma(5)?",
+            "alternativas": [
+              "15",
+              "10",
+              "120",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "5 + 4 + 3 + 2 + 1 + 0 = 15. 120 seria o fatorial.",
+            "dica": "Some, não multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale fatorial(5)?",
+            "alternativas": [
+              "15",
+              "60",
+              "25",
+              "120"
+            ],
+            "correta": 3,
+            "explicacao": "5 · 4 · 3 · 2 · 1 = 120.",
+            "dica": "É uma multiplicação em sequência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na função fatorial da lição, qual linha é o caso base?",
+            "alternativas": [
+              "print(fatorial(3))",
+              "return n * fatorial(n - 1)",
+              "if n <= 1: return 1",
+              "def fatorial(n):"
+            ],
+            "correta": 2,
+            "explicacao": "Quando n é 1 ou menos, ela devolve 1 sem se chamar.",
+            "dica": "É a linha que responde direto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que erro o Python mostra quando a recursão nunca para?",
+            "alternativas": [
+              "ZeroDivisionError",
+              "RecursionError",
+              "SyntaxError",
+              "NameError"
+            ],
+            "correta": 1,
+            "explicacao": "O nome do erro vem de recursão.",
+            "dica": "O nome do erro lembra o tema da aula."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que acontece ao rodar fatorial(3).",
+            "itens": [
+              "fatorial(3) é chamada",
+              "fatorial(2) é chamada",
+              "fatorial(1) devolve 1",
+              "fatorial(2) devolve 2",
+              "fatorial(3) devolve 6"
+            ],
+            "explicacao": "As chamadas descem até o caso base e as respostas sobem de volta.",
+            "dica": "Primeiro desce, depois sobe."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def pot(b, e):\n    if e == 0:\n        return 1\n    return b * pot(b, e - 1)\nQuanto vale pot(2, 5)?",
+            "alternativas": [
+              "10",
+              "25",
+              "32",
+              "16"
+            ],
+            "correta": 2,
+            "explicacao": "2 · 2 · 2 · 2 · 2 · 1 = 32.",
+            "dica": "Multiplique o 2 por ele mesmo quantas vezes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def conta(n):\n    if n == 0:\n        print(\"Fim\")\n    else:\n        print(n)\n        conta(n - 1)\nO que conta(3) mostra?",
+            "alternativas": [
+              "3, 2, 1, Fim",
+              "1, 2, 3, Fim",
+              "Fim, 1, 2, 3",
+              "3, 2, 1, 0"
+            ],
+            "correta": 0,
+            "explicacao": "Imprime antes de se chamar, então desce de 3 até chegar ao 0, que mostra Fim.",
+            "dica": "O print vem antes ou depois da chamada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def f(n):\n    if n == 0:\n        return 0\n    return 2 + f(n - 1)\nQuanto vale f(4)?",
+            "alternativas": [
+              "4",
+              "16",
+              "6",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "Cada chamada soma 2: 2 + 2 + 2 + 2 + 0 = 8.",
+            "dica": "Quantas vezes o 2 é somado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def digitos(n):\n    if n < 10:\n        return 1\n    return 1 + digitos(n // 10)\nQuanto vale digitos(4527)?",
+            "alternativas": [
+              "18",
+              "5",
+              "4",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "4527 → 452 → 45 → 4: são 4 chamadas, cada uma conta 1.",
+            "dica": "O // 10 tira o último algarismo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def f(n):\n    if n == 1:\n        return 1\n    return n + f(n - 2)\nO que acontece com f(4)?",
+            "alternativas": [
+              "Devolve 6",
+              "Dá RecursionError, porque 4, 2, 0, −2... nunca chega a 1",
+              "Devolve 10",
+              "Devolve 4"
+            ],
+            "correta": 1,
+            "explicacao": "Com números pares, a função pula o 1 e não para nunca. Com f(5) daria 5 + 3 + 1 = 9.",
+            "dica": "Anote os valores de n em cada chamada."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def fib(n):\n    if n < 2:\n        return n\n    return fib(n - 1) + fib(n - 2)\nQuanto vale fib(6)?",
+            "alternativas": [
+              "5",
+              "13",
+              "6",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "0, 1, 1, 2, 3, 5, 8: fib(6) é o sétimo termo, 8 (começa em fib(0) = 0).",
+            "dica": "A contagem começa em fib(0)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com a mesma função fib, quantas chamadas acontecem no total ao rodar fib(4), contando a primeira?",
+            "alternativas": [
+              "9",
+              "7",
+              "4",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "fib(4) chama fib(3) (5 chamadas ao todo) e fib(2) (3 chamadas): 1 + 5 + 3 = 9.",
+            "dica": "Desenhe a árvore: cada chamada com n ≥ 2 abre outras duas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def inverte(t):\n    if t == \"\":\n        return \"\"\n    return inverte(t[1:]) + t[0]\nQuanto vale inverte(\"sol\")?",
+            "alternativas": [
+              "\"los\"",
+              "\"sol\"",
+              "\"osl\"",
+              "\"lso\""
+            ],
+            "correta": 0,
+            "explicacao": "inverte(\"sol\") = inverte(\"ol\") + \"s\" = (inverte(\"l\") + \"o\") + \"s\" = \"l\" + \"o\" + \"s\".",
+            "dica": "A primeira letra vai para o fim em cada passo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def soma_lista(l):\n    if not l:\n        return 0\n    return l[0] + soma_lista(l[1:])\nQuanto vale soma_lista([4, 7, 1])?",
+            "alternativas": [
+              "4",
+              "12",
+              "11",
+              "28"
+            ],
+            "correta": 1,
+            "explicacao": "4 + 7 + 1 + 0 = 12.",
+            "dica": "Cada chamada pega o primeiro e manda o resto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def m(a, b):\n    if b == 0:\n        return a\n    return m(b, a % b)\nQuanto vale m(48, 18)?",
+            "alternativas": [
+              "12",
+              "18",
+              "6",
+              "2"
+            ],
+            "correta": 2,
+            "explicacao": "m(48, 18) → m(18, 12) → m(12, 6) → m(6, 0) = 6. É o algoritmo de Euclides para o MDC.",
+            "dica": "a % b é o resto da divisão."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Modernismo e a Semana de Arte Moderna de 1922",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Em fevereiro de 1922, nos dias 13, 15 e 17, um grupo de jovens artistas ocupou o Theatro Municipal de São Paulo com a Semana de Arte Moderna. Houve exposição de pinturas e esculturas, leitura de poemas, palestras e concertos. O ano não foi escolhido por acaso: era o centenário da Independência, e eles queriam uma arte de fato brasileira.",
+          "Os modernistas reagiam contra o Parnasianismo, que valorizava rimas ricas, métrica rígida e vocabulário difícil. Eles defendiam o verso livre (sem métrica fixa e sem obrigação de rima), a linguagem do dia a dia, o humor, a ironia e temas brasileiros, como a cidade grande, o povo e a mistura de culturas.",
+          "Nomes importantes: Mário de Andrade e Oswald de Andrade (escritores), Anita Malfatti e Di Cavalcanti (pintores), Victor Brecheret (escultor) e Heitor Villa-Lobos (músico). Anita tinha causado polêmica com uma exposição em 1917, muito atacada pela crítica.",
+          "Muita gente vaiou. O público, acostumado à arte tradicional, viu as novidades como afronta. Com o tempo, porém, a Semana virou o marco do Modernismo brasileiro.",
+          "O movimento costuma ser dividido em fases: a primeira (anos 1920), de ruptura e experimentação; a segunda (de 1930 a 1945), com o romance regionalista e poetas como Carlos Drummond de Andrade e Cecília Meireles; e a terceira (depois de 1945), com Guimarães Rosa, Clarice Lispector e João Cabral de Melo Neto."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Qual destes versos (inventados para o exercício) tem cara modernista? A) \"Ó áurea taça de cristal luzente\" B) \"Desci do ônibus, a tarde estava torta\"",
+            "resolucao": "B. Usa linguagem do dia a dia, cena da cidade e imagem inesperada. A tem vocabulário rebuscado e tom solene, típico do Parnasianismo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Em 1928, Oswald de Andrade publicou o Manifesto Antropófago, com a frase-brincadeira \"Tupi, or not tupi that is the question\", paródia de Hamlet, de Shakespeare. A ideia: assim como alguns povos indígenas \"devoravam\" o inimigo para absorver sua força, o Brasil deveria devorar as influências estrangeiras e transformá-las em algo próprio. O manifesto foi inspirado no quadro Abaporu, de Tarsila do Amaral, que estava em Paris durante a Semana e entrou para o grupo meses depois.",
+        "No mesmo ano saiu Macunaíma, de Mário de Andrade, \"o herói sem nenhum caráter\". Sem caráter, aqui, não quer dizer mau-caráter: quer dizer sem um perfil fixo, misturando traços indígenas, negros e europeus, como uma identidade brasileira ainda em formação.",
+        "Na segunda noite da Semana, foi lido o poema \"Os sapos\", de Manuel Bandeira, que zombava dos poetas parnasianos. A plateia respondeu com vaias e barulho. Na segunda fase, o romance de 30 trouxe a denúncia social, como em Vidas Secas (1938), de Graciliano Ramos, sobre uma família de retirantes no sertão."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que ano aconteceu a Semana de Arte Moderna?",
+            "alternativas": [
+              "1930",
+              "1888",
+              "1822",
+              "1922"
+            ],
+            "correta": 3,
+            "explicacao": "Foi em fevereiro de 1922, no centenário da Independência.",
+            "dica": "Cem anos depois da Independência do Brasil."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que cidade foi a Semana de Arte Moderna?",
+            "alternativas": [
+              "São Paulo",
+              "Salvador",
+              "Rio de Janeiro",
+              "Recife"
+            ],
+            "correta": 0,
+            "explicacao": "Foi no Theatro Municipal de São Paulo.",
+            "dica": "É a cidade do Theatro Municipal citado na lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é verso livre?",
+            "alternativas": [
+              "Verso sempre com rima rica",
+              "Verso sem métrica fixa e sem obrigação de rima",
+              "Verso escrito em outra língua",
+              "Verso que só fala de liberdade"
+            ],
+            "correta": 1,
+            "explicacao": "Os modernistas se libertaram das regras rígidas de medida e rima.",
+            "dica": "Livre de quais regras?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Contra qual estilo os modernistas reagiram?",
+            "alternativas": [
+              "Samba",
+              "Funk",
+              "Parnasianismo",
+              "Cordel"
+            ],
+            "correta": 2,
+            "explicacao": "O Parnasianismo valorizava métrica rígida e rima rica.",
+            "dica": "O estilo das regras rígidas e palavras difíceis."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pintora fez uma exposição polêmica em 1917?",
+            "alternativas": [
+              "Cecília Meireles",
+              "Clarice Lispector",
+              "Rachel de Queiroz",
+              "Anita Malfatti"
+            ],
+            "correta": 3,
+            "explicacao": "Anita Malfatti foi muito atacada pela crítica em 1917.",
+            "dica": "É uma das pintoras citadas na lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma característica do Modernismo?",
+            "alternativas": [
+              "Só temas da Grécia antiga",
+              "Vocabulário rebuscado e métrica rígida",
+              "Linguagem do dia a dia e temas brasileiros",
+              "Rimas obrigatórias em todos os versos"
+            ],
+            "correta": 2,
+            "explicacao": "Os modernistas aproximaram a literatura da fala e da realidade brasileira.",
+            "dica": "Pense no que eles defendiam, não no que atacavam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a Semana aconteceu em 1922?",
+            "alternativas": [
+              "Era o centenário da Independência, e eles queriam uma arte brasileira",
+              "O teatro tinha acabado de ser construído",
+              "Era o ano da Abolição",
+              "Era o fim da Segunda Guerra"
+            ],
+            "correta": 0,
+            "explicacao": "1822 + 100 = 1922: momento de repensar o que é ser brasileiro.",
+            "dica": "Que data histórica completou 100 anos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem escreveu Macunaíma?",
+            "alternativas": [
+              "Machado de Assis",
+              "Oswald de Andrade",
+              "Graciliano Ramos",
+              "Mário de Andrade"
+            ],
+            "correta": 3,
+            "explicacao": "Macunaíma (1928) é de Mário de Andrade.",
+            "dica": "Não confunda os dois Andrades."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que propõe o Manifesto Antropófago?",
+            "alternativas": [
+              "Devorar as influências estrangeiras e transformá-las em algo brasileiro",
+              "Proibir toda arte estrangeira",
+              "Voltar ao Parnasianismo",
+              "Copiar a arte europeia sem mudar nada"
+            ],
+            "correta": 0,
+            "explicacao": "Não é rejeitar nem copiar: é absorver e transformar.",
+            "dica": "Pense no sentido de \"devorar\" como absorver força."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual verso (inventado) tem mais cara modernista?",
+            "alternativas": [
+              "\"Divina musa de cristal sonoro\"",
+              "\"Comprei pão na esquina e o sol riu de mim\"",
+              "\"Ó lírio excelso de alvura imaculada\"",
+              "\"Fulgente estrela do áureo firmamento\""
+            ],
+            "correta": 1,
+            "explicacao": "Cena cotidiana, linguagem simples e humor: marcas modernistas. Os outros são rebuscados.",
+            "dica": "Procure a linguagem mais próxima da fala."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem cronológica.",
+            "itens": [
+              "Exposição polêmica de Anita Malfatti",
+              "Semana de Arte Moderna no Theatro Municipal",
+              "Manifesto Antropófago e Macunaíma",
+              "Vidas Secas, de Graciliano Ramos"
+            ],
+            "explicacao": "1917, 1922, 1928 e 1938.",
+            "dica": "A exposição de Anita veio antes da Semana."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que marcou a segunda fase do Modernismo?",
+            "alternativas": [
+              "Só a pintura abstrata",
+              "O romance regionalista de denúncia social, como Vidas Secas",
+              "O fim da poesia no Brasil",
+              "A volta da métrica parnasiana"
+            ],
+            "correta": 1,
+            "explicacao": "De 1930 a 1945, o romance de 30 retratou a seca, a miséria e a injustiça.",
+            "dica": "Lembre o livro de Graciliano Ramos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A frase \"Tupi, or not tupi that is the question\" faz paródia de quê?",
+            "alternativas": [
+              "De uma fala de Hamlet, de Shakespeare, misturada à cultura indígena",
+              "De um poema parnasiano",
+              "Do Hino Nacional",
+              "De um hino de futebol"
+            ],
+            "correta": 0,
+            "explicacao": "Imita a famosa frase de Hamlet trocando \"to be\" por \"tupi\".",
+            "dica": "Pense no teatro inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o Abaporu?",
+            "alternativas": [
+              "Um poema de Manuel Bandeira",
+              "Uma música de Villa-Lobos",
+              "Um livro de Mário de Andrade",
+              "Um quadro de Tarsila do Amaral que inspirou o Manifesto Antropófago"
+            ],
+            "correta": 3,
+            "explicacao": "A pintura de 1928 inspirou Oswald a escrever o manifesto.",
+            "dica": "É uma obra de pintura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que boa parte do público vaiou a Semana?",
+            "alternativas": [
+              "O teatro estava em reforma",
+              "Os ingressos eram caros demais",
+              "Estava acostumada à arte tradicional e viu as novidades como afronta",
+              "Os artistas cantaram mal"
+            ],
+            "correta": 2,
+            "explicacao": "A ruptura com as regras chocou quem esperava arte tradicional.",
+            "dica": "O que era novo incomodava quem gostava do antigo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual grande nome do Modernismo NÃO esteve na Semana de 1922?",
+            "alternativas": [
+              "Tarsila do Amaral, que estava em Paris",
+              "Villa-Lobos",
+              "Anita Malfatti",
+              "Mário de Andrade"
+            ],
+            "correta": 0,
+            "explicacao": "Tarsila entrou para o grupo meses depois, ao voltar de Paris.",
+            "dica": "O aprofundamento fala de alguém que estava fora do país."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais autores são da terceira fase do Modernismo?",
+            "alternativas": [
+              "Graciliano Ramos e Drummond",
+              "Guimarães Rosa e Clarice Lispector",
+              "Mário e Oswald de Andrade",
+              "José de Alencar e Machado de Assis"
+            ],
+            "correta": 1,
+            "explicacao": "A terceira fase vem depois de 1945. Alencar e Machado nem são modernistas.",
+            "dica": "Depois de 1945."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O poema \"Os sapos\", lido na Semana, zombava de quem?",
+            "alternativas": [
+              "Dos indígenas",
+              "Dos políticos da época",
+              "Dos poetas parnasianos",
+              "Dos músicos"
+            ],
+            "correta": 2,
+            "explicacao": "Bandeira satirizou a poesia presa a regras rígidas.",
+            "dica": "Quem era o alvo dos modernistas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Macunaíma, \"herói sem nenhum caráter\" quer dizer:",
+            "alternativas": [
+              "Herói mau-caráter e desonesto",
+              "Herói que não aparece no livro",
+              "Herói sem nome",
+              "Herói sem um perfil fixo, que mistura traços, como uma identidade em formação"
+            ],
+            "correta": 3,
+            "explicacao": "Pegadinha: não é mau-caráter. É a falta de um caráter definido, como a identidade brasileira.",
+            "dica": "Releia o aprofundamento: não é o sentido do dia a dia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação sobre a Semana de 22 está correta?",
+            "alternativas": [
+              "Teve vaias e pouca repercussão popular na época, e sua importância cresceu com o tempo",
+              "Defendia a volta do Parnasianismo",
+              "Foi aplaudida por todo o público desde a primeira noite",
+              "Aconteceu no Rio de Janeiro em 1930"
+            ],
+            "correta": 0,
+            "explicacao": "Na hora houve choque e vaia; depois virou o grande marco do Modernismo.",
+            "dica": "Lembre como o público reagiu."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Os quadros que causaram vaia",
+    "texto": "Em fevereiro de 1922, o Theatro Municipal de São Paulo, com seus lustres e cortinas de veludo, recebeu visitantes inesperados. No saguão, em vez de retratos solenes e paisagens bem comportadas, havia telas com cores fortes, figuras tortas e rostos que pareciam feitos às pressas. Era a Semana de Arte Moderna.\n\nO grupo era formado por jovens escritores, pintores, escultores e músicos. Queriam sacudir a arte brasileira, que, para eles, vivia copiando modelos europeus antigos. O país completava cem anos de independência, e os artistas se perguntavam: que arte é a nossa?\n\nForam três noites de festival. Na primeira, houve palestra e música. Na segunda, a mais agitada, o público perdeu a paciência. Quando foi lido um poema que zombava dos poetas tradicionais, a plateia respondeu com vaias, latidos e assobios. Muitos espectadores tinham ido justamente para fazer barulho.\n\nOs quadros também incomodavam. Anos antes, a pintora Anita Malfatti tinha feito uma exposição que a crítica atacou com dureza. Agora, ela e outros artistas mostravam de novo que a pintura não precisava copiar a realidade como uma fotografia.\n\nNa terceira noite, o compositor Villa-Lobos entrou no palco de casaca e com um chinelo num dos pés. Parte do público achou que era provocação. Dizem que ele estava apenas com um problema no pé.\n\nNa época, a Semana foi vista por muitos como bagunça de rapazes ricos. Mas as ideias se espalharam: o verso livre, a fala brasileira na literatura, o interesse pela cultura popular. Hoje, mais de cem anos depois, aquelas vaias são lembradas como o barulho de uma porta se abrindo."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, conte uma escolha que você fez recentemente (como usar o tempo, o dinheiro ou um fim de semana). Diga o que deixou de fazer por causa dela, ou seja, o custo de oportunidade, e explique se valeu a pena e se faria a mesma escolha de novo."
+  }
+}

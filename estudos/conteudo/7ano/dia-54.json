@@ -1,0 +1,1504 @@
+{
+  "dia": 54,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Área de triângulos e quadriláteros",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Área é a medida da superfície de uma figura. Ela é dada em unidades ao quadrado: cm², m². Um metro quadrado (1 m²) é a área de um quadrado de 1 m de lado.",
+          "Retângulo: área = base × altura. Quadrado: área = lado × lado.",
+          "Paralelogramo: área = base × altura. Atenção: a altura é a distância reta (perpendicular) entre as bases, não o lado inclinado.",
+          "Triângulo: área = base × altura ÷ 2. Ele é metade de um paralelogramo com a mesma base e a mesma altura.",
+          "Trapézio: área = (base maior + base menor) × altura ÷ 2. Losango: área = diagonal maior × diagonal menor ÷ 2."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um quarto mede 4 m por 3 m. Cada caixa de piso cobre 2 m². Quantas caixas são necessárias?",
+            "resolucao": "Área: 4 × 3 = 12 m². Caixas: 12 ÷ 2 = 6 caixas."
+          },
+          {
+            "enunciado": "Um terreno triangular tem 10 m de base e 6 m de altura. Qual é a sua área?",
+            "resolucao": "10 × 6 ÷ 2 = 60 ÷ 2 = 30 m²."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Figuras compostas podem ser divididas em partes conhecidas (retângulos e triângulos), somando as áreas. Outra saída é calcular um retângulo maior e subtrair o pedaço que falta.",
+        "Cuidado com as conversões: 1 m² = 100 cm × 100 cm = 10 000 cm². E, se você dobra os lados de um quadrado, a área fica 4 vezes maior (2 × 2).",
+        "Também dá para fazer o caminho de volta: se a área e a base de um triângulo são conhecidas, a altura é área × 2 ÷ base. No trapézio, altura = área × 2 ÷ (soma das bases)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um retângulo de 5 cm por 3 cm?",
+            "alternativas": [
+              "16 cm²",
+              "8 cm²",
+              "15 cm²",
+              "30 cm²"
+            ],
+            "correta": 2,
+            "explicacao": "5 × 3 = 15 cm².",
+            "dica": "Multiplique a base pela altura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um quadrado de 4 cm de lado?",
+            "alternativas": [
+              "16 cm²",
+              "4 cm²",
+              "12 cm²",
+              "8 cm²"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 4 = 16 cm².",
+            "dica": "Lado vezes lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um triângulo de base 6 cm e altura 4 cm?",
+            "alternativas": [
+              "14 cm²",
+              "24 cm²",
+              "12 cm²",
+              "10 cm²"
+            ],
+            "correta": 2,
+            "explicacao": "6 × 4 ÷ 2 = 12 cm².",
+            "dica": "Não esqueça de dividir por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma unidade de área?",
+            "alternativas": [
+              "kg",
+              "L",
+              "m",
+              "m²"
+            ],
+            "correta": 3,
+            "explicacao": "Área usa unidades ao quadrado.",
+            "dica": "Procure o número 2 pequeno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fórmula da área do triângulo?",
+            "alternativas": [
+              "base × altura × 2",
+              "base × altura ÷ 2",
+              "lado × lado × lado",
+              "base + altura"
+            ],
+            "correta": 1,
+            "explicacao": "O triângulo é metade de um paralelogramo.",
+            "dica": "O triângulo é metade de outra figura."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um paralelogramo tem base 8 cm, altura 5 cm e lado inclinado de 6 cm. Qual é a área?",
+            "alternativas": [
+              "20 cm²",
+              "40 cm²",
+              "30 cm²",
+              "48 cm²"
+            ],
+            "correta": 1,
+            "explicacao": "Área = base × altura = 8 × 5 = 40. O lado inclinado não entra.",
+            "dica": "Use a altura reta, não o lado inclinado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trapézio tem bases de 10 cm e 6 cm e altura de 4 cm. Qual é a área?",
+            "alternativas": [
+              "24 cm²",
+              "64 cm²",
+              "32 cm²",
+              "40 cm²"
+            ],
+            "correta": 2,
+            "explicacao": "(10 + 6) × 4 ÷ 2 = 16 × 4 ÷ 2 = 32.",
+            "dica": "Some as bases primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um losango tem diagonais de 8 cm e 6 cm. Qual é a área?",
+            "alternativas": [
+              "28 cm²",
+              "48 cm²",
+              "14 cm²",
+              "24 cm²"
+            ],
+            "correta": 3,
+            "explicacao": "8 × 6 ÷ 2 = 24.",
+            "dica": "Multiplique as diagonais e divida por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma sala mede 5 m por 4 m e cada caixa de piso cobre 2 m². Quantas caixas são necessárias?",
+            "alternativas": [
+              "10",
+              "20",
+              "18",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "Área: 20 m². 20 ÷ 2 = 10 caixas.",
+            "dica": "Calcule a área antes de pensar nas caixas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno triangular tem 12 m de base e 9 m de altura. Qual é a área?",
+            "alternativas": [
+              "42 m²",
+              "108 m²",
+              "21 m²",
+              "54 m²"
+            ],
+            "correta": 3,
+            "explicacao": "12 × 9 ÷ 2 = 108 ÷ 2 = 54.",
+            "dica": "Base vezes altura, e depois a metade."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma figura em forma de L é um retângulo de 8 m por 6 m do qual foi tirado um canto de 3 m por 2 m. Qual é a área?",
+            "alternativas": [
+              "42 m²",
+              "48 m²",
+              "36 m²",
+              "54 m²"
+            ],
+            "correta": 0,
+            "explicacao": "48 − 6 = 42 m².",
+            "dica": "Calcule o retângulo inteiro e tire o pedaço que falta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma parede de 4 m por 3 m tem uma porta de 2 m por 1 m. Serão duas demãos de tinta, e cada lata pinta 5 m². Quantas latas são necessárias?",
+            "alternativas": [
+              "3",
+              "4",
+              "5",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "Parede: 12 − 2 = 10 m². Duas demãos: 20 m². 20 ÷ 5 = 4 latas.",
+            "dica": "Desconte a porta e lembre que são duas demãos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem área de 30 cm² e base de 12 cm. Qual é a altura?",
+            "alternativas": [
+              "18 cm",
+              "10 cm",
+              "5 cm",
+              "2,5 cm"
+            ],
+            "correta": 2,
+            "explicacao": "altura = 30 × 2 ÷ 12 = 60 ÷ 12 = 5 cm.",
+            "dica": "Faça a fórmula ao contrário: área vezes 2, dividido pela base."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem área de 49 cm². Qual é o seu perímetro?",
+            "alternativas": [
+              "49 cm",
+              "196 cm",
+              "14 cm",
+              "28 cm"
+            ],
+            "correta": 3,
+            "explicacao": "Lado: 7 cm (7 × 7 = 49). Perímetro: 4 × 7 = 28 cm.",
+            "dica": "Descubra o lado primeiro. Perímetro é o contorno."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular a área de um trapézio.",
+            "itens": [
+              "Somar a base maior e a base menor",
+              "Multiplicar a soma pela altura",
+              "Dividir o resultado por 2",
+              "Escrever a unidade ao quadrado"
+            ],
+            "explicacao": "Área do trapézio = (B + b) × h ÷ 2, com unidade ao quadrado.",
+            "dica": "Comece pelo que está entre parênteses na fórmula."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos centímetros quadrados cabem em 1 m²?",
+            "alternativas": [
+              "1 000 000",
+              "100",
+              "10 000",
+              "1000"
+            ],
+            "correta": 2,
+            "explicacao": "1 m² = 100 cm × 100 cm = 10 000 cm².",
+            "dica": "1 m tem 100 cm, e o quadrado tem dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem 3 cm de lado. Se os lados dobrarem, a área fica quantas vezes maior?",
+            "alternativas": [
+              "2",
+              "8",
+              "4",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "Antes: 9 cm². Depois: 6 × 6 = 36 cm². 36 ÷ 9 = 4.",
+            "dica": "Calcule as duas áreas e compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trapézio tem área de 45 m² e bases de 7 m e 11 m. Qual é a altura?",
+            "alternativas": [
+              "4,5 m",
+              "5 m",
+              "2,5 m",
+              "10 m"
+            ],
+            "correta": 1,
+            "explicacao": "altura = 45 × 2 ÷ (7 + 11) = 90 ÷ 18 = 5 m.",
+            "dica": "Use a fórmula do caminho de volta do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quintal retangular de 20 m por 15 m tem, num canto, um canteiro em forma de triângulo retângulo com lados de 6 m e 8 m junto às paredes. Quantos m² sobram para grama?",
+            "alternativas": [
+              "276 m²",
+              "252 m²",
+              "288 m²",
+              "300 m²"
+            ],
+            "correta": 0,
+            "explicacao": "Quintal: 300 m². Canteiro: 6 × 8 ÷ 2 = 24 m². 300 − 24 = 276.",
+            "dica": "No triângulo retângulo, os dois lados junto às paredes servem de base e altura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo e um triângulo têm a mesma base de 10 cm e a mesma área de 40 cm². Qual é a altura do triângulo?",
+            "alternativas": [
+              "16 cm",
+              "2 cm",
+              "4 cm",
+              "8 cm"
+            ],
+            "correta": 3,
+            "explicacao": "10 × h ÷ 2 = 40 → 5 × h = 40 → h = 8. O triângulo precisa do dobro da altura do retângulo.",
+            "dica": "Monte a fórmula do triângulo com a área conhecida."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Decompor um problema grande em partes menores",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um problema grande parece impossível até ser dividido em partes menores, cada uma fácil de resolver. Isso se chama decomposição.",
+          "Exemplo, o programa do boletim: 1) ler as notas; 2) calcular a média; 3) decidir a situação (aprovado se a média for maior ou igual a 6); 4) mostrar o resultado.",
+          "Cada parte pode virar uma função: ler_notas(), calcular_media(notas), situacao(media). O programa principal só chama as funções na ordem: notas ← ler_notas(); m ← calcular_media(notas); ESCREVA situacao(m).",
+          "Vantagens: dá para testar cada parte separada, achar erros mais rápido, dividir o trabalho numa equipe e reaproveitar funções em outros programas.",
+          "Para decompor, pergunte: o que entra, o que sai e quais são os passos? Se uma parte ainda parecer grande, divida de novo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Decomponha o problema \"organizar o lanche coletivo da turma\".",
+            "resolucao": "1) Lista de quem vai participar. 2) O que e quanto comprar. 3) Quanto cada um paga. 4) Local, dia e horário. Cada parte pode ficar com um grupo."
+          },
+          {
+            "enunciado": "Escreva a função da vaquinha: recebe o total e o número de pessoas e devolve quanto cada um paga.",
+            "resolucao": "FUNÇÃO por_pessoa(total, pessoas): RETORNE total / pessoas. Por exemplo, por_pessoa(84, 6) devolve 14."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Isso também se chama \"dividir para conquistar\" ou planejar de cima para baixo: começa-se pelo problema geral e vai-se detalhando cada parte até chegar a passos simples.",
+        "Abstração é usar uma função sabendo o que ela faz, sem precisar olhar como foi feita por dentro. Para uma equipe trabalhar junta, é preciso combinar antes o que cada função recebe e o que devolve.",
+        "Testar por partes: confira cada função com valores conhecidos. Se calcular_media([6, 8]) não der 7, o erro está nela, e não no resto do programa. Uma regra de situação pode ter mais faixas: média 6 ou mais, \"Aprovado\"; de 4 a menos de 6, \"Recuperação\"; abaixo de 4, \"Reprovado\"."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa decompor um problema?",
+            "alternativas": [
+              "Desistir dele",
+              "Fazer tudo de uma vez",
+              "Dividi-lo em partes menores",
+              "Apagar o problema"
+            ],
+            "correta": 2,
+            "explicacao": "Decompor é separar em partes mais fáceis.",
+            "dica": "Pense em quebrar algo grande em pedaços."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No programa do boletim, qual parte vem primeiro?",
+            "alternativas": [
+              "Mostrar o resultado",
+              "Calcular a média",
+              "Decidir a situação",
+              "Ler as notas"
+            ],
+            "correta": 3,
+            "explicacao": "Sem as notas, não dá para calcular nada.",
+            "dica": "O que o programa precisa receber antes de tudo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada parte de um problema decomposto pode virar:",
+            "alternativas": [
+              "um vírus",
+              "uma função",
+              "uma senha",
+              "um erro"
+            ],
+            "correta": 1,
+            "explicacao": "Funções organizam cada parte do programa.",
+            "dica": "É um bloco com nome que faz uma tarefa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma vantagem de decompor?",
+            "alternativas": [
+              "Achar erros mais rápido",
+              "Escrever tudo numa linha só",
+              "Deixar o programa mais confuso",
+              "Não precisar testar nada"
+            ],
+            "correta": 0,
+            "explicacao": "Com partes separadas, fica fácil ver qual delas falhou.",
+            "dica": "Partes pequenas são mais fáceis de conferir."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as partes do programa do boletim.",
+            "itens": [
+              "Ler as notas",
+              "Calcular a média",
+              "Decidir a situação",
+              "Mostrar o resultado"
+            ],
+            "explicacao": "Primeiro os dados, depois as contas, a decisão e a saída.",
+            "dica": "Comece pelo que entra no programa."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A regra é: média 6 ou mais, \"Aprovado\"; senão, \"Recuperação\". O que situacao(6) devolve?",
+            "alternativas": [
+              "6",
+              "Erro",
+              "Recuperação",
+              "Aprovado"
+            ],
+            "correta": 3,
+            "explicacao": "6 é maior ou igual a 6, então é \"Aprovado\".",
+            "dica": "\"Maior ou igual\" inclui o próprio 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que calcular_media([5, 7, 9]) devolve?",
+            "alternativas": [
+              "6",
+              "9",
+              "21",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "5 + 7 + 9 = 21. 21 ÷ 3 = 7.",
+            "dica": "Some e divida pela quantidade de notas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual parte NÃO faz parte do problema \"calcular quanto cada um paga na vaquinha\"?",
+            "alternativas": [
+              "Escolher a cor do convite",
+              "Contar as pessoas",
+              "Somar os gastos",
+              "Dividir o total pelas pessoas"
+            ],
+            "correta": 0,
+            "explicacao": "A cor do convite não muda a conta.",
+            "dica": "Qual delas não muda o valor por pessoa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que decompor ajuda uma equipe?",
+            "alternativas": [
+              "Porque ninguém precisa conversar",
+              "Porque só uma pessoa trabalha",
+              "Porque cada pessoa faz uma parte ao mesmo tempo",
+              "Porque não precisa testar"
+            ],
+            "correta": 2,
+            "explicacao": "Partes separadas podem ser feitas em paralelo.",
+            "dica": "Pense em dividir tarefas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que perguntas ajudam a decompor um problema?",
+            "alternativas": [
+              "Quantas teclas tem o teclado",
+              "O que entra, o que sai e quais são os passos",
+              "Qual é a cor do computador",
+              "Quem chegou primeiro na sala"
+            ],
+            "correta": 1,
+            "explicacao": "Entrada, saída e passos mostram as partes.",
+            "dica": "Pense no começo, no fim e no meio do programa."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "total ← 30 + 24 + 30; pessoas ← 6; por_pessoa ← total / pessoas. Quanto vale por_pessoa?",
+            "alternativas": [
+              "15",
+              "84",
+              "14",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "total = 84. 84 ÷ 6 = 14.",
+            "dica": "Calcule o total antes da divisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O programa do boletim mostra uma média errada. Como a decomposição ajuda a achar o erro?",
+            "alternativas": [
+              "Rodando sem ler as notas",
+              "Apagando o programa todo",
+              "Testando cada função separada com valores conhecidos",
+              "Trocando de computador"
+            ],
+            "correta": 2,
+            "explicacao": "Testar parte por parte mostra qual função falha.",
+            "dica": "Teste uma peça de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "FUNÇÃO media(notas): RETORNE soma(notas) / 3. Qual é o problema dessa função?",
+            "alternativas": [
+              "Divide sempre por 3, mas deveria dividir pela quantidade de notas",
+              "Não soma as notas",
+              "Não tem problema nenhum",
+              "Devolve texto"
+            ],
+            "correta": 0,
+            "explicacao": "Com 4 notas, ela divide errado. O certo é dividir pelo tamanho da lista.",
+            "dica": "Teste com uma lista de 4 notas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual parte ainda está grande demais e deveria ser dividida de novo?",
+            "alternativas": [
+              "Mandar o convite para a Ana",
+              "Comprar 2 kg de pão",
+              "Contar quantas cadeiras há",
+              "Organizar a festa inteira"
+            ],
+            "correta": 3,
+            "explicacao": "\"Organizar a festa inteira\" é o problema todo; as outras são passos simples.",
+            "dica": "Qual delas tem muitas tarefas escondidas dentro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas ← [4, 6, 5]; m ← calcular_media(notas); ESCREVA situacao(m). Com a regra \"6 ou mais, Aprovado; senão, Recuperação\", o que aparece?",
+            "alternativas": [
+              "Aprovado",
+              "Recuperação",
+              "5",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "Média = 15 ÷ 3 = 5, que é menor que 6.",
+            "dica": "Calcule a média e depois aplique a regra."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O teste calcular_media([6, 8]) deveria dar 7, mas deu 14. Qual é o erro mais provável?",
+            "alternativas": [
+              "O computador quebrou",
+              "A função somou errado",
+              "As notas estão erradas",
+              "A função esqueceu de dividir pela quantidade de notas"
+            ],
+            "correta": 3,
+            "explicacao": "6 + 8 = 14: a soma está certa, faltou dividir por 2.",
+            "dica": "14 é exatamente o quê de 6 e 8?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com a regra de três faixas do aprofundamento, qual é a situação das notas [3, 5, 4, 2]?",
+            "alternativas": [
+              "3,5",
+              "Recuperação",
+              "Reprovado",
+              "Aprovado"
+            ],
+            "correta": 2,
+            "explicacao": "Média: 14 ÷ 4 = 3,5, que fica abaixo de 4.",
+            "dica": "Calcule a média com 4 notas e compare com as faixas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é abstração, segundo o aprofundamento?",
+            "alternativas": [
+              "Apagar funções que não usa",
+              "Desenhar o programa com tinta",
+              "Escrever o programa sem funções",
+              "Usar uma função sabendo o que ela faz, sem precisar ver como foi feita"
+            ],
+            "correta": 3,
+            "explicacao": "Você usa max() sem saber como ele foi escrito por dentro.",
+            "dica": "Pense em usar o controle remoto sem abrir o aparelho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana vai fazer ler_notas() e Beto, calcular_media(). O que eles precisam combinar antes?",
+            "alternativas": [
+              "A cor da letra do código",
+              "O que cada função recebe e devolve, como uma lista de números",
+              "O nome do professor",
+              "Quem termina primeiro"
+            ],
+            "correta": 1,
+            "explicacao": "Se Ana devolver texto e Beto esperar números, as partes não encaixam.",
+            "dica": "As peças precisam se encaixar como num quebra-cabeça."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual estratégia é \"de cima para baixo\"?",
+            "alternativas": [
+              "Começar pelo problema geral e ir detalhando cada parte",
+              "Começar escrevendo a última linha",
+              "Escrever tudo sem planejar",
+              "Testar só no final"
+            ],
+            "correta": 0,
+            "explicacao": "Primeiro o todo, depois as partes, depois os detalhes.",
+            "dica": "De cima (o geral) para baixo (os detalhes)."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Comentários e controle de alterações: revisar texto em dupla",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Revisar em dupla funciona assim: um escreve, o outro revisa. No Word, as ferramentas ficam na guia Revisão.",
+          "Comentário: selecione um trecho e clique em Revisão > Novo Comentário. Um balão aparece na margem, sem mudar o texto. Serve para sugerir, perguntar ou elogiar.",
+          "Controlar Alterações: em Revisão > Controlar Alterações, tudo o que for apagado aparece riscado e o que for incluído aparece em outra cor, com o nome de quem mudou.",
+          "No fim, o autor decide: em Revisão, clica em Aceitar ou Rejeitar em cada alteração. Os comentários atendidos podem ser resolvidos ou excluídos.",
+          "No Documentos Google, o equivalente é o modo Sugestão (no lápis do canto superior direito, escolha Sugerindo) e o comentário fica em Inserir > Comentário."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A colega escreveu \"A gente fomos ao museu\". Como revisar com Controlar Alterações?",
+            "resolucao": "Com a ferramenta ligada, apague \"A gente fomos\" (fica riscado) e escreva \"Nós fomos\" (aparece colorido). A autora vê a mudança e clica em Aceitar."
+          },
+          {
+            "enunciado": "Escreva um bom comentário para um parágrafo longo demais.",
+            "resolucao": "\"Este parágrafo ficou longo. Que tal dividir em dois depois da frase sobre o ônibus?\" É específico, educado e traz uma sugestão."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Em Revisão, dá para escolher como ver o texto: Marcação Simples (uma linha na margem indica a mudança), Toda a Marcação (mostra riscos e inclusões), Sem Marcação (mostra como ficaria) e Original.",
+        "Atalhos no Word: Ctrl + Alt + M cria um comentário e Ctrl + Shift + E liga ou desliga o Controlar Alterações. Para responder a um comentário, use Responder no próprio balão, que mantém a conversa junta. Se alguém mudou o texto sem controle, Revisão > Comparar mostra as diferenças entre duas versões.",
+        "Uma boa crítica tem três qualidades: é específica (diz onde), é educada e traz uma sugestão. \"Está ruim\" não ajuda ninguém a melhorar."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google), escreva um parágrafo de 6 a 8 linhas sobre o seu fim de semana, com alguns erros de propósito (uma palavra repetida, um erro de concordância e uma vírgula faltando). 1) Salve e troque o arquivo com um colega ou alguém da família. 2) Quem revisar liga Revisão > Controlar Alterações (no Google, o modo Sugerindo), corrige pelo menos 3 coisas e insere 2 comentários: um com sugestão e outro com elogio. 3) De volta ao autor: veja em Toda a Marcação, aceite as correções que concordar, rejeite pelo menos uma explicando o motivo em resposta ao comentário e resolva os comentários. 4) Salve a versão final em PDF. Se fizer sozinho, revise o próprio texto no dia seguinte.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia do Word ficam as ferramentas de revisão?",
+            "alternativas": [
+              "Layout",
+              "Arquivo",
+              "Inserir",
+              "Revisão"
+            ],
+            "correta": 3,
+            "explicacao": "Comentários e controle de alterações ficam em Revisão.",
+            "dica": "O nome da guia combina com a tarefa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um comentário?",
+            "alternativas": [
+              "Para deixar uma observação na margem sem mudar o texto",
+              "Para apagar o texto todo",
+              "Para mudar a fonte",
+              "Para imprimir"
+            ],
+            "correta": 0,
+            "explicacao": "O comentário fica num balão ao lado do texto.",
+            "dica": "Ele fica do lado, não dentro do texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o Controlar Alterações mostra?",
+            "alternativas": [
+              "O horário do computador",
+              "A senha do arquivo",
+              "O que foi apagado e o que foi incluído",
+              "Só a quantidade de páginas"
+            ],
+            "correta": 2,
+            "explicacao": "Apagados aparecem riscados; incluídos, coloridos.",
+            "dica": "Ele registra as mudanças."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois da revisão, o que o autor pode fazer com cada alteração?",
+            "alternativas": [
+              "Só imprimir",
+              "Aceitar ou rejeitar",
+              "Nada, fica para sempre",
+              "Só aceitar"
+            ],
+            "correta": 1,
+            "explicacao": "O autor tem a palavra final.",
+            "dica": "O texto é de quem escreveu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Documentos Google, qual modo equivale ao Controlar Alterações?",
+            "alternativas": [
+              "Visualizando",
+              "Imprimindo",
+              "Desenhando",
+              "Sugerindo"
+            ],
+            "correta": 3,
+            "explicacao": "No modo Sugestão, as mudanças viram sugestões para aceitar ou rejeitar.",
+            "dica": "Fica no lápis do canto superior direito."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com o Controlar Alterações ligado, como aparece uma palavra apagada?",
+            "alternativas": [
+              "Maior que as outras",
+              "Em negrito",
+              "Some sem deixar marca",
+              "Riscada"
+            ],
+            "correta": 3,
+            "explicacao": "O risco mostra o que saiu, para o autor decidir.",
+            "dica": "O autor precisa ver o que saiu."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para inserir um comentário.",
+            "itens": [
+              "Selecionar o trecho",
+              "Abrir a guia Revisão",
+              "Clicar em Novo Comentário",
+              "Escrever a observação"
+            ],
+            "explicacao": "Seleciona, vai à guia, clica e escreve.",
+            "dica": "Primeiro diga ao Word de qual trecho você fala."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor comentário?",
+            "alternativas": [
+              "Não gostei.",
+              "Tá horrível.",
+              "Este parágrafo ficou longo. Que tal dividir em dois?",
+              "Refaz tudo."
+            ],
+            "correta": 2,
+            "explicacao": "Ele é específico, educado e traz uma sugestão.",
+            "dica": "Qual deles ajuda o autor a melhorar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece ao rejeitar uma alteração?",
+            "alternativas": [
+              "O trecho volta a ser como era antes",
+              "O comentário vira título",
+              "A alteração fica mais forte",
+              "O documento é apagado"
+            ],
+            "correta": 0,
+            "explicacao": "Rejeitar desfaz a mudança sugerida.",
+            "dica": "Rejeitar é dizer não à mudança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atalho cria um comentário no Word?",
+            "alternativas": [
+              "Ctrl + P",
+              "Ctrl + Alt + M",
+              "Alt + F4",
+              "Ctrl + Z"
+            ],
+            "correta": 1,
+            "explicacao": "Ctrl + Alt + M insere um comentário.",
+            "dica": "M de mensagem."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como ver o texto final limpo, sem apagar as marcações?",
+            "alternativas": [
+              "Escolher o modo de exibição Sem Marcação",
+              "Desligar o computador",
+              "Apagar os comentários",
+              "Aceitar todas e salvar por cima"
+            ],
+            "correta": 0,
+            "explicacao": "Sem Marcação mostra como ficaria, mas as alterações continuam guardadas.",
+            "dica": "É só uma forma de ver, não de mudar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O revisor esqueceu de ligar o Controlar Alterações e mudou o texto. Como o autor descobre o que mudou?",
+            "alternativas": [
+              "Não tem como saber",
+              "Mudando a fonte",
+              "Lendo de trás para a frente",
+              "Usando Revisão > Comparar com a versão original"
+            ],
+            "correta": 3,
+            "explicacao": "Comparar mostra as diferenças entre duas versões.",
+            "dica": "Junte as duas versões do arquivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alteração o revisor deve sugerir em \"A gente fomos ao museu\"?",
+            "alternativas": [
+              "A gente fomos ao museu.",
+              "Nós fomos ao museu.",
+              "Nós foi ao museu.",
+              "A gente fôramos ao museu."
+            ],
+            "correta": 1,
+            "explicacao": "Nós combina com fomos. (\"A gente foi\" também estaria certo.)",
+            "dica": "O sujeito precisa combinar com o verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com uma alteração aceita?",
+            "alternativas": [
+              "Vira comentário",
+              "Fica riscada para sempre",
+              "A marca some e o texto novo fica normal",
+              "O texto novo é apagado"
+            ],
+            "correta": 2,
+            "explicacao": "Aceitar incorpora a mudança ao texto.",
+            "dica": "Aceitar é dizer sim à mudança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A sugestão de um comentário já foi atendida. O que fazer com ele?",
+            "alternativas": [
+              "Deixar para sempre",
+              "Copiar para o título",
+              "Imprimir só o comentário",
+              "Resolver ou excluir o comentário"
+            ],
+            "correta": 3,
+            "explicacao": "Comentários resolvidos deixam o documento limpo.",
+            "dica": "O comentário ainda é necessário?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atalho liga ou desliga o Controlar Alterações no Word?",
+            "alternativas": [
+              "Ctrl + Alt + M",
+              "Ctrl + Shift + C",
+              "Ctrl + Shift + E",
+              "Ctrl + S"
+            ],
+            "correta": 2,
+            "explicacao": "Ctrl + Alt + M é comentário; Ctrl + Shift + E é o controle de alterações.",
+            "dica": "Releia os atalhos do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre Toda a Marcação e Marcação Simples?",
+            "alternativas": [
+              "Toda a Marcação apaga os comentários",
+              "A Simples apaga as alterações",
+              "São iguais",
+              "Toda a Marcação mostra riscos e inclusões; a Simples mostra só uma linha na margem"
+            ],
+            "correta": 3,
+            "explicacao": "As duas guardam as mudanças; só a forma de mostrar muda.",
+            "dica": "As duas são formas de exibir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comentário tem as três qualidades de uma boa crítica?",
+            "alternativas": [
+              "No 2º parágrafo, a palavra \"coisa\" se repete três vezes; que tal trocar uma por \"objeto\"?",
+              "Troque tudo, por favor.",
+              "No 2º parágrafo tem erro.",
+              "Está muito ruim, melhore."
+            ],
+            "correta": 0,
+            "explicacao": "Diz onde, é educado e sugere uma solução.",
+            "dica": "Procure onde, educação e sugestão juntos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para continuar a conversa num comentário, o melhor é:",
+            "alternativas": [
+              "apagar o comentário",
+              "criar um comentário novo em outra página",
+              "usar Responder no próprio comentário",
+              "escrever a resposta no meio do texto"
+            ],
+            "correta": 2,
+            "explicacao": "Responder mantém a conversa junta, no mesmo balão.",
+            "dica": "A conversa deve ficar junta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para aceitar tudo de uma vez, qual caminho usar?",
+            "alternativas": [
+              "Inserir > Tabela",
+              "Revisão > Aceitar > Aceitar Todas as Alterações",
+              "Arquivo > Imprimir",
+              "Layout > Margens"
+            ],
+            "correta": 1,
+            "explicacao": "O botão Aceitar tem a opção de aceitar todas.",
+            "dica": "Fica no mesmo botão de aceitar uma por uma."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Funcionário registrado ou informal: por que o certo sai mais barato",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Funcionário registrado tem a carteira de trabalho assinada (hoje ela é digital), seguindo a CLT, a Consolidação das Leis do Trabalho. Informal é quem trabalha sem registro.",
+          "O registrado tem direitos: salário de pelo menos um mínimo, 13º salário, férias com um terço a mais, FGTS (o patrão deposita todo mês 8% do salário numa conta do funcionário), INSS (aposentadoria e auxílio se ficar doente) e descanso semanal.",
+          "O informal parece mais barato, mas os riscos são grandes: o funcionário pode entrar na Justiça do Trabalho e cobrar tudo o que deixou de receber, com correção; a fiscalização pode multar; e um acidente sem INSS vira dívida do patrão.",
+          "Funcionário inseguro sai na primeira oferta melhor e leva junto o que aprendeu. Já a equipe registrada fica, se dedica e permite que o negócio cresça, pegue empréstimo e venda para empresas maiores. Até o MEI pode ter um empregado registrado.",
+          "Liderar bem é pagar em dia, combinar as tarefas com clareza, treinar e tratar com respeito. O lucro vem de uma equipe bem cuidada, não de tirar direitos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um funcionário ganha R$ 2.000,00 por mês. Quanto o patrão deposita de FGTS por mês e em um ano de salários?",
+            "resolucao": "8% de 2.000 = R$ 160,00 por mês. Em 12 meses: 160 × 12 = R$ 1.920,00 (sem contar o 13º e as férias)."
+          },
+          {
+            "enunciado": "Um dono não registrou o confeiteiro para \"economizar\" os R$ 160,00 de FGTS por mês. Em 3 anos, quanto ele deixou de depositar? Isso compensa?",
+            "resolucao": "160 × 36 = R$ 5.760,00. Não compensa: num processo, ele paga esse valor corrigido, mais férias, 13º e outros direitos atrasados, e ainda perde um bom profissional."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A Constituição de 1988, no artigo 7º, lista direitos dos trabalhadores, como 13º salário, férias com um terço a mais e FGTS. O trabalhador pode entrar na Justiça até 2 anos depois de sair do emprego, cobrando os direitos dos últimos 5 anos.",
+        "O FGTS de 8% é calculado sobre os salários, o 13º e as férias com o terço. Somando tudo isso, o custo de um funcionário no ano é maior que 12 salários, e esse valor deve entrar no preço dos produtos.",
+        "A Constituição proíbe qualquer trabalho para menores de 16 anos, salvo como aprendiz a partir dos 14, com contrato especial, atividade adequada e escola garantida. E trocar de funcionário toda hora custa caro: cada novo precisa de tempo de treino, comete erros no começo e pode afastar clientes."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que tem o funcionário registrado?",
+            "alternativas": [
+              "Só um recado no caderno",
+              "Um crachá de visitante",
+              "Nenhum documento",
+              "Carteira de trabalho assinada"
+            ],
+            "correta": 3,
+            "explicacao": "Registro é a carteira assinada.",
+            "dica": "É um documento de trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lei organiza os direitos dos trabalhadores com carteira?",
+            "alternativas": [
+              "ECA",
+              "LGPD",
+              "CLT",
+              "CDC"
+            ],
+            "correta": 2,
+            "explicacao": "CLT é a Consolidação das Leis do Trabalho.",
+            "dica": "O T da sigla é de trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um direito do funcionário registrado?",
+            "alternativas": [
+              "Nenhum direito",
+              "Ganhar menos que o mínimo",
+              "Trabalhar sem nenhum descanso",
+              "13º salário"
+            ],
+            "correta": 3,
+            "explicacao": "O 13º é um salário a mais no fim do ano.",
+            "dica": "É um salário extra no fim do ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um risco de não registrar o funcionário?",
+            "alternativas": [
+              "Nenhum risco",
+              "Processo trabalhista e multa",
+              "Pagar menos imposto para sempre",
+              "Ganhar um prêmio"
+            ],
+            "correta": 1,
+            "explicacao": "O funcionário pode cobrar tudo na Justiça, e a fiscalização pode multar.",
+            "dica": "O que a lei faz com quem descumpre?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem deposita o FGTS?",
+            "alternativas": [
+              "O patrão, todo mês",
+              "O cliente",
+              "O vizinho",
+              "O próprio funcionário"
+            ],
+            "correta": 0,
+            "explicacao": "O empregador deposita 8% do salário numa conta do funcionário.",
+            "dica": "Quem paga o salário?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é o FGTS mensal de quem ganha R$ 2.000,00?",
+            "alternativas": [
+              "R$ 160,00",
+              "R$ 16,00",
+              "R$ 200,00",
+              "R$ 1.600,00"
+            ],
+            "correta": 0,
+            "explicacao": "8% de 2.000 = 0,08 × 2.000 = 160.",
+            "dica": "Calcule 8% do salário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem ganha R$ 1.800,00 recebe, nas férias, o salário mais um terço. Quanto recebe?",
+            "alternativas": [
+              "R$ 3.600,00",
+              "R$ 1.800,00",
+              "R$ 2.400,00",
+              "R$ 600,00"
+            ],
+            "correta": 2,
+            "explicacao": "Um terço de 1.800 = 600. 1.800 + 600 = 2.400.",
+            "dica": "Ache um terço e some ao salário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o funcionário informal costuma sair na primeira oferta melhor?",
+            "alternativas": [
+              "Porque é proibido ficar",
+              "Porque não tem segurança nem direitos garantidos",
+              "Porque o trabalho é fácil demais",
+              "Porque gosta de mudar de casa"
+            ],
+            "correta": 1,
+            "explicacao": "Sem direitos, qualquer oferta com carteira assinada parece melhor.",
+            "dica": "O que ele ganha indo para um emprego registrado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos empregados registrados o MEI pode ter?",
+            "alternativas": [
+              "5",
+              "Quantos quiser",
+              "Nenhum",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "O MEI pode contratar um empregado.",
+            "dica": "É o menor número possível acima de zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário informal se machuca no trabalho. O que pode acontecer?",
+            "alternativas": [
+              "Sem INSS, o patrão pode ter de arcar com os custos",
+              "Nada, informal não se machuca",
+              "O cliente paga",
+              "O governo paga tudo sem problema"
+            ],
+            "correta": 0,
+            "explicacao": "Sem registro, o funcionário não tem a proteção do INSS, e o patrão responde.",
+            "dica": "Quem protegeria o funcionário se ele fosse registrado?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto o patrão deposita de FGTS em 12 meses de salário para quem ganha R$ 2.500,00?",
+            "alternativas": [
+              "R$ 3.000,00",
+              "R$ 24.000,00",
+              "R$ 2.400,00",
+              "R$ 200,00"
+            ],
+            "correta": 2,
+            "explicacao": "8% de 2.500 = 200 por mês. 200 × 12 = 2.400.",
+            "dica": "Ache o valor do mês e multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Até quando o trabalhador pode entrar na Justiça depois de sair do emprego?",
+            "alternativas": [
+              "Só no mesmo dia",
+              "Nunca",
+              "Até 50 anos depois",
+              "Até 2 anos depois, cobrando os últimos 5 anos"
+            ],
+            "correta": 3,
+            "explicacao": "É o prazo previsto na Constituição.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono deixou de depositar R$ 160,00 de FGTS por mês durante 3 anos. Quanto deixou de depositar?",
+            "alternativas": [
+              "R$ 480,00",
+              "R$ 5.760,00",
+              "R$ 1.920,00",
+              "R$ 4.800,00"
+            ],
+            "correta": 1,
+            "explicacao": "3 anos = 36 meses. 160 × 36 = 5.760.",
+            "dica": "Quantos meses há em 3 anos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude é de uma liderança justa?",
+            "alternativas": [
+              "Pagar em dia e combinar as tarefas com clareza",
+              "Atrasar salário para fazer caixa",
+              "Ameaçar demitir o tempo todo",
+              "Exigir horas extras sem pagar"
+            ],
+            "correta": 0,
+            "explicacao": "Respeito e clareza mantêm a equipe e aumentam a produção.",
+            "dica": "Qual delas a lei e o bom senso aprovam?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para contratar do jeito certo.",
+            "itens": [
+              "Definir a função e o salário",
+              "Registrar o funcionário na carteira",
+              "Treinar para a função",
+              "Acompanhar o trabalho e pagar em dia"
+            ],
+            "explicacao": "Planeja, registra, treina e acompanha.",
+            "dica": "O que precisa estar decidido antes de chamar alguém?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário ganha R$ 2.000,00. Somando 12 salários, 13º, o terço de férias e o FGTS de 8% sobre tudo isso (sem outros encargos), quanto ele custa no ano?",
+            "alternativas": [
+              "R$ 26.000,00",
+              "R$ 24.000,00",
+              "R$ 26.666,67",
+              "R$ 28.800,00"
+            ],
+            "correta": 3,
+            "explicacao": "24.000 + 2.000 + 666,67 = 26.666,67. Com 8% de FGTS: 26.666,67 × 1,08 = 28.800.",
+            "dica": "O FGTS entra sobre salários, 13º e férias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dono de uma padaria quer contratar um garoto de 15 anos para carregar sacos de farinha. O que diz a Constituição?",
+            "alternativas": [
+              "Pode, se pagar bem",
+              "Pode, se for parente",
+              "É proibido: antes dos 16, só como aprendiz, em atividade adequada e com escola garantida",
+              "Pode, desde que seja só nas férias"
+            ],
+            "correta": 2,
+            "explicacao": "Menores de 16 não podem trabalhar, salvo como aprendiz a partir dos 14, e nunca em atividade pesada.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que trocar de funcionário toda hora custa caro?",
+            "alternativas": [
+              "Porque a lei proíbe contratar",
+              "Cada novo precisa de treino, erra no começo e pode afastar clientes",
+              "Não custa nada",
+              "Porque o salário do novo é sempre o dobro"
+            ],
+            "correta": 1,
+            "explicacao": "A rotatividade gera custos escondidos.",
+            "dica": "Pense no tempo até o novo aprender."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa saiu do emprego há 3 anos sem nunca ter sido registrada. Ainda pode entrar com processo?",
+            "alternativas": [
+              "Não, porque informal não tem direitos",
+              "Sim, mas só se mudar de cidade",
+              "Não, porque o prazo é de 2 anos depois da saída",
+              "Sim, a qualquer momento"
+            ],
+            "correta": 2,
+            "explicacao": "O prazo para entrar na Justiça termina 2 anos depois da saída.",
+            "dica": "Compare 3 anos com o prazo da Constituição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A dona da padaria quer dobrar a produção de bolos. Qual é a melhor estratégia dentro da lei?",
+            "alternativas": [
+              "Contratar e treinar um ajudante registrado para o confeiteiro, que passa a coordenar",
+              "Fazer o confeiteiro trabalhar 16 horas sem pagar extra",
+              "Contratar um ajudante sem registro",
+              "Cortar o salário para comprar um forno"
+            ],
+            "correta": 0,
+            "explicacao": "Delegar e multiplicar a produção com equipe registrada e treinada é crescer do jeito certo.",
+            "dica": "Qual opção multiplica o trabalho sem tirar direitos?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Parônimos: palavras parecidas que confundem",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Parônimos são palavras parecidas na escrita e na pronúncia, mas com sentidos diferentes. Não são iguais, como os homônimos: são só parecidas, e por isso confundem.",
+          "Comprimento é medida (o comprimento da mesa); cumprimento é saudação ou o ato de cumprir (um cumprimento ao professor). Descrição vem de descrever; discrição vem de ser discreto.",
+          "Eminente é importante, ilustre (um médico eminente); iminente é o que está prestes a acontecer (uma chuva iminente). Tráfego é o trânsito; tráfico é comércio ilegal.",
+          "Ratificar é confirmar; retificar é corrigir. Despensa é o lugar onde se guardam alimentos; dispensa é a licença para não fazer algo.",
+          "Truques de memória: retificar lembra \"reto\" (deixar certo); cumprimento lembra \"cumprir\"; iminente lembra \"imediato\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Complete: \"O ___ da corda é de 3 metros.\"",
+            "resolucao": "Comprimento, porque se trata de medida."
+          },
+          {
+            "enunciado": "Complete: \"Com o céu escuro, a tempestade era ___.\"",
+            "resolucao": "Iminente: estava prestes a acontecer."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Outros pares: infligir (aplicar uma pena ou castigo) e infringir (desrespeitar uma regra); emergir (vir à tona) e imergir (afundar, mergulhar); mandado (ordem judicial) e mandato (período de um cargo eleito).",
+        "Mais pares: flagrante (evidente, visto na hora) e fragrante (perfumado); deferir (atender um pedido) e diferir (adiar, ser diferente); sortir (abastecer) e surtir (ter efeito).",
+        "Na dúvida, procure no dicionário e leia a frase inteira: é o contexto que mostra qual palavra combina."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O ___ da mesa é de 2 metros.\"",
+            "alternativas": [
+              "cumprimeto",
+              "comprimeto",
+              "cumprimento",
+              "comprimento"
+            ],
+            "correta": 3,
+            "explicacao": "Comprimento é medida.",
+            "dica": "A frase fala de medida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que são parônimos?",
+            "alternativas": [
+              "Palavras parecidas com sentidos diferentes",
+              "Palavras de sentido contrário",
+              "Palavras de sentido igual",
+              "Palavras estrangeiras"
+            ],
+            "correta": 0,
+            "explicacao": "Parônimos se parecem, mas significam coisas diferentes.",
+            "dica": "Elas se parecem, mas não são iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ela fez um ___ ao professor na entrada.\"",
+            "alternativas": [
+              "comprimento",
+              "cumprimeto",
+              "cumprimento",
+              "compriento"
+            ],
+            "correta": 2,
+            "explicacao": "Cumprimento é saudação.",
+            "dica": "A frase fala de uma saudação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O ___ na avenida está lento.\"",
+            "alternativas": [
+              "tráfico",
+              "tráfego",
+              "tráfigo",
+              "trafégo"
+            ],
+            "correta": 1,
+            "explicacao": "Tráfego é o trânsito de veículos.",
+            "dica": "A frase fala de carros andando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma despensa?",
+            "alternativas": [
+              "Lugar de guardar alimentos",
+              "Um remédio",
+              "Licença para faltar",
+              "Um tipo de imposto"
+            ],
+            "correta": 0,
+            "explicacao": "Despensa, com e, é o cômodo dos mantimentos.",
+            "dica": "Fica perto da cozinha."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Com o céu tão escuro, a chuva é ___.\"",
+            "alternativas": [
+              "iminente",
+              "iminênte",
+              "eminente",
+              "eminênte"
+            ],
+            "correta": 0,
+            "explicacao": "Iminente é o que está prestes a acontecer.",
+            "dica": "A chuva vai cair logo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Preciso ___ o erro no meu cadastro.\"",
+            "alternativas": [
+              "rectificar",
+              "reificar",
+              "ratificar",
+              "retificar"
+            ],
+            "correta": 3,
+            "explicacao": "Retificar é corrigir.",
+            "dica": "Lembre do truque do \"reto\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O diretor ___ a decisão do conselho\" (confirmou).",
+            "alternativas": [
+              "rectificou",
+              "ratificô",
+              "ratificou",
+              "retificou"
+            ],
+            "correta": 2,
+            "explicacao": "Ratificar é confirmar.",
+            "dica": "A frase pede o sentido de confirmar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ela agiu com ___, sem chamar atenção.\"",
+            "alternativas": [
+              "descripção",
+              "discrição",
+              "discreção",
+              "descrição"
+            ],
+            "correta": 1,
+            "explicacao": "Discrição vem de ser discreto.",
+            "dica": "Pense na palavra discreto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ele é um ___ cientista, premiado no mundo todo.\"",
+            "alternativas": [
+              "iminênte",
+              "eminente",
+              "iminente",
+              "eminênte"
+            ],
+            "correta": 1,
+            "explicacao": "Eminente é importante, ilustre.",
+            "dica": "A frase fala de alguém importante."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "O tráfico de animais silvestres é crime.",
+              "O tráfego de animais silvestres é crime.",
+              "O tráfico na avenida está lento.",
+              "O tráfego de drogas é crime."
+            ],
+            "correta": 0,
+            "explicacao": "Comércio ilegal é tráfico; trânsito é tráfego.",
+            "dica": "Qual delas fala de comércio ilegal com a palavra certa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O motorista ___ a lei ao furar o sinal.\"",
+            "alternativas": [
+              "infringiu",
+              "enfringiu",
+              "infrigiu",
+              "infligiu"
+            ],
+            "correta": 0,
+            "explicacao": "Infringir é desrespeitar uma regra.",
+            "dica": "A frase fala de desrespeitar uma lei."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O submarino vai ___ até o fundo do mar.\"",
+            "alternativas": [
+              "emergir",
+              "emigrar",
+              "imergir",
+              "imigrar"
+            ],
+            "correta": 2,
+            "explicacao": "Imergir é afundar, mergulhar.",
+            "dica": "O submarino está descendo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "O policial cumpriu o mandato de busca.",
+              "O vereador cumpriu todo o seu mandato.",
+              "O vereador cumpriu todo o seu mandado.",
+              "O juiz expediu um mandato de prisão."
+            ],
+            "correta": 1,
+            "explicacao": "Mandato é o período do cargo eleito; mandado é ordem judicial.",
+            "dica": "Qual palavra indica o período de um cargo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ele pediu ___ da aula para ir ao médico.\"",
+            "alternativas": [
+              "despensa",
+              "dispença",
+              "despença",
+              "dispensa"
+            ],
+            "correta": 3,
+            "explicacao": "Dispensa é licença para não fazer algo.",
+            "dica": "Aqui não se trata de guardar comida."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O juiz ___ o pedido do advogado\" (atendeu).",
+            "alternativas": [
+              "deferiu",
+              "defiriu",
+              "diferenciou",
+              "diferiu"
+            ],
+            "correta": 0,
+            "explicacao": "Deferir é atender um pedido.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O remédio ___ efeito rapidamente.\"",
+            "alternativas": [
+              "sortiu",
+              "surtou",
+              "surtiu",
+              "sortiou"
+            ],
+            "correta": 2,
+            "explicacao": "Surtir é ter efeito; sortir é abastecer.",
+            "dica": "Qual verbo significa ter efeito?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está toda correta?",
+            "alternativas": [
+              "O guarda infringiu uma multa ao motorista que infligiu a lei.",
+              "O guarda infringiu uma multa ao motorista que infringiu a lei.",
+              "O guarda infligiu uma multa ao motorista que infligiu a lei.",
+              "O guarda infligiu uma multa ao motorista que infringiu a lei."
+            ],
+            "correta": 3,
+            "explicacao": "Quem aplica a pena inflige; quem desrespeita a regra infringe.",
+            "dica": "Uma é aplicar a pena; a outra é desrespeitar a regra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde está o erro em \"O policial cumpriu o mandato de prisão\"?",
+            "alternativas": [
+              "Policial deveria ser político",
+              "Não há erro",
+              "Mandato deveria ser mandado, porque é ordem judicial",
+              "Cumpriu deveria ser comprimiu"
+            ],
+            "correta": 2,
+            "explicacao": "Ordem de prisão é mandado; mandato é o período de um cargo.",
+            "dica": "Ordem do juiz ou período de um cargo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"A mergulhadora vai ___ e, depois de um minuto, ___ à superfície.\"",
+            "alternativas": [
+              "emergir / emergir",
+              "imergir / emergir",
+              "emergir / imergir",
+              "imergir / imergir"
+            ],
+            "correta": 1,
+            "explicacao": "Primeiro afunda (imergir), depois volta à tona (emergir).",
+            "dica": "Pense na ordem: descer e depois subir."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A padaria que perdeu o confeiteiro",
+    "texto": "Seu Osvaldo tinha uma padaria movimentada na Vila Prudente. O orgulho da casa eram os bolos do Renato, confeiteiro que trabalhava ali havia quatro anos. Renato nunca teve carteira assinada. \"Assim sai mais barato para nós dois\", dizia o patrão.\n\nUm dia, Renato chegou com a notícia: uma confeitaria do outro bairro tinha oferecido o mesmo salário, mas com registro, férias e FGTS. Ele foi embora no fim do mês.\n\nOs bolos da padaria nunca mais foram os mesmos, e os clientes perceberam. Meses depois, chegou outra surpresa: Renato tinha entrado na Justiça do Trabalho pedindo os direitos dos quatro anos. Seu Osvaldo precisou pagar FGTS, férias e 13º atrasados, tudo corrigido. A conta foi muito maior do que a \"economia\" de todos aqueles anos.\n\nFoi um tombo, mas virou lição. Seu Osvaldo registrou os três funcionários que tinha, passou a pagar tudo em dia e montou um pequeno treinamento para os novos. Contratou um aprendiz de confeitaria, maior de idade, para ajudar a nova confeiteira.\n\nHoje a equipe é a mesma há dois anos. \"Funcionário que fica aprende, ensina e cuida da casa como se fosse dele\", diz Seu Osvaldo."
+  },
+  "escrita": {
+    "proposta": "Escreva um parágrafo convencendo um dono de negócio a registrar seu funcionário. Use pelo menos dois argumentos (por exemplo: o risco de processo e de multa, a segurança do INSS, a chance de manter um bom funcionário, a possibilidade de crescer e vender para empresas maiores). Comece com uma frase que chame a atenção do dono e termine com um convite à ação."
+  }
+}

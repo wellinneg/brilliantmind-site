@@ -1,0 +1,1199 @@
+{
+  "dia": 56,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Volume: quantos cubinhos cabem na caixa",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Volume é o espaço que um objeto ocupa ou quanto cabe dentro dele. Uma boa forma de imaginar é contar quantos cubinhos iguais enchem uma caixa.",
+          "Numa caixa com formato de bloco retangular, o volume é comprimento × largura × altura. Uma caixa de 4 cubinhos de comprimento, 3 de largura e 2 de altura tem 4 × 3 × 2 = 24 cubinhos.",
+          "As unidades de volume são cúbicas: centímetro cúbico (cm³), um cubinho de 1 cm de lado, e metro cúbico (m³), um cubo de 1 m de lado.",
+          "No cubo, as três medidas são iguais, então o volume é aresta × aresta × aresta. Um cubo de aresta 3 cm tem 3 × 3 × 3 = 27 cm³."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um aquário mede 50 cm de comprimento, 30 cm de largura e 40 cm de altura. Qual é o volume?",
+            "resolucao": "50 × 30 × 40 = 60.000 cm³. Como 1 L = 1.000 cm³, cabem 60 litros."
+          },
+          {
+            "enunciado": "Uma caixa tem 12 cubinhos no fundo e 5 camadas iguais. Quantos cubinhos cabem?",
+            "resolucao": "12 × 5 = 60 cubinhos. Multiplicar o fundo pela altura é o mesmo que fazer comprimento × largura × altura."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Volume e capacidade se ligam: 1 litro cabe num cubo de 10 cm de aresta (10 × 10 × 10 = 1.000 cm³). E 1 m³ = 1.000 litros. Uma caixa-d'água de 2 m × 1 m × 1 m tem 2 m³, ou seja, 2.000 L.",
+        "Quando a aresta do cubo dobra, o volume fica 8 vezes maior: aresta 2 dá 8; aresta 4 dá 64. Isso acontece porque as três medidas dobram ao mesmo tempo (2 × 2 × 2 = 8).",
+        "Se você sabe o volume e duas medidas, descobre a terceira dividindo: um caixote de 72 cubinhos, com fundo de 6 × 4, tem altura 72 ÷ 24 = 3."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é volume?",
+            "alternativas": [
+              "O tamanho de uma linha",
+              "O espaço que um objeto ocupa ou quanto cabe dentro dele",
+              "O peso de um objeto",
+              "A cor de uma caixa"
+            ],
+            "correta": 1,
+            "explicacao": "Volume é espaço ocupado.",
+            "dica": "Pense em encher uma caixa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa tem 4 × 3 × 2 cubinhos. Quantos cabem?",
+            "alternativas": [
+              "9",
+              "12",
+              "24",
+              "432"
+            ],
+            "correta": 2,
+            "explicacao": "4 × 3 × 2 = 24.",
+            "dica": "Multiplique as três medidas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma unidade de volume?",
+            "alternativas": [
+              "cm",
+              "cm³",
+              "kg",
+              "cm²"
+            ],
+            "correta": 1,
+            "explicacao": "Volume usa unidades cúbicas.",
+            "dica": "Tem um 3 pequenininho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cubo tem aresta 3 cm. Qual é o volume?",
+            "alternativas": [
+              "27 cm³",
+              "9 cm³",
+              "6 cm³",
+              "12 cm³"
+            ],
+            "correta": 0,
+            "explicacao": "3 × 3 × 3 = 27.",
+            "dica": "Multiplique a aresta três vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos cm³ cabem em 1 litro?",
+            "alternativas": [
+              "100 cm³",
+              "10 cm³",
+              "1 cm³",
+              "1.000 cm³"
+            ],
+            "correta": 3,
+            "explicacao": "1 L = 1.000 cm³.",
+            "dica": "Lembre do aquário do exemplo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa mede 5 cm × 4 cm × 3 cm. Qual é o volume?",
+            "alternativas": [
+              "12 cm³",
+              "47 cm³",
+              "60 cm³",
+              "20 cm³"
+            ],
+            "correta": 2,
+            "explicacao": "5 × 4 × 3 = 60.",
+            "dica": "Não some; multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aquário de 50 × 30 × 40 cm tem quantos litros?",
+            "alternativas": [
+              "60 L",
+              "600 L",
+              "6 L",
+              "120 L"
+            ],
+            "correta": 0,
+            "explicacao": "60.000 cm³ ÷ 1.000 = 60 L.",
+            "dica": "Calcule em cm³ e depois passe para litros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O fundo de uma caixa tem 12 cubinhos e ela tem 5 camadas. Quantos cubinhos?",
+            "alternativas": [
+              "17",
+              "24",
+              "50",
+              "60"
+            ],
+            "correta": 3,
+            "explicacao": "12 × 5 = 60.",
+            "dica": "Cada camada tem o mesmo número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cubo de 10 cm de aresta tem quantos litros?",
+            "alternativas": [
+              "10 L",
+              "1 L",
+              "100 L",
+              "30 L"
+            ],
+            "correta": 1,
+            "explicacao": "10 × 10 × 10 = 1.000 cm³ = 1 L.",
+            "dica": "Calcule em cm³ primeiro."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene do menor para o maior volume:",
+            "itens": [
+              "cubo de aresta 2",
+              "caixa de 2 × 3 × 4",
+              "cubo de aresta 3",
+              "caixa de 5 × 4 × 3"
+            ],
+            "explicacao": "8, 24, 27 e 60.",
+            "dica": "Calcule cada volume antes."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa-d'água mede 2 m × 1 m × 1 m. Quantos litros cabem?",
+            "alternativas": [
+              "2 L",
+              "200 L",
+              "20.000 L",
+              "2.000 L"
+            ],
+            "correta": 3,
+            "explicacao": "2 m³ e 1 m³ = 1.000 L.",
+            "dica": "Cada metro cúbico tem mil litros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caixote tem 72 cubinhos e fundo de 6 × 4. Qual é a altura?",
+            "alternativas": [
+              "3",
+              "12",
+              "4",
+              "62"
+            ],
+            "correta": 0,
+            "explicacao": "6 × 4 = 24; 72 ÷ 24 = 3.",
+            "dica": "Divida o volume pela área do fundo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A aresta de um cubo passou de 2 para 4. O volume ficou quantas vezes maior?",
+            "alternativas": [
+              "8",
+              "2",
+              "4",
+              "16"
+            ],
+            "correta": 0,
+            "explicacao": "8 → 64; 64 ÷ 8 = 8.",
+            "dica": "Calcule os dois volumes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aquário de 40 × 20 × 30 cm está pela metade. Quantos litros tem?",
+            "alternativas": [
+              "24 L",
+              "12 L",
+              "6 L",
+              "120 L"
+            ],
+            "correta": 1,
+            "explicacao": "24.000 cm³ = 24 L; metade = 12 L.",
+            "dica": "Calcule o cheio e divida por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas caixinhas de 2 × 2 × 2 cabem numa caixa de 6 × 4 × 4?",
+            "alternativas": [
+              "8",
+              "24",
+              "12",
+              "96"
+            ],
+            "correta": 2,
+            "explicacao": "3 × 2 × 2 = 12 caixinhas (ou 96 ÷ 8).",
+            "dica": "Veja quantas cabem em cada direção."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma piscina mede 8 m × 4 m × 1,5 m. Quantos litros cabem?",
+            "alternativas": [
+              "48 L",
+              "4.800 L",
+              "13.500 L",
+              "48.000 L"
+            ],
+            "correta": 3,
+            "explicacao": "8 × 4 × 1,5 = 48 m³; 48 × 1.000 = 48.000 L.",
+            "dica": "Volume em m³ e depois em litros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cubo tem volume 125 cm³. Quanto mede a aresta?",
+            "alternativas": [
+              "5 cm",
+              "25 cm",
+              "41,6 cm",
+              "15 cm"
+            ],
+            "correta": 0,
+            "explicacao": "5 × 5 × 5 = 125.",
+            "dica": "Qual número multiplicado três vezes dá 125?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Juntando 8 cubos de 1 cm de aresta, qual é o maior cubo que dá para montar?",
+            "alternativas": [
+              "Um cubo de aresta 8 cm",
+              "Um cubo de aresta 2 cm",
+              "Um cubo de aresta 4 cm",
+              "Não dá para montar cubo"
+            ],
+            "correta": 1,
+            "explicacao": "2 × 2 × 2 = 8.",
+            "dica": "Qual aresta usa exatamente 8 cubinhos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas caixas: A tem 6 × 2 × 2 e B tem 4 × 3 × 2. Qual tem mais volume?",
+            "alternativas": [
+              "A, com 24",
+              "B, com 26",
+              "A, com 26",
+              "Têm o mesmo volume: 24"
+            ],
+            "correta": 3,
+            "explicacao": "A: 24. B: 24.",
+            "dica": "Calcule as duas antes de decidir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma garrafa de 2 L vai encher cubinhos de gelo de 4 cm³ cada. Quantos cubinhos?",
+            "alternativas": [
+              "50",
+              "200",
+              "500",
+              "8.000"
+            ],
+            "correta": 2,
+            "explicacao": "2 L = 2.000 cm³; 2.000 ÷ 4 = 500.",
+            "dica": "Passe litros para cm³."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Planejar uma festa com orçamento",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Orçamento é o dinheiro que se tem para gastar. Numa festa, o primeiro passo é saber esse valor e não passar dele, nem que seja \"só um pouquinho\".",
+          "Depois, faça a lista: quantos convidados, o que é essencial (bolo, comida, bebida) e o que é extra (decoração, lembrancinha). O essencial entra primeiro.",
+          "Pesquise preços em pelo menos dois lugares e calcule o preço por unidade. Às vezes, o pacote maior sai mais barato; às vezes, não.",
+          "Guarde uma reserva para imprevistos, como gelo que acabou ou um convidado a mais. Uma festa simples e paga é melhor do que uma festa cara e cheia de dívida."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Ana tem R$ 150. Bolo R$ 45, salgados R$ 50, bebidas R$ 30 e decoração R$ 15. Sobra dinheiro?",
+            "resolucao": "Total: 45 + 50 + 30 + 15 = R$ 140. Sobram R$ 10 de reserva."
+          },
+          {
+            "enunciado": "Um cento de salgados custa R$ 50; 25 salgados custam R$ 15. Qual é mais barato por unidade?",
+            "resolucao": "Cento: 50 ÷ 100 = R$ 0,50. Pacote de 25: 15 ÷ 25 = R$ 0,60. O cento sai mais barato por salgado."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para calcular a bebida, estime por pessoa: 20 convidados × 300 mL = 6.000 mL = 6 L, ou seja, 3 garrafas de 2 L. A R$ 8 cada, são R$ 24.",
+        "Quantidade demais também é desperdício: pacote barato que sobra pela metade e vai para o lixo não foi economia. Compare o preço com o que você realmente vai usar.",
+        "Uma festa pode sair mais barata com ajuda: um parente faz o bolo, os amigos ajudam a enfeitar, a decoração é feita com materiais reaproveitados."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é orçamento?",
+            "alternativas": [
+              "O dinheiro que se tem para gastar",
+              "Uma comida de festa",
+              "Um tipo de bolo",
+              "Um convite"
+            ],
+            "correta": 0,
+            "explicacao": "É o limite de dinheiro.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que entra primeiro na lista da festa?",
+            "alternativas": [
+              "O essencial, como bolo e comida",
+              "A lembrancinha mais cara",
+              "Os balões",
+              "Fogos de artifício"
+            ],
+            "correta": 0,
+            "explicacao": "Primeiro o essencial.",
+            "dica": "O que não pode faltar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a reserva?",
+            "alternativas": [
+              "Para gastar com doce extra",
+              "Para os imprevistos",
+              "Para jogar fora",
+              "Para pagar dívida antiga"
+            ],
+            "correta": 1,
+            "explicacao": "Reserva cobre o inesperado.",
+            "dica": "E se o gelo acabar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 150, gastar R$ 140 deixa quanto?",
+            "alternativas": [
+              "R$ 290",
+              "R$ 20",
+              "R$ 0",
+              "R$ 10"
+            ],
+            "correta": 3,
+            "explicacao": "150 − 140 = 10.",
+            "dica": "Subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "É bom pesquisar preços antes de comprar?",
+            "alternativas": [
+              "Não, compra no primeiro",
+              "Só se estiver chovendo",
+              "Sim, em pelo menos dois lugares",
+              "Nunca faz diferença"
+            ],
+            "correta": 2,
+            "explicacao": "Pesquisar ajuda a economizar.",
+            "dica": "Releia o terceiro parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Bolo R$ 45, salgados R$ 50, bebidas R$ 30 e decoração R$ 15. Total?",
+            "alternativas": [
+              "R$ 130",
+              "R$ 140",
+              "R$ 150",
+              "R$ 125"
+            ],
+            "correta": 1,
+            "explicacao": "45 + 50 + 30 + 15 = 140.",
+            "dica": "Some os quatro itens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cento de salgados a R$ 50 sai a quanto por salgado?",
+            "alternativas": [
+              "R$ 5,00",
+              "R$ 0,05",
+              "R$ 0,50",
+              "R$ 50,00"
+            ],
+            "correta": 2,
+            "explicacao": "50 ÷ 100 = 0,50.",
+            "dica": "Divida o preço por 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 150, ela já gastou R$ 125. Quanto pode gastar na decoração?",
+            "alternativas": [
+              "Até R$ 35",
+              "Até R$ 275",
+              "Até R$ 15",
+              "Até R$ 25"
+            ],
+            "correta": 3,
+            "explicacao": "150 − 125 = 25.",
+            "dica": "Quanto falta para chegar ao limite?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "3 irmãos dividem uma festa de R$ 150. Quanto cada um paga?",
+            "alternativas": [
+              "R$ 50",
+              "R$ 45",
+              "R$ 30",
+              "R$ 153"
+            ],
+            "correta": 0,
+            "explicacao": "150 ÷ 3 = 50.",
+            "dica": "Divida por 3."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para planejar a festa:",
+            "itens": [
+              "Saber quanto dinheiro tem",
+              "Fazer a lista do essencial e dos extras",
+              "Pesquisar preços",
+              "Comprar e guardar a reserva"
+            ],
+            "explicacao": "Primeiro o limite, depois a lista, os preços e a compra.",
+            "dica": "Antes de tudo, quanto se pode gastar?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "25 salgados por R$ 15 sai a quanto por salgado?",
+            "alternativas": [
+              "R$ 0,50",
+              "R$ 0,60",
+              "R$ 1,66",
+              "R$ 0,40"
+            ],
+            "correta": 1,
+            "explicacao": "15 ÷ 25 = 0,60.",
+            "dica": "Divida o preço pela quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "20 convidados, 300 mL de bebida para cada. Quantas garrafas de 2 L?",
+            "alternativas": [
+              "3",
+              "2",
+              "6",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "20 × 300 = 6.000 mL = 6 L; 6 ÷ 2 = 3.",
+            "dica": "Calcule o total em litros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Decoração de 10% de um orçamento de R$ 150 custa:",
+            "alternativas": [
+              "R$ 10",
+              "R$ 1,50",
+              "R$ 50",
+              "R$ 15"
+            ],
+            "correta": 3,
+            "explicacao": "150 ÷ 10 = 15.",
+            "dica": "10% é dividir por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pacote gigante de copos sai mais barato, mas vai sobrar a metade sem uso. O que pensar?",
+            "alternativas": [
+              "Sempre comprar o maior",
+              "Comprar dois pacotes gigantes",
+              "Talvez não seja economia, se a sobra for desperdiçada",
+              "Nunca comprar copos"
+            ],
+            "correta": 2,
+            "explicacao": "Compare com o que vai usar.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "4 brigadeiros por convidado, 20 convidados. Quantos brigadeiros?",
+            "alternativas": [
+              "24",
+              "80",
+              "40",
+              "60"
+            ],
+            "correta": 1,
+            "explicacao": "4 × 20 = 80.",
+            "dica": "Multiplique."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "80 brigadeiros; cada receita rende 40 e custa R$ 18. Quanto gasta?",
+            "alternativas": [
+              "R$ 36",
+              "R$ 18",
+              "R$ 72",
+              "R$ 1.440"
+            ],
+            "correta": 0,
+            "explicacao": "80 ÷ 40 = 2 receitas; 2 × 18 = 36.",
+            "dica": "Descubra quantas receitas precisa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Orçamento R$ 100. Bolo R$ 36 e bebidas R$ 24. Ela quer guardar R$ 10 de reserva. Quanto sobra para salgados?",
+            "alternativas": [
+              "R$ 40",
+              "R$ 30",
+              "R$ 50",
+              "R$ 20"
+            ],
+            "correta": 1,
+            "explicacao": "100 − 36 − 24 = 40; 40 − 10 = 30.",
+            "dica": "Não esqueça de separar a reserva."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual escolha mostra bom planejamento?",
+            "alternativas": [
+              "Festa cara no cartão sem saber como pagar",
+              "Festa simples, paga com o dinheiro que tem e com reserva",
+              "Gastar a reserva logo no início",
+              "Comprar sem lista"
+            ],
+            "correta": 1,
+            "explicacao": "Festa paga e com reserva é tranquila.",
+            "dica": "Pense no dia seguinte à festa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Loja A: 3 garrafas de 2 L por R$ 21. Loja B: garrafa de 2 L por R$ 8. Para 3 garrafas, quanto economiza na A?",
+            "alternativas": [
+              "R$ 13",
+              "R$ 8",
+              "R$ 1",
+              "R$ 3"
+            ],
+            "correta": 3,
+            "explicacao": "B: 3 × 8 = 24; A: 21; 24 − 21 = 3.",
+            "dica": "Calcule quanto custariam 3 na loja B."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A festa custaria R$ 160, mas o orçamento é R$ 150. Qual é a melhor saída?",
+            "alternativas": [
+              "Passar R$ 10 no cartão de alguém",
+              "Pegar o dinheiro da passagem",
+              "Cortar ou trocar um item extra para caber nos R$ 150",
+              "Cancelar o bolo e manter os balões"
+            ],
+            "correta": 2,
+            "explicacao": "Corta-se primeiro o que é extra.",
+            "dica": "O que é essencial e o que é extra?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Projeto quiz (parte 1): planejar perguntas, pontos e regras",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Hoje começa um projeto em duas partes: um quiz que pergunta, confere a resposta e conta pontos. Antes de programar, todo bom programador planeja.",
+          "O plano do nosso \"Quiz da Turma\" tem 5 perguntas, cada uma com uma resposta certa: 1) Qual é a capital do Brasil? (Brasília) 2) Quanto é 7 × 8? (56) 3) Em que planeta vivemos? (Terra) 4) Quantos lados tem um triângulo? (3) 5) Azul misturado com amarelo dá que cor? (verde).",
+          "As variáveis são: pontos, que começa em 0, e resposta, que guarda o que o jogador digitou. As regras: acertou, ganha 10 pontos; errou, não perde nada e vê a resposta certa.",
+          "No fim, uma mensagem conforme os pontos: 50 pontos, \"Gabaritou!\"; 30 ou mais, \"Mandou bem!\"; menos de 30, \"Bora treinar!\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva em pseudocódigo a primeira pergunta.",
+            "resolucao": "pontos = 0\nresposta = perguntar(\"Qual é a capital do Brasil?\")\nse resposta == \"Brasília\": pontos = pontos + 10; mostrar(\"Acertou!\")\nsenão: mostrar(\"Errou! A certa é Brasília.\")"
+          },
+          {
+            "enunciado": "Quantos pontos tem quem acerta 3 perguntas?",
+            "resolucao": "3 × 10 = 30 pontos. A mensagem final será \"Mandou bem!\", porque 30 é \"30 ou mais\"."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O fluxograma do quiz: Início → pontos = 0 → faz a pergunta → a resposta é certa? Sim: soma 10. Não: mostra a certa → tem mais pergunta? Sim: volta para a próxima. Não: mostra os pontos e a mensagem → Fim.",
+        "A ordem das condições da mensagem final importa. É preciso testar primeiro se pontos == 50, depois se pontos >= 30. Se testar \"30 ou mais\" primeiro, quem fez 50 também cairia ali e nunca veria \"Gabaritou!\".",
+        "Na parte 2, vamos guardar as perguntas e respostas em listas, usar um laço para não repetir código e testar o programa para achar e corrigir os bugs."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazemos antes de programar o quiz?",
+            "alternativas": [
+              "Desligamos o computador",
+              "Apagamos tudo",
+              "Nada, só começamos",
+              "Planejamos perguntas, pontos e regras"
+            ],
+            "correta": 3,
+            "explicacao": "Planejar evita confusão.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com quantos pontos a variável pontos começa?",
+            "alternativas": [
+              "10",
+              "50",
+              "5",
+              "0"
+            ],
+            "correta": 3,
+            "explicacao": "Antes do jogo, ninguém tem ponto.",
+            "dica": "Ninguém respondeu nada ainda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale cada acerto no Quiz da Turma?",
+            "alternativas": [
+              "10 pontos",
+              "1 ponto",
+              "5 pontos",
+              "50 pontos"
+            ],
+            "correta": 0,
+            "explicacao": "Acertou, ganha 10.",
+            "dica": "Releia as regras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas perguntas tem o Quiz da Turma?",
+            "alternativas": [
+              "3",
+              "5",
+              "10",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "São 5 perguntas.",
+            "dica": "Conte as perguntas do plano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a resposta certa da pergunta 2 (7 × 8)?",
+            "alternativas": [
+              "54",
+              "48",
+              "56",
+              "64"
+            ],
+            "correta": 2,
+            "explicacao": "7 × 8 = 56.",
+            "dica": "Use a tabuada do 7."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem acerta 3 perguntas faz quantos pontos?",
+            "alternativas": [
+              "3",
+              "13",
+              "30",
+              "50"
+            ],
+            "correta": 2,
+            "explicacao": "3 × 10 = 30.",
+            "dica": "Multiplique os acertos por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o máximo de pontos do quiz?",
+            "alternativas": [
+              "10",
+              "100",
+              "5",
+              "50"
+            ],
+            "correta": 3,
+            "explicacao": "5 perguntas × 10 = 50.",
+            "dica": "Acertar tudo dá quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 30 pontos, qual mensagem aparece?",
+            "alternativas": [
+              "Mandou bem!",
+              "Gabaritou!",
+              "Bora treinar!",
+              "Nenhuma"
+            ],
+            "correta": 0,
+            "explicacao": "30 está em \"30 ou mais\".",
+            "dica": "30 entra em \"30 ou mais\"?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece quando o jogador erra?",
+            "alternativas": [
+              "Perde 10 pontos",
+              "Não perde pontos e vê a resposta certa",
+              "O jogo fecha",
+              "Ganha 5 pontos"
+            ],
+            "correta": 1,
+            "explicacao": "A regra é não descontar.",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o fluxograma de uma pergunta:",
+            "itens": [
+              "Fazer a pergunta",
+              "Ler a resposta do jogador",
+              "Comparar com a resposta certa",
+              "Somar 10 ou mostrar a certa"
+            ],
+            "explicacao": "Pergunta, resposta, comparação, ação.",
+            "dica": "Primeiro alguém precisa perguntar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 20 pontos, qual mensagem aparece?",
+            "alternativas": [
+              "Mandou bem!",
+              "Bora treinar!",
+              "Gabaritou!",
+              "Nenhuma"
+            ],
+            "correta": 1,
+            "explicacao": "20 é menos de 30.",
+            "dica": "20 chega a 30?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que testar primeiro \"pontos == 50\" e só depois \"pontos >= 30\"?",
+            "alternativas": [
+              "Porque 50 também é maior que 30 e cairia na mensagem errada",
+              "Porque 50 é menor que 30",
+              "Tanto faz a ordem",
+              "Porque o computador só lê números pares"
+            ],
+            "correta": 0,
+            "explicacao": "A condição mais específica vem antes.",
+            "dica": "Releia o segundo parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na pergunta \"se resposta == 'Brasília'\", o que o sinal == faz?",
+            "alternativas": [
+              "Guarda Brasília na resposta",
+              "Soma as duas palavras",
+              "Apaga a resposta",
+              "Compara se a resposta é igual a Brasília"
+            ],
+            "correta": 3,
+            "explicacao": "== compara; = guarda.",
+            "dica": "Um sinal guarda, dois sinais comparam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a regra mudasse para \"erro tira 5 pontos\", quem acerta 3 e erra 2 faria quantos pontos?",
+            "alternativas": [
+              "20",
+              "30",
+              "40",
+              "25"
+            ],
+            "correta": 0,
+            "explicacao": "3 × 10 = 30; 2 × 5 = 10; 30 − 10 = 20.",
+            "dica": "Calcule ganhos e perdas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as variáveis do quiz?",
+            "alternativas": [
+              "Brasil e Terra",
+              "início e fim",
+              "pontos e resposta",
+              "azul e amarelo"
+            ],
+            "correta": 2,
+            "explicacao": "pontos conta e resposta guarda o que foi digitado.",
+            "dica": "O que muda durante o jogo?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém escreveu a mensagem final assim: se pontos >= 30: \"Mandou bem!\"; senão se pontos == 50: \"Gabaritou!\". Quem fizer 50 vê:",
+            "alternativas": [
+              "Gabaritou!",
+              "Mandou bem!",
+              "Bora treinar!",
+              "As duas mensagens"
+            ],
+            "correta": 1,
+            "explicacao": "50 já entra no primeiro se e o resto é pulado.",
+            "dica": "Siga as condições na ordem escrita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o quiz ter 8 perguntas com 10 pontos cada, qual deveria ser o \"Gabaritou!\"?",
+            "alternativas": [
+              "pontos == 50",
+              "pontos == 80",
+              "pontos >= 8",
+              "pontos == 100"
+            ],
+            "correta": 1,
+            "explicacao": "8 × 10 = 80.",
+            "dica": "Recalcule o máximo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se pontos = 0 ficasse dentro da parte que se repete a cada pergunta, o que aconteceria?",
+            "alternativas": [
+              "Os pontos zerariam a cada pergunta, e no fim valeria no máximo 10",
+              "Os pontos dobrariam",
+              "Nada mudaria",
+              "O quiz teria 10 perguntas"
+            ],
+            "correta": 0,
+            "explicacao": "Zerar a cada volta apaga o que foi somado.",
+            "dica": "Faça o teste de mesa com duas perguntas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com bônus de 5 pontos por acertar as 3 primeiras seguidas, quem acertou as perguntas 1, 2, 3 e 5 faz quantos pontos?",
+            "alternativas": [
+              "40",
+              "50",
+              "35",
+              "45"
+            ],
+            "correta": 3,
+            "explicacao": "4 acertos × 10 = 40, mais 5 de bônus = 45.",
+            "dica": "Some os acertos e depois o bônus."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um jogador digita \"brasília\" (com b minúsculo) e o programa compara com \"Brasília\". O que pode acontecer?",
+            "alternativas": [
+              "Sempre dá certo",
+              "O programa soma 20 pontos",
+              "O programa pode dar como errada, porque as letras não são iguais",
+              "O computador corrige sozinho"
+            ],
+            "correta": 2,
+            "explicacao": "Para o computador, b e B são diferentes. Vamos corrigir isso na parte 2.",
+            "dica": "Para o computador, maiúscula e minúscula são iguais?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Vírgula em listas e no vocativo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Numa lista de palavras, a vírgula separa os itens: \"Comprei bolo, salgado, suco e balões.\" Antes do e que liga os dois últimos itens, normalmente não se usa vírgula.",
+          "Vocativo é o nome ou a palavra que usamos para chamar alguém: \"Ana, venha aqui!\". O vocativo sempre fica separado por vírgula do resto da frase.",
+          "Se o vocativo está no começo, a vírgula vem depois dele (\"Pedro, feche a porta.\"). No fim, a vírgula vem antes (\"Feche a porta, Pedro.\"). No meio, fica entre vírgulas (\"Olha, Pedro, que bonito!\").",
+          "A vírgula também ajuda a respirar na leitura e deixa claro quem está sendo chamado."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Pontue: \"Mãe posso ir à festa\"",
+            "resolucao": "\"Mãe, posso ir à festa?\" Mãe é vocativo e fica separado por vírgula; é pergunta, então termina com ponto de interrogação."
+          },
+          {
+            "enunciado": "Pontue a lista: \"Na festa teve bolo brigadeiro pipoca e suco\"",
+            "resolucao": "\"Na festa teve bolo, brigadeiro, pipoca e suco.\" Sem vírgula antes do e."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A falta da vírgula muda o sentido: \"Vamos comer, crianças!\" é um convite às crianças; \"Vamos comer crianças!\" vira uma frase absurda. A vírgula salva vidas!",
+        "Não se coloca vírgula entre o sujeito e o verbo: \"A festa da Ana, foi ótima\" está errado. O certo é \"A festa da Ana foi ótima.\"",
+        "Listas também podem ser de ações: \"Ela acordou, tomou café, arrumou a mochila e saiu.\""
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa lista, a vírgula serve para:",
+            "alternativas": [
+              "separar os itens",
+              "terminar a frase",
+              "fazer pergunta",
+              "mostrar emoção"
+            ],
+            "correta": 0,
+            "explicacao": "A vírgula separa cada item.",
+            "dica": "Pense numa lista de compras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é vocativo?",
+            "alternativas": [
+              "Um tipo de verbo",
+              "O fim da frase",
+              "Uma palavra em inglês",
+              "A palavra usada para chamar alguém"
+            ],
+            "correta": 3,
+            "explicacao": "Vocativo chama.",
+            "dica": "Lembre de \"Ana, venha aqui!\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está pontuada corretamente?",
+            "alternativas": [
+              "Pedro feche, a porta.",
+              "Pedro feche a porta,",
+              ",Pedro feche a porta.",
+              "Pedro, feche a porta."
+            ],
+            "correta": 3,
+            "explicacao": "O vocativo Pedro fica separado.",
+            "dica": "Quem está sendo chamado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes do e no fim de uma lista simples, normalmente:",
+            "alternativas": [
+              "sempre se usa vírgula",
+              "se usa ponto final",
+              "não se usa vírgula",
+              "se usa dois-pontos"
+            ],
+            "correta": 2,
+            "explicacao": "Bolo, suco e balões: sem vírgula antes do e.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Feche a porta, Pedro.\", qual é o vocativo?",
+            "alternativas": [
+              "Feche",
+              "Pedro",
+              "a porta",
+              "porta"
+            ],
+            "correta": 1,
+            "explicacao": "Pedro está sendo chamado.",
+            "dica": "Quem recebe a ordem?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lista está certa?",
+            "alternativas": [
+              "Comprei bolo, salgado, suco e balões.",
+              "Comprei bolo salgado suco e balões.",
+              "Comprei, bolo, salgado, suco, e, balões.",
+              "Comprei bolo, salgado suco, e balões."
+            ],
+            "correta": 0,
+            "explicacao": "Vírgula entre os itens, sem vírgula antes do e.",
+            "dica": "Confira cada vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pontue: \"Mãe posso ir à festa\"",
+            "alternativas": [
+              "Mãe posso, ir à festa?",
+              "Mãe, posso ir à festa?",
+              "Mãe posso ir à festa.",
+              "Mãe, posso, ir, à festa?"
+            ],
+            "correta": 1,
+            "explicacao": "Vocativo com vírgula e pergunta com ponto de interrogação.",
+            "dica": "Quem é chamado e qual é o tipo da frase?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Olha, Pedro, que bonito!\", o vocativo está:",
+            "alternativas": [
+              "no começo",
+              "no fim",
+              "no meio, entre vírgulas",
+              "fora da frase"
+            ],
+            "correta": 2,
+            "explicacao": "No meio, vai entre duas vírgulas.",
+            "dica": "Onde está Pedro na frase?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem vocativo?",
+            "alternativas": [
+              "A professora foi ao banheiro.",
+              "Fui ao banheiro.",
+              "O banheiro está limpo.",
+              "Professora, posso ir ao banheiro?"
+            ],
+            "correta": 3,
+            "explicacao": "Professora está sendo chamada.",
+            "dica": "Em qual frase alguém é chamado?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as palavras para formar a frase com vocativo no fim:",
+            "itens": [
+              "Venha",
+              "jantar,",
+              "vovô."
+            ],
+            "explicacao": "Venha jantar, vovô.",
+            "dica": "O vocativo fica no fim, depois da vírgula."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro de vírgula?",
+            "alternativas": [
+              "A festa da Ana foi ótima.",
+              "Ana, a festa foi ótima!",
+              "A festa da Ana, foi ótima.",
+              "Na festa teve bolo, pipoca e suco."
+            ],
+            "correta": 2,
+            "explicacao": "Não se separa o sujeito do verbo.",
+            "dica": "Procure vírgula entre sujeito e verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Vamos comer, crianças!\" e \"Vamos comer crianças!\". O que a vírgula muda?",
+            "alternativas": [
+              "Nada, é igual",
+              "Só a entonação",
+              "Na primeira, as crianças são chamadas; na segunda, viram a comida",
+              "A segunda está mais correta"
+            ],
+            "correta": 2,
+            "explicacao": "A vírgula marca o vocativo.",
+            "dica": "Quem está sendo chamado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pontue: \"Ela acordou tomou café arrumou a mochila e saiu\"",
+            "alternativas": [
+              "Ela acordou tomou café, arrumou a mochila, e saiu.",
+              "Ela, acordou, tomou, café, arrumou, a mochila e saiu.",
+              "Ela acordou, tomou café arrumou a mochila e, saiu.",
+              "Ela acordou, tomou café, arrumou a mochila e saiu."
+            ],
+            "correta": 3,
+            "explicacao": "Lista de ações: vírgula entre elas, sem vírgula antes do e.",
+            "dica": "Separe cada ação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vírgulas tem a frase correta \"Lucas, traga pratos, copos e guardanapos.\"?",
+            "alternativas": [
+              "2",
+              "1",
+              "3",
+              "4"
+            ],
+            "correta": 0,
+            "explicacao": "Uma do vocativo e uma na lista.",
+            "dica": "Conte a do vocativo e as da lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Meus amigos, a festa começou!\", meus amigos é:",
+            "alternativas": [
+              "sujeito",
+              "vocativo",
+              "verbo",
+              "lista"
+            ],
+            "correta": 1,
+            "explicacao": "Está chamando os amigos.",
+            "dica": "Os amigos começaram a festa ou estão sendo chamados?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Compare: \"Ana, minha prima chegou.\" e \"Ana, minha prima, chegou.\". O que muda?",
+            "alternativas": [
+              "Nada muda",
+              "Na 1ª, Ana é chamada e quem chegou foi a prima; na 2ª, a própria Ana, que é a prima, chegou",
+              "As duas chamam Ana",
+              "Na 2ª, ninguém chegou"
+            ],
+            "correta": 1,
+            "explicacao": "A segunda vírgula transforma \"minha prima\" numa explicação sobre Ana.",
+            "dica": "Quem chegou em cada frase?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está toda correta?",
+            "alternativas": [
+              "Juca traga pão, queijo, e manteiga por favor.",
+              "Juca, traga, pão queijo e manteiga por favor.",
+              "Juca traga pão queijo e manteiga, por favor.",
+              "Juca, traga pão, queijo e manteiga, por favor."
+            ],
+            "correta": 3,
+            "explicacao": "Vocativo separado, lista com vírgulas e \"por favor\" separado.",
+            "dica": "Confira o vocativo e a lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na frase \"Pai mãe vó venham ver o bolo\", quantas vírgulas são necessárias?",
+            "alternativas": [
+              "2",
+              "1",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "Pai, mãe, vó, venham ver o bolo: três vírgulas.",
+            "dica": "Os três chamados formam uma lista de vocativos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase NÃO tem vocativo?",
+            "alternativas": [
+              "Gente, olha isso!",
+              "Gente boa ajuda os outros.",
+              "Obrigada, gente.",
+              "Olha, gente, que lindo!"
+            ],
+            "correta": 1,
+            "explicacao": "Na primeira, gente boa é o sujeito.",
+            "dica": "Em qual delas ninguém é chamado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na frase \"Professor o Caio a Lia e eu terminamos\", onde ficam as vírgulas?",
+            "alternativas": [
+              "Professor, o Caio, a Lia e eu terminamos.",
+              "Professor o Caio, a Lia, e eu, terminamos.",
+              "Professor, o Caio a Lia, e eu terminamos.",
+              "Professor o Caio a Lia e eu, terminamos."
+            ],
+            "correta": 0,
+            "explicacao": "Vocativo com vírgula e lista sem vírgula antes do e.",
+            "dica": "Separe o chamado e depois a lista."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A festa de R$ 150 da Ana",
+    "texto": "O irmão da Ana, o Gui, ia fazer oito anos. A mãe entregou a ela um envelope com 150 reais e um desafio:\n\n— Você organiza a festa. Só não pode passar disso.\n\nAna fez a lista no caderno. Bolo, salgados, suco, decoração. Pesquisou na padaria e no mercado. O bolo pronto custava 70 reais, mas a vó se ofereceu para fazer um de chocolate se Ana comprasse os ingredientes: 25 reais.\n\nO cento de salgados saía mais barato que os pacotes pequenos. Ela comprou um cento por 50 reais. O suco em pó rendeu mais que o de caixinha: 20 reais.\n\nBalões metalizados? Caros demais. Ana recortou estrelas de papel colorido com os primos, gastou 15 reais em balões comuns e ainda guardou 40 reais.\n\n— E esse resto? — perguntou a mãe.\n\n— Reserva para imprevistos — disse Ana.\n\nO Gui assoprou as velas sem saber de nada disso. Só achou a festa perfeita."
+  },
+  "escrita": {
+    "proposta": "Planeje em 6 a 8 linhas uma festa com R$ 100. Liste o que compraria e quanto gastaria em cada item, some tudo e mostre que não passou do orçamento. Separe também um valor de reserva e use vírgulas corretamente na lista dos itens."
+  }
+}

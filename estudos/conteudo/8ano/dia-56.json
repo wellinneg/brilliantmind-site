@@ -1,0 +1,1204 @@
+{
+  "dia": 56,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Gráficos: qual escolher para cada tipo de dado",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Cada tipo de gráfico responde melhor a um tipo de pergunta. Escolher o gráfico certo é tão importante quanto fazer as contas certas.",
+          "Gráfico de colunas ou de barras: compara quantidades entre categorias. Exemplo: quantos alunos preferem cada esporte. As barras devem começar no zero para que o tamanho seja honesto.",
+          "Gráfico de linha: mostra como algo muda ao longo do tempo. Exemplo: a temperatura de cada dia da semana ou o preço do feijão mês a mês. A inclinação da linha mostra se subiu ou desceu.",
+          "Gráfico de setores (pizza): mostra as partes de um todo, que somam 100%. Exemplo: como a turma vai à escola (a pé, ônibus, carro). Funciona com poucas categorias.",
+          "Pictograma usa figuras (cada boneco vale 10 pessoas, por exemplo) e histograma usa barras coladas para faixas de valores, como alturas de 140 a 150 cm, de 150 a 160 cm. Sempre leia o título, a legenda e a escala antes de tirar conclusões."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Que gráfico usar para mostrar a quantidade de chuva em cada mês do ano?",
+            "resolucao": "Linha (ou colunas por mês): é uma grandeza que muda ao longo do tempo. A linha mostra bem a tendência de subida e descida."
+          },
+          {
+            "enunciado": "Num pictograma, cada figura de livro vale 20 livros lidos. A turma A tem 3 figuras e meia. Quantos livros leu?",
+            "resolucao": "3,5 × 20 = 70 livros."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Gráficos podem enganar. Truques comuns: começar o eixo vertical acima do zero (diferenças pequenas parecem enormes), usar escalas diferentes em dois gráficos que se comparam, desenhar figuras em 3D que distorcem as fatias e esconder parte do período.",
+        "Num gráfico de barras com eixo começando em 90, valores de 92 e 98 aparecem com alturas 2 e 8: parece quatro vezes maior, mas o aumento real é de 6 em 92, cerca de 6,5%.",
+        "Duas variáveis juntas pedem o gráfico de dispersão (pontos): horas de estudo no eixo horizontal e nota no vertical. Se os pontos sobem juntos, há relação, o que não prova que uma coisa causa a outra."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual gráfico mostra melhor a mudança ao longo do tempo?",
+            "alternativas": [
+              "Setores",
+              "Pictograma de pessoas",
+              "Nenhum",
+              "Linha"
+            ],
+            "correta": 3,
+            "explicacao": "A linha liga os valores no tempo.",
+            "dica": "Pense em uma trilha que sobe e desce."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual gráfico mostra as partes de um todo?",
+            "alternativas": [
+              "Histograma",
+              "Linha",
+              "Setores (pizza)",
+              "Dispersão"
+            ],
+            "correta": 2,
+            "explicacao": "As fatias somam 100%.",
+            "dica": "Pense em fatias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual gráfico compara a preferência por esportes na turma?",
+            "alternativas": [
+              "Nenhum",
+              "Mapa",
+              "Colunas",
+              "Linha"
+            ],
+            "correta": 2,
+            "explicacao": "Colunas comparam categorias.",
+            "dica": "Categorias lado a lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num pictograma, cada figura vale 10 pessoas. Quantas pessoas há em 4 figuras?",
+            "alternativas": [
+              "40",
+              "14",
+              "4",
+              "400"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 10 = 40.",
+            "dica": "Multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que você deve ler antes de interpretar um gráfico?",
+            "alternativas": [
+              "Título, legenda e escala",
+              "Só as cores",
+              "Nada",
+              "Só o tamanho do papel"
+            ],
+            "correta": 0,
+            "explicacao": "Sem isso, a leitura pode sair errada.",
+            "dica": "As informações em volta do desenho."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Que gráfico usar para mostrar a temperatura de segunda a domingo?",
+            "alternativas": [
+              "Pictograma",
+              "Nenhum",
+              "Linha",
+              "Setores"
+            ],
+            "correta": 2,
+            "explicacao": "É variação no tempo.",
+            "dica": "Os dias seguem em sequência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num pictograma, cada figura vale 20 livros. Quantos livros há em 3 figuras e meia?",
+            "alternativas": [
+              "35",
+              "70",
+              "60",
+              "23,5"
+            ],
+            "correta": 1,
+            "explicacao": "3,5 × 20 = 70.",
+            "dica": "Meia figura vale metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que as barras devem começar no zero?",
+            "alternativas": [
+              "Para que o tamanho das barras seja proporcional ao valor",
+              "Para ficar mais colorido",
+              "Porque o Excel obriga",
+              "Para economizar tinta"
+            ],
+            "correta": 0,
+            "explicacao": "Cortar o eixo exagera diferenças.",
+            "dica": "O olho compara alturas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que gráfico usar para mostrar como a turma vai à escola (a pé, ônibus, carro)?",
+            "alternativas": [
+              "Linha",
+              "Setores",
+              "Linha do tempo",
+              "Dispersão"
+            ],
+            "correta": 1,
+            "explicacao": "Partes de um todo: a turma inteira.",
+            "dica": "A turma toda é o todo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que gráfico agrupa alturas em faixas (140 a 150 cm, 150 a 160 cm)?",
+            "alternativas": [
+              "Setores",
+              "Histograma",
+              "Pictograma",
+              "Linha"
+            ],
+            "correta": 1,
+            "explicacao": "Barras coladas para faixas de valores.",
+            "dica": "Barras coladas umas nas outras."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um gráfico de barras com eixo começando em 90 mostra 92 e 98. A segunda barra parece quantas vezes maior?",
+            "alternativas": [
+              "4 vezes",
+              "98 vezes",
+              "1 vez",
+              "6,5 vezes"
+            ],
+            "correta": 0,
+            "explicacao": "Alturas visíveis: 2 e 8; 8 ÷ 2 = 4.",
+            "dica": "Meça a partir do 90."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo caso, qual foi o aumento real de 92 para 98?",
+            "alternativas": [
+              "6%",
+              "400%",
+              "98%",
+              "Cerca de 6,5%"
+            ],
+            "correta": 3,
+            "explicacao": "6 ÷ 92 ≈ 0,065.",
+            "dica": "Divida o aumento pelo valor inicial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que gráfico mostra a relação entre horas de estudo e nota de cada aluno?",
+            "alternativas": [
+              "Setores",
+              "Histograma de uma variável só",
+              "Dispersão",
+              "Pictograma"
+            ],
+            "correta": 2,
+            "explicacao": "Cada aluno vira um ponto com duas medidas.",
+            "dica": "Duas medidas por aluno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa pizza, 25% dos alunos vão de ônibus. Que ângulo tem essa fatia?",
+            "alternativas": [
+              "45°",
+              "25°",
+              "90°",
+              "180°"
+            ],
+            "correta": 2,
+            "explicacao": "0,25 × 360° = 90°.",
+            "dica": "O círculo tem 360°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pizza mostra 40%, 35% e 30%. O que está errado?",
+            "alternativas": [
+              "A soma passa de 100%",
+              "Deveria ter linha",
+              "Faltam cores",
+              "Nada"
+            ],
+            "correta": 0,
+            "explicacao": "40 + 35 + 30 = 105%.",
+            "dica": "Some as fatias."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas escolas mostram gráficos de notas lado a lado, um com eixo de 0 a 10 e outro de 5 a 7. Qual é o problema?",
+            "alternativas": [
+              "Nenhum",
+              "As cores são iguais",
+              "Faltam títulos em inglês",
+              "Escalas diferentes impedem a comparação justa"
+            ],
+            "correta": 3,
+            "explicacao": "A mesma diferença parece maior na escala menor.",
+            "dica": "Compare as escalas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pontos de 'horas de estudo × nota' sobem juntos. O que se pode concluir?",
+            "alternativas": [
+              "As notas são inventadas",
+              "Uma coisa sempre causa a outra",
+              "Há relação, mas isso sozinho não prova que uma coisa causa a outra",
+              "Estudar não ajuda"
+            ],
+            "correta": 2,
+            "explicacao": "Relação não é prova de causa.",
+            "dica": "Relação não é o mesmo que causa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um gráfico de linha mostra o preço do feijão só de setembro a outubro, quando subiu. Que truque pode haver?",
+            "alternativas": [
+              "Usar números",
+              "Colocar título",
+              "Usar a cor errada",
+              "Esconder o resto do período, em que o preço caiu"
+            ],
+            "correta": 3,
+            "explicacao": "Recortar o período muda a história.",
+            "dica": "O que ficou de fora?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num pictograma, cada bicicleta vale 8 alunos. A turma tem 36 ciclistas. Quantas figuras desenhar?",
+            "alternativas": [
+              "5 figuras",
+              "4 figuras",
+              "36 figuras",
+              "4 figuras e meia"
+            ],
+            "correta": 3,
+            "explicacao": "36 ÷ 8 = 4,5.",
+            "dica": "Divida pelo valor de cada figura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pizza em 3D inclinada mostra duas fatias de 30%. A da frente parece maior. Por quê?",
+            "alternativas": [
+              "Ela é maior mesmo",
+              "O Excel errou a conta",
+              "A legenda mudou",
+              "A perspectiva 3D distorce o tamanho aparente"
+            ],
+            "correta": 3,
+            "explicacao": "O efeito 3D engana o olho.",
+            "dica": "Pense na perspectiva."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Comprar algo grande: juntar ou parcelar?",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para comprar algo caro, como um celular, uma bicicleta ou uma geladeira, há dois caminhos: juntar o dinheiro antes e comprar à vista, ou comprar agora e pagar em parcelas.",
+          "Parcelar com juros encarece. Um celular de R$ 1.200 à vista pode sair por 12 × R$ 120 = R$ 1.440. São R$ 240 a mais, ou 20% sobre o preço.",
+          "Juntar dá tempo para pensar e costuma garantir desconto. Guardando R$ 150 por mês, em 8 meses você tem R$ 1.200. E muitas lojas dão desconto no pagamento à vista, por Pix ou dinheiro.",
+          "Mesmo o 'parcelado sem juros' merece atenção: se à vista há 10% de desconto, o parcelado está, na prática, mais caro. Compare sempre o total pago.",
+          "Parcelar pode fazer sentido quando a compra é necessária e urgente (a geladeira quebrou) e a parcela cabe com folga no orçamento. Cuidado para não somar muitas parcelas: elas comem o salário dos meses seguintes."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Bicicleta: R$ 900 à vista ou 10 × R$ 105. Quanto se paga a mais parcelando?",
+            "resolucao": "10 × 105 = R$ 1.050. A diferença é 1.050 − 900 = R$ 150, ou 150 ÷ 900 ≈ 16,7% a mais."
+          },
+          {
+            "enunciado": "Fone: R$ 200 em 4 × R$ 50 sem juros, ou R$ 180 à vista no Pix. Qual compensa?",
+            "resolucao": "À vista: economiza R$ 20 (10%). O 'sem juros' esconde que o desconto se perde."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Juntar dinheiro numa aplicação que rende, como a poupança ou o Tesouro Direto, faz o dinheiro crescer um pouco enquanto você espera. Já a parcela com juros faz o contrário: você paga a mais pelo tempo.",
+        "Uma regra prática usada por muitos educadores financeiros: a soma das parcelas de todas as compras não deve passar de cerca de 30% da renda. Com renda de R$ 2.000, o limite seria R$ 600 por mês em parcelas.",
+        "Pergunte antes de comprar: eu preciso disso agora? Vou usar por quanto tempo? Quanto vai valer daqui a um ano? Celulares, por exemplo, perdem valor rápido, e parcelas longas podem durar mais que a vontade de usar o aparelho."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Comprar à vista significa:",
+            "alternativas": [
+              "Não pagar",
+              "Pagar em 12 vezes",
+              "Pagar só a entrada",
+              "Pagar tudo de uma vez"
+            ],
+            "correta": 3,
+            "explicacao": "À vista é o valor total no ato.",
+            "dica": "Pagamento único."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Celular: R$ 1.200 à vista ou 12 × R$ 120. Quanto custa parcelado?",
+            "alternativas": [
+              "R$ 1.440",
+              "R$ 1.320",
+              "R$ 1.200",
+              "R$ 120"
+            ],
+            "correta": 0,
+            "explicacao": "12 × 120 = 1.440.",
+            "dica": "Multiplique parcelas pelo valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Guardando R$ 150 por mês, em quanto tempo se junta R$ 1.200?",
+            "alternativas": [
+              "6 meses",
+              "8 meses",
+              "10 meses",
+              "12 meses"
+            ],
+            "correta": 1,
+            "explicacao": "1.200 ÷ 150 = 8.",
+            "dica": "Divida o total pelo valor mensal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Parcelar com juros faz a compra ficar:",
+            "alternativas": [
+              "Igual",
+              "Mais cara",
+              "De graça",
+              "Mais barata"
+            ],
+            "correta": 1,
+            "explicacao": "Juros somam ao preço.",
+            "dica": "Juros são o preço do tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma vantagem de juntar antes de comprar?",
+            "alternativas": [
+              "Dá tempo de pensar e conseguir desconto",
+              "Não precisa planejar",
+              "Compra mais rápido",
+              "Paga juros"
+            ],
+            "correta": 0,
+            "explicacao": "Esperar evita compra por impulso.",
+            "dica": "Pense no desconto à vista."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Bicicleta: R$ 900 à vista ou 10 × R$ 105. Quanto se paga a mais?",
+            "alternativas": [
+              "R$ 50",
+              "R$ 1.050",
+              "R$ 150",
+              "R$ 105"
+            ],
+            "correta": 2,
+            "explicacao": "1.050 − 900 = 150.",
+            "dica": "Total parcelado menos à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No caso do celular (R$ 1.200 ou 12 × R$ 120), qual é o acréscimo em porcentagem?",
+            "alternativas": [
+              "10%",
+              "24%",
+              "20%",
+              "12%"
+            ],
+            "correta": 2,
+            "explicacao": "240 ÷ 1.200 = 0,2.",
+            "dica": "Divida a diferença pelo preço à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fone: 4 × R$ 50 sem juros ou R$ 180 à vista. Qual compensa?",
+            "alternativas": [
+              "Parcelado, porque é sem juros",
+              "Tanto faz",
+              "Nenhum",
+              "À vista, R$ 180"
+            ],
+            "correta": 3,
+            "explicacao": "À vista economiza R$ 20.",
+            "dica": "Compare os totais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando parcelar pode fazer sentido?",
+            "alternativas": [
+              "Para comprar o terceiro tênis do mês",
+              "Compra necessária e urgente, com parcela que cabe no orçamento",
+              "Quando a parcela é maior que a renda",
+              "Sempre que tiver vontade"
+            ],
+            "correta": 1,
+            "explicacao": "Necessidade e folga no orçamento.",
+            "dica": "Precisa mesmo e cabe no bolso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que somar muitas parcelas é perigoso?",
+            "alternativas": [
+              "Elas comprometem a renda dos meses seguintes",
+              "Porque as lojas fecham",
+              "Porque o preço cai",
+              "Porque parcela sempre é sem juros"
+            ],
+            "correta": 0,
+            "explicacao": "Cada parcela é uma conta fixa no futuro.",
+            "dica": "Pense nos próximos meses."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma geladeira custa R$ 2.000 à vista com 10% de desconto, ou 10 × R$ 200 sem juros. Quanto se economiza à vista?",
+            "alternativas": [
+              "R$ 200",
+              "Nada",
+              "R$ 100",
+              "R$ 20"
+            ],
+            "correta": 0,
+            "explicacao": "10% de 2.000 = 200; à vista sai R$ 1.800.",
+            "dica": "Calcule o desconto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com renda de R$ 2.000, qual é o limite de parcelas pela regra dos 30%?",
+            "alternativas": [
+              "R$ 200",
+              "R$ 300",
+              "R$ 600",
+              "R$ 1.000"
+            ],
+            "correta": 2,
+            "explicacao": "0,3 × 2.000 = 600.",
+            "dica": "30% da renda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana quer um notebook de R$ 2.400. Ela já tem R$ 600 e guarda R$ 300 por mês. Em quantos meses compra à vista?",
+            "alternativas": [
+              "9 meses",
+              "4 meses",
+              "8 meses",
+              "6 meses"
+            ],
+            "correta": 3,
+            "explicacao": "Faltam 1.800; 1.800 ÷ 300 = 6.",
+            "dica": "Desconte o que ela já tem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um tênis de R$ 300 parcelado em 6 × R$ 60. Quanto de juros?",
+            "alternativas": [
+              "R$ 360",
+              "R$ 60",
+              "R$ 6",
+              "R$ 30"
+            ],
+            "correta": 1,
+            "explicacao": "6 × 60 = 360; 360 − 300 = 60.",
+            "dica": "Total parcelado menos o preço."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem uma boa decisão de compra grande:",
+            "itens": [
+              "Perguntar se precisa mesmo",
+              "Pesquisar preços à vista e parcelado",
+              "Calcular quanto cabe no orçamento",
+              "Decidir entre juntar ou parcelar"
+            ],
+            "explicacao": "Necessidade, pesquisa, orçamento e decisão.",
+            "dica": "A decisão vem por último."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Celular: R$ 1.500 à vista ou 15 × R$ 120. Lucas tem renda de R$ 1.000 e já paga R$ 250 em outras parcelas. Pela regra dos 30%, ele deve parcelar?",
+            "alternativas": [
+              "Não importa a renda",
+              "Sim, porque é só R$ 120",
+              "Sim, cabe com folga",
+              "Não: com a nova parcela, iria a R$ 370, acima dos R$ 300"
+            ],
+            "correta": 3,
+            "explicacao": "30% de 1.000 = 300; 250 + 120 = 370.",
+            "dica": "Some as parcelas que ele já tem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo caso, quanto Lucas pagaria de juros no total?",
+            "alternativas": [
+              "R$ 1.800",
+              "R$ 300",
+              "R$ 120",
+              "R$ 150"
+            ],
+            "correta": 1,
+            "explicacao": "15 × 120 = 1.800; 1.800 − 1.500 = 300.",
+            "dica": "Total parcelado menos à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um celular de R$ 1.200 perde 30% do valor em um ano. Quem parcelou em 24 vezes, depois de 12 meses:",
+            "alternativas": [
+              "Tem um aparelho que vale mais",
+              "Terminou de pagar",
+              "Ainda paga parcelas de um aparelho que vale R$ 840",
+              "Não perdeu nada"
+            ],
+            "correta": 2,
+            "explicacao": "1.200 × 0,7 = 840, e ainda faltam 12 parcelas.",
+            "dica": "Calcule o valor depois de um ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Loja A: R$ 1.000 à vista. Loja B: 10 × R$ 95 sem juros. Qual é a melhor oferta?",
+            "alternativas": [
+              "As duas são iguais",
+              "Loja A",
+              "Loja B, que soma R$ 950",
+              "Nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "10 × 95 = 950, menos que 1.000. Às vezes o parcelado é mais barato: é preciso calcular.",
+            "dica": "Calcule o total da loja B."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que juntar numa aplicação é melhor do que deixar o dinheiro parado na gaveta enquanto espera?",
+            "alternativas": [
+              "Porque a gaveta cobra juros",
+              "Porque a aplicação dobra o dinheiro em um mês",
+              "Não há diferença",
+              "Porque o dinheiro rende um pouco e protege contra a inflação"
+            ],
+            "correta": 3,
+            "explicacao": "Parado, o dinheiro perde valor com a inflação.",
+            "dica": "Pense na inflação."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "JavaScript: um botão que responde",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "HTML monta a página, CSS dá a aparência e JavaScript dá o comportamento: faz a página reagir a cliques, contar pontos e mostrar mensagens. Com ele, o quiz ganha vida no navegador.",
+          "Primeiro, o botão e um lugar para a mensagem no HTML:\n<button id=\"botaoA\">56</button>\n<p id=\"mensagem\"></p>",
+          "Depois, o JavaScript pega o botão pelo id e diz o que fazer no clique:\nlet botao = document.getElementById('botaoA');\nbotao.addEventListener('click', function() {\n  document.getElementById('mensagem').textContent = 'Certo!';\n});",
+          "Entendendo: let cria uma variável; document.getElementById encontra o elemento pelo id; addEventListener('click', ...) fica 'escutando' o clique; textContent troca o texto do parágrafo.",
+          "O código JavaScript vai dentro de <script> ... </script>, normalmente no fim do HTML, para que os elementos já existam quando ele rodar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como contar quantas vezes o botão foi clicado?",
+            "resolucao": "let cliques = 0;\nbotao.addEventListener('click', function() {\n  cliques = cliques + 1;\n  document.getElementById('mensagem').textContent = 'Cliques: ' + cliques;\n});"
+          },
+          {
+            "enunciado": "No quiz, o botão errado deve mostrar 'Tente de novo'. O que muda?",
+            "resolucao": "Outro botão, com outro id (botaoB), e no clique dele: textContent = 'Tente de novo'."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para o placar do quiz: let pontos = 0; no clique da resposta certa, pontos = pontos + 10 e o placar mostra o novo valor. É a mesma lógica do Python, com outra escrita.",
+        "Diferenças de escrita entre Python e JavaScript: em JS os blocos ficam entre chaves { } e as linhas costumam terminar com ponto e vírgula; em Python, o bloco é marcado pela indentação. A lógica (variável, condição, repetição) é a mesma.",
+        "Para descobrir erros, use o Console do navegador (tecla F12, aba Console). Ali aparecem as mensagens de erro e o resultado de console.log(pontos), que mostra o valor de uma variável enquanto o programa roda."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o JavaScript numa página?",
+            "alternativas": [
+              "Para dar comportamento, como reagir a cliques",
+              "Para escolher só as cores",
+              "Para escrever o título",
+              "Para desligar o computador"
+            ],
+            "correta": 0,
+            "explicacao": "HTML estrutura, CSS enfeita, JS faz agir.",
+            "dica": "Pense em ação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra cria uma variável em JavaScript?",
+            "alternativas": [
+              "def",
+              "print",
+              "input",
+              "let"
+            ],
+            "correta": 3,
+            "explicacao": "let pontos = 0;",
+            "dica": "São três letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual evento acontece quando alguém clica no botão?",
+            "alternativas": [
+              "draw",
+              "sleep",
+              "click",
+              "open"
+            ],
+            "correta": 2,
+            "explicacao": "addEventListener('click', ...).",
+            "dica": "É a palavra inglesa para clique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica o código JavaScript no HTML?",
+            "alternativas": [
+              "Em lugar nenhum",
+              "Dentro de <script>",
+              "Dentro de <title>",
+              "Dentro de <h1>"
+            ],
+            "correta": 1,
+            "explicacao": "A tag script guarda o código.",
+            "dica": "É uma tag com nome de roteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz textContent?",
+            "alternativas": [
+              "Cria um botão",
+              "Muda a cor",
+              "Apaga a página",
+              "Troca o texto de um elemento"
+            ],
+            "correta": 3,
+            "explicacao": "Ele define o texto mostrado.",
+            "dica": "Content quer dizer conteúdo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como encontrar o botão com id=\"botaoA\"?",
+            "alternativas": [
+              "getbotao()",
+              "document.botao.A",
+              "find(botaoA)",
+              "document.getElementById('botaoA')"
+            ],
+            "correta": 3,
+            "explicacao": "getElementById busca pelo id.",
+            "dica": "Get element by id."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz addEventListener?",
+            "alternativas": [
+              "Fecha a página",
+              "Adiciona um botão novo",
+              "Fica esperando um evento, como o clique, para rodar uma função",
+              "Soma dois números"
+            ],
+            "correta": 2,
+            "explicacao": "Listener quer dizer ouvinte.",
+            "dica": "Listen quer dizer escutar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como somar 1 à variável cliques?",
+            "alternativas": [
+              "cliques == 1;",
+              "1 = cliques;",
+              "cliques + 1",
+              "cliques = cliques + 1;"
+            ],
+            "correta": 3,
+            "explicacao": "O valor antigo mais 1.",
+            "dica": "A variável recebe o valor antigo mais 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em JavaScript, os blocos de código ficam entre:",
+            "alternativas": [
+              "Chaves { }",
+              "Asteriscos",
+              "Aspas",
+              "Colchetes [ ]"
+            ],
+            "correta": 0,
+            "explicacao": "Em Python é indentação; em JS, chaves.",
+            "dica": "São sinais curvos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que colocar o <script> no fim do HTML?",
+            "alternativas": [
+              "Para que os elementos já existam quando o código rodar",
+              "Para o código ficar escondido",
+              "Porque é proibido no começo",
+              "Para ficar mais colorido"
+            ],
+            "correta": 0,
+            "explicacao": "O código precisa encontrar os elementos.",
+            "dica": "O botão precisa existir antes."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual código mostra 'Certo!' no parágrafo com id mensagem?",
+            "alternativas": [
+              "print('Certo!')",
+              "document.getElementById('mensagem').textContent = 'Certo!';",
+              "document.mensagem('Certo!')",
+              "mensagem = Certo!"
+            ],
+            "correta": 1,
+            "explicacao": "Achar pelo id e trocar o texto.",
+            "dica": "Encontre o elemento e troque o conteúdo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O placar começa com let pontos = 0; e o jogador acerta 3 vezes (10 cada). Qual é o valor final?",
+            "alternativas": [
+              "0",
+              "10",
+              "3",
+              "30"
+            ],
+            "correta": 3,
+            "explicacao": "3 × 10 = 30.",
+            "dica": "Cada acerto soma 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ver os erros do JavaScript no navegador?",
+            "alternativas": [
+              "Na Lixeira",
+              "No relógio do computador",
+              "No Bloco de Notas",
+              "No Console (F12)"
+            ],
+            "correta": 3,
+            "explicacao": "O Console mostra erros e console.log.",
+            "dica": "Ferramentas de desenvolvedor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz console.log(pontos)?",
+            "alternativas": [
+              "Apaga os pontos",
+              "Salva no disco",
+              "Mostra um alerta na tela",
+              "Mostra o valor de pontos no Console"
+            ],
+            "correta": 3,
+            "explicacao": "Serve para conferir valores enquanto o programa roda.",
+            "dica": "Log quer dizer registro."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem para criar um botão que responde:",
+            "itens": [
+              "Criar o botão no HTML com um id",
+              "Pegar o botão com getElementById",
+              "Adicionar o ouvinte de clique",
+              "Trocar o texto da mensagem na função"
+            ],
+            "explicacao": "HTML, seleção, evento e ação.",
+            "dica": "Primeiro o botão precisa existir."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O código let cliques = 0; está DENTRO da função do clique. O que acontece?",
+            "alternativas": [
+              "Conta de 2 em 2",
+              "Conta normalmente",
+              "O contador volta a zero a cada clique e mostra sempre 1",
+              "Dá erro de cor"
+            ],
+            "correta": 2,
+            "explicacao": "É o mesmo bug do Python: zerar dentro do laço.",
+            "dica": "Lembre do bug do quiz em Python."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre = e === em JavaScript?",
+            "alternativas": [
+              "=== guarda e = compara",
+              "= guarda um valor; === compara se é igual",
+              "São iguais",
+              "=== soma três vezes"
+            ],
+            "correta": 1,
+            "explicacao": "if (resposta === '56') compara.",
+            "dica": "Um sinal guarda, três comparam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O botão tem id=\"botaoA\", mas o código busca getElementById('BotaoA'). O que acontece?",
+            "alternativas": [
+              "Não encontra o botão, porque maiúsculas e minúsculas fazem diferença",
+              "Funciona igual",
+              "O navegador corrige",
+              "O botão muda de nome"
+            ],
+            "correta": 0,
+            "explicacao": "JavaScript diferencia maiúsculas de minúsculas.",
+            "dica": "Compare letra por letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação faz o quiz somar 10 pontos e mostrar o placar no clique da resposta certa?",
+            "alternativas": [
+              "pontos = pontos + 10; e placar.textContent = 'Pontos: ' + pontos;",
+              "pontos === pontos + 10;",
+              "pontos = 10; e placar = pontos;",
+              "print(pontos + 10)"
+            ],
+            "correta": 0,
+            "explicacao": "Soma e depois mostra.",
+            "dica": "Duas ações: somar e mostrar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em JS, 'Pontos: ' + 30 resulta em:",
+            "alternativas": [
+              "'Pontos: ' + 30, como erro",
+              "60",
+              "30",
+              "'Pontos: 30'"
+            ],
+            "correta": 3,
+            "explicacao": "Texto + número junta tudo como texto.",
+            "dica": "O sinal de mais com texto junta."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Inferência: ler nas entrelinhas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Inferir é descobrir uma informação que não está escrita com todas as letras, usando as pistas do texto e o que você já sabe. É o famoso 'ler nas entrelinhas'.",
+          "Pressuposto: informação que vem embutida nas palavras. 'Carla voltou a estudar' pressupõe que ela tinha parado. 'O ônibus atrasou de novo' pressupõe que já tinha atrasado antes.",
+          "Subentendido: mensagem que depende da situação. Se alguém diz 'Nossa, que calor aqui dentro!', pode estar pedindo, sem dizer, que abram a janela.",
+          "Para inferir bem, junte pistas: palavras escolhidas, ações dos personagens, imagens e contexto. Uma boa inferência sempre tem apoio no texto; não é adivinhação."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "'Pedro olhou o relógio pela décima vez, bateu o pé e suspirou.' O que dá para inferir?",
+            "resolucao": "Pedro está impaciente ou ansioso, esperando algo ou alguém. As pistas são o relógio, o pé e o suspiro."
+          },
+          {
+            "enunciado": "Que informação está pressuposta em 'Finalmente consertaram a quadra'?",
+            "resolucao": "A quadra estava quebrada e as pessoas esperavam o conserto havia tempo (a palavra finalmente indica a espera)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Ironia é dizer o contrário do que se pensa, esperando que o leitor perceba. 'Que maravilha, choveu bem no dia do passeio!' Para entender, é preciso inferir o tom pelo contexto.",
+        "Inferência em gráficos e propagandas: um anúncio que diz 'o mais vendido da região' não diz que é o melhor, nem quantos foram vendidos. Leitor crítico pergunta o que ficou de fora.",
+        "Cuidado com inferências sem base: concluir mais do que o texto permite. Se o texto diz que Joana chegou molhada, dá para inferir que pegou chuva ou se molhou, mas não que esqueceu o guarda-chuva de propósito."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é inferir?",
+            "alternativas": [
+              "Inventar sem base",
+              "Descobrir algo que não está escrito diretamente, usando pistas",
+              "Copiar o texto",
+              "Ler só o título"
+            ],
+            "correta": 1,
+            "explicacao": "Inferência usa pistas do texto.",
+            "dica": "Ler nas entrelinhas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Carla voltou a estudar.' O que se pressupõe?",
+            "alternativas": [
+              "Que ela nunca estudou",
+              "Que ela tinha parado de estudar",
+              "Que ela é professora",
+              "Que ela mudou de cidade"
+            ],
+            "correta": 1,
+            "explicacao": "Voltar indica que houve uma pausa.",
+            "dica": "Para voltar, é preciso ter parado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Que calor aqui dentro!' pode ser um pedido para:",
+            "alternativas": [
+              "Apagar a luz",
+              "Ligar o aquecedor",
+              "Abrir a janela",
+              "Fechar a porta com força"
+            ],
+            "correta": 2,
+            "explicacao": "O subentendido depende da situação.",
+            "dica": "O que alivia o calor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma boa inferência precisa de:",
+            "alternativas": [
+              "Adivinhação",
+              "Opinião sem motivo",
+              "Apoio no texto",
+              "Nenhuma pista"
+            ],
+            "correta": 2,
+            "explicacao": "Inferir não é chutar.",
+            "dica": "O que sustenta a conclusão?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Ele olhou o relógio e bateu o pé.' Ele provavelmente está:",
+            "alternativas": [
+              "Muito calmo",
+              "Comendo",
+              "Dormindo",
+              "Impaciente"
+            ],
+            "correta": 3,
+            "explicacao": "Pistas de pressa e espera.",
+            "dica": "Repare nas ações."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "'O ônibus atrasou de novo.' O que está pressuposto?",
+            "alternativas": [
+              "Que o ônibus é novo",
+              "Que é o primeiro dia",
+              "Que nunca atrasa",
+              "Que o ônibus já tinha atrasado antes"
+            ],
+            "correta": 3,
+            "explicacao": "De novo indica repetição.",
+            "dica": "Repare em 'de novo'."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Finalmente consertaram a quadra.' Que palavra mostra que houve espera?",
+            "alternativas": [
+              "A",
+              "Consertaram",
+              "Quadra",
+              "Finalmente"
+            ],
+            "correta": 3,
+            "explicacao": "Finalmente indica algo esperado havia tempo.",
+            "dica": "Um advérbio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Que maravilha, choveu bem no dia do passeio!' A frase é:",
+            "alternativas": [
+              "Irônica",
+              "Literal e alegre",
+              "Uma ordem",
+              "Uma pergunta"
+            ],
+            "correta": 0,
+            "explicacao": "Diz o contrário do que sente.",
+            "dica": "Alguém gosta de chuva no passeio?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana chegou molhada. Qual inferência tem apoio no texto?",
+            "alternativas": [
+              "Ela se molhou no caminho, talvez pela chuva",
+              "Ela mora longe",
+              "Ela pulou na piscina de propósito",
+              "Ela odeia guarda-chuva"
+            ],
+            "correta": 0,
+            "explicacao": "A pista é estar molhada.",
+            "dica": "Fique no que a pista mostra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um anúncio diz 'o mais vendido da região'. O que NÃO dá para concluir com certeza?",
+            "alternativas": [
+              "Que é o melhor produto",
+              "Que vendeu bem na região",
+              "Que é vendido na região",
+              "Que existe na região"
+            ],
+            "correta": 0,
+            "explicacao": "Mais vendido não é o mesmo que melhor.",
+            "dica": "Vender muito é o mesmo que ser bom?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "'Mesmo cansado, Rafael terminou o trabalho.' O que se infere?",
+            "alternativas": [
+              "Rafael estava descansado",
+              "Rafael se esforçou além do normal",
+              "Rafael não fez o trabalho",
+              "Rafael não gosta de trabalhar"
+            ],
+            "correta": 1,
+            "explicacao": "Mesmo cansado mostra esforço.",
+            "dica": "O que significa 'mesmo'?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'A loja diz que o preço baixou 50%, mas antes da promoção o preço tinha dobrado.' O que se infere?",
+            "alternativas": [
+              "O preço voltou ao que era antes",
+              "Ficou mais caro",
+              "É uma ótima promoção",
+              "Ficou pela metade do original"
+            ],
+            "correta": 0,
+            "explicacao": "Dobrar e depois tirar 50% volta ao início: 100 → 200 → 100.",
+            "dica": "Faça a conta com 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Ela abriu a geladeira vazia, olhou a carteira e suspirou.' O que dá para inferir?",
+            "alternativas": [
+              "Ela vai dar uma festa",
+              "Ela está sem comida e sem dinheiro, ou com pouco",
+              "Ela é rica",
+              "A geladeira está quebrada com certeza"
+            ],
+            "correta": 1,
+            "explicacao": "Pistas: geladeira vazia, carteira e suspiro.",
+            "dica": "Junte as três pistas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é uma inferência sem base no texto 'Luan faltou à prova'?",
+            "alternativas": [
+              "Luan não fez a prova naquele dia",
+              "Luan faltou porque não estudou",
+              "Luan precisará de outra oportunidade, se a escola permitir",
+              "Luan não estava na sala na hora da prova"
+            ],
+            "correta": 1,
+            "explicacao": "O texto não diz o motivo.",
+            "dica": "O motivo foi dito?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o caminho para fazer uma boa inferência:",
+            "itens": [
+              "Ler o texto com atenção",
+              "Marcar as pistas",
+              "Relacionar com o que você já sabe",
+              "Concluir com apoio nas pistas"
+            ],
+            "explicacao": "Leitura, pistas, conhecimento e conclusão.",
+            "dica": "Concluir é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um panfleto mostra um gráfico de vendas com o eixo começando em 90. O que o leitor crítico infere?",
+            "alternativas": [
+              "Que as vendas explodiram com certeza",
+              "Que as vendas caíram",
+              "Que o gráfico é perfeito",
+              "Que o gráfico pode estar exagerando o crescimento"
+            ],
+            "correta": 3,
+            "explicacao": "Eixo cortado aumenta diferenças.",
+            "dica": "Por que começar em 90?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Desta vez, o prefeito cumpriu a promessa.' Que pressuposto essa frase traz?",
+            "alternativas": [
+              "Que ele nunca prometeu",
+              "Que ele não é prefeito",
+              "Que ele sempre cumpre",
+              "Que em outras vezes ele não cumpriu"
+            ],
+            "correta": 3,
+            "explicacao": "Desta vez sugere que antes foi diferente.",
+            "dica": "Repare em 'desta vez'."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um amigo responde 'Legal...' com reticências, depois de você contar uma ideia. O que pode estar subentendido?",
+            "alternativas": [
+              "Que não leu",
+              "Que achou genial",
+              "Que ele não gostou muito ou tem dúvidas",
+              "Que vai copiar a ideia"
+            ],
+            "correta": 2,
+            "explicacao": "As reticências mudam o tom.",
+            "dica": "Repare na pontuação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto diz: 'A escola recebeu 30 computadores novos; 20 ainda estão nas caixas.' O que se pode inferir com segurança?",
+            "alternativas": [
+              "Todos estão funcionando",
+              "A diretora não gosta de tecnologia",
+              "Os computadores são ruins",
+              "Só 10 estão em uso, no máximo"
+            ],
+            "correta": 3,
+            "explicacao": "30 − 20 = 10 fora das caixas.",
+            "dica": "Faça a conta e não vá além dela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que inferência é importante para não cair em golpes?",
+            "alternativas": [
+              "Porque não há golpes por mensagem",
+              "Porque ajuda a perceber o que a mensagem esconde ou sugere sem dizer",
+              "Porque basta ler o título",
+              "Porque golpes sempre avisam que são golpes"
+            ],
+            "correta": 1,
+            "explicacao": "Golpistas usam subentendidos e pressa.",
+            "dica": "O que o golpista não diz?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O gráfico que exagerava",
+    "texto": "O panfleto chegou à escola dentro de uma caixa de doações. Na capa, uma loja de colchões do bairro anunciava: Nossas vendas explodiram! Logo abaixo, um gráfico de barras mostrava três meses. A barra de janeiro era baixinha; a de março, quatro vezes mais alta.\n\nA professora Vânia levou o panfleto para a aula de Matemática.\n\n— Quanto vocês acham que as vendas cresceram?\n\n— Quatro vezes! — respondeu o Davi, sem pensar.\n\n— Então vamos olhar os números de perto — disse ela.\n\nA turma se aproximou. No eixo vertical, a escala não começava no zero, mas no 90. Janeiro marcava 92 colchões vendidos; fevereiro, 95; março, 98. A Larissa fez a conta no caderno: de 92 para 98 eram só 6 colchões a mais.\n\n— Seis em noventa e dois... dá uns 6,5% — disse ela.\n\n— E por que a barra parece quatro vezes maior? — perguntou o Davi.\n\nA professora desenhou no quadro. Como o gráfico cortava tudo abaixo de 90, a barra de janeiro mostrava só 2 unidades de altura, e a de março, 8. O olho comparava 2 com 8 e concluía que era o quádruplo.\n\nA turma redesenhou o gráfico com o eixo começando no zero. As três barras ficaram quase iguais, subindo de leve. A explosão tinha virado um crescimento pequeno e honesto.\n\n— Não é mentira escrita — concluiu a Larissa. — É mentira desenhada.\n\nDesde então, a primeira coisa que aquela turma olha em qualquer gráfico é onde começa o eixo."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique o que o gráfico do panfleto escondia e por que ele enganava o leitor. Depois, descreva como ele deveria ter sido desenhado para ser honesto: onde o eixo deveria começar, qual título usar e como as barras ficariam."
+  }
+}

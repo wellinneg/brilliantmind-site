@@ -1,0 +1,1193 @@
+{
+  "dia": 56,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Princípio fundamental da contagem: quantas combinações existem?",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "O princípio fundamental da contagem (PFC) diz: se uma escolha pode ser feita de m jeitos e outra, depois, de n jeitos, as duas juntas podem ser feitas de m · n jeitos. Ou seja, nas escolhas em sequência, multiplicamos.",
+          "Exemplo: com 3 camisetas e 2 bermudas, dá para montar 3 · 2 = 6 combinações diferentes. Uma árvore de possibilidades mostra isso: cada camiseta abre 2 galhos.",
+          "Senhas: um cadeado de 3 dígitos, cada um de 0 a 9, tem 10 · 10 · 10 = 1.000 combinações (de 000 a 999). Com 4 dígitos, 10.000.",
+          "Quando não pode repetir, as opções diminuem a cada passo. Quantas filas diferentes dá para formar com 4 amigos? 4 · 3 · 2 · 1 = 24. Esse produto se chama fatorial: 4! = 24.",
+          "Anagramas são as palavras formadas trocando as letras de lugar. A palavra AMOR tem 4 letras diferentes, então tem 4! = 24 anagramas (AMOR, ROMA, MORA, RAMO e outros, com ou sem sentido)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma lanchonete oferece 3 lanches, 4 bebidas e 2 sobremesas. Quantos combos diferentes com um de cada?",
+            "resolucao": "3 · 4 · 2 = 24 combos."
+          },
+          {
+            "enunciado": "Quantas senhas de 4 dígitos existem sem repetir nenhum dígito?",
+            "resolucao": "1º dígito: 10 opções; 2º: 9; 3º: 8; 4º: 7. Total: 10 · 9 · 8 · 7 = 5.040."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Restrições primeiro: quantos números de 3 algarismos diferentes, usando 1, 2, 3, 4 e 5, são pares? Comece pelo último algarismo, que precisa ser 2 ou 4 (2 opções). Depois sobram 4 opções para o primeiro e 3 para o do meio: 2 · 4 · 3 = 24.",
+        "Letras repetidas: a palavra CASA tem 4 letras, mas duas são A. Trocar um A pelo outro não cria anagrama novo, então divide-se por 2! = 2: 4! ÷ 2 = 12 anagramas.",
+        "Pegadinha da ordem: num aperto de mão entre 6 pessoas, cada uma cumprimenta 5, mas o aperto de Ana com Bia é o mesmo de Bia com Ana. Por isso o total é 6 · 5 ÷ 2 = 15, e não 30."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 3 camisetas e 2 calças, quantas combinações diferentes dá para montar?",
+            "alternativas": [
+              "9",
+              "8",
+              "5",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "3 · 2 = 6. Somar (3 + 2 = 5) é o erro comum.",
+            "dica": "Cada camiseta combina com cada calça."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma cantina tem 2 sucos e 3 salgados. Quantos lanches com 1 suco e 1 salgado?",
+            "alternativas": [
+              "5",
+              "1",
+              "6",
+              "9"
+            ],
+            "correta": 2,
+            "explicacao": "2 · 3 = 6.",
+            "dica": "Multiplique as opções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cadeado tem 3 dígitos, cada um de 0 a 9. Quantas combinações existem?",
+            "alternativas": [
+              "1.000",
+              "999",
+              "100",
+              "30"
+            ],
+            "correta": 0,
+            "explicacao": "10 · 10 · 10 = 1.000 (de 000 a 999).",
+            "dica": "Cada dígito tem 10 opções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma moeda é lançada duas vezes. Quantos resultados possíveis?",
+            "alternativas": [
+              "6",
+              "4",
+              "3",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "cara-cara, cara-coroa, coroa-cara, coroa-coroa: 2 · 2 = 4.",
+            "dica": "Cada lançamento tem 2 resultados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pelo princípio fundamental da contagem, escolhas em sequência devem ser:",
+            "alternativas": [
+              "somadas",
+              "multiplicadas",
+              "divididas",
+              "subtraídas"
+            ],
+            "correta": 1,
+            "explicacao": "m jeitos e depois n jeitos dá m · n.",
+            "dica": "Pense nas camisetas e calças."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas senhas de 4 dígitos (0 a 9, podendo repetir) existem?",
+            "alternativas": [
+              "10.000",
+              "1.000",
+              "40",
+              "9.999"
+            ],
+            "correta": 0,
+            "explicacao": "10 · 10 · 10 · 10 = 10.000.",
+            "dica": "Quatro posições, 10 opções cada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "De quantas formas 3 pessoas podem formar uma fila?",
+            "alternativas": [
+              "27",
+              "3",
+              "6",
+              "9"
+            ],
+            "correta": 2,
+            "explicacao": "3 · 2 · 1 = 6.",
+            "dica": "Quem já entrou na fila não pode entrar de novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos anagramas tem a palavra AMOR?",
+            "alternativas": [
+              "4",
+              "16",
+              "12",
+              "24"
+            ],
+            "correta": 3,
+            "explicacao": "4 letras diferentes: 4! = 24.",
+            "dica": "Use o fatorial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um restaurante tem 3 entradas, 4 pratos e 2 sobremesas. Quantas refeições diferentes com um de cada?",
+            "alternativas": [
+              "9",
+              "12",
+              "36",
+              "24"
+            ],
+            "correta": 3,
+            "explicacao": "3 · 4 · 2 = 24.",
+            "dica": "Multiplique as três escolhas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma senha tem 2 letras (26 opções cada) seguidas de 1 dígito. Quantas senhas existem?",
+            "alternativas": [
+              "62",
+              "6.760",
+              "676",
+              "520"
+            ],
+            "correta": 1,
+            "explicacao": "26 · 26 · 10 = 6.760.",
+            "dica": "Multiplique as opções de cada posição."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas senhas de 4 dígitos existem sem repetir dígitos?",
+            "alternativas": [
+              "5.040",
+              "40",
+              "3.024",
+              "10.000"
+            ],
+            "correta": 0,
+            "explicacao": "10 · 9 · 8 · 7 = 5.040.",
+            "dica": "A cada dígito usado, sobra uma opção a menos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números de 3 algarismos diferentes dá para formar com 1, 2, 3, 4 e 5?",
+            "alternativas": [
+              "15",
+              "10",
+              "60",
+              "125"
+            ],
+            "correta": 2,
+            "explicacao": "5 · 4 · 3 = 60.",
+            "dica": "Sem repetir: as opções caem a cada posição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com os mesmos algarismos (1 a 5, sem repetir), quantos números de 3 algarismos são pares?",
+            "alternativas": [
+              "12",
+              "24",
+              "30",
+              "60"
+            ],
+            "correta": 1,
+            "explicacao": "Último: 2 ou 4 (2 opções). Depois 4 e 3: 2 · 4 · 3 = 24.",
+            "dica": "Comece pela posição que tem restrição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos anagramas tem a palavra CASA?",
+            "alternativas": [
+              "24",
+              "6",
+              "4",
+              "12"
+            ],
+            "correta": 3,
+            "explicacao": "4! ÷ 2! = 24 ÷ 2 = 12, porque há dois A.",
+            "dica": "Letras iguais trocadas não criam palavra nova."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem do MENOR para o MAIOR número de possibilidades.",
+            "itens": [
+              "Combinações de 3 camisetas e 2 calças",
+              "Anagramas de AMOR",
+              "Senhas de 2 dígitos",
+              "Senhas de 3 dígitos"
+            ],
+            "explicacao": "6, 24, 100 e 1.000.",
+            "dica": "Calcule cada uma."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A placa de carro no padrão Mercosul usada no Brasil tem o formato LLLNLNN (L = letra de 26 opções, N = número de 10 opções). Quantas placas são possíveis?",
+            "alternativas": [
+              "175.760.000",
+              "1.757.600",
+              "456.976.000",
+              "45.697.600"
+            ],
+            "correta": 2,
+            "explicacao": "4 letras e 3 números: 26⁴ · 10³ = 456.976 · 1.000 = 456.976.000.",
+            "dica": "Conte quantas letras e quantos números há no formato."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mateus testa uma combinação do cadeado de 3 dígitos a cada 2 segundos. No pior caso, quanto tempo leva?",
+            "alternativas": [
+              "33 minutos e 20 segundos",
+              "1 hora",
+              "2.000 minutos",
+              "16 minutos e 40 segundos"
+            ],
+            "correta": 0,
+            "explicacao": "1.000 combinações · 2 s = 2.000 s = 33 min 20 s.",
+            "dica": "Converta segundos em minutos no final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos anagramas da palavra BRASIL começam com B?",
+            "alternativas": [
+              "24",
+              "120",
+              "600",
+              "720"
+            ],
+            "correta": 1,
+            "explicacao": "Fixando o B, sobram 5 letras diferentes: 5! = 120.",
+            "dica": "Fixe a primeira letra e permute o resto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Há 3 caminhos de casa até a escola e 2 da escola até a praça. Quantos trajetos de ida e volta (casa-praça-casa, passando pela escola) existem sem repetir nenhum caminho na volta?",
+            "alternativas": [
+              "24",
+              "36",
+              "6",
+              "12"
+            ],
+            "correta": 3,
+            "explicacao": "Ida: 3 · 2 = 6. Volta sem repetir: 1 · 2 = 2. Total: 6 · 2 = 12.",
+            "dica": "Na volta, cada trecho tem uma opção a menos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa reunião com 6 pessoas, cada uma aperta a mão de todas as outras uma única vez. Quantos apertos de mão acontecem?",
+            "alternativas": [
+              "12",
+              "36",
+              "30",
+              "15"
+            ],
+            "correta": 3,
+            "explicacao": "6 · 5 = 30 conta cada aperto duas vezes; 30 ÷ 2 = 15.",
+            "dica": "O aperto de A com B é o mesmo de B com A."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Economia comportamental: as armadilhas da mente na hora de gastar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A economia comportamental estuda por que as pessoas nem sempre tomam decisões racionais com dinheiro. Nosso cérebro usa atalhos, e as lojas conhecem esses atalhos muito bem.",
+          "Ancoragem: o primeiro número que vemos vira referência. \"De R$ 200 por R$ 99\" parece ótimo, mesmo que o produto custe R$ 90 em outro lugar. Escassez e urgência: \"últimas unidades\" e \"só hoje\" fazem a gente decidir sem pensar.",
+          "Efeito manada: comprar porque todo mundo está comprando. Preço quebrado: R$ 9,99 parece bem mais barato que R$ 10, porque olhamos primeiro o número da esquerda.",
+          "Dor menor de pagar: parcelar e usar cartão doem menos do que dar notas na mão, e por isso gastamos mais. Dez parcelas de R$ 39,90 parecem pouco, mas somam R$ 399.",
+          "Defesas: lista de compras, esperar 24 horas antes de compras não planejadas, comparar o preço por quilo ou por litro e decidir o valor máximo antes de entrar na loja ou no site."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "No cinema: pipoca pequena R$ 12, média R$ 20, grande R$ 22. Por que a média existe?",
+            "resolucao": "É um chamariz: ela faz a grande parecer uma pechincha (só R$ 2 a mais). Quem queria a pequena acaba levando a grande. Pergunte-se: eu queria mesmo tanta pipoca?"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Aversão à perda: perder R$ 50 dói mais do que ganhar R$ 50 alegra. Por isso frases como \"não perca\" funcionam melhor que \"aproveite\". E por isso as pessoas seguram investimentos ruins esperando \"recuperar\".",
+        "Contabilidade mental: tratamos o dinheiro de jeitos diferentes conforme a origem. O dinheiro de um presente ou de uma restituição parece \"extra\" e é gasto com mais facilidade, mas ele compra as mesmas coisas que o salário.",
+        "Viés do presente: valorizamos demais o agora e de menos o futuro. É ele que faz adiar a poupança para \"o mês que vem\". Automatizar a poupança (separar o valor assim que recebe) vence esse viés."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que estuda a economia comportamental?",
+            "alternativas": [
+              "Por que as pessoas nem sempre decidem de forma racional com dinheiro",
+              "Como imprimir dinheiro",
+              "A história das moedas",
+              "Como fazer contas de cabeça"
+            ],
+            "correta": 0,
+            "explicacao": "Ela estuda os atalhos e erros da mente.",
+            "dica": "Fala de comportamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Últimas unidades!\" usa a armadilha da:",
+            "alternativas": [
+              "ancoragem",
+              "escassez",
+              "manada",
+              "lista de compras"
+            ],
+            "correta": 1,
+            "explicacao": "Faz parecer que vai acabar.",
+            "dica": "Algo que está acabando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que R$ 9,99 parece mais barato que R$ 10?",
+            "alternativas": [
+              "Porque é muito mais barato",
+              "Porque a lei manda",
+              "Porque tem menos números",
+              "Porque olhamos primeiro o número da esquerda"
+            ],
+            "correta": 3,
+            "explicacao": "A diferença é de 1 centavo, mas o 9 chama atenção.",
+            "dica": "Qual número você lê primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma boa defesa contra compras por impulso?",
+            "alternativas": [
+              "Seguir o que todo mundo compra",
+              "Comprar tudo que está em promoção",
+              "Fazer lista de compras",
+              "Ir ao mercado com fome"
+            ],
+            "correta": 2,
+            "explicacao": "A lista protege do que não foi planejado.",
+            "dica": "Planejar antes de sair."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Comprar algo só porque todo mundo está comprando é o:",
+            "alternativas": [
+              "preço quebrado",
+              "efeito ancoragem",
+              "viés do presente",
+              "efeito manada"
+            ],
+            "correta": 3,
+            "explicacao": "Seguir o grupo sem pensar.",
+            "dica": "Pense num rebanho."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"De R$ 200 por R$ 99.\" O R$ 200 funciona como:",
+            "alternativas": [
+              "âncora, que faz o R$ 99 parecer barato",
+              "preço real obrigatório",
+              "desconto garantido em qualquer loja",
+              "imposto"
+            ],
+            "correta": 0,
+            "explicacao": "O primeiro número vira referência.",
+            "dica": "Qual número você viu primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dez parcelas de R$ 39,90 somam:",
+            "alternativas": [
+              "R$ 499",
+              "R$ 399",
+              "R$ 39,90",
+              "R$ 390"
+            ],
+            "correta": 1,
+            "explicacao": "10 · 39,90 = 399.",
+            "dica": "Multiplique a parcela pelo número de vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pipoca pequena R$ 12, média R$ 20, grande R$ 22. A média serve principalmente para:",
+            "alternativas": [
+              "fazer a grande parecer vantajosa",
+              "ser a mais vendida",
+              "dar prejuízo ao cinema",
+              "nada"
+            ],
+            "correta": 0,
+            "explicacao": "É o efeito chamariz.",
+            "dica": "Compare média e grande."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Arroz: pacote de 500 g por R$ 6 ou de 1 kg por R$ 11. Qual sai mais barato por quilo?",
+            "alternativas": [
+              "Os dois custam igual por quilo",
+              "O de 500 g",
+              "O de 1 kg",
+              "Não dá para saber"
+            ],
+            "correta": 2,
+            "explicacao": "500 g por R$ 6 = R$ 12 o quilo; o de 1 kg custa R$ 11.",
+            "dica": "Calcule quanto custaria 1 kg do pacote menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Esperar 24 horas antes de uma compra não planejada ajuda porque:",
+            "alternativas": [
+              "a lei obriga",
+              "a loja fecha",
+              "o preço sempre cai",
+              "dá tempo de a emoção passar e pensar se precisa"
+            ],
+            "correta": 3,
+            "explicacao": "Muitas vontades passam com o tempo.",
+            "dica": "O que acontece com a vontade depois de um dia?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O carrinho está em R$ 85 e o frete custa R$ 10. Acima de R$ 100, o frete é grátis. Lúcia coloca mais um item de R$ 25 que não precisava. Quanto ela gastou a mais do que se pagasse o frete?",
+            "alternativas": [
+              "R$ 0",
+              "R$ 15",
+              "R$ 25",
+              "R$ 10"
+            ],
+            "correta": 1,
+            "explicacao": "Com frete: 85 + 10 = 95. Com item extra: 110. Diferença: R$ 15 por algo que não precisava.",
+            "dica": "Compare os dois totais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gabriel ganhou R$ 300 de presente e gastou tudo em uma tarde, \"porque era dinheiro extra\". Que armadilha é essa?",
+            "alternativas": [
+              "Escassez",
+              "Efeito manada",
+              "Ancoragem",
+              "Contabilidade mental"
+            ],
+            "correta": 3,
+            "explicacao": "Dinheiro de presente compra o mesmo que qualquer outro.",
+            "dica": "Ele separou o dinheiro na cabeça por origem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"Não perca!\" costuma funcionar melhor que \"Aproveite!\"?",
+            "alternativas": [
+              "Pela aversão à perda: perder dói mais do que ganhar alegra",
+              "Porque é obrigatório",
+              "Porque é mais curto",
+              "Porque rima"
+            ],
+            "correta": 0,
+            "explicacao": "O medo de perder mexe mais com a gente.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude vence o viés do presente na hora de poupar?",
+            "alternativas": [
+              "Poupar o que sobrar no fim do mês",
+              "Deixar para o ano que vem",
+              "Separar o valor da poupança assim que recebe",
+              "Gastar primeiro e ver depois"
+            ],
+            "correta": 2,
+            "explicacao": "Automatizar tira a decisão do impulso.",
+            "dica": "Poupe antes de ter a chance de gastar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem uma compra planejada.",
+            "itens": [
+              "Decidir o que precisa e fazer a lista",
+              "Definir o valor máximo",
+              "Comparar preços por unidade",
+              "Comprar só o que está na lista"
+            ],
+            "explicacao": "Planejar, limitar, comparar e executar.",
+            "dica": "A compra vem no fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pipoca: pequena 300 g por R$ 12, média 500 g por R$ 20, grande 700 g por R$ 22. Qual tem o menor preço por 100 g e qual é a armadilha?",
+            "alternativas": [
+              "A média, com R$ 3 por 100 g",
+              "A pequena, com R$ 4 por 100 g",
+              "Todas custam R$ 4 por 100 g",
+              "A grande (cerca de R$ 3,14 por 100 g), mas só compensa se você for comer tudo"
+            ],
+            "correta": 3,
+            "explicacao": "Pequena e média: R$ 4 por 100 g. Grande: 22 ÷ 7 ≈ R$ 3,14. Mas pipoca que sobra é dinheiro jogado fora.",
+            "dica": "Divida o preço pela quantidade e pense no consumo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja sobe o preço de R$ 80 para R$ 160 na véspera e anuncia \"50% de desconto: de R$ 160 por R$ 80\". Que armadilha e qual direito?",
+            "alternativas": [
+              "Efeito manada; o desconto é real",
+              "Escassez; não há direito nenhum",
+              "Ancoragem falsa; o CDC proíbe publicidade enganosa",
+              "Contabilidade mental; a loja pode fazer"
+            ],
+            "correta": 2,
+            "explicacao": "A âncora foi inventada para enganar, o que é publicidade enganosa.",
+            "dica": "O preço \"de\" era real?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana pensa: \"Já gastei R$ 300 nesse curso que odeio, vou pagar mais 6 meses para não perder o que paguei.\" Que erro de raciocínio ela comete?",
+            "alternativas": [
+              "Efeito manada",
+              "Nenhum erro",
+              "Deixa o custo afundado e a aversão à perda decidirem",
+              "Ancoragem pelo preço"
+            ],
+            "correta": 2,
+            "explicacao": "Os R$ 300 não voltam; a decisão deve olhar o futuro.",
+            "dica": "Lembre do custo afundado (dia 51)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um site mostra \"23 pessoas estão vendo este produto agora\" e um relógio contando. Que armadilhas aparecem juntas?",
+            "alternativas": [
+              "Efeito manada e urgência",
+              "Viés do presente e aversão ao risco",
+              "Ancoragem e contabilidade mental",
+              "Preço quebrado e lista de compras"
+            ],
+            "correta": 0,
+            "explicacao": "Outras pessoas olhando (manada) e tempo acabando (urgência).",
+            "dica": "Duas pressões: os outros e o relógio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação de defesas é mais eficaz contra compras por impulso pela internet?",
+            "alternativas": [
+              "Ativar compra com um clique",
+              "Tirar o cartão salvo do site e esperar 24 horas antes de finalizar",
+              "Comprar sempre de madrugada",
+              "Seguir os produtos mais vendidos"
+            ],
+            "correta": 1,
+            "explicacao": "Mais esforço para pagar e tempo para pensar reduzem o impulso.",
+            "dica": "O que deixa a compra menos automática?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Projeto lista de tarefas, parte 1: planejar e montar a página",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Hoje começa um projeto em duas partes: uma lista de tarefas que funciona no navegador. Programadores começam planejando: o que o programa precisa fazer? Parte 1: digitar uma tarefa, clicar em Adicionar e ver a tarefa na lista. Parte 2 (dia 59): marcar como feita, remover e salvar.",
+          "A estrutura em HTML tem um título, um campo de texto, um botão e uma lista vazia:\n<h1>Minhas tarefas</h1>\n<input id=\"campo\" placeholder=\"Nova tarefa\">\n<button id=\"botao\">Adicionar</button>\n<ul id=\"lista\"></ul>",
+          "Um pouco de CSS deixa a página agradável:\nbody { font-family: sans-serif; max-width: 400px; margin: auto; }\nli { padding: 8px; border-bottom: 1px solid #ccc; }",
+          "O JavaScript pega os elementos pelo id e espera o clique:\nconst campo = document.getElementById(\"campo\");\nconst botao = document.getElementById(\"botao\");\nconst lista = document.getElementById(\"lista\");\nbotao.addEventListener(\"click\", adicionar);",
+          "A função adicionar cria um item de lista (li), coloca o texto e o pendura na lista:\nfunction adicionar() {\n  const texto = campo.value.trim();\n  if (texto === \"\") return;\n  const item = document.createElement(\"li\");\n  item.textContent = texto;\n  lista.appendChild(item);\n  campo.value = \"\";\n}"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Por que usar trim() e o if antes de criar o item?",
+            "resolucao": "trim() tira espaços do começo e do fim. Se a pessoa digitar só espaços, o texto vira \"\" e o return para a função, evitando tarefas vazias na lista."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Planejar antes de programar evita retrabalho: escreva os requisitos (o que o programa deve fazer), desenhe um esboço da tela no papel e divida em passos pequenos, testando cada um. Primeiro faça funcionar o mínimo; depois melhore.",
+        "Para adicionar também com a tecla Enter: campo.addEventListener(\"keydown\", (e) => { if (e.key === \"Enter\") adicionar(); }). Assim a página fica mais prática no computador.",
+        "textContent é mais seguro que innerHTML para colocar o que a pessoa digitou: com innerHTML, um texto com etiquetas HTML seria interpretado como código. Com textContent, aparece exatamente como foi digitado."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo de um projeto de programação?",
+            "alternativas": [
+              "Planejar o que o programa precisa fazer",
+              "Publicar na internet",
+              "Apagar tudo",
+              "Escolher a cor do fundo"
+            ],
+            "correta": 0,
+            "explicacao": "Os requisitos guiam o resto.",
+            "dica": "Antes de construir, desenhe a planta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual etiqueta HTML cria um campo de texto?",
+            "alternativas": [
+              "<li>",
+              "<h1>",
+              "<ul>",
+              "<input>"
+            ],
+            "correta": 3,
+            "explicacao": "input é entrada de dados.",
+            "dica": "Input quer dizer entrada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual etiqueta cria uma lista com marcadores?",
+            "alternativas": [
+              "<h1>",
+              "<input>",
+              "<button>",
+              "<ul>"
+            ],
+            "correta": 3,
+            "explicacao": "ul = lista não ordenada; cada item é um li.",
+            "dica": "u de unordered, l de list."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o id=\"campo\" no HTML?",
+            "alternativas": [
+              "Para mudar a fonte",
+              "Para nada",
+              "Para o JavaScript encontrar aquele elemento",
+              "Para deixar o texto em negrito"
+            ],
+            "correta": 2,
+            "explicacao": "getElementById(\"campo\") usa esse id.",
+            "dica": "É um nome único do elemento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que addEventListener(\"click\", adicionar) faz?",
+            "alternativas": [
+              "Muda a cor da página",
+              "Roda a função adicionar quando o botão é clicado",
+              "Salva o arquivo",
+              "Apaga o botão"
+            ],
+            "correta": 1,
+            "explicacao": "Ele espera o evento clique.",
+            "dica": "Listener quer dizer ouvinte."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando cria um novo item de lista no JavaScript?",
+            "alternativas": [
+              "lista.remove()",
+              "campo.value",
+              "console.log(\"li\")",
+              "document.createElement(\"li\")"
+            ],
+            "correta": 3,
+            "explicacao": "createElement cria um elemento novo.",
+            "dica": "Create quer dizer criar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que appendChild(item) faz?",
+            "alternativas": [
+              "Apaga a lista",
+              "Muda o título",
+              "Coloca o item dentro da lista",
+              "Lê o campo"
+            ],
+            "correta": 2,
+            "explicacao": "append = acrescentar no fim.",
+            "dica": "O item vira filho da lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que campo.value guarda?",
+            "alternativas": [
+              "O número de tarefas",
+              "O texto digitado no campo",
+              "O título da página",
+              "A cor do botão"
+            ],
+            "correta": 1,
+            "explicacao": "value é o valor do input.",
+            "dica": "O que a pessoa escreveu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve campo.value = \"\" no fim da função?",
+            "alternativas": [
+              "Criar um item vazio",
+              "Limpar o campo para a próxima tarefa",
+              "Apagar a lista",
+              "Fechar a página"
+            ],
+            "correta": 1,
+            "explicacao": "Depois de adicionar, o campo fica pronto de novo.",
+            "dica": "O campo fica vazio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"   \".trim() resulta em:",
+            "alternativas": [
+              "\"\" (texto vazio)",
+              "\"   \"",
+              "\" \"",
+              "erro"
+            ],
+            "correta": 0,
+            "explicacao": "trim tira os espaços das pontas.",
+            "dica": "Só tinha espaços."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a pessoa clica em Adicionar com o campo vazio, o que acontece com o código da lição?",
+            "alternativas": [
+              "A lista é apagada",
+              "A página trava",
+              "Nada é adicionado, por causa do if com return",
+              "Aparece um item vazio"
+            ],
+            "correta": 2,
+            "explicacao": "texto === \"\" faz a função parar.",
+            "dica": "Olhe o if antes do createElement."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre textContent e innerHTML para o texto digitado?",
+            "alternativas": [
+              "innerHTML é mais seguro",
+              "São iguais",
+              "textContent apaga o texto",
+              "textContent mostra o texto como está; innerHTML interpretaria etiquetas como código"
+            ],
+            "correta": 3,
+            "explicacao": "Por segurança, use textContent para texto do usuário.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fazer a tecla Enter também adicionar?",
+            "alternativas": [
+              "Ouvir \"keydown\" no campo e chamar adicionar() quando e.key for \"Enter\"",
+              "Trocar o botão por um título",
+              "Não é possível",
+              "Usar campo.value = \"Enter\""
+            ],
+            "correta": 0,
+            "explicacao": "O evento keydown informa qual tecla foi apertada.",
+            "dica": "Precisa ouvir o teclado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Esqueceram o id=\"lista\" na etiqueta <ul>. O que acontece?",
+            "alternativas": [
+              "O botão some",
+              "getElementById(\"lista\") devolve null e o appendChild dá erro",
+              "Funciona normalmente",
+              "A lista aparece duas vezes"
+            ],
+            "correta": 1,
+            "explicacao": "Sem id, o JavaScript não encontra a lista.",
+            "dica": "Como o JavaScript acha a lista?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que a função adicionar faz.",
+            "itens": [
+              "Lê o texto do campo e tira os espaços",
+              "Para se o texto estiver vazio",
+              "Cria o item li com o texto",
+              "Pendura o item na lista",
+              "Limpa o campo"
+            ],
+            "explicacao": "É a sequência do código da lição.",
+            "dica": "Limpar o campo é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A pessoa digita <b>Estudar</b> e o programa usa innerHTML. O que aparece?",
+            "alternativas": [
+              "Um erro sempre",
+              "Nada",
+              "\"Estudar\" em negrito, porque as etiquetas viraram código",
+              "\"<b>Estudar</b>\" escrito igualzinho"
+            ],
+            "correta": 2,
+            "explicacao": "innerHTML interpreta HTML; textContent mostraria as etiquetas como texto.",
+            "dica": "innerHTML entende etiquetas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de adicionar 3 tarefas, a pessoa recarrega a página. O que acontece na parte 1 do projeto?",
+            "alternativas": [
+              "A página não abre",
+              "As tarefas continuam lá",
+              "As tarefas somem, porque ainda não são salvas",
+              "Aparecem 6 tarefas"
+            ],
+            "correta": 2,
+            "explicacao": "Salvar no navegador é tarefa da parte 2.",
+            "dica": "O que ficou para o dia 59?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um colega escreveu botao.addEventListener(\"click\", adicionar()); com parênteses. Qual é o problema?",
+            "alternativas": [
+              "Nenhum problema",
+              "A função roda uma vez na hora, e o clique não chama nada",
+              "O Enter para de funcionar",
+              "O botão some"
+            ],
+            "correta": 1,
+            "explicacao": "Com parênteses, você passa o resultado da função, não a função.",
+            "dica": "Passar a função é diferente de chamá-la."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor jeito de construir o projeto?",
+            "alternativas": [
+              "Fazer em passos pequenos, testando cada um",
+              "Copiar sem entender",
+              "Não testar",
+              "Escrever tudo de uma vez e testar só no fim"
+            ],
+            "correta": 0,
+            "explicacao": "Passos pequenos facilitam achar erros.",
+            "dica": "Releia o aprofundamento sobre planejar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos elementos li existem na lista depois de adicionar \"Ler\", tentar adicionar \"  \" e adicionar \"Treinar\"?",
+            "alternativas": [
+              "3",
+              "0",
+              "1",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "\"  \" vira \"\" com trim e é ignorado.",
+            "dica": "Uma das tentativas é barrada pelo if."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Coerência: o texto que faz sentido do começo ao fim",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Coerência é o sentido do texto: as ideias combinam entre si, não se contradizem e fazem sentido para o leitor. Um texto coerente tem começo, meio e fim que conversam.",
+          "Quatro cuidados: não contradizer (dizer que choveu o dia todo e depois que o sol brilhou a tarde inteira); manter o tema (não pular para assuntos sem relação); avançar (trazer informações novas, sem só repetir); e respeitar o que se sabe do mundo (peixe não sobe em árvore, a não ser numa fábula).",
+          "Coesão é diferente: é a ligação entre as partes, feita por conectivos (porém, porque, portanto) e por palavras que retomam outras (pronomes, sinônimos).",
+          "Um texto pode ter conectivos e ainda assim ser incoerente: \"Estudei muito, portanto tirei nota baixa\" usa portanto, que indica conclusão, mas a ideia não combina. Faria sentido com porém: \"Estudei muito, porém tirei nota baixa\".",
+          "Para revisar a coerência, leia o texto como se fosse outra pessoa e pergunte: isso faz sentido? Combina com o que eu disse antes?"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Encontre o problema: \"Ana é vegetariana. No almoço, ela comeu um bife acebolado e adorou.\"",
+            "resolucao": "Contradição: vegetariano não come carne. Para ficar coerente, seria preciso explicar (\"Ana era vegetariana até o ano passado\") ou trocar o prato."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A coerência depende também do contexto e do gênero. Numa fábula, animais falam e isso é coerente. Num relatório científico, não seria. Num poema, imagens estranhas podem ser coerentes com a proposta.",
+        "Progressão temática: cada parágrafo deve acrescentar algo. Redações que repetem a mesma ideia com outras palavras ficam circulares e perdem pontos.",
+        "Na redação de vestibulinhos e concursos, coerência é muito valorizada: a tese da introdução tem que ser defendida no desenvolvimento e retomada na conclusão, sem mudar de posição no meio do caminho."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é coerência num texto?",
+            "alternativas": [
+              "As ideias fazerem sentido juntas, sem contradição",
+              "Ter letra bonita",
+              "Ter muitas páginas",
+              "Usar palavras difíceis"
+            ],
+            "correta": 0,
+            "explicacao": "Coerência é o sentido do texto.",
+            "dica": "Pense em sentido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Choveu o dia todo. A tarde inteira foi de sol forte.\" Qual é o problema?",
+            "alternativas": [
+              "Nenhum",
+              "Contradição",
+              "Letra minúscula",
+              "Falta de vírgula"
+            ],
+            "correta": 1,
+            "explicacao": "As duas frases não podem ser verdade juntas.",
+            "dica": "As frases combinam?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Coesão é:",
+            "alternativas": [
+              "o sentido geral do texto",
+              "o título",
+              "o nome do autor",
+              "a ligação entre as partes do texto, com conectivos e retomadas"
+            ],
+            "correta": 3,
+            "explicacao": "Coesão liga; coerência dá sentido.",
+            "dica": "Pense em cola entre frases."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é um conectivo?",
+            "alternativas": [
+              "mesa",
+              "azul",
+              "correr",
+              "porém"
+            ],
+            "correta": 3,
+            "explicacao": "Conectivos ligam ideias.",
+            "dica": "Qual delas liga frases?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para revisar a coerência, você deve:",
+            "alternativas": [
+              "não ler o texto",
+              "trocar a fonte",
+              "ler o texto como se fosse outra pessoa",
+              "só contar as palavras"
+            ],
+            "correta": 2,
+            "explicacao": "Ler de fora ajuda a ver falhas de sentido.",
+            "dica": "Imagine o leitor."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estudei muito, portanto tirei nota baixa.\" Qual conectivo deixaria a frase coerente?",
+            "alternativas": [
+              "portanto",
+              "por isso",
+              "então",
+              "porém"
+            ],
+            "correta": 3,
+            "explicacao": "A ideia é de oposição, não de conclusão.",
+            "dica": "Estudar muito e tirar nota baixa é algo esperado ou inesperado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ana é vegetariana. No almoço, comeu um bife.\" O problema é de:",
+            "alternativas": [
+              "acentuação",
+              "coerência",
+              "pontuação",
+              "ortografia"
+            ],
+            "correta": 1,
+            "explicacao": "Há contradição de sentido.",
+            "dica": "O sentido combina?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto sobre a horta do bairro passa a falar de futebol sem ligação. Que cuidado foi esquecido?",
+            "alternativas": [
+              "Manter o tema",
+              "Colocar título",
+              "Usar vírgulas",
+              "Escrever com letra de forma"
+            ],
+            "correta": 0,
+            "explicacao": "Mudar de assunto sem ligação quebra a coerência.",
+            "dica": "Do que o texto falava?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma redação repete a mesma ideia em todos os parágrafos. Falta:",
+            "alternativas": [
+              "conectivo no fim",
+              "letra maiúscula",
+              "progressão, trazer informações novas",
+              "título"
+            ],
+            "correta": 2,
+            "explicacao": "O texto precisa avançar.",
+            "dica": "O texto anda ou fica parado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa fábula, uma formiga conversa com uma cigarra. Isso é incoerente?",
+            "alternativas": [
+              "Só se for de manhã",
+              "Sim, sempre",
+              "Sim, formigas não falam",
+              "Não, porque no gênero fábula animais falam"
+            ],
+            "correta": 3,
+            "explicacao": "A coerência depende do gênero.",
+            "dica": "Que tipo de texto é?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem conectivo correto e é coerente?",
+            "alternativas": [
+              "\"Estava com calor, porém liguei o ventilador.\"",
+              "\"Estava com sono, portanto fiquei bem acordado.\"",
+              "\"Estava com frio, por isso vesti o casaco.\"",
+              "\"Estava com frio, por isso tirei o casaco.\""
+            ],
+            "correta": 2,
+            "explicacao": "Causa e consequência combinam.",
+            "dica": "Qual consequência faz sentido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Introdução: \"O celular deve ser proibido em sala.\" Conclusão: \"Portanto, o celular deve ser liberado em sala.\" O problema é:",
+            "alternativas": [
+              "mudança de posição: a tese não foi mantida",
+              "falta de título",
+              "excesso de vírgulas",
+              "nenhum"
+            ],
+            "correta": 0,
+            "explicacao": "A conclusão deve retomar a tese, não contradizê-la.",
+            "dica": "Compare início e fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Pedro tem 9 anos e dirige o próprio carro até o trabalho.\" Num texto realista, o problema é:",
+            "alternativas": [
+              "uso de número",
+              "contradição com o que se sabe do mundo",
+              "erro de acento",
+              "falta de conectivo"
+            ],
+            "correta": 1,
+            "explicacao": "Criança de 9 anos não dirige nem trabalha num texto realista.",
+            "dica": "Isso acontece na vida real?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto tem muitos conectivos, mas as ideias não combinam. Ele é:",
+            "alternativas": [
+              "nem coeso nem coerente, sempre",
+              "coerente e coeso",
+              "perfeito",
+              "coeso na forma, mas incoerente"
+            ],
+            "correta": 3,
+            "explicacao": "Conectivos sozinhos não garantem sentido.",
+            "dica": "Ter cola não garante que as peças combinam."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as frases para formar um parágrafo coerente.",
+            "itens": [
+              "A horta do bairro começou num terreno abandonado.",
+              "Os moradores limparam o local e plantaram mudas.",
+              "Meses depois, já colhiam verduras.",
+              "Hoje, parte da colheita vai para a creche."
+            ],
+            "explicacao": "Começo, ação, resultado e situação atual.",
+            "dica": "Siga a ordem do tempo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Todos os alunos da sala gostam de matemática. Alguns alunos da sala odeiam matemática.\" Qual é o problema lógico?",
+            "alternativas": [
+              "As frases são longas",
+              "Nenhum, são opiniões diferentes",
+              "As duas frases não podem ser verdadeiras juntas",
+              "Falta um conectivo"
+            ],
+            "correta": 2,
+            "explicacao": "Se todos gostam, nenhum odeia.",
+            "dica": "Todos e alguns não se contradizem aqui?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual reescrita resolve a incoerência de \"O mercado estava vazio, por isso enfrentei uma fila enorme\"?",
+            "alternativas": [
+              "\"O mercado estava vazio, portanto enfrentei uma fila enorme.\"",
+              "\"O mercado estava lotado, por isso enfrentei uma fila enorme.\"",
+              "\"O mercado estava vazio por isso enfrentei uma fila enorme.\"",
+              "\"O mercado estava vazio, por isso enfrentei uma fila enorme!\""
+            ],
+            "correta": 1,
+            "explicacao": "Trocar vazio por lotado ajusta a causa à consequência. Mudar só a pontuação não resolve.",
+            "dica": "O problema está no sentido, não na pontuação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num poema, aparece \"a lua bebeu o rio\". Isso é incoerência?",
+            "alternativas": [
+              "Sim, a lua não bebe",
+              "Sim, poemas devem ser realistas",
+              "Sim, falta vírgula",
+              "Não necessariamente: na poesia, imagens figuradas são coerentes com o gênero"
+            ],
+            "correta": 3,
+            "explicacao": "A coerência depende do gênero e da proposta.",
+            "dica": "Que gênero é?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma redação defende a tese \"o transporte público deve melhorar\", e o 2º parágrafo fala só sobre o preço da gasolina, sem relacionar. O que ajudaria?",
+            "alternativas": [
+              "Ligar o preço da gasolina à tese, mostrando que mais gente usaria o ônibus",
+              "Apagar a tese",
+              "Trocar a conclusão por outro tema",
+              "Colocar mais vírgulas"
+            ],
+            "correta": 0,
+            "explicacao": "O argumento precisa se conectar à tese para manter a coerência.",
+            "dica": "Como o parágrafo ajuda a provar a tese?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes textos tem progressão temática?",
+            "alternativas": [
+              "\"A água é essencial. A água é muito importante. A água é fundamental.\"",
+              "\"A água é essencial. Sem ela não há agricultura. Por isso, o desperdício afeta até o preço dos alimentos.\"",
+              "\"A água é essencial. A água não é essencial.\"",
+              "\"A água é essencial. Gosto de futebol. O céu é azul.\""
+            ],
+            "correta": 1,
+            "explicacao": "Cada frase acrescenta algo novo ligado ao tema.",
+            "dica": "Qual texto avança sem fugir do assunto?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "As senhas do cadeado",
+    "texto": "Mateus ficou parado diante do bicicletário da escola, olhando para o cadeado como quem olha para um enigma. Três rodinhas, cada uma com os números de 0 a 9. E a senha, que ele mesmo tinha escolhido no domingo, simplesmente tinha sumido da cabeça.\n\n— Testa tudo — sugeriu a Yasmin, rindo.\n\n— Tudo quanto? — perguntou ele.\n\nEla pegou o caderno e fez a conta que a professora tinha passado naquela manhã. A primeira rodinha tinha 10 possibilidades. Para cada uma delas, a segunda tinha mais 10. E, para cada par, a terceira tinha outras 10. Dez vezes dez vezes dez: mil combinações, de 000 a 999.\n\n— Se você levar três segundos em cada tentativa — continuou Yasmin —, no pior caso são três mil segundos. Cinquenta minutos.\n\nMateus suspirou. O ônibus passava em vinte.\n\nEntão ele fechou os olhos e tentou lembrar. Tinha escolhido o número no domingo, depois do almoço na casa da avó. A avó morava no número 7 da rua. Ele tinha certeza de que a senha começava com 7.\n\n— Com o primeiro número fixo, sobram só duas rodinhas — disse Yasmin, de novo no caderno. — Dez vezes dez. Cem combinações. Trezentos segundos. Cinco minutos.\n\nMateus começou: 700, 701, 702... A cada clique errado, Yasmin anotava um risquinho. No 7 com 4 e alguma coisa, ele parou. Setenta e quatro era a idade da avó.\n\n749. O cadeado abriu.\n\nNo ônibus, com a bicicleta guardada e o coração ainda acelerado, Mateus decidiu duas coisas. A primeira: anotaria a senha num lugar seguro. A segunda: nunca mais diria que a matemática da escola não servia para nada."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, conte uma vez em que você ou alguém que você conhece comprou algo por impulso, por causa de uma promoção, de um aviso de \"últimas unidades\" ou porque todo mundo estava comprando. Explique qual armadilha da mente agiu naquele momento e o que poderia ter sido feito para decidir com mais calma."
+  }
+}

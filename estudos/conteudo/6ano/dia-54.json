@@ -1,0 +1,1498 @@
+{
+  "dia": 54,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Medidas de massa e de capacidade",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Massa é o quanto um objeto \"pesa\" na balança. As unidades mais usadas são o quilograma (kg) e o grama (g). Coisas bem leves, como remédios, usam o miligrama (mg); coisas muito pesadas, como caminhões, usam a tonelada (t).",
+          "As trocas principais: 1 kg = 1.000 g; 1 t = 1.000 kg; 1 g = 1.000 mg. Para passar de kg para g, multiplique por 1.000. Para passar de g para kg, divida por 1.000.",
+          "Capacidade é quanto cabe de líquido num recipiente. As unidades são o litro (L) e o mililitro (mL), e 1 L = 1.000 mL. Uma garrafa de 2 L tem 2.000 mL.",
+          "Na cozinha e no mercado, essas medidas aparecem o tempo todo: arroz em pacotes de 1 kg ou 5 kg, leite em caixas de 1 L, refrigerante em garrafas de 600 mL ou 2 L."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quantos gramas há em 2,5 kg de feijão?",
+            "resolucao": "2,5 × 1.000 = 2.500 g."
+          },
+          {
+            "enunciado": "Uma garrafa de 2 L enche quantos copos de 250 mL?",
+            "resolucao": "2 L = 2.000 mL. 2.000 ÷ 250 = 8 copos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para comparar preços, calcule quanto custa cada litro ou cada quilo. Garrafa de 600 mL a R$ 3: R$ 3 ÷ 0,6 = R$ 5 o litro. Garrafa de 2 L a R$ 8: R$ 8 ÷ 2 = R$ 4 o litro. A maior sai mais barata por litro.",
+        "Em remédios, a medida certa é muito importante. 5 mL, três vezes ao dia, por 4 dias, dão 5 × 3 × 4 = 60 mL. E um comprimido de 500 mg tem meio grama: 2 comprimidos somam 1 g.",
+        "Cuidado com divisões que não dão exatas: uma jarra de 1,5 L (1.500 mL) enche 7 copos cheios de 200 mL (7 × 200 = 1.400 mL) e ainda sobram 100 mL."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos gramas tem 1 kg?",
+            "alternativas": [
+              "100 g",
+              "1.000 g",
+              "10 g",
+              "10.000 g"
+            ],
+            "correta": 1,
+            "explicacao": "1 kg = 1.000 g.",
+            "dica": "Quilo quer dizer mil."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos mL tem 1 L?",
+            "alternativas": [
+              "1.000 mL",
+              "100 mL",
+              "500 mL",
+              "10 mL"
+            ],
+            "correta": 0,
+            "explicacao": "1 L = 1.000 mL.",
+            "dica": "Mili é a milésima parte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual unidade mede massa?",
+            "alternativas": [
+              "litro",
+              "quilograma",
+              "metro",
+              "hora"
+            ],
+            "correta": 1,
+            "explicacao": "Massa se mede em kg e g.",
+            "dica": "É a unidade da balança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual unidade mede a capacidade de uma garrafa?",
+            "alternativas": [
+              "grama",
+              "tonelada",
+              "litro",
+              "centímetro"
+            ],
+            "correta": 2,
+            "explicacao": "Líquidos se medem em litros.",
+            "dica": "Pense na caixa de leite."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para coisas muito pesadas, como um caminhão, usamos:",
+            "alternativas": [
+              "miligrama",
+              "mililitro",
+              "grama",
+              "tonelada"
+            ],
+            "correta": 3,
+            "explicacao": "1 t = 1.000 kg.",
+            "dica": "É a maior unidade de massa da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos gramas há em 2,5 kg?",
+            "alternativas": [
+              "250 g",
+              "2.500 g",
+              "25 g",
+              "25.000 g"
+            ],
+            "correta": 1,
+            "explicacao": "2,5 × 1.000 = 2.500.",
+            "dica": "Multiplique por 1.000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma garrafa de 2 L enche quantos copos de 250 mL?",
+            "alternativas": [
+              "8",
+              "4",
+              "6",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "2.000 ÷ 250 = 8.",
+            "dica": "Transforme os litros em mL primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos kg há em 3 t?",
+            "alternativas": [
+              "300 kg",
+              "30 kg",
+              "30.000 kg",
+              "3.000 kg"
+            ],
+            "correta": 3,
+            "explicacao": "3 × 1.000 = 3.000.",
+            "dica": "Cada tonelada tem mil quilos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "1.500 mL é o mesmo que:",
+            "alternativas": [
+              "15 L",
+              "150 L",
+              "1,5 L",
+              "0,15 L"
+            ],
+            "correta": 2,
+            "explicacao": "1.500 ÷ 1.000 = 1,5.",
+            "dica": "Divida por 1.000."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene da menor para a maior massa:",
+            "itens": [
+              "500 mg",
+              "200 g",
+              "1 kg",
+              "1 t"
+            ],
+            "explicacao": "0,5 g < 200 g < 1.000 g < 1.000.000 g.",
+            "dica": "Passe tudo para a mesma unidade."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "750 g de queijo mais 1,25 kg de carne pesam juntos:",
+            "alternativas": [
+              "1,325 kg",
+              "751,25 g",
+              "2 kg",
+              "8,75 kg"
+            ],
+            "correta": 2,
+            "explicacao": "1,25 kg = 1.250 g; 750 + 1.250 = 2.000 g = 2 kg.",
+            "dica": "Deixe tudo em gramas antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos pacotes de 500 g de arroz dão 3 kg?",
+            "alternativas": [
+              "6",
+              "3",
+              "5",
+              "15"
+            ],
+            "correta": 0,
+            "explicacao": "3.000 ÷ 500 = 6.",
+            "dica": "Transforme os quilos em gramas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um xarope de 5 mL é tomado 3 vezes ao dia por 4 dias. Quanto é usado?",
+            "alternativas": [
+              "12 mL",
+              "60 mL",
+              "20 mL",
+              "15 mL"
+            ],
+            "correta": 1,
+            "explicacao": "5 × 3 × 4 = 60.",
+            "dica": "Multiplique as três informações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Garrafa de 600 mL a R$ 3 ou de 2 L a R$ 8: qual é mais barata por litro?",
+            "alternativas": [
+              "A de 600 mL, a R$ 3 o litro",
+              "As duas custam igual por litro",
+              "A de 600 mL, a R$ 4 o litro",
+              "A de 2 L, a R$ 4 o litro"
+            ],
+            "correta": 3,
+            "explicacao": "600 mL: R$ 5 o litro. 2 L: R$ 4 o litro.",
+            "dica": "Ache o preço de 1 litro em cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caminhão leva 5 t. Quantos sacos de 50 kg cabem nessa carga?",
+            "alternativas": [
+              "100",
+              "10",
+              "250",
+              "1.000"
+            ],
+            "correta": 0,
+            "explicacao": "5 t = 5.000 kg; 5.000 ÷ 50 = 100.",
+            "dica": "Passe as toneladas para kg."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma jarra tem 1,5 L. Quantos copos de 200 mL ficam totalmente cheios, e quanto sobra?",
+            "alternativas": [
+              "7 copos e sobram 100 mL",
+              "7,5 copos e não sobra nada",
+              "8 copos e faltam 100 mL",
+              "6 copos e sobram 300 mL"
+            ],
+            "correta": 0,
+            "explicacao": "1.500 ÷ 200 = 7 e resto 100.",
+            "dica": "Copo pela metade não conta como cheio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos comprimidos de 500 mg somam 1 g?",
+            "alternativas": [
+              "5",
+              "20",
+              "500",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "1 g = 1.000 mg; 1.000 ÷ 500 = 2.",
+            "dica": "Transforme o grama em mg."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma receita usa 350 g de farinha. Quantos gramas para 4 receitas?",
+            "alternativas": [
+              "1.200 g",
+              "140 g",
+              "14 kg",
+              "1.400 g"
+            ],
+            "correta": 3,
+            "explicacao": "4 × 350 = 1.400 g = 1,4 kg.",
+            "dica": "Multiplique pela quantidade de receitas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mariana tinha 1,2 kg de açúcar e usou 450 g. Quanto sobrou?",
+            "alternativas": [
+              "1,155 kg",
+              "650 g",
+              "750 g",
+              "850 g"
+            ],
+            "correta": 2,
+            "explicacao": "1.200 − 450 = 750 g.",
+            "dica": "Passe para gramas antes de subtrair."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um galão de 4,5 L foi dividido em garrafas de 1,5 L. Quantas garrafas?",
+            "alternativas": [
+              "4",
+              "3",
+              "6",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "4,5 ÷ 1,5 = 3.",
+            "dica": "Quantas vezes 1,5 cabe em 4,5?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Código binário: o computador só entende 0 e 1",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Por dentro, o computador funciona com eletricidade: passa corrente (1) ou não passa (0). Por isso ele guarda tudo, números, letras, fotos e músicas, usando só dois algarismos: 0 e 1. Isso é o sistema binário.",
+          "Cada 0 ou 1 é um bit. Oito bits formam um byte. Uma foto de celular pode ter milhões de bytes.",
+          "No nosso sistema decimal, cada casa vale 10 vezes a da direita (1, 10, 100). No binário, cada casa vale o dobro: da direita para a esquerda, 1, 2, 4, 8, 16, e assim por diante.",
+          "Para ler um número binário, some os valores das casas que têm 1. Em 101, há 1 na casa do 4 e na casa do 1: 4 + 1 = 5."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quanto vale 1010 em decimal?",
+            "resolucao": "Casas: 8, 4, 2, 1. Tem 1 no 8 e no 2: 8 + 2 = 10."
+          },
+          {
+            "enunciado": "Como escrever 6 em binário?",
+            "resolucao": "6 = 4 + 2. Casas 4, 2, 1: 1 no 4, 1 no 2, 0 no 1. Resposta: 110."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Com n bits, o número de combinações é 2 × 2 × ... × 2, com n fatores 2. Com 3 bits, 2 × 2 × 2 = 8 combinações (de 000 a 111, ou seja, de 0 a 7). Com 8 bits, 256 combinações, de 0 a 255.",
+        "Para passar um número decimal para binário, procure a maior casa que cabe e vá descontando: 13 = 8 + 4 + 1, então fica 1101 (1 no 8, 1 no 4, 0 no 2, 1 no 1).",
+        "Letras também viram números: numa tabela usada pelos computadores, a letra A maiúscula é o número 65, que em binário fica 1000001. Assim, cada texto que você digita vira uma fila de zeros e uns."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais algarismos o sistema binário usa?",
+            "alternativas": [
+              "0 a 9",
+              "0 e 1",
+              "1 e 2",
+              "só o 1"
+            ],
+            "correta": 1,
+            "explicacao": "Binário = dois algarismos.",
+            "dica": "Bi quer dizer dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama cada 0 ou 1?",
+            "alternativas": [
+              "byte",
+              "pixel",
+              "bit",
+              "volt"
+            ],
+            "correta": 2,
+            "explicacao": "Bit é a menor informação.",
+            "dica": "É uma palavra de três letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos bits formam um byte?",
+            "alternativas": [
+              "2",
+              "10",
+              "100",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "8 bits = 1 byte.",
+            "dica": "É o dobro de 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 1 em binário?",
+            "alternativas": [
+              "1",
+              "2",
+              "0",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "1 em binário é 1 mesmo.",
+            "dica": "A primeira casa vale 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No binário, cada casa vale:",
+            "alternativas": [
+              "10 vezes a da direita",
+              "o dobro da casa da direita",
+              "o mesmo que a da direita",
+              "a metade da da direita"
+            ],
+            "correta": 1,
+            "explicacao": "1, 2, 4, 8, 16...",
+            "dica": "Releia o terceiro parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 101 em decimal?",
+            "alternativas": [
+              "101",
+              "5",
+              "3",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "4 + 1 = 5.",
+            "dica": "Some as casas que têm 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 1010 em decimal?",
+            "alternativas": [
+              "1.010",
+              "12",
+              "5",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "8 + 2 = 10.",
+            "dica": "Casas 8, 4, 2, 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 6 em binário?",
+            "alternativas": [
+              "101",
+              "111",
+              "110",
+              "011"
+            ],
+            "correta": 2,
+            "explicacao": "6 = 4 + 2.",
+            "dica": "Quais casas somam 6?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 111 em decimal?",
+            "alternativas": [
+              "7",
+              "3",
+              "111",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "4 + 2 + 1 = 7.",
+            "dica": "As três casas estão ligadas."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os valores das casas do binário, da direita para a esquerda:",
+            "itens": [
+              "1",
+              "2",
+              "4",
+              "8"
+            ],
+            "explicacao": "Cada casa dobra a anterior.",
+            "dica": "Comece pela menor."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 1111 em decimal?",
+            "alternativas": [
+              "4",
+              "16",
+              "1.111",
+              "15"
+            ],
+            "correta": 3,
+            "explicacao": "8 + 4 + 2 + 1 = 15.",
+            "dica": "Some todas as casas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 13 em binário?",
+            "alternativas": [
+              "1011",
+              "1101",
+              "1110",
+              "1100"
+            ],
+            "correta": 1,
+            "explicacao": "13 = 8 + 4 + 1.",
+            "dica": "Desconte da maior casa que cabe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 1001 em decimal?",
+            "alternativas": [
+              "9",
+              "11",
+              "1.001",
+              "17"
+            ],
+            "correta": 0,
+            "explicacao": "8 + 1 = 9.",
+            "dica": "Só a primeira e a última casa têm 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas combinações dá para fazer com 3 bits?",
+            "alternativas": [
+              "3",
+              "8",
+              "6",
+              "9"
+            ],
+            "correta": 1,
+            "explicacao": "2 × 2 × 2 = 8.",
+            "dica": "Cada bit dobra as possibilidades."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 1100 em decimal?",
+            "alternativas": [
+              "3",
+              "6",
+              "12",
+              "1.100"
+            ],
+            "correta": 2,
+            "explicacao": "8 + 4 = 12.",
+            "dica": "Olhe só as duas casas da esquerda."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o maior número que cabe em 8 bits?",
+            "alternativas": [
+              "256",
+              "255",
+              "8",
+              "128"
+            ],
+            "correta": 1,
+            "explicacao": "11111111 = 255. São 256 combinações, mas começam no 0.",
+            "dica": "Cuidado: a contagem começa no 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 10110 em decimal?",
+            "alternativas": [
+              "22",
+              "14",
+              "26",
+              "11"
+            ],
+            "correta": 0,
+            "explicacao": "Casas 16, 8, 4, 2, 1: 16 + 4 + 2 = 22.",
+            "dica": "Use cinco casas, começando no 16."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 20 em binário?",
+            "alternativas": [
+              "10010",
+              "11000",
+              "10100",
+              "10110"
+            ],
+            "correta": 2,
+            "explicacao": "20 = 16 + 4.",
+            "dica": "Comece pela casa do 16."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Somando 1 a 111 (binário), o resultado é:",
+            "alternativas": [
+              "112",
+              "1110",
+              "1111",
+              "1000"
+            ],
+            "correta": 3,
+            "explicacao": "111 = 7; 7 + 1 = 8 = 1000.",
+            "dica": "Transforme em decimal, some e volte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 4 bits, quantos números diferentes dá para representar?",
+            "alternativas": [
+              "4",
+              "16",
+              "8",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "2 × 2 × 2 × 2 = 16 (de 0 a 15).",
+            "dica": "Dobre quatro vezes."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Sumário automático no Word",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Sumário é a lista dos títulos do trabalho com o número da página de cada um. No Word, ele pode ser feito automaticamente, sem digitar os números à mão.",
+          "O segredo são os estilos. Aplique o estilo Título 1 nos títulos principais e Título 2 nos subtítulos (Página Inicial > Estilos). É assim que o Word sabe o que entra no sumário.",
+          "Depois, clique onde o sumário vai ficar (normalmente na segunda página) e vá em Referências > Sumário > Sumário Automático. Pronto: aparecem os títulos com as páginas.",
+          "Se você mudar o texto, clique no sumário e em Atualizar Sumário. Dá para atualizar só os números de página ou a tabela inteira (quando muda ou acrescenta títulos)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O trabalho tem os capítulos \"Introdução\", \"A água no planeta\" e \"Conclusão\". O que fazer para o sumário aparecer?",
+            "resolucao": "Aplicar Título 1 nos três, clicar na página do sumário e usar Referências > Sumário > Sumário Automático."
+          },
+          {
+            "enunciado": "Você acrescentou um capítulo novo, \"Como economizar água\". Ele não apareceu no sumário. Por quê?",
+            "resolucao": "Porque o sumário não se atualiza sozinho. Aplique Título 1 no capítulo novo e clique em Atualizar Sumário > Atualizar o índice inteiro."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para cada capítulo começar numa página nova, use a quebra de página (Inserir > Quebra de Página, ou Ctrl + Enter). Apertar Enter várias vezes bagunça tudo quando o texto muda.",
+        "No sumário pronto, segurar Ctrl e clicar num título leva direto para aquela parte do trabalho. Isso também funciona no PDF salvo pelo Word.",
+        "Título 2 aparece no sumário com um recuo, embaixo do Título 1. Assim o leitor vê a organização: capítulo e, dentro dele, as partes."
+      ],
+      "desafio_pratico": "Abra o Word no celular ou no PC e crie um trabalho curto \"Os sentidos do corpo\". Na primeira página, escreva só o título e seu nome. Insira uma quebra de página (Ctrl + Enter) e deixe a segunda página para o sumário. Nas páginas seguintes, crie os capítulos \"Introdução\", \"Visão e audição\" e \"Conclusão\" com o estilo Título 1, cada um começando numa página nova, e dentro de \"Visão e audição\" crie dois subtítulos com Título 2. Volte à segunda página e insira Referências > Sumário > Sumário Automático. Por fim, acrescente um capítulo \"Olfato\" e use Atualizar Sumário > Atualizar o índice inteiro.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o sumário mostra?",
+            "alternativas": [
+              "Só as imagens",
+              "A nota do trabalho",
+              "Os títulos e as páginas de cada um",
+              "O nome do professor"
+            ],
+            "correta": 2,
+            "explicacao": "Sumário lista títulos e páginas.",
+            "dica": "Pense no começo de um livro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia fica o botão Sumário?",
+            "alternativas": [
+              "Inserir",
+              "Referências",
+              "Design",
+              "Exibir"
+            ],
+            "correta": 1,
+            "explicacao": "Referências > Sumário.",
+            "dica": "É a guia das citações e notas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual estilo usar nos títulos principais?",
+            "alternativas": [
+              "Normal",
+              "Título 1",
+              "Citação",
+              "Sem Espaçamento"
+            ],
+            "correta": 1,
+            "explicacao": "Título 1 entra no sumário.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mudou o texto. O que fazer com o sumário?",
+            "alternativas": [
+              "Atualizar Sumário",
+              "Apagar o trabalho",
+              "Digitar os números à mão",
+              "Fechar o Word"
+            ],
+            "correta": 0,
+            "explicacao": "O sumário precisa ser atualizado.",
+            "dica": "Ele não se atualiza sozinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O sumário normalmente fica:",
+            "alternativas": [
+              "no meio de um parágrafo",
+              "dentro de uma imagem",
+              "no rodapé de todas as páginas",
+              "no começo do trabalho"
+            ],
+            "correta": 3,
+            "explicacao": "Fica logo depois da capa.",
+            "dica": "Onde você procura o índice de um livro?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como o Word sabe quais textos entram no sumário?",
+            "alternativas": [
+              "Pelo tamanho da letra só",
+              "Pela cor do texto",
+              "Pela ordem alfabética",
+              "Pelos estilos de título aplicados"
+            ],
+            "correta": 3,
+            "explicacao": "Os estilos Título 1 e Título 2 marcam os títulos.",
+            "dica": "O segredo está nos estilos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Subtítulos dentro de um capítulo devem usar:",
+            "alternativas": [
+              "Título 1",
+              "Título 2",
+              "Normal",
+              "Legenda"
+            ],
+            "correta": 1,
+            "explicacao": "Título 2 fica embaixo do Título 1.",
+            "dica": "É o nível abaixo do principal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atalho cria uma quebra de página?",
+            "alternativas": [
+              "Ctrl + Enter",
+              "Ctrl + S",
+              "Ctrl + P",
+              "Ctrl + Z"
+            ],
+            "correta": 0,
+            "explicacao": "Ctrl + Enter começa uma página nova.",
+            "dica": "Envolve a tecla de pular linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você só mudou a quantidade de texto, sem mudar títulos. O que atualizar?",
+            "alternativas": [
+              "A tabela inteira obrigatoriamente",
+              "Nada",
+              "Só os números de página",
+              "O estilo da capa"
+            ],
+            "correta": 2,
+            "explicacao": "Os títulos são os mesmos; só as páginas mudaram.",
+            "dica": "O que mudou: títulos ou páginas?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para criar o sumário:",
+            "itens": [
+              "Aplicar Título 1 e Título 2 nos títulos",
+              "Clicar na página onde vai o sumário",
+              "Abrir Referências > Sumário",
+              "Escolher Sumário Automático"
+            ],
+            "explicacao": "Primeiro os estilos, depois o sumário.",
+            "dica": "Sem estilos, o sumário fica vazio."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um capítulo novo não aparece no sumário. Qual pode ser o motivo?",
+            "alternativas": [
+              "Ele não recebeu estilo de título ou o sumário não foi atualizado",
+              "O Word não aceita capítulos novos",
+              "O título é curto demais",
+              "A página é ímpar"
+            ],
+            "correta": 0,
+            "explicacao": "Faltou o estilo ou a atualização.",
+            "dica": "Pense nos dois passos que fazem o sumário funcionar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não usar vários Enter para começar um capítulo na página seguinte?",
+            "alternativas": [
+              "Porque o Enter apaga o texto",
+              "Porque, se o texto mudar, tudo sai do lugar",
+              "Porque o Word trava",
+              "Não há problema nenhum"
+            ],
+            "correta": 1,
+            "explicacao": "A quebra de página é fixa; os Enter empurram tudo.",
+            "dica": "O que acontece se você acrescentar uma linha antes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como ir direto do sumário para um capítulo?",
+            "alternativas": [
+              "Dar dois cliques no número",
+              "Apertar F5 três vezes",
+              "Imprimir o trabalho",
+              "Segurar Ctrl e clicar no título"
+            ],
+            "correta": 3,
+            "explicacao": "Ctrl + clique funciona como link.",
+            "dica": "Combina uma tecla com o clique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Acrescentou títulos novos. Qual opção escolher ao atualizar?",
+            "alternativas": [
+              "Atualizar o índice inteiro",
+              "Atualizar apenas os números de página",
+              "Remover sumário",
+              "Nenhuma, ele muda sozinho"
+            ],
+            "correta": 0,
+            "explicacao": "Títulos novos exigem atualizar tudo.",
+            "dica": "Mudou só página ou mudou título?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No sumário, por que alguns itens aparecem mais para a direita?",
+            "alternativas": [
+              "Estão com erro de digitação",
+              "São páginas em branco",
+              "São Título 2, subtítulos de um capítulo",
+              "São imagens"
+            ],
+            "correta": 2,
+            "explicacao": "O recuo mostra o nível.",
+            "dica": "Lembre do aprofundamento sobre recuo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana pintou os títulos de azul e aumentou a letra, mas o sumário saiu vazio. Por quê?",
+            "alternativas": [
+              "Azul não pode ser usado no Word",
+              "Ela não aplicou os estilos de título, só mudou a aparência",
+              "O sumário só funciona com letra pequena",
+              "Precisa imprimir antes"
+            ],
+            "correta": 1,
+            "explicacao": "Aparência parecida não é estilo de título.",
+            "dica": "O Word olha o estilo, não a cor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Trabalho: capa (página 1), sumário (2), Introdução (3). Ela pôs 10 linhas a mais na Introdução, que empurraram a Conclusão para outra página. O que atualizar?",
+            "alternativas": [
+              "O índice inteiro, obrigatoriamente",
+              "A capa",
+              "Só os números de página",
+              "Nada, ele já mudou"
+            ],
+            "correta": 2,
+            "explicacao": "Os títulos são os mesmos; só a página mudou.",
+            "dica": "Algum título novo foi criado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual organização fica certa no sumário?",
+            "alternativas": [
+              "Tudo em Título 2",
+              "Capítulos em Normal e partes em Título 1",
+              "Capítulo em Título 1 e suas partes em Título 2",
+              "Cada título com um estilo diferente qualquer"
+            ],
+            "correta": 2,
+            "explicacao": "Assim aparece a hierarquia: capítulo e partes.",
+            "dica": "Pense em níveis: o maior e o de dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o sumário automático é melhor que digitar as páginas?",
+            "alternativas": [
+              "Porque se atualiza com um clique e evita erro de página",
+              "Porque deixa a letra maior",
+              "Porque apaga os erros de português",
+              "Porque a escola exige cor azul"
+            ],
+            "correta": 0,
+            "explicacao": "Atualização rápida e números corretos.",
+            "dica": "Pense em mudar o trabalho na véspera."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao salvar o trabalho em PDF pelo Word, o que acontece com os títulos do sumário?",
+            "alternativas": [
+              "Somem do PDF",
+              "Viram imagens sem texto",
+              "Ficam todos em inglês",
+              "Continuam funcionando como links para as partes"
+            ],
+            "correta": 3,
+            "explicacao": "O Word leva os links para o PDF.",
+            "dica": "Releia o aprofundamento sobre o Ctrl + clique."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Produzir em etapas: cada um faz uma parte e todos ganham o justo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Produzir em etapas é dividir o trabalho em partes, e cada pessoa cuida de uma. É como uma linha de produção: uma mede, outra mistura, outra embala e outra confere.",
+          "Quando cada um faz sempre a mesma etapa, fica mais rápido e com mais qualidade, porque a pessoa pega prática. Assim a equipe produz muito mais do que se cada um fizesse tudo sozinho.",
+          "Antes de começar, o grupo combina como o dinheiro será dividido: por igual, se todos trabalham o mesmo tempo, ou pelas horas trabalhadas. O combinado deve ser anotado, para não haver briga depois.",
+          "Ninguém deve ficar sempre com a parte mais cansativa ou mais chata: um rodízio entre as etapas é justo e ensina todos a fazer tudo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quatro colegas faziam, cada um sozinho, 5 sabonetes por tarde. Em linha de produção, fizeram 60. Quantas vezes aumentou?",
+            "resolucao": "Sozinhos: 4 × 5 = 20. Em linha: 60. 60 ÷ 20 = 3. A produção triplicou."
+          },
+          {
+            "enunciado": "Venderam os 60 sabonetes a R$ 5, e cada um custou R$ 2 para fazer. Qual foi o lucro de cada colega, dividindo por igual?",
+            "resolucao": "Lucro por sabonete: 5 − 2 = R$ 3. Lucro total: 60 × 3 = R$ 180. Por pessoa: 180 ÷ 4 = R$ 45."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Divisão pelas horas é justa quando o tempo é diferente. Se Ana trabalhou 4 horas, Beto 2 e Caio 2 (8 horas no total) e o lucro foi R$ 160, cada hora vale 160 ÷ 8 = R$ 20. Ana recebe R$ 80, Beto R$ 40 e Caio R$ 40.",
+        "Numa empresa de verdade, quem lidera a linha de produção tem deveres: registrar os funcionários, pagar o salário combinado em dia, respeitar a jornada da lei e cuidar da segurança. Produzir mais nunca pode ser à custa de explorar as pessoas.",
+        "Uma etapa lenta atrasa todas as outras: é o gargalo. Se embalar demora o dobro, colocar duas pessoas na embalagem faz a linha toda andar mais rápido."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é produzir em etapas?",
+            "alternativas": [
+              "Cada um fazer tudo sozinho",
+              "Dividir o trabalho em partes, cada pessoa numa parte",
+              "Trabalhar sem combinar nada",
+              "Comprar o produto pronto"
+            ],
+            "correta": 1,
+            "explicacao": "Cada um cuida de uma etapa.",
+            "dica": "Pense numa linha de produção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a linha de produção fica mais rápida?",
+            "alternativas": [
+              "Cada um pega prática na sua etapa",
+              "Porque ninguém trabalha",
+              "Porque o produto fica menor",
+              "Porque é mais barato errar"
+            ],
+            "correta": 0,
+            "explicacao": "A prática deixa o trabalho rápido.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando combinar a divisão do dinheiro?",
+            "alternativas": [
+              "Depois que brigarem",
+              "Nunca",
+              "Antes de começar",
+              "Só no fim do ano"
+            ],
+            "correta": 2,
+            "explicacao": "Combinar antes evita briga.",
+            "dica": "Melhor prevenir do que remediar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um rodízio de etapas?",
+            "alternativas": [
+              "Trocar as pessoas de etapa de tempos em tempos",
+              "Deixar sempre o mesmo na parte chata",
+              "Parar a produção",
+              "Vender mais caro"
+            ],
+            "correta": 0,
+            "explicacao": "Todos passam por todas as etapas.",
+            "dica": "Rodízio lembra girar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "4 colegas fazem 5 sabonetes cada um. Quantos no total?",
+            "alternativas": [
+              "9",
+              "15",
+              "25",
+              "20"
+            ],
+            "correta": 3,
+            "explicacao": "4 × 5 = 20.",
+            "dica": "Multiplique."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Sozinhos faziam 20; em linha, 60. A produção ficou:",
+            "alternativas": [
+              "2 vezes maior",
+              "igual",
+              "3 vezes maior",
+              "40 vezes maior"
+            ],
+            "correta": 2,
+            "explicacao": "60 ÷ 20 = 3.",
+            "dica": "Divida o novo pelo antigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Vendem a R$ 5 um sabonete que custa R$ 2. Qual é o lucro de cada sabonete?",
+            "alternativas": [
+              "R$ 7",
+              "R$ 3",
+              "R$ 5",
+              "R$ 2"
+            ],
+            "correta": 1,
+            "explicacao": "5 − 2 = 3.",
+            "dica": "Preço menos custo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucro de R$ 180 dividido por igual entre 4 colegas dá:",
+            "alternativas": [
+              "R$ 40",
+              "R$ 60",
+              "R$ 176",
+              "R$ 45"
+            ],
+            "correta": 3,
+            "explicacao": "180 ÷ 4 = 45.",
+            "dica": "Divida o lucro pelas pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando é justo dividir por igual?",
+            "alternativas": [
+              "Quando todos trabalharam o mesmo tempo",
+              "Quando um faltou o dia todo",
+              "Sempre, mesmo sem combinar",
+              "Nunca"
+            ],
+            "correta": 0,
+            "explicacao": "Mesmo esforço, mesma parte.",
+            "dica": "Pense no tempo de cada um."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as etapas da linha de sabonetes:",
+            "itens": [
+              "Derreter a base",
+              "Misturar cor e cheiro",
+              "Colocar na forma",
+              "Desenformar e embalar"
+            ],
+            "explicacao": "Cada etapa depende da anterior.",
+            "dica": "O que precisa acontecer primeiro?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana trabalhou 4 horas, Beto 2 e Caio 2. O lucro foi R$ 160. Quanto Ana recebe, dividindo pelas horas?",
+            "alternativas": [
+              "R$ 53,33",
+              "R$ 80",
+              "R$ 40",
+              "R$ 64"
+            ],
+            "correta": 1,
+            "explicacao": "8 horas; R$ 20 por hora; Ana: 4 × 20 = 80.",
+            "dica": "Ache quanto vale uma hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na linha, embalar demora o dobro das outras etapas. Como melhorar?",
+            "alternativas": [
+              "Colocar mais uma pessoa na embalagem",
+              "Tirar gente da embalagem",
+              "Parar de embalar",
+              "Embalar só no dia seguinte"
+            ],
+            "correta": 0,
+            "explicacao": "Reforçar o gargalo faz a linha andar.",
+            "dica": "Onde está a etapa mais lenta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa fábrica de verdade, o que o líder da produção deve fazer?",
+            "alternativas": [
+              "Aumentar a jornada sem pagar",
+              "Pagar só quando quiser",
+              "Registrar, pagar em dia e cuidar da segurança",
+              "Dispensar o registro para economizar"
+            ],
+            "correta": 2,
+            "explicacao": "Liderar é organizar dentro da lei.",
+            "dica": "Pense nos deveres de quem contrata."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um colega quer receber mais porque \"teve a ideia\", mas isso não foi combinado. O que fazer?",
+            "alternativas": [
+              "Seguir o combinado e, se quiserem mudar, conversar e anotar para a próxima",
+              "Dar tudo para ele",
+              "Expulsar ele do grupo",
+              "Não pagar ninguém"
+            ],
+            "correta": 0,
+            "explicacao": "O combinado anotado vale.",
+            "dica": "Para que serve anotar o combinado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cinco colegas fizeram 90 cadernos artesanais. Cada um, sozinho, fazia 6. Quanto a linha rendeu a mais?",
+            "alternativas": [
+              "30 cadernos a mais",
+              "84 cadernos a mais",
+              "15 cadernos a mais",
+              "60 cadernos a mais"
+            ],
+            "correta": 3,
+            "explicacao": "Sozinhos: 5 × 6 = 30. Em linha: 90. 90 − 30 = 60.",
+            "dica": "Calcule quanto fariam separados."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucro de R$ 240. Lia trabalhou 5 h, Rui 3 h e Téo 4 h. Quanto Rui recebe pelas horas?",
+            "alternativas": [
+              "R$ 80",
+              "R$ 72",
+              "R$ 60",
+              "R$ 100"
+            ],
+            "correta": 2,
+            "explicacao": "12 horas; 240 ÷ 12 = R$ 20 por hora; Rui: 3 × 20 = 60.",
+            "dica": "Some as horas primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo caso, quanto recebe Lia?",
+            "alternativas": [
+              "R$ 100",
+              "R$ 80",
+              "R$ 120",
+              "R$ 60"
+            ],
+            "correta": 0,
+            "explicacao": "5 × 20 = 100.",
+            "dica": "Use o valor da hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Linha com 3 etapas: cortar (2 min), costurar (6 min) e embalar (2 min) por peça. O que limita a produção?",
+            "alternativas": [
+              "O corte",
+              "A embalagem",
+              "Nenhuma etapa",
+              "A costura, que é o gargalo"
+            ],
+            "correta": 3,
+            "explicacao": "A etapa mais lenta define o ritmo da linha.",
+            "dica": "Qual etapa demora mais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono de oficina dobrou a produção fazendo os funcionários trabalharem 12 horas por dia sem pagar extra. Qual é o problema?",
+            "alternativas": [
+              "Nenhum, produziu mais",
+              "É ilegal e pode gerar processo, multa e perda dos bons funcionários",
+              "Só falta comprar mais material",
+              "É o jeito certo de crescer"
+            ],
+            "correta": 1,
+            "explicacao": "Produzir mais não pode ser explorando pessoas.",
+            "dica": "Lembre do limite de jornada e dos riscos de tratar mal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Grupo de 4 vendeu 80 pulseiras a R$ 6, com custo de R$ 2,50 cada. Dividindo por igual, quanto cada um recebe?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 70",
+              "R$ 50",
+              "R$ 280"
+            ],
+            "correta": 1,
+            "explicacao": "Lucro por pulseira: 3,50; 80 × 3,50 = 280; 280 ÷ 4 = 70.",
+            "dica": "Ache o lucro de uma pulseira primeiro."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Sujeito e predicado",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Toda oração costuma ter duas partes: o sujeito e o predicado. Sujeito é o ser de quem se fala. Predicado é tudo o que se diz sobre o sujeito, e nele está o verbo.",
+          "Em \"A turma fez sabonetes.\", de quem se fala? Da turma: esse é o sujeito. O que se diz dela? Fez sabonetes: esse é o predicado.",
+          "A palavra mais importante do sujeito é o núcleo. Em \"Os alunos do 6º ano venderam tudo\", o núcleo é alunos. Para achar o sujeito, pergunte ao verbo: \"Quem vendeu?\"",
+          "O sujeito é simples quando tem um núcleo (\"Ana cantou\") e composto quando tem dois ou mais (\"Ana e Rui cantaram\")."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Separe o sujeito e o predicado: \"Minha avó faz pão de queijo.\"",
+            "resolucao": "Quem faz? Minha avó: sujeito (núcleo: avó). Predicado: faz pão de queijo."
+          },
+          {
+            "enunciado": "O sujeito de \"Chegaram os convidados.\" é qual?",
+            "resolucao": "Quem chegou? Os convidados. O sujeito veio depois do verbo, mas continua sendo o sujeito."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O sujeito pode estar escondido, indicado só pela terminação do verbo: em \"Fomos ao parque\", o sujeito é nós. Esse é o sujeito oculto (ou desinencial).",
+        "O verbo concorda com o sujeito: \"O menino corre\", \"Os meninos correm\". Quando o sujeito vem depois do verbo, muita gente erra a concordância: o certo é \"Chegaram as cartas\", e não \"Chegou as cartas\".",
+        "Sujeito composto pede verbo no plural: \"Bia e Davi fizeram a embalagem\"."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O sujeito é:",
+            "alternativas": [
+              "sempre o verbo",
+              "o fim da frase",
+              "o ser de quem se fala",
+              "um sinal de pontuação"
+            ],
+            "correta": 2,
+            "explicacao": "Sujeito é de quem se fala.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ana cantou.\", qual é o sujeito?",
+            "alternativas": [
+              "cantou",
+              "Ana cantou",
+              "não tem",
+              "Ana"
+            ],
+            "correta": 3,
+            "explicacao": "Quem cantou? Ana.",
+            "dica": "Pergunte ao verbo: quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica o verbo da oração?",
+            "alternativas": [
+              "No sujeito",
+              "No predicado",
+              "Fora da oração",
+              "Só no título"
+            ],
+            "correta": 1,
+            "explicacao": "O verbo faz parte do predicado.",
+            "dica": "O que se diz do sujeito inclui a ação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"O cachorro latiu.\", qual é o predicado?",
+            "alternativas": [
+              "latiu",
+              "O cachorro",
+              "O",
+              "cachorro"
+            ],
+            "correta": 0,
+            "explicacao": "O que se diz do cachorro? Latiu.",
+            "dica": "O que o cachorro fez?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ana e Rui cantaram.\" O sujeito é:",
+            "alternativas": [
+              "simples",
+              "composto",
+              "oculto",
+              "inexistente"
+            ],
+            "correta": 1,
+            "explicacao": "Dois núcleos: Ana e Rui.",
+            "dica": "Quantas pessoas cantaram?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o sujeito de \"Minha avó faz pão de queijo.\"?",
+            "alternativas": [
+              "faz pão de queijo",
+              "pão de queijo",
+              "faz",
+              "Minha avó"
+            ],
+            "correta": 3,
+            "explicacao": "Quem faz? Minha avó.",
+            "dica": "Pergunte: quem faz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o núcleo do sujeito em \"Os alunos do 6º ano venderam tudo.\"?",
+            "alternativas": [
+              "Os",
+              "alunos",
+              "6º ano",
+              "venderam"
+            ],
+            "correta": 1,
+            "explicacao": "A palavra principal é alunos.",
+            "dica": "Qual é a palavra mais importante do sujeito?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o sujeito de \"Chegaram os convidados.\"?",
+            "alternativas": [
+              "os convidados",
+              "Chegaram",
+              "não tem sujeito",
+              "Chegaram os"
+            ],
+            "correta": 0,
+            "explicacao": "Quem chegou? Os convidados.",
+            "dica": "O sujeito pode vir depois do verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Fomos ao parque.\", o sujeito é:",
+            "alternativas": [
+              "parque",
+              "ao parque",
+              "nós, oculto",
+              "eles"
+            ],
+            "correta": 2,
+            "explicacao": "A terminação de fomos indica nós.",
+            "dica": "Quem foi? Olhe a terminação do verbo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene para formar uma oração com sujeito antes do predicado:",
+            "itens": [
+              "A professora",
+              "corrigiu",
+              "as provas",
+              "ontem."
+            ],
+            "explicacao": "Sujeito (a professora) + predicado (corrigiu as provas ontem).",
+            "dica": "Comece por de quem se fala."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem concordância correta?",
+            "alternativas": [
+              "Chegou as cartas.",
+              "As cartas chegou.",
+              "Chegaram as cartas.",
+              "Chegou-se as cartas."
+            ],
+            "correta": 2,
+            "explicacao": "Sujeito plural (as cartas) pede verbo plural.",
+            "dica": "Quem chegou? Uma ou várias?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Bia e Davi ___ a embalagem.\" Complete:",
+            "alternativas": [
+              "fizeram",
+              "fez",
+              "faz",
+              "fazia"
+            ],
+            "correta": 0,
+            "explicacao": "Sujeito composto pede plural.",
+            "dica": "São duas pessoas: singular ou plural?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"No fim da tarde, saíram da escola os alunos da 6ª A.\", o sujeito é:",
+            "alternativas": [
+              "No fim da tarde",
+              "os alunos da 6ª A",
+              "da escola",
+              "saíram"
+            ],
+            "correta": 1,
+            "explicacao": "Quem saiu? Os alunos da 6ª A.",
+            "dica": "Pergunte ao verbo saíram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual oração tem sujeito oculto?",
+            "alternativas": [
+              "A turma vendeu os sabonetes.",
+              "Rui e Lia venderam.",
+              "Os sabonetes foram vendidos pela turma.",
+              "Vendemos todos os sabonetes."
+            ],
+            "correta": 3,
+            "explicacao": "Vendemos indica nós, sem a palavra aparecer.",
+            "dica": "Procure o sujeito que não aparece escrito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o núcleo do sujeito em \"O cheiro gostoso do pão invadiu a rua.\"?",
+            "alternativas": [
+              "pão",
+              "gostoso",
+              "rua",
+              "cheiro"
+            ],
+            "correta": 3,
+            "explicacao": "O que invadiu? O cheiro.",
+            "dica": "Gostoso e do pão falam sobre qual palavra?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Meus primos de Belém e minha tia chegaram ontem.\", quantos núcleos tem o sujeito?",
+            "alternativas": [
+              "1: primos",
+              "3: primos, Belém e tia",
+              "2: primos e tia",
+              "Nenhum, é oculto"
+            ],
+            "correta": 2,
+            "explicacao": "Belém só acompanha primos; os núcleos são primos e tia.",
+            "dica": "Belém é quem chegou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro de concordância?",
+            "alternativas": [
+              "Faltaram dois alunos na aula.",
+              "Faltou dois alunos na aula.",
+              "Dois alunos faltaram na aula.",
+              "Faltou um aluno na aula."
+            ],
+            "correta": 1,
+            "explicacao": "Quem faltou? Dois alunos: plural.",
+            "dica": "Ache o sujeito, mesmo depois do verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Na feira da escola, vendemos cem pulseiras.\", qual é o predicado?",
+            "alternativas": [
+              "Na feira da escola",
+              "nós",
+              "cem pulseiras",
+              "vendemos cem pulseiras na feira da escola"
+            ],
+            "correta": 3,
+            "explicacao": "O sujeito é nós (oculto); todo o resto é predicado.",
+            "dica": "Se o sujeito está escondido, o que sobra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o sujeito de \"Brilhavam no céu muitas estrelas.\"?",
+            "alternativas": [
+              "no céu",
+              "muitas estrelas",
+              "Brilhavam",
+              "céu"
+            ],
+            "correta": 1,
+            "explicacao": "O que brilhava? Muitas estrelas.",
+            "dica": "Pergunte ao verbo: o que brilhava?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete corretamente: \"___ muitos pedidos na loja ontem.\"",
+            "alternativas": [
+              "Chegaram",
+              "Chegou",
+              "Chega",
+              "Chegou-se"
+            ],
+            "correta": 0,
+            "explicacao": "Sujeito: muitos pedidos (plural).",
+            "dica": "Quem chegou?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A linha dos sabonetes da 6ª A",
+    "texto": "A 6ª A queria vender sabonetes na feira de ciências. No primeiro dia, cada um dos quatro colegas fez tudo sozinho: derreteu, misturou, enformou e embalou. No fim da tarde, havia vinte sabonetes tortos na mesa.\n\n— Assim não dá — disse Luana. — Vamos fazer como numa fábrica.\n\nNo dia seguinte, Bia derretia a base, Davi misturava a cor e o cheiro, Téo enchia as formas e Luana desenformava e embalava. A cada hora, trocavam de lugar, para ninguém ficar só com a parte mais chata.\n\nNo fim da tarde, havia sessenta sabonetes bonitos: o triplo!\n\nAntes da feira, eles anotaram o combinado num papel: como todos trabalharam o mesmo tempo, o lucro seria dividido por igual.\n\nVenderam tudo. Tiraram o custo do material e cada um ficou com quarenta e cinco reais.\n\n— O segredo não foi trabalhar mais — concluiu Davi. — Foi trabalhar junto."
+  },
+  "escrita": {
+    "proposta": "Explique em 6 a 8 linhas como você dividiria em etapas a produção de um produto (por exemplo, pulseiras, cartões ou brigadeiros para a feira da escola) com três amigos. Diga qual seria cada etapa, quem faria o quê, como funcionaria o rodízio e como vocês repartiriam o dinheiro de forma justa."
+  }
+}

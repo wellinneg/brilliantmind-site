@@ -1,0 +1,1205 @@
+{
+  "dia": 51,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Circunferência: raio, diâmetro e o número pi",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Circunferência é a linha redonda formada por todos os pontos que ficam à mesma distância de um ponto central, o centro. O contorno de uma roda, de um prato ou de uma moeda é uma circunferência.",
+          "O raio (r) é o segmento que vai do centro até a circunferência. O diâmetro (d) atravessa a circunferência passando pelo centro: ele vale dois raios. Então d = 2 × r e r = d ÷ 2.",
+          "Se você medir o contorno de qualquer objeto redondo e dividir pelo diâmetro, vai achar sempre o mesmo número, um pouco maior que 3. Esse número se chama pi (π) e vale aproximadamente 3,14.",
+          "Por isso, o comprimento da circunferência é C = π × d, ou C = 2 × π × r. Na escola, usamos π ≈ 3,14.",
+          "Para achar o diâmetro a partir do contorno, fazemos o caminho de volta: d = C ÷ π."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma roda de bicicleta tem 60 cm de diâmetro. Quanto ela anda em uma volta completa? E em 100 voltas?",
+            "resolucao": "C = 3,14 × 60 = 188,4 cm por volta. Em 100 voltas: 188,4 × 100 = 18 840 cm = 188,4 m."
+          },
+          {
+            "enunciado": "Um prato tem 12 cm de raio. Qual é o comprimento da sua borda?",
+            "resolucao": "C = 2 × 3,14 × 12 = 75,36 cm."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O pi não é um número exato: suas casas decimais continuam para sempre, sem repetir um padrão (3,14159265…). Por isso usamos aproximações, como 3,14 ou a fração 22/7, que vale cerca de 3,142.",
+        "Como C = π × d, se o diâmetro dobra, o comprimento dobra; se o raio triplica, o comprimento triplica. Cuidado: isso vale para o comprimento, não para a área.",
+        "Um fato surpreendente: aumentar o raio em 1 metro sempre aumenta o comprimento em 2 × π × 1 ≈ 6,28 m, seja numa moeda, seja na Terra inteira. E o contorno de uma meia circunferência é metade de C, mais o diâmetro se a parte reta também entrar na conta."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O raio de uma circunferência mede 5 cm. Quanto mede o diâmetro?",
+            "alternativas": [
+              "10 cm",
+              "15 cm",
+              "5 cm",
+              "2,5 cm"
+            ],
+            "correta": 0,
+            "explicacao": "O diâmetro vale dois raios: 2 × 5 = 10 cm.",
+            "dica": "O diâmetro atravessa a roda inteira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O diâmetro de um prato mede 12 cm. Quanto mede o raio?",
+            "alternativas": [
+              "3 cm",
+              "24 cm",
+              "12 cm",
+              "6 cm"
+            ],
+            "correta": 3,
+            "explicacao": "O raio é metade do diâmetro: 12 ÷ 2 = 6 cm.",
+            "dica": "O raio vai só do centro até a borda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o segmento que vai do centro até a circunferência?",
+            "alternativas": [
+              "Diâmetro",
+              "Contorno",
+              "Raio",
+              "Pi"
+            ],
+            "correta": 2,
+            "explicacao": "O raio liga o centro a um ponto da circunferência.",
+            "dica": "É a metade do diâmetro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor aproximado de π usado na escola?",
+            "alternativas": [
+              "1,34",
+              "3,14",
+              "2,14",
+              "4,13"
+            ],
+            "correta": 1,
+            "explicacao": "π ≈ 3,14: o contorno é um pouco mais de 3 vezes o diâmetro.",
+            "dica": "É um pouco maior que 3."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular o contorno de uma roda conhecendo o raio.",
+            "itens": [
+              "Medir o raio",
+              "Dobrar o raio para achar o diâmetro",
+              "Multiplicar o diâmetro por 3,14",
+              "Escrever o resultado com a unidade"
+            ],
+            "explicacao": "Primeiro o raio, depois o diâmetro, depois C = π × d, e por fim a unidade.",
+            "dica": "Comece pela medida que você tem."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma tampa redonda tem 10 cm de diâmetro. Qual é o comprimento da sua borda?",
+            "alternativas": [
+              "13,14 cm",
+              "31,4 cm",
+              "15,7 cm",
+              "314 cm"
+            ],
+            "correta": 1,
+            "explicacao": "C = 3,14 × 10 = 31,4 cm.",
+            "dica": "Multiplique o diâmetro por π."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um canteiro redondo tem 3 m de raio. Qual é o comprimento do seu contorno?",
+            "alternativas": [
+              "9,42 m",
+              "6,28 m",
+              "28,26 m",
+              "18,84 m"
+            ],
+            "correta": 3,
+            "explicacao": "C = 2 × 3,14 × 3 = 18,84 m.",
+            "dica": "Com o raio, use C = 2 × π × r."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma roda de 50 cm de diâmetro dá 10 voltas completas. Quanto ela anda?",
+            "alternativas": [
+              "15,7 m",
+              "1,57 m",
+              "157 m",
+              "5 m"
+            ],
+            "correta": 0,
+            "explicacao": "Uma volta: 3,14 × 50 = 157 cm. Dez voltas: 1570 cm = 15,7 m.",
+            "dica": "Calcule uma volta e multiplique por 10. Depois passe para metros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A borda de uma bandeja redonda mede 62,8 cm. Qual é o diâmetro da bandeja?",
+            "alternativas": [
+              "40 cm",
+              "10 cm",
+              "31,4 cm",
+              "20 cm"
+            ],
+            "correta": 3,
+            "explicacao": "d = C ÷ π = 62,8 ÷ 3,14 = 20 cm.",
+            "dica": "Faça o caminho de volta: divida por π."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dividindo o contorno de qualquer circunferência pelo seu diâmetro, o resultado é sempre:",
+            "alternativas": [
+              "o raio",
+              "2",
+              "π, cerca de 3,14",
+              "um número que depende do tamanho"
+            ],
+            "correta": 2,
+            "explicacao": "Essa divisão dá sempre o mesmo número, o pi.",
+            "dica": "Lembre de onde vem o número pi."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pista circular tem 20 m de raio. Quanto anda quem dá 3 voltas?",
+            "alternativas": [
+              "251,2 m",
+              "188,4 m",
+              "1256 m",
+              "376,8 m"
+            ],
+            "correta": 3,
+            "explicacao": "Uma volta: 2 × 3,14 × 20 = 125,6 m. Três voltas: 376,8 m.",
+            "dica": "Calcule uma volta com o raio e depois multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A roda da bicicleta tem 60 cm de diâmetro. Quantas voltas completas ela dá para andar 942 m?",
+            "alternativas": [
+              "157",
+              "50",
+              "500",
+              "5000"
+            ],
+            "correta": 2,
+            "explicacao": "Uma volta: 3,14 × 0,6 = 1,884 m. 942 ÷ 1,884 = 500 voltas.",
+            "dica": "Passe o diâmetro para metros antes de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um canteiro redondo de 4 m de diâmetro vai receber 3 voltas de arame. Quantos metros de arame são necessários?",
+            "alternativas": [
+              "50,24 m",
+              "25,12 m",
+              "12,56 m",
+              "37,68 m"
+            ],
+            "correta": 3,
+            "explicacao": "Uma volta: 3,14 × 4 = 12,56 m. Três voltas: 37,68 m.",
+            "dica": "Uma volta de arame é o contorno do canteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas rodas rolam juntas pelo chão: uma tem 30 cm de diâmetro e a outra, 60 cm. Quando a maior dá 1 volta, quantas voltas dá a menor?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "O contorno da maior é o dobro do da menor, então a menor gira duas vezes no mesmo caminho.",
+            "dica": "Compare os diâmetros: o π aparece nos dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A borda de uma toalha redonda mede 1,57 m. Qual é o raio da toalha?",
+            "alternativas": [
+              "15,7 cm",
+              "25 cm",
+              "50 cm",
+              "78,5 cm"
+            ],
+            "correta": 1,
+            "explicacao": "d = 1,57 ÷ 3,14 = 0,5 m = 50 cm. O raio é metade: 25 cm.",
+            "dica": "Ache o diâmetro primeiro e não pare aí."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma corda contorna a Terra no equador, colada ao chão. Quantos metros a mais ela precisa para ficar 1 m acima do chão em toda a volta?",
+            "alternativas": [
+              "1 m",
+              "Uns 40 mil quilômetros",
+              "Cerca de 6,28 m",
+              "3,14 m"
+            ],
+            "correta": 2,
+            "explicacao": "O raio aumenta 1 m, então C aumenta 2 × 3,14 × 1 = 6,28 m, não importa o tamanho da Terra.",
+            "dica": "Pense no que acontece com C quando o raio aumenta 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o contorno de uma meia circunferência de 10 cm de diâmetro, contando também a parte reta?",
+            "alternativas": [
+              "25,7 cm",
+              "31,4 cm",
+              "20,7 cm",
+              "15,7 cm"
+            ],
+            "correta": 0,
+            "explicacao": "Metade de 31,4 é 15,7 cm; somando o diâmetro de 10 cm: 25,7 cm.",
+            "dica": "A parte curva é metade de C. Falta somar algo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o raio de uma roda triplica, o que acontece com o comprimento da circunferência?",
+            "alternativas": [
+              "Aumenta só 3 cm",
+              "Não muda",
+              "Fica 9 vezes maior",
+              "Fica 3 vezes maior"
+            ],
+            "correta": 3,
+            "explicacao": "C = 2 × π × r: o comprimento é proporcional ao raio. O 9 vezes vale para a área, não para o contorno.",
+            "dica": "Veja a fórmula: o raio aparece multiplicando uma única vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando π = 22/7, quanto anda uma roda de 70 cm de diâmetro em 100 voltas?",
+            "alternativas": [
+              "220 m",
+              "22 m",
+              "2,2 km",
+              "110 m"
+            ],
+            "correta": 0,
+            "explicacao": "Uma volta: 22/7 × 70 = 220 cm. Cem voltas: 22 000 cm = 220 m.",
+            "dica": "70 é múltiplo de 7: a conta fica fácil."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas amigas correm uma volta cada em pistas circulares: uma de 10 m de raio e outra de 12 m de raio. Quanto a segunda corre a mais?",
+            "alternativas": [
+              "6,28 m",
+              "12,56 m",
+              "4 m",
+              "2 m"
+            ],
+            "correta": 1,
+            "explicacao": "A diferença dos raios é 2 m, então a diferença dos contornos é 2 × 3,14 × 2 = 12,56 m.",
+            "dica": "Não precisa calcular cada pista: use a diferença dos raios."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Banco digital e conta para menor de idade",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Banco digital é um banco que funciona pelo aplicativo do celular, sem agência para atender no balcão. A conta é aberta pelo próprio app, com foto do documento e uma selfie. Antes de escolher, confira se a instituição é autorizada pelo Banco Central.",
+          "Quem tem menos de 18 anos, em geral, abre a conta junto com um responsável (mãe, pai ou tutor), que autoriza e pode acompanhar o que entra e o que sai. Muitos bancos têm contas próprias para crianças e adolescentes, com limites menores.",
+          "Com a conta, dá para receber a mesada ou um presente por Pix, pagar com cartão de débito (que só gasta o dinheiro que já está na conta) e separar dinheiro em cofrinhos para uma meta.",
+          "Segurança vem antes de tudo: a senha é só sua, o banco nunca pede senha nem código por telefone ou mensagem, e links estranhos não devem ser abertos. Nunca empreste a sua conta para alguém receber ou passar dinheiro: isso é muito usado em golpes e pode trazer problemas sérios para você e sua família.",
+          "Compare as tarifas, leia o extrato toda semana e avise um adulto se aparecer algo que você não reconhece."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Lia tinha R$ 40,00 na conta. Recebeu R$ 30,00 de mesada por Pix, pagou um lanche de R$ 12,50 no débito e separou R$ 20,00 no cofrinho. Quanto ficou disponível?",
+            "resolucao": "40 + 30 = 70. 70 − 12,50 = 57,50. 57,50 − 20 = R$ 37,50 disponíveis (e R$ 20,00 guardados)."
+          },
+          {
+            "enunciado": "Uma conta cobra R$ 15,00 de tarifa por mês. Quanto ela custa em um ano?",
+            "resolucao": "15 × 12 = R$ 180,00. Uma conta sem tarifa economiza esse valor."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O Fundo Garantidor de Créditos (FGC) protege o dinheiro guardado em bancos e instituições participantes: se uma delas quebrar, ele devolve até R$ 250 mil por CPF em cada instituição. O limite é por instituição, e não para o total.",
+        "Dinheiro guardado em cofrinho pode render um pouco. Se o rendimento for maior que a inflação, o poder de compra cresce; se for menor, o dinheiro perde valor mesmo guardado.",
+        "Golpes costumam ter dois sinais: pressa (\"sua conta será bloqueada hoje\") e um link ou pedido de código. Na dúvida, feche a mensagem e fale com o banco pelo número oficial do aplicativo ou do cartão."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um banco digital funciona principalmente por onde?",
+            "alternativas": [
+              "Pelo aplicativo no celular",
+              "Por carta",
+              "Só pela agência",
+              "Só pelo caixa eletrônico"
+            ],
+            "correta": 0,
+            "explicacao": "No banco digital, quase tudo é feito pelo app.",
+            "dica": "Pense no aparelho que você carrega no bolso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem tem menos de 18 anos, em geral, abre conta com:",
+            "alternativas": [
+              "um amigo maior de idade",
+              "um responsável",
+              "ninguém, sozinho e sem documento",
+              "o diretor da escola"
+            ],
+            "correta": 1,
+            "explicacao": "O responsável autoriza e pode acompanhar a conta.",
+            "dica": "É quem cuida legalmente de você."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No cartão de débito, você gasta:",
+            "alternativas": [
+              "só o dinheiro que está na conta",
+              "sem precisar de saldo",
+              "o salário do mês que vem",
+              "dinheiro emprestado pelo banco"
+            ],
+            "correta": 0,
+            "explicacao": "O débito tira o valor na hora, do saldo que existe.",
+            "dica": "Débito tira na hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A senha do banco deve ser contada para:",
+            "alternativas": [
+              "o melhor amigo",
+              "quem ligar dizendo ser do banco",
+              "ninguém",
+              "o grupo da turma"
+            ],
+            "correta": 2,
+            "explicacao": "A senha é pessoal. O banco nunca pede senha por telefone.",
+            "dica": "Nem quem diz ser do banco pode saber."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você tinha R$ 20,00 e recebeu R$ 15,00 por Pix. Qual é o saldo?",
+            "alternativas": [
+              "R$ 5,00",
+              "R$ 25,00",
+              "R$ 30,00",
+              "R$ 35,00"
+            ],
+            "correta": 3,
+            "explicacao": "20 + 15 = R$ 35,00.",
+            "dica": "Receber é somar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você tinha R$ 50,00 e pagou R$ 18,90 no débito. Qual é o saldo?",
+            "alternativas": [
+              "R$ 31,10",
+              "R$ 31,90",
+              "R$ 32,10",
+              "R$ 68,90"
+            ],
+            "correta": 0,
+            "explicacao": "50,00 − 18,90 = 31,10.",
+            "dica": "Faça a subtração com cuidado nos centavos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém oferece R$ 50,00 para usar a sua conta só para receber um dinheiro e passar adiante. O que fazer?",
+            "alternativas": [
+              "Aceitar se for um amigo",
+              "Aceitar, porque é dinheiro fácil",
+              "Recusar e contar a um adulto: isso é usado em golpes",
+              "Aceitar só uma vez"
+            ],
+            "correta": 2,
+            "explicacao": "Contas emprestadas servem para esconder dinheiro de golpe, e o dono da conta acaba envolvido.",
+            "dica": "Por que alguém pagaria para usar a conta de outra pessoa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de abrir conta num banco digital, o que é importante conferir?",
+            "alternativas": [
+              "Se tem muitos anúncios",
+              "Se a cor do app é bonita",
+              "Se um famoso recomendou",
+              "Se ele é autorizado pelo Banco Central"
+            ],
+            "correta": 3,
+            "explicacao": "O Banco Central autoriza e fiscaliza bancos e instituições de pagamento.",
+            "dica": "Quem fiscaliza os bancos no Brasil?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma conta cobra R$ 12,00 de tarifa por mês. Quanto custa em um ano?",
+            "alternativas": [
+              "R$ 132,00",
+              "R$ 144,00",
+              "R$ 156,00",
+              "R$ 120,00"
+            ],
+            "correta": 1,
+            "explicacao": "12 × 12 = 144.",
+            "dica": "Um ano tem 12 meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ligam dizendo ser do banco e pedem o código que chegou por SMS. O que fazer?",
+            "alternativas": [
+              "Passar o código",
+              "Desligar e falar com o banco pelo número oficial",
+              "Passar se a pessoa souber o seu nome",
+              "Passar só metade do código"
+            ],
+            "correta": 1,
+            "explicacao": "O banco nunca pede código por telefone. Saber seu nome não prova nada.",
+            "dica": "Quem ligou pode ser qualquer pessoa."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafa recebe R$ 60,00 de mesada por mês e guarda 25% no cofrinho. Quanto terá guardado em 6 meses?",
+            "alternativas": [
+              "R$ 15,00",
+              "R$ 90,00",
+              "R$ 150,00",
+              "R$ 360,00"
+            ],
+            "correta": 1,
+            "explicacao": "25% de 60 = 15 por mês. 15 × 6 = 90.",
+            "dica": "Ache quanto guarda num mês e depois multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Saldo inicial: R$ 80,00. Entrou um Pix de R$ 45,00 e saíram R$ 23,50 e R$ 9,90 no débito. Qual é o saldo final?",
+            "alternativas": [
+              "R$ 101,50",
+              "R$ 92,60",
+              "R$ 91,60",
+              "R$ 158,40"
+            ],
+            "correta": 2,
+            "explicacao": "80 + 45 = 125. 125 − 23,50 = 101,50. 101,50 − 9,90 = 91,60.",
+            "dica": "Some as entradas e tire as saídas uma de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Banco A: sem tarifa, mas cobra R$ 6,50 por saque. Banco B: tarifa de R$ 9,90 por mês com saques livres. Quem saca 2 vezes por mês gasta menos em qual?",
+            "alternativas": [
+              "No Banco B, R$ 3,10 a menos",
+              "Os dois custam igual",
+              "No Banco A, R$ 3,10 a menos",
+              "No Banco A, porque não tem tarifa"
+            ],
+            "correta": 0,
+            "explicacao": "A: 2 × 6,50 = 13,00. B: 9,90. B sai 3,10 mais barato.",
+            "dica": "Calcule o custo do mês nos dois bancos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Aparece no extrato uma compra de R$ 39,90 que você não fez. Qual é a melhor atitude?",
+            "alternativas": [
+              "Esperar seis meses para ver se some",
+              "Postar os dados do cartão nas redes pedindo ajuda",
+              "Ignorar, é pouco dinheiro",
+              "Avisar o responsável, bloquear o cartão e contestar pelo canal oficial"
+            ],
+            "correta": 3,
+            "explicacao": "Agir rápido pelo canal oficial aumenta a chance de recuperar o dinheiro e impede novas compras.",
+            "dica": "O que impede que aconteça de novo?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para ter uma conta com segurança.",
+            "itens": [
+              "Conversar com o responsável e escolher um banco autorizado",
+              "Baixar o aplicativo pela loja oficial",
+              "Enviar os documentos e criar uma senha forte",
+              "Conferir o extrato com frequência"
+            ],
+            "explicacao": "Primeiro a escolha com o adulto, depois o app oficial, o cadastro e, por fim, o acompanhamento.",
+            "dica": "O que vem antes de baixar qualquer coisa?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O FGC garante até R$ 250 mil por CPF em cada instituição. Uma pessoa tem R$ 180 mil no banco X e R$ 120 mil no banco Y, e os dois quebram. Quanto o FGC devolve?",
+            "alternativas": [
+              "R$ 500 mil",
+              "R$ 120 mil",
+              "R$ 300 mil",
+              "R$ 250 mil"
+            ],
+            "correta": 2,
+            "explicacao": "O limite é por instituição: 180 mil (abaixo do limite) + 120 mil (abaixo do limite) = 300 mil.",
+            "dica": "O limite vale para o total ou para cada banco?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cofrinho rende 0,8% ao mês e a inflação está em 0,5% ao mês. O que acontece com o poder de compra desse dinheiro?",
+            "alternativas": [
+              "Diminui",
+              "Fica igual",
+              "Dobra",
+              "Aumenta um pouco"
+            ],
+            "correta": 3,
+            "explicacao": "O rendimento é maior que a alta dos preços, então o dinheiro compra um pouco mais com o tempo.",
+            "dica": "Compare o que o dinheiro ganha com o que os preços sobem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia tem R$ 120,00. Vai pagar 3 lanches de R$ 8,50 e uma recarga de transporte de R$ 40,00, e quer guardar R$ 30,00. Quanto sobra para gastar livre?",
+            "alternativas": [
+              "R$ 34,50",
+              "R$ 24,50",
+              "R$ 54,50",
+              "R$ 25,50"
+            ],
+            "correta": 1,
+            "explicacao": "Lanches: 25,50. 120 − 25,50 − 40 − 30 = 24,50.",
+            "dica": "Multiplique os lanches antes de subtrair tudo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Chega a mensagem: \"Sua conta será bloqueada hoje. Clique no link para atualizar.\" Qual é a análise correta?",
+            "alternativas": [
+              "Tem pressa e link: sinais de golpe, então não clicar",
+              "É verdade, porque fala da sua conta",
+              "Basta clicar e não digitar a senha",
+              "É seguro se o link for curto"
+            ],
+            "correta": 0,
+            "explicacao": "Pressa e link são os dois sinais clássicos de golpe. Até abrir o link já pode ser perigoso.",
+            "dica": "Lembre os dois sinais citados no aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma conta tradicional cobra R$ 18,50 por mês e uma digital é grátis. Quanto se economiza em 2 anos com a digital?",
+            "alternativas": [
+              "R$ 222,00",
+              "R$ 185,00",
+              "R$ 370,00",
+              "R$ 444,00"
+            ],
+            "correta": 3,
+            "explicacao": "2 anos = 24 meses. 18,50 × 24 = 444,00.",
+            "dica": "Quantos meses há em dois anos?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Ordenar uma lista: como o computador organiza",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Ordenar é colocar os itens em ordem: crescente (do menor para o maior), decrescente (do maior para o menor) ou alfabética. O computador faz isso comparando dois itens de cada vez.",
+          "Para trocar dois valores de lugar, precisamos de uma variável auxiliar: aux ← a; a ← b; b ← aux. Sem o aux, um dos valores se perde.",
+          "Método da bolha: percorra a lista comparando vizinhos; SE o da esquerda for maior ENTÃO troque os dois. No fim de uma passada, o maior valor \"borbulha\" até o fim da lista. Repita as passadas até não haver mais trocas.",
+          "Método da seleção: ache o menor valor e coloque-o na 1ª posição; depois ache o menor do resto e coloque-o na 2ª posição, e assim por diante.",
+          "Em Python, lista.sort() ordena em ordem crescente e lista.sort(reverse=True), em ordem decrescente. Mesmo assim, entender o passo a passo ajuda a resolver problemas parecidos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Faça o método da bolha em [5, 3, 8, 1].",
+            "resolucao": "1ª passada: 5 > 3, troca → [3, 5, 8, 1]; 5 < 8, fica; 8 > 1, troca → [3, 5, 1, 8]. 2ª passada: → [3, 1, 5, 8]. 3ª passada: → [1, 3, 5, 8]."
+          },
+          {
+            "enunciado": "Faça o método da seleção em [7, 2, 9, 4].",
+            "resolucao": "O menor é 2: troca com o 7 → [2, 7, 9, 4]. Do resto, o menor é 4: troca com o 7 → [2, 4, 9, 7]. Do resto, o menor é 7: troca com o 9 → [2, 4, 7, 9]."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cada troca de vizinhos na bolha desfaz exatamente um par que estava fora de ordem. Por isso, o número total de trocas é igual ao número de pares fora de ordem da lista. Uma boa melhoria é parar quando uma passada inteira não fizer nenhuma troca.",
+        "Na bolha, uma lista de n itens pode exigir até n × (n − 1) ÷ 2 comparações: 10 itens, 45 comparações; 1000 itens, quase meio milhão. Por isso, os computadores usam métodos mais rápidos para listas grandes.",
+        "Lista ordenada facilita a busca: na busca binária, você olha o item do meio e descarta a metade onde o valor não pode estar. Com 100 itens, bastam no máximo 7 olhadas. Atenção: em Python, letras maiúsculas vêm antes das minúsculas, então sorted(['bia', 'Ana']) dá ['Ana', 'bia']."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fica [4, 1, 3] em ordem crescente?",
+            "alternativas": [
+              "[3, 1, 4]",
+              "[1, 3, 4]",
+              "[1, 4, 3]",
+              "[4, 3, 1]"
+            ],
+            "correta": 1,
+            "explicacao": "Crescente vai do menor para o maior: 1, 3, 4.",
+            "dica": "Comece pelo menor número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é ordem decrescente?",
+            "alternativas": [
+              "Do maior para o menor",
+              "Em ordem alfabética",
+              "Do menor para o maior",
+              "Na ordem em que foram digitados"
+            ],
+            "correta": 0,
+            "explicacao": "Decrescer é diminuir: começa pelo maior.",
+            "dica": "Decrescer quer dizer diminuir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem alfabética de Bia, Ana e Caio?",
+            "alternativas": [
+              "Ana, Caio, Bia",
+              "Bia, Ana, Caio",
+              "Ana, Bia, Caio",
+              "Caio, Bia, Ana"
+            ],
+            "correta": 2,
+            "explicacao": "A vem antes de B, que vem antes de C.",
+            "dica": "Olhe a primeira letra de cada nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para trocar dois valores de lugar sem perder nenhum, usamos:",
+            "alternativas": [
+              "uma lista vazia",
+              "um laço infinito",
+              "apagar um dos valores",
+              "uma variável auxiliar"
+            ],
+            "correta": 3,
+            "explicacao": "O aux guarda um valor enquanto o outro muda de lugar.",
+            "dica": "Alguém precisa segurar um valor por um momento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os números em ordem crescente.",
+            "itens": [
+              "2",
+              "5",
+              "7",
+              "9"
+            ],
+            "explicacao": "Do menor para o maior: 2, 5, 7, 9.",
+            "dica": "Ache primeiro o menor de todos."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fica [6, 2, 5, 1] depois da 1ª passada da bolha?",
+            "alternativas": [
+              "[1, 2, 5, 6]",
+              "[2, 5, 1, 6]",
+              "[2, 6, 1, 5]",
+              "[2, 5, 6, 1]"
+            ],
+            "correta": 1,
+            "explicacao": "6 > 2 troca, 6 > 5 troca, 6 > 1 troca: o 6 vai para o fim → [2, 5, 1, 6].",
+            "dica": "Na 1ª passada, o maior vai para o fim; o resto só se mexe um pouco."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a ← 3; b ← 8; aux ← a; a ← b; b ← aux. Quanto valem a e b no fim?",
+            "alternativas": [
+              "a = 8 e b = 3",
+              "a = 3 e b = 3",
+              "a = 3 e b = 8",
+              "a = 8 e b = 8"
+            ],
+            "correta": 0,
+            "explicacao": "aux guarda 3; a recebe 8; b recebe o 3 guardado.",
+            "dica": "Siga linha por linha, anotando cada variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a ← 3; b ← 8; a ← b; b ← a (sem aux). Quanto valem a e b no fim?",
+            "alternativas": [
+              "a = 8 e b = 3",
+              "a = 3 e b = 8",
+              "a = 8 e b = 8",
+              "a = 3 e b = 3"
+            ],
+            "correta": 2,
+            "explicacao": "Quando a recebe 8, o 3 se perde. Depois b recebe o 8 de a.",
+            "dica": "Depois de a ← b, ainda existe algum 3?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Método da seleção em [9, 4, 7, 2]: como fica a lista depois da 1ª troca?",
+            "alternativas": [
+              "[4, 7, 2, 9]",
+              "[4, 9, 7, 2]",
+              "[2, 9, 4, 7]",
+              "[2, 4, 7, 9]"
+            ],
+            "correta": 3,
+            "explicacao": "O menor é 2 e troca de lugar com o primeiro, o 9.",
+            "dica": "O menor de todos vai para a 1ª posição, trocando com quem estava lá."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas ← [7, 10, 5]; notas.sort(reverse=True). Como fica notas?",
+            "alternativas": [
+              "[7, 10, 5]",
+              "[5, 7, 10]",
+              "[10, 7, 5]",
+              "[10, 5, 7]"
+            ],
+            "correta": 2,
+            "explicacao": "reverse=True ordena em ordem decrescente.",
+            "dica": "reverse quer dizer ao contrário."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas trocas a bolha faz na 1ª passada em [4, 3, 2, 1]?",
+            "alternativas": [
+              "2",
+              "6",
+              "3",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "4 > 3, 4 > 2 e 4 > 1: três trocas, e o 4 vai para o fim.",
+            "dica": "Acompanhe o 4 andando para a direita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas trocas a bolha faz, no total, para ordenar [4, 3, 2, 1]?",
+            "alternativas": [
+              "6",
+              "4",
+              "10",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "Passadas com 3, 2 e 1 trocas: 3 + 2 + 1 = 6.",
+            "dica": "Faça passada por passada e some as trocas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas trocas a bolha faz na 1ª passada em [1, 2, 3, 4]?",
+            "alternativas": [
+              "4",
+              "1",
+              "0",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "A lista já está em ordem: nenhum vizinho está invertido.",
+            "dica": "Algum vizinho da esquerda é maior que o da direita?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Método da seleção em [5, 8, 1, 3]: como fica a lista depois de 2 trocas?",
+            "alternativas": [
+              "[1, 5, 8, 3]",
+              "[1, 3, 5, 8]",
+              "[1, 3, 8, 5]",
+              "[1, 8, 5, 3]"
+            ],
+            "correta": 1,
+            "explicacao": "1ª troca: 1 com 5 → [1, 8, 5, 3]. 2ª troca: 3 com 8 → [1, 3, 5, 8].",
+            "dica": "Na 2ª troca, procure o menor só entre as posições que sobraram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fica [5, 1, 4, 2, 8] depois de 2 passadas da bolha?",
+            "alternativas": [
+              "[1, 2, 5, 4, 8]",
+              "[1, 4, 5, 2, 8]",
+              "[1, 4, 2, 5, 8]",
+              "[1, 2, 4, 5, 8]"
+            ],
+            "correta": 3,
+            "explicacao": "1ª passada: [1, 4, 2, 5, 8]. 2ª passada: 4 > 2 troca → [1, 2, 4, 5, 8].",
+            "dica": "Faça uma passada completa de cada vez."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela fórmula do aprofundamento, quantas comparações a bolha pode precisar para 20 itens?",
+            "alternativas": [
+              "190",
+              "20",
+              "400",
+              "380"
+            ],
+            "correta": 0,
+            "explicacao": "20 × 19 ÷ 2 = 380 ÷ 2 = 190.",
+            "dica": "Use n × (n − 1) ÷ 2 e não esqueça a divisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa lista ordenada de 100 números, a busca binária encontra qualquer um em, no máximo, quantas olhadas?",
+            "alternativas": [
+              "100",
+              "50",
+              "7",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "Cada olhada corta pela metade: 100, 50, 25, 13, 7, 4, 2, 1. Bastam 7.",
+            "dica": "Quantas vezes dá para dividir 100 pela metade até sobrar 1?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, qual é o resultado de sorted(['bia', 'Ana', 'Caio'])?",
+            "alternativas": [
+              "['bia', 'Caio', 'Ana']",
+              "['Caio', 'Ana', 'bia']",
+              "['Ana', 'bia', 'Caio']",
+              "['Ana', 'Caio', 'bia']"
+            ],
+            "correta": 3,
+            "explicacao": "As maiúsculas vêm antes das minúsculas: Ana, Caio e só então bia.",
+            "dica": "Repare em quem começa com letra minúscula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas trocas a bolha faz, no total, para ordenar [2, 4, 1, 3]?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "Pares fora de ordem: (2, 1), (4, 1) e (4, 3). São 3, então são 3 trocas.",
+            "dica": "Conte os pares em que o maior aparece antes do menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na bolha que para quando uma passada não tem trocas, quantas passadas são feitas em [1, 2, 3, 5, 4]?",
+            "alternativas": [
+              "2",
+              "5",
+              "4",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "1ª passada: troca 5 e 4. 2ª passada: nenhuma troca, então o programa para.",
+            "dica": "O programa só sabe que acabou depois de uma passada sem trocas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Hífen e palavras compostas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O hífen (-) liga palavras que juntas formam uma ideia só: guarda-chuva, segunda-feira, beija-flor, couve-flor, arco-íris. São as palavras compostas.",
+          "Com prefixos, a regra principal é: usa-se hífen quando o prefixo termina com a mesma vogal que começa a palavra seguinte (micro-ondas, anti-inflamatório, contra-ataque) e quando a segunda palavra começa com h (super-herói, anti-higiênico).",
+          "Não se usa hífen quando as vogais são diferentes: autoescola, infraestrutura, extraescolar. E, se o prefixo termina em vogal e a palavra começa com r ou s, a letra dobra: antirrugas, minissaia, ultrassom, autorretrato.",
+          "Os prefixos ex-, vice-, pré-, pós- e pró- (com acento) sempre levam hífen: ex-aluno, vice-diretora, pré-escola, pós-guerra.",
+          "Expressões com palavra de ligação, em geral, não têm hífen: dia a dia, fim de semana, café da manhã, pé de moleque. Algumas exceções ficaram consagradas, como cor-de-rosa."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Por que micro-ondas tem hífen e microempresa não tem?",
+            "resolucao": "Em micro-ondas, o prefixo termina em o e a palavra começa com o (vogais iguais). Em microempresa, o encontro é o + e (vogais diferentes), então se escreve junto."
+          },
+          {
+            "enunciado": "Qual é o plural de guarda-chuva e de segunda-feira?",
+            "resolucao": "Guarda-chuvas: guarda é verbo e não varia. Segundas-feiras: numeral e substantivo vão os dois para o plural."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Prefixos terminados em r, como hiper, inter e super, levam hífen antes de palavra iniciada por r: super-resistente, inter-racial, hiper-realista. Antes de outras letras, escreve-se junto: superinteressante, intermunicipal.",
+        "Bem e mal: bem-vindo, bem-estar; mal-educado e mal-humorado (mal antes de vogal ou h levam hífen), mas malfeito e malcriado se escrevem juntos.",
+        "No plural das compostas: verbo + substantivo, só o substantivo varia (beija-flores); substantivo + adjetivo, os dois variam (cachorros-quentes, amores-perfeitos). E há palavras que perderam a ideia de composição e se escrevem juntas: girassol, paraquedas, passatempo, mandachuva."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas palavras se escreve com hífen?",
+            "alternativas": [
+              "girassol",
+              "autoescola",
+              "dia a dia",
+              "guarda-chuva"
+            ],
+            "correta": 3,
+            "explicacao": "Guarda-chuva é palavra composta com hífen. As outras são escritas sem hífen.",
+            "dica": "Procure a que junta um verbo e um nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a grafia correta?",
+            "alternativas": [
+              "segunda—feira",
+              "segunda-feira",
+              "segundafeira",
+              "segunda Feira"
+            ],
+            "correta": 1,
+            "explicacao": "Os dias da semana de segunda a sexta levam hífen.",
+            "dica": "Os dias da semana usam um tracinho curto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes prefixos sempre leva hífen?",
+            "alternativas": [
+              "ex (como em ex-aluno)",
+              "infra (como em infraestrutura)",
+              "auto (como em autoescola)",
+              "mini (como em minissaia)"
+            ],
+            "correta": 0,
+            "explicacao": "Ex-, vice-, pré-, pós- e pró- sempre levam hífen.",
+            "dica": "Lembre a lista dos prefixos que nunca se juntam direto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a grafia correta?",
+            "alternativas": [
+              "microondas",
+              "micro-ondas",
+              "micro ondas",
+              "microhondas"
+            ],
+            "correta": 1,
+            "explicacao": "O prefixo termina em o e a palavra começa com o: vogais iguais pedem hífen.",
+            "dica": "Vogais iguais se encontrando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve super + herói?",
+            "alternativas": [
+              "superherói",
+              "super herói",
+              "super-herói",
+              "superrerói"
+            ],
+            "correta": 2,
+            "explicacao": "Antes de h, usa-se hífen.",
+            "dica": "A segunda palavra começa com h."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve auto + escola?",
+            "alternativas": [
+              "auto escola",
+              "autoiscola",
+              "autoescola",
+              "auto-escola"
+            ],
+            "correta": 2,
+            "explicacao": "O + e são vogais diferentes: escreve-se junto.",
+            "dica": "As vogais que se encontram são iguais ou diferentes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve anti + rugas?",
+            "alternativas": [
+              "antirrugas",
+              "antirugas",
+              "anti rugas",
+              "anti-rugas"
+            ],
+            "correta": 0,
+            "explicacao": "Prefixo terminado em vogal antes de r: junta e dobra o r.",
+            "dica": "O que acontece com o r nesse encontro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está escrita corretamente?",
+            "alternativas": [
+              "Fiz o café-da-manhã no fim de semana.",
+              "Fiz o café da manhã no fim de semana.",
+              "Fiz o café-da-manhã no fim-de-semana.",
+              "Fiz o café da manhã no fim-de-semana."
+            ],
+            "correta": 1,
+            "explicacao": "Expressões com palavra de ligação, como essas, não têm hífen.",
+            "dica": "Expressões com de e da, em geral, ficam sem tracinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de guarda-chuva?",
+            "alternativas": [
+              "guardas-chuva",
+              "guardas-chuvas",
+              "guarda-chuvaes",
+              "guarda-chuvas"
+            ],
+            "correta": 3,
+            "explicacao": "Guarda é verbo e não varia; só chuva vai para o plural.",
+            "dica": "Guarda, aqui, é o verbo guardar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve contra + ataque?",
+            "alternativas": [
+              "contraataque",
+              "contrataque",
+              "contra-ataque",
+              "contra ataque"
+            ],
+            "correta": 2,
+            "explicacao": "A + a: vogais iguais, então leva hífen.",
+            "dica": "Veja a última letra do prefixo e a primeira da palavra."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está toda correta?",
+            "alternativas": [
+              "A vice-diretora visitou a préescola.",
+              "A vice-diretora visitou a pré-escola.",
+              "A vice diretora visitou a pré escola.",
+              "A vicediretora visitou a préescola."
+            ],
+            "correta": 1,
+            "explicacao": "Vice- e pré- sempre levam hífen.",
+            "dica": "Os dois prefixos da frase estão na lista dos que sempre usam tracinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual grupo está todo correto?",
+            "alternativas": [
+              "mini-saia, ultra-som, auto-retrato",
+              "minisaia, ultrasom, autoretrato",
+              "minissaia, ultra-som, autoretrato",
+              "minissaia, ultrassom, autorretrato"
+            ],
+            "correta": 3,
+            "explicacao": "Prefixo terminado em vogal antes de s ou r: junta e dobra a consoante.",
+            "dica": "Com r e s, a letra se repete."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de segunda-feira?",
+            "alternativas": [
+              "segundas-feira",
+              "segundas-feiras",
+              "segunda-feiras",
+              "segundas feiras"
+            ],
+            "correta": 1,
+            "explicacao": "Numeral + substantivo: os dois vão para o plural.",
+            "dica": "As duas partes podem ficar no plural?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra está escrita corretamente sem hífen?",
+            "alternativas": [
+              "infraestrutura",
+              "bemvindo",
+              "antiinflamatório",
+              "arcoíris"
+            ],
+            "correta": 0,
+            "explicacao": "Infra + estrutura: vogais diferentes, junto. As outras exigem hífen: anti-inflamatório, arco-íris, bem-vindo.",
+            "dica": "Procure um encontro de vogais diferentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Ganhei uma blusa cor-de-rosa e um pé-de-moleque.",
+              "Ganhei uma blusa cor de rosa e um pé-de-moleque.",
+              "Ganhei uma blusa cor-de-rosa e um pé de moleque.",
+              "Ganhei uma blusa cor de rosa e um pé de moleque."
+            ],
+            "correta": 2,
+            "explicacao": "Cor-de-rosa é exceção consagrada com hífen; pé de moleque segue a regra das expressões sem hífen.",
+            "dica": "Uma das expressões é exceção à regra."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve super + resistente?",
+            "alternativas": [
+              "super-resistente",
+              "superesistente",
+              "super resistente",
+              "superresistente"
+            ],
+            "correta": 0,
+            "explicacao": "Prefixo terminado em r antes de palavra com r: usa hífen.",
+            "dica": "Veja o que o aprofundamento diz sobre prefixos terminados em r."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve inter + municipal?",
+            "alternativas": [
+              "inter municipal",
+              "intermunicipal",
+              "interrmunicipal",
+              "inter-municipal"
+            ],
+            "correta": 1,
+            "explicacao": "Inter só leva hífen antes de h ou r. Antes de m, escreve-se junto.",
+            "dica": "A palavra começa com r ou h?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de cachorro-quente?",
+            "alternativas": [
+              "cachorro-quente, sem mudar",
+              "cachorros-quente",
+              "cachorros-quentes",
+              "cachorro-quentes"
+            ],
+            "correta": 2,
+            "explicacao": "Substantivo + adjetivo: os dois variam.",
+            "dica": "Que classe de palavra é cada parte?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que girassol se escreve junto, sem hífen?",
+            "alternativas": [
+              "Porque verbo nunca forma palavra com hífen",
+              "Porque é nome de flor",
+              "Porque toda palavra com s dobrado perde o hífen",
+              "Porque a palavra perdeu a ideia de composição e passou a ser escrita como uma só"
+            ],
+            "correta": 3,
+            "explicacao": "Verbo pode formar composta com hífen (guarda-chuva), e há flores com hífen (amor-perfeito). Girassol foi sentida como palavra única.",
+            "dica": "Lembre de guarda-chuva e de amor-perfeito antes de responder."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual grupo está todo correto?",
+            "alternativas": [
+              "maleducado, bemestar, mal-feito",
+              "mal-educado, bem-estar, malfeito",
+              "maleducado, bem-estar, malfeito",
+              "mal-educado, bemestar, mal-feito"
+            ],
+            "correta": 1,
+            "explicacao": "Mal antes de vogal leva hífen; bem-estar tem hífen; malfeito se escreve junto.",
+            "dica": "Mal com vogal e mal com consoante se comportam de jeitos diferentes."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A roda da bicicleta do Caio",
+    "texto": "Caio ganhou de aniversário uma bicicleta usada que o tio tinha reformado. Na primeira tarde, ele deu tantas voltas no quarteirão que voltou para casa com uma pergunta: quanto a bicicleta anda a cada volta completa da roda?\n\nEle pegou um giz, fez um risco no chão e outro no pneu, bem encostados. Empurrou a bicicleta devagar até a marca do pneu tocar o chão de novo e riscou outra vez. Com a fita métrica da mãe, mediu: 1 metro e 88 centímetros.\n\nNo dia seguinte, contou a descoberta para a professora Rosana. Ela pediu que ele medisse a roda de um lado ao outro, passando pelo centro. Deu 60 centímetros.\n\n— Agora multiplique por 3,14 — disse ela.\n\nCaio fez a conta no caderno: 188,4 centímetros. Quase igual à medida do giz! A professora explicou que aquele 3,14 era o número pi, que aparece em qualquer coisa redonda.\n\nDesde então, Caio conta as voltas da roda no caminho até a padaria. São 250 voltas, e ele já sabe a distância: perto de 471 metros."
+  },
+  "escrita": {
+    "proposta": "Escolha um objeto redondo da sua casa, como um prato, uma tampa ou um copo. Meça (com régua ou fita) ou estime o diâmetro dele, passando pelo centro. Depois, calcule o comprimento da volta com C = 3,14 × d e escreva o passo a passo da conta. Se tiver um barbante, contorne o objeto, meça o barbante e compare com o seu cálculo, explicando por que os números ficaram parecidos."
+  }
+}

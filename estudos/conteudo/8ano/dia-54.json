@@ -1,0 +1,1502 @@
+{
+  "dia": 54,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Volume do bloco e do cilindro; litro e metro cúbico",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Volume é o espaço que um objeto ocupa. É medido em unidades cúbicas: cm³ (centímetro cúbico), dm³ e m³ (metro cúbico).",
+          "Bloco retangular (paralelepípedo), como uma caixa de sapato ou uma caixa-d'água quadrada: volume = comprimento × largura × altura. Um bloco de 2 m × 1,5 m × 1 m tem 3 m³.",
+          "Cilindro, como uma lata ou uma caixa-d'água redonda: volume = área da base × altura = π × r² × h. Uma lata de raio 3 cm e altura 10 cm tem 3,14 × 9 × 10 = 282,6 cm³.",
+          "Litro e volume se ligam assim: 1 dm³ = 1 litro; 1 m³ = 1.000 litros; 1 cm³ = 1 mL. Então a caixa de 3 m³ guarda 3.000 litros, e a lata de 282,6 cm³ guarda 282,6 mL.",
+          "Antes de calcular, deixe todas as medidas na mesma unidade. Misturar metros com centímetros é o erro mais comum."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um aquário mede 50 cm × 30 cm × 40 cm. Quantos litros cabem nele?",
+            "resolucao": "50 × 30 × 40 = 60.000 cm³. Como 1.000 cm³ = 1 L, são 60.000 ÷ 1.000 = 60 litros."
+          },
+          {
+            "enunciado": "Uma caixa-d'água cilíndrica tem raio de 1 m e altura de 2 m. Quantos litros ela guarda?",
+            "resolucao": "3,14 × 1² × 2 = 6,28 m³ = 6,28 × 1.000 = 6.280 litros."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um cubo de 1 m de lado tem 1 m³. Dividindo cada aresta em 10 partes (de 1 dm), cabem 10 × 10 × 10 = 1.000 cubinhos de 1 dm³. Por isso 1 m³ = 1.000 L.",
+        "Se você dobra só a altura de um bloco, o volume dobra. Se dobra as três medidas, o volume fica 2 × 2 × 2 = 8 vezes maior. No cilindro, dobrar o raio multiplica o volume por 4, porque o raio entra ao quadrado.",
+        "Para achar a altura da água, faça a conta ao contrário: se uma caixa tem base de 2 m × 1,5 m e recebeu 1.500 L (1,5 m³), a água subiu 1,5 ÷ 3 = 0,5 m."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fórmula do volume do bloco retangular?",
+            "alternativas": [
+              "comprimento × largura × altura",
+              "comprimento × largura",
+              "lado × 4",
+              "comprimento + largura + altura"
+            ],
+            "correta": 0,
+            "explicacao": "São três medidas multiplicadas.",
+            "dica": "Volume tem três dimensões."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos litros há em 1 m³?",
+            "alternativas": [
+              "1 litro",
+              "10 litros",
+              "1.000 litros",
+              "100 litros"
+            ],
+            "correta": 2,
+            "explicacao": "1 m³ = 1.000 dm³ = 1.000 L.",
+            "dica": "Mil cubinhos de 1 dm³."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "1 dm³ equivale a:",
+            "alternativas": [
+              "10 litros",
+              "1 litro",
+              "1 mililitro",
+              "1.000 litros"
+            ],
+            "correta": 1,
+            "explicacao": "1 dm³ é exatamente 1 litro.",
+            "dica": "Uma garrafa de leite comum."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um bloco tem 2 m × 1,5 m × 1 m. Qual é o volume?",
+            "alternativas": [
+              "1,5 m³",
+              "30 m³",
+              "3 m³",
+              "4,5 m³"
+            ],
+            "correta": 2,
+            "explicacao": "2 × 1,5 × 1 = 3.",
+            "dica": "Multiplique as três medidas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que objeto tem forma de cilindro?",
+            "alternativas": [
+              "Uma folha",
+              "Um dado",
+              "Uma lata de milho",
+              "Uma caixa de sapato"
+            ],
+            "correta": 2,
+            "explicacao": "A lata tem bases redondas.",
+            "dica": "Tem duas bases redondas."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aquário mede 50 cm × 30 cm × 40 cm. Quantos litros cabem?",
+            "alternativas": [
+              "120 litros",
+              "60 litros",
+              "6 litros",
+              "600 litros"
+            ],
+            "correta": 1,
+            "explicacao": "60.000 cm³ ÷ 1.000 = 60 L.",
+            "dica": "Calcule em cm³ e divida por 1.000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lata tem raio 3 cm e altura 10 cm. Qual é o volume? (π = 3,14)",
+            "alternativas": [
+              "94,2 cm³",
+              "28,26 cm³",
+              "188,4 cm³",
+              "282,6 cm³"
+            ],
+            "correta": 3,
+            "explicacao": "3,14 × 9 × 10 = 282,6.",
+            "dica": "Raio ao quadrado, vezes π, vezes altura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa cilíndrica tem raio 1 m e altura 2 m. Quantos litros cabem? (π = 3,14)",
+            "alternativas": [
+              "628 litros",
+              "3.140 litros",
+              "6.280 litros",
+              "62.800 litros"
+            ],
+            "correta": 2,
+            "explicacao": "6,28 m³ × 1.000 = 6.280 L.",
+            "dica": "Calcule em m³ e multiplique por 1.000."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos mL há em 250 cm³?",
+            "alternativas": [
+              "25 mL",
+              "2.500 mL",
+              "250 mL",
+              "2,5 mL"
+            ],
+            "correta": 2,
+            "explicacao": "1 cm³ = 1 mL.",
+            "dica": "Um centímetro cúbico vale um mililitro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um reservatório mede 4 m × 3 m × 2 m. Quantos litros cabem?",
+            "alternativas": [
+              "24.000 litros",
+              "240 litros",
+              "2.400 litros",
+              "9.000 litros"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 3 × 2 = 24 m³ = 24.000 L.",
+            "dica": "Ache o volume em m³ primeiro."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma escola gasta 12.000 litros de água por dia e tem um reservatório de 24 m³. Cheio, ele dura quantos dias?",
+            "alternativas": [
+              "24 dias",
+              "0,5 dia",
+              "2 dias",
+              "12 dias"
+            ],
+            "correta": 2,
+            "explicacao": "24 m³ = 24.000 L; 24.000 ÷ 12.000 = 2.",
+            "dica": "Converta m³ em litros antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um tanque cilíndrico tem raio 2 m e altura 5 m. Qual é o volume? (π = 3,14)",
+            "alternativas": [
+              "62,8 m³",
+              "125,6 m³",
+              "31,4 m³",
+              "20 m³"
+            ],
+            "correta": 0,
+            "explicacao": "3,14 × 4 × 5 = 62,8.",
+            "dica": "O raio entra ao quadrado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa tem base de 2 m × 1,5 m e recebeu 1.500 L. Qual é a altura da água?",
+            "alternativas": [
+              "0,05 m",
+              "1,5 m",
+              "5 m",
+              "0,5 m"
+            ],
+            "correta": 3,
+            "explicacao": "1.500 L = 1,5 m³; 1,5 ÷ (2 × 1,5) = 0,5.",
+            "dica": "Volume dividido pela área da base."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um bloco tem 1,2 m × 80 cm × 1 m. Qual é o volume?",
+            "alternativas": [
+              "81,2 m³",
+              "96 m³",
+              "9,6 m³",
+              "0,96 m³"
+            ],
+            "correta": 3,
+            "explicacao": "80 cm = 0,8 m; 1,2 × 0,8 × 1 = 0,96.",
+            "dica": "Passe tudo para metros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cano cilíndrico tem raio 0,5 m e comprimento 1 m. Quantos litros cabem nele? (π = 3,14)",
+            "alternativas": [
+              "1.570 litros",
+              "157 litros",
+              "785 litros",
+              "78,5 litros"
+            ],
+            "correta": 2,
+            "explicacao": "3,14 × 0,25 × 1 = 0,785 m³ = 785 L.",
+            "dica": "0,5 ao quadrado é 0,25."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Se dobrarmos as três medidas de uma caixa, o volume fica:",
+            "alternativas": [
+              "6 vezes maior",
+              "8 vezes maior",
+              "4 vezes maior",
+              "2 vezes maior"
+            ],
+            "correta": 1,
+            "explicacao": "2 × 2 × 2 = 8.",
+            "dica": "Cada medida dobra separadamente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se dobrarmos o raio de um cilindro, mantendo a altura, o volume fica:",
+            "alternativas": [
+              "8 vezes maior",
+              "4 vezes maior",
+              "igual",
+              "2 vezes maior"
+            ],
+            "correta": 1,
+            "explicacao": "O raio entra ao quadrado: 2² = 4.",
+            "dica": "Veja onde o raio aparece na fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cubo de 20 cm de lado está cheio de água. A água é despejada em garrafas de 1 L. Quantas garrafas enche?",
+            "alternativas": [
+              "8 garrafas",
+              "20 garrafas",
+              "4 garrafas",
+              "60 garrafas"
+            ],
+            "correta": 0,
+            "explicacao": "20 × 20 × 20 = 8.000 cm³ = 8 L.",
+            "dica": "Volume em cm³, depois em litros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa cilíndrica de raio 1 m e altura 1,5 m, e outra em bloco de 2 m × 2 m × 1,2 m. Qual guarda mais?",
+            "alternativas": [
+              "O bloco, com 4,8 m³",
+              "O cilindro, com 4,71 m³",
+              "O cilindro, com 6,28 m³",
+              "As duas guardam igual"
+            ],
+            "correta": 0,
+            "explicacao": "Cilindro: 3,14 × 1 × 1,5 = 4,71. Bloco: 2 × 2 × 1,2 = 4,8.",
+            "dica": "Calcule os dois volumes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma piscina de 8 m × 4 m tem água até 0,5 m. Quantos litros faltam para encher até 1,5 m?",
+            "alternativas": [
+              "16.000 litros",
+              "3.200 litros",
+              "32.000 litros",
+              "48.000 litros"
+            ],
+            "correta": 2,
+            "explicacao": "Faltam 1 m de altura: 8 × 4 × 1 = 32 m³ = 32.000 L.",
+            "dica": "Calcule só a parte que falta."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "CSS: dar cor e forma ao site",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O HTML monta a estrutura da página (títulos, parágrafos, botões). O CSS cuida da aparência: cores, tamanhos, bordas e espaços. É como a diferença entre a planta de uma casa e a pintura e a decoração.",
+          "Uma regra de CSS tem seletor, propriedade e valor:\nh1 {\n  color: navy;\n  font-size: 32px;\n}\nO seletor h1 diz quem será enfeitado; color e font-size são propriedades; navy e 32px são valores. Cada linha termina com ponto e vírgula.",
+          "Propriedades úteis: color (cor do texto), background-color (cor do fundo), font-size (tamanho da letra), border (borda), padding (espaço de dentro), margin (espaço de fora) e border-radius (cantos arredondados).",
+          "Para enfeitar só alguns elementos, use uma classe. No HTML: <button class=\"resposta\">A</button>. No CSS: .resposta { background-color: #CEF010; } O ponto antes do nome indica classe.",
+          "No projeto do quiz, o CSS pode deixar a pergunta grande, os botões de resposta coloridos e arredondados, e a pontuação em destaque."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva uma regra que deixe o fundo da página azul-escuro e o texto branco.",
+            "resolucao": "body {\n  background-color: #0A191E;\n  color: white;\n}"
+          },
+          {
+            "enunciado": "O botão ficou com o texto colado na borda. Que propriedade resolve?",
+            "resolucao": "padding, que cria espaço por dentro: .resposta { padding: 12px; }"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cores em hexadecimal: # seguido de seis dígitos (de 0 a 9 e de A a F), dois para vermelho, dois para verde e dois para azul. #FF0000 é vermelho puro, #000000 é preto, #FFFFFF é branco.",
+        "O id seleciona um único elemento: no HTML id=\"placar\" e no CSS #placar { font-weight: bold; }. Regra prática: classe para vários, id para um só.",
+        "Quando duas regras brigam, a mais específica vence: um id ganha de uma classe, que ganha de uma tag. Se forem iguais, vale a que aparece por último no arquivo. Por isso a ordem das regras importa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o CSS?",
+            "alternativas": [
+              "Para fazer contas",
+              "Para criar a estrutura da página",
+              "Para cuidar da aparência da página",
+              "Para guardar senhas"
+            ],
+            "correta": 2,
+            "explicacao": "O HTML estrutura; o CSS enfeita.",
+            "dica": "Pense em cores e tamanhos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual propriedade muda a cor do texto?",
+            "alternativas": [
+              "border",
+              "font-size",
+              "color",
+              "background-color"
+            ],
+            "correta": 2,
+            "explicacao": "color = cor do texto.",
+            "dica": "É a palavra cor em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual propriedade muda a cor do fundo?",
+            "alternativas": [
+              "background-color",
+              "margin",
+              "padding",
+              "color"
+            ],
+            "correta": 0,
+            "explicacao": "Background quer dizer fundo.",
+            "dica": "Fundo em inglês é background."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em h1 { color: red; }, quem é o seletor?",
+            "alternativas": [
+              "color",
+              "{ }",
+              "h1",
+              "red"
+            ],
+            "correta": 2,
+            "explicacao": "O seletor vem antes das chaves.",
+            "dica": "É quem será enfeitado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com que sinal termina cada linha de propriedade no CSS?",
+            "alternativas": [
+              "Vírgula",
+              "Ponto final",
+              "Ponto e vírgula",
+              "Dois-pontos"
+            ],
+            "correta": 2,
+            "explicacao": "color: red; termina com ;",
+            "dica": "Não é ponto final."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual propriedade arredonda os cantos de um botão?",
+            "alternativas": [
+              "border-color",
+              "font-size",
+              "margin",
+              "border-radius"
+            ],
+            "correta": 3,
+            "explicacao": "Radius quer dizer raio.",
+            "dica": "Pense em raio de curva."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se seleciona a classe resposta no CSS?",
+            "alternativas": [
+              ".resposta",
+              "resposta()",
+              "#resposta",
+              "<resposta>"
+            ],
+            "correta": 0,
+            "explicacao": "Classe usa ponto; id usa cerquilha.",
+            "dica": "Classe começa com um sinal pequeno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual propriedade cria espaço por dentro do elemento?",
+            "alternativas": [
+              "border-radius",
+              "color",
+              "padding",
+              "margin"
+            ],
+            "correta": 2,
+            "explicacao": "padding = dentro; margin = fora.",
+            "dica": "É o enchimento de dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz font-size: 24px;?",
+            "alternativas": [
+              "Deixa a letra com 24 pixels de tamanho",
+              "Muda a fonte para negrito",
+              "Cria 24 botões",
+              "Muda a cor da letra"
+            ],
+            "correta": 0,
+            "explicacao": "font-size é o tamanho da fonte.",
+            "dica": "Size quer dizer tamanho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual regra está escrita corretamente?",
+            "alternativas": [
+              "p { color: blue; }",
+              "p ( color = blue )",
+              "p: color blue",
+              "{ p color: blue }"
+            ],
+            "correta": 0,
+            "explicacao": "Seletor, chaves, propriedade, dois-pontos, valor e ponto e vírgula.",
+            "dica": "Confira chaves e dois-pontos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Que cor é #000000?",
+            "alternativas": [
+              "Azul",
+              "Vermelho",
+              "Preto",
+              "Branco"
+            ],
+            "correta": 2,
+            "explicacao": "Zero de vermelho, verde e azul: sem luz, preto.",
+            "dica": "Nenhuma luz acesa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como selecionar o elemento com id=\"placar\"?",
+            "alternativas": [
+              "#placar",
+              "placar",
+              ".placar",
+              "*placar"
+            ],
+            "correta": 0,
+            "explicacao": "Id usa cerquilha.",
+            "dica": "Id usa outro símbolo, diferente do da classe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas regras para o mesmo botão: .resposta { color: blue; } e #certo { color: green; }. O botão tem as duas. Qual cor vence?",
+            "alternativas": [
+              "Azul",
+              "Preto",
+              "As duas misturadas",
+              "Verde"
+            ],
+            "correta": 3,
+            "explicacao": "Id é mais específico que classe.",
+            "dica": "Quem é mais específico?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que cor é #FF0000?",
+            "alternativas": [
+              "Azul",
+              "Verde",
+              "Branco",
+              "Vermelho"
+            ],
+            "correta": 3,
+            "explicacao": "Os dois primeiros dígitos são do vermelho, no máximo; verde e azul estão em zero.",
+            "dica": "Os pares de dígitos seguem a ordem R, G, B."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as partes de uma regra CSS:",
+            "itens": [
+              "Seletor (h1)",
+              "Abre chave {",
+              "Propriedade e valor (color: navy;)",
+              "Fecha chave }"
+            ],
+            "explicacao": "Seletor, chave, declaração, chave.",
+            "dica": "As chaves abraçam as propriedades."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas regras iguais no mesmo arquivo: p { color: red; } e depois p { color: blue; }. Qual cor o parágrafo terá?",
+            "alternativas": [
+              "Preto",
+              "Roxo",
+              "Azul",
+              "Vermelho"
+            ],
+            "correta": 2,
+            "explicacao": "Com a mesma força, vale a última.",
+            "dica": "A ordem desempata."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um botão tem padding de 10px e margin de 20px. Qual espaço afasta um botão do outro?",
+            "alternativas": [
+              "O margin, de 20px",
+              "Nenhum",
+              "Os dois somados dentro do botão",
+              "O padding, de 10px"
+            ],
+            "correta": 0,
+            "explicacao": "Margin é o espaço por fora.",
+            "dica": "Fora ou dentro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas cores é a mais clara?",
+            "alternativas": [
+              "#555555",
+              "#EEEEEE",
+              "#111111",
+              "#999999"
+            ],
+            "correta": 1,
+            "explicacao": "Quanto mais perto de F, mais luz.",
+            "dica": "Mais perto de FFFFFF é mais claro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No quiz, você quer todos os botões de resposta iguais e só o placar em negrito. Qual é a melhor escolha?",
+            "alternativas": [
+              "Classe para o placar e nada nos botões",
+              "Escrever o estilo em cada botão separado",
+              "Id para todos os botões",
+              "Classe para os botões e id para o placar"
+            ],
+            "correta": 3,
+            "explicacao": "Classe para vários, id para um.",
+            "dica": "Vários ou um só?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual regra pinta de lime o fundo dos botões da classe resposta e arredonda os cantos?",
+            "alternativas": [
+              ".resposta ( background-color = #CEF010 )",
+              ".resposta { background-color: #CEF010; border-radius: 8px; }",
+              "#resposta { color: #CEF010; radius: 8px; }",
+              "resposta { background: lime 8px }"
+            ],
+            "correta": 1,
+            "explicacao": "Classe com ponto, propriedades certas e ponto e vírgula.",
+            "dica": "Confira o seletor e o nome das propriedades."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Salvar em PDF e compartilhar com segurança",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O PDF é um formato que mantém o documento igual em qualquer computador ou celular: as fontes, as imagens e a posição de tudo ficam no lugar. Por isso é o formato ideal para enviar trabalhos, currículos e documentos.",
+          "No Word: Arquivo > Salvar como > escolha a pasta > em Tipo, selecione PDF > Salvar. Outro caminho: Arquivo > Exportar > Criar PDF/XPS. No Word do celular: menu ... > Exportar ou Salvar como PDF.",
+          "Guarde sempre também o arquivo do Word (.docx): ele é o que você edita depois. O PDF é para enviar, não para alterar.",
+          "Antes de compartilhar, confira: nome do arquivo claro (Trabalho_Ciencias_Joao_8B.pdf), se está tudo certo no PDF aberto e se não há dados pessoais que não deveriam ir, como CPF, endereço ou telefone de outras pessoas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você vai enviar um trabalho para a professora. Que nome dar ao arquivo?",
+            "resolucao": "Algo como Trabalho_Historia_Mariana_8A.pdf: diz o que é, de quem e de qual turma. Evite 'documento1.pdf'."
+          },
+          {
+            "enunciado": "Ao compartilhar um link do arquivo na nuvem, qual permissão escolher para quem só vai ler?",
+            "resolucao": "Somente visualização (leitor). Assim ninguém altera ou apaga o seu trabalho."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O Word guarda dados escondidos no arquivo, como o nome do autor e comentários. Em Arquivo > Informações > Verificar Problemas > Inspecionar Documento, dá para ver e remover essas informações antes de enviar.",
+        "Para documentos sigilosos, é possível colocar senha: ao salvar em PDF, clique em Opções e marque Criptografar o documento com uma senha. Envie a senha por outro canal, nunca na mesma mensagem do arquivo.",
+        "A LGPD protege dados pessoais. Uma lista de alunos com telefones e endereços, por exemplo, não deve ser compartilhada em grupos abertos. Pergunte-se sempre: quem precisa mesmo receber isso?"
+      ],
+      "desafio_pratico": "No Word do PC ou do celular, abra um trabalho seu (ou escreva meia página sobre a caixa-d'água da escola). 1) Coloque título, seu nome e turma. 2) Vá em Arquivo > Informações > Verificar Problemas > Inspecionar Documento e veja o que aparece. 3) Salve em PDF (Arquivo > Salvar como > Tipo: PDF) com um nome claro, como Trabalho_Ciencias_SeuNome_8A.pdf. 4) Abra o PDF e confira. 5) Se tiver conta na nuvem, gere um link de compartilhamento só de visualização. Anote os passos que você seguiu.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a vantagem do PDF?",
+            "alternativas": [
+              "Não pode ser aberto no celular",
+              "É fácil de editar",
+              "Apaga as imagens",
+              "Mantém o documento igual em qualquer aparelho"
+            ],
+            "correta": 3,
+            "explicacao": "O PDF preserva o layout.",
+            "dica": "Pense em abrir em outro computador."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica a opção para salvar em PDF no Word?",
+            "alternativas": [
+              "Layout > Margens",
+              "Arquivo > Salvar como",
+              "Revisão > Ortografia",
+              "Inserir > Tabela"
+            ],
+            "correta": 1,
+            "explicacao": "Na hora de salvar, escolha o tipo PDF.",
+            "dica": "É no menu de salvar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual nome de arquivo é melhor para enviar à professora?",
+            "alternativas": [
+              "documento1.pdf",
+              "Trabalho_Geografia_Ana_8B.pdf",
+              "aaaa.pdf",
+              "final_final_agora_vai.pdf"
+            ],
+            "correta": 1,
+            "explicacao": "O nome diz o que é e de quem é.",
+            "dica": "Quem recebe precisa entender."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual arquivo você deve guardar para editar depois?",
+            "alternativas": [
+              "Nenhum",
+              "O arquivo do Word (.docx)",
+              "Uma foto da tela",
+              "Só o PDF"
+            ],
+            "correta": 1,
+            "explicacao": "O .docx é o arquivo editável.",
+            "dica": "PDF é para enviar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual dado não deve ir num trabalho compartilhado no grupo da turma?",
+            "alternativas": [
+              "O título do trabalho",
+              "A data",
+              "O nome da matéria",
+              "O CPF de um colega"
+            ],
+            "correta": 3,
+            "explicacao": "CPF é dado pessoal.",
+            "dica": "Pense em dados pessoais."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é outro caminho para criar PDF no Word?",
+            "alternativas": [
+              "Inserir > Forma",
+              "Página Inicial > Fonte",
+              "Arquivo > Exportar > Criar PDF/XPS",
+              "Exibir > Régua"
+            ],
+            "correta": 2,
+            "explicacao": "Exportar também gera PDF.",
+            "dica": "Exportar é levar para outro formato."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que permissão dar a quem só vai ler o arquivo na nuvem?",
+            "alternativas": [
+              "Somente visualização",
+              "Editor",
+              "Dono",
+              "Excluir"
+            ],
+            "correta": 0,
+            "explicacao": "Assim ninguém altera o arquivo.",
+            "dica": "Ler é diferente de editar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazer antes de enviar o PDF?",
+            "alternativas": [
+              "Enviar sem olhar",
+              "Apagar o .docx",
+              "Abrir e conferir se está tudo certo",
+              "Mudar a extensão para .jpg"
+            ],
+            "correta": 2,
+            "explicacao": "Conferir evita enviar com erro.",
+            "dica": "Dê uma olhada final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o PDF é bom para currículos?",
+            "alternativas": [
+              "Porque ocupa mais espaço",
+              "Porque muda a fonte sozinho",
+              "Porque ninguém consegue ler",
+              "Porque a formatação não bagunça em outro computador"
+            ],
+            "correta": 3,
+            "explicacao": "O layout fica preservado.",
+            "dica": "Pense em quem recebe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lei protege dados pessoais no Brasil?",
+            "alternativas": [
+              "CDC",
+              "CLT",
+              "ECA",
+              "LGPD"
+            ],
+            "correta": 3,
+            "explicacao": "Lei Geral de Proteção de Dados.",
+            "dica": "D de dados."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde remover dados escondidos, como o nome do autor, antes de enviar?",
+            "alternativas": [
+              "Layout > Colunas",
+              "Arquivo > Informações > Verificar Problemas > Inspecionar Documento",
+              "Inserir > Cabeçalho",
+              "Design > Cores"
+            ],
+            "correta": 1,
+            "explicacao": "O Inspetor de Documento mostra o que está escondido.",
+            "dica": "Fica nas informações do arquivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você colocou senha num PDF. Como enviar a senha?",
+            "alternativas": [
+              "Por outro canal, separado do arquivo",
+              "Escrita na primeira página",
+              "Na mesma mensagem do arquivo",
+              "No nome do arquivo"
+            ],
+            "correta": 0,
+            "explicacao": "Separar arquivo e senha protege mais.",
+            "dica": "Não mande a chave junto com o cadeado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica a opção de criptografar o PDF com senha ao salvar?",
+            "alternativas": [
+              "No botão Opções da janela de salvar em PDF",
+              "Em Layout > Orientação",
+              "Em Inserir > Símbolo",
+              "Em Revisão > Contar palavras"
+            ],
+            "correta": 0,
+            "explicacao": "Opções > Criptografar o documento com uma senha.",
+            "dica": "Procure perto do tipo PDF."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um link do trabalho foi compartilhado como Editor num grupo grande. Qual é o risco?",
+            "alternativas": [
+              "Qualquer pessoa do grupo pode alterar ou apagar",
+              "O arquivo vira PDF",
+              "Nenhum risco",
+              "O link para de funcionar"
+            ],
+            "correta": 0,
+            "explicacao": "Editor tem poder de mudar.",
+            "dica": "O que um editor pode fazer?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o envio seguro de um trabalho:",
+            "itens": [
+              "Revisar o texto no Word",
+              "Salvar como PDF com nome claro",
+              "Abrir o PDF e conferir",
+              "Enviar só para quem precisa"
+            ],
+            "explicacao": "Revisar, converter, conferir e enviar com cuidado.",
+            "dica": "Enviar é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma escola quer divulgar a lista de aprovados. Qual forma respeita melhor a privacidade?",
+            "alternativas": [
+              "PDF só com nome e turma, sem telefone, endereço ou CPF",
+              "Foto da ficha de matrícula",
+              "Planilha com todos os dados pessoais",
+              "Lista com CPF e endereço num grupo aberto"
+            ],
+            "correta": 0,
+            "explicacao": "Compartilhe só o necessário.",
+            "dica": "Quem precisa saber o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que enviar 'documento1.docx' para a professora é pior do que um PDF com nome claro?",
+            "alternativas": [
+              "Não há diferença nenhuma",
+              "Porque o Word apaga sozinho",
+              "Pode ser editado sem querer, bagunçar no computador dela e ninguém sabe de quem é",
+              "Porque .docx não abre em nenhum lugar"
+            ],
+            "correta": 2,
+            "explicacao": "PDF fixo e nome claro evitam confusão.",
+            "dica": "Pense em três problemas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você enviou um PDF e achou um erro. O que fazer?",
+            "alternativas": [
+              "Corrigir no .docx, gerar um novo PDF e reenviar avisando",
+              "Apagar o .docx",
+              "Mandar o mesmo arquivo de novo",
+              "Editar o PDF à mão com caneta"
+            ],
+            "correta": 0,
+            "explicacao": "O editável é a fonte; o PDF é a cópia para envio.",
+            "dica": "Onde se edita?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um documento tem comentários de revisão com críticas internas. Antes de mandar ao cliente, o certo é:",
+            "alternativas": [
+              "Mudar a cor da letra",
+              "Colocar em negrito",
+              "Enviar assim mesmo",
+              "Remover os comentários e conferir com o Inspetor de Documento"
+            ],
+            "correta": 3,
+            "explicacao": "Comentários podem ir junto no arquivo.",
+            "dica": "Algo escondido pode vazar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um site pede para 'converter seu PDF grátis' e enviar o arquivo com seus documentos pessoais. Qual é o risco?",
+            "alternativas": [
+              "O site pode guardar e usar seus dados",
+              "O arquivo fica mais bonito",
+              "O PDF vira Word sozinho",
+              "Nenhum, sites grátis são seguros"
+            ],
+            "correta": 0,
+            "explicacao": "Prefira o próprio Word para gerar o PDF.",
+            "dica": "Para onde vão seus dados?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Fluxo de caixa simples do negócio",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Fluxo de caixa é o controle do dinheiro que entra (entradas) e do que sai (saídas) do negócio, dia a dia ou mês a mês. É o painel que mostra se vai faltar ou sobrar dinheiro.",
+          "A conta básica: saldo final = saldo inicial + entradas − saídas. Se a lanchonete começou o mês com R$ 500, vendeu R$ 3.200 e gastou R$ 2.900, termina com R$ 800.",
+          "Entradas: vendas à vista, recebimentos de vendas no cartão ou a prazo. Saídas: compra de mercadoria, aluguel, luz, salários da equipe, impostos e a retirada do dono (pró-labore).",
+          "Lucro e caixa são diferentes. Uma venda no cartão em 30 dias dá lucro hoje, mas o dinheiro só entra no mês seguinte. Muito negócio lucrativo quebra por falta de caixa para pagar as contas do dia.",
+          "Pagar a equipe em dia é prioridade do fluxo de caixa: salário atrasado gera multa, processo e perda de bons funcionários. Planeje as saídas fixas antes de tudo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A doceria da Dona Zuleide começa a semana com R$ 300. Entram R$ 1.500 de vendas e saem R$ 900 de ingredientes e R$ 400 de salários. Qual o saldo final?",
+            "resolucao": "300 + 1.500 − 900 − 400 = R$ 500."
+          },
+          {
+            "enunciado": "Um ateliê vendeu R$ 2.000 em outubro, metade no cartão para receber em novembro. Quanto entrou no caixa em outubro?",
+            "resolucao": "Só R$ 1.000. Os outros R$ 1.000 entram em novembro, mesmo que a venda tenha sido feita em outubro."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Projetar o fluxo de caixa é olhar para a frente: listar as entradas e saídas previstas para as próximas semanas. Se o saldo projetado fica negativo, dá tempo de agir: cobrar clientes, adiar uma compra ou negociar prazo com o fornecedor.",
+        "Reserva de caixa: guardar o equivalente a pelo menos um ou dois meses de saídas fixas protege o negócio em meses fracos, como janeiro para muitas lojas.",
+        "Separe o dinheiro do negócio do dinheiro da casa. O dono recebe uma retirada fixa combinada (pró-labore), em vez de tirar do caixa sempre que precisa. Sem isso, o fluxo de caixa vira bagunça e esconde se o negócio dá lucro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é fluxo de caixa?",
+            "alternativas": [
+              "O nome da empresa",
+              "O cardápio do negócio",
+              "O controle do dinheiro que entra e sai",
+              "A lista de clientes"
+            ],
+            "correta": 2,
+            "explicacao": "Entradas e saídas de dinheiro.",
+            "dica": "Fluxo é movimento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fórmula do saldo final?",
+            "alternativas": [
+              "Entradas × saídas",
+              "Saídas − entradas",
+              "Saldo inicial + entradas − saídas",
+              "Saldo inicial − entradas"
+            ],
+            "correta": 2,
+            "explicacao": "Começa com o que tinha, soma o que entra, tira o que sai.",
+            "dica": "Some o que entra e tire o que sai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é uma saída?",
+            "alternativas": [
+              "Pagamento do aluguel",
+              "Venda de um bolo",
+              "Recebimento de um cliente",
+              "Pix de uma encomenda"
+            ],
+            "correta": 0,
+            "explicacao": "Aluguel é dinheiro que sai.",
+            "dica": "O dinheiro vai embora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é uma entrada?",
+            "alternativas": [
+              "Salário da equipe",
+              "Conta de luz",
+              "Compra de farinha",
+              "Venda à vista"
+            ],
+            "correta": 3,
+            "explicacao": "Venda traz dinheiro.",
+            "dica": "O dinheiro chega."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Começou com R$ 500, entrou R$ 3.200 e saiu R$ 2.900. Qual é o saldo final?",
+            "alternativas": [
+              "R$ 6.600",
+              "R$ 300",
+              "R$ 3.700",
+              "R$ 800"
+            ],
+            "correta": 3,
+            "explicacao": "500 + 3.200 − 2.900 = 800.",
+            "dica": "Some e depois subtraia."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Começou com R$ 300, entrou R$ 1.500, saiu R$ 900 de ingredientes e R$ 400 de salários. Saldo final?",
+            "alternativas": [
+              "R$ 1.300",
+              "R$ 500",
+              "R$ 900",
+              "R$ 100"
+            ],
+            "correta": 1,
+            "explicacao": "300 + 1.500 − 900 − 400 = 500.",
+            "dica": "Tire as duas saídas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é pró-labore?",
+            "alternativas": [
+              "Uma venda",
+              "A retirada combinada do dono",
+              "Um empréstimo",
+              "Um imposto"
+            ],
+            "correta": 1,
+            "explicacao": "É o salário do dono.",
+            "dica": "É o pagamento de quem é dono."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Vendeu R$ 2.000, metade no cartão para o mês seguinte. Quanto entrou no caixa este mês?",
+            "alternativas": [
+              "R$ 500",
+              "R$ 0",
+              "R$ 1.000",
+              "R$ 2.000"
+            ],
+            "correta": 2,
+            "explicacao": "Só a metade à vista entrou agora.",
+            "dica": "Quanto foi à vista?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um negócio com lucro pode ficar sem dinheiro?",
+            "alternativas": [
+              "Porque não teve vendas",
+              "Porque pagou pouco imposto",
+              "Porque lucro é sempre mentira",
+              "Porque vendeu a prazo e o dinheiro ainda não entrou"
+            ],
+            "correta": 3,
+            "explicacao": "Lucro não é o mesmo que dinheiro no caixa.",
+            "dica": "Pense no prazo do cartão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual saída deve ser prioridade no planejamento?",
+            "alternativas": [
+              "Uma TV nova para o dono",
+              "Uma viagem",
+              "O salário da equipe",
+              "Uma festa"
+            ],
+            "correta": 2,
+            "explicacao": "Atrasar salário gera multa e perde gente boa.",
+            "dica": "Quem trabalha para o negócio..."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O saldo projetado da próxima semana deu −R$ 200. Qual é uma boa ação?",
+            "alternativas": [
+              "Comprar mais estoque",
+              "Cobrar clientes atrasados e negociar prazo com o fornecedor",
+              "Atrasar o salário da equipe",
+              "Ignorar e esperar"
+            ],
+            "correta": 1,
+            "explicacao": "Antecipar entradas e adiar saídas resolve o buraco.",
+            "dica": "Aumente entradas ou adie saídas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As saídas fixas de um negócio são R$ 4.000 por mês. Qual é a reserva mínima de dois meses?",
+            "alternativas": [
+              "R$ 2.000",
+              "R$ 8.000",
+              "R$ 4.000",
+              "R$ 16.000"
+            ],
+            "correta": 1,
+            "explicacao": "4.000 × 2 = 8.000.",
+            "dica": "Multiplique pelos meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono tira dinheiro do caixa sempre que precisa, sem anotar. Qual é o problema?",
+            "alternativas": [
+              "O negócio paga menos imposto",
+              "A equipe ganha mais",
+              "Nenhum, o dinheiro é dele",
+              "Mistura as contas e esconde se o negócio dá lucro"
+            ],
+            "correta": 3,
+            "explicacao": "Sem separação, ninguém sabe a real situação.",
+            "dica": "Pense em misturar contas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Semana: saldo inicial R$ 800, vendas à vista R$ 2.400, recebimento de cartão R$ 600, compras R$ 1.700, salários R$ 1.200, luz R$ 300. Saldo final?",
+            "alternativas": [
+              "R$ 1.800",
+              "R$ 900",
+              "R$ 600",
+              "R$ 300"
+            ],
+            "correta": 2,
+            "explicacao": "800 + 2.400 + 600 = 3.800; 1.700 + 1.200 + 300 = 3.200; 3.800 − 3.200 = 600.",
+            "dica": "Some as entradas, some as saídas, subtraia."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a montagem de um fluxo de caixa:",
+            "itens": [
+              "Anotar o saldo inicial",
+              "Listar as entradas",
+              "Listar as saídas",
+              "Calcular o saldo final"
+            ],
+            "explicacao": "Começa no saldo inicial e termina no final.",
+            "dica": "O saldo final é o último."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um negócio vende R$ 10.000 por mês, 60% no cartão com recebimento no mês seguinte. As saídas do mês são R$ 7.000. No primeiro mês, sem saldo inicial, o caixa fica:",
+            "alternativas": [
+              "Positivo em R$ 3.000",
+              "Negativo em R$ 3.000",
+              "Positivo em R$ 10.000",
+              "Zerado"
+            ],
+            "correta": 1,
+            "explicacao": "Entram só 40% = 4.000; 4.000 − 7.000 = −3.000.",
+            "dica": "Calcule quanto entrou de verdade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para pagar a equipe em dia num mês fraco, o que mais ajuda?",
+            "alternativas": [
+              "Pagar metade e prometer o resto",
+              "Não registrar os funcionários",
+              "Fechar a loja sem avisar",
+              "Ter uma reserva de caixa formada nos meses bons"
+            ],
+            "correta": 3,
+            "explicacao": "A reserva cobre os meses fracos dentro da lei.",
+            "dica": "Guardar nos meses bons."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja lucrou R$ 2.000 no mês, mas o caixa caiu R$ 500. Qual explicação é possível?",
+            "alternativas": [
+              "Vendeu muito a prazo e ainda não recebeu",
+              "É impossível",
+              "Os clientes pagaram à vista",
+              "O aluguel ficou mais barato"
+            ],
+            "correta": 0,
+            "explicacao": "Lucro de vendas a prazo ainda não virou dinheiro.",
+            "dica": "Diferença entre lucro e caixa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono quer economizar atrasando o salário da equipe todo mês. Qual é a consequência mais provável?",
+            "alternativas": [
+              "Nenhuma",
+              "Multas, processos trabalhistas e perda dos melhores funcionários",
+              "Equipe mais motivada",
+              "Lucro garantido"
+            ],
+            "correta": 1,
+            "explicacao": "Salário em dia é obrigação da CLT e base de uma equipe boa.",
+            "dica": "Pense na equipe e na lei."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fornecedor dá duas opções: pagar R$ 1.000 à vista ou R$ 1.050 em 30 dias. O caixa está apertado este mês, mas folgado no próximo. Qual decisão faz sentido?",
+            "alternativas": [
+              "Pedir empréstimo com juros de 10% para pagar à vista",
+              "Pagar em 30 dias, aceitando R$ 50 a mais para não faltar dinheiro agora",
+              "Não pagar",
+              "Pagar à vista e atrasar a luz"
+            ],
+            "correta": 1,
+            "explicacao": "R$ 50 (5%) para proteger o caixa pode valer; empréstimo de 10% custaria mais.",
+            "dica": "Compare custos e o aperto do mês."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Contra-argumento e refutação",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um texto argumentativo fica mais forte quando mostra que conhece a opinião contrária e responde a ela. Isso se chama apresentar o contra-argumento e fazer a refutação.",
+          "Contra-argumento: a ideia de quem pensa diferente. 'Alguns dizem que economizar água em casa não faz diferença, porque a indústria gasta muito mais.'",
+          "Refutação: a resposta que mostra por que o contra-argumento não se sustenta. 'No entanto, milhões de casas somadas gastam um volume enorme, e cada litro economizado ajuda nos períodos de seca.'",
+          "Expressões úteis: 'Há quem diga que...', 'Pode-se argumentar que...' para apresentar; 'No entanto', 'Porém', 'Ocorre que', 'Esse argumento ignora que...' para refutar. Também a concessão: 'Embora a indústria gaste mais, as casas também contam.'"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Tese: 'Celular deve ser guardado durante a aula.' Escreva um contra-argumento e uma refutação.",
+            "resolucao": "Contra-argumento: 'Há quem diga que o celular ajuda a pesquisar.' Refutação: 'Porém, a escola pode liberar o uso em atividades planejadas, sem que as notificações atrapalhem o resto da aula.'"
+          },
+          {
+            "enunciado": "Identifique a concessão: 'Embora o ônibus seja mais lento que o carro, ele polui menos por passageiro.'",
+            "resolucao": "Embora o ônibus seja mais lento: o autor admite um ponto do outro lado antes de defender sua ideia."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Refute com respeito e com fatos. Ridicularizar quem pensa diferente enfraquece o texto. Use dados, exemplos e autoridades, como em qualquer argumento.",
+        "Falácia do espantalho: distorcer a opinião contrária para ficar fácil derrubá-la. Se alguém diz 'precisamos de regras para o celular' e você responde 'ele quer proibir toda a tecnologia', está atacando um espantalho, não a ideia real.",
+        "Escolha o contra-argumento mais forte para refutar, não o mais fraco. Vencer o argumento mais forte do outro lado convence muito mais o leitor."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é contra-argumento?",
+            "alternativas": [
+              "Um exemplo a favor",
+              "O título",
+              "A conclusão do texto",
+              "A ideia de quem pensa diferente"
+            ],
+            "correta": 3,
+            "explicacao": "É o argumento do outro lado.",
+            "dica": "Contra quer dizer oposto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é refutação?",
+            "alternativas": [
+              "A resposta que derruba o contra-argumento",
+              "Repetir a tese",
+              "Mudar de assunto",
+              "Concordar com tudo"
+            ],
+            "correta": 0,
+            "explicacao": "Refutar é responder mostrando a falha.",
+            "dica": "Responder ao outro lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual expressão apresenta um contra-argumento?",
+            "alternativas": [
+              "Primeiramente",
+              "Há quem diga que",
+              "Por isso",
+              "Em conclusão"
+            ],
+            "correta": 1,
+            "explicacao": "Indica a opinião de outros.",
+            "dica": "Fala de outras pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual expressão costuma iniciar a refutação?",
+            "alternativas": [
+              "Por exemplo",
+              "No entanto",
+              "Além disso",
+              "Primeiro"
+            ],
+            "correta": 1,
+            "explicacao": "Indica oposição ao que veio antes.",
+            "dica": "Uma palavra de oposição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é bom mostrar a opinião contrária?",
+            "alternativas": [
+              "Para confundir o leitor",
+              "Para mudar de lado",
+              "Mostra que você conhece o tema e fortalece o texto",
+              "Para encher linhas"
+            ],
+            "correta": 2,
+            "explicacao": "Responder à objeção convence mais.",
+            "dica": "Pense no leitor que discorda."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 'Embora a indústria gaste mais, as casas também contam', a parte com embora é:",
+            "alternativas": [
+              "Uma conclusão",
+              "Uma concessão",
+              "Um exemplo",
+              "Um título"
+            ],
+            "correta": 1,
+            "explicacao": "Admite um ponto do outro lado.",
+            "dica": "O autor concede algo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma boa refutação para 'Apostar é diversão inofensiva'?",
+            "alternativas": [
+              "Eu não gosto de apostas.",
+              "Quem aposta é burro.",
+              "No entanto, a banca fica com parte do dinheiro e muitas pessoas se viciam e se endividam.",
+              "Isso é mentira e pronto."
+            ],
+            "correta": 2,
+            "explicacao": "Refutação com fatos e respeito.",
+            "dica": "Procure fatos, não ofensa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ridicularizar quem pensa diferente:",
+            "alternativas": [
+              "Fortalece o texto",
+              "É obrigatório",
+              "Enfraquece o texto",
+              "Substitui os argumentos"
+            ],
+            "correta": 2,
+            "explicacao": "Ofensa não é argumento.",
+            "dica": "O leitor confia em quem ofende?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase traz contra-argumento e refutação?",
+            "alternativas": [
+              "Uniforme é azul.",
+              "Uniforme é bom.",
+              "Eu adoro uniforme.",
+              "Alguns dizem que uniforme é caro; porém, ele evita comparações de roupa entre os alunos."
+            ],
+            "correta": 3,
+            "explicacao": "Tem a ideia contrária e a resposta.",
+            "dica": "Procure duas partes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conectivo de concessão completa: '___ chova, a feira vai acontecer'?",
+            "alternativas": [
+              "Portanto",
+              "Porque",
+              "Assim",
+              "Mesmo que"
+            ],
+            "correta": 3,
+            "explicacao": "Mesmo que admite a chuva e mantém a ideia.",
+            "dica": "Admite um obstáculo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém diz 'precisamos de regras para o celular na escola' e outro responde 'ele quer proibir toda tecnologia'. Que falácia é essa?",
+            "alternativas": [
+              "Espantalho",
+              "Dado",
+              "Exemplo",
+              "Autoridade"
+            ],
+            "correta": 0,
+            "explicacao": "Distorce a ideia para atacar mais fácil.",
+            "dica": "Atacar uma versão falsa da ideia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual contra-argumento é melhor escolher para refutar?",
+            "alternativas": [
+              "Um inventado e bobo",
+              "O mais fraco",
+              "Nenhum",
+              "O mais forte do outro lado"
+            ],
+            "correta": 3,
+            "explicacao": "Vencer o melhor argumento convence mais.",
+            "dica": "Qual convence mais o leitor ao ser derrotado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Há quem diga que a horta dá trabalho demais. Ocorre que um rodízio entre as turmas divide as tarefas.' O que faz a segunda frase?",
+            "alternativas": [
+              "Muda de assunto",
+              "Apresenta a tese pela primeira vez",
+              "Concorda com a crítica",
+              "Refuta o contra-argumento com uma solução"
+            ],
+            "correta": 3,
+            "explicacao": "Ocorre que introduz a resposta.",
+            "dica": "Ela responde à crítica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é uma refutação com dado?",
+            "alternativas": [
+              "Mas isso é ridículo.",
+              "Mas, na nossa escola, 80% dos alunos usam ônibus, então a mudança de horário afetaria quase todos.",
+              "Mas todo mundo sabe.",
+              "Mas eu acho que não."
+            ],
+            "correta": 1,
+            "explicacao": "Tem número para sustentar.",
+            "dica": "Procure o número."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem um parágrafo com refutação:",
+            "itens": [
+              "A escola deveria ter mais aulas de programação.",
+              "Há quem diga que faltam computadores.",
+              "No entanto, muitas atividades podem ser feitas no papel ou no celular.",
+              "Assim, a falta de máquinas não impede o ensino."
+            ],
+            "explicacao": "Tese, contra-argumento, refutação e conclusão.",
+            "dica": "A tese abre o parágrafo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual refutação é mais forte para 'economizar água em casa não adianta, a indústria gasta mais'?",
+            "alternativas": [
+              "A indústria não gasta nada.",
+              "Isso é bobagem.",
+              "Quem diz isso não liga para o planeta.",
+              "A indústria gasta mais, mas milhões de casas somadas também gastam muito, e economizar em todos os setores evita o racionamento."
+            ],
+            "correta": 3,
+            "explicacao": "Concede um ponto real e responde com lógica.",
+            "dica": "Procure a que admite o fato e responde."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto apresenta o contra-argumento, mas esquece de refutá-lo. O que acontece?",
+            "alternativas": [
+              "Vira poema",
+              "Fica mais convincente",
+              "Nada muda",
+              "Pode acabar reforçando a ideia contrária"
+            ],
+            "correta": 3,
+            "explicacao": "Sem resposta, o leitor fica com a objeção.",
+            "dica": "O que fica na cabeça do leitor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 'Ainda que a reforma custe caro, ela evita acidentes', qual é a tese defendida?",
+            "alternativas": [
+              "A reforma deve ser feita",
+              "Nada deve mudar",
+              "A reforma é cara demais",
+              "Não há acidentes"
+            ],
+            "correta": 0,
+            "explicacao": "A concessão admite o custo, mas a ideia principal é a favor.",
+            "dica": "A ideia principal vem depois da vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma refutação que distorce o outro lado?",
+            "alternativas": [
+              "Há quem diga que ciclovias atrapalham; porém, elas organizam o trânsito.",
+              "Pesquisas mostram menos acidentes onde há ciclovia.",
+              "Ciclovias custam, mas reduzem acidentes com ciclistas.",
+              "Quem pede ciclovia quer acabar com os carros."
+            ],
+            "correta": 3,
+            "explicacao": "Exagera a posição do outro: espantalho.",
+            "dica": "Qual exagera o que o outro disse?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a concessão ('embora...') pode aumentar a confiança do leitor?",
+            "alternativas": [
+              "Mostra que o autor é justo e reconhece pontos do outro lado",
+              "Mostra que o autor mudou de ideia",
+              "Engana o leitor",
+              "Deixa o texto sem tese"
+            ],
+            "correta": 0,
+            "explicacao": "Reconhecer o que é verdade no outro lado dá credibilidade.",
+            "dica": "Quem parece mais justo?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A caixa-d'água da escola",
+    "texto": "Quem vê a caixa-d'água no alto do prédio da escola não imagina quanta água cabe ali. Numa escola estadual da zona leste, o reservatório é um bloco de concreto de 4 metros de comprimento, 3 de largura e 2 de altura. Multiplicando, chega-se a 24 metros cúbicos. Como cada metro cúbico tem mil litros, cabem ali 24 mil litros de água.\n\nParece muito, mas a escola tem 600 alunos, além de professores e funcionários. Somando bebedouros, banheiros, limpeza e a cozinha da merenda, o gasto chega a 12 mil litros por dia. Isso dá cerca de 20 litros por aluno. Com a caixa cheia e sem reabastecimento, a água acabaria em apenas dois dias.\n\nPor isso, cada desperdício pesa. Uma torneira pingando ou uma descarga com vazamento parecem pequenas, mas funcionam o dia inteiro, inclusive nas férias. Pode ser dezenas ou centenas de litros perdidos todos os dias, sem ninguém ver.\n\nOs alunos do 8º ano resolveram investigar. Mediram a vazão de uma torneira, contaram as que pingavam e montaram uma tabela. Descobriram três vazamentos e levaram o relatório à direção, que chamou o encanador na mesma semana.\n\nNo mês seguinte, a conta de água caiu. A turma comemorou e pendurou no corredor um cartaz com a conta do reservatório, para que todos lembrem: a água que chega à torneira tem medida, tem custo e não é infinita."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva um texto defendendo a economia de água na escola ou em casa. Apresente um argumento contrário (por exemplo, 'minha casa sozinha não faz diferença') com uma expressão como 'Há quem diga que' e responda a ele com 'No entanto' ou 'Porém', usando um dado do texto de hoje. Termine com uma conclusão."
+  }
+}

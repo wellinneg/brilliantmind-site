@@ -1,0 +1,1488 @@
+{
+  "dia": 59,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Probabilidade: chance de eventos simples e combinados",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Probabilidade mede a chance de algo acontecer. Quando todos os resultados têm a mesma chance, ela é: P = casos favoráveis ÷ casos possíveis.",
+          "Exemplo: num dado comum, a chance de sair 4 é 1/6 (um caso favorável em seis possíveis). A chance de sair número par é 3/6 = 1/2, porque 2, 4 e 6 são favoráveis.",
+          "A probabilidade vai de 0 (impossível, como tirar 7 num dado) a 1 (certo, como tirar um número menor que 7). Também pode ser escrita em porcentagem: 1/2 = 50%.",
+          "Evento complementar: a chance de algo NÃO acontecer é 1 menos a chance de acontecer. Se a previsão diz 30% de chuva, a chance de não chover é 70%.",
+          "Eventos independentes (um não interfere no outro), quando se quer que os dois aconteçam, multiplicam-se. Duas moedas darem cara: 1/2 · 1/2 = 1/4."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Numa urna há 3 bolas azuis e 2 vermelhas. Qual é a chance de tirar uma azul?",
+            "resolucao": "Favoráveis: 3. Possíveis: 5. P = 3/5 = 60%."
+          },
+          {
+            "enunciado": "Dois dados são lançados. Qual é a chance de a soma dar 7?",
+            "resolucao": "Há 6 · 6 = 36 pares possíveis. Somam 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), ou seja, 6 pares. P = 6/36 = 1/6."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "\"Pelo menos um\": muitas vezes é mais fácil calcular o contrário. A chance de sair pelo menos uma cara em 3 moedas é 1 menos a chance de sair coroa nas três: 1 − 1/8 = 7/8.",
+        "Sem reposição, as chances mudam: com 4 bolas azuis e 6 vermelhas, tirar duas azuis seguidas sem devolver dá 4/10 · 3/9 = 12/90 = 2/15, porque na segunda retirada sobraram 9 bolas, 3 azuis.",
+        "Falácia do apostador: se uma moeda deu cara 5 vezes seguidas, a chance de cara na próxima continua 1/2. A moeda não tem memória. Jogos de azar exploram essa ilusão, e a casa de apostas sempre leva vantagem no longo prazo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair cara numa moeda?",
+            "alternativas": [
+              "1",
+              "1/4",
+              "1/2",
+              "1/6"
+            ],
+            "correta": 2,
+            "explicacao": "Um caso favorável em dois possíveis.",
+            "dica": "Quantos lados tem a moeda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair 4 num dado comum?",
+            "alternativas": [
+              "1/4",
+              "4/6",
+              "1/2",
+              "1/6"
+            ],
+            "correta": 3,
+            "explicacao": "Um caso favorável em seis.",
+            "dica": "O dado tem quantas faces?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um evento impossível tem probabilidade:",
+            "alternativas": [
+              "1",
+              "0",
+              "1/2",
+              "100%"
+            ],
+            "correta": 1,
+            "explicacao": "Impossível = nenhuma chance.",
+            "dica": "Qual é a menor probabilidade?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Urna com 3 bolas azuis e 2 vermelhas. Chance de tirar azul?",
+            "alternativas": [
+              "3/5",
+              "2/5",
+              "1/2",
+              "3/2"
+            ],
+            "correta": 0,
+            "explicacao": "3 azuis em 5 bolas.",
+            "dica": "Favoráveis sobre o total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um evento certo tem probabilidade:",
+            "alternativas": [
+              "1, ou seja, 100%",
+              "1/2",
+              "50%",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "Certo é a maior chance possível.",
+            "dica": "Vai acontecer com certeza."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair número par num dado?",
+            "alternativas": [
+              "1/3",
+              "1/6",
+              "1/2",
+              "2/3"
+            ],
+            "correta": 2,
+            "explicacao": "2, 4 e 6: 3/6 = 1/2.",
+            "dica": "Liste os pares de 1 a 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de sair número maior que 4 num dado?",
+            "alternativas": [
+              "2/3",
+              "1/3",
+              "1/6",
+              "1/2"
+            ],
+            "correta": 1,
+            "explicacao": "5 e 6: 2/6 = 1/3.",
+            "dica": "Quais números são maiores que 4?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A chance de chover amanhã é 30%. Qual é a chance de não chover?",
+            "alternativas": [
+              "70%",
+              "60%",
+              "30%",
+              "100%"
+            ],
+            "correta": 0,
+            "explicacao": "Complementar: 100% − 30% = 70%.",
+            "dica": "As duas chances somam 100%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas moedas são lançadas. Qual é a chance de as duas darem cara?",
+            "alternativas": [
+              "1/2",
+              "1/3",
+              "2/4",
+              "1/4"
+            ],
+            "correta": 3,
+            "explicacao": "1/2 · 1/2 = 1/4.",
+            "dica": "Eventos independentes se multiplicam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa sala com 30 alunos, 12 são meninas. Sorteando um aluno, qual a chance de ser menina?",
+            "alternativas": [
+              "12%",
+              "40%",
+              "60%",
+              "30%"
+            ],
+            "correta": 1,
+            "explicacao": "12/30 = 2/5 = 40%.",
+            "dica": "Divida 12 por 30."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois dados são lançados. Qual é a chance de a soma dar 12?",
+            "alternativas": [
+              "1/36",
+              "1/6",
+              "2/36",
+              "1/12"
+            ],
+            "correta": 0,
+            "explicacao": "Só (6,6) soma 12: 1 caso em 36.",
+            "dica": "Quantos pares somam 12?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois dados são lançados. Qual é a chance de saírem números iguais?",
+            "alternativas": [
+              "1/12",
+              "1/36",
+              "1/6",
+              "1/2"
+            ],
+            "correta": 2,
+            "explicacao": "(1,1), (2,2) ... (6,6): 6/36 = 1/6.",
+            "dica": "Conte os pares iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Urna com 4 bolas azuis e 6 vermelhas. Tirando duas sem devolver, qual a chance de as duas serem azuis?",
+            "alternativas": [
+              "4/25",
+              "2/15",
+              "4/10",
+              "1/5"
+            ],
+            "correta": 1,
+            "explicacao": "4/10 · 3/9 = 12/90 = 2/15. Com reposição seria 4/25.",
+            "dica": "Na segunda retirada, quantas bolas sobraram?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de acertar um cadeado de 3 dígitos (000 a 999) na primeira tentativa?",
+            "alternativas": [
+              "1/3",
+              "1/999",
+              "1/30",
+              "1/1.000"
+            ],
+            "correta": 3,
+            "explicacao": "Há 1.000 combinações e só uma abre.",
+            "dica": "Lembre a contagem do dia 56."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem da MENOR para a MAIOR chance.",
+            "itens": [
+              "Sair 6 num dado",
+              "Sair cara numa moeda",
+              "Tirar azul de uma urna com 3 azuis e 1 vermelha",
+              "Sair número menor que 7 num dado"
+            ],
+            "explicacao": "1/6, 1/2, 3/4 e 1.",
+            "dica": "Escreva cada chance como fração."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Três moedas são lançadas. Qual é a chance de sair pelo menos uma cara?",
+            "alternativas": [
+              "7/8",
+              "1/2",
+              "3/8",
+              "1/8"
+            ],
+            "correta": 0,
+            "explicacao": "Contrário: nenhuma cara = 1/8. Então 1 − 1/8 = 7/8.",
+            "dica": "Calcule o contrário primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois dados são lançados. Qual é a chance de a soma ser 10 ou mais?",
+            "alternativas": [
+              "1/12",
+              "1/4",
+              "1/6",
+              "1/36"
+            ],
+            "correta": 2,
+            "explicacao": "(4,6), (5,5), (6,4), (5,6), (6,5), (6,6): 6/36 = 1/6.",
+            "dica": "Liste os pares que somam 10, 11 e 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois dados são lançados. Qual é a chance de sair pelo menos um 6?",
+            "alternativas": [
+              "1/6",
+              "11/36",
+              "12/36",
+              "2/6"
+            ],
+            "correta": 1,
+            "explicacao": "Nenhum 6: 5/6 · 5/6 = 25/36. Pelo menos um: 1 − 25/36 = 11/36. Somar 1/6 + 1/6 conta (6,6) duas vezes.",
+            "dica": "Use o complementar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família tem 3 filhos. Considerando menino e menina com a mesma chance, qual é a probabilidade de exatamente 2 serem meninas?",
+            "alternativas": [
+              "1/4",
+              "1/8",
+              "2/3",
+              "3/8"
+            ],
+            "correta": 3,
+            "explicacao": "8 combinações; com exatamente 2 meninas: FFM, FMF, MFF = 3/8.",
+            "dica": "Liste as 8 combinações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma moeda deu cara 5 vezes seguidas. Qual é a chance de dar cara na próxima?",
+            "alternativas": [
+              "Quase 1, porque está numa sequência",
+              "1/2",
+              "1/32",
+              "Quase zero, porque agora tem que dar coroa"
+            ],
+            "correta": 1,
+            "explicacao": "A moeda não tem memória: é a falácia do apostador.",
+            "dica": "Releia o aprofundamento."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Projeto lista de tarefas, parte 2: funcionar e salvar no navegador",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Na parte 1, a página adicionava tarefas, mas elas sumiam ao recarregar. Agora vamos guardar as tarefas numa lista de objetos, marcar como feitas, remover e salvar no localStorage.",
+          "Cada tarefa vira um objeto: { texto: \"Estudar\", feita: false }. A lista começa com o que está salvo, ou vazia na primeira vez:\nlet tarefas = JSON.parse(localStorage.getItem(\"tarefas\")) || [];\nfunction salvar() {\n  localStorage.setItem(\"tarefas\", JSON.stringify(tarefas));\n}",
+          "A função adicionar agora coloca o objeto na lista, salva e redesenha:\nfunction adicionar() {\n  const texto = campo.value.trim();\n  if (texto === \"\") return;\n  tarefas.push({ texto: texto, feita: false });\n  salvar();\n  desenhar();\n  campo.value = \"\";\n}",
+          "A função desenhar apaga a lista da tela e cria um li para cada tarefa. Clicar no item troca feita entre true e false; o botão Remover tira a tarefa com splice:\nfunction desenhar() {\n  lista.innerHTML = \"\";\n  tarefas.forEach((t, i) => {\n    const item = document.createElement(\"li\");\n    item.textContent = t.texto;\n    if (t.feita) item.classList.add(\"feita\");\n    item.addEventListener(\"click\", () => { t.feita = !t.feita; salvar(); desenhar(); });\n    const x = document.createElement(\"button\");\n    x.textContent = \"Remover\";\n    x.addEventListener(\"click\", (e) => { e.stopPropagation(); tarefas.splice(i, 1); salvar(); desenhar(); });\n    item.appendChild(x);\n    lista.appendChild(item);\n  });\n}\ndesenhar();",
+          "No CSS, a classe feita risca o texto: .feita { text-decoration: line-through; color: gray; }. A regra de ouro do projeto: toda mudança na lista é seguida de salvar() e desenhar()."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O que faz t.feita = !t.feita?",
+            "resolucao": "O sinal ! inverte o valor: se era false, vira true (tarefa marcada como feita); se era true, vira false (desmarcada). Um clique marca, outro desmarca."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Por que e.stopPropagation()? O botão Remover está dentro do li. Sem essa linha, o clique no botão também \"sobe\" para o li, que tentaria marcar a tarefa como feita logo depois de removê-la.",
+        "Melhorias possíveis: mostrar quantas tarefas faltam com tarefas.filter(t => !t.feita).length; um botão \"Limpar feitas\" com tarefas = tarefas.filter(t => !t.feita); e confirmar antes de remover com if (confirm(\"Remover?\")).",
+        "O localStorage guarda só naquele navegador e naquele aparelho, e só textos. Por isso usamos JSON.stringify para salvar e JSON.parse para ler. Não guarde senhas nem dados sensíveis ali."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que as tarefas sumiam ao recarregar na parte 1?",
+            "alternativas": [
+              "Porque o Python fechava",
+              "Porque o botão quebrava",
+              "Porque o CSS apagava",
+              "Porque não eram salvas"
+            ],
+            "correta": 3,
+            "explicacao": "Sem salvar, a página esquece tudo.",
+            "dica": "O que a parte 2 acrescenta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde as tarefas são salvas no navegador?",
+            "alternativas": [
+              "No localStorage",
+              "No CSS",
+              "No título da página",
+              "Na impressora"
+            ],
+            "correta": 0,
+            "explicacao": "localStorage guarda dados naquele navegador.",
+            "dica": "É o armazenamento local."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como cada tarefa é guardada na lista?",
+            "alternativas": [
+              "Como uma imagem",
+              "Como um objeto com texto e feita",
+              "Como um número só",
+              "Como um botão"
+            ],
+            "correta": 1,
+            "explicacao": "{ texto: \"Estudar\", feita: false }.",
+            "dica": "Lembre do formato com chaves."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que comando de lista remove um item pela posição?",
+            "alternativas": [
+              "splice",
+              "trim",
+              "push",
+              "textContent"
+            ],
+            "correta": 0,
+            "explicacao": "tarefas.splice(i, 1) tira 1 item na posição i.",
+            "dica": "push adiciona; qual remove?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a classe feita faz no CSS da lição?",
+            "alternativas": [
+              "Aumenta a fonte",
+              "Apaga a tarefa",
+              "Risca o texto da tarefa",
+              "Muda o título"
+            ],
+            "correta": 2,
+            "explicacao": "text-decoration: line-through risca.",
+            "dica": "Line-through é uma linha atravessando."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o || [] em JSON.parse(localStorage.getItem(\"tarefas\")) || []?",
+            "alternativas": [
+              "Apagar tudo",
+              "Ordenar as tarefas",
+              "Dobrar a lista",
+              "Começar com lista vazia quando ainda não há nada salvo"
+            ],
+            "correta": 3,
+            "explicacao": "Na primeira vez, getItem devolve null.",
+            "dica": "O que acontece na primeira vez que a página abre?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que JSON.stringify(tarefas) faz?",
+            "alternativas": [
+              "Transforma a lista em texto para salvar",
+              "Cria um botão",
+              "Apaga a lista",
+              "Lê o que foi salvo"
+            ],
+            "correta": 0,
+            "explicacao": "localStorage só guarda texto.",
+            "dica": "Stringify lembra string, texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se t.feita é false, depois de t.feita = !t.feita ela vale:",
+            "alternativas": [
+              "null",
+              "true",
+              "\"feita\"",
+              "false"
+            ],
+            "correta": 1,
+            "explicacao": "O ! inverte o valor.",
+            "dica": "! quer dizer não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que tarefas.push({ texto: \"Ler\", feita: false }) faz?",
+            "alternativas": [
+              "Desenha a lista",
+              "Salva no localStorage",
+              "Acrescenta uma tarefa no fim da lista",
+              "Remove a primeira tarefa"
+            ],
+            "correta": 2,
+            "explicacao": "push coloca no fim.",
+            "dica": "Empurrar para o fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a regra de ouro do projeto depois de mudar a lista?",
+            "alternativas": [
+              "Apagar o localStorage",
+              "Fechar o navegador",
+              "Recarregar a página",
+              "Chamar salvar() e desenhar()"
+            ],
+            "correta": 3,
+            "explicacao": "Salvar guarda; desenhar mostra.",
+            "dica": "Duas funções, sempre juntas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "tarefas tem 3 itens: [\"Ler\", \"Treinar\", \"Lavar louça\"]. Depois de tarefas.splice(1, 1), o que sobra?",
+            "alternativas": [
+              "[\"Treinar\", \"Lavar louça\"]",
+              "[\"Ler\", \"Treinar\"]",
+              "[\"Lavar louça\"]",
+              "[\"Ler\", \"Lavar louça\"]"
+            ],
+            "correta": 3,
+            "explicacao": "A posição 1 é a segunda (\"Treinar\"), porque a contagem começa em 0.",
+            "dica": "A primeira posição é a 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que desenhar() começa com lista.innerHTML = \"\"?",
+            "alternativas": [
+              "Para salvar",
+              "Para não duplicar os itens a cada redesenho",
+              "Para mudar a cor",
+              "Para apagar o localStorage"
+            ],
+            "correta": 1,
+            "explicacao": "Sem limpar, os itens antigos ficariam e os novos seriam somados.",
+            "dica": "O que aconteceria se não limpasse?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve e.stopPropagation() no botão Remover?",
+            "alternativas": [
+              "Impedir que o clique também marque a tarefa como feita no li",
+              "Salvar a tarefa",
+              "Apagar todas as tarefas",
+              "Parar o navegador"
+            ],
+            "correta": 0,
+            "explicacao": "O clique sobe para o elemento de fora; essa linha impede.",
+            "dica": "O botão fica dentro do li."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha mostra quantas tarefas ainda faltam?",
+            "alternativas": [
+              "localStorage.length",
+              "tarefas.push().length",
+              "tarefas.filter(t => !t.feita).length",
+              "tarefas.length * 2"
+            ],
+            "correta": 2,
+            "explicacao": "filter pega só as não feitas; length conta.",
+            "dica": "Filtre as que não estão feitas."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que acontece quando a pessoa clica em Adicionar.",
+            "itens": [
+              "Ler e limpar os espaços do texto digitado",
+              "Colocar o objeto da tarefa na lista com push",
+              "Salvar a lista no localStorage",
+              "Redesenhar a lista na tela",
+              "Limpar o campo de texto"
+            ],
+            "explicacao": "É a ordem da função adicionar da lição.",
+            "dica": "Limpar o campo é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém esqueceu de chamar salvar() dentro do clique que marca a tarefa como feita. O que acontece?",
+            "alternativas": [
+              "A tarefa aparece riscada, mas volta desmarcada ao recarregar",
+              "A página não abre",
+              "Nada muda na tela",
+              "A tarefa é apagada"
+            ],
+            "correta": 0,
+            "explicacao": "desenhar() mostra a mudança, mas sem salvar ela se perde.",
+            "dica": "O que guarda e o que só mostra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o código fosse localStorage.setItem(\"tarefas\", tarefas), sem JSON.stringify, o que seria salvo?",
+            "alternativas": [
+              "A lista perfeita",
+              "Nada, dá erro sempre",
+              "Um texto inútil como \"[object Object],[object Object]\"",
+              "Só o primeiro texto"
+            ],
+            "correta": 2,
+            "explicacao": "localStorage converte para texto do jeito errado; por isso se usa JSON.",
+            "dica": "localStorage só aceita texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fazer um botão \"Limpar feitas\" funcionar?",
+            "alternativas": [
+              "tarefas = tarefas.filter(t => !t.feita); salvar(); desenhar();",
+              "tarefas.push(feita)",
+              "localStorage.clear() e nada mais",
+              "lista.innerHTML = \"\" e nada mais"
+            ],
+            "correta": 0,
+            "explicacao": "Mantém só as não feitas, salva e redesenha.",
+            "dica": "Use a regra de ouro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não guardar senhas no localStorage?",
+            "alternativas": [
+              "Porque apaga sozinho em 1 minuto",
+              "Porque fica sem proteção no navegador e outros podem ler",
+              "Porque não cabe",
+              "Porque é proibido digitar senhas"
+            ],
+            "correta": 1,
+            "explicacao": "Dados sensíveis precisam de proteção de verdade.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A lista tem 4 tarefas, 1 delas feita. A pessoa remove uma tarefa não feita e marca outra como feita. Quanto mostra tarefas.filter(t => !t.feita).length?",
+            "alternativas": [
+              "2",
+              "0",
+              "3",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "Começa com 3 não feitas; remover uma deixa 2; marcar outra deixa 1.",
+            "dica": "Acompanhe passo a passo as não feitas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Relatório completo: capa, sumário, gráfico e exportação em PDF",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um relatório escolar ou profissional completo tem: capa, sumário, introdução, desenvolvimento (com tabelas e gráficos), conclusão e referências. O Word ajuda a montar tudo de forma organizada.",
+          "Capa: nome da escola, título, autor, turma, cidade e ano. Depois dela, use Ctrl + Enter para uma quebra de página, e o conteúdo começa na página seguinte.",
+          "Sumário automático: aplique os estilos Título 1 aos títulos principais e Título 2 aos subtítulos (Página Inicial > Estilos). Depois, vá em Referências > Sumário. Quando o texto mudar, clique no sumário e escolha Atualizar Sumário.",
+          "Gráfico: Inserir > Gráfico, escolha o tipo (colunas, pizza, linhas) e digite os dados na planilha que abre. Coloque uma legenda com Referências > Inserir Legenda (\"Gráfico 1 – Consumo de água por mês\").",
+          "Números de página: Inserir > Número de Página. Para a capa não mostrar número, marque Primeira Página Diferente no cabeçalho e rodapé. Para terminar, Arquivo > Exportar > Criar PDF, ou Salvar Como e escolha PDF."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você fez um relatório sobre o consumo de água da escola. Quais títulos receberiam Título 1?",
+            "resolucao": "Introdução, Metodologia, Resultados, Conclusão e Referências. Subtítulos como \"Consumo nos banheiros\" recebem Título 2. O sumário é montado a partir desses estilos."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Quebra de seção (Layout > Quebras > Próxima Página) permite ter numeração diferente em partes do documento, por exemplo começar a contar a partir da introdução, ou deixar uma página com orientação paisagem para um gráfico grande.",
+        "Referências: liste os livros e sites consultados, com autor, título, ano e, nos sites, o endereço e a data de acesso. Citar as fontes evita plágio e dá credibilidade ao relatório.",
+        "O PDF preserva a formatação em qualquer computador ou celular e não é editado por acidente. Antes de exportar, atualize o sumário, confira a numeração e revise a ortografia (Revisão > Ortografia e Gramática)."
+      ],
+      "desafio_pratico": "Faça no Word um relatório de 4 a 6 páginas sobre um tema do seu bairro ou da escola (consumo de água, lixo, transporte). Inclua capa com escola, título, autor, turma, cidade e ano; Ctrl + Enter depois da capa; títulos com Título 1 e Título 2; sumário automático; um gráfico de colunas com dados que você levantar (ou inventar, avisando) e legenda; números de página sem aparecer na capa; referências com pelo menos 2 fontes. Atualize o sumário, revise a ortografia e exporte em PDF.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual parte vem primeiro num relatório?",
+            "alternativas": [
+              "A capa",
+              "A conclusão",
+              "O gráfico",
+              "As referências"
+            ],
+            "correta": 0,
+            "explicacao": "A capa apresenta o trabalho.",
+            "dica": "É a primeira coisa que se vê."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atalho cria uma quebra de página?",
+            "alternativas": [
+              "Ctrl + P",
+              "Alt + F4",
+              "Ctrl + C",
+              "Ctrl + Enter"
+            ],
+            "correta": 3,
+            "explicacao": "Ctrl + Enter pula para a próxima página.",
+            "dica": "Enter com uma tecla de controle."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que guia se cria o sumário automático?",
+            "alternativas": [
+              "Desenhar",
+              "Correspondências",
+              "Exibir",
+              "Referências"
+            ],
+            "correta": 3,
+            "explicacao": "Referências > Sumário.",
+            "dica": "Fica junto com legendas e citações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se insere um gráfico no Word?",
+            "alternativas": [
+              "Revisão > Gráfico",
+              "Exibir > Régua",
+              "Inserir > Gráfico",
+              "Arquivo > Gráfico"
+            ],
+            "correta": 2,
+            "explicacao": "A guia Inserir coloca elementos novos.",
+            "dica": "Você vai inserir algo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve exportar em PDF?",
+            "alternativas": [
+              "Deixar o texto editável por todos",
+              "Manter a formatação igual em qualquer aparelho",
+              "Apagar as imagens",
+              "Trocar o idioma"
+            ],
+            "correta": 1,
+            "explicacao": "O PDF preserva o visual.",
+            "dica": "Pense em enviar para o professor."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é preciso fazer para o sumário automático funcionar?",
+            "alternativas": [
+              "Aplicar os estilos Título 1 e Título 2 aos títulos",
+              "Aumentar a fonte dos títulos",
+              "Colocar os títulos em negrito",
+              "Escrever o sumário à mão"
+            ],
+            "correta": 0,
+            "explicacao": "O sumário lê os estilos, não o negrito.",
+            "dica": "Ele procura estilos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O texto mudou e as páginas do sumário ficaram erradas. O que fazer?",
+            "alternativas": [
+              "Imprimir de novo",
+              "Mudar a fonte",
+              "Clicar no sumário e Atualizar Sumário",
+              "Apagar o relatório"
+            ],
+            "correta": 2,
+            "explicacao": "O sumário não se atualiza sozinho.",
+            "dica": "Existe um botão para isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como evitar número de página na capa?",
+            "alternativas": [
+              "Pintar o número de branco",
+              "Marcar Primeira Página Diferente",
+              "Apagar a capa",
+              "Não é possível"
+            ],
+            "correta": 1,
+            "explicacao": "Opção do cabeçalho e rodapé.",
+            "dica": "A primeira página é diferente das outras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se coloca a legenda \"Gráfico 1 – Consumo de água por mês\"?",
+            "alternativas": [
+              "Revisão > Comentário",
+              "Inserir > Forma",
+              "Layout > Margens",
+              "Referências > Inserir Legenda"
+            ],
+            "correta": 3,
+            "explicacao": "Legendas ficam na guia Referências.",
+            "dica": "Mesma guia do sumário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais dados vão na capa?",
+            "alternativas": [
+              "Só o desenho",
+              "O gráfico",
+              "As referências",
+              "Escola, título, autor, turma, cidade e ano"
+            ],
+            "correta": 3,
+            "explicacao": "A capa identifica o trabalho.",
+            "dica": "Quem fez, o quê, onde e quando."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer que a numeração comece na introdução, não na capa nem no sumário. O que usar?",
+            "alternativas": [
+              "Ctrl + Enter várias vezes",
+              "Revisão > Ortografia",
+              "Inserir > Tabela",
+              "Quebra de seção (Layout > Quebras > Próxima Página)"
+            ],
+            "correta": 3,
+            "explicacao": "Seções permitem numeração diferente.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um subtítulo como \"Consumo nos banheiros\" deve receber qual estilo?",
+            "alternativas": [
+              "Título 2",
+              "Legenda",
+              "Normal",
+              "Título 1"
+            ],
+            "correta": 0,
+            "explicacao": "Título 2 fica dentro de um Título 1 no sumário.",
+            "dica": "É um nível abaixo do título principal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que deve aparecer nas referências de um site?",
+            "alternativas": [
+              "Só a palavra \"internet\"",
+              "A senha do site",
+              "Autor, título, endereço e data de acesso",
+              "A cor do site"
+            ],
+            "correta": 2,
+            "explicacao": "Data de acesso é importante porque sites mudam.",
+            "dica": "Como alguém acharia o site depois?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O gráfico é muito largo para a página em pé. Uma solução é:",
+            "alternativas": [
+              "Apagar o gráfico",
+              "Colocar só aquela página em paisagem, com quebra de seção",
+              "Diminuir a fonte do texto todo",
+              "Mudar o relatório inteiro para paisagem sem necessidade"
+            ],
+            "correta": 1,
+            "explicacao": "Seções permitem orientação diferente.",
+            "dica": "Só uma página precisa mudar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a finalização do relatório.",
+            "itens": [
+              "Aplicar estilos aos títulos",
+              "Inserir o sumário automático",
+              "Revisar a ortografia e atualizar o sumário",
+              "Exportar em PDF"
+            ],
+            "explicacao": "Estilos, sumário, revisão e PDF.",
+            "dica": "O PDF é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O sumário mostra só \"Introdução\" e \"Conclusão\", mas faltam \"Resultados\" e \"Metodologia\". O provável motivo é:",
+            "alternativas": [
+              "O sumário tem limite de dois itens",
+              "Os títulos estão em itálico",
+              "O Word esqueceu",
+              "Esses títulos não receberam o estilo Título 1"
+            ],
+            "correta": 3,
+            "explicacao": "Só aparecem os títulos com estilo de título.",
+            "dica": "O que o sumário lê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O relatório tem capa (pág. 1), sumário (pág. 2) e introdução (pág. 3). O professor pediu que a introdução apareça como página 1. Qual é o caminho?",
+            "alternativas": [
+              "Quebra de seção antes da introdução, desvincular do anterior e iniciar a numeração em 1",
+              "Escrever o número 1 à mão",
+              "Exportar em PDF",
+              "Apagar a capa e o sumário"
+            ],
+            "correta": 0,
+            "explicacao": "Seção nova com numeração reiniciada.",
+            "dica": "Combine seção e numeração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tipo de gráfico é melhor para mostrar o consumo de água mês a mês ao longo do ano?",
+            "alternativas": [
+              "Nenhum gráfico",
+              "Um gráfico de radar",
+              "Linhas ou colunas",
+              "Pizza com 12 fatias"
+            ],
+            "correta": 2,
+            "explicacao": "Mostrar evolução no tempo combina com linhas ou colunas.",
+            "dica": "Você quer ver a mudança ao longo dos meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que enviar o relatório em PDF e não em .docx?",
+            "alternativas": [
+              "Porque o Word não abre .docx",
+              "Porque o PDF corrige a ortografia",
+              "Para a formatação não mudar e o arquivo não ser alterado por acidente",
+              "Porque PDF é sempre menor"
+            ],
+            "correta": 2,
+            "explicacao": "O PDF preserva o visual em qualquer aparelho.",
+            "dica": "O que acontece com fontes e espaçamentos em outro computador?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluno copiou dados de um site e não citou. Qual parte do relatório resolve isso?",
+            "alternativas": [
+              "A cor do gráfico",
+              "As referências, citando a fonte",
+              "A capa",
+              "O número de página"
+            ],
+            "correta": 1,
+            "explicacao": "Citar a fonte evita plágio.",
+            "dica": "Onde ficam as fontes consultadas?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Pitch: apresentar o negócio em um minuto",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Pitch é uma apresentação curta e convincente de um negócio ou projeto. O nome vem do inglês e lembra um arremesso: você tem pouco tempo para acertar o alvo, seja um investidor, um parceiro, um cliente ou uma banca de feira.",
+          "Estrutura de um pitch de um minuto: um gancho (frase ou pergunta que chama atenção), o problema, a solução, quem é o cliente, o diferencial, como o negócio ganha dinheiro e o pedido (o que você quer de quem ouve).",
+          "Use números concretos e simples: \"Na nossa escola há 600 alunos; se 10% usarem o serviço uma vez por semana, são 60 clientes por semana.\" Números mostram que você fez as contas.",
+          "Fale de forma simples, olhe para as pessoas e ensaie com cronômetro. Uma pessoa fala em média umas 130 a 150 palavras por minuto, então um pitch de um minuto cabe em um texto curto.",
+          "Seja honesto: não prometa lucro garantido nem esconda riscos. Mostre também a equipe: quem faz o quê, com tarefas divididas e combinadas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Monte o pitch de um serviço de limpeza de tênis na escola.",
+            "resolucao": "Gancho: \"Quantos tênis brancos ficam encardidos na primeira semana?\" Problema: tênis sujo, e falta tempo para lavar. Solução: limpeza na saída da escola, entrega no dia seguinte. Cliente: alunos e professores. Diferencial: preço justo e prazo curto. Receita: R$ 8 por par, custo de R$ 3. Pedido: um espaço no pátio às sextas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Contas que impressionam uma banca: preço, custo por unidade, margem (preço menos custo) e quantas vendas são necessárias para pagar os gastos fixos. Exemplo: vendendo a R$ 8 com custo de R$ 3, a margem é R$ 5; com 40 pares por semana, sobram R$ 200 por semana para dividir entre a equipe e reinvestir.",
+        "Erros comuns: falar demais da história pessoal e pouco do negócio, usar palavras difíceis, ler o papel o tempo todo, passar do tempo e esquecer o pedido no final.",
+        "Perguntas que costumam vir depois: quem são os concorrentes? Quanto custa começar? O que acontece se der errado? Ter essas respostas preparadas mostra seriedade."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um pitch?",
+            "alternativas": [
+              "Uma planilha de notas",
+              "Um contrato de trabalho",
+              "Um tipo de imposto",
+              "Uma apresentação curta e convincente de um negócio"
+            ],
+            "correta": 3,
+            "explicacao": "Pouco tempo para convencer.",
+            "dica": "Pense em um minuto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como costuma começar um pitch?",
+            "alternativas": [
+              "Com um gancho que chama atenção",
+              "Com a lista de compras",
+              "Com o fim da história",
+              "Com silêncio total"
+            ],
+            "correta": 0,
+            "explicacao": "O gancho prende quem ouve.",
+            "dica": "Algo que faça a pessoa prestar atenção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o problema no pitch?",
+            "alternativas": [
+              "A falta de cadeiras",
+              "O preço da feira",
+              "A necessidade ou dor do cliente que o negócio resolve",
+              "Um defeito do apresentador"
+            ],
+            "correta": 2,
+            "explicacao": "Todo negócio resolve um problema de alguém.",
+            "dica": "O que incomoda o cliente?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que ensaiar com cronômetro?",
+            "alternativas": [
+              "Para não precisar preparar",
+              "Não precisa ensaiar",
+              "Para caber no tempo",
+              "Para falar mais rápido que todos"
+            ],
+            "correta": 2,
+            "explicacao": "Passar do tempo é um erro comum.",
+            "dica": "Você tem só um minuto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude é honesta num pitch?",
+            "alternativas": [
+              "Prometer lucro garantido",
+              "Mostrar números reais e riscos",
+              "Esconder os custos",
+              "Inventar clientes"
+            ],
+            "correta": 1,
+            "explicacao": "Honestidade gera confiança.",
+            "dica": "O que você gostaria de ouvir como investidor?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na escola há 600 alunos. Se 10% usarem o serviço, quantos clientes são?",
+            "alternativas": [
+              "600",
+              "6",
+              "60",
+              "100"
+            ],
+            "correta": 2,
+            "explicacao": "10% de 600 = 60.",
+            "dica": "Calcule 10%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Preço R$ 8, custo R$ 3 por par. Qual é a margem por par?",
+            "alternativas": [
+              "R$ 5",
+              "R$ 3",
+              "R$ 8",
+              "R$ 11"
+            ],
+            "correta": 0,
+            "explicacao": "Margem = preço − custo = 8 − 3 = 5.",
+            "dica": "Preço menos custo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o pedido no fim do pitch?",
+            "alternativas": [
+              "A conta da feira",
+              "Um pedido de pizza",
+              "Uma desculpa",
+              "O que você quer de quem ouve (apoio, espaço, investimento)"
+            ],
+            "correta": 3,
+            "explicacao": "Sem pedido, a banca não sabe como ajudar.",
+            "dica": "O que você quer da banca?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas palavras, mais ou menos, cabem em um minuto de fala?",
+            "alternativas": [
+              "Cerca de 130 a 150",
+              "Cerca de 10",
+              "Cerca de 30",
+              "Cerca de 1.000"
+            ],
+            "correta": 0,
+            "explicacao": "Por isso o texto precisa ser curto.",
+            "dica": "Releia a lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é um bom gancho?",
+            "alternativas": [
+              "\"Não sei se vai dar certo.\"",
+              "\"Quantos tênis brancos ficam encardidos na primeira semana?\"",
+              "\"Meu nome é Ana e eu nasci em 2011.\"",
+              "\"Bom, então, é... vou começar.\""
+            ],
+            "correta": 1,
+            "explicacao": "Uma pergunta que faz o público pensar no problema.",
+            "dica": "Qual faz a plateia prestar atenção?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Margem de R$ 5 por par e 40 pares por semana. Quanto sobra por semana?",
+            "alternativas": [
+              "R$ 45",
+              "R$ 320",
+              "R$ 120",
+              "R$ 200"
+            ],
+            "correta": 3,
+            "explicacao": "5 · 40 = 200.",
+            "dica": "Margem vezes quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "60 clientes por semana, cada um comprando 2 vezes, a R$ 5. Qual é a receita semanal?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 300",
+              "R$ 600",
+              "R$ 65"
+            ],
+            "correta": 2,
+            "explicacao": "60 · 2 · 5 = 600.",
+            "dica": "Multiplique clientes, vezes e preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto de 280 palavras, lido a 140 palavras por minuto, leva:",
+            "alternativas": [
+              "4 minutos",
+              "2 minutos",
+              "30 segundos",
+              "1 minuto"
+            ],
+            "correta": 1,
+            "explicacao": "280 ÷ 140 = 2. Para um pitch de um minuto, precisa cortar pela metade.",
+            "dica": "Divida as palavras pela velocidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um erro comum de pitch?",
+            "alternativas": [
+              "Esquecer o pedido no final",
+              "Olhar para o público",
+              "Usar números simples",
+              "Ensaiar antes"
+            ],
+            "correta": 0,
+            "explicacao": "Sem pedido, a apresentação não leva a nada.",
+            "dica": "Releia os erros comuns."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as partes de um pitch.",
+            "itens": [
+              "Gancho",
+              "Problema",
+              "Solução",
+              "Cliente e diferencial",
+              "Como ganha dinheiro e pedido"
+            ],
+            "explicacao": "Chamar atenção, mostrar a dor, a solução, para quem e o que se quer.",
+            "dica": "O pedido fecha o pitch."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um grupo vende sucos: preço R$ 5, custo R$ 2, e vende 120 por semana. Quanto sobra por semana para dividir e reinvestir?",
+            "alternativas": [
+              "R$ 840",
+              "R$ 360",
+              "R$ 240",
+              "R$ 600"
+            ],
+            "correta": 1,
+            "explicacao": "Margem: 5 − 2 = 3. 3 · 120 = 360. R$ 600 é a receita, não o que sobra.",
+            "dica": "Use a margem, não o preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pitch diz: \"Vamos lucrar R$ 10 mil por mês com certeza, sem nenhum risco.\" O que a banca deve pensar?",
+            "alternativas": [
+              "Desconfiar: promessa sem números e sem risco não é honesta",
+              "Que o grupo é experiente",
+              "Que deve investir na hora",
+              "Que é um ótimo negócio"
+            ],
+            "correta": 0,
+            "explicacao": "Todo negócio tem riscos; promessas absolutas assustam quem entende.",
+            "dica": "Existe negócio sem risco?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A banca pergunta: \"Quem são os concorrentes?\" A melhor resposta é:",
+            "alternativas": [
+              "Falar mal dos concorrentes",
+              "Citar quem já faz algo parecido e explicar o diferencial",
+              "Mudar de assunto",
+              "Dizer que não existe ninguém no mundo"
+            ],
+            "correta": 1,
+            "explicacao": "Conhecer a concorrência mostra preparo.",
+            "dica": "Mostre que você pesquisou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O grupo do lava-tênis tem 4 pessoas. Qual divisão mostra boa liderança no pitch?",
+            "alternativas": [
+              "Ninguém sabe o que faz",
+              "Um faz tudo enquanto os outros só olham",
+              "O líder fica com tudo e os outros trabalham de graça",
+              "Cada um com uma função combinada: atendimento, limpeza, contas e divulgação, com divisão justa do resultado"
+            ],
+            "correta": 3,
+            "explicacao": "Delegar com clareza e repartir com justiça.",
+            "dica": "Lembre das aulas sobre liderar equipe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gastos fixos de R$ 100 por semana (material e divulgação) e margem de R$ 5 por par. Quantos pares por semana pagam os gastos fixos?",
+            "alternativas": [
+              "5 pares",
+              "50 pares",
+              "20 pares",
+              "100 pares"
+            ],
+            "correta": 2,
+            "explicacao": "100 ÷ 5 = 20 pares. Daí para cima começa a sobra.",
+            "dica": "Divida o gasto fixo pela margem."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Redação: conclusão com proposta de solução",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A conclusão fecha a redação dissertativa-argumentativa. Ela retoma a tese, resume os argumentos principais e, em muitas provas, apresenta uma proposta de solução para o problema discutido.",
+          "Uma proposta completa responde a cinco perguntas: quem vai agir (agente), o que vai ser feito (ação), como será feito (meio ou modo), para quê (finalidade) e um detalhe que explique melhor algum desses pontos (detalhamento).",
+          "Exemplo: \"Portanto, cabe à prefeitura (agente) ampliar as linhas de ônibus noturnas (ação), por meio de parcerias com as empresas de transporte (meio), a fim de que estudantes de cursos técnicos consigam voltar para casa com segurança (finalidade).\"",
+          "Evite propostas vagas, como \"o governo deve fazer alguma coisa\" ou \"a sociedade precisa se conscientizar\". Diga quem, o quê e como.",
+          "Conectivos de conclusão: portanto, dessa forma, assim, em suma, diante disso. E nada de argumento novo na conclusão: ela fecha o que foi discutido."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Transforme a proposta vaga \"Precisamos acabar com o lixo nas ruas\" numa proposta completa.",
+            "resolucao": "\"Dessa forma, a prefeitura deve instalar mais lixeiras e ampliar a coleta seletiva nos bairros, por meio de campanhas nas escolas e nas redes sociais, para que os moradores descartem o lixo corretamente e as enchentes diminuam.\""
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A proposta precisa ser possível e respeitar os direitos humanos. Soluções como \"prender todo mundo que joga lixo\" ou \"proibir pessoas de sair de casa\" desrespeitam direitos e não são aceitas.",
+        "Agentes possíveis: governos (federal, estadual, municipal), escolas, famílias, empresas, ONGs, mídia. Cada um tem meios diferentes: o governo faz leis e políticas públicas; a escola faz projetos; a mídia faz campanhas.",
+        "A proposta deve conversar com os argumentos do desenvolvimento. Se você argumentou que o problema é a falta de informação, a solução deve envolver informação; se é falta de transporte, a solução envolve transporte."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a conclusão faz?",
+            "alternativas": [
+              "Conta uma piada",
+              "Apresenta o título",
+              "Retoma a tese e fecha a redação",
+              "Começa um assunto novo"
+            ],
+            "correta": 2,
+            "explicacao": "Ela amarra tudo o que foi dito.",
+            "dica": "É o fim do texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem vai agir numa proposta é o:",
+            "alternativas": [
+              "conectivo",
+              "agente",
+              "título",
+              "leitor"
+            ],
+            "correta": 1,
+            "explicacao": "Agente é quem executa a ação.",
+            "dica": "Quem faz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um conectivo de conclusão?",
+            "alternativas": [
+              "Portanto",
+              "Por exemplo",
+              "Em primeiro lugar",
+              "Era uma vez"
+            ],
+            "correta": 0,
+            "explicacao": "Portanto indica conclusão.",
+            "dica": "Qual fecha uma ideia?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na conclusão, deve-se trazer argumento novo?",
+            "alternativas": [
+              "Só no fim",
+              "Só se for longo",
+              "Sim, sempre",
+              "Não"
+            ],
+            "correta": 3,
+            "explicacao": "A conclusão fecha o que foi discutido.",
+            "dica": "Argumentos ficam no desenvolvimento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"A sociedade precisa se conscientizar\" é uma proposta:",
+            "alternativas": [
+              "vaga",
+              "completa",
+              "perfeita",
+              "detalhada"
+            ],
+            "correta": 0,
+            "explicacao": "Não diz quem, o quê, nem como.",
+            "dica": "Diz exatamente o que fazer?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"...a fim de que os estudantes voltem com segurança\", qual elemento aparece?",
+            "alternativas": [
+              "Meio",
+              "Finalidade",
+              "Agente",
+              "Título"
+            ],
+            "correta": 1,
+            "explicacao": "A fim de que indica o objetivo.",
+            "dica": "Para quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"...por meio de parcerias com as empresas de transporte\", qual elemento aparece?",
+            "alternativas": [
+              "Tese",
+              "Meio ou modo",
+              "Agente",
+              "Finalidade"
+            ],
+            "correta": 1,
+            "explicacao": "Por meio de indica como.",
+            "dica": "Como será feito?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são os cinco elementos de uma proposta completa?",
+            "alternativas": [
+              "Título, capa, sumário, gráfico e PDF",
+              "Começo, meio, fim, rima e ritmo",
+              "Agente, ação, meio, finalidade e detalhamento",
+              "Nome, idade, cidade, escola e turma"
+            ],
+            "correta": 2,
+            "explicacao": "Respondem quem, o quê, como, para quê e um detalhe.",
+            "dica": "São as cinco perguntas da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual proposta respeita os direitos humanos?",
+            "alternativas": [
+              "Proibir as pessoas de sair de casa",
+              "Prender todos que jogam lixo",
+              "Expor nas redes quem joga lixo",
+              "Criar campanhas educativas e mais lixeiras"
+            ],
+            "correta": 3,
+            "explicacao": "As outras desrespeitam direitos.",
+            "dica": "Qual não fere ninguém?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A redação argumentou que o problema é a falta de informação. A proposta deve envolver:",
+            "alternativas": [
+              "informação, como campanhas e aulas",
+              "aumento de impostos",
+              "construção de estradas",
+              "nada"
+            ],
+            "correta": 0,
+            "explicacao": "A solução deve combinar com os argumentos.",
+            "dica": "Resolva o problema que você apontou."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Cabe ao Ministério da Educação criar programas de leitura nas escolas públicas.\" Que elementos aparecem?",
+            "alternativas": [
+              "Meio e detalhamento",
+              "Agente e ação",
+              "Só finalidade",
+              "Nenhum"
+            ],
+            "correta": 1,
+            "explicacao": "Ministério da Educação (agente); criar programas de leitura (ação).",
+            "dica": "Quem e o quê."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conclusão traz um problema?",
+            "alternativas": [
+              "\"Em suma, a família e a escola devem dialogar, por meio de reuniões mensais, para acompanhar os estudos.\"",
+              "\"Dessa forma, as escolas devem promover rodas de leitura semanais, para formar leitores.\"",
+              "\"Portanto, cabe à prefeitura ampliar as linhas noturnas, a fim de garantir o acesso aos cursos.\"",
+              "\"Portanto, o transporte é importante. Além disso, a merenda escolar também precisa melhorar.\""
+            ],
+            "correta": 3,
+            "explicacao": "Introduz argumento novo (merenda) e não traz proposta.",
+            "dica": "Qual muda de assunto no fim?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um agente adequado para uma campanha na televisão e na internet?",
+            "alternativas": [
+              "O vizinho do lado",
+              "O sumário",
+              "A mídia",
+              "O cachorro da família"
+            ],
+            "correta": 2,
+            "explicacao": "A mídia tem meios de fazer campanhas amplas.",
+            "dica": "Quem tem acesso a muita gente?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual proposta é mais completa?",
+            "alternativas": [
+              "\"A prefeitura deve criar hortas nas escolas, com apoio de técnicos agrícolas, para melhorar a alimentação dos alunos.\"",
+              "\"É preciso comer melhor.\"",
+              "\"Alguém deveria fazer algo.\"",
+              "\"A alimentação é importante.\""
+            ],
+            "correta": 0,
+            "explicacao": "Tem agente, ação, meio e finalidade.",
+            "dica": "Qual responde mais perguntas?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as partes de uma conclusão.",
+            "itens": [
+              "Conectivo de conclusão retomando a tese",
+              "Síntese dos argumentos principais",
+              "Proposta com agente, ação, meio e finalidade"
+            ],
+            "explicacao": "Retomar, resumir e propor.",
+            "dica": "A proposta fecha o texto."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Tese: \"A evasão nos cursos técnicos noturnos é causada pela falta de transporte.\" Qual proposta combina com ela?",
+            "alternativas": [
+              "\"Os alunos devem estudar mais em casa.\"",
+              "\"A mídia deve falar sobre futebol.\"",
+              "\"As escolas devem pintar as salas de azul.\"",
+              "\"O governo estadual deve criar passe livre noturno para estudantes, por meio de convênio com as empresas de ônibus, para reduzir a evasão.\""
+            ],
+            "correta": 3,
+            "explicacao": "Ataca a causa apontada na tese (transporte).",
+            "dica": "Qual resolve o problema da tese?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na proposta \"A escola deve promover rodas de conversa mensais, conduzidas por psicólogos da rede pública, para prevenir o bullying\", o trecho \"conduzidas por psicólogos da rede pública\" é:",
+            "alternativas": [
+              "a tese",
+              "o agente",
+              "detalhamento do meio",
+              "a finalidade"
+            ],
+            "correta": 2,
+            "explicacao": "Explica melhor como as rodas serão feitas.",
+            "dica": "Ele detalha qual elemento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"proibir o uso de celular por toda a população\" seria uma proposta ruim?",
+            "alternativas": [
+              "Porque usa a palavra celular",
+              "É impossível de aplicar e fere direitos",
+              "Porque é curta",
+              "Porque não tem conectivo"
+            ],
+            "correta": 1,
+            "explicacao": "A proposta precisa ser viável e respeitar direitos.",
+            "dica": "Seria possível e justo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma conclusão diz: \"Portanto, cabe à escola, por meio de projetos, resolver tudo.\" O que falta?",
+            "alternativas": [
+              "Agente",
+              "Conectivo",
+              "Ação específica e finalidade",
+              "Ponto final"
+            ],
+            "correta": 2,
+            "explicacao": "\"Resolver tudo\" é vago, e não diz para quê.",
+            "dica": "O que exatamente a escola vai fazer, e para quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação de agente e meio é mais coerente?",
+            "alternativas": [
+              "Congresso Nacional, por meio de uma lei",
+              "Família, por meio de uma lei federal",
+              "Escola, por meio de uma emenda à Constituição",
+              "Vizinhos, por meio de decreto presidencial"
+            ],
+            "correta": 0,
+            "explicacao": "Cada agente tem os meios que estão ao seu alcance; leis são feitas pelo Legislativo.",
+            "dica": "Quem faz leis?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Um minuto diante da banca",
+    "texto": "Thaís tinha ensaiado na frente do espelho, no ônibus, no banho e até enquanto lavava a louça. Um minuto. Era todo o tempo que cada grupo teria diante da banca na feira de empreendedorismo da escola.\n\nO projeto era simples: um serviço de limpeza de tênis. A ideia nasceu de uma reclamação dela mesma. Os tênis brancos que a mãe tinha comprado com esforço ficavam encardidos em uma semana, e ninguém em casa tinha tempo para lavá-los com cuidado.\n\nO grupo tinha quatro pessoas, e cada uma sabia o que fazer. O Luan cuidaria da limpeza, a Bruna do atendimento, o Igor das contas e da divulgação, e Thaís faria a apresentação. Tinham combinado tudo por escrito, inclusive como dividiriam o dinheiro.\n\nNa hora, as mãos dela tremiam. A banca tinha três professores e uma comerciante do bairro. Thaís respirou fundo e começou com uma pergunta:\n\n— Quantos tênis brancos nesta escola ficam encardidos na primeira semana?\n\nAlguns riram. Ela continuou: o problema, a solução, o preço de oito reais por par, o custo de três, a meta de quarenta pares por semana. Disse quanto sobraria e o que fariam com o dinheiro. No fim, fez o pedido: um espaço no pátio às sextas-feiras.\n\nO cronômetro marcou cinquenta e oito segundos.\n\nA comerciante levantou a mão.\n\n— E se estragar o tênis de alguém?\n\nThaís não tinha pensado nisso. Ficou em silêncio por um instante e respondeu com sinceridade: não sabia, mas o grupo faria um teste em tênis velhos antes de começar e criaria uma regra para esses casos.\n\nNão ganharam o primeiro lugar. Ganharam o espaço no pátio, um elogio pela honestidade e uma lição que Thaís anotou no caderno: preparar as respostas para as perguntas que ainda não fizeram."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva o seu pitch de um minuto para um negócio que gostaria de abrir. Comece com um gancho e apresente o problema, a solução, o cliente, o preço e o custo de cada unidade, e por que vai dar certo. Termine com um pedido claro para quem estiver ouvindo. Depois, leia em voz alta com um cronômetro."
+  }
+}

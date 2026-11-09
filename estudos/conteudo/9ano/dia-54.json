@@ -1,0 +1,1491 @@
+{
+  "dia": 54,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Volume de prismas e cilindros: quanto cabe na caixa-d'água",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Volume é o espaço que um objeto ocupa, ou quanto cabe dentro dele. Em prismas e cilindros, a regra é a mesma: volume = área da base × altura.",
+          "Paralelepípedo (a forma de uma caixa de sapato): V = comprimento × largura × altura. Cubo: V = a · a · a = a³. Prisma de base triangular: área do triângulo (base · altura ÷ 2) vezes a altura do prisma.",
+          "Cilindro (a forma de uma lata ou de muitas caixas-d'água): a base é um círculo, então V = π · r² · h. Use π = 3,14.",
+          "Unidades: 1 m³ = 1.000 litros; 1 dm³ = 1 litro; 1 cm³ = 1 mL. Por isso 1 litro = 1.000 cm³. Antes de calcular, deixe todas as medidas na mesma unidade.",
+          "Exemplo: uma caixa-d'água de 2 m × 1,5 m × 1 m tem V = 3 m³ = 3.000 litros."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma caixa-d'água cilíndrica tem raio de 0,5 m e altura de 1,2 m. Quantos litros cabem?",
+            "resolucao": "V = 3,14 · 0,5² · 1,2 = 3,14 · 0,25 · 1,2 = 0,942 m³ = 942 litros."
+          },
+          {
+            "enunciado": "Um aquário mede 60 cm × 30 cm × 40 cm. Quantos litros cabem?",
+            "resolucao": "V = 60 · 30 · 40 = 72.000 cm³. Como 1.000 cm³ = 1 L, cabem 72 litros."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Se o raio de um cilindro dobra e a altura fica igual, o volume fica 4 vezes maior, porque o raio entra ao quadrado. Se só a altura dobra, o volume dobra.",
+        "Truque de Arquimedes: para medir o volume de um objeto irregular, como uma pedra, mergulhe-o num recipiente com água e meça quanto o nível sobe. O volume da água deslocada é o volume da pedra.",
+        "Consumo e duração: dividindo o volume de uma caixa pelo consumo diário, descobre-se quantos dias a água dura. Uma pessoa costuma usar por volta de 100 a 200 litros por dia em casa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o volume de um cubo de aresta 3 cm?",
+            "alternativas": [
+              "12 cm³",
+              "18 cm³",
+              "27 cm³",
+              "9 cm³"
+            ],
+            "correta": 2,
+            "explicacao": "3 · 3 · 3 = 27 cm³.",
+            "dica": "Multiplique a aresta três vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "1 m³ equivale a quantos litros?",
+            "alternativas": [
+              "1.000 litros",
+              "10.000 litros",
+              "100 litros",
+              "10 litros"
+            ],
+            "correta": 0,
+            "explicacao": "Um cubo de 1 m de lado comporta 1.000 litros.",
+            "dica": "Lembre da tabela de unidades da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o volume de uma caixa de 5 cm × 4 cm × 2 cm?",
+            "alternativas": [
+              "11 cm³",
+              "20 cm³",
+              "22 cm³",
+              "40 cm³"
+            ],
+            "correta": 3,
+            "explicacao": "5 · 4 · 2 = 40 cm³.",
+            "dica": "Multiplique as três medidas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fórmula dá o volume do cilindro?",
+            "alternativas": [
+              "V = a³",
+              "V = π · r² · h",
+              "V = 2 · π · r",
+              "V = b · h ÷ 2"
+            ],
+            "correta": 1,
+            "explicacao": "Área do círculo da base vezes a altura.",
+            "dica": "A base do cilindro é um círculo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "1 litro equivale a quantos cm³?",
+            "alternativas": [
+              "1 cm³",
+              "1.000 cm³",
+              "100 cm³",
+              "10 cm³"
+            ],
+            "correta": 1,
+            "explicacao": "1 L = 1 dm³ = 1.000 cm³.",
+            "dica": "1 cm³ é igual a 1 mL."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa-d'água de 2 m × 1,5 m × 1 m comporta quantos litros?",
+            "alternativas": [
+              "30.000 litros",
+              "4,5 litros",
+              "3.000 litros",
+              "300 litros"
+            ],
+            "correta": 2,
+            "explicacao": "V = 3 m³ = 3.000 litros.",
+            "dica": "Calcule em m³ e converta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cilindro de raio 0,5 m e altura 1,2 m. Quantos litros? (π = 3,14)",
+            "alternativas": [
+              "471 litros",
+              "1.884 litros",
+              "942 litros",
+              "94,2 litros"
+            ],
+            "correta": 2,
+            "explicacao": "3,14 · 0,25 · 1,2 = 0,942 m³ = 942 L.",
+            "dica": "Eleve o raio ao quadrado antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um prisma tem base triangular com base 6 cm e altura 4 cm, e altura do prisma de 10 cm. Qual é o volume?",
+            "alternativas": [
+              "240 cm³",
+              "120 cm³",
+              "24 cm³",
+              "60 cm³"
+            ],
+            "correta": 1,
+            "explicacao": "Área da base: 6 · 4 ÷ 2 = 12. Volume: 12 · 10 = 120 cm³.",
+            "dica": "Não esqueça de dividir por 2 na área do triângulo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aquário mede 60 cm × 30 cm × 40 cm. Quantos litros cabem?",
+            "alternativas": [
+              "7,2 litros",
+              "7.200 litros",
+              "720 litros",
+              "72 litros"
+            ],
+            "correta": 3,
+            "explicacao": "72.000 cm³ ÷ 1.000 = 72 L.",
+            "dica": "Quantos cm³ formam 1 litro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lata cilíndrica tem raio de 5 cm e altura de 10 cm. Quantos mL cabem? (π = 3,14)",
+            "alternativas": [
+              "785 mL",
+              "314 mL",
+              "157 mL",
+              "1.570 mL"
+            ],
+            "correta": 0,
+            "explicacao": "3,14 · 25 · 10 = 785 cm³ = 785 mL.",
+            "dica": "1 cm³ = 1 mL."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma piscina de 8 m × 4 m × 1,5 m é enchida por uma mangueira de 20 litros por minuto. Quanto tempo leva?",
+            "alternativas": [
+              "4 horas",
+              "2.400 horas",
+              "40 horas",
+              "24 horas"
+            ],
+            "correta": 2,
+            "explicacao": "48 m³ = 48.000 L; 48.000 ÷ 20 = 2.400 min = 40 h.",
+            "dica": "Converta minutos em horas no final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa-d'água cilíndrica comporta 1.570 litros e tem raio de 0,5 m. Qual é a altura? (π = 3,14)",
+            "alternativas": [
+              "1,57 m",
+              "2 m",
+              "1 m",
+              "4 m"
+            ],
+            "correta": 1,
+            "explicacao": "1,57 m³ = 3,14 · 0,25 · h = 0,785 · h, h = 2 m.",
+            "dica": "Transforme os litros em m³ primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o raio de um cilindro dobra e a altura não muda, o volume fica:",
+            "alternativas": [
+              "4 vezes maior",
+              "8 vezes maior",
+              "2 vezes maior",
+              "igual"
+            ],
+            "correta": 0,
+            "explicacao": "O raio entra ao quadrado: (2r)² = 4r².",
+            "dica": "Olhe o expoente do raio na fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa de 4 m × 3 m × 2 m abastece 40 pessoas que usam 150 L por dia cada. Quantos dias a água dura?",
+            "alternativas": [
+              "6 dias",
+              "2 dias",
+              "24 dias",
+              "4 dias"
+            ],
+            "correta": 3,
+            "explicacao": "24 m³ = 24.000 L. Consumo: 40 · 150 = 6.000 L/dia. 24.000 ÷ 6.000 = 4 dias.",
+            "dica": "Calcule o volume e o consumo diário."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem do MENOR para o MAIOR volume. (π = 3,14)",
+            "itens": [
+              "Paralelepípedo de 3 m × 2 m × 1 m",
+              "Cilindro de raio 1 m e altura 2 m",
+              "Cubo de aresta 2 m",
+              "Cilindro de raio 1 m e altura 3 m"
+            ],
+            "explicacao": "6 m³; 6,28 m³; 8 m³; 9,42 m³.",
+            "dica": "Calcule cada um em m³."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lata cilíndrica (raio 5 cm, altura 10 cm) e uma caixa cúbica de aresta 10 cm. Quanto a caixa comporta a mais? (π = 3,14)",
+            "alternativas": [
+              "215 cm³",
+              "100 cm³",
+              "0 cm³",
+              "785 cm³"
+            ],
+            "correta": 0,
+            "explicacao": "Lata: 785 cm³. Caixa: 1.000 cm³. Diferença: 215 cm³.",
+            "dica": "Mesma largura e altura não significam mesmo volume."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa-d'água de 2 m × 2 m × 1,5 m está com 3/4 da capacidade. Quantos litros tem?",
+            "alternativas": [
+              "4.500 litros",
+              "6.000 litros",
+              "1.500 litros",
+              "3.000 litros"
+            ],
+            "correta": 0,
+            "explicacao": "Capacidade: 6 m³ = 6.000 L. 3/4 de 6.000 = 4.500 L.",
+            "dica": "Calcule a caixa cheia e depois a fração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aquário de base 50 cm × 30 cm tem água até 30 cm. Ao colocar uma pedra, a água sobe para 32 cm. Qual é o volume da pedra?",
+            "alternativas": [
+              "30 litros",
+              "0,3 litro",
+              "3 litros",
+              "45 litros"
+            ],
+            "correta": 2,
+            "explicacao": "A água subiu 2 cm: 50 · 30 · 2 = 3.000 cm³ = 3 L.",
+            "dica": "Use o truque de Arquimedes do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num cilindro, o raio dobra e a altura cai pela metade. O volume:",
+            "alternativas": [
+              "fica 4 vezes maior",
+              "fica igual",
+              "cai pela metade",
+              "fica 2 vezes maior"
+            ],
+            "correta": 3,
+            "explicacao": "r² vira 4r², e h vira h/2: 4 · 1/2 = 2.",
+            "dica": "Junte os dois efeitos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um copo cilíndrico tem raio de 3 cm e altura de 10 cm. Quantos copos cheios dá para servir com 2 litros de suco? (π = 3,14)",
+            "alternativas": [
+              "8 copos",
+              "7 copos",
+              "6 copos",
+              "70 copos"
+            ],
+            "correta": 1,
+            "explicacao": "Copo: 3,14 · 9 · 10 = 282,6 mL. 2.000 ÷ 282,6 ≈ 7,07: 7 copos cheios (sobra um pouco).",
+            "dica": "A pergunta é sobre copos cheios."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Eficiência: por que alguns programas são lentos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Dois programas podem dar a mesma resposta e um demorar segundos enquanto o outro demora horas. A diferença está em quantos passos cada um faz quando os dados crescem.",
+          "Busca linear: procurar um nome olhando a lista do começo ao fim. Com 1.000 nomes, no pior caso são 1.000 comparações; com 1 milhão, 1 milhão. O trabalho cresce junto com o tamanho da lista.",
+          "Busca binária: funciona em lista ordenada. Olha o meio; se o nome procurado vem antes, descarta a metade de cima; senão, a de baixo. Cada passo corta a lista pela metade. Com 1.000 nomes, bastam cerca de 10 comparações; com 1 milhão, cerca de 20.",
+          "Laços aninhados multiplicam o trabalho. Neste código, com n = 100, a linha de dentro roda 100 · 100 = 10.000 vezes:\nfor i in range(n):\n    for j in range(n):\n        total += 1",
+          "Programadores descrevem isso com a notação O: O(n) cresce junto com n; O(n²) cresce com o quadrado; O(log n) cresce muito devagar, como na busca binária."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Compare: com uma lista de 1.000 itens, quantos passos fazem a busca linear (pior caso) e a busca binária?",
+            "resolucao": "Linear: até 1.000 comparações. Binária: cerca de 10, porque 1.000 → 500 → 250 → 125 → 63 → 32 → 16 → 8 → 4 → 2 → 1."
+          },
+          {
+            "enunciado": "Quantas vezes a linha de dentro roda?\nfor i in range(5):\n    for j in range(3):\n        print(i, j)",
+            "resolucao": "5 · 3 = 15 vezes."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Dobrar a entrada tem efeitos diferentes: num programa O(n), o tempo dobra; num O(n²), o tempo fica 4 vezes maior; num O(log n), aumenta só um passo. Por isso, um programa O(n²) que funciona bem com 100 alunos pode travar com 100 mil.",
+        "Truques simples: não repetir trabalho dentro de um laço (calcular uma vez e guardar numa variável); usar conjuntos (set) para perguntar se algo existe, porque x in conjunto é quase instantâneo, enquanto x in lista percorre a lista; e parar o laço com break quando já achou o que queria.",
+        "No laço for i in range(n): for j in range(i), a linha de dentro roda 0 + 1 + 2 + ... + (n − 1) = n · (n − 1) ÷ 2 vezes. Com n = 10, são 45 vezes."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um programa pode ser lento?",
+            "alternativas": [
+              "Porque faz passos demais quando os dados crescem",
+              "Porque usa comentários",
+              "Porque a tela é pequena",
+              "Porque o nome da variável é longo"
+            ],
+            "correta": 0,
+            "explicacao": "A quantidade de passos é o que pesa.",
+            "dica": "Pense em quantas vezes ele repete coisas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na busca linear, como se procura um item?",
+            "alternativas": [
+              "Apagando a lista",
+              "Adivinhando",
+              "Abrindo no meio e descartando metades",
+              "Olhando um por um, do começo ao fim"
+            ],
+            "correta": 3,
+            "explicacao": "Linear = em linha, um após o outro.",
+            "dica": "O nome já diz: em linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a busca binária exige?",
+            "alternativas": [
+              "Uma lista ordenada",
+              "Uma lista com números pares",
+              "Internet",
+              "Uma lista vazia"
+            ],
+            "correta": 0,
+            "explicacao": "Sem ordem, não dá para saber qual metade descartar.",
+            "dica": "Como saber se o nome vem antes ou depois?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A cada passo, a busca binária:",
+            "alternativas": [
+              "começa de novo",
+              "dobra o tamanho da lista",
+              "corta a lista pela metade",
+              "olha só o último item"
+            ],
+            "correta": 2,
+            "explicacao": "Por isso ela é tão rápida.",
+            "dica": "Binária lembra dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Laços um dentro do outro costumam:",
+            "alternativas": [
+              "não mudar nada",
+              "multiplicar o trabalho",
+              "apagar os dados",
+              "deixar tudo mais rápido"
+            ],
+            "correta": 1,
+            "explicacao": "O de dentro roda inteiro a cada volta do de fora.",
+            "dica": "Quantas vezes o de dentro roda?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Busca linear numa lista de 1.000 nomes: quantas comparações no pior caso?",
+            "alternativas": [
+              "1",
+              "1.000",
+              "10",
+              "500"
+            ],
+            "correta": 1,
+            "explicacao": "No pior caso, o nome está no fim ou não existe.",
+            "dica": "Pior caso: olhar tudo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Busca binária numa lista ordenada de 1.000 nomes: aproximadamente quantas comparações no pior caso?",
+            "alternativas": [
+              "100",
+              "500",
+              "10",
+              "1.000"
+            ],
+            "correta": 2,
+            "explicacao": "1.000 dividido pela metade cerca de 10 vezes chega a 1.",
+            "dica": "Quantas vezes dá para dividir 1.000 por 2 até chegar a 1?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(100):\n    for j in range(100):\n        total += 1\nQuantas vezes a linha de dentro roda?",
+            "alternativas": [
+              "100",
+              "10.000",
+              "1.000",
+              "200"
+            ],
+            "correta": 1,
+            "explicacao": "100 · 100 = 10.000.",
+            "dica": "Multiplique as voltas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(5):\n    for j in range(3):\n        print(i, j)\nQuantas linhas são impressas?",
+            "alternativas": [
+              "8",
+              "3",
+              "5",
+              "15"
+            ],
+            "correta": 3,
+            "explicacao": "5 · 3 = 15.",
+            "dica": "Cada i imprime 3 vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O(n²) quer dizer que o trabalho cresce:",
+            "alternativas": [
+              "com o quadrado do tamanho dos dados",
+              "só um passo por vez",
+              "sempre igual",
+              "pela metade"
+            ],
+            "correta": 0,
+            "explicacao": "Dobrou n, o trabalho fica 4 vezes maior.",
+            "dica": "O expoente é 2."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa O(n²) leva 1 segundo com 1.000 itens. Com 2.000 itens, leva cerca de:",
+            "alternativas": [
+              "2 segundos",
+              "1 segundo",
+              "4 segundos",
+              "8 segundos"
+            ],
+            "correta": 2,
+            "explicacao": "Dobrar n multiplica por 2² = 4.",
+            "dica": "Eleve o fator de aumento ao quadrado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Busca binária com 1 milhão de nomes ordenados: cerca de quantas comparações?",
+            "alternativas": [
+              "1.000",
+              "500 mil",
+              "1 milhão",
+              "20"
+            ],
+            "correta": 3,
+            "explicacao": "Cada passo corta pela metade: cerca de 20 passos.",
+            "dica": "1.000 deu cerca de 10; mil vezes mais dá só uns 10 passos a mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é mais rápido para perguntar se um nome existe entre 100 mil?",
+            "alternativas": [
+              "Ordenar a lista toda antes de cada pergunta",
+              "x in conjunto (set)",
+              "Um laço que imprime todos",
+              "x in lista"
+            ],
+            "correta": 1,
+            "explicacao": "O set encontra quase de imediato; a lista é percorrida.",
+            "dica": "Releia os truques do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(10):\n    for j in range(i):\n        total += 1\nQual é o valor final de total (começando em 0)?",
+            "alternativas": [
+              "45",
+              "100",
+              "55",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "0 + 1 + 2 + ... + 9 = 45.",
+            "dica": "Quando i = 0, o laço de dentro não roda."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem, do que cresce MAIS DEVAGAR para o que cresce MAIS RÁPIDO quando os dados aumentam.",
+            "itens": [
+              "O(log n), como a busca binária",
+              "O(n), como a busca linear",
+              "O(n²), como dois laços aninhados"
+            ],
+            "explicacao": "log n cresce bem devagar, n cresce junto, n² dispara.",
+            "dica": "Pense em 1 milhão de itens em cada caso."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa compara cada um dos 1.000 alunos com todos os outros 1.000 (laços aninhados). Outro faz uma busca binária para cada aluno. Comparações aproximadas de cada um?",
+            "alternativas": [
+              "1.000 contra 10",
+              "1.000.000 contra cerca de 10.000",
+              "10.000 contra 1.000.000",
+              "2.000 contra 20"
+            ],
+            "correta": 1,
+            "explicacao": "Aninhado: 1.000 · 1.000. Binária: 1.000 buscas · cerca de 10 = 10.000.",
+            "dica": "Multiplique o número de buscas pelos passos de cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes a busca binária, no pior caso, olha uma lista ordenada de 15 itens?",
+            "alternativas": [
+              "2",
+              "15",
+              "8",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "15 → 7 → 3 → 1: olha o meio 4 vezes no máximo.",
+            "dica": "Cada olhada descarta o meio e uma metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual mudança deixa este laço mais eficiente sem mudar o resultado?\nfor nome in lista:\n    if nome == procurado:\n        achou = True",
+            "alternativas": [
+              "Trocar for por while True",
+              "Imprimir cada nome",
+              "Colocar break depois de achou = True",
+              "Ordenar a lista dentro do laço"
+            ],
+            "correta": 2,
+            "explicacao": "Depois de achar, não precisa olhar o resto.",
+            "dica": "Para que continuar procurando?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa O(n) leva 2 segundos com 1 milhão de itens. Quanto leva com 3 milhões?",
+            "alternativas": [
+              "6 segundos",
+              "2 segundos",
+              "4 segundos",
+              "18 segundos"
+            ],
+            "correta": 0,
+            "explicacao": "O(n) cresce na mesma proporção: 3 vezes os dados, 3 vezes o tempo.",
+            "dica": "Linear: proporção direta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que ordenar a lista uma vez e depois fazer muitas buscas binárias pode valer a pena?",
+            "alternativas": [
+              "Porque ordenar não custa nada",
+              "Porque a busca linear não funciona em listas",
+              "O custo de ordenar se paga com as buscas muito mais rápidas",
+              "Porque a lista fica menor"
+            ],
+            "correta": 2,
+            "explicacao": "Ordenar custa, mas cada busca depois fica muito barata.",
+            "dica": "Pense em fazer milhares de buscas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Mala direta: cartas personalizadas a partir de uma lista",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Mala direta junta um texto padrão com uma lista de pessoas para criar várias cartas, cada uma com o nome e os dados de um destinatário. Em vez de escrever 50 convites, você escreve um e o Word faz os outros 49.",
+          "Primeiro, prepare a lista no Excel: a primeira linha com os títulos (Nome, Turma, Responsável, Endereço) e uma pessoa por linha. Salve o arquivo.",
+          "No Word, vá em Correspondências > Iniciar Mala Direta > Cartas. Depois, Selecionar Destinatários > Usar uma Lista Existente e escolha o arquivo do Excel.",
+          "Escreva a carta e, onde deve aparecer o nome, clique em Inserir Campo de Mesclagem > Nome. Aparece «Nome» no texto. Use Visualizar Resultados para ver cada carta com os dados reais.",
+          "Para terminar: Concluir e Mesclar > Editar Documentos Individuais cria um documento com todas as cartas, pronto para revisar, imprimir ou salvar em PDF."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva o começo de um convite com campos de mesclagem.",
+            "resolucao": "\"Prezado(a) «Responsável», convidamos você para a reunião sobre o desempenho de «Nome», da turma «Turma», no dia 20, às 19h.\" Cada carta sai com os dados de uma linha da planilha."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Em Regras > Se...Então...Senão, dá para mudar o texto conforme os dados: se o campo Gênero for F, escrever \"Prezada\"; senão, \"Prezado\". Também é possível usar Editar Lista de Destinatários para filtrar (por exemplo, só a turma 9ºB) ou desmarcar pessoas.",
+        "A mala direta também faz etiquetas e envelopes (Iniciar Mala Direta > Etiquetas) e pode enviar e-mails personalizados. Antes de concluir, use Verificar Erros e confira algumas cartas.",
+        "Cuidado com números: valores em reais podem aparecer com muitas casas decimais. Uma solução simples é deixar a coluna da planilha como texto já formatado (por exemplo, R$ 150,00). E, como a lista tem dados pessoais, guarde o arquivo com cuidado."
+      ],
+      "desafio_pratico": "Crie no Excel uma lista com pelo menos 6 pessoas (inventadas) com as colunas Nome, Gênero (F ou M), Turma e Responsável. No Word, faça uma carta convidando os responsáveis para uma feira de ciências, com os campos «Responsável», «Nome» e «Turma». Use Regras > Se...Então...Senão para escrever Prezada ou Prezado, visualize os resultados, filtre para uma turma só e conclua em Editar Documentos Individuais. Salve o resultado em PDF.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a mala direta?",
+            "alternativas": [
+              "Criar várias cartas personalizadas a partir de uma lista",
+              "Corrigir ortografia",
+              "Desenhar no Word",
+              "Fazer gráficos"
+            ],
+            "correta": 0,
+            "explicacao": "Um texto padrão + uma lista = várias cartas.",
+            "dica": "Pense em 50 convites com nomes diferentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que guia fica a mala direta?",
+            "alternativas": [
+              "Página Inicial",
+              "Desenhar",
+              "Exibir",
+              "Correspondências"
+            ],
+            "correta": 3,
+            "explicacao": "Correspondências > Iniciar Mala Direta.",
+            "dica": "É a guia das cartas, envelopes e etiquetas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde costuma ficar a lista de pessoas?",
+            "alternativas": [
+              "Numa foto",
+              "Numa planilha do Excel",
+              "Num vídeo",
+              "No rodapé do Word"
+            ],
+            "correta": 1,
+            "explicacao": "A lista organizada em linhas e colunas vem do Excel.",
+            "dica": "Tabela com uma pessoa por linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece no texto quando você insere um campo de mesclagem?",
+            "alternativas": [
+              "Nome!",
+              "(Nome)",
+              "«Nome»",
+              "#Nome#"
+            ],
+            "correta": 2,
+            "explicacao": "O campo aparece entre os sinais « ».",
+            "dica": "Lembre dos sinais usados na lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual botão mostra cada carta com os dados reais?",
+            "alternativas": [
+              "Inserir Imagem",
+              "Salvar Como",
+              "Ortografia",
+              "Visualizar Resultados"
+            ],
+            "correta": 3,
+            "explicacao": "Ele troca «Nome» pelo nome da pessoa.",
+            "dica": "Você quer ver o resultado antes de imprimir."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo no Word?",
+            "alternativas": [
+              "Concluir e Mesclar",
+              "Imprimir",
+              "Correspondências > Iniciar Mala Direta > Cartas",
+              "Inserir Campo de Mesclagem"
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro se escolhe o tipo de documento.",
+            "dica": "Comece pelo começo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como ligar o Word à planilha?",
+            "alternativas": [
+              "Revisão > Comparar",
+              "Selecionar Destinatários > Usar uma Lista Existente",
+              "Copiar e colar cada nome",
+              "Inserir > Tabela"
+            ],
+            "correta": 1,
+            "explicacao": "O Word lê o arquivo do Excel.",
+            "dica": "Os destinatários vêm de uma lista que já existe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a primeira linha da planilha precisa ter?",
+            "alternativas": [
+              "A carta inteira",
+              "Uma linha em branco",
+              "Os títulos das colunas",
+              "Fotos das pessoas"
+            ],
+            "correta": 2,
+            "explicacao": "Os títulos viram os nomes dos campos.",
+            "dica": "Como o Word saberá o nome de cada campo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual opção junta todas as cartas num documento para revisar?",
+            "alternativas": [
+              "Página Inicial > Colar",
+              "Inserir > Quebra de Página",
+              "Arquivo > Novo",
+              "Concluir e Mesclar > Editar Documentos Individuais"
+            ],
+            "correta": 3,
+            "explicacao": "Cria um documento com uma carta por página.",
+            "dica": "Fica no último botão do processo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lista tem 30 pessoas. Quantas cartas a mala direta gera?",
+            "alternativas": [
+              "30",
+              "60",
+              "1",
+              "15"
+            ],
+            "correta": 0,
+            "explicacao": "Uma carta para cada linha da lista.",
+            "dica": "Cada linha vira uma carta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como escrever \"Prezada\" para mulheres e \"Prezado\" para homens automaticamente?",
+            "alternativas": [
+              "Escrevendo as duas palavras",
+              "Não é possível",
+              "Usando Regras > Se...Então...Senão",
+              "Fazendo duas listas e duas cartas"
+            ],
+            "correta": 2,
+            "explicacao": "A regra escolhe o texto conforme um campo.",
+            "dica": "Existe uma regra de condição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer mandar só para a turma 9ºB. O que faz?",
+            "alternativas": [
+              "Cria um arquivo novo para cada aluno",
+              "Filtra em Editar Lista de Destinatários",
+              "Imprime tudo e joga fora o resto",
+              "Apaga as outras turmas do Excel para sempre"
+            ],
+            "correta": 1,
+            "explicacao": "O filtro escolhe quem recebe sem estragar a lista.",
+            "dica": "Dá para filtrar dentro da própria mala direta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No convite saiu \"R$ 150,5\". Como resolver de forma simples?",
+            "alternativas": [
+              "Apagar o valor",
+              "Aumentar a margem",
+              "Trocar a fonte",
+              "Deixar a coluna da planilha como texto já formatado, R$ 150,50"
+            ],
+            "correta": 3,
+            "explicacao": "Assim o Word copia o texto exatamente como está.",
+            "dica": "Releia a dica sobre números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Além de cartas, a mala direta pode criar:",
+            "alternativas": [
+              "etiquetas e envelopes",
+              "vídeos",
+              "planilhas com gráficos",
+              "apresentações de slides"
+            ],
+            "correta": 0,
+            "explicacao": "Iniciar Mala Direta > Etiquetas ou Envelopes.",
+            "dica": "Pense no que vai junto com uma carta pelo correio."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos da mala direta.",
+            "itens": [
+              "Preparar a lista no Excel com títulos",
+              "Iniciar Mala Direta > Cartas",
+              "Selecionar Destinatários > Usar uma Lista Existente",
+              "Inserir os campos de mesclagem no texto",
+              "Concluir e Mesclar"
+            ],
+            "explicacao": "Lista, tipo de documento, ligar a lista, campos e concluir.",
+            "dica": "Os campos só aparecem depois de ligar a lista."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A lista tem uma coluna \"Nome Completo\", mas você quer \"Olá, «Nome»\" só com o primeiro nome. A solução mais simples é:",
+            "alternativas": [
+              "Criar na planilha uma coluna só com o primeiro nome",
+              "Escrever os nomes à mão em cada carta",
+              "Não dá para fazer",
+              "Usar a fonte menor"
+            ],
+            "correta": 0,
+            "explicacao": "O Word usa o que está na planilha; prepare o campo certo nela.",
+            "dica": "O Word só mostra o que existe na lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao visualizar, todas as cartas mostram o nome da mesma pessoa. O provável erro é:",
+            "alternativas": [
+              "O nome foi digitado à mão em vez de inserido como campo",
+              "A fonte é muito grande",
+              "A planilha tem títulos",
+              "O Word está sem internet"
+            ],
+            "correta": 0,
+            "explicacao": "Texto digitado não muda; campo muda a cada carta.",
+            "dica": "O que muda de carta para carta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma escola mandou por engano a carta com as notas de todos os alunos para cada responsável. Qual lei se relaciona ao problema?",
+            "alternativas": [
+              "CLT",
+              "LGPD, porque expôs dados pessoais",
+              "Código de Trânsito",
+              "Lei do Inquilinato"
+            ],
+            "correta": 1,
+            "explicacao": "Notas são dados pessoais dos alunos; a mala direta exige cuidado.",
+            "dica": "Qual lei protege dados pessoais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você precisa enviar convites para 200 pessoas, mas 20 não têm endereço na planilha. O que fazer antes de concluir?",
+            "alternativas": [
+              "Imprimir tudo e ver o que acontece",
+              "Fazer as 200 cartas à mão",
+              "Apagar a coluna Endereço",
+              "Filtrar a lista para excluir as linhas sem endereço"
+            ],
+            "correta": 3,
+            "explicacao": "Filtrar evita cartas incompletas.",
+            "dica": "Dá para escolher quem entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a vantagem de Editar Documentos Individuais antes de imprimir?",
+            "alternativas": [
+              "Deixar o arquivo menor",
+              "Apagar a planilha",
+              "Revisar e corrigir uma carta específica sem mexer nas outras",
+              "Trocar o idioma"
+            ],
+            "correta": 2,
+            "explicacao": "Você vê e ajusta cada carta pronta.",
+            "dica": "É o momento de conferir."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Atendimento e pós-venda: o cliente que volta e indica",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um bom produto atrai o cliente uma vez; um bom atendimento faz ele voltar e indicar. Indicação boca a boca é a propaganda mais barata e mais confiável que existe.",
+          "Atender bem é: cumprimentar, ouvir com atenção, explicar com clareza, cumprir o prazo prometido e não prometer o que não pode cumprir.",
+          "Reclamação é oportunidade. Diante de um cliente insatisfeito: ouça sem interromper, peça desculpas pelo transtorno, ofereça uma solução concreta (trocar, consertar, devolver o dinheiro) e confira depois se ficou resolvido.",
+          "Pós-venda é o que acontece depois da compra: uma mensagem perguntando se o produto chegou bem, explicar como usar, cumprir a garantia, avisar de novidades com a permissão do cliente.",
+          "Quem tem equipe precisa treinar as pessoas e dar autonomia para resolver problemas simples. Funcionário bem tratado e bem treinado trata bem o cliente; bronca em público e humilhação fazem os bons funcionários irem embora."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Dona Sônia vende marmitas. Um cliente reclama que a comida chegou fria. Como resolver?",
+            "resolucao": "Ouvir, pedir desculpas, oferecer uma nova marmita ou desconto no próximo pedido, descobrir a causa (embalagem? atraso do entregador?) e corrigir. No dia seguinte, perguntar se o pedido chegou quente."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O CDC garante prazos para reclamar de defeito: 30 dias para produtos não duráveis (como alimentos) e 90 dias para produtos duráveis (como eletrodomésticos). Nas compras fora da loja física, como internet e telefone, há o direito de arrependimento de 7 dias. Na loja física, a troca por gosto ou tamanho só é obrigatória se a loja tiver prometido.",
+        "Conta do cliente fiel: quem gasta R$ 50 por mês durante 2 anos deixa R$ 1.200 no negócio, fora as indicações. Por isso, perder um cliente por mau atendimento custa muito mais do que a venda de um dia.",
+        "Para mandar mensagens de ofertas, peça permissão e ofereça um jeito fácil de sair da lista, como pede a LGPD. Mensagens demais irritam e afastam."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a propaganda mais confiável para um pequeno negócio?",
+            "alternativas": [
+              "Baixar a qualidade",
+              "Falar mal do concorrente",
+              "A indicação de clientes satisfeitos",
+              "Gritar na rua"
+            ],
+            "correta": 2,
+            "explicacao": "Cliente satisfeito indica para amigos e família.",
+            "dica": "Pense em quem você ouve antes de comprar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é pós-venda?",
+            "alternativas": [
+              "A conta de luz da loja",
+              "A venda de produtos usados",
+              "O preço da mercadoria",
+              "O cuidado com o cliente depois da compra"
+            ],
+            "correta": 3,
+            "explicacao": "Pós = depois.",
+            "dica": "O prefixo pós quer dizer..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Diante de uma reclamação, o primeiro passo é:",
+            "alternativas": [
+              "Discutir com o cliente",
+              "Ouvir sem interromper",
+              "Culpar o funcionário",
+              "Ignorar"
+            ],
+            "correta": 1,
+            "explicacao": "Ouvir mostra respeito e ajuda a entender o problema.",
+            "dica": "Antes de resolver, é preciso entender."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Prometer um prazo que você sabe que não vai cumprir é:",
+            "alternativas": [
+              "Um erro que faz perder o cliente",
+              "Uma boa estratégia de venda",
+              "Normal e sem problema",
+              "Obrigatório"
+            ],
+            "correta": 0,
+            "explicacao": "Promessa quebrada destrói a confiança.",
+            "dica": "O cliente volta depois de ser enganado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Funcionário bem treinado e respeitado costuma:",
+            "alternativas": [
+              "Não fazer diferença",
+              "Atender melhor os clientes",
+              "Atender pior",
+              "Ir embora logo"
+            ],
+            "correta": 1,
+            "explicacao": "Equipe tratada bem trata bem o cliente.",
+            "dica": "Como você trabalha quando é respeitado?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A marmita chegou fria. Qual é a melhor resposta da Dona Sônia?",
+            "alternativas": [
+              "Bloquear o cliente",
+              "Pedir desculpas, oferecer uma nova marmita e descobrir a causa",
+              "Não responder",
+              "Dizer que o cliente demorou para abrir"
+            ],
+            "correta": 1,
+            "explicacao": "Solução concreta e correção da causa.",
+            "dica": "Resolver agora e evitar que se repita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual mensagem é um bom pós-venda?",
+            "alternativas": [
+              "\"Compre mais!\" enviado três vezes por dia",
+              "\"Não aceitamos reclamação.\"",
+              "\"Oi, Marcos! O ventilador chegou bem? Qualquer dúvida, estou aqui.\"",
+              "Nenhuma mensagem nunca"
+            ],
+            "correta": 2,
+            "explicacao": "Mostra cuidado sem pressionar.",
+            "dica": "Qual delas pergunta se deu tudo certo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cliente fiel gasta R$ 50 por mês durante 2 anos. Quanto deixa no negócio?",
+            "alternativas": [
+              "R$ 1.200",
+              "R$ 2.400",
+              "R$ 100",
+              "R$ 600"
+            ],
+            "correta": 0,
+            "explicacao": "50 · 24 meses = 1.200.",
+            "dica": "Quantos meses há em 2 anos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que dar autonomia para o funcionário resolver problemas simples?",
+            "alternativas": [
+              "Não serve para nada",
+              "Para o dono não precisar pagar salário",
+              "Para o funcionário trabalhar de graça",
+              "O cliente é atendido mais rápido"
+            ],
+            "correta": 3,
+            "explicacao": "Resolver na hora evita irritação do cliente.",
+            "dica": "Pense na demora de chamar o dono para tudo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para mandar ofertas por mensagem, o certo é:",
+            "alternativas": [
+              "Mandar para todos os contatos do celular",
+              "Pedir permissão e oferecer um jeito fácil de sair da lista",
+              "Mandar de madrugada",
+              "Comprar listas de telefones"
+            ],
+            "correta": 1,
+            "explicacao": "A LGPD exige respeito à escolha do cliente.",
+            "dica": "O cliente quer receber?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma geladeira comprada na loja apresentou defeito com 2 meses de uso. Pelo CDC:",
+            "alternativas": [
+              "Está dentro do prazo de 90 dias para produto durável",
+              "Só vale se tiver garantia estendida paga",
+              "Passou do prazo de 30 dias",
+              "Não existe garantia"
+            ],
+            "correta": 0,
+            "explicacao": "Geladeira é durável: 90 dias de garantia legal.",
+            "dica": "Geladeira é durável ou não durável?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Comprou uma camiseta pela internet e não gostou. Pode devolver?",
+            "alternativas": [
+              "Só depois de 30 dias",
+              "Só se estiver rasgada",
+              "Não, nunca",
+              "Sim, em até 7 dias, pelo direito de arrependimento"
+            ],
+            "correta": 3,
+            "explicacao": "Compras fora da loja física têm 7 dias de arrependimento.",
+            "dica": "Onde foi feita a compra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na loja física, o cliente quer trocar uma blusa sem defeito porque não gostou da cor. A loja é obrigada?",
+            "alternativas": [
+              "Sempre, pelo CDC",
+              "Só se tiver prometido troca na sua política",
+              "Nunca, nem se tiver prometido",
+              "Só se o cliente reclamar alto"
+            ],
+            "correta": 1,
+            "explicacao": "Sem defeito e em loja física, a troca depende do que a loja prometeu.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário errou um pedido na frente do cliente. Qual é a atitude certa do dono?",
+            "alternativas": [
+              "Demitir na hora, gritando",
+              "Dar bronca nele na frente de todos",
+              "Resolver com o cliente e conversar com o funcionário depois, em particular",
+              "Descontar do salário sem conversar"
+            ],
+            "correta": 2,
+            "explicacao": "Corrigir em particular preserva a equipe e mostra profissionalismo.",
+            "dica": "Onde se corrige alguém com respeito?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o atendimento de uma reclamação.",
+            "itens": [
+              "Ouvir o cliente sem interromper",
+              "Pedir desculpas pelo transtorno",
+              "Oferecer uma solução concreta",
+              "Conferir depois se ficou resolvido"
+            ],
+            "explicacao": "Entender, reconhecer, resolver e acompanhar.",
+            "dica": "A conferência vem no fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lanchonete perde 2 clientes por mês por mau atendimento. Cada cliente gastaria R$ 40 por mês durante um ano. Quanto a lanchonete deixa de faturar, ao longo de um ano, por causa dos 2 clientes perdidos em um único mês?",
+            "alternativas": [
+              "R$ 960",
+              "R$ 480",
+              "R$ 80",
+              "R$ 40"
+            ],
+            "correta": 0,
+            "explicacao": "2 clientes · R$ 40 · 12 meses = R$ 960, sem contar as indicações perdidas.",
+            "dica": "Cada cliente perdido deixaria dinheiro por 12 meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude transforma um cliente que reclamou em cliente fiel?",
+            "alternativas": [
+              "Dar desconto sem resolver o problema",
+              "Resolver rápido e de forma justa, e depois perguntar se ficou satisfeito",
+              "Provar que ele estava errado",
+              "Responder só depois de uma semana"
+            ],
+            "correta": 1,
+            "explicacao": "Quem tem o problema bem resolvido costuma confiar mais na loja.",
+            "dica": "O que faz alguém confiar depois de um problema?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono contrata ajudantes sem registro para \"economizar\" e não os treina. Qual é o risco?",
+            "alternativas": [
+              "Nenhum, é mais lucrativo",
+              "Ficar famoso",
+              "Processo trabalhista, multa e atendimento ruim que afasta clientes",
+              "Só o risco de chover"
+            ],
+            "correta": 2,
+            "explicacao": "Informalidade gera passivo trabalhista; equipe sem treino atende mal.",
+            "dica": "Pense na lei e no cliente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cliente reclama nas redes sociais de forma educada. Qual resposta pública é melhor?",
+            "alternativas": [
+              "Agradecer o aviso, pedir desculpas e chamar no privado para resolver",
+              "Apagar e bloquear",
+              "Expor os dados do cliente para provar que ele mentiu",
+              "Responder com ironia"
+            ],
+            "correta": 0,
+            "explicacao": "Respeito em público mostra a todos como a empresa trata clientes. Expor dados fere a LGPD.",
+            "dica": "Outras pessoas também estão lendo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto alimentício estragado foi vendido há 10 dias. O cliente reclama. Pelo CDC:",
+            "alternativas": [
+              "Passou do prazo, que é de 7 dias",
+              "Só vale com nota em papel timbrado",
+              "Alimentos não têm garantia",
+              "Está dentro dos 30 dias para produto não durável"
+            ],
+            "correta": 3,
+            "explicacao": "Não duráveis: 30 dias para reclamar de vício aparente.",
+            "dica": "Alimento é durável ou não durável?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Artigo de opinião e editorial",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Artigo de opinião e editorial são textos argumentativos publicados em jornais, revistas e sites. Os dois defendem um ponto de vista sobre um assunto atual, mas têm autores diferentes.",
+          "O artigo de opinião é assinado por uma pessoa (um especialista, um professor, um cidadão) e mostra a opinião dela. Pode usar a 1ª pessoa: \"Penso que...\".",
+          "O editorial mostra a opinião do próprio jornal ou site. Não costuma ser assinado e geralmente usa a 3ª pessoa: \"É urgente que a prefeitura...\".",
+          "Estrutura comum: título chamativo; introdução com a tese (a opinião principal); desenvolvimento com argumentos (dados, exemplos, comparações, causa e consequência, fala de especialista); e conclusão que retoma a tese e, às vezes, propõe uma solução.",
+          "Diferença importante: a notícia informa o que aconteceu, sem dar opinião; o artigo e o editorial interpretam e opinam."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Identifique a tese: \"A cidade precisa de mais ciclovias. Hoje, quem pedala divide a rua com ônibus e caminhões, e os acidentes com ciclistas aumentaram no último ano.\"",
+            "resolucao": "Tese: a cidade precisa de mais ciclovias. O resto são argumentos (risco no trânsito e aumento de acidentes)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um bom texto argumentativo antecipa o contra-argumento e responde a ele: \"Alguns dizem que ciclovias tiram vagas de carro. Porém, cada bicicleta a mais é um carro a menos no trânsito.\" Isso mostra que o autor pensou nos dois lados.",
+        "Tipos de argumento: de autoridade (citar um especialista ou instituição), por exemplificação (um caso concreto), por dados (números e pesquisas), por comparação (outra cidade que fez algo parecido) e de causa e consequência.",
+        "Conectivos ajudam a encadear a argumentação: além disso, porém, no entanto, portanto, por isso, ou seja, dessa forma."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O artigo de opinião é um texto:",
+            "alternativas": [
+              "de receita",
+              "narrativo de ficção",
+              "de instruções de jogo",
+              "argumentativo"
+            ],
+            "correta": 3,
+            "explicacao": "Ele defende um ponto de vista.",
+            "dica": "Ele quer convencer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem assina o artigo de opinião?",
+            "alternativas": [
+              "Só o leitor",
+              "Ninguém, nunca",
+              "Só o governo",
+              "Uma pessoa, o autor"
+            ],
+            "correta": 3,
+            "explicacao": "O artigo mostra a opinião de quem assina.",
+            "dica": "É a opinião de alguém com nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O editorial mostra a opinião de quem?",
+            "alternativas": [
+              "Do anunciante",
+              "Do próprio jornal ou site",
+              "De um leitor qualquer",
+              "De um personagem"
+            ],
+            "correta": 1,
+            "explicacao": "É a voz do veículo.",
+            "dica": "Quem publica o texto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a tese?",
+            "alternativas": [
+              "O título",
+              "O nome do jornal",
+              "A opinião principal defendida no texto",
+              "A data da publicação"
+            ],
+            "correta": 2,
+            "explicacao": "Os argumentos servem para sustentar a tese.",
+            "dica": "É a ideia central que se quer provar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual texto informa sem opinar?",
+            "alternativas": [
+              "A notícia",
+              "O artigo de opinião",
+              "A carta de reclamação",
+              "O editorial"
+            ],
+            "correta": 0,
+            "explicacao": "A notícia relata fatos.",
+            "dica": "Qual deles só conta o que aconteceu?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"É urgente que a prefeitura conserte as calçadas.\" Sem assinatura, no topo da página de opinião. Provavelmente é:",
+            "alternativas": [
+              "um conto",
+              "um editorial",
+              "uma notícia",
+              "um anúncio"
+            ],
+            "correta": 1,
+            "explicacao": "Sem assinatura, 3ª pessoa, opinião do jornal.",
+            "dica": "Quem fala quando não há assinatura?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a tese? \"As escolas deveriam ter aulas de educação financeira. Muitos jovens começam a trabalhar sem saber fazer orçamento.\"",
+            "alternativas": [
+              "As escolas deveriam ter aulas de educação financeira",
+              "As escolas existem",
+              "Muitos jovens começam a trabalhar",
+              "Os jovens não sabem fazer orçamento"
+            ],
+            "correta": 0,
+            "explicacao": "A tese é a opinião; o resto é argumento.",
+            "dica": "Qual frase tem o \"deveriam\"?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde normalmente aparece a tese?",
+            "alternativas": [
+              "No título do jornal",
+              "Só no último parágrafo",
+              "Na introdução",
+              "Na assinatura"
+            ],
+            "correta": 2,
+            "explicacao": "O leitor sabe logo o que será defendido.",
+            "dica": "Logo no começo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Citar uma pesquisa com números é um argumento:",
+            "alternativas": [
+              "por ataque à pessoa",
+              "de narração",
+              "por dados",
+              "de rima"
+            ],
+            "correta": 2,
+            "explicacao": "Dados dão força objetiva.",
+            "dica": "Números e pesquisas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conectivo indica oposição?",
+            "alternativas": [
+              "portanto",
+              "além disso",
+              "por exemplo",
+              "porém"
+            ],
+            "correta": 3,
+            "explicacao": "Porém introduz uma ideia contrária.",
+            "dica": "Qual palavra muda a direção do argumento?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Alguns dizem que o uniforme limita a liberdade. No entanto, ele reduz gastos das famílias e evita comparações.\" Essa estratégia é:",
+            "alternativas": [
+              "narração",
+              "antecipar um contra-argumento e refutá-lo",
+              "ataque à pessoa",
+              "apelo à maioria"
+            ],
+            "correta": 1,
+            "explicacao": "O autor apresenta a ideia contrária e responde a ela.",
+            "dica": "Qual é a função do no entanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Em Curitiba, os corredores de ônibus reduziram o tempo de viagem.\" Num texto sobre transporte, é um argumento:",
+            "alternativas": [
+              "por ataque",
+              "sem relação",
+              "por comparação ou exemplo de outra cidade",
+              "de autoridade"
+            ],
+            "correta": 2,
+            "explicacao": "Mostra um caso parecido que deu certo.",
+            "dica": "Fala de outra cidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual diferença entre artigo de opinião e editorial está correta?",
+            "alternativas": [
+              "Os dois são notícias",
+              "O editorial é sempre de ficção",
+              "O artigo não tem opinião",
+              "O artigo é assinado por uma pessoa; o editorial expressa a opinião do veículo"
+            ],
+            "correta": 3,
+            "explicacao": "Muda quem fala: a pessoa ou o jornal.",
+            "dica": "Pense em quem assina."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conclusão combina com um artigo que defende mais ciclovias?",
+            "alternativas": [
+              "\"Portanto, ampliar as ciclovias é investir em segurança e saúde.\"",
+              "\"Choveu ontem.\"",
+              "\"Era uma vez uma bicicleta.\"",
+              "\"Carros são vermelhos.\""
+            ],
+            "correta": 0,
+            "explicacao": "Retoma a tese com um conectivo de conclusão.",
+            "dica": "A conclusão volta à tese."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as partes de um artigo de opinião.",
+            "itens": [
+              "Título chamativo",
+              "Introdução com a tese",
+              "Desenvolvimento com argumentos",
+              "Conclusão retomando a tese"
+            ],
+            "explicacao": "É a estrutura clássica do texto argumentativo.",
+            "dica": "O título vem antes de tudo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto diz: \"Segundo a Organização Mundial da Saúde, a atividade física regular reduz o risco de várias doenças.\" Que tipo de argumento é?",
+            "alternativas": [
+              "Por comparação",
+              "Por narração",
+              "De autoridade",
+              "Por ataque à pessoa"
+            ],
+            "correta": 2,
+            "explicacao": "Apoia-se numa instituição reconhecida na área.",
+            "dica": "Quem disse a informação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um editorial defende reduzir o lixo nas ruas, mas os argumentos falam só da beleza das praças. O que falta para ficar mais convincente?",
+            "alternativas": [
+              "Um título maior",
+              "Dados e consequências, como enchentes causadas por bueiros entupidos",
+              "Mais adjetivos",
+              "Nada, está perfeito"
+            ],
+            "correta": 1,
+            "explicacao": "Argumentos variados e concretos fortalecem a tese.",
+            "dica": "Beleza é só um lado do problema."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual trecho é de notícia, e não de artigo de opinião?",
+            "alternativas": [
+              "\"É uma vergonha que a ciclovia tenha demorado tanto.\"",
+              "\"Acredito que a cidade acertou ao investir em ciclovias.\"",
+              "\"A nova ciclovia é a melhor notícia do ano.\"",
+              "\"A prefeitura inaugurou ontem 5 km de ciclovia na zona leste.\""
+            ],
+            "correta": 3,
+            "explicacao": "Relata um fato, sem avaliação.",
+            "dica": "Qual não tem palavra que avalia?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um articulista escreve: \"Quem é contra o horário integral é preguiçoso.\" Qual é o problema?",
+            "alternativas": [
+              "É um ataque à pessoa, e não um argumento sobre a ideia",
+              "Nenhum, é um bom argumento",
+              "Falta um título",
+              "Está na 3ª pessoa"
+            ],
+            "correta": 0,
+            "explicacao": "Desqualifica quem discorda em vez de discutir as razões.",
+            "dica": "Lembre da aula sobre falácias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conjunto de conectivos encadeia bem: tese, acréscimo, oposição e conclusão?",
+            "alternativas": [
+              "\"Portanto...\", \"Era uma vez...\", \"Além disso...\", \"Acredito que...\"",
+              "\"Acredito que...\", \"Além disso...\", \"No entanto...\", \"Portanto...\"",
+              "\"No entanto...\", \"No entanto...\", \"No entanto...\", \"No entanto...\"",
+              "\"Por exemplo...\", \"Portanto...\", \"Acredito que...\", \"Era uma vez...\""
+            ],
+            "correta": 1,
+            "explicacao": "Cada conectivo faz seu papel na ordem lógica.",
+            "dica": "Procure a sequência que começa com a opinião e termina concluindo."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A caixa-d'água do prédio",
+    "texto": "Na terceira manhã sem água no bairro, seu Edvaldo, síndico do prédio, desceu até a garagem com uma trena, um caderno e uma preocupação. A companhia de abastecimento tinha avisado que o conserto da tubulação levaria alguns dias, e os moradores já perguntavam no grupo de mensagens: a água da caixa vai durar?\n\nA caixa-d'água ficava no alto do prédio. Seu Edvaldo subiu a escada estreita, abriu a tampa e mediu: 4 metros de comprimento, 3 de largura e 2 de altura. No caderno, fez a conta que tinha aprendido na escola havia muitos anos: 4 vezes 3 vezes 2 dava 24 metros cúbicos. Como cada metro cúbico tem mil litros, a caixa cheia guardava 24 mil litros.\n\nMas quanto o prédio gastava? Eram 40 moradores. Ele pesquisou e descobriu que uma pessoa usa, em média, uns 150 litros por dia em casa, entre banho, descarga, cozinha e limpeza. Multiplicou: 6 mil litros por dia. Dividiu os 24 mil por 6 mil e chegou a 4 dias, se a caixa estivesse cheia e ninguém mudasse nada.\n\nO problema é que a caixa estava pela metade. Isso dava só dois dias.\n\nSeu Edvaldo escreveu no grupo, com os números explicados. Pediu banhos curtos, roupa lavada só depois que a água voltasse e balde em vez de mangueira. A Dona Vera, do quinto andar, organizou uma escala para encher garrafas no caminhão-pipa. O Davi, de doze anos, fez cartazes para o elevador.\n\nA água voltou na tarde do quarto dia. A caixa ainda tinha um palmo de água. Na reunião seguinte, os moradores aprovaram uma segunda caixa-d'água. Seu Edvaldo já sabia calcular de quantos litros ela precisaria."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva o roteiro do atendimento a um cliente insatisfeito (por exemplo, um bolo que chegou amassado ou uma camiseta com defeito). Mostre o que você diria ao ouvir a reclamação, a solução que ofereceria e o que faria depois para que o cliente voltasse a comprar e indicasse seu negócio."
+  }
+}

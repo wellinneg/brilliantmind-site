@@ -1,0 +1,1502 @@
+{
+  "dia": 59,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Pesquisa amostral: média, moda, mediana e amplitude",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Para saber o que pensam os 900 alunos de uma escola, nem sempre dá para perguntar a todos. Então se faz uma pesquisa amostral: escolhe-se uma parte (a amostra) que represente o todo (a população). A amostra precisa ser sorteada e variada, com alunos de todas as séries e turnos, para não distorcer o resultado.",
+          "Média: some os valores e divida pela quantidade. Notas 5, 6, 7, 7, 7, 8, 9 e 10 somam 59; 59 ÷ 8 = 7,375.",
+          "Moda: o valor que mais aparece. Nas notas acima, a moda é 7 (aparece três vezes). Pode haver mais de uma moda ou nenhuma.",
+          "Mediana: o valor do meio quando os dados estão em ordem. Com quantidade ímpar, é o do centro; com quantidade par, é a média dos dois do centro. Nas 8 notas, os do meio são 7 e 7, então a mediana é 7.",
+          "Amplitude: o maior valor menos o menor. Mostra o quanto os dados se espalham: 10 − 5 = 5."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Tempos de viagem até a escola (em minutos): 12, 15, 14, 15, 13, 15, 11. Calcule média, moda, mediana e amplitude.",
+            "resolucao": "Em ordem: 11, 12, 13, 14, 15, 15, 15. Soma 95; média 95 ÷ 7 ≈ 13,6. Moda 15. Mediana (o 4º valor) 14. Amplitude 15 − 11 = 4."
+          },
+          {
+            "enunciado": "Uma pesquisa sobre o lanche preferido entrevistou só os alunos do time de futebol. Qual o problema?",
+            "resolucao": "A amostra não representa a escola toda: só um grupo, com hábitos parecidos. O resultado pode ser distorcido."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Valores muito diferentes dos outros (valores extremos) puxam a média, mas quase não mexem na mediana. Salários de 10, 10, 10 e 90 mil têm média 30 mil, mas mediana 10 mil. Para rendas e preços de casas, a mediana costuma representar melhor a pessoa típica.",
+        "O tamanho da amostra importa: perguntar a 5 alunos é pouco; a 100, sorteados de todas as turmas, dá uma ideia muito melhor. Ainda assim, toda pesquisa amostral tem uma margem de erro.",
+        "A moda serve também para dados que não são números: a cor preferida, o meio de transporte mais usado. Média e mediana só fazem sentido para números."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a média?",
+            "alternativas": [
+              "O valor do meio",
+              "A soma dos valores dividida pela quantidade",
+              "O maior menos o menor",
+              "O valor que mais aparece"
+            ],
+            "correta": 1,
+            "explicacao": "Somar e dividir.",
+            "dica": "Some tudo e reparta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a moda?",
+            "alternativas": [
+              "O valor que mais aparece",
+              "O valor do meio",
+              "O menor valor",
+              "A soma dos valores"
+            ],
+            "correta": 0,
+            "explicacao": "Moda é o mais frequente.",
+            "dica": "O que está na moda aparece muito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a amplitude?",
+            "alternativas": [
+              "A média dos valores",
+              "O valor do meio",
+              "O valor mais frequente",
+              "O maior valor menos o menor"
+            ],
+            "correta": 3,
+            "explicacao": "Mostra o espalhamento dos dados.",
+            "dica": "Uma subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a moda de 3, 5, 5, 8, 9?",
+            "alternativas": [
+              "5",
+              "6",
+              "8",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "O 5 aparece duas vezes.",
+            "dica": "Qual se repete?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a média de 3, 5, 5, 8, 9?",
+            "alternativas": [
+              "5",
+              "6",
+              "9",
+              "30"
+            ],
+            "correta": 1,
+            "explicacao": "Soma 30; 30 ÷ 5 = 6.",
+            "dica": "Some e divida por 5."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a mediana de 3, 5, 5, 8, 9?",
+            "alternativas": [
+              "8",
+              "5",
+              "6",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "Em ordem, o do meio é o 3º valor: 5.",
+            "dica": "Procure o valor central."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a amplitude de 150, 160, 155, 170, 165?",
+            "alternativas": [
+              "10",
+              "170",
+              "160",
+              "20"
+            ],
+            "correta": 3,
+            "explicacao": "170 − 150 = 20.",
+            "dica": "Maior menos menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a mediana de 2, 4, 4, 6, 9, 11?",
+            "alternativas": [
+              "6,5",
+              "5",
+              "6",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "Quantidade par: (4 + 6) ÷ 2 = 5.",
+            "dica": "Com seis valores, use os dois do meio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma amostra?",
+            "alternativas": [
+              "Uma parte da população escolhida para a pesquisa",
+              "Um gráfico",
+              "O resultado final",
+              "Toda a população"
+            ],
+            "correta": 0,
+            "explicacao": "Pesquisa-se uma parte para conhecer o todo.",
+            "dica": "Uma parte do todo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Notas 5, 6, 7, 7, 7, 8, 9, 10. Qual é a média?",
+            "alternativas": [
+              "59",
+              "7,375",
+              "7,5",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "59 ÷ 8 = 7,375.",
+            "dica": "Some e divida por 8."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Tempos: 12, 15, 14, 15, 13, 15, 11. Qual é a mediana?",
+            "alternativas": [
+              "13",
+              "14",
+              "13,6",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "Em ordem: 11, 12, 13, 14, 15, 15, 15. O 4º é 14.",
+            "dica": "Ponha em ordem antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para saber a opinião da escola, qual amostra é melhor?",
+            "alternativas": [
+              "100 alunos sorteados de todas as turmas e turnos",
+              "Só os alunos do time de futebol",
+              "Os 10 amigos mais próximos",
+              "Só o 9º ano da manhã"
+            ],
+            "correta": 0,
+            "explicacao": "Sorteada e variada representa melhor.",
+            "dica": "Qual representa todos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Salários: 10, 10, 10 e 90 mil. Qual medida representa melhor o salário típico?",
+            "alternativas": [
+              "A mediana, 10 mil",
+              "A amplitude, 80 mil",
+              "A média, 30 mil",
+              "A soma, 120 mil"
+            ],
+            "correta": 0,
+            "explicacao": "O 90 puxa a média para cima.",
+            "dica": "Qual medida não se deixa puxar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A média de 4 notas é 7. Três delas são 6, 7 e 8. Qual é a quarta?",
+            "alternativas": [
+              "8",
+              "6",
+              "28",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "Soma total 4 × 7 = 28; 28 − 21 = 7.",
+            "dica": "Calcule a soma total primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para dados como 'cor preferida', qual medida faz sentido?",
+            "alternativas": [
+              "Moda",
+              "Amplitude",
+              "Média",
+              "Mediana"
+            ],
+            "correta": 0,
+            "explicacao": "Cores não são números.",
+            "dica": "Qual medida funciona sem números?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Valores 1, 1, 2, 3, 10. Qual afirmação é verdadeira?",
+            "alternativas": [
+              "A amplitude é 10",
+              "A média é igual à mediana",
+              "A moda é 10",
+              "A média (3,4) é maior que a mediana (2)"
+            ],
+            "correta": 3,
+            "explicacao": "Soma 17 ÷ 5 = 3,4; mediana 2; moda 1; amplitude 9.",
+            "dica": "Calcule as quatro medidas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A média de 5 alunos é 8. Entra um aluno com nota 2. Qual é a nova média?",
+            "alternativas": [
+              "8",
+              "6",
+              "5",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "Soma 40 + 2 = 42; 42 ÷ 6 = 7.",
+            "dica": "Recalcule a soma e divida por 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pesquisa feita só pela internet às 3h da manhã quer saber quantas horas os alunos dormem. Qual é o problema?",
+            "alternativas": [
+              "A amostra tende a ter mais gente que fica acordada até tarde",
+              "Nenhum",
+              "A internet não aceita pesquisas",
+              "Às 3h todos respondem"
+            ],
+            "correta": 0,
+            "explicacao": "O horário seleciona um grupo específico.",
+            "dica": "Quem está online às 3h?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cinco números inteiros têm média 6, moda 5 e mediana 5, e o maior deles é 8. Qual é o conjunto?",
+            "alternativas": [
+              "5, 5, 5, 7, 8",
+              "5, 5, 5, 5, 10",
+              "5, 5, 6, 6, 8",
+              "4, 5, 6, 7, 8"
+            ],
+            "correta": 0,
+            "explicacao": "Soma 30, valor do meio 5, o 5 é o mais repetido e o maior é 8. Os outros falham na moda, na mediana ou no maior valor.",
+            "dica": "Confira soma, valor do meio, repetição e o maior."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as etapas de uma pesquisa amostral:",
+            "itens": [
+              "Definir a pergunta",
+              "Sortear uma amostra variada",
+              "Coletar as respostas",
+              "Calcular média, moda, mediana e amplitude"
+            ],
+            "explicacao": "Pergunta, amostra, coleta e análise.",
+            "dica": "A análise vem no fim."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Binário: zeros e uns que guardam tudo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O computador guarda tudo (textos, fotos, músicas, vídeos) usando só dois símbolos: 0 e 1. Cada um desses dígitos se chama bit. Isso acontece porque, nos circuitos, é fácil representar dois estados: desligado (0) e ligado (1).",
+          "No sistema decimal, cada posição vale 10 vezes a anterior (unidade, dezena, centena). No binário, cada posição vale o dobro: da direita para a esquerda, 1, 2, 4, 8, 16, 32, 64, 128.",
+          "Para converter binário em decimal, some as posições que têm 1. O número 1011 tem 1 na posição 8, 0 na 4, 1 na 2 e 1 na 1: 8 + 2 + 1 = 11.",
+          "Para converter decimal em binário, procure as potências de 2 que somam o número. 13 = 8 + 4 + 1, então em binário é 1101.",
+          "Um grupo de 8 bits forma um byte. Com 8 bits é possível escrever 256 valores diferentes, de 0 (00000000) a 255 (11111111)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Converta 10000 (binário) para decimal.",
+            "resolucao": "Só há 1 na posição 16. Então 10000 = 16."
+          },
+          {
+            "enunciado": "Converta 25 para binário.",
+            "resolucao": "25 = 16 + 8 + 1. Posições 16, 8, 4, 2, 1 → 1, 1, 0, 0, 1. Resultado: 11001."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Letras também viram números. Na tabela ASCII, a letra A maiúscula é 65, que em binário é 01000001. Cada tecla que você aperta vira um byte que o computador entende.",
+        "Cada bit a mais dobra a quantidade de valores possíveis: 1 bit dá 2 valores, 2 bits dão 4, 3 bits dão 8 e assim por diante. Com n bits, são 2 elevado a n valores.",
+        "Medidas de armazenamento: 1 kilobyte (KB) é cerca de mil bytes; 1 megabyte (MB), cerca de um milhão; 1 gigabyte (GB), cerca de um bilhão. Uma foto de celular pode ter alguns MB, ou seja, milhões de bytes, cada um com 8 zeros e uns."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais símbolos o sistema binário usa?",
+            "alternativas": [
+              "0 a 9",
+              "1 e 2",
+              "0 e 1",
+              "A a Z"
+            ],
+            "correta": 2,
+            "explicacao": "O binário tem só dois dígitos.",
+            "dica": "Bi quer dizer dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama cada dígito binário?",
+            "alternativas": [
+              "Bit",
+              "Vírus",
+              "Pixel",
+              "Byte"
+            ],
+            "correta": 0,
+            "explicacao": "Bit vem de binary digit.",
+            "dica": "É uma palavra curta, de três letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos bits há em um byte?",
+            "alternativas": [
+              "2",
+              "8",
+              "100",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "Um byte é um grupo de 8 bits.",
+            "dica": "É um número par menor que 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No binário, cada posição vale quanto em relação à anterior?",
+            "alternativas": [
+              "A metade",
+              "Dez vezes",
+              "O dobro",
+              "O triplo"
+            ],
+            "correta": 2,
+            "explicacao": "1, 2, 4, 8, 16...",
+            "dica": "Vai dobrando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale o binário 1 em decimal?",
+            "alternativas": [
+              "10",
+              "0",
+              "2",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "O primeiro 1 vale uma unidade.",
+            "dica": "É o mais simples."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale o binário 1011 em decimal?",
+            "alternativas": [
+              "1.011",
+              "7",
+              "11",
+              "13"
+            ],
+            "correta": 2,
+            "explicacao": "8 + 0 + 2 + 1 = 11.",
+            "dica": "Some as posições com 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale o binário 101 em decimal?",
+            "alternativas": [
+              "6",
+              "3",
+              "5",
+              "101"
+            ],
+            "correta": 2,
+            "explicacao": "4 + 0 + 1 = 5.",
+            "dica": "Posições 4, 2 e 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 13 em binário?",
+            "alternativas": [
+              "1101",
+              "1011",
+              "1001",
+              "1111"
+            ],
+            "correta": 0,
+            "explicacao": "13 = 8 + 4 + 1.",
+            "dica": "Ache as potências de 2 que somam 13."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos valores diferentes cabem em 8 bits?",
+            "alternativas": [
+              "8",
+              "256",
+              "16",
+              "255"
+            ],
+            "correta": 1,
+            "explicacao": "2 elevado a 8 = 256 (de 0 a 255).",
+            "dica": "Conte também o zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale o binário 10000 em decimal?",
+            "alternativas": [
+              "10.000",
+              "16",
+              "5",
+              "32"
+            ],
+            "correta": 1,
+            "explicacao": "Só a posição 16 tem 1.",
+            "dica": "Qual posição tem o 1?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 25 em binário?",
+            "alternativas": [
+              "11001",
+              "11010",
+              "10101",
+              "10011"
+            ],
+            "correta": 0,
+            "explicacao": "25 = 16 + 8 + 1.",
+            "dica": "Comece pela maior potência que cabe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o maior número que cabe em 8 bits?",
+            "alternativas": [
+              "256",
+              "255",
+              "800",
+              "128"
+            ],
+            "correta": 1,
+            "explicacao": "11111111 = 255.",
+            "dica": "Todos os bits ligados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale o binário 1100100 em decimal?",
+            "alternativas": [
+              "68",
+              "100",
+              "36",
+              "1.100.100"
+            ],
+            "correta": 1,
+            "explicacao": "64 + 32 + 4 = 100.",
+            "dica": "Posições 64, 32, 16, 8, 4, 2, 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 3 bits, quantos valores diferentes podem ser escritos?",
+            "alternativas": [
+              "8",
+              "6",
+              "9",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "2 × 2 × 2 = 8.",
+            "dica": "Cada bit dobra as possibilidades."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente os valores das posições binárias:",
+            "itens": [
+              "1",
+              "2",
+              "4",
+              "8"
+            ],
+            "explicacao": "Cada posição dobra a anterior.",
+            "dica": "Comece pelo menor."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A letra A é 65 na tabela ASCII. Como fica 65 em binário com 8 bits?",
+            "alternativas": [
+              "01000010",
+              "01000001",
+              "10000001",
+              "01100101"
+            ],
+            "correta": 1,
+            "explicacao": "65 = 64 + 1.",
+            "dica": "Quais potências de 2 somam 65?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 111 + 1 em binário, escrito em decimal?",
+            "alternativas": [
+              "7",
+              "4",
+              "8",
+              "112"
+            ],
+            "correta": 2,
+            "explicacao": "111 = 7; 7 + 1 = 8, que em binário é 1000.",
+            "dica": "Converta antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um número binário termina em 0. O que se pode afirmar sobre ele em decimal?",
+            "alternativas": [
+              "É par",
+              "É maior que 100",
+              "É ímpar",
+              "É zero"
+            ],
+            "correta": 0,
+            "explicacao": "Só a posição 1 pode tornar o número ímpar.",
+            "dica": "Pense na posição que vale 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos bits são necessários, no mínimo, para escrever o número 100?",
+            "alternativas": [
+              "7",
+              "3",
+              "6",
+              "8"
+            ],
+            "correta": 0,
+            "explicacao": "100 = 1100100, com 7 dígitos; 6 bits só chegam a 63.",
+            "dica": "Qual a maior potência de 2 menor que 100?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um arquivo tem 2 KB, considerando 1 KB = 1.024 bytes. Quantos bits ele tem?",
+            "alternativas": [
+              "2.048",
+              "8.192",
+              "2.000",
+              "16.384"
+            ],
+            "correta": 3,
+            "explicacao": "2 × 1.024 = 2.048 bytes; 2.048 × 8 = 16.384 bits.",
+            "dica": "Bytes primeiro, depois vezes 8."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Projeto: jornal da turma em uma página",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Projeto: criar no Word uma página de jornal da turma, com notícias da escola. Ele junta o que você aprendeu: estilos de título, colunas, imagens, caixas de texto, cabeçalho e salvar em PDF.",
+          "Comece pelo cabeçalho do jornal: nome do jornal em letras grandes (por exemplo, Folha do 8º B), data e número da edição. Use Inserir > Cabeçalho ou uma linha de título com estilo Título.",
+          "Para o corpo, divida o texto em colunas: selecione o texto e vá em Layout > Colunas > Duas. Cada notícia tem um título (estilo Título 1 ou 2) e um texto curto que responde o quê, quem, quando, onde e por quê.",
+          "Para imagens, Inserir > Imagens; depois, clique na imagem e em Layout > Quebra de Texto > Quadrado, para o texto contornar a foto. Coloque uma legenda curta embaixo.",
+          "Revise com o corretor ortográfico, confira se tudo coube em uma página e salve em PDF para compartilhar com a turma."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Que seções um jornal da turma pode ter?",
+            "resolucao": "Manchete (a notícia principal), notícias curtas da escola, uma entrevista com um funcionário, agenda de eventos e uma seção de dicas ou curiosidades."
+          },
+          {
+            "enunciado": "A foto empurrou o texto para baixo e a página passou para duas. Como resolver?",
+            "resolucao": "Mudar a Quebra de Texto da foto para Quadrado, diminuir o tamanho da imagem ou encurtar um texto."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Hierarquia visual: a manchete é a maior; títulos das outras notícias, menores; textos, no tamanho normal. O leitor entende a importância de cada notícia pelo tamanho.",
+        "Caixa de texto (Inserir > Caixa de Texto) é útil para destaques, como 'Você sabia?' ou a agenda. Dá para colocar borda e cor de fundo.",
+        "Jornalismo responsável: notícias com fatos verificados, falas entre aspas com o nome de quem falou e autorização para publicar fotos de pessoas, principalmente de colegas. A imagem de alguém é dado pessoal."
+      ],
+      "desafio_pratico": "No Word do PC ou do celular, crie a página de jornal da sua turma. 1) No alto, o nome do jornal (estilo Título), a data e o número da edição. 2) Uma manchete com uma notícia real da escola (o quê, quem, quando, onde e por quê). 3) Mais duas notícias curtas, cada uma com título no estilo Título 2. 4) Coloque o corpo em duas colunas (Layout > Colunas > Duas). 5) Insira uma imagem (desenho seu ou foto sem pessoas identificáveis) com Quebra de Texto > Quadrado e legenda. 6) Uma caixa de texto com a agenda da semana. 7) Confira se tudo coube em uma página, passe o corretor e salve em PDF.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde dividir o texto em colunas?",
+            "alternativas": [
+              "Arquivo > Salvar",
+              "Layout > Colunas",
+              "Revisão > Comentário",
+              "Inserir > Tabela"
+            ],
+            "correta": 1,
+            "explicacao": "Colunas ficam no Layout.",
+            "dica": "É uma opção de layout da página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a manchete?",
+            "alternativas": [
+              "A notícia principal, com o título maior",
+              "A última página",
+              "A data",
+              "O rodapé"
+            ],
+            "correta": 0,
+            "explicacao": "Manchete chama a atenção.",
+            "dica": "É a mais importante."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde inserir uma foto?",
+            "alternativas": [
+              "Página Inicial > Negrito",
+              "Exibir > Régua",
+              "Layout > Margens",
+              "Inserir > Imagens"
+            ],
+            "correta": 3,
+            "explicacao": "Imagens ficam no menu Inserir.",
+            "dica": "Você insere a foto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que formato é melhor compartilhar o jornal pronto?",
+            "alternativas": [
+              "PDF",
+              "Uma foto tremida",
+              "Um áudio",
+              "Só o rascunho"
+            ],
+            "correta": 0,
+            "explicacao": "O PDF mantém o layout.",
+            "dica": "Formato que não bagunça."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que perguntas uma notícia responde?",
+            "alternativas": [
+              "Só onde",
+              "O quê, quem, quando, onde e por quê",
+              "Só quem",
+              "Nenhuma"
+            ],
+            "correta": 1,
+            "explicacao": "São as perguntas básicas da notícia.",
+            "dica": "São cinco perguntas."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fazer o texto contornar a foto?",
+            "alternativas": [
+              "Arquivo > Imprimir",
+              "Revisão > Ortografia",
+              "Layout > Quebra de Texto > Quadrado",
+              "Inserir > Forma"
+            ],
+            "correta": 2,
+            "explicacao": "A quebra de texto define como o texto envolve a imagem.",
+            "dica": "É a quebra de texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual estilo usar para o título de cada notícia?",
+            "alternativas": [
+              "Legenda",
+              "Sem estilo",
+              "Normal",
+              "Título 1 ou Título 2"
+            ],
+            "correta": 3,
+            "explicacao": "Estilos de título criam hierarquia.",
+            "dica": "Estilos que começam com Título."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a caixa de texto no jornal?",
+            "alternativas": [
+              "Para contar palavras",
+              "Para salvar em PDF",
+              "Para destacar informações, como a agenda",
+              "Para apagar a página"
+            ],
+            "correta": 2,
+            "explicacao": "Destaques ficam bem em caixas.",
+            "dica": "Um quadrinho de destaque."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que colocar embaixo de uma foto?",
+            "alternativas": [
+              "Uma legenda curta",
+              "A senha do computador",
+              "Nada nunca",
+              "O texto inteiro"
+            ],
+            "correta": 0,
+            "explicacao": "A legenda explica a imagem.",
+            "dica": "Um pequeno texto explicativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O jornal passou para duas páginas. O que fazer?",
+            "alternativas": [
+              "Diminuir imagens ou encurtar textos",
+              "Colocar mais fotos",
+              "Aumentar todas as fontes",
+              "Desistir do projeto"
+            ],
+            "correta": 0,
+            "explicacao": "O projeto pede uma página.",
+            "dica": "Reduza algo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a manchete deve ser maior que os outros títulos?",
+            "alternativas": [
+              "Para mostrar a hierarquia de importância",
+              "Porque o Word exige",
+              "Para esconder as outras notícias",
+              "Para ocupar espaço"
+            ],
+            "correta": 0,
+            "explicacao": "O tamanho guia o olhar do leitor.",
+            "dica": "O leitor vê primeiro o maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de publicar a foto de um colega no jornal, o que é preciso?",
+            "alternativas": [
+              "Nada",
+              "Só a foto ficar bonita",
+              "Colocar um filtro",
+              "Autorização dele (e da família, quando for o caso)"
+            ],
+            "correta": 3,
+            "explicacao": "Imagem é dado pessoal.",
+            "dica": "Pense na privacidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como escrever a fala de uma entrevistada na notícia?",
+            "alternativas": [
+              "Entre aspas, com o nome de quem falou",
+              "Sem dizer quem falou",
+              "Inventando a fala",
+              "Em letras maiúsculas, sem nome"
+            ],
+            "correta": 0,
+            "explicacao": "Citação precisa de aspas e autoria.",
+            "dica": "Quem disse?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde colocar o nome do jornal e a data para aparecerem no alto da página?",
+            "alternativas": [
+              "Numa nota de rodapé",
+              "No meio do texto",
+              "No rodapé",
+              "No cabeçalho"
+            ],
+            "correta": 3,
+            "explicacao": "O cabeçalho fica no topo.",
+            "dica": "Fica no alto."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a produção do jornal:",
+            "itens": [
+              "Escrever e revisar as notícias",
+              "Montar o cabeçalho com nome e data",
+              "Organizar em colunas e inserir imagens",
+              "Salvar em PDF e compartilhar"
+            ],
+            "explicacao": "Conteúdo, cabeçalho, diagramação e entrega.",
+            "dica": "Compartilhar é o último."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas notícias está mais completa para o jornal?",
+            "alternativas": [
+              "Na sexta, dia 14, o 8º B plantou 20 mudas na horta da escola para o projeto de ciências.",
+              "Alguém plantou umas coisas.",
+              "Teve plantação.",
+              "A horta é legal."
+            ],
+            "correta": 0,
+            "explicacao": "Responde o quê, quem, quando, onde e por quê.",
+            "dica": "Procure as cinco respostas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma notícia diz 'a merenda vai acabar', mas ninguém confirmou com a direção. O que fazer?",
+            "alternativas": [
+              "Inventar uma fonte",
+              "Publicar e apagar depois",
+              "Publicar com letras grandes",
+              "Não publicar até verificar com uma fonte confiável"
+            ],
+            "correta": 3,
+            "explicacao": "Jornalismo responsável verifica antes.",
+            "dica": "Fato ou boato?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O jornal usa 6 tipos de fonte e 8 cores. Qual é o problema?",
+            "alternativas": [
+              "O Word não deixa",
+              "Fica confuso e difícil de ler",
+              "Fica mais profissional",
+              "Nenhum"
+            ],
+            "correta": 1,
+            "explicacao": "Poucas fontes e cores dão unidade.",
+            "dica": "Menos é mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas colunas com uma foto larga no meio da página. Qual quebra de texto evita que a foto cubra as palavras?",
+            "alternativas": [
+              "Atrás do Texto",
+              "Quadrado ou Superior e Inferior",
+              "Nenhuma",
+              "Na Frente do Texto"
+            ],
+            "correta": 1,
+            "explicacao": "Essas opções afastam o texto da imagem.",
+            "dica": "A foto não pode ficar por cima do texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que salvar o .docx além do PDF do jornal?",
+            "alternativas": [
+              "Porque o .docx é menor sempre",
+              "Para poder editar a próxima edição ou corrigir erros",
+              "Não precisa",
+              "Porque o PDF some"
+            ],
+            "correta": 1,
+            "explicacao": "O .docx é o arquivo editável.",
+            "dica": "Qual arquivo se edita?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Pitch: apresentar o negócio em um minuto",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Pitch é uma apresentação curta, de cerca de um minuto, para explicar uma ideia de negócio e convencer quem ouve: um cliente, um investidor, um jurado de feira ou um possível sócio.",
+          "Estrutura de um bom pitch: problema (que dor as pessoas têm?), solução (o que você oferece?), público (para quem?), diferencial (por que você e não o concorrente?), como ganha dinheiro e um pedido final (o que você quer de quem ouve).",
+          "Em um minuto cabem cerca de 130 a 150 palavras faladas. Por isso, cada frase precisa contar. Corte detalhes técnicos e fale de benefícios: em vez de 'nosso aplicativo usa banco de dados', diga 'você encontra o reforço escolar mais perto de casa em dois toques'.",
+          "Comece prendendo a atenção: uma pergunta ('Quantos de vocês já perderam o ônibus por não saber o horário?'), um dado ou uma história curta. Termine com uma frase forte e clara.",
+          "Treine em voz alta, cronometre e peça opinião. Olhar para o público, falar devagar e com segurança vale tanto quanto o conteúdo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva a abertura de um pitch para uma horta comunitária que vende verduras para o bairro.",
+            "resolucao": "'Vocês sabem quanto tempo a alface do mercado viajou até chegar aqui? Na nossa horta, ela é colhida de manhã e chega à sua mesa no mesmo dia.'"
+          },
+          {
+            "enunciado": "Qual pedido final um grupo pode fazer numa feira de ciências?",
+            "resolucao": "'Queremos o apoio da escola para usar o terreno ao lado da quadra e começar a horta no próximo mês.'"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Números dão credibilidade: 'Fizemos uma pesquisa com 80 vizinhos e 60 disseram que comprariam verduras frescas toda semana.' Isso mostra que existe demanda, não só entusiasmo.",
+        "Fale da equipe com honestidade: quem faz o quê e por que o grupo é capaz. Um bom pitch também mostra que o negócio respeita as leis, trata bem quem trabalha nele e paga o justo, o que passa confiança.",
+        "Prepare-se para perguntas: quanto custa começar? Quem são os concorrentes? Como vai crescer? Ter as respostas na ponta da língua mostra que a ideia foi pensada."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um pitch?",
+            "alternativas": [
+              "Um contrato de aluguel",
+              "Uma propaganda de TV de 1 hora",
+              "Um tipo de imposto",
+              "Uma apresentação curta de uma ideia de negócio"
+            ],
+            "correta": 3,
+            "explicacao": "Pitch dura cerca de um minuto.",
+            "dica": "É curto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto tempo dura, em geral, um pitch?",
+            "alternativas": [
+              "1 dia",
+              "1 hora",
+              "Cerca de 1 minuto",
+              "10 segundos sem falar"
+            ],
+            "correta": 2,
+            "explicacao": "É uma apresentação rápida.",
+            "dica": "Pense no título do bloco."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por onde um bom pitch começa?",
+            "alternativas": [
+              "Pelo preço",
+              "Pelo nome dos avós",
+              "Pelo fim",
+              "Pelo problema, prendendo a atenção"
+            ],
+            "correta": 3,
+            "explicacao": "Mostrar a dor faz o público se interessar.",
+            "dica": "Que dor as pessoas têm?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o diferencial?",
+            "alternativas": [
+              "O preço do aluguel",
+              "O que torna sua ideia melhor que a do concorrente",
+              "A cor do logotipo",
+              "O nome do sócio"
+            ],
+            "correta": 1,
+            "explicacao": "É o motivo para escolher você.",
+            "dica": "Por que você e não outro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se preparar para o pitch?",
+            "alternativas": [
+              "Improvisar na hora",
+              "Não treinar",
+              "Ler tudo de costas para o público",
+              "Treinar em voz alta e cronometrar"
+            ],
+            "correta": 3,
+            "explicacao": "Treino traz segurança.",
+            "dica": "Ensaie antes."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas palavras faladas cabem, mais ou menos, em um minuto?",
+            "alternativas": [
+              "500 a 600",
+              "130 a 150",
+              "1.000",
+              "10 a 20"
+            ],
+            "correta": 1,
+            "explicacao": "É a velocidade de uma fala calma.",
+            "dica": "Mais de 100, menos de 200."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase fala de benefício, e não de detalhe técnico?",
+            "alternativas": [
+              "O código tem 3 mil linhas.",
+              "Usamos um servidor com banco de dados.",
+              "O sistema roda em nuvem híbrida.",
+              "Você acha o reforço escolar mais perto de casa em dois toques."
+            ],
+            "correta": 3,
+            "explicacao": "Benefício é o que o cliente ganha.",
+            "dica": "O que o cliente ganha?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma boa abertura de pitch?",
+            "alternativas": [
+              "Quantos de vocês já perderam o ônibus por não saber o horário?",
+              "Bom, é... a gente fez um negócio aí.",
+              "Desculpa, não ensaiei.",
+              "Vou ler tudo rapidinho."
+            ],
+            "correta": 0,
+            "explicacao": "Pergunta que envolve o público.",
+            "dica": "Envolva quem ouve."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o pedido final do pitch?",
+            "alternativas": [
+              "A lista de concorrentes",
+              "O cardápio",
+              "Um pedido de desculpas",
+              "O que você quer de quem ouve"
+            ],
+            "correta": 3,
+            "explicacao": "Pode ser apoio, compra ou investimento.",
+            "dica": "Qual ação você espera?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que olhar para o público durante o pitch?",
+            "alternativas": [
+              "Transmite segurança e cria conexão",
+              "Não importa",
+              "Para não precisar falar",
+              "Para decorar o rosto das pessoas"
+            ],
+            "correta": 0,
+            "explicacao": "A forma de falar também convence.",
+            "dica": "Pense em confiança."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "'60 de 80 vizinhos disseram que comprariam.' Que porcentagem é essa?",
+            "alternativas": [
+              "80%",
+              "60%",
+              "20%",
+              "75%"
+            ],
+            "correta": 3,
+            "explicacao": "60 ÷ 80 = 0,75.",
+            "dica": "Divida 60 por 80."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que mostrar números no pitch?",
+            "alternativas": [
+              "Dão credibilidade e mostram que existe demanda",
+              "Para confundir o jurado",
+              "Porque números são bonitos",
+              "Para ocupar tempo"
+            ],
+            "correta": 0,
+            "explicacao": "Dados provam que há interesse.",
+            "dica": "Pense em provar a demanda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual parte responde 'como o negócio ganha dinheiro'?",
+            "alternativas": [
+              "A cor da placa",
+              "Venda das verduras por assinatura semanal",
+              "A data de fundação",
+              "O nome da horta"
+            ],
+            "correta": 1,
+            "explicacao": "É o modelo de receita.",
+            "dica": "De onde vem o dinheiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um jurado pergunta 'quanto custa começar?'. O que mostra uma boa preparação?",
+            "alternativas": [
+              "Inventar um número qualquer",
+              "Responder com um valor estimado e de onde vem",
+              "Dizer que não sabe e rir",
+              "Mudar de assunto"
+            ],
+            "correta": 1,
+            "explicacao": "Respostas preparadas mostram planejamento.",
+            "dica": "Tenha os números prontos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as partes de um pitch:",
+            "itens": [
+              "Problema",
+              "Solução",
+              "Diferencial e como ganha dinheiro",
+              "Pedido final"
+            ],
+            "explicacao": "Da dor ao pedido.",
+            "dica": "Termina com o pedido."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pitch tem 300 palavras para ser falado em 1 minuto. O que fazer?",
+            "alternativas": [
+              "Falar o dobro mais rápido",
+              "Manter tudo e passar do tempo",
+              "Cortar para cerca de 140 palavras, mantendo problema, solução e pedido",
+              "Tirar o problema e o pedido"
+            ],
+            "correta": 2,
+            "explicacao": "Em 1 minuto cabem cerca de 130 a 150 palavras.",
+            "dica": "Cabe quanto em um minuto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase de pitch passa mais confiança a um investidor sério?",
+            "alternativas": [
+              "Nossa equipe de três pessoas divide tarefas, todos registrados e com pagamento justo.",
+              "Vamos pagar pouco e cobrar muito de quem trabalha.",
+              "Não precisamos de regras.",
+              "Vamos crescer sem registrar ninguém para economizar."
+            ],
+            "correta": 0,
+            "explicacao": "Respeitar a lei e a equipe reduz riscos.",
+            "dica": "Qual reduz o risco do negócio?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A horta custa R$ 600 para começar e terá lucro de R$ 150 por mês. Em quantos meses o investimento volta?",
+            "alternativas": [
+              "6 meses",
+              "150 meses",
+              "2 meses",
+              "4 meses"
+            ],
+            "correta": 3,
+            "explicacao": "600 ÷ 150 = 4.",
+            "dica": "Divida o custo pelo lucro mensal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pitch fala 40 segundos sobre a história dos fundadores e 20 sobre a solução. Qual é o problema?",
+            "alternativas": [
+              "Está curto demais",
+              "Nenhum, está ótimo",
+              "Gasta tempo demais no que menos importa para quem ouve",
+              "Falta a história dos avós"
+            ],
+            "correta": 2,
+            "explicacao": "O foco deve ser problema, solução e benefício.",
+            "dica": "O que o público quer saber?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fechamento é mais forte?",
+            "alternativas": [
+              "Então... é, era isso.",
+              "É isso, acho.",
+              "Obrigado, não sei se ficou bom.",
+              "Com o terreno ao lado da quadra, em um mês o bairro terá verdura fresca. Contamos com vocês?"
+            ],
+            "correta": 3,
+            "explicacao": "Fecha com benefício e pedido claro.",
+            "dica": "Benefício e pedido juntos."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Introdução e conclusão da redação",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Numa redação dissertativa-argumentativa, a introdução apresenta o tema e a tese (a ideia que você vai defender). A conclusão fecha o texto, retomando a tese e propondo uma solução.",
+          "Introdução em três passos: contextualizar o tema (situar o leitor), apresentar a tese e, se quiser, anunciar os argumentos que virão. Ela costuma ter de 3 a 5 linhas.",
+          "Formas de começar: com um dado ('Segundo pesquisas, muitos adolescentes dormem menos de 7 horas'), uma pergunta, uma citação de alguém conhecido, uma definição ou um fato histórico.",
+          "Conclusão: retome a tese com outras palavras e apresente uma proposta de solução. Uma boa proposta diz quem faz (agente), o que faz (ação), como faz (meio) e para quê (finalidade). Não traga argumentos novos na conclusão."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Escreva uma introdução sobre o uso do celular nas escolas.",
+            "resolucao": "'O celular faz parte da vida dos jovens e chegou também às salas de aula. No entanto, o uso sem regras prejudica a atenção e a aprendizagem. Por isso, é necessário que as escolas definam limites claros, permitindo o aparelho apenas em atividades planejadas.'"
+          },
+          {
+            "enunciado": "Monte uma proposta de solução completa sobre o desperdício de água na escola.",
+            "resolucao": "'A direção da escola (agente) deve criar uma campanha de economia de água (ação) por meio de cartazes feitos pelos alunos e da revisão das torneiras (meio), a fim de reduzir o desperdício e a conta mensal (finalidade).'"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A tese precisa ser clara e defensável. 'O celular é um assunto importante' não é tese; 'o uso do celular na escola deve ter regras claras' é, porque toma posição.",
+        "Introdução e conclusão conversam: a conclusão retoma a tese da introdução, fechando o círculo. Se a introdução defendeu regras para o celular, a conclusão não pode dizer que ele deve ser proibido de vez.",
+        "No Enem, a proposta de intervenção deve respeitar os direitos humanos e ser detalhada. Propostas vagas como 'o governo deve fazer algo' perdem força; detalhes como o meio e a finalidade dão concretude."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a introdução apresenta?",
+            "alternativas": [
+              "O tema e a tese",
+              "Só a assinatura",
+              "A bibliografia",
+              "A proposta de solução final"
+            ],
+            "correta": 0,
+            "explicacao": "Ela situa o leitor e mostra a posição.",
+            "dica": "O começo apresenta o assunto e a posição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a tese?",
+            "alternativas": [
+              "O título",
+              "A ideia que o texto defende",
+              "O nome do autor",
+              "Uma pergunta sem resposta"
+            ],
+            "correta": 1,
+            "explicacao": "Tese é a posição do autor.",
+            "dica": "A opinião principal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que a conclusão faz?",
+            "alternativas": [
+              "Retoma a tese e propõe uma solução",
+              "Repete o título",
+              "Lista palavras difíceis",
+              "Começa um assunto novo"
+            ],
+            "correta": 0,
+            "explicacao": "Fecha o texto.",
+            "dica": "É o fechamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma forma de começar a introdução?",
+            "alternativas": [
+              "Com um dado ou uma pergunta",
+              "Com uma lista de compras",
+              "Com a conclusão",
+              "Com 'Era uma vez'"
+            ],
+            "correta": 0,
+            "explicacao": "Dado, pergunta, citação ou definição.",
+            "dica": "Algo que prenda o leitor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A conclusão deve trazer argumentos novos?",
+            "alternativas": [
+              "Só se sobrar espaço",
+              "Sim, muitos",
+              "Sim, só no fim",
+              "Não"
+            ],
+            "correta": 3,
+            "explicacao": "Argumentos ficam no desenvolvimento.",
+            "dica": "Ela fecha, não abre."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas frases é uma tese?",
+            "alternativas": [
+              "O uso do celular na escola deve ter regras claras.",
+              "Celulares têm tela.",
+              "Existem celulares.",
+              "O celular é um assunto."
+            ],
+            "correta": 0,
+            "explicacao": "Tese toma posição.",
+            "dica": "Qual toma posição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as partes de uma boa proposta de solução?",
+            "alternativas": [
+              "Agente, ação, meio e finalidade",
+              "Começo, meio e fim de uma história",
+              "Título, data e assinatura",
+              "Rima, verso e estrofe"
+            ],
+            "correta": 0,
+            "explicacao": "Quem faz, o que faz, como e para quê.",
+            "dica": "Quem, o quê, como e para quê."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas linhas costuma ter a introdução?",
+            "alternativas": [
+              "Uma palavra",
+              "De 3 a 5 linhas",
+              "30 linhas",
+              "Duas páginas"
+            ],
+            "correta": 1,
+            "explicacao": "É um parágrafo curto.",
+            "dica": "Um parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 'A direção da escola deve criar uma campanha', qual é o agente?",
+            "alternativas": [
+              "A escola inteira de outro bairro",
+              "Uma campanha",
+              "Deve criar",
+              "A direção da escola"
+            ],
+            "correta": 3,
+            "explicacao": "Agente é quem faz a ação.",
+            "dica": "Quem vai agir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o papel de 'a fim de reduzir o desperdício' numa proposta?",
+            "alternativas": [
+              "Ação",
+              "Meio",
+              "Finalidade",
+              "Agente"
+            ],
+            "correta": 2,
+            "explicacao": "A fim de indica o objetivo.",
+            "dica": "Para quê?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A introdução defende regras para o celular. Qual conclusão combina?",
+            "alternativas": [
+              "Celulares são caros.",
+              "A escola deveria ter piscina.",
+              "Assim, regras claras permitem aproveitar o celular sem prejudicar a aula.",
+              "Portanto, o celular deve ser proibido para sempre."
+            ],
+            "correta": 2,
+            "explicacao": "A conclusão retoma a mesma tese.",
+            "dica": "Mantenha a mesma posição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual proposta está mais completa?",
+            "alternativas": [
+              "Todos devem melhorar.",
+              "Alguém precisa fazer algo.",
+              "O governo deve resolver.",
+              "A prefeitura deve instalar lixeiras de reciclagem nas escolas, com apoio de cooperativas, para reduzir o lixo nas ruas."
+            ],
+            "correta": 3,
+            "explicacao": "Tem agente, ação, meio e finalidade.",
+            "dica": "Procure os quatro elementos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "'Segundo pesquisas, muitos adolescentes dormem menos de 7 horas.' Que estratégia de introdução é essa?",
+            "alternativas": [
+              "Começar com uma piada",
+              "Começar com uma pergunta",
+              "Começar com um dado",
+              "Começar com uma definição"
+            ],
+            "correta": 2,
+            "explicacao": "Usa informação de pesquisa.",
+            "dica": "Tem informação de pesquisa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que 'o celular é um assunto importante' não é uma boa tese?",
+            "alternativas": [
+              "Tem erro de ortografia",
+              "É longa demais",
+              "Fala de tecnologia",
+              "Não toma posição sobre o tema"
+            ],
+            "correta": 3,
+            "explicacao": "Tese precisa ser defensável.",
+            "dica": "Ela defende alguma coisa?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a introdução:",
+            "itens": [
+              "O celular faz parte da vida dos jovens.",
+              "Ele chegou às salas de aula.",
+              "No entanto, o uso sem regras atrapalha a aprendizagem.",
+              "Por isso, as escolas devem definir limites claros."
+            ],
+            "explicacao": "Contexto, ligação, problema e tese.",
+            "dica": "A tese fecha a introdução."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual proposta respeita os direitos humanos e é detalhada?",
+            "alternativas": [
+              "Os alunos que usam celular devem ser expulsos.",
+              "O Ministério da Saúde deve ampliar campanhas sobre o sono nas escolas, com palestras e materiais digitais, para melhorar a saúde dos estudantes.",
+              "Quem dorme pouco deve ser punido.",
+              "O governo deve fazer alguma coisa."
+            ],
+            "correta": 1,
+            "explicacao": "Detalhada e sem violar direitos.",
+            "dica": "Elimine as punições e as vagas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma conclusão diz: 'Além disso, outro problema é o barulho na sala.' Qual é o erro?",
+            "alternativas": [
+              "Usa a palavra além",
+              "Não tem vírgula",
+              "Está curta demais",
+              "Traz um argumento novo na conclusão"
+            ],
+            "correta": 3,
+            "explicacao": "Argumento novo deveria estar no desenvolvimento.",
+            "dica": "A conclusão abre ou fecha?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual introdução anuncia os argumentos que virão?",
+            "alternativas": [
+              "Muitos alunos.",
+              "A evasão escolar preocupa o país, seja pela necessidade de trabalhar cedo, seja pela falta de interesse nas aulas.",
+              "Escola é bom.",
+              "A evasão escolar existe."
+            ],
+            "correta": 1,
+            "explicacao": "Seja... seja apresenta dois argumentos.",
+            "dica": "Procure duas causas anunciadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na proposta 'por meio de cartazes feitos pelos alunos', qual elemento aparece?",
+            "alternativas": [
+              "Finalidade",
+              "Meio",
+              "Agente",
+              "Tese"
+            ],
+            "correta": 1,
+            "explicacao": "Por meio de indica como será feito.",
+            "dica": "Como?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a conclusão deve retomar a tese com outras palavras?",
+            "alternativas": [
+              "Porque é proibido usar as mesmas palavras do título",
+              "Para aumentar o número de linhas",
+              "Para fechar o texto sem repetir frases e mostrar coerência",
+              "Para confundir o leitor"
+            ],
+            "correta": 2,
+            "explicacao": "Retomar com outras palavras mostra domínio.",
+            "dica": "Coerência sem repetição."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Um minuto para convencer",
+    "texto": "A feira de ciências da escola tinha regra clara: cada grupo teria um minuto para apresentar sua ideia de negócio aos jurados. Nem um segundo a mais. A Yasmin e o Caio tinham uma ideia de que gostavam muito: um mural digital no corredor com os horários dos ônibus do bairro, atualizados por voluntários.\n\nNo primeiro ensaio, o Caio falou por três minutos. Explicou o programa, o tipo de tela, o nome do aplicativo que tinham testado. A professora Glória ouviu com paciência e perguntou:\n\n— E qual é o problema que vocês resolvem?\n\nOs dois se olharam. Tinham pensado tanto na solução que esqueceram de começar pelo problema.\n\nReescreveram tudo. A nova versão começava com uma pergunta ao público: quantos ali já tinham perdido o ônibus por não saber o horário? Depois vinha um dado da pesquisa que fizeram com a turma: 70 de 100 alunos já tinham chegado atrasados por isso. Em seguida, a solução em uma frase, o custo para começar e o pedido final: autorização para instalar o mural.\n\nCronometraram dez vezes. Cortaram palavras difíceis, trocaram explicações técnicas por benefícios e treinaram olhar para a plateia em vez de para o papel.\n\nNo dia da feira, a Yasmin abriu com a pergunta, e metade dos jurados levantou a mão. O Caio fechou com uma frase que tinham escrito juntos: chegar na hora não pode depender de sorte.\n\nO cronômetro marcou cinquenta e oito segundos. O mural foi instalado no mês seguinte."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva o pitch de um negócio que você abriria (pode ser no futuro, quando tiver idade, ou como projeto da escola). Comece com uma abertura que prenda a atenção (uma pergunta, um dado ou uma história curta), apresente o problema, a solução e o diferencial, e termine com um fechamento que convença e um pedido claro. Leia em voz alta e veja se cabe em um minuto."
+  }
+}

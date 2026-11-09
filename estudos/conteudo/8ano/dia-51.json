@@ -1,0 +1,1205 @@
+{
+  "dia": 51,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Áreas do trapézio, do losango e do círculo",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Área é o tamanho da superfície, medida em unidades quadradas (cm², m²). Você já sabe a do retângulo (base × altura) e a do triângulo (base × altura ÷ 2). Hoje entram mais três figuras.",
+          "Trapézio: tem dois lados paralelos, a base maior (B) e a base menor (b). A área é (B + b) × h ÷ 2, em que h é a altura, a distância entre as bases. É como tirar a média das bases e multiplicar pela altura.",
+          "Losango: tem quatro lados iguais e duas diagonais, a maior (D) e a menor (d). A área é D × d ÷ 2. Isso acontece porque o losango ocupa exatamente metade do retângulo desenhado em volta dele.",
+          "Círculo: a área é π × r², em que r é o raio (do centro até a borda) e π vale cerca de 3,14. Cuidado: se o problema der o diâmetro, divida por 2 antes para achar o raio.",
+          "Dica de ouro: sempre confira se todas as medidas estão na mesma unidade antes de calcular, e escreva a unidade ao quadrado na resposta."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um canteiro em forma de trapézio tem bases de 10 m e 6 m e altura de 4 m. Qual é a área?",
+            "resolucao": "(10 + 6) × 4 ÷ 2 = 16 × 4 ÷ 2 = 64 ÷ 2 = 32 m²."
+          },
+          {
+            "enunciado": "Uma pizza tem 30 cm de diâmetro. Qual é a área? (use π = 3,14)",
+            "resolucao": "Raio = 30 ÷ 2 = 15 cm. Área = 3,14 × 15² = 3,14 × 225 = 706,5 cm²."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Figuras compostas: divida em partes conhecidas e some. Uma janela formada por um quadrado de 6 m de lado com meio círculo de raio 3 m em cima tem área 6 × 6 + 3,14 × 3² ÷ 2 = 36 + 14,13 = 50,13 m².",
+        "Para tirar um pedaço, subtraia. Uma coroa circular (o anel entre dois círculos com o mesmo centro) tem área π × R² − π × r². Com R = 5 e r = 3: 3,14 × (25 − 9) = 3,14 × 16 = 50,24.",
+        "Dobrar o raio não dobra a área: ela fica 4 vezes maior, porque o raio entra ao quadrado. Um círculo de raio 2 tem área 4π; o de raio 4 tem 16π."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fórmula da área do losango?",
+            "alternativas": [
+              "D × d",
+              "4 × lado",
+              "D + d",
+              "D × d ÷ 2"
+            ],
+            "correta": 3,
+            "explicacao": "O losango é metade do retângulo de lados D e d.",
+            "dica": "Pense na metade de um retângulo feito com as diagonais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No círculo, o que é o raio?",
+            "alternativas": [
+              "A distância do centro até a borda",
+              "A área do círculo",
+              "A distância de uma borda à outra passando pelo centro",
+              "A borda inteira"
+            ],
+            "correta": 0,
+            "explicacao": "De borda a borda pelo centro é o diâmetro, que vale dois raios.",
+            "dica": "Começa no centro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale π, aproximadamente?",
+            "alternativas": [
+              "3,14",
+              "2",
+              "31,4",
+              "0,314"
+            ],
+            "correta": 0,
+            "explicacao": "π é um pouco mais que 3.",
+            "dica": "É um pouco mais que três."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um losango tem diagonais de 8 cm e 6 cm. Qual é a área?",
+            "alternativas": [
+              "48 cm²",
+              "24 cm²",
+              "14 cm²",
+              "28 cm²"
+            ],
+            "correta": 1,
+            "explicacao": "8 × 6 = 48 e 48 ÷ 2 = 24.",
+            "dica": "Multiplique as diagonais e divida por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trapézio tem bases 10 cm e 6 cm e altura 4 cm. Qual é a área?",
+            "alternativas": [
+              "20 cm²",
+              "240 cm²",
+              "32 cm²",
+              "64 cm²"
+            ],
+            "correta": 2,
+            "explicacao": "(10 + 6) × 4 ÷ 2 = 32.",
+            "dica": "Some as bases, vezes a altura, dividido por 2."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trapézio tem bases 12 m e 8 m e altura 5 m. Qual é a área?",
+            "alternativas": [
+              "100 m²",
+              "25 m²",
+              "480 m²",
+              "50 m²"
+            ],
+            "correta": 3,
+            "explicacao": "(12 + 8) × 5 ÷ 2 = 20 × 5 ÷ 2 = 50.",
+            "dica": "Comece somando as duas bases."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um círculo de raio 3 cm? (π = 3,14)",
+            "alternativas": [
+              "28,26 cm²",
+              "18,84 cm²",
+              "9,42 cm²",
+              "56,52 cm²"
+            ],
+            "correta": 0,
+            "explicacao": "3,14 × 3² = 3,14 × 9 = 28,26. O 18,84 é o comprimento da borda, não a área.",
+            "dica": "Eleve o raio ao quadrado antes de multiplicar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um círculo tem 8 cm de diâmetro. Qual é a área? (π = 3,14)",
+            "alternativas": [
+              "200,96 cm²",
+              "100,48 cm²",
+              "50,24 cm²",
+              "25,12 cm²"
+            ],
+            "correta": 2,
+            "explicacao": "Raio = 4. 3,14 × 16 = 50,24. Quem usa 8 como raio chega a 200,96.",
+            "dica": "Primeiro descubra o raio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pipa em forma de losango tem diagonais de 10 dm e 7 dm. Qual é a área?",
+            "alternativas": [
+              "17 dm²",
+              "70 dm²",
+              "35 dm²",
+              "34 dm²"
+            ],
+            "correta": 2,
+            "explicacao": "10 × 7 ÷ 2 = 35.",
+            "dica": "Diagonais multiplicadas, depois a metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que unidade fica a área se as medidas estão em metros?",
+            "alternativas": [
+              "km",
+              "m³",
+              "m²",
+              "m"
+            ],
+            "correta": 2,
+            "explicacao": "Área é medida em unidades quadradas.",
+            "dica": "Área tem duas dimensões."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma praça redonda tem 10 m de raio. Quantos m² de grama cobrem a praça toda? (π = 3,14)",
+            "alternativas": [
+              "314 m²",
+              "31,4 m²",
+              "3.140 m²",
+              "62,8 m²"
+            ],
+            "correta": 0,
+            "explicacao": "3,14 × 10² = 3,14 × 100 = 314.",
+            "dica": "Raio ao quadrado, vezes π."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trapézio tem área 42 m², bases 9 m e 5 m. Qual é a altura?",
+            "alternativas": [
+              "4,2 m",
+              "3 m",
+              "6 m",
+              "7 m"
+            ],
+            "correta": 2,
+            "explicacao": "(9 + 5) × h ÷ 2 = 42 → 7 × h = 42 → h = 6.",
+            "dica": "Monte a fórmula e descubra o h."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um losango tem área 120 cm² e diagonal maior 20 cm. Quanto mede a diagonal menor?",
+            "alternativas": [
+              "12 cm",
+              "6 cm",
+              "10 cm",
+              "24 cm"
+            ],
+            "correta": 0,
+            "explicacao": "20 × d ÷ 2 = 120 → 10 × d = 120 → d = 12.",
+            "dica": "Metade de 20 vezes d dá a área."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma mesa redonda tem 1,2 m de diâmetro. Qual é a área do tampo? (π = 3,14)",
+            "alternativas": [
+              "0,36 m²",
+              "1,1304 m²",
+              "4,5216 m²",
+              "3,768 m²"
+            ],
+            "correta": 1,
+            "explicacao": "Raio 0,6; 0,6² = 0,36; 3,14 × 0,36 = 1,1304.",
+            "dica": "Raio é metade do diâmetro; depois eleve ao quadrado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno em forma de trapézio tem bases de 20 m e 14 m e altura de 10 m. O metro quadrado custa R$ 100. Quanto custa o terreno?",
+            "alternativas": [
+              "R$ 34.000",
+              "R$ 3.400",
+              "R$ 17.000",
+              "R$ 28.000"
+            ],
+            "correta": 2,
+            "explicacao": "(20 + 14) × 10 ÷ 2 = 170 m²; 170 × 100 = 17.000.",
+            "dica": "Calcule a área e depois multiplique pelo preço."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma placa quadrada de 12 cm de lado tem um furo redondo de 6 cm de raio. Qual é a área que sobra? (π = 3,14)",
+            "alternativas": [
+              "30,96 cm²",
+              "36,96 cm²",
+              "113,04 cm²",
+              "125,04 cm²"
+            ],
+            "correta": 0,
+            "explicacao": "144 − 3,14 × 36 = 144 − 113,04 = 30,96.",
+            "dica": "Área do quadrado menos a do furo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o raio de um círculo triplica, a área fica:",
+            "alternativas": [
+              "9 vezes maior",
+              "igual",
+              "3 vezes maior",
+              "6 vezes maior"
+            ],
+            "correta": 0,
+            "explicacao": "O raio entra ao quadrado: 3² = 9.",
+            "dica": "O raio está ao quadrado na fórmula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma janela é um quadrado de 6 m de lado com meio círculo de raio 3 m em cima. Qual é a área total? (π = 3,14)",
+            "alternativas": [
+              "64,26 m²",
+              "45,42 m²",
+              "50,13 m²",
+              "36 m²"
+            ],
+            "correta": 2,
+            "explicacao": "36 + 3,14 × 9 ÷ 2 = 36 + 14,13 = 50,13.",
+            "dica": "Lembre que é só metade do círculo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um anel tem raio externo 5 cm e interno 3 cm. Qual é a área do anel? (π = 3,14)",
+            "alternativas": [
+              "6,28 cm²",
+              "12,56 cm²",
+              "78,5 cm²",
+              "50,24 cm²"
+            ],
+            "correta": 3,
+            "explicacao": "3,14 × (25 − 9) = 3,14 × 16 = 50,24. Errado seria fazer 3,14 × (5 − 3)².",
+            "dica": "Subtraia as áreas, não os raios."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um papiro egípcio calculava a área do círculo como um quadrado de lado igual a 8/9 do diâmetro. Para diâmetro 9, que área esse método dá?",
+            "alternativas": [
+              "64",
+              "72",
+              "63,585",
+              "81"
+            ],
+            "correta": 0,
+            "explicacao": "8/9 de 9 = 8; 8² = 64. Com π = 3,14 daria 63,585: o método antigo errava pouco.",
+            "dica": "Ache o lado do quadrado e eleve ao quadrado."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Renda dentro da lei: talentos e jovem aprendiz a partir dos 14",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "No Brasil, a Constituição de 1988 proíbe qualquer trabalho para quem tem menos de 16 anos, com uma exceção: a partir dos 14, a pessoa pode ser jovem aprendiz. Para menores de 18, é proibido trabalho noturno, perigoso ou insalubre (que faz mal à saúde).",
+          "O jovem aprendiz tem carteira assinada, salário, horário compatível com a escola e um curso de formação profissional junto com a prática. Para quem ainda não terminou a escola, continuar estudando é condição do contrato.",
+          "Antes dos 14, o trabalho da criança é estudar e desenvolver talentos: desenhar, programar, escrever, falar inglês, tocar um instrumento. Esses talentos viram renda mais tarde, dentro da lei, e quem treina cedo chega mais preparado.",
+          "A partir dos 16, a pessoa pode ter outros empregos com carteira assinada, mas continua proibida de trabalhar à noite e em atividade perigosa ou insalubre até os 18. O estágio é outra porta: liga o estudante do ensino médio, técnico ou faculdade a uma empresa para aprender.",
+          "Desconfie de propostas que pedem para largar a escola, pagar para conseguir a vaga ou trabalhar escondido sem registro. Isso não é oportunidade: é risco."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Bia tem 14 anos e quer trabalhar. O que a lei permite?",
+            "resolucao": "Ela pode ser jovem aprendiz, com carteira assinada, curso de formação e horário que respeite a escola. Outro tipo de emprego, só a partir dos 16."
+          },
+          {
+            "enunciado": "Um aprendiz ganha, de exemplo, R$ 9 por hora, trabalha 4 horas por dia e 20 dias no mês. Quanto recebe?",
+            "resolucao": "9 × 4 = 36 por dia; 36 × 20 = R$ 720 no mês (antes de qualquer desconto)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Dinheiro do primeiro salário também se planeja: uma parte para ajudar em casa, se a família combinar, uma parte guardada (reserva) e uma parte para os seus objetivos. Separar antes de gastar evita chegar ao fim do mês sem nada.",
+        "Investir em si mesmo rende: um curso técnico gratuito, um certificado de informática ou um idioma podem aumentar o salário futuro mais do que qualquer aplicação. Escolas técnicas públicas de São Paulo oferecem cursos sem mensalidade.",
+        "O ECA (Estatuto da Criança e do Adolescente) reforça essas regras: o adolescente aprendiz tem direito à proteção no trabalho, e quem empregar criança fora da lei pode ser multado e processado."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A partir de que idade a pessoa pode ser jovem aprendiz?",
+            "alternativas": [
+              "10 anos",
+              "14 anos",
+              "18 anos",
+              "12 anos"
+            ],
+            "correta": 1,
+            "explicacao": "A Constituição permite o trabalho como aprendiz a partir dos 14.",
+            "dica": "São dois anos antes dos 16."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O jovem aprendiz tem carteira assinada?",
+            "alternativas": [
+              "Não",
+              "Só depois dos 18",
+              "Sim",
+              "Só se pedir"
+            ],
+            "correta": 2,
+            "explicacao": "O aprendiz é empregado com registro.",
+            "dica": "Pense em trabalho dentro da lei."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes dos 14 anos, qual é o principal trabalho da criança?",
+            "alternativas": [
+              "Fazer turno da noite",
+              "Estudar e desenvolver talentos",
+              "Trabalhar numa fábrica",
+              "Vender na rua sozinha"
+            ],
+            "correta": 1,
+            "explicacao": "Antes dos 14, a lei proíbe qualquer trabalho.",
+            "dica": "O que acontece na escola?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Menores de 18 anos podem trabalhar à noite?",
+            "alternativas": [
+              "Não, é proibido",
+              "Sim, se quiserem",
+              "Sim, sempre",
+              "Só nos fins de semana"
+            ],
+            "correta": 0,
+            "explicacao": "A Constituição proíbe trabalho noturno para menores de 18.",
+            "dica": "Existe uma proteção especial para menores de 18."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O aprendiz precisa continuar estudando?",
+            "alternativas": [
+              "Não, pode largar",
+              "Sim, se ainda não terminou a escola",
+              "Só nas férias",
+              "Só se o chefe mandar"
+            ],
+            "correta": 1,
+            "explicacao": "A escola é condição do contrato de aprendizagem.",
+            "dica": "Aprendiz combina trabalho e estudo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aprendiz ganha R$ 9 por hora, 4 horas por dia, 20 dias. Quanto recebe no mês?",
+            "alternativas": [
+              "R$ 180",
+              "R$ 720",
+              "R$ 900",
+              "R$ 360"
+            ],
+            "correta": 1,
+            "explicacao": "9 × 4 × 20 = 720.",
+            "dica": "Valor por hora vezes horas vezes dias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas propostas para um garoto de 15 anos é ilegal?",
+            "alternativas": [
+              "Aprendiz numa loja de dia, com carteira",
+              "Jovem aprendiz num escritório",
+              "Ajudante numa obra à noite, sem registro",
+              "Curso técnico gratuito"
+            ],
+            "correta": 2,
+            "explicacao": "Noturno, perigoso e sem registro: três problemas.",
+            "dica": "Procure o que é noturno ou perigoso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa trabalho insalubre?",
+            "alternativas": [
+              "Trabalho com salário alto",
+              "Trabalho que faz mal à saúde",
+              "Trabalho de meio período",
+              "Trabalho em casa"
+            ],
+            "correta": 1,
+            "explicacao": "Insalubre vem de 'não saudável'.",
+            "dica": "Salubre quer dizer saudável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com quantos anos começa a ser permitido emprego comum, além do de aprendiz?",
+            "alternativas": [
+              "12 anos",
+              "21 anos",
+              "16 anos",
+              "14 anos"
+            ],
+            "correta": 2,
+            "explicacao": "Dos 14 aos 16, só como aprendiz.",
+            "dica": "É dois anos depois da idade do aprendiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma empresa pede R$ 200 para garantir uma vaga de aprendiz. O que pensar?",
+            "alternativas": [
+              "É sinal de golpe; vaga séria não cobra",
+              "Deve pagar rápido",
+              "É normal, todos cobram",
+              "Vale a pena pedir emprestado"
+            ],
+            "correta": 0,
+            "explicacao": "Programa de aprendizagem não cobra do candidato.",
+            "dica": "Quem paga quem numa vaga de emprego?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia recebe R$ 800 como aprendiz e separa 25% para guardar. Quanto guarda por mês?",
+            "alternativas": [
+              "R$ 25",
+              "R$ 80",
+              "R$ 250",
+              "R$ 200"
+            ],
+            "correta": 3,
+            "explicacao": "25% = 1/4; 800 ÷ 4 = 200.",
+            "dica": "25% é um quarto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação respeita a lei para um aprendiz de 15 anos?",
+            "alternativas": [
+              "Trabalhar até meia-noite e faltar na escola",
+              "Trabalhar sem registro para ganhar mais",
+              "Trabalhar com produtos tóxicos",
+              "Trabalhar de manhã e estudar à tarde, com curso de formação"
+            ],
+            "correta": 3,
+            "explicacao": "Horário diurno, escola mantida e formação.",
+            "dica": "Elimine o que é noturno, perigoso ou sem registro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a lei protege mais quem tem menos de 18?",
+            "alternativas": [
+              "Porque o adolescente ainda está crescendo e estudando",
+              "Porque adolescentes ganham menos",
+              "Porque empresas não gostam de jovens",
+              "Por nenhum motivo"
+            ],
+            "correta": 0,
+            "explicacao": "A proteção cuida da saúde e da educação.",
+            "dica": "Pense no corpo e na escola."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rui, 17 anos, recebeu oferta de vigia noturno. Ele pode aceitar?",
+            "alternativas": [
+              "Sim, porque tem mais de 16",
+              "Sim, se ganhar bem",
+              "Sim, se os pais deixarem",
+              "Não, trabalho noturno é proibido para menores de 18"
+            ],
+            "correta": 3,
+            "explicacao": "A partir dos 16 pode trabalhar, mas nunca à noite antes dos 18.",
+            "dica": "Uma das proibições vale para todos os menores de 18."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aprendiz ganha R$ 720 e gasta R$ 180 com transporte que a empresa não paga. Quanto sobra, em porcentagem do salário?",
+            "alternativas": [
+              "75%",
+              "25%",
+              "80%",
+              "18%"
+            ],
+            "correta": 0,
+            "explicacao": "720 − 180 = 540; 540 ÷ 720 = 0,75 = 75%.",
+            "dica": "Subtraia e divida pelo salário."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Que lei principal garante a proibição do trabalho antes dos 16, salvo aprendiz a partir dos 14?",
+            "alternativas": [
+              "A LGPD",
+              "O Código de Trânsito",
+              "O Código de Defesa do Consumidor",
+              "A Constituição de 1988"
+            ],
+            "correta": 3,
+            "explicacao": "A regra está na Constituição e é reforçada pelo ECA e pela CLT.",
+            "dica": "É a lei mais importante do país."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de um curso de informática, Ana passa a ganhar R$ 300 a mais por mês. Em quantos meses recupera R$ 900 gastos com material?",
+            "alternativas": [
+              "30 meses",
+              "3 meses",
+              "9 meses",
+              "1 mês"
+            ],
+            "correta": 1,
+            "explicacao": "900 ÷ 300 = 3.",
+            "dica": "Divida o gasto pelo ganho extra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor ordem para usar o primeiro salário?",
+            "alternativas": [
+              "Emprestar para amigos",
+              "Separar a reserva e os combinados primeiro, depois gastar",
+              "Gastar tudo e guardar o que sobrar",
+              "Pedir adiantamento"
+            ],
+            "correta": 1,
+            "explicacao": "Separar antes de gastar garante que a reserva aconteça.",
+            "dica": "O que vem antes: guardar ou gastar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um adulto coloca um menino de 13 anos para vender doces na rua todos os dias e fica com o lucro. Isso é:",
+            "alternativas": [
+              "Empreendedorismo legal",
+              "Trabalho infantil proibido",
+              "Estágio",
+              "Jovem aprendiz"
+            ],
+            "correta": 1,
+            "explicacao": "Menor de 14 não pode trabalhar; o adulto que o explora pode responder na Justiça.",
+            "dica": "Qual é a idade mínima para qualquer trabalho?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem, da menor para a maior idade, o que a lei permite:",
+            "itens": [
+              "Só estudar e desenvolver talentos",
+              "Jovem aprendiz (14 anos)",
+              "Emprego comum, sem noite nem perigo (16 anos)",
+              "Qualquer trabalho legal, inclusive noturno (18 anos)"
+            ],
+            "explicacao": "14, 16 e 18 são as idades-chave.",
+            "dica": "Comece pela infância."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Projeto quiz: programar e testar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "No último projeto, você planejou o quiz. Hoje ele vira código de verdade:\nperguntas = [['Quanto é 7 x 8?', '56'], ['Quantos lados tem um hexágono?', '6'], ['Qual é a capital da Bahia?', 'salvador']]\npontos = 0\nfor p in perguntas:\n    resposta = input(p[0] + ' ')\n    if resposta.strip().lower() == p[1]:\n        pontos = pontos + 10\n        print('Certo!')\n    else:\n        print('Errou. A resposta era', p[1])\nprint('Total:', pontos)",
+          "Programar é metade do trabalho. A outra metade é testar: rodar o programa várias vezes, de propósito, com respostas diferentes, para ver se ele se comporta como deveria.",
+          "Monte casos de teste: acertar tudo (deve dar 30), errar tudo (deve dar 0), acertar só uma (deve dar 10) e responder com espaço ou maiúscula, como ' SALVADOR ' (deve contar como certo).",
+          "Quando o resultado não bate com o esperado, há um bug (erro). Leia a linha suspeita, imagine o computador executando passo a passo e corrija. Depois, rode todos os testes de novo.",
+          "Um bug clássico: escrever pontos = 0 dentro do laço. Assim, a cada pergunta os pontos voltam a zero, e o total nunca passa de 10."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O teste 'acertar tudo' deu 10 em vez de 30. Qual o provável bug?",
+            "resolucao": "A linha pontos = 0 está dentro do for, zerando a cada volta. Ela deve ficar antes do laço."
+          },
+          {
+            "enunciado": "A resposta certa '56' foi digitada e o programa disse que errou. O código tinha p[1] guardado como 56 (sem aspas). Por quê?",
+            "resolucao": "input() devolve texto ('56') e a lista tinha o número 56. Texto e número nunca são iguais. Guarde as respostas entre aspas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Teste de borda: e se o jogador apertar Enter sem digitar nada? resposta fica '' (texto vazio), que não é igual à resposta certa, então conta como erro. O programa não quebra, e isso é bom.",
+        "Contar acertos separados dos pontos ajuda no relatório final: acertos = acertos + 1 dentro do if, e no fim print(acertos, 'de', len(perguntas)).",
+        "Uma tabela de testes organiza o trabalho: entrada, resultado esperado, resultado obtido e se passou. Programadores profissionais automatizam isso, mas a ideia é a mesma: nunca confie num programa que você não testou."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que servem os testes?",
+            "alternativas": [
+              "Para ver se o programa faz o que deveria",
+              "Para apagar o código",
+              "Para deixar o programa mais bonito",
+              "Para escrever as perguntas"
+            ],
+            "correta": 0,
+            "explicacao": "Testar é conferir o comportamento.",
+            "dica": "Pense em conferir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama um erro no programa?",
+            "alternativas": [
+              "Variável",
+              "Lista",
+              "Laço",
+              "Bug"
+            ],
+            "correta": 3,
+            "explicacao": "Bug significa inseto em inglês; virou nome de erro.",
+            "dica": "É uma palavra inglesa de três letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 3 perguntas de 10 pontos, acertar tudo deve dar:",
+            "alternativas": [
+              "30",
+              "10",
+              "300",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "3 × 10 = 30.",
+            "dica": "Multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde deve ficar pontos = 0?",
+            "alternativas": [
+              "Depois do print final",
+              "Dentro do laço",
+              "Antes do laço",
+              "Em lugar nenhum"
+            ],
+            "correta": 2,
+            "explicacao": "Fora do laço, para zerar só uma vez.",
+            "dica": "Deve acontecer uma vez só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Errar todas as perguntas deve dar quantos pontos?",
+            "alternativas": [
+              "−10",
+              "10",
+              "30",
+              "0"
+            ],
+            "correta": 3,
+            "explicacao": "Nenhum acerto, nenhum ponto.",
+            "dica": "Sem acerto, sem soma."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O jogador digita ' SALVADOR '. Com strip().lower(), o programa compara:",
+            "alternativas": [
+              "' SALVADOR '",
+              "'salvador'",
+              "'SALVADOR'",
+              "' salvador '"
+            ],
+            "correta": 1,
+            "explicacao": "strip tira os espaços, lower deixa minúsculo.",
+            "dica": "Aplique as duas funções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que tipo de dado input() devolve?",
+            "alternativas": [
+              "Texto",
+              "Lista",
+              "Número inteiro",
+              "Número decimal"
+            ],
+            "correta": 0,
+            "explicacao": "Por isso a resposta certa deve estar entre aspas.",
+            "dica": "Mesmo números chegam como letras digitadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se pontos = 0 está dentro do for, acertando as 3 o total mostrado é:",
+            "alternativas": [
+              "10",
+              "0",
+              "30",
+              "20"
+            ],
+            "correta": 0,
+            "explicacao": "Zera a cada pergunta e soma 10 só na última.",
+            "dica": "Simule volta por volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha mostra a resposta certa quando o jogador erra?",
+            "alternativas": [
+              "print(pontos)",
+              "print(p[0])",
+              "input(p[1])",
+              "print('Errou. A resposta era', p[1])"
+            ],
+            "correta": 3,
+            "explicacao": "A resposta está em p[1].",
+            "dica": "A resposta está na posição 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazer depois de corrigir um bug?",
+            "alternativas": [
+              "Apagar os testes",
+              "Trocar de linguagem",
+              "Rodar todos os testes de novo",
+              "Entregar sem rodar"
+            ],
+            "correta": 2,
+            "explicacao": "A correção pode ter quebrado outra coisa.",
+            "dica": "Conferir de novo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O jogador aperta Enter sem digitar. O que acontece?",
+            "alternativas": [
+              "Os pontos dobram",
+              "O programa fecha",
+              "Conta como acerto",
+              "A resposta vira '' e conta como erro"
+            ],
+            "correta": 3,
+            "explicacao": "Texto vazio não é igual à resposta certa.",
+            "dica": "Que texto sai de um Enter sozinho?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com acertos = 2 e 3 perguntas, qual linha mostra '2 de 3'?",
+            "alternativas": [
+              "print(acertos, 'de', len(perguntas))",
+              "print(acertos / 3)",
+              "print('acertos de perguntas')",
+              "print(len(acertos))"
+            ],
+            "correta": 0,
+            "explicacao": "len(perguntas) dá 3.",
+            "dica": "len conta os itens da lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A lista guarda ['Quanto é 7 x 8?', 56]. O jogador digita 56. O que acontece?",
+            "alternativas": [
+              "O programa soma 56 pontos",
+              "Conta como erro, porque '56' (texto) é diferente de 56 (número)",
+              "Conta como acerto",
+              "Dá erro de sintaxe"
+            ],
+            "correta": 1,
+            "explicacao": "Texto e número não são iguais.",
+            "dica": "Compare os tipos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um teste esperava 20 e deu 20. Isso prova que o programa não tem nenhum bug?",
+            "alternativas": [
+              "Sim, se rodar duas vezes",
+              "Sim, está perfeito",
+              "Não, o programa está errado",
+              "Não, só mostra que esse caso passou"
+            ],
+            "correta": 3,
+            "explicacao": "Um teste mostra um caso; outros podem falhar.",
+            "dica": "Um caso não é todos os casos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o ciclo de correção de um bug:",
+            "itens": [
+              "Rodar o teste",
+              "Ver que o resultado não bate",
+              "Achar e corrigir a linha",
+              "Rodar todos os testes de novo"
+            ],
+            "explicacao": "Testar, perceber, corrigir, testar de novo.",
+            "dica": "Termina testando."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Perguntas valem 10 e o jogador fez 40 pontos em 6 perguntas. Quanto dá pontos // 10 * 100 // len(perguntas)?",
+            "alternativas": [
+              "40",
+              "60",
+              "67",
+              "66"
+            ],
+            "correta": 3,
+            "explicacao": "40 // 10 = 4; 4 * 100 = 400; 400 // 6 = 66 (a divisão inteira corta, não arredonda).",
+            "dica": "Faça cada operação da esquerda para a direita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual código conta acertos e pontos ao mesmo tempo, corretamente?",
+            "alternativas": [
+              "Fora do laço: acertos = acertos + 1",
+              "Dentro do if: acertos = 1",
+              "Dentro do if: pontos = pontos + 10 e acertos = acertos + 1",
+              "Dentro do else: acertos = acertos + 1"
+            ],
+            "correta": 2,
+            "explicacao": "Os dois aumentam só quando acerta, a cada acerto.",
+            "dica": "Os dois devem crescer juntos, só no acerto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A resposta certa é 'são paulo'. O jogador digita 'São Paulo '. Com strip().lower(), ele:",
+            "alternativas": [
+              "Erra por causa do espaço",
+              "Erra por causa do acento",
+              "Erra por causa da maiúscula",
+              "Acerta"
+            ],
+            "correta": 3,
+            "explicacao": "Fica 'são paulo'; lower também trata letras acentuadas.",
+            "dica": "Aplique as funções com calma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes casos de teste é o mais útil para pegar o bug de pontos = 0 dentro do laço?",
+            "alternativas": [
+              "Acertar todas as perguntas",
+              "Não digitar nada",
+              "Acertar só a última",
+              "Errar todas"
+            ],
+            "correta": 0,
+            "explicacao": "Acertando tudo, o esperado é 30, mas o bug mostra 10. Nos outros casos o bug não muda o resultado.",
+            "dica": "Em qual caso o bug muda o resultado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O programador escreveu if resposta = p[1]: e o Python acusou erro. Por quê?",
+            "alternativas": [
+              "O if não aceita textos",
+              "Um sinal de = atribui; para comparar usa-se ==",
+              "p[1] não existe",
+              "Faltou o print"
+            ],
+            "correta": 1,
+            "explicacao": "= guarda valor; == compara.",
+            "dica": "Comparar e guardar usam sinais diferentes."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Coesão: retomar sem repetir",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Coesão é a costura do texto: as palavras que ligam uma frase à outra para que o leitor entenda do que se fala sem tropeçar em repetições.",
+          "Retomar com pronome: 'Marina ganhou um livro. Ela o leu em dois dias.' Ela retoma Marina; o retoma livro.",
+          "Retomar com sinônimo ou palavra mais geral: 'O cachorro latiu a noite toda. O animal estava com medo dos fogos.' Animal é mais geral que cachorro e evita a repetição.",
+          "Elipse: omitir o que ficou claro. 'Pedro chegou cedo. Abriu a sala e ligou o ventilador.' Não é preciso repetir Pedro.",
+          "Conectivos ligam ideias: além disso (soma), mas e porém (oposição), porque (causa), portanto (conclusão), depois (tempo). Usar o conectivo errado muda o sentido."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Reescreva sem repetir: 'O ônibus atrasou. O ônibus estava lotado. O ônibus quebrou na avenida.'",
+            "resolucao": "'O ônibus atrasou. Estava lotado e, para piorar, o veículo quebrou na avenida.' Usamos elipse, um conectivo e uma palavra mais geral."
+          },
+          {
+            "enunciado": "Em 'Choveu muito, portanto o jogo foi adiado', que relação o conectivo mostra?",
+            "resolucao": "Conclusão (consequência): o adiamento é resultado da chuva."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cuidado com a ambiguidade: 'Lucas encontrou o primo e ele ficou feliz.' Quem ficou feliz? Quando há dois candidatos, troque o pronome por um nome ou reorganize: 'Lucas encontrou o primo, que ficou feliz.'",
+        "Os pronomes este e aquele também retomam: 'Comprei arroz e feijão; este estava em promoção' (este = o mais perto, feijão; aquele = o mais distante, arroz). Isso e o retomam uma ideia inteira: 'Ela pediu desculpas, e isso mudou tudo.'",
+        "Coesão não é tudo: um texto pode ser bem costurado e ainda não fazer sentido. A coerência é a lógica das ideias; a coesão é a ligação das palavras. Um bom texto tem as duas."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é coesão?",
+            "alternativas": [
+              "O número de parágrafos",
+              "A letra bonita",
+              "A ligação entre as partes do texto",
+              "O título do texto"
+            ],
+            "correta": 2,
+            "explicacao": "Coesão costura frases e parágrafos.",
+            "dica": "Pense em costura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 'Marina ganhou um livro. Ela adorou.', a palavra Ela retoma:",
+            "alternativas": [
+              "Marina",
+              "ganhou",
+              "adorou",
+              "livro"
+            ],
+            "correta": 0,
+            "explicacao": "Ela se refere à pessoa citada antes.",
+            "dica": "Quem pode adorar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra retoma 'o cachorro' de forma mais geral?",
+            "alternativas": [
+              "a rua",
+              "o animal",
+              "o latido",
+              "a cadeira"
+            ],
+            "correta": 1,
+            "explicacao": "Animal inclui o cachorro.",
+            "dica": "Cachorro é um tipo de quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conectivo indica oposição?",
+            "alternativas": [
+              "portanto",
+              "além disso",
+              "mas",
+              "depois"
+            ],
+            "correta": 2,
+            "explicacao": "Mas liga ideias contrárias.",
+            "dica": "Procure a palavra que contraria."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 'Pedro chegou. Abriu a sala.', quem abriu a sala?",
+            "alternativas": [
+              "Pedro",
+              "A sala",
+              "Ninguém",
+              "O professor"
+            ],
+            "correta": 0,
+            "explicacao": "É a elipse: o sujeito ficou oculto.",
+            "dica": "Quem foi citado antes?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conectivo indica conclusão?",
+            "alternativas": [
+              "porém",
+              "portanto",
+              "embora",
+              "enquanto"
+            ],
+            "correta": 1,
+            "explicacao": "Portanto introduz a consequência.",
+            "dica": "Indica um resultado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 'Comprei um caderno e o encapei.', o termo o retoma:",
+            "alternativas": [
+              "eu",
+              "encapei",
+              "caderno",
+              "comprei"
+            ],
+            "correta": 2,
+            "explicacao": "O pronome o substitui o caderno.",
+            "dica": "O que foi encapado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual reescrita evita a repetição de 'a escola'?",
+            "alternativas": [
+              "A escola reformou a quadra. Ela agora tem cobertura.",
+              "A escola a escola reformou.",
+              "A escola reformou a quadra. A escola tem cobertura.",
+              "Reformou a escola a escola."
+            ],
+            "correta": 0,
+            "explicacao": "Ela retoma a escola.",
+            "dica": "Use um pronome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que relação há em 'Faltei porque estava doente'?",
+            "alternativas": [
+              "Tempo",
+              "Causa",
+              "Oposição",
+              "Soma"
+            ],
+            "correta": 1,
+            "explicacao": "Porque explica o motivo.",
+            "dica": "Pergunte: por quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 'Ela pediu desculpas, e isso mudou tudo', isso retoma:",
+            "alternativas": [
+              "Nada",
+              "A palavra tudo",
+              "A palavra ela",
+              "O fato de ela pedir desculpas"
+            ],
+            "correta": 3,
+            "explicacao": "Isso retoma a ideia inteira.",
+            "dica": "Isso pode resumir uma ação."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a frase 'Lucas encontrou o primo e ele ficou feliz' é ambígua?",
+            "alternativas": [
+              "Ele pode ser Lucas ou o primo",
+              "Falta verbo",
+              "Tem palavras demais",
+              "Não tem sujeito"
+            ],
+            "correta": 0,
+            "explicacao": "Dois candidatos para o mesmo pronome.",
+            "dica": "Quem ficou feliz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual conectivo deixa certo o sentido: 'Estudou muito, ___ foi aprovada'?",
+            "alternativas": [
+              "por isso",
+              "embora",
+              "ainda que",
+              "mas"
+            ],
+            "correta": 0,
+            "explicacao": "Estudar levou à aprovação: consequência.",
+            "dica": "A segunda ideia é resultado da primeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 'Comprei arroz e feijão; este estava em promoção', o que estava em promoção?",
+            "alternativas": [
+              "O arroz",
+              "Nenhum",
+              "Os dois",
+              "O feijão"
+            ],
+            "correta": 3,
+            "explicacao": "Este retoma o termo mais próximo.",
+            "dica": "Este aponta o mais perto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que recurso foi usado em 'Os alunos saíram cedo. Estavam animados.'?",
+            "alternativas": [
+              "Elipse do sujeito",
+              "Repetição",
+              "Conectivo de oposição",
+              "Sinônimo"
+            ],
+            "correta": 0,
+            "explicacao": "O sujeito os alunos ficou subentendido.",
+            "dica": "Algo foi omitido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual troca de conectivo muda o sentido de 'Choveu, mas fomos à praia'?",
+            "alternativas": [
+              "Choveu, no entanto fomos à praia",
+              "Choveu, porém fomos à praia",
+              "Choveu, portanto fomos à praia",
+              "Choveu, contudo fomos à praia"
+            ],
+            "correta": 2,
+            "explicacao": "Portanto indica consequência; as outras indicam oposição, como o mas.",
+            "dica": "Três têm o mesmo sentido; ache a diferente."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual texto é coeso, mas incoerente?",
+            "alternativas": [
+              "Ana estudou; assim, foi bem na prova.",
+              "Choveu e, por isso, a rua alagou.",
+              "O sol nasceu à meia-noite; por isso, todos foram dormir, porque era dia.",
+              "O sol nasceu. Todos acordaram e foram para a escola."
+            ],
+            "correta": 2,
+            "explicacao": "Tem conectivos, mas as ideias se contradizem.",
+            "dica": "Procure a lógica quebrada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual reescrita deixa claro que é a mãe quem precisa descansar?",
+            "alternativas": [
+              "A mãe disse à filha que ela precisava descansar.",
+              "A mãe falou com a filha que ela precisava descansar.",
+              "Ela falou com ela que precisava descansar.",
+              "A mãe disse à filha: — Eu preciso descansar."
+            ],
+            "correta": 3,
+            "explicacao": "O discurso direto com eu tira a dúvida.",
+            "dica": "Deixe a própria mãe falar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 'Vi Paulo e Carla na feira; aquele comprava pastel, esta escolhia frutas', quem comprava pastel?",
+            "alternativas": [
+              "Carla",
+              "Paulo",
+              "Ninguém",
+              "Os dois"
+            ],
+            "correta": 1,
+            "explicacao": "Aquele retoma o termo mais distante (Paulo); esta, o mais próximo (Carla).",
+            "dica": "Aquele aponta o mais longe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sequência de conectivos organiza melhor uma receita?",
+            "alternativas": [
+              "Mas, porém, contudo, todavia",
+              "Primeiro, depois, em seguida, por fim",
+              "Porque, pois, visto que, uma vez que",
+              "Embora, ainda que, mesmo que, apesar de"
+            ],
+            "correta": 1,
+            "explicacao": "Receitas pedem conectivos de tempo e ordem.",
+            "dica": "Receita é uma sequência no tempo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem para formar um parágrafo coeso:",
+            "itens": [
+              "Camila plantou um pé de feijão na escola.",
+              "Todos os dias, ela regava a muda.",
+              "Depois de uma semana, a planta tinha folhas novas.",
+              "Por isso, a turma decidiu fazer uma horta."
+            ],
+            "explicacao": "Apresentação, ação, resultado e conclusão.",
+            "dica": "O por isso fecha o parágrafo."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Os medidores do Nilo",
+    "texto": "Todo ano, no fim do verão, o rio Nilo subia e cobria as margens no Egito antigo. Quando as águas baixavam, deixavam uma lama escura e fértil, ótima para plantar trigo e cevada. Mas a enchente também apagava as pedras e marcas que separavam um terreno do outro.\n\nQuem tinha direito a cada pedaço de terra? E quanto cada família devia pagar de imposto ao faraó, que cobrava conforme o tamanho da plantação? Para responder, funcionários do governo saíam a campo com cordas cheias de nós, espaçados sempre na mesma distância. Esticando as cordas, eles remarcavam os limites e calculavam as áreas.\n\nConta-se que usavam uma corda com doze espaços iguais para formar um triângulo de lados 3, 4 e 5, que tem um canto perfeitamente reto. Com esse canto, desenhavam retângulos no chão.\n\nUm papiro escrito há mais de três mil e quinhentos anos mostra que eles sabiam calcular a área de triângulos, de trapézios e até de círculos. Para o círculo, usavam um truque: um quadrado de lado igual a oito nonos do diâmetro. O resultado era muito próximo do que calculamos hoje.\n\nSéculos depois, os gregos visitaram o Egito, aprenderam esses métodos e os organizaram em regras. Deram ao estudo o nome de geometria, que quer dizer medida da terra. Cada vez que você calcula a área de um terreno, está repetindo, com lápis e papel, o trabalho daqueles medidores do Nilo."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, meça (com fita métrica ou passos) ou estime as medidas de um cômodo da sua casa, como o quarto ou a cozinha. Calcule a área em metros quadrados e explique o caminho que você seguiu: que forma o cômodo tem, quais medidas usou e que fórmula aplicou. Se o cômodo não for um retângulo perfeito, divida-o em partes, como os medidores do Nilo fariam."
+  }
+}
