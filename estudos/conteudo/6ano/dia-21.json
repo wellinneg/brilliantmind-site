@@ -1,0 +1,1201 @@
+{
+  "dia": 21,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Números primos e compostos",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Alguns números só podem ser divididos, sem sobrar resto, por 1 e por eles mesmos. Esses números se chamam primos. Exemplos: 2, 3, 5, 7, 11 e 13.",
+          "Os números que têm mais de dois divisores se chamam compostos. O 6 é composto, porque pode ser dividido por 1, 2, 3 e 6.",
+          "O número 1 é especial: ele tem um divisor só (ele mesmo). Por isso, o 1 não é primo nem composto.",
+          "O 2 é o único número primo que é par. Todo outro número par pode ser dividido por 2, então já tem pelo menos três divisores: 1, 2 e ele mesmo.",
+          "Para testar se um número é primo, tente dividir por 2, 3, 5, 7… Se alguma divisão der exata (sem resto), o número é composto."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O número 15 é primo ou composto?",
+            "resolucao": "Composto. Ele pode ser dividido por 1, 3, 5 e 15. Tem mais de dois divisores."
+          },
+          {
+            "enunciado": "O número 13 é primo ou composto?",
+            "resolucao": "Primo. Tentando dividir por 2, 3, 5 e 7, nenhuma conta dá exata. Os únicos divisores são 1 e 13."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O crivo de Eratóstenes é um jeito antigo de achar primos: escreva os números de 2 a 50, risque os múltiplos de 2 (menos o 2), depois os de 3 (menos o 3), os de 5 e os de 7. Quem sobrar é primo. De 1 a 50 sobram 15 primos: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 e 47.",
+        "Todo número composto pode ser escrito como uma multiplicação de primos. É a decomposição em fatores primos: 12 = 2 × 2 × 3 e 30 = 2 × 3 × 5. Cada número composto tem uma única decomposição, como se fosse a sua impressão digital.",
+        "Para testar números até 100, basta tentar dividir por 2, 3, 5 e 7. Se nenhum dividir exatamente, o número é primo. Cuidado com o 91: parece primo, mas 91 = 7 × 13."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um número primo tem quantos divisores?",
+            "alternativas": [
+              "Exatamente dois: o 1 e ele mesmo",
+              "Só um",
+              "Três",
+              "Nenhum"
+            ],
+            "correta": 0,
+            "explicacao": "O primo só pode ser dividido exatamente por 1 e por ele mesmo: dois divisores.",
+            "dica": "Lembre a primeira frase da lição: por quais números o primo pode ser dividido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é primo?",
+            "alternativas": [
+              "4",
+              "7",
+              "9",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "O 7 só é dividido por 1 e 7. O 4, o 9 e o 10 têm outros divisores.",
+            "dica": "Teste: algum desses números só pode ser dividido por 1 e por ele mesmo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O número 1 é:",
+            "alternativas": [
+              "primo",
+              "composto",
+              "nem primo nem composto",
+              "par"
+            ],
+            "correta": 2,
+            "explicacao": "O 1 tem um divisor só, ele mesmo. Por isso não entra em nenhum dos dois grupos.",
+            "dica": "Conte quantos divisores o 1 tem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o único primo par?",
+            "alternativas": [
+              "4",
+              "0",
+              "6",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "O 2 é dividido só por 1 e 2. Os outros pares também são divididos por 2, então são compostos.",
+            "dica": "É o menor número primo de todos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O 6 é composto porque pode ser dividido por:",
+            "alternativas": [
+              "1, 2, 3 e 6",
+              "só 1 e 6",
+              "só 6",
+              "só 2"
+            ],
+            "correta": 0,
+            "explicacao": "Como tem quatro divisores, o 6 é composto.",
+            "dica": "A lição listou os divisores do 6. Composto tem mais de dois."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é composto?",
+            "alternativas": [
+              "11",
+              "13",
+              "21",
+              "17"
+            ],
+            "correta": 2,
+            "explicacao": "21 = 3 × 7, então tem os divisores 1, 3, 7 e 21. Os outros são primos.",
+            "dica": "Tente dividir cada um por 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos primos existem entre 10 e 20?",
+            "alternativas": [
+              "2",
+              "4",
+              "3",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "São 11, 13, 17 e 19: quatro primos.",
+            "dica": "Teste os números de 11 a 19, um por um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o 27 não é primo?",
+            "alternativas": [
+              "Porque é ímpar",
+              "Porque é maior que 20",
+              "Porque termina em 7",
+              "Porque pode ser dividido por 3 e por 9"
+            ],
+            "correta": 3,
+            "explicacao": "27 ÷ 3 = 9 e 27 ÷ 9 = 3. Ser ímpar não garante ser primo.",
+            "dica": "Some os algarismos do 27 e pense na divisão por 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são os divisores do 12?",
+            "alternativas": [
+              "1, 2, 3, 4, 6 e 12",
+              "1, 2, 6 e 12",
+              "1 e 12",
+              "2, 3 e 4"
+            ],
+            "correta": 0,
+            "explicacao": "12 pode ser dividido exatamente por 1, 2, 3, 4, 6 e 12. São seis divisores, por isso é composto.",
+            "dica": "Procure todos os números que dividem o 12 sem sobrar resto, começando pelo 1."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os primos em ordem crescente:",
+            "itens": [
+              "2",
+              "5",
+              "11",
+              "23"
+            ],
+            "explicacao": "Ordem crescente é do menor para o maior: 2, 5, 11 e 23. Todos são primos.",
+            "dica": "Crescente começa pelo menor."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a decomposição de 18 em fatores primos?",
+            "alternativas": [
+              "2 × 9",
+              "2 × 3 × 3",
+              "3 × 6",
+              "1 × 18"
+            ],
+            "correta": 1,
+            "explicacao": "18 = 2 × 9, e 9 = 3 × 3. Só primos: 2 × 3 × 3. O 9 e o 6 não são primos.",
+            "dica": "Todos os fatores precisam ser primos. Quebre os que ainda não são."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O número 51 é primo?",
+            "alternativas": [
+              "Sim, porque é ímpar",
+              "Sim, porque termina em 1",
+              "Não, porque 51 = 3 × 17",
+              "Não, porque é par"
+            ],
+            "correta": 2,
+            "explicacao": "51 ÷ 3 = 17. Então 51 tem os divisores 1, 3, 17 e 51. Muita gente acha que é primo.",
+            "dica": "Some os algarismos: 5 + 1. O resultado é múltiplo de qual número?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a soma dos primos menores que 10?",
+            "alternativas": [
+              "15",
+              "18",
+              "25",
+              "17"
+            ],
+            "correta": 3,
+            "explicacao": "Os primos menores que 10 são 2, 3, 5 e 7. Soma: 2 + 3 + 5 + 7 = 17. Não esqueça o 2, nem coloque o 1.",
+            "dica": "Liste os primos de 1 a 9 com cuidado: o 1 entra? E o 2?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gabi tem 13 balas e quer dividir em saquinhos iguais, com mais de uma bala por saquinho e mais de um saquinho. Ela consegue?",
+            "alternativas": [
+              "Não, porque 13 é primo",
+              "Sim, 2 saquinhos",
+              "Sim, 3 saquinhos",
+              "Sim, 4 saquinhos"
+            ],
+            "correta": 0,
+            "explicacao": "13 só pode ser dividido por 1 e 13. Qualquer outra divisão deixa resto.",
+            "dica": "Tente dividir 13 por 2, por 3 e por 4. Alguma dá exata?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os números do MENOR para o MAIOR número de divisores:",
+            "itens": [
+              "7 (primo)",
+              "9",
+              "8",
+              "12"
+            ],
+            "explicacao": "O 7 tem 2 divisores; o 9 tem 3 (1, 3, 9); o 8 tem 4 (1, 2, 4, 8); o 12 tem 6.",
+            "dica": "Liste os divisores de cada número e conte."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números primos existem de 1 a 50?",
+            "alternativas": [
+              "12",
+              "15",
+              "14",
+              "16"
+            ],
+            "correta": 1,
+            "explicacao": "São 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 e 47: quinze.",
+            "dica": "Use o crivo do aprofundamento e conte com calma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é composto, mesmo parecendo primo?",
+            "alternativas": [
+              "89",
+              "83",
+              "91",
+              "97"
+            ],
+            "correta": 2,
+            "explicacao": "91 = 7 × 13. Os outros três só são divididos por 1 e por eles mesmos.",
+            "dica": "O aprofundamento avisou sobre um número que engana. Tente dividir por 7."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A decomposição de um número é 2 × 2 × 5 × 5. Que número é esse?",
+            "alternativas": [
+              "20",
+              "50",
+              "25",
+              "100"
+            ],
+            "correta": 3,
+            "explicacao": "2 × 2 = 4; 5 × 5 = 25; 4 × 25 = 100.",
+            "dica": "Multiplique os fatores em duplas e depois junte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruno diz: “Todo número ímpar é primo”. Qual exemplo mostra que ele está errado?",
+            "alternativas": [
+              "9",
+              "3",
+              "7",
+              "13"
+            ],
+            "correta": 0,
+            "explicacao": "9 é ímpar, mas 9 = 3 × 3. Basta um exemplo contrário para derrubar a frase.",
+            "dica": "Procure um número ímpar que tenha um divisor diferente de 1 e dele mesmo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois primos somados dão 15. Quais são eles?",
+            "alternativas": [
+              "7 e 8",
+              "2 e 13",
+              "5 e 10",
+              "3 e 12"
+            ],
+            "correta": 1,
+            "explicacao": "2 e 13 são primos e 2 + 13 = 15. O 8, o 10 e o 12 são compostos. Como 15 é ímpar, um dos dois tem que ser o 2, o único primo par.",
+            "dica": "Para a soma dar ímpar, um dos números precisa ser par. Qual primo é par?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Orçamento: quanto entra e quanto sai",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Orçamento é um plano do dinheiro. Ele mostra quanto dinheiro entra e quanto sai num período, por exemplo, num mês.",
+          "O dinheiro que entra se chama receita: salário, mesada, venda de algo. O dinheiro que sai se chama despesa: aluguel, comida, ônibus, internet.",
+          "Para saber o saldo, faça receita menos despesa. Se sobra dinheiro, o saldo é positivo. Se falta, o saldo é negativo, e a família fica no vermelho.",
+          "Um bom orçamento é feito antes de gastar. Assim dá para decidir o que é necessário, o que pode esperar e quanto guardar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Mariana recebe R$ 60 de mesada. Ela gasta R$ 25 com lanche e R$ 15 com passagem extra. Qual é o saldo?",
+            "resolucao": "Despesas: 25 + 15 = R$ 40. Saldo: 60 − 40 = R$ 20. Sobram R$ 20, saldo positivo."
+          },
+          {
+            "enunciado": "Uma família ganha R$ 2.800 e gasta R$ 3.000 no mês. O que aconteceu?",
+            "resolucao": "Saldo: 2.800 − 3.000 = −R$ 200. Faltaram R$ 200: a família gastou mais do que ganhou."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Despesas fixas têm o mesmo valor todo mês, como aluguel e internet. Despesas variáveis mudam, como conta de luz, feira e lazer. Para economizar, costuma ser mais fácil mexer nas variáveis.",
+        "Uma regra simples para quem está começando: separar o dinheiro em necessidades (o que não dá para cortar), vontades (o que é bom, mas pode esperar) e poupança (o que se guarda). Guardar logo que o dinheiro entra funciona melhor do que esperar sobrar no fim do mês.",
+        "Anotar todos os gastos, até os pequenos, mostra para onde o dinheiro vai. Um lanche de R$ 6 por dia na escola, em 20 dias de aula, vira R$ 120 no mês."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o dinheiro que ENTRA?",
+            "alternativas": [
+              "Despesa",
+              "Receita",
+              "Dívida",
+              "Troco"
+            ],
+            "correta": 1,
+            "explicacao": "Receita é o dinheiro que entra, como salário ou mesada.",
+            "dica": "Despesa é o que sai. E o que entra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é uma despesa?",
+            "alternativas": [
+              "Mesada",
+              "Salário",
+              "Conta de luz",
+              "Prêmio"
+            ],
+            "correta": 2,
+            "explicacao": "A conta de luz é dinheiro que sai. Os outros são dinheiro que entra.",
+            "dica": "Procure o que faz o dinheiro sair da carteira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se calcula o saldo?",
+            "alternativas": [
+              "Receita mais despesa",
+              "Despesa vezes receita",
+              "Só somando as despesas",
+              "Receita menos despesa"
+            ],
+            "correta": 3,
+            "explicacao": "Saldo é o que entra menos o que sai.",
+            "dica": "Do que entrou, tire o que saiu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a família gasta mais do que ganha, ela fica:",
+            "alternativas": [
+              "No vermelho",
+              "Rica",
+              "Com sobra",
+              "Com saldo positivo"
+            ],
+            "correta": 0,
+            "explicacao": "Gastar mais do que ganha deixa o saldo negativo, o famoso “vermelho”.",
+            "dica": "Saldo negativo tem uma cor na fala das pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O orçamento deve ser feito:",
+            "alternativas": [
+              "Só depois que o dinheiro acabar",
+              "Antes de gastar",
+              "Nunca",
+              "Só no fim do ano"
+            ],
+            "correta": 1,
+            "explicacao": "Planejar antes ajuda a decidir o que é necessário e quanto guardar.",
+            "dica": "Plano bom vem antes ou depois da ação?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas ganhou R$ 50 e gastou R$ 32. Quanto sobrou?",
+            "alternativas": [
+              "R$ 82",
+              "R$ 22",
+              "R$ 18",
+              "R$ 28"
+            ],
+            "correta": 2,
+            "explicacao": "50 − 32 = 18. Sobraram R$ 18.",
+            "dica": "Faça receita menos despesa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma despesa fixa?",
+            "alternativas": [
+              "Aluguel",
+              "Sorvete no fim de semana",
+              "Presente de aniversário",
+              "Cinema"
+            ],
+            "correta": 0,
+            "explicacao": "O aluguel tem o mesmo valor todo mês. Os outros mudam ou nem acontecem todo mês.",
+            "dica": "Procure o gasto que se repete com o mesmo valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família ganha R$ 3.000 e gasta R$ 2.650. O saldo é:",
+            "alternativas": [
+              "R$ 450 negativo",
+              "R$ 350 negativo",
+              "R$ 450 positivo",
+              "R$ 350 positivo"
+            ],
+            "correta": 3,
+            "explicacao": "3.000 − 2.650 = 350. Sobra dinheiro, então o saldo é positivo.",
+            "dica": "Subtraia e veja se sobrou ou faltou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve anotar os gastos pequenos?",
+            "alternativas": [
+              "Para gastar mais",
+              "Para ver para onde o dinheiro vai",
+              "Para não pagar contas",
+              "Para esconder da família"
+            ],
+            "correta": 1,
+            "explicacao": "Gastos pequenos somados viram um valor grande. Anotar mostra onde dá para economizar.",
+            "dica": "Pense no lanche de todo dia somado no mês."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para fazer o orçamento do mês:",
+            "itens": [
+              "Anotar quanto vai entrar",
+              "Listar as despesas",
+              "Calcular o saldo",
+              "Decidir quanto guardar ou o que cortar"
+            ],
+            "explicacao": "Primeiro a receita, depois as despesas, então o saldo e, por fim, a decisão.",
+            "dica": "Comece pelo dinheiro que chega."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Jéssica gasta R$ 5 por dia de aula com lanche. Em 20 dias de aula, quanto gasta?",
+            "alternativas": [
+              "R$ 25",
+              "R$ 100",
+              "R$ 50",
+              "R$ 120"
+            ],
+            "correta": 1,
+            "explicacao": "5 × 20 = R$ 100.",
+            "dica": "Multiplique o gasto de um dia pela quantidade de dias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Receita: R$ 2.500. Despesas: aluguel R$ 900, mercado R$ 850, contas R$ 400, ônibus R$ 300. Qual é o saldo?",
+            "alternativas": [
+              "R$ 150 negativo",
+              "R$ 50 positivo",
+              "R$ 50 negativo",
+              "R$ 150 positivo"
+            ],
+            "correta": 2,
+            "explicacao": "Despesas: 900 + 850 + 400 + 300 = 2.450. Saldo: 2.500 − 2.450 = R$ 50 positivo.",
+            "dica": "Some todas as despesas antes de subtrair."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A família está R$ 120 no vermelho. Qual atitude ajuda MAIS rápido?",
+            "alternativas": [
+              "Pegar um empréstimo todo mês",
+              "Cortar o aluguel",
+              "Ignorar e esperar",
+              "Reduzir gastos variáveis, como lanche fora e lazer"
+            ],
+            "correta": 3,
+            "explicacao": "Despesas variáveis são as mais fáceis de diminuir. Empréstimo todo mês aumenta a dívida.",
+            "dica": "Quais gastos dá para mudar já neste mês?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Thiago ganha R$ 80 de mesada e quer guardar R$ 20. Quanto pode gastar?",
+            "alternativas": [
+              "R$ 60",
+              "R$ 100",
+              "R$ 40",
+              "R$ 20"
+            ],
+            "correta": 0,
+            "explicacao": "Guardando primeiro: 80 − 20 = R$ 60 para gastar.",
+            "dica": "Separe a parte da poupança e veja o que sobra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é VERDADEIRA?",
+            "alternativas": [
+              "Saldo negativo quer dizer sobra",
+              "Conta de luz é sempre igual todo mês",
+              "Guardar logo que o dinheiro entra costuma funcionar melhor",
+              "Despesa é o dinheiro que entra"
+            ],
+            "correta": 2,
+            "explicacao": "Quem espera sobrar no fim do mês muitas vezes não guarda nada. A conta de luz varia.",
+            "dica": "Lembre a regra do aprofundamento sobre a hora de guardar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana ganha R$ 1.800. Gasta R$ 600 de aluguel, R$ 500 de mercado e R$ 250 de contas. Quer guardar 1/3 do que sobrar. Quanto guarda?",
+            "alternativas": [
+              "R$ 150",
+              "R$ 600",
+              "R$ 450",
+              "R$ 300"
+            ],
+            "correta": 0,
+            "explicacao": "Despesas: 600 + 500 + 250 = 1.350. Sobra: 1.800 − 1.350 = 450. Um terço: 450 ÷ 3 = R$ 150.",
+            "dica": "Ache a sobra primeiro e só depois divida por 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro gasta R$ 7 por dia com refrigerante, nos 30 dias do mês. Se trocar por água de casa nos 30 dias, quanto economiza em 3 meses?",
+            "alternativas": [
+              "R$ 210",
+              "R$ 630",
+              "R$ 90",
+              "R$ 21"
+            ],
+            "correta": 1,
+            "explicacao": "Por mês: 7 × 30 = 210. Em 3 meses: 210 × 3 = R$ 630.",
+            "dica": "Calcule o mês e depois multiplique pelos meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mês 1 a família teve saldo de +R$ 200. No mês 2, de −R$ 350. No mês 3, de +R$ 100. No total dos três meses:",
+            "alternativas": [
+              "Sobrou R$ 650",
+              "Sobrou R$ 50",
+              "Faltaram R$ 50",
+              "Faltaram R$ 150"
+            ],
+            "correta": 2,
+            "explicacao": "200 + 100 = 300 de sobra. 300 − 350 = −50. Faltaram R$ 50.",
+            "dica": "Junte as sobras e depois tire a falta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A conta de luz foi de R$ 180 para R$ 150 e o mercado subiu de R$ 700 para R$ 760. Com a mesma receita, o saldo do mês:",
+            "alternativas": [
+              "Aumentou R$ 30",
+              "Ficou igual",
+              "Aumentou R$ 90",
+              "Diminuiu R$ 30"
+            ],
+            "correta": 3,
+            "explicacao": "A luz economizou R$ 30, mas o mercado gastou R$ 60 a mais. 30 − 60 = −30: o saldo caiu R$ 30.",
+            "dica": "Veja quanto cada despesa mudou e compare a economia com o aumento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Carla quer comprar um tênis de R$ 240 e consegue guardar R$ 40 por mês. Já tem R$ 80. Em quantos meses terá o dinheiro?",
+            "alternativas": [
+              "4 meses",
+              "6 meses",
+              "3 meses",
+              "5 meses"
+            ],
+            "correta": 0,
+            "explicacao": "Faltam 240 − 80 = 160. 160 ÷ 40 = 4 meses. A pegadinha é esquecer os R$ 80 que ela já tem.",
+            "dica": "Descubra quanto falta antes de dividir."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Comparar valores: maior, menor e igual",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para tomar decisões, o programa precisa comparar valores. Ele pergunta coisas como: a nota é maior que 6? A senha é igual à certa?",
+          "Os sinais de comparação são: > (maior que), < (menor que), == (igual a), != (diferente de), >= (maior ou igual) e <= (menor ou igual).",
+          "Atenção: em programação, um sinal de igual só (=) guarda um valor na variável. Dois sinais (==) comparam. É um erro muito comum trocar um pelo outro.",
+          "Toda comparação tem só duas respostas: verdadeiro ou falso. Em Python, elas aparecem como True e False."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "idade = 12. Qual é o resultado de idade >= 12?",
+            "resolucao": "Verdadeiro (True). 12 não é maior que 12, mas é igual, e o sinal >= aceita os dois casos."
+          },
+          {
+            "enunciado": "nota = 5. O programa diz: se nota >= 6, mostre “Aprovado”; senão, mostre “Estude mais”. O que aparece?",
+            "resolucao": "5 >= 6 é falso, então aparece “Estude mais”."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Também dá para comparar textos: \"bola\" == \"bola\" é verdadeiro, mas \"Bola\" == \"bola\" é falso, porque o computador diferencia letra maiúscula de minúscula.",
+        "Cuidado com os limites. Para “ônibus grátis para quem tem até 5 anos”, a comparação certa é idade <= 5. Se usar idade < 5, a criança de 5 anos fica de fora por engano.",
+        "O contrário de > não é <. O contrário de “maior que 10” é “menor ou igual a 10” (<= 10), porque o próprio 10 também não é maior que 10."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa o sinal > ?",
+            "alternativas": [
+              "Menor que",
+              "Maior que",
+              "Igual",
+              "Diferente"
+            ],
+            "correta": 1,
+            "explicacao": "O sinal > quer dizer maior que: 8 > 3 é verdadeiro.",
+            "dica": "A boca aberta do sinal fica virada para o número maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sinal compara se dois valores são iguais?",
+            "alternativas": [
+              "=",
+              ">",
+              "==",
+              "<"
+            ],
+            "correta": 2,
+            "explicacao": "Dois sinais de igual comparam. Um só guarda valor.",
+            "dica": "A lição disse que um sinal só tem outra função."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma comparação pode ter quantas respostas?",
+            "alternativas": [
+              "Várias",
+              "Dez",
+              "Três",
+              "Duas: verdadeiro ou falso"
+            ],
+            "correta": 3,
+            "explicacao": "Toda comparação dá verdadeiro (True) ou falso (False).",
+            "dica": "Pense em sim ou não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "3 < 9 é:",
+            "alternativas": [
+              "Verdadeiro",
+              "Falso",
+              "Erro",
+              "Igual"
+            ],
+            "correta": 0,
+            "explicacao": "3 é menor que 9, então é verdadeiro.",
+            "dica": "O sinal < quer dizer menor que."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa != ?",
+            "alternativas": [
+              "Igual",
+              "Maior",
+              "Menor",
+              "Diferente de"
+            ],
+            "correta": 3,
+            "explicacao": "!= quer dizer diferente de: 4 != 5 é verdadeiro.",
+            "dica": "O ponto de exclamação nega o igual."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 10. Qual é o resultado de x >= 10?",
+            "alternativas": [
+              "Falso",
+              "Verdadeiro",
+              "Erro",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "10 é igual a 10, e >= aceita o igual. Resultado: verdadeiro.",
+            "dica": "O sinal >= aceita dois casos. Quais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha GUARDA o valor 7 na variável pontos?",
+            "alternativas": [
+              "pontos == 7",
+              "pontos > 7",
+              "pontos = 7",
+              "pontos != 7"
+            ],
+            "correta": 2,
+            "explicacao": "Um sinal de igual guarda o valor. Dois sinais só comparam.",
+            "dica": "Guardar usa um sinal só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nota = 7. Se nota >= 6 mostra “Aprovado”, senão “Estude mais”. O que aparece?",
+            "alternativas": [
+              "Estude mais",
+              "Nada",
+              "Erro",
+              "Aprovado"
+            ],
+            "correta": 3,
+            "explicacao": "7 >= 6 é verdadeiro, então aparece “Aprovado”.",
+            "dica": "Compare 7 com 6 e veja se a condição vale."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comparação é FALSA?",
+            "alternativas": [
+              "5 > 8",
+              "8 > 5",
+              "5 != 8",
+              "5 <= 8"
+            ],
+            "correta": 0,
+            "explicacao": "5 não é maior que 8. As outras três são verdadeiras.",
+            "dica": "Leia cada sinal em voz alta e confira."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque os números em ordem para que a frase a < b < c < d seja verdadeira:",
+            "itens": [
+              "2",
+              "6",
+              "11",
+              "20"
+            ],
+            "explicacao": "Cada número precisa ser menor que o seguinte: 2 < 6 < 11 < 20.",
+            "dica": "O sinal < pede o menor do lado esquerdo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ônibus grátis para quem tem até 5 anos. Qual comparação está certa?",
+            "alternativas": [
+              "idade < 5",
+              "idade > 5",
+              "idade <= 5",
+              "idade == 6"
+            ],
+            "correta": 2,
+            "explicacao": "“Até 5” inclui o 5. Com idade < 5, a criança de 5 anos pagaria por engano.",
+            "dica": "A criança de 5 anos tem direito? Escolha o sinal que inclui o limite."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "saldo = 30 e preco = 30. O programa só vende se saldo >= preco. Ele vende?",
+            "alternativas": [
+              "Sim, porque 30 >= 30 é verdadeiro",
+              "Não, porque 30 não é maior que 30",
+              "Dá erro",
+              "Só se o saldo for 31"
+            ],
+            "correta": 0,
+            "explicacao": "O sinal >= aceita o igual. Com R$ 30 dá para pagar algo de R$ 30.",
+            "dica": "O sinal usado aceita o caso de empate?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "senha = \"Sol123\". Qual é o resultado de senha == \"sol123\"?",
+            "alternativas": [
+              "Verdadeiro",
+              "Erro",
+              "Sol123",
+              "Falso"
+            ],
+            "correta": 3,
+            "explicacao": "O computador diferencia maiúscula de minúscula. S e s são diferentes.",
+            "dica": "Compare letra por letra, olhando o tamanho das letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "temperatura = 25. Qual comparação dá verdadeiro?",
+            "alternativas": [
+              "temperatura > 30",
+              "temperatura != 25",
+              "temperatura < 20",
+              "temperatura >= 25"
+            ],
+            "correta": 3,
+            "explicacao": "25 >= 25 é verdadeiro. As outras são falsas.",
+            "dica": "Teste cada uma trocando a palavra pelo número 25."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o CONTRÁRIO de idade > 10?",
+            "alternativas": [
+              "idade <= 10",
+              "idade < 10",
+              "idade == 10",
+              "idade >= 10"
+            ],
+            "correta": 0,
+            "explicacao": "Quem não é maior que 10 pode ser menor ou igual a 10. O 10 também fica do lado contrário.",
+            "dica": "Pense onde fica o próprio 10: ele é maior que 10?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "pontos = 15. Quantas comparações são verdadeiras? pontos > 10; pontos < 15; pontos >= 15; pontos != 20",
+            "alternativas": [
+              "1",
+              "3",
+              "2",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "15 > 10 (verdadeiro), 15 < 15 (falso), 15 >= 15 (verdadeiro), 15 != 20 (verdadeiro). Três verdadeiras.",
+            "dica": "Teste uma por uma com 15 e cuidado com o caso de empate."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para entrar no brinquedo, a altura precisa ser de pelo menos 120 cm. Qual comparação está certa?",
+            "alternativas": [
+              "altura > 120",
+              "altura < 120",
+              "altura >= 120",
+              "altura == 120"
+            ],
+            "correta": 2,
+            "explicacao": "“Pelo menos 120” inclui o 120. Com > 120, quem tem 120 cm ficaria de fora.",
+            "dica": "Quem tem exatamente 120 cm pode entrar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 4 e b = 9. Qual é o resultado de a * 2 > b?",
+            "alternativas": [
+              "Verdadeiro",
+              "Erro",
+              "17",
+              "Falso"
+            ],
+            "correta": 3,
+            "explicacao": "a * 2 = 8. 8 > 9 é falso. A conta é feita antes da comparação.",
+            "dica": "Faça primeiro a conta e depois compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa usa if nota = 6: e dá erro. Qual é o problema?",
+            "alternativas": [
+              "Usou um sinal de igual (guardar) em vez de dois (comparar)",
+              "Faltou um número",
+              "A nota não pode ser 6",
+              "if não existe em Python"
+            ],
+            "correta": 0,
+            "explicacao": "Para comparar dentro do if é preciso ==. O = sozinho serve para guardar valor.",
+            "dica": "Lembre o erro comum que a lição avisou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 7. Qual valor torna x >= y FALSO?",
+            "alternativas": [
+              "y = 5",
+              "y = 7",
+              "y = 6",
+              "y = 8"
+            ],
+            "correta": 3,
+            "explicacao": "7 >= 8 é falso. Com 5, 6 ou 7, a comparação é verdadeira, porque >= aceita o 7.",
+            "dica": "Para ser falso, y tem que ser maior que x."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Encontros vocálicos: ditongo, tritongo e hiato",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Encontro vocálico é quando aparecem sons de vogal juntos numa palavra. Existem três tipos: ditongo, tritongo e hiato.",
+          "Ditongo: dois sons de vogal na mesma sílaba. Exemplos: pai, céu, mãe, his-tó-ria. Um dos sons é mais forte (vogal) e o outro mais fraco (semivogal).",
+          "Tritongo: três sons de vogal na mesma sílaba. Exemplos: U-ru-guai, i-guais, quais.",
+          "Hiato: duas vogais vizinhas, mas em sílabas separadas. Exemplos: sa-ú-de, pi-a-no, lu-a, co-e-lho.",
+          "O segredo é separar as sílabas: se as vogais ficam juntas na mesma sílaba, é ditongo ou tritongo; se ficam em sílabas diferentes, é hiato."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique o encontro vocálico em “baú”.",
+            "resolucao": "Separando: ba-ú. O a e o u ficam em sílabas diferentes, então é hiato."
+          },
+          {
+            "enunciado": "Classifique o encontro vocálico em “cadeira”.",
+            "resolucao": "Separando: ca-dei-ra. O e e o i ficam juntos na sílaba “dei”, então é ditongo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O ditongo pode ser decrescente (vogal + semivogal, como em pai e céu) ou crescente (semivogal + vogal, como em ré-gua e his-tó-ria). Também pode ser oral (pai) ou nasal, quando o som sai pelo nariz (mãe, pão).",
+        "Uma palavra pode ter mais de um encontro. Em “saudade” (sau-da-de) há ditongo; em “juízes” (ju-í-zes) há hiato. Em “saguão” (sa-guão) aparece um tritongo nasal.",
+        "Atenção: em “quero” e “guerra”, o u não é pronunciado; ele só ajuda na escrita. Por isso, nessas palavras não há encontro vocálico. Já em “quatro” e “água” o u é pronunciado e forma ditongo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando dois sons de vogal ficam na MESMA sílaba, temos:",
+            "alternativas": [
+              "Ditongo",
+              "Hiato",
+              "Dígrafo",
+              "Sílaba tônica"
+            ],
+            "correta": 0,
+            "explicacao": "Dois sons de vogal juntos na mesma sílaba formam o ditongo, como em pai.",
+            "dica": "Lembre a palavra que começa com “di”, de dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra tem hiato?",
+            "alternativas": [
+              "pai",
+              "saúde",
+              "céu",
+              "mãe"
+            ],
+            "correta": 1,
+            "explicacao": "Sa-ú-de: o a e o u ficam em sílabas separadas.",
+            "dica": "Separe as sílabas e veja onde as vogais ficam separadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Tritongo tem quantos sons de vogal na mesma sílaba?",
+            "alternativas": [
+              "Dois",
+              "Quatro",
+              "Três",
+              "Um"
+            ],
+            "correta": 2,
+            "explicacao": "Tri quer dizer três, como em Uruguai (U-ru-guai).",
+            "dica": "O começo da palavra dá a pista: tri…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na palavra “lua” (lu-a), o encontro é:",
+            "alternativas": [
+              "Ditongo",
+              "Tritongo",
+              "Dígrafo",
+              "Hiato"
+            ],
+            "correta": 3,
+            "explicacao": "O u e o a estão em sílabas diferentes: lu-a. É hiato.",
+            "dica": "Olhe a separação que já foi dada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o segredo para descobrir o tipo de encontro vocálico?",
+            "alternativas": [
+              "Separar as sílabas",
+              "Contar as consoantes",
+              "Ler de trás para frente",
+              "Ver se a palavra é grande"
+            ],
+            "correta": 0,
+            "explicacao": "Separando as sílabas, sabemos se as vogais ficaram juntas ou separadas.",
+            "dica": "A lição falou de uma coisa que se faz com as palavras."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual palavra há ditongo?",
+            "alternativas": [
+              "piano",
+              "coelho",
+              "peixe",
+              "baú"
+            ],
+            "correta": 2,
+            "explicacao": "Pei-xe: o e e o i ficam juntos. Nas outras há hiato: pi-a-no, co-e-lho, ba-ú.",
+            "dica": "Separe todas e procure vogais juntas na mesma sílaba."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra tem tritongo?",
+            "alternativas": [
+              "iguais",
+              "cadeira",
+              "saída",
+              "rua"
+            ],
+            "correta": 0,
+            "explicacao": "I-guais: “uai” fica na mesma sílaba, três sons de vogal.",
+            "dica": "Procure três sons de vogal juntinhos numa sílaba só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Separe as sílabas de “poesia”:",
+            "alternativas": [
+              "poe-si-a",
+              "po-e-si-a",
+              "poe-sia",
+              "po-esi-a"
+            ],
+            "correta": 1,
+            "explicacao": "Po-e-si-a: o e se separa do o, e o i se separa do a. São dois hiatos.",
+            "dica": "Leia devagar, batendo palma em cada pedaço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na palavra “história” (his-tó-ria), o encontro “ia” é:",
+            "alternativas": [
+              "Hiato",
+              "Tritongo",
+              "Dígrafo",
+              "Ditongo"
+            ],
+            "correta": 3,
+            "explicacao": "O i e o a ficam na mesma sílaba “ria”: ditongo.",
+            "dica": "Veja se o i e o a estão na mesma sílaba."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual dupla tem SÓ palavras com hiato?",
+            "alternativas": [
+              "pai e mãe",
+              "dia e rio",
+              "céu e réu",
+              "boi e pau"
+            ],
+            "correta": 1,
+            "explicacao": "Di-a e ri-o: as vogais ficam separadas. As outras duplas têm ditongo.",
+            "dica": "Separe as sílabas de cada palavra das duplas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos encontros vocálicos há em “saudade”?",
+            "alternativas": [
+              "Nenhum",
+              "Dois",
+              "Um",
+              "Três"
+            ],
+            "correta": 2,
+            "explicacao": "Sau-da-de: só “au” forma encontro (ditongo). Nas outras sílabas há só uma vogal.",
+            "dica": "Separe as sílabas e procure vogais vizinhas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual palavra o u NÃO é pronunciado, e por isso não forma encontro vocálico?",
+            "alternativas": [
+              "guerra",
+              "água",
+              "quatro",
+              "égua"
+            ],
+            "correta": 0,
+            "explicacao": "Em guerra, o u só ajuda na escrita (gue). Em água, quatro e égua, o u é pronunciado.",
+            "dica": "Leia em voz alta e veja em qual o u fica mudo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra tem ditongo nasal?",
+            "alternativas": [
+              "pai",
+              "céu",
+              "piano",
+              "pão"
+            ],
+            "correta": 3,
+            "explicacao": "Em pão, o som de “ão” sai pelo nariz: ditongo nasal.",
+            "dica": "Tape o nariz e fale: em qual o som muda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na palavra “juízes”, o encontro “ui” é:",
+            "alternativas": [
+              "Ditongo",
+              "Hiato",
+              "Tritongo",
+              "Dígrafo"
+            ],
+            "correta": 1,
+            "explicacao": "Ju-í-zes: o u e o i ficam em sílabas diferentes. O acento no í ajuda a perceber a separação.",
+            "dica": "O acento agudo no i dá uma pista sobre a separação."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as palavras em ordem: hiato, ditongo, tritongo, sem encontro vocálico:",
+            "itens": [
+              "saída",
+              "cadeira",
+              "Uruguai",
+              "bola"
+            ],
+            "explicacao": "Sa-í-da (hiato), ca-dei-ra (ditongo), U-ru-guai (tritongo), bo-la (sem vogais vizinhas).",
+            "dica": "Separe as sílabas de cada palavra e classifique."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra tem um ditongo CRESCENTE?",
+            "alternativas": [
+              "pai",
+              "céu",
+              "água",
+              "boi"
+            ],
+            "correta": 2,
+            "explicacao": "Á-gua: no “ua”, o som fraco (u) vem antes do forte (a). Pai, céu e boi têm ditongo decrescente.",
+            "dica": "Crescente: o som fraco vem antes do forte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A palavra “saguão” tem:",
+            "alternativas": [
+              "Tritongo nasal",
+              "Hiato",
+              "Ditongo oral",
+              "Nenhum encontro"
+            ],
+            "correta": 0,
+            "explicacao": "Sa-guão: “uão” tem três sons de vogal na mesma sílaba, e o som sai pelo nariz.",
+            "dica": "Separe e conte quantos sons de vogal ficam na última sílaba."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual palavra há hiato E ditongo ao mesmo tempo?",
+            "alternativas": [
+              "piano",
+              "saideira",
+              "cadeira",
+              "Uruguai"
+            ],
+            "correta": 1,
+            "explicacao": "Sa-i-dei-ra: o a e o i ficam separados (hiato) e “ei” fica junto na mesma sílaba (ditongo). Piano só tem hiato, cadeira só ditongo e Uruguai tem tritongo.",
+            "dica": "Separe as sílabas de cada palavra e procure os dois tipos na mesma palavra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é VERDADEIRA?",
+            "alternativas": [
+              "Em “quero” há ditongo",
+              "Hiato tem duas vogais na mesma sílaba",
+              "Ditongo pode ser oral ou nasal",
+              "Tritongo tem dois sons de vogal"
+            ],
+            "correta": 2,
+            "explicacao": "Pai é ditongo oral; mãe, nasal. Em quero, o u é mudo; hiato separa as vogais; tritongo tem três sons.",
+            "dica": "Lembre o aprofundamento sobre o som que sai pelo nariz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas palavras têm hiato? saúde – peixe – piano – Paraguai – coelho",
+            "alternativas": [
+              "Duas",
+              "Quatro",
+              "Uma",
+              "Três"
+            ],
+            "correta": 3,
+            "explicacao": "Sa-ú-de, pi-a-no e co-e-lho têm hiato. Pei-xe tem ditongo e Pa-ra-guai, tritongo.",
+            "dica": "Separe todas e conte só as que têm vogais em sílabas diferentes."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O crivo do professor Elias",
+    "texto": "Na segunda-feira, o professor Elias entrou na sala com um cartaz cheio de números, de 1 a 50.\n\n— Hoje vamos peneirar números — anunciou.\n\nA turma riu. Peneira era coisa de cozinha, não de matemática. Mas ele explicou: os números primos são como pedrinhas que não passam pela peneira, porque ninguém consegue dividi-los, só o 1 e eles mesmos.\n\nPrimeiro, a Kauane riscou o 1, que não é primo. Depois, o Matheus circulou o 2 e riscou todos os pares. O cartaz ficou cheio de traços. Em seguida, a Yasmin guardou o 3 e riscou os múltiplos dele. Depois foi a vez do 5 e do 7.\n\nNo fim, sobraram quinze números circulados.\n\n— Esses aqui são os teimosos — disse o professor. — Ninguém consegue quebrar.\n\nO Matheus olhou o cartaz e sorriu:\n\n— Então o 2 é o único teimoso par!"
+  },
+  "escrita": {
+    "proposta": "Escreva de 5 a 8 linhas explicando, com suas palavras, como descobrir se um número é primo. Dê dois exemplos: um número primo e um número composto, mostrando os divisores de cada um."
+  }
+}

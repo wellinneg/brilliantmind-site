@@ -1,0 +1,1507 @@
+{
+  "dia": 24,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Radicais: simplificar, somar e multiplicar raízes",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Um radical tem índice e radicando: em ∛8, o índice é 3 e o radicando é 8. Na raiz quadrada, o índice 2 não aparece. √49 = 7 porque 7² = 49; ∛8 = 2 porque 2³ = 8.",
+          "Simplificar: separe o radicando em um fator que seja quadrado perfeito e tire esse fator da raiz. √12 = √(4 · 3) = 2√3; √50 = √(25 · 2) = 5√2; √72 = √(36 · 2) = 6√2.",
+          "Somar e subtrair: só radicais semelhantes (mesmo índice e mesmo radicando), como se fossem \"coisas iguais\": 3√2 + 5√2 = 8√2. Já √2 + √3 não se junta. Às vezes é preciso simplificar antes: √8 + √18 = 2√2 + 3√2 = 5√2.",
+          "Multiplicar e dividir (mesmo índice): junte tudo numa raiz só. √2 · √8 = √16 = 4; √50 ÷ √2 = √25 = 5.",
+          "Erro comum: √(9 + 16) não é √9 + √16. Primeiro some: √25 = 5. Separando, daria 3 + 4 = 7, que está errado."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Simplifique √48.",
+            "resolucao": "48 = 16 · 3, e 16 é quadrado perfeito. √48 = √16 · √3 = 4√3."
+          },
+          {
+            "enunciado": "Calcule 2√3 · 5√3.",
+            "resolucao": "Multiplique os números de fora e as raízes: 2 · 5 · √(3 · 3) = 10 · √9 = 10 · 3 = 30."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Racionalizar é tirar a raiz do denominador multiplicando em cima e embaixo pela raiz: 6/√3 = 6√3/3 = 2√3.",
+        "Raiz é potência com expoente fracionário: √a = a^(1/2) e ∛a = a^(1/3). Assim, 8^(2/3) = (∛8)² = 2² = 4.",
+        "Produtos úteis: (√a)² = a e (√5 + 1)(√5 − 1) = (√5)² − 1² = 5 − 1 = 4. A ideia de simplificar vale para outros índices: ∛54 = ∛(27 · 2) = 3∛2."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √49?",
+            "alternativas": [
+              "7",
+              "24,5",
+              "9",
+              "14"
+            ],
+            "correta": 0,
+            "explicacao": "7 × 7 = 49.",
+            "dica": "Que número vezes ele mesmo dá 49?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é ∛8?",
+            "alternativas": [
+              "4",
+              "2",
+              "3",
+              "24"
+            ],
+            "correta": 1,
+            "explicacao": "2 × 2 × 2 = 8.",
+            "dica": "Procure um número que, multiplicado três vezes, dá 8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3√2 + 5√2?",
+            "alternativas": [
+              "8√4",
+              "15√2",
+              "8√2",
+              "8"
+            ],
+            "correta": 2,
+            "explicacao": "Radicais iguais: soma os números da frente e mantém a raiz.",
+            "dica": "Pense em 3 maçãs + 5 maçãs."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma simplificada de √12?",
+            "alternativas": [
+              "3√2",
+              "6",
+              "4√3",
+              "2√3"
+            ],
+            "correta": 3,
+            "explicacao": "12 = 4 · 3; √4 = 2. Fica 2√3.",
+            "dica": "Ache um quadrado perfeito que divida 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √2 · √8?",
+            "alternativas": [
+              "√10",
+              "4",
+              "16",
+              "2√8"
+            ],
+            "correta": 1,
+            "explicacao": "√(2 · 8) = √16 = 4.",
+            "dica": "Junte tudo numa raiz só e multiplique dentro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma simplificada de √50?",
+            "alternativas": [
+              "5√2",
+              "25√2",
+              "2√5",
+              "10√5"
+            ],
+            "correta": 0,
+            "explicacao": "50 = 25 · 2; √25 = 5.",
+            "dica": "Procure o maior quadrado perfeito que divide 50."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √8 + √18?",
+            "alternativas": [
+              "√26",
+              "5√2",
+              "6√2",
+              "13√2"
+            ],
+            "correta": 1,
+            "explicacao": "√8 = 2√2 e √18 = 3√2; somando, 5√2.",
+            "dica": "Simplifique cada raiz antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √(9 + 16)?",
+            "alternativas": [
+              "7",
+              "25",
+              "5",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro some: 25. √25 = 5. O 7 é o erro de separar as raízes.",
+            "dica": "Resolva primeiro o que está dentro da raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma simplificada de √72?",
+            "alternativas": [
+              "8√3",
+              "3√8",
+              "36√2",
+              "6√2"
+            ],
+            "correta": 3,
+            "explicacao": "72 = 36 · 2; √36 = 6.",
+            "dica": "36 é um quadrado perfeito que divide 72."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √50 ÷ √2?",
+            "alternativas": [
+              "5",
+              "25",
+              "√48",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "√(50 ÷ 2) = √25 = 5.",
+            "dica": "Divida dentro de uma raiz só."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2√3 · 5√3?",
+            "alternativas": [
+              "10√3",
+              "30",
+              "7√3",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "10 · √9 = 10 · 3 = 30.",
+            "dica": "Multiplique os de fora e os de dentro separadamente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √48 − √12?",
+            "alternativas": [
+              "6",
+              "√36",
+              "2√3",
+              "4√3"
+            ],
+            "correta": 2,
+            "explicacao": "4√3 − 2√3 = 2√3. Não se pode fazer √(48 − 12).",
+            "dica": "Simplifique as duas antes de subtrair."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é √75 + √27?",
+            "alternativas": [
+              "8√3",
+              "√102",
+              "10√3",
+              "8√6"
+            ],
+            "correta": 0,
+            "explicacao": "√75 = 5√3 e √27 = 3√3; total 8√3.",
+            "dica": "As duas escondem o mesmo radical depois de simplificar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um quadrado de lado 3√2?",
+            "alternativas": [
+              "6√2",
+              "12",
+              "9√2",
+              "18"
+            ],
+            "correta": 3,
+            "explicacao": "(3√2)² = 9 · 2 = 18.",
+            "dica": "Área do quadrado é lado vezes lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o perímetro de um quadrado de lado √8?",
+            "alternativas": [
+              "8√2",
+              "32",
+              "4√2",
+              "16"
+            ],
+            "correta": 0,
+            "explicacao": "4 · √8 = 4 · 2√2 = 8√2.",
+            "dica": "Perímetro é a soma dos 4 lados; depois simplifique."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Racionalizando 6/√3, obtém-se:",
+            "alternativas": [
+              "6√3",
+              "2√3",
+              "√2",
+              "3√2"
+            ],
+            "correta": 1,
+            "explicacao": "6/√3 · √3/√3 = 6√3/3 = 2√3.",
+            "dica": "Multiplique em cima e embaixo pela raiz do denominador."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 8^(2/3)?",
+            "alternativas": [
+              "4",
+              "16/3",
+              "2",
+              "64"
+            ],
+            "correta": 0,
+            "explicacao": "∛8 = 2; 2² = 4.",
+            "dica": "O denominador do expoente é o índice da raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (√5 + 1)(√5 − 1)?",
+            "alternativas": [
+              "6",
+              "√5",
+              "4",
+              "24"
+            ],
+            "correta": 2,
+            "explicacao": "(√5)² − 1² = 5 − 1 = 4.",
+            "dica": "É o produto da soma pela diferença."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma simplificada de ∛54?",
+            "alternativas": [
+              "2∛3",
+              "9∛6",
+              "∛27 + ∛2",
+              "3∛2"
+            ],
+            "correta": 3,
+            "explicacao": "54 = 27 · 2 e ∛27 = 3.",
+            "dica": "Na raiz cúbica, procure um cubo perfeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A diagonal de um quadrado de lado 5 mede 5√2. Usando √2 ≈ 1,41, quanto ela mede aproximadamente?",
+            "alternativas": [
+              "10",
+              "7,05",
+              "7,5",
+              "5,41"
+            ],
+            "correta": 1,
+            "explicacao": "5 × 1,41 = 7,05.",
+            "dica": "Troque √2 pelo valor aproximado e multiplique."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Funções que devolvem valor e escopo de variáveis",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Função é um bloco com nome que faz uma tarefa. Com return, ela devolve um resultado que pode ser guardado ou usado em contas:\ndef dobro(n):\n    return n * 2\nx = dobro(5)\nAgora x vale 10.",
+          "print só mostra na tela; return entrega o valor ao programa. Uma função sem return devolve None (nada).",
+          "Quando o Python chega ao return, a função termina. Linhas escritas depois dele, dentro da função, não rodam.",
+          "Escopo: variável criada dentro da função é local e só existe lá dentro. Variável criada fora é global e pode ser lida dentro da função; mas, se você fizer uma atribuição com = dentro da função, cria outra variável local com o mesmo nome.",
+          "Parâmetros recebem os valores da chamada: def area(base, altura): return base * altura. Então area(4, 3) devolve 12."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "def media(a, b):\n    return (a + b) / 2\nO que mostra print(media(6, 9))?",
+            "resolucao": "(6 + 9) / 2 = 15 / 2 = 7.5."
+          },
+          {
+            "enunciado": "def teste():\n    y = 5\nteste()\nprint(y)\nO que acontece?",
+            "resolucao": "Dá erro (NameError): y é local e só existia dentro da função."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma função pode devolver mais de um valor: def min_max(lista): return min(lista), max(lista). Depois, a, b = min_max([4, 9, 1]) deixa a = 1 e b = 9.",
+        "Parâmetro com valor padrão: def saudacao(nome=\"aluno\"): return \"Oi, \" + nome. Então saudacao() devolve \"Oi, aluno\". Funções podem chamar funções: com def quadrado(n): return n * n, a função def soma_q(a, b): return quadrado(a) + quadrado(b) faz soma_q(3, 4) = 25.",
+        "Cuidado com o escopo: x = 10; def muda(): x = 99; muda(); print(x) mostra 10, porque o x de dentro é outra variável. E return sozinho, sem valor, também devolve None."
+      ],
+      "desafio_pratico": "Num site de Python on-line, crie a função imc(peso, altura) que devolve peso / (altura * altura). Chame com três pessoas diferentes, guarde os resultados em variáveis e mostre com round(valor, 1).",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra devolve um valor de dentro da função?",
+            "alternativas": [
+              "print",
+              "return",
+              "input",
+              "def"
+            ],
+            "correta": 1,
+            "explicacao": "return entrega o resultado ao programa.",
+            "dica": "Em inglês, \"devolver\" é..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def dobro(n): return n * 2. Quanto vale dobro(4)?",
+            "alternativas": [
+              "8",
+              "6",
+              "4",
+              "2"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 2 = 8.",
+            "dica": "A função multiplica por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma variável criada dentro de uma função é:",
+            "alternativas": [
+              "global",
+              "eterna",
+              "local",
+              "pública"
+            ],
+            "correta": 2,
+            "explicacao": "Só existe dentro da função.",
+            "dica": "Ela mora só ali dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma função sem return devolve:",
+            "alternativas": [
+              "0",
+              "erro",
+              "o último número",
+              "None"
+            ],
+            "correta": 3,
+            "explicacao": "None quer dizer \"nada\".",
+            "dica": "Se nada é devolvido, o Python usa uma palavra especial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def area(b, h): return b * h. Quanto vale area(4, 3)?",
+            "alternativas": [
+              "7",
+              "12",
+              "43",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "4 × 3 = 12.",
+            "dica": "A função multiplica os dois parâmetros."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def media(a, b): return (a + b) / 2. Quanto vale media(6, 9)?",
+            "alternativas": [
+              "7.5",
+              "15",
+              "7",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "15 / 2 = 7.5.",
+            "dica": "Some e divida por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def f(): y = 5. Depois, f() e print(y). O que acontece?",
+            "alternativas": [
+              "mostra 5",
+              "mostra None",
+              "NameError: y não existe fora da função",
+              "mostra 0"
+            ],
+            "correta": 2,
+            "explicacao": "y é local.",
+            "dica": "Onde a variável y foi criada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre print e return?",
+            "alternativas": [
+              "são iguais",
+              "print mostra na tela; return entrega o valor ao programa",
+              "return mostra na tela",
+              "print devolve valor para contas"
+            ],
+            "correta": 1,
+            "explicacao": "Só o valor devolvido pode ser guardado e usado em contas.",
+            "dica": "Um mostra, o outro entrega."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def f(n):\n    return n + 1\n    print(\"oi\")\nO que acontece com o print?",
+            "alternativas": [
+              "roda antes do return",
+              "dá erro",
+              "roda duas vezes",
+              "nunca roda, pois a função termina no return"
+            ],
+            "correta": 3,
+            "explicacao": "Depois do return, a função acaba.",
+            "dica": "O que o return faz com a função?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com dobro(n) devolvendo n * 2, quanto vale x = dobro(3) + dobro(2)?",
+            "alternativas": [
+              "10",
+              "5",
+              "12",
+              "32"
+            ],
+            "correta": 0,
+            "explicacao": "6 + 4 = 10.",
+            "dica": "Calcule cada chamada e some."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def quadrado(n): return n * n. def soma_q(a, b): return quadrado(a) + quadrado(b). Quanto vale soma_q(3, 4)?",
+            "alternativas": [
+              "7",
+              "49",
+              "25",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "9 + 16 = 25.",
+            "dica": "Calcule o quadrado de cada número e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 10. def muda(): x = 99. Depois, muda() e print(x). O que aparece?",
+            "alternativas": [
+              "99",
+              "10",
+              "None",
+              "erro"
+            ],
+            "correta": 1,
+            "explicacao": "O x de dentro é uma variável local nova; o x global continua 10.",
+            "dica": "A atribuição dentro da função cria outra variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def saudacao(nome=\"aluno\"): return \"Oi, \" + nome. O que devolve saudacao()?",
+            "alternativas": [
+              "Oi, ",
+              "erro",
+              "Oi, nome",
+              "Oi, aluno"
+            ],
+            "correta": 3,
+            "explicacao": "Sem argumento, usa o valor padrão.",
+            "dica": "Que valor o parâmetro recebe se a chamada vier vazia?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def f(n):\n    if n > 0:\n        return \"positivo\"\n    return \"não positivo\"\nO que devolve f(0)?",
+            "alternativas": [
+              "positivo",
+              "não positivo",
+              "None",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "0 > 0 é falso; vai para o segundo return.",
+            "dica": "Zero é maior que zero?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "resultado = print(5). Quanto vale resultado?",
+            "alternativas": [
+              "None",
+              "5",
+              "\"5\"",
+              "erro"
+            ],
+            "correta": 0,
+            "explicacao": "print mostra 5 na tela, mas devolve None.",
+            "dica": "print devolve algum valor?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def min_max(l): return min(l), max(l). a, b = min_max([4, 9, 1]). O que mostra print(b - a)?",
+            "alternativas": [
+              "5",
+              "8",
+              "3",
+              "13"
+            ],
+            "correta": 1,
+            "explicacao": "a = 1 e b = 9; 9 − 1 = 8.",
+            "dica": "Descubra qual valor vai para a e qual vai para b."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0\ndef soma(v):\n    total = v + 1\n    return total\nr = soma(5)\nprint(r, total)\nO que aparece?",
+            "alternativas": [
+              "6 6",
+              "5 0",
+              "6 0",
+              "0 0"
+            ],
+            "correta": 2,
+            "explicacao": "Dentro, total é local e vale 6, que vai para r. O total global continua 0.",
+            "dica": "Existem dois \"total\": um dentro e um fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def f(n): return n * 2. O que mostra print(f(f(f(1))))?",
+            "alternativas": [
+              "2",
+              "6",
+              "16",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "f(1) = 2; f(2) = 4; f(4) = 8.",
+            "dica": "Resolva de dentro para fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def g(x):\n    x = x + 1\n    return\nO que mostra print(g(3))?",
+            "alternativas": [
+              "None",
+              "4",
+              "3",
+              "erro"
+            ],
+            "correta": 0,
+            "explicacao": "return sem valor devolve None.",
+            "dica": "O return entrega algum valor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def desconto(preco, taxa=0.1): return preco * (1 - taxa). Quanto vale desconto(200) + desconto(200, 0.5)?",
+            "alternativas": [
+              "200.0",
+              "280.0",
+              "380.0",
+              "180.0"
+            ],
+            "correta": 1,
+            "explicacao": "desconto(200) = 180.0 (taxa padrão 0.1); desconto(200, 0.5) = 100.0. Soma: 280.0.",
+            "dica": "Na primeira chamada vale o padrão; na segunda, a taxa enviada."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Tabelas avançadas: mesclar células, bordas e somar no Word",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Inserir > Tabela e escolha linhas e colunas. Ao clicar na tabela, aparecem as guias Design da Tabela e Layout, com as ferramentas próprias de tabela.",
+          "Mesclar células: selecione duas ou mais e use Layout > Mesclar Células (ou o botão direito). É útil para o título ocupar toda a largura da tabela. Dividir Células faz o contrário.",
+          "Bordas e sombreamento: em Design da Tabela, Bordas escolhe espessura, cor e quais lados terão linha; Sombreamento pinta o fundo. Há também estilos prontos e a opção de destacar a linha de cabeçalho.",
+          "Somar no Word: clique na célula do total e vá em Layout > Fórmula. O Word sugere =SUM(ABOVE), que soma os números acima; =SUM(LEFT) soma os da esquerda. Se mudar algum número, clique no resultado e aperte F9 para atualizar.",
+          "Tabela que passa de uma página: selecione a primeira linha e use Layout > Repetir Linhas de Cabeçalho. Para alinhar o texto dentro da célula, use Layout > Alinhamento."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Monte o orçamento da festa da turma no Word.",
+            "resolucao": "Primeira linha mesclada com o título \"Orçamento da festa\"; colunas Item, Quantidade e Preço; na última linha, o total com Layout > Fórmula e =SUM(ABOVE)."
+          },
+          {
+            "enunciado": "A coluna de preços tem 25, 40 e 35, e o total usa =SUM(ABOVE). Depois o 40 vira 50. O que acontece?",
+            "resolucao": "O total começa em 100. Ao trocar 40 por 50, ele só passa para 110 depois de clicar no resultado e apertar F9."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "As fórmulas do Word também aceitam referências de planilha (colunas A, B, C e linhas 1, 2, 3): =B2*C2, =AVERAGE(ABOVE) (média) e =PRODUCT(LEFT) (produto). No quadro Fórmula, Formato do número deixa o resultado com casas decimais ou como moeda.",
+        "Tabela grande e cheia de contas fica melhor no Excel. Copie do Excel e, no Word, use Colar Especial > Colar vínculo: quando os números mudarem na planilha, o Word pode ser atualizado.",
+        "Texto separado por tabulação ou ponto e vírgula vira tabela em Inserir > Tabela > Converter Texto em Tabela."
+      ],
+      "desafio_pratico": "No Word, crie uma tabela de orçamento para uma festa da turma com 6 itens: título mesclado na primeira linha e colunas Item, Quantidade, Preço unitário e Total. Aplique bordas e sombreamento no cabeçalho, some os totais com Layout > Fórmula, mude um preço e atualize o resultado com F9.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando junta duas células numa só?",
+            "alternativas": [
+              "Dividir Células",
+              "Mesclar Células",
+              "Excluir",
+              "Copiar"
+            ],
+            "correta": 1,
+            "explicacao": "Mesclar une as células selecionadas.",
+            "dica": "Mesclar é misturar, juntar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia fica o comando para inserir uma tabela?",
+            "alternativas": [
+              "Inserir",
+              "Revisão",
+              "Exibir",
+              "Arquivo"
+            ],
+            "correta": 0,
+            "explicacao": "Inserir > Tabela.",
+            "dica": "Você está colocando algo novo no documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual recurso pinta o fundo da célula?",
+            "alternativas": [
+              "Bordas",
+              "Mesclar",
+              "Sombreamento",
+              "Fórmula"
+            ],
+            "correta": 2,
+            "explicacao": "Sombreamento colore o fundo.",
+            "dica": "Pense em sombra, cor de fundo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fórmula soma os números acima?",
+            "alternativas": [
+              "=SUM(LEFT)",
+              "=SOMA(B2)",
+              "=MAX(ABOVE)",
+              "=SUM(ABOVE)"
+            ],
+            "correta": 3,
+            "explicacao": "SUM = soma; ABOVE = acima.",
+            "dica": "Above, em inglês, quer dizer acima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que tecla atualiza o resultado de uma fórmula no Word?",
+            "alternativas": [
+              "F1",
+              "F9",
+              "Esc",
+              "Delete"
+            ],
+            "correta": 1,
+            "explicacao": "Clique no resultado e aperte F9.",
+            "dica": "É uma tecla de função perto do fim da fileira."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Coluna com 25, 40 e 35 e total com =SUM(ABOVE). Qual é o total?",
+            "alternativas": [
+              "100",
+              "75",
+              "65",
+              "25"
+            ],
+            "correta": 0,
+            "explicacao": "25 + 40 + 35 = 100.",
+            "dica": "Some os três números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você mudou o 40 para 50 e o total não mudou. O que fazer?",
+            "alternativas": [
+              "Nada, o Word errou",
+              "Clicar no total e apertar F9",
+              "Apagar a tabela",
+              "Mudar a fonte"
+            ],
+            "correta": 1,
+            "explicacao": "As fórmulas do Word não se atualizam sozinhas.",
+            "dica": "O resultado precisa ser atualizado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fazer o título ocupar toda a largura da tabela?",
+            "alternativas": [
+              "Dividir as células",
+              "Aplicar bordas",
+              "Mesclar as células da 1ª linha",
+              "Usar sombreamento"
+            ],
+            "correta": 2,
+            "explicacao": "Mesclar a linha toda cria uma célula larga.",
+            "dica": "Junte as células da primeira linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A tabela passou para a página seguinte e o cabeçalho sumiu lá. O que usar?",
+            "alternativas": [
+              "copiar e colar o cabeçalho",
+              "aumentar a fonte",
+              "quebra de página",
+              "Repetir Linhas de Cabeçalho"
+            ],
+            "correta": 3,
+            "explicacao": "O Word repete a linha de cabeçalho em cada página.",
+            "dica": "Procure a opção que repete automaticamente."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para somar uma coluna no Word:",
+            "itens": [
+              "Clicar na célula do total",
+              "Ir em Layout > Fórmula",
+              "Conferir a fórmula =SUM(ABOVE)",
+              "Clicar em OK"
+            ],
+            "explicacao": "Primeiro escolha onde vai o resultado.",
+            "dica": "O Word precisa saber onde colocar o total."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O total fica na última célula da linha, somando os números à esquerda. Qual fórmula usar?",
+            "alternativas": [
+              "=SUM(ABOVE)",
+              "=SUM(LEFT)",
+              "=SUM(RIGHT)",
+              "=SUM(BELOW)"
+            ],
+            "correta": 1,
+            "explicacao": "LEFT = esquerda.",
+            "dica": "Onde estão os números em relação ao total?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Linha com 30, 20 e 10 e =SUM(LEFT) na última célula. Qual é o resultado?",
+            "alternativas": [
+              "30",
+              "10",
+              "60",
+              "20"
+            ],
+            "correta": 2,
+            "explicacao": "30 + 20 + 10 = 60.",
+            "dica": "Some tudo o que está à esquerda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma tabela de 200 linhas com muitas contas deve ser feita:",
+            "alternativas": [
+              "toda no Word",
+              "à mão",
+              "impressa e calculada",
+              "no Excel e colada com vínculo no Word"
+            ],
+            "correta": 3,
+            "explicacao": "O Excel calcula melhor; o vínculo leva o resultado ao Word.",
+            "dica": "Qual programa é feito para contas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como transformar várias linhas de texto como \"Arroz;5;R$ 25\" em tabela?",
+            "alternativas": [
+              "Inserir > Tabela > Converter Texto em Tabela",
+              "Apagar e digitar tudo de novo",
+              "Mesclar células",
+              "Sombreamento"
+            ],
+            "correta": 0,
+            "explicacao": "O Word usa o ponto e vírgula como separador de colunas.",
+            "dica": "Existe um comando que converte texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como separar uma célula em duas colunas?",
+            "alternativas": [
+              "Mesclar Células",
+              "Dividir Células",
+              "Bordas",
+              "Alinhamento"
+            ],
+            "correta": 1,
+            "explicacao": "Dividir é o contrário de mesclar.",
+            "dica": "Você quer o contrário de juntar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na tabela, a coluna B é Quantidade e a C é Preço. Na linha 2, quantidade 3 e preço 12. Quanto dá =B2*C2?",
+            "alternativas": [
+              "15",
+              "36",
+              "312",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "3 × 12 = 36.",
+            "dica": "Multiplique quantidade por preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Notas 6, 8 e 10 acima e a fórmula =AVERAGE(ABOVE). Qual é o resultado?",
+            "alternativas": [
+              "8",
+              "24",
+              "6",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "AVERAGE é média: 24 ÷ 3 = 8.",
+            "dica": "Average, em inglês, quer dizer média."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O total =SUM(ABOVE) mostrava 150. Inseriram uma linha acima dele com R$ 30 e apertaram F9. Novo total?",
+            "alternativas": [
+              "150",
+              "30",
+              "180",
+              "120"
+            ],
+            "correta": 2,
+            "explicacao": "150 + 30 = 180, pois F9 recalculou.",
+            "dica": "O F9 refaz a conta com a linha nova."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a vantagem de colar a tabela do Excel com vínculo?",
+            "alternativas": [
+              "fica mais bonita",
+              "não precisa salvar",
+              "apaga o Excel",
+              "se os números mudarem no Excel, o Word pode ser atualizado"
+            ],
+            "correta": 3,
+            "explicacao": "O vínculo liga os dois arquivos.",
+            "dica": "Vínculo é ligação entre arquivos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A primeira linha tem 4 células. Mesclando todas, quantas células ficam nessa linha?",
+            "alternativas": [
+              "4",
+              "2",
+              "1",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "Mesclar tudo deixa uma única célula.",
+            "dica": "Juntar quatro em uma dá quantas?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Formalizar o negócio: do MEI à microempresa",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Negócio informal não tem CNPJ, não emite nota fiscal e o dono não contribui para o INSS. Parece mais barato, mas impede vender para empresas e prefeituras, conseguir crédito com juros menores e ter proteção numa doença ou acidente.",
+          "MEI (Microempreendedor Individual) é a forma mais simples. Faturamento de até R$ 81 mil por ano (cerca de R$ 6.750 por mês), atividade que esteja na lista permitida, não pode ser sócio de outra empresa e pode ter 1 funcionário registrado, que ganhe o salário mínimo ou o piso da categoria. Abre-se de graça pelo Portal do Empreendedor, no gov.br.",
+          "O MEI paga todo mês um valor fixo, o DAS, que inclui o INSS e o ISS ou ICMS, vendendo muito ou pouco. Ganha CNPJ, pode emitir nota fiscal e tem direito a benefícios do INSS, como aposentadoria por idade, auxílio por incapacidade e salário-maternidade, cumpridas as carências. Todo ano entrega uma declaração com o faturamento.",
+          "Cresceu? Microempresa (ME) fatura até R$ 360 mil por ano; Empresa de Pequeno Porte (EPP), até R$ 4,8 milhões. Elas podem optar pelo Simples Nacional, que junta vários impostos numa guia só, com alíquota que depende da atividade e do faturamento. Aqui o contador passa a ser indispensável.",
+          "Cuidados: separar o dinheiro da empresa do dinheiro de casa, pagar o DAS em dia, guardar as notas e acompanhar o faturamento para não estourar o limite. Formalizar é o primeiro passo para ter funcionários registrados e crescer dentro da lei."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Rafa vende açaí e fatura R$ 5.000 por mês. Pode ser MEI?",
+            "resolucao": "5.000 × 12 = R$ 60.000 por ano, abaixo de R$ 81 mil. Pode, se a atividade estiver na lista do MEI."
+          },
+          {
+            "enunciado": "E se faturasse R$ 9.000 por mês?",
+            "resolucao": "9.000 × 12 = R$ 108.000 por ano: passa do limite do MEI. Deveria ser microempresa."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Estourou o limite? Se o faturamento passar até 20% (até R$ 97.200), o MEI paga imposto sobre o excesso e vira ME no ano seguinte. Se passar mais de 20%, o desenquadramento volta ao início do ano, com mais impostos a pagar.",
+        "No ano em que abre, o limite é proporcional: R$ 6.750 por mês de atividade. Quem abre em julho pode faturar, nesse ano, até 6 × 6.750 = R$ 40.500.",
+        "Na microempresa, o dono pode receber pró-labore (com INSS) e participação nos lucros, e os funcionários são contratados pela CLT. O MEI não pode ter sócio."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa MEI?",
+            "alternativas": [
+              "Microempreendedor Individual",
+              "Menor Empresa Isenta",
+              "Mercado de Empresas Internacionais",
+              "Meio Empregado"
+            ],
+            "correta": 0,
+            "explicacao": "É o jeito mais simples de formalizar um pequeno negócio.",
+            "dica": "Tem a ver com uma pessoa que empreende sozinha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao formalizar, o negócio ganha:",
+            "alternativas": [
+              "um RG novo",
+              "um CNPJ",
+              "férias pagas pelo governo",
+              "isenção de tudo"
+            ],
+            "correta": 1,
+            "explicacao": "CNPJ é o cadastro da empresa.",
+            "dica": "É o \"CPF\" da empresa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos funcionários registrados o MEI pode ter?",
+            "alternativas": [
+              "nenhum",
+              "10",
+              "1",
+              "quantos quiser"
+            ],
+            "correta": 2,
+            "explicacao": "Um funcionário, ganhando o mínimo ou o piso da categoria.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a guia mensal fixa do MEI?",
+            "alternativas": [
+              "IPVA",
+              "IPTU",
+              "FGTS",
+              "DAS"
+            ],
+            "correta": 3,
+            "explicacao": "O DAS inclui o INSS e o imposto da atividade.",
+            "dica": "São três letras e é paga todo mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um risco de ficar na informalidade é:",
+            "alternativas": [
+              "não poder emitir nota fiscal nem ter INSS",
+              "pagar imposto demais",
+              "ter CNPJ",
+              "ganhar demais"
+            ],
+            "correta": 0,
+            "explicacao": "Sem nota, perde clientes; sem INSS, fica desprotegido.",
+            "dica": "O que o informal não tem?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um negócio fatura R$ 5.000 por mês. Pode ser MEI?",
+            "alternativas": [
+              "Não, passa do limite",
+              "Sim, R$ 60 mil por ano está abaixo de R$ 81 mil",
+              "Só se tiver sócio",
+              "Só com 5 funcionários"
+            ],
+            "correta": 1,
+            "explicacao": "5.000 × 12 = 60.000.",
+            "dica": "Calcule o faturamento do ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A microempresa pode faturar até quanto por ano?",
+            "alternativas": [
+              "R$ 81 mil",
+              "R$ 4,8 milhões",
+              "R$ 360 mil",
+              "R$ 1 milhão"
+            ],
+            "correta": 2,
+            "explicacao": "ME: até R$ 360 mil; EPP: até R$ 4,8 milhões.",
+            "dica": "Fica entre o MEI e a EPP."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se abre o MEI de graça?",
+            "alternativas": [
+              "no cartório, pagando taxa",
+              "no Portal do Empreendedor (gov.br)",
+              "numa loja",
+              "no banco"
+            ],
+            "correta": 1,
+            "explicacao": "A abertura é on-line e gratuita.",
+            "dica": "É um site do governo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O DAS do MEI:",
+            "alternativas": [
+              "muda conforme as vendas",
+              "só é pago quando se vende muito",
+              "é pago uma vez por ano",
+              "é fixo por mês e inclui o INSS"
+            ],
+            "correta": 3,
+            "explicacao": "O valor não depende do faturamento.",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o caminho de crescimento de um negócio:",
+            "itens": [
+              "Informal",
+              "MEI",
+              "Microempresa",
+              "Empresa de Pequeno Porte"
+            ],
+            "explicacao": "Do sem registro ao maior limite de faturamento.",
+            "dica": "Siga os limites de faturamento, do menor para o maior."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um negócio fatura R$ 9.000 por mês. O que deve fazer?",
+            "alternativas": [
+              "pode continuar MEI",
+              "passa de R$ 81 mil no ano e deve ser ME",
+              "deve ser EPP",
+              "não precisa de CNPJ"
+            ],
+            "correta": 1,
+            "explicacao": "9.000 × 12 = 108.000, acima do MEI e abaixo de 360 mil.",
+            "dica": "Calcule o ano e compare com os limites."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O MEI quer contratar 1 funcionário. Ele deve pagar:",
+            "alternativas": [
+              "metade do mínimo",
+              "só comissão, sem mínimo",
+              "o salário mínimo ou o piso da categoria, com carteira",
+              "sem registro, para economizar"
+            ],
+            "correta": 2,
+            "explicacao": "Funcionário do MEI é registrado e recebe pelo menos o mínimo ou o piso.",
+            "dica": "A regra do MEI fala em registro e piso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O MEI pode ser sócio de outra empresa?",
+            "alternativas": [
+              "Não",
+              "Sim, de quantas quiser",
+              "Só de uma",
+              "Só se faturar pouco"
+            ],
+            "correta": 0,
+            "explicacao": "É uma das condições para ser MEI.",
+            "dica": "Releia as condições do MEI."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que separar a conta da empresa da conta pessoal?",
+            "alternativas": [
+              "porque é bonito",
+              "para pagar menos imposto",
+              "não precisa separar",
+              "para saber se o negócio dá lucro de verdade"
+            ],
+            "correta": 3,
+            "explicacao": "Misturando, os gastos de casa escondem o resultado do negócio.",
+            "dica": "Como saber o lucro com tudo misturado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O Simples Nacional é:",
+            "alternativas": [
+              "um imposto só do MEI",
+              "um regime que junta vários impostos numa guia, para ME e EPP",
+              "um banco",
+              "uma multa"
+            ],
+            "correta": 1,
+            "explicacao": "Simplifica o pagamento dos impostos das pequenas empresas.",
+            "dica": "O nome já diz: simplificar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um MEI faturou R$ 92.000 no ano. O que acontece?",
+            "alternativas": [
+              "o desenquadramento volta ao início do ano",
+              "paga imposto sobre o excesso e vira ME no ano seguinte",
+              "nada acontece",
+              "a empresa é fechada"
+            ],
+            "correta": 1,
+            "explicacao": "Excesso: 11.000, cerca de 13,6% de 81.000, abaixo de 20%.",
+            "dica": "Calcule quanto passou do limite e compare com 20%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um MEI faturou R$ 110.000 no ano. O que acontece?",
+            "alternativas": [
+              "paga só sobre o excesso",
+              "vira ME só no ano seguinte, sem mais nada",
+              "nada",
+              "o desenquadramento volta ao início do ano, com mais impostos"
+            ],
+            "correta": 3,
+            "explicacao": "Excesso: 29.000, cerca de 36%, acima de 20%.",
+            "dica": "O limite de tolerância é 20% de 81 mil."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém abriu MEI em julho. Qual é o limite de faturamento nesse ano?",
+            "alternativas": [
+              "R$ 81.000",
+              "R$ 47.250",
+              "R$ 40.500",
+              "R$ 33.750"
+            ],
+            "correta": 2,
+            "explicacao": "De julho a dezembro são 6 meses: 6 × 6.750 = 40.500.",
+            "dica": "Conte os meses de julho a dezembro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 20% acima do limite de R$ 81 mil?",
+            "alternativas": [
+              "R$ 97.200",
+              "R$ 101.000",
+              "R$ 16.200",
+              "R$ 89.100"
+            ],
+            "correta": 0,
+            "explicacao": "20% de 81.000 = 16.200; 81.000 + 16.200 = 97.200.",
+            "dica": "Calcule os 20% e some ao limite."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude é crescer dentro da lei?",
+            "alternativas": [
+              "contratar 3 pessoas sem registro e continuar MEI",
+              "esconder parte das vendas para não passar do limite",
+              "migrar para ME com contador, registrar a equipe e emitir nota",
+              "usar o CNPJ de um parente"
+            ],
+            "correta": 2,
+            "explicacao": "Crescer pede o porte certo e funcionários registrados.",
+            "dica": "Descarte as opções que escondem algo do governo ou dos trabalhadores."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Aposto e vocativo: as vírgulas que explicam e que chamam",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Aposto é o termo que explica, resume ou especifica outro termo da oração. Geralmente vem entre vírgulas, travessões ou depois de dois-pontos: \"Dona Rosa, a vizinha do 12, faz bolos.\"",
+          "Tipos de aposto: explicativo (\"Brasília, capital do Brasil, foi inaugurada em 1960\"); enumerativo (\"Comprei três coisas: arroz, feijão e óleo\"); resumitivo (\"Arroz, feijão, óleo, tudo subiu\"); especificativo, sem vírgula (\"a cidade de Santos\", \"o poeta Gonçalves Dias\").",
+          "Vocativo é o termo usado para chamar alguém ou falar diretamente com alguém. Não é sujeito nem complemento: fica fora da estrutura da oração. Sempre vem separado por vírgula: \"Pedro, venha cá.\" \"Venha cá, Pedro.\"",
+          "Diferença: o aposto fala SOBRE alguém; o vocativo fala COM alguém. \"Pedro, meu irmão, chegou cedo\" (aposto: fala de Pedro, que é o sujeito). \"Pedro, chegou o seu irmão\" (vocativo: fala com Pedro; o sujeito é \"o seu irmão\").",
+          "A vírgula muda o sentido: \"Ana, a professora chegou\" (falando com Ana) x \"Ana, a professora, chegou\" (Ana é a professora)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: \"Crianças, guardem o material.\" / \"Ana, minha prima, mora em Osasco.\"",
+            "resolucao": "Crianças: vocativo (chama as crianças). Minha prima: aposto explicativo (explica quem é Ana)."
+          },
+          {
+            "enunciado": "Pontue: \"Professor posso sair\"",
+            "resolucao": "\"Professor, posso sair?\" O vocativo é separado por vírgula, e a pergunta termina com ponto de interrogação."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O aposto especificativo não leva vírgula e individualiza um nome geral: \"o rio Tietê\", \"o mês de maio\", \"a rua Augusta\".",
+        "O vocativo pode vir com a interjeição ó, comum na poesia: \"Ó mar salgado\", escreveu Fernando Pessoa.",
+        "Atenção: separar o sujeito do verbo com vírgula é erro (\"Os alunos, chegaram\"). Já o vocativo e o aposto explicativo pedem vírgula."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O vocativo serve para:",
+            "alternativas": [
+              "chamar alguém",
+              "explicar algo",
+              "indicar tempo",
+              "mostrar ação"
+            ],
+            "correta": 0,
+            "explicacao": "Vocativo vem de \"vocare\", chamar.",
+            "dica": "Pense em como você chama um amigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Dona Rosa, a vizinha, faz bolos.\" O termo \"a vizinha\" é:",
+            "alternativas": [
+              "vocativo",
+              "aposto",
+              "sujeito",
+              "verbo"
+            ],
+            "correta": 1,
+            "explicacao": "Explica quem é dona Rosa.",
+            "dica": "Fala com ela ou sobre ela?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pontuação está correta?",
+            "alternativas": [
+              "Pedro venha cá.",
+              "Pedro venha, cá.",
+              "Pedro, venha cá.",
+              "Pedro: venha cá"
+            ],
+            "correta": 2,
+            "explicacao": "O vocativo é separado por vírgula.",
+            "dica": "Separe o nome de quem é chamado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Crianças, guardem o material\", \"Crianças\" é:",
+            "alternativas": [
+              "aposto",
+              "objeto",
+              "sujeito",
+              "vocativo"
+            ],
+            "correta": 3,
+            "explicacao": "A frase chama as crianças.",
+            "dica": "Alguém está sendo chamado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O aposto geralmente aparece:",
+            "alternativas": [
+              "entre vírgulas, explicando um termo",
+              "no fim do livro",
+              "só em perguntas",
+              "sem relação com nada"
+            ],
+            "correta": 0,
+            "explicacao": "Ele explica um termo vizinho.",
+            "dica": "Releia o primeiro parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Comprei três coisas: arroz, feijão e óleo.\" O aposto é:",
+            "alternativas": [
+              "explicativo",
+              "enumerativo",
+              "resumitivo",
+              "especificativo"
+            ],
+            "correta": 1,
+            "explicacao": "Lista as três coisas.",
+            "dica": "Enumerar é listar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Arroz, feijão, óleo, tudo subiu.\" A palavra \"tudo\" é aposto:",
+            "alternativas": [
+              "enumerativo",
+              "explicativo",
+              "resumitivo",
+              "especificativo"
+            ],
+            "correta": 2,
+            "explicacao": "Tudo resume a lista.",
+            "dica": "A palavra junta os itens numa só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ana, a professora chegou.\" Ana é:",
+            "alternativas": [
+              "vocativo",
+              "aposto",
+              "sujeito",
+              "objeto"
+            ],
+            "correta": 0,
+            "explicacao": "Fala-se com Ana; o sujeito é a professora.",
+            "dica": "Repare em quantas vírgulas há."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"A cidade de Santos fica no litoral.\" O termo \"de Santos\" é:",
+            "alternativas": [
+              "vocativo",
+              "aposto explicativo",
+              "sujeito",
+              "aposto especificativo, sem vírgula"
+            ],
+            "correta": 3,
+            "explicacao": "Individualiza o nome geral \"cidade\".",
+            "dica": "Não há vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem vocativo?",
+            "alternativas": [
+              "Lia, minha amiga, viajou",
+              "Lia, você viu meu caderno?",
+              "Lia viajou ontem",
+              "A amiga de Lia viajou"
+            ],
+            "correta": 1,
+            "explicacao": "Fala-se diretamente com Lia.",
+            "dica": "Procure a frase em que alguém conversa com Lia."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Compare \"Ana, a professora, chegou\" e \"Ana, a professora chegou\":",
+            "alternativas": [
+              "1º aposto; 2º vocativo",
+              "1º vocativo; 2º aposto",
+              "os dois são apostos",
+              "os dois são vocativos"
+            ],
+            "correta": 0,
+            "explicacao": "Na 1ª, a professora explica Ana. Na 2ª, fala-se com Ana.",
+            "dica": "Conte as vírgulas em cada frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a pontuação correta?",
+            "alternativas": [
+              "Senhores, passageiros o ônibus vai partir.",
+              "Senhores passageiros o ônibus, vai partir.",
+              "Senhores passageiros, o ônibus vai partir.",
+              "Senhores passageiros o ônibus vai, partir."
+            ],
+            "correta": 2,
+            "explicacao": "\"Senhores passageiros\" é vocativo e vem separado por vírgula.",
+            "dica": "Quem está sendo chamado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Machado de Assis, autor de Dom Casmurro, nasceu no Rio.\" O aposto é:",
+            "alternativas": [
+              "Machado de Assis",
+              "autor de Dom Casmurro",
+              "no Rio",
+              "nasceu"
+            ],
+            "correta": 1,
+            "explicacao": "Explica quem foi Machado de Assis.",
+            "dica": "Procure o trecho entre vírgulas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está errada?",
+            "alternativas": [
+              "Os alunos chegaram cedo.",
+              "Alunos, cheguem cedo.",
+              "Os alunos, todos do 9º ano, chegaram cedo.",
+              "Os alunos, chegaram cedo."
+            ],
+            "correta": 3,
+            "explicacao": "Não se separa o sujeito do verbo com vírgula.",
+            "dica": "Veja se alguma vírgula separa o sujeito do verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Pedro, chegou o seu irmão.\" O sujeito de \"chegou\" é:",
+            "alternativas": [
+              "Pedro",
+              "o seu irmão",
+              "oculto",
+              "indeterminado"
+            ],
+            "correta": 1,
+            "explicacao": "Pedro é vocativo; quem chegou foi o irmão.",
+            "dica": "Pergunte ao verbo: quem chegou?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos vocativos há em \"Mãe, a Júlia, minha colega, pode dormir aqui? Por favor, mãe!\"?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "Mãe (duas vezes) é vocativo. A Júlia é sujeito e minha colega é aposto.",
+            "dica": "Separe quem é chamado de quem é explicado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Compare \"Maria, minha vizinha, me ajudou\" e \"Maria, minha vizinha me ajudou\":",
+            "alternativas": [
+              "são iguais",
+              "no 1º, Maria é vocativo",
+              "no 1º, minha vizinha é aposto; no 2º, é sujeito e Maria é vocativo",
+              "nos dois, Maria é sujeito"
+            ],
+            "correta": 2,
+            "explicacao": "Na 2ª, fala-se com Maria, e quem ajudou foi a vizinha.",
+            "dica": "Pergunte ao verbo, em cada frase, quem ajudou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem aposto especificativo?",
+            "alternativas": [
+              "O rio Tietê corta São Paulo",
+              "Tietê, o rio, corta São Paulo",
+              "Rio, cuidado com a cheia",
+              "São Paulo, Campinas e Santos, todas cresceram"
+            ],
+            "correta": 0,
+            "explicacao": "\"Tietê\" individualiza \"rio\", sem vírgula.",
+            "dica": "O especificativo vem sem vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ó mar salgado\", a expressão \"Ó mar salgado\" é:",
+            "alternativas": [
+              "aposto",
+              "sujeito",
+              "objeto",
+              "vocativo"
+            ],
+            "correta": 3,
+            "explicacao": "O poeta se dirige ao mar.",
+            "dica": "Releia o aprofundamento sobre a interjeição ó."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase fala COM o vizinho, e não SOBRE ele?",
+            "alternativas": [
+              "O vizinho, seu Jorge, consertou o portão.",
+              "Seu Jorge, o vizinho consertou o portão.",
+              "O vizinho seu Jorge consertou o portão.",
+              "Seu Jorge, vizinho dedicado, consertou o portão."
+            ],
+            "correta": 1,
+            "explicacao": "Seu Jorge é chamado; quem consertou foi \"o vizinho\".",
+            "dica": "Procure a frase em que o nome fica sozinho antes da vírgula."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A barraca que virou CNPJ",
+    "texto": "Thiago vendia açaí numa barraca em frente à estação de trem desde os dezoito anos. Começou com um isopor e uma colher grande; três anos depois, tinha freezer, toldo, maquininha de cartão e clientes que chegavam pelo nome. Faturava perto de cinco mil reais por mês, tudo anotado num caderno de capa dura.\n\nO problema apareceu num dia de chuva. Uma escola do bairro queria açaí para a festa junina, quatrocentos copos, mas só podia pagar com nota fiscal. Thiago não tinha nota, nem CNPJ, nem ideia de como conseguir. Perdeu a venda para uma lanchonete.\n\nNaquela noite, a irmã, Kelly, que fazia curso técnico de administração, sentou com ele à mesa da cozinha. Fizeram as contas: sessenta mil por ano, abaixo do limite do MEI. A atividade estava na lista. Fizeram o cadastro no portal do governo, de graça, em menos de uma hora.\n\nNo mês seguinte, Thiago pagou o primeiro DAS e sentiu um aperto. Era dinheiro que antes ficava no bolso. Mas Kelly mostrou o outro lado: agora ele contribuía para o INSS, podia emitir nota, abrir conta de empresa e pedir empréstimo com juros menores para comprar um segundo freezer.\n\nEla também insistiu numa regra: separar o dinheiro da barraca do dinheiro de casa. No primeiro mês, Thiago descobriu que o lucro era menor do que imaginava; gastava parte do caixa em lanche e passagem sem perceber.\n\nEm dezembro, a escola voltou a ligar. Desta vez, a nota saiu na hora, e o pedido foi de seiscentos copos."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, liste as vantagens e os cuidados de formalizar um pequeno negócio e diga, justificando, se você formalizaria a barraca da história."
+  }
+}

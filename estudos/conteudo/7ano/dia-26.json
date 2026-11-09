@@ -1,0 +1,804 @@
+{
+  "dia": 26,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Potenciação com números inteiros",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Potência é uma multiplicação de fatores iguais. Em 2⁵, o 2 é a base (o número que se repete) e o 5 é o expoente (quantas vezes ele aparece): 2⁵ = 2 × 2 × 2 × 2 × 2 = 32.",
+          "Com base negativa, use a regra de sinais em cada multiplicação: (−2)³ = (−2) × (−2) × (−2) = −8, mas (−2)⁴ = 16. Base negativa com expoente par dá resultado positivo; com expoente ímpar, dá negativo.",
+          "Atenção aos parênteses: (−3)² = (−3) × (−3) = 9, mas −3² = −(3 × 3) = −9. Sem parênteses, o expoente vale só para o 3, e o sinal de menos fica de fora.",
+          "Dois casos especiais: todo número elevado a 1 é ele mesmo (7¹ = 7) e todo número diferente de zero elevado a 0 vale 1 (7⁰ = 1). Nas potências de 10, o expoente diz quantos zeros: 10³ = 1.000.",
+          "Numa expressão, a potência é resolvida antes da multiplicação, da divisão, da soma e da subtração."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Calcule (−5)² + (−2)³.",
+            "resolucao": "(−5)² = 25 (expoente par, positivo). (−2)³ = −8 (expoente ímpar, negativo). 25 + (−8) = 17."
+          },
+          {
+            "enunciado": "Calcule 3 + 2 × 4².",
+            "resolucao": "Primeiro a potência: 4² = 16. Depois a multiplicação: 2 × 16 = 32. Por fim a soma: 3 + 32 = 35."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Multiplicação de potências de mesma base: conserva a base e soma os expoentes. 2³ × 2⁴ = 2⁷ = 128. Divisão de mesma base: subtrai os expoentes. 5⁶ ÷ 5⁴ = 5² = 25.",
+        "Potência de potência: multiplica os expoentes. (3²)³ = 3⁶ = 729. Confira: 3² = 9 e 9³ = 9 × 9 × 9 = 729.",
+        "Coisas que dobram ou triplicam a cada passo crescem como potências: começando com 1 e dobrando, depois de n passos temos 2ⁿ. Por isso 2¹⁰ = 1.024 assusta: dez dobras já passam de mil."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2³?",
+            "alternativas": ["6", "8", "5", "9"],
+            "correta": 1,
+            "explicacao": "2³ = 2 × 2 × 2 = 8. O 6 aparece quando alguém faz 2 × 3, que é outra conta.",
+            "dica": "Multiplique o 2 por ele mesmo, com três fatores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 5², qual número é a base?",
+            "alternativas": ["5", "2", "10", "25"],
+            "correta": 0,
+            "explicacao": "A base é o número que se repete na multiplicação: 5 × 5. O 2 é o expoente.",
+            "dica": "A base é o número que se repete na multiplicação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−2)²?",
+            "alternativas": ["−4", "−2", "4", "2"],
+            "correta": 2,
+            "explicacao": "(−2) × (−2) = 4. Menos vezes menos dá mais.",
+            "dica": "Multiplique (−2) por (−2) e lembre: menos vezes menos..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 7⁰?",
+            "alternativas": ["0", "7", "70", "1"],
+            "correta": 3,
+            "explicacao": "Todo número diferente de zero elevado a 0 vale 1.",
+            "dica": "Lembre a regra do expoente zero que está na lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10²?",
+            "alternativas": ["20", "100", "12", "1.000"],
+            "correta": 1,
+            "explicacao": "10² = 10 × 10 = 100. Nas potências de 10, o expoente diz quantos zeros.",
+            "dica": "O expoente de uma potência de 10 diz quantos zeros vêm depois do 1."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−3)³?",
+            "alternativas": ["−27", "27", "−9", "9"],
+            "correta": 0,
+            "explicacao": "(−3) × (−3) = 9 e 9 × (−3) = −27. Base negativa com expoente ímpar dá negativo.",
+            "dica": "Expoente ímpar com base negativa: qual sinal? E quanto é 3 × 3 × 3?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é −4²?",
+            "alternativas": ["16", "−8", "−16", "8"],
+            "correta": 2,
+            "explicacao": "Sem parênteses, o expoente vale só para o 4: −(4 × 4) = −16.",
+            "dica": "Sem parênteses, o expoente vale só para o 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−1)⁸?",
+            "alternativas": ["−1", "−8", "8", "1"],
+            "correta": 3,
+            "explicacao": "Expoente par com base negativa dá positivo, e 1 × 1 × ... × 1 = 1.",
+            "dica": "O expoente é par ou ímpar? E 1 multiplicado por 1 muitas vezes dá quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Calcule 2 + 3².",
+            "alternativas": ["25", "11", "10", "13"],
+            "correta": 1,
+            "explicacao": "Primeiro a potência: 3² = 9. Depois a soma: 2 + 9 = 11. O 25 vem de somar antes (5²), o que está errado.",
+            "dica": "Resolva a potência antes da soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Calcule (−2)⁴ − 2⁴.",
+            "alternativas": ["0", "32", "−32", "16"],
+            "correta": 0,
+            "explicacao": "(−2)⁴ = 16 (expoente par) e 2⁴ = 16. Então 16 − 16 = 0.",
+            "dica": "Calcule cada potência separadamente e preste atenção no expoente par."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Calcule (−4)² + (−3)³.",
+            "alternativas": ["43", "−11", "11", "−43"],
+            "correta": 1,
+            "explicacao": "(−4)² = 16 e (−3)³ = −27. 16 + (−27) = −11.",
+            "dica": "Um expoente é par e o outro é ímpar: cuide dos sinais antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2³ × 2²?",
+            "alternativas": ["2⁶ = 64", "4⁵", "10", "32"],
+            "correta": 3,
+            "explicacao": "Mesma base: soma os expoentes. 2³ × 2² = 2⁵ = 32. Confira: 8 × 4 = 32.",
+            "dica": "Mesma base: o que acontece com os expoentes numa multiplicação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Calcule 5 − 2 × (−3)².",
+            "alternativas": ["−13", "81", "23", "−31"],
+            "correta": 0,
+            "explicacao": "(−3)² = 9. Depois 2 × 9 = 18. Por fim 5 − 18 = −13.",
+            "dica": "Primeiro a potência, depois a multiplicação, por último a subtração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é o maior?",
+            "alternativas": ["(−2)⁵", "−3²", "(−3)²", "(−1)⁷"],
+            "correta": 2,
+            "explicacao": "(−2)⁵ = −32, −3² = −9, (−3)² = 9 e (−1)⁷ = −1. O único positivo é 9.",
+            "dica": "Calcule cada um com cuidado nos parênteses e procure o positivo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque do menor para o maior:",
+            "itens": ["−2⁴", "(−2)³", "(−1)⁵", "2⁰", "(−3)²"],
+            "explicacao": "−2⁴ = −16, (−2)³ = −8, (−1)⁵ = −1, 2⁰ = 1 e (−3)² = 9.",
+            "dica": "Calcule cada um, cuidando dos parênteses, e só depois ordene."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (3²)³ ÷ 3⁴?",
+            "alternativas": ["9", "27", "3", "81"],
+            "correta": 0,
+            "explicacao": "(3²)³ = 3⁶. Depois 3⁶ ÷ 3⁴ = 3² = 9.",
+            "dica": "Potência de potência multiplica expoentes; divisão de mesma base subtrai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No dia 1, um recado chega a 3 pessoas e, a cada dia, o número de pessoas triplica. Quantas pessoas recebem o recado no dia 4?",
+            "alternativas": ["12", "27", "81", "243"],
+            "correta": 2,
+            "explicacao": "Dia 1: 3¹ = 3; dia 2: 9; dia 3: 27; dia 4: 3⁴ = 81. O 12 seria somar 3 por dia, e não triplicar.",
+            "dica": "No dia 1 já são 3¹; siga o padrão do expoente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−1)¹⁰¹ + (−1)¹⁰⁰?",
+            "alternativas": ["2", "−2", "1", "0"],
+            "correta": 3,
+            "explicacao": "101 é ímpar: (−1)¹⁰¹ = −1. 100 é par: (−1)¹⁰⁰ = 1. Somando: −1 + 1 = 0.",
+            "dica": "Veja se cada expoente é par ou ímpar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual valor de x faz 2ˣ = 64?",
+            "alternativas": ["5", "6", "8", "32"],
+            "correta": 1,
+            "explicacao": "2, 4, 8, 16, 32, 64: são 6 fatores 2. O 32 é a metade de 64, não o expoente.",
+            "dica": "Vá dobrando a partir de 2 e conte quantas vezes até chegar a 64."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Calcule −2² + (−2)² − 2⁰.",
+            "alternativas": ["−1", "7", "1", "−9"],
+            "correta": 0,
+            "explicacao": "−2² = −4, (−2)² = 4 e 2⁰ = 1. Então −4 + 4 − 1 = −1.",
+            "dica": "Os dois primeiros termos parecem iguais, mas os parênteses mudam o sinal."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Dívida: como ela cresce e como sair dela",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Dívida é dinheiro que você deve a alguém. Nem toda dívida é ruim (financiar a casa ou um curso pode valer a pena), mas toda dívida custa juros.",
+          "Juros são o preço de usar o dinheiro dos outros. Se a conta atrasa, ainda entram multa e juros de atraso. Um boleto de R$ 100 com multa de 2% e juros de 1% ao mês, pago com um mês de atraso, vira R$ 103.",
+          "Muitas dívidas crescem com juros compostos, ou seja, juros sobre juros. R$ 1.000 a 10% ao mês viram R$ 1.100, depois R$ 1.210, depois R$ 1.331: cada mês o aumento é maior que o anterior.",
+          "Para sair: 1) liste todas as dívidas, com valor, juros e prazo; 2) pare de fazer dívidas novas; 3) corte gastos para sobrar dinheiro; 4) pague primeiro a de juros mais altos, como cartão rotativo e cheque especial; 5) negocie com o credor.",
+          "Credores costumam dar desconto para pagamento à vista ou parcelar com juros menores. Negociar não é vergonha: é sinal de organização."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma dívida de R$ 1.000 cresce 10% ao mês e ninguém paga nada. Quanto ela vale depois de 3 meses?",
+            "resolucao": "Mês 1: 1.000 + 100 = R$ 1.100. Mês 2: 1.100 + 110 = R$ 1.210. Mês 3: 1.210 + 121 = R$ 1.331."
+          },
+          {
+            "enunciado": "Joana tem uma dívida no cartão a 14% ao mês e um empréstimo a 2% ao mês. Sobrou dinheiro: qual pagar primeiro?",
+            "resolucao": "O cartão, porque cada real devido ali cresce 14% ao mês, sete vezes mais rápido que no empréstimo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Pagar só os juros não diminui a dívida: se você deve R$ 1.000 a 10% ao mês e paga R$ 100 por mês, a dívida fica parada em R$ 1.000 para sempre. Só o que passa dos juros abate o valor devido.",
+        "Trocar uma dívida cara por uma barata pode ajudar: tirar um empréstimo a 3% ao mês para quitar o cartão a 12% reduz muito os juros, desde que você não volte a usar o cartão sem controle.",
+        "O Código de Defesa do Consumidor protege quem está devendo: na cobrança, o consumidor não pode ser exposto ao ridículo nem sofrer ameaça. E, depois que a dívida é paga, o nome deve sair dos cadastros de devedores."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma dívida?",
+            "alternativas": ["Dinheiro que você guardou", "Dinheiro que você deve a alguém", "Um presente", "Um salário"],
+            "correta": 1,
+            "explicacao": "Dívida é um valor que você precisa pagar a outra pessoa ou empresa.",
+            "dica": "Pense em quem precisa pagar quem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz uma dívida crescer com o tempo?",
+            "alternativas": ["Os juros", "O desconto", "O troco", "O cofrinho"],
+            "correta": 0,
+            "explicacao": "Os juros são o preço de usar o dinheiro dos outros e vão aumentando o valor devido.",
+            "dica": "É o preço cobrado por usar o dinheiro de outra pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo para sair das dívidas?",
+            "alternativas": ["Fazer outra dívida", "Esconder os boletos", "Listar todas as dívidas", "Comprar mais"],
+            "correta": 2,
+            "explicacao": "Sem saber quanto deve, a quem e com quais juros, não dá para planejar.",
+            "dica": "Antes de resolver, é preciso saber o tamanho do problema."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chamam os juros cobrados sobre juros?",
+            "alternativas": ["Juros simples", "Desconto", "Multa", "Juros compostos"],
+            "correta": 3,
+            "explicacao": "Nos juros compostos, cada mês o juro é calculado sobre o valor que já cresceu.",
+            "dica": "O nome lembra algo que vai se juntando, camada sobre camada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Negociar uma dívida significa:",
+            "alternativas": ["conversar com o credor para conseguir desconto ou parcelas melhores", "fugir do credor", "trocar de celular", "nunca pagar"],
+            "correta": 0,
+            "explicacao": "Negociar é combinar uma forma de pagar que caiba no bolso, muitas vezes com desconto.",
+            "dica": "Pense em sentar e conversar com quem você deve."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um boleto de R$ 200 atrasou e tem multa de 2%. Qual é o valor da multa?",
+            "alternativas": ["R$ 2", "R$ 4", "R$ 20", "R$ 40"],
+            "correta": 1,
+            "explicacao": "2% de 200 = 200 × 2 ÷ 100 = R$ 4.",
+            "dica": "1% de 200 é 2. Quanto é o dobro disso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 500 cresce 10% ao mês, com juros compostos. Quanto ela vale depois de 2 meses?",
+            "alternativas": ["R$ 600", "R$ 550", "R$ 605", "R$ 1.000"],
+            "correta": 2,
+            "explicacao": "Mês 1: 500 + 50 = 550. Mês 2: 550 + 55 = 605. O R$ 600 seria juros simples.",
+            "dica": "Calcule mês a mês: o segundo juro é sobre o valor já aumentado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sobrou dinheiro. Qual dívida pagar primeiro?",
+            "alternativas": ["Empréstimo a 2% ao mês", "As duas ao mesmo tempo, sem olhar os juros", "Deixar as duas para depois", "Cartão de crédito a 14% ao mês"],
+            "correta": 3,
+            "explicacao": "A dívida de juros maiores cresce mais rápido; quitá-la primeiro economiza mais.",
+            "dica": "Qual delas cresce mais rápido a cada mês?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude piora a situação de quem está endividado?",
+            "alternativas": ["Cortar gastos", "Pagar uma dívida fazendo outra mais cara", "Negociar desconto", "Anotar todas as dívidas"],
+            "correta": 1,
+            "explicacao": "Trocar uma dívida por outra com juros maiores faz o total crescer ainda mais rápido.",
+            "dica": "Procure a atitude que aumenta os juros em vez de diminuir."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para sair das dívidas:",
+            "itens": ["Listar todas as dívidas", "Parar de fazer dívidas novas", "Cortar gastos para sobrar dinheiro", "Pagar primeiro a de juros mais altos"],
+            "explicacao": "Primeiro conhecer o problema, depois parar de aumentá-lo, criar sobra e usar a sobra no que custa mais caro.",
+            "dica": "Conhecer, parar de aumentar, criar sobra e só então atacar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 2.000 cresce 5% ao mês, com juros compostos. Quanto vale depois de 2 meses?",
+            "alternativas": ["R$ 2.200", "R$ 2.100", "R$ 2.205", "R$ 2.010"],
+            "correta": 2,
+            "explicacao": "Mês 1: 2.000 + 100 = 2.100. Mês 2: 2.100 + 105 = 2.205.",
+            "dica": "5% de 2.000 é 100; no segundo mês, calcule 5% do novo valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O credor oferece: R$ 800 à vista ou 10 parcelas de R$ 110. Quanto a pessoa economiza pagando à vista?",
+            "alternativas": ["R$ 300", "R$ 110", "R$ 1.100", "R$ 200"],
+            "correta": 0,
+            "explicacao": "Parcelado: 10 × 110 = R$ 1.100. Diferença: 1.100 − 800 = R$ 300.",
+            "dica": "Calcule o total parcelado e compare com o valor à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Paulo negociou uma dívida de R$ 1.500 sem juros e consegue separar R$ 300 por mês. Em quantos meses ele quita?",
+            "alternativas": ["3", "15", "6", "5"],
+            "correta": 3,
+            "explicacao": "1.500 ÷ 300 = 5 meses.",
+            "dica": "Divida o valor da dívida pelo que sobra por mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cobrador ameaça colocar o nome de Sônia no grupo do bairro dizendo que ela é caloteira. Isso é:",
+            "alternativas": ["permitido, porque ela deve", "proibido: o CDC não deixa expor o consumidor ao ridículo nem ameaçá-lo na cobrança", "permitido, se for verdade", "obrigação dela aceitar"],
+            "correta": 1,
+            "explicacao": "Dever não tira os direitos de ninguém. A cobrança tem que ser feita sem humilhação nem ameaça.",
+            "dica": "O aprofundamento falou do que o Código de Defesa do Consumidor proíbe na cobrança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um boleto de R$ 300 tem multa de 2% e juros de 1% ao mês. Pago com 1 mês de atraso, fica em:",
+            "alternativas": ["R$ 303", "R$ 306", "R$ 309", "R$ 330"],
+            "correta": 2,
+            "explicacao": "Multa: 2% de 300 = 6. Juros: 1% de 300 = 3. Total: 300 + 6 + 3 = R$ 309.",
+            "dica": "Calcule a multa e os juros separadamente e some os dois ao valor original."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 1.000 no rotativo do cartão cresce 15% ao mês. Sem pagar nada, quanto ela vale depois de 2 meses?",
+            "alternativas": ["R$ 1.300,00", "R$ 1.322,50", "R$ 1.150,00", "R$ 1.225,00"],
+            "correta": 1,
+            "explicacao": "Mês 1: 1.000 + 150 = 1.150. Mês 2: 1.150 + 172,50 = 1.322,50.",
+            "dica": "No segundo mês, os 15% são calculados sobre o valor que já cresceu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 a 10% ao mês por 3 meses. Qual a diferença entre o total com juros compostos e o total com juros simples?",
+            "alternativas": ["R$ 31", "R$ 0", "R$ 300", "R$ 331"],
+            "correta": 0,
+            "explicacao": "Simples: 1.000 + 3 × 100 = 1.300. Compostos: 1.331. Diferença: 1.331 − 1.300 = R$ 31.",
+            "dica": "Nos simples, o juro é sempre 10% de 1.000; nos compostos, cresce a cada mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Marcos deve R$ 2.000 no cartão a 12% ao mês e troca por um empréstimo a 3% ao mês. Quanto ele deixa de pagar de juros no primeiro mês?",
+            "alternativas": ["R$ 60", "R$ 240", "R$ 300", "R$ 180"],
+            "correta": 3,
+            "explicacao": "Cartão: 12% de 2.000 = 240. Empréstimo: 3% de 2.000 = 60. Economia: 240 − 60 = R$ 180.",
+            "dica": "Calcule os juros de um mês em cada opção e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém deve R$ 1.000 a 10% ao mês e paga R$ 100 todo mês. O que acontece?",
+            "alternativas": ["Quita em 10 meses", "A dívida zera em 5 meses", "A dívida fica parada em R$ 1.000, porque o pagamento só cobre os juros", "A dívida cai pela metade em um ano"],
+            "correta": 2,
+            "explicacao": "Os juros do mês são 10% de 1.000 = 100. O pagamento inteiro vai para os juros e nada abate a dívida.",
+            "dica": "Compare o valor pago com os juros que aparecem a cada mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dívida A: R$ 500 a 8% ao mês. Dívida B: R$ 1.000 a 3% ao mês. Sobrou R$ 500. Qual uso economiza mais juros no mês seguinte?",
+            "alternativas": ["Quitar a A, economizando R$ 40 de juros", "Pagar metade da B, economizando R$ 30", "Pôr R$ 250 em cada uma, economizando R$ 30", "Pagar metade da B, porque ela é maior"],
+            "correta": 0,
+            "explicacao": "Quitar A evita 8% de 500 = R$ 40. Abater 500 de B evita só 3% de 500 = R$ 15. Dividir: 20 + 7,50 = R$ 27,50.",
+            "dica": "Calcule quanto de juros cada real deixa de gerar em cada dívida."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Contadores e acumuladores dentro do laço",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Contador é uma variável que soma 1 cada vez que algo acontece. Ele começa em 0: contador ← 0 e, a cada volta, contador ← contador + 1.",
+          "Acumulador é uma variável que vai somando valores que mudam: total ← total + preco. Ele também começa em 0, para guardar a soma de tudo o que passou pelo laço.",
+          "Os dois precisam ser criados ANTES do laço. Se você escrever total ← 0 dentro do laço, ele volta a zero em toda volta e, no fim, só guarda o último valor.",
+          "O contador pode ter condição: SE nota >= 6 ENTÃO aprovados ← aprovados + 1. Assim ele conta só os itens que interessam.",
+          "Juntando os dois, dá para calcular a média: média ← total ÷ quantidade, sempre depois que o laço termina."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "vendas ← [12, 8, 15, 5]. Calcule o total, a quantidade e a média.",
+            "resolucao": "total ← 0; qtd ← 0; PARA CADA v EM vendas FAÇA total ← total + v; qtd ← qtd + 1. O total passa por 12, 20, 35, 40. qtd = 4. Média: 40 ÷ 4 = 10."
+          },
+          {
+            "enunciado": "Quantos números pares há de 1 a 10?",
+            "resolucao": "pares ← 0; PARA i DE 1 ATÉ 10 FAÇA SE i MOD 2 = 0 ENTÃO pares ← pares + 1. Conta 2, 4, 6, 8, 10: pares = 5."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para multiplicar acumulando, o valor inicial é 1, não 0: produto ← 1; PARA i DE 1 ATÉ 5 FAÇA produto ← produto × i. O resultado é 1 × 2 × 3 × 4 × 5 = 120. Se começasse em 0, tudo daria 0.",
+        "Dá para calcular potências com um laço: r ← 1; REPITA 10 VEZES r ← r × 2. No fim, r = 2¹⁰ = 1.024.",
+        "Um acumulador pode somar o valor de um contador: a ← 0; b ← 0; PARA i DE 1 ATÉ 4 FAÇA a ← a + 1; b ← b + a. O a vale 1, 2, 3, 4 e o b acumula 1, 3, 6, 10. Erros comuns: esquecer de criar a variável antes ou criá-la dentro do laço."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um contador soma quanto a cada vez que algo acontece?",
+            "alternativas": ["1", "10", "O valor de cada item", "0"],
+            "correta": 0,
+            "explicacao": "O contador vai de um em um: 1, 2, 3... Quem soma o valor do item é o acumulador.",
+            "dica": "Ele conta como a gente conta nos dedos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor inicial mais comum de um contador?",
+            "alternativas": ["1", "0", "10", "100"],
+            "correta": 1,
+            "explicacao": "Antes de contar qualquer coisa, a contagem está em 0.",
+            "dica": "Antes de começar, quantas coisas você já contou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total ← 0; total ← total + 5; total ← total + 3. Quanto vale total?",
+            "alternativas": ["5", "3", "8", "0"],
+            "correta": 2,
+            "explicacao": "0 + 5 = 5 e depois 5 + 3 = 8.",
+            "dica": "Some passo a passo a partir do zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um acumulador?",
+            "alternativas": ["Para apagar a tela", "Para guardar uma senha", "Para repetir para sempre", "Para somar valores ao longo do laço"],
+            "correta": 3,
+            "explicacao": "O acumulador junta, volta a volta, os valores que passam pelo laço, como o total de uma compra.",
+            "dica": "Pense no total da compra sendo somado item por item."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "c ← 0; REPITA 4 VEZES c ← c + 1. Quanto vale c no fim?",
+            "alternativas": ["1", "4", "5", "0"],
+            "correta": 1,
+            "explicacao": "c passa por 1, 2, 3 e 4.",
+            "dica": "Cada repetição soma 1. Quantas repetições são?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "soma ← 0; PARA CADA v EM [10, 20, 5] FAÇA soma ← soma + v. Quanto vale soma?",
+            "alternativas": ["35", "3", "30", "25"],
+            "correta": 0,
+            "explicacao": "soma passa por 10, 30 e 35. O 3 seria a quantidade de itens, não a soma.",
+            "dica": "Some os três valores da lista, um por volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Notas: [7, 4, 6, 9, 5]. Um contador soma 1 para cada nota >= 6. Quanto ele vale no fim?",
+            "alternativas": ["5", "2", "3", "4"],
+            "correta": 2,
+            "explicacao": "Passam na condição 7, 6 e 9: 3 notas. O 6 conta porque >= quer dizer maior ou igual.",
+            "dica": "Conte só as notas que são maiores ou iguais a 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "PARA CADA v EM lista FAÇA total ← 0; total ← total + v. Qual é o problema?",
+            "alternativas": ["Nenhum, está certo", "O total zera a cada volta e só guarda o último valor", "O laço nunca termina", "A lista fica vazia"],
+            "correta": 1,
+            "explicacao": "total ← 0 está dentro do laço. Ele precisa vir antes, para não apagar a soma a cada volta.",
+            "dica": "Veja onde o total recebe zero: dentro ou fora do laço?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando acumulador e contador, qual é a média de [8, 6, 10]?",
+            "alternativas": ["24", "3", "6", "8"],
+            "correta": 3,
+            "explicacao": "total = 24 e quantidade = 3. Média: 24 ÷ 3 = 8.",
+            "dica": "Divida o acumulador pelo contador depois do laço."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo para somar uma lista:",
+            "itens": ["Criar total ← 0 antes do laço", "Passar por cada item da lista", "Somar o item ao total", "Mostrar o total depois do laço"],
+            "explicacao": "Primeiro preparar o acumulador, depois percorrer somando e, só no fim, mostrar.",
+            "dica": "Prepare antes, some durante e mostre depois."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "pares ← 0; PARA i DE 1 ATÉ 20 FAÇA SE i MOD 2 = 0 ENTÃO pares ← pares + 1. Quanto vale pares?",
+            "alternativas": ["20", "10", "11", "9"],
+            "correta": 1,
+            "explicacao": "Os pares de 1 a 20 são 2, 4, ..., 20: metade de 20, ou seja, 10.",
+            "dica": "De 1 a 20, quantos números deixam resto 0 na divisão por 2?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total ← 0; PARA i DE 1 ATÉ 5 FAÇA total ← total + i. Quanto vale total?",
+            "alternativas": ["5", "10", "15", "6"],
+            "correta": 2,
+            "explicacao": "total passa por 1, 3, 6, 10 e 15. O 5 seria se fosse contador.",
+            "dica": "Aqui soma o próprio i, e não 1. Some de 1 até 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "vendas ← [3, 0, 7, 0, 5]. Um contador conta os dias sem venda e um acumulador soma tudo. Qual é o resultado?",
+            "alternativas": ["zeros = 2 e total = 15", "zeros = 3 e total = 15", "zeros = 2 e total = 10", "zeros = 5 e total = 15"],
+            "correta": 0,
+            "explicacao": "Há dois zeros na lista. O total é 3 + 0 + 7 + 0 + 5 = 15.",
+            "dica": "Conte quantas vezes aparece o 0 e, separadamente, some todos os valores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x ← 1; REPITA 3 VEZES x ← x + x. Quanto vale x?",
+            "alternativas": ["3", "4", "6", "8"],
+            "correta": 3,
+            "explicacao": "x + x é o dobro: 1 → 2 → 4 → 8.",
+            "dica": "Somar x com ele mesmo é dobrar. Dobre três vezes a partir de 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cont ← 0; PARA CADA p EM ['ana', 'bia', 'caio', 'duda'] FAÇA SE TAMANHO(p) = 4 ENTÃO cont ← cont + 1. Quanto vale cont?",
+            "alternativas": ["4", "2", "0", "3"],
+            "correta": 1,
+            "explicacao": "ana e bia têm 3 letras; caio e duda têm 4. Então cont = 2.",
+            "dica": "Conte as letras de cada nome e veja quais têm exatamente quatro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "produto ← 1; PARA i DE 1 ATÉ 5 FAÇA produto ← produto × i. Quanto vale produto?",
+            "alternativas": ["15", "120", "0", "25"],
+            "correta": 1,
+            "explicacao": "1 × 1 × 2 × 3 × 4 × 5 = 120. O 15 seria somar em vez de multiplicar.",
+            "dica": "Multiplique, um por um, os números de 1 a 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um acumulador de multiplicação começa em 1, e não em 0?",
+            "alternativas": ["Porque qualquer número vezes 0 dá 0, e o resultado ficaria sempre 0", "Porque 1 é o maior número", "Porque a linguagem não aceita o 0", "Tanto faz, o resultado é o mesmo"],
+            "correta": 0,
+            "explicacao": "O 1 não altera a multiplicação (é o elemento neutro). O 0 apagaria tudo.",
+            "dica": "Pense no que acontece com qualquer número multiplicado por zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "r ← 1; REPITA 10 VEZES r ← r × 2. Quanto vale r?",
+            "alternativas": ["20", "512", "1.024", "2.048"],
+            "correta": 2,
+            "explicacao": "São 10 dobras a partir de 1: 2¹⁰ = 1.024. O 512 seria com 9 dobras e o 20 seria somar 2.",
+            "dica": "É uma potência de 2; o expoente é o número de repetições."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total ← 0; cont ← 0; PARA CADA n EM [4, 9, 2, 7, 8] FAÇA SE n > 5 ENTÃO total ← total + n; cont ← cont + 1. Quanto vale total ÷ cont?",
+            "alternativas": ["6", "24", "5", "8"],
+            "correta": 3,
+            "explicacao": "Passam 9, 7 e 8: total = 24 e cont = 3. Média: 24 ÷ 3 = 8. O 6 seria a média da lista inteira (30 ÷ 5).",
+            "dica": "Só entram os números maiores que 5, tanto na soma quanto na contagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a ← 0; b ← 0; PARA i DE 1 ATÉ 6 FAÇA a ← a + 1; b ← b + a. Quanto vale b?",
+            "alternativas": ["6", "21", "36", "12"],
+            "correta": 1,
+            "explicacao": "a vale 1, 2, 3, 4, 5, 6 e b acumula: 1 + 2 + 3 + 4 + 5 + 6 = 21.",
+            "dica": "O a é um contador; o b acumula cada valor que o a assume."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Formação de palavras: prefixos e sufixos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Muitas palavras nascem de outras. A parte principal, que carrega o sentido, se chama radical. Em feliz, infeliz e felicidade, o radical tem a ideia de feliz.",
+          "Prefixo é a parte que vem antes do radical: in-feliz, des-fazer, re-fazer, pré-venda.",
+          "Sufixo é a parte que vem depois do radical: feliz-mente, padar-ia, sapat-eiro, cas-inha.",
+          "Alguns significados úteis: des- e in- indicam negação; re- indica repetição; pré- indica antes; -eiro pode indicar profissão; -inho e -inha indicam diminutivo; -mente indica modo; -dade indica qualidade.",
+          "Conhecer prefixos e sufixos ajuda a entender palavras novas: se você sabe o que é obediente, já imagina o que é desobediente."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Separe as partes de \"desobediente\".",
+            "resolucao": "des- (prefixo de negação) + obediente. Quer dizer \"que não obedece\"."
+          },
+          {
+            "enunciado": "O que significa \"reler\"?",
+            "resolucao": "re- (repetição) + ler: ler de novo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma palavra pode ganhar prefixo e sufixo: infelizmente = in- + feliz + -mente. Nesse caso existem, sozinhas, infeliz e felizmente. Já em entardecer (en- + tarde + -ecer) prefixo e sufixo entram juntos, porque não existem entarde nem tardecer: é a derivação parassintética.",
+        "Na composição, juntamos dois radicais: guarda-chuva, passatempo, girassol. É diferente da derivação, que usa prefixo ou sufixo.",
+        "Sufixos podem mudar a classe da palavra: -mente transforma adjetivo em advérbio (rápido → rapidamente) e -ção transforma verbo em substantivo (votar → votação). O prefixo in- vira im- antes de p e b: impossível, imprudente."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"infeliz\", qual é o prefixo?",
+            "alternativas": ["in-", "feliz", "-iz", "fe-"],
+            "correta": 0,
+            "explicacao": "In- vem antes do radical e indica negação: infeliz é quem não está feliz.",
+            "dica": "O prefixo vem no começo da palavra, antes do radical."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa \"refazer\"?",
+            "alternativas": ["Nunca fazer", "Fazer de novo", "Fazer antes", "Fazer pouco"],
+            "correta": 1,
+            "explicacao": "O prefixo re- indica repetição.",
+            "dica": "O prefixo re- indica repetição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o sufixo de \"sapateiro\"?",
+            "alternativas": ["sa-", "sapat-", "-eiro", "-o"],
+            "correta": 2,
+            "explicacao": "Sapat- é o radical e -eiro é o sufixo que indica profissão.",
+            "dica": "O sufixo vem no fim e aqui indica profissão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é o diminutivo de casa?",
+            "alternativas": ["casarão", "casal", "caseiro", "casinha"],
+            "correta": 3,
+            "explicacao": "O sufixo -inha forma o diminutivo. Casarão é aumentativo.",
+            "dica": "Procure o sufixo que indica coisa pequena."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a parte principal da palavra, que carrega o sentido?",
+            "alternativas": ["Prefixo", "Radical", "Sufixo", "Acento"],
+            "correta": 1,
+            "explicacao": "O radical é a base. Prefixo e sufixo se juntam a ele.",
+            "dica": "É a base em que prefixos e sufixos se encaixam."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra foi formada com prefixo?",
+            "alternativas": ["desligar", "felizmente", "sapateiro", "jardinagem"],
+            "correta": 0,
+            "explicacao": "Des- + ligar. As outras têm sufixo: -mente, -eiro, -agem.",
+            "dica": "Procure a palavra que ganhou algo no começo, não no fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O sufixo -mente forma palavras que indicam:",
+            "alternativas": ["lugar", "profissão", "modo", "quantidade"],
+            "correta": 2,
+            "explicacao": "Rapidamente = de jeito rápido. O sufixo -mente indica o jeito como algo acontece.",
+            "dica": "Pense em rapidamente: rápido de que jeito?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"pré-venda\", o prefixo pré- significa:",
+            "alternativas": ["depois", "contra", "de novo", "antes"],
+            "correta": 3,
+            "explicacao": "Pré-venda é a venda feita antes do lançamento.",
+            "dica": "Pense em pré-escola: ela acontece em que momento em relação ao ensino fundamental?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que palavra se forma juntando o sufixo -dade ao adjetivo leal?",
+            "alternativas": ["lealmente", "lealdade", "desleal", "lealzinho"],
+            "correta": 1,
+            "explicacao": "Leal + -dade = lealdade, a qualidade de quem é leal.",
+            "dica": "O sufixo pedido indica qualidade e fica no fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"desemprego\", o prefixo des- indica:",
+            "alternativas": ["negação, falta de emprego", "repetição do emprego", "emprego muito grande", "lugar do emprego"],
+            "correta": 0,
+            "explicacao": "Des- indica negação ou falta: desemprego é a falta de emprego.",
+            "dica": "Pense em desligar e desfazer: o des- faz o contrário."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como é formada a palavra \"infelizmente\"?",
+            "alternativas": ["Só com prefixo", "Só com sufixo", "Com prefixo e sufixo: in- + feliz + -mente", "Por composição de duas palavras"],
+            "correta": 2,
+            "explicacao": "Tem prefixo (in-) e sufixo (-mente) ao redor do radical feliz.",
+            "dica": "Olhe o começo e o fim da palavra separadamente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é formada por derivação parassintética?",
+            "alternativas": ["entardecer", "refazer", "felizmente", "guarda-chuva"],
+            "correta": 0,
+            "explicacao": "Em entardecer, prefixo e sufixo entram juntos: não existem entarde nem tardecer.",
+            "dica": "Procure a palavra em que não dá para tirar só o prefixo ou só o sufixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual par o sufixo transforma um verbo em substantivo?",
+            "alternativas": ["feliz → infeliz", "casa → casinha", "fazer → refazer", "votar → votação"],
+            "correta": 3,
+            "explicacao": "Votar é verbo; votação é substantivo, formado com -ção.",
+            "dica": "Procure o par que começa com uma ação e termina com um nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"imprudente\", o im- é:",
+            "alternativas": ["um sufixo de lugar", "o prefixo in- escrito com m antes de p, indicando negação", "o radical da palavra", "um sufixo de modo"],
+            "correta": 1,
+            "explicacao": "Antes de p e b, in- vira im-: imprudente é quem não é prudente.",
+            "dica": "Lembre a regra do m antes de p e b."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra foi formada por composição, e não por derivação?",
+            "alternativas": ["desleal", "passatempo", "jardineiro", "releitura"],
+            "correta": 1,
+            "explicacao": "Passatempo junta dois radicais (passa + tempo). As outras usam prefixo ou sufixo.",
+            "dica": "Procure a palavra feita de duas palavras inteiras."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que entardecer é parassintética e infelizmente não é?",
+            "alternativas": ["Porque em entardecer não existem entarde nem tardecer; em infelizmente existem infeliz e felizmente", "Porque entardecer tem mais letras", "Porque infelizmente é um verbo", "Não há diferença entre elas"],
+            "correta": 0,
+            "explicacao": "Na parassíntese, prefixo e sufixo entram ao mesmo tempo. Em infelizmente, cada um pode sair sem a palavra deixar de existir.",
+            "dica": "Tente tirar só o prefixo e depois só o sufixo de cada palavra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a separação mais adequada de \"desvalorização\"?",
+            "alternativas": ["de- + svalor + -ção", "desvalor + -iza + -ção, sem prefixo", "des- + valor + -ização", "des- + valoriza + -dor"],
+            "correta": 2,
+            "explicacao": "Des- (negação) + valor (radical) + -iz- e -ação (sufixos que formam verbo e depois substantivo).",
+            "dica": "Ache o radical com sentido de preço e veja o que vem antes e depois dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra tem um prefixo que significa \"contra\"?",
+            "alternativas": ["prever", "reler", "subsolo", "antivírus"],
+            "correta": 3,
+            "explicacao": "Anti- = contra. Pre- é antes, re- é de novo e sub- é embaixo.",
+            "dica": "Pense num programa que protege o computador lutando contra algo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque da palavra mais simples para a mais derivada:",
+            "itens": ["leal", "desleal", "deslealdade"],
+            "explicacao": "leal → desleal (ganha o prefixo des-) → deslealdade (ganha também o sufixo -dade).",
+            "dica": "Comece pelo radical sozinho e vá acrescentando partes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"pedreiro\" e \"laranjeira\", o sufixo -eiro/-eira indica:",
+            "alternativas": ["profissão nas duas", "profissão em pedreiro e árvore em laranjeira", "lugar nas duas", "diminutivo nas duas"],
+            "correta": 1,
+            "explicacao": "O mesmo sufixo pode ter sentidos diferentes: pedreiro é quem trabalha com obra; laranjeira é a árvore da laranja.",
+            "dica": "Pense no que é cada palavra: uma pessoa? Uma planta?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O recado que dobrava",
+    "texto": "Na segunda-feira, a professora Cláudia contou a novidade só para dois alunos do 7º B: no sábado haveria um mutirão para pintar o muro da escola, e quem quisesse podia ajudar.\n\n— Cada um que souber conta para mais uma pessoa por dia — pediu.\n\nNa terça, quatro pessoas sabiam. Na quarta, oito. Ninguém dava muita importância: oito é pouca gente.\n\nÍcaro, que adorava contas, abriu o caderno no recreio. Se cada pessoa que soubesse contasse para mais uma por dia, o número dobraria todo dia. Escreveu: 2, 4, 8, 16, 32... e parou.\n\n— Professora, isso é potência! No primeiro dia são 2 elevado a 1. No quinto, 2 elevado a 5, que dá 32. No décimo dia, seriam 1.024 pessoas!\n\nA turma não acreditou. Ícaro multiplicou de novo, em voz alta, e todo mundo foi conferindo.\n\nNo sábado, o portão amanheceu cheio: alunos, pais, avós, até o dono da padaria com garrafas de café. O muro ficou pronto antes do almoço.\n\nCláudia olhou o movimento e sorriu:\n\n— Um recado pequeno, dobrando todo dia, fica enorme."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique com um exemplo seu como algo que dobra todo dia cresce depressa (uma notícia, um vídeo compartilhado, figurinhas, plantinhas...). Mostre a conta dia a dia, usando potências de 2, e diga quanto ele vale no 5º dia. Termine contando se esse crescimento seria bom ou ruim no seu exemplo."
+  }
+}

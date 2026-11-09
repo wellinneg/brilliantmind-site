@@ -1,0 +1,1506 @@
+{
+  "dia": 29,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Soma e produto das raízes e equações incompletas",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Em ax² + bx + c = 0, com raízes x' e x'', vale: soma S = x' + x'' = −b/a e produto P = x' · x'' = c/a.",
+          "Quando a = 1, a soma é −b e o produto é c. Em x² − 7x + 10 = 0: S = 7 e P = 10. Procure dois números que somam 7 e multiplicam 10: 2 e 5.",
+          "Para montar a equação a partir das raízes, use x² − Sx + P = 0. Raízes 3 e −4: S = −1 e P = −12, então x² + x − 12 = 0.",
+          "Equação incompleta com c = 0 (ax² + bx = 0): coloque x em evidência. x² − 6x = 0 → x(x − 6) = 0 → x = 0 ou x = 6.",
+          "Equação incompleta com b = 0 (ax² + c = 0): isole x². x² − 25 = 0 → x² = 25 → x = 5 ou x = −5. 2x² − 18 = 0 → x² = 9 → x = ±3. Já x² + 4 = 0 não tem raiz real."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Resolva x² − 9x + 20 = 0 por soma e produto.",
+            "resolucao": "S = 9 e P = 20. Os números que somam 9 e multiplicam 20 são 4 e 5."
+          },
+          {
+            "enunciado": "Resolva 3x² − 12x = 0.",
+            "resolucao": "3x(x − 4) = 0. Então 3x = 0 (x = 0) ou x − 4 = 0 (x = 4)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Sinais das raízes: se P < 0, elas têm sinais opostos. Se P > 0 e S > 0, as duas são positivas; se P > 0 e S < 0, as duas são negativas.",
+        "Fórmulas sem calcular as raízes: soma dos inversos 1/x' + 1/x'' = S/P; soma dos quadrados x'² + x''² = S² − 2P. Em x² − 7x + 10 = 0: S/P = 7/10 e S² − 2P = 49 − 20 = 29 (confira: 4 + 25 = 29).",
+        "Se uma raiz é conhecida, a soma dá a outra: em x² − 8x + k = 0 com raiz 3, a outra é 8 − 3 = 5 e k = 3 · 5 = 15. Erro comum: em x² = 25, esquecer a raiz −5."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em x² − 7x + 10 = 0, quanto vale a soma das raízes?",
+            "alternativas": [
+              "7",
+              "−7",
+              "10",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "Com a = 1, a soma é −b = 7.",
+            "dica": "A soma é o oposto de b."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na mesma equação, quanto vale o produto das raízes?",
+            "alternativas": [
+              "7",
+              "10",
+              "−10",
+              "17"
+            ],
+            "correta": 1,
+            "explicacao": "Com a = 1, o produto é c = 10.",
+            "dica": "O produto é o termo sem x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de x² − 25 = 0?",
+            "alternativas": [
+              "só 5",
+              "25 e −25",
+              "5 e −5",
+              "0 e 25"
+            ],
+            "correta": 2,
+            "explicacao": "x² = 25: tanto 5 quanto −5 ao quadrado dão 25.",
+            "dica": "Um número negativo ao quadrado também dá positivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de x² − 6x = 0?",
+            "alternativas": [
+              "6 e −6",
+              "só 6",
+              "3 e 2",
+              "0 e 6"
+            ],
+            "correta": 3,
+            "explicacao": "x(x − 6) = 0: x = 0 ou x = 6.",
+            "dica": "Coloque x em evidência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais números somam 7 e multiplicam 10?",
+            "alternativas": [
+              "3 e 4",
+              "2 e 5",
+              "1 e 10",
+              "−2 e −5"
+            ],
+            "correta": 1,
+            "explicacao": "2 + 5 = 7 e 2 · 5 = 10.",
+            "dica": "Teste a soma e o produto de cada par."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de x² − 9x + 20 = 0?",
+            "alternativas": [
+              "4 e 5",
+              "−4 e −5",
+              "2 e 10",
+              "9 e 20"
+            ],
+            "correta": 0,
+            "explicacao": "Somam 9 e multiplicam 20.",
+            "dica": "Procure dois números com soma 9 e produto 20."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual equação tem raízes 3 e −4?",
+            "alternativas": [
+              "x² − x − 12 = 0",
+              "x² + x − 12 = 0",
+              "x² + x + 12 = 0",
+              "x² − 7x + 12 = 0"
+            ],
+            "correta": 1,
+            "explicacao": "S = −1 e P = −12: x² − (−1)x + (−12) = x² + x − 12.",
+            "dica": "Use x² − Sx + P = 0 com cuidado nos sinais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de 2x² − 18 = 0?",
+            "alternativas": [
+              "9 e −9",
+              "só 3",
+              "3 e −3",
+              "18 e 0"
+            ],
+            "correta": 2,
+            "explicacao": "2x² = 18 → x² = 9 → x = ±3.",
+            "dica": "Isole x² antes de tirar a raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de 3x² − 12x = 0?",
+            "alternativas": [
+              "4 e −4",
+              "3 e 12",
+              "só 4",
+              "0 e 4"
+            ],
+            "correta": 3,
+            "explicacao": "3x(x − 4) = 0.",
+            "dica": "Uma das raízes é sempre zero nesse tipo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A equação x² + 4 = 0 tem:",
+            "alternativas": [
+              "raízes 2 e −2",
+              "nenhuma raiz real",
+              "raízes 4 e −4",
+              "só a raiz 2"
+            ],
+            "correta": 1,
+            "explicacao": "x² = −4: nenhum número real ao quadrado dá negativo.",
+            "dica": "Um quadrado pode ser negativo?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 2x² − 10x + 12 = 0, quanto valem a soma e o produto das raízes?",
+            "alternativas": [
+              "S = 5 e P = 6",
+              "S = 10 e P = 12",
+              "S = −5 e P = 6",
+              "S = 5 e P = −6"
+            ],
+            "correta": 0,
+            "explicacao": "S = −b/a = 10/2 = 5; P = c/a = 12/2 = 6. As raízes são 2 e 3.",
+            "dica": "Aqui a = 2: divida por ele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de x² + 5x + 6 = 0?",
+            "alternativas": [
+              "2 e 3",
+              "−2 e −3",
+              "−1 e −6",
+              "1 e 6"
+            ],
+            "correta": 1,
+            "explicacao": "S = −5 e P = 6: dois negativos, −2 e −3.",
+            "dica": "Soma negativa e produto positivo: que sinais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual equação tem raízes −2 e 5?",
+            "alternativas": [
+              "x² + 3x − 10 = 0",
+              "x² − 3x + 10 = 0",
+              "x² − 3x − 10 = 0",
+              "x² + 3x + 10 = 0"
+            ],
+            "correta": 2,
+            "explicacao": "S = 3 e P = −10: x² − 3x − 10 = 0.",
+            "dica": "Calcule S e P e use x² − Sx + P = 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O quadrado de um número é igual ao seu quádruplo. Quais números servem?",
+            "alternativas": [
+              "só 4",
+              "2 e −2",
+              "4 e −4",
+              "0 e 4"
+            ],
+            "correta": 3,
+            "explicacao": "x² = 4x → x² − 4x = 0 → x(x − 4) = 0.",
+            "dica": "Não divida por x: você perderia uma raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de 5x² − 20 = 0?",
+            "alternativas": [
+              "2 e −2",
+              "4 e −4",
+              "só 2",
+              "nenhuma"
+            ],
+            "correta": 0,
+            "explicacao": "5x² = 20 → x² = 4 → x = ±2.",
+            "dica": "Isole x² primeiro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em x² − 7x + 10 = 0, quanto vale x'² + x''²?",
+            "alternativas": [
+              "49",
+              "29",
+              "20",
+              "69"
+            ],
+            "correta": 1,
+            "explicacao": "S² − 2P = 49 − 20 = 29.",
+            "dica": "Use a fórmula da soma dos quadrados do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em x² − 7x + 10 = 0, quanto vale 1/x' + 1/x''?",
+            "alternativas": [
+              "7/10",
+              "10/7",
+              "17",
+              "3/10"
+            ],
+            "correta": 0,
+            "explicacao": "S/P = 7/10. Confira: 1/2 + 1/5 = 7/10.",
+            "dica": "Soma dos inversos é S dividido por P."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x² − 8x + k = 0 tem uma raiz igual a 3. Quanto vale k?",
+            "alternativas": [
+              "5",
+              "24",
+              "15",
+              "11"
+            ],
+            "correta": 2,
+            "explicacao": "A outra raiz é 8 − 3 = 5; k = P = 3 · 5 = 15.",
+            "dica": "Use a soma para achar a outra raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que se pode dizer das raízes de x² + 3x − 40 = 0?",
+            "alternativas": [
+              "as duas são positivas",
+              "as duas são negativas",
+              "não existem",
+              "têm sinais opostos: 5 e −8"
+            ],
+            "correta": 3,
+            "explicacao": "P = −40 < 0: sinais opostos. S = −3: 5 + (−8).",
+            "dica": "Olhe primeiro o sinal do produto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As raízes de x² − 10x + c = 0 diferem de 4 unidades. Quanto vale c?",
+            "alternativas": [
+              "24",
+              "21",
+              "16",
+              "40"
+            ],
+            "correta": 1,
+            "explicacao": "Somam 10 e diferem 4: 7 e 3. c = 7 · 3 = 21.",
+            "dica": "Ache dois números com soma 10 e diferença 4."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Laços dentro de laços: tabelas e tabuadas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Laço aninhado é um laço dentro de outro. Para cada volta do laço de fora, o laço de dentro faz todas as suas voltas.",
+          "Exemplo:\nfor i in range(1, 4):\n    for j in range(1, 3):\n        print(i, j)\nImprime 6 linhas: 1 1, 1 2, 2 1, 2 2, 3 1, 3 2. O total de voltas é 3 × 2.",
+          "Tabuada de 1 a 10:\nfor n in range(1, 11):\n    for m in range(1, 11):\n        print(n, \"x\", m, \"=\", n * m)\nSão 10 × 10 = 100 linhas.",
+          "Lembre: range(a, b) vai de a até b − 1. range(1, 4) gera 1, 2, 3; range(4) gera 0, 1, 2, 3.",
+          "Laços aninhados servem para tabelas (linhas e colunas), comparar todos com todos e desenhar padrões. Cuidado com a indentação: o que está dentro do laço interno roda muito mais vezes."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "for a in range(4):\n    for b in range(5):\n        print(\"oi\")\nQuantas vezes aparece oi?",
+            "resolucao": "4 voltas de fora × 5 de dentro = 20 vezes."
+          },
+          {
+            "enunciado": "Desenhe uma escada de asteriscos com laços aninhados.",
+            "resolucao": "for i in range(1, 4):\n    linha = \"\"\n    for j in range(i):\n        linha = linha + \"*\"\n    print(linha)\nResultado: *, ** e ***, uma por linha."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Lista de listas (matriz): notas = [[7, 8], [5, 9], [6, 6]]. Com for aluno in notas: for nota in aluno:, dá para somar tudo: 41. E m[1][2] pega a linha 1 e a coluna 2 (contando do zero).",
+        "Quando o laço interno depende do externo, as voltas mudam: for i in range(1, 5): for j in range(i): faz 1 + 2 + 3 + 4 = 10 voltas. Para comparar todos os pares sem repetir, use for j in range(i + 1, n): com 5 times, são 10 jogos.",
+        "O break sai só do laço mais interno; o laço de fora continua."
+      ],
+      "desafio_pratico": "Num site de Python on-line, faça a tabuada do 1 ao 5 com dois laços e, depois, uma pirâmide de números: na linha 1, aparece 1; na linha 2, 1 2; até a linha 5. Confira se o total de linhas é o esperado.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Laço aninhado é:",
+            "alternativas": [
+              "um laço dentro de outro",
+              "um erro de digitação",
+              "uma lista",
+              "uma função"
+            ],
+            "correta": 0,
+            "explicacao": "Um for dentro de outro for.",
+            "dica": "Aninhado lembra ninho: um dentro do outro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que range(1, 4) gera?",
+            "alternativas": [
+              "1, 2, 3, 4",
+              "1, 2, 3",
+              "0, 1, 2, 3",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "Vai até o fim menos 1.",
+            "dica": "O último número não entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O laço de fora tem 3 voltas e o de dentro, 2. Quantas vezes roda o de dentro, no total?",
+            "alternativas": [
+              "5",
+              "3",
+              "6",
+              "2"
+            ],
+            "correta": 2,
+            "explicacao": "3 × 2 = 6.",
+            "dica": "Multiplique as voltas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A tabuada completa de 1 a 10 com dois laços imprime:",
+            "alternativas": [
+              "10 linhas",
+              "20 linhas",
+              "50 linhas",
+              "100 linhas"
+            ],
+            "correta": 3,
+            "explicacao": "10 × 10 = 100.",
+            "dica": "Dez números vezes dez números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for a in range(4): for b in range(5): print(\"oi\"). Quantas vezes aparece oi?",
+            "alternativas": [
+              "9",
+              "20",
+              "4",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "4 × 5 = 20.",
+            "dica": "Multiplique, não some."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(1, 4): for j in range(1, 3): print(i, j). Qual é a primeira linha?",
+            "alternativas": [
+              "1 1",
+              "0 0",
+              "1 2",
+              "3 2"
+            ],
+            "correta": 0,
+            "explicacao": "Os dois laços começam em 1.",
+            "dica": "Onde começa cada range?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nesse mesmo código, qual é a última linha?",
+            "alternativas": [
+              "3 3",
+              "3 2",
+              "2 3",
+              "4 3"
+            ],
+            "correta": 1,
+            "explicacao": "i vai até 3 e j vai até 2.",
+            "dica": "range(1, 3) para em 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(2): for j in range(3): print(i * j). Quantas linhas aparecem?",
+            "alternativas": [
+              "5",
+              "2",
+              "6",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "2 × 3 = 6.",
+            "dica": "Conte as voltas, não os valores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que range(0, 5) gera?",
+            "alternativas": [
+              "1 a 5",
+              "0 a 5",
+              "1 a 4",
+              "0 a 4"
+            ],
+            "correta": 3,
+            "explicacao": "0, 1, 2, 3, 4.",
+            "dica": "Para antes do 5."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a saída de for i in range(1, 3): for j in [\"a\", \"b\"]: print(i, j)",
+            "itens": [
+              "1 a",
+              "1 b",
+              "2 a",
+              "2 b"
+            ],
+            "explicacao": "O laço de dentro termina antes de o de fora avançar.",
+            "dica": "O i só muda depois que o j passa por todos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(1, 5): for j in range(i): print(\"*\"). Quantos asteriscos aparecem?",
+            "alternativas": [
+              "10",
+              "16",
+              "4",
+              "20"
+            ],
+            "correta": 0,
+            "explicacao": "1 + 2 + 3 + 4 = 10.",
+            "dica": "O laço de dentro cresce a cada volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "soma = 0; for i in range(1, 3): for j in range(1, 3): soma = soma + i * j. Quanto vale soma?",
+            "alternativas": [
+              "6",
+              "9",
+              "4",
+              "8"
+            ],
+            "correta": 1,
+            "explicacao": "i = 1: 1 + 2 = 3; i = 2: 2 + 4 = 6. Total 9.",
+            "dica": "Faça uma tabela com i e j."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No desenho da escada (for i in range(1, 4)), qual é a última linha?",
+            "alternativas": [
+              "*",
+              "**",
+              "***",
+              "****"
+            ],
+            "correta": 2,
+            "explicacao": "Na última volta, i = 3.",
+            "dica": "range(1, 4) para em 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [[7, 8], [5, 9], [6, 6]]. Somando tudo com dois laços, quanto dá?",
+            "alternativas": [
+              "21",
+              "15",
+              "3",
+              "41"
+            ],
+            "correta": 3,
+            "explicacao": "7 + 8 + 5 + 9 + 6 + 6 = 41.",
+            "dica": "Some os números de todas as listas internas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde colocar um print para mostrar algo uma vez por volta do laço de fora?",
+            "alternativas": [
+              "dentro do laço interno",
+              "no laço de fora, depois do interno terminar",
+              "antes de todos os laços",
+              "em lugar nenhum"
+            ],
+            "correta": 1,
+            "explicacao": "Na indentação do laço de fora, depois do de dentro.",
+            "dica": "A indentação decide quantas vezes a linha roda."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "5 times jogam todos contra todos, uma vez. Com for i in range(5): for j in range(i + 1, 5):, quantos jogos?",
+            "alternativas": [
+              "25",
+              "10",
+              "20",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "4 + 3 + 2 + 1 + 0 = 10.",
+            "dica": "Conte as voltas de dentro para cada i."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "m = [[1, 2, 3], [4, 5, 6]]. O que mostra print(m[1][2])?",
+            "alternativas": [
+              "6",
+              "2",
+              "5",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "Linha 1 é [4, 5, 6]; índice 2 é o 6.",
+            "dica": "Os índices começam em zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cont = 0; for i in range(1, 4): for j in range(1, 4): if i == j: cont = cont + 1. Quanto vale cont?",
+            "alternativas": [
+              "9",
+              "1",
+              "3",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "Só quando i e j são iguais: (1,1), (2,2), (3,3).",
+            "dica": "Pense na diagonal de uma tabela 3 × 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(3):\n    for j in range(3):\n        if j == 1:\n            break\n        print(i, j)\nQuantas linhas aparecem?",
+            "alternativas": [
+              "9",
+              "6",
+              "0",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Em cada volta de fora, só j = 0 é impresso antes do break.",
+            "dica": "O break sai só do laço de dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três laços aninhados com range(10) cada um. Quantas vezes roda o mais interno?",
+            "alternativas": [
+              "30",
+              "1000",
+              "100",
+              "300"
+            ],
+            "correta": 1,
+            "explicacao": "10 × 10 × 10 = 1000.",
+            "dica": "Multiplique as três quantidades."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Cabeçalho, rodapé, quebra de seção e numeração de páginas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Cabeçalho é a área no topo de cada página; rodapé, no pé. O que se escreve neles se repete em todas as páginas. Use Inserir > Cabeçalho (ou Rodapé), ou dê dois cliques na margem de cima ou de baixo.",
+          "Numeração: Inserir > Número de Página e escolha a posição (Início da Página ou Fim da Página). O Word conta sozinho.",
+          "Quebra de página (Ctrl + Enter) só pula para a página seguinte. Quebra de seção (Layout > Quebras > Próxima Página) divide o documento em partes que podem ter cabeçalho, numeração e até orientação diferentes.",
+          "Para não numerar a capa, marque \"Primeira Página Diferente\" nas ferramentas de cabeçalho e rodapé. Para começar de outro número, use Número de Página > Formatar Números de Página > Iniciar em.",
+          "Para que o cabeçalho de uma seção seja diferente do da seção anterior, desmarque \"Vincular ao Anterior\" na seção nova."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Trabalho com capa, folha de rosto e sumário sem número, e a introdução numerada a partir de 4. Como fazer?",
+            "resolucao": "Insira uma quebra de seção (Próxima Página) antes da introdução, desmarque Vincular ao Anterior na nova seção, insira o número de página e formate para iniciar em 4. Na primeira seção, apague a numeração."
+          },
+          {
+            "enunciado": "Uma tabela larga precisa ficar em paisagem no meio do documento. Como fazer?",
+            "resolucao": "Coloque uma quebra de seção antes e outra depois da tabela e mude só essa seção para Paisagem em Layout > Orientação."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Campos úteis: \"Página X de Y\" (Número de Página > Posição Atual) e data que se atualiza sozinha (Inserir > Data e Hora, marcando Atualizar automaticamente).",
+        "Para imprimir frente e verso, marque \"Páginas Pares e Ímpares Diferentes\": o número fica à direita nas ímpares e à esquerda nas pares.",
+        "O botão ¶ (Mostrar Tudo), na guia Página Inicial, mostra onde estão as quebras de seção, para mover ou apagar. Um documento com 3 quebras de seção tem 4 seções."
+      ],
+      "desafio_pratico": "No Word, pegue um texto de pelo menos 4 páginas. Faça a capa sem número, coloque seu nome e a escola no cabeçalho, numere o rodapé a partir da segunda página e deixe uma página do meio em paisagem usando quebras de seção.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área no topo de todas as páginas?",
+            "alternativas": [
+              "rodapé",
+              "cabeçalho",
+              "margem",
+              "sumário"
+            ],
+            "correta": 1,
+            "explicacao": "Cabeçalho fica em cima.",
+            "dica": "Pense em cabeça: fica em cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica o rodapé?",
+            "alternativas": [
+              "no pé da página",
+              "no topo",
+              "no meio",
+              "só na capa"
+            ],
+            "correta": 0,
+            "explicacao": "Roda-pé: embaixo.",
+            "dica": "O nome já indica o lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o atalho da quebra de página?",
+            "alternativas": [
+              "Ctrl + B",
+              "Ctrl + C",
+              "Ctrl + Enter",
+              "Ctrl + P"
+            ],
+            "correta": 2,
+            "explicacao": "Ctrl + Enter pula para a próxima página.",
+            "dica": "Enter já pula linha; com Ctrl, pula a página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como inserir número de página?",
+            "alternativas": [
+              "Página Inicial > Fonte",
+              "Revisão > Ortografia",
+              "Exibir > Zoom",
+              "Inserir > Número de Página"
+            ],
+            "correta": 3,
+            "explicacao": "Fica na guia Inserir.",
+            "dica": "Você vai inserir algo novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para a capa ficar sem número, o que marcar?",
+            "alternativas": [
+              "nada, basta apagar o número à mão",
+              "Primeira Página Diferente",
+              "fonte branca no número",
+              "não ter capa"
+            ],
+            "correta": 1,
+            "explicacao": "A primeira página ganha cabeçalho e rodapé próprios.",
+            "dica": "A capa é a primeira página."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a quebra de seção?",
+            "alternativas": [
+              "dividir o documento em partes com cabeçalho, numeração ou orientação próprios",
+              "apagar páginas",
+              "salvar o arquivo",
+              "mudar a fonte"
+            ],
+            "correta": 0,
+            "explicacao": "Cada seção pode ter sua formatação.",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como começar a numeração em 3?",
+            "alternativas": [
+              "digitar 3 à mão",
+              "Formatar Números de Página > Iniciar em 3",
+              "inserir 2 páginas em branco",
+              "não é possível"
+            ],
+            "correta": 1,
+            "explicacao": "O Word deixa escolher o número inicial.",
+            "dica": "Procure a opção de formatar os números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o cabeçalho da seção 2 ser diferente do da seção 1:",
+            "alternativas": [
+              "apagar a seção 1",
+              "copiar e colar",
+              "desmarcar Vincular ao Anterior",
+              "mudar a margem"
+            ],
+            "correta": 2,
+            "explicacao": "Vinculado, ele repete o anterior.",
+            "dica": "Desligue a ligação com a seção anterior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deixar só uma página em paisagem no meio do documento?",
+            "alternativas": [
+              "mudar tudo para paisagem",
+              "girar a tela",
+              "imprimir de lado",
+              "quebra de seção antes e depois e só essa seção em Paisagem"
+            ],
+            "correta": 3,
+            "explicacao": "A orientação vale por seção.",
+            "dica": "A orientação muda por seção."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para numerar a partir da introdução:",
+            "itens": [
+              "Inserir quebra de seção (Próxima Página) antes da introdução",
+              "Na seção da introdução, desmarcar Vincular ao Anterior",
+              "Inserir o número de página nessa seção",
+              "Formatar para iniciar no número desejado"
+            ],
+            "explicacao": "Primeiro cria a seção, depois a desliga da anterior e por fim numera.",
+            "dica": "Sem seção nova, não há como separar a numeração."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre Ctrl + Enter e quebra de seção?",
+            "alternativas": [
+              "são iguais",
+              "a quebra de página só pula; a de seção permite formatação diferente",
+              "a de seção só pula página",
+              "Ctrl + Enter apaga o texto"
+            ],
+            "correta": 1,
+            "explicacao": "Seção é mais que uma página nova.",
+            "dica": "Uma só pula; a outra cria uma parte nova."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você mudou o cabeçalho da seção 3 e ele mudou também na seção 2. Por quê?",
+            "alternativas": [
+              "a seção 3 está vinculada à anterior",
+              "a fonte é igual",
+              "o Word está com defeito",
+              "faltou salvar"
+            ],
+            "correta": 0,
+            "explicacao": "Vincular ao Anterior estava marcado.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Página X de Y\" num documento de 12 páginas, na 5ª página, mostra:",
+            "alternativas": [
+              "Página 12 de 5",
+              "Página 5",
+              "Página 5 de 12",
+              "5/5"
+            ],
+            "correta": 2,
+            "explicacao": "X é a página atual e Y, o total.",
+            "dica": "Primeiro a atual, depois o total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como ver onde estão as quebras de seção?",
+            "alternativas": [
+              "Zoom",
+              "Imprimir",
+              "Salvar como PDF",
+              "botão ¶ (Mostrar Tudo)"
+            ],
+            "correta": 3,
+            "explicacao": "Ele mostra marcas escondidas.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como colocar no cabeçalho uma data que muda sozinha?",
+            "alternativas": [
+              "digitar a data",
+              "Inserir > Data e Hora com Atualizar automaticamente",
+              "copiar a data do celular",
+              "não é possível"
+            ],
+            "correta": 1,
+            "explicacao": "O campo de data se atualiza.",
+            "dica": "Existe uma opção de atualizar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A capa, a folha de rosto e o sumário têm 1 página cada, e a introdução deve aparecer com o número 4. O que configurar?",
+            "alternativas": [
+              "Iniciar em 1 na capa",
+              "Seção nova na introdução, desvincular e Iniciar em 4",
+              "Apagar a capa",
+              "Apertar Ctrl + Enter três vezes"
+            ],
+            "correta": 1,
+            "explicacao": "Seção própria com numeração iniciando em 4.",
+            "dica": "Junte quebra de seção, desvincular e Iniciar em."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para impressão frente e verso, com número à direita nas páginas ímpares e à esquerda nas pares, o que marcar?",
+            "alternativas": [
+              "Primeira Página Diferente",
+              "Vincular ao Anterior",
+              "Páginas Pares e Ímpares Diferentes",
+              "só margens espelho"
+            ],
+            "correta": 2,
+            "explicacao": "Pares e ímpares ganham cabeçalho e rodapé próprios.",
+            "dica": "O nome da opção fala de pares e ímpares."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um documento tem 3 quebras de seção. Quantas seções ele tem?",
+            "alternativas": [
+              "3",
+              "2",
+              "5",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "Cada quebra cria uma seção nova a partir da primeira: 1 + 3 = 4.",
+            "dica": "Uma quebra divide o documento em duas partes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com Primeira Página Diferente marcada e numeração começando em 1, que número aparece na 2ª página?",
+            "alternativas": [
+              "1",
+              "2",
+              "nenhum",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "A 1ª página conta como 1, mas o número fica escondido; a 2ª mostra 2.",
+            "dica": "A capa deixa de mostrar o número, mas continua sendo contada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num documento de 10 páginas, só as páginas 5 e 6 ficam em paisagem. Quantas seções são necessárias?",
+            "alternativas": [
+              "3 seções",
+              "2 seções",
+              "4 seções",
+              "1 seção"
+            ],
+            "correta": 0,
+            "explicacao": "Retrato (1 a 4), paisagem (5 e 6), retrato (7 a 10).",
+            "dica": "Conte os blocos de orientação."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Preço certo: custo fixo, custo variável e markup",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Custo variável muda com a quantidade produzida: ingredientes, embalagem, taxa da maquininha. No brigadeiro: chocolate, leite condensado e forminha.",
+          "Custo fixo existe mesmo sem vender: aluguel, internet, o DAS do MEI, o salário do funcionário registrado, parte do gás e da luz. Ele precisa ser dividido pelas unidades vendidas no mês.",
+          "Custo unitário = custo variável por unidade + (custo fixo ÷ quantidade vendida). Com variável de R$ 0,80 por brigadeiro, fixo de R$ 600 por mês e 1.000 unidades vendidas: 0,80 + 0,60 = R$ 1,40.",
+          "Markup é o multiplicador aplicado ao custo para formar o preço, cobrindo impostos e lucro: preço = custo × markup. Com markup 2: R$ 1,40 × 2 = R$ 2,80.",
+          "Pesquise o preço dos concorrentes e o que o cliente aceita pagar. Preço baixo demais dá prejuízo mesmo vendendo muito; alto demais afasta clientes. E inclua o pagamento do seu próprio trabalho (pró-labore) no custo fixo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Doces: custo variável de R$ 1,20, custo fixo de R$ 900 por mês e 1.500 unidades vendidas. Qual é o custo unitário e o preço com markup 1,8?",
+            "resolucao": "Fixo por unidade: 900 ÷ 1.500 = 0,60. Custo: 1,20 + 0,60 = R$ 1,80. Preço: 1,80 × 1,8 = R$ 3,24."
+          },
+          {
+            "enunciado": "Brigadeiro a R$ 2,80, custo variável de R$ 0,80 e custo fixo de R$ 600. Quantos precisa vender para empatar?",
+            "resolucao": "Cada brigadeiro sobra 2,80 − 0,80 = R$ 2,00 para pagar o fixo. 600 ÷ 2 = 300 unidades por mês."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Margem de contribuição = preço − custo variável. Ponto de equilíbrio (em unidades) = custo fixo ÷ margem de contribuição. Para ter lucro, some o lucro desejado ao custo fixo antes de dividir.",
+        "Markup não é margem: markup 2 sobre o custo de R$ 1,40 dá preço de R$ 2,80, e o lucro bruto de 1,40 é 50% do preço. Para ter margem de 50% sobre o preço, divida o custo por 0,5.",
+        "Se vender menos, o fixo por unidade sobe: com 500 brigadeiros, o fixo vira 1,20 por unidade e o custo total, 2,00. A taxa da maquininha (por exemplo, 3% do preço) também é custo variável."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um custo variável numa doceria?",
+            "alternativas": [
+              "aluguel",
+              "chocolate usado nos doces",
+              "internet",
+              "DAS do MEI"
+            ],
+            "correta": 1,
+            "explicacao": "Quanto mais doces, mais chocolate.",
+            "dica": "Qual custo cresce quando se produz mais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O custo fixo:",
+            "alternativas": [
+              "existe mesmo sem vender",
+              "só existe quando vende",
+              "é o lucro",
+              "é o preço"
+            ],
+            "correta": 0,
+            "explicacao": "O aluguel vence mesmo num mês sem vendas.",
+            "dica": "Pense no aluguel."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O markup é:",
+            "alternativas": [
+              "um imposto",
+              "um tipo de doce",
+              "o multiplicador do custo para formar o preço",
+              "um desconto"
+            ],
+            "correta": 2,
+            "explicacao": "Preço = custo × markup.",
+            "dica": "Releia o quarto parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Custo de R$ 2 e markup 2. Qual é o preço?",
+            "alternativas": [
+              "R$ 2",
+              "R$ 1",
+              "R$ 3",
+              "R$ 4"
+            ],
+            "correta": 3,
+            "explicacao": "2 × 2 = 4.",
+            "dica": "Multiplique o custo pelo markup."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O aluguel da cozinha é custo:",
+            "alternativas": [
+              "variável",
+              "fixo",
+              "de matéria-prima",
+              "nenhum"
+            ],
+            "correta": 1,
+            "explicacao": "Não muda com a quantidade produzida.",
+            "dica": "O aluguel muda se você fizer mais doces?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Variável R$ 0,80, fixo R$ 600, 1.000 unidades. Qual é o custo unitário?",
+            "alternativas": [
+              "R$ 1,40",
+              "R$ 0,80",
+              "R$ 600,80",
+              "R$ 0,60"
+            ],
+            "correta": 0,
+            "explicacao": "0,80 + 600 ÷ 1.000 = 0,80 + 0,60 = 1,40.",
+            "dica": "Divida o fixo pela quantidade e some ao variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com custo de R$ 1,40 e markup 2, qual é o preço?",
+            "alternativas": [
+              "R$ 1,40",
+              "R$ 2,80",
+              "R$ 3,40",
+              "R$ 2,00"
+            ],
+            "correta": 1,
+            "explicacao": "1,40 × 2 = 2,80.",
+            "dica": "Multiplique, não some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Variável R$ 1,20, fixo R$ 900, 1.500 unidades. Qual é o custo unitário?",
+            "alternativas": [
+              "R$ 1,20",
+              "R$ 2,10",
+              "R$ 1,80",
+              "R$ 0,60"
+            ],
+            "correta": 2,
+            "explicacao": "900 ÷ 1.500 = 0,60; 1,20 + 0,60 = 1,80.",
+            "dica": "Primeiro o fixo por unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com um preço baixo demais?",
+            "alternativas": [
+              "sempre dá lucro",
+              "garante lucro porque atrai clientes",
+              "não tem risco",
+              "pode dar prejuízo mesmo vendendo muito"
+            ],
+            "correta": 3,
+            "explicacao": "Se o preço não cobre o custo, cada venda aumenta o prejuízo.",
+            "dica": "Vender muito abaixo do custo ajuda?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a formação do preço:",
+            "itens": [
+              "Somar os custos variáveis por unidade",
+              "Dividir o custo fixo pela quantidade vendida",
+              "Somar os dois para achar o custo unitário",
+              "Aplicar o markup e comparar com o mercado"
+            ],
+            "explicacao": "Primeiro os custos, depois o preço, por fim a comparação.",
+            "dica": "O markup só entra depois de conhecer o custo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Preço R$ 2,80, variável R$ 0,80 e fixo R$ 600. Qual é o ponto de equilíbrio?",
+            "alternativas": [
+              "300 unidades",
+              "750 unidades",
+              "214 unidades",
+              "600 unidades"
+            ],
+            "correta": 0,
+            "explicacao": "Margem: 2,00. 600 ÷ 2 = 300.",
+            "dica": "Divida o fixo pela margem de contribuição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Vendendo só 500 brigadeiros (variável R$ 0,80, fixo R$ 600), qual é o custo unitário?",
+            "alternativas": [
+              "R$ 1,40",
+              "R$ 2,00",
+              "R$ 1,20",
+              "R$ 0,80"
+            ],
+            "correta": 1,
+            "explicacao": "600 ÷ 500 = 1,20; 0,80 + 1,20 = 2,00.",
+            "dica": "Menos unidades dividem o mesmo fixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bolo vendido a R$ 40 com custo variável de R$ 15. Qual é a margem de contribuição?",
+            "alternativas": [
+              "R$ 55",
+              "R$ 15",
+              "R$ 25",
+              "R$ 40"
+            ],
+            "correta": 2,
+            "explicacao": "40 − 15 = 25.",
+            "dica": "Preço menos custo variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Markup 2 sobre o custo corresponde a que margem sobre o preço?",
+            "alternativas": [
+              "200%",
+              "100%",
+              "25%",
+              "50%"
+            ],
+            "correta": 3,
+            "explicacao": "Custo 1, preço 2: lucro bruto de 1 é metade do preço.",
+            "dica": "Faça com custo R$ 1 e veja quanto do preço sobra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma doceira não incluiu o próprio trabalho no custo. Qual é o problema?",
+            "alternativas": [
+              "nenhum",
+              "o preço não paga o tempo dela, e o lucro é ilusório",
+              "o doce fica sem açúcar",
+              "ela paga mais imposto"
+            ],
+            "correta": 1,
+            "explicacao": "O trabalho dela tem valor e precisa estar no preço.",
+            "dica": "Quem paga as horas dela no fogão?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Preço R$ 5, variável R$ 2 e fixo R$ 1.800. Quantas unidades para ter R$ 1.200 de lucro no mês?",
+            "alternativas": [
+              "600",
+              "1.000",
+              "1.500",
+              "400"
+            ],
+            "correta": 1,
+            "explicacao": "(1.800 + 1.200) ÷ (5 − 2) = 3.000 ÷ 3 = 1.000.",
+            "dica": "Some o lucro desejado ao fixo antes de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Preço R$ 10, variável R$ 4 e maquininha de 3% sobre o preço. Qual é a margem de contribuição?",
+            "alternativas": [
+              "R$ 5,70",
+              "R$ 6,00",
+              "R$ 5,97",
+              "R$ 3,70"
+            ],
+            "correta": 0,
+            "explicacao": "3% de 10 = 0,30. 10 − 4 − 0,30 = 5,70.",
+            "dica": "A taxa é calculada sobre o preço e é custo variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Custo unitário de R$ 2,50. Para ter margem de 50% sobre o preço, qual deve ser o preço?",
+            "alternativas": [
+              "R$ 3,75",
+              "R$ 2,50",
+              "R$ 5,00",
+              "R$ 7,50"
+            ],
+            "correta": 2,
+            "explicacao": "2,50 ÷ 0,5 = 5,00; o lucro de 2,50 é metade de 5,00. R$ 3,75 seria 50% sobre o custo.",
+            "dica": "Releia a diferença entre markup e margem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Contratar um ajudante registrado custa R$ 2.600 por mês. A margem de contribuição é R$ 2 por doce. Quantos doces a mais por mês pagam esse custo?",
+            "alternativas": [
+              "2.600",
+              "650",
+              "5.200",
+              "1.300"
+            ],
+            "correta": 3,
+            "explicacao": "2.600 ÷ 2 = 1.300.",
+            "dica": "Divida o novo custo fixo pela margem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude aumenta a produção dentro da lei?",
+            "alternativas": [
+              "contratar ajudante sem registro",
+              "registrar a ajudante, dividir as etapas e incluir o custo dela no preço",
+              "pedir que ela trabalhe 14 horas por dia",
+              "pagar só em doces"
+            ],
+            "correta": 1,
+            "explicacao": "Organização e registro, com o custo no preço.",
+            "dica": "Descarte as opções que tiram direitos."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Orações reduzidas de infinitivo, gerúndio e particípio",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Oração reduzida não tem conjunção nem pronome relativo, e o verbo aparece numa forma nominal: infinitivo (estudar), gerúndio (estudando) ou particípio (estudado).",
+          "Toda reduzida pode ser desenvolvida: \"É importante estudar\" = \"É importante que se estude\" (subjetiva). \"Chegando em casa, liguei\" = \"Quando cheguei em casa, liguei\" (temporal).",
+          "Infinitivo: \"Ele disse estar cansado\" = \"Ele disse que estava cansado\" (objetiva direta). \"Saí para comprar pão\" = \"Saí para que comprasse pão\" (final).",
+          "Gerúndio: \"Estudando, você passa\" = \"Se estudar, você passa\" (condicional). \"Sendo tarde, voltamos\" = \"Como era tarde, voltamos\" (causal).",
+          "Particípio: \"Terminada a prova, saímos\" = \"Quando a prova terminou, saímos\" (temporal). \"Os livros doados à escola chegaram\" = \"Os livros que foram doados à escola chegaram\" (adjetiva)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Desenvolva: \"Ao sair, feche a porta.\"",
+            "resolucao": "\"Quando sair, feche a porta.\" É uma oração subordinada adverbial temporal reduzida de infinitivo."
+          },
+          {
+            "enunciado": "Classifique: \"Mesmo chovendo, fomos à feira.\"",
+            "resolucao": "Desenvolvida: \"Embora chovesse, fomos à feira.\" É concessiva reduzida de gerúndio."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O gerúndio tem sentido amplo; o contexto decide se indica tempo, causa, condição ou concessão. Palavras como mesmo ajudam: \"Mesmo fazendo frio, sairemos\" (concessiva).",
+        "Gerundismo: \"Vou estar enviando\" no lugar de \"Vou enviar\" é vício de linguagem; evite em textos formais.",
+        "Infinitivo flexionado concorda com o sujeito: \"É bom vocês chegarem cedo\", \"É preciso vencermos o medo\" (= que vençamos). A reduzida adverbial no início da frase leva vírgula: \"Terminada a aula, saímos.\""
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as formas nominais do verbo?",
+            "alternativas": [
+              "infinitivo, gerúndio e particípio",
+              "presente, passado e futuro",
+              "singular e plural",
+              "masculino e feminino"
+            ],
+            "correta": 0,
+            "explicacao": "Estudar, estudando, estudado.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estudando\" é:",
+            "alternativas": [
+              "infinitivo",
+              "gerúndio",
+              "particípio",
+              "substantivo"
+            ],
+            "correta": 1,
+            "explicacao": "Termina em -ndo.",
+            "dica": "Repare na terminação -ndo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Terminado\" é:",
+            "alternativas": [
+              "gerúndio",
+              "infinitivo",
+              "particípio",
+              "advérbio"
+            ],
+            "correta": 2,
+            "explicacao": "Particípio termina em -ado ou -ido.",
+            "dica": "Repare na terminação -ado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A oração reduzida não tem:",
+            "alternativas": [
+              "verbo",
+              "sentido",
+              "nenhuma palavra",
+              "conjunção nem pronome relativo"
+            ],
+            "correta": 3,
+            "explicacao": "Por isso se chama reduzida.",
+            "dica": "O que falta em comparação com a desenvolvida?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"É importante estudar\", \"estudar\" está no:",
+            "alternativas": [
+              "gerúndio",
+              "infinitivo",
+              "particípio",
+              "imperativo"
+            ],
+            "correta": 1,
+            "explicacao": "Termina em -r.",
+            "dica": "Repare na terminação -r."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Desenvolva \"Chegando em casa, liguei\":",
+            "alternativas": [
+              "Quando cheguei em casa, liguei",
+              "Porque cheguei em casa, liguei",
+              "Embora chegasse em casa, liguei",
+              "Para que chegasse em casa, liguei"
+            ],
+            "correta": 0,
+            "explicacao": "O gerúndio aqui indica tempo.",
+            "dica": "Ligou em que momento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Saí para comprar pão.\" A reduzida é:",
+            "alternativas": [
+              "causal",
+              "final",
+              "condicional",
+              "concessiva"
+            ],
+            "correta": 1,
+            "explicacao": "Para + infinitivo = finalidade.",
+            "dica": "Saiu para quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Terminada a prova, saímos.\" A reduzida é:",
+            "alternativas": [
+              "causal",
+              "final",
+              "temporal",
+              "concessiva"
+            ],
+            "correta": 2,
+            "explicacao": "Quando a prova terminou.",
+            "dica": "Indica o momento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estudando, você passa.\" A reduzida é:",
+            "alternativas": [
+              "temporal",
+              "final",
+              "concessiva",
+              "condicional"
+            ],
+            "correta": 3,
+            "explicacao": "Se estudar, você passa.",
+            "dica": "Passar depende de estudar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Mesmo chovendo, fomos à feira.\" A reduzida é:",
+            "alternativas": [
+              "causal",
+              "concessiva",
+              "final",
+              "temporal"
+            ],
+            "correta": 1,
+            "explicacao": "Embora chovesse.",
+            "dica": "A chuva impediu a ida?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ele disse estar cansado.\" A oração \"estar cansado\" é:",
+            "alternativas": [
+              "objetiva direta reduzida de infinitivo",
+              "adjetiva",
+              "temporal",
+              "final"
+            ],
+            "correta": 0,
+            "explicacao": "Ele disse isso = que estava cansado.",
+            "dica": "Troque por isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Os livros doados à escola chegaram.\" A oração \"doados à escola\" é:",
+            "alternativas": [
+              "adverbial temporal",
+              "adjetiva reduzida de particípio",
+              "substantiva",
+              "final"
+            ],
+            "correta": 1,
+            "explicacao": "Os livros que foram doados: caracteriza livros.",
+            "dica": "Ela caracteriza um substantivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Desenvolva \"Sendo tarde, voltamos\":",
+            "alternativas": [
+              "Embora fosse tarde, voltamos",
+              "Para que fosse tarde, voltamos",
+              "Como era tarde, voltamos",
+              "Se for tarde, voltamos"
+            ],
+            "correta": 2,
+            "explicacao": "O gerúndio indica a causa.",
+            "dica": "Por que voltaram?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "É bom vocês chegar cedo",
+              "É bom vocês chegando cedo",
+              "É bom vocês chegado cedo",
+              "É bom vocês chegarem cedo"
+            ],
+            "correta": 3,
+            "explicacao": "Infinitivo flexionado concorda com vocês.",
+            "dica": "O infinitivo concorda com o sujeito vocês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é adequada a um texto formal?",
+            "alternativas": [
+              "Vou estar enviando o relatório",
+              "Vou enviar o relatório",
+              "Vou estar mandando o relatório",
+              "Estarei enviando o relatório"
+            ],
+            "correta": 1,
+            "explicacao": "Evita o gerundismo.",
+            "dica": "Fuja do \"estar + -ndo\" para o futuro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ao terminar o trabalho, saí para descansar.\" As reduzidas são, na ordem:",
+            "alternativas": [
+              "temporal e final",
+              "final e temporal",
+              "causal e condicional",
+              "concessiva e final"
+            ],
+            "correta": 0,
+            "explicacao": "Ao terminar = quando terminei; para descansar = para que descansasse.",
+            "dica": "Desenvolva cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Desenvolva \"É preciso vencermos o medo\":",
+            "alternativas": [
+              "É preciso porque vencemos o medo",
+              "É preciso que vençamos o medo",
+              "Vencemos o medo, é preciso",
+              "É preciso quando vencemos o medo"
+            ],
+            "correta": 1,
+            "explicacao": "Subjetiva reduzida de infinitivo flexionado.",
+            "dica": "Use \"que\" e o verbo no subjuntivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Mesmo fazendo frio, sairemos.\" A reduzida é:",
+            "alternativas": [
+              "condicional",
+              "final",
+              "concessiva",
+              "causal"
+            ],
+            "correta": 2,
+            "explicacao": "Embora faça frio, sairemos.",
+            "dica": "O frio impede a saída?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações reduzidas há em \"Terminada a reunião, os alunos saíram para pegar o ônibus\"?",
+            "alternativas": [
+              "1",
+              "3",
+              "0",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "\"Terminada a reunião\" (particípio) e \"para pegar o ônibus\" (infinitivo).",
+            "dica": "Procure verbos em forma nominal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem oração reduzida de particípio?",
+            "alternativas": [
+              "Feito o bolo, chamamos todos",
+              "Fazendo o bolo, cantei",
+              "Para fazer o bolo, comprei ovos",
+              "É bom fazer bolo"
+            ],
+            "correta": 0,
+            "explicacao": "Feito é particípio.",
+            "dica": "Procure o verbo terminado em -to, -ado ou -ido."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O brigadeiro que dava prejuízo",
+    "texto": "Dona Neide fazia os melhores brigadeiros do bairro. Vendia na porta da escola, em festas e por encomenda pelo celular. Cobrava um real e cinquenta cada um, porque era o preço de uma vizinha e porque achava que, se cobrasse mais, ninguém compraria. Vendia mais de mil por mês. E, mesmo assim, no fim do mês, o dinheiro não aparecia.\n\nFoi a neta, Bruna, que resolveu investigar. Pegou um caderno e anotou tudo o que a avó gastava. Primeiro, o que dependia de cada brigadeiro: leite condensado, chocolate, manteiga, granulado e forminha. Dividindo pelo rendimento de cada receita, dava oitenta centavos por unidade.\n\n— Então eu ganho setenta centavos em cada um — disse dona Neide, satisfeita.\n\n— Ainda não, vó.\n\nBruna fez a segunda lista: o que a avó pagava mesmo se não vendesse nada. O gás que acabava mais rápido, a parte da conta de luz da geladeira extra, a internet do celular, o DAS do MEI e as caixas para encomendas. Somava seiscentos reais por mês. Dividido por mil brigadeiros, sessenta centavos para cada um.\n\n— Oitenta mais sessenta, um real e quarenta. Você ganha dez centavos por brigadeiro. E o seu trabalho, as quatro horas por dia em pé no fogão, nem entrou na conta.\n\nDona Neide ficou em silêncio por um bom tempo. Depois pediu ajuda para refazer o preço. Passou a cobrar dois reais e cinquenta, ofereceu caixas com doze unidades para festas e caprichou na embalagem.\n\nPerdeu alguns clientes no primeiro mês. No segundo, vendia um pouco menos, mas, pela primeira vez, sobrava dinheiro para pagar a si mesma."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escolha um produto que você poderia vender, calcule o custo de cada unidade (separando custo fixo e variável) e explique o preço que cobraria."
+  }
+}

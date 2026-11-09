@@ -1,0 +1,1201 @@
+{
+  "dia": 26,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Potenciação: números ao quadrado e ao cubo",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Potenciação é uma multiplicação de fatores iguais. Em vez de escrever 2 × 2 × 2, escrevemos 2³ (lê-se “dois elevado ao cubo” ou “dois elevado à terceira”).",
+          "O número de baixo se chama base (é o número que se repete). O número pequeno, no alto, se chama expoente (diz quantas vezes a base se repete). Em 2³, a base é 2 e o expoente é 3. O resultado, 8, é a potência.",
+          "Elevar ao quadrado é multiplicar o número por ele mesmo: 5² = 5 × 5 = 25. Elevar ao cubo é multiplicar três vezes: 4³ = 4 × 4 × 4 = 64.",
+          "Cuidado com o erro mais comum: 3² não é 3 × 2 = 6. É 3 × 3 = 9. O expoente não multiplica a base; ele diz quantas vezes a base aparece."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Calcule 2⁵.",
+            "resolucao": "2 × 2 × 2 × 2 × 2. Fazendo aos poucos: 2 × 2 = 4; 4 × 2 = 8; 8 × 2 = 16; 16 × 2 = 32. Então 2⁵ = 32."
+          },
+          {
+            "enunciado": "Calcule 10³.",
+            "resolucao": "10 × 10 × 10 = 1.000. Nas potências de 10, o expoente diz quantos zeros vêm depois do 1."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Regras especiais: todo número elevado a 1 é ele mesmo (7¹ = 7). Todo número diferente de zero elevado a 0 é 1 (5⁰ = 1). O 1 elevado a qualquer expoente é 1 (1¹⁰⁰ = 1).",
+        "O nome “quadrado” vem da geometria: um quadrado de lado 3 tem área 3 × 3 = 3² = 9. O “cubo” também: um cubo de aresta 2 tem volume 2 × 2 × 2 = 2³ = 8 cubinhos.",
+        "As potências crescem muito rápido. Dobrando a cada passo: 2¹ = 2, 2² = 4, 2³ = 8, 2⁴ = 16, 2⁵ = 32, 2⁶ = 64, 2⁷ = 128, 2⁸ = 256, 2⁹ = 512, 2¹⁰ = 1.024. Em só dez passos, passamos de mil."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 2³, qual número é a base?",
+            "alternativas": [
+              "2",
+              "3",
+              "8",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "A base é o número que se repete: o 2.",
+            "dica": "A base é o número grande, embaixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3²?",
+            "alternativas": [
+              "6",
+              "9",
+              "5",
+              "33"
+            ],
+            "correta": 1,
+            "explicacao": "3² = 3 × 3 = 9. Não é 3 × 2.",
+            "dica": "Multiplique o 3 por ele mesmo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O expoente indica:",
+            "alternativas": [
+              "quanto somar",
+              "a metade da base",
+              "quantas vezes a base se repete na multiplicação",
+              "o resultado"
+            ],
+            "correta": 2,
+            "explicacao": "O expoente diz quantas vezes a base aparece multiplicando.",
+            "dica": "É o número pequeno no alto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10²?",
+            "alternativas": [
+              "20",
+              "12",
+              "1.000",
+              "100"
+            ],
+            "correta": 3,
+            "explicacao": "10 × 10 = 100.",
+            "dica": "Multiplique 10 por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Elevar ao cubo” quer dizer que o expoente é:",
+            "alternativas": [
+              "3",
+              "2",
+              "1",
+              "4"
+            ],
+            "correta": 0,
+            "explicacao": "Ao cubo é expoente 3; ao quadrado é expoente 2.",
+            "dica": "Pense num cubo: quantas medidas ele tem (comprimento, largura, altura)?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 4³?",
+            "alternativas": [
+              "12",
+              "64",
+              "16",
+              "43"
+            ],
+            "correta": 1,
+            "explicacao": "4 × 4 × 4: 4 × 4 = 16; 16 × 4 = 64.",
+            "dica": "Multiplique o 4 três vezes, aos poucos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 5²?",
+            "alternativas": [
+              "10",
+              "7",
+              "25",
+              "52"
+            ],
+            "correta": 2,
+            "explicacao": "5 × 5 = 25. O 10 seria 5 × 2, o erro comum.",
+            "dica": "O expoente não multiplica a base."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 6 × 6 × 6 × 6 em forma de potência?",
+            "alternativas": [
+              "6 × 4",
+              "4⁶",
+              "6 + 4",
+              "6⁴"
+            ],
+            "correta": 3,
+            "explicacao": "O 6 se repete 4 vezes: base 6, expoente 4.",
+            "dica": "A base é o número que se repete; o expoente, quantas vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2⁴?",
+            "alternativas": [
+              "16",
+              "8",
+              "6",
+              "24"
+            ],
+            "correta": 0,
+            "explicacao": "2 × 2 × 2 × 2 = 16.",
+            "dica": "Vá dobrando: 2, 4, 8…"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as potências da MENOR para a MAIOR:",
+            "itens": [
+              "2²",
+              "3²",
+              "2⁴",
+              "3³"
+            ],
+            "explicacao": "Valores: 2² = 4, 3² = 9, 2⁴ = 16 e 3³ = 27.",
+            "dica": "Calcule cada uma antes de comparar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 7¹ + 5⁰?",
+            "alternativas": [
+              "12",
+              "8",
+              "7",
+              "13"
+            ],
+            "correta": 1,
+            "explicacao": "7¹ = 7 e 5⁰ = 1. Soma: 7 + 1 = 8. A pegadinha é achar que 5⁰ é 0.",
+            "dica": "Use as regras especiais do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem lado de 8 cm. Qual é a área, usando potência?",
+            "alternativas": [
+              "16 cm²",
+              "32 cm²",
+              "64 cm²",
+              "88 cm²"
+            ],
+            "correta": 2,
+            "explicacao": "Área = 8² = 8 × 8 = 64 cm².",
+            "dica": "Área do quadrado é o lado ao quadrado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos zeros tem 10⁶?",
+            "alternativas": [
+              "Um",
+              "Dez",
+              "Sete",
+              "Seis"
+            ],
+            "correta": 3,
+            "explicacao": "10⁶ = 1.000.000: o expoente 6 diz que são seis zeros.",
+            "dica": "Nas potências de 10, o expoente conta os zeros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3³?",
+            "alternativas": [
+              "27",
+              "9",
+              "6",
+              "33"
+            ],
+            "correta": 0,
+            "explicacao": "3 × 3 × 3: 3 × 3 = 9; 9 × 3 = 27.",
+            "dica": "Multiplique o 3 três vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1¹⁰ + 0⁵?",
+            "alternativas": [
+              "10",
+              "1",
+              "15",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "1 elevado a qualquer expoente é 1. 0 × 0 × 0 × 0 × 0 = 0. Soma: 1 + 0 = 1.",
+            "dica": "Multiplicar 1 por 1 muitas vezes dá quanto? E 0 por 0?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cubo de aresta 3 cm é montado com cubinhos de 1 cm. Quantos cubinhos são?",
+            "alternativas": [
+              "9",
+              "18",
+              "27",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "Volume = 3³ = 3 × 3 × 3 = 27 cubinhos.",
+            "dica": "Lembre do cubo do aprofundamento: aresta elevada ao cubo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é MAIOR: 2⁵ ou 5²?",
+            "alternativas": [
+              "5², porque 5 é maior que 2",
+              "São iguais",
+              "Não dá para comparar",
+              "2⁵, porque 32 é maior que 25"
+            ],
+            "correta": 3,
+            "explicacao": "2⁵ = 32 e 5² = 25. Trocar a base pelo expoente muda o resultado.",
+            "dica": "Calcule as duas antes de decidir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um boato é contado para 2 pessoas. Cada uma conta para 2 novas no dia seguinte, e assim por diante. No 6º dia, quantas pessoas novas ouvem o boato?",
+            "alternativas": [
+              "64",
+              "12",
+              "32",
+              "36"
+            ],
+            "correta": 0,
+            "explicacao": "Dia 1: 2; dia 2: 4; dia 3: 8; dia 4: 16; dia 5: 32; dia 6: 64 = 2⁶.",
+            "dica": "A cada dia o número dobra. Escreva os dias em sequência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2³ × 2² ?",
+            "alternativas": [
+              "2⁶ = 64",
+              "2⁵ = 32",
+              "4⁵",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "2³ = 8 e 2² = 4. 8 × 4 = 32 = 2⁵. São 3 + 2 = 5 fatores 2 ao todo.",
+            "dica": "Calcule cada potência e multiplique, ou conte quantos 2 aparecem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número elevado ao quadrado dá 144?",
+            "alternativas": [
+              "72",
+              "14",
+              "12",
+              "11"
+            ],
+            "correta": 2,
+            "explicacao": "12 × 12 = 144. O 72 seria a metade, que é o erro comum.",
+            "dica": "Procure um número que multiplicado por ele mesmo dê 144."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Juros: o preço de pegar dinheiro emprestado",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Quando alguém pega dinheiro emprestado, devolve mais do que pegou. Essa diferença se chama juros: é o “aluguel” do dinheiro.",
+          "Os juros costumam ser dados em porcentagem por mês. Juros de 10% ao mês sobre R$ 100 são R$ 10 por mês.",
+          "Também existem juros a seu favor: quando você guarda dinheiro na poupança ou em outra aplicação, o banco paga juros para você, porque está usando o seu dinheiro.",
+          "Regra de ouro: juros de dívida trabalham contra você; juros de dinheiro guardado trabalham a seu favor. Por isso, é melhor juntar antes e comprar depois."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Júlio pegou R$ 200 emprestado com juros de 5% ao mês. Quanto paga de juros em 1 mês?",
+            "resolucao": "5% de 200 = 200 ÷ 100 × 5 = R$ 10. Ele devolve 200 + 10 = R$ 210."
+          },
+          {
+            "enunciado": "Com juros simples de 5% ao mês, quanto Júlio paga de juros em 3 meses?",
+            "resolucao": "R$ 10 por mês × 3 = R$ 30. Ele devolve 200 + 30 = R$ 230."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Nos juros simples, os juros são calculados sempre sobre o valor inicial. Nos juros compostos, que são os usados pelos bancos, os juros de um mês entram na conta e também rendem juros no mês seguinte: são os “juros sobre juros”.",
+        "Exemplo de juros compostos: R$ 100 a 10% ao mês. No 1º mês, 10% de 100 = 10 → R$ 110. No 2º mês, 10% de 110 = 11 → R$ 121. Nos juros simples, seria R$ 120. A diferença parece pequena no começo, mas cresce muito com o tempo.",
+        "Antes de comprar a prazo, compare o preço à vista com o total das parcelas. Se a TV custa R$ 1.000 à vista ou 10 × R$ 120, o total parcelado é R$ 1.200: R$ 200 de juros escondidos."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Juros são:",
+            "alternativas": [
+              "o valor a mais pago por pegar dinheiro emprestado",
+              "um desconto",
+              "o preço do pão",
+              "um presente do banco"
+            ],
+            "correta": 0,
+            "explicacao": "Juros são o “aluguel” do dinheiro emprestado.",
+            "dica": "A lição comparou os juros a um aluguel."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "10% de R$ 100 são:",
+            "alternativas": [
+              "R$ 1",
+              "R$ 10",
+              "R$ 100",
+              "R$ 110"
+            ],
+            "correta": 1,
+            "explicacao": "100 ÷ 10 = 10.",
+            "dica": "10% é a décima parte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem guarda dinheiro na poupança:",
+            "alternativas": [
+              "paga juros",
+              "perde tudo",
+              "recebe juros",
+              "fica devendo"
+            ],
+            "correta": 2,
+            "explicacao": "O banco paga juros para quem guarda dinheiro.",
+            "dica": "Nesse caso os juros são a favor de quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Juros de uma dívida trabalham:",
+            "alternativas": [
+              "a seu favor",
+              "de graça",
+              "só no Natal",
+              "contra você"
+            ],
+            "correta": 3,
+            "explicacao": "A dívida cresce com os juros.",
+            "dica": "Lembre a regra de ouro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é melhor, segundo a lição?",
+            "alternativas": [
+              "Juntar antes e comprar depois",
+              "Comprar tudo emprestado",
+              "Nunca guardar",
+              "Pegar empréstimo todo mês"
+            ],
+            "correta": 0,
+            "explicacao": "Juntando antes, os juros trabalham a seu favor.",
+            "dica": "Pense na regra de ouro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana pegou R$ 300 emprestado a 10% ao mês. Quanto paga de juros em 1 mês?",
+            "alternativas": [
+              "R$ 3",
+              "R$ 30",
+              "R$ 300",
+              "R$ 330"
+            ],
+            "correta": 1,
+            "explicacao": "10% de 300 = 30.",
+            "dica": "Divida por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto ela devolve no total, depois de 1 mês?",
+            "alternativas": [
+              "R$ 300",
+              "R$ 310",
+              "R$ 330",
+              "R$ 400"
+            ],
+            "correta": 2,
+            "explicacao": "300 + 30 = R$ 330.",
+            "dica": "Some o empréstimo com os juros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com juros simples de R$ 15 por mês, quanto se paga de juros em 4 meses?",
+            "alternativas": [
+              "R$ 19",
+              "R$ 45",
+              "R$ 15",
+              "R$ 60"
+            ],
+            "correta": 3,
+            "explicacao": "15 × 4 = R$ 60.",
+            "dica": "Multiplique os juros de um mês pela quantidade de meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bicicleta custa R$ 600 à vista ou 6 × R$ 120. Quanto se paga de juros no parcelado?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 720",
+              "R$ 60",
+              "R$ 0"
+            ],
+            "correta": 0,
+            "explicacao": "6 × 120 = 720. 720 − 600 = R$ 120 de juros.",
+            "dica": "Calcule o total das parcelas e compare com o preço à vista."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para saber se vale a pena parcelar:",
+            "itens": [
+              "Anotar o preço à vista",
+              "Multiplicar o valor da parcela pelo número de parcelas",
+              "Subtrair: total parcelado menos preço à vista",
+              "Decidir se esses juros valem a pena"
+            ],
+            "explicacao": "Preço à vista, total parcelado, diferença e decisão.",
+            "dica": "A decisão vem só no fim, depois das contas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Juros simples: R$ 500 a 2% ao mês, por 5 meses. Quanto de juros?",
+            "alternativas": [
+              "R$ 10",
+              "R$ 50",
+              "R$ 100",
+              "R$ 25"
+            ],
+            "correta": 1,
+            "explicacao": "2% de 500 = 10 por mês. 10 × 5 = R$ 50.",
+            "dica": "Calcule os juros de um mês e multiplique pelos meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Juros compostos: R$ 200 a 10% ao mês, por 2 meses. Qual é o total?",
+            "alternativas": [
+              "R$ 240",
+              "R$ 220",
+              "R$ 242",
+              "R$ 400"
+            ],
+            "correta": 2,
+            "explicacao": "1º mês: 200 + 20 = 220. 2º mês: 10% de 220 = 22 → 242. Nos simples daria 240.",
+            "dica": "No segundo mês, os juros são calculados sobre o novo valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é VERDADEIRA?",
+            "alternativas": [
+              "Juros compostos são sempre menores que os simples",
+              "Os bancos não cobram juros",
+              "Juros só existem em dívidas",
+              "Nos juros compostos, os juros também rendem juros"
+            ],
+            "correta": 3,
+            "explicacao": "É o “juros sobre juros”: os juros entram na conta e rendem no mês seguinte.",
+            "dica": "Lembre a explicação dos juros compostos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Celular: R$ 1.200 à vista ou 12 × R$ 125. Quanto se paga a mais parcelando?",
+            "alternativas": [
+              "R$ 300",
+              "R$ 125",
+              "R$ 1.500",
+              "R$ 25"
+            ],
+            "correta": 0,
+            "explicacao": "12 × 125 = 1.500. 1.500 − 1.200 = R$ 300.",
+            "dica": "Multiplique as parcelas e subtraia o preço à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruna guardou R$ 1.000 numa aplicação que paga 1% ao mês (juros simples, para facilitar). Quanto terá em 6 meses?",
+            "alternativas": [
+              "R$ 1.006",
+              "R$ 1.060",
+              "R$ 1.600",
+              "R$ 1.010"
+            ],
+            "correta": 1,
+            "explicacao": "1% de 1.000 = 10 por mês. 10 × 6 = 60. Total: R$ 1.060.",
+            "dica": "Calcule 1% de mil e multiplique pelos meses."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em juros compostos, R$ 1.000 a 10% ao mês viram quanto em 3 meses?",
+            "alternativas": [
+              "R$ 1.300",
+              "R$ 1.030",
+              "R$ 1.331",
+              "R$ 1.210"
+            ],
+            "correta": 2,
+            "explicacao": "1º: 1.100. 2º: 1.100 + 110 = 1.210. 3º: 1.210 + 121 = 1.331. Nos simples seriam R$ 1.300.",
+            "dica": "Calcule mês a mês, sempre sobre o valor novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma geladeira custa R$ 2.000 à vista. Parcelada, sai por 10 × R$ 230. Qual é a porcentagem de juros sobre o preço à vista?",
+            "alternativas": [
+              "30%",
+              "23%",
+              "10%",
+              "15%"
+            ],
+            "correta": 3,
+            "explicacao": "Total: 10 × 230 = 2.300. Juros: 300. 300 de 2.000 = 15% (porque 10% de 2.000 = 200 e 5% = 100).",
+            "dica": "Ache o valor dos juros e compare com o preço à vista, usando 10% e 5%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas pode comprar um videogame de R$ 1.500 hoje, em 10 × R$ 180, ou guardar R$ 150 por mês e comprar à vista em 10 meses. Quanto ele economiza esperando?",
+            "alternativas": [
+              "R$ 300",
+              "R$ 150",
+              "R$ 1.800",
+              "R$ 30"
+            ],
+            "correta": 0,
+            "explicacao": "Parcelado: 10 × 180 = 1.800. À vista: 1.500. Diferença: R$ 300, sem contar que o dinheiro guardado ainda poderia render.",
+            "dica": "Compare o total parcelado com o preço à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 100 no cartão tem juros de 15% ao mês (compostos). Quanto será depois de 2 meses sem pagar?",
+            "alternativas": [
+              "R$ 130",
+              "R$ 132,25",
+              "R$ 115",
+              "R$ 230"
+            ],
+            "correta": 1,
+            "explicacao": "1º mês: 100 + 15 = 115. 2º mês: 15% de 115 = 17,25 → 132,25.",
+            "dica": "No segundo mês, calcule 15% sobre 115, e não sobre 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o pior hábito com relação a juros?",
+            "alternativas": [
+              "Guardar dinheiro todo mês",
+              "Comparar o preço à vista com o parcelado",
+              "Pegar um empréstimo novo para pagar outro, todo mês",
+              "Juntar antes de comprar"
+            ],
+            "correta": 2,
+            "explicacao": "Assim a dívida cresce com juros sobre juros e nunca acaba.",
+            "dica": "Qual hábito faz a dívida crescer sem parar?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Contador: repetir contando as vezes",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Muitas vezes o programa precisa contar: quantos alunos vieram, quantas vezes um botão foi apertado, quantos votos teve cada chapa.",
+          "Para isso usamos um contador: uma variável que começa em 0 e aumenta de 1 em 1. Em Python: contador = 0 no começo e contador = contador + 1 a cada vez que algo acontece.",
+          "A linha contador = contador + 1 parece estranha, mas é simples: pegue o valor que está no contador, some 1 e guarde de volta no contador.",
+          "O contador quase sempre aparece dentro de uma repetição. Em Python, for i in range(5): repete o que está embaixo 5 vezes."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "contador = 0\nfor i in range(3):\n    contador = contador + 1\nprint(contador)\nO que aparece na tela?",
+            "resolucao": "A repetição acontece 3 vezes, e cada vez o contador aumenta 1: 0 → 1 → 2 → 3. Aparece 3."
+          },
+          {
+            "enunciado": "Por que o contador começa em 0?",
+            "resolucao": "Porque antes de começar ainda não contamos nada. Se começasse em 1, o resultado final teria 1 a mais."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um primo do contador é o acumulador: em vez de somar 1, ele soma um valor diferente a cada vez. Exemplo: total = total + preco, para somar os preços das compras.",
+        "Dá para contar só o que interessa usando if dentro da repetição: “se a nota for maior ou igual a 6, aumente o contador de aprovados”. Assim o contador conta apenas os aprovados.",
+        "Erro comum: colocar contador = 0 DENTRO da repetição. Assim o contador volta a zero toda vez, e no fim mostra 1 em vez do total."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O contador começa, normalmente, em:",
+            "alternativas": [
+              "0",
+              "10",
+              "100",
+              "−1"
+            ],
+            "correta": 0,
+            "explicacao": "Antes de contar, ainda não há nada contado.",
+            "dica": "Antes de começar a contar, quantas coisas você já contou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A linha contador = contador + 1 faz o quê?",
+            "alternativas": [
+              "Apaga o contador",
+              "Aumenta o contador em 1",
+              "Divide por 1",
+              "Mostra o contador"
+            ],
+            "correta": 1,
+            "explicacao": "Pega o valor, soma 1 e guarda de volta.",
+            "dica": "Leia: o novo contador é o antigo mais quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for i in range(5): repete quantas vezes?",
+            "alternativas": [
+              "4",
+              "6",
+              "5",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "range(5) faz a repetição acontecer 5 vezes.",
+            "dica": "Olhe o número entre parênteses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um contador?",
+            "alternativas": [
+              "Para desligar o computador",
+              "Para mudar a cor da tela",
+              "Para apagar arquivos",
+              "Para contar quantas vezes algo acontece"
+            ],
+            "correta": 3,
+            "explicacao": "O contador conta: alunos, cliques, votos…",
+            "dica": "O nome já diz para que serve."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de 3 repetições com contador = contador + 1, começando de 0, o contador vale:",
+            "alternativas": [
+              "3",
+              "0",
+              "1",
+              "4"
+            ],
+            "correta": 0,
+            "explicacao": "0 → 1 → 2 → 3.",
+            "dica": "Some 1 três vezes, a partir do zero."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "contador = 0; repetimos contador = contador + 1 dez vezes. Qual é o valor final?",
+            "alternativas": [
+              "9",
+              "10",
+              "11",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "Começando em 0 e somando 1 dez vezes, chega a 10.",
+            "dica": "Cada repetição soma 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o contador começasse em 1 e contasse 5 coisas (somando 1 a cada vez), terminaria em:",
+            "alternativas": [
+              "5",
+              "4",
+              "6",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "1 + 5 = 6: um a mais que o certo. Por isso começa em 0.",
+            "dica": "Comece no 1 e some 1 cinco vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para somar os preços das compras, usamos:",
+            "alternativas": [
+              "um contador que soma 1",
+              "um print",
+              "uma comparação",
+              "um acumulador: total = total + preco"
+            ],
+            "correta": 3,
+            "explicacao": "O acumulador soma valores diferentes a cada vez.",
+            "dica": "Lembre o primo do contador no aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "contador = 5; contador = contador + 1; contador = contador + 1. Quanto vale agora?",
+            "alternativas": [
+              "7",
+              "6",
+              "5",
+              "2"
+            ],
+            "correta": 0,
+            "explicacao": "5 + 1 = 6; 6 + 1 = 7.",
+            "dica": "Faça uma linha de cada vez."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as linhas de um programa que conta 4 vezes e mostra o resultado:",
+            "itens": [
+              "contador = 0",
+              "for i in range(4):",
+              "    contador = contador + 1",
+              "print(contador)"
+            ],
+            "explicacao": "Primeiro zera o contador, depois repete somando 1 e, no fim, mostra.",
+            "dica": "O contador precisa existir antes da repetição."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Notas: 7, 4, 9, 5, 6. Um programa conta as notas maiores ou iguais a 6. Qual é o resultado?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "7, 9 e 6 são maiores ou iguais a 6: três notas. O 6 também conta.",
+            "dica": "Teste cada nota com >= 6, inclusive a que é exatamente 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0. Somamos os preços 3, 5 e 2 com total = total + preco. Qual é o total?",
+            "alternativas": [
+              "3",
+              "0",
+              "10",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "0 + 3 = 3; 3 + 5 = 8; 8 + 2 = 10.",
+            "dica": "Acumule um preço de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluno escreveu contador = 0 DENTRO da repetição de 5 vezes, antes do + 1. Que número aparece no fim?",
+            "alternativas": [
+              "5",
+              "0",
+              "6",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "A cada volta o contador vira 0 e depois 1. No fim, mostra 1.",
+            "dica": "Lembre o erro comum do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "contador = 0\nfor i in range(4):\n    contador = contador + 2\nprint(contador)\nO que aparece?",
+            "alternativas": [
+              "8",
+              "4",
+              "6",
+              "2"
+            ],
+            "correta": 0,
+            "explicacao": "Cada volta soma 2: 2, 4, 6, 8.",
+            "dica": "Quantas voltas? Quanto soma em cada uma?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Votação: A, B, A, A, B, A. Um contador soma 1 a cada voto “A”. Quanto ele mostra?",
+            "alternativas": [
+              "2",
+              "4",
+              "6",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "Os votos A são o 1º, o 3º, o 4º e o 6º: quatro votos.",
+            "dica": "Conte só os votos A, um por um."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "contador = 10\nfor i in range(3):\n    contador = contador - 2\nprint(contador)\nO que aparece?",
+            "alternativas": [
+              "6",
+              "16",
+              "4",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "10 − 2 = 8; 8 − 2 = 6; 6 − 2 = 4.",
+            "dica": "Agora o contador diminui. Faça volta por volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0\nfor i in range(1, 5):\n    total = total + i\nrange(1, 5) gera 1, 2, 3 e 4. Qual é o total?",
+            "alternativas": [
+              "4",
+              "15",
+              "5",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "0 + 1 = 1; 1 + 2 = 3; 3 + 3 = 6; 6 + 4 = 10. O 5 não entra.",
+            "dica": "Some os números gerados; o 5 fica de fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa conta aprovados (nota >= 6) e reprovados. Notas: 6, 5, 8, 3, 6, 10. Quais são os dois contadores?",
+            "alternativas": [
+              "4 aprovados e 2 reprovados",
+              "3 aprovados e 3 reprovados",
+              "5 aprovados e 1 reprovado",
+              "2 aprovados e 4 reprovados"
+            ],
+            "correta": 0,
+            "explicacao": "Aprovados: 6, 8, 6, 10 (quatro). Reprovados: 5 e 3 (dois).",
+            "dica": "Separe as notas em dois grupos e cuidado com o 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cliques = 0. O botão foi apertado 7 vezes, mas o programa só soma 1 quando o clique é duplo. Houve 2 cliques duplos. Qual é o valor de cliques?",
+            "alternativas": [
+              "7",
+              "2",
+              "9",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "O contador só conta o que a condição manda: os 2 cliques duplos.",
+            "dica": "O contador conta tudo ou só o que passa na condição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual programa mostra 15 no fim?",
+            "alternativas": [
+              "contador = 0, repete 5 vezes somando 1",
+              "contador = 5, repete 5 vezes somando 1",
+              "contador = 0, repete 5 vezes somando 3",
+              "contador = 15, repete 5 vezes somando 3"
+            ],
+            "correta": 2,
+            "explicacao": "0 + 3 × 5 = 15. O primeiro dá 5, o segundo 10 e o quarto 30.",
+            "dica": "Calcule: valor inicial + (quanto soma × número de voltas)."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Plural dos substantivos: os casos difíceis",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A regra geral do plural é acrescentar s: casa → casas, livro → livros. Mas algumas terminações pedem atenção.",
+          "Palavras terminadas em r, z e na maioria das terminadas em s com acento na última sílaba ganham es: flor → flores, luz → luzes, mês → meses, país → países.",
+          "Palavras terminadas em al, el, ol e ul trocam o l por is: animal → animais, papel → papéis, anzol → anzóis, azul → azuis. As terminadas em il tônico trocam o l por s: funil → funis, barril → barris.",
+          "Palavras terminadas em m trocam o m por ns: homem → homens, jardim → jardins.",
+          "Palavras terminadas em s sem acento na última sílaba não mudam: o lápis → os lápis, o ônibus → os ônibus, o pires → os pires."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Qual é o plural de “caracol”?",
+            "resolucao": "Caracóis. Terminação ol: troca o l por is e ganha acento: caracol → caracóis."
+          },
+          {
+            "enunciado": "Qual é o plural de “o vírus”?",
+            "resolucao": "Os vírus. Termina em s e a última sílaba não é a mais forte (ví-rus), então a palavra não muda; só o artigo vai para o plural."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "As palavras terminadas em ão têm três plurais possíveis: ãos (mão → mãos, cidadão → cidadãos, irmão → irmãos), ães (pão → pães, cão → cães, alemão → alemães) e ões (limão → limões, avião → aviões, leão → leões). Não há regra fácil: o jeito é conhecer as palavras e consultar o dicionário quando tiver dúvida.",
+        "As palavras terminadas em il sem acento na última sílaba trocam il por eis: fóssil → fósseis, réptil → répteis, fácil → fáceis.",
+        "Alguns casos especiais: mal → males, cônsul → cônsules, caráter → caracteres (o acento some e o c volta a aparecer)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de flor?",
+            "alternativas": [
+              "flores",
+              "flors",
+              "floris",
+              "florez"
+            ],
+            "correta": 0,
+            "explicacao": "Terminação r: ganha es.",
+            "dica": "Palavras terminadas em r ganham duas letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de animal?",
+            "alternativas": [
+              "animals",
+              "animais",
+              "animales",
+              "animaus"
+            ],
+            "correta": 1,
+            "explicacao": "Al vira ais: animal → animais.",
+            "dica": "Troque o l por is."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de homem?",
+            "alternativas": [
+              "homems",
+              "homemes",
+              "homens",
+              "homes"
+            ],
+            "correta": 2,
+            "explicacao": "M vira ns: homem → homens.",
+            "dica": "O m no fim vira duas letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de “o lápis”?",
+            "alternativas": [
+              "os lápises",
+              "os lápiss",
+              "os lápi",
+              "os lápis"
+            ],
+            "correta": 3,
+            "explicacao": "Lápis não muda; só o artigo vai para o plural.",
+            "dica": "Termina em s e a força da palavra não está no fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de luz?",
+            "alternativas": [
+              "luzes",
+              "luzs",
+              "luzis",
+              "luses"
+            ],
+            "correta": 0,
+            "explicacao": "Terminação z: ganha es.",
+            "dica": "Igual às terminadas em r."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de papel?",
+            "alternativas": [
+              "papels",
+              "papéis",
+              "papeles",
+              "papeis"
+            ],
+            "correta": 1,
+            "explicacao": "El vira éis, com acento: papéis.",
+            "dica": "Troque o l por is e preste atenção no acento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de jardim?",
+            "alternativas": [
+              "jardims",
+              "jardimes",
+              "jardins",
+              "jardis"
+            ],
+            "correta": 2,
+            "explicacao": "M vira ns: jardins.",
+            "dica": "Igual a homem → homens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de “o ônibus”?",
+            "alternativas": [
+              "os ônibuses",
+              "os ônibusses",
+              "os ônibu",
+              "os ônibus"
+            ],
+            "correta": 3,
+            "explicacao": "Ônibus não muda, porque a sílaba mais forte é a primeira (ô-ni-bus).",
+            "dica": "Veja onde está a sílaba mais forte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de país?",
+            "alternativas": [
+              "países",
+              "paíss",
+              "paísis",
+              "país"
+            ],
+            "correta": 0,
+            "explicacao": "Termina em s com acento na última sílaba: ganha es → países.",
+            "dica": "Aqui a última sílaba é a mais forte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de azul?",
+            "alternativas": [
+              "azules",
+              "azuis",
+              "azus",
+              "azuls"
+            ],
+            "correta": 1,
+            "explicacao": "Ul vira uis: azuis.",
+            "dica": "Troque o l por is."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de pão?",
+            "alternativas": [
+              "pãos",
+              "pões",
+              "pães",
+              "pãoes"
+            ],
+            "correta": 2,
+            "explicacao": "Pão → pães.",
+            "dica": "Pense em “os ___ da padaria”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de limão?",
+            "alternativas": [
+              "limãos",
+              "limães",
+              "limãoes",
+              "limões"
+            ],
+            "correta": 3,
+            "explicacao": "Limão → limões.",
+            "dica": "Pense na limonada feita com vários deles."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de cidadão?",
+            "alternativas": [
+              "cidadãos",
+              "cidadões",
+              "cidadães",
+              "cidadãoes"
+            ],
+            "correta": 0,
+            "explicacao": "Cidadão → cidadãos, como mão → mãos.",
+            "dica": "Esse fica parecido com irmão no plural."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de fóssil?",
+            "alternativas": [
+              "fósseis",
+              "fóssis",
+              "fósseles",
+              "fósseos"
+            ],
+            "correta": 0,
+            "explicacao": "Il sem acento na última sílaba vira eis: fósseis.",
+            "dica": "A sílaba forte de fóssil não é a última."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as palavras na ordem em que aparecem estes plurais: ãos, ães, ões, eis:",
+            "itens": [
+              "mão",
+              "cão",
+              "avião",
+              "réptil"
+            ],
+            "explicacao": "Mão → mãos; cão → cães; avião → aviões; réptil → répteis.",
+            "dica": "Faça o plural de cada palavra e compare com a lista pedida."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está TOTALMENTE correta?",
+            "alternativas": [
+              "Os alemães compraram dois pães.",
+              "Os alemãos compraram dois pães.",
+              "Os alemães compraram dois pãos.",
+              "Os alemões compraram dois pões."
+            ],
+            "correta": 0,
+            "explicacao": "Alemão → alemães e pão → pães.",
+            "dica": "As duas palavras fazem o plural com a mesma terminação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de caráter?",
+            "alternativas": [
+              "caráteres",
+              "caracteres",
+              "carácteres",
+              "caráters"
+            ],
+            "correta": 1,
+            "explicacao": "Caráter → caracteres: o acento some e aparece um c.",
+            "dica": "É um dos casos especiais do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual alternativa TODOS os plurais estão certos?",
+            "alternativas": [
+              "anzol → anzols; funil → funis",
+              "mal → mals; mês → meses",
+              "barril → barris; réptil → répteis",
+              "cônsul → cônsuis; luz → luzes"
+            ],
+            "correta": 2,
+            "explicacao": "Barril (il tônico) → barris; réptil (il átono) → répteis.",
+            "dica": "Separe il com sílaba forte no fim de il sem sílaba forte no fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o plural de mal?",
+            "alternativas": [
+              "mais",
+              "mals",
+              "maus",
+              "males"
+            ],
+            "correta": 3,
+            "explicacao": "Mal → males, um caso especial.",
+            "dica": "O aprofundamento listou esse caso especial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos plurais estão CERTOS? leões – cães – irmões – capitães – funis",
+            "alternativas": [
+              "Quatro",
+              "Três",
+              "Cinco",
+              "Dois"
+            ],
+            "correta": 0,
+            "explicacao": "Leões, cães, capitães e funis estão certos. O plural de irmão é irmãos.",
+            "dica": "Confira um por um; um deles está errado."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O grão de arroz do tabuleiro",
+    "texto": "Há muito tempo, num reino distante, um sábio inventou um jogo de tabuleiro com 64 casas. O rei gostou tanto que disse:\n\n— Peça o que quiser como prêmio!\n\nO sábio sorriu e pediu arroz. Um grão na primeira casa, dois na segunda, quatro na terceira, oito na quarta. Em cada casa, o dobro da anterior.\n\nO rei riu daquele pedido tão pequeno e mandou buscar um saco.\n\nMas os cozinheiros começaram a contar e ficaram pálidos. Na casa 10, já eram 512 grãos. Na casa 20, mais de quinhentos mil. Na casa 30, mais de quinhentos milhões.\n\nNa última casa, seria preciso mais arroz do que todas as plantações do mundo conseguiriam colher em séculos.\n\nO rei, envergonhado, chamou o sábio. Ele respondeu com calma:\n\n— Majestade, eu não quero o arroz. Só queria mostrar que o que dobra sempre fica grande muito depressa."
+  },
+  "escrita": {
+    "proposta": "Explique em 6 a 8 linhas por que o rei não conseguiu pagar a promessa, usando a ideia de potência (2 elevado a um número). Mostre quantos grãos haveria nas casas 1 a 6 e diga o que você aprendeu com o sábio."
+  }
+}

@@ -1,0 +1,1498 @@
+{
+  "dia": 24,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Potência com expoente fracionário: a raiz disfarçada",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Na calculadora e no computador, escrevemos 9^(1/2): o sinal ^ quer dizer «elevado a». Mas o que é elevar a uma fração?",
+          "Expoente 1/2 é a raiz quadrada: 9^(1/2) = √9 = 3. Expoente 1/3 é a raiz cúbica: 8^(1/3) = ∛8 = 2, porque 2 × 2 × 2 = 8.",
+          "Regra geral: a^(m/n) = raiz de índice n de a, elevada a m. O denominador (n) diz qual raiz; o numerador (m) diz qual potência.",
+          "Exemplo: 8^(2/3). Primeiro a raiz cúbica de 8, que é 2. Depois, 2 elevado a 2, que é 4. Fazer a raiz primeiro deixa os números pequenos.",
+          "Lembre também que 0,5 = 1/2. Então 16^0,5 = √16 = 4."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Calcule 25^(1/2), 1000^(1/3) e 4^(3/2).",
+            "resolucao": "25^(1/2) = √25 = 5. 1000^(1/3) = ∛1000 = 10, porque 10 × 10 × 10 = 1000. 4^(3/2): √4 = 2 e 2³ = 8."
+          },
+          {
+            "enunciado": "Escreva ∛5 como potência.",
+            "resolucao": "Raiz cúbica é expoente com denominador 3: ∛5 = 5^(1/3)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Por que 1/2 é raiz quadrada? Pela regra do produto de potências, a^m × a^n = a^(m+n). Então 9^(1/2) × 9^(1/2) = 9^1 = 9. O número que, multiplicado por ele mesmo, dá 9 é o 3. Do mesmo jeito, 2^(1/2) × 2^(1/2) = 2.",
+        "Expoente negativo quer dizer inverso: a^(−n) = 1 ÷ a^n. Então 9^(−1/2) = 1 ÷ 9^(1/2) = 1/3.",
+        "Raiz de índice ímpar de número negativo existe: (−8)^(1/3) = −2, porque (−2) × (−2) × (−2) = −8. Já raiz de índice par de número negativo, como (−4)^(1/2), não dá um número real, porque nenhum número real ao quadrado dá negativo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 9^(1/2)?",
+            "alternativas": [
+              "3",
+              "4,5",
+              "18",
+              "81"
+            ],
+            "correta": 0,
+            "explicacao": "Expoente 1/2 é raiz quadrada: √9 = 3. 4,5 seria dividir por 2.",
+            "dica": "Que número vezes ele mesmo dá 9?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O expoente 1/2 é igual a:",
+            "alternativas": [
+              "Dobro",
+              "Raiz quadrada",
+              "Raiz cúbica",
+              "Metade"
+            ],
+            "correta": 1,
+            "explicacao": "a^(1/2) = √a.",
+            "dica": "O denominador 2 indica qual raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 8^(1/3)?",
+            "alternativas": [
+              "4",
+              "24",
+              "2",
+              "8/3"
+            ],
+            "correta": 2,
+            "explicacao": "Raiz cúbica de 8: 2 × 2 × 2 = 8.",
+            "dica": "Que número multiplicado três vezes por ele mesmo dá 8?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 25^(1/2)?",
+            "alternativas": [
+              "12,5",
+              "50",
+              "625",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "√25 = 5, porque 5 × 5 = 25.",
+            "dica": "É a raiz quadrada de 25."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O expoente 1/3 corresponde a:",
+            "alternativas": [
+              "Raiz quadrada",
+              "Raiz cúbica",
+              "Triplo",
+              "Terça parte"
+            ],
+            "correta": 1,
+            "explicacao": "Denominador 3: raiz cúbica.",
+            "dica": "O denominador diz qual é a raiz."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 8^(2/3)?",
+            "alternativas": [
+              "16/3",
+              "64",
+              "4",
+              "2"
+            ],
+            "correta": 2,
+            "explicacao": "∛8 = 2 e 2² = 4.",
+            "dica": "Faça a raiz cúbica primeiro e depois eleve ao quadrado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 4^(3/2)?",
+            "alternativas": [
+              "6",
+              "8",
+              "12",
+              "64"
+            ],
+            "correta": 1,
+            "explicacao": "√4 = 2 e 2³ = 8.",
+            "dica": "O 2 de baixo é a raiz; o 3 de cima é a potência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 1000^(1/3)?",
+            "alternativas": [
+              "333,3",
+              "100",
+              "3",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "10 × 10 × 10 = 1000. Dividir por 3 é o erro comum.",
+            "dica": "Que número aparece três vezes na multiplicação que dá 1000?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 16^0,5?",
+            "alternativas": [
+              "4",
+              "8",
+              "32",
+              "0,5"
+            ],
+            "correta": 0,
+            "explicacao": "0,5 = 1/2: √16 = 4. 8 seria a metade de 16.",
+            "dica": "Escreva 0,5 como fração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como escrever ∛5 em forma de potência?",
+            "alternativas": [
+              "5^3",
+              "5^(1/3)",
+              "3^(1/5)",
+              "5/3"
+            ],
+            "correta": 1,
+            "explicacao": "Raiz cúbica é expoente 1/3, e a base continua 5.",
+            "dica": "A base fica igual; a raiz vira o denominador do expoente."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 16^(3/4)?",
+            "alternativas": [
+              "12",
+              "8",
+              "4",
+              "64"
+            ],
+            "correta": 1,
+            "explicacao": "Raiz quarta de 16 é 2 (2 × 2 × 2 × 2 = 16). 2³ = 8.",
+            "dica": "Ache a raiz quarta de 16 antes de elevar ao cubo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 27^(2/3)?",
+            "alternativas": [
+              "18",
+              "3",
+              "6",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "∛27 = 3 e 3² = 9. 18 sairia de 27 × 2/3, que é outra conta.",
+            "dica": "Raiz cúbica primeiro, quadrado depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 81^(1/4)?",
+            "alternativas": [
+              "3",
+              "9",
+              "20,25",
+              "27"
+            ],
+            "correta": 0,
+            "explicacao": "3 × 3 × 3 × 3 = 81. 9 é a raiz quadrada.",
+            "dica": "Que número multiplicado quatro vezes dá 81?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 100^(3/2)?",
+            "alternativas": [
+              "150",
+              "300",
+              "1.000",
+              "10.000"
+            ],
+            "correta": 2,
+            "explicacao": "√100 = 10 e 10³ = 1.000.",
+            "dica": "Raiz quadrada de 100 e depois o cubo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2^(1/2) × 2^(1/2)?",
+            "alternativas": [
+              "2",
+              "4",
+              "√2",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "Mesma base: soma os expoentes. 1/2 + 1/2 = 1, então dá 2¹ = 2.",
+            "dica": "Na multiplicação de mesma base, os expoentes se somam."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 9^(−1/2)?",
+            "alternativas": [
+              "−3",
+              "1/3",
+              "−1/3",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "Expoente negativo é inverso: 1 ÷ 9^(1/2) = 1 ÷ 3 = 1/3. O resultado não fica negativo.",
+            "dica": "O sinal de menos no expoente não deixa o número negativo: ele inverte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 64^(1/2) − 64^(1/3) + 64^(1/6)?",
+            "alternativas": [
+              "6",
+              "10",
+              "2",
+              "14"
+            ],
+            "correta": 0,
+            "explicacao": "√64 = 8; ∛64 = 4; raiz sexta de 64 = 2 (2⁶ = 64). 8 − 4 + 2 = 6.",
+            "dica": "Calcule cada raiz de 64 separadamente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é o maior?",
+            "alternativas": [
+              "8^(2/3)",
+              "9^(1/2)",
+              "32^(1/5)",
+              "16^(3/4)"
+            ],
+            "correta": 3,
+            "explicacao": "8^(2/3) = 4; 9^(1/2) = 3; 32^(1/5) = 2; 16^(3/4) = 8.",
+            "dica": "Calcule o valor de cada um antes de comparar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se x^(1/2) = 7, quanto vale x?",
+            "alternativas": [
+              "3,5",
+              "14",
+              "49",
+              "√7"
+            ],
+            "correta": 2,
+            "explicacao": "A raiz quadrada de x é 7, então x = 7² = 49.",
+            "dica": "Que número tem raiz quadrada igual a 7?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas expressões NÃO dá um número real?",
+            "alternativas": [
+              "(−8)^(1/3)",
+              "(−4)^(1/2)",
+              "8^(1/3)",
+              "4^(1/2)"
+            ],
+            "correta": 1,
+            "explicacao": "Raiz quadrada de negativo não é real. Já (−8)^(1/3) = −2, porque o índice 3 é ímpar.",
+            "dica": "Pense em índice par ou ímpar com base negativa."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Funções com parâmetros e retorno",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Na aula passada, as funções faziam sempre a mesma coisa. Com parâmetros, elas recebem informações e trabalham com elas. Os parâmetros ficam dentro dos parênteses do def.",
+          "Exemplo: def saudar(nome): print('Oi, ' + nome). Ao chamar saudar('Bia'), o parâmetro nome recebe 'Bia', e aparece Oi, Bia. O valor passado na chamada se chama argumento.",
+          "O comando return devolve um resultado para quem chamou: def dobro(n): return n * 2. Assim, x = dobro(5) guarda 10 em x, e dá para usar o resultado em outras contas.",
+          "Diferença importante: print só mostra na tela; return devolve o valor para o programa continuar usando.",
+          "Uma função pode ter vários parâmetros, separados por vírgula, e a ordem dos argumentos importa: def area(base, altura): return base * altura. area(5, 3) devolve 15."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Crie uma função que calcula o total de uma compra e use-a para 3 cadernos de R$ 12.",
+            "resolucao": "def total(preco, quantidade):\n    return preco * quantidade\nconta = total(12, 3)\nprint(conta)\nO resultado é 36."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O return encerra a função na hora: o que vem depois dele, dentro da função, não roda. Uma função pode ter mais de um return, por exemplo um dentro de um if. Se a função não tiver return, ela devolve None, o «nada» do Python.",
+        "Funções podem ser combinadas: em dobro(soma1(3)), primeiro soma1(3) dá 4, depois dobro(4) dá 8. Resolva sempre de dentro para fora.",
+        "Parâmetros e variáveis criados dentro da função são locais: só existem lá dentro. Também é possível dar um valor padrão: def saudar(nome='aluno') usa 'aluno' quando ninguém passa um nome. Em Python, a divisão com / sempre dá número com ponto: 10 / 2 mostra 5.0."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def dobro(n):\n    return n * 2\nQuanto vale dobro(4)?",
+            "alternativas": [
+              "4",
+              "6",
+              "8",
+              "16"
+            ],
+            "correta": 2,
+            "explicacao": "n recebe 4, e a função devolve 4 × 2 = 8.",
+            "dica": "Troque o n por 4 na conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um parâmetro?",
+            "alternativas": [
+              "Uma informação que a função recebe",
+              "O nome do arquivo",
+              "Um erro",
+              "Um tipo de laço"
+            ],
+            "correta": 0,
+            "explicacao": "O parâmetro fica nos parênteses do def e recebe um valor na chamada.",
+            "dica": "Ele fica dentro dos parênteses do def."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando devolve um resultado da função?",
+            "alternativas": [
+              "print",
+              "return",
+              "def",
+              "input"
+            ],
+            "correta": 1,
+            "explicacao": "return devolve o valor para quem chamou a função.",
+            "dica": "Em inglês, a palavra quer dizer retornar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def soma(a, b):\n    return a + b\nQuanto vale soma(3, 4)?",
+            "alternativas": [
+              "34",
+              "12",
+              "1",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "a = 3 e b = 4: 3 + 4 = 7.",
+            "dica": "a recebe o primeiro número e b, o segundo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em def area(base, altura), quantos parâmetros há?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "base e altura: dois parâmetros, separados por vírgula.",
+            "dica": "Conte os nomes dentro dos parênteses."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def triplo(x):\n    return x * 3\nO que aparece em print(triplo(4) + 1)?",
+            "alternativas": [
+              "13",
+              "15",
+              "12",
+              "7"
+            ],
+            "correta": 0,
+            "explicacao": "triplo(4) = 12; 12 + 1 = 13.",
+            "dica": "Resolva a função primeiro e depois some 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre print e return?",
+            "alternativas": [
+              "São iguais",
+              "return mostra o texto colorido",
+              "print mostra na tela; return devolve o valor para o programa usar",
+              "print apaga a variável"
+            ],
+            "correta": 2,
+            "explicacao": "Com return, o resultado pode ser guardado numa variável ou usado em outra conta.",
+            "dica": "Um só mostra; o outro entrega o valor de volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def area(base, altura):\n    return base * altura\nQuanto vale area(5, 3)?",
+            "alternativas": [
+              "8",
+              "15",
+              "53",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "5 × 3 = 15.",
+            "dica": "A função multiplica os dois argumentos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def saudar(nome):\n    print('Oi, ' + nome)\nsaudar('Bia')\nO que aparece?",
+            "alternativas": [
+              "Oi, nome",
+              "nome",
+              "Erro",
+              "Oi, Bia"
+            ],
+            "correta": 3,
+            "explicacao": "O parâmetro nome recebe 'Bia', e o print junta os textos.",
+            "dica": "Que valor o parâmetro nome recebeu na chamada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha cria uma função que recebe preço e quantidade e devolve o total?",
+            "alternativas": [
+              "def total(preco, qtd): return preco * qtd",
+              "def total: preco * qtd",
+              "total(preco, qtd) = def",
+              "def total(): print(preco)"
+            ],
+            "correta": 0,
+            "explicacao": "Tem def, nome, dois parâmetros entre parênteses, dois-pontos e return.",
+            "dica": "Confira: parâmetros entre parênteses e um return no final."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def f(x):\n    return x * x + 1\nO que aparece em print(f(3) + f(1))?",
+            "alternativas": [
+              "11",
+              "10",
+              "12",
+              "16"
+            ],
+            "correta": 2,
+            "explicacao": "f(3) = 9 + 1 = 10; f(1) = 1 + 1 = 2. 10 + 2 = 12.",
+            "dica": "Calcule f(3) e f(1) separadamente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece?\ndef teste():\n    return 5\n    print('oi')\nprint(teste())",
+            "alternativas": [
+              "oi e 5",
+              "5",
+              "oi",
+              "Erro"
+            ],
+            "correta": 1,
+            "explicacao": "O return encerra a função, e o print('oi') nunca roda.",
+            "dica": "O que acontece com a função na hora do return?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def sub(a, b):\n    return a - b\nQuanto vale sub(2, 9)?",
+            "alternativas": [
+              "7",
+              "11",
+              "29",
+              "-7"
+            ],
+            "correta": 3,
+            "explicacao": "a = 2 e b = 9: 2 − 9 = −7. A ordem dos argumentos importa.",
+            "dica": "Quem é a e quem é b nessa chamada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece?\ndef dobro(n):\n    print(n * 2)\nx = dobro(5)\nprint(x)",
+            "alternativas": [
+              "10 e depois None",
+              "10 e 10",
+              "Só 10",
+              "Erro"
+            ],
+            "correta": 0,
+            "explicacao": "A função mostra 10, mas não tem return, então devolve None, que vai para x.",
+            "dica": "A função tem return? O que ela devolve então?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def desconto(preco, pct):\n    return preco - preco * pct / 100\nQual é o valor de desconto(200, 10)?",
+            "alternativas": [
+              "20",
+              "180",
+              "190",
+              "2000"
+            ],
+            "correta": 1,
+            "explicacao": "200 × 10 / 100 = 20 de desconto; 200 − 20 = 180. O Python mostra 180.0 por causa da divisão.",
+            "dica": "Calcule quanto é 10% de 200 e subtraia."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "def dobro(n):\n    return n * 2\ndef soma1(n):\n    return n + 1\nO que aparece em print(dobro(soma1(3)))?",
+            "alternativas": [
+              "7",
+              "8",
+              "6",
+              "9"
+            ],
+            "correta": 1,
+            "explicacao": "De dentro para fora: soma1(3) = 4; dobro(4) = 8. Na ordem inversa daria 7.",
+            "dica": "Resolva primeiro a função de dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def saudar(nome='aluno'):\n    return 'Oi, ' + nome\nO que aparece em print(saudar())?",
+            "alternativas": [
+              "Oi, ",
+              "Erro",
+              "Oi, aluno",
+              "Oi, nome"
+            ],
+            "correta": 2,
+            "explicacao": "Sem argumento, o parâmetro usa o valor padrão 'aluno'.",
+            "dica": "O que o parâmetro recebe quando ninguém passa valor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece?\ndef f():\n    y = 5\nf()\nprint(y)",
+            "alternativas": [
+              "Aparece 5",
+              "Aparece 0",
+              "Aparece None",
+              "Erro, porque y só existe dentro da função"
+            ],
+            "correta": 3,
+            "explicacao": "y é local: some quando a função termina. Fora dela, y não existe.",
+            "dica": "Onde a variável y foi criada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def divide(a, b):\n    return a / b\nO que aparece em print(divide(2, 10))?",
+            "alternativas": [
+              "0.2",
+              "5.0",
+              "20",
+              "12"
+            ],
+            "correta": 0,
+            "explicacao": "a = 2 e b = 10: 2 ÷ 10 = 0.2. Para dar 5.0, a chamada teria de ser divide(10, 2).",
+            "dica": "A ordem dos argumentos decide quem divide quem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "def classificar(nota):\n    if nota >= 7:\n        return 'aprovado'\n    return 'recuperação'\nO que aparece em print(classificar(7), classificar(6.5))?",
+            "alternativas": [
+              "aprovado aprovado",
+              "recuperação recuperação",
+              "aprovado recuperação",
+              "recuperação aprovado"
+            ],
+            "correta": 2,
+            "explicacao": "7 >= 7 é verdadeiro: aprovado. 6.5 não é, então chega ao segundo return: recuperação.",
+            "dica": "Teste cada nota no if; lembre que o return encerra a função."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Listas com marcadores e numeração",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Listas deixam o texto mais fácil de ler. No Word, os botões ficam em Página Inicial, grupo Parágrafo: Marcadores (bolinhas), Numeração (1, 2, 3) e Lista de Vários Níveis.",
+          "Use marcadores quando a ordem não importa, como numa lista de compras ou de materiais. Use numeração quando a ordem importa, como nos passos de uma receita.",
+          "O Word também cria listas sozinho: digite 1. ou um hífen seguido de espaço no começo da linha e comece a escrever. Cada Enter cria um novo item.",
+          "Para criar um subitem, aperte Tab no começo do item; para voltar um nível, Shift+Tab. Para encerrar a lista, aperte Enter duas vezes.",
+          "Não digite os números à mão. Na lista automática, se você incluir ou apagar um item, o Word renumera tudo sozinho."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Organize as regras do grêmio: horários (entrada e saída) e uniforme.",
+            "resolucao": "1. Horários\n   a. Entrada\n   b. Saída\n2. Uniforme\nDigite Horários com a Numeração ligada, aperte Enter e Tab para criar o subitem a., e Shift+Tab para voltar e criar o item 2."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Se a numeração começar no número errado, clique com o botão direito no número e escolha Reiniciar em 1. Se duas listas separadas por um parágrafo precisam seguir a contagem (4, 5, 6...), use Continuar numeração.",
+        "Na setinha do botão Marcadores, a opção Definir Novo Marcador permite trocar a bolinha por outro símbolo, como um visto. Na Lista de Vários Níveis, cada nível ganha um estilo (1., a., i.).",
+        "Atalhos úteis: com o cursor num item vazio, Enter encerra a lista; com o cursor no começo de um item, Backspace tira o marcador, mas mantém o texto."
+      ],
+      "desafio_pratico": "No Word do celular ou do PC, crie um documento chamado «Feira de Ciências». Faça uma lista com marcadores dos materiais (pelo menos 5) e, abaixo, uma lista numerada com os passos do experimento (pelo menos 4), com pelo menos um subitem criado com Tab. Depois, apague um passo do meio e confira se a numeração se ajustou sozinha. Por fim, troque o marcador da primeira lista por outro símbolo.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para uma lista de compras, em que a ordem não importa, use:",
+            "alternativas": [
+              "Marcadores",
+              "Numeração",
+              "Tabela",
+              "Cabeçalho"
+            ],
+            "correta": 0,
+            "explicacao": "Marcadores servem para itens sem ordem.",
+            "dica": "Bolinhas ou números? A ordem importa aqui?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para os passos de uma receita, use:",
+            "alternativas": [
+              "Marcadores",
+              "Numeração",
+              "Cor da fonte",
+              "Sublinhado"
+            ],
+            "correta": 1,
+            "explicacao": "Na receita, a ordem dos passos importa.",
+            "dica": "Os passos precisam seguir uma ordem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam os botões de lista no Word?",
+            "alternativas": [
+              "Inserir, grupo Imagens",
+              "Revisão",
+              "Página Inicial, grupo Parágrafo",
+              "Exibir"
+            ],
+            "correta": 2,
+            "explicacao": "Marcadores, Numeração e Lista de Vários Níveis ficam no grupo Parágrafo.",
+            "dica": "É a primeira guia, no grupo que cuida dos parágrafos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tecla cria um subitem na lista?",
+            "alternativas": [
+              "Enter",
+              "Delete",
+              "Esc",
+              "Tab"
+            ],
+            "correta": 3,
+            "explicacao": "Tab no começo do item empurra para o nível de baixo.",
+            "dica": "É a mesma tecla que afasta o texto da margem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como encerrar uma lista?",
+            "alternativas": [
+              "Apertando Enter duas vezes",
+              "Fechando o Word",
+              "Apagando tudo",
+              "Com Ctrl+P"
+            ],
+            "correta": 0,
+            "explicacao": "O segundo Enter num item vazio encerra a lista.",
+            "dica": "Use a mesma tecla que cria novos itens."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que Shift+Tab faz num item de lista?",
+            "alternativas": [
+              "Apaga o item",
+              "Volta o item um nível para cima",
+              "Imprime a lista",
+              "Salva o arquivo"
+            ],
+            "correta": 1,
+            "explicacao": "É o contrário do Tab: diminui o recuo.",
+            "dica": "Pense no contrário do Tab."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece ao digitar 1. e espaço no começo de uma linha?",
+            "alternativas": [
+              "O Word começa uma lista numerada automática",
+              "Dá erro",
+              "Apaga a linha",
+              "Vira título"
+            ],
+            "correta": 0,
+            "explicacao": "O Word reconhece o padrão e liga a Numeração.",
+            "dica": "A lição diz que o Word cria listas sozinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que recurso cria listas com níveis como 1., a., i.?",
+            "alternativas": [
+              "Tabela",
+              "Colunas",
+              "Lista de Vários Níveis",
+              "Quebra de página"
+            ],
+            "correta": 2,
+            "explicacao": "A Lista de Vários Níveis dá um estilo para cada nível.",
+            "dica": "O nome do recurso fala em níveis."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A numeração começou em 4, mas deveria começar em 1. O que fazer?",
+            "alternativas": [
+              "Apagar tudo e digitar à mão",
+              "Mudar a fonte",
+              "Salvar em PDF",
+              "Clicar com o botão direito no número e escolher Reiniciar em 1"
+            ],
+            "correta": 3,
+            "explicacao": "Reiniciar em 1 corrige sem perder a lista automática.",
+            "dica": "O aprofundamento cita uma opção do botão direito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando usar numeração em vez de marcadores?",
+            "alternativas": [
+              "Quando a ordem dos itens importa",
+              "Quando a lista é colorida",
+              "Sempre",
+              "Nunca"
+            ],
+            "correta": 0,
+            "explicacao": "Números mostram sequência: primeiro, segundo, terceiro.",
+            "dica": "Números indicam uma sequência."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual estrutura organiza melhor as regras do grêmio com subitens?",
+            "alternativas": [
+              "Tudo num parágrafo só",
+              "1. Horários / a. Entrada / b. Saída / 2. Uniforme",
+              "Cada linha com número digitado à mão",
+              "Uma tabela com uma imagem"
+            ],
+            "correta": 1,
+            "explicacao": "Itens e subitens mostram o que pertence a cada regra.",
+            "dica": "Procure a opção com itens principais e subitens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não digitar os números da lista à mão?",
+            "alternativas": [
+              "Porque o Word proíbe",
+              "Porque fica colorido",
+              "Porque a lista automática se renumera sozinha ao incluir ou apagar itens",
+              "Porque não imprime"
+            ],
+            "correta": 2,
+            "explicacao": "Com números à mão, apagar um item obriga a corrigir todos os seguintes.",
+            "dica": "Pense no que acontece ao apagar o item 2 de uma lista de 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como trocar a bolinha do marcador por um visto?",
+            "alternativas": [
+              "Setinha do botão Marcadores, Definir Novo Marcador",
+              "Inserir, Tabela",
+              "Revisão, Ortografia",
+              "Layout, Margens"
+            ],
+            "correta": 0,
+            "explicacao": "Definir Novo Marcador permite escolher outro símbolo.",
+            "dica": "Procure na setinha ao lado do botão de marcadores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas listas estão separadas por um parágrafo, e a segunda deve seguir 4, 5, 6. Qual opção usar?",
+            "alternativas": [
+              "Reiniciar em 1",
+              "Apagar a primeira lista",
+              "Mudar para marcadores",
+              "Continuar numeração"
+            ],
+            "correta": 3,
+            "explicacao": "Continuar numeração faz a segunda lista seguir a contagem da primeira.",
+            "dica": "Você quer que a contagem siga em frente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um item virou subitem sem querer. Como voltar para o nível principal?",
+            "alternativas": [
+              "Shift+Tab",
+              "Tab",
+              "Enter",
+              "Ctrl+P"
+            ],
+            "correta": 0,
+            "explicacao": "Shift+Tab sobe um nível.",
+            "dica": "Tab desce um nível. E o contrário?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na lista numerada padrão, você está no item 1. e aperta Enter e Tab. Que marca aparece no novo subitem?",
+            "alternativas": [
+              "2.",
+              "1.1",
+              "a.",
+              "•"
+            ],
+            "correta": 2,
+            "explicacao": "No estilo padrão, o segundo nível usa letras: a., b., c.",
+            "dica": "Lembre o exemplo do grêmio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lista automática tem 5 passos e você apaga o passo 3. Como fica a numeração?",
+            "alternativas": [
+              "1, 2, 4, 5",
+              "1, 2, 3, 4",
+              "1, 2, 3, 4, 5",
+              "2, 3, 4, 5"
+            ],
+            "correta": 1,
+            "explicacao": "A lista automática se renumera: sobram 4 passos, numerados de 1 a 4.",
+            "dica": "Quantos passos sobram? O Word renumera sozinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No trabalho da feira, que tipo de lista combina com cada parte?",
+            "alternativas": [
+              "Materiais: numeração; passos: marcadores",
+              "As duas com marcadores",
+              "As duas sem lista",
+              "Materiais: marcadores; passos: numeração"
+            ],
+            "correta": 3,
+            "explicacao": "A ordem dos materiais não importa; a dos passos, sim.",
+            "dica": "Em qual das partes a ordem importa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O cursor está num item vazio da lista e você aperta Enter. O que o Word faz?",
+            "alternativas": [
+              "Cria mais 10 itens",
+              "Encerra a lista e volta ao parágrafo normal",
+              "Apaga o documento",
+              "Muda a fonte"
+            ],
+            "correta": 1,
+            "explicacao": "Enter num item vazio entende que a lista acabou.",
+            "dica": "Lembre como se encerra uma lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O cursor está no começo de um item e você aperta Backspace. O que acontece?",
+            "alternativas": [
+              "Tira o marcador e mantém o texto",
+              "Apaga a lista inteira",
+              "Salva o arquivo",
+              "Imprime"
+            ],
+            "correta": 0,
+            "explicacao": "O primeiro Backspace remove só o marcador ou número.",
+            "dica": "O aprofundamento cita o que essa tecla faz no começo do item."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Liderança: dar o exemplo e combinar metas claras",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Liderar é fazer a equipe trabalhar junto, bem e por vontade própria. O primeiro passo é dar o exemplo: o líder chega no horário, segue as regras de higiene e trata todos com respeito. Ninguém leva a sério uma regra que o próprio chefe não cumpre.",
+          "O segundo passo é combinar metas claras. «Vender mais» não é meta. «Vender 120 pastéis por dia até o fim do mês» é: diz o quê, quanto e até quando.",
+          "Meta boa é alcançável. Meta impossível desanima a equipe. E combinar a meta junto com quem vai cumpri-la aumenta o compromisso de todos.",
+          "O líder acompanha os resultados, elogia em público e corrige em particular, com respeito. Gritar ou humilhar alguém pode ser assédio moral, que dá processo trabalhista e faz os bons funcionários irem embora.",
+          "Liderar também é cumprir a lei: jornada normal de até 8 horas por dia e 44 por semana, intervalo para descanso e hora extra paga com pelo menos 50% a mais que a hora normal."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A pastelaria abre 4 horas por dia e a meta é vender 120 pastéis por dia. Quantos pastéis por hora são necessários?",
+            "resolucao": "120 ÷ 4 = 30 pastéis por hora. Com esse número, a equipe sabe a cada hora se está no ritmo certo."
+          },
+          {
+            "enunciado": "Transforme «melhorar o atendimento» numa meta clara.",
+            "resolucao": "«Reduzir a espera na fila para no máximo 10 minutos no horário de almoço até o fim do mês.» Agora há um número, um momento e um prazo."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Chefe é quem manda por causa do cargo; líder é quem a equipe segue porque confia nele. A confiança vem do exemplo, da clareza e da justiça.",
+        "Um ciclo simples de metas: combinar a meta com a equipe, explicar como chegar lá e treinar, acompanhar os números durante o período e, no fim, reconhecer o resultado e ajustar a próxima meta. Uma boa meta diz quem faz, o quê, quanto e até quando.",
+        "Tratar mal custa caro. Quando um funcionário treinado vai embora, o dono perde tempo e dinheiro treinando outro, e a qualidade cai até o novo aprender. Quem respeita a equipe e paga certo segura os melhores."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um líder que dá o exemplo:",
+            "alternativas": [
+              "Chega no horário e segue as regras que pede para a equipe",
+              "Manda e não faz",
+              "Chega atrasado todo dia",
+              "Grita com todos"
+            ],
+            "correta": 0,
+            "explicacao": "A equipe copia o que o líder faz, não só o que ele fala.",
+            "dica": "Exemplo é fazer aquilo que você pede."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma meta clara?",
+            "alternativas": [
+              "Vender mais",
+              "Vender 120 pastéis por dia até sexta",
+              "Melhorar",
+              "Fazer o possível"
+            ],
+            "correta": 1,
+            "explicacao": "Ela diz o quê, quanto e até quando.",
+            "dica": "Meta clara tem número e prazo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde o líder deve corrigir o erro de um funcionário?",
+            "alternativas": [
+              "Na frente dos clientes",
+              "Nas redes sociais",
+              "Em particular, com respeito",
+              "Gritando no salão"
+            ],
+            "correta": 2,
+            "explicacao": "Corrigir em particular preserva a pessoa e resolve o problema.",
+            "dica": "Ninguém gosta de ser exposto na frente dos outros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a jornada normal de trabalho prevista na lei?",
+            "alternativas": [
+              "12 horas por dia",
+              "Sem limite",
+              "2 horas por dia",
+              "Até 8 horas por dia e 44 por semana"
+            ],
+            "correta": 3,
+            "explicacao": "A Constituição fixa esse limite. Passou disso, é hora extra.",
+            "dica": "A lição fala em 8 horas por dia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Elogiar quem fez um bom trabalho:",
+            "alternativas": [
+              "Motiva a equipe",
+              "É perda de tempo",
+              "É proibido",
+              "Deixa o líder fraco"
+            ],
+            "correta": 0,
+            "explicacao": "Reconhecimento faz as pessoas quererem repetir o bom trabalho.",
+            "dica": "Como você se sente quando é elogiado?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual meta está mais bem escrita?",
+            "alternativas": [
+              "Atender bem",
+              "Reduzir a fila para no máximo 10 minutos no almoço até o fim do mês",
+              "Ser o melhor do bairro",
+              "Trabalhar mais"
+            ],
+            "correta": 1,
+            "explicacao": "Tem número (10 minutos), momento (almoço) e prazo (fim do mês).",
+            "dica": "Procure número e prazo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A dona exige uniforme limpo, mas trabalha de avental sujo. Qual é o problema?",
+            "alternativas": [
+              "Ela não dá o exemplo e perde a confiança da equipe",
+              "Nenhum, a dona pode tudo",
+              "A equipe vai trabalhar mais",
+              "O cliente nem repara"
+            ],
+            "correta": 0,
+            "explicacao": "Regra que o líder não cumpre vira regra que ninguém leva a sério.",
+            "dica": "A equipe segue o que o líder faz ou o que ele fala?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A meta é 120 pastéis por dia, e a loja abre 4 horas. Quantos por hora?",
+            "alternativas": [
+              "20",
+              "40",
+              "30",
+              "480"
+            ],
+            "correta": 2,
+            "explicacao": "120 ÷ 4 = 30.",
+            "dica": "Divida a meta do dia pelas horas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deve ser paga a hora extra?",
+            "alternativas": [
+              "Não precisa pagar",
+              "Com 10% a menos",
+              "Vira folga sem nenhum acordo",
+              "Com pelo menos 50% a mais que a hora normal"
+            ],
+            "correta": 3,
+            "explicacao": "A Constituição garante pelo menos 50% a mais pela hora extra.",
+            "dica": "A lição fala em uma porcentagem a mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que combinar a meta junto com a equipe?",
+            "alternativas": [
+              "Aumenta o compromisso de todos",
+              "É desnecessário",
+              "Tira a autoridade do líder",
+              "É ilegal"
+            ],
+            "correta": 0,
+            "explicacao": "Quem ajudou a definir a meta se sente responsável por ela.",
+            "dica": "Pense em quem ajudou a planejar uma festa: se empenha mais ou menos?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«Vender 50% a mais amanhã, com a mesma equipe e sem mudar nada.» Essa meta é:",
+            "alternativas": [
+              "Perfeita",
+              "Ilegal",
+              "Clara, mas irreal: meta precisa ser alcançável",
+              "Fácil"
+            ],
+            "correta": 2,
+            "explicacao": "Tem número e prazo, mas é impossível sem mudança. Meta impossível desanima.",
+            "dica": "Ela tem número e prazo, mas dá para cumprir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A pastelaria vende 80 pastéis por dia e quer crescer 25%. Qual é a nova meta?",
+            "alternativas": [
+              "100",
+              "105",
+              "25",
+              "125"
+            ],
+            "correta": 0,
+            "explicacao": "25% de 80 = 20; 80 + 20 = 100.",
+            "dica": "25% é um quarto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O gerente xinga uma funcionária na frente dos clientes sempre que ela erra. Qual é o risco?",
+            "alternativas": [
+              "Nenhum",
+              "Assédio moral, processo trabalhista e perda de bons funcionários",
+              "Aumento de vendas",
+              "Elogio dos clientes"
+            ],
+            "correta": 1,
+            "explicacao": "Humilhar é assédio moral. Além do processo, a equipe perde a confiança.",
+            "dica": "A lição fala de um problema com nome jurídico."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A hora normal é R$ 10. Com adicional de 50%, quanto valem 4 horas extras?",
+            "alternativas": [
+              "R$ 40",
+              "R$ 50",
+              "R$ 15",
+              "R$ 60"
+            ],
+            "correta": 3,
+            "explicacao": "Hora extra: 10 + 5 = R$ 15. 4 × 15 = R$ 60.",
+            "dica": "Ache o valor de uma hora extra e multiplique por 4."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o ciclo de uma meta:",
+            "itens": [
+              "Combinar a meta com a equipe",
+              "Explicar como chegar lá e treinar",
+              "Acompanhar os números durante o mês",
+              "Reconhecer o resultado e ajustar a próxima meta"
+            ],
+            "explicacao": "Primeiro combinar, depois preparar, acompanhar e, no fim, reconhecer e ajustar.",
+            "dica": "Comece pela conversa e termine pelo resultado."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "3 pessoas fazem 90 pastéis por hora, cada uma no mesmo ritmo. A dona quer 150 por hora. Quantas pessoas a mais precisa contratar?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "Cada uma faz 30 por hora. 150 ÷ 30 = 5 pessoas; já tem 3, faltam 2.",
+            "dica": "Descubra quanto uma pessoa faz por hora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma funcionária maltratada pede demissão. Treinar a substituta leva meio mês de um salário de R$ 1.600. Qual é esse custo?",
+            "alternativas": [
+              "R$ 800",
+              "R$ 1.600",
+              "R$ 400",
+              "R$ 3.200"
+            ],
+            "correta": 0,
+            "explicacao": "Meio mês de R$ 1.600 = R$ 800, fora a queda de qualidade no período.",
+            "dica": "Meio mês é metade do salário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a regra de ouro para elogiar e corrigir?",
+            "alternativas": [
+              "Elogiar em particular e corrigir em público",
+              "Nunca elogiar",
+              "Corrigir no grupo de mensagens de todos",
+              "Elogiar em público e corrigir em particular"
+            ],
+            "correta": 3,
+            "explicacao": "O elogio público inspira os outros; a correção particular preserva a pessoa.",
+            "dica": "O elogio pode ser ouvido por todos; a correção, não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre chefe e líder?",
+            "alternativas": [
+              "São iguais",
+              "O líder grita mais",
+              "O chefe manda pelo cargo; o líder é seguido porque a equipe confia nele",
+              "O chefe sempre ganha menos"
+            ],
+            "correta": 2,
+            "explicacao": "O cargo dá poder; a confiança, conquistada pelo exemplo, dá liderança.",
+            "dica": "O aprofundamento explica de onde vem a força de cada um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual meta tem quem faz, o quê, quanto e até quando?",
+            "alternativas": [
+              "Joana vai reduzir o desperdício de massa de 5 kg para 3 kg por semana até 30/11",
+              "Vamos desperdiçar menos",
+              "Joana, cuidado com a massa",
+              "Desperdício zero para sempre"
+            ],
+            "correta": 0,
+            "explicacao": "Tem responsável (Joana), objetivo (desperdício), número (de 5 para 3 kg) e prazo.",
+            "dica": "Procure uma pessoa, um número e uma data."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Mal ou mau? Há ou a?",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Mau é o contrário de bom: «lobo mau», «mau humor», «mau exemplo». Mal é o contrário de bem: «dormi mal», «ela canta mal». Truque: troque por bom ou bem. Se couber bom, é mau; se couber bem, é mal.",
+          "Mal também pode ser substantivo («o bem venceu o mal») e pode significar «assim que» («Mal chegou, começou a chover»).",
+          "Há é o verbo haver. Ele aparece para indicar tempo que já passou («Moro aqui há cinco anos») ou no sentido de existir («Há vagas»). Truque: se dá para trocar por faz ou existe, use há.",
+          "A (sem h) indica distância («a escola fica a 2 km») ou tempo futuro («daqui a dois dias»)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Complete: «Ele chegou de ___ humor e disse que dormiu ___.»",
+            "resolucao": "«Ele chegou de mau humor e disse que dormiu mal.» Mau humor é o contrário de bom humor; dormiu mal é o contrário de dormiu bem."
+          },
+          {
+            "enunciado": "Complete: «___ dois anos estudo aqui, e daqui ___ um ano vou para o 9º.»",
+            "resolucao": "«Há dois anos estudo aqui, e daqui a um ano vou para o 9º.» Há = faz (passado); a = futuro."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Com hífen: «mal-educado», «mal-humorado». Sem hífen: «mau humor». Por isso, a pessoa mal-humorada está de mau humor.",
+        "«Há dez anos atrás» é redundante, porque há já indica passado. Diga «há dez anos» ou «dez anos atrás».",
+        "Cuidado com três expressões parecidas: «acerca de» quer dizer sobre («falou acerca da Constituição»); «há cerca de» quer dizer existem aproximadamente ou faz aproximadamente («há cerca de 40 alunos»); «a cerca de» indica distância aproximada («fica a cerca de 3 km»)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «O lobo ___ assustou a turma.»",
+            "alternativas": [
+              "mal",
+              "mau",
+              "mais",
+              "mas"
+            ],
+            "correta": 1,
+            "explicacao": "O contrário seria o lobo bom: então é mau.",
+            "dica": "Troque por bom ou bem e veja qual cabe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «Dormi ___ esta noite.»",
+            "alternativas": [
+              "mau",
+              "mais",
+              "mal",
+              "mas"
+            ],
+            "correta": 2,
+            "explicacao": "O contrário seria dormi bem: então é mal.",
+            "dica": "Qual é o contrário: dormi bom ou dormi bem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o truque para saber se é mau?",
+            "alternativas": [
+              "Trocar por bom",
+              "Trocar por bem",
+              "Trocar por faz",
+              "Trocar por existe"
+            ],
+            "correta": 0,
+            "explicacao": "Mau é o contrário de bom.",
+            "dica": "Mau e bom são adjetivos opostos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «Moro aqui ___ cinco anos.»",
+            "alternativas": [
+              "a",
+              "à",
+              "á",
+              "há"
+            ],
+            "correta": 3,
+            "explicacao": "Tempo que passou: dá para trocar por faz cinco anos.",
+            "dica": "Dá para trocar por faz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «Daqui ___ dois dias tem prova.»",
+            "alternativas": [
+              "há",
+              "a",
+              "à",
+              "á"
+            ],
+            "correta": 1,
+            "explicacao": "Tempo futuro pede a, sem h.",
+            "dica": "A prova ainda vai acontecer."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «Ele chegou de ___ humor.»",
+            "alternativas": [
+              "mau",
+              "mal",
+              "mais",
+              "maus"
+            ],
+            "correta": 0,
+            "explicacao": "O contrário é bom humor: então é mau humor.",
+            "dica": "Bom humor ou bem humor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «A escola fica ___ 2 km daqui.»",
+            "alternativas": [
+              "há",
+              "a",
+              "à",
+              "ah"
+            ],
+            "correta": 1,
+            "explicacao": "Distância pede a, sem h.",
+            "dica": "É tempo passado ou distância?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o truque para saber se é há?",
+            "alternativas": [
+              "Trocar por bom",
+              "Trocar por mal",
+              "Trocar por faz ou existe",
+              "Trocar por de"
+            ],
+            "correta": 2,
+            "explicacao": "Há é o verbo haver: faz (tempo) ou existe.",
+            "dica": "Há é um verbo. Que verbos têm o mesmo sentido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «Ela fala ___ inglês, mas está estudando.»",
+            "alternativas": [
+              "mau",
+              "mais",
+              "mas",
+              "mal"
+            ],
+            "correta": 3,
+            "explicacao": "O contrário é fala bem: então é mal.",
+            "dica": "Ela fala bom ou fala bem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "A dois anos, mudei de escola.",
+              "Há dois anos, mudei de escola.",
+              "À dois anos, mudei de escola.",
+              "Ha dois anos, mudei de escola."
+            ],
+            "correta": 1,
+            "explicacao": "Tempo passado: faz dois anos = há dois anos, com h e acento.",
+            "dica": "Troque por faz e veja qual combina."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «___ chegou em casa, começou a chover.» (= assim que)",
+            "alternativas": [
+              "Mau",
+              "Mal",
+              "Mas",
+              "Há"
+            ],
+            "correta": 1,
+            "explicacao": "Mal pode significar assim que.",
+            "dica": "A lição mostra um sentido especial de uma dessas palavras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «No fim do filme, o bem venceu o ___.»",
+            "alternativas": [
+              "mau",
+              "mais",
+              "mal",
+              "maus"
+            ],
+            "correta": 2,
+            "explicacao": "O contrário de o bem é o mal, aqui um substantivo.",
+            "dica": "Qual é o par do bem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «A prova será daqui ___ uma semana, e ___ três dias não estudo.»",
+            "alternativas": [
+              "a / há",
+              "há / a",
+              "há / há",
+              "a / a"
+            ],
+            "correta": 0,
+            "explicacao": "Daqui a uma semana é futuro (a); há três dias é passado (há).",
+            "dica": "Uma lacuna fala do futuro e a outra, do passado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está ERRADA?",
+            "alternativas": [
+              "Ele é mal-educado.",
+              "Estou de mau humor.",
+              "Ele é um mal exemplo.",
+              "Ela dormiu mal."
+            ],
+            "correta": 2,
+            "explicacao": "O contrário é bom exemplo: o certo é mau exemplo.",
+            "dica": "Aplique o truque de trocar por bom ou bem em cada frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «Fizemos o trabalho ___ cerca de um mês.» (tempo passado)",
+            "alternativas": [
+              "a",
+              "acerca",
+              "à",
+              "há"
+            ],
+            "correta": 3,
+            "explicacao": "Faz cerca de um mês: há cerca de.",
+            "dica": "Troque por faz cerca de um mês."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que dizer de «Há dez anos atrás»?",
+            "alternativas": [
+              "Está perfeita",
+              "É redundante: diga há dez anos ou dez anos atrás",
+              "Deveria ser a dez anos atrás",
+              "Deveria ser à dez anos"
+            ],
+            "correta": 1,
+            "explicacao": "Há já indica passado; atrás repete a mesma ideia.",
+            "dica": "As duas palavras indicam a mesma coisa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «O professor falou ___ (sobre) a Constituição. Na sala, ___ (existem aproximadamente) 40 alunos. A escola fica ___ (distância aproximada) 3 km do centro.»",
+            "alternativas": [
+              "há cerca de / acerca de / a cerca de",
+              "a cerca de / há cerca de / acerca de",
+              "acerca de / a cerca de / há cerca de",
+              "acerca de / há cerca de / a cerca de"
+            ],
+            "correta": 3,
+            "explicacao": "Sobre = acerca de; existem aproximadamente = há cerca de; distância = a cerca de.",
+            "dica": "Use as pistas entre parênteses e o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual dupla está correta?",
+            "alternativas": [
+              "mau-humorado / mal humor",
+              "mal-humorado / mau humor",
+              "mal-humorado / mal humor",
+              "mau-humorado / mau humor"
+            ],
+            "correta": 1,
+            "explicacao": "A pessoa mal-humorada (com hífen) está de mau humor (contrário de bom humor).",
+            "dica": "Lembre a frase do aprofundamento sobre a pessoa mal-humorada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos erros há? «Há três dias, ele chegou de mal humor e disse que voltaria daqui há uma semana.»",
+            "alternativas": [
+              "0",
+              "1",
+              "2",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "Mal humor (o certo é mau humor) e daqui há (o certo é daqui a). Há três dias está certo.",
+            "dica": "Confira cada há e cada mal da frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase mal significa «assim que»?",
+            "alternativas": [
+              "Mal o sinal tocou, todos saíram.",
+              "Ela canta mal.",
+              "O mal da cidade é o trânsito.",
+              "Ele se sentiu mal."
+            ],
+            "correta": 0,
+            "explicacao": "Mal o sinal tocou = assim que o sinal tocou.",
+            "dica": "Troque mal por assim que em cada frase."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A pastelaria que funcionava sem a dona Cida",
+    "texto": "Durante quinze anos, a pastelaria da feira de quarta só funcionou porque dona Cida estava lá. Ela abria a massa, fritava, cobrava, dava o troco e ainda reclamava de tudo. Os três ajudantes ficavam esperando ordens e levavam bronca na frente dos fregueses.\n\nUm dia, dona Cida torceu o pé e precisou ficar uma semana em casa. Foi um desastre. Ninguém sabia quanto recheio pôr, o óleo queimou duas vezes e a fila dobrou a esquina.\n\nQuando voltou, ela chamou a equipe para conversar no fim da feira, coisa que nunca tinha feito. Perguntou o que tinha dado errado. O Jonas disse que ninguém sabia o que era prioridade. A Taís disse que tinha medo de errar e levar bronca.\n\nDona Cida ouviu calada. Depois, pegou um caderno e combinou com eles três metas: atender cada freguês em até cinco minutos, fritar com o óleo trocado na hora certa e vender 150 pastéis por feira. Escreveu a receita padrão de cada sabor e dividiu as tarefas. Passou a chegar antes de todos e a usar touca, como pedia aos outros. Quando alguém errava, ela explicava em particular. Quando acertava, elogiava em voz alta.\n\nTrês meses depois, a pastelaria vendia 160 pastéis por feira. E, no dia em que dona Cida foi ao casamento da sobrinha, a barraca funcionou sem ela, do jeito de sempre. Ela descobriu que o melhor líder não é o que faz tudo, mas o que prepara a equipe para fazer."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, descreva um bom líder que você conhece (em casa, na escola, no time ou no bairro). Conte o que ele faz de diferente, dê um exemplo de atitude dele e diga se ele combina metas claras e dá o exemplo, como a dona Cida aprendeu a fazer."
+  }
+}

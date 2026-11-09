@@ -1,0 +1,1199 @@
+{
+  "dia": 26,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Monômios e termos semelhantes",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Monômio é uma expressão formada por um número multiplicado por letras com expoentes naturais, como 3x², −5ab ou 7. O número é o coeficiente; as letras com seus expoentes formam a parte literal.",
+          "Em 3x², o coeficiente é 3 e a parte literal é x². Em −4ab, o coeficiente é −4 e a parte literal é ab. O grau do monômio é a soma dos expoentes das letras: 2x³ tem grau 3; 3a²b tem grau 2 + 1 = 3.",
+          "Termos semelhantes têm exatamente a mesma parte literal: 3x² e −8x² são semelhantes; 3x² e 3x não são.",
+          "Para somar ou subtrair monômios, eles precisam ser semelhantes. Somamos os coeficientes e mantemos a parte literal: 3x + 4x = 7x; 5a − 8a = −3a.",
+          "Para multiplicar, multiplicamos os coeficientes e somamos os expoentes das letras iguais: 2x · 3x² = 6x³. Para dividir, dividimos os coeficientes e subtraímos os expoentes: 12x⁵ ÷ 4x² = 3x³."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Simplifique 3x² + 2x + 5x² − x.",
+            "resolucao": "Junte os semelhantes: 3x² + 5x² = 8x² e 2x − x = x. Resultado: 8x² + x. Não dá para juntar x² com x, porque as partes literais são diferentes."
+          },
+          {
+            "enunciado": "Um retângulo tem lados 3x e 2x. Calcule o perímetro e a área.",
+            "resolucao": "Perímetro: 3x + 2x + 3x + 2x = 10x. Área: 3x · 2x = 6x²."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Valor numérico é o resultado ao trocar as letras por números. Em −2a²b, com a = −3 e b = 2: a² = 9, então −2 · 9 · 2 = −36. Cuidado: (−3)² = 9, positivo.",
+        "Nem toda expressão com letras é monômio. Se a letra aparece no denominador (como 2/x) ou dentro de uma raiz, não é monômio. Já (1/2)x é monômio: o coeficiente pode ser fração.",
+        "Potência de monômio: eleve o coeficiente e multiplique os expoentes. (3x²)² = 3² · x⁴ = 9x⁴. Erro comum: escrever 6x⁴ ou 9x²."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o coeficiente de 7x²?",
+            "alternativas": [
+              "7",
+              "x",
+              "2",
+              "x²"
+            ],
+            "correta": 0,
+            "explicacao": "O coeficiente é o número que multiplica as letras.",
+            "dica": "É a parte numérica do monômio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a parte literal de −4ab?",
+            "alternativas": [
+              "−4",
+              "ab",
+              "a",
+              "b"
+            ],
+            "correta": 1,
+            "explicacao": "A parte literal são as letras com seus expoentes: ab.",
+            "dica": "Literal vem de letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual termo é semelhante a 5x?",
+            "alternativas": [
+              "5y",
+              "5x²",
+              "−2x",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "−2x tem a mesma parte literal, x. O coeficiente pode ser diferente.",
+            "dica": "Olhe só as letras e os expoentes, não o número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3x + 4x?",
+            "alternativas": [
+              "7x²",
+              "12x",
+              "7",
+              "7x"
+            ],
+            "correta": 3,
+            "explicacao": "Soma os coeficientes e mantém o x: 7x.",
+            "dica": "3 laranjas mais 4 laranjas dão quantas laranjas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o grau de 2x³?",
+            "alternativas": [
+              "2",
+              "3",
+              "5",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "O grau é o expoente da letra: 3. O 2 é o coeficiente.",
+            "dica": "O grau vem dos expoentes das letras."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 5a − 8a?",
+            "alternativas": [
+              "3a",
+              "−3a",
+              "13a",
+              "−3"
+            ],
+            "correta": 1,
+            "explicacao": "5 − 8 = −3, e a parte literal continua: −3a.",
+            "dica": "Faça 5 − 8 e mantenha a letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2x · 3x?",
+            "alternativas": [
+              "5x",
+              "6x",
+              "6x²",
+              "5x²"
+            ],
+            "correta": 2,
+            "explicacao": "2 · 3 = 6 e x · x = x². Resultado: 6x².",
+            "dica": "Na multiplicação, os coeficientes se multiplicam e os expoentes se somam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 4x²y + 2x²y − x²y?",
+            "alternativas": [
+              "5x²y",
+              "6x²y",
+              "7x²y",
+              "5x⁶y³"
+            ],
+            "correta": 0,
+            "explicacao": "4 + 2 − 1 = 5; a parte literal fica igual: 5x²y.",
+            "dica": "São semelhantes: opere só os coeficientes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o grau de 3a²b?",
+            "alternativas": [
+              "2",
+              "5",
+              "1",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Expoente de a (2) + expoente de b (1) = 3.",
+            "dica": "Letra sem expoente escrito tem expoente 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de 3x² para x = 2?",
+            "alternativas": [
+              "36",
+              "12",
+              "10",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "x² = 4; 3 · 4 = 12. 36 seria (3 · 2)².",
+            "dica": "Calcule a potência antes de multiplicar por 3."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Simplifique: 3x² + 2x + 5x² − x.",
+            "alternativas": [
+              "8x² + x",
+              "9x³",
+              "8x² + 3x",
+              "10x²"
+            ],
+            "correta": 0,
+            "explicacao": "3x² + 5x² = 8x²; 2x − x = x. Termos com x² e com x não se juntam.",
+            "dica": "Agrupe primeiro os termos com x² e depois os com x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−2a²b) · (5ab³)?",
+            "alternativas": [
+              "−10a²b³",
+              "10a³b⁴",
+              "−10a³b⁴",
+              "3a³b⁴"
+            ],
+            "correta": 2,
+            "explicacao": "−2 · 5 = −10; a² · a = a³; b · b³ = b⁴.",
+            "dica": "Multiplique os números com o sinal e some os expoentes de cada letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 12x⁵ ÷ 4x²?",
+            "alternativas": [
+              "8x³",
+              "3x⁷",
+              "48x⁷",
+              "3x³"
+            ],
+            "correta": 3,
+            "explicacao": "12 ÷ 4 = 3 e x⁵ ÷ x² = x³.",
+            "dica": "Na divisão, os expoentes se subtraem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o perímetro de um retângulo com lados 3x e 2x?",
+            "alternativas": [
+              "5x",
+              "10x",
+              "6x²",
+              "12x"
+            ],
+            "correta": 1,
+            "explicacao": "3x + 2x + 3x + 2x = 10x. 6x² é a área.",
+            "dica": "Perímetro é a soma dos quatro lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um retângulo com lados 3x e 2x?",
+            "alternativas": [
+              "5x",
+              "10x",
+              "6x²",
+              "6x"
+            ],
+            "correta": 2,
+            "explicacao": "3x · 2x = 6x².",
+            "dica": "Área é base vezes altura."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de −2a²b para a = −3 e b = 2?",
+            "alternativas": [
+              "36",
+              "−36",
+              "24",
+              "−24"
+            ],
+            "correta": 1,
+            "explicacao": "a² = (−3)² = 9. −2 · 9 · 2 = −36.",
+            "dica": "O quadrado de um número negativo é positivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas expressões NÃO é um monômio?",
+            "alternativas": [
+              "2/x",
+              "−7",
+              "x³y",
+              "(1/2)x"
+            ],
+            "correta": 0,
+            "explicacao": "Letra no denominador não forma monômio. O coeficiente pode ser fração, como em (1/2)x.",
+            "dica": "O aprofundamento diz onde a letra não pode ficar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (3x²)²?",
+            "alternativas": [
+              "6x⁴",
+              "9x²",
+              "9x⁴",
+              "3x⁴"
+            ],
+            "correta": 2,
+            "explicacao": "3² = 9 e (x²)² = x⁴.",
+            "dica": "Eleve o coeficiente e multiplique os expoentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrado tem lado 2a e um retângulo tem lados 3a e a. Qual é a soma das áreas?",
+            "alternativas": [
+              "5a²",
+              "7a",
+              "10a²",
+              "7a²"
+            ],
+            "correta": 3,
+            "explicacao": "Quadrado: 2a · 2a = 4a². Retângulo: 3a · a = 3a². Soma: 7a².",
+            "dica": "Calcule cada área e some os termos semelhantes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que monômio somado a 3xy dá −5xy?",
+            "alternativas": [
+              "−2xy",
+              "8xy",
+              "−8xy",
+              "−8x²y²"
+            ],
+            "correta": 2,
+            "explicacao": "3 + (−8) = −5. Então o termo é −8xy.",
+            "dica": "Qual número somado a 3 dá −5?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Banco e conta: corrente, poupança e conta digital",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Os bancos guardam dinheiro, fazem pagamentos e emprestam. Quem fiscaliza todos eles é o Banco Central.",
+          "A conta corrente serve para o dia a dia: receber salário, pagar contas, fazer Pix e usar cartão de débito. Muitos bancos cobram uma tarifa mensal pelo pacote de serviços.",
+          "A poupança é para guardar dinheiro e fazê-lo render um pouco. O rendimento cai uma vez por mês, na data de aniversário (o dia do depósito). Rende pouco, mas é simples e segura.",
+          "A conta digital é aberta e usada pelo celular, sem precisar ir à agência, e costuma não cobrar tarifa mensal. Ela funciona como uma conta corrente: Pix, cartão e boletos.",
+          "Menores de 18 anos podem ter conta com a autorização de um responsável. E, em qualquer banco, vale a regra: o banco nunca pede sua senha por telefone, mensagem ou e-mail."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma conta cobra R$ 25 por mês de tarifa. Quanto isso dá no ano?",
+            "resolucao": "25 × 12 = R$ 300 por ano. Vale comparar com uma conta digital sem tarifa."
+          },
+          {
+            "enunciado": "Suponha que a poupança renda 0,5% ao mês. Quanto rendem R$ 1.000 em um mês?",
+            "resolucao": "0,5% de 1.000 = 1.000 × 0,005 = R$ 5,00. No fim do mês, o saldo vai para R$ 1.005,00."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cheque especial é um limite que o banco libera na conta corrente: quando o saldo fica negativo, você está usando dinheiro emprestado do banco, com juros muito altos. Ter R$ 1.000 na poupança rendendo 0,5% e uma dívida de R$ 1.000 no cheque especial a 8% ao mês faz perder 80 − 5 = R$ 75 em um mês.",
+        "Na poupança, quem saca antes da data de aniversário perde o rendimento daquele mês. O dinheiro em poupança e contas é protegido pelo Fundo Garantidor de Créditos (FGC) até R$ 250 mil por pessoa em cada instituição, se o banco quebrar.",
+        "Os bancos são obrigados a oferecer um pacote de serviços essenciais sem tarifa, com um número limitado de saques, extratos e transferências por mês. Quem usa pouco pode pedir esse pacote em vez de pagar tarifa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Que conta serve para receber e pagar no dia a dia?",
+            "alternativas": [
+              "Conta corrente",
+              "Poupança",
+              "Cofrinho",
+              "Boleto"
+            ],
+            "correta": 0,
+            "explicacao": "A conta corrente é a do movimento: salário, Pix, débito e contas.",
+            "dica": "É a conta do movimento diário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que conta serve para guardar dinheiro e render um pouco?",
+            "alternativas": [
+              "Corrente",
+              "Poupança",
+              "Cheque",
+              "Fatura"
+            ],
+            "correta": 1,
+            "explicacao": "O nome já diz: poupança é para poupar.",
+            "dica": "O nome vem de poupar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a conta aberta pelo celular, sem ir à agência?",
+            "alternativas": [
+              "Conta de luz",
+              "Conta de água",
+              "Conta digital",
+              "Conta da padaria"
+            ],
+            "correta": 2,
+            "explicacao": "A conta digital é aberta e usada pelo aplicativo.",
+            "dica": "Celular e aplicativo lembram o mundo digital."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém liga dizendo ser do banco e pede sua senha. O que fazer?",
+            "alternativas": [
+              "Passar a senha",
+              "Passar só metade",
+              "Passar se a voz for gentil",
+              "Não passar: o banco nunca pede senha"
+            ],
+            "correta": 3,
+            "explicacao": "Banco de verdade nunca pede senha. Quem pede é golpista.",
+            "dica": "Lembre a regra do fim da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem fiscaliza os bancos no Brasil?",
+            "alternativas": [
+              "Banco Central",
+              "Prefeitura",
+              "Escola",
+              "Polícia"
+            ],
+            "correta": 0,
+            "explicacao": "O Banco Central cuida das regras e da fiscalização dos bancos.",
+            "dica": "É o banco dos bancos."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A poupança rende 0,5% ao mês. Quanto rendem R$ 1.000 em um mês?",
+            "alternativas": [
+              "R$ 0,50",
+              "R$ 5,00",
+              "R$ 50,00",
+              "R$ 500,00"
+            ],
+            "correta": 1,
+            "explicacao": "1.000 × 0,005 = 5.",
+            "dica": "1% de 1.000 é 10. E meio por cento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma conta cobra R$ 25 por mês. Quanto paga no ano?",
+            "alternativas": [
+              "R$ 300",
+              "R$ 250",
+              "R$ 25",
+              "R$ 2.500"
+            ],
+            "correta": 0,
+            "explicacao": "25 × 12 = 300.",
+            "dica": "Multiplique pelos 12 meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o cheque especial?",
+            "alternativas": [
+              "Um presente do banco",
+              "Um tipo de poupança",
+              "Dinheiro do banco, com juros muito altos, usado quando a conta fica negativa",
+              "Dinheiro grátis"
+            ],
+            "correta": 2,
+            "explicacao": "Saldo negativo é dívida com o banco, e os juros são dos mais caros.",
+            "dica": "O aprofundamento explica o que é saldo negativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Até quanto o FGC garante o dinheiro se o banco quebrar?",
+            "alternativas": [
+              "Sem limite",
+              "R$ 100",
+              "Nada",
+              "Até R$ 250 mil por pessoa em cada instituição"
+            ],
+            "correta": 3,
+            "explicacao": "O Fundo Garantidor de Créditos devolve até R$ 250 mil por pessoa em cada instituição.",
+            "dica": "O aprofundamento cita esse valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um adolescente de 14 anos pode ter conta no banco?",
+            "alternativas": [
+              "Sim, com autorização de um responsável",
+              "Nunca",
+              "Só depois dos 30",
+              "Só se tiver empresa"
+            ],
+            "correta": 0,
+            "explicacao": "Menores podem ter conta, com um responsável autorizando.",
+            "dica": "A lição fala de menores de 18 anos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 2.000 na poupança a 0,5% ao mês, com juros compostos. Quanto haverá depois de 2 meses?",
+            "alternativas": [
+              "R$ 2.020,00",
+              "R$ 2.020,05",
+              "R$ 2.010,00",
+              "R$ 2.100,00"
+            ],
+            "correta": 1,
+            "explicacao": "Mês 1: 2.000 × 1,005 = 2.010. Mês 2: 2.010 × 1,005 = 2.020,05.",
+            "dica": "No segundo mês, o 0,5% é sobre o novo saldo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Trocar uma conta com tarifa de R$ 20 por mês por uma sem tarifa economiza quanto por ano?",
+            "alternativas": [
+              "R$ 20",
+              "R$ 120",
+              "R$ 240",
+              "R$ 200"
+            ],
+            "correta": 2,
+            "explicacao": "20 × 12 = 240.",
+            "dica": "A tarifa é cobrada todo mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ficar com R$ 500 negativos no cheque especial a 8% ao mês custa quanto de juros em um mês?",
+            "alternativas": [
+              "R$ 4",
+              "R$ 8",
+              "R$ 400",
+              "R$ 40"
+            ],
+            "correta": 3,
+            "explicacao": "8% de 500 = 40.",
+            "dica": "Calcule 1% de 500 e multiplique por 8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A poupança rendeu 6% no ano, e a inflação foi de 4,5%. Qual foi o ganho real aproximado?",
+            "alternativas": [
+              "1,5%",
+              "10,5%",
+              "6%",
+              "4,5%"
+            ],
+            "correta": 0,
+            "explicacao": "De forma aproximada: 6% − 4,5% = 1,5% acima da inflação.",
+            "dica": "Desconte a inflação do rendimento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lívia quer guardar R$ 50 da mesada todo mês para uma compra daqui a um ano. O que é melhor?",
+            "alternativas": [
+              "Deixar misturado na conta do dia a dia",
+              "Separar todo mês na poupança ou numa aplicação",
+              "Usar o cheque especial",
+              "Esconder embaixo do colchão"
+            ],
+            "correta": 1,
+            "explicacao": "Separado, o dinheiro não se mistura com os gastos e ainda rende um pouco.",
+            "dica": "Qual opção protege o dinheiro de ser gasto sem querer e ainda rende?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 1.000 fica 2 meses no cheque especial a 8% ao mês, com juros compostos. Quanto ela vira?",
+            "alternativas": [
+              "R$ 1.160,00",
+              "R$ 1.166,40",
+              "R$ 1.080,00",
+              "R$ 1.640,00"
+            ],
+            "correta": 1,
+            "explicacao": "1.000 × 1,08 = 1.080; 1.080 × 1,08 = 1.166,40.",
+            "dica": "O segundo mês cobra juros sobre os juros do primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bruno tem R$ 1.000 na poupança a 0,5% ao mês e deve R$ 1.000 no cheque especial a 8% ao mês. Em um mês, quanto perde no total?",
+            "alternativas": [
+              "R$ 85",
+              "R$ 5",
+              "R$ 75",
+              "R$ 80"
+            ],
+            "correta": 2,
+            "explicacao": "Paga 80 de juros e ganha 5 de rendimento: perde 75. Melhor usar a poupança para quitar a dívida.",
+            "dica": "Compare o que a dívida cobra com o que a poupança rende."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Carla depositou na poupança no dia 10 e sacou tudo no dia 5 do mês seguinte. O que acontece com o rendimento?",
+            "alternativas": [
+              "Recebe metade",
+              "Não recebe, porque não chegou à data de aniversário",
+              "Recebe o rendimento completo",
+              "Paga uma multa"
+            ],
+            "correta": 1,
+            "explicacao": "A poupança só rende na data de aniversário, um mês depois do depósito.",
+            "dica": "Quando cai o rendimento da poupança?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa tem R$ 300 mil num único banco, e o banco quebra. Quanto fica sem a garantia do FGC?",
+            "alternativas": [
+              "R$ 0",
+              "R$ 250 mil",
+              "R$ 300 mil",
+              "R$ 50 mil"
+            ],
+            "correta": 3,
+            "explicacao": "O FGC garante até R$ 250 mil por pessoa naquela instituição: 300 − 250 = 50 mil sem garantia.",
+            "dica": "Subtraia o limite da garantia do total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Rosa faz poucos saques e transferências por mês e paga tarifa. O que ela pode pedir ao banco?",
+            "alternativas": [
+              "O pacote de serviços essenciais, sem tarifa",
+              "Nada",
+              "O dinheiro de volta em dobro",
+              "Que o banco feche"
+            ],
+            "correta": 0,
+            "explicacao": "Os bancos são obrigados a oferecer esse pacote básico gratuito.",
+            "dica": "O aprofundamento fala de um pacote obrigatório."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Operadores lógicos: E, OU e NÃO",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Às vezes uma decisão depende de mais de uma condição. Para juntar condições, usamos operadores lógicos. Em Python, eles são and (E), or (OU) e not (NÃO).",
+          "and só dá True (verdadeiro) quando as duas condições são verdadeiras. Exemplo: idade >= 12 and idade <= 17 testa se a pessoa é adolescente.",
+          "or dá True quando pelo menos uma das condições é verdadeira. Exemplo: dia == 'sábado' or dia == 'domingo' testa se é fim de semana.",
+          "not inverte: not True dá False, e not False dá True. Exemplo: if not chovendo: print('Vamos à praça').",
+          "Resumo: True and False = False; True or False = True; not True = False."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um aluno é aprovado se tem nota 6 ou mais E no máximo 25 faltas. Escreva a condição e teste com nota 8 e 30 faltas.",
+            "resolucao": "if nota >= 6 and faltas <= 25: print('Aprovado')\nCom nota 8 e 30 faltas: 8 >= 6 é True, mas 30 <= 25 é False. True and False = False: não aprovado."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Ordem de prioridade: primeiro not, depois and, por último or. Em True or False and False, o and vem antes: False and False = False; depois True or False = True. Use parênteses para deixar claro.",
+        "Leis de De Morgan: not (a and b) é o mesmo que not a or not b; not (a or b) é o mesmo que not a and not b. Exemplo: «não é verdade que está sol E calor» equivale a «não está sol OU não está calor».",
+        "Erro clássico: if cor == 'azul' or 'verde': entra sempre, porque o Python entende 'verde' sozinho como verdadeiro. O certo é cor == 'azul' or cor == 'verde'. Lembre também do operador %, que dá o resto da divisão: n % 2 == 0 testa se n é par."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando o and dá True?",
+            "alternativas": [
+              "Quando as duas condições são verdadeiras",
+              "Quando pelo menos uma é verdadeira",
+              "Quando nenhuma é verdadeira",
+              "Sempre"
+            ],
+            "correta": 0,
+            "explicacao": "No E, as duas partes precisam ser verdadeiras.",
+            "dica": "and quer dizer E: uma coisa e a outra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando o or dá True?",
+            "alternativas": [
+              "Quando as duas são falsas",
+              "Quando pelo menos uma é verdadeira",
+              "Nunca",
+              "Só quando a primeira é falsa"
+            ],
+            "correta": 1,
+            "explicacao": "No OU, basta uma parte verdadeira.",
+            "dica": "or quer dizer OU: uma coisa ou a outra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá not True?",
+            "alternativas": [
+              "True",
+              "0",
+              "False",
+              "Erro"
+            ],
+            "correta": 2,
+            "explicacao": "not inverte o valor: o contrário de True é False.",
+            "dica": "not quer dizer NÃO e inverte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá True and False?",
+            "alternativas": [
+              "True",
+              "Erro",
+              "Nada",
+              "False"
+            ],
+            "correta": 3,
+            "explicacao": "Uma parte é falsa, então o E dá False.",
+            "dica": "No and, basta uma parte falsa para estragar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá True or False?",
+            "alternativas": [
+              "True",
+              "False",
+              "Erro",
+              "Nada"
+            ],
+            "correta": 0,
+            "explicacao": "Uma parte verdadeira já basta para o OU.",
+            "dica": "No or, uma parte verdadeira basta."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "idade = 15\nprint(idade >= 12 and idade <= 17)\nO que aparece?",
+            "alternativas": [
+              "False",
+              "True",
+              "15",
+              "Erro"
+            ],
+            "correta": 1,
+            "explicacao": "15 >= 12 é True e 15 <= 17 é True: True and True = True.",
+            "dica": "Teste cada condição com 15."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "dia = 'terça'\nprint(dia == 'sábado' or dia == 'domingo')\nO que aparece?",
+            "alternativas": [
+              "True",
+              "False",
+              "terça",
+              "Erro"
+            ],
+            "correta": 1,
+            "explicacao": "As duas comparações são falsas: False or False = False.",
+            "dica": "Terça é sábado? Terça é domingo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "chovendo = False\nprint(not chovendo)\nO que aparece?",
+            "alternativas": [
+              "False",
+              "Erro",
+              "True",
+              "chovendo"
+            ],
+            "correta": 2,
+            "explicacao": "not False = True.",
+            "dica": "O not inverte o valor da variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Desconto para quem é estudante OU tem 60 anos ou mais. Qual condição está certa?",
+            "alternativas": [
+              "estudante and idade > 60",
+              "not estudante",
+              "estudante and not idade",
+              "estudante or idade >= 60"
+            ],
+            "correta": 3,
+            "explicacao": "Basta uma das duas coisas: or. E 60 anos já conta, então >=.",
+            "dica": "Basta uma condição. E 60 anos entra ou não?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nota = 8\nfaltas = 30\nprint(nota >= 6 and faltas <= 25)\nO que aparece?",
+            "alternativas": [
+              "True",
+              "False",
+              "8",
+              "Erro"
+            ],
+            "correta": 1,
+            "explicacao": "A nota passa, mas as faltas não: True and False = False.",
+            "dica": "As duas condições precisam ser verdadeiras."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 5\nprint(x > 3 and x < 10 or x == 0)\nO que aparece?",
+            "alternativas": [
+              "True",
+              "False",
+              "Erro",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "x > 3 and x < 10 é True; True or (x == 0) é True.",
+            "dica": "Resolva o and primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá not (3 > 5)?",
+            "alternativas": [
+              "False",
+              "True",
+              "Erro",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "3 > 5 é False; not False = True.",
+            "dica": "Resolva o parêntese primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como escrever «x está entre 1 e 10, incluindo 1 e 10»?",
+            "alternativas": [
+              "x >= 1 or x <= 10",
+              "x > 1 and x < 10",
+              "x >= 1 and x <= 10",
+              "not x"
+            ],
+            "correta": 2,
+            "explicacao": "As duas condições precisam valer (and), e os limites entram (>= e <=).",
+            "dica": "O número precisa estar acima do 1 E abaixo do 10, com os limites."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = True\nb = False\nprint(not a or b)\nO que aparece?",
+            "alternativas": [
+              "True",
+              "Erro",
+              "None",
+              "False"
+            ],
+            "correta": 3,
+            "explicacao": "not vem primeiro: not a = False. False or False = False.",
+            "dica": "Resolva o not antes do or."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual condição é sempre True, para qualquer número x?",
+            "alternativas": [
+              "x > 5 and x < 5",
+              "x > 5 or x <= 5",
+              "x == 1 and x == 2",
+              "not True"
+            ],
+            "correta": 1,
+            "explicacao": "Todo número é maior que 5 ou menor ou igual a 5. As outras são sempre False.",
+            "dica": "Procure duas condições que, juntas, cobrem todos os números."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá True or False and False?",
+            "alternativas": [
+              "True",
+              "False",
+              "Erro",
+              "None"
+            ],
+            "correta": 0,
+            "explicacao": "O and vem antes: False and False = False. Depois: True or False = True.",
+            "dica": "Lembre a ordem de prioridade do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá not True and False?",
+            "alternativas": [
+              "True",
+              "False",
+              "Erro",
+              "None"
+            ],
+            "correta": 1,
+            "explicacao": "not vem primeiro: not True = False. False and False = False.",
+            "dica": "O not se aplica só ao True logo depois dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela lei de De Morgan, not (a and b) é igual a:",
+            "alternativas": [
+              "not a and not b",
+              "a or b",
+              "not a or not b",
+              "a and b"
+            ],
+            "correta": 2,
+            "explicacao": "Ao distribuir o not, o and vira or: not a or not b.",
+            "dica": "Ao passar o not para dentro, o operador troca."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cor = 'vermelho'\nif cor == 'azul' or 'verde':\n    print('fria')\nO que acontece?",
+            "alternativas": [
+              "Não mostra nada",
+              "Dá erro",
+              "Mostra verde",
+              "Mostra fria, porque 'verde' sozinho conta como verdadeiro"
+            ],
+            "correta": 3,
+            "explicacao": "A condição vira False or 'verde', e 'verde' é considerado verdadeiro. O certo é cor == 'azul' or cor == 'verde'.",
+            "dica": "O aprofundamento mostra esse erro clássico."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números de 1 a 20 tornam verdadeira a condição n % 2 == 0 or n % 3 == 0?",
+            "alternativas": [
+              "13",
+              "3",
+              "16",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "Pares: 10. Múltiplos de 3: 6. Os múltiplos de 6 (6, 12, 18) foram contados duas vezes: 10 + 6 − 3 = 13.",
+            "dica": "Conte os pares, os múltiplos de 3 e desconte os que aparecem nas duas listas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Adjunto adnominal e adjunto adverbial",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Adjunto adnominal é o termo que acompanha um substantivo para caracterizá-lo ou determiná-lo. Podem ser artigos, adjetivos, pronomes, numerais e locuções: «O meu velho caderno de capa azul» tem quatro adjuntos de caderno: o, meu, velho e de capa azul.",
+          "Locução adjetiva é uma expressão com preposição que funciona como adjetivo: mesa de madeira (diz de que material é a mesa), amor de mãe (= amor materno), casa da minha tia. Ela também é adjunto adnominal.",
+          "Adjunto adverbial é o termo que modifica um verbo, um adjetivo ou um advérbio, indicando uma circunstância: tempo (ontem), lugar (na escola), modo (rapidamente), intensidade (muito), negação (não), companhia (com a avó), instrumento (com a faca), causa (de medo).",
+          "Truque: o adnominal está «grudado» num substantivo; o adverbial responde a perguntas feitas ao verbo, como quando?, onde?, como? e com quem?."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique os adjuntos: «Ontem, a minha prima chegou cedo à escola nova.»",
+            "resolucao": "Adnominais: a e minha (de prima); a e nova (de escola). Adverbiais: ontem (tempo) e cedo (tempo). À escola nova indica lugar, para onde ela chegou."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A mesma palavra pode ter funções diferentes. Em «Muitos alunos ficaram muito felizes», muitos acompanha alunos (adjunto adnominal) e muito intensifica felizes (adjunto adverbial de intensidade). Em «Havia muito barulho», muito acompanha barulho: adnominal.",
+        "O adjunto adverbial costuma poder mudar de lugar: «Choveu ontem» ou «Ontem, choveu». O adnominal fica junto do seu substantivo.",
+        "Às vezes um termo pode ser lido dos dois jeitos, e a frase fica ambígua: «Vi o homem com o binóculo». Se eu usei o binóculo, com o binóculo é adjunto adverbial de instrumento; se o homem tinha o binóculo, é adjunto adnominal de homem."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«O menino alto chegou.» A palavra alto é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Adjunto adverbial",
+              "Sujeito",
+              "Verbo"
+            ],
+            "correta": 0,
+            "explicacao": "Alto caracteriza o substantivo menino.",
+            "dica": "Ela acompanha um substantivo ou um verbo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Ela chegou ontem.» A palavra ontem é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Adjunto adverbial de tempo",
+              "Sujeito",
+              "Predicativo"
+            ],
+            "correta": 1,
+            "explicacao": "Ontem diz quando ela chegou.",
+            "dica": "Pergunte ao verbo: chegou quando?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O adjunto adnominal acompanha:",
+            "alternativas": [
+              "Um verbo",
+              "Um advérbio",
+              "Um substantivo",
+              "Uma vírgula"
+            ],
+            "correta": 2,
+            "explicacao": "Adnominal vem de nome, ou seja, substantivo.",
+            "dica": "Adnominal lembra nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Estudamos na biblioteca.» A expressão na biblioteca indica:",
+            "alternativas": [
+              "Tempo",
+              "Modo",
+              "Intensidade",
+              "Lugar"
+            ],
+            "correta": 3,
+            "explicacao": "Estudamos onde? Na biblioteca.",
+            "dica": "Pergunte: estudamos onde?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Ele correu rapidamente.» Que circunstância rapidamente indica?",
+            "alternativas": [
+              "Modo",
+              "Lugar",
+              "Tempo",
+              "Negação"
+            ],
+            "correta": 0,
+            "explicacao": "Correu como? Rapidamente.",
+            "dica": "Pergunte: correu como?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«Comprei uma mesa de madeira.» A expressão de madeira é:",
+            "alternativas": [
+              "Adjunto adverbial de lugar",
+              "Adjunto adnominal (locução adjetiva)",
+              "Sujeito",
+              "Predicativo"
+            ],
+            "correta": 1,
+            "explicacao": "De madeira caracteriza a mesa, como um adjetivo.",
+            "dica": "Ela diz como é a mesa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos adjuntos adnominais há em «Os meus dois gatos pretos dormem»?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "Os, meus, dois e pretos acompanham gatos.",
+            "dica": "Conte as palavras que acompanham gatos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Não fui à festa.» A palavra não é:",
+            "alternativas": [
+              "Adjunto adverbial de negação",
+              "Adjunto adnominal",
+              "Sujeito",
+              "Predicativo"
+            ],
+            "correta": 0,
+            "explicacao": "Não modifica o verbo, negando a ação.",
+            "dica": "Ela modifica o verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«A prova estava muito difícil.» A palavra muito é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Sujeito",
+              "Verbo",
+              "Adjunto adverbial de intensidade"
+            ],
+            "correta": 3,
+            "explicacao": "Muito intensifica o adjetivo difícil.",
+            "dica": "Muito está ligado a um substantivo ou a um adjetivo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Fui à feira com minha avó.» A expressão com minha avó indica:",
+            "alternativas": [
+              "Lugar",
+              "Companhia",
+              "Tempo",
+              "Modo"
+            ],
+            "correta": 1,
+            "explicacao": "Fui com quem? Com minha avó.",
+            "dica": "Pergunte: fui com quem?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«Muitos alunos ficaram muito felizes.» Como se classificam muitos e muito?",
+            "alternativas": [
+              "Adnominal / adverbial",
+              "Adverbial / adnominal",
+              "Os dois adnominais",
+              "Os dois adverbiais"
+            ],
+            "correta": 0,
+            "explicacao": "Muitos acompanha alunos (substantivo); muito intensifica felizes (adjetivo).",
+            "dica": "Veja a palavra que cada um acompanha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Ela cortou o pão com a faca.» Com a faca indica:",
+            "alternativas": [
+              "Companhia",
+              "Instrumento",
+              "Modo",
+              "Lugar"
+            ],
+            "correta": 1,
+            "explicacao": "A faca é o instrumento usado para cortar.",
+            "dica": "A faca foi junto ou foi usada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«O cachorro latiu de medo.» De medo é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Adjunto adverbial de tempo",
+              "Adjunto adverbial de causa",
+              "Adjunto adverbial de lugar"
+            ],
+            "correta": 2,
+            "explicacao": "Latiu por quê? De medo: causa.",
+            "dica": "Pergunte: latiu por quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«A casa da minha tia fica na esquina.» Como se classificam os termos?",
+            "alternativas": [
+              "Os dois adverbiais",
+              "Os dois adnominais",
+              "Da minha tia adverbial; na esquina adnominal",
+              "Da minha tia adnominal; na esquina adverbial de lugar"
+            ],
+            "correta": 3,
+            "explicacao": "Da minha tia acompanha casa; na esquina diz onde fica.",
+            "dica": "Um termo está grudado num substantivo; o outro responde onde."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos adjuntos adverbiais há em «Ontem, o time jogou mal no estádio»?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "Ontem (tempo), mal (modo) e no estádio (lugar).",
+            "dica": "Pergunte ao verbo: quando, como e onde."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Compare: «copo de vidro» e «saiu de casa». Os termos com de são:",
+            "alternativas": [
+              "Adverbial / adnominal",
+              "Adnominal / adverbial de lugar",
+              "Os dois adnominais",
+              "Os dois adverbiais de modo"
+            ],
+            "correta": 1,
+            "explicacao": "De vidro caracteriza copo; de casa diz de onde ele saiu.",
+            "dica": "Um acompanha um substantivo; o outro, um verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que «Vi o homem com o binóculo» é ambígua?",
+            "alternativas": [
+              "Porque com o binóculo pode ser instrumento (eu usei) ou adjunto adnominal de homem (ele tinha)",
+              "Porque não tem verbo",
+              "Porque falta sujeito",
+              "Porque não é ambígua"
+            ],
+            "correta": 0,
+            "explicacao": "Dependendo da leitura, o termo se liga ao verbo ou ao substantivo.",
+            "dica": "Quem estava com o binóculo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase muito é adjunto adnominal?",
+            "alternativas": [
+              "Ela estuda muito.",
+              "Ele está muito cansado.",
+              "Havia muito barulho.",
+              "Corri muito rápido."
+            ],
+            "correta": 2,
+            "explicacao": "Em «muito barulho», muito acompanha o substantivo barulho.",
+            "dica": "Procure muito junto de um substantivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos adjuntos adnominais tem a palavra tarde em «uma bela tarde de sol»?",
+            "alternativas": [
+              "1",
+              "2",
+              "4",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Uma, bela e de sol acompanham tarde.",
+            "dica": "Inclua o artigo e a locução."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos adjuntos adverbiais há em «Talvez ele chegue amanhã cedo de ônibus»?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "Talvez (dúvida), amanhã (tempo), cedo (tempo) e de ônibus (meio).",
+            "dica": "Talvez também é adjunto adverbial: de dúvida."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A avó que abriu conta pelo celular",
+    "texto": "Dona Benedita passou a vida inteira pagando as contas na lotérica. Ia de ônibus, enfrentava fila e voltava com os comprovantes dobrados dentro da bolsa. Quando a lotérica do bairro fechou, ela ligou para a neta.\n\n— Júlia, me ensina essa tal de conta no celular?\n\nNo sábado, as duas sentaram na cozinha. Júlia baixou o aplicativo do banco direto da loja oficial do celular e mostrou como conferir o nome. A avó tirou foto do documento, fez uma selfie meio torta e riu da própria cara. Em vinte minutos, a conta estava aberta.\n\nO mais difícil foi a senha. Dona Benedita queria usar o ano de nascimento.\n\n— Vó, isso todo mundo descobre. Vamos usar uma coisa que só a senhora sabe.\n\nEscolheram juntas, e Júlia não quis nem ver. Depois ativaram a verificação em duas etapas e configuraram um limite baixo para o Pix à noite.\n\nAntes de ir embora, Júlia escreveu num papel três regras e colou na geladeira: banco nunca pede senha; desconfie de pressa e de prêmio; na dúvida, desligue e ligue para mim.\n\nDuas semanas depois, o telefone da avó tocou. Uma voz educada dizia ser do banco e pedia o código que tinha acabado de chegar por mensagem. Dona Benedita olhou para a geladeira, respirou fundo e desligou.\n\nÀ noite, contou para a neta, toda orgulhosa:\n\n— Hoje fui eu que dei o golpe no golpista."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique a diferença entre conta corrente e poupança como se estivesse falando com alguém da sua família. Dê um exemplo de quando usar cada uma e termine com um conselho de segurança, como a Júlia deu para a avó."
+  }
+}

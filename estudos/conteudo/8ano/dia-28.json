@@ -1,0 +1,1195 @@
+{
+  "dia": 28,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Circuitos elétricos: pilha, fio e lâmpada",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Um circuito elétrico é um caminho fechado por onde a corrente elétrica passa. O mais simples tem uma fonte (a pilha), condutores (os fios) e um aparelho que usa a energia (a lâmpada). Muitos têm também um interruptor.",
+          "A corrente só passa com o circuito fechado: os fios precisam ligar os dois polos da pilha aos dois contatos da lâmpada. Se o caminho é interrompido, o circuito fica aberto, e a lâmpada apaga. É isso que o interruptor faz: abre e fecha o circuito.",
+          "Materiais condutores deixam a corrente passar, como os metais (cobre, alumínio, ferro). Materiais isolantes não deixam, como plástico, borracha e madeira seca. Por isso o fio é de cobre por dentro e tem capa de plástico por fora.",
+          "Duas grandezas importantes: a tensão, medida em volts (V), que é o «empurrão» da fonte (uma pilha comum tem 1,5 V); e a corrente, medida em ampères (A), que é a quantidade de eletricidade passando.",
+          "Na ligação em série, os aparelhos ficam num caminho só: se uma lâmpada queima, todas apagam. Na ligação em paralelo, cada aparelho tem seu próprio caminho: um queima e os outros continuam. As casas usam ligação em paralelo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma lanterna usa duas pilhas de 1,5 V, uma atrás da outra (em série). Qual é a tensão total?",
+            "resolucao": "Em série, as tensões se somam: 1,5 + 1,5 = 3 V."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Potência, em watts (W), é quanto de energia o aparelho usa por segundo: P = U × I (tensão vezes corrente). Uma lâmpada de 12 W em 6 V puxa 12 ÷ 6 = 2 A. Um chuveiro de 5.500 W em 220 V puxa 5.500 ÷ 220 = 25 A.",
+        "Energia gasta = potência × tempo. Uma lâmpada de 10 W ligada por 5 horas gasta 50 Wh. A conta de luz cobra em quilowatt-hora (kWh, 1.000 Wh). Um chuveiro de 5,5 kW ligado 20 minutos por dia, durante 30 dias, gasta 5,5 × (1/3) × 30 = 55 kWh.",
+        "Curto-circuito é quando a corrente encontra um caminho quase sem resistência, como dois fios desencapados encostados: a corrente dispara, e o fio esquenta. O disjuntor desliga o circuito quando a corrente fica alta demais, evitando incêndio. E o pássaro pousado num só fio não leva choque porque não há diferença de tensão entre os seus pés: a corrente não passa por ele."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num circuito simples, qual é a fonte de energia?",
+            "alternativas": [
+              "A pilha",
+              "A lâmpada",
+              "O interruptor",
+              "A fita"
+            ],
+            "correta": 0,
+            "explicacao": "A pilha fornece a energia; a lâmpada a usa.",
+            "dica": "Quem dá o empurrão na corrente?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os fios de cobre são:",
+            "alternativas": [
+              "Isolantes",
+              "Condutores",
+              "Fontes de energia",
+              "Lâmpadas"
+            ],
+            "correta": 1,
+            "explicacao": "Metais como o cobre deixam a corrente passar.",
+            "dica": "Os metais deixam a corrente passar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece num circuito aberto?",
+            "alternativas": [
+              "A corrente passa",
+              "A lâmpada acende mais forte",
+              "A corrente não passa, e a lâmpada apaga",
+              "A pilha explode"
+            ],
+            "correta": 2,
+            "explicacao": "Sem caminho fechado, não há corrente.",
+            "dica": "Aberto quer dizer caminho interrompido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes materiais é isolante?",
+            "alternativas": [
+              "Cobre",
+              "Alumínio",
+              "Ferro",
+              "Borracha"
+            ],
+            "correta": 3,
+            "explicacao": "A borracha não deixa a corrente passar. Os outros são metais.",
+            "dica": "Procure o que não é metal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o interruptor?",
+            "alternativas": [
+              "Abrir e fechar o circuito",
+              "Gerar energia",
+              "Aquecer o fio",
+              "Guardar energia"
+            ],
+            "correta": 0,
+            "explicacao": "Ele liga e desliga, fechando ou abrindo o caminho.",
+            "dica": "É o botão de liga e desliga."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas pilhas de 1,5 V ligadas em série dão:",
+            "alternativas": [
+              "1,5 V",
+              "3 V",
+              "0,75 V",
+              "15 V"
+            ],
+            "correta": 1,
+            "explicacao": "Em série, as tensões se somam.",
+            "dica": "Some as duas tensões."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num circuito em série, uma lâmpada queima. O que acontece?",
+            "alternativas": [
+              "Todas apagam",
+              "As outras continuam acesas",
+              "As outras acendem mais forte",
+              "Nada muda"
+            ],
+            "correta": 0,
+            "explicacao": "O caminho é um só; se ele se interrompe, a corrente para em todas.",
+            "dica": "Em série, há um caminho só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que tipo de ligação as casas usam?",
+            "alternativas": [
+              "Em série",
+              "Sem fios",
+              "Em paralelo",
+              "Com pilha"
+            ],
+            "correta": 2,
+            "explicacao": "Em paralelo, desligar a TV não apaga a geladeira.",
+            "dica": "Desligar um aparelho apaga os outros da casa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a unidade de tensão elétrica?",
+            "alternativas": [
+              "Watt",
+              "Ampère",
+              "Metro",
+              "Volt"
+            ],
+            "correta": 3,
+            "explicacao": "Tensão se mede em volts (V), como na pilha de 1,5 V.",
+            "dica": "A pilha comum tem 1,5 dessa unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o fio tem capa de plástico?",
+            "alternativas": [
+              "Para enfeitar",
+              "Porque o plástico é isolante e protege contra choque",
+              "Para conduzir mais corrente",
+              "Para esquentar"
+            ],
+            "correta": 1,
+            "explicacao": "O plástico isola o cobre e evita que a corrente passe para a pessoa.",
+            "dica": "O plástico é condutor ou isolante?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lâmpada de 12 W funciona em 6 V. Qual é a corrente?",
+            "alternativas": [
+              "2 A",
+              "72 A",
+              "0,5 A",
+              "6 A"
+            ],
+            "correta": 0,
+            "explicacao": "P = U × I, então I = P ÷ U = 12 ÷ 6 = 2 A.",
+            "dica": "Divida a potência pela tensão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três lâmpadas estão em paralelo, e uma queima. O que acontece?",
+            "alternativas": [
+              "Todas apagam",
+              "As outras duas continuam acesas",
+              "A pilha descarrega na hora",
+              "Viram ligação em série"
+            ],
+            "correta": 1,
+            "explicacao": "Em paralelo, cada lâmpada tem seu próprio caminho.",
+            "dica": "Em paralelo, cada aparelho tem seu caminho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um curto-circuito?",
+            "alternativas": [
+              "Quando o fio é muito comprido",
+              "Quando a lâmpada está desligada",
+              "Quando a corrente encontra um caminho quase sem resistência e o fio esquenta muito",
+              "Quando o interruptor está aberto"
+            ],
+            "correta": 2,
+            "explicacao": "Fios desencapados encostados criam um atalho, e a corrente dispara.",
+            "dica": "Pense em dois fios desencapados se encostando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lâmpada de 10 W fica ligada 5 horas. Quanta energia gasta?",
+            "alternativas": [
+              "15 Wh",
+              "2 Wh",
+              "500 Wh",
+              "50 Wh"
+            ],
+            "correta": 3,
+            "explicacao": "Energia = potência × tempo = 10 × 5 = 50 Wh.",
+            "dica": "Multiplique a potência pelo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com uma pilha, dois fios e uma lâmpada, como fazer a lâmpada acender?",
+            "alternativas": [
+              "Ligar os dois polos da pilha aos dois contatos da lâmpada",
+              "Ligar só o polo positivo à lâmpada",
+              "Ligar os dois fios no mesmo polo",
+              "Ligar os fios entre si, sem a lâmpada"
+            ],
+            "correta": 0,
+            "explicacao": "A corrente precisa sair por um polo, passar pela lâmpada e voltar pelo outro.",
+            "dica": "O caminho precisa ser fechado, passando pela lâmpada."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um chuveiro de 5.500 W fica ligado 20 minutos por dia, durante 30 dias. Quanta energia gasta?",
+            "alternativas": [
+              "165 kWh",
+              "55 kWh",
+              "5,5 kWh",
+              "110 kWh"
+            ],
+            "correta": 1,
+            "explicacao": "5,5 kW × 1/3 h = 1,83 kWh por dia; × 30 = 55 kWh.",
+            "dica": "Passe para quilowatts e para horas antes de multiplicar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o kWh custa R$ 0,80, quanto custam 55 kWh?",
+            "alternativas": [
+              "R$ 4,40",
+              "R$ 68,75",
+              "R$ 44,00",
+              "R$ 440,00"
+            ],
+            "correta": 2,
+            "explicacao": "55 × 0,80 = 44.",
+            "dica": "Multiplique a energia pelo preço de cada kWh."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um chuveiro de 5.500 W em 220 V puxa qual corrente?",
+            "alternativas": [
+              "25 A",
+              "2,5 A",
+              "250 A",
+              "5 A"
+            ],
+            "correta": 0,
+            "explicacao": "I = P ÷ U = 5.500 ÷ 220 = 25 A.",
+            "dica": "Use P = U × I e isole a corrente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o pássaro pousado num só fio não leva choque?",
+            "alternativas": [
+              "Porque as penas são de metal",
+              "Porque o fio está sempre desligado",
+              "Porque ele voa rápido",
+              "Porque não há diferença de tensão entre seus pés, então a corrente não passa por ele"
+            ],
+            "correta": 3,
+            "explicacao": "A corrente precisa de diferença de tensão para atravessar um corpo.",
+            "dica": "O aprofundamento fala da tensão entre os pés."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o disjuntor desarma quando ligamos muitos aparelhos na mesma tomada?",
+            "alternativas": [
+              "Porque a corrente total fica alta demais e ele corta para evitar aquecimento e incêndio",
+              "Porque a energia acabou na cidade",
+              "Porque os aparelhos são novos",
+              "Porque a tomada é de plástico"
+            ],
+            "correta": 0,
+            "explicacao": "Cada aparelho soma corrente; acima do limite, o fio esquentaria perigosamente.",
+            "dica": "O que acontece com a corrente total quando somamos aparelhos?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Pix, débito e boleto: as formas de pagar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O Pix é uma transferência instantânea: o dinheiro chega em segundos, a qualquer hora, inclusive à noite e nos fins de semana. Para pessoas, em geral, não tem custo. Ele usa uma chave (CPF, celular, e-mail ou chave aleatória) ou um QR Code.",
+          "No cartão de débito, o dinheiro sai da sua conta na hora da compra. Se não houver saldo, a compra não passa. No cartão de crédito, é diferente: você paga depois, na fatura do mês.",
+          "O boleto é um documento de cobrança com um código de barras e uma data de vencimento. Pode ser pago no aplicativo do banco, na lotérica ou no caixa. Depois do vencimento, costuma ter multa e juros.",
+          "Antes de confirmar qualquer pagamento, confira o nome de quem vai receber. Num boleto, confira o beneficiário (quem recebe) e o banco. Golpistas fazem boletos e QR Codes falsos.",
+          "Muitas lojas dão desconto para pagamento à vista no Pix, porque recebem na hora e não pagam a taxa do cartão."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um boleto de R$ 200 foi pago com atraso e tem multa de 2%. Qual é a multa?",
+            "resolucao": "2% de 200 = 0,02 × 200 = R$ 4. O total vai para R$ 204, mais os juros dos dias de atraso."
+          },
+          {
+            "enunciado": "Joana tem R$ 120 na conta e compra R$ 90 no débito. Quanto sobra?",
+            "resolucao": "120 − 90 = R$ 30. No débito, o valor sai na hora."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Multa e juros se somam: um boleto de R$ 150 com multa de 2% e juros de 1% ao mês, pago um mês depois, custa 150 + 3 + 1,50 = R$ 154,50.",
+        "Se você cair num golpe com Pix, avise o banco o quanto antes: existe o Mecanismo Especial de Devolução (MED), que tenta recuperar o dinheiro em casos de golpe ou fraude. Se mandou Pix errado por engano, peça com educação a devolução a quem recebeu e procure o banco.",
+        "Os bancos colocam um limite menor para Pix à noite, para reduzir o prejuízo em caso de roubo de celular ou golpe. Você pode ajustar esse limite no aplicativo. E desconfie de QR Code colado por cima de outro numa barraca: se o nome que aparece não é o do vendedor, não pague."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o Pix?",
+            "alternativas": [
+              "Uma transferência instantânea que funciona 24 horas",
+              "Uma transferência que só funciona em dia útil",
+              "Uma transferência que demora 3 dias",
+              "Um tipo de cheque"
+            ],
+            "correta": 0,
+            "explicacao": "O Pix cai em segundos, a qualquer hora.",
+            "dica": "O dinheiro chega em segundos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No débito, o dinheiro:",
+            "alternativas": [
+              "Sai no mês que vem",
+              "Sai da conta na hora da compra",
+              "Nunca sai",
+              "Sai da conta de outra pessoa"
+            ],
+            "correta": 1,
+            "explicacao": "O débito tira o valor do saldo na hora.",
+            "dica": "Débito é diferente do crédito, que é pago depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Até quando deve ser pago um boleto?",
+            "alternativas": [
+              "Qualquer dia",
+              "Até o Natal",
+              "Até o vencimento",
+              "Até o fim do ano"
+            ],
+            "correta": 2,
+            "explicacao": "Depois do vencimento, costuma haver multa e juros.",
+            "dica": "O boleto tem uma data impressa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que pode ser uma chave Pix?",
+            "alternativas": [
+              "Só o nome",
+              "A senha do banco",
+              "O número do cartão",
+              "CPF, celular, e-mail ou chave aleatória"
+            ],
+            "correta": 3,
+            "explicacao": "A chave identifica a conta de quem recebe. Senha nunca é chave.",
+            "dica": "A lição cita quatro tipos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de confirmar um Pix, o que conferir?",
+            "alternativas": [
+              "O nome de quem vai receber",
+              "A cor do aplicativo",
+              "A hora",
+              "O clima"
+            ],
+            "correta": 0,
+            "explicacao": "Conferir o nome evita pagar para a pessoa errada ou para um golpista.",
+            "dica": "Para quem o dinheiro vai?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um boleto de R$ 200 atrasado tem multa de 2%. Qual é a multa?",
+            "alternativas": [
+              "R$ 2",
+              "R$ 4",
+              "R$ 20",
+              "R$ 40"
+            ],
+            "correta": 1,
+            "explicacao": "2% de 200 = 4.",
+            "dica": "1% de 200 é 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece numa compra no débito sem saldo?",
+            "alternativas": [
+              "A compra não passa",
+              "Vira um presente",
+              "O banco paga por você",
+              "O valor dobra"
+            ],
+            "correta": 0,
+            "explicacao": "Sem dinheiro na conta, o débito é recusado.",
+            "dica": "O débito usa o dinheiro que já está na conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre crédito e débito?",
+            "alternativas": [
+              "São iguais",
+              "O débito sempre tem juros",
+              "No crédito, paga depois, na fatura; no débito, sai na hora",
+              "O crédito tira da poupança"
+            ],
+            "correta": 2,
+            "explicacao": "O crédito é um pagamento futuro; o débito usa o saldo de agora.",
+            "dica": "Um paga agora; o outro, depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se proteger de boleto falso?",
+            "alternativas": [
+              "Olhar a cor do papel",
+              "Olhar o tamanho da letra",
+              "Não fazer nada",
+              "Conferir o beneficiário e o banco antes de pagar"
+            ],
+            "correta": 3,
+            "explicacao": "No boleto falso, o beneficiário é o golpista, não a empresa.",
+            "dica": "Quem vai receber o dinheiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao ler um QR Code do Pix:",
+            "alternativas": [
+              "É sempre seguro, sem conferir nada",
+              "Os dados são preenchidos, mas ainda é preciso conferir o nome",
+              "É um jogo",
+              "A conta é apagada"
+            ],
+            "correta": 1,
+            "explicacao": "O QR Code facilita, mas pode ser falso. Confira quem recebe.",
+            "dica": "O QR Code pode ter sido trocado por um golpista."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Boleto de R$ 150 com multa de 2% e juros de 1% ao mês, pago um mês depois. Qual é o total?",
+            "alternativas": [
+              "R$ 154,50",
+              "R$ 153,00",
+              "R$ 151,50",
+              "R$ 165,00"
+            ],
+            "correta": 0,
+            "explicacao": "Multa: 3. Juros: 1,50. Total: 150 + 3 + 1,50 = 154,50.",
+            "dica": "Calcule a multa e os juros separadamente e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você mandou um Pix para a chave errada, por engano. O que fazer?",
+            "alternativas": [
+              "Esquecer",
+              "Pedir com educação a devolução a quem recebeu e procurar o banco",
+              "Ameaçar a pessoa",
+              "Fazer outro Pix igual"
+            ],
+            "correta": 1,
+            "explicacao": "O primeiro passo é conversar e acionar o banco.",
+            "dica": "O aprofundamento fala do Pix errado por engano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o Mecanismo Especial de Devolução (MED)?",
+            "alternativas": [
+              "Devolver Pix por arrependimento de compra",
+              "Aumentar o limite do cartão",
+              "Tentar recuperar Pix feito por golpe ou fraude",
+              "Cancelar boletos"
+            ],
+            "correta": 2,
+            "explicacao": "Ele existe para casos de golpe e fraude, e funciona melhor se o banco for avisado rápido.",
+            "dica": "É usado em casos de golpe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um jeito prático de pagar a conta de luz no vencimento sem sair de casa?",
+            "alternativas": [
+              "Mandar dinheiro pelo correio",
+              "Deixar atrasar",
+              "Pagar com cheque",
+              "Pagar pelo aplicativo do banco, pelo código de barras ou pelo QR Code"
+            ],
+            "correta": 3,
+            "explicacao": "O aplicativo lê o código e paga na hora, sem fila.",
+            "dica": "Pense no celular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Saldo de R$ 120 e compra de R$ 90 no débito. Quanto sobra?",
+            "alternativas": [
+              "R$ 30",
+              "R$ 210",
+              "R$ 90",
+              "−R$ 30"
+            ],
+            "correta": 0,
+            "explicacao": "120 − 90 = 30.",
+            "dica": "O valor sai do saldo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que os bancos colocam um limite menor para Pix à noite?",
+            "alternativas": [
+              "Para economizar energia",
+              "Para reduzir o prejuízo em caso de roubo de celular ou golpe",
+              "Porque o Pix não funciona à noite",
+              "Porque é feriado"
+            ],
+            "correta": 1,
+            "explicacao": "Roubos e golpes são comuns à noite; um limite menor reduz a perda.",
+            "dica": "O Pix funciona 24 horas. Então o limite protege contra o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Boleto de R$ 300 com multa de 2% e juros simples de 1% ao mês, pago 2 meses depois. Qual é o total?",
+            "alternativas": [
+              "R$ 306",
+              "R$ 309",
+              "R$ 312",
+              "R$ 318"
+            ],
+            "correta": 2,
+            "explicacao": "Multa: 6. Juros: 1% × 2 meses = 2% de 300 = 6. Total: 312.",
+            "dica": "A multa é cobrada uma vez; os juros, por mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja dá 5% de desconto no Pix. O produto custa R$ 240. Quanto você paga?",
+            "alternativas": [
+              "R$ 228",
+              "R$ 235",
+              "R$ 252",
+              "R$ 12"
+            ],
+            "correta": 0,
+            "explicacao": "5% de 240 = 12; 240 − 12 = 228.",
+            "dica": "Calcule o desconto e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na barraca, você lê o QR Code e aparece o nome de outra pessoa, não o do vendedor. O que fazer?",
+            "alternativas": [
+              "Pagar mesmo assim",
+              "Pagar o dobro",
+              "Postar o QR Code",
+              "Não pagar e avisar o vendedor"
+            ],
+            "correta": 3,
+            "explicacao": "Pode ser um QR Code falso colado por cima do verdadeiro.",
+            "dica": "O aprofundamento descreve esse golpe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto custa R$ 500 em 5 vezes sem juros no crédito ou R$ 475 à vista no Pix. Quanto você economiza no Pix e qual é o desconto?",
+            "alternativas": [
+              "R$ 25, ou 2,5%",
+              "R$ 25, ou 5%",
+              "R$ 100, ou 20%",
+              "R$ 5, ou 1%"
+            ],
+            "correta": 1,
+            "explicacao": "500 − 475 = 25. 25 ÷ 500 = 0,05 = 5%.",
+            "dica": "Ache a diferença e divida pelo preço cheio."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Golpe do perfil falso e do «pedido de ajuda»",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "No golpe do perfil falso, o golpista usa a foto e o nome de alguém que você conhece, como um parente ou amigo. A mensagem clássica é: «Oi, mudei de número. Me ajuda com um Pix urgente?».",
+          "Os golpistas usam três armas: urgência («é agora!»), emoção («estou desesperado») e segredo («não conta pra ninguém»). Tudo para você agir sem pensar.",
+          "Outro sinal forte: pedir para pagar uma conta ou fazer Pix no nome de outra pessoa («é do meu fornecedor»).",
+          "Perfis falsos costumam ser novos, ter poucas fotos e poucos seguidores, e prometer coisas boas demais, como preços muito abaixo do normal.",
+          "Defesa: pare, desconfie e confirme por outro canal. Ligue para o número antigo da pessoa ou faça uma pergunta que só ela saberia responder. Se for golpe, denuncie o perfil e avise a família."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A mãe de Caio recebe: «Mãe, troquei de celular, paga esse boleto pra mim? Depois te devolvo.» O que ela deve fazer?",
+            "resolucao": "Não pagar e ligar para o número antigo do Caio. Se ele não atender, perguntar algo que só ele saberia. Número novo, pressa e boleto de outra pessoa são três sinais de golpe."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Esse tipo de golpe se chama engenharia social: em vez de invadir sistemas, o golpista engana as pessoas para que elas mesmas entreguem dinheiro ou dados. Pais e avós são alvos comuns, porque pedidos de filhos e netos mexem com a emoção.",
+        "Golpistas mandam milhares de mensagens porque basta uma pequena parte cair: se 2% de 200 pessoas pagarem R$ 500, são R$ 2.000. Hoje existem até vozes imitadas por inteligência artificial. Por isso, uma boa proteção é combinar com a família uma palavra-código para confirmar pedidos de dinheiro.",
+        "Para se proteger: deixe a foto de perfil e o status visíveis só para contatos, nunca passe códigos de verificação e ative a verificação em duas etapas. Se cair num golpe, avise o banco na hora, guarde as provas (prints) e registre um boletim de ocorrência, que pode ser feito pela internet."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Chega: «Oi, mudei de número, me manda um Pix urgente». O que fazer primeiro?",
+            "alternativas": [
+              "Ligar para o número antigo da pessoa",
+              "Mandar o Pix na hora",
+              "Mandar o dobro",
+              "Mandar a senha"
+            ],
+            "correta": 0,
+            "explicacao": "Confirmar por outro canal desmonta o golpe.",
+            "dica": "Confirme por outro caminho antes de pagar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que armas os golpistas usam?",
+            "alternativas": [
+              "Calma e paciência",
+              "Urgência e emoção, para você não pensar",
+              "Cartas pelo correio",
+              "Só telefone fixo"
+            ],
+            "correta": 1,
+            "explicacao": "Com pressa e nervoso, a pessoa não confere.",
+            "dica": "Eles querem que você aja sem pensar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como costuma ser um perfil falso?",
+            "alternativas": [
+              "Com anos de fotos e muitos amigos em comum",
+              "Verificado pelo banco",
+              "Novo, com poucas fotos e poucos seguidores",
+              "Nunca pede nada"
+            ],
+            "correta": 2,
+            "explicacao": "O golpista cria o perfil às pressas.",
+            "dica": "Um perfil criado ontem tem muitas fotos antigas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você achou um perfil falso de um amigo. O que fazer?",
+            "alternativas": [
+              "Seguir",
+              "Curtir as fotos",
+              "Mandar dinheiro",
+              "Denunciar o perfil e avisar o amigo"
+            ],
+            "correta": 3,
+            "explicacao": "Denunciar ajuda a derrubar o perfil, e o amigo pode alertar os outros.",
+            "dica": "Como ajudar o amigo e os outros contatos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedir para pagar uma conta no nome de outra pessoa é:",
+            "alternativas": [
+              "Sinal de golpe",
+              "Normal",
+              "Obrigatório",
+              "Promoção"
+            ],
+            "correta": 0,
+            "explicacao": "O dinheiro vai para a conta do golpista ou de um cúmplice.",
+            "dica": "Para quem vai o dinheiro de verdade?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é uma boa pergunta de verificação?",
+            "alternativas": [
+              "Perguntar o nome da pessoa",
+              "Uma pergunta que só a pessoa verdadeira saberia responder",
+              "Perguntar a cor do céu",
+              "Perguntar a senha do banco"
+            ],
+            "correta": 1,
+            "explicacao": "O nome está no perfil; um detalhe de família, não.",
+            "dica": "O golpista vê as fotos e o nome. O que ele não sabe?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No golpe, por que o golpista diz «não conta pra ninguém»?",
+            "alternativas": [
+              "Para evitar que alguém perceba o golpe",
+              "Por carinho",
+              "Por segurança da vítima",
+              "Porque é promoção"
+            ],
+            "correta": 0,
+            "explicacao": "Se a vítima conversar com alguém, o golpe é descoberto.",
+            "dica": "O que aconteceria se a vítima contasse para alguém?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja nas redes vende celular pela metade do preço e só aceita Pix para pessoa física. Isso é:",
+            "alternativas": [
+              "Uma oportunidade garantida",
+              "Motivo para comprar rápido",
+              "Sinal de golpe",
+              "Pedido para mandar os dados do cartão"
+            ],
+            "correta": 2,
+            "explicacao": "Preço bom demais e pagamento para pessoa física são sinais clássicos.",
+            "dica": "Preço bom demais costuma esconder o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazer depois de cair num golpe?",
+            "alternativas": [
+              "Ficar com vergonha e não contar",
+              "Apagar as conversas",
+              "Fazer outro Pix para tentar recuperar",
+              "Avisar o banco na hora, guardar provas e registrar boletim de ocorrência"
+            ],
+            "correta": 3,
+            "explicacao": "Agir rápido aumenta a chance de recuperar o dinheiro.",
+            "dica": "As provas são importantes. Não apague nada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém criou um perfil com sua foto e pede dinheiro aos seus contatos. O que fazer?",
+            "alternativas": [
+              "Ignorar",
+              "Denunciar à rede social, avisar seus contatos e registrar ocorrência",
+              "Pedir parte do dinheiro",
+              "Criar outro perfil falso"
+            ],
+            "correta": 1,
+            "explicacao": "Avisar os contatos evita que eles paguem.",
+            "dica": "Quem corre risco de perder dinheiro?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é engenharia social?",
+            "alternativas": [
+              "Enganar pessoas para que elas mesmas entreguem dados ou dinheiro",
+              "Consertar computadores",
+              "Construir prédios",
+              "Usar redes sociais para estudar"
+            ],
+            "correta": 0,
+            "explicacao": "O golpista não invade nada: convence a vítima.",
+            "dica": "O aprofundamento explica o nome."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene a defesa contra um pedido de dinheiro suspeito:",
+            "itens": [
+              "Desconfiar do pedido",
+              "Parar e não responder com pressa",
+              "Confirmar por outro canal, como uma ligação",
+              "Denunciar o perfil e avisar a família"
+            ],
+            "explicacao": "Primeiro desconfiar e frear a pressa; depois confirmar; por fim, proteger os outros.",
+            "dica": "Comece desconfiando e termine protegendo os outros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O «perfil da tia» pede R$ 800 para pagar um boleto do «fornecedor dela». Que sinais de golpe aparecem?",
+            "alternativas": [
+              "Nenhum",
+              "Só o valor alto",
+              "Número novo, pressa e pagamento para outra pessoa",
+              "Só o boleto"
+            ],
+            "correta": 2,
+            "explicacao": "Os três sinais clássicos aparecem juntos.",
+            "dica": "Lembre os sinais da lição: são vários."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que pais e avós são alvos comuns desse golpe?",
+            "alternativas": [
+              "Porque são sempre ricos",
+              "Porque não usam celular",
+              "Porque é proibido enganar jovens",
+              "Porque pedidos de filhos e netos mexem com a emoção"
+            ],
+            "correta": 3,
+            "explicacao": "A vontade de ajudar quem amam faz agir rápido.",
+            "dica": "Qual das armas do golpista entra aqui?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que configuração ajuda a evitar que copiem seu perfil?",
+            "alternativas": [
+              "Postar seu número em todo lugar",
+              "Deixar foto e status visíveis só para contatos",
+              "Aceitar todos os pedidos de amizade",
+              "Compartilhar o código de verificação"
+            ],
+            "correta": 1,
+            "explicacao": "Sem acesso à sua foto, fica mais difícil criar um perfil falso seu.",
+            "dica": "Quem pode ver sua foto?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«Mãe, troquei de celular. Paga esse boleto pra mim? É urgente. Não liga que tô em aula.» Qual é o sinal mais forte de golpe?",
+            "alternativas": [
+              "Chamar de mãe",
+              "Pedir que a mãe não ligue, impedindo a confirmação",
+              "Usar abreviações",
+              "Falar de aula"
+            ],
+            "correta": 1,
+            "explicacao": "Impedir a ligação bloqueia justamente a melhor defesa.",
+            "dica": "Qual frase tenta impedir a melhor defesa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma ligação com a voz do seu primo pede dinheiro. O que é mais seguro?",
+            "alternativas": [
+              "Transferir, porque a voz é igual",
+              "Mandar só metade",
+              "Desligar e ligar para o número que você já tem dele, ou usar a palavra-código",
+              "Passar seus dados"
+            ],
+            "correta": 2,
+            "explicacao": "Vozes podem ser imitadas por inteligência artificial.",
+            "dica": "O aprofundamento avisa que vozes podem ser imitadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve uma palavra-código na família?",
+            "alternativas": [
+              "Confirmar pedidos de dinheiro de verdade",
+              "Substituir todas as senhas",
+              "Ser postada nas redes",
+              "Desconfiar de todos os parentes"
+            ],
+            "correta": 0,
+            "explicacao": "Só a família sabe a palavra; o golpista não.",
+            "dica": "É algo que só a família sabe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que os golpistas mandam milhares de mensagens?",
+            "alternativas": [
+              "Porque mensagens são caras",
+              "Porque todos caem",
+              "Porque é proibido mandar poucas",
+              "Porque basta uma pequena parte cair: 2% de 200 pessoas pagando R$ 500 já dão R$ 2.000"
+            ],
+            "correta": 3,
+            "explicacao": "2% de 200 = 4 pessoas; 4 × 500 = 2.000.",
+            "dica": "Calcule 2% de 200 e multiplique por 500."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que atitude ajuda outras pessoas depois de identificar um perfil falso?",
+            "alternativas": [
+              "Denunciar o perfil na própria rede social",
+              "Compartilhar o perfil para todos seguirem",
+              "Responder com xingamentos",
+              "Curtir as fotos"
+            ],
+            "correta": 0,
+            "explicacao": "A denúncia pode derrubar o perfil antes de novas vítimas.",
+            "dica": "O que faz o perfil sair do ar?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Crônica: o olhar sobre o cotidiano",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A crônica é um texto curto que parte de um fato do dia a dia: a fila do pão, o ônibus lotado, a chuva que pegou todo mundo de surpresa. O cronista olha para essa cena comum e encontra nela algo especial.",
+          "O nome vem do grego chronos, que quer dizer tempo: a crônica registra momentos do seu tempo. Ela costuma ser publicada em jornais, revistas, sites e blogs.",
+          "A linguagem é leve, próxima de uma conversa. Muitas vezes o narrador fala em primeira pessoa (eu) e até conversa com o leitor: «Você já reparou...?».",
+          "A crônica pode ser divertida (humorística), delicada e poética (lírica) ou fazer pensar (reflexiva). É comum terminar com uma reflexão ou um toque de humor.",
+          "No Brasil, a crônica é muito querida. Rubem Braga, Fernando Sabino e Luis Fernando Verissimo estão entre os cronistas mais conhecidos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Compare: «Ônibus atrasa 20 minutos na zona leste» e «Vinte minutos de atraso, e o ponto virou sala de visitas.» Qual é notícia e qual é crônica?",
+            "resolucao": "A primeira é notícia: informa o fato de forma objetiva. A segunda é começo de crônica: mostra o olhar do autor, que vê no atraso uma cena humana."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Crônica não é notícia nem conto. A notícia informa de forma objetiva, com dados e fontes. O conto costuma inventar uma história com enredo e conflito. A crônica parte de um fato comum e vale pelo olhar pessoal do autor.",
+        "Recursos frequentes: humor, comparações e personificação (dar ações humanas a objetos: «o despertador, esse inimigo pontual, gritou às seis»). Também é comum o cronista conversar com o leitor, para criar intimidade.",
+        "Por que uma crônica escrita há décadas ainda emociona? Porque, embora fale de um momento do seu tempo, trata de sentimentos que continuam iguais: saudade, pressa, amizade, medo, alegria."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Do que a crônica costuma falar?",
+            "alternativas": [
+              "De fatos do cotidiano",
+              "Só de guerras antigas",
+              "De fórmulas de química",
+              "De regras de jogo"
+            ],
+            "correta": 0,
+            "explicacao": "A crônica parte de cenas do dia a dia.",
+            "dica": "Lembre os exemplos: fila do pão, ônibus, chuva."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como é a crônica?",
+            "alternativas": [
+              "Uma enciclopédia",
+              "Um texto curto, com linguagem leve",
+              "Um dicionário",
+              "Uma lista de compras"
+            ],
+            "correta": 1,
+            "explicacao": "É curta e escrita como uma conversa.",
+            "dica": "Ela é lida rapidinho, no jornal ou no celular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde as crônicas costumam ser publicadas?",
+            "alternativas": [
+              "Em bulas de remédio",
+              "Em contas de luz",
+              "Em jornais, revistas, sites e blogs",
+              "Em placas de trânsito"
+            ],
+            "correta": 2,
+            "explicacao": "A crônica nasceu nos jornais e hoje está também na internet.",
+            "dica": "Onde se leem textos sobre o dia a dia?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem escreve crônicas se chama:",
+            "alternativas": [
+              "Relojoeiro",
+              "Cronometrista",
+              "Jogador",
+              "Cronista"
+            ],
+            "correta": 3,
+            "explicacao": "Cronista é o autor de crônicas.",
+            "dica": "A palavra vem de crônica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A palavra crônica vem do grego chronos, que quer dizer:",
+            "alternativas": [
+              "Tempo",
+              "Cor",
+              "Comida",
+              "Música"
+            ],
+            "correta": 0,
+            "explicacao": "A crônica registra momentos do seu tempo.",
+            "dica": "Pense em cronômetro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre crônica e notícia?",
+            "alternativas": [
+              "São iguais",
+              "A crônica mostra o olhar pessoal do autor; a notícia informa de forma objetiva",
+              "A notícia é um poema",
+              "A crônica não tem autor"
+            ],
+            "correta": 1,
+            "explicacao": "A notícia busca o fato; a crônica, o sentido que o autor vê nele.",
+            "dica": "Qual delas tem opinião e sentimento do autor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que linguagem é típica da crônica?",
+            "alternativas": [
+              "Leve, próxima de uma conversa",
+              "Técnica e difícil",
+              "Só em inglês",
+              "Sempre em versos rimados"
+            ],
+            "correta": 0,
+            "explicacao": "O cronista escreve como quem conversa com o leitor.",
+            "dica": "Lembre como o cronista fala com o leitor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na crônica, o narrador muitas vezes fala:",
+            "alternativas": [
+              "Sem narrador nenhum",
+              "Sempre como um animal",
+              "Em primeira pessoa (eu)",
+              "Como um robô"
+            ],
+            "correta": 2,
+            "explicacao": "O eu do cronista dá o tom pessoal ao texto.",
+            "dica": "O cronista conta o que ele mesmo viu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como muitas crônicas terminam?",
+            "alternativas": [
+              "Com uma tabela",
+              "Com uma fórmula",
+              "Com um índice",
+              "Com uma reflexão ou um toque de humor"
+            ],
+            "correta": 3,
+            "explicacao": "O final costuma deixar o leitor pensando ou sorrindo.",
+            "dica": "O que o leitor leva da crônica no fim?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tema daria uma boa crônica?",
+            "alternativas": [
+              "A fila do pão numa manhã de chuva",
+              "A fórmula de Bhaskara",
+              "A lista de presença",
+              "O manual da geladeira"
+            ],
+            "correta": 0,
+            "explicacao": "Uma cena comum e humana é o ponto de partida da crônica.",
+            "dica": "Procure uma cena do cotidiano com pessoas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma crônica fala com delicadeza da saudade da avó, com imagens poéticas. Ela é:",
+            "alternativas": [
+              "Humorística",
+              "Lírica",
+              "Uma notícia",
+              "Uma receita"
+            ],
+            "correta": 1,
+            "explicacao": "Crônica lírica é a delicada, poética, cheia de sentimento.",
+            "dica": "Lírico lembra poesia e sentimento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um cronista brasileiro famoso?",
+            "alternativas": [
+              "Isaac Newton",
+              "Albert Einstein",
+              "Rubem Braga",
+              "Charles Darwin"
+            ],
+            "correta": 2,
+            "explicacao": "Rubem Braga é um dos maiores cronistas do Brasil. Os outros são cientistas.",
+            "dica": "A lição cita três nomes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre crônica e conto?",
+            "alternativas": [
+              "O conto costuma inventar uma história com enredo e conflito; a crônica parte de um fato comum e do olhar do autor",
+              "Não há diferença",
+              "O conto é sempre real",
+              "A crônica tem 300 páginas"
+            ],
+            "correta": 0,
+            "explicacao": "O conto vale pela trama; a crônica, pelo olhar sobre o cotidiano.",
+            "dica": "O aprofundamento compara os gêneros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem cara de crônica?",
+            "alternativas": [
+              "A prefeitura informou que a linha 875 terá novo horário.",
+              "Ingredientes: 2 ovos e 1 xícara de farinha.",
+              "Fica proibido estacionar neste local.",
+              "Toda manhã, o senhor do guarda-chuva amarelo cumprimenta o ponto inteiro, como quem abre um teatro."
+            ],
+            "correta": 3,
+            "explicacao": "Ela olha uma cena comum com um jeito especial, cheio de imagem.",
+            "dica": "Procure o olhar pessoal e criativo sobre uma cena comum."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que uma crônica escrita há décadas ainda pode emocionar?",
+            "alternativas": [
+              "Porque fala de sentimentos e situações humanas que continuam iguais",
+              "Porque tem dados atualizados",
+              "Porque é uma lei",
+              "Porque usa gírias de hoje"
+            ],
+            "correta": 0,
+            "explicacao": "Saudade, pressa e amizade não mudam com o tempo.",
+            "dica": "O que não muda com o passar dos anos?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual reescrita transforma a notícia «Ônibus atrasou 20 minutos na zona leste» em começo de crônica?",
+            "alternativas": [
+              "Ônibus atrasa 20 minutos na zona leste, informa a empresa.",
+              "Vinte minutos de atraso, e o ponto virou sala de visitas: dona Neide falou da neta, e o rapaz do fone tirou um lado para ouvir.",
+              "O atraso foi de 20 minutos.",
+              "Segundo dados, o atraso médio é de 12 minutos."
+            ],
+            "correta": 1,
+            "explicacao": "Ela transforma o fato numa cena humana, com o olhar do autor.",
+            "dica": "Qual delas mostra pessoas e um olhar especial?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o nome crônica combina com o gênero?",
+            "alternativas": [
+              "Porque é uma doença crônica",
+              "Porque é cronometrada",
+              "Porque vem de tempo: registra momentos do dia a dia",
+              "Porque fala só do futuro"
+            ],
+            "correta": 2,
+            "explicacao": "Chronos é tempo; a crônica registra o seu tempo.",
+            "dica": "Lembre a origem grega da palavra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«O despertador, esse inimigo pontual, gritou às seis.» Que recurso aparece?",
+            "alternativas": [
+              "Personificação: o despertador age como gente",
+              "Dado estatístico",
+              "Discurso indireto",
+              "Rima"
+            ],
+            "correta": 0,
+            "explicacao": "Despertador não grita nem é inimigo: ganhou características humanas.",
+            "dica": "Um objeto está fazendo algo de gente?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o cronista às vezes conversa com o leitor («Você já reparou...?»)?",
+            "alternativas": [
+              "Porque esqueceu as regras",
+              "Para fazer uma prova",
+              "Para dar uma ordem",
+              "Para criar intimidade e aproximar o texto de uma conversa"
+            ],
+            "correta": 3,
+            "explicacao": "Falar com o leitor deixa o texto mais próximo e acolhedor.",
+            "dica": "Como você se sente quando alguém fala direto com você?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma reportagem sobre o transporte e uma crônica sobre o ônibus das 6h40: o que só a crônica faz?",
+            "alternativas": [
+              "Mostra o olhar e o sentimento do autor sobre uma cena comum",
+              "Traz entrevistas e dados oficiais",
+              "Informa horários e tarifas",
+              "Ouve especialistas"
+            ],
+            "correta": 0,
+            "explicacao": "Dados, entrevistas e especialistas são da reportagem.",
+            "dica": "O que a reportagem não costuma ter?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O ônibus das 6h40",
+    "texto": "Tem gente que acha que o ônibus das 6h40 é só um ônibus. Eu acho que é uma família que se encontra todo dia, sem nunca ter combinado.\n\nPrimeiro sobe o seu Valdir, de marmita na mão, que cumprimenta o motorista pelo nome e pergunta do time como quem pergunta da saúde de um parente. Depois vem a moça de jaleco, que dorme antes do segundo ponto e acorda, por milagre, exatamente no ponto do hospital. Ninguém sabe como ela faz isso. Desconfio que o sono dela tem despertador próprio.\n\nNo ponto da padaria, entra a turma da escola: mochilas pesadas, cabelo ainda molhado, fones de ouvido tocando músicas diferentes. A gente finge que não conhece os adultos, mas repara em tudo. Repara, por exemplo, que a senhora do banco da frente guarda sempre o lugar do lado para o senhor de boné, que sobe dois pontos depois. Nunca vi os dois conversando. Só um sorriso, todo dia.\n\nNuma segunda-feira, o seu Valdir não apareceu. O ônibus ficou estranho, como uma música faltando uma nota. O motorista olhou o ponto duas vezes antes de seguir. Na terça, ele voltou com o braço enfaixado, e o ônibus inteiro, que nunca tinha falado com ele, perguntou o que tinha acontecido.\n\nFoi aí que eu entendi: ninguém ali sabe o nome de ninguém, mas todo mundo sente falta de todo mundo."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva uma crônica curta sobre um momento comum do seu dia que tenha algo de especial (o caminho para a escola, a fila da merenda, o jantar em casa). Use a primeira pessoa, descreva pelo menos uma pessoa ou cena com detalhes e termine com uma reflexão ou um toque de humor."
+  }
+}

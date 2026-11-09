@@ -39,12 +39,14 @@ export function materiasDoDia(diaConteudo) { return SEMANA[(diaConteudo - 1) % 5
 export const idRegistro = (ano, data) => `${ano}|${data}`;
 
 // 🎧 Ouvir: história/tema narrado nos dias 1, 3 e 5 de cada semana da trilha (episódios em sequência).
-export const EPISODIOS_OUVIR = 12;
+export const EPISODIOS_OUVIR = 36;   // padrão; o número real vem do indice.json (a tarefa de reforço pode acrescentar episódios)
+let totalEpisodios = EPISODIOS_OUVIR;
+export function definirEpisodios(n) { if (Number(n) > 0) totalEpisodios = Number(n); }
 export const temOuvir = dia => [0, 2, 4].includes((dia - 1) % 5);
 export function episodioDoDia(dia) {
   const idx = [0, 2, 4].indexOf((dia - 1) % 5);
   if (idx < 0) return null;
-  return ((Math.floor((dia - 1) / 5) * 3 + idx) % EPISODIOS_OUVIR) + 1;
+  return ((Math.floor((dia - 1) / 5) * 3 + idx) % totalEpisodios) + 1;
 }
 // ⚡ Prova surpresa a cada 3 dias da trilha, com perguntas dos últimos dias; vale 50% a mais.
 export const temProva = dia => dia >= 3 && dia % 3 === 0;

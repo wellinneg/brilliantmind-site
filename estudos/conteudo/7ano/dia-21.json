@@ -1,0 +1,805 @@
+{
+  "dia": 21,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Múltiplos, divisores e critérios de divisibilidade",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Os múltiplos de um número são os resultados da tabuada dele: os múltiplos de 6 são 0, 6, 12, 18, 24... e não acabam nunca. Já os divisores de um número são os que dividem ele certinho, sem sobrar resto: os divisores de 12 são 1, 2, 3, 4, 6 e 12.",
+          "As duas ideias andam juntas: se 24 é múltiplo de 6, então 6 é divisor de 24. Dizer \"24 é divisível por 6\" é a mesma coisa.",
+          "Para não precisar fazer a conta inteira, usamos os critérios de divisibilidade. Por 2: o número é par (termina em 0, 2, 4, 6 ou 8). Por 5: termina em 0 ou 5. Por 10: termina em 0.",
+          "Por 3: somamos os algarismos e vemos se a soma é divisível por 3. Por 9: a soma dos algarismos precisa ser divisível por 9. Por 4: os dois últimos algarismos formam um número divisível por 4. Por 6: o número precisa ser divisível por 2 e por 3 ao mesmo tempo.",
+          "Quando um número não é divisível, sobra resto. Na feira, isso aparece quando arrumamos coisas em caixas: o que sobra fora da caixa é o resto da divisão."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O número 432 é divisível por 2, por 3, por 6 e por 9?",
+            "resolucao": "Termina em 2, então é par: divisível por 2. Soma dos algarismos: 4 + 3 + 2 = 9. Como 9 é divisível por 3 e por 9, o número 432 é divisível por 3 e por 9. Sendo divisível por 2 e por 3, também é divisível por 6. Conferindo: 432 ÷ 6 = 72 e 432 ÷ 9 = 48."
+          },
+          {
+            "enunciado": "Dona Cida tem 75 ovos e quer arrumar tudo em caixas de 12. Vai sobrar ovo?",
+            "resolucao": "75 é ímpar, então não é divisível por 2; logo também não é divisível por 12, que é par. Fazendo a conta: 6 caixas usam 72 ovos e sobram 3 ovos fora da caixa."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um número primo tem exatamente dois divisores: o 1 e ele mesmo. Os primos até 30 são 2, 3, 5, 7, 11, 13, 17, 19, 23 e 29. O 1 não é primo (tem um divisor só) e o 2 é o único primo par.",
+        "Outros critérios: por 8, os três últimos algarismos formam um número divisível por 8 (em 5.112, 112 ÷ 8 = 14). Por 12, o número precisa ser divisível por 3 e por 4. Cuidado: ser divisível por 2 e por 4 não garante ser divisível por 8; o 12, por exemplo, não é.",
+        "O resto também ajuda a resolver problemas: se um número deixa resto 3 quando dividido por 12, então ele menos 3 é múltiplo de 12. Assim, 51 ovos em caixas de 12 dão 4 caixas e sobram 3, porque 48 é múltiplo de 12."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é múltiplo de 5?",
+            "alternativas": ["23", "40", "52", "34"],
+            "correta": 1,
+            "explicacao": "Os múltiplos de 5 terminam em 0 ou 5. O 40 termina em 0: 5 × 8 = 40.",
+            "dica": "Olhe só o último algarismo de cada número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um número é divisível por 2 quando:",
+            "alternativas": ["é par, ou seja, termina em 0, 2, 4, 6 ou 8", "termina em 5", "a soma dos algarismos dá 2", "tem dois algarismos"],
+            "correta": 0,
+            "explicacao": "Todo número par pode ser dividido por 2 sem sobrar nada. O número de algarismos não importa.",
+            "dica": "Pense em números como 10, 14 e 36: o que eles têm em comum?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são todos os divisores de 6?",
+            "alternativas": ["2 e 3", "6, 12 e 18", "1, 2, 3 e 6", "1 e 6"],
+            "correta": 2,
+            "explicacao": "6 ÷ 1, 6 ÷ 2, 6 ÷ 3 e 6 ÷ 6 dão conta exata. A opção 6, 12 e 18 mostra múltiplos, não divisores.",
+            "dica": "Não esqueça o 1 e o próprio número: eles sempre dividem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais números são múltiplos de 4?",
+            "alternativas": ["1, 2 e 4", "4, 6, 8 e 10", "2, 4, 6 e 8", "4, 8, 12 e 16"],
+            "correta": 3,
+            "explicacao": "Os múltiplos de 4 são a tabuada do 4: 4, 8, 12, 16, 20... A opção 1, 2 e 4 mostra os divisores de 4.",
+            "dica": "Recite a tabuada do 4 desde o começo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O número 27 é divisível por 3?",
+            "alternativas": ["Não, porque é ímpar", "Sim, porque 2 + 7 = 9, que é divisível por 3", "Não, porque termina em 7", "Sim, porque termina em 7"],
+            "correta": 1,
+            "explicacao": "Pelo critério do 3, somamos os algarismos: 2 + 7 = 9, e 9 ÷ 3 = 3. De fato, 27 ÷ 3 = 9. Ser ímpar não impede a divisão por 3.",
+            "dica": "O critério do 3 olha para a soma dos algarismos, não para o último."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é divisível por 3?",
+            "alternativas": ["124", "215", "231", "107"],
+            "correta": 2,
+            "explicacao": "2 + 3 + 1 = 6, que é divisível por 3; de fato, 231 ÷ 3 = 77. As outras somas dão 7, 8 e 8.",
+            "dica": "Some os algarismos de cada número e veja qual soma está na tabuada do 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é divisível por 9?",
+            "alternativas": ["3.456", "1.234", "5.552", "7.001"],
+            "correta": 0,
+            "explicacao": "3 + 4 + 5 + 6 = 18, e 18 é divisível por 9; de fato, 3.456 ÷ 9 = 384. As outras somas são 10, 17 e 8.",
+            "dica": "A soma dos algarismos precisa ser 9, 18, 27..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Cida tem 84 ovos para arrumar em caixas de 12. Quantas caixas ela enche e quantos ovos sobram?",
+            "alternativas": ["6 caixas e sobram 12 ovos", "8 caixas e não sobra nenhum", "7 caixas e sobram 2 ovos", "7 caixas e não sobra nenhum"],
+            "correta": 3,
+            "explicacao": "12 × 7 = 84, então 84 é múltiplo de 12: ficam 7 caixas cheias e nenhum ovo sobrando. Se sobrassem 12 ovos, daria para encher mais uma caixa.",
+            "dica": "Procure na tabuada do 12 um resultado igual ou próximo de 84."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é divisível por 4?",
+            "alternativas": ["1.318", "2.524", "3.110", "4.106"],
+            "correta": 1,
+            "explicacao": "Olhamos os dois últimos algarismos: 24 ÷ 4 = 6, então 2.524 é divisível por 4. Já 18, 10 e 06 não são divisíveis por 4.",
+            "dica": "Só os dois últimos algarismos importam para o critério do 4."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para saber se 252 é divisível por 6:",
+            "itens": ["Ver que 252 termina em 2, então é divisível por 2", "Somar os algarismos: 2 + 5 + 2 = 9", "Ver que 9 é divisível por 3, então 252 é divisível por 3", "Concluir: divisível por 2 e por 3, logo divisível por 6"],
+            "explicacao": "O critério do 6 junta dois critérios: o do 2 e o do 3. De fato, 252 ÷ 6 = 42.",
+            "dica": "O 6 depende de dois critérios mais simples; teste cada um e só depois conclua."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual algarismo pode ficar no lugar do ■ para que 4■2 seja divisível por 9?",
+            "alternativas": ["1", "3", "6", "9"],
+            "correta": 1,
+            "explicacao": "A soma é 4 + ■ + 2 = 6 + ■. Precisa dar 9 ou 18. Com ■ = 3, a soma é 9: 432 ÷ 9 = 48. Com 6 daria 12 e com 9 daria 15, que não servem.",
+            "dica": "Some 4 + 2 e pense quanto falta para chegar a um múltiplo de 9."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma turma de 30 alunos vai ser dividida em grupos do mesmo tamanho, sem sobrar ninguém. Cada grupo deve ter mais de 1 aluno e menos de 30. Quantos tamanhos de grupo são possíveis?",
+            "alternativas": ["4", "8", "6", "5"],
+            "correta": 2,
+            "explicacao": "Os divisores de 30 são 1, 2, 3, 5, 6, 10, 15 e 30. Tirando o 1 e o 30, sobram 2, 3, 5, 6, 10 e 15: são 6 tamanhos. Quem conta todos chega a 8.",
+            "dica": "Liste todos os divisores de 30 e depois tire os que a regra proíbe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é divisível por 2, por 3 e por 5 ao mesmo tempo?",
+            "alternativas": ["140", "250", "315", "120"],
+            "correta": 3,
+            "explicacao": "Para ser divisível por 2 e por 5, precisa terminar em 0. Entre 140, 250 e 120, só o 120 tem soma dos algarismos divisível por 3 (1 + 2 + 0 = 3). O 315 termina em 5, então não é par.",
+            "dica": "Divisível por 2 e por 5 ao mesmo tempo obriga a terminar em um algarismo só. Depois teste o 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ônibus sai do terminal às 6h e passa a cada 15 minutos. Em qual destes horários ele NÃO passa?",
+            "alternativas": ["8h10", "6h45", "7h30", "9h00"],
+            "correta": 0,
+            "explicacao": "Contando os minutos desde as 6h: 6h45 = 45, 7h30 = 90 e 9h00 = 180, todos múltiplos de 15. Já 8h10 = 130 minutos, que não é múltiplo de 15 (130 ÷ 15 dá 8 e sobra 10).",
+            "dica": "Transforme cada horário em minutos depois das 6h e veja se é múltiplo de 15."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafael diz: \"Todo número divisível por 6 é divisível por 3\". Bia diz: \"Todo número divisível por 3 é divisível por 6\". Quem está certo?",
+            "alternativas": ["Os dois", "Só Bia", "Só Rafael", "Nenhum dos dois"],
+            "correta": 2,
+            "explicacao": "Quem é divisível por 6 é divisível por 2 e por 3, então Rafael acertou. Mas o 9 é divisível por 3 e não por 6, então a frase de Bia é falsa.",
+            "dica": "Procure um número da tabuada do 3 que seja ímpar e teste a frase de cada um."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números primos existem entre 20 e 40?",
+            "alternativas": ["3", "4", "5", "6"],
+            "correta": 1,
+            "explicacao": "São 23, 29, 31 e 37. O 21 (3 × 7), o 27 (3 × 9), o 33 (3 × 11), o 35 (5 × 7) e o 39 (3 × 13) parecem primos, mas não são.",
+            "dica": "Teste só os ímpares que não terminam em 5 e verifique a divisão por 3 e por 7."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o menor número de três algarismos divisível por 12?",
+            "alternativas": ["100", "102", "108", "120"],
+            "correta": 2,
+            "explicacao": "Divisível por 12 é ser divisível por 3 e por 4. O 100 tem soma 1 (não vai por 3) e o 102 termina em 02 (não vai por 4). O 108 tem soma 9 e termina em 08: 108 ÷ 12 = 9.",
+            "dica": "Use os critérios do 3 e do 4 juntos, começando do 100 e subindo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Cida tem entre 50 e 70 ovos. Em caixas de 12, sobram 3 ovos. Em caixas de 10, sobra 1 ovo. Quantos ovos ela tem?",
+            "alternativas": ["51", "61", "63", "57"],
+            "correta": 0,
+            "explicacao": "Sobrar 3 nas caixas de 12 dá 51 ou 63 (48 + 3 e 60 + 3). Sobrar 1 nas caixas de 10 exige terminar em 1. Só o 51 cumpre as duas condições.",
+            "dica": "Liste quem deixa resto 3 na divisão por 12 nessa faixa e depois aplique a segunda pista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é FALSA?",
+            "alternativas": ["Todo número divisível por 12 é divisível por 4", "O número 1 não é primo", "O 2 é o único número primo par", "Todo número divisível por 2 e por 4 é divisível por 8"],
+            "correta": 3,
+            "explicacao": "O 12 é divisível por 2 e por 4, mas 12 ÷ 8 dá 1 e sobra 4. As outras três frases são verdadeiras.",
+            "dica": "Procure um contraexemplo pequeno para cada frase, testando números da tabuada do 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é divisível por 8?",
+            "alternativas": ["3.124", "5.112", "7.420", "2.204"],
+            "correta": 1,
+            "explicacao": "Pelo critério do 8, olhamos os três últimos algarismos: 112 ÷ 8 = 14. Já 124, 420 e 204 divididos por 8 deixam resto 4.",
+            "dica": "Separe os três últimos algarismos de cada número e divida por 8."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Cartão de crédito: fatura, pagamento mínimo e juros do rotativo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Cartão de crédito é dinheiro emprestado pelo banco: você compra hoje e paga depois. O banco define um limite, que é o máximo que você pode gastar no cartão.",
+          "Uma vez por mês chega a fatura: o resumo de todas as compras do período, com o valor total e a data de vencimento. Se você paga o valor total até o vencimento, não paga juros nenhum.",
+          "A fatura também mostra o pagamento mínimo, a menor parte que o banco aceita receber. Parece um alívio, mas o resto não some: vira uma dívida chamada rotativo.",
+          "Os juros do rotativo estão entre os mais altos do Brasil, muitas vezes passando de 10% ao mês. Por isso, pagar só o mínimo faz a dívida crescer rápido.",
+          "Se não der para pagar tudo, pare de usar o cartão, pague o máximo que conseguir e procure o banco para negociar um parcelamento com juros menores."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A fatura de Rosângela veio com R$ 800. Ela pagou só o mínimo, de R$ 120. Os juros do rotativo são de 12% ao mês. Quanto ela vai dever no mês seguinte, sem contar compras novas?",
+            "resolucao": "Ficaram 800 − 120 = R$ 680 no rotativo. Juros: 680 × 0,12 = R$ 81,60. A dívida passa para 680 + 81,60 = R$ 761,60, quase o valor da fatura inteira, mesmo depois de pagar R$ 120."
+          },
+          {
+            "enunciado": "Marcelo recebeu uma fatura de R$ 500 e pagou R$ 500 no dia do vencimento. Quanto ele paga de juros?",
+            "resolucao": "Nada. Pagando o total até o vencimento, o cartão não cobra juros. É assim que o cartão funciona a seu favor."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "No rotativo há juros sobre juros: os juros de cada mês são calculados sobre o saldo que já inclui os juros anteriores. A 10% ao mês, R$ 1.000 viram R$ 1.100 em um mês e R$ 1.210 em dois, e não R$ 1.200.",
+        "Pelas regras do Banco Central, o saldo só pode ficar no rotativo até a fatura seguinte; depois, o banco precisa oferecer um parcelamento, em geral com juros menores. Desde 2024 existe também um teto: os juros e encargos do rotativo e do parcelamento da fatura, somados, não podem passar do valor da dívida original. Uma dívida de R$ 1.000 pode chegar, no máximo, a R$ 2.000.",
+        "Compras parceladas ocupam o limite inteiro na hora da compra, e ele vai sendo liberado conforme as parcelas são pagas. Antes de aceitar um parcelamento de dívida, compare o CET (Custo Efetivo Total), que soma juros, tarifas e impostos, e o total que vai sair do bolso, não só o valor da parcela."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Se você paga o valor total da fatura até o vencimento, quanto paga de juros do rotativo?",
+            "alternativas": ["10% da fatura", "Só um pouquinho", "Nada", "Depende da loja"],
+            "correta": 2,
+            "explicacao": "Pagando tudo até o vencimento, não sobra dívida para o rotativo, então não há juros.",
+            "dica": "Os juros só aparecem quando sobra alguma parte da fatura sem pagar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a fatura do cartão?",
+            "alternativas": ["O resumo das compras do mês, com o valor a pagar e o vencimento", "O limite do cartão", "Uma multa do banco", "O dinheiro que o banco te dá de presente"],
+            "correta": 0,
+            "explicacao": "A fatura reúne todas as compras feitas no cartão naquele período e diz quanto e até quando pagar.",
+            "dica": "É o papel ou a tela que chega todo mês mostrando o que você comprou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o pagamento mínimo?",
+            "alternativas": ["O valor total da fatura", "Um desconto para quem paga em dia", "O preço da anuidade", "A menor parte que o banco aceita receber; o resto vira dívida com juros"],
+            "correta": 3,
+            "explicacao": "O mínimo evita que a conta fique atrasada, mas o resto vai para o rotativo, com juros altos.",
+            "dica": "Lembre do que acontece com a parte da fatura que não foi paga."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O limite do cartão de crédito é:",
+            "alternativas": ["o dinheiro que você tem guardado", "o valor máximo que você pode gastar no cartão", "a data de vencimento", "os juros do mês"],
+            "correta": 1,
+            "explicacao": "O limite é o teto de gastos que o banco libera. Não é dinheiro seu: é empréstimo.",
+            "dica": "É um teto definido pelo banco."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Usar o cartão de crédito é parecido com:",
+            "alternativas": ["ganhar dinheiro", "usar o próprio salário na hora", "pegar dinheiro emprestado e pagar depois", "receber um Pix"],
+            "correta": 2,
+            "explicacao": "O banco paga a loja por você, e você devolve o valor ao banco quando a fatura chega.",
+            "dica": "Quem paga a loja na hora da compra? E quem paga o banco depois?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A fatura de Joana veio com R$ 600 e ela pagou R$ 600 no vencimento. Quanto vai para o rotativo?",
+            "alternativas": ["R$ 600", "R$ 60", "R$ 0", "R$ 540"],
+            "correta": 2,
+            "explicacao": "Ela pagou tudo, então não sobrou nada para o rotativo.",
+            "dica": "Faça fatura menos o que foi pago."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma fatura de R$ 1.000 tem pagamento mínimo de 15%. Qual é o valor do mínimo?",
+            "alternativas": ["R$ 15", "R$ 150", "R$ 100", "R$ 850"],
+            "correta": 1,
+            "explicacao": "15% de 1.000 = 0,15 × 1.000 = R$ 150. Os R$ 850 são o que iria para o rotativo.",
+            "dica": "10% de 1.000 é 100; 5% é metade disso. Junte os dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A fatura de Paulo era R$ 400 e ele pagou R$ 100. Os juros são de 10% ao mês sobre o que ficou. Quanto ele deve no mês seguinte, sem compras novas?",
+            "alternativas": ["R$ 330", "R$ 310", "R$ 440", "R$ 300"],
+            "correta": 0,
+            "explicacao": "Ficaram R$ 300. Juros: 10% de 300 = R$ 30. Dívida: 300 + 30 = R$ 330. O R$ 440 aplica os juros na fatura toda.",
+            "dica": "Primeiro descubra quanto ficou sem pagar; os juros incidem só sobre isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia não consegue pagar a fatura inteira. Qual é a atitude mais inteligente?",
+            "alternativas": ["Pagar só o mínimo todo mês e continuar comprando", "Fazer outro cartão para pagar o primeiro", "Ignorar a fatura até sobrar dinheiro", "Parar de usar o cartão, pagar o máximo possível e negociar um parcelamento com juros menores"],
+            "correta": 3,
+            "explicacao": "Parar de aumentar a dívida e trocar juros altos por juros menores é o caminho. Outro cartão só cria uma segunda dívida.",
+            "dica": "Pense em qual opção faz a dívida parar de crescer."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que acontece quando alguém paga só o mínimo:",
+            "itens": ["Chega a fatura de R$ 500", "A pessoa paga só o mínimo", "O resto entra no rotativo", "Juros altos são somados ao saldo", "A próxima fatura vem maior"],
+            "explicacao": "O que não foi pago vira dívida no rotativo, recebe juros e aparece na fatura seguinte, que fica maior.",
+            "dica": "Comece pela chegada da conta e termine na fatura do mês seguinte."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A fatura de Sueli era R$ 900 e ela pagou R$ 300. Os juros do rotativo são de 12% ao mês. No mês seguinte ela ainda fez uma compra nova de R$ 100. De quanto vem a nova fatura?",
+            "alternativas": ["R$ 672", "R$ 772", "R$ 708", "R$ 1.008"],
+            "correta": 1,
+            "explicacao": "Ficaram R$ 600. Juros: 600 × 0,12 = R$ 72, então o saldo vai a R$ 672. Somando a compra nova: 672 + 100 = R$ 772.",
+            "dica": "São três passos: o que ficou, os juros sobre isso e a compra nova."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 1.000 no rotativo, a 10% ao mês, fica 2 meses sem nenhum pagamento. Quanto passa a ser a dívida?",
+            "alternativas": ["R$ 1.200", "R$ 1.100", "R$ 1.020", "R$ 1.210"],
+            "correta": 3,
+            "explicacao": "1º mês: 1.000 + 100 = 1.100. 2º mês: 1.100 + 110 = 1.210. Os juros do segundo mês são calculados sobre 1.100, não sobre 1.000.",
+            "dica": "No segundo mês, os juros são calculados sobre o novo saldo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lívia tem limite de R$ 1.000 e comprou um tênis de R$ 600 em 3 vezes sem juros. Logo depois da compra, quanto limite sobra?",
+            "alternativas": ["R$ 800", "R$ 400", "R$ 600", "R$ 1.000"],
+            "correta": 1,
+            "explicacao": "A compra parcelada ocupa o limite inteiro na hora: 1.000 − 600 = R$ 400. O limite volta aos poucos, conforme ela paga as parcelas. Quem tira só uma parcela de R$ 200 chega a R$ 800.",
+            "dica": "Na hora da compra, o banco reserva o valor total do tênis, não só a primeira parcela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sobre uma dívida de R$ 500 por um mês, qual a diferença entre pagar juros do rotativo a 12% ao mês e de um empréstimo a 4% ao mês?",
+            "alternativas": ["R$ 40", "R$ 60", "R$ 20", "R$ 8"],
+            "correta": 0,
+            "explicacao": "Rotativo: 500 × 0,12 = R$ 60. Empréstimo: 500 × 0,04 = R$ 20. Diferença: 60 − 20 = R$ 40.",
+            "dica": "Calcule os juros de cada opção e depois subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A fatura de Tiago vencia no dia 10, mas ele pagou o valor total no dia 15. O que acontece?",
+            "alternativas": ["Nada, porque ele pagou o total", "O banco cancela o cartão na hora", "Ele paga multa e juros pelos dias de atraso", "Os juros do mês anterior são devolvidos"],
+            "correta": 2,
+            "explicacao": "Pagar o total só livra dos juros quando é feito até o vencimento. Depois disso, há encargos de atraso.",
+            "dica": "A regra do juro zero tem duas condições: pagar tudo e pagar quando?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 2.000 no rotativo, a 10% ao mês, fica 2 meses sem pagamento. Qual é o novo saldo?",
+            "alternativas": ["R$ 2.400", "R$ 2.420", "R$ 2.200", "R$ 2.042"],
+            "correta": 1,
+            "explicacao": "1º mês: 2.000 + 200 = 2.200. 2º mês: 2.200 + 220 = 2.420. Quem soma 10% + 10% sobre 2.000 chega a 2.400, esquecendo os juros sobre juros.",
+            "dica": "Juros sobre juros: aplique os 10% duas vezes, sempre sobre o saldo mais novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela regra que vale desde 2024, uma dívida original de R$ 1.500 no rotativo e no parcelamento da fatura pode chegar, no máximo, a quanto?",
+            "alternativas": ["R$ 1.650", "R$ 2.250", "R$ 4.500", "R$ 3.000"],
+            "correta": 3,
+            "explicacao": "Os juros e encargos somados não podem passar do valor original: no máximo R$ 1.500 de juros. Total máximo: 1.500 + 1.500 = R$ 3.000.",
+            "dica": "O teto diz que os juros não podem ser maiores que a própria dívida original."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para quitar uma dívida de R$ 1.000, o banco oferece: A) 6 parcelas de R$ 190; B) 4 parcelas de R$ 280. Qual sai mais barata no total?",
+            "alternativas": ["B, pagando R$ 20 a menos no total", "A, porque a parcela é menor", "A, pagando R$ 20 a menos no total", "As duas custam igual"],
+            "correta": 0,
+            "explicacao": "A: 6 × 190 = R$ 1.140. B: 4 × 280 = R$ 1.120. A opção B custa R$ 20 a menos, mesmo com parcela maior. Parcela menor não quer dizer mais barato.",
+            "dica": "Multiplique o número de parcelas pelo valor de cada uma em cada proposta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A fatura de Caio era R$ 1.000 e ele pagou o mínimo de R$ 150. Com juros de 10% ao mês, no mês seguinte ele não comprou nada e pagou R$ 500. Quanto ainda ficou devendo, antes de novos juros?",
+            "alternativas": ["R$ 350", "R$ 485", "R$ 435", "R$ 500"],
+            "correta": 2,
+            "explicacao": "Ficaram R$ 850. Com juros: 850 + 85 = R$ 935. Depois de pagar R$ 500: 935 − 500 = R$ 435. Quem esquece os juros chega a R$ 350.",
+            "dica": "Calcule o que sobrou, aplique os juros e só então desconte o segundo pagamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é verdadeira?",
+            "alternativas": ["O saldo pode ficar no rotativo por quantos meses o cliente quiser", "Pagar só o mínimo todo mês é o jeito mais barato de usar o cartão", "Juros de 10% ao mês durante 2 meses dão exatamente 20% no total", "Duas propostas com a mesma taxa de juros podem ter custos totais diferentes por causa de tarifas"],
+            "correta": 3,
+            "explicacao": "O CET soma juros, tarifas e impostos, por isso a mesma taxa pode virar custos diferentes. O rotativo só vale até a fatura seguinte, o mínimo é o jeito mais caro e 10% por 2 meses dão 21%.",
+            "dica": "Lembre do CET e da regra do rotativo, e faça a conta dos juros sobre juros."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Operadores de comparação e lógicos: E, OU, NÃO",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma comparação sempre dá uma de duas respostas: VERDADEIRO ou FALSO. Os operadores de comparação são: = (igual), ≠ (diferente), > (maior), < (menor), >= (maior ou igual) e <= (menor ou igual). Em Python, igual se escreve == e diferente se escreve !=.",
+          "Muitas vezes precisamos juntar duas condições. O operador E só dá VERDADEIRO quando as duas condições são verdadeiras. Exemplo: SE idade >= 10 E tem_autorizacao ENTÃO pode entrar na piscina.",
+          "O operador OU dá VERDADEIRO quando pelo menos uma condição é verdadeira. Exemplo: SE estudante OU idade >= 60 ENTÃO paga meia-entrada. Basta uma das duas.",
+          "O operador NÃO inverte o resultado: NÃO VERDADEIRO é FALSO, e NÃO FALSO é VERDADEIRO. Exemplo: SE NÃO chovendo ENTÃO vou de bicicleta.",
+          "Em Python, esses operadores se escrevem and (E), or (OU) e not (NÃO)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "nota ← 7; frequencia ← 70. SE nota >= 5 E frequencia >= 75 ENTÃO ESCREVA \"Aprovado\" SENÃO ESCREVA \"Recuperação\". O que aparece?",
+            "resolucao": "nota >= 5 é VERDADEIRO, mas frequencia >= 75 é FALSO (70 é menor que 75). No E, basta uma ser falsa para tudo ser FALSO. Aparece \"Recuperação\"."
+          },
+          {
+            "enunciado": "idade ← 65; estudante ← FALSO. SE estudante OU idade >= 60 ENTÃO ESCREVA \"Meia-entrada\". Aparece a mensagem?",
+            "resolucao": "estudante é FALSO, mas idade >= 60 é VERDADEIRO. No OU, basta uma verdadeira: aparece \"Meia-entrada\"."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Assim como a multiplicação vem antes da soma, os operadores lógicos têm ordem: primeiro o NÃO, depois o E, por último o OU. Então VERDADEIRO OU FALSO E FALSO vira VERDADEIRO OU (FALSO E FALSO) = VERDADEIRO OU FALSO = VERDADEIRO. Na dúvida, use parênteses.",
+        "Uma tabela-verdade mostra todas as combinações. Com duas condições há 4 combinações: o E dá VERDADEIRO em só 1 delas e o OU dá VERDADEIRO em 3. Com três condições há 8 combinações (2 × 2 × 2).",
+        "Duas trocas úteis: NÃO (a E b) é o mesmo que (NÃO a) OU (NÃO b), e NÃO (a OU b) é o mesmo que (NÃO a) E (NÃO b). E para dizer \"x está entre 1 e 10\" usamos x >= 1 E x <= 10; para \"x está fora\", usamos x < 1 OU x > 10."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A comparação 8 > 5 dá:",
+            "alternativas": ["FALSO", "VERDADEIRO", "8", "5"],
+            "correta": 1,
+            "explicacao": "8 é maior que 5, então a comparação é VERDADEIRA. Toda comparação dá VERDADEIRO ou FALSO, nunca um número.",
+            "dica": "O símbolo > quer dizer maior que. Oito é maior que cinco?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A E B dá VERDADEIRO quando:",
+            "alternativas": ["só A é verdadeira", "nenhuma é verdadeira", "as duas são verdadeiras", "só B é verdadeira"],
+            "correta": 2,
+            "explicacao": "O E é exigente: precisa que as duas condições sejam verdadeiras ao mesmo tempo.",
+            "dica": "Pense em: só entra na piscina quem tem 10 anos E tem autorização."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "NÃO VERDADEIRO dá:",
+            "alternativas": ["FALSO", "VERDADEIRO", "talvez", "erro"],
+            "correta": 0,
+            "explicacao": "O NÃO inverte o resultado: o contrário de VERDADEIRO é FALSO.",
+            "dica": "O NÃO sempre troca o resultado pelo seu oposto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "VERDADEIRO OU FALSO dá:",
+            "alternativas": ["FALSO", "nenhum dos dois", "erro", "VERDADEIRO"],
+            "correta": 3,
+            "explicacao": "No OU, basta uma condição verdadeira para o resultado ser VERDADEIRO.",
+            "dica": "Lembre da meia-entrada: basta ser estudante ou ter 60 anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual operador quer dizer \"maior ou igual\"?",
+            "alternativas": ["<=", ">=", "≠", "="],
+            "correta": 1,
+            "explicacao": ">= dá VERDADEIRO quando o número é maior ou igual. O <= é menor ou igual.",
+            "dica": "Procure o símbolo de maior acompanhado do sinal de igual."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "idade ← 14. Quanto dá idade >= 12 E idade <= 17?",
+            "alternativas": ["FALSO", "VERDADEIRO", "14", "17"],
+            "correta": 1,
+            "explicacao": "14 >= 12 é VERDADEIRO e 14 <= 17 também. VERDADEIRO E VERDADEIRO = VERDADEIRO.",
+            "dica": "Teste cada comparação separada e depois junte com o E."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A regra é: estudante OU idade >= 60 paga meia. Seu Jorge tem 65 anos e não é estudante. Ele paga meia?",
+            "alternativas": ["Não, porque não é estudante", "Não, porque precisa das duas condições", "Sim, porque basta uma condição verdadeira no OU", "Sim, porque as duas condições são verdadeiras"],
+            "correta": 2,
+            "explicacao": "idade >= 60 é VERDADEIRO. No OU, isso já basta, mesmo com estudante FALSO.",
+            "dica": "Qual das duas condições é verdadeira para ele? O OU precisa de quantas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nota ← 6; freq ← 70. SE nota >= 5 E freq >= 75 ENTÃO ESCREVA \"Aprovado\" SENÃO ESCREVA \"Recuperação\". O que aparece?",
+            "alternativas": ["Recuperação", "Aprovado", "Aprovado e Recuperação", "Nada"],
+            "correta": 0,
+            "explicacao": "nota >= 5 é VERDADEIRO, mas freq >= 75 é FALSO. No E, uma falsa derruba tudo, então vai para o SENÃO.",
+            "dica": "No E, uma condição falsa já é suficiente para o resultado ser falso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, como se escreve \"diferente de\"?",
+            "alternativas": ["==", "=", "=!", "!="],
+            "correta": 3,
+            "explicacao": "Em Python, != é diferente e == é igual. Um = sozinho serve para guardar valor numa variável.",
+            "dica": "É o ponto de exclamação seguido do sinal de igual, nessa ordem."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular NÃO (5 > 3) OU (2 > 4):",
+            "itens": ["Calcular 5 > 3: VERDADEIRO", "Aplicar o NÃO: FALSO", "Calcular 2 > 4: FALSO", "Juntar FALSO OU FALSO: FALSO"],
+            "explicacao": "Primeiro a comparação dentro do parêntese, depois o NÃO, depois a outra comparação e, por último, o OU.",
+            "dica": "Resolva os parênteses, aplique o NÃO e deixe o OU para o fim."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x ← 25. Qual condição dá VERDADEIRO?",
+            "alternativas": ["x > 10 E x < 20", "x < 10 OU x > 30", "NÃO (x > 20)", "x >= 25 E x ≠ 30"],
+            "correta": 3,
+            "explicacao": "25 >= 25 é VERDADEIRO e 25 ≠ 30 também, então o E dá VERDADEIRO. As outras: 25 < 20 é falso; 25 < 10 e 25 > 30 são falsos; 25 > 20 é verdadeiro e o NÃO inverte.",
+            "dica": "Troque x por 25 em cada condição e teste parte por parte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num programa de passagem, a regra é: SE idade < 6 OU idade >= 60 ENTÃO grátis. Quem paga a passagem?",
+            "alternativas": ["Ana, de 5 anos", "Bruno, de 6 anos", "Dona Lurdes, de 60 anos", "Seu Tião, de 72 anos"],
+            "correta": 1,
+            "explicacao": "6 < 6 é FALSO e 6 >= 60 é FALSO: FALSO OU FALSO = FALSO, então Bruno paga. Dona Lurdes entra porque 60 >= 60 é VERDADEIRO.",
+            "dica": "Cuidado com os números da fronteira: compare < com >=."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá VERDADEIRO OU FALSO E FALSO?",
+            "alternativas": ["VERDADEIRO", "FALSO", "Depende da ordem de leitura", "Dá erro"],
+            "correta": 0,
+            "explicacao": "O E vem antes do OU: FALSO E FALSO = FALSO. Depois, VERDADEIRO OU FALSO = VERDADEIRO. Quem lê da esquerda para a direita chega a FALSO.",
+            "dica": "Assim como a multiplicação vem antes da soma, um operador lógico tem prioridade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um site aceita a senha SE tamanho >= 8 E tem_numero. A senha é \"bolo2026\". O que acontece?",
+            "alternativas": ["Recusada, porque falta número", "Recusada, porque é muito curta", "Aceita, porque as duas condições são verdadeiras", "Aceita, porque basta uma condição"],
+            "correta": 2,
+            "explicacao": "\"bolo2026\" tem 8 caracteres (8 >= 8) e tem números. VERDADEIRO E VERDADEIRO = VERDADEIRO. A última opção confunde E com OU.",
+            "dica": "Conte as letras e os algarismos um por um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual condição quer dizer \"x está fora do intervalo de 1 a 10\"?",
+            "alternativas": ["x < 1 E x > 10", "x >= 1 E x <= 10", "x < 1 OU x > 10", "x > 1 OU x < 10"],
+            "correta": 2,
+            "explicacao": "Estar fora é ser menor que 1 ou maior que 10. Com E, seria impossível: nenhum número é menor que 1 e maior que 10 ao mesmo tempo.",
+            "dica": "Um número pode estar abaixo de 1 e acima de 10 ao mesmo tempo?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "NÃO (a E b) é o mesmo que:",
+            "alternativas": ["(NÃO a) E (NÃO b)", "(NÃO a) OU (NÃO b)", "a OU b", "NÃO a E b"],
+            "correta": 1,
+            "explicacao": "Para (a E b) ser falso, basta que uma delas seja falsa. Por isso, NÃO (a E b) = (NÃO a) OU (NÃO b). O NÃO troca o E por OU.",
+            "dica": "Pense: quando a E b é falso? Precisa que as duas sejam falsas, ou basta uma?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a ← VERDADEIRO; b ← FALSO; c ← VERDADEIRO. Quanto dá (a OU b) E NÃO c?",
+            "alternativas": ["VERDADEIRO", "Impossível saber sem testar", "Depende de b", "FALSO"],
+            "correta": 3,
+            "explicacao": "a OU b = VERDADEIRO. NÃO c = FALSO. VERDADEIRO E FALSO = FALSO. Mesmo que b mudasse, o resultado continuaria FALSO por causa do NÃO c.",
+            "dica": "Resolva o parêntese, depois o NÃO, e por fim o E."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com três condições (a, b e c), em quantas das combinações possíveis a OU b OU c dá VERDADEIRO?",
+            "alternativas": ["1", "3", "7", "8"],
+            "correta": 2,
+            "explicacao": "São 2 × 2 × 2 = 8 combinações. O OU só dá FALSO quando as três são falsas, que é 1 combinação. Então 8 − 1 = 7.",
+            "dica": "Conte o total de combinações e descubra em quantas o OU dá FALSO."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A cantina dá desconto SE (aluno E idade < 15) OU professor. Quem ganha desconto: Carla (professora, 40 anos), Diego (aluno, 16 anos), Elis (aluna, 13 anos), Fábio (visitante, 10 anos)?",
+            "alternativas": ["Carla e Elis", "Só Elis", "Diego e Elis", "Carla, Diego e Elis"],
+            "correta": 0,
+            "explicacao": "Carla é professora: VERDADEIRO. Elis é aluna e tem menos de 15: VERDADEIRO. Diego é aluno, mas tem 16 anos. Fábio tem 10, mas não é aluno.",
+            "dica": "Teste o parêntese para cada pessoa e depois veja o OU com professor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual condição é equivalente a x > 5 OU x > 10?",
+            "alternativas": ["x > 10", "x > 5", "x > 5 E x > 10", "x > 15"],
+            "correta": 1,
+            "explicacao": "Todo número maior que 10 também é maior que 5. Então o OU dá VERDADEIRO exatamente quando x > 5. Teste com x = 7: x > 5 OU x > 10 dá VERDADEIRO, mas x > 10 sozinho dá FALSO.",
+            "dica": "Teste um número entre 5 e 10, como 7, em cada opção."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Substantivo: próprio, comum e coletivo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Substantivo é a palavra que dá nome às coisas: pessoas, animais, objetos, lugares, sentimentos. Mesa, cachorro, escola, Brasil e saudade são substantivos.",
+          "O substantivo comum nomeia qualquer ser de um grupo, de forma geral: menina, cidade, rio, time. O substantivo próprio nomeia um ser específico e começa com letra maiúscula: Luana, Campinas, Tietê, Brasil.",
+          "Meses e dias da semana, em português, são escritos com letra minúscula: julho, segunda-feira. Já nomes de pessoas, cidades, estados, países e rios levam maiúscula.",
+          "O substantivo coletivo, mesmo no singular, indica um conjunto: cardume (peixes), enxame (abelhas), alcateia (lobos), matilha (cães), rebanho (bois, ovelhas), bando (aves), multidão (pessoas), turma (alunos), constelação (estrelas), biblioteca (livros), frota (veículos), arquipélago (ilhas), elenco (atores).",
+          "Como o coletivo está no singular, o verbo também fica no singular: \"O cardume nadou para o fundo\", \"A turma terminou a prova\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique os substantivos: \"Na feira de Santo Amaro, uma multidão comprou banana.\"",
+            "resolucao": "feira: comum. Santo Amaro: próprio (nome de um lugar específico). multidão: coletivo (conjunto de pessoas). banana: comum."
+          },
+          {
+            "enunciado": "Corrija: \"O enxame de abelhas atacaram o vizinho.\"",
+            "resolucao": "O núcleo do sujeito é \"enxame\", um coletivo no singular. Fica: \"O enxame de abelhas atacou o vizinho.\""
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Substantivo concreto nomeia seres que existem por si, reais ou imaginários: casa, cachorro, fada, saci. Substantivo abstrato nomeia sentimentos, ações e qualidades, que dependem de alguém para existir: saudade, coragem, amizade, corrida, beleza. Cuidado: fada é concreto, mesmo sendo imaginária.",
+        "Substantivo primitivo é o que dá origem a outros (pedra, flor); o derivado vem de outro (pedreiro, floricultura). O simples tem uma palavra só (chuva); o composto junta duas ou mais (guarda-chuva, couve-flor).",
+        "Um mesmo substantivo pode receber várias classificações ao mesmo tempo: \"pedreiro\" é comum, concreto, derivado e simples. E alguns coletivos pedem a especificação para ficar claros: um cacho de uvas, uma penca de bananas, um bando de maritacas."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas palavras é um substantivo próprio?",
+            "alternativas": ["cidade", "rio", "Campinas", "escola"],
+            "correta": 2,
+            "explicacao": "Campinas é o nome de uma cidade específica e começa com maiúscula. Cidade, rio e escola são comuns.",
+            "dica": "Procure o nome de um lugar específico, escrito com maiúscula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o coletivo de abelhas?",
+            "alternativas": ["enxame", "cardume", "alcateia", "rebanho"],
+            "correta": 0,
+            "explicacao": "Enxame é o conjunto de abelhas. Cardume é de peixes, alcateia de lobos e rebanho de bois ou ovelhas.",
+            "dica": "É a palavra usada quando várias abelhas voam juntas perto da colmeia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Todo substantivo próprio começa com:",
+            "alternativas": ["letra minúscula", "letra maiúscula", "número", "acento"],
+            "correta": 1,
+            "explicacao": "Nomes específicos como Luana, Bahia e Tietê começam com letra grande, a maiúscula.",
+            "dica": "Pense em como você escreve o seu próprio nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas palavras é um substantivo comum?",
+            "alternativas": ["Joana", "Brasil", "Paraná", "mercado"],
+            "correta": 3,
+            "explicacao": "Mercado nomeia qualquer mercado, de forma geral. Joana, Brasil e Paraná são nomes específicos.",
+            "dica": "Procure a palavra que serve para qualquer ser do mesmo tipo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o coletivo de peixes?",
+            "alternativas": ["matilha", "bando", "cardume", "frota"],
+            "correta": 2,
+            "explicacao": "Cardume é o conjunto de peixes. Matilha é de cães, bando de aves e frota de veículos.",
+            "dica": "É a palavra usada para muitos peixes nadando juntos."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"A multidão encheu a praça da Sé\", qual palavra é um substantivo coletivo?",
+            "alternativas": ["praça", "Sé", "multidão", "encheu"],
+            "correta": 2,
+            "explicacao": "Multidão indica um conjunto de pessoas. Praça é comum, Sé é próprio e encheu é verbo.",
+            "dica": "Procure a palavra no singular que indica muitas pessoas juntas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"O rio Tietê corta São Paulo\", quais são os substantivos próprios?",
+            "alternativas": ["rio e Tietê", "Tietê e São Paulo", "rio e corta", "São Paulo e rio"],
+            "correta": 1,
+            "explicacao": "Tietê e São Paulo são nomes específicos. A palavra rio é comum, e corta é verbo.",
+            "dica": "Quais palavras estão com letra maiúscula sem ser o começo da frase?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o coletivo de lobos?",
+            "alternativas": ["matilha", "rebanho", "bando", "alcateia"],
+            "correta": 3,
+            "explicacao": "Alcateia é o conjunto de lobos. Matilha é o de cães, e muita gente confunde os dois.",
+            "dica": "Não é o mesmo coletivo usado para cães, que são parecidos com eles."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está de acordo com a norma-padrão?",
+            "alternativas": ["O cardume nadou para o fundo.", "O cardume nadaram para o fundo.", "Os cardume nadou para o fundo.", "O cardumes nadou para o fundo."],
+            "correta": 0,
+            "explicacao": "Cardume é coletivo, mas está no singular; por isso o verbo fica no singular: nadou.",
+            "dica": "O coletivo indica muitos, mas a palavra em si está no singular ou no plural?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está escrita corretamente?",
+            "alternativas": ["lucas viajou para Salvador em julho.", "Lucas viajou para salvador em julho.", "Lucas viajou para Salvador em julho.", "Lucas viajou para Salvador em Julho."],
+            "correta": 2,
+            "explicacao": "Nome de pessoa e de cidade levam maiúscula. Os meses, em português, são escritos com minúscula.",
+            "dica": "Verifique o nome da pessoa, o da cidade e o mês, um de cada vez."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sequência tem apenas substantivos coletivos?",
+            "alternativas": ["frota, navio, estrela", "frota, elenco, constelação", "turma, aluno, professor", "biblioteca, livro, cardume"],
+            "correta": 1,
+            "explicacao": "Frota (veículos), elenco (atores) e constelação (estrelas) são coletivos. Navio, estrela, aluno, professor e livro são unidades, não conjuntos.",
+            "dica": "Cada palavra da sequência precisa indicar um grupo, não um elemento só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Arquipélago é o coletivo de:",
+            "alternativas": ["árvores", "estrelas", "navios", "ilhas"],
+            "correta": 3,
+            "explicacao": "Arquipélago é um conjunto de ilhas, como o de Fernando de Noronha. Estrelas formam constelação e navios formam frota.",
+            "dica": "Pense em Fernando de Noronha, no meio do mar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase a palavra \"paraíso\" é um substantivo próprio?",
+            "alternativas": ["Esta praia é um paraíso.", "Moro no bairro Paraíso, em São Paulo.", "A comida estava um paraíso.", "Que paraíso de sossego!"],
+            "correta": 1,
+            "explicacao": "Ali, Paraíso é o nome de um bairro específico. Nas outras frases, a palavra é usada de forma geral, como comum.",
+            "dica": "Em qual frase a palavra é o nome de um lugar específico do mapa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete de acordo com a norma-padrão: \"A turma do 7º B ___ a prova cedo.\"",
+            "alternativas": ["terminou", "terminaram", "terminamos", "terminei"],
+            "correta": 0,
+            "explicacao": "O núcleo do sujeito é turma, coletivo no singular. Então o verbo fica na 3ª pessoa do singular.",
+            "dica": "Ache a palavra principal do sujeito e veja se ela está no singular ou no plural."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas palavras NÃO é um substantivo coletivo?",
+            "alternativas": ["povo", "plateia", "pessoa", "banda"],
+            "correta": 2,
+            "explicacao": "Pessoa é um ser só. Povo, plateia e banda indicam conjuntos de pessoas ou de músicos.",
+            "dica": "Procure a palavra que indica um único ser."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual grupo tem apenas substantivos abstratos?",
+            "alternativas": ["saudade, coragem, amizade", "saudade, mesa, amizade", "vento, coragem, fada", "alegria, caderno, medo"],
+            "correta": 0,
+            "explicacao": "Saudade, coragem e amizade dependem de alguém para existir. Mesa, vento, fada e caderno são concretos.",
+            "dica": "Abstrato é o que depende de alguém para existir; elimine os grupos com seres ou objetos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"O pedreiro levantou o muro\", o substantivo \"pedreiro\" é:",
+            "alternativas": ["próprio e primitivo", "comum, abstrato e derivado", "comum, concreto e derivado", "comum, concreto e primitivo"],
+            "correta": 2,
+            "explicacao": "Pedreiro serve para qualquer pedreiro (comum), é uma pessoa (concreto) e vem de pedra (derivado).",
+            "dica": "Pergunte: serve para qualquer um? Existe por si? Vem de outra palavra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas palavras é um substantivo composto?",
+            "alternativas": ["chuva", "chuvarada", "chuvisco", "guarda-chuva"],
+            "correta": 3,
+            "explicacao": "Guarda-chuva junta duas palavras (guarda + chuva). Chuvarada e chuvisco são derivados de chuva, mas são palavras simples.",
+            "dica": "Procure a palavra formada pela união de duas palavras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A palavra \"fada\" é um substantivo:",
+            "alternativas": ["abstrato, porque fadas não existem", "concreto, porque nomeia um ser com existência própria, mesmo imaginário", "próprio, porque é personagem de história", "coletivo, porque existem muitas fadas"],
+            "correta": 1,
+            "explicacao": "Concreto não quer dizer real: é o ser que existe por si, ainda que na imaginação. Abstrato é sentimento, ação ou qualidade.",
+            "dica": "Lembre do aprofundamento: o que define o abstrato não é ser real ou imaginário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa o coletivo de acordo com a norma-padrão?",
+            "alternativas": ["A plateia aplaudiram de pé.", "As plateia aplaudiu de pé.", "A plateia aplaudimos de pé.", "A plateia aplaudiu de pé."],
+            "correta": 3,
+            "explicacao": "Plateia é coletivo no singular, com artigo no singular, e o verbo concorda: aplaudiu.",
+            "dica": "Artigo, coletivo e verbo precisam combinar entre si."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "As caixas de ovos da Dona Cida",
+    "texto": "Toda sexta-feira, Dona Cida monta sua banca de ovos na feira da Vila Nova. Os ovos chegam do sítio do irmão em bandejas grandes, e ela passa tudo para caixas de 6 e de 12, que são as que os fregueses gostam de levar.\n\nNa semana passada, chegaram 150 ovos. Dona Cida começou a encher as caixas de dúzia: 12, 24, 36... Quando terminou a 12ª caixa, tinha usado 144 ovos. Sobraram 6.\n\n— Seis ovos soltos? Isso dá certinho uma caixa de meia dúzia! — comemorou.\n\nNesta semana vieram 151. Ela fez as mesmas 12 caixas de dúzia e mais uma de meia dúzia, mas ficou 1 ovo sozinho na bandeja.\n\nSeu neto Davi, que está no 7º ano, olhou e explicou:\n\n— Vó, 151 termina em 1. Não é par, então não divide certinho por 2. Se não divide por 2, também não divide por 6 nem por 12. Ia sobrar ovo de qualquer jeito.\n\nDona Cida riu e guardou o ovo solitário para o almoço.\n\nDesde então, antes de abrir a banca, ela pergunta ao neto se o número da semana divide por 6 e por 12. Davi soma os algarismos, olha o último número e responde de cabeça, como um pequeno detetive da feira."
+  },
+  "escrita": {
+    "proposta": "Conte, em 5 a 10 linhas, uma situação em que você precisou dividir coisas igualmente entre pessoas (balas, figurinhas, pedaços de pizza, tarefas...). Diga quantas coisas eram, entre quantas pessoas foram divididas, se sobrou alguma coisa e por quê. Use pelo menos uma vez as palavras múltiplo, divisor ou resto."
+  }
+}

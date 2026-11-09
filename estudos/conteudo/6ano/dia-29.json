@@ -1,0 +1,1496 @@
+{
+  "dia": 29,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Expressões numéricas: a ordem das operações",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Expressão numérica é uma conta com várias operações juntas, como 5 + 3 × 2. Para todo mundo chegar ao mesmo resultado, existe uma ordem certa.",
+          "A ordem é: 1º potências; 2º multiplicações e divisões, na ordem em que aparecem, da esquerda para a direita; 3º somas e subtrações, também da esquerda para a direita.",
+          "Em 5 + 3 × 2, primeiro fazemos 3 × 2 = 6 e depois 5 + 6 = 11. Quem soma primeiro chega a 16, que está errado.",
+          "Os parênteses ( ) mudam a ordem: o que está dentro deles é feito primeiro. (5 + 3) × 2 = 8 × 2 = 16.",
+          "Quando há parênteses ( ), colchetes [ ] e chaves { }, resolvemos de dentro para fora: primeiro os parênteses, depois os colchetes e, por último, as chaves."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Calcule 20 − 12 ÷ 4.",
+            "resolucao": "Divisão primeiro: 12 ÷ 4 = 3. Depois: 20 − 3 = 17."
+          },
+          {
+            "enunciado": "Calcule 2 × [10 − (3 + 1)].",
+            "resolucao": "Parênteses: 3 + 1 = 4. Colchetes: 10 − 4 = 6. Por fim: 2 × 6 = 12."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Multiplicação e divisão têm a mesma força; por isso seguimos a ordem em que aparecem. Em 12 ÷ 2 × 3, fazemos 12 ÷ 2 = 6 e depois 6 × 3 = 18. Fazer 2 × 3 primeiro daria 12 ÷ 6 = 2, que está errado. O mesmo vale para soma e subtração: 10 − 4 + 2 = 6 + 2 = 8, e não 10 − 6 = 4.",
+        "Potência vem antes de tudo (fora dos parênteses): 2 + 3² = 2 + 9 = 11. Mas (2 + 3)² = 5² = 25.",
+        "Expressões ajudam a resolver problemas do dia a dia numa conta só. Ana comprou 3 cadernos de R$ 8 e pagou com R$ 50. O troco é 50 − 3 × 8 = 50 − 24 = R$ 26."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa expressão sem parênteses, o que vem antes: soma ou multiplicação?",
+            "alternativas": [
+              "Multiplicação",
+              "Soma",
+              "Tanto faz",
+              "A que estiver no fim"
+            ],
+            "correta": 0,
+            "explicacao": "Multiplicação e divisão vêm antes de soma e subtração.",
+            "dica": "Lembre a ordem da lição: qual operação é a 2ª e qual é a 3ª?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 5 + 3 × 2?",
+            "alternativas": [
+              "16",
+              "11",
+              "13",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "3 × 2 = 6; 5 + 6 = 11.",
+            "dica": "Faça a multiplicação primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (5 + 3) × 2?",
+            "alternativas": [
+              "11",
+              "13",
+              "16",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "Parênteses primeiro: 8 × 2 = 16.",
+            "dica": "O que está nos parênteses vem antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sinal resolvemos PRIMEIRO numa expressão com ( ), [ ] e { }?",
+            "alternativas": [
+              "Chaves",
+              "Colchetes",
+              "Nenhum",
+              "Parênteses"
+            ],
+            "correta": 3,
+            "explicacao": "Resolvemos de dentro para fora: parênteses, colchetes e chaves.",
+            "dica": "Comece pelo mais de dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10 − 2 × 3?",
+            "alternativas": [
+              "4",
+              "24",
+              "7",
+              "11"
+            ],
+            "correta": 0,
+            "explicacao": "2 × 3 = 6; 10 − 6 = 4.",
+            "dica": "A multiplicação vem antes da subtração."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 20 − 12 ÷ 4?",
+            "alternativas": [
+              "2",
+              "17",
+              "8",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "12 ÷ 4 = 3; 20 − 3 = 17.",
+            "dica": "Divida primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2 + 3²?",
+            "alternativas": [
+              "25",
+              "10",
+              "11",
+              "8"
+            ],
+            "correta": 2,
+            "explicacao": "3² = 9; 2 + 9 = 11.",
+            "dica": "A potência vem antes da soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 18 ÷ (2 + 4)?",
+            "alternativas": [
+              "13",
+              "9",
+              "12",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Parênteses: 2 + 4 = 6; 18 ÷ 6 = 3.",
+            "dica": "Resolva o parêntese primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 4 × 5 − 6 ÷ 2?",
+            "alternativas": [
+              "17",
+              "7",
+              "13",
+              "20"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 5 = 20; 6 ÷ 2 = 3; 20 − 3 = 17.",
+            "dica": "Faça as duas operações fortes primeiro."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque na ordem certa os passos para resolver 3 × (4 + 2) − 5:",
+            "itens": [
+              "Resolver 4 + 2 = 6",
+              "Multiplicar 3 × 6 = 18",
+              "Subtrair 18 − 5 = 13",
+              "Conferir o resultado 13"
+            ],
+            "explicacao": "Parênteses, multiplicação, subtração e conferência.",
+            "dica": "Comece pelos parênteses."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 12 ÷ 2 × 3?",
+            "alternativas": [
+              "2",
+              "18",
+              "36",
+              "9"
+            ],
+            "correta": 1,
+            "explicacao": "Da esquerda para a direita: 12 ÷ 2 = 6; 6 × 3 = 18.",
+            "dica": "Divisão e multiplicação têm a mesma força: siga a ordem em que aparecem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10 − 4 + 2?",
+            "alternativas": [
+              "4",
+              "16",
+              "8",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "Da esquerda para a direita: 10 − 4 = 6; 6 + 2 = 8.",
+            "dica": "Soma e subtração também seguem a ordem em que aparecem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2 × [10 − (3 + 1)]?",
+            "alternativas": [
+              "24",
+              "14",
+              "16",
+              "12"
+            ],
+            "correta": 3,
+            "explicacao": "3 + 1 = 4; 10 − 4 = 6; 2 × 6 = 12.",
+            "dica": "De dentro para fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro comprou 4 cadernos de R$ 7 e pagou com R$ 50. Qual expressão dá o troco?",
+            "alternativas": [
+              "50 − 4 × 7",
+              "(50 − 4) × 7",
+              "50 × 4 − 7",
+              "50 − 4 + 7"
+            ],
+            "correta": 0,
+            "explicacao": "50 − 4 × 7 = 50 − 28 = R$ 22.",
+            "dica": "Primeiro o total gasto, depois tirar dos 50."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (2 + 3)²?",
+            "alternativas": [
+              "13",
+              "25",
+              "11",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "Parênteses: 5; 5² = 25. Sem parênteses, 2 + 3² daria 11.",
+            "dica": "Resolva o parêntese e depois a potência."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é {20 − [3 × (8 − 5)]} ÷ 11?",
+            "alternativas": [
+              "9",
+              "3",
+              "1",
+              "11"
+            ],
+            "correta": 2,
+            "explicacao": "8 − 5 = 3; 3 × 3 = 9; 20 − 9 = 11; 11 ÷ 11 = 1.",
+            "dica": "Parênteses, colchetes, chaves e, por fim, a divisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde colocar parênteses para que 6 + 4 × 3 − 1 dê 29?",
+            "alternativas": [
+              "6 + (4 × 3) − 1",
+              "6 + 4 × (3 − 1)",
+              "(6 + 4 × 3) − 1",
+              "(6 + 4) × 3 − 1"
+            ],
+            "correta": 3,
+            "explicacao": "(6 + 4) × 3 − 1 = 10 × 3 − 1 = 30 − 1 = 29. As outras dão 17, 14 e 17.",
+            "dica": "Teste cada opção com calma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2³ + 4 × 5 − 10 ÷ 2?",
+            "alternativas": [
+              "23",
+              "35",
+              "45",
+              "33"
+            ],
+            "correta": 0,
+            "explicacao": "2³ = 8; 4 × 5 = 20; 10 ÷ 2 = 5. Depois: 8 + 20 − 5 = 23.",
+            "dica": "Potência, depois multiplicações e divisões, depois somas e subtrações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mariana tinha R$ 100. Comprou 2 camisetas de R$ 25 e 3 meias de R$ 6. Quanto sobrou?",
+            "alternativas": [
+              "R$ 50",
+              "R$ 32",
+              "R$ 68",
+              "R$ 18"
+            ],
+            "correta": 1,
+            "explicacao": "100 − (2 × 25 + 3 × 6) = 100 − (50 + 18) = 100 − 68 = R$ 32.",
+            "dica": "Some todos os gastos antes de tirar dos 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia resolveu 40 ÷ 4 × 2 assim: 4 × 2 = 8; 40 ÷ 8 = 5. Qual é o resultado certo?",
+            "alternativas": [
+              "5",
+              "10",
+              "20",
+              "80"
+            ],
+            "correta": 2,
+            "explicacao": "Da esquerda para a direita: 40 ÷ 4 = 10; 10 × 2 = 20. Bia fez a multiplicação antes, sem motivo.",
+            "dica": "Divisão e multiplicação seguem a ordem em que aparecem."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Repetir até: o laço que sabe a hora de parar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Às vezes não sabemos quantas vezes algo vai se repetir. Sabemos só quando parar: “encha o balde até ficar cheio”, “estude até acertar todas”.",
+          "Para isso existe o laço com condição. Em Python, ele se chama while (enquanto): while copos < 3: repete enquanto a condição for verdadeira.",
+          "A cada volta, o programa testa a condição de novo. Quando ela fica falsa, o laço para e o programa segue para a próxima linha.",
+          "Muito importante: algo dentro do laço precisa mudar, senão a condição nunca fica falsa e o laço repete para sempre. Isso se chama laço infinito."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "copos = 0\nwhile copos < 3:\n    copos = copos + 1\nprint(copos)\nO que aparece?",
+            "resolucao": "Voltas: 0 < 3 (sim) → 1; 1 < 3 (sim) → 2; 2 < 3 (sim) → 3; 3 < 3 (não) → para. Aparece 3."
+          },
+          {
+            "enunciado": "x = 5\nwhile x > 0:\n    print(\"oi\")\nO que acontece?",
+            "resolucao": "Laço infinito: x nunca muda, continua 5, e 5 > 0 é sempre verdadeiro. Faltou algo como x = x - 1 dentro do laço."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Diferença entre for e while: o for é bom quando sabemos quantas vezes repetir (“faça 10 vezes”). O while é bom quando sabemos a condição de parada (“até a senha estar certa”).",
+        "Se a condição já começar falsa, o while não executa nenhuma vez. Exemplo: n = 10; while n < 5: … nunca entra no laço.",
+        "Um uso comum é pedir uma resposta até ela estar certa: while senha != \"1234\": peça a senha de novo. O laço só termina quando a pessoa digita a senha certa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, o laço que repete ENQUANTO a condição é verdadeira se chama:",
+            "alternativas": [
+              "while",
+              "print",
+              "if",
+              "else"
+            ],
+            "correta": 0,
+            "explicacao": "While quer dizer enquanto.",
+            "dica": "É a palavra em inglês para “enquanto”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando o laço while para?",
+            "alternativas": [
+              "Nunca",
+              "Quando a condição fica falsa",
+              "Depois de 10 voltas sempre",
+              "Quando o computador desliga"
+            ],
+            "correta": 1,
+            "explicacao": "Enquanto a condição for verdadeira, repete; quando fica falsa, para.",
+            "dica": "Releia o terceiro parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Laço infinito é aquele que:",
+            "alternativas": [
+              "para logo",
+              "não tem nenhuma linha",
+              "repete para sempre",
+              "só roda uma vez"
+            ],
+            "correta": 2,
+            "explicacao": "Se nada muda, a condição nunca fica falsa.",
+            "dica": "Infinito quer dizer sem fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Encha o balde até ficar cheio” é um exemplo de:",
+            "alternativas": [
+              "comparação de textos",
+              "contador fixo de 5 vezes",
+              "comando print",
+              "repetição com condição de parada"
+            ],
+            "correta": 3,
+            "explicacao": "Não sabemos quantas jarras serão; sabemos quando parar.",
+            "dica": "Você sabe quantas vezes vai repetir ou só quando parar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A cada volta, o while:",
+            "alternativas": [
+              "testa a condição de novo",
+              "apaga as variáveis",
+              "desliga o programa",
+              "pula para o fim sempre"
+            ],
+            "correta": 0,
+            "explicacao": "Ele testa a condição antes de cada nova volta.",
+            "dica": "O que o programa olha antes de repetir?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "n = 0\nwhile n < 4:\n    n = n + 1\nprint(n)\nO que aparece?",
+            "alternativas": [
+              "3",
+              "4",
+              "5",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "n vai 1, 2, 3, 4. Quando n = 4, 4 < 4 é falso e o laço para.",
+            "dica": "Siga volta por volta até a condição ficar falsa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que falta neste laço para ele não ser infinito? x = 3; while x > 0: print(x)",
+            "alternativas": [
+              "Um print a mais",
+              "Trocar while por if",
+              "Uma linha que diminua o x, como x = x - 1",
+              "Um número maior"
+            ],
+            "correta": 2,
+            "explicacao": "Sem mudar o x, a condição 3 > 0 é sempre verdadeira.",
+            "dica": "O que precisa mudar para a condição um dia ficar falsa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando é melhor usar while em vez de for?",
+            "alternativas": [
+              "Quando sabemos exatamente quantas vezes repetir",
+              "Nunca",
+              "Só para mostrar texto",
+              "Quando sabemos a condição de parada, mas não quantas vezes"
+            ],
+            "correta": 3,
+            "explicacao": "O for conta vezes; o while espera uma condição.",
+            "dica": "Lembre a diferença do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "n = 10\nwhile n < 5:\n    n = n + 1\nQuantas vezes o laço roda?",
+            "alternativas": [
+              "Nenhuma",
+              "Uma",
+              "Cinco",
+              "Infinitas"
+            ],
+            "correta": 0,
+            "explicacao": "10 < 5 já começa falso, então o laço nem começa.",
+            "dica": "Teste a condição antes da primeira volta."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que o while faz:",
+            "itens": [
+              "Testa a condição",
+              "Se for verdadeira, executa o bloco",
+              "Volta e testa a condição de novo",
+              "Quando ficar falsa, segue para a próxima linha"
+            ],
+            "explicacao": "Testa, executa, testa de novo e, quando der falso, sai.",
+            "dica": "O primeiro passo é sempre testar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 10\nwhile x > 0:\n    x = x - 3\nprint(x)\nO que aparece?",
+            "alternativas": [
+              "1",
+              "−2",
+              "0",
+              "−3"
+            ],
+            "correta": 1,
+            "explicacao": "10 → 7 → 4 → 1 → −2. Com −2, a condição x > 0 é falsa e o laço para.",
+            "dica": "Siga volta por volta, testando a condição a cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "tentativas = 0. O laço repete while senha != \"1234\", somando 1 em tentativas a cada volta. A pessoa digitou 1111, 2222 e 1234. Quantas tentativas foram contadas?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "Cada senha digitada conta como uma tentativa: 1111, 2222 e 1234. Na terceira, a senha está certa e o laço para.",
+            "dica": "Conte cada vez que a pessoa digitou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual laço é infinito?",
+            "alternativas": [
+              "n = 0; while n < 3: n = n + 1",
+              "n = 5; while n > 0: n = n - 1",
+              "n = 0; while n < 0: n = n + 1",
+              "n = 1; while n > 0: n = n + 1"
+            ],
+            "correta": 3,
+            "explicacao": "n começa em 1 e só aumenta; n > 0 é sempre verdadeiro.",
+            "dica": "Em qual deles a variável se afasta do ponto de parada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "soma = 0; n = 1. while soma < 10: soma = soma + n; n = n + 1. Quanto vale soma no fim?",
+            "alternativas": [
+              "10",
+              "6",
+              "15",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "soma: 1, 3, 6, 10. Com 10, a condição soma < 10 é falsa e o laço para.",
+            "dica": "Acompanhe soma e n juntos, volta por volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um robô anda um passo while distancia > 0, e a distância diminui 1 a cada passo. Se começa com distância 6, quantos passos ele dá?",
+            "alternativas": [
+              "5",
+              "6",
+              "7",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "6, 5, 4, 3, 2, 1: seis passos até a distância ficar 0.",
+            "dica": "Conte de 6 até chegar a 0."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 1\nwhile a < 50:\n    a = a * 2\nprint(a)\nO que aparece?",
+            "alternativas": [
+              "32",
+              "50",
+              "64",
+              "100"
+            ],
+            "correta": 2,
+            "explicacao": "1 → 2 → 4 → 8 → 16 → 32 → 64. Com 64, a < 50 é falso.",
+            "dica": "Dobre o valor a cada volta e teste a condição sempre."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 20\nvoltas = 0\nwhile x > 5:\n    x = x - 4\n    voltas = voltas + 1\nQuantas voltas?",
+            "alternativas": [
+              "5",
+              "3",
+              "2",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "20 → 16 → 12 → 8 → 4. Foram 4 voltas; com 4, x > 5 é falso.",
+            "dica": "Conte quantas vezes o x diminuiu antes de a condição falhar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a principal diferença entre o for e o while?",
+            "alternativas": [
+              "O for repete um número de vezes conhecido; o while repete até uma condição ficar falsa",
+              "O while nunca para",
+              "O for não repete nada",
+              "Os dois são iguais sempre"
+            ],
+            "correta": 0,
+            "explicacao": "Saber quantas vezes pede for; saber quando parar pede while.",
+            "dica": "Pense em “faça 10 vezes” e “até acertar”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "n = 1\nwhile n != 10:\n    n = n + 2\nO que acontece?",
+            "alternativas": [
+              "Para quando n chega a 10",
+              "Laço infinito, porque n pula de 9 para 11 e nunca é igual a 10",
+              "Roda só uma vez",
+              "Não roda nenhuma vez"
+            ],
+            "correta": 1,
+            "explicacao": "n vale 1, 3, 5, 7, 9, 11… nunca 10. A condição n != 10 nunca fica falsa. É uma pegadinha comum.",
+            "dica": "Liste os valores de n e veja se algum deles é 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o laço anterior (n começando em 1, somando 2) parar com segurança, qual condição é melhor?",
+            "alternativas": [
+              "while n != 10",
+              "while n == 10",
+              "while n < 10",
+              "while n > 0"
+            ],
+            "correta": 2,
+            "explicacao": "Com n < 10, o laço para quando n passar de 10, mesmo pulando o 10.",
+            "dica": "Use uma condição que pare mesmo se o 10 for pulado."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Alinhamento, espaçamento e recuo de parágrafo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Na guia Página Inicial, no grupo Parágrafo, ficam os botões que organizam o texto na página: alinhamento, espaçamento e recuo.",
+          "Alinhamento é a posição do texto em relação às margens: à esquerda (o mais comum), centralizado (bom para títulos), à direita (usado, por exemplo, para a data numa carta) e justificado (o texto fica reto dos dois lados, como em livros e jornais).",
+          "Espaçamento entre linhas é a distância entre uma linha e outra. Os mais usados são 1,0 (simples), 1,5 e 2,0 (duplo). Espaço maior deixa o texto mais fácil de ler e de corrigir.",
+          "Recuo é o quanto o parágrafo entra para dentro da margem. O recuo de primeira linha faz só a primeira linha começar mais para dentro, como fazemos no caderno ao começar um parágrafo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Num trabalho escolar, como deixar o título no meio da página e o texto reto dos dois lados?",
+            "resolucao": "Selecione o título e clique em Centralizar. Selecione o texto e clique em Justificar."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Além do espaço entre linhas, existe o espaço antes e depois do parágrafo. Ele separa um parágrafo do outro sem precisar apertar Enter duas vezes.",
+        "Muitos trabalhos escolares seguem um padrão: texto justificado, espaçamento 1,5 entre linhas e recuo de primeira linha de 1,25 cm. Pergunte ao professor qual padrão ele prefere.",
+        "A régua, no alto da página, mostra os recuos com marcadores que podem ser arrastados. Se a régua não aparecer, ative-a na guia Exibir."
+      ],
+      "desafio_pratico": "Abra o Word no celular ou no PC e escreva um pequeno texto com título e dois parágrafos sobre o que você quer ser quando crescer. Formate assim: título centralizado e em negrito; os dois parágrafos justificados; espaçamento entre linhas 1,5; recuo de primeira linha nos parágrafos (use a régua ou a opção Parágrafo); e, no fim, a data alinhada à direita. Salve com o nome “Meu futuro” e compare com o mesmo texto em espaçamento 1,0 para ver a diferença.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alinhamento é bom para títulos?",
+            "alternativas": [
+              "Centralizado",
+              "Justificado",
+              "À direita",
+              "Nenhum"
+            ],
+            "correta": 0,
+            "explicacao": "O título no meio da página chama atenção.",
+            "dica": "Pense num título no meio da folha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia ficam os botões de alinhamento?",
+            "alternativas": [
+              "Exibir",
+              "Página Inicial",
+              "Revisão",
+              "Inserir"
+            ],
+            "correta": 1,
+            "explicacao": "Ficam na guia Página Inicial, no grupo Parágrafo.",
+            "dica": "É a primeira guia, a que abre quando você inicia o Word."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O texto que fica reto dos dois lados, como em livros, está:",
+            "alternativas": [
+              "à esquerda",
+              "centralizado",
+              "justificado",
+              "à direita"
+            ],
+            "correta": 2,
+            "explicacao": "O justificado alinha o texto nas duas margens.",
+            "dica": "Pense nas páginas de um livro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Espaçamento 2,0 é chamado de:",
+            "alternativas": [
+              "simples",
+              "zero",
+              "triplo",
+              "duplo"
+            ],
+            "correta": 3,
+            "explicacao": "2,0 é o espaçamento duplo.",
+            "dica": "Dois quer dizer o dobro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O recuo de primeira linha faz:",
+            "alternativas": [
+              "a primeira linha começar mais para dentro",
+              "o texto sumir",
+              "o título aumentar",
+              "a página virar"
+            ],
+            "correta": 0,
+            "explicacao": "Como no caderno, ao começar o parágrafo.",
+            "dica": "Lembre como você começa um parágrafo no caderno."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa carta, a data costuma ficar:",
+            "alternativas": [
+              "centralizada",
+              "à direita",
+              "justificada",
+              "no meio do texto"
+            ],
+            "correta": 1,
+            "explicacao": "A data numa carta é alinhada à direita.",
+            "dica": "Releia na lição o exemplo dado para a data numa carta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual espaçamento deixa o texto mais fácil de ler e de corrigir?",
+            "alternativas": [
+              "0,5",
+              "1,0",
+              "1,5 ou 2,0",
+              "nenhum"
+            ],
+            "correta": 2,
+            "explicacao": "Espaço maior entre as linhas facilita a leitura e a correção.",
+            "dica": "Linhas mais afastadas ou mais coladas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Recuo é:",
+            "alternativas": [
+              "o tamanho da letra",
+              "a cor do texto",
+              "o tipo da fonte",
+              "o quanto o parágrafo entra para dentro da margem"
+            ],
+            "correta": 3,
+            "explicacao": "Recuo é o afastamento do texto em relação à margem.",
+            "dica": "Pense no espaço antes da primeira palavra do parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o alinhamento mais comum no dia a dia?",
+            "alternativas": [
+              "À esquerda",
+              "À direita",
+              "Centralizado",
+              "Diagonal"
+            ],
+            "correta": 0,
+            "explicacao": "A maioria dos textos começa colada à margem esquerda.",
+            "dica": "Em português, lemos da esquerda para a direita."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para justificar um parágrafo:",
+            "itens": [
+              "Selecionar o parágrafo",
+              "Ir à guia Página Inicial",
+              "Procurar o grupo Parágrafo",
+              "Clicar no botão Justificar"
+            ],
+            "explicacao": "Selecionar, ir à guia, achar o grupo e clicar.",
+            "dica": "Primeiro diga ao Word qual texto vai mudar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para separar parágrafos sem apertar Enter duas vezes, o que usar?",
+            "alternativas": [
+              "Recuo à direita",
+              "Espaçamento depois do parágrafo",
+              "Alinhamento à direita",
+              "Fonte maior"
+            ],
+            "correta": 1,
+            "explicacao": "O espaço antes ou depois do parágrafo cria a separação.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um padrão comum de trabalho escolar é:",
+            "alternativas": [
+              "texto centralizado e espaçamento 0,5",
+              "texto à direita e espaçamento 3,0",
+              "texto justificado, espaçamento 1,5 e recuo de primeira linha de 1,25 cm",
+              "texto em negrito, sem parágrafos"
+            ],
+            "correta": 2,
+            "explicacao": "É um padrão muito usado, mas vale perguntar ao professor.",
+            "dica": "Lembre o padrão citado no aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A régua não aparece no Word. Onde ativá-la?",
+            "alternativas": [
+              "Na guia Inserir",
+              "Na guia Arquivo",
+              "Na guia Revisão",
+              "Na guia Exibir"
+            ],
+            "correta": 3,
+            "explicacao": "A régua é ativada na guia Exibir.",
+            "dica": "Exibir tem a ver com mostrar coisas na tela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia quer um convite com tudo no meio da folha. Qual alinhamento?",
+            "alternativas": [
+              "Centralizado",
+              "Justificado",
+              "À esquerda",
+              "À direita"
+            ],
+            "correta": 0,
+            "explicacao": "Para um convite com tudo no meio, centralizado.",
+            "dica": "Tudo no meio da folha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é VERDADEIRA?",
+            "alternativas": [
+              "Espaçamento 1,0 é o duplo",
+              "O justificado deixa o texto reto nas duas margens",
+              "Recuo muda a cor da letra",
+              "Alinhamento fica na guia Revisão"
+            ],
+            "correta": 1,
+            "explicacao": "Justificado alinha nas duas margens. 1,0 é simples; recuo é o afastamento; alinhamento fica na Página Inicial.",
+            "dica": "Confira cada frase com a lição."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A professora pediu: título centralizado, texto justificado, espaçamento 1,5 e recuo de primeira linha. Ana fez tudo, mas apertou Enter duas vezes entre os parágrafos. O que ela poderia usar no lugar?",
+            "alternativas": [
+              "Recuo à esquerda de 5 cm",
+              "Alinhamento à direita",
+              "Espaçamento depois do parágrafo",
+              "Fonte maior"
+            ],
+            "correta": 2,
+            "explicacao": "O espaço depois do parágrafo separa os parágrafos de forma organizada.",
+            "dica": "Lembre o recurso que separa parágrafos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa carta formal, qual combinação de alinhamentos é a MAIS adequada?",
+            "alternativas": [
+              "Tudo centralizado",
+              "Tudo à direita",
+              "Tudo justificado, inclusive a data",
+              "Data à direita, texto justificado e assinatura no fim"
+            ],
+            "correta": 3,
+            "explicacao": "A data costuma ir à direita e o texto justificado fica organizado.",
+            "dica": "Pense no lugar de cada parte da carta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto com espaçamento 2,0 ocupa mais ou menos páginas que o mesmo texto com espaçamento 1,0?",
+            "alternativas": [
+              "Mais páginas, porque as linhas ficam mais afastadas",
+              "Menos páginas",
+              "O mesmo número",
+              "Não dá para saber"
+            ],
+            "correta": 0,
+            "explicacao": "Com o dobro de espaço entre linhas, o texto se espalha por mais páginas.",
+            "dica": "Linhas mais afastadas cabem mais ou menos numa página?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre recuo de primeira linha e recuo à esquerda?",
+            "alternativas": [
+              "Não há diferença",
+              "O de primeira linha afasta só a primeira linha; o à esquerda afasta o parágrafo inteiro",
+              "O à esquerda afasta só a primeira linha",
+              "O de primeira linha muda a cor"
+            ],
+            "correta": 1,
+            "explicacao": "Um mexe só na primeira linha; o outro, em todas as linhas do parágrafo.",
+            "dica": "Pense em quantas linhas cada recuo afeta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para escrever uma poesia no meio da página, com cada verso centralizado, e uma redação com parágrafos retos dos dois lados, usamos respectivamente:",
+            "alternativas": [
+              "justificado e centralizado",
+              "à direita e à esquerda",
+              "centralizado e justificado",
+              "à esquerda e à direita"
+            ],
+            "correta": 2,
+            "explicacao": "Poesia no meio: centralizado. Redação reta nos dois lados: justificado.",
+            "dica": "Siga a ordem pedida: primeiro a poesia, depois a redação."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Custo fixo e custo variável",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Todo negócio tem custos, que são os gastos para funcionar. Eles se dividem em dois tipos: fixos e variáveis.",
+          "Custo fixo é o que se paga todo mês, venda muito ou venda pouco: aluguel, internet, conta básica de luz, salário de um funcionário registrado.",
+          "Custo variável muda conforme a quantidade produzida: ingredientes, embalagens, etiquetas. Quanto mais se vende, mais se gasta com eles.",
+          "Entender essa diferença é importante porque o custo fixo pesa mesmo nos meses fracos. Por isso, antes de abrir um negócio, é preciso saber quanto vender para pagar pelo menos os custos fixos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Dona Zezé paga R$ 600 de aluguel da cozinha e gasta R$ 1 de ingredientes e embalagem por brigadeiro. Quais são os custos fixos e variáveis?",
+            "resolucao": "Fixo: o aluguel de R$ 600, que vem todo mês. Variável: R$ 1 por brigadeiro, que cresce com a produção."
+          },
+          {
+            "enunciado": "Se ela fizer 200 brigadeiros num mês, quanto gasta no total?",
+            "resolucao": "Fixo: R$ 600. Variável: 200 × R$ 1 = R$ 200. Total: 600 + 200 = R$ 800."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Ponto de equilíbrio é a quantidade que precisa ser vendida para não ter lucro nem prejuízo. Cada produto vendido deixa uma sobra (preço menos custo variável) que ajuda a pagar o custo fixo. Fórmula: custo fixo ÷ (preço − custo variável por unidade).",
+        "Exemplo: brigadeiro vendido a R$ 3, com custo variável de R$ 1. Sobram R$ 2 por unidade. Com custo fixo de R$ 600, o ponto de equilíbrio é 600 ÷ 2 = 300 brigadeiros. A partir do 301º, começa o lucro.",
+        "Contratar um ajudante registrado aumenta o custo fixo, mas também pode multiplicar a produção e as vendas. A conta certa é ver se o aumento de vendas paga o salário justo, os direitos garantidos pela CLT e ainda deixa lucro. Contratar sem registro parece mais barato, mas pode gerar multa e processo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Custo fixo é aquele que:",
+            "alternativas": [
+              "se paga todo mês, vendendo muito ou pouco",
+              "só aparece no Natal",
+              "muda a cada brigadeiro",
+              "nunca é pago"
+            ],
+            "correta": 0,
+            "explicacao": "O fixo vem todo mês, independentemente das vendas.",
+            "dica": "Pense no aluguel."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um custo variável?",
+            "alternativas": [
+              "Aluguel",
+              "Ingredientes",
+              "Internet",
+              "Salário fixo do ajudante registrado"
+            ],
+            "correta": 1,
+            "explicacao": "Ingredientes aumentam conforme a produção.",
+            "dica": "Qual gasto cresce quando se produz mais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O aluguel da loja é um custo:",
+            "alternativas": [
+              "variável",
+              "opcional",
+              "fixo",
+              "inexistente"
+            ],
+            "correta": 2,
+            "explicacao": "O aluguel é o mesmo todo mês.",
+            "dica": "Ele muda se vender mais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Embalagens de cada produto são custo:",
+            "alternativas": [
+              "fixo",
+              "proibido",
+              "de aluguel",
+              "variável"
+            ],
+            "correta": 3,
+            "explicacao": "Cada produto vendido precisa de uma embalagem.",
+            "dica": "Quanto mais produtos, mais embalagens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O custo fixo pesa mais nos meses em que se vende:",
+            "alternativas": [
+              "pouco",
+              "muito",
+              "nada muda",
+              "só aos domingos"
+            ],
+            "correta": 0,
+            "explicacao": "Com poucas vendas, o fixo é dividido por menos produtos.",
+            "dica": "Pense no aluguel num mês fraco."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um negócio paga R$ 400 de aluguel e R$ 2 de material por pulseira. Fazendo 100 pulseiras, qual é o custo total?",
+            "alternativas": [
+              "R$ 402",
+              "R$ 600",
+              "R$ 200",
+              "R$ 500"
+            ],
+            "correta": 1,
+            "explicacao": "Fixo: 400. Variável: 100 × 2 = 200. Total: R$ 600.",
+            "dica": "Some o fixo com o variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual gasto é FIXO para uma lanchonete?",
+            "alternativas": [
+              "Pão de cada lanche",
+              "Guardanapo de cada pedido",
+              "Aluguel do ponto",
+              "Refrigerante vendido"
+            ],
+            "correta": 2,
+            "explicacao": "O aluguel do ponto vem todo mês.",
+            "dica": "Qual gasto não depende de quantos lanches saem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a produção dobrar, o que acontece com o custo variável total?",
+            "alternativas": [
+              "Fica igual",
+              "Some",
+              "Diminui",
+              "Dobra"
+            ],
+            "correta": 3,
+            "explicacao": "O variável cresce junto com a produção.",
+            "dica": "Mais produção, mais ingredientes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é importante saber quanto vender antes de abrir um negócio?",
+            "alternativas": [
+              "Para conseguir pagar pelo menos os custos fixos",
+              "Para gastar mais",
+              "Para não pagar nada",
+              "Para fechar mais cedo"
+            ],
+            "correta": 0,
+            "explicacao": "Sem vendas suficientes, o fixo vira prejuízo.",
+            "dica": "O que precisa ser pago todo mês?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem para calcular o custo total do mês:",
+            "itens": [
+              "Listar os custos fixos",
+              "Calcular o custo variável por unidade",
+              "Multiplicar pelo número de unidades",
+              "Somar fixo e variável"
+            ],
+            "explicacao": "Fixos, variável por unidade, total variável e soma final.",
+            "dica": "A soma fica para o fim."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Brigadeiro: preço R$ 3, custo variável R$ 1, custo fixo R$ 600. Qual é o ponto de equilíbrio?",
+            "alternativas": [
+              "200 brigadeiros",
+              "300 brigadeiros",
+              "600 brigadeiros",
+              "150 brigadeiros"
+            ],
+            "correta": 1,
+            "explicacao": "Sobra por unidade: 3 − 1 = 2. 600 ÷ 2 = 300.",
+            "dica": "Use a fórmula do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Zezé vendeu 100 brigadeiros a R$ 3 (custo variável R$ 1, aluguel R$ 600). Qual foi o resultado do mês?",
+            "alternativas": [
+              "Lucro de R$ 200",
+              "Lucro de R$ 300",
+              "Prejuízo de R$ 400",
+              "Nem lucro nem prejuízo"
+            ],
+            "correta": 2,
+            "explicacao": "Receita: 300. Custos: 600 + 100 = 700. Resultado: 300 − 700 = −400.",
+            "dica": "Calcule a receita e todos os custos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ela vendeu 400 brigadeiros com os mesmos números. Qual foi o resultado?",
+            "alternativas": [
+              "Prejuízo de R$ 200",
+              "R$ 0",
+              "Lucro de R$ 400",
+              "Lucro de R$ 200"
+            ],
+            "correta": 3,
+            "explicacao": "Receita: 1.200. Custos: 600 + 400 = 1.000. Lucro: R$ 200.",
+            "dica": "Receita menos custo fixo menos custo variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o risco de contratar sem registro para “economizar”?",
+            "alternativas": [
+              "Multa, processo e perder bons funcionários",
+              "Nenhum risco",
+              "O negócio fica mais famoso",
+              "Os impostos somem"
+            ],
+            "correta": 0,
+            "explicacao": "Contratar fora da lei pode sair muito mais caro.",
+            "dica": "Lembre o fim do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Contratar um ajudante registrado muda principalmente qual custo?",
+            "alternativas": [
+              "Variável",
+              "Fixo",
+              "Nenhum",
+              "O preço do brigadeiro"
+            ],
+            "correta": 1,
+            "explicacao": "O salário é pago todo mês: aumenta o custo fixo.",
+            "dica": "O salário muda a cada brigadeiro?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Custo fixo R$ 900, preço R$ 5, custo variável R$ 2. Quantas unidades vender para ter R$ 300 de lucro?",
+            "alternativas": [
+              "300",
+              "350",
+              "400",
+              "450"
+            ],
+            "correta": 2,
+            "explicacao": "Cada unidade deixa 5 − 2 = 3. É preciso cobrir 900 + 300 = 1.200. 1.200 ÷ 3 = 400.",
+            "dica": "Some o fixo com o lucro desejado e divida pela sobra de cada unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Zezé quer contratar uma ajudante registrada. Com salário e encargos, o custo fixo sobe de R$ 600 para R$ 2.400. Com a ajudante, ela vende 1.500 brigadeiros por mês (preço R$ 3, custo variável R$ 1). Vale a pena?",
+            "alternativas": [
+              "Não, dá prejuízo de R$ 600",
+              "Não, fica no zero",
+              "Sim, lucro de R$ 3.000",
+              "Sim, lucro de R$ 600"
+            ],
+            "correta": 3,
+            "explicacao": "Sobra: 1.500 × 2 = 3.000. Menos o fixo: 3.000 − 2.400 = R$ 600 de lucro, pagando tudo dentro da lei.",
+            "dica": "Multiplique a sobra por unidade pelas vendas e tire o novo custo fixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem a ajudante, Zezé vende 400 brigadeiros. Com ela (cálculo anterior), vende 1.500. Em quanto o LUCRO mudou?",
+            "alternativas": [
+              "Aumentou R$ 400",
+              "Diminuiu R$ 200",
+              "Ficou igual",
+              "Aumentou R$ 1.200"
+            ],
+            "correta": 0,
+            "explicacao": "Sem ajudante: 400 × 2 − 600 = R$ 200. Com ajudante: R$ 600. Aumento: 600 − 200 = R$ 400.",
+            "dica": "Calcule o lucro nos dois casos e compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é VERDADEIRA?",
+            "alternativas": [
+              "Custo fixo some quando não há vendas",
+              "Cada unidade vendida acima do ponto de equilíbrio gera lucro",
+              "Custo variável é igual todo mês, sempre",
+              "Ponto de equilíbrio é quando o lucro é máximo"
+            ],
+            "correta": 1,
+            "explicacao": "Depois de cobrir o fixo, cada venda deixa lucro.",
+            "dica": "Lembre a explicação do brigadeiro 301."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para baixar o ponto de equilíbrio de forma honesta, o que ajuda?",
+            "alternativas": [
+              "Usar ingredientes estragados",
+              "Contratar sem registro",
+              "Negociar ingredientes mais baratos de boa qualidade ou reduzir um custo fixo desnecessário",
+              "Esconder o preço do cliente"
+            ],
+            "correta": 2,
+            "explicacao": "Menos custo variável ou fixo, sem enganar ninguém, diminui o ponto de equilíbrio.",
+            "dica": "Olhe para a fórmula: o que, mudando de forma honesta, diminui o resultado?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Grau do adjetivo: comparativo e superlativo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O adjetivo dá qualidade ao substantivo: casa bonita, menino alto. O grau mostra a intensidade dessa qualidade.",
+          "No comparativo, comparamos dois seres. Superioridade: “Lia é mais alta (do) que Rui.” Igualdade: “Lia é tão alta quanto Rui.” Inferioridade: “Lia é menos alta (do) que Rui.”",
+          "No superlativo, a qualidade aparece no grau máximo. Relativo: comparado a um grupo (“Lia é a mais alta da turma”). Absoluto: sem comparação (“Lia é muito alta” ou “Lia é altíssima”).",
+          "Atenção aos irregulares: bom → melhor, ótimo; mau → pior, péssimo; grande → maior, máximo; pequeno → menor, mínimo. Não se diz “mais bom” nem “mais grande” numa comparação: diz-se “melhor” e “maior”."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: “Este bolo é o mais gostoso da festa.”",
+            "resolucao": "Superlativo relativo de superioridade: compara o bolo com os outros da festa."
+          },
+          {
+            "enunciado": "Corrija: “O meu time é mais bom que o seu.”",
+            "resolucao": "O meu time é melhor que o seu. O comparativo de bom é melhor."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O superlativo absoluto pode ser analítico (com palavra: muito feliz, extremamente feliz) ou sintético (com terminação: felicíssimo). Alguns sintéticos têm forma especial: fácil → facílimo, difícil → dificílimo, amigo → amicíssimo, antigo → antiquíssimo, pobre → paupérrimo (ou pobríssimo).",
+        "O superlativo relativo também pode ser de inferioridade: “Este é o caminho menos perigoso de todos.”",
+        "Cuidado com repetição: “mais melhor” está errado, porque melhor já significa “mais bom”. Também evite “muito ótimo”: ótimo já é o grau máximo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "“Lia é mais alta que Rui” está no grau:",
+            "alternativas": [
+              "comparativo de superioridade",
+              "superlativo absoluto",
+              "comparativo de igualdade",
+              "normal"
+            ],
+            "correta": 0,
+            "explicacao": "Compara dois seres e um tem mais da qualidade.",
+            "dica": "Quantos seres estão sendo comparados? E quem tem mais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o comparativo de superioridade de bom?",
+            "alternativas": [
+              "mais bom",
+              "melhor",
+              "ótimo",
+              "bonzinho"
+            ],
+            "correta": 1,
+            "explicacao": "Bom → melhor.",
+            "dica": "É uma forma irregular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Altíssima” está no superlativo:",
+            "alternativas": [
+              "relativo",
+              "comparativo",
+              "absoluto sintético",
+              "de igualdade"
+            ],
+            "correta": 2,
+            "explicacao": "A terminação -íssima forma o superlativo absoluto sintético.",
+            "dica": "A qualidade foi aumentada com uma terminação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Lia é tão alta quanto Rui” é comparativo de:",
+            "alternativas": [
+              "superioridade",
+              "inferioridade",
+              "nenhum",
+              "igualdade"
+            ],
+            "correta": 3,
+            "explicacao": "Tão… quanto mostra igualdade.",
+            "dica": "Os dois têm a mesma altura?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o comparativo de grande?",
+            "alternativas": [
+              "maior",
+              "mais grande",
+              "grandão",
+              "máximo"
+            ],
+            "correta": 0,
+            "explicacao": "Grande → maior.",
+            "dica": "Não se diz “mais grande” numa comparação."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "“Ele é o aluno mais estudioso da escola.” Esse grau é:",
+            "alternativas": [
+              "comparativo de superioridade",
+              "superlativo relativo de superioridade",
+              "superlativo absoluto",
+              "normal"
+            ],
+            "correta": 1,
+            "explicacao": "Compara o aluno com o grupo (a escola).",
+            "dica": "Ele é comparado com uma pessoa ou com um grupo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o comparativo de mau?",
+            "alternativas": [
+              "mais mau",
+              "malzinho",
+              "pior",
+              "péssimo"
+            ],
+            "correta": 2,
+            "explicacao": "Mau → pior. Péssimo é o superlativo.",
+            "dica": "É uma forma irregular, usada para comparar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Corrija: “Minha nota foi mais boa que a sua.”",
+            "alternativas": [
+              "Minha nota foi mais ótima que a sua.",
+              "Minha nota foi boíssima que a sua.",
+              "Minha nota foi mais melhor que a sua.",
+              "Minha nota foi melhor que a sua."
+            ],
+            "correta": 3,
+            "explicacao": "O comparativo de boa é melhor.",
+            "dica": "Use a forma irregular do comparativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Este exercício é muito fácil.” O superlativo é:",
+            "alternativas": [
+              "absoluto analítico",
+              "absoluto sintético",
+              "relativo",
+              "comparativo"
+            ],
+            "correta": 0,
+            "explicacao": "Usa uma palavra (muito) para intensificar.",
+            "dica": "A intensidade veio de uma palavra a mais ou de uma terminação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o superlativo absoluto sintético de feliz?",
+            "alternativas": [
+              "felizão",
+              "mais feliz",
+              "felicíssimo",
+              "muito feliz"
+            ],
+            "correta": 2,
+            "explicacao": "Feliz → felicíssimo, com a terminação -íssimo. “Muito feliz” é o analítico e “mais feliz” é comparativo.",
+            "dica": "O sintético muda o final da palavra, sem usar outra palavra junto."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o superlativo absoluto sintético de difícil?",
+            "alternativas": [
+              "dificilíssimo",
+              "dificílimo",
+              "mais difícil",
+              "muito difícil"
+            ],
+            "correta": 1,
+            "explicacao": "Difícil → dificílimo.",
+            "dica": "É uma forma especial, parecida com fácil → facílimo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está ERRADA?",
+            "alternativas": [
+              "Ana é melhor que Bia no xadrez.",
+              "Este é o maior prédio da rua.",
+              "Hoje está mais melhor que ontem.",
+              "A prova foi péssima."
+            ],
+            "correta": 2,
+            "explicacao": "“Mais melhor” repete a ideia: melhor já é mais bom.",
+            "dica": "Procure a repetição desnecessária."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Este é o caminho menos perigoso de todos.” O grau é:",
+            "alternativas": [
+              "comparativo de inferioridade",
+              "superlativo absoluto",
+              "comparativo de igualdade",
+              "superlativo relativo de inferioridade"
+            ],
+            "correta": 3,
+            "explicacao": "Compara com o grupo (todos) e indica a menor intensidade.",
+            "dica": "Compara com um ou com todos? É mais ou menos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o superlativo absoluto sintético de amigo?",
+            "alternativas": [
+              "amicíssimo",
+              "amigão",
+              "amigabilíssimo",
+              "mais amigo"
+            ],
+            "correta": 0,
+            "explicacao": "Amigo → amicíssimo (a forma culta).",
+            "dica": "Lembre a lista do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "“Rafa é menos rápido que Leo.” Isso quer dizer que:",
+            "alternativas": [
+              "Rafa é mais rápido",
+              "Leo é mais rápido",
+              "os dois são iguais",
+              "nenhum corre"
+            ],
+            "correta": 1,
+            "explicacao": "Se Rafa é menos rápido, Leo é mais rápido.",
+            "dica": "Inverta a comparação para entender."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Classifique, em ordem: “tão forte quanto” / “fortíssimo” / “o mais forte do time”.",
+            "alternativas": [
+              "superlativo relativo, comparativo de igualdade, superlativo absoluto",
+              "comparativo de superioridade, superlativo relativo, superlativo absoluto",
+              "comparativo de igualdade, superlativo absoluto sintético, superlativo relativo",
+              "superlativo absoluto, comparativo, superlativo relativo"
+            ],
+            "correta": 2,
+            "explicacao": "Tão… quanto = igualdade; fortíssimo = absoluto sintético; o mais forte do time = relativo.",
+            "dica": "Classifique uma de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa o grau de forma CORRETA?",
+            "alternativas": [
+              "A festa foi muito ótima.",
+              "Este é o mais melhor bolo.",
+              "Ele é mais grande que eu.",
+              "O seu desenho é maior que o meu."
+            ],
+            "correta": 3,
+            "explicacao": "Maior é o comparativo correto de grande. Muito ótimo e mais melhor repetem a ideia; mais grande está errado.",
+            "dica": "Procure a frase sem repetição e com a forma irregular certa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o superlativo absoluto sintético de pobre e de antigo?",
+            "alternativas": [
+              "paupérrimo e antiquíssimo",
+              "pobríssimo e antigão",
+              "mais pobre e mais antigo",
+              "pobrezinho e antiguinho"
+            ],
+            "correta": 0,
+            "explicacao": "Pobre → paupérrimo (ou pobríssimo); antigo → antiquíssimo.",
+            "dica": "Lembre as formas especiais do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Leia: “Caio é mais alto que Ana. Ana é mais alta que Duda.” Qual frase é VERDADEIRA?",
+            "alternativas": [
+              "Duda é a mais alta das três.",
+              "Caio é o mais alto dos três.",
+              "Ana é tão alta quanto Caio.",
+              "Duda é mais alta que Caio."
+            ],
+            "correta": 1,
+            "explicacao": "Caio > Ana > Duda. Então Caio é o mais alto (superlativo relativo).",
+            "dica": "Coloque os três em ordem de altura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que “muito ótimo” é considerado inadequado?",
+            "alternativas": [
+              "Porque ótimo é comparativo",
+              "Porque muito só serve para números",
+              "Porque ótimo já é o grau máximo de bom",
+              "Porque ótimo é substantivo"
+            ],
+            "correta": 2,
+            "explicacao": "Ótimo já é superlativo; muito não acrescenta nada.",
+            "dica": "O que ótimo já significa?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A brigadeiraria da Dona Zezé",
+    "texto": "A Dona Zezé fazia os melhores brigadeiros da Vila Nova. Os vizinhos encomendavam para todos os aniversários, e ela resolveu virar empresária.\n\nAlugou uma cozinha pequena por R$ 600 por mês, pintou uma placa, \"Brigadeiraria da Zezé\", e começou a vender cada brigadeiro por R$ 3.\n\nNo primeiro mês, vendeu só cem. Fez as contas na mesa da cozinha e levou um susto: tinha recebido R$ 300, mas o aluguel sozinho era o dobro disso.\n\n— Como pode? Se eu vendo pouco, o aluguel continua igual!\n\nO neto, Kauê, que estava no 6º ano, explicou:\n\n— Vó, o aluguel é custo fixo. Ele vem todo mês, vendendo ou não. Já o chocolate e as forminhas são custo variável: só gasta quando faz.\n\nOs dois descobriram que ela precisava vender trezentos brigadeiros só para empatar. No mês seguinte, a Dona Zezé foi oferecer brigadeiros nas escolas e nas festas da igreja. Vendeu quinhentos."
+  },
+  "escrita": {
+    "proposta": "Invente um pequeno negócio (por exemplo, de doces, de conserto ou de artesanato). Em 6 a 8 linhas, separe os custos fixos dos custos variáveis do seu negócio, dê um valor para cada um e explique qual deles pesa mais num mês de poucas vendas."
+  }
+}

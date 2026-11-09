@@ -1,0 +1,1106 @@
+{
+  "dia": 29,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Números racionais: comparar e ordenar frações e decimais",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Número racional é todo número que pode ser escrito como fração: 1/2, 3/4, 0,25, −1,5 e até os inteiros, como 3 = 3/1. Frações e decimais são duas formas de escrever a mesma ideia: 1/2 = 0,5 e 3/4 = 0,75.",
+          "Para comparar decimais, iguale o número de casas depois da vírgula. Entre 0,8 e 0,75, escreva 0,80 e 0,75: como 80 é maior que 75, 0,8 é maior. Não se engane com a quantidade de algarismos: 0,125 é menor que 0,5, porque 0,5 = 0,500.",
+          "Para comparar frações com o mesmo denominador, basta olhar o numerador: 5/8 é maior que 3/8. Com denominadores diferentes, deixe as frações com o mesmo denominador ou transforme em decimal dividindo o numerador pelo denominador.",
+          "Na reta numérica, quem está mais à direita é maior. Por isso, entre negativos, o maior é o que está mais perto do zero: −2 é maior que −5, e −0,25 é maior que −0,75.",
+          "Para ordenar uma lista misturada, passe tudo para decimal e compare casa por casa. Ordem crescente vai do menor para o maior; ordem decrescente, do maior para o menor."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Qual é maior: 2/3 ou 3/5?",
+            "resolucao": "Com denominador 15: 2/3 = 10/15 e 3/5 = 9/15. Como 10 > 9, 2/3 é maior. Em decimal: 2/3 ≈ 0,67 e 3/5 = 0,6."
+          },
+          {
+            "enunciado": "Coloque em ordem crescente: 0,65; 1/2; 3/4; 0,3.",
+            "resolucao": "Em decimal: 0,65; 0,5; 0,75; 0,3. Do menor para o maior: 0,3 < 1/2 < 0,65 < 3/4."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Frações com o mesmo numerador também se comparam rápido: quanto maior o denominador, menor a fração, porque o inteiro foi dividido em mais pedaços. Assim, 7/8 > 7/9 > 7/10 > 7/12.",
+        "Outro truque é ver quanto falta para 1. Em 5/6 falta 1/6 e em 7/8 falta 1/8. Como 1/8 é menor que 1/6, falta menos para 7/8 chegar ao inteiro, então 7/8 é maior.",
+        "Entre dois racionais sempre cabe outro: entre 0,1 e 0,2 estão 0,15, 0,11, 0,101, 0,1001 e assim por diante, sem fim. Por isso existem infinitos racionais entre dois números diferentes. Para achar uma fração entre 3/7 e 4/7, escreva 6/14 e 8/14: o 7/14 está no meio."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é maior: 0,7 ou 0,5?",
+            "alternativas": ["0,5", "0,7", "São iguais", "Não dá para saber"],
+            "correta": 1,
+            "explicacao": "Os dois têm uma casa decimal: 7 décimos é mais que 5 décimos.",
+            "dica": "Compare os décimos: 7 pedaços de 10 ou 5 pedaços de 10?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se escreve 1/2 em número decimal?",
+            "alternativas": ["0,2", "0,12", "0,5", "2,1"],
+            "correta": 2,
+            "explicacao": "1 dividido por 2 dá 0,5. Metade de um inteiro é cinco décimos.",
+            "dica": "Divida 1 por 2, como se fosse dividir R$ 1 entre duas pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é maior: 5/8 ou 3/8?",
+            "alternativas": ["5/8", "3/8", "São iguais", "Nenhuma das duas"],
+            "correta": 0,
+            "explicacao": "Com o mesmo denominador, o pedaço é do mesmo tamanho; quem tem mais pedaços (5) é maior.",
+            "dica": "As duas falam de oitavos. Quantos oitavos tem cada uma?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na reta numérica, o número que está mais à direita é:",
+            "alternativas": ["o menor", "o maior", "sempre o zero", "sempre negativo"],
+            "correta": 1,
+            "explicacao": "A reta cresce da esquerda para a direita, então quem está mais à direita é maior.",
+            "dica": "Lembre o que a lição disse sobre andar para a direita na reta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é maior: −2 ou −5?",
+            "alternativas": ["−5", "São iguais", "Não dá para comparar negativos", "−2"],
+            "correta": 3,
+            "explicacao": "−2 está mais perto do zero, mais à direita na reta. Dever R$ 2 é melhor que dever R$ 5.",
+            "dica": "Pense em dívida: é melhor dever 2 ou dever 5?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Compare 0,8 e 0,75:",
+            "alternativas": ["0,75 > 0,8", "0,8 > 0,75", "0,8 = 0,75", "Não dá para comparar"],
+            "correta": 1,
+            "explicacao": "Igualando as casas: 0,80 e 0,75. Como 80 > 75, 0,8 é maior. O erro comum é achar que 75 ganha de 8.",
+            "dica": "Escreva os dois com duas casas depois da vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é maior: 2/3 ou 3/5?",
+            "alternativas": ["3/5", "São iguais", "2/3", "Não dá para comparar frações diferentes"],
+            "correta": 2,
+            "explicacao": "Com denominador 15: 2/3 = 10/15 e 3/5 = 9/15. Logo 2/3 é maior.",
+            "dica": "Deixe as duas frações com denominador 15."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3/4 em número decimal?",
+            "alternativas": ["0,34", "0,75", "0,43", "7,5"],
+            "correta": 1,
+            "explicacao": "3 ÷ 4 = 0,75. Também dá para pensar em dinheiro: 3/4 de R$ 1 são 75 centavos.",
+            "dica": "Quantos centavos são três quartos de um real?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente (do menor para o maior):",
+            "itens": ["0,3", "1/2", "0,65", "3/4"],
+            "explicacao": "Em decimal: 0,3; 0,5; 0,65; 0,75. Do menor para o maior.",
+            "dica": "Transforme as frações em decimal antes de comparar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No treino de basquete, Rita acertou 7 de 10 arremessos e Caio acertou 3 de 5. Quem teve melhor aproveitamento?",
+            "alternativas": ["Rita", "Caio", "Os dois igualmente", "Não dá para saber"],
+            "correta": 0,
+            "explicacao": "Rita: 7/10 = 0,7. Caio: 3/5 = 0,6. Rita acertou uma parte maior das tentativas.",
+            "dica": "Transforme 7/10 e 3/5 em decimal e compare."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lista está em ordem crescente?",
+            "alternativas": [
+              "−1/4; −0,75; −1,5; 0,2",
+              "−1,5; −0,75; −1/4; 0,2",
+              "0,2; −1/4; −0,75; −1,5",
+              "−0,75; −1,5; −1/4; 0,2"
+            ],
+            "correta": 1,
+            "explicacao": "−1/4 = −0,25. Na reta: −1,5 < −0,75 < −0,25 < 0,2. Entre negativos, o mais longe do zero é o menor.",
+            "dica": "Passe −1/4 para decimal e lembre que, entre negativos, quem está mais longe do zero é menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração está entre 1/3 e 1/2?",
+            "alternativas": ["1/4", "3/5", "2/3", "2/5"],
+            "correta": 3,
+            "explicacao": "1/3 ≈ 0,33 e 1/2 = 0,5. 2/5 = 0,4 fica no meio. 1/4 = 0,25 é menor; 3/5 = 0,6 e 2/3 ≈ 0,67 são maiores.",
+            "dica": "Transforme tudo em decimal: o número procurado fica entre 0,33 e 0,5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mercado, o arroz de 5 kg custa R$ 27,50 e o de 2 kg custa R$ 10,80. Qual sai mais barato por quilo?",
+            "alternativas": [
+              "O de 2 kg, a R$ 5,40 o quilo",
+              "O de 5 kg, a R$ 5,50 o quilo",
+              "Os dois custam o mesmo por quilo",
+              "O de 5 kg, porque pacote maior sempre sai mais barato"
+            ],
+            "correta": 0,
+            "explicacao": "27,50 ÷ 5 = 5,50 e 10,80 ÷ 2 = 5,40. Como 5,40 < 5,50, o pacote menor sai mais barato por quilo. Pacote grande nem sempre compensa.",
+            "dica": "Divida cada preço pela quantidade de quilos e compare os decimais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é maior: 5/6 ou 7/8?",
+            "alternativas": ["5/6", "São iguais", "7/8", "Depende do inteiro"],
+            "correta": 2,
+            "explicacao": "Com denominador 24: 5/6 = 20/24 e 7/8 = 21/24. Ou: falta 1/6 para 5/6 virar 1 e só 1/8 para 7/8.",
+            "dica": "Veja quanto falta para cada uma chegar a 1 inteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números racionais existem entre 0,1 e 0,2?",
+            "alternativas": ["Nenhum", "Infinitos", "Nove", "Só o 0,15"],
+            "correta": 1,
+            "explicacao": "Sempre dá para acrescentar casas decimais: 0,11; 0,111; 0,1111... Entre dois racionais diferentes sempre cabe mais um, sem fim.",
+            "dica": "Pense em 0,11, 0,101, 0,1001... será que essa lista acaba?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente:",
+            "itens": ["0,59", "0,6", "5/8", "2/3"],
+            "explicacao": "5/8 = 0,625 e 2/3 ≈ 0,667. Comparando com três casas: 0,590 < 0,600 < 0,625 < 0,667.",
+            "dica": "Transforme as frações em decimal e compare usando três casas depois da vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração com denominador 14 fica entre 3/7 e 4/7?",
+            "alternativas": ["5/14", "9/14", "7/14", "1/14"],
+            "correta": 2,
+            "explicacao": "3/7 = 6/14 e 4/7 = 8/14. A única fração de denominador 14 entre elas é 7/14 (que é 1/2).",
+            "dica": "Multiplique numerador e denominador de 3/7 e de 4/7 por 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem fazer contas longas, qual é a maior: 7/12, 7/10, 7/9 ou 7/8?",
+            "alternativas": ["7/12", "7/10", "7/9", "7/8"],
+            "correta": 3,
+            "explicacao": "Todas têm 7 pedaços. O pedaço maior é o do inteiro dividido em menos partes: oitavos são maiores que nonos, décimos e doze avos.",
+            "dica": "Com o mesmo numerador, pense em qual divisão deixa o pedaço maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana diz que 0,125 é maior que 0,5 porque 125 é maior que 5. Ela está:",
+            "alternativas": [
+              "certa, porque tem mais algarismos",
+              "errada: 0,5 = 0,500, que é maior que 0,125",
+              "certa, porque 125 > 5",
+              "errada, porque os dois são iguais"
+            ],
+            "correta": 1,
+            "explicacao": "Igualando as casas: 0,500 e 0,125. 500 milésimos é mais que 125 milésimos. Mais algarismos não quer dizer número maior.",
+            "dica": "Escreva os dois com três casas decimais antes de julgar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa madrugada de inverno, quatro cidades marcaram −3,5 °C, −3,25 °C, −4 °C e −3 °C. Qual foi a mais fria e qual a mais quente?",
+            "alternativas": [
+              "Mais fria: −4 °C; mais quente: −3 °C",
+              "Mais fria: −3 °C; mais quente: −4 °C",
+              "Mais fria: −3,25 °C; mais quente: −3,5 °C",
+              "Mais fria: −4 °C; mais quente: −3,25 °C"
+            ],
+            "correta": 0,
+            "explicacao": "Na reta: −4 < −3,5 < −3,25 < −3. A mais fria é a menor (−4) e a mais quente é a mais perto do zero (−3).",
+            "dica": "Coloque as quatro temperaturas na reta numérica; o mais perto do zero é o maior."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Textos (strings): juntar, medir e cortar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Em programação, texto se chama string. Ele fica entre aspas: nome ← 'Ana'. As aspas avisam ao computador que aquilo é texto, e não o nome de uma variável.",
+          "Juntar textos se chama concatenar e usamos o sinal +. Mas atenção: o computador não coloca espaço sozinho. 'bom' + 'dia' dá 'bomdia'; para ter espaço, escreva 'bom' + ' ' + 'dia'.",
+          "Para medir, usamos tamanho(texto), que conta todos os caracteres, inclusive espaços, vírgulas e acentos. tamanho('casa') é 4 e tamanho('Rio Claro') é 9.",
+          "Cada letra tem uma posição, e a contagem começa no 0, como nas listas. Em 'Santos', a posição 0 é 'S', a 1 é 'a' e a 2 é 'n'.",
+          "Para cortar um pedaço, usamos texto[início:fim]. O início entra e o fim não entra. 'feijão'[0:4] pega as posições 0, 1, 2 e 3: 'feij'."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "nome ← 'Ana'; sobrenome ← 'Souza'; completo ← nome + ' ' + sobrenome. Quanto vale completo e qual é o tamanho?",
+            "resolucao": "completo vale 'Ana Souza'. Tamanho: 3 letras de Ana + 1 espaço + 5 letras de Souza = 9."
+          },
+          {
+            "enunciado": "placa ← 'ABC1D23'. Como pegar só as três letras do começo?",
+            "resolucao": "placa[0:3] pega as posições 0, 1 e 2 e devolve 'ABC'. A posição 3 é o fim e não entra."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Número e texto são coisas diferentes. 5 + 5 dá 10, mas '5' + '5' dá '55', porque as aspas transformam os algarismos em texto. Para converter, usamos numero('5'), que vira 5, e texto(5), que vira '5'.",
+        "A última letra de um texto fica na posição tamanho(texto) − 1, porque a contagem começa no 0. Em 'casa', tamanho é 4 e a última letra, 'a', está na posição 3. Pedir a posição 4 dá erro.",
+        "Cortes podem ser juntados para criar textos novos. Com data ← '25/12/2026', data[3:5] pega '12' (o mês) e data[6:10] pega '2026' (o ano). Juntando data[6:10] + '-' + data[3:5], temos '2026-12'."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em programação, o que é uma string?",
+            "alternativas": ["Um número com vírgula", "Um texto, como um nome ou uma frase", "Um tipo de laço", "Um erro do programa"],
+            "correta": 1,
+            "explicacao": "String é o nome dado aos textos. Eles ficam entre aspas, como 'Ana'.",
+            "dica": "A lição explicou que string fica entre aspas. O que costuma ficar entre aspas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale 'bom' + 'dia'?",
+            "alternativas": ["'dia bom'", "'bom dia'", "'bomdia'", "um erro"],
+            "correta": 2,
+            "explicacao": "O + junta os textos exatamente como estão. Como nenhum dos dois tem espaço, sai tudo grudado.",
+            "dica": "O computador coloca espaço sozinho entre os textos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale tamanho('casa')?",
+            "alternativas": ["4", "3", "5", "1"],
+            "correta": 0,
+            "explicacao": "c, a, s, a: são 4 caracteres.",
+            "dica": "Conte as letras da palavra uma por uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que posição fica a primeira letra de um texto?",
+            "alternativas": ["1", "0", "−1", "10"],
+            "correta": 1,
+            "explicacao": "Como nas listas, a contagem das posições começa no 0.",
+            "dica": "Lembre como contamos as posições das listas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama juntar dois textos com o sinal +?",
+            "alternativas": ["Dividir", "Multiplicar", "Apagar", "Concatenar"],
+            "correta": 3,
+            "explicacao": "Concatenar é juntar textos, um depois do outro.",
+            "dica": "É uma palavra difícil que a lição apresentou no segundo parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale tamanho('Rio Claro')?",
+            "alternativas": ["8", "9", "2", "10"],
+            "correta": 1,
+            "explicacao": "Rio tem 3, o espaço conta 1 e Claro tem 5: 3 + 1 + 5 = 9. Esquecer o espaço dá 8.",
+            "dica": "O espaço entre as palavras também é um caractere."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "palavra ← 'feijão'. Quanto vale palavra[0:4]?",
+            "alternativas": ["'feijã'", "'eijã'", "'feij'", "'fei'"],
+            "correta": 2,
+            "explicacao": "Pega as posições 0, 1, 2 e 3 (f, e, i, j). A posição 4 é o fim e não entra.",
+            "dica": "O início entra, o fim não. Quais posições vão de 0 até antes do 4?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nome ← 'Bia'; mensagem ← 'Oi, ' + nome + '!'. Quanto vale mensagem?",
+            "alternativas": ["'Oi, Bia!'", "'Oi,Bia!'", "'Oi, nome!'", "'Bia, Oi!'"],
+            "correta": 0,
+            "explicacao": "nome está sem aspas, então é a variável: vale 'Bia'. O espaço já estava dentro de 'Oi, '.",
+            "dica": "Repare que existe um espaço depois da vírgula em 'Oi, ' e que nome é uma variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale '10' + '5'?",
+            "alternativas": ["15", "'15'", "'510'", "'105'"],
+            "correta": 3,
+            "explicacao": "Com aspas, são textos: o + junta, não soma. Fica '10' seguido de '5'.",
+            "dica": "Os dois estão entre aspas. O + soma ou junta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cidade ← 'Santos'. Quanto vale cidade[2]?",
+            "alternativas": ["'a'", "'n'", "'t'", "'S'"],
+            "correta": 1,
+            "explicacao": "Posição 0 é S, 1 é a, 2 é n.",
+            "dica": "Comece a contar do 0 a partir do S."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "usuario ← 'ana'; ano ← '2026'; codigo ← usuario + ano. Quanto vale tamanho(codigo)?",
+            "alternativas": ["2", "7", "6", "2029"],
+            "correta": 1,
+            "explicacao": "codigo vale 'ana2026': 3 letras + 4 algarismos = 7 caracteres. O 2029 aparece se alguém tentar somar como número.",
+            "dica": "Primeiro descubra o texto que se forma; depois conte os caracteres."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "texto ← 'Pernambuco'. Quanto vale texto[0:3] + texto[7:10]?",
+            "alternativas": ["'Peruco'", "'Pernco'", "'Perbuco'", "'Pruco'"],
+            "correta": 0,
+            "explicacao": "Posições: P0 e1 r2 n3 a4 m5 b6 u7 c8 o9. texto[0:3] = 'Per' e texto[7:10] = 'uco'. Juntos: 'Peruco'.",
+            "dica": "Numere as letras de 0 a 9 e faça um corte de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale tamanho('O sol saiu')?",
+            "alternativas": ["8", "3", "10", "9"],
+            "correta": 2,
+            "explicacao": "O (1) + espaço (1) + sol (3) + espaço (1) + saiu (4) = 10.",
+            "dica": "Conte letras e também os dois espaços."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "placa ← 'BRA2E19'. Qual comando pega só as 3 letras do começo?",
+            "alternativas": ["placa[1:3]", "placa[0:2]", "placa[3:7]", "placa[0:3]"],
+            "correta": 3,
+            "explicacao": "Começa no 0 e para antes do 3: posições 0, 1 e 2, ou seja, 'BRA'. O [0:2] pegaria só 'BR'.",
+            "dica": "Comece no zero e lembre que o número do fim não entra no corte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nome ← 'Jundiaí'. O que mostra nome[tamanho(nome) − 1]?",
+            "alternativas": ["'a'", "'í'", "erro, porque a posição 7 não existe", "'J'"],
+            "correta": 1,
+            "explicacao": "tamanho é 7, então a posição é 7 − 1 = 6. Contando do 0: J0 u1 n2 d3 i4 a5 í6. É a última letra.",
+            "dica": "Calcule primeiro tamanho(nome) − 1 e depois procure essa posição contando do zero."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "a ← '3'; b ← '4'. O programa mostra a + b e depois numero(a) + numero(b). O que aparece?",
+            "alternativas": ["7 e 7", "'34' e 7", "'34' e '34'", "7 e '34'"],
+            "correta": 1,
+            "explicacao": "a + b junta textos: '34'. numero(a) + numero(b) converte para números e soma: 3 + 4 = 7.",
+            "dica": "Na primeira conta os dois são textos; na segunda, foram convertidos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem do menor para o maior tamanho:",
+            "itens": ["'pé'", "'casa'", "'São Paulo'", "'guarda-chuva'", "'pão de queijo'"],
+            "explicacao": "pé = 2; casa = 4; São Paulo = 3 + 1 espaço + 5 = 9; guarda-chuva = 6 + 1 hífen + 5 = 12; pão de queijo = 3 + 1 + 2 + 1 + 6 = 13.",
+            "dica": "Espaços e hífens contam como caracteres."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "data ← '25/12/2026'. Qual comando pega só o mês, '12'?",
+            "alternativas": ["data[3:5]", "data[2:4]", "data[3:4]", "data[4:6]"],
+            "correta": 0,
+            "explicacao": "Posições: 2 (0), 5 (1), / (2), 1 (3), 2 (4), / (5)... O mês ocupa as posições 3 e 4, então o corte vai de 3 até antes de 5.",
+            "dica": "Numere cada caractere, inclusive as barras, e veja onde o mês começa e termina."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "palavra ← 'roma'. Quanto vale palavra[3:4] + palavra[2:3] + palavra[1:2] + palavra[0:1]?",
+            "alternativas": ["'roma'", "'amro'", "'amor'", "'mora'"],
+            "correta": 2,
+            "explicacao": "r0 o1 m2 a3. Os cortes dão 'a', 'm', 'o', 'r', nessa ordem: a palavra ao contrário.",
+            "dica": "Cada corte pega uma letra só. Pegue da última posição para a primeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O usuário não digitou nada e nome ficou '' (texto vazio). Quanto vale tamanho('Olá, ' + nome + '!')?",
+            "alternativas": ["0", "5", "7", "6"],
+            "correta": 3,
+            "explicacao": "O texto vazio tem tamanho 0. 'Olá, ' tem 5 caracteres (O, l, á, vírgula, espaço) e '!' tem 1: 5 + 0 + 1 = 6.",
+            "dica": "Texto vazio não acrescenta nada. Conte com cuidado a vírgula e o espaço de 'Olá, '."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Cabeçalho, rodapé e número de página",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O cabeçalho é a faixa no alto da página e o rodapé é a faixa embaixo. O que você escreve neles aparece sozinho em todas as páginas do documento, sem precisar copiar.",
+          "No cabeçalho de um trabalho escolar costumam ir o nome da escola e a matéria. No rodapé, o nome do aluno, a data e o número da página. O texto principal fica no corpo, nunca no cabeçalho ou no rodapé.",
+          "Para inserir, use a guia Inserir e clique em Cabeçalho, Rodapé ou Número de Página. Um atalho é dar clique duplo na margem de cima ou de baixo da página. Para voltar ao texto, clique em Fechar Cabeçalho e Rodapé ou dê clique duplo no corpo.",
+          "Nunca digite o número da página à mão. O número inserido pelo Word é automático: se você acrescentar ou apagar páginas, ele se atualiza sozinho.",
+          "No Documentos Google, o caminho é parecido: Inserir > Cabeçalhos e rodapés e Inserir > Números de página."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como colocar o número da página no centro, embaixo?",
+            "resolucao": "Guia Inserir > Número de Página > Fim da Página > escolha o modelo centralizado. Depois clique em Fechar Cabeçalho e Rodapé."
+          },
+          {
+            "enunciado": "O trabalho tinha 4 páginas numeradas automaticamente e você acrescentou 2 páginas no meio. O que acontece com a numeração?",
+            "resolucao": "O Word renumera sozinho: agora são 6 páginas e a última mostra 6. Se os números tivessem sido digitados à mão, todos ficariam errados."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Capa não costuma ter número. Marque Primeira Página Diferente (aparece nas opções de Cabeçalho e Rodapé) e a primeira página fica sem cabeçalho e rodapé. Ela continua contando: a segunda página mostra 2. Para a segunda mostrar 1, vá em Número de Página > Formatar Números de Página e escolha Iniciar em 0.",
+        "Para o formato \"Página 3 de 10\", use Número de Página > Posição Atual > modelo Página X de Y. Os dois números são automáticos. Em livros, a opção Páginas Pares e Ímpares Diferentes permite número à direita nas ímpares e à esquerda nas pares.",
+        "Quando a numeração precisa começar no meio do documento (capa e sumário sem número e o texto começando em 1), divida em seções: Layout > Quebras > Próxima Página. Na nova seção, desligue Vincular ao Anterior no rodapé e, em Formatar Números de Página, escolha Iniciar em 1. Com Vincular ao Anterior ligado, mudar uma seção muda a outra também."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google, no computador ou no celular), crie um trabalho com 3 páginas: uma capa e duas páginas de texto (use Ctrl + Enter para pular de página). No cabeçalho, escreva o nome da sua escola e a matéria, alinhados à esquerda. No rodapé, coloque seu nome à esquerda e o número no formato \"Página X de Y\" à direita. Ligue Primeira Página Diferente para a capa ficar limpa. Depois acrescente uma página nova no meio e confira se a numeração mudou sozinha. Salve como trabalho_7ano_seunome.docx.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica o cabeçalho?",
+            "alternativas": ["No meio da página", "Na parte de cima de todas as páginas", "Só na última página", "Dentro de uma tabela"],
+            "correta": 1,
+            "explicacao": "O cabeçalho é a faixa do alto e se repete em todas as páginas.",
+            "dica": "Pense na palavra cabeça: em que parte do corpo ela fica?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde fica o rodapé?",
+            "alternativas": ["Na parte de baixo da página", "Na parte de cima", "Na lateral esquerda", "Só na capa"],
+            "correta": 0,
+            "explicacao": "Rodapé é a faixa de baixo, como o rodapé da parede, perto do chão.",
+            "dica": "O rodapé da parede de casa fica perto do teto ou do chão?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia do Word fica o botão Número de Página?",
+            "alternativas": ["Revisão", "Exibir", "Inserir", "Correspondências"],
+            "correta": 2,
+            "explicacao": "Cabeçalho, Rodapé e Número de Página ficam na guia Inserir.",
+            "dica": "Você quer colocar algo novo no documento. Qual guia serve para isso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não se deve digitar o número da página à mão?",
+            "alternativas": [
+              "Porque o Word proíbe",
+              "Porque fica colorido",
+              "Porque números não podem ir no rodapé",
+              "Porque o número automático se atualiza sozinho quando o texto muda"
+            ],
+            "correta": 3,
+            "explicacao": "Se você acrescenta ou apaga páginas, o número automático se corrige. O digitado fica errado.",
+            "dica": "Imagine que você acrescentou uma página no meio do trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um jeito rápido de abrir o cabeçalho?",
+            "alternativas": ["Clique duplo na margem de cima da página", "Apertar F7", "Fechar o arquivo", "Apertar Ctrl + P"],
+            "correta": 0,
+            "explicacao": "O clique duplo na margem superior abre o cabeçalho; na margem inferior, o rodapé.",
+            "dica": "A lição ensinou um atalho com o mouse, bem na área de cima."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num trabalho escolar, o que combina com o cabeçalho?",
+            "alternativas": ["O texto inteiro do trabalho", "O nome da escola e da matéria", "A conclusão do trabalho", "Todas as imagens"],
+            "correta": 1,
+            "explicacao": "O cabeçalho guarda informações curtas que se repetem. O conteúdo vai no corpo.",
+            "dica": "O que faz sentido aparecer repetido no alto de todas as páginas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você escreveu seu nome no cabeçalho da página 1. O que acontece nas outras páginas?",
+            "alternativas": [
+              "Nada; ele só aparece na página 1",
+              "Some quando o arquivo é salvo",
+              "Aparece igual em todas as páginas, automaticamente",
+              "Aparece só nas páginas pares"
+            ],
+            "correta": 2,
+            "explicacao": "O cabeçalho é comum a todas as páginas (a não ser que você ligue opções como Primeira Página Diferente).",
+            "dica": "Lembre a principal vantagem do cabeçalho citada na lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como voltar a escrever no corpo do texto depois de editar o rodapé?",
+            "alternativas": [
+              "Apagar o rodapé",
+              "Clicar em Fechar Cabeçalho e Rodapé ou dar clique duplo no corpo do texto",
+              "Salvar e fechar o Word",
+              "Apertar F7"
+            ],
+            "correta": 1,
+            "explicacao": "Fechar Cabeçalho e Rodapé (ou clique duplo no corpo) devolve você ao texto sem perder nada.",
+            "dica": "Existe um botão próprio para sair dessa área, e também um atalho com o mouse."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para pôr o número da página no centro do rodapé:",
+            "itens": ["Clicar na guia Inserir", "Clicar em Número de Página", "Escolher Fim da Página", "Escolher o modelo centralizado", "Clicar em Fechar Cabeçalho e Rodapé"],
+            "explicacao": "Primeiro a guia, depois o botão, a posição, o modelo e por fim sair do rodapé.",
+            "dica": "Vá do geral (a guia) para o detalhe (o modelo) e só saia no final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O trabalho tinha 4 páginas com número automático. Você acrescentou 2 páginas no meio. Que número aparece na última página?",
+            "alternativas": ["4", "5", "2", "6"],
+            "correta": 3,
+            "explicacao": "4 + 2 = 6 páginas, e o número automático se atualiza sozinho.",
+            "dica": "Some as páginas novas às antigas; o número automático acompanha."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer a capa sem número, mas o resto numerado. Qual opção usar?",
+            "alternativas": ["Primeira Página Diferente", "Páginas Pares e Ímpares Diferentes", "Quebra de coluna", "Marca d'água"],
+            "correta": 0,
+            "explicacao": "Primeira Página Diferente tira o cabeçalho e o rodapé só da primeira página.",
+            "dica": "A capa é a página de número um do documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com Primeira Página Diferente ligada e a numeração normal, que número aparece na segunda página?",
+            "alternativas": ["1", "2", "0", "Nenhum número"],
+            "correta": 1,
+            "explicacao": "A capa continua contando, só não mostra o número. Para a segunda mostrar 1, seria preciso Iniciar em 0.",
+            "dica": "A capa esconde o número, mas será que ela deixa de contar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer \"Página 3 de 10\" no rodapé, sempre certo. O que fazer?",
+            "alternativas": [
+              "Digitar o texto à mão em cada página",
+              "Inserir uma tabela no rodapé",
+              "Usar Contar Palavras",
+              "Usar Número de Página > Posição Atual > modelo Página X de Y"
+            ],
+            "correta": 3,
+            "explicacao": "Esse modelo coloca os dois números como campos automáticos: a página atual e o total.",
+            "dica": "Os dois números precisam se atualizar sozinhos. Procure no botão de numeração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num livro, você quer o número à direita nas páginas ímpares e à esquerda nas pares. Qual opção liga isso?",
+            "alternativas": ["Primeira Página Diferente", "Quebra de página", "Páginas Pares e Ímpares Diferentes", "Alinhar ao centro"],
+            "correta": 2,
+            "explicacao": "Essa opção permite um rodapé para as pares e outro para as ímpares.",
+            "dica": "Você precisa de dois rodapés diferentes, um para cada tipo de página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que NÃO deve ir no rodapé de um trabalho escolar?",
+            "alternativas": ["O número da página", "O desenvolvimento do trabalho, com os parágrafos principais", "O nome do aluno", "A data de entrega"],
+            "correta": 1,
+            "explicacao": "O rodapé é para informações curtas que se repetem. O conteúdo vai no corpo.",
+            "dica": "Pense no que se repete em todas as páginas e no que é diferente em cada uma."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O trabalho tem capa (página 1), sumário (página 2) e o texto começa na página 3, que deve mostrar o número 1. Qual é a melhor solução?",
+            "alternativas": [
+              "Digitar 1, 2, 3 à mão no rodapé",
+              "Ligar só Primeira Página Diferente",
+              "Inserir quebra de seção antes do texto, desligar Vincular ao Anterior e iniciar a numeração em 1",
+              "Apagar a capa e o sumário"
+            ],
+            "correta": 2,
+            "explicacao": "Primeira Página Diferente resolve só a capa. Com uma nova seção desvinculada, o texto pode começar no 1.",
+            "dica": "Duas páginas precisam ficar sem número, não só uma. A lição falou em dividir o documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Primeira Página Diferente está ligada e, em Formatar Números de Página, você escolheu Iniciar em 0. Que número aparece na segunda página?",
+            "alternativas": ["1", "0", "2", "Nenhum número"],
+            "correta": 0,
+            "explicacao": "A capa vale 0 (escondido) e a próxima vale 1. É assim que o texto começa no 1 depois da capa.",
+            "dica": "Se a primeira página vale zero, quanto vale a seguinte?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você mudou o rodapé da seção 2 e o da seção 1 mudou junto. Qual é o motivo mais provável?",
+            "alternativas": [
+              "O arquivo estava estragado",
+              "A opção Vincular ao Anterior estava ligada",
+              "Faltou salvar",
+              "O Word só aceita um rodapé por arquivo"
+            ],
+            "correta": 1,
+            "explicacao": "Com Vincular ao Anterior ligado, a seção copia o rodapé da anterior. Desligando, cada seção tem o seu.",
+            "dica": "Lembre a opção que liga uma seção à outra, citada no aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um documento de 12 páginas usa \"Página X de Y\". Você está na página 5 e apaga as páginas 2 e 3. O que aparece agora nessa mesma página?",
+            "alternativas": ["Página 5 de 12", "Página 3 de 12", "Página 5 de 10", "Página 3 de 10"],
+            "correta": 3,
+            "explicacao": "Saíram 2 páginas antes dela: 5 − 2 = 3. O total também cai: 12 − 2 = 10. Os dois números mudam.",
+            "dica": "As páginas apagadas estavam antes da sua; as duas contagens mudam."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para o texto começar a numeração em 1 na página 3:",
+            "itens": [
+              "Clicar no fim da página 2",
+              "Ir em Layout > Quebras > Próxima Página",
+              "Abrir o rodapé da página 3 e desligar Vincular ao Anterior",
+              "Inserir o número de página",
+              "Em Formatar Números de Página, escolher Iniciar em 1"
+            ],
+            "explicacao": "Primeiro se cria a seção nova, depois se solta a ligação com a anterior, e só então se numera e se acerta o início.",
+            "dica": "A seção precisa existir antes de ser desvinculada; a numeração vem por último."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Divulgação: boca a boca, cartaz e redes sociais",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Não adianta ter o melhor produto se ninguém sabe que ele existe. Divulgar é fazer o cliente certo conhecer o seu negócio: o que você vende, quanto custa, onde e quando encontrar.",
+          "O boca a boca é quando um cliente conta para outro. É grátis e muito confiável, porque as pessoas acreditam em quem conhecem. Mas funciona dos dois lados: cliente mal atendido também espalha, e espalha rápido.",
+          "O cartaz é barato e alcança quem passa perto. Precisa ser lido em poucos segundos: nome, o que vende, preço ou oferta, horário e endereço ou contato. Letra grande e pouco texto.",
+          "Nas redes sociais, use fotos reais do produto, bem iluminadas, poste com frequência e responda as mensagens. Peça licença antes de postar foto de cliente. E prometa só o que pode cumprir: pelo Código de Defesa do Consumidor, propaganda enganosa é proibida e o preço anunciado tem que ser respeitado."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Monte um cartaz curto para os bolos da Dona Rosa.",
+            "resolucao": "\"Bolos da Rosa – Fatia R$ 6 – Sábado e domingo, das 8h às 12h – Rua das Acácias, 45\". Tem nome, produto, preço, horário e endereço, e dá para ler em segundos."
+          },
+          {
+            "enunciado": "Um cartaz custou R$ 30 e trouxe 15 clientes novos. Uma postagem paga custou R$ 40 e trouxe 10. Qual saiu mais barato por cliente?",
+            "resolucao": "Cartaz: 30 ÷ 15 = R$ 2 por cliente. Postagem: 40 ÷ 10 = R$ 4 por cliente. O cartaz trouxe cada cliente pela metade do preço."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Antes de divulgar, pense no público: quem compra e onde essa pessoa está? Lanche para estudante pede cartaz no caminho da escola; marmita para trabalhador pede divulgação perto de obras e escritórios.",
+        "Meça o resultado. Pergunte a cada cliente novo \"como você conheceu a gente?\" e anote. Custo por cliente = valor gasto ÷ clientes novos. Mas lembre: o mais barato por cliente nem sempre dá o maior lucro, porque outra opção pode trazer muito mais gente. Compare também o que sobra: lucro das vendas menos o gasto com divulgação.",
+        "Dá para turbinar o boca a boca: programa de indicação (\"indique um amigo e ganhe 10% de desconto\") e cartão fidelidade (\"a cada 10 compras, 1 grátis\"). Faça a conta antes de prometer, para o brinde não virar prejuízo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é boca a boca?",
+            "alternativas": ["Um cliente contando para outro sobre o negócio", "Um tipo de doce", "Um cartaz grande", "Uma propaganda na TV"],
+            "correta": 0,
+            "explicacao": "Boca a boca é a indicação de uma pessoa para outra. É grátis e confiável.",
+            "dica": "Pense em alguém dizendo ao vizinho onde comprou um pastel gostoso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que não pode faltar num cartaz?",
+            "alternativas": ["A história da vida do dono", "O nome, o que vende e como encontrar", "Uma letra bem pequena", "Muitas cores e nenhum preço"],
+            "correta": 1,
+            "explicacao": "O cartaz precisa dizer rapidamente quem é, o que oferece e onde ou quando encontrar.",
+            "dica": "Quem passa na rua precisa entender tudo em poucos segundos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas divulgações costuma ser grátis?",
+            "alternativas": ["Anúncio no rádio", "Painel gigante na avenida", "Boca a boca de clientes satisfeitos", "Panfleto impresso em gráfica"],
+            "correta": 2,
+            "explicacao": "Quando o cliente gosta, ele indica sem cobrar nada. Por isso atender bem também é divulgar.",
+            "dica": "Qual delas acontece sem o dono pagar ninguém?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual foto é melhor para postar o seu produto?",
+            "alternativas": ["Foto copiada de outra loja", "Imagem qualquer da internet", "Foto escura e tremida", "Foto real e bem iluminada do seu produto"],
+            "correta": 3,
+            "explicacao": "Foto real mostra o que o cliente vai receber e evita propaganda enganosa.",
+            "dica": "O cliente precisa ver exatamente o que vai comprar de você."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que um cliente mal atendido costuma fazer?",
+            "alternativas": ["Falar mal do negócio para outras pessoas", "Voltar todos os dias", "Nunca contar a ninguém", "Dar presente ao dono"],
+            "correta": 0,
+            "explicacao": "O boca a boca funciona dos dois lados: reclamação também se espalha.",
+            "dica": "A lição disse que o boca a boca funciona para os dois lados."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes textos funciona melhor num cartaz?",
+            "alternativas": [
+              "\"Venha conhecer nossos deliciosos e variados produtos artesanais feitos com muito carinho e dedicação\"",
+              "\"Pastel R$ 7 – Sábado, das 9h às 13h – Rua Ipê, 30\"",
+              "\"Pastel\"",
+              "\"Promoção imperdível!!!\", sem preço nem endereço"
+            ],
+            "correta": 1,
+            "explicacao": "É curto e tem produto, preço, horário e endereço. O primeiro é longo demais; os outros faltam informações.",
+            "dica": "Procure o texto curto que responde: o quê, quanto, quando e onde."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cartaz custou R$ 24 e trouxe 12 clientes novos. Qual foi o custo por cliente?",
+            "alternativas": ["R$ 12", "R$ 36", "R$ 2", "R$ 0,50"],
+            "correta": 2,
+            "explicacao": "24 ÷ 12 = 2. Cada cliente novo custou R$ 2 de divulgação. O R$ 0,50 sai de dividir ao contrário.",
+            "dica": "Divida o valor gasto pela quantidade de clientes novos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como saber qual divulgação está funcionando?",
+            "alternativas": [
+              "Perguntar a cada cliente novo como conheceu o negócio e anotar",
+              "Adivinhar",
+              "Copiar o concorrente",
+              "Parar de divulgar"
+            ],
+            "correta": 0,
+            "explicacao": "Anotando as respostas, você descobre de onde vêm os clientes e onde vale gastar.",
+            "dica": "Quem sabe de onde veio o cliente é o próprio cliente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é ruim postar promessas que você não cumpre, como \"entrega em 10 minutos\"?",
+            "alternativas": [
+              "Porque deixa a internet lenta",
+              "Porque propaganda tem que ser verdadeira: o cliente enganado não volta e pode reclamar com base no Código de Defesa do Consumidor",
+              "Porque é proibido postar todo dia",
+              "Porque ninguém lê postagem"
+            ],
+            "correta": 1,
+            "explicacao": "Propaganda enganosa é proibida pelo CDC e destrói a confiança, que é a base do boca a boca.",
+            "dica": "Lembre a lei que protege o consumidor citada na lição."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para fazer uma boa postagem do seu negócio:",
+            "itens": ["Definir quem você quer alcançar", "Tirar uma foto real do produto", "Escrever um texto curto com preço e como pedir", "Publicar", "Responder os comentários e mensagens"],
+            "explicacao": "Primeiro o público, depois o material (foto e texto), a publicação e o atendimento de quem respondeu.",
+            "dica": "Comece pensando em para quem é, e termine conversando com quem se interessou."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Panfletos custaram R$ 60 e trouxeram 20 clientes novos. Uma postagem paga custou R$ 50 e trouxe 25. Qual trouxe cliente mais barato?",
+            "alternativas": ["Panfleto, R$ 3 por cliente", "Postagem paga, R$ 2 por cliente", "Os dois custaram R$ 3 por cliente", "Panfleto, porque custou mais"],
+            "correta": 1,
+            "explicacao": "Panfleto: 60 ÷ 20 = R$ 3. Postagem: 50 ÷ 25 = R$ 2. A postagem foi mais barata por cliente.",
+            "dica": "Calcule gasto ÷ clientes para cada opção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lanchonete fica perto de uma escola e quer atrair estudantes. Onde o cartaz rende mais?",
+            "alternativas": [
+              "Num bairro distante, onde há menos concorrência",
+              "Dentro da cozinha da lanchonete",
+              "Na porta de um escritório do centro",
+              "No caminho entre a escola e a lanchonete, com um combo para estudante"
+            ],
+            "correta": 3,
+            "explicacao": "Divulgação boa vai onde o público está. Estudantes passam pelo caminho da escola.",
+            "dica": "Pense em quem é o público e por onde ele passa todo dia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O pastel custa R$ 8. Quem indicar um amigo ganha 10% de desconto no próximo. Quanto essa pessoa paga?",
+            "alternativas": ["R$ 7,20", "R$ 7,00", "R$ 0,80", "R$ 7,80"],
+            "correta": 0,
+            "explicacao": "10% de 8 = 0,80. 8 − 0,80 = 7,20. O R$ 0,80 é só o desconto, não o preço final.",
+            "dica": "Ache 10% de 8 e tire do preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na padaria, a cada 10 cafés pagos o cliente ganha 1 grátis. Lucas pagou 30 cafés no mês. Quantos ganhou de graça?",
+            "alternativas": ["1", "2", "3", "4"],
+            "correta": 2,
+            "explicacao": "30 ÷ 10 = 3 cafés grátis.",
+            "dica": "Quantos grupos de 10 cabem em 30?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer postar a foto de uma cliente comendo seu bolo. O que fazer?",
+            "alternativas": [
+              "Postar sem falar nada, porque a foto foi tirada na sua loja",
+              "Pedir licença antes, porque a imagem é da pessoa",
+              "Postar só se a foto ficou bonita",
+              "Postar e apagar se ela reclamar"
+            ],
+            "correta": 1,
+            "explicacao": "A imagem pertence à pessoa. Peça autorização antes de usar, mesmo dentro do seu negócio.",
+            "dica": "De quem é o rosto que aparece na foto?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Cartazes custaram R$ 40 e trouxeram 16 clientes novos. Uma postagem paga custou R$ 90 e trouxe 30. Cada cliente deixa R$ 5 de lucro. Qual opção deixou mais dinheiro no fim?",
+            "alternativas": [
+              "Cartaz, porque cada cliente custou menos (R$ 2,50)",
+              "Postagem: sobram R$ 60, contra R$ 40 do cartaz",
+              "As duas empatam",
+              "Cartaz: sobram R$ 80"
+            ],
+            "correta": 1,
+            "explicacao": "Cartaz: 16 × 5 = 80; 80 − 40 = R$ 40. Postagem: 30 × 5 = 150; 150 − 90 = R$ 60. O cartaz é mais barato por cliente (R$ 2,50 contra R$ 3), mas a postagem trouxe mais gente e sobrou mais.",
+            "dica": "Calcule o lucro das vendas de cada opção e tire o gasto. Custo por cliente não é tudo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana tem 40 clientes na feira. Todo mês, metade dos clientes indica uma pessoa nova, e todos continuam comprando. Quantos clientes ela terá depois de 2 meses?",
+            "alternativas": ["80", "60", "90", "100"],
+            "correta": 2,
+            "explicacao": "Mês 1: 40 + 20 = 60. Mês 2: metade de 60 é 30, então 60 + 30 = 90. O erro comum é somar 20 duas vezes e achar 80.",
+            "dica": "No segundo mês, a metade é calculada sobre o novo total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O cartaz anuncia \"Marmita R$ 18\". Na hora, o dono quer cobrar R$ 22. Pelo Código de Defesa do Consumidor:",
+            "alternativas": [
+              "deve cobrar o preço anunciado, R$ 18",
+              "pode cobrar R$ 22 se avisar na hora",
+              "pode cobrar o que quiser, porque o negócio é dele",
+              "só precisa cumprir se o cartaz for feito em gráfica"
+            ],
+            "correta": 0,
+            "explicacao": "A oferta anunciada obriga quem anunciou. Se o preço mudou, o certo é trocar o cartaz antes.",
+            "dica": "A lição disse o que acontece com o preço que aparece no anúncio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rita quer 22 marmitas no mês. A cada 10 pagas, ela ganha 1 grátis (a grátis não conta para o cartão). Cada marmita custa R$ 20. Quanto ela paga, no mínimo?",
+            "alternativas": ["R$ 440", "R$ 420", "R$ 360", "R$ 400"],
+            "correta": 3,
+            "explicacao": "Pagando 10, ganha 1 (11 marmitas). Pagando 20, ganha 2 (22 marmitas). Paga 20 × 20 = R$ 400.",
+            "dica": "Descubra quantas ela precisa pagar para, somando as grátis, chegar a 22."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem da divulgação com menor custo por cliente para a de maior custo:",
+            "itens": ["Cartaz: R$ 30 e 15 clientes", "Postagem paga: R$ 45 e 15 clientes", "Panfleto: R$ 80 e 20 clientes", "Carro de som: R$ 150 e 30 clientes"],
+            "explicacao": "Cartaz 30 ÷ 15 = 2; postagem 45 ÷ 15 = 3; panfleto 80 ÷ 20 = 4; carro de som 150 ÷ 30 = 5.",
+            "dica": "Divida cada gasto pelos clientes e ordene os resultados."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Verbos regulares e irregulares",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Todo verbo tem um radical (a parte que carrega o sentido) e uma terminação. Em cantar, o radical é cant- e a terminação é -ar.",
+          "Verbo regular mantém o radical e segue o modelo da sua conjugação: eu canto, eu cantei, eu cantarei. Vender (vendo, vendi) e partir (parto, parti) também são regulares.",
+          "Verbo irregular muda o radical ou foge do modelo: fazer vira faço, fiz, farei; trazer vira trago, trouxe; dizer vira digo, disse; ter vira tenho, tive; pôr vira ponho, pus. Para descobrir, conjugue no presente e no passado com eu.",
+          "Atenção: mudanças só de grafia, feitas para manter o som, não deixam o verbo irregular. Ficar vira fiquei e pagar vira paguei, mas os dois são regulares.",
+          "Erros comuns: \"eu truxe\" (o certo é trouxe), \"eu ponhei\" (pus), \"quando eu ter\" (tiver), \"se eu fazer\" (fizer), \"quando eu ver\" (vir)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Dormir é regular ou irregular?",
+            "resolucao": "Irregular: no presente, eu durmo. O radical dorm- virou durm-. Já ele dorme e nós dormimos voltam ao radical original."
+          },
+          {
+            "enunciado": "Complete: \"Quando eu ___ (ver) o ônibus, aviso você.\"",
+            "resolucao": "Quando eu vir o ônibus. O futuro do subjuntivo de ver é vir (quando eu vir, quando você vir). \"Quando eu ver\" é um erro muito comum."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Verbos derivados seguem o verbo de onde vieram. Manter, conter e deter vêm de ter: ele manteve, ele conteve, eles detiveram. Repor e compor vêm de pôr: eu repus, ele repôs. Intervir vem de vir: ele interveio (e não \"interviu\"). Prever vem de ver: quando eu previr.",
+        "Alguns verbos são tão irregulares que mudam o radical inteiro: ser (sou, fui, era) e ir (vou, fui, ia). Eles são chamados de anômalos.",
+        "Há também verbos defectivos, que não têm todas as formas. Colorir, na norma padrão, não tem a forma \"eu coloro\": dizemos \"eu pinto\" ou \"estou colorindo\". Falir, no presente, só se usa nas formas nós falimos e vós falis."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes verbos é regular?",
+            "alternativas": ["fazer", "cantar", "ir", "ser"],
+            "correta": 1,
+            "explicacao": "Cantar mantém o radical cant-: canto, cantei, cantarei. Os outros mudam muito.",
+            "dica": "Conjugue cada um com eu, no presente e no passado, e veja qual não muda o começo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Hoje eu faço. Ontem eu...",
+            "alternativas": ["fazi", "fazei", "fiz", "fazo"],
+            "correta": 2,
+            "explicacao": "Fazer é irregular: eu faço, eu fiz, eu farei.",
+            "dica": "Fazer é irregular: o passado dele é bem curtinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Verbo irregular é aquele que:",
+            "alternativas": ["muda o radical ou foge do modelo ao ser conjugado", "nunca muda", "só existe no passado", "não tem terminação"],
+            "correta": 0,
+            "explicacao": "O irregular não segue o modelo: o radical ou as terminações mudam, como em fazer e fiz.",
+            "dica": "Pense em fazer, faço e fiz: o que acontece com o começo da palavra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ontem eu ___ (trazer) o bolo.\"",
+            "alternativas": ["trazi", "truxe", "trazei", "trouxe"],
+            "correta": 3,
+            "explicacao": "O passado de trazer é trouxe, com ou. \"Truxe\" é um erro comum da fala.",
+            "dica": "A forma certa é escrita com o encontro ou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o radical do verbo vender?",
+            "alternativas": ["vend", "ven", "er", "nder"],
+            "correta": 0,
+            "explicacao": "Tirando a terminação -er, sobra o radical: vend-.",
+            "dica": "Tire as duas últimas letras, que são a terminação."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Quando eu ___ (ter) tempo, vou te visitar.\"",
+            "alternativas": ["ter", "teria", "tiver", "tenho"],
+            "correta": 2,
+            "explicacao": "Depois de \"quando\" indicando futuro, usamos o futuro do subjuntivo: quando eu tiver. \"Quando eu ter\" é erro.",
+            "dica": "Pense em \"quando você ___ tempo\": a forma certa muda o radical de ter."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": ["Eu ponhei a mesa.", "Eu pus a mesa.", "Eu pusi a mesa.", "Eu ponho ontem a mesa."],
+            "correta": 1,
+            "explicacao": "Pôr é irregular: eu ponho, eu pus, eu porei.",
+            "dica": "O passado de pôr é uma palavra de três letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ficar vira \"eu fiquei\". Então ficar é:",
+            "alternativas": [
+              "regular: a troca de c por qu só serve para manter o som",
+              "irregular, porque o c virou qu",
+              "defectivo",
+              "anômalo"
+            ],
+            "correta": 0,
+            "explicacao": "Sem o qu, ficaria \"ficei\", com som de s. A troca é só de grafia, e o verbo continua regular.",
+            "dica": "Leia em voz alta como ficaria sem a troca de letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Quando eu ___ (ver) a Ana, aviso você.\"",
+            "alternativas": ["ver", "vir", "vier", "veja"],
+            "correta": 1,
+            "explicacao": "O futuro do subjuntivo de ver é vir: quando eu vir. \"Vier\" é do verbo vir (chegar).",
+            "dica": "Cuidado: a forma certa parece outro verbo, que significa chegar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes verbos é irregular?",
+            "alternativas": ["partir", "andar", "comer", "dormir"],
+            "correta": 3,
+            "explicacao": "Dormir: eu durmo. O radical muda de dorm- para durm-. Os outros mantêm o radical.",
+            "dica": "Conjugue cada um com eu no presente e observe o radical."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ele ___ (manter) a calma na reunião.\"",
+            "alternativas": ["manteu", "manteve", "mantia", "mantiu"],
+            "correta": 1,
+            "explicacao": "Manter vem de ter: ele teve, ele manteve.",
+            "dica": "Manter é derivado de ter. Como fica ele com ter no passado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ontem o vendedor ___ (repor) as peças na prateleira.\"",
+            "alternativas": ["repois", "repôr", "repôs", "repós"],
+            "correta": 2,
+            "explicacao": "Repor vem de pôr: ele pôs, ele repôs.",
+            "dica": "Repor segue o verbo pôr. Como fica ele com pôr no passado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro de verbo?",
+            "alternativas": ["Eu trouxe o caderno.", "Quando eu fizer a lição, saio.", "Nós fomos à feira.", "Ele interviu na briga."],
+            "correta": 3,
+            "explicacao": "Intervir vem de vir: ele veio, ele interveio. \"Interviu\" é erro comum.",
+            "dica": "Um dos verbos é derivado de vir e deve seguir esse modelo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"eu digo, eu disse, eu direi\", o verbo dizer é:",
+            "alternativas": [
+              "regular",
+              "irregular, porque o radical muda (dig-, diss-, dir-)",
+              "defectivo",
+              "regular, porque termina em -er"
+            ],
+            "correta": 1,
+            "explicacao": "O radical diz- muda nas três formas. Terminar em -er não diz nada sobre ser regular.",
+            "dica": "Compare o começo das três formas com o radical diz-."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sobre pagar (paguei) e fazer (fiz), é correto dizer:",
+            "alternativas": [
+              "pagar é regular (a mudança é só de grafia) e fazer é irregular",
+              "os dois são irregulares",
+              "os dois são regulares",
+              "pagar é irregular e fazer é regular"
+            ],
+            "correta": 0,
+            "explicacao": "Em paguei, o u entra só para manter o som de g. Em fiz, o radical faz- mudou de verdade.",
+            "dica": "Veja em qual dos dois a mudança serve só para manter o som."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Se você ___ (prever) o resultado, me conta.\"",
+            "alternativas": ["prever", "prevê", "previr", "previsse"],
+            "correta": 2,
+            "explicacao": "Prever segue ver. Como ver tem \"se você vir\", prever tem \"se você previr\".",
+            "dica": "Prever segue o verbo ver. Lembre a forma de ver depois de \"quando\" ou \"se\" no futuro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Os seguranças ___ (deter) o ladrão.\"",
+            "alternativas": ["detiveram", "deteram", "deteveram", "detiram"],
+            "correta": 0,
+            "explicacao": "Deter vem de ter: eles tiveram, eles detiveram.",
+            "dica": "Deter é derivado de ter. Como fica eles com ter no passado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual forma NÃO existe na norma padrão?",
+            "alternativas": ["nós falimos", "eu coloro", "eles colorem", "nós colorimos"],
+            "correta": 1,
+            "explicacao": "Colorir é defectivo e não tem a primeira pessoa do presente. Usa-se \"eu pinto\" ou \"estou colorindo\".",
+            "dica": "Lembre o verbo defectivo citado no aprofundamento e a forma que falta nele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais frases estão certas? (I) Quando eu vir o ônibus, corro. (II) Quando eu vier à escola, trago o livro. (III) Quando eu ver o ônibus, corro.",
+            "alternativas": ["Só a I", "Só a III", "I e II", "II e III"],
+            "correta": 2,
+            "explicacao": "I usa vir, de ver (enxergar). II usa vier, de vir (chegar). III está errada: \"quando eu ver\".",
+            "dica": "Uma frase usa o verbo ver e outra o verbo vir. Só uma forma está errada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ontem eu ___ (vir) cedo e ___ (fazer) o almoço.\"",
+            "alternativas": ["vi / fiz", "vinhei / fazi", "vim / fazi", "vim / fiz"],
+            "correta": 3,
+            "explicacao": "Vir no passado: eu vim. Fazer: eu fiz. \"Vi\" é do verbo ver.",
+            "dica": "Cuidado para não confundir o passado de vir com o de ver; os dois são irregulares."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O cartaz da quitanda",
+    "texto": "A quitanda do tio Edson ficava numa rua de pouco movimento, e as bananas amadureciam demais antes de alguém comprar. Numa tarde de férias, Yasmin, a sobrinha de doze anos, ficou observando: quem passava nem olhava para dentro.\n\n— Tio, o povo nem sabe que o senhor vende tão barato.\n\nEla pegou uma cartolina amarela e uma caneta grossa. Escreveu pouco e grande: “Quitanda do Edson – Banana R$ 5 a dúzia – Segunda a sábado, das 7h às 19h – Número 82, logo ali”. Colou o cartaz no poste da esquina, onde o ônibus parava.\n\nDepois fotografou as frutas com a luz da manhã e fez uma postagem no grupo do bairro, com o preço e o horário. Antes de postar, pediu licença à dona Graça, que aparecia na foto escolhendo mamão.\n\nNa semana seguinte, o tio passou a perguntar a cada cliente novo como tinha conhecido a quitanda. Anotou num caderno: nove disseram “o cartaz”, seis disseram “a internet” e quatro vieram porque um vizinho indicou.\n\n— O boca a boca também conta — riu Yasmin. — Quem gosta volta e ainda traz mais gente."
+  },
+  "escrita": {
+    "proposta": "Crie o texto de um cartaz de divulgação para um negócio do seu bairro (real ou inventado), com o nome do negócio, uma oferta com preço e uma frase que chame o cliente. Depois, em 5 a 10 linhas, explique onde você colaria esse cartaz e por quê, e como faria para descobrir se ele trouxe clientes novos."
+  }
+}

@@ -1,0 +1,907 @@
+{
+  "dia": 30,
+  "blocos": [
+    {
+      "materia": "portugues",
+      "titulo": "Período composto: analisar a frase longa passo a passo",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Período simples tem uma só oração (um verbo ou uma locução verbal); período composto tem duas ou mais. Primeiro passo: contar os verbos. Cada verbo ou locução (\"vou estudar\", \"tinham saído\") corresponde a uma oração.",
+          "Segundo passo: achar os conectivos que ligam as orações: conjunções coordenativas (e, mas, ou, portanto), conjunções subordinativas (que, se, porque, embora, quando, para que) e pronomes relativos (que, o qual, cujo, onde).",
+          "Terceiro passo: separar as orações com barras. \"Quando cheguei, / percebi / que todos tinham saído / e que a porta estava aberta.\"",
+          "Quarto passo: classificar. Coordenadas são independentes na sintaxe (aditivas, adversativas, alternativas, conclusivas, explicativas). Subordinadas exercem função em outra oração (substantivas, adjetivas ou adverbiais). A oração da qual as subordinadas dependem é a principal.",
+          "Período misto tem coordenação e subordinação ao mesmo tempo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Analise: \"Quando cheguei, percebi que todos tinham saído.\"",
+            "resolucao": "Três verbos: cheguei, percebi, tinham saído. \"Quando cheguei\": subordinada adverbial temporal. \"percebi\": principal. \"que todos tinham saído\": subordinada substantiva objetiva direta."
+          },
+          {
+            "enunciado": "Analise: \"Estudei muito, mas não passei porque a prova foi difícil.\"",
+            "resolucao": "\"Estudei muito\": coordenada. \"mas não passei\": coordenada adversativa. \"porque a prova foi difícil\": subordinada adverbial causal, ligada a \"não passei\". Período misto."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Locução verbal conta como um verbo só: \"tinham saído\", \"vou estudar\", \"deve haver\", \"possam participar\". Orações reduzidas não têm conectivo: reconheça pela forma nominal do verbo.",
+        "Coordenadas: aditiva (e, nem), adversativa (mas, porém, contudo), alternativa (ou... ou), conclusiva (logo, portanto; também pois, quando vem depois do verbo e entre vírgulas: \"Estudou; deve, pois, passar\") e explicativa (pois, porque, antes do verbo: \"Leve casaco, pois está frio\").",
+        "Num período longo, analise de fora para dentro: ache a principal, depois as orações que dependem dela e, por fim, as que dependem dessas."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo para analisar um período?",
+            "alternativas": [
+              "contar os verbos",
+              "contar as vírgulas",
+              "ler de trás para frente",
+              "achar só o sujeito"
+            ],
+            "correta": 0,
+            "explicacao": "Cada verbo ou locução é uma oração.",
+            "dica": "Cada oração tem um verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Cheguei e jantei.\" Quantas orações há?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "Dois verbos: cheguei e jantei.",
+            "dica": "Conte os verbos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o período com uma só oração?",
+            "alternativas": [
+              "composto",
+              "misto",
+              "simples",
+              "subordinado"
+            ],
+            "correta": 2,
+            "explicacao": "Um verbo, uma oração: período simples.",
+            "dica": "É o contrário de período composto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma conjunção coordenativa adversativa?",
+            "alternativas": [
+              "que",
+              "se",
+              "quando",
+              "mas"
+            ],
+            "correta": 3,
+            "explicacao": "Mas indica oposição.",
+            "dica": "Adversativa indica ideia contrária."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A locução verbal \"vou estudar\" conta como:",
+            "alternativas": [
+              "dois verbos",
+              "um verbo só",
+              "nenhum verbo",
+              "três verbos"
+            ],
+            "correta": 1,
+            "explicacao": "Locução verbal forma uma única oração.",
+            "dica": "Releia o primeiro parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Quando cheguei, percebi que todos tinham saído.\" Quantas orações há?",
+            "alternativas": [
+              "3",
+              "2",
+              "4",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "cheguei, percebi, tinham saído.",
+            "dica": "\"Tinham saído\" é uma locução só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nesse período, qual é a oração principal?",
+            "alternativas": [
+              "Quando cheguei",
+              "percebi",
+              "que todos tinham saído",
+              "tinham saído"
+            ],
+            "correta": 1,
+            "explicacao": "As outras dependem de \"percebi\".",
+            "dica": "Qual oração não começa com conectivo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"que todos tinham saído\" é:",
+            "alternativas": [
+              "adverbial temporal",
+              "adjetiva",
+              "substantiva objetiva direta",
+              "coordenada"
+            ],
+            "correta": 2,
+            "explicacao": "Percebi isso: objeto direto.",
+            "dica": "Troque por isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Período misto tem:",
+            "alternativas": [
+              "só coordenadas",
+              "só subordinadas",
+              "nenhum verbo",
+              "coordenação e subordinação juntas"
+            ],
+            "correta": 3,
+            "explicacao": "Mistura os dois processos.",
+            "dica": "Misto é mistura."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos da análise:",
+            "itens": [
+              "Contar os verbos",
+              "Achar os conectivos",
+              "Separar as orações",
+              "Classificar cada oração"
+            ],
+            "explicacao": "Contar, achar conectivos, separar e classificar.",
+            "dica": "Classificar é o último passo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estudei muito, mas não passei porque a prova foi difícil.\" Como se classifica \"porque a prova foi difícil\"?",
+            "alternativas": [
+              "coordenada explicativa",
+              "subordinada adverbial causal",
+              "subordinada adjetiva",
+              "principal"
+            ],
+            "correta": 1,
+            "explicacao": "Indica a causa de não ter passado.",
+            "dica": "Por que não passou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"O menino que encontrei ontem disse que vai voltar.\" Quantas orações há?",
+            "alternativas": [
+              "2",
+              "4",
+              "3",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "encontrei, disse, vai voltar.",
+            "dica": "\"Vai voltar\" é locução."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nesse período, \"que encontrei ontem\" é:",
+            "alternativas": [
+              "adjetiva restritiva",
+              "substantiva objetiva direta",
+              "adverbial causal",
+              "coordenada"
+            ],
+            "correta": 0,
+            "explicacao": "Caracteriza menino, sem vírgula.",
+            "dica": "O que retoma menino?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Leve casaco, pois está frio.\" A segunda oração é:",
+            "alternativas": [
+              "coordenada conclusiva",
+              "subordinada temporal",
+              "coordenada aditiva",
+              "coordenada explicativa"
+            ],
+            "correta": 3,
+            "explicacao": "Pois antes do verbo, explicando o pedido.",
+            "dica": "Ela explica o motivo do pedido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ou você estuda, ou você trabalha.\" As orações são:",
+            "alternativas": [
+              "adversativas",
+              "alternativas",
+              "subordinadas",
+              "conclusivas"
+            ],
+            "correta": 1,
+            "explicacao": "Ou... ou indica alternância.",
+            "dica": "Uma coisa ou outra."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Embora estivesse cansada, Lia disse que terminaria o trabalho que o professor pediu.\" Quantas orações há?",
+            "alternativas": [
+              "3",
+              "4",
+              "5",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "estivesse, disse, terminaria, pediu.",
+            "dica": "Conte os verbos com calma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nesse período, as subordinadas são, na ordem:",
+            "alternativas": [
+              "causal, objetiva direta, adjetiva explicativa",
+              "concessiva, subjetiva, adjetiva",
+              "concessiva, objetiva direta, adjetiva restritiva",
+              "temporal, objetiva indireta, adverbial"
+            ],
+            "correta": 2,
+            "explicacao": "Embora (concessiva); disse isso (objetiva direta); que o professor pediu, sem vírgula (adjetiva restritiva).",
+            "dica": "Analise de fora para dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Estudou bastante; deve, pois, passar.\" Aqui, pois é:",
+            "alternativas": [
+              "explicativo",
+              "causal",
+              "aditivo",
+              "conclusivo"
+            ],
+            "correta": 3,
+            "explicacao": "Depois do verbo e entre vírgulas, pois indica conclusão.",
+            "dica": "Releia o aprofundamento sobre o pois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Deve haver uma solução para que todos possam participar.\" Quantas orações há?",
+            "alternativas": [
+              "4",
+              "3",
+              "2",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "Duas locuções: deve haver e possam participar.",
+            "dica": "Locução verbal conta uma vez só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Saí cedo e cheguei atrasado, porque o trem quebrou.\" Que tipo de período é esse?",
+            "alternativas": [
+              "misto: coordenação e subordinação",
+              "simples",
+              "composto só por coordenação",
+              "composto só por subordinação"
+            ],
+            "correta": 0,
+            "explicacao": "Há coordenada aditiva (e) e subordinada causal (porque).",
+            "dica": "Procure os dois tipos de conectivo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "ingles",
+      "titulo": "Reported speech: contar o que alguém disse",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Discurso direto repete as palavras exatas, entre aspas: She said, \"I am tired.\" Discurso indireto (reported speech) conta o que a pessoa disse: She said (that) she was tired.",
+          "Com said ou told no passado, o verbo \"volta\" um tempo: am/is → was; are → were; present simple → past simple (I like → she liked); will → would; can → could; past simple → past perfect (I saw → he had seen).",
+          "Pronomes e possessivos mudam conforme quem conta: \"I love my school,\" said Ana → Ana said she loved her school.",
+          "Palavras de tempo e lugar também mudam: now → then; today → that day; tomorrow → the next day; yesterday → the day before; here → there; this → that.",
+          "Say x tell: say não pede a pessoa (He said that...); tell pede (He told me that...). Perguntas: \"Where do you live?\" → She asked where I lived, sem do e com ordem de frase afirmativa."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Passe para o indireto: \"I will call you tomorrow,\" Pedro said.",
+            "resolucao": "Pedro said (that) he would call me the next day. Mudaram: I → he, will → would, you → me, tomorrow → the next day."
+          },
+          {
+            "enunciado": "Passe para o indireto: \"Can you help me?\" she asked.",
+            "resolucao": "She asked if I could help her. A pergunta de sim ou não usa if, e can vira could."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Ordens: \"Close the door\" → He told me to close the door. \"Don't run\" → She told us not to run.",
+        "Perguntas de sim ou não usam if ou whether: He asked if I was hungry. Must, de obrigação, costuma virar had to: \"You must study\" → Mom said I had to study.",
+        "Se o verbo que introduz está no presente (says), o tempo não muda: She says she is tired."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Reported speech é:",
+            "alternativas": [
+              "repetir as palavras exatas entre aspas",
+              "contar o que alguém disse",
+              "fazer uma pergunta",
+              "dar uma ordem"
+            ],
+            "correta": 1,
+            "explicacao": "É o discurso indireto.",
+            "dica": "Report, em inglês, é relatar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "She said, \"I am tired.\" → She said she ___ tired.",
+            "alternativas": [
+              "was",
+              "is",
+              "were",
+              "be"
+            ],
+            "correta": 0,
+            "explicacao": "Am volta para was.",
+            "dica": "O verbo volta um tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No reported speech, will vira:",
+            "alternativas": [
+              "will",
+              "can",
+              "would",
+              "shall"
+            ],
+            "correta": 2,
+            "explicacao": "Will → would.",
+            "dica": "É o mesmo verbo do second conditional."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No reported speech, tomorrow vira:",
+            "alternativas": [
+              "today",
+              "yesterday",
+              "now",
+              "the next day"
+            ],
+            "correta": 3,
+            "explicacao": "Tomorrow → the next day.",
+            "dica": "O amanhã de quem falou é o dia seguinte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No reported speech, can vira:",
+            "alternativas": [
+              "can",
+              "could",
+              "would",
+              "will"
+            ],
+            "correta": 1,
+            "explicacao": "Can → could.",
+            "dica": "É o passado de can."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"I love my school,\" said Ana. No indireto:",
+            "alternativas": [
+              "Ana said I loved my school",
+              "Ana said she loved her school",
+              "Ana said she love her school",
+              "Ana said she loves my school"
+            ],
+            "correta": 1,
+            "explicacao": "I → she, my → her, love → loved.",
+            "dica": "Troque os pronomes e volte o tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"I will call you tomorrow,\" Pedro said. → Pedro said he ___ me the next day.",
+            "alternativas": [
+              "would call",
+              "will call",
+              "calls",
+              "called tomorrow"
+            ],
+            "correta": 0,
+            "explicacao": "Will → would.",
+            "dica": "Volte o will um tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Can you help me?\" → She asked ___.",
+            "alternativas": [
+              "can I help her",
+              "if I can help me",
+              "if I could help her",
+              "could you help"
+            ],
+            "correta": 2,
+            "explicacao": "If + ordem afirmativa + could.",
+            "dica": "Pergunta de sim ou não usa if."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa say ou tell corretamente?",
+            "alternativas": [
+              "He said me that",
+              "He told that",
+              "He said to me that tell",
+              "He told me that"
+            ],
+            "correta": 3,
+            "explicacao": "Tell pede a pessoa: told me.",
+            "dica": "Qual dos dois verbos pede a pessoa logo depois?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No reported speech, here vira:",
+            "alternativas": [
+              "now",
+              "there",
+              "then",
+              "this"
+            ],
+            "correta": 1,
+            "explicacao": "Aqui → lá.",
+            "dica": "O aqui de quem falou é o lá de quem conta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Where do you live?\" → She asked ___.",
+            "alternativas": [
+              "where do I live",
+              "where I lived",
+              "where did I live",
+              "where I live do"
+            ],
+            "correta": 1,
+            "explicacao": "Sem do, ordem afirmativa e tempo no passado.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"I saw the accident,\" he said. → He said he ___ the accident.",
+            "alternativas": [
+              "saw",
+              "sees",
+              "had seen",
+              "has see"
+            ],
+            "correta": 2,
+            "explicacao": "Past simple → past perfect.",
+            "dica": "O passado volta para o past perfect."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Close the door,\" the teacher said to me. No indireto:",
+            "alternativas": [
+              "The teacher told me to close the door",
+              "The teacher told me close",
+              "The teacher said me closing",
+              "The teacher asked if close"
+            ],
+            "correta": 0,
+            "explicacao": "Ordem: told + pessoa + to + verbo.",
+            "dica": "Ordem vira \"to\" + verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Don't run!\" she said to us. No indireto:",
+            "alternativas": [
+              "She told us to don't run",
+              "She said us not run",
+              "She told us run not",
+              "She told us not to run"
+            ],
+            "correta": 3,
+            "explicacao": "Ordem negativa: not to + verbo.",
+            "dica": "O not vem antes do to."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"We are hungry,\" they said. → They said they ___ hungry.",
+            "alternativas": [
+              "are",
+              "were",
+              "was",
+              "be"
+            ],
+            "correta": 1,
+            "explicacao": "Are → were.",
+            "dica": "They pede a forma plural do passado."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"I can't come today,\" Rita said yesterday. No indireto:",
+            "alternativas": [
+              "Rita said I can't come today",
+              "Rita said she couldn't come that day",
+              "Rita said she can't come that day",
+              "Rita said she couldn't come tomorrow"
+            ],
+            "correta": 1,
+            "explicacao": "I → she, can't → couldn't, today → that day.",
+            "dica": "Mude pronome, verbo e palavra de tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "She says, \"I am tired.\" (verbo introdutório no presente). No indireto:",
+            "alternativas": [
+              "She says she was tired",
+              "She said she is tired",
+              "She says she is tired",
+              "She says I am tired"
+            ],
+            "correta": 2,
+            "explicacao": "Com says no presente, o tempo não muda.",
+            "dica": "Releia o último parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Are you hungry?\" he asked me. No indireto:",
+            "alternativas": [
+              "He asked are you hungry",
+              "He asked if was I hungry",
+              "He asked me am I hungry",
+              "He asked if I was hungry"
+            ],
+            "correta": 3,
+            "explicacao": "If + ordem afirmativa + was.",
+            "dica": "Pergunta de sim ou não vira if com ordem de frase afirmativa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"You must study,\" Mom said. No indireto:",
+            "alternativas": [
+              "Mom said I must to study",
+              "Mom said I had to study",
+              "Mom said you must study",
+              "Mom told I have studied"
+            ],
+            "correta": 1,
+            "explicacao": "Must, de obrigação, vira had to.",
+            "dica": "Releia o aprofundamento sobre must."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"I bought this book here yesterday,\" said João → João said he had bought that book there the day before. Quantas mudanças houve?",
+            "alternativas": [
+              "5",
+              "3",
+              "4",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "I → he, bought → had bought, this → that, here → there, yesterday → the day before.",
+            "dica": "Compare palavra por palavra."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "cidadania",
+      "titulo": "Racismo: respeito às diferenças e o que diz a Constituição",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Racismo é tratar alguém como inferior por causa da cor da pele, da origem ou da etnia. Aparece em xingamentos, \"piadas\" e apelidos, em desconfiança (seguir alguém na loja) e também em portas que se fecham: emprego, abordagem policial, oportunidades.",
+          "A Constituição de 1988 diz que um dos objetivos do Brasil é promover o bem de todos, sem preconceito de origem, raça, sexo, cor ou idade. E o artigo 5º determina que a prática do racismo é crime inafiançável e imprescritível, sujeito à pena de reclusão (prisão).",
+          "Inafiançável: não se pode pagar fiança para responder em liberdade. Imprescritível: pode ser punido a qualquer tempo. Hoje, a injúria racial (ofender alguém usando a raça ou a cor) também é tratada como racismo.",
+          "\"Era só brincadeira\" não apaga o dano: humor que rebaixa alguém pela cor machuca, ensina preconceito e pode ser crime. Mais da metade dos brasileiros se declara preta ou parda, segundo o IBGE.",
+          "Como agir: não rir nem repetir; acolher quem foi atingido; falar com firmeza e respeito; avisar professor, direção ou responsável; guardar provas (prints, testemunhas); e denunciar pelo Disque 100 ou à polícia (190) quando for grave."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Na sala, um colega chama outro por um apelido racista e a turma ri. O que fazer?",
+            "resolucao": "Não rir, dizer com calma que aquilo não é brincadeira, apoiar o colega atingido e avisar o professor ou a coordenação. Se houver mensagens, guardar os prints."
+          },
+          {
+            "enunciado": "Numa loja, o segurança segue só os clientes negros. O que é isso?",
+            "resolucao": "Discriminação racial. Pode ser denunciada à polícia e gerar processo e indenização."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Racismo estrutural: desigualdades históricas que continuam aparecendo na renda, na escolaridade e na violência, mesmo sem ninguém xingar. O Brasil teve mais de 300 anos de escravidão, abolida em 1888 sem garantir terra, escola ou trabalho aos libertos.",
+        "Ações afirmativas, como cotas em universidades públicas e concursos, buscam corrigir essa desigualdade. Em 2012, o STF considerou as cotas raciais constitucionais.",
+        "Ser antirracista não é só não ofender: é agir contra o preconceito, rever as próprias falas e valorizar a história e a cultura afro-brasileira e indígena."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela Constituição, o racismo é:",
+            "alternativas": [
+              "crime",
+              "brincadeira",
+              "falta leve",
+              "permitido"
+            ],
+            "correta": 0,
+            "explicacao": "Crime inafiançável e imprescritível.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um apelido racista dito \"na brincadeira\":",
+            "alternativas": [
+              "não machuca",
+              "pode machucar e ser crime",
+              "é elogio",
+              "é uma tradição boa"
+            ],
+            "correta": 1,
+            "explicacao": "A intenção de brincar não apaga o dano.",
+            "dica": "Quem é o alvo também está rindo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao ver um colega sendo alvo de racismo, o certo é:",
+            "alternativas": [
+              "rir junto",
+              "filmar e espalhar",
+              "acolher o colega e avisar um adulto responsável",
+              "fingir que não viu"
+            ],
+            "correta": 2,
+            "explicacao": "Apoiar e buscar ajuda.",
+            "dica": "O que ajuda quem foi atingido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número recebe denúncias de violação de direitos humanos?",
+            "alternativas": [
+              "102",
+              "193",
+              "192",
+              "Disque 100"
+            ],
+            "correta": 3,
+            "explicacao": "O Disque 100 recebe denúncias de violação de direitos.",
+            "dica": "É um número redondo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Racismo é tratar alguém como inferior por causa de:",
+            "alternativas": [
+              "seu time",
+              "sua cor, origem ou etnia",
+              "sua altura",
+              "seu nome"
+            ],
+            "correta": 1,
+            "explicacao": "É preconceito ligado à raça e à origem.",
+            "dica": "Releia o primeiro parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa inafiançável?",
+            "alternativas": [
+              "não se pode pagar fiança para responder em liberdade",
+              "a pena é só multa",
+              "pode pagar e sair",
+              "não tem processo"
+            ],
+            "correta": 0,
+            "explicacao": "Sem fiança.",
+            "dica": "Fiança é um valor pago para responder solto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa imprescritível?",
+            "alternativas": [
+              "prescreve em 1 ano",
+              "pode ser punido a qualquer tempo",
+              "não tem pena",
+              "só vale para adultos"
+            ],
+            "correta": 1,
+            "explicacao": "O tempo não apaga o crime.",
+            "dica": "Prescrever é perder o prazo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Segundo o IBGE, os brasileiros que se declaram pretos ou pardos são:",
+            "alternativas": [
+              "cerca de 10%",
+              "só os do Nordeste",
+              "mais da metade da população",
+              "não são contados"
+            ],
+            "correta": 2,
+            "explicacao": "São a maioria da população.",
+            "dica": "Releia o quarto parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dos objetivos do Brasil na Constituição é:",
+            "alternativas": [
+              "promover só os ricos",
+              "acabar com as escolas",
+              "impor uma religião",
+              "promover o bem de todos, sem preconceito de raça ou cor"
+            ],
+            "correta": 3,
+            "explicacao": "Está entre os objetivos fundamentais do país.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem como agir diante de racismo na escola:",
+            "itens": [
+              "Não rir nem repetir a ofensa",
+              "Acolher quem foi atingido",
+              "Avisar o professor ou a direção",
+              "Guardar provas e denunciar se for grave"
+            ],
+            "explicacao": "Primeiro não participar, depois apoiar, buscar ajuda e registrar.",
+            "dica": "O primeiro passo é não fazer parte da ofensa."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Hoje, a injúria racial:",
+            "alternativas": [
+              "é só falta de educação",
+              "é tratada como racismo, com pena de prisão",
+              "é uma multa de trânsito",
+              "é permitida nas redes sociais"
+            ],
+            "correta": 1,
+            "explicacao": "Ofender usando raça ou cor é tratado como racismo.",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa loja, o segurança segue só os clientes negros. Isso é:",
+            "alternativas": [
+              "discriminação que pode ser denunciada e gerar processo",
+              "normal",
+              "dever do segurança",
+              "permitido se tiver placa"
+            ],
+            "correta": 0,
+            "explicacao": "Tratamento desigual pela cor.",
+            "dica": "Todos os clientes são tratados igual?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Racismo estrutural é:",
+            "alternativas": [
+              "só xingamento",
+              "algo que acabou em 1888",
+              "desigualdade histórica que continua em renda, escola e violência",
+              "um tipo de construção"
+            ],
+            "correta": 2,
+            "explicacao": "Está nas estruturas da sociedade, não só nas falas.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Não sou racista, mas não ando com eles.\" Essa frase revela:",
+            "alternativas": [
+              "respeito",
+              "opinião neutra",
+              "gosto pessoal",
+              "preconceito disfarçado"
+            ],
+            "correta": 3,
+            "explicacao": "Evitar pessoas pela cor é preconceito.",
+            "dica": "O \"mas\" desmente o começo da frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor resposta ao amigo que diz \"é só brincadeira\"?",
+            "alternativas": [
+              "\"Tá certo, deixa pra lá\"",
+              "\"Brincadeira só tem graça quando todo mundo ri, inclusive o alvo; isso machuca e é crime\"",
+              "xingar o amigo",
+              "bater nele"
+            ],
+            "correta": 1,
+            "explicacao": "Firmeza com respeito e argumento.",
+            "dica": "Responda com argumento, sem agressão."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que ano a escravidão foi abolida no Brasil?",
+            "alternativas": [
+              "1822",
+              "1888",
+              "1889",
+              "1988"
+            ],
+            "correta": 1,
+            "explicacao": "Em 13 de maio de 1888.",
+            "dica": "Foi no fim do século XIX, um ano antes da República."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 2012, o STF decidiu que as cotas raciais são:",
+            "alternativas": [
+              "ilegais",
+              "privilégio sem motivo",
+              "constitucionais",
+              "só para escolas particulares"
+            ],
+            "correta": 2,
+            "explicacao": "São ação afirmativa para corrigir desigualdade.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ser antirracista é:",
+            "alternativas": [
+              "agir contra o preconceito, rever as próprias falas e valorizar a cultura afro-brasileira e indígena",
+              "só não xingar",
+              "evitar o assunto",
+              "dizer que não vê cor"
+            ],
+            "correta": 0,
+            "explicacao": "Não basta não ofender.",
+            "dica": "É uma atitude ativa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que uma abolição sem terra, escola ou trabalho ainda afeta o Brasil hoje?",
+            "alternativas": [
+              "não afeta",
+              "porque a lei mudou em 1988",
+              "porque a escravidão continua legal",
+              "porque gerou desvantagens que passaram de geração em geração"
+            ],
+            "correta": 3,
+            "explicacao": "A falta de oportunidades se transmitiu às gerações seguintes.",
+            "dica": "Pense nos filhos e netos dos libertos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como guardar provas de racismo num grupo de mensagens?",
+            "alternativas": [
+              "apagar tudo",
+              "fazer print com data, nome e conteúdo e guardar",
+              "responder com ofensa",
+              "sair sem falar nada"
+            ],
+            "correta": 1,
+            "explicacao": "Provas ajudam na denúncia.",
+            "dica": "O que um adulto ou a polícia vai precisar ver?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O apelido que não era brincadeira",
+    "texto": "Na primeira semana do 9º ano, alguém da turma inventou um apelido para o Wesley. Tinha a ver com a cor da pele dele e com um bicho. A sala inteira riu. Wesley também riu, meio de lado, e voltou a olhar para o caderno.\n\nO apelido pegou. Aparecia no grupo da turma, em figurinhas, no intervalo, até na quadra. Cada vez que alguém falava, Wesley ria um pouco menos. No segundo mês, começou a faltar às sextas, dia de educação física.\n\nGabriel sentava duas carteiras atrás. Também tinha rido no primeiro dia, e isso o incomodava. Numa noite, viu mais uma figurinha no grupo e percebeu que Wesley não respondia nada fazia semanas. Lembrou da aula de cidadania: racismo é crime, e o que machuca alguém pela cor não vira piada só porque a sala ri.\n\nNo dia seguinte, quando o apelido surgiu de novo, Gabriel falou alto, sem gritar:\n\n— Para com isso. Não tem graça. Ele nunca riu de verdade.\n\nFez-se um silêncio esquisito. Alguém respondeu que era só brincadeira. Gabriel devolveu que brincadeira é quando todo mundo se diverte, inclusive quem é o alvo. Na saída, procurou a coordenadora e mostrou as figurinhas.\n\nA escola chamou as famílias, conversou com a turma e organizou uma roda de conversa sobre racismo. O apelido sumiu.\n\nSemanas depois, Wesley sentou ao lado de Gabriel no ônibus e disse só uma frase: que tinha passado dois meses achando que ninguém percebia. Gabriel ficou pensando quanto tempo um silêncio pode durar quando ninguém resolve falar."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva o que você diria, com argumentos e respeito, a um amigo que acha que apelido racista é só brincadeira."
+  }
+}

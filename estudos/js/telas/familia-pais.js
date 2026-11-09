@@ -33,7 +33,7 @@ async function desenhar(caixa) {
       el('p', {}, 'Código da família: ', el('strong', { class: 'codigo-familia' }, familia.codigo)),
       el('p', { class: 'dica' }, 'No celular do irmão: Pais → Disputa da família → Entrar com código. Não divulgue o código fora de casa.'),
       el('p', {}, nomes.length ? `Disputando com: ${nomes.join(', ')}` : 'Nenhum irmão entrou ainda.'),
-      el('p', { class: 'dica' }, 'Vai para a internet só: apelido, herói, itens, camada e o dinheiro do jogo. Notas das lições, respostas, fotos e áudios ficam só neste celular.'),
+      el('p', { class: 'dica' }, 'Vai para a internet só: apelido, herói, itens, camada, o dinheiro do jogo e a nota de cada lição (de 0 a 5, para criar lições de reforço nos temas mais difíceis). As respostas, fotos e áudios ficam só neste celular.'),
       el('div', { class: 'linha' },
         el('button', { class: 'botao', onclick: async e => {
           e.currentTarget.disabled = true;

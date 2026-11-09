@@ -1,0 +1,1205 @@
+{
+  "dia": 21,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Números reais: racionais, irracionais e dízimas periódicas",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Os naturais (0, 1, 2, 3...) e os inteiros (que incluem os negativos) fazem parte de um grupo maior: os racionais. Racional é todo número que pode ser escrito como fração a/b, com a e b inteiros e b diferente de zero. Exemplos: 3 = 3/1, −0,5 = −1/2 e 0,75 = 3/4.",
+          "Decimais exatos (0,25 = 1/4) e dízimas periódicas (0,333... = 1/3) também são racionais. Na dízima, a parte que se repete para sempre se chama período: em 0,272727..., o período é 27.",
+          "Irracionais são números com infinitas casas decimais que nunca se repetem em padrão. Eles não podem ser escritos como fração. Exemplos: √2 = 1,41421356..., √3 = 1,7320508... e π = 3,14159... A raiz quadrada de um natural que não é quadrado perfeito é irracional.",
+          "Racionais e irracionais juntos formam os números reais. Cada ponto da reta numérica é um número real. Já √(−4) não é real, porque nenhum número real multiplicado por ele mesmo dá negativo.",
+          "Fração geratriz de uma dízima simples: coloque o período no numerador e, no denominador, tantos 9 quantos forem os algarismos do período. 0,444... = 4/9 e 0,272727... = 27/99 = 3/11."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: 0,8; 0,121212...; √16; √5; π.",
+            "resolucao": "0,8 = 4/5 é racional. 0,1212... = 12/99 = 4/33 é racional. √16 = 4 é racional (é até natural). √5 e π são irracionais."
+          },
+          {
+            "enunciado": "Ache a fração geratriz de 0,363636...",
+            "resolucao": "Chame x = 0,3636... Multiplique por 100: 100x = 36,3636... Subtraia: 100x − x = 36, então 99x = 36 e x = 36/99 = 4/11."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Dízima composta tem uma parte que não se repete antes do período. Para 0,1666...: x = 0,1666...; 10x = 1,666...; 100x = 16,666... Subtraindo, 90x = 15, e x = 15/90 = 1/6.",
+        "Uma curiosidade honesta: 0,999... é exatamente 1. Faça x = 0,999...; 10x = 9,999...; 10x − x = 9; 9x = 9; x = 1.",
+        "Racional + irracional dá sempre irracional (2 + √3). Mas dois irracionais podem dar racional: √2 + (−√2) = 0 e √2 × √8 = √16 = 4. Uma fração irredutível vira decimal exato quando o denominador só tem os fatores primos 2 e 5 (3/8 = 0,375); com outros fatores, vira dízima (1/6, 2/7)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é irracional?",
+            "alternativas": [
+              "0,5",
+              "√2",
+              "3/4",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "√2 = 1,4142... nunca termina e nunca repete um padrão. Os outros podem ser escritos como fração.",
+            "dica": "Procure o número cujo decimal não acaba e não se repete."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O número 0,333... é:",
+            "alternativas": [
+              "uma dízima periódica",
+              "um número irracional",
+              "um número inteiro",
+              "uma raiz quadrada"
+            ],
+            "correta": 0,
+            "explicacao": "O algarismo 3 se repete para sempre: é dízima periódica, e vale 1/3.",
+            "dica": "Repare que um algarismo fica se repetindo sem parar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é igual a 0,5?",
+            "alternativas": [
+              "1/5",
+              "5/1",
+              "1/2",
+              "2/5"
+            ],
+            "correta": 2,
+            "explicacao": "1 ÷ 2 = 0,5. Já 1/5 = 0,2 e 2/5 = 0,4.",
+            "dica": "Divida o numerador pelo denominador em cada opção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "√9 é um número:",
+            "alternativas": [
+              "irracional",
+              "negativo",
+              "com dízima",
+              "racional, porque vale 3"
+            ],
+            "correta": 3,
+            "explicacao": "3 × 3 = 9, então √9 = 3, que é racional.",
+            "dica": "Qual número vezes ele mesmo dá 9?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor aproximado de π?",
+            "alternativas": [
+              "2,71",
+              "3,14",
+              "1,41",
+              "4,13"
+            ],
+            "correta": 1,
+            "explicacao": "π vale cerca de 3,14. O 1,41 é a raiz de 2.",
+            "dica": "É o número usado para calcular o comprimento de uma circunferência."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fração geratriz de 0,777...?",
+            "alternativas": [
+              "7/9",
+              "7/10",
+              "77/100",
+              "1/7"
+            ],
+            "correta": 0,
+            "explicacao": "Período de um algarismo (7) vai sobre um 9: 7/9. A fração 7/10 é 0,7, que termina.",
+            "dica": "Período com um algarismo: quantos noves vão no denominador?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números NÃO é racional?",
+            "alternativas": [
+              "−5",
+              "0,1212...",
+              "√7",
+              "√25"
+            ],
+            "correta": 2,
+            "explicacao": "7 não é quadrado perfeito, então √7 é irracional. √25 = 5.",
+            "dica": "Veja qual raiz não dá um número inteiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Escreva 0,272727... como fração irredutível.",
+            "alternativas": [
+              "27/100",
+              "3/11",
+              "2/7",
+              "27/90"
+            ],
+            "correta": 1,
+            "explicacao": "27/99; dividindo em cima e embaixo por 9, fica 3/11.",
+            "dica": "Período 27 sobre 99, depois simplifique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais conjuntos, juntos, formam os números reais?",
+            "alternativas": [
+              "naturais e inteiros",
+              "só os racionais",
+              "racionais e irracionais",
+              "só as frações positivas"
+            ],
+            "correta": 2,
+            "explicacao": "Todo real é racional ou irracional.",
+            "dica": "Pense nos dois tipos de decimal: os que viram fração e os que não viram."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente:",
+            "itens": [
+              "−1,5",
+              "√2",
+              "1,5",
+              "π"
+            ],
+            "explicacao": "−1,5 é negativo; √2 ≈ 1,41 é menor que 1,5; π ≈ 3,14 é o maior.",
+            "dica": "√2 vale cerca de 1,41."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fração geratriz de 0,1666...?",
+            "alternativas": [
+              "1/6",
+              "16/99",
+              "1/16",
+              "166/1000"
+            ],
+            "correta": 0,
+            "explicacao": "10x = 1,666... e 100x = 16,666...; subtraindo, 90x = 15 e x = 15/90 = 1/6.",
+            "dica": "Multiplique por 10 e por 100 e subtraia uma da outra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é verdadeira?",
+            "alternativas": [
+              "Toda raiz quadrada é irracional",
+              "Toda dízima é irracional",
+              "π é igual a 22/7",
+              "Toda dízima periódica pode virar fração"
+            ],
+            "correta": 3,
+            "explicacao": "Dízimas periódicas são racionais. √4 = 2 é racional, e 22/7 = 3,142857... é só uma aproximação de π.",
+            "dica": "Desconfie das palavras \"toda\" e teste com exemplos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Entre quais inteiros consecutivos fica √40?",
+            "alternativas": [
+              "5 e 6",
+              "6 e 7",
+              "7 e 8",
+              "4 e 5"
+            ],
+            "correta": 1,
+            "explicacao": "36 < 40 < 49, então 6 < √40 < 7.",
+            "dica": "Procure os quadrados perfeitos mais perto de 40."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração vira decimal exato?",
+            "alternativas": [
+              "1/3",
+              "5/6",
+              "3/8",
+              "2/7"
+            ],
+            "correta": 2,
+            "explicacao": "3/8 = 0,375. As outras viram dízimas.",
+            "dica": "Divida cada uma na calculadora ou olhe os fatores do denominador."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 0,4 + 0,444...?",
+            "alternativas": [
+              "0,8",
+              "38/45",
+              "8/9",
+              "44/99"
+            ],
+            "correta": 1,
+            "explicacao": "0,4 = 2/5 e 0,444... = 4/9. 2/5 + 4/9 = 18/45 + 20/45 = 38/45 (= 0,8444...).",
+            "dica": "Escreva as duas como frações antes de somar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 0,999...?",
+            "alternativas": [
+              "Um pouco menos que 1",
+              "Exatamente 1",
+              "0,9",
+              "Não dá para saber"
+            ],
+            "correta": 1,
+            "explicacao": "x = 0,999...; 10x = 9,999...; 9x = 9; x = 1.",
+            "dica": "Releia a curiosidade do aprofundamento e faça a conta com x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fração geratriz de 0,2353535...?",
+            "alternativas": [
+              "233/990",
+              "235/999",
+              "35/99",
+              "2353/9999"
+            ],
+            "correta": 0,
+            "explicacao": "10x = 2,3535... e 1000x = 235,3535...; subtraindo, 990x = 233, então x = 233/990.",
+            "dica": "Leve a vírgula para antes e para depois do período e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sobre √2 + √2 e √2 × √2, é correto dizer:",
+            "alternativas": [
+              "Os dois resultados são irracionais",
+              "Os dois resultados são racionais",
+              "A soma é irracional e o produto é racional",
+              "A soma é √4 = 2"
+            ],
+            "correta": 2,
+            "explicacao": "√2 + √2 = 2√2 (irracional). √2 × √2 = 2 (racional). Somar raízes não junta os radicandos.",
+            "dica": "Calcule cada operação separadamente; cuidado com a soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números inteiros existem entre −√10 e √20?",
+            "alternativas": [
+              "7",
+              "8",
+              "9",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "−√10 ≈ −3,16 e √20 ≈ 4,47. Os inteiros são −3, −2, −1, 0, 1, 2, 3 e 4: oito.",
+            "dica": "Estime as duas raízes e conte os inteiros entre elas, incluindo o zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes números é racional?",
+            "alternativas": [
+              "π + 1",
+              "√8",
+              "√3 + 1",
+              "√2 × √8"
+            ],
+            "correta": 3,
+            "explicacao": "√2 × √8 = √16 = 4. Os outros continuam irracionais.",
+            "dica": "Multiplicar raízes junta tudo dentro de uma raiz só."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Reserva de emergência: quanto guardar e onde deixar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Reserva de emergência é um dinheiro guardado só para imprevistos: perder o emprego, consertar a moto, um problema de saúde, a geladeira que queima. Não é para viagem nem para aproveitar promoção.",
+          "Quanto guardar: a recomendação comum é de 3 a 6 meses dos gastos essenciais da família. Para quem tem renda instável, como autônomos, o ideal chega a 12 meses. Uma família que gasta R$ 2.500 por mês com o essencial deveria ter entre R$ 7.500 e R$ 15.000.",
+          "Onde deixar: em lugar seguro, com liquidez (dá para sacar rápido, até no mesmo dia) e que renda pelo menos perto da inflação. Exemplos: Tesouro Selic, CDB com liquidez diária e conta remunerada de banco sólido. A poupança é segura, mas costuma render menos. Ações não servem, porque podem cair justo quando você precisar; o colchão perde para a inflação e pode ser roubado.",
+          "Como montar: comece pequeno. Defina a meta, separe um valor fixo assim que receber (\"pague-se primeiro\") e use dinheiro extra, como 13º e bicos. Usou a reserva? Reponha aos poucos.",
+          "Com reserva, você não precisa recorrer ao cheque especial nem ao rotativo do cartão, que estão entre os juros mais altos do país."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Gastos essenciais de uma família: aluguel R$ 900, mercado R$ 700, contas de luz, água e gás R$ 250, transporte R$ 250 e celular/internet R$ 100. Qual a reserva de 6 meses?",
+            "resolucao": "Total por mês: 900 + 700 + 250 + 250 + 100 = R$ 2.200. Reserva de 6 meses: 2.200 × 6 = R$ 13.200."
+          },
+          {
+            "enunciado": "Guardando R$ 300 por mês, em quanto tempo se juntam R$ 3.600, sem contar o rendimento?",
+            "resolucao": "3.600 ÷ 300 = 12 meses."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Segurança, liquidez e rentabilidade quase nunca andam juntas no máximo. Na reserva, a prioridade é segurança e liquidez; render muito fica em segundo plano.",
+        "A inflação corrói o dinheiro parado: com inflação de 5% ao ano, R$ 1.000 no colchão compram, depois de um ano, o que hoje custaria cerca de R$ 952 (1.000 ÷ 1,05). O FGC (Fundo Garantidor de Créditos) protege CDB e poupança até R$ 250 mil por CPF em cada instituição; o Tesouro Selic é um título do governo federal.",
+        "Ordem sensata das finanças: primeiro sair das dívidas de juros altos, depois montar a reserva e só então investir com risco para objetivos de longo prazo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A reserva de emergência serve para:",
+            "alternativas": [
+              "viajar nas férias",
+              "comprar na promoção",
+              "imprevistos, como perder o emprego ou um conserto urgente",
+              "apostar"
+            ],
+            "correta": 2,
+            "explicacao": "Ela existe para o inesperado, não para desejos.",
+            "dica": "Pense em algo que acontece sem avisar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a recomendação comum para o tamanho da reserva?",
+            "alternativas": [
+              "1 semana de gastos",
+              "3 a 6 meses de gastos",
+              "5 anos de salário",
+              "R$ 100"
+            ],
+            "correta": 1,
+            "explicacao": "De 3 a 6 meses dos gastos essenciais, e mais para quem tem renda instável.",
+            "dica": "Pense em quantos meses alguém leva para achar outro emprego."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lugar NÃO é bom para a reserva?",
+            "alternativas": [
+              "debaixo do colchão",
+              "Tesouro Selic",
+              "CDB com liquidez diária",
+              "conta remunerada de banco sólido"
+            ],
+            "correta": 0,
+            "explicacao": "No colchão, o dinheiro perde para a inflação e pode ser roubado.",
+            "dica": "Qual opção não rende nada e ainda corre risco?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Liquidez é:",
+            "alternativas": [
+              "ganhar muito juro",
+              "pagar menos imposto",
+              "conseguir empréstimo fácil",
+              "poder sacar o dinheiro rápido"
+            ],
+            "correta": 3,
+            "explicacao": "Ter liquidez é transformar o investimento em dinheiro na mão rapidamente.",
+            "dica": "Tem a ver com a velocidade para ter o dinheiro de volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Pague-se primeiro\" quer dizer:",
+            "alternativas": [
+              "gastar tudo e guardar o que sobrar",
+              "separar o dinheiro da reserva assim que receber",
+              "pagar as contas atrasadas dos outros",
+              "comprar um presente para si"
+            ],
+            "correta": 1,
+            "explicacao": "Quem espera sobrar quase nunca guarda; separar logo no início garante a meta.",
+            "dica": "O \"primeiro\" é sobre o momento de guardar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família gasta R$ 2.000 por mês com o essencial. Qual a reserva de 6 meses?",
+            "alternativas": [
+              "R$ 6.000",
+              "R$ 12.000",
+              "R$ 2.000",
+              "R$ 24.000"
+            ],
+            "correta": 1,
+            "explicacao": "2.000 × 6 = 12.000.",
+            "dica": "Multiplique o gasto mensal pelo número de meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não deixar a reserva em ações?",
+            "alternativas": [
+              "o preço pode cair justo quando você precisar sacar",
+              "ações são proibidas para família",
+              "ações nunca rendem",
+              "ações só servem para empresas"
+            ],
+            "correta": 0,
+            "explicacao": "Ações oscilam; a reserva precisa estar disponível e inteira na hora do aperto.",
+            "dica": "Lembre o que a reserva precisa ter: segurança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Guardando R$ 250 por mês, em quantos meses se juntam R$ 4.500, sem rendimento?",
+            "alternativas": [
+              "15",
+              "20",
+              "18",
+              "16"
+            ],
+            "correta": 2,
+            "explicacao": "4.500 ÷ 250 = 18.",
+            "dica": "Divida a meta pelo valor guardado por mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem tem renda instável, como um autônomo, deve ter uma reserva:",
+            "alternativas": [
+              "menor que a de quem tem carteira",
+              "de só 1 mês",
+              "nula, porque ganha por dia",
+              "maior, podendo chegar a 12 meses de gastos"
+            ],
+            "correta": 3,
+            "explicacao": "Sem salário fixo, os meses fracos são mais prováveis; a reserva precisa ser maior.",
+            "dica": "Quem não sabe quanto vai ganhar precisa de mais ou de menos proteção?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para montar a reserva:",
+            "itens": [
+              "Somar os gastos essenciais do mês",
+              "Multiplicar pelo número de meses da meta",
+              "Separar um valor fixo assim que receber",
+              "Repor sempre que usar"
+            ],
+            "explicacao": "Primeiro descobre a meta, depois guarda com regularidade e mantém a reserva cheia.",
+            "dica": "Só dá para definir a meta depois de conhecer os gastos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Gastos: aluguel R$ 800, mercado R$ 600, contas R$ 300 e transporte R$ 200. Qual a reserva de 3 meses?",
+            "alternativas": [
+              "R$ 5.700",
+              "R$ 1.900",
+              "R$ 7.600",
+              "R$ 11.400"
+            ],
+            "correta": 0,
+            "explicacao": "Total por mês: 1.900. 1.900 × 3 = 5.700. (7.600 seriam 4 meses e 11.400, 6 meses.)",
+            "dica": "Some os gastos do mês antes de multiplicar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana tem R$ 4.000 de reserva e gasta R$ 1.600 por mês. Por quanto tempo a reserva cobre os gastos?",
+            "alternativas": [
+              "2 meses",
+              "4 meses",
+              "2 meses e meio",
+              "3 meses"
+            ],
+            "correta": 2,
+            "explicacao": "4.000 ÷ 1.600 = 2,5 meses.",
+            "dica": "Divida a reserva pelo gasto mensal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor opção para a reserva?",
+            "alternativas": [
+              "CDB que só pode ser sacado daqui a 3 anos, rendendo mais",
+              "Tesouro Selic, que pode ser resgatado rápido",
+              "ações de uma empresa famosa",
+              "emprestar a um amigo"
+            ],
+            "correta": 1,
+            "explicacao": "A reserva precisa de liquidez e segurança. O CDB de 3 anos rende mais, mas prende o dinheiro.",
+            "dica": "Render mais não adianta se o dinheiro fica preso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com inflação de 5% ao ano, R$ 1.000 parados no colchão compram, depois de um ano, o equivalente a:",
+            "alternativas": [
+              "R$ 1.050 de hoje",
+              "R$ 1.000 de hoje",
+              "R$ 500 de hoje",
+              "cerca de R$ 952 de hoje"
+            ],
+            "correta": 3,
+            "explicacao": "1.000 ÷ 1,05 ≈ 952,38. O dinheiro é o mesmo, mas compra menos.",
+            "dica": "Os preços sobem 5%; divida o valor por 1,05."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Carlos usou R$ 1.200 da reserva para consertar a moto. O certo agora é:",
+            "alternativas": [
+              "esquecer, pois a reserva foi feita para isso",
+              "repor aos poucos até voltar à meta",
+              "pegar empréstimo para repor de uma vez",
+              "parar de guardar"
+            ],
+            "correta": 1,
+            "explicacao": "Usar está certo; mas a reserva precisa voltar a ficar cheia para o próximo imprevisto.",
+            "dica": "O próximo imprevisto pode chegar no mês que vem."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família gasta R$ 3.000 por mês e quer 6 meses de reserva. Já tem R$ 6.000 e guarda R$ 500 por mês. Quantos meses faltam, sem rendimento?",
+            "alternativas": [
+              "24",
+              "36",
+              "12",
+              "18"
+            ],
+            "correta": 0,
+            "explicacao": "Meta: 18.000. Faltam 18.000 − 6.000 = 12.000. 12.000 ÷ 500 = 24 meses.",
+            "dica": "Calcule a meta, desconte o que já tem e divida pelo que guarda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem reserva, Paula usou R$ 1.000 do cheque especial por 2 meses, a 8% ao mês, juros sobre juros. Quanto pagou de juros?",
+            "alternativas": [
+              "R$ 160,00",
+              "R$ 166,40",
+              "R$ 80,00",
+              "R$ 1.160,00"
+            ],
+            "correta": 1,
+            "explicacao": "1.000 × 1,08 = 1.080; 1.080 × 1,08 = 1.166,40. Juros: R$ 166,40.",
+            "dica": "Juros sobre juros: multiplique por 1,08 duas vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Até quanto o FGC protege o dinheiro aplicado em CDB?",
+            "alternativas": [
+              "R$ 1 milhão por banco",
+              "não protege nada",
+              "até R$ 250 mil por CPF em cada instituição",
+              "só a poupança é protegida"
+            ],
+            "correta": 2,
+            "explicacao": "O FGC cobre até R$ 250 mil por CPF em cada instituição, incluindo CDB e poupança.",
+            "dica": "Releia o aprofundamento: o limite é por pessoa e por instituição."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque na ordem sensata das finanças, segundo o aprofundamento:",
+            "itens": [
+              "Sair das dívidas de juros altos",
+              "Montar a reserva de emergência",
+              "Investir com risco para objetivos de longo prazo"
+            ],
+            "explicacao": "Dívida cara cresce mais rápido do que qualquer investimento; depois vem a proteção; o risco fica por último.",
+            "dica": "O que cresce mais rápido: os juros de uma dívida ou o rendimento de uma aplicação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana é autônoma, ganha entre R$ 2.000 e R$ 5.000 por mês e gasta R$ 2.500 com o essencial. Qual reserva é mais prudente?",
+            "alternativas": [
+              "R$ 2.500, um mês de gastos",
+              "R$ 5.000, a maior renda",
+              "R$ 3.500, a média da renda",
+              "de R$ 15.000 a R$ 30.000, de 6 a 12 meses de gastos"
+            ],
+            "correta": 3,
+            "explicacao": "A base são os gastos, não a renda. Renda instável pede mais meses: 6 × 2.500 = 15.000; 12 × 2.500 = 30.000.",
+            "dica": "A reserva cobre gastos; e quem tem renda que varia precisa de mais meses."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Strings: fatiar, juntar e transformar textos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Em Python, texto é chamado de string e fica entre aspas: nome = \"Brasil\". Cada caractere tem uma posição (índice) que começa em 0: nome[0] é \"B\" e nome[5] é \"l\". Índices negativos contam do fim: nome[-1] é o último, \"l\".",
+          "Fatiar: texto[início:fim] pega do início até ANTES do fim. \"Brasil\"[0:3] dá \"Bra\"; \"Brasil\"[3:] dá \"sil\"; \"Brasil\"[:2] dá \"Br\".",
+          "Juntar (concatenar) usa +: \"São\" + \" \" + \"Paulo\" dá \"São Paulo\". Repetir usa *: \"ha\" * 3 dá \"hahaha\". E len(\"Brasil\") devolve 6, o número de caracteres (espaços também contam).",
+          "Transformar: .upper() deixa tudo maiúsculo, .lower() minúsculo, .strip() tira espaços das pontas e .replace(\"a\", \"o\") troca letras. Esses métodos devolvem um texto NOVO; a string original não muda, porque strings são imutáveis.",
+          "Texto e número não se somam direto: \"Idade: \" + 15 dá erro. Use str(15) ou uma f-string: f\"Idade: {idade}\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "palavra = \"Paralelepípedo\". Quanto valem palavra[0:4] e len(palavra)?",
+            "resolucao": "palavra[0:4] pega os índices 0, 1, 2 e 3: \"Para\". A palavra tem 14 letras, então len(palavra) = 14."
+          },
+          {
+            "enunciado": "nome = \"  ana souza  \". O que mostra print(nome.strip().upper())?",
+            "resolucao": "strip() tira os espaços das pontas: \"ana souza\". upper() deixa maiúsculo: ANA SOUZA."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Fatia com passo: texto[::2] pega de 2 em 2; texto[::-1] inverte: \"roma\"[::-1] dá \"amor\". Uma palavra é palíndromo quando palavra == palavra[::-1], como \"arara\".",
+        "split quebra o texto em lista: \"maçã,uva,pera\".split(\",\") dá [\"maçã\", \"uva\", \"pera\"]; \" \".join(lista) junta com espaço. .count(\"a\") conta quantas vezes aparece, e \"a\" in texto testa se aparece.",
+        "Fatia com passo a partir de uma posição: \"abcdefgh\"[1::3] começa no índice 1 e pula de 3 em 3: índices 1, 4 e 7, ou seja, \"beh\"."
+      ],
+      "desafio_pratico": "Num site de Python on-line, peça o nome completo da pessoa com input(), tire os espaços das pontas e mostre: o nome em maiúsculas, a quantidade de letras e o nome de trás para frente.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Se texto = \"Brasil\", quanto vale texto[0]?",
+            "alternativas": [
+              "B",
+              "r",
+              "l",
+              "Brasil"
+            ],
+            "correta": 0,
+            "explicacao": "O primeiro caractere fica na posição 0.",
+            "dica": "Em Python, a contagem começa do zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá len(\"casa\")?",
+            "alternativas": [
+              "3",
+              "5",
+              "4",
+              "casa"
+            ],
+            "correta": 2,
+            "explicacao": "c-a-s-a: 4 caracteres.",
+            "dica": "Conte as letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de \"bom\" + \"dia\"?",
+            "alternativas": [
+              "bom dia",
+              "bomdia",
+              "dia bom",
+              "erro"
+            ],
+            "correta": 1,
+            "explicacao": "O + junta sem colocar espaço.",
+            "dica": "O Python não coloca espaço sozinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual método deixa todo o texto em maiúsculas?",
+            "alternativas": [
+              ".lower()",
+              ".strip()",
+              ".replace()",
+              ".upper()"
+            ],
+            "correta": 3,
+            "explicacao": "upper quer dizer \"de cima\", as letras maiúsculas.",
+            "dica": "Em inglês, \"up\" é para cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro índice de uma string?",
+            "alternativas": [
+              "1",
+              "0",
+              "-1",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "Os índices começam em 0.",
+            "dica": "Lembre da pergunta sobre texto[0]."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale \"Brasil\"[0:3]?",
+            "alternativas": [
+              "Bra",
+              "Bras",
+              "ras",
+              "Br"
+            ],
+            "correta": 0,
+            "explicacao": "Pega os índices 0, 1 e 2, e para antes do 3.",
+            "dica": "O fim da fatia não entra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale \"ha\" * 3?",
+            "alternativas": [
+              "ha3",
+              "hahaha",
+              "3ha",
+              "erro"
+            ],
+            "correta": 1,
+            "explicacao": "O * repete o texto 3 vezes.",
+            "dica": "Multiplicar texto é repetir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que dá \"  oi  \".strip()?",
+            "alternativas": [
+              "\"  oi\"",
+              "\"oi  \"",
+              "\"oi\"",
+              "\"  oi  \""
+            ],
+            "correta": 2,
+            "explicacao": "strip tira os espaços dos dois lados.",
+            "dica": "O método limpa as duas pontas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com nome = \"Lia\", o que mostra print(nome[-1])?",
+            "alternativas": [
+              "L",
+              "i",
+              "Lia",
+              "a"
+            ],
+            "correta": 3,
+            "explicacao": "Índice -1 é o último caractere.",
+            "dica": "Negativo conta a partir do fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha dá erro?",
+            "alternativas": [
+              "print(\"Idade: \" + str(15))",
+              "print(f\"Idade: {15}\")",
+              "print(\"Idade: \" + 15)",
+              "print(\"Idade:\", 15)"
+            ],
+            "correta": 2,
+            "explicacao": "Somar texto com número dá erro; é preciso converter com str() ou usar f-string ou vírgula no print.",
+            "dica": "Procure a soma de texto com número sem conversão."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Se t = \"escola\", quanto vale t[1:4]?",
+            "alternativas": [
+              "esc",
+              "scol",
+              "sco",
+              "col"
+            ],
+            "correta": 2,
+            "explicacao": "Índices: e0 s1 c2 o3 l4 a5. Do 1 até antes do 4: s, c, o.",
+            "dica": "Numere as letras a partir do zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se s = \"banana\", o que dá s.replace(\"a\", \"o\")?",
+            "alternativas": [
+              "bonono",
+              "bonana",
+              "banana",
+              "bnn"
+            ],
+            "correta": 0,
+            "explicacao": "replace troca TODOS os \"a\" por \"o\".",
+            "dica": "A troca vale para todas as ocorrências."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "s = \"banana\". Depois de s.upper(), sem guardar o resultado, o que mostra print(s)?",
+            "alternativas": [
+              "BANANA",
+              "banana",
+              "Banana",
+              "erro"
+            ],
+            "correta": 1,
+            "explicacao": "Strings são imutáveis: upper() criou um texto novo que não foi guardado. Para mudar, seria s = s.upper().",
+            "dica": "O resultado do método foi guardado em alguma variável?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá len(\"São Paulo\")?",
+            "alternativas": [
+              "8",
+              "9",
+              "10",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "S-ã-o (3) + espaço (1) + P-a-u-l-o (5) = 9.",
+            "dica": "O espaço também é um caractere."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com idade = 14, qual linha mostra Tenho 14 anos?",
+            "alternativas": [
+              "print(\"Tenho idade anos\")",
+              "print(\"Tenho \" + idade + \" anos\")",
+              "print(\"Tenho {idade} anos\")",
+              "print(f\"Tenho {idade} anos\")"
+            ],
+            "correta": 3,
+            "explicacao": "Só a f-string troca {idade} pelo valor. Sem o f, as chaves aparecem como texto; somar com número dá erro.",
+            "dica": "Repare na letra antes das aspas."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale \"roma\"[::-1]?",
+            "alternativas": [
+              "amor",
+              "roma",
+              "ramo",
+              "mora"
+            ],
+            "correta": 0,
+            "explicacao": "Passo -1 inverte o texto: a, m, o, r.",
+            "dica": "Leia a palavra de trás para frente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é palíndromo (palavra == palavra[::-1])?",
+            "alternativas": [
+              "casa",
+              "arara",
+              "bola",
+              "pato"
+            ],
+            "correta": 1,
+            "explicacao": "\"arara\" de trás para frente continua \"arara\".",
+            "dica": "Inverta cada palavra e compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá len(\"maçã,uva,pera\".split(\",\"))?",
+            "alternativas": [
+              "13",
+              "1",
+              "3",
+              "2"
+            ],
+            "correta": 2,
+            "explicacao": "split cria a lista [\"maçã\", \"uva\", \"pera\"], com 3 itens.",
+            "dica": "Primeiro descubra a lista; depois conte os itens, não as letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale \"abcdefgh\"[1::3]?",
+            "alternativas": [
+              "bdf",
+              "adg",
+              "bcd",
+              "beh"
+            ],
+            "correta": 3,
+            "explicacao": "Começa no índice 1 (b) e pula de 3 em 3: índices 1, 4 e 7, ou seja, b, e, h.",
+            "dica": "Comece no índice 1 e some 3 a cada passo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "t = \"Ana\". O que acontece com t[0] = \"E\"?",
+            "alternativas": [
+              "vira \"Ena\"",
+              "dá erro, porque strings não podem ser alteradas",
+              "vira \"E\"",
+              "nada acontece e não dá erro"
+            ],
+            "correta": 1,
+            "explicacao": "Strings são imutáveis; para trocar, crie outra: t = \"E\" + t[1:].",
+            "dica": "Lembre o que a lição diz sobre mudar uma string."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Sujeito: oculto, indeterminado e oração sem sujeito",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Sujeito é o termo sobre o qual se declara algo, e o verbo concorda com ele. Para achá-lo, pergunte ao verbo \"quem?\" ou \"o quê?\". \"Os alunos chegaram cedo\": quem chegou? Os alunos.",
+          "Sujeito simples tem um núcleo (\"A professora explicou\"); composto tem dois ou mais (\"Pedro e Rita estudaram\").",
+          "Sujeito oculto (desinencial) não aparece escrito, mas a terminação do verbo mostra quem é: \"Estudamos ontem\" (nós); \"Cheguei tarde\" (eu).",
+          "Sujeito indeterminado: alguém fez, mas não se sabe ou não se quer dizer quem. Aparece de dois jeitos: verbo na 3ª pessoa do plural sem ninguém citado antes (\"Roubaram minha bicicleta\") e verbo com \"se\" que não é transitivo direto (\"Precisa-se de vendedores\", \"Vive-se bem aqui\").",
+          "Oração sem sujeito tem verbo impessoal: fenômenos da natureza (choveu, ventou, amanheceu), haver no sentido de existir (\"Há alunos na sala\", \"Houve problemas\") e fazer ou haver indicando tempo (\"Faz dois anos\", \"Há meses\"). Esses verbos ficam na 3ª pessoa do singular: \"Havia muitas pessoas\", nunca \"haviam\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique o sujeito: \"Bateram à porta.\" / \"Choveu muito.\" / \"Saímos cedo.\"",
+            "resolucao": "Bateram à porta: indeterminado. Choveu muito: oração sem sujeito. Saímos cedo: sujeito oculto (nós)."
+          },
+          {
+            "enunciado": "Corrija: \"Haviam muitos carros na rua\" e \"Fazem três anos que mudei\".",
+            "resolucao": "\"Havia muitos carros na rua\" (haver = existir é impessoal) e \"Faz três anos que mudei\" (fazer indicando tempo é impessoal)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Sujeito depois do verbo continua sendo sujeito: \"Chegaram as encomendas\" tem sujeito simples \"as encomendas\". Em \"Vendem-se casas\", o se é partícula apassivadora (equivale a \"casas são vendidas\"); o sujeito é \"casas\", e o verbo vai ao plural. Já em \"Precisa-se de casas\", há preposição: sujeito indeterminado e verbo no singular.",
+        "Existir não é impessoal: \"Existem problemas\" (sujeito: problemas). Haver como auxiliar de tempo composto concorda normalmente: \"Eles haviam saído\". E o auxiliar de haver impessoal também fica no singular: \"Deve haver soluções\".",
+        "Verbo de fenômeno natural usado em sentido figurado ganha sujeito: \"Choveram críticas ao prefeito\" (sujeito: críticas)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Os meninos jogaram bola\", o sujeito é:",
+            "alternativas": [
+              "bola",
+              "jogaram",
+              "os meninos",
+              "bola e meninos"
+            ],
+            "correta": 2,
+            "explicacao": "Quem jogou? Os meninos.",
+            "dica": "Pergunte ao verbo: quem jogou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Estudei muito\", o sujeito é:",
+            "alternativas": [
+              "oculto (eu)",
+              "indeterminado",
+              "inexistente",
+              "muito"
+            ],
+            "correta": 0,
+            "explicacao": "A terminação de \"estudei\" mostra que foi eu.",
+            "dica": "A terminação do verbo entrega a pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase não tem sujeito?",
+            "alternativas": [
+              "Ana cantou",
+              "Choveu ontem",
+              "Nós saímos",
+              "O cachorro latiu"
+            ],
+            "correta": 1,
+            "explicacao": "Chover é fenômeno da natureza, verbo impessoal.",
+            "dica": "Procure um fenômeno da natureza."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar o sujeito, pergunte ao verbo:",
+            "alternativas": [
+              "quando?",
+              "onde?",
+              "como?",
+              "quem? ou o quê?"
+            ],
+            "correta": 3,
+            "explicacao": "Quem ou o quê praticou ou sofreu a ação.",
+            "dica": "O sujeito é uma pessoa ou coisa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Pedro e Lia viajaram\", o sujeito é:",
+            "alternativas": [
+              "simples",
+              "oculto",
+              "composto",
+              "indeterminado"
+            ],
+            "correta": 2,
+            "explicacao": "Tem dois núcleos: Pedro e Lia.",
+            "dica": "Conte quantos núcleos há."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Roubaram meu celular.\" O sujeito é:",
+            "alternativas": [
+              "oculto",
+              "indeterminado",
+              "composto",
+              "inexistente"
+            ],
+            "correta": 1,
+            "explicacao": "Verbo na 3ª pessoa do plural sem ninguém citado antes: não se sabe quem roubou.",
+            "dica": "Dá para saber quem fez a ação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Haviam muitos alunos na fila",
+              "Houveram problemas",
+              "Havia muitos alunos na fila",
+              "Fazem dois anos que mudei"
+            ],
+            "correta": 2,
+            "explicacao": "Haver = existir e fazer = tempo são impessoais: ficam no singular.",
+            "dica": "Haver no sentido de existir fica sempre no singular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Precisa-se de ajudantes.\" Como se classifica?",
+            "alternativas": [
+              "sujeito: ajudantes",
+              "oração sem sujeito",
+              "sujeito oculto",
+              "sujeito indeterminado"
+            ],
+            "correta": 3,
+            "explicacao": "Verbo com se e preposição (precisar de): sujeito indeterminado, verbo no singular.",
+            "dica": "Repare na preposição depois do verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Amanheceu nublado.\" Como se classifica?",
+            "alternativas": [
+              "oração sem sujeito",
+              "sujeito oculto",
+              "sujeito simples: nublado",
+              "sujeito indeterminado"
+            ],
+            "correta": 0,
+            "explicacao": "Amanhecer é fenômeno da natureza: verbo impessoal.",
+            "dica": "O dia nascer é um fenômeno da natureza."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Fomos à feira\", o sujeito é:",
+            "alternativas": [
+              "nós, oculto",
+              "feira",
+              "indeterminado",
+              "inexistente"
+            ],
+            "correta": 0,
+            "explicacao": "\"Fomos\" indica nós.",
+            "dica": "Olhe a terminação do verbo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Chegaram as encomendas da loja.\" O sujeito é:",
+            "alternativas": [
+              "indeterminado",
+              "as encomendas (simples, depois do verbo)",
+              "oculto (eles)",
+              "inexistente"
+            ],
+            "correta": 1,
+            "explicacao": "O que chegou? As encomendas. O sujeito pode vir depois do verbo.",
+            "dica": "Faça a pergunta ao verbo e procure a resposta na própria frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Faz muito calor no verão.\" Como se classifica?",
+            "alternativas": [
+              "oração sem sujeito",
+              "sujeito: muito calor",
+              "sujeito indeterminado",
+              "sujeito oculto"
+            ],
+            "correta": 0,
+            "explicacao": "Fazer indicando fenômeno do clima é impessoal.",
+            "dica": "Fazer aqui fala de clima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem sujeito indeterminado?",
+            "alternativas": [
+              "Vendem-se casas",
+              "Choveu à tarde",
+              "Falaram mal de você na reunião",
+              "Os vizinhos reclamaram"
+            ],
+            "correta": 2,
+            "explicacao": "Falaram, na 3ª do plural, sem ninguém citado: indeterminado. Em \"Vendem-se casas\", o sujeito é casas.",
+            "dica": "Procure o verbo no plural sem ninguém identificado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Deve haver soluções",
+              "Devem haver soluções",
+              "Podem haver erros",
+              "Vão haver provas"
+            ],
+            "correta": 0,
+            "explicacao": "Haver impessoal passa a impessoalidade ao auxiliar: tudo no singular.",
+            "dica": "Se o haver é impessoal, o auxiliar dele também fica no singular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Existem muitos parques na cidade.\" Como se classifica?",
+            "alternativas": [
+              "oração sem sujeito, como haver",
+              "sujeito indeterminado",
+              "sujeito oculto",
+              "sujeito simples: muitos parques"
+            ],
+            "correta": 3,
+            "explicacao": "Existir é pessoal e concorda com o sujeito: muitos parques existem.",
+            "dica": "Existir e haver têm o mesmo sentido, mas não a mesma gramática."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Compare \"Vendem-se casas\" e \"Precisa-se de casas\":",
+            "alternativas": [
+              "As duas têm sujeito indeterminado",
+              "Na 1ª o sujeito é casas; na 2ª é indeterminado",
+              "Na 1ª é indeterminado; na 2ª o sujeito é casas",
+              "As duas não têm sujeito"
+            ],
+            "correta": 1,
+            "explicacao": "Na 1ª, casas são vendidas (voz passiva, sujeito casas). Na 2ª, a preposição \"de\" impede que casas seja sujeito.",
+            "dica": "Tente passar cada uma para \"... são ...\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está ERRADA?",
+            "alternativas": [
+              "Choveram críticas ao prefeito",
+              "Faz dez anos que moro aqui",
+              "Haviam saído cedo os alunos",
+              "Houveram muitas reclamações"
+            ],
+            "correta": 3,
+            "explicacao": "Haver = acontecer/existir é impessoal: \"Houve muitas reclamações\". Na 3ª, haver é auxiliar e concorda com os alunos.",
+            "dica": "Veja em qual frase haver tem sentido de existir ou acontecer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Choveram críticas ao prefeito.\" O sujeito é:",
+            "alternativas": [
+              "inexistente, pois chover é impessoal",
+              "prefeito",
+              "críticas",
+              "indeterminado"
+            ],
+            "correta": 2,
+            "explicacao": "Sentido figurado: as críticas choveram. O verbo concorda com elas.",
+            "dica": "Aqui o verbo não fala de chuva de verdade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações sem sujeito há em: \"Ventou a noite toda. Havia folhas por toda parte. Os garis varreram tudo de manhã. Fazia frio.\"?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "Ventou, Havia e Fazia frio são impessoais. Varreram tem sujeito: os garis.",
+            "dica": "Classifique uma oração de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Eles haviam saído quando houve o apagão\", o verbo haver:",
+            "alternativas": [
+              "concorda com eles no 1º caso (auxiliar) e é impessoal no 2º, com sentido de acontecer",
+              "é impessoal nas duas vezes",
+              "é impessoal no 1º caso e pessoal no 2º",
+              "está errado nas duas vezes"
+            ],
+            "correta": 0,
+            "explicacao": "Auxiliar de tempo composto concorda (haviam saído); haver = acontecer fica no singular (houve).",
+            "dica": "Veja se haver é auxiliar ou se significa acontecer."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O número que não terminava",
+    "texto": "Bianca tinha mania de terminar as coisas. Terminava o caderno de exercícios antes da turma, devolvia o livro da biblioteca na mesma semana e não dormia com louça na pia. Por isso, quando o professor Edson disse que a raiz quadrada de 2 nunca acabava, ela não acreditou.\n\nEm casa, pegou a calculadora do celular: 1,4142135623. Copiou no caderno. Depois achou na internet uma lista com cem casas decimais e copiou também. No dia seguinte, encontrou um site com mil casas e encheu três páginas. Os algarismos não seguiam padrão nenhum: um 7 aqui, dois 3 ali, um 0 perdido no meio.\n\nNa aula, mostrou o caderno ao professor, meio cansada e meio orgulhosa.\n\n— Faltam quantas páginas para acabar?\n\nEdson sorriu.\n\n— Infinitas. E não é falta de paciência sua. Há mais de dois mil anos, provaram que a raiz de 2 não pode ser escrita como fração. Se pudesse, os algarismos acabariam ou começariam a se repetir, como em 0,333... Como não pode, eles continuam para sempre, sem padrão.\n\nBianca ficou em silêncio. Depois perguntou se aquele número era menos verdadeiro que os outros.\n\n— Pelo contrário — disse ele. — Desenhe um quadrado com lado 1. A diagonal mede exatamente raiz de 2. Ela existe, cabe na sua régua, só não cabe numa fração.\n\nNaquela noite, Bianca dobrou as três páginas e colou na contracapa do caderno. Embaixo, escreveu: \"Algumas coisas são inteiras sem nunca terminar.\""
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique por que uma família deveria ter uma reserva de emergência e como você começaria a montar a sua: quanto guardaria por mês, qual seria a meta e onde deixaria o dinheiro."
+  }
+}

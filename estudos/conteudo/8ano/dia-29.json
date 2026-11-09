@@ -1,0 +1,1495 @@
+{
+  "dia": 29,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Polinômios: somar, subtrair e aplicar a distributiva",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Polinômio é uma soma de monômios, como 3x² + 5x − 1. Cada monômio é um termo. O grau do polinômio é o maior grau entre os seus termos: 3x² + 5x − 1 tem grau 2.",
+          "Para somar polinômios, juntamos os termos semelhantes: (2x + 3) + (4x + 1) = 6x + 4.",
+          "Para subtrair, trocamos o sinal de todos os termos do segundo polinômio e depois somamos: (5x² + 2x) − (3x² − x) = 5x² + 2x − 3x² + x = 2x² + 3x. Lembre: −(x − 4) = −x + 4.",
+          "Propriedade distributiva: o termo de fora multiplica cada termo de dentro. 3x(2x + 5) = 6x² + 15x.",
+          "Polinômio vezes polinômio: cada termo do primeiro multiplica cada termo do segundo. (x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Calcule (4a² − 3a + 1) − (a² + 2a − 5).",
+            "resolucao": "Troque os sinais do segundo: 4a² − 3a + 1 − a² − 2a + 5. Junte os semelhantes: 3a² − 5a + 6."
+          },
+          {
+            "enunciado": "Um retângulo tem lados (x + 5) e (x + 2). Qual é a área?",
+            "resolucao": "(x + 5)(x + 2) = x² + 2x + 5x + 10 = x² + 7x + 10."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Alguns produtos aparecem tanto que viraram atalhos: (x + 3)² = (x + 3)(x + 3) = x² + 6x + 9, e não x² + 9. E (x − 4)(x + 4) = x² − 16, porque os termos do meio (+4x e −4x) se cancelam.",
+        "Dá para conferir uma conta trocando x por um número. Se (x + 2)(x + 3) = x² + 5x + 6, com x = 10 temos 12 × 13 de um lado e 100 + 50 + 6 = 156 do outro. Os dois lados dão 156: a conta está certa, e ainda descobrimos que 12 × 13 = 156.",
+        "Com sinal negativo fora do parêntese, a distributiva troca todos os sinais: −2x(x² − 3x + 4) = −2x³ + 6x² − 8x. Às vezes os termos se cancelam de um jeito surpreendente: (x + 1)(x² − x + 1) = x³ + 1."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o grau de 3x² + 5x − 1?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "O maior expoente de x é 2.",
+            "dica": "Procure o maior expoente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (2x + 3) + (4x + 1)?",
+            "alternativas": [
+              "6x + 4",
+              "6x² + 4",
+              "8x + 3",
+              "6x + 3"
+            ],
+            "correta": 0,
+            "explicacao": "2x + 4x = 6x e 3 + 1 = 4.",
+            "dica": "Some os termos com x e depois os números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 2(x + 5)?",
+            "alternativas": [
+              "2x + 5",
+              "x + 10",
+              "2x + 10",
+              "2x + 7"
+            ],
+            "correta": 2,
+            "explicacao": "O 2 multiplica o x e também o 5.",
+            "dica": "O número de fora multiplica todos os de dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos termos tem x² + 3x − 7?",
+            "alternativas": [
+              "1",
+              "2",
+              "4",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "x², 3x e −7: três termos.",
+            "dica": "Conte as partes separadas por + ou −."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é −(x − 4)?",
+            "alternativas": [
+              "−x − 4",
+              "−x + 4",
+              "x + 4",
+              "x − 4"
+            ],
+            "correta": 1,
+            "explicacao": "O sinal de menos troca o sinal de cada termo.",
+            "dica": "Troque o sinal de cada termo de dentro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (5x² + 2x) − (3x² − x)?",
+            "alternativas": [
+              "2x² + 3x",
+              "2x² + x",
+              "8x² + x",
+              "2x² − 3x"
+            ],
+            "correta": 0,
+            "explicacao": "5x² + 2x − 3x² + x = 2x² + 3x. O erro comum é esquecer de trocar o sinal do −x.",
+            "dica": "Troque os sinais do segundo parêntese antes de juntar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3x(2x + 5)?",
+            "alternativas": [
+              "6x + 15",
+              "5x² + 8x",
+              "6x² + 15x",
+              "6x² + 5"
+            ],
+            "correta": 2,
+            "explicacao": "3x · 2x = 6x² e 3x · 5 = 15x.",
+            "dica": "Multiplique 3x por cada termo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (x + 2)(x + 3)?",
+            "alternativas": [
+              "x² + 6",
+              "x² + 5x + 5",
+              "2x + 5",
+              "x² + 5x + 6"
+            ],
+            "correta": 3,
+            "explicacao": "x² + 3x + 2x + 6 = x² + 5x + 6.",
+            "dica": "Cada termo do primeiro multiplica cada termo do segundo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de x² − 3x + 2 para x = 4?",
+            "alternativas": [
+              "30",
+              "6",
+              "2",
+              "−2"
+            ],
+            "correta": 1,
+            "explicacao": "16 − 12 + 2 = 6.",
+            "dica": "Troque x por 4 e faça a potência primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem lados x + 1, 2x e 3x − 2. Qual é o perímetro?",
+            "alternativas": [
+              "6x − 1",
+              "6x + 1",
+              "5x − 1",
+              "6x"
+            ],
+            "correta": 0,
+            "explicacao": "x + 2x + 3x = 6x; 1 − 2 = −1.",
+            "dica": "Some os três lados juntando os semelhantes."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (x − 4)(x + 4)?",
+            "alternativas": [
+              "x² + 16",
+              "x² − 8x − 16",
+              "x² − 16",
+              "2x"
+            ],
+            "correta": 2,
+            "explicacao": "x² + 4x − 4x − 16 = x² − 16. Os termos do meio se cancelam.",
+            "dica": "Faça a distributiva completa e veja o que se cancela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (2x + 1)(x − 3)?",
+            "alternativas": [
+              "2x² − 5x − 3",
+              "2x² − 3",
+              "2x² + 5x − 3",
+              "2x² − 7x − 3"
+            ],
+            "correta": 0,
+            "explicacao": "2x² − 6x + x − 3 = 2x² − 5x − 3.",
+            "dica": "São quatro multiplicações. Cuidado com os sinais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (4a² − 3a + 1) − (a² + 2a − 5)?",
+            "alternativas": [
+              "3a² − a − 4",
+              "3a² − 5a + 6",
+              "5a² − a − 4",
+              "3a² − 5a − 4"
+            ],
+            "correta": 1,
+            "explicacao": "4a² − 3a + 1 − a² − 2a + 5 = 3a² − 5a + 6.",
+            "dica": "O −5 vira +5 depois da troca de sinais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a área de um retângulo de lados (x + 5) e (x + 2)?",
+            "alternativas": [
+              "x² + 10",
+              "2x + 7",
+              "x² + 7x + 7",
+              "x² + 7x + 10"
+            ],
+            "correta": 3,
+            "explicacao": "x² + 2x + 5x + 10 = x² + 7x + 10.",
+            "dica": "Área é a multiplicação dos lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é −2x(x² − 3x + 4)?",
+            "alternativas": [
+              "−2x³ − 6x² − 8x",
+              "−2x³ + 6x² − 8x",
+              "2x³ + 6x² + 8x",
+              "−2x³ + 6x − 8"
+            ],
+            "correta": 1,
+            "explicacao": "−2x · x² = −2x³; −2x · (−3x) = +6x²; −2x · 4 = −8x.",
+            "dica": "Menos vezes menos dá mais."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (x + 3)²?",
+            "alternativas": [
+              "x² + 9",
+              "x² + 3x + 9",
+              "x² + 6x + 9",
+              "2x + 6"
+            ],
+            "correta": 2,
+            "explicacao": "(x + 3)(x + 3) = x² + 3x + 3x + 9 = x² + 6x + 9.",
+            "dica": "Escreva como (x + 3)(x + 3) e faça a distributiva."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (x + 1)(x² − x + 1)?",
+            "alternativas": [
+              "x³ + 1",
+              "x³ − 1",
+              "x³ + 2x² + 1",
+              "x³ + x + 1"
+            ],
+            "correta": 0,
+            "explicacao": "x³ − x² + x + x² − x + 1: os termos com x² e com x se cancelam, sobra x³ + 1.",
+            "dica": "Faça as seis multiplicações e veja o que se cancela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "P = 2x² − x + 3 e Q = x² + 4x − 1. Quanto é 2P − Q?",
+            "alternativas": [
+              "3x² + 2x + 5",
+              "3x² − 6x + 7",
+              "3x² − 6x + 5",
+              "x² − 5x + 4"
+            ],
+            "correta": 1,
+            "explicacao": "2P = 4x² − 2x + 6. Menos Q: 4x² − 2x + 6 − x² − 4x + 1 = 3x² − 6x + 7.",
+            "dica": "Dobre P primeiro; depois troque todos os sinais de Q."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma horta quadrada tem lado x. Cada lado aumenta 2 metros. Quanto a área aumenta?",
+            "alternativas": [
+              "4",
+              "4x",
+              "2x + 4",
+              "4x + 4"
+            ],
+            "correta": 3,
+            "explicacao": "(x + 2)² = x² + 4x + 4. O aumento é 4x + 4.",
+            "dica": "Calcule a nova área e tire a antiga, x²."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando (x + 2)(x + 3) = x² + 5x + 6 com x = 10, quanto é 12 × 13?",
+            "alternativas": [
+              "156",
+              "130",
+              "143",
+              "166"
+            ],
+            "correta": 0,
+            "explicacao": "100 + 50 + 6 = 156.",
+            "dica": "Troque x por 10 no lado direito."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Condições encadeadas: o senão se",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Às vezes há mais de dois caminhos. Para isso, Python tem o elif, que quer dizer «senão se». A cadeia sempre começa com if, pode ter quantos elif forem precisos e pode terminar com um else.",
+          "O Python testa as condições de cima para baixo. Na primeira que for verdadeira, ele roda aquele bloco e pula o resto da cadeia. Por isso, só um bloco roda.",
+          "O else, no fim, roda quando nenhuma condição anterior foi verdadeira.",
+          "Exemplo:\nif nota >= 9:\n    print('Ótimo')\nelif nota >= 7:\n    print('Bom')\nelse:\n    print('Estude mais')",
+          "A ordem importa: teste primeiro as condições mais exigentes. Se você testar nota >= 7 antes de nota >= 9, o «Ótimo» nunca vai aparecer."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique a temperatura: acima de 25 é quente; acima de 15 é agradável; senão, frio. O que aparece para 30 e para 20?",
+            "resolucao": "if t > 25:\n    print('quente')\nelif t > 15:\n    print('agradável')\nelse:\n    print('frio')\nCom 30: quente (a primeira já é verdadeira e o resto é pulado). Com 20: agradável."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cuidado com a diferença entre elif e vários if separados. Com if, if, cada teste é feito, e mais de um bloco pode rodar. Com if, elif, só o primeiro verdadeiro roda.",
+        "Python aceita comparações em sequência: 7 <= nota < 9 é verdadeiro só se a nota for pelo menos 7 e menor que 9. Com nota 9, dá False.",
+        "Um exercício famoso de programação é o FizzBuzz: de 1 a 15, mostre «FizzBuzz» para múltiplos de 15, «Fizz» para múltiplos de 3 e «Buzz» para múltiplos de 5. O teste do 15 precisa vir primeiro, senão o 15 seria pego pelo teste do 3."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer elif?",
+            "alternativas": [
+              "Senão se",
+              "Para sempre",
+              "Imprimir",
+              "Repetir"
+            ],
+            "correta": 0,
+            "explicacao": "elif junta else (senão) e if (se).",
+            "dica": "É a junção de duas palavras: else e if."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa cadeia if, elif, else, quantos blocos rodam?",
+            "alternativas": [
+              "Todos",
+              "Só um",
+              "Nunca nenhum",
+              "Dois"
+            ],
+            "correta": 1,
+            "explicacao": "O primeiro verdadeiro roda, e o resto é pulado.",
+            "dica": "Depois que um bloco roda, o resto da cadeia é pulado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando o else roda?",
+            "alternativas": [
+              "Quando a primeira condição é verdadeira",
+              "Sempre",
+              "Quando nenhuma condição anterior foi verdadeira",
+              "Nunca"
+            ],
+            "correta": 2,
+            "explicacao": "O else é o caminho de sobra.",
+            "dica": "É o que sobra quando nada acima deu certo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra começa a cadeia de condições?",
+            "alternativas": [
+              "else",
+              "elif",
+              "print",
+              "if"
+            ],
+            "correta": 3,
+            "explicacao": "Toda cadeia começa com if.",
+            "dica": "É a palavra que quer dizer se."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma cadeia pode ter vários elif?",
+            "alternativas": [
+              "Sim, quantos forem precisos",
+              "Não, só um",
+              "Só dois",
+              "Só dentro de um for"
+            ],
+            "correta": 0,
+            "explicacao": "Você pode ter quantos caminhos precisar.",
+            "dica": "A lição diz quantos elif podem existir."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "nota = 8\nif nota >= 9:\n    print('Ótimo')\nelif nota >= 7:\n    print('Bom')\nelse:\n    print('Estude mais')\nO que aparece?",
+            "alternativas": [
+              "Ótimo",
+              "Bom",
+              "Estude mais",
+              "Bom e Estude mais"
+            ],
+            "correta": 1,
+            "explicacao": "8 >= 9 é falso; 8 >= 7 é verdadeiro: Bom. O resto é pulado.",
+            "dica": "Teste de cima para baixo e pare no primeiro verdadeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo código, com nota = 5, o que aparece?",
+            "alternativas": [
+              "Ótimo",
+              "Bom",
+              "Nada",
+              "Estude mais"
+            ],
+            "correta": 3,
+            "explicacao": "As duas condições são falsas, então roda o else.",
+            "dica": "Se nada acima for verdadeiro, quem roda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo código, com nota = 9, o que aparece?",
+            "alternativas": [
+              "Ótimo",
+              "Ótimo e Bom",
+              "Bom",
+              "Erro"
+            ],
+            "correta": 0,
+            "explicacao": "9 >= 9 é verdadeiro: Ótimo. Mesmo 9 >= 7 sendo verdadeiro, esse teste nem é feito.",
+            "dica": "Depois do primeiro verdadeiro, o resto é pulado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "t = 30\nif t > 25:\n    print('quente')\nelif t > 15:\n    print('agradável')\nelse:\n    print('frio')\nO que aparece?",
+            "alternativas": [
+              "agradável",
+              "frio",
+              "quente",
+              "quente e agradável"
+            ],
+            "correta": 2,
+            "explicacao": "30 > 25 já é verdadeiro.",
+            "dica": "Teste a primeira condição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem certa das partes numa cadeia?",
+            "alternativas": [
+              "else, if, elif",
+              "if, elif, else",
+              "elif, if, else",
+              "if, else, elif"
+            ],
+            "correta": 1,
+            "explicacao": "Começa com if, segue com os elif e termina com else.",
+            "dica": "O else é o último caminho."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "nota = 9.5\nif nota >= 7:\n    print('Bom')\nelif nota >= 9:\n    print('Ótimo')\nO que aparece?",
+            "alternativas": [
+              "Ótimo",
+              "Bom",
+              "Bom e Ótimo",
+              "Nada"
+            ],
+            "correta": 1,
+            "explicacao": "9.5 >= 7 já é verdadeiro, e o elif é pulado. Por isso o teste mais exigente deve vir primeiro.",
+            "dica": "Qual condição é testada primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 10\nif x > 5:\n    print('A')\nif x > 8:\n    print('B')\nO que aparece?",
+            "alternativas": [
+              "Só A",
+              "Só B",
+              "A e B",
+              "Nada"
+            ],
+            "correta": 2,
+            "explicacao": "São dois if separados, não uma cadeia: os dois testes são feitos, e os dois são verdadeiros.",
+            "dica": "Repare: o segundo é if, não elif."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "if idade < 12:\n    preco = 10\nelif idade < 60:\n    preco = 20\nelse:\n    preco = 10\nQual é o preço para idade 60?",
+            "alternativas": [
+              "20",
+              "Nada",
+              "Erro",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "60 < 12 é falso; 60 < 60 é falso; cai no else: 10.",
+            "dica": "60 é menor que 60?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual cadeia classifica um número n como positivo, negativo ou zero corretamente?",
+            "alternativas": [
+              "if n > 0: positivo; elif n < 0: negativo; else: zero",
+              "if n > 0: positivo; else: negativo",
+              "if n >= 0: positivo; elif n == 0: zero; else: negativo",
+              "if n < 0: negativo; elif n > 0: negativo; else: zero"
+            ],
+            "correta": 0,
+            "explicacao": "Na terceira, o zero cai em positivo, porque n >= 0 vem antes. Na segunda, o zero vira negativo.",
+            "dica": "Teste cada opção com o número 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for n in [3, 8, 12]:\n    if n < 5:\n        print('P')\n    elif n < 10:\n        print('M')\n    else:\n        print('G')\nO que aparece?",
+            "alternativas": [
+              "P P G",
+              "P M G",
+              "M M G",
+              "P M M"
+            ],
+            "correta": 1,
+            "explicacao": "3 < 5: P. 8 não é < 5, mas é < 10: M. 12: G.",
+            "dica": "Faça a cadeia para cada número separadamente."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O frete é: até 1 kg, R$ 10; até 5 kg, R$ 18; acima, R$ 30 (if peso <= 1, elif peso <= 5, else). Quanto custam pacotes de 0,5 kg, 1 kg, 3 kg e 7 kg juntos?",
+            "alternativas": [
+              "R$ 58",
+              "R$ 68",
+              "R$ 76",
+              "R$ 48"
+            ],
+            "correta": 1,
+            "explicacao": "0,5 → 10; 1 → 10 (1 <= 1); 3 → 18; 7 → 30. Total: 68.",
+            "dica": "Cuidado com o pacote de exatamente 1 kg."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nota = 9\nprint(7 <= nota < 9)\nO que aparece?",
+            "alternativas": [
+              "False",
+              "True",
+              "Erro",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "A nota precisa ser menor que 9, e 9 < 9 é falso.",
+            "dica": "9 é menor que 9?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "idade = 15\nautorizado = True\nif idade >= 18:\n    print('entra')\nelif autorizado:\n    print('entra com responsável')\nelse:\n    print('não entra')\nO que aparece?",
+            "alternativas": [
+              "entra",
+              "não entra",
+              "entra com responsável",
+              "Nada"
+            ],
+            "correta": 2,
+            "explicacao": "15 >= 18 é falso; autorizado é True: segundo caminho.",
+            "dica": "Teste na ordem: primeiro a idade, depois a autorização."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "if nota >= 5:\n    print('recuperação')\nelif nota >= 7:\n    print('aprovado')\nCom nota 8, aparece recuperação. Qual é a correção?",
+            "alternativas": [
+              "Trocar elif por else",
+              "Apagar o if",
+              "Trocar >= por <=",
+              "Testar nota >= 7 primeiro"
+            ],
+            "correta": 3,
+            "explicacao": "O teste mais exigente precisa vir antes; senão, toda nota a partir de 5 para no primeiro.",
+            "dica": "Lembre a regra sobre a ordem das condições."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No FizzBuzz de 1 a 15 (primeiro testa múltiplo de 15, depois de 3, depois de 5), quantas vezes aparece só Fizz?",
+            "alternativas": [
+              "5",
+              "4",
+              "3",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "Múltiplos de 3: 3, 6, 9, 12 e 15. Mas o 15 vira FizzBuzz. Sobram 4.",
+            "dica": "Liste os múltiplos de 3 e veja qual deles é pego antes."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Estilos de título e sumário automático",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Estilos são formatações prontas com nome. Ficam em Página Inicial, grupo Estilos: Normal (texto comum), Título 1 (capítulos), Título 2 (seções dentro de um capítulo), Título 3 e outros.",
+          "Quando os títulos usam estilos, o Word entende a estrutura do documento. Só deixar o texto grande e em negrito não basta: para o Word, aquilo continua sendo texto Normal.",
+          "Com os estilos aplicados, o sumário fica automático: clique onde ele deve ficar e vá em Referências, Sumário, e escolha um modelo automático. O Word monta a lista de títulos com as páginas.",
+          "Se você mudar o texto, criar títulos ou mudar páginas, o sumário não se atualiza sozinho. Clique nele e escolha Atualizar Sumário: «apenas os números de página» ou «o índice inteiro», quando há títulos novos ou alterados.",
+          "Em Exibir, Painel de Navegação, aparece uma barra lateral com todos os títulos. Clicando num deles, você pula direto para aquela parte."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um trabalho de Ciências tem os capítulos Introdução, Desenvolvimento e Conclusão, e o Desenvolvimento tem as seções Energia solar e Energia eólica. Que estilos usar?",
+            "resolucao": "Título 1 em Introdução, Desenvolvimento e Conclusão. Título 2 em Energia solar e Energia eólica. Texto comum em Normal. Depois, Referências, Sumário automático."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para mudar a aparência de todos os títulos de uma vez, clique com o botão direito no estilo (por exemplo, Título 1) e escolha Modificar. Todos os títulos com aquele estilo mudam juntos.",
+        "A tecla F9 atualiza o sumário quando ele está selecionado. No sumário, Ctrl + clique num item leva direto à página dele. Se um título está escrito errado, corrija no texto e atualize o sumário; não corrija só no sumário, porque a mudança some na próxima atualização.",
+        "O sumário automático padrão mostra os níveis Título 1, Título 2 e Título 3. Um título com estilo Título 4 não aparece, a menos que você personalize o sumário."
+      ],
+      "desafio_pratico": "No Word do PC (ou do celular, se tiver o recurso), crie um trabalho com uma capa e três capítulos (Título 1), cada um com duas seções (Título 2) e um parágrafo de texto Normal. Insira um sumário automático depois da capa. Em seguida, crie um quarto capítulo, quebre a página antes dele e use Atualizar Sumário, índice inteiro, para ver o capítulo novo aparecer com o número da página certa.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o Word usa para montar o sumário automático?",
+            "alternativas": [
+              "Os estilos de título",
+              "A cor da fonte",
+              "O tamanho do papel",
+              "As imagens"
+            ],
+            "correta": 0,
+            "explicacao": "O Word procura os textos com estilo Título 1, Título 2...",
+            "dica": "Lembre o título da aula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que guia fica o botão Sumário?",
+            "alternativas": [
+              "Página Inicial",
+              "Referências",
+              "Revisão",
+              "Exibir"
+            ],
+            "correta": 1,
+            "explicacao": "Sumário fica em Referências.",
+            "dica": "É a guia das notas, citações e sumário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que estilo usar nos capítulos principais?",
+            "alternativas": [
+              "Normal",
+              "Citação",
+              "Título 1",
+              "Título 3"
+            ],
+            "correta": 2,
+            "explicacao": "Título 1 é o nível mais alto.",
+            "dica": "É o nível número um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que estilo usar no texto comum?",
+            "alternativas": [
+              "Título 1",
+              "Título 2",
+              "Subtítulo",
+              "Normal"
+            ],
+            "correta": 3,
+            "explicacao": "O texto corrido usa o estilo Normal.",
+            "dica": "É o estilo do texto do dia a dia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o sumário?",
+            "alternativas": [
+              "Mostrar os títulos e as páginas onde estão",
+              "Apagar texto",
+              "Trocar a fonte",
+              "Imprimir"
+            ],
+            "correta": 0,
+            "explicacao": "Ele ajuda o leitor a achar cada parte.",
+            "dica": "Pense na primeira página de um livro didático."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o estilo Título 2?",
+            "alternativas": [
+              "Para o texto comum",
+              "Para seções dentro de um capítulo",
+              "Para o nome do arquivo",
+              "Para o rodapé"
+            ],
+            "correta": 1,
+            "explicacao": "Título 2 fica um nível abaixo do Título 1.",
+            "dica": "É o nível logo abaixo do capítulo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você criou um capítulo novo e ele não aparece no sumário. O que fazer?",
+            "alternativas": [
+              "Clicar no sumário e escolher Atualizar Sumário",
+              "Apagar tudo",
+              "Mudar a fonte",
+              "Fechar o Word"
+            ],
+            "correta": 0,
+            "explicacao": "O sumário não se atualiza sozinho.",
+            "dica": "O sumário precisa ser atualizado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você criou títulos novos. Ao atualizar o sumário, qual opção escolher?",
+            "alternativas": [
+              "Atualizar apenas os números de página",
+              "Não atualizar",
+              "Atualizar o índice inteiro",
+              "Excluir o sumário"
+            ],
+            "correta": 2,
+            "explicacao": "Só o índice inteiro inclui os títulos novos.",
+            "dica": "Os números de página não bastam quando há título novo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde aparece uma barra lateral com todos os títulos?",
+            "alternativas": [
+              "Inserir, Forma",
+              "Revisão, Comentário",
+              "Layout, Margens",
+              "Exibir, Painel de Navegação"
+            ],
+            "correta": 3,
+            "explicacao": "O Painel de Navegação lista os títulos e permite pular entre eles.",
+            "dica": "Navegar lembra andar pelo documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um título só grande e em negrito não entra no sumário?",
+            "alternativas": [
+              "Porque o Word só coloca no sumário o que tem estilo de título",
+              "Porque negrito é proibido",
+              "Porque fica feio",
+              "Porque apaga o texto"
+            ],
+            "correta": 0,
+            "explicacao": "Para o Word, ele continua sendo texto Normal.",
+            "dica": "O Word olha o estilo, não a aparência."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os níveis do mais alto para o mais baixo:",
+            "itens": [
+              "Título 1: capítulo",
+              "Título 2: seção",
+              "Título 3: subseção",
+              "Normal: texto"
+            ],
+            "explicacao": "Capítulo contém seções, que contêm subseções, e o texto vem dentro de todas.",
+            "dica": "O número do título indica o nível."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que tecla atualiza o sumário selecionado?",
+            "alternativas": [
+              "F1",
+              "F9",
+              "F5",
+              "F12"
+            ],
+            "correta": 1,
+            "explicacao": "F9 atualiza campos como o sumário.",
+            "dica": "O aprofundamento cita a tecla."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deixar todos os títulos de capítulo azuis de uma vez?",
+            "alternativas": [
+              "Mudar um por um",
+              "Usar o Pincel em cada título",
+              "Modificar o estilo Título 1",
+              "Trocar a fonte do documento inteiro"
+            ],
+            "correta": 2,
+            "explicacao": "Modificar o estilo muda todos os títulos que o usam.",
+            "dica": "O que todos os títulos de capítulo têm em comum?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como ir direto a um capítulo a partir do sumário?",
+            "alternativas": [
+              "Shift + Delete",
+              "Alt + F4",
+              "Ctrl + P",
+              "Ctrl + clique no item do sumário"
+            ],
+            "correta": 3,
+            "explicacao": "Ctrl + clique segue o link do item até a página.",
+            "dica": "É um clique com uma tecla segurada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O sumário mostra «Intrdução», com erro. O que fazer?",
+            "alternativas": [
+              "Corrigir no título do capítulo e atualizar o sumário",
+              "Corrigir só no sumário",
+              "Apagar o sumário",
+              "Não tem jeito"
+            ],
+            "correta": 0,
+            "explicacao": "O sumário copia os títulos. Corrigindo só nele, o erro volta na próxima atualização.",
+            "dica": "De onde o sumário copia os títulos?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trabalho tem 3 capítulos (Título 1), cada um com 2 seções (Título 2). Quantos itens aparecem no sumário?",
+            "alternativas": [
+              "6",
+              "9",
+              "3",
+              "12"
+            ],
+            "correta": 1,
+            "explicacao": "3 capítulos + 6 seções = 9 itens.",
+            "dica": "Some capítulos e seções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma seção aparece no sumário como se fosse capítulo. O que fazer?",
+            "alternativas": [
+              "Apagar o sumário",
+              "Aumentar a fonte",
+              "Aplicar o estilo Título 2 nela e atualizar o sumário",
+              "Mudar a cor"
+            ],
+            "correta": 2,
+            "explicacao": "Ela está com Título 1; trocando para Título 2, o nível se corrige.",
+            "dica": "Qual estilo define o nível de uma seção?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um título com estilo Título 4 não aparece no sumário. Por quê?",
+            "alternativas": [
+              "Porque o sumário automático padrão mostra só até o Título 3",
+              "Porque Título 4 é proibido",
+              "Porque o texto está em negrito",
+              "Porque falta uma imagem"
+            ],
+            "correta": 0,
+            "explicacao": "Dá para incluir mais níveis personalizando o sumário.",
+            "dica": "O aprofundamento fala dos níveis que aparecem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você inseriu 2 páginas antes do capítulo 3 e não atualizou o sumário. O que acontece?",
+            "alternativas": [
+              "O Word trava",
+              "O capítulo some",
+              "Nada muda nunca",
+              "Os números do sumário ficam desatualizados até você atualizar"
+            ],
+            "correta": 3,
+            "explicacao": "O sumário continua mostrando a página antiga até ser atualizado.",
+            "dica": "O sumário se atualiza sozinho?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a grande vantagem dos estilos em trabalhos longos?",
+            "alternativas": [
+              "Deixar o arquivo mais pesado",
+              "Padronizar a formatação, criar o sumário e navegar pelo documento",
+              "Impedir a impressão",
+              "Trocar o idioma"
+            ],
+            "correta": 1,
+            "explicacao": "Com estilos, tudo fica igual, o sumário sai pronto e o Painel de Navegação funciona.",
+            "dica": "Pense em tudo o que os estilos permitiram nesta aula."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Delegar com método: tarefa, padrão e conferência",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Delegar bem é o que permite um negócio crescer sem que o dono trabalhe até a exaustão. Mas delegar não é só mandar: é seguir um método.",
+          "Primeiro, defina a tarefa com clareza: o que fazer, quanto e até quando. Depois, escreva o padrão: o passo a passo de como a tarefa deve ser feita e como deve ficar o resultado. Uma receita com medidas e uma foto do produto pronto já são um padrão.",
+          "Em seguida, treine: faça junto na primeira vez, depois deixe a pessoa fazer enquanto você observa. Só então ela faz sozinha.",
+          "Por fim, confira: use uma lista de verificação (checklist) e olhe uma amostra do que foi produzido. Dê retorno: elogie o que ficou bom e corrija o que saiu do padrão, com respeito.",
+          "Delegar com método vale para qualquer equipe e precisa respeitar a lei: pagamento justo, jornada legal, ambiente seguro e, para adolescentes, só o contrato de aprendiz a partir dos 14 anos, sem largar a escola."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A receita padrão diz que 1 lata de leite condensado rende 25 brigadeiros de 20 g. Quantas latas são necessárias para 100 brigadeiros? Quanto pesa a massa de uma lata?",
+            "resolucao": "100 ÷ 25 = 4 latas. A massa de uma lata dá 25 × 20 = 500 g."
+          },
+          {
+            "enunciado": "Na conferência de 50 brigadeiros, 3 estavam fora do padrão. Qual é a porcentagem de defeito?",
+            "resolucao": "3 ÷ 50 = 0,06 = 6%. O objetivo é reduzir esse número revendo o padrão e o treinamento."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Delegar multiplica a produção: se o dono faz 100 brigadeiros por dia e treina dois ajudantes que fazem 80 cada, a produção vai para 100 + 80 + 80 = 260. Sem padrão, cada um faria de um jeito, e o cliente perceberia.",
+        "Sair do padrão custa dinheiro. Se a massa de uma lata (500 g) vira brigadeiros de 25 g em vez de 20 g, saem 20 em vez de 25. A R$ 2,50 cada, são R$ 12,50 a menos por lata. Quando várias pessoas erram do mesmo jeito, o problema provavelmente está no padrão ou no treinamento, não nas pessoas.",
+        "Delegar a tarefa sem a autonomia necessária trava o trabalho: o entregador que precisa pedir permissão para cada rota não consegue entregar bem. Confie, combine limites claros e confira os resultados."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Delegar com método começa por:",
+            "alternativas": [
+              "Explicar a tarefa com clareza",
+              "Largar a tarefa sem explicar",
+              "Dar bronca",
+              "Fazer tudo sozinho"
+            ],
+            "correta": 0,
+            "explicacao": "Primeiro, a pessoa precisa saber o que, quanto e até quando.",
+            "dica": "O que vem antes de qualquer coisa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o padrão escrito?",
+            "alternativas": [
+              "Uma bronca",
+              "O passo a passo de como a tarefa deve ser feita",
+              "Um contrato de aluguel",
+              "Um sorteio"
+            ],
+            "correta": 1,
+            "explicacao": "Com ele, qualquer pessoa treinada faz do mesmo jeito.",
+            "dica": "Lembre a receita com medidas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é conferir?",
+            "alternativas": [
+              "Desconfiar de todos",
+              "Refazer tudo sozinho",
+              "Verificar se o resultado saiu no padrão",
+              "Demitir"
+            ],
+            "correta": 2,
+            "explicacao": "Conferir é olhar o resultado e comparar com o padrão.",
+            "dica": "Compara-se o resultado com o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um checklist?",
+            "alternativas": [
+              "Uma lista de compras de doces",
+              "Uma lista de inimigos",
+              "Uma lista de músicas",
+              "Uma lista de itens para marcar o que foi feito"
+            ],
+            "correta": 3,
+            "explicacao": "Ele ajuda a não esquecer nenhum passo.",
+            "dica": "Check quer dizer conferir, em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como treinar alguém numa tarefa nova?",
+            "alternativas": [
+              "Fazer junto primeiro e depois observar",
+              "Não treinar",
+              "Só mandar uma mensagem",
+              "Treinar só no fim do ano"
+            ],
+            "correta": 0,
+            "explicacao": "Ver, fazer com ajuda e depois fazer sozinho.",
+            "dica": "A lição descreve três etapas de treino."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "1 lata rende 25 brigadeiros. Quantas latas para 100 brigadeiros?",
+            "alternativas": [
+              "5",
+              "4",
+              "25",
+              "100"
+            ],
+            "correta": 1,
+            "explicacao": "100 ÷ 25 = 4.",
+            "dica": "Quantas vezes 25 cabe em 100?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada brigadeiro tem 20 g. Quanto pesam 25 brigadeiros?",
+            "alternativas": [
+              "250 g",
+              "500 g",
+              "45 g",
+              "2 kg"
+            ],
+            "correta": 1,
+            "explicacao": "25 × 20 = 500 g.",
+            "dica": "Multiplique a quantidade pelo peso de cada um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na conferência de 50 brigadeiros, 3 saíram fora do padrão. Qual é a porcentagem?",
+            "alternativas": [
+              "3%",
+              "15%",
+              "6%",
+              "50%"
+            ],
+            "correta": 2,
+            "explicacao": "3 ÷ 50 = 0,06 = 6%.",
+            "dica": "Divida os defeituosos pelo total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que escrever o padrão?",
+            "alternativas": [
+              "Para gastar papel",
+              "Para enfeitar a parede",
+              "Porque é proibido falar",
+              "Para que qualquer pessoa treinada faça igual, mesmo sem o dono por perto"
+            ],
+            "correta": 3,
+            "explicacao": "O padrão garante a mesma qualidade, com ou sem o dono.",
+            "dica": "Lembre o objetivo de delegar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um erro comum de quem delega?",
+            "alternativas": [
+              "Delegar e nunca mais conferir",
+              "Explicar com calma",
+              "Combinar o prazo",
+              "Dar retorno"
+            ],
+            "correta": 0,
+            "explicacao": "Sem conferência, os erros se repetem sem ninguém perceber.",
+            "dica": "Qual etapa do método foi esquecida?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O dono faz 100 brigadeiros por dia e treina dois ajudantes que fazem 80 cada. Qual é a produção total?",
+            "alternativas": [
+              "260",
+              "180",
+              "200",
+              "300"
+            ],
+            "correta": 0,
+            "explicacao": "100 + 80 + 80 = 260.",
+            "dica": "Some a produção do dono com a dos dois ajudantes."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o método de delegar:",
+            "itens": [
+              "Definir a tarefa e o resultado esperado",
+              "Escrever o padrão",
+              "Treinar fazendo junto",
+              "Conferir o resultado",
+              "Dar retorno e melhorar o padrão"
+            ],
+            "explicacao": "Primeiro o quê, depois o como, o treino, a conferência e a melhoria.",
+            "dica": "Comece pelo que precisa ser feito e termine melhorando."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A massa de uma lata pesa 500 g. Quantos brigadeiros saem se cada um tiver 25 g?",
+            "alternativas": [
+              "25",
+              "16",
+              "20",
+              "30"
+            ],
+            "correta": 2,
+            "explicacao": "500 ÷ 25 = 20 brigadeiros.",
+            "dica": "Divida o peso da massa pelo peso de cada brigadeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Saem 5 brigadeiros a menos por lata, e cada um é vendido a R$ 2,50. Quanto se perde por lata?",
+            "alternativas": [
+              "R$ 2,50",
+              "R$ 5,00",
+              "R$ 25,00",
+              "R$ 12,50"
+            ],
+            "correta": 3,
+            "explicacao": "5 × 2,50 = 12,50.",
+            "dica": "Multiplique os brigadeiros perdidos pelo preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um adolescente de 15 anos quer trabalhar na doceria. O que é correto?",
+            "alternativas": [
+              "Contrato de aprendiz, sem largar a escola e com jornada compatível com o estudo",
+              "Trabalhar à noite sem registro",
+              "Trabalhar 10 horas por dia",
+              "Receber só em doces"
+            ],
+            "correta": 0,
+            "explicacao": "Antes dos 16, só como aprendiz, a partir dos 14, com contrato e estudando.",
+            "dica": "Lembre a regra para adolescentes na lição."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A doceria confere 1 em cada 10 caixas. Num dia com 300 caixas, quantas são conferidas?",
+            "alternativas": [
+              "3",
+              "30",
+              "10",
+              "300"
+            ],
+            "correta": 1,
+            "explicacao": "300 ÷ 10 = 30.",
+            "dica": "Divida o total por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os ingredientes de uma receita custam R$ 12 e rendem 25 brigadeiros, vendidos a R$ 2,50 cada. Quanto sobra por brigadeiro, descontando só os ingredientes?",
+            "alternativas": [
+              "R$ 1,50",
+              "R$ 0,48",
+              "R$ 2,02",
+              "R$ 2,50"
+            ],
+            "correta": 2,
+            "explicacao": "Custo por unidade: 12 ÷ 25 = 0,48. Sobra: 2,50 − 0,48 = 2,02. Desse valor ainda saem embalagem, salários e outras despesas.",
+            "dica": "Calcule o custo de um brigadeiro primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três ajudantes erraram o ponto do brigadeiro na mesma semana. O que isso indica primeiro?",
+            "alternativas": [
+              "Que todos devem ser demitidos",
+              "Que o cliente está errado",
+              "Que não precisa de padrão",
+              "Que o padrão ou o treinamento pode estar falhando"
+            ],
+            "correta": 3,
+            "explicacao": "Quando vários erram do mesmo jeito, o problema costuma estar no método.",
+            "dica": "O aprofundamento fala de erros repetidos por várias pessoas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dono delegou as entregas, mas exige que o entregador peça permissão para cada rota. Qual é o problema?",
+            "alternativas": [
+              "Deu a tarefa sem a autonomia necessária, e isso trava o trabalho",
+              "Nenhum",
+              "Está pagando demais",
+              "O entregador é lento por natureza"
+            ],
+            "correta": 0,
+            "explicacao": "Quem recebe a tarefa precisa de liberdade dentro de limites combinados.",
+            "dica": "Delegar a tarefa sem dar o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com padrão e equipe, a doceria quer passar de 1.000 para 2.500 brigadeiros por semana. Qual é o aumento?",
+            "alternativas": [
+              "250%",
+              "150%",
+              "25%",
+              "15%"
+            ],
+            "correta": 1,
+            "explicacao": "Aumento: 1.500. 1.500 ÷ 1.000 = 1,5 = 150%. 250% é a nova produção em relação à antiga, não o aumento.",
+            "dica": "Calcule a diferença e divida pela produção antiga."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Complemento nominal ou adjunto adnominal?",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Complemento nominal é o termo, sempre com preposição, que completa o sentido de um substantivo abstrato, de um adjetivo ou de um advérbio: «Tenho medo de altura», «Ele é fiel aos amigos», «Moro longe da escola».",
+          "Adjunto adnominal também pode vir com preposição, mas ele caracteriza, indica posse ou especifica um substantivo: «o livro do professor» (posse), «casa de madeira» (característica).",
+          "Truque 1: se o termo completa um adjetivo ou um advérbio, é sempre complemento nominal (fiel aos amigos, longe da escola).",
+          "Truque 2: se o substantivo é concreto (livro, casa, camisa), o termo com preposição é adjunto adnominal (o livro do professor, a camisa do time).",
+          "Truque 3: com substantivo abstrato, veja quem faz e quem sofre a ação. Se o termo sofre a ação, é complemento nominal: «a compra do terreno» (o terreno é comprado). Se pratica a ação, é adjunto adnominal: «a chegada do ônibus» (o ônibus chega)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: «A defesa do goleiro salvou o jogo» e «A defesa da floresta é urgente».",
+            "resolucao": "Do goleiro: o goleiro defendeu (pratica a ação), adjunto adnominal. Da floresta: a floresta é defendida (sofre a ação), complemento nominal."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O mesmo substantivo pode ter os dois: «o amor da mãe» (a mãe ama: adjunto adnominal) e «o amor à mãe» (a mãe é amada: complemento nominal). «A invenção do rádio» (o rádio foi inventado: complemento nominal) e «a invenção de Santos Dumont» (ele inventou: adjunto adnominal).",
+        "Às vezes a frase fica ambígua: «a crítica do professor» pode ser a crítica que o professor fez (adjunto adnominal) ou a crítica que ele recebeu (complemento nominal). O contexto decide.",
+        "Substantivos que pedem complemento costumam vir de verbos ou sentimentos: necessidade de, certeza de, confiança em, medo de, orgulho de, obediência a. Já foto, camisa, pé e caderno são concretos: o termo com preposição ligado a eles é adjunto adnominal."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«Tenho medo de altura.» O termo de altura completa:",
+            "alternativas": [
+              "O substantivo medo",
+              "O verbo tenho",
+              "O sujeito",
+              "Nada"
+            ],
+            "correta": 0,
+            "explicacao": "Medo de quê? De altura: completa o substantivo medo.",
+            "dica": "Pergunte: medo de quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Termo com preposição que completa um adjetivo é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Complemento nominal",
+              "Sujeito",
+              "Adjunto adverbial"
+            ],
+            "correta": 1,
+            "explicacao": "Ligado a adjetivo, é sempre complemento nominal.",
+            "dica": "Lembre o truque 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«O livro do professor.» O termo do professor indica:",
+            "alternativas": [
+              "Um complemento nominal",
+              "O sujeito",
+              "Posse: adjunto adnominal",
+              "Um verbo"
+            ],
+            "correta": 2,
+            "explicacao": "O livro pertence ao professor; livro é concreto.",
+            "dica": "De quem é o livro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Ele é fiel aos amigos.» O termo aos amigos é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Sujeito",
+              "Predicativo",
+              "Complemento nominal"
+            ],
+            "correta": 3,
+            "explicacao": "Completa o adjetivo fiel.",
+            "dica": "Fiel é adjetivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em «casa de madeira», o termo de madeira é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Complemento nominal",
+              "Adjunto adverbial",
+              "Objeto"
+            ],
+            "correta": 0,
+            "explicacao": "Caracteriza a casa, que é um substantivo concreto.",
+            "dica": "Casa é concreto ou abstrato?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«A compra do terreno demorou.» (o terreno é comprado) O termo do terreno é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Complemento nominal",
+              "Sujeito",
+              "Predicativo"
+            ],
+            "correta": 1,
+            "explicacao": "O terreno sofre a ação de comprar.",
+            "dica": "O terreno compra ou é comprado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«A chegada do ônibus atrasou.» O termo do ônibus é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Complemento nominal",
+              "Objeto direto",
+              "Sujeito"
+            ],
+            "correta": 0,
+            "explicacao": "O ônibus é quem chega: pratica a ação.",
+            "dica": "O ônibus chega ou é chegado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Estou longe de casa.» O termo de casa é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Adjunto adverbial",
+              "Complemento nominal",
+              "Sujeito"
+            ],
+            "correta": 2,
+            "explicacao": "Completa o advérbio longe.",
+            "dica": "Longe é advérbio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em «a camisa do time», o termo do time é:",
+            "alternativas": [
+              "Complemento nominal",
+              "Sujeito",
+              "Predicativo",
+              "Adjunto adnominal"
+            ],
+            "correta": 3,
+            "explicacao": "Camisa é concreto: o termo especifica de quem é.",
+            "dica": "Camisa é um objeto que dá para pegar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Ela tem orgulho do filho.» O termo do filho é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Complemento nominal",
+              "Sujeito",
+              "Adjunto adverbial"
+            ],
+            "correta": 1,
+            "explicacao": "Orgulho de quem? O termo completa o substantivo abstrato orgulho.",
+            "dica": "Orgulho é um sentimento que pede complemento."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«A defesa do goleiro salvou o jogo.» O termo do goleiro é:",
+            "alternativas": [
+              "Complemento nominal",
+              "Adjunto adnominal",
+              "Objeto",
+              "Sujeito"
+            ],
+            "correta": 1,
+            "explicacao": "O goleiro fez a defesa: pratica a ação.",
+            "dica": "O goleiro defendeu ou foi defendido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«A defesa da floresta é urgente.» O termo da floresta é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Sujeito",
+              "Complemento nominal",
+              "Predicativo"
+            ],
+            "correta": 2,
+            "explicacao": "A floresta é defendida: sofre a ação.",
+            "dica": "A floresta defende ou é defendida?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Classifique: «o amor da mãe» e «o amor à mãe».",
+            "alternativas": [
+              "Complemento nominal / adjunto adnominal",
+              "Os dois adjuntos adnominais",
+              "Os dois complementos nominais",
+              "Adjunto adnominal / complemento nominal"
+            ],
+            "correta": 3,
+            "explicacao": "Da mãe: a mãe ama. À mãe: a mãe é amada.",
+            "dica": "Em cada caso, a mãe ama ou é amada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Ele estava ansioso pelo resultado.» O termo pelo resultado é:",
+            "alternativas": [
+              "Complemento nominal",
+              "Adjunto adnominal",
+              "Agente da passiva",
+              "Objeto"
+            ],
+            "correta": 0,
+            "explicacao": "Completa o adjetivo ansioso.",
+            "dica": "Ansioso é adjetivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«A leitura do livro foi rápida.» O termo do livro é:",
+            "alternativas": [
+              "Adjunto adnominal",
+              "Complemento nominal",
+              "Sujeito",
+              "Adjunto adverbial"
+            ],
+            "correta": 1,
+            "explicacao": "O livro é lido: sofre a ação.",
+            "dica": "O livro lê ou é lido?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que «a crítica do professor» pode ser ambígua?",
+            "alternativas": [
+              "Porque não tem verbo",
+              "Porque o professor pode ter feito a crítica (adjunto adnominal) ou recebido a crítica (complemento nominal)",
+              "Porque é sujeito",
+              "Porque não é ambígua"
+            ],
+            "correta": 1,
+            "explicacao": "Sem contexto, não dá para saber se ele criticou ou foi criticado.",
+            "dica": "O professor criticou ou foi criticado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Classifique: «a invenção do rádio» e «a invenção de Santos Dumont».",
+            "alternativas": [
+              "Adjunto adnominal / complemento nominal",
+              "Os dois complementos nominais",
+              "Complemento nominal / adjunto adnominal",
+              "Os dois adjuntos adnominais"
+            ],
+            "correta": 2,
+            "explicacao": "O rádio foi inventado (sofre); Santos Dumont inventou (pratica).",
+            "dica": "Quem inventou e o que foi inventado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem complemento nominal?",
+            "alternativas": [
+              "A necessidade de descanso é real.",
+              "O caderno de Ana sumiu.",
+              "O caderno de capa azul sumiu.",
+              "O pé da mesa quebrou."
+            ],
+            "correta": 0,
+            "explicacao": "Necessidade é abstrato e pede complemento: necessidade de quê? As outras têm substantivos concretos.",
+            "dica": "Procure o substantivo abstrato."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos complementos nominais há em «Tenho certeza da vitória e confiança no time, apesar do medo da chuva»?",
+            "alternativas": [
+              "1",
+              "2",
+              "0",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Certeza da vitória, confiança no time e medo da chuva.",
+            "dica": "Procure substantivos abstratos que pedem complemento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em «a foto da praia», qual é a função de da praia e por quê?",
+            "alternativas": [
+              "Adjunto adnominal, porque foto é substantivo concreto",
+              "Complemento nominal, porque tem preposição",
+              "Sujeito",
+              "Adjunto adverbial de lugar"
+            ],
+            "correta": 0,
+            "explicacao": "Preposição sozinha não decide. Com substantivo concreto, é adjunto adnominal.",
+            "dica": "Lembre o truque 2."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O padrão do brigadeiro",
+    "texto": "Rogério e Simone são irmãos e vendiam brigadeiros na feira de domingo. Faziam tudo os dois, na cozinha da mãe, no sábado à noite: cem brigadeiros, nem um a mais, porque não dava tempo.\n\nQuando a procura aumentou, contrataram duas ajudantes, a Patrícia e a Neusa, com registro e pagamento combinado. No primeiro sábado, foi uma confusão. Os brigadeiros da Patrícia ficavam grandes; os da Neusa, pequenos e moles. No domingo, um freguês reclamou que tinha pago o mesmo preço por dois brigadeiros diferentes.\n\nSimone, que estudava administração à noite, teve uma ideia. Escreveu a receita padrão numa folha e colou na parede: uma lata de leite condensado, uma colher de manteiga, duas colheres de chocolate, doze minutos de fogo baixo mexendo sem parar. Cada brigadeiro com 20 gramas, pesado na balança. Embaixo, colou a foto de um brigadeiro perfeito.\n\nRogério criou a conferência. A cada fornada, ele pesava cinco brigadeiros escolhidos ao acaso e marcava numa tabela. Se algum fugisse do padrão, conversava com quem fez, mostrava a foto e ajustava junto.\n\nNo primeiro mês, de cada cinquenta brigadeiros, uns cinco saíam errados. No terceiro mês, quase nenhum. A produção passou de cem para trezentos por sábado, e todos terminavam o trabalho antes da meia-noite.\n\nNa feira, o freguês exigente voltou, comprou uma caixa e disse que agora todos tinham o mesmo gosto. Simone sorriu. O segredo não estava no chocolate: estava na folha colada na parede."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva o passo a passo de uma tarefa que você entregaria para outra pessoa fazer sem você estar perto (arrumar a mochila, regar as plantas, fazer um sanduíche). Inclua o padrão de como deve ficar o resultado e diga como você conferiria se a tarefa foi bem feita."
+  }
+}

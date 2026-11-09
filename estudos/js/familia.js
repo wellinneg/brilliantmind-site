@@ -1,11 +1,13 @@
 // Disputa entre os irmãos (etapa 3): Firebase pela API web (REST), sem biblioteca extra.
 // Vai para a internet só o necessário para o jogo: apelido, herói, itens usados, camada,
-// moedas tiradas dos potes e roubos. Nada de nome completo, notas, fotos ou áudios.
+// moedas tiradas dos potes e roubos, mais o resumo de notas das lições (0 a 5) para a tarefa de
+// reforço do pai. Nada de nome completo, respostas, fotos ou áudios.
 // Cada celular escreve só familias/<codigo>/jogadores/<uid> (login anônimo) e lê os outros.
 import * as db from './db.js';
 import { FIREBASE } from './familia-config.js';
 import { lerJogo, gravarJogo } from './jogo.js';
 import { patrimonioDe } from './patrimonio.js';
+import { resumoDeEstudo } from './resumo-estudo.js';
 
 const CHAVE = 'familia';
 const ALFABETO = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // sem 0/O e 1/I, para não confundir
@@ -73,6 +75,13 @@ async function token(familia, { http, cfg, agora }) {
 const base = (cfg, codigo) => `https://firestore.googleapis.com/v1/projects/${cfg.projectId}/databases/(default)/documents/familias/${codigo}/jogadores`;
 
 /** Envia o meu registro e baixa o dos irmãos. Sem internet, só avisa e tenta na próxima. */
+/** Registro público + resumo de estudo; se passar do limite das regras (20 mil), vai sem o resumo. */
+async function dadosParaEnviar(jogo) {
+  const publico = registroPublico(jogo);
+  const comResumo = JSON.stringify({ ...publico, estudo: await resumoDeEstudo().catch(() => null) });
+  return comResumo.length < 19000 ? comResumo : JSON.stringify(publico);
+}
+
 export async function sincronizar({ http = (...a) => fetch(...a), cfg = FIREBASE, agora = () => Date.now() } = {}) {
   const familia = await lerFamilia();
   if (!familia?.codigo || !firebaseConfigurado(cfg)) return { ok: false, motivo: 'sem-familia' };
@@ -84,7 +93,8 @@ export async function sincronizar({ http = (...a) => fetch(...a), cfg = FIREBASE
     await pedir(http, `${base(cfg, familia.codigo)}/${familia.uid}`, {
       method: 'PATCH', headers: { ...auth, 'Content-Type': 'application/json' },
       body: JSON.stringify({ fields: {
-        dados: { stringValue: JSON.stringify(registroPublico(jogo)) },
+        // 📊 o resumo de acertos vai DENTRO de "dados" (as regras do Firebase só aceitam dados + atualizado)
+        dados: { stringValue: await dadosParaEnviar(jogo) },
         atualizado: { timestampValue: new Date(agora()).toISOString() },
       } }),
     });
@@ -93,7 +103,7 @@ export async function sincronizar({ http = (...a) => fetch(...a), cfg = FIREBASE
     for (const doc of lista.documents || []) {
       const uid = doc.name.split('/').pop();
       if (uid === familia.uid) continue;
-      try { outros[uid] = { ...JSON.parse(doc.fields?.dados?.stringValue || '{}'), atualizado: doc.fields?.atualizado?.timestampValue || null }; }
+      try { const { estudo, ...publico } = JSON.parse(doc.fields?.dados?.stringValue || '{}'); outros[uid] = { ...publico, atualizado: doc.fields?.atualizado?.timestampValue || null }; }   // o resumo de estudo do irmão não fica no meu celular
       catch { /* registro estragado de outro celular: ignora */ }
     }
     // Relê o jogo: uma lição pode ter terminado enquanto a internet respondia.

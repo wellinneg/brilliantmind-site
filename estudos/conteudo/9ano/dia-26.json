@@ -1,0 +1,1208 @@
+{
+  "dia": 26,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Fórmula de Bhaskara e o discriminante (delta)",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Equação do 2º grau tem a forma ax² + bx + c = 0, com a diferente de zero. Em x² − 5x + 6 = 0, temos a = 1, b = −5 e c = 6.",
+          "O discriminante é Δ = b² − 4ac. No exemplo: Δ = (−5)² − 4 · 1 · 6 = 25 − 24 = 1.",
+          "A fórmula de Bhaskara dá as raízes: x = (−b ± √Δ) / (2a). No exemplo: x = (5 ± 1) / 2, então x' = 6/2 = 3 e x'' = 4/2 = 2.",
+          "O delta conta quantas raízes reais existem: Δ > 0, duas raízes reais diferentes; Δ = 0, duas raízes iguais (na prática, uma); Δ < 0, nenhuma raiz real.",
+          "Cuidado com os sinais: se b = −5, então −b = 5; e b² é sempre positivo ou zero: (−5)² = 25."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Resolva 2x² − 8x + 8 = 0.",
+            "resolucao": "a = 2, b = −8, c = 8. Δ = 64 − 64 = 0. x = 8 / 4 = 2. Uma única raiz (duas iguais): x = 2."
+          },
+          {
+            "enunciado": "Resolva x² + 2x − 15 = 0.",
+            "resolucao": "Δ = 4 − 4 · 1 · (−15) = 4 + 60 = 64; √64 = 8. x = (−2 ± 8) / 2: x' = 3 e x'' = −5."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Δ negativo: em x² + x + 1 = 0, Δ = 1 − 4 = −3. Não existe raiz real, porque não há raiz quadrada real de número negativo. Para conferir uma raiz, substitua: x = 3 em x² − 5x + 6 dá 9 − 15 + 6 = 0.",
+        "Problemas viram equação: \"o quadrado de um número menos o seu triplo dá 10\" é x² − 3x − 10 = 0. Δ = 9 + 40 = 49; x = (3 ± 7) / 2, então 5 ou −2.",
+        "Para descobrir um coeficiente: x² − 6x + k = 0 tem duas raízes iguais quando Δ = 36 − 4k = 0, ou seja, k = 9. E não tem raiz real quando Δ < 0."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em x² − 5x + 6 = 0, quanto vale a?",
+            "alternativas": [
+              "1",
+              "−5",
+              "6",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "Quando não aparece número na frente de x², ele é 1.",
+            "dica": "Olhe o número que multiplica x²."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fórmula do delta?",
+            "alternativas": [
+              "b − 4ac",
+              "b² − 4ac",
+              "b² + 4ac",
+              "2a"
+            ],
+            "correta": 1,
+            "explicacao": "Δ = b² − 4ac.",
+            "dica": "O b aparece ao quadrado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em x² − 5x + 6 = 0, quanto vale c?",
+            "alternativas": [
+              "1",
+              "−5",
+              "6",
+              "−6"
+            ],
+            "correta": 2,
+            "explicacao": "c é o termo sem x.",
+            "dica": "Procure o número sozinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se Δ < 0, a equação tem:",
+            "alternativas": [
+              "duas raízes reais",
+              "uma raiz real",
+              "três raízes",
+              "nenhuma raiz real"
+            ],
+            "correta": 3,
+            "explicacao": "Não existe raiz quadrada real de número negativo.",
+            "dica": "Dá para tirar a raiz de um número negativo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é (−5)²?",
+            "alternativas": [
+              "−25",
+              "25",
+              "−10",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "(−5) · (−5) = 25.",
+            "dica": "Negativo vezes negativo dá..."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o delta de x² − 5x + 6 = 0?",
+            "alternativas": [
+              "1",
+              "49",
+              "−1",
+              "11"
+            ],
+            "correta": 0,
+            "explicacao": "25 − 24 = 1.",
+            "dica": "Calcule b² e depois 4ac."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de x² − 5x + 6 = 0?",
+            "alternativas": [
+              "−2 e −3",
+              "2 e 3",
+              "1 e 6",
+              "−1 e 6"
+            ],
+            "correta": 1,
+            "explicacao": "x = (5 ± 1) / 2: 3 e 2.",
+            "dica": "Use −b = 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o delta de 2x² − 8x + 8 = 0?",
+            "alternativas": [
+              "128",
+              "−64",
+              "0",
+              "16"
+            ],
+            "correta": 2,
+            "explicacao": "64 − 4 · 2 · 8 = 64 − 64 = 0.",
+            "dica": "Calcule 4 · 2 · 8 com calma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de x² + 2x − 15 = 0?",
+            "alternativas": [
+              "−3 e 5",
+              "3 e 5",
+              "−3 e −5",
+              "3 e −5"
+            ],
+            "correta": 3,
+            "explicacao": "Δ = 64; x = (−2 ± 8) / 2: 3 e −5.",
+            "dica": "Atenção: c é negativo, então −4ac fica positivo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos da fórmula de Bhaskara:",
+            "itens": [
+              "Identificar a, b e c",
+              "Calcular Δ = b² − 4ac",
+              "Tirar a raiz quadrada de Δ",
+              "Aplicar x = (−b ± √Δ) / 2a"
+            ],
+            "explicacao": "Sem os coeficientes não há delta, e sem o delta não há raízes.",
+            "dica": "O delta vem antes da fórmula final."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de x² − 3x − 10 = 0?",
+            "alternativas": [
+              "5 e −2",
+              "−5 e 2",
+              "10 e −1",
+              "5 e 2"
+            ],
+            "correta": 0,
+            "explicacao": "Δ = 9 + 40 = 49; x = (3 ± 7) / 2: 5 e −2.",
+            "dica": "Confira o sinal de c antes de calcular o delta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A equação x² + x + 1 = 0 tem:",
+            "alternativas": [
+              "2 raízes reais",
+              "1 raiz real",
+              "nenhuma raiz real",
+              "raízes 1 e −1"
+            ],
+            "correta": 2,
+            "explicacao": "Δ = 1 − 4 = −3, negativo.",
+            "dica": "Calcule o delta e veja o sinal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de x² − 4x + 4 = 0?",
+            "alternativas": [
+              "2 e −2",
+              "só 2",
+              "4",
+              "nenhuma"
+            ],
+            "correta": 1,
+            "explicacao": "Δ = 16 − 16 = 0; x = 4 / 2 = 2.",
+            "dica": "Delta zero dá quantas raízes diferentes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de 2x² − 7x + 3 = 0?",
+            "alternativas": [
+              "−3 e −1/2",
+              "6 e 1",
+              "3 e 2",
+              "3 e 1/2"
+            ],
+            "correta": 3,
+            "explicacao": "Δ = 49 − 24 = 25; x = (7 ± 5) / 4: 12/4 = 3 e 2/4 = 1/2.",
+            "dica": "O denominador é 2a = 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual número é raiz de x² − 7x + 10 = 0?",
+            "alternativas": [
+              "−2",
+              "3",
+              "5",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "Substituindo 5: 25 − 35 + 10 = 0.",
+            "dica": "Teste cada opção na equação."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para x² − 6x + k = 0 ter duas raízes iguais, k deve valer:",
+            "alternativas": [
+              "6",
+              "9",
+              "36",
+              "−9"
+            ],
+            "correta": 1,
+            "explicacao": "Δ = 36 − 4k = 0, então k = 9.",
+            "dica": "Raízes iguais acontecem quando o delta é zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O quadrado de um número menos o seu triplo dá 10. Qual é o número, se ele é positivo?",
+            "alternativas": [
+              "5",
+              "2",
+              "10",
+              "−2"
+            ],
+            "correta": 0,
+            "explicacao": "x² − 3x − 10 = 0 dá 5 e −2; o positivo é 5.",
+            "dica": "Monte a equação e descarte a raiz negativa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um retângulo tem comprimento 3 m maior que a largura e área de 40 m². Qual é a largura?",
+            "alternativas": [
+              "8 m",
+              "4 m",
+              "5 m",
+              "10 m"
+            ],
+            "correta": 2,
+            "explicacao": "x(x + 3) = 40 → x² + 3x − 40 = 0; Δ = 9 + 160 = 169; x = (−3 + 13) / 2 = 5. A raiz −8 não serve como medida.",
+            "dica": "Chame a largura de x e escreva a área."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que valores de k a equação x² + 4x + k = 0 não tem raiz real?",
+            "alternativas": [
+              "k < 4",
+              "k = 4",
+              "k > 0",
+              "k > 4"
+            ],
+            "correta": 3,
+            "explicacao": "Δ = 16 − 4k < 0 → 4k > 16 → k > 4.",
+            "dica": "Sem raiz real, o delta é negativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são as raízes de −x² + 2x + 3 = 0?",
+            "alternativas": [
+              "1 e −3",
+              "−1 e 3",
+              "1 e 3",
+              "−1 e −3"
+            ],
+            "correta": 1,
+            "explicacao": "a = −1, b = 2, c = 3. Δ = 4 + 12 = 16. x = (−2 ± 4) / (−2): −1 e 3.",
+            "dica": "Cuidado: aqui a é negativo, e 2a também."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Valor do dinheiro no tempo: à vista com desconto ou parcelado sem juros?",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "R$ 100 hoje valem mais que R$ 100 daqui a um ano: hoje você pode usar o dinheiro ou aplicá-lo e vê-lo render, e a inflação vai diminuindo o que ele compra. Isso é o valor do dinheiro no tempo.",
+          "\"Parcelado sem juros\" muitas vezes esconde juros: se a loja dá desconto para pagar à vista, o preço parcelado já embute esse custo. Exemplo: celular por R$ 1.200 em 12 × R$ 100 ou R$ 1.080 à vista (10% de desconto).",
+          "Para comparar, veja o desconto à vista e quanto o dinheiro renderia se ficasse aplicado enquanto você paga as parcelas. Se o desconto for maior que o rendimento, vale pagar à vista.",
+          "Sem nenhum desconto à vista e com dinheiro guardado rendendo, parcelar sem juros pode ser vantajoso, porque o dinheiro rende enquanto você paga. Mas só funciona com disciplina e com parcelas que caibam no orçamento.",
+          "Nunca compre parcelado só porque \"a parcela cabe\": várias parcelas somadas comprometem meses da sua renda."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Celular: R$ 1.080 à vista ou 12 × R$ 100. Vale parcelar, se o dinheiro rende menos de 1% ao mês?",
+            "resolucao": "Parcelando, paga R$ 120 a mais. Como o saldo aplicado vai diminuindo a cada parcela, o rendimento no ano fica bem abaixo de R$ 120. Vale pagar à vista."
+          },
+          {
+            "enunciado": "Geladeira de R$ 2.400, sem desconto à vista, ou 4 × R$ 600 sem juros. A família tem o dinheiro rendendo na conta. O que fazer?",
+            "resolucao": "Sem desconto, parcelar e deixar o restante rendendo dá uma pequena vantagem, desde que as parcelas caibam no orçamento e o dinheiro não seja gasto com outra coisa."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Taxa embutida: se R$ 1.080 à vista viram R$ 1.200 a prazo, você paga 120 ÷ 1.080 ≈ 11,1% a mais, e não 10%. O desconto é calculado sobre o preço a prazo; o acréscimo, sobre o preço à vista. Bases diferentes, porcentagens diferentes.",
+        "Valor presente: R$ 1.000 que você vai receber daqui a um ano, com rendimento de 10% ao ano, valem hoje 1.000 ÷ 1,10 ≈ R$ 909,09.",
+        "Ganho real: com rendimento de 10% e inflação de 4%, o ganho real não é 6% exatos, mas 1,10 ÷ 1,04 − 1 ≈ 5,8%. Juros compostos também valem a favor: R$ 1.000 a 1% ao mês por 2 meses viram 1.000 × 1,01 × 1,01 = R$ 1.020,10."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100 hoje valem ___ que R$ 100 daqui a um ano.",
+            "alternativas": [
+              "menos",
+              "mais",
+              "o mesmo",
+              "nada"
+            ],
+            "correta": 1,
+            "explicacao": "Hoje dá para aplicar e fugir da inflação.",
+            "dica": "Pense no que acontece com os preços com o tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando há desconto à vista, o \"parcelado sem juros\":",
+            "alternativas": [
+              "pode ter juros escondidos no preço",
+              "nunca tem custo",
+              "é sempre melhor",
+              "é proibido"
+            ],
+            "correta": 0,
+            "explicacao": "A diferença entre os preços é o custo de parcelar.",
+            "dica": "Compare o preço à vista com o total parcelado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Celular de R$ 1.200 em 12 vezes. Qual é a parcela?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 1.200",
+              "R$ 100",
+              "R$ 12"
+            ],
+            "correta": 2,
+            "explicacao": "1.200 ÷ 12 = 100.",
+            "dica": "Divida o total pelas parcelas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A inflação faz o dinheiro:",
+            "alternativas": [
+              "valer mais",
+              "dobrar",
+              "sumir da conta",
+              "comprar menos coisas com o tempo"
+            ],
+            "correta": 3,
+            "explicacao": "Os preços sobem; o mesmo dinheiro compra menos.",
+            "dica": "O que acontece com o preço do mercado ao longo dos anos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é um desconto de 10% em R$ 1.200?",
+            "alternativas": [
+              "R$ 12",
+              "R$ 120",
+              "R$ 100",
+              "R$ 1.080"
+            ],
+            "correta": 1,
+            "explicacao": "10% de 1.200 = 120. (1.080 é o preço com desconto.)",
+            "dica": "A pergunta é o valor do desconto, não o preço final."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Celular: R$ 1.080 à vista ou 12 × R$ 100. Quanto se paga a mais parcelando?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 100",
+              "R$ 80",
+              "R$ 0"
+            ],
+            "correta": 0,
+            "explicacao": "1.200 − 1.080 = 120.",
+            "dica": "Calcule o total parcelado e subtraia o preço à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando vale pagar à vista?",
+            "alternativas": [
+              "sempre que tiver cartão",
+              "quando o desconto é maior do que o dinheiro renderia aplicado",
+              "nunca",
+              "quando a parcela é pequena"
+            ],
+            "correta": 1,
+            "explicacao": "Compare o ganho do desconto com o ganho da aplicação.",
+            "dica": "Releia o terceiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem desconto à vista e com dinheiro rendendo, parcelar sem juros:",
+            "alternativas": [
+              "sempre dá prejuízo",
+              "é ilegal",
+              "pode ser vantajoso, se as parcelas couberem no orçamento",
+              "dobra o preço"
+            ],
+            "correta": 2,
+            "explicacao": "O dinheiro rende enquanto as parcelas são pagas.",
+            "dica": "Sem desconto, o que você perde parcelando?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"A parcela cabe no bolso\" é um argumento perigoso porque:",
+            "alternativas": [
+              "parcelas são grátis",
+              "o banco cancela a compra",
+              "é proibido parcelar",
+              "as parcelas somadas comprometem meses de renda"
+            ],
+            "correta": 3,
+            "explicacao": "Várias parcelas pequenas viram uma conta grande.",
+            "dica": "Pense em várias compras ao mesmo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Tênis de R$ 300 com 5% de desconto à vista. Qual é o preço à vista?",
+            "alternativas": [
+              "R$ 295",
+              "R$ 285",
+              "R$ 315",
+              "R$ 250"
+            ],
+            "correta": 1,
+            "explicacao": "5% de 300 = 15; 300 − 15 = 285.",
+            "dica": "Calcule 5% e subtraia."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.080 à vista ou R$ 1.200 a prazo. Qual é o acréscimo, em porcentagem do preço à vista?",
+            "alternativas": [
+              "10%",
+              "cerca de 11,1%",
+              "12%",
+              "9%"
+            ],
+            "correta": 1,
+            "explicacao": "120 ÷ 1.080 ≈ 0,111 = 11,1%. Os 10% são o desconto sobre o preço a prazo.",
+            "dica": "Divida a diferença pelo preço à vista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "TV: R$ 1.800 à vista ou 10 × R$ 200. Qual é o desconto à vista, sobre o preço a prazo?",
+            "alternativas": [
+              "5%",
+              "20%",
+              "10%",
+              "11,1%"
+            ],
+            "correta": 2,
+            "explicacao": "A prazo: 2.000. Desconto: 200 ÷ 2.000 = 10%.",
+            "dica": "Calcule o total a prazo primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia tem R$ 2.400 rendendo e a geladeira custa R$ 2.400 à vista ou 4 × R$ 600, sem desconto. O melhor é:",
+            "alternativas": [
+              "pagar à vista",
+              "não comprar nunca",
+              "pegar empréstimo",
+              "parcelar e deixar o dinheiro rendendo, com disciplina"
+            ],
+            "correta": 3,
+            "explicacao": "Sem desconto, o dinheiro aplicado rende enquanto ela paga.",
+            "dica": "Há alguma vantagem em pagar à vista aqui?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Desconto à vista de 15% e aplicação que rende 0,5% ao mês. A compra seria em 3 vezes. O melhor é:",
+            "alternativas": [
+              "parcelar",
+              "pagar à vista, porque 15% é muito mais do que o rendimento em 3 meses",
+              "tanto faz",
+              "não comprar"
+            ],
+            "correta": 1,
+            "explicacao": "Em 3 meses, a aplicação renderia cerca de 1,5%, muito menos que 15%.",
+            "dica": "Compare 15% com o que 3 meses de rendimento dariam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bicicleta: 6 × R$ 150 ou R$ 810 à vista. Quanto se economiza pagando à vista?",
+            "alternativas": [
+              "R$ 90",
+              "R$ 150",
+              "R$ 810",
+              "R$ 60"
+            ],
+            "correta": 0,
+            "explicacao": "6 × 150 = 900; 900 − 810 = 90.",
+            "dica": "Some as parcelas antes de comparar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto valem hoje R$ 1.000 que você vai receber daqui a um ano, com rendimento de 10% ao ano?",
+            "alternativas": [
+              "R$ 900,00",
+              "R$ 909,09",
+              "R$ 1.100,00",
+              "R$ 990,00"
+            ],
+            "correta": 1,
+            "explicacao": "1.000 ÷ 1,10 ≈ 909,09. Tirar 10% de 1.000 dá 900, que não é o mesmo.",
+            "dica": "Que valor, rendendo 10%, vira 1.000?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rendimento de 10% e inflação de 4%. Qual é o ganho real aproximado?",
+            "alternativas": [
+              "14%",
+              "6% exatos",
+              "cerca de 5,8%",
+              "4%"
+            ],
+            "correta": 2,
+            "explicacao": "1,10 ÷ 1,04 ≈ 1,058, ou seja, cerca de 5,8%.",
+            "dica": "Divida os fatores em vez de subtrair as taxas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Moto: R$ 10.000 em 10 × R$ 1.000 ou à vista com 8% de desconto. Qual é o acréscimo do parcelado sobre o preço à vista?",
+            "alternativas": [
+              "8%",
+              "9,2%",
+              "80%",
+              "cerca de 8,7%"
+            ],
+            "correta": 3,
+            "explicacao": "À vista: 9.200. Diferença: 800. 800 ÷ 9.200 ≈ 8,7%.",
+            "dica": "Calcule o preço à vista e use-o como base."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a porcentagem de desconto e a de acréscimo são diferentes?",
+            "alternativas": [
+              "porque usam bases diferentes: uma o preço a prazo, outra o preço à vista",
+              "porque a loja erra a conta",
+              "não são diferentes",
+              "por causa do imposto"
+            ],
+            "correta": 0,
+            "explicacao": "A mesma diferença dividida por números diferentes dá porcentagens diferentes.",
+            "dica": "Releia o primeiro parágrafo do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 aplicados a 1% ao mês, juros compostos, por 2 meses. Quanto rendem?",
+            "alternativas": [
+              "R$ 20,00",
+              "R$ 20,10",
+              "R$ 2,01",
+              "R$ 201,00"
+            ],
+            "correta": 1,
+            "explicacao": "1.000 × 1,01 × 1,01 = 1.020,10. Rendimento: R$ 20,10.",
+            "dica": "No segundo mês, o juro incide também sobre o juro do primeiro."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Percorrer listas: somar, contar e achar o maior",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma lista guarda vários valores: notas = [7, 5, 9, 6]. O for percorre a lista item por item:\nfor n in notas:\n    print(n)",
+          "Somar com acumulador:\ntotal = 0\nfor n in notas:\n    total = total + n\nNo fim, total vale 27.",
+          "Contar com condição (contador):\naprovados = 0\nfor n in notas:\n    if n >= 6:\n        aprovados = aprovados + 1\nNo fim, aprovados vale 3.",
+          "Achar o maior:\nmaior = notas[0]\nfor n in notas:\n    if n > maior:\n        maior = n\nNo fim, maior vale 9. Começar com o primeiro item, e não com 0, evita erro quando todos os números são negativos.",
+          "O Python já tem prontos: sum(notas), len(notas), max(notas) e min(notas). A média é sum(notas) / len(notas) = 27 / 4 = 6.75."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Temperaturas da semana: [22, 25, 19, 30, 28]. Calcule soma, média, maior e quantas passaram de 24.",
+            "resolucao": "Soma: 124. Média: 124 / 5 = 24.8. Maior: 30. Acima de 24: 25, 30 e 28, ou seja, 3."
+          },
+          {
+            "enunciado": "gastos = [12.5, 30, 7.5]. Escreva o acumulador e diga o resultado.",
+            "resolucao": "total = 0; for g in gastos: total = total + g. No fim, total = 50.0."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Posição do maior: notas.index(max(notas)) devolve 2, porque o 9 está no índice 2. Também dá para usar enumerate: for i, n in enumerate(notas).",
+        "Filtrar numa nova lista: aprovadas = [n for n in notas if n >= 6] devolve [7, 9, 6]. O mesmo pode ser feito com uma lista vazia e append dentro do for.",
+        "Erros clássicos: zerar o acumulador dentro do laço (total = 0 dentro do for faz sobrar só o último valor) e começar com maior = 0 numa lista como [-5, -2, -8], o que dá 0, um número que nem está na lista."
+      ],
+      "desafio_pratico": "Num site de Python on-line, crie uma lista com os seus gastos da semana. Mostre o total, a média, o maior gasto e quantos gastos passaram de R$ 10, primeiro com for e depois com sum, max e len, para conferir se dá o mesmo.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá len([7, 5, 9, 6])?",
+            "alternativas": [
+              "27",
+              "4",
+              "9",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "len conta os itens: 4.",
+            "dica": "len conta, não soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá sum([7, 5, 9, 6])?",
+            "alternativas": [
+              "27",
+              "4",
+              "26",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "7 + 5 + 9 + 6 = 27.",
+            "dica": "sum soma os itens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá max([3, 8, 2])?",
+            "alternativas": [
+              "3",
+              "2",
+              "8",
+              "13"
+            ],
+            "correta": 2,
+            "explicacao": "O maior valor é 8.",
+            "dica": "max devolve o maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando percorre a lista item por item?",
+            "alternativas": [
+              "print",
+              "if",
+              "def",
+              "for"
+            ],
+            "correta": 3,
+            "explicacao": "for n in lista: passa por cada item.",
+            "dica": "É o comando de repetição usado com listas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com que valor começa um acumulador de soma?",
+            "alternativas": [
+              "1",
+              "0",
+              "100",
+              "a lista"
+            ],
+            "correta": 1,
+            "explicacao": "Antes de somar, ainda não há nada: 0.",
+            "dica": "Que número não muda uma soma?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em [7, 5, 9, 6], quantas notas são maiores ou iguais a 6?",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "7, 9 e 6.",
+            "dica": "O 6 também conta, por causa do \"igual\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a média de [7, 5, 9, 6]?",
+            "alternativas": [
+              "6.75",
+              "27",
+              "7",
+              "6.5"
+            ],
+            "correta": 0,
+            "explicacao": "27 / 4 = 6.75.",
+            "dica": "Soma dividida pela quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Temperaturas [22, 25, 19, 30, 28]: quantas passaram de 24?",
+            "alternativas": [
+              "2",
+              "4",
+              "3",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "25, 30 e 28.",
+            "dica": "Confira uma por uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que começar com maior = lista[0]?",
+            "alternativas": [
+              "porque fica mais bonito",
+              "porque o Python exige",
+              "porque o primeiro é sempre o maior",
+              "para funcionar até com números negativos"
+            ],
+            "correta": 3,
+            "explicacao": "Com 0, uma lista de negativos daria um resultado errado.",
+            "dica": "Pense numa lista só de números negativos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá min([4, -1, 7])?",
+            "alternativas": [
+              "4",
+              "7",
+              "-1",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "−1 é o menor.",
+            "dica": "Números negativos são menores que zero."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "maior = 0; for n in [-5, -2, -8]: if n > maior: maior = n. Qual é o valor final de maior?",
+            "alternativas": [
+              "-2",
+              "-5",
+              "0",
+              "-8"
+            ],
+            "correta": 2,
+            "explicacao": "Nenhum número é maior que 0, então maior continua 0: o erro clássico.",
+            "dica": "Algum número da lista é maior que zero?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total = 0; for n in [2, 4, 6]: total = total + n * n. Quanto vale total?",
+            "alternativas": [
+              "12",
+              "56",
+              "48",
+              "144"
+            ],
+            "correta": 1,
+            "explicacao": "4 + 16 + 36 = 56.",
+            "dica": "Some os quadrados, não os números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "lista = [3, 8, 8, 1]; cont = 0; for n in lista: if n == 8: cont = cont + 1. Quanto vale cont?",
+            "alternativas": [
+              "8",
+              "1",
+              "16",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "O 8 aparece duas vezes.",
+            "dica": "Conte quantas vezes aparece, não some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá sum([12.5, 30, 7.5])?",
+            "alternativas": [
+              "50.0",
+              "49.5",
+              "3",
+              "30"
+            ],
+            "correta": 0,
+            "explicacao": "12.5 + 30 + 7.5 = 50.0.",
+            "dica": "Some os três valores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for n in [4, 9, 2]: if n % 2 == 0: print(n). O que aparece?",
+            "alternativas": [
+              "9",
+              "4 e 2",
+              "4, 9 e 2",
+              "nada"
+            ],
+            "correta": 1,
+            "explicacao": "n % 2 == 0 testa se é par.",
+            "dica": "O resto da divisão por 2 é zero em quais números?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "notas = [7, 5, 9, 6]. Quanto vale notas.index(max(notas))?",
+            "alternativas": [
+              "9",
+              "3",
+              "2",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "O maior é 9, que está no índice 2 (contando do zero).",
+            "dica": "Primeiro ache o maior, depois a posição dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale [n for n in [7, 5, 9, 6] if n >= 6]?",
+            "alternativas": [
+              "[7, 9, 6]",
+              "[5]",
+              "3",
+              "[7, 5, 9, 6]"
+            ],
+            "correta": 0,
+            "explicacao": "Ficam só os itens que passam no teste.",
+            "dica": "O resultado é uma lista filtrada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "for n in [3, 4, 5]:\n    total = 0\n    total = total + n\nQuanto vale total no fim?",
+            "alternativas": [
+              "12",
+              "0",
+              "3",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "O acumulador é zerado a cada volta; sobra só 0 + 5.",
+            "dica": "Siga volta por volta o que acontece com total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na lista [12, -3, 7, 20, 0], quanto vale max − min?",
+            "alternativas": [
+              "20",
+              "17",
+              "23",
+              "32"
+            ],
+            "correta": 2,
+            "explicacao": "20 − (−3) = 23.",
+            "dica": "Subtrair um negativo é somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cont = 0; for n in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]: if n % 3 == 0: cont = cont + 1. Quanto vale cont?",
+            "alternativas": [
+              "4",
+              "3",
+              "10",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "3, 6 e 9 são múltiplos de 3.",
+            "dica": "Quais números de 1 a 10 a divisão por 3 deixa sem resto?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Orações subordinadas substantivas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "No período composto por subordinação, uma oração (a subordinada) exerce uma função sintática dentro de outra (a principal). A subordinada substantiva faz o papel de um substantivo e pode ser trocada por \"isso\". Geralmente começa com as conjunções integrantes \"que\" ou \"se\".",
+          "Subjetiva: é o sujeito da principal. \"É importante que você estude.\" (Isso é importante.) É comum depois de \"é bom\", \"é necessário\", \"convém\", \"parece\".",
+          "Objetiva direta: é o objeto direto. \"Espero que você venha.\" (Espero isso.) Objetiva indireta: é o objeto indireto, com preposição. \"Lembre-se de que a prova é amanhã.\" (Lembre-se disso.)",
+          "Completiva nominal: é o complemento de um nome. \"Tenho certeza de que vou passar.\" (Tenho certeza disso.) Predicativa: vem depois de verbo de ligação. \"O problema é que choveu.\" Apositiva: é aposto, geralmente depois de dois-pontos. \"Só quero uma coisa: que você seja feliz.\"",
+          "Truque: troque a oração por \"isso\" e analise a frase simples que sobrar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: \"Não sei se ele virá.\"",
+            "resolucao": "Não sei isso → \"isso\" é objeto direto de saber. Subordinada substantiva objetiva direta."
+          },
+          {
+            "enunciado": "Classifique: \"É necessário que todos votem.\"",
+            "resolucao": "Isso é necessário → \"isso\" é o sujeito. Subordinada substantiva subjetiva."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Objetiva indireta ou completiva nominal? As duas têm preposição. Veja se a oração completa um verbo (objetiva indireta) ou um nome (completiva nominal): \"Necessito de que me ajudem\" x \"Tenho necessidade de que me ajudem\".",
+        "Uma frase pode ter várias substantivas encaixadas: em \"Sei que é necessário que todos ajudem\", \"que é necessário\" é objetiva direta de sei, e \"que todos ajudem\" é subjetiva de \"é necessário\".",
+        "Com verbos como temer, a oração é objetiva direta (\"Temo que chova\"); com o substantivo medo, é completiva nominal (\"Tenho medo de que chova\"). E \"Era evidente que ele mentia\" é subjetiva: isso era evidente."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A oração substantiva pode ser trocada por:",
+            "alternativas": [
+              "isso",
+              "ontem",
+              "aqui",
+              "muito"
+            ],
+            "correta": 0,
+            "explicacao": "É o truque principal da lição.",
+            "dica": "Pense numa palavra que substitui uma ideia inteira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Espero que você venha.\" A oração \"que você venha\" é:",
+            "alternativas": [
+              "subjetiva",
+              "objetiva direta",
+              "apositiva",
+              "predicativa"
+            ],
+            "correta": 1,
+            "explicacao": "Espero isso: objeto direto.",
+            "dica": "Troque por isso e veja a função."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma conjunção integrante comum?",
+            "alternativas": [
+              "mas",
+              "porque",
+              "que",
+              "e"
+            ],
+            "correta": 2,
+            "explicacao": "Que e se introduzem as substantivas.",
+            "dica": "É a palavra que mais aparece nos exemplos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"É importante que você estude.\" Isso é importante. A oração é:",
+            "alternativas": [
+              "objeto direto",
+              "aposto",
+              "predicativo",
+              "sujeito (subjetiva)"
+            ],
+            "correta": 3,
+            "explicacao": "\"Isso\" é o sujeito de \"é importante\".",
+            "dica": "Quem é importante?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A oração que exerce uma função sintática em outra se chama:",
+            "alternativas": [
+              "subordinada",
+              "coordenada",
+              "principal",
+              "vocativa"
+            ],
+            "correta": 0,
+            "explicacao": "Ela depende da principal.",
+            "dica": "Subordinar é colocar sob outra."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Não sei se ele virá.\" Como se classifica a oração destacada pelo se?",
+            "alternativas": [
+              "subjetiva",
+              "objetiva direta",
+              "completiva nominal",
+              "predicativa"
+            ],
+            "correta": 1,
+            "explicacao": "Não sei isso: objeto direto.",
+            "dica": "Troque por isso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Tenho certeza de que vou passar.\" A oração é:",
+            "alternativas": [
+              "completiva nominal",
+              "objetiva indireta",
+              "subjetiva",
+              "apositiva"
+            ],
+            "correta": 0,
+            "explicacao": "Completa o substantivo certeza.",
+            "dica": "A oração completa um verbo ou um nome?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"O problema é que choveu.\" A oração é:",
+            "alternativas": [
+              "subjetiva",
+              "objetiva direta",
+              "predicativa",
+              "apositiva"
+            ],
+            "correta": 2,
+            "explicacao": "Vem depois do verbo de ligação é.",
+            "dica": "Repare no verbo de ligação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Só quero uma coisa: que você seja feliz.\" A oração é:",
+            "alternativas": [
+              "subjetiva",
+              "predicativa",
+              "objetiva indireta",
+              "apositiva"
+            ],
+            "correta": 3,
+            "explicacao": "Explica \"uma coisa\", depois dos dois-pontos.",
+            "dica": "O que vem depois dos dois-pontos explica algo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Lembre-se de que a prova é amanhã.\" A oração é:",
+            "alternativas": [
+              "objetiva indireta",
+              "objetiva direta",
+              "completiva nominal",
+              "subjetiva"
+            ],
+            "correta": 0,
+            "explicacao": "Lembrar-se de: verbo com preposição.",
+            "dica": "A preposição completa um verbo ou um nome?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Convém que saiam cedo.\" A oração é:",
+            "alternativas": [
+              "objetiva direta",
+              "subjetiva",
+              "predicativa",
+              "apositiva"
+            ],
+            "correta": 1,
+            "explicacao": "Isso convém: sujeito.",
+            "dica": "O que convém?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Compare \"Necessito de que me ajudem\" e \"Tenho necessidade de que me ajudem\":",
+            "alternativas": [
+              "completiva nominal e objetiva indireta",
+              "as duas objetivas diretas",
+              "objetiva indireta e completiva nominal",
+              "as duas subjetivas"
+            ],
+            "correta": 2,
+            "explicacao": "Na 1ª, completa o verbo; na 2ª, o substantivo necessidade.",
+            "dica": "Ache a palavra completada em cada frase."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem oração subjetiva?",
+            "alternativas": [
+              "Parece que vai chover",
+              "Sei que vai chover",
+              "O medo é que chova",
+              "Tenho medo de que chova"
+            ],
+            "correta": 0,
+            "explicacao": "Isso parece: sujeito.",
+            "dica": "Procure \"isso\" no papel de sujeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"A dúvida era se o ônibus passaria.\" A oração é:",
+            "alternativas": [
+              "subjetiva",
+              "objetiva direta",
+              "apositiva",
+              "predicativa"
+            ],
+            "correta": 3,
+            "explicacao": "Vem depois do verbo de ligação era.",
+            "dica": "Era é verbo de ligação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"É bom que todos participem.\" Trocando por isso:",
+            "alternativas": [
+              "Isso é bom → subjetiva",
+              "Todos participam isso → objetiva",
+              "É bom isso → objetiva direta",
+              "não dá para trocar"
+            ],
+            "correta": 0,
+            "explicacao": "\"Isso\" vira sujeito de \"é bom\".",
+            "dica": "Coloque o isso no começo da frase."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas orações substantivas há em \"Sei que é necessário que todos ajudem\"?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "\"que é necessário\" (objetiva direta de sei) e \"que todos ajudem\" (subjetiva de é necessário).",
+            "dica": "Releia o aprofundamento sobre orações encaixadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"O certo é que ninguém sabia se haveria aula.\" As substantivas são, na ordem:",
+            "alternativas": [
+              "subjetiva e objetiva direta",
+              "predicativa e subjetiva",
+              "predicativa e objetiva direta",
+              "apositiva e completiva nominal"
+            ],
+            "correta": 2,
+            "explicacao": "\"que ninguém sabia\" vem depois de é (predicativa); \"se haveria aula\" é objeto de sabia.",
+            "dica": "Analise uma oração de cada vez, de fora para dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Compare \"Tenho medo de que chova\" e \"Temo que chova\":",
+            "alternativas": [
+              "completiva nominal e objetiva direta",
+              "objetiva indireta e objetiva direta",
+              "as duas completivas nominais",
+              "subjetiva e objetiva direta"
+            ],
+            "correta": 0,
+            "explicacao": "Medo é nome (completiva nominal); temer é verbo transitivo direto (objetiva direta).",
+            "dica": "Uma frase usa um substantivo, a outra, um verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Era evidente que ele mentia.\" A oração é:",
+            "alternativas": [
+              "predicativa",
+              "objetiva direta",
+              "apositiva",
+              "subjetiva"
+            ],
+            "correta": 3,
+            "explicacao": "Isso era evidente: \"isso\" é o sujeito. Evidente é o predicativo.",
+            "dica": "Coloque isso no lugar da oração e procure o sujeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem oração apositiva?",
+            "alternativas": [
+              "Desejo que você volte logo",
+              "Desejo isto: que você volte logo",
+              "É bom que você volte",
+              "O desejo é que você volte"
+            ],
+            "correta": 1,
+            "explicacao": "A oração explica \"isto\", depois dos dois-pontos.",
+            "dica": "Procure os dois-pontos."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "As doze parcelas de Lucas",
+    "texto": "Lucas juntou dinheiro durante oito meses: troco da padaria, mesada, os vinte reais que a tia mandava no aniversário e o que ganhou lavando carros no fim de semana. Quando chegou a mil e cem reais, foi com a mãe à loja escolher o celular novo.\n\nO modelo que ele queria estava anunciado em letras enormes: 12 vezes de R$ 100 sem juros. Embaixo, em letras pequenas, outra informação: R$ 1.080 à vista.\n\n— Doze vezes sem juros é de graça, mãe! Eu pago cem por mês e ainda fico com o dinheiro guardado.\n\nA mãe, que trabalhava no caixa de um mercado, pediu calma e um papel. Fez a primeira conta: doze vezes cem dava mil e duzentos. À vista, eram mil e oitenta. A diferença, cento e vinte reais, era o preço de pagar aos poucos.\n\n— Então tem juros, sim — disse Lucas, meio decepcionado.\n\n— Escondidos no preço. Agora a segunda conta: quanto o seu dinheiro renderia guardado?\n\nLucas abriu o aplicativo do banco. O rendimento dava menos de um por cento ao mês. Com o dinheiro saindo aos poucos para pagar as parcelas, ele ganharia bem menos que cento e vinte reais no ano.\n\nPagou à vista. Sobraram vinte reais, que voltaram para o cofrinho.\n\nNo ônibus, de volta para casa, Lucas viu o cartaz de outra loja: \"Leve agora e pague só em março\". Riu sozinho. Já sabia que a primeira pergunta não era quanto custava a parcela, mas quanto custava esperar."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, conte uma compra que sua família fez ou quer fazer e mostre, com números, se valeria mais a pena pagar à vista ou parcelar."
+  }
+}

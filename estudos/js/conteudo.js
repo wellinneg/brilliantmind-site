@@ -1,7 +1,11 @@
+import { definirEpisodios } from './rodizio.js';
+
 export async function carregarIndice() {
   const r = await fetch('conteudo/indice.json', { cache: 'no-cache' });
   if (!r.ok) throw new Error('Não encontrei o índice de conteúdo.');
-  return r.json();
+  const indice = await r.json();
+  definirEpisodios(indice.ouvir?.episodios);   // quantos episódios do 🎧 Ouvir existem
+  return indice;
 }
 export async function carregarDia(ano, dia) {
   const r = await fetch(`conteudo/${ano}/dia-${String(dia).padStart(2, '0')}.json`, { cache: 'no-cache' });   // sempre confere se mudou

@@ -1,0 +1,999 @@
+{
+  "dia": 24,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "MMC e MDC: resolvendo problemas do dia a dia",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Múltiplos comuns são números que aparecem na lista de múltiplos de dois ou mais números. Múltiplos de 4: 4, 8, 12, 16, 20, 24... Múltiplos de 6: 6, 12, 18, 24... Os comuns são 12, 24, 36... O menor deles é o MMC (mínimo múltiplo comum): mmc(4, 6) = 12.",
+          "Divisores comuns são números que dividem dois ou mais números sem deixar resto. Divisores de 12: 1, 2, 3, 4, 6, 12. Divisores de 18: 1, 2, 3, 6, 9, 18. Os comuns são 1, 2, 3 e 6. O maior é o MDC (máximo divisor comum): mdc(12, 18) = 6.",
+          "Quando usar cada um? MMC quando coisas se repetem em intervalos e queremos saber quando vão coincidir de novo: ônibus, remédios, plantões, luzes que piscam. MDC quando queremos dividir coisas em grupos ou pedaços iguais, do maior tamanho possível, sem sobrar nada.",
+          "Para números maiores, use a decomposição em fatores primos ao mesmo tempo: divida os números por 2, 3, 5... até todos virarem 1. O MMC é o produto de todos os fatores usados; o MDC é o produto só dos fatores que dividiram todos os números ao mesmo tempo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O ônibus A passa no ponto a cada 15 minutos e o B, a cada 20. Os dois passaram juntos às 7h. Quando passam juntos de novo?",
+            "resolucao": "Múltiplos de 15: 15, 30, 45, 60. Múltiplos de 20: 20, 40, 60. mmc(15, 20) = 60 minutos. Passam juntos de novo às 8h."
+          },
+          {
+            "enunciado": "Uma professora tem 24 lápis e 36 borrachas e quer montar kits iguais, o maior número possível, sem sobrar nada. Quantos kits e o que vai em cada um?",
+            "resolucao": "mdc(24, 36) = 12. São 12 kits, cada um com 24 ÷ 12 = 2 lápis e 36 ÷ 12 = 3 borrachas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para dois números, vale sempre: mmc × mdc = produto dos números. Com 12 e 18: mmc = 36, mdc = 6, e 36 × 6 = 216 = 12 × 18. Isso permite achar um quando você já conhece o outro.",
+        "Se dois números só têm o 1 como divisor comum, eles são primos entre si: o mdc é 1 e o mmc é o produto deles. Exemplo: 8 e 15 → mdc = 1 e mmc = 120. E se um número é múltiplo do outro, o mmc é o maior e o mdc é o menor: mmc(6, 18) = 18 e mdc(6, 18) = 6.",
+        "Cuidado com as contagens: se uma lixeira fica a cada 25 m desde o ponto zero, há lixeira no 0, no 25, no 50... Ao contar pontos de coincidência num trajeto, pergunte se o ponto de partida também conta."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o MMC de 2 e 3?",
+            "alternativas": ["5", "1", "6", "12"],
+            "correta": 2,
+            "explicacao": "Múltiplos de 2: 2, 4, 6. Múltiplos de 3: 3, 6. O primeiro comum é 6.",
+            "dica": "Liste os múltiplos de 2 e de 3 e ache o primeiro que aparece nas duas listas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o MDC de 8 e 12?",
+            "alternativas": ["4", "2", "24", "8"],
+            "correta": 0,
+            "explicacao": "Divisores de 8: 1, 2, 4, 8. Divisores de 12: 1, 2, 3, 4, 6, 12. O maior comum é 4.",
+            "dica": "Qual é o maior número que divide os dois sem sobrar resto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para saber quando dois ônibus passarão juntos de novo, usamos:",
+            "alternativas": ["MDC", "MMC", "a soma dos tempos", "a subtração dos tempos"],
+            "correta": 1,
+            "explicacao": "Coisas que se repetem e coincidem de novo: múltiplo comum, o menor deles.",
+            "dica": "Os horários se repetem como uma tabuada. Isso lembra múltiplos ou divisores?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são os múltiplos de 5 até 20?",
+            "alternativas": ["1, 5, 10, 15", "5, 6, 7, 8", "2, 5, 10, 20", "5, 10, 15, 20"],
+            "correta": 3,
+            "explicacao": "Múltiplos de 5 são a tabuada do 5: 5, 10, 15, 20...",
+            "dica": "Lembre da tabuada do 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são todos os divisores de 10?",
+            "alternativas": ["10, 20, 30, 40", "2, 5", "1, 2, 5, 10", "1, 10"],
+            "correta": 2,
+            "explicacao": "10 ÷ 1, 10 ÷ 2, 10 ÷ 5 e 10 ÷ 10 dão divisão exata. Não esqueça o 1 e o próprio 10.",
+            "dica": "Todo número é dividido por 1 e por ele mesmo. Falta algum no meio?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o mmc de 6 e 8?",
+            "alternativas": ["48", "24", "14", "2"],
+            "correta": 1,
+            "explicacao": "Múltiplos de 8: 8, 16, 24. O 24 também é múltiplo de 6 (6 × 4). O 48 é comum, mas não é o menor.",
+            "dica": "Vá pela tabuada do maior número e teste se cada valor é múltiplo do menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o mdc de 18 e 24?",
+            "alternativas": ["2", "3", "72", "6"],
+            "correta": 3,
+            "explicacao": "Divisores de 18: 1, 2, 3, 6, 9, 18. De 24: 1, 2, 3, 4, 6, 8, 12, 24. O maior comum é 6.",
+            "dica": "Liste os divisores de cada um e pegue o maior que aparece nas duas listas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Lurdes toma um remédio a cada 6 horas e outro a cada 8 horas. Tomou os dois juntos às 6h da manhã. Quando vai tomá-los juntos de novo?",
+            "alternativas": ["Às 6h do dia seguinte", "Às 14h do mesmo dia", "Às 18h do mesmo dia", "À meia-noite"],
+            "correta": 0,
+            "explicacao": "mmc(6, 8) = 24 horas. 6h + 24 h = 6h do dia seguinte.",
+            "dica": "Ache o mmc das horas e some ao horário de partida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 30 balas e 45 pirulitos, quer-se montar saquinhos iguais, o maior número possível, sem sobra. Quantos saquinhos?",
+            "alternativas": ["5", "3", "15", "90"],
+            "correta": 2,
+            "explicacao": "mdc(30, 45) = 15. Cada saquinho leva 2 balas e 3 pirulitos.",
+            "dica": "Dividir em grupos iguais e sem sobra pede o maior divisor comum."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para achar o mmc de 4 e 10 pela lista de múltiplos:",
+            "itens": ["Listar múltiplos de 4: 4, 8, 12, 16, 20", "Listar múltiplos de 10: 10, 20, 30", "Achar os números que aparecem nas duas listas", "Escolher o menor deles: 20"],
+            "explicacao": "Primeiro as duas listas, depois os comuns e, por fim, o menor comum, que é o mmc.",
+            "dica": "Faça as listas antes de comparar; o menor comum vem por último."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Três netos visitam a avó: um a cada 2 dias, outro a cada 3 e outro a cada 4. Hoje foram os três. Daqui a quantos dias se encontram de novo lá?",
+            "alternativas": ["9", "24", "12", "6"],
+            "correta": 2,
+            "explicacao": "mmc(2, 3, 4) = 12. O 24 também serve para os três, mas não é o primeiro encontro. O 9 é a soma, que não tem sentido aqui.",
+            "dica": "Procure o menor número que está na tabuada do 2, do 3 e do 4."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas fitas de 120 cm e 180 cm serão cortadas em pedaços iguais, do maior tamanho possível, sem sobra. Quantos pedaços saem no total?",
+            "alternativas": ["5", "60", "6", "10"],
+            "correta": 0,
+            "explicacao": "mdc(120, 180) = 60 cm. 120 ÷ 60 = 2 e 180 ÷ 60 = 3: 5 pedaços. O 60 é o tamanho, não a quantidade.",
+            "dica": "Ache o tamanho de cada pedaço primeiro; depois conte quantos cabem em cada fita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma luz vermelha pisca a cada 4 segundos e uma azul a cada 6. Piscaram juntas agora. Quantas vezes vão piscar juntas no próximo minuto?",
+            "alternativas": ["10", "12", "4", "5"],
+            "correta": 3,
+            "explicacao": "mmc(4, 6) = 12 s. Em 60 s: 60 ÷ 12 = 5 vezes (aos 12, 24, 36, 48 e 60 segundos).",
+            "dica": "Descubra de quanto em quanto tempo elas coincidem e veja quantas vezes isso cabe em 60."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para 12 e 18, quais são o mmc e o mdc?",
+            "alternativas": ["mmc 6 e mdc 36", "mmc 36 e mdc 6", "mmc 216 e mdc 6", "mmc 36 e mdc 3"],
+            "correta": 1,
+            "explicacao": "Múltiplos comuns: 36, 72... → mmc 36. Divisores comuns: 1, 2, 3, 6 → mdc 6. Confere: 36 × 6 = 216 = 12 × 18.",
+            "dica": "O mmc nunca é menor que os números; o mdc nunca é maior que eles."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma sala mede 360 cm por 480 cm. Qual é o maior ladrilho quadrado que cobre o chão inteiro sem precisar cortar nenhum?",
+            "alternativas": ["60 cm de lado", "40 cm de lado", "120 cm de lado", "240 cm de lado"],
+            "correta": 2,
+            "explicacao": "mdc(360, 480) = 120. Cabem 3 ladrilhos numa direção e 4 na outra. O 240 não divide 360.",
+            "dica": "O lado do ladrilho precisa dividir as duas medidas exatamente."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois números têm produto 360 e mdc 6. Qual é o mmc deles?",
+            "alternativas": ["54", "360", "6", "60"],
+            "correta": 3,
+            "explicacao": "mmc × mdc = produto. mmc = 360 ÷ 6 = 60. Exemplo: 12 e 30.",
+            "dica": "Use a relação do aprofundamento entre mmc, mdc e o produto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o mmc de 9 e 16?",
+            "alternativas": ["144", "72", "1", "25"],
+            "correta": 0,
+            "explicacao": "9 = 3 × 3 e 16 = 2 × 2 × 2 × 2 não têm fator comum: são primos entre si. O mmc é o produto: 9 × 16 = 144.",
+            "dica": "Veja se 9 e 16 têm algum divisor comum além do 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num trajeto de 300 m há uma lixeira a cada 25 m e um banco a cada 30 m, começando no ponto zero, onde há os dois. Contando o ponto zero e o final, em quantos pontos há lixeira e banco juntos?",
+            "alternativas": ["2", "3", "4", "12"],
+            "correta": 1,
+            "explicacao": "mmc(25, 30) = 150. Coincidem no 0, no 150 e no 300: 3 pontos. Quem esquece o zero responde 2.",
+            "dica": "Ache de quantos em quantos metros eles coincidem e não se esqueça do começo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Há 48 maçãs, 72 laranjas e 96 bananas para montar cestas iguais (mesmo número de cada fruta em todas), o maior número de cestas possível, sem sobra. Quantas frutas vão em cada cesta?",
+            "alternativas": ["24", "6", "9", "12"],
+            "correta": 2,
+            "explicacao": "mdc(48, 72, 96) = 24 cestas. Cada uma leva 2 maçãs, 3 laranjas e 4 bananas: 9 frutas. O 24 é o número de cestas.",
+            "dica": "Primeiro descubra quantas cestas; depois quantas frutas de cada tipo vão em uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A engrenagem A tem 12 dentes e a B tem 18. Marcamos um dente de cada no ponto de encaixe. Quantas voltas a engrenagem A dá até as marcas se encontrarem de novo?",
+            "alternativas": ["3 voltas", "2 voltas", "6 voltas", "36 voltas"],
+            "correta": 0,
+            "explicacao": "Precisam passar mmc(12, 18) = 36 dentes. A dá 36 ÷ 12 = 3 voltas (e B, 2 voltas).",
+            "dica": "Conte em dentes: quantos dentes passam até as duas voltarem juntas à marca?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Condições encadeadas: o senão-se",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Com SE ... SENÃO o programa escolhe entre dois caminhos. Quando existem três ou mais, usamos o SENÃO SE. Em Python, ele se escreve elif.",
+          "Exemplo: SE nota >= 7 ENTÃO ESCREVA \"Aprovado\" SENÃO SE nota >= 5 ENTÃO ESCREVA \"Recuperação\" SENÃO ESCREVA \"Reprovado\".",
+          "O computador testa as condições de cima para baixo e para na primeira que for verdadeira. As de baixo nem são olhadas.",
+          "O SENÃO final pega todos os casos que sobraram, ou seja, os que nenhuma condição de cima aceitou.",
+          "A ordem importa! Se testarmos nota >= 5 antes de nota >= 7, quem tirou 9 já para na primeira condição e recebe \"Recuperação\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "No programa das notas, o que aparece para nota 6?",
+            "resolucao": "6 >= 7? Falso. 6 >= 5? Verdadeiro, então escreve \"Recuperação\" e para. O SENÃO nem é olhado."
+          },
+          {
+            "enunciado": "SE t >= 30 ENTÃO ESCREVA \"Calor\" SENÃO SE t >= 18 ENTÃO ESCREVA \"Agradável\" SENÃO ESCREVA \"Frio\". O que aparece para t = 18?",
+            "resolucao": "18 >= 30? Falso. 18 >= 18? Verdadeiro (é maior ou igual). Aparece \"Agradável\"."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Nas faixas, basta testar um limite por vez: quando chegamos em SENÃO SE nota >= 5, já sabemos que a nota é menor que 7, porque essa condição foi eliminada antes.",
+        "Erro comum: escrever vários SE separados em vez de SENÃO SE. Com SE x > 10 ESCREVA \"A\"; SE x > 5 ESCREVA \"B\"; SE x > 0 ESCREVA \"C\", para x = 7 o programa escreve B e C, porque cada SE é testado separadamente.",
+        "Teste sempre os limites (exatamente 7, exatamente 5) e os casos esquecidos. SE x > 0 \"positivo\" SENÃO SE x < 0 \"negativo\" não escreve nada para x = 0. Também dá para combinar condições com E e OU dentro do senão-se."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando um programa tem mais de dois caminhos, usamos:",
+            "alternativas": ["só um SE", "SENÃO SE", "ESCREVA", "uma lista"],
+            "correta": 1,
+            "explicacao": "O SENÃO SE acrescenta caminhos entre o primeiro SE e o SENÃO final.",
+            "dica": "É uma junção de duas palavras que você já conhece das condições."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, o senão-se se escreve:",
+            "alternativas": ["else", "if", "while", "elif"],
+            "correta": 3,
+            "explicacao": "elif é a junção de else (senão) com if (se).",
+            "dica": "É uma mistura curtinha de else com if."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No programa das notas (Aprovado a partir de 7, Recuperação a partir de 5), o que aparece para nota 8?",
+            "alternativas": ["Aprovado", "Recuperação", "Reprovado", "Nada"],
+            "correta": 0,
+            "explicacao": "8 >= 7 é verdadeiro logo na primeira condição.",
+            "dica": "Teste a primeira condição: 8 é maior ou igual a 7?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No mesmo programa, o que aparece para nota 3?",
+            "alternativas": ["Aprovado", "Recuperação", "Reprovado", "Erro"],
+            "correta": 2,
+            "explicacao": "3 >= 7 é falso, 3 >= 5 é falso, então cai no SENÃO: Reprovado.",
+            "dica": "Se nenhuma condição for verdadeira, quem resolve é o SENÃO final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que ordem o computador testa as condições do senão-se?",
+            "alternativas": ["De baixo para cima", "De cima para baixo, parando na primeira verdadeira", "Todas ao mesmo tempo", "Em ordem aleatória"],
+            "correta": 1,
+            "explicacao": "Ele lê de cima para baixo e, achando uma verdadeira, executa e pula o resto.",
+            "dica": "Pense em como você lê um texto e para quando encontra a resposta."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No programa das notas, o que aparece para nota 5?",
+            "alternativas": ["Aprovado", "Reprovado", "Recuperação", "Nada aparece"],
+            "correta": 2,
+            "explicacao": "5 >= 7 é falso; 5 >= 5 é verdadeiro (o sinal é maior ou igual).",
+            "dica": "Lembre que >= aceita o valor igual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No programa da temperatura (Calor a partir de 30, Agradável a partir de 18), o que aparece para t = 30?",
+            "alternativas": ["Calor", "Agradável", "Frio", "Calor e Agradável"],
+            "correta": 0,
+            "explicacao": "30 >= 30 é verdadeiro logo de cara, e o programa para ali.",
+            "dica": "Teste a primeira condição com o sinal de maior ou igual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE idade < 12 ENTÃO preco ← 10 SENÃO SE idade < 60 ENTÃO preco ← 20 SENÃO preco ← 10. Quanto paga quem tem 60 anos?",
+            "alternativas": ["20", "0", "30", "10"],
+            "correta": 3,
+            "explicacao": "60 < 12? Falso. 60 < 60? Falso. Cai no SENÃO: preco ← 10.",
+            "dica": "60 é menor que 60? Teste com cuidado cada condição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o SENÃO no final de um senão-se?",
+            "alternativas": ["Para repetir o programa", "Para pegar os casos que nenhuma condição de cima aceitou", "Para testar a primeira condição de novo", "Para apagar a variável"],
+            "correta": 1,
+            "explicacao": "O SENÃO final é o \"resto\": tudo o que não entrou em nenhuma condição anterior.",
+            "dica": "Ele não tem condição própria. Quando é que ele roda?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as linhas do programa que classifica a nota:",
+            "itens": ["SE nota >= 7 ENTÃO ESCREVA 'Aprovado'", "SENÃO SE nota >= 5 ENTÃO ESCREVA 'Recuperação'", "SENÃO ESCREVA 'Reprovado'", "FIM SE"],
+            "explicacao": "Começa com o SE da faixa mais alta, depois o SENÃO SE, o SENÃO e o fechamento.",
+            "dica": "Comece pela faixa mais alta e termine fechando o bloco."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "SE nota >= 5 ENTÃO 'Recuperação' SENÃO SE nota >= 7 ENTÃO 'Aprovado' SENÃO 'Reprovado'. O que aparece para nota 9?",
+            "alternativas": ["Aprovado", "Reprovado", "Recuperação", "Aprovado e Recuperação"],
+            "correta": 2,
+            "explicacao": "9 >= 5 é verdadeiro na primeira linha, e o programa para. A ordem está errada: o 'Aprovado' nunca aparece.",
+            "dica": "Siga a ordem escrita, não a ordem que faria sentido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE x > 10 ESCREVA 'A'. SE x > 5 ESCREVA 'B'. SE x > 0 ESCREVA 'C'. (Três SE separados.) O que aparece para x = 7?",
+            "alternativas": ["B e C", "Só B", "A, B e C", "Só C"],
+            "correta": 0,
+            "explicacao": "São três SE independentes: 7 > 10 falso, 7 > 5 verdadeiro, 7 > 0 verdadeiro. Aparecem B e C.",
+            "dica": "Sem SENÃO, cada SE é testado separadamente, mesmo que um anterior já tenha dado certo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE valor >= 200 ENTÃO frete ← 0 SENÃO SE valor >= 100 ENTÃO frete ← 10 SENÃO frete ← 20. Qual é o frete de uma compra de R$ 199,90?",
+            "alternativas": ["R$ 0", "R$ 20", "R$ 30", "R$ 10"],
+            "correta": 3,
+            "explicacao": "199,90 >= 200? Falso, por pouco. 199,90 >= 100? Verdadeiro. Frete de R$ 10.",
+            "dica": "Compare 199,90 com 200 com cuidado: falta pouco, mas falta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Queremos: menos de 12 anos 'criança', de 12 a 17 'adolescente', 18 ou mais 'adulto'. Depois de SE idade < 12, qual deve ser a próxima condição?",
+            "alternativas": ["SENÃO SE idade > 12", "SENÃO SE idade < 18", "SENÃO SE idade >= 18", "SENÃO SE idade = 17"],
+            "correta": 1,
+            "explicacao": "Quem chega ao SENÃO SE já tem 12 ou mais. Basta testar o limite de cima da faixa: menor que 18.",
+            "dica": "Quem chega nessa linha já tem 12 anos ou mais. Falta testar qual limite?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No programa das notas correto, para quantas notas inteiras de 0 a 10 aparece 'Recuperação'?",
+            "alternativas": ["1", "3", "2", "5"],
+            "correta": 2,
+            "explicacao": "Recuperação é de 5 até menos de 7: só as notas 5 e 6.",
+            "dica": "Escreva as notas inteiras de 5 para cima e pare antes de chegar ao Aprovado."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "SE qtd >= 10 ENTÃO desc ← 20 SENÃO SE qtd >= 5 ENTÃO desc ← 10 SENÃO desc ← 0 (desconto em %). Quem compra 7 itens de R$ 10 paga quanto?",
+            "alternativas": ["R$ 70", "R$ 56", "R$ 60", "R$ 63"],
+            "correta": 3,
+            "explicacao": "7 >= 10 falso; 7 >= 5 verdadeiro: 10% de desconto. Total 70 − 7 = R$ 63. O R$ 56 seria com 20%.",
+            "dica": "Descubra a faixa de desconto e aplique sobre o total de 7 itens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE x > 0 ENTÃO ESCREVA 'positivo' SENÃO SE x < 0 ENTÃO ESCREVA 'negativo'. O que acontece para x = 0?",
+            "alternativas": ["Nada é escrito", "Aparece 'positivo'", "Aparece 'negativo'", "Aparece 'zero'"],
+            "correta": 0,
+            "explicacao": "0 > 0 é falso e 0 < 0 é falso. Não há SENÃO final, então nada é escrito. É um caso esquecido.",
+            "dica": "Zero é maior que zero? É menor? E existe um SENÃO no fim?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "SE nota >= 7 E frequencia >= 75 ENTÃO 'Aprovado' SENÃO SE frequencia < 75 ENTÃO 'Reprovado por falta' SENÃO 'Recuperação'. O que aparece para nota 9 e frequência 70?",
+            "alternativas": ["Aprovado", "Reprovado por falta", "Recuperação", "Nada"],
+            "correta": 1,
+            "explicacao": "A primeira condição exige as duas coisas; frequência 70 falha. Na segunda, 70 < 75 é verdadeiro.",
+            "dica": "Com E, as duas partes precisam ser verdadeiras ao mesmo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No programa das notas (>= 7, depois >= 5, depois SENÃO), quantas comparações o computador faz para a nota 3 e quantas para a nota 8?",
+            "alternativas": ["1 e 1", "2 para a nota 3 e 1 para a nota 8", "3 e 3", "1 para a nota 3 e 2 para a nota 8"],
+            "correta": 1,
+            "explicacao": "Nota 3: testa >= 7 (falso) e >= 5 (falso) e vai ao SENÃO sem testar nada: 2. Nota 8: >= 7 já é verdadeiro: 1.",
+            "dica": "O SENÃO final não faz comparação. E o programa para na primeira verdadeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Regra: até 60 km/h 'ok', acima de 60 até 80 'atenção', acima de 80 'multa'. Qual programa está certo para todas as velocidades?",
+            "alternativas": ["SE v > 60 ENTÃO 'atenção' SENÃO SE v > 80 ENTÃO 'multa' SENÃO 'ok'", "SE v < 60 ENTÃO 'ok' SENÃO SE v < 80 ENTÃO 'atenção' SENÃO 'multa'", "SE v > 80 ENTÃO 'multa' SENÃO SE v > 60 ENTÃO 'atenção' SENÃO 'ok'", "SE v > 80 ENTÃO 'multa' SENÃO 'atenção'"],
+            "correta": 2,
+            "explicacao": "A primeira opção nunca dá multa (v > 60 pega antes). A segunda erra os limites: 60 daria 'atenção' e 80 daria 'multa'. A quarta nunca dá 'ok'.",
+            "dica": "Teste cada programa com 50, 60, 70, 80 e 90."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Alinhamento, espaçamento e recuo de parágrafo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Alinhamento é a posição do texto na linha. Há quatro tipos: à esquerda, centralizado, à direita e justificado (reto dos dois lados). Títulos costumam ser centralizados e o texto de trabalhos, justificado.",
+          "Espaçamento entre linhas é a distância de uma linha para a outra dentro do parágrafo: 1,0 (simples), 1,15, 1,5 ou 2,0. Trabalhos escolares costumam pedir 1,5. O botão fica na guia Página Inicial, em \"Espaçamento de Linha e Parágrafo\".",
+          "Espaçamento antes e depois separa um parágrafo do outro. Em vez de apertar Enter duas vezes, use, por exemplo, 6 pt depois de cada parágrafo.",
+          "Recuo é a distância entre o texto e a margem. O recuo de primeira linha afasta só a primeira linha do parágrafo, normalmente 1,25 cm. Ele deve ser feito pela janela Parágrafo ou pela régua, nunca com a barra de espaço."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como deixar um trabalho escolar no formato mais pedido?",
+            "resolucao": "Título centralizado; texto justificado; espaçamento entre linhas 1,5; recuo especial \"Primeira linha\" de 1,25 cm. Tudo na janela Parágrafo (Página Inicial > setinha do grupo Parágrafo)."
+          },
+          {
+            "enunciado": "Por que não afastar a primeira linha com a barra de espaço?",
+            "resolucao": "Os espaços mudam de tamanho com a fonte. Se trocar a fonte ou o tamanho, os parágrafos ficam cada um com um afastamento diferente. O recuo é medido em centímetros e fica sempre igual."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Na régua (guia Exibir > Régua) há marcadores: o triângulo de cima controla o recuo da primeira linha, o de baixo controla as outras linhas e o quadradinho move o parágrafo inteiro. O recuo de primeira linha é contado a partir do recuo esquerdo: com recuo esquerdo de 2 cm e primeira linha de 1,25 cm, a primeira linha começa a 3,25 cm da margem.",
+        "Existe também o recuo deslocado (ou pendente): a primeira linha fica mais à esquerda que as demais, como em algumas listas de referências. E nas normas da ABNT, citação longa (mais de três linhas) fica com recuo esquerdo de 4 cm, letra menor e espaçamento simples.",
+        "Atalhos no Word em português: Ctrl+Q alinha à esquerda, Ctrl+E centraliza, Ctrl+G alinha à direita e Ctrl+J justifica. Texto justificado em colunas estreitas pode abrir buracos entre as palavras; ativar a hifenização (guia Layout) ou alinhar à esquerda resolve. E cuidado com espaçamento \"Exatamente\": se o valor for menor que a fonte, as letras ficam cortadas."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google, no computador ou no celular), escreva um texto de 3 parágrafos com o título \"Meu lanche preferido\". Formate assim: título centralizado; texto justificado; espaçamento entre linhas 1,5; 6 pt de espaçamento depois de cada parágrafo; recuo especial \"Primeira linha\" de 1,25 cm (Página Inicial > Parágrafo). Acrescente um 4º parágrafo com uma frase dita por alguém da sua família, com recuo esquerdo de 4 cm, como uma citação. No fim, escreva seu nome e a data alinhados à direita. Ligue o botão ¶ e confira se não sobraram espaços ou Enters duplos. Salve o arquivo.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alinhamento deixa o texto reto dos dois lados?",
+            "alternativas": ["À esquerda", "Centralizado", "Justificado", "À direita"],
+            "correta": 2,
+            "explicacao": "O justificado ajusta os espaços para as linhas encostarem nas duas margens.",
+            "dica": "É o alinhamento mais pedido no texto de trabalhos escolares."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para colocar um título no meio da linha, use o alinhamento:",
+            "alternativas": ["centralizado", "justificado", "à direita", "à esquerda"],
+            "correta": 0,
+            "explicacao": "Centralizado deixa a mesma distância das duas margens.",
+            "dica": "Meio da linha = centro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o recuo de primeira linha?",
+            "alternativas": ["O espaço entre dois parágrafos", "A margem de baixo da folha", "O tamanho da letra", "O afastamento só da primeira linha do parágrafo"],
+            "correta": 3,
+            "explicacao": "É aquele \"parágrafo\" clássico que o caderno ensina: a primeira linha começa mais para dentro.",
+            "dica": "O nome já diz qual linha é afetada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Espaçamento 2,0 entre linhas deixa o texto:",
+            "alternativas": ["com linhas mais juntas que no 1,0", "com linhas mais separadas que no 1,0", "com letra maior", "centralizado"],
+            "correta": 1,
+            "explicacao": "Quanto maior o número, mais distância entre uma linha e outra.",
+            "dica": "Compare os números: 2,0 é maior ou menor que 1,0?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o jeito certo de afastar a primeira linha do parágrafo?",
+            "alternativas": ["Apertar a barra de espaço várias vezes", "Dar Enter", "Usar o recuo de primeira linha", "Escrever em letra maior"],
+            "correta": 2,
+            "explicacao": "O recuo fica sempre do mesmo tamanho; os espaços mudam quando a fonte muda.",
+            "dica": "Use a ferramenta própria do Word, medida em centímetros."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Que espaçamento entre linhas os trabalhos escolares costumam pedir?",
+            "alternativas": ["0,5", "1,5", "3,0", "4,0"],
+            "correta": 1,
+            "explicacao": "1,5 deixa o texto arejado e fácil de ler e corrigir.",
+            "dica": "Fica entre o simples (1,0) e o duplo (2,0)."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para separar um parágrafo do outro sem dar Enter duas vezes, use:",
+            "alternativas": ["recuo de primeira linha", "alinhamento justificado", "letra maior no fim", "espaçamento depois do parágrafo"],
+            "correta": 3,
+            "explicacao": "Espaçamento depois (por exemplo, 6 pt) cria a distância entre parágrafos automaticamente.",
+            "dica": "Existe uma opção de espaçamento antes e outra depois de cada parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a medida mais comum do recuo de primeira linha?",
+            "alternativas": ["1,25 cm", "12 cm", "0,1 cm", "5 cm"],
+            "correta": 0,
+            "explicacao": "1,25 cm é o padrão usado na maioria dos trabalhos.",
+            "dica": "É um pouco mais de um centímetro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na régua do Word, o triângulo de cima controla:",
+            "alternativas": ["a margem de baixo", "o tamanho da fonte", "o recuo da primeira linha", "a cor do texto"],
+            "correta": 2,
+            "explicacao": "O triângulo de cima mexe na primeira linha; o de baixo, nas outras linhas.",
+            "dica": "Cima e primeira: pense na posição."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para formatar os parágrafos de um trabalho:",
+            "itens": ["Selecionar os parágrafos", "Abrir a janela Parágrafo (Página Inicial)", "Escolher alinhamento justificado e espaçamento 1,5", "Definir recuo especial Primeira linha de 1,25 cm", "Clicar em OK"],
+            "explicacao": "Sempre selecione antes; depois abra a janela, ajuste e confirme.",
+            "dica": "No Word, primeiro se seleciona e só depois se formata."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa carta, a data e o local costumam ficar no canto direito da linha. Qual alinhamento usar?",
+            "alternativas": ["À direita", "Justificado", "Centralizado", "À esquerda com espaços"],
+            "correta": 0,
+            "explicacao": "Alinhar à direita encosta a linha na margem direita sem precisar de espaços.",
+            "dica": "Para onde a linha precisa encostar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Júlia fez o recuo dos parágrafos com espaços. Depois trocou a fonte. O que provavelmente aconteceu?",
+            "alternativas": ["Nada mudou", "O texto ficou justificado sozinho", "O Word apagou os espaços", "Os afastamentos mudaram de tamanho e ficaram desalinhados"],
+            "correta": 3,
+            "explicacao": "Cada fonte tem um espaço de tamanho diferente, então o afastamento muda. O recuo em centímetros não muda.",
+            "dica": "O espaço é um caractere; ele muda junto com a fonte?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nas normas da ABNT, uma citação longa (mais de três linhas) fica com:",
+            "alternativas": ["recuo de primeira linha de 4 cm", "recuo esquerdo de 4 cm", "alinhamento centralizado", "espaçamento 3,0"],
+            "correta": 1,
+            "explicacao": "O parágrafo inteiro vai 4 cm para dentro, com letra menor e espaçamento simples.",
+            "dica": "Não é só a primeira linha que se afasta: é o bloco todo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num folheto com colunas estreitas, o texto justificado ficou com buracos entre as palavras. O que ajuda?",
+            "alternativas": ["Aumentar o espaçamento para 3,0", "Colocar tudo em negrito", "Ativar a hifenização ou alinhar à esquerda", "Dar Enter no fim de cada linha"],
+            "correta": 2,
+            "explicacao": "A hifenização divide palavras longas e diminui os buracos. Alinhar à esquerda elimina o problema.",
+            "dica": "O justificado estica os espaços. Como diminuir esse esticão?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O professor pediu \"espaçamento 1,5 entre linhas e 6 pt depois do parágrafo\". Qual é a diferença entre os dois?",
+            "alternativas": ["1,5 separa as linhas dentro do parágrafo; 6 pt separa um parágrafo do outro", "Os dois fazem a mesma coisa", "1,5 é o tamanho da letra; 6 pt é a margem", "6 pt separa as linhas; 1,5 separa os parágrafos"],
+            "correta": 0,
+            "explicacao": "Um ajusta a distância entre linhas do mesmo parágrafo; o outro, o espaço extra no fim de cada parágrafo.",
+            "dica": "Um fala de linhas, o outro fala de parágrafos."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é recuo deslocado (pendente)?",
+            "alternativas": ["Todas as linhas afastadas igualmente", "Um parágrafo sem recuo nenhum", "A primeira linha fica mais à esquerda que as outras", "Texto alinhado à direita"],
+            "correta": 2,
+            "explicacao": "É o contrário do recuo de primeira linha: as outras linhas é que ficam mais para dentro.",
+            "dica": "Pense no inverso do recuo de primeira linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Word em português, o atalho Ctrl+J faz o quê?",
+            "alternativas": ["Centraliza", "Justifica", "Alinha à direita", "Coloca em negrito"],
+            "correta": 1,
+            "explicacao": "Ctrl+J justifica. Ctrl+E centraliza e Ctrl+G alinha à direita.",
+            "dica": "Neste atalho, a letra J é a inicial da ação. Qual opção começa com J?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ricardo apertou Enter no fim de cada linha (e não só no fim do parágrafo) e depois aplicou recuo de primeira linha. O que acontece?",
+            "alternativas": ["Só a primeira linha do texto recua", "Nada acontece", "O texto fica centralizado", "Cada linha vira um parágrafo, e todas ficam recuadas"],
+            "correta": 3,
+            "explicacao": "Para o Word, cada Enter fecha um parágrafo. Com Enter em toda linha, toda linha é \"primeira linha\".",
+            "dica": "Para o Word, o que um Enter cria?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um texto em fonte 20 está com espaçamento \"Exatamente 12 pt\". O que acontece?",
+            "alternativas": ["As letras ficam cortadas em cima ou embaixo", "O texto fica perfeito", "O Word aumenta a fonte", "As linhas ficam muito separadas"],
+            "correta": 0,
+            "explicacao": "\"Exatamente\" força a altura da linha. Se ela é menor que a letra, parte da letra some.",
+            "dica": "Compare a altura da linha com a altura da letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um parágrafo tem recuo esquerdo de 2 cm e recuo de primeira linha de 1,25 cm. A que distância da margem começa a primeira linha?",
+            "alternativas": ["1,25 cm", "3,25 cm", "2 cm", "0,75 cm"],
+            "correta": 1,
+            "explicacao": "O recuo de primeira linha soma ao recuo esquerdo: 2 + 1,25 = 3,25 cm. As outras linhas começam em 2 cm.",
+            "dica": "O recuo de primeira linha é contado a partir de onde o parágrafo já começa."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Custos fixos e custos variáveis do negócio",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Custo é tudo o que o negócio gasta para funcionar. Saber separar os custos é o primeiro passo para não vender no prejuízo.",
+          "Custo fixo é o que chega todo mês, vendendo pouco ou muito: aluguel, internet, o DAS do MEI, o salário de um ajudante registrado.",
+          "Custo variável cresce junto com a produção: farinha, recheio, embalagem, o gás gasto para fritar. Vendeu o dobro, gastou o dobro.",
+          "Custo total = custos fixos + custo variável de cada unidade × quantidade. O preço de venda precisa cobrir o variável de cada produto, uma parte do fixo e ainda deixar lucro."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: aluguel do forno, frango, saquinho, conta de internet.",
+            "resolucao": "Fixos: aluguel do forno e internet (não mudam com a quantidade). Variáveis: frango e saquinho (aumentam a cada salgado)."
+          },
+          {
+            "enunciado": "Thiago paga R$ 300 por mês de aluguel do forno e gasta R$ 1,50 de ingredientes e embalagem por salgado. Vende 600 salgados por mês a R$ 3,00. Ele tem lucro?",
+            "resolucao": "Fixo por salgado: 300 ÷ 600 = R$ 0,50. Custo de cada um: 1,50 + 0,50 = R$ 2,00. Lucro por salgado: 3,00 − 2,00 = R$ 1,00. No mês: 600 × 1,00 = R$ 600."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Ponto de equilíbrio é a quantidade que paga todos os custos, sem lucro nem prejuízo. Cada salgado de Thiago deixa 3,00 − 1,50 = R$ 1,50 depois do custo variável. Para pagar os R$ 300 fixos: 300 ÷ 1,50 = 200 salgados. Do 201º em diante, é lucro.",
+        "Vender mais dilui o custo fixo: os mesmos R$ 300 divididos por mais salgados pesam menos em cada um. Por isso negócios que crescem conseguem preços melhores.",
+        "Ao contratar um ajudante registrado, o salário e os direitos (férias, 13º, FGTS) entram nos custos fixos. Cortar esses direitos para baratear é ilegal pela CLT e gera multa, processo e a perda de bons funcionários. O jeito certo de baixar custos é negociar com fornecedores, comprar em quantidade e evitar desperdício."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um custo fixo?",
+            "alternativas": ["Aluguel do ponto", "Farinha", "Embalagem", "Recheio"],
+            "correta": 0,
+            "explicacao": "O aluguel chega igual todo mês, vendendo pouco ou muito.",
+            "dica": "Procure a conta que não muda com a quantidade vendida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa venda de bolos, qual é custo variável?",
+            "alternativas": ["Aluguel da cozinha", "Internet", "Ovos e farinha", "DAS do MEI"],
+            "correta": 2,
+            "explicacao": "Cada bolo a mais usa mais ovos e farinha.",
+            "dica": "O que aumenta a cada bolo que você faz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Custo fixo é aquele que:",
+            "alternativas": ["sobe a cada produto vendido", "só aparece uma vez na vida", "é sempre maior que o variável", "não muda com a quantidade vendida"],
+            "correta": 3,
+            "explicacao": "O fixo não depende da quantidade produzida.",
+            "dica": "Pense no aluguel: ele muda se você vende mais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada brigadeiro gasta R$ 0,80 de ingredientes. Quanto custam os ingredientes de 10 brigadeiros?",
+            "alternativas": ["R$ 0,80", "R$ 8,00", "R$ 80,00", "R$ 10,80"],
+            "correta": 1,
+            "explicacao": "10 × 0,80 = 8,00.",
+            "dica": "Multiplicar por 10 anda a vírgula uma casa para a direita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O custo total do negócio é:",
+            "alternativas": ["só o aluguel", "o preço de venda", "custos fixos + custos variáveis", "o lucro menos as vendas"],
+            "correta": 2,
+            "explicacao": "Somamos tudo: o que chega todo mês e o que cresce com a produção.",
+            "dica": "Junte os dois tipos de custo da lição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Aluguel do forno: R$ 300. Ingredientes: R$ 1,50 por salgado. Quanto custa produzir 400 salgados no mês?",
+            "alternativas": ["R$ 600", "R$ 900", "R$ 301,50", "R$ 1.200"],
+            "correta": 1,
+            "explicacao": "Variável: 400 × 1,50 = 600. Total: 300 + 600 = R$ 900.",
+            "dica": "Calcule o variável dos 400 e some o fixo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 300 de custo fixo e 600 salgados vendidos, quanto do fixo cabe em cada salgado?",
+            "alternativas": ["R$ 5,00", "R$ 2,00", "R$ 0,20", "R$ 0,50"],
+            "correta": 3,
+            "explicacao": "300 ÷ 600 = 0,50. É metade de um real por salgado.",
+            "dica": "Divida o fixo pela quantidade vendida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a lanchonete vender o dobro de lanches, o gasto com embalagens:",
+            "alternativas": ["dobra", "fica igual", "cai pela metade", "some"],
+            "correta": 0,
+            "explicacao": "Embalagem é custo variável: acompanha a quantidade.",
+            "dica": "Cada lanche precisa da sua embalagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A internet do negócio custa R$ 100 por mês. Vendendo 50 ou 500 unidades, quanto ela custa?",
+            "alternativas": ["R$ 50 e R$ 500", "R$ 2 e R$ 0,20", "R$ 100 nos dois casos", "Depende do dia"],
+            "correta": 2,
+            "explicacao": "É custo fixo: o valor do mês é o mesmo. O que muda é quanto pesa em cada unidade.",
+            "dica": "A operadora cobra pelo número de vendas?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular o preço de um produto:",
+            "itens": ["Somar os custos variáveis de uma unidade", "Dividir os custos fixos do mês pela quantidade que espera vender", "Somar os dois para achar o custo de cada unidade", "Acrescentar o lucro desejado para chegar ao preço"],
+            "explicacao": "Variável de uma unidade + parte do fixo = custo unitário. O lucro vem por cima.",
+            "dica": "O lucro é sempre a última coisa a entrar na conta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Fixo: R$ 300. Variável: R$ 1,50 por salgado. Preço: R$ 3,00. Quantos salgados precisa vender para empatar (ponto de equilíbrio)?",
+            "alternativas": ["100", "300", "200", "150"],
+            "correta": 2,
+            "explicacao": "Cada salgado deixa 3,00 − 1,50 = 1,50. 300 ÷ 1,50 = 200.",
+            "dica": "Quanto sobra de cada salgado depois do custo variável? Quantos desses pagam o fixo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Thiago vendeu 600 salgados a R$ 3,00, com R$ 300 de fixo e R$ 1,50 de variável por salgado. Qual foi o lucro do mês?",
+            "alternativas": ["R$ 600", "R$ 900", "R$ 1.800", "R$ 1.500"],
+            "correta": 0,
+            "explicacao": "Vendas: 1.800. Custos: 300 + 900 = 1.200. Lucro: 1.800 − 1.200 = R$ 600.",
+            "dica": "Calcule as vendas, depois todos os custos, e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na feira, Paula paga R$ 120 pela barraca, gasta R$ 4 por pulseira e vende cada uma a R$ 10. Vendeu 15. Qual foi o resultado?",
+            "alternativas": ["Lucro de R$ 30", "Lucro de R$ 150", "Empatou", "Prejuízo de R$ 30"],
+            "correta": 3,
+            "explicacao": "Vendas: 15 × 10 = 150. Custos: 120 + 15 × 4 = 180. 150 − 180 = −30: prejuízo.",
+            "dica": "Não esqueça de somar a barraca aos custos das pulseiras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem calcula o preço olhando só os ingredientes corre o risco de:",
+            "alternativas": ["ganhar demais", "esquecer custos fixos, como aluguel e luz, e ter prejuízo", "pagar imposto a mais", "vender pouco por ser caro"],
+            "correta": 1,
+            "explicacao": "Ingredientes são só o variável. Aluguel, luz e internet também precisam sair do preço.",
+            "dica": "Ingredientes são de qual tipo de custo? Qual tipo ficou de fora?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Thiago contratou um ajudante registrado: R$ 1.600 por mês com salário e encargos. O fixo foi para R$ 1.900. Se cada salgado deixa R$ 2,00 depois do variável, quantos ele precisa vender para empatar?",
+            "alternativas": ["800", "1.600", "950", "1.900"],
+            "correta": 2,
+            "explicacao": "1.900 ÷ 2 = 950 salgados. Com o ajudante, ele produz mais e pode passar desse número com folga.",
+            "dica": "Divida o novo custo fixo pelo que sobra de cada salgado."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Fixo de R$ 600 e variável de R$ 2 por unidade. Qual é o custo de cada unidade vendendo 200 e vendendo 600?",
+            "alternativas": ["R$ 3 e R$ 5", "R$ 5 e R$ 3", "R$ 2 e R$ 2", "R$ 8 e R$ 4"],
+            "correta": 1,
+            "explicacao": "200 unidades: 600 ÷ 200 = 3, mais 2 = R$ 5. 600 unidades: 600 ÷ 600 = 1, mais 2 = R$ 3. Vender mais dilui o fixo.",
+            "dica": "Divida o fixo por cada quantidade e some o variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fixo de R$ 400, variável de R$ 2,50 e expectativa de vender 400 unidades. Qual preço dá R$ 1,00 de lucro por unidade?",
+            "alternativas": ["R$ 3,50", "R$ 2,50", "R$ 5,00", "R$ 4,50"],
+            "correta": 3,
+            "explicacao": "Fixo por unidade: 400 ÷ 400 = 1,00. Custo: 2,50 + 1,00 = 3,50. Com lucro: R$ 4,50. O R$ 3,50 só empata.",
+            "dica": "Ache o custo de cada unidade antes de colocar o lucro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas formas de baixar custos NÃO é permitida?",
+            "alternativas": ["Deixar de pagar férias e 13º ao funcionário registrado", "Negociar preço com o fornecedor", "Comprar ingredientes em maior quantidade", "Diminuir o desperdício na cozinha"],
+            "correta": 0,
+            "explicacao": "Férias e 13º são direitos garantidos pela CLT. Tirá-los gera multa e processo e afasta bons funcionários.",
+            "dica": "Qual opção tira direito de uma pessoa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fixo de R$ 500 e cada unidade deixa R$ 2,50 depois do variável. Quantas unidades vender para ter R$ 1.000 de lucro no mês?",
+            "alternativas": ["400", "200", "600", "1.500"],
+            "correta": 2,
+            "explicacao": "É preciso cobrir o fixo e ainda sobrar o lucro: (500 + 1.000) ÷ 2,50 = 600. O 200 só empata; o 400 cobre só o lucro, esquecendo o fixo.",
+            "dica": "Some o fixo com o lucro desejado e divida pelo que sobra de cada unidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja paga ao vendedor 10% de comissão sobre cada venda, além do salário. Essa comissão é:",
+            "alternativas": ["custo fixo", "lucro", "investimento", "custo variável"],
+            "correta": 3,
+            "explicacao": "A comissão cresce junto com as vendas: é custo variável. O salário fixo do vendedor é custo fixo.",
+            "dica": "Se a loja vende o dobro, o que acontece com a comissão?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Artigo e numeral",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Artigo é a palavra que vem antes do substantivo. Os definidos (o, a, os, as) indicam algo certo, conhecido: \"o caderno\" é um caderno específico. Os indefinidos (um, uma, uns, umas) indicam algo qualquer: \"um caderno\" pode ser qualquer um.",
+          "O artigo também pode transformar outra palavra em substantivo: \"o sim\", \"o não\", \"o andar\".",
+          "Numeral indica quantidade ou ordem. Cardinal: um, dois, três. Ordinal: primeiro, segundo, terceiro. Multiplicativo: dobro, triplo. Fracionário: metade, meio, um terço.",
+          "Atenção ao \"um\": em \"Comprei um salgado\", é artigo indefinido (um qualquer). Em \"Comprei um salgado, não dois\", é numeral (indica a quantidade)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique as palavras destacadas: \"Os dois primeiros clientes pagaram o dobro.\"",
+            "resolucao": "Os = artigo definido; dois = numeral cardinal; primeiros = numeral ordinal; o = artigo definido; dobro = numeral multiplicativo."
+          },
+          {
+            "enunciado": "Qual a diferença entre \"Pegue o lápis\" e \"Pegue um lápis\"?",
+            "resolucao": "\"O lápis\" é um lápis específico que os dois conhecem. \"Um lápis\" é qualquer lápis."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O artigo se junta a preposições: de + o = do, em + a = na, por + o = pelo, a + a = à (crase), a + as = às. Em \"Fui à feira\", o à é preposição a + artigo a.",
+        "Para papas, reis e séculos, lemos o ordinal até o décimo e o cardinal depois: século V (quinto), papa Pio X (décimo), rei Luís XIV (catorze), século XXI (vinte e um).",
+        "Numerais fracionários e multiplicativos ajudam nas contas: \"o triplo da metade de 20\" é 3 × 10 = 30. Leia de trás para frente: primeiro a metade, depois o triplo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são os artigos definidos?",
+            "alternativas": ["um, uma, uns, umas", "o, a, os, as", "de, em, por, com", "eu, tu, ele, nós"],
+            "correta": 1,
+            "explicacao": "O, a, os, as indicam algo certo, conhecido. Um, uma, uns, umas são indefinidos.",
+            "dica": "São os artigos que indicam algo específico, e todos são bem curtinhos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Comprei uma coxinha\", a palavra \"uma\" é:",
+            "alternativas": ["artigo definido", "numeral ordinal", "verbo", "artigo indefinido"],
+            "correta": 3,
+            "explicacao": "\"Uma coxinha\" é uma qualquer, não uma específica.",
+            "dica": "É uma coxinha específica ou qualquer coxinha?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Fiquei em segundo lugar na fila.\" A palavra \"segundo\" é numeral:",
+            "alternativas": ["ordinal", "cardinal", "multiplicativo", "fracionário"],
+            "correta": 0,
+            "explicacao": "Indica a ordem, a posição na fila: ordinal.",
+            "dica": "Ela indica quantidade ou posição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A palavra \"dobro\" é numeral:",
+            "alternativas": ["ordinal", "fracionário", "multiplicativo", "cardinal"],
+            "correta": 2,
+            "explicacao": "Dobro, triplo e quádruplo multiplicam uma quantidade.",
+            "dica": "Dobro é o mesmo que vezes dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A palavra \"metade\" é numeral:",
+            "alternativas": ["cardinal", "fracionário", "ordinal", "multiplicativo"],
+            "correta": 1,
+            "explicacao": "Metade é uma fração: um meio.",
+            "dica": "Metade é uma parte de um inteiro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre \"o livro\" e \"um livro\"?",
+            "alternativas": ["Não há diferença", "\"Um\" indica um livro específico", "\"O\" indica um livro específico; \"um\", qualquer livro", "\"O\" indica muitos livros"],
+            "correta": 2,
+            "explicacao": "Definido = conhecido e específico. Indefinido = qualquer um.",
+            "dica": "Lembre de qual artigo é definido e qual é indefinido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Os três primeiros alunos ganharam o dobro de pontos.\" Quais são os numerais?",
+            "alternativas": ["três, primeiros, dobro", "os, três, o", "alunos, pontos", "primeiros, ganharam"],
+            "correta": 0,
+            "explicacao": "Três (cardinal), primeiros (ordinal), dobro (multiplicativo). Os e o são artigos.",
+            "dica": "Procure palavras de quantidade, de ordem e de multiplicação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"O não dele me deixou triste\", o artigo transforma \"não\" em:",
+            "alternativas": ["verbo", "adjetivo", "numeral", "substantivo"],
+            "correta": 3,
+            "explicacao": "Com o artigo na frente, \"não\" passa a nomear algo (a resposta negativa): vira substantivo.",
+            "dica": "Artigo sempre acompanha que classe de palavra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"o suco do Lucas\", \"do\" é a junção de:",
+            "alternativas": ["de + a", "de + o", "em + o", "do + o"],
+            "correta": 1,
+            "explicacao": "Preposição de + artigo o = do.",
+            "dica": "Lucas é masculino. Qual artigo combina com ele?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem, do menor para o maior:",
+            "itens": ["um terço da pizza", "metade da pizza", "o dobro da pizza", "o triplo da pizza"],
+            "explicacao": "Um terço é menor que metade; o dobro vale 2 pizzas e o triplo, 3.",
+            "dica": "Frações são menores que uma pizza inteira; dobro e triplo são maiores."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Só quero um pastel, não três.\" Nessa frase, \"um\" é:",
+            "alternativas": ["artigo definido", "artigo indefinido", "numeral", "pronome"],
+            "correta": 2,
+            "explicacao": "O contraste com \"três\" mostra que \"um\" indica quantidade: numeral cardinal.",
+            "dica": "A frase compara quantidades. O que isso diz sobre o \"um\"?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se lê \"século XXI\"?",
+            "alternativas": ["século vinte e um", "século dois mil e um", "século duzentos e um", "século onze"],
+            "correta": 0,
+            "explicacao": "Depois do décimo, lê-se o cardinal: XXI = vinte e um.",
+            "dica": "Converta o número romano: X vale 10 e I vale 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Encontrei a Rita na cantina\", a palavra \"na\" é:",
+            "alternativas": ["artigo indefinido", "numeral", "advérbio", "preposição em + artigo a"],
+            "correta": 3,
+            "explicacao": "Na = em + a. A preposição se juntou ao artigo definido feminino.",
+            "dica": "Desmonte a palavra: ela junta uma preposição com um artigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é o triplo da metade de 20?",
+            "alternativas": ["60", "30", "10", "23"],
+            "correta": 1,
+            "explicacao": "Metade de 20 = 10. Triplo de 10 = 30.",
+            "dica": "Faça primeiro a metade e depois multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ganhei uns bombons da vizinha\", a palavra \"uns\" indica:",
+            "alternativas": ["uma quantidade exata", "ordem", "uma quantidade não definida", "um único bombom"],
+            "correta": 2,
+            "explicacao": "\"Uns\" é artigo indefinido plural: alguns bombons, sem dizer quantos.",
+            "dica": "Dá para saber exatamente quantos bombons foram?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se leem \"papa Pio X\" e \"rei Luís XIV\"?",
+            "alternativas": ["Pio dez e Luís décimo quarto", "Pio décimo e Luís catorze", "Pio dez e Luís catorze", "Pio décimo e Luís décimo quarto"],
+            "correta": 1,
+            "explicacao": "Até o décimo, usamos o ordinal (décimo); depois, o cardinal (catorze).",
+            "dica": "Lembre da regra: ordinal até o 10, cardinal depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase há preposição junto com artigo definido feminino plural?",
+            "alternativas": ["Comprei umas frutas.", "Vi os meninos.", "Ganhei duas balas.", "Fui às feiras do bairro."],
+            "correta": 3,
+            "explicacao": "Às = a (preposição) + as (artigo definido feminino plural).",
+            "dica": "Procure a crase: ela é a fusão de uma preposição com um artigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A mãe diz: \"Pegue o caderno em cima da mesa.\" O artigo \"o\" mostra que:",
+            "alternativas": ["há um caderno específico que os dois sabem qual é", "qualquer caderno serve", "há muitos cadernos na mesa", "o caderno é novo"],
+            "correta": 0,
+            "explicacao": "O artigo definido indica algo já conhecido por quem fala e por quem ouve.",
+            "dica": "Pense no que o artigo definido indica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos numerais há em \"Na segunda fila, três meninas dividiram meia pizza\"?",
+            "alternativas": ["2", "4", "3", "1"],
+            "correta": 2,
+            "explicacao": "Segunda (ordinal), três (cardinal) e meia (fracionário). O \"na\" é preposição + artigo.",
+            "dica": "Procure um de ordem, um de quantidade e um de fração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é o dobro de um terço de 30?",
+            "alternativas": ["10", "20", "60", "15"],
+            "correta": 1,
+            "explicacao": "Um terço de 30 = 10. O dobro de 10 = 20.",
+            "dica": "Primeiro divida 30 em três partes, depois multiplique."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O salgado que dava prejuízo",
+    "texto": "Jonas, de dezesseis anos, começou a vender coxinhas na saída do curso técnico. Fez a conta no caderno: farinha, frango, óleo e saquinho davam R$ 1,50 por coxinha. Vendia cada uma a R$ 2,00 e achava que ganhava cinquenta centavos em todas.\n\nNo fim do mês, tinha vendido 400 coxinhas, mas o dinheiro da lata não fechava. Sentou com a tia Marlene, que tem uma lanchonete, e ela perguntou:\n\n— E o gás? E o aluguel do forno da vizinha?\n\nJonas tinha esquecido. O gás do mês custou R$ 120, e o aluguel do forno, R$ 100.\n\nA tia explicou a diferença. Farinha, frango e até o gás crescem conforme você produz mais: são custos variáveis. O aluguel do forno chega igual todo mês, faça dez ou mil coxinhas: é custo fixo.\n\nSomando tudo, as 400 coxinhas custaram R$ 600 de ingredientes, R$ 120 de gás e R$ 100 de aluguel: R$ 820. Ele tinha recebido só R$ 800. Trabalhou o mês inteiro para perder vinte reais.\n\nJonas refez as contas, mudou o preço para R$ 2,50 e escreveu os custos em vermelho na primeira página do caderno, para nunca mais esquecer."
+  },
+  "escrita": {
+    "proposta": "Pense num pequeno negócio que você gostaria de abrir (por exemplo, vender doces, consertar bicicletas ou fazer tranças). Liste pelo menos três custos fixos e três custos variáveis dele e explique, com suas palavras, a diferença entre os dois tipos. Escreva de 5 a 10 linhas no caderno."
+  }
+}

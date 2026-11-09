@@ -1,0 +1,1197 @@
+{
+  "dia": 21,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Dízimas periódicas e fração geratriz",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Quando dividimos 1 por 3, o resultado é 0,333... e o 3 se repete para sempre. Um número decimal com algarismos que se repetem infinitamente se chama dízima periódica. O pedaço que se repete é o período.",
+          "Na dízima 0,777..., o período é 7. Na dízima 0,454545..., o período é 45. As reticências (...) avisam que a repetição não acaba.",
+          "Toda dízima periódica pode virar fração. Essa fração se chama fração geratriz, porque é ela que gera a dízima quando fazemos a divisão.",
+          "Regra para a dízima simples (o período começa logo depois da vírgula): no numerador vai o período; no denominador, um 9 para cada algarismo do período. Depois, simplifique se der.",
+          "Se o número tem parte inteira, como 1,333..., separe: 1 + 0,333... = 1 + 3/9 = 1 + 1/3 = 4/3."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Transforme 0,777... e 0,454545... em fração.",
+            "resolucao": "0,777...: o período 7 tem 1 algarismo, então fica 7/9. 0,454545...: o período 45 tem 2 algarismos, então fica 45/99. Dividindo os dois por 9, chegamos a 5/11."
+          },
+          {
+            "enunciado": "Confira que 2/9 gera uma dízima.",
+            "resolucao": "2 ÷ 9 = 0,222... O período é 2, e a regra dá de volta 2/9. A divisão e a regra combinam."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Por que a regra funciona? Chame x = 0,454545... Multiplicando por 100, temos 100x = 45,4545... Subtraindo x, a parte infinita some: 99x = 45, logo x = 45/99. O número de noves é o número de algarismos do período.",
+        "Dízima composta tem um pedaço antes do período, o antiperíodo, como 0,1666... (antiperíodo 1, período 6). Regra: numerador = (antiperíodo com o período) − (antiperíodo) = 16 − 1 = 15; denominador = um 9 para cada algarismo do período e um 0 para cada algarismo do antiperíodo = 90. Então 0,1666... = 15/90 = 1/6.",
+        "Como saber antes de dividir? Simplifique a fração ao máximo e olhe o denominador: se ele só tem os fatores primos 2 e 5 (como 4, 8, 20, 40), o decimal é exato; se tem outro fator primo (3, 7, 11...), sai uma dízima. Curiosidade famosa: 0,999... = 9/9 = 1."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na dízima 0,555..., qual é o período?",
+            "alternativas": [
+              "0",
+              "5",
+              "55",
+              "0,5"
+            ],
+            "correta": 1,
+            "explicacao": "O período é o algarismo que se repete: o 5. O zero antes da vírgula é a parte inteira.",
+            "dica": "Procure o algarismo que aparece de novo e de novo depois da vírgula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá 1 ÷ 3?",
+            "alternativas": [
+              "0,3",
+              "3",
+              "0,13",
+              "0,333..."
+            ],
+            "correta": 3,
+            "explicacao": "A divisão de 1 por 3 nunca termina: o 3 se repete para sempre. Só 0,3 seria pouco, pois 0,3 × 3 = 0,9.",
+            "dica": "Faça a divisão: sempre sobra resto 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fração geratriz de 0,444...?",
+            "alternativas": [
+              "4/10",
+              "1/4",
+              "4/9",
+              "4/99"
+            ],
+            "correta": 2,
+            "explicacao": "Período 4, com 1 algarismo: numerador 4 e um 9 no denominador. 4/10 seria 0,4 exato.",
+            "dica": "Um algarismo no período pede um 9 no denominador."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas divisões dá uma dízima periódica?",
+            "alternativas": [
+              "2 ÷ 3",
+              "1 ÷ 2",
+              "1 ÷ 4",
+              "3 ÷ 5"
+            ],
+            "correta": 0,
+            "explicacao": "2 ÷ 3 = 0,666... As outras terminam: 0,5; 0,25; 0,6.",
+            "dica": "Faça as divisões e veja qual delas nunca chega a resto zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dízima periódica é um número decimal que:",
+            "alternativas": [
+              "Termina logo depois da vírgula",
+              "Tem algarismos que se repetem para sempre",
+              "É sempre negativo",
+              "Não tem vírgula"
+            ],
+            "correta": 1,
+            "explicacao": "A marca da dízima é a repetição sem fim, indicada pelas reticências.",
+            "dica": "Lembre o que as reticências (...) querem dizer."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração gera 0,777...?",
+            "alternativas": [
+              "7/9",
+              "7/10",
+              "77/100",
+              "9/7"
+            ],
+            "correta": 0,
+            "explicacao": "Período 7 com 1 algarismo: 7/9. Confira: 7 ÷ 9 = 0,777...",
+            "dica": "Use a regra: período no numerador, noves no denominador."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fração geratriz, já simplificada, de 0,121212...?",
+            "alternativas": [
+              "12/100",
+              "4/33",
+              "1/12",
+              "12/9"
+            ],
+            "correta": 1,
+            "explicacao": "Período 12, com 2 algarismos: 12/99. Dividindo por 3: 4/33.",
+            "dica": "Dois algarismos no período pedem 99 no denominador. Depois simplifique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é igual a 1,333...?",
+            "alternativas": [
+              "13/10",
+              "1/3",
+              "4/3",
+              "133/100"
+            ],
+            "correta": 2,
+            "explicacao": "1 + 0,333... = 1 + 1/3 = 3/3 + 1/3 = 4/3.",
+            "dica": "Separe a parte inteira e transforme só o 0,333... em fração."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas frações dá um decimal EXATO?",
+            "alternativas": [
+              "1/3",
+              "5/6",
+              "2/9",
+              "3/8"
+            ],
+            "correta": 3,
+            "explicacao": "3 ÷ 8 = 0,375, termina. As outras dão 0,333..., 0,8333... e 0,222...",
+            "dica": "Faça as divisões ou olhe se o denominador tem só os fatores 2 e 5."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para achar a geratriz de uma dízima simples:",
+            "itens": [
+              "Identificar o período",
+              "Contar quantos algarismos ele tem",
+              "Escrever o período no numerador",
+              "Escrever um 9 para cada algarismo no denominador",
+              "Simplificar a fração"
+            ],
+            "explicacao": "Primeiro olhamos o período, depois montamos a fração e só no fim simplificamos.",
+            "dica": "Antes de escrever a fração, você precisa saber o que se repete."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fração geratriz de 0,1666...?",
+            "alternativas": [
+              "16/90",
+              "1/6",
+              "1/16",
+              "16/99"
+            ],
+            "correta": 1,
+            "explicacao": "Dízima composta: (16 − 1)/90 = 15/90 = 1/6. Confira: 1 ÷ 6 = 0,1666...",
+            "dica": "O 1 não se repete: é o antiperíodo. Use a regra da dízima composta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "0,363636... é igual a:",
+            "alternativas": [
+              "4/11",
+              "36/100",
+              "3/11",
+              "9/25"
+            ],
+            "correta": 0,
+            "explicacao": "36/99, dividindo por 9, dá 4/11. 36/100 é 0,36 exato.",
+            "dica": "Monte a fração com 99 e simplifique dividindo por 9."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fração é igual a 2,555...?",
+            "alternativas": [
+              "25/9",
+              "255/99",
+              "5/2",
+              "23/9"
+            ],
+            "correta": 3,
+            "explicacao": "2 + 5/9 = 18/9 + 5/9 = 23/9.",
+            "dica": "Escreva a parte inteira como nonos antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá 0,333... + 0,555...?",
+            "alternativas": [
+              "8/18",
+              "0,8",
+              "8/9",
+              "8/99"
+            ],
+            "correta": 2,
+            "explicacao": "3/9 + 5/9 = 8/9 = 0,888... Somar os numeradores e os denominadores (8/18) é um erro comum.",
+            "dica": "Transforme cada dízima em fração com denominador 9 e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas frações gera uma dízima periódica?",
+            "alternativas": [
+              "7/20",
+              "3/12",
+              "9/25",
+              "7/15"
+            ],
+            "correta": 3,
+            "explicacao": "7 ÷ 15 = 0,4666... As outras: 0,35; 3/12 = 1/4 = 0,25; 0,36.",
+            "dica": "Simplifique e veja se o denominador tem algum fator primo diferente de 2 e 5."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando a regra da fração geratriz, 0,999... é igual a:",
+            "alternativas": [
+              "9/10",
+              "99/100",
+              "1",
+              "Um número um pouquinho menor que 1"
+            ],
+            "correta": 2,
+            "explicacao": "Período 9 com 1 algarismo: 9/9 = 1. Parece estranho, mas 0,999... e 1 são o mesmo número.",
+            "dica": "Aplique a regra normalmente e simplifique o resultado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fração geratriz de 0,1222...?",
+            "alternativas": [
+              "12/90",
+              "11/90",
+              "11/99",
+              "1/9"
+            ],
+            "correta": 1,
+            "explicacao": "Antiperíodo 1, período 2: (12 − 1)/90 = 11/90. Confira: 11 ÷ 90 = 0,1222...",
+            "dica": "Numerador: o número formado pelo antiperíodo e o período, menos o antiperíodo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem dividir, qual fração com certeza dá decimal exato?",
+            "alternativas": [
+              "1/6",
+              "2/15",
+              "5/12",
+              "7/40"
+            ],
+            "correta": 3,
+            "explicacao": "40 = 2 × 2 × 2 × 5, só fatores 2 e 5: 7/40 = 0,175. 6, 15 e 12 têm o fator 3.",
+            "dica": "Decomponha cada denominador em fatores primos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se x = 0,454545..., quanto vale 100x − x?",
+            "alternativas": [
+              "45",
+              "45,45",
+              "4,5",
+              "99"
+            ],
+            "correta": 0,
+            "explicacao": "100x = 45,4545... Ao subtrair x, a parte infinita se cancela e sobra 45. Por isso 99x = 45.",
+            "dica": "Escreva 100x e x um embaixo do outro: o que acontece com as casas decimais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto dá 0,333... × 0,666...?",
+            "alternativas": [
+              "0,1818...",
+              "0,222...",
+              "0,2",
+              "0,999..."
+            ],
+            "correta": 1,
+            "explicacao": "1/3 × 2/3 = 2/9 = 0,222... Multiplicar dízimas fica fácil quando viram fração.",
+            "dica": "Transforme as duas em fração simplificada antes de multiplicar."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Inflação: por que o dinheiro perde valor",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Inflação é o aumento geral dos preços ao longo do tempo. Não é só um produto que sobe: é o arroz, o ônibus, a luz e o aluguel subindo juntos, aos poucos.",
+          "Quando há inflação, a mesma nota compra menos coisas. Dizemos que o dinheiro perdeu poder de compra. R$ 50 hoje não compram o mesmo que R$ 50 compravam há cinco anos.",
+          "No Brasil, a inflação oficial é medida pelo IPCA, calculado pelo IBGE, que acompanha os preços de uma cesta de produtos e serviços que as famílias compram.",
+          "Para frear a inflação, o Banco Central sobe a taxa Selic, a taxa básica de juros. Com o crédito mais caro, as pessoas compram menos a prazo e os preços sobem mais devagar.",
+          "Por isso, dinheiro parado na gaveta perde valor. Para proteger o que guardou, é preciso que o dinheiro renda pelo menos a inflação."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma cesta custava R$ 100. Com inflação de 10% no ano, quanto passa a custar? E quanto da cesta os mesmos R$ 100 compram?",
+            "resolucao": "10% de 100 = 10, então a cesta vai para R$ 110. Com R$ 100, dá para comprar 100 ÷ 110 ≈ 0,91, ou cerca de 91% da cesta."
+          },
+          {
+            "enunciado": "O salário de Vera subiu 4% no ano, e a inflação foi de 5%. Ela ficou mais rica?",
+            "resolucao": "Não. Os preços subiram mais que o salário, então ela compra um pouco menos do que antes: perdeu cerca de 1% de poder de compra."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Ganho real é o quanto o dinheiro cresceu acima da inflação. Uma conta rápida é rendimento − inflação (8% − 5% ≈ 3%). A conta exata é (1 + rendimento) ÷ (1 + inflação) − 1. Com rendimento de 21% e inflação de 10%: 1,21 ÷ 1,10 = 1,10, ganho real de 10%, e não 11%.",
+        "A inflação acumulada funciona como juros compostos: 10% num ano e 10% no outro dão 1,1 × 1,1 = 1,21, ou 21%. E se os preços dobram (inflação de 100%), o dinheiro guardado passa a comprar metade: perde 50% do poder de compra.",
+        "Nos anos 1980 e começo dos 1990, o Brasil viveu a hiperinflação: os preços subiam todo dia, e quem recebia salário corria ao mercado. O Plano Real, de 1994, controlou o problema. A inflação pesa mais para as famílias mais pobres, que gastam quase toda a renda em itens básicos e têm pouco como proteger o dinheiro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é inflação?",
+            "alternativas": [
+              "Aumento geral dos preços ao longo do tempo",
+              "Queda de todos os preços",
+              "Um imposto novo",
+              "Um tipo de poupança"
+            ],
+            "correta": 0,
+            "explicacao": "Inflação é quando os preços, no geral, vão subindo com o tempo.",
+            "dica": "Pense no preço do pão hoje e há alguns anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com inflação, a mesma nota de dinheiro compra:",
+            "alternativas": [
+              "Mais coisas",
+              "Menos coisas",
+              "Exatamente o mesmo",
+              "Só comida"
+            ],
+            "correta": 1,
+            "explicacao": "Se os preços sobem e o dinheiro é o mesmo, dá para levar menos coisas.",
+            "dica": "Os preços sobem, mas a nota continua com o mesmo valor escrito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem calcula o IPCA, a inflação oficial do Brasil?",
+            "alternativas": [
+              "Banco Central",
+              "Receita Federal",
+              "IBGE",
+              "Prefeitura"
+            ],
+            "correta": 2,
+            "explicacao": "O IBGE pesquisa os preços e calcula o IPCA. O Banco Central usa esse número para decidir os juros.",
+            "dica": "É o mesmo instituto que faz o censo da população."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O pão de R$ 1,00 passou a custar R$ 1,10. Subiu quantos por cento?",
+            "alternativas": [
+              "1%",
+              "11%",
+              "110%",
+              "10%"
+            ],
+            "correta": 3,
+            "explicacao": "Subiu R$ 0,10, que é a décima parte de R$ 1,00: 10%.",
+            "dica": "Quanto é R$ 0,10 em relação a R$ 1,00?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Poder de compra é:",
+            "alternativas": [
+              "Quanto o dinheiro consegue comprar",
+              "O valor do salário em dólar",
+              "A quantidade de lojas do bairro",
+              "O limite do cartão"
+            ],
+            "correta": 0,
+            "explicacao": "É a quantidade de coisas que o dinheiro compra. A inflação diminui esse poder.",
+            "dica": "O nome já explica: o poder que o dinheiro tem de..."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma cesta de R$ 200 teve inflação de 5% no ano. Quanto passa a custar?",
+            "alternativas": [
+              "R$ 205",
+              "R$ 210",
+              "R$ 250",
+              "R$ 215"
+            ],
+            "correta": 1,
+            "explicacao": "5% de 200 = 10. 200 + 10 = R$ 210.",
+            "dica": "Calcule 10% de 200 e pegue a metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas guardou R$ 1.000 na gaveta num ano de inflação de 6%. O que aconteceu?",
+            "alternativas": [
+              "Ganhou 6% de valor",
+              "Ficou igual em tudo",
+              "Dobrou de valor",
+              "Perdeu poder de compra"
+            ],
+            "correta": 3,
+            "explicacao": "A nota continua R$ 1.000, mas os preços subiram 6%: ele compra menos.",
+            "dica": "O dinheiro da gaveta não rende nada, mas os preços continuam subindo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O salário subiu 3%, e a inflação foi de 5%. O trabalhador:",
+            "alternativas": [
+              "Ganhou poder de compra",
+              "Perdeu poder de compra",
+              "Ficou exatamente igual",
+              "Ficou rico"
+            ],
+            "correta": 1,
+            "explicacao": "Os preços subiram mais que o salário, então ele compra menos que antes.",
+            "dica": "Compare o que subiu mais: o salário ou os preços."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma aplicação rendeu 8% num ano de inflação de 5%. Qual é o ganho real aproximado?",
+            "alternativas": [
+              "13%",
+              "8%",
+              "3%",
+              "5%"
+            ],
+            "correta": 2,
+            "explicacao": "De forma aproximada: 8% − 5% = 3% acima da inflação.",
+            "dica": "Desconte do rendimento o que a inflação levou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o Banco Central sobe a taxa Selic?",
+            "alternativas": [
+              "Para frear a inflação, deixando o crédito mais caro",
+              "Para imprimir mais dinheiro",
+              "Para baixar os salários",
+              "Para acabar com os impostos"
+            ],
+            "correta": 0,
+            "explicacao": "Juros mais altos reduzem as compras a prazo, e os preços sobem mais devagar.",
+            "dica": "Pense no que acontece com as compras parceladas quando os juros ficam caros."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A inflação foi de 10% num ano e 10% no seguinte. Qual é a inflação acumulada?",
+            "alternativas": [
+              "21%",
+              "20%",
+              "10%",
+              "100%"
+            ],
+            "correta": 0,
+            "explicacao": "1,1 × 1,1 = 1,21: 21%. O segundo aumento incide sobre o preço já aumentado.",
+            "dica": "Funciona como juros compostos: multiplique os fatores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com inflação de 10%, a cesta de R$ 100 foi para R$ 110. Que parte dela os mesmos R$ 100 compram agora?",
+            "alternativas": [
+              "Cerca de 110%",
+              "Exatamente 90%",
+              "Cerca de 91%",
+              "100%"
+            ],
+            "correta": 2,
+            "explicacao": "100 ÷ 110 ≈ 0,909, ou cerca de 91%. A perda não é exatamente 10%.",
+            "dica": "Divida o dinheiro que você tem pelo novo preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma mesada de R$ 50 não teve reajuste por 2 anos com inflação de 10% ao ano. Quanto custa hoje o que custava R$ 50?",
+            "alternativas": [
+              "R$ 60,00",
+              "R$ 55,00",
+              "R$ 70,00",
+              "R$ 60,50"
+            ],
+            "correta": 3,
+            "explicacao": "50 × 1,1 = 55; 55 × 1,1 = 60,50.",
+            "dica": "Aplique os 10% duas vezes, um ano de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O salário de R$ 2.000 subiu 5%, e a inflação também foi de 5%. O que aconteceu?",
+            "alternativas": [
+              "Ganhou R$ 100 de poder de compra",
+              "Manteve o poder de compra",
+              "Perdeu metade do poder de compra",
+              "Ficou rico"
+            ],
+            "correta": 1,
+            "explicacao": "Recebe R$ 100 a mais, mas os preços subiram na mesma proporção: compra o mesmo de antes.",
+            "dica": "Se o salário e os preços sobem igual, o que muda nas compras?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com inflação alta, qual atitude protege melhor o dinheiro guardado?",
+            "alternativas": [
+              "Deixar em casa, porque fica à mão",
+              "Gastar tudo no cartão",
+              "Aplicar em algo seguro que renda acima da inflação",
+              "Trocar por moedas"
+            ],
+            "correta": 2,
+            "explicacao": "Só o rendimento acima da inflação mantém ou aumenta o poder de compra.",
+            "dica": "Qual opção faz o dinheiro crescer pelo menos tanto quanto os preços?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma aplicação rendeu 21% num período de inflação de 10%. Qual é o ganho real exato?",
+            "alternativas": [
+              "11%",
+              "10%",
+              "21%",
+              "31%"
+            ],
+            "correta": 1,
+            "explicacao": "1,21 ÷ 1,10 = 1,10: ganho real de 10%. Os 11% vêm da conta aproximada (21 − 10).",
+            "dica": "Use a conta exata do aprofundamento, com divisão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na hiperinflação, um produto de R$ 100 sobe 50% ao mês. Quanto custa depois de 2 meses?",
+            "alternativas": [
+              "R$ 200",
+              "R$ 150",
+              "R$ 225",
+              "R$ 250"
+            ],
+            "correta": 2,
+            "explicacao": "100 × 1,5 = 150; 150 × 1,5 = 225.",
+            "dica": "O segundo aumento é sobre o preço do fim do primeiro mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se todos os preços dobram, quanto o dinheiro guardado perde de poder de compra?",
+            "alternativas": [
+              "100%",
+              "0%",
+              "200%",
+              "50%"
+            ],
+            "correta": 3,
+            "explicacao": "Com preços em dobro, o mesmo dinheiro compra metade: perde 50%, e não 100%.",
+            "dica": "Pense em quantos pacotes de arroz você levaria se o preço dobrasse."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a inflação pesa mais para as famílias mais pobres?",
+            "alternativas": [
+              "Porque gastam quase toda a renda em itens básicos e têm pouco como proteger o dinheiro",
+              "Porque pagam menos impostos",
+              "Porque não usam dinheiro",
+              "Porque a inflação só atinge quem ganha pouco"
+            ],
+            "correta": 0,
+            "explicacao": "Comida, transporte e luz pesam muito no orçamento delas, e quase nada sobra para aplicar.",
+            "dica": "Pense em quanto da renda vai para comida e transporte e quanto sobra para guardar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A inflação foi de 2% em cada um de 3 meses seguidos. Qual é a inflação acumulada?",
+            "alternativas": [
+              "6%",
+              "Cerca de 6,12%",
+              "8%",
+              "2%"
+            ],
+            "correta": 1,
+            "explicacao": "1,02 × 1,02 × 1,02 = 1,061208: cerca de 6,12%, um pouco mais que 6%.",
+            "dica": "Multiplique 1,02 por ele mesmo três vezes."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Funções: dar nome a um grupo de comandos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Uma função é um grupo de comandos que recebe um nome. Depois de criada, basta chamar o nome para todos aqueles comandos rodarem, quantas vezes você quiser.",
+          "Em Python, a função é criada com a palavra def, o nome, parênteses e dois-pontos. Os comandos de dentro ficam com recuo (quatro espaços) embaixo do def.",
+          "Criar a função não executa nada. Ela só roda quando é chamada pelo nome com parênteses, como saudacao(). E precisa ser criada antes de ser chamada.",
+          "Vantagens: você não repete código, o programa fica organizado em partes com nomes claros e, se precisar mudar algo, muda num lugar só.",
+          "Dê nomes que digam o que a função faz, de preferência com um verbo: mostrar_placar, desenhar_linha, tocar_alarme."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Crie uma função que mostra um cabeçalho e use-a duas vezes.",
+            "resolucao": "def cabecalho():\n    print('==========')\n    print('ESCOLA ESTADUAL')\n    print('==========')\ncabecalho()\ncabecalho()\nO cabeçalho de 3 linhas aparece duas vezes, mas foi escrito uma vez só."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Uma função pode chamar outra. Se ritmo() chama bater() duas vezes e você chama ritmo() três vezes, bater() roda 2 × 3 = 6 vezes. Para contar, siga as chamadas como num teste de mesa.",
+        "Python lê o arquivo de cima para baixo. O def só ensina a função; ela roda no momento da chamada. Se uma função usa uma variável de fora, usa o valor que a variável tem na hora em que é chamada. E se você escrever duas funções com o mesmo nome, a segunda substitui a primeira.",
+        "Esquecer os parênteses (escrever só saudacao) não dá erro, mas também não chama a função: nada aparece. Esquecer o recuo dá erro de sintaxe. Na próxima aula, as funções vão receber informações (parâmetros) e devolver resultados."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra cria uma função em Python?",
+            "alternativas": [
+              "for",
+              "if",
+              "def",
+              "print"
+            ],
+            "correta": 2,
+            "explicacao": "def vem de define (definir, em inglês).",
+            "dica": "Vem da palavra inglesa que quer dizer definir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve uma função?",
+            "alternativas": [
+              "Dar nome a um grupo de comandos para usar várias vezes",
+              "Apagar o programa",
+              "Desligar o computador",
+              "Deixar o texto colorido"
+            ],
+            "correta": 0,
+            "explicacao": "A função junta comandos sob um nome, e você reaproveita quando quiser.",
+            "dica": "Lembre o título da aula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como chamar a função saudacao?",
+            "alternativas": [
+              "def saudacao",
+              "saudacao()",
+              "call saudacao",
+              "saudacao:"
+            ],
+            "correta": 1,
+            "explicacao": "Chamar é escrever o nome seguido de parênteses.",
+            "dica": "Nome e mais um sinal que abre e fecha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os comandos de dentro da função ficam:",
+            "alternativas": [
+              "Sem espaço nenhum",
+              "Depois do fim do programa",
+              "Em outro arquivo",
+              "Com recuo embaixo do def"
+            ],
+            "correta": 3,
+            "explicacao": "O recuo de quatro espaços mostra o que pertence à função.",
+            "dica": "Lembre como os comandos do for e do if ficam afastados da margem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma função foi criada, mas nunca chamada. O que acontece com os comandos dela?",
+            "alternativas": [
+              "Rodam duas vezes",
+              "Dão erro sempre",
+              "Não rodam",
+              "Apagam o código"
+            ],
+            "correta": 2,
+            "explicacao": "Criar não é executar. Sem chamada, os comandos ficam guardados.",
+            "dica": "A lição diz que criar a função não executa nada."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes aparece Oi?\ndef oi():\n    print('Oi')\noi()\noi()\noi()",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "A função foi chamada três vezes, e cada chamada mostra Oi uma vez.",
+            "dica": "Conte as chamadas, não o def."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece?\nlinha()\ndef linha():\n    print('---')",
+            "alternativas": [
+              "Mostra ---",
+              "Erro: a função ainda não existe quando é chamada",
+              "Mostra linha",
+              "Nada, e sem erro"
+            ],
+            "correta": 1,
+            "explicacao": "Python lê de cima para baixo. Na primeira linha, linha ainda não foi criada.",
+            "dica": "Em que ordem o Python lê as linhas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você usa a função cabecalho() em 10 lugares e quer trocar o texto dela. Quantos lugares precisa mudar?",
+            "alternativas": [
+              "10",
+              "11",
+              "0",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "Basta mudar dentro do def. Todas as chamadas passam a mostrar o texto novo.",
+            "dica": "Onde está escrito o texto: nas chamadas ou dentro da função?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o melhor nome para uma função que mostra o placar do jogo?",
+            "alternativas": [
+              "mostrar_placar",
+              "f",
+              "coisa",
+              "aaa"
+            ],
+            "correta": 0,
+            "explicacao": "Um verbo e o objeto dizem exatamente o que a função faz.",
+            "dica": "Bom nome diz o que a função faz, com um verbo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as linhas para criar e usar uma função que mostra um aviso:",
+            "itens": [
+              "def aviso():",
+              "    print('Hora da prova!')",
+              "aviso()"
+            ],
+            "explicacao": "Primeiro o def, depois o comando com recuo e, por último, a chamada.",
+            "dica": "A função precisa existir antes de ser chamada."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes aparece X?\ndef a():\n    print('X')\ndef b():\n    a()\n    a()\nb()\na()",
+            "alternativas": [
+              "2",
+              "3",
+              "4",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "b() chama a() duas vezes (2 X) e depois a() é chamada mais uma vez: 3.",
+            "dica": "Siga cada chamada: b() leva a quantas chamadas de a()?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece?\ndef bom_dia():\n    print('Bom dia')\nbom_dia",
+            "alternativas": [
+              "Mostra Bom dia",
+              "Dá erro de sintaxe",
+              "Não mostra nada, porque faltaram os parênteses",
+              "Mostra bom_dia"
+            ],
+            "correta": 2,
+            "explicacao": "Sem parênteses, o nome é só citado, não chamado. Nada aparece e não há erro.",
+            "dica": "Compare a última linha com o jeito certo de chamar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece?\ndef f():\nprint('a')\nf()",
+            "alternativas": [
+              "Erro: o print precisa de recuo dentro da função",
+              "Mostra a",
+              "Mostra f",
+              "Mostra a duas vezes"
+            ],
+            "correta": 0,
+            "explicacao": "Depois dos dois-pontos, Python espera um bloco recuado. Sem recuo, é erro de sintaxe.",
+            "dica": "Olhe a margem da linha do print."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que ordem as letras aparecem?\nprint('A')\ndef m():\n    print('B')\nprint('C')\nm()",
+            "alternativas": [
+              "A B C",
+              "A C B",
+              "B A C",
+              "C A B"
+            ],
+            "correta": 1,
+            "explicacao": "O def não executa nada. Roda print('A'), depois print('C') e só então a chamada m(), que mostra B.",
+            "dica": "Lembre: o def só ensina, quem executa é a chamada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que dividir um programa em funções ajuda a achar erros?",
+            "alternativas": [
+              "Porque deixa o programa mais lento",
+              "Porque as funções apagam os erros sozinhas",
+              "Porque o computador só entende funções",
+              "Porque cada parte tem nome e pode ser testada separadamente"
+            ],
+            "correta": 3,
+            "explicacao": "Testando função por função, você descobre em qual parte está o problema.",
+            "dica": "Pense em procurar defeito num carro inteiro ou peça por peça."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas vezes aparece palma?\ndef bater():\n    print('palma')\ndef ritmo():\n    bater()\n    bater()\nfor i in range(3):\n    ritmo()",
+            "alternativas": [
+              "3",
+              "5",
+              "6",
+              "9"
+            ],
+            "correta": 2,
+            "explicacao": "O laço chama ritmo() 3 vezes e cada ritmo() chama bater() 2 vezes: 3 × 2 = 6.",
+            "dica": "Multiplique as voltas do laço pelas chamadas dentro de ritmo()."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece?\ndef dobro():\n    print(n * 2)\nn = 5\ndobro()\nn = 7\ndobro()",
+            "alternativas": [
+              "10 e 10",
+              "10 e 14",
+              "14 e 14",
+              "Erro"
+            ],
+            "correta": 1,
+            "explicacao": "A função usa o valor de n no momento da chamada: primeiro 5 (10), depois 7 (14).",
+            "dica": "Qual é o valor de n em cada chamada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece?\ndef f():\n    print(1)\ndef f():\n    print(2)\nf()",
+            "alternativas": [
+              "Erro",
+              "1 e 2",
+              "1",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "A segunda definição substitui a primeira. Na hora da chamada, f() é a versão que mostra 2.",
+            "dica": "O aprofundamento diz o que acontece com dois def de mesmo nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um bloco de 3 linhas aparece repetido 4 vezes no programa (12 linhas). Com uma função (1 linha de def, 3 de corpo e 4 chamadas), quantas linhas você economiza?",
+            "alternativas": [
+              "4",
+              "8",
+              "12",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "Com função: 1 + 3 + 4 = 8 linhas. Antes eram 12. Economia: 12 − 8 = 4.",
+            "dica": "Conte as linhas da versão com função e compare com 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece?\ndef a():\n    print('1')\n    b()\ndef b():\n    print('2')\na()",
+            "alternativas": [
+              "Erro, porque b foi definida depois de a",
+              "1 e depois 2",
+              "Só 1",
+              "2 e depois 1"
+            ],
+            "correta": 1,
+            "explicacao": "Quando a() é chamada (última linha), b já foi definida. Não há erro: aparece 1 e depois 2.",
+            "dica": "O que importa é se b existe no momento em que a() roda, não a ordem dos def."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Sujeito simples, composto, oculto e indeterminado",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Sujeito é o termo da oração com o qual o verbo concorda. Para achá-lo, pergunte ao verbo «quem?» ou «o quê?». Em «A aluna dividiu os números», quem dividiu? A aluna.",
+          "Sujeito simples tem um só núcleo (a palavra principal): «Os alunos do 8º ano saíram cedo» (núcleo: alunos). Sujeito composto tem dois ou mais núcleos: «Ana e Léo estudaram juntos».",
+          "Sujeito oculto não aparece escrito, mas a terminação do verbo mostra quem é: «Estudamos ontem» (nós), «Fui à feira» (eu).",
+          "Sujeito indeterminado existe, mas não se sabe ou não se quer dizer quem é. Aparece de dois jeitos: verbo na 3ª pessoa do plural sem dizer quem («Roubaram minha bicicleta») ou verbo na 3ª pessoa do singular com «se», quando não há termo para concordar («Precisa-se de ajudantes», «Vive-se bem aqui»)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique o sujeito: a) Meu pai e minha tia chegaram. b) Chegamos cedo. c) Ligaram da escola.",
+            "resolucao": "a) Composto (núcleos pai e tia). b) Oculto (nós, pela terminação -amos). c) Indeterminado (alguém ligou, mas a frase não diz quem)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O sujeito pode vir depois do verbo (posposto): «Chegaram as provas corrigidas». Quem chegou? As provas: sujeito simples, e o verbo vai para o plural para concordar com ele.",
+        "Pegadinha clássica: em «Vendem-se casas», o sujeito NÃO é indeterminado. A frase quer dizer «casas são vendidas», então «casas» é o sujeito, e o verbo concorda com ele: «Vendem-se casas», «Conserta-se celular», «Consertam-se celulares». Já em «Precisa-se de vendedores», o «de» impede a concordância, e o sujeito é indeterminado.",
+        "Atenção ao plural com referente conhecido: em «Meus primos chegaram. Trouxeram bolo.», sabemos quem trouxe (os primos), então o sujeito de «trouxeram» é oculto, não indeterminado. E no sujeito composto com «eu», o verbo vai para «nós»: «Bruna, Téo e eu dançamos»."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«Ana e Pedro jogaram bola.» Como é o sujeito?",
+            "alternativas": [
+              "Simples",
+              "Composto",
+              "Oculto",
+              "Indeterminado"
+            ],
+            "correta": 1,
+            "explicacao": "Há dois núcleos: Ana e Pedro.",
+            "dica": "Conte quantas pessoas jogaram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Estudamos para a prova.» Qual é o sujeito?",
+            "alternativas": [
+              "Indeterminado",
+              "Simples: prova",
+              "Oculto: nós",
+              "Composto"
+            ],
+            "correta": 2,
+            "explicacao": "A terminação -amos mostra que quem estudou fomos nós.",
+            "dica": "Olhe a terminação do verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«A professora explicou a lição.» Qual é o núcleo do sujeito?",
+            "alternativas": [
+              "professora",
+              "explicou",
+              "lição",
+              "A"
+            ],
+            "correta": 0,
+            "explicacao": "Quem explicou? A professora. A palavra principal é professora.",
+            "dica": "Pergunte ao verbo: quem explicou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Roubaram minha bicicleta.» Como é o sujeito?",
+            "alternativas": [
+              "Oculto",
+              "Composto",
+              "Simples",
+              "Indeterminado"
+            ],
+            "correta": 3,
+            "explicacao": "Alguém roubou, mas a frase não diz quem. Verbo no plural sem referente: indeterminado.",
+            "dica": "Dá para saber quem fez a ação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar o sujeito, que pergunta fazemos ao verbo?",
+            "alternativas": [
+              "Quando?",
+              "Onde?",
+              "Quem?",
+              "Como?"
+            ],
+            "correta": 2,
+            "explicacao": "Quem (ou o que) fez a ação é o sujeito.",
+            "dica": "Queremos saber quem fez a ação."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«Chegaram as provas corrigidas.» Qual é o sujeito?",
+            "alternativas": [
+              "Indeterminado",
+              "Simples: as provas corrigidas",
+              "Oculto: eles",
+              "Composto"
+            ],
+            "correta": 1,
+            "explicacao": "O que chegou? As provas corrigidas. É um sujeito simples que veio depois do verbo.",
+            "dica": "O sujeito pode estar depois do verbo. Pergunte: o que chegou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Precisa-se de vendedores.» Como é o sujeito?",
+            "alternativas": [
+              "Simples: vendedores",
+              "Oculto",
+              "Indeterminado",
+              "Composto"
+            ],
+            "correta": 2,
+            "explicacao": "Verbo na 3ª do singular com se e a preposição de: não se diz quem precisa.",
+            "dica": "A preposição de impede que vendedores seja o sujeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«O pai, a mãe e a tia vieram à reunião.» Quais são os núcleos do sujeito?",
+            "alternativas": [
+              "pai, mãe e tia",
+              "reunião",
+              "vieram",
+              "pai"
+            ],
+            "correta": 0,
+            "explicacao": "Três núcleos: sujeito composto.",
+            "dica": "Quem veio? Liste as palavras principais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Fui à feira cedo.» Qual é o sujeito?",
+            "alternativas": [
+              "Indeterminado",
+              "Simples: feira",
+              "Composto",
+              "Oculto: eu"
+            ],
+            "correta": 3,
+            "explicacao": "A forma fui só combina com eu.",
+            "dica": "Com que pronome a forma fui combina?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «___ ao jogo o Caio e a Lia.»",
+            "alternativas": [
+              "Foi",
+              "Foram",
+              "Vai",
+              "Foste"
+            ],
+            "correta": 1,
+            "explicacao": "O sujeito composto (Caio e Lia), mesmo depois do verbo, pede plural: foram.",
+            "dica": "Quantos núcleos tem o sujeito, que está no fim da frase?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "«Vendem-se bicicletas usadas.» Qual é o sujeito?",
+            "alternativas": [
+              "Indeterminado",
+              "Simples: bicicletas usadas",
+              "Oculto",
+              "Composto"
+            ],
+            "correta": 1,
+            "explicacao": "A frase equivale a «bicicletas usadas são vendidas». Bicicletas é o sujeito, e o verbo concorda com ele.",
+            "dica": "Troque por «são vendidas» e pergunte: o que é vendido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Falaram mal de você na reunião.» (ninguém foi citado antes) Como é o sujeito?",
+            "alternativas": [
+              "Indeterminado",
+              "Composto",
+              "Oculto: nós",
+              "Simples: reunião"
+            ],
+            "correta": 0,
+            "explicacao": "Verbo na 3ª do plural sem referente: não se diz quem falou.",
+            "dica": "A frase revela quem falou?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Meus primos chegaram. Trouxeram bolo.» Qual é o sujeito de «trouxeram»?",
+            "alternativas": [
+              "Indeterminado",
+              "Simples: bolo",
+              "Oculto: eles, os primos",
+              "Composto"
+            ],
+            "correta": 2,
+            "explicacao": "Sabemos quem trouxe: os primos, citados antes. Então é oculto, não indeterminado.",
+            "dica": "A frase anterior já disse quem são eles?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem sujeito composto?",
+            "alternativas": [
+              "A torcida do time comemorou.",
+              "Comemoraram muito.",
+              "Comemoramos o gol.",
+              "O time e a torcida comemoraram."
+            ],
+            "correta": 3,
+            "explicacao": "Time e torcida são dois núcleos. Em «a torcida do time», o núcleo é só torcida.",
+            "dica": "Procure dois núcleos ligados por e."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Vive-se bem nesta cidade.» Como é o sujeito?",
+            "alternativas": [
+              "Simples: cidade",
+              "Oculto: ele",
+              "Composto",
+              "Indeterminado"
+            ],
+            "correta": 3,
+            "explicacao": "Verbo na 3ª do singular com se e nenhum termo para concordar: indeterminado.",
+            "dica": "Existe na frase alguém que vive bem?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem sujeito indeterminado?",
+            "alternativas": [
+              "Alugam-se quartos.",
+              "Precisa-se de cozinheiras.",
+              "Os vizinhos reclamaram.",
+              "Chegamos atrasados."
+            ],
+            "correta": 1,
+            "explicacao": "Em «Alugam-se quartos», quartos é o sujeito (quartos são alugados). Com «precisa-se de», o sujeito é indeterminado.",
+            "dica": "Cuidado com o se: veja se existe um termo com o qual o verbo concorda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual placa está correta?",
+            "alternativas": [
+              "Consertam-se celulares, porque celulares é o sujeito",
+              "Conserta-se celulares, porque o sujeito é indeterminado",
+              "As duas estão sempre certas",
+              "Consertam celulares-se"
+            ],
+            "correta": 0,
+            "explicacao": "Celulares são consertados: celulares é o sujeito, e o verbo vai para o plural.",
+            "dica": "Troque por «são consertados» e veja com o que o verbo concorda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: «Bruna, Téo e eu ___ na festa.»",
+            "alternativas": [
+              "dançaram",
+              "dançou",
+              "dançamos",
+              "dancei"
+            ],
+            "correta": 2,
+            "explicacao": "Sujeito composto com eu: o verbo vai para a 1ª pessoa do plural (nós).",
+            "dica": "Bruna, Téo e eu equivalem a qual pronome?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "«Telefonaram para a escola e avisaram que o ônibus atrasou.» Qual é o sujeito de «atrasou»?",
+            "alternativas": [
+              "o ônibus (simples)",
+              "Indeterminado",
+              "Oculto",
+              "a escola"
+            ],
+            "correta": 0,
+            "explicacao": "Telefonaram e avisaram têm sujeito indeterminado, mas quem atrasou foi o ônibus.",
+            "dica": "Cada verbo tem seu sujeito. Pergunte só ao verbo atrasou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem sujeito simples DEPOIS do verbo?",
+            "alternativas": [
+              "Dois pastéis sobraram.",
+              "Sobramos na fila.",
+              "Precisa-se de pastéis.",
+              "Sobraram dois pastéis."
+            ],
+            "correta": 3,
+            "explicacao": "O que sobrou? Dois pastéis, que aparecem depois do verbo. Na primeira, o sujeito vem antes.",
+            "dica": "Procure o sujeito que aparece no fim da frase."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O número que nunca termina",
+    "texto": "Era quinta-feira, e a professora Lúcia pediu que todos dividissem 1 por 3 na calculadora do celular. Mariana digitou rápido e levou um susto: a tela mostrou 0,33333333 e acabou o espaço.\n\n— Professora, acho que o meu celular travou — disse ela, levantando a mão.\n\nA turma riu, mas a professora não. Pediu que Mariana fizesse a mesma conta no caderno, do jeito antigo. Mariana dividiu: 10 por 3 dá 3 e sobra 1. Baixou um zero: de novo 10 por 3, de novo sobra 1. E de novo. E de novo. Na quinta linha, ela parou e olhou a página como quem descobre uma passagem secreta.\n\n— Não vai acabar nunca, né?\n\n— Nunca — respondeu a professora. — O celular não travou. Ele só não tinha mais espaço para escrever o infinito.\n\nNaquele dia, Mariana aprendeu que alguns números são assim: teimosos, repetindo o mesmo algarismo para sempre. Aprendeu também que eles têm um nome bonito, dízima periódica, e que cabem inteirinhos numa fração pequena: 1/3. A fração era como uma caixa que guarda o infinito sem deixar escapar nada.\n\nNa volta para casa, no ônibus, ela dividiu 2 por 3, depois 7 por 9, contando nos dedos. Achou graça em pensar que, enquanto a cidade corria pela janela, havia números correndo também, sem parar, dentro de uma conta simples de escola."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique para um colega, com um exemplo seu, como transformar 0,777... em fração. Diga qual é o período, por que o denominador tem um 9 e como conferir o resultado fazendo a divisão."
+  }
+}

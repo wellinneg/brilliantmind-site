@@ -1,0 +1,1495 @@
+{
+  "dia": 24,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "MMC e MDC: o encontro dos ônibus",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Múltiplos de um número são os resultados da tabuada dele. Múltiplos de 4: 0, 4, 8, 12, 16, 20, 24… Múltiplos de 6: 0, 6, 12, 18, 24…",
+          "MMC quer dizer mínimo múltiplo comum: o menor múltiplo (sem contar o zero) que aparece nas duas listas. Para 4 e 6, os múltiplos comuns são 12, 24, 36… O menor é 12, então MMC(4, 6) = 12.",
+          "Divisores de um número são os que dividem ele sem sobrar resto. Divisores de 12: 1, 2, 3, 4, 6, 12. Divisores de 18: 1, 2, 3, 6, 9, 18.",
+          "MDC quer dizer máximo divisor comum: o maior divisor que aparece nas duas listas. Para 12 e 18, os divisores comuns são 1, 2, 3 e 6. O maior é 6, então MDC(12, 18) = 6.",
+          "Quando usar cada um? MMC serve para descobrir quando coisas que se repetem vão coincidir de novo. MDC serve para dividir coisas em partes iguais, do maior tamanho possível."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma linha de ônibus passa a cada 12 minutos e outra a cada 18. Elas passaram juntas às 7h. Quando passam juntas de novo?",
+            "resolucao": "Múltiplos de 12: 12, 24, 36… Múltiplos de 18: 18, 36… MMC = 36. Passam juntas de novo às 7h36."
+          },
+          {
+            "enunciado": "Tia Vera tem uma fita de 24 cm e outra de 36 cm. Quer cortar pedaços iguais, do maior tamanho possível, sem sobrar. Qual é o tamanho?",
+            "resolucao": "Divisores comuns de 24 e 36: 1, 2, 3, 4, 6 e 12. MDC = 12. Pedaços de 12 cm: 2 da primeira fita e 3 da segunda."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Também dá para achar o MMC e o MDC pela decomposição em fatores primos. 12 = 2 × 2 × 3 e 18 = 2 × 3 × 3. O MDC usa só os fatores comuns às duas: 2 × 3 = 6. O MMC usa todos os fatores, cada um com a maior quantidade de vezes que aparece: 2 × 2 × 3 × 3 = 36.",
+        "Quando dois números não têm nenhum divisor comum além do 1 (MDC = 1), dizemos que são primos entre si. Nesse caso, o MMC é a multiplicação dos dois: MMC(7, 9) = 63.",
+        "Uma curiosidade útil para conferir a conta: MDC × MMC é igual à multiplicação dos dois números. Para 12 e 18: 6 × 36 = 216, e 12 × 18 = 216."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são os primeiros múltiplos de 5 (sem o zero)?",
+            "alternativas": [
+              "5, 10, 15, 20",
+              "1, 5",
+              "5, 6, 7, 8",
+              "1, 2, 3, 4, 5"
+            ],
+            "correta": 0,
+            "explicacao": "Múltiplos são os resultados da tabuada: 5 × 1, 5 × 2, 5 × 3…",
+            "dica": "Pense na tabuada do 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "MMC quer dizer:",
+            "alternativas": [
+              "máximo divisor comum",
+              "mínimo múltiplo comum",
+              "maior número de todos",
+              "metade do maior"
+            ],
+            "correta": 1,
+            "explicacao": "MMC = mínimo múltiplo comum.",
+            "dica": "A primeira letra M é de mínimo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais são os divisores de 6?",
+            "alternativas": [
+              "6, 12, 18",
+              "2 e 3",
+              "1, 2, 3 e 6",
+              "só 1"
+            ],
+            "correta": 2,
+            "explicacao": "6 pode ser dividido exatamente por 1, 2, 3 e 6.",
+            "dica": "Quais números dividem o 6 sem sobrar nada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O MMC serve para descobrir:",
+            "alternativas": [
+              "o maior pedaço igual",
+              "a metade de um número",
+              "se o número é par",
+              "quando coisas que se repetem coincidem"
+            ],
+            "correta": 3,
+            "explicacao": "Como no caso dos ônibus que passam juntos de novo.",
+            "dica": "Lembre o exemplo dos ônibus."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o MMC de 2 e 3?",
+            "alternativas": [
+              "6",
+              "5",
+              "1",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "Múltiplos de 2: 2, 4, 6… Múltiplos de 3: 3, 6… O primeiro comum é 6.",
+            "dica": "Escreva os primeiros múltiplos de cada um e procure o primeiro igual."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o MMC de 4 e 6?",
+            "alternativas": [
+              "24",
+              "12",
+              "10",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "Múltiplos de 4: 4, 8, 12… Múltiplos de 6: 6, 12… O primeiro comum é 12.",
+            "dica": "Liste os múltiplos e procure o primeiro que aparece nas duas listas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o MDC de 8 e 12?",
+            "alternativas": [
+              "2",
+              "8",
+              "4",
+              "24"
+            ],
+            "correta": 2,
+            "explicacao": "Divisores de 8: 1, 2, 4, 8. Divisores de 12: 1, 2, 3, 4, 6, 12. O maior comum é 4.",
+            "dica": "Liste os divisores dos dois e escolha o maior que se repete."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o MMC de 6 e 8?",
+            "alternativas": [
+              "48",
+              "14",
+              "12",
+              "24"
+            ],
+            "correta": 3,
+            "explicacao": "Múltiplos de 6: 6, 12, 18, 24… Múltiplos de 8: 8, 16, 24… O primeiro comum é 24. O 48 também é comum, mas não é o menor.",
+            "dica": "O MMC é o MENOR comum, não qualquer um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o MDC de 15 e 25?",
+            "alternativas": [
+              "5",
+              "3",
+              "15",
+              "75"
+            ],
+            "correta": 0,
+            "explicacao": "Divisores de 15: 1, 3, 5, 15. Divisores de 25: 1, 5, 25. O maior comum é 5.",
+            "dica": "Que número divide o 15 e o 25 ao mesmo tempo?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para achar o MDC de 12 e 18:",
+            "itens": [
+              "Listar os divisores de 12",
+              "Listar os divisores de 18",
+              "Marcar os divisores que aparecem nas duas listas",
+              "Escolher o maior deles"
+            ],
+            "explicacao": "Lista, lista, marca os comuns e escolhe o maior.",
+            "dica": "O maior é escolhido só no fim."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um remédio é tomado a cada 6 horas e outro a cada 8 horas. Se o vovô tomou os dois às 8h, quando toma os dois juntos de novo?",
+            "alternativas": [
+              "Às 14h",
+              "Às 8h do dia seguinte",
+              "Às 16h",
+              "Às 22h"
+            ],
+            "correta": 1,
+            "explicacao": "MMC(6, 8) = 24 horas. Os dois coincidem de novo 24 horas depois: às 8h do dia seguinte.",
+            "dica": "Ache o MMC de 6 e 8 e some ao horário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A professora tem 18 lápis e 24 borrachas e quer montar kits iguais, o maior número possível de kits, sem sobrar nada. Quantos kits?",
+            "alternativas": [
+              "3",
+              "12",
+              "6",
+              "2"
+            ],
+            "correta": 2,
+            "explicacao": "MDC(18, 24) = 6. São 6 kits, cada um com 3 lápis e 4 borrachas.",
+            "dica": "É dividir em partes iguais: MMC ou MDC?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o MMC de 10 e 15?",
+            "alternativas": [
+              "150",
+              "5",
+              "25",
+              "30"
+            ],
+            "correta": 3,
+            "explicacao": "Múltiplos de 10: 10, 20, 30… Múltiplos de 15: 15, 30… O primeiro comum é 30.",
+            "dica": "Liste os múltiplos de 15 e veja qual também é múltiplo de 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas luzes piscam: uma a cada 4 segundos e outra a cada 10. Piscaram juntas agora. Daqui a quantos segundos piscam juntas de novo?",
+            "alternativas": [
+              "20",
+              "40",
+              "14",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "MMC(4, 10) = 20 segundos.",
+            "dica": "Coisas que se repetem e coincidem pedem qual cálculo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o MDC de 20 e 30?",
+            "alternativas": [
+              "5",
+              "10",
+              "60",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "Divisores comuns de 20 e 30: 1, 2, 5 e 10. O maior é 10.",
+            "dica": "Liste os divisores dos dois e escolha o maior comum."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Três linhas de ônibus saem do terminal: uma a cada 10, outra a cada 15 e outra a cada 20 minutos. Saíram juntas às 6h. Quando saem juntas de novo?",
+            "alternativas": [
+              "Às 6h30",
+              "Às 6h45",
+              "Às 7h",
+              "Às 6h20"
+            ],
+            "correta": 2,
+            "explicacao": "MMC(10, 15, 20) = 60 minutos. Saem juntas de novo às 7h.",
+            "dica": "Ache um múltiplo que sirva para os três números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela decomposição, 12 = 2 × 2 × 3 e 18 = 2 × 3 × 3. Qual é o MMC?",
+            "alternativas": [
+              "6",
+              "216",
+              "18",
+              "36"
+            ],
+            "correta": 3,
+            "explicacao": "O MMC usa todos os fatores com a maior quantidade: 2 × 2 × 3 × 3 = 36.",
+            "dica": "Use cada fator o maior número de vezes que ele aparece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o MMC de 7 e 9?",
+            "alternativas": [
+              "63",
+              "16",
+              "1",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "7 e 9 não têm divisor comum além do 1 (são primos entre si). O MMC é 7 × 9 = 63.",
+            "dica": "Releia o aprofundamento sobre números primos entre si."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O MDC de dois números é 4 e o MMC é 24. Um dos números é 8. Qual é o outro?",
+            "alternativas": [
+              "6",
+              "12",
+              "3",
+              "16"
+            ],
+            "correta": 1,
+            "explicacao": "MDC × MMC = 4 × 24 = 96. O outro número é 96 ÷ 8 = 12. Conferindo: MDC(8, 12) = 4 e MMC(8, 12) = 24.",
+            "dica": "Use a curiosidade do aprofundamento: MDC vezes MMC dá o produto dos dois números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno de 48 m por 36 m vai ser dividido em quadrados iguais, os maiores possíveis. Qual é o lado de cada quadrado?",
+            "alternativas": [
+              "6 m",
+              "4 m",
+              "12 m",
+              "144 m"
+            ],
+            "correta": 2,
+            "explicacao": "MDC(48, 36) = 12. Cabem 4 quadrados num lado e 3 no outro: 12 quadrados de 12 m.",
+            "dica": "O lado precisa caber exatamente nos dois lados do terreno."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "E e OU: duas condições ao mesmo tempo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Às vezes, o programa precisa testar duas condições ao mesmo tempo. Para isso existem as palavras E e OU. Em Python, elas são escritas and (e) e or (ou).",
+          "Com E (and), as duas condições precisam ser verdadeiras. Exemplo: “pode entrar na piscina se tiver mais de 10 anos E souber nadar”. Se faltar uma das duas, não entra.",
+          "Com OU (or), basta uma condição ser verdadeira. Exemplo: “ganha desconto quem tem até 12 anos OU mais de 60”. Uma das duas já basta.",
+          "Um jeito fácil de lembrar: E é exigente (quer tudo); OU é bonzinho (aceita uma só)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "idade = 12 e sabe_nadar = False. A regra é: idade > 10 and sabe_nadar. Pode entrar na piscina?",
+            "resolucao": "Não. idade > 10 é verdadeiro, mas sabe_nadar é falso. Com and, as duas precisam ser verdadeiras."
+          },
+          {
+            "enunciado": "Choveu = False e frio = True. A mãe diz: “leve o casaco se chover OU fizer frio”. Precisa levar?",
+            "resolucao": "Sim. Com OU, basta uma ser verdadeira, e está frio."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Tabela do E: verdadeiro e verdadeiro = verdadeiro; qualquer outro caso = falso. Tabela do OU: falso ou falso = falso; qualquer outro caso = verdadeiro.",
+        "Existe também o NÃO (not), que inverte o resultado: not True é False. “Pode sair se NÃO estiver chovendo” é o mesmo que dizer que chovendo precisa ser falso.",
+        "Dá para juntar várias condições: (nota >= 6) and (faltas < 10). Os parênteses ajudam a ler e a não errar a ordem."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, a palavra para E é:",
+            "alternativas": [
+              "and",
+              "or",
+              "not",
+              "if"
+            ],
+            "correta": 0,
+            "explicacao": "And quer dizer e. Or quer dizer ou.",
+            "dica": "É uma palavra em inglês de três letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com E, quantas condições precisam ser verdadeiras?",
+            "alternativas": [
+              "Nenhuma",
+              "Todas",
+              "Só uma",
+              "Metade"
+            ],
+            "correta": 1,
+            "explicacao": "O E é exigente: todas as condições precisam ser verdadeiras.",
+            "dica": "Lembre: E é exigente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com OU, basta quantas condições verdadeiras?",
+            "alternativas": [
+              "Todas",
+              "Nenhuma",
+              "Uma",
+              "Três"
+            ],
+            "correta": 2,
+            "explicacao": "O OU é bonzinho: uma verdadeira já basta.",
+            "dica": "Lembre: OU é bonzinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, a palavra para OU é:",
+            "alternativas": [
+              "and",
+              "if",
+              "not",
+              "or"
+            ],
+            "correta": 3,
+            "explicacao": "Or quer dizer ou.",
+            "dica": "São só duas letras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Verdadeiro E verdadeiro dá:",
+            "alternativas": [
+              "Verdadeiro",
+              "Falso",
+              "Erro",
+              "Nada"
+            ],
+            "correta": 0,
+            "explicacao": "Com as duas verdadeiras, o E dá verdadeiro.",
+            "dica": "O E exige que as duas partes deem certo. Elas deram?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Verdadeiro E falso dá:",
+            "alternativas": [
+              "Verdadeiro",
+              "Falso",
+              "Erro",
+              "Talvez"
+            ],
+            "correta": 1,
+            "explicacao": "Basta uma falsa para o E dar falso.",
+            "dica": "O E é exigente: aceita alguma falsa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Verdadeiro OU falso dá:",
+            "alternativas": [
+              "Falso",
+              "Erro",
+              "Verdadeiro",
+              "Nada"
+            ],
+            "correta": 2,
+            "explicacao": "Com OU, uma verdadeira basta.",
+            "dica": "O OU aceita uma só verdadeira?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nota = 8 e faltas = 3. A regra é nota >= 6 and faltas < 10. O aluno passa?",
+            "alternativas": [
+              "Não, porque a nota é baixa",
+              "Não, porque tem faltas",
+              "Dá erro",
+              "Sim, as duas condições são verdadeiras"
+            ],
+            "correta": 3,
+            "explicacao": "8 >= 6 é verdadeiro e 3 < 10 é verdadeiro. Com and, passa.",
+            "dica": "Teste cada condição separada e depois junte com and."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Desconto para quem tem até 12 anos OU mais de 60. Quem ganha desconto?",
+            "alternativas": [
+              "Dona Zilda, 65 anos",
+              "Bruno, 30 anos",
+              "Paula, 40 anos",
+              "Seu Tião, 55 anos"
+            ],
+            "correta": 0,
+            "explicacao": "65 > 60 é verdadeiro. Com OU, já basta.",
+            "dica": "Teste a idade de cada um nas duas condições."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Falso OU falso dá:",
+            "alternativas": [
+              "Verdadeiro",
+              "Falso",
+              "Erro",
+              "Depende"
+            ],
+            "correta": 1,
+            "explicacao": "O OU só dá falso quando as duas são falsas.",
+            "dica": "O OU precisa de pelo menos uma verdadeira. Tem?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para ganhar a medalha, é preciso ter mais de 50 pontos E menos de 3 erros. Quem ganha?",
+            "alternativas": [
+              "Ana: 60 pontos e 5 erros",
+              "Beto: 40 pontos e 1 erro",
+              "Caio: 55 pontos e 2 erros",
+              "Duda: 50 pontos e 0 erro"
+            ],
+            "correta": 2,
+            "explicacao": "Caio: 55 > 50 e 2 < 3, as duas verdadeiras. Duda tem exatamente 50, que não é mais de 50.",
+            "dica": "Teste as duas condições em cada pessoa. Cuidado com o caso de empate."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "x = 5. Qual expressão é VERDADEIRA?",
+            "alternativas": [
+              "x > 10 and x < 20",
+              "x == 3 or x == 4",
+              "x > 5 and x < 8",
+              "x < 3 or x > 4"
+            ],
+            "correta": 3,
+            "explicacao": "x < 3 é falso, mas x > 4 é verdadeiro; com or, basta uma.",
+            "dica": "Teste cada parte com 5 e depois aplique o and ou o or."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de not (3 > 1)?",
+            "alternativas": [
+              "False",
+              "True",
+              "3",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "3 > 1 é True. O not inverte: False.",
+            "dica": "Resolva o parêntese e depois inverta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A regra do clube é “entra quem tem carteirinha OU está com um sócio”. Lia não tem carteirinha, mas está com a mãe, que é sócia. Ela entra?",
+            "alternativas": [
+              "Não, falta carteirinha",
+              "Sim, uma condição verdadeira basta",
+              "Só se pagar",
+              "Dá erro"
+            ],
+            "correta": 1,
+            "explicacao": "Com OU, estar com um sócio já basta.",
+            "dica": "É E ou OU? Quantas condições bastam?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual valor de idade torna VERDADEIRA a expressão idade >= 13 and idade <= 17?",
+            "alternativas": [
+              "12",
+              "18",
+              "15",
+              "20"
+            ],
+            "correta": 2,
+            "explicacao": "15 >= 13 é verdadeiro e 15 <= 17 é verdadeiro. Com 12, falha a primeira; com 18 e 20, falha a segunda.",
+            "dica": "Com and, o número precisa passar nos dois testes ao mesmo tempo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "idade = 15, tem_autorizacao = False, acompanhado = True. Regra: idade >= 16 or (tem_autorizacao or acompanhado). Pode entrar?",
+            "alternativas": [
+              "Não, porque tem menos de 16",
+              "Sim, porque o parêntese dá verdadeiro",
+              "Não, porque não tem autorização",
+              "Dá erro"
+            ],
+            "correta": 1,
+            "explicacao": "idade >= 16 é falso. No parêntese: False or True = True. Então False or True = True.",
+            "dica": "Resolva primeiro o parêntese e depois o resto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "a = 4 e b = 7. Quantas expressões são verdadeiras? a < b and b < 10 | a > b or b == 7 | not (a == 4) | a + b == 11 and a > 5",
+            "alternativas": [
+              "Uma",
+              "Três",
+              "Duas",
+              "Quatro"
+            ],
+            "correta": 2,
+            "explicacao": "1ª: True and True = True. 2ª: False or True = True. 3ª: not True = False. 4ª: True and False = False. Duas verdadeiras.",
+            "dica": "Resolva uma por uma, com calma, e conte as verdadeiras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual expressão é igual a “a nota NÃO está entre 5 e 8 (incluindo os dois)”?",
+            "alternativas": [
+              "nota >= 5 and nota <= 8",
+              "nota > 5 and nota < 8",
+              "nota == 5 or nota == 8",
+              "nota < 5 or nota > 8"
+            ],
+            "correta": 3,
+            "explicacao": "Fora do intervalo quer dizer abaixo de 5 OU acima de 8. A pegadinha é usar and, que nunca daria verdadeiro.",
+            "dica": "Um número pode ser menor que 5 e maior que 8 ao mesmo tempo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o alarme tocar: porta_aberta and not dono_em_casa. Porta aberta e dono em casa. O alarme toca?",
+            "alternativas": [
+              "Não",
+              "Sim",
+              "Toca duas vezes",
+              "Dá erro"
+            ],
+            "correta": 0,
+            "explicacao": "dono_em_casa é True, então not dono_em_casa é False. True and False = False: não toca.",
+            "dica": "Inverta o valor do dono em casa antes de aplicar o and."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com x = 10, qual expressão é FALSA?",
+            "alternativas": [
+              "x > 5 or x > 20",
+              "x > 5 and x > 20",
+              "not (x > 20)",
+              "x == 10 or x == 0"
+            ],
+            "correta": 1,
+            "explicacao": "x > 20 é falso; com and, basta uma falsa para tudo dar falso.",
+            "dica": "Procure a expressão com and que tenha uma parte falsa."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Criar uma tabela no Word: o horário de aulas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Tabela é um conjunto de linhas (na horizontal) e colunas (na vertical). Cada quadradinho é uma célula, como no Excel.",
+          "Para criar uma tabela no Word, vá à guia Inserir, clique em Tabela e escolha quantas colunas e linhas quer. No celular, procure o botão de inserir (geralmente um sinal de mais ou o menu Inserir) e depois Tabela.",
+          "Para o horário de aulas, use 6 colunas (uma para o horário e cinco para os dias, de segunda a sexta) e uma linha para cada aula, mais uma linha de título no alto.",
+          "Para andar de uma célula para a próxima, aperte a tecla Tab. Na última célula da tabela, apertar Tab cria uma linha nova.",
+          "Depois de pronta, você pode deixar a primeira linha em negrito e pintar as células para ficar fácil de ler."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quantas colunas e linhas são necessárias para um horário de 5 dias, com 5 aulas por dia e uma linha de títulos?",
+            "resolucao": "Colunas: 1 (horário) + 5 (dias) = 6. Linhas: 1 (títulos) + 5 (aulas) = 6. Uma tabela 6 × 6."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Mesclar células junta duas ou mais células numa só. É útil para escrever “INTERVALO” atravessando a tabela inteira, de segunda a sexta. Selecione as células, clique com o botão direito e escolha Mesclar Células.",
+        "Quando a tabela está selecionada, aparecem guias extras (como Design da Tabela e Layout). Nelas você escolhe estilos prontos, insere linhas e colunas e muda bordas e sombreamento.",
+        "Uma tabela organiza informações para comparar rapidamente. Cardápio da semana, escala de limpeza da sala e lista de tarefas também ficam ótimos em tabela."
+      ],
+      "desafio_pratico": "Abra o Word no celular ou no PC e crie um documento chamado “Meu horário de aulas”. Insira uma tabela com 6 colunas e 6 linhas. Na primeira linha escreva: Horário, Segunda, Terça, Quarta, Quinta, Sexta. Na primeira coluna, escreva os horários das suas aulas e preencha as matérias de cada dia. Deixe a primeira linha em negrito e pinte cada matéria com uma cor (por exemplo, Matemática de azul e Português de amarelo). Se tiver intervalo, acrescente uma linha e mescle as células para escrever “INTERVALO”. Salve e cole o horário na porta do quarto.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Linhas da tabela ficam na:",
+            "alternativas": [
+              "horizontal",
+              "vertical",
+              "diagonal",
+              "lateral da tela"
+            ],
+            "correta": 0,
+            "explicacao": "Linhas são deitadas (horizontal); colunas são em pé (vertical).",
+            "dica": "Pense numa linha do caderno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia do Word fica o botão Tabela?",
+            "alternativas": [
+              "Exibir",
+              "Inserir",
+              "Revisão",
+              "Arquivo"
+            ],
+            "correta": 1,
+            "explicacao": "Inserir > Tabela.",
+            "dica": "Você vai colocar algo novo no documento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada quadradinho da tabela se chama:",
+            "alternativas": [
+              "página",
+              "margem",
+              "célula",
+              "parágrafo"
+            ],
+            "correta": 2,
+            "explicacao": "Como no Excel, cada quadradinho é uma célula.",
+            "dica": "É o mesmo nome usado no Excel."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tecla leva para a próxima célula?",
+            "alternativas": [
+              "Esc",
+              "Delete",
+              "Shift",
+              "Tab"
+            ],
+            "correta": 3,
+            "explicacao": "A tecla Tab avança para a próxima célula.",
+            "dica": "É uma tecla do lado esquerdo do teclado, perto do Q."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para destacar a linha de títulos, podemos:",
+            "alternativas": [
+              "deixar em negrito",
+              "apagar a tabela",
+              "fechar o Word",
+              "tirar todas as palavras"
+            ],
+            "correta": 0,
+            "explicacao": "Negrito e cor destacam a primeira linha.",
+            "dica": "Que formatação deixa as letras mais grossas?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para um horário de segunda a sexta, com uma coluna para os horários, quantas colunas são necessárias?",
+            "alternativas": [
+              "5",
+              "6",
+              "7",
+              "4"
+            ],
+            "correta": 1,
+            "explicacao": "1 coluna para o horário + 5 dias = 6 colunas.",
+            "dica": "Conte os dias e não esqueça a coluna dos horários."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece ao apertar Tab na ÚLTIMA célula da tabela?",
+            "alternativas": [
+              "A tabela some",
+              "O Word fecha",
+              "Cria uma linha nova",
+              "Apaga a última linha"
+            ],
+            "correta": 2,
+            "explicacao": "Na última célula, o Tab cria uma nova linha no fim da tabela.",
+            "dica": "A lição explicou isso no quarto parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Colunas da tabela ficam na:",
+            "alternativas": [
+              "horizontal",
+              "diagonal",
+              "parte de baixo",
+              "vertical"
+            ],
+            "correta": 3,
+            "explicacao": "Colunas são em pé, na vertical.",
+            "dica": "Pense nas colunas de um prédio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma tabela com 4 colunas e 3 linhas tem quantas células?",
+            "alternativas": [
+              "12",
+              "7",
+              "16",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "4 × 3 = 12 células.",
+            "dica": "Multiplique colunas por linhas."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para criar o horário de aulas:",
+            "itens": [
+              "Clicar na guia Inserir",
+              "Clicar em Tabela e escolher 6 colunas e 6 linhas",
+              "Digitar os dias e os horários",
+              "Deixar a primeira linha em negrito"
+            ],
+            "explicacao": "Primeiro insere a tabela, depois preenche e por fim formata.",
+            "dica": "Formatação vem depois de digitar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer escrever “INTERVALO” atravessando a tabela de segunda a sexta. O que usar?",
+            "alternativas": [
+              "Dividir células",
+              "Mesclar células",
+              "Apagar a linha",
+              "Mudar a fonte"
+            ],
+            "correta": 1,
+            "explicacao": "Mesclar junta várias células numa só, que atravessa a tabela.",
+            "dica": "É preciso juntar várias células numa só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Horário de 5 dias com 6 aulas por dia, mais coluna de horários e linha de títulos. Quantas células tem a tabela?",
+            "alternativas": [
+              "30",
+              "36",
+              "42",
+              "35"
+            ],
+            "correta": 2,
+            "explicacao": "Colunas: 1 + 5 = 6. Linhas: 1 + 6 = 7. Células: 6 × 7 = 42.",
+            "dica": "Conte colunas e linhas com cuidado e multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde aparecem as opções de estilo e de inserir linhas da tabela?",
+            "alternativas": [
+              "Na guia Arquivo",
+              "Na barra de tarefas do Windows",
+              "Na guia Exibir, sempre",
+              "Nas guias extras que surgem quando a tabela está selecionada"
+            ],
+            "correta": 3,
+            "explicacao": "Ao clicar na tabela, surgem guias como Design da Tabela e Layout.",
+            "dica": "As opções aparecem quando você clica dentro da tabela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes conteúdos fica MELHOR organizado em tabela?",
+            "alternativas": [
+              "O cardápio da merenda de cada dia da semana",
+              "Um poema",
+              "Uma carta para a avó",
+              "Uma história de aventura"
+            ],
+            "correta": 0,
+            "explicacao": "O cardápio compara dias e refeições, ideal para linhas e colunas.",
+            "dica": "Tabela serve para comparar informações em linhas e colunas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma tabela tem 3 linhas e 5 colunas. Você aperta Tab na última célula duas vezes seguidas. Quantas linhas ela passa a ter?",
+            "alternativas": [
+              "5",
+              "4",
+              "6",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "O primeiro Tab, na última célula, cria uma linha nova e leva o cursor para a primeira célula dessa linha. O segundo Tab só anda para a célula seguinte. Fica com 4 linhas.",
+            "dica": "Pense onde o cursor está depois do primeiro Tab."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Escala de limpeza: 4 tarefas (linhas) para 5 dias (colunas), mais uma linha de títulos e uma coluna com o nome das tarefas. Depois, a linha de títulos tem duas células mescladas numa. Quantas células sobram?",
+            "alternativas": [
+              "30",
+              "25",
+              "29",
+              "24"
+            ],
+            "correta": 2,
+            "explicacao": "Colunas: 1 + 5 = 6. Linhas: 1 + 4 = 5. Células: 6 × 5 = 30. Mesclando duas em uma, sobram 29.",
+            "dica": "Calcule a tabela inteira e veja quantas células somem ao mesclar duas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é VERDADEIRA sobre tabelas no Word?",
+            "alternativas": [
+              "Só existem no Excel",
+              "Não dá para colocar cor",
+              "A tecla Esc cria linhas",
+              "Mesclar junta células e Tab avança para a próxima"
+            ],
+            "correta": 3,
+            "explicacao": "Mesclar une células; Tab anda e, na última célula, cria linha nova.",
+            "dica": "Confira cada frase com a lição e o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia fez uma tabela 6 × 6 para o horário, mas a escola tem aula no sábado também. O que ela precisa acrescentar?",
+            "alternativas": [
+              "Uma coluna",
+              "Uma linha",
+              "Duas linhas",
+              "Uma tabela nova"
+            ],
+            "correta": 0,
+            "explicacao": "Cada dia é uma coluna. Sábado é mais um dia: mais uma coluna.",
+            "dica": "Os dias estão nas linhas ou nas colunas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o horário ficar fácil de ler, qual combinação é a MELHOR?",
+            "alternativas": [
+              "Letras bem pequenas e sem bordas",
+              "Títulos em negrito, bordas visíveis e uma cor por matéria",
+              "Tudo em vermelho",
+              "Cada célula com uma fonte diferente"
+            ],
+            "correta": 1,
+            "explicacao": "Destaque nos títulos, bordas e cores organizadas ajudam a achar a informação rápido.",
+            "dica": "Pense numa tabela que você entende em poucos segundos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa tabela de 6 colunas, você mescla as 6 células da linha do intervalo. Quantas células essa linha passa a ter?",
+            "alternativas": [
+              "6",
+              "0",
+              "1",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "Mesclar todas as células de uma linha transforma a linha numa célula só.",
+            "dica": "Mesclar junta várias células em quantas?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Olhar o bairro e achar oportunidades",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Todo negócio começa com um problema que alguém quer resolver. Uma oportunidade é um problema ou uma necessidade que ainda não está bem atendida.",
+          "Para achar oportunidades, olhe o seu bairro com olhos de detetive: o que falta? Do que os vizinhos reclamam? O que as pessoas precisam ir longe para comprar?",
+          "Converse com as pessoas antes de investir. Pergunte: “Você compraria isso? Por quanto?”. A opinião de quem vai comprar vale mais do que a sua certeza.",
+          "Comece pequeno e teste. Em vez de comprar muito material, faça poucas unidades, veja se vendem e melhore com o que aprender.",
+          "Um bom negócio é honesto e legal: não engana o cliente, respeita as regras e, se for de criança ou adolescente, tem um adulto responsável acompanhando."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Na rua da Lívia, muita gente reclama que não tem onde comprar pão de manhã cedo, porque a padaria abre às 8h. Qual oportunidade aparece?",
+            "resolucao": "Vender pão ou lanche entre 6h e 8h para quem sai cedo para o trabalho. Um adulto da família poderia testar com poucas unidades e ver se vende."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Antes de começar, observe quem já faz algo parecido (a concorrência). Você pode oferecer algo diferente: um horário melhor, um preço mais justo, uma entrega mais rápida ou um atendimento mais caprichado.",
+        "Uma ideia vira negócio quando resolve um problema de muita gente ou de pessoas dispostas a pagar. Gostar de uma ideia não basta: precisa ter cliente.",
+        "Negócios que crescem precisam de ajuda. Quem contrata alguém tem que fazer isso dentro da lei, com acordo claro e pagamento justo. Lembre que menores de 16 anos só podem trabalhar como aprendizes, a partir dos 14."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Todo negócio começa com:",
+            "alternativas": [
+              "um problema para resolver",
+              "muito dinheiro",
+              "uma loja enorme",
+              "um carro"
+            ],
+            "correta": 0,
+            "explicacao": "Negócios resolvem problemas ou atendem necessidades.",
+            "dica": "Releia a primeira frase da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar oportunidades no bairro, é bom:",
+            "alternativas": [
+              "ficar em casa sem olhar nada",
+              "observar o que falta e ouvir as reclamações",
+              "copiar tudo de outro bairro sem pensar",
+              "esperar alguém dar a ideia pronta"
+            ],
+            "correta": 1,
+            "explicacao": "Olhar o bairro como detetive mostra o que falta.",
+            "dica": "A lição falou em olhar com olhos de detetive."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de investir, você deve:",
+            "alternativas": [
+              "gastar todo o dinheiro",
+              "ignorar os vizinhos",
+              "conversar com quem vai comprar",
+              "pedir dinheiro emprestado"
+            ],
+            "correta": 2,
+            "explicacao": "A opinião de quem vai comprar mostra se a ideia funciona.",
+            "dica": "Quem decide se compra: você ou o cliente?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Começar pequeno quer dizer:",
+            "alternativas": [
+              "fazer tudo de uma vez",
+              "nunca começar",
+              "comprar o máximo possível",
+              "testar com poucas unidades"
+            ],
+            "correta": 3,
+            "explicacao": "Testar com pouco reduz o prejuízo se algo der errado.",
+            "dica": "Pense em gastar pouco no começo para aprender."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um bom negócio deve ser:",
+            "alternativas": [
+              "honesto e dentro da lei",
+              "escondido",
+              "enganoso",
+              "sem regras"
+            ],
+            "correta": 0,
+            "explicacao": "Negócio bom não engana o cliente e respeita as regras.",
+            "dica": "A lição terminou falando disso."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na escola, muitos alunos esquecem o lápis e precisam pedir emprestado. Isso pode ser:",
+            "alternativas": [
+              "um problema sem solução",
+              "uma oportunidade",
+              "um motivo para brigar",
+              "um crime"
+            ],
+            "correta": 1,
+            "explicacao": "Uma necessidade frequente pode virar oportunidade, como vender lápis na papelaria do bairro.",
+            "dica": "Necessidade que se repete é o quê para o empreendedor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pergunta ajuda MAIS a saber se uma ideia vai vender?",
+            "alternativas": [
+              "“Você acha minha ideia legal?”",
+              "“Você gosta de mim?”",
+              "“Você compraria isso? Por quanto?”",
+              "“Você conhece meu pai?”"
+            ],
+            "correta": 2,
+            "explicacao": "Perguntar se compraria e por quanto mostra se existe cliente de verdade.",
+            "dica": "A pergunta precisa falar de compra e preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que começar com poucas unidades?",
+            "alternativas": [
+              "Para ficar famoso",
+              "Porque é proibido fazer muitas",
+              "Para gastar mais",
+              "Para testar sem arriscar muito dinheiro"
+            ],
+            "correta": 3,
+            "explicacao": "Se não vender, o prejuízo é pequeno, e dá para melhorar.",
+            "dica": "Pense no prejuízo se ninguém comprar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Concorrência é:",
+            "alternativas": [
+              "quem já vende algo parecido",
+              "o seu melhor cliente",
+              "o seu fornecedor",
+              "a prefeitura"
+            ],
+            "correta": 0,
+            "explicacao": "Concorrentes vendem algo parecido para o mesmo público.",
+            "dica": "Pense em quem disputa os mesmos clientes."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para começar um pequeno negócio no bairro:",
+            "itens": [
+              "Observar o que falta no bairro",
+              "Conversar com possíveis clientes",
+              "Testar com poucas unidades",
+              "Melhorar a partir do que aprendeu"
+            ],
+            "explicacao": "Observar, perguntar, testar e melhorar.",
+            "dica": "Primeiro olhar, depois perguntar, depois testar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Já existe uma lanchonete no bairro que abre às 10h. Qual seria um diferencial honesto para um novo negócio de lanches?",
+            "alternativas": [
+              "Falar mal da lanchonete",
+              "Vender lanche cedo, das 6h às 9h, para quem vai trabalhar",
+              "Copiar o nome da lanchonete",
+              "Vender mais caro sem motivo"
+            ],
+            "correta": 1,
+            "explicacao": "Atender um horário que ninguém atende é um diferencial honesto.",
+            "dica": "Que horário ainda está sem atendimento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pedro adora fazer pulseiras, mas ninguém no bairro diz que compraria. O que isso mostra?",
+            "alternativas": [
+              "Que é só insistir sem mudar nada",
+              "Que ele deve gastar mais em material",
+              "Que gostar da ideia não basta: precisa ter cliente",
+              "Que o bairro está errado"
+            ],
+            "correta": 2,
+            "explicacao": "Ideia vira negócio quando alguém quer pagar por ela.",
+            "dica": "Releia o aprofundamento sobre gostar da ideia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um negócio de lavar carros cresceu e o dono quer ajuda. Qual atitude está dentro da lei?",
+            "alternativas": [
+              "Chamar o sobrinho de 12 anos para trabalhar todo dia",
+              "Não combinar pagamento",
+              "Pagar só quando quiser",
+              "Contratar um adulto com acordo claro e pagamento justo"
+            ],
+            "correta": 3,
+            "explicacao": "Contratar dentro da lei, com acordo e pagamento justo, protege todos. Criança de 12 anos não pode trabalhar.",
+            "dica": "Lembre as regras de idade e de pagamento justo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gabi testou bolo de pote: fez 10 e vendeu todos em 1 hora. Qual é o próximo passo mais sensato?",
+            "alternativas": [
+              "Aumentar um pouco a produção e continuar ouvindo os clientes",
+              "Fazer 500 de uma vez",
+              "Parar de vender",
+              "Dobrar o preço sem motivo"
+            ],
+            "correta": 0,
+            "explicacao": "Crescer aos poucos, ouvindo o cliente, reduz o risco.",
+            "dica": "Cresça sem perder o jeito de testar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na rua do Caio, idosos reclamam que não conseguem carregar as compras da feira. Que ideia de negócio honesto resolve isso?",
+            "alternativas": [
+              "Vender doces na porta da escola",
+              "Um serviço de carrinho de entrega das compras da feira, feito por adultos",
+              "Abrir outra feira",
+              "Cobrar para os idosos entrarem na feira"
+            ],
+            "correta": 1,
+            "explicacao": "A ideia resolve exatamente o problema que os idosos apontaram.",
+            "dica": "A solução precisa atacar o problema citado."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas ideias: A) vender capinha de celular, que já tem em 5 lojas na rua; B) consertar bicicletas, que não tem ninguém no bairro e muita gente usa para trabalhar. Qual tem MAIS cara de oportunidade?",
+            "alternativas": [
+              "A, porque capinha é bonita",
+              "As duas são iguais",
+              "B, porque atende uma necessidade sem concorrência e com muitos clientes",
+              "Nenhuma das duas"
+            ],
+            "correta": 2,
+            "explicacao": "B resolve um problema real de muita gente e ninguém atende ainda.",
+            "dica": "Compare a concorrência e a necessidade de cada ideia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Joana perguntou a 20 vizinhos se comprariam marmita por R$ 18. Doze disseram sim, mas só por R$ 15. O que ela aprendeu?",
+            "alternativas": [
+              "Que ninguém quer marmita",
+              "Que deve cobrar R$ 25",
+              "Que deve desistir",
+              "Que há interesse, mas o preço precisa ser repensado"
+            ],
+            "correta": 3,
+            "explicacao": "Doze em vinte mostram interesse; o preço é o ponto a ajustar, sem deixar de cobrir os custos.",
+            "dica": "Separe o que os vizinhos disseram sobre o produto e sobre o preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O negócio de salgados da família cresceu e precisa de 2 ajudantes. Qual plano é o MAIS correto?",
+            "alternativas": [
+              "Contratar dois adultos com registro, acordo claro e salário justo",
+              "Usar os primos menores sem pagar",
+              "Prometer pagamento quando der lucro",
+              "Não registrar ninguém para economizar"
+            ],
+            "correta": 0,
+            "explicacao": "Contratar dentro da lei evita multa e processo e mantém bons funcionários.",
+            "dica": "Pense nos riscos de não seguir a lei e de tratar mal a equipe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Thiago quer vender água gelada na saída do jogo de futebol do bairro. O que ele deve observar ANTES?",
+            "alternativas": [
+              "Só a cor da caixa de isopor",
+              "Quantas pessoas vão, se outros já vendem, o preço e se um adulto pode acompanhar",
+              "Só o nome do time",
+              "Nada, é só ir"
+            ],
+            "correta": 1,
+            "explicacao": "Público, concorrência, preço e responsável adulto ajudam a decidir com segurança.",
+            "dica": "Pense em cliente, concorrência, preço e segurança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase resume MELHOR o que é uma oportunidade?",
+            "alternativas": [
+              "Uma ideia de que eu gosto muito",
+              "Um produto caro",
+              "Um problema ou necessidade que ainda não está bem atendida",
+              "Um negócio igual ao do vizinho"
+            ],
+            "correta": 2,
+            "explicacao": "Oportunidade é uma necessidade real esperando solução.",
+            "dica": "Volte à primeira lição de hoje."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Gênero do substantivo: masculino e feminino",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Os substantivos podem ser masculinos (usam o, um) ou femininos (usam a, uma). Exemplos: o livro, a mesa.",
+          "Muitos substantivos mudam a terminação para formar o feminino: menino → menina, professor → professora, leão → leoa.",
+          "Alguns têm uma palavra totalmente diferente para o feminino. São os heterônimos: pai → mãe, homem → mulher, boi → vaca, cavalo → égua, genro → nora.",
+          "Outros têm uma forma só e mudam apenas o artigo: o estudante → a estudante, o artista → a artista, o dentista → a dentista. São os comuns de dois gêneros."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Qual é o feminino de “ator”?",
+            "resolucao": "Atriz. Não é “atora”: algumas palavras têm feminino com terminação especial."
+          },
+          {
+            "enunciado": "Como fica o feminino de “o jovem”?",
+            "resolucao": "A jovem. A palavra não muda; muda só o artigo. É comum de dois gêneros."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Sobrecomuns têm uma forma e um artigo só para os dois sexos: a criança, a pessoa, a vítima, o indivíduo. “O Pedro é uma criança” está certo. Epicenos são nomes de animais com uma forma só: a cobra, o jacaré, a onça. Para indicar o sexo, dizemos “a cobra macho” ou “o jacaré fêmea”.",
+        "Alguns substantivos mudam de sentido conforme o gênero: o capital (dinheiro) e a capital (cidade); o cabeça (líder) e a cabeça (parte do corpo); o rádio (aparelho) e a rádio (emissora).",
+        "Femininos especiais: imperador → imperatriz, herói → heroína, rei → rainha, galo → galinha, cidadão → cidadã, réu → ré, poeta → poetisa (hoje também se aceita “a poeta”)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual artigo acompanha um substantivo masculino?",
+            "alternativas": [
+              "o",
+              "a",
+              "as",
+              "uma"
+            ],
+            "correta": 0,
+            "explicacao": "O e um acompanham masculinos: o livro.",
+            "dica": "Pense em “___ livro”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o feminino de menino?",
+            "alternativas": [
+              "menine",
+              "menina",
+              "meninão",
+              "meninos"
+            ],
+            "correta": 1,
+            "explicacao": "Menino → menina: troca o o pelo a.",
+            "dica": "Mude só a última letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o feminino de pai?",
+            "alternativas": [
+              "paia",
+              "paiz",
+              "mãe",
+              "paizinha"
+            ],
+            "correta": 2,
+            "explicacao": "Pai → mãe: palavras totalmente diferentes (heterônimos).",
+            "dica": "É uma palavra totalmente diferente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “o estudante” e “a estudante”, o que muda?",
+            "alternativas": [
+              "A palavra inteira",
+              "O final da palavra",
+              "Nada",
+              "Só o artigo"
+            ],
+            "correta": 3,
+            "explicacao": "Estudante é comum de dois gêneros: só o artigo muda.",
+            "dica": "Compare as duas expressões letra por letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o feminino de professor?",
+            "alternativas": [
+              "professora",
+              "professoa",
+              "professorina",
+              "professriz"
+            ],
+            "correta": 0,
+            "explicacao": "Professor → professora: acrescenta a.",
+            "dica": "Acrescente uma letra no fim."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o feminino de boi?",
+            "alternativas": [
+              "boia",
+              "vaca",
+              "boiada",
+              "boina"
+            ],
+            "correta": 1,
+            "explicacao": "Boi → vaca: heterônimo.",
+            "dica": "É um animal da fazenda com nome bem diferente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o feminino de ator?",
+            "alternativas": [
+              "atora",
+              "atoa",
+              "atriz",
+              "atriza"
+            ],
+            "correta": 2,
+            "explicacao": "Ator → atriz.",
+            "dica": "É uma terminação especial, que termina com a letra z."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual substantivo é comum de dois gêneros?",
+            "alternativas": [
+              "menino",
+              "galo",
+              "pai",
+              "artista"
+            ],
+            "correta": 3,
+            "explicacao": "O artista e a artista: muda só o artigo.",
+            "dica": "Qual palavra serve para homem e mulher, mudando só o artigo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o feminino de leão?",
+            "alternativas": [
+              "leoa",
+              "leona",
+              "leãa",
+              "leoazinha"
+            ],
+            "correta": 0,
+            "explicacao": "Leão → leoa.",
+            "dica": "Lembre o exemplo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o feminino de genro?",
+            "alternativas": [
+              "genra",
+              "nora",
+              "sogra",
+              "genrinha"
+            ],
+            "correta": 1,
+            "explicacao": "Genro → nora: heterônimo.",
+            "dica": "É uma palavra bem diferente, usada para a esposa do filho."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "“A criança” pode se referir a um menino?",
+            "alternativas": [
+              "Não, só a meninas",
+              "Só se mudar para “o criança”",
+              "Sim, é sobrecomum: um artigo para os dois",
+              "Não existe essa palavra"
+            ],
+            "correta": 2,
+            "explicacao": "Criança é sobrecomum: “O Pedro é uma criança” está certo.",
+            "dica": "Lembre os sobrecomuns do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como indicar que uma onça é do sexo masculino?",
+            "alternativas": [
+              "o onço",
+              "o onça",
+              "a onço",
+              "a onça macho"
+            ],
+            "correta": 3,
+            "explicacao": "Onça é epiceno: usamos macho ou fêmea depois do nome.",
+            "dica": "Nomes de animais com forma única ganham uma palavra depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “A capital do Brasil é Brasília”, capital quer dizer:",
+            "alternativas": [
+              "cidade",
+              "dinheiro",
+              "líder",
+              "aparelho"
+            ],
+            "correta": 0,
+            "explicacao": "A capital é a cidade; o capital é dinheiro.",
+            "dica": "O artigo a dá a pista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o feminino de cidadão?",
+            "alternativas": [
+              "cidadona",
+              "cidadã",
+              "cidadoa",
+              "cidadãa"
+            ],
+            "correta": 1,
+            "explicacao": "Cidadão → cidadã.",
+            "dica": "Parecido com irmão → irmã."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual alternativa TODOS são heterônimos (palavras diferentes)?",
+            "alternativas": [
+              "menino/menina, gato/gata",
+              "aluno/aluna, leão/leoa",
+              "homem/mulher, cavalo/égua",
+              "o artista/a artista, o jovem/a jovem"
+            ],
+            "correta": 2,
+            "explicacao": "Homem/mulher e cavalo/égua são palavras completamente diferentes.",
+            "dica": "Procure pares em que o feminino não se parece em nada com o masculino."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “O cabeça do grupo chegou atrasado”, cabeça quer dizer:",
+            "alternativas": [
+              "parte do corpo",
+              "uma cidade",
+              "um aparelho",
+              "o líder"
+            ],
+            "correta": 3,
+            "explicacao": "O cabeça (masculino) é o líder; a cabeça é parte do corpo.",
+            "dica": "Repare no artigo antes da palavra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está CORRETA?",
+            "alternativas": [
+              "O Lucas é uma ótima pessoa.",
+              "O Lucas é um ótimo pessoa.",
+              "O Lucas é um ótimo pessoo.",
+              "O Lucas é uma ótimo pessoa."
+            ],
+            "correta": 0,
+            "explicacao": "Pessoa é sobrecomum, sempre feminino: uma ótima pessoa, mesmo para homem.",
+            "dica": "Pessoa tem um gênero fixo, seja quem for."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Classifique, em ordem: a vítima / o jacaré / o dentista.",
+            "alternativas": [
+              "epiceno, sobrecomum, heterônimo",
+              "sobrecomum, epiceno, comum de dois gêneros",
+              "comum de dois gêneros, epiceno, sobrecomum",
+              "heterônimo, sobrecomum, epiceno"
+            ],
+            "correta": 1,
+            "explicacao": "Vítima: um artigo só para os dois (sobrecomum). Jacaré: animal com forma única (epiceno). Dentista: muda o artigo (comum de dois gêneros).",
+            "dica": "Pense: muda o artigo? é animal? tem artigo fixo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o feminino de imperador e de herói?",
+            "alternativas": [
+              "imperadora e heroa",
+              "imperatora e heroína",
+              "imperatriz e heroína",
+              "imperatriz e heroa"
+            ],
+            "correta": 2,
+            "explicacao": "Imperador → imperatriz; herói → heroína.",
+            "dica": "Lembre a lista de femininos especiais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Ligue o rádio” e “A rádio da cidade tocou samba”, as palavras significam:",
+            "alternativas": [
+              "as duas, o aparelho",
+              "as duas, a emissora",
+              "a emissora e o aparelho",
+              "o aparelho e a emissora"
+            ],
+            "correta": 3,
+            "explicacao": "O rádio é o aparelho; a rádio é a emissora.",
+            "dica": "O artigo muda o sentido; veja a ordem das frases."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Os dois ônibus da praça",
+    "texto": "Todo dia, às sete da manhã, a Lívia esperava o ônibus da linha 12 no ponto da praça. Bem nessa hora, passavam juntos o 12 e o 18, um atrás do outro.\n\n— Por que eles chegam juntos? — perguntou ao seu Joaquim, o pipoqueiro.\n\n— Às vezes chegam, às vezes não — respondeu ele, mexendo a panela.\n\nA Lívia anotou no caderno: o 12 passava a cada 12 minutos e o 18, a cada 18. Fez duas listas. O 12 passaria às 7h12, 7h24, 7h36, 7h48. O 18, às 7h18 e às 7h36.\n\n— Achei! Às 7h36 eles se encontram de novo!\n\nNo dia seguinte, ela ficou na praça, de relógio na mão. Às 7h36, lá vinham os dois ônibus, colados.\n\nO seu Joaquim arregalou os olhos.\n\n— Menina, isso é mágica?\n\n— Não, seu Joaquim. É MMC!"
+  },
+  "escrita": {
+    "proposta": "Ande pelo seu bairro em pensamento. Em 6 a 10 linhas, descreva um problema que você vê (algo que falta ou de que os vizinhos reclamam) e uma ideia de negócio honesto para resolvê-lo. Diga também quem seriam os clientes e quem seria o adulto responsável."
+  }
+}
