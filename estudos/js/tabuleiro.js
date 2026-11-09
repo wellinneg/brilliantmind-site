@@ -1,6 +1,6 @@
 // 🗺️ Tabuleiro de conquista (estilo jogo de tabuleiro de estratégia, desenho próprio): a camada é um
 // continente dividido em 6 regiões; cada região fica com a cor do dono e o personagem dele em cima.
-import { CAMADAS, EU, RIVAL, calcularTerritorio, donoDe } from './jogo.js';
+import { CAMADAS, EU, RIVAL, calcularTerritorio, donoDe, empateDe } from './jogo.js';
 import { imagemDoHeroi } from './herois.js';
 
 const NS = 'http://www.w3.org/2000/svg';
@@ -60,9 +60,18 @@ export function desenharTabuleiro(jogo, k, aoTocar) {
     const pts = REGIOES[i];
     const est = calcularTerritorio(jogo, t);
     const dono = donoDe(est);
-    const cor = corDoDono(jogo, dono);
+    const empate = empateDe(est);
+    let cor = corDoDono(jogo, dono);
+    if (empate) {
+      // ⚖️ empate: listras com a cor de cada um que empatou
+      const id = `emp-${i}-${k}`;
+      const cores = empate.map(e => corDoDono(jogo, e));
+      svg.querySelector('defs').append(s('pattern', { id, width: 12 * cores.length, height: 12, patternUnits: 'userSpaceOnUse', patternTransform: 'rotate(45)' },
+        ...cores.map((c, n) => s('rect', { x: n * 12, y: 0, width: 12, height: 12, fill: c }))));
+      cor = `url(#${id})`;
+    }
     const d = pts.map((p, n) => `${n ? 'L' : 'M'}${p[0]} ${p[1]}`).join(' ') + ' Z';
-    const regiao = s('g', { class: `regiao ${liberada ? 'tocavel' : ''}`, 'data-territorio': t.id });
+    const regiao = s('g', { class: `regiao ${liberada ? 'tocavel' : ''} ${empate ? 'empatada' : ''}`, 'data-territorio': t.id });
     regiao.append(s('path', { d, fill: cor, stroke: '#0A191E', 'stroke-width': 3, 'stroke-linejoin': 'round' }),
       s('path', { d, fill: 'url(#tab-relevo)' }));
     if (liberada) regiao.addEventListener('click', () => aoTocar?.(t));
@@ -70,7 +79,10 @@ export function desenharTabuleiro(jogo, k, aoTocar) {
     // peça do dono + nome do lugar
     const [cx, cy] = centro(pts);
     const g = s('g', { 'pointer-events': 'none' });
-    if (dono === EU || (dono && dono !== RIVAL.id)) {
+    if (empate) {
+      g.append(s('circle', { cx, cy: cy - 12, r: 15, fill: '#0A191E', stroke: '#FFD54F', 'stroke-width': 2 }),
+        s('text', { x: cx, y: cy - 5, 'text-anchor': 'middle', 'font-size': 19 }, '⚖️'));
+    } else if (dono === EU || (dono && dono !== RIVAL.id)) {
       const heroi = dono === EU ? jogo.heroi : jogo.outros?.[dono]?.heroi;
       g.append(s('ellipse', { cx, cy: cy + 6, rx: 17, ry: 5, fill: '#000', opacity: 0.45 }),
         s('image', { href: imagemDoHeroi(heroi), x: cx - 22, y: cy - 38, width: 44, height: 44, preserveAspectRatio: 'xMidYMax meet' }));

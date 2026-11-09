@@ -8,6 +8,7 @@ import { FIREBASE } from './familia-config.js';
 import { lerJogo, gravarJogo } from './jogo.js';
 import { patrimonioDe } from './patrimonio.js';
 import { resumoDeEstudo } from './resumo-estudo.js';
+import { desempatesPublicos, aplicarVitorias } from './desempate.js';
 
 const CHAVE = 'familia';
 const ALFABETO = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // sem 0/O e 1/I, para não confundir
@@ -33,7 +34,8 @@ export function registroPublico(jogo) {
   return {
     apelido: String(jogo.apelido || '').slice(0, 16), heroi: jogo.heroi, heroiEm: jogo.heroiEm || 0, usando: jogo.usando || {},
     camada: jogo.camada, doPote: jogo.meu.doPote, roubos: jogo.meu.roubos, temporada: jogo.temporadaXP || null,
-    patrimonio: patrimonioDe(jogo),       // 🏆 ranking de patrimônio (dinheiro + empresa + banco)
+    patrimonio: patrimonioDe(jogo),
+    desempates: desempatesPublicos(jogo),   // ⚔️ pontuação nos desempates de território em aberto       // 🏆 ranking de patrimônio (dinheiro + empresa + banco)
     // ⚔️ duelo em andamento (só entre irmãos; o treino contra o Magnata fica no celular)
     duelo: jogo.duelo && !jogo.duelo.contra
       ? { id: jogo.duelo.id, semente: jogo.duelo.semente, de: jogo.duelo.de, para: jogo.duelo.para, estado: jogo.duelo.estado, respostas: jogo.duelo.respostas, criado: jogo.duelo.criado }
@@ -110,6 +112,9 @@ export async function sincronizar({ http = (...a) => fetch(...a), cfg = FIREBASE
     const atual = await lerJogo();
     atual.uid = familia.uid; atual.outros = outros;
     await gravarJogo(atual);
+    // ⚔️ se eu venci um desempate que acabou de fechar, aplico a nota e aviso os irmãos
+    const { ganhos } = await aplicarVitorias().catch(() => ({ ganhos: [] }));
+    if (ganhos.length) setTimeout(() => sincronizar({ http, cfg, agora }).catch(() => {}), 500);
     familia.ultimaSincronizacao = new Date(agora()).toISOString();
     await gravarFamilia(familia);
     return { ok: true, jogadores: Object.keys(outros).length + 1 };

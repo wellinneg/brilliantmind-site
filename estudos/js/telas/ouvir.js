@@ -6,7 +6,7 @@ import { carregarEpisodio } from '../conteudo.js';
 import { carregarContexto } from './hoje.js';
 import { prepararQuiz } from '../quiz.js';
 import { rodarQuiz } from '../quiz-ui.js';
-import { criarNarrador, temVoz } from '../narrador.js';
+import { criarNarradorComAudio } from '../narrador.js';
 import { comemorarJogo } from '../comemorar.js';
 
 export async function render(raiz) {
@@ -24,13 +24,15 @@ export async function render(raiz) {
   const textos = ep.paragrafos.map(p => el('p', { class: 'ouvir-paragrafo' }, p));
   const texto = el('div', { class: 'ouvir-texto' }, textos);
   const area = el('div', {});
-  const botaoPerguntas = el('button', { class: 'botao grande', disabled: !reg.ouvir.feito && temVoz(), onclick: iniciarQuiz },
+  const botaoPerguntas = el('button', { class: 'botao grande', disabled: !reg.ouvir.feito, onclick: iniciarQuiz },
     reg.ouvir.feito ? 'Responder de novo (treino)' : '📝 Responder as 3 perguntas');
   const status = el('p', { class: 'dica' });
 
-  if (temVoz()) {
+  {
     const tocar = el('button', { class: 'botao grande botao-ouvir' }, '▶ Ouvir');
-    const narrador = criarNarrador(ep.paragrafos, {
+    // 🎙️ Thalita e Antônio se revezam por parágrafo (áudio gravado); sem o arquivo, usa a voz do celular
+    const urls = ep.paragrafos.map((_, k) => `midia/ouvir/ep-${String(ep.ep).padStart(2, '0')}-p${k + 1}.mp3`);
+    const narrador = criarNarradorComAudio(ep.paragrafos, urls, {
       aoMudar: (i, pausado) => {
         textos.forEach((t, k) => t.classList.toggle('lendo', k === i && !pausado));
         if (i >= 0 && !pausado) textos[i].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -47,11 +49,8 @@ export async function render(raiz) {
     const semSom = el('button', { class: 'link', onclick: () => { narrador.parar(); botaoPerguntas.disabled = false; texto.classList.remove('escondido'); semSom.remove(); status.textContent = 'Leia o texto com atenção e responda.'; } }, 'Sem som? Ler e responder');
     raiz.append(el('div', { class: 'controles-ouvir' }, tocar, vel), mostrar,
       el('p', { class: 'dica' }, 'Toque num parágrafo para ouvir a partir dele. As perguntas liberam no fim do áudio.'), semSom);
-    setTimeout(() => { if (!speechSynthesis.getVoices().length) semSom.click(); }, 2500);
     // para a voz quando sair da tela
     addEventListener('hashchange', () => narrador.parar(), { once: true });
-  } else {
-    raiz.append(el('p', { class: 'caixa-dica' }, 'Este celular não tem voz para leitura. Leia o texto com atenção e depois responda.'));
   }
   raiz.append(texto, status, botaoPerguntas, area);
 

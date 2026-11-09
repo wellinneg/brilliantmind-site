@@ -4,7 +4,7 @@ import * as estado from '../estado.js';
 import { MATERIAS } from '../rodizio.js';
 import {
   CAMADAS, HEROIS, LOJA, RIVAL, EU, lerJogo, gravarJogo, donoDe, moedasNaCamada, metaDaCamada,
-  totalDaCamada, comprar, alternarItem, calcularTerritorio, nomeDoDono, resumoDoExtrato,
+  totalDaCamada, comprar, alternarItem, calcularTerritorio, nomeDoDono, resumoDoExtrato, empateDe,
 } from '../jogo.js';
 import { lerFamilia, sincronizar, sincronizarDepois, heroisDosIrmaos, conflitoDeHeroi } from '../familia.js';
 
@@ -133,22 +133,26 @@ function legendaTabuleiro(jogo) {
 function mapaDeTerritorios(jogo) {
   const CORES_IRMAOS = ['#4F8BFF', '#26C6DA', '#AB47BC', '#FF7043'];
   const irmaos = Object.keys(jogo.outros || {});
-  const corDe = dono => (dono === EU ? 'var(--lime)' : dono === RIVAL.id ? '#E53935' : dono ? CORES_IRMAOS[irmaos.indexOf(dono) % CORES_IRMAOS.length] : '#607D8B');
-  const nomeCurto = dono => (dono === EU ? 'Você' : dono === RIVAL.id ? RIVAL.nome : dono ? (jogo.outros[dono]?.apelido || 'Irmão') : 'Livre');
+  const corDe = dono => (dono === EU ? 'var(--lime)' : dono === RIVAL.id ? '#E53935' : dono === 'empate' ? '#FFD54F' : dono ? CORES_IRMAOS[irmaos.indexOf(dono) % CORES_IRMAOS.length] : '#607D8B');
+  const nomeCurto = dono => (dono === EU ? 'Você' : dono === RIVAL.id ? RIVAL.nome : dono === 'empate' ? '⚖️ Empate' : dono ? (jogo.outros[dono]?.apelido || 'Irmão') : 'Livre');
   const contagem = {};
   const linhas = CAMADAS.map((c, k) => el('div', { class: 'linha-territorios' },
     el('span', { class: 'rotulo-camada', title: c.nome }, k > jogo.camada ? '🔒' : c.icone),
     ...c.territorios.map(t => {
-      const dono = donoDe(calcularTerritorio(jogo, t));
+      const est = calcularTerritorio(jogo, t);
+      const empate = empateDe(est);
+      const dono = empate ? 'empate' : donoDe(est);
       contagem[dono ?? 'livre'] = (contagem[dono ?? 'livre'] || 0) + 1;
+      const fatias = empate ? empate.map(e => corDe(e)) : null;
       return el('button', {
-        class: `celula-territorio ${dono === EU ? 'minha' : ''}`, type: 'button',
-        style: `--cor-dono:${corDe(dono)}`, title: `${t.nome}: ${nomeCurto(dono)}`,
+        class: `celula-territorio ${dono === EU ? 'minha' : ''} ${empate ? 'empatada' : ''}`, type: 'button',
+        style: empate ? `--cor-dono:#FFD54F;background:repeating-linear-gradient(45deg,${fatias.map((c, n) => `${c} ${n * 8}px ${(n + 1) * 8}px`).join(',')})` : `--cor-dono:${corDe(dono)}`,
+        title: `${t.nome}: ${empate ? `empate entre ${empate.map(nomeCurto).join(' e ')}` : nomeCurto(dono)}`,
         disabled: k > jogo.camada,
         onclick: () => navegar(`#/lugar/${t.id}`),
-      }, el('span', {}, t.icone), el('small', {}, dono === RIVAL.id ? RIVAL.icone : nomeCurto(dono)));
+      }, el('span', {}, t.icone), el('small', {}, empate ? '⚖️ Empate' : dono === RIVAL.id ? RIVAL.icone : nomeCurto(dono)));
     })));
-  const ordem = [EU, ...irmaos, RIVAL.id, 'livre'].filter(d => contagem[d]);
+  const ordem = [EU, ...irmaos, RIVAL.id, 'empate', 'livre'].filter(d => contagem[d]);
   return el('section', { class: 'cartao mapa-territorios' },
     el('h2', {}, '🏴 Mapa de territórios'),
     el('div', { class: 'placar-territorios' }, ordem.map(d => el('span', { style: `--cor-dono:${corDe(d === 'livre' ? null : d)}` },

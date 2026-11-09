@@ -3,12 +3,14 @@
 import { el, navegar } from '../ui.js';
 import { MATERIAS } from '../rodizio.js';
 import {
-  CAMADAS, RIVAL, EU, lerJogo, donoDe, calcularTerritorio, nomeDoDono, territorioDaMateria,
+  CAMADAS, RIVAL, EU, lerJogo, donoDe, calcularTerritorio, nomeDoDono, territorioDaMateria, empateDe, proporcaoDe,
 } from '../jogo.js';
 import { desenharHeroi } from '../herois.js';
 import { desenharCena } from '../cenas.js';
 import { carregarContexto } from './hoje.js';
 import { entrarComLuz } from '../efeitos.js';
+import { situacaoDesempate } from '../desempate.js';
+import { corDoDono } from '../tabuleiro.js';
 import { MINIJOGOS, situacao, recordeDe, formatarTempo, PREMIOS_POR_DIA } from '../minijogos/motor.js';
 
 export async function render(raiz, [id]) {
@@ -32,7 +34,10 @@ export async function render(raiz, [id]) {
 
   const usado = camada.pote - est.pote;
   raiz.append(el('section', { class: 'cartao' },
-    el('p', { class: 'dono-lugar' }, dono === EU ? '🚩 Este lugar é seu!' : (dono ? `Quem manda aqui: ${nome(dono)}` : 'Ninguém manda aqui ainda.')),
+    el('p', { class: 'dono-lugar' }, dono === EU ? '🚩 Este lugar é seu!' : (dono ? `Quem manda aqui: ${nome(dono)}` : (empateDe(est) ? '⚖️ Empate! O lugar está dividido.' : 'Ninguém manda aqui ainda.'))),
+    // fatia de cada um (proporção das notas no lugar)
+    el('div', { class: 'barra-proporcao' }, proporcaoDe(est).map(f => el('div', { style: `flex:${f.n};background:${corDoDono(jogo, f.id)}`, title: `${nome(f.id)}: ${String(f.pct).replace('.', ',')}%` }))),
+    el('p', { class: 'legenda-proporcao' }, proporcaoDe(est).map(f => `${nome(f.id)} ${String(f.pct).replace('.', ',')}%`).join(' · ')),
     el('p', {}, `Matérias que valem aqui: ${t.materias.map(m => `${MATERIAS[m]?.icone} ${MATERIAS[m]?.nome}`).join(', ')}`),
     el('div', { class: 'barra' }, el('div', { class: 'barra-cheia', style: `width:${Math.round((usado / camada.pote) * 100)}%` }), el('span', {}, `pote: restam ${est.pote} de ${camada.pote} 💵`)),
     el('table', { class: 'tabela' },
@@ -41,6 +46,17 @@ export async function render(raiz, [id]) {
         .map(([qual, n]) => el('tr', { class: qual === EU ? 'linha-eu' : '' }, el('td', {}, nome(qual)), el('td', {}, n)))),
     est.pote === 0 && dono !== EU ? el('p', { class: 'caixa-dica' }, '👑 Pote vazio: só uma lição Supremo dessas matérias rouba notas de quem manda aqui!') : null));
 
+  const desemp = situacaoDesempate(jogo, t);
+  if (desemp.empate && desemp.euNoEmpate) {
+    const outros = desemp.participantes.filter(p => !p.eu).map(p => (p.magnata ? `${RIVAL.icone} ${RIVAL.nome}` : `⭐ ${p.nome}`)).join(' e ');
+    raiz.append(el('section', { class: 'cartao cartao-desempate' },
+      el('h2', {}, '⚔️ Quer fazer uma disputa em minijogo?'),
+      el('p', {}, `Você e ${outros} empataram com ${desemp.notas} notas aqui. Quem vencer a Tabuada relâmpago fica com o lugar.`),
+      desemp.eu.jogou
+        ? el('p', { class: 'dica' }, desemp.todosJogaram ? 'A disputa já terminou. Veja o resultado.' : `Você já jogou (${desemp.eu.pontos} contas). Esperando ${outros} jogar.`)
+        : null,
+      el('button', { class: 'botao grande', onclick: () => navegar(`#/desempate/${t.id}`) }, desemp.eu.jogou ? 'Ver a disputa' : '⚔️ Desempatar no minijogo')));
+  }
   raiz.append(await caminhoParaConquistar(jogo, t, k));
   raiz.append(await secaoMinijogos(jogo, t));
 }

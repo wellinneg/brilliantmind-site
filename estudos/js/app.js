@@ -26,6 +26,7 @@ const ROTAS = {
   pais: () => import('./telas/pais.js'),
   biblioteca: () => import('./telas/biblioteca.js'),
   familia: () => import('./telas/entrar-familia.js'),
+  desempate: () => import('./telas/desempate.js'),
 };
 
 // botão do rodapé com a foto do animal atual (toque para trocar)

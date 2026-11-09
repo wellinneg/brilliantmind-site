@@ -5,7 +5,7 @@ import * as db from './db.js';
 import { hojeISO } from './datas.js';
 
 export const INICIO_OFICIAL = '2026-11-09';
-const MANTER = ['perfil', 'pinHash', 'familia'];
+const MANTER = ['perfil', 'pinHash', 'familia', 'semFamilia'];
 const MARCA = 'inicioOficial';
 
 /** Zera o progresso da demonstração se hoje já é o dia oficial e ainda não zerou. Devolve true se zerou. */

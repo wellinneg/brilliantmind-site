@@ -9,7 +9,7 @@ const sorteio = n => Math.floor(Math.random() * n);
 const misturar = a => a.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(x => x[1]);
 
 // ---------- motor comum: perguntas em sequência contra o relógio ----------
-function corrida(area, { titulo, tempo, proxima, aoFim, cabecalho }) {
+export function corrida(area, { titulo, tempo, proxima, aoFim, cabecalho }) {
   let acertos = 0, erros = 0, acabou = false;
   const visor = el('span', { class: 'cronometro' });
   const placar = el('span', {}, '✅ 0');
@@ -36,19 +36,21 @@ function corrida(area, { titulo, tempo, proxima, aoFim, cabecalho }) {
 }
 
 // ---------- ✖️ Tabuada relâmpago ----------
+/** Uma conta da tabuada com 4 alternativas (forte = 8º/9º: números maiores e divisão). */
+export function contaDeTabuada(forte) {
+  const a = sorteio(forte ? 11 : 8) + 2, b = sorteio(forte ? 11 : 8) + 2;
+  const divide = forte && Math.random() < 0.4;
+  const certa = divide ? b : a * b;
+  const texto = divide ? `${a * b} ÷ ${a} = ?` : `${a} × ${b} = ?`;
+  const opcoes = new Set([certa]);
+  for (const d of misturar([1, 2, a, b, 10, -1, -2, -a])) { if (opcoes.size === 4) break; if (certa + d > 0) opcoes.add(certa + d); }
+  return { texto, opcoes: misturar([...opcoes]).map(v => ({ texto: String(v), certo: v === certa })) };
+}
 export function tabuada(area, { t, ano }) {
   const forte = ['8ano', '9ano'].includes(ano);
   corrida(area, {
     tempo: 60,
-    proxima: () => {
-      const a = sorteio(forte ? 11 : 8) + 2, b = sorteio(forte ? 11 : 8) + 2;
-      const divide = forte && Math.random() < 0.4;
-      const certa = divide ? b : a * b;
-      const texto = divide ? `${a * b} ÷ ${a} = ?` : `${a} × ${b} = ?`;
-      const opcoes = new Set([certa]);
-      for (const d of misturar([1, 2, a, b, 10, -1, -2, -a])) { if (opcoes.size === 4) break; if (certa + d > 0) opcoes.add(certa + d); }
-      return { texto, opcoes: misturar([...opcoes]).map(v => ({ texto: String(v), certo: v === certa })) };
-    },
+    proxima: () => contaDeTabuada(forte),
     aoFim: async ({ acertos, erros }) => {
       const moedas = Math.min(15, acertos);
       const fim = await encerrarPartida({ tipo: 'tabuada', t, moedas, recorde: { valor: acertos, menorMelhor: false } });

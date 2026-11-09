@@ -109,11 +109,25 @@ export function calcularMapa(jogo) {
   return mapa;
 }
 
-/** Quem manda no território: quem tem mais moedas ali (empate fica com quem já era dono). */
-export function donoDe(t, donoAnterior = null) {
+/** ⚖️ Empate: 2 ou mais com o mesmo tanto, na frente (maior que zero). Devolve os ids ou null. */
+export function empateDe(t) {
+  const max = Math.max(0, ...Object.values(t.donos));
+  if (!max) return null;
+  const ids = Object.entries(t.donos).filter(([, n]) => n === max).map(([id]) => id);
+  return ids.length > 1 ? ids : null;
+}
+/** Fatia de cada um no território (só quem tem notas ali), maior primeiro. */
+export function proporcaoDe(t) {
+  const lista = Object.entries(t.donos).filter(([, n]) => n > 0);
+  const total = lista.reduce((s, [, n]) => s + n, 0) || 1;
+  // uma casa decimal: empate mostra o MESMO número para os dois (ex.: 37,5% e 37,5%)
+  return lista.map(([id, n]) => ({ id, n, pct: Math.round((n / total) * 1000) / 10 })).sort((a, b) => b.n - a.n);
+}
+/** Quem manda no território: quem tem mais notas ali. Empate: ninguém manda (fica dividido). */
+export function donoDe(t) {
+  if (empateDe(t)) return null;
   let dono = null, max = 0;
   for (const [id, n] of Object.entries(t.donos)) if (n > max) { dono = id; max = n; }
-  if (donoAnterior && (t.donos[donoAnterior] || 0) === max && max > 0) return donoAnterior;
   return dono;
 }
 
@@ -162,7 +176,7 @@ export function ganharMoedas(jogo, { materia, moedas, dificuldade, quando = new 
       res.roubou = roubo; res.de = alvo[0]; res.deNome = nomeDoDono(jogo, alvo[0]);
     }
   }
-  res.conquistou = donoAntes !== EU && donoDe(calcularTerritorio(jogo, t), donoAntes) === EU;
+  res.conquistou = donoAntes !== EU && donoDe(calcularTerritorio(jogo, t)) === EU;
   // Chegou aos 60%: a próxima camada não libera sozinha; o Magnata desafia para uma batalha.
   if (podeSubir(jogo) && jogo.chefao?.camada !== jogo.camada) {
     jogo.chefao = { camada: jogo.camada, desde: quando, tentativas: 0, ultimaTentativa: null };
