@@ -1,0 +1,1205 @@
+{
+  "dia": 41,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Porcentagens sucessivas: aumento sobre aumento",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Porcentagens sucessivas acontecem quando um preço muda mais de uma vez: um aumento e depois outro, ou um aumento seguido de desconto. O segredo é que a segunda porcentagem é calculada sobre o valor novo, e não sobre o valor do começo.",
+          "Para facilitar, use o fator multiplicativo. Aumentar 10% é multiplicar por 1,10 (os 100% que já existiam mais 10%). Dar 10% de desconto é multiplicar por 0,90 (sobram 90%). Aumentar 25% é multiplicar por 1,25; descontar 30% é multiplicar por 0,70.",
+          "Em mudanças seguidas, multiplique os fatores. Dois aumentos de 10%: 1,10 · 1,10 = 1,21. O preço ficou 21% maior, e não 20%. Isso acontece porque o segundo aumento também incide sobre os 10% que já tinham sido somados.",
+          "Aumento e desconto do mesmo tamanho não se anulam. Subir 20% e depois descer 20% dá 1,20 · 0,80 = 0,96: o preço termina 4% menor do que começou.",
+          "A ordem não importa: subir 10% e depois 20% dá o mesmo que subir 20% e depois 10%, porque 1,10 · 1,20 = 1,20 · 1,10 = 1,32."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O quilo do feijão custava R$ 8,00. Subiu 10% num mês e mais 10% no mês seguinte. Qual é o preço final e o aumento total?",
+            "resolucao": "8,00 · 1,10 = 8,80. Depois 8,80 · 1,10 = 9,68. O preço final é R$ 9,68. Fator total: 1,21, ou seja, aumento de 21%."
+          },
+          {
+            "enunciado": "Uma loja dá 30% de desconto e, no caixa, mais 20% sobre o preço já com desconto. Qual é o desconto total?",
+            "resolucao": "0,70 · 0,80 = 0,56. O cliente paga 56% do preço original, então o desconto total é de 44%, e não de 50%."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para voltar ao preço original depois de um aumento, o desconto precisa ser menor do que o aumento. Depois de subir 25% (fator 1,25), o desconto que volta ao começo é 1 ÷ 1,25 = 0,80, ou seja, 20%. Depois de descer 20% (fator 0,80), o aumento que volta é 1 ÷ 0,80 = 1,25, ou seja, 25%.",
+        "Para descobrir o preço antes de um aumento, divida pelo fator. Se um produto subiu 10% e agora custa R$ 66,00, o preço antigo era 66 ÷ 1,10 = R$ 60,00. Erro comum: tirar 10% de 66 (dá 59,40, que está errado).",
+        "Três aumentos de 10% seguidos dão 1,10 · 1,10 · 1,10 = 1,331, ou 33,1%. É a mesma ideia dos juros compostos: a porcentagem sempre cai sobre o valor que já cresceu."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Aumentar um preço em 10% é o mesmo que multiplicar por:",
+            "alternativas": [
+              "0,90",
+              "10",
+              "1,10",
+              "0,10"
+            ],
+            "correta": 2,
+            "explicacao": "Os 100% de antes mais 10% dão 110%, que é 1,10.",
+            "dica": "Some os 100% que já existiam com o aumento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dar 30% de desconto é o mesmo que multiplicar por:",
+            "alternativas": [
+              "0,70",
+              "1,30",
+              "3,0",
+              "0,30"
+            ],
+            "correta": 0,
+            "explicacao": "Se tira 30%, sobram 70%, que é 0,70.",
+            "dica": "Pense em quanto sobra do preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caderno de R$ 10,00 sobe 10%. Qual é o novo preço?",
+            "alternativas": [
+              "R$ 10,10",
+              "R$ 20,00",
+              "R$ 9,00",
+              "R$ 11,00"
+            ],
+            "correta": 3,
+            "explicacao": "10% de 10 é 1; 10 + 1 = 11.",
+            "dica": "Calcule 10% de 10 e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na segunda porcentagem de uma mudança seguida, a conta é feita sobre:",
+            "alternativas": [
+              "o valor de 100 reais",
+              "o valor do começo",
+              "a soma das porcentagens",
+              "o valor novo"
+            ],
+            "correta": 3,
+            "explicacao": "A segunda mudança cai sobre o preço que já mudou.",
+            "dica": "Lembre o exemplo do feijão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois aumentos seguidos de 10% dão, no total:",
+            "alternativas": [
+              "100%",
+              "21%",
+              "11%",
+              "20%"
+            ],
+            "correta": 1,
+            "explicacao": "1,10 · 1,10 = 1,21, que é 21%.",
+            "dica": "Multiplique os fatores 1,10 e 1,10."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O feijão custava R$ 8,00 e subiu 10% duas vezes seguidas. Qual é o preço final?",
+            "alternativas": [
+              "R$ 9,80",
+              "R$ 9,60",
+              "R$ 9,68",
+              "R$ 8,20"
+            ],
+            "correta": 2,
+            "explicacao": "8,00 · 1,10 = 8,80; 8,80 · 1,10 = 9,68.",
+            "dica": "Faça um aumento de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um preço sobe 20% e depois desce 20%. Em relação ao começo, ele:",
+            "alternativas": [
+              "ficou 4% maior",
+              "voltou ao mesmo valor",
+              "ficou 40% menor",
+              "ficou 4% menor"
+            ],
+            "correta": 3,
+            "explicacao": "1,20 · 0,80 = 0,96: perdeu 4%.",
+            "dica": "Multiplique 1,20 por 0,80."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Desconto de 30% seguido de mais 20% dá um desconto total de:",
+            "alternativas": [
+              "56%",
+              "50%",
+              "10%",
+              "44%"
+            ],
+            "correta": 3,
+            "explicacao": "0,70 · 0,80 = 0,56; paga 56%, desconto de 44%.",
+            "dica": "Calcule quanto sobra e depois quanto saiu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma calça de R$ 50,00 tem dois descontos seguidos de 10%. Quanto ela passa a custar?",
+            "alternativas": [
+              "R$ 40,50",
+              "R$ 40,00",
+              "R$ 41,00",
+              "R$ 45,00"
+            ],
+            "correta": 0,
+            "explicacao": "50 · 0,90 = 45; 45 · 0,90 = 40,50.",
+            "dica": "O segundo desconto cai sobre R$ 45,00."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Subir 10% e depois 20% dá o mesmo que subir 20% e depois 10%?",
+            "alternativas": [
+              "Sim, os dois dão 30%",
+              "Sim, os dois dão 32%",
+              "Não, o segundo dá mais",
+              "Não, o primeiro dá mais"
+            ],
+            "correta": 1,
+            "explicacao": "1,10 · 1,20 = 1,20 · 1,10 = 1,32.",
+            "dica": "A ordem da multiplicação muda o resultado?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um salário de R$ 2.000,00 tem aumento de 5% e, depois, de 4%. Qual é o novo salário?",
+            "alternativas": [
+              "R$ 2.200,00",
+              "R$ 2.184,00",
+              "R$ 2.180,00",
+              "R$ 2.090,00"
+            ],
+            "correta": 1,
+            "explicacao": "2.000 · 1,05 = 2.100; 2.100 · 1,04 = 2.184.",
+            "dica": "Não some 5% com 4%; aplique um fator de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três aumentos seguidos de 10% dão, no total:",
+            "alternativas": [
+              "33,1%",
+              "31%",
+              "30%",
+              "21%"
+            ],
+            "correta": 0,
+            "explicacao": "1,10³ = 1,331, aumento de 33,1%.",
+            "dica": "Multiplique 1,10 por ele mesmo três vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto subiu 10% e agora custa R$ 66,00. Quanto custava antes?",
+            "alternativas": [
+              "R$ 59,40",
+              "R$ 65,34",
+              "R$ 56,00",
+              "R$ 60,00"
+            ],
+            "correta": 3,
+            "explicacao": "66 ÷ 1,10 = 60. Conferindo: 60 · 1,10 = 66.",
+            "dica": "Divida pelo fator do aumento e confira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um preço de R$ 80,00 cai 25% e depois sobe 20%. Qual é o preço final?",
+            "alternativas": [
+              "R$ 76,00",
+              "R$ 80,00",
+              "R$ 72,00",
+              "R$ 84,00"
+            ],
+            "correta": 2,
+            "explicacao": "80 · 0,75 = 60; 60 · 1,20 = 72.",
+            "dica": "Primeiro o desconto, depois o aumento sobre o novo valor."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular dois aumentos seguidos:",
+            "itens": [
+              "Transformar cada porcentagem em fator",
+              "Multiplicar o preço pelo primeiro fator",
+              "Multiplicar o resultado pelo segundo fator",
+              "Comparar o preço final com o inicial"
+            ],
+            "explicacao": "Fator, primeira mudança, segunda mudança sobre o valor novo e comparação.",
+            "dica": "Comece trocando porcentagem por número decimal."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de um aumento de 25%, que desconto faz o preço voltar exatamente ao original?",
+            "alternativas": [
+              "20%",
+              "25%",
+              "30%",
+              "75%"
+            ],
+            "correta": 0,
+            "explicacao": "1 ÷ 1,25 = 0,80, que é desconto de 20%. Exemplo: 100 vira 125; 125 · 0,80 = 100.",
+            "dica": "Teste com um preço de 100 reais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja aumenta todos os preços em 40% e, na semana seguinte, anuncia \"metade do preço\". Em relação ao preço antigo, o cliente paga:",
+            "alternativas": [
+              "o mesmo preço",
+              "50% a menos",
+              "10% a menos",
+              "30% a menos"
+            ],
+            "correta": 3,
+            "explicacao": "1,40 · 0,50 = 0,70: paga 70%, ou 30% a menos.",
+            "dica": "Multiplique o fator do aumento pelo da promoção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um preço subiu 50% e depois caiu 50%. O que aconteceu?",
+            "alternativas": [
+              "Ficou 25% maior que o original",
+              "Ficou 25% menor que o original",
+              "Voltou ao original",
+              "Zerou"
+            ],
+            "correta": 1,
+            "explicacao": "1,50 · 0,50 = 0,75: perdeu 25%.",
+            "dica": "Comece com 100 e faça as duas contas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 1.000,00 cresce 10% ao mês, sem pagamento. Quanto ela vale depois de 3 meses?",
+            "alternativas": [
+              "R$ 1.331,00",
+              "R$ 1.300,00",
+              "R$ 1.210,00",
+              "R$ 1.030,00"
+            ],
+            "correta": 0,
+            "explicacao": "1.000 · 1,1 · 1,1 · 1,1 = 1.331.",
+            "dica": "Cada mês os juros caem sobre o valor do mês anterior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma TV de R$ 1.500,00 teve desconto de 25% e mais 20% no caixa. Uma colega diz que daria no mesmo um desconto único de 45%. Qual é a verdade?",
+            "alternativas": [
+              "Os dois dão R$ 825,00",
+              "Os dois dão R$ 900,00",
+              "Os descontos seguidos dão R$ 900,00, e o de 45% daria R$ 825,00",
+              "Os descontos seguidos dão R$ 825,00, e o de 45% daria R$ 900,00"
+            ],
+            "correta": 2,
+            "explicacao": "1.500 · 0,75 · 0,80 = 900 (desconto real de 40%). 1.500 · 0,55 = 825.",
+            "dica": "Calcule o fator total: 0,75 vezes 0,80."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Nome negativado: como a dívida cresce e como sair",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Ter o nome negativado significa que uma empresa registrou uma dívida atrasada da pessoa num cadastro de inadimplentes, consultado por lojas e bancos antes de vender a prazo ou emprestar dinheiro.",
+          "Com o nome negativado fica difícil conseguir cartão, empréstimo, crediário e, às vezes, alugar um imóvel. E a dívida não fica parada: em cima dela correm juros e multa, mês após mês.",
+          "Os juros mais perigosos são os do cartão de crédito no rotativo (pagar só uma parte da fatura) e os do cheque especial. Como os juros são compostos, a dívida cresce sobre ela mesma, igual às porcentagens sucessivas da aula de Matemática.",
+          "O Código de Defesa do Consumidor (CDC) protege quem deve: a pessoa tem de ser avisada por escrito antes de ter o nome registrado, e o registro não pode ficar mais de 5 anos. Depois que a dívida é paga, a empresa precisa pedir a retirada do nome.",
+          "Para sair: liste todas as dívidas com valor e juros, pare de fazer dívida nova, negocie primeiro as de juros mais altos, aceite só parcelas que cabem no orçamento e guarde o comprovante do acordo."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma família deixou R$ 1.000,00 no rotativo do cartão, com juros de 12% ao mês. Quanto a dívida vira em 2 meses sem pagar?",
+            "resolucao": "1.000 · 1,12 = 1.120. Depois 1.120 · 1,12 = 1.254,40. Em dois meses, a dívida aumentou R$ 254,40 sem a família comprar nada."
+          },
+          {
+            "enunciado": "Seu Valdir deve R$ 2.400,00. A empresa oferece pagar R$ 1.200,00 à vista ou 12 parcelas de R$ 150,00. Qual sai mais barato?",
+            "resolucao": "À vista: R$ 1.200,00. Parcelado: 12 · 150 = R$ 1.800,00. À vista é R$ 600,00 mais barato, mas só vale se ele tiver o dinheiro sem deixar de pagar comida e contas da casa."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Pelo entendimento do Superior Tribunal de Justiça, depois que a dívida é paga, a empresa tem até cinco dias úteis para pedir a retirada do nome do cadastro. Passados 5 anos, o registro também sai, mesmo sem pagamento, mas isso não quer dizer que a dívida foi perdoada.",
+        "Cuidado com golpes de \"limpa nome\": ninguém pode apagar uma dívida verdadeira do cadastro mediante pagamento a um intermediário. Negocie direto com a empresa credora, em canais oficiais, ou em mutirões de renegociação de órgãos como o Procon.",
+        "Prioridade na hora de pagar: primeiro o essencial (moradia, comida, luz e água), depois as dívidas com juros maiores. Às vezes vale trocar uma dívida cara por outra mais barata, como um empréstimo consignado com juros menores, desde que a parcela caiba e não se faça dívida nova."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ter o nome negativado quer dizer que:",
+            "alternativas": [
+              "uma dívida atrasada foi registrada num cadastro de inadimplentes",
+              "a pessoa perdeu o CPF",
+              "a conta do banco foi encerrada",
+              "a pessoa foi presa"
+            ],
+            "correta": 0,
+            "explicacao": "Lojas e bancos consultam esse cadastro antes de vender a prazo.",
+            "dica": "Pense em uma lista que as lojas consultam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com o nome negativado, fica mais difícil:",
+            "alternativas": [
+              "ir à escola",
+              "usar o SUS",
+              "conseguir cartão e crediário",
+              "tirar documento de identidade"
+            ],
+            "correta": 2,
+            "explicacao": "O registro atrapalha o crédito, não os serviços públicos.",
+            "dica": "Que tipo de compra depende de confiança?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com uma dívida atrasada que ninguém paga?",
+            "alternativas": [
+              "Diminui com o tempo",
+              "Cresce com juros e multa",
+              "Some no mês seguinte",
+              "Fica sempre igual"
+            ],
+            "correta": 1,
+            "explicacao": "Juros e multa são somados mês após mês.",
+            "dica": "Lembre dos juros compostos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes juros está entre os mais altos?",
+            "alternativas": [
+              "Poupança",
+              "Rotativo do cartão de crédito",
+              "Desconto à vista",
+              "Troco na feira"
+            ],
+            "correta": 1,
+            "explicacao": "O rotativo e o cheque especial têm juros muito altos.",
+            "dica": "É quando se paga só uma parte da fatura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo para sair das dívidas?",
+            "alternativas": [
+              "Ignorar as cobranças",
+              "Trocar de número de celular",
+              "Fazer um empréstimo novo",
+              "Listar todas as dívidas com valor e juros"
+            ],
+            "correta": 3,
+            "explicacao": "Sem saber quanto se deve, não dá para planejar.",
+            "dica": "Antes de agir, é preciso enxergar o tamanho do problema."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Segundo o CDC, antes de ter o nome registrado no cadastro, a pessoa deve:",
+            "alternativas": [
+              "ser chamada ao juiz",
+              "ser avisada por escrito",
+              "pagar uma taxa",
+              "assinar uma autorização"
+            ],
+            "correta": 1,
+            "explicacao": "O CDC exige comunicação por escrito antes do registro.",
+            "dica": "A lei quer que a pessoa saiba antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por quanto tempo, no máximo, o registro pode ficar no cadastro?",
+            "alternativas": [
+              "10 anos",
+              "1 ano",
+              "Para sempre",
+              "5 anos"
+            ],
+            "correta": 3,
+            "explicacao": "O CDC limita o registro a 5 anos.",
+            "dica": "É um número de anos menor que dez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000,00 no rotativo a 12% ao mês viram quanto em 2 meses?",
+            "alternativas": [
+              "R$ 1.120,00",
+              "R$ 1.144,00",
+              "R$ 1.254,40",
+              "R$ 1.240,00"
+            ],
+            "correta": 2,
+            "explicacao": "1.000 · 1,12 = 1.120; 1.120 · 1,12 = 1.254,40.",
+            "dica": "O segundo mês de juros cai sobre R$ 1.120,00."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao negociar uma dívida, qual parcela a pessoa deve aceitar?",
+            "alternativas": [
+              "A maior possível, para acabar logo",
+              "Uma que cabe no orçamento depois das contas essenciais",
+              "Uma que exige outro empréstimo",
+              "Qualquer uma, para limpar o nome rápido"
+            ],
+            "correta": 1,
+            "explicacao": "Acordo que não cabe vira nova dívida atrasada.",
+            "dica": "Pense no que sobra no fim do mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual dívida deve ser negociada primeiro, entre estas?",
+            "alternativas": [
+              "Cartão no rotativo a 12% ao mês",
+              "Empréstimo da tia sem juros",
+              "Carnê sem juros",
+              "Conta de R$ 20,00 com juros de 1% ao mês"
+            ],
+            "correta": 0,
+            "explicacao": "A de juros mais altos cresce mais rápido.",
+            "dica": "Compare quanto cada uma cresce por mês."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu Valdir pode pagar R$ 1.200,00 à vista ou 12 de R$ 150,00. Quanto economiza à vista?",
+            "alternativas": [
+              "R$ 150,00",
+              "R$ 1.200,00",
+              "R$ 600,00",
+              "R$ 300,00"
+            ],
+            "correta": 2,
+            "explicacao": "12 · 150 = 1.800; 1.800 − 1.200 = 600.",
+            "dica": "Calcule o total parcelado primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa pagou a dívida ontem. Segundo o entendimento do STJ, a empresa tem quanto tempo para pedir a retirada do nome?",
+            "alternativas": [
+              "Até cinco dias úteis",
+              "Até um ano",
+              "Não precisa retirar",
+              "Até cinco anos"
+            ],
+            "correta": 0,
+            "explicacao": "O STJ fixou o prazo de cinco dias úteis após o pagamento.",
+            "dica": "É um prazo curto, contado em dias de trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um anúncio promete \"apagar seu nome do cadastro por R$ 300,00, sem pagar a dívida\". Isso é:",
+            "alternativas": [
+              "Uma forma segura de sair das dívidas",
+              "Um serviço oficial do governo",
+              "Um direito do CDC",
+              "Um golpe: só a negociação com o credor resolve"
+            ],
+            "correta": 3,
+            "explicacao": "Dívida verdadeira não some por pagamento a intermediário.",
+            "dica": "Quem pode tirar o registro é quem colocou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Passados 5 anos, o registro saiu do cadastro sem a dívida ser paga. Isso significa que:",
+            "alternativas": [
+              "a pessoa ganha nome limpo para sempre",
+              "o registro venceu, mas a dívida não foi perdoada",
+              "a dívida foi perdoada pela empresa",
+              "a pessoa recebe o dinheiro de volta"
+            ],
+            "correta": 1,
+            "explicacao": "O limite de 5 anos vale para o cadastro, não apaga a obrigação.",
+            "dica": "Separe o registro da dívida em si."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem um plano para sair das dívidas:",
+            "itens": [
+              "Listar as dívidas com valor e juros",
+              "Cortar gastos e não fazer dívida nova",
+              "Negociar primeiro as de juros mais altos",
+              "Pagar as parcelas e guardar os comprovantes"
+            ],
+            "explicacao": "Enxergar, estancar, negociar e cumprir.",
+            "dica": "Primeiro se descobre o tamanho do problema."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma dívida de R$ 500,00 tem juros de 10% ao mês. Depois de 3 meses sem pagar, quanto se deve?",
+            "alternativas": [
+              "R$ 665,50",
+              "R$ 550,00",
+              "R$ 605,00",
+              "R$ 650,00"
+            ],
+            "correta": 0,
+            "explicacao": "500 · 1,1 = 550; · 1,1 = 605; · 1,1 = 665,50.",
+            "dica": "São três aumentos seguidos de 10%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Lúcia deve R$ 3.000,00 no cartão a 12% ao mês. O banco oferece um consignado de R$ 3.000,00 a 2% ao mês para quitar o cartão. Quanto ela deixa de pagar de juros no primeiro mês?",
+            "alternativas": [
+              "R$ 420,00",
+              "R$ 60,00",
+              "R$ 360,00",
+              "R$ 300,00"
+            ],
+            "correta": 3,
+            "explicacao": "Cartão: 12% de 3.000 = 360. Consignado: 2% de 3.000 = 60. Diferença: 300.",
+            "dica": "Calcule os juros de um mês em cada opção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais condições tornam a troca de dívida do cartão por consignado uma boa ideia?",
+            "alternativas": [
+              "Qualquer juro, desde que seja empréstimo",
+              "Pegar o dobro do valor devido",
+              "Parcela que cabe no orçamento e nenhuma dívida nova no cartão",
+              "Usar o cartão livre para novas compras"
+            ],
+            "correta": 2,
+            "explicacao": "Trocar só ajuda se a pessoa não volta a se endividar.",
+            "dica": "O problema volta se o comportamento não mudar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rafael ganha R$ 2.000,00 e gasta R$ 1.700,00 com o essencial. Qual parcela de acordo é a mais segura?",
+            "alternativas": [
+              "R$ 400,00",
+              "R$ 500,00",
+              "R$ 300,00",
+              "R$ 200,00"
+            ],
+            "correta": 3,
+            "explicacao": "Sobram R$ 300,00; uma parcela de 200 deixa uma folga de 100 para imprevistos.",
+            "dica": "Calcule quanto sobra e deixe uma folga."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a dívida do rotativo cresce tão rápido?",
+            "alternativas": [
+              "A dívida é corrigida pela poupança",
+              "Os juros são altos e compostos: incidem sobre os juros já somados",
+              "O banco cobra só uma vez",
+              "A multa é cobrada todo dia em dobro"
+            ],
+            "correta": 1,
+            "explicacao": "É o mesmo efeito das porcentagens sucessivas.",
+            "dica": "Relacione com a aula de Matemática de hoje."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Busca na lista: achar o maior e o menor",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Muitos programas precisam encontrar o maior ou o menor valor de uma lista: a maior nota da turma, o produto mais barato, o dia mais quente. Isso se chama busca.",
+          "A ideia é simples: guarde o primeiro valor como \"o maior até agora\" e passe pelos outros, um por um. Sempre que aparecer um valor maior, troque.",
+          "Em Python fica assim:\nnotas = [7, 4, 9, 6]\nmaior = notas[0]\nfor n in notas:\n    if n > maior:\n        maior = n\nprint(maior)\nO programa mostra 9.",
+          "Para o menor, a ideia é a mesma, mas o teste vira if n < menor. O Python também tem as funções prontas max(notas) e min(notas), mas é importante saber como elas funcionam por dentro.",
+          "Para saber se um valor existe na lista, use in: 8 in notas dá False, e 9 in notas dá True. Para descobrir a posição, use notas.index(9), que dá 2 (a contagem começa em 0)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Com precos = [5.5, 3.0, 8.25, 2.75], encontre o produto mais barato com um laço.",
+            "resolucao": "menor = precos[0]; for p in precos: if p < menor: menor = p. O menor vai de 5.5 para 3.0 e depois para 2.75. Resultado: 2.75."
+          },
+          {
+            "enunciado": "Por que é melhor começar com maior = notas[0] do que com maior = 0?",
+            "resolucao": "Se todos os valores forem negativos, como temperaturas [-3, -8, -1], começar com 0 dá resposta errada: nenhum número seria maior que 0 e o programa mostraria 0. Começando pelo primeiro elemento, a resposta é −1, que está certa."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para guardar a posição do maior, use uma segunda variável: pos = 0 e, sempre que trocar o maior, faça pos = i, usando for i in range(len(lista)).",
+        "Empates: com if n > maior, em caso de empate fica a primeira ocorrência; com if n >= maior, fica a última. Escolha conforme o problema pede.",
+        "Numa lista com n elementos, achar o maior exige n − 1 comparações: o primeiro já começa como maior e cada um dos outros é comparado uma vez. Numa lista de 1.000 elementos, são 999 comparações."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com notas = [7, 4, 9, 6], qual é o maior valor?",
+            "alternativas": [
+              "7",
+              "4",
+              "9",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "9 é o maior número da lista.",
+            "dica": "Olhe todos os números da lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual função do Python dá o menor valor de uma lista?",
+            "alternativas": [
+              "min()",
+              "max()",
+              "len()",
+              "print()"
+            ],
+            "correta": 0,
+            "explicacao": "min() devolve o menor; max(), o maior.",
+            "dica": "É a abreviação de mínimo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No laço que procura o maior, quando o programa troca o valor guardado?",
+            "alternativas": [
+              "Nunca",
+              "Quando aparece um valor maior",
+              "Quando aparece um valor menor",
+              "Em todas as voltas"
+            ],
+            "correta": 1,
+            "explicacao": "Só troca se o novo número for maior que o guardado.",
+            "dica": "Pense em uma disputa de quem é o mais alto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com lista = [3, 8, 5], o que mostra print(8 in lista)?",
+            "alternativas": [
+              "False",
+              "1",
+              "8",
+              "True"
+            ],
+            "correta": 3,
+            "explicacao": "8 está na lista, então dá True (verdadeiro).",
+            "dica": "O in pergunta se o valor existe na lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que posição está o primeiro elemento de uma lista em Python?",
+            "alternativas": [
+              "1",
+              "−1",
+              "0",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "A contagem de posições começa em 0.",
+            "dica": "Lembre do fatiamento de textos."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com notas = [7, 4, 9, 6], o que mostra notas.index(9)?",
+            "alternativas": [
+              "2",
+              "1",
+              "9",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "Posições: 7 é 0, 4 é 1, 9 é 2.",
+            "dica": "Conte as posições a partir de zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar o menor, qual teste vai dentro do laço?",
+            "alternativas": [
+              "if menor < 0:",
+              "if n < menor:",
+              "if n > menor:",
+              "if n == menor:"
+            ],
+            "correta": 1,
+            "explicacao": "Troca quando o número é menor que o guardado.",
+            "dica": "É o contrário do teste do maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com precos = [5.5, 3.0, 8.25, 2.75], qual é o resultado de min(precos)?",
+            "alternativas": [
+              "8.25",
+              "3.0",
+              "2.75",
+              "5.5"
+            ],
+            "correta": 2,
+            "explicacao": "2.75 é o menor preço.",
+            "dica": "Compare as partes inteiras primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor inicial mais seguro para a variável maior?",
+            "alternativas": [
+              "Zero",
+              "Mil",
+              "O tamanho da lista",
+              "O primeiro elemento da lista"
+            ],
+            "correta": 3,
+            "explicacao": "Começar pelo primeiro elemento funciona até com negativos.",
+            "dica": "Pense numa lista só com números negativos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra print(max([12, 30, 25]) - min([12, 30, 25]))?",
+            "alternativas": [
+              "30",
+              "18",
+              "12",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "30 − 12 = 18.",
+            "dica": "Ache o maior e o menor, depois subtraia."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com temps = [-3, -8, -1], um programa começa com maior = 0. O que ele mostra?",
+            "alternativas": [
+              "−8",
+              "0, o que está errado",
+              "−1, o que está certo",
+              "−3"
+            ],
+            "correta": 1,
+            "explicacao": "Nenhum valor é maior que 0, então 0 nunca é trocado.",
+            "dica": "Algum valor da lista passa no teste n > 0?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com lista = [4, 9, 2, 9], o laço usa if n > maior e guarda a posição. Qual posição fica guardada?",
+            "alternativas": [
+              "0",
+              "2",
+              "1",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "Com >, o segundo 9 não é maior que 9, então fica a primeira ocorrência, na posição 1.",
+            "dica": "Empate não passa no teste de maior estrito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas comparações o laço faz para achar o maior numa lista de 50 elementos?",
+            "alternativas": [
+              "50",
+              "25",
+              "51",
+              "49"
+            ],
+            "correta": 3,
+            "explicacao": "O primeiro começa como maior; os outros 49 são comparados.",
+            "dica": "O primeiro não precisa ser comparado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra este código?\nv = [6, 2, 7, 1]\nm = v[0]\nfor x in v:\n    if x < m:\n        m = x\nprint(m)",
+            "alternativas": [
+              "1",
+              "2",
+              "6",
+              "7"
+            ],
+            "correta": 0,
+            "explicacao": "m vai de 6 para 2 e depois para 1.",
+            "dica": "Siga o valor de m em cada volta."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as linhas para achar o maior:",
+            "itens": [
+              "maior = lista[0]",
+              "for n in lista:",
+              "    if n > maior:",
+              "        maior = n",
+              "print(maior)"
+            ],
+            "explicacao": "Valor inicial, laço, teste, troca e resultado.",
+            "dica": "Primeiro se guarda um valor de partida."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com lista = [4, 9, 2, 9], o laço usa if n >= maior e guarda a posição. Qual posição fica?",
+            "alternativas": [
+              "2",
+              "3",
+              "0",
+              "1"
+            ],
+            "correta": 1,
+            "explicacao": "Com >=, o empate também troca, então fica a última ocorrência: posição 3.",
+            "dica": "Agora o empate passa no teste."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual código acha o maior e o menor de uma vez só, percorrendo a lista uma vez?",
+            "alternativas": [
+              "Um laço que só compara com o maior",
+              "Dois laços, um dentro do outro",
+              "Usar index() duas vezes",
+              "Um laço com dois if: um compara com maior e outro com menor"
+            ],
+            "correta": 3,
+            "explicacao": "Basta guardar duas variáveis e testar as duas em cada volta.",
+            "dica": "Duas variáveis podem ser atualizadas na mesma volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra este código?\nv = [5, 8, 3]\nc = 0\nm = v[0]\nfor x in v:\n    if x > m:\n        m = x\n        c = c + 1\nprint(c)",
+            "alternativas": [
+              "2",
+              "3",
+              "1",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "Só o 8 é maior que o valor guardado: 5 não é maior que 5, 3 não é maior que 8. Uma troca.",
+            "dica": "Conte quantas vezes o teste dá verdadeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa lista com 1.000 notas, quantas comparações faz a busca simples pelo maior?",
+            "alternativas": [
+              "999",
+              "1.000",
+              "500",
+              "1"
+            ],
+            "correta": 0,
+            "explicacao": "n − 1 = 999 comparações.",
+            "dica": "Use a regra do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com nomes = ['Ana', 'Bia', 'Caio'], o que acontece com nomes.index('Davi')?",
+            "alternativas": [
+              "Mostra −1",
+              "Mostra 3",
+              "Dá erro, porque 'Davi' não está na lista",
+              "Mostra 0"
+            ],
+            "correta": 2,
+            "explicacao": "index() só funciona para valores que existem; por isso é bom testar com in antes.",
+            "dica": "Esse nome aparece na lista?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Pronomes relativos: que, quem, onde e cujo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Pronome relativo é a palavra que retoma um termo que já apareceu e liga duas orações, evitando repetição. \"Comprei o livro. O livro é ótimo\" vira \"Comprei o livro que é ótimo\".",
+          "Que é o mais usado e serve para pessoas e coisas: \"A professora que chegou\", \"O ônibus que passou\". Quem se refere só a pessoas e costuma vir depois de preposição: \"O amigo de quem falei\", \"A tia a quem pedi ajuda\".",
+          "Onde só se usa para lugar físico: \"A rua onde moro\". Para tempo ou situação, use em que: \"O dia em que choveu\", e não \"o dia onde choveu\". Com verbos de movimento, como ir e chegar, usa-se aonde: \"A praça aonde vamos\".",
+          "Cujo indica posse e concorda com a coisa possuída: \"O menino cuja mãe é enfermeira\" (a mãe do menino), \"A escola cujos alunos ganharam\" (os alunos da escola). Depois de cujo nunca vem artigo: é errado dizer \"cujo o\".",
+          "Se o verbo pede preposição, ela vem antes do relativo: quem gosta, gosta de algo, então \"A música de que gosto\". Quem precisa, precisa de algo: \"O livro de que preciso\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Junte as frases com um pronome relativo: \"Conheci a cantora. O pai da cantora é feirante.\"",
+            "resolucao": "\"Conheci a cantora cujo pai é feirante.\" Cujo indica posse (o pai da cantora) e concorda com pai, no masculino singular."
+          },
+          {
+            "enunciado": "Corrija: \"Foi um ano onde aprendi muito.\"",
+            "resolucao": "\"Foi um ano em que aprendi muito.\" Ano é tempo, não lugar físico, por isso não se usa onde."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Também existem o qual, a qual, os quais e as quais, que concordam com o termo retomado e ajudam a evitar confusão: \"Falei com a irmã do Paulo, a qual mora em Osasco\" (quem mora é a irmã).",
+        "Na fala do dia a dia é comum ouvir \"a moça que eu falei com ela\" ou \"o lugar que eu fui\". Na escrita formal, prefira \"a moça com quem falei\" e \"o lugar aonde fui\".",
+        "Cujo pode vir com preposição antes, conforme o verbo: \"O autor de cujo livro gostei\" (gostar de) e \"A cidade em cujas ruas passeei\" (passear em)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é um pronome relativo em \"O livro que li é bom\"?",
+            "alternativas": [
+              "li",
+              "bom",
+              "que",
+              "livro"
+            ],
+            "correta": 2,
+            "explicacao": "Que retoma livro e liga as duas orações.",
+            "dica": "Procure a palavra que retoma outra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pronome relativo serve só para lugar físico?",
+            "alternativas": [
+              "quem",
+              "onde",
+              "que",
+              "cujo"
+            ],
+            "correta": 1,
+            "explicacao": "Onde indica lugar: a rua onde moro.",
+            "dica": "Pense em \"a rua ___ moro\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pronome relativo indica posse?",
+            "alternativas": [
+              "cujo",
+              "aonde",
+              "quem",
+              "onde"
+            ],
+            "correta": 0,
+            "explicacao": "Cujo mostra que algo pertence a alguém.",
+            "dica": "\"O menino ___ pai é feirante.\""
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"A amiga de ___ falei chegou.\"",
+            "alternativas": [
+              "aonde",
+              "onde",
+              "cujo",
+              "quem"
+            ],
+            "correta": 3,
+            "explicacao": "Quem se refere a pessoa e vem depois de preposição.",
+            "dica": "O termo retomado é uma pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está certa?",
+            "alternativas": [
+              "O dia onde choveu foi ruim.",
+              "O ano onde nasci foi bom.",
+              "A hora onde saí era tarde.",
+              "A rua onde moro é calma."
+            ],
+            "correta": 3,
+            "explicacao": "Onde só para lugar físico; rua é lugar.",
+            "dica": "Qual das opções fala de um lugar?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O menino ___ mãe é enfermeira estuda comigo.\"",
+            "alternativas": [
+              "cuja",
+              "cuja a",
+              "cujo",
+              "que a"
+            ],
+            "correta": 0,
+            "explicacao": "Cujo concorda com a coisa possuída: mãe, feminino, então cuja.",
+            "dica": "Concorde com a palavra que vem depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está de acordo com a norma-padrão?",
+            "alternativas": [
+              "A escola cujo os alunos venceram fica aqui.",
+              "A escola cujos alunos venceram fica aqui.",
+              "A escola que os alunos dela venceram fica aqui.",
+              "A escola cujas os alunos venceram fica aqui."
+            ],
+            "correta": 1,
+            "explicacao": "Cujos concorda com alunos e não leva artigo depois.",
+            "dica": "Depois de cujo nunca vem artigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Corrija: \"Foi uma época onde tudo era difícil.\"",
+            "alternativas": [
+              "Foi uma época aonde tudo era difícil.",
+              "Foi uma época em que tudo era difícil.",
+              "Foi uma época quem tudo era difícil.",
+              "Foi uma época cuja tudo era difícil."
+            ],
+            "correta": 1,
+            "explicacao": "Época é tempo; use em que.",
+            "dica": "Época é lugar físico?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Esta é a música ___ mais gosto.\"",
+            "alternativas": [
+              "onde",
+              "que",
+              "cuja",
+              "de que"
+            ],
+            "correta": 3,
+            "explicacao": "Quem gosta, gosta de algo: a preposição vem antes do relativo.",
+            "dica": "O verbo gostar pede qual preposição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"A praia ___ vamos nas férias fica em Ubatuba.\"",
+            "alternativas": [
+              "de quem",
+              "cuja",
+              "aonde",
+              "onde"
+            ],
+            "correta": 2,
+            "explicacao": "Com verbo de movimento (ir a), usa-se aonde.",
+            "dica": "O verbo é de movimento?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está certa?",
+            "alternativas": [
+              "O autor cujo o livro gostei virá à escola.",
+              "O autor que gostei do livro virá à escola.",
+              "O autor de cujo livro gostei virá à escola.",
+              "O autor cujo livro gostei dele virá à escola."
+            ],
+            "correta": 2,
+            "explicacao": "Gostar de: a preposição vai antes de cujo, sem artigo depois.",
+            "dica": "Veja a preposição que o verbo gostar pede."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Falei com a irmã do Paulo, a qual mora em Osasco\", quem mora em Osasco?",
+            "alternativas": [
+              "A irmã",
+              "Os dois",
+              "O Paulo",
+              "Quem falou"
+            ],
+            "correta": 0,
+            "explicacao": "A qual está no feminino e retoma irmã.",
+            "dica": "Observe o gênero de \"a qual\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Reescreva na norma-padrão: \"É a moça que eu falei com ela ontem.\"",
+            "alternativas": [
+              "É a moça cuja falei ontem.",
+              "É a moça com quem falei ontem.",
+              "É a moça que falei ontem.",
+              "É a moça onde falei ontem."
+            ],
+            "correta": 1,
+            "explicacao": "Falar com alguém: com quem, sem repetir ela.",
+            "dica": "A preposição com precisa aparecer antes do relativo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"São projetos ___ resultados todos aguardam.\"",
+            "alternativas": [
+              "cujas",
+              "que os",
+              "cujo",
+              "cujos"
+            ],
+            "correta": 3,
+            "explicacao": "Cujo concorda com resultados: masculino plural.",
+            "dica": "Olhe para a palavra que vem logo depois."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem para formar a frase: \"O bairro onde nasci tem uma feira.\"",
+            "itens": [
+              "O bairro",
+              "onde",
+              "nasci",
+              "tem uma feira."
+            ],
+            "explicacao": "O relativo onde vem logo depois de bairro, o lugar retomado.",
+            "dica": "O pronome fica colado ao termo que ele retoma."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro no uso do relativo?",
+            "alternativas": [
+              "A cidade onde nasci é pequena.",
+              "A professora cuja aula adoro faltou.",
+              "O motivo onde briguei foi bobo.",
+              "O amigo a quem emprestei o livro sumiu."
+            ],
+            "correta": 2,
+            "explicacao": "Motivo não é lugar; o certo é \"o motivo por que briguei\" ou \"pelo qual briguei\".",
+            "dica": "Verifique se cada onde é mesmo um lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete com a norma-padrão: \"Este é o documento ___ precisamos para a matrícula.\"",
+            "alternativas": [
+              "que",
+              "cujo",
+              "onde",
+              "de que"
+            ],
+            "correta": 3,
+            "explicacao": "Precisar de algo: a preposição de vem antes do que.",
+            "dica": "Quem precisa, precisa ___ algo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"A cidade em ___ ruas passeei estava enfeitada.\"",
+            "alternativas": [
+              "que as",
+              "cujas",
+              "cujos",
+              "cuja"
+            ],
+            "correta": 1,
+            "explicacao": "Passear em: preposição antes; cujas concorda com ruas.",
+            "dica": "Concorde com a coisa possuída."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase o relativo retoma uma pessoa e vem com a preposição certa?",
+            "alternativas": [
+              "Esta é a vizinha cuja entreguei a encomenda.",
+              "Esta é a vizinha a quem entreguei a encomenda.",
+              "Esta é a vizinha onde entreguei a encomenda.",
+              "Esta é a vizinha quem entreguei a encomenda."
+            ],
+            "correta": 1,
+            "explicacao": "Entregar algo a alguém: a quem.",
+            "dica": "Quem entrega, entrega ___ alguém."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Visitei o museu ___ acervo tem peças indígenas, ___ fica no centro.\" Quais relativos completam a frase?",
+            "alternativas": [
+              "cujo / o qual",
+              "que o / onde",
+              "onde / cujo",
+              "cujo o / que"
+            ],
+            "correta": 0,
+            "explicacao": "Cujo acervo (posse, sem artigo) e o qual, que retoma museu.",
+            "dica": "O primeiro espaço indica posse; o segundo retoma o museu."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O preço que subiu duas vezes",
+    "texto": "Dona Cida guarda as notas do mercado numa lata de biscoito. Não por mania: é o jeito dela de saber se o dinheiro vai dar até o fim do mês.\n\nEm março, o quilo do feijão custava oito reais. Em abril, subiu dez por cento. Ela resmungou no caixa, mas levou. Em maio, mais dez por cento. Na fila, o vizinho Osvaldo resumiu a situação com a certeza de quem não fez conta nenhuma:\n\n— Vinte por cento em dois meses. Absurdo.\n\nTodo mundo concordou com a cabeça. Vinte por cento, claro. Dez mais dez.\n\nÀ noite, a neta da Dona Cida, a Taís, que está no oitavo ano, abriu a lata e espalhou as notas na mesa. Pegou o lápis.\n\n— Vó, oito reais mais dez por cento dá oito e oitenta. Mas o segundo aumento não é sobre os oito. É sobre os oito e oitenta.\n\n— E faz diferença?\n\n— Faz. Dez por cento de oito e oitenta é oitenta e oito centavos. O feijão foi para nove e sessenta e oito. Se fosse vinte por cento de oito, daria nove e sessenta.\n\nDona Cida olhou para os oito centavos de diferença como quem olha para uma formiga.\n\n— Por oito centavos você me tirou do sofá?\n\n— Num quilo, vó. A senhora compra quatro por mês. E não é só o feijão. É o arroz, o óleo, o gás. Aumento em cima de aumento vai empilhando.\n\nNo dia seguinte, na fila, o Osvaldo repetiu os vinte por cento. Dona Cida, sem levantar os olhos da lista, corrigiu:\n\n— Vinte e um, Osvaldo. Pergunta pra minha neta."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique por que dois aumentos seguidos de 10% não dão 20% no total. Use um exemplo em reais, com um produto que sua família compra (arroz, gás, passagem), mostre as contas passo a passo e diga qual foi o aumento total de verdade."
+  }
+}

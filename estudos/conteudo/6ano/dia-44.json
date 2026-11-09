@@ -1,0 +1,1497 @@
+{
+  "dia": 44,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Porcentagem de qualquer valor: desconto e aumento",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Para calcular a porcentagem de um valor, transforme a porcentagem em decimal e multiplique: 10% de R$ 80 = 0,10 × 80 = R$ 8.",
+          "Um jeito de fazer de cabeça: 10% é dividir por 10; 5% é metade de 10%; 1% é dividir por 100; 25% é dividir por 4; 50% é a metade.",
+          "Desconto é quando o preço diminui. Calcule o desconto e tire do preço: R$ 80 com 10% de desconto → 80 − 8 = R$ 72.",
+          "Aumento é quando o preço sobe. Calcule o aumento e some ao preço: R$ 50 com 20% de aumento → 10 de aumento → 50 + 10 = R$ 60."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quanto é 15% de R$ 200?",
+            "resolucao": "10% de 200 = 20; 5% = 10. Somando: 20 + 10 = R$ 30."
+          },
+          {
+            "enunciado": "Uma mochila de R$ 120 tem 25% de desconto. Quanto fica?",
+            "resolucao": "25% de 120 = 120 ÷ 4 = 30. Preço final: 120 − 30 = R$ 90."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Atalho do preço final: com 10% de desconto, você paga 90% do preço (multiplique por 0,9). Com 20% de aumento, paga 120% do preço (multiplique por 1,2).",
+        "Pegadinha famosa: subir 10% e depois descer 10% NÃO volta ao preço original. R$ 100 + 10% = R$ 110; 110 − 10% = 110 − 11 = R$ 99. O desconto foi calculado sobre um valor maior.",
+        "Para comparar ofertas, calcule sempre o preço final. Uma loja com 30% de desconto sobre um preço mais alto pode sair mais cara que outra sem desconto."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 10% de R$ 80?",
+            "alternativas": [
+              "R$ 8",
+              "R$ 10",
+              "R$ 80",
+              "R$ 0,80"
+            ],
+            "correta": 0,
+            "explicacao": "80 ÷ 10 = 8.",
+            "dica": "10% é dividir por 10."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "50% de um valor é:",
+            "alternativas": [
+              "o dobro",
+              "a metade",
+              "a quarta parte",
+              "o valor inteiro"
+            ],
+            "correta": 1,
+            "explicacao": "50% = 1/2.",
+            "dica": "Cinquenta de cem é quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Desconto faz o preço:",
+            "alternativas": [
+              "aumentar",
+              "ficar igual",
+              "diminuir",
+              "dobrar"
+            ],
+            "correta": 2,
+            "explicacao": "Desconto tira do preço.",
+            "dica": "Desconto é bom para quem compra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto de R$ 80 tem R$ 8 de desconto. Quanto fica?",
+            "alternativas": [
+              "R$ 88",
+              "R$ 70",
+              "R$ 8",
+              "R$ 72"
+            ],
+            "correta": 3,
+            "explicacao": "80 − 8 = 72.",
+            "dica": "Tire o desconto do preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "25% de um valor é o mesmo que dividir por:",
+            "alternativas": [
+              "4",
+              "2",
+              "10",
+              "25"
+            ],
+            "correta": 0,
+            "explicacao": "25% = 1/4.",
+            "dica": "Quantos 25 cabem em 100?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 15% de R$ 200?",
+            "alternativas": [
+              "R$ 15",
+              "R$ 30",
+              "R$ 20",
+              "R$ 35"
+            ],
+            "correta": 1,
+            "explicacao": "10% = 20; 5% = 10; total 30.",
+            "dica": "Some 10% com 5%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma mochila de R$ 120 tem 25% de desconto. Quanto fica?",
+            "alternativas": [
+              "R$ 95",
+              "R$ 30",
+              "R$ 90",
+              "R$ 100"
+            ],
+            "correta": 2,
+            "explicacao": "120 ÷ 4 = 30; 120 − 30 = 90.",
+            "dica": "Calcule 25% e tire do preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O ônibus de R$ 5,00 teve 10% de aumento. Quanto ficou?",
+            "alternativas": [
+              "R$ 5,10",
+              "R$ 6,00",
+              "R$ 4,50",
+              "R$ 5,50"
+            ],
+            "correta": 3,
+            "explicacao": "10% de 5 = 0,50; 5 + 0,50 = 5,50.",
+            "dica": "Calcule 10% e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 5% de R$ 60?",
+            "alternativas": [
+              "R$ 3",
+              "R$ 6",
+              "R$ 5",
+              "R$ 30"
+            ],
+            "correta": 0,
+            "explicacao": "10% = 6; 5% = 3.",
+            "dica": "5% é a metade de 10%."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para calcular um desconto:",
+            "itens": [
+              "Ler a porcentagem do desconto",
+              "Calcular quanto é essa porcentagem do preço",
+              "Tirar o desconto do preço",
+              "Conferir o preço final"
+            ],
+            "explicacao": "Ler, calcular, subtrair e conferir.",
+            "dica": "O preço final é o último passo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 35% de R$ 60?",
+            "alternativas": [
+              "R$ 35",
+              "R$ 18",
+              "R$ 21",
+              "R$ 24"
+            ],
+            "correta": 2,
+            "explicacao": "10% = 6; 30% = 18; 5% = 3; 18 + 3 = 21.",
+            "dica": "Junte 30% com 5%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um tênis de R$ 150 subiu 8%. Qual é o preço novo?",
+            "alternativas": [
+              "R$ 158",
+              "R$ 170",
+              "R$ 138",
+              "R$ 162"
+            ],
+            "correta": 3,
+            "explicacao": "8% de 150 = 12; 150 + 12 = 162.",
+            "dica": "1% de 150 é 1,50; multiplique por 8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar o preço com 10% de desconto direto, multiplique por:",
+            "alternativas": [
+              "0,9",
+              "0,1",
+              "1,1",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "Você paga 90% = 0,9.",
+            "dica": "Quanto do preço sobra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um celular de R$ 250 tem 12% de desconto. Qual é o desconto?",
+            "alternativas": [
+              "R$ 12",
+              "R$ 30",
+              "R$ 25",
+              "R$ 20"
+            ],
+            "correta": 1,
+            "explicacao": "1% = 2,50; 12 × 2,50 = 30.",
+            "dica": "Calcule 1% primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma camiseta de R$ 40 está com 25% de desconto. Quanto custa?",
+            "alternativas": [
+              "R$ 10",
+              "R$ 35",
+              "R$ 30",
+              "R$ 15"
+            ],
+            "correta": 2,
+            "explicacao": "40 × 0,75 = 30.",
+            "dica": "Com 25% de desconto, você paga 75%."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100 subiu 10% e depois baixou 10%. Qual é o preço final?",
+            "alternativas": [
+              "R$ 100",
+              "R$ 101",
+              "R$ 90",
+              "R$ 99"
+            ],
+            "correta": 3,
+            "explicacao": "100 → 110 → 110 − 11 = 99.",
+            "dica": "O desconto é sobre 110, não sobre 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Loja A: R$ 90 sem desconto. Loja B: R$ 120 com 30% de desconto. Qual é mais barata?",
+            "alternativas": [
+              "Loja B, por R$ 84",
+              "Loja A, por R$ 90",
+              "São iguais",
+              "Loja B, por R$ 90"
+            ],
+            "correta": 0,
+            "explicacao": "120 × 0,7 = 84; 84 < 90.",
+            "dica": "Calcule o preço final da loja B."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto de R$ 90 teve aumento de 30%. Qual é o preço novo?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 117",
+              "R$ 93",
+              "R$ 27"
+            ],
+            "correta": 1,
+            "explicacao": "30% de 90 = 27; 90 + 27 = 117.",
+            "dica": "Multiplique por 1,3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de 20% de desconto, uma bola custa R$ 40. Qual era o preço original?",
+            "alternativas": [
+              "R$ 48",
+              "R$ 60",
+              "R$ 50",
+              "R$ 32"
+            ],
+            "correta": 2,
+            "explicacao": "40 é 80% do preço; 40 ÷ 0,8 = 50.",
+            "dica": "R$ 40 é quantos por cento do preço original?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é melhor para quem compra um produto de R$ 200?",
+            "alternativas": [
+              "R$ 45 de desconto",
+              "20% de desconto",
+              "R$ 40 de desconto",
+              "25% de desconto"
+            ],
+            "correta": 3,
+            "explicacao": "25% de 200 = 50, maior que 45 e 40.",
+            "dica": "Transforme as porcentagens em reais."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Fluxograma: desenhar o algoritmo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Fluxograma é um desenho que mostra os passos de um algoritmo com formas e setas. Ele ajuda a planejar antes de programar.",
+          "Cada forma tem um significado: a forma oval marca o início e o fim; o retângulo é uma ação (fazer algo); o losango é uma decisão, uma pergunta com resposta sim ou não.",
+          "As setas mostram o caminho, ou seja, a ordem em que os passos acontecem. Do losango saem duas setas: uma para o sim e outra para o não.",
+          "Exemplo simples: Início → Pegar o copo → Encher de água → Beber → Fim."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como desenhar \"Está chovendo? Se sim, levar guarda-chuva\"?",
+            "resolucao": "Um losango com a pergunta \"Está chovendo?\". A seta do sim vai para o retângulo \"Levar guarda-chuva\"; a seta do não pula direto para o próximo passo."
+          },
+          {
+            "enunciado": "Qual forma usar para \"Somar as notas\"?",
+            "resolucao": "Um retângulo, porque é uma ação."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Fluxogramas também mostram repetições: uma seta que volta para um passo anterior forma um laço. Exemplo: \"Ainda tem louça? Sim → lavar um prato → voltar à pergunta. Não → Fim\".",
+        "Uma boa regra: todo fluxograma tem um só início, e todo caminho precisa chegar a um fim. Se algum caminho nunca termina, o programa fica preso para sempre.",
+        "Existe ainda o paralelogramo, usado para entrada e saída de dados, como \"Ler a idade\" ou \"Mostrar o resultado\"."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é um fluxograma?",
+            "alternativas": [
+              "Um tipo de flor",
+              "Um desenho dos passos de um algoritmo",
+              "Uma conta de dividir",
+              "Um mapa da cidade"
+            ],
+            "correta": 1,
+            "explicacao": "Formas e setas mostram os passos.",
+            "dica": "Fluxo quer dizer caminho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual forma marca o início e o fim?",
+            "alternativas": [
+              "losango",
+              "retângulo",
+              "oval",
+              "triângulo"
+            ],
+            "correta": 2,
+            "explicacao": "Início e fim ficam na forma oval.",
+            "dica": "É a forma arredondada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O losango representa:",
+            "alternativas": [
+              "o início",
+              "uma ação",
+              "o fim",
+              "uma decisão"
+            ],
+            "correta": 3,
+            "explicacao": "No losango vai uma pergunta de sim ou não.",
+            "dica": "É onde o caminho se divide."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O retângulo representa:",
+            "alternativas": [
+              "uma ação",
+              "uma pergunta",
+              "o fim",
+              "uma seta"
+            ],
+            "correta": 0,
+            "explicacao": "Fazer algo vai no retângulo.",
+            "dica": "Pense em \"Encher de água\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que servem as setas?",
+            "alternativas": [
+              "Enfeitar",
+              "Mostrar a ordem dos passos",
+              "Apagar passos",
+              "Somar números"
+            ],
+            "correta": 1,
+            "explicacao": "As setas mostram o caminho.",
+            "dica": "Elas apontam para onde?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Está chovendo?\" deve ficar em qual forma?",
+            "alternativas": [
+              "oval",
+              "retângulo",
+              "losango",
+              "círculo pequeno"
+            ],
+            "correta": 2,
+            "explicacao": "É uma pergunta de sim ou não.",
+            "dica": "É uma pergunta ou uma ação?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas setas saem de um losango?",
+            "alternativas": [
+              "1",
+              "3",
+              "nenhuma",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "Uma para o sim, outra para o não.",
+            "dica": "Quantas respostas tem a pergunta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Lavar as mãos\" fica em qual forma?",
+            "alternativas": [
+              "retângulo",
+              "losango",
+              "oval",
+              "paralelogramo"
+            ],
+            "correta": 0,
+            "explicacao": "É uma ação.",
+            "dica": "É uma coisa que se faz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual vem primeiro num fluxograma?",
+            "alternativas": [
+              "Fim",
+              "Início",
+              "Decisão",
+              "Ação final"
+            ],
+            "correta": 1,
+            "explicacao": "Todo fluxograma começa no início.",
+            "dica": "O nome já diz."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o fluxograma de beber água:",
+            "itens": [
+              "Início",
+              "Pegar o copo",
+              "Encher de água",
+              "Beber",
+              "Fim"
+            ],
+            "explicacao": "Do início ao fim, passo a passo.",
+            "dica": "Antes de encher, precisa do copo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma seta que volta para um passo anterior forma:",
+            "alternativas": [
+              "um erro sempre",
+              "o início",
+              "uma decisão nova",
+              "um laço de repetição"
+            ],
+            "correta": 3,
+            "explicacao": "Voltar faz repetir.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ler a idade\" fica melhor em qual forma?",
+            "alternativas": [
+              "paralelogramo",
+              "oval",
+              "losango",
+              "retângulo"
+            ],
+            "correta": 0,
+            "explicacao": "Entrada de dados vai no paralelogramo.",
+            "dica": "É entrada de dados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece se um caminho do fluxograma nunca chega ao fim?",
+            "alternativas": [
+              "Termina mais rápido",
+              "O programa fica preso para sempre",
+              "Nada acontece",
+              "O computador desliga sozinho"
+            ],
+            "correta": 1,
+            "explicacao": "Todo caminho precisa chegar ao fim.",
+            "dica": "Pense num caminho sem saída."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No fluxograma \"Tem lição? Sim → fazer lição; Não → brincar\", se não tiver lição, você:",
+            "alternativas": [
+              "faz lição",
+              "volta ao início",
+              "brinca",
+              "dorme"
+            ],
+            "correta": 2,
+            "explicacao": "Segue a seta do não.",
+            "dica": "Siga a seta da resposta não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas formas de início um fluxograma bem feito tem?",
+            "alternativas": [
+              "2",
+              "3",
+              "nenhuma",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "Um só início.",
+            "dica": "Releia a boa regra."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Fluxograma: Início → n = 1 → Mostrar n → n = n + 1 → n ≤ 3? Sim volta para Mostrar n; Não → Fim. O que aparece?",
+            "alternativas": [
+              "1, 2, 3",
+              "1, 2",
+              "1, 2, 3, 4",
+              "só 1"
+            ],
+            "correta": 0,
+            "explicacao": "Mostra 1, 2, 3; quando n vira 4, a resposta é não.",
+            "dica": "Faça o caminho com o dedo, anotando n."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fluxograma: Ler nota → nota ≥ 6? Sim → \"Aprovado\"; Não → \"Recuperação\". Para nota 5,5, o que aparece?",
+            "alternativas": [
+              "Aprovado",
+              "Recuperação",
+              "Nada",
+              "Os dois"
+            ],
+            "correta": 1,
+            "explicacao": "5,5 não é maior ou igual a 6.",
+            "dica": "Compare 5,5 com 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual erro há num fluxograma com duas formas ovais de Início?",
+            "alternativas": [
+              "Nenhum erro",
+              "Faltou um losango",
+              "Deve haver um só início",
+              "Sobrou uma seta"
+            ],
+            "correta": 2,
+            "explicacao": "Todo fluxograma tem um só início.",
+            "dica": "Quantos começos um caminho pode ter?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Fluxograma: x = 10 → x > 0? Sim → x = x − 3 e volta; Não → Fim. Quantas vezes a subtração acontece?",
+            "alternativas": [
+              "3",
+              "10",
+              "5",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "10 → 7 → 4 → 1 → −2: quatro subtrações.",
+            "dica": "Anote x a cada volta até ficar menor ou igual a zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Do losango \"Ainda tem louça?\", a seta do SIM deve ir para:",
+            "alternativas": [
+              "Lavar um prato e voltar à pergunta",
+              "Fim",
+              "Início",
+              "Guardar os pratos e terminar"
+            ],
+            "correta": 0,
+            "explicacao": "Enquanto tiver louça, repete.",
+            "dica": "O que se faz quando ainda há louça?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Revisão ortográfica e localizar e substituir",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O Word ajuda a achar erros. Palavras com sublinhado vermelho podem estar com erro de ortografia; sublinhado azul indica possível problema de gramática ou concordância.",
+          "Clique com o botão direito na palavra sublinhada: o Word mostra sugestões. Escolha a certa. Se a palavra estiver correta (como um nome próprio), use \"Adicionar ao dicionário\".",
+          "Para revisar tudo de uma vez, vá à guia Revisão e clique em Ortografia e Gramática, ou aperte F7.",
+          "A ferramenta Localizar (Ctrl + L no Word em português) acha uma palavra no texto. Substituir (Ctrl + U) troca uma palavra por outra, uma de cada vez ou todas de uma vez com \"Substituir tudo\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "No trabalho, você escreveu \"Joao\" 15 vezes, sem acento. Como corrigir rápido?",
+            "resolucao": "Use Substituir: em Localizar escreva Joao, em Substituir por escreva João e clique em Substituir tudo."
+          },
+          {
+            "enunciado": "O Word sublinhou em vermelho o sobrenome \"Okafor\", que está certo. O que fazer?",
+            "resolucao": "Clique com o botão direito e escolha Adicionar ao dicionário. O Word para de marcar."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cuidado: o corretor não entende o sentido. Em \"Eu vou a escola de manhã e a tarde\", todas as palavras existem, então ele pode não perceber a falta da crase. A revisão final é sempre sua.",
+        "Cuidado também com o Substituir tudo: trocar \"ano\" por \"série\" pode estragar palavras como \"humano\" (vira \"humsérie\"). Para evitar, marque a opção Palavras inteiras em Mais opções."
+      ],
+      "desafio_pratico": "Abra o Word no celular ou no PC e escreva um parágrafo de 6 linhas sobre a feira do seu bairro, usando a palavra \"feira\" pelo menos 5 vezes. Escreva de propósito 3 palavras com erro (por exemplo, \"verdura\" sem o r: \"vedura\"). Depois aperte F7 e corrija os erros pelas sugestões. Em seguida, abra Substituir (Ctrl + U) e troque \"feira\" por \"feira livre\" com Substituir tudo. Por fim, teste a pegadinha: escreva a palavra \"feirante\" e repita a troca sem marcar Palavras inteiras; veja o que acontece e desfaça com Ctrl + Z.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O sublinhado vermelho no Word indica:",
+            "alternativas": [
+              "texto em negrito",
+              "título",
+              "possível erro de ortografia",
+              "página nova"
+            ],
+            "correta": 2,
+            "explicacao": "Vermelho marca erro de escrita.",
+            "dica": "Pense em palavra escrita errado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tecla abre a revisão ortográfica?",
+            "alternativas": [
+              "F1",
+              "F12",
+              "Esc",
+              "F7"
+            ],
+            "correta": 3,
+            "explicacao": "F7 abre Ortografia e Gramática.",
+            "dica": "É uma tecla de função."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para ver sugestões de correção, clique na palavra com:",
+            "alternativas": [
+              "o botão direito",
+              "os dois botões",
+              "o teclado desligado",
+              "a tecla Delete"
+            ],
+            "correta": 0,
+            "explicacao": "O botão direito mostra as sugestões.",
+            "dica": "É o botão do menu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para trocar uma palavra por outra no texto todo, use:",
+            "alternativas": [
+              "Imprimir",
+              "Substituir",
+              "Salvar",
+              "Fechar"
+            ],
+            "correta": 1,
+            "explicacao": "Substituir troca palavras.",
+            "dica": "Trocar é o mesmo que..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual guia fica Ortografia e Gramática?",
+            "alternativas": [
+              "Inserir",
+              "Layout",
+              "Revisão",
+              "Arquivo"
+            ],
+            "correta": 2,
+            "explicacao": "Fica na guia Revisão.",
+            "dica": "Revisar é corrigir."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você escreveu \"Joao\" 15 vezes. Qual é o jeito mais rápido de corrigir?",
+            "alternativas": [
+              "Apagar o trabalho",
+              "Corrigir um por um no olho",
+              "Mudar a fonte",
+              "Substituir tudo por João"
+            ],
+            "correta": 3,
+            "explicacao": "Substituir tudo troca de uma vez.",
+            "dica": "Qual ferramenta troca palavras?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O Word marca seu sobrenome, que está certo. O que fazer?",
+            "alternativas": [
+              "Adicionar ao dicionário",
+              "Trocar de sobrenome",
+              "Apagar o sobrenome",
+              "Mudar a cor"
+            ],
+            "correta": 0,
+            "explicacao": "Assim o Word aprende a palavra.",
+            "dica": "Ensine a palavra ao Word."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O sublinhado azul costuma indicar:",
+            "alternativas": [
+              "erro de impressão",
+              "problema de gramática",
+              "link de internet sempre",
+              "palavra em inglês"
+            ],
+            "correta": 1,
+            "explicacao": "Azul marca gramática e concordância.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atalho abre o Localizar no Word em português?",
+            "alternativas": [
+              "Ctrl + P",
+              "Ctrl + S",
+              "Ctrl + L",
+              "Ctrl + Z"
+            ],
+            "correta": 2,
+            "explicacao": "L de Localizar.",
+            "dica": "Pense na primeira letra da ferramenta."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para substituir uma palavra:",
+            "itens": [
+              "Abrir Substituir (Ctrl + U)",
+              "Escrever a palavra em Localizar",
+              "Escrever a nova em Substituir por",
+              "Clicar em Substituir tudo"
+            ],
+            "explicacao": "Abrir, localizar, nova palavra, substituir.",
+            "dica": "Antes de escrever, abra a ferramenta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o corretor pode não perceber \"vou a escola\" sem crase?",
+            "alternativas": [
+              "Porque todas as palavras existem",
+              "Porque está desligado sempre",
+              "Porque crase não existe",
+              "Porque a fonte é pequena"
+            ],
+            "correta": 0,
+            "explicacao": "O corretor não entende o sentido.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Substituir tudo \"ano\" por \"série\" pode estragar qual palavra?",
+            "alternativas": [
+              "casa",
+              "humano",
+              "festa",
+              "lápis"
+            ],
+            "correta": 1,
+            "explicacao": "Humano tem \"ano\" dentro.",
+            "dica": "Procure a palavra que tem \"ano\" dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual opção evita estragar palavras ao substituir?",
+            "alternativas": [
+              "Negrito",
+              "Centralizar",
+              "Palavras inteiras",
+              "Maiúsculas sempre"
+            ],
+            "correta": 2,
+            "explicacao": "Só troca a palavra completa.",
+            "dica": "Fica em Mais opções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atalho abre o Substituir no Word em português?",
+            "alternativas": [
+              "Ctrl + L",
+              "Ctrl + C",
+              "Ctrl + N",
+              "Ctrl + U"
+            ],
+            "correta": 3,
+            "explicacao": "Ctrl + U abre Substituir.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem faz a revisão final do texto?",
+            "alternativas": [
+              "Você",
+              "O Word sozinho",
+              "A impressora",
+              "O teclado"
+            ],
+            "correta": 0,
+            "explicacao": "O corretor ajuda, mas não entende tudo.",
+            "dica": "O corretor entende o sentido?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num texto, \"Pedro\" aparece 3 vezes e \"Pedrosa\" 2 vezes. Substituindo tudo \"Pedro\" por \"Paulo\" SEM Palavras inteiras, quantas trocas acontecem?",
+            "alternativas": [
+              "3",
+              "5",
+              "2",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "Pedrosa também tem Pedro: vira Paulosa. 3 + 2 = 5.",
+            "dica": "Pedrosa contém Pedro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "E com a opção Palavras inteiras marcada, quantas trocas?",
+            "alternativas": [
+              "5",
+              "2",
+              "3",
+              "0"
+            ],
+            "correta": 2,
+            "explicacao": "Só as palavras Pedro completas.",
+            "dica": "Pedrosa é a palavra inteira Pedro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase o corretor dificilmente marca, apesar do erro de sentido?",
+            "alternativas": [
+              "Comprei um celulaar novo.",
+              "Eu foi na escola.",
+              "Nóis vamos.",
+              "Vou concertar a bicicleta."
+            ],
+            "correta": 3,
+            "explicacao": "Concertar existe (combinar, harmonizar), mas o certo para arrumar é consertar. Como a palavra existe, o corretor pode não perceber.",
+            "dica": "Procure a palavra que existe, mas tem outro sentido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer achar onde escreveu \"fotossíntese\" num texto de 10 páginas. O melhor é:",
+            "alternativas": [
+              "Usar Localizar (Ctrl + L)",
+              "Ler tudo de novo",
+              "Imprimir e procurar",
+              "Usar Substituir tudo"
+            ],
+            "correta": 0,
+            "explicacao": "Localizar mostra cada ocorrência.",
+            "dica": "Você quer achar, não trocar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem mais inteligente de revisão?",
+            "alternativas": [
+              "Só o corretor",
+              "Corretor do Word primeiro, depois leitura atenta sua",
+              "Só imprimir",
+              "Nenhuma revisão"
+            ],
+            "correta": 1,
+            "explicacao": "Ferramenta ajuda; leitura humana fecha.",
+            "dica": "Junte a ferramenta com a sua leitura."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Controle de caixa: anotar entradas e saídas do negócio",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Controle de caixa é anotar todo o dinheiro que entra e todo o dinheiro que sai do negócio. Entradas são as vendas; saídas são os gastos, como mercadoria, embalagem, transporte e aluguel da barraca.",
+          "A conta básica é: saldo = entradas − saídas. Se o saldo é positivo, sobrou dinheiro; se é negativo, o negócio gastou mais do que vendeu.",
+          "Anote tudo, até os gastos pequenos: o cafezinho, a sacolinha, a passagem. Muitos negócios quebram porque o dono acha que ganha bem, mas nunca fez a conta.",
+          "Regra de ouro: o dinheiro do negócio não é o dinheiro da casa. Misturar tudo faz o dono perder o controle."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Numa semana, a banca vendeu R$ 540 e gastou R$ 310. Qual é o saldo?",
+            "resolucao": "540 − 310 = R$ 230 de saldo positivo."
+          },
+          {
+            "enunciado": "Seu Chico vendeu R$ 85 na segunda, mas gastou R$ 90 de mercadoria. Como ficou o dia?",
+            "resolucao": "85 − 90 = −5. O dia fechou com saldo negativo de R$ 5."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um caderno com colunas resolve: Data | Descrição | Entrada | Saída | Saldo. No fim do dia, some cada coluna. Uma planilha faz isso automaticamente.",
+        "Com o caixa anotado, o dono descobre coisas: qual dia vende mais, qual produto dá mais lucro e onde está o desperdício. Decidir com números é muito melhor do que decidir no achismo.",
+        "O dono também deve se pagar um valor fixo, chamado pró-labore, em vez de tirar dinheiro do caixa a toda hora. Assim fica claro quanto o negócio realmente lucra."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No controle de caixa, as vendas são:",
+            "alternativas": [
+              "saídas",
+              "dívidas",
+              "impostos",
+              "entradas"
+            ],
+            "correta": 3,
+            "explicacao": "Venda é dinheiro que entra.",
+            "dica": "O dinheiro está entrando ou saindo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Comprar mercadoria para revender é:",
+            "alternativas": [
+              "uma saída",
+              "uma entrada",
+              "um lucro",
+              "um presente"
+            ],
+            "correta": 0,
+            "explicacao": "Gasto é saída.",
+            "dica": "O dinheiro sai do caixa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Saldo é:",
+            "alternativas": [
+              "entradas mais saídas",
+              "entradas menos saídas",
+              "só as saídas",
+              "só as entradas"
+            ],
+            "correta": 1,
+            "explicacao": "Saldo = entradas − saídas.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "É preciso anotar os gastos pequenos?",
+            "alternativas": [
+              "Não, só os grandes",
+              "Só no Natal",
+              "Sim, todos",
+              "Nunca"
+            ],
+            "correta": 2,
+            "explicacao": "Gastos pequenos somam muito.",
+            "dica": "Pense na sacolinha e no cafezinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dinheiro do negócio deve ser misturado com o da casa?",
+            "alternativas": [
+              "Sim, sempre",
+              "Só às sextas",
+              "Tanto faz",
+              "Não, deve ficar separado"
+            ],
+            "correta": 3,
+            "explicacao": "Separar dá controle.",
+            "dica": "Releia a regra de ouro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A banca vendeu R$ 540 e gastou R$ 310. Qual é o saldo?",
+            "alternativas": [
+              "R$ 230",
+              "R$ 850",
+              "R$ 210",
+              "R$ 330"
+            ],
+            "correta": 0,
+            "explicacao": "540 − 310 = 230.",
+            "dica": "Entradas menos saídas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Vendeu R$ 85 e gastou R$ 90. O saldo do dia foi:",
+            "alternativas": [
+              "R$ 5 positivo",
+              "R$ 5 negativo",
+              "R$ 175",
+              "zero"
+            ],
+            "correta": 1,
+            "explicacao": "85 − 90 = −5.",
+            "dica": "Gastou mais do que vendeu?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma saída do negócio?",
+            "alternativas": [
+              "Vender um bolo",
+              "Receber um Pix de cliente",
+              "Pagar a passagem para buscar mercadoria",
+              "Receber troco a mais"
+            ],
+            "correta": 2,
+            "explicacao": "Passagem é gasto.",
+            "dica": "Qual faz o dinheiro sair?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual coluna NÃO precisa existir no caderno de caixa?",
+            "alternativas": [
+              "Data",
+              "Entrada",
+              "Saída",
+              "Cor favorita"
+            ],
+            "correta": 3,
+            "explicacao": "As colunas são data, descrição, entrada, saída e saldo.",
+            "dica": "Qual não tem a ver com dinheiro?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o fechamento do caixa do dia:",
+            "itens": [
+              "Anotar cada venda e cada gasto",
+              "Somar as entradas",
+              "Somar as saídas",
+              "Calcular o saldo"
+            ],
+            "explicacao": "Anotar, somar entradas, somar saídas e calcular.",
+            "dica": "O saldo é a última conta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Seg R$ 85, ter R$ 120, qua R$ 95, qui R$ 110, sex R$ 130 de vendas. Qual foi o total de entradas?",
+            "alternativas": [
+              "R$ 530",
+              "R$ 540",
+              "R$ 550",
+              "R$ 450"
+            ],
+            "correta": 1,
+            "explicacao": "85 + 120 + 95 + 110 + 130 = 540.",
+            "dica": "Some de dois em dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nessa semana, qual dia vendeu mais?",
+            "alternativas": [
+              "terça",
+              "quinta",
+              "sexta",
+              "segunda"
+            ],
+            "correta": 2,
+            "explicacao": "130 é o maior valor.",
+            "dica": "Procure o maior número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é pró-labore?",
+            "alternativas": [
+              "Um imposto da feira",
+              "Uma multa",
+              "Um tipo de mercadoria",
+              "Um valor fixo que o dono se paga"
+            ],
+            "correta": 3,
+            "explicacao": "O dono se paga como um salário.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve anotar o caixa todo dia?",
+            "alternativas": [
+              "Descobrir o que vende mais e onde há desperdício",
+              "Só para enfeitar",
+              "Para pagar menos ao cliente",
+              "Para esconder o lucro"
+            ],
+            "correta": 0,
+            "explicacao": "Números ajudam a decidir.",
+            "dica": "Decidir com números ou no achismo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Entradas de R$ 300 e saídas de R$ 180 + R$ 45 + R$ 30. Qual é o saldo?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 45",
+              "R$ 75",
+              "R$ 55"
+            ],
+            "correta": 1,
+            "explicacao": "180 + 45 + 30 = 255; 300 − 255 = 45.",
+            "dica": "Some as saídas antes."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Seu Chico tirou R$ 20 do caixa por dia, durante 6 dias, para despesas da casa, sem anotar. Quanto dinheiro sumiu das contas do negócio?",
+            "alternativas": [
+              "R$ 20",
+              "R$ 26",
+              "R$ 120",
+              "R$ 600"
+            ],
+            "correta": 2,
+            "explicacao": "6 × 20 = 120 saíram sem registro.",
+            "dica": "Multiplique o valor pelos dias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Semana: entradas R$ 540; mercadoria R$ 250; sacolas R$ 18; transporte R$ 42; pró-labore R$ 150. Quanto sobra para o negócio?",
+            "alternativas": [
+              "R$ 230",
+              "R$ 90",
+              "R$ 70",
+              "R$ 80"
+            ],
+            "correta": 3,
+            "explicacao": "250 + 18 + 42 + 150 = 460; 540 − 460 = 80.",
+            "dica": "Some todas as saídas, inclusive o pró-labore."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o principal risco de misturar o dinheiro da casa e do negócio?",
+            "alternativas": [
+              "Perder a noção de quanto o negócio lucra",
+              "Pagar menos impostos",
+              "Vender mais",
+              "Ficar rico mais rápido"
+            ],
+            "correta": 0,
+            "explicacao": "Misturar esconde o resultado real.",
+            "dica": "Releia a regra de ouro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma banca vende R$ 400 por semana e gasta R$ 430. Qual decisão faz sentido?",
+            "alternativas": [
+              "Continuar igual",
+              "Rever os gastos e os preços com base nas anotações",
+              "Parar de anotar",
+              "Gastar mais"
+            ],
+            "correta": 1,
+            "explicacao": "Saldo negativo pede ajuste.",
+            "dica": "O saldo é positivo ou negativo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 4 semanas, saldos de R$ 80, R$ −20, R$ 60 e R$ 100. Qual foi o resultado do mês?",
+            "alternativas": [
+              "R$ 260",
+              "R$ 240",
+              "R$ 220",
+              "R$ 200"
+            ],
+            "correta": 2,
+            "explicacao": "80 − 20 + 60 + 100 = 220.",
+            "dica": "O negativo diminui a soma."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Ortografia: X ou CH?",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "X e CH podem ter o mesmo som: xícara e chícara? Só a primeira existe! Por isso, vale conhecer algumas regras.",
+          "Use X depois de ditongo (duas vogais juntas na mesma sílaba): caixa, peixe, ameixa, frouxo, trouxa. (Exceções: guache e recauchutar.)",
+          "Use X depois da sílaba inicial EN: enxada, enxame, enxergar, enxugar. Exceção: palavras que vêm de outras com CH, como encher (de cheio) e encharcar (de charco).",
+          "Use X depois da sílaba inicial ME: mexer, mexerica, México. (Exceção: mecha.) E em palavras de origem indígena ou africana: abacaxi, xavante, orixá."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Enxergar ou enchergar?",
+            "resolucao": "Enxergar, com X, porque vem depois de EN."
+          },
+          {
+            "enunciado": "Encher ou enxer?",
+            "resolucao": "Encher, com CH, porque vem de cheio."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Algumas palavras mudam de sentido conforme a letra: cheque (folha de pagamento do banco) e xeque (lance no jogo de xadrez); chá (bebida) e xá (antigo rei da Pérsia); tacha (prego pequeno) e taxa (valor cobrado).",
+        "Muitas palavras com CH precisam ser decoradas: chave, chuva, chapéu, cachorro, mochila, salsicha, chiclete. Ler bastante ajuda a guardar a forma certa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está escrita certo?",
+            "alternativas": [
+              "caixa",
+              "caicha",
+              "caxa",
+              "caichá"
+            ],
+            "correta": 0,
+            "explicacao": "Depois de ditongo, use X.",
+            "dica": "Lembre da regra do ditongo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está escrita certo?",
+            "alternativas": [
+              "enchada",
+              "enxada",
+              "inxada",
+              "enxáda"
+            ],
+            "correta": 1,
+            "explicacao": "Depois de EN, use X.",
+            "dica": "Lembre da regra do EN."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está escrita certo?",
+            "alternativas": [
+              "abacachi",
+              "abacaxe",
+              "abacaxi",
+              "abacachí"
+            ],
+            "correta": 2,
+            "explicacao": "Palavra de origem indígena, com X.",
+            "dica": "É uma fruta de origem indígena."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está escrita certo?",
+            "alternativas": [
+              "xuva",
+              "chúva",
+              "xúva",
+              "chuva"
+            ],
+            "correta": 3,
+            "explicacao": "Chuva se escreve com CH.",
+            "dica": "É uma palavra para decorar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está escrita certo?",
+            "alternativas": [
+              "peixe",
+              "peiche",
+              "pexe",
+              "peichi"
+            ],
+            "correta": 0,
+            "explicacao": "Ditongo EI pede X.",
+            "dica": "Veja as duas vogais juntas antes."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está escrita certo?",
+            "alternativas": [
+              "enxer",
+              "encher",
+              "inxer",
+              "encer"
+            ],
+            "correta": 1,
+            "explicacao": "Vem de cheio, então CH.",
+            "dica": "De qual palavra ela vem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está escrita certo?",
+            "alternativas": [
+              "mecherica",
+              "mexirica",
+              "mexerica",
+              "mecherrica"
+            ],
+            "correta": 2,
+            "explicacao": "Depois de ME, use X.",
+            "dica": "Lembre da regra do ME."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está escrita certo?",
+            "alternativas": [
+              "enchergar",
+              "inxergar",
+              "enxerjar",
+              "enxergar"
+            ],
+            "correta": 3,
+            "explicacao": "Depois de EN, X.",
+            "dica": "Lembre da regra do EN."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é exceção da regra do ditongo?",
+            "alternativas": [
+              "guache",
+              "caixa",
+              "ameixa",
+              "trouxa"
+            ],
+            "correta": 0,
+            "explicacao": "Guache tem ditongo e CH.",
+            "dica": "Uma delas usa CH mesmo depois de ditongo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem alfabética:",
+            "itens": [
+              "ameixa",
+              "chave",
+              "enxame",
+              "mochila"
+            ],
+            "explicacao": "A, C, E, M.",
+            "dica": "Olhe a primeira letra."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Paguei a conta com um ___ do banco.\"",
+            "alternativas": [
+              "xeque",
+              "cheke",
+              "cheque",
+              "xeke"
+            ],
+            "correta": 2,
+            "explicacao": "Cheque é a folha de pagamento do banco.",
+            "dica": "Pense no banco, não no xadrez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"No xadrez, o rei ficou em ___.\"",
+            "alternativas": [
+              "cheque",
+              "cheke",
+              "chequi",
+              "xeque"
+            ],
+            "correta": 3,
+            "explicacao": "Xeque é o lance do xadrez.",
+            "dica": "Pense no jogo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"A prefeitura cobra uma ___ de lixo.\"",
+            "alternativas": [
+              "taxa",
+              "tacha",
+              "tachá",
+              "taxá"
+            ],
+            "correta": 0,
+            "explicacao": "Taxa é valor cobrado.",
+            "dica": "Tacha é um prego pequeno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Encharcar leva CH porque:",
+            "alternativas": [
+              "vem depois de ditongo",
+              "vem de charco",
+              "é palavra africana",
+              "vem depois de ME"
+            ],
+            "correta": 1,
+            "explicacao": "Derivada de palavra com CH mantém o CH.",
+            "dica": "Procure a palavra de origem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alternativa está toda certa?",
+            "alternativas": [
+              "mecher, enxugar, frouxo",
+              "mexer, enchugar, frouxo",
+              "mexer, enxugar, frouxo",
+              "mexer, enxugar, froucho"
+            ],
+            "correta": 2,
+            "explicacao": "ME + X, EN + X, ditongo + X.",
+            "dica": "Teste cada palavra numa regra."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos erros há em \"O menino enchugou a xícara e colocou na caicha\"?",
+            "alternativas": [
+              "1",
+              "3",
+              "0",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "Enxugou e caixa estão errados; xícara está certo.",
+            "dica": "Teste cada palavra com X ou CH."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra quebra a regra do ME?",
+            "alternativas": [
+              "mecha",
+              "mexer",
+              "mexerica",
+              "México"
+            ],
+            "correta": 0,
+            "explicacao": "Mecha é a exceção.",
+            "dica": "Releia as exceções da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Ele tomou xá enquanto enxugava a louça.",
+              "Ele tomou chá enquanto enxugava a louça.",
+              "Ele tomou chá enquanto enchugava a louça.",
+              "Ele tomou xá enquanto enchugava a louça."
+            ],
+            "correta": 1,
+            "explicacao": "Chá (bebida) e enxugar (EN + X).",
+            "dica": "Uma palavra é bebida; a outra segue a regra do EN."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Recauchutar leva CH mesmo depois de ditongo. Isso significa que:",
+            "alternativas": [
+              "a regra está errada",
+              "todas as palavras com ditongo usam CH",
+              "é uma exceção à regra",
+              "deve ser escrita com X"
+            ],
+            "correta": 2,
+            "explicacao": "Toda regra tem algumas exceções.",
+            "dica": "Releia as exceções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par tem o mesmo som e sentidos diferentes?",
+            "alternativas": [
+              "chave e chuva",
+              "caixa e peixe",
+              "mexer e mexerica",
+              "tacha e taxa"
+            ],
+            "correta": 3,
+            "explicacao": "Tacha é prego; taxa é cobrança.",
+            "dica": "Procure palavras que soam igual."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O caderninho do seu Chico",
+    "texto": "Seu Chico vendia frutas na feira havia anos e sempre dizia:\n\n— A banca vai bem, graças a Deus!\n\nMas no fim do mês o dinheiro nunca dava. A filha, Marta, que fazia faculdade de administração, deu a ele um caderninho de capa azul.\n\n— Pai, anote tudo: o que entra e o que sai. Tudo mesmo.\n\nNo começo ele achou bobagem. Depois, foi anotando: a caixa de mexerica, o frete, o cafezinho, as sacolas, o almoço, os trocados que tirava para a casa.\n\nNo sábado, os dois sentaram para somar. Entradas: R$ 1.480. Saídas: R$ 1.390.\n\n— Só noventa reais de sobra? — espantou-se ele.\n\nO caderninho mostrou mais: as sacolas custavam caro e o abacaxi quase não dava lucro, porque metade estragava.\n\nSeu Chico trocou de fornecedor de sacolas, passou a comprar menos abacaxi e separou o dinheiro da casa num envelope.\n\nUm mês depois, o caderninho já mostrava outro número. E ele nunca mais vendeu nada sem anotar."
+  },
+  "escrita": {
+    "proposta": "Invente uma semana de vendas de uma banca (de frutas, doces ou artesanato). Escreva em 6 a 8 linhas as entradas de cada dia, as saídas (mercadoria, sacolas, transporte) e quanto sobrou no fim. Diga também uma decisão que o dono poderia tomar olhando esses números."
+  }
+}

@@ -1,0 +1,1505 @@
+{
+  "dia": 49,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Trigonometria: seno, cosseno e tangente",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "No triângulo retângulo, escolhido um ângulo agudo, os catetos ganham nomes: o cateto oposto fica de frente para o ângulo, e o cateto adjacente fica ao lado dele (junto com a hipotenusa).",
+          "As razões trigonométricas são: seno = cateto oposto / hipotenusa; cosseno = cateto adjacente / hipotenusa; tangente = cateto oposto / cateto adjacente.",
+          "No triângulo 3-4-5, para o ângulo oposto ao lado 3: sen = 3/5 = 0,6; cos = 4/5 = 0,8; tg = 3/4 = 0,75.",
+          "Ângulos notáveis: sen 30° = 0,5, cos 30° ≈ 0,87 e tg 30° ≈ 0,58; sen 45° = cos 45° ≈ 0,71 e tg 45° = 1; sen 60° ≈ 0,87, cos 60° = 0,5 e tg 60° ≈ 1,73.",
+          "Exemplo: uma pipa está presa por 50 m de linha esticada, que faz 30° com o chão. A altura é o cateto oposto: h = 50 · sen 30° = 50 · 0,5 = 25 m."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma escada de 10 m está encostada num muro, fazendo 60° com o chão. A que distância do muro está o pé da escada?",
+            "resolucao": "A distância é o cateto adjacente: 10 · cos 60° = 10 · 0,5 = 5 m. A altura alcançada é 10 · sen 60° ≈ 8,66 m."
+          },
+          {
+            "enunciado": "Do chão, a 20 m de um prédio, você vê o topo sob um ângulo de 45°. Qual é a altura?",
+            "resolucao": "tg 45° = h / 20, e tg 45° = 1. Então h = 20 m."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Inclinação de rampa é a tangente: altura dividida pelo comprimento horizontal. A norma de acessibilidade da ABNT recomenda, em geral, inclinação de até 8,33% (1 de altura para 12 de comprimento), o que dá um ângulo de cerca de 4,8°. Para subir 0,5 m, a rampa precisa de pelo menos 6 m de comprimento horizontal.",
+        "Relação fundamental: sen² + cos² = 1, que vem de Pitágoras. Se sen = 0,6, então cos² = 1 − 0,36 = 0,64 e cos = 0,8.",
+        "Altura dos olhos conta: uma pessoa com os olhos a 1,5 m do chão, a 30 m de uma torre, vê o topo sob 30°. A parte acima dos olhos é 30 · tg 30° ≈ 17,3 m; somando 1,5 m, a torre tem cerca de 18,8 m."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Seno de um ângulo é:",
+            "alternativas": [
+              "adjacente / hipotenusa",
+              "oposto / hipotenusa",
+              "oposto / adjacente",
+              "hipotenusa / oposto"
+            ],
+            "correta": 1,
+            "explicacao": "Seno usa o cateto oposto e a hipotenusa.",
+            "dica": "Lembre: o seno começa pelo oposto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Tangente é:",
+            "alternativas": [
+              "oposto / adjacente",
+              "adjacente / hipotenusa",
+              "hipotenusa / adjacente",
+              "oposto / hipotenusa"
+            ],
+            "correta": 0,
+            "explicacao": "Tangente não usa a hipotenusa.",
+            "dica": "É a única que usa só os catetos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de sen 30°?",
+            "alternativas": [
+              "1",
+              "0,87",
+              "0,5",
+              "1,73"
+            ],
+            "correta": 2,
+            "explicacao": "sen 30° = 1/2.",
+            "dica": "É a metade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de tg 45°?",
+            "alternativas": [
+              "0,5",
+              "0,71",
+              "1,73",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "Os catetos são iguais.",
+            "dica": "No ângulo de 45°, os catetos são iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O cateto que fica de frente para o ângulo é o:",
+            "alternativas": [
+              "oposto",
+              "adjacente",
+              "hipotenusa",
+              "altura"
+            ],
+            "correta": 0,
+            "explicacao": "Oposto = do outro lado.",
+            "dica": "Fica de frente."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Linha de pipa de 50 m faz 30° com o chão. Qual é a altura da pipa?",
+            "alternativas": [
+              "50 m",
+              "25 m",
+              "43,5 m",
+              "100 m"
+            ],
+            "correta": 1,
+            "explicacao": "50 · sen 30° = 25.",
+            "dica": "A altura é o cateto oposto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Escada de 10 m faz 60° com o chão. A que distância do muro está o pé?",
+            "alternativas": [
+              "5 m",
+              "8,66 m",
+              "10 m",
+              "6 m"
+            ],
+            "correta": 0,
+            "explicacao": "10 · cos 60° = 5.",
+            "dica": "A distância é o cateto adjacente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No triângulo 3-4-5, qual é o cosseno do ângulo oposto ao lado 3?",
+            "alternativas": [
+              "0,6",
+              "0,75",
+              "0,8",
+              "1,33"
+            ],
+            "correta": 2,
+            "explicacao": "cos = 4/5.",
+            "dica": "Adjacente sobre hipotenusa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A 20 m de um prédio, o topo é visto sob 45°. Qual é a altura?",
+            "alternativas": [
+              "10 m",
+              "28 m",
+              "40 m",
+              "20 m"
+            ],
+            "correta": 3,
+            "explicacao": "tg 45° = 1, então h = 20.",
+            "dica": "Use a tangente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um avião decola em linha reta a 30° e percorre 2.000 m. A que altura chega?",
+            "alternativas": [
+              "1.000 m",
+              "1.740 m",
+              "2.000 m",
+              "500 m"
+            ],
+            "correta": 0,
+            "explicacao": "2.000 · sen 30° = 1.000.",
+            "dica": "A trajetória é a hipotenusa."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma rampa sobe 0,6 m em 5 m de comprimento horizontal. Qual é a inclinação?",
+            "alternativas": [
+              "6%",
+              "12%",
+              "8,33%",
+              "30%"
+            ],
+            "correta": 1,
+            "explicacao": "0,6 / 5 = 0,12 = 12%.",
+            "dica": "Tangente = altura / comprimento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se sen x = 0,6, quanto vale cos x (x agudo)?",
+            "alternativas": [
+              "0,4",
+              "0,36",
+              "0,8",
+              "0,64"
+            ],
+            "correta": 2,
+            "explicacao": "cos² = 1 − 0,36 = 0,64; cos = 0,8.",
+            "dica": "Use sen² + cos² = 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para subir 0,5 m com inclinação de 1 para 12, qual é o comprimento horizontal mínimo?",
+            "alternativas": [
+              "5 m",
+              "12 m",
+              "0,6 m",
+              "6 m"
+            ],
+            "correta": 3,
+            "explicacao": "0,5 · 12 = 6 m.",
+            "dica": "Cada 1 de altura pede 12 de comprimento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Escada de 8 m faz 30° com o chão. Que altura alcança no muro?",
+            "alternativas": [
+              "4 m",
+              "6,9 m",
+              "8 m",
+              "2 m"
+            ],
+            "correta": 0,
+            "explicacao": "8 · sen 30° = 4.",
+            "dica": "A altura é o cateto oposto ao ângulo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para resolver um problema de trigonometria.",
+            "itens": [
+              "Desenhar o triângulo retângulo",
+              "Marcar o ângulo conhecido",
+              "Identificar oposto, adjacente e hipotenusa",
+              "Escolher a razão que liga o que tenho ao que quero",
+              "Calcular"
+            ],
+            "explicacao": "Desenho, ângulo, nomes, razão e conta.",
+            "dica": "A razão depende dos nomes dos lados."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Olhos a 1,5 m do chão, a 30 m de uma torre, topo visto sob 30°. Qual é a altura aproximada da torre?",
+            "alternativas": [
+              "17,3 m",
+              "18,8 m",
+              "15 m",
+              "31,5 m"
+            ],
+            "correta": 1,
+            "explicacao": "30 · tg 30° ≈ 17,3; somando 1,5 m, cerca de 18,8 m.",
+            "dica": "Não esqueça a altura dos olhos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A 20 m de um prédio, o topo é visto sob 60°. Qual é a altura aproximada?",
+            "alternativas": [
+              "10 m",
+              "17,3 m",
+              "34,6 m",
+              "40 m"
+            ],
+            "correta": 2,
+            "explicacao": "20 · tg 60° ≈ 20 · 1,73 = 34,6 m.",
+            "dica": "Use tg 60°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma rampa com 12% de inclinação está dentro do limite de 8,33%?",
+            "alternativas": [
+              "Sim, porque 12 é múltiplo de 12",
+              "Sim, sobra margem",
+              "Depende da cor",
+              "Não, ela é mais íngreme que o recomendado"
+            ],
+            "correta": 3,
+            "explicacao": "12% > 8,33%: rampa íngreme demais.",
+            "dica": "Compare as porcentagens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num triângulo retângulo, tg x = 1. Quanto mede x e o que isso diz dos catetos?",
+            "alternativas": [
+              "45°, catetos iguais",
+              "30°, cateto oposto menor",
+              "60°, cateto oposto maior",
+              "90°, sem catetos"
+            ],
+            "correta": 0,
+            "explicacao": "Oposto / adjacente = 1: catetos iguais.",
+            "dica": "Quando a divisão dá 1?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma escada de 12 m faz 60° com o chão. O pé dela fica a 6 m do muro?",
+            "alternativas": [
+              "Não, deveria ficar a 12 m",
+              "Sim, pois 12 · cos 60° = 6 m",
+              "Não, a 10,4 m",
+              "Sim, pois 12 · sen 60° = 6"
+            ],
+            "correta": 1,
+            "explicacao": "Distância = adjacente = 12 · 0,5 = 6.",
+            "dica": "Que razão liga hipotenusa e adjacente?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Salvar dados: JSON e armazenamento no navegador",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Ao recarregar a página, as variáveis do JavaScript somem. Para guardar dados no navegador, use o localStorage: localStorage.setItem(\"nome\", \"Bia\") salva; localStorage.getItem(\"nome\") lê; localStorage.removeItem(\"nome\") apaga.",
+          "O localStorage só guarda textos. Para guardar listas e objetos, transforme em JSON, um formato de texto que organiza dados: JSON.stringify(dados) vira texto; JSON.parse(texto) volta a ser lista ou objeto.",
+          "Exemplo de JSON: {\"nome\": \"Bia\", \"idade\": 14, \"ativa\": true, \"notas\": [7, 8.5, 9]}. Chaves e textos vão entre aspas duplas; números e true/false, sem aspas.",
+          "Salvar a lista de tarefas: localStorage.setItem(\"tarefas\", JSON.stringify(tarefas)); Ao abrir a página: const tarefas = JSON.parse(localStorage.getItem(\"tarefas\")) || []; O || [] cria uma lista vazia na primeira vez, quando ainda não há nada salvo (getItem devolve null).",
+          "Os dados ficam só naquele navegador, naquele aparelho. Se a pessoa limpar os dados do site ou trocar de celular, eles somem."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Salve e leia um placar.",
+            "resolucao": "localStorage.setItem(\"placar\", \"12\");\nconst placar = Number(localStorage.getItem(\"placar\"));\n// placar vale 12 (número), porque Number converte o texto."
+          },
+          {
+            "enunciado": "Salve um objeto aluno e leia o nome dele.",
+            "resolucao": "const aluno = { nome: \"Caio\", serie: 9 };\nlocalStorage.setItem(\"aluno\", JSON.stringify(aluno));\nconst lido = JSON.parse(localStorage.getItem(\"aluno\"));\nconsole.log(lido.nome); // Caio"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Erros comuns no JSON: aspas simples ('nome'), vírgula depois do último item ([1, 2, 3,]) e chaves sem aspas ({nome: \"Bia\"}). Qualquer um deles faz JSON.parse dar erro. JSON também não guarda funções.",
+        "Segurança e privacidade: qualquer código que rode na página consegue ler o localStorage. Nunca guarde senhas, número de cartão ou documentos ali. Para dados que precisam ser compartilhados entre aparelhos, usa-se um servidor ou banco de dados.",
+        "Sem JSON.stringify, salvar uma lista dá errado: localStorage.setItem(\"x\", [1, 2]) guarda o texto \"1,2\"; e salvar um objeto guarda \"[object Object]\", perdendo os dados."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando salva um dado no localStorage?",
+            "alternativas": [
+              "localStorage.getItem",
+              "localStorage.setItem",
+              "localStorage.print",
+              "console.log"
+            ],
+            "correta": 1,
+            "explicacao": "set = definir, guardar.",
+            "dica": "Set quer dizer definir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O localStorage guarda:",
+            "alternativas": [
+              "só textos",
+              "só imagens",
+              "só números",
+              "funções"
+            ],
+            "correta": 0,
+            "explicacao": "Por isso usamos JSON para listas e objetos.",
+            "dica": "Pense em por que o JSON é necessário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "JSON.stringify transforma um objeto em:",
+            "alternativas": [
+              "número",
+              "imagem",
+              "texto",
+              "botão"
+            ],
+            "correta": 2,
+            "explicacao": "Vira texto para poder salvar.",
+            "dica": "Lembre do que o localStorage aceita guardar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "JSON.parse faz:",
+            "alternativas": [
+              "apagar os dados",
+              "salvar no servidor",
+              "imprimir a página",
+              "transformar o texto de volta em lista ou objeto"
+            ],
+            "correta": 3,
+            "explicacao": "É o caminho de volta.",
+            "dica": "É o contrário do stringify."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os dados do localStorage ficam:",
+            "alternativas": [
+              "naquele navegador e aparelho",
+              "em todos os celulares do mundo",
+              "no e-mail",
+              "na nuvem automaticamente"
+            ],
+            "correta": 0,
+            "explicacao": "Só no navegador onde foram salvos.",
+            "dica": "Releia o último parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha lê o valor salvo com a chave \"nome\"?",
+            "alternativas": [
+              "localStorage.setItem(\"nome\")",
+              "localStorage.getItem(\"nome\")",
+              "localStorage.nome()",
+              "JSON.nome"
+            ],
+            "correta": 1,
+            "explicacao": "get = pegar.",
+            "dica": "Get quer dizer pegar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um JSON válido?",
+            "alternativas": [
+              "{\"nome\": \"Bia\", \"idade\": 14}",
+              "{nome: \"Bia\"}",
+              "{'nome': 'Bia'}",
+              "{\"nome\": \"Bia\",}"
+            ],
+            "correta": 0,
+            "explicacao": "Chaves com aspas duplas e sem vírgula no fim.",
+            "dica": "Confira as aspas e a vírgula final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que se usa || [] ao ler a lista de tarefas?",
+            "alternativas": [
+              "Para apagar a lista",
+              "Para dobrar a lista",
+              "Para criar lista vazia quando ainda não há nada salvo",
+              "Para ordenar a lista"
+            ],
+            "correta": 2,
+            "explicacao": "Na primeira vez, getItem devolve null.",
+            "dica": "O que existe na primeira visita?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para guardar uma lista no localStorage, primeiro é preciso:",
+            "alternativas": [
+              "usar JSON.parse",
+              "usar Number",
+              "apagar a lista",
+              "usar JSON.stringify"
+            ],
+            "correta": 3,
+            "explicacao": "Transformar a lista em texto.",
+            "dica": "O localStorage só aceita texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando apaga um item salvo?",
+            "alternativas": [
+              "localStorage.removeItem(\"chave\")",
+              "localStorage.delete",
+              "JSON.remove",
+              "localStorage.getItem(\"chave\")"
+            ],
+            "correta": 0,
+            "explicacao": "remove = remover.",
+            "dica": "Remover, em inglês."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fica salvo com localStorage.setItem(\"x\", {a: 1})?",
+            "alternativas": [
+              "{\"a\":1}",
+              "\"[object Object]\"",
+              "1",
+              "Nada, dá erro"
+            ],
+            "correta": 1,
+            "explicacao": "Sem stringify, o objeto vira esse texto inútil.",
+            "dica": "Faltou transformar em JSON."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "localStorage.setItem(\"p\", \"10\"). Quanto vale localStorage.getItem(\"p\") + 5?",
+            "alternativas": [
+              "15",
+              "erro",
+              "\"105\"",
+              "\"15\""
+            ],
+            "correta": 2,
+            "explicacao": "getItem devolve texto; o + junta: \"105\".",
+            "dica": "O que sai do localStorage é texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde NÃO se deve guardar senhas?",
+            "alternativas": [
+              "Em lugar nenhum da memória",
+              "No cofre",
+              "No gerenciador de senhas",
+              "No localStorage"
+            ],
+            "correta": 3,
+            "explicacao": "Qualquer código da página consegue ler.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual código salva a lista tarefas corretamente?",
+            "alternativas": [
+              "localStorage.setItem(\"tarefas\", JSON.stringify(tarefas));",
+              "localStorage.setItem(\"tarefas\", tarefas.parse());",
+              "localStorage.getItem(tarefas);",
+              "JSON.parse(\"tarefas\", tarefas);"
+            ],
+            "correta": 0,
+            "explicacao": "stringify antes de salvar.",
+            "dica": "Salvar pede set e stringify."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o caminho de uma lista até ser salva e lida de novo.",
+            "itens": [
+              "Criar a lista em JavaScript",
+              "Transformar em texto com JSON.stringify",
+              "Salvar com localStorage.setItem",
+              "Ler com localStorage.getItem",
+              "Voltar a ser lista com JSON.parse"
+            ],
+            "explicacao": "Lista, texto, salvar, ler, lista de novo.",
+            "dica": "O parse é o último."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes JSON tem ERRO?",
+            "alternativas": [
+              "{\"notas\": [7, 8.5, 9]}",
+              "{\"ativo\": true}",
+              "{\"itens\": [1, 2, 3,]}",
+              "{\"nome\": null}"
+            ],
+            "correta": 2,
+            "explicacao": "Vírgula depois do último item é proibida no JSON.",
+            "dica": "Olhe o fim da lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um app guarda as tarefas no localStorage. A pessoa abre no celular e não vê as tarefas que criou no computador. Por quê?",
+            "alternativas": [
+              "O JSON está errado",
+              "O celular apagou tudo",
+              "O localStorage tem limite de 1 tarefa",
+              "O localStorage fica só no navegador onde foi salvo"
+            ],
+            "correta": 3,
+            "explicacao": "Cada aparelho e navegador tem o seu.",
+            "dica": "Onde os dados ficam guardados?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Após const t = JSON.parse(localStorage.getItem(\"t\")) || []; t.push(\"ler\"); o que falta para a nova tarefa sobreviver ao recarregar?",
+            "alternativas": [
+              "localStorage.setItem(\"t\", JSON.stringify(t));",
+              "Nada",
+              "console.log(t);",
+              "t.parse();"
+            ],
+            "correta": 0,
+            "explicacao": "Mudar a variável não muda o que está salvo.",
+            "dica": "A mudança foi salva?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "JSON.parse(\"[1, 2, 3]\").length vale:",
+            "alternativas": [
+              "7",
+              "3",
+              "9",
+              "erro"
+            ],
+            "correta": 1,
+            "explicacao": "Vira uma lista com 3 números.",
+            "dica": "Conte os itens da lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que JSON é tão usado entre sistemas diferentes?",
+            "alternativas": [
+              "Porque é uma imagem",
+              "Porque só funciona em JavaScript",
+              "Porque é texto simples e organizado, que muitas linguagens leem",
+              "Porque é secreto"
+            ],
+            "correta": 2,
+            "explicacao": "Python, Java, apps e servidores entendem JSON.",
+            "dica": "Pense em texto que todos leem."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Modelo reutilizável: orçamento profissional com campos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Modelo é um documento-base que você reaproveita sempre: orçamento, recibo, declaração. Em Arquivo > Salvar como, escolha o tipo Modelo do Word (.dotx). Ao abrir o modelo com dois cliques, o Word cria um documento novo, e o original fica intacto.",
+          "Um orçamento profissional tem: logotipo e dados de quem oferece (nome, CNPJ ou CPF, telefone), dados do cliente, data, tabela com itens (descrição, quantidade, valor unitário e total), total geral, prazo, forma de pagamento e validade do orçamento.",
+          "Campos automáticos: Inserir > Partes Rápidas > Campo > Date insere a data que se atualiza. Na tabela, Layout > Fórmula com =SUM(ABOVE) soma os valores acima. Depois de mudar números, selecione e aperte F9 para atualizar.",
+          "Controles de conteúdo deixam espaços para preencher: na guia Desenvolvedor (ative em Arquivo > Opções > Personalizar Faixa de Opções), use Controle de Texto para \"Nome do cliente\", Seletor de Data e Lista Suspensa para \"Forma de pagamento\" (Pix, cartão, boleto).",
+          "Visual limpo: uma fonte, cores da marca, alinhamento em tabela e o total em destaque. Salve o orçamento preenchido em PDF antes de enviar ao cliente."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Monte a tabela de um orçamento de pintura: 3 portas a R$ 45 e 2 paredes a R$ 120.",
+            "resolucao": "Linhas: Porta | 3 | 45,00 | 135,00 e Parede | 2 | 120,00 | 240,00. Total com =SUM(ABOVE): R$ 375,00."
+          },
+          {
+            "enunciado": "Por que salvar como .dotx e não como .docx?",
+            "resolucao": "O .dotx abre sempre um documento novo e protege o modelo. Com .docx, a pessoa corre o risco de escrever por cima do original."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Validade e condições evitam problema: \"Orçamento válido por 15 dias\" protege contra a alta de preço dos materiais. Para o consumidor, o CDC diz que o orçamento deve discriminar materiais, mão de obra, pagamento e datas, e que, aprovado, obriga quem fez.",
+        "Lista Suspensa evita erros de digitação, e o Controle de Texto com texto de instrução (\"Clique para digitar o nome\") guia quem preenche. Em Propriedades, dá para impedir que o controle seja apagado.",
+        "Desconto ou acréscimo: crie uma linha com o valor e use fórmula no total, por exemplo =C4*1,1 para 10% a mais, ou =C4*0,9 para 10% de desconto. Confira o resultado com a calculadora antes de enviar."
+      ],
+      "desafio_pratico": "Crie no Word um modelo de orçamento para um serviço que você ou alguém da família poderia oferecer (aulas de reforço, bolos, pequenos consertos). Coloque cabeçalho com nome e telefone, data automática, Controle de Texto para o nome do cliente, Lista Suspensa com Pix, cartão e boleto, tabela com pelo menos 3 itens e total com =SUM(ABOVE), validade de 15 dias. Salve como .dotx, abra com dois cliques, preencha um orçamento de teste, aperte F9 no total e salve em PDF.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual extensão tem o modelo do Word?",
+            "alternativas": [
+              ".docx",
+              ".dotx",
+              ".pdf",
+              ".xlsx"
+            ],
+            "correta": 1,
+            "explicacao": "O t de dotx vem de template, modelo.",
+            "dica": "Tem um t no meio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao abrir um modelo com dois cliques, o Word:",
+            "alternativas": [
+              "cria um documento novo, sem mexer no original",
+              "apaga o modelo",
+              "imprime direto",
+              "fecha"
+            ],
+            "correta": 0,
+            "explicacao": "O modelo fica protegido.",
+            "dica": "O original é preservado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes itens deve estar num orçamento?",
+            "alternativas": [
+              "A cor favorita do cliente",
+              "O signo do vendedor",
+              "Validade do orçamento",
+              "A senha do Wi-Fi"
+            ],
+            "correta": 2,
+            "explicacao": "Validade, prazo, valores e pagamento.",
+            "dica": "Pense em algo que protege quem orçou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fórmula soma os valores acima numa tabela do Word?",
+            "alternativas": [
+              "=SOMA(ACIMA)",
+              "=TOTAL()",
+              "=MAIS(ABOVE)",
+              "=SUM(ABOVE)"
+            ],
+            "correta": 3,
+            "explicacao": "No Word, a fórmula fica em inglês.",
+            "dica": "Fica em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para atualizar campos e fórmulas, aperte:",
+            "alternativas": [
+              "F9",
+              "F1",
+              "Esc",
+              "Ctrl+P"
+            ],
+            "correta": 0,
+            "explicacao": "F9 atualiza o campo selecionado.",
+            "dica": "É uma tecla de função."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Orçamento: 3 portas a R$ 45 e 2 paredes a R$ 120. Qual é o total?",
+            "alternativas": [
+              "R$ 165",
+              "R$ 375",
+              "R$ 330",
+              "R$ 405"
+            ],
+            "correta": 1,
+            "explicacao": "135 + 240 = 375.",
+            "dica": "Multiplique e some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se insere uma data que se atualiza sozinha?",
+            "alternativas": [
+              "Inserir > Partes Rápidas > Campo > Date",
+              "Página Inicial > Negrito",
+              "Layout > Margens",
+              "Revisão > Ortografia"
+            ],
+            "correta": 0,
+            "explicacao": "É um campo de data.",
+            "dica": "Procure em Partes Rápidas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para escolher a forma de pagamento entre opções fixas, use:",
+            "alternativas": [
+              "Controle de Imagem",
+              "WordArt",
+              "Lista Suspensa",
+              "Caixa de Texto"
+            ],
+            "correta": 2,
+            "explicacao": "Evita erros de digitação.",
+            "dica": "Uma lista que se abre."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A guia Desenvolvedor é ativada em:",
+            "alternativas": [
+              "Inserir > Desenvolvedor",
+              "Layout > Colunas",
+              "Revisão > Comentários",
+              "Arquivo > Opções > Personalizar Faixa de Opções"
+            ],
+            "correta": 3,
+            "explicacao": "Ela vem escondida.",
+            "dica": "Fica nas opções do Word."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de enviar o orçamento ao cliente, é bom:",
+            "alternativas": [
+              "salvar em PDF",
+              "apagar o total",
+              "trocar a fonte para várias",
+              "mandar o .dotx"
+            ],
+            "correta": 0,
+            "explicacao": "O PDF mantém o visual e é difícil de alterar.",
+            "dica": "Qual formato não desconfigura?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O total é R$ 375 e você quer dar 10% de desconto. Qual fórmula, se o total está em C4?",
+            "alternativas": [
+              "=C4*1,1",
+              "=C4*0,9",
+              "=C4-10",
+              "=C4/10"
+            ],
+            "correta": 1,
+            "explicacao": "375 × 0,9 = 337,50.",
+            "dica": "Desconto de 10% é pagar 90%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que incluir \"Orçamento válido por 15 dias\"?",
+            "alternativas": [
+              "Para enfeitar",
+              "Para cobrar multa",
+              "Para se proteger de mudanças de preço dos materiais",
+              "Porque o Word exige"
+            ],
+            "correta": 2,
+            "explicacao": "Depois do prazo, refaz-se o orçamento.",
+            "dica": "O preço do material pode mudar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Mudou a quantidade numa linha e o total não mudou. O que fazer?",
+            "alternativas": [
+              "Apagar a tabela",
+              "Digitar o total na mão sempre",
+              "Salvar como PDF",
+              "Selecionar o total e apertar F9"
+            ],
+            "correta": 3,
+            "explicacao": "Campos do Word não atualizam sozinhos.",
+            "dica": "Atualize o campo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Segundo o CDC, um orçamento aprovado pelo consumidor:",
+            "alternativas": [
+              "obriga quem fez a cumprir o que foi orçado",
+              "pode ser mudado a qualquer hora",
+              "não vale nada",
+              "só vale com cartório"
+            ],
+            "correta": 0,
+            "explicacao": "Também deve discriminar materiais, mão de obra, pagamento e prazos.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene a criação de um modelo de orçamento.",
+            "itens": [
+              "Montar cabeçalho com dados e logotipo",
+              "Criar a tabela de itens com fórmula de total",
+              "Inserir campos de data e controles de conteúdo",
+              "Salvar como Modelo do Word (.dotx)"
+            ],
+            "explicacao": "Estrutura, cálculo, campos e salvar como modelo.",
+            "dica": "Salvar como modelo é o fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Orçamento: 8 horas a R$ 25 e 4 peças a R$ 15. Qual é o total?",
+            "alternativas": [
+              "R$ 160",
+              "R$ 260",
+              "R$ 200",
+              "R$ 300"
+            ],
+            "correta": 1,
+            "explicacao": "200 + 60 = 260.",
+            "dica": "Calcule cada linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Total de R$ 375 com acréscimo de 10% para entrega urgente. Qual é o novo total?",
+            "alternativas": [
+              "R$ 385",
+              "R$ 337,50",
+              "R$ 412,50",
+              "R$ 450"
+            ],
+            "correta": 2,
+            "explicacao": "375 × 1,1 = 412,50.",
+            "dica": "Acréscimo de 10% é multiplicar por 1,1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o .docx é pior para um modelo usado por toda a equipe?",
+            "alternativas": [
+              "Porque não abre no Word",
+              "Porque não aceita tabelas",
+              "Porque não imprime",
+              "Porque alguém pode salvar por cima e estragar a base"
+            ],
+            "correta": 3,
+            "explicacao": "O .dotx protege o original.",
+            "dica": "O que acontece ao clicar em Salvar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual configuração impede que quem preenche apague o campo \"Nome do cliente\"?",
+            "alternativas": [
+              "Propriedades do controle: impedir que seja excluído",
+              "Negrito",
+              "Tamanho 14",
+              "Cor vermelha"
+            ],
+            "correta": 0,
+            "explicacao": "Nas propriedades do controle de conteúdo.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um orçamento de R$ 260 foi aprovado com 20% de entrada por Pix. Quanto falta pagar na entrega?",
+            "alternativas": [
+              "R$ 52",
+              "R$ 208",
+              "R$ 240",
+              "R$ 200"
+            ],
+            "correta": 1,
+            "explicacao": "Entrada: 20% de 260 = 52. Falta 260 − 52 = R$ 208 (ou 80% de 260).",
+            "dica": "Calcule a entrada e desconte do total."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Feedback, metas e motivação: liderar sem humilhar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Feedback é o retorno sobre o trabalho de alguém. Bom feedback é específico, fala do comportamento (não da pessoa), é dado logo depois do fato e com respeito. A regra prática: elogie em público, corrija em particular.",
+          "Modelo SCI: Situação (quando e onde), Comportamento (o que a pessoa fez) e Impacto (o efeito). Exemplo: \"Ontem, no fechamento (S), o caixa ficou sem conferência (C), e faltaram R$ 50 sem explicação (I). Vamos usar o checklist juntos?\"",
+          "Metas boas são claras e medidas: específicas, mensuráveis, possíveis, importantes e com prazo. \"Vender mais\" é vago; \"vender 400 marmitas em novembro\" é meta.",
+          "Motivação vem de salário justo e em dia, reconhecimento, chance de aprender e crescer, autonomia e um ambiente de respeito. Ninguém rende bem com medo.",
+          "Humilhar, gritar, expor ou ameaçar repetidamente pode ser assédio moral, que gera processo na Justiça do Trabalho, indenização e perda dos bons funcionários. Liderar é exigir resultado com respeito."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A meta era 400 marmitas e a equipe vendeu 340. Quanto da meta foi atingido?",
+            "resolucao": "340 / 400 = 0,85 = 85% da meta."
+          },
+          {
+            "enunciado": "Transforme em feedback SCI: \"Você é muito desligado!\"",
+            "resolucao": "\"Hoje de manhã (S), dois pedidos saíram sem a bebida (C), e os clientes reclamaram (I). Como podemos evitar isso? Que tal conferir a comanda antes de fechar a sacola?\""
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Bônus por meta, se previsto de forma clara, motiva sem injustiça: 5% sobre o lucro de cada marmita vendida acima da meta, por exemplo. Se cada marmita extra dá R$ 50 de lucro e a equipe vendeu 460 com meta de 400, o bônus é 5% de 60 × 50 = R$ 150.",
+        "Feedback também é ouvir: pergunte o que atrapalha o trabalho. Muitas vezes o erro vem do processo (falta de material, checklist confuso), e não da pessoa.",
+        "Metas impossíveis desmotivam e levam a atalhos errados. Uma meta 10% acima do resultado anterior (de 400 para 440, por exemplo) desafia sem desanimar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Feedback é:",
+            "alternativas": [
+              "um castigo",
+              "o retorno sobre o trabalho de alguém",
+              "um tipo de salário",
+              "uma multa"
+            ],
+            "correta": 1,
+            "explicacao": "Retorno para melhorar.",
+            "dica": "Feed back: devolver informação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A regra prática é:",
+            "alternativas": [
+              "elogiar em público e corrigir em particular",
+              "corrigir em público",
+              "nunca elogiar",
+              "gritar para ser ouvido"
+            ],
+            "correta": 0,
+            "explicacao": "Respeita a pessoa.",
+            "dica": "Correção em particular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bom feedback fala:",
+            "alternativas": [
+              "da aparência da pessoa",
+              "da família da pessoa",
+              "do comportamento",
+              "de fofoca"
+            ],
+            "correta": 2,
+            "explicacao": "Fala do que foi feito, não de quem a pessoa é.",
+            "dica": "Foco no que foi feito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma meta bem escrita?",
+            "alternativas": [
+              "Vender mais",
+              "Melhorar",
+              "Ser o melhor",
+              "Vender 400 marmitas em novembro"
+            ],
+            "correta": 3,
+            "explicacao": "Específica, medida e com prazo.",
+            "dica": "Tem número e prazo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Humilhar funcionários repetidamente pode ser:",
+            "alternativas": [
+              "assédio moral",
+              "boa liderança",
+              "obrigatório",
+              "um prêmio"
+            ],
+            "correta": 0,
+            "explicacao": "Gera processo e indenização.",
+            "dica": "Releia o último parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Meta de 400, vendeu 340. Quanto da meta?",
+            "alternativas": [
+              "60%",
+              "85%",
+              "340%",
+              "75%"
+            ],
+            "correta": 1,
+            "explicacao": "340 / 400 = 85%.",
+            "dica": "Divida o vendido pela meta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No modelo SCI, o I significa:",
+            "alternativas": [
+              "Impacto",
+              "Insulto",
+              "Ideia",
+              "Imposto"
+            ],
+            "correta": 0,
+            "explicacao": "O efeito do comportamento.",
+            "dica": "É o efeito do que aconteceu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é um bom feedback?",
+            "alternativas": [
+              "Você é um desastre.",
+              "Todo mundo faz melhor que você.",
+              "Hoje dois pedidos saíram sem bebida e os clientes reclamaram; vamos conferir a comanda?",
+              "Se errar de novo, está na rua."
+            ],
+            "correta": 2,
+            "explicacao": "Situação, comportamento, impacto e solução.",
+            "dica": "Qual descreve o fato e propõe saída?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mais motiva uma equipe no longo prazo?",
+            "alternativas": [
+              "Medo de demissão",
+              "Gritos",
+              "Ameaças",
+              "Salário em dia, reconhecimento e chance de crescer"
+            ],
+            "correta": 3,
+            "explicacao": "Respeito e perspectiva.",
+            "dica": "Ninguém rende com medo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando dar o feedback?",
+            "alternativas": [
+              "Logo depois do fato",
+              "Meses depois",
+              "Nunca",
+              "Só na demissão"
+            ],
+            "correta": 0,
+            "explicacao": "A pessoa lembra e pode corrigir.",
+            "dica": "Quanto antes, melhor."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Meta de 400, a equipe vendeu 460, lucro de R$ 50 por marmita extra, bônus de 5% sobre o lucro extra. Qual é o bônus?",
+            "alternativas": [
+              "R$ 3.000",
+              "R$ 230",
+              "R$ 150",
+              "R$ 60"
+            ],
+            "correta": 2,
+            "explicacao": "60 marmitas extras × 50 = 3.000; 5% = 150.",
+            "dica": "Ache as marmitas acima da meta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário erra sempre o fechamento do caixa. Antes de culpá-lo, o líder deve:",
+            "alternativas": [
+              "descontar do salário",
+              "trocar de funcionário",
+              "gritar",
+              "verificar se o processo e o treino estão claros"
+            ],
+            "correta": 3,
+            "explicacao": "O erro pode vir do processo.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A equipe vendeu 400 no mês passado. Qual meta desafia sem desanimar?",
+            "alternativas": [
+              "440",
+              "1.000",
+              "400",
+              "200"
+            ],
+            "correta": 0,
+            "explicacao": "Cerca de 10% acima.",
+            "dica": "Um pouco acima do resultado anterior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que corrigir em particular?",
+            "alternativas": [
+              "Porque é mais rápido",
+              "Para não expor a pessoa e manter o respeito",
+              "Porque é proibido falar em público",
+              "Para esconder o erro do dono"
+            ],
+            "correta": 1,
+            "explicacao": "Expor humilha e cria ressentimento.",
+            "dica": "Como você se sentiria exposto?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene um feedback no modelo SCI com solução.",
+            "itens": [
+              "Situação: quando e onde aconteceu",
+              "Comportamento: o que foi feito",
+              "Impacto: o efeito disso",
+              "Combinar juntos como melhorar"
+            ],
+            "explicacao": "S, C, I e plano.",
+            "dica": "A solução vem no fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma líder elogia em público, corrige em particular e define metas claras. Um líder grita e ameaça. A longo prazo, o que é mais provável?",
+            "alternativas": [
+              "A equipe que sofre gritos produz mais",
+              "A equipe da líder retém bons funcionários e o outro enfrenta rotatividade e risco de processo",
+              "Não há diferença",
+              "Os dois serão processados"
+            ],
+            "correta": 1,
+            "explicacao": "Respeito retém talentos; humilhação gera saída e processo.",
+            "dica": "Pense em quem fica e quem sai."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Meta \"vender 400 marmitas em novembro\". Qual elemento torna a meta MENSURÁVEL?",
+            "alternativas": [
+              "\"em novembro\"",
+              "\"vender\"",
+              "\"marmitas\"",
+              "\"400\""
+            ],
+            "correta": 3,
+            "explicacao": "O número permite medir.",
+            "dica": "O que dá para contar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O caixa terminou com R$ 50 a menos. Qual é a melhor fala do líder?",
+            "alternativas": [
+              "\"Ontem, no fechamento, faltaram R$ 50 e o caixa não foi conferido. Vamos rever o checklist e conferir juntos hoje?\"",
+              "\"Você roubou?\"",
+              "\"Vou descontar e pronto.\"",
+              "\"Todo mundo aqui é incompetente.\""
+            ],
+            "correta": 0,
+            "explicacao": "Fato, efeito e solução, sem acusação.",
+            "dica": "Use o modelo SCI."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Atingiu 85% da meta de 400. Quantas unidades faltaram?",
+            "alternativas": [
+              "15",
+              "85",
+              "60",
+              "340"
+            ],
+            "correta": 2,
+            "explicacao": "15% de 400 = 60 (ou 400 − 340).",
+            "dica": "Quanto falta para 100%?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que metas impossíveis são ruins?",
+            "alternativas": [
+              "Porque aumentam salários",
+              "Porque desmotivam e incentivam atalhos errados",
+              "Porque são ilegais",
+              "Porque são fáceis"
+            ],
+            "correta": 1,
+            "explicacao": "Quem sabe que não vai alcançar desiste ou trapaceia.",
+            "dica": "Releia o aprofundamento."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Literatura de cordel e cultura popular",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Literatura de cordel é poesia popular narrativa, muito forte no Nordeste. Os folhetos eram vendidos nas feiras pendurados em cordões, daí o nome. Em 2018, o cordel foi reconhecido pelo Iphan como Patrimônio Cultural Imaterial do Brasil.",
+          "As capas costumam ter xilogravura: um desenho entalhado em madeira, que vira carimbo. Os temas vão de histórias de cangaceiros e santos a casos engraçados, notícias, conselhos e lutas do povo.",
+          "A forma mais comum é a sextilha: estrofes de 6 versos com 7 sílabas poéticas (redondilha maior), em que rimam o 2º, o 4º e o 6º versos. Há também a setilha (7 versos) e a décima (10 versos).",
+          "Exemplo de sextilha (original): \"Escute, caro leitor, / o caso de Damião, / que vendia na quitanda / farinha, milho e feijão, / e um dia, numa viagem, / achou um baú no chão.\" Rimam Damião, feijão e chão.",
+          "O cordel nasceu para ser lido em voz alta e decorado: o ritmo e a rima ajudam a memória. Ele conversa com o repente e a cantoria, em que violeiros improvisam versos na hora."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Por que o nome \"cordel\"?",
+            "resolucao": "Porque os folhetos ficavam pendurados em cordões (cordéis) nas feiras para serem vendidos."
+          },
+          {
+            "enunciado": "Na sextilha de Damião, quais versos rimam?",
+            "resolucao": "O 2º (Damião), o 4º (feijão) e o 6º (chão). Os versos 1, 3 e 5 ficam livres."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Grandes nomes: Leandro Gomes de Barros, um dos pioneiros, que publicou centenas de folhetos no começo do século 20; José Pacheco; e xilogravuristas como J. Borges. Hoje, cordelistas publicam também na internet e em escolas.",
+        "Cultura popular é o conjunto de saberes, festas, músicas, histórias e artes criadas e transmitidas pelo próprio povo, muitas vezes de forma oral: cordel, repente, festa junina, maracatu, bumba meu boi, samba de roda.",
+        "O cordel mistura informação e arte: já foi usado para contar notícias a quem não tinha jornal e hoje aparece em campanhas de saúde e educação. A linguagem oral, o humor e a moral no fim aproximam o leitor."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A literatura de cordel é muito forte em qual região?",
+            "alternativas": [
+              "Sul",
+              "Nordeste",
+              "Centro-Oeste",
+              "Norte só"
+            ],
+            "correta": 1,
+            "explicacao": "Nasceu e se popularizou no Nordeste.",
+            "dica": "Pense nas feiras nordestinas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O nome cordel vem de:",
+            "alternativas": [
+              "cordões onde os folhetos ficavam pendurados",
+              "um autor chamado Cordel",
+              "uma cidade",
+              "um instrumento"
+            ],
+            "correta": 0,
+            "explicacao": "Cordel = cordão.",
+            "dica": "Como eram expostos nas feiras?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As capas de cordel costumam ter:",
+            "alternativas": [
+              "fotografias coloridas",
+              "mapas",
+              "xilogravura",
+              "gráficos"
+            ],
+            "correta": 2,
+            "explicacao": "Desenho entalhado em madeira.",
+            "dica": "Arte feita com madeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A sextilha tem quantos versos?",
+            "alternativas": [
+              "4",
+              "10",
+              "7",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "Sexti = seis.",
+            "dica": "Sexti lembra seis."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O cordel foi feito para ser:",
+            "alternativas": [
+              "lido em voz alta e decorado",
+              "escondido",
+              "lido só por professores",
+              "traduzido"
+            ],
+            "correta": 0,
+            "explicacao": "Ritmo e rima ajudam a memória.",
+            "dica": "Pense na feira e na voz."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na sextilha, quais versos rimam?",
+            "alternativas": [
+              "1º, 3º e 5º",
+              "2º, 4º e 6º",
+              "todos",
+              "nenhum"
+            ],
+            "correta": 1,
+            "explicacao": "Esquema xAxAxA.",
+            "dica": "Os pares."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas sílabas poéticas têm os versos da sextilha tradicional?",
+            "alternativas": [
+              "7",
+              "5",
+              "10",
+              "12"
+            ],
+            "correta": 0,
+            "explicacao": "Redondilha maior.",
+            "dica": "É a redondilha maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que órgão reconheceu o cordel como patrimônio imaterial em 2018?",
+            "alternativas": [
+              "INSS",
+              "Procon",
+              "Iphan",
+              "Detran"
+            ],
+            "correta": 2,
+            "explicacao": "Instituto do Patrimônio Histórico e Artístico Nacional.",
+            "dica": "Cuida do patrimônio histórico."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma manifestação de cultura popular?",
+            "alternativas": [
+              "Fórmula de Bhaskara",
+              "Tabela periódica",
+              "Código de barras",
+              "Bumba meu boi"
+            ],
+            "correta": 3,
+            "explicacao": "Festa criada e mantida pelo povo.",
+            "dica": "Pense em festa tradicional."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Repente é:",
+            "alternativas": [
+              "a improvisação de versos na hora, por violeiros",
+              "um folheto impresso",
+              "uma xilogravura",
+              "um tipo de rima"
+            ],
+            "correta": 0,
+            "explicacao": "Ligado à cantoria nordestina.",
+            "dica": "De repente, na hora."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na sextilha de Damião, qual palavra rima com feijão?",
+            "alternativas": [
+              "leitor",
+              "chão",
+              "quitanda",
+              "viagem"
+            ],
+            "correta": 1,
+            "explicacao": "Damião, feijão e chão.",
+            "dica": "Procure o som -ão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o cordel foi importante para quem não tinha acesso a jornal?",
+            "alternativas": [
+              "Porque era caro",
+              "Porque era em inglês",
+              "Porque levava notícias em versos fáceis de ouvir e decorar",
+              "Porque era proibido"
+            ],
+            "correta": 2,
+            "explicacao": "Informação e arte juntas.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Xilogravura é feita com:",
+            "alternativas": [
+              "fotografia digital",
+              "argila",
+              "tinta a óleo em tela",
+              "madeira entalhada usada como carimbo"
+            ],
+            "correta": 3,
+            "explicacao": "Xilo = madeira.",
+            "dica": "Xilo vem do grego madeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre sextilha e décima?",
+            "alternativas": [
+              "A sextilha tem 6 versos e a décima, 10",
+              "São iguais",
+              "A décima tem 6 versos",
+              "A sextilha não tem rima"
+            ],
+            "correta": 0,
+            "explicacao": "Pelo número de versos.",
+            "dica": "Os nomes já dizem."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene a produção tradicional de um folheto de cordel.",
+            "itens": [
+              "O poeta escreve os versos",
+              "O xilogravurista entalha a capa na madeira",
+              "O folheto é impresso",
+              "O folheto é pendurado no cordão da feira"
+            ],
+            "explicacao": "Da escrita à venda.",
+            "dica": "A venda é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sequência de finais respeita a rima da sextilha (versos 2, 4 e 6)?",
+            "alternativas": [
+              "sol / mar / céu / luz / pão / flor",
+              "rua / sertão / dia / canção / sol / perdão",
+              "mão / pé / chão / sol / cão / luz",
+              "amor / mar / flor / céu / cor / rua"
+            ],
+            "correta": 1,
+            "explicacao": "Sertão, canção e perdão rimam nos versos 2, 4 e 6.",
+            "dica": "Olhe só as posições 2, 4 e 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas sílabas poéticas tem \"Escute, caro leitor\"?",
+            "alternativas": [
+              "8",
+              "6",
+              "7",
+              "9"
+            ],
+            "correta": 2,
+            "explicacao": "Es, cu, te, ca, ro, lei, tor = 7, a medida do cordel.",
+            "dica": "Conte até a última tônica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que se diz que o cordel é patrimônio IMATERIAL?",
+            "alternativas": [
+              "Porque não tem papel",
+              "Porque é proibido tocar",
+              "Porque é muito caro",
+              "Porque o valor está no saber e na tradição de criar e recitar, não num objeto único"
+            ],
+            "correta": 3,
+            "explicacao": "Patrimônio imaterial são práticas e saberes.",
+            "dica": "Imaterial = não é uma coisa física única."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cordel usado numa campanha de vacinação mostra que:",
+            "alternativas": [
+              "o cordel ainda comunica bem com o povo, unindo informação e arte",
+              "o cordel acabou",
+              "só serve para histórias antigas",
+              "não tem rima"
+            ],
+            "correta": 0,
+            "explicacao": "Continua vivo e útil.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é FALSA?",
+            "alternativas": [
+              "O cordel usa muito a redondilha maior",
+              "O cordel é só lido em silêncio, nunca em voz alta",
+              "As capas usam xilogravura",
+              "O repente se liga à tradição oral"
+            ],
+            "correta": 1,
+            "explicacao": "O cordel nasceu para ser lido em voz alta.",
+            "dica": "Pense na feira."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A rampa da escola",
+    "texto": "Na Escola Estadual do bairro, a rampa que levava ao refeitório era motivo de piada. Os alunos desciam correndo e chamavam aquilo de escorregador. Mas, para a Letícia, do 9º A, que usava cadeira de rodas desde os oito anos, não tinha graça nenhuma. Subir sozinha era impossível; descer, assustador.\n\nNa aula de trigonometria, o professor Márcio explicou que a inclinação de uma rampa é a tangente do ângulo: a altura dividida pelo comprimento horizontal. E contou que a norma de acessibilidade recomenda, em geral, até 8,33%, ou seja, 1 metro de altura para cada 12 de comprimento.\n\nLetícia levantou a mão.\n\n— Professor, dá para medir a nossa?\n\nNo intervalo, a turma saiu com trena, nível de pedreiro emprestado pelo zelador e caderno. Mateus e Yasmin mediram a altura do degrau que a rampa vencia: 60 centímetros. Jonas e Letícia mediram o comprimento horizontal, do pé da rampa até a parede: 5 metros.\n\nDe volta à sala, as contas: 0,6 dividido por 5 dava 0,12. Doze por cento, bem acima dos 8,33% recomendados. Com a calculadora do celular, descobriram que o ângulo era de quase 7 graus, contra uns 5 da rampa ideal.\n\n— E qual seria o tamanho certo? — perguntou Yasmin.\n\nFizeram a conta ao contrário: 0,6 vezes 12 dava 7,2 metros. A rampa precisava ser mais de dois metros maior, talvez com uma curva no meio.\n\nA turma escreveu uma carta à direção, com os cálculos, um desenho e uma proposta. A diretora levou o pedido à diretoria de ensino.\n\nSeis meses depois, a nova rampa ficou pronta, com corrimão dos dois lados. Na inauguração, Letícia subiu sozinha, sem pressa, e lá de cima gritou:\n\n— Agora sim, isto aqui é matemática!"
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva como você daria um feedback a um colega de equipe que atrasou a parte dele num trabalho em grupo. Use o modelo SCI (situação, comportamento e impacto), seja sincero sem humilhar e termine propondo uma solução combinada entre vocês."
+  }
+}

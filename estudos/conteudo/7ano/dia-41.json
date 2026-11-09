@@ -1,0 +1,1207 @@
+{
+  "dia": 41,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Grandezas diretamente e inversamente proporcionais",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Duas grandezas são diretamente proporcionais quando uma dobra e a outra também dobra, uma triplica e a outra também triplica. Exemplo: quilos de feijão e preço pago. Nelas, a divisão entre os valores (a razão) é sempre a mesma.",
+          "Duas grandezas são inversamente proporcionais quando uma dobra e a outra cai pela metade. Exemplo: número de pedreiros e dias para fazer um muro. Nelas, a multiplicação entre os valores (o produto) é sempre a mesma.",
+          "Na regra de três direta, monte as duas razões e multiplique em cruz. Se 3 kg custam R$ 24, então 3/24 = 5/x, e 3x = 120, x = 40.",
+          "Na regra de três inversa, use o produto constante: 4 pedreiros × 6 dias = 24. Com 3 pedreiros, 3 × x = 24, então x = 8 dias. Menos gente, mais tempo.",
+          "Nem tudo é proporcional. A idade e a altura de uma pessoa crescem juntas, mas quem tem o dobro da idade não tem o dobro da altura. Antes da conta, pergunte: se uma dobrar, a outra dobra, cai pela metade ou nenhuma das duas?"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Na feira, 3 kg de feijão custam R$ 24. Quanto custam 5 kg?",
+            "resolucao": "Direta: mais quilos, mais dinheiro. 1 kg custa 24 ÷ 3 = R$ 8. Então 5 kg custam 5 × 8 = R$ 40."
+          },
+          {
+            "enunciado": "4 pedreiros fazem um muro em 6 dias. Em quantos dias 3 pedreiros, no mesmo ritmo, fazem o mesmo muro?",
+            "resolucao": "Inversa: menos pedreiros, mais dias. Produto: 4 × 6 = 24. Então 3 × x = 24 e x = 8 dias."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para testar uma tabela, faça as duas contas. Se x ÷ y der sempre o mesmo número, é direta. Se x × y der sempre o mesmo número, é inversa. Se nenhuma das duas der constante, não é proporcional.",
+        "Cuidado com valor fixo mais valor variável. Um táxi que cobra R$ 5 de bandeirada mais R$ 3 por km cobra R$ 11 por 2 km e R$ 17 por 4 km: a distância dobrou, mas o preço não. Isso não é proporcional, mesmo que as duas grandezas cresçam juntas.",
+        "Na regra de três composta aparecem três ou mais grandezas. Uma forma segura é achar o trabalho de uma unidade: se 4 pedreiros fazem 2 muros em 6 dias, cada muro precisa de 4 × 6 ÷ 2 = 12 pedreiros-dia de trabalho."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando uma grandeza dobra e a outra também dobra, elas são:",
+            "alternativas": [
+              "Inversamente proporcionais",
+              "Diretamente proporcionais",
+              "Sempre iguais",
+              "Números negativos"
+            ],
+            "correta": 1,
+            "explicacao": "Na direta, as duas crescem no mesmo ritmo: dobrou uma, dobrou a outra.",
+            "dica": "Pense em quilos de feijão e preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se 2 cadernos custam R$ 10, quanto custam 4 cadernos iguais?",
+            "alternativas": [
+              "R$ 12",
+              "R$ 14",
+              "R$ 20",
+              "R$ 40"
+            ],
+            "correta": 2,
+            "explicacao": "O dobro de cadernos custa o dobro: 2 × 10 = R$ 20.",
+            "dica": "Quantos cadernos a mais em relação ao começo? Faça o mesmo com o preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "2 pintores pintam uma sala em 6 horas. 4 pintores, no mesmo ritmo, levam:",
+            "alternativas": [
+              "3 horas",
+              "12 horas",
+              "6 horas",
+              "8 horas"
+            ],
+            "correta": 0,
+            "explicacao": "É inversa: com o dobro de pintores, o tempo cai pela metade. 6 ÷ 2 = 3.",
+            "dica": "Mais gente trabalhando faz o tempo subir ou descer?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nas grandezas inversamente proporcionais, o que fica sempre igual?",
+            "alternativas": [
+              "A soma",
+              "A diferença",
+              "A divisão",
+              "A multiplicação"
+            ],
+            "correta": 3,
+            "explicacao": "Exemplo: 4 pedreiros × 6 dias = 24 e 3 pedreiros × 8 dias = 24.",
+            "dica": "Lembre a conta dos pedreiros da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para a mesma distância, velocidade e tempo de viagem são:",
+            "alternativas": [
+              "Diretamente proporcionais",
+              "Inversamente proporcionais",
+              "Sempre iguais",
+              "Sem nenhuma relação"
+            ],
+            "correta": 1,
+            "explicacao": "Quanto mais rápido, menos tempo. Dobrar a velocidade divide o tempo por 2.",
+            "dica": "Indo mais rápido, você chega antes ou depois?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "3 kg de feijão custam R$ 24. Quanto custam 5 kg?",
+            "alternativas": [
+              "R$ 30",
+              "R$ 40",
+              "R$ 35",
+              "R$ 45"
+            ],
+            "correta": 1,
+            "explicacao": "1 kg custa 24 ÷ 3 = R$ 8. 5 × 8 = R$ 40.",
+            "dica": "Descubra primeiro o preço de 1 kg."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro a 60 km/h leva 4 horas numa viagem. A 80 km/h, na mesma estrada, quanto tempo leva?",
+            "alternativas": [
+              "5 horas e 20 minutos",
+              "2 horas",
+              "3 horas",
+              "4 horas e meia"
+            ],
+            "correta": 2,
+            "explicacao": "Inversa: 60 × 4 = 240 km. 240 ÷ 80 = 3 horas.",
+            "dica": "Calcule primeiro a distância da viagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma receita usa 2 xícaras de farinha para 12 bolinhos. Para 30 bolinhos, quantas xícaras?",
+            "alternativas": [
+              "5 xícaras",
+              "6 xícaras",
+              "4 xícaras",
+              "20 xícaras"
+            ],
+            "correta": 0,
+            "explicacao": "Direta: 2/12 = x/30, então 12x = 60 e x = 5.",
+            "dica": "Quanta farinha vai em 6 bolinhos? Use isso para chegar a 30."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "6 torneiras iguais enchem uma caixa d’água em 10 horas. 4 dessas torneiras enchem em:",
+            "alternativas": [
+              "6 horas e 40 minutos",
+              "8 horas",
+              "12 horas",
+              "15 horas"
+            ],
+            "correta": 3,
+            "explicacao": "Inversa: 6 × 10 = 60. 60 ÷ 4 = 15 horas.",
+            "dica": "Menos torneiras abertas: o tempo aumenta ou diminui?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par de grandezas NÃO é proporcional?",
+            "alternativas": [
+              "Litros de gasolina e valor pago",
+              "Número de ingressos e valor total",
+              "Idade e altura de uma pessoa",
+              "Velocidade e tempo numa mesma distância"
+            ],
+            "correta": 2,
+            "explicacao": "Quem tem o dobro da idade não tem o dobro da altura. As outras são diretas ou inversas.",
+            "dica": "Teste: se uma dobrar, a outra dobra ou cai pela metade?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um táxi cobra R$ 5 fixos mais R$ 3 por km. Quanto custa uma corrida de 6 km, e o preço é proporcional à distância?",
+            "alternativas": [
+              "R$ 23; não é proporcional",
+              "R$ 18; é proporcional",
+              "R$ 23; é diretamente proporcional",
+              "R$ 30; é proporcional"
+            ],
+            "correta": 0,
+            "explicacao": "5 + 3 × 6 = 23. Com 2 km pagaria 11 e com 4 km, 17: dobrou a distância, mas não dobrou o preço.",
+            "dica": "Calcule também 2 km e 4 km e veja se o preço dobra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "5 trabalhadores fazem um muro em 12 dias. Quantos trabalhadores, no mesmo ritmo, fazem o muro em 4 dias?",
+            "alternativas": [
+              "10",
+              "15",
+              "20",
+              "8"
+            ],
+            "correta": 1,
+            "explicacao": "Inversa: 5 × 12 = 60. 60 ÷ 4 = 15 trabalhadores.",
+            "dica": "Ache o total de trabalhador-dia e divida pelo novo prazo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma impressora imprime 45 páginas em 3 minutos. Quantas páginas imprime em 8 minutos?",
+            "alternativas": [
+              "100",
+              "135",
+              "360",
+              "120"
+            ],
+            "correta": 3,
+            "explicacao": "45 ÷ 3 = 15 páginas por minuto. 15 × 8 = 120.",
+            "dica": "Descubra quantas páginas saem em 1 minuto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma viagem leva 5 horas a 72 km/h. Para fazer em 4 horas, qual deve ser a velocidade média?",
+            "alternativas": [
+              "80 km/h",
+              "90 km/h",
+              "57,6 km/h",
+              "100 km/h"
+            ],
+            "correta": 1,
+            "explicacao": "Distância: 72 × 5 = 360 km. 360 ÷ 4 = 90 km/h.",
+            "dica": "Com menos tempo, a velocidade precisa ser maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um abrigo tem ração para 12 cachorros por 15 dias. Se chegarem mais 8 cachorros, a ração dura:",
+            "alternativas": [
+              "9 dias",
+              "10 dias",
+              "7 dias",
+              "23 dias"
+            ],
+            "correta": 0,
+            "explicacao": "Agora são 20 cachorros. 12 × 15 = 180. 180 ÷ 20 = 9 dias.",
+            "dica": "Some os cachorros novos antes de fazer a conta inversa."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "4 pedreiros constroem 2 muros iguais em 6 dias. Em quantos dias 6 pedreiros, no mesmo ritmo, constroem 3 muros desses?",
+            "alternativas": [
+              "4 dias",
+              "9 dias",
+              "6 dias",
+              "12 dias"
+            ],
+            "correta": 2,
+            "explicacao": "Cada muro precisa de 4 × 6 ÷ 2 = 12 pedreiros-dia. 3 muros: 36 pedreiros-dia. 36 ÷ 6 = 6 dias.",
+            "dica": "Calcule o trabalho de um muro só, em pedreiros-dia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa tabela, x vale 2, 4 e 5, e y vale 10, 5 e 4. Que tipo de relação é, e quanto vale y quando x = 8?",
+            "alternativas": [
+              "Direta; y = 20",
+              "Inversa; y = 4",
+              "Direta; y = 2,5",
+              "Inversa; y = 2,5"
+            ],
+            "correta": 3,
+            "explicacao": "2 × 10 = 4 × 5 = 5 × 4 = 20: o produto é constante, então é inversa. 20 ÷ 8 = 2,5.",
+            "dica": "Teste a divisão e a multiplicação de cada par."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se 3 galinhas botam 3 ovos em 3 dias, quantos ovos 6 galinhas botam em 6 dias, no mesmo ritmo?",
+            "alternativas": [
+              "6",
+              "12",
+              "18",
+              "36"
+            ],
+            "correta": 1,
+            "explicacao": "Cada galinha bota 1 ovo a cada 3 dias. Em 6 dias, cada uma bota 2. 6 galinhas × 2 = 12.",
+            "dica": "Descubra quantos ovos uma galinha bota em 6 dias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "8 amigos dividiriam igualmente o aluguel de uma chácara, R$ 60 cada um. Se 2 desistirem, quanto cada um dos outros paga?",
+            "alternativas": [
+              "R$ 75",
+              "R$ 70",
+              "R$ 62",
+              "R$ 80"
+            ],
+            "correta": 3,
+            "explicacao": "Aluguel total: 8 × 60 = 480. Agora são 6: 480 ÷ 6 = 80.",
+            "dica": "O aluguel total muda? Calcule-o primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro faz 12 km com 1 litro. Numa viagem de 300 km, com gasolina a R$ 6 o litro, quanto se gasta?",
+            "alternativas": [
+              "R$ 150",
+              "R$ 180",
+              "R$ 25",
+              "R$ 72"
+            ],
+            "correta": 0,
+            "explicacao": "300 ÷ 12 = 25 litros. 25 × 6 = R$ 150. São duas proporções diretas seguidas.",
+            "dica": "Primeiro descubra quantos litros a viagem gasta."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Empréstimo e financiamento: o custo do dinheiro emprestado",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Empréstimo é quando um banco ou financeira entrega um dinheiro para você usar como quiser, e você devolve depois, em parcelas, com juros. Os juros são o preço que se paga por usar o dinheiro de outra pessoa.",
+          "Financiamento é um crédito para comprar um bem específico, como casa, carro ou moto. Muitas vezes o próprio bem fica como garantia: se as parcelas não forem pagas, a instituição pode tomá-lo.",
+          "Para saber quanto o empréstimo custa, some todas as parcelas. Os juros pagos são o total pago menos o valor recebido.",
+          "Compare sempre o CET, Custo Efetivo Total. Ele junta juros, tarifas, seguros e impostos do contrato. Uma taxa de juros baixa com tarifas altas pode sair mais cara.",
+          "Antes de pegar dinheiro emprestado, pergunte: é uma necessidade de verdade? A parcela cabe no orçamento todo mês? Comparei pelo menos três opções?"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Rosana pegou R$ 1.000 emprestados e vai pagar 10 parcelas de R$ 130. Quanto pagará de juros?",
+            "resolucao": "Total: 10 × 130 = R$ 1.300. Juros: 1.300 − 1.000 = R$ 300, ou seja, 30% do valor recebido."
+          },
+          {
+            "enunciado": "Para receber R$ 1.000, a loja oferece 12 × R$ 95 e o banco oferece 10 × R$ 110. Qual sai mais barato?",
+            "resolucao": "Loja: 12 × 95 = R$ 1.140. Banco: 10 × 110 = R$ 1.100. O banco sai R$ 40 mais barato, mesmo com parcela maior."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Prazo longo deixa a parcela pequena, mas o total cresce. R$ 2.000 em 6 × R$ 380 custam R$ 2.280; em 18 × R$ 160 custam R$ 2.880. A parcela baixa esconde R$ 600 a mais de juros.",
+        "Uma referência comum de educação financeira é não comprometer mais de 30% da renda com parcelas. Atrasar é caro: o Código de Defesa do Consumidor limita a multa por atraso a 2% nos contratos de crédito ao consumidor, mas ainda correm juros sobre a parcela atrasada.",
+        "O Código de Defesa do Consumidor também garante que, ao quitar a dívida antes do prazo, os juros das parcelas futuras sejam reduzidos proporcionalmente. Por isso, sobrou dinheiro? Antecipar parcelas pode economizar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que são os juros num empréstimo?",
+            "alternativas": [
+              "Um presente do banco",
+              "O preço pago por usar dinheiro emprestado",
+              "Um tipo de imposto da prefeitura",
+              "O valor da primeira parcela"
+            ],
+            "correta": 1,
+            "explicacao": "Juros são o custo do dinheiro emprestado: você devolve mais do que recebeu.",
+            "dica": "Pense em por que você devolve mais do que pegou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Financiamento é um crédito usado, em geral, para:",
+            "alternativas": [
+              "Comprar um bem específico, como casa ou moto",
+              "Pagar a conta de luz",
+              "Guardar dinheiro",
+              "Receber o salário"
+            ],
+            "correta": 0,
+            "explicacao": "No financiamento, o dinheiro vai para a compra de um bem, que muitas vezes fica como garantia.",
+            "dica": "Lembre os exemplos da lição: casa, carro..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia pegou R$ 500 e vai devolver R$ 600 no total. Quanto pagará de juros?",
+            "alternativas": [
+              "R$ 600",
+              "R$ 1.100",
+              "R$ 50",
+              "R$ 100"
+            ],
+            "correta": 3,
+            "explicacao": "Juros = total pago − valor recebido = 600 − 500 = R$ 100.",
+            "dica": "Faça a conta de menos entre o que devolve e o que recebeu."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa a sigla CET?",
+            "alternativas": [
+              "Conta Especial Temporária",
+              "Crédito Entre Todos",
+              "Custo Efetivo Total",
+              "Cobrança Extra de Tarifa"
+            ],
+            "correta": 2,
+            "explicacao": "CET é o Custo Efetivo Total: juros, tarifas, seguros e impostos juntos.",
+            "dica": "É o custo de tudo junto no contrato."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de pegar um empréstimo, o primeiro cuidado é:",
+            "alternativas": [
+              "Escolher a parcela mais longa possível",
+              "Ver se é necessidade e se a parcela cabe no orçamento",
+              "Assinar logo para não perder a oferta",
+              "Pedir o maior valor que o banco liberar"
+            ],
+            "correta": 1,
+            "explicacao": "Dívida sem necessidade ou que não cabe no orçamento vira problema.",
+            "dica": "O que acontece se a parcela for maior do que sobra no mês?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 1.000 emprestados, pagos em 10 parcelas de R$ 130. Qual é o total pago?",
+            "alternativas": [
+              "R$ 1.130",
+              "R$ 1.000",
+              "R$ 1.300",
+              "R$ 1.030"
+            ],
+            "correta": 2,
+            "explicacao": "10 × 130 = R$ 1.300.",
+            "dica": "Multiplique o número de parcelas pelo valor de cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Nesse mesmo empréstimo, os juros correspondem a quanto por cento do valor recebido?",
+            "alternativas": [
+              "30%",
+              "13%",
+              "10%",
+              "3%"
+            ],
+            "correta": 0,
+            "explicacao": "Juros de R$ 300 sobre R$ 1.000: 300 ÷ 1.000 = 0,30 = 30%.",
+            "dica": "Divida os juros pelo valor que entrou no bolso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para receber R$ 1.000: loja com 12 × R$ 95 ou banco com 10 × R$ 110. Qual é a melhor escolha?",
+            "alternativas": [
+              "Loja, porque a parcela é menor",
+              "Tanto faz, dá o mesmo",
+              "Loja, porque tem mais parcelas",
+              "Banco, que custa R$ 40 a menos no total"
+            ],
+            "correta": 3,
+            "explicacao": "Loja: R$ 1.140. Banco: R$ 1.100. O total decide, não a parcela.",
+            "dica": "Calcule o total de cada opção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que comparar o CET, e não só a taxa de juros?",
+            "alternativas": [
+              "Porque o CET é sempre menor",
+              "Porque o CET inclui tarifas, seguros e impostos",
+              "Porque a taxa de juros é secreta",
+              "Porque o CET não muda nunca"
+            ],
+            "correta": 1,
+            "explicacao": "Uma taxa baixa com tarifas altas pode custar mais. O CET mostra o custo completo.",
+            "dica": "O que mais, além dos juros, pode estar no contrato?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao aumentar o prazo de um empréstimo, normalmente:",
+            "alternativas": [
+              "A parcela diminui e o total pago aumenta",
+              "A parcela e o total diminuem",
+              "A parcela aumenta e o total diminui",
+              "Nada muda"
+            ],
+            "correta": 0,
+            "explicacao": "Mais meses de dívida significam mais meses pagando juros.",
+            "dica": "Pense no exemplo de 6 parcelas contra 18 parcelas."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 2.000 podem ser pagos em 6 × R$ 380 ou em 18 × R$ 160. Quanto se paga a mais escolhendo 18 parcelas?",
+            "alternativas": [
+              "R$ 220",
+              "R$ 880",
+              "R$ 600",
+              "R$ 280"
+            ],
+            "correta": 2,
+            "explicacao": "6 × 380 = 2.280. 18 × 160 = 2.880. Diferença: R$ 600.",
+            "dica": "Calcule o total de cada plano e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caio pegou R$ 800 e pagará 8 parcelas de R$ 125. Qual é a porcentagem de juros sobre o valor recebido?",
+            "alternativas": [
+              "12,5%",
+              "20%",
+              "25%",
+              "8%"
+            ],
+            "correta": 2,
+            "explicacao": "8 × 125 = 1.000. Juros: 200. 200 ÷ 800 = 0,25 = 25%.",
+            "dica": "Ache os juros e divida pelo valor emprestado, não pelo total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família tem renda de R$ 2.400. Seguindo a referência de até 30% da renda em parcelas, qual é o limite mensal?",
+            "alternativas": [
+              "R$ 300",
+              "R$ 720",
+              "R$ 800",
+              "R$ 240"
+            ],
+            "correta": 1,
+            "explicacao": "30% de 2.400 = 0,3 × 2.400 = R$ 720.",
+            "dica": "10% de 2.400 é 240. Quanto são três vezes isso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma moto custa R$ 12.000 à vista. No financiamento: entrada de R$ 3.000 e 24 parcelas de R$ 500. Quanto se paga a mais que à vista?",
+            "alternativas": [
+              "R$ 3.000",
+              "R$ 500",
+              "R$ 12.000",
+              "R$ 9.000"
+            ],
+            "correta": 0,
+            "explicacao": "24 × 500 = 12.000, mais 3.000 de entrada = 15.000. 15.000 − 12.000 = R$ 3.000.",
+            "dica": "Não esqueça de somar a entrada ao total das parcelas."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para decidir sobre um empréstimo:",
+            "itens": [
+              "Confirmar se é uma necessidade de verdade",
+              "Calcular quanto de parcela cabe no orçamento",
+              "Comparar o CET em pelo menos três instituições",
+              "Ler o contrato inteiro antes de assinar"
+            ],
+            "explicacao": "Primeiro se decide se precisa, depois quanto cabe, depois onde é mais barato e, por fim, confere o contrato.",
+            "dica": "Não adianta comparar bancos antes de saber se precisa do dinheiro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana pegou R$ 1.000 a juros compostos de 10% ao mês e vai pagar tudo de uma vez depois de 2 meses. Quanto pagará?",
+            "alternativas": [
+              "R$ 1.200",
+              "R$ 1.210",
+              "R$ 1.100",
+              "R$ 1.020"
+            ],
+            "correta": 1,
+            "explicacao": "1º mês: 1.000 + 100 = 1.100. 2º mês: 1.100 + 110 = 1.210. Os juros do 2º mês incidem sobre os juros do 1º.",
+            "dica": "No segundo mês, os 10% são calculados sobre qual valor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas pagou 4 de 10 parcelas e quer quitar o restante hoje. O que o Código de Defesa do Consumidor garante?",
+            "alternativas": [
+              "Que ele não pode quitar antes",
+              "Que ele paga uma multa de 50%",
+              "Redução proporcional dos juros das parcelas que faltam",
+              "Que a dívida é perdoada"
+            ],
+            "correta": 2,
+            "explicacao": "Na quitação antecipada, o CDC garante a redução proporcional dos juros.",
+            "dica": "Pagar antes significa usar o dinheiro emprestado por menos tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma TV custa R$ 1.500 à vista ou 10 × R$ 180. Quanto se paga de juros, e quanto isso representa do preço à vista?",
+            "alternativas": [
+              "R$ 180; 12%",
+              "R$ 300; 30%",
+              "R$ 1.800; 120%",
+              "R$ 300; 20%"
+            ],
+            "correta": 3,
+            "explicacao": "10 × 180 = 1.800. Juros: 300. 300 ÷ 1.500 = 0,20 = 20%.",
+            "dica": "Compare a porcentagem com o preço à vista, não com o total parcelado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para R$ 3.000: banco A cobra 12 × R$ 300; banco B cobra 12 × R$ 280 mais uma tarifa de abertura de R$ 300. Qual é mais barato?",
+            "alternativas": [
+              "A, por R$ 60",
+              "B, por R$ 240",
+              "B, por R$ 60",
+              "Os dois custam igual"
+            ],
+            "correta": 0,
+            "explicacao": "A: 3.600. B: 3.360 + 300 = 3.660. A é R$ 60 mais barato, apesar da parcela maior. É por isso que se olha o custo total.",
+            "dica": "Some a tarifa ao total do banco B."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma parcela de R$ 200 atrasou 1 mês. O contrato cobra multa de 2% e juros de 1% ao mês. Quanto ficou a parcela?",
+            "alternativas": [
+              "R$ 202",
+              "R$ 206",
+              "R$ 260",
+              "R$ 204"
+            ],
+            "correta": 1,
+            "explicacao": "Multa: 2% de 200 = 4. Juros: 1% de 200 = 2. 200 + 4 + 2 = R$ 206.",
+            "dica": "Calcule a multa e os juros separadamente sobre R$ 200."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Percorrer uma lista e achar o maior valor",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para achar o maior valor de uma lista, o programa olha os itens um por um e guarda, numa variável, o maior encontrado até agora.",
+          "Comece com maior ← lista[0], o primeiro item. Não comece com 0: se todos os números forem negativos, o 0 vence e a resposta sai errada, porque o 0 nem está na lista.",
+          "Depois, percorra a lista: PARA CADA n EM lista FAÇA SE n > maior ENTÃO maior ← n. No fim do laço, maior guarda a resposta.",
+          "Para achar o menor, a ideia é a mesma: menor ← lista[0] e troque o sinal > por <.",
+          "Em Python, existem as funções prontas max(lista) e min(lista). Mesmo assim, saber o passo a passo ajuda a resolver variações, como achar a posição do maior ou o segundo maior."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Siga o algoritmo do maior na lista [12, 7, 25, 18].",
+            "resolucao": "maior ← 12. Com 7: 7 > 12? Não. Com 25: 25 > 12? Sim, maior ← 25. Com 18: 18 > 25? Não. Resposta: 25."
+          },
+          {
+            "enunciado": "Temperaturas de uma cidade fria: [−3, −8, −1, −5]. O que acontece se começarmos com maior ← 0?",
+            "resolucao": "Nenhum número é maior que 0, então o programa responde 0, que nem está na lista. Começando com maior ← −3 (o primeiro item), a resposta certa é −1."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Para guardar a posição, percorra pelos índices: pos ← 0; PARA i DE 1 ATÉ tamanho(lista) − 1 FAÇA SE lista[i] > lista[pos] ENTÃO pos ← i. Lembre que a contagem das posições começa no 0.",
+        "Empates: com > (maior estrito), em caso de empate fica a primeira posição onde o maior apareceu; com >= fica a última.",
+        "Começando com o primeiro item e percorrendo a partir da posição 1, uma lista de n itens precisa de n − 1 comparações. Para achar maior e menor juntos, dá para fazer as duas comparações no mesmo laço."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar o maior valor de uma lista, o programa:",
+            "alternativas": [
+              "Olha só o primeiro item",
+              "Olha cada item, um por um",
+              "Olha só o último item",
+              "Escolhe um item ao acaso"
+            ],
+            "correta": 1,
+            "explicacao": "Ele precisa passar por todos, senão pode deixar o maior de fora.",
+            "dica": "Como ter certeza sem olhar todos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o maior valor da lista [4, 9, 2]?",
+            "alternativas": [
+              "4",
+              "2",
+              "9",
+              "15"
+            ],
+            "correta": 2,
+            "explicacao": "9 é maior que 4 e que 2.",
+            "dica": "Compare os três números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No algoritmo, a variável maior guarda:",
+            "alternativas": [
+              "O maior valor encontrado até agora",
+              "A soma de todos os itens",
+              "A quantidade de itens",
+              "O último item da lista"
+            ],
+            "correta": 0,
+            "explicacao": "A cada item, ela é comparada e, se aparecer um maior, é trocada.",
+            "dica": "O nome da variável já conta o que ela guarda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para achar o menor valor, trocamos o sinal > por:",
+            "alternativas": [
+              "=",
+              "+",
+              ">=",
+              "<"
+            ],
+            "correta": 3,
+            "explicacao": "Com <, a variável troca sempre que aparece um número menor.",
+            "dica": "Qual sinal significa menor que?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual função pronta do Python devolve o maior valor de uma lista?",
+            "alternativas": [
+              "min",
+              "len",
+              "max",
+              "sum"
+            ],
+            "correta": 2,
+            "explicacao": "max devolve o maior e min, o menor.",
+            "dica": "Vem da palavra máximo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Seguindo o algoritmo em [12, 7, 25, 18], quantas vezes o valor de maior muda depois de começar com 12?",
+            "alternativas": [
+              "Nenhuma",
+              "1 vez",
+              "2 vezes",
+              "3 vezes"
+            ],
+            "correta": 1,
+            "explicacao": "Só muda no 25. O 7 e o 18 são menores que o maior da vez.",
+            "dica": "Anote o valor de maior a cada passo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que começar com maior ← lista[0] e não com maior ← 0?",
+            "alternativas": [
+              "Porque 0 dá erro de digitação",
+              "Porque é mais rápido",
+              "Porque listas não podem ter 0",
+              "Porque, se todos forem negativos, o 0 vence sem estar na lista"
+            ],
+            "correta": 3,
+            "explicacao": "Com [−3, −8, −1], começar em 0 daria 0, resposta errada.",
+            "dica": "Pense numa lista de temperaturas abaixo de zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o menor valor de [15, 8, 22, 3, 10]?",
+            "alternativas": [
+              "3",
+              "8",
+              "10",
+              "22"
+            ],
+            "correta": 0,
+            "explicacao": "3 é menor que todos os outros.",
+            "dica": "Procure o número mais próximo do zero."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "maior ← 5; PARA CADA n EM [5, 3, 8, 6] FAÇA SE n > maior ENTÃO maior ← n. Quanto vale maior no fim?",
+            "alternativas": [
+              "6",
+              "5",
+              "8",
+              "22"
+            ],
+            "correta": 2,
+            "explicacao": "Só o 8 é maior que 5. O 6 vem depois e é menor que 8.",
+            "dica": "Depois que maior vira 8, o 6 consegue passar?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o algoritmo do maior valor:",
+            "itens": [
+              "maior ← primeiro item da lista",
+              "Pegar o próximo item n",
+              "Testar se n > maior",
+              "Se for, fazer maior ← n",
+              "Depois do último item, mostrar maior"
+            ],
+            "explicacao": "Primeiro se escolhe o valor inicial, depois cada item é comparado e só no fim aparece a resposta.",
+            "dica": "A resposta só pode ser mostrada quando a lista acabar."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Temperaturas [−3, −8, −1, −5] com maior ← 0 no começo. Qual resposta o programa dá?",
+            "alternativas": [
+              "−1",
+              "−8",
+              "0",
+              "−3"
+            ],
+            "correta": 2,
+            "explicacao": "Nenhum valor passa de 0, então maior continua 0, valor que nem está na lista. A resposta certa seria −1.",
+            "dica": "Algum desses números é maior que zero?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Notas [6, 9, 4, 9, 7]. Guardando a posição com > estrito e posições a partir de 0, qual posição o programa devolve?",
+            "alternativas": [
+              "1",
+              "3",
+              "2",
+              "4"
+            ],
+            "correta": 0,
+            "explicacao": "O primeiro 9 está na posição 1. O segundo 9 não é maior que 9, então não troca.",
+            "dica": "Com > estrito, um empate faz trocar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na mesma lista [6, 9, 4, 9, 7], trocando > por >=, qual posição o programa devolve?",
+            "alternativas": [
+              "1",
+              "4",
+              "0",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Com >=, o segundo 9 (posição 3) também troca, pois 9 >= 9.",
+            "dica": "Agora o empate faz trocar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "maior ← lista[0]; PARA CADA n EM lista FAÇA SE n < maior ENTÃO maior ← n. O que esse programa encontra?",
+            "alternativas": [
+              "O maior valor",
+              "O menor valor, apesar do nome",
+              "A soma",
+              "O último valor"
+            ],
+            "correta": 1,
+            "explicacao": "O sinal < faz a variável guardar o menor. O nome da variável não muda o que o código faz.",
+            "dica": "Olhe o sinal da comparação, não o nome da variável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Gastos [30, 45, 12, 45, 20], começando com maior ← 30 e usando >. Quantas vezes o comando maior ← n é executado?",
+            "alternativas": [
+              "0",
+              "2",
+              "1",
+              "3"
+            ],
+            "correta": 2,
+            "explicacao": "30 > 30 é falso; 45 > 30 troca; 12, 45 e 20 não são maiores que 45. Só 1 troca.",
+            "dica": "O segundo 45 é maior que 45?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa única passada por [7, 2, 9, 4, 1], o programa acha o maior e o menor e calcula maior − menor. Qual é o resultado?",
+            "alternativas": [
+              "6",
+              "8",
+              "5",
+              "9"
+            ],
+            "correta": 1,
+            "explicacao": "Maior: 9. Menor: 1. 9 − 1 = 8.",
+            "dica": "Ache os dois extremos e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "maior ← 0; segundo ← 0. PARA CADA n EM [10, 4, 15, 8, 12]: SE n > maior ENTÃO segundo ← maior; maior ← n SENÃO SE n > segundo ENTÃO segundo ← n. Quanto vale segundo?",
+            "alternativas": [
+              "10",
+              "15",
+              "8",
+              "12"
+            ],
+            "correta": 3,
+            "explicacao": "10: maior 10. 4: segundo 4. 15: segundo 10, maior 15. 8: nada. 12: 12 > 10, segundo 12.",
+            "dica": "Faça uma tabela com maior e segundo a cada item."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "PARA CADA n EM [3, 9, 5] FAÇA maior ← 0; SE n > maior ENTÃO maior ← n. Quanto vale maior no fim?",
+            "alternativas": [
+              "5",
+              "9",
+              "0",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "Como maior ← 0 está dentro do laço, ele zera em toda volta. Sobra só o último item, 5.",
+            "dica": "Veja onde está o maior ← 0: fora ou dentro do laço?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Notas [8, 10, 7, 10, 10, 9]. Quantos alunos tiraram a maior nota?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "A maior é 10 e aparece 3 vezes. Uma forma: uma passada acha o maior e outra conta quantas vezes ele aparece.",
+            "dica": "Primeiro descubra a maior nota; depois conte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Começando com maior ← lista[0] e percorrendo da posição 1 até a última, quantas comparações são feitas numa lista de 50 itens?",
+            "alternativas": [
+              "50",
+              "49",
+              "25",
+              "2.500"
+            ],
+            "correta": 1,
+            "explicacao": "O primeiro item não é comparado com ele mesmo: 50 − 1 = 49.",
+            "dica": "O item da posição 0 já começou como maior."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Aposto e vocativo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Vocativo é a palavra ou expressão usada para chamar ou falar diretamente com alguém. Ele vem separado por vírgula: “Pedro, feche a porta.”",
+          "O vocativo pode aparecer no começo, no meio ou no fim da frase: “Feche a porta, Pedro.” “Venha, minha filha, o almoço está pronto.”",
+          "Aposto é um termo que explica, especifica ou resume outro termo da oração. Costuma vir entre vírgulas, entre travessões ou depois de dois-pontos: “Dona Lurdes, a merendeira, faz o melhor arroz.”",
+          "A diferença: o vocativo chama a pessoa com quem se fala; o aposto explica alguém ou algo de que se fala.",
+          "A vírgula muda o sentido. “Maria, a professora chegou.” (fala-se com Maria, avisando que a professora chegou). “Maria, a professora, chegou.” (Maria é a professora, e ela chegou)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique os termos: “Vó, a Juliana, minha colega, vem estudar aqui.” (Vó / minha colega)",
+            "resolucao": "“Vó” é vocativo: a pessoa está falando com a avó. “minha colega” é aposto: explica quem é a Juliana."
+          },
+          {
+            "enunciado": "Junte as duas frases usando um aposto: “Seu Ivo é pedreiro. Seu Ivo construiu o muro.”",
+            "resolucao": "“Seu Ivo, o pedreiro, construiu o muro.” O aposto “o pedreiro” fica entre vírgulas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Existe aposto sem vírgula, o especificativo, que dá nome a algo geral: “o rio Tietê”, “a cidade de Santos”, “o poeta Carlos Drummond”.",
+        "O aposto enumerativo lista elementos: “Comprei três coisas: pão, leite e café.” O resumitivo resume uma lista com palavras como tudo, nada, ninguém: “Arroz, feijão, salada: tudo estava frio.”",
+        "O vocativo não faz parte da estrutura da oração e nunca é sujeito. Em “Meninos, guardem o material.”, o sujeito de “guardem” é “vocês”, oculto; “Meninos” só chama a atenção de quem ouve."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Pedro, feche a porta.”, a palavra “Pedro” é:",
+            "alternativas": [
+              "Aposto",
+              "Vocativo",
+              "Verbo",
+              "Adjetivo"
+            ],
+            "correta": 1,
+            "explicacao": "“Pedro” é a pessoa chamada: vocativo.",
+            "dica": "Quem está sendo chamado na frase?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o vocativo?",
+            "alternativas": [
+              "Para chamar ou falar diretamente com alguém",
+              "Para explicar uma palavra",
+              "Para indicar uma ação",
+              "Para terminar a frase"
+            ],
+            "correta": 0,
+            "explicacao": "O vocativo chama a atenção de quem ouve.",
+            "dica": "Pense em como você chama um colega na sala."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Dona Lurdes, a merendeira, faz arroz.”, “a merendeira” é:",
+            "alternativas": [
+              "Vocativo",
+              "Verbo",
+              "Sujeito oculto",
+              "Aposto"
+            ],
+            "correta": 3,
+            "explicacao": "Explica quem é Dona Lurdes: é aposto.",
+            "dica": "Esse termo chama alguém ou explica alguém?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O aposto serve para:",
+            "alternativas": [
+              "Chamar alguém",
+              "Fazer uma pergunta",
+              "Explicar ou especificar outro termo",
+              "Indicar o tempo do verbo"
+            ],
+            "correta": 2,
+            "explicacao": "O aposto dá uma informação a mais sobre outro termo.",
+            "dica": "Lembre o exemplo da merendeira."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sinal de pontuação costuma separar o vocativo do resto da frase?",
+            "alternativas": [
+              "Ponto de interrogação",
+              "Vírgula",
+              "Aspas",
+              "Parênteses"
+            ],
+            "correta": 1,
+            "explicacao": "“Joana, venha cá.” O vocativo fica separado por vírgula.",
+            "dica": "É o sinal mais usado para dar uma pequena pausa."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Venha cá, meu filho, o almoço está pronto.”, qual é o vocativo?",
+            "alternativas": [
+              "o almoço",
+              "Venha cá",
+              "meu filho",
+              "está pronto"
+            ],
+            "correta": 2,
+            "explicacao": "“meu filho” é com quem se fala.",
+            "dica": "Quem está sendo chamado para almoçar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem aposto?",
+            "alternativas": [
+              "São Paulo, a maior cidade do Brasil, tem muitos bairros.",
+              "Lucas, vem jogar!",
+              "Choveu muito ontem.",
+              "Professora, posso sair?"
+            ],
+            "correta": 0,
+            "explicacao": "“a maior cidade do Brasil” explica São Paulo. As outras têm vocativo ou nenhum dos dois.",
+            "dica": "Procure um termo que explica outro, entre vírgulas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Professora, posso ir ao banheiro?”, “Professora” é:",
+            "alternativas": [
+              "Sujeito de posso",
+              "Aposto",
+              "Objeto",
+              "Vocativo"
+            ],
+            "correta": 3,
+            "explicacao": "O aluno fala com a professora. O sujeito de “posso” é “eu”, oculto.",
+            "dica": "Quem fala é o aluno. Com quem ele fala?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está pontuada corretamente?",
+            "alternativas": [
+              "Joana venha, aqui!",
+              "Joana, venha aqui!",
+              "Joana venha aqui, !",
+              "Joana: venha, aqui"
+            ],
+            "correta": 1,
+            "explicacao": "O vocativo “Joana” fica separado do restante por vírgula.",
+            "dica": "A vírgula separa o nome de quem é chamado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Comprei duas frutas: manga e caju.”, o termo “manga e caju” é:",
+            "alternativas": [
+              "Aposto",
+              "Vocativo",
+              "Verbo",
+              "Sujeito"
+            ],
+            "correta": 0,
+            "explicacao": "Ele explica quais são as duas frutas: aposto enumerativo, depois de dois-pontos.",
+            "dica": "O termo explica qual palavra anterior?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre “Maria, a professora chegou.” e “Maria, a professora, chegou.”?",
+            "alternativas": [
+              "Nenhuma, só muda a vírgula",
+              "Na 1ª, Maria é a professora; na 2ª, fala-se com Maria",
+              "Na 1ª, fala-se com Maria; na 2ª, Maria é a professora",
+              "As duas estão erradas"
+            ],
+            "correta": 2,
+            "explicacao": "Na 1ª, “Maria” é vocativo. Na 2ª, “a professora” é aposto de Maria.",
+            "dica": "Veja se “a professora” está entre duas vírgulas ou não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “O rio Tietê corta São Paulo.”, o termo “Tietê” é:",
+            "alternativas": [
+              "Vocativo",
+              "Verbo",
+              "Sujeito oculto",
+              "Aposto especificativo"
+            ],
+            "correta": 3,
+            "explicacao": "“Tietê” especifica qual rio, sem vírgulas. É o aposto especificativo.",
+            "dica": "Lembre do aposto sem vírgula do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem vocativo E aposto?",
+            "alternativas": [
+              "Lucas, o Rafael, seu primo, ligou.",
+              "O Rafael ligou ontem.",
+              "Rafael, ligue para mim.",
+              "Rafael ligou para o primo."
+            ],
+            "correta": 0,
+            "explicacao": "“Lucas” é vocativo (a pessoa fala com ele) e “seu primo” é aposto de Rafael.",
+            "dica": "Procure alguém sendo chamado e alguém sendo explicado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Futebol, vôlei, natação: tudo ele pratica.”, a palavra “tudo” é:",
+            "alternativas": [
+              "Vocativo",
+              "Aposto resumitivo",
+              "Verbo",
+              "Adjetivo"
+            ],
+            "correta": 1,
+            "explicacao": "“tudo” resume a lista anterior: aposto resumitivo.",
+            "dica": "Essa palavra junta os esportes listados num só termo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Meninos, guardem o material.”, qual é o sujeito de “guardem”?",
+            "alternativas": [
+              "Meninos",
+              "o material",
+              "Vocês, oculto",
+              "Não há sujeito"
+            ],
+            "correta": 2,
+            "explicacao": "“Meninos” é vocativo e não é sujeito. Quem guarda é “vocês”, que não aparece escrito.",
+            "dica": "O vocativo pode ser sujeito?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Ana, minha vizinha, me disse: — Carlos, a feira acabou.”, quantos apostos e quantos vocativos há?",
+            "alternativas": [
+              "2 apostos e nenhum vocativo",
+              "1 aposto e 1 vocativo",
+              "Nenhum aposto e 2 vocativos",
+              "2 apostos e 1 vocativo"
+            ],
+            "correta": 1,
+            "explicacao": "“minha vizinha” é aposto de Ana. Na fala, “Carlos” é vocativo: Ana fala com ele.",
+            "dica": "Ana é chamada ou explicada? E Carlos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está pontuada de forma errada?",
+            "alternativas": [
+              "Obrigado, vó!",
+              "Minha mãe, a dona Célia faz bolos.",
+              "Bom dia, turma!",
+              "Carla, a enfermeira, atendeu rápido."
+            ],
+            "correta": 1,
+            "explicacao": "O aposto “a dona Célia” abriu vírgula e não fechou. O certo: “Minha mãe, a dona Célia, faz bolos.”",
+            "dica": "Aposto no meio da frase precisa de vírgula dos dois lados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor forma de juntar “Rafael é o goleiro do time. Rafael defendeu o pênalti.” com um aposto?",
+            "alternativas": [
+              "Rafael, defendeu o pênalti, o goleiro.",
+              "Rafael o goleiro do time defendeu, o pênalti.",
+              "Goleiro, Rafael defendeu.",
+              "Rafael, o goleiro do time, defendeu o pênalti."
+            ],
+            "correta": 3,
+            "explicacao": "O aposto fica logo depois do termo explicado, entre vírgulas.",
+            "dica": "O aposto vem colado no nome que ele explica."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase “senhor” é vocativo?",
+            "alternativas": [
+              "Senhor, fale mais alto, por favor.",
+              "O senhor falou alto.",
+              "O senhor da padaria chegou.",
+              "Vi o senhor na praça."
+            ],
+            "correta": 0,
+            "explicacao": "Na 1ª, fala-se com o senhor. Nas outras, ele é sujeito ou objeto.",
+            "dica": "Em qual frase alguém conversa com ele?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Eis o problema: ninguém leu o aviso.”, o trecho “ninguém leu o aviso” funciona como:",
+            "alternativas": [
+              "Vocativo",
+              "Sujeito",
+              "Aposto",
+              "Adjetivo"
+            ],
+            "correta": 2,
+            "explicacao": "Explica qual é o problema, depois dos dois-pontos: aposto.",
+            "dica": "O trecho explica qual palavra anterior?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Quatro pedreiros, um muro",
+    "texto": "Seu Ivo era pedreiro havia trinta anos e tinha uma conta guardada na cabeça para cada obra. Quando a escola do bairro pediu um muro novo para a quadra, ele mediu o terreno, coçou o queixo e disse:\n\n— Sozinho, eu levo doze dias.\n\nA diretora fez uma careta. As aulas de educação física voltavam em menos de duas semanas, e a quadra sem muro era um perigo para a bola e para quem passava na calçada.\n\n— E se o senhor chamar ajuda?\n\nSeu Ivo telefonou para três colegas: o Jair, o Nestor e o Benedito. Com os quatro trabalhando no mesmo ritmo, o muro ficaria pronto em três dias.\n\n— Quanto mais gente, menos tempo — explicou ele para a turma do 7º ano, que espiava pela grade. — Quatro vezes mais pedreiros, quatro vezes menos dias.\n\nUma menina levantou a mão.\n\n— Então, com doze pedreiros, fica pronto em um dia?\n\nSeu Ivo riu.\n\n— Na conta, sim. Na vida, não. Doze homens nesse pedaço de calçada iam tropeçar uns nos outros. A matemática ajuda, mas o pedreiro também precisa olhar o espaço.\n\nNo terceiro dia, o muro estava de pé, com o reboco ainda fresco."
+  },
+  "escrita": {
+    "proposta": "Crie e resolva dois problemas do dia a dia: um com grandezas diretamente proporcionais (por exemplo, quantidade e preço) e outro com grandezas inversamente proporcionais (por exemplo, número de pessoas e tempo de um trabalho). Escreva a pergunta, a conta passo a passo e a resposta com a unidade. No fim, explique em uma frase como você percebeu que cada problema era direto ou inverso."
+  }
+}

@@ -1,0 +1,1206 @@
+{
+  "dia": 41,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Teorema de Tales: retas paralelas cortadas por transversais",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Quando três ou mais retas paralelas são cortadas por duas retas transversais, os segmentos formados numa transversal são proporcionais aos segmentos correspondentes na outra. Esse é o Teorema de Tales.",
+          "Se numa transversal os segmentos medem a e b, e na outra medem c e d, vale a proporção a/b = c/d. Basta multiplicar em cruz: a · d = b · c.",
+          "Exemplo: numa transversal os segmentos medem 3 cm e 6 cm; na outra, 4 cm e x. Então 3/6 = 4/x, logo 3x = 24 e x = 8 cm.",
+          "Uso real: terrenos vizinhos com divisas laterais paralelas, entre duas ruas, têm frentes proporcionais nas duas ruas. Se as frentes para a rua A são 20 m, 30 m e 40 m (total de 90 m) e a frente total para a rua B é 135 m, cada medida é multiplicada por 135/90 = 1,5: 30 m, 45 m e 60 m.",
+          "Cuidado para comparar segmentos que se correspondem: o de cima com o de cima, o de baixo com o de baixo. Também vale comparar parte com total: a/(a + b) = c/(c + d)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Numa transversal, AB = x e BC = 12; na outra, DE = 6 e EF = 9. Quanto vale x?",
+            "resolucao": "x/12 = 6/9. Em cruz: 9x = 72, então x = 8."
+          },
+          {
+            "enunciado": "Três lotes têm frentes de 20 m, 30 m e 40 m para a rua A. A frente total para a rua B é de 135 m. Quanto mede cada lote na rua B?",
+            "resolucao": "Razão: 135/90 = 1,5. Lotes na rua B: 20 × 1,5 = 30 m, 30 × 1,5 = 45 m e 40 × 1,5 = 60 m. Conferindo: 30 + 45 + 60 = 135."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Tales no triângulo: uma reta paralela a um lado de um triângulo corta os outros dois lados em partes proporcionais. No triângulo ABC, se DE é paralelo a BC, com D em AB e E em AC, então AD/DB = AE/EC. Exemplo: AD = 4, DB = 6 e AE = 6 dão EC = 9.",
+        "Quando a incógnita aparece em dois lugares, a proporção pode virar equação do 2º grau: x/8 = 3/(x − 2) dá x² − 2x − 24 = 0, com raízes 6 e −4. Como medida não é negativa, x = 6.",
+        "Dividir um segmento em partes iguais sem medir: trace uma semirreta auxiliar saindo de uma ponta, marque nela 5 passos iguais com o compasso, ligue a última marca à outra ponta do segmento e trace paralelas por cada marca. Pelo Teorema de Tales, o segmento fica dividido em 5 partes iguais."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O Teorema de Tales fala de retas paralelas cortadas por:",
+            "alternativas": [
+              "retas transversais",
+              "círculos",
+              "triângulos iguais",
+              "pontos soltos"
+            ],
+            "correta": 0,
+            "explicacao": "Paralelas cortadas por transversais formam segmentos proporcionais.",
+            "dica": "São as retas que atravessam as paralelas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa transversal os segmentos medem 3 e 6; na outra, 4 e x. Quanto vale x?",
+            "alternativas": [
+              "7",
+              "2",
+              "8",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "3/6 = 4/x, então 3x = 24 e x = 8.",
+            "dica": "Multiplique em cruz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em a/b = c/d, a multiplicação em cruz dá:",
+            "alternativas": [
+              "a · b = c · d",
+              "a · d = b · c",
+              "a + d = b + c",
+              "a · c = b · d"
+            ],
+            "correta": 1,
+            "explicacao": "Multiplica-se o numerador de uma fração pelo denominador da outra.",
+            "dica": "Cruze: cima de uma com baixo da outra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Segmentos 2 e 5 numa transversal; 6 e x na outra. Quanto vale x?",
+            "alternativas": [
+              "9",
+              "12",
+              "10",
+              "15"
+            ],
+            "correta": 3,
+            "explicacao": "2/5 = 6/x, 2x = 30, x = 15.",
+            "dica": "O 6 é o triplo do 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Segmentos proporcionais são aqueles que:",
+            "alternativas": [
+              "têm sempre a mesma medida",
+              "são todos perpendiculares",
+              "mantêm a mesma razão entre si",
+              "são sempre inteiros"
+            ],
+            "correta": 2,
+            "explicacao": "Proporcional quer dizer que a razão é a mesma, não que as medidas sejam iguais.",
+            "dica": "Pense em razão, que é uma divisão."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa transversal, AB = x e BC = 12; na outra, DE = 6 e EF = 9. Quanto vale x?",
+            "alternativas": [
+              "8",
+              "18",
+              "6",
+              "10"
+            ],
+            "correta": 0,
+            "explicacao": "x/12 = 6/9, 9x = 72, x = 8.",
+            "dica": "Monte a proporção na mesma ordem nas duas retas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Frentes para a rua A: 20 m, 30 m e 40 m. Frente total para a rua B: 135 m. Quanto mede na rua B o lote de 30 m?",
+            "alternativas": [
+              "40 m",
+              "45 m",
+              "50 m",
+              "35 m"
+            ],
+            "correta": 1,
+            "explicacao": "Razão 135/90 = 1,5; 30 × 1,5 = 45 m.",
+            "dica": "Divida o total da rua B pelo total da rua A."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No triângulo ABC, DE é paralelo a BC. AD = 4, DB = 6 e AE = 6. Quanto mede EC?",
+            "alternativas": [
+              "4",
+              "6",
+              "8",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "4/6 = 6/EC, 4 · EC = 36, EC = 9.",
+            "dica": "Use AD/DB = AE/EC."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa transversal, AB = 4 e AC (o total) = 10; na outra, DE = 6. Quanto mede o total DF?",
+            "alternativas": [
+              "12",
+              "15",
+              "16",
+              "20"
+            ],
+            "correta": 1,
+            "explicacao": "Parte/total: 4/10 = 6/DF, DF = 15.",
+            "dica": "Compare parte com parte e total com total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na proporção x/(x + 2) = 3/4, quanto vale x?",
+            "alternativas": [
+              "6",
+              "3",
+              "4",
+              "8"
+            ],
+            "correta": 0,
+            "explicacao": "4x = 3x + 6, logo x = 6. Confere: 6/8 = 3/4.",
+            "dica": "Multiplique em cruz e isole x."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Três paralelas cortam a reta r em segmentos de 5 cm e 7 cm. Na reta s, a distância da 1ª à 3ª paralela é 36 cm. Quanto mede o menor segmento em s?",
+            "alternativas": [
+              "12 cm",
+              "15 cm",
+              "18 cm",
+              "21 cm"
+            ],
+            "correta": 1,
+            "explicacao": "Total em r: 12. Razão 36/12 = 3. Segmentos em s: 15 e 21.",
+            "dica": "Primeiro ache a razão entre os totais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lotes com frentes de 15 m, 20 m e 25 m na rua A. Na rua B, o primeiro lote mede 18 m. Quanto mede o terceiro na rua B?",
+            "alternativas": [
+              "28 m",
+              "25 m",
+              "30 m",
+              "32 m"
+            ],
+            "correta": 2,
+            "explicacao": "Razão 18/15 = 1,2; 25 × 1,2 = 30 m.",
+            "dica": "Descubra quanto cada metro da rua A vale na rua B."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "E qual é a frente total desses três lotes na rua B?",
+            "alternativas": [
+              "60 m",
+              "66 m",
+              "70 m",
+              "72 m"
+            ],
+            "correta": 3,
+            "explicacao": "60 × 1,2 = 72 m (ou 18 + 24 + 30).",
+            "dica": "Use a mesma razão para o total."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No triângulo ABC, DE ∥ BC, AD = 5, AB = 15 e AC = 12. Quanto mede AE?",
+            "alternativas": [
+              "4",
+              "5",
+              "6",
+              "8"
+            ],
+            "correta": 0,
+            "explicacao": "AD/AB = AE/AC: 5/15 = AE/12, AE = 4.",
+            "dica": "Aqui você tem parte e total no lado AB."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para resolver um problema com o Teorema de Tales.",
+            "itens": [
+              "Identificar as paralelas e as transversais",
+              "Ligar os segmentos que se correspondem",
+              "Montar a proporção",
+              "Multiplicar em cruz e resolver",
+              "Conferir se a resposta faz sentido"
+            ],
+            "explicacao": "Entender a figura, montar a proporção certa, calcular e conferir.",
+            "dica": "A conta vem depois de montar a proporção."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No triângulo ABC, DE ∥ BC, AD = x, DB = 8, AE = 3 e EC = x − 2. Quanto mede EC?",
+            "alternativas": [
+              "6",
+              "4",
+              "3",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "x/8 = 3/(x − 2) dá x² − 2x − 24 = 0, então x = 6 (o −4 não serve). EC = 6 − 2 = 4.",
+            "dica": "Resolva a equação do 2º grau e descarte a raiz negativa; depois, atenção ao que foi pedido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para dividir um segmento em 7 partes iguais pelo método de Tales, quantas paralelas você traça além da reta que liga a última marca à ponta?",
+            "alternativas": [
+              "7",
+              "8",
+              "5",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "São 7 marcas; a 7ª já foi ligada. Faltam paralelas pelas outras 6 marcas.",
+            "dica": "Uma das 7 marcas já tem a sua reta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas transversais cortam quatro paralelas. Em r, os segmentos medem 2, 3 e 5; em s, o segmento do meio mede 4,5. Quanto mede o total em s?",
+            "alternativas": [
+              "10",
+              "12",
+              "15",
+              "13,5"
+            ],
+            "correta": 2,
+            "explicacao": "Razão 4,5/3 = 1,5. Total em r: 10; em s: 15.",
+            "dica": "Use o segmento do meio para achar a razão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um terreno de 100 m de frente para a rua B foi dividido em 2 lotes com divisa paralela às laterais. Na rua A, as frentes medem 32 m e 48 m. Quanto mede o maior lote na rua B?",
+            "alternativas": [
+              "48 m",
+              "52 m",
+              "60 m",
+              "64 m"
+            ],
+            "correta": 2,
+            "explicacao": "Total na rua A: 80. Razão 100/80 = 1,25; 48 × 1,25 = 60 m.",
+            "dica": "Some as frentes da rua A antes de tudo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual afirmação é FALSA?",
+            "alternativas": [
+              "Se as retas não forem paralelas, o Teorema de Tales não garante a proporção",
+              "Segmentos correspondentes nas duas transversais são sempre iguais",
+              "Vale comparar parte com total nas duas transversais",
+              "Uma paralela a um lado do triângulo divide os outros dois em partes proporcionais"
+            ],
+            "correta": 1,
+            "explicacao": "Os segmentos correspondentes são proporcionais; só são iguais no caso especial em que a razão entre eles é 1.",
+            "dica": "Proporcional não quer dizer igual."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Previdência: INSS, aposentadoria e previdência privada",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Previdência é se proteger para o futuro e para imprevistos. A Previdência Social pública é o INSS: quem contribui todo mês ganha direito a aposentadoria, auxílio quando fica doente e não pode trabalhar, salário-maternidade e pensão para a família em caso de morte.",
+          "Quem trabalha com carteira assinada já contribui: o INSS é descontado do salário. Autônomos e MEIs precisam pagar por conta própria. O MEI paga 5% do salário mínimo dentro do DAS mensal; com salário mínimo de R$ 1.600 (valor do exemplo), são R$ 80.",
+          "Depois da reforma da Previdência de 2019, a aposentadoria por idade de quem trabalha na cidade exige, em regra, 62 anos para mulheres e 65 para homens, com pelo menos 15 anos de contribuição (20 anos para os homens que começaram a contribuir depois da reforma).",
+          "Previdência privada é um investimento de longo prazo oferecido por bancos e seguradoras (os planos PGBL e VGBL). Ela complementa o INSS, não substitui. Antes de contratar, compare as taxas de administração e de carregamento, que comem o rendimento.",
+          "Quem nunca contribuiu pode perder anos de proteção. O tempo conta: cada mês pago agora é um mês a menos para completar a carência no futuro."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma costureira tem 60 anos e 6 anos de contribuição. Pela regra geral, quando ela poderá se aposentar por idade?",
+            "resolucao": "Ela precisa de 15 anos de contribuição: faltam 9. Contribuindo sem parar, completa aos 60 + 9 = 69 anos. A idade de 62 ela já terá, mas falta o tempo de contribuição."
+          },
+          {
+            "enunciado": "Com salário mínimo de R$ 1.600, quanto um autônomo paga no plano simplificado (11%)?",
+            "resolucao": "0,11 × 1.600 = R$ 176 por mês."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Formas de contribuir sem carteira: o autônomo pode pagar 20% sobre o que ganha (plano normal) ou 11% sobre o salário mínimo (plano simplificado, que dá direito à aposentadoria por idade no valor de um salário mínimo). Quem não tem renda, como estudante, pode ser contribuinte facultativo; donas de casa de família de baixa renda inscrita no CadÚnico podem pagar 5%.",
+        "BPC não é aposentadoria: é um benefício de assistência social de um salário mínimo para idosos a partir de 65 anos ou pessoas com deficiência de família de baixa renda. Não exige contribuição, mas não paga 13º nem deixa pensão.",
+        "Juros compostos favorecem quem começa cedo: R$ 100 por mês durante 40 anos juntam muito mais do que R$ 200 por mês durante 20 anos, mesmo que o total depositado seja o mesmo (R$ 48.000), porque o dinheiro fica mais tempo rendendo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o órgão da Previdência Social pública?",
+            "alternativas": [
+              "Procon",
+              "INSS",
+              "Receita Federal",
+              "Detran"
+            ],
+            "correta": 1,
+            "explicacao": "O INSS paga aposentadorias e auxílios.",
+            "dica": "São quatro letras e aparece no holerite."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem tem carteira assinada contribui para o INSS:",
+            "alternativas": [
+              "só se quiser",
+              "nunca",
+              "pelo desconto no salário",
+              "só depois dos 50 anos"
+            ],
+            "correta": 2,
+            "explicacao": "O desconto vem direto no salário.",
+            "dica": "Olhe os descontos do holerite."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O MEI paga ao INSS quanto do salário mínimo, dentro do DAS?",
+            "alternativas": [
+              "5%",
+              "20%",
+              "50%",
+              "1%"
+            ],
+            "correta": 0,
+            "explicacao": "5% do salário mínimo.",
+            "dica": "É um percentual pequeno, de um dígito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A previdência privada serve para:",
+            "alternativas": [
+              "substituir o INSS por lei",
+              "pagar impostos atrasados",
+              "trocar de banco",
+              "complementar a renda no futuro"
+            ],
+            "correta": 3,
+            "explicacao": "Ela complementa, não substitui o INSS.",
+            "dica": "Pense em algo a mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Além da aposentadoria, o INSS paga:",
+            "alternativas": [
+              "auxílio para quem fica doente e não pode trabalhar",
+              "multas de trânsito",
+              "conta de luz",
+              "mensalidade escolar"
+            ],
+            "correta": 0,
+            "explicacao": "Também há salário-maternidade e pensão.",
+            "dica": "Pense em proteção para imprevistos."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pela regra geral após 2019, qual é a idade mínima de aposentadoria por idade para mulheres na cidade?",
+            "alternativas": [
+              "60 anos",
+              "65 anos",
+              "62 anos",
+              "55 anos"
+            ],
+            "correta": 2,
+            "explicacao": "62 anos para mulheres e 65 para homens.",
+            "dica": "É menor que a dos homens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o tempo mínimo de contribuição exigido de uma mulher para a aposentadoria por idade?",
+            "alternativas": [
+              "10 anos",
+              "15 anos",
+              "25 anos",
+              "35 anos"
+            ],
+            "correta": 1,
+            "explicacao": "15 anos de contribuição.",
+            "dica": "Fica entre 10 e 20 anos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com salário mínimo de R$ 1.600, quanto paga por mês o MEI ao INSS?",
+            "alternativas": [
+              "R$ 160",
+              "R$ 320",
+              "R$ 16",
+              "R$ 80"
+            ],
+            "correta": 3,
+            "explicacao": "5% de 1.600 = 80.",
+            "dica": "Ache 10% e divida por dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao comparar planos de previdência privada, é importante olhar:",
+            "alternativas": [
+              "a cor do aplicativo",
+              "as taxas de administração e carregamento",
+              "o nome do gerente",
+              "o horário da agência"
+            ],
+            "correta": 1,
+            "explicacao": "Taxas altas diminuem o rendimento.",
+            "dica": "O que tira dinheiro do seu rendimento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa de 60 anos com 6 anos de contribuição precisa de mais quantos anos para chegar a 15?",
+            "alternativas": [
+              "9",
+              "6",
+              "15",
+              "2"
+            ],
+            "correta": 0,
+            "explicacao": "15 − 6 = 9 anos.",
+            "dica": "Faça a subtração."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dona Cida tem 60 anos e 6 anos de contribuição. Contribuindo sem parar, com que idade completa os requisitos da regra geral?",
+            "alternativas": [
+              "62",
+              "66",
+              "69",
+              "75"
+            ],
+            "correta": 2,
+            "explicacao": "Faltam 9 anos de contribuição: 60 + 9 = 69. Aos 62 ela ainda não terá os 15 anos.",
+            "dica": "As duas condições precisam valer ao mesmo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um autônomo ganha R$ 3.000 e quer contribuir no plano normal (20%). Quanto paga?",
+            "alternativas": [
+              "R$ 300",
+              "R$ 330",
+              "R$ 450",
+              "R$ 600"
+            ],
+            "correta": 3,
+            "explicacao": "0,20 × 3.000 = 600.",
+            "dica": "20% é a quinta parte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre BPC e aposentadoria?",
+            "alternativas": [
+              "O BPC é assistência e não exige contribuição",
+              "O BPC exige 35 anos de contribuição",
+              "O BPC é pago por banco privado",
+              "Não há diferença"
+            ],
+            "correta": 0,
+            "explicacao": "O BPC é para idosos ou pessoas com deficiência de baixa renda, sem contribuição.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um rapaz de 18 anos trabalha como entregador autônomo e não contribui. Qual é o maior risco?",
+            "alternativas": [
+              "Pagar imposto demais",
+              "Ficar sem auxílio se adoecer e atrasar a aposentadoria",
+              "Perder o CPF",
+              "Não poder abrir conta"
+            ],
+            "correta": 1,
+            "explicacao": "Sem contribuir, ele não tem proteção do INSS em doença ou acidente, e não conta tempo.",
+            "dica": "Pense nos imprevistos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene da maior para a menor contribuição mensal, com salário mínimo de R$ 1.600 e renda de R$ 3.000.",
+            "itens": [
+              "Autônomo no plano normal: 20% de R$ 3.000",
+              "Autônomo no simplificado: 11% de R$ 1.600",
+              "MEI: 5% de R$ 1.600"
+            ],
+            "explicacao": "R$ 600, R$ 176 e R$ 80.",
+            "dica": "Calcule cada um."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Ana guarda R$ 100 por mês por 40 anos; Beto guarda R$ 200 por mês por 20 anos, com a mesma taxa de juros. O que é verdade?",
+            "alternativas": [
+              "Os dois terminam com o mesmo valor",
+              "Beto termina com mais",
+              "Os dois depositaram R$ 48.000, mas Ana termina com mais",
+              "Ana depositou mais"
+            ],
+            "correta": 2,
+            "explicacao": "Total depositado: 100 × 480 = 200 × 240 = R$ 48.000. Com juros compostos, o dinheiro de Ana rende por mais tempo.",
+            "dica": "Calcule o total depositado e pense no tempo rendendo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um homem começou a contribuir em 2023, aos 30 anos, e paga sem parar. Pela regra geral, quando completa os requisitos?",
+            "alternativas": [
+              "Aos 65 anos, quando terá 35 de contribuição",
+              "Aos 50 anos",
+              "Aos 45 anos, com 15 anos de contribuição",
+              "Aos 62 anos"
+            ],
+            "correta": 0,
+            "explicacao": "Precisa de 65 anos de idade e 20 de contribuição (começou depois da reforma). Aos 50 teria os 20 anos, mas não a idade; aos 65 tem as duas condições.",
+            "dica": "São duas condições: idade e tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a previdência privada não deve substituir o INSS para quem trabalha sem carteira?",
+            "alternativas": [
+              "Porque é proibida",
+              "Porque o INSS também cobre doença, maternidade e pensão",
+              "Porque rende sempre menos",
+              "Porque só aceita aposentados"
+            ],
+            "correta": 1,
+            "explicacao": "O INSS oferece proteções de seguro social que um investimento comum não dá.",
+            "dica": "Pense no que acontece antes de aposentar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa paga 11% sobre o salário mínimo. Ela terá direito, na aposentadoria por idade, a quanto?",
+            "alternativas": [
+              "Ao teto do INSS",
+              "A 11% do salário",
+              "A nada",
+              "A um salário mínimo"
+            ],
+            "correta": 3,
+            "explicacao": "O plano simplificado dá aposentadoria por idade no valor de um salário mínimo.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um plano de previdência privada cobra 2% ao ano de administração e rende 10% ao ano antes da taxa. Aproximadamente, quanto sobra de rendimento por ano?",
+            "alternativas": [
+              "10%",
+              "8%",
+              "12%",
+              "2%"
+            ],
+            "correta": 1,
+            "explicacao": "Aproximadamente 10% − 2% = 8%. Em 30 anos, essa diferença vira muito dinheiro.",
+            "dica": "A taxa sai do rendimento."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "JavaScript: variáveis e eventos de clique",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "JavaScript é a linguagem que dá vida às páginas: faz botões responderem, conta cliques, mostra mensagens. O código fica entre <script> e </script>, de preferência no fim do body.",
+          "Variáveis guardam valores. Use let para valores que mudam (let pontos = 0;) e const para valores fixos (const nome = \"Rita\";). Tentar mudar uma const dá erro. O antigo var ainda funciona, mas evite.",
+          "Para pegar um elemento da página: const botao = document.querySelector(\"#botao\"); O # busca pelo id, o ponto busca pela classe (\".cartao\").",
+          "Eventos são ações do usuário. botao.addEventListener(\"click\", function () { ... }); manda executar a função toda vez que alguém clicar.",
+          "Para mudar o texto de um elemento, use textContent: placar.textContent = \"Pontos: \" + pontos; Com crases dá para escrever `Pontos: ${pontos}`, que é a template string."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Faça um contador de cliques.",
+            "resolucao": "<button id=\"botao\">Clique</button>\n<p id=\"placar\">0</p>\n<script>\n  let cliques = 0;\n  const botao = document.querySelector(\"#botao\");\n  const placar = document.querySelector(\"#placar\");\n  botao.addEventListener(\"click\", function () {\n    cliques = cliques + 1;\n    placar.textContent = cliques;\n  });\n</script>"
+          },
+          {
+            "enunciado": "O que aparece em console.log(\"5\" + 3) e em console.log(5 + 3)?",
+            "resolucao": "\"53\" e 8. Com texto, o + junta (concatena); com dois números, soma."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Tipos: typeof 7 dá \"number\", typeof \"7\" dá \"string\" e typeof true dá \"boolean\". Para transformar texto em número, use Number(\"7\"). Com o operador -, o JavaScript converte sozinho: \"10\" - 3 dá 7, mas \"10\" + 3 dá \"103\".",
+        "Comparação: == compara valor convertendo o tipo (\"5\" == 5 é true); === compara valor e tipo (\"5\" === 5 é false). Prefira sempre ===.",
+        "Escopo: uma variável criada com let dentro da função do clique nasce e morre a cada clique. Por isso o contador precisa ser declarado fora da função; se fosse declarado dentro, voltaria a zero toda vez e o placar ficaria sempre em 1."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra cria uma variável que pode mudar?",
+            "alternativas": [
+              "const",
+              "let",
+              "print",
+              "def"
+            ],
+            "correta": 1,
+            "explicacao": "let cria variável que muda; const é fixa.",
+            "dica": "Uma delas vem de constante."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra cria um valor fixo?",
+            "alternativas": [
+              "const",
+              "let",
+              "var",
+              "if"
+            ],
+            "correta": 0,
+            "explicacao": "const vem de constante.",
+            "dica": "É o que nunca muda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual evento acontece quando alguém clica?",
+            "alternativas": [
+              "\"load\"",
+              "\"keyup\"",
+              "\"scroll\"",
+              "\"click\""
+            ],
+            "correta": 3,
+            "explicacao": "click = clique.",
+            "dica": "É a tradução de clique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para pegar um elemento pelo id, usamos no querySelector o símbolo:",
+            "alternativas": [
+              ".",
+              "@",
+              "#",
+              "$"
+            ],
+            "correta": 2,
+            "explicacao": "# para id, ponto para classe.",
+            "dica": "É o mesmo símbolo do CSS para id."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para trocar o texto de um parágrafo, usamos:",
+            "alternativas": [
+              "textContent",
+              "addEventListener",
+              "console",
+              "typeof"
+            ],
+            "correta": 0,
+            "explicacao": "elemento.textContent = \"novo texto\".",
+            "dica": "É o conteúdo de texto do elemento."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra console.log(\"5\" + 3)?",
+            "alternativas": [
+              "8",
+              "\"53\"",
+              "erro",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "Com texto, o + junta: \"53\".",
+            "dica": "Um dos dois é texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com const x = 2; x = 3;?",
+            "alternativas": [
+              "x vira 3",
+              "x vira 5",
+              "Dá erro, porque const não pode ser trocada",
+              "x vira texto"
+            ],
+            "correta": 2,
+            "explicacao": "Não se pode reatribuir uma const.",
+            "dica": "Constante não muda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha faz a função rodar a cada clique no botão?",
+            "alternativas": [
+              "botao.click = 1;",
+              "botao.textContent(\"click\");",
+              "click(botao);",
+              "botao.addEventListener(\"click\", mostrar);"
+            ],
+            "correta": 3,
+            "explicacao": "addEventListener liga o evento à função.",
+            "dica": "Ouvinte de evento, em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com let pontos = 10; qual template string mostra \"Pontos: 10\"?",
+            "alternativas": [
+              "`Pontos: ${pontos}`",
+              "\"Pontos: ${pontos}\"",
+              "'Pontos: pontos'",
+              "`Pontos: (pontos)`"
+            ],
+            "correta": 0,
+            "explicacao": "Só com crases o ${} é substituído.",
+            "dica": "Repare no tipo de aspas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "document.querySelector(\".cartao\") busca:",
+            "alternativas": [
+              "o elemento com id cartao",
+              "o primeiro elemento com a classe cartao",
+              "todos os parágrafos",
+              "o arquivo cartao.html"
+            ],
+            "correta": 1,
+            "explicacao": "Ponto indica classe; querySelector devolve o primeiro.",
+            "dica": "Ponto é classe."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale \"10\" - 3 em JavaScript?",
+            "alternativas": [
+              "\"103\"",
+              "erro",
+              "7",
+              "13"
+            ],
+            "correta": 2,
+            "explicacao": "O - converte o texto em número: 10 − 3 = 7.",
+            "dica": "Subtração não junta textos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comparação é true?",
+            "alternativas": [
+              "\"5\" === 5",
+              "\"5\" == 5",
+              "5 === \"5\"",
+              "\"6\" == 5"
+            ],
+            "correta": 1,
+            "explicacao": "== converte o tipo antes de comparar.",
+            "dica": "Um operador olha o tipo, o outro não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um contador declara let cliques = 0; DENTRO da função do clique. O que acontece?",
+            "alternativas": [
+              "Conta normalmente",
+              "Dá erro de sintaxe",
+              "Conta de 2 em 2",
+              "O placar fica sempre em 1"
+            ],
+            "correta": 3,
+            "explicacao": "A variável é recriada com 0 a cada clique e vira 1.",
+            "dica": "Pense no escopo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o resultado de typeof \"7\"?",
+            "alternativas": [
+              "\"string\"",
+              "\"number\"",
+              "\"boolean\"",
+              "\"seven\""
+            ],
+            "correta": 0,
+            "explicacao": "Entre aspas é texto.",
+            "dica": "Olhe as aspas."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as linhas de um contador de cliques.",
+            "itens": [
+              "let cliques = 0;",
+              "const botao = document.querySelector(\"#botao\");",
+              "botao.addEventListener(\"click\", function () {",
+              "cliques = cliques + 1;",
+              "placar.textContent = cliques; });"
+            ],
+            "explicacao": "Variável, elemento, evento, soma e mostra.",
+            "dica": "A variável vem antes do evento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "let a = \"2\"; let b = 3; console.log(a + b * 2). O que aparece?",
+            "alternativas": [
+              "\"10\"",
+              "10",
+              "\"26\"",
+              "\"232\""
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro a multiplicação: 3 × 2 = 6. Depois \"2\" + 6 junta: \"26\".",
+            "dica": "Multiplicação vem antes, e depois o + encontra um texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual código converte o texto do campo idade e soma 1 corretamente?",
+            "alternativas": [
+              "campo.value + 1",
+              "Number(campo.value) + 1",
+              "\"campo.value\" + 1",
+              "campo + 1"
+            ],
+            "correta": 1,
+            "explicacao": "value é texto; Number converte para número.",
+            "dica": "O que vem de um campo é sempre texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um botão deve somar 5 pontos a cada clique, começando em 0. Depois de 4 cliques, o que aparece se o código é pontos = pontos + 5; placar.textContent = pontos;?",
+            "alternativas": [
+              "5",
+              "4",
+              "25",
+              "20"
+            ],
+            "correta": 3,
+            "explicacao": "0 + 5 + 5 + 5 + 5 = 20.",
+            "dica": "Some 5 quatro vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que se prefere === a ==?",
+            "alternativas": [
+              "Porque compara valor e tipo, evitando surpresas",
+              "Porque é mais rápido de digitar",
+              "Porque converte tudo em texto",
+              "Porque só funciona com números"
+            ],
+            "correta": 0,
+            "explicacao": "== faz conversões escondidas, como \"0\" == 0 ser true.",
+            "dica": "Pense no tipo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o valor de x? let x = 1; x = x + \"1\"; x = x - 1;",
+            "alternativas": [
+              "1",
+              "10",
+              "\"111\"",
+              "0"
+            ],
+            "correta": 1,
+            "explicacao": "x + \"1\" dá \"11\" (texto). \"11\" − 1 converte: 10.",
+            "dica": "Faça linha por linha."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Sinônimos, antônimos, homônimos e parônimos",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Sinônimos são palavras de sentido parecido: alegre e contente, casa e lar. Servem para não repetir palavras no texto. Antônimos têm sentidos opostos: claro e escuro, aceitar e recusar.",
+          "Homônimos têm a mesma escrita ou o mesmo som, mas sentidos diferentes. Homófonos têm o mesmo som e escrita diferente: concerto (apresentação musical) e conserto (reparo), cela (prisão) e sela (do cavalo), sessão (reunião), seção (departamento) e cessão (ato de ceder).",
+          "Homógrafos têm a mesma escrita e som diferente: o colher (talher, com o aberto) e colher (verbo). Homônimos perfeitos têm a mesma escrita e o mesmo som: rio (do verbo rir) e rio (curso de água).",
+          "Parônimos são parecidos, mas não iguais, na escrita e no som: comprimento (medida) e cumprimento (saudação), descrição (ato de descrever) e discrição (ser discreto), tráfego (trânsito) e tráfico (comércio ilegal), eminente (importante) e iminente (que está para acontecer).",
+          "O contexto decide o sentido. Na dúvida entre parônimos, consulte o dicionário: trocar um pelo outro muda a mensagem."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Complete: \"O ___ do carro ficou caro\" (conserto ou concerto?).",
+            "resolucao": "Conserto, com s, porque é reparo. Concerto é apresentação musical."
+          },
+          {
+            "enunciado": "Qual é a diferença entre \"o perigo é iminente\" e \"um médico eminente\"?",
+            "resolucao": "Iminente: está para acontecer. Eminente: importante, de destaque."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Sinônimos raramente são perfeitos: \"velho\" e \"antigo\" parecem iguais, mas \"um amigo velho\" (idoso) e \"um velho amigo\" (de longa data) mudam de sentido, e \"carro antigo\" soa como valorização.",
+        "Mais parônimos que caem em prova: ratificar (confirmar) e retificar (corrigir); emergir (vir à tona) e imergir (afundar); infringir (desrespeitar uma regra) e infligir (aplicar um castigo); flagrante (evidente) e fragrante (perfumado); deferir (aceitar um pedido) e diferir (adiar ou ser diferente).",
+        "Homófonos que mudam a conta: censo (contagem da população) e senso (juízo); acender (pôr fogo) e ascender (subir); cozer (cozinhar) e coser (costurar)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um sinônimo de alegre?",
+            "alternativas": [
+              "triste",
+              "contente",
+              "cansado",
+              "sério"
+            ],
+            "correta": 1,
+            "explicacao": "Contente tem sentido parecido.",
+            "dica": "Procure o sentido parecido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o antônimo de claro?",
+            "alternativas": [
+              "escuro",
+              "limpo",
+              "branco",
+              "transparente"
+            ],
+            "correta": 0,
+            "explicacao": "Antônimo é o oposto.",
+            "dica": "Pense no oposto da luz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Conserto (com s) significa:",
+            "alternativas": [
+              "apresentação musical",
+              "prisão",
+              "reparo",
+              "reunião"
+            ],
+            "correta": 2,
+            "explicacao": "Conserto é o ato de consertar, reparar.",
+            "dica": "Pense na oficina."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Comprimento e cumprimento são:",
+            "alternativas": [
+              "sinônimos",
+              "antônimos",
+              "a mesma palavra",
+              "parônimos"
+            ],
+            "correta": 3,
+            "explicacao": "Parecidos na escrita e no som, com sentidos diferentes.",
+            "dica": "São parecidos, mas não iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sinônimos ajudam a:",
+            "alternativas": [
+              "evitar repetir palavras",
+              "errar a ortografia",
+              "deixar o texto mais longo sem motivo",
+              "mudar o assunto"
+            ],
+            "correta": 0,
+            "explicacao": "Trocar palavras deixa o texto mais variado.",
+            "dica": "Pense na repetição."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ela cumprimentou o diretor com um ___ formal.\"",
+            "alternativas": [
+              "comprimento",
+              "cumprimento",
+              "compridão",
+              "comprimido"
+            ],
+            "correta": 1,
+            "explicacao": "Cumprimento é saudação.",
+            "dica": "Saudação ou medida?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"A chuva é ___: as nuvens já estão pretas.\"",
+            "alternativas": [
+              "eminente",
+              "iminente",
+              "imigrante",
+              "emergente"
+            ],
+            "correta": 1,
+            "explicacao": "Iminente: está para acontecer.",
+            "dica": "O que está prestes a acontecer?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cela e sela são:",
+            "alternativas": [
+              "homógrafos",
+              "antônimos",
+              "homófonos",
+              "sinônimos"
+            ],
+            "correta": 2,
+            "explicacao": "Mesmo som, escrita e sentido diferentes.",
+            "dica": "O som é igual; a escrita não."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Eu rio da piada\" e \"O rio encheu\", rio é homônimo:",
+            "alternativas": [
+              "perfeito",
+              "parônimo",
+              "antônimo",
+              "homófono com escrita diferente"
+            ],
+            "correta": 0,
+            "explicacao": "Mesma escrita e mesmo som, sentidos diferentes.",
+            "dica": "Escrita e som são iguais?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"O ___ de veículos na avenida está lento.\"",
+            "alternativas": [
+              "tráfico",
+              "trafico",
+              "tráfego",
+              "trágico"
+            ],
+            "correta": 2,
+            "explicacao": "Tráfego é trânsito; tráfico é comércio ilegal.",
+            "dica": "Fala de trânsito."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa a palavra certa?",
+            "alternativas": [
+              "O juiz deferiu o pedido e o aluguel foi reduzido.",
+              "Ele infligiu a regra do trânsito.",
+              "Vou retificar o acordo, confirmando tudo.",
+              "O submarino emergiu para o fundo."
+            ],
+            "correta": 0,
+            "explicacao": "Deferir é aceitar. Infringir é desrespeitar regra; ratificar é confirmar; emergir é subir à tona.",
+            "dica": "Confira cada parônimo com o sentido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Ele agiu com ___: não contou o segredo a ninguém.\"",
+            "alternativas": [
+              "descrição",
+              "discrição",
+              "discreção",
+              "descreção"
+            ],
+            "correta": 1,
+            "explicacao": "Discrição vem de discreto.",
+            "dica": "Pense no adjetivo discreto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"a colher de pau\" e \"vou colher as frutas\", a palavra colher é:",
+            "alternativas": [
+              "homógrafa",
+              "homófona",
+              "parônima",
+              "sinônima"
+            ],
+            "correta": 0,
+            "explicacao": "Mesma escrita, som diferente (ó aberto e ê fechado).",
+            "dica": "Leia em voz alta as duas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par NÃO é de sinônimos?",
+            "alternativas": [
+              "morar e residir",
+              "começar e iniciar",
+              "rápido e veloz",
+              "acender e ascender"
+            ],
+            "correta": 3,
+            "explicacao": "Acender é pôr fogo; ascender é subir: são homófonos.",
+            "dica": "Um par tem o mesmo som, mas sentidos diferentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"O IBGE faz o ___ a cada dez anos.\"",
+            "alternativas": [
+              "senso",
+              "censo",
+              "sensu",
+              "cenço"
+            ],
+            "correta": 1,
+            "explicacao": "Censo é a contagem da população; senso é juízo.",
+            "dica": "É uma contagem."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"O diretor ___ o castigo ao aluno que ___ a regra.\"",
+            "alternativas": [
+              "infringiu / infligiu",
+              "infligiu / infringiu",
+              "infligiu / infligiu",
+              "infringiu / infringiu"
+            ],
+            "correta": 1,
+            "explicacao": "Infligir é aplicar castigo; infringir é desrespeitar regra.",
+            "dica": "Quem aplica e quem desrespeita?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Vou coser o feijão na panela.",
+              "A secretaria fica na sessão de matrículas.",
+              "A costureira vai coser a barra da calça.",
+              "O balão vai acender ao céu."
+            ],
+            "correta": 2,
+            "explicacao": "Coser é costurar. Cozer é cozinhar; seção é departamento; ascender é subir.",
+            "dica": "Confira os homófonos um por um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"um velho amigo\" e \"um amigo velho\", o que muda?",
+            "alternativas": [
+              "Nada",
+              "No primeiro, amizade antiga; no segundo, amigo idoso",
+              "No primeiro, amigo idoso; no segundo, amizade antiga",
+              "Só a pontuação"
+            ],
+            "correta": 1,
+            "explicacao": "A posição do adjetivo muda o sentido: sinônimos não são perfeitos.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra completa \"Os vereadores se reuniram em ___ extraordinária\"?",
+            "alternativas": [
+              "seção",
+              "cessão",
+              "sessão",
+              "secção"
+            ],
+            "correta": 2,
+            "explicacao": "Sessão é reunião.",
+            "dica": "Fala de uma reunião."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O perfume tinha um aroma ___ e o erro do goleiro foi ___.",
+            "alternativas": [
+              "fragrante / flagrante",
+              "flagrante / fragrante",
+              "fragrante / fragrante",
+              "flagrante / flagrante"
+            ],
+            "correta": 0,
+            "explicacao": "Fragrante é perfumado; flagrante é evidente.",
+            "dica": "Pense em fragrância."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A aposentadoria da dona Cida",
+    "texto": "Aos 60 anos, dona Cida ainda pedalava a máquina de costura todos os dias, numa salinha nos fundos de casa, em Guaianases. Fazia barra de calça, ajustava vestido de festa, costurava uniforme para a escola do bairro. Os clientes pagavam em dinheiro ou por Pix, e ela anotava tudo num caderno de capa florida.\n\nNum sábado, a vizinha Rosângela apareceu com um bolo de fubá e uma novidade: tinha dado entrada na aposentadoria.\n\n— E você, Cida, quando vai parar?\n\nDona Cida riu, mas a pergunta ficou martelando. Na segunda-feira, pediu ao neto Matheus que a ajudasse a consultar o extrato do INSS pelo celular. O resultado apareceu em poucos minutos: seis anos de contribuição, todos da época em que trabalhou registrada numa confecção, antes de os filhos nascerem. Depois disso, mais de trinta anos de costura em casa, sem pagar nada.\n\n— Vó, a senhora precisa de quinze anos de contribuição — explicou Matheus, lendo devagar. — A idade a senhora vai ter, mas o tempo não.\n\nEla fez a conta nos dedos. Faltavam nove anos. Se começasse naquele mês, só conseguiria se aposentar perto dos 69.\n\n— E se eu ficar doente antes disso? — perguntou, em voz baixa.\n\nMatheus não soube responder. Pesquisaram juntos e descobriram que, como costureira, ela podia se formalizar como MEI, pagando uma guia mensal com a contribuição ao INSS incluída. Assim voltaria a ter direito a auxílio se adoecesse e começaria a contar o tempo que faltava.\n\nNa mesma semana, dona Cida abriu o MEI. Colou o primeiro boleto pago na última página do caderno florido e escreveu embaixo, com letra caprichada: \"Antes tarde do que nunca. Mas antes cedo é melhor.\"\n\nMostrou ao neto, que trabalhava fazendo entregas de moto.\n\n— Isso aqui também é para você, viu?"
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique por que um jovem que trabalha como autônomo (por exemplo, fazendo entregas) deveria pensar na aposentadoria desde cedo e o que ele poderia fazer para contribuir com o INSS. Use pelo menos um fato da história de dona Cida."
+  }
+}

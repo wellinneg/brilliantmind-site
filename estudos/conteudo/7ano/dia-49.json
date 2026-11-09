@@ -1,0 +1,1508 @@
+{
+  "dia": 49,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Soma dos ângulos internos dos polígonos",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Polígono é uma figura plana e fechada formada por segmentos de reta, os lados. Em cada canto (vértice), há um ângulo interno.",
+          "Em todo triângulo, a soma dos três ângulos internos é 180°.",
+          "Qualquer polígono pode ser dividido em triângulos traçando diagonais a partir de um único vértice. Um polígono de n lados vira n − 2 triângulos. Por isso, a soma dos ângulos internos é S = (n − 2) × 180°.",
+          "Quadrilátero (4 lados): 2 × 180° = 360°. Pentágono (5): 540°. Hexágono (6): 720°.",
+          "No polígono regular, todos os lados e todos os ângulos são iguais. Para achar cada ângulo, divida a soma pelo número de lados: no hexágono regular, 720° ÷ 6 = 120°."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um triângulo tem ângulos de 50° e 60°. Quanto mede o terceiro?",
+            "resolucao": "180 − 50 − 60 = 70°."
+          },
+          {
+            "enunciado": "Quanto mede cada ângulo interno de um pentágono regular?",
+            "resolucao": "Soma: (5 − 2) × 180 = 540°. Cada ângulo: 540 ÷ 5 = 108°."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Os ângulos externos de um polígono convexo, um em cada vértice, sempre somam 360°, não importa o número de lados. No polígono regular, cada externo mede 360° ÷ n, e interno + externo = 180°.",
+        "Dá para fazer o caminho de volta: se a soma é 1.440°, então (n − 2) × 180 = 1.440, n − 2 = 8 e n = 10 lados.",
+        "Por que os pisos costumam ser quadrados, triangulares ou hexagonais? Para cobrir o chão sem buracos, os ângulos que se encontram num ponto precisam somar 360°. Com hexágonos regulares, 3 × 120° = 360°. Com pentágonos regulares (108°), não dá certo: 3 × 108° = 324° deixa um buraco."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é a soma dos ângulos internos de um triângulo?",
+            "alternativas": [
+              "90°",
+              "180°",
+              "360°",
+              "270°"
+            ],
+            "correta": 1,
+            "explicacao": "Em todo triângulo, a soma é 180°.",
+            "dica": "É meia-volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é a soma dos ângulos internos de um quadrilátero?",
+            "alternativas": [
+              "360°",
+              "180°",
+              "540°",
+              "90°"
+            ],
+            "correta": 0,
+            "explicacao": "Um quadrilátero vira 2 triângulos: 2 × 180°.",
+            "dica": "Quantos triângulos cabem num quadrilátero?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem ângulos de 60° e 70°. Quanto mede o terceiro?",
+            "alternativas": [
+              "60°",
+              "130°",
+              "70°",
+              "50°"
+            ],
+            "correta": 3,
+            "explicacao": "180 − 60 − 70 = 50°.",
+            "dica": "Tire os dois ângulos de 180°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto mede cada ângulo de um quadrado?",
+            "alternativas": [
+              "45°",
+              "60°",
+              "90°",
+              "180°"
+            ],
+            "correta": 2,
+            "explicacao": "360° ÷ 4 = 90°. São ângulos retos.",
+            "dica": "Os cantos do quadrado são retos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fórmula da soma dos ângulos internos de um polígono de n lados?",
+            "alternativas": [
+              "(n − 2) × 180°",
+              "n × 180°",
+              "n × 90°",
+              "(n + 2) × 180°"
+            ],
+            "correta": 0,
+            "explicacao": "O polígono vira n − 2 triângulos.",
+            "dica": "Quantos triângulos cabem num polígono de n lados?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é a soma dos ângulos internos de um pentágono?",
+            "alternativas": [
+              "360°",
+              "540°",
+              "720°",
+              "900°"
+            ],
+            "correta": 1,
+            "explicacao": "(5 − 2) × 180 = 540°.",
+            "dica": "Use a fórmula com n = 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é a soma dos ângulos internos de um hexágono?",
+            "alternativas": [
+              "540°",
+              "1.080°",
+              "600°",
+              "720°"
+            ],
+            "correta": 3,
+            "explicacao": "(6 − 2) × 180 = 720°.",
+            "dica": "Use a fórmula com n = 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto mede cada ângulo interno de um pentágono regular?",
+            "alternativas": [
+              "108°",
+              "90°",
+              "120°",
+              "72°"
+            ],
+            "correta": 0,
+            "explicacao": "540 ÷ 5 = 108°.",
+            "dica": "Divida a soma pelo número de ângulos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um quadrilátero tem ângulos de 80°, 100° e 90°. Quanto mede o quarto?",
+            "alternativas": [
+              "80°",
+              "100°",
+              "90°",
+              "270°"
+            ],
+            "correta": 2,
+            "explicacao": "360 − 80 − 100 − 90 = 90°.",
+            "dica": "A soma total é 360°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Traçando diagonais a partir de um vértice, um octógono (8 lados) fica dividido em quantos triângulos?",
+            "alternativas": [
+              "8",
+              "6",
+              "7",
+              "5"
+            ],
+            "correta": 1,
+            "explicacao": "n − 2 = 8 − 2 = 6 triângulos.",
+            "dica": "Lembre o n − 2."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto mede cada ângulo interno de um hexágono regular?",
+            "alternativas": [
+              "108°",
+              "135°",
+              "120°",
+              "60°"
+            ],
+            "correta": 2,
+            "explicacao": "720 ÷ 6 = 120°.",
+            "dica": "Ache a soma e divida por 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A soma dos ângulos internos de um polígono é 1.440°. Quantos lados ele tem?",
+            "alternativas": [
+              "8",
+              "12",
+              "9",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "(n − 2) × 180 = 1.440 → n − 2 = 8 → n = 10.",
+            "dica": "Divida 1.440 por 180 e depois some 2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num triângulo isósceles, o ângulo diferente mede 40°. Quanto mede cada um dos outros dois?",
+            "alternativas": [
+              "70°",
+              "40°",
+              "140°",
+              "80°"
+            ],
+            "correta": 0,
+            "explicacao": "180 − 40 = 140. Os dois iguais: 140 ÷ 2 = 70°.",
+            "dica": "Os dois ângulos da base são iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto mede cada ângulo interno de um octógono regular?",
+            "alternativas": [
+              "120°",
+              "135°",
+              "140°",
+              "1.080°"
+            ],
+            "correta": 1,
+            "explicacao": "Soma: 6 × 180 = 1.080. Cada: 1.080 ÷ 8 = 135°.",
+            "dica": "Calcule a soma e divida por 8."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto mede cada ângulo externo de um hexágono regular?",
+            "alternativas": [
+              "120°",
+              "30°",
+              "60°",
+              "90°"
+            ],
+            "correta": 2,
+            "explicacao": "360 ÷ 6 = 60°. Confere: 120 + 60 = 180.",
+            "dica": "Os externos somam sempre 360°."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada ângulo interno de um polígono regular mede 140°. Quantos lados ele tem?",
+            "alternativas": [
+              "7",
+              "8",
+              "10",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "Externo: 180 − 140 = 40°. 360 ÷ 40 = 9 lados.",
+            "dica": "Use o ângulo externo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não dá para cobrir um piso só com pentágonos regulares?",
+            "alternativas": [
+              "Porque 108° não divide 360° exatamente, e sobra buraco",
+              "Porque pentágonos são caros",
+              "Porque têm 6 lados",
+              "Porque seus ângulos são retos"
+            ],
+            "correta": 0,
+            "explicacao": "Três ângulos de 108° somam 324°, e quatro passam de 360°.",
+            "dica": "Quantos ângulos de 108° cabem em volta de um ponto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os ângulos de um quadrilátero medem x, 2x, 3x e 4x. Quanto mede o maior?",
+            "alternativas": [
+              "36°",
+              "144°",
+              "120°",
+              "108°"
+            ],
+            "correta": 1,
+            "explicacao": "10x = 360 → x = 36. O maior: 4 × 36 = 144°.",
+            "dica": "Some as expressões e iguale a 360."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um pentágono tem quatro ângulos de 100°. Quanto mede o quinto?",
+            "alternativas": [
+              "100°",
+              "40°",
+              "140°",
+              "180°"
+            ],
+            "correta": 2,
+            "explicacao": "Soma: 540. 540 − 4 × 100 = 140°.",
+            "dica": "Comece pela soma do pentágono."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é a soma dos ângulos externos de um polígono convexo de 20 lados?",
+            "alternativas": [
+              "3.240°",
+              "360°",
+              "3.600°",
+              "180°"
+            ],
+            "correta": 1,
+            "explicacao": "A soma dos externos é sempre 360°, para qualquer número de lados.",
+            "dica": "Lembre a regra dos externos."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Dicionários: guardar pares de nome e valor",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um dicionário guarda pares de chave e valor: precos ← {'pão': 1.00, 'leite': 6.50, 'café': 18.00}. A chave é o nome; o valor é a informação ligada a ele.",
+          "Para pegar um valor, use a chave entre colchetes: precos['leite'] vale 6.50. Na lista, você usa a posição; no dicionário, usa o nome.",
+          "Para mudar um valor, atribua de novo: precos['leite'] ← 7.00. Para acrescentar um par novo, faça o mesmo com uma chave nova: precos['ovo'] ← 0.80.",
+          "As chaves não se repetem. Se você atribuir um valor a uma chave que já existe, o valor antigo é substituído.",
+          "Para percorrer: PARA CADA item EM precos FAÇA ESCREVA item, precos[item]. Para saber se uma chave existe: SE 'arroz' EM precos ENTÃO…"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "notas ← {'Ana': 8, 'Bruno': 6, 'Caio': 9}. Quanto vale notas['Bruno']? E depois de notas['Bruno'] ← 7?",
+            "resolucao": "notas['Bruno'] vale 6. Depois da atribuição, passa a valer 7, e o 6 some."
+          },
+          {
+            "enunciado": "precos ← {'pão': 1.00, 'leite': 6.50}. Quanto custa um pedido de 2 pães e 1 leite?",
+            "resolucao": "2 × precos['pão'] + 1 × precos['leite'] = 2 × 1.00 + 6.50 = 8.50."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Dicionários são ótimos para contar: cont ← {}; PARA CADA fruta EM cesta FAÇA SE fruta EM cont ENTÃO cont[fruta] ← cont[fruta] + 1 SENÃO cont[fruta] ← 1. No fim, cont mostra quantas vezes cada fruta apareceu.",
+        "Pedir uma chave que não existe dá erro: precos['arroz'] num dicionário sem arroz. Por isso, confira antes com SE 'arroz' EM precos.",
+        "tamanho(dic) dá o número de pares. As chaves não se repetem, mas os valores podem: {'Ana': 8, 'Bia': 8} é válido. Em Python, o dicionário se chama dict e se escreve com chaves: {'pão': 1.0}."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que um dicionário guarda?",
+            "alternativas": [
+              "Só números em ordem",
+              "Pares de chave e valor",
+              "Só textos",
+              "Imagens"
+            ],
+            "correta": 1,
+            "explicacao": "Cada chave tem um valor ligado a ela.",
+            "dica": "Pense em nome e preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "precos ← {'pão': 1.00, 'leite': 6.50}. Quanto vale precos['leite']?",
+            "alternativas": [
+              "6.50",
+              "1.00",
+              "leite",
+              "7.50"
+            ],
+            "correta": 0,
+            "explicacao": "A chave 'leite' tem o valor 6.50.",
+            "dica": "Procure o valor ao lado da chave leite."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No dicionário, como se pega um valor?",
+            "alternativas": [
+              "Pela cor",
+              "Pela posição 0",
+              "Ao acaso",
+              "Pelo nome da chave"
+            ],
+            "correta": 3,
+            "explicacao": "Diferente da lista, usa-se a chave: precos['pão'].",
+            "dica": "Qual é a diferença entre lista e dicionário?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As chaves de um dicionário podem se repetir?",
+            "alternativas": [
+              "Sim, sempre",
+              "Só se forem números",
+              "Não, cada chave é única",
+              "Só no Python"
+            ],
+            "correta": 2,
+            "explicacao": "Se repetir, o valor antigo é substituído.",
+            "dica": "Duas gavetas podem ter a mesma etiqueta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual símbolo envolve um dicionário?",
+            "alternativas": [
+              "Chaves { }",
+              "Parênteses ( )",
+              "Aspas \" \"",
+              "Barras / /"
+            ],
+            "correta": 0,
+            "explicacao": "{'pão': 1.00} usa chaves.",
+            "dica": "É o símbolo que tem o mesmo nome das chaves do dicionário."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "notas ← {'Ana': 8, 'Bruno': 6, 'Caio': 9}. Quanto vale notas['Caio']?",
+            "alternativas": [
+              "8",
+              "9",
+              "6",
+              "Caio"
+            ],
+            "correta": 1,
+            "explicacao": "A chave 'Caio' tem valor 9.",
+            "dica": "Ache a chave Caio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de notas['Bruno'] ← 7, quanto vale notas['Bruno']?",
+            "alternativas": [
+              "6",
+              "13",
+              "6 e 7",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "O valor antigo é substituído.",
+            "dica": "Atribuir de novo apaga o valor anterior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "precos ← {'pão': 1.00, 'leite': 6.50}. Quanto custam 2 pães e 1 leite?",
+            "alternativas": [
+              "8.50",
+              "7.50",
+              "9.00",
+              "13.00"
+            ],
+            "correta": 0,
+            "explicacao": "2 × 1.00 + 6.50 = 8.50.",
+            "dica": "Multiplique cada preço pela quantidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como acrescentar o ovo a R$ 0.80 no dicionário precos?",
+            "alternativas": [
+              "precos + ovo",
+              "precos[0] ← 'ovo'",
+              "precos['ovo'] ← 0.80",
+              "ovo ← precos"
+            ],
+            "correta": 2,
+            "explicacao": "Atribuir a uma chave nova cria o par.",
+            "dica": "Use uma chave nova entre colchetes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando verifica se 'arroz' existe no dicionário?",
+            "alternativas": [
+              "SE 'arroz' EM precos",
+              "SE precos = arroz",
+              "tamanho('arroz')",
+              "precos['arroz'] ← 0"
+            ],
+            "correta": 0,
+            "explicacao": "O teste EM confere se a chave existe.",
+            "dica": "Lembre a última frase da lição."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "precos ← {'pão': 1.00, 'leite': 6.50, 'café': 18.00}. Quanto vale tamanho(precos)?",
+            "alternativas": [
+              "6",
+              "25.50",
+              "3",
+              "1"
+            ],
+            "correta": 2,
+            "explicacao": "Há 3 pares de chave e valor.",
+            "dica": "Conte os pares, não os números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "estoque ← {'caneta': 10}; estoque['caneta'] ← estoque['caneta'] − 3. Quanto vale estoque['caneta']?",
+            "alternativas": [
+              "3",
+              "7",
+              "13",
+              "10"
+            ],
+            "correta": 1,
+            "explicacao": "10 − 3 = 7.",
+            "dica": "Pegue o valor atual e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece em precos['arroz'] se não existe a chave 'arroz'?",
+            "alternativas": [
+              "Dá erro",
+              "Vale 0",
+              "Vale 1",
+              "Cria o arroz com preço 10"
+            ],
+            "correta": 0,
+            "explicacao": "Ler uma chave inexistente dá erro. Antes, confira com EM.",
+            "dica": "Dá para ler algo que não existe?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual dicionário é válido?",
+            "alternativas": [
+              "{'Ana': 8, 'Ana': 9} com as duas notas guardadas",
+              "{8: , 9: }",
+              "{'Ana' 8 'Bia' 8}",
+              "{'Ana': 8, 'Bia': 8}"
+            ],
+            "correta": 3,
+            "explicacao": "Valores podem se repetir; chaves, não.",
+            "dica": "O que pode repetir: chave ou valor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "precos ← {'ovo': 0.80, 'café': 18.00}. Quanto custam 3 ovos e 1 café?",
+            "alternativas": [
+              "18.80",
+              "21.80",
+              "20.40",
+              "54.80"
+            ],
+            "correta": 2,
+            "explicacao": "3 × 0.80 = 2.40. 2.40 + 18.00 = 20.40.",
+            "dica": "Calcule os ovos primeiro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "cesta ← ['maçã', 'uva', 'maçã', 'pera', 'maçã', 'uva']. Usando o contador do aprofundamento, quanto vale cont['maçã'] e cont['uva']?",
+            "alternativas": [
+              "3 e 2",
+              "2 e 3",
+              "3 e 1",
+              "6 e 2"
+            ],
+            "correta": 0,
+            "explicacao": "maçã aparece 3 vezes; uva, 2.",
+            "dica": "Conte cada fruta na lista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "d ← {'a': 1}; d['b'] ← 2; d['a'] ← 5; d['c'] ← d['a'] + d['b']. Quanto vale d['c']?",
+            "alternativas": [
+              "3",
+              "6",
+              "8",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "d['a'] passou a 5; d['b'] = 2. 5 + 2 = 7.",
+            "dica": "Atualize o valor de a antes de somar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para guardar o telefone de cada colega, qual estrutura é melhor e por quê?",
+            "alternativas": [
+              "Lista, porque usa posições",
+              "Dicionário, porque busca o telefone pelo nome",
+              "Uma variável só",
+              "Nenhuma"
+            ],
+            "correta": 1,
+            "explicacao": "Com dicionário, telefones['Ana'] dá o número direto.",
+            "dica": "Você procura pelo nome ou pela posição?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o programa que conta votos de uma eleição de turma:",
+            "itens": [
+              "cont ← {}",
+              "Para cada voto da lista de votos",
+              "Se o nome já está em cont, somar 1",
+              "Senão, criar o nome com 1",
+              "No fim, mostrar cont"
+            ],
+            "explicacao": "Cria o dicionário, percorre, soma ou cria e mostra.",
+            "dica": "O dicionário nasce vazio, antes do laço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "estoque ← {'lápis': 5, 'borracha': 2}. Um programa faz: PARA CADA item EM estoque FAÇA SE estoque[item] < 3 ENTÃO ESCREVA item. O que aparece?",
+            "alternativas": [
+              "lápis",
+              "lápis e borracha",
+              "borracha",
+              "Nada"
+            ],
+            "correta": 2,
+            "explicacao": "Só borracha tem menos de 3.",
+            "dica": "Teste cada item com a condição."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Tabela com células mescladas: o horário de aulas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para criar uma tabela no Word: Inserir > Tabela e escolha quantas colunas e linhas. Para um horário de aulas: 6 colunas (Horário e os 5 dias da semana) e linhas para cada aula.",
+          "Mesclar células junta células vizinhas numa só. Selecione as células, clique com o botão direito e escolha Mesclar Células (também fica em Layout da Tabela > Mesclar Células).",
+          "Usos no horário: um título no topo atravessando todas as colunas, uma linha de Intervalo ocupando a semana toda, ou uma aula dupla ocupando duas linhas.",
+          "Dividir Células faz o contrário: transforma uma célula em várias.",
+          "Para deixar bonito: Design da Tabela (estilos, sombreamento e bordas) e Layout (alinhar o texto no centro e ajustar a largura das colunas)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como fazer a linha do Intervalo ocupar os cinco dias?",
+            "resolucao": "Selecione as 5 células dos dias nessa linha, clique com o botão direito > Mesclar Células e escreva Intervalo, centralizado."
+          },
+          {
+            "enunciado": "A aula de Educação Física de terça é dupla. Como mostrar isso?",
+            "resolucao": "Selecione as duas células de terça, uma embaixo da outra, e mescle. Escreva Educação Física uma vez só, centralizado na vertical."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Dentro da tabela, a tecla Tab pula para a próxima célula. Na última célula, Tab cria uma linha nova. Shift + Tab volta para a célula anterior.",
+        "Se a tabela passar de uma página, use Layout > Repetir Linhas de Cabeçalho, e a primeira linha (com os dias) aparece no topo de cada página. No Documentos Google, as células se mesclam com o botão direito > Mesclar células.",
+        "Não exagere nas mesclagens: tabelas muito mescladas ficam difíceis de editar e de ler por leitores de tela, usados por pessoas cegas. Mescle só o necessário."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google), monte o horário de aulas da sua turma. 1) Insira uma tabela com 6 colunas (Horário, Segunda, Terça, Quarta, Quinta, Sexta) e linhas suficientes para as aulas e o intervalo, mais uma linha no topo. 2) Mescle a primeira linha e escreva “Horário do 7º ano” centralizado. 3) Preencha os horários e as matérias. 4) Mescle as cinco células da linha do Intervalo e escreva Intervalo. 5) Mescle pelo menos uma aula dupla, na vertical. 6) Aplique um estilo em Design da Tabela, centralize o texto e imprima ou salve em PDF para colar no caderno.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se cria uma tabela no Word?",
+            "alternativas": [
+              "Arquivo > Salvar",
+              "Inserir > Tabela",
+              "Revisão > Ortografia",
+              "Exibir > Zoom"
+            ],
+            "correta": 1,
+            "explicacao": "A guia Inserir tem o botão Tabela.",
+            "dica": "É a mesma guia de imagens e formas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz Mesclar Células?",
+            "alternativas": [
+              "Junta células vizinhas numa só",
+              "Apaga a tabela",
+              "Pinta a tabela",
+              "Divide uma célula em duas"
+            ],
+            "correta": 0,
+            "explicacao": "Mesclar é juntar.",
+            "dica": "Mesclar é o contrário de dividir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o contrário de Mesclar Células?",
+            "alternativas": [
+              "Apagar",
+              "Salvar",
+              "Copiar",
+              "Dividir Células"
+            ],
+            "correta": 3,
+            "explicacao": "Dividir transforma uma célula em várias.",
+            "dica": "Se mesclar junta, o contrário separa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para um horário de segunda a sexta com uma coluna de horários, quantas colunas a tabela precisa?",
+            "alternativas": [
+              "5",
+              "7",
+              "6",
+              "4"
+            ],
+            "correta": 2,
+            "explicacao": "1 coluna de horário + 5 dias = 6.",
+            "dica": "Conte os dias e some a coluna dos horários."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tecla pula para a próxima célula da tabela?",
+            "alternativas": [
+              "Tab",
+              "Esc",
+              "Delete",
+              "F1"
+            ],
+            "correta": 0,
+            "explicacao": "Tab avança de célula em célula.",
+            "dica": "É a tecla com setinhas, à esquerda do teclado."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como fazer a linha do Intervalo ocupar os cinco dias?",
+            "alternativas": [
+              "Escrever Intervalo cinco vezes",
+              "Selecionar as 5 células e Mesclar Células",
+              "Apagar a linha",
+              "Dividir as células"
+            ],
+            "correta": 1,
+            "explicacao": "Mesclando, vira uma célula só, de ponta a ponta.",
+            "dica": "Junte as células da linha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma aula dupla ocupa duas linhas na mesma coluna. O que fazer?",
+            "alternativas": [
+              "Apagar uma linha",
+              "Dividir as células",
+              "Mudar a fonte",
+              "Mesclar as duas células, uma embaixo da outra"
+            ],
+            "correta": 3,
+            "explicacao": "Mesclar na vertical mostra que é a mesma aula.",
+            "dica": "Também dá para mesclar na vertical."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde mudar o estilo e as cores da tabela?",
+            "alternativas": [
+              "Design da Tabela",
+              "Arquivo",
+              "Correspondências",
+              "Exibir"
+            ],
+            "correta": 0,
+            "explicacao": "Design da Tabela tem estilos, sombreamento e bordas.",
+            "dica": "Design é aparência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece ao apertar Tab na última célula da tabela?",
+            "alternativas": [
+              "A tabela some",
+              "O Word fecha",
+              "Cria uma linha nova",
+              "Volta para a primeira célula"
+            ],
+            "correta": 2,
+            "explicacao": "É um atalho para aumentar a tabela.",
+            "dica": "Experimente: o que o Word faz quando não há próxima célula?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para colocar o título “Horário do 7º B” no topo atravessando todas as colunas, o que fazer?",
+            "alternativas": [
+              "Mesclar as células da primeira linha",
+              "Escrever fora da tabela, em cada coluna",
+              "Usar uma tabela com uma coluna",
+              "Dividir a primeira linha"
+            ],
+            "correta": 0,
+            "explicacao": "Mesclar a linha de cima cria espaço para o título.",
+            "dica": "O título precisa de uma célula larga."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atalho volta para a célula anterior?",
+            "alternativas": [
+              "Ctrl + Z",
+              "Shift + Tab",
+              "Alt + F4",
+              "Enter"
+            ],
+            "correta": 1,
+            "explicacao": "Shift + Tab faz o caminho de volta.",
+            "dica": "Combine o Tab com outra tecla."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A tabela passou para a segunda página e os dias da semana sumiram do topo. O que usar?",
+            "alternativas": [
+              "Mesclar tudo",
+              "Diminuir a fonte para 4",
+              "Apagar a segunda página",
+              "Repetir Linhas de Cabeçalho"
+            ],
+            "correta": 3,
+            "explicacao": "A primeira linha passa a aparecer em cada página.",
+            "dica": "Existe uma opção para repetir a linha de cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Documentos Google, como mesclar células?",
+            "alternativas": [
+              "Selecionar e clicar com o botão direito > Mesclar células",
+              "Arquivo > Mesclar",
+              "Inserir > Gráfico",
+              "Não é possível"
+            ],
+            "correta": 0,
+            "explicacao": "O menu do botão direito tem a opção.",
+            "dica": "Funciona parecido com o Word."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não mesclar células demais?",
+            "alternativas": [
+              "Porque a tabela fica colorida",
+              "Porque o Word proíbe",
+              "Porque fica difícil editar e ler com leitores de tela",
+              "Porque a fonte muda"
+            ],
+            "correta": 2,
+            "explicacao": "Leitores de tela, usados por pessoas cegas, se confundem com tabelas muito mescladas.",
+            "dica": "Pense em quem usa o computador sem enxergar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a criação do horário de aulas:",
+            "itens": [
+              "Inserir a tabela com 6 colunas e as linhas necessárias",
+              "Mesclar a primeira linha e escrever o título",
+              "Preencher horários, dias e matérias",
+              "Mesclar a linha do Intervalo e as aulas duplas",
+              "Aplicar um estilo e centralizar o texto"
+            ],
+            "explicacao": "Estrutura, título, conteúdo, mesclagens e acabamento.",
+            "dica": "O acabamento vem por último."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um horário tem 6 colunas e 7 linhas. A linha do Intervalo teve as 5 células dos dias mescladas. Quantas células a tabela passa a ter?",
+            "alternativas": [
+              "42",
+              "37",
+              "38",
+              "36"
+            ],
+            "correta": 2,
+            "explicacao": "6 × 7 = 42. Cinco células viraram uma: 42 − 5 + 1 = 38.",
+            "dica": "Mesclar 5 em 1 elimina quantas células?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa tabela de 6 colunas, a primeira linha toda foi mesclada para o título. Depois, você precisa voltar às 6 colunas nessa linha. O que fazer?",
+            "alternativas": [
+              "Dividir Células em 6 colunas e 1 linha",
+              "Apagar a tabela",
+              "Mesclar de novo",
+              "Inserir outra tabela por cima"
+            ],
+            "correta": 0,
+            "explicacao": "Dividir Células permite escolher o número de colunas e linhas.",
+            "dica": "Qual comando desfaz uma mesclagem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na terça, Educação Física ocupa 2 aulas e Matemática, 2 aulas, de um total de 5 aulas. Depois de mesclar as duplas, quantas células a coluna de terça terá nessas 5 aulas?",
+            "alternativas": [
+              "5",
+              "4",
+              "2",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "2 células viram 1 e outras 2 viram 1: 1 + 1 + 1 = 3.",
+            "dica": "Cada aula dupla vira uma célula só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual opção de Layout deixa o texto no centro da célula, na horizontal e na vertical?",
+            "alternativas": [
+              "Alinhar no Centro",
+              "Justificar",
+              "Recuo à esquerda",
+              "Quebra de página"
+            ],
+            "correta": 0,
+            "explicacao": "Em Layout da Tabela, há botões de alinhamento dentro da célula.",
+            "dica": "Procure o botão com o texto no meio do quadradinho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para quem usa leitor de tela, qual horário é mais fácil de entender?",
+            "alternativas": [
+              "Um com mesclagens em quase todas as células",
+              "Um com cabeçalho claro com os dias e poucas mesclagens",
+              "Um feito como imagem",
+              "Um sem cabeçalho"
+            ],
+            "correta": 1,
+            "explicacao": "Cabeçalho claro e estrutura simples ajudam a ler célula por célula.",
+            "dica": "O leitor de tela lê a tabela célula a célula."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Estoque: quanto comprar para não sobrar nem faltar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Estoque é o conjunto de produtos guardados para vender ou de matéria-prima para produzir. Na prática, é dinheiro parado em forma de mercadoria.",
+          "Se falta estoque, o negócio perde vendas e o cliente vai para o concorrente. Se sobra, o dinheiro fica preso, o produto pode vencer ou estragar e ocupa espaço.",
+          "Uma conta simples: vendas médias por dia × dias até a próxima compra + uma pequena quantidade de segurança, para imprevistos.",
+          "As vendas mudam com o tempo: calor, frio, festa junina, volta às aulas, Dia das Crianças. Quem olha as vendas dos meses anteriores compra melhor.",
+          "Controle o estoque: anote o que entra e o que sai, coloque na frente os produtos que vencem antes (o primeiro que entra é o primeiro que sai) e conte tudo de tempos em tempos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "No verão, um carrinho vende 40 picolés por dia e compra a cada 5 dias, com segurança de 20 unidades. Quanto comprar?",
+            "resolucao": "40 × 5 + 20 = 220 picolés."
+          },
+          {
+            "enunciado": "No inverno, o mesmo carrinho vende 10 por dia. Mantendo a compra a cada 5 dias e segurança de 10, quanto comprar?",
+            "resolucao": "10 × 5 + 10 = 60 picolés. Comprar 220 no inverno deixaria muita mercadoria parada."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Ponto de pedido é a quantidade em que é hora de pedir de novo, para a mercadoria chegar antes de acabar. Se vende 30 por dia, o fornecedor leva 3 dias para entregar e a segurança é de 20: pedir quando o estoque chegar a 30 × 3 + 20 = 110.",
+        "Produto parado custa: pode estragar, sair de moda ou exigir promoção com prejuízo. Às vezes vale comprar menos e mais vezes, mesmo que cada compra seja um pouco mais cara.",
+        "Com equipe, o estoque depende de todos: treinar quem recebe, guarda e anota; deixar regras claras e por escrito; reconhecer quem cuida bem. Liderar é organizar e confiar, com salário justo e em dia, nunca culpar sem provas ou descontar perdas do salário sem conversar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é estoque?",
+            "alternativas": [
+              "Os clientes da loja",
+              "Os produtos guardados para vender ou produzir",
+              "O dinheiro do banco",
+              "A propaganda"
+            ],
+            "correta": 1,
+            "explicacao": "É mercadoria esperando para ser vendida.",
+            "dica": "Onde ficam os produtos antes de ir para a prateleira?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece quando falta estoque?",
+            "alternativas": [
+              "O negócio perde vendas",
+              "O dinheiro aumenta",
+              "Nada",
+              "Os produtos ficam mais baratos"
+            ],
+            "correta": 0,
+            "explicacao": "Sem produto, o cliente vai embora.",
+            "dica": "O cliente consegue comprar o que não existe?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é um risco de estoque sobrando?",
+            "alternativas": [
+              "Mais clientes",
+              "Mais espaço livre",
+              "Mais dinheiro na mão",
+              "Produto vencer ou estragar"
+            ],
+            "correta": 3,
+            "explicacao": "Comida vence, roupa sai de moda, e o dinheiro fica parado.",
+            "dica": "O que acontece com um iogurte esquecido no fundo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um vendedor de picolé vende menos no inverno?",
+            "alternativas": [
+              "Porque o picolé é mais caro no inverno",
+              "Porque não existe picolé no inverno",
+              "Porque no frio as pessoas procuram menos gelados",
+              "Porque é proibido"
+            ],
+            "correta": 2,
+            "explicacao": "As vendas mudam com o clima.",
+            "dica": "Você toma picolé num dia gelado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual produto deve ficar na frente da prateleira?",
+            "alternativas": [
+              "O que vence antes",
+              "O mais bonito",
+              "O mais novo",
+              "O mais caro"
+            ],
+            "correta": 0,
+            "explicacao": "Assim ele é vendido antes de vencer.",
+            "dica": "O primeiro que entra deve ser o primeiro a sair."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Vende 40 picolés por dia, compra a cada 5 dias, segurança de 20. Quanto comprar?",
+            "alternativas": [
+              "200",
+              "220",
+              "240",
+              "45"
+            ],
+            "correta": 1,
+            "explicacao": "40 × 5 + 20 = 220.",
+            "dica": "Multiplique as vendas pelos dias e some a segurança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Vende 10 por dia, compra a cada 5 dias, segurança de 10. Quanto comprar?",
+            "alternativas": [
+              "50",
+              "100",
+              "15",
+              "60"
+            ],
+            "correta": 3,
+            "explicacao": "10 × 5 + 10 = 60.",
+            "dica": "Use a mesma conta do verão, com as vendas do inverno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a quantidade de segurança?",
+            "alternativas": [
+              "Para cobrir imprevistos, como um dia de venda acima do normal",
+              "Para enfeitar a loja",
+              "Para doar",
+              "Para pagar menos imposto"
+            ],
+            "correta": 0,
+            "explicacao": "Ela evita faltar produto quando algo foge do planejado.",
+            "dica": "E se num dia vender mais do que a média?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é uma boa fonte para decidir quanto comprar?",
+            "alternativas": [
+              "O palpite de um desconhecido",
+              "A cor da embalagem",
+              "As vendas dos meses anteriores",
+              "O horóscopo"
+            ],
+            "correta": 2,
+            "explicacao": "O histórico mostra o que costuma acontecer.",
+            "dica": "O passado ajuda a prever o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa contar o estoque de tempos em tempos?",
+            "alternativas": [
+              "Conferir se o anotado bate com o que existe de verdade",
+              "Jogar produtos fora",
+              "Mudar os preços",
+              "Contratar mais pessoas"
+            ],
+            "correta": 0,
+            "explicacao": "A contagem revela perdas, erros e furtos.",
+            "dica": "O caderno sempre bate com a prateleira?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Vende 30 por dia, o fornecedor leva 3 dias para entregar e a segurança é de 20. Em que quantidade é hora de pedir?",
+            "alternativas": [
+              "90",
+              "110",
+              "50",
+              "130"
+            ],
+            "correta": 1,
+            "explicacao": "30 × 3 + 20 = 110.",
+            "dica": "Calcule o que se vende durante a espera e some a segurança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma papelaria vende 25 cadernos por dia na volta às aulas e compra a cada 4 dias, com segurança de 15. Quanto comprar?",
+            "alternativas": [
+              "100",
+              "29",
+              "125",
+              "115"
+            ],
+            "correta": 3,
+            "explicacao": "25 × 4 + 15 = 115.",
+            "dica": "Vendas × dias + segurança."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um vendedor comprou 300 picolés no inverno e vendeu só 220 no período. Se cada um custou R$ 1,50, quanto dinheiro ficou parado?",
+            "alternativas": [
+              "R$ 120",
+              "R$ 80",
+              "R$ 330",
+              "R$ 450"
+            ],
+            "correta": 0,
+            "explicacao": "Sobraram 300 − 220 = 80. 80 × 1,50 = R$ 120.",
+            "dica": "Calcule a sobra e multiplique pelo custo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que às vezes vale comprar menos e mais vezes?",
+            "alternativas": [
+              "Porque o fornecedor manda",
+              "Porque é sempre mais barato",
+              "Para não deixar dinheiro e produto parados, que podem estragar",
+              "Porque fica mais bonito"
+            ],
+            "correta": 2,
+            "explicacao": "Produto parado custa, mesmo que a compra grande pareça vantajosa.",
+            "dica": "Lembre o que acontece com produto parado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na contagem, faltam 10 pacotes de biscoito. Qual é a atitude justa de quem lidera a equipe?",
+            "alternativas": [
+              "Descontar do salário de todos sem conversar",
+              "Acusar o funcionário mais novo",
+              "Demitir alguém na hora",
+              "Investigar com calma, revisar anotações e regras, e conversar com a equipe"
+            ],
+            "correta": 3,
+            "explicacao": "Liderar é organizar e buscar a causa, sem culpar sem provas.",
+            "dica": "O que é justo fazer antes de culpar alguém?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lanchonete vende 12 sucos por dia de segunda a sexta e 30 por dia no sábado e no domingo. Para uma semana inteira, com segurança de 15, quanto comprar?",
+            "alternativas": [
+              "120",
+              "141",
+              "135",
+              "111"
+            ],
+            "correta": 2,
+            "explicacao": "Semana: 12 × 5 + 30 × 2 = 60 + 60 = 120. Com a segurança: 120 + 15 = 135.",
+            "dica": "Separe dias de semana e fim de semana."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carrinho vende 2,5 kg de amendoim por dia. Para um mês de 30 dias, sem segurança, quanto comprar?",
+            "alternativas": [
+              "25 kg",
+              "75 kg",
+              "32,5 kg",
+              "7,5 kg"
+            ],
+            "correta": 1,
+            "explicacao": "2,5 × 30 = 75 kg.",
+            "dica": "Multiplique o consumo diário pelos dias."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja vende 60 cadernos por semana em fevereiro e 12 por semana em julho. Comprando a cada 3 semanas, sem segurança, quanto comprar em cada mês?",
+            "alternativas": [
+              "180 e 36",
+              "60 e 12",
+              "180 e 60",
+              "36 e 180"
+            ],
+            "correta": 0,
+            "explicacao": "Fevereiro: 60 × 3 = 180. Julho: 12 × 3 = 36.",
+            "dica": "Multiplique as vendas semanais por 3 em cada época."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o ciclo de controle de estoque:",
+            "itens": [
+              "Olhar as vendas dos períodos anteriores",
+              "Calcular quanto comprar com a segurança",
+              "Receber, conferir e anotar a entrada",
+              "Guardar com os que vencem antes na frente",
+              "Contar o estoque e comparar com as anotações"
+            ],
+            "explicacao": "Planejar, comprar, receber, organizar e conferir.",
+            "dica": "A contagem fecha o ciclo e ajuda o próximo planejamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na festa junina, Dona Rosa vende 50 pamonhas por dia. Ela compra milho para 3 dias com segurança de 20 pamonhas. Para fazer tudo, ela e duas ajudantes contratadas dividem o trabalho. Qual atitude é de uma boa líder?",
+            "alternativas": [
+              "Pagar só se sobrar dinheiro",
+              "Fazer as ajudantes trabalharem sem pausa",
+              "Combinar tarefas e horários, pagar o valor justo em dia e registrar conforme a lei",
+              "Não explicar nada e cobrar resultado"
+            ],
+            "correta": 2,
+            "explicacao": "Organizar, pagar o justo e cumprir a lei mantém a equipe e o negócio.",
+            "dica": "O que faz uma equipe querer continuar trabalhando com ela?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Ortografia: G ou J? X ou CH?",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Antes de e e i, o G tem som de j: gente, girafa, gelo. Por isso, só olhando ou conhecendo a palavra se sabe se é G ou J.",
+          "Escrevem-se com G as terminações -agem, -igem e -ugem: garagem, viagem, vertigem, ferrugem (exceções conhecidas: pajem e lambujem). E também -ágio, -égio, -ígio, -ógio, -úgio: pedágio, colégio, prestígio, relógio, refúgio.",
+          "Escrevem-se com J as palavras de origem tupi e africana (jiboia, pajé, jiló, canjica) e as formas dos verbos terminados em -jar: viajar → que eles viajem; arranjar → arranje.",
+          "Usa-se X depois de ditongo (caixa, peixe, frouxo), depois de en- (enxada, enxame, enxergar) e depois de me- (mexer, mexerica). Exceções: encher e as palavras da família de cheio, e mecha.",
+          "O CH aparece em muitas palavras que precisam ser memorizadas: chave, chuva, chinelo, chiclete, cachorro. Na dúvida, use o dicionário."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Complete: “A via__em foi longa. Espero que eles via__em de novo.”",
+            "resolucao": "“viagem” (substantivo, -agem com G) e “viajem” (verbo viajar, com J)."
+          },
+          {
+            "enunciado": "Complete: cai__a, en__ada, pei__e, __uva.",
+            "resolucao": "caixa (depois de ditongo), enxada (depois de en-), peixe (depois de ditongo) e chuva (com CH, memorizada)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A família ajuda: se a palavra de origem tem J, as derivadas também têm: laranja → laranjeira, loja → lojista, jeito → ajeitar. Se tem G, mantém G: gesso → engessar, selvagem → selvageria. Atenção: o substantivo viagem tem G, mas o verbo viajar e todas as suas formas têm J.",
+        "Encher se escreve com CH porque vem de cheio; enxugar e enxergar, com X, seguem a regra do en-. Encharcar tem CH porque vem de charco.",
+        "Algumas palavras mudam de sentido com a letra: cheque (a folha de pagamento do banco) e xeque (lance do xadrez); cocho (vasilha para animais) e coxo (que manca)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra está correta?",
+            "alternativas": [
+              "garajem",
+              "garagem",
+              "garaje",
+              "garrajem"
+            ],
+            "correta": 1,
+            "explicacao": "Terminação -agem se escreve com G.",
+            "dica": "Lembre as terminações com G."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está correta?",
+            "alternativas": [
+              "relógio",
+              "relójio",
+              "relóchio",
+              "relójeo"
+            ],
+            "correta": 0,
+            "explicacao": "-ógio com G: relógio.",
+            "dica": "É uma das terminações -ógio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra de origem tupi está correta?",
+            "alternativas": [
+              "giboia",
+              "gibóia",
+              "chiboia",
+              "jiboia"
+            ],
+            "correta": 3,
+            "explicacao": "Origem tupi: J.",
+            "dica": "Palavras indígenas costumam usar J."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está correta?",
+            "alternativas": [
+              "caicha",
+              "caisa",
+              "caixa",
+              "caiza"
+            ],
+            "correta": 2,
+            "explicacao": "Depois de ditongo (ai), usa-se X.",
+            "dica": "O que vem depois de ai?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está correta?",
+            "alternativas": [
+              "chuva",
+              "xuva",
+              "chuwa",
+              "xhuva"
+            ],
+            "correta": 0,
+            "explicacao": "Chuva se escreve com CH.",
+            "dica": "É uma das palavras com CH para memorizar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “A via__em foi longa.”",
+            "alternativas": [
+              "j",
+              "g",
+              "x",
+              "ch"
+            ],
+            "correta": 1,
+            "explicacao": "Viagem é substantivo: -agem com G.",
+            "dica": "É o nome da coisa, não o verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Espero que eles via__em de novo.”",
+            "alternativas": [
+              "g",
+              "x",
+              "ch",
+              "j"
+            ],
+            "correta": 3,
+            "explicacao": "Verbo viajar: J em toda a conjugação.",
+            "dica": "Aqui é verbo ou substantivo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está correta?",
+            "alternativas": [
+              "enxada",
+              "enchada",
+              "ensada",
+              "enjada"
+            ],
+            "correta": 0,
+            "explicacao": "Depois de en-, usa-se X.",
+            "dica": "Lembre a regra do en-."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está correta?",
+            "alternativas": [
+              "pedájio",
+              "pedáchio",
+              "pedágio",
+              "pedásio"
+            ],
+            "correta": 2,
+            "explicacao": "-ágio com G.",
+            "dica": "Lembre as terminações -ágio, -égio…"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual está correta?",
+            "alternativas": [
+              "mecher",
+              "mexer",
+              "mesher",
+              "mejer"
+            ],
+            "correta": 1,
+            "explicacao": "Depois de me-, usa-se X (exceção: mecha).",
+            "dica": "Lembre a regra do me-."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que encher se escreve com CH, mesmo depois de en-?",
+            "alternativas": [
+              "Porque vem de cheio, uma exceção à regra do en-",
+              "Porque é erro",
+              "Porque é palavra indígena",
+              "Porque tem ditongo"
+            ],
+            "correta": 0,
+            "explicacao": "Encher e as palavras da família de cheio são exceções.",
+            "dica": "Pense na palavra cheio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra está ERRADA?",
+            "alternativas": [
+              "laranjeira",
+              "lojista",
+              "ajeitar",
+              "ferrujem"
+            ],
+            "correta": 3,
+            "explicacao": "O certo é ferrugem, com -ugem.",
+            "dica": "Lembre a terminação -ugem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Que eles arran__em um lugar e não fiquem com ver__onha.”",
+            "alternativas": [
+              "j / g",
+              "g / j",
+              "g / g",
+              "j / j"
+            ],
+            "correta": 0,
+            "explicacao": "Arranjem vem do verbo arranjar, que tem J em todas as formas. Vergonha se escreve com G.",
+            "dica": "Um é verbo terminado em -jar; o outro, palavra de memorizar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sequência está toda correta?",
+            "alternativas": [
+              "peixe, enxame, mexerica",
+              "peiche, enxame, mexerica",
+              "peixe, enchame, mexerica",
+              "peixe, enxame, mecherica"
+            ],
+            "correta": 0,
+            "explicacao": "Ditongo (ei), en- e me- pedem X.",
+            "dica": "Aplique as três regras do X."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre cheque e xeque?",
+            "alternativas": [
+              "Nenhuma",
+              "Cheque é do xadrez; xeque é do banco",
+              "Cheque é do banco; xeque é lance do xadrez",
+              "As duas são erradas"
+            ],
+            "correta": 2,
+            "explicacao": "A letra muda o sentido da palavra.",
+            "dica": "Uma tem a ver com dinheiro; a outra, com o rei do xadrez."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas palavras estão erradas em: “A viajem de ônibus passou pelo pedájio e o enxame de abelhas entrou pela janela.”?",
+            "alternativas": [
+              "Nenhuma",
+              "1",
+              "3",
+              "2"
+            ],
+            "correta": 3,
+            "explicacao": "Erradas: viajem (substantivo é viagem) e pedájio (pedágio). Enxame e janela estão certas.",
+            "dica": "Confira cada palavra com a sua regra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está toda correta?",
+            "alternativas": [
+              "Eles viajem amanhã e a viagem dura dois dias.",
+              "Eles viajam amanhã e a viagem dura dois dias.",
+              "Eles viagem amanhã e a viajem dura dois dias.",
+              "Eles viajam amanhã e a viajem dura dois dias."
+            ],
+            "correta": 1,
+            "explicacao": "Verbo: viajam (J). Substantivo: viagem (G).",
+            "dica": "Separe o verbo do substantivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que encharcar se escreve com CH e enxugar com X?",
+            "alternativas": [
+              "Encharcar vem de charco; enxugar segue a regra do en-",
+              "As duas estão erradas",
+              "Enxugar vem de chuva",
+              "Não há motivo"
+            ],
+            "correta": 0,
+            "explicacao": "A família da palavra pode vencer a regra.",
+            "dica": "De que palavra vem encharcar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “O cavalo __o comia no co__o.” (que manca; vasilha de comida de animais)",
+            "alternativas": [
+              "cocho / coxo",
+              "coxo / cocho",
+              "cocho / cocho",
+              "coxo / coxo"
+            ],
+            "correta": 1,
+            "explicacao": "Coxo é quem manca; cocho é a vasilha.",
+            "dica": "A letra muda o sentido: qual é qual?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sequência está toda correta?",
+            "alternativas": [
+              "canjica, jiló, vertigem, refúgio, enxergar",
+              "canjica, giló, vertijem, refújio, enchergar",
+              "cangica, jiló, vertigem, refúgio, enxergar",
+              "canjica, jiló, vertijem, refúgio, enchergar"
+            ],
+            "correta": 0,
+            "explicacao": "Origem tupi e africana com J; -igem e -úgio com G; en- com X.",
+            "dica": "Aplique uma regra para cada palavra."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Sobrou geladinho no inverno",
+    "texto": "Dona Rosa vende geladinho na porta de casa há dez anos. No verão passado, o freezer não dava conta: ela fazia 60 por dia e, antes das três da tarde, não sobrava nenhum. Os vizinhos batiam no portão e voltavam de mãos vazias.\n\nAnimada, ela comprou um freezer maior e manteve a mesma produção quando chegou junho. Foi aí que o problema virou do avesso. Com o frio, as crianças queriam pipoca e chocolate quente, não geladinho de morango. No fim do mês, o freezer estava cheio, a conta de luz tinha subido e parte das frutas que ela comprara para os sabores tinha estragado na geladeira.\n\nA neta, Bianca, que estuda no 7º ano, teve uma ideia. Abriu o caderno de vendas da avó e montou uma tabela com quanto saía em cada mês. A diferença era enorme: em janeiro, uns 60 por dia; em julho, uns 15.\n\n— Vó, a senhora precisa fazer conforme o tempo — disse Bianca. — No calor, mais. No frio, menos, e dá para vender outra coisa.\n\nDona Rosa passou a olhar a previsão do tempo antes de comprar as frutas. Nos dias frios, faz poucos geladinhos e algumas fornadas de bolo de fubá, que saem quentinhas no fim da tarde.\n\nO freezer grande agora fica ligado só no verão."
+  },
+  "escrita": {
+    "proposta": "Escolha um produto para vender (geladinho, bolo, pipoca, caderno, guarda-chuva) e explique como você decidiria quanto comprar ou produzir numa semana de calor e numa semana de frio. Faça a conta com vendas por dia × dias + uma quantidade de segurança para cada semana e explique, em duas ou três linhas, o que poderia dar errado se você usasse a mesma quantidade nas duas semanas."
+  }
+}

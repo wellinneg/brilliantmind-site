@@ -1,0 +1,1505 @@
+{
+  "dia": 49,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Ângulos e congruência de triângulos",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "A soma dos ângulos internos de qualquer triângulo é 180°. Se dois ângulos medem 50° e 70°, o terceiro mede 180° − 50° − 70° = 60°.",
+          "Relações entre ângulos: complementares somam 90°; suplementares somam 180°; opostos pelo vértice (formados por duas retas que se cruzam) são iguais.",
+          "No triângulo isósceles, os dois ângulos da base são iguais. No equilátero, os três lados são iguais e cada ângulo mede 60°.",
+          "Dois triângulos são congruentes quando têm a mesma forma e o mesmo tamanho: dá para colocar um exatamente em cima do outro. Lados e ângulos correspondentes são iguais.",
+          "Não é preciso medir tudo para saber se são congruentes. Bastam os casos: LLL (três lados iguais), LAL (dois lados e o ângulo entre eles), ALA (dois ângulos e o lado entre eles) e LAAo (um lado, um ângulo junto dele e o ângulo oposto a ele)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um triângulo isósceles tem o ângulo do vértice (entre os lados iguais) com 40°. Quanto mede cada ângulo da base?",
+            "resolucao": "Os ângulos da base são iguais: 180° − 40° = 140°, e 140° ÷ 2 = 70°. Cada ângulo da base mede 70°."
+          },
+          {
+            "enunciado": "Dois triângulos têm lados 5 cm, 7 cm e 9 cm. Eles são congruentes?",
+            "resolucao": "Sim, pelo caso LLL: os três lados de um são iguais aos três lados do outro."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O ângulo externo de um triângulo é igual à soma dos dois ângulos internos que não estão ao lado dele. Se os internos medem 40° e 75°, o ângulo externo do terceiro vértice mede 40° + 75° = 115°.",
+        "Três ângulos iguais (AAA) não garantem congruência: um triângulo pequeno e um grande podem ter os mesmos ângulos. Eles são semelhantes (mesma forma), mas não congruentes (tamanhos diferentes). LLA também não serve como caso geral.",
+        "A soma dos ângulos internos de um quadrilátero é 360°, porque ele pode ser dividido em dois triângulos por uma diagonal: 2 · 180° = 360°."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto vale a soma dos ângulos internos de um triângulo?",
+            "alternativas": [
+              "90°",
+              "360°",
+              "270°",
+              "180°"
+            ],
+            "correta": 3,
+            "explicacao": "Em qualquer triângulo, a soma é 180°.",
+            "dica": "É metade de uma volta completa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem ângulos de 50° e 70°. Quanto mede o terceiro?",
+            "alternativas": [
+              "50°",
+              "120°",
+              "60°",
+              "80°"
+            ],
+            "correta": 2,
+            "explicacao": "180 − 50 − 70 = 60.",
+            "dica": "Tire os dois de 180°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ângulos complementares somam:",
+            "alternativas": [
+              "360°",
+              "45°",
+              "180°",
+              "90°"
+            ],
+            "correta": 3,
+            "explicacao": "Complementares formam um ângulo reto.",
+            "dica": "Pense no canto de um caderno."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto mede cada ângulo de um triângulo equilátero?",
+            "alternativas": [
+              "45°",
+              "60°",
+              "180°",
+              "90°"
+            ],
+            "correta": 1,
+            "explicacao": "180 ÷ 3 = 60.",
+            "dica": "Os três ângulos são iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Triângulos congruentes têm:",
+            "alternativas": [
+              "mesma forma e mesmo tamanho",
+              "só um lado igual",
+              "só a mesma cor",
+              "tamanhos diferentes"
+            ],
+            "correta": 0,
+            "explicacao": "Um cabe exatamente em cima do outro.",
+            "dica": "Pense em duas peças idênticas."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo isósceles tem ângulo do vértice de 40°. Quanto mede cada ângulo da base?",
+            "alternativas": [
+              "140°",
+              "40°",
+              "50°",
+              "70°"
+            ],
+            "correta": 3,
+            "explicacao": "180 − 40 = 140; 140 ÷ 2 = 70.",
+            "dica": "Os dois ângulos da base são iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o suplemento de 35°?",
+            "alternativas": [
+              "35°",
+              "55°",
+              "145°",
+              "325°"
+            ],
+            "correta": 2,
+            "explicacao": "180 − 35 = 145.",
+            "dica": "Suplementares somam 180°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o complemento de 35°?",
+            "alternativas": [
+              "145°",
+              "55°",
+              "65°",
+              "45°"
+            ],
+            "correta": 1,
+            "explicacao": "90 − 35 = 55.",
+            "dica": "Complementares somam 90°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois triângulos têm os três lados iguais um a um. Qual caso garante a congruência?",
+            "alternativas": [
+              "LLL",
+              "LLA",
+              "Nenhum",
+              "AAA"
+            ],
+            "correta": 0,
+            "explicacao": "Três lados iguais: LLL.",
+            "dica": "L quer dizer lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas retas se cruzam e um dos ângulos mede 120°. Quanto mede o ângulo oposto pelo vértice?",
+            "alternativas": [
+              "60°",
+              "120°",
+              "240°",
+              "30°"
+            ],
+            "correta": 1,
+            "explicacao": "Opostos pelo vértice são iguais.",
+            "dica": "Os ângulos de frente um para o outro são iguais."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num triângulo isósceles, cada ângulo da base mede 35°. Quanto mede o ângulo do vértice?",
+            "alternativas": [
+              "110°",
+              "145°",
+              "70°",
+              "35°"
+            ],
+            "correta": 0,
+            "explicacao": "180 − 35 − 35 = 110.",
+            "dica": "Os dois ângulos da base são iguais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os ângulos internos de um triângulo medem 40° e 75°. Quanto mede o ângulo externo do terceiro vértice?",
+            "alternativas": [
+              "105°",
+              "65°",
+              "140°",
+              "115°"
+            ],
+            "correta": 3,
+            "explicacao": "Externo = soma dos dois internos não adjacentes: 40 + 75 = 115.",
+            "dica": "Use a regra do ângulo externo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois triângulos têm os mesmos três ângulos. Eles são sempre congruentes?",
+            "alternativas": [
+              "Só se forem equiláteros grandes",
+              "Não, podem ter tamanhos diferentes",
+              "Sim, pelo caso AAA",
+              "Sim, sempre"
+            ],
+            "correta": 1,
+            "explicacao": "AAA garante só a mesma forma (semelhança).",
+            "dica": "Pense num triângulo pequeno e num grande."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois lados medem 6 cm e 8 cm, e o ângulo entre eles mede 50° nos dois triângulos. Qual caso garante a congruência?",
+            "alternativas": [
+              "AAA",
+              "LLL",
+              "LAL",
+              "ALA"
+            ],
+            "correta": 2,
+            "explicacao": "Dois lados e o ângulo entre eles: LAL.",
+            "dica": "O ângulo está entre os dois lados."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente:",
+            "itens": [
+              "O complemento de 60°",
+              "Um ângulo do triângulo equilátero",
+              "O suplemento de 60°",
+              "A soma dos ângulos de um quadrilátero"
+            ],
+            "explicacao": "30°, 60°, 120° e 360°.",
+            "dica": "Calcule cada valor antes."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num quadrilátero, três ângulos medem 90°, 90° e 110°. Quanto mede o quarto?",
+            "alternativas": [
+              "160°",
+              "70°",
+              "90°",
+              "110°"
+            ],
+            "correta": 1,
+            "explicacao": "A soma é 360°: 360 − 90 − 90 − 110 = 70.",
+            "dica": "Quanto somam os ângulos de um quadrilátero?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num triângulo isósceles, o ângulo externo junto a um ângulo da base mede 130°. Quanto mede o ângulo do vértice?",
+            "alternativas": [
+              "80°",
+              "50°",
+              "130°",
+              "100°"
+            ],
+            "correta": 0,
+            "explicacao": "Ângulo da base: 180 − 130 = 50. Os dois da base: 50 + 50. Vértice: 180 − 100 = 80.",
+            "dica": "Primeiro ache o ângulo interno da base."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que LLA não é um caso de congruência?",
+            "alternativas": [
+              "Porque ângulos nunca importam",
+              "LLA é um caso válido sempre",
+              "Porque não existe triângulo com dois lados",
+              "Porque com dois lados e um ângulo que não está entre eles podem existir dois triângulos diferentes"
+            ],
+            "correta": 3,
+            "explicacao": "A posição do ângulo importa: só entre os lados (LAL) garante.",
+            "dica": "Compare a posição do ângulo no LAL e no LLA."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os ângulos de um triângulo estão na razão 1 : 2 : 3. Quanto mede o maior?",
+            "alternativas": [
+              "30°",
+              "60°",
+              "120°",
+              "90°"
+            ],
+            "correta": 3,
+            "explicacao": "x + 2x + 3x = 180, então 6x = 180 e x = 30. O maior: 3 · 30 = 90.",
+            "dica": "Chame o menor de x e monte a equação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num triângulo isósceles, os ângulos da base medem o dobro do ângulo do vértice. Quanto mede o vértice?",
+            "alternativas": [
+              "60°",
+              "72°",
+              "36°",
+              "45°"
+            ],
+            "correta": 2,
+            "explicacao": "x + 2x + 2x = 180, então 5x = 180 e x = 36. Os da base: 72° cada.",
+            "dica": "Chame o vértice de x; cada ângulo da base vale 2x."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Projeto quiz: planejar perguntas e pontuação",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Hoje começa um projeto: um jogo de perguntas e respostas em Python. Antes de programar, todo bom projeto é planejado: o que o programa faz, para quem, com quais regras.",
+          "Primeiro, as perguntas. Uma boa forma de guardá-las é numa lista de pares: perguntas = [['Quanto é 7 x 8?', '56'], ['Qual planeta é o maior do Sistema Solar?', 'júpiter'], ['Quantos lados tem um hexágono?', '6']]. Cada item tem a pergunta (posição 0) e a resposta certa (posição 1).",
+          "Depois, a pontuação. Uma variável pontos começa em 0 e ganha 10 a cada acerto. No fim, o programa mostra o total e uma mensagem conforme o resultado.",
+          "O plano do laço fica assim:\npontos = 0\nfor p in perguntas:\n    resposta = input(p[0] + ' ')\n    if resposta.strip().lower() == p[1]:\n        pontos = pontos + 10\nprint('Você fez', pontos, 'pontos')",
+          "strip() tira espaços sobrando e lower() deixa tudo minúsculo. Assim, quem digitar ' Júpiter ' também acerta."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Planeje as regras: 5 perguntas, 10 pontos por acerto. Quais mensagens mostrar no fim?",
+            "resolucao": "Pontuação máxima: 5 · 10 = 50. Regras: 50 pontos, 'Gabaritou!'; de 30 a 40, 'Mandou bem!'; abaixo de 30, 'Bora estudar e tentar de novo!'."
+          },
+          {
+            "enunciado": "Como mostrar a porcentagem de acertos no fim?",
+            "resolucao": "acertos = pontos // 10 e porcentagem = acertos / len(perguntas) * 100. Com 3 acertos em 5 perguntas: 3 / 5 · 100 = 60%."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Mensagem por faixa:\nif pontos == 50:\n    print('Gabaritou!')\nelif pontos >= 30:\n    print('Mandou bem!')\nelse:\n    print('Bora estudar!')\nA ordem dos testes importa: o mais exigente vem primeiro.",
+        "Ideias para deixar o quiz melhor: perguntas com pesos diferentes (fáceis valem 10, difíceis valem 20), sortear a ordem das perguntas com random.shuffle(perguntas) e aceitar mais de uma resposta certa usando uma lista: if resposta in ['6', 'seis'].",
+        "Desenhe um fluxograma antes: início, mostrar pergunta, ler resposta, está certa? (sim: soma pontos), tem mais pergunta? (sim: volta), mostrar resultado, fim. No próximo projeto, você vai programar e testar tudo isso."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo de um bom projeto?",
+            "alternativas": [
+              "Digitar código sem pensar",
+              "Planejar o que o programa faz e as regras",
+              "Apagar tudo",
+              "Escolher a cor da tela"
+            ],
+            "correta": 1,
+            "explicacao": "Planejar evita retrabalho.",
+            "dica": "Antes de construir, desenhe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na lista ['Quanto é 7 x 8?', '56'], o que está na posição 1?",
+            "alternativas": [
+              "A pontuação",
+              "A pergunta",
+              "O nome do jogador",
+              "A resposta certa"
+            ],
+            "correta": 3,
+            "explicacao": "Posição 0: pergunta; posição 1: resposta.",
+            "dica": "A contagem começa em 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com que valor a variável pontos deve começar?",
+            "alternativas": [
+              "100",
+              "50",
+              "0",
+              "10"
+            ],
+            "correta": 2,
+            "explicacao": "Ninguém começa com pontos.",
+            "dica": "Antes da primeira pergunta, quantos pontos há?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando lê o que o jogador digita?",
+            "alternativas": [
+              "print()",
+              "max()",
+              "input()",
+              "len()"
+            ],
+            "correta": 2,
+            "explicacao": "input() recebe o texto digitado.",
+            "dica": "Input quer dizer entrada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz lower()?",
+            "alternativas": [
+              "Deixa o texto em minúsculas",
+              "Deixa em maiúsculas",
+              "Conta as letras",
+              "Apaga o texto"
+            ],
+            "correta": 0,
+            "explicacao": "lower() transforma em minúsculas.",
+            "dica": "Lower quer dizer mais baixo, menor."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 5 perguntas valendo 10 pontos cada, qual é a pontuação máxima?",
+            "alternativas": [
+              "15",
+              "10",
+              "50",
+              "500"
+            ],
+            "correta": 2,
+            "explicacao": "5 · 10 = 50.",
+            "dica": "Multiplique perguntas por pontos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que usar strip() na resposta?",
+            "alternativas": [
+              "Para apagar a resposta",
+              "Para contar as letras",
+              "Para deixar em maiúsculas",
+              "Para tirar espaços sobrando nas pontas"
+            ],
+            "correta": 3,
+            "explicacao": "' 56 ' vira '56'.",
+            "dica": "Pense em espaços digitados sem querer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha soma 10 pontos ao acertar?",
+            "alternativas": [
+              "pontos = pontos + 10",
+              "10 = pontos",
+              "pontos = 10",
+              "pontos + 10"
+            ],
+            "correta": 0,
+            "explicacao": "A variável recebe o valor antigo mais 10.",
+            "dica": "O valor antigo precisa entrar na conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 3 acertos em 5 perguntas, qual é a porcentagem?",
+            "alternativas": [
+              "30%",
+              "60%",
+              "50%",
+              "3%"
+            ],
+            "correta": 1,
+            "explicacao": "3 / 5 · 100 = 60.",
+            "dica": "Divida acertos por total e multiplique por 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz o laço for p in perguntas?",
+            "alternativas": [
+              "Mostra só a primeira pergunta",
+              "Passa por cada pergunta da lista, uma por vez",
+              "Apaga as perguntas",
+              "Soma os números das perguntas"
+            ],
+            "correta": 1,
+            "explicacao": "O laço repete o bloco para cada item.",
+            "dica": "For quer dizer para cada."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o teste == 50 deve vir antes de >= 30 na mensagem final?",
+            "alternativas": [
+              "Porque == é mais rápido",
+              "Porque o Python exige números em ordem crescente",
+              "Não importa a ordem",
+              "Porque 50 também é maior ou igual a 30 e cairia na mensagem errada"
+            ],
+            "correta": 3,
+            "explicacao": "O primeiro teste verdadeiro é o que vale.",
+            "dica": "Qual teste 50 pontos passaria primeiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com pontos = 70 e 10 pontos por acerto, quanto dá pontos // 10?",
+            "alternativas": [
+              "0",
+              "7.0",
+              "7",
+              "70"
+            ],
+            "correta": 2,
+            "explicacao": "// é a divisão inteira: 70 // 10 = 7.",
+            "dica": "// é divisão sem parte decimal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como aceitar '6' e 'seis' como respostas certas?",
+            "alternativas": [
+              "if resposta == '6' or 'seis':",
+              "if resposta in ['6', 'seis']:",
+              "if resposta == '6' and 'seis':",
+              "if resposta = '6':"
+            ],
+            "correta": 1,
+            "explicacao": "in verifica se a resposta está na lista.",
+            "dica": "Use uma lista com as respostas aceitas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O jogador digitou 'JÚPITER'. Com resposta.strip().lower(), o que é comparado?",
+            "alternativas": [
+              "'júpiter'",
+              "' júpiter '",
+              "'Júpiter'",
+              "'JÚPITER'"
+            ],
+            "correta": 0,
+            "explicacao": "lower() deixa tudo minúsculo, inclusive a letra acentuada.",
+            "dica": "Aplique as duas funções."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o fluxograma do quiz:",
+            "itens": [
+              "Início",
+              "Mostrar a pergunta e ler a resposta",
+              "Conferir e somar pontos se acertar",
+              "Repetir se houver mais perguntas",
+              "Mostrar o resultado"
+            ],
+            "explicacao": "Início, pergunta, conferência, repetição e resultado.",
+            "dica": "O resultado vem no fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Perguntas fáceis valem 10 e difíceis valem 20. Um quiz tem 3 fáceis e 2 difíceis. Qual é a pontuação máxima?",
+            "alternativas": [
+              "60",
+              "70",
+              "50",
+              "100"
+            ],
+            "correta": 1,
+            "explicacao": "3 · 10 + 2 · 20 = 30 + 40 = 70.",
+            "dica": "Some separadamente fáceis e difíceis."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual estrutura guarda pergunta, resposta e peso de cada questão?",
+            "alternativas": [
+              "['Quanto é 7 x 8?', 'Capital do Ceará?']",
+              "[10, 20]",
+              "'Quanto é 7 x 8? 56 10'",
+              "[['Quanto é 7 x 8?', '56', 10], ['Capital do Ceará?', 'fortaleza', 20]]"
+            ],
+            "correta": 3,
+            "explicacao": "Cada item tem três partes: pergunta, resposta e peso.",
+            "dica": "Cada item precisa guardar três informações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com a estrutura [pergunta, resposta, peso], qual linha soma o peso certo ao acertar?",
+            "alternativas": [
+              "pontos = pontos + 10",
+              "pontos = pontos + p[2]",
+              "pontos = pontos + p[0]",
+              "pontos = p[1]"
+            ],
+            "correta": 1,
+            "explicacao": "O peso está na posição 2.",
+            "dica": "Em qual posição está o peso?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um amigo planejou: 'se pontos >= 30, Mandou bem; se pontos == 50, Gabaritou', nessa ordem com if e elif. Quem gabaritar vê qual mensagem?",
+            "alternativas": [
+              "Mandou bem",
+              "Nenhuma",
+              "Gabaritou",
+              "As duas"
+            ],
+            "correta": 0,
+            "explicacao": "50 ≥ 30 é verdadeiro primeiro; o elif nem é testado.",
+            "dica": "No if/elif, só o primeiro verdadeiro roda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para sortear a ordem das perguntas a cada partida, o que usar antes do laço?",
+            "alternativas": [
+              "len(perguntas)",
+              "perguntas.sort()",
+              "random.shuffle(perguntas)",
+              "random.randint(perguntas)"
+            ],
+            "correta": 2,
+            "explicacao": "shuffle embaralha a lista.",
+            "dica": "Lembre do baralho."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Notas de rodapé e referências",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Em trabalhos escolares, é importante mostrar de onde veio cada informação. Isso dá credibilidade ao texto e evita o plágio, que é copiar o trabalho de outra pessoa sem dizer de onde veio.",
+          "A nota de rodapé é um número pequeno no texto que leva a uma explicação no pé da página. No Word: Referências > Inserir Nota de Rodapé, ou Ctrl + Alt + F. O número aparece sozinho e é renumerado se você mudar o texto.",
+          "A nota de fim funciona igual, mas o texto vai para o final do documento: Referências > Inserir Nota de Fim, ou Ctrl + Alt + D.",
+          "No fim do trabalho entram as referências: a lista de livros, sites e materiais consultados, em ordem alfabética pelo sobrenome do autor.",
+          "No Brasil, a escola costuma pedir o padrão da ABNT. Livro: SOBRENOME, Nome. Título. Cidade: Editora, ano. Exemplo: SILVA, Ana. Rios de São Paulo. São Paulo: Editora Exemplo, 2020."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como citar um site nas referências, no padrão ABNT?",
+            "resolucao": "AUTOR ou INSTITUIÇÃO. Título da página. Ano. Disponível em: endereço do site. Acesso em: data. Exemplo: INSTITUTO EXEMPLO. Marés no litoral paulista. 2024. Disponível em: www.exemplo.org.br. Acesso em: 8 nov. 2026."
+          },
+          {
+            "enunciado": "Seu trabalho cita um dado sobre enchentes. Onde colocar a explicação de onde ele veio?",
+            "resolucao": "Insira uma nota de rodapé (Ctrl + Alt + F) logo depois do dado e escreva a fonte no pé da página. No fim do trabalho, inclua a mesma fonte na lista de referências."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O Word também gerencia fontes: Referências > Inserir Citação > Adicionar Nova Fonte. Você preenche autor, título, ano e editora, e depois Referências > Bibliografia monta a lista sozinho, no estilo escolhido.",
+        "Copiar um trecho exatamente como está no original é citação direta e vai entre aspas, com a fonte. Explicar a ideia com suas palavras é paráfrase e também precisa indicar a fonte. Nos dois casos, quem não cita a origem comete plágio.",
+        "Para conferir se uma fonte da internet é confiável: veja quem escreveu (pessoa ou instituição conhecida), a data, se há outras fontes dizendo o mesmo e se o site é de órgão público, universidade ou veículo de imprensa sério."
+      ],
+      "desafio_pratico": "No Word do PC ou do celular, escreva um texto de 10 a 15 linhas sobre um tema que você estudou nesta semana (marés, enchentes, reprodução das plantas). Use pelo menos duas informações tiradas de fontes diferentes e insira uma nota de rodapé (Referências > Inserir Nota de Rodapé, ou Ctrl + Alt + F) para cada uma, dizendo de onde veio. Coloque uma frase copiada entre aspas como citação direta. No fim, crie a lista de referências no padrão ABNT, em ordem alfabética.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam as notas de rodapé no Word?",
+            "alternativas": [
+              "No menu Imprimir",
+              "Na guia Exibir",
+              "Na guia Desenhar",
+              "Na guia Referências"
+            ],
+            "correta": 3,
+            "explicacao": "Notas ficam em Referências.",
+            "dica": "É a guia que cuida das fontes do trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o atalho para inserir nota de rodapé?",
+            "alternativas": [
+              "Ctrl + S",
+              "Ctrl + Alt + F",
+              "Alt + F4",
+              "Ctrl + P"
+            ],
+            "correta": 1,
+            "explicacao": "Ctrl + Alt + F insere a nota.",
+            "dica": "Envolve Ctrl, Alt e uma letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é plágio?",
+            "alternativas": [
+              "Copiar o trabalho de outro sem dizer de onde veio",
+              "Usar nota de rodapé",
+              "Fazer o próprio resumo",
+              "Citar a fonte"
+            ],
+            "correta": 0,
+            "explicacao": "Plágio é usar sem dar crédito.",
+            "dica": "Tem a ver com não dar o crédito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde aparece o texto da nota de rodapé?",
+            "alternativas": [
+              "No título",
+              "Em outra pasta",
+              "No pé da página",
+              "Na capa"
+            ],
+            "correta": 2,
+            "explicacao": "Rodapé é a parte de baixo da página.",
+            "dica": "O nome já diz o lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em que ordem ficam as referências?",
+            "alternativas": [
+              "Em qualquer ordem",
+              "Alfabética, pelo sobrenome do autor",
+              "Pelo número de páginas",
+              "Pela cor da capa"
+            ],
+            "correta": 1,
+            "explicacao": "Ordem alfabética pelo sobrenome.",
+            "dica": "Como se organiza uma lista de chamada?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre nota de rodapé e nota de fim?",
+            "alternativas": [
+              "São a mesma coisa",
+              "A de rodapé vai no pé da página; a de fim, no final do documento",
+              "A de rodapé vai na capa",
+              "A de fim vai no começo"
+            ],
+            "correta": 1,
+            "explicacao": "O lugar do texto da nota muda.",
+            "dica": "Pense no nome de cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o atalho da nota de fim?",
+            "alternativas": [
+              "Ctrl + Enter",
+              "Ctrl + Z",
+              "Ctrl + Alt + F",
+              "Ctrl + Alt + D"
+            ],
+            "correta": 3,
+            "explicacao": "Ctrl + Alt + D insere nota de fim.",
+            "dica": "Não é a mesma letra do rodapé."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No padrão ABNT, como começa a referência de um livro?",
+            "alternativas": [
+              "Com a cidade",
+              "Com o ano",
+              "Com o número de páginas",
+              "Com o SOBRENOME do autor em maiúsculas"
+            ],
+            "correta": 3,
+            "explicacao": "SOBRENOME, Nome. Título...",
+            "dica": "O autor vem primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que acontece com os números das notas se você inserir uma nota nova no meio do texto?",
+            "alternativas": [
+              "É preciso renumerar à mão",
+              "As notas são apagadas",
+              "O Word renumera tudo sozinho",
+              "Fica tudo bagunçado"
+            ],
+            "correta": 2,
+            "explicacao": "A numeração é automática.",
+            "dica": "O Word cuida da contagem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na referência de site, o que não pode faltar?",
+            "alternativas": [
+              "Disponível em e Acesso em",
+              "A cor do site",
+              "O nome do seu professor",
+              "O número de curtidas"
+            ],
+            "correta": 0,
+            "explicacao": "Endereço e data de acesso identificam a página.",
+            "dica": "Sites mudam: é preciso dizer onde e quando."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual referência está no padrão ABNT para livro?",
+            "alternativas": [
+              "SILVA, Ana. Rios de São Paulo. São Paulo: Editora Exemplo, 2020.",
+              "Ana Silva - Rios de São Paulo - 2020",
+              "Livro da Ana sobre rios, São Paulo",
+              "Rios de São Paulo. 2020. SILVA, Ana. São Paulo."
+            ],
+            "correta": 0,
+            "explicacao": "SOBRENOME, Nome. Título. Cidade: Editora, ano.",
+            "dica": "Siga a ordem: autor, título, cidade, editora e ano."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Explicar a ideia de um autor com suas palavras, sem citar a fonte, é:",
+            "alternativas": [
+              "citação direta",
+              "permitido, porque mudou as palavras",
+              "plágio, mesmo sem copiar palavra por palavra",
+              "nota de fim"
+            ],
+            "correta": 2,
+            "explicacao": "A paráfrase também precisa da fonte.",
+            "dica": "A ideia continua sendo de quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como o Word monta a lista de referências sozinho?",
+            "alternativas": [
+              "Copiando de outro trabalho",
+              "Adicionando as fontes em Inserir Citação e depois usando Bibliografia",
+              "Pelo zoom",
+              "Pelo corretor ortográfico"
+            ],
+            "correta": 1,
+            "explicacao": "Gerenciar fontes e gerar a bibliografia.",
+            "dica": "Primeiro se cadastram as fontes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual fonte é mais confiável para um trabalho sobre leptospirose?",
+            "alternativas": [
+              "Uma corrente de mensagens",
+              "Um comentário anônimo",
+              "Um vídeo sem autor nem data",
+              "O site de um órgão público de saúde, com data e autor"
+            ],
+            "correta": 3,
+            "explicacao": "Instituição conhecida, autoria e data.",
+            "dica": "Quem responde pela informação?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os elementos da referência de um livro (ABNT):",
+            "itens": [
+              "SOBRENOME, Nome.",
+              "Título.",
+              "Cidade:",
+              "Editora,",
+              "ano."
+            ],
+            "explicacao": "Autor, título, cidade, editora e ano.",
+            "dica": "O autor sempre vem primeiro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um trecho copiado exatamente de um livro deve ser apresentado como:",
+            "alternativas": [
+              "título do trabalho",
+              "texto próprio, sem aspas",
+              "citação direta entre aspas, com a fonte",
+              "nota de fim sem fonte"
+            ],
+            "correta": 2,
+            "explicacao": "Citação literal vai entre aspas e com a origem.",
+            "dica": "Palavras exatas pedem um sinal de pontuação especial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual referência de site está completa?",
+            "alternativas": [
+              "INSTITUTO EXEMPLO. Marés. Acesso ontem.",
+              "INSTITUTO EXEMPLO. Marés no litoral paulista. 2024. Disponível em: www.exemplo.org.br. Acesso em: 8 nov. 2026.",
+              "Marés, site, 2024.",
+              "www.exemplo.org.br"
+            ],
+            "correta": 1,
+            "explicacao": "Tem autor, título, ano, endereço e data de acesso.",
+            "dica": "Confira cada parte do modelo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas fontes: COSTA, Bruno (2019) e ALMEIDA, Carla (2021). Em que ordem entram nas referências?",
+            "alternativas": [
+              "A mais nova primeiro",
+              "COSTA primeiro, depois ALMEIDA",
+              "Tanto faz",
+              "ALMEIDA primeiro, depois COSTA"
+            ],
+            "correta": 3,
+            "explicacao": "Ordem alfabética pelo sobrenome: A antes de C.",
+            "dica": "A ordem não é pela data."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a nota de rodapé é melhor do que escrever a fonte entre parênteses longos no meio do parágrafo?",
+            "alternativas": [
+              "Porque não interrompe a leitura e mantém a informação na mesma página",
+              "Porque é obrigatória em todo texto",
+              "Porque esconde a fonte",
+              "Não é melhor"
+            ],
+            "correta": 0,
+            "explicacao": "O leitor consulta a nota só se quiser.",
+            "dica": "Pense no fluxo da leitura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluno colou um parágrafo inteiro de um site e pôs só o endereço no fim do trabalho, sem aspas. O que faltou?",
+            "alternativas": [
+              "Trocar a fonte do texto",
+              "Indicar o trecho como citação direta, entre aspas, junto da fonte",
+              "Nada, está correto",
+              "Apagar as referências"
+            ],
+            "correta": 1,
+            "explicacao": "A fonte no fim não mostra qual trecho foi copiado.",
+            "dica": "Como o leitor sabe o que foi copiado?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Atendimento ao cliente e pós-venda",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Atender bem é o jeito mais barato de vender mais. Um cliente bem atendido volta, compra de novo e indica para outros; um mal atendido some e ainda conta para todo mundo.",
+          "Bom atendimento: cumprimentar, ouvir sem interromper, entender o que a pessoa precisa, explicar preço e prazo com clareza e cumprir o combinado. Prometer menos e entregar mais vale mais do que o contrário.",
+          "Pós-venda é o cuidado depois que a venda acabou: perguntar se o produto ficou bom, oferecer ajuste, lembrar a data de uma revisão. Mostra ao cliente que ele importa, e não só o dinheiro dele.",
+          "Reclamação é uma chance de conquistar o cliente. Roteiro: ouvir com calma, pedir desculpas pelo transtorno, entender o problema, propor uma solução, cumprir e depois conferir se ficou tudo bem.",
+          "O Código de Defesa do Consumidor (CDC) dá ao cliente 30 dias para reclamar de defeito em produto ou serviço não durável e 90 dias em produto ou serviço durável. Atender bem uma reclamação é também cumprir a lei."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma cliente volta à loja dizendo que a blusa descosturou na primeira lavagem. Como atender?",
+            "resolucao": "Ouvir sem interromper, pedir desculpas, examinar a peça, oferecer o conserto na hora ou a troca, cumprir o que foi combinado e, dias depois, mandar mensagem perguntando se ficou tudo certo."
+          },
+          {
+            "enunciado": "A Dona Cleide, costureira, liga para cada cliente uma semana depois da entrega para saber se a roupa ficou boa. Por que isso dá resultado?",
+            "resolucao": "Porque mostra cuidado, corrige pequenos problemas antes que virem reclamação e faz a cliente lembrar dela. Clientes assim voltam e indicam a costureira para amigas e parentes."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Pelo CDC, se o defeito de um produto não for resolvido em até 30 dias, o cliente pode escolher entre trocar por outro, receber o dinheiro de volta ou ter um abatimento no preço. Num serviço mal feito, ele pode pedir que o serviço seja refeito, a devolução do valor ou um desconto.",
+        "Para fazer pós-venda é útil ter uma lista de clientes com telefone. Pela LGPD, esses dados pessoais só podem ser guardados com autorização do cliente e usados para a finalidade combinada; nada de passar a lista para outras pessoas ou mandar propaganda sem permissão.",
+        "Numa equipe, o dono treina todos para atender do mesmo jeito e dá liberdade para resolver problemas simples na hora, sem precisar chamar o chefe. Funcionário que se sente respeitado atende melhor."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é pós-venda?",
+            "alternativas": [
+              "Fechar a loja",
+              "Vender mais caro",
+              "O cuidado com o cliente depois da venda",
+              "Cobrar uma taxa extra"
+            ],
+            "correta": 2,
+            "explicacao": "É acompanhar o cliente depois da compra.",
+            "dica": "Pós quer dizer depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma atitude de bom atendimento?",
+            "alternativas": [
+              "Ouvir sem interromper",
+              "Ignorar quem reclama",
+              "Prometer prazos impossíveis",
+              "Mexer no celular enquanto o cliente fala"
+            ],
+            "correta": 0,
+            "explicacao": "Ouvir mostra respeito e ajuda a entender.",
+            "dica": "Pense no que você gostaria de receber."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cliente bem atendido costuma:",
+            "alternativas": [
+              "esquecer a loja",
+              "nunca mais voltar",
+              "reclamar sempre",
+              "voltar e indicar a loja"
+            ],
+            "correta": 3,
+            "explicacao": "Satisfação traz volta e indicação.",
+            "dica": "O que você faz quando é bem atendido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma reclamação é:",
+            "alternativas": [
+              "algo para ignorar",
+              "uma chance de conquistar o cliente",
+              "sempre culpa do cliente",
+              "motivo para brigar"
+            ],
+            "correta": 1,
+            "explicacao": "Resolver bem fideliza.",
+            "dica": "Uma reclamação bem resolvida tem qual efeito?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lei protege o cliente que compra um produto com defeito?",
+            "alternativas": [
+              "ECA",
+              "Lei do Trânsito",
+              "CLT",
+              "Código de Defesa do Consumidor"
+            ],
+            "correta": 3,
+            "explicacao": "O CDC é a lei do consumidor.",
+            "dica": "É a lei de quem compra."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o prazo para reclamar de defeito em produto durável, como uma geladeira?",
+            "alternativas": [
+              "1 ano",
+              "30 dias",
+              "7 dias",
+              "90 dias"
+            ],
+            "correta": 3,
+            "explicacao": "Durável: 90 dias; não durável: 30 dias.",
+            "dica": "É o maior dos dois prazos do CDC."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo diante de uma reclamação?",
+            "alternativas": [
+              "Ouvir com calma",
+              "Fechar a porta",
+              "Dizer que não é problema seu",
+              "Discutir com o cliente"
+            ],
+            "correta": 0,
+            "explicacao": "Ouvir vem antes de tudo.",
+            "dica": "Antes de resolver, é preciso entender."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Prometer menos e entregar mais\" significa:",
+            "alternativas": [
+              "Enganar o cliente",
+              "Cobrar mais caro",
+              "Não cumprir o combinado",
+              "Combinar prazos realistas e surpreender positivamente"
+            ],
+            "correta": 3,
+            "explicacao": "Expectativa realista e entrega acima dela.",
+            "dica": "O que deixa o cliente feliz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas é uma ação de pós-venda?",
+            "alternativas": [
+              "Mudar o preço depois da venda",
+              "Ligar uma semana depois para saber se ficou bom",
+              "Recusar troca de produto com defeito",
+              "Esconder o telefone da loja"
+            ],
+            "correta": 1,
+            "explicacao": "Acompanhar mostra cuidado.",
+            "dica": "Acontece depois da entrega."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o prazo para reclamar de defeito em produto não durável, como um alimento?",
+            "alternativas": [
+              "90 dias",
+              "2 anos",
+              "30 dias",
+              "1 dia"
+            ],
+            "correta": 2,
+            "explicacao": "Não durável: 30 dias.",
+            "dica": "É o menor dos dois prazos do CDC."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O defeito de um produto não foi resolvido em 30 dias. Pelo CDC, o cliente pode escolher:",
+            "alternativas": [
+              "só esperar mais",
+              "troca, dinheiro de volta ou abatimento no preço",
+              "só um vale-compras",
+              "nada"
+            ],
+            "correta": 1,
+            "explicacao": "As três opções ficam à escolha do cliente.",
+            "dica": "Quem escolhe agora é o cliente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma costureira fez a barra errada. O que o CDC permite ao cliente pedir?",
+            "alternativas": [
+              "Uma multa para a costureira",
+              "Nada, porque é serviço",
+              "Só um pedido de desculpas",
+              "Que o serviço seja refeito, a devolução do valor ou um desconto"
+            ],
+            "correta": 3,
+            "explicacao": "Serviço com problema também tem garantia.",
+            "dica": "Serviço também é protegido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A loja quer guardar o telefone dos clientes para o pós-venda. O que a LGPD exige?",
+            "alternativas": [
+              "Autorização do cliente e uso para a finalidade combinada",
+              "Vender a lista para outras lojas",
+              "Publicar os telefones",
+              "Nada, pode usar como quiser"
+            ],
+            "correta": 0,
+            "explicacao": "Dados pessoais exigem consentimento e finalidade.",
+            "dica": "Os dados são de quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que dar liberdade à equipe para resolver problemas simples?",
+            "alternativas": [
+              "Não é uma boa ideia",
+              "Para evitar pagar salário",
+              "O cliente é atendido mais rápido e o funcionário se sente valorizado",
+              "Para o dono não trabalhar"
+            ],
+            "correta": 2,
+            "explicacao": "Autonomia com treino agiliza e motiva.",
+            "dica": "Pense no tempo de espera do cliente."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o roteiro para atender uma reclamação:",
+            "itens": [
+              "Ouvir com calma",
+              "Pedir desculpas pelo transtorno",
+              "Propor uma solução",
+              "Cumprir e conferir depois"
+            ],
+            "explicacao": "Ouvir, acolher, resolver e acompanhar.",
+            "dica": "Primeiro ouça."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja recebe 100 reclamações por mês e resolve bem 80. Se metade dos clientes bem atendidos volta a comprar, quantos voltam?",
+            "alternativas": [
+              "80",
+              "40",
+              "50",
+              "20"
+            ],
+            "correta": 1,
+            "explicacao": "Metade de 80 = 40.",
+            "dica": "Considere só os bem atendidos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual resposta a uma reclamação está melhor?",
+            "alternativas": [
+              "\"Não damos garantia.\"",
+              "\"Volte semana que vem.\"",
+              "\"Sinto muito pelo problema. Posso consertar agora ou trocar, o que prefere?\"",
+              "\"Isso nunca acontece, a senhora deve ter lavado errado.\""
+            ],
+            "correta": 2,
+            "explicacao": "Acolhe, oferece opções e resolve.",
+            "dica": "Qual delas resolve e respeita?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário passa a lista de telefones dos clientes para um amigo que vende outra coisa. Qual é o problema?",
+            "alternativas": [
+              "Nenhum, telefone é público",
+              "Só é problema se cobrar",
+              "Viola a LGPD, porque usa dados pessoais sem autorização e fora da finalidade",
+              "É uma boa estratégia de vendas"
+            ],
+            "correta": 2,
+            "explicacao": "Dados pessoais têm finalidade definida.",
+            "dica": "Para que o cliente deu o telefone?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que manter um cliente costuma ser mais barato do que conquistar um novo?",
+            "alternativas": [
+              "Porque o cliente novo paga mais",
+              "Porque cliente fiel nunca reclama",
+              "Não é mais barato",
+              "Porque o cliente fiel já confia e não exige gastos com propaganda para chegar"
+            ],
+            "correta": 3,
+            "explicacao": "Confiança já construída economiza esforço de venda.",
+            "dica": "Quem já conhece a loja precisa ser convencido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ação junta bom atendimento, pós-venda e respeito à lei?",
+            "alternativas": [
+              "Combinar prazo realista, entregar, ligar com autorização do cliente e resolver defeitos pelo CDC",
+              "Prometer prazo curto e atrasar",
+              "Recusar consertos depois da entrega",
+              "Mandar propaganda sem pedir"
+            ],
+            "correta": 0,
+            "explicacao": "Atender, acompanhar e cumprir a lei.",
+            "dica": "Procure a opção com as três partes."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Regência nominal",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Regência nominal é a relação entre um nome (substantivo, adjetivo ou advérbio) e o termo que ele pede, ligado por uma preposição. Assim como certos verbos pedem preposição, certos nomes também pedem.",
+          "Exemplos com a: acessível a, atento a, contrário a, favorável a, fiel a, obediência a, preferível a, útil a. \"A rampa deixa a escola acessível a todos.\" \"Sou favorável à reforma da quadra.\"",
+          "Exemplos com de: capaz de, medo de, necessidade de, orgulhoso de, próximo de. Com em: residente em, situado em, morador em. Com com: compatível com, satisfeito com.",
+          "Preferível pede a, e não \"do que\": \"Estudar é preferível a colar\". E não se usa \"mais preferível\", porque preferível já indica preferência.",
+          "Quando a palavra seguinte é feminina e leva artigo, a preposição a vira crase: \"obediência às regras\", \"atento à explicação\", \"fiel à namorada\"."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Complete: \"O novo posto de saúde é útil ___ comunidade e fica situado ___ Rua das Flores.\"",
+            "resolucao": "\"Útil à comunidade\" (útil a + a comunidade = à) e \"situado na Rua das Flores\" (situado em + a = na)."
+          },
+          {
+            "enunciado": "Corrija: \"Ler é mais preferível do que ver vídeo.\"",
+            "resolucao": "\"Ler é preferível a ver vídeo.\" Tira-se o mais e troca-se do que por a."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Alguns nomes aceitam mais de uma preposição: ansioso por ou para (\"ansioso pelo resultado\", \"ansioso para viajar\"); respeito a, por ou com; próximo a ou de.",
+        "Nomes da mesma família costumam ter a mesma regência do verbo: obedecer a → obediência a; preferir a → preferível a; necessitar de → necessidade de. Pensar no verbo ajuda a acertar o nome.",
+        "Em textos oficiais e redações, a regência nominal mostra cuidado com a língua: \"O projeto é favorável à inclusão\", \"A decisão é contrária ao regulamento\", \"O aluno residente em Guarulhos\"."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ele é fiel ___ time do bairro.\"",
+            "alternativas": [
+              "do",
+              "com o",
+              "no",
+              "ao"
+            ],
+            "correta": 3,
+            "explicacao": "Fiel a + o = ao.",
+            "dica": "Fiel pede qual preposição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Tenho medo ___ altura.\"",
+            "alternativas": [
+              "com",
+              "em",
+              "a",
+              "de"
+            ],
+            "correta": 3,
+            "explicacao": "Medo de algo.",
+            "dica": "Medo ___ escuro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Moro numa casa situada ___ Rua Augusta.\"",
+            "alternativas": [
+              "da",
+              "pela",
+              "na",
+              "à"
+            ],
+            "correta": 2,
+            "explicacao": "Situado em + a = na.",
+            "dica": "Situado pede em."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Estudar é preferível do que colar.",
+              "Estudar é preferível a colar.",
+              "Estudar é preferível que colar.",
+              "Estudar é mais preferível que colar."
+            ],
+            "correta": 1,
+            "explicacao": "Preferível a.",
+            "dica": "Preferível pede a mesma preposição que preferir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Estou satisfeito ___ o resultado.\"",
+            "alternativas": [
+              "com",
+              "em",
+              "de",
+              "a"
+            ],
+            "correta": 0,
+            "explicacao": "Satisfeito com algo.",
+            "dica": "Satisfeito ___ a nota."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"A rampa deixa a escola acessível ___ todos.\"",
+            "alternativas": [
+              "a",
+              "de",
+              "com",
+              "em"
+            ],
+            "correta": 0,
+            "explicacao": "Acessível a.",
+            "dica": "Acessível pede qual preposição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Sou favorável ___ reforma da quadra.\"",
+            "alternativas": [
+              "na",
+              "à",
+              "da",
+              "a"
+            ],
+            "correta": 1,
+            "explicacao": "Favorável a + a reforma = à.",
+            "dica": "Favorável pede a; reforma é feminina."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"É preciso obediência ___ regras.\"",
+            "alternativas": [
+              "nas",
+              "as",
+              "às",
+              "das"
+            ],
+            "correta": 2,
+            "explicacao": "Obediência a + as regras = às.",
+            "dica": "Pense no verbo obedecer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O aluno residente ___ Osasco ganhou o prêmio.\"",
+            "alternativas": [
+              "a",
+              "em",
+              "de",
+              "para"
+            ],
+            "correta": 1,
+            "explicacao": "Residente em.",
+            "dica": "Quem reside, reside ___ algum lugar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Esse aplicativo é compatível ___ o meu celular.\"",
+            "alternativas": [
+              "em",
+              "de",
+              "a",
+              "com"
+            ],
+            "correta": 3,
+            "explicacao": "Compatível com.",
+            "dica": "Compatível ___ outra coisa."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro de regência nominal?",
+            "alternativas": [
+              "Ele é contrário com a proposta.",
+              "Ela é fiel aos amigos.",
+              "Ele é contrário à proposta.",
+              "Estou atento à aula."
+            ],
+            "correta": 0,
+            "explicacao": "Contrário pede a: contrário à proposta.",
+            "dica": "Teste a preposição de cada nome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Estamos ansiosos ___ resultado e ___ viajar.\"",
+            "alternativas": [
+              "ao / em",
+              "com o / com",
+              "do / de",
+              "pelo / para"
+            ],
+            "correta": 3,
+            "explicacao": "Ansioso por (pelo) ou para.",
+            "dica": "Ansioso aceita duas preposições."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par verbo / nome tem a mesma regência?",
+            "alternativas": [
+              "necessitar com / necessidade a",
+              "preferir do que / preferível do que",
+              "obedecer a / obediência a",
+              "obedecer de / obediência com"
+            ],
+            "correta": 2,
+            "explicacao": "O nome segue a regência do verbo.",
+            "dica": "Pense no verbo e no nome da mesma família."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O posto de saúde é útil ___ comunidade.\"",
+            "alternativas": [
+              "da",
+              "à",
+              "a",
+              "na"
+            ],
+            "correta": 1,
+            "explicacao": "Útil a + a comunidade = à.",
+            "dica": "Útil pede a; comunidade é feminina."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a frase correta:",
+            "itens": [
+              "A decisão",
+              "é contrária",
+              "ao",
+              "regulamento da escola."
+            ],
+            "explicacao": "Contrária a + o regulamento = ao.",
+            "dica": "A preposição vem logo depois do nome."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está toda de acordo com a norma-padrão?",
+            "alternativas": [
+              "Sou favorável na reforma e contrário à aumento da taxa.",
+              "Sou favorável à reforma e contrário ao aumento da taxa.",
+              "Sou favorável a reforma e contrário do aumento da taxa.",
+              "Sou favorável com a reforma e contrário ao aumento da taxa."
+            ],
+            "correta": 1,
+            "explicacao": "Favorável à (a + a) e contrário ao (a + o).",
+            "dica": "Os dois nomes pedem a mesma preposição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"A loja tem necessidade ___ funcionários atentos ___ clientes.\"",
+            "alternativas": [
+              "de / dos",
+              "a / dos",
+              "com / nos",
+              "de / aos"
+            ],
+            "correta": 3,
+            "explicacao": "Necessidade de; atento a + os = aos.",
+            "dica": "Pense em necessitar de e em atender a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase NÃO tem crase obrigatória?",
+            "alternativas": [
+              "Ele é fiel à namorada.",
+              "Ele é fiel a seus princípios.",
+              "Ele é favorável à proposta.",
+              "Ele está atento à explicação."
+            ],
+            "correta": 1,
+            "explicacao": "Antes de pronome possessivo masculino plural não há artigo feminino.",
+            "dica": "Onde não aparece o artigo feminino a?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Reescreva na norma-padrão: \"Ficar em casa é mais preferível do que sair na chuva.\"",
+            "alternativas": [
+              "Ficar em casa é preferível a sair na chuva.",
+              "Ficar em casa é preferível do que sair na chuva.",
+              "Ficar em casa é preferível que sair na chuva.",
+              "Ficar em casa é mais preferível a sair na chuva."
+            ],
+            "correta": 0,
+            "explicacao": "Sem mais e com a.",
+            "dica": "Duas coisas precisam mudar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ela tem orgulho ___ filha e respeito ___ todos.\"",
+            "alternativas": [
+              "pela / em",
+              "na / com o",
+              "da / por",
+              "à / de"
+            ],
+            "correta": 2,
+            "explicacao": "Orgulho de + a filha = da; respeito por (ou a, com).",
+            "dica": "Orgulho pede de."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Quem atende bem vende duas vezes",
+    "texto": "Na rua de cima da escola, a Dona Cleide tem uma portinha com uma placa pintada à mão: Costura e Ajustes. Há outras três costureiras no bairro, algumas mais baratas. Mesmo assim, a fila da Dona Cleide não para.\n\nO segredo começa no balcão. Ela olha nos olhos, pergunta para quando a cliente precisa da roupa e só promete o prazo que consegue cumprir. Se diz quinta-feira, entrega na quarta.\n\n— Prefiro prometer menos e entregar antes — explica.\n\nO segundo segredo vem depois da entrega. Uma semana mais tarde, ela manda uma mensagem curta para quem autorizou o contato: a calça ficou boa? O vestido serviu na festa? Na maioria das vezes, a resposta é um coração. Às vezes, é um problema: a barra subiu na lavagem, o zíper prendeu.\n\nFoi o que aconteceu com a Regiane, que voltou chateada com um vestido de formatura que apertava no ombro. A Dona Cleide ouviu tudo sem interromper, pediu desculpas, ajustou a peça na hora e não cobrou nada.\n\n— A culpa foi da minha medida. Você não tem que pagar pelo meu erro.\n\nA Regiane saiu de lá com o vestido perfeito e voltou no mês seguinte com a mãe, a tia e duas amigas.\n\nHoje a Dona Cleide ensina o ofício a duas costureiras adultas, registradas, que atendem do mesmo jeito. Ela diz que a máquina de costura é importante, mas o que segura o negócio é outra coisa:\n\n— Cliente bem atendido compra duas vezes: quando entra e quando volta trazendo alguém."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva o roteiro de atendimento de um cliente que voltou reclamando de um produto ou serviço (uma roupa, um conserto, um lanche). Mostre cada passo: como cumprimentar, ouvir, pedir desculpas, propor uma solução e acompanhar depois. Inclua pelo menos uma fala do atendente entre aspas ou com travessão."
+  }
+}

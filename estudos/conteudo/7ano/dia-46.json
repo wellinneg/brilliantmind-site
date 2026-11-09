@@ -1,0 +1,1208 @@
+{
+  "dia": 46,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Retas paralelas cortadas por uma transversal",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Retas paralelas estão no mesmo plano e nunca se encontram, como os dois trilhos de um trem. Uma reta transversal corta as duas, como uma avenida que atravessa duas ruas paralelas. Nos dois cruzamentos, formam-se 8 ângulos.",
+          "Ângulos opostos pelo vértice (um em frente ao outro, no mesmo cruzamento) são iguais. Ângulos lado a lado sobre a mesma reta somam 180°.",
+          "Ângulos correspondentes ocupam a mesma posição em cada cruzamento (por exemplo, os dois de cima à direita) e são iguais.",
+          "Ângulos alternos internos ficam entre as paralelas, em lados opostos da transversal, e são iguais. Os alternos externos, fora das paralelas e em lados opostos, também são iguais.",
+          "Ângulos colaterais internos ficam entre as paralelas, do mesmo lado da transversal, e somam 180°. Resumo: com paralelas, os 8 ângulos só têm dois valores, x e 180° − x."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um dos ângulos formados mede 70°. Quanto medem os outros?",
+            "resolucao": "Quatro medem 70° (os opostos, correspondentes e alternos a ele) e quatro medem 180° − 70° = 110°."
+          },
+          {
+            "enunciado": "Dois ângulos alternos internos medem 3x + 10 e 2x + 40. Quanto vale cada um?",
+            "resolucao": "Alternos internos são iguais: 3x + 10 = 2x + 40, então x = 30. Cada ângulo mede 3 × 30 + 10 = 100°."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Vale também o contrário: se uma transversal forma ângulos correspondentes iguais com duas retas, essas retas são paralelas. Se os correspondentes forem diferentes, mesmo que por 1°, as retas vão se encontrar em algum ponto.",
+        "Se a transversal for perpendicular às paralelas, os 8 ângulos medem 90°. E a soma dos 8 ângulos é sempre 4 × 180° = 720°, porque são quatro pares de ângulos sobre uma reta.",
+        "Regra do bico: se um ponto fica entre duas paralelas e liga-se a cada uma por um segmento, o ângulo do bico é a soma dos dois ângulos que os segmentos fazem com as paralelas. Exemplo: 30° + 45° = 75°."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que são retas paralelas?",
+            "alternativas": [
+              "Retas que se cruzam em um ponto",
+              "Retas que nunca se encontram",
+              "Retas curvas",
+              "Retas que formam um X"
+            ],
+            "correta": 1,
+            "explicacao": "Como os trilhos do trem: sempre lado a lado.",
+            "dica": "Pense nos dois trilhos de um trem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a reta que corta duas paralelas?",
+            "alternativas": [
+              "Transversal",
+              "Curva",
+              "Diagonal da casa",
+              "Vertical"
+            ],
+            "correta": 0,
+            "explicacao": "Ela atravessa as duas paralelas.",
+            "dica": "A palavra lembra atravessar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos ângulos se formam quando uma transversal corta duas paralelas?",
+            "alternativas": [
+              "4",
+              "2",
+              "6",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "São 4 em cada cruzamento: 4 + 4 = 8.",
+            "dica": "Conte os ângulos de um cruzamento e dobre."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ângulos opostos pelo vértice são:",
+            "alternativas": [
+              "Sempre 90°",
+              "Diferentes",
+              "Iguais",
+              "Sempre 180°"
+            ],
+            "correta": 2,
+            "explicacao": "Um em frente ao outro, no mesmo cruzamento, têm a mesma medida.",
+            "dica": "Faça um X com os dedos e compare os ângulos de frente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ângulo mede 70°. Quanto mede o ângulo ao lado dele, sobre a mesma reta?",
+            "alternativas": [
+              "70°",
+              "110°",
+              "90°",
+              "20°"
+            ],
+            "correta": 1,
+            "explicacao": "Juntos somam 180°: 180 − 70 = 110°.",
+            "dica": "Juntos, eles formam meia-volta."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ângulo mede 65°. Quanto mede o seu correspondente?",
+            "alternativas": [
+              "115°",
+              "25°",
+              "65°",
+              "130°"
+            ],
+            "correta": 2,
+            "explicacao": "Correspondentes são iguais.",
+            "dica": "Ele ocupa a mesma posição no outro cruzamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ângulo alterno interno mede 120°. Quanto mede o outro alterno interno?",
+            "alternativas": [
+              "120°",
+              "60°",
+              "240°",
+              "30°"
+            ],
+            "correta": 0,
+            "explicacao": "Alternos internos são iguais.",
+            "dica": "Lembre a regra dos alternos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois ângulos colaterais internos: um mede 75°. Quanto mede o outro?",
+            "alternativas": [
+              "75°",
+              "15°",
+              "285°",
+              "105°"
+            ],
+            "correta": 3,
+            "explicacao": "Colaterais internos somam 180°: 180 − 75 = 105°.",
+            "dica": "Esses dois somam meia-volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dos 8 ângulos mede 50°. Quantos dos 8 medem exatamente 50°?",
+            "alternativas": [
+              "2",
+              "4",
+              "6",
+              "8"
+            ],
+            "correta": 1,
+            "explicacao": "Metade dos ângulos mede 50° e a outra metade, 130°.",
+            "dica": "Os 8 ângulos só têm dois valores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto somam dois ângulos lado a lado sobre a mesma reta?",
+            "alternativas": [
+              "90°",
+              "360°",
+              "180°",
+              "100°"
+            ],
+            "correta": 2,
+            "explicacao": "Eles formam um ângulo raso.",
+            "dica": "Uma reta é meia-volta."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois alternos internos medem 3x + 10 e 2x + 40. Quanto mede cada ângulo?",
+            "alternativas": [
+              "30°",
+              "100°",
+              "80°",
+              "130°"
+            ],
+            "correta": 1,
+            "explicacao": "3x + 10 = 2x + 40 → x = 30. Ângulo: 3 × 30 + 10 = 100°.",
+            "dica": "Iguale as duas expressões e ache x; depois calcule o ângulo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois colaterais internos medem 2x e x + 30. Quanto vale x?",
+            "alternativas": [
+              "50",
+              "60",
+              "30",
+              "75"
+            ],
+            "correta": 0,
+            "explicacao": "2x + x + 30 = 180 → 3x = 150 → x = 50.",
+            "dica": "Colaterais internos somam 180°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois correspondentes medem 4x − 20 e 2x + 30. Quanto mede cada um?",
+            "alternativas": [
+              "25°",
+              "50°",
+              "100°",
+              "80°"
+            ],
+            "correta": 3,
+            "explicacao": "4x − 20 = 2x + 30 → 2x = 50 → x = 25. Ângulo: 2 × 25 + 30 = 80°.",
+            "dica": "Correspondentes são iguais; não pare no valor de x."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma avenida corta duas ruas paralelas formando ângulos retos. Quanto medem os 8 ângulos?",
+            "alternativas": [
+              "45° e 135°",
+              "Todos 90°",
+              "Todos 180°",
+              "60° e 120°"
+            ],
+            "correta": 1,
+            "explicacao": "Perpendicular: todos os ângulos são retos.",
+            "dica": "Ângulo reto mede quanto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ângulo é o triplo do ângulo ao lado dele, sobre a mesma reta. Quanto mede o maior?",
+            "alternativas": [
+              "135°",
+              "45°",
+              "120°",
+              "150°"
+            ],
+            "correta": 0,
+            "explicacao": "x + 3x = 180 → x = 45. O maior: 3 × 45 = 135°.",
+            "dica": "Os dois somam 180°."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ponto fica entre duas paralelas e forma um bico. Os segmentos fazem 30° e 45° com as paralelas. Quanto mede o ângulo do bico?",
+            "alternativas": [
+              "15°",
+              "105°",
+              "75°",
+              "135°"
+            ],
+            "correta": 2,
+            "explicacao": "Pela regra do bico, o ângulo é a soma: 30° + 45° = 75°.",
+            "dica": "Lembre a regra do bico do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma transversal corta duas retas formando correspondentes de 72° e 70°. O que se conclui?",
+            "alternativas": [
+              "As retas são paralelas",
+              "As retas são perpendiculares",
+              "As retas são a mesma",
+              "As retas não são paralelas e vão se encontrar"
+            ],
+            "correta": 3,
+            "explicacao": "Se fossem paralelas, os correspondentes seriam iguais.",
+            "dica": "Correspondentes diferentes significam o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a soma dos 8 ângulos formados por uma transversal que corta duas paralelas?",
+            "alternativas": [
+              "360°",
+              "720°",
+              "540°",
+              "1.440°"
+            ],
+            "correta": 1,
+            "explicacao": "Quatro pares de ângulos sobre uma reta: 4 × 180° = 720°.",
+            "dica": "Agrupe os ângulos em pares que formam 180°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Colaterais internos medem 5x − 10 e 3x + 30. Quanto vale x e o que isso diz sobre a transversal?",
+            "alternativas": [
+              "x = 20; ela é perpendicular às paralelas",
+              "x = 20; ela forma 60° e 120°",
+              "x = 25; ela forma 115° e 105°",
+              "x = 10; ela é paralela"
+            ],
+            "correta": 0,
+            "explicacao": "8x + 20 = 180 → x = 20. Ângulos: 90° e 90°: a transversal é perpendicular.",
+            "dica": "Some, ache x e calcule os dois ângulos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma avenida corta duas ruas paralelas e forma um ângulo agudo de 58°. Qual é a diferença entre o ângulo obtuso e o agudo?",
+            "alternativas": [
+              "58°",
+              "122°",
+              "64°",
+              "32°"
+            ],
+            "correta": 2,
+            "explicacao": "Obtuso: 180 − 58 = 122. Diferença: 122 − 58 = 64°.",
+            "dica": "Ache o obtuso primeiro."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Planejar uma compra grande passo a passo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Compra grande é aquela que pesa no orçamento: geladeira, notebook, bicicleta, celular. Planejar evita juros e arrependimento.",
+          "Passo 1: pergunte se é necessidade ou desejo, e se precisa ser agora. Passo 2: pesquise o preço em várias lojas, em sites e também de usados, e defina um valor-alvo.",
+          "Passo 3: monte a meta. Divida o valor pelo número de meses: quanto guardar por mês e por quanto tempo.",
+          "Passo 4: guarde o dinheiro separado, num lugar que renda e que não seja fácil de gastar, e acompanhe todo mês.",
+          "Passo 5: na hora de comprar, compare à vista com desconto e parcelado, veja garantia, frete e exija nota fiscal."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um notebook custa R$ 2.400. Guardando R$ 200 por mês, em quanto tempo dá para comprar?",
+            "resolucao": "2.400 ÷ 200 = 12 meses."
+          },
+          {
+            "enunciado": "O notebook custa R$ 2.400 em 10 × R$ 240 ou à vista com 10% de desconto. Quanto se economiza à vista?",
+            "resolucao": "À vista: 2.400 × 0,9 = R$ 2.160. Parcelado: R$ 2.400. Economia: R$ 240, o que já é mais de um mês de economia."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Fique de olho nos custos escondidos: frete, instalação, acessórios. Um ventilador de R$ 300 com R$ 40 de frete custa, de verdade, R$ 340.",
+        "O Código de Defesa do Consumidor garante 90 dias para reclamar de defeito em produto durável, além da garantia do fabricante. A garantia estendida é opcional e paga à parte. Nas compras fora da loja física, como pela internet ou por telefone, existe o direito de arrependimento: 7 dias para desistir.",
+        "Desconfie de “descontos” relâmpago: às vezes o preço sobe antes da promoção. Anotar o preço durante algumas semanas mostra se o desconto é real. E lembre: enquanto você guarda, o preço pode subir com a inflação, por isso guardar num lugar que rende ajuda."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo para uma compra grande?",
+            "alternativas": [
+              "Comprar logo para não perder",
+              "Ver se é necessidade ou desejo",
+              "Pedir um empréstimo",
+              "Escolher a parcela menor"
+            ],
+            "correta": 1,
+            "explicacao": "Antes de tudo, confirme se a compra faz sentido.",
+            "dica": "Você precisa mesmo disso agora?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para saber o preço justo de um produto, o melhor é:",
+            "alternativas": [
+              "Pesquisar em várias lojas e sites",
+              "Comprar na primeira loja",
+              "Perguntar a um desconhecido",
+              "Ver só o anúncio da TV"
+            ],
+            "correta": 0,
+            "explicacao": "Comparar mostra a diferença de preço entre lojas.",
+            "dica": "Uma loja só é suficiente para comparar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bicicleta custa R$ 600. Guardando R$ 100 por mês, em quantos meses dá para comprar?",
+            "alternativas": [
+              "3",
+              "10",
+              "60",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "600 ÷ 100 = 6 meses.",
+            "dica": "Divida o preço pelo valor guardado por mês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde é melhor guardar o dinheiro da meta?",
+            "alternativas": [
+              "Na carteira, junto com o do lanche",
+              "Emprestado para amigos",
+              "Separado, num lugar que renda",
+              "Espalhado pela casa"
+            ],
+            "correta": 2,
+            "explicacao": "Separado fica mais difícil gastar sem querer.",
+            "dica": "Como evitar gastar o dinheiro da meta?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na hora de comprar, que documento você deve exigir?",
+            "alternativas": [
+              "A nota fiscal",
+              "O RG do vendedor",
+              "A conta de luz",
+              "Nenhum"
+            ],
+            "correta": 0,
+            "explicacao": "A nota fiscal comprova a compra e garante seus direitos.",
+            "dica": "Que papel prova que você comprou na loja?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Notebook de R$ 2.400, guardando R$ 200 por mês. Em quantos meses dá para comprar?",
+            "alternativas": [
+              "10",
+              "12",
+              "24",
+              "20"
+            ],
+            "correta": 1,
+            "explicacao": "2.400 ÷ 200 = 12.",
+            "dica": "Divida o preço pela economia mensal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Notebook: R$ 2.400 em 10 × R$ 240 ou à vista com 10% de desconto. Quanto se economiza à vista?",
+            "alternativas": [
+              "R$ 24",
+              "R$ 2.160",
+              "R$ 100",
+              "R$ 240"
+            ],
+            "correta": 3,
+            "explicacao": "2.400 × 0,9 = 2.160. 2.400 − 2.160 = R$ 240.",
+            "dica": "Calcule 10% de 2.400."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ventilador custa R$ 300 e o frete, R$ 40. Qual é o custo real?",
+            "alternativas": [
+              "R$ 260",
+              "R$ 300",
+              "R$ 340",
+              "R$ 40"
+            ],
+            "correta": 2,
+            "explicacao": "300 + 40 = R$ 340.",
+            "dica": "O frete também sai do seu bolso."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma geladeira custa R$ 1.800. Quanto guardar por mês para comprá-la em 12 meses?",
+            "alternativas": [
+              "R$ 150",
+              "R$ 180",
+              "R$ 120",
+              "R$ 200"
+            ],
+            "correta": 0,
+            "explicacao": "1.800 ÷ 12 = R$ 150.",
+            "dica": "Divida o preço pelos meses."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos de uma compra grande planejada:",
+            "itens": [
+              "Decidir se é necessidade e se é o momento",
+              "Pesquisar preços e definir o valor-alvo",
+              "Calcular quanto guardar por mês",
+              "Guardar e acompanhar todo mês",
+              "Comparar as condições e comprar com nota fiscal"
+            ],
+            "explicacao": "Primeiro decidir, depois pesquisar, planejar, juntar e, por fim, comprar.",
+            "dica": "A compra é o último passo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Pelo CDC, quantos dias o consumidor tem para desistir de uma compra feita pela internet?",
+            "alternativas": [
+              "30 dias",
+              "90 dias",
+              "7 dias",
+              "1 dia"
+            ],
+            "correta": 2,
+            "explicacao": "É o direito de arrependimento, para compras fora da loja física.",
+            "dica": "É o mesmo número de dias de uma semana."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você comprou uma TV numa loja física e ela deu defeito em 40 dias. O que diz o CDC?",
+            "alternativas": [
+              "Ainda está no prazo de 90 dias para reclamar de defeito em produto durável",
+              "Acabou a garantia em 7 dias",
+              "Só com garantia estendida",
+              "Não há direito nenhum"
+            ],
+            "correta": 0,
+            "explicacao": "Produto durável tem 90 dias de garantia legal; o arrependimento de 7 dias é outra coisa.",
+            "dica": "Não confunda arrependimento com defeito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Bia tem R$ 300 guardados e quer um celular de R$ 1.500 em 8 meses. Quanto precisa guardar por mês?",
+            "alternativas": [
+              "R$ 187,50",
+              "R$ 200",
+              "R$ 120",
+              "R$ 150"
+            ],
+            "correta": 3,
+            "explicacao": "Falta 1.500 − 300 = 1.200. 1.200 ÷ 8 = R$ 150.",
+            "dica": "Desconte o que ela já tem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja anunciou “50% de desconto” num fone que, na semana anterior, custava o mesmo valor do preço “com desconto”. O que aconteceu?",
+            "alternativas": [
+              "Um desconto real",
+              "O preço foi aumentado antes da promoção, e o desconto é falso",
+              "Um erro do caixa",
+              "Uma promoção da fábrica"
+            ],
+            "correta": 1,
+            "explicacao": "Acompanhar o preço por algumas semanas revela descontos falsos.",
+            "dica": "Compare o preço “com desconto” com o da semana anterior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma cama custa R$ 900, o frete R$ 60 e a montagem R$ 90. Guardando R$ 150 por mês, em quantos meses dá para pagar tudo?",
+            "alternativas": [
+              "6",
+              "8",
+              "7",
+              "9"
+            ],
+            "correta": 2,
+            "explicacao": "900 + 60 + 90 = 1.050. 1.050 ÷ 150 = 7.",
+            "dica": "Some os custos escondidos antes de dividir."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma máquina de lavar custa R$ 1.400 à vista ou 12 × R$ 130. Pagando à vista com 5% de desconto, quanto se economiza em relação ao parcelado?",
+            "alternativas": [
+              "R$ 160",
+              "R$ 70",
+              "R$ 230",
+              "R$ 130"
+            ],
+            "correta": 2,
+            "explicacao": "Parcelado: 12 × 130 = 1.560. À vista: 1.400 × 0,95 = 1.330. Diferença: 230.",
+            "dica": "Calcule o total parcelado e o à vista com desconto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lucas quer um videogame. Ele guardou por 4 meses, mas o preço subiu com a inflação e ele não alcançou a meta. O que ajudaria numa próxima vez?",
+            "alternativas": [
+              "Guardar em lugar que rende e acompanhar o preço",
+              "Guardar embaixo do colchão",
+              "Desistir de planejar",
+              "Comprar parcelado sem pesquisar"
+            ],
+            "correta": 0,
+            "explicacao": "O rendimento ajuda a compensar a alta de preços, e acompanhar avisa quando a meta precisa mudar.",
+            "dica": "Dinheiro parado perde para a inflação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas situações dá direito ao arrependimento de 7 dias, sem precisar de defeito?",
+            "alternativas": [
+              "Compra numa loja do shopping",
+              "Compra feita pelo site da loja",
+              "Compra na feira",
+              "Compra numa padaria"
+            ],
+            "correta": 1,
+            "explicacao": "O direito de arrependimento vale para compras fora do estabelecimento físico.",
+            "dica": "Onde o consumidor não pôde ver o produto de perto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para comprar um notebook de R$ 2.400, Ana guarda R$ 150 por mês e Júlia guarda R$ 200. Quantos meses Júlia termina antes de Ana?",
+            "alternativas": [
+              "2",
+              "6",
+              "8",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "Ana: 2.400 ÷ 150 = 16. Júlia: 2.400 ÷ 200 = 12. Diferença: 4 meses.",
+            "dica": "Calcule o tempo de cada uma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na loja, oferecem garantia estendida de R$ 250 para uma geladeira de R$ 2.000. O que é verdade?",
+            "alternativas": [
+              "Ela é obrigatória",
+              "Sem ela não há garantia nenhuma",
+              "Ela é opcional, porque já existe a garantia legal do CDC e a do fabricante",
+              "Ela é grátis por lei"
+            ],
+            "correta": 2,
+            "explicacao": "A garantia estendida é um serviço extra, pago à parte.",
+            "dica": "Lembre as garantias que já existem."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Projeto: caixa da cantina com cálculo de troco",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Hoje vamos juntar o que já foi visto (entrada de dados, laço, acumulador e condição) num projeto: o caixa da cantina da escola.",
+          "Parte 1, somar a compra: total ← 0; LEIA preco; ENQUANTO preco ≠ 0 FAÇA total ← total + preco; LEIA preco. O 0 avisa que acabaram os itens.",
+          "Parte 2, receber: LEIA pago. SE pago < total ENTÃO ESCREVA 'Falta ', total − pago SENÃO troco ← pago − total; ESCREVA 'Troco: ', troco.",
+          "Parte 3, montar o troco em notas: usamos a divisão inteira (//) e o resto (%). Para 37 reais: 37 // 20 = 1 nota de 20, sobra 37 % 20 = 17; depois 17 // 10 = 1 nota de 10, sobra 7; e assim por diante.",
+          "Parte 4, testar: sempre teste com pagamento exato, pagamento a mais e pagamento a menos. Um bom programa funciona nos três casos."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Os preços digitados foram 3.50, 4.00, 2.50 e 0. O cliente pagou 20. Qual é o troco?",
+            "resolucao": "total = 3.50 + 4.00 + 2.50 = 10.00. O 0 encerra. troco = 20 − 10 = 10."
+          },
+          {
+            "enunciado": "Como dar 37 reais de troco com notas de 20, 10, 5, 2 e moedas de 1, usando o menor número de peças?",
+            "resolucao": "20: 1 (sobra 17). 10: 1 (sobra 7). 5: 1 (sobra 2). 2: 1 (sobra 0). Total: 4 peças."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Começar pela maior nota e ir descendo é o algoritmo guloso. Com as notas do Brasil, ele sempre dá o menor número de peças.",
+        "Computadores erram em contas com casas decimais: em muitas linguagens, 0.1 + 0.2 dá 0.30000000000000004. Por isso, caixas de verdade guardam o dinheiro em centavos, como números inteiros: R$ 12,50 vira 1250.",
+        "Um programa cuidadoso também confere a entrada: preço negativo não existe, e o valor pago não pode ser texto. SE preco < 0 ENTÃO ESCREVA 'Preço inválido'."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No caixa da cantina, para que serve a variável total?",
+            "alternativas": [
+              "Guardar o troco",
+              "Somar os preços dos itens",
+              "Contar os alunos",
+              "Guardar a senha"
+            ],
+            "correta": 1,
+            "explicacao": "Ela é o acumulador da compra.",
+            "dica": "Ela vai juntando cada preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No programa, o que o número 0 digitado como preço indica?",
+            "alternativas": [
+              "Que acabaram os itens",
+              "Um item grátis",
+              "Um erro",
+              "Que o troco é zero"
+            ],
+            "correta": 0,
+            "explicacao": "O 0 é o sinal de parada do laço.",
+            "dica": "O laço repete ENQUANTO preco ≠ 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A compra deu R$ 10 e o cliente pagou R$ 20. Qual é o troco?",
+            "alternativas": [
+              "R$ 30",
+              "R$ 20",
+              "R$ 0",
+              "R$ 10"
+            ],
+            "correta": 3,
+            "explicacao": "troco = pago − total = 20 − 10 = 10.",
+            "dica": "Tire o total do valor pago."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se o cliente pagou menos que o total, o programa deve:",
+            "alternativas": [
+              "Dar troco negativo",
+              "Fechar sozinho",
+              "Avisar quanto falta",
+              "Apagar a compra"
+            ],
+            "correta": 2,
+            "explicacao": "SE pago < total ENTÃO avisa quanto falta.",
+            "dica": "Qual condição o programa testa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 7 // 5 (divisão inteira)?",
+            "alternativas": [
+              "1",
+              "2",
+              "1.4",
+              "5"
+            ],
+            "correta": 0,
+            "explicacao": "5 cabe 1 vez inteira em 7.",
+            "dica": "Quantas vezes o 5 cabe inteiro no 7?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Preços digitados: 3.50, 4.00, 2.50 e 0. Qual é o total?",
+            "alternativas": [
+              "9.50",
+              "10.00",
+              "12.00",
+              "7.50"
+            ],
+            "correta": 1,
+            "explicacao": "3.50 + 4.00 + 2.50 = 10.00. O 0 só encerra.",
+            "dica": "O 0 entra na soma?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 37 % 20 (resto da divisão)?",
+            "alternativas": [
+              "1",
+              "20",
+              "57",
+              "17"
+            ],
+            "correta": 3,
+            "explicacao": "20 cabe 1 vez em 37 e sobra 17.",
+            "dica": "Quanto sobra depois de tirar uma nota de 20?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Troco de 37 reais com notas de 20, 10, 5, 2 e moedas de 1. Quantas peças, no mínimo?",
+            "alternativas": [
+              "5",
+              "3",
+              "4",
+              "37"
+            ],
+            "correta": 2,
+            "explicacao": "20 + 10 + 5 + 2 = 37: 4 peças.",
+            "dica": "Comece pela maior nota."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que testar o programa com pagamento exato, a mais e a menos?",
+            "alternativas": [
+              "Porque cada caso passa por um caminho diferente do código",
+              "Porque o professor manda",
+              "Porque o computador cansa",
+              "Porque só um caso basta"
+            ],
+            "correta": 0,
+            "explicacao": "Cada teste confere uma parte das condições.",
+            "dica": "Quantos caminhos o SE cria?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o programa do caixa:",
+            "itens": [
+              "total ← 0",
+              "Ler os preços e somar até digitar 0",
+              "Ler o valor pago",
+              "Testar se o pago é menor que o total",
+              "Mostrar quanto falta ou o troco"
+            ],
+            "explicacao": "Primeiro zera, soma, recebe, testa e mostra.",
+            "dica": "O acumulador nasce antes de tudo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas moedas de 5 cabem em 23 e quanto sobra? (23 // 5 e 23 % 5)",
+            "alternativas": [
+              "5 e 0",
+              "4 e 3",
+              "3 e 8",
+              "4 e 2"
+            ],
+            "correta": 1,
+            "explicacao": "5 × 4 = 20, sobra 3.",
+            "dica": "Faça a divisão de 23 por 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluno comprou R$ 12 e R$ 15 e pagou R$ 50. Qual é o troco?",
+            "alternativas": [
+              "R$ 27",
+              "R$ 33",
+              "R$ 38",
+              "R$ 23"
+            ],
+            "correta": 3,
+            "explicacao": "Total: 27. Troco: 50 − 27 = 23.",
+            "dica": "Some a compra antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que caixas de verdade guardam valores em centavos inteiros?",
+            "alternativas": [
+              "Para evitar erros de arredondamento com casas decimais",
+              "Porque centavos são mais bonitos",
+              "Porque o Real não tem vírgula",
+              "Para gastar menos papel"
+            ],
+            "correta": 0,
+            "explicacao": "Contas com decimais podem dar resultados como 0.30000000000000004.",
+            "dica": "Lembre o exemplo de 0.1 + 0.2."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 12,50 + R$ 3,50 guardados em centavos são 1250 + 350. O cliente paga 2000 centavos. Qual é o troco em reais?",
+            "alternativas": [
+              "R$ 16,00",
+              "R$ 40,00",
+              "R$ 4,00",
+              "R$ 0,40"
+            ],
+            "correta": 2,
+            "explicacao": "1250 + 350 = 1600. 2000 − 1600 = 400 centavos = R$ 4,00.",
+            "dica": "Faça a conta em centavos e depois divida por 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que deveria acontecer se alguém digitar −5 como preço?",
+            "alternativas": [
+              "Somar −5 ao total",
+              "Dar troco a mais",
+              "Ignorar e somar 5",
+              "Avisar 'Preço inválido' e não somar"
+            ],
+            "correta": 3,
+            "explicacao": "Preço negativo não existe; o programa deve conferir.",
+            "dica": "Existe produto com preço negativo?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Troco de 86 reais com notas de 50, 20, 10, 5, 2 e moedas de 1. Quantas peças, no mínimo?",
+            "alternativas": [
+              "5",
+              "6",
+              "4",
+              "86"
+            ],
+            "correta": 0,
+            "explicacao": "50 (sobra 36), 20 (sobra 16), 10 (sobra 6), 5 (sobra 1), 1 (sobra 0): 5 peças.",
+            "dica": "Use o algoritmo guloso, da maior nota para a menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "total ← 0; LEIA preco; ENQUANTO preco ≠ 0 FAÇA total ← total + preco. O que está errado?",
+            "alternativas": [
+              "Nada",
+              "total deveria começar em 1",
+              "Falta LEIA preco dentro do laço: o preço nunca muda e o laço fica infinito",
+              "O laço deveria ser PARA"
+            ],
+            "correta": 2,
+            "explicacao": "Sem ler um novo preço, a condição nunca fica falsa.",
+            "dica": "O que muda a cada volta do laço?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O programa usa SE pago < total ENTÃO falta SENÃO troco. O que acontece quando o pago é exatamente igual ao total?",
+            "alternativas": [
+              "Diz que falta dinheiro",
+              "Calcula troco 0",
+              "Dá erro",
+              "Repete a compra"
+            ],
+            "correta": 1,
+            "explicacao": "pago < total é falso, então vai para o SENÃO: troco = 0.",
+            "dica": "Igual é menor?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para R$ 63 de troco com notas de 20, 10, 5, 2 e moedas de 1, qual é a lista de peças do algoritmo guloso?",
+            "alternativas": [
+              "20, 20, 20, 2, 1",
+              "20, 20, 10, 10, 2, 1",
+              "50, 10, 2, 1",
+              "20, 20, 20, 1, 1, 1"
+            ],
+            "correta": 0,
+            "explicacao": "Três de 20 (sobra 3), uma de 2 (sobra 1), uma de 1: 5 peças. Não há nota de 50 na lista dada.",
+            "dica": "Use só as notas da lista e comece pela maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O programa recebeu pago ← '20' como texto e fez troco ← pago − total. O que acontece?",
+            "alternativas": [
+              "Funciona igual",
+              "Dá troco dobrado",
+              "O troco vira zero",
+              "Dá erro, porque é preciso converter com real('20') antes da conta"
+            ],
+            "correta": 3,
+            "explicacao": "Texto não entra em conta. É preciso converter.",
+            "dica": "Lembre a aula sobre entrada de dados e conversão."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Pronomes relativos: que, quem, onde e cujo",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O pronome relativo retoma uma palavra que veio antes (o antecedente) e liga duas orações, evitando repetição: “Li o livro. O livro ganhou um prêmio.” → “Li o livro que ganhou um prêmio.”",
+          "“Que” é o mais usado e serve para pessoas e coisas: “A menina que chegou é minha prima.” “O ônibus que pego passa às 7h.”",
+          "“Quem” serve só para pessoas e costuma vir depois de preposição: “A amiga com quem falei mora perto.” “O professor a quem pedi ajuda.”",
+          "“Onde” serve só para lugar físico: “A escola onde estudo fica na esquina.” Para tempo ou situação, use “em que”: “O ano em que nasci.” (e não “o ano onde”).",
+          "“Cujo” (cuja, cujos, cujas) indica posse e fica entre dois substantivos, concordando com o segundo, sem artigo depois: “O menino cujo pai é pedreiro.” “A casa cujas janelas são azuis.” “Cujo o” está errado."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Junte as frases com um relativo: “Moro numa rua. A rua tem muitas árvores.”",
+            "resolucao": "“Moro numa rua que tem muitas árvores.”"
+          },
+          {
+            "enunciado": "Junte as frases: “Conheci uma artista. Os quadros da artista estão no museu.”",
+            "resolucao": "“Conheci uma artista cujos quadros estão no museu.” “Cujos” concorda com “quadros”."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Quando o verbo pede preposição, ela vai antes do relativo: “O filme de que gostei.” (quem gosta, gosta de algo). “A colega em quem confio.” (confiar em alguém). “O lápis com que escrevo.”",
+        "“Onde” é para lugar onde se está; “aonde” é para lugar a que se vai, com verbos de movimento: “A cidade onde moro.” “A cidade aonde vou nas férias.”",
+        "“O qual”, “a qual”, “os quais” e “as quais” podem substituir “que”, principalmente depois de preposições longas ou para evitar confusão: “A professora, a qual chegou cedo, abriu a sala.”"
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Junte: “Li o livro. O livro ganhou um prêmio.”",
+            "alternativas": [
+              "Li o livro onde ganhou um prêmio.",
+              "Li o livro que ganhou um prêmio.",
+              "Li o livro cujo ganhou um prêmio.",
+              "Li o livro quem ganhou um prêmio."
+            ],
+            "correta": 1,
+            "explicacao": "“que” retoma “o livro”.",
+            "dica": "Qual relativo serve para coisas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pronome relativo serve só para lugar físico?",
+            "alternativas": [
+              "onde",
+              "cujo",
+              "quem",
+              "que"
+            ],
+            "correta": 0,
+            "explicacao": "“Onde” indica lugar: “a escola onde estudo”.",
+            "dica": "Pense na pergunta: em que lugar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pronome relativo indica posse?",
+            "alternativas": [
+              "onde",
+              "quem",
+              "que",
+              "cujo"
+            ],
+            "correta": 3,
+            "explicacao": "“Cujo” liga o dono à coisa: “o menino cujo pai…”.",
+            "dica": "Qual deles significa “de quem”?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “A amiga com ___ falei mora perto.”",
+            "alternativas": [
+              "onde",
+              "cujo",
+              "quem",
+              "cuja"
+            ],
+            "correta": 2,
+            "explicacao": "“Quem” é para pessoa, depois de preposição.",
+            "dica": "A amiga é uma pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve o pronome relativo?",
+            "alternativas": [
+              "Para retomar uma palavra e ligar duas orações",
+              "Para indicar o plural",
+              "Para fazer pergunta",
+              "Para terminar a frase"
+            ],
+            "correta": 0,
+            "explicacao": "Ele evita repetir o antecedente.",
+            "dica": "Pense no exemplo do livro."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa “onde” corretamente?",
+            "alternativas": [
+              "O dia onde viajei foi bom.",
+              "A situação onde ele se meteu.",
+              "A escola onde estudo é grande.",
+              "O momento onde ela chegou."
+            ],
+            "correta": 2,
+            "explicacao": "“Onde” é para lugar físico; a escola é um lugar.",
+            "dica": "Qual destas palavras é um lugar de verdade?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Conheci uma artista ___ quadros estão no museu.”",
+            "alternativas": [
+              "cujos",
+              "cujo os",
+              "que os",
+              "onde"
+            ],
+            "correta": 0,
+            "explicacao": "Posse: “cujos” concorda com “quadros”, sem artigo depois.",
+            "dica": "Os quadros são da artista. Qual relativo indica posse?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Corrija: “O ano onde nasci foi 2013.”",
+            "alternativas": [
+              "O ano cujo nasci…",
+              "O ano quem nasci…",
+              "O ano aonde nasci…",
+              "O ano em que nasci…"
+            ],
+            "correta": 3,
+            "explicacao": "Para tempo, usa-se “em que”.",
+            "dica": "Ano é lugar físico?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "O menino cujo o pai é pedreiro.",
+              "O menino cujo pai é pedreiro.",
+              "O menino que o pai é pedreiro.",
+              "O menino onde o pai é pedreiro."
+            ],
+            "correta": 1,
+            "explicacao": "Depois de “cujo” não vem artigo.",
+            "dica": "Procure o “cujo” sem artigo depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “A menina que chegou é minha prima.”, o “que” retoma:",
+            "alternativas": [
+              "chegou",
+              "prima",
+              "a menina",
+              "é"
+            ],
+            "correta": 2,
+            "explicacao": "O antecedente do relativo é “a menina”.",
+            "dica": "Quem chegou?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Este é o filme ___ gostei.”",
+            "alternativas": [
+              "que",
+              "de que",
+              "onde",
+              "cujo"
+            ],
+            "correta": 1,
+            "explicacao": "Quem gosta, gosta de algo: a preposição vai antes do relativo.",
+            "dica": "O verbo gostar pede qual preposição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “A casa ___ janelas são azuis fica na esquina.”",
+            "alternativas": [
+              "cujas",
+              "cuja",
+              "cujo",
+              "que as"
+            ],
+            "correta": 0,
+            "explicacao": "Concorda com “janelas”: feminino plural.",
+            "dica": "“Cujo” concorda com a palavra que vem depois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa “aonde” corretamente?",
+            "alternativas": [
+              "A casa aonde moro.",
+              "A rua aonde fica o mercado.",
+              "O bairro aonde estudo.",
+              "A praia aonde vamos no feriado."
+            ],
+            "correta": 3,
+            "explicacao": "“Aonde” é para verbos de movimento: ir a.",
+            "dica": "Qual frase tem um verbo de ir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “A colega em ___ confio me ajudou.”",
+            "alternativas": [
+              "que o",
+              "cujo",
+              "quem",
+              "onde"
+            ],
+            "correta": 2,
+            "explicacao": "Confiar em alguém: “em quem”.",
+            "dica": "A colega é pessoa e o verbo pede “em”."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Junte: “O ônibus chegou atrasado. Eu pego esse ônibus todo dia.”",
+            "alternativas": [
+              "O ônibus que eu pego todo dia chegou atrasado.",
+              "O ônibus cujo pego todo dia chegou atrasado.",
+              "O ônibus onde pego todo dia chegou atrasado.",
+              "O ônibus quem pego chegou atrasado."
+            ],
+            "correta": 0,
+            "explicacao": "“que” retoma “o ônibus”, que é o objeto de “pego”.",
+            "dica": "Você pega o quê?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos erros há em “A cidade onde vou nas férias é a mesma do ano onde conheci o menino cujo o irmão joga bola.”?",
+            "alternativas": [
+              "1",
+              "2",
+              "3",
+              "Nenhum"
+            ],
+            "correta": 2,
+            "explicacao": "“onde vou” → “aonde vou”; “ano onde” → “ano em que”; “cujo o” → “cujo”.",
+            "dica": "Confira cada relativo com a sua regra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “O lápis ___ escrevo é do meu irmão, ___ mochila está no sofá.”",
+            "alternativas": [
+              "que / cuja",
+              "com que / cuja",
+              "com quem / cujo",
+              "onde / que a"
+            ],
+            "correta": 1,
+            "explicacao": "Escrever com algo: “com que”. Posse: “cuja” (concorda com mochila).",
+            "dica": "Escrevo com o quê? E de quem é a mochila?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa corretamente “o qual” ou “a qual”?",
+            "alternativas": [
+              "A professora, a qual chegou cedo, abriu a sala.",
+              "A professora, o qual chegou cedo, abriu a sala.",
+              "O livro, a qual li, é ótimo.",
+              "Os alunos, a qual saíram, voltaram."
+            ],
+            "correta": 0,
+            "explicacao": "“A qual” concorda com “professora”.",
+            "dica": "O relativo concorda com o antecedente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Esse é o problema de que todos falam.”, por que há “de” antes de “que”?",
+            "alternativas": [
+              "Porque é obrigatório antes de todo “que”",
+              "Por causa da palavra problema",
+              "Está errado",
+              "Porque quem fala, fala de algo"
+            ],
+            "correta": 3,
+            "explicacao": "A preposição vem da regência do verbo “falar”.",
+            "dica": "Que preposição o verbo falar pede aqui?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Junte as três frases: “Visitei a vila. Meu avô nasceu na vila. As casas da vila são coloridas.”",
+            "alternativas": [
+              "Visitei a vila que meu avô nasceu, cujo as casas são coloridas.",
+              "Visitei a vila aonde meu avô nasceu e cujas casas são coloridas.",
+              "Visitei a vila onde meu avô nasceu e cujas casas são coloridas.",
+              "Visitei a vila quem meu avô nasceu e que as casas são coloridas."
+            ],
+            "correta": 2,
+            "explicacao": "Lugar onde se está: “onde”. Posse: “cujas casas”.",
+            "dica": "Nascer num lugar é movimento ou permanência?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "Os trilhos que nunca se encontram",
+    "texto": "Olhe para os trilhos de um trem. Eles correm lado a lado por quilômetros, sempre à mesma distância, e nunca se encontram. Na matemática, retas assim se chamam paralelas. Se os trilhos se aproximassem, mesmo que um pouquinho, o trem sairia da linha.\n\nMuitos bairros de São Paulo também foram desenhados com ruas paralelas. Imagine duas delas, a Rua das Flores e a Rua dos Pássaros, cortadas por uma avenida inclinada. Essa avenida é a transversal. Em cada cruzamento, ela forma quatro ângulos, oito no total.\n\nUm engenheiro de trânsito sabe que, se a avenida faz um ângulo de 60° com a Rua das Flores, fará exatamente o mesmo ângulo com a Rua dos Pássaros, na mesma posição. São os ângulos correspondentes. Os outros ângulos medem 60° ou 120°, porque cada par lado a lado completa 180°.\n\nIsso tem uso prático. As faixas de pedestre, as placas e até o tempo do semáforo são planejados conforme esses ângulos. Um cruzamento muito fechado, com ângulo agudo, obriga o motorista a virar mais o volante e esconde quem vem pelo outro lado.\n\nDa próxima vez que atravessar uma avenida, repare: a geometria está ali, desenhada no asfalto."
+  },
+  "escrita": {
+    "proposta": "Descreva duas ruas paralelas do seu bairro (ou invente duas) cortadas por uma avenida. Faça um desenho no caderno marcando os 8 ângulos com letras e escolha a medida de um deles, por exemplo 70°. Depois, escreva quais ângulos são iguais a ele e por quê (opostos pelo vértice, correspondentes ou alternos) e quanto medem os outros."
+  }
+}

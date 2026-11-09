@@ -1,0 +1,1205 @@
+{
+  "dia": 46,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Relações métricas no triângulo retângulo",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "No triângulo retângulo, a hipotenusa a é o lado oposto ao ângulo reto, e b e c são os catetos. Traçando a altura h a partir do ângulo reto até a hipotenusa, ela divide a hipotenusa em duas partes, m e n, chamadas projeções dos catetos: a = m + n.",
+          "Essa altura forma dois triângulos menores, semelhantes ao triângulo maior. Da semelhança saem as relações métricas: b² = a · m, c² = a · n, h² = m · n e b · c = a · h.",
+          "E vale o Teorema de Pitágoras: a² = b² + c². Ele pode ser deduzido somando b² + c² = a · m + a · n = a · (m + n) = a².",
+          "Exemplo: as projeções medem m = 9 e n = 16. Então a = 25, h² = 9 · 16 = 144 (h = 12), b² = 25 · 9 = 225 (b = 15) e c² = 25 · 16 = 400 (c = 20). Conferindo: b · c = 300 e a · h = 25 · 12 = 300.",
+          "Dica para não confundir: cada cateto se relaciona com a projeção que fica ao lado dele (a sua \"sombra\" sobre a hipotenusa)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Num triângulo retângulo de catetos 6 e 8, quanto mede a altura relativa à hipotenusa?",
+            "resolucao": "a² = 36 + 64 = 100, a = 10. b · c = a · h: 6 · 8 = 10 · h, h = 4,8."
+          },
+          {
+            "enunciado": "As projeções são 3 e 12. Quanto mede a altura?",
+            "resolucao": "h² = 3 · 12 = 36, h = 6."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Projeções a partir dos catetos: no triângulo 6, 8 e 10, a projeção do cateto 6 é m = 36/10 = 3,6, e a do cateto 8 é n = 64/10 = 6,4. Somando: 3,6 + 6,4 = 10, a hipotenusa.",
+        "Aplicação: uma rampa e um muro formam um triângulo retângulo. Se a hipotenusa mede 20 m e um cateto 16 m, o outro cateto é √(400 − 256) = 12 m; a projeção do cateto 16 é 256/20 = 12,8 m, a outra é 7,2 m, e a altura é √(12,8 · 7,2) = 9,6 m.",
+        "Triângulos com lados inteiros são chamados ternos pitagóricos: 3-4-5, 5-12-13, 8-15-17 e os múltiplos deles (6-8-10, 9-12-15). Reconhecê-los economiza contas na prova."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No triângulo retângulo, a hipotenusa é:",
+            "alternativas": [
+              "o menor lado",
+              "o lado oposto ao ângulo reto",
+              "a altura",
+              "a projeção"
+            ],
+            "correta": 1,
+            "explicacao": "Oposta ao ângulo de 90°, é o maior lado.",
+            "dica": "Fica de frente para o ângulo de 90°."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As projeções m e n somadas dão:",
+            "alternativas": [
+              "a hipotenusa",
+              "a altura",
+              "um cateto",
+              "o perímetro"
+            ],
+            "correta": 0,
+            "explicacao": "a = m + n.",
+            "dica": "As projeções ficam sobre qual lado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a relação da altura?",
+            "alternativas": [
+              "h = m + n",
+              "h² = a · m",
+              "h² = m · n",
+              "h = b + c"
+            ],
+            "correta": 2,
+            "explicacao": "A altura ao quadrado é o produto das projeções.",
+            "dica": "Envolve as duas projeções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As projeções são 3 e 12. Quanto mede a altura?",
+            "alternativas": [
+              "15",
+              "36",
+              "9",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "h² = 36, h = 6.",
+            "dica": "Multiplique e tire a raiz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Catetos 6 e 8. Quanto mede a hipotenusa?",
+            "alternativas": [
+              "10",
+              "14",
+              "48",
+              "12"
+            ],
+            "correta": 0,
+            "explicacao": "36 + 64 = 100, raiz 10.",
+            "dica": "Use Pitágoras."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Projeções m = 9 e n = 16. Quanto mede a hipotenusa?",
+            "alternativas": [
+              "144",
+              "25",
+              "12",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "a = m + n = 25.",
+            "dica": "Some as projeções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com m = 9 e n = 16, quanto mede a altura?",
+            "alternativas": [
+              "12",
+              "25",
+              "15",
+              "20"
+            ],
+            "correta": 0,
+            "explicacao": "h² = 144, h = 12.",
+            "dica": "Use h² = m · n."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Catetos 6 e 8 e hipotenusa 10. Quanto mede a altura relativa à hipotenusa?",
+            "alternativas": [
+              "5",
+              "4",
+              "4,8",
+              "7"
+            ],
+            "correta": 2,
+            "explicacao": "b · c = a · h: 48 = 10h, h = 4,8.",
+            "dica": "Use b · c = a · h."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Hipotenusa 25 e cateto 15. Quanto mede a projeção desse cateto?",
+            "alternativas": [
+              "10",
+              "16",
+              "15",
+              "9"
+            ],
+            "correta": 3,
+            "explicacao": "b² = a · m: 225 = 25m, m = 9.",
+            "dica": "Use b² = a · m."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual relação NÃO é verdadeira no triângulo retângulo?",
+            "alternativas": [
+              "a = b + c",
+              "b² = a · m",
+              "h² = m · n",
+              "a² = b² + c²"
+            ],
+            "correta": 0,
+            "explicacao": "A hipotenusa é menor que a soma dos catetos.",
+            "dica": "Procure a soma estranha."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Triângulo 9, 12 e 15. Quanto mede a altura relativa à hipotenusa?",
+            "alternativas": [
+              "7,2",
+              "6",
+              "9",
+              "10,8"
+            ],
+            "correta": 0,
+            "explicacao": "h = 9 · 12 / 15 = 7,2.",
+            "dica": "Produto dos catetos dividido pela hipotenusa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No triângulo 9, 12 e 15, quanto mede a projeção do cateto 12?",
+            "alternativas": [
+              "5,4",
+              "9,6",
+              "12",
+              "3"
+            ],
+            "correta": 1,
+            "explicacao": "n = 144 / 15 = 9,6.",
+            "dica": "Cateto ao quadrado sobre a hipotenusa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Catetos 5 e 12. Quanto mede a hipotenusa?",
+            "alternativas": [
+              "17",
+              "11",
+              "13",
+              "60"
+            ],
+            "correta": 2,
+            "explicacao": "25 + 144 = 169, raiz 13.",
+            "dica": "É um terno pitagórico."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Projeções 2 e 8. Quanto mede a altura?",
+            "alternativas": [
+              "10",
+              "16",
+              "5",
+              "4"
+            ],
+            "correta": 3,
+            "explicacao": "h² = 16, h = 4.",
+            "dica": "Produto das projeções."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para achar todos os lados a partir das projeções m e n.",
+            "itens": [
+              "Somar m + n para achar a",
+              "Calcular h² = m · n",
+              "Calcular b² = a · m e c² = a · n",
+              "Conferir com b · c = a · h"
+            ],
+            "explicacao": "Hipotenusa, altura, catetos e conferência.",
+            "dica": "A conferência fica no fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Hipotenusa 20 e um cateto 16. Quanto mede a altura relativa à hipotenusa?",
+            "alternativas": [
+              "12",
+              "9,6",
+              "12,8",
+              "7,2"
+            ],
+            "correta": 1,
+            "explicacao": "Outro cateto: 12. h = 16 · 12 / 20 = 9,6.",
+            "dica": "Ache o outro cateto antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num triângulo retângulo, h = 6 e m = 4. Quanto mede a hipotenusa?",
+            "alternativas": [
+              "10",
+              "9",
+              "13",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "h² = m · n: 36 = 4n, n = 9. a = 4 + 9 = 13.",
+            "dica": "Descubra n primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As projeções estão na razão 1 para 4 e a altura mede 8. Quanto mede a hipotenusa?",
+            "alternativas": [
+              "16",
+              "32",
+              "40",
+              "20"
+            ],
+            "correta": 3,
+            "explicacao": "m = k, n = 4k: h² = 4k² = 64, k = 4. m = 4, n = 16, a = 20.",
+            "dica": "Chame as projeções de k e 4k."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo tem lados 8, 15 e 17. Ele é retângulo?",
+            "alternativas": [
+              "Sim, porque 64 + 225 = 289 = 17²",
+              "Não, porque 8 + 15 ≠ 17",
+              "Não, porque 17 é primo",
+              "Só se a altura for inteira"
+            ],
+            "correta": 0,
+            "explicacao": "Vale a² = b² + c².",
+            "dica": "Teste Pitágoras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando b² = a · m e c² = a · n, qual soma prova Pitágoras?",
+            "alternativas": [
+              "b + c = a · (m + n)",
+              "b² + c² = a · (m + n) = a · a = a²",
+              "b² · c² = a²",
+              "m + n = h²"
+            ],
+            "correta": 1,
+            "explicacao": "Somando as duas relações e usando m + n = a.",
+            "dica": "Some as duas relações dadas."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Câmbio: por que o dólar sobe e desce e o que isso muda no mercado",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Câmbio é a troca de uma moeda por outra. A taxa de câmbio diz quantos reais custa uma unidade de outra moeda: dólar a R$ 5,50 significa que US$ 1 custa R$ 5,50.",
+          "O preço do dólar sobe e desce pela oferta e procura. Quando muita gente quer comprar dólar (empresas que importam, investidores que tiram dinheiro do Brasil, viajantes), ele sobe. Quando entra muito dólar (exportações, investimentos estrangeiros), ele cai.",
+          "Juros, confiança e notícias pesam: se os juros nos Estados Unidos sobem ou se cresce a desconfiança sobre as contas do governo brasileiro, investidores levam dinheiro para fora e o dólar sobe.",
+          "Dólar alto encarece o que vem de fora ou tem preço em dólar: trigo, eletrônicos, peças, remédios e combustível. Por outro lado, exportadores, como produtores de soja e café, recebem mais reais por cada dólar vendido.",
+          "Conversão: para passar de dólar para real, multiplique pela taxa (US$ 50 × 5,50 = R$ 275). Para passar de real para dólar, divida (R$ 1.100 ÷ 5,50 = US$ 200)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O dólar foi de R$ 5,00 para R$ 5,50. Quanto subiu em porcentagem?",
+            "resolucao": "Subiu R$ 0,50 sobre R$ 5,00: 0,50 ÷ 5,00 = 0,10 = 10%."
+          },
+          {
+            "enunciado": "Uma tonelada de trigo custa US$ 250. Quanto custa em reais com o dólar a R$ 5 e a R$ 6?",
+            "resolucao": "250 × 5 = R$ 1.250 e 250 × 6 = R$ 1.500. O trigo ficou 20% mais caro em reais, sem mudar de preço em dólar."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Casas de câmbio compram a moeda mais barato do que vendem; essa diferença é o spread, que é o lucro delas. Se vendem o dólar a R$ 5,80 e compram a R$ 5,40, quem compra US$ 300 e desiste depois perde 300 × 0,40 = R$ 120 na volta.",
+        "O dólar alto pode aumentar a inflação, porque muitos produtos dependem de insumos importados. Para segurar a inflação, o Banco Central pode subir a taxa Selic, o que atrai investidores e tende a segurar o dólar, mas deixa o crédito mais caro.",
+        "Para quem vai viajar ou pagar algo em dólar: comprar aos poucos, ao longo de vários meses, evita pagar tudo num dia de cotação muito alta (é o chamado preço médio). Compras internacionais no cartão também têm impostos e taxas, então o total sai maior que a simples conversão."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dólar a R$ 5,50 significa que:",
+            "alternativas": [
+              "R$ 1 custa US$ 5,50",
+              "US$ 1 custa R$ 5,50",
+              "o dólar vale menos que o real",
+              "é proibido comprar"
+            ],
+            "correta": 1,
+            "explicacao": "A taxa diz quantos reais por dólar.",
+            "dica": "Quantos reais por um dólar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando muita gente quer comprar dólar, ele tende a:",
+            "alternativas": [
+              "subir",
+              "cair",
+              "sumir",
+              "ficar igual sempre"
+            ],
+            "correta": 0,
+            "explicacao": "Mais procura, preço maior.",
+            "dica": "Pense em oferta e procura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para passar de dólar para real, você:",
+            "alternativas": [
+              "divide pela taxa",
+              "soma a taxa",
+              "multiplica pela taxa",
+              "subtrai a taxa"
+            ],
+            "correta": 2,
+            "explicacao": "US$ 50 × 5,50 = R$ 275.",
+            "dica": "Cada dólar vale vários reais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dólar alto deixa mais caro:",
+            "alternativas": [
+              "o que é feito com produtos importados",
+              "o ônibus a pé",
+              "o ar",
+              "nada"
+            ],
+            "correta": 0,
+            "explicacao": "Importados custam mais reais.",
+            "dica": "Pense no que vem de fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem ganha com o dólar alto?",
+            "alternativas": [
+              "Quem importa celulares",
+              "Quem viaja para fora",
+              "Quem compra trigo de fora",
+              "Exportadores, como produtores de café"
+            ],
+            "correta": 3,
+            "explicacao": "Recebem mais reais por dólar vendido.",
+            "dica": "Quem vende para fora recebe em dólar."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto custa US$ 50 com o dólar a R$ 5,50?",
+            "alternativas": [
+              "R$ 55",
+              "R$ 275",
+              "R$ 9,09",
+              "R$ 250"
+            ],
+            "correta": 1,
+            "explicacao": "50 × 5,50 = 275.",
+            "dica": "Multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 1.100 e dólar a R$ 5,50, quantos dólares você compra?",
+            "alternativas": [
+              "US$ 200",
+              "US$ 6.050",
+              "US$ 110",
+              "US$ 550"
+            ],
+            "correta": 0,
+            "explicacao": "1.100 ÷ 5,50 = 200.",
+            "dica": "Divida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dólar foi de R$ 5,00 para R$ 5,50. Quanto subiu?",
+            "alternativas": [
+              "5%",
+              "50%",
+              "10%",
+              "0,5%"
+            ],
+            "correta": 2,
+            "explicacao": "0,50 ÷ 5,00 = 10%.",
+            "dica": "Divida a alta pelo valor inicial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Trigo a US$ 250 a tonelada; dólar sobe de R$ 5 para R$ 6. O preço em reais vai de:",
+            "alternativas": [
+              "R$ 250 para R$ 300",
+              "R$ 1.250 para R$ 1.300",
+              "R$ 1.500 para R$ 1.250",
+              "R$ 1.250 para R$ 1.500"
+            ],
+            "correta": 3,
+            "explicacao": "250 × 5 e 250 × 6.",
+            "dica": "Multiplique pelas duas taxas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes fatos tende a fazer o dólar subir?",
+            "alternativas": [
+              "Investidores tirando dinheiro do Brasil",
+              "Muitas exportações",
+              "Muitos turistas estrangeiros chegando",
+              "Investimentos estrangeiros entrando"
+            ],
+            "correta": 0,
+            "explicacao": "Mais procura por dólar.",
+            "dica": "Quem está comprando dólar?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Casa de câmbio vende o dólar a R$ 5,80 e compra a R$ 5,40. Quem compra US$ 300 e revende no mesmo dia perde:",
+            "alternativas": [
+              "R$ 40",
+              "R$ 1.620",
+              "R$ 120",
+              "R$ 174"
+            ],
+            "correta": 2,
+            "explicacao": "Paga 1.740, recebe 1.620: perde 120.",
+            "dica": "Calcule quanto paga e quanto recebe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o dólar alto pode subir o preço do pãozinho?",
+            "alternativas": [
+              "Porque o padeiro recebe em dólar",
+              "Porque o pão é exportado",
+              "Porque o forno usa dólar",
+              "Porque boa parte do trigo é importada e paga em dólar"
+            ],
+            "correta": 3,
+            "explicacao": "A farinha fica mais cara.",
+            "dica": "De onde vem o trigo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O Banco Central sobe a Selic. Qual é um efeito esperado?",
+            "alternativas": [
+              "Atrai investidores e tende a segurar o dólar, mas encarece o crédito",
+              "O dólar dispara",
+              "O crédito fica mais barato",
+              "Nada muda"
+            ],
+            "correta": 0,
+            "explicacao": "Juros altos atraem dinheiro de fora.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produtor exporta US$ 2.000. Quantos reais recebe com o dólar a R$ 5 e a R$ 4?",
+            "alternativas": [
+              "R$ 400 e R$ 500",
+              "R$ 10.000 e R$ 8.000",
+              "R$ 2.000 e R$ 2.000",
+              "R$ 8.000 e R$ 10.000"
+            ],
+            "correta": 1,
+            "explicacao": "2.000 × 5 = 10.000; 2.000 × 4 = 8.000.",
+            "dica": "Multiplique pelas taxas."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene a cadeia de efeitos de um dólar mais alto.",
+            "itens": [
+              "O dólar sobe",
+              "O trigo importado fica mais caro em reais",
+              "O moinho vende farinha mais cara",
+              "A padaria reajusta o pãozinho"
+            ],
+            "explicacao": "O aumento passa por cada etapa da cadeia.",
+            "dica": "Comece pela moeda e termine no balcão."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um fone custa US$ 30. Com o dólar a R$ 5,20 e depois a R$ 5,72, quanto subiu o preço em reais?",
+            "alternativas": [
+              "R$ 0,52, ou 1%",
+              "R$ 15,60, ou 10%",
+              "R$ 5,20, ou 5%",
+              "R$ 156, ou 100%"
+            ],
+            "correta": 1,
+            "explicacao": "30 × 5,20 = 156; 30 × 5,72 = 171,60. Alta de 15,60, que é 10% de 156.",
+            "dica": "Calcule os dois preços e compare."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com R$ 2.000, quantos dólares a mais você compra com a taxa a R$ 4 em vez de R$ 5?",
+            "alternativas": [
+              "US$ 400",
+              "US$ 500",
+              "US$ 1.000",
+              "US$ 100"
+            ],
+            "correta": 3,
+            "explicacao": "2.000 ÷ 4 = 500; 2.000 ÷ 5 = 400. Diferença: 100.",
+            "dica": "Divida pelas duas taxas e subtraia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que comprar dólar aos poucos, ao longo de meses, pode ser melhor para uma viagem?",
+            "alternativas": [
+              "Garante sempre o menor preço",
+              "Evita pagar tudo num dia de cotação muito alta, formando um preço médio",
+              "Elimina o spread",
+              "Dispensa impostos"
+            ],
+            "correta": 1,
+            "explicacao": "Dilui o risco de pegar o pior dia.",
+            "dica": "Pense em preço médio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja compra 800 dólares em peças com o dólar a R$ 5,25. Quanto paga em reais?",
+            "alternativas": [
+              "R$ 4.200",
+              "R$ 4.000",
+              "R$ 152,38",
+              "R$ 4.020"
+            ],
+            "correta": 0,
+            "explicacao": "800 × 5,25 = 4.200.",
+            "dica": "Multiplique pela taxa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dólar caiu 10% em relação ao real. O que é verdade?",
+            "alternativas": [
+              "Exportadores recebem mais reais",
+              "Importados tendem a ficar mais baratos em reais",
+              "Viagens ao exterior ficam mais caras",
+              "O pão sobe com certeza"
+            ],
+            "correta": 1,
+            "explicacao": "Cada dólar custa menos reais.",
+            "dica": "Pense ao contrário do dólar alto."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Formulário em HTML com validação em JavaScript",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Formulário coleta dados: <form> agrupa os campos, <label> dá nome ao campo e <input> recebe o dado. O atributo for do label liga ao id do input: <label for=\"nome\">Nome</label> <input id=\"nome\">.",
+          "Tipos ajudam o usuário: type=\"email\" exige @, type=\"number\" só aceita números (com min e max), type=\"tel\" abre o teclado de telefone no celular, type=\"date\" abre um calendário.",
+          "Validação no HTML: required torna o campo obrigatório; minlength=\"3\" pede pelo menos 3 caracteres; min=\"14\" max=\"18\" limita números.",
+          "Validação no JavaScript: form.addEventListener(\"submit\", function (e) { ... }); Se algo estiver errado, e.preventDefault() impede o envio e você mostra uma mensagem clara, perto do campo.",
+          "Lembre: tudo o que vem de um input é texto. Para comparar números, converta com Number(idade.value)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Valide que o nome tem pelo menos 3 letras.",
+            "resolucao": "form.addEventListener(\"submit\", function (e) {\n  if (nome.value.trim().length < 3) {\n    e.preventDefault();\n    erro.textContent = \"Digite o nome completo.\";\n  }\n});"
+          },
+          {
+            "enunciado": "Valide a idade entre 14 e 18 anos.",
+            "resolucao": "const idadeNum = Number(idade.value);\nif (idadeNum < 14 || idadeNum > 18) {\n  e.preventDefault();\n  erro.textContent = \"A idade deve estar entre 14 e 18.\";\n}"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A validação no navegador ajuda o usuário, mas pode ser desligada por quem entende de programação. Por isso, o servidor que recebe os dados precisa validar de novo. Nunca confie só no navegador.",
+        "Mensagens boas dizem o que fazer: \"O e-mail precisa ter @\" é melhor que \"Erro 42\". Também ajuda destacar o campo com borda vermelha (campo.classList.add(\"invalido\")) e tirar o destaque quando corrigido.",
+        "Privacidade: peça só os dados necessários. Pela LGPD, quem coleta dados pessoais precisa dizer para que eles servem e protegê-los. Um formulário de inscrição em campeonato não precisa do CPF dos pais, por exemplo, se não houver motivo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tag agrupa os campos de um formulário?",
+            "alternativas": [
+              "<table>",
+              "<form>",
+              "<list>",
+              "<div>"
+            ],
+            "correta": 1,
+            "explicacao": "<form> é o formulário.",
+            "dica": "Form vem de formulário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atributo torna um campo obrigatório?",
+            "alternativas": [
+              "required",
+              "optional",
+              "need",
+              "must"
+            ],
+            "correta": 0,
+            "explicacao": "required = obrigatório.",
+            "dica": "Significa exigido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "type=\"email\" exige:",
+            "alternativas": [
+              "um número",
+              "uma data",
+              "o símbolo @",
+              "uma foto"
+            ],
+            "correta": 2,
+            "explicacao": "Todo e-mail tem @.",
+            "dica": "O que todo e-mail tem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que vem de um input é sempre:",
+            "alternativas": [
+              "número",
+              "imagem",
+              "verdadeiro",
+              "texto"
+            ],
+            "correta": 3,
+            "explicacao": "Por isso se usa Number().",
+            "dica": "Mesmo quando você digita números."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "e.preventDefault() no submit:",
+            "alternativas": [
+              "impede o envio do formulário",
+              "envia duas vezes",
+              "apaga a página",
+              "muda a cor"
+            ],
+            "correta": 0,
+            "explicacao": "Usado quando há erro.",
+            "dica": "Prevent = impedir."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O label se liga ao input por:",
+            "alternativas": [
+              "class",
+              "for e id iguais",
+              "href",
+              "src"
+            ],
+            "correta": 1,
+            "explicacao": "<label for=\"nome\"> e <input id=\"nome\">.",
+            "dica": "Um atributo no label, outro no input."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tipo abre o teclado de telefone no celular?",
+            "alternativas": [
+              "type=\"tel\"",
+              "type=\"text\"",
+              "type=\"phone\"",
+              "type=\"call\""
+            ],
+            "correta": 0,
+            "explicacao": "tel = telefone.",
+            "dica": "É a abreviação de telefone."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atributo exige pelo menos 3 caracteres?",
+            "alternativas": [
+              "max=\"3\"",
+              "size=\"3\"",
+              "minlength=\"3\"",
+              "min=\"3\""
+            ],
+            "correta": 2,
+            "explicacao": "minlength é o comprimento mínimo.",
+            "dica": "Comprimento mínimo, em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha converte a idade digitada em número?",
+            "alternativas": [
+              "idade.number",
+              "String(idade.value)",
+              "idade.value + 0",
+              "Number(idade.value)"
+            ],
+            "correta": 3,
+            "explicacao": "Number transforma texto em número.",
+            "dica": "Use a função com nome de número."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual evento se usa para validar quando o formulário é enviado?",
+            "alternativas": [
+              "\"submit\"",
+              "\"click\" no título",
+              "\"load\"",
+              "\"scroll\""
+            ],
+            "correta": 0,
+            "explicacao": "submit = enviar.",
+            "dica": "É o evento de envio."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que validar também no servidor?",
+            "alternativas": [
+              "Porque o navegador é lento",
+              "Porque a validação do navegador pode ser desligada ou burlada",
+              "Porque o HTML não aceita validação",
+              "Não precisa"
+            ],
+            "correta": 1,
+            "explicacao": "Nunca confie só no navegador.",
+            "dica": "Quem controla o navegador?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual condição pega idade fora de 14 a 18?",
+            "alternativas": [
+              "idadeNum < 14 && idadeNum > 18",
+              "idadeNum > 14 || idadeNum < 18",
+              "idadeNum < 14 || idadeNum > 18",
+              "idadeNum == 14"
+            ],
+            "correta": 2,
+            "explicacao": "Basta uma das duas: menor que 14 OU maior que 18.",
+            "dica": "Nenhum número é menor que 14 e maior que 18 ao mesmo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual mensagem de erro é melhor?",
+            "alternativas": [
+              "Erro 42",
+              "Inválido",
+              "Algo deu errado",
+              "O e-mail precisa ter @"
+            ],
+            "correta": 3,
+            "explicacao": "Diz o que corrigir.",
+            "dica": "Qual ajuda a corrigir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"  Jo  \".trim().length vale:",
+            "alternativas": [
+              "2",
+              "6",
+              "4",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "trim tira as pontas: \"Jo\" tem 2 letras.",
+            "dica": "Tire os espaços das pontas e conte."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o que acontece numa validação com erro.",
+            "itens": [
+              "O usuário clica em Enviar",
+              "Dispara o evento submit",
+              "O código confere os campos",
+              "e.preventDefault() impede o envio",
+              "A mensagem de erro aparece perto do campo"
+            ],
+            "explicacao": "Clique, evento, conferência, bloqueio e aviso.",
+            "dica": "O clique vem primeiro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual código valida que o e-mail tem @, sem usar type=\"email\"?",
+            "alternativas": [
+              "if (email.value.includes(\"@\")) { e.preventDefault(); }",
+              "if (!email.value.includes(\"@\")) { e.preventDefault(); }",
+              "if (email.value == \"@\") { e.preventDefault(); }",
+              "email.value.trim();"
+            ],
+            "correta": 1,
+            "explicacao": "O ! nega: se NÃO tem @, impede o envio.",
+            "dica": "Bloqueie quando faltar o símbolo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Sem Number(), o que dá \"9\" > \"10\" em JavaScript?",
+            "alternativas": [
+              "false, porque 9 é menor que 10",
+              "Erro",
+              "true, porque compara como texto, caractere por caractere",
+              "undefined"
+            ],
+            "correta": 2,
+            "explicacao": "Como texto, \"9\" vem depois de \"1\". Por isso se converte com Number.",
+            "dica": "Como se compara texto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um formulário de campeonato pede nome, idade, escola, CPF dos pais e renda da família. O que a LGPD sugere?",
+            "alternativas": [
+              "Pedir ainda mais dados",
+              "Publicar os dados",
+              "Guardar sem senha",
+              "Pedir só o necessário e dizer para que serve cada dado"
+            ],
+            "correta": 3,
+            "explicacao": "Princípio da necessidade e transparência.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que usar <label for> em vez de só escrever o texto ao lado?",
+            "alternativas": [
+              "Clicar no texto ativa o campo e leitores de tela anunciam o nome do campo",
+              "Deixa a letra maior",
+              "É obrigatório pela LGPD",
+              "Valida o e-mail"
+            ],
+            "correta": 0,
+            "explicacao": "Acessibilidade e usabilidade.",
+            "dica": "Pense em quem usa leitor de tela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois campos (senha e confirmação) devem ser iguais. Qual condição detecta o erro?",
+            "alternativas": [
+              "senha.value === confirma.value",
+              "senha.value !== confirma.value",
+              "senha.value > confirma.value",
+              "senha === confirma"
+            ],
+            "correta": 1,
+            "explicacao": "!== dá true quando são diferentes; aí se impede o envio. Comparar senha === confirma compara os elementos, não o texto.",
+            "dica": "Bloqueie quando forem diferentes."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Conto: narrador, foco narrativo e clímax",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Conto é uma narrativa curta, com poucos personagens, tempo e espaço reduzidos e um conflito principal. Lê-se de uma vez só.",
+          "Estrutura: situação inicial (apresenta personagens e lugar), conflito ou complicação (algo quebra o equilíbrio), clímax (o momento de maior tensão) e desfecho (como o conflito se resolve ou não).",
+          "Foco narrativo é o ponto de vista de quem conta. Narrador em 1ª pessoa participa da história: pode ser o protagonista (\"Eu abri a porta...\") ou uma testemunha que conta o que viu.",
+          "Narrador em 3ª pessoa está fora da história: o observador conta só o que se vê e se ouve; o onisciente sabe tudo, até os pensamentos e sentimentos dos personagens (\"Marta sorriu, mas por dentro tremia de medo\").",
+          "O foco narrativo muda o efeito: em 1ª pessoa, o leitor fica próximo e só sabe o que o narrador sabe; em 3ª pessoa onisciente, o leitor tem uma visão mais ampla."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Identifique o narrador: \"Eu nunca tinha visto meu avô chorar até aquela tarde.\"",
+            "resolucao": "1ª pessoa, narrador-personagem (o neto participa da cena)."
+          },
+          {
+            "enunciado": "Identifique o narrador: \"Rafael fingiu indiferença, mas pensava sem parar na resposta da prova.\"",
+            "resolucao": "3ª pessoa onisciente: conta o que Rafael pensa por dentro."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O clímax costuma vir perto do fim e é o ponto sem volta: a decisão, a revelação, o confronto. Muitos contos terminam logo depois dele, deixando o leitor pensar. Alguns têm final aberto ou surpreendente.",
+        "Narrador não confiável: em 1ª pessoa, o narrador pode estar enganado ou esconder fatos. Grandes autores brasileiros usaram isso; em Dom Casmurro, de Machado de Assis, o leitor só tem a versão de Bentinho sobre Capitu.",
+        "Tempo cronológico segue a ordem do relógio; tempo psicológico segue as lembranças e sensações do personagem, com idas e voltas (flashback). O conto pode começar pelo fim e voltar ao começo."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O conto é uma narrativa:",
+            "alternativas": [
+              "longa, com muitos personagens",
+              "curta, com um conflito principal",
+              "sem personagens",
+              "sempre em verso"
+            ],
+            "correta": 1,
+            "explicacao": "Curta e concentrada.",
+            "dica": "Lê-se de uma vez só."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O momento de maior tensão é o:",
+            "alternativas": [
+              "clímax",
+              "título",
+              "desfecho",
+              "início"
+            ],
+            "correta": 0,
+            "explicacao": "Ponto alto do conflito.",
+            "dica": "É o ponto mais alto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Narrador em 1ª pessoa:",
+            "alternativas": [
+              "está fora da história",
+              "nunca usa \"eu\"",
+              "participa da história",
+              "sabe o pensamento de todos"
+            ],
+            "correta": 2,
+            "explicacao": "Ele usa eu e participa.",
+            "dica": "Pense no \"eu\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O narrador que sabe os pensamentos dos personagens é o:",
+            "alternativas": [
+              "observador",
+              "personagem secundário",
+              "leitor",
+              "onisciente"
+            ],
+            "correta": 3,
+            "explicacao": "Onisciente = sabe tudo.",
+            "dica": "Oni = tudo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Foco narrativo é:",
+            "alternativas": [
+              "o ponto de vista de quem conta",
+              "o título do conto",
+              "o tamanho do texto",
+              "a moral da história"
+            ],
+            "correta": 0,
+            "explicacao": "Quem conta e de onde.",
+            "dica": "Pense em ponto de vista."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Eu nunca tinha visto meu avô chorar até aquela tarde.\" O narrador é:",
+            "alternativas": [
+              "3ª pessoa observador",
+              "1ª pessoa, narrador-personagem",
+              "3ª pessoa onisciente",
+              "não há narrador"
+            ],
+            "correta": 1,
+            "explicacao": "Usa eu e participa.",
+            "dica": "Quem fala está na cena?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Rafael fingiu indiferença, mas pensava sem parar na prova.\" O narrador é:",
+            "alternativas": [
+              "onisciente",
+              "observador",
+              "personagem",
+              "testemunha em 1ª pessoa"
+            ],
+            "correta": 0,
+            "explicacao": "Conta o pensamento de Rafael.",
+            "dica": "Ele sabe o que Rafael pensa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem da estrutura do conto?",
+            "alternativas": [
+              "clímax, início, conflito, desfecho",
+              "desfecho, conflito, início, clímax",
+              "situação inicial, conflito, clímax, desfecho",
+              "conflito, desfecho, clímax, início"
+            ],
+            "correta": 2,
+            "explicacao": "Equilíbrio, quebra, auge, resolução.",
+            "dica": "O desfecho é o fim."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O narrador observador:",
+            "alternativas": [
+              "conta os pensamentos de todos",
+              "é o protagonista",
+              "inventa fatos",
+              "conta só o que se vê e se ouve"
+            ],
+            "correta": 3,
+            "explicacao": "Fica do lado de fora, como uma câmera.",
+            "dica": "Pense numa câmera."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o conflito num conto?",
+            "alternativas": [
+              "Algo que quebra o equilíbrio da situação inicial",
+              "O nome do autor",
+              "A última frase",
+              "A capa do livro"
+            ],
+            "correta": 0,
+            "explicacao": "Ele move a história.",
+            "dica": "É o problema da história."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual efeito a 1ª pessoa produz no leitor?",
+            "alternativas": [
+              "Visão de tudo e de todos",
+              "Proximidade, mas só com o que o narrador sabe",
+              "Distância total",
+              "Neutralidade completa"
+            ],
+            "correta": 1,
+            "explicacao": "O leitor vê pelos olhos do narrador.",
+            "dica": "O leitor sabe mais ou menos que o narrador?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Os dois entraram na sala. Um deles bateu a porta. Ninguém disse nada.\" O narrador é:",
+            "alternativas": [
+              "onisciente",
+              "personagem",
+              "observador",
+              "protagonista"
+            ],
+            "correta": 2,
+            "explicacao": "Só ações visíveis, sem pensamentos.",
+            "dica": "Há algum pensamento contado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é narrador não confiável?",
+            "alternativas": [
+              "Narrador em 3ª pessoa",
+              "Narrador que conta tudo certo",
+              "Autor desconhecido",
+              "Narrador que pode estar enganado ou esconder fatos"
+            ],
+            "correta": 3,
+            "explicacao": "O leitor desconfia da versão dele.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um conto começa com o personagem no hospital e volta à manhã do acidente. Isso é:",
+            "alternativas": [
+              "flashback, tempo psicológico",
+              "tempo cronológico",
+              "erro do autor",
+              "clímax"
+            ],
+            "correta": 0,
+            "explicacao": "Volta no tempo pela memória.",
+            "dica": "A ordem do relógio foi seguida?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as partes deste conto: \"Lia perde o celular\"; \"Lia acha o celular com a vizinha\"; \"Lia volta da escola feliz\"; \"Lia procura desesperada debaixo da chuva\".",
+            "itens": [
+              "Lia volta da escola feliz",
+              "Lia perde o celular",
+              "Lia procura desesperada debaixo da chuva",
+              "Lia acha o celular com a vizinha"
+            ],
+            "explicacao": "Situação inicial, conflito, clímax e desfecho.",
+            "dica": "O desfecho resolve o problema."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Dom Casmurro, por que não sabemos com certeza se Capitu traiu Bentinho?",
+            "alternativas": [
+              "Porque o livro foi perdido",
+              "Porque só temos a versão de Bentinho, narrador em 1ª pessoa",
+              "Porque o narrador é onisciente",
+              "Porque Capitu narra"
+            ],
+            "correta": 1,
+            "explicacao": "Narrador em 1ª pessoa e não confiável.",
+            "dica": "Quem conta a história?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Reescreva mentalmente \"Eu tremia, mas sorri\" em 3ª pessoa onisciente. Qual é a melhor opção?",
+            "alternativas": [
+              "Ela sorriu.",
+              "Eu sorri tremendo.",
+              "Ela sorriu, mas por dentro tremia.",
+              "Alguém sorriu de longe."
+            ],
+            "correta": 2,
+            "explicacao": "O onisciente mostra o que está por dentro.",
+            "dica": "O onisciente conhece o sentimento escondido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um conto termina logo após o clímax, sem explicar o que aconteceu depois. Esse final é:",
+            "alternativas": [
+              "um erro",
+              "uma moral",
+              "tempo cronológico",
+              "aberto, para o leitor pensar"
+            ],
+            "correta": 3,
+            "explicacao": "Final aberto é escolha do autor.",
+            "dica": "O leitor completa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual narrador combina melhor com um conto de suspense em que o leitor não pode saber o que o vilão pensa?",
+            "alternativas": [
+              "1ª pessoa da vítima ou 3ª pessoa observador",
+              "Onisciente que revela tudo",
+              "O vilão narrando seus planos",
+              "Nenhum"
+            ],
+            "correta": 0,
+            "explicacao": "Esconder pensamentos mantém o suspense.",
+            "dica": "Quem não sabe o que o vilão pensa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual trecho tem narrador-testemunha?",
+            "alternativas": [
+              "Eu corri e salvei o cachorro.",
+              "Eu vi quando o seu Zé correu e salvou o cachorro.",
+              "O seu Zé pensou no cachorro e correu.",
+              "O cachorro foi salvo."
+            ],
+            "correta": 1,
+            "explicacao": "Ele conta em 1ª pessoa o que viu outro fazer.",
+            "dica": "Quem é o herói e quem conta?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O pão que ficou mais caro",
+    "texto": "Na padaria do seu Antônio, o pãozinho francês subiu de preço três vezes em um ano. Os fregueses reclamam, e ele responde sempre a mesma coisa: \"A culpa é do dólar\". Parece desculpa, mas tem fundamento. Para entender, é preciso seguir o caminho do pão de trás para a frente.\n\nO pãozinho é feito de farinha de trigo, água, sal e fermento. O ingrediente principal, o trigo, é plantado no Brasil, mas não em quantidade suficiente. O país importa boa parte do que consome, principalmente de países vizinhos, e paga em dólar.\n\nImagine que uma tonelada de trigo custe 250 dólares lá fora. Com o dólar a 5 reais, o moinho brasileiro paga 1.250 reais. Se o dólar sobe para 6 reais, a mesma tonelada passa a custar 1.500 reais, um aumento de 20%, sem que o trigo tenha ficado mais caro no exterior. O moinho repassa parte desse custo para a farinha.\n\nA padaria, por sua vez, compra farinha mais cara. E não é só ela: o óleo diesel dos caminhões que fazem a entrega também é influenciado pelo dólar, porque o preço do petróleo é cotado na moeda americana. O frete sobe junto.\n\nNo fim da linha está o balcão. O seu Antônio pode reduzir o próprio lucro por um tempo, mas, se a alta continuar, precisa reajustar o preço para não fechar as portas.\n\nPor isso, quando o noticiário fala que \"o dólar disparou\", não é assunto só de quem viaja para fora. A alta atravessa oceanos, moinhos e estradas até chegar ao saquinho de papel que a gente leva para casa no café da manhã."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique, numa sequência de causas e consequências, como o dólar alto pode chegar à mesa da sua família. Use conectivos como \"porque\", \"por isso\", \"então\" e \"como consequência\", e dê pelo menos um exemplo de produto do dia a dia."
+  }
+}

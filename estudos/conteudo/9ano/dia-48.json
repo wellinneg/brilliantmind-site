@@ -1,0 +1,1205 @@
+{
+  "dia": 48,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Ondas: som, luz e o espectro eletromagnético",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Onda é uma perturbação que transporta energia sem transportar matéria. Na arquibancada, a \"ola\" passa de um lado a outro, mas cada torcedor continua no seu lugar.",
+          "O som é uma onda mecânica: precisa de um meio (ar, água, metal) para se propagar e não existe no vácuo. No ar, viaja a cerca de 340 m/s. Frequência alta dá som agudo; baixa, som grave. Amplitude maior dá som mais forte.",
+          "A luz é uma onda eletromagnética: não precisa de meio e viaja no vácuo a cerca de 300.000 km por segundo. A luz do Sol leva uns 8 minutos para chegar à Terra.",
+          "O espectro eletromagnético reúne ondas da mesma família, da menor para a maior frequência: ondas de rádio, micro-ondas, infravermelho, luz visível, ultravioleta, raios X e raios gama. Quanto maior a frequência, maior a energia.",
+          "Toda onda obedece a v = λ · f: velocidade = comprimento de onda × frequência. Um som de 170 Hz no ar tem λ = 340 / 170 = 2 m."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Você vê o raio e ouve o trovão 3 segundos depois. A que distância caiu o raio?",
+            "resolucao": "A luz chega quase na hora; o som anda 340 m/s. 340 × 3 = 1.020 m, cerca de 1 km."
+          },
+          {
+            "enunciado": "Uma rádio FM transmite em 100 MHz (100 milhões de hertz). Qual é o comprimento de onda?",
+            "resolucao": "λ = v / f = 300.000.000 / 100.000.000 = 3 m."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O ouvido humano percebe sons de cerca de 20 Hz a 20.000 Hz. Abaixo, é infrassom (elefantes usam); acima, ultrassom (morcegos, golfinhos e exames de ultrassonografia). No ar, 20 Hz tem λ = 17 m, e 20.000 Hz tem λ = 1,7 cm.",
+        "Ultravioleta, raios X e raios gama têm energia suficiente para danificar células: por isso se usa protetor solar e o técnico de raio X se protege. Ondas de rádio, wi-fi e micro-ondas têm energia bem menor; o forno de micro-ondas aquece porque faz as moléculas de água vibrarem.",
+        "O wi-fi de 2,4 GHz tem λ = 300.000.000 / 2.400.000.000 = 0,125 m (12,5 cm). Paredes grossas e metais atrapalham o sinal. O eco é o som refletido: se o eco volta 1 s depois, o obstáculo está a 170 m (o som vai e volta)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma onda transporta:",
+            "alternativas": [
+              "matéria",
+              "energia, sem transportar matéria",
+              "só água",
+              "só ar"
+            ],
+            "correta": 1,
+            "explicacao": "Como a \"ola\" na arquibancada.",
+            "dica": "Cada torcedor sai do lugar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O som precisa de um meio para se propagar?",
+            "alternativas": [
+              "Sim, ar, água ou sólido",
+              "Não, anda no vácuo",
+              "Só à noite",
+              "Só na água"
+            ],
+            "correta": 0,
+            "explicacao": "É onda mecânica.",
+            "dica": "No espaço, há som?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A luz é uma onda:",
+            "alternativas": [
+              "mecânica",
+              "sonora",
+              "eletromagnética",
+              "sísmica"
+            ],
+            "correta": 2,
+            "explicacao": "Não precisa de meio.",
+            "dica": "Pertence ao espectro da aula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Som de frequência alta é:",
+            "alternativas": [
+              "grave",
+              "fraco",
+              "lento",
+              "agudo"
+            ],
+            "correta": 3,
+            "explicacao": "Frequência alta = agudo.",
+            "dica": "Pense num apito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A velocidade do som no ar é de cerca de:",
+            "alternativas": [
+              "340 m/s",
+              "300.000 km/s",
+              "3 m/s",
+              "1 km/h"
+            ],
+            "correta": 0,
+            "explicacao": "Bem menor que a da luz.",
+            "dica": "É algumas centenas de metros por segundo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Viu o raio e ouviu o trovão 3 s depois. Distância aproximada?",
+            "alternativas": [
+              "340 m",
+              "1.020 m",
+              "3 km",
+              "100 m"
+            ],
+            "correta": 1,
+            "explicacao": "340 × 3 = 1.020 m.",
+            "dica": "Multiplique a velocidade do som pelo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem crescente de frequência?",
+            "alternativas": [
+              "rádio, micro-ondas, infravermelho, visível, ultravioleta, raios X",
+              "raios X, rádio, visível, ultravioleta",
+              "visível, rádio, raios X, micro-ondas",
+              "ultravioleta, rádio, raios X, visível"
+            ],
+            "correta": 0,
+            "explicacao": "Do rádio aos raios gama.",
+            "dica": "Comece pelo rádio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um som de 170 Hz no ar tem comprimento de onda de:",
+            "alternativas": [
+              "170 m",
+              "0,5 m",
+              "2 m",
+              "340 m"
+            ],
+            "correta": 2,
+            "explicacao": "λ = 340 / 170 = 2 m.",
+            "dica": "Use λ = v / f."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A amplitude maior deixa o som:",
+            "alternativas": [
+              "mais agudo",
+              "mais grave",
+              "mais lento",
+              "mais forte"
+            ],
+            "correta": 3,
+            "explicacao": "Amplitude é a intensidade.",
+            "dica": "Pense no volume."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não há som no espaço?",
+            "alternativas": [
+              "Porque é frio",
+              "Porque não há meio material para o som se propagar",
+              "Porque é escuro",
+              "Porque a luz atrapalha"
+            ],
+            "correta": 1,
+            "explicacao": "No vácuo, a onda mecânica não anda.",
+            "dica": "O que o som precisa?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rádio FM em 100 MHz. Qual é o comprimento de onda?",
+            "alternativas": [
+              "3 m",
+              "30 m",
+              "0,3 m",
+              "300 m"
+            ],
+            "correta": 0,
+            "explicacao": "300.000.000 / 100.000.000 = 3 m.",
+            "dica": "Divida a velocidade da luz pela frequência."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual onda tem energia suficiente para danificar células?",
+            "alternativas": [
+              "Ondas de rádio",
+              "Micro-ondas do wi-fi",
+              "Raios X",
+              "Infravermelho do controle remoto"
+            ],
+            "correta": 2,
+            "explicacao": "Por isso há proteção nos exames.",
+            "dica": "Pense na de maior frequência entre as opções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O som de 20.000 Hz no ar tem comprimento de onda de:",
+            "alternativas": [
+              "17 m",
+              "1,7 m",
+              "20 cm",
+              "1,7 cm"
+            ],
+            "correta": 3,
+            "explicacao": "340 / 20.000 = 0,017 m = 1,7 cm.",
+            "dica": "Divida e passe para centímetros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ultrassonografia usa:",
+            "alternativas": [
+              "ultrassom, acima de 20.000 Hz",
+              "infrassom",
+              "raios gama",
+              "luz visível"
+            ],
+            "correta": 0,
+            "explicacao": "Sons que não ouvimos.",
+            "dica": "Ultra = acima."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene da menor para a maior energia.",
+            "itens": [
+              "Ondas de rádio",
+              "Micro-ondas",
+              "Luz visível",
+              "Ultravioleta",
+              "Raios X"
+            ],
+            "explicacao": "A energia cresce com a frequência.",
+            "dica": "Siga a ordem do espectro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O eco de um grito voltou 1 s depois. A que distância está o paredão?",
+            "alternativas": [
+              "340 m",
+              "170 m",
+              "680 m",
+              "85 m"
+            ],
+            "correta": 1,
+            "explicacao": "O som vai e volta: 340 m no total, 170 m até o paredão.",
+            "dica": "O som faz ida e volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o comprimento de onda do wi-fi de 2,4 GHz?",
+            "alternativas": [
+              "1,25 m",
+              "2,4 cm",
+              "12,5 cm",
+              "8 m"
+            ],
+            "correta": 2,
+            "explicacao": "300.000.000 / 2.400.000.000 = 0,125 m.",
+            "dica": "Giga é bilhão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A distância Terra-Sol é cerca de 150 milhões de km. Quanto tempo a luz leva?",
+            "alternativas": [
+              "8 segundos",
+              "8 horas",
+              "50 segundos",
+              "Cerca de 500 s, uns 8 minutos"
+            ],
+            "correta": 3,
+            "explicacao": "150.000.000 / 300.000 = 500 s.",
+            "dica": "Divida a distância pela velocidade da luz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma nota musical de 440 Hz e outra de 880 Hz. Comparando no ar:",
+            "alternativas": [
+              "A de 880 Hz é mais aguda e tem metade do comprimento de onda",
+              "A de 880 Hz é mais grave",
+              "As duas têm o mesmo comprimento de onda",
+              "A de 880 Hz anda mais rápido"
+            ],
+            "correta": 0,
+            "explicacao": "Mesma velocidade; frequência dobra, λ cai pela metade.",
+            "dica": "No mesmo meio, a velocidade é a mesma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que se vê o relâmpago antes de ouvir o trovão?",
+            "alternativas": [
+              "Porque o trovão acontece depois",
+              "Porque a luz é muitíssimo mais rápida que o som",
+              "Porque o som é mais forte",
+              "Porque o olho é mais sensível"
+            ],
+            "correta": 1,
+            "explicacao": "300.000 km/s contra 340 m/s.",
+            "dica": "Compare as velocidades."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Seguros: quando vale a pena pagar para se proteger",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Seguro é um contrato em que você paga um valor (o prêmio) para que a seguradora cubra um prejuízo grande, se ele acontecer (o sinistro). Muitas pessoas pagam pouco, e o dinheiro de todas cobre as poucas que têm o problema.",
+          "Palavras importantes: apólice é o contrato; cobertura é o que está protegido (roubo, colisão, incêndio); franquia é a parte do prejuízo que você paga antes de a seguradora pagar; indenização é o que a seguradora paga.",
+          "Seguro vale a pena quando o prejuízo possível é grande demais para o seu bolso: o carro de trabalho, a casa, a renda da família (seguro de vida) ou a responsabilidade por danos a outras pessoas.",
+          "Para coisas baratas ou prejuízos que você conseguiria pagar, muitas vezes compensa mais ter uma reserva de emergência do que pagar seguro todo mês.",
+          "Antes de contratar, leia o que NÃO está coberto (as exclusões), o valor da franquia e como acionar. Ninguém pode obrigar você a comprar um seguro para levar outro produto: isso é venda casada, proibida pelo CDC."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um seguro de celular custa R$ 25 por mês, com franquia de 20% do valor do aparelho (R$ 2.000). Quanto se paga por ano e quanto se paga se o celular for roubado?",
+            "resolucao": "Por ano: 25 × 12 = R$ 300. No roubo, paga a franquia: 20% de 2.000 = R$ 400, e recebe outro aparelho."
+          },
+          {
+            "enunciado": "Franquia de R$ 3.000 e conserto do carro de R$ 5.000. Quanto paga a seguradora?",
+            "resolucao": "5.000 − 3.000 = R$ 2.000. Se o conserto fosse R$ 2.500, menor que a franquia, a seguradora não pagaria nada."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Conta do valor esperado: se a chance de roubo do celular é de 5% ao ano, o prejuízo médio esperado é 0,05 × 2.000 = R$ 100 por ano, menor que os R$ 300 do seguro. A seguradora precisa cobrar mais que o esperado para pagar custos e ter lucro. Ainda assim, o seguro faz sentido quando perder o bem de uma vez seria um desastre.",
+        "Seguro de vida protege quem depende da sua renda. Para um jovem sem filhos, costuma ser pouco necessário; para um pai ou mãe que sustenta a casa, pode ser essencial.",
+        "Garantia estendida é um seguro vendido junto com eletrodomésticos e celulares. É opcional: o produto já tem a garantia legal do CDC (90 dias para duráveis) e, normalmente, a garantia do fabricante. Compare o preço dela com o valor do produto antes de aceitar."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O valor que você paga ao seguro chama-se:",
+            "alternativas": [
+              "sinistro",
+              "prêmio",
+              "franquia",
+              "apólice"
+            ],
+            "correta": 1,
+            "explicacao": "Prêmio é o pagamento à seguradora.",
+            "dica": "No seguro, não é sorteio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O acontecimento que causa o prejuízo, como roubo ou batida, é o:",
+            "alternativas": [
+              "sinistro",
+              "prêmio",
+              "lucro",
+              "reajuste"
+            ],
+            "correta": 0,
+            "explicacao": "Sinistro é o evento coberto.",
+            "dica": "É o nome do problema."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Franquia é:",
+            "alternativas": [
+              "o desconto da loja",
+              "o nome da seguradora",
+              "a parte do prejuízo que você paga",
+              "o prazo do contrato"
+            ],
+            "correta": 2,
+            "explicacao": "Você paga até ela; a seguradora paga o resto.",
+            "dica": "Quem paga o começo do prejuízo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Seguro vale mais a pena para:",
+            "alternativas": [
+              "uma caneta",
+              "um chiclete",
+              "um boné barato",
+              "um prejuízo grande demais para o seu bolso"
+            ],
+            "correta": 3,
+            "explicacao": "Proteção contra o que você não conseguiria pagar.",
+            "dica": "Pense no tamanho do prejuízo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Obrigar a comprar seguro para levar outro produto é:",
+            "alternativas": [
+              "venda casada, proibida pelo CDC",
+              "normal",
+              "obrigatório",
+              "um desconto"
+            ],
+            "correta": 0,
+            "explicacao": "O seguro deve ser opcional.",
+            "dica": "Releia o último parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Seguro de R$ 25 por mês. Quanto por ano?",
+            "alternativas": [
+              "R$ 250",
+              "R$ 300",
+              "R$ 25",
+              "R$ 2.500"
+            ],
+            "correta": 1,
+            "explicacao": "25 × 12 = 300.",
+            "dica": "Multiplique por 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Franquia de 20% sobre um celular de R$ 2.000. Quanto se paga no roubo?",
+            "alternativas": [
+              "R$ 400",
+              "R$ 200",
+              "R$ 2.000",
+              "R$ 20"
+            ],
+            "correta": 0,
+            "explicacao": "20% de 2.000.",
+            "dica": "Calcule 20%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Franquia de R$ 3.000 e conserto de R$ 5.000. Quanto paga a seguradora?",
+            "alternativas": [
+              "R$ 5.000",
+              "R$ 3.000",
+              "R$ 2.000",
+              "R$ 8.000"
+            ],
+            "correta": 2,
+            "explicacao": "O que passa da franquia.",
+            "dica": "Subtraia a franquia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que são as exclusões da apólice?",
+            "alternativas": [
+              "Os descontos",
+              "Os brindes",
+              "As parcelas",
+              "O que NÃO está coberto pelo seguro"
+            ],
+            "correta": 3,
+            "explicacao": "Leia antes de assinar.",
+            "dica": "Excluir = deixar de fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para prejuízos pequenos que você conseguiria pagar, costuma ser melhor:",
+            "alternativas": [
+              "ter uma reserva de emergência",
+              "fazer vários seguros",
+              "pegar empréstimo",
+              "ignorar"
+            ],
+            "correta": 0,
+            "explicacao": "A reserva funciona como um autosseguro.",
+            "dica": "Releia o quarto parágrafo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Carro de R$ 40.000 com seguro de R$ 2.400 por ano. O prêmio é quantos por cento do valor do carro?",
+            "alternativas": [
+              "4%",
+              "24%",
+              "6%",
+              "60%"
+            ],
+            "correta": 2,
+            "explicacao": "2.400 / 40.000 = 0,06.",
+            "dica": "Divida o prêmio pelo valor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Conserto de R$ 2.500 e franquia de R$ 3.000. Quanto paga a seguradora?",
+            "alternativas": [
+              "R$ 2.500",
+              "R$ 500",
+              "R$ 3.000",
+              "Nada"
+            ],
+            "correta": 3,
+            "explicacao": "O prejuízo não passou da franquia.",
+            "dica": "Compare com a franquia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem mais precisa de seguro de vida?",
+            "alternativas": [
+              "Quem sustenta filhos ou outras pessoas com a sua renda",
+              "Um adolescente sem dependentes",
+              "Ninguém",
+              "Só aposentados"
+            ],
+            "correta": 0,
+            "explicacao": "Protege quem depende da renda.",
+            "dica": "Quem ficaria sem dinheiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Chance de roubo de 5% ao ano, celular de R$ 2.000. Qual é o prejuízo médio esperado por ano?",
+            "alternativas": [
+              "R$ 10",
+              "R$ 100",
+              "R$ 1.000",
+              "R$ 400"
+            ],
+            "correta": 1,
+            "explicacao": "0,05 × 2.000 = 100.",
+            "dica": "Multiplique a chance pelo valor."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o que fazer antes de contratar um seguro.",
+            "itens": [
+              "Avaliar se o prejuízo seria grande demais para você",
+              "Comparar o preço em várias seguradoras",
+              "Ler coberturas, exclusões e franquia",
+              "Só então assinar a apólice"
+            ],
+            "explicacao": "Necessidade, preço, letras miúdas e assinatura.",
+            "dica": "Assinar é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um motoboy usa a moto para trabalhar e não tem reserva. A moto vale R$ 12.000 e o seguro custa R$ 1.800 por ano, com franquia de R$ 1.000. Num roubo, quanto ele deixa de perder com o seguro?",
+            "alternativas": [
+              "R$ 12.000",
+              "R$ 1.800",
+              "R$ 10.200",
+              "R$ 11.000"
+            ],
+            "correta": 3,
+            "explicacao": "Sem seguro, perde R$ 12.000. Com seguro, paga a franquia de R$ 1.000: deixa de perder R$ 11.000.",
+            "dica": "Compare perder tudo com pagar só a franquia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A loja oferece garantia estendida de R$ 216 (R$ 18 × 12) numa TV de R$ 1.800. O que considerar?",
+            "alternativas": [
+              "É obrigatória",
+              "A TV já tem garantia legal e do fabricante; a extensão custa 12% do preço da TV",
+              "Só vale se for parcelada",
+              "Ela substitui a garantia legal"
+            ],
+            "correta": 1,
+            "explicacao": "216 / 1.800 = 12%. É opcional.",
+            "dica": "Calcule a porcentagem e lembre da garantia legal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a seguradora cobra mais do que o prejuízo médio esperado?",
+            "alternativas": [
+              "Porque é ilegal cobrar menos",
+              "Porque o cliente pede",
+              "Porque precisa pagar custos, impostos e ter lucro",
+              "Porque os sinistros não existem"
+            ],
+            "correta": 2,
+            "explicacao": "O seguro é um negócio.",
+            "dica": "Pense nos custos da empresa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual situação torna o seguro mais justificável?",
+            "alternativas": [
+              "Perder o bem seria um desastre financeiro que você não conseguiria repor",
+              "O bem custa R$ 30",
+              "Você tem dinheiro de sobra para repor",
+              "Você nunca usa o bem"
+            ],
+            "correta": 0,
+            "explicacao": "Seguro protege contra perdas grandes.",
+            "dica": "Pense no tamanho da perda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um jovem tem reserva de R$ 3.000 e celular de R$ 1.000. Seguro: R$ 20/mês. O que é mais razoável?",
+            "alternativas": [
+              "Contratar dois seguros",
+              "Pegar empréstimo para o seguro",
+              "Usar a reserva como autosseguro, já que conseguiria repor o celular",
+              "Vender o celular"
+            ],
+            "correta": 2,
+            "explicacao": "Ele consegue absorver a perda; pagaria R$ 240 por ano.",
+            "dica": "Ele conseguiria repor sem seguro?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Influenciadores e publicidade disfarçada: quem está pagando o post?",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Muitos posts de influenciadores são publicidade paga: a marca paga em dinheiro, produtos ou viagens para aparecer. Isso é permitido, desde que o público saiba que é propaganda.",
+          "O Código de Defesa do Consumidor diz que a publicidade deve ser fácil de identificar como tal. Por isso, posts pagos devem ter avisos claros, como #publi, #publicidade ou \"parceria paga\", no começo e de forma visível.",
+          "Publicidade disfarçada é quando a propaganda finge ser uma opinião espontânea: \"Gente, descobri esse creme por acaso e amei!\", quando na verdade houve pagamento. Isso engana o seguidor.",
+          "Produtos recebidos de presente (os \"recebidos\") também influenciam: quem ganhou algo de graça tende a falar bem. Desconfie de opiniões perfeitas demais.",
+          "Perguntas antes de acreditar: quem ganha se eu comprar? Há aviso de publicidade? Existem avaliações de outras pessoas, fora do perfil? O produto é bom para mim ou só bonito no vídeo?"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um influenciador mostra um tênis, sem nenhum aviso, e coloca um link com cupom de desconto. É publicidade?",
+            "resolucao": "Provavelmente sim: cupom e link costumam render comissão. Sem aviso, é publicidade disfarçada."
+          },
+          {
+            "enunciado": "Um perfil tem 200.000 seguidores e um post teve 8.000 curtidas e comentários. Qual é a taxa de engajamento?",
+            "resolucao": "8.000 / 200.000 = 0,04 = 4%."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O CONAR, conselho de autorregulamentação da publicidade no Brasil, tem orientações específicas para influenciadores: a identificação deve ser clara, inclusive em vídeos curtos e transmissões ao vivo.",
+        "Publicidade dirigida a crianças que se aproveita da falta de experiência delas é abusiva. Apostas são proibidas para menores de 18 anos, e influenciadores que mostram ganhos fáceis escondem que a maioria perde dinheiro.",
+        "Seguidores e curtidas podem ser comprados. Um perfil com 500.000 seguidores e só 300 curtidas por post (0,06%) tem sinal de seguidores falsos. Números grandes não são prova de credibilidade."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Post pago por uma marca é:",
+            "alternativas": [
+              "proibido",
+              "publicidade",
+              "notícia",
+              "opinião espontânea"
+            ],
+            "correta": 1,
+            "explicacao": "É propaganda e deve ser avisada.",
+            "dica": "Alguém pagou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual aviso indica publicidade?",
+            "alternativas": [
+              "#publi",
+              "#tbt",
+              "#bomdia",
+              "#sextou"
+            ],
+            "correta": 0,
+            "explicacao": "#publi ou #publicidade.",
+            "dica": "Vem de publicidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Publicidade disfarçada é quando:",
+            "alternativas": [
+              "o post tem #publi",
+              "a marca aparece na TV",
+              "a propaganda finge ser opinião espontânea",
+              "o anúncio é no jornal"
+            ],
+            "correta": 2,
+            "explicacao": "Engana o seguidor.",
+            "dica": "Disfarce esconde algo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O aviso de publicidade deve ser:",
+            "alternativas": [
+              "escondido no fim",
+              "em letra minúscula",
+              "só em inglês",
+              "claro e visível"
+            ],
+            "correta": 3,
+            "explicacao": "Fácil de identificar.",
+            "dica": "O seguidor precisa perceber."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Produto recebido de graça:",
+            "alternativas": [
+              "pode influenciar a opinião",
+              "nunca influencia",
+              "é proibido",
+              "é sempre ruim"
+            ],
+            "correta": 0,
+            "explicacao": "Quem ganha tende a falar bem.",
+            "dica": "Você falaria mal de um presente?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um post mostra um tênis com link e cupom, sem aviso. Isso é:",
+            "alternativas": [
+              "notícia",
+              "provavelmente publicidade disfarçada",
+              "opinião neutra",
+              "conteúdo escolar"
+            ],
+            "correta": 1,
+            "explicacao": "Link com cupom costuma dar comissão.",
+            "dica": "Quem ganha com o cupom?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "200.000 seguidores e 8.000 curtidas e comentários. Engajamento?",
+            "alternativas": [
+              "4%",
+              "40%",
+              "0,4%",
+              "25%"
+            ],
+            "correta": 0,
+            "explicacao": "8.000 / 200.000 = 4%.",
+            "dica": "Divida interações por seguidores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual lei diz que a publicidade deve ser fácil de identificar?",
+            "alternativas": [
+              "CLT",
+              "ECA",
+              "Código de Defesa do Consumidor",
+              "LGPD"
+            ],
+            "correta": 2,
+            "explicacao": "O CDC protege o consumidor da publicidade enganosa.",
+            "dica": "É a lei do consumidor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pergunta ajuda a avaliar um post?",
+            "alternativas": [
+              "Qual é a cor do fundo?",
+              "Quantos anos tem o influenciador?",
+              "Ele está bonito?",
+              "Quem ganha se eu comprar?"
+            ],
+            "correta": 3,
+            "explicacao": "Siga o dinheiro.",
+            "dica": "Pense em interesse."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde buscar opiniões mais confiáveis sobre um produto?",
+            "alternativas": [
+              "Em avaliações de várias pessoas fora do perfil",
+              "Só nos comentários fixados",
+              "No vídeo patrocinado",
+              "No cupom"
+            ],
+            "correta": 0,
+            "explicacao": "Fontes independentes.",
+            "dica": "Fora do perfil do influenciador."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Perfil com 500.000 seguidores e 300 curtidas por post. Qual é o engajamento e o que ele sugere?",
+            "alternativas": [
+              "6%, perfil saudável",
+              "0,06%, possível seguidor comprado",
+              "60%, viral",
+              "0,6%, normal"
+            ],
+            "correta": 1,
+            "explicacao": "300 / 500.000 = 0,0006 = 0,06%.",
+            "dica": "Calcule e compare com 4%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um influenciador mostra ganhos fáceis em apostas para um público de adolescentes. O que está errado?",
+            "alternativas": [
+              "Nada",
+              "Só a música",
+              "Apostas são proibidas para menores de 18 e os ganhos fáceis escondem as perdas",
+              "Ele não usou filtro"
+            ],
+            "correta": 2,
+            "explicacao": "Proteção de menores e informação enganosa.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual órgão de autorregulamentação orienta a publicidade de influenciadores?",
+            "alternativas": [
+              "Detran",
+              "INSS",
+              "Banco Central",
+              "CONAR"
+            ],
+            "correta": 3,
+            "explicacao": "Conselho de Autorregulamentação Publicitária.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa live, o influenciador fala bem de um produto pago sem avisar. Isso é:",
+            "alternativas": [
+              "publicidade disfarçada, mesmo ao vivo",
+              "permitido em lives",
+              "notícia",
+              "opinião pessoal livre"
+            ],
+            "correta": 0,
+            "explicacao": "A regra vale para todos os formatos.",
+            "dica": "O formato muda a regra?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene a checagem de um produto mostrado por influenciador.",
+            "itens": [
+              "Verificar se há aviso de publicidade",
+              "Perguntar quem ganha com a venda",
+              "Buscar avaliações independentes",
+              "Decidir se o produto serve para você"
+            ],
+            "explicacao": "Do aviso à decisão.",
+            "dica": "A decisão vem por último."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Dois perfis: A tem 50.000 seguidores e 1.500 interações por post; B tem 300.000 e 6.000. Qual tem maior engajamento?",
+            "alternativas": [
+              "B, porque tem mais seguidores",
+              "A, com 3% contra 2%",
+              "Iguais",
+              "B, com 5%"
+            ],
+            "correta": 1,
+            "explicacao": "A: 1.500 / 50.000 = 3%. B: 6.000 / 300.000 = 2%.",
+            "dica": "Calcule a porcentagem de cada um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um vídeo infantil diz: \"Peça para seus pais comprarem agora, senão você fica de fora!\" Isso é:",
+            "alternativas": [
+              "informação útil",
+              "conteúdo educativo",
+              "publicidade abusiva, que pressiona a criança",
+              "permitido se tiver #publi"
+            ],
+            "correta": 2,
+            "explicacao": "Aproveita a falta de experiência da criança; o aviso não resolve o abuso.",
+            "dica": "O aviso tornaria isso aceitável?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"descobri por acaso e amei\" pode ser enganoso num post pago?",
+            "alternativas": [
+              "Porque esconde o pagamento e finge espontaneidade",
+              "Porque é muito curto",
+              "Porque tem erro de português",
+              "Porque não tem foto"
+            ],
+            "correta": 0,
+            "explicacao": "O seguidor acha que é opinião livre.",
+            "dica": "O que a frase esconde?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um influenciador ganha 2% de comissão por venda. Com 300 vendas de um produto de R$ 100, quanto recebe?",
+            "alternativas": [
+              "R$ 300",
+              "R$ 6.000",
+              "R$ 60",
+              "R$ 600"
+            ],
+            "correta": 3,
+            "explicacao": "300 × 100 = 30.000; 2% de 30.000 = R$ 600.",
+            "dica": "Calcule o total vendido antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual atitude é mais crítica diante de um post patrocinado?",
+            "alternativas": [
+              "Comprar logo para pegar o cupom",
+              "Reconhecer que é propaganda e pesquisar antes de decidir",
+              "Ignorar todos os influenciadores",
+              "Acreditar porque ele tem muitos seguidores"
+            ],
+            "correta": 1,
+            "explicacao": "Publicidade não é proibida, mas pede análise.",
+            "dica": "Nem acreditar, nem rejeitar tudo."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Poema: verso, estrofe, rima e métrica",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "No poema, cada linha é um verso e cada grupo de versos é uma estrofe. Estrofes recebem nomes pelo número de versos: dístico (2), terceto (3), quarteto ou quadra (4), quinteto (5) e sexteto (6).",
+          "Rima é a repetição de sons no fim dos versos. Marcando com letras: AABB é rima emparelhada; ABAB, alternada; ABBA, interpolada. Exemplo de ABAB: \"A chuva bate na telha, / o gato dorme no chão, / a lua surge vermelha, / e eu penso em você, então.\"",
+          "Métrica é a contagem das sílabas poéticas de um verso. Conta-se só até a última sílaba tônica, e vogais que se encontram entre palavras costumam se juntar numa sílaba só (elisão).",
+          "Exemplo: \"O vento passou\" tem 5 sílabas poéticas (O, ven, to, pas, sou). Versos de 5 sílabas são a redondilha menor; de 7, a redondilha maior, muito usada na música e no cordel; de 10, decassílabos.",
+          "Também há versos livres, sem métrica fixa, e versos brancos, sem rima. O ritmo, as imagens e a sonoridade continuam importantes."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quantas sílabas poéticas tem \"Meu caderno tem versos\"?",
+            "resolucao": "Meu, ca, der, no, tem, ver (para na última tônica, \"ver\"): 6 sílabas poéticas, embora tenha 7 sílabas gramaticais."
+          },
+          {
+            "enunciado": "Qual é o esquema de rimas de: telha / chão / vermelha / então?",
+            "resolucao": "ABAB: telha e vermelha (A), chão e então (B). Rima alternada."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Soneto é uma forma fixa com 14 versos: dois quartetos e dois tercetos, normalmente em decassílabos. Foi muito usado por poetas como Camões, Olavo Bilac e Vinicius de Moraes.",
+        "Exemplo de decassílabo: \"O sol se põe por trás do meu telhado\" (O, sol, se, põe, por, trás, do, meu, te, lha = 10). E a redondilha maior aparece num poema famoso de Gonçalves Dias (domínio público): \"Minha terra tem palmeiras\" tem 7 sílabas poéticas.",
+        "Rima rica une palavras de classes gramaticais diferentes (\"telha\", substantivo, com \"vermelha\", adjetivo); rima pobre une palavras da mesma classe (\"amor\" e \"dor\", dois substantivos). Rimas muito óbvias deixam o poema previsível."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada linha de um poema é um:",
+            "alternativas": [
+              "parágrafo",
+              "verso",
+              "capítulo",
+              "título"
+            ],
+            "correta": 1,
+            "explicacao": "Verso é a linha do poema.",
+            "dica": "Não é parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um grupo de versos chama-se:",
+            "alternativas": [
+              "estrofe",
+              "frase",
+              "rima",
+              "sílaba"
+            ],
+            "correta": 0,
+            "explicacao": "Estrofe é o bloco de versos.",
+            "dica": "É o \"parágrafo\" do poema."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma estrofe de 4 versos é um:",
+            "alternativas": [
+              "terceto",
+              "dístico",
+              "quarteto",
+              "sexteto"
+            ],
+            "correta": 2,
+            "explicacao": "Quarteto ou quadra.",
+            "dica": "Quatro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rima é:",
+            "alternativas": [
+              "o título do poema",
+              "o número de estrofes",
+              "o nome do autor",
+              "a repetição de sons no fim dos versos"
+            ],
+            "correta": 3,
+            "explicacao": "Telha e vermelha rimam.",
+            "dica": "Pense no som final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Métrica é:",
+            "alternativas": [
+              "a contagem das sílabas poéticas",
+              "o tamanho do papel",
+              "o número de rimas",
+              "o tema do poema"
+            ],
+            "correta": 0,
+            "explicacao": "Conta-se até a última tônica.",
+            "dica": "Métrica vem de medida."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas sílabas poéticas tem \"O vento passou\"?",
+            "alternativas": [
+              "6",
+              "5",
+              "4",
+              "7"
+            ],
+            "correta": 1,
+            "explicacao": "O, ven, to, pas, sou.",
+            "dica": "Conte até a última sílaba forte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O esquema ABAB é rima:",
+            "alternativas": [
+              "alternada",
+              "emparelhada",
+              "interpolada",
+              "branca"
+            ],
+            "correta": 0,
+            "explicacao": "Alterna A e B.",
+            "dica": "As rimas se revezam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Verso de 7 sílabas poéticas é a:",
+            "alternativas": [
+              "redondilha menor",
+              "decassílabo",
+              "redondilha maior",
+              "alexandrino"
+            ],
+            "correta": 2,
+            "explicacao": "Muito usada no cordel.",
+            "dica": "Maior que a de 5."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas sílabas poéticas tem \"Meu caderno tem versos\"?",
+            "alternativas": [
+              "7",
+              "8",
+              "5",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "Para em \"ver\", a última tônica.",
+            "dica": "A última sílaba fraca não conta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Verso livre é aquele:",
+            "alternativas": [
+              "sem métrica fixa",
+              "sempre com rima",
+              "com exatamente 10 sílabas",
+              "proibido"
+            ],
+            "correta": 0,
+            "explicacao": "Sem contagem obrigatória.",
+            "dica": "Livre de quê?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos versos tem um soneto?",
+            "alternativas": [
+              "12",
+              "14",
+              "10",
+              "16"
+            ],
+            "correta": 1,
+            "explicacao": "Dois quartetos e dois tercetos: 4 + 4 + 3 + 3.",
+            "dica": "Some 4 + 4 + 3 + 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rimas: amor / flor / dor / calor. O esquema é:",
+            "alternativas": [
+              "ABAB",
+              "ABBA",
+              "AAAA",
+              "AABB"
+            ],
+            "correta": 2,
+            "explicacao": "Todas terminam com o mesmo som -or.",
+            "dica": "Compare os sons finais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas sílabas poéticas tem \"Choveu na minha calçada\"?",
+            "alternativas": [
+              "8",
+              "6",
+              "9",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "Cho, veu, na, mi, nha, cal, ça (para na tônica \"ça\").",
+            "dica": "Conte até a sílaba forte de calçada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rima entre \"telha\" (substantivo) e \"vermelha\" (adjetivo) é:",
+            "alternativas": [
+              "rica",
+              "pobre",
+              "branca",
+              "falsa"
+            ],
+            "correta": 0,
+            "explicacao": "Classes gramaticais diferentes.",
+            "dica": "Compare as classes das palavras."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as estrofes de um soneto.",
+            "itens": [
+              "1º quarteto",
+              "2º quarteto",
+              "1º terceto",
+              "2º terceto"
+            ],
+            "explicacao": "Primeiro os quartetos, depois os tercetos.",
+            "dica": "As estrofes maiores vêm primeiro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas sílabas poéticas tem \"O sol se põe por trás do meu telhado\"?",
+            "alternativas": [
+              "11",
+              "10",
+              "9",
+              "12"
+            ],
+            "correta": 1,
+            "explicacao": "O, sol, se, põe, por, trás, do, meu, te, lha.",
+            "dica": "Pare na sílaba tônica de telhado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Esquema de rimas: casa / mar / lar / brasa.",
+            "alternativas": [
+              "ABAB",
+              "AABB",
+              "ABBA",
+              "ABCD"
+            ],
+            "correta": 2,
+            "explicacao": "casa/brasa (A) nas pontas; mar/lar (B) no meio: interpolada.",
+            "dica": "Veja quem rima com quem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"Onde canta o sabiá\" tem 7 sílabas poéticas, e não 8?",
+            "alternativas": [
+              "Porque sabiá não conta",
+              "Porque é verso livre",
+              "Porque a palavra canta não é contada",
+              "Porque \"ta\" e \"o\" se juntam numa sílaba só (elisão)"
+            ],
+            "correta": 3,
+            "explicacao": "On, de, can, ta o, sa, bi, á = 7.",
+            "dica": "Vogais que se encontram entre palavras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre verso branco e verso livre?",
+            "alternativas": [
+              "Branco não tem rima; livre não tem métrica fixa",
+              "São iguais",
+              "Branco não tem métrica; livre não tem rima",
+              "Branco é escrito em papel branco"
+            ],
+            "correta": 0,
+            "explicacao": "Rima e métrica são coisas diferentes.",
+            "dica": "Uma fala de rima, a outra de medida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um poema tem estrofes de 3 versos, todos de 5 sílabas poéticas. Ele usa:",
+            "alternativas": [
+              "quartetos em decassílabos",
+              "tercetos em redondilha menor",
+              "dísticos em redondilha maior",
+              "sonetos"
+            ],
+            "correta": 1,
+            "explicacao": "3 versos = terceto; 5 sílabas = redondilha menor.",
+            "dica": "Junte os dois nomes."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "As ondas que a gente não vê",
+    "texto": "Você está lendo este texto graças a uma onda. A luz que sai da tela ou bate no papel e chega aos seus olhos é uma onda eletromagnética. O curioso é que ela tem muitas irmãs que ninguém consegue enxergar.\n\nTodas essas ondas viajam pelo espaço vazio na mesma velocidade, cerca de 300 mil quilômetros por segundo. O que muda entre elas é a frequência, isto é, quantas vezes vibram por segundo. Juntas, formam o espectro eletromagnético.\n\nNa ponta de menor frequência estão as ondas de rádio. Elas atravessam paredes, levam a música da rádio FM até o carro e o sinal de televisão até a antena. Um pouco acima vêm as micro-ondas, usadas no forno da cozinha, no celular e no wi-fi. No forno, elas fazem as moléculas de água da comida vibrarem, e é esse agito que esquenta o arroz de ontem.\n\nDepois aparece o infravermelho, que sentimos como calor e que o controle remoto usa para mudar de canal. Só então chega a pequena faixa que nossos olhos percebem: a luz visível, do vermelho ao violeta, as cores do arco-íris.\n\nAcima do violeta, de novo, a visão não alcança. O ultravioleta bronzeia e queima a pele, por isso o protetor solar é importante. Os raios X atravessam a carne, mas são barrados pelos ossos, o que permite ao médico ver uma fratura. No topo estão os raios gama, de enorme energia, usados com muito cuidado em tratamentos contra o câncer.\n\nNa próxima vez que mandar uma mensagem, lembre: ela viajou numa onda invisível, prima da luz que ilumina o seu quarto."
+  },
+  "escrita": {
+    "proposta": "Escreva um poema de duas ou três estrofes sobre algo invisível do dia a dia, como o som, o wi-fi, o vento ou a saudade. Cuide do ritmo e tente usar rimas (por exemplo, no esquema ABAB). Depois, embaixo do poema, escreva em uma linha qual esquema de rima você usou."
+  }
+}

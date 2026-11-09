@@ -1,0 +1,906 @@
+{
+  "dia": 45,
+  "blocos": [
+    {
+      "materia": "portugues",
+      "titulo": "Resenha: opinar sobre um livro ou filme",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Resenha é um texto que apresenta uma obra (livro, filme, série, disco, peça) e dá uma opinião fundamentada sobre ela. Serve para ajudar o leitor a decidir se vale a pena ler ou assistir.",
+          "Uma resenha costuma ter quatro partes: identificação (título, autor ou diretor, ano, gênero), resumo curto do enredo, análise com opinião justificada e recomendação (para quem a obra é indicada).",
+          "No resumo, conte o começo e o conflito, mas não entregue o final. Revelar o desfecho, o famoso spoiler, estraga a experiência de quem ainda não conhece a obra.",
+          "A opinião precisa de argumentos. Não basta dizer \"é ótimo\" ou \"é chato\": explique por quê. Fale dos personagens, do ritmo, da linguagem, da trilha sonora, das imagens ou da mensagem.",
+          "A linguagem usa adjetivos que avaliam (envolvente, previsível, emocionante, cansativo) e expressões de opinião (na minha avaliação, o ponto alto é, o filme peca por)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Qual destas frases é análise e qual é resumo? (1) \"A menina muda de escola e precisa fazer novos amigos.\" (2) \"Os diálogos são naturais e fazem a gente se reconhecer nos personagens.\"",
+            "resolucao": "A frase 1 é resumo: conta o que acontece. A frase 2 é análise: avalia e justifica (diálogos naturais, porque o leitor se reconhece)."
+          },
+          {
+            "enunciado": "Reescreva com argumento: \"O livro é muito bom.\"",
+            "resolucao": "\"O livro é envolvente: os capítulos curtos e os diálogos rápidos fazem a leitura voar, e o final deixa uma reflexão sobre amizade.\""
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Resumo e resenha não são a mesma coisa. O resumo só reduz o conteúdo, sem opinião. A resenha usa o resumo como uma parte e acrescenta a avaliação, que é o centro do texto.",
+        "Uma boa resenha também reconhece pontos fracos, mesmo quando recomenda a obra: \"Apesar do meio um pouco arrastado, o filme compensa com um final emocionante.\" Isso mostra equilíbrio e aumenta a confiança do leitor.",
+        "Antes de escrever, anote: do que gostei, do que não gostei e por quê, e para quem eu indicaria. Comparar com outra obra conhecida do mesmo gênero também ajuda o leitor a entender a avaliação."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve uma resenha?",
+            "alternativas": [
+              "Fazer propaganda sem opinião",
+              "Contar só o final da história",
+              "Apresentar uma obra e dar uma opinião justificada",
+              "Copiar o livro inteiro"
+            ],
+            "correta": 2,
+            "explicacao": "A resenha mistura apresentação e avaliação.",
+            "dica": "Ela ajuda o leitor a decidir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é spoiler?",
+            "alternativas": [
+              "Revelar o final ou uma surpresa da obra",
+              "O nome do autor",
+              "A capa do livro",
+              "Um tipo de resenha longa"
+            ],
+            "correta": 0,
+            "explicacao": "Spoiler é entregar o desfecho.",
+            "dica": "É algo que estraga a surpresa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase é uma opinião com argumento?",
+            "alternativas": [
+              "A história se passa em Belém.",
+              "O filme é emocionante porque a trilha sonora acompanha cada cena.",
+              "O filme foi lançado em 2020.",
+              "O livro tem 120 páginas."
+            ],
+            "correta": 1,
+            "explicacao": "Há avaliação e justificativa.",
+            "dica": "Procure um porque."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual parte diz para quem a obra é indicada?",
+            "alternativas": [
+              "Recomendação",
+              "Resumo",
+              "Identificação",
+              "Título"
+            ],
+            "correta": 0,
+            "explicacao": "A recomendação fecha a resenha.",
+            "dica": "É a parte que indica o público."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na identificação da obra, aparece:",
+            "alternativas": [
+              "só a opinião",
+              "o final da história",
+              "a nota da prova",
+              "título, autor ou diretor e ano"
+            ],
+            "correta": 3,
+            "explicacao": "A identificação diz qual é a obra.",
+            "dica": "É como a ficha da obra."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas frases é resumo, e não análise?",
+            "alternativas": [
+              "Os atores convencem nos momentos tristes.",
+              "O menino perde o cachorro e sai pelo bairro procurando.",
+              "A narração é delicada e emociona sem exagero.",
+              "O ritmo é lento demais na metade."
+            ],
+            "correta": 1,
+            "explicacao": "Resumo conta o que acontece, sem avaliar.",
+            "dica": "Qual frase não tem opinião?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual adjetivo é avaliativo?",
+            "alternativas": [
+              "brasileiro",
+              "previsível",
+              "azul",
+              "longo de 2 horas"
+            ],
+            "correta": 1,
+            "explicacao": "Previsível julga a obra.",
+            "dica": "Qual palavra dá uma opinião?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor reescrita para \"O livro é chato\"?",
+            "alternativas": [
+              "Não gostei.",
+              "O livro é chato, chato, chato.",
+              "O livro é muito chato mesmo.",
+              "O livro cansa porque repete as mesmas cenas e quase nada muda até o fim."
+            ],
+            "correta": 3,
+            "explicacao": "A versão boa explica o motivo.",
+            "dica": "Opinião precisa de motivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ordem mais comum das partes da resenha?",
+            "alternativas": [
+              "Só resumo",
+              "Recomendação, final, título e autor",
+              "Identificação, resumo, análise e recomendação",
+              "Análise, título, spoiler e resumo"
+            ],
+            "correta": 2,
+            "explicacao": "Primeiro apresenta, depois resume, avalia e recomenda.",
+            "dica": "Comece dizendo qual é a obra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual expressão introduz uma opinião?",
+            "alternativas": [
+              "Na minha avaliação",
+              "Em 1998",
+              "No capítulo 3",
+              "Era uma vez"
+            ],
+            "correta": 0,
+            "explicacao": "É uma marca de opinião.",
+            "dica": "Qual delas mostra quem avalia?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre resumo e resenha?",
+            "alternativas": [
+              "O resumo tem mais opinião",
+              "A resenha não pode ter resumo",
+              "São iguais",
+              "A resenha tem avaliação; o resumo só reduz o conteúdo"
+            ],
+            "correta": 3,
+            "explicacao": "A resenha usa o resumo e acrescenta a crítica.",
+            "dica": "Qual dos dois tem opinião?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Apesar do meio arrastado, o filme compensa com um final emocionante.\" O que essa frase mostra?",
+            "alternativas": [
+              "Equilíbrio: reconhece um ponto fraco e um forte",
+              "Spoiler do final",
+              "Falta de opinião",
+              "Só resumo"
+            ],
+            "correta": 0,
+            "explicacao": "Reconhecer pontos fracos aumenta a confiança.",
+            "dica": "A frase fala de um defeito e de uma qualidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual trecho de resenha comete spoiler?",
+            "alternativas": [
+              "A narradora é uma menina curiosa.",
+              "A investigação começa com um sumiço na feira.",
+              "No fim, descobrimos que o vizinho era o ladrão.",
+              "O mistério prende do começo ao fim."
+            ],
+            "correta": 2,
+            "explicacao": "Revelar quem é o culpado entrega o final.",
+            "dica": "Qual trecho estraga a surpresa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para uma resenha de série, qual argumento é mais forte?",
+            "alternativas": [
+              "Tem dez episódios.",
+              "Cada episódio termina com uma dúvida que faz querer ver o próximo.",
+              "Eu vi num domingo.",
+              "Minha prima gostou."
+            ],
+            "correta": 1,
+            "explicacao": "Mostra uma qualidade da obra com explicação.",
+            "dica": "O argumento deve falar da obra, não de quem viu."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os trechos da resenha de um livro inventado:",
+            "itens": [
+              "\"Vozes do Morro\", de Ana Prado, saiu em 2021.",
+              "O livro conta a história de uma rádio comunitária ameaçada de fechar.",
+              "Os diálogos são vivos e mostram o humor do bairro.",
+              "Indico para quem gosta de histórias sobre comunidade."
+            ],
+            "explicacao": "Identificação, resumo, análise e recomendação.",
+            "dica": "Comece pelos dados da obra."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual resenha (de um filme inventado) está mais completa?",
+            "alternativas": [
+              "Gostei muito, assistam.",
+              "É um filme de 2019 com 1h40.",
+              "\"Céu de Pipas\" (2019) mostra três amigos num verão na periferia; o roteiro é sensível e o fim aberto incomoda alguns, mas vale para quem gosta de histórias de amizade.",
+              "O filme termina com os amigos se mudando, e a pipa cai no rio."
+            ],
+            "correta": 2,
+            "explicacao": "Tem identificação, resumo, análise equilibrada e recomendação.",
+            "dica": "Procure as quatro partes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um resenhista escreve: \"O livro é bom porque é bom.\" Qual é o problema?",
+            "alternativas": [
+              "Tem spoiler",
+              "É longo demais",
+              "Não tem problema",
+              "O argumento é circular: repete a opinião sem justificar"
+            ],
+            "correta": 3,
+            "explicacao": "Justificar com a própria afirmação não convence.",
+            "dica": "O motivo dado é diferente da opinião?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que comparar a obra com outra do mesmo gênero pode ajudar o leitor?",
+            "alternativas": [
+              "Porque revela o final",
+              "Porque dá uma referência conhecida para entender a avaliação",
+              "Porque dispensa a opinião",
+              "Porque substitui o resumo"
+            ],
+            "correta": 1,
+            "explicacao": "Comparar situa o leitor.",
+            "dica": "Pense numa referência que o leitor já conhece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase mistura análise de linguagem com recomendação?",
+            "alternativas": [
+              "Escrito em versos curtos e fáceis, o livro é ótimo para quem está começando a ler poesia.",
+              "O livro tem 64 páginas.",
+              "O livro foi publicado em São Paulo.",
+              "O livro tem uma capa amarela."
+            ],
+            "correta": 0,
+            "explicacao": "Fala da linguagem (versos curtos) e indica o público.",
+            "dica": "Qual frase avalia e indica?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na resenha de um filme triste que você recomenda, qual frase reconhece um ponto fraco sem desanimar o leitor?",
+            "alternativas": [
+              "O filme é ruim em tudo.",
+              "O filme é perfeito em tudo.",
+              "Embora algumas cenas se arrastem, a atuação da protagonista faz valer cada minuto.",
+              "Não assistam, é lento."
+            ],
+            "correta": 2,
+            "explicacao": "Embora introduz o ponto fraco; a segunda parte, o forte.",
+            "dica": "Use uma concessão seguida de uma qualidade."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "ingles",
+      "titulo": "Jobs and professions",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Para perguntar a profissão de alguém em inglês, diga \"What do you do?\" (O que você faz?). A resposta é \"I'm a teacher\" (Sou professor). Para outra pessoa: \"What does she do?\" — \"She's a nurse\" (Ela é enfermeira).",
+          "Em inglês, a profissão leva o artigo a ou an: \"He is a doctor\", \"She is an engineer\". Usa-se an antes de som de vogal: an engineer, an accountant (contador), an electrician (eletricista).",
+          "Profissões comuns: teacher (professor), nurse (enfermeiro), doctor (médico), firefighter (bombeiro), police officer (policial), cook (cozinheiro), farmer (agricultor), driver (motorista), mechanic (mecânico), lawyer (advogado), cashier (operador de caixa), dentist (dentista).",
+          "Muitas profissões vêm de verbos com -er, -or ou -ist: teach → teacher, drive → driver, act → actor, art → artist.",
+          "Para dizer onde a pessoa trabalha: \"She works at a hospital\" (Ela trabalha num hospital), \"He works in an office\" (Ele trabalha num escritório)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como se diz \"Minha mãe é enfermeira e trabalha num hospital\"?",
+            "resolucao": "\"My mother is a nurse and she works at a hospital.\" Repare no a antes de nurse e no -s de works, porque she é terceira pessoa."
+          },
+          {
+            "enunciado": "Por que se diz an engineer e não a engineer?",
+            "resolucao": "Porque engineer começa com som de vogal. Antes de som de vogal usa-se an; antes de som de consoante, a: a doctor, a farmer."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Cuidado com falsos amigos: \"lawyer\" não é \"leiteiro\", é advogado; \"pharmacist\" é farmacêutico. E \"office\" é escritório, não \"ofício\".",
+        "Algumas profissões mudaram para palavras neutras: firefighter (em vez de fireman) e police officer (em vez de policeman). Assim, valem para homens e mulheres.",
+        "Para falar de sonhos: \"I want to be a vet\" (Quero ser veterinário) ou \"I'd like to be an architect\" (Eu gostaria de ser arquiteto). Note o to depois de want e de would like."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que quer dizer \"teacher\"?",
+            "alternativas": [
+              "motorista",
+              "enfermeiro",
+              "cozinheiro",
+              "professor"
+            ],
+            "correta": 3,
+            "explicacao": "Teacher vem de teach, ensinar.",
+            "dica": "Teach quer dizer ensinar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se diz \"bombeiro\" em inglês?",
+            "alternativas": [
+              "firefighter",
+              "driver",
+              "farmer",
+              "lawyer"
+            ],
+            "correta": 0,
+            "explicacao": "Fire é fogo; fighter é quem luta.",
+            "dica": "É quem luta contra o fogo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se pergunta a profissão de alguém?",
+            "alternativas": [
+              "Where are you?",
+              "What do you do?",
+              "How old are you?",
+              "What time is it?"
+            ],
+            "correta": 1,
+            "explicacao": "\"What do you do?\" pergunta o que a pessoa faz.",
+            "dica": "A pergunta usa o verbo do, fazer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"She is a nurse\" quer dizer:",
+            "alternativas": [
+              "Ela é professora.",
+              "Ela é médica.",
+              "Ela é dentista.",
+              "Ela é enfermeira."
+            ],
+            "correta": 3,
+            "explicacao": "Nurse é enfermeira.",
+            "dica": "Nurse trabalha cuidando de pacientes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz um \"driver\"?",
+            "alternativas": [
+              "Ensina",
+              "Cozinha",
+              "Dirige",
+              "Planta"
+            ],
+            "correta": 2,
+            "explicacao": "Drive é dirigir; driver é motorista.",
+            "dica": "Pense no verbo drive."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"He is ___ engineer.\"",
+            "alternativas": [
+              "one an",
+              "an",
+              "the a",
+              "a"
+            ],
+            "correta": 1,
+            "explicacao": "Engineer começa com som de vogal: an.",
+            "dica": "Veja o som da primeira letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"My father ___ in an office.\"",
+            "alternativas": [
+              "is work",
+              "work",
+              "working",
+              "works"
+            ],
+            "correta": 3,
+            "explicacao": "Terceira pessoa do singular leva -s: works.",
+            "dica": "My father é he."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a profissão de quem trabalha no caixa do mercado?",
+            "alternativas": [
+              "pilot",
+              "farmer",
+              "cashier",
+              "dentist"
+            ],
+            "correta": 2,
+            "explicacao": "Cashier vem de cash, dinheiro.",
+            "dica": "Cash quer dizer dinheiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Resposta para \"What does she do?\":",
+            "alternativas": [
+              "She's a dentist.",
+              "She's at home now.",
+              "She's fine.",
+              "She's 13."
+            ],
+            "correta": 0,
+            "explicacao": "A pergunta é sobre profissão.",
+            "dica": "A pergunta é sobre o trabalho dela."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual profissão vem do verbo act?",
+            "alternativas": [
+              "acter",
+              "actist",
+              "action",
+              "actor"
+            ],
+            "correta": 3,
+            "explicacao": "Act + or = actor.",
+            "dica": "Algumas profissões terminam em -or."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se diz \"Meu tio é eletricista e trabalha numa fábrica\"?",
+            "alternativas": [
+              "My uncle are an electrician and works at factory.",
+              "My uncle is a electrician and he work at a factory.",
+              "My uncle is electrician and he works in factory.",
+              "My uncle is an electrician and he works at a factory."
+            ],
+            "correta": 3,
+            "explicacao": "An electrician (som de vogal) e works (terceira pessoa).",
+            "dica": "Confira o artigo e o -s do verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que significa \"lawyer\"?",
+            "alternativas": [
+              "advogado",
+              "lavadeira",
+              "leiteiro",
+              "lavrador"
+            ],
+            "correta": 0,
+            "explicacao": "Law é lei; lawyer é advogado.",
+            "dica": "Law quer dizer lei."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual palavra é neutra, serve para homem e mulher?",
+            "alternativas": [
+              "salesman",
+              "policeman",
+              "police officer",
+              "fireman"
+            ],
+            "correta": 2,
+            "explicacao": "Officer não indica gênero.",
+            "dica": "Procure a que não tem man."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se diz \"Eu quero ser veterinária\"?",
+            "alternativas": [
+              "I wants to be vet.",
+              "I want to be a vet.",
+              "I want be a vet.",
+              "I want to a vet."
+            ],
+            "correta": 1,
+            "explicacao": "Want to be + a + profissão.",
+            "dica": "Depois de want vem to."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque as palavras em ordem para formar a pergunta:",
+            "itens": [
+              "What",
+              "does",
+              "your mother",
+              "do?"
+            ],
+            "explicacao": "What + does + sujeito + do?",
+            "dica": "A pergunta começa com What."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem DOIS erros?",
+            "alternativas": [
+              "She are a engineer.",
+              "She is an engineer.",
+              "They are teachers.",
+              "He is a farmer."
+            ],
+            "correta": 0,
+            "explicacao": "O certo é \"She is an engineer\": errou o verbo e o artigo.",
+            "dica": "Confira o verbo to be e o artigo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa diz \"I work in an office and I help companies with taxes\". Qual é a profissão provável?",
+            "alternativas": [
+              "pilot",
+              "accountant",
+              "farmer",
+              "firefighter"
+            ],
+            "correta": 1,
+            "explicacao": "Escritório e impostos (taxes): contador.",
+            "dica": "Taxes quer dizer impostos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"They ___ nurses. They work at a hospital.\"",
+            "alternativas": [
+              "is",
+              "be",
+              "are",
+              "am"
+            ],
+            "correta": 2,
+            "explicacao": "They + are.",
+            "dica": "They é plural."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual alternativa usa corretamente a e an?",
+            "alternativas": [
+              "a artist, a cook, a actor",
+              "an artist, a cook, an actor",
+              "an artist, an cook, an actor",
+              "a artist, an cook, a actor"
+            ],
+            "correta": 1,
+            "explicacao": "An antes de som de vogal (artist, actor); a antes de consoante (cook).",
+            "dica": "Separe as palavras pelo som inicial."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Office\" significa:",
+            "alternativas": [
+              "ofício",
+              "policial",
+              "oficina mecânica",
+              "escritório"
+            ],
+            "correta": 3,
+            "explicacao": "É um falso amigo: office é escritório.",
+            "dica": "Não se deixe levar pela semelhança."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "cidadania",
+      "titulo": "Defesa Civil: enchentes e riscos na cidade",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A Defesa Civil é o órgão público que previne e responde a desastres como enchentes, deslizamentos de terra, vendavais e incêndios. Ela avisa a população, retira pessoas de áreas de risco e organiza abrigos. Telefone: 199. Bombeiros: 193.",
+          "Em São Paulo, chuvas fortes de verão provocam enchentes e deslizamentos, principalmente em áreas perto de córregos e em encostas. Lixo nos bueiros e ruas muito asfaltadas pioram a situação, porque a água não tem para onde escoar.",
+          "É possível receber alertas de graça no celular: basta enviar um SMS com o CEP para o número 40199. A Defesa Civil também manda avisos que aparecem direto na tela do celular em situações graves.",
+          "Na enchente: nunca atravesse rua alagada, a pé ou de carro, porque pouca água em movimento já derruba uma pessoa e arrasta um carro. Desligue a energia no quadro de luz e vá para um lugar alto. Evite contato com a água da enchente, que pode transmitir leptospirose.",
+          "Sinais de risco de deslizamento: rachaduras novas nas paredes, portas e janelas que emperram, árvores e postes inclinados e água barrenta minando do barranco. Ao perceber, saia de casa e chame a Defesa Civil."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "A Patrícia mora perto de um córrego e quer receber os alertas de chuva. O que ela faz?",
+            "resolucao": "Envia um SMS com o CEP da casa para 40199. É de graça. Quando houver risco de chuva forte, ela recebe o aviso no celular."
+          },
+          {
+            "enunciado": "Começou a chover forte, e a rua da escola virou um rio de 30 cm de água. Um colega diz que dá para passar. O que fazer?",
+            "resolucao": "Não atravessar. A correnteza pode derrubar e arrastar, e a água pode esconder bueiros abertos. O certo é esperar em lugar seguro e alto e avisar um adulto."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Leptospirose é uma doença causada por uma bactéria que está na urina de ratos e se espalha na água da enchente. Os sintomas (febre, dor de cabeça, dor forte na batata da perna) podem aparecer dias depois. Quem teve contato com essa água e passou mal deve procurar a unidade de saúde e contar que entrou na enchente.",
+        "Toda família que mora em área de risco deve ter um plano: um kit com documentos em saco plástico, lanterna, remédios, água, carregador de celular, e um ponto de encontro combinado, caso as pessoas se separem.",
+        "Prevenir é coletivo: não jogar lixo na rua nem no córrego, não construir em encostas e beiras de rio, plantar árvores e cobrar do poder público obras de drenagem e moradia segura. A Constituição garante a todos o direito à moradia e a um meio ambiente equilibrado."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o telefone da Defesa Civil?",
+            "alternativas": [
+              "190",
+              "192",
+              "100",
+              "199"
+            ],
+            "correta": 3,
+            "explicacao": "Defesa Civil: 199.",
+            "dica": "Termina com dois noves."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para receber alertas por SMS, envia-se o CEP para:",
+            "alternativas": [
+              "193",
+              "190",
+              "40199",
+              "12345"
+            ],
+            "correta": 2,
+            "explicacao": "O número é 40199.",
+            "dica": "O número termina com o telefone da Defesa Civil."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que fazer diante de uma rua alagada?",
+            "alternativas": [
+              "Passar de bicicleta",
+              "Não atravessar",
+              "Atravessar correndo",
+              "Nadar"
+            ],
+            "correta": 1,
+            "explicacao": "Pouca água em movimento já derruba e arrasta.",
+            "dica": "A correnteza é mais forte do que parece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Que doença pode ser transmitida pela água da enchente?",
+            "alternativas": [
+              "Catapora",
+              "Miopia",
+              "Cárie",
+              "Leptospirose"
+            ],
+            "correta": 3,
+            "explicacao": "A bactéria vem da urina de ratos.",
+            "dica": "Ela está ligada aos ratos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O lixo nos bueiros:",
+            "alternativas": [
+              "piora as enchentes",
+              "evita a chuva",
+              "ajuda a água a escoar",
+              "não faz diferença"
+            ],
+            "correta": 0,
+            "explicacao": "Bueiro entupido não deixa a água escoar.",
+            "dica": "Para onde vai a água se o bueiro está entupido?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é sinal de risco de deslizamento?",
+            "alternativas": [
+              "Rua varrida",
+              "Céu azul",
+              "Plantas no vaso",
+              "Rachaduras novas nas paredes"
+            ],
+            "correta": 3,
+            "explicacao": "Rachaduras novas indicam que o terreno está se mexendo.",
+            "dica": "O que mostra que a casa está se mexendo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na enchente, o que fazer com a energia elétrica de casa?",
+            "alternativas": [
+              "Desligar no quadro de luz",
+              "Tocar nos fios para testar",
+              "Ligar mais aparelhos",
+              "Deixar tudo ligado"
+            ],
+            "correta": 0,
+            "explicacao": "Água e eletricidade juntas causam choque.",
+            "dica": "Água conduz eletricidade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o telefone dos Bombeiros?",
+            "alternativas": [
+              "190",
+              "188",
+              "193",
+              "199"
+            ],
+            "correta": 2,
+            "explicacao": "Bombeiros: 193.",
+            "dica": "Termina com 3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que ruas muito asfaltadas pioram as enchentes?",
+            "alternativas": [
+              "Porque o asfalto chama chuva",
+              "Porque a água não infiltra no chão",
+              "Porque o asfalto seca o rio",
+              "Não pioram"
+            ],
+            "correta": 1,
+            "explicacao": "Sem terra para absorver, a água corre toda para as ruas.",
+            "dica": "Onde a água da chuva entra num chão de terra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais lugares têm mais risco em chuva forte?",
+            "alternativas": [
+              "Topo de prédio no centro",
+              "Escolas longe de rios",
+              "Beira de córrego e encostas",
+              "Praças planas e altas"
+            ],
+            "correta": 2,
+            "explicacao": "Água sobe nos córregos e a terra desliza nas encostas.",
+            "dica": "Pense em água subindo e terra descendo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma família ouviu estalos na parede e a porta começou a emperrar durante a chuva. O que fazer?",
+            "alternativas": [
+              "Sair de casa e ligar para a Defesa Civil (199)",
+              "Subir no telhado",
+              "Fechar a porta com força",
+              "Esperar a chuva parar dentro de casa"
+            ],
+            "correta": 0,
+            "explicacao": "São sinais de deslizamento: sair e pedir ajuda.",
+            "dica": "Os sinais indicam terreno em movimento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rodrigo andou na água da enchente e, cinco dias depois, teve febre e dor na batata da perna. O que ele deve fazer?",
+            "alternativas": [
+              "Esperar passar",
+              "Tomar qualquer remédio sozinho",
+              "Ir à unidade de saúde e contar que teve contato com a enchente",
+              "Nada, porque já passou muito tempo"
+            ],
+            "correta": 2,
+            "explicacao": "Pode ser leptospirose, que aparece dias depois.",
+            "dica": "Os sintomas combinam com qual doença?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que deve ter no kit de emergência da família?",
+            "alternativas": [
+              "Só o videogame",
+              "Nada, a Defesa Civil leva tudo",
+              "Móveis pesados",
+              "Documentos em saco plástico, lanterna, remédios e água"
+            ],
+            "correta": 3,
+            "explicacao": "O kit garante o básico para sair rápido.",
+            "dica": "O que você precisaria se tivesse de sair de casa às pressas?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que combinar um ponto de encontro com a família?",
+            "alternativas": [
+              "Para guardar o carro",
+              "Para se reencontrar caso todos se separem na saída",
+              "Porque a lei exige",
+              "Para fazer piquenique"
+            ],
+            "correta": 1,
+            "explicacao": "Na correria, as pessoas podem se perder.",
+            "dica": "Pense na hora da confusão."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que fazer quando chega o alerta de enchente:",
+            "itens": [
+              "Ler o alerta e avisar a família",
+              "Desligar a energia e pegar o kit",
+              "Ir para um lugar alto e seguro",
+              "Voltar só quando a Defesa Civil liberar"
+            ],
+            "explicacao": "Avisar, preparar, sair e esperar a liberação.",
+            "dica": "Comece pela informação."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual direito garantido pela Constituição de 1988 está ligado a morar fora de áreas de risco?",
+            "alternativas": [
+              "Direito de propriedade de carro",
+              "Direito à moradia",
+              "Direito ao voto aos 16",
+              "Direito ao lazer na praia"
+            ],
+            "correta": 1,
+            "explicacao": "A Constituição garante o direito social à moradia.",
+            "dica": "É um direito social ligado à casa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a água da enchente com 30 cm de altura é perigosa, mesmo parecendo rasa?",
+            "alternativas": [
+              "Não é perigosa",
+              "Porque é fria",
+              "A correnteza derruba e arrasta, e a água esconde buracos e bueiros",
+              "Porque é salgada"
+            ],
+            "correta": 2,
+            "explicacao": "Força da correnteza e perigos escondidos.",
+            "dica": "Pense no que não se vê embaixo da água."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual ação coletiva diminui as enchentes no bairro?",
+            "alternativas": [
+              "Não jogar lixo no córrego e cobrar obras de drenagem",
+              "Construir na beira do córrego",
+              "Jogar entulho nas encostas",
+              "Asfaltar todos os quintais"
+            ],
+            "correta": 0,
+            "explicacao": "Prevenção envolve cada um e o poder público.",
+            "dica": "O que deixa a água escoar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O alerta da Defesa Civil diz \"risco alto de deslizamento\" e sua casa fica numa encosta. Seu tio diz que nunca aconteceu nada ali. O que pesa mais?",
+            "alternativas": [
+              "O alerta oficial: sair e ir para um lugar seguro",
+              "Esperar ver a terra descer",
+              "Gravar um vídeo para as redes",
+              "A experiência do tio: ficar"
+            ],
+            "correta": 0,
+            "explicacao": "O fato de nunca ter acontecido não garante segurança.",
+            "dica": "Quem tem dados sobre a chuva e o solo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sequência de números está correta?",
+            "alternativas": [
+              "Defesa Civil 190, Bombeiros 199, SAMU 193, Polícia 192",
+              "Defesa Civil 193, Bombeiros 192, SAMU 190, Polícia 199",
+              "Todos são 199",
+              "Defesa Civil 199, Bombeiros 193, SAMU 192, Polícia 190"
+            ],
+            "correta": 3,
+            "explicacao": "199, 193, 192 e 190.",
+            "dica": "Lembre que a Defesa Civil termina com 99."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A noite em que o córrego subiu",
+    "texto": "Era uma terça de fevereiro, e a chuva começou no fim da tarde, grossa, sem pressa de acabar. No Jardim Ângela, a casa da família da Natália ficava a poucos metros do córrego.\n\nÀs nove da noite, o celular da mãe dela, a Joana, vibrou com um barulho diferente, mais alto que o normal. Era a Defesa Civil: risco alto de alagamento e transbordamento de córregos na região. Procure um local seguro.\n\nO pai, o Edson, olhou pela janela.\n\n— O córrego está baixo ainda. Já choveu assim outras vezes.\n\nA Natália lembrou da aula da semana anterior. A professora tinha mostrado que a água sobe de repente, em minutos, porque vem de longe, das ruas asfaltadas e dos bueiros entupidos.\n\n— Pai, o alerta não chega à toa. A gente combinou o plano, lembra?\n\nCombinaram mesmo, num domingo qualquer, meio rindo. Documentos num saco plástico, remédio da avó, lanterna e carregador numa mochila atrás da porta. Ponto de encontro: a igreja no alto da rua.\n\nO Edson desligou a energia no quadro de luz. A Joana pegou a mochila. A avó foi de braço dado com a Natália. Em dez minutos, estavam todos na igreja, com outras famílias e uma equipe da Defesa Civil.\n\nÀs onze, o córrego passou por cima da ponte. A água entrou na casa e chegou à altura da mesa.\n\nPerderam o sofá, a geladeira e o colchão. Nenhuma pessoa se machucou.\n\nNo sábado, durante a limpeza, o Edson foi o primeiro a cadastrar o CEP no número da Defesa Civil."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva uma resenha curta de um livro, filme ou série que você conheça. Comece com a identificação (título, autor ou diretor e ano, se souber), faça um resumo sem contar o final, dê a sua opinião com pelo menos dois argumentos e termine dizendo para quem você recomenda a obra."
+  }
+}

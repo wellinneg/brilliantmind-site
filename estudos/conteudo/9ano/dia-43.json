@@ -1,0 +1,1204 @@
+{
+  "dia": 43,
+  "blocos": [
+    {
+      "materia": "ciencias",
+      "titulo": "Força e as três leis de Newton",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Força é um empurrão ou um puxão que pode mudar o movimento de um corpo ou deformá-lo. É medida em newtons (N). Quando várias forças agem, o que importa é a força resultante: forças no mesmo sentido somam; em sentidos opostos, subtraem.",
+          "1ª lei (inércia): um corpo parado tende a continuar parado, e um corpo em movimento tende a continuar em linha reta com a mesma velocidade, se a resultante for zero. Por isso, quando o ônibus freia, o passageiro vai para a frente.",
+          "2ª lei: a força resultante é igual à massa vezes a aceleração, F = m · a. Com a mesma força, quem tem mais massa acelera menos. Empurrar um carrinho de mercado vazio é mais fácil do que um cheio.",
+          "3ª lei (ação e reação): quando um corpo faz força em outro, recebe de volta uma força de mesmo tamanho, mesma direção e sentido oposto. O foguete empurra os gases para baixo, e os gases empurram o foguete para cima.",
+          "Peso é a força com que a Terra puxa um corpo: P = m · g, com g ≈ 10 m/s². Uma pessoa de 50 kg tem peso de cerca de 500 N. Massa é a quantidade de matéria e não muda de lugar para lugar; o peso muda."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um carro de 1.000 kg acelera 2 m/s². Qual é a força resultante?",
+            "resolucao": "F = m · a = 1.000 × 2 = 2.000 N."
+          },
+          {
+            "enunciado": "Duas crianças puxam uma caixa: uma com 50 N para a direita e outra com 20 N para a esquerda. Qual é a resultante?",
+            "resolucao": "Sentidos opostos: 50 − 20 = 30 N, para a direita."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Atrito é a força que se opõe ao deslizamento. Se alguém empurra um móvel de 20 kg com 100 N e o atrito é de 40 N, a resultante é 60 N e a aceleração é a = 60 / 20 = 3 m/s².",
+        "Aceleração é quanto a velocidade muda por segundo: a = (velocidade final − velocidade inicial) / tempo. Um carro de 1.200 kg que vai de 0 a 20 m/s em 10 s tem a = 2 m/s² e precisa de resultante de 2.400 N.",
+        "Ação e reação agem em corpos diferentes, por isso não se anulam. Quando um caminhão bate num carro, a força que cada um recebe tem o mesmo tamanho; o carro sofre mais porque tem menos massa e, por isso, maior aceleração (F = m · a). Na Lua, onde g ≈ 1,6 m/s², uma pessoa de 60 kg pesa 96 N, mas continua com 60 kg de massa."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Força é medida em:",
+            "alternativas": [
+              "metros",
+              "newtons",
+              "quilos",
+              "segundos"
+            ],
+            "correta": 1,
+            "explicacao": "A unidade de força é o newton (N).",
+            "dica": "O nome homenageia o cientista da aula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando o ônibus freia, o passageiro vai para a frente por causa da:",
+            "alternativas": [
+              "inércia",
+              "gravidade da Lua",
+              "eletricidade",
+              "reação do motor"
+            ],
+            "correta": 0,
+            "explicacao": "O corpo tende a continuar em movimento.",
+            "dica": "É a 1ª lei."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A 2ª lei de Newton diz que:",
+            "alternativas": [
+              "F = m + a",
+              "F = m − a",
+              "F = m · a",
+              "F = a / m"
+            ],
+            "correta": 2,
+            "explicacao": "Força é massa vezes aceleração.",
+            "dica": "É uma multiplicação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O foguete sobe porque empurra os gases para baixo. Isso é a lei da:",
+            "alternativas": [
+              "inércia",
+              "gravidade",
+              "conservação",
+              "ação e reação"
+            ],
+            "correta": 3,
+            "explicacao": "Os gases empurram o foguete de volta.",
+            "dica": "É a 3ª lei."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pessoa de 50 kg tem peso de cerca de:",
+            "alternativas": [
+              "500 N",
+              "50 N",
+              "5 N",
+              "5.000 N"
+            ],
+            "correta": 0,
+            "explicacao": "P = 50 × 10 = 500 N.",
+            "dica": "Multiplique a massa por 10."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro de 1.000 kg acelera 2 m/s². Qual é a força resultante?",
+            "alternativas": [
+              "500 N",
+              "1.002 N",
+              "2.000 N",
+              "200 N"
+            ],
+            "correta": 2,
+            "explicacao": "F = 1.000 × 2.",
+            "dica": "Use F = m · a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Forças de 50 N para a direita e 20 N para a esquerda dão resultante de:",
+            "alternativas": [
+              "70 N para a direita",
+              "30 N para a direita",
+              "30 N para a esquerda",
+              "0 N"
+            ],
+            "correta": 1,
+            "explicacao": "Opostas: subtrai. Ganha a maior.",
+            "dica": "Sentidos opostos se subtraem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma força de 30 N age num corpo de 6 kg. Qual é a aceleração?",
+            "alternativas": [
+              "180 m/s²",
+              "36 m/s²",
+              "24 m/s²",
+              "5 m/s²"
+            ],
+            "correta": 3,
+            "explicacao": "a = F / m = 30 / 6.",
+            "dica": "Isole a em F = m · a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é mais difícil empurrar o carrinho de mercado cheio?",
+            "alternativas": [
+              "Porque tem mais massa e acelera menos com a mesma força",
+              "Porque tem menos massa",
+              "Porque o atrito some",
+              "Porque a inércia diminui"
+            ],
+            "correta": 0,
+            "explicacao": "2ª lei: mais massa, menos aceleração.",
+            "dica": "Pense em F = m · a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas grandezas NÃO muda se você for para a Lua?",
+            "alternativas": [
+              "O peso",
+              "A massa",
+              "A força da gravidade sobre você",
+              "A leitura de uma balança de mola"
+            ],
+            "correta": 1,
+            "explicacao": "A massa é a quantidade de matéria.",
+            "dica": "Qual depende do lugar?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um móvel de 20 kg é empurrado com 100 N e o atrito é de 40 N. Qual é a aceleração?",
+            "alternativas": [
+              "5 m/s²",
+              "2 m/s²",
+              "3 m/s²",
+              "7 m/s²"
+            ],
+            "correta": 2,
+            "explicacao": "Resultante 60 N; a = 60 / 20 = 3.",
+            "dica": "Primeiro desconte o atrito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro vai de 0 a 20 m/s em 10 s. Qual é a aceleração?",
+            "alternativas": [
+              "2 m/s²",
+              "10 m/s²",
+              "200 m/s²",
+              "0,5 m/s²"
+            ],
+            "correta": 0,
+            "explicacao": "a = 20 / 10 = 2 m/s².",
+            "dica": "Variação de velocidade dividida pelo tempo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o peso de uma pessoa de 60 kg na Lua (g ≈ 1,6 m/s²)?",
+            "alternativas": [
+              "600 N",
+              "60 N",
+              "37,5 N",
+              "96 N"
+            ],
+            "correta": 3,
+            "explicacao": "P = 60 × 1,6 = 96 N.",
+            "dica": "Troque o g da Terra pelo da Lua."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao remar, o barco vai para a frente porque:",
+            "alternativas": [
+              "o remo empurra a água para trás e a água empurra o barco para a frente",
+              "a água fica parada",
+              "o barco perde massa",
+              "não há força"
+            ],
+            "correta": 0,
+            "explicacao": "Ação e reação.",
+            "dica": "Quem empurra quem?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para achar a aceleração de um corpo com várias forças.",
+            "itens": [
+              "Desenhar as forças que agem no corpo",
+              "Calcular a força resultante",
+              "Escrever F = m · a",
+              "Dividir a resultante pela massa"
+            ],
+            "explicacao": "Forças, resultante, lei e conta.",
+            "dica": "A resultante vem antes da fórmula."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Força de 10 N empurra dois blocos encostados, de 2 kg e 3 kg, sem atrito. Que força o bloco de 2 kg faz no de 3 kg?",
+            "alternativas": [
+              "10 N",
+              "4 N",
+              "6 N",
+              "5 N"
+            ],
+            "correta": 2,
+            "explicacao": "a = 10 / 5 = 2 m/s². O de 3 kg precisa de 3 × 2 = 6 N.",
+            "dica": "Ache a aceleração do conjunto primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caminhão bate num carro. O que é verdade?",
+            "alternativas": [
+              "O caminhão faz mais força no carro do que recebe",
+              "As forças têm o mesmo tamanho, mas o carro acelera mais por ter menos massa",
+              "O carro não faz força no caminhão",
+              "As forças se anulam e nada acontece"
+            ],
+            "correta": 1,
+            "explicacao": "3ª lei: mesmo tamanho. 2ª lei: menos massa, mais aceleração.",
+            "dica": "Junte a 2ª e a 3ª leis."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um carro de 1.200 kg vai de 0 a 20 m/s em 10 s. Qual é a força resultante?",
+            "alternativas": [
+              "2.400 N",
+              "1.200 N",
+              "24.000 N",
+              "240 N"
+            ],
+            "correta": 0,
+            "explicacao": "a = 2 m/s²; F = 1.200 × 2 = 2.400 N.",
+            "dica": "Calcule a aceleração antes da força."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma bola rola num chão liso e para depois de um tempo. Isso contraria a 1ª lei?",
+            "alternativas": [
+              "Sim, a 1ª lei está errada",
+              "Sim, porque a bola tem inércia negativa",
+              "Não, porque bola não tem massa",
+              "Não, porque o atrito e o ar fazem força contra o movimento"
+            ],
+            "correta": 3,
+            "explicacao": "A bola só pararia sem forças se não houvesse atrito nem ar.",
+            "dica": "Há alguma força agindo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um elevador sobe com velocidade constante. A força do cabo é:",
+            "alternativas": [
+              "maior que o peso",
+              "menor que o peso",
+              "igual ao peso",
+              "zero"
+            ],
+            "correta": 2,
+            "explicacao": "Velocidade constante: resultante zero, então cabo = peso.",
+            "dica": "Sem aceleração, a resultante é zero."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Declaração do Imposto de Renda: quem declara e o que é restituição",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Todo ano, geralmente entre março e maio, milhões de pessoas enviam à Receita Federal a Declaração do Imposto de Renda, contando quanto ganharam, o que têm e quanto imposto já pagaram no ano anterior.",
+          "Precisa declarar quem recebeu rendimentos acima do limite definido pela Receita naquele ano, quem tem bens acima de certo valor e alguns outros casos. Quem não é obrigado também pode declarar, por exemplo, para receber imposto de volta.",
+          "Ao longo do ano, a empresa já desconta o imposto do salário (é o imposto retido na fonte). Na declaração, a Receita calcula o imposto devido no ano inteiro, considerando as deduções.",
+          "Se foi descontado mais do que o devido, a pessoa recebe a diferença: é a restituição, corrigida pela taxa Selic. Se foi descontado menos, ela paga o que falta: é o imposto a pagar.",
+          "Deduções diminuem o imposto: dependentes, despesas médicas, despesas com educação (com limite) e a contribuição ao INSS. Guarde recibos e notas, porque a Receita pode pedir comprovação."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Ao longo do ano foram retidos R$ 3.200, mas o imposto devido foi de R$ 2.700. O que acontece?",
+            "resolucao": "Retido maior que devido: restituição de 3.200 − 2.700 = R$ 500."
+          },
+          {
+            "enunciado": "O imposto devido foi de R$ 4.100 e foram retidos R$ 3.600. E agora?",
+            "resolucao": "Retido menor: imposto a pagar de 4.100 − 3.600 = R$ 500."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Malha fina é quando a Receita encontra diferença entre o que a pessoa declarou e o que empresas, bancos, médicos ou escolas informaram. A declaração fica retida até ser corrigida ou explicada. Inventar despesa médica é crime e dá multa.",
+        "Dá para escolher entre deduções legais (somar cada despesa com recibo) ou desconto simplificado (20% dos rendimentos tributáveis, com um teto). Vale o que der menos imposto. Quem tem muitas despesas médicas costuma ganhar com as deduções legais.",
+        "Filhos podem ser dependentes até 21 anos, ou até 24 se estiverem na faculdade ou em escola técnica. Quem atrasa a entrega paga multa. A declaração pré-preenchida, feita com a conta gov.br, já traz muitos dados e reduz erros."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A declaração do Imposto de Renda é enviada para:",
+            "alternativas": [
+              "o Procon",
+              "a Receita Federal",
+              "a prefeitura",
+              "o INSS"
+            ],
+            "correta": 1,
+            "explicacao": "A Receita Federal cuida do IR.",
+            "dica": "É o órgão federal de impostos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Restituição é:",
+            "alternativas": [
+              "imposto devolvido porque foi pago a mais",
+              "uma multa",
+              "um empréstimo",
+              "o salário do mês"
+            ],
+            "correta": 0,
+            "explicacao": "Pagou mais do que devia: recebe de volta.",
+            "dica": "Restituir é devolver."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O imposto que a empresa já desconta do salário chama-se:",
+            "alternativas": [
+              "imposto de importação",
+              "IPTU",
+              "imposto retido na fonte",
+              "taxa do lixo"
+            ],
+            "correta": 2,
+            "explicacao": "É retido antes de o salário cair na conta.",
+            "dica": "Fonte é quem paga o salário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes diminui o imposto?",
+            "alternativas": [
+              "Comprar roupa",
+              "Viajar",
+              "Pagar o aluguel",
+              "Despesas médicas com recibo"
+            ],
+            "correta": 3,
+            "explicacao": "Despesas médicas são deduções.",
+            "dica": "Pense em saúde."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A declaração costuma ser entregue:",
+            "alternativas": [
+              "entre março e maio",
+              "em dezembro",
+              "todo mês",
+              "só a cada 10 anos"
+            ],
+            "correta": 0,
+            "explicacao": "Geralmente nesses meses, sobre o ano anterior.",
+            "dica": "É no começo do ano."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Retidos R$ 3.200; devido R$ 2.700. Resultado?",
+            "alternativas": [
+              "Pagar R$ 500",
+              "Restituição de R$ 500",
+              "Restituição de R$ 3.200",
+              "Nada"
+            ],
+            "correta": 1,
+            "explicacao": "3.200 − 2.700 = 500 a receber.",
+            "dica": "Foi descontado mais ou menos que o devido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Devido R$ 4.100; retidos R$ 3.600. Resultado?",
+            "alternativas": [
+              "Restituição de R$ 500",
+              "Restituição de R$ 4.100",
+              "Pagar R$ 500",
+              "Pagar R$ 3.600"
+            ],
+            "correta": 2,
+            "explicacao": "Faltou descontar R$ 500.",
+            "dica": "Compare retido com devido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A restituição é corrigida por qual taxa?",
+            "alternativas": [
+              "Selic",
+              "Inflação do pão",
+              "Juros do cartão",
+              "Nenhuma"
+            ],
+            "correta": 0,
+            "explicacao": "A Receita corrige pela Selic.",
+            "dica": "É a taxa básica de juros."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que guardar recibos médicos e escolares?",
+            "alternativas": [
+              "Para enfeitar a gaveta",
+              "Porque a lei proíbe jogar fora papel",
+              "Para pedir desconto no mercado",
+              "Porque a Receita pode pedir comprovação das deduções"
+            ],
+            "correta": 3,
+            "explicacao": "Sem comprovante, a dedução pode cair.",
+            "dica": "Pense em prova."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quem não é obrigado a declarar:",
+            "alternativas": [
+              "é proibido de declarar",
+              "pode declarar, por exemplo, para receber restituição",
+              "paga multa se declarar",
+              "perde o CPF"
+            ],
+            "correta": 1,
+            "explicacao": "Declarar é opcional para quem não é obrigado.",
+            "dica": "Releia o segundo parágrafo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rendimentos tributáveis de R$ 15.000 no desconto simplificado de 20% (abaixo do teto) dão desconto de:",
+            "alternativas": [
+              "R$ 1.500",
+              "R$ 300",
+              "R$ 3.000",
+              "R$ 12.000"
+            ],
+            "correta": 2,
+            "explicacao": "20% de 15.000 = 3.000.",
+            "dica": "20% é um quinto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é a malha fina?",
+            "alternativas": [
+              "Retenção da declaração por diferença entre o declarado e o informado por outros",
+              "Uma tela de proteção",
+              "O prazo de entrega",
+              "O nome da restituição"
+            ],
+            "correta": 0,
+            "explicacao": "A Receita cruza dados de empresas, bancos, médicos.",
+            "dica": "A Receita compara informações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma filha de 23 anos cursa faculdade. Pode ser dependente?",
+            "alternativas": [
+              "Não, só até 18",
+              "Não, só até 21",
+              "Sim, mas só se tiver carteira assinada",
+              "Sim, até 24 anos estando na faculdade"
+            ],
+            "correta": 3,
+            "explicacao": "Até 24 anos se estiver estudando no ensino superior ou técnico.",
+            "dica": "A idade limite aumenta para quem estuda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando vale a pena usar deduções legais em vez do desconto simplificado?",
+            "alternativas": [
+              "Nunca",
+              "Quando as despesas dedutíveis com recibo somam mais que o desconto simplificado",
+              "Sempre",
+              "Só para quem não tem recibo"
+            ],
+            "correta": 1,
+            "explicacao": "Vale o que der menos imposto.",
+            "dica": "Compare os dois valores."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o caminho da restituição.",
+            "itens": [
+              "O imposto é retido do salário ao longo do ano",
+              "A pessoa envia a declaração no ano seguinte",
+              "A Receita calcula o imposto devido",
+              "Se o retido foi maior, a diferença é devolvida com correção"
+            ],
+            "explicacao": "Retém, declara, calcula e devolve.",
+            "dica": "A devolução é a última etapa."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Imposto devido de R$ 1.800 e retido de R$ 2.300. Qual é o resultado?",
+            "alternativas": [
+              "Pagar R$ 500",
+              "Restituição de R$ 500",
+              "Restituição de R$ 4.100",
+              "Pagar R$ 2.300"
+            ],
+            "correta": 1,
+            "explicacao": "Retido maior que devido: 2.300 − 1.800 = 500 de volta.",
+            "dica": "Quem pagou mais, o salário ou a conta final?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém declara uma consulta médica que nunca fez para aumentar a restituição. O que pode acontecer?",
+            "alternativas": [
+              "Nada, ninguém confere",
+              "A Receita agradece",
+              "Malha fina, multa e até processo por crime",
+              "A restituição dobra"
+            ],
+            "correta": 2,
+            "explicacao": "O médico também informa à Receita; a diferença aparece.",
+            "dica": "A Receita cruza dados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a restituição não é um \"presente\" do governo?",
+            "alternativas": [
+              "Porque é dinheiro do próprio contribuinte, descontado a mais",
+              "Porque é um empréstimo",
+              "Porque tem que ser devolvida depois",
+              "Porque é sorteio"
+            ],
+            "correta": 0,
+            "explicacao": "É devolução do que foi pago a mais.",
+            "dica": "De onde veio esse dinheiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Duas pessoas ganharam o mesmo salário. Uma tem dois dependentes e despesas médicas; a outra, não. Quem tende a pagar menos imposto?",
+            "alternativas": [
+              "A sem dependentes",
+              "As duas pagam igual",
+              "Nenhuma paga imposto",
+              "A com dependentes e despesas médicas"
+            ],
+            "correta": 3,
+            "explicacao": "Deduções diminuem a base do imposto.",
+            "dica": "O que diminui o imposto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a vantagem da declaração pré-preenchida?",
+            "alternativas": [
+              "Dispensa a entrega",
+              "Já traz dados informados por empresas e bancos, reduzindo erros",
+              "Garante restituição maior",
+              "Tira a obrigação de guardar recibos"
+            ],
+            "correta": 1,
+            "explicacao": "Você confere e completa, em vez de digitar tudo.",
+            "dica": "Pense em menos digitação."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "redes",
+      "titulo": "Compras online seguras: sites falsos, boletos adulterados e Pix errado",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Golpistas copiam lojas famosas com sites quase iguais. Antes de comprar, confira o endereço letra por letra, procure CNPJ e endereço físico, leia avaliações em sites independentes e desconfie de preços muito abaixo do normal.",
+          "O cadeado na barra do navegador só mostra que a conexão é cifrada; ele NÃO garante que a loja é honesta. Site falso também pode ter cadeado.",
+          "Boleto adulterado: o golpista troca o código de barras e o dinheiro vai para outra conta. Antes de pagar, confira na tela do banco o nome do beneficiário, o CNPJ e o valor. Se o nome for de uma pessoa estranha, não pague.",
+          "Pix é instantâneo e difícil de desfazer. Confira o nome do recebedor antes de confirmar. Desconfie de vendedor que pede Pix para pessoa física em nome diferente da loja.",
+          "Caiu num golpe? Avise o banco imediatamente, registre boletim de ocorrência (pode ser pela internet) e guarde prints. Para golpes com Pix, o banco pode acionar o Mecanismo Especial de Devolução (MED), do Banco Central."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "O boleto da escola mostra, na tela do banco, o beneficiário \"José R. Almeida\". O que fazer?",
+            "resolucao": "Não pagar. Ligar para a escola pelo telefone oficial (não o do boleto) e pedir um boleto novo."
+          },
+          {
+            "enunciado": "Você mandou um Pix de R$ 50 para a chave errada, de um desconhecido. O que fazer?",
+            "resolucao": "Pedir ao banco que contate o recebedor e pedir a devolução. Ficar com dinheiro recebido por engano pode ser crime. O MED é para golpes e fraudes."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Sinais de site falso: domínio estranho (com letras trocadas ou terminação diferente), página criada há pouco tempo, só aceita Pix, contador de \"só restam 2 unidades\" o tempo todo e nenhum canal de atendimento de verdade.",
+        "Golpe do falso atendente: alguém liga ou manda mensagem dizendo ser do banco ou da loja e pede senha, código recebido por SMS ou que você faça um Pix \"de teste\". Banco nunca pede senha nem código por telefone. Desligue e ligue você mesmo para o número oficial.",
+        "Proteja-se: use o cartão virtual (que pode ser apagado depois da compra), ative avisos de compra no aplicativo do banco, defina limite noturno de Pix baixo e nunca compre clicando em link de mensagem; digite o endereço da loja."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O cadeado no navegador garante que a loja é honesta?",
+            "alternativas": [
+              "Sim, sempre",
+              "Não, só mostra que a conexão é cifrada",
+              "Sim, se for verde",
+              "Só em lojas grandes"
+            ],
+            "correta": 1,
+            "explicacao": "Site falso também pode ter cadeado.",
+            "dica": "Releia o segundo parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de pagar um boleto, confira:",
+            "alternativas": [
+              "o nome do beneficiário, o CNPJ e o valor",
+              "a cor do boleto",
+              "o tamanho da letra",
+              "nada"
+            ],
+            "correta": 0,
+            "explicacao": "O nome errado indica boleto adulterado.",
+            "dica": "Para quem vai o dinheiro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um preço muito abaixo do normal deve:",
+            "alternativas": [
+              "ser aproveitado logo",
+              "ser ignorado",
+              "acender o sinal de alerta",
+              "ser compartilhado"
+            ],
+            "correta": 2,
+            "explicacao": "Preço bom demais é isca comum.",
+            "dica": "Bom demais para ser verdade?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Banco pede senha por telefone?",
+            "alternativas": [
+              "Sim, sempre",
+              "Só no fim de semana",
+              "Sim, se for gerente",
+              "Nunca"
+            ],
+            "correta": 3,
+            "explicacao": "Quem pede senha é golpista.",
+            "dica": "Senha é só sua."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Caiu num golpe com Pix. O primeiro passo é:",
+            "alternativas": [
+              "avisar o banco imediatamente",
+              "esperar uma semana",
+              "apagar as mensagens",
+              "mandar outro Pix"
+            ],
+            "correta": 0,
+            "explicacao": "Quanto antes, maior a chance de recuperar.",
+            "dica": "O tempo conta."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Na tela do banco, o boleto da escola aparece com beneficiário pessoa física desconhecida. O que fazer?",
+            "alternativas": [
+              "Pagar e reclamar depois",
+              "Não pagar e confirmar com a escola pelo telefone oficial",
+              "Pagar metade",
+              "Ligar para o número impresso no boleto"
+            ],
+            "correta": 1,
+            "explicacao": "O número do boleto falso pode ser do golpista.",
+            "dica": "Use um contato que você já conhecia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o MED?",
+            "alternativas": [
+              "Um aplicativo de compras",
+              "Um tipo de boleto",
+              "O Mecanismo Especial de Devolução para golpes com Pix",
+              "Uma loja do governo"
+            ],
+            "correta": 2,
+            "explicacao": "Criado pelo Banco Central para fraudes com Pix.",
+            "dica": "Releia o último parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é sinal de site falso?",
+            "alternativas": [
+              "CNPJ e endereço informados",
+              "Vários meios de pagamento",
+              "Avaliações em sites independentes",
+              "Endereço com letras trocadas e só aceita Pix"
+            ],
+            "correta": 3,
+            "explicacao": "Domínio estranho e só Pix são alertas.",
+            "dica": "Olhe o endereço e o pagamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Vendedor de rede social pede Pix para uma pessoa com nome diferente da loja. Isso é:",
+            "alternativas": [
+              "um sinal de alerta",
+              "normal",
+              "obrigatório",
+              "mais seguro"
+            ],
+            "correta": 0,
+            "explicacao": "O dinheiro iria para quem?",
+            "dica": "Confira o nome do recebedor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que é melhor digitar o endereço da loja do que clicar no link de uma mensagem?",
+            "alternativas": [
+              "Porque o link é mais lento",
+              "Porque o link pode levar a um site falso parecido",
+              "Porque digitar dá desconto",
+              "Não há diferença"
+            ],
+            "correta": 1,
+            "explicacao": "Links de mensagens são a porta dos sites falsos.",
+            "dica": "Quem mandou o link?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a vantagem do cartão virtual?",
+            "alternativas": [
+              "Pode ser apagado depois da compra, protegendo o cartão principal",
+              "Não tem limite",
+              "Não aparece na fatura",
+              "Dispensa senha"
+            ],
+            "correta": 0,
+            "explicacao": "Se vazar, é só apagar.",
+            "dica": "Pense em descartável."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Alguém liga \"do banco\" pedindo o código que chegou por SMS para \"cancelar uma compra\". O que fazer?",
+            "alternativas": [
+              "Passar o código",
+              "Passar só metade do código",
+              "Desligar e ligar para o número oficial do banco",
+              "Mandar print do código"
+            ],
+            "correta": 2,
+            "explicacao": "O código dá acesso à conta.",
+            "dica": "Quem ligou para quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você recebeu R$ 80 por engano no Pix de um desconhecido. O certo é:",
+            "alternativas": [
+              "ficar com o dinheiro",
+              "gastar logo",
+              "pedir mais",
+              "devolver, porque ficar com ele pode ser crime"
+            ],
+            "correta": 3,
+            "explicacao": "Dinheiro recebido por erro deve ser devolvido.",
+            "dica": "O dinheiro é seu?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um site mostra \"só restam 2 unidades\" toda vez que você entra. Isso tenta:",
+            "alternativas": [
+              "ajudar o cliente",
+              "pressionar você a comprar sem pensar",
+              "mostrar o estoque real",
+              "dar desconto"
+            ],
+            "correta": 1,
+            "explicacao": "A pressa é aliada do golpista.",
+            "dica": "Por que alguém quer sua pressa?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o que fazer depois de cair num golpe com Pix.",
+            "itens": [
+              "Avisar o banco imediatamente",
+              "Guardar prints e comprovantes",
+              "Registrar boletim de ocorrência",
+              "Acompanhar o pedido de devolução no banco"
+            ],
+            "explicacao": "Rapidez primeiro, depois provas, registro e acompanhamento.",
+            "dica": "O que depende de rapidez vem antes."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação de cuidados protege MAIS numa compra online?",
+            "alternativas": [
+              "Cadeado no site e preço baixo",
+              "Clicar em link de influenciador e pagar por Pix",
+              "Comprar rápido antes de acabar",
+              "Conferir CNPJ e avaliações, usar cartão virtual e digitar o endereço"
+            ],
+            "correta": 3,
+            "explicacao": "Várias camadas de proteção juntas.",
+            "dica": "Escolha a opção com mais verificações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O boleto mostra o nome certo da loja, mas o valor está R$ 200 maior que o combinado. O que fazer?",
+            "alternativas": [
+              "Pagar, porque o nome está certo",
+              "Não pagar e confirmar o valor com a loja pelo canal oficial",
+              "Pagar e pedir troco",
+              "Ignorar o boleto"
+            ],
+            "correta": 1,
+            "explicacao": "Valor diferente também é alerta.",
+            "dica": "Confira as três informações."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O MED serve para Pix enviado por engano à chave errada, sem golpe?",
+            "alternativas": [
+              "Sim, sempre",
+              "Sim, mas só de noite",
+              "Não, ele é para golpes e fraudes; no engano, pede-se a devolução ao recebedor pelo banco",
+              "Não existe MED"
+            ],
+            "correta": 2,
+            "explicacao": "Engano e golpe são situações diferentes.",
+            "dica": "Releia o segundo exemplo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um limite noturno de Pix baixo ajuda?",
+            "alternativas": [
+              "Limita o prejuízo se o celular for roubado ou a conta invadida à noite",
+              "Deixa o Pix mais rápido",
+              "Dá desconto",
+              "Aumenta a restituição"
+            ],
+            "correta": 0,
+            "explicacao": "Menos dinheiro exposto em caso de golpe.",
+            "dica": "Pense no pior cenário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja tem cadeado, aceita só Pix, foi criada há 10 dias e vende celular pela metade do preço. A melhor conclusão é:",
+            "alternativas": [
+              "É segura por causa do cadeado",
+              "É provavelmente golpe: vários sinais de alerta juntos",
+              "É segura porque é nova",
+              "É segura porque o preço é bom"
+            ],
+            "correta": 1,
+            "explicacao": "Só Pix, site novo e preço muito baixo somam alertas.",
+            "dica": "Conte os sinais de alerta."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Denotação e conotação",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Denotação é o sentido literal da palavra, aquele do dicionário: \"O pedreiro quebrou uma pedra.\" Pedra é a rocha mesmo.",
+          "Conotação é o sentido figurado, que depende do contexto e cria imagens: \"Ele tem um coração de pedra.\" Aqui, pedra quer dizer frieza, falta de sentimento.",
+          "Textos que precisam ser exatos, como notícias, textos científicos, manuais e leis, usam mais a denotação. Poemas, músicas, propagandas e conversas do dia a dia usam muito a conotação.",
+          "A mesma palavra muda conforme o uso: \"O leite ferveu\" (denotação) e \"Ele ferveu de raiva\" (conotação). \"A chuva caiu\" e \"Caiu a ficha\".",
+          "Para descobrir o sentido, pergunte: a palavra está sendo usada do jeito do dicionário ou está criando uma imagem, uma comparação?"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Classifique: \"Aquela prova foi um monstro.\"",
+            "resolucao": "Conotação: a prova não é um monstro de verdade; a palavra indica que ela foi muito difícil."
+          },
+          {
+            "enunciado": "Classifique: \"A água ferve a 100 °C ao nível do mar.\"",
+            "resolucao": "Denotação: frase científica, sentido literal."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Muitas expressões do dia a dia são conotativas e nem percebemos: \"pão-duro\" (avarento), \"cabeça-dura\" (teimoso), \"mão de vaca\", \"pisar na bola\", \"engolir sapo\".",
+        "A propaganda usa a conotação para criar emoção: \"Nosso sabonete é um abraço na pele.\" O poema usa para criar imagens novas: \"A cidade dorme de olhos acesos\" (as luzes ligadas à noite).",
+        "Conotação está ligada às figuras de linguagem, como a metáfora (\"seus olhos são duas estrelas\") e a comparação (\"seus olhos brilham como estrelas\"). Na redação do vestibulinho, prefira a denotação para argumentar com clareza."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Denotação é o sentido:",
+            "alternativas": [
+              "figurado",
+              "literal, do dicionário",
+              "inventado",
+              "errado"
+            ],
+            "correta": 1,
+            "explicacao": "O sentido próprio da palavra.",
+            "dica": "Pense no dicionário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ele tem um coração de pedra\", pedra está em sentido:",
+            "alternativas": [
+              "conotativo",
+              "denotativo",
+              "científico",
+              "numérico"
+            ],
+            "correta": 0,
+            "explicacao": "Não é pedra de verdade: é frieza.",
+            "dica": "O coração é feito de rocha?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual texto usa mais a denotação?",
+            "alternativas": [
+              "Poema de amor",
+              "Propaganda de perfume",
+              "Notícia de jornal",
+              "Letra de música"
+            ],
+            "correta": 2,
+            "explicacao": "Notícia precisa ser exata.",
+            "dica": "Qual precisa ser mais exato?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"O leite ferveu\", o verbo está em sentido:",
+            "alternativas": [
+              "figurado",
+              "conotativo",
+              "irônico",
+              "literal"
+            ],
+            "correta": 3,
+            "explicacao": "O leite realmente ferveu.",
+            "dica": "Aconteceu de verdade?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Conotação aparece muito em:",
+            "alternativas": [
+              "poemas e propagandas",
+              "manuais de instrução",
+              "bulas de remédio",
+              "leis"
+            ],
+            "correta": 0,
+            "explicacao": "Criam imagens e emoções.",
+            "dica": "Onde se busca emoção?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está em sentido conotativo?",
+            "alternativas": [
+              "A pedra rolou do morro.",
+              "Aquela prova foi um monstro.",
+              "O cachorro latiu.",
+              "O ônibus atrasou."
+            ],
+            "correta": 1,
+            "explicacao": "A prova foi muito difícil, não é monstro.",
+            "dica": "Procure a imagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Caiu a ficha\" significa:",
+            "alternativas": [
+              "uma ficha caiu no chão",
+              "o telefone quebrou",
+              "a pessoa entendeu algo",
+              "o jogo acabou"
+            ],
+            "correta": 2,
+            "explicacao": "Expressão figurada: entender de repente.",
+            "dica": "Pense em entender."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Pão-duro\" quer dizer:",
+            "alternativas": [
+              "pão velho",
+              "padeiro",
+              "pessoa forte",
+              "pessoa avarenta, que não gasta"
+            ],
+            "correta": 3,
+            "explicacao": "Sentido figurado comum.",
+            "dica": "Não é sobre pão."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que textos científicos preferem a denotação?",
+            "alternativas": [
+              "Porque precisam ser exatos e entendidos de um só jeito",
+              "Porque são poéticos",
+              "Porque são curtos",
+              "Porque são antigos"
+            ],
+            "correta": 0,
+            "explicacao": "Sentido literal evita dúvidas.",
+            "dica": "Ciência pode ter duplo sentido?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Ele ferveu de raiva\", ferveu está em sentido:",
+            "alternativas": [
+              "denotativo",
+              "conotativo",
+              "técnico",
+              "científico"
+            ],
+            "correta": 1,
+            "explicacao": "Ninguém ferve de verdade.",
+            "dica": "A pessoa chegou a 100 °C?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"A cidade dorme de olhos acesos.\" O que a frase sugere?",
+            "alternativas": [
+              "A cidade está em silêncio total",
+              "As pessoas não dormem",
+              "A cidade tem luzes acesas à noite",
+              "Houve um apagão"
+            ],
+            "correta": 2,
+            "explicacao": "Olhos acesos = luzes ligadas.",
+            "dica": "Os olhos da cidade seriam o quê?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par mostra a MESMA palavra em denotação e conotação?",
+            "alternativas": [
+              "\"O vidro quebrou\" / \"Ela quebrou o recorde\"",
+              "\"O vidro quebrou\" / \"O copo quebrou\"",
+              "\"Ela correu\" / \"Ela andou\"",
+              "\"Choveu\" / \"Ventou\""
+            ],
+            "correta": 0,
+            "explicacao": "Quebrar o vidro é literal; quebrar o recorde é figurado.",
+            "dica": "Procure a mesma palavra nos dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Nosso sabonete é um abraço na pele.\" A propaganda usa a conotação para:",
+            "alternativas": [
+              "informar o preço",
+              "explicar a fórmula química",
+              "dar a validade",
+              "criar uma sensação de carinho e conforto"
+            ],
+            "correta": 3,
+            "explicacao": "A imagem do abraço gera emoção.",
+            "dica": "Que sentimento um abraço traz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Engoli sapo na reunião\" quer dizer:",
+            "alternativas": [
+              "comi algo estranho",
+              "aguentei calado algo desagradável",
+              "fui à lagoa",
+              "fiquei com fome"
+            ],
+            "correta": 1,
+            "explicacao": "Expressão figurada.",
+            "dica": "Não é sobre comida."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene da frase mais denotativa para a mais conotativa.",
+            "itens": [
+              "A água ferve a 100 °C ao nível do mar.",
+              "A chaleira ferveu e apitou.",
+              "A torcida ferveu no gol.",
+              "Meu coração ferve de saudade."
+            ],
+            "explicacao": "Da ciência ao poema.",
+            "dica": "Comece pela frase científica."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase usa metáfora (conotação sem a palavra \"como\")?",
+            "alternativas": [
+              "Seus olhos brilham como estrelas.",
+              "Seus olhos são duas estrelas.",
+              "As estrelas brilham à noite.",
+              "Ela olhou as estrelas."
+            ],
+            "correta": 1,
+            "explicacao": "Metáfora afirma direto; comparação usa como.",
+            "dica": "Diferencie comparação de metáfora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa redação argumentativa, por que preferir a denotação?",
+            "alternativas": [
+              "Porque é proibido usar conotação",
+              "Porque deixa o texto mais longo",
+              "Porque argumentar pede clareza e um só sentido",
+              "Porque a banca não lê metáforas"
+            ],
+            "correta": 2,
+            "explicacao": "Pode haver uma imagem pontual, mas o argumento precisa ser claro.",
+            "dica": "Pense no objetivo do texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"O professor é a bússola da turma.\" O sentido é:",
+            "alternativas": [
+              "conotativo: ele orienta a turma",
+              "denotativo: ele é um instrumento",
+              "denotativo: ele mede o norte",
+              "conotativo: ele é perdido"
+            ],
+            "correta": 0,
+            "explicacao": "Bússola orienta; o professor também.",
+            "dica": "Para que serve uma bússola?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase \"doce\" está em sentido denotativo?",
+            "alternativas": [
+              "Que menina doce!",
+              "Foi uma vitória doce.",
+              "Ela tem uma voz doce.",
+              "O doce de abóbora ficou pronto."
+            ],
+            "correta": 3,
+            "explicacao": "Doce de abóbora é o alimento.",
+            "dica": "Qual é comida de verdade?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma notícia diz: \"Prefeitura promete chuva de investimentos no bairro.\" O que há de problemático?",
+            "alternativas": [
+              "Nada",
+              "A conotação deixa vago quanto será investido",
+              "Faltou acento",
+              "Prefeitura não faz investimento"
+            ],
+            "correta": 1,
+            "explicacao": "A imagem bonita esconde a falta de número concreto.",
+            "dica": "A notícia informa um valor?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O ônibus que freia de repente",
+    "texto": "Segunda-feira, sete da manhã. O ônibus da linha que vai para o centro está lotado. De repente, um carro entra na frente e o motorista pisa fundo no freio. Quem estava de pé dá um passo involuntário para a frente, e uma mochila escorrega pelo corredor. Ninguém empurrou ninguém: foi a física.\n\nEsse tranco é a primeira lei de Newton, a da inércia. O corpo do passageiro estava se movendo junto com o ônibus. Quando o ônibus para, o corpo tende a continuar em frente. É por isso que o cinto de segurança salva vidas: ele faz a força que o corpo precisa para parar junto com o veículo.\n\nA segunda lei aparece na hora de arrancar. Um ônibus vazio ganha velocidade mais depressa que um lotado com o mesmo motor. Quanto maior a massa, maior a força necessária para produzir a mesma aceleração. A fórmula resume: força é igual a massa vezes aceleração.\n\nA terceira lei é a mais curiosa. Um foguete, ao subir, não precisa de chão para se apoiar. Ele lança gases quentes para baixo com enorme força, e os gases empurram o foguete para cima com força igual. Na quadra, acontece o mesmo: para pular, você empurra o chão para baixo, e o chão empurra você para cima.\n\nE a bola de futebol que rola na grama e para sozinha? Ela não desobedece à inércia. O atrito com a grama e a resistência do ar agem contra o movimento até ela parar. Num campo sem atrito nenhum, ela rolaria para sempre.\n\nIsaac Newton publicou essas leis há mais de trezentos anos. Elas continuam explicando desde a viagem de ônibus até o lançamento de satélites."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, descreva uma situação do seu dia (no ônibus, na quadra, em casa) em que você percebeu uma das leis de Newton. Diga qual é a lei e explique, com suas palavras, por que ela explica o que aconteceu."
+  }
+}

@@ -1,0 +1,1508 @@
+{
+  "dia": 44,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Porcentagem: aumentos e descontos sucessivos",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Aumentar um valor em x% é o mesmo que multiplicar por (1 + x/100). Um aumento de 10% é multiplicar por 1,10; de 25%, por 1,25.",
+          "Dar um desconto de x% é multiplicar por (1 − x/100). Um desconto de 20% é multiplicar por 0,80; de 15%, por 0,85.",
+          "Quando há dois ou mais aumentos ou descontos seguidos, o segundo é calculado sobre o valor que já mudou. Por isso, multiplique os fatores um depois do outro.",
+          "Atenção: dois descontos de 10% não somam 20%. R$ 100 × 0,9 = R$ 90; R$ 90 × 0,9 = R$ 81. O desconto total foi de 19%.",
+          "E um aumento de 10% seguido de um desconto de 10% não volta ao preço inicial: R$ 100 × 1,1 = R$ 110; R$ 110 × 0,9 = R$ 99."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um tênis de R$ 200 tem 20% de desconto e, no caixa, mais 10% de desconto sobre o novo preço. Quanto ele custa no fim?",
+            "resolucao": "200 × 0,8 = 160. 160 × 0,9 = 144. Preço final: R$ 144. O desconto total foi de R$ 56, ou seja, 28% (e não 30%)."
+          },
+          {
+            "enunciado": "Um aluguel de R$ 1.000 teve aumento de 10% num ano e de 5% no ano seguinte. Qual é o valor atual?",
+            "resolucao": "1.000 × 1,10 = 1.100. 1.100 × 1,05 = 1.155. Aluguel atual: R$ 1.155."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O fator total é o produto dos fatores. Descontos de 20% e 10%: 0,8 × 0,9 = 0,72, ou seja, sobra 72% do preço: desconto total de 28%. A ordem não muda o resultado, porque 0,9 × 0,8 também é 0,72.",
+        "Para desfazer um desconto, o aumento precisa ser maior. Depois de 20% de desconto, sobra 0,8 do preço; para voltar, é preciso multiplicar por 1 ÷ 0,8 = 1,25, ou seja, aumentar 25%.",
+        "Para achar o preço antes de uma porcentagem, divida pelo fator. Se, depois de 25% de desconto, algo custa R$ 120, o preço original era 120 ÷ 0,75 = R$ 160. A inflação acumulada segue a mesma regra: 5% num ano e 5% no outro dão 1,05 × 1,05 = 1,1025, ou seja, 10,25%."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Aumentar um preço em 10% é o mesmo que multiplicar por:",
+            "alternativas": [
+              "0,10",
+              "1,10",
+              "10",
+              "0,90"
+            ],
+            "correta": 1,
+            "explicacao": "O preço inteiro (1) mais 10% (0,10) dá 1,10.",
+            "dica": "Junte o preço inteiro com a parte do aumento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Dar 20% de desconto é o mesmo que multiplicar por:",
+            "alternativas": [
+              "0,80",
+              "0,20",
+              "1,20",
+              "20"
+            ],
+            "correta": 0,
+            "explicacao": "Sobra 100% − 20% = 80% do preço, ou seja, 0,80.",
+            "dica": "Quanto do preço sobra depois do desconto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caderno de R$ 50 tem 10% de desconto. Quanto custa?",
+            "alternativas": [
+              "R$ 40",
+              "R$ 55",
+              "R$ 49",
+              "R$ 45"
+            ],
+            "correta": 3,
+            "explicacao": "10% de 50 é 5. 50 − 5 = R$ 45.",
+            "dica": "Calcule 10% de 50 e tire do preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto de R$ 100 teve aumento de 10%. Quanto custa agora?",
+            "alternativas": [
+              "R$ 90",
+              "R$ 101",
+              "R$ 110",
+              "R$ 200"
+            ],
+            "correta": 2,
+            "explicacao": "10% de 100 é 10. 100 + 10 = R$ 110.",
+            "dica": "Some ao preço a parte do aumento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em dois descontos seguidos, o segundo é calculado sobre:",
+            "alternativas": [
+              "O preço já com o primeiro desconto",
+              "O preço original sempre",
+              "O valor do primeiro desconto",
+              "Zero"
+            ],
+            "correta": 0,
+            "explicacao": "O segundo desconto age sobre o preço novo, que já é menor.",
+            "dica": "Depois do primeiro desconto, qual é o preço na etiqueta?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 200 com 20% de desconto e depois mais 10% de desconto. Qual é o preço final?",
+            "alternativas": [
+              "R$ 140",
+              "R$ 144",
+              "R$ 150",
+              "R$ 160"
+            ],
+            "correta": 1,
+            "explicacao": "200 × 0,8 = 160. 160 × 0,9 = 144.",
+            "dica": "Faça um desconto de cada vez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100 com dois descontos seguidos de 10%. Qual é o preço final?",
+            "alternativas": [
+              "R$ 80",
+              "R$ 90",
+              "R$ 82",
+              "R$ 81"
+            ],
+            "correta": 3,
+            "explicacao": "100 × 0,9 = 90. 90 × 0,9 = 81.",
+            "dica": "O segundo desconto é sobre 90, não sobre 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "R$ 100 aumenta 10% e depois cai 10%. Qual é o preço final?",
+            "alternativas": [
+              "R$ 99",
+              "R$ 100",
+              "R$ 101",
+              "R$ 90"
+            ],
+            "correta": 0,
+            "explicacao": "100 × 1,1 = 110. 110 × 0,9 = 99.",
+            "dica": "Os 10% de desconto são calculados sobre 110."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um aluguel de R$ 1.000 sobe 10% e depois mais 5%. Qual é o novo valor?",
+            "alternativas": [
+              "R$ 1.150",
+              "R$ 1.050",
+              "R$ 1.155",
+              "R$ 1.105"
+            ],
+            "correta": 2,
+            "explicacao": "1.000 × 1,10 = 1.100. 1.100 × 1,05 = 1.155.",
+            "dica": "O segundo aumento é calculado sobre 1.100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o fator de um desconto de 15%?",
+            "alternativas": [
+              "1,15",
+              "0,15",
+              "0,75",
+              "0,85"
+            ],
+            "correta": 3,
+            "explicacao": "Sobra 100% − 15% = 85% = 0,85.",
+            "dica": "Quanto do preço sobra?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Descontos seguidos de 20% e 10% equivalem a um desconto único de:",
+            "alternativas": [
+              "30%",
+              "28%",
+              "25%",
+              "18%"
+            ],
+            "correta": 1,
+            "explicacao": "0,8 × 0,9 = 0,72. Sobra 72%, então o desconto é de 28%.",
+            "dica": "Multiplique os fatores e veja quanto sobra do preço."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um salário de R$ 2.000 recebe aumento de 5% e, no ano seguinte, mais 5%. Qual é o novo salário?",
+            "alternativas": [
+              "R$ 2.200",
+              "R$ 2.100",
+              "R$ 2.205",
+              "R$ 2.250"
+            ],
+            "correta": 2,
+            "explicacao": "2.000 × 1,05 = 2.100. 2.100 × 1,05 = 2.205.",
+            "dica": "O segundo aumento é sobre 2.100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Camiseta de R$ 80. Loja A: 30% de desconto direto. Loja B: 20% e depois mais 10%. Qual é mais barata?",
+            "alternativas": [
+              "A, por R$ 1,60",
+              "B, por R$ 1,60",
+              "As duas custam igual",
+              "B, por R$ 8"
+            ],
+            "correta": 0,
+            "explicacao": "A: 80 × 0,7 = 56. B: 80 × 0,8 × 0,9 = 57,60. A é R$ 1,60 mais barata.",
+            "dica": "Calcule o preço final nas duas lojas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um preço subiu 20% e depois baixou 20%. Em relação ao preço original, ele ficou:",
+            "alternativas": [
+              "Igual",
+              "4% maior",
+              "20% menor",
+              "4% menor"
+            ],
+            "correta": 3,
+            "explicacao": "1,2 × 0,8 = 0,96. Sobra 96%: 4% menor.",
+            "dica": "Teste com R$ 100."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A inflação foi de 5% num ano e de 5% no ano seguinte. Qual foi a inflação acumulada?",
+            "alternativas": [
+              "10%",
+              "10,25%",
+              "25%",
+              "5%"
+            ],
+            "correta": 1,
+            "explicacao": "1,05 × 1,05 = 1,1025, ou seja, 10,25%.",
+            "dica": "Multiplique os fatores, não some as porcentagens."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de um desconto de 20%, qual aumento faz o preço voltar ao valor original?",
+            "alternativas": [
+              "20%",
+              "22%",
+              "25%",
+              "30%"
+            ],
+            "correta": 2,
+            "explicacao": "Sobra 0,8. 1 ÷ 0,8 = 1,25: aumento de 25%.",
+            "dica": "Teste com R$ 100: quanto falta para voltar a 100?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto de R$ 250 aumenta 10%, depois tem 10% de desconto e, por fim, aumenta 10% de novo. Qual é o preço final?",
+            "alternativas": [
+              "R$ 275,00",
+              "R$ 272,25",
+              "R$ 250,00",
+              "R$ 247,50"
+            ],
+            "correta": 1,
+            "explicacao": "250 × 1,1 = 275. 275 × 0,9 = 247,50. 247,50 × 1,1 = 272,25.",
+            "dica": "Aplique um fator de cada vez, na ordem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de 25% de desconto, um fone custa R$ 120. Qual era o preço original?",
+            "alternativas": [
+              "R$ 150",
+              "R$ 145",
+              "R$ 96",
+              "R$ 160"
+            ],
+            "correta": 3,
+            "explicacao": "Preço × 0,75 = 120, então preço = 120 ÷ 0,75 = 160.",
+            "dica": "Não some 25% a 120: divida pelo fator."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Três descontos seguidos de 10% equivalem a um desconto único de:",
+            "alternativas": [
+              "27,1%",
+              "30%",
+              "29%",
+              "33%"
+            ],
+            "correta": 0,
+            "explicacao": "0,9 × 0,9 × 0,9 = 0,729. Sobra 72,9%: desconto de 27,1%.",
+            "dica": "Multiplique o fator três vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um produto aumentou 10% e passou a custar R$ 330. Depois teve 20% de desconto. Quanto custa agora e como isso se compara ao preço original?",
+            "alternativas": [
+              "R$ 264; 10% menos que o original",
+              "R$ 264; 12% menos que o original",
+              "R$ 270; igual ao original",
+              "R$ 297; 1% menos que o original"
+            ],
+            "correta": 1,
+            "explicacao": "Original: 330 ÷ 1,1 = 300. Agora: 330 × 0,8 = 264. 264 ÷ 300 = 0,88: 12% menos.",
+            "dica": "Descubra primeiro o preço antes do aumento."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Números aleatórios: simulando um dado",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Um número aleatório é sorteado pelo computador: ninguém sabe qual vai sair. Ele é usado em jogos, sorteios e simulações.",
+          "Em pseudocódigo, dado ← aleatorio(1, 6) sorteia um número inteiro de 1 a 6, incluindo o 1 e o 6. Em Python, faz-se import random e depois random.randint(1, 6), que também inclui as duas pontas.",
+          "Cada vez que o programa roda, pode sair um número diferente, e o mesmo número pode se repetir várias vezes seguidas, como num dado de verdade.",
+          "Com um laço, dá para simular muitos lançamentos: seis ← 0; PARA i DE 1 ATÉ 100 FAÇA dado ← aleatorio(1, 6); SE dado = 6 ENTÃO seis ← seis + 1.",
+          "Para sortear um item de uma lista, sorteie uma posição: lista[aleatorio(0, tamanho(lista) − 1)]. Lembre que as posições começam no 0."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Quais valores pode dar soma ← aleatorio(1, 6) + aleatorio(1, 6)?",
+            "resolucao": "O menor é 1 + 1 = 2 e o maior é 6 + 6 = 12. Então soma vai de 2 a 12, como dois dados."
+          },
+          {
+            "enunciado": "Como sortear quem apaga a lousa entre ['Ana', 'Bruno', 'Caio', 'Duda']?",
+            "resolucao": "A lista tem 4 nomes, nas posições 0 a 3. Então: nomes[aleatorio(0, 3)]."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Com poucos lançamentos, os resultados parecem bagunçados. Com muitos, cada face de um dado aparece perto de 1/6 das vezes: em 600 lançamentos, cerca de 100 de cada. Perto, mas quase nunca exatamente. Essa ideia se chama lei dos grandes números.",
+        "A soma de dois dados não é equilibrada: há 36 combinações, e 6 delas dão 7 (1+6, 2+5, 3+4, 4+3, 5+2, 6+1). Por isso 7 é a soma mais provável, com chance de 6/36 = 1/6, enquanto 2 e 12 têm só 1/36 cada. E cuidado: aleatorio(1, 6) × 2 não é a soma de dois dados, porque só dá números pares.",
+        "O computador, na verdade, usa uma fórmula que gera números com cara de sorteio, a partir de um número inicial chamado semente. Por isso eles se chamam pseudoaleatórios: com a mesma semente, a sequência se repete."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais números aleatorio(1, 6) pode sortear?",
+            "alternativas": [
+              "Só 1 e 6",
+              "Qualquer inteiro de 1 a 6",
+              "De 0 a 6",
+              "De 1 a 5"
+            ],
+            "correta": 1,
+            "explicacao": "As duas pontas, 1 e 6, entram no sorteio.",
+            "dica": "Pense num dado comum."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num dado simulado, o mesmo número pode sair duas vezes seguidas?",
+            "alternativas": [
+              "Sim, como num dado de verdade",
+              "Não, nunca",
+              "Só se o programa der erro",
+              "Só no número 6"
+            ],
+            "correta": 0,
+            "explicacao": "Cada sorteio é independente do anterior.",
+            "dica": "O dado de verdade lembra o que saiu antes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que servem os números aleatórios?",
+            "alternativas": [
+              "Para somar notas",
+              "Para desligar o computador",
+              "Para apagar arquivos",
+              "Para jogos, sorteios e simulações"
+            ],
+            "correta": 3,
+            "explicacao": "Sempre que precisamos de algo imprevisível, usamos sorteio.",
+            "dica": "Onde você já viu um sorteio no computador?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em Python, qual função sorteia um inteiro entre dois valores?",
+            "alternativas": [
+              "print",
+              "len",
+              "random.randint",
+              "max"
+            ],
+            "correta": 2,
+            "explicacao": "random.randint(1, 6) sorteia de 1 a 6.",
+            "dica": "Ela fica dentro do módulo random."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "aleatorio(1, 6) pode dar 7?",
+            "alternativas": [
+              "Sim, às vezes",
+              "Sim, se repetir",
+              "Só no Python",
+              "Não, o maior possível é 6"
+            ],
+            "correta": 3,
+            "explicacao": "O sorteio fica entre 1 e 6.",
+            "dica": "Qual é o maior número pedido?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "soma ← aleatorio(1, 6) + aleatorio(1, 6). Qual é o menor e o maior valor possível?",
+            "alternativas": [
+              "1 e 6",
+              "2 e 12",
+              "0 e 12",
+              "1 e 12"
+            ],
+            "correta": 1,
+            "explicacao": "Menor: 1 + 1 = 2. Maior: 6 + 6 = 12.",
+            "dica": "Some os menores e depois os maiores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para sortear um nome numa lista de 4 nomes, qual comando é certo?",
+            "alternativas": [
+              "nomes[aleatorio(1, 4)]",
+              "nomes[aleatorio(0, 4)]",
+              "nomes[aleatorio(0, 3)]",
+              "nomes[4]"
+            ],
+            "correta": 2,
+            "explicacao": "As posições vão de 0 a 3.",
+            "dica": "Lembre que as posições começam no 0."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em 600 lançamentos de um dado, quantas vezes se espera, aproximadamente, que saia o 6?",
+            "alternativas": [
+              "100",
+              "60",
+              "300",
+              "6"
+            ],
+            "correta": 0,
+            "explicacao": "1/6 de 600 = 100. Na prática, sai perto disso.",
+            "dica": "Cada face tem chance de 1 em 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No programa que conta quantos 6 saíram, onde deve estar seis ← 0?",
+            "alternativas": [
+              "Dentro do laço",
+              "Depois do laço",
+              "Em lugar nenhum",
+              "Antes do laço"
+            ],
+            "correta": 3,
+            "explicacao": "Se ficar dentro, zera em toda volta e perde a contagem.",
+            "dica": "Lembre a regra dos contadores."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando simula o lançamento de uma moeda (1 = cara, 2 = coroa)?",
+            "alternativas": [
+              "aleatorio(1, 2)",
+              "aleatorio(1, 6)",
+              "aleatorio(0, 10)",
+              "aleatorio(2, 2)"
+            ],
+            "correta": 0,
+            "explicacao": "Só dois resultados possíveis: 1 ou 2.",
+            "dica": "Uma moeda tem quantos lados?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre aleatorio(1, 6) × 2 e aleatorio(1, 6) + aleatorio(1, 6)?",
+            "alternativas": [
+              "Nenhuma",
+              "O primeiro só dá números pares; o segundo dá de 2 a 12",
+              "O primeiro vai até 6",
+              "O segundo só dá ímpares"
+            ],
+            "correta": 1,
+            "explicacao": "Dobrar um dado dá 2, 4, 6, 8, 10 ou 12. Dois dados dão também os ímpares.",
+            "dica": "Que números aparecem quando você dobra 1, 2, 3, 4, 5 e 6?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com dois dados, qual soma é a mais provável?",
+            "alternativas": [
+              "12",
+              "2",
+              "6",
+              "7"
+            ],
+            "correta": 3,
+            "explicacao": "7 tem 6 combinações das 36 possíveis, mais que qualquer outra soma.",
+            "dica": "Liste os jeitos de formar cada soma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a chance de a soma de dois dados dar 7?",
+            "alternativas": [
+              "1/6",
+              "1/12",
+              "1/36",
+              "7/36"
+            ],
+            "correta": 0,
+            "explicacao": "6 combinações em 36: 6/36 = 1/6.",
+            "dica": "Conte as combinações de 7 e divida por 36."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "nomes ← ['Ana', 'Bruno', 'Caio', 'Duda', 'Eli']; escolhido ← nomes[aleatorio(0, 5)]. Qual é o problema?",
+            "alternativas": [
+              "Nenhum",
+              "Eli nunca é sorteado",
+              "Pode sortear a posição 5, que não existe",
+              "Ana nunca é sorteada"
+            ],
+            "correta": 2,
+            "explicacao": "São 5 nomes, nas posições 0 a 4. A posição 5 dá erro.",
+            "dica": "Qual é a última posição de uma lista com 5 itens?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num dado, qual é a chance de sair um número par?",
+            "alternativas": [
+              "1/6",
+              "1/3",
+              "2/3",
+              "1/2"
+            ],
+            "correta": 3,
+            "explicacao": "Pares: 2, 4 e 6. São 3 de 6 = 1/2.",
+            "dica": "Quantos números pares há de 1 a 6?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num jogo de tabuleiro, há um dado de 20 faces. Qual comando o simula?",
+            "alternativas": [
+              "aleatorio(0, 20)",
+              "aleatorio(1, 20)",
+              "aleatorio(1, 6) × 20",
+              "aleatorio(20, 20)"
+            ],
+            "correta": 1,
+            "explicacao": "As faces vão de 1 a 20.",
+            "dica": "Qual é a menor e a maior face?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com dois dados, qual é a chance de a soma dar 2?",
+            "alternativas": [
+              "1/36",
+              "2/36",
+              "1/12",
+              "1/6"
+            ],
+            "correta": 0,
+            "explicacao": "Só uma combinação: 1 + 1.",
+            "dica": "De quantos jeitos dá para somar 2?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que os números do computador são chamados de pseudoaleatórios?",
+            "alternativas": [
+              "Porque são sempre iguais a 1",
+              "Porque são escolhidos por uma pessoa",
+              "Porque só existem em celulares",
+              "Porque vêm de uma fórmula a partir de uma semente"
+            ],
+            "correta": 3,
+            "explicacao": "Com a mesma semente, a sequência se repete.",
+            "dica": "Lembre o que o aprofundamento diz sobre a semente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "cont ← 0; PARA i DE 1 ATÉ 3600 FAÇA d1 ← aleatorio(1, 6); d2 ← aleatorio(1, 6); SE d1 + d2 = 7 ENTÃO cont ← cont + 1. Perto de qual valor cont deve ficar?",
+            "alternativas": [
+              "7",
+              "100",
+              "600",
+              "3600"
+            ],
+            "correta": 2,
+            "explicacao": "A chance de 7 é 1/6. 3.600 ÷ 6 = 600.",
+            "dica": "Use a chance da soma 7 que você já calculou."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o programa que conta quantos 6 saem em 60 lançamentos:",
+            "itens": [
+              "seis ← 0",
+              "Repetir 60 vezes",
+              "Sortear dado ← aleatorio(1, 6)",
+              "Se dado = 6, fazer seis ← seis + 1",
+              "Mostrar seis"
+            ],
+            "explicacao": "O contador nasce antes do laço; dentro, sorteia e conta; no fim, mostra.",
+            "dica": "O resultado só aparece quando o laço termina."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Caixa de texto e formas: cartaz de evento da escola",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "A caixa de texto deixa você colocar um texto em qualquer lugar da página, fora da ordem normal das linhas. No Word: Inserir > Caixa de Texto > Desenhar Caixa de Texto.",
+          "As formas ficam em Inserir > Formas: retângulo, círculo, seta, estrela, balão de fala. Clique e arraste para desenhar. Segurando Shift enquanto arrasta, você faz um círculo ou um quadrado perfeito.",
+          "Com a forma selecionada, a aba Formato da Forma permite mudar o Preenchimento (a cor de dentro), o Contorno (a borda) e os Efeitos. Para escrever dentro da forma, clique com o botão direito e escolha Adicionar Texto.",
+          "Um bom cartaz tem título grande e informações essenciais: o quê, quando, onde e quanto custa. Pouco texto, letras grandes e cores que contrastam, para ler de longe.",
+          "Para organizar, use Trazer para a Frente e Enviar para Trás, alinhe os objetos e use Agrupar para mover vários de uma vez."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Que informações não podem faltar no cartaz da Feira de Ciências?",
+            "resolucao": "O nome do evento, a data, o horário, o local e se a entrada é gratuita. Um convite curto, como “Venha ver os experimentos do 7º ano!”, também ajuda."
+          },
+          {
+            "enunciado": "Como fazer um círculo amarelo com a palavra “Grátis” dentro?",
+            "resolucao": "Inserir > Formas > Elipse; arraste segurando Shift. Em Preenchimento da Forma, escolha amarelo. Botão direito > Adicionar Texto, digite Grátis e aumente a fonte."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "As opções de Layout (quebra de texto automática) definem como o objeto convive com o texto: Alinhado com o Texto, Quadrado, Atrás do Texto ou Na Frente do Texto. Para cartazes, Na Frente do Texto deixa mover livremente.",
+        "Para agrupar, selecione os objetos segurando Ctrl (ou Shift), clique com o botão direito e escolha Agrupar. Assim o título, as formas e as caixas andam juntos e o desenho não se desmonta.",
+        "Regras de design que ajudam: no máximo duas fontes, contraste forte (texto escuro em fundo claro ou o contrário) e hierarquia: o mais importante é o maior. No Documentos Google, formas e caixas de texto ficam em Inserir > Desenho > Novo."
+      ],
+      "desafio_pratico": "No Word (ou no Documentos Google, com Inserir > Desenho > Novo), crie o cartaz da “Feira de Ciências do 7º ano” numa folha A4. 1) Escreva o título numa caixa de texto, com fonte grande. 2) Insira pelo menos três formas: um retângulo de fundo para o título, um círculo feito com Shift com a palavra Grátis dentro e uma seta apontando para as informações. 3) Numa segunda caixa de texto, coloque data, horário e local (pode inventar). 4) Use no máximo duas fontes e cores com bom contraste. 5) Selecione tudo com Ctrl, agrupe e salve como PDF. Mostre para alguém de longe e pergunte se dá para ler o essencial em 5 segundos.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a caixa de texto?",
+            "alternativas": [
+              "Para contar palavras",
+              "Para colocar um texto em qualquer lugar da página",
+              "Para salvar o arquivo",
+              "Para imprimir"
+            ],
+            "correta": 1,
+            "explicacao": "Ela solta o texto da ordem das linhas.",
+            "dica": "Pense em um texto que fica num canto do cartaz."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam as formas no Word?",
+            "alternativas": [
+              "Inserir > Formas",
+              "Arquivo > Salvar",
+              "Revisão > Ortografia",
+              "Exibir > Zoom"
+            ],
+            "correta": 0,
+            "explicacao": "Na guia Inserir há o botão Formas.",
+            "dica": "É a mesma guia onde se colocam imagens."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tecla segurar para desenhar um círculo perfeito?",
+            "alternativas": [
+              "Enter",
+              "Tab",
+              "Esc",
+              "Shift"
+            ],
+            "correta": 3,
+            "explicacao": "Shift mantém as proporções da forma.",
+            "dica": "É a mesma tecla usada para fazer letra maiúscula."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o Preenchimento da Forma muda?",
+            "alternativas": [
+              "A borda",
+              "O tamanho da folha",
+              "A cor de dentro da forma",
+              "A fonte do documento"
+            ],
+            "correta": 2,
+            "explicacao": "Preenchimento é a cor que enche a forma.",
+            "dica": "Preencher é encher por dentro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num cartaz, o título deve ser:",
+            "alternativas": [
+              "Pequeno e escondido",
+              "Grande e fácil de ler",
+              "Escrito à mão",
+              "Igual ao resto do texto"
+            ],
+            "correta": 1,
+            "explicacao": "O título chama a atenção de longe.",
+            "dica": "O que a pessoa precisa ver primeiro?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Como escrever dentro de uma forma?",
+            "alternativas": [
+              "Botão direito na forma > Adicionar Texto",
+              "Arquivo > Novo",
+              "Apertar Delete",
+              "Inserir > Tabela"
+            ],
+            "correta": 0,
+            "explicacao": "A opção Adicionar Texto coloca o cursor dentro da forma.",
+            "dica": "Use o menu do botão direito."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas informações é essencial no cartaz de um evento?",
+            "alternativas": [
+              "A cor favorita do diretor",
+              "A previsão do tempo da semana",
+              "O nome de todos os alunos",
+              "Data, horário e local"
+            ],
+            "correta": 3,
+            "explicacao": "Sem quando e onde, ninguém consegue ir.",
+            "dica": "O que a pessoa precisa saber para ir ao evento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que o Contorno da Forma muda?",
+            "alternativas": [
+              "A cor de dentro",
+              "O texto",
+              "A borda da forma",
+              "O tamanho da página"
+            ],
+            "correta": 2,
+            "explicacao": "Contorno é a linha em volta da forma.",
+            "dica": "Contorno é o que fica em volta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma caixa de texto ficou escondida atrás de um retângulo. O que fazer?",
+            "alternativas": [
+              "Apagar o retângulo",
+              "Selecionar a caixa e usar Trazer para a Frente",
+              "Salvar o arquivo",
+              "Mudar a fonte"
+            ],
+            "correta": 1,
+            "explicacao": "Trazer para a Frente coloca o objeto por cima dos outros.",
+            "dica": "Existe um comando que muda a ordem das camadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para ler um cartaz de longe, é melhor:",
+            "alternativas": [
+              "Pouco texto, letras grandes e cores com contraste",
+              "Muito texto e letras pequenas",
+              "Cinco fontes diferentes",
+              "Texto amarelo em fundo branco"
+            ],
+            "correta": 0,
+            "explicacao": "Contraste e letra grande facilitam a leitura à distância.",
+            "dica": "Imagine o cartaz no mural do corredor."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer mover o título, três formas e uma caixa de texto juntos. O que fazer?",
+            "alternativas": [
+              "Mover um de cada vez",
+              "Copiar tudo para outro arquivo",
+              "Selecionar todos com Ctrl e usar Agrupar",
+              "Apagar e desenhar de novo"
+            ],
+            "correta": 2,
+            "explicacao": "Agrupados, os objetos se movem como um só.",
+            "dica": "Existe um comando que junta objetos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual opção de layout deixa a forma solta para mover por cima do texto?",
+            "alternativas": [
+              "Alinhado com o Texto",
+              "Na Frente do Texto",
+              "Justificado",
+              "Espaçamento duplo"
+            ],
+            "correta": 1,
+            "explicacao": "Na Frente do Texto deixa o objeto livre, por cima.",
+            "dica": "Pense em qual opção não empurra as linhas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação de cores tem mais contraste?",
+            "alternativas": [
+              "Amarelo-claro em fundo branco",
+              "Cinza-claro em fundo branco",
+              "Azul-escuro em fundo preto",
+              "Preto em fundo amarelo"
+            ],
+            "correta": 3,
+            "explicacao": "Escuro sobre claro contrasta bem.",
+            "dica": "Qual par tem cores muito diferentes em claridade?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas fontes diferentes é recomendado usar num cartaz?",
+            "alternativas": [
+              "No máximo duas",
+              "Pelo menos cinco",
+              "Uma por linha",
+              "Dez"
+            ],
+            "correta": 0,
+            "explicacao": "Poucas fontes deixam o cartaz organizado.",
+            "dica": "Fontes demais deixam o visual confuso."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem a montagem de um cartaz:",
+            "itens": [
+              "Definir as informações essenciais",
+              "Escrever o título em destaque",
+              "Inserir formas e caixas de texto",
+              "Ajustar cores e alinhar",
+              "Agrupar e salvar"
+            ],
+            "explicacao": "Primeiro o conteúdo, depois o título, os elementos, o acabamento e, por fim, agrupar e salvar.",
+            "dica": "O conteúdo vem antes da decoração."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num cartaz, o que deve ficar MAIOR, seguindo a hierarquia visual?",
+            "alternativas": [
+              "O nome de quem fez o cartaz",
+              "O nome do evento",
+              "O endereço completo da escola",
+              "O número de páginas"
+            ],
+            "correta": 1,
+            "explicacao": "O mais importante é o maior.",
+            "dica": "O que chama a pessoa a ler o resto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lia fez um cartaz com 6 fontes, texto cinza em fundo azul-claro e um parágrafo de 10 linhas. Quantos problemas de design há?",
+            "alternativas": [
+              "1",
+              "2",
+              "4",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Fontes demais, pouco contraste e texto longo: 3 problemas.",
+            "dica": "Confira as três regras do aprofundamento e a da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No Documentos Google, onde ficam formas e caixas de texto?",
+            "alternativas": [
+              "Inserir > Desenho > Novo",
+              "Arquivo > Imprimir",
+              "Formatar > Colunas",
+              "Ferramentas > Ortografia"
+            ],
+            "correta": 0,
+            "explicacao": "O editor de desenho do Documentos Google tem formas e caixas.",
+            "dica": "Procure em Inserir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você agrupou os objetos, mas precisa mudar só a cor de uma estrela. O que fazer?",
+            "alternativas": [
+              "Apagar tudo",
+              "Mudar a cor de todos",
+              "Clicar no grupo e depois clicar de novo na estrela, ou desagrupar",
+              "Não é possível"
+            ],
+            "correta": 2,
+            "explicacao": "Dá para selecionar um objeto dentro do grupo ou desagrupar, mudar e agrupar de novo.",
+            "dica": "Agrupar é definitivo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que o cartaz usa “Entrada gratuita” e não um parágrafo explicando que não precisa pagar?",
+            "alternativas": [
+              "Porque parágrafos são proibidos",
+              "Porque frases curtas são lidas de longe e rápido",
+              "Porque o Word não aceita textos longos",
+              "Porque fica mais caro imprimir"
+            ],
+            "correta": 1,
+            "explicacao": "Quem passa no corredor lê poucas palavras.",
+            "dica": "Quanto tempo uma pessoa olha um cartaz no mural?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Controle de caixa: anotar entradas e saídas",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Controle de caixa é anotar todo o dinheiro que entra (vendas, Pix recebidos) e todo o dinheiro que sai (compras, contas, salários), sempre com data, descrição e valor.",
+          "A conta básica é: saldo final = saldo inicial + entradas − saídas. Se o saldo não bate com o dinheiro que existe de verdade, algo não foi anotado.",
+          "Separe o dinheiro do negócio do dinheiro pessoal. Pegar do caixa para gastos de casa sem anotar bagunça tudo. O dono deve definir uma retirada fixa, chamada pró-labore.",
+          "Pode ser um caderno, uma planilha ou um aplicativo. O importante é anotar na hora e guardar os comprovantes.",
+          "Lucro e caixa são coisas diferentes. Quem vende fiado ou recebe só depois pode ter lucro no papel e, mesmo assim, não ter dinheiro hoje para pagar o fornecedor."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma lanchonete começou a semana com R$ 100 no caixa, vendeu R$ 350 e gastou R$ 180. Qual é o saldo?",
+            "resolucao": "100 + 350 − 180 = R$ 270."
+          },
+          {
+            "enunciado": "Num dia, a pastelaria vendeu 25 pastéis a R$ 8, comprou R$ 70 de ingredientes e pagou R$ 30 de gás. Qual foi o resultado do dia?",
+            "resolucao": "Entradas: 25 × 8 = R$ 200. Saídas: 70 + 30 = R$ 100. Resultado: 200 − 100 = R$ 100 a mais no caixa."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O fluxo de caixa projetado olha para a frente: anota as entradas e saídas previstas para as próximas semanas. Se o aluguel vence no dia 10 e as vendas maiores só acontecem no fim do mês, o dono descobre antes que vai faltar dinheiro e se prepara.",
+        "Venda fiado é dinheiro a receber, não dinheiro no caixa. Anote numa lista separada, com nome, valor e data combinada, para cobrar com educação e não perder o controle.",
+        "Liderar uma equipe também passa pelo caixa: regras claras para quem mexe no dinheiro, conferência no fim do dia feita por duas pessoas e salários pagos em dia, no valor combinado. O salário dos funcionários é uma saída obrigatória, que precisa estar prevista antes de qualquer retirada do dono. Transparência evita desconfiança e mantém os bons funcionários."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é o controle de caixa?",
+            "alternativas": [
+              "Contar só as moedas",
+              "Anotar tudo o que entra e sai de dinheiro",
+              "Guardar dinheiro embaixo do colchão",
+              "Comprar uma caixa nova"
+            ],
+            "correta": 1,
+            "explicacao": "É o registro de todas as entradas e saídas.",
+            "dica": "Pense no caderno do tesoureiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma venda de R$ 30 recebida por Pix é:",
+            "alternativas": [
+              "Uma entrada",
+              "Uma saída",
+              "Um prejuízo",
+              "Um empréstimo"
+            ],
+            "correta": 0,
+            "explicacao": "Dinheiro que chega ao negócio é entrada, seja em espécie ou por Pix.",
+            "dica": "O dinheiro veio ou foi?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Comprar R$ 50 de farinha para o negócio é:",
+            "alternativas": [
+              "Uma entrada",
+              "Um lucro",
+              "Um presente",
+              "Uma saída"
+            ],
+            "correta": 3,
+            "explicacao": "Dinheiro que sai do caixa para pagar algo é saída.",
+            "dica": "O dinheiro saiu do caixa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Saldo inicial de R$ 50, entradas de R$ 100, nenhuma saída. Qual é o saldo?",
+            "alternativas": [
+              "R$ 50",
+              "R$ 100",
+              "R$ 150",
+              "R$ 0"
+            ],
+            "correta": 2,
+            "explicacao": "50 + 100 = R$ 150.",
+            "dica": "Some o que tinha com o que entrou."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é importante anotar junto com o valor?",
+            "alternativas": [
+              "A cor da nota",
+              "A data e a descrição",
+              "O nome da música que tocava",
+              "Nada"
+            ],
+            "correta": 1,
+            "explicacao": "Data e descrição ajudam a entender cada movimento depois.",
+            "dica": "Daqui a um mês, como você saberia o que foi aquele valor?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Saldo inicial de R$ 100, entradas de R$ 350 e saídas de R$ 180. Qual é o saldo final?",
+            "alternativas": [
+              "R$ 270",
+              "R$ 630",
+              "R$ 250",
+              "R$ 170"
+            ],
+            "correta": 0,
+            "explicacao": "100 + 350 − 180 = R$ 270.",
+            "dica": "Some as entradas ao saldo inicial e tire as saídas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "25 pastéis vendidos a R$ 8, R$ 70 de ingredientes e R$ 30 de gás. Qual foi o resultado do dia?",
+            "alternativas": [
+              "R$ 200",
+              "R$ 130",
+              "R$ 170",
+              "R$ 100"
+            ],
+            "correta": 3,
+            "explicacao": "Entradas: 200. Saídas: 100. Resultado: 100.",
+            "dica": "Calcule entradas e saídas separadamente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que separar o dinheiro do negócio do dinheiro pessoal?",
+            "alternativas": [
+              "Porque é proibido ter dinheiro em casa",
+              "Porque o banco exige duas carteiras",
+              "Para saber de verdade se o negócio dá resultado",
+              "Para pagar menos imposto"
+            ],
+            "correta": 2,
+            "explicacao": "Misturar faz o dono achar que o negócio vai bem ou mal sem saber por quê.",
+            "dica": "Se você gasta do caixa sem anotar, consegue saber o lucro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama a retirada fixa que o dono faz do negócio?",
+            "alternativas": [
+              "Pró-labore",
+              "Fiado",
+              "Troco",
+              "Imposto"
+            ],
+            "correta": 0,
+            "explicacao": "O pró-labore é o “salário” do dono.",
+            "dica": "É uma expressão de origem latina ligada a trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O saldo anotado é R$ 300, mas na gaveta há R$ 260. O que isso indica?",
+            "alternativas": [
+              "Que está tudo certo",
+              "Que o negócio deu lucro",
+              "Que o caixa sempre erra",
+              "Que alguma saída não foi anotada ou houve erro no troco"
+            ],
+            "correta": 3,
+            "explicacao": "A diferença de R$ 40 precisa ser investigada.",
+            "dica": "O anotado deveria bater com o real."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma loja vendeu R$ 1.000 num mês: R$ 600 à vista e R$ 400 fiado para o mês seguinte. As saídas do mês foram R$ 700. Quanto sobrou no caixa nesse mês?",
+            "alternativas": [
+              "R$ 300 positivo",
+              "R$ 100 negativo",
+              "R$ 400 positivo",
+              "R$ 100 positivo"
+            ],
+            "correta": 1,
+            "explicacao": "Entrou de verdade só R$ 600. 600 − 700 = −100. O lucro existe, mas o dinheiro ainda não chegou.",
+            "dica": "Fiado é dinheiro no caixa hoje?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um negócio tem saldo de R$ 410 hoje e prevê entradas de R$ 520 e saídas de R$ 410 na semana. Qual será o saldo no fim da semana?",
+            "alternativas": [
+              "R$ 410",
+              "R$ 520",
+              "R$ 520 mais R$ 410",
+              "R$ 110"
+            ],
+            "correta": 1,
+            "explicacao": "410 + 520 − 410 = 520.",
+            "dica": "Use a fórmula do saldo com os valores previstos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O aluguel vence no dia 10, mas as maiores vendas acontecem no fim do mês. Qual ferramenta ajuda a se preparar?",
+            "alternativas": [
+              "Fluxo de caixa projetado",
+              "Desconto para todos",
+              "Vender fiado",
+              "Esquecer o aluguel"
+            ],
+            "correta": 0,
+            "explicacao": "Prever entradas e saídas mostra quando vai faltar dinheiro.",
+            "dica": "Uma ferramenta que olha para o futuro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a melhor forma de controlar as vendas fiado?",
+            "alternativas": [
+              "Confiar na memória",
+              "Não anotar, para não constranger",
+              "Lista separada com nome, valor e data combinada",
+              "Misturar com as entradas do dia"
+            ],
+            "correta": 2,
+            "explicacao": "Fiado é dinheiro a receber e precisa de controle próprio.",
+            "dica": "Como lembrar quem deve e quando paga?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na barraca de Dona Célia, dois funcionários fecham o caixa no fim do dia. Qual regra é mais justa e segura?",
+            "alternativas": [
+              "Só o dono conta, em segredo",
+              "Contar no dia seguinte",
+              "Descontar do salário qualquer diferença sem conversar",
+              "Conferir juntos, anotar e assinar o fechamento"
+            ],
+            "correta": 3,
+            "explicacao": "Conferência a dois, com registro, protege a todos e evita desconfiança.",
+            "dica": "O que dá transparência ao fechamento?"
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um caixa começou com R$ 80. Entraram R$ 150 de vendas, saíram R$ 60 de compras e o dono tirou R$ 45 para o mercado de casa, sem anotar. Quanto deveria haver na gaveta e quanto o caderno mostra?",
+            "alternativas": [
+              "Gaveta R$ 125; caderno R$ 170",
+              "Gaveta R$ 170; caderno R$ 125",
+              "Os dois R$ 125",
+              "Os dois R$ 170"
+            ],
+            "correta": 0,
+            "explicacao": "Real: 80 + 150 − 60 − 45 = 125. Caderno, sem a retirada: 80 + 150 − 60 = 170. A diferença é a retirada esquecida.",
+            "dica": "Faça a conta com e sem a retirada pessoal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um negócio teve R$ 3.000 de entradas no mês. Saídas: R$ 1.200 de mercadoria, R$ 600 de aluguel e R$ 1.500 de salário de um funcionário. O dono quer tirar R$ 500 de pró-labore. É possível?",
+            "alternativas": [
+              "Sim, sobram R$ 500",
+              "Sim, e ainda sobra R$ 200",
+              "Não: o mês fechou em −R$ 300 antes da retirada",
+              "Sim, se atrasar o salário do funcionário"
+            ],
+            "correta": 2,
+            "explicacao": "3.000 − 1.200 − 600 − 1.500 = −300. Atrasar salário não é opção: é ilegal e injusto. É preciso rever custos ou vender mais.",
+            "dica": "Calcule o saldo antes de pensar na retirada."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o fechamento de caixa do dia:",
+            "itens": [
+              "Anotar cada venda e cada compra na hora",
+              "Somar as entradas e as saídas do dia",
+              "Calcular o saldo final",
+              "Contar o dinheiro real e comparar",
+              "Investigar e anotar qualquer diferença"
+            ],
+            "explicacao": "Primeiro se registra, depois se soma, calcula, confere e, se não bater, investiga.",
+            "dica": "A conferência só faz sentido depois do cálculo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na festa da escola, a banca vendeu 120 saquinhos de pipoca a R$ 3 e gastou R$ 130. Quanto sobrou para o fundo da turma?",
+            "alternativas": [
+              "R$ 360",
+              "R$ 490",
+              "R$ 130",
+              "R$ 230"
+            ],
+            "correta": 3,
+            "explicacao": "120 × 3 = 360. 360 − 130 = R$ 230.",
+            "dica": "Calcule as entradas antes de tirar os gastos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um negócio pode ter lucro e mesmo assim faltar dinheiro para pagar uma conta hoje?",
+            "alternativas": [
+              "Porque lucro é sempre falso",
+              "Porque parte das vendas ainda não foi recebida, como o fiado e as vendas a prazo",
+              "Porque o caixa não usa números",
+              "Porque o banco esconde o dinheiro"
+            ],
+            "correta": 1,
+            "explicacao": "Lucro olha para vendas e custos; caixa olha para o dinheiro que realmente entrou.",
+            "dica": "O fiado já está na gaveta?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Pronomes oblíquos: me, te, se, lhe, o, a",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Os pronomes oblíquos átonos substituem complementos do verbo: me, te, se, o, a, os, as, lhe, lhes, nos e vos. Eles evitam repetir palavras.",
+          "O, a, os e as substituem o objeto direto, que vem sem preposição: “Vi a Ana na feira.” → “Eu a vi na feira.”",
+          "Lhe e lhes substituem o objeto indireto, que vem com a preposição a ou para, quando se trata de pessoa: “Entreguei o livro ao professor.” → “Entreguei-lhe o livro.”",
+          "Depois de verbo terminado em r, s ou z, o vira lo (e a vira la), e o verbo perde a última letra: “Vou comprar o pão.” → “Vou comprá-lo.” Depois de som nasal (am, em, ão, õe), vira no: “Compraram o pão.” → “Compraram-no.”",
+          "Na fala do dia a dia, é comum ouvir “Eu vi ela”. Na escrita formal, o certo é “Eu a vi”."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Reescreva sem repetir: “Pedro achou a chave. Pedro guardou a chave na mochila.”",
+            "resolucao": "“Pedro achou a chave e guardou-a na mochila.” (ou “e a guardou na mochila”)."
+          },
+          {
+            "enunciado": "Substitua o termo destacado por pronome: “Vamos visitar os avós.”",
+            "resolucao": "“Vamos visitá-los.” O verbo termina em r, então o “os” vira “los” e “visitar” perde o r."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Algumas palavras puxam o pronome para antes do verbo: palavras negativas (não, nunca, ninguém), pronomes como que e quem, e advérbios como já e sempre. “Não me esqueça.” “Ela já o conhece.” Escrever “Não esqueça-me” está errado.",
+        "Na norma formal, não se começa uma frase com pronome oblíquo: “Me empresta o lápis” é comum na fala, mas na escrita formal fica “Empreste-me o lápis”.",
+        "Lhe é para objeto indireto. Como “ver” pede objeto direto (quem vê, vê alguém), “Eu lhe vi” está errado na norma formal; o certo é “Eu o vi” (ou “Eu a vi”). Já “Eu lhe dei um presente” está certo, porque quem dá, dá algo a alguém."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Substitua “a Ana” por pronome: “Vi a Ana na feira.”",
+            "alternativas": [
+              "Vi lhe na feira.",
+              "Eu a vi na feira.",
+              "Eu ela vi na feira.",
+              "Vi mim na feira."
+            ],
+            "correta": 1,
+            "explicacao": "“a Ana” é objeto direto e vira “a”.",
+            "dica": "Que pronome substitui uma palavra feminina sem preposição?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que servem os pronomes oblíquos?",
+            "alternativas": [
+              "Para substituir complementos e evitar repetição",
+              "Para enfeitar o texto",
+              "Para indicar o tempo",
+              "Para terminar a frase"
+            ],
+            "correta": 0,
+            "explicacao": "Eles trocam o complemento por uma palavra curta.",
+            "dica": "O que acontece quando repetimos a mesma palavra várias vezes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual pronome substitui “ao professor” em “Entreguei o livro ao professor”?",
+            "alternativas": [
+              "o",
+              "a",
+              "me",
+              "lhe"
+            ],
+            "correta": 3,
+            "explicacao": "“ao professor” tem preposição e é pessoa: vira “lhe”.",
+            "dica": "Esse complemento tem preposição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Vou comprar o pão.” → “Vou ___.”",
+            "alternativas": [
+              "comprar-o",
+              "comprar ele",
+              "comprá-lo",
+              "comprar-lhe"
+            ],
+            "correta": 2,
+            "explicacao": "Verbo em r: o vira lo e o r cai.",
+            "dica": "O r do verbo some e aparece um l."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na escrita formal, qual frase está certa?",
+            "alternativas": [
+              "Eu vi ela.",
+              "Eu a vi.",
+              "Eu vi a ela pronome.",
+              "Eu lhe vi."
+            ],
+            "correta": 1,
+            "explicacao": "Na norma formal, “ela” não é objeto; usa-se “a”.",
+            "dica": "Qual é a forma da norma formal, e não da fala?"
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Reescreva sem repetir: “Pedro achou a chave. Pedro guardou a chave.”",
+            "alternativas": [
+              "Pedro achou a chave e guardou-a.",
+              "Pedro achou a chave e guardou ela.",
+              "Pedro achou a chave e guardou-lhe.",
+              "Pedro achou a chave e guardou-se."
+            ],
+            "correta": 0,
+            "explicacao": "“a chave” é objeto direto feminino: “a”.",
+            "dica": "A chave é guardada por alguém, sem preposição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Vamos visitar os avós.” → “Vamos ___.”",
+            "alternativas": [
+              "visitar-os",
+              "visitá-lhes",
+              "visitar eles",
+              "visitá-los"
+            ],
+            "correta": 3,
+            "explicacao": "Verbo em r: os vira los.",
+            "dica": "Os avós são muitos e o verbo termina em r."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Compraram o bolo.” → “___.”",
+            "alternativas": [
+              "Compraram-lo.",
+              "Compraram-no.",
+              "Compraram-lhe.",
+              "Compraram ele."
+            ],
+            "correta": 1,
+            "explicacao": "Depois de som nasal (am), o vira no.",
+            "dica": "O verbo termina com som nasal."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em “Eu lhe dei um presente.”, o “lhe” significa:",
+            "alternativas": [
+              "o presente",
+              "eu",
+              "a ele ou a ela",
+              "nós"
+            ],
+            "correta": 2,
+            "explicacao": "Quem dá, dá algo a alguém: lhe = a ele ou a ela.",
+            "dica": "A quem o presente foi dado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está de acordo com a norma formal?",
+            "alternativas": [
+              "Me passa o sal.",
+              "Passa-me o sal.",
+              "Passa eu o sal.",
+              "Passa mim o sal."
+            ],
+            "correta": 1,
+            "explicacao": "Na norma formal, não se começa a frase com pronome oblíquo.",
+            "dica": "Onde o pronome deve ficar quando a frase começa pelo verbo?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Não esqueça-me.",
+              "Não me esqueça.",
+              "Não esqueça eu.",
+              "Não mim esqueça."
+            ],
+            "correta": 1,
+            "explicacao": "A palavra “não” puxa o pronome para antes do verbo.",
+            "dica": "Palavras negativas atraem o pronome."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que “Eu lhe vi ontem.” está errado na norma formal?",
+            "alternativas": [
+              "Porque “ver” pede objeto direto, então o certo é “Eu o vi” ou “Eu a vi”",
+              "Porque “lhe” não existe",
+              "Porque falta vírgula",
+              "Não está errado"
+            ],
+            "correta": 0,
+            "explicacao": "Quem vê, vê alguém, sem preposição: objeto direto.",
+            "dica": "Pense se “ver” pede preposição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Encontrei a professora e ___ pedi ajuda.”",
+            "alternativas": [
+              "a",
+              "o",
+              "la",
+              "lhe"
+            ],
+            "correta": 3,
+            "explicacao": "Quem pede, pede algo a alguém: objeto indireto, “lhe”.",
+            "dica": "Pedir ajuda a quem? Tem preposição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Ela já ___ conhece há anos.” (o vizinho)",
+            "alternativas": [
+              "lhe",
+              "a",
+              "o",
+              "lo"
+            ],
+            "correta": 2,
+            "explicacao": "“já” atrai o pronome para antes do verbo, e conhecer pede objeto direto: “o”.",
+            "dica": "Duas pistas: a palavra antes do verbo e o tipo de complemento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma correta de “Fiz o desenho” com pronome?",
+            "alternativas": [
+              "Fi-lo.",
+              "Fiz-o.",
+              "Fiz-lhe.",
+              "Fiz ele."
+            ],
+            "correta": 0,
+            "explicacao": "“Fiz” termina em z: o z cai e o pronome vira lo.",
+            "dica": "Verbos terminados em z seguem a mesma regra do r e do s."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos erros de norma formal há em “Me disseram que ele viu ela e lhe encontrou na praça.”?",
+            "alternativas": [
+              "1",
+              "2",
+              "4",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "“Me disseram” começa com oblíquo (→ Disseram-me); “viu ela” (→ a viu); “lhe encontrou” (encontrar pede objeto direto → a encontrou). São 3 erros.",
+            "dica": "Confira o começo da frase e o tipo de complemento de cada verbo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: “Os documentos? Ainda não ___ entreguei ___ secretária.”",
+            "alternativas": [
+              "os / à",
+              "lhe / a",
+              "los / à",
+              "lhes / à"
+            ],
+            "correta": 0,
+            "explicacao": "“não” atrai o pronome; os documentos são objeto direto: “os”. Entregar a alguém: “à secretária”.",
+            "dica": "Primeiro decida o pronome dos documentos; depois a preposição antes de secretária."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está totalmente de acordo com a norma formal?",
+            "alternativas": [
+              "Encontrei-lhe na escola e dei-o um abraço.",
+              "Encontrei-o na escola e dei-lhe um abraço.",
+              "Encontrei ele na escola e dei a ele-o um abraço.",
+              "Lhe encontrei na escola e o dei um abraço."
+            ],
+            "correta": 1,
+            "explicacao": "Encontrar alguém: objeto direto (o). Dar algo a alguém: objeto indireto (lhe).",
+            "dica": "Cada verbo pede um tipo de complemento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Transforme: “Devemos respeitar as regras.” usando pronome.",
+            "alternativas": [
+              "Devemos respeitá-lhes.",
+              "Devemos respeitar-as.",
+              "Devemos respeitar elas.",
+              "Devemos respeitá-las."
+            ],
+            "correta": 3,
+            "explicacao": "Verbo em r: as vira las e o r cai.",
+            "dica": "As regras são femininas, plurais e sem preposição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em qual frase o pronome está mal colocado na norma formal?",
+            "alternativas": [
+              "Nunca o vi tão feliz.",
+              "Quem te contou?",
+              "Ninguém avisou-me.",
+              "Ela me ajudou."
+            ],
+            "correta": 2,
+            "explicacao": "“Ninguém” atrai o pronome: “Ninguém me avisou.”",
+            "dica": "Procure uma palavra negativa que não atraiu o pronome."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O caderno do caixa",
+    "texto": "No ano passado, a banca de pipoca da turma na festa junina da escola terminou de um jeito estranho: todo mundo jurava que tinha vendido muito, mas o dinheiro da caixinha mal pagou o milho e o óleo. Ninguém sabia explicar para onde tinha ido o resto.\n\nNeste ano, a professora Neide propôs uma regra: tudo seria anotado. Caio, eleito tesoureiro da turma, ganhou um caderno de capa azul e dividiu cada página em três colunas: data, descrição e valor. Entradas em azul, saídas em vermelho.\n\nNa primeira noite, ele anotou cada saquinho vendido, cada Pix recebido e cada compra feita no mercado. E descobriu o que ninguém tinha percebido antes: colegas pegavam pipoca “para provar” e não pagavam, e às vezes o troco saía errado.\n\nNo fim da festa, a conta fechou. Entraram R$ 640 e saíram R$ 230 em ingredientes, saquinhos e gás. O saldo, R$ 410, foi direto para o fundo da excursão ao museu.\n\n— Não é que a gente vendeu mais — disse a professora. — É que agora a gente sabe o que acontece com o dinheiro.\n\nCaio guardou o caderno na mochila como quem guarda um mapa."
+  },
+  "escrita": {
+    "proposta": "Monte o controle de caixa de uma semana de um negócio imaginário (por exemplo, uma barraca de bolos de uma família ou a banca da turma numa festa da escola). Faça uma tabela no caderno com dia, descrição, entrada e saída, com pelo menos três entradas e três saídas, e calcule o saldo final a partir de um saldo inicial que você escolher. Depois, escreva duas ou três linhas comentando o resultado: sobrou ou faltou dinheiro? Qual gasto pesou mais?"
+  }
+}

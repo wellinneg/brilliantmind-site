@@ -1,0 +1,1504 @@
+{
+  "dia": 44,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Semelhança de triângulos: medir um prédio pela sombra",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Dois triângulos são semelhantes quando têm os mesmos ângulos e os lados correspondentes proporcionais. Um é uma ampliação ou redução do outro, como uma foto ampliada.",
+          "Basta que dois ângulos sejam iguais para os triângulos serem semelhantes (caso AA). A razão entre lados correspondentes é a razão de semelhança k.",
+          "Medir pela sombra: no mesmo instante, os raios do Sol chegam paralelos, então a vara e sua sombra formam um triângulo semelhante ao do prédio e sua sombra. Vale: altura do prédio / sombra do prédio = altura da vara / sombra da vara.",
+          "Exemplo: uma vara de 1,5 m faz sombra de 2 m, e o prédio faz sombra de 16 m. Então h/16 = 1,5/2, logo h = 1,5 × 16 / 2 = 12 m.",
+          "As medidas têm de ser feitas no mesmo horário: com o Sol em outra posição, as sombras mudam de tamanho."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma pessoa de 1,6 m faz sombra de 2 m. No mesmo instante, uma árvore faz sombra de 10 m. Qual é a altura da árvore?",
+            "resolucao": "h/10 = 1,6/2. h = 1,6 × 10 / 2 = 8 m."
+          },
+          {
+            "enunciado": "Um triângulo de lados 3, 4 e 5 cm é ampliado com k = 3. Quais são os novos lados e o perímetro?",
+            "resolucao": "9, 12 e 15 cm. Perímetro: 36 cm, que é 3 vezes o perímetro original (12 cm)."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Perímetros seguem a razão k, mas áreas seguem k². Se os lados triplicam, a área fica 9 vezes maior: o triângulo 3-4-5 tem área 6 cm² e o ampliado, 54 cm².",
+        "Método do espelho: coloque um espelho no chão, afaste-se até ver o topo do prédio nele. Os ângulos de chegada e de saída da luz são iguais, então surgem dois triângulos semelhantes. Se seus olhos estão a 1,5 m do chão, você está a 2 m do espelho e o prédio está a 30 m dele, a altura é 1,5 × 30 / 2 = 22,5 m.",
+        "Semelhança dentro do triângulo: uma reta paralela a um lado forma um triângulo menor semelhante ao maior. Se AD = 4, AB = 10 e DE = 6 (com DE paralelo a BC), então BC = 6 × 10 / 4 = 15."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Triângulos semelhantes têm:",
+            "alternativas": [
+              "lados iguais e ângulos diferentes",
+              "os mesmos ângulos e lados proporcionais",
+              "sempre a mesma área",
+              "só um ângulo igual"
+            ],
+            "correta": 1,
+            "explicacao": "Ângulos iguais e lados proporcionais.",
+            "dica": "Pense numa foto ampliada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para provar semelhança pelo caso AA, basta ter:",
+            "alternativas": [
+              "dois ângulos iguais",
+              "um lado igual",
+              "a mesma cor",
+              "três lados iguais"
+            ],
+            "correta": 0,
+            "explicacao": "Dois ângulos iguais garantem o terceiro.",
+            "dica": "AA vem de ângulo, ângulo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Vara de 2 m, sombra de 3 m; poste com sombra de 9 m. Qual é a altura do poste?",
+            "alternativas": [
+              "9 m",
+              "4 m",
+              "6 m",
+              "12 m"
+            ],
+            "correta": 2,
+            "explicacao": "h/9 = 2/3, h = 6 m.",
+            "dica": "A sombra do poste é o triplo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As sombras devem ser medidas:",
+            "alternativas": [
+              "em dias diferentes",
+              "uma de manhã e outra à tarde",
+              "só à noite",
+              "no mesmo instante"
+            ],
+            "correta": 3,
+            "explicacao": "O Sol precisa estar na mesma posição.",
+            "dica": "O Sol se move ao longo do dia."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ampliando um triângulo com k = 2, os lados ficam:",
+            "alternativas": [
+              "duas vezes maiores",
+              "iguais",
+              "quatro vezes maiores",
+              "pela metade"
+            ],
+            "correta": 0,
+            "explicacao": "Os lados são multiplicados por k.",
+            "dica": "k diz quantas vezes."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Vara de 1,5 m faz sombra de 2 m; o prédio faz sombra de 16 m. Qual é a altura do prédio?",
+            "alternativas": [
+              "10 m",
+              "12 m",
+              "16 m",
+              "21 m"
+            ],
+            "correta": 1,
+            "explicacao": "h = 1,5 × 16 / 2 = 12 m.",
+            "dica": "Monte altura/sombra igual nos dois."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Pessoa de 1,6 m faz sombra de 2 m; árvore faz sombra de 10 m. Altura da árvore?",
+            "alternativas": [
+              "8 m",
+              "12,5 m",
+              "6 m",
+              "10 m"
+            ],
+            "correta": 0,
+            "explicacao": "h = 1,6 × 10 / 2 = 8 m.",
+            "dica": "A sombra da árvore é 5 vezes a da pessoa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Triângulo 3-4-5 ampliado com k = 3. Qual é o novo perímetro?",
+            "alternativas": [
+              "12",
+              "15",
+              "27",
+              "36"
+            ],
+            "correta": 3,
+            "explicacao": "Lados 9, 12 e 15: perímetro 36.",
+            "dica": "Multiplique o perímetro por k."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os lados de dois triângulos semelhantes são 4 e 10. Qual é a razão de semelhança do maior para o menor?",
+            "alternativas": [
+              "4",
+              "0,4",
+              "2,5",
+              "6"
+            ],
+            "correta": 2,
+            "explicacao": "10/4 = 2,5.",
+            "dica": "Divida o maior pelo menor."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o lado que falta? Triângulos semelhantes: 5, 7 e 8 e outro com 10, 14 e x.",
+            "alternativas": [
+              "11",
+              "16",
+              "13",
+              "15"
+            ],
+            "correta": 1,
+            "explicacao": "k = 2; x = 8 × 2 = 16.",
+            "dica": "Ache k pelo primeiro par."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um triângulo de área 6 cm² tem os lados triplicados. Qual é a nova área?",
+            "alternativas": [
+              "18 cm²",
+              "54 cm²",
+              "36 cm²",
+              "24 cm²"
+            ],
+            "correta": 1,
+            "explicacao": "Área multiplica por k² = 9: 54 cm².",
+            "dica": "Área cresce com o quadrado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma criança de 1,2 m faz sombra de 1,8 m. A sombra de um muro é 15 m. Qual é a altura do muro?",
+            "alternativas": [
+              "22,5 m",
+              "12 m",
+              "10 m",
+              "8 m"
+            ],
+            "correta": 2,
+            "explicacao": "h = 1,2 × 15 / 1,8 = 10 m.",
+            "dica": "Monte a proporção altura/sombra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com DE paralelo a BC, AD = 4, AB = 10 e DE = 6. Quanto mede BC?",
+            "alternativas": [
+              "15",
+              "12",
+              "24",
+              "9"
+            ],
+            "correta": 0,
+            "explicacao": "BC/6 = 10/4, BC = 15.",
+            "dica": "Compare o triângulo pequeno com o grande."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que os raios de Sol permitem usar semelhança?",
+            "alternativas": [
+              "Porque são curvos",
+              "Porque mudam de cor",
+              "Porque são quentes",
+              "Porque chegam praticamente paralelos e formam ângulos iguais"
+            ],
+            "correta": 3,
+            "explicacao": "Raios paralelos criam o mesmo ângulo com o chão.",
+            "dica": "Pense nos ângulos."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para medir um poste pela sombra.",
+            "itens": [
+              "Fincar uma vara de altura conhecida na vertical",
+              "Medir a sombra da vara e a do poste no mesmo instante",
+              "Montar a proporção altura/sombra",
+              "Calcular a altura do poste"
+            ],
+            "explicacao": "Preparar, medir, montar e calcular.",
+            "dica": "A conta é o último passo."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Método do espelho: olhos a 1,5 m, você a 2 m do espelho, prédio a 30 m do espelho. Qual é a altura do prédio?",
+            "alternativas": [
+              "20 m",
+              "40 m",
+              "22,5 m",
+              "15 m"
+            ],
+            "correta": 2,
+            "explicacao": "h/30 = 1,5/2, h = 22,5 m.",
+            "dica": "A pessoa e o prédio formam triângulos semelhantes com o espelho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "As áreas de dois triângulos semelhantes estão na razão 9/25. O menor tem perímetro 30. Qual é o perímetro do maior?",
+            "alternativas": [
+              "50",
+              "83,3",
+              "45",
+              "75"
+            ],
+            "correta": 0,
+            "explicacao": "Razão dos lados: 3/5. Perímetro: 30 × 5/3 = 50.",
+            "dica": "Tire a raiz da razão das áreas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Às 9 h, uma vara de 1 m fez sombra de 1,25 m e o prédio, 12,5 m. Às 15 h, a vara fez sombra de 0,8 m. Qual era a sombra do prédio às 15 h?",
+            "alternativas": [
+              "12,5 m",
+              "10 m",
+              "6,4 m",
+              "8 m"
+            ],
+            "correta": 3,
+            "explicacao": "Altura do prédio: 12,5 / 1,25 = 10 m. Às 15 h: sombra = 10 × 0,8 = 8 m.",
+            "dica": "Primeiro descubra a altura do prédio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma maquete de casa usa escala 1:50. A porta real tem 2,1 m. Qual é a altura na maquete?",
+            "alternativas": [
+              "4,2 cm",
+              "21 cm",
+              "10,5 cm",
+              "42 cm"
+            ],
+            "correta": 0,
+            "explicacao": "210 cm / 50 = 4,2 cm.",
+            "dica": "Passe para centímetros antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um poste de 1,8 m faz sombra de 0,9 m. No mesmo instante, a sombra de uma torre é 6 m. Qual é a altura da torre?",
+            "alternativas": [
+              "3 m",
+              "12 m",
+              "10,8 m",
+              "7,8 m"
+            ],
+            "correta": 1,
+            "explicacao": "Altura é o dobro da sombra: 12 m.",
+            "dica": "Compare altura e sombra do poste."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "JavaScript e DOM: mudar a página sem recarregar",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "DOM é a página vista pelo JavaScript: cada tag vira um objeto que pode ser lido e alterado. Assim a página muda na hora, sem recarregar.",
+          "Pegar elementos: document.querySelector(\"#titulo\") pega um; document.querySelectorAll(\".item\") pega todos com aquela classe.",
+          "Mudar conteúdo e estilo: titulo.textContent = \"Olá!\"; titulo.style.color = \"green\"; Para classes CSS: caixa.classList.add(\"ativo\"), classList.remove(\"ativo\") e classList.toggle(\"ativo\"), que liga e desliga.",
+          "Criar elementos: const li = document.createElement(\"li\"); li.textContent = \"Comprar pão\"; lista.appendChild(li); Para apagar: li.remove();",
+          "Ler o que o usuário digitou: campo.value. Depois de usar, limpe com campo.value = \"\";"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Faça um botão que adiciona tarefas a uma lista.",
+            "resolucao": "<input id=\"tarefa\">\n<button id=\"add\">Adicionar</button>\n<ul id=\"lista\"></ul>\n<script>\n  const campo = document.querySelector(\"#tarefa\");\n  const lista = document.querySelector(\"#lista\");\n  document.querySelector(\"#add\").addEventListener(\"click\", function () {\n    const li = document.createElement(\"li\");\n    li.textContent = campo.value;\n    lista.appendChild(li);\n    campo.value = \"\";\n  });\n</script>"
+          },
+          {
+            "enunciado": "Crie um botão de modo escuro.",
+            "resolucao": "botao.addEventListener(\"click\", function () {\n  document.body.classList.toggle(\"escuro\");\n});\nNo CSS: .escuro { background: #111; color: #eee; }"
+          }
+        ]
+      },
+      "aprofundamento": [
+        "textContent trata tudo como texto. innerHTML interpreta tags: lista.innerHTML = \"<li>Pão</li>\" cria um item. Mas nunca coloque no innerHTML o que o usuário digitou: alguém pode escrever um código malicioso que roda na página. Para texto do usuário, use textContent.",
+        "querySelectorAll devolve uma lista. Para mudar todos: document.querySelectorAll(\".item\").forEach(function (el) { el.classList.add(\"feito\"); }); Se a página tem 5 itens, o forEach roda 5 vezes.",
+        "Validar antes de adicionar: if (campo.value.trim() === \"\") { return; } impede itens vazios. trim() tira os espaços das pontas, como o ARRUMAR do Excel."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O DOM é:",
+            "alternativas": [
+              "um tipo de vírus",
+              "a página vista como objetos que o JavaScript pode mudar",
+              "um banco de dados",
+              "um navegador"
+            ],
+            "correta": 1,
+            "explicacao": "Cada tag vira um objeto.",
+            "dica": "É a página para o JavaScript."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha muda o texto do título?",
+            "alternativas": [
+              "titulo.textContent = \"Olá!\";",
+              "titulo = Olá;",
+              "print(titulo);",
+              "titulo.click();"
+            ],
+            "correta": 0,
+            "explicacao": "textContent troca o texto.",
+            "dica": "Conteúdo de texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando cria um novo elemento?",
+            "alternativas": [
+              "document.removeChild",
+              "document.querySelector",
+              "document.createElement",
+              "console.log"
+            ],
+            "correta": 2,
+            "explicacao": "createElement cria.",
+            "dica": "Create quer dizer criar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para ler o que foi digitado num campo, usamos:",
+            "alternativas": [
+              "campo.text",
+              "campo.style",
+              "campo.remove()",
+              "campo.value"
+            ],
+            "correta": 3,
+            "explicacao": "value é o valor digitado.",
+            "dica": "Valor, em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "classList.toggle(\"escuro\"):",
+            "alternativas": [
+              "liga a classe se estiver desligada e desliga se estiver ligada",
+              "apaga a página",
+              "só liga",
+              "só desliga"
+            ],
+            "correta": 0,
+            "explicacao": "Toggle é alternar.",
+            "dica": "Pense num interruptor."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha coloca o novo li dentro da lista?",
+            "alternativas": [
+              "li.appendChild(lista);",
+              "lista.appendChild(li);",
+              "lista.value = li;",
+              "li.remove(lista);"
+            ],
+            "correta": 1,
+            "explicacao": "O pai recebe o filho: pai.appendChild(filho).",
+            "dica": "Quem recebe quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "querySelectorAll(\".item\") devolve:",
+            "alternativas": [
+              "só o primeiro item",
+              "o número de itens",
+              "uma lista com todos os elementos da classe item",
+              "um erro"
+            ],
+            "correta": 2,
+            "explicacao": "All = todos.",
+            "dica": "All quer dizer todos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de adicionar a tarefa, por que fazer campo.value = \"\"?",
+            "alternativas": [
+              "Para apagar a lista",
+              "Para mudar a cor",
+              "Para recarregar a página",
+              "Para limpar o campo para a próxima tarefa"
+            ],
+            "correta": 3,
+            "explicacao": "Deixa o campo vazio.",
+            "dica": "O que acontece com o campo?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha deixa o título verde?",
+            "alternativas": [
+              "titulo.style.color = \"green\";",
+              "titulo.green();",
+              "titulo.textContent = \"green\";",
+              "titulo.value = green;"
+            ],
+            "correta": 0,
+            "explicacao": "style muda o CSS do elemento.",
+            "dica": "Estilo, em inglês."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a grande vantagem de mudar a página pelo DOM?",
+            "alternativas": [
+              "Deixa o site mais lento",
+              "A página muda na hora, sem recarregar",
+              "Apaga o HTML",
+              "Funciona sem navegador"
+            ],
+            "correta": 1,
+            "explicacao": "A mudança é instantânea.",
+            "dica": "Releia o primeiro parágrafo."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que não usar innerHTML com texto digitado pelo usuário?",
+            "alternativas": [
+              "Porque fica feio",
+              "Porque o usuário pode digitar código malicioso que roda na página",
+              "Porque não funciona",
+              "Porque apaga o CSS"
+            ],
+            "correta": 1,
+            "explicacao": "Para texto do usuário, textContent é seguro.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A página tem 5 elementos com a classe item. Quantas vezes roda o forEach de querySelectorAll(\".item\")?",
+            "alternativas": [
+              "1",
+              "0",
+              "10",
+              "5"
+            ],
+            "correta": 3,
+            "explicacao": "Uma vez para cada elemento.",
+            "dica": "Conte os elementos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que impede adicionar uma tarefa vazia ou só com espaços?",
+            "alternativas": [
+              "if (campo.value.trim() === \"\") { return; }",
+              "campo.value = \"\";",
+              "lista.remove();",
+              "if (campo) { }"
+            ],
+            "correta": 0,
+            "explicacao": "trim tira os espaços; se sobrar nada, sai da função.",
+            "dica": "Tire os espaços e compare com vazio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um botão chama caixa.classList.toggle(\"ativo\") a cada clique. Depois de 3 cliques, a caixa começou sem a classe. Ela tem a classe?",
+            "alternativas": [
+              "Não",
+              "Depende do navegador",
+              "Sim",
+              "Tem três vezes"
+            ],
+            "correta": 2,
+            "explicacao": "Liga, desliga, liga: termina com a classe.",
+            "dica": "Conte liga, desliga..."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene o código para criar e mostrar um novo item.",
+            "itens": [
+              "const li = document.createElement(\"li\");",
+              "li.textContent = campo.value;",
+              "lista.appendChild(li);",
+              "campo.value = \"\";"
+            ],
+            "explicacao": "Criar, preencher, colocar na página e limpar o campo.",
+            "dica": "Primeiro precisa existir o elemento."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que aparece na página com lista.textContent = \"<li>Pão</li>\"?",
+            "alternativas": [
+              "Um item de lista com Pão",
+              "O texto <li>Pão</li> escrito literalmente",
+              "Nada",
+              "Um erro"
+            ],
+            "correta": 1,
+            "explicacao": "textContent não interpreta tags.",
+            "dica": "textContent trata tudo como texto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Cada item de lista deve ser apagado quando clicado. Qual código faz isso ao criar o li?",
+            "alternativas": [
+              "li.addEventListener(\"click\", function () { li.remove(); });",
+              "li.remove();",
+              "lista.remove();",
+              "li.textContent = \"\";"
+            ],
+            "correta": 0,
+            "explicacao": "O evento no próprio item chama remove quando clicado.",
+            "dica": "O evento tem de ficar no item."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um contador mostra quantas tarefas existem. Qual expressão dá esse número?",
+            "alternativas": [
+              "lista.value",
+              "lista.textContent.length",
+              "document.querySelectorAll(\"#lista li\").length",
+              "lista.count()"
+            ],
+            "correta": 2,
+            "explicacao": "length conta os elementos da lista devolvida.",
+            "dica": "Pegue todos os li e conte."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que lista.appendChild(li) aparece DEPOIS de li.textContent = campo.value?",
+            "alternativas": [
+              "É obrigatório pela sintaxe",
+              "Para o navegador não travar",
+              "Porque appendChild apaga o texto",
+              "Tanto faz a ordem: o li continua ligado à página e o texto aparece de qualquer jeito"
+            ],
+            "correta": 3,
+            "explicacao": "O li é o mesmo objeto; mudar depois também muda na tela. A ordem só deixa o código mais legível.",
+            "dica": "O li continua sendo o mesmo objeto?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual combinação deixa todos os parágrafos .aviso em vermelho?",
+            "alternativas": [
+              "document.querySelector(\".aviso\").style.color = \"red\";",
+              "document.querySelectorAll(\".aviso\").forEach(function (p) { p.style.color = \"red\"; });",
+              "document.aviso.color = \"red\";",
+              "document.querySelectorAll(\".aviso\").style.color = \"red\";"
+            ],
+            "correta": 1,
+            "explicacao": "querySelector pega só o primeiro; a lista precisa do forEach.",
+            "dica": "Todos ou só o primeiro?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Folheto de divulgação em colunas com imagens",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Folheto bom é aquele que se entende em 5 segundos: título grande, poucas informações e uma imagem que chama atenção. Pense em quem vai ler e no que você quer que a pessoa faça (ligar, ir ao evento, comprar).",
+          "Colunas: em Layout > Colunas, escolha 2 ou 3. Para um folheto dobrado em três, use orientação Paisagem, margens estreitas e 3 colunas. Use Layout > Quebras > Coluna para mandar o texto para a próxima coluna.",
+          "Título em uma coluna só e texto em várias: coloque uma Quebra de seção contínua depois do título e aplique as colunas apenas na seção de baixo.",
+          "Imagens: Inserir > Imagens. Clique na imagem e escolha Layout > Quebra automática de texto. Quadrado faz o texto contornar a imagem; Atrás do texto coloca a imagem como fundo; Alinhado com o texto a trata como uma letra.",
+          "Use no máximo duas fontes, cores com bom contraste e imagens próprias ou de bancos gratuitos que permitem o uso. Antes de imprimir, salve em PDF para não desconfigurar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Monte o esqueleto de um folheto de bazar beneficente dobrado em três.",
+            "resolucao": "Paisagem, margens estreitas, 3 colunas. Coluna 1: o que é o bazar e por que ajudar. Coluna 2: fotos e preços. Coluna 3 (a capa, que fica para fora): título, data, horário e endereço."
+          },
+          {
+            "enunciado": "O texto ficou espremido ao lado da foto, como se a foto fosse uma letra gigante. O que mudar?",
+            "resolucao": "Trocar a Quebra automática de texto de Alinhado com o texto para Quadrado ou Superior e inferior."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Hierarquia visual: o olho lê primeiro o maior e mais forte. Título com 28 a 36 pontos, subtítulos com 14 a 18 e texto com 10 a 12. Espaço em branco também comunica: folheto lotado ninguém lê.",
+        "Em Layout > Colunas > Mais colunas, dá para ajustar o espaçamento entre colunas e ligar a Linha entre colunas. Em folheto dobrado, o espaçamento precisa ser maior, porque a dobra cai entre as colunas.",
+        "Usar foto da internet sem permissão pode violar direito autoral. Use fotos próprias, peça autorização ou use bancos de imagens que permitem uso gratuito. Foto de pessoa precisa de autorização dela (ou dos responsáveis, se for criança)."
+      ],
+      "desafio_pratico": "Crie no Word um folheto dobrado em três para um evento real ou imaginário da sua escola (feira de ciências, bazar, campeonato). Use Paisagem, margens estreitas e 3 colunas, pelo menos uma quebra de coluna, duas imagens (próprias ou de banco gratuito) com quebra automática Quadrado, no máximo duas fontes e título com 28 pontos ou mais. Salve em PDF, imprima ou abra no celular e confira se a capa ficou do lado de fora ao dobrar.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam as colunas no Word?",
+            "alternativas": [
+              "Inserir > Colunas",
+              "Layout > Colunas",
+              "Arquivo > Colunas",
+              "Revisão > Colunas"
+            ],
+            "correta": 1,
+            "explicacao": "Layout > Colunas.",
+            "dica": "Fica com margens e orientação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas fontes, no máximo, um folheto deve usar?",
+            "alternativas": [
+              "duas",
+              "cinco",
+              "dez",
+              "uma diferente por linha"
+            ],
+            "correta": 0,
+            "explicacao": "Muitas fontes poluem.",
+            "dica": "Menos é mais."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o texto contornar a imagem, escolha a quebra:",
+            "alternativas": [
+              "Alinhado com o texto",
+              "Atrás do texto",
+              "Quadrado",
+              "Na frente do texto"
+            ],
+            "correta": 2,
+            "explicacao": "Quadrado faz o texto rodear a foto.",
+            "dica": "O texto forma uma moldura."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Antes de imprimir, é bom salvar em:",
+            "alternativas": [
+              "TXT",
+              "MP3",
+              "ZIP",
+              "PDF"
+            ],
+            "correta": 3,
+            "explicacao": "O PDF não desconfigura.",
+            "dica": "Formato que mantém o visual."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O folheto deve ser entendido em:",
+            "alternativas": [
+              "poucos segundos",
+              "uma hora",
+              "uma semana",
+              "nunca"
+            ],
+            "correta": 0,
+            "explicacao": "Quem passa não lê muito.",
+            "dica": "Pense em quem passa na rua."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para um folheto dobrado em três, qual configuração usar?",
+            "alternativas": [
+              "Retrato e 1 coluna",
+              "Paisagem, margens estreitas e 3 colunas",
+              "Paisagem e 1 coluna",
+              "Retrato e 5 colunas"
+            ],
+            "correta": 1,
+            "explicacao": "Três partes na folha deitada.",
+            "dica": "A folha fica deitada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como mandar o texto para a próxima coluna antes de a atual encher?",
+            "alternativas": [
+              "Apertar Enter várias vezes",
+              "Layout > Quebras > Coluna",
+              "Diminuir a fonte",
+              "Apagar o texto"
+            ],
+            "correta": 1,
+            "explicacao": "A quebra de coluna é o jeito certo.",
+            "dica": "Procure em Quebras."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deixar o título em uma coluna e o texto em três?",
+            "alternativas": [
+              "Não é possível",
+              "Usar três caixas de texto",
+              "Quebra de seção contínua depois do título e colunas só na seção de baixo",
+              "Mudar para Paisagem"
+            ],
+            "correta": 2,
+            "explicacao": "Cada seção pode ter sua quantidade de colunas.",
+            "dica": "Seções permitem layouts diferentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A imagem como fundo do texto usa a quebra:",
+            "alternativas": [
+              "Quadrado",
+              "Alinhado com o texto",
+              "Superior e inferior",
+              "Atrás do texto"
+            ],
+            "correta": 3,
+            "explicacao": "Atrás do texto vira fundo.",
+            "dica": "Atrás."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que deve vir na capa de um folheto de evento?",
+            "alternativas": [
+              "Título, data, horário e local",
+              "Todo o texto",
+              "Só uma foto",
+              "A lista de preços completa"
+            ],
+            "correta": 0,
+            "explicacao": "O essencial para a pessoa ir.",
+            "dica": "O que a pessoa precisa saber para ir?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual tamanho de fonte combina com o título de um folheto?",
+            "alternativas": [
+              "8 pontos",
+              "11 pontos",
+              "32 pontos",
+              "72 pontos em tudo"
+            ],
+            "correta": 2,
+            "explicacao": "Título grande, entre 28 e 36.",
+            "dica": "O título é o que se lê primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que, num folheto dobrado, o espaçamento entre colunas deve ser maior?",
+            "alternativas": [
+              "Porque a dobra cai entre as colunas e pode cortar texto",
+              "Porque fica mais barato",
+              "Porque o Word exige",
+              "Para usar mais tinta"
+            ],
+            "correta": 0,
+            "explicacao": "A dobra precisa de folga.",
+            "dica": "Onde a folha é dobrada?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer usar a foto de uma colega no folheto. O certo é:",
+            "alternativas": [
+              "usar sem perguntar",
+              "usar só se ela for famosa",
+              "pegar da rede social dela",
+              "pedir autorização a ela e aos responsáveis"
+            ],
+            "correta": 3,
+            "explicacao": "Imagem de pessoa precisa de autorização.",
+            "dica": "A foto é de quem?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde se liga a linha entre colunas?",
+            "alternativas": [
+              "Inserir > Formas",
+              "Layout > Colunas > Mais colunas",
+              "Página Inicial > Bordas",
+              "Arquivo > Opções"
+            ],
+            "correta": 1,
+            "explicacao": "Na janela de mais opções das colunas.",
+            "dica": "Fica junto das colunas."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene a criação de um folheto.",
+            "itens": [
+              "Definir público e objetivo",
+              "Configurar orientação, margens e colunas",
+              "Inserir textos e imagens",
+              "Revisar e salvar em PDF"
+            ],
+            "explicacao": "Planejar, configurar, preencher e revisar.",
+            "dica": "Planeje antes de abrir o Word."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num folheto dobrado em três (paisagem), no lado da folha que fica para fora, qual coluna costuma virar a capa?",
+            "alternativas": [
+              "A da esquerda",
+              "A do meio",
+              "A da direita",
+              "Nenhuma"
+            ],
+            "correta": 2,
+            "explicacao": "No lado de fora, a coluna da direita fica por cima depois das dobras e vira a capa.",
+            "dica": "Dobre uma folha de verdade para testar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O folheto tem 10 informações em letra 10, sem imagem e sem espaço em branco. Qual é a melhor correção?",
+            "alternativas": [
+              "Diminuir a fonte para caber mais",
+              "Cortar para as informações essenciais, aumentar o título e usar espaço em branco e uma imagem",
+              "Usar 6 fontes diferentes",
+              "Colocar tudo em negrito"
+            ],
+            "correta": 1,
+            "explicacao": "Hierarquia e respiro fazem o folheto ser lido.",
+            "dica": "Folheto lotado ninguém lê."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Ao mudar de Alinhado com o texto para Quadrado, o que muda?",
+            "alternativas": [
+              "A imagem passa a ser contornada pelo texto e pode ser movida livremente",
+              "A imagem some",
+              "A imagem vira PDF",
+              "Nada"
+            ],
+            "correta": 0,
+            "explicacao": "Quadrado solta a imagem da linha.",
+            "dica": "A imagem deixa de ser tratada como letra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que usar cores de bom contraste (texto escuro em fundo claro, por exemplo)?",
+            "alternativas": [
+              "Porque é mais caro",
+              "Porque o Word obriga",
+              "Porque gasta menos papel",
+              "Para que todos, inclusive quem enxerga pouco, consigam ler"
+            ],
+            "correta": 3,
+            "explicacao": "Contraste é acessibilidade.",
+            "dica": "Pense em quem tem dificuldade para enxergar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a fonte mais segura de imagens para um folheto de escola?",
+            "alternativas": [
+              "Qualquer foto achada na busca",
+              "Fotos próprias ou de bancos que permitem uso gratuito",
+              "Print de propaganda famosa",
+              "Foto de perfil de desconhecidos"
+            ],
+            "correta": 1,
+            "explicacao": "Respeita o direito autoral.",
+            "dica": "Quem tem o direito sobre a foto?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Delegar e criar processos: checklist e manual da equipe",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Delegar é passar uma tarefa a alguém da equipe junto com as informações, o treino e a autoridade para fazê-la. O dono que faz tudo sozinho vira gargalo: o negócio só cresce até onde as horas dele aguentam.",
+          "Para delegar bem: escolha a tarefa, explique o resultado esperado, mostre como fazer, deixe a pessoa tentar com você por perto e combine como vai acompanhar. Delegar não é largar.",
+          "Checklist é uma lista curta de passos para conferir: abrir a loja, fechar o caixa, montar um pedido. Ele evita esquecimentos e deixa todos fazendo do mesmo jeito.",
+          "O manual da equipe junta os checklists, as regras de atendimento, os horários e quem procurar em cada problema. Um funcionário novo aprende mais rápido e com menos erros.",
+          "Delegar dentro da lei: a tarefa precisa fazer parte da função combinada, a jornada e as pausas devem ser respeitadas e a pessoa deve receber o treino e os equipamentos de segurança necessários."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Rosana, dona de uma lanchonete, gasta 2 horas por dia abrindo a loja e conferindo o estoque. Se treinar a funcionária Kelly para isso, quantas horas por mês ela ganha (26 dias de trabalho)?",
+            "resolucao": "2 × 26 = 52 horas por mês, que ela pode usar para negociar com fornecedores, vender e planejar."
+          },
+          {
+            "enunciado": "Monte um checklist de fechamento de caixa.",
+            "resolucao": "1) Contar o dinheiro. 2) Conferir os Pix e cartões no extrato. 3) Comparar com o total de vendas. 4) Anotar diferenças. 5) Guardar o dinheiro no cofre. 6) Assinar a folha do dia."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O que não se delega: decisões estratégicas (preço, abrir filial), o cuidado com as pessoas e a responsabilidade final. Se algo der errado, o dono responde perante o cliente e a lei.",
+        "Medir para melhorar: se os erros nos pedidos caíram de 10 para 2 por semana depois do checklist, a redução foi de 80%. Números mostram se o processo funciona.",
+        "Equipe bem tratada fica e produz mais. Explorar (jornada além do permitido, salário atrasado, humilhação) gera processo trabalhista, multa e perda dos bons funcionários. Liderar é multiplicar o trabalho de todos com organização e respeito."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Delegar é:",
+            "alternativas": [
+              "largar a tarefa e não acompanhar",
+              "passar uma tarefa com informações, treino e autoridade",
+              "demitir alguém",
+              "fazer tudo sozinho"
+            ],
+            "correta": 1,
+            "explicacao": "Delegar inclui explicar e acompanhar.",
+            "dica": "Delegar não é largar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve um checklist?",
+            "alternativas": [
+              "Para evitar esquecimentos e padronizar",
+              "Para enfeitar a parede",
+              "Para punir funcionários",
+              "Para aumentar o preço"
+            ],
+            "correta": 0,
+            "explicacao": "Lista de passos para conferir.",
+            "dica": "Check = conferir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O manual da equipe ajuda principalmente:",
+            "alternativas": [
+              "a vender mais caro",
+              "a esconder regras",
+              "o funcionário novo a aprender mais rápido",
+              "a diminuir salários"
+            ],
+            "correta": 2,
+            "explicacao": "Tudo explicado num lugar só.",
+            "dica": "Pense em quem acabou de chegar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dono que faz tudo sozinho:",
+            "alternativas": [
+              "cresce sem limite",
+              "nunca se cansa",
+              "não precisa de ninguém",
+              "vira gargalo do negócio"
+            ],
+            "correta": 3,
+            "explicacao": "As horas dele limitam o crescimento.",
+            "dica": "Releia o primeiro parágrafo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Delegar dentro da lei inclui:",
+            "alternativas": [
+              "respeitar a jornada e as pausas",
+              "dar tarefas fora do combinado sem avisar",
+              "cortar o almoço",
+              "não treinar"
+            ],
+            "correta": 0,
+            "explicacao": "Jornada, pausas, treino e segurança.",
+            "dica": "Releia o último parágrafo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rosana ganha 2 horas por dia delegando a abertura. Em 26 dias, quantas horas?",
+            "alternativas": [
+              "28",
+              "52",
+              "26",
+              "48"
+            ],
+            "correta": 1,
+            "explicacao": "2 × 26 = 52.",
+            "dica": "Multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o primeiro passo para delegar?",
+            "alternativas": [
+              "Cobrar resultados",
+              "Demitir quem erra",
+              "Escolher a tarefa e explicar o resultado esperado",
+              "Sair de férias"
+            ],
+            "correta": 2,
+            "explicacao": "Antes de tudo, saber o que delegar e o que se espera.",
+            "dica": "O que vem antes de mostrar como faz?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destas NÃO deve ser delegada?",
+            "alternativas": [
+              "Fechar o caixa com checklist",
+              "Abrir a loja",
+              "Repor o estoque",
+              "Decidir abrir uma filial"
+            ],
+            "correta": 3,
+            "explicacao": "Decisões estratégicas ficam com o dono.",
+            "dica": "Qual é uma decisão de futuro do negócio?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que acompanhar depois de delegar?",
+            "alternativas": [
+              "Para corrigir no começo e dar segurança à pessoa",
+              "Para humilhar quem erra",
+              "Para fazer a tarefa de novo",
+              "Não precisa acompanhar"
+            ],
+            "correta": 0,
+            "explicacao": "Acompanhar é parte do treino.",
+            "dica": "Delegar não é largar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um bom checklist é:",
+            "alternativas": [
+              "longo e cheio de detalhes inúteis",
+              "curto, claro e na ordem certa",
+              "secreto",
+              "diferente para cada funcionário"
+            ],
+            "correta": 1,
+            "explicacao": "Fácil de seguir no dia a dia.",
+            "dica": "Pense em algo que se usa todo dia."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Os erros nos pedidos caíram de 10 para 2 por semana. Qual foi a redução?",
+            "alternativas": [
+              "20%",
+              "8%",
+              "80%",
+              "50%"
+            ],
+            "correta": 2,
+            "explicacao": "Caiu 8 de 10: 80%.",
+            "dica": "Quanto caiu em relação ao início?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um funcionário errou a montagem de um pedido. Qual atitude é de bom líder?",
+            "alternativas": [
+              "Gritar na frente dos clientes",
+              "Descontar do salário sem conversar",
+              "Mostrar de novo o processo, rever o checklist e acompanhar",
+              "Demitir na hora"
+            ],
+            "correta": 2,
+            "explicacao": "Corrigir o processo e treinar dá resultado.",
+            "dica": "O erro pode estar no processo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se algo delegado der errado, quem responde perante o cliente?",
+            "alternativas": [
+              "O dono do negócio",
+              "Só o funcionário",
+              "Ninguém",
+              "O fornecedor"
+            ],
+            "correta": 0,
+            "explicacao": "A responsabilidade final é do dono.",
+            "dica": "Releia o aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Delegar para multiplicar a produção significa:",
+            "alternativas": [
+              "fazer o funcionário trabalhar 14 horas",
+              "organizar a equipe para que cada um renda mais dentro da jornada",
+              "não pagar horas extras",
+              "trocar de funcionário todo mês"
+            ],
+            "correta": 1,
+            "explicacao": "Organização, treino e processos, sem exploração.",
+            "dica": "Multiplicar não é explorar."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene os passos para delegar uma tarefa.",
+            "itens": [
+              "Escolher a tarefa",
+              "Explicar o resultado esperado",
+              "Mostrar como se faz",
+              "Deixar a pessoa fazer com você por perto",
+              "Acompanhar e dar retorno"
+            ],
+            "explicacao": "Do planejamento ao acompanhamento.",
+            "dica": "Acompanhar vem no fim."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Rosana delegou 52 h/mês. Ela usou 20 dessas horas para fechar contratos de entrega que dão R$ 1.500 de lucro por mês. Quanto lucro cada hora usada gerou?",
+            "alternativas": [
+              "R$ 28,85",
+              "R$ 52",
+              "R$ 75",
+              "R$ 150"
+            ],
+            "correta": 2,
+            "explicacao": "1.500 / 20 = R$ 75 por hora.",
+            "dica": "Divida o lucro pelas horas usadas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um manual da equipe reduz o custo de contratar?",
+            "alternativas": [
+              "Porque permite pagar menos",
+              "Porque o novo funcionário aprende mais rápido e erra menos",
+              "Porque dispensa registro",
+              "Porque elimina o salário"
+            ],
+            "correta": 1,
+            "explicacao": "Menos tempo de treino e menos erros.",
+            "dica": "Pense no tempo de aprendizado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o risco de pedir à funcionária do caixa que também faça a limpeza pesada todo dia, sem combinar e sem equipamento?",
+            "alternativas": [
+              "Nenhum",
+              "Ela vai trabalhar melhor",
+              "Os clientes vão gostar",
+              "Desvio de função, acidente e processo, além de perder uma boa funcionária"
+            ],
+            "correta": 3,
+            "explicacao": "A tarefa precisa estar na função combinada, com segurança.",
+            "dica": "Releia o último parágrafo da lição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual sequência mostra um processo bem montado?",
+            "alternativas": [
+              "Checklist escrito, treino, teste, medição de erros e ajuste",
+              "Ordem verbal, cobrança e punição",
+              "Cada um faz do seu jeito",
+              "Manual secreto só do dono"
+            ],
+            "correta": 0,
+            "explicacao": "Processo é escrito, treinado, medido e melhorado.",
+            "dica": "Processo bom é medido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Os pedidos atrasados caíram de 25 para 15 por mês. Qual foi a redução percentual?",
+            "alternativas": [
+              "10%",
+              "60%",
+              "40%",
+              "15%"
+            ],
+            "correta": 2,
+            "explicacao": "Caiu 10 de 25: 10/25 = 40%.",
+            "dica": "Divida a queda pelo valor inicial."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Funções da linguagem",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Todo texto tem um objetivo principal, chamado função da linguagem. Descobrir a função ajuda a entender o texto e a escrever melhor.",
+          "Referencial: informa, com foco no assunto, de forma objetiva (notícias, textos didáticos). Emotiva: mostra os sentimentos de quem fala, com 1ª pessoa e exclamações (diários, desabafos). Apelativa ou conativa: quer convencer o leitor, com verbos no imperativo e vocativos (propagandas: \"Vote!\", \"Compre já!\").",
+          "Fática: testa ou mantém o contato: \"Alô?\", \"Tá me ouvindo?\", \"Oi, tudo bem?\". Metalinguística: a linguagem explica a própria linguagem, como o dicionário ou um poema que fala de fazer poema.",
+          "Poética: o foco está na forma da mensagem, com ritmo, rima, sonoridade e jogos de palavras (poemas, letras de música, slogans).",
+          "Um texto pode ter várias funções, mas uma costuma predominar. Pergunte: o foco está no assunto, em quem fala, em quem lê, no contato, no código ou na forma?"
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Qual é a função em \"Doe sangue. Salve vidas!\"?",
+            "resolucao": "Apelativa: verbos no imperativo tentando convencer o leitor."
+          },
+          {
+            "enunciado": "Qual é a função de um verbete de dicionário?",
+            "resolucao": "Metalinguística: palavras explicando o significado de outra palavra."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "As funções se ligam aos elementos da comunicação: emissor (emotiva), receptor (apelativa), mensagem (poética), canal (fática), código (metalinguística) e referente ou assunto (referencial).",
+        "Propaganda costuma misturar apelativa e poética: \"Leite da fazenda, gosto de infância. Prove!\" tem ritmo e um convite ao leitor. Notícia mistura referencial e, às vezes, apelativa num título chamativo.",
+        "Na redação dissertativa, predomina a função referencial, com um toque apelativo na proposta de solução. Evite exagerar na emotiva (\"eu acho\", \"fiquei revoltado\"), que enfraquece o argumento."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A função que informa de forma objetiva é a:",
+            "alternativas": [
+              "emotiva",
+              "referencial",
+              "fática",
+              "poética"
+            ],
+            "correta": 1,
+            "explicacao": "Foco no assunto, como nas notícias.",
+            "dica": "Refere-se ao assunto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Compre já!\" é exemplo da função:",
+            "alternativas": [
+              "apelativa",
+              "emotiva",
+              "metalinguística",
+              "fática"
+            ],
+            "correta": 0,
+            "explicacao": "Tenta convencer o leitor.",
+            "dica": "Quem a frase quer convencer?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Alô? Tá me ouvindo?\" é exemplo da função:",
+            "alternativas": [
+              "poética",
+              "referencial",
+              "fática",
+              "emotiva"
+            ],
+            "correta": 2,
+            "explicacao": "Testa o contato.",
+            "dica": "Testa se o canal funciona."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A função que mostra sentimentos de quem fala é a:",
+            "alternativas": [
+              "referencial",
+              "metalinguística",
+              "fática",
+              "emotiva"
+            ],
+            "correta": 3,
+            "explicacao": "Foco no emissor.",
+            "dica": "Pense em emoção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dicionário usa principalmente a função:",
+            "alternativas": [
+              "metalinguística",
+              "apelativa",
+              "poética",
+              "fática"
+            ],
+            "correta": 0,
+            "explicacao": "A língua explicando a língua.",
+            "dica": "Palavras explicando palavras."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Doe sangue. Salve vidas!\" tem função:",
+            "alternativas": [
+              "referencial",
+              "apelativa",
+              "fática",
+              "metalinguística"
+            ],
+            "correta": 1,
+            "explicacao": "Imperativo e convite ao leitor.",
+            "dica": "Os verbos dão ordem ou conselho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Que saudade eu sinto da minha avó!\" tem função:",
+            "alternativas": [
+              "fática",
+              "referencial",
+              "emotiva",
+              "poética"
+            ],
+            "correta": 2,
+            "explicacao": "1ª pessoa e sentimento.",
+            "dica": "Quem está no centro da frase?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma notícia sobre o aumento da passagem de ônibus tem função predominante:",
+            "alternativas": [
+              "poética",
+              "emotiva",
+              "fática",
+              "referencial"
+            ],
+            "correta": 3,
+            "explicacao": "Informa de forma objetiva.",
+            "dica": "O objetivo é informar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um poema cheio de rimas e ritmo destaca a função:",
+            "alternativas": [
+              "poética",
+              "fática",
+              "referencial",
+              "apelativa"
+            ],
+            "correta": 0,
+            "explicacao": "Foco na forma da mensagem.",
+            "dica": "O cuidado está na forma."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma aula explicando o que é um substantivo usa a função:",
+            "alternativas": [
+              "emotiva",
+              "metalinguística",
+              "fática",
+              "apelativa"
+            ],
+            "correta": 1,
+            "explicacao": "A língua explicando a própria língua.",
+            "dica": "O assunto é a própria língua."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A função apelativa está ligada a qual elemento da comunicação?",
+            "alternativas": [
+              "Emissor",
+              "Código",
+              "Receptor",
+              "Canal"
+            ],
+            "correta": 2,
+            "explicacao": "Ela se dirige a quem recebe.",
+            "dica": "Quem ela quer convencer?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Leite da fazenda, gosto de infância. Prove!\" mistura quais funções?",
+            "alternativas": [
+              "Poética e apelativa",
+              "Fática e metalinguística",
+              "Referencial e fática",
+              "Só emotiva"
+            ],
+            "correta": 0,
+            "explicacao": "Ritmo e sonoridade + imperativo.",
+            "dica": "Procure a forma bonita e o convite."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa redação argumentativa, qual função deve predominar?",
+            "alternativas": [
+              "Fática",
+              "Poética",
+              "Emotiva",
+              "Referencial"
+            ],
+            "correta": 3,
+            "explicacao": "Argumentos objetivos, com proposta no fim.",
+            "dica": "Argumentar pede objetividade."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um poema que fala sobre a dificuldade de escrever poemas tem função:",
+            "alternativas": [
+              "fática",
+              "metalinguística",
+              "referencial",
+              "apelativa"
+            ],
+            "correta": 1,
+            "explicacao": "O poema fala do próprio fazer poético.",
+            "dica": "O texto fala de si mesmo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Ordene as funções na mesma ordem destes elementos da comunicação: emissor, receptor, canal e código.",
+            "itens": [
+              "Emotiva",
+              "Apelativa",
+              "Fática",
+              "Metalinguística"
+            ],
+            "explicacao": "Emissor-emotiva, receptor-apelativa, canal-fática, código-metalinguística.",
+            "dica": "Siga a ordem dos elementos da pergunta."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa conversa de vídeo, alguém diz: \"Pessoal, a imagem travou? Estão me vendo?\" Qual função e por quê?",
+            "alternativas": [
+              "Fática, porque testa o canal de comunicação",
+              "Emotiva, porque mostra medo",
+              "Referencial, porque informa a hora",
+              "Poética, porque tem ritmo"
+            ],
+            "correta": 0,
+            "explicacao": "Testar o contato é a função fática.",
+            "dica": "Qual elemento está com problema?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que \"Eu acho que, na minha opinião, fiquei revoltado\" enfraquece a redação?",
+            "alternativas": [
+              "Porque tem rima",
+              "Porque é curta",
+              "Porque exagera a função emotiva e não traz argumento",
+              "Porque usa a função fática"
+            ],
+            "correta": 2,
+            "explicacao": "Opinião precisa de argumentos objetivos.",
+            "dica": "O foco está no sentimento ou no argumento?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um cartaz diz: \"Água: sem ela, não há vida. Feche a torneira!\" Qual é a função predominante?",
+            "alternativas": [
+              "Referencial",
+              "Fática",
+              "Metalinguística",
+              "Apelativa"
+            ],
+            "correta": 3,
+            "explicacao": "O objetivo final é levar o leitor a agir.",
+            "dica": "O que o cartaz quer que você faça?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual texto tem função predominantemente referencial?",
+            "alternativas": [
+              "\"Chegou o verão! Corra para a praia!\"",
+              "\"A temperatura máxima será de 31 °C nesta terça.\"",
+              "\"Ai, que calor insuportável!\"",
+              "\"Calor, valor, suor: o verão tem sabor.\""
+            ],
+            "correta": 1,
+            "explicacao": "Informação objetiva, sem emoção nem apelo.",
+            "dica": "Qual apenas informa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Num slogan como \"Quem lê, vê mais longe\", o foco na sonoridade indica a função:",
+            "alternativas": [
+              "fática",
+              "poética",
+              "metalinguística",
+              "emotiva"
+            ],
+            "correta": 1,
+            "explicacao": "Rima e ritmo: foco na forma.",
+            "dica": "Repare no som das palavras."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A sombra do prédio da escola",
+    "texto": "A professora Valéria entrou na sala do 9º B com uma vara de bambu, uma trena e um desafio:\n\n— Quem descobre a altura do prédio da escola sem subir no telhado?\n\nGustavo sugeriu jogar uma bola com barbante amarrado. Amanda propôs perguntar à diretora. A professora riu e levou a turma para o pátio às dez da manhã, quando o Sol já fazia sombras bem desenhadas no chão de cimento.\n\n— Os raios do Sol chegam quase paralelos — explicou. — Por isso, a vara e o prédio formam triângulos com os mesmos ângulos. Triângulos semelhantes.\n\nHeitor e Bruna fincaram a vara de 1,5 metro bem na vertical, conferindo com um esquadro. A sombra mediu 2 metros. Enquanto isso, Samira e Otávio esticaram a trena da parede do prédio até a ponta da sombra do telhado: 16 metros.\n\n— Agora é proporção — disse a professora. — Altura dividida pela sombra tem que dar o mesmo resultado nos dois triângulos.\n\nAmanda fez as contas no caderno: 1,5 está para 2 assim como a altura está para 16. Multiplicou 1,5 por 16, dividiu por 2 e anunciou:\n\n— Doze metros!\n\nPara conferir, foram até a secretaria. A planta do prédio, guardada numa pasta amarela, dizia: altura de 12,2 metros.\n\n— Erramos? — perguntou Gustavo.\n\n— Vocês acertaram muito bem — respondeu Valéria. — A diferença vem das medidas: a vara pode ter ficado um pouco torta, a trena pode ter escorregado. Toda medida real tem uma pequena margem de erro.\n\nNo caminho de volta, Bruna olhou para o poste da esquina e para a sombra dele no asfalto. Ninguém precisou dizer nada: a turma inteira já estava pensando em medi-lo também."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, explique, com os passos em ordem, como você mediria a altura de um poste da sua rua sem subir nele, usando sombras. Diga que materiais usaria, quais medidas faria, por que precisa medir tudo no mesmo horário e como faria a conta."
+  }
+}

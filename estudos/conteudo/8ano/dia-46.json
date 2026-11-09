@@ -1,0 +1,1205 @@
+{
+  "dia": 46,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Probabilidade: todas as chances somam 1",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Probabilidade mede a chance de algo acontecer. Quando todos os resultados têm a mesma chance, ela é calculada assim: P = casos favoráveis ÷ casos possíveis.",
+          "Num dado comum há 6 resultados possíveis. A chance de sair 5 é 1/6. A chance de sair par (2, 4 ou 6) é 3/6 = 1/2, ou 50%.",
+          "A probabilidade fica sempre entre 0 e 1. Zero é impossível (tirar 7 num dado comum); 1 é certeza (tirar um número de 1 a 6). Em porcentagem, vai de 0% a 100%.",
+          "Somando as probabilidades de todos os resultados possíveis, o total é sempre 1. No dado: 1/6 + 1/6 + 1/6 + 1/6 + 1/6 + 1/6 = 1.",
+          "Por isso, a chance de algo NÃO acontecer é 1 menos a chance de acontecer. Se a chance de chover é 30%, a de não chover é 70%. Isso se chama evento complementar."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Numa caixa há 3 bolas vermelhas, 5 azuis e 2 verdes. Sorteando uma, qual é a chance de ser azul? E de não ser verde?",
+            "resolucao": "Total: 3 + 5 + 2 = 10. Azul: 5/10 = 1/2 = 50%. Verde: 2/10; não verde: 1 − 2/10 = 8/10 = 4/5 = 80%."
+          },
+          {
+            "enunciado": "Num jogo de futebol, a chance de vitória do time da casa é 45% e a de empate é 25%. Qual é a chance de derrota?",
+            "resolucao": "As três chances somam 100%: 100% − 45% − 25% = 30%."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Com dois dados, há 6 · 6 = 36 resultados (princípio multiplicativo). Soma 7 aparece 6 vezes — (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — então P = 6/36 = 1/6. Soma 2 só aparece em (1,1): 1/36.",
+        "Muitas vezes é mais fácil calcular o complementar. Chance de sair pelo menos um 6 em dois dados: a chance de nenhum 6 é 5/6 · 5/6 = 25/36; então a de pelo menos um 6 é 1 − 25/36 = 11/36.",
+        "Sorteio sem reposição muda as contas: numa caixa com 2 bolas vermelhas e 3 azuis, a chance de tirar duas vermelhas seguidas, sem devolver a primeira, é 2/5 · 1/4 = 2/20 = 1/10."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num dado comum, qual é a chance de sair 5?",
+            "alternativas": [
+              "1/2",
+              "1/5",
+              "1/6",
+              "5/6"
+            ],
+            "correta": 2,
+            "explicacao": "Um caso favorável em seis possíveis.",
+            "dica": "Quantas faces tem o dado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se calcula a probabilidade?",
+            "alternativas": [
+              "Favoráveis + possíveis",
+              "Favoráveis ÷ possíveis",
+              "Possíveis − favoráveis",
+              "Possíveis ÷ favoráveis"
+            ],
+            "correta": 1,
+            "explicacao": "P = casos favoráveis ÷ casos possíveis.",
+            "dica": "O que você quer fica em cima."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando uma moeda, qual é a chance de dar cara?",
+            "alternativas": [
+              "1/2",
+              "1",
+              "1/3",
+              "0"
+            ],
+            "correta": 0,
+            "explicacao": "Dois resultados, um favorável.",
+            "dica": "Quantos lados tem a moeda?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A soma das chances de todos os resultados possíveis é:",
+            "alternativas": [
+              "10",
+              "2",
+              "0",
+              "1"
+            ],
+            "correta": 3,
+            "explicacao": "Todas as chances juntas dão 100%, que é 1.",
+            "dica": "Algum resultado sempre acontece."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se a chance de chover é 30%, a de não chover é:",
+            "alternativas": [
+              "100%",
+              "30%",
+              "60%",
+              "70%"
+            ],
+            "correta": 3,
+            "explicacao": "100% − 30% = 70%.",
+            "dica": "As duas chances juntas dão 100%."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Num dado, qual é a chance de sair um número par?",
+            "alternativas": [
+              "1/6",
+              "1/2",
+              "2/3",
+              "1/3"
+            ],
+            "correta": 1,
+            "explicacao": "2, 4 e 6: 3/6 = 1/2.",
+            "dica": "Conte os pares de 1 a 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa caixa com 3 vermelhas, 5 azuis e 2 verdes, qual é a chance de sortear azul?",
+            "alternativas": [
+              "1/2",
+              "5/8",
+              "1/3",
+              "1/5"
+            ],
+            "correta": 0,
+            "explicacao": "5/10 = 1/2.",
+            "dica": "Some todas as bolas primeiro."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na mesma caixa, qual é a chance de NÃO sortear verde?",
+            "alternativas": [
+              "2/10",
+              "3/5",
+              "1/5",
+              "4/5"
+            ],
+            "correta": 3,
+            "explicacao": "1 − 2/10 = 8/10 = 4/5.",
+            "dica": "Use o complementar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A chance de vitória é 45% e a de empate, 25%. Qual é a de derrota?",
+            "alternativas": [
+              "35%",
+              "70%",
+              "30%",
+              "20%"
+            ],
+            "correta": 2,
+            "explicacao": "100 − 45 − 25 = 30.",
+            "dica": "As três chances somam 100%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um evento impossível num dado comum?",
+            "alternativas": [
+              "Sair número menor que 7",
+              "Sair número ímpar",
+              "Sair 6",
+              "Sair 7"
+            ],
+            "correta": 3,
+            "explicacao": "Um dado comum só tem de 1 a 6.",
+            "dica": "Qual número não existe no dado?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lançando dois dados, qual é a chance de a soma ser 7?",
+            "alternativas": [
+              "1/36",
+              "1/6",
+              "1/12",
+              "7/36"
+            ],
+            "correta": 1,
+            "explicacao": "6 casos em 36: 6/36 = 1/6.",
+            "dica": "Liste os pares que somam 7."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma rifa tem 200 números e você comprou 5. Qual é a sua chance de ganhar?",
+            "alternativas": [
+              "25%",
+              "0,5%",
+              "5%",
+              "2,5%"
+            ],
+            "correta": 3,
+            "explicacao": "5/200 = 0,025 = 2,5%.",
+            "dica": "Divida 5 por 200."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando duas moedas, qual é a chance de dar pelo menos uma cara?",
+            "alternativas": [
+              "3/4",
+              "1/2",
+              "2/3",
+              "1/4"
+            ],
+            "correta": 0,
+            "explicacao": "Resultados: CC, CK, KC, KK. Só KK não tem cara: 1 − 1/4 = 3/4.",
+            "dica": "Use o complementar: nenhuma cara."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lançando dois dados, qual é a chance de a soma ser 8?",
+            "alternativas": [
+              "1/8",
+              "1/6",
+              "5/36",
+              "8/36"
+            ],
+            "correta": 2,
+            "explicacao": "(2,6), (3,5), (4,4), (5,3), (6,2): 5 casos em 36.",
+            "dica": "Liste os pares em ordem."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem, da menor para a maior chance, num dado comum:",
+            "itens": [
+              "Sair 7",
+              "Sair 6",
+              "Sair número par",
+              "Sair número menor que 7"
+            ],
+            "explicacao": "0, 1/6, 1/2 e 1.",
+            "dica": "Calcule a chance de cada um."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lançando dois dados, qual é a chance de sair pelo menos um 6?",
+            "alternativas": [
+              "11/36",
+              "1/3",
+              "1/6",
+              "12/36"
+            ],
+            "correta": 0,
+            "explicacao": "Nenhum 6: 25/36. Pelo menos um: 1 − 25/36 = 11/36. O (6,6) não pode ser contado duas vezes.",
+            "dica": "Calcule primeiro a chance de nenhum 6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa caixa com 2 bolas vermelhas e 3 azuis, tiram-se duas sem devolver. Qual é a chance de as duas serem vermelhas?",
+            "alternativas": [
+              "4/25",
+              "1/10",
+              "1/5",
+              "2/5"
+            ],
+            "correta": 1,
+            "explicacao": "2/5 · 1/4 = 2/20 = 1/10.",
+            "dica": "Depois da primeira, quantas bolas sobram?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lançando dois dados, qual é a chance de a soma ser 10 ou mais?",
+            "alternativas": [
+              "1/6",
+              "1/4",
+              "1/12",
+              "5/36"
+            ],
+            "correta": 0,
+            "explicacao": "(4,6), (5,5), (6,4), (5,6), (6,5), (6,6): 6/36 = 1/6.",
+            "dica": "Conte as somas 10, 11 e 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma roleta tem as cores azul, verde e amarelo. A chance de azul é o dobro da de verde, e a de amarelo é igual à de verde. Qual é a chance de azul?",
+            "alternativas": [
+              "1/4",
+              "1/3",
+              "2/3",
+              "1/2"
+            ],
+            "correta": 3,
+            "explicacao": "Verde = x, amarelo = x, azul = 2x. 4x = 1, x = 1/4. Azul = 2/4 = 1/2.",
+            "dica": "Todas as chances somam 1."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um time diz: \"Ou ganhamos ou perdemos, então a chance de ganhar é 50%\". Qual é o erro?",
+            "alternativas": [
+              "A chance é sempre 100%",
+              "A chance é sempre 0%",
+              "Os resultados não têm chances iguais, e ainda existe o empate",
+              "Não há erro"
+            ],
+            "correta": 2,
+            "explicacao": "A fórmula só vale se os resultados forem igualmente prováveis.",
+            "dica": "Quando é que favoráveis ÷ possíveis funciona?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "financas",
+      "titulo": "Seguro: proteger o que você tem",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Seguro é um contrato em que a pessoa paga um valor (o prêmio) para uma seguradora e, se acontecer um problema combinado (o sinistro), recebe um dinheiro (a indenização). O contrato se chama apólice.",
+          "A ideia é dividir o risco: muita gente paga um pouco, e as poucas que sofrem o prejuízo recebem. Ninguém sabe quem vai ter a casa alagada ou o celular roubado, mas a seguradora sabe, pela estatística, mais ou menos quantos casos vão acontecer.",
+          "Tipos comuns: seguro de vida, residencial (casa), de carro, de celular e de viagem. No seguro de carro e de celular costuma existir a franquia, um valor que o segurado paga do próprio bolso em cada sinistro.",
+          "O seguro vale a pena quando o prejuízo seria grande demais para a família pagar sozinha, como um incêndio na casa ou a morte de quem sustenta a família. Para perdas pequenas, a reserva de emergência costuma sair mais barata.",
+          "Pelo Código de Defesa do Consumidor, a loja não pode obrigar o cliente a comprar um seguro ou uma garantia estendida para levar o produto. Isso é venda casada, que é proibida."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Um celular custa R$ 1.500,00. O seguro custa R$ 25,00 por mês, com franquia de R$ 300,00. Quanto se paga por ano e quanto se recebe em caso de roubo?",
+            "resolucao": "Por ano: 25 · 12 = R$ 300,00. Em caso de roubo, o segurado paga a franquia de R$ 300,00 e recebe o aparelho ou o valor combinado. Vale pensar: qual é a chance de roubo e quanto a família aguentaria perder?"
+          },
+          {
+            "enunciado": "A família do Sandro mora de aluguel numa casa simples. Um seguro residencial custa R$ 15,00 por mês e cobre incêndio e danos elétricos até R$ 30.000,00. Faz sentido?",
+            "resolucao": "Faz. O valor é baixo (R$ 180,00 por ano) e protege contra um prejuízo que a família não conseguiria pagar sozinha."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "A seguradora cobra mais do que o prejuízo médio para cobrir custos e ter lucro. Se a chance de roubo de um celular de R$ 1.500,00 é de 2% ao ano, a perda média por cliente é 2% de 1.500 = R$ 30,00 por ano. Quem paga R$ 300,00 por ano, na média, paga muito mais do que recebe. Por isso o seguro compensa para prejuízos grandes e raros, e não para pequenos e frequentes.",
+        "Leia a apólice antes de assinar: o que está coberto, o que está excluído (por exemplo, furto simples ou perda) e qual é a franquia. Mentir na proposta pode fazer a pessoa perder a indenização.",
+        "Plano de saúde é parecido com seguro, mas tem regras próprias. E o SUS garante atendimento de saúde para todos, de graça, como direito previsto na Constituição de 1988."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O valor que a pessoa paga à seguradora se chama:",
+            "alternativas": [
+              "sinistro",
+              "franquia",
+              "indenização",
+              "prêmio"
+            ],
+            "correta": 3,
+            "explicacao": "Prêmio é o preço do seguro.",
+            "dica": "Não é o que se recebe, é o que se paga."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O problema coberto que acontece (roubo, incêndio) se chama:",
+            "alternativas": [
+              "prêmio",
+              "sinistro",
+              "apólice",
+              "lucro"
+            ],
+            "correta": 1,
+            "explicacao": "Sinistro é o evento que aciona o seguro.",
+            "dica": "É a palavra para o acidente ou o roubo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O dinheiro que a pessoa recebe quando acontece o problema é a:",
+            "alternativas": [
+              "indenização",
+              "parcela",
+              "prêmio",
+              "multa"
+            ],
+            "correta": 0,
+            "explicacao": "A indenização repõe o prejuízo.",
+            "dica": "É o que a seguradora paga."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a ideia central do seguro?",
+            "alternativas": [
+              "Muitos pagam um pouco para proteger os poucos que têm prejuízo",
+              "Ganhar dinheiro fácil",
+              "Evitar todo acidente",
+              "Nunca pagar nada"
+            ],
+            "correta": 0,
+            "explicacao": "O risco é dividido entre muitas pessoas.",
+            "dica": "Pense em dividir o risco."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se chama o contrato de seguro?",
+            "alternativas": [
+              "Nota fiscal",
+              "Recibo",
+              "Apólice",
+              "Boleto"
+            ],
+            "correta": 2,
+            "explicacao": "A apólice traz as regras do seguro.",
+            "dica": "É um documento com as regras."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um seguro de celular custa R$ 25,00 por mês. Quanto custa em um ano?",
+            "alternativas": [
+              "R$ 120,00",
+              "R$ 250,00",
+              "R$ 25,00",
+              "R$ 300,00"
+            ],
+            "correta": 3,
+            "explicacao": "25 · 12 = 300.",
+            "dica": "Multiplique por 12 meses."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é franquia num seguro?",
+            "alternativas": [
+              "O valor que o segurado paga do próprio bolso em cada sinistro",
+              "Um desconto na loja",
+              "O nome da seguradora",
+              "O preço mensal do seguro"
+            ],
+            "correta": 0,
+            "explicacao": "A franquia fica por conta do segurado.",
+            "dica": "É uma parte do prejuízo que não é coberta."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quando o seguro vale mais a pena?",
+            "alternativas": [
+              "Nunca",
+              "Só para quem é rico",
+              "Quando o prejuízo seria grande demais para pagar sozinho",
+              "Para coisas baratas que se perdem sempre"
+            ],
+            "correta": 2,
+            "explicacao": "Seguro serve para prejuízos grandes e raros.",
+            "dica": "Pense em incêndio na casa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A loja diz que só vende a geladeira com garantia estendida junto. Isso é:",
+            "alternativas": [
+              "venda casada, proibida pelo CDC",
+              "um desconto",
+              "normal e permitido",
+              "obrigatório por lei"
+            ],
+            "correta": 0,
+            "explicacao": "Condicionar a venda a outro produto é proibido.",
+            "dica": "O cliente pode recusar o produto extra?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para perdas pequenas e frequentes, o que costuma sair mais barato que o seguro?",
+            "alternativas": [
+              "Cheque especial",
+              "Reserva de emergência",
+              "Ignorar o problema",
+              "Empréstimo no cartão"
+            ],
+            "correta": 1,
+            "explicacao": "Guardar dinheiro evita pagar o lucro da seguradora.",
+            "dica": "É dinheiro guardado para imprevistos."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "A chance de roubo de um celular de R$ 1.500,00 é de 2% ao ano. Qual é a perda média por pessoa?",
+            "alternativas": [
+              "R$ 3,00",
+              "R$ 300,00",
+              "R$ 150,00",
+              "R$ 30,00"
+            ],
+            "correta": 3,
+            "explicacao": "2% de 1.500 = 30.",
+            "dica": "Calcule 2% do valor do celular."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O seguro residencial custa R$ 15,00 por mês e cobre até R$ 30.000,00. Quanto custa por ano?",
+            "alternativas": [
+              "R$ 30,00",
+              "R$ 180,00",
+              "R$ 150,00",
+              "R$ 1.500,00"
+            ],
+            "correta": 1,
+            "explicacao": "15 · 12 = 180.",
+            "dica": "Multiplique o valor mensal por 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a seguradora cobra mais do que a perda média?",
+            "alternativas": [
+              "Não cobra mais",
+              "Porque a perda média é zero",
+              "Para cobrir custos e ter lucro",
+              "Porque é obrigada a dar prejuízo"
+            ],
+            "correta": 2,
+            "explicacao": "Ela precisa pagar funcionários, impostos e ter lucro.",
+            "dica": "A seguradora é uma empresa."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que pode acontecer se a pessoa mentir na proposta do seguro?",
+            "alternativas": [
+              "Perder o direito à indenização",
+              "Nada",
+              "Receber em dobro",
+              "Ganhar desconto"
+            ],
+            "correta": 0,
+            "explicacao": "Informação falsa pode cancelar a cobertura.",
+            "dica": "O contrato depende da verdade."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que acontece num seguro de celular:",
+            "itens": [
+              "Assinar a apólice e pagar o prêmio",
+              "O celular é roubado (sinistro)",
+              "Comunicar a seguradora e pagar a franquia",
+              "Receber a indenização"
+            ],
+            "explicacao": "Contratar, sinistro, aviso e indenização.",
+            "dica": "Primeiro se contrata."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Seguro de celular: R$ 300,00 por ano, franquia de R$ 300,00. Chance de roubo: 2% ao ano. Para um celular de R$ 1.500,00, qual conclusão está certa?",
+            "alternativas": [
+              "A chance de roubo é de 100%",
+              "O seguro sempre dá lucro para o cliente",
+              "Na média, paga-se mais do que se recebe; só compensa se a perda for impossível de bancar",
+              "O seguro é de graça"
+            ],
+            "correta": 2,
+            "explicacao": "Perda média: R$ 30,00 por ano, contra R$ 300,00 pagos.",
+            "dica": "Compare o custo do seguro com a perda média."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual seguro é mais importante para uma família em que só uma pessoa tem renda?",
+            "alternativas": [
+              "Seguro do fone de ouvido",
+              "Seguro de vida de quem sustenta a casa",
+              "Garantia estendida do liquidificador",
+              "Seguro de viagem sem viajar"
+            ],
+            "correta": 1,
+            "explicacao": "Perder a renda principal é um prejuízo enorme.",
+            "dica": "Qual perda a família não aguentaria?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "A apólice de um celular cobre roubo, mas exclui perda. O aparelho caiu do bolso no ônibus e sumiu. O que acontece?",
+            "alternativas": [
+              "A seguradora paga em dobro",
+              "O CDC obriga a pagar sempre",
+              "A loja paga",
+              "A seguradora não paga, porque perda está excluída"
+            ],
+            "correta": 3,
+            "explicacao": "Vale o que está escrito na apólice.",
+            "dica": "Leia o que está coberto e o que está excluído."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Rita tem uma reserva de R$ 2.000,00. Ela pensa em pagar R$ 20,00 por mês num seguro para um fone de R$ 150,00. O que é mais sensato?",
+            "alternativas": [
+              "Não contratar: em 8 meses pagaria o valor do fone, e a reserva cobre a perda",
+              "Contratar e cancelar a reserva",
+              "Usar o cartão para comprar outro fone sempre",
+              "Contratar dois seguros"
+            ],
+            "correta": 0,
+            "explicacao": "20 · 8 = 160, mais que o fone.",
+            "dica": "Em quanto tempo o seguro custa mais que o fone?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que a seguradora consegue prever quanto vai pagar, mesmo sem saber quem vai ter prejuízo?",
+            "alternativas": [
+              "Porque escolhe quem vai ser roubado",
+              "Porque não paga ninguém",
+              "Porque adivinha",
+              "Porque, com muitos clientes, a estatística mostra quantos casos acontecem em média"
+            ],
+            "correta": 3,
+            "explicacao": "Com muitos casos, a proporção fica previsível, como na probabilidade.",
+            "dica": "Relacione com a aula de Matemática de hoje."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Números aleatórios e sorteio",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Jogos, sorteios e simulações precisam de números aleatórios, que não dá para prever. Em Python, eles vêm do módulo random, que se usa escrevendo import random no começo do programa.",
+          "random.randint(1, 6) sorteia um número inteiro de 1 a 6, incluindo o 1 e o 6. É um dado virtual.",
+          "random.choice(lista) sorteia um item da lista: random.choice(['Ana', 'Beto', 'Caio']) escolhe um nome. random.shuffle(lista) embaralha a lista inteira, como cartas.",
+          "Exemplo de sorteio:\nimport random\nalunos = ['Ana', 'Beto', 'Caio', 'Duda']\nprint(random.choice(alunos))\nCada vez que roda, pode sair um nome diferente.",
+          "Os números do computador são pseudoaleatórios: vêm de uma conta complicada que parece imprevisível. Para jogos e sorteios simples, funcionam muito bem."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Faça um programa que lança um dado 1.000 vezes e conta quantas vezes saiu 6.",
+            "resolucao": "import random\nseis = 0\nfor i in range(1000):\n    if random.randint(1, 6) == 6:\n        seis = seis + 1\nprint(seis)\nO resultado fica perto de 1.000 ÷ 6 ≈ 167, mas muda um pouco a cada vez."
+          },
+          {
+            "enunciado": "Como sortear 3 ganhadores diferentes de uma lista de 20 alunos?",
+            "resolucao": "Use random.sample(alunos, 3). Ele devolve 3 nomes sem repetir, ao contrário de chamar choice três vezes, que poderia sortear o mesmo nome duas vezes."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "random.random() devolve um número decimal de 0 até 1, sem incluir o 1. Dá para usar como probabilidade: if random.random() < 0.3: print('Choveu') simula um dia com 30% de chance de chuva.",
+        "Simulação é usar sorteios para estimar probabilidades. Quanto mais repetições, mais perto o resultado fica da probabilidade teórica. Com 10 lançamentos, sair três vezes o 6 é normal; com 60.000, o 6 vai sair perto de 10.000 vezes.",
+        "random.seed(42) faz a sequência de sorteios se repetir igual toda vez. Isso ajuda a testar programas. Sorteios oficiais usam regras e fiscalização para garantir que ninguém consiga prever o resultado."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando sorteia um número de 1 a 6?",
+            "alternativas": [
+              "range(1, 6)",
+              "random.choice(6)",
+              "random.randint(1, 6)",
+              "print(1, 6)"
+            ],
+            "correta": 2,
+            "explicacao": "randint sorteia um inteiro entre os dois números.",
+            "dica": "O nome vem de random integer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é preciso escrever antes de usar o random?",
+            "alternativas": [
+              "import random",
+              "print random",
+              "start random",
+              "open random"
+            ],
+            "correta": 0,
+            "explicacao": "O módulo precisa ser importado.",
+            "dica": "É o comando que traz um módulo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "random.randint(1, 6) pode dar 6?",
+            "alternativas": [
+              "Só às vezes no fim de semana",
+              "Sim, o 6 está incluído",
+              "Não, nunca",
+              "Só se escrever 7"
+            ],
+            "correta": 1,
+            "explicacao": "No randint, os dois extremos entram.",
+            "dica": "Os dois limites contam."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando escolhe um nome de uma lista?",
+            "alternativas": [
+              "random.choice(lista)",
+              "lista.sort()",
+              "len(lista)",
+              "random.randint(lista)"
+            ],
+            "correta": 0,
+            "explicacao": "choice escolhe um item.",
+            "dica": "Choice quer dizer escolha."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual comando embaralha uma lista?",
+            "alternativas": [
+              "random.choice(lista)",
+              "print(lista)",
+              "lista.sort()",
+              "random.shuffle(lista)"
+            ],
+            "correta": 3,
+            "explicacao": "shuffle embaralha, como cartas.",
+            "dica": "É o que se faz com o baralho antes do jogo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Lançando um dado 600 vezes, quantas vezes o 6 deve sair, aproximadamente?",
+            "alternativas": [
+              "100",
+              "6",
+              "600",
+              "300"
+            ],
+            "correta": 0,
+            "explicacao": "600 ÷ 6 = 100, mais ou menos.",
+            "dica": "A chance do 6 é 1/6."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos resultados diferentes random.randint(1, 10) pode dar?",
+            "alternativas": [
+              "11",
+              "1",
+              "9",
+              "10"
+            ],
+            "correta": 3,
+            "explicacao": "De 1 a 10, incluindo os dois: 10 valores.",
+            "dica": "Os dois extremos entram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para sortear 3 ganhadores diferentes, o melhor é:",
+            "alternativas": [
+              "alunos.sort()",
+              "random.sample(alunos, 3)",
+              "random.randint(alunos, 3)",
+              "random.choice(alunos) três vezes"
+            ],
+            "correta": 1,
+            "explicacao": "sample não repete; choice pode repetir.",
+            "dica": "Qual não sorteia o mesmo nome duas vezes?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que se diz que os números do computador são pseudoaleatórios?",
+            "alternativas": [
+              "Porque são falsos e não funcionam",
+              "Porque vêm de uma conta que parece imprevisível",
+              "Porque são sempre iguais",
+              "Porque são escritos à mão"
+            ],
+            "correta": 1,
+            "explicacao": "Pseudo quer dizer que parece, mas vem de um cálculo.",
+            "dica": "Pseudo quer dizer parecido com."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes programas pode mostrar o número 0?",
+            "alternativas": [
+              "print(random.randint(2, 4))",
+              "print(random.choice([1, 2, 3]))",
+              "print(random.randint(0, 5))",
+              "print(random.randint(1, 6))"
+            ],
+            "correta": 2,
+            "explicacao": "Só o primeiro inclui o 0 no intervalo.",
+            "dica": "Veja qual intervalo começa em zero."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz este código?\nif random.random() < 0.3:\n    print('Choveu')",
+            "alternativas": [
+              "Nunca mostra",
+              "Mostra 'Choveu' em cerca de 30% das vezes",
+              "Mostra em 70% das vezes",
+              "Mostra sempre"
+            ],
+            "correta": 1,
+            "explicacao": "random() fica entre 0 e 1; ser menor que 0.3 acontece 30% das vezes.",
+            "dica": "Pense na chance de um número entre 0 e 1 ser menor que 0,3."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa lançou um dado 10 vezes e o 6 saiu 3 vezes. Isso prova que o dado está viciado?",
+            "alternativas": [
+              "Não, porque o 6 nunca sai",
+              "Sim, com certeza",
+              "Não: com poucas repetições, variações assim são normais",
+              "Sim, porque deveria sair 0 vezes"
+            ],
+            "correta": 2,
+            "explicacao": "Só com muitas repetições a frequência se aproxima de 1/6.",
+            "dica": "Dez lançamentos são muitos ou poucos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve random.seed(42)?",
+            "alternativas": [
+              "Para apagar os números",
+              "Para deixar o sorteio mais justo",
+              "Para sortear o número 42",
+              "Para repetir a mesma sequência de sorteios e testar o programa"
+            ],
+            "correta": 3,
+            "explicacao": "Com a mesma semente, a sequência se repete.",
+            "dica": "Seed quer dizer semente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual linha sorteia uma letra da palavra 'BRASIL'?",
+            "alternativas": [
+              "random.choice('BRASIL')",
+              "'BRASIL'.sort()",
+              "random.randint('BRASIL')",
+              "random.shuffle('B')"
+            ],
+            "correta": 0,
+            "explicacao": "choice também funciona com textos.",
+            "dica": "Um texto também é uma sequência."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as linhas para contar quantas vezes sai cara em 100 lançamentos de moeda:",
+            "itens": [
+              "import random",
+              "caras = 0",
+              "for i in range(100):",
+              "    if random.randint(0, 1) == 0:",
+              "        caras = caras + 1"
+            ],
+            "explicacao": "Importar, zerar o contador, repetir, testar e somar.",
+            "dica": "Antes de contar, zere o contador."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um programa simula dois dados com d1 = random.randint(1, 6) e d2 = random.randint(1, 6) e conta quando d1 + d2 == 7. Em 36.000 repetições, o resultado esperado é perto de:",
+            "alternativas": [
+              "6.000",
+              "3.000",
+              "7.000",
+              "1.000"
+            ],
+            "correta": 0,
+            "explicacao": "P(soma 7) = 1/6; 36.000 ÷ 6 = 6.000.",
+            "dica": "Use a chance da soma 7 da aula de Matemática."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o erro em: numero = random.randint(1, 6) colocado antes do laço que deveria lançar o dado 10 vezes?",
+            "alternativas": [
+              "O dado é sorteado uma vez só e o mesmo número se repete nas 10 voltas",
+              "randint não aceita 6",
+              "O laço não roda",
+              "Não há erro"
+            ],
+            "correta": 0,
+            "explicacao": "O sorteio precisa estar dentro do laço.",
+            "dica": "Onde o sorteio deveria ficar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual código simula sortear um número de 1 a 100 com chance de 1% de dar 100?",
+            "alternativas": [
+              "random.choice([100])",
+              "random.randint(1, 100) == 100",
+              "random.randint(1, 99) == 100",
+              "random.randint(0, 100) == 100"
+            ],
+            "correta": 1,
+            "explicacao": "De 1 a 100 são 100 valores; cada um tem 1%.",
+            "dica": "Conte quantos valores há em cada intervalo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que um programa de \"sorteio\" que usa sempre random.seed(1) não serve para um sorteio de verdade?",
+            "alternativas": [
+              "Porque o 1 dá azar",
+              "Serve normalmente",
+              "Porque seed apaga a lista",
+              "Porque o resultado se repete e pode ser previsto"
+            ],
+            "correta": 3,
+            "explicacao": "Com semente fixa, quem conhece o programa sabe o resultado.",
+            "dica": "O que acontece com a sequência quando a semente é a mesma?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de random.shuffle(cartas), o que acontece com a lista cartas?",
+            "alternativas": [
+              "Ela fica em ordem",
+              "Ela é apagada",
+              "Ela mesma fica embaralhada",
+              "Uma lista nova é criada e cartas não muda"
+            ],
+            "correta": 2,
+            "explicacao": "shuffle mexe na própria lista, como o sort.",
+            "dica": "Compare com sort() e sorted()."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Verbos que confundem: se eu vir, se eu puser, quando ele intervier",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Alguns verbos são derivados de outros e seguem a conjugação do verbo de origem. Intervir vem de vir; manter, deter e conter vêm de ter; propor, compor e supor vêm de pôr; rever e prever vêm de ver.",
+          "Ver e vir se confundem no futuro do subjuntivo. Ver: quando eu vir, se você vir, quando nós virmos. Vir: quando eu vier, se você vier, quando nós viermos. \"Se eu vir o ônibus, aviso\" (ver). \"Se ele vier amanhã, aviso\" (vir).",
+          "Pôr e seus derivados: se eu puser, quando você propuser, se ele compuser. E no passado: ele pôs, ela propôs, eles propuseram.",
+          "Intervir segue vir: ele interveio (e não \"interviu\"), eles intervieram, quando ele intervier. Manter segue ter: ele manteve, se ela mantiver.",
+          "No presente, cuidado com o acento: ele vê / eles veem (ver); ele vem / eles vêm (vir); ele tem / eles têm (ter); ele mantém / eles mantêm (manter)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Complete: \"Se você ___ (ver) a professora, entregue o bilhete.\" e \"Se você ___ (vir) à festa, traga um prato.\"",
+            "resolucao": "\"Se você vir a professora\" (ver: viram → vir) e \"Se você vier à festa\" (vir: vieram → vier)."
+          },
+          {
+            "enunciado": "Corrija: \"O diretor interviu na briga.\"",
+            "resolucao": "\"O diretor interveio na briga.\" Intervir segue vir: ele veio, ele interveio."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Um teste rápido: troque o verbo derivado pelo verbo de origem. Se \"ele veio\", então \"ele interveio\". Se \"ele teve\", então \"ele manteve\". Se \"eu puser\", então \"eu propuser\".",
+        "Prever segue ver: \"Se a meteorologia previr chuva, o jogo será adiado\" (e não \"prever chuva\" nessa construção com se). Rever também: \"Quando você revir o texto, corrija os acentos\".",
+        "Não confunda com verbos regulares parecidos: prover (fornecer) tem formas próprias no passado (\"o governo proveu\"), e não segue ver nesse tempo. Na dúvida, consulte um dicionário ou um conjugador de verbos."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Intervir é conjugado como qual verbo?",
+            "alternativas": [
+              "vir",
+              "ter",
+              "pôr",
+              "ver"
+            ],
+            "correta": 0,
+            "explicacao": "Inter + vir.",
+            "dica": "Olhe o final da palavra intervir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"O diretor ___ na briga.\"",
+            "alternativas": [
+              "intervê",
+              "intervinhou",
+              "interviu",
+              "interveio"
+            ],
+            "correta": 3,
+            "explicacao": "Como ele veio, ele interveio.",
+            "dica": "Pense em \"ele veio\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Eles ___ de ônibus todo dia.\" (verbo vir, presente)",
+            "alternativas": [
+              "vêem",
+              "veem",
+              "vem",
+              "vêm"
+            ],
+            "correta": 3,
+            "explicacao": "Eles vêm, com acento circunflexo.",
+            "dica": "No plural de vir, o acento muda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Manter é conjugado como qual verbo?",
+            "alternativas": [
+              "pôr",
+              "vir",
+              "ter",
+              "ver"
+            ],
+            "correta": 2,
+            "explicacao": "Man + ter.",
+            "dica": "Olhe o final da palavra manter."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Ontem ela ___ uma ideia nova.\" (propor)",
+            "alternativas": [
+              "propós",
+              "propôs",
+              "propoi",
+              "propor"
+            ],
+            "correta": 1,
+            "explicacao": "Como ela pôs, ela propôs.",
+            "dica": "Pense em \"ela pôs\"."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Se eu ___ (ver) seu irmão, dou o recado.\"",
+            "alternativas": [
+              "vir",
+              "vier",
+              "ver",
+              "visse"
+            ],
+            "correta": 0,
+            "explicacao": "Futuro do subjuntivo de ver: viram → vir.",
+            "dica": "Use eles viram como base."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Se ele ___ (vir) amanhã, vamos ao parque.\"",
+            "alternativas": [
+              "ver",
+              "vier",
+              "vir",
+              "vim"
+            ],
+            "correta": 1,
+            "explicacao": "Futuro do subjuntivo de vir: vieram → vier.",
+            "dica": "O verbo é vir (chegar); parta do pretérito perfeito dele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Quando você ___ (pôr) a mesa, me chame.\"",
+            "alternativas": [
+              "pôs",
+              "por",
+              "puser",
+              "pôr"
+            ],
+            "correta": 2,
+            "explicacao": "Puseram → puser.",
+            "dica": "Parta do pretérito perfeito de pôr."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Eles ___ a calma durante a prova.\" (manter, passado)",
+            "alternativas": [
+              "manteram",
+              "mantieram",
+              "manterão",
+              "mantiveram"
+            ],
+            "correta": 3,
+            "explicacao": "Como eles tiveram, eles mantiveram.",
+            "dica": "Pense em \"eles tiveram\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par está correto?",
+            "alternativas": [
+              "eles vêem (ver) / eles vem (vir)",
+              "eles vem (ver) / eles vem (vir)",
+              "eles vêm (ver) / eles veem (vir)",
+              "eles veem (ver) / eles vêm (vir)"
+            ],
+            "correta": 3,
+            "explicacao": "Ver: veem; vir: vêm.",
+            "dica": "Ver termina com dois és no plural."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Quando nós vemos o resultado, comemoraremos.",
+              "Quando nós vermos o resultado, comemoraremos.",
+              "Quando nós virmos o resultado, comemoraremos.",
+              "Quando nós viermos o resultado, comemoraremos."
+            ],
+            "correta": 2,
+            "explicacao": "Ver no futuro do subjuntivo: virmos.",
+            "dica": "Qual verbo é: ver ou vir?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Se a meteorologia ___ (prever) chuva, o jogo será adiado.\"",
+            "alternativas": [
+              "prever",
+              "previr",
+              "prevesse",
+              "previer"
+            ],
+            "correta": 1,
+            "explicacao": "Prever segue ver: se ela vir, se ela previr.",
+            "dica": "Prever vem de ver."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Se a polícia não ___ (intervir), a confusão continuará.\"",
+            "alternativas": [
+              "interver",
+              "intervir",
+              "interviu",
+              "intervier"
+            ],
+            "correta": 3,
+            "explicacao": "Intervir segue vir: se ela vier, se ela intervier.",
+            "dica": "Use o futuro do subjuntivo de vir."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro?",
+            "alternativas": [
+              "Ele deteu o ladrão.",
+              "Ele deteve o ladrão.",
+              "Se ela detiver o ladrão, chame a polícia.",
+              "Eles detiveram o ladrão."
+            ],
+            "correta": 0,
+            "explicacao": "Deter segue ter: ele teve, ele deteve.",
+            "dica": "Pense em \"ele teve\"."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as formas de vir:",
+            "itens": [
+              "eu venho (presente)",
+              "eu vim (passado)",
+              "se eu viesse (hipótese)",
+              "quando eu vier (futuro)"
+            ],
+            "explicacao": "Presente, pretérito perfeito, imperfeito do subjuntivo e futuro do subjuntivo.",
+            "dica": "Vá do agora para o futuro."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está toda correta?",
+            "alternativas": [
+              "Se você vir o Paulo e ele vier conosco, mantenha a calma.",
+              "Se você ver o Paulo e ele vir conosco, mantém a calma.",
+              "Se você ver o Paulo e ele vier conosco, mantenha a calma.",
+              "Se você vier o Paulo e ele vir conosco, mantenha a calma."
+            ],
+            "correta": 0,
+            "explicacao": "Ver: vir; vir: vier; manter (pedido): mantenha.",
+            "dica": "Identifique qual verbo é cada um."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Quando vocês ___ (rever) a redação, ___ (repor) as vírgulas.\"",
+            "alternativas": [
+              "revierem / reporem",
+              "reverem / repõem",
+              "reveem / repor",
+              "revirem / reponham"
+            ],
+            "correta": 3,
+            "explicacao": "Rever segue ver: revirem. Pedido com repor: reponham.",
+            "dica": "Rever vem de ver; repor vem de pôr."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual forma de intervir está no pretérito perfeito, plural?",
+            "alternativas": [
+              "intervierem",
+              "intervêm",
+              "intervieram",
+              "interviram"
+            ],
+            "correta": 2,
+            "explicacao": "Como eles vieram, eles intervieram.",
+            "dica": "Pense em \"eles vieram\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está correta?",
+            "alternativas": [
+              "Eles mantém o jardim limpo.",
+              "Eles mantêm o jardim limpo.",
+              "Eles manteem o jardim limpo.",
+              "Eles mantem o jardim limpo."
+            ],
+            "correta": 1,
+            "explicacao": "Plural de manter no presente: mantêm, com circunflexo.",
+            "dica": "Compare com eles têm."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "\"Se o técnico ___ o time e ___ a tática, podemos ganhar.\" Complete com manter e compor, no futuro do subjuntivo.",
+            "alternativas": [
+              "mantesse / compusesse",
+              "mantiver / compuser",
+              "manter / compor",
+              "manteve / compôs"
+            ],
+            "correta": 1,
+            "explicacao": "Manter (ter → tiver): mantiver. Compor (pôr → puser): compuser.",
+            "dica": "Use tiver e puser como modelos."
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "A carta sobre o jogo de dados",
+    "texto": "Paris, verão de 1654. Blaise Pascal, um jovem matemático, lia pela terceira vez a pergunta que um conhecido lhe fizera. Dois amigos disputavam um prêmio num jogo de dados: ganharia quem vencesse três rodadas primeiro. Um deles tinha duas vitórias; o outro, uma. Então o jogo precisou ser interrompido. Como dividir o prêmio de forma justa?\n\nDividir ao meio parecia injusto com quem estava na frente. Dar tudo a ele parecia injusto com o outro, que ainda podia virar. Pascal pegou papel e pena e escreveu para Pierre de Fermat, um juiz de Toulouse que resolvia problemas de matemática por prazer.\n\nAs cartas foram e voltaram durante meses. Os dois chegaram à mesma resposta por caminhos diferentes. Pascal pensou assim: se houvesse mais uma rodada, metade das vezes o líder venceria e levaria tudo. Na outra metade, o jogo empataria em dois a dois, e aí cada um teria metade da chance. Somando, o líder tinha metade mais um quarto: três quartos. O prêmio deveria ser dividido assim, três partes para um e uma para o outro.\n\nParece pouco, mas aquelas cartas mostraram que dá para medir o incerto. Ninguém sabe o resultado da próxima rodada, mas é possível saber a chance de cada resultado.\n\nDaquela troca de cartas nasceu o estudo da probabilidade, que hoje ajuda a prever o tempo, calcular seguros, testar remédios e mostrar, com números, por que nas apostas quem perde no longo prazo é o apostador."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, invente um jogo de dados justo para duas pessoas. Explique as regras, diga quais resultados fazem cada jogador ganhar e mostre, com frações, que os dois têm a mesma chance de vencer. Dica: num dado há 6 resultados; com dois dados, 36."
+  }
+}

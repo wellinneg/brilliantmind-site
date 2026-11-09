@@ -1,0 +1,1502 @@
+{
+  "dia": 44,
+  "blocos": [
+    {
+      "materia": "matematica",
+      "titulo": "Princípio multiplicativo da contagem",
+      "minutos": 12,
+      "licao": {
+        "paragrafos": [
+          "Contar todas as possibilidades uma por uma dá trabalho. O princípio multiplicativo resolve: se uma escolha pode ser feita de m jeitos e, depois dela, outra pode ser feita de n jeitos, as duas juntas podem ser feitas de m · n jeitos.",
+          "Exemplo: com 3 camisetas e 2 bermudas, dá para montar 3 · 2 = 6 combinações. Para cada camiseta há 2 bermudas, então são 3 grupos de 2.",
+          "Com mais etapas, continue multiplicando. Uma lanchonete tem 3 sucos, 4 lanches e 2 sobremesas: são 3 · 4 · 2 = 24 combos diferentes.",
+          "A árvore de possibilidades ajuda a enxergar: cada galho é uma escolha. Jogar uma moeda 3 vezes dá 2 · 2 · 2 = 8 resultados (cara ou coroa em cada jogada).",
+          "Atenção quando não pode repetir: se 4 amigos vão formar uma fila, há 4 opções para o primeiro lugar, 3 para o segundo, 2 para o terceiro e 1 para o último: 4 · 3 · 2 · 1 = 24 filas."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Uma senha de celular tem 4 dígitos, de 0 a 9, e pode repetir. Quantas senhas existem?",
+            "resolucao": "São 10 opções em cada posição: 10 · 10 · 10 · 10 = 10.000 senhas."
+          },
+          {
+            "enunciado": "E se a senha de 4 dígitos não puder repetir nenhum dígito?",
+            "resolucao": "10 opções para o 1º, 9 para o 2º, 8 para o 3º e 7 para o 4º: 10 · 9 · 8 · 7 = 5.040 senhas."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O produto 4 · 3 · 2 · 1 se chama fatorial de 4 e se escreve 4! (lê-se \"quatro fatorial\"). 4! = 24 e 5! = 120. Ele conta quantas filas, ou quantos anagramas, dá para formar com elementos diferentes: a palavra AMOR tem 4! = 24 anagramas.",
+        "Quando há uma restrição, comece pela etapa mais exigente. Quantos números de 3 algarismos diferentes, usando 1, 2, 3, 4 e 5, são pares? O último algarismo tem de ser 2 ou 4 (2 opções); depois sobram 4 para o primeiro e 3 para o do meio: 2 · 4 · 3 = 24.",
+        "Cuidado com o primeiro algarismo de um número: ele não pode ser 0. Por isso existem 9 · 10 · 10 = 900 números de três algarismos (de 100 a 999)."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Com 3 camisetas e 2 bermudas, quantas combinações de roupa existem?",
+            "alternativas": [
+              "6",
+              "9",
+              "5",
+              "8"
+            ],
+            "correta": 0,
+            "explicacao": "3 · 2 = 6.",
+            "dica": "Multiplique, não some."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O princípio multiplicativo diz que, para escolhas em sequência, devemos:",
+            "alternativas": [
+              "subtrair as opções",
+              "multiplicar as opções",
+              "dividir as opções",
+              "somar as opções"
+            ],
+            "correta": 1,
+            "explicacao": "Cada opção de uma etapa combina com todas da outra.",
+            "dica": "O nome do princípio já entrega a operação."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando uma moeda 2 vezes, quantos resultados existem?",
+            "alternativas": [
+              "3",
+              "4",
+              "6",
+              "2"
+            ],
+            "correta": 1,
+            "explicacao": "2 · 2 = 4: cara-cara, cara-coroa, coroa-cara, coroa-coroa.",
+            "dica": "Cada jogada tem 2 resultados."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lanchonete tem 2 sucos e 3 lanches. Quantos pares suco + lanche existem?",
+            "alternativas": [
+              "9",
+              "5",
+              "8",
+              "6"
+            ],
+            "correta": 3,
+            "explicacao": "2 · 3 = 6.",
+            "dica": "Para cada suco, quantos lanches?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é 3 · 2 · 1?",
+            "alternativas": [
+              "3",
+              "321",
+              "6",
+              "5"
+            ],
+            "correta": 2,
+            "explicacao": "3 · 2 = 6; 6 · 1 = 6.",
+            "dica": "Multiplique da esquerda para a direita."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "3 sucos, 4 lanches e 2 sobremesas formam quantos combos?",
+            "alternativas": [
+              "24",
+              "9",
+              "12",
+              "36"
+            ],
+            "correta": 0,
+            "explicacao": "3 · 4 · 2 = 24.",
+            "dica": "Multiplique as três quantidades."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas senhas de 4 dígitos (0 a 9) existem, podendo repetir?",
+            "alternativas": [
+              "1.000",
+              "9.999",
+              "10.000",
+              "40"
+            ],
+            "correta": 2,
+            "explicacao": "10 · 10 · 10 · 10 = 10.000.",
+            "dica": "Cada posição tem 10 opções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "De quantas formas 4 amigos podem formar uma fila?",
+            "alternativas": [
+              "16",
+              "4",
+              "12",
+              "24"
+            ],
+            "correta": 3,
+            "explicacao": "4 · 3 · 2 · 1 = 24.",
+            "dica": "Quem já está na fila não volta a ser escolhido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Jogando uma moeda 3 vezes, quantos resultados existem?",
+            "alternativas": [
+              "9",
+              "8",
+              "3",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "2 · 2 · 2 = 8.",
+            "dica": "Faça a árvore ou multiplique por 2 três vezes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Lançando um dado e uma moeda, quantos resultados existem?",
+            "alternativas": [
+              "12",
+              "6",
+              "36",
+              "8"
+            ],
+            "correta": 0,
+            "explicacao": "6 · 2 = 12.",
+            "dica": "O dado tem 6 faces; a moeda, 2."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas senhas de 4 dígitos sem repetir dígito existem?",
+            "alternativas": [
+              "3.024",
+              "10.000",
+              "5.040",
+              "40"
+            ],
+            "correta": 2,
+            "explicacao": "10 · 9 · 8 · 7 = 5.040.",
+            "dica": "A cada posição, uma opção a menos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos anagramas tem a palavra AMOR?",
+            "alternativas": [
+              "24",
+              "4",
+              "12",
+              "16"
+            ],
+            "correta": 0,
+            "explicacao": "4! = 4 · 3 · 2 · 1 = 24.",
+            "dica": "As 4 letras são diferentes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Numa eleição de grêmio com 8 candidatos, de quantas formas se escolhem presidente e vice (pessoas diferentes)?",
+            "alternativas": [
+              "28",
+              "16",
+              "64",
+              "56"
+            ],
+            "correta": 3,
+            "explicacao": "8 opções para presidente e 7 para vice: 8 · 7 = 56.",
+            "dica": "Quem foi eleito presidente não pode ser vice."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantos números de 3 algarismos existem (de 100 a 999)?",
+            "alternativas": [
+              "1.000",
+              "900",
+              "999",
+              "720"
+            ],
+            "correta": 1,
+            "explicacao": "9 · 10 · 10 = 900. O primeiro algarismo não pode ser 0.",
+            "dica": "O primeiro algarismo pode ser zero?"
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem crescente:",
+            "itens": [
+              "3!",
+              "2 · 2 · 2",
+              "3 · 4",
+              "4!"
+            ],
+            "explicacao": "3! = 6; 2 · 2 · 2 = 8; 3 · 4 = 12; 4! = 24.",
+            "dica": "Calcule cada valor antes de ordenar."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando 1, 2, 3, 4 e 5 sem repetir, quantos números pares de 3 algarismos existem?",
+            "alternativas": [
+              "60",
+              "36",
+              "24",
+              "12"
+            ],
+            "correta": 2,
+            "explicacao": "Último algarismo: 2 ou 4 (2 opções); depois 4 e 3 opções: 2 · 4 · 3 = 24.",
+            "dica": "Comece pela posição que tem restrição."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma senha tem 2 letras (26 opções cada, pode repetir) seguidas de 3 algarismos (pode repetir). Quantas senhas existem?",
+            "alternativas": [
+              "78.000",
+              "17.576",
+              "52.000",
+              "676.000"
+            ],
+            "correta": 3,
+            "explicacao": "26 · 26 · 10 · 10 · 10 = 676.000.",
+            "dica": "São cinco posições; multiplique todas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "De quantas formas 5 pessoas podem se sentar em 5 cadeiras em fila, se a Ana tem de ficar na primeira?",
+            "alternativas": [
+              "5",
+              "24",
+              "120",
+              "20"
+            ],
+            "correta": 1,
+            "explicacao": "A Ana fica fixa; as outras 4 se arrumam de 4! = 24 formas.",
+            "dica": "Tire a Ana da conta e organize o resto."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Usando 1, 2, 3, 4 e 5, quantos números de 3 algarismos existem podendo repetir, e sem repetir?",
+            "alternativas": [
+              "125 e 120",
+              "15 e 60",
+              "60 e 125",
+              "125 e 60"
+            ],
+            "correta": 3,
+            "explicacao": "Com repetição: 5 · 5 · 5 = 125. Sem: 5 · 4 · 3 = 60.",
+            "dica": "Com repetição, cada posição tem as 5 opções."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pizzaria oferece 6 sabores. Quantas pizzas de 2 sabores diferentes dá para montar (a ordem dos sabores não importa)?",
+            "alternativas": [
+              "15",
+              "12",
+              "30",
+              "36"
+            ],
+            "correta": 0,
+            "explicacao": "6 · 5 = 30 conta cada par duas vezes (calabresa-queijo e queijo-calabresa); 30 ÷ 2 = 15.",
+            "dica": "Pense se calabresa com queijo é diferente de queijo com calabresa."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "programacao",
+      "titulo": "Ordenação: colocar a lista em ordem",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Ordenar é colocar os itens em ordem: notas do menor para o maior, nomes em ordem alfabética, produtos do mais barato para o mais caro. É uma das tarefas que os computadores mais fazem.",
+          "Em Python, lista.sort() ordena a própria lista, e sorted(lista) cria uma lista nova ordenada, sem mexer na original. Para ordem decrescente, use reverse=True: notas.sort(reverse=True).",
+          "Exemplo:\nnotas = [7, 4, 9, 6]\nnotas.sort()\nprint(notas)\nmostra [4, 6, 7, 9].",
+          "Por dentro, um jeito simples de ordenar é o método da bolha: compare cada par de vizinhos e troque se estiverem fora de ordem. Repita as passadas até não haver mais trocas. Os maiores \"sobem\" para o fim, como bolhas.",
+          "Para trocar dois valores em Python, basta escrever a, b = b, a."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Faça o método da bolha em [5, 3, 8, 1], mostrando a lista depois de cada passada.",
+            "resolucao": "1ª passada: troca 5 e 3, mantém 5 e 8, troca 8 e 1: [3, 5, 1, 8]. 2ª: troca 5 e 1: [3, 1, 5, 8]. 3ª: troca 3 e 1: [1, 3, 5, 8]. Foram 4 trocas no total."
+          },
+          {
+            "enunciado": "Qual é a diferença entre nomes.sort() e sorted(nomes)?",
+            "resolucao": "nomes.sort() muda a lista nomes e não devolve nada. sorted(nomes) devolve uma nova lista ordenada e deixa nomes como estava."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Outro método é a ordenação por seleção: ache o menor e coloque na primeira posição; depois ache o menor do resto e coloque na segunda; e assim por diante. Em [4, 2, 7, 1], o 1 troca com o 4 ([1, 2, 7, 4]), o 2 fica, e o 4 troca com o 7 ([1, 2, 4, 7]).",
+        "Textos são ordenados pela tabela de caracteres: letras maiúsculas vêm antes das minúsculas. sorted(['b', 'A', 'a', 'B']) dá ['A', 'B', 'a', 'b']. Números guardados como texto também enganam: sorted(['10', '9', '2']) dá ['10', '2', '9'], porque compara caractere por caractere.",
+        "Numa lista com n itens, a bolha faz no máximo n − 1 passadas. Para listas enormes existem métodos bem mais rápidos, mas a ideia de comparar e trocar continua."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que faz notas.sort()?",
+            "alternativas": [
+              "Ordena a lista notas",
+              "Mostra a maior nota",
+              "Apaga a lista",
+              "Soma as notas"
+            ],
+            "correta": 0,
+            "explicacao": "sort() coloca a lista em ordem.",
+            "dica": "Sort quer dizer ordenar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com notas = [7, 4, 9, 6], depois de notas.sort(), a lista fica:",
+            "alternativas": [
+              "[4, 7, 6, 9]",
+              "[9, 7, 6, 4]",
+              "[7, 4, 9, 6]",
+              "[4, 6, 7, 9]"
+            ],
+            "correta": 3,
+            "explicacao": "Ordem crescente: do menor para o maior.",
+            "dica": "Do menor para o maior."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se ordena do maior para o menor?",
+            "alternativas": [
+              "notas.sort(reverse=True)",
+              "sort(notas, 0)",
+              "notas.sort(maior)",
+              "notas.reverse(sort)"
+            ],
+            "correta": 0,
+            "explicacao": "reverse=True inverte a ordem.",
+            "dica": "Reverse quer dizer inverter."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "No método da bolha, comparamos:",
+            "alternativas": [
+              "só o primeiro e o último",
+              "nada, só trocamos",
+              "pares de vizinhos",
+              "a lista com outra lista"
+            ],
+            "correta": 2,
+            "explicacao": "Vizinhos fora de ordem são trocados.",
+            "dica": "Compara-se um item com o do lado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como se trocam os valores de a e b em Python?",
+            "alternativas": [
+              "a = b",
+              "a, b = b, a",
+              "b = a",
+              "troca(a)"
+            ],
+            "correta": 1,
+            "explicacao": "A atribuição dupla troca os dois de uma vez.",
+            "dica": "Os dois lados mudam ao mesmo tempo."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre sort() e sorted()?",
+            "alternativas": [
+              "sorted() apaga a lista",
+              "Nenhuma",
+              "sort() muda a lista; sorted() cria outra",
+              "sort() só ordena textos"
+            ],
+            "correta": 2,
+            "explicacao": "sorted() devolve uma lista nova.",
+            "dica": "Uma delas preserva a original."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois da 1ª passada da bolha em [5, 3, 8, 1], a lista fica:",
+            "alternativas": [
+              "[1, 3, 5, 8]",
+              "[3, 5, 1, 8]",
+              "[5, 3, 1, 8]",
+              "[3, 5, 8, 1]"
+            ],
+            "correta": 1,
+            "explicacao": "Troca 5 e 3, mantém 5 e 8, troca 8 e 1.",
+            "dica": "Compare os pares da esquerda para a direita."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra print(sorted(['Rui', 'Ana', 'Lia']))?",
+            "alternativas": [
+              "['Lia', 'Ana', 'Rui']",
+              "['Ana', 'Rui', 'Lia']",
+              "['Rui', 'Lia', 'Ana']",
+              "['Ana', 'Lia', 'Rui']"
+            ],
+            "correta": 3,
+            "explicacao": "Ordem alfabética.",
+            "dica": "A, L, R."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na bolha, depois da 1ª passada, onde fica o maior número?",
+            "alternativas": [
+              "Na última posição",
+              "No meio",
+              "Na primeira posição",
+              "Ele some"
+            ],
+            "correta": 0,
+            "explicacao": "O maior vai sendo empurrado até o fim.",
+            "dica": "Pense nas bolhas subindo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Com x = [3, 1, 2] e y = sorted(x), quanto vale x?",
+            "alternativas": [
+              "[3, 1, 2]",
+              "[1, 2, 3]",
+              "[]",
+              "[3, 2, 1]"
+            ],
+            "correta": 0,
+            "explicacao": "sorted() não mexe na lista original.",
+            "dica": "sorted() muda a lista original?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas trocas a bolha faz para ordenar [5, 3, 8, 1]?",
+            "alternativas": [
+              "4",
+              "2",
+              "6",
+              "3"
+            ],
+            "correta": 0,
+            "explicacao": "1ª passada: 2 trocas; 2ª: 1; 3ª: 1. Total: 4.",
+            "dica": "Conte as trocas passada por passada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Na ordenação por seleção de [4, 2, 7, 1], qual é a lista depois do primeiro passo?",
+            "alternativas": [
+              "[4, 2, 1, 7]",
+              "[1, 4, 2, 7]",
+              "[1, 2, 7, 4]",
+              "[2, 4, 7, 1]"
+            ],
+            "correta": 2,
+            "explicacao": "O menor (1) troca de lugar com o primeiro (4).",
+            "dica": "Ache o menor e leve para a frente."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas passadas, no máximo, a bolha faz numa lista de 6 itens?",
+            "alternativas": [
+              "3",
+              "5",
+              "36",
+              "6"
+            ],
+            "correta": 1,
+            "explicacao": "No máximo n − 1 = 5 passadas.",
+            "dica": "Use a regra do aprofundamento."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra este código?\nv = [8, 2, 5]\nv.sort(reverse=True)\nprint(v[0])",
+            "alternativas": [
+              "5",
+              "2",
+              "[8, 5, 2]",
+              "8"
+            ],
+            "correta": 3,
+            "explicacao": "Em ordem decrescente, a lista fica [8, 5, 2]; v[0] é 8.",
+            "dica": "Ordene ao contrário e pegue a posição 0."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem as listas que aparecem na bolha aplicada a [4, 1, 3, 2]:",
+            "itens": [
+              "[4, 1, 3, 2]",
+              "[1, 3, 2, 4]",
+              "[1, 2, 3, 4]"
+            ],
+            "explicacao": "1ª passada leva o 4 ao fim; a 2ª troca 3 e 2.",
+            "dica": "Faça uma passada de cada vez."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra print(sorted(['b', 'A', 'a', 'B']))?",
+            "alternativas": [
+              "['A', 'a', 'B', 'b']",
+              "['a', 'b', 'A', 'B']",
+              "['A', 'B', 'a', 'b']",
+              "['a', 'A', 'b', 'B']"
+            ],
+            "correta": 2,
+            "explicacao": "Maiúsculas vêm antes das minúsculas na tabela de caracteres.",
+            "dica": "Na tabela, as maiúsculas vêm antes."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra print(sorted(['10', '9', '2']))?",
+            "alternativas": [
+              "['2', '9', '10']",
+              "['9', '2', '10']",
+              "['10', '9', '2']",
+              "['10', '2', '9']"
+            ],
+            "correta": 3,
+            "explicacao": "São textos: compara o primeiro caractere: '1' < '2' < '9'.",
+            "dica": "São números ou textos?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como ordenar corretamente as idades guardadas como texto idades = ['10', '9', '2']?",
+            "alternativas": [
+              "Usar sort() duas vezes",
+              "Não tem como",
+              "Usar reverse=True",
+              "Transformar em número: sorted([int(i) for i in idades])"
+            ],
+            "correta": 3,
+            "explicacao": "Convertendo com int(), a ordem fica numérica: [2, 9, 10].",
+            "dica": "O problema é o tipo do dado."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que mostra este código?\nv = [3, 1, 2]\nr = v.sort()\nprint(r)",
+            "alternativas": [
+              "None",
+              "[3, 1, 2]",
+              "Erro",
+              "[1, 2, 3]"
+            ],
+            "correta": 0,
+            "explicacao": "sort() muda v, mas não devolve nada: r recebe None.",
+            "dica": "sort() devolve alguma coisa?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma lista já está em ordem. Como saber, na bolha, que dá para parar mais cedo?",
+            "alternativas": [
+              "Depois da primeira comparação",
+              "Se uma passada inteira não fizer nenhuma troca",
+              "Nunca dá para parar",
+              "Quando o primeiro item for o menor"
+            ],
+            "correta": 1,
+            "explicacao": "Passada sem troca significa que tudo já está em ordem.",
+            "dica": "O que indica que nada estava fora do lugar?"
+          }
+        ]
+      }
+    },
+    {
+      "materia": "word",
+      "titulo": "Colunas e folheto de divulgação",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Jornais, revistas e folhetos dividem o texto em colunas, o que deixa a leitura mais rápida e cabe mais informação na página. No Word, isso fica em Layout > Colunas, onde se escolhe uma, duas ou três colunas.",
+          "Para escolher onde o texto pula para a coluna seguinte, use uma quebra de coluna: Layout > Quebras > Coluna, ou o atalho Ctrl + Shift + Enter.",
+          "Em Layout > Colunas > Mais Colunas, dá para colocar uma linha entre as colunas e ajustar a largura e o espaço entre elas.",
+          "Para ter um título ocupando a página toda e o texto em duas colunas embaixo, selecione só o texto antes de escolher as colunas. O Word cria seções separadas automaticamente.",
+          "Um bom folheto tem título chamativo, informação útil (o quê, quando, onde, quanto custa), uma imagem, pouco texto e um contato. Letra grande e contraste ajudam quem lê de longe."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Como fazer um folheto dobrado em três partes, como os de posto de saúde?",
+            "resolucao": "Mude a orientação para Paisagem (Layout > Orientação), escolha 3 colunas, use margens estreitas e insira quebras de coluna para separar cada parte. Cada coluna vira uma \"aba\" do folheto depois de dobrar a folha."
+          },
+          {
+            "enunciado": "O título do folheto ficou espremido dentro da primeira coluna. Como resolver?",
+            "resolucao": "Selecione apenas o texto abaixo do título e aplique as colunas. O título fica numa seção de uma coluna só, ocupando a largura toda."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "Por trás disso estão as quebras de seção. Uma quebra de seção contínua (Layout > Quebras > Contínua) permite mudar o número de colunas no meio da página, sem começar uma página nova.",
+        "Para colocar uma imagem no meio do texto em colunas, use Formatar Imagem > Quebra de Texto Automática > Quadrado. Assim o texto contorna a figura em vez de deixar um buraco.",
+        "No folheto dobrado em três, a ordem das partes muda: a capa fica na terceira coluna da frente da folha, e o verso traz as partes de dentro. Imprima um teste e dobre antes de imprimir muitas cópias."
+      ],
+      "desafio_pratico": "No Word do PC ou do celular, crie um folheto dobrado em três para divulgar um evento da sua escola ou do seu bairro (feira de ciências, campeonato, mutirão de limpeza). Use orientação Paisagem, margens estreitas e 3 colunas. Ponha um título chamativo, data, horário, local, o que vai ter e um contato. Insira uma imagem com quebra de texto Quadrado e use quebras de coluna (Ctrl + Shift + Enter) para separar as partes. Se tiver impressora, imprima e dobre para conferir.",
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Onde ficam as colunas no Word?",
+            "alternativas": [
+              "Exibir > Zoom",
+              "Layout > Colunas",
+              "Inserir > Tabela",
+              "Arquivo > Salvar"
+            ],
+            "correta": 1,
+            "explicacao": "As colunas ficam na guia Layout.",
+            "dica": "É a guia que cuida da aparência da página."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é o atalho da quebra de coluna?",
+            "alternativas": [
+              "Alt + F4",
+              "Ctrl + C",
+              "Ctrl + Shift + Enter",
+              "Ctrl + Z"
+            ],
+            "correta": 2,
+            "explicacao": "Ctrl + Shift + Enter pula para a próxima coluna.",
+            "dica": "Envolve a tecla Enter e duas teclas de apoio."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que jornais usam colunas?",
+            "alternativas": [
+              "Porque é obrigatório",
+              "Para gastar mais papel",
+              "Para facilitar a leitura e caber mais informação",
+              "Para esconder o texto"
+            ],
+            "correta": 2,
+            "explicacao": "Linhas curtas são lidas mais rápido.",
+            "dica": "Pense em linhas curtas e longas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que um bom folheto precisa ter?",
+            "alternativas": [
+              "Título chamativo e informação útil",
+              "Só uma imagem, sem texto",
+              "Muito texto em letra pequena",
+              "Apenas o nome do autor"
+            ],
+            "correta": 0,
+            "explicacao": "O leitor precisa entender rápido o quê, quando e onde.",
+            "dica": "O folheto precisa ser lido rápido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quantas colunas tem um folheto dobrado em três partes?",
+            "alternativas": [
+              "1",
+              "6",
+              "2",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Cada parte da dobra é uma coluna.",
+            "dica": "Conte as partes da dobra."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Para o folheto dobrado em três, qual orientação de página é a mais usada?",
+            "alternativas": [
+              "Paisagem",
+              "Diagonal",
+              "Retrato",
+              "Tanto faz, sempre retrato"
+            ],
+            "correta": 0,
+            "explicacao": "A folha deitada é dividida em três partes.",
+            "dica": "A folha fica deitada ou em pé?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como colocar uma linha entre as colunas?",
+            "alternativas": [
+              "Inserir > Forma > Linha, a mão",
+              "Revisão > Ortografia",
+              "Layout > Colunas > Mais Colunas > Linha entre colunas",
+              "Página Inicial > Sublinhado"
+            ],
+            "correta": 2,
+            "explicacao": "A opção fica na janela Mais Colunas.",
+            "dica": "Procure as opções extras das colunas."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como deixar o título com a largura toda e o texto em duas colunas?",
+            "alternativas": [
+              "Escrever o título em letra pequena",
+              "Selecionar só o texto antes de aplicar as colunas",
+              "Aplicar colunas no documento todo",
+              "Apagar o título"
+            ],
+            "correta": 1,
+            "explicacao": "Assim o Word cria uma seção só para o texto.",
+            "dica": "O que deve estar selecionado?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Para que serve a quebra de coluna?",
+            "alternativas": [
+              "Para criar uma tabela",
+              "Para salvar em PDF",
+              "Para apagar uma coluna",
+              "Para escolher onde o texto pula para a coluna seguinte"
+            ],
+            "correta": 3,
+            "explicacao": "Ela força o texto a continuar na próxima coluna.",
+            "dica": "Pense em pular de uma coluna para a outra."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quais informações não podem faltar no folheto de uma festa junina da escola?",
+            "alternativas": [
+              "Os nomes de todos os alunos",
+              "A história da escola desde 1950",
+              "Só o desenho de uma fogueira",
+              "Data, horário, local e o que vai ter"
+            ],
+            "correta": 3,
+            "explicacao": "O leitor precisa saber quando, onde e o quê.",
+            "dica": "O que alguém precisa saber para ir à festa?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual recurso permite mudar de uma para duas colunas no meio da página, sem página nova?",
+            "alternativas": [
+              "Recuo de parágrafo",
+              "Ctrl + Enter",
+              "Quebra de seção contínua",
+              "Quebra de página"
+            ],
+            "correta": 2,
+            "explicacao": "A seção contínua separa partes com formatação diferente na mesma página.",
+            "dica": "É um tipo de quebra de seção."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma imagem no texto em colunas deixou um buraco branco. Como fazer o texto contornar a figura?",
+            "alternativas": [
+              "Quebra de Texto Automática > Quadrado",
+              "Mudar para Retrato",
+              "Aumentar a fonte",
+              "Apagar a imagem"
+            ],
+            "correta": 0,
+            "explicacao": "Com Quadrado, o texto passa em volta da imagem.",
+            "dica": "Procure a opção de como o texto se comporta perto da imagem."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a diferença entre Ctrl + Enter e Ctrl + Shift + Enter?",
+            "alternativas": [
+              "O primeiro salva; o segundo imprime",
+              "O primeiro quebra a página; o segundo quebra a coluna",
+              "O primeiro quebra a coluna; o segundo a página",
+              "Os dois fazem a mesma coisa"
+            ],
+            "correta": 1,
+            "explicacao": "Ctrl + Enter: nova página. Com Shift: nova coluna.",
+            "dica": "Um deles pula mais longe."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O folheto vai ser lido no mural, de longe. O que ajuda mais?",
+            "alternativas": [
+              "Cores parecidas no texto e no fundo",
+              "Letra pequena e clara sobre fundo claro",
+              "Muito texto corrido",
+              "Letra grande e bom contraste"
+            ],
+            "correta": 3,
+            "explicacao": "Tamanho e contraste aumentam a leitura à distância.",
+            "dica": "Pense em ler um cartaz do outro lado da sala."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para criar um folheto dobrado em três:",
+            "itens": [
+              "Mudar a orientação para Paisagem",
+              "Escolher margens estreitas",
+              "Aplicar 3 colunas",
+              "Inserir quebras de coluna entre as partes"
+            ],
+            "explicacao": "Primeiro a página, depois as colunas, depois as quebras.",
+            "dica": "Comece pela forma da folha."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "No folheto dobrado em três, impresso frente e verso, onde costuma ficar a capa?",
+            "alternativas": [
+              "Na terceira coluna da frente da folha",
+              "No meio do verso",
+              "Na primeira coluna do verso",
+              "Em qualquer coluna"
+            ],
+            "correta": 0,
+            "explicacao": "Depois de dobrar, a terceira coluna da frente vira a capa.",
+            "dica": "Dobre uma folha e veja qual parte fica por fora."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que imprimir um teste e dobrar antes de imprimir 200 folhetos?",
+            "alternativas": [
+              "Para gastar menos tinta no teste",
+              "Porque a impressora exige",
+              "Não é necessário",
+              "Para conferir se as partes ficaram na ordem certa depois da dobra"
+            ],
+            "correta": 3,
+            "explicacao": "A ordem das partes engana na tela.",
+            "dica": "O que pode dar errado depois de dobrar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O documento tem título em uma coluna, texto em duas e rodapé em uma. Quantas seções ele tem, no mínimo?",
+            "alternativas": [
+              "1",
+              "4",
+              "2",
+              "3"
+            ],
+            "correta": 3,
+            "explicacao": "Cada mudança no número de colunas cria uma seção: uma, duas, uma.",
+            "dica": "Conte quantas vezes o número de colunas muda."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual folheto informa melhor sobre uma campanha de vacinação?",
+            "alternativas": [
+              "Só uma foto de uma seringa",
+              "Título pequeno e texto em letra 8",
+              "Título \"Vacine-se!\", datas, local, documentos necessários e telefone",
+              "Três parágrafos sobre a história das vacinas"
+            ],
+            "correta": 2,
+            "explicacao": "Informação útil e direta, com o que a pessoa precisa para agir.",
+            "dica": "O que a pessoa precisa saber para ir se vacinar?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Você quer que a segunda coluna comece com o subtítulo \"Como chegar\", mas ele ficou no fim da primeira. O que fazer?",
+            "alternativas": [
+              "Diminuir a fonte do texto todo",
+              "Colocar o cursor antes do subtítulo e inserir uma quebra de coluna",
+              "Apagar o subtítulo",
+              "Apertar Enter várias vezes"
+            ],
+            "correta": 1,
+            "explicacao": "A quebra de coluna é exata; os Enter bagunçam se o texto mudar.",
+            "dica": "Use o recurso feito para isso, não espaços."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "empreendedorismo",
+      "titulo": "Os riscos da informalidade: processo, multa e perder gente boa",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "Informalidade é manter um negócio ou um funcionário fora da lei: sem CNPJ, sem nota fiscal ou sem registro na carteira de trabalho. Parece economia, mas é uma conta que costuma chegar mais tarde e mais cara.",
+          "Um funcionário sem registro pode entrar com uma ação na Justiça do Trabalho e cobrar tudo o que não recebeu: férias com um terço a mais, 13º salário, FGTS (8% do salário por mês) e o recolhimento do INSS. A Constituição permite cobrar os últimos 5 anos, desde que a ação seja aberta em até 2 anos depois do fim do trabalho.",
+          "Além disso, a fiscalização do trabalho aplica multa por empregado sem registro. E, se o funcionário se acidentar, ele fica sem a proteção do INSS, e o dono pode ter de pagar indenização do próprio bolso.",
+          "Há também o prejuízo silencioso: bons profissionais preferem empresas que registram, porque querem segurança, FGTS e aposentadoria. O negócio informal perde gente boa para o concorrente formal.",
+          "Formalizar ficou mais fácil: o MEI pode ter um empregado registrado, e as micro e pequenas empresas têm regras mais simples de impostos. O dono que lidera dentro da lei forma uma equipe que fica e cresce com o negócio."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Seu Jairo pagava R$ 2.000,00 por mês a um ajudante sem registro. Quanto deixou de depositar de FGTS em um ano?",
+            "resolucao": "FGTS é 8% do salário: 8% de 2.000 = R$ 160,00 por mês. Em 12 meses: 160 · 12 = R$ 1.920,00. Numa ação, esse valor seria cobrado com correção, além de férias, 13º e INSS."
+          },
+          {
+            "enunciado": "Um ajudante trabalhou 3 anos sem registro e saiu há 1 ano. Ele ainda pode cobrar na Justiça?",
+            "resolucao": "Pode. Ele tem até 2 anos depois de sair para abrir a ação e pode cobrar os últimos 5 anos de trabalho, o que cobre os 3 anos inteiros."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O empresário que registra paga encargos, mas ganha segurança: pode emitir nota, vender para outras empresas e para o governo, pedir empréstimo com juros menores e crescer sem medo de uma conta escondida.",
+        "Informalidade também pesa na vida do trabalhador: sem registro, ele não tem seguro-desemprego, salário-maternidade, auxílio por doença nem tempo de contribuição para a aposentadoria. Tratar bem a equipe dentro da lei é parte de um negócio que dura.",
+        "Conta rápida de risco: um processo pode reunir, de uma vez, anos de férias, 13º, FGTS e INSS atrasados, com correção. Muitas pequenas empresas fecham por causa de uma única ação trabalhista que poderia ter sido evitada com o registro."
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "O que é informalidade num negócio?",
+            "alternativas": [
+              "Usar roupa informal",
+              "Ter poucos clientes",
+              "Vender pela internet",
+              "Trabalhar fora da lei, sem registro, CNPJ ou nota"
+            ],
+            "correta": 3,
+            "explicacao": "É deixar de cumprir as regras legais.",
+            "dica": "Pense em registro e documentos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual destes é um direito do funcionário registrado?",
+            "alternativas": [
+              "Não ter folga",
+              "Férias e 13º salário",
+              "Trabalhar sem salário",
+              "Pagar o próprio uniforme sempre"
+            ],
+            "correta": 1,
+            "explicacao": "Férias, 13º, FGTS e INSS são direitos do empregado registrado.",
+            "dica": "Pense no que vem com a carteira assinada."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Quanto é o depósito mensal de FGTS?",
+            "alternativas": [
+              "100% do salário",
+              "50% do salário",
+              "1% do salário",
+              "8% do salário"
+            ],
+            "correta": 3,
+            "explicacao": "O FGTS é de 8% do salário por mês.",
+            "dica": "É menos de 10%."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O que pode acontecer com o dono que não registra os funcionários?",
+            "alternativas": [
+              "Levar multa e responder a processo",
+              "Pagar menos impostos para sempre sem risco",
+              "Nada",
+              "Ganhar um prêmio"
+            ],
+            "correta": 0,
+            "explicacao": "A fiscalização multa e o funcionário pode processar.",
+            "dica": "Existe fiscalização do trabalho."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O MEI pode ter funcionário registrado?",
+            "alternativas": [
+              "Não, nunca",
+              "Sim, até cem",
+              "Sim, um empregado",
+              "Só parentes sem registro"
+            ],
+            "correta": 2,
+            "explicacao": "O MEI pode registrar um empregado.",
+            "dica": "É uma quantidade pequena."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ajudante ganha R$ 2.000,00 sem registro. Quanto de FGTS deixa de ser depositado por mês?",
+            "alternativas": [
+              "R$ 16,00",
+              "R$ 160,00",
+              "R$ 200,00",
+              "R$ 80,00"
+            ],
+            "correta": 1,
+            "explicacao": "8% de 2.000 = 160.",
+            "dica": "Calcule 8% do salário."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por quanto tempo para trás um ex-funcionário pode cobrar direitos na Justiça?",
+            "alternativas": [
+              "Nenhum tempo",
+              "Só o último mês",
+              "Os últimos 20 anos",
+              "Os últimos 5 anos"
+            ],
+            "correta": 3,
+            "explicacao": "A Constituição permite cobrar os últimos 5 anos.",
+            "dica": "É um número de anos menor que dez."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Depois de sair do emprego, em quanto tempo o trabalhador precisa abrir a ação?",
+            "alternativas": [
+              "Não há prazo",
+              "Até 2 anos",
+              "Até 10 anos",
+              "Até 1 semana"
+            ],
+            "correta": 1,
+            "explicacao": "A ação deve ser aberta em até 2 anos depois do fim do contrato.",
+            "dica": "É menos que o prazo para cobrar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Se um funcionário sem registro se acidenta, o que acontece?",
+            "alternativas": [
+              "O INSS paga normalmente",
+              "Ninguém tem responsabilidade",
+              "Fica sem a proteção do INSS e o dono pode ter de indenizar",
+              "O funcionário perde o emprego e nada mais"
+            ],
+            "correta": 2,
+            "explicacao": "Sem registro, falta a cobertura do INSS.",
+            "dica": "Quem fica responsável se não há seguro?"
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Por que bons profissionais preferem empresas que registram?",
+            "alternativas": [
+              "Por segurança, FGTS e aposentadoria",
+              "Porque trabalham menos",
+              "Porque não pagam impostos",
+              "Porque ganham sem trabalhar"
+            ],
+            "correta": 0,
+            "explicacao": "O registro dá proteção ao trabalhador.",
+            "dica": "O que a carteira assinada garante?"
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Em um ano, quanto de FGTS deixa de ser depositado para quem ganha R$ 2.000,00 por mês sem registro?",
+            "alternativas": [
+              "R$ 1.920,00",
+              "R$ 160,00",
+              "R$ 960,00",
+              "R$ 2.400,00"
+            ],
+            "correta": 0,
+            "explicacao": "160 · 12 = 1.920.",
+            "dica": "Multiplique o valor mensal por 12."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um ajudante trabalhou 3 anos sem registro e saiu há 1 ano. Ele pode cobrar?",
+            "alternativas": [
+              "Só se o dono aceitar",
+              "Sim, os 3 anos, porque está dentro dos prazos",
+              "Só o último mês",
+              "Não, porque já saiu"
+            ],
+            "correta": 1,
+            "explicacao": "Prazo de 2 anos para abrir a ação; cobra até 5 anos.",
+            "dica": "Confira os dois prazos."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual benefício o trabalhador informal perde?",
+            "alternativas": [
+              "Desconto no mercado",
+              "Ônibus de graça",
+              "Seguro-desemprego",
+              "Folga em dobro"
+            ],
+            "correta": 2,
+            "explicacao": "Sem registro, não há seguro-desemprego nem outros benefícios.",
+            "dica": "Pense no que ajuda quem perde o emprego."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual vantagem a empresa formal tem e a informal não?",
+            "alternativas": [
+              "Não pagar nada a ninguém",
+              "Não ter clientes",
+              "Fugir da fiscalização",
+              "Vender para outras empresas e pedir empréstimo com juros menores"
+            ],
+            "correta": 3,
+            "explicacao": "Com CNPJ e nota fiscal, abrem-se portas.",
+            "dica": "Quem compra de empresa costuma pedir nota."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem o que costuma acontecer num negócio que não registra:",
+            "itens": [
+              "Contrata sem carteira para economizar",
+              "O funcionário sai insatisfeito",
+              "Ele abre uma ação trabalhista",
+              "O negócio paga direitos atrasados com correção"
+            ],
+            "explicacao": "A economia de hoje vira dívida de amanhã.",
+            "dica": "Comece pela decisão do dono."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Um negócio tem 3 ajudantes sem registro, cada um com R$ 1.800,00 por mês, há 2 anos. Quanto de FGTS ficou sem depósito no total, sem correção?",
+            "alternativas": [
+              "R$ 5.184,00",
+              "R$ 12.960,00",
+              "R$ 10.368,00",
+              "R$ 3.456,00"
+            ],
+            "correta": 2,
+            "explicacao": "8% de 1.800 = 144; 144 · 24 meses = 3.456 por pessoa; · 3 = 10.368.",
+            "dica": "Calcule por pessoa e depois multiplique."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase descreve a informalidade como risco para o próprio dono?",
+            "alternativas": [
+              "Funcionário sem registro não tem direito a nada",
+              "A economia de hoje pode virar uma dívida grande de uma vez só",
+              "Multas só existem para grandes empresas",
+              "A informalidade nunca é descoberta"
+            ],
+            "correta": 1,
+            "explicacao": "Um processo pode cobrar anos de direitos de uma só vez.",
+            "dica": "Pense no efeito de uma ação trabalhista."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Um dono diz: \"Registrar é caro, prefiro não registrar e pagar um pouco mais em dinheiro\". Qual é o melhor contra-argumento?",
+            "alternativas": [
+              "Ele tem razão, é mais barato sempre",
+              "Pagar em dinheiro é proibido",
+              "Ninguém nunca processa",
+              "Sem registro, ele corre risco de processo e multa e perde bons funcionários"
+            ],
+            "correta": 3,
+            "explicacao": "O custo escondido é maior que o custo visível.",
+            "dica": "Compare o custo visível com o escondido."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Uma pequena empresa quer crescer e vender para a prefeitura. O que é indispensável?",
+            "alternativas": [
+              "Ter muitos ajudantes sem registro",
+              "Estar formalizada, com CNPJ, notas e funcionários registrados",
+              "Não ter endereço",
+              "Vender só em dinheiro"
+            ],
+            "correta": 1,
+            "explicacao": "O poder público só compra de empresas regularizadas.",
+            "dica": "O governo pede documentos de quem vende para ele."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Como liderar a equipe dentro da lei ajuda o negócio a crescer?",
+            "alternativas": [
+              "A equipe fica, aprende e produz mais, sem dívidas escondidas",
+              "O dono não precisa pagar ninguém",
+              "A empresa fica invisível para o governo",
+              "Os funcionários trabalham sem descanso"
+            ],
+            "correta": 0,
+            "explicacao": "Equipe segura e bem tratada fica e multiplica a produção.",
+            "dica": "Pense em quem fica e em quem vai embora."
+          }
+        ]
+      }
+    },
+    {
+      "materia": "portugues",
+      "titulo": "Modo subjuntivo: o verbo do desejo e da dúvida",
+      "minutos": 10,
+      "licao": {
+        "paragrafos": [
+          "O modo indicativo fala de fatos certos: \"Ela estuda\". O modo subjuntivo fala do que é desejado, duvidoso ou possível: \"Espero que ela estude\", \"Talvez ela estude\", \"Se ela estudasse...\".",
+          "Presente do subjuntivo: aparece depois de \"que\" e \"talvez\". Forma-se a partir da 1ª pessoa do presente: falo → que eu fale; vendo → que eu venda; faço → que eu faça; digo → que eu diga.",
+          "Pretérito imperfeito do subjuntivo: indica hipótese e costuma vir com \"se\". Forma-se da 3ª pessoa do plural do pretérito perfeito, trocando -ram por -sse: falaram → se eu falasse; fizeram → se eu fizesse; tiveram → se eu tivesse.",
+          "Futuro do subjuntivo: vem depois de \"quando\" e \"se\", falando do futuro. Troca -ram por -r: fizeram → quando eu fizer; tiveram → se eu tiver; souberam → quando eu souber.",
+          "Erros comuns: \"seje\" e \"esteje\" (o certo é seja e esteja); \"quando eu fazer\" (o certo é quando eu fizer); \"se eu saber\" (o certo é se eu souber)."
+        ],
+        "exemplos": [
+          {
+            "enunciado": "Complete: \"Se eu ___ (ter) dinheiro, compraria uma bicicleta.\"",
+            "resolucao": "Tiveram → tivesse: \"Se eu tivesse dinheiro, compraria uma bicicleta.\" É uma hipótese, no pretérito imperfeito do subjuntivo."
+          },
+          {
+            "enunciado": "Corrija: \"Quando você fazer a lição, me avisa.\"",
+            "resolucao": "\"Quando você fizer a lição, me avise.\" Futuro do subjuntivo de fazer: fizeram → fizer."
+          }
+        ]
+      },
+      "aprofundamento": [
+        "O subjuntivo costuma combinar com outro tempo: \"Se eu tivesse tempo, eu iria\" (imperfeito do subjuntivo + futuro do pretérito) e \"Se eu tiver tempo, eu irei\" (futuro do subjuntivo + futuro do presente). Misturar, como \"Se eu tiver tempo, eu iria\", soa errado.",
+        "Alguns verbos têm formas que surpreendem: ver → quando eu vir (e não \"ver\"); pôr → se eu puser; vir → quando ele vier; caber → se couber; querer → se ele quiser.",
+        "Expressões que pedem subjuntivo: espero que, é importante que, talvez, caso, embora, para que, a fim de que, antes que. \"Embora esteja cansada, ela foi ao treino.\""
+      ],
+      "quiz": {
+        "fraldinha": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está no modo subjuntivo?",
+            "alternativas": [
+              "Espero que você venha.",
+              "Você vem amanhã.",
+              "Ele veio ontem.",
+              "Nós viemos cedo."
+            ],
+            "correta": 0,
+            "explicacao": "Espero que + verbo: desejo, subjuntivo.",
+            "dica": "Procure um desejo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "O modo subjuntivo expressa:",
+            "alternativas": [
+              "só o passado",
+              "só fatos certos",
+              "só ordens",
+              "desejo, dúvida ou possibilidade"
+            ],
+            "correta": 3,
+            "explicacao": "É o modo do que não é certo.",
+            "dica": "É o contrário do fato certo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma correta?",
+            "alternativas": [
+              "sege",
+              "sejem",
+              "seja",
+              "seje"
+            ],
+            "correta": 2,
+            "explicacao": "O presente do subjuntivo de ser é seja.",
+            "dica": "A forma correta termina em -a."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Talvez ___ hoje.\"",
+            "alternativas": [
+              "chove",
+              "chova",
+              "choveu",
+              "chovia"
+            ],
+            "correta": 1,
+            "explicacao": "Talvez pede subjuntivo: chova.",
+            "dica": "Talvez indica dúvida."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma certa: \"Espero que ele ___ bem.\"",
+            "alternativas": [
+              "está",
+              "esteja",
+              "esteje",
+              "estava"
+            ],
+            "correta": 1,
+            "explicacao": "Esteja é o presente do subjuntivo de estar.",
+            "dica": "Cuidado com a forma que termina em -e."
+          }
+        ],
+        "moderado": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Se eu ___ (ter) tempo, iria ao parque.\"",
+            "alternativas": [
+              "tenho",
+              "tivesse",
+              "tiver",
+              "teria"
+            ],
+            "correta": 1,
+            "explicacao": "Hipótese com se + imperfeito do subjuntivo: tivesse.",
+            "dica": "Tiveram → troque -ram por -sse."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Quando você ___ (fazer) a lição, me avise.\"",
+            "alternativas": [
+              "fazer",
+              "fizesse",
+              "faz",
+              "fizer"
+            ],
+            "correta": 3,
+            "explicacao": "Futuro do subjuntivo: fizeram → fizer.",
+            "dica": "Use o pretérito perfeito do verbo como base, trocando o final."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual é a forma correta: \"Se eu ___ a resposta, eu te conto.\"",
+            "alternativas": [
+              "souber",
+              "saber",
+              "sabesse",
+              "sabe"
+            ],
+            "correta": 0,
+            "explicacao": "Souberam → souber.",
+            "dica": "Comece pelo pretérito perfeito: eles sou..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase tem erro?",
+            "alternativas": [
+              "Se ele vier, me avise.",
+              "Quando eu fazer o bolo, te chamo.",
+              "Talvez eu saia cedo.",
+              "Espero que você goste."
+            ],
+            "correta": 1,
+            "explicacao": "O certo é \"quando eu fizer\".",
+            "dica": "Teste o futuro do subjuntivo de fazer."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"É importante que vocês ___ (ler) o texto.\"",
+            "alternativas": [
+              "liam",
+              "leem",
+              "leiam",
+              "lerem"
+            ],
+            "correta": 2,
+            "explicacao": "É importante que + presente do subjuntivo: leiam.",
+            "dica": "Parta de \"eu leio\"."
+          }
+        ],
+        "dificil": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase combina os tempos corretamente?",
+            "alternativas": [
+              "Se eu tivesse tempo, eu iria.",
+              "Se eu tivesse tempo, eu irei.",
+              "Se eu tenho tempo, eu iria.",
+              "Se eu tiver tempo, eu iria."
+            ],
+            "correta": 0,
+            "explicacao": "Imperfeito do subjuntivo combina com futuro do pretérito.",
+            "dica": "Os dois verbos precisam combinar."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Quando eu ___ (ver) o resultado, te ligo.\"",
+            "alternativas": [
+              "ver",
+              "vir",
+              "visse",
+              "vejo"
+            ],
+            "correta": 1,
+            "explicacao": "Futuro do subjuntivo de ver: viram → vir.",
+            "dica": "Parta de \"eles viram\"."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Se você ___ (pôr) o casaco, não vai sentir frio.\"",
+            "alternativas": [
+              "ponhar",
+              "pôs",
+              "puser",
+              "pôr"
+            ],
+            "correta": 2,
+            "explicacao": "Futuro do subjuntivo de pôr: puseram → puser.",
+            "dica": "Comece pelo pretérito perfeito de pôr: eles pu..."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Embora ___ (estar) cansada, ela foi ao treino.\"",
+            "alternativas": [
+              "estava",
+              "está",
+              "esteve",
+              "estivesse"
+            ],
+            "correta": 3,
+            "explicacao": "Embora pede subjuntivo; no passado: estivesse.",
+            "dica": "Embora é uma das expressões que pedem subjuntivo."
+          },
+          {
+            "tipo": "ordenar",
+            "pergunta": "Coloque em ordem os passos para formar o futuro do subjuntivo de um verbo:",
+            "itens": [
+              "Conjugar a 3ª pessoa do plural do pretérito perfeito",
+              "Tirar o final -ram",
+              "Acrescentar -r",
+              "Usar depois de quando ou se"
+            ],
+            "explicacao": "Exemplo: fizeram → fize → fizer → quando eu fizer.",
+            "dica": "Comece pelo pretérito perfeito."
+          }
+        ],
+        "supremo": [
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase está toda de acordo com a norma-padrão?",
+            "alternativas": [
+              "Se ele vier e caber no carro, nós iríamos juntos.",
+              "Se ele vir e caber no carro, nós iremos juntos.",
+              "Se ele vim e couber no carro, nós iremos juntos.",
+              "Se ele vier e couber no carro, nós iremos juntos."
+            ],
+            "correta": 3,
+            "explicacao": "Futuro do subjuntivo: vier e couber; combinam com iremos.",
+            "dica": "Use vieram e couberam como base."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Complete: \"Caso você ___ (querer) ajuda, é só chamar.\"",
+            "alternativas": [
+              "queira",
+              "quer",
+              "quiser",
+              "queria"
+            ],
+            "correta": 0,
+            "explicacao": "Caso pede presente do subjuntivo: queira.",
+            "dica": "Caso funciona como \"talvez\": presente do subjuntivo."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual par está correto (verbo no infinitivo → futuro do subjuntivo)?",
+            "alternativas": [
+              "trazer → trazer",
+              "trazer → trouxer",
+              "ir → ir",
+              "dizer → dizer"
+            ],
+            "correta": 1,
+            "explicacao": "Trouxeram → trouxer.",
+            "dica": "Use a regra do -ram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Em \"Se eu fosse você, eu estudaria hoje\", o verbo fosse está:",
+            "alternativas": [
+              "no pretérito imperfeito do subjuntivo",
+              "no imperativo",
+              "no presente do indicativo",
+              "no futuro do subjuntivo"
+            ],
+            "correta": 0,
+            "explicacao": "Foram → fosse: hipótese com se.",
+            "dica": "Fosse vem de foram."
+          },
+          {
+            "tipo": "escolha",
+            "pergunta": "Qual frase NÃO usa o subjuntivo?",
+            "alternativas": [
+              "Se ela estudar, vai passar.",
+              "Para que ela passe, precisa estudar.",
+              "Ela estudou para a prova.",
+              "Antes que escureça, vamos voltar."
+            ],
+            "correta": 2,
+            "explicacao": "Estudou é fato no passado, indicativo.",
+            "dica": "Qual frase fala de um fato certo?"
+          }
+        ]
+      }
+    }
+  ],
+  "leitura": {
+    "titulo": "O dia em que a fiscalização chegou",
+    "texto": "A oficina do seu Jairo, em Guaianases, era a mais procurada da rua. Ele consertava carro, moto e até bicicleta elétrica, com dois ajudantes adultos, o Everton e o Marcelo. Nenhum dos dois tinha carteira assinada.\n\n— Registrar sai caro — dizia o seu Jairo. — Pago em dinheiro, todo mundo sai ganhando.\n\nDurante quatro anos, pareceu verdade. Até a manhã em que o Marcelo prendeu a mão no elevador de carros. Foram três meses sem poder trabalhar. Sem registro, não tinha auxílio do INSS. O seu Jairo pagou o hospital particular e os salários do período do próprio bolso, e mesmo assim o Marcelo, com razão, procurou um advogado.\n\nNa mesma época, a fiscalização do trabalho apareceu, depois de uma denúncia. Multa por empregado sem registro. Depois chegou a ação trabalhista: férias, décimo terceiro, FGTS e INSS de quatro anos, tudo com correção.\n\nO Everton, assustado, aceitou a proposta de uma concessionária que registrava todo mundo e pagava plano de saúde. Era o melhor mecânico da oficina.\n\nO seu Jairo fez as contas numa folha de caderno. O que ele tinha economizado em quatro anos não chegava à metade do que agora precisava pagar.\n\nHoje, a oficina tem CNPJ, três funcionários registrados e um quadro na parede com o horário de cada um. O seu Jairo diz para quem pergunta:\n\n— Barato foi o que me saiu caro. Registro é ferramenta, igual chave de roda."
+  },
+  "escrita": {
+    "proposta": "Em 5 a 10 linhas, escreva um parágrafo convencendo o dono de um pequeno negócio do seu bairro a registrar os funcionários. Use pelo menos dois argumentos da aula de hoje (processo, multa, acidente, perder gente boa, crescer e vender mais) e termine com uma frase forte, que o dono não esqueça."
+  }
+}
