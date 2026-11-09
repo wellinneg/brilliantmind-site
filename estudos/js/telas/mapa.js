@@ -6,7 +6,7 @@ import {
   CAMADAS, HEROIS, LOJA, RIVAL, EU, lerJogo, gravarJogo, donoDe, moedasNaCamada, metaDaCamada,
   totalDaCamada, comprar, alternarItem, calcularTerritorio, nomeDoDono, resumoDoExtrato,
 } from '../jogo.js';
-import { lerFamilia, sincronizar, sincronizarDepois } from '../familia.js';
+import { lerFamilia, sincronizar, sincronizarDepois, heroisDosIrmaos, conflitoDeHeroi } from '../familia.js';
 
 let sincronizouAgora = false; // evita sincronizar de novo ao redesenhar depois da sincronização
 import { desenharHeroi, cenarioDoHeroi } from '../herois.js';
@@ -237,30 +237,51 @@ function secaoLoja(jogo, redesenhar) {
 }
 
 export function escolherHeroi(raiz, jogo, perfil) {
-  let escolhido = HEROIS[jogo.heroi] ? jogo.heroi : Object.keys(HEROIS)[0];
+  // 🐾 animal único na família: os que os irmãos já escolheram ficam trancados
+  const usados = heroisDosIrmaos(jogo);
+  const conflito = conflitoDeHeroi(jogo);
+  const livre = id => !usados[id] || (id === jogo.heroi && !conflito);
+  let escolhido = HEROIS[jogo.heroi] && livre(jogo.heroi) ? jogo.heroi : Object.keys(HEROIS).find(livre) || Object.keys(HEROIS)[0];
   const apelido = el('input', { id: 'apelido', maxlength: 16, value: jogo.apelido || perfil.nome, autocomplete: 'off' });
-  const cartoes = Object.entries(HEROIS).map(([id, h]) => el('button', {
-    class: `escolha-heroi ${id === escolhido ? 'ativa' : ''}`,
-    style: `background-image:url(${cenarioDoHeroi(id)})`,
-    onclick: e => {
-      escolhido = id;
-      cartoes.forEach(c => c.classList.remove('ativa'));
-      e.currentTarget.classList.add('ativa');
-      sons.moeda();
-    },
-  }, desenharHeroi(id, {}, 'grande'), el('strong', {}, h.nome), el('small', {}, h.titulo),
-    el('small', { class: 'poder-card' }, `${PODERES[id].icone} ${PODERES[id].nome}: ${PODERES[id].desc}`)));
-  raiz.append(
+  const cartoes = Object.entries(HEROIS).map(([id, h]) => {
+    const tomado = !livre(id);
+    return el('button', {
+      class: `escolha-heroi ${id === escolhido ? 'ativa' : ''} ${tomado ? 'tomado' : ''}`,
+      style: `background-image:url(${cenarioDoHeroi(id)})`,
+      disabled: tomado, 'aria-disabled': tomado ? 'true' : 'false',
+      onclick: e => {
+        if (tomado) return;
+        escolhido = id;
+        cartoes.forEach(c => c.classList.remove('ativa'));
+        e.currentTarget.classList.add('ativa');
+        sons.moeda();
+      },
+    }, desenharHeroi(id, {}, 'grande'), el('strong', {}, h.nome), el('small', {}, h.titulo),
+      tomado ? el('small', { class: 'heroi-tomado' }, `🔒 Já é do ${usados[id]}`)
+        : el('small', { class: 'poder-card' }, `${PODERES[id].icone} ${PODERES[id].nome}: ${PODERES[id].desc}`));
+  });
+  raiz.append(...[
     el('h1', {}, '🗺️ Escolha seu animal'),
-    el('p', { class: 'dica' }, 'Seu animal vai conquistar a Vila Brilliant, a cidade, o estado, o país e o mundo com as notas das lições.'),
+    conflito ? el('p', { class: 'aviso-conflito' }, `⚠️ ${conflito} escolheu o ${HEROIS[jogo.heroi].nome} antes de você. Cada um tem o seu animal: escolha outro. Suas notas e territórios continuam.`) : null,
+    el('p', { class: 'dica' }, 'Seu animal vai conquistar a Vila Brilliant, a cidade, o estado, o país e o mundo com as notas das lições. Cada irmão tem um animal diferente.'),
     el('div', { class: 'herois' }, cartoes),
     el('div', { class: 'campo' }, el('label', { for: 'apelido' }, 'Apelido no jogo'), apelido),
-    el('button', { class: 'botao grande', onclick: async () => {
+    el('button', { class: 'botao grande', onclick: async e => {
       const nome = apelido.value.trim();
       if (!nome) return aviso('Escolha um apelido.');
-      jogo.heroi = escolhido; jogo.apelido = nome;
-      await gravarJogo(jogo);
+      const botao = e.currentTarget; botao.disabled = true;
+      // confere de novo com a internet: o irmão pode ter acabado de escolher
+      if ((await lerFamilia())?.codigo) await sincronizar().catch(() => {});
+      const atual = await lerJogo();
+      if (heroisDosIrmaos(atual)[escolhido] && escolhido !== atual.heroi) {
+        sons.erro(); aviso(`Ops! ${heroisDosIrmaos(atual)[escolhido]} acabou de escolher esse animal. Escolha outro.`);
+        const tela = document.getElementById('app'); tela.replaceChildren(); return escolherHeroi(tela, atual, perfil);
+      }
+      if (atual.heroi !== escolhido || !atual.heroiEm) atual.heroiEm = Date.now();
+      atual.heroi = escolhido; atual.apelido = nome;
+      await gravarJogo(atual);
+      sincronizarDepois();
       await apresentarPersonagem(escolhido, nome); // ~3 s girando em 3D (toque pula)
       navegarDeNovo('#/mapa');
-    } }, 'Começar a aventura'));
+    } }, 'Começar a aventura')].filter(Boolean));
 }

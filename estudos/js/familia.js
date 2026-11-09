@@ -31,7 +31,7 @@ export function normalizarCodigo(texto) {
 /** O que vai para a internet: só o necessário para o placar e os territórios. */
 export function registroPublico(jogo) {
   return {
-    apelido: String(jogo.apelido || '').slice(0, 16), heroi: jogo.heroi, usando: jogo.usando || {},
+    apelido: String(jogo.apelido || '').slice(0, 16), heroi: jogo.heroi, heroiEm: jogo.heroiEm || 0, usando: jogo.usando || {},
     camada: jogo.camada, doPote: jogo.meu.doPote, roubos: jogo.meu.roubos, temporada: jogo.temporadaXP || null,
     patrimonio: patrimonioDe(jogo),       // 🏆 ranking de patrimônio (dinheiro + empresa + banco)
     // ⚔️ duelo em andamento (só entre irmãos; o treino contra o Magnata fica no celular)
@@ -126,11 +126,43 @@ export async function criarFamilia() {
   await gravarFamilia({ ...(await lerFamilia()), codigo });
   return { codigo, ...(await sincronizar()) };
 }
-export async function entrarNaFamilia(texto) {
+export async function entrarNaFamilia(texto, opcoes = {}) {
   const codigo = normalizarCodigo(texto);
   if (!codigo) throw new Error('Código inválido. Ele tem 8 letras/números, como ABCD-2345.');
+  // confere antes se a família existe (evita criar uma família vazia com um código digitado errado)
+  const existentes = await jogadoresDaFamilia(codigo, opcoes);
+  if (existentes === 0) throw new Error('Não achei nenhuma família com esse código. Confira as letras e os números no outro celular.');
   await gravarFamilia({ ...(await lerFamilia()), codigo });
-  return { codigo, ...(await sincronizar()) };
+  return { codigo, ...(await sincronizar(opcoes)) };
+}
+
+/** Quantos jogadores já existem com esse código (null se não deu para perguntar, sem internet). */
+export async function jogadoresDaFamilia(codigo, { http = (...a) => fetch(...a), cfg = FIREBASE, agora = () => Date.now() } = {}) {
+  if (!firebaseConfigurado(cfg)) return null;
+  try {
+    const familia = (await lerFamilia()) || {};
+    const tk = await token(familia, { http, cfg, agora });
+    const lista = await pedir(http, `${base(cfg, codigo)}?pageSize=20`, { headers: { Authorization: `Bearer ${tk}` } });
+    return (lista.documents || []).filter(d => !familia.uid || !d.name.endsWith(`/${familia.uid}`)).length;
+  } catch { return null; }
+}
+
+// ---- animal único na família ----
+/** Animais que os irmãos já escolheram: { heroi: apelido }. */
+export function heroisDosIrmaos(jogo) {
+  const usados = {};
+  for (const o of Object.values(jogo.outros || {})) if (o?.heroi) usados[o.heroi] = o.apelido || 'seu irmão';
+  return usados;
+}
+/** Se um irmão escolheu o MESMO animal antes de mim, devolve o apelido dele (aí eu troco). Empate: decide o uid. */
+export function conflitoDeHeroi(jogo) {
+  if (!jogo.heroi) return null;
+  for (const [uid, o] of Object.entries(jogo.outros || {})) {
+    if (o?.heroi !== jogo.heroi) continue;
+    const meu = jogo.heroiEm || 0, dele = o.heroiEm || 0;
+    if (dele < meu || (dele === meu && String(uid) < String(jogo.uid || ''))) return o.apelido || 'seu irmão';
+  }
+  return null;
 }
 export async function sairDaFamilia() {
   const familia = await lerFamilia();

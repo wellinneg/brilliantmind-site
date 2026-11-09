@@ -25,6 +25,7 @@ const ROTAS = {
   retorno: () => import('./telas/retorno.js'),
   pais: () => import('./telas/pais.js'),
   biblioteca: () => import('./telas/biblioteca.js'),
+  familia: () => import('./telas/entrar-familia.js'),
 };
 
 // botão do rodapé com a foto do animal atual (toque para trocar)
@@ -48,7 +49,18 @@ async function rotear() {
   const perfil = await lerConfig('perfil');
   if (!perfil) nome = 'configuracao';
   else if (!ROTAS[nome] || nome === 'configuracao') nome = 'hoje';
-  nav.hidden = nome === 'configuracao';
+  if (perfil && nome !== 'pais') {
+    // 👨‍👩‍👧 antes de qualquer coisa: entrar na família (sem senha), para ninguém repetir o animal
+    const { precisaEntrarNaFamilia } = await import('./telas/entrar-familia.js');
+    if (await precisaEntrarNaFamilia()) nome = 'familia';
+    else if (nome === 'familia') nome = 'hoje';
+    // irmão escolheu o mesmo animal antes: quem escolheu depois troca
+    if (nome !== 'familia' && nome !== 'heroi') {
+      const { conflitoDeHeroi } = await import('./familia.js');
+      if (conflitoDeHeroi((await lerConfig('jogo')) || {})) nome = 'heroi';
+    }
+  }
+  nav.hidden = nome === 'configuracao' || nome === 'familia';
   const rotaDoRodape = nome === 'conquistas' ? 'missoes' : nome; // Medalhas fica dentro de Missões
   nav.querySelectorAll('a').forEach(a => a.classList.toggle('ativo', a.dataset.rota === rotaDoRodape));
   atualizarBotaoHeroi();

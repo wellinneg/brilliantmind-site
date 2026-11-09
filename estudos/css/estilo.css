@@ -1,1 +1,8 @@
 .ranking-patrimonio .magnata-pequeno{font-size:1.9rem;line-height:1;width:44px;text-align:center;filter:drop-shadow(0 0 6px rgba(229,57,53,.8))}
+/* 🐾 animal único na família */
+.escolha-heroi.tomado{filter:grayscale(1);opacity:.55;cursor:not-allowed}
+.heroi-tomado{display:block;color:var(--lime);font-weight:700;margin-top:4px}
+.aviso-conflito{background:color-mix(in srgb,#E53935 22%,transparent);border:1px solid #E53935;border-radius:12px;padding:10px 12px;font-weight:600}
+/* primeiro acesso: filho ou responsável */
+.opcoes-papel{display:grid;gap:12px;margin:12px 0 18px}
+.codigo-familia.grande{font-size:2rem;letter-spacing:.12em;text-align:center;color:var(--lime);font-weight:800;margin:10px 0}
