@@ -6,7 +6,7 @@ import {
   CAMADAS, RIVAL, EU, lerJogo, donoDe, calcularTerritorio, nomeDoDono, territorioDaMateria, empateDe, proporcaoDe,
 } from '../jogo.js';
 import { desenharHeroi } from '../herois.js';
-import { desenharCena } from '../cenas.js';
+import { desenharCena, cenaComFoto } from '../cenas.js';
 import { carregarContexto } from './hoje.js';
 import { entrarComLuz } from '../efeitos.js';
 import { situacaoDesempate } from '../desempate.js';
@@ -26,7 +26,7 @@ export async function render(raiz, [id]) {
   raiz.append(el('button', { class: 'voltar', onclick: () => navegar(`#/mapa/${k}/ir`) }, `← ${camada.icone} ${camada.nome}`));
 
   // cena com o meu herói na frente e a bandeira de quem manda
-  const cena = el('div', { class: 'cena' }, desenharCena(t));
+  const cena = el('div', { class: 'cena' }, cenaComFoto(t));   // foto real do lugar (desenho se não carregar)
   const heroi = desenharHeroi(jogo.heroi, jogo.usando, 'medio');
   heroi.classList.add('heroi-na-cena');
   cena.append(heroi, el('span', { class: 'bandeira-cena' }, dono === EU ? '🚩' : (dono === RIVAL.id ? RIVAL.icone : (dono ? '⭐' : '🏳️'))));

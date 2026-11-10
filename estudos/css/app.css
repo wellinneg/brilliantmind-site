@@ -604,13 +604,34 @@ details.cartao>summary{font-weight:700}
 .palpite-quente .barra-temp{position:absolute;inset:0 auto 0 0;width:calc(var(--temp) * 100%);background:linear-gradient(90deg,#1E88E5,#FDD835 55%,#E53935);opacity:.35}
 .palpite-quente .palavra,.palpite-quente .pos{position:relative}
 .palpite-quente.novo{outline:2px solid var(--lime)}
-/* 🔥 caça-objetos Extremo: tudo verde num cenário colorido e cheio */
-.bagunca.nivel-extremo{background:repeating-linear-gradient(45deg,#FFEB3B 0 14px,#FF7043 14px 28px,#42A5F5 28px 42px,#AB47BC 42px 56px,#66BB6A 56px 70px)}
-.bagunca.nivel-extremo .fundo-bagunca{mix-blend-mode:multiply}
-.confete-bagunca{position:absolute;pointer-events:none;opacity:.85}
-.bagunca.nivel-extremo .peca{filter:grayscale(1) sepia(1) hue-rotate(55deg) saturate(6) brightness(.85)}
-.bagunca.nivel-extremo .peca.achou{filter:none}
 /* 🔀 palavra embaralhada: letra no lugar certo fica verde */
 .casa-letra.no-lugar{background:#2E7D32;color:#fff;border-bottom-color:#66BB6A;border-radius:6px 6px 0 0}
 .casa-letra.fora-do-lugar{color:var(--texto)}
 .dica-ingles{border-left:4px solid #1E88E5}
+/* 📷 foto real do lugar */
+.cena-foto{position:relative;aspect-ratio:16/10;background:#0F232A}
+.cena-foto img{width:100%;height:100%;object-fit:cover;display:block}
+.placa-foto{position:absolute;top:8px;left:50%;transform:translateX(-50%);background:#0A191E;border:2.5px solid var(--lime);border-radius:8px;padding:3px 10px;font-weight:800;font-size:.85rem;white-space:nowrap;color:#fff;max-width:92%;overflow:hidden;text-overflow:ellipsis}
+.fundo-bagunca .cena-foto{width:100%;height:100%;aspect-ratio:auto}
+.creditos-fotos li{margin:6px 0;font-size:.85rem}
+/* 🧸 caça-objetos com cenários grandes e zoom */
+.caixa-cena{position:relative}
+.janela-cena{position:relative;overflow:hidden;aspect-ratio:3/4;border-radius:var(--raio);border:3px solid #000;background:#0F232A;touch-action:none;user-select:none;-webkit-user-select:none}
+.mundo-cena{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform}
+.foto-mundo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.zoom-botoes{position:absolute;right:8px;bottom:8px;display:flex;flex-direction:column;gap:8px}
+.zoom-botoes button{width:44px;height:44px;border-radius:50%;border:2px solid #000;background:#0A191E;color:#fff;font-size:1.2rem;box-shadow:0 3px 0 #000}
+.placa-cena{position:static;transform:none;display:inline-block;margin:0 0 6px}
+/* 🎬 cenários com movimento (fábrica, trem, rodovia): coisas e alguns objetos andam pelas faixas */
+.anda{animation-timing-function:linear;animation-iteration-count:infinite}
+.anda-dir{animation-name:andaDir}
+.anda-esq{animation-name:andaEsq}
+@keyframes andaDir{from{transform:translateX(-900px)}to{transform:translateX(2500px)}}
+@keyframes andaEsq{from{transform:translateX(2500px) scaleX(-1)}to{transform:translateX(-900px) scaleX(-1)}}
+.peca-anda{animation-timing-function:linear;animation-iteration-count:infinite}
+.peca-dir{animation-name:pecaDir}
+.peca-esq{animation-name:pecaEsq}
+@keyframes pecaDir{from{left:-4%}to{left:104%}}
+@keyframes pecaEsq{from{left:104%}to{left:-4%}}
+.mundo-cena.parado .anda,.mundo-cena.parado .peca-anda{animation-play-state:paused}
+.peca.peca-anda.achou{animation:some .5s forwards}

@@ -189,3 +189,28 @@ export function desenharCena(t) {
   svg.append(s('text', { x: L / 2, y: 18, 'text-anchor': 'middle', 'dominant-baseline': 'central', fill: '#FFFFFF', 'font-size': 14, 'font-weight': 800 }, `${t.icone} ${t.nome.toUpperCase()}`));
   return svg;
 }
+
+// 📷 Foto real do lugar (Wikimedia Commons, licença livre; créditos em conteudo/creditos-fotos.json).
+export const fotoDoLugar = t => `midia/lugares/${t.id.replace(':', '-')}.webp`;
+
+/** Cena com a foto real e a placa com o nome; se a foto não carregar, volta para o desenho. */
+export function cenaComFoto(t, { placa = true } = {}) {
+  const c = CENAS[t.id] || { cor: '#CEF010' };
+  const caixa = document.createElement('div');
+  caixa.className = 'cena-foto';
+  const img = document.createElement('img');
+  img.src = fotoDoLugar(t); img.alt = `Foto: ${t.nome}`; img.decoding = 'async';
+  img.addEventListener('error', () => {
+    const svg = desenharCena(t);
+    if (!placa) svg.setAttribute('preserveAspectRatio', 'xMidYMid slice');   // como fundo, cobre o quadro todo
+    caixa.replaceWith(svg);
+  }, { once: true });
+  caixa.append(img);
+  if (placa) {
+    const p = document.createElement('span');
+    p.className = 'placa-foto'; p.style.borderColor = c.cor;
+    p.textContent = `${t.icone} ${t.nome.toUpperCase()}`;
+    caixa.append(p);
+  }
+  return caixa;
+}

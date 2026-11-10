@@ -115,7 +115,23 @@ async function painel(area) {
     el('button', { class: 'botao secundario grande', onclick: () => alternarSeletorDeSerie(caixaAno, perfil.ano) }, '🎓 Mudar a série'),
     caixaAno,
     el('button', { class: 'botao secundario grande', onclick: zerarTudo }, 'Apagar tudo deste celular'),
+    await secaoCreditosFotos(),
     el('p', { class: 'credito' }, 'Sistema desenvolvido pela BMC Contabilidade'));
+}
+
+/** 📷 Créditos das fotos dos lugares (licenças livres pedem o nome do autor). */
+async function secaoCreditosFotos() {
+  let dados = null;
+  try { const r = await fetch('conteudo/creditos-fotos.json', { cache: 'no-cache' }); if (r.ok) dados = await r.json(); } catch { /* sem internet */ }
+  if (!dados?.fotos) return '';
+  const { CAMADAS } = await import('../jogo.js');
+  const nomes = Object.fromEntries(CAMADAS.flatMap(c => c.territorios).map(t => [t.id.replace(':', '-'), `${t.icone} ${t.nome}`]));
+  return el('details', { class: 'cartao creditos-fotos' },
+    el('summary', {}, '📷 Créditos das fotos dos lugares'),
+    el('p', { class: 'dica' }, `Fotos reais de ${dados.fonte}, com licença livre. Toque no link para ver a original.`),
+    el('ul', {}, Object.entries(dados.fotos).map(([id, f]) => el('li', {},
+      el('strong', {}, nomes[id] || id), `: ${f.descricao || f.titulo}. Foto de ${f.autor}, ${f.licenca}. `,
+      el('a', { href: f.link, target: '_blank', rel: 'noopener' }, 'ver original')))));
 }
 
 function cartaoDia(d) {
