@@ -79,7 +79,7 @@ export async function registrarQuiz(reg, i, materia, dificuldade, acertos, total
   const b = reg.blocos[i];
   const r = resultadoQuiz(acertos, total);
   if (b.feito) return { ...r, treino: true }; // refazer é só treino
-  Object.assign(b, { materia, dificuldade, feito: true, aprovado: r.aprovado, nota: acertos, erros: errosIdx, respostas });
+  Object.assign(b, { materia, dificuldade, feito: true, aprovado: r.aprovado, nota: acertos, total, erros: errosIdx, respostas });
   if (r.aprovado) {
     b.pontos = pontosDoBloco(r, dificuldade);
     reg.pontos += b.pontos;

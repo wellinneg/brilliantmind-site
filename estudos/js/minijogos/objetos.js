@@ -7,6 +7,10 @@ import { TEMAS, desenharCenario } from './cenarios.js';
 import * as db from '../db.js';
 
 const CHAVE_MOVIMENTO = 'objetos:movimento';
+const CHAVE_TIPO = 'objetos:tipo';          // 'ilustrado' (cenas pintadas) ou 'desenho' (emojis)
+const CHAVE_VISTAS = 'objetos:cenasVistas';  // últimas cenas ilustradas jogadas, para não repetir
+import { iniciarIlustrado, NIVEIS_ILUSTRADOS } from './objetos-ilustrados.js';
+import { CENAS_ILUSTRADAS } from './cenas-ilustradas.js';
 import { cronometro, encerrarPartida, mostrarResultado, formatarTempo } from './motor.js';
 import { sons } from '../sons.js';
 import { pop } from '../efeitos.js';
@@ -41,8 +45,15 @@ export function montarBagunca(itensDoLugar, quantosAlvos, total, aleatorio = Mat
   return { alvos, pecas: mistura([...alvos.map(e => ({ e, alvo: true })), ...distracoes.map(e => ({ e, alvo: false }))]) };
 }
 
-export function iniciar(area, { t, ano, nivel, movimento = true }) {
+export function iniciar(area, { t, ano, nivel, movimento = true, tipo = 'ilustrado', evitar = [] }) {
   if (!NIVEIS_OBJETOS[nivel]) return escolherNivel(area, { t, ano });
+  // no duelo não vem o tipo: vai a cena ilustrada (sorteio síncrono, sai igual para os dois)
+  if (tipo === 'ilustrado' && CENAS_ILUSTRADAS.length) {
+    return iniciarIlustrado(area, {
+      t, nivel, criarJanela: criarJanelaComZoom, evitar,
+      aoSortear: n => db.gravarConfig(CHAVE_VISTAS, [n, ...evitar.filter(x => x !== n)].slice(0, 8)),
+    });
+  }
   const N = NIVEIS_OBJETOS[nivel];
   // cenários desenhados, temas sorteados (tudo desenhado já no início: no duelo sai igual para os dois)
   const temas = Object.keys(TEMAS).sort(() => Math.random() - 0.5).slice(0, N.cenas);
@@ -138,15 +149,15 @@ export function iniciar(area, { t, ano, nivel, movimento = true }) {
 }
 
 /** Janela com zoom (dois dedos, roda do mouse ou ➕➖) e arrastar sobre um "mundo" maior que a tela. */
-function criarJanelaComZoom(mundo) {
+function criarJanelaComZoom(mundo, tam = MUNDO) {
   const janela = el('div', { class: 'janela-cena' }, mundo);
   let esc = 1, min = 1, x = 0, y = 0, moveu = 0, ultimoArrasto = 0;
   const ZOOM_MAX = 4;
   const toques = new Map();
   const limitar = () => {
     const vw = janela.clientWidth, vh = janela.clientHeight;
-    x = Math.min(0, Math.max(vw - MUNDO.w * esc, x));
-    y = Math.min(0, Math.max(vh - MUNDO.h * esc, y));
+    x = Math.min(0, Math.max(vw - tam.w * esc, x));
+    y = Math.min(0, Math.max(vh - tam.h * esc, y));
   };
   const aplicar = () => { limitar(); mundo.style.transform = `translate(${x}px,${y}px) scale(${esc})`; };
   const zoomEm = (fator, cx, cy) => {
@@ -157,8 +168,8 @@ function criarJanelaComZoom(mundo) {
   const medir = () => {
     const vw = janela.clientWidth, vh = janela.clientHeight;
     if (!vw || !vh) return;
-    const novoMin = Math.max(vw / MUNDO.w, vh / MUNDO.h);
-    if (!ajustado) { esc = novoMin; x = (vw - MUNDO.w * esc) / 2; y = 0; ajustado = true; }   // começa no meio da foto
+    const novoMin = Math.max(vw / tam.w, vh / tam.h);
+    if (!ajustado) { esc = novoMin; x = (vw - tam.w * esc) / 2; y = (vh - tam.h * esc) / 2; ajustado = true; }   // começa no meio da foto
     else esc = Math.max(novoMin, Math.min(esc, novoMin * ZOOM_MAX));
     min = novoMin; aplicar();
   };
@@ -194,18 +205,41 @@ function criarJanelaComZoom(mundo) {
   return { el: caixa, ajustar, arrastou: () => Date.now() - ultimoArrasto < 250 };
 }
 
-/** Antes de começar: escolher o nível e se os cenários têm movimento (fábrica, trem, rodovia andando). */
+/** Antes de começar: escolher o tipo de cena, o nível e (nos desenhos) se os cenários têm movimento. */
 async function escolherNivel(area, { t, ano }) {
   let movimento = (await db.lerConfig(CHAVE_MOVIMENTO)) ?? true;
+  let tipo = (await db.lerConfig(CHAVE_TIPO)) || 'ilustrado';
+  if (!CENAS_ILUSTRADAS.length) tipo = 'desenho';
+  const vistas = (await db.lerConfig(CHAVE_VISTAS)) || [];
+  const grupoMov = el('div', {});
+  const niveis = el('div', { class: 'niveis-cofre' });
+  const desenharNiveis = () => {
+    grupoMov.hidden = tipo !== 'desenho';
+    niveis.replaceChildren(...Object.entries(NIVEIS_OBJETOS).map(([id, n]) => {
+      const info = tipo === 'ilustrado'
+        ? (NIVEIS_ILUSTRADOS[id].alvos > 30 ? 'todos os objetos da cena · só o nome' : `${NIVEIS_ILUSTRADOS[id].alvos} objetos${NIVEIS_ILUSTRADOS[id].comEmoji ? '' : ' · só o nome'}`)
+        : `${n.cenas} cenário${n.cenas > 1 ? 's' : ''} · ${n.porCena * n.cenas} objetos · ${n.cols * n.linhas} peças por cena${n.parecidos ? ' · objetos parecidos' : ''}`;
+      return el('button', { class: 'botao secundario grande', type: 'button', onclick: () => { sons.moeda(); iniciar(area, { t, ano, nivel: id, movimento, tipo, evitar: vistas }); } },
+        `${n.icone} ${n.nome}`, el('small', {}, info));
+    }));
+  };
+  const botoesTipo = [['ilustrado', '🎨 Cenas ilustradas'], ['desenho', '🧩 Bagunça de figurinhas']].filter(([v]) => v === 'desenho' || CENAS_ILUSTRADAS.length).map(([valor, texto]) => el('button', {
+    class: `opcao-duelo hora ${valor === tipo ? 'ativa' : ''}`, type: 'button',
+    onclick: e => { tipo = valor; db.gravarConfig(CHAVE_TIPO, valor); botoesTipo.forEach(b => b.classList.remove('ativa')); e.currentTarget.classList.add('ativa'); desenharNiveis(); },
+  }, texto));
   const botoesMov = [[true, '🎬 Com movimento'], [false, '🖼️ Parado']].map(([valor, texto]) => el('button', {
     class: `opcao-duelo hora ${valor === movimento ? 'ativa' : ''}`, type: 'button',
     onclick: e => { movimento = valor; db.gravarConfig(CHAVE_MOVIMENTO, valor); botoesMov.forEach(b => b.classList.remove('ativa')); e.currentTarget.classList.add('ativa'); },
   }, texto));
-  area.replaceChildren(
+  grupoMov.append(
     el('p', {}, 'Os cenários:'),
     el('div', { class: 'linha horarios-duelo' }, botoesMov),
-    el('p', { class: 'dica' }, 'Com movimento, a fábrica, o trem e a rodovia andam, e alguns objetos andam junto!'),
+    el('p', { class: 'dica' }, 'Com movimento, a fábrica, o trem e a rodovia andam, e alguns objetos andam junto!'));
+  desenharNiveis();
+  area.replaceChildren(
+    el('p', {}, 'Tipo de jogo:'),
+    el('div', { class: 'linha horarios-duelo' }, botoesTipo),
+    grupoMov,
     el('p', {}, 'Escolha o nível:'),
-    el('div', { class: 'niveis-cofre' }, Object.entries(NIVEIS_OBJETOS).map(([id, n]) => el('button', { class: 'botao secundario grande', type: 'button', onclick: () => { sons.moeda(); iniciar(area, { t, ano, nivel: id, movimento }); } },
-      `${n.icone} ${n.nome}`, el('small', {}, `${n.cenas} cenário${n.cenas > 1 ? 's' : ''} · ${n.porCena * n.cenas} objetos · ${n.cols * n.linhas} peças por cena${n.parecidos ? ' · objetos parecidos' : ''}`)))));
+    niveis);
 }

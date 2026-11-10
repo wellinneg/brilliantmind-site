@@ -108,7 +108,7 @@ export async function sincronizar({ http = (...a) => fetch(...a), cfg = FIREBASE
     for (const doc of lista.documents || []) {
       const uid = doc.name.split('/').pop();
       if (uid === familia.uid) continue;
-      try { const { estudo, ...publico } = JSON.parse(doc.fields?.dados?.stringValue || '{}'); outros[uid] = { ...publico, atualizado: doc.fields?.atualizado?.timestampValue || null }; }   // o resumo de estudo do irmão não fica no meu celular
+      try { outros[uid] = { ...JSON.parse(doc.fields?.dados?.stringValue || '{}'), atualizado: doc.fields?.atualizado?.timestampValue || null }; }   // inclui o resumo de estudo (acerto dos filhos no painel dos pais)
       catch { /* registro estragado de outro celular: ignora */ }
     }
     // Relê o jogo: uma lição pode ter terminado enquanto a internet respondia.

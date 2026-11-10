@@ -10,6 +10,9 @@ import { carregarDia } from '../conteudo.js';
 import { alternarSeletorDeSerie } from './serie.js';
 import { calendarioInterativo } from '../calendario.js';
 import { secaoFamilia } from './familia-pais.js';
+import { desempenhoLocal, desempenhoDoResumo } from '../desempenho.js';
+import { meuPapel, papelDe } from '../papeis.js';
+import { lerJogo } from '../jogo.js';
 import { gerarCopia, restaurarCopia, baixarArquivo } from '../backup.js';
 
 export async function render(raiz) {
@@ -45,6 +48,7 @@ async function painel(area) {
   const espaco = await navigator.storage?.estimate?.();
   const pend = await estado.pendentes(perfil.ano);
 
+  area.append(await secaoAcertoFilhos(dias, perfil));
   area.append(
     calendarioInterativo(dias),
     el('button', { class: 'botao grande', onclick: () => navegar(`#/biblioteca/${perfil.ano}`) }, '📚 Todas as lições (acesso livre)'),
@@ -132,6 +136,33 @@ async function secaoCreditosFotos() {
     el('ul', {}, Object.entries(dados.fotos).map(([id, f]) => el('li', {},
       el('strong', {}, nomes[id] || id), `: ${f.descricao || f.titulo}. Foto de ${f.autor}, ${f.licenca}. `,
       el('a', { href: f.link, target: '_blank', rel: 'noopener' }, 'ver original')))));
+}
+
+/** 📊 Acerto de cada filho: global e por matéria (1ª tentativa). Este celular + irmãos da família. */
+async function secaoAcertoFilhos(dias, perfil) {
+  const jogo = await lerJogo();
+  const pessoas = [];
+  if (meuPapel(jogo) !== 'pai') pessoas.push({ nome: perfil.nome, ano: perfil.ano, d: desempenhoLocal(dias, perfil.ano) });
+  for (const [uid, o] of Object.entries(jogo.outros || {})) {
+    if (papelDe(jogo, uid) === 'pai' || !o.estudo?.ano) continue;
+    pessoas.push({ nome: o.apelido || 'Filho', ano: o.estudo.ano, d: await desempenhoDoResumo(o.estudo), quando: o.estudo.em });
+  }
+  const cor = v => (v == null ? '#607D8B' : v >= 80 ? '#43A047' : v >= 60 ? '#FDD835' : '#E53935');
+  const caixa = el('section', { class: 'cartao acerto-filhos' }, el('h2', {}, '📊 Acerto dos filhos'));
+  if (!pessoas.length) { caixa.append(el('p', { class: 'dica' }, 'Ainda não há lições feitas.')); return caixa; }
+  for (const p of pessoas) {
+    caixa.append(el('div', { class: 'filho-acerto' },
+      el('div', { class: 'filho-topo' },
+        el('strong', {}, `${p.nome} · ${ANOS[p.ano] || p.ano}`),
+        el('span', { class: 'acerto-global', style: `--cor:${cor(p.d.global)}` }, p.d.global == null ? 'sem lições' : `${p.d.global}%`)),
+      el('small', { class: 'dica' }, `${p.d.licoes} lição(ões) feitas${p.quando ? ` · atualizado em ${p.quando.split('-').reverse().join('/')}` : ''}`),
+      el('div', { class: 'barras-materia' }, p.d.materias.map(m => el('div', { class: 'barra-materia' },
+        el('span', { class: 'nome-materia' }, `${MATERIAS[m.materia]?.icone || ''} ${MATERIAS[m.materia]?.nome || m.materia}`),
+        el('span', { class: 'trilho' }, el('span', { style: `width:${m.acerto || 0}%;background:${cor(m.acerto)}` })),
+        el('span', { class: 'valor' }, `${m.acerto}%`))))));
+  }
+  caixa.append(el('p', { class: 'dica' }, 'Acerto na 1ª tentativa de cada lição. 🟢 80% ou mais · 🟡 60% a 79% · 🔴 abaixo de 60%.'));
+  return caixa;
 }
 
 function cartaoDia(d) {
