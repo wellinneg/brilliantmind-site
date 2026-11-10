@@ -570,3 +570,13 @@ details.cartao>summary{font-weight:700}
 .legenda-proporcao{font-size:.85rem;opacity:.85;margin:0 0 8px}
 .cartao-desempate{border:2px solid #FFD54F}
 .celula-territorio.empatada small{color:#0A191E;background:#FFD54F;border-radius:6px;padding:0 3px}
+/* ⚔️ duelo: escolha do jogo e do horário, contagem */
+.grade-duelo{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.opcao-duelo{display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 4px;border-radius:12px;border:2px solid var(--navy-3);background:transparent;color:inherit;font:inherit;cursor:pointer}
+.opcao-duelo span{font-size:1.6rem}
+.opcao-duelo small{font-size:.68rem;text-align:center;line-height:1.1;overflow-wrap:anywhere;hyphens:auto}
+.opcao-duelo.ativa{border-color:var(--lime);background:color-mix(in srgb,var(--lime) 14%,transparent)}
+.opcao-duelo.hora{flex:1;font-weight:700;padding:10px 6px}
+.horarios-duelo{gap:8px;margin-bottom:10px}
+.contagem-duelo{font-size:3rem;font-weight:800;text-align:center;color:var(--lime);margin:8px 0;font-variant-numeric:tabular-nums}
+.sala-duelo{text-align:center}

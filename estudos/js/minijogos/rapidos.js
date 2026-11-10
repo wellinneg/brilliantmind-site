@@ -9,7 +9,7 @@ const sorteio = n => Math.floor(Math.random() * n);
 const misturar = a => a.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(x => x[1]);
 
 // ---------- motor comum: perguntas em sequência contra o relógio ----------
-export function corrida(area, { titulo, tempo, proxima, aoFim, cabecalho }) {
+export function corrida(area, { titulo, tempo, proxima, aoFim, cabecalho, aoPlacar }) {
   let acertos = 0, erros = 0, acabou = false;
   const visor = el('span', { class: 'cronometro' });
   const placar = el('span', {}, '✅ 0');
@@ -27,6 +27,7 @@ export function corrida(area, { titulo, tempo, proxima, aoFim, cabecalho }) {
           const certo = o.certo;
           if (certo) { acertos++; sons.moeda(); pop(placar); } else { erros++; sons.erro(); pop(e.currentTarget, 'tremer'); }
           placar.textContent = `✅ ${acertos}`;
+          aoPlacar?.({ acertos, erros });
           if (p.explica && !certo) palco.append(el('p', { class: 'erro-batalha' }, p.explica));
           setTimeout(seguir, certo ? 150 : 700);
         },

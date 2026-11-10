@@ -40,7 +40,12 @@ export function recordeDe(jogo, tipo, territorioId) { return jogo.recordes?.[`${
  * Fim de partida: guarda o recorde e, se ainda houver prêmio hoje, dá as moedas no lugar.
  * `recorde` = { valor, menorMelhor } (tempo em segundos: menor é melhor; pontos: maior é melhor).
  */
+// ⚔️ Duelo: quando há um gancho, o fim da partida vai para o duelo (sem prêmio nem recorde normal)
+let ganchoDuelo = null;
+export function definirGanchoDuelo(fn) { ganchoDuelo = fn; }
+
 export async function encerrarPartida({ tipo, t, moedas, recorde, data = hojeISO() }) {
+  if (ganchoDuelo) { const g = ganchoDuelo; ganchoDuelo = null; g({ tipo, recorde }); return new Promise(() => {}); }   // o duelo assume a tela
   const jogo = await lerJogo();
   jogo.recordes ||= {};
   const chave = `${tipo}:${t.id}`;

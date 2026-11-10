@@ -38,7 +38,8 @@ export function registroPublico(jogo) {
     desempates: desempatesPublicos(jogo),   // ⚔️ pontuação nos desempates de território em aberto       // 🏆 ranking de patrimônio (dinheiro + empresa + banco)
     // ⚔️ duelo em andamento (só entre irmãos; o treino contra o Magnata fica no celular)
     duelo: jogo.duelo && !jogo.duelo.contra
-      ? { id: jogo.duelo.id, semente: jogo.duelo.semente, de: jogo.duelo.de, para: jogo.duelo.para, estado: jogo.duelo.estado, respostas: jogo.duelo.respostas, criado: jogo.duelo.criado }
+      ? (({ id, semente, jogo: qual, de, para, estado, marcadoPara, criado, pronto, inicio, pontos, respostas, fimEm, concluiu }) =>
+        ({ id, semente, jogo: qual, de, para, estado, marcadoPara, criado, pronto, inicio, pontos, respostas, fimEm, concluiu }))(jogo.duelo)
       : null,
   };
 }
