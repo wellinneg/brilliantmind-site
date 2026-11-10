@@ -193,6 +193,27 @@ export async function salvarLeitura(reg, blob, duracaoSeg) { reg.audioLeitura = 
 export async function salvarEscrita(reg, blob) { reg.fotoEscrita = await salvarMidia(reg, 'escrita', blob); await gravarEFechar(reg); }
 export async function salvarDesafio(reg, i, blob) { reg.fotoDesafio[i] = await salvarMidia(reg, `desafio-${i}`, blob); await db.gravarDia(reg); }
 
+/**
+ * 👨‍👩‍👧 Pai/Mãe: se o registro de hoje é só a continuação de um dia anterior que JÁ estava pronto pela regra
+ * dos pais (blocos feitos; sem leitura e lição de casa), fecha aquele dia com a data dele e começa o dia
+ * seguinte hoje. Devolve o registro de hoje atualizado.
+ */
+export async function avancarDiaDosPais(reg, totalDias) {
+  if (!reg || reg.fechado) return reg;
+  const anterior = (await db.listarDias()).find(r => r.ano === reg.ano && r.continuadoEm === reg.data && r.diaConteudo === reg.diaConteudo && !r.fechado);
+  if (!anterior) return reg;
+  const igual = JSON.stringify(anterior.blocos.map(b => !!b.feito)) === JSON.stringify(reg.blocos.map(b => !!b.feito));
+  const prontoAntes = statusDoDia({ ...anterior, semEscrita: true, blocos: reg.blocos, revisoes: reg.revisoes, ouvir: reg.ouvir, prova: reg.prova }).podeFechar;
+  if (!igual || !prontoAntes) return reg;   // fez coisa nova hoje ou o dia anterior não estava pronto
+  Object.assign(anterior, { semEscrita: true, continuadoEm: null, pontos: reg.pontos, blocos: reg.blocos, revisoes: reg.revisoes, ouvir: reg.ouvir, prova: reg.prova });
+  await db.gravarDia(anterior);
+  await fecharDiaSePossivel(anterior);
+  await db.apagarDia(reg.id);
+  const novo = await registroDeHoje(reg.ano, totalDias, reg.data);
+  if (novo) { novo.semEscrita = true; await db.gravarDia(novo); }
+  return novo;
+}
+
 export async function fecharDiaSePossivel(reg) {
   if (reg.fechado || !statusDoDia(reg).podeFechar) return false;
   reg.fechado = true;

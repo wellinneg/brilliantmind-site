@@ -20,7 +20,7 @@ async function secaoPapeis() {
     const pessoas = [['eu', `${jogo.apelido || perfil?.nome || 'Este celular'} (este celular)`, meuPapel(jogo)],
       ...Object.entries(jogo.outros || {}).map(([uid, o]) => [uid, o.apelido || 'Irmão', papelDe(jogo, uid)])];
     caixa.replaceChildren(
-      el('p', { class: 'dica' }, 'Pai/Mãe continua com as lições e o jogo, só não tem a lição escrita (caderno e foto). A mudança chega no outro celular na próxima sincronização.'),
+      el('p', { class: 'dica' }, 'Pai/Mãe continua com as lições e o jogo, mas sem a leitura em voz alta, a escrita e a lição de casa. A mudança chega no outro celular na próxima sincronização.'),
       el('div', { class: 'lista-papeis' }, pessoas.map(([quem, nome, papel]) => el('div', { class: 'linha-papel' },
         el('span', {}, nome),
         el('select', { 'aria-label': `Papel de ${nome}`, onchange: async e => {

@@ -40,7 +40,8 @@ export const REGRAS = {
   simplesAliquota: 0.06,       // Simples Nacional: % sobre o faturamento (simplificado)
   custoUnidade: 300,           // abrir mais uma unidade
   mesesParaTrocar: 3,          // depois de abrir, só pode fechar e trocar de empresa depois de 3 meses
-  maxTurnos: 3,                // dias de negócio acumulados no máximo
+  maxTurnos: 2,                // dias de negócio por dia (não acumula)
+  negociosPorDia: 2,           // 2 dias de negócio (compra de estoque e vendas) por dia, só depois das lições
   sobraPerecivel: 0.7,         // comida: 30% do que sobra estraga
 };
 
@@ -197,7 +198,7 @@ function sortearEvento(aleatorio) {
  */
 export function simularDia(emp, d, aleatorio = Math.random) {
   const r = RAMOS[emp.ramo];
-  if (!(emp.turnos > 0)) throw new Error('Feche um dia de estudo para ganhar mais um dia de negócio.');
+  if (!(emp.turnos > 0)) throw new Error('Os dias de negócio de hoje acabaram. São 2 por dia, depois das lições.');
   normalizarEmpresa(emp);
   if (emp.regime === 'mei' && emp.equipe.length > REGRAS.meiMaxFuncionarios) throw new Error('No MEI só pode ter 1 funcionário. Para ter mais, mude para o Simples Nacional.');
   const bonus = REGRAS.bonus.includes(d.bonus) ? d.bonus : emp.bonus;
@@ -276,9 +277,17 @@ export function abrirUnidade(emp) {
 }
 
 /** Cada dia de estudo fechado dá mais um dia de negócio (acumula até 3). */
-export async function ganharTurnoEmpresa() {
-  const jogo = await lerJogo();
-  if (!jogo.empresa) return;
-  jogo.empresa.turnos = Math.min(REGRAS.maxTurnos, (jogo.empresa.turnos || 0) + 1);
-  await gravarJogo(jogo);
+/** Fechar o dia de estudo não dá mais dia de negócio extra: agora são 2 por dia, depois das lições. */
+export async function ganharTurnoEmpresa() {}
+
+/**
+ * Dias de negócio de hoje: 2 por dia, só depois que as lições do dia estão feitas; o que sobra não acumula.
+ * `liberado` = os blocos de lição de hoje estão feitos. Devolve quantos ainda restam hoje.
+ */
+export function prepararDiaDeNegocio(emp, data, liberado) {
+  if (emp.turnosDia !== data) {
+    if (!liberado) { emp.turnos = 0; return 0; }        // ainda não fez as lições: loja fechada
+    emp.turnos = REGRAS.negociosPorDia; emp.turnosDia = data;
+  }
+  return emp.turnos;
 }

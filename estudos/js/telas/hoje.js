@@ -14,13 +14,16 @@ export async function carregarContexto() {
   const perfil = await estado.perfil();
   const indice = await carregarIndice();
   const total = indice.anos[perfil.ano]?.dias || 0;
-  const reg = await estado.registroDeHoje(perfil.ano, total);
-  const dia = reg ? await carregarDia(perfil.ano, reg.diaConteudo) : null;
+  let reg = await estado.registroDeHoje(perfil.ano, total);
+  let dia = reg ? await carregarDia(perfil.ano, reg.diaConteudo) : null;
   if (reg && dia) await estado.ajustarBlocos(reg, dia.blocos.length);   // o registro acompanha o conteúdo de verdade
   if (reg && !reg.fechado) {
     // 👨‍👩‍👧 Pai/Mãe (classificado em 🔒 Pais) não tem a lição escrita
     const sem = semEscrita(await lerJogo());
-    if ((reg.semEscrita === true) !== sem) { reg.semEscrita = sem; await db.gravarDia(reg); await estado.fecharDiaSePossivel(reg); }
+    if ((reg.semEscrita === true) !== sem) { reg.semEscrita = sem; await db.gravarDia(reg); }
+    if (sem) reg = await estado.avancarDiaDosPais(reg, total);   // dia antigo já pronto: fecha e começa o próximo
+    if (reg) await estado.fecharDiaSePossivel(reg);
+    if (reg && reg.diaConteudo !== dia?.dia) { dia = await carregarDia(perfil.ano, reg.diaConteudo); await estado.ajustarBlocos(reg, dia.blocos.length); }
   }
   if (reg) for (let d = reg.diaConteudo + 1; d <= Math.min(reg.diaConteudo + 2, total); d++) carregarDia(perfil.ano, d).catch(() => {});
   return { perfil, reg, dia };
@@ -130,10 +133,10 @@ export async function render(raiz) {
       el('span', { class: 'textos' }, el('small', {}, 'Surpresa! Vale 50% a mais'), el('strong', {}, reg.prova.feito ? `Prova surpresa: ${reg.prova.nota}/${reg.prova.total} · +${reg.prova.pontos} 💵` : 'Prova surpresa dos últimos dias')),
       el('span', {}, reg.prova.feito ? '✅' : '▶')));
   }
-  raiz.append(el('button', { class: `cartao bloco ${st.fechamentoOk ? 'feito' : ''}`, disabled: !st.blocosOk, onclick: e => entrarComLuz(e.currentTarget, () => navegar('#/fechamento')) },
+  if (!reg.semEscrita) raiz.append(el('button', { class: `cartao bloco ${st.fechamentoOk ? 'feito' : ''}`, disabled: !st.blocosOk, onclick: e => entrarComLuz(e.currentTarget, () => navegar('#/fechamento')) },
     el('span', { class: 'icone' }, '📖'),
     el('span', { class: 'textos' },
-      el('small', {}, reg.semEscrita ? 'Fechamento · leitura · ~5 min' : 'Fechamento · leitura e escrita · ~10 min'),
+      el('small', {}, 'Fechamento · leitura e escrita · ~10 min'),
       el('strong', {}, st.blocosOk ? dia.leitura.titulo : `Libera depois dos ${dia.blocos.length} blocos`)),
     el('span', {}, st.fechamentoOk ? '✅' : (st.blocosOk ? '▶' : '🔒'))));
 
@@ -143,7 +146,7 @@ export async function render(raiz) {
       el('span', { class: 'textos' }, el('small', {}, 'Lições do dia feitas!'), el('strong', {}, 'Minijogos liberados: toque para jogar')),
       el('span', {}, '▶')));
   }
-  raiz.append(secaoLicaoDeCasa(reg));
+  if (!reg.semEscrita) raiz.append(secaoLicaoDeCasa(reg));   // Pai/Mãe: sem leitura e sem lição de casa
   const faltam = [!st.revisoesOk && 'a revisão 🔁', !st.ouvirOk && 'o Ouvir 🎧', !st.provaOk && reg.prova?.revelada && 'a prova surpresa ⚡'].filter(Boolean);
   if (!reg.fechado && st.blocosOk && st.fechamentoOk && st.casaOk && faltam.length) {
     raiz.append(el('p', { class: 'dica' }, `Para fechar o dia, falta: ${faltam.join(', ')}.`));

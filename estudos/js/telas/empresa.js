@@ -5,8 +5,10 @@ import { lerJogo, gravarJogo } from '../jogo.js';
 import {
   RAMOS, REGRAS, abrirEmpresa, simularDia, demandaEsperada, retirarLucro, aportar, abrirUnidade, trocarRegime, trocaLiberadaEm, podeTrocar, fecharEmpresa,
   faturamentoRecente, normalizarEmpresa, candidatosDoDia, contratar, demitir, clientesDoFuncionario, custoDoFuncionario,
-  custoDaEquipe, comEncargos,
+  custoDaEquipe, comEncargos, prepararDiaDeNegocio,
 } from '../empresa.js';
+import { statusDoDia } from '../rodizio.js';
+import { carregarContexto } from './hoje.js';
 import { hojeISO } from '../datas.js';
 import { sons } from '../sons.js';
 import { confete } from '../efeitos.js';
@@ -21,6 +23,12 @@ export async function render(raiz) {
   if (!jogo.empresa) return telaAbrir(raiz, jogo);
   const emp = normalizarEmpresa(jogo.empresa);
   const r = RAMOS[emp.ramo];
+  // 2 dias de negócio por dia, só depois das lições de hoje
+  let liberado = false;
+  try { const { reg } = await carregarContexto(); liberado = !reg || statusDoDia(reg).blocosOk; } catch { liberado = true; }
+  const antes = emp.turnos;
+  prepararDiaDeNegocio(emp, hojeISO(), liberado);
+  if (emp.turnos !== antes) await gravarJogo(jogo);
 
   raiz.append(
     el('div', { class: 'empresa-topo' },
@@ -29,12 +37,14 @@ export async function render(raiz) {
     el('div', { class: 'banco-saldos' },
       el('div', {}, el('small', {}, 'Caixa da empresa'), el('strong', { class: emp.caixa < 0 ? 'saida' : 'entrada' }, `💵 ${n2(emp.caixa)}`)),
       el('div', {}, el('small', {}, 'Estoque'), el('strong', {}, `📦 ${emp.estoque}`)),
-      el('div', {}, el('small', {}, 'Dias de negócio'), el('strong', {}, `📅 ${emp.turnos}`))));
+      el('div', {}, el('small', {}, 'Negócios hoje'), el('strong', {}, `📅 ${emp.turnos} de ${REGRAS.negociosPorDia}`))));
 
   raiz.append(secaoEquipe(jogo, emp, r));
   if (emp.turnos > 0) raiz.append(painelDia(jogo, emp, r));
-  else raiz.append(el('section', { class: 'cartao' }, el('p', {}, '📚 Feche mais um dia de estudo para ganhar um novo dia de negócio.'),
-    el('p', { class: 'dica' }, `Cada dia de estudo fechado vale um dia de negócio (acumula até ${REGRAS.maxTurnos}).`)));
+  else raiz.append(el('section', { class: 'cartao' },
+    el('p', {}, liberado ? `✅ Os ${REGRAS.negociosPorDia} dias de negócio de hoje já foram. Volte amanhã!` : '🔒 A loja abre depois que você termina as lições de hoje.'),
+    el('p', { class: 'dica' }, `São ${REGRAS.negociosPorDia} dias de negócio (compra de estoque e vendas) por dia, depois das lições. Não acumula para o dia seguinte.`),
+    liberado ? null : el('button', { class: 'botao grande', onclick: () => navegar('#/hoje') }, 'Ir para as lições de hoje')));
 
   if (emp.historico.length) raiz.append(planilha(emp));
   raiz.append(quadroValuation(emp), quadroRegimes(emp, jogo), painelDinheiro(jogo, emp));

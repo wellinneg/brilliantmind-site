@@ -39,6 +39,7 @@ export const listarConfig = () => operar('config', 'readonly', s => s.getAll());
 export const lerDia = id => operar('dias', 'readonly', s => s.get(id));
 export const gravarDia = reg => operar('dias', 'readwrite', s => s.put(reg));
 export const listarDias = () => operar('dias', 'readonly', s => s.getAll());
+export const apagarDia = id => operar('dias', 'readwrite', s => s.delete(id));
 export const gravarMidia = (id, blob, info = {}) =>
   operar('midias', 'readwrite', s => s.put({ id, blob, ...info, criadoEm: new Date().toISOString() }));
 export const lerMidia = id => operar('midias', 'readonly', s => s.get(id));
