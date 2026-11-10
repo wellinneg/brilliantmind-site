@@ -635,3 +635,6 @@ details.cartao>summary{font-weight:700}
 @keyframes pecaEsq{from{left:104%}to{left:-4%}}
 .mundo-cena.parado .anda,.mundo-cena.parado .peca-anda{animation-play-state:paused}
 .peca.peca-anda.achou{animation:some .5s forwards}
+/* 🦁 animal da cena dentro de um círculo, para não sumir na foto do lugar */
+.heroi.heroi-na-cena{width:86px;height:86px;left:4%;bottom:6%;border-radius:50%;border:3px solid var(--lime);background:radial-gradient(circle at 50% 35%,#16323B,#0A191E 75%);box-shadow:0 4px 0 #000,0 0 0 4px rgba(10,25,30,.55);overflow:hidden;display:flex;align-items:flex-end;justify-content:center;filter:none}
+.heroi.heroi-na-cena img{width:92%;height:92%;object-fit:contain;object-position:center bottom}
