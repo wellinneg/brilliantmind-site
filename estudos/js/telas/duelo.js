@@ -241,7 +241,7 @@ async function partida(area, contraMagnata) {
     });
     // a MESMA grade para os dois: o sorteio usa a semente do duelo
     const original = Math.random; Math.random = sorteador(d.semente);
-    try { modulo.iniciar(palco, { t, ano: '6ano', grupo: t.grupo }); } finally { Math.random = original; }
+    try { modulo.iniciar(palco, { t, ano: '6ano', grupo: t.grupo, nivel: 'medio' }); } finally { Math.random = original; }
   }
 
   function jogarPerguntas() {

@@ -1,5 +1,6 @@
 // Aba "Jogos" (#/jogos): sala de surpresas. Cada dia, os minijogos se escondem atrás de potes,
-// portas, baús… A criança abre um, joga, e ele some; ficam só os que ainda estão fechados.
+// portas, baús… A criança abre um e o minijogo fica À VISTA (dá para jogar de novo); os fechados
+// continuam escondidos até serem abertos.
 import { el, navegar } from '../ui.js';
 import * as db from '../db.js';
 import { CAMADAS, EU, lerJogo, calcularTerritorio, donoDe } from '../jogo.js';
@@ -11,7 +12,7 @@ import { sons } from '../sons.js';
 export const ESCONDERIJOS = [
   { icone: '🏺', nome: 'Pote' }, { icone: '🚪', nome: 'Porta' }, { icone: '🧰', nome: 'Baú' }, { icone: '🎁', nome: 'Presente' },
   { icone: '✉️', nome: 'Envelope' }, { icone: '🛢️', nome: 'Barril' }, { icone: '📦', nome: 'Caixa' }, { icone: '🥚', nome: 'Ovo' },
-  { icone: '🗄️', nome: 'Gaveta' }, { icone: '🪣', nome: 'Balde' },
+  { icone: '🗄️', nome: 'Gaveta' }, { icone: '🪣', nome: 'Balde' }, { icone: '🎒', nome: 'Mochila' },
 ];
 const chaveAbertos = data => `minijogos:abertos:${data}`;
 
@@ -63,24 +64,28 @@ export async function render(raiz) {
     }));
   const fechados = sorteio.filter(x => !abertos.has(x.tipo));
   raiz.append(
-    el('p', { class: 'dica' }, `${fechados.length} surpresa(s) escondida(s) hoje. Abra uma para descobrir o jogo! ${sit.premiosRestantes ? `Ainda ${sit.premiosRestantes === 1 ? 'vale 1 partida' : `valem ${sit.premiosRestantes} partidas`} com notas (de ${PREMIOS_POR_DIA}).` : 'As partidas com notas de hoje acabaram: agora é por diversão e recorde.'}`),
+    el('p', { class: 'dica' }, `${fechados.length ? `${fechados.length} surpresa(s) ainda escondida(s). Abra para descobrir o jogo!` : '🎉 Você descobriu todos os jogos de hoje! Amanhã eles se escondem de novo.'} ${sit.premiosRestantes ? `Ainda ${sit.premiosRestantes === 1 ? 'vale 1 partida' : `valem ${sit.premiosRestantes} partidas`} com notas (de ${PREMIOS_POR_DIA}).` : 'As partidas com notas de hoje acabaram: agora é por diversão e recorde.'}`),
     el('div', { class: 'campo' }, el('label', { for: 'lugar-jogo' }, 'Conquistar notas em:'), seletor));
-  if (!fechados.length) {
-    raiz.append(el('section', { class: 'cartao' }, el('p', {}, '🎉 Você abriu todas as surpresas de hoje! Amanhã elas se escondem de novo.'),
-      el('p', { class: 'dica' }, 'Para jogar de novo hoje, abra um lugar no Mapa: lá tem todos os minijogos.')));
-    return;
-  }
-  raiz.append(el('div', { class: 'sala-surpresas' }, fechados.map(({ tipo, esconderijo }) => el('button', {
-    class: 'esconderijo', type: 'button', 'aria-label': `Abrir ${esconderijo.nome}`,
-    onclick: async e => {
-      const b = e.currentTarget;
-      if (b.classList.contains('abrindo')) return;
-      b.classList.add('abrindo');
-      abertos.add(tipo);
-      await db.gravarConfig(chaveAbertos(hoje), [...abertos]);
-      sons.compra();
-      b.replaceChildren(el('span', { class: 'revelado' }, MINIJOGOS[tipo].icone), el('small', {}, MINIJOGOS[tipo].nome));
-      setTimeout(() => navegar(`#/jogo/${tipo}/${lugar.id}`), 900);
-    },
-  }, el('span', {}, esconderijo.icone), el('small', {}, esconderijo.nome)))));
+  // todos os esconderijos ficam na sala: os já abertos mostram o jogo descoberto (toque para jogar)
+  raiz.append(el('div', { class: 'sala-surpresas' }, sorteio.map(({ tipo, esconderijo }) => {
+    const jogar = () => navegar(`#/jogo/${tipo}/${lugar.id}`);
+    if (abertos.has(tipo)) {
+      return el('button', { class: 'esconderijo descoberto', type: 'button', 'aria-label': `Jogar ${MINIJOGOS[tipo].nome}`, onclick: jogar },
+        el('span', { class: 'revelado' }, MINIJOGOS[tipo].icone), el('small', {}, MINIJOGOS[tipo].nome));
+    }
+    return el('button', {
+      class: 'esconderijo', type: 'button', 'aria-label': `Abrir ${esconderijo.nome}`,
+      onclick: async e => {
+        const b = e.currentTarget;
+        if (b.classList.contains('abrindo')) return;
+        b.classList.add('abrindo');
+        abertos.add(tipo);
+        await db.gravarConfig(chaveAbertos(hoje), [...abertos]);
+        sons.compra();
+        b.replaceChildren(el('span', { class: 'revelado' }, MINIJOGOS[tipo].icone), el('small', {}, MINIJOGOS[tipo].nome));
+        b.classList.add('descoberto');
+        setTimeout(jogar, 900);
+      },
+    }, el('span', {}, esconderijo.icone), el('small', {}, esconderijo.nome));
+  })));
 }

@@ -7,6 +7,8 @@ import { alternarSeletorDeSerie } from './serie.js';
 import { lerJogo, CAMADAS, moedasNaCamada, metaDaCamada } from '../jogo.js';
 import { aplicacoesAtivas } from '../banco.js';
 import { conviteParaMim } from '../duelo.js';
+import { semEscrita } from '../papeis.js';
+import * as db from '../db.js';
 
 export async function carregarContexto() {
   const perfil = await estado.perfil();
@@ -15,6 +17,11 @@ export async function carregarContexto() {
   const reg = await estado.registroDeHoje(perfil.ano, total);
   const dia = reg ? await carregarDia(perfil.ano, reg.diaConteudo) : null;
   if (reg && dia) await estado.ajustarBlocos(reg, dia.blocos.length);   // o registro acompanha o conteúdo de verdade
+  if (reg && !reg.fechado) {
+    // 👨‍👩‍👧 Pai/Mãe (classificado em 🔒 Pais) não tem a lição escrita
+    const sem = semEscrita(await lerJogo());
+    if ((reg.semEscrita === true) !== sem) { reg.semEscrita = sem; await db.gravarDia(reg); await estado.fecharDiaSePossivel(reg); }
+  }
   if (reg) for (let d = reg.diaConteudo + 1; d <= Math.min(reg.diaConteudo + 2, total); d++) carregarDia(perfil.ano, d).catch(() => {});
   return { perfil, reg, dia };
 }
@@ -126,7 +133,7 @@ export async function render(raiz) {
   raiz.append(el('button', { class: `cartao bloco ${st.fechamentoOk ? 'feito' : ''}`, disabled: !st.blocosOk, onclick: e => entrarComLuz(e.currentTarget, () => navegar('#/fechamento')) },
     el('span', { class: 'icone' }, '📖'),
     el('span', { class: 'textos' },
-      el('small', {}, 'Fechamento · leitura e escrita · ~10 min'),
+      el('small', {}, reg.semEscrita ? 'Fechamento · leitura · ~5 min' : 'Fechamento · leitura e escrita · ~10 min'),
       el('strong', {}, st.blocosOk ? dia.leitura.titulo : `Libera depois dos ${dia.blocos.length} blocos`)),
     el('span', {}, st.fechamentoOk ? '✅' : (st.blocosOk ? '▶' : '🔒'))));
 

@@ -35,7 +35,9 @@ export function registroPublico(jogo) {
     apelido: String(jogo.apelido || '').slice(0, 16), heroi: jogo.heroi, heroiEm: jogo.heroiEm || 0, usando: jogo.usando || {},
     camada: jogo.camada, doPote: jogo.meu.doPote, roubos: jogo.meu.roubos, temporada: jogo.temporadaXP || null,
     patrimonio: patrimonioDe(jogo),
-    desempates: desempatesPublicos(jogo),   // ⚔️ pontuação nos desempates de território em aberto       // 🏆 ranking de patrimônio (dinheiro + empresa + banco)
+    desempates: desempatesPublicos(jogo),
+    papel: jogo.meuPapel || null,             // 👨‍👩‍👧 Filho ou Pai/Mãe (este celular)
+    papeis: jogo.papeis || {},                // classificação que EU fiz dos outros celulares   // ⚔️ pontuação nos desempates de território em aberto       // 🏆 ranking de patrimônio (dinheiro + empresa + banco)
     // ⚔️ duelo em andamento (só entre irmãos; o treino contra o Magnata fica no celular)
     duelo: jogo.duelo && !jogo.duelo.contra
       ? (({ id, semente, jogo: qual, de, para, estado, marcadoPara, criado, pronto, inicio, pontos, respostas, fimEm, concluiu }) =>

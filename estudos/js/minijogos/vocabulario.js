@@ -1,6 +1,7 @@
+import { EXTRA, INGLES_EXTRA } from './vocabulario-extra.js';
 // Palavras de cada grupo de matérias (mesma ordem de GRUPOS em jogo.js), com uma definição curta.
 // Usadas no caça-palavras (a palavra) e no jogo da memória (palavra ↔ definição).
-export const VOCABULARIO = [
+const BASE = [
   [ // Matemática + Educação financeira
     ['LUCRO', 'Receita menos custos'],
     ['JUROS', 'Preço de usar dinheiro emprestado'],
@@ -118,5 +119,26 @@ export const VOCABULARIO = [
   ],
 ];
 
+// + 240 palavras extras (40 por grupo), em vocabulario-extra.js
+export const VOCABULARIO = BASE.map((grupo, k) => [...grupo, ...(EXTRA[k] || [])]);
+
 /** Letra sem acento, para a grade do caça-palavras (Ç vira C, Ã vira A…). */
 export const semAcento = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
+
+// 🇬🇧 Palavras em inglês para a Palavra embaralhada: [palavra, significado em português].
+const INGLES_BASE = [
+  ['APPLE', 'maçã'], ['HOUSE', 'casa'], ['SCHOOL', 'escola'], ['TEACHER', 'professor ou professora'], ['FRIEND', 'amigo ou amiga'],
+  ['FAMILY', 'família'], ['MONEY', 'dinheiro'], ['WATER', 'água'], ['BREAD', 'pão'], ['CHICKEN', 'frango ou galinha'],
+  ['ORANGE', 'laranja'], ['BANANA', 'banana'], ['GREEN', 'verde'], ['YELLOW', 'amarelo'], ['PURPLE', 'roxo'],
+  ['MOTHER', 'mãe'], ['FATHER', 'pai'], ['SISTER', 'irmã'], ['BROTHER', 'irmão'], ['PENCIL', 'lápis'],
+  ['WINDOW', 'janela'], ['KITCHEN', 'cozinha'], ['GARDEN', 'jardim'], ['STREET', 'rua'], ['CITY', 'cidade'],
+  ['MARKET', 'mercado'], ['STORE', 'loja'], ['PRICE', 'preço'], ['WORK', 'trabalho'], ['MONDAY', 'segunda-feira'],
+  ['FRIDAY', 'sexta-feira'], ['SUMMER', 'verão'], ['WINTER', 'inverno'], ['RAIN', 'chuva'], ['CLOUD', 'nuvem'],
+  ['RIVER', 'rio'], ['FOREST', 'floresta'], ['ANIMAL', 'animal'], ['HORSE', 'cavalo'], ['TIGER', 'tigre'],
+  ['MOUSE', 'rato (ou mouse do computador)'], ['PHONE', 'telefone'], ['COMPUTER', 'computador'], ['SCREEN', 'tela'], ['GAME', 'jogo'],
+  ['HAPPY', 'feliz'], ['ANGRY', 'bravo, com raiva'], ['TIRED', 'cansado'], ['HUNGRY', 'com fome'], ['STRONG', 'forte'],
+  ['SMALL', 'pequeno'], ['BIG', 'grande'], ['FAST', 'rápido'], ['SLOW', 'devagar'], ['BEACH', 'praia'],
+  ['DOCTOR', 'médico ou médica'], ['NURSE', 'enfermeiro ou enfermeira'], ['DRIVER', 'motorista'], ['FARMER', 'agricultor'], ['SINGER', 'cantor ou cantora'],
+];
+// + 140 palavras extras em inglês
+export const INGLES = [...INGLES_BASE, ...INGLES_EXTRA];

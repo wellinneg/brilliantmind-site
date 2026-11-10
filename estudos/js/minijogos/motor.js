@@ -21,10 +21,11 @@ export const MINIJOGOS = {
   caixa: { nome: 'Corrida do caixa', icone: '💵', desc: 'Contas de preço e troco: quantas você acerta em 60 segundos?' },
   tabuada: { nome: 'Tabuada relâmpago', icone: '✖️', desc: 'Contas de vezes (e de dividir) em 60 segundos.' },
   vf: { nome: 'Verdadeiro ou falso', icone: '✅', desc: 'A definição está certa ou errada? 60 segundos.' },
-  embaralhada: { nome: 'Palavra embaralhada', icone: '🔀', desc: 'Monte a palavra com as letras misturadas.' },
+  embaralhada: { nome: 'Palavra embaralhada', icone: '🔀', desc: 'Monte 10 palavras com as letras embaralhadas, em português e em inglês. Letra no lugar certo fica verde.' },
   pares: { nome: 'Ligar os pares', icone: '🔗', desc: 'Ligue cada palavra ao seu significado.' },
   desejo: { nome: 'Necessidade ou desejo', icone: '🛒', desc: 'Separe rápido: precisa ou só quer?' },
-  cofre: { nome: 'Cofre secreto', icone: '🔐', desc: 'Descubra o código de 3 números com as pistas.' },
+  cofre: { nome: 'Cofre secreto', icone: '🔐', desc: 'Descubra o código secreto com as pistas. Escolha o nível: de 3 a 6 números.' },
+  quente: { nome: 'Palavra Quente', icone: '🔥', desc: 'Descubra a palavra secreta: cada palpite mostra se está 🔥 quente ou 🧊 frio.' },
 };
 
 /** Pode jogar valendo moedas? (`reg` = registro de hoje; null quando o conteúdo do ano acabou) */

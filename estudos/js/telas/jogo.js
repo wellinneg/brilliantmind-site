@@ -16,6 +16,7 @@ const MODULOS = {
   embaralhada: () => import('../minijogos/logica.js').then(m => ({ iniciar: m.palavraEmbaralhada })),
   pares: () => import('../minijogos/logica.js').then(m => ({ iniciar: m.ligarPares })),
   cofre: () => import('../minijogos/logica.js').then(m => ({ iniciar: m.cofre })),
+  quente: () => import('../minijogos/quente.js'),
 };
 
 export async function render(raiz, [tipo, id]) {

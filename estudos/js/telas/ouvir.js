@@ -30,7 +30,7 @@ export async function render(raiz) {
 
   {
     const tocar = el('button', { class: 'botao grande botao-ouvir' }, '▶ Ouvir');
-    // 🎙️ Thalita e Antônio se revezam por parágrafo (áudio gravado); sem o arquivo, usa a voz do celular
+    // 🎙️ áudio gravado com a voz da Thalita (um arquivo por parágrafo); sem o arquivo, usa a voz do celular
     const urls = ep.paragrafos.map((_, k) => `midia/ouvir/ep-${String(ep.ep).padStart(2, '0')}-p${k + 1}.mp3`);
     const narrador = criarNarradorComAudio(ep.paragrafos, urls, {
       aoMudar: (i, pausado) => {

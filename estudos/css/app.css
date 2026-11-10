@@ -462,6 +462,9 @@ details.cartao>summary{font-weight:700}
 .casa-letra{width:34px;height:42px;border-bottom:3px solid var(--lime);display:flex;align-items:center;justify-content:center;font-size:1.4rem;font-weight:900}
 .pecas-letras{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-bottom:12px}
 .pecas-letras .letra{width:42px;height:42px;aspect-ratio:auto;font-size:1.2rem}
+/* 🔀 letra já usada na palavra embaralhada: escura, menor e riscada */
+.pecas-letras .letra{transition:background .15s,transform .15s,opacity .15s}
+.pecas-letras .letra:disabled{background:#2E3D43;color:#7E9196;opacity:.75;transform:scale(.88);text-decoration:line-through;cursor:default}
 .colunas-pares{display:grid;grid-template-columns:1fr 1.4fr;gap:10px}
 .colunas-pares>div{display:flex;flex-direction:column;gap:8px}
 .item-par{padding:10px 6px;border-radius:10px;border:2px solid var(--navy-3);background:var(--navy-2);color:var(--texto);font-family:inherit;cursor:pointer;font-size:.8rem;min-height:54px}
@@ -580,3 +583,34 @@ details.cartao>summary{font-weight:700}
 .horarios-duelo{gap:8px;margin-bottom:10px}
 .contagem-duelo{font-size:3rem;font-weight:800;text-align:center;color:var(--lime);margin:8px 0;font-variant-numeric:tabular-nums}
 .sala-duelo{text-align:center}
+/* 🎁 sala das surpresas: o jogo descoberto fica à vista (toque para jogar de novo) */
+.esconderijo.descoberto{border-color:var(--lime);background:color-mix(in srgb,var(--lime) 16%,var(--navy-2,#12262D))}
+.esconderijo.descoberto .revelado{font-size:2rem}
+.esconderijo.descoberto small{color:var(--lime);font-weight:700;text-align:center;line-height:1.1}
+/* 👨‍👩‍👧 quem é quem na família (painel dos pais) */
+.lista-papeis{display:grid;gap:8px}
+.linha-papel{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 10px;border:1px solid var(--navy-3);border-radius:12px}
+.linha-papel select{min-width:130px}
+/* 🔐 cofre: escolha do nível */
+.niveis-cofre{display:grid;gap:10px}
+.niveis-cofre .botao{display:flex;flex-direction:column;align-items:center;gap:2px}
+.niveis-cofre small{font-weight:500;opacity:.85}
+/* 🔥 Palavra Quente */
+.form-quente{display:flex;gap:8px;margin:8px 0}
+.form-quente input{flex:1;min-width:0;font-size:1.1rem;text-transform:lowercase}
+.lista-quente,.ultimo-quente{display:grid;gap:6px;margin:8px 0}
+.ultimo-quente:empty{display:none}
+.palpite-quente{position:relative;display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-radius:10px;background:var(--navy-2);overflow:hidden;font-weight:700}
+.palpite-quente .barra-temp{position:absolute;inset:0 auto 0 0;width:calc(var(--temp) * 100%);background:linear-gradient(90deg,#1E88E5,#FDD835 55%,#E53935);opacity:.35}
+.palpite-quente .palavra,.palpite-quente .pos{position:relative}
+.palpite-quente.novo{outline:2px solid var(--lime)}
+/* 🔥 caça-objetos Extremo: tudo verde num cenário colorido e cheio */
+.bagunca.nivel-extremo{background:repeating-linear-gradient(45deg,#FFEB3B 0 14px,#FF7043 14px 28px,#42A5F5 28px 42px,#AB47BC 42px 56px,#66BB6A 56px 70px)}
+.bagunca.nivel-extremo .fundo-bagunca{mix-blend-mode:multiply}
+.confete-bagunca{position:absolute;pointer-events:none;opacity:.85}
+.bagunca.nivel-extremo .peca{filter:grayscale(1) sepia(1) hue-rotate(55deg) saturate(6) brightness(.85)}
+.bagunca.nivel-extremo .peca.achou{filter:none}
+/* 🔀 palavra embaralhada: letra no lugar certo fica verde */
+.casa-letra.no-lugar{background:#2E7D32;color:#fff;border-bottom-color:#66BB6A;border-radius:6px 6px 0 0}
+.casa-letra.fora-do-lugar{color:var(--texto)}
+.dica-ingles{border-left:4px solid #1E88E5}

@@ -2,11 +2,36 @@
 import { el, aviso } from '../ui.js';
 import { lerJogo } from '../jogo.js';
 import { firebaseConfigurado, lerFamilia, criarFamilia, entrarNaFamilia, sairDaFamilia, sincronizar } from '../familia.js';
+import { PAPEIS, meuPapel, papelDe, definirPapel } from '../papeis.js';
+import * as estado from '../estado.js';
 
 export async function secaoFamilia() {
   const caixa = el('div', {});
   await desenhar(caixa);
-  return el('section', {}, el('h2', {}, '👨‍👩‍👧 Disputa da família (internet)'), caixa);
+  return el('div', {}, await secaoPapeis(), el('section', {}, el('h2', {}, '👨‍👩‍👧 Disputa da família (internet)'), caixa));
+}
+
+/** 👨‍👩‍👧 Quem é quem: os pais definem quem é Filho e quem é Pai/Mãe. Pai/Mãe fica sem a lição escrita. */
+async function secaoPapeis() {
+  const caixa = el('div', {});
+  const desenharPapeis = async () => {
+    const jogo = await lerJogo();
+    const perfil = await estado.perfil();
+    const pessoas = [['eu', `${jogo.apelido || perfil?.nome || 'Este celular'} (este celular)`, meuPapel(jogo)],
+      ...Object.entries(jogo.outros || {}).map(([uid, o]) => [uid, o.apelido || 'Irmão', papelDe(jogo, uid)])];
+    caixa.replaceChildren(
+      el('p', { class: 'dica' }, 'Pai/Mãe continua com as lições e o jogo, só não tem a lição escrita (caderno e foto). A mudança chega no outro celular na próxima sincronização.'),
+      el('div', { class: 'lista-papeis' }, pessoas.map(([quem, nome, papel]) => el('div', { class: 'linha-papel' },
+        el('span', {}, nome),
+        el('select', { 'aria-label': `Papel de ${nome}`, onchange: async e => {
+          await definirPapel(quem, e.target.value);
+          if ((await lerFamilia())?.codigo) await sincronizar().catch(() => {});
+          aviso(`${nome.replace(' (este celular)', '')}: ${PAPEIS[e.target.value]}.`);
+          desenharPapeis();
+        } }, Object.entries(PAPEIS).map(([v, rotulo]) => el('option', { value: v, selected: v === papel }, rotulo)))))));
+  };
+  await desenharPapeis();
+  return el('section', {}, el('h2', {}, '👨‍👩‍👧 Quem é quem na família'), caixa);
 }
 
 function resultado(r) {

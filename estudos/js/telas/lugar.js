@@ -65,6 +65,7 @@ const mostrarRecorde = (tipo, v) => {
   if (v == null) return 'sem recorde';
   if (tipo === 'memoria') return `${v} jogadas`;
   if (tipo === 'cofre') return `${v} tentativas`;
+  if (tipo === 'quente') return `${v} palpites`;
   if (['caixa', 'tabuada', 'vf', 'desejo'].includes(tipo)) return `${v} certas`;
   return formatarTempo(v);
 };

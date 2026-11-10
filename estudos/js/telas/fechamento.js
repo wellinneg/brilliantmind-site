@@ -21,10 +21,11 @@ export async function render(raiz) {
     el('h2', {}, dia.leitura.titulo),
     ...dia.leitura.texto.split('\n\n').map(p => el('p', { class: 'texto-leitura' }, p)),
     gravador(reg),
-    el('h1', {}, '✍️ Escrita'),
-    el('p', {}, dia.escrita.proposta),
-    el('p', { class: 'dica' }, 'Escreva no caderno, com letra caprichada. Depois tire a foto da folha.'),
-    campoFoto('Foto da escrita', !!reg.fotoEscrita, blob => estado.salvarEscrita(reg, blob).then(atualizar)));
+    ...(reg.semEscrita ? [] : [          // 👨‍👩‍👧 Pai/Mãe não tem a lição escrita
+      el('h1', {}, '✍️ Escrita'),
+      el('p', {}, dia.escrita.proposta),
+      el('p', { class: 'dica' }, 'Escreva no caderno, com letra caprichada. Depois tire a foto da folha.'),
+      campoFoto('Foto da escrita', !!reg.fotoEscrita, blob => estado.salvarEscrita(reg, blob).then(atualizar))]));
   if (st.fechamentoOk) {
     raiz.append(
       el('div', { class: 'celebracao' }, reg.fechado ? '🎉 Dia concluído!' : 'Fechamento feito! Falta só a lição de casa na tela Hoje.'),
