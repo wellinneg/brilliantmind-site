@@ -6,6 +6,7 @@ import { rodarQuiz } from '../quiz-ui.js';
 import { carregarContexto } from './hoje.js';
 import { comemorarJogo } from '../comemorar.js';
 import { tocarIntroducaoProva } from '../intro-prova.js';
+import { carregarDia } from '../conteudo.js';
 
 // Partes da lição usadas também na revisão (retorno.js).
 export function corpoDaLicao(b, comAprofundamento) {
@@ -24,19 +25,24 @@ export function corpoDaLicao(b, comAprofundamento) {
 }
 
 export async function render(raiz, [indice]) {
-  const i = Number(indice);
-  const { reg, dia } = await carregarContexto();
-  if (!reg || !(i >= 0 && i < dia.blocos.length)) { navegar('#/hoje'); return; }
-  const b = dia.blocos[i];
-  const rb = reg.blocos[i];
+  const atrasada = String(indice).startsWith('a');
+  const i = atrasada ? String(indice) : Number(indice);
+  const { perfil, reg, dia } = await carregarContexto();
+  const rb = reg ? estado.blocoDoRegistro(reg, i) : null;
+  if (!reg || !rb || (!atrasada && !(i >= 0 && i < dia.blocos.length))) { navegar('#/hoje'); return; }
+  const conteudo = atrasada ? await carregarDia(perfil.ano, rb.dia).catch(() => null) : dia;
+  const b = conteudo?.blocos?.[atrasada ? rb.bloco : i];
+  if (!b) { navegar('#/hoje'); return; }
+  const origem = atrasada ? { dia: rb.dia, bloco: rb.bloco } : { dia: reg.diaConteudo, bloco: i };
 
   raiz.append(el('button', { class: 'voltar', onclick: () => navegar('#/hoje') }, '← Voltar'));
+  if (atrasada) raiz.append(el('div', { class: 'caixa-dica' }, el('strong', {}, '📌 Lição atrasada. '), `Ela era do dia ${rb.dia} da trilha e ficou para trás. Vale as mesmas notas de uma lição normal.`));
   const corpo = el('div', {});
   raiz.append(corpo);
   const desenharCorpo = dif => corpo.replaceChildren(...corpoDaLicao(b, COM_APROFUNDAMENTO.has(dif)).filter(Boolean));
   desenharCorpo(rb.dificuldade);
 
-  if (b.desafio_pratico) {
+  if (b.desafio_pratico && !atrasada) {
     raiz.append(el('div', { class: 'desafio' },
       el('h2', {}, '🛠️ Desafio prático'), el('p', {}, b.desafio_pratico),
       campoFoto('Foto do resultado (opcional)', !!reg.fotoDesafio?.[i], blob => estado.salvarDesafio(reg, i, blob).then(() => aviso('Foto salva!')))));
@@ -72,14 +78,14 @@ export async function render(raiz, [indice]) {
   }
 
   function iniciar(dif) {
-    rodarQuiz(area, prepararQuiz(b.quiz[dif], { dia: reg.diaConteudo, bloco: i, dificuldade: dif }), async ({ acertos, total, erros, respostas }) => {
+    rodarQuiz(area, prepararQuiz(b.quiz[dif], { dia: origem.dia, bloco: origem.bloco, dificuldade: dif }), async ({ acertos, total, erros, respostas }) => {
       const r = await estado.registrarQuiz(reg, i, b.materia, dif, acertos, total, erros.map(o => o.q), respostas);
       area.replaceChildren();
       if (r.treino) {
         area.append(el('div', { class: 'retorno certo' }, el('strong', {}, `Treino: ${acertos} de ${total}.`), el('p', {}, 'Treino não muda a nota nem os pontos.')),
           el('button', { class: 'botao grande', onclick: () => navegar('#/hoje') }, 'Voltar para Hoje'));
       } else if (r.aprovado) {
-        area.append(el('div', { class: 'celebracao' }, `Você acertou ${acertos} de ${total}! +${reg.blocos[i].pontos} ⭐`),
+        area.append(el('div', { class: 'celebracao' }, `Você acertou ${acertos} de ${total}! +${rb.pontos} ⭐`),
           comemorarJogo(r.jogo),
           el('button', { class: 'botao grande', onclick: () => navegar('#/hoje') }, 'Voltar para Hoje'));
       } else {
@@ -89,7 +95,7 @@ export async function render(raiz, [indice]) {
           el('button', { class: 'botao grande', onclick: () => navegar('#/hoje') }, 'Seguir em frente'));
       }
       // ⚡ Dia de prova: sem aviso nenhum antes, ela entra logo depois da 1ª lição terminada.
-      if (!r.treino && reg.prova && !reg.prova.revelada) {
+      if (!r.treino && !atrasada && reg.prova && !reg.prova.revelada) {
         await estado.revelarProva(reg);
         setTimeout(async () => { await tocarIntroducaoProva(); navegar('#/prova'); }, 1800);
       }

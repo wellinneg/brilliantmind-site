@@ -19,7 +19,7 @@ export function desempenhoLocal(registros, ano) {
   const porMateria = {};
   for (const r of registros) {
     if (r.ano !== ano || r.continuadoEm) continue;   // dia continuado conta uma vez só
-    for (const b of r.blocos || []) {
+    for (const b of [...(r.blocos || []), ...(r.atrasadas || [])]) {
       if (!b.feito || !b.materia) continue;
       const g = (porMateria[b.materia] ||= vazio());
       g.certas += b.nota ?? 0; g.perguntas += b.total || 5; g.licoes += 1;

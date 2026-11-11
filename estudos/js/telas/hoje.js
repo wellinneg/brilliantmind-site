@@ -98,6 +98,11 @@ export async function render(raiz) {
   const st = statusDoDia(reg);
   if (reg.fechado) raiz.append(el('div', { class: 'celebracao' }, '🎉 Dia concluído! Volte amanhã para continuar a trilha.'));
   raiz.append(...linhaSerie(`${ANOS[perfil.ano]} · Dia ${reg.diaConteudo} da trilha`));
+  const faltaRecente = await estado.faltasRecentes(perfil.ano, reg.data);
+  const naFila = (await estado.atrasadas(perfil.ano)).length;
+  if (faltaRecente.length || naFila) raiz.append(el('div', { class: 'caixa-dica aviso-falta' },
+    faltaRecente.length ? el('strong', {}, `✖ ${faltaRecente.length === 1 ? `${faltaRecente[0]} contou falta.` : `${faltaRecente.length} faltas desde a última vez.`} `) : null,
+    `A trilha não para: as lições que ficaram entram aos poucos, até ${estado.ATRASADAS_POR_DIA} por dia (📌).${naFila ? (naFila === 1 ? ' Ainda falta 1 para os próximos dias.' : ` Ainda faltam ${naFila} para os próximos dias.`) : ''}`));
 
   dia.blocos.forEach((b, i) => {
     const m = MATERIAS[b.materia];
@@ -108,6 +113,16 @@ export async function render(raiz) {
       el('span', { class: 'textos' }, el('small', {}, `Bloco ${i + 1} · ${m.nome} · ~${b.minutos} min${legenda}`), el('strong', {}, b.titulo)),
       el('span', {}, estadoDoBloco(rb))));
   });
+
+  for (const [k, a] of (reg.atrasadas || []).entries()) {
+    const original = await carregarDia(perfil.ano, a.dia).catch(() => null);
+    const ob = original?.blocos?.[a.bloco];
+    const m = MATERIAS[ob?.materia] || { icone: '📌', nome: '', cor: '#FFB74D' };
+    raiz.append(el('button', { class: `cartao bloco atrasada ${a.feito ? 'feito' : ''}`, style: `--cor:${m.cor}`, onclick: e => entrarComLuz(e.currentTarget, () => navegar(`#/licao/a${k}`)) },
+      el('span', { class: 'icone' }, '📌'),
+      el('span', { class: 'textos' }, el('small', {}, `Atrasada · dia ${a.dia} · ${m.icone} ${m.nome}`), el('strong', {}, ob?.titulo || `Lição do dia ${a.dia}`)),
+      el('span', {}, estadoDoBloco(a))));
+  }
 
   for (const [k, rv] of (reg.revisoes || []).entries()) {
     const m = MATERIAS[rv.materia] || { icone: '🔁', nome: '', cor: '#CEF010' };
@@ -147,7 +162,7 @@ export async function render(raiz) {
       el('span', {}, '▶')));
   }
   if (!reg.semEscrita) raiz.append(secaoLicaoDeCasa(reg));   // Pai/Mãe: sem leitura e sem lição de casa
-  const faltam = [!st.revisoesOk && 'a revisão 🔁', !st.ouvirOk && 'o Ouvir 🎧', !st.provaOk && reg.prova?.revelada && 'a prova surpresa ⚡'].filter(Boolean);
+  const faltam = [!st.atrasadasOk && 'as lições atrasadas 📌', !st.revisoesOk && 'a revisão 🔁', !st.ouvirOk && 'o Ouvir 🎧', !st.provaOk && reg.prova?.revelada && 'a prova surpresa ⚡'].filter(Boolean);
   if (!reg.fechado && st.blocosOk && st.fechamentoOk && st.casaOk && faltam.length) {
     raiz.append(el('p', { class: 'dica' }, `Para fechar o dia, falta: ${faltam.join(', ')}.`));
   }

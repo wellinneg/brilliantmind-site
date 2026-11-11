@@ -17,7 +17,8 @@ export function situacaoPorData(registros) {
     m.pontos += r.pontos || 0;
     const fez = r.fechado || r.blocos?.some(b => b.feito);
     if (r.fechado) m.estado = 'completo';
-    else if (fez && m.estado !== 'completo') m.estado = 'incompleto';
+    else if (r.falta && m.estado !== 'completo') m.estado = 'falta';
+    else if (fez && !m.estado) m.estado = 'incompleto';
   }
   return mapa;
 }

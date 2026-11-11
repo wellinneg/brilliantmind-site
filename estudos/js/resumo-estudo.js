@@ -21,6 +21,9 @@ export async function resumoDeEstudo() {
     (r.blocos || []).forEach((b, i) => {
       if (b.feito) blocos.push([r.diaConteudo, i, b.nota ?? 0, NIVEL[b.dificuldade] || '', b.aprovado ? 1 : 0, 0]);
     });
+    for (const a of r.atrasadas || []) {
+      if (a.feito) blocos.push([a.dia, a.bloco, a.nota ?? 0, NIVEL[a.dificuldade] || '', a.aprovado ? 1 : 0, 0]);
+    }
     for (const rv of r.revisoes || []) {
       if (rv.feito && rv.dia) blocos.push([rv.dia, rv.bloco, rv.nota ?? 0, NIVEL[rv.dificuldade] || '', rv.aprovado ? 1 : 0, 1]);
     }

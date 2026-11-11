@@ -1,8 +1,8 @@
 import * as db from './db.js';
-import { novoRegistro, statusDoDia, idRegistro } from './rodizio.js';
+import { novoRegistro, statusDoDia, idRegistro, materiasDoDia } from './rodizio.js';
 import { PONTOS, resultadoQuiz, pontosDoBloco, nivelDeAjuda } from './quiz.js';
 import { estatisticas } from './conquistas.js';
-import { hojeISO } from './datas.js';
+import { hojeISO, ehFimDeSemana, somarDias } from './datas.js';
 import { registrarMoedas, registrarBonus } from './jogo.js';
 import { sincronizarDepois } from './familia.js';
 import { ganharTurnoEmpresa } from './empresa.js';
@@ -18,6 +18,65 @@ export const pendentes = async ano => (await db.lerConfig(chavePendentes(ano))) 
 const gravarPendentes = (ano, lista) => db.gravarConfig(chavePendentes(ano), lista);
 
 export const REVISOES_POR_DIA = 2;
+// 📌 Lições atrasadas: o calendário não para (como na escola). Dia não terminado conta falta e as lições
+// que ficaram entram nos dias seguintes, no máximo ATRASADAS_POR_DIA por dia, das mais antigas para as novas.
+export const ATRASADAS_POR_DIA = 2;
+const chaveAtrasadas = ano => `atrasadas:${ano}`;
+export const atrasadas = async ano => (await db.lerConfig(chaveAtrasadas(ano))) || [];
+const chaveLicao = a => `${a.dia}-${a.bloco}`;
+
+/**
+ * Fecha o que ficou para trás antes de começar o dia de hoje:
+ * 1) dia começado e não terminado: fica encerrado (falta, se for dia de semana) e as lições não feitas viram atrasadas;
+ * 2) dia de semana sem nada registrado (não abriu o app): conta falta e as lições daquele dia viram atrasadas.
+ * Fim de semana sem estudo não conta falta nem gasta dia da trilha.
+ */
+export async function lancarFaltas(ano, totalDias, hoje = hojeISO()) {
+  const regs = (await db.listarDias()).filter(r => r.ano === ano && r.data < hoje);
+  if (!regs.length) return;                    // ainda não começou a trilha: nada a cobrar
+  const fila = await atrasadas(ano);
+  const naFila = new Set(fila.map(chaveLicao));
+  const novas = [];
+  const juntar = a => { if (!naFila.has(chaveLicao(a))) { naFila.add(chaveLicao(a)); novas.push({ dia: a.dia, bloco: a.bloco }); } };
+  let proximo = await proximoDia(ano);
+  for (const r of regs.filter(x => !x.fechado && !x.encerrado && !x.continuadoEm).sort((a, b) => a.data.localeCompare(b.data))) {
+    if (statusDoDia(r).podeFechar) { await fecharDiaSePossivel(r); if (r.diaConteudo >= proximo) proximo = r.diaConteudo + 1; continue; }
+    for (const a of r.atrasadas || []) if (!a.feito) juntar(a);          // as atrasadas que voltaram, primeiro
+    r.blocos.forEach((b, i) => { if (!b?.feito) juntar({ dia: r.diaConteudo, bloco: i }); });
+    r.encerrado = true;
+    r.falta = !ehFimDeSemana(r.data);
+    await db.gravarDia(r);
+    if (r.diaConteudo >= proximo) proximo = r.diaConteudo + 1;
+  }
+  const ultima = regs.map(r => r.data).sort().pop();
+  for (let d = somarDias(ultima, 1); d < hoje; d = somarDias(d, 1)) {
+    if (ehFimDeSemana(d) || proximo > totalDias) continue;
+    const f = novoRegistro(ano, d, proximo);
+    Object.assign(f, { encerrado: true, falta: true, semAbrir: true, ouvir: null, prova: null });
+    await db.gravarDia(f);
+    materiasDoDia(proximo).forEach((_, i) => juntar({ dia: proximo, bloco: i }));
+    proximo++;
+  }
+  const ordem = (a, b) => a.dia - b.dia || a.bloco - b.bloco;
+  await db.gravarConfig(chaveAtrasadas(ano), [...fila, ...novas].sort(ordem));
+  await db.gravarConfig(chaveProximo(ano), proximo);
+}
+
+/** Faltas entre o último dia em que estudou e hoje (para o aviso da tela Hoje): ['ontem', '10/11', ...]. */
+export async function faltasRecentes(ano, hoje = hojeISO()) {
+  const regs = (await db.listarDias()).filter(r => r.ano === ano && r.data < hoje).sort((a, b) => b.data.localeCompare(a.data));
+  const lista = [];
+  for (const r of regs) {
+    if (!r.falta) break;
+    lista.push(r.data === somarDias(hoje, -1) ? 'Ontem' : `O dia ${r.data.slice(8)}/${r.data.slice(5, 7)}`);
+  }
+  return lista;
+}
+
+// Um "bloco" do dia pode ser um bloco normal (índice 0, 1, ...) ou uma lição atrasada ("a0", "a1", ...).
+const ehAtrasada = i => String(i).startsWith('a');
+export const blocoDoRegistro = (reg, i) => (ehAtrasada(i) ? reg.atrasadas?.[Number(String(i).slice(1))] : reg.blocos[i]);
+const origemDe = (reg, i) => (ehAtrasada(i) ? { dia: blocoDoRegistro(reg, i).dia, bloco: blocoDoRegistro(reg, i).bloco } : { dia: reg.diaConteudo, bloco: i });
 export const DIAS_PARA_VOLTAR = 2;
 
 export async function trocarAno(ano) {
@@ -36,47 +95,32 @@ export async function ajustarBlocos(reg, n) {
 export async function registroDeHoje(ano, totalDias, hoje = hojeISO()) {
   const existente = await db.lerDia(idRegistro(ano, hoje));
   if (existente) return existente;
+  await lancarFaltas(ano, totalDias, hoje);
   const proximo = await proximoDia(ano);
   if (proximo > totalDias) return null;
   const reg = novoRegistro(ano, hoje, proximo);
-  // Se o mesmo dia de conteúdo ficou pela metade antes, aproveita o que já foi feito
-  // (blocos, revisões, leitura e escrita). A lição de casa da escola é de cada data e recomeça.
-  const anterior = (await db.listarDias())
-    .filter(r => r.ano === ano && r.data < hoje && !r.fechado && !r.continuadoEm && r.diaConteudo === proximo)
-    .sort((a, b) => b.data.localeCompare(a.data))[0];
-  if (anterior) {
-    reg.blocos = anterior.blocos.map(b => ({ ...b }));
-    reg.revisoes = (anterior.revisoes || []).map(r => ({ ...r }));
-    if (anterior.ouvir) reg.ouvir = { ...anterior.ouvir };
-    if (anterior.prova) reg.prova = { ...anterior.prova };
-    reg.pontos = anterior.pontos;
-    anterior.pontos = 0; // os pontos passam para o registro novo, para não contar duas vezes
-    reg.audioLeitura = anterior.audioLeitura;
-    reg.duracaoLeitura = anterior.duracaoLeitura;
-    reg.fotoEscrita = anterior.fotoEscrita;
-    reg.fotoDesafio = { ...anterior.fotoDesafio };
-    anterior.continuadoEm = hoje;
-    await db.gravarDia(anterior);
-  } else {
-    reg.revisoes = (await pendentes(ano))
-      .filter(p => p.voltaNoDia <= proximo)
-      .sort((a, b) => a.voltaNoDia - b.voltaNoDia)
-      .slice(0, REVISOES_POR_DIA)
-      .map(p => ({ pendente: p.id, dia: p.dia, bloco: p.bloco, materia: p.materia, dificuldade: p.dificuldade, ajuda: nivelDeAjuda(p.voltas), feito: false }));
-  }
+  reg.revisoes = (await pendentes(ano))
+    .filter(p => p.voltaNoDia <= proximo)
+    .sort((a, b) => a.voltaNoDia - b.voltaNoDia)
+    .slice(0, REVISOES_POR_DIA)
+    .map(p => ({ pendente: p.id, dia: p.dia, bloco: p.bloco, materia: p.materia, dificuldade: p.dificuldade, ajuda: nivelDeAjuda(p.voltas), feito: false }));
+  const fila = await atrasadas(ano);
+  reg.atrasadas = fila.slice(0, ATRASADAS_POR_DIA).map(a => ({ dia: a.dia, bloco: a.bloco }));
+  await db.gravarConfig(chaveAtrasadas(ano), fila.slice(ATRASADAS_POR_DIA));
   await db.gravarDia(reg);
   return reg;
 }
 
 export async function escolherDificuldade(reg, i, dificuldade) {
-  const b = reg.blocos[i];
+  const b = blocoDoRegistro(reg, i);
   if (b.feito || b.dificuldade) return;
   b.dificuldade = dificuldade;
   await db.gravarDia(reg);
 }
 
 export async function registrarQuiz(reg, i, materia, dificuldade, acertos, total, errosIdx, respostas = []) {
-  const b = reg.blocos[i];
+  const b = blocoDoRegistro(reg, i);
+  const o = origemDe(reg, i);
   const r = resultadoQuiz(acertos, total);
   if (b.feito) return { ...r, treino: true }; // refazer é só treino
   Object.assign(b, { materia, dificuldade, feito: true, aprovado: r.aprovado, nota: acertos, total, erros: errosIdx, respostas });
@@ -88,8 +132,8 @@ export async function registrarQuiz(reg, i, materia, dificuldade, acertos, total
     await registrarEvento('notas', { valor: b.pontos });
     if (r.jogo?.conquistou) await registrarEvento('conquista');
   } else {
-    const lista = (await pendentes(reg.ano)).filter(p => p.id !== `${reg.diaConteudo}-${i}`);
-    lista.push({ id: `${reg.diaConteudo}-${i}`, dia: reg.diaConteudo, bloco: i, materia, dificuldade, voltas: 0, voltaNoDia: reg.diaConteudo + DIAS_PARA_VOLTAR });
+    const lista = (await pendentes(reg.ano)).filter(p => p.id !== `${o.dia}-${o.bloco}`);
+    lista.push({ id: `${o.dia}-${o.bloco}`, dia: o.dia, bloco: o.bloco, materia, dificuldade, voltas: 0, voltaNoDia: reg.diaConteudo + DIAS_PARA_VOLTAR });
     await gravarPendentes(reg.ano, lista);
   }
   await registrarEvento('licao', { dificuldade, aprovado: r.aprovado, nota: acertos });

@@ -170,7 +170,7 @@ function cartaoDia(d) {
   const casa = d.temLicao === null ? 'não respondida' : (d.temLicao ? 'sim' : 'não tinha');
   const corpo = el('div', {});
   const det = el('details', { class: 'cartao' },
-    el('summary', {}, `${exibir(d.data)} · ${ANOS[d.ano]} · ${d.fechado ? '✅ completo' : (d.continuadoEm ? '↪ continuado' : '⏳ incompleto')} · dia ${d.diaConteudo}`),
+    el('summary', {}, `${exibir(d.data)} · ${ANOS[d.ano]} · ${d.fechado ? '✅ completo' : d.falta ? (d.semAbrir ? '✖ falta (não abriu)' : '✖ falta') : (d.continuadoEm ? '↪ continuado' : '⏳ incompleto')} · dia ${d.diaConteudo}`),
     corpo);
   det.addEventListener('toggle', async () => {
     if (!det.open || corpo.childElementCount) return;

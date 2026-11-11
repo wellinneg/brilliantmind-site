@@ -66,12 +66,13 @@ export function novoRegistro(ano, data, diaConteudo, nBlocos = materiasDoDia(dia
 export function statusDoDia(reg) {
   const blocosOk = reg.blocos.every(b => b?.feito === true);
   const revisoesOk = (reg.revisoes || []).every(r => r.feito === true);
+  const atrasadasOk = (reg.atrasadas || []).every(a => a.feito === true);
   const pais = reg.semEscrita === true;   // 👨‍👩‍👧 Pai/Mãe: sem leitura, sem escrita e sem lição de casa
   const fechamentoOk = pais || (!!reg.audioLeitura && !!reg.fotoEscrita);
   const casaOk = pais || reg.temLicao === false || (reg.temLicao === true && !!reg.fotos.inicio && !!reg.fotos.fim);
   const ouvirOk = !reg.ouvir || reg.ouvir.feito === true;   // dias sem Ouvir/Prova (ou registros antigos): ok
   const provaOk = !reg.prova || reg.prova.feito === true;
-  return { blocosOk, revisoesOk, fechamentoOk, casaOk, ouvirOk, provaOk, podeFechar: blocosOk && revisoesOk && fechamentoOk && casaOk && ouvirOk && provaOk };
+  return { blocosOk, revisoesOk, atrasadasOk, fechamentoOk, casaOk, ouvirOk, provaOk, podeFechar: blocosOk && revisoesOk && atrasadasOk && fechamentoOk && casaOk && ouvirOk && provaOk };
 }
 
 export function calcularSequencia(fechados, hoje) {
