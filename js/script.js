@@ -316,7 +316,8 @@ const gradePrecos = document.querySelector('.precos__grade');
 const notaPrecos = document.getElementById('precos-nota');
 
 let sistemaAtual = 'nfe';
-let periodoAtual = 'anual';
+const PERIODO_INICIAL = 'mensal'; // período que aparece primeiro (e ao trocar de sistema)
+let periodoAtual = PERIODO_INICIAL;
 
 function obterDadosAtuais() {
   const bloco = precos[sistemaAtual];
@@ -348,8 +349,8 @@ abas.forEach((aba) => {
     abas.forEach((a) => a.classList.remove('ativa'));
     aba.classList.add('ativa');
     sistemaAtual = aba.dataset.sistema;
-    periodoAtual = 'anual';
-    botoesPeriodo.forEach((b) => b.classList.toggle('ativa', b.dataset.periodo === 'anual'));
+    periodoAtual = PERIODO_INICIAL;
+    botoesPeriodo.forEach((b) => b.classList.toggle('ativa', b.dataset.periodo === PERIODO_INICIAL));
     aplicarPrecos();
   });
 });
