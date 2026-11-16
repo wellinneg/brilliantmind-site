@@ -5,7 +5,7 @@ import { lerJogo, gravarJogo } from '../jogo.js';
 import {
   RAMOS, REGRAS, abrirEmpresa, simularDia, demandaEsperada, retirarLucro, aportar, abrirUnidade, trocarRegime, trocaLiberadaEm, podeTrocar, fecharEmpresa,
   faturamentoRecente, normalizarEmpresa, candidatosDoDia, contratar, demitir, clientesDoFuncionario, custoDoFuncionario,
-  custoDaEquipe, comEncargos, prepararDiaDeNegocio,
+  custoDaEquipe, comEncargos, prepararDiaDeNegocio, ehChefe, cargoDe, hierarquia, atendentesDe, lojasAtivas, lojasParadas, faltaChefia, maxLojas,
 } from '../empresa.js';
 import { statusDoDia } from '../rodizio.js';
 import { carregarContexto } from './hoje.js';
@@ -38,6 +38,7 @@ export async function render(raiz) {
       el('div', {}, el('small', {}, 'Caixa da empresa'), el('strong', { class: emp.caixa < 0 ? 'saida' : 'entrada' }, `💵 ${n2(emp.caixa)}`)),
       el('div', {}, el('small', {}, 'Estoque'), el('strong', {}, `📦 ${emp.estoque}`)),
       el('div', {}, el('small', {}, 'Negócios hoje'), el('strong', {}, `📅 ${emp.turnos} de ${REGRAS.negociosPorDia}`))));
+  raiz.append(quadroPessoas(emp));
 
   raiz.append(secaoEquipe(jogo, emp, r));
   if (emp.turnos > 0) raiz.append(painelDia(jogo, emp, r));
@@ -128,6 +129,34 @@ function painelDia(jogo, emp, r) {
     area);
 }
 
+const ICONE_CARGO = { atendente: '👤', supervisor: '🧭', gerente: '💼', ceo: '👑', cfo: '📈' };
+const FUNCAO_CARGO = {
+  supervisor: 'Coordena até 4 funcionários de loja. Não cuida de loja nem atende clientes.',
+  gerente: 'Coordena até 4 supervisores. Cuida dos resultados de várias lojas.',
+  ceo: 'Comanda a empresa inteira e coordena os gerentes.',
+  cfo: 'Diretor financeiro: cuida do dinheiro da empresa e coordena os gerentes.',
+};
+
+/** 👥 Quem cuida de cada loja e a hierarquia (funcionário → supervisor → gerente → CEO). */
+function quadroPessoas(emp) {
+  const h = hierarquia(emp);
+  return el('section', { class: 'cartao quadro-pessoas' },
+    el('h2', {}, '👥 Pessoas e lojas'),
+    el('p', {}, `🏬 Lojas: ${emp.unidades || 1} de no máximo ${maxLojas()} · abertas: ${lojasAtivas(emp)}${lojasParadas(emp) ? ` · ⛔ ${lojasParadas(emp)} fechada(s) por falta de gente` : ''}`),
+    el('p', {}, '🙋 Você (dono) cuida de 1 loja.'),
+    el('div', { class: 'hierarquia' }, h.map(x => el('div', { class: `cargo-degrau ${x.tem < x.precisa ? 'falta' : ''}` },
+      el('span', { class: 'ic' }, ICONE_CARGO[x.cargo]), el('small', {}, x.nome),
+      el('strong', {}, x.cargo === 'atendente' ? `${x.tem}` : `${x.tem}${x.precisa ? ` de ${x.precisa}` : ''}`)))),
+    el('details', {},
+      el('summary', {}, '🪜 Como funciona a hierarquia?'),
+      el('ul', {},
+        el('li', {}, 'Cada loja precisa de uma pessoa cuidando: você cuida de uma e cada funcionário cuida de mais uma.'),
+        el('li', {}, `A partir de ${REGRAS.porChefe} funcionários é preciso supervisor: 1 para cada grupo de até ${REGRAS.porChefe} (com 5 funcionários, 2 supervisores). O chefe entra antes de o grupo se completar.`),
+        el('li', {}, `A partir de ${REGRAS.porChefe} supervisores é preciso gerente: 1 para cada grupo de até ${REGRAS.porChefe}.`),
+        el('li', {}, 'Com 2 gerentes é obrigatório um CEO ou um CFO para comandar.'),
+        el('li', {}, `O tamanho máximo é ${maxLojas()} lojas.`))));
+}
+
 /** 👷 Equipe: quem trabalha, quanto custa, quanto produz; candidatos do dia para contratar. */
 function secaoEquipe(jogo, emp, r) {
   const margem = Math.max(0, emp.preco - r.custo);
@@ -137,6 +166,11 @@ function secaoEquipe(jogo, emp, r) {
     const custo = custoDoFuncionario(f, emp.bonus || 0);
     const gera = clientes * margem;
     const exp = Math.min(REGRAS.experienciaMax, (f.dias || 0) * REGRAS.experienciaPorDia);
+    if (ehChefe(f)) return el('div', { class: 'ficha-funcionario' },
+      el('div', { class: 'ficha-topo' }, el('strong', {}, `${ICONE_CARGO[cargoDe(f)]} ${f.nome}`), el('span', { class: `nivel-func chefe ${cargoDe(f)}` }, n.nome)),
+      el('p', {}, FUNCAO_CARGO[cargoDe(f)]),
+      el('p', {}, `💸 Custa ${n2(custo)} por dia: salário ${n2(n.salario)} + encargos ${n2(comEncargos(n.salario) - n.salario)}${emp.bonus ? ` + bônus ${REGRAS.bonus[emp.bonus]}` : ''}`),
+      acoes);
     return el('div', { class: 'ficha-funcionario' },
       el('div', { class: 'ficha-topo' }, el('strong', {}, `👤 ${f.nome}`), el('span', { class: `nivel-func ${f.nivel}` }, n.nome)),
       el('p', {}, `📈 Atende +${n2(clientes)} clientes por dia${exp ? ` (experiência +${Math.round(exp * 100)}%)` : ''}`),
@@ -146,8 +180,9 @@ function secaoEquipe(jogo, emp, r) {
   };
   const equipe = emp.equipe.map(f => ficha(f, el('button', { class: 'link', onclick: async () => {
     const custo = n2(comEncargos(REGRAS.niveis[f.nivel].salario) * REGRAS.rescisaoDias);
-    if (!confirm(`Demitir ${f.nome}? A rescisão custa ${custo} notas do caixa (direitos do trabalhador).`)) return;
-    demitir(emp, f.id); await gravarJogo(jogo); sons.erro(); redesenhar();
+    const fecha = !ehChefe(f) && (emp.unidades || 1) > atendentesDe(emp).length ? ' Uma loja vai ficar sem ninguém e fecha até você contratar outra pessoa.' : '';
+    if (!confirm(`Demitir ${f.nome}? A rescisão custa ${custo} notas do caixa (direitos do trabalhador).${fecha}`)) return;
+    try { demitir(emp, f.id); await gravarJogo(jogo); sons.erro(); redesenhar(); } catch (e) { sons.erro(); aviso(e.message); }
   } }, 'Demitir')));
   const lotado = emp.regime === 'mei' && emp.equipe.length >= REGRAS.meiMaxFuncionarios;
   const candidatos = candidatosDoDia(emp, hojeISO()).map(c => ficha(c, el('button', {
@@ -158,10 +193,11 @@ function secaoEquipe(jogo, emp, r) {
   }, '✍️ Contratar com carteira assinada')));
   return el('section', { class: 'cartao equipe' },
     el('h2', {}, `👷 Equipe (${emp.equipe.length})`),
+    faltaChefia(emp) ? el('p', { class: 'caixa-dica' }, `🪜 Falta chefia: ${hierarquia(emp).filter(h => h.tem < h.precisa).map(h => `${h.nome} (tem ${h.tem}, precisa ${h.precisa})`).join(', ')}. Sem a chefia, a equipe rende 30% menos. Contrate nos candidatos.`) : null,
     emp.equipe.length ? el('div', {}, equipe) : el('p', { class: 'dica' }, 'Ninguém contratado ainda. Sozinho dá para começar; com equipe, atende mais clientes.'),
     emp.equipe.length ? el('p', { class: 'dica' }, `Custo total da equipe por dia: ${n2(custoDaEquipe(emp))}`) : null,
     el('details', { class: 'candidatos' },
-      el('summary', {}, `🧑‍💼 Candidatos de hoje (3)${lotado ? ' · MEI só pode ter 1 funcionário' : ''}`),
+      el('summary', {}, `🧑‍💼 Candidatos de hoje (${candidatos.length})${lotado ? ' · MEI só pode ter 1 funcionário' : ''}`),
       el('div', {}, candidatos)),
     el('details', {},
       el('summary', {}, '❓ Por que o funcionário custa mais que o salário?'),
@@ -220,6 +256,7 @@ function painelDinheiro(jogo, emp) {
       el('button', { class: 'botao secundario', onclick: agir(() => aportar(jogo, valor.value)) }, 'Colocar no caixa ➡')),
     el('p', { class: 'dica' }, 'Retirar lucro leva o dinheiro para a sua carteira (loja, banco, territórios). Colocar no caixa é um aporte do dono.'),
     el('button', { class: 'botao secundario grande', onclick: agir(() => abrirUnidade(emp)) }, `🏬 Abrir mais uma unidade (${REGRAS.custoUnidade} do caixa)`),
+    el('p', { class: 'dica' }, `Cada loja precisa de alguém cuidando: você cuida de uma e cada funcionário cuida de mais uma. ${(emp.unidades || 1) >= 1 + atendentesDe(emp).length ? 'Para abrir outra, contrate um funcionário primeiro.' : 'Você já tem gente para abrir mais uma.'}`),
     quadroTroca(jogo, emp, agir),
   );
 }

@@ -26,7 +26,19 @@ export const REGRAS = {
     iniciante: { nome: 'Iniciante', salario: 6, produtividade: 0.35 },
     experiente: { nome: 'Experiente', salario: 8, produtividade: 0.5 },
     especialista: { nome: 'Especialista', salario: 11, produtividade: 0.7 },
+    // chefia: coordena, não atende balcão nem cuida de loja
+    supervisor: { nome: 'Supervisor', salario: 14, produtividade: 0 },
+    gerente: { nome: 'Gerente', salario: 20, produtividade: 0 },
+    ceo: { nome: 'CEO', salario: 30, produtividade: 0 },
+    cfo: { nome: 'CFO', salario: 30, produtividade: 0 },
   },
+  // 🪜 Hierarquia (o chefe entra ANTES de o grupo dele se completar): a partir de 4 funcionários,
+  // 1 supervisor para cada grupo de até 4 (5 funcionários → 2 supervisores); a partir de 4 supervisores,
+  // 1 gerente para cada grupo de até 4; com 2 gerentes é obrigatório um CEO ou um CFO.
+  // Tamanho máximo: 32 lojas (o dono + 31 funcionários de loja).
+  porChefe: 4,
+  maxLojas: 32,
+  semChefia: 0.7,              // equipe sem a chefia necessária rende 30% menos
   bonus: [0, 1, 2, 3],         // bonificação por funcionário por dia
   efeitoBonus: [0, 0.15, 0.25, 0.3], // quanto o bônus aumenta a produção (o ganho vai diminuindo)
   experienciaPorDia: 0.01,     // cada dia trabalhado rende +1% (até +20%)
@@ -46,6 +58,44 @@ export const REGRAS = {
 };
 
 const arred = v => Math.round(v * 100) / 100;
+
+// 👥 Pessoas: cada loja (unidade) precisa de alguém cuidando. O dono cuida de uma; cada funcionário
+// (atendente) cuida de mais uma. Supervisor, gerente e CEO não cuidam de loja: eles coordenam.
+export const CARGOS = ['atendente', 'supervisor', 'gerente', 'ceo'];   // degraus; o topo pode ser CEO ou CFO
+const degrauDe = c => (c === 'cfo' ? 3 : CARGOS.indexOf(c));
+export const cargoDe = f => (CARGOS.includes(f?.nivel) || f?.nivel === 'cfo' ? f.nivel : 'atendente');
+export const ehChefe = f => cargoDe(f) !== 'atendente';
+const contar = emp => CARGOS.map((_, k) => (emp.equipe || []).filter(f => degrauDe(cargoDe(f)) === k).length);
+export const atendentesDe = emp => (emp.equipe || []).filter(f => !ehChefe(f));
+/** Quantos chefes do cargo k são necessários com `abaixo` pessoas no nível de baixo. */
+const necessario = (k, abaixo) => (k === 0 ? 0 : k === 3 ? (abaixo >= 2 ? 1 : 0) : (abaixo >= REGRAS.porChefe ? Math.ceil(abaixo / REGRAS.porChefe) : 0));
+/** Quantos de cada cargo existem e quantos são necessários. */
+export function hierarquia(emp) {
+  const tem = contar(emp);
+  return CARGOS.map((c, k) => ({ cargo: c, nome: c === 'atendente' ? 'Funcionário' : c === 'ceo' ? 'CEO ou CFO' : REGRAS.niveis[c].nome, tem: tem[k], precisa: necessario(k, k ? tem[k - 1] : 0) }));
+}
+/** Lojas que abrem as portas: no máximo uma por pessoa (dono + atendentes). */
+export const lojasAtivas = emp => Math.min(emp.unidades || 1, 1 + atendentesDe(emp).length);
+export const lojasParadas = emp => (emp.unidades || 1) - lojasAtivas(emp);
+export const faltaChefia = emp => hierarquia(emp).some(h => h.tem < h.precisa);
+export const maxLojas = () => REGRAS.maxLojas;
+/** Por que não dá para contratar alguém desse cargo agora (ou null se dá). */
+export function motivoNaoContratar(emp, cargo) {
+  const k = degrauDe(cargo);
+  const tem = hierarquia(emp).map(x => x.tem);
+  const nome = c => (c === 'atendente' ? 'funcionário' : REGRAS.niveis[c].nome);
+  if (cargo === 'atendente' && tem[0] + 1 > REGRAS.maxLojas - 1) return `A empresa chegou ao tamanho máximo: ${REGRAS.maxLojas} lojas (você e ${REGRAS.maxLojas - 1} funcionários).`;
+  // chefe só entra quando já precisa, ou quando o próximo do nível de baixo vai precisar dele
+  if (k > 0 && tem[k] + 1 > Math.max(necessario(k, tem[k - 1]), necessario(k, tem[k - 1] + 1))) {
+    return `Ainda não precisa de mais ${nome(cargo).toLowerCase()}: veja a regra da hierarquia.`;
+  }
+  // quem entra no nível k precisa ter chefe suficiente no nível de cima
+  if (k + 1 < CARGOS.length && tem[k + 1] < necessario(k + 1, tem[k] + 1)) {
+    const acima = CARGOS[k + 1];
+    return `Para ter mais ${nome(cargo).toLowerCase()}, a empresa precisa de ${acima === 'ceo' ? 'um CEO ou CFO' : `mais um ${nome(acima).toLowerCase()}`} para coordenar. Contrate ${acima === 'ceo' ? 'o CEO ou o CFO' : `o ${nome(acima).toLowerCase()}`} primeiro.`;
+  }
+  return null;
+}
 export const comEncargos = salario => arred(salario * (1 + REGRAS.encargos));
 export const salarioComEncargos = () => comEncargos(REGRAS.niveis.experiente.salario);
 
@@ -65,13 +115,14 @@ export function normalizarEmpresa(emp) {
 
 /** Produção de um funcionário (fração da demanda base que ele atende a mais), com bônus e experiência. */
 export function produtividadeDe(f, bonus = 0) {
+  if (ehChefe(f)) return 0;
   const n = REGRAS.niveis[f.nivel] || REGRAS.niveis.experiente;
   return n.produtividade * (1 + REGRAS.efeitoBonus[bonus]) * (1 + Math.min(REGRAS.experienciaMax, (f.dias || 0) * REGRAS.experienciaPorDia));
 }
 /** Quantos clientes a mais por dia esse funcionário atende. */
 export function clientesDoFuncionario(emp, f, bonus = emp.bonus || 0) {
   const r = RAMOS[emp.ramo];
-  return r.demanda * emp.unidades * produtividadeDe(f, bonus);
+  return r.demanda * lojasAtivas(emp) * produtividadeDe(f, bonus) * (faltaChefia(emp) ? REGRAS.semChefia : 1);
 }
 export function custoDoFuncionario(f, bonus = 0) {
   const n = REGRAS.niveis[f.nivel] || REGRAS.niveis.experiente;
@@ -89,13 +140,16 @@ export function candidatosDoDia(emp, data) {
   return niveis.map((nivel, k) => {
     const nome = livres.splice(Math.floor(aleatorio() * livres.length), 1)[0] || `Candidato ${k + 1}`;
     return { id: `c-${data}-${k}`, nome, nivel };
-  });
+  }).concat(emp.regime === 'mei' ? [] : ['supervisor', 'gerente', 'ceo', 'cfo'].filter(c => !motivoNaoContratar(emp, c))
+    .map(c => ({ id: `c-${data}-${c}`, nome: livres.splice(Math.floor(aleatorio() * livres.length), 1)[0] || 'Candidato', nivel: c })));
 }
 
 export function contratar(emp, candidato) {
   normalizarEmpresa(emp);
   if (emp.regime === 'mei' && emp.equipe.length >= REGRAS.meiMaxFuncionarios) throw new Error('No MEI só pode ter 1 funcionário. Para ter mais, mude para o Simples Nacional.');
   if (emp.equipe.some(f => f.nome === candidato.nome)) throw new Error(`${candidato.nome} já trabalha na empresa.`);
+  const motivo = motivoNaoContratar(emp, cargoDe(candidato));
+  if (motivo) throw new Error(motivo);
   emp.equipe.push({ id: `f-${Date.now()}-${emp.equipe.length}`, nome: candidato.nome, nivel: candidato.nivel, dias: 0 });
   emp.funcionarios = emp.equipe.length;
 }
@@ -105,6 +159,10 @@ export function demitir(emp, id) {
   normalizarEmpresa(emp);
   const f = emp.equipe.find(x => x.id === id);
   if (!f) throw new Error('Funcionário não encontrado.');
+  if (ehChefe(f)) {
+    const h = hierarquia(emp).find(x => x.cargo === cargoDe(f));
+    if (h.tem - 1 < h.precisa) throw new Error(`A equipe precisa desse ${h.nome.toLowerCase()} para ser coordenada. Para tirar, diminua o nível de baixo antes.`);
+  }
   const custo = arred(comEncargos(REGRAS.niveis[f.nivel].salario) * REGRAS.rescisaoDias);
   emp.caixa = arred(emp.caixa - custo);
   emp.equipe = emp.equipe.filter(x => x.id !== id);
@@ -167,8 +225,8 @@ export function fatorPreco(preco, ref) {
 export function demandaEsperada(emp, { preco = emp.preco, propaganda = emp.propaganda, bonus = emp.bonus || 0 } = {}) {
   const r = RAMOS[emp.ramo];
   const equipe = (emp.equipe || []).reduce((s, f) => s + produtividadeDe(f, bonus), 0);
-  return r.demanda * emp.unidades * fatorPreco(preco, r.precoRef)
-    * (1 + equipe) * (1 + REGRAS.efeitoPropaganda[propaganda]);
+  return r.demanda * lojasAtivas(emp) * fatorPreco(preco, r.precoRef)
+    * (1 + equipe * (faltaChefia(emp) ? REGRAS.semChefia : 1)) * (1 + REGRAS.efeitoPropaganda[propaganda]);
 }
 
 export function faturamentoRecente(emp, dias = 20) {
@@ -237,6 +295,8 @@ export function simularDia(emp, d, aleatorio = Math.random) {
   if (estragou > 0) avisos.push(`${estragou} ${r.produto}(s) estragaram. Comida que sobra é prejuízo: compre perto do que vende.`);
   if (preco > r.precoRef * 1.4) avisos.push('Preço bem acima do normal afasta clientes.');
   if (emp.regime === 'mei' && faturamentoRecente(emp) > REGRAS.meiLimite) avisos.push(`Seu faturamento passou do limite do MEI (${REGRAS.meiLimite} em 20 dias). É hora de mudar para o Simples Nacional.`);
+  if (lojasParadas(emp) > 0) avisos.push(`${lojasParadas(emp)} loja(s) ficaram fechadas: cada loja precisa de alguém cuidando. Contrate funcionário(s) para abrir.`);
+  if (faltaChefia(emp)) avisos.push(`A equipe está sem a chefia necessária e rendeu 30% menos: 1 supervisor para cada grupo de até ${REGRAS.porChefe} funcionários, 1 gerente para cada grupo de até ${REGRAS.porChefe} supervisores e, com 2 gerentes, um CEO ou CFO.`);
   if (emp.caixa < 0) avisos.push('O caixa ficou negativo: a empresa está no vermelho. Coloque dinheiro (aporte) ou reduza custos.');
   return { ...dia, eventoTexto: evento?.texto || null, eventoDica: evento?.dica || null, avisos };
 }
@@ -271,6 +331,9 @@ export function aportar(jogo, valor) {
 }
 
 export function abrirUnidade(emp) {
+  normalizarEmpresa(emp);
+  if ((emp.unidades || 1) >= maxLojas()) throw new Error(`A empresa chegou ao tamanho máximo: ${maxLojas()} lojas com o CEO no comando.`);
+  if ((emp.unidades || 1) >= 1 + atendentesDe(emp).length) throw new Error('Cada loja precisa de alguém cuidando. Você (o dono) cuida de uma; para abrir outra, contrate um funcionário primeiro.');
   if (emp.caixa < REGRAS.custoUnidade) throw new Error(`Abrir mais uma unidade custa ${REGRAS.custoUnidade} notas do caixa.`);
   emp.caixa = arred(emp.caixa - REGRAS.custoUnidade);
   emp.unidades += 1;
