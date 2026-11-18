@@ -24,7 +24,10 @@ export function patrimonioDe(jogo, data = hojeISO()) {
   const dinheiro = Math.max(0, jogo.carteira || 0);
   const empresa = valorDaEmpresa(jogo.empresa);
   const banco = aplicacoesAtivas(jogo, data).reduce((s, a) => s + a.valorHoje, 0);
-  return { dinheiro, empresa, banco: arred(banco), total: Math.floor(dinheiro + empresa + banco) };
+  const emp = jogo.empresa;
+  // 🏪 quantas empresas e lojas tem (vai para a família junto com o patrimônio)
+  const negocio = emp ? { empresas: 1, lojas: emp.unidades || 1, ramo: emp.ramo, nomeEmpresa: String(emp.nome || '').slice(0, 24) } : { empresas: 0, lojas: 0 };
+  return { dinheiro, empresa, banco: arred(banco), total: Math.floor(dinheiro + empresa + banco), ...negocio };
 }
 
 // O Magnata também entra no ranking: começa com 500 e ganha 25 notas por dia desde o início do jogo.
@@ -32,6 +35,14 @@ export const MAGNATA_PATRIMONIO = { inicio: '2026-11-09', base: 500, porDia: 25 
 export function patrimonioDoMagnata(data = hojeISO()) {
   const dias = Math.max(0, diasEntre(MAGNATA_PATRIMONIO.inicio, data));
   return MAGNATA_PATRIMONIO.base + dias * MAGNATA_PATRIMONIO.porDia;
+}
+
+/** Texto curto das empresas de um jogador no ranking ('' quando o irmão ainda não mandou essa informação). */
+export function textoDasEmpresas(p) {
+  if (p?.empresas == null) return '';
+  if (!p.empresas) return 'Sem empresa ainda';
+  const r = RAMOS[p.ramo];
+  return `${r?.icone || '🏪'} ${p.empresas} empresa${p.empresas > 1 ? 's' : ''}${p.nomeEmpresa ? ` (${p.nomeEmpresa})` : ''} · ${p.lojas} loja${p.lojas > 1 ? 's' : ''}`;
 }
 
 /** Ranking: eu + irmãos da família (com o patrimônio que mandaram) + o Magnata. Maior primeiro. */

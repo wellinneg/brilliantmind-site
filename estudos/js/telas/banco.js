@@ -6,7 +6,7 @@ import { exibir, hojeISO, somarDias } from '../datas.js';
 import { sons } from '../sons.js';
 import { confete } from '../efeitos.js';
 import { registrarEvento } from '../missoes.js';
-import { rankingDePatrimonio } from '../patrimonio.js';
+import { rankingDePatrimonio, textoDasEmpresas } from '../patrimonio.js';
 import { desenharHeroi } from '../herois.js';
 import { RIVAL } from '../jogo.js';
 
@@ -105,7 +105,8 @@ function quadroRanking(jogo, hoje) {
       el('span', { class: 'posicao' }, ['🥇', '🥈', '🥉'][k] || `${k + 1}º`),
       j.magnata ? el('span', { class: 'magnata-pequeno' }, RIVAL.icone) : desenharHeroi(j.heroi, j.usando, 'pequeno'),
       el('span', { class: 'textos' }, el('strong', {}, j.eu ? `${j.apelido} (você)` : j.apelido),
-        el('small', {}, j.magnata ? 'Ganha 25 notas por dia. Dá para passar ele?' : `💵 ${n(j.dinheiro)} · 🏪 ${n(j.empresa)} · 🏦 ${n(j.banco)}`)),
+        el('small', {}, j.magnata ? 'Ganha 25 notas por dia. Dá para passar ele?' : `💵 ${n(j.dinheiro)} · 🏪 ${n(j.empresa)} · 🏦 ${n(j.banco)}`),
+        j.magnata || !textoDasEmpresas(j) ? null : el('small', { class: 'empresas-ranking' }, textoDasEmpresas(j))),
       el('span', { class: 'carteira' }, `💰 ${j.total}`)))),
     el('p', { class: 'dica' }, 'Patrimônio = dinheiro na carteira 💵 + o valuation da empresa 🏪 (5× o lucro dos últimos 20 dias + caixa + estoque) + o que está aplicado no banco 🏦. Gastar à toa diminui; investir bem aumenta.'),
     Object.keys(jogo.outros || {}).length ? null : el('p', { class: 'dica' }, 'Com a família ligada (Pais → Disputa da família), os irmãos aparecem aqui.'));
