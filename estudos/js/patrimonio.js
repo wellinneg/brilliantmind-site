@@ -40,9 +40,9 @@ export function patrimonioDoMagnata(data = hojeISO()) {
 /** Texto curto das empresas de um jogador no ranking ('' quando o irmão ainda não mandou essa informação). */
 export function textoDasEmpresas(p) {
   if (p?.empresas == null) return '';
-  if (!p.empresas) return 'Sem empresa ainda';
+  if (!p.empresas) return '🏪 0 lojas (ainda não abriu)';
   const r = RAMOS[p.ramo];
-  return `${r?.icone || '🏪'} ${p.empresas} empresa${p.empresas > 1 ? 's' : ''}${p.nomeEmpresa ? ` (${p.nomeEmpresa})` : ''} · ${p.lojas} loja${p.lojas > 1 ? 's' : ''}`;
+  return `${r?.icone || '🏪'} ${p.lojas} loja${p.lojas > 1 ? 's' : ''}${p.nomeEmpresa ? ` (${p.nomeEmpresa})` : ''}`;
 }
 
 /** Ranking: eu + irmãos da família (com o patrimônio que mandaram) + o Magnata. Maior primeiro. */
